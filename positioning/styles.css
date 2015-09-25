@@ -1,0 +1,143 @@
+html, body {
+    height: 2000px;
+    min-width: 920px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+/* user-info-container */
+
+.user-info-container {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: url(images/frame-round.gif);
+    z-index: 100;
+}
+
+.user-info-container .user-photo {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 170px;
+    height: 170px;
+    background: url(images/photo-round.gif);
+}
+
+.user-info-container .twitter {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 36px;
+    top: 16px;
+    background: url(images/sprite-social-networks.png) 0 -72px no-repeat;
+}
+
+.user-info-container .tumblr {
+     position: absolute;
+     width: 24px;
+     height: 24px;
+     left: 163px;
+     top: 130px;
+     background: url(images/sprite-social-networks.png) 0 -48px no-repeat;
+}
+
+.user-info-container .facebook {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 138px;
+    top: 158px;
+    background: url(images/sprite-social-networks.png) 0 0 no-repeat;
+}
+
+.user-info-container .pinterest {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 104px;
+    top: 175px;
+    background: url(images/sprite-social-networks.png) 0 -24px no-repeat;
+}
+
+/* content */
+
+.content {
+    position: relative;
+    width: 520px;
+    height: 820px;
+    margin: 150px auto 120px;
+}
+
+.layer-top, .layer-middle, .layer-bottom {
+    width: 500px;
+    height: 800px;
+}
+
+.layer-top {
+     position: absolute;
+     left: 0;
+     top: 0;
+     background: red;
+ }
+
+.layer-middle {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: darkblue;
+}
+
+.layer-bottom {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: deepskyblue;
+}
+
+/* question-box */
+
+.question-box {
+    position: fixed;
+    width: 300px;
+    min-height: 70px;
+    bottom: 50px;
+    right: 50px;
+    background: darkslategrey;
+    color: white;
+    padding: 15px 5px 15px 100px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+    opacity: 0.8;
+}
+
+.question-box .question-icon {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: yellow;
+}
+
+.question-box .question-header {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.question-box .question-header, .question-box .header {
+    font-weight: bold;
+}
+
+
+.question-box .header, .question-box .data{
+    display: inline;
+}
+
+
+
+
+
+
