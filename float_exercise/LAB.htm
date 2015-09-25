@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Front-End LAB</title>
+	<style>
+		body {font-size: 100px; text-align: center;}
+		.center {display: inline-block;}
+		p {font-size: 30px; text-align: center;}
+		section {float: left;}
+		.resultSection {font-size: 0;}
+		.workSection {width: 4em; height: 4em; margin: 100px 0 0 100px; line-height: 0; border: 3px dashed orange;}
+
+		.workSection div {}
+		
+		.workSection div:nth-child(3n) {background-color: rgba(255,0,0,.7);}
+		.workSection div:nth-child(3n+1) {background-color: rgba(0,255,0,.7);}
+		.workSection div:nth-child(3n+2) {background-color: rgba(0,0,255,.7);}
+
+		.workSection div:nth-child(2n) {box-shadow: 0 0 3em #333 inset;}
+		.workSection div:nth-child(2n+1) {box-shadow: 0 0 3em #ccc inset;}
+
+		
+		.w1 {width: 1em;}
+		.w2 {width: 2em;}
+
+		.h1 {height: 1em;}
+		.h2 {height: 2em;}
+
+		.l {float: left;}
+		.r {float: right;}
+
+	</style>
+</head>
+<body>
+	<div class="center">
+		<section class="resultSection">
+			<p>Результат:</p>
+			<img src="http://i.gyazo.com/0e5592da89b0df1d07d5f11a30e0ccd4.png" />
+		</section>
+
+		<section class="workSection">
+			<div class="w1 h1 l"></div>
+			<div class="w2 h1 r"></div>
+			<div class="w1 h1 r"></div>
+			<div class="w1 h2 l"></div>
+			<div class="w2 h1 l"></div>
+			<div class="w1 h1 r"></div>
+			<div class="w1 h2 r"></div>
+			<div class="w1 h1 l"></div>
+			<div class="w1 h1 r"></div>
+			<div class="w1 h1 r"></div>
+			<div class="w1 h1 l"></div>
+			<div class="w1 h1 l"></div>
+		</section>
+	</div>
+
+</body></html>
