@@ -5,3 +5,4 @@
 * [Float Exercise](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/float_exercise.md)
 * [Positioning](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/positioning.md)
 * [Float layouts](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/float_layouts.md)
+* [Workshop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/workshop.md)
