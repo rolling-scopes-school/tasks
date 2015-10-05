@@ -7,3 +7,5 @@
 * [Float layouts](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/float_layouts.md)
 * [Workshop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/workshop.md)
 * [RWD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/responsive.md)
+* [Graphics, forms and widgets](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/forms_and_widgets.md)
+
