@@ -31,4 +31,4 @@ http://habrahabr.ru/post/31279/
 ссылка на макет
 https://www.dropbox.com/sh/sc0pc37pfmdmyj9/AAAN3byZFbM4QGn6k89vWTcea?dl=0
 
-ссылка на шрифт https://dl.dropboxusercontent.com/u/65879610/gotham-book-1361523257.ttf
+ссылка на шрифт https://dl.dropboxusercontent.com/u/65879610/gotham.zip
