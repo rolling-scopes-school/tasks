@@ -10,4 +10,5 @@
 * [Graphics, forms and widgets](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/forms_and_widgets.md)
 * [Final Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/final_task.md)
 * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md)
+* [Make](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/make.md)
 
