@@ -14,14 +14,6 @@ Deadline         | Folder Name
 * использовать css transform
 * не использовать setTimeout
 
-На данный момент хром требует префикс для следующих css свойств:
-
-`-webkit-animation`
-
-`@-webkit-keyframes`
-
-Все [AnimationEvent](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)-ы также префиксные (`webkitAnimationEnd`,`webkitTransitionEnd`...)
-
 Не обязательно делать в точности так, как в примере. Придумайте свою анимацию для появления и скрытия элемента и реализуйте ее! Только не переборщите :smirk_cat: 
 
 ### Дополнительно и обязательно:
