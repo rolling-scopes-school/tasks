@@ -1,3 +1,14 @@
+#jQuery Final Task
+
+
+Deadline         | Folder Name
+-----------------|---------
+18-11-2015 | jquery-playground
+
+[Исходники](https://github.com/daryasabinina/jQuery-course-/tree/master/playground)
+
+
+
 ТЗ в pdf <b>+</b> <br>
 
 1.  Добавляем еще один image field в левую колонку
