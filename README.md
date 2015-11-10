@@ -13,5 +13,4 @@
 * [Make](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/make.md)
 * [Animations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/animations.md)
 * [jQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/jquery.md)
-* 
-
+* [Critical Rendering Path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
