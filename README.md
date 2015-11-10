@@ -12,3 +12,6 @@
 * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md)
 * [Make](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/make.md)
 * [Animations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/animations.md)
+* [jQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/jquery.md)
+* 
+
