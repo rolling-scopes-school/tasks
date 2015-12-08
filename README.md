@@ -15,5 +15,5 @@
 * [jQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/jquery.md)
 * [Critical Rendering Path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
 * [Gulp](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/gulp.md)
-* [jQuery](https://github.com/daryasabinina/jQuery-course-/tree/master/playground)
 * [TDD](http://rootthelure.github.io/js-testing-workshop/#/)
+* [Youtube](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/youtube.md)
