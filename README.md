@@ -18,3 +18,4 @@
 * [TDD](http://rootthelure.github.io/js-testing-workshop/#/)
 * [Youtube](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/youtube.md)
 * [Webpack](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/webpack.md)
+* [Wunderlist](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/wunderlist.md)
