@@ -1,12 +1,10 @@
 Deadline         | Folder Name
 -----------------|---------
-10-JAN-2016 | wunderlist
+10-JAN-2016 | team-list
 
 
 
-##Version 0.1 (Draft)
-
-This document is intended to describe core specification of “TeamBoard” project.
+This document is intended to describe core specification of “TeamList” project.
 
 TeamList is an application for team collaboration via lists of ToDo-alike extended items.
 
