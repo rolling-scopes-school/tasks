@@ -35,8 +35,8 @@ TeamList is an application for team collaboration via lists of ToDo-alike extend
 Structural requirements (SR):
 - Layers:
   1. Client side:
-    - Angular JS 1.2
-    - jQuery 2.1+jQueryUI 1.11
+    - Angular JS 1.4+
+    - jQuery 2+; jQueryUI 1.11
     - Whatever you want
   2. Server side:
     - [express.js](http://expressjs.com/)
