@@ -6,5 +6,8 @@
 Когда задания будут готовы отправьте результаты через форму:
 http://school.rollingscopes.com/padawan/classroom
 
+Задавать вопросы можно и нужно тут:
+https://gitter.im/rolling-scopes-school/padawans
+
 
 
