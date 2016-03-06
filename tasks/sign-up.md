@@ -9,5 +9,5 @@
   * создайте новый бранч `about-me`
   * обновите `README.md`, укажите в нем свое имя и фамилию, универ, год окончания и любую доп. информацию на ваше усмотрение
     * закомитайте обновленный `README.md`
-    * push
+    * push в ветку `about-me`
     * сделайте pull request из ветки `about-me` в `master` ([как?](https://help.github.com/articles/using-pull-requests/))
