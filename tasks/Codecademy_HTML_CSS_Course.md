@@ -4,6 +4,6 @@
 2. Go to https://www.codecademy.com/learn/web
 3. Complete first 3 units, including HTML Basics I, II, III
 4. When it's done, copy your profile link and send it by email to the lector
-5. * Optionally complete all free units
+5.* Optionally complete all free units
 
 + Could be combined with task CSS Diner
