@@ -1,6 +1,6 @@
-﻿Deadline         | Folder Name    | Coefficient
+Deadline         | Folder Name    | Coefficient
 -----------------|----------------|------------------
-21.09.2015 23:59 | float_exercise | 0.2
+15.03.2016 23:59 | float_exercise | 0.2
 
 Задание для тренировки float.
 

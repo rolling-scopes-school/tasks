@@ -1,6 +1,6 @@
-﻿Deadline         | Folder Name    | Coefficient
+Deadline         | Folder Name    | Coefficient
 -----------------|----------------|--------------
-21.09.2015 23:59 | positioning    | 0.4
+15.03.2016 23:59 | positioning    | 0.4
 
 Сверстать блоки, используя полученные знания о позиционировании.
 
