@@ -5,5 +5,4 @@
 3. Achieve final picture with completion phrase - it is code phrase
 4. Attach screenshot (or type phrase text) to email and send it to the lector
 
-
 + Could be combined with task Codecademy HTML & CSS Course
