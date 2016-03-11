@@ -6,4 +6,8 @@
 4. When it's done, copy your profile link and send it by email to the lector
 5. *Optionally complete all free units
 
+---
+deadline = 14.03.2016
+---
+
 + Could be combined with task CSS Diner
