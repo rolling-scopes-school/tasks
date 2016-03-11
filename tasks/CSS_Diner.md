@@ -6,7 +6,7 @@
 4. Attach screenshot (or type phrase text) to email and send it to the lector
 
 ---
-deadline = 14.03.2016
+! deadline = 14.03.2016
 
 ---
 + Could be combined with task Codecademy HTML & CSS Course
