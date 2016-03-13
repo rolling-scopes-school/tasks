@@ -1,0 +1,156 @@
+body {
+    width: 1265px;
+    height: 2000px;
+}
+
+h1 {
+    color:deeppink;
+    margin: auto;
+
+    font-size: 300%;
+    font-family: fantasy;
+    font-style: italic;
+
+    width: 240px;
+
+    border-bottom: solid;
+    border-color: aquamarine;
+}
+
+.avatar img:first-child {
+    text-align: left;
+
+    margin-left: 30px;
+
+    width: 20%;
+    height: 20%;
+
+    border-radius: 80%;
+    border: inset;
+    border-color: aquamarine;
+
+    position: relative;
+}
+
+.avatar .twitter {
+    position: absolute;
+    left: 75px;
+}
+
+.avatar .thumblr {
+    position: absolute;
+
+    top: 160px;
+    left: 275px;
+
+}
+
+.avatar .facebook {
+    position: absolute;
+
+    top: 195px;
+    left: 250px;
+
+}
+
+.avatar .pinterest {
+    position: absolute;
+
+    top: 220px;
+    left: 210px;
+
+}
+
+
+.main-pic1 {
+    margin: auto;
+    margin-top: -80px; ;
+    text-align: center;
+
+    background-color: aquamarine;
+    border: solid;
+    border-color: aquamarine;
+    width:600px;
+    height: 750px;
+
+    position: relative;
+    z-index: 10;
+}
+
+.main-pic1 .foto1 {
+    padding-top: 90px;
+
+    z-index: 4;
+}
+
+.main-pic2 {
+    margin-top: -745px;
+    margin-left: 347px;
+
+    background-color: antiquewhite;
+    width:600px;
+    height: 750px;;
+
+    position: relative;
+    z-index: 2;
+}
+
+.main-pic3 {
+    margin-top: -743px;
+    margin-left: 362px;
+
+    background-color: gold;
+    width:595px;
+    height: 750px;;
+
+    position: relative;
+    z-index: 1;
+}
+
+.fixed-div {
+
+}
+
+.fixed-div {
+    width:350px;
+    background-color:rgba(255, 20, 147, 0.3) ;
+    text-align: left;
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 15;
+}
+
+.fixed-div img {
+    width: 35%;
+    float:left;
+    padding: 20px;
+}
+
+.fixed-div address {
+    padding: 0px 20px 0px 0px;
+
+    font-size: 80%;
+}
+
+.toTheTop {
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+
+    z-index: 0;
+}
+
+.hide-avatar {
+
+    width: 350px;
+    height: 50px;
+
+    background-color: white;
+
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
