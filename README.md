@@ -1,21 +1,12 @@
 ### Tasks
-* [Algorithms](https://www.coursera.org/course/algs4partI)
-* [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/welcome-aboard.md)
-* [Create form](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/create_form.md)
-* [Float Exercise](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/float_exercise.md)
-* [Positioning](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/positioning.md)
-* [Float layouts](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/float_layouts.md)
-* [Workshop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/workshop.md)
-* [RWD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/responsive.md)
-* [Graphics, forms and widgets](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/forms_and_widgets.md)
-* [Final Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/final_task.md)
-* [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md)
-* [Make](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/make.md)
-* [Animations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/animations.md)
-* [jQuery](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/jquery.md)
-* [Critical Rendering Path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
-* [Gulp](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/gulp.md)
-* [TDD](http://rootthelure.github.io/js-testing-workshop/#/)
-* [Youtube](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/youtube.md)
-* [Webpack](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/webpack.md)
-* [Wunderlist](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/wunderlist.md)
+* [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/welcome-aboard.md)
+* [Binary Tree](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/binary-tree.md)
+* [Critical rendering path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
+* [Sign up to RS School](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/sign-up.md)
+
+Задавать вопросы можно и нужно тут:
+https://gitter.im/rolling-scopes-school/padawans
+
+Денис Терешко, БГЭУ 2011 год.
+
+
