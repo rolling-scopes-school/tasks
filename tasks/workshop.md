@@ -1,6 +1,6 @@
 ﻿Deadline         | Folder Name    | Coefficient
 -----------------|----------------|---------------
-21.03.2016 12:00 | workshop       | 0.6
+23.03.2016 12:00 | workshop       | 0.6
 
 Сверстать страницу по [макету](https://www.dropbox.com/sh/zbm0eh5dk3rphyw/AABdfAzhSASRmtdpxASVhyHVa?dl=0)
  
