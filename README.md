@@ -10,6 +10,7 @@
 * [Positioning](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/positioning.md)
 * [Float Layouts](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/float_layouts.md)
 * [Workshop: CSS basics](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/workshop.md)
+* [Responsive Web Design](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/responsive.md)
 
 Задавать вопросы можно и нужно тут:
 https://gitter.im/rolling-scopes-school/padawans
