@@ -2,7 +2,7 @@ Deadline         | Folder Name    | Coefficient
 -----------------|----------------|---------------
 23.03.2016 12:00 | workshop       | 0.6
 
-Сверстать страницу по [макету](https://www.dropbox.com/sh/zbm0eh5dk3rphyw/AABdfAzhSASRmtdpxASVhyHVa?dl=0)
+Сверстать страницу по [макету](https://www.dropbox.com/s/8kk2dhj170qzmgj/mockup.psd?dl=0)
 
 Презентация: [клик сюда](http://slides.com/iupac/workshop)
  
