@@ -1,4 +1,4 @@
-﻿Deadline         | Folder Name    | Coefficient
+Deadline         | Folder Name    | Coefficient
 -----------------|----------------|---------------
 23.03.2016 12:00 | workshop       | 0.6
 
@@ -16,6 +16,7 @@
 
 Бонус за:
  1. Пиксель в пиксель (Pixel Perfect)
+ 2. Замечания: в меню, вертикальном и горизонтальном, отступы брать по первомым двум элементам. По шрифтам нет смысла подбирать горизонтальные расстояния. 
 
 Cтайлгайды: [клик сюда](https://drive.google.com/file/d/0B5OYTsXumLhLQXdwVVBJYnJRMTQ/view)
 
