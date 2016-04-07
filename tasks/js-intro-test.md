@@ -146,6 +146,18 @@ console.log(++lada.currentGear);
 console.log(Car.prototype.currentGear);
 
 //###
+
+function Person(firstName, lastName) { 
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.getName = () => this.firstName + " " + this.lastName;
+}
+
+let batman = new Person("Bruce", "Wayne");
+console.log(batman.getName());
+console.log(batman.getName.call({firstName:"Clark", lastName:"Kent"}));
+
+//###
 var o = {
         x: 8,
 
