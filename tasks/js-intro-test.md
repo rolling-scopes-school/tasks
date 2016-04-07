@@ -28,6 +28,16 @@ var array1 = new Array(3);
 console.log(array1[0]);
 
 //###
+let x = 50;
+
+if (x < 100) {
+   let x = 200;
+   console.log(x);
+}
+
+console.log(x);
+
+//###
 function x(o){
 	o.a = o.a + 5;
 	o = {
