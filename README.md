@@ -17,9 +17,4 @@
     * [Final Task](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/final_task.md)
 - JavaScript
     * [JS Assignments](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/js-assignments.md)
-
-Задавать вопросы можно и нужно тут:
-https://gitter.im/rolling-scopes-school/padawans
-
-
-
+    * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/custom-jquery.md)
