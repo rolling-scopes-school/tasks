@@ -1,6 +1,6 @@
-| Deadline | Folder name |
-|----------|-------------|
-| 09.11.2015| custom-jquery |
+| Deadline  | Folder name |
+|-----------|-------------|
+| 25.04.2016| custom-jquery |
 
 ### Custom JQuery
 
