@@ -18,3 +18,4 @@
 - JavaScript
     * [JS Assignments](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/js-assignments.md)
     * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/custom-jquery.md)
+    * [Real JQuery](https://github.com/daryasabinina/jQuery-course-/tree/master/playground)
