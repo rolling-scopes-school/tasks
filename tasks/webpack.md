@@ -2,7 +2,7 @@
 
 Deadline         | Folder Name
 -----------------|---------
-19.12.2015 23:59 | webpack
+06.06.2016 23:59 | webpack
 
 Требования:
 * Календарь, отображающий одну неделю
@@ -15,3 +15,8 @@ Deadline         | Folder Name
 * Модули должны подключаться через webpack
 * Для каждого модуля должен присутствовать свой css-файл
 * Календарь должен содержать 2-3 заметки(день и время не важны)
+
+Bonus:
+* Webpack dev server
+* Hot Module Replacement
+* Other Webapck features
