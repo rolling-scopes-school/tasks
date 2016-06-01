@@ -20,3 +20,4 @@
     * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/custom-jquery.md)
     * [Real JQuery](https://github.com/daryasabinina/jQuery-course-/tree/master/playground)
     * [Webpack](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/webpack.md)
+    * [Lamernews](https://github.com/rolling-scopes-school/tasks/blob/2016-Q1/tasks/lamernews.md)
