@@ -19,6 +19,8 @@ Your task is implement it with Node.js (express.js/koa.js)/Mongo/React/Angular
 - `PUT /users/:username` - should update user information (`username` __should__ be username of authorized user)
 - `DELETE /users/:username` - should delete user profile (`username` __should__ be username of authorized user)
 
+To test your rest endpoints without UI you can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) chrome extension
+
 ### Models
 #### User
 User should contain following information (this info should be somehow shown on UI)
@@ -59,3 +61,31 @@ Article should contain following information (this info should be somehow shown 
 * When user clicks on navigation – list view should update (with corresponding url change)
 * When user clicks on item in list view - details view should update (with corresponding url change)
 
+## Project structure suggestions
+```
+root
+   dist/ -- ui resources after build --
+   app/ -- all service related stuff
+     models/
+       User.js
+       Article.js
+       ...
+     config/ -- configuration related stuff --
+       routes.js
+       passport.js
+       ...
+     controllers/ -- route handlers --
+       users.js
+       articles.js
+       ...
+   public/ -- all client side code should be in this folder --
+     scripts/
+       ...
+     styles/
+     index.html
+  service.js
+  package.json
+  .gitignore
+  .babelrc
+  webpack.config.js
+```
