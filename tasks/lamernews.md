@@ -8,7 +8,7 @@ Your task is implement it with Node.js (express.js/koa.js)/Mongo/React/Angular
 #### Articles
 - `GET /articles/:startIndex/:count?sort` - should return json array with list of `count` articles starting from `startIndex` sorted in `sort` order (`latest|top`)
 - `GET /articles/random` - should return random article
-- `POST /articles/:id` - should create new article
+- `POST /articles/` - should create new article
 - `PUT /articles/:id` - should update existing article
 - `DELETE /articles/:id` - should delete existing article
 
