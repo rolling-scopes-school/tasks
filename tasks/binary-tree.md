@@ -1,8 +1,8 @@
 ### Binary Tree
 * Создайте публичный репозиторий на github-е
-* Скачайте подготовленые исходники таска [тут](http://school.rollingscopes.com/padawan/binary-tree.zip)
+* Добавьте в него содержимое [этого](https://github.com/rolling-scopes-school/binary-tree) репозитория
 
-Что лежит в архиве?
+Что здесь?
 
 `binary-tree.js` – в этом файле вам нужно писать код. Не удалйяте существующие методы, добавлять новые можно
 
