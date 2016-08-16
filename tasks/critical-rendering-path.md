@@ -1,7 +1,3 @@
-### Deadline
-TBD
-
-
 ### Critical rendering path
 
 1. Пройти краткий онлайн курс - [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
