@@ -17,3 +17,5 @@
   - откройте [http://localhost:8080](http://localhost:8080) в браузере
 
 После выполнения задания – сдавать здесь :arrow_right: [https://school.rollingscopes.com/padawan/](https://school.rollingscopes.com/padawan/)
+
+**Задание считается выполненным при прохождении 100% тестов.**
