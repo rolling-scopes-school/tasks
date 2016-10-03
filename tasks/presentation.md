@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 03.11.2016| presentation |
+| 23:59 03.11.2016 | presentation |
 
 ### Presentation
 
