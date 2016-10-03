@@ -8,6 +8,4 @@
 
 Deadline         | Coefficient
 -----------------|------------------
-11.09.2016 23:59 | 0.1
-
-+ Could be combined with task CSS Diner
+11.09.2016 23:59 | 0.2
