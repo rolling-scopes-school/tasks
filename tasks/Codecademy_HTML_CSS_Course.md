@@ -1,4 +1,4 @@
-# Codecademy HTML & CSS Course
+# Codecademy HTML Basics Course
 
 1. Create profile on https://www.codecademy.com/learn
 2. Go to https://www.codecademy.com/learn/web
