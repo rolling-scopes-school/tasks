@@ -10,8 +10,6 @@ Example:
 Siarhei Shaliapin
 https://www.codecademy.com/ra_Levis
 
-6. *Optionally complete all units in HTML&CSS topic
-
 Deadline         | Coefficient
 -----------------|------------------
 11.10.2016 23:59 | 0.2
