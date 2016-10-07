@@ -9,3 +9,6 @@
 
 Вот здесь есть описание, что должен включать в себя этот файл. 
 https://gist.github.com/jxson/1784669
+
+
+![alt tag](http://memesmix.net/media/created/09516c.jpg)
