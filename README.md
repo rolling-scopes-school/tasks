@@ -7,3 +7,4 @@
 - [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/presentation.md)
 - [Codecademy HTML Basics Course](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/Codecademy_HTML_CSS_Course.md)
 - [Positioning](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/positioning.md)
+- [Crazy Readme file](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/readmetask.md)
