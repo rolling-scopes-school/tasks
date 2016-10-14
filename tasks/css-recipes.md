@@ -17,6 +17,7 @@ https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&previe
 4.Шрифты взять здесь:
 
 https://www.google.com/fonts/specimen/Montserrat
+
 https://www.google.com/fonts/specimen/Open+Sans
 
 Можно использовать шрифты (например, Font Awesome) для иконок.
