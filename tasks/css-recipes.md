@@ -8,13 +8,13 @@ https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&previe
 
 Требования:
 
--Поддержка последней версии Chrome и  FF, IE11.
+1.Поддержка последней версии Chrome и  FF, IE11.
 
--Footer прижат к низу.
+2.Footer прижат к низу.
 
--Колонки одинаковой высоты.
+3.Колонки одинаковой высоты.
 
--Шрифты взять здесь:
+4.Шрифты взять здесь:
 
 https://www.google.com/fonts/specimen/Montserrat
 https://www.google.com/fonts/specimen/Open+Sans
