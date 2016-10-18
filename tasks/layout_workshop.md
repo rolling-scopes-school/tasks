@@ -1,6 +1,6 @@
 ﻿Deadline         | Folder Name      | Coefficient
 -----------------|------------------|--------------
-20.10.2016 23:59 | layout-workshop  | 0.7
+22.10.2016 23:59 | layout-workshop  | 0.7
 
 Ссылка на макет:
 
