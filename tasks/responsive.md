@@ -12,5 +12,5 @@ Deadline         | Folder Name    | Coefficient
 6. Подключить Icon Font для иконок
 7. Применить Off-Canvas технику
 
-Ссылки на макеты:
-- https://www.dropbox.com/s/w5t1peuzhvd7116/task.psd
+Ссылки на макет:
+- https://www.dropbox.com/s/16y4wx59p7zperz/rwd_task.psd
