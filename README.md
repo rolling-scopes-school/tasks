@@ -12,4 +12,6 @@
 - [CSS-Recipes](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/css-recipes.md)
 - [Layout-workshop](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/layout_workshop.md)
 - [Forms & Widgets](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/forms_and_widgets_new.md)
+- [Accessibility](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/accessibility.md)
+- [Preprocessors](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/preprocessors.md)
 
