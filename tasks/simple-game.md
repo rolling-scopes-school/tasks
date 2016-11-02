@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 28.11.2016 | simple-game |
+| 23:59 29.11.2016 | simple-game |
 
 ### Простая игра на JavaScript + HTML or Canvas/WebGl
 
