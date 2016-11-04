@@ -1,4 +1,8 @@
- Codewars 
+﻿Deadline         |  Coefficient
+-----------------|----------------
+22.11.2016 23:59  | 0.6
+
+Codewars 
   - Part I 
      - http://www.codewars.com/kata/opposite-number
      - http://www.codewars.com/kata/basic-mathematical-operations
