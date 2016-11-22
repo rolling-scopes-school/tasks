@@ -18,5 +18,5 @@ var bst = new BinarySearchTree();
 ...
 bst.insert(key1, value1).insert(key2, value2).insert(key3, value3).delete(key2).search(key3);
 ```
-##### DON'T USE ARRAYS OR OTHER DATA STRUCTURES FOR STORING ITEMS INSIDE DDL!
+##### DON'T USE ARRAYS OR OTHER DATA STRUCTURES FOR STORING ITEMS INSIDE BST!
 ##### PAY SPECIAL ATTENTION TO CODE QUALITY
