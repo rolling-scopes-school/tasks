@@ -19,4 +19,5 @@
 - [Simple Game](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/simple-game.md)
 - [JS assignments](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/js-assignments.md)
 - [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/codewars.md)
+- [Custom jQuery](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/custom-jquery.md)
 
