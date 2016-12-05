@@ -7,6 +7,9 @@ Deadline         | Folder Name
 
 [Исходники](https://www.dropbox.com/s/uqlc813bsoi2hfm/forms_and_widgets_jquery.zip?dl=0)
 
+##Slides<br>
+
+[Slides](https://slides.com/ra_levis/jquery-brief-tutorial)
 
 ##ТЗ<br>
 
