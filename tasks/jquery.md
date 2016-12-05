@@ -3,9 +3,9 @@
 
 Deadline         | Folder Name
 -----------------|---------
-18-11-2015 | jquery-playground
+18-12-2016 | jquery
 
-[Исходники](https://github.com/daryasabinina/jQuery-course-/tree/master/playground)
+[Исходники](https://www.dropbox.com/s/2300ms7i0ej9xx4/forms_and_widgets_jquery.zip?dl=0)
 
 
 ##ТЗ в pdf <b>+</b> <br>
