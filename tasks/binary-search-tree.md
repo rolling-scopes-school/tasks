@@ -9,7 +9,7 @@ Implement data structure **"binary search tree"**. It should be done as a **stan
 * delete   (**param:** key)        removes node from tree by provided key; method should be chainable**;
 * search   (**param:** key)        looking for stored data in tree using key;
 * contains (**param:** value)      returns whether BST contains such value or not;
-* traverse (**param:** order)      retrieves ordered sequence of stored values in given oreder (order is boolean)   
+* traverse (**param:** order)      retrieves ordered sequence of stored values in given order (order is boolean)   
 * verify   (**no param**)          verifies whether tree is well-formed binary search tree or not
 
 **chainable
