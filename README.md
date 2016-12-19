@@ -21,4 +21,4 @@
 - [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/codewars.md)
 - [Custom jQuery](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/custom-jquery.md)
 - [Youtube](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/youtube.md)
-
+- [HTML&CSS Final Task](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/final_task.md)
