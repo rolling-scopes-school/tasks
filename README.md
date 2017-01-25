@@ -3,6 +3,7 @@
 - Intro
   * [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/welcome-aboard.md)
   * [Critical rendering path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
+  * [Doubly Linked List](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/doubly-linked-list.md)
 [//]: <> (- [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/presentation.md)
 [//]: <> (- [Codecademy HTML Basics Course](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/Codecademy_HTML_CSS_Course.md)
 [//]: <> (- [Positioning](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positioning.md)
