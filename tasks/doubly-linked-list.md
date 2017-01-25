@@ -6,7 +6,7 @@
 
 Your task is to implement [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list) data structure.
 
-1. Fork [this](https://github.com/rolling-scopes-school/priority-queue) repo
+1. Fork [this](https://github.com/rolling-scopes-school/doubly-linked-list) repo
 2. Implement class methods (fille `src/linked-list.js`)
 3. Commit your changes
 4. Push changes to github
