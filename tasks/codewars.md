@@ -3,6 +3,8 @@
 26.11.2016 23:59  | 0.6
 
 Codewars 
+  - https://www.codewars.com/kata/base-conversion/
+
   - Part I 
      1. http://www.codewars.com/kata/opposite-number
      2. http://www.codewars.com/kata/basic-mathematical-operations
