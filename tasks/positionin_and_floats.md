@@ -16,7 +16,7 @@ Despription
 7. Для скругления элементов использовать полученные знания о CSS3
 8. 4 блока с CSS шутками - простые картинки
 9. !!! Не использовать flex  - только position и float 
-10. Шрифт Myriad Pro
+10. Шрифт Myriad Pro либо https://fonts.google.com/specimen/PT+Sans
 
 
 
