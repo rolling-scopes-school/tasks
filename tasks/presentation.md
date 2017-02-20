@@ -7,7 +7,7 @@
 Your task is to prepare a presentation on a given topic.
 
 Requirements:
-* 5 - 10 min
+* 8 - 20 min
 * Talk rehearsal within your group is mandatory
 * Speaker notes for each slide is mandatory
 * Language - English.
