@@ -4,7 +4,7 @@
 
 ### Presentation
 
-Your task is to prepare a presentation on a given topic.
+Your task is to prepare a presentation on a given topic. Topics - https://gist.github.com/DaQuirm/3b6d585f3556039117576854ffd977eb 
 
 Requirements:
 * 8 - 20 min
