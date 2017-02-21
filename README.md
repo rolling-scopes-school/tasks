@@ -10,6 +10,7 @@
 - Stage #2
   * [Positioning & Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
   * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/presentation.md)
+  * https://www.codeschool.com/courses/discover-devtools
   
 - Things that should be done every day
   * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
