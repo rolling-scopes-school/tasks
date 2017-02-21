@@ -1,6 +1,6 @@
 ﻿Deadline         |  Coefficient
 -----------------|----------------
-26.11.2016 23:59  | 0.6
+07.03.2017 23:59  | X
 
 Codewars 
   - https://www.codewars.com/kata/base-conversion/
