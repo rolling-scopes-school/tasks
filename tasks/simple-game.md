@@ -13,3 +13,5 @@
 С чего начать - https://habrahabr.ru/post/184666/  
 Графику можно взять тут - http://opengameart.org/ или где угодно :)
 
+В тему - http://robinbobin.livejournal.com/4066704.html
+
