@@ -8,6 +8,7 @@
   * [Tic Tac Toe](https://github.com/rolling-scopes-school/tic-tac-toe)
   * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
 - Stage #2
+  * [CSS Recipes & Layouts](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/layout_workshop.md)
   * [Positioning & Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
   * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/presentation.md)
   * https://www.codeschool.com/courses/discover-devtools
