@@ -87,7 +87,7 @@ function Node(...) {
     this.key = ...;
     this.value = ...;
     
-    //please don't rename left, right and root properties
+    //please don't rename left, right, key, value and root properties
     this._left = ...;
     this._right = ...;
 }
