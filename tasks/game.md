@@ -2,7 +2,7 @@
 |-----------|-------------|
 | 23:59 12.04.2017 | game |
 
-###  Игра на JavaScript + HTML or Canvas/WebGl
+###  TASK: Игра на JavaScript + HTML or Canvas/WebGl
 
 ### Requirements
 #### Required:
