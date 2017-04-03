@@ -16,6 +16,7 @@
   * [JS Assignments](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/js-assignments.md)
   * [BST Workshop](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/bst-workshop.md)
   * [Custom JQuery](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/custom-jquery.md)
+  * [English Assessment](https://docs.google.com/spreadsheets/d/1y8PkApT0yk1H9OkkIEZIWE4WavUsuNU2MVClP2EvmjA/edit#gid=0)
   * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/game.md)
   
 - Things that should be done every day
