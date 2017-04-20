@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 29.04.2017 | css-frameworks |
+| 23:59 01.05.2017 | css-frameworks |
 
 Таск по макету:
 
