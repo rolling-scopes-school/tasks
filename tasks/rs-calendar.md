@@ -56,8 +56,8 @@
   
   ### Api Back-end
   
-  *GET http://128.199.53.150/events
-  *GET http://128.199.53.150/events/:id (например http://128.199.53.150/events/5915cd1589e1e8ac13de8550)
+  * GET http://128.199.53.150/events
+  * GET http://128.199.53.150/events/:id (например http://128.199.53.150/events/5915cd1589e1e8ac13de8550)
   
-  *GET http://128.199.53.150/trainers
-  *GET http://128.199.53.150/trainers/:id 
+  * GET http://128.199.53.150/trainers
+  * GET http://128.199.53.150/trainers/:id 
