@@ -17,7 +17,7 @@
  * React
  * Webpack
  * Airbnb styleguide + lint
- * ES6+ or Typescript
+ * ES6+ or Typescript of Flow
 
 ### Функциональные требования. 
 
@@ -54,4 +54,10 @@
   * Тестовый Back-end для этого таска будет развернут тут - http://128.199.53.150/
   * Исходный код тут - https://github.com/Shastel/rs-calendar-task
   
+  ### Api Back-end
   
+  *GET http://128.199.53.150/events
+  *GET http://128.199.53.150/events/:id (например http://128.199.53.150/events/5915cd1589e1e8ac13de8550)
+  
+  *GET http://128.199.53.150/trainers
+  *GET http://128.199.53.150/trainers/:id 
