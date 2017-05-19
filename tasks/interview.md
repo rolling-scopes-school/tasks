@@ -11,7 +11,7 @@
 Реже:
 - OOP
 - HTML/CSS theory (adaptive design, semantic markup etc)
-- Рow browser works (rendering, painting etc)
+- How browser works (rendering, painting etc)
 - Animations in browser - types, differences, pros and cons.
 - CSS pre-processors: why and what are the benefits.
 - Computer science. (e.g. array vs list)
