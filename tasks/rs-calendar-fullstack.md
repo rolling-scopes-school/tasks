@@ -1,4 +1,4 @@
-###RS Calendar: Part II (DRAFT)
+### RS Calendar: Part II (DRAFT)
 
 Суть задания - дороботка предыдушей версии [RS Calendar](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/rs-calendar.md)
 
