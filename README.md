@@ -23,6 +23,9 @@
   * [YouTube](https://github.com/rolling-scopes-school/tasks/blob/2016-Q4/tasks/youtube.md)
   * [RS-Calendar](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/rs-calendar.md)
   * [Interview](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/interview.md)
+- Stage #4
+  * [Forms & Widgets](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/forms_and_widgets.md)
+  * [RS-Calendar-PartII](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/rs-calendar-fullstack.md)
   
 - Things that should be done every day
   * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
