@@ -28,6 +28,7 @@
   * [RS-Calendar-PartII](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/rs-calendar-fullstack.md)
   * [Accessibility](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/accessibility.md)
   * [Typescript](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/typescript.md)
+  * [Angular2](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/angular2.md)
   
 - Things that should be done every day
   * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
