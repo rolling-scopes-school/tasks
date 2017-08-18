@@ -2,39 +2,39 @@
 |-----------|-------------|
 | 23:59 12.04.2017 | game |
 
-###  TASK: Игра на JavaScript + HTML or Canvas/WebGl/SVG
+###  TASK: Игра на 
+### Game based on JavaScript + HTML or Canvas/WebGl/SVG. 
 
 ### Requirements
-#### Required:
-  1. Игра по жанру может быть любая ([Классификация компьютерных игр](https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D1%85_%D0%B8%D0%B3%D1%80)).
-  2. Игру можно делать как одному, так и в команде.
-  3. Можно использовать фреймоворки. (например https://phaser.io/)
-  4. Основной язык JavaScript. Очень желательно использование фич ES6+ (ES2015 - ES2017)   
-  5. Игра должна стабильно работать в Google Chrome последней версии.
-  6. Игра должна быть доступна по ссылке. Самый простой вариант, это выложить игру на github pages.
-  7. Landing pagе на котором есть:
-      * название игры
-      * скриншоты (один или больше), 
-      * описание игры (пару предложений)
-      * управление 
-      * любая другая инфа
-  8. Подготовить презентацию. Требования:
-      * Demo
-      * Что и кем было сделано?
-      * Какие самые сложные проблемы были решены?
-      * Желательно оформить в виде презентации в формате [reveal.js](https://github.com/hakimel/reveal.js/) и выложить на github pages рядом с игрой.
-      * Язык презентации - русский, белорусский или английский.
+#### Obligatory:
+  1. Any genre. 
+  2. You can make it yourself or in a team of two. 
+  3. You can use any framework (e.g. https://phaser.io/)
+  4. Default language is JavaScript. Usage of ES6+ features is highly welcome.
+  5. Runs stably in the latest Chrome.
+  6. Avaliable via a link. The simplest way is to deploy it on GitHub pages. (e.g. https://themarkmarrone.github.io/petrovich/, https://spider-shooter.github.io)
+  7. Landing page containing: 
+      * name
+      * screenshots
+      * description
+      * controls manual 
+      * additional information
+  8. Presentation (in ENG/RU/BEL) should contain the following:
+    * Link to the game demo
+    * Parts taken by each developer
+    * Most challenging issues 
+
 
 #### Optional:
-  1. Следование Airbnb JavaScript Style Guide + eslint. 
-  2. Использование Webpack
-  3. Интерфейс игры и landing page на английском.
+  1. Following the Airbnb JavaScript Style Guide + eslint. 
+  2. Usage of Webpack
+  3. User interface and landing page in English.
 
-### Процесс проверки
-1. В первую очередь игру вы сдаёте своему ментору. Около финальную версию игры необходимо показать ментору до 11 апреля.
-2. Минимум 1-2 игры от каждой группы будут дополнительно презентоваться вами в Имагуру. Пока запланировано два дня сдачи - 13 и 17 апреля, возможно, появятся дополнительные даты.
-  
-#### Полезные линки:
+### Review process
+1. Firstly you demonstrate your game to the mentor. This should be done at least three days before the deadline.
+2. At least two games from each subgroup will be demonstrated to all our students. 
+
+#### Useful links:
 1) https://habrahabr.ru/post/184666/  
 2) http://opengameart.org/
 3) http://robinbobin.livejournal.com/4066704.html
