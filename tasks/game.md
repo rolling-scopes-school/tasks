@@ -2,7 +2,6 @@
 |-----------|-------------|
 | 23:59 12.04.2017 | game |
 
-###  TASK: Игра на 
 ### Game based on JavaScript + HTML or Canvas/WebGl/SVG. 
 
 ### Requirements
