@@ -1,14 +1,14 @@
-﻿Deadline         |  Coefficient
+Deadline         |  Coefficient
 -----------------|----------------
-26.11.2016 23:59  | 0.6
+07.03.2017 23:59  | X
 
-Codewars 
-  - Part I 
+Codewars
+
+  - Part I
      1. http://www.codewars.com/kata/opposite-number
      2. http://www.codewars.com/kata/basic-mathematical-operations
      3. http://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
-     4. ttp://www.codewars.com/kata/transportation-on-vacation
-     5. http://www.codewars.com/kata/calculating-with-functions
+     4. http://www.codewars.com/kata/transportation-on-vacation
      6. http://www.codewars.com/kata/get-the-middle-character
      7. http://www.codewars.com/kata/partition-on
      8. http://www.codewars.com/kata/word-count
@@ -17,7 +17,8 @@ Codewars
      11. http://www.codewars.com/kata/prefill-an-array
      12. http://www.codewars.com/kata/cross-product-of-vectors
      13. http://www.codewars.com/kata/sequence-generator-1
-  - Part II 
+     14. https://www.codewars.com/kata/base-conversion/
+  - Part II
      1. http://www.codewars.com/kata/closures-and-scopes
      2/ http://www.codewars.com/kata/a-function-within-a-function
      3. http://www.codewars.com/kata/can-you-keep-a-secret
@@ -28,7 +29,8 @@ Codewars
      8. http://www.codewars.com/kata/function-composition-1
      9. http://www.codewars.com/kata/stringing-me-along
      10. http://www.codewars.com/kata/i-spy
-  - Part III 
+     11. http://www.codewars.com/kata/calculating-with-functions
+  - Part III
      1. http://www.codewars.com/kata/santaclausable-interface
      2. http://www.codewars.com/kata/new-with-apply
      3. http://www.codewars.com/kata/extract-nested-object-reference

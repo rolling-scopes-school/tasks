@@ -1,44 +1,56 @@
 | Deadline | Folder & branch name |
 |----------|-------------|
-| 09.01.2017 23:59| youtube |
+| 14.05.2017 23:59| youtube |
 
-###Задача:
-Необходимо создать web-приложение, которое позволяет загружать и просматривать информацию о youtube роликах на основании запроса пользователя.
-Данные с YouTube REST API загружаются с помощью cross-domain XHR запроса.
+### Task:
+The task is to create a web app to view information about youtube clips by user request.
+YouTube REST API should be accessed via cross-domain XHR requests.
 
-###Use case:
-1. Пользователь открывает приложение и видит строку поиска
-2. В строке поиска пользователь набирает интересующую его тему. Например - javascript.
-3. Приложение выполняет запрос к YouTube Rest Api и отображает полученные клипы в виде горизонтального списка.
-4. Список можно листать с помощью мыши в любом месте просто зажав левую кнопку и сделав swipe. Если пользователь сделал несколько быстрых свайпов, приложение перелистывает соответствующее количество страниц. Количество роликов на странице зависит от размера окна. Дополнительным средством навигации является “paging” внизу страницы.
-5. По мере перелистывания страниц, приложение подгружает новые данные (по 15 клипов за раз). Желательно ораганизовать "бесшовную" подгрузку при равномерном перелистовании. 
+### Use case:
+1. Search box is viewed by the user when he starts the app.
+2. The user inputs a request in the search box. e.g. - javascript  
+3. The app processes the request to YouTube REST API and displays loaded clips in form of horisontal list.
+4. The horisontal list can be scrolled with a swipe (on a desktop via mouse swipe). Swipe should be animated, e.g. user can click and pull the list sidewise. Paging event should be triggered when mouseUp is released. If a user makes X quick swipes the app should list X pages. The number of clips on a page depends on the page size (from 1 to 4 clips per page).      
+5. The additional navigation buttons (paging control) are set on the bottom of the page.  
+6. As listing the pages, the app should load new date by chunks ( 15 clips per chunk). It would be good to manage "smooth" data loading which means preloading data chunks in advance to emulate infinite scrolling experience.
 
-###Требования:
-1. Идеальная работа в Chrome последней версии, кроме этого должна поддерживаться как минимум одна мобильная платформа (Android, iOS, WP на выбор).
-2. Рендеринг HTML средствами JavaScript (страница загружается без HTML тэгов внутри document.body). Настоятельно рекомендуется использовать ES6 фичи и продумать архитектуру вашего приложения.
-3. Использование jquery и других фреймворков не допускается. Можно использовать https://lodash.com/.
-4. JS код должен быть разбит на модули и в дальнейшем собран с помощью Webpack. Обязательно использовать Babel и соответственно babel-loader для вебпака.
-5. Обязательный editorconfig и eslint.
-6. Для CSS можно использовать препроцессоры. Анимация на базе возможностей CSS3.
-7. Каждый компонент, представляет информацию об одном YouTube ролике. Минимальная информация: заголовок (он же кликабельный линк на YouTube), превьюшка, описание, автор, дата публикации, количество просмотров. Опционально можете добавить любую дополнительную информацию.
-8. Данные с YouTube получаться с помощью запросов. Примеры запросов:
+### Requirements
+1. Perfect for latest Chrome;
+2. Support at least one mobile platform (e.g. iOS / Android / WP);
+3. HTML rendering via JavaScript (a page is loaded without html tags inside document.body);
+4. Using ES6 features is highly recommended;   
+5. Use of jQuery and other frameworks and libs is forbidden (except for https://lodash.com/);
+6. JS code should be splitted in modules and assembled by webpack. Usage of babel and babel-loader is required.
+7. Presence of editorconfig and eslint is required;
+8. CSS preprocessors can be used;
+9. CSS3 based animation;
+10. Clips (aka components) are listed pagely. Resizing the page increases/decreases the number of clips on a page. After a resize event the first left clip from previous state should presented on a new state (but its position can be different). The futher resizing would take into account the first left component from the new state.
+11. During a mousedown event on a paging component the tooltip with page number should popup.
+12. Your complete app should be uploaded to github pages (gh-pages branch) or to any other hosting.
+13. The visual aspect of your app will be rated also.
+14. Each clip-component should provide for information about a single YouTube clip. Minimal info:
+    - title (clickable link to YouTube)
+    - clip preview as a picture
+    - description
+    - author
+    - publication date
+    - view rate (count)
+
+    Showing the other information is optional.
+
+
+### Samples of YouTube REST API requests:
     - https://www.googleapis.com/youtube/v3/search?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&type=video&part=snippet&maxResults=15&q=js
     - https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=nq4aU9gmZQk,REu2BcnlD34,qbPTdW7KgOg&part=snippet,statistics
-    - Как получить API key - https://www.youtube.com/watch?v=JbWnRhHfTDA
-    - Подробная документация тут - https://developers.google.com/youtube/v3/
-9. Ролики (компоненты) листаются только страницами
-10. Если при ресейзе окна количество компонентов уменьшилось/увеличилось, крайний левый компонент из предыдущего состоянию должен быть представлен в новом состоянии (но не обязательно в крайней левой позиции). При дальнейшем ресайзе будет учитываться компонент который  в новом состоянии находиться в крайней левой позиции.
-11. По mousedown на пейджинге должен появляться tooltip с номером страницы.
-12. Ваш собранный проект в результате должен быть залит на gh-pages (либо куда угодно, главное чтобы ссылка на рабочий проект была в PR)
-13. Дизайн вашего приложения тоже будет оцениваться :)
+    - How to get API key - https://www.youtube.com/watch?v=JbWnRhHfTDA
+    - More detailed manual is here - https://developers.google.com/youtube/v3/
 
-###Примеры:
-
-####Нормальное окно:
+### UI Examples:
+#### Default view:
 ![](https://i.imgur.com/W7CTv9X.png)
 
-####Ресайз
+#### Resize
 ![](https://i.imgur.com/U5QX7cA.png)
 
-####Мобильная версия
+#### Mobile version
 ![](https://i.imgur.com/MIFv1sV.png)
