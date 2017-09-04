@@ -1,6 +1,6 @@
-| Deadline | Folder name |
+| Deadline | Repository name |
 |----------|-------------|
-| 16.11.2015| сritical-rendering-path |
+| 29.09.2017 23:59| сritical-rendering-path |
 
 ### Critical rendering path
 
