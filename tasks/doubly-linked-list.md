@@ -2,7 +2,7 @@
 
 | Deadline   |
 |------------|
-| 05.02.2017 |
+| 29.09.2017 23:59 |
 
 Your task is to implement [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list) data structure.
 
