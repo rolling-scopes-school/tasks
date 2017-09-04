@@ -2,7 +2,7 @@
 
 - Stage #1
   * [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/welcome-aboard.md)
-  * [Critical rendering path](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/critical-rendering-path.md)
+  * [Critical rendering path](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/critical-rendering-path.md)
   * [Brackets](https://github.com/yankouskia/additional_5)
   * [Product](https://github.com/yankouskia/additional_4)
   * [Zeros](https://github.com/yankouskia/additional_6)
