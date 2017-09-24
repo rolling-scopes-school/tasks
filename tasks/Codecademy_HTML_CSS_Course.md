@@ -1,15 +1,50 @@
 # Codecademy HTML Basics Course
 
-1. Create profile on https://www.codecademy.com/learn
-2. Go to www.codecademy.com/courses/web-beginner-en-HZA3b/0/1?curriculum_id=50579fb998b470000202dc8b and start doing tasks. Quizes are not necessary.
-3. Complete first 5 units, including HTML Basics I, II, III, CSS: An Overview, CSS Selectors.
-4. Badges for completion will be the proof of your work.
-5. When it's done, create a branch with name HTML_CSS_Basics. There create folder HTML_CSS_Basics, and file inside (.md or .txt) where put a link to your profile. Assign pull request to your group curator.
+### HTML CSS Homework
 
-Example:
+#### 1. Create profile on https://www.codecademy.com/learn
+#### 2. Go to the links and complete units to receive badges:
+
+*Must!
+
+HTML: https://www.codecademy.com/learn/learn-html
+  - HTML Elements and Structure
+  - HTML Tables
+
+CSS: https://www.codecademy.com/learn/learn-css
+  - CSS Selectors and Visual Rules
+  - The Box Model
+  - CSS Color
+  - CSS Typography
+  
+*Optional
+  - CSS Display and Positioning
+
+#### 3. Badges for completion will be the proof of your work.
+#### 4. Steps to collect results:
+
+1. Create repository in your accont, named rsschool-profile.
+Just copy this name: rsschool-profile
+
+2. Deploy repository with steps, mentioned in the description, and create README.md file.
+Looks like this:
+
+```sh
+echo "# rsschool-profile" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/your-name/rsschool-profile.git
+git push -u origin master
+```
+3. Afterall, update README.md with info like this:
+```
+Name Surname
+HTML CSS Basics: https://www.codecademy.com/users/YOUR-NAME/achievements
+```
+- Example:
+```
 Siarhei Shaliapin
-https://www.codecademy.com/ra_Levis
-
-Deadline         | Coefficient
------------------|------------------
-11.10.2016 23:59 | 0.2
+HTML CSS Basics: https://www.codecademy.com/users/ra_Levis/achievements
+```
+#### Deadline         26.09.2017 23:59
