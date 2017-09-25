@@ -10,10 +10,11 @@
 4. Иcправить проблемы с временем загрузки.
 5. Залить все в бранч gh-pages.
 6. Протестировать полученную GitHub Page в Google PageSpeed Insights, рейтинг скорости загрузки мобильной версии это и есть ваша оценка.
-7. В папку залить только файл readme.md в следующем формате:  
+7. Файл readme.md в master ветке вашего форка должен содерать следующую информацию:  
     - Ссылка на gh-pages бранч вашего форка  
     - Ccылка на github.io вашего gh-pages бранча
     - Ссылка на Google Page Speed Insight вида https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.onliner.by%2F
+    - Все остальное содержимое файла readme.md можно удалить
     
     #####Пример итогового файла readme.md файла
     ```
