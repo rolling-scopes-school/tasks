@@ -1,7 +1,8 @@
 1. Create [github](https://github.com/) account
 2. Join our gitter chat
-   * https://gitter.im/rolling-scopes-school/padawans
-   * https://gitter.im/rolling-scopes-school/announcements
+   * Общий чат - https://gitter.im/rolling-scopes-school/padawans
+   * Чат только для анонсов (самим не писать сюда) - https://gitter.im/rolling-scopes-school/announcements
+   * Чат для вопросов по заданиям курсов - https://gitter.im/rolling-scopes-school/questions
 3. Install the following software on your machine
    * http://nodejs.org/
    * http://git-scm.com/downloads
