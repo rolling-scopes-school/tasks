@@ -20,7 +20,8 @@
   * 1+ kata https://www.codewars.com 
 
 - Useful links
-  * http://learn.javascript.ru/
-  * http://speakingjs.com/es5/index.html
-  * http://exploringjs.com/es6/index.html
-  * https://github.com/airbnb/javascript
+  * Протестировать свой уровень английского - http://test.str.by/
+  * Отличная книга по JS на русском - http://learn.javascript.ru/
+  * Отличные книги по JS на английском: 
+     * http://speakingjs.com/es5/index.html
+     * http://exploringjs.com/es6/index.html
