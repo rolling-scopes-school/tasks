@@ -13,6 +13,7 @@
     * [Guessing game](https://github.com/rolling-scopes-school/guessing-game)
     * [Tic Tac Toe](https://github.com/rolling-scopes-school/tic-tac-toe)
     * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
+  * [English](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
   
 - Two things that recommended to do every day
