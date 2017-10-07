@@ -13,7 +13,9 @@
     * [Guessing game](https://github.com/rolling-scopes-school/guessing-game)
     * [Tic Tac Toe](https://github.com/rolling-scopes-school/tic-tac-toe)
     * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
-  * [English](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
+- Stage #2
+  * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
+- [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
   
 - Two things that recommended to do every day
