@@ -1,6 +1,6 @@
 ### Tasks
 
-- Stage #1
+- **Stage #1**
   * [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/welcome-aboard.md)
   * Front-end basics
     * [Codeacademy](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/Codecademy_HTML_CSS_Course.md)
@@ -13,16 +13,16 @@
     * [Guessing game](https://github.com/rolling-scopes-school/guessing-game)
     * [Tic Tac Toe](https://github.com/rolling-scopes-school/tic-tac-toe)
     * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
-- Stage #2
+- **Stage #2**
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
-- [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
+  **Stage #4**
+  * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
-- Two things that recommended to do every day
-  * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
-  * 1+ kata https://www.codewars.com 
-
-- Useful links
+### Useful links
+  * Two things that recommended to do every day
+    * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
+    * 1+ kata https://www.codewars.com 
   * Протестировать свой уровень английского - http://test.str.by/
   * Отличная книга по JS на русском - http://learn.javascript.ru/
   * Отличные книги по JS на английском: 
