@@ -15,6 +15,7 @@
     * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
 - **Stage #2**
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
+  * [Positions and Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
   
   **Stage #4**
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
