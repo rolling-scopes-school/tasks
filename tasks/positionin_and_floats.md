@@ -75,7 +75,7 @@ Pixel Perfect is reference point of the task.
 
 [Видео лекции от 06.10.2017](https://youtu.be/gYYWe7vlEQk)
 
-Шрифты:
+Где искать шрифты:
 
 С помощью строки поиска в [Fontsquirel](https://www.fontsquirrel.com/)
 
