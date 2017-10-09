@@ -10,11 +10,11 @@ Create web page, strictly according to:
 
 Pixel Perfect is reference point of the task.
 
-## Как сдавать:
+## Как сдавать
 
 Сверстанный макет и папки с контентом залить в ветку *positions-and-floats* в своем **приватном** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
 
-## Критерии оценки:
+## Критерии оценки
 
 За полностью выполненное задание, без нарушений - **100 баллов**.
 
@@ -68,7 +68,7 @@ Pixel Perfect is reference point of the task.
 11. Footer должен содержать только copyright текст. 
 **!оценка: 0-5**
 
-## Полезные ссылки:
+## Полезные ссылки
 
 [Презентации](https://github.com/rolling-scopes/front-end-course/wiki/Position.-Floats.-Semantics.-CSS3)
 
