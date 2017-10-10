@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 12.04.2017 | game |
+| 23:59 15.12.2017 | game |
 
 ### Game based on JavaScript + HTML or Canvas/WebGl/SVG.
 
