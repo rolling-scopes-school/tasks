@@ -29,7 +29,7 @@ Pixel Perfect is reference point of the task.
 	 - Сделать отдельные папки с картинками, шрифтами, стилями. Если все будет в одном каталоге на уровне с index.html, **-10**.
 
 2. Семантическая верстка:
-	 - Использование HTML5 классов, таких как header (logo + nav), section, article, footer (copyright), form+fields, figure+figcaption;
+	 - Использование HTML5 тегов, таких как header (logo + nav), section, article, footer (copyright), form+fields, figure+figcaption;
 	 **!оценка: 0-10**
 	 - Правильное и разумное наименование классов, избегать наименований вроде .orange-square, .left, .big, .horse, а использовать правильные, вроде .heading, .team-link, .member, .avatar-capture, а так же псевдоклассы, вроде :first-child, last-child и другие;
 	 **!оценка: 0-10**
