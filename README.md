@@ -17,6 +17,7 @@
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
   * [Positions and Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
   * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/codewars.md)
+  * [Учебное техническое собеседование по CoreJS](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/interview-corejs.md)
   * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/presentation.md)
   * [Match-Match-Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/match-match-game.md)
   * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/game.md)
