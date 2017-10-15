@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 15.10.2017 23:59 | positions-and-floats |
+| 16.10.2017 23:59 | positions-and-floats |
 
 # Homework: positions-and-floats
 
