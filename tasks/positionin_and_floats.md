@@ -68,6 +68,8 @@ Pixel Perfect is reference point of the task.
 11. Footer должен прибит к низу и содержать только copyright текст. Прибитие значит, что если убрать контент на странице, кроме хедера и футера, то футер будет все равно внизу.
 **!оценка: 0-5**
 
+12. Использование flexbox в этом задании запрещено. **Штраф: минус 30 баллов.**
+
 ## Полезные ссылки
 
 [Презентации](https://github.com/rolling-scopes/front-end-course/wiki/Position.-Floats.-Semantics.-CSS3)
