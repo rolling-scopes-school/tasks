@@ -26,7 +26,7 @@
   * Все требования выполнены, верстка – семантичка, код логичен и понятен (90 баллов)
   * Весь код написан с использование прототипного наследования или классов(100 баллов)
 
-Пример интерфейса:
+Пример интерфейса, ваш дизайн может быть другим:
 
 ![Screen 1](http://rolling-scopes-school.github.io/tasks/images/match-match-game/image001.jpg)
 ![Screen 2](http://rolling-scopes-school.github.io/tasks/images/match-match-game/image002.jpg)
