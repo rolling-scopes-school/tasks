@@ -6,7 +6,7 @@ Responsive Web Design
 
 | Deadline  | Folder name |
 |-----------|-------------|
-| 12.11.2017 23:59 | positions-and-floats |
+| 12.11.2017 23:59 | css-recipes-and-layouts |
 
 Create web page, strictly according to:
 
