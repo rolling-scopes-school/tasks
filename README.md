@@ -20,7 +20,7 @@
   * [Учебное техническое собеседование по CoreJS](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/interview-corejs.md)
   * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/presentation.md)
   * [Match-Match-Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/match-match-game.md)
-  * [CSS Recipes and layouts](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/css-recipes-and-layouts.md)
+  * [CSS Recipes and Layouts](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/css-recipes-and-layouts.md)
   * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/game.md)
   
   **Stage #4**
