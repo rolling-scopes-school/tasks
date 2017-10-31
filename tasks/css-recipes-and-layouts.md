@@ -1,16 +1,12 @@
-CSS Recipes & Layouts
+CSS Recipes & Layouts. Responsive Web Design
 
 # Homework: css-recipes-and-layouts
-
-Responsive Web Design
 
 | Deadline  | Folder name |
 |-----------|-------------|
 | 12.11.2017 23:59 | css-recipes-and-layouts |
 
-Create web page, strictly according to:
-
-**[lookshop layout](https://github.com/StanislauZubovich/UXMiniLab/tree/2017-Q3/designs/responsive)**
+Create web page, strictly according to: **[lookshop layout](https://github.com/StanislauZubovich/UXMiniLab/tree/2017-Q3/designs/responsive)**
 
 Pixel Perfect can be used to check the mockup
 
