@@ -46,7 +46,7 @@ Pixel Perfect can be used to check the mockup
 
 - Не реализован какой-либо из фарматов (mobile, tablet, desktop) **-40**.
 - Нет применения media-queries **-30**.
-- Все должно строиться на flexbox либо grid. Применение float, clear, inline-block - ошибка. **-10**.
+- Все должно строиться на flexbox либо grid. Применение float, clear, inline-block - ошибка. **-20**.
 - Поддержка браузеров: Google Chrome 61+, FireFox 56+, Microsoft Edge 40+ (Microsoft EdgeHTML 16+). Браузер не поддерживается **-10**.
 
 4. Header:
