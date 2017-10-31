@@ -75,5 +75,7 @@ Pixel Perfect can be used to check the mockup
 ### Полезные ссылки
 
 [Презентация RWD+Flexbox](https://github.com/rolling-scopes/front-end-course/wiki/Responsive-Web-Design.-Flexbox)
+
 [Презентация CSS Grid](http://slides.com/ra_levis/deck)
+
 [Видео лекции от 27.10.2017](https://youtu.be/k2GtDJKC6HQ)
