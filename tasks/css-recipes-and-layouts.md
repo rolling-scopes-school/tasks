@@ -1,61 +1,40 @@
 CSS Recipes & Layouts
 
-Задание - Responsive Web Design
-
-| Deadline  | Folder name |
-
-|-----------|-------------|
-
-| 16.10.2017 23:59 | positions-and-floats |
-
-
-
 # Homework: css-recipes-and-layouts
 
+Responsive Web Design
 
+| Deadline  | Folder name |
+|-----------|-------------|
+| 16.10.2017 23:59 | positions-and-floats |
 
 Create web page, strictly according to:
 
-
-
 **[lookshop layout](https://github.com/StanislauZubovich/UXMiniLab/tree/2017-Q3/designs/responsive)**
-
-
 
 Pixel Perfect can be used to check the mockup
 
-
-
 ## Как сдавать
 
-
-
 Сверстанный макет и папки с контентом залить в ветку *css-recipes-and-layouts* в своем **приватном** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
-
-
 
 ## Критерии оценки
 
 За выполненое в срок задание - начисляется **100 баллов**. Баллы снимаются за ошибки, указанные в ТЗ.
 
-Верстка полностью резиновая - Это значит, что должны поддерживаться все разрешения экрана от 320px до 1920px. Т.е. ваша структура не должна ломаться, если разрешение нестандартное.
+Исполнение mobile-to-desktop или desktop-to-mobile роли не играет.
 
+Верстка полностью резиновая - Это значит, что должны поддерживаться все разрешения экрана от 320px до 1920px. Т.е. ваша структура не должна ломаться, даже если разрешение нестандартное.
 
+## Техническое Задание:
 
-## Техническое Задание
-
-:
-
-###За что снимаются баллы:
+### За что снимаются баллы:
 
 1. Общее:
 
 - Файл HTML назвать index.html
-
 - Сделать отдельные папки с картинками, шрифтами, стилями. Если все будет в одном каталоге на уровне с index.html, **-20**.
 - При наведении на активный элемент, курсор не принимает значение "pointer", или надписи в меню не выделяются визуально. **-20**.
-
-
 
 2. Семантическая верстка:
 
@@ -95,9 +74,6 @@ Pixel Perfect can be used to check the mockup
 
 ### Полезные ссылки
 
-
-
 [Презентация RWD+Flexbox](https://github.com/rolling-scopes/front-end-course/wiki/Responsive-Web-Design.-Flexbox)
-
 [Презентация CSS Grid](http://slides.com/ra_levis/deck)
 [Видео лекции от 27.10.2017](https://youtu.be/k2GtDJKC6HQ)
