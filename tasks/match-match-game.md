@@ -1,4 +1,4 @@
-| Deadline  | Folder name |
+| Deadline  | Branch name |
 |-----------|-------------|
 | 23:59 07.11.2017 | match-match-game |
 
