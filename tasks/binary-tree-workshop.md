@@ -103,8 +103,8 @@ module.exports = {
   //root name
   root: '_root',
   //left and right nodes
-  left: 'left',
-  right: 'right',
+  left: '_left',
+  right: '_right',
   student: 'STUDENT NAME'
 };
 
