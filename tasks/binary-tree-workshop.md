@@ -109,3 +109,5 @@ module.exports = {
 };
 
 ```
+
+[Tests](https://github.com/humanamburu/bst-tests)
