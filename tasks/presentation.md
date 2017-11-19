@@ -11,9 +11,8 @@ Requirements:
 * Speaker notes for each slide is obligatory
 * Language - English.
 
-Please, upload your presentation (or a doc with a link to your slides) to the shared folder https://drive.google.com/drive/folders/0B3UA7wlxcI_-VFhrNHlkZDRJNE0.
-
 Slides format is pptx or [reveal](https://github.com/hakimel/reveal.js/) or any other tool can be used.
+[Optional] Please, upload your presentation (or a doc with a link to your slides) to the shared folder https://drive.google.com/drive/folders/0B3UA7wlxcI_-VFhrNHlkZDRJNE0.
 
 ### Процесс сдачи таска
   1. Записать свое выступление (напоминаю, что оно должно быть на английском языке) на камеру телефона. На записи должно быть в первую очередь ваше лицо, слайды могут не попасть в запись. 
