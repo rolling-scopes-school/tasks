@@ -42,3 +42,15 @@ Codewars:
      - http://www.codewars.com/kata/tail-recursion-with-trampoline
      - http://www.codewars.com/kata/functional-sql
      - http://www.codewars.com/kata/can-you-get-the-loop
+  
+  ### критерии оценки
+*  1 балл за задачу 8 kata и 7 kata (всего 14 штук)
+*  4 балла - 6 kata (всего 9)
+*  5 баллов - 5 kata (всего :sunglasses:
+*  10 баллов - 4 kata (всего 1)
+
+Итого: 1 * 14 + 4 * 9 + 5 * 8 + 10 * 1 = 100
+
+Дополнительно: 
+*  15 баллов - 3 kata
+*  20 баллов - 1 kata
