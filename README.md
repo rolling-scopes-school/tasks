@@ -24,6 +24,9 @@
   * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/game.md)
   * [Data Structures Workshop](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/binary-tree-workshop.md)
   
+ - **Stage #3**
+  * [React Basic](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/react-basics-task.md)
+ 
   **Stage #4**
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
