@@ -21,14 +21,14 @@ Script takes 2 command line parameters:
 1. Don't use library provided by google (make https calls with https native node module or request lib or node-fetch or any other module for making requests)
 1. Think about any failure that can occur and try to fix it if possible
 
-*Example*: while running the script the internet connection was lost
+**Example**: while running the script the internet connection was lost
 
-*Possible solution*: try to make request again multiple times. If you didn't come to success write error details to file and console (so that you could understand what happened). Script should continue execution and in the end there appears a message like: "Some requests failed. See logs: <path/to/logfile>" (message is also written to logs)
+**Possible solution**: try to make request again multiple times. If you didn't come to success write error details to file and console (so that you could understand what happened). Script should continue execution and in the end there appears a message like: "Some requests failed. See logs: <path/to/logfile>" (message is also written to logs)
 
 
-*Example*: you have made a mistake in logic for cheduling https calls and tried to make more than 100 scans per 100 seconds (or Google became greedy and made limitations more strict like 50 scans per 100 minutes)
+**Example**: you have made a mistake in logic for cheduling https calls and tried to make more than 100 scans per 100 seconds (or Google became greedy and made limitations more strict like 50 scans per 100 minutes)
 
-*Possible solution*: log, retry, that is not critical
+**Possible solution**: log, retry, that is not critical
 
 ### Notes:
 
