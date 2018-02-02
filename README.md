@@ -23,19 +23,20 @@
   * [CSS Recipes and Layouts](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/css-recipes-and-layouts.md)
   * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/game.md)
   * [Data Structures Workshop](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/binary-tree-workshop.md)
-  
+
  - **Stage #3**
   * [React Basic](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/react-basics-task.md)
- 
+  * [Nodejs](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/node-pagespeed.md)
+
   **Stage #4**
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
-  
+
 ### Useful links
   * Two things that recommended to do every day
     * 10+ minutes with https://www.duolingo.com/ or https://lingualeo.com
-    * 1+ kata https://www.codewars.com 
+    * 1+ kata https://www.codewars.com
   * Протестировать свой уровень английского - http://test.str.by/
   * Отличная книга по JS на русском - http://learn.javascript.ru/
-  * Отличные книги по JS на английском: 
+  * Отличные книги по JS на английском:
      * http://speakingjs.com/es5/index.html
      * http://exploringjs.com/es6/index.html
