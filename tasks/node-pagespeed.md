@@ -13,6 +13,12 @@ Script takes 2 command line parameters:
 
 **Example**: `node index.js ./urls.txt ./results`
 
+
+File contains urls splitted by EOL symbol ('\r\n' or '\n')
+
+File ends with EOL
+
+
 ### Requirements:
 
 1. Analyse all rules (default)
@@ -35,8 +41,9 @@ Script takes 2 command line parameters:
 
 1. API reference: [link](https://developers.google.com/speed/docs/insights/v4/reference)
 1. To manage API keys go to [developers console](https://console.developers.google.com/apis/credentials)
-1. Limitations of API: 100 scans per 100 minutes, 25K scans per day
+1. Limitations of API: 100 scans per 100 seconds, 25K scans per day
 1. Take list of urls from [here](http://www.biglistofwebsites.com/) and from [here2](https://www.dropbox.com/s/hlb9mii2de1inmi/URL-list-for-testing.csv?dl=0)
-1. Stability is more important than speed here but daily limit should definetely be reached (script should be able to make 25K requests per day)
+1. Stability is more important than speed here but daily limit should definetely be reachable (script should be able to make 25K requests per day)
+1. Pay attention that input file could be really huge
 1. To make https requests you may need to set NODE_TLS_REJECT_UNAUTHORIZED environment variable to 0
 1. make your code easy to read and have fun :)
