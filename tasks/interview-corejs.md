@@ -16,6 +16,11 @@
    * Всплытие и перехват событий
    * Делегирование. Пример
    * Напишите функцию F, так чтобы new F === F
+   * Function.prototype.bind polyfill
+   * Object.create polyfill
+   * Event loop
+   * Promises
+   
    
 ### Процесс прохождения интервью.
 1. В [Score](https://docs.google.com/spreadsheets/d/1WCRTuiZxaOcUvZcQRlzwS9EPnuLar0nKo2pHrXQSltE/edit#gid=0) указаны ФИО ментора, у которого вы будете проходить интервью. 
@@ -28,6 +33,4 @@
   - выставляет оценку в Score вместо своего ФИО
 
 ### Интервью необходимо пройти до конца ноября. Учтите, что ментор может быть занят, так что свяжитесь с ним как можно быстрее. 
-
-
 
