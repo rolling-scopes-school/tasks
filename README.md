@@ -4,31 +4,8 @@
   * [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/welcome-aboard.md)
   * Front-end basics
     * [Codeacademy](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/Codecademy_HTML_CSS_Course.md)
-    * [Critical rendering path](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/critical-rendering-path.md)
   * Algorithms
-    * [Brackets](https://github.com/yankouskia/additional_5)
-    * [Product](https://github.com/yankouskia/additional_4)
-    * [Zeros](https://github.com/yankouskia/additional_6)
-    * [Doubly Linked List](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/doubly-linked-list.md)
-    * [Guessing game](https://github.com/rolling-scopes-school/guessing-game)
-    * [Tic Tac Toe](https://github.com/rolling-scopes-school/tic-tac-toe)
-    * [Finite State Machine](https://github.com/rolling-scopes-school/finite-state-machine)
-- **Stage #2**
-  * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
-  * [Positions and Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
-  * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/codewars.md)
-  * [Учебное техническое собеседование по CoreJS](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/interview-corejs.md)
-  * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/presentation.md)
-  * [Match-Match-Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/match-match-game.md)
-  * [CSS Recipes and Layouts](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/css-recipes-and-layouts.md)
-  * [Game](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/game.md)
-  * [Data Structures Workshop](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/binary-tree-workshop.md)
-
- - **Stage #3**
-  * [React Basic](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/react-basics-task.md)
-  * [Nodejs](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/node-pagespeed.md)
-
-  **Stage #4**
+    * https://epa.ms/padawans-2018
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
 ### Useful links
