@@ -7,6 +7,10 @@
 Каждый ментор интервьюирует больше людей, чем он планировал менторить (Например +2). 
 После проведения всех собеседований ментор отчисляет часть группы (Например -2).
 
+### Роли
+- [Cтудент](https://github.com/rolling-scopes-school/docs/blob/master/students.md)
+- [Ментор](https://github.com/rolling-scopes-school/docs/blob/master/mentors.md)
+
 ### Темы (на базе https://github.com/rolling-scopes-school/docs/blob/master/students.md)
     - Основы ООП. [Примеры вопросов](https://habrahabr.ru/post/345658/)
     - Базовые структуры данных и их организация (массив, список, стек, очередь, дерево, хэш таблица и тд). 
