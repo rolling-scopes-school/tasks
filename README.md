@@ -6,6 +6,8 @@
     * [Codeacademy](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/Codecademy_HTML_CSS_Course.md)
   * Algorithms
     * https://epa.ms/padawans-2018
+- **Stage #2**
+  * Технический скрининг.
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
 ### Useful links
