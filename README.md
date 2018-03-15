@@ -7,7 +7,7 @@
   * Algorithms
     * https://epa.ms/padawans-2018
 - **Stage #2**
-  * Технический скрининг.
+  * [Технический скрининг.](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/technical-screening.md)
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
   * [Positions and Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
   * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codewars.md)
