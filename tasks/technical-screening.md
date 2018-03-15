@@ -15,6 +15,7 @@
 - интервью в промежутке с 15 марта по 30 марта
 - учащихся сами связываются с ментором и согласуют дату
 - интервью может быть проведено в онлайн формате
+- документ с контактами ваших менторов будет пошарен в чате https://gitter.im/rolling-scopes-school/announcements
 
 ### Темы (на базе https://github.com/rolling-scopes-school/docs/blob/master/students.md)
   - Основы ООП. [Примеры вопросов](https://habrahabr.ru/post/345658/)
