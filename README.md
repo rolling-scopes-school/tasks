@@ -9,7 +9,7 @@
 - **Stage #2**
   * [Технический скрининг.](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/technical-screening.md)
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
-  * [Positions and Floats](https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/positionin_and_floats.md)
+  * [Markup 1](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/markup-1.md)
   * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codewars.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
