@@ -11,6 +11,7 @@
   * [Chrome Dev Tools Online Course](https://www.codeschool.com/courses/discover-devtools)
   * [Markup 1](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/markup-1.md)
   * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codewars.md)
+  * [Match-Match Game](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/match-match-game.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
 ### Useful links
