@@ -33,7 +33,7 @@ Browser support: Google Chrome, Mozilla Firefox, Microsoft Edge.
    **!оценка: 0-10**
 
 2. Семантическая верстка:
-	 - Использование HTML5 тегов, таких как header (logo + nav), section, article, footer, form + fields, figure;
+	 - Использование HTML5 тегов, таких как header, nav, section, article, footer, form + fields, figure;
 	 **!оценка: 0-10**
 	 - Правильное и разумное наименование классов, избегать наименований вроде .right-column, .third-form, .left, .big, а использовать осмысленные, вроде .heading, .form-container, .wrapper, .menu-column, а так же псевдоклассы, вроде :first-child, last-child и другие;
 	 **!оценка: 0-10**
