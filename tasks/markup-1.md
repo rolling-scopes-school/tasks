@@ -10,6 +10,8 @@ Create web page, strictly according to:
 
 Pixel Perfect is reference point of the task.
 
+Browser support: Google Chrome
+
 ## Как сдавать
 
 Сверстанный макет и папки с контентом залить в ветку *markup-1* в **своем** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
