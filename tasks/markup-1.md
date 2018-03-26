@@ -10,7 +10,7 @@ Create web page, strictly according to:
 
 Pixel Perfect is reference point of the task.
 
-Browser support: Google Chrome
+Browser support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 ## Как сдавать
 
