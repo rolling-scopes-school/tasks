@@ -13,6 +13,7 @@
   * [Codewars](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codewars.md)
   * [Match-Match Game](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/match-match-game.md)
   * [Presentation](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/presentation.md)
+  * [CodeJam-1](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/make.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
 ### Useful links
