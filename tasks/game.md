@@ -1,40 +1,64 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 15.12.2017 | game |
+| 23:59 15.06.2018 | game |
 
-### Game based on JavaScript + HTML or Canvas/WebGl/SVG.
+## Game (JavaScript + HTML or Canvas/WebGl/SVG).
+### Это не финальная версия требований! 
 
-### Requirements
-#### Obligatory:
-  1. Any genre. Storyline around:
-     * Zombie apocalypse
-     * Middle Ages
-     * Cosmos / Space 
-  2. You can make it yourself or in a team of two.
-  3. You can use any framework (e.g. https://phaser.io/)
-  4. Default language is JavaScript. Usage of ES6+ features is highly welcome.
-  5. Runs stably in the latest Chrome.
-  6. Avaliable via a link. The simplest way is to deploy it on GitHub pages. (e.g. https://themarkmarrone.github.io/petrovich/, https://spider-shooter.github.io)
-  7. Landing page containing:
-      * name
-      * screenshots
-      * description
-      * controls manual
-      * additional information
-  8. Presentation (in ENG/RU/BEL) should contain the following:
-    * Link to the game demo
-    * Parts taken by each developer
-    * Most challenging issues
+Вам необходимо сделать упрощенный клон игры https://www.prodigygame.com/  
+Пример геймплея: https://www.youtube.com/watch?v=XXUIRnQ4EJ4  
+Целевая аудитория: дети 6-8 лет.
 
+### Минимальная функциональность:
+  1) Экран дуэли
+  2) Модальный диалог выбора заклинания
+  3) Экран задачи
+  4) Экран таблицы рекордов
+  
+### Пример геймплея по шагам:
+1. Битва начинается, у игрока и монстра по 100hp или более.
+2. Игрок выбирает заклинание первым. Выбор заклинания осуществляется посредством модального диалога. Название и последующая анимация заклинаний - на ваше усмотрение. Виды заклинаний также на ваше усмотрение - могут, как наносить урон, так и лечить. 
+3. Игрок переходит к экрану задачи. В случае успешного решения - заклинание применяется, иначе - переход хода к монстру. 
+4. Монстр применяет заклинание, наносит урон игроку.
+5. Если игрок победил - битва со следующим монстром. Если проиграл - показывается таблица рекордов, с количеством побежденных монстров и именем героя. 
 
-#### Optional:
-  1. Following the Airbnb JavaScript Style Guide + eslint.
-  2. Usage of Webpack
-  3. User interface and landing page in English.
+### Варианты экрана "задача":
+ 1) Решение базовых арифметических примеров. В данном случае генерируется случайная пара чисел и случайная операция с ними.  Например, 25 + 67 или 130 - 7, или 7 x 11 и т.д.
+ 2) Перевод с анлийского на русский. В данном случае игрок видит случайное английское слово (например, "cat") и должен ввести перевод. Правильных переводов может быть несколько (кот, кошка, котик и т.д.) Словарь должен находится в отдельном файле и легко конфигурироваться. Админку управления словарем делать не надо.  
+ 3) Буквы слова перемешаны, необходимо, используя drag&drop, восстановить порядок. Например, lleyow -> yellow. Пример интерфейса - https://jqueryui.com/sortable/
+ 4) Аудирование. https://mdn.github.io/web-speech-api/speak-easy-synthesis/ Произносится слово, необходимо его вписать. 
+ 5) Любые другие
+ 
+### Монстры:
+1) Автогенеренное имя. Имя получается путем слияния элементов из трех массивов. 
+   В первом массиве прилагательное - "ужасный", "злобный", "сопливый" и т.д. 
+   Во втором - "Огр", "Гном", "Гоблин" и т.д.
+   В третьем - "Том", "Макс", "Дима" и т.д.
+   В итоге - "Злобный Огр Том"
+ 2) Автогенеренное тело - "из частей". Вы определяете несколько "голов", "туловищ", "ног", "оружия", из которых собирается итоговый монстр. 
+ Пример - https://drive.google.com/open?id=12TYpEwRPKjwkC3Q61aAqmxL8wsbVw6pP
+ 
+### Технические требования:
+1) Поддержка Сhrome последней версии. 
+2) Язык - JS/ES2015+ или TypeScript
+3) Использование любых игровых движков/фреймворков (например, https://phaser.io/) - запрещено. 
+   Библиотеки и фреймворки типа react/angular/vue/jquery/bootstrap использовать можно.
+4) Финальная версия игры должна быть доступна по ссылке. Самый просто способ - выложить на GitHub pages. (e.g. https://themarkmarrone.github.io/petrovich/, https://spider-shooter.github.io)
+5) Landing page. Должна содержать следующую информацию:
+   - Название игры
+   - Скриншоты геймплея
+   - Ссылку для запуска игры
+   - Информацию об авторе 
+   - Если игру делали два человека - четкое разделение того, кто и что делал. 
 
-### Review process
-1. Firstly you demonstrate your game to the mentor. This should be done at least three days before the deadline.
-2. At least two games from each subgroup will be demonstrated to all our students.
+### Критерии оценки:
+- Использован webpack +15 баллов
+- Есть landing page +15 баллов
+- Есть экран задачи +15 баллов. За второй еще +10. За третий и последующие +5 баллов.
+- Есть несколько видов заклинаний и их анимация с аудио эффектом +15 баллов.
+- TBD
+
+### Финальную оценку и проверку выполяняет НЕ ваш ментор. Списки "студент-проверяющий" будут оглашены после дедлайна.
 
 #### Useful links:
 1) https://habrahabr.ru/post/184666/  
