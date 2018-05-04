@@ -18,9 +18,13 @@ Slides format is pptx or [reveal](https://github.com/hakimel/reveal.js/) or any 
   4. Отправить ссылку на ролик:
          1. Вашему ментору.
          2. В google форму: https://docs.google.com/forms/d/e/1FAIpQLSdLqlq7feO3hi0l1F7YugCcXYrToou61gJQlsrg1PzPNXisKQ/viewform
-  5. TOP25 докладчиков пригласим выступить в Imaguru и они получат +100 баллов к score.
+  
+ ###  Критерии оценки:
+  1. Есть презентация и транскрипт выступления на английском:  +20 баллов
+  2. Запись выступления выложена на YouTube: +60 баллов
+  3. Речь понятная, на видео видны слайды: +20 баллов
+  4. Презентация в оффлайне перед аудиторией еще +50 баллов
  
-
-Useful links:
+### Useful links:
 * http://speaking.io/
 * https://zachholman.com/talk/the-talk-on-talks/
