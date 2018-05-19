@@ -17,6 +17,7 @@
   * [CodeJam-2](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/CodeJam-2-notification.md)
   * [CSS Reciept and Layout](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/css-recipes-and-layouts.md)
   * [CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/interview-corejs.md)
+  * [CodeJam-4 Scoreboard](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-scoreboard.md)
   * [Final Game](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/game.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
 
