@@ -68,3 +68,4 @@
 2) http://opengameart.org/
 3) http://robinbobin.livejournal.com/4066704.html
 4) https://cdn.scratch.mit.edu/scratchr2/static/__787158ad1362201586979068ba002765__/help/ru/howto/fly-intro.html
+5) https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
