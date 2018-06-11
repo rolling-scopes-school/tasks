@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 15.06.2018 | game |
+| 23:59 17.06.2018 | game |
 
 ## Game (JavaScript + HTML or Canvas/WebGl/SVG).
 ### Это не финальная версия требований! 
