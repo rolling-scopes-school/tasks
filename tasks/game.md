@@ -64,6 +64,7 @@
  - У вас будет до 30 минут на презентацию работы
  - Другие студенты могут присутствовать/ задавать вам вопросы.
  - Формат - оффлайн или онлайн в зависимости от локации/возможностей принимающего
+ - Отправить ссылку на на Landing Page c игрой в google форму: https://docs.google.com/forms/d/e/1FAIpQLSfrlXeBvLCO9Y8qyk0VRJ2tUCGcVbZ5Ly7sL3ESVssYLtVM6Q/viewform
 
 #### Useful links:
 1) https://habrahabr.ru/post/184666/  
