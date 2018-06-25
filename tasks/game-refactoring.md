@@ -14,7 +14,7 @@
 - Разделить функции, которые длиннее 30 строк (без учета объявления переменных). Хотябы минимальный single responsibility.
 
 ### Cтуктура проекта. Пример организации файлов и папок:
-Использование webpack - обязательно!
+Использование webpack - обязательно! Директории компонентов хранят все необходимые ресурсы и стили. Например, при удалении папки `modal-dialog` будут удалены стили относящееся к данному диалогу. 
     
     dist
     src
@@ -30,13 +30,14 @@
     │   │   │   ├── index.html
     │   │   │   ├── index.scss
     │   │   │   ├── index.js
-    ├── scenes
+    ├── pages
     │   ├── home
     │   │   ├── images
     │   │   ├── index.html       # scene template
     │   │   ├── index.scss       # scene related styles
     │   │   ├── index.js         # scene logic
     │   ├── login
+    │   ├── battle
     │   ├── score
     ├── app.js                   # main entry point.
     webpack.config.js
