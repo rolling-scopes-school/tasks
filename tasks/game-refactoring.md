@@ -30,12 +30,12 @@
     │   │   │   ├── index.html
     │   │   │   ├── index.scss
     │   │   │   ├── index.js
-    ├── pages
+    ├── screens
     │   ├── home
     │   │   ├── images
-    │   │   ├── index.html       # scene template
-    │   │   ├── index.scss       # scene related styles
-    │   │   ├── index.js         # scene logic
+    │   │   ├── index.html       # home screen template
+    │   │   ├── index.scss       # home screen styles
+    │   │   ├── index.js         # home screen logic
     │   ├── login
     │   ├── battle
     │   ├── score
