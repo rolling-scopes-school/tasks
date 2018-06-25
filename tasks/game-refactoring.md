@@ -14,7 +14,9 @@
 - Разделить функции, которые длиннее 30 строк (без учета объявления переменных). Хотябы минимальный single responsibility.
 
 ### Cтуктура проекта. Пример организации файлов и папок:
+Использование webpack - обязательно!
     
+    dist
     src
     ├── components                
     │   ├── loading
@@ -30,12 +32,15 @@
     │   │   │   ├── index.js
     ├── scenes
     │   ├── home
+    │   │   ├── images
     │   │   ├── index.html       # scene template
     │   │   ├── index.scss       # scene related styles
     │   │   ├── index.js         # scene logic
     │   ├── login
     │   ├── score
-    ├── app.js                   # main entry point. 
+    ├── app.js                   # main entry point.
+    webpack.config.js
+    README.md
                         
 ### Реюзабельные компоненты и примеры их использования 
   - Модальный диалог. 
@@ -54,4 +59,8 @@
  - Каждый делает рефакторинг своего проекта один (даже если изнальную игру делали вдвоем).
  - Все коммиты делаем в выданный вам стандарный приватный репозиторий в бранч "final-game-refactoring"
  - Требования к наименованию - https://github.com/rolling-scopes/rsschool-ui/blob/master/CONTRIBUTING.md#git-commit-messages
+ 
+ ### Критерии оценки
+ Такие же, как в таске "final game". При условии, что рефакторинг был произведен в полном объеме.
+
  
