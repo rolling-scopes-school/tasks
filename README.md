@@ -19,7 +19,11 @@
   * [CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/interview-corejs.md)
   * [CodeJam-4 Scoreboard](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-scoreboard.md)
   * [Final Game](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/game.md)
+- **Stage #3**
+  * [CodeJam-5 Hacktrain](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-train.md)
+  * [Final Game Refactoring](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/game-refactoring.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
+  
 
 ### Useful links
   * Two things that recommended to do every day
