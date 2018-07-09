@@ -22,6 +22,7 @@
 - **Stage #3**
   * [CodeJam-5 Hacktrain](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-train.md)
   * [Final Game Refactoring](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/game-refactoring.md)
+  * [React-redux](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/react-match-match-game.md)
   * [К моменту окончания курса ваш уровень английского должен быть уровня A2 (pre-intermediate) или выше.](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/english.md)
   
 
