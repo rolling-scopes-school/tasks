@@ -1,5 +1,9 @@
 ## match-match-game. React implementation.
 
+| Deadline  | Folder name |
+|-----------|-------------|
+| 23:59 29.07.2018  | react-match-match-game |
+
 Rewrite [match-match-game](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/match-match-game.md) using react, redux and other tools you've learnt about on react-redux lectures.
 
 Follow requirements described [here](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/match-match-game.md) with some exceptions:
