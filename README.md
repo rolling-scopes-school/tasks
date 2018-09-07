@@ -1,9 +1,9 @@
 ### Tasks
 
 - **Stage #1**
-  * [Welcome Aboard!](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/welcome-aboard.md)
+  * [Welcome Aboard!](/tasks/welcome-aboard.md)
   * Front-end basics
-    * [Codeacademy](https://github.com/rolling-scopes-school/tasks/blob/2017-Q3/tasks/Codecademy_HTML_CSS_Course.md)
+    * [Codeacademy](/tasks/Codecademy_HTML_CSS_Course.md)
   * Algorithms
     * https://epa.ms/padawans-2018
 - **Stage #2**
