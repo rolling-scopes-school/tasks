@@ -7,7 +7,7 @@
   * Algorithms
     * https://epa.ms/padawans-2018
 - **Stage #2**
-  * [Технический скрининг.](https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/technical-screening.md)
+  * [Технический скрининг.](/tasks/technical-screening.md)
   * ...
 - **Stage #3**
   * ...
