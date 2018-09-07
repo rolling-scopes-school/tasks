@@ -16,8 +16,6 @@ CSS: https://www.codecademy.com/learn/learn-css
   - The Box Model
   - CSS Color
   - CSS Typography
-  
-*Optional
   - CSS Display and Positioning
 
 #### 3. Badges for completion will be the proof of your work.
@@ -47,4 +45,3 @@ HTML CSS Basics: https://www.codecademy.com/users/YOUR-NAME/achievements
 Siarhei Shaliapin
 HTML CSS Basics: https://www.codecademy.com/users/ra_Levis/achievements
 ```
-#### Deadline         26.09.2017 23:59
