@@ -18,7 +18,6 @@
 - документ с контактами ваших менторов будет пошарен в чате https://gitter.im/rolling-scopes-school/announcements
 - интервью может быть проведено в онлайн формате
 
-
 ### Темы (на базе https://github.com/rolling-scopes-school/docs/blob/master/students.md)
   - Основы ООП. [Примеры вопросов](https://habrahabr.ru/post/345658/)
   - Базовые структуры данных и их организация (массив, список, стек, очередь, дерево, хэш таблица и тд). 
@@ -35,5 +34,9 @@ http://www.codewars.com/kata/search/java?q=&r%5B%5D=-7&tags=Algorithms&beta=fals
       - Box model 
       - em vs rem, относительные и абсолютные величины
       - ...
+
+### Что делать, если вы недовольны собеседованием с ментором
+Например, в ходе собеседоваия ментор спрашивал вас про замыкания в JS, просил рассказать про Redux и т.д.
+В таком случае вам необходимо описать ситуацию, претензию и своё видение в фидбек форму -  https://docs.google.com/forms/d/e/1FAIpQLSeN-OYDhazcs7WhZi_oae-u8bCLuVcsksCeZkYcfRMMwj3eJA/viewform
 
 
