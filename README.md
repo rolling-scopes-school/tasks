@@ -2,6 +2,7 @@
 
 - **Stage #1**
   * [Welcome Aboard!](/tasks/welcome-aboard.md)
+  * Создать профиль в https://www.training.by/
   * Front-end basics
     * [Codeacademy](/tasks/Codecademy_HTML_CSS_Course.md)
   * Algorithms
