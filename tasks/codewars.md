@@ -1,7 +1,3 @@
-Deadline         |
------------------|
-29.10.2017 23:59  |
-
 Codewars:
 
      1. http://www.codewars.com/kata/opposite-number
