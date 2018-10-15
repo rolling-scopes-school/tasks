@@ -52,7 +52,7 @@ Interactive == some effects or animations on user's interactions like hover or c
 - Interactive login/register
 
 2. Main.
-- Interactive domain input with dropdown of first domains.
+- Interactive domain input with dropdown of first domains (.com, .net, .org).
 - Table should strictly be the same as design, and the cells number should be as much, as visible cells are.
 - The circle elements should be made using CSS, transformations.
 - The itmes should be intractive on hover.
