@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23.10.2018 23:59 | markup-2018q3 |
+| 21.10.2018 23:59 | markup-2018q3 |
 
 
 # Homework: markup-2018q3
