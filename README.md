@@ -9,6 +9,7 @@
     * https://epa.ms/padawans-2018
 - **Stage #2**
   * [Технический скрининг.](/tasks/technical-screening.md)
+  * [Codewars](/tasks/codewars.md)
   * [Markup 1](/tasks/markup-2018q3.md)
 - **Stage #3**
   * ...
