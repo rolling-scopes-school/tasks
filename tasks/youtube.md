@@ -17,18 +17,10 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 ### Requirements
 1. Perfect for latest Chrome;
 2. Support at least one mobile platform (e.g. iOS / Android / WP);
-3. HTML rendering via JavaScript (a page is loaded without html tags inside document.body);
-4. Using ES6 features is highly recommended;   
-5. Use of jQuery and other frameworks and libs is forbidden (except for https://lodash.com/);
-6. JS code should be splitted in modules and assembled by webpack. Usage of babel and babel-loader is required.
-7. Presence of editorconfig and eslint is required;
-8. CSS preprocessors can be used;
-9. CSS3 based animation;
-10. Clips (aka components) are listed pagely. Resizing the page increases/decreases the number of clips on a page. After a resize event the first left clip from previous state should presented on a new state (but its position can be different). The futher resizing would take into account the first left component from the new state.
-11. During a mousedown event on a paging component the tooltip with page number should popup.
-12. Your complete app should be uploaded to github pages (gh-pages branch) or to any other hosting.
-13. The visual aspect of your app will be rated also.
-14. Each clip-component should provide for information about a single YouTube clip. Minimal info:
+3. Clips (aka components) are listed pagely. Resizing the page increases/decreases the number of clips on a page. After a resize event the first left clip from previous state should presented on a new state (but its position can be different). The futher resizing would take into account the first left component from the new state.
+4. During a mousedown event on a paging component the tooltip with page number should popup.
+5. Your complete app should be uploaded to github pages (gh-pages branch) or to any other hosting.
+6. Each clip-component should provide for information about a single YouTube clip. Minimal info:
     - title (clickable link to YouTube)
     - clip preview as a picture
     - description
@@ -37,8 +29,7 @@ YouTube REST API should be accessed via cross-domain XHR requests.
     - view rate (count)
 
     Showing the other information is optional.
-
-
+    
 ### Samples of YouTube REST API requests:
     - https://www.googleapis.com/youtube/v3/search?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&type=video&part=snippet&maxResults=15&q=js
     - https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=nq4aU9gmZQk,REu2BcnlD34,qbPTdW7KgOg&part=snippet,statistics
@@ -54,3 +45,43 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 
 #### Mobile version
 ![](https://i.imgur.com/MIFv1sV.png)
+    
+## Source code requirements 
+- HTML rendering via JavaScript (a page is loaded without html tags inside document.body);
+- CSS preprocessors can be used; 
+- CSS3 Animations with Transitions & Transforms;
+- Use of jQuery and other frameworks and libs **is forbidden** (except for https://lodash.com/);
+- `.editorconfig` is required
+- `eslint` is required
+- `eslint-config-airbnb-base` is required
+-  JS code should be splitted in modules and assembled by Webpack. Usage of babel and babel-loader is required. 
+
+
+## Commit Message Guideline
+- At least 7 commits
+- Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/ ) format
+- Subject line requirements:
+```
+  * Allowed Types:
+    * docs: - *documentation only changes*
+    * feat: - *a new feature*
+    * fix: - *a bug fix*
+    * perf: - *a code change that improves performance*
+    * refactor: - *a code change that neither fixes a bug nor adds a feature*
+    * style: - *сhanges that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)*
+    * ...
+  * Use the present tense ("add feature" not "added feature")
+  * Use the imperative mood ("move cursor to..." not "moves cursor to...")
+  * Limit the first line to 72 characters or less
+  * Reference issues and pull requests liberally after the first line
+```
+## Pull Request Guideline
+1. PR name should contains **the task name** and probably additional info.
+2. Changes **must not contain commented code, unnecessary files, changes from other branches and generated files** like *.bundle.js. Please review your changes before contributing. .editorconfig, .gitignore, etc. can be included.
+3. Comments in the PR are good practice.
+4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+
+## Score calcualtion
+- Commit Message Guidelines violation **-25 point**
+- 13. The visual aspect of your app will be rated also.
+
