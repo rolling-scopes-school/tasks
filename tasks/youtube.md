@@ -90,6 +90,7 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 - Pull Request Guideline violation **-25 point**
 - `eslint-config-airbnb-base` errors or warnings **-25 point**
 - animation is not smooth **-30 point** 
+- The following ES6+ features were used - promises, destructuring assignment, classes **+10 points**
 - reasonable amount of unit-tests **+30 points**
 - functional requirements are met **+100 point**
 
