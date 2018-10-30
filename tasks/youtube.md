@@ -1,6 +1,4 @@
-| Deadline | Folder & branch name |
-|----------|-------------|
-| 14.05.2017 23:59| youtube |
+# YouTube client
 
 ### Task:
 The task is to create a web app to view information about youtube clips by user request.
@@ -56,6 +54,11 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 - `eslint-config-airbnb-base` is required
 -  JS code should be splitted in modules and assembled by Webpack. Usage of babel and babel-loader is required. 
 
+## Repository Guideline
+1. Private repository
+2. Branch name `youtube-client`.
+3. Once a task is completed, please open a pull request `youtube-client`->`master`
+4. Assign PR to you mentor 
 
 ## Commit Message Guideline
 - At least 7 commits
@@ -82,6 +85,11 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ## Score calcualtion
-- Commit Message Guidelines violation **-25 point**
-- 13. The visual aspect of your app will be rated also.
+- Repository Guideline violation **-25 point**
+- Commit Message Guideline violation **-25 point**
+- Pull Request Guideline violation **-25 point**
+- `eslint-config-airbnb-base` errors or warnings **-25 point**
+- animation is not smooth **-30 point** 
+- reasonable amount of unit-tests **+30 points**
+- functional requirements are met **+100 point**
 
