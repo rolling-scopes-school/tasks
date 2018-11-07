@@ -8,6 +8,7 @@ Requirements:
 * Language - English.
 
 **For Slides you have to use The HTML Presentation Framework  - [Reveal](https://github.com/hakimel/reveal.js/)**.
+**Usage of https://slides.com/ is forbidden**
 
 ### Процесс сдачи таска
   1. Записать свое выступление (напоминаю, что оно должно быть на английском языке) на камеру телефона. На записи должно быть в первую очередь ваше лицо, слайды могут не попасть в запись. Хороший пример - https://www.youtube.com/watch?v=JezLAu4751Y&feature=youtu.be
