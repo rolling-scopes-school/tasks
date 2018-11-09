@@ -14,7 +14,7 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 
 ### Requirements
 1. Perfect for latest Chrome;
-2. Support at least one mobile platform (e.g. iOS / Android / WP);
+2. Support at least one mobile browser(e.g. iOS / Android / WP);
 3. Clips (aka components) are listed pagely. Resizing the page increases/decreases the number of clips on a page. After a resize event the first left clip from previous state should presented on a new state (but its position can be different). The futher resizing would take into account the first left component from the new state.
 4. During a mousedown event on a paging component the tooltip with page number should popup.
 5. Your complete app should be uploaded to github pages (gh-pages branch) or to any other hosting.
