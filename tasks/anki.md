@@ -7,4 +7,5 @@
 1) Установить https://www.ankiapp.com/ или https://apps.ankiweb.net/ (выбирайте взависимости от своих девайсов, версия для iPhone платная)
 2) Создать колоду и карточки к ней после каждой теоретической лекции. 
 Примерно по итогу это должно выглядеть так:
+
 ![anki](https://github.com/sleepwalky/tasks/blob/2018-Q1/anki.gif?raw=true)
