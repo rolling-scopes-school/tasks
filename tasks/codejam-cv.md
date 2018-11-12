@@ -1,6 +1,6 @@
 # CodeJam-1 "Curriculum Vitae"
 
-### Deadline: 07-09-2018 18:00
+### Deadline: 07-10-2018 18:00
 
 ## Задание 
 Вам необходимо создать index.html страницу и стили к ней.
