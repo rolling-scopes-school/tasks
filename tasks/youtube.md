@@ -10,7 +10,7 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 3. The app processes the request to YouTube REST API and displays loaded clips in form of horisontal list.
 4. The horisontal list can be scrolled with a swipe (on a desktop via mouse swipe). Swipe should be animated, e.g. user can click and pull the list sidewise. Paging event should be triggered when mouseUp is released. If a user makes X quick swipes the app should list X pages. The number of clips on a page depends on the page size (from 1 to 4 clips per page).      
 5. The additional navigation buttons (paging control) are set on the bottom of the page.  
-6. As listing the pages, the app should load new date by chunks ( 15 clips per chunk). It would be good to manage "smooth" data loading which means preloading data chunks in advance to emulate infinite scrolling experience.
+6. As listing the pages, the app should load new data by chunks ( 15 clips per chunk). It would be good to manage "smooth" data loading which means preloading data chunks in advance to emulate infinite scrolling experience.
 
 ### Requirements
 1. Perfect for latest Chrome;
