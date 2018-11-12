@@ -83,3 +83,7 @@
 ## Кто выполянет проверку задания?
 Ваш ментор.
 
+## Разбор решения
+- [Слайды](https://docs.google.com/presentation/d/1gH21NJrZlnQpigodbmDtJmozamkezPJ8B65gqqFQwRU/edit#slide=id.g383cf02937_1_1)
+- [Видео](https://www.youtube.com/watch?v=UaCGsLvviCA&index=11&list=PLe--kalBDwjhdXudsOpKooP6q9bAl3rPG)
+
