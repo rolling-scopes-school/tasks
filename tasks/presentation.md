@@ -2,7 +2,7 @@
 Your task is to prepare a presentation on a given topic (offered or approved by mentor). The whole list of appropricate topics could be found here - https://github.com/rolling-scopes-school/lectures.
 
 Requirements:
-* 8 - 20 minutes for presentation
+* 8 - 10 minutes for presentation
 * Talk rehearsal within your subgroup is obligatory
 * Speaker notes for each slide is obligatory
 * Language - English.
@@ -20,9 +20,10 @@ Requirements:
   
  ###  Критерии оценки:
   1. Есть презентация и транскрипт выступления на английском:  +20 баллов
-  2. Запись выступления выложена на YouTube: +60 баллов
-  3. Речь понятная, на видео видны слайды: +20 баллов
-  4. Дополнительные баллы (+50 максимум) в случае оффлайн презентации перед аудиторией в stage#3:  
+  2. Был пройден предварительный прогон презентации с ментором: +20 баллов
+  3. Запись выступления выложена на YouTube: +60 баллов
+  4. Речь понятная, на видео видны слайды: +20 баллов
+  5. Дополнительные баллы (+50 максимум) в случае оффлайн презентации перед аудиторией в stage#3:  
       * Пришёл и рассказал хоть что-то, хоть как-то: +10 баллов (за храбрость)
       * Рассказал на английском более-менее без запинок: +15 баллов
       * Последовательно построенные предложения, мысль не обрывается, не скачет, не приходиться додумывать: +15 баллов
