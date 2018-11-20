@@ -21,6 +21,12 @@
 4. Монстр применяет заклинание, наносит урон игроку.
 5. Если игрок победил - битва со следующим монстром. Если проиграл - показывается таблица рекордов, с количеством побежденных монстров и именем героя. 
 
+### Примеры работ студентов прошлого набора
+- https://yanaselin.github.io/cyrodiil-ways/
+- https://anton-yatskevich.github.io/stickman-warriors-game/dist/
+- http://rini.surge.sh/
+- https://olegkoleda.github.io/epicgame/
+
 ### Варианты экрана "задача":
  1) Решение базовых арифметических примеров. В данном случае генерируется случайная пара чисел и случайная операция с ними.  Например, 25 + 67 или 130 - 7, или 7 x 11 и т.д.
  2) Перевод с анлийского на русский. В данном случае игрок видит случайное английское слово (например, "cat") и должен ввести перевод. Правильных переводов может быть несколько (кот, кошка, котик и т.д.) Словарь должен находится в отдельном файле и легко конфигурироваться. Админку управления словарем делать не надо.  
@@ -123,7 +129,9 @@
 4) https://cdn.scratch.mit.edu/scratchr2/static/__787158ad1362201586979068ba002765__/help/ru/howto/fly-intro.html
 5) https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
 
-#### Примеры игр
-- https://themarkmarrone.github.io/petrovich/, 
-- https://spider-shooter.github.io
-- https://anton-yatskevich.github.io/stickman-warriors-game/dist/
+### Видео разбор от одного из студентов RSSchool 2018Q1
+- https://www.youtube.com/watch?v=R_iSXbgNWc8&feature=youtu.be
+- https://www.youtube.com/watch?v=1_phuaJ5ZNM&feature=youtu.be
+
+
+
