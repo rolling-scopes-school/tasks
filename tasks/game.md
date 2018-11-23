@@ -66,7 +66,7 @@ https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requireme
 Например, вместо `if (event.keyCode === 32 || event.keyCode === 13) {….}` использовать `if (event.keyCode === KeyboardEvent.SPACE || key === KeyboardEvent.ENTER ) {….}` и т.д.
 - Не использовать функции, которые длиннее 40 строк (без учета объявления переменных).
 - Минимальное использование тернарных операторов.
-- Использовать чистые функции (pure functions), где это возможно. Если не раньше не слышали, можно начать знакомство [тут](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) или [тут](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976) 
+- Использовать чистые функции (pure functions), где это возможно. Если раньше не слышали, можно начать знакомство [тут](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) или [тут](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976) 
 - Использовать осмысленные имена переменных. Избегать однобуквенных имен (i,n,j,d и т.д), абстрактных названий (obj, arr, num, item1 и т.д.)
 
 ### Cтуктура проекта. Пример организации файлов и папок:
