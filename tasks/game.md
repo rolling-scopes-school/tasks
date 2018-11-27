@@ -136,5 +136,8 @@ https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requireme
 - https://www.youtube.com/watch?v=R_iSXbgNWc8&feature=youtu.be
 - https://www.youtube.com/watch?v=1_phuaJ5ZNM&feature=youtu.be
 
+### Материалы лекции от @davojta c разбором часто встречающихся ошибок при выполнении данного задания
+- https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
+
 
 
