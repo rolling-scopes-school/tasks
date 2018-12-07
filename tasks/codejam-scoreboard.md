@@ -1,8 +1,9 @@
-# CodeJam-4 "CSS Quick Draw Scoreboard"
+# CodeJam "CSS Quick Draw Scoreboard"
 
-- **Deadline:** 20-05-2018 23:00
-- **Куда сдавать:** Приватный репозиторий, бранч "code-jam4-scoreboard", папка "code-jam4-scoreboard", минимум 2 коммита, далее Pull Request вешать на своего ментора. Названия коммитов должны следовать гайдлайну по наименованию - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/git.md
-После создания Pull Request бросьте ссылку на ваш приватный репозиторий вот сюда - https://docs.google.com/forms/d/e/1FAIpQLSf-AcdmwR8Z553GoRBOgDqvZ1yU0Th-i2r5yhi3tBIcAaXmWg/viewform.
+- **Deadline:** 09-12-2018 23:00
+- **Куда сдавать:** Приватный репозиторий, бранч "code-jam-scoreboard", папка "code-jam-scoreboard".
+- **Требования к коммитам, репозитория и PR** - https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md
+
 - **Ограничение:**
     - Должно работать в Chrome
     - Активное использование https://lodash.com/ приветствуется 
@@ -21,8 +22,7 @@
       - В таблицу добавить колонку "Comparison", которая будет содержать чекбоксы. "Чекнутые" строки будут отображаться в 
       виде Line Chart (например, http://www.chartjs.org/samples/latest/charts/line/basic.html). Одновременно может быть выбрано до 10 строк. Line Chart по оси Х отображает название пазла, по Y - время решения, в легенде чарта - гитхаб игрока.
       Можно использовать готовый компонент Line Chart. 
-    - +20 баллов
-        Предложить 3-5 альтернативных вариантов визуализации результатов.  Описание должно быть на английском языке в файле readme.md.
+    - -50 баллов за нарушение https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md
  
 Пример таблицы:
   
@@ -34,9 +34,7 @@
 
 ### Пояснение
 Дампы предыдущего CodeJam "CSS Quick Draw" лежат в папке:
-https://drive.google.com/open?id=18rs--eJqlngcgd41apA8Kc_CvwkqRFNB
-
-В файле sessions.json одновременно лежат 2 сессии (`rsschool` и `rsschool-demo`), граница на строчке 14391.
+https://drive.google.com/drive/folders/10XH1dNj4c7yOptjFblhc1Y74FmMJNUwQ
 
 Данные по каждому пазлу можно найти в поле `rounds`. Внутри каждого round’a есть хэшмэп `solutions`, где ключ — это id игрока из users.json (`uid`).
 
