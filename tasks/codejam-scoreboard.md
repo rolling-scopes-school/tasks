@@ -23,6 +23,7 @@
       виде Line Chart (например, http://www.chartjs.org/samples/latest/charts/line/basic.html). Одновременно может быть выбрано до 10 строк. Line Chart по оси Х отображает название пазла, по Y - время решения, в легенде чарта - гитхаб игрока.
       Можно использовать готовый компонент Line Chart. 
     - -50 баллов за нарушение https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md
+    - +30 баллов Добавить возможность простмотреть участников, которые учились в прошлом наборе RSSchool (2018Q1), проходили CSS Quick Draw 2018Q1 и продолжают учиться сейчас. Построить любую сравнительную аналитику достигнутых ими результатов по сравнению с прошлым набором. Данные прошлого набора можно найти тут - https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-scoreboard.md.
  
 Пример таблицы:
   
