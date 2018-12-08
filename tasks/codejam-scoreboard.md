@@ -36,6 +36,8 @@
 Дампы предыдущего CodeJam "CSS Quick Draw" лежат в папке:
 https://drive.google.com/drive/folders/10XH1dNj4c7yOptjFblhc1Y74FmMJNUwQ
 
+В файле sessions.json нужная сессия находится на строчке 34. 
+
 Данные по каждому пазлу можно найти в поле `rounds`. Внутри каждого round’a есть хэшмэп `solutions`, где ключ — это id игрока из users.json (`uid`).
 
 Solution каждого игрока — это последний полученный от игрока ввод.
