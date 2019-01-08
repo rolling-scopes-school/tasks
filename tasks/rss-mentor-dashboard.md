@@ -30,7 +30,7 @@
 ### Как делать / сдавать
     - написать nodejs скрипт который
       - обработает данные с помощью библиотеки [node-xlsx](https://github.com/mgcrea/node-xlsx) или любой другой для чтения excel файлов 
-      - смержит данные из [google drive папки] (https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW)
+      - смержит данные из [google drive папки](https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW)
         - по студентам ментора
         - по выставленным оценкам
       - получит json файл с нужными данными
@@ -45,7 +45,7 @@
     
     
 ### Требования к коммитам, PR, репозиторию
-[Общие требования из этапа 2 ] (https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
+[Общие требования из этапа 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
 
 ### Критерий оценки:
 - Максимальный бал за задание - **130**
