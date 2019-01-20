@@ -1,6 +1,6 @@
 # CodeJam-Culture-Portal
 
-### Deadline: Tuesday, Jan 29, 2019 23:59
+## Deadline: Tuesday, Jan 29, 2019 23:59
 
 ## Задание
 Реализовать портал культуры Беларуси, работая в группе, и по выданной теме.
@@ -70,6 +70,8 @@ https://literature.britishcouncil.org/writers/?Genre=3
 
 Сдача будет происходить в 2 сессии по 2 часа онлайн Денису Шеко / Диме Воробью. 30 января - 1 февраля.
 
+## Требования к коммитам, PR, репозиторию
+[Общие требования из этапа 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
 
 ## Оценка
 
@@ -83,3 +85,7 @@ https://literature.britishcouncil.org/writers/?Genre=3
 - **10**   Страница cписка авторов содержит виджет поиска
 - **10**   Уверенность презентации проекта
 - **10** Проект сделан на gatsbyjs
+- до **-50** баллов за нарушение [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
+
+## Кто выполянет проверку задания?
+davojta / Дмитрий Воробей
