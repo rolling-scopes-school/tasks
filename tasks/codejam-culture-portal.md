@@ -41,6 +41,14 @@
 Пример [запроса к викиданным](https://query.wikidata.org/#SELECT%20%3Fitem%20%3FplaceofbirthLabel%20%3Fdob%20%3Fname%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP27%20wd%3AQ184.%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ5.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP19%20%3Fplaceofbirth.%0A%20%20%20%20%3Fplaceofbirth%20wdt%3AP625%20%3Fcoord.%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP569%20%3Fdob.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2C%20by%2C%20ru%22.%20%7D%0A%20%20%3Fitem%20wdt%3AP106%20wd%3AQ2526255.%0A%20%20OPTIONAL%20%7B%20%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP1559%20%3Fname.%20%7D%0A%7D)
 
 
+Пример дизайна / UX:
+http://ses.fi/en/films/categories/documentaries/
+https://www.aia.org/aia-architects?filters=typeFilters%3A2496%3B
+https://literature.britishcouncil.org/writers/?Genre=3
+
+Галереи / таймлайны / оверлеи можно искать на https://bestofjs.org/
+
+Дизайн / внешний вид не важны для выполнения задания. Главное чтобы был текст / фото.
 
 ## Технические ограничения
 Создавать портал можно с библиотек визуальных компонент material-ui, boostrap. Можно использовать любые СSS фреймворки.
