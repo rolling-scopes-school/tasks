@@ -1,3 +1,10 @@
+ 
+### Вариант #1
+https://pivotanimator.net/
+
+
+### Вариант #2
+ 
  Создать клон - https://www.piskelapp.com/
  
 1. Использовать font-awesome для иконок приложения
