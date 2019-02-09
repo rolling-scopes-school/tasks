@@ -39,15 +39,15 @@ Codewars:
      - http://www.codewars.com/kata/functional-sql
      - http://www.codewars.com/kata/can-you-get-the-loop
   
-  ### критерии оценки
-*  1 балл за задачу 8 kyu и 7 kyu (всего 14 штук)
-*  4 балла - 6 kyu (всего 11)
-*  5 баллов - 5 kyu (всего 7)
+  ### Scoring criteria
+*  1 point for 8 kyu and 7 kyu tasks (14 tasks at all)
+*  4 points - 6 kyu (14 at all)
+*  5 points - 5 kyu (7 at all)
 
-Итого: 1 * 14 + 4 * 11 + 5 * 7  = 93
+Total: 1 * 14 + 4 * 11 + 5 * 7  = 93
 
-Дополнительно можно получить:
-*  5 баллов - 5 kyu (3 задачи)
-*  20 баллов - 1 kyu (1 задача)
+Additionally you can score:
+*  5 points - 5 kyu (3 tasks)
+*  20 points - 1 kyu (1 task)
 
-В итоге сумарно - 128 баллов. 
+Total sum - 128 points. 
