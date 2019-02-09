@@ -4,16 +4,16 @@
 
 
 
-Тема для самостоятельного изучения: Верстка каркасов (колонок).
+Topic for self-learning: Frames layout (columns).
 
-Необходимо самостоятельно изучить максимальное количество способов верстки колоночных макетов. Эта тема для самостоятельного изучения, она важна и будет проверена. В ваших интересах наиболее тщательно поискать варианты.
+It's necessary to learn the maximum number of column frames layout methods individually. This topic is for self-learning, it is important and will be examined. In your interest to search carefully for options.
 
-Обратите внимание на следующие вещи:
+Pay attention to the next issues:
 
-1. Различные техники верстки каркасов.
-2. Семантические тэги HTML5 для верстки различных частей каркаса.
-3. Прибитие подвала (footer) к низу страницы.
-4. Верстка колонок с одинаковой высотой (при этом не используя Flexbox).
+1. Various techniques of frames layout developing.
+2. Semantic HTML5 tags for creating different parts of frame layout.
+3. "Nailing down" footer to the bottom of the page.
+4. Creating columns with the same height (without using Flexbox).
 
 
 ![alt tag](http://memesmix.net/media/created/09516c.jpg)
