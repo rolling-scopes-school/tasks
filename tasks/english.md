@@ -1,25 +1,24 @@
 # English and RSSchool
 
-### Your level of English has to be A2 (pre-intermediate) or higher by the end of the third stage of training.  
+### Your level of English has to be A2 (pre-intermediate) or higher by the end of the stage #3 of education.  
 
-If you have a relevant certificate/diploma of english courses completion (no more than 18 month old):
+If you have a relevant certificate/diploma of english courses completion (no more than 18 months old):
 1) Send photo or scan of it to a mentor
 2) Your **Presentation task** should be done and accessible via YouTube link
-3) Mentor sets your level to Score and adds a comment - "on a basis of certificate"
+3) Mentor sets your level to "Score" spreadsheet and adds a comment - "based of provided certificate"
 
 ### Intermediate test at the second stage of training
 1) You need to pass the test http://test.str.by/
 2) Make a screenshot of the result
 3) Send it to the mentor
 4) Your **Presentation task** should be done and accessible via YouTube link
-5) Mentor sets your level to Score and adds a comment - "on a basis of online test"
+5) Mentor sets your level to "Score" spreadsheet and adds a comment - "based on the online test"
    
 Useful links:
  * Test your english level - http://test.str.by/
  * https://lingualeo.com
  * https://www.duolingo.com/  
 
-Student's recomendations:
 ```
 ...
 ```
