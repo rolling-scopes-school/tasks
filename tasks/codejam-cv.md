@@ -1,6 +1,4 @@
-# CodeJam-1 "Curriculum Vitae"
-
-### Deadline: 07-10-2018 18:00
+# "HTML, CSS & Git Basics"
 
 ## Задание 
 Вам необходимо создать index.html страницу и стили к ней.
