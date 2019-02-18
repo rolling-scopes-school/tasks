@@ -1,4 +1,5 @@
-### Technical screening (актуальные цифры и даты для набора RSSchool 2019Q1 будут позже )
+# Technical screening 
+### (актуальные цифры и даты для набора RSSchool 2019Q1 будут позже )
 
 ### Цели:
 1) Формирование списка студентов RSSchool stage#2
