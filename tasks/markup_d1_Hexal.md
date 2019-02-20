@@ -24,7 +24,7 @@ Browser support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 ## Как сдавать
 
-На **своем** аккаунте Github создать репозиторий с названием *hexal* и залить туда файлы HTML и CSS.
+На **своем** аккаунте Github создать приватный репозиторий с названием *hexal* и залить туда файлы HTML и CSS.
 
 ## Критерии оценки
 
