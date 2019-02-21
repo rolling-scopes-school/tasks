@@ -46,7 +46,7 @@ HTML CSS Basics: https://www.codecademy.com/users/sergey.shalyapin/achievements
 #### 1. Create profile on https://htmlacademy.ru/
 #### 2. Go to the links and complete units to receive badges:
 
-*Must!*
+*Desirable!*
 
 HTML: https://htmlacademy.ru/courses/basic-html
 
