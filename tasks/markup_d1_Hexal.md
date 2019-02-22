@@ -45,17 +45,14 @@ Interactive == some effects or animations on user's interactions like hover or c
 1. Header.
 - Interactive nav.
 - Think of where h1 should be used.
+- Header triangle should bepositioned on center.
 
 2. Main.
-- No spinners is needed, but not resricted.
+- No slider is needed, but not resricted.
 - Hex blocks should positioned as showed on layer.
 - Care about lines and colors.
 - Interactive social networks icons.
-- The circle elements should be made using CSS, transformations.
-- The itmes should be intractive on hover.
-- links in "about us" should be interactive.
-- The feddback items should be interactive. (слайдер делать функциональным не обязательно, но желательно)
-- Services items should be links.
+- Social networks should be links.
 
 3. Footer
 - There should be form with inputs and textarea.
@@ -64,6 +61,11 @@ Interactive == some effects or animations on user's interactions like hover or c
 
 
 ## Полезные ссылки
+Для работы с треугльниками, есть полезный инструмент:
+http://apps.eky.hk/css-triangle-generator/
+
+Для упрощенной формы работы со стилями, можно использовать CSS3 генератор:
+http://css3generator.com/
 
 ## Если нет возможности использовать Photoshop для работы с psd изображениями
 Есть хороший тул: https://studio.psdetch.com/
