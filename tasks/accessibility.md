@@ -3,44 +3,40 @@ Deadline         | Folder Name    | Coefficient
 03.11.2016 23:59 | accessibility  | 0.6
 
 
-Макет: ваша верстка виджетов
+Layout: your Layout for widgets
 
+General Requirements:
 
-Общие требования:
-1. Для тестирования страницы использовать скринридер. (NVDA является предпочтительным)
+1. Use a screenreader to test the page. (NVDA is preferred)
 
-2. Макет должен быть полностью доступен с клавиатуры.
+2. Layout should be completely accessible via keyboard.
 
-3. Легкий доступ и переход между виджетами (актуально только для скрин-ридер юзеров)
+3. Easy access and navigation among the widgets (relevant only for screenreaders)
 
-4. Все элементы страницы должны четко и однозначно распозноваться.
+4. All elements on the page should be unambiguously distinguished
 
-5. В случаях, когда элемент представляет собой заглушку для js, разрешается использовать hidden-class с описанием элемента.
+5. In cases when an element is a stub for js, you are allowed to use hidden-class with element description
 
-Требования по некоторым виджетам:
+Requirements for some widgets:
 
+Weather.
 
-Погода.
+* When the slider gets focus the user should hear a message on how to switch to a different city (you needn't do the switching itself, obviously).
 
-* При фокусе на слайдере должно звучать сообщение о том, как можно переключить на следующий город (переключение, ясное дело, вы не делаете).
+* When a picture is focused the slider should have all info on a given city (name, temperature and time)
 
-* При фокусе на картинке в слайдере должна читаться вся информация о данном городе (название, температуры и время)
+Audioplayer
 
+* When the play button is focused the user should be told which second an audio is going to start playing from
 
-Аудиоплеер
+* When the scroller gets focus the user should be told how to rewind the song forwards / backwards (you should imitate a situation when the music is paused)
 
-* При фокусе на кнопке плей должно говориться с какой секунды начнется проигрывание композиции.
+Messages
 
-* При фокусе на ползунке должно говориться, как промотать песню вперед или назад.(эмитируем ситуацию, когда музыка на паузе)
+* The + - icon should start a chat with a new person
 
+* When the user moves focus to another person they should hear that person's name, status (their status can be made up depending on the color of the circle) and their action (whether or not that person received a message and if they are typing at the moment). This info should be correctly displayed. Also you should make it more logical using aria-live. However, since our widgets are not very dynamic yet, you don't have to do that. Instead you are allowed to show it simply as description on focus but do keep aria-live stuff in mind.
 
-Сообщения.
+Widget with buttons
 
-* Иконка + - это начать чат с новым человеком
-
-* При фокусе на каждом человеке хотелось бы слышать, его имя, статус (можно самим их придумать исходя из цвета кружочка), его действие (получил он сообщение, нет и печатает ли он текст). Эту всю информацию отображать и делать логичнее с помощью aria-live, но так как сейчас нет никакой динамики в виджете, то делаем это просто описанием на фокус, а про aria-live просто помним.
-
-
-Виджет с кнопками
-
-* При фокусе на ползунке сообщаем, что какая-то мифическая величина выбрана и что надо сделать, что бы ее поменять.
+* When the scroller gets focus the user should be told that a certain value is set and instructed on how to modify it
