@@ -2,23 +2,25 @@ Deadline         | Folder Name    | Coefficient
 -----------------|----------------|------------------
 15.03.2016 23:59 | float_exercise | 0.2
 
-Задание для тренировки float.
+Exercise to practice float.
 
-Вам нужно модифицировать html файл, чтобы получился такой результат как на картинке в этой же html-ке.
+Your task is to modify the HTML file so that the result looks the same as in the picture in the same HTML
 
-Модифицировать !только! добавлением классов к div-ам:
-1. Класс w1 – ширина 1em
-2. Класс w2 – ширина 2em
-3. Класс h1 – высота 1em
-4. Класс h2 – ну вы поняли 
-5. Класс l (буква «л») – флоат влево
-6. Класс r – флоат вправо
+You should modify __!only!__ via adding classes to div-s
 
-Каждому диву в рабочей секции добавить классы высоты и ширины, цвет сам подтянется.
+1. Class w1 - width of 1em
+2. Class w2 - width of 2em
+3. Class h1 - height of 1em
+4. Class h1 - well, you get the idea :grinning:
+5. Class l (latin lowercase 'l' letter) - float: left
+6. Class r - float: right
 
-Дополнительно: Использовать только 8 классов с флоатами
-*для этого нужно добавить одно свойство в css 
+You should add the width and height classes to every div in the working section, the color will be applied automatically.
+
+Extra: Use only 8 classes with floats
+
+*for this to work you need to add one proper to CSS
 
 
-ссылка на файл 
+link to the file
 https://www.dropbox.com/sh/8zsbi2l7kko3owx/AAD3HsT2M20ANNTzSGohKs0Ma?dl=0
