@@ -28,11 +28,11 @@
 ```
 **NOTE!** Рекомендуется использовать ваши реальные данные, но и фейковые тоже подойдут. 
 
-Документ должнен быть размещен на GitHub Pages (https://pages.github.com/), это произойдет автоматически при создании `gh-pages` бранча. После чего страница будет доступна по адресу вида - https://your-githab-account.github.io/rsschool-2019Q1-cv/cv  
+Документ должнен быть размещен на GitHub Pages (https://pages.github.com/), это произойдет автоматически при создании `gh-pages` бранча. После чего страница будет доступна по адресу вида - https://your-github-account.github.io/rsschool-2019Q1-cv/cv  
 
 ### Требования к репозиторию: 
 1. Вам необходимо создать публичный репозиторий c названием  `rsschool-2019Q1-cv` на вашем GitHub аккаунте.
-2. В `master` бранче должен быть только один файл - `readme.md` содержащий ссылку вида https://your-githab-account.github.io/rsschool-2019Q1-cv/cv. 
+2. В `master` бранче должен быть только один файл - `readme.md` содержащий ссылку вида https://your-github-account.github.io/rsschool-2019Q1-cv/cv. 
 3. Сам документ с название `cv.md` должен находиться в бранче `gh-pages`. 
 4. После выполнения задания вам необходимо создать Pull Request `gh-pages`->`master`.
 
