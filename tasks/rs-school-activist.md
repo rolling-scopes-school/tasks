@@ -7,7 +7,7 @@ Every week, mentors will review students’ activity in chat rooms and select 1-
 ## Assessment criteria
 The following performance indicators will be used:
 
-* how thoughtful the questions are (a student requests to make a task more precise or provide more details about it after trying to solve it on his/her own, makes some common errors, etc., posts his/her code and offers possible solutions)
+* how thoughtful the questions are (whether a student requests to make a task more precise or provide more details about it after trying to solve it on his/her own, makes some common errors, etc., posts his/her code and offers possible solutions)
 * how well the solution is explained
 * whether answers provided relate to upcoming tasks
 * whether questions asked by other students are responded to in a friendly manner, without bullying and insulting 
