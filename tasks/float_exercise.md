@@ -6,7 +6,7 @@ Exercise to practice float.
 
 Your task is to modify the HTML file so that the result looks the same as in the picture in the same HTML
 
-You should modify __!only!__ via adding classes to div-s
+You should modify __!only!__ via adding classes to divs
 
 1. Class w1 - width of 1em
 2. Class w2 - width of 2em
@@ -19,7 +19,7 @@ You should add the width and height classes to every div in the working section,
 
 Extra: Use only 8 classes with floats
 
-*for this to work you need to add one proper to CSS
+*for this you need to add one property to CSS
 
 
 link to the file
