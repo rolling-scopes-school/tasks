@@ -1,4 +1,4 @@
-**### Question examples:
+### Question examples:
    * Data types in JS. Type coercion.
    * What is hoisting?
    * Let vs var. Const.
@@ -31,5 +31,5 @@ Full name and contacts of the mentor who will interview you can be found in this
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
 
-### The interview should be passed before 30 December 2018. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible. **
+### The interview should be passed before 30 December 2018. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 
