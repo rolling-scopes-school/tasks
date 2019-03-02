@@ -48,7 +48,7 @@ Interactive == some effects or animations on user's interactions like hover or c
 - Header triangle should bepositioned on center.
 
 2. Main.
-- No slider is needed, but not resricted.
+- No slider is needed, but not restricted.
 - Hex blocks should positioned as showed on layer.
 - Care about lines and colors.
 - Interactive social networks icons.
