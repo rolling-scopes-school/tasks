@@ -1,34 +1,35 @@
-### Примеры вопросов: 
-   * Типы данных в JS. Приведение типов
-   * Что такое hoisting?
+### Question examples:
+   * Data types in JS. Type conversions 
+   * What is hoisting?
    * Let vs var. Const
-   * Передача данных по ссылке и по значению. Примеры
-   * {a: 10} == {a: 10}. Что вернет код?
-   * Что такое this?
-   * Apply, call, bind. Для чего используются? В чем отличия?
-   * Замыкание. Приведите пример.
+   * Passing arguments by value and reference. Exapmles
+   * {a: 10} == {a: 10}. What will the code return?
+   * What is "this"?
+   * Apply, call, bind. What they are used for? What are the differences?
+   * Closure. Give any examples
    * Sum(1)(2)
-   * Prototype. Отличия __proto__ от prototype. Пример наследования
-   * Как создать объект без прототипа?
-   * Методы массива, перебирающие элементы массива
-   * “hello world”.repeating(3) -> hello world hello world hello world. Как реализовать?
-   * Браузерные события элементов. Отмена дефолтных событий браузера
-   * Всплытие и перехват событий
-   * Делегирование. Пример
-   * Напишите функцию F, так чтобы new F === F
+   * Prototype. Differences between __proto__ and prototype. Example of inheritance
+   * How to create an object without a prototype?
+   * Array methods that loop over the elements
+   * “hello world”.repeating(3) -> hello world hello world hello world. How to implement?
+   * Browser events. Browser default actions cancellation
+   * Event bubbling and event capturing
+   * Delegation. Example
+   * Write a function F so new F === F
    * Function.prototype.bind polyfill
    * Object.create polyfill
    * Event loop
    * Promises
-   
-   
-### Процесс прохождения интервью.
-1. Вам необходимо самостоятельно связаться с ментором. ФИО ментора, у которого вы будете проходить интервью и его контактные данные  можно найти в этом [документе](https://docs.google.com/spreadsheets/d/1q5jn9oGx8d7mpG-9oTF3XWlWpTwblW-2fiFA7XHNFGw/edit#gid=0)
-2. По желанию ментора интервью может проходить очно или online.
-3. Во время интервью ментор:
-  - задает вопросы
-  - слушает ответы
-  - если необходимо, дополняет/исправляет/объясняет/дает правильный ответ
 
-### Интервью необходимо пройти до 30 декабря 2018. Учтите, что ментор может быть занят (отпуск, командировка, загрузка на проекте и т.д.) , так что свяжитесь с ним как можно быстрее. 
+
+### A process of passing the interview
+1. You should contact a mentor personally. Full mentor's name by whom you will be interviewed and his contacts you can find in this [document](https://docs.google.com/spreadsheets/d/1q5jn9oGx8d7mpG-9oTF3XWlWpTwblW-2fiFA7XHNFGw/edit#gid=0)
+2. At mentor's will interview can be hold in person or online.
+3. During the interview mentor:
+  - ask questions
+  - take answers
+  - if necessary, add/correct/explain/give the right answer
+
+The interview should be passed before 30 December 2018. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
+
 
