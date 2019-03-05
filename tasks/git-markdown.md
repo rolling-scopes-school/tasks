@@ -2,44 +2,49 @@
 
 ### Deadline: 03-03-2019 23:59
 
-## Задание 
-Вам необходимо создать markdown документ. Что такое markdown можно прочитать тут - https://guides.github.com/features/mastering-markdown/
+## Task
 
-Содержание документа - ваше резюме.  
-Вот рекомендации к контенту от EPAM HR-ов:
+Your task is to create a markdown document. Read about markdown here - https://guides.github.com/features/mastering-markdown/
+
+Document contents - your Resume.
+Here are some tips from EPAM employees:
 ```
-Что должно содержать в себе резюме Junior разработчика?
+What should be in a Junior Developer Resume?
  
-! Важно: по-возможности составлять резюме на английском
+! Important: try writing your Resume in English if you can
 
-1. Имя, фамилия (реальные)
-2. Контакты (желательно несколько)
-3. Summary (цель, пожелания, раскрыть, что важно, что хочется и почему. 
-Некий вариант самопрезентации. Когда опыта минимум, джун продает свой потенциал, 
-свое желание и способность быстро учиться. Не занимать позицию, что он придет, 
-и все кинутся его учить. Но обратное – у джуна время все брать, отовсюду, всегда и т.д.).
-4. Skills (например: языки программирования, фреймворки, методологии, системы контроля версий, тулы...)
-5. Примеры кода (по возможности СВЕЖИЕ)
-6. Опыт (Junior-у имеет смысл указать весь опыт: тестовые задания, проекты с курсов,
-фрилансовые проекты – все, где он применял вышеупомянутые скилы. 
-Круто, если это будет со ссылками на код)
-7. Образование (в т.ч. курсы, семинары, лекции, онлайн-обучение)
-8. Уровень английского (тут стоит указать, какая именно практика была, как долго и т.д.) 
+1. First Name, Last Name (real ones)
+2. Contact Info (add several ways to contact you)
+3. Summary (your goal, wishes, try telling what is important for you what you want and why.
+Do your best to present yourself. Without previous work experience what a Junior Developer is
+selling is essentially their potential, their passion and ability to learn fast. Don't imply that
+when you come to the workplace everybody is going to teach you. Rather being a Junior means always
+learning new things from everywhere etc.).
+4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
+5. Code examples (LATEST)
+6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
+freelance projects - wherever they had the opportunity to demonstrate the skills they have.
+Also it would be awesome if you add links to all that source code)
+7. Education (including courses, seminars, lectures, online learning)
+8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
 ```
-**NOTE!** Рекомендуется использовать ваши реальные данные, но и фейковые тоже подойдут. 
+**NOTE!** You are recommended to use real data. However fake data will do too. 
 
-Документ должнен быть размещен на GitHub Pages (https://pages.github.com/), это произойдет автоматически при создании `gh-pages` бранча. После чего страница будет доступна по адресу вида - https://your-github-account.github.io/rsschool-2019Q1-cv/cv  
+The document should be deployed with GitHub Pages (https://pages.github.com/), this will happen automatically as soon as you create a `gh-pages` branch. After that your page will be available at URL like this one: https://your-github-account.github.io/rsschool-2019Q1-cv/cv
 
-### Требования к репозиторию: 
-1. Вам необходимо создать публичный репозиторий c названием  `rsschool-2019Q1-cv` на вашем GitHub аккаунте.
-2. В `master` бранче должен быть только один файл - `readme.md` содержащий ссылку вида https://your-github-account.github.io/rsschool-2019Q1-cv/cv. 
-3. Сам документ с название `cv.md` должен находиться в бранче `gh-pages`. 
-4. После выполнения задания вам необходимо создать Pull Request `gh-pages`->`master`.
+### Repository Requirements:
 
-### Требования к коммитам
-- Минимум 3 коммита
-- Названия коммитов должны быть согласно гайдлайна - https://www.conventionalcommits.org/en/v1.0.0-beta.2/ 
-Основные требования:
+1. Make a public repository called `rsschool-2019Q1-cv` on your GitHub account.
+2. There should be only one file in the `master` branch - a `README.md` file with a link like this https://your-github-account.github.io/rsschool-2019Q1-cv/cv in it
+3. The CV document itself called `cv.md` should be in the branch `gh-pages`.
+4. Once you are done, open a Pull Request `gh-pages`->`master`.
+
+### Commits Requirements
+
+- A minimum of 3 commits
+- Commit names according to the guideline - https://www.conventionalcommits.org/en/v1.0.0-beta.2/
+
+Main requirements:
 ```
   * Allowed Types:
     * docs: - *documentation only changes*
@@ -55,11 +60,11 @@
   * Reference issues and pull requests liberally after the first line
 ```
 
-### Требования к оформлению PR (Pull Request)
-1. PR name should contains **the task name** and probably additional info.
+### PR (Pull Request) Requirements
+1. PR name should contain **the task name** and probably additional info.
 2. Changes **must not contain commented code, unnecessary files, changes from other branches and generated files** like *.bundle.js. Please review your changes before contributing. .editorconfig, .gitignore, etc. can be included.
-3. Comments in the PR are good practice.
+3. Comments in the PR are a good practice.
 4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
-### Критерии оценки
-- +25 баллов, если требования к заданию выполены
+### Criteria
+- +25 points upon meeting the task requirements
