@@ -1,4 +1,4 @@
-﻿| Deadline  | Folder name |
+| Deadline  | Folder name |
 |-----------|-------------|
 | 10.03.2019 23:59 | hexal |
 
@@ -28,7 +28,7 @@ Create a new private repository named *hexal* in **your** Github account and upl
 
 ## Assessment criteria
 
-If the task is fully completed, and no defects are found, you are awarded **100 points**. This concerns the markup and use of HTML and CSS.
+If the task is fully completed, and no defects are found by mentor, you are awarded **100 points**. This concerns the markup and use of HTML and CSS.
 
 You must use pure HTML and CSS in your solution. Fonts and images must be hosted locally in the `assets` folder.
 
@@ -73,7 +73,8 @@ No sign-up is required, just click the “open” button or drag&drop the downlo
 If you need to extract an image, the “export” function is available.
 It is perfectly functional to meet all the needs you would encounter in this homework.
 
-However, If you lack some of the functionality when using the previous service, give [Photopea](https://www.photopea.com/) a try.
+However, if you lack some of the functionality when using the previous service, give [Photopea](https://www.photopea.com/) a try.
 No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
 It also supports work with layers and export operations (including .svg format).
 Another advantage is that its interface is very similar to that of Photoshop.
+
