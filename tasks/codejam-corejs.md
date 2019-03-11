@@ -3,15 +3,14 @@
 ### Deadline: 28-10-2018 21:00
 
 ## Task
-You have to implement 3 functions. Each function need to be placed in a *separate* file with title of the function name (for example **make.js**). As soon as you create a function, please commit the file. Implement another function and make next commit etc. You can refactor and commit changes up until the deadline.    
+You have to implement 3 functions. Each function need to be placed in a *separate* file with title of the function name (for example **make.js**). As soon as you create a function, please commit the file. Implement another function and make the next commit etc. You can refactor and commit changes up until the deadline.    
 
 When you finish the task, please fill this form with link to your Pull Request - 
 https://docs.google.com/forms/d/e/1FAIpQLSdLn54O77NlrwH4Z5tViX0qMJGwdrpY--stBEdFpMH7E2rd0A/viewform
 
 ### Function #1 "sumOfOther".
 
-Create function `sumOfOther` that takes an array as an argument, for example `[2, 3, 4, 1]` and returns `[8, 7, 6, 9]`. Input array is one-dimensional array of integers. Initial array can be any length.   
-Output array consists of integers, where each element by index `i` is a sum of remaining elements from original array.   
+Create function `sumOfOther` that takes an array as an argument, for example `[2, 3, 4, 1]` and returns `[8, 7, 6, 9]`. Input array is one-dimensional array of integers. Initial array can be any length. Output array consists of integers, where each element by index `i` is a sum of remaining elements from original array.   
 
 ### Function #2 "make".
 
@@ -42,7 +41,7 @@ Methods:
 * using recursion (for geeks :smirk_cat:)
 
 ### Function #3 "recursion"
-Create a function `recursion` that takes as an argument *tree* represented as an object of the following structure:  
+Create function `recursion` that takes as an argument *tree* represented as an object of the following structure:  
 ```
                      100
         90                             120
