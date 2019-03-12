@@ -8,7 +8,7 @@ If you have a relevant certificate/diploma of english courses completion (no mor
 3) Mentor sets your level to "Score" spreadsheet and adds a comment - "based of provided certificate"
 
 ### Intermediate test at the second stage of training
-1) You need to pass the test http://test.str.by/
+1) You need to pass the test - test.str.by or training.by
 2) Make a screenshot of the result
 3) Send it to the mentor
 4) Your **Presentation task** should be done and accessible via YouTube link
@@ -16,6 +16,7 @@ If you have a relevant certificate/diploma of english courses completion (no mor
    
 Useful links:
  * Test your english level - http://test.str.by/
+ * http://training.by
  * https://lingualeo.com
  * https://www.duolingo.com/  
 
@@ -33,7 +34,7 @@ Useful links:
 
 ### Промежуточная проверка английского на втором этапе обучения
 
-1) Вам необходимо пройти тест http://test.str.by/ 
+1) Вам необходимо пройти тест http://test.str.by/ or http://training.by 
 2) Сделать скриншот результата
 3) Прислать ментору
 4) Таск "презентация" у вас должен быть выполнен и доступен по ссылке на YouTube
@@ -41,6 +42,7 @@ Useful links:
 
 Полезные ссылки:
   * Протестировать свой уровень английского - http://test.str.by/
+  * http://training.by
   * https://lingualeo.com
   * https://www.duolingo.com/ 
 
