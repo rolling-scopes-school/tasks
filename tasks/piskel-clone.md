@@ -5,18 +5,18 @@
 # Piskel-clone
 ## Functional requirements
 You need to create simplified clone of the https://www.piskelapp.com/ web-based tool for Spriting and Pixel art.
-Functionality: https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnwNOVbAzI
+Overview of features can be found on this playlist: https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnwNOVbAzI
 
-### Minimal functionality
-- Canvas 32x32
-- Tools
-    - Pen (size=1)
+### Minimal required functionality
+- Canvas size 32x32 units
+- Tools:
+    - Pen. Required size is 1 unit. Other units (2,3,4) are optional.
     - Mirror Pen (Vertical | Horisontal | Both)
     - Color select (Primary/Secondary)
-    - Paint Bucket tool
+    - Paint Bucket 
     - Paint all pixels of the same color
 - Preview
-    - Small on the top right corner
+    - Small preview on the top of the right corner 
     - Full screen mode
 - Frames
     - Ability to add/delete a frame
@@ -26,7 +26,7 @@ Functionality: https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnw
     - Ability to add/delete a layer
     - Ability to move up/down a layer
     - Ability to dublicate a frame
-- Export as GIF
+- Export the final result as a GIF image
 
 ## Technical requirements:
 1) Browser support: latest version of Google **Chrome**
