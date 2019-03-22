@@ -2,20 +2,19 @@
 
 ### Deadline: 28-10-2018 21:00
 
-## Задание
-Вы должны реализовать 3 функции. Каждый функцию необходимо сохранить в отдельном файле с именем функции (Например make.js). Как только вы реализовали одну из функций, вы коммитает файл. Далее решаете и коммитаете следующий и т.д. Можно рефакторить и коммитать исправления до дедлайна.  
+## Task
+You have to implement 3 functions. Each function need to be placed in a *separate* file with title of the function name (for example **make.js**). As soon as you create a function, please commit the file. Implement another function and make the next commit etc. You can refactor and commit changes up until the deadline.    
 
-Когда задание будет выполнено, бросьте, пожалуйста, ссылку на ваш Pull Request вот сюда - 
+When you finish the task, please fill this form with link to your Pull Request - 
 https://docs.google.com/forms/d/e/1FAIpQLSdLn54O77NlrwH4Z5tViX0qMJGwdrpY--stBEdFpMH7E2rd0A/viewform
 
-### Функция #1 "sumOfOther".
+### Function #1 "sumOfOther".
 
-Реализуйте функцию  `sumOfOther`, которая получает на вход массив, например, `[2, 3, 4, 1]`, а возращает, `[8, 7, 6, 9]`. Входной массив - одномерный, целочисленный, произвольной длины. 
-В результирующем массиве каждый элемент по индексу `i` - это сумма остальных элементов оригинального массива. 
+Create function `sumOfOther` that takes an array as an argument, for example `[2, 3, 4, 1]` and returns `[8, 7, 6, 9]`. Input array is one-dimensional array of integers. Initial array can be any length. Output array consists of integers, where each element by index `i` is a sum of remaining elements from original array.   
 
-### Функция #2 "make".
+### Function #2 "make".
 
-Реализовать функцию make, которую можно вызвать следующим образом:
+Create function `make` that can be invoked the next way:   
 
 ```javascript
 make(15)(34, 21, 666)(41)(sum); // return 777
@@ -25,7 +24,7 @@ function sum(a, b) {
 }
 
 ```
-Пока переданный аргумент не функция, запоминаем значения аргументов (способы перечислены ниже), затем применяем функцию к аргументам по принципу `Array.prototype.reduce`, возвращаем полученное значение
+While passed argument is not a function you accumulate arguments value (possible methods are listed below), then you invoke function with the arguments on the principle of `Array.prototype.reduce` and return resulting value.   
 
 Step | a    | b    | result
 ---- | ---- | ---- | ----
@@ -34,15 +33,15 @@ Step | a    | b    | result
   2  |  70  |  666 |  736
   3  |  736 |  41  |  777
 
-нельзя использовать глобальные переменные, сохранять промежуточные значения в `make.smth` или в `make.prototype`
+Use of global variables or accumulation of intermediate values in `make.smth` or `make.prototype` is forbidden.  
 
-Cпособы:
-* через замыкание
-* частичное применение (google: "partial application javascript")
-* рекурсия (для гиков :smirk_cat:)
+Methods:
+* using closure  
+* using partial application (google: "partial application javascript")
+* using recursion (for geeks :smirk_cat:)
 
-### Функция #3 "recursion"
-Реализовать функцию recursion, которая получает на вход дерево представленное объектом следующей структуры:
+### Function #3 "recursion"
+Create function `recursion` that takes as an argument *tree* represented as an object of the following structure:  
 ```
                      100
         90                             120
@@ -54,19 +53,19 @@ let tree = {"value":100,"left":{"value":90,"left":{"value":70},"right":{"value":
 let array = recursion(tree);
 console.log(array); // [[100], [90, 120], [70,99,110,130]]
 ```
-и преобразует его в массив вида `[[100], [90, 120], [70,99,110,130]]`.   
-Для решения должна использоваться рекурсия! 
+and converts it into array of the form `[[100], [90, 120], [70,99,110,130]]`.  
+You have to use recursion in your solution!   
 
-### Требования к репозиторию: 
-1. Вам необходимо создать публичный репозиторий c названием  `rsschool-codejam` на вашем GitHub аккаунте.
-2. В `master` бранче должен быть только один файл - `readme.md`. 
-3. Весь код должен находиться в бранче `codejam-3`. 
-4. После выполнения задания вам необходимо открыть Pull Request `codejam-3`->`master`.
+### Requirements to the repository: 
+1. You should create public repository `rsschool-codejam` on your GitHub account.  
+2. `Master` branch has to include only one file - `readme.md`.  
+3. Your solution (whole code) should be in branch `codejam-3`.   
+4. When you finish the task, you should open Pull Request to master branch `codejam-3`->`master`.  
 
-### Требования к коммитам
-- Минимум 3 коммита
-- Названия коммитов должны быть согласно гайдлайна - https://www.conventionalcommits.org/en/v1.0.0-beta.2/ 
-Основные требования:
+### Requirements to commits
+- At least 3 commits
+- You should follow the next guideline of the commit naming - https://www.conventionalcommits.org/en/v1.0.0-beta.2/ 
+Basic requirements:  
 ```
   * Allowed Types:
     * docs: - *documentation only changes*
@@ -82,20 +81,20 @@ console.log(array); // [[100], [90, 120], [70,99,110,130]]
   * Reference issues and pull requests liberally after the first line
 ```
 
-### Требования к оформлению PR (Pull Request)
-1. PR name should contains **the task name** and probably additional info.
+### Requirements to the PR (Pull Request)
+1. PR name should contain **task name** and probably additional info.
 2. Changes **must not contain commented code, unnecessary files, changes from other branches and generated files** like *.bundle.js. Please review your changes before contributing. .editorconfig, .gitignore, etc. can be included.
 3. Comments in the PR are good practice.
 4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
-## Критерии оценки:
-- Реализована функция `sumOfOther` **+10 баллов**
-- Реализована функция `make` **+20 баллов**
-- Реализована функция `recursion` **+20 баллов**
-- Требования к репозиторию, коммитам и PR выполены **+20 баллов**
-- В проекте создан файл `package.json`, подключен пакет `eslint` и `eslint-config-airbnb-base`, код написан согласно требований `eslint-config-airbnb-base` **+20 баллов**
-- В проект подключен пакет - https://mochajs.org/. Функции покрыты тестами. **+20 баллов**
-- Все критерии выполенны за 4 часа (до 28-10-2018 01:00) **+10 баллов**
+## Score criteria:  
+- Function `sumOfOther` is implemented **+10 points**
+- Function `make` is implemented **+20 points**
+- Function `recursion` is implemented **+20 points**
+- Requirements to repository, commits and PR are met **+20 points**
+- The project includes file `package.json`, packages `eslint` and `eslint-config-airbnb-base`, code style meets the requirements of `eslint-config-airbnb-base` **+20 points**
+- The project includes package https://mochajs.org/. Functions are covered by tests. **+20 points**
+- All criteria are completed within 4 hours (until 28-10-2018 01:00) **+10 points**
 
-## Кто выполянет проверку задания?
-Ваш ментор.
+## Who will review the task?
+Your mentor.
