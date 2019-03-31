@@ -21,18 +21,18 @@ CSS: https://www.codecademy.com/learn/learn-css
 #### 3. Badges for completion will be the proof of your work.
 #### 4. Steps to collect results:
 
-1. Create repository in your accont, named rsschool-profile.
-Just copy this name: rsschool-profile
+1. Create repository in your accont, named rsschool-2019Q1-codeacademy.
+Just copy this name: rsschool-2019Q1-codeacademy
 
 2. Deploy repository with steps, mentioned in the description, and create README.md file.
 Looks like this:
 
 ```sh
-echo "# rsschool-profile" >> README.md
+echo "# rsschool-2019Q1-codeacademy" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/your-name/rsschool-profile.git
+git remote add origin https://github.com/your-name/rsschool-2019Q1-codeacademy.git
 git push -u origin master
 ```
 3. Afterall, update README.md with info like this:

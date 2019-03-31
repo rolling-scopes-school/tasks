@@ -1,31 +1,31 @@
 # rs-school-activist
 
-Суть задания - поощерять помощь студентов другу другу в чатах школы.
+The goal of the assignment is to encourage students to help each other in school chat rooms.
 
-Менторы будут просматривать активность в чатах за неделю, выделять 1-5 студентов за неделю и давать им вознаграждение, которое будет учитываться в финальном скоре.
+Every week, mentors will review students’ activity in chat rooms and select 1-5 most active students who will be awarded additional points that will count towards the final score.
 
-## Критерии оценки
-Будут оцениваться следующие показатели
+## Assessment criteria
+The following performance indicators will be used:
 
-* насколько хорошие вопросы задаются (уточнения задания после небольшой разработки, какие то типовые ошибки и тд, в вопросах есть примеры кода, перечислены возможные решения)
-* насколько подробно происходит объяснение решения
-* ответ касается ближайших тасков
-* ответ дан нормальным языком, без издевательств и оскорблений 
-* личная конструктивная инициатива студента по организации процесса обучения (список частых вопросов и ответов, )
+* how thoughtful the questions are (whether a student requests to make a task more precise or provide more details about it after trying to solve it on his/her own, makes some common errors, etc., posts his/her code and offers possible solutions)
+* how well the solution is explained
+* whether answers provided relate to upcoming tasks
+* whether questions asked by other students are responded to in a friendly manner, without bullying and insulting 
+* student's own constructive initiative regarding teaching/learning process management (FAQ)
 
 
-## Выставление оценки
+## Scoring
 
-Выбирают студентов добровольцы - менторы, которые учавствуют в общении в чатах и могут дать более менее объективную оценку.
+Students are selected by mentors who participate in chat conversations on a voluntary basis and who can give a more or less unbiased assessment.
 
-В конце каждой недели проводится голосование, кандидатуры вносят менторы - координаторы этого задания. 
+At the end of each week, voting is held to select from candidates on the list prepared by mentors who coordinate this assignment. 
 
-Студентам активистам выставляется оценка в 25 баллов.
+Students recognized as activists are awarded 25 points.
 
-Финальное влияние на общий скор будет определяться в конце каждого этапа.
+The final impact on the overall score will be determined at the end of each stage.
 
-## Текущие оценки
+## Latest scores
 
-Документ будет здесь - https://docs.google.com/spreadsheets/d/1a0eKj_4io8oTsxniYTe1dg2wt_Los-vV4qV-uEOs-bI/edit#gid=0
+The scoring table will be available at: https://docs.google.com/spreadsheets/d/1a0eKj_4io8oTsxniYTe1dg2wt_Los-vV4qV-uEOs-bI/edit#gid=0
 
 

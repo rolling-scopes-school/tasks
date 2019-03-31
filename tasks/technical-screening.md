@@ -1,4 +1,4 @@
-### Technical screening
+# Technical screening 
 
 ### Aims:
 1) Forming the list of the students at RSSchool stage#2
@@ -27,14 +27,14 @@ The students recieve invitations in the following order:
 - the inteview can be done in online format
 
 ### The topics (based on https://github.com/rolling-scopes-school/docs/blob/master/students.md)
-  - Basics of OOP [Question examples](https://habrahabr.ru/post/345658/)
+  - Basics of OOP [Questions examples](https://habrahabr.ru/post/345658/)
   - Basic data structures and it's organization (array, list, stack, queue, tree, hash table, etc.)
   - Know how to implement pretty simple algorithm in any programming language [Examples of tasks](  
 http://www.codewars.com/kata/search/java?q=&r%5B%5D=-7&tags=Algorithms&beta=false)
   - Basic sort and search algorithms
   - Binary system
   - Common math functions graphs, factorial, the concept of logarithm
-  - Questions about completed tasks from stage#1 
+  - **Questions about completed tasks from stage#1** 
   - Html/css basics
       - display attribute meaning
       - Weights of selectors

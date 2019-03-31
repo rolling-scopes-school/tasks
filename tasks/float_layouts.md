@@ -1,27 +1,25 @@
-Deadline         | Folder Name    | Coefficient
+Deadline         | Folder Name    | Mark
 -----------------|----------------|---------------
 21.03.2016 09:00 | float_layouts  | 0.5
 
-Верстка типовых каркасов
+Developing Typical Layouts
 
-1ый макет. Выравнивание слоя строго по центру веб-страницы применяется обычно для размещения картинки или модульного окна, служащих точкой входа на сайт или информационного сообщения. Удобство подобного расположения слоя — его независимость от разрешения экрана монитора и окна браузера. В любом случае слой должен занимать положение по центру веб-страницы.
+**1st Layout.** A block with a picture or modal (when it's used as a log-in modal or an info message modal) is usually centered in the middle of a web page. The main advantage of such positioning is that the centered block doesn't depend on the screen resolution or width of the viewport. One way or another this kind of layer should be positioned in the center of the page.
 
-2ой макет. Одним из наиболее популярных вариантов верстки веб-страниц выступает двухколоночный макет, где в левой колонке располагаются ссылки, а в правой колонке — основной контент. Такая схема достаточно традиционна и привычна для пользователей. Для создания колонок использовать свойтво float. Обратите внимание, что колонки должны быть равной высоты, независимо от количества контента (заметка: здесь не использовать абсолютное позиционирование).
+**2nd Layout.** One of the most popular ways to make a web page is Double-Column Layout, where the left column contains all the links while he main content is in the right column. This type of layout is traditional and most users are familiar with it. To create columns you should use the CSS float property. Pay attention to the fact that the columns should have the same height regardless of the amount of the content they have (**N.B.**: don't use absolute positioning here).
 
-3ий макет. Похож на второй вариант, только навигация справа. Для создания навигационной колонки использовать абсолютное позиционирование либо колонки сделать строчно-блочными (на выбор).
+**3rd Layout.** It is pretty similar to the 2nd type of layout except the navigation is on the right. In order to create a navigation column either use absolute positioning or set the display property of the columns to inline-block (you are free to choose).
 
-4ый макет. Модифицировать второй макет, так чтобы он стал резиновым (тянулся при увеличении размера окна, не появлялся горизонтальный скролл).
+**4th Layout.** Modifies the 2nd type of layout so that it becomes _flexible_ (elements should resize based on the width of the viewport. No horizontal scroll upon resize).
 
-5ый макет. Обычно футер располагается после всего контента и виден только при прокрутке страницы. В некоторых случаях желательно сделать подвал доступным всегда, независимо от высоты страницы, и зафиксировать его внизу окна браузера.
+**5th Layout.** Usually footer comes after entire content of a web page and can be found only if you scroll down the page. In some cases it is desirable to make the footer always visible despite the height of the page and stick it to the bottom of the viewport.
 
-6ой макет. Трехколоночный макет часто используется в тех случаях, когда двух колонок уже недостаточно или требуется особым образом разделить материал. Например, одна колонка отдается под контент, вторая под навигационные ссылки, а в третьей публикуются новости сайта или другая информация.
+**6th Layout.** You use three-column layout in cases when two columns are not enough or you need to divide content in a certain way. For instance, one column is with the main content, another column is for navigation and yet another one to display the news of the website or other information.
 
-Для заполнения контентом можно использовать текст-рыбу: http://www.lipsum.com/. Навигационные колонки (желтые на картинке) можно заполнить списком ссылок.
+In order to fill up the page you can use Dummy text (Lorem Ipsum): http://www.lipsum.com/. Navigation columns (the yellow ones on the picture) may be filled with links.
 
-Ни один каркас (layout) не должен быть выполнен с помощью таблиц.
+**Don't use tables for layouts!**
 
-Фиксированные по ширине каркасы расположить по центру страницы. Ширины для фиксированных колонок выбрать самостоятельно, соблюдая пропорции (не делать колонку навигации шире, чем колонку основного контента). Цвета колонок соблюдать, как на макете. Градиентный фон делать не нужно.
+Fixed-width layouts should be centered. You choose the width of the columns but take the proportions into consideration (don't make navigation column wider than main content column). Use the same colors as shown in the layout. You don't have to make gradient background.
 
-
-ссылка на макеты:
-https://www.dropbox.com/sh/uvc0atccwl2zkms/AACLM_y825jsZZHe4-ueskCGa?dl=0
+Link to layouts: https://www.dropbox.com/sh/uvc0atccwl2zkms/AACLM_y825jsZZHe4-ueskCGa?dl=0

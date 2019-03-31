@@ -2,9 +2,9 @@
 -----------------|----------------|---------------
 17.09.2015 23:59 | create_form    | 0.2
 
-д/з: резюме
- 1. о себе
- 2. фото
- 3. ссылка соц сети (иконки)
- 4. год + место учёбы (таблица)
- 5. форма отправки письма
+h/w: CV
+ 1. about yourself
+ 2. photo
+ 3. link to social network (icons)
+ 4. year + place of study (table)
+ 5. form for sending e-mail

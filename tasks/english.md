@@ -1,26 +1,26 @@
-# Английский язык и RSSchool
+﻿# English and RSSchool
 
-### К моменту окончания третьего этапа обучения ваш уровень английского должен быть A2 (pre-intermediate) или выше.
+### By the end of Stage #3, your English level must be A2 (Pre-Intermediate) or higher.  
 
-Если у вас есть актуальный сертификат/диплом (не старше 18 месяцев) об окончании курсов английского языка:
-1) Присылаете фото или скан ментору
-2) Таск "презентация" у вас должен быть выполнен и доступен по ссылке на YouTube
-3) Ментор выставляет ваш уровень в Score и добавляет комментарий к ячейке - "на основании сертификата/диплома"
+If you have completed English courses within the last 18 months and have a relevant certificate/statement of accomplishment:
+1) Send a photo or scanned copy thereof to your mentor
+2) Your **Presentation task** must be completed and accessible via YouTube
+3) Your mentor will fill in the relevant cell in the “Score” spreadsheet and add the following comment: “based on certificate/statement of accomplishment”
 
-### Промежуточная проверка английского на втором этапе обучения
+### Intermediate test at Stage #2
+1) Test you English level at http://test.str.by/
+2) Screenshot your result
+3) Send the screenshot to your mentor
+4) Your **Presentation task** must be completed and accessible via YouTube
+5) Your mentor will fill in the relevant cell in the “Score” spreadsheet and add the following comment: “based on online testing”
+   
+Useful links:
+ * Test your English level at http://test.str.by/
+ * https://lingualeo.com
+ * https://www.duolingo.com/
+ 
+Student's recommendations
 
-1) Вам необходимо пройти тест http://test.str.by/ 
-2) Сделать скриншот результата
-3) Прислать ментору
-4) Таск "презентация" у вас должен быть выполнен и доступен по ссылке на YouTube
-5) Ментор выставляет ваш уровень в Score и добавляет комментарий к ячейке - "на основании онлайн теста"
-
-Полезные ссылки:
-  * Протестировать свой уровень английского - http://test.str.by/
-  * https://lingualeo.com
-  * https://www.duolingo.com/ 
-
-Рекомендации студентов: 
 ```
 DenisPapchenko @Interstlr 00:29
 По английскому советую всем приложение на смартфон Simpler - краткое изучение и практика английской грамматики. 
