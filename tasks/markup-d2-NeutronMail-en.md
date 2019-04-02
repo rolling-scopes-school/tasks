@@ -63,8 +63,10 @@ Page only for desktop gives you up to 50 points. Responsive for at least 3 scree
 ## Useful links
 
 Responsive web design article:
-
 https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
+
+Video about css-recipes-and-layouts:
+https://www.youtube.com/watch?v=k2GtDJKC6HQ
 
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
