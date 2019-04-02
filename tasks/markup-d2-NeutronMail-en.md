@@ -55,8 +55,6 @@ Page only for desktop gives you up to 50 points. Responsive for at least 3 scree
 - Care about icons, fonts and colors.
 
 3. Footer
-- Must include a form with relevant inputs and textarea.
-- Required fields must be validated on the client side.
 - Email addresses must be clickable as 'mailto'.
 - Care about breadcrumbs.
 
