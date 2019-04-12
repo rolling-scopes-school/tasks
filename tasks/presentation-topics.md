@@ -71,6 +71,7 @@ Development
 * JWT 
 * pm2 
 * CAP theorem 
+* Serverless Computing, FaaS, AWS Lambda, Google Cloud Functions, Azure Functions
  
 Misc.  
 =========================== 
