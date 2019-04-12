@@ -1,5 +1,5 @@
 ### Presentation
-Your task is to prepare a presentation on a given topic (offered or approved by mentor). The whole list of appropriate topics could be found here - https://github.com/rolling-scopes-school/lectures.
+Your task is to prepare a presentation on a given topic (offered or approved by mentor). The whole list of appropriate topics could be found [here](presentation-topics.md).
 
 Requirements:
 * 8 - 10 minutes for presentation
