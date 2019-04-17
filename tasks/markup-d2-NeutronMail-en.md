@@ -1,4 +1,4 @@
-| Deadline  | Folder name |
+﻿| Deadline  | Folder name |
 |-----------|-------------|
 | 21.04.2019 23:59 | NeutronMail |
 
@@ -24,7 +24,7 @@ Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 ## Procedure
 
-Create a new private repository named *NeutronMail* in **your** Github account and upload your HTML and CSS files.
+To upload your HTML and CSS files, use your private RSS repository located at [https://github.com/rolling-scopes-school/your-nickname-2019Q1](https://github.com/rolling-scopes-school/your-nickname-2019Q1)
 
 ## Assessment criteria
 
