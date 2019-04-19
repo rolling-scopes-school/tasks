@@ -39,6 +39,7 @@ Page only for desktop gives you up to 50 points. Responsive for at least 3 scree
 3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.
 4. Failure to comply with the PSD template (except for nuances with fonts) may result in losing **up to 40 points**.
 5. Not using **flexbox** or **grid** may result in losing **up to 40 points**.
+6. No bootstrap!
 
 ## Terms of Reference
 
