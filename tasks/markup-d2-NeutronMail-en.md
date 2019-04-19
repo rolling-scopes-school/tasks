@@ -43,6 +43,14 @@ Page only for desktop gives you up to 50 points. Responsive for at least 3 scree
 
 ## Terms of Reference
 
+Preferable @media points:
+1) 1800px - wrapper should be centered in case the resolution is bigger.
+2) 1400px - when responsive less than 1800px main container should not affect. Social network icons and Customers block should float.
+3) 1200px - when responsive less than 1400px content from both sides should float, but structure of layout sould be the same (lines, columns, blocks).
+4) 800px or 768px - when responsive less than 1200px blocks sequence and layout structure could be changed. Lines can dissapear, but all blocks with contet inside should be visible.
+5) 540px or 480px or 420px - when responsive less than previous media some content can be hidden, some can be restyled.
+6) Less than previous media - structure should have mobile view, with simple menu view and only necessary content available.
+
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
 1. Header.
