@@ -13,7 +13,7 @@ PSD:
 
 JPG:
 
-**[NeutronMail JPG](https://www.dropbox.com/s/kh0yywpr3c70rnm/AFJx3gXD_0k.jpg?dl=0)**
+**[NeutronMail JPG](https://www.dropbox.com/s/13u9s7lmixckx6l/neutronmail.jpg?dl=0)**
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
