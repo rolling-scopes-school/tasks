@@ -65,7 +65,7 @@ Preferable @media points:
 
 3. Footer
 - Email addresses must be clickable as 'mailto'.
-- Care about breadcrumbs (slashes between social links). Thay should not be selected as other text does. Example:
+- Care about breadcrumbs (slashes between social links). They should not be selected as other text does. Example:
 ![breadcrumbs](https://image.prntscr.com/image/eZL-0kQsRpWQSzarVc1NbA.png "breadcrumbs")
 
 ## Useful links
