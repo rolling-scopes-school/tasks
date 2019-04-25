@@ -1,12 +1,12 @@
-# CodeJam-dom Pallete
+# CodeJam-dom Palette
 
 ### Deadline: Sunday, April 28, 2019 23:59
 
 ## Task
 
-You need to implement 3 ui components (canvas, pallete, colors) with functionality described below. The js and css files should be in the folder with name "pallete".
+Your task is to implement 3 ui components (canvas, palette, colors) with the functionality described below. The js and css files should be in the folder named "palette".
 
-As soon as you are completed one function you should commit the file. After that you proceed to the next part of functionality and commit it after compliting. You can refactor and commit changes till deadline.
+As you complete one part of the functionality you should commit the files. After that you proceed to the next part of functionality and commit it after you've finished it, and so on. You can refactor and commit changes till deadline.
 
 ### Components description
 
@@ -14,48 +14,48 @@ As soon as you are completed one function you should commit the file. After that
 
 https://www.figma.com/file/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=0%3A1
 
-### Pallete
+### Palette
 
-It need to implement a component which will contain the following icons
+Should contain the following:
 - paint bucket tool
-- choose color
+- color picker
 - move tool
 - transform tool
 
 
-The behaviour should be the following
-- paint bucket tool should color target figure into the current color by click
-- choose color should set current color based on color of pixel where the click event happens
-- move tool can drag figures to any place
-- transform tool will change the target figure from squere to circle and back
+The behaviour should be as follows:
+- paint bucket tool should color target figure into the current selected color on click
+- color picker should set the current color based on color of pixel where the click event happens
+- move tool allows you to move the figures anywhere
+- transform tool should change the target figure from square to circle and vice versa
 
 
 ### Colors
 
-Colors component contains current, previous colors and predefined colors to use with paint bucket tool.
+The colors component contains current, previous and predefined colors to use with the paint bucket tool.
  
 
 ### Canvas
 
-Canvas consist from 9 figures.
+Canvas consists out of 9 figures.
 
-Can figure can be changed by tools from pallete component
+Any of the canvas figures can be changed by the tools from the palette component
 
 ### Limitations
     - Should work in Chrome
-    - It is possible to use jquery but not jquery widgets
-    - It is possible to use material ui / bootstrap
-    - it is forbidden to use any framework like Angular / React / Vue
-    - It is possible to use preprocessors 
-    - it is allowed to communicate, chat, google and use stackoverflow
+    - Usage of jQuery is allowerd, except for jQuery widgets
+    - Usage of material ui / bootstrap is allowed
+    - You CANNOT use any of the frameworks like Angular / React / Vue
+    - You can use preprocessors 
+    - You can communicate, chat, google and use stackoverflow
     
 ### How to deliver
-    - Create an html with basic layout (menu, pallete, canvas) and css styles for it
-    - Add tools and circle state for the figure from canvas 
-    - Set current color to green 
-    - Implement the bucket tool (click on 1 figure will change its color) 
-    - Implement the choose color tool 
-    - Commit your code during implementation
+    - Create an html file with a basic layout (menu, palette, canvas) and css styles for it
+    - Add the tools and a circle state for the figure from canvas 
+    - Set the current color to green 
+    - Implement the bucket tool (clicking on a figure will change its color) 
+    - Implement the color picker tool 
+    - Commit your code as you implement the features, i.e: 
         1. empty html file
         2. basic layout with css 
         3. layout for canvas 
@@ -64,31 +64,31 @@ Can figure can be changed by tools from pallete component
     
     
 ## Requirements for commits, PR, repository
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md).
+[General requirements for stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md).
 
 ### Evaluation
 
 Maximum points - **140**
 
 #### Basic scope (**30**):
-- layout (palletes + canvas + menu) - **+10**
+- layout (palettes + canvas + menu) - **+10**
 - paint bucket tool functionality - **+20**
 
 #### Normal scope (include everything from basic) - **+100**:
 - transform tool - **10**
-- choose color tool - **+20**
+- color picker tool - **+20**
 - move tool - **+20**
-- keyboard control - it is possible to choose the tool with keyboard shortcut - **+10**
-- the `eslint` package is included to `package.json`, is setup with `eslint-config-airbnb-base` and all js code is validated - **+10** 
+- keyboard controls - it is possible to choose the tool with keyboard shortcuts - **+10**
+- the `eslint` package is included in `package.json`, is setup with `eslint-config-airbnb-base` and all js code is validated - **+10** 
 
 #### Extra scope (basic + normal are included)
-- local storage: save current state of the app to restore it after reload  - **+20**
-- drag and drop: it is possible to drag and drop with move tool on other figure and the figures with replace each other - **+20**
+- local storage: save current app state to restore it after the page reload - **+20**
+- drag and drop: it is possible to drag and drop a figure (using a move tool) on top of another figure, making the figures swap places with each other - **+20**
 
 
-#### Fanes
+#### Fines
 - Requirements to commits, repo and PR are not met - up to **-20**
 
 
-## Who checks
+## Who checks your task
 Your mentor
