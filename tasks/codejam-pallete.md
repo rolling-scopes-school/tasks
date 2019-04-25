@@ -49,7 +49,7 @@ Any of the canvas figures can be changed by the tools from the palette component
 ### Limitations
     - Should work in Chrome
     - Usage of jQuery is allowerd, except for jQuery widgets
-    - Usage of material ui / bootstrap is allowed
+    - Usage of material design / bootstrap is allowed
     - You CANNOT use any of the frameworks like Angular / React / Vue
     - You can use preprocessors 
     - You can communicate, chat, google and use stackoverflow
