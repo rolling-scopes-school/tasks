@@ -12,7 +12,7 @@ As soon as you are completed one function you should commit the file. After that
 
 ### UX proto
 
-https://www.figma.com/file/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=0%3A1
+https://www.figma.com/proto/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=1%3A2&scaling=min-zoom
 
 https://www.dropbox.com/s/cddxz5gnpbl3gbz/pallete.fig?dl=0 - to open from file in online / desktop editor
 
