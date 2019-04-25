@@ -1,3 +1,7 @@
+﻿| Deadline  | Folder name | Branch name |
+|-----------|-------------|-------------|
+| 28.04.2019 23:59 | pallete | codejam-dom-pallete |
+
 # CodeJam-dom Pallete
 
 ### Deadline: Sunday, April 28, 2019 23:59
