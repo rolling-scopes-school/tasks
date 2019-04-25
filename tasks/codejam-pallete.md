@@ -1,6 +1,9 @@
-# CodeJam-dom Palette
 
-### Deadline: Sunday, April 28, 2019 23:59
+| Deadline  | Folder name | Branch name |
+|-----------|-------------|-------------|
+| 28.04.2019 23:59 | pallete | codejam-dom-pallete |
+
+# CodeJam-dom Pallete
 
 ## Task
 
@@ -66,7 +69,9 @@ Any of the canvas figures can be changed by the tools from the palette component
     
     
 ## Requirements for commits, PR, repository
-[General requirements for stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md).
+
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+
 
 ### Evaluation
 
