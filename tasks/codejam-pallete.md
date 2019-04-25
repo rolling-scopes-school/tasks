@@ -64,7 +64,7 @@ Can figure can be changed by tools from pallete component
     
     
 ## Requirements for commits, PR, repository
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md).
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
 
 ### Evaluation
 
