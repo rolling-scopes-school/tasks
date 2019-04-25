@@ -2,8 +2,12 @@
 | Deadline  | Folder name | Branch name |
 |-----------|-------------|-------------|
 | 28.04.2019 23:59 | pallete | codejam-dom-pallete |
+| without typo | palette | codejam-dom-palette |
 
-# CodeJam-dom Pallete
+Two variants are allowed )
+
+
+# CodeJam-dom Palette
 
 ## Task
 
