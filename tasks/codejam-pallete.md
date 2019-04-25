@@ -14,6 +14,8 @@ As soon as you are completed one function you should commit the file. After that
 
 https://www.figma.com/file/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=0%3A1
 
+https://www.dropbox.com/s/cddxz5gnpbl3gbz/pallete.fig?dl=0 - to open from file in online / desktop editor
+
 ### Pallete
 
 It need to implement a component which will contain the following icons
