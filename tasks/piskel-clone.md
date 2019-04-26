@@ -21,11 +21,11 @@ Overview of features can be found on this playlist: https://www.youtube.com/play
 - Frames
     - Ability to add/delete a frame
     - Ability to reorder a frame via Drag and Drop
-    - Ability to dublicate a frame
+    - Ability to duplicate a frame
 - Layers
     - Ability to add/delete a layer
     - Ability to move up/down a layer
-    - Ability to dublicate a frame
+    - Ability to duplicate a frame
 - Export the final result as a GIF image
 
 ## Technical requirements:
