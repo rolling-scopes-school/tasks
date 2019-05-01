@@ -32,7 +32,7 @@ This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 - You CAN use preprocessors 
   
 ### How to deliver
-You work should be based on your implementation of [CodeJam Pallete](./codejam-pallete.md).
+Your work should be based on your implementation of [CodeJam Pallete](./codejam-pallete.md).
 At the beginning of the work create a branch from `codejam-dom-pallete` called `animation-player`.
 Then please follow the [general requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md). 
 
@@ -40,6 +40,10 @@ Then please follow the [general requirements from stage 2](https://github.com/ro
 Maximum points - **100**
 - `Frames` functionality - **50**
 - `Preview` functionality - **50**
+
+- *!NOTE!* You don't get points until the functionality is not fully done.
+- *!NOTE!* You are given 7 days to fix all issues/bugs mentioned by the mentor. The counting of the days starts after mentor fully checks you initial Pull Request.  
+
 
 #### Fines
 - [Requirements to commits, repo and PR](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md) are not met - up to **-20**
