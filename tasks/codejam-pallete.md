@@ -88,7 +88,13 @@ Maximum points - **140**
 #### Normal scope (include everything from basic) - **+100**:
 - transform tool - **10**
 - color picker tool - **+20**
+
+*To mentor*: detect color by background color in predefined color area and inside canvas is enough  
+
 - move tool - **+20**
+
+*To mentor*: if a student has implemented drag and drop (swap) it will be enought for that point also 
+
 - keyboard controls - it is possible to choose the tool with keyboard shortcuts - **+10**
 - the `eslint` package is included in `package.json`, is setup with `eslint-config-airbnb-base` and all js code is validated - **+10** 
 
