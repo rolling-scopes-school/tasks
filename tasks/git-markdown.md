@@ -61,5 +61,7 @@
 3. Comments in the PR are good practice.
 4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
+
 ### Критерии оценки
-- +25 баллов, если требования к заданию выполены
+- +50 баллов, если требования к заданию выполены
+- +50 баллов, если требования к репозиторию, коммитам и PR выполены
