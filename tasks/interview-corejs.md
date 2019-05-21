@@ -31,5 +31,5 @@ Full name and contacts of the mentor who will interview you can be found in this
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
 
-### The interview should be passed before 16 June 2018. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
+### The interview should be passed before 16 June 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 
