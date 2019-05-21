@@ -24,12 +24,12 @@
 Full name and contacts of the mentor who will interview you can be found in this 
 
 ### Passing the interview
-1. You should contact the mentor personally. Full name and contacts of the mentor who will interview you can be found in this [document](https://docs.google.com/spreadsheets/d/1q5jn9oGx8d7mpG-9oTF3XWlWpTwblW-2fiFA7XHNFGw/edit#gid=0)
+1. You should contact the mentor personally. Contact details will be announced through Discord.
 2. At the request of the mentor, the interview can take place online or face-to-face.
 3. During the interview mentor:
   - asks questions;
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
 
-### The interview should be passed before 30 December 2018. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
+### The interview should be passed before 16 June 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 

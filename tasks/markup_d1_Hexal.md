@@ -3,9 +3,9 @@
 | 10.03.2019 23:59 | hexal |
 
 
-# Homework: Hexal. Diffculty level 1.
+# Homework: Hexal. Difficulty Level 1.
 
-Create web page, strictly according to:
+Create a web page, strictly according to:
 
 PSD:
 
@@ -15,65 +15,66 @@ JPG:
 
 **[Hexal JPG](https://www.dropbox.com/s/j9t88vx864lis35/hexal.jpg?dl=0)**
 
-Pixel Perfect is reference point of the task.
+The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
 *[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
 
-Browser support: Google Chrome, Mozilla Firefox, Microsoft Edge.
+Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 
-## Как сдавать
+## Procedure
 
-На **своем** аккаунте Github создать приватный репозиторий с названием *hexal* и залить туда файлы HTML и CSS.
+Create a new private repository named *hexal* in **your** Github account and upload your HTML and CSS files.
 
-## Критерии оценки
+## Assessment criteria
 
-За полностью выполненное задание, без нарушений, начисляется **100 баллов**. Это касается разметки и использования HTML и CSS.
+If the task is fully completed, and no defects are found by mentor, you are awarded **100 points**. This concerns the markup and use of HTML and CSS.
 
-Принимается решение на чистом .html, и .css. Допускается только использование шрифтов и картинок как файлов, в папке assets.
+You must use pure HTML and CSS in your solution. Fonts and images must be hosted locally in the `assets` folder.
 
-1. За сдачу не в срок ментор может вычесть **до 40 баллов** из общего результата!
-2. За невыполнение какого-либо из пунктов ТЗ ментор может вычесть **от 3 до 10 баллов**.
-3. За неправильное оформление кода или некорректный синтаксис ментор может вычесть **до 20 баллов**.
-4. За несоблюдение дизайна, кроме нюансов со шрифтами, ментор может вычесть **до 40 баллов**.
+1. Failure to submit on time may result in losing **up to 40 points** of the total homework score!
+2. Failure to comply with the requirements of any task item may result in losing **3 to 10 points**.
+3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.
+4. Failure to comply with the PSD template (except for nuances with fonts) may result in losing **up to 40 points**.
 
-## Техническое Задание
+## Terms of Reference
 
-Делать полностью адаптивной верстку **не обязательно**.
-Interactive == some effects or animations on user's interactions like hover or click.
+Fully responsive layout **is not required**.
+“Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
 1. Header.
 - Interactive nav.
-- Think of where h1 should be used.
-- Header triangle should bepositioned on center.
+- Think of where `h1` should be used.
+- Header triangle must be centered horizontally.
 
 2. Main.
-- No slider is needed, but not restricted.
-- Hex blocks should positioned as showed on layer.
+- Slider is not required, but allowed.
+- Hex blocks must be positioned as shown on the PSD template.
 - Care about lines and colors.
-- Interactive social networks icons.
-- Social networks should be links.
+- Social network icons must be interactive.
+- Add hyperlinks to social network icons.
 
 3. Footer
-- There should be form with inputs and textarea.
-- Required fields should be required natively.
-- Phone and mail interactions should correspond correctly. (например, при нажатии на телефон должно предложить звонок)
+- Must include a form with relevant inputs and textarea.
+- Required fields must be validated on the client side.
+- Phone number and email address must be clickable (for example, when a user clicks the phone icon, a prompt appears that allows the user to call this number)
 
 
-## Полезные ссылки
-Для работы с треугльниками, есть полезный инструмент:
+## Useful links
+There is a useful tool to manipulate triangles:
 http://apps.eky.hk/css-triangle-generator/
 
-Для упрощенной формы работы со стилями, можно использовать CSS3 генератор:
+To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
 
-## Если нет возможности использовать Photoshop для работы с psd изображениями
-Есть хороший тул: https://studio.psdetch.com/
-Не нужно регистрироваться, достаточно просто открыть скачанный файл. Да, функционал поскромнее, но что касается работы со слоями - все ок.
-Если нужно вытянуть изображение - есть функция export.
-Для тасков по верстке покрывает нужды в полном объеме.
+## If you don't have Photoshop to work with .psd files
+There’s a good design tool: https://studio.psdetch.com/
+No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
+If you need to extract an image, the “export” function is available.
+It is perfectly functional to meet all the needs you would encounter in this homework.
 
-Если функционала предыдущего сервиса всё же не хватает, попробуйте [Photopea](https://www.photopea.com/).
-Регистрация также не нужна. Умеет открывать .psd, .sketch и многие другие форматы.
-Поддерживает работу со слоями, экспорт (в том числе и в svg).
-Ещё один плюс: интерфейс очень похож на Photoshop.
+However, if you lack some of the functionality when using the previous service, give [Photopea](https://www.photopea.com/) a try.
+No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
+It also supports work with layers and export operations (including .svg format).
+Another advantage is that its interface is very similar to that of Photoshop.
+
