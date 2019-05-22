@@ -8,12 +8,18 @@
 # Animation Player 
 
 ## Task
-Your task is to implement `Frames` and `Preview` components with the functionalities described below. 
+Your task is to implement Animation Player with `Frames` and `Preview` components and the functionalities described below. 
 This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 
+## Mock ups / UI prototype
+https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A2&scaling=min-zoom
+
+
 #### `Frames`
-- Ability to add/delete a frame
+- Ability to add
+- Ability to delete a frame
 - Ability to duplicate a frame
+
 #### `Preview`
 - Ability to animate the created frames  
 - Ability to change FPS rate from 1 to 24 per second
@@ -26,8 +32,9 @@ This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 ### Non-functional requirements
 - Components source files should be stored in the folders with the component name.
 - When you finalize one functionality you should commit you intermediate results. You can refactor and commit changes till deadline. For more details, please read - https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md
-- You CANNOT use jQuery 
+- You CAN use jQuery only to work with DOM API (no widget / jquery ui)
 - You CANNOT use any framework like Angular / React / Vue
+- You CANNOT use any lib
 - You CAN use Material design or Bootstrap
 - You CAN use preprocessors 
   
@@ -38,8 +45,14 @@ Then please follow the [general requirements from stage 2](https://github.com/ro
 
 ### Evaluation
 Maximum points - **100**
-- `Frames` functionality - **50**
-- `Preview` functionality - **50**
+- `Frames` functionality
+  - add frame - **10**
+  - delete a frame - **15**
+  - duplicate frame - **25**
+- `Preview` functionality
+  - Ability to animate the created frames  - **20**
+  - Ability to change FPS rate from 1 to 24 per second - **20**
+  - Ability to run the animation in Full screen mode - **10**
 
 - *!NOTE!* You don't get points until the functionality is not fully done.
 - *!NOTE!* You are given 7 days to fix all issues/bugs mentioned by the mentor. The counting of the days starts after mentor fully checks you initial Pull Request.  
