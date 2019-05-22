@@ -16,7 +16,7 @@ https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A
 
 
 #### `Frames`
-- Ability to add
+- Ability to add a frame
 - Ability to delete a frame
 - Ability to duplicate a frame
 
@@ -46,9 +46,9 @@ Then please follow the [general requirements from stage 2](https://github.com/ro
 ### Evaluation
 Maximum points - **100**
 - `Frames` functionality
-  - add frame - **10**
+  - add frame - **15**
   - delete a frame - **15**
-  - duplicate frame - **25**
+  - duplicate frame - **20**
 - `Preview` functionality
   - Ability to animate the created frames  - **20**
   - Ability to change FPS rate from 1 to 24 per second - **20**
