@@ -1,8 +1,9 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 08.01.2019 | piskel-clone |
+| 23:59 16.06.2019 | piskel-clone |
 
 # Piskel-clone
+
 ## Functional requirements
 You need to create simplified clone of the https://www.piskelapp.com/ web-based tool for Spriting and Pixel art.
 Overview of features can be found on this playlist: https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnwNOVbAzI
@@ -68,7 +69,10 @@ Overview of features can be found on this playlist: https://www.youtube.com/play
 2) Usage of **JS/ES2015+** or **TypeScript**
 3) You can use libraries and frameworks like react/angular/vue/jquery/bootstrap/lodash/wrapper for file formats / api utilisation.
 4) Final version of the editor should be **available by link**. The easiest way to realize it is to publish your project on Github pages / google firebase / heroku
-5) usage of jest / other tool for writing test. Also need to setup test coverage output in the package json 
+5) usage of jest / other tool for writing test. Also need to setup test coverage output in the package json. It needs to test the following code:
+   1) pure utils functions
+   2) ui components
+   3) tools functionality (add pixels, change pixels, add rectangle / circle)
 6) need to use browser canvas api to draw frames
 
 ### Requirements to the commits, PR, repository
@@ -88,7 +92,7 @@ https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requir
 - Use the eslint with airbnb for all js code 
 
 ### Project structure. Organization of files and folders(example):
-Using of webpack is a must! Components directories should include all needed resources and styles. For example, by removing folder `modal-dialog` all styles related to this dialog will be removed as well.
+Using of webpack is mandatory! Components directories should include all needed resources and styles. For example, by removing folder `modal-dialog` all styles related to this dialog will be removed as well.
     
     dist
     src
@@ -122,30 +126,29 @@ Notes for webpack usage:
 
 ### Score criteria:
 
-Basic (90)  + Normal (240) + Extra (140) + Impossible (120) - **+590**
+Basic (100)  + Normal (300) + Extra (130) + Impossible (70) - **+600**
 
 #### Basic scope 
 
-Max - **+90**
+Max - **+100**
 
 - [ ] Landing Page is presented: **+20 points.**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
-- the minimal scope with canvas, tools and frames is implemented (max - **+50**)
-  - [ ] Custom canvas size (32/64/128) - **+10**
-  - [ ] Tools (**+10**)
-    - Pen. Required size is 1 unit. Other units (2,3,4) are optional.
-    - Color select (Primary/Secondary)
-    - Paint Bucket 
-    - Eraser
-  - [ ] Preview **+10**
-  - [ ] Frame management **+10**
+- [ ] Custom canvas size (32/64/128) - **+10**
+- [ ] Tools (max - **+20**) 
+  - Pen. Required size is 1 unit. Other units (2,3,4) are optional.(**+5**)
+  - Color select (rimary/Secondary) (**+5**)
+  - Paint Bucket  (**+5**)
+  - Eraser (**+5**)
+- [ ] Preview **+20**
+- [ ] Frame management **+10**
 - Unit tests
-  - [ ] setup jest + achieve at least 5% coverage (for utils / pure functions) **+10**
+  - [ ] setup jest + cover couple functions with tests (utils / pure functions for example) **+10**
 
 ### Normal scope 
 
-Max - **+240**
-- Tools (max - **+140**)
+Max - **+300**
+- Tools (max - **+130**)
   - [ ] Paint all pixels of the same color **+10**
   - [ ] Stroke (to draw straight lines) **+10**
   - [ ] Move **+10**
@@ -164,29 +167,30 @@ Max - **+240**
   - [ ] All actions should be available **+10**
   - [ ] Modal window to change keyboard shortcuts **+10**
 - [ ] Export gif to local filesystem **+10**
-- Unit tests
-  - [ ] achieve at least 25% coverage (for utils / pure functions) **+30**
+- Unit tests (max - **110**)
+  - [ ] achieve good coverage  **+1** for every percent of coverage (max - **+100**)
+  - [ ] achive 25% of coverage **+10**
 
 
 ### Extra (additional) scope
-Max - **+140**
+Max - **+130**
 - [ ] Login with one oauth provides from Google / Github / Facebook / VK (**+20**)
-- Export the final result (max - **+50**)
+- Export the final result (max - **+100**)
+    - [ ] Piskel format to file system **+10**
+    - [ ] Own format to file system **+10**
+    - [ ] As apng to file system **+15**
+    - [ ] As gif to file system **+15**
     - [ ] Upload GIF to giphy **+10**
-    - [ ] Piskel format **+10**
-    - [ ] Own format **+10**
-    - [ ] As apng **+10**
-    - [ ] As gif **+10**
-- [ ] There is reasonable number of unit tests for ui components / export / pure utils functions with more then 30% coverage gen: **+30 points.**
+    - [ ] Upload any file to google drive **+30**
 - Unit tests
-  - [ ] achieve at least 40% coverage (for utils / pure functions) **+40**
+  - [ ] achieve at least 40% coverage (for utils / pure functions) **+10**
 
 ### Impossible scope
 
-Max - **+140**
+Max - **+70**
 
 - Unit tests
-  - [ ] achieve at least 60% coverage (for utils / pure functions) **+60**
+  - [ ] achieve at least 60% coverage (for utils / pure functions) **+10**
 - [ ] Full compatibility with original export (.piskel) **+60**
 
 
