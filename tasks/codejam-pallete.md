@@ -1,7 +1,7 @@
 
 | Deadline  | Folder name | Branch name |
 |-----------|-------------|-------------|
-| 30.04.2019 23:59 | pallete | codejam-dom-pallete |
+| 30.04.2019 23:59 | palette | codejam-dom-palette |
 | without typo | palette | codejam-dom-palette |
 
 Two variants are allowed )
