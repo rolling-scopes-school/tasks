@@ -68,6 +68,8 @@ Overview of features can be found on this playlist: https://www.youtube.com/play
 2) Usage of **JS/ES2015+** or **TypeScript**
 3) You can use libraries and frameworks like react/angular/vue/jquery/bootstrap/lodash/wrapper for file formats / api utilisation.
 4) Final version of the editor should be **available by link**. The easiest way to realize it is to publish your project on Github pages / google firebase / heroku
+5) usage of jest / other tool for writing test. Also need to setup test coverage output in the package json 
+6) need to use browser canvas api to draw frames
 
 ### Requirements to the commits, PR, repository
 https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md
@@ -120,11 +122,11 @@ Notes for webpack usage:
 
 ### Score criteria:
 
-Basic (70)  + Normal (200) + Extra (100) - **+370**
+Basic (90)  + Normal (240) + Extra (140) + Impossible (120) - **+590**
 
 #### Basic scope 
 
-Max - **+70**
+Max - **+90**
 
 - [ ] Landing Page is presented: **+20 points.**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
@@ -137,10 +139,12 @@ Max - **+70**
     - Eraser
   - [ ] Preview **+10**
   - [ ] Frame management **+10**
+- Unit tests
+  - [ ] setup jest + achieve at least 5% coverage (for utils / pure functions) **+10**
 
 ### Normal scope 
 
-Max - **+200**
+Max - **+240**
 - Tools (max - **+140**)
   - [ ] Paint all pixels of the same color **+10**
   - [ ] Stroke (to draw straight lines) **+10**
@@ -155,15 +159,18 @@ Max - **+200**
   - [ ] Add/delete a layer **+10**
   - [ ] Move up/down a layer **+10**
   - [ ] Duplicate a frame **+10**
+- [ ] Show cursor coordinates / canvas size **+10**
 - Keyboard shotcuts (max - **+20**)
   - [ ] All actions should be available **+10**
   - [ ] Modal window to change keyboard shortcuts **+10**
 - [ ] Export gif to local filesystem **+10**
+- Unit tests
+  - [ ] achieve at least 25% coverage (for utils / pure functions) **+30**
 
 
 ### Extra (additional) scope
-Max - **+100**
-- [ ] Login with Google / Github / Facebook (**+20**)
+Max - **+140**
+- [ ] Login with one oauth provides from Google / Github / Facebook / VK (**+20**)
 - Export the final result (max - **+50**)
     - [ ] Upload GIF to giphy **+10**
     - [ ] Piskel format **+10**
@@ -171,6 +178,16 @@ Max - **+100**
     - [ ] As apng **+10**
     - [ ] As gif **+10**
 - [ ] There is reasonable number of unit tests for ui components / export / pure utils functions with more then 30% coverage gen: **+30 points.**
+- Unit tests
+  - [ ] achieve at least 40% coverage (for utils / pure functions) **+40**
+
+### Impossible scope
+
+Max - **+140**
+
+- Unit tests
+  - [ ] achieve at least 60% coverage (for utils / pure functions) **+60**
+- [ ] Full compatibility with original export (.piskel) **+60**
 
 
 ### Fines
