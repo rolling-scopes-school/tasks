@@ -13,6 +13,7 @@ This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 
 ## Mock ups / UI prototype
 https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A2&scaling=min-zoom
+Fig file - https://www.dropbox.com/s/g4tyu5u9gfk7jx9/animation%20player.fig?dl=0
 
 
 #### `Frames`
