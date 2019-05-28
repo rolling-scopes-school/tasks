@@ -11,22 +11,26 @@
 Your task is to implement Animation Player with `Frames` and `Preview` components and the functionalities described below. 
 This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 
-## Mock ups / UI prototype
-https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A2&scaling=min-zoom
-Fig file - https://www.dropbox.com/s/g4tyu5u9gfk7jx9/animation%20player.fig?dl=0
+## Requirements
+### Mock ups / UI prototype
+* [Figma online](https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A2&scaling=min-zoom)
+* Fig file [link](https://www.dropbox.com/s/g4tyu5u9gfk7jx9/animation%20player.fig?dl=0)
 
+### Functionality
 
-#### `Frames`
+#### `Frames` component
 - Ability to add a frame
 - Ability to delete a frame
 - Ability to duplicate a frame
 
-#### `Preview`
+#### `Preview` component
 - Ability to animate the created frames  
 - Ability to change FPS rate from 1 to 24 per second
 - Ability to run the animation in Full screen mode
 
 ### Functional requirements
+- 3*3 pixel field (canvas) could be used as base for animations. You also can expand that field fron 3*3 to 4*4 or even more. It is also possible to use canvas api to draw and interact with frame content. It is okey to utilize dom element to draw these pixels
+- preview component should use canvas api for animation
 - Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
 - Should work in Chrome
 
