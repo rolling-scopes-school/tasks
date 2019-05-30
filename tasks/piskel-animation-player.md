@@ -10,6 +10,7 @@
 ## Task
 Your task is to implement Animation Player with `Frames` and `Preview` components and the functionalities described below. 
 This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
+* If you started perfoming [Piskel](./piskel-clone.md) you can continue working on it in another branch 
 
 ## Requirements
 ### Mock ups / UI prototype
