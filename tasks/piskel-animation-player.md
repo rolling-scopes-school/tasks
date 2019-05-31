@@ -9,12 +9,13 @@
 
 ## Task
 Your task is to implement Animation Player with `Frames` and `Preview` components and the functionalities described below. 
-This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
+This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md) and should help with starting piskel clone work.
 
 ## Requirements
 ### Mock ups / UI prototype
 * [Figma online](https://www.figma.com/proto/hieu0x13Znk8pzwej9oTrK/animation-player?node-id=1%3A2&scaling=min-zoom)
 * Fig file [link](https://www.dropbox.com/s/g4tyu5u9gfk7jx9/animation%20player.fig?dl=0)
+* [piskel](https://www.piskelapp.com/) should be used as reference
 
 ### Functionality
 
@@ -29,23 +30,34 @@ This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md)
 - Ability to run the animation in Full screen mode
 
 ### Functional requirements
-- 3*3 pixel field (canvas) could be used as base for animations. You also can expand that field fron 3*3 to 4*4 or even more. It is also possible to use canvas api to draw and interact with frame content. It is okey to utilize dom element to draw these pixels
-- preview component should use canvas api for animation
+- drawing field for creating separate frames for animation
+  - could be reused from palette codejam (be 3x3 field on div)
+  - it's possible to use field with size 4x4 or even more 
+  - it is also possible to use canvas api to draw and interact with frame content
+- preview component should use 
+  - canvas api for animation
+  - or use the method from piskel app (change background image with frame rate)
 - Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
 - Should work in Chrome
 
 ### Non-functional requirements
 - Components source files should be stored in the folders with the component name.
 - When you finalize one functionality you should commit you intermediate results. You can refactor and commit changes till deadline. For more details, please read - https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md
-- You CAN use jQuery only to work with DOM API (no widget / jquery ui)
-- You CANNOT use any framework like Angular / React / Vue
-- You CANNOT use any lib
 - You CAN use Material design or Bootstrap
 - You CAN use preprocessors 
+- the tech requirements are same as for piskel clone
+  - Usage of JS/ES2015+ or TypeScript.
+  - You can use libraries and frameworks like React / Angular / Vue / jQuery /Bootstrap / Lodash / wrapper for file formats / API utilisation.
+  - Final version of the animation player could be available via a link. The easiest way to do so is to host your project on GitHub pages / Google Firebase / Heroku / Netlify / any other hosting.
   
 ### How to deliver
-Your work should be based on your implementation of [CodeJam Pallete](./codejam-pallete.md).
-At the beginning of the work create a branch from `codejam-dom-pallete` called `animation-player`.
+Your work 
+- could be based on your implementation of [CodeJam Pallete](./codejam-pallete.md)
+- could be based on your piskel clone work
+- could be done from scratch as foundation for piskel clone
+
+At the beginning of the work create a branch from `codejam-dom-pallete` / 'piskel-clone' / master called `animation-player`.
+
 Then please follow the [general requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md). 
 
 ### Evaluation
