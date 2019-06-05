@@ -1,6 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| 23:59 30.06.2019 | piskel-clone |
+| Deadline  | Folder name | Branch name |
+|-----------|-------------|-------------|
+| 23:59 30.06.2019 | piskel-clone | piskel-clone |
 
 # Piskel-clone
 
