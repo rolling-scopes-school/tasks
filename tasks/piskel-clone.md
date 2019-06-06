@@ -64,6 +64,10 @@ Overview of features can be found on this playlist: https://www.youtube.com/play
    - Link to open the editor
    - Information about the author
 
+#### Tools
+
+If modifier (Ctrl, Shift) changes the behaviour significantly, it should count as separate tool.
+
 ## Technical requirements:
 1) Browser support: latest version of Google **Chrome**
 2) Usage of **JS/ES2015+** or **TypeScript**
@@ -243,7 +247,7 @@ Max - **+300**
 - Keyboard shotcuts (max - **+20**)
   - [ ] All actions should be available **+10**
   - [ ] Modal window to change keyboard shortcuts **+10**
-- [ ] Export gif to local filesystem **+10**
+- [ ] Save user session in localstorage **+10**
 - Unit tests (max - **110**)
   - [ ] achieve good coverage  **+1** for every percent of coverage (max - **+100**)
   - [ ] achive 25% of coverage **+10**
