@@ -116,7 +116,7 @@ Team member with the lowest rating in the group that takes part in the task has 
 
 Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka and Dzmitry Varabei as examinators. 
 ## Requirements for commits, PR, repository
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md).
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
 
 ## Evaluation
 
@@ -147,7 +147,7 @@ Maximum points - **240**
 ### Fines
 - **-100** if there are less than 5 commits from each active team member. Everyone should merge their own PRs. 
 - up to **-50** points for violations
-[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
+[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
 - **-40** if there is no worklog for team
 
 ## examples
