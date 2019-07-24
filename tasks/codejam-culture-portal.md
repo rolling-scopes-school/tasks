@@ -71,6 +71,8 @@ The portal must contain the following components / functional parts / blocks:
   * search should be on the current language with ability to search by name, city/place of birth
   * 5-7 authors are enough to complete the task successfully. You can take more, if you have enough time and willingness
 * Page of an author with
+  * Author's name
+  * Years of life
   * his/her picture
   * biography in the form of timeline (example [here](https://reactjsexample.com/a-vertical-timeline-component-for-react/))
   * list of artist's works with the date of creation
