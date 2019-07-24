@@ -93,7 +93,7 @@ Design example / UX:
 
 Galleries / timelines / overlays can be found here - https://bestofjs.org/.
 
-Design / appearance is not crucially important for this task. The main things are: text / timeline / button for video / photo gallery / search control on the page with a list of authors.
+Design / appearance is **important** for this task. The text / timeline / button for video / photo gallery / search control on the page with a list of authors are important as general look and feel.
 
 ## Technical limitations
 You **should** develop portal using libraries of visual components such as **material-ui** or **bootstrap**.
@@ -149,9 +149,11 @@ Maximum points - **240**
 - up to **-50** points for violations
 [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
 - **-40** if there is no worklog for team
+- **-20** too primitive (ugly for 2019) design / UX
 
 ## examples
 https://github.com/rss-com-lab/staging-alesya-website - gatsby with translation
+https://alesia-ivankova.github.io/ - deployed version
 https://grnkvch.github.io/CodeJam-Culture-Portal/en/ - gatsby with good design and translation
 
 ## answers to the questions
