@@ -122,19 +122,19 @@ Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka an
 
 Mark will be the same for all team members based on the result of presentation.
 
-Maximum points - **200**
+Maximum points - **240**
 
 ### Min scope - **40**
 - [ ] **10** Main page + page with a list of authors + author's page (only html);
 - [ ] **10** Page with list of authors contains search widget;
 - [ ] **20** Portal has two languages;
 
-### Normal scope - **90**
-- [ ] **from 10 to 50** Project is made using react (max 50 - if all widgets are done in React);
-  - [ ] **10** Author's page contains timeline;
-  - [ ] **10** Author's page contains video overlay;
-  - [ ] **20** Author's page contains photo gallery;
-  - [ ] **10** Author's page contains map (geowidget);
+### Normal scope - **130**
+- [ ] **10** Author's page contains timeline;
+- [ ] **10** Author's page contains video overlay;
+- [ ] **20** Author's page contains photo gallery;
+- [ ] **10** Author's page contains map (geowidget);
+- [ ] **from 10 to 40** Project is made using react (max 40 - if all widgets are done in React);
 - [ ] **from 0 to 20** Design;
 - [ ] **20** material-ui / bootstrap is used 
 
