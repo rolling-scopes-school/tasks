@@ -124,23 +124,23 @@ Mark will be the same for all team members based on the result of presentation.
 
 Maximum points - **240**
 
-### Min scope
+### Min scope - **40**
 - [ ] **10** Main page + page with a list of authors + author's page (only html);
 - [ ] **10** Page with list of authors contains search widget;
 - [ ] **20** Portal has two languages;
 
-### Normal scope
-- [ ] **from 10 to 50** Project is made using react (max 40 - if all widgets are done in React);
+### Normal scope - **130**
 - [ ] **10** Author's page contains timeline;
 - [ ] **10** Author's page contains video overlay;
 - [ ] **20** Author's page contains photo gallery;
 - [ ] **10** Author's page contains map (geowidget);
+- [ ] **from 10 to 40** Project is made using react (max 40 - if all widgets are done in React);
 - [ ] **from 0 to 20** Design;
 - [ ] **20** material-ui / bootstrap is used 
 
-### Extra scope
+### Extra scope - **70**
 - [ ] **10** Confidence of the project presentation;
-- [ ] **30** Project is made using gatsbyjs (react scopes is included here);
+- [ ] **30** Project is made using gatsbyjs;
 - [ ] **20** contentful / netlify cms is used for content management
 - [ ] **10** Portal has third language;
 
