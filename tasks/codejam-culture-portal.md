@@ -152,12 +152,13 @@ Maximum points - **240**
 - **-20** too primitive (ugly for 2019) design / UX
 
 ## examples
-https://github.com/rss-com-lab/staging-alesya-website - gatsby with translation
-https://alesia-ivankova.github.io/ - deployed version
-https://grnkvch.github.io/CodeJam-Culture-Portal/en/ - gatsby with good design and translation
+* https://github.com/rss-com-lab/staging-alesya-website - gatsby with translation
+* https://alesia-ivankova.github.io/ - deployed version
+* https://grnkvch.github.io/CodeJam-Culture-Portal/en/ - gatsby with good design and translation
 
 ## answers to the questions
-https://drive.google.com/open?id=1nBMuIWEZ3-pJIlABGWkH-wgJLdj8OP7t - xmind with answers
+* https://drive.google.com/open?id=1nBMuIWEZ3-pJIlABGWkH-wgJLdj8OP7t - xmind with answers
+* https://www.youtube.com/watch?v=mstHfkOk4zQ&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=14&t=0s - стрим набора 2018q3 с ответами на вопросы 
 
 
 ## Who review the tasks?
