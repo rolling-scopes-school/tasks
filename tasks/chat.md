@@ -28,11 +28,11 @@ Requirements:
 * React/Redux
 * Nickname should be stored in [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and reused across app launches.
 * You should implement reconnection mechanism
-* App should properly work in latest stable chrome
-* Your implementation of chat should be deployed and available anywhere by a public link. (My recommend hosting is [heroku](https://www.heroku.com/)). Please add a link to the deployed app to the PR.
 * Add notifications for new messages
 * Display notification **_only_** when app is **not visible**
 * You should separately handle cases when the app goes online/offline
+* App should properly work in latest stable chrome
+* Your implementation of chat should be deployed and available anywhere by a public link. (My recommend hosting is [heroku](https://www.heroku.com/)). Please add a link to the deployed app to the PR.
 
 Please do not treat this as a regular task it is more like 'test task' for your interview.
 Apply all knowledge that you gathered during the course, use any technology you think you should, it fully ok unless you can't reason why you use it.
