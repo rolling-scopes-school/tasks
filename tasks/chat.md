@@ -1,3 +1,9 @@
+| Deadline |
+|-----------|
+| August 15, 2019 &#42; |
+
+**&#42; You must complete the task before August 15, but you can refactor and commit changes till the exit I-View.**
+
 # Chat
 
 Your task is implement UI for chat.  
