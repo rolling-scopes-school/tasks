@@ -4,6 +4,10 @@
 
 **&#42; You must complete the task before August 15, but you can refactor and commit changes till the exit I-View.**
 
+**All your code must be in the school’s private repository:**
+- Create new branch named chat;
+- Make a Pull request from the chat branch to the master branch.
+
 # Chat
 
 Your task is implement UI for chat.  
