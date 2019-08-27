@@ -33,3 +33,16 @@ Full name and contacts of the mentor who will interview you can be found in this
 
 ### The interview should be passed before 16 June 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 
+### Полезные ссылки
+- This\bind\call\apply https://habrahabr.ru/post/149516/
+- Наследование https://learn.javascript.ru/prototypes
+- Замыкание https://learn.javascript.ru/closures
+- Всплытие https://habrahabr.ru/post/127482/
+- Промисы https://habr.com/ru/company/mailru/blog/269465/
+- Фазы события http://frontender.info/an-introduction-to-dom-events/
+- DOM Events & Event loop https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+- post\get\put https://habrahabr.ru/post/50147/
+- REST https://habr.com/ru/post/38730/
+- как работает браузер https://habrahabr.ru/company/dataart/blog/304138/
+- анимация https://www.youtube.com/watch?v=dWE3WEpqr7M
+
