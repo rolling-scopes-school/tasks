@@ -35,12 +35,34 @@
 - [Как сделать хороший PR](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ## Критерий оценки:
-`Максимальный бал за задание: 110`
+**Максимальный бал за задание: 110**
+
+`минимальный набор:`
 - реализована генерация DOM-элементов и index.html пустой изначально: `+20`
 - нажатие на кнопку на физической клавиатуре подсвечивает кнопку на виртуальной: `+10`
+
+`стандартный набор:`
 - есть переключение между русским и английским языком: `+15`
-- реализована анимация нажатия на кнопку: `+15`
 - клики по кнопкам на виртуальной клавиатуре выводят символы в инпут: `+15`
+
+`повышенный набор:`
+- реализована анимация нажатия на кнопку: `+15`
+
+`технические требования:`
 - использование в коде фишек стандарта ES6 и выше (classes, деструктуризацию и тд): `+15`
 - использование eslint: `+10`
 - требования к репозиторию, коммитам и PR выполены: `+10`
+
+`штрафы:`
+- ошибки или предупреждения eslint-config-airbnb-base: `-15`
+
+## Материалы по теме
+
+- [DOM](http://learn.javascript.ru/document)
+- [Video DOM](https://www.youtube.com/watch?v=TewWd-6ZrmE)
+- [Event](http://learn.javascript.ru/event-details)
+- [Video Event](https://www.youtube.com/watch?v=vcXehC9JgGU&feature=youtu.be)
+- [An Introduction To DOM Events](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
+- [Keycode](https://keycode.info)
+- [eslint (eslint-config-airbnb-base)](https://eslint.org/)
+- [Example](https://www.youtube.com/watch?v=UaCGsLvviCA&index=11&list=PLe--kalBDwjhdXudsOpKooP6q9bAl3rPG)
