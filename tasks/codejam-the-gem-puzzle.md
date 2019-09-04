@@ -41,24 +41,42 @@
 - рабочее приложение должно быть размещено на GitHub Pages (https://pages.github.com/), это произойдет автоматически при создании `gh-pages` бранча. После чего страница будет доступна по адресу вида - https://your-github-account.github.io/name-repository
 
 ## Критерий оценки:
-`Максимальный бал за задание: 145`
+**Максимальный бал за задание: 145**
 
-- Реализована генерация DOM-элементов и index.html пустой изначально: `+10`
-- cостояние игрового поля генерируется случайным образом забивается числами при запуске новой игры размешивается: `+10`
-- реализовать возможность выбора размера поля: `+10`
-- реализовать анимацию перемещения пятнашек на поле: `+15`
-- реализовано отображение времени игры и колличества ходов: `+5`
+`минимальный набор:`
+- pеализована генерация DOM-элементов и index.html пустой изначально: `+10`
+- cостояние игрового поля генерируется случайным образом: `+10`
 - реализован выбор размера поля: `+10`
-- реализована возможность сохранения игры и 10 лучших результатов:
-  - с иcпользованием LocalStorage: `+5`
-  - с иcпользованием [node.js](https://nodejs.org/en/)/[express](http://expressjs.com/)/[mongodb](https://www.mongodb.com/): `+15`
-- использовались в коде фишек ES6 и более (promises, classes, деструктуризацию и тд): `+15`
-- использование [TypeScript](https://www.typescriptlang.org/): `+15`   
-- использование eslint, webpack: `+10`
-- разумное количество unit-tests: `+15`
-- требования к репозиторию, коммитам и PR выполены: `+10`
+- реализовано отображение времени игры и колличества ходов: `+5`
+
+`стандартный набор:`
+- реализовано сохранение игры и 10 лучших результатов с иcпользованием LocalStorage: `+5`
+- использовались в коде фишеки ES6 и более (promises, classes, деструктуризацию и тд): `+15`
+
+`повышенный набор:`
+- реализована анимация перемещения пятнашек на поле: `+15`
+- unit-tests setup + протестировано 5 функций: `+15`
+- реализовано сохранения игры и 10 лучших результатов с иcпользованием [node.js](https://nodejs.org/en/)/[express](http://expressjs.com/)/[mongodb](https://www.mongodb.com/): `+15`
+
+`технические требования:`
+- использован eslint, webpack: `+10`
+- использован [TypeScript](https://www.typescriptlang.org/): `+15`
+- выполены требования к репозиторию, коммитам и PR: `+10`
+
+`штрафы:`
 - ошибки или предупреждения eslint-config-airbnb-base: `-15`
 - до `-50` баллов за нарушение [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
 
 ## Кто выполянет проверку задания?
 Ваш ментор.
+
+## Полезные ссылки
+
+- [eslint](https://eslint.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Canvas](https://developer.mozilla.org/en/docs/Web/API/Canvas_API/Tutorial)
+- [Game Canvas](https://www.w3schools.com/graphics/game_canvas.asp)
+- [node.js](https://nodejs.org/en/), [express](http://expressjs.com/), [mongodb](https://www.mongodb.com/)
+- [Jest](https://jestjs.io/), [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/)
+- [Стрим YouTube Bootstrap( пример подключения webpack, eslint, написания unit-tests)](https://www.youtube.com/watch?v=1Nk09Z4ca4A&list=PLe--kalBDwjj81fKdWlvpLsizajSAK-lh&index=32)
+- [Стрим RSS live coding: game boostrap](https://www.youtube.com/watch?v=pz9SihVxjo8&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=8)
