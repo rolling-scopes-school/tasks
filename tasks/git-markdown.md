@@ -1,7 +1,5 @@
 #  "Markdown & Git"
 
-### Deadline: 03-03-2019 23:59
-
 ## Task
 
 Your task is to create a markdown document. Read about markdown here - https://guides.github.com/features/mastering-markdown/
@@ -28,12 +26,12 @@ Also it would be awesome if you add links to source code)
 ```
 **NOTE!** You are recommended to use real data. However fake data will do too. 
 
-The document should be deployed on GitHub Pages (https://pages.github.com/), it will happen automatically as soon as you create a `gh-pages` branch. After that your page will be available at URL like this one: https://your-github-account.github.io/rsschool-2019Q1-cv/cv
+The document should be deployed on GitHub Pages (https://pages.github.com/), it will happen automatically as soon as you create a `gh-pages` branch. After that your page will be available at URL like this one: https://your-github-account.github.io/rsschool-cv/cv
 
 ### Repository Requirements:
 
-1. Make a public repository called `rsschool-2019Q1-cv` on your GitHub account.
-2. There should be only one file in the `master` branch - a `README.md` file with a link like this https://your-github-account.github.io/rsschool-2019Q1-cv/cv in it
+1. Make a public repository called `rsschool-cv` on your GitHub account.
+2. There should be only one file in the `master` branch - a `README.md` file with a link like this https://your-github-account.github.io/rsschool-cv/cv in it
 3. The CV document itself called `cv.md` should be in the branch `gh-pages`.
 4. Once you are done, open a Pull Request `gh-pages`->`master`.
 
