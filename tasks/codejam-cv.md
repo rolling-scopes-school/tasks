@@ -20,23 +20,7 @@
 3. После выполнения задания вам необходимо создать Pull Request `rsschool-cv-html`->`gh-pages` и вмержить его не удаляя бранч `rsschool-cv-html` 
 
 ### Требования к коммитам
-- Минимум 5 коммитов
-- Названия коммитов должны быть согласно гайдлайна - https://www.conventionalcommits.org/en/v1.0.0-beta.2/ 
-Основные требования:
-```
-  * Allowed Types:
-    * docs: - *documentation only changes*
-    * feat: - *a new feature*
-    * fix: - *a bug fix*
-    * perf: - *a code change that improves performance*
-    * refactor: - *a code change that neither fixes a bug nor adds a feature*
-    * style: - *сhanges that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)*
-    * ...
-  * Use the present tense ("add feature" not "added feature")
-  * Use the imperative mood ("move cursor to..." not "moves cursor to...")
-  * Limit the first line to 72 characters or less
-  * Reference issues and pull requests liberally after the first line
-```
+https://docs.rs.school/#/stage2?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%ba%d0%be%d0%bc%d0%bc%d0%b8%d1%82%d0%b0%d0%bc
 
 ### Требования к оформлению PR (Pull Request)
 1. PR name should contains **the task name** and probably additional info.
