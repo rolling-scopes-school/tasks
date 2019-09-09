@@ -1,13 +1,13 @@
 # HTML CSS self education
 
+## *Must!*
+
 ### Codecademy
 
 **Watch out! Once account is created 7-day trial period starts.** So create your account as you wish to start at the same time. You have only 7 days to complete the course, this is deadline.
 
 #### 1. Create profile on https://www.codecademy.com/learn
 #### 2. Go to the links and complete units to receive badges:
-
-*Must!*
 
 HTML: https://www.codecademy.com/learn/learn-html
 
@@ -41,12 +41,12 @@ Sergey Shalyapin
 HTML CSS Basics: https://www.codecademy.com/users/sergey.shalyapin/achievements
 ```
 
+## *Desirable!*
+
 ### HTMLacademy
 
 #### 1. Create profile on https://htmlacademy.ru/
 #### 2. Go to the links and complete units to receive badges:
-
-*Desirable!*
 
 HTML: https://htmlacademy.ru/courses/basic-html
 
