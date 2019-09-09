@@ -36,25 +36,7 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 4. Once you are done, open a Pull Request `gh-pages`->`master`.
 
 ### Commits Requirements
-
-- A minimum of 3 commits
-- Commit names according to the guideline - https://www.conventionalcommits.org/en/v1.0.0-beta.2/
-
-Main requirements:
-```
-  * Allowed Types:
-    * docs: - *documentation only changes*
-    * feat: - *a new feature*
-    * fix: - *a bug fix*
-    * perf: - *a code change that improves performance*
-    * refactor: - *a code change that neither fixes a bug nor adds a feature*
-    * style: - *сhanges that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)*
-    * ...
-  * Use the present tense ("add feature" not "added feature")
-  * Use the imperative mood ("move cursor to..." not "moves cursor to...")
-  * Limit the first line to 72 characters or less
-  * Reference issues and pull requests liberally after the first line
-```
+https://docs.rs.school/#/stage2?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%ba%d0%be%d0%bc%d0%bc%d0%b8%d1%82%d0%b0%d0%bc
 
 ### PR (Pull Request) Requirements
 1. PR name should contain **the task name** and probably additional info.
