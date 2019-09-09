@@ -17,7 +17,7 @@
 #### 3. Бейджи - показатель прохождения онлайн тренажера по выбранной теме.
 #### 4. Ссылку на странице бейджей нужно запомнить - она понадобится для дальнейших ДЗ.
 
-> Ссылка будет иметь вид: HTML CSS Basics: https://www.codecademy.com/users/YOUR-NAME/achievements
+> Ссылка будет иметь вид: https://www.codecademy.com/users/YOUR-NAME/achievements
 
 
 ### HTMLacademy [RU]
@@ -31,5 +31,18 @@
 
 #### 3. Бейджи - показатель прохождения онлайн тренажера по выбранной теме.
 #### 4. Ссылку на странице бейджей нужно запомнить - она понадобится для дальнейших ДЗ.
+
+
+### Udemy [EN]
+
+#### 1. Cоздайте профиль на https://www.udemy.com/
+#### 2. Перейдите по ссылкам на курсы. В этом блоке будет сразу HTML и CSS, поэтому будут 2 ссылки на видеокурсы, отличающиеся набором информации внутри.
+
+[Знакомство с HTML (HTML5), CSS (CSS3). Главы 1 - 4](https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-anum4hcOr5KI1kQANicX1w "Introduction to HTML, CSS")
+
+[Курс веб-разработки, семантика, Воркшоп из PSD в HTML и CSS. Главы 2 - 5](https://www.udemy.com/course/foundations-of-front-end-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-dCxTqwVnZpdvDF4OcG4fEg "Web Development")
+
+#### 3. После прохождения всего курса можно получить сертификат о завершении.
+#### 4. Ссылку на профиль нужно запомнить - она понадобится для дальнейших ДЗ.
 
 Успехов!
