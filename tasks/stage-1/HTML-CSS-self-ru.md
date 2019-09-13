@@ -125,6 +125,10 @@
 
 [Курс веб-разработки, семантика, Воркшоп из PSD в HTML и CSS. Главы 2 - 5](https://www.udemy.com/course/foundations-of-front-end-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-dCxTqwVnZpdvDF4OcG4fEg "Web Development")
 
+[Курс веб-разработки, семантика, Воркшоп из PSD в HTML и CSS. Главы 2 - 5](https://www.udemy.com/course/foundations-of-front-end-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-dCxTqwVnZpdvDF4OcG4fEg "Web Development")
+
+[HTML5 и CSS3 в подробностях](https://www.udemy.com/course/master-the-basics-of-html5-css3-beginner-web-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-Nftx36h9FzJvZVjhej780Q "Web Development")
+
 #### 3. После прохождения всего курса можно получить сертификат о завершении.
 #### 4. Ссылку на профиль нужно запомнить - она понадобится для дальнейших ДЗ.
 
