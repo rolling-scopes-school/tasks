@@ -9,13 +9,15 @@ Create a web page, strictly according to:
 
 PSD:
 
-**[theyalow PSD Desktop](https://www.dropbox.com/s/vvd768cjmxku6yh/hexal.psd?dl=0)**
+**[theyalow PSD Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20Desktop.psd)**
 
-**[theyalow PSD Mobile](https://www.dropbox.com/s/vvd768cjmxku6yh/hexal.psd?dl=0)**
+**[theyalow PSD Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.psd)**
 
 JPG:
 
-**[Hexal JPG](https://www.dropbox.com/s/j9t88vx864lis35/hexal.jpg?dl=0)**
+**[theyalow JPG Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20Desktop.jpg)**
+
+**[theyalow JPG Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.jpg)**
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
@@ -26,7 +28,7 @@ Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 ## Procedure
 
-Create a new private repository named *hexal* in **your** Github account and upload your HTML and CSS files.
+Create a new private repository named *theyalow* in **your** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
@@ -38,33 +40,36 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 2. Failure to comply with the requirements of any task item may result in losing **3 to 10 points**.
 3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.
 4. Failure to comply with the PSD template (except for nuances with fonts) may result in losing **up to 40 points**.
+5. Failure to match both dektop and mobile may result in losing **up to 50 points**.
 
 ## Terms of Reference
 
-Fully responsive layout **is not required**.
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
 1. Header.
 - Interactive nav.
+- Logo
 - Think of where `h1` should be used.
-- Header triangle must be centered horizontally.
 
 2. Main.
-- Slider is not required, but allowed.
-- Hex blocks must be positioned as shown on the PSD template.
+
+- Video element placed with image placeholder.
+- Slider buttons could be inactive, but should exist.
+
+- 3 columns the same width.
+- svg icons.
+
+- Video element placed with image placeholder.
+- All '+' should be interactive.
+- Customize range input slider, could be inactive.
+- Care about background styles.
 - Care about lines and colors.
-- Social network icons must be interactive.
-- Add hyperlinks to social network icons.
 
 3. Footer
-- Must include a form with relevant inputs and textarea.
-- Required fields must be validated on the client side.
-- Phone number and email address must be clickable (for example, when a user clicks the phone icon, a prompt appears that allows the user to call this number)
+- Logo
 
 
 ## Useful links
-There is a useful tool to manipulate triangles:
-http://apps.eky.hk/css-triangle-generator/
 
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
