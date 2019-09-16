@@ -45,6 +45,10 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 ## Terms of Reference
 
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
+- Care about background styles.
+- Care about lines and colors.
+
+**Desktop**
 
 1. Header
 - Interactive nav.
@@ -61,8 +65,28 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 - Video element placed with image placeholder.
 - All '+' should be interactive.
 - Customize range input slider, could be inactive.
-- Care about background styles.
-- Care about lines and colors.
+
+3. Footer
+- Logo
+
+**Mobile**
+
+1. Header
+- Interactive nav.
+- Logo
+- Think of where `h1` should be used.
+
+2. Main
+- Video element placed with image placeholder.
+- Swiper insted of slider (for our case, just hide the slider).
+- (Next)
+- 3 columns the same width.
+- svg icons.
+- (Next)
+- Video element placed with image placeholder.
+- All '+' should be interactive.
+- Twitter messages should have the same design with 2 lines - message and author. 
+- Form -> input + submit
 
 3. Footer
 - Logo
