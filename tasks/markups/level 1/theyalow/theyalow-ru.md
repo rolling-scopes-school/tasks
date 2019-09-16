@@ -52,13 +52,12 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 - Think of where `h1` should be used.
 
 2. Main.
-
 - Video element placed with image placeholder.
 - Slider buttons could be inactive, but should exist.
-
+----
 - 3 columns the same width.
 - svg icons.
-
+----
 - Video element placed with image placeholder.
 - All '+' should be interactive.
 - Customize range input slider, could be inactive.
