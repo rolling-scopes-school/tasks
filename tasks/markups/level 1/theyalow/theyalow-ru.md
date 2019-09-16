@@ -97,6 +97,15 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
 
+Fonts can be found here:  
+[Open Sans](https://www.fontsquirrel.com/fonts/open-sans)  
+[PT Sans Regular, PT Sans Norrow Bold](https://www.fontsquirrel.com/fonts/pt-sans)  
+[Segoe WP](https://www.cufonfonts.com/font/segoe-wp)  
+[Segoe WP Light](https://www.azfonts.net/families/segoe-wp-light.html)  
+[Asap Regular](https://www.fontsquirrel.com/fonts/asap?q%5Bterm%5D=asap&q%5Bsearch_check%5D=Y)  
+If you can't find font you are looking for, just replace it with same serif-style font.
+
+
 ## If you don't have Photoshop to work with .psd files
 There’s a good design tool: https://studio.psdetch.com/
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
