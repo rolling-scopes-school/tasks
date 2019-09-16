@@ -9,11 +9,11 @@ Create a web page, strictly according to:
 
 PSD:
 
-**[Blow PSD](https://www.dropbox.com/s/vvd768cjmxku6yh/hexal.psd?dl=0)**
+**[blow PSD](https://www.dropbox.com/s/67n81vmp1ae1yw3/BLOW.psd?dl=0)**
 
 JPG:
 
-**[Blow JPG](https://www.dropbox.com/s/j9t88vx864lis35/hexal.jpg?dl=0)**
+**[blow JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/blow/BLOW.jpg)**
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
@@ -24,7 +24,7 @@ Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 ## Procedure
 
-Create a new private repository named *hexal* in **your** Github account and upload your HTML and CSS files.
+Create a new private repository named *blow* in **your** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
@@ -42,27 +42,12 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 Fully responsive layout **is not required**.
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
-1. Header.
-- Interactive nav.
-- Think of where `h1` should be used.
-- Header triangle must be centered horizontally.
-
-2. Main.
-- Slider is not required, but allowed.
-- Hex blocks must be positioned as shown on the PSD template.
-- Care about lines and colors.
-- Social network icons must be interactive.
-- Add hyperlinks to social network icons.
-
-3. Footer
-- Must include a form with relevant inputs and textarea.
-- Required fields must be validated on the client side.
-- Phone number and email address must be clickable (for example, when a user clicks the phone icon, a prompt appears that allows the user to call this number)
+1. Transformed aside panel.
+2. Navigation bar in the top of application.
+3. Interactive button.
 
 
 ## Useful links
-There is a useful tool to manipulate triangles:
-http://apps.eky.hk/css-triangle-generator/
 
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
