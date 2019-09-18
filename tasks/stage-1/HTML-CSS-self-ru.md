@@ -2,62 +2,71 @@
 
 Блок самостоятельной работы подразумевает выполнение задач на онлайн платформах в удобное для Вас время. Результаты (бейджи, сертификаты) и прогресс сможете представить на дальнейших интервью, как показатель вашей самостоятельной работы.
 
-Также ваш прогресс будет проверен автоматически и выставлена оценка в https://app.rs.school/. Для этого необходимо правильно заполнить данные об аккаунтах в приложении.
+Также ваш прогресс будет проверен автоматически и выставлена оценка в https://app.rs.school/. Для этого необходимо правильно заполнить данные об аккаунтах в приложении и сами внешние аккаунты.
 
 <details>
-  <summary>О том как это сделать</summary>
+  <summary>Как сдать задание?</summary>
 
-1. Перейдите по этой ссылке, чтобы редактировать свой профиль https://app.rs.school/profile/edit.
-2. Далее в поля `Codecademy` и(или) `HTML Academy` введите соответсвующий юзернейм (логин).
+1. Перейдите по этой ссылке https://app.rs.school/course/submit-task?course=rs-2019-q3.
+2. Выберите соответствующее задание из списка (`Stage#1 HTML-CSS-self-education`).
+
+![app-rsshool-submit](https://i.imgur.com/ePqIhPa.png)
+
+3. Далее в поля `Codecademy Account` и(или) `HTML Academy Account` введите соответсвующий юзернейм (логин) и(или) в поля `Udemy: Certificate Id 1 && Udemy: Certificate Id 2` id полученных сертификатов на Udemy.
+4. Нажмите на кнопку `Submit`.
 
     **Не стоит:** Вставлять ссылку, писать имя и фамилию через пробел, писать чужое имя пользователя, писать несуществующее имя. Если вы не делали какое-либо задание, просто оставьте поле пустым.
+</details>
 
-    ## Codecademy
+<details>
+  <summary>Как настроить внешние аккаунты?</summary>
 
-    Перейдите на сайт [codecademy](https://www.codecademy.com). В правом верхнем углу нажмите на иконку своего профиля, а затем `My Profile`.
+  ## Codecademy
 
-    ![select-profile](https://i.imgur.com/ZGli5mw.gif)
+  Перейдите на сайт [codecademy](https://www.codecademy.com). В правом верхнем углу нажмите на иконку своего профиля, а затем `My Profile`.
 
-    Далее в строке браузера вы увидите свое имя пользователя. Выделите его, скопируйте и вставьте в соответствующее поле в https://app.rs.school/profile/edit.
+  ![select-profile](https://i.imgur.com/ZGli5mw.gif)
 
-    ![copy-username](https://i.imgur.com/o4qrU99.gif)
+  Далее в строке браузера вы увидите свое имя пользователя.
 
-    Затем перейдите в `Account Settings`.
+  ![copy-username](https://i.imgur.com/o4qrU99.gif)
 
-    ![account-settings](https://i.imgur.com/91lR40e.gif)
+  Затем перейдите в `Account Settings`.
 
-    Прокрутите страницу вниз, и установите переключатель `Who can view my profile` в положение `Everyone`. Сохраните изменения кнопкой `UPDATE PROFILE`.
+  ![account-settings](https://i.imgur.com/91lR40e.gif)
 
-    ![everyone](https://i.imgur.com/wfa3pSL.gif)
+  Прокрутите страницу вниз, и установите переключатель `Who can view my profile` в положение `Everyone`. Сохраните изменения кнопкой `UPDATE PROFILE`.
+
+  ![everyone](https://i.imgur.com/wfa3pSL.gif)
 
 
-    ## Htmlacademy
+  ## Htmlacademy
 
-    Перейдите на сайт [htmlacademy](https://htmlacademy.ru/). В правом верхнем углу нажмите на иконку своего профиля, а затем `Настройки`.
+  Перейдите на сайт [htmlacademy](https://htmlacademy.ru/). В правом верхнем углу нажмите на иконку своего профиля, а затем `Настройки`.
 
-    ![settings](https://i.imgur.com/Sq3EcI5.gif)
+  ![settings](https://i.imgur.com/Sq3EcI5.gif)
 
-    Далее перейдите в свой профиль.
+  Далее перейдите в свой профиль.
 
-    ![profile](https://i.imgur.com/Vexz2gD.gif)
+  ![profile](https://i.imgur.com/Vexz2gD.gif)
 
-    В строке браузера вы увидите свое имя пользователя. Выделите его, скопируйте и вставьте в соответствующее поле в https://app.rs.school/profile/edit.
+  В строке браузера вы увидите свое имя пользователя.
 
-    ![username](https://i.imgur.com/JcQfP8x.gif)
+  ![username](https://i.imgur.com/JcQfP8x.gif)
 
-    Изначально ваш профиль скрыт, и вам необходимо подтвердить свою электронную почту.
+  Изначально ваш профиль скрыт, и вам необходимо подтвердить свою электронную почту.
 
-    ![hidden-profile](https://i.imgur.com/BOC50W2.gif)
+  ![hidden-profile](https://i.imgur.com/BOC50W2.gif)
 
-    Для этого вставьте код, полученный на ваш e-mail, указанный при регистрации на [htmlacademy](https://htmlacademy.ru/). Также вместо этого вы можете нажать на кнопку `Подтвердить эл. почту` в письме.
+  Для этого вставьте код, полученный на ваш e-mail, указанный при регистрации на [htmlacademy](https://htmlacademy.ru/). Также вместо этого вы можете нажать на кнопку `Подтвердить эл. почту` в письме.
 
-    ![email-confirmation](https://i.imgur.com/TegtCdW.gif)
+  ![email-confirmation](https://i.imgur.com/TegtCdW.gif)
 
-    ## Udemy
+  ## Udemy
 
-    TBD
+  Cкопируйте id сертификатов, которые имеет вид `UC-XXXXXXXX`.
 
-    На этом все!  
+  ![udemy-cert-id](https://i.imgur.com/VtryS5I.png)
 </details>
 
 Вам необходимо выполнить один из вариантов на выбор.
