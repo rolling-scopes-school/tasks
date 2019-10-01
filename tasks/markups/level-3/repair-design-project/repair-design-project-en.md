@@ -14,7 +14,7 @@ fig (Figma):
 
 Best way to work with the project - Duplicate to your drafts. At the top of the screen, click on the project name, near the "view only". And select "Duplicate to your drafts", than it creates your local copy to work with.
 
-Browser Support: **Google Chrome, Mozilla Firefox, Microsoft Edge**. It means, first we develop for Google Chrome. Then we check if Mozilla Firefox, Microsoft Edge do not visually break the styles.
+Browser Support: **Google Chrome, Mozilla Firefox. Optional: Microsoft Edge / Safari**. It means, first we develop for Google Chrome. Then we check if Mozilla Firefox, Microsoft Edge do not visually break the styles.
 
 ## Procedure
 
