@@ -33,7 +33,7 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 1. Make a public repository called `rsschool-cv` on your GitHub account.
 2. There should be only one file in the `master` branch - a `README.md` file with a link like this https://your-github-account.github.io/rsschool-cv/cv in it
 3. The CV document itself called `cv.md` should be in the branch `gh-pages`.
-4. Once you are done, open a Pull Request `gh-pages`->`master`.
+4. Once you are done, open a Pull Request `gh-pages`->`master`. **Do not merge this Pull Request!**
 
 ### Commits Requirements
 - A minimum of 3 commits	
