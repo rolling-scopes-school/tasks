@@ -2,7 +2,7 @@
    * Data types in JS. Type coercion.
    * What is hoisting?
    * Let vs var. Const.
-   * Passing data by value and by reference. Exapmles.
+   * Passing data by value and by reference. Examples.
    * `{a: 10} == {a: 10}`. What will the code return?
    * What is `this`?
    * Apply, call, bind. What are they used for? What are the differences?
@@ -19,9 +19,9 @@
    * `Function.prototype.bind` polyfill.
    * `Object.create` polyfill.
    * Event loop.
-   * Promises.
-
-Full name and contacts of the mentor who will interview you can be found in this 
+   * Promises
+   * Iterators and generators
+   * spread/rest
 
 ### Passing the interview
 1. You should contact the mentor personally. Contact details will be announced through Discord.
