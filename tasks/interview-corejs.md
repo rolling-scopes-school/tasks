@@ -20,8 +20,10 @@
    * `Object.create` polyfill.
    * Event loop.
    * Promises
-   * Iterators and generators
    * spread/rest
+   
+### Excluded topics
+   * Iterators and generators
 
 ### Passing the interview
 1. You should contact the mentor personally. Contact details will be announced through Discord.
