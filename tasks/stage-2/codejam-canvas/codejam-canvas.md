@@ -18,11 +18,7 @@ Your task is to implement 3 html pages to show basic piskel clone interface (onl
   * in that case it could be only 1 file
 
 ### UX proto
-
-https://www.figma.com/proto/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=1%3A2&scaling=min-zoom
-
-https://www.dropbox.com/s/cddxz5gnpbl3gbz/pallete.fig?dl=0 - to open from file in online / desktop editor
- 
+./data/rss-codejam-canvas.fig - to open from file in online / desktop editor
 
 ### Limitations
     - Should work in Chrome
