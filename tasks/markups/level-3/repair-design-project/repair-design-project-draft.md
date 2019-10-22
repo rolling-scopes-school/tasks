@@ -88,33 +88,33 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - (Next block)
 - [any youtube video of repair topic](https://support.google.com/youtube/answer/171780?hl=en)
 - (Next block)
-- Form with 2 inputs, reqiured checkbox, submit button.
+- Form with 2 inputs, required checkbox, submit button.
 - Validation on not empty fields with correct type.
 - (Next block)
 - 3 columns the same width.
 - (Next block)
 - The circle item can be without gradient.
 - Big circle and circles over it should be created with css properties.
-- Form with 3 inputs, reqiured checkbox, submit button.
+- Form with 3 inputs, required checkbox, submit button.
 - Validation on not empty fields with correct type.
 - (Next block)
 - Correct placement of images.
 - (Next block)
 - 3 columns the same width but with different height of children.
 - (Next block)
-- Correct nuber of columns.
-- Corerct placement of heading in left top corner.
+- Correct number of columns.
+- Correct placement of heading in left top corner.
 - Interactive arrows and pagination circles.
 - (Next block)
-- Corerct placement of photos and related images.
+- Correct placement of photos and related images.
 - (Next block)
 - 3 columns the same width.
 - (Next block)
-- Form with 3 inputs, reqiured checkbox, submit button.
+- Form with 3 inputs, required checkbox, submit button.
 - Validation on not empty fields with correct type.
 - (Next block)
 - Phone number must contain href of type tel.
-- Interactive buttons of socail networks.
+- Interactive buttons of social networks.
 - (Next block)
 - Map API block can be placed as just image.
 
@@ -135,25 +135,25 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - (Next block)
 - [any youtube video of repair topic](https://support.google.com/youtube/answer/171780?hl=en)
 - (Next block)
-- Form with 2 inputs, reqiured checkbox, submit button.
+- Form with 2 inputs, required checkbox, submit button.
 - Validation on not empty fields with correct type.
 - (Next block)
-- 3 vretical image blocks
+- 3 vertical image blocks
 - (Next block)
 - Slider with one centered image.
 - Interactive slider buttons.
 - (Next block)
-- 3 vretical image blocks
+- 3 vertical image blocks
 - (Next block)
-- Corerct placement of photos and related images.
+- Correct placement of photos and related images.
 - (Next block)
-- Form with 3 inputs, reqiured checkbox, submit button.
+- Form with 3 inputs, required checkbox, submit button.
 - Validation on not empty fields with correct type.
 - (Next block)
 - Map API block can be placed as just image.
 - (Next block)
 - Phone number must contain href of type tel.
-- Interactive buttons of socail networks.
+- Interactive buttons of social networks.
 
 ## Useful links
 
