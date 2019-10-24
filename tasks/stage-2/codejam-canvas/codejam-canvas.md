@@ -8,7 +8,8 @@
 
 ## Task
 
-Your task is to implement 3 html pages to show basic piskel clone interface (only markup) and canvas element drawing 2 color matrix
+Your task is to implement 3 html pages to show basic piskel clone interface (only markup) and canvas element drawing 2 color matrixes
+
 - size 4*4, data in folder data/4x4.json
 - size 32*32, data in folder data/32x32.json
 
