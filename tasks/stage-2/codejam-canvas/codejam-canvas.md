@@ -18,6 +18,8 @@ The data should scaled to canvas size.
 Video as example what should be as result of the task (with extra scope)
 ![gif with codejam-canvas](https://cdn.discordapp.com/attachments/636801685288648724/636930783180750849/codejam-canvas.gif)
 
+Thanks Victor (@MitskevichVS) for the gif!
+
 ## Extra functionality
 * Show image on the canvas, the image could be found in data/image.png
 * Dynamic canvas size switcher to switch to 4x4 or 32x32 or image
