@@ -68,6 +68,7 @@ Maximum points - **50**
 * Expected time to accomplish - 2 - 6 hours
 * https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 * https://graphicdesign.stackexchange.com/questions/49691/how-to-convert-an-array-of-html-colours-into-into-a-picture
+* a very simple lessons about canvas - https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/a/learning-programming-on-khan-academy
 * Topics: arrays, canvas, markup
 
 
