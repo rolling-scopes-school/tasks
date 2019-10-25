@@ -1,0 +1,16 @@
+.small {
+	background: url(./data/4x4.json);
+}
+.medium {
+	background: url(./data/32x32.json);
+}
+canvas {
+	width: 800px;
+	height: 800px;
+	margin: 10px;
+}
+.big {
+	width: 800px;
+	height: 800px;
+	background: url(./data/image.png);
+}

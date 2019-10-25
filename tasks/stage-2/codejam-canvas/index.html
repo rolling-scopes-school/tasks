@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title></title>
 </head>
 <body>
-    <section class="tools"></section>
-    <section class="colors"></section>
+    <section class="tools">
+        <button></button>
+        <button>Choose color (S)</button>
+        <button></button>
+        <button></button>
+    </section>
+    <section class="colors">
+        <button id="current-color">current color</button>
+        <button id="prev-color">prev color</button>
+        <button id="red">red</button>
+        <button id="blue">blue</button>
+    </section>
     <canvas id="draw" width="800" height="800"></canvas>
     <section class="matrixs">
         <button id="small">4x4</button>
         <button id="medium">32x32</button>
         <button id="big">256x256</button>
     </section>
-    <script >
-      const matrixs = document.querySelector('.matrixs');
-      const small = matrixs.querySelector('#small');
-      const medium = matrixs.querySelector('#medium');
-      const big = matrixs.querySelector('#big');
-    </script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
