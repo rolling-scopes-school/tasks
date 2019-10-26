@@ -47,7 +47,7 @@ Thanks Victor (@MitskevichVS) for the gif!
         2. a basic layout with css 
         3. a layout for canvas 
         4. and so on
-    - Deploy the code to github pages / netflife / other hosting and provide link in pull request
+    - Deploy the code to github pages / netlify / https://surge.sh/ / other hosting and provide link in pull request
     - Create a PR from your branch (codejam-canvas) to master
     
     
