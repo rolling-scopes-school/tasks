@@ -8,6 +8,7 @@ canvas {
 	width: 800px;
 	height: 800px;
 	margin: 10px;
+	border: black solid 1px;
 }
 .big {
 	width: 800px;

@@ -1,8 +1,15 @@
 const workSpace = document.querySelector('canvas');
 const matrixs = document.querySelector('.matrixs');
+const colors = document.querySelector('.colors');
 const small = matrixs.querySelector('#small');
 const medium = matrixs.querySelector('#medium');
 const big = matrixs.querySelector('#big');
+const redchoose = colors.querySelector('#red');
+const bluechoose = colors.querySelector('#blue');
+var md = false
+workSpace.addEventListener('mousedown', down);
+workSpace.addEventListener('mouseup', toggledraw);
+
 
 small.addEventListener('click', function () {
     let ref = 'https://raw.githubusercontent.com/AntonChanin/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json';
@@ -103,3 +110,35 @@ big.addEventListener('click', function () {
         canvas.height = height * scale;
         workSpace.classList.add('big');
 })
+
+workSpace.addEventListener('mousemove',
+    function(evt) {
+        let mousePos = getMousePos(workSpace, evt);
+        let posx = mousePos.x;
+        let posy = mousePos.y;
+        draw(workSpace, posx, posy);
+    }); 
+
+function down() {
+    md = true;
+    console.log('down');
+}
+
+function toggledraw() {
+    md = false;
+    console.log('toggledraw');
+}
+
+function getMousePos(canvas, evt) {
+    let rect = canvas.getBoundingClientRect();
+    return { 
+        x: evt.clientX - rect.left,
+        y: evt.clientY - rect.top
+    }
+}
+function draw(canvas, posx, posy) {
+    let context = canvas.getContext('2d');
+    if (md) {
+        context.fillRect(posx, posy, 4, 4);
+    }
+}
