@@ -12,10 +12,10 @@
         <button>Transform (T)</button>
     </section>
     <section class="colors">
-        <button id="current-color">current color</button>
-        <button id="prev-color">prev color</button>
-        <button id="red">red</button>
-        <button id="blue">blue</button>
+        <button id="current-color"><div class="current-color"></div><span>current color</span></button>
+        <button id="prev-color"><div class="prev-color"></div><span> prev color</span></button>
+        <button id="red" onclick="chooseColor(redchoose)"><div class="red"></div><span>red</span></button>
+        <button id="blue" onclick="chooseColor(bluechoose)"><div class="blue"></div><span>blue</span></button>
     </section>
     <canvas id="draw" width="800" height="800"></canvas>
     <section class="matrixs">

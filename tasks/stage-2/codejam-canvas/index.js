@@ -6,10 +6,10 @@ const medium = matrixs.querySelector('#medium');
 const big = matrixs.querySelector('#big');
 const redchoose = colors.querySelector('#red');
 const bluechoose = colors.querySelector('#blue');
-var md = false
+var currentcolor = undefined;
+var md = false;
 workSpace.addEventListener('mousedown', down);
 workSpace.addEventListener('mouseup', toggledraw);
-
 
 small.addEventListener('click', function () {
     let ref = 'https://raw.githubusercontent.com/AntonChanin/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json';
@@ -100,15 +100,21 @@ medium.addEventListener('click', function () {
 })
 
 big.addEventListener('click', function () {
+    
     var canvas = document.querySelector("canvas"), // Select our canvas element
-        ctx = canvas.getContext("2d"), // Save the context we're going to use
-        width = 0, // Get the width of the array
-        height = 0, // Get the height of the array
-        scale = 0; // Scales the whole image by this amount, set to 1 for default size
+        ctx = canvas.getContext("2d"); // Save the context we're going to use
+        width = 256, // Get the width of the array
+        height =256, // Get the height of the array
+        scale = 1; // Scales the whole image by this amount, set to 1 for default size
     // Make sure the canvas is no larger than the size we need
         canvas.width = width * scale;
         canvas.height = height * scale;
-        workSpace.classList.add('big');
+    // workSpace.classList.add('big');
+    drawing = new Image();
+    drawing.src = "./data/image.png"; // can also be a remote URL e.g. http://
+    drawing.onload = function () {
+        ctx.drawImage(drawing, 0, 0);
+    }
 })
 
 workSpace.addEventListener('mousemove',
@@ -117,7 +123,7 @@ workSpace.addEventListener('mousemove',
         let posx = mousePos.x;
         let posy = mousePos.y;
         draw(workSpace, posx, posy);
-    }); 
+    });
 
 function down() {
     md = true;
@@ -136,9 +142,22 @@ function getMousePos(canvas, evt) {
         y: evt.clientY - rect.top
     }
 }
+
 function draw(canvas, posx, posy) {
     let context = canvas.getContext('2d');
     if (md) {
         context.fillRect(posx, posy, 4, 4);
     }
+}
+
+function chooseColor(context) {
+    let ctx = workSpace.getContext("2d");
+    if (context == redchoose) {
+        currentColor = 'red';
+        console.log(currentColor);
+    } else if (context == bluechoose) {
+        currentColor = 'blue';
+        console.log(currentColor);
+    }
+    ctx.fillStyle = currentColor;
 }

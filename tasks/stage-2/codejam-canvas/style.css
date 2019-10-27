@@ -5,13 +5,118 @@
 	background: url(./data/32x32.json);
 }
 canvas {
-	width: 800px;
-	height: 800px;
-	margin: 10px;
-	border: black solid 1px;
+	width: 45vw;
+    height: 71.25vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    //margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    border: black solid 1px;
+    background: white;
+}
+span {
+	position: relative;
+    left: 30%;
+    bottom: 40px;
+	display: flex;
+    justify-content: start;
+	width: 65%;
 }
 .big {
 	width: 800px;
 	height: 800px;
 	background: url(./data/image.png);
+}
+section {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 50%;
+}
+.colors, .tools {
+	display: flex;
+    flex-flow: column;
+    position: relative;
+	left: 5%;
+    float: left;
+    width: 15%;
+    height: 40vh;
+}
+.colors {
+	top: 45vh;
+    height: 40vh;
+    left: -10%;
+}
+.colors button, .tools button {
+	
+	background: none;
+    border: none;
+	height: 25%;
+	font-size: 1.5em;
+}
+.tools button {
+	display: flex;
+    justify-content: start;
+}
+
+#blue {
+    border: none;
+}
+#red {
+    border: none;
+}
+.prev-color {
+    border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 70%;
+	position: relative;
+	top: 13px;
+}
+.current-color {
+    border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 70%;
+	position: relative;
+	top: 13px;
+}
+.red {
+    border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	background: red;
+    width: 25%;
+    height: 70%;
+	position: relative;
+	top: 13px;
+}
+.blue {
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: blue;
+    width: 25%;
+    height: 70%;
+	position: relative; 
+	top: 13px;  
+}
+.matrixs {
+	display: flex;
+    flex-flow: column;
+    float: right;
+    position: relative;
+	right: 5%;
+    bottom: 72vh;
+    width: 10%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.matrixs button {
+	height: 33.3%;
+	background: none;
+    border: none;
+	font-size: 1.5em;
 }
