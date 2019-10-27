@@ -1,11 +1,13 @@
 const workSpace = document.querySelector('canvas');
 const matrixs = document.querySelector('.matrixs');
 const colors = document.querySelector('.colors');
+const sizeInput = document.querySelector('input');
 const small = matrixs.querySelector('#small');
 const medium = matrixs.querySelector('#medium');
 const big = matrixs.querySelector('#big');
 const redchoose = colors.querySelector('#red');
 const bluechoose = colors.querySelector('#blue');
+
 var currentcolor = undefined;
 var md = false;
 workSpace.addEventListener('mousedown', down);
@@ -28,16 +30,20 @@ small.addEventListener('click', function () {
         };
         xhr.send();
     };
+    console.log(sizeInput.value);
     getJSON(ref,
     function (err, data) {
         if (err != null) {
             alert('Something went wrong: ' + err);
         } else {
+            if (sizeInput.value > 2) {
+                sizeInput.value = 2;
+            }
             var canvas = document.querySelector("canvas"), // Select our canvas element
             ctx = canvas.getContext("2d"), // Save the context we're going to use
             width = data[0].length, // Get the width of the array
             height = data.length, // Get the height of the array
-            scale = 10; // Scales the whole image by this amount, set to 1 for default size
+            scale = 10 * sizeInput.value; // Scales the whole image by this amount, set to 1 for default size
             // Make sure the canvas is no larger than the size we need
             canvas.width = width * scale;
             canvas.height = height * scale;
@@ -77,11 +83,14 @@ medium.addEventListener('click', function () {
         if (err != null) {
             alert('Something went wrong: ' + err);
         } else {
+            if (sizeInput.value > 2) {
+                sizeInput.value = 2;
+            }
             var canvas = document.querySelector("canvas"), // Select our canvas element
             ctx = canvas.getContext("2d"), // Save the context we're going to use
             width = data[0].length, // Get the width of the array
             height = data.length, // Get the height of the array
-            scale = 10; // Scales the whole image by this amount, set to 1 for default size
+            scale = 10 * sizeInput.value; // Scales the whole image by this amount, set to 1 for default size
             // Make sure the canvas is no larger than the size we need
             canvas.width = width * scale;
             canvas.height = height * scale;
@@ -100,12 +109,14 @@ medium.addEventListener('click', function () {
 })
 
 big.addEventListener('click', function () {
-    
+    if (sizeInput.value > 2) {
+        sizeInput.value = 2;
+    }
     var canvas = document.querySelector("canvas"), // Select our canvas element
         ctx = canvas.getContext("2d"); // Save the context we're going to use
         width = 256, // Get the width of the array
         height =256, // Get the height of the array
-        scale = 1; // Scales the whole image by this amount, set to 1 for default size
+        scale = 1 * sizeInput.value; // Scales the whole image by this amount, set to 1 for default size
     // Make sure the canvas is no larger than the size we need
         canvas.width = width * scale;
         canvas.height = height * scale;

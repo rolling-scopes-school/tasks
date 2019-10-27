@@ -5,8 +5,6 @@
 	background: url(./data/32x32.json);
 }
 canvas {
-	width: 45vw;
-    height: 71.25vh;
     margin-top: 10px;
     margin-bottom: 10px;
     //margin-left: auto;
@@ -109,8 +107,7 @@ section {
     float: right;
     position: relative;
 	right: 5%;
-    bottom: 72vh;
-    width: 10%;
+    width: 15%;
     height: 40vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
