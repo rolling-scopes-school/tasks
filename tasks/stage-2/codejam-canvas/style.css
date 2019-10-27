@@ -117,3 +117,35 @@ section {
     border: none;
 	font-size: 1.5em;
 }
+.paint-bucket {
+	background: url(./data/tools-sprites.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-position: -54px -5px;
+	margin-left: 10px;
+}
+.choose-color {
+	background: url(./data/tools-sprites.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-position: -4px -33px;
+	margin-left: 10px;
+}
+.move {
+	background: url(./data/tools-sprites.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-position: -5px 1px;
+	margin-left: 10px;
+}
+.transform {
+	background: url(./data/tools-sprites.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-position: -50px -38px;
+	margin-left: 10px;
+}

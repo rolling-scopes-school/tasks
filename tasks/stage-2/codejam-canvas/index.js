@@ -15,7 +15,6 @@ workSpace.addEventListener('mouseup', toggledraw);
 
 small.addEventListener('click', function () {
     let ref = 'https://raw.githubusercontent.com/AntonChanin/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json';
-    console.log(JSON.stringify(ref));
     var getJSON = function (url, callback) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
@@ -30,12 +29,14 @@ small.addEventListener('click', function () {
         };
         xhr.send();
     };
-    console.log(sizeInput.value);
     getJSON(ref,
     function (err, data) {
         if (err != null) {
             alert('Something went wrong: ' + err);
         } else {
+            if (sizeInput.value == '') {
+                sizeInput.value = 1;
+            }
             if (sizeInput.value > 2) {
                 sizeInput.value = 2;
             }
@@ -53,7 +54,6 @@ small.addEventListener('click', function () {
                 for (var col = 0; col < width; col++) { // Since there are nested arrays we need two for loops
                     ctx.fillStyle ='#' + data[row][col]; // Set the color to the one specified
                     ctx.fillRect(col * scale, row * scale, scale, scale); // Actually draw the rectangle 
-                    console.log(data[row][col]);
                 }
             };
         }
@@ -63,7 +63,6 @@ small.addEventListener('click', function () {
 
 medium.addEventListener('click', function () {
     let ref = 'https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/stage-2/codejam-canvas/data/32x32.json';
-    console.log(JSON.stringify(ref));
     var getJSON = function (url, callback) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
@@ -83,6 +82,9 @@ medium.addEventListener('click', function () {
         if (err != null) {
             alert('Something went wrong: ' + err);
         } else {
+            if (sizeInput.value == '') {
+                sizeInput.value = 1;
+            }
             if (sizeInput.value > 2) {
                 sizeInput.value = 2;
             }
@@ -109,6 +111,9 @@ medium.addEventListener('click', function () {
 })
 
 big.addEventListener('click', function () {
+    if (sizeInput.value == '') {
+        sizeInput.value = 1;
+    }
     if (sizeInput.value > 2) {
         sizeInput.value = 2;
     }
