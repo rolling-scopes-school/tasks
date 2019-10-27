@@ -7,12 +7,13 @@
 canvas {
     margin-top: 10px;
     margin-bottom: 10px;
-    //margin-left: auto;
     margin-right: auto;
     text-align: center;
     display: flex;
     border: black solid 1px;
     background: white;
+	width: 30vw;
+    height: 56vh;
 }
 span {
 	position: relative;
@@ -106,6 +107,7 @@ section {
     flex-flow: column;
     float: right;
     position: relative;
+	bottom: 54vh;
 	right: 5%;
     width: 15%;
     height: 40vh;
