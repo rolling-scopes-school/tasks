@@ -1,80 +1,112 @@
 
 | Deadline  | Folder name | Branch name |
 |-----------|-------------|-------------|
-| 30.04.2019 23:59 | palette | codejam-dom-palette |
-| without typo | palette | codejam-dom-palette |
+| 2019 23:59 | palette | codejam-dom-palette |
 
-Two variants are allowed )
 
 
 # CodeJam-dom Palette
 
-## Task
+## Задание
+Внимательно посмотрите на прилагаемый к заданию прототип "UX proto".
 
-Your task is to implement 3 ui components (canvas, palette, colors) with the functionality described below. The js and css files should be in the folder named "palette".
-
-As you complete one part of the functionality you should commit the files. After that you proceed to the next part of functionality and commit it after you've finished it, and so on. You can refactor and commit changes till deadline.
-
-### Components description
-
-### UX proto
-
+Или онлайн:
 https://www.figma.com/proto/EU8gNeqmJ8y57PUnCJ1UA3sL/pallete?node-id=1%3A2&scaling=min-zoom
 
+Или для скачивания на свой компьютер:
 https://www.dropbox.com/s/cddxz5gnpbl3gbz/pallete.fig?dl=0 - to open from file in online / desktop editor
 
-### Palette
-
-Should contain the following:
-- paint bucket tool
-- color picker
-- move tool
-- transform tool
 
 
-The behaviour should be as follows:
-- paint bucket tool should color target figure into the current selected color on click
-- color picker should set the current color based on color of pixel where the click event happens
-- move tool allows you to move the figures anywhere
-- transform tool should change the target figure from square to circle and vice versa
+В нем мы видим структуру:
+
+- Шапка сайта
+- Левая часть (Tools) - это панель с инструментами и панель с выбором цветов
+- Рабочая правая часть (Canvas) -  это рабочая (div) область с фигурами (восемь квадратов и один круг). Все девять фигур, при старте, имеют один и тот же цвет - серый. Обратите внимание, это не canvas как элемент HTML5, это просто рабочая div-область
 
 
-### Colors
 
-The colors component contains current, previous and predefined colors to use with the paint bucket tool.
- 
+**Вам нужно реализовать три UI элемента (Tools, Colors, Canvas)**.
 
-### Canvas
 
-Canvas consists out of 9 figures.
 
-Any of the canvas figures can be changed by the tools from the palette component
+#### Tools
+Данная панель инструментов должна содержать следующие инструменты:
+- Paint bucket  - инструмент заливки фигуры
+
+- Choose color  - выбор цвета (позволяет выбрать цвет из панели цветов)
+
+- Move  - инструмент переноса фигуры в любое место рабочей области
+
+- Transform   - инструмент преобразования фигуры (реализовать только переключение "круг - квадрат")
+
+  
+#### Colors
+
+Панель с выбором цвета должна содержать:
+- Current color - показывает текущий (выбранный) цвет (при старте предустановленный цвет - серый)
+
+- Prev color - предыдущий цвет (при старте предустановленный цвет - зеленый)
+
+- Палитра с красным цветом
+
+- Палитра с синим цветом
+
+  
+#### Canvas
+
+Это рабочая область с фигурами (восемь квадратов и один круг). Все девять фигур, при старте, имеют **один и тот же цвет** - серый. Обратите внимание, это не canvas как элемент HTML5, это просто рабочая div-область  
+
+
+
+### Поведение работы должно проходить по следующему сценарию:
+
+- Выбираем инструмент "Choose color". Данный инструмент, при выборе, должен изменить свое состояние, чтобы показать что он выбран (любым способом: смена цвета теста, обводка и т.д.).
+
+- Выбираем нужный цвет на панели цветов. Например,  мышкой *выберем красный цвет*.  После выбора цвета, должны произойти визуальная перестановка на панели цветов:
+
+ ![](Choose_color.png)
+
+- Выбираем инструмент заливки. Данным инструментом, мы закрашиваем текущим цветом любую фигуру  в рабочей области, просто нажимая на нее мышкой, например:
+
+![](Paint_bucket.png)
+
+- Выбирая инструмент "Move", мы можем перемещать фигуру по рабочей области: 
+
+  ![](move.png)
+
+- Выбирая инструмент  Transform,  мы изменяем фигуру с квадрата на круг и наоборот, просто нажимая на нее мышкой:
+
+  ![](transform.png)
+  
+
+
+## Требования
+
+Задание должно содержать файл index.html и папку названной  "palette".  Все файлы js и css должны находится в папке "palette".  
+
+При выполнении задания, вы должны обязательно выполнять коммиты  в репозиторий (минимум три коммита).
+Выполнив одну часть функциональности, вы должны сделать коммит. После этого вы переходите к следующей части функциональности и после ее завершения делаете коммит и так далее. 
+До истечения срока дедлайна, вы можете выполнить рефакторинг и внесение изменений столько раз, сколько сочтете нужным.
+
+
+
+##  Требования к PR
+
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
+
+
 
 ### Limitations
+
     - Should work in Chrome
     - Usage of jQuery is allowerd, except for jQuery widgets
     - Usage of material design / bootstrap is allowed
     - You CANNOT use any of the frameworks like Angular / React / Vue
     - You can use preprocessors 
     - You can communicate, chat, google and use stackoverflow
-    
-### How to deliver
-    - Create an html file with a basic layout (menu, palette, canvas) and css styles for it
-    - Add the tools and a circle state for the figure from canvas 
-    - Set the current color to green 
-    - Implement the bucket tool (clicking on a figure will change its color) 
-    - Implement the color picker tool 
-    - Commit your code as you implement the features, i.e: 
-        1. empty html file
-        2. basic layout with css 
-        3. layout for canvas 
-        4. and so on
-    - Refactor and change the code till deadline
-    
-    
-## Requirements for commits, PR, repository
 
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+
 
 
 ### Evaluation
