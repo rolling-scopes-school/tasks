@@ -46,10 +46,10 @@ Codewars:
 *  4 points - 6 kyu (14 at all)
 *  5 points - 5 kyu (7 at all)
 
-Total: 1 * 14 + 4 * 11 + 5 * 7  = 93
+Total: 1 * 14 + 4 * 14 + 5 * 7  = 105
 
 Additionally you can score:
 *  5 points - 5 kyu (3 tasks)
 *  20 points - 1 kyu (1 task)
 
-Total sum - 128 points. 
+Total sum - 140 points. 
