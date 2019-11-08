@@ -8,7 +8,7 @@
 
 ## Task
 
-Your task is to implement drawing tools (pencil, fill bucket, color picker) with the functionality described below. Also, you need to save the current user session and restore it after a page reload. The code should be checked with `eslint` tool. There is an extra scope in the task which should be done only after a normal scope implementation.
+Your task is to implement drawing tools (pencil, fill bucket, color picker) with the functionality described below. Also, you need to save the current user session and restore it after a page reload. The code should be checked with `eslint` tool. There is an extra scope in the task which should be done after a normal scope implementation.
 
 ### UX prototype
 Here is the file to open in figma editor - ./data/codejam-palette.fig
@@ -19,12 +19,14 @@ The palette editor consiste of the following blocks:
 * tool component with different tools which possible to apply to the canvas
 * palette area with the current color button, the previous color button and set of predefined colors
 * 512*512 pixel size canvas elements with 4*4 matrises. The all drawing will happen on that component
-* menu component with codejam title is just static html without functionality\
+* menu component with codejam title is just static html without functionality
 
 ### Canvas
 Canvas should dispay matrix 4*4 on 512*512 pixel sized dom element and apply tools to matrix 4*4.
 
 ### Tools
+
+
 Page should start with pencil as selected tool.
 
 The current selected tool should have status active on ui (changed background).
