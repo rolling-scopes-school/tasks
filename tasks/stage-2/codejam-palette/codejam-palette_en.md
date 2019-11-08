@@ -13,7 +13,7 @@ Your task is to implement drawing tools (pencil, fill bucket, color picker) with
 ### UX prototype
 Here is the file to open in figma editor - ./data/codejam-palette.fig
 
-Online version- https://www.figma.com/proto/MJP84gKyYZorfeit0fi6zieY/rss-codejam-canvas?node-id=0%3A2&scaling=min-zoom 
+Online version- https://www.figma.com/proto/anAQsgXvKyEgijDvhZD7pJ/codejam-palette?node-id=0%3A1&scaling=min-zoom
 
 The palette editor consiste of the following blocks:
 * tool component with different tools which possible to apply to the canvas
