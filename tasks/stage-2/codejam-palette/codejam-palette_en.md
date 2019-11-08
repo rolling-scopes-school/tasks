@@ -18,11 +18,11 @@ Online version- https://www.figma.com/proto/MJP84gKyYZorfeit0fi6zieY/rss-codejam
 The palette editor consiste of the following blocks:
 * tool component with different tools which possible to apply to the canvas
 * palette area with the current color button, the previous color button and set of predefined colors
-* 512*512 pixel size canvas elements with 4*4 matrises. The all drawing will happen on that component
+* 512 * 512 pixel size canvas elements with 4*4 matrises. The all drawing will happen on that component
 * menu component with codejam title is just static html without functionality
 
 ### Canvas
-Canvas should dispay matrix 4*4 on 512*512 pixel sized dom element and apply tools to matrix 4*4.
+Canvas should dispay matrix 4 * 4 on 512 * 512 pixel sized dom element and apply tools to matrix 4 * 4.
 
 ### Tools
 
