@@ -50,7 +50,7 @@ To earn additional score, you as developer need to implement fill by current col
 If the user presses a left mouse button, the pencil should draw pixel under the current mouse position.
 
 #### Color picker
-The color picker component contains the current, the previous and predefined colors to use with the paint bucket and the pencil tools.
+The color picker component contains the current, the previous and predefined colors to use with the fill bucket and the pencil tools.
 
 The user should be able to choose the color by
 - clicking on current color and using color input functionality
@@ -118,7 +118,7 @@ The mentor can leave a comments during the review, and you as a student can fix 
 Maximum points - **120**
 
 ### Normal scope:
-- [ ] **+10** - paint bucket tool functionality
+- [ ] **+10** - pencil tool functionality
 - [ ] **+10** - fill bucket tool functionality
 - [ ] **+20** - color picker tool functionality
 - [ ] **+10** - keyboard controls: it is possible to choose the tool with keyboard shortcuts
