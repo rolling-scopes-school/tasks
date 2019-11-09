@@ -18,11 +18,11 @@ Online version- https://www.figma.com/proto/anAQsgXvKyEgijDvhZD7pJ/codejam-palet
 The palette editor consiste of the following blocks:
 * tool component with different tools which possible to apply to the canvas
 * palette area with the current color button, the previous color button and set of predefined colors
-* 512 * 512 pixel size canvas elements with 4*4 matrises. The all drawing will happen on that component
+* 512 x 512 pixel size canvas element with 4x4 field. The size of one field item is 512/4=128px. The all drawing will happen on that component. You can also used 16x16 or 32x32 field.
 * menu component with codejam title is just static html without functionality
 
 ### Canvas
-Canvas should dispay matrix 4 * 4 on 512 * 512 pixel sized dom element and apply tools to matrix 4 * 4.
+Canvas should dispay matrix 4 * 4 on 512 * 512 pixel sized dom element and apply tools to matrix 4 x 4.
 
 ### Tools
 
@@ -45,9 +45,14 @@ The fill bucket tool should color the whole canvas into the current selected col
 
 To earn additional score, you as developer need to implement fill by current color inside closed area.
 
-#### Pencil tool
+![Example from Sonic](https://cdn.discordapp.com/attachments/642271813870551040/642438943832539197/unknown.png). 
 
+Left bottom area only should be filled.
+
+#### Pencil tool
 If the user presses a left mouse button, the pencil should draw pixel under the current mouse position.
+
+  [Video example from @Sonic](https://cdn.discordapp.com/attachments/642271813870551040/642349595875344403/Screencast_2019-11-08.mp4)
 
 #### Color picker
 The color picker component contains the current, the previous and predefined colors to use with the fill bucket and the pencil tools.
@@ -76,7 +81,7 @@ The user should have possibility to refresh the page and be able to see previous
 - `eslint` included in `package.json`, 
 - you should use `eslint-config-airbnb-base` config 
 - all code should be checked
-- eslint check is run by `npm lint`
+- eslint check is run by `npm run lint`
 
 #### Limitations
 - Should work in Chrome
@@ -88,9 +93,11 @@ The user should have possibility to refresh the page and be able to see previous
 
     
 ### How to deliver
-The js and css files should be in the folder named "palette".
+The js and css files should be in the folder named "palette" (codejam-palette is also okey). You can organise the code inside the folder as you want.   
 
-- Create an html file with a basic layout and css styles for it. Or just copy your html from codejam-canvas.
+- create a git branch
+- create a folder
+- Create an html file with a basic layout and css styles for it in the folder. Or just copy your html from codejam-canvas.
 - Implement basic functionality to manipulate the canvas    
     - initialise the canvas
     - fill 
@@ -149,6 +156,9 @@ Your mentor
 * Video with canvas drawing - https://www.youtube.com/watch?v=8ZGAzJ0drl0&feature=youtu.be
 * Local storage - https://tproger.ru/articles/localstorage/
 * Local storage on mdn - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+* eslint setup - https://youtu.be/ofJdXbf11w0?list=PLe--kalBDwjj81fKdWlvpLsizajSAK-lh&t=171
+* jest setup - https://github.com/davojta/2019q1-base-project-bootstrap/commits/add-unit-tests
+* jest setup video - https://youtu.be/OyMf8ZlUfW8?list=PLe--kalBDwjj81fKdWlvpLsizajSAK-lh&t=438
 
 * Topics: dom, canvas, local storage, algorithms, unit tests, lint tools
 
