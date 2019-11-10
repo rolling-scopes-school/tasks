@@ -69,7 +69,7 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - Care about lines and colors.
 - Care about pointer cursor.
 
-**HOME**
+**Desktop**
 
 1. Header (`<header>` holds logo, h1, navbar, tel, button)
 - Interactive navbar, button.
