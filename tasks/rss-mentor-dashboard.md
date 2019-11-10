@@ -1,77 +1,83 @@
-# RSS Дашборд ментора
+# RSS Mentor Dashboard
 
 ### Deadline: Sunday, Feb 24, 2019 23:59
 
-## Задание
-Вы должны реализовать дашборд ментора школы The Rolling Scopes в виде странички на github pages.
+## Task
+You need to implement dashboard of The Rolling Scopes School mentor as a page on github pages.
 
-Дашборд должен содержать следующую информацию
-- список студентов, которых курирует ментор
-- список тасков студентов, которые должны делать студенты
-- таблица студент / задания должны быть подсвечена следующим образом:
-    - зеленый цвет - проверенные задания
-    - желтый цвет - задания сейчас в работе у студентов (status - in progress)
-    - красный цвет - задания, которые ментору надо проверять (status - checking)
-    - темно-красный цвет - задания, которые уже надо было сдать, но их не сдали (status - checked)
-    - серая подсветка / притухшие - задания, которые еще не надо делать (status - no status / todo)
+Dashboard should contain the following information:
+- list of mentor's students
+- list of student's tasks, which students should work on
+- table student / tasks should be highlighted according to the following rules:
+    - green color - reviewed tasks
+    - yellow color is for tasks that students are working on now (status - in progress)
+    - red color is for tasks that mentor should check (status - checking)
+    - dark red color is for tasks that should already be done,
+    but they are not (status - checked)
+    - grey color/muted is for tasks to be done (status - no status / todo)
 
-Выбор ментора должен происходить из всех менторов набора, которые содержатся в отдельном excel файле, используя контрол автокомплита (https://bestofjs.org/projects/react-select или https://bestofjs.org/projects/chosen). Выбранный ментор должен сохраняться в localStorage и подставляться при следующей загрузке страницы.
+Selection of mentor should be done from all mentors of the current stream,
+which are contained in separated excel file,
+using autocomplete (https://bestofjs.org/projects/react-select or https://bestofjs.org/projects/chosen).
+Selected mentor should be saved into a localStorage and seen on next page load.
 
-### Приблизительный внешний вид
+
+### Approximate UI
 ![rss-mentor-dashboard](https://docs.google.com/drawings/d/e/2PACX-1vSV8wUHrWdVDOxyJGl86gC4s_Vmri8Xor3gMRKlB_gF_krSa7UJuydBZ6JMNSpHlQOjW08CtyOqGNny/pub?w=960&h=720)
 
 
-### Ограничения
-  - Должно работать в Chrome
-  - Можно гуглить, общаться между собой и пользоваться stackoverflow
-  - можно использовать lodash
-  - задание должно использовать React
+### Requirements
+  - Should work in Chrome
+  - You can Google, communicate, chat and use Stackoverflow
+  - You may use Lodash
+  - You **must** use React to complete the task
     
-### Как делать / сдавать
-  - написать nodejs скрипт который
-    - обработает данные с помощью библиотеки [node-xlsx](https://github.com/mgcrea/node-xlsx) из [папки с данными](https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW) . Можно использовать любую другую библиотеку для чтения excel файлов.
-    - будет использовать файлы для обработки библиотекой - Tasks, Mentor score, Mentor-students pairs (информация по парам ментор - студент + информация по соотвествию имени / фамилии ментора его гитхаб аккаунту ) 
-    - исправит возникающие ошибки в данных (неправильное написание гитхаб аккаунтов, неправильные пары ментор-студент). Надо самому решать что исправлять скриптом, а что руками в исходных файлах. Если правятся исходные файлы - надо указать в readme при сдаче таска
-    - соединит (смержит, заджоинит (join)) данные из [google drive папки](https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW)
-      - по студентам ментора
-      - по выставленным оценкам
-    - получит json файл с нужными данными
-    - загрузит данные на html страницу
-  - с помощью react и react component нарисовать дашборд, используя получившийся json
-  - сбилдить веб паком и выложить сбилженные файлы на github pages 
-  - pull request должен содержать 
-    - nodejs script, инструкцию как им пользоваться, 
-    - получившийся json
-    - js файл с реакт компонентой
-    - html страницу, которая подключает реакт, js файл с реактом, загружает json файл с данными, которые отображает react компонента 
-  - запостить ссылку на гитхаб страницу + PR [в форму](https://docs.google.com/forms/d/e/1FAIpQLSctLqyRXrpdgC1vybGjGZoiYwZUUAf6_hSD-gPTZMORS_E1kQ/viewform)
-    
-    
-### Требования к коммитам, PR, репозиторию
-[Общие требования из этапа 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
-
-### Критерий оценки:
-- Максимальный бал за задание - **140**
-- Реализована генераций json файла - **+25**
-- Реализовано подключение json файла на страницу и вывод списка студентов ментора - **+10**
-- Реализовано подключение json файла на страницу и вывод списка тасков ментора - **+10**
-- Реализовано подключение json файла на страницу и выбор ментора из контрола выбора менторов - **+10**
-- Реализована подгрузка выбранного ментора из локал стораджа - **+5**
-- Реализована цветовая индикация **+10**
-- Требования к репозиторию, коммитам и PR выполены **+5 баллов**
-- Тесты покрывают следующую фунциональность 
-  - функции мержа данных - **+10**
-  - правильность генерирования итогового json **+10**
-  - факт рендера данных - **+5**
-- Реализован логин и выбор ментора по github аккаунту **+30**
-- до **-50** баллов за нарушение [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
-- если сделан сервер, который раз в пару минут проверяет гугл документ и умеет отдавать свежий json на github pages - ***+10***
-
-## Кто выполянет проверку задания?
-Ваш ментор.
-
-## Доп материалы
-https://www.youtube.com/watch?v=YljG0j-9Vko - видео с разбором задания (первый час). Второй час - небольшой лайфкодинг аналогичного задания.
+### How to do / send
+  - make nodejs script, which
+    - process data with help of library [node-xlsx](https://github.com/mgcrea/node-xlsx) from [data folder](https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW).
+    You may use any other library for reading excel files.
+    - uses files for processing - Tasks, Mentor score, Mentor-students pairs
+    (information about pairs mentor - student + mapping name / surname of mentor to his github account)
+    - fixes errors in data (wrong github account, incorrect pairs mentor-student).
+    It is up to you to decide what to fix with the script, and what to fix manually in the source files. If you change source files, make sure that you've added a note about it in readme.md
+    - connects (merges, joins) data from [google drive folder](https://drive.google.com/open?id=1ULj8KjnNNCgUdGunQ1TY00dNbCsqAsHW)
+      - about mentor's students
+      - about students' marks
+    - gets json file with needed data
+    - loads data on html page
+  - with help of React and React component draws dashboard, using resulting json
+  - build with webpack and deploy on github pages
+  - Pull Request should contain
+    - nodejs script, instruction how to use it
+    - resulting json
+    - js file with React component
+    - html page, which loads React, js file with React, json file with data, which renders React component
+  - post link to github page + PR [into form](https://docs.google.com/forms/d/e/1FAIpQLSctLqyRXrpdgC1vybGjGZoiYwZUUAf6_hSD-gPTZMORS_E1kQ/viewform)
 
 
+### Requirements for commits, PR, repository
+[Common requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
+
+### Assessment criteria:
+- Maximum score for the task - **140**
+- Generation of json file is implemented - **+25**
+- Loading json file on page and rendering list of mentor's students is implemented - **+10**
+- Loading json file on page and rendering list of mentor's tasks is implemented - **+10**
+- Loading json file on page and selecting mentor from "select mentor" field is implemented - **+10**
+- Loading selected mentor from localStorage is implemented - **+5**
+- Color indication is implemented **+10**
+- Requirements for commits, PR, repository are met **+5 баллов**
+- Tests cover the following functionality:
+  - merging data **+10**
+  - the resulting json is generated correctly **+10**
+  - fact of data rendering **+5**
+- Login and selecting mentor on github account is implemented **+30**
+- Up to **-50** points for not following [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md)
+- if you made server that checks Google document every few minutes and is able to return fresh json on github pages ***+10***
+
+## Who checks the task?
+Your mentor.
+
+## Additional materials
+https://www.youtube.com/watch?v=YljG0j-9Vko - video with task analysis (1st hour). 2nd hour - small lifecoding of the same task.
 
