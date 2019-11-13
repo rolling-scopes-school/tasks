@@ -3,7 +3,7 @@
 | 18.11.2019 23:59 | codejam-image-api | codejam-image-api |
 
 
-# Codejam Palette
+# Codejam image-api
 
 ## Задача
 
