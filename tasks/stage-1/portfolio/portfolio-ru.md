@@ -41,6 +41,10 @@
 5. При нажатии на кнопку "Back" - возвращаемся на основную страницу Portfolio.
 
 
+### Параметры оценок для менторов или самоконтроль
+
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-1/portfolio/portfolio-review.md
+
 #### ТЗ будет дорабатываться на предмет критериев оценки для менторов и учета замечаний.
 
 Успехов!
