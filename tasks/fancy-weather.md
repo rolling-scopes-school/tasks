@@ -110,6 +110,8 @@
 <details> 
   <summary>Материалы</summary>
   
+- **Документ с вопросами и ответами**
+  - https://docs.google.com/spreadsheets/d/18BviVQSPjlrkByibrf7dg1ZXhNID66PBhrblXyNMFy8/edit#gid=0
 - **Асинхронные запросы, fetch/async/await**
   - [Асинхронные запросы. Использование Fetch](https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch)
   - [Асинхронные функции (async/await)](https://youtu.be/5kAPExqSZ1I)
