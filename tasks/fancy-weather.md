@@ -75,7 +75,7 @@
   - html-элементы генерируются в js
   - js код разбит на модули
   - используется webpack
-  - используются editconfig, eslint, eslint-config-airbnb-base, babel  
+  - используются editorconfig, eslint, eslint-config-airbnb-base, babel  
     **Всего 120 баллов**
 
 ### Экстра-уровень
