@@ -178,3 +178,6 @@
   - через firebase -  https://firebase.google.com/docs/auth/web/github-auth
   - через сторонний виджет - ttps://github.com/netlify/netlify-identity-widget 
 * Темы: fetch api, async / await
+
+## FAQ
+https://docs.google.com/spreadsheets/d/1ynSLhQtwQrv5Nf48MoAd7XdeRNeqVh5H-306vEmyktI/edit

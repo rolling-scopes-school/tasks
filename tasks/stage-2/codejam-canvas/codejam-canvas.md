@@ -85,3 +85,6 @@ Maximum amount of points - **50**
 
 ## Who checks your task
 Your mentor
+
+## FAQ
+https://docs.google.com/spreadsheets/d/1b1L9Lr339MP0qLSlZ47IBLE93LW1gyTqJNEz08jmvaA/edit
