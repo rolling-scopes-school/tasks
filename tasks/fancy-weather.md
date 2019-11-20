@@ -180,8 +180,7 @@ OpenWeatherMap, Weatherbit, AccuWeather, Dark Sky, Weather2020 и др.
 - https://www.flickr.com/services/
     - регистрируемся на сайте
     - подтверждаем email (переходим по ссылке, которая пришла на почту)
-    - создаём приложение  
-    `https://www.flickr.com/services/apps/create/apply/`
+    - создаём приложение `https://www.flickr.com/services/apps/create/apply/`
     - получаем API Key
     - [API Docs](https://www.flickr.com/services/api/)
     - [The Flickr
