@@ -57,6 +57,9 @@
 `штрафы:`
 - ошибки или предупреждения eslint-config-airbnb-base: `-15`
 
+## FAQ
+https://www.youtube.com/watch?v=1wefQGlnPis&feature=youtu.be
+
 ## Материалы по теме:
 
 - [Demo](https://pulya10c.github.io/keyboard/)
