@@ -177,6 +177,17 @@ OpenWeatherMap, Weatherbit, AccuWeather, Dark Sky, Weather2020 и др.
     `https://api.unsplash.com/photos/random?orientation=landscape&per_page=1&query=nature&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17`
   - у данного сервиса есть лимит - 50 изображений в час
   - [API Docs](https://unsplash.com/documentation)
+- https://www.flickr.com/services/
+    - регистрируемся на сайте
+    - подтверждаем email (переходим по ссылке, которая пришла на почту)
+    - создаём приложение `https://www.flickr.com/services/apps/create/apply/`
+    - получаем API Key
+    - [API Docs](https://www.flickr.com/services/api/)
+    - [The Flickr
+Developer Guide](https://www.flickr.com/services/developer/api/)
+    - Still have questions? Check out [code.flickr.com](https://code.flickr.net/) or the [FAQs](https://help.flickr.com/)!
+    - демонстрационный пример работы с API Flickr [demo](https://flickr-api-test.netlify.com/)
+    _Внимание_ у Flickr огромный и не всегда очевидный в работе api, выбирая Flickr, будьте осторожны и терпеливы
 
 **4. Геолокакция**
 
