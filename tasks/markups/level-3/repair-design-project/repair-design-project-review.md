@@ -161,7 +161,7 @@ Fonts can be found here: [Google Fonts](https://fonts.google.com/)
 
 You can download desktop Figma application here: [Figma](https://www.figma.com/downloads/)
 
-## For menotrs only
+## For mentors only
 
 - [ ] Feedback on code style
 - [ ] Feedback on semantics
