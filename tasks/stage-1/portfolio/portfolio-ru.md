@@ -1,6 +1,6 @@
 | Deadline  | Project name |
 |-----------|--------------|
-| 20.10.2019 23:59 | portfolio |
+| 01.12.2019 23:59 | portfolio |
 
 # Homework: Portfolio
 
