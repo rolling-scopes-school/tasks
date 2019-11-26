@@ -70,5 +70,5 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 ## For menotrs only
 
 - [ ] Feedback on code style
-- [ ] Feedback on semantic of code
+- [ ] Feedback on semantics
 - [ ] Feedback on best practices
