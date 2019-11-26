@@ -56,11 +56,11 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - Text should correspond its color. Care of text font-family and font-size.
 - Only one `<h1>` on page.
 
-[ ] 1. Failure to submit on time may result in losing **up to 40 points** of the total homework score!
-[ ] 2. Failure to comply with the requirements of any task item may result in losing **3 to 10 points**.
-[ ] 3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.
-[ ] 4. Failure to comply with the FIG template (except for nuances with fonts) may result in losing **up to 40 points**.
-[ ] 5. Failure to match both desktop and mobile may result in losing **up to 50 points**.
+- [ ] 1. Failure to submit on time may result in losing **up to 40 points** of the total homework score!  
+- [ ] 2. Failure to comply with the requirements of any task item may result in losing **3 to 10 points**.  
+- [ ] 3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.  
+- [ ] 4. Failure to comply with the FIG template (except for nuances with fonts) may result in losing **up to 40 points**.  
+- [ ] 5. Failure to match both desktop and mobile may result in losing **up to 50 points**.  
 
 ## Terms of Reference
 
