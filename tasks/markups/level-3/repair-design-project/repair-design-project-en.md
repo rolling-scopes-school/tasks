@@ -1,7 +1,7 @@
 | Deadline  | Completeness | Project name |
 |-----------|--------------|--------------|
 | 1) 06.10.2019 23:59 | First draft | repair-design-project |
-| 2) 20.10.2019 23:59 | Final project | repair-design-project |
+| 2) 01.12.2019 23:59 | Final project | repair-design-project |
 
 
 # Homework: repair-design-project. Difficulty Level 3.
