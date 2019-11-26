@@ -66,3 +66,9 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - [ ] When you are on desktop, and click 'back', you should be navigated to original portfolio page.  
 - [ ] Only 1 button exists on mobile version.
 - [ ] When you are on mobile, and click 'back', you should be navigated to original portfolio page.  
+
+## For menotrs only
+
+- [ ] Feedback on code style
+- [ ] Feedback on semantic of code
+- [ ] Feedback on best practices
