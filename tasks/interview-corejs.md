@@ -21,6 +21,7 @@
    * Event loop.
    * Promises
    * spread/rest
+   * Any other questions on CoreJS/DOM/Event Loop/Inheritance/etc.
    
 ### Excluded topics
    * Iterators and generators
