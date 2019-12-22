@@ -122,24 +122,24 @@ Notes for Webpack usage:
 
 ### Score criteria:
 
-Basic (100)  + Normal (300) + Extra (130) + Impossible (70) - **+600**
+Basic (100)  + Normal (180) + Extra (160) + Impossible (30) - **+370**
 
 #### Basic scope 
 
-Max - **+85**
+Max - **+100**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
 - [ ] Custom canvas size (32x32 / 64x64 / 128x128) - **+10**
-- [ ] Tools (max - **+20**) 
+- [ ] Tools
   - [ ] Pen. Required size is 1 unit. (**+5**)
-  - [ ] Pen. Other unit sizes (2, 3, 4) .(**+5**)
+  - [ ] Pen. Other unit sizes (2, 3, 4) .(**+10**)
   - [ ] Color select (**+5**)
   - [ ] Paint bucket (**+5**)
-  - [ ] Eraser (**+5**)
+  - [ ] Eraser (**+10**)
   - [ ] Paint all pixels of the same color **+5**
   - [ ] Stroke (to draw straight lines) **+5**
 
 - Unit tests
-  - [ ] Setup Jest + cover couple functions with at least 2 tests (utilities / pure functions for example) **+10**
+  - [ ] Setup Jest + cover couple functions with at least 2 tests (utilities / pure functions for example) **+15**
 
 ### Normal scope 
 
@@ -186,7 +186,6 @@ Max - **+30**
 - [ ] **-30** big & spaghetti style modules
 - [ ] **-20** eslint is not configured or there is a lot of errors
 - [ ] **-20** magic number
-- [ ] **-50** mentor subjective other questions to code
 
 #### Useful links:
 
