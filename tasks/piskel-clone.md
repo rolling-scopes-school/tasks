@@ -19,6 +19,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
     - Stroke (to draw straight lines)
     - Rectangle  (*optional*)
     - Circle  (*optional*)
+- Please use Tools in https://www.piskelapp.com/ as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
 - Preview
     - Small animation preview window in the top right corner 
     - Full screen mode
@@ -26,6 +27,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
     - Ability to add/delete a frame
     - Ability to reorder a frame via Drag and Drop
     - Ability to duplicate a frame
+- Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
 - Export the final result 
     - to local file system in any format (.gif / .apng)
 - User session 
@@ -38,14 +40,18 @@ An overview of the features can be found in this playlist: https://www.youtube.c
    - Information about the author
 - Keyboard shortcuts 
   - All actions should be available via keyboard shortcuts
+    - tools
+    - export
+    - add / delete / create frame
+  - Keyboard shortcuts should be available on hover 
   - Modal window to change keyboard shortcuts
 
 ## Technical requirements:
 1) Browser support: latest version of Google **Chrome**.
 2) Usage of **JS/ES2015+** or **TypeScript**.
-3) You can use libraries and frameworks like React / Angular / Vue / jQuery /Bootstrap / Lodash / wrapper for file formats / API utilisation.
+3) You can use libraries and frameworks like React / Angular / Vue / jQuery / Bootstrap / Lodash / wrapper for file formats / API utilisation.
 4) Final version of the editor should be **available via a link**. The easiest way to do so is to host your project on GitHub pages / Google Firebase / Heroku / Netlify / any other hosting.
-5) Usage of Jest / any other tool for writing tests. You also need to setup test coverage output in the package.json. Your tests need cover the following code:
+5) Usage of Jest / any other tool for writing tests. You also need to setup test coverage output in the package.json by 'npm run coverage'. Your tests need cover the following code:
    1) Utilities, pure functions
    2) UI components
    3) Tools functionality (i.e. adding pixels, changing pixels, adding rectangle / circle)
@@ -66,14 +72,15 @@ You need to provide high level, feature base (what need to score) description.
 
 | Start time  | End time | time spent | feature |
 |-----------|-------------|-------------|-------------|
-| May 27 | Jun 6 | 30h | base structure of the project |
-| Jun 7 | Jun 7 | 10h | frame management implementation |
-| Jun 8 | Jun 10 | 8h | Lighten, Dithering tools implementation |
+| May 27 | Jun 6 | 3h | base structure of the project |
+| Jun 7 | Jun 7 | 12h | frame management implementation |
+| Jun 7 | Jun 7 | 12h | preview animation implementation |
+| Jun 8 | Jun 10 | 8h | keyboard shortcuts implementation |
 | Jun 11 | Jun 12 | 5h | layers implementation |
-| Jun 12 | Jun 12 | 10h | bug fixing in canvas implementation  
+| Jun 12 | Jun 12 | 10h | bug fixing |
 
 
-Total: 63h
+Total: 50h
 
 ### Requirements to the quality of code
 - Don't use nested SetTimeout, synchronization of code using timeouts etc. Use promises/async/await where it's possible.
@@ -97,7 +104,6 @@ Usage of webpack is mandatory! Components directories should include all the nee
     │   ├── loading
     │   ├── modal-dialog
     │   ├── frames-list
-    │   ├── layers-list
     ├── screens
     │   ├── canvas
     │   │   ├── images
@@ -120,71 +126,70 @@ Basic (100)  + Normal (300) + Extra (130) + Impossible (70) - **+600**
 
 #### Basic scope 
 
-Max - **+100**
-
-- [ ] Landing Page is presented: **+20 points.**
+Max - **+85**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
 - [ ] Custom canvas size (32x32 / 64x64 / 128x128) - **+10**
 - [ ] Tools (max - **+20**) 
-  - Pen. Required size is 1 unit. Other unit sizes (2, 3, 4) are optional.(**+5**)
-  - Color select (Primary/Secondary) (**+5**)
-  - Paint bucket  (**+5**)
-  - Eraser (**+5**)
-- [ ] Preview **+20**
-- [ ] Frame management **+10**
+  - [ ] Pen. Required size is 1 unit. (**+5**)
+  - [ ] Pen. Other unit sizes (2, 3, 4) .(**+5**)
+  - [ ] Color select (**+5**)
+  - [ ] Paint bucket (**+5**)
+  - [ ] Eraser (**+5**)
+  - [ ] Paint all pixels of the same color **+5**
+  - [ ] Stroke (to draw straight lines) **+5**
+
 - Unit tests
-  - [ ] Setup Jest + cover couple functions with tests (utilities / pure functions for example) **+10**
+  - [ ] Setup Jest + cover couple functions with at least 2 tests (utilities / pure functions for example) **+10**
 
 ### Normal scope 
 
-Max - **+300**
-- Tools (max - **+130**)
-  - [ ] Paint all pixels of the same color **+10**
-  - [ ] Stroke (to draw straight lines) **+10**
-  - [ ] Move **+10**
-  - [ ] Rectangle **+10**
-  - [ ] Circle **+10**
-- Layers (max - **+30**)
-  - [ ] Add / delete a layer **+20**
-  - [ ] Move the layer up / down **+10**
-- [ ] Show cursor coordinates / canvas size **+10**
-- Keyboard shotcuts (max - **+20**)
+Max - **+180**
+- [ ] Landing Page is presented: **+20 points.**
+- [ ] `Frames` functionality
+  - add frame - **+15**
+  - delete a frame - **+15**
+  - drag & drop (move) frame - **+20**
+  - duplicate frame - **+20**
+- [ ] `Preview` functionality
+  - Ability to animate the created frames  - **+20**
+  - Ability to change FPS rate from 1 to 24 per second - **20**
+  - Ability to run the animation in Full screen mode - **+10**
+- Keyboard shotcuts
   - [ ] All actions should be available via keyboard shortcuts **+10**
   - [ ] Modal window to change keyboard shortcuts **+10**
 - [ ] Save user session in localstorage **+10**
-- Unit tests (max - **110**)
-  - [ ] Achieve good coverage  **+1** for every percent of coverage (max - **+100**)
-  - [ ] Achieve 25% coverage **+10**
+- Unit tests
+  - [ ] write 20 unit tests for utils functions and ui components **+10**
 
 
 ### Extra (additional) scope
-Max - **+130**
-- [ ] Login with one of the oAuth providers from Google / Facebook / VK (**+20**)
-- Export the final result (max - **+100**)
-    - [ ] .piskel format to file system **+10**
-    - [ ] Own format to file system **+10**
+Max - **+160**
+- [ ] Login with one of the oAuth providers - Google / Facebook / VK / Twitter (**+20**)
+- Export the final result
     - [ ] As .apng to file system **+15**
     - [ ] As .gif to file system **+15**
-    - [ ] Upload GIF to giphy **+10**
-    - [ ] Upload any file to google drive **+30**
 - Unit tests
+  - [ ] Achieve good coverage  **+1** for every percent of coverage (max - **+100**)
   - [ ] Achieve at least 40% coverage (for utilitiess / pure functions) **+10**
 
 ### Impossible scope
 
-Max - **+10**
+Max - **+30**
 
 - Unit tests
-  - [ ] Achieve at least 60% coverage (for utilitiess / pure functions) **+10**
+  - [ ] Achieve at least 80% coverage (for utilitiess / pure functions & ui components) **+30**
 
 
 ### Fines
 - [ ] General stage 2 requirements violation or inappropriate quality of the code: **-50 points** and more depending on the decision of the mentor. 
 - [ ] **-30** if there is no a worklog.
-
+- [ ] **-30** big & spaghetti style modules
+- [ ] **-20** eslint is not configured or there is a lot of errors
+- [ ] **-20** magic number
+- [ ] **-50** mentor subjective other questions to code
 
 #### Useful links:
-1) http://www.williammalone.com/articles/html5-canvas-javascript-paint-bucket-tool/
+
 
 ### Lecture materials from @davojta analyzing the common mistakes appearing in the process 
 - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
