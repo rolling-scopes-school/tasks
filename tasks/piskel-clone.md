@@ -188,7 +188,7 @@ Max - **+30**
 - [ ] **-20** magic number
 
 #### Useful links:
-
+To be updated later 
 
 ### Lecture materials from @davojta analyzing the common mistakes appearing in the process 
 - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
