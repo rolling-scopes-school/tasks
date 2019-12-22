@@ -1,6 +1,6 @@
 | Deadline  | Folder name | Branch name |
 |-----------|-------------|-------------|
-| 23:59 30.06.2019 | piskel-clone | piskel-clone |
+| 23:59 08.01.2020 | simple-piskel-clone | simple-piskel-clone |
 
 # Piskel-clone
 
@@ -17,8 +17,6 @@ An overview of the features can be found in this playlist: https://www.youtube.c
     - Paint bucket 
     - Eraser
     - Stroke (to draw straight lines)
-    - Rectangle  (*optional*)
-    - Circle  (*optional*)
 - Please use Tools in https://www.piskelapp.com/ as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
 - Preview
     - Small animation preview window in the top right corner 
