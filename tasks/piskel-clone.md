@@ -120,7 +120,7 @@ Notes for Webpack usage:
 
 ### Score criteria:
 
-Basic (100)  + Normal (180) + Extra (160) + Impossible (30) - **+370**
+Basic (100)  + Normal (180) + Extra (160) + Impossible (30) - **+470**
 
 #### Basic scope 
 
