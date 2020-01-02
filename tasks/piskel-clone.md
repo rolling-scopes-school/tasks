@@ -14,9 +14,10 @@ An overview of the features can be found in this playlist: https://www.youtube.c
 - Tools
     - Pen. Required size is 1 unit. Other unit sizes (2, 3, 4) are optional.
     - Color select (Primary/Secondary)
-    - Paint bucket 
+    - Paint bucket should fill closed areas (flood fill)
     - Eraser
     - Stroke (to draw straight lines)
+    - Paint all pixels of the same color
 - Please use Tools in https://www.piskelapp.com/ as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
 - Preview
     - Small animation preview window in the top right corner 
@@ -112,7 +113,7 @@ Usage of webpack is mandatory! Components directories should include all the nee
     │   ├── export
     ├── app.js                   # main entry point.
     webpack.config.js
-    README.md
+    README.md                    # links to landing page
 
 Notes for Webpack usage: 
 - There is no point in putting your code inside an Immediately-invoked Function Expression.
@@ -120,17 +121,17 @@ Notes for Webpack usage:
 
 ### Score criteria:
 
-Basic (100)  + Normal (180) + Extra (160) + Impossible (30) - **+470**
+Basic (80)  + Normal (180) + Extra (160) + Impossible (30) - **+450**
 
 #### Basic scope 
 
-Max - **+100**
+Max - **+80**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
 - [ ] Custom canvas size (32x32 / 64x64 / 128x128) - **+10**
 - [ ] Tools
   - [ ] Pen. Required size is 1 unit. (**+5**)
   - [ ] Pen. Other unit sizes (2, 3, 4) .(**+10**)
-  - [ ] Color select (**+5**)
+  - [ ] Color select (color picker) (**+5**)
   - [ ] Paint bucket (**+5**)
   - [ ] Eraser (**+10**)
   - [ ] Paint all pixels of the same color **+5**
@@ -142,7 +143,7 @@ Max - **+100**
 ### Normal scope 
 
 Max - **+180**
-- [ ] Landing Page is presented: **+20 points.**
+- [ ] Landing Page is presented will all needed information: **+20 points.**
 - [ ] `Frames` functionality
   - add frame - **+15**
   - delete a frame - **+15**
@@ -168,6 +169,7 @@ Max - **+160**
     - [ ] As .gif to file system **+15**
 - Unit tests
   - [ ] Achieve good coverage  **+1** for every percent of coverage (max - **+100**)
+    - it needs to measure number of covered lines for all js app files in the project
   - [ ] Achieve at least 40% coverage (for utilitiess / pure functions) **+10**
 
 ### Impossible scope
@@ -180,8 +182,9 @@ Max - **+30**
 
 ### Fines
 - [ ] General stage 2 requirements violation or inappropriate quality of the code: **-50 points** and more depending on the decision of the mentor. 
+- [ ] **-10** very bad / ugly design of landing page / app itself
 - [ ] **-30** if there is no a worklog.
-- [ ] **-30** big & spaghetti style modules
+- [ ] **-30** big & "spaghetti style" modules
 - [ ] **-20** eslint is not configured or there is a lot of errors
 - [ ] **-20** magic number
 
@@ -200,14 +203,12 @@ Max - **+30**
   - http://fabricjs.com/
 - previous videos
   - animation player bootstrap - https://www.youtube.com/watch?v=KpvMSDQGmpY
+- full screen - http://qnimate.com/full-screen-api-tutorial-with-demo/
+- refactorings
+  - [magic number](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))  
 - unit tests
-```
-Cl3r1k (@Cl3r1k): Кстати, может кому-то пригодится script для генерации отчетов покрытия для jest
 
-"coverage:full": "jest --coverage --coverage-reporters=lcov"
-
-И не забудьте добавить папку /coverage в файл .gitignore
-```
+  - [full coverage](https://github.com/davojta/2019q1-base-project-bootstrap/commit/1c5a7d801d1475ddec7d2d18c3a265923dd12b73)
 
 ### Lecture materials from @davojta analyzing the common mistakes appearing in the process 
 - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
