@@ -186,7 +186,28 @@ Max - **+30**
 - [ ] **-20** magic number
 
 #### Useful links:
-To be updated later 
+- piskel app source files - https://github.com/piskelapp/piskel (for information!)
+- some canvas tricks
+  - https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage
+- animation
+  - https://developer.mozilla.org/ru/docs/DOM/window.requestAnimationFrame
+  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
+  - https://learn.javascript.ru/js-animation
+  - https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe ( thanks @fomenkogregory)
+- login
+  - google - https://firebase.google.com/docs/auth/web/google-signin#handle_the_sign-in_flow_with_the_firebase_sdk
+- canvas libs
+  - http://fabricjs.com/
+- previous videos
+  - animation player bootstrap - https://www.youtube.com/watch?v=KpvMSDQGmpY
+- unit tests
+```
+Cl3r1k (@Cl3r1k): Кстати, может кому-то пригодится script для генерации отчетов покрытия для jest
+
+"coverage:full": "jest --coverage --coverage-reporters=lcov"
+
+И не забудьте добавить папку /coverage в файл .gitignore
+```
 
 ### Lecture materials from @davojta analyzing the common mistakes appearing in the process 
 - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
