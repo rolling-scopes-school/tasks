@@ -17,13 +17,13 @@
 
 Онлайн-версия - https://www.figma.com/proto/0vp10ujmM0Vy3dhxThCBC5/codejam-image-api?node-id=0%3A1&scaling=min-zoom
 
-## Требования к функционалу приложения  
+## Требования к функционалу приложения
 
-* Инструмент карандаш должен работать и рисовать поверх изображения. 
+* Инструмент карандаш должен работать и рисовать поверх изображения.
 * При загрузке на канвас изображение должно размещаться в центе канваса сохранять свои пропорции и занимать всю площадь канваса
   * если изображение не квадратное, часть области канваса остаётся пустой
 * для обычной сложности размер виртуального поля канваса - 128х128, размер самого канваса - 512px, размер виртуального пикселя - 4px (512px = 128*4px)
-* Есть возможность изменить размер поля канваса: 128x128 или 256x256, или 512 x 512. 
+* Есть возможность изменить размер поля канваса: 128x128 или 256x256, или 512 x 512.
 
 Что нужно добавить к макету предыдущих заданий
 * Кнопку загрузки случайного изображения для выбранного вами города
@@ -35,35 +35,35 @@
 
 
 ### Кнопка загрузки изображения
-Для выполнения задания необходимо загрузить на канвас изображение с сайта https://source.unsplash.com/ 
+Для выполнения задания необходимо загрузить на канвас изображение с сайта https://source.unsplash.com/
 Должно быть использовано апи - https://unsplash.com/documentation#search-photos
 
 **Как получить изображение с сайта unsplash.com**
 
 Последовательность действий приведена как пример, ее можно изменять или использовать свою.
-  
-  1. регистрируемся на сайте https://unsplash.com/developers кнопка **Register as a developer** 
+
+  1. регистрируемся на сайте https://unsplash.com/developers кнопка **Register as a developer**
   2. подтверждаем  email (переходим по ссылке, которая пришла на почту)
   3. создаём приложение https://unsplash.com/oauth/applications
   4. получаем Access Key
-  5. получаем результат по ссылке   
+  5. получаем результат по ссылке
 
-```https://api.unsplash.com/photos/random?query=town,Minsk&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17```   
+```https://api.unsplash.com/photos/random?query=town,Minsk&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17```
 
-  Здесь   
+  Здесь
 
-   * `town,Minsk` - ключевые слова для поиска  
-   * `e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17` - Access Key (у вас будет другой)  
+   * `town,Minsk` - ключевые слова для поиска
+   * `e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17` - Access Key (у вас будет другой)
 
   6. JS-код для получения ссылки на изображение (ссылка выводится в консоль)
-  
+
   ```
   function getLinkToImage() {
   const url = 'https://api.unsplash.com/photos/random?query=town,Minsk&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17';
   fetch(url)
     .then(res => res.json())
-    .then(data => { 
-      console.log(data.urls.small)   
+    .then(data => {
+      console.log(data.urls.small)
     });
 }
 ```
@@ -128,7 +128,7 @@
 
 ## Требования к коммитам, PR и репозиторию
 
-[Общие требования из stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+[Общие требования из stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
 
 ## Оценка
 
@@ -152,7 +152,7 @@
 Итого: **20**
 
 ### Задание супер повышенной сложности
-- [ ] **+10** - реализована авторизация в приложении через github 
+- [ ] **+10** - реализована авторизация в приложении через github
   - любым способом - можно использовать сторонние библиотеки
 
 Итого: **10**
@@ -173,10 +173,10 @@
 - репозиторий с вебпак - https://github.com/abyss-soft/webpack
 - настройка вебпак - https://webpack.js.org/guides/getting-started/
 - authenticated on netlify with GitHub https://docs.netlify.com/visitor-access/oauth-provider-tokens/#setup-and-settings
-- вход на сайт с помощью GitHub. 
+- вход на сайт с помощью GitHub.
   - OAuth - https://heap.tech/lore/id26
   - через firebase -  https://firebase.google.com/docs/auth/web/github-auth
-  - через сторонний виджет - ttps://github.com/netlify/netlify-identity-widget 
+  - через сторонний виджет - ttps://github.com/netlify/netlify-identity-widget
 * Темы: fetch api, async / await
 
 ## FAQ

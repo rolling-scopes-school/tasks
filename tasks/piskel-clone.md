@@ -20,16 +20,16 @@ An overview of the features can be found in this playlist: https://www.youtube.c
     - Paint all pixels of the same color
 - Please use Tools in https://www.piskelapp.com/ as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
 - Preview
-    - Small animation preview window in the top right corner 
+    - Small animation preview window in the top right corner
     - Full screen mode
 - Frames
     - Ability to add/delete a frame
     - Ability to reorder a frame via Drag and Drop
     - Ability to duplicate a frame
 - Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
-- Export the final result 
+- Export the final result
     - to local file system in any format (.gif / .apng)
-- User session 
+- User session
   - Current session should be saved and be accessible when user opens up the page again.
 - Landing page. This page should include the following information:
    - Screenshots
@@ -37,12 +37,12 @@ An overview of the features can be found in this playlist: https://www.youtube.c
    - Implemented functionality overview
    - Link to the editor itself
    - Information about the author
-- Keyboard shortcuts 
+- Keyboard shortcuts
   - All actions should be available via keyboard shortcuts
     - tools
     - export
     - add / delete / create frame
-  - Keyboard shortcuts should be available on hover 
+  - Keyboard shortcuts should be available on hover
   - Modal window to change keyboard shortcuts
 
 ## Technical requirements:
@@ -57,7 +57,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
 6) Have to use browser's Canvas API to draw frames.
 
 ### Requirements to the commits, PR, repository
-* [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
+* [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
 * worklog of the project
 
 #### Worklog
@@ -66,7 +66,7 @@ To show process of development it needs to describe small amount of time and wha
 
 ##### Example
 
-You need to provide high level, feature base (what need to score) description. 
+You need to provide high level, feature base (what need to score) description.
 
 
 | Start time  | End time | time spent | feature |
@@ -83,23 +83,23 @@ Total: 50h
 
 ### Requirements to the quality of code
 - Don't use nested SetTimeout, synchronization of code using timeouts etc. Use promises/async/await where it's possible.
-- Don't use magic number instead of named constants.  
-  For example, instead of  
-  `if (event.keyCode === 32 || event.keyCode === 13) {….}`  
-  use  
+- Don't use magic number instead of named constants.
+  For example, instead of
+  `if (event.keyCode === 32 || event.keyCode === 13) {….}`
+  use
   `if (event.keyCode === KeyboardEvent.SPACE || key === KeyboardEvent.ENTER ) {….}` etc.
 - Don't use functions that have more than 40 lines of code (excluding variable declarations).
 - Minimal use of ternary operators.
-- Use pure functions where it's possible. If you haven't heard this term before, you can start your acquaintance [here](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) or [here](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976) 
+- Use pure functions where it's possible. If you haven't heard this term before, you can start your acquaintance [here](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) or [here](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 - Use meaningful names for variables. Avoid single characters for variable names (i, n, j, d, etc.), abstract or common names (obj, arr, num, item1, etc.)
-- Use the eslint with airbnb for all js code 
+- Use the eslint with airbnb for all js code
 
 ### Project structure. Organization of files and folders (example):
 Usage of webpack is mandatory! Components directories should include all the needed resources and styles. For example, by removing folder `modal-dialog` all styles related to this dialog will be removed as well.
-    
+
     dist
     src
-    ├── components                
+    ├── components
     │   ├── loading
     │   ├── modal-dialog
     │   ├── frames-list
@@ -115,7 +115,7 @@ Usage of webpack is mandatory! Components directories should include all the nee
     webpack.config.js
     README.md                    # links to landing page
 
-Notes for Webpack usage: 
+Notes for Webpack usage:
 - There is no point in putting your code inside an Immediately-invoked Function Expression.
 - There is no point in applying 'use strict' mode.
 
@@ -123,7 +123,7 @@ Notes for Webpack usage:
 
 Basic (80)  + Normal (180) + Extra (160) + Impossible (30) - **+450**
 
-#### Basic scope 
+#### Basic scope
 
 Max - **+80**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
@@ -140,7 +140,7 @@ Max - **+80**
 - Unit tests
   - [ ] Setup Jest + cover couple functions with at least 2 tests (utilities / pure functions for example) **+15**
 
-### Normal scope 
+### Normal scope
 
 Max - **+180**
 - [ ] Landing Page is presented will all needed information: **+20 points.**
@@ -181,7 +181,7 @@ Max - **+30**
 
 
 ### Fines
-- [ ] General stage 2 requirements violation or inappropriate quality of the code: **-50 points** and more depending on the decision of the mentor. 
+- [ ] General stage 2 requirements violation or inappropriate quality of the code: **-50 points** and more depending on the decision of the mentor.
 - [ ] **-10** very bad / ugly design of landing page / app itself
 - [ ] **-30** if there is no a worklog.
 - [ ] **-30** big & "spaghetti style" modules
@@ -205,10 +205,10 @@ Max - **+30**
   - animation player bootstrap - https://www.youtube.com/watch?v=KpvMSDQGmpY
 - full screen - http://qnimate.com/full-screen-api-tutorial-with-demo/
 - refactorings
-  - [magic number](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))  
+  - [magic number](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 - unit tests
 
   - [full coverage](https://github.com/davojta/2019q1-base-project-bootstrap/commit/1c5a7d801d1475ddec7d2d18c3a265923dd12b73)
 
-### Lecture materials from @davojta analyzing the common mistakes appearing in the process 
+### Lecture materials from @davojta analyzing the common mistakes appearing in the process
 - https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md

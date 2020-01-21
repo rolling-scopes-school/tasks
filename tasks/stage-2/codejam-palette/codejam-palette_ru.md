@@ -121,7 +121,7 @@ Canvas должен отображать матрицу 4 * 4 на элемен�
 
 ## Требования к коммитам, PR и репозиторию
 
-[Общие требования из stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+[Общие требования из stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
 
 ## Оценка
 

@@ -41,11 +41,11 @@ The general behaviour of the tool:
 
 #### Fill bucket tool
 
-The fill bucket tool should color the whole canvas into the current selected color on click. 
+The fill bucket tool should color the whole canvas into the current selected color on click.
 
 To earn additional score, you as developer need to implement fill by current color inside closed area.
 
-![Example from Sonic](https://cdn.discordapp.com/attachments/642271813870551040/642438943832539197/unknown.png). 
+![Example from Sonic](https://cdn.discordapp.com/attachments/642271813870551040/642438943832539197/unknown.png).
 
 Left bottom area only should be filled.
 
@@ -76,10 +76,10 @@ The user should have possibility to refresh the page and be able to see previous
 ### Non functional requirements
 
 #### eslint
-`eslint` should be configured 
+`eslint` should be configured
 
-- `eslint` included in `package.json`, 
-- you should use `eslint-config-airbnb-base` config 
+- `eslint` included in `package.json`,
+- you should use `eslint-config-airbnb-base` config
 - all code should be checked
 - eslint check is run by `npm run lint`
 
@@ -87,38 +87,38 @@ The user should have possibility to refresh the page and be able to see previous
 - Should work in Chrome
 - Usage of material design or bootstrap is allowed
 - You CANNOT use any of the frameworks like Angular / React / Vue
-- You can use preprocessors 
+- You can use preprocessors
 - You can communicate, chat, google and use stackoverflow
 - You can use lodash.js
 
-    
+
 ### How to deliver
-The js and css files should be in the folder named "palette" (codejam-palette is also okey). You can organise the code inside the folder as you want.   
+The js and css files should be in the folder named "palette" (codejam-palette is also okey). You can organise the code inside the folder as you want.
 
 - create a git branch
 - create a folder
 - Create an html file with a basic layout and css styles for it in the folder. Or just copy your html from codejam-canvas.
-- Implement basic functionality to manipulate the canvas    
+- Implement basic functionality to manipulate the canvas
     - initialise the canvas
-    - fill 
-- Set the current color to green 
+    - fill
+- Set the current color to green
 - Add the fill bucket tool
-- Add the pencil bucket tool  
-- Implement the color picker tool 
-- Commit your code as you implement the features, i.e: 
+- Add the pencil bucket tool
+- Implement the color picker tool
+- Commit your code as you implement the features, i.e:
     1. empty html file
-    2. basic layout with css 
-    3. layout for canvas 
+    2. basic layout with css
+    3. layout for canvas
     4. and so on
 - If you have time, start working on extra scope
 - Refactor and change the code till deadline
 
 The mentor can leave a comments during the review, and you as a student can fix the problems achieve more bigger score.
 
-    
+
 ## Requirements for commits, PR, repository
 
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
 
 ## Evaluation
 

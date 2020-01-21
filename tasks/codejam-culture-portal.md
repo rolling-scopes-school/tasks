@@ -1,6 +1,6 @@
 | Deadline  |Repo
 |-----------|-------------|
-| 23:59 04.08.2019 | created by students themselves | 
+| 23:59 04.08.2019 | created by students themselves |
 
 # CodeJam-Culture-Portal
 
@@ -10,10 +10,10 @@ Working in groups, you have to develop a web portal about culture of Belarus on 
 The goal is to make content project quickly using available simple tools, distriburing work and helping each other.
 
 ## Getting the assignment and group
-You can find your group and contacts here:  
-https://docs.google.com/spreadsheets/d/1aC3ldXQGqdK2pI17IBV0hfUlxPOcw_sPoPQV9limrME/edit#gid=1346428228 
+You can find your group and contacts here:
+https://docs.google.com/spreadsheets/d/1aC3ldXQGqdK2pI17IBV0hfUlxPOcw_sPoPQV9limrME/edit#gid=1346428228
 
-## Topics  
+## Topics
 - [Architects of Belarus](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%8B_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8) for groups 1, 7, 13, 19, 25, 31, 37, 43;
 - [Writers of Belarus](https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%9F%D1%96%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D1%96%D0%BA%D1%96_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%96) for groups 2,8,14,20,26,32,38,44
 - [Poets of Belarus](https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%9F%D0%B0%D1%8D%D1%82%D1%8B_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%96) делают группы 3,9,15,21,27,33,39,45
@@ -39,7 +39,7 @@ To show process of development it needs to describe small amount of time and wha
 
 #### Example
 
-You need to provide high level, feature base (what need to score) description. 
+You need to provide high level, feature base (what need to score) description.
 
 *davojta*
 
@@ -76,7 +76,7 @@ The portal must contain the following components / functional parts / blocks:
   * his/her picture
   * biography in the form of timeline (example [here](https://reactjsexample.com/a-vertical-timeline-component-for-react/))
   * list of artist's works with the date of creation
-  * photo gallery with author's picture and pictures of his/her works 
+  * photo gallery with author's picture and pictures of his/her works
   * youtube video about the author / works / period of time author lived. Video must open in a new overlay (modal)
   * place of author's major activity on a map: google / openstreetmap (leaflet) / yandex
   * it's fine if **not** every element (timeline, video, photo gallery, map) will be present on every page
@@ -116,9 +116,9 @@ Team member with the lowest rating in the group that takes part in the task has 
 - author's page with photo gallery, timeline and video;
 - 1-3 difficulties occurred during teamwork;
 
-Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka and Dzmitry Varabei as examinators. 
+Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka and Dzmitry Varabei as examinators.
 ## Requirements for commits, PR, repository
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
 
 ## Evaluation
 
@@ -138,7 +138,7 @@ Maximum points - **240**
 - [ ] **10** Author's page contains map (geowidget);
 - [ ] **from 10 to 40** Project is made using react (max 40 - if all widgets are done in React);
 - [ ] **from 0 to 20** Design;
-- [ ] **20** material-ui / bootstrap is used 
+- [ ] **20** material-ui / bootstrap is used
 
 ### Extra scope - **70**
 - [ ] **10** Confidence of the project presentation;
@@ -147,9 +147,9 @@ Maximum points - **240**
 - [ ] **10** Portal has third language;
 
 ### Fines
-- **-100** if there are less than 5 commits from each active team member. Everyone should merge their own PRs. 
+- **-100** if there are less than 5 commits from each active team member. Everyone should merge their own PRs.
 - up to **-50** points for violations
-[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
+[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
 - **-40** if there is no worklog for team
 - **-20** too primitive (ugly for 2019) design / UX
 
@@ -160,7 +160,7 @@ Maximum points - **240**
 
 ## answers to the questions
 * https://drive.google.com/open?id=1nBMuIWEZ3-pJIlABGWkH-wgJLdj8OP7t - xmind with answers
-* https://www.youtube.com/watch?v=mstHfkOk4zQ&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=14&t=0s - стрим набора 2018q3 с ответами на вопросы 
+* https://www.youtube.com/watch?v=mstHfkOk4zQ&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=14&t=0s - стрим набора 2018q3 с ответами на вопросы
 
 
 ## Who review the tasks?
