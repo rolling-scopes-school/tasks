@@ -98,7 +98,7 @@
 ## Материалы
 
 ### Demo
-[](https://birds-quiz.netlify.com/)(версия без Extra scope)
+https://birds-quiz.netlify.com/ (версия без Extra scope)
 
 ### Информационные ресурсы
 - голоса птиц - https://www.xeno-canto.org/
