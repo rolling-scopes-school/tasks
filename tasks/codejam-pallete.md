@@ -42,7 +42,7 @@ The behaviour should be as follows:
 ### Colors
 
 The colors component contains current, previous and predefined colors to use with the paint bucket tool.
- 
+
 
 ### Canvas
 
@@ -55,26 +55,26 @@ Any of the canvas figures can be changed by the tools from the palette component
     - Usage of jQuery is allowerd, except for jQuery widgets
     - Usage of material design / bootstrap is allowed
     - You CANNOT use any of the frameworks like Angular / React / Vue
-    - You can use preprocessors 
+    - You can use preprocessors
     - You can communicate, chat, google and use stackoverflow
-    
+
 ### How to deliver
     - Create an html file with a basic layout (menu, palette, canvas) and css styles for it
-    - Add the tools and a circle state for the figure from canvas 
-    - Set the current color to green 
-    - Implement the bucket tool (clicking on a figure will change its color) 
-    - Implement the color picker tool 
-    - Commit your code as you implement the features, i.e: 
+    - Add the tools and a circle state for the figure from canvas
+    - Set the current color to green
+    - Implement the bucket tool (clicking on a figure will change its color)
+    - Implement the color picker tool
+    - Commit your code as you implement the features, i.e:
         1. empty html file
-        2. basic layout with css 
-        3. layout for canvas 
+        2. basic layout with css
+        3. layout for canvas
         4. and so on
     - Refactor and change the code till deadline
-    
-    
+
+
 ## Requirements for commits, PR, repository
 
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md).
+[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
 
 
 ### Evaluation
@@ -89,14 +89,14 @@ Maximum points - **140**
 - transform tool - **10**
 - color picker tool - **+20**
 
-*To mentor*: detect color by background color in predefined color area and inside canvas is enough  
+*To mentor*: detect color by background color in predefined color area and inside canvas is enough
 
 - move tool - **+20**
 
-*To mentor*: if a student has implemented drag and drop (swap) it will be enought for that point also 
+*To mentor*: if a student has implemented drag and drop (swap) it will be enought for that point also
 
 - keyboard controls - it is possible to choose the tool with keyboard shortcuts - **+10**
-- the `eslint` package is included in `package.json`, is setup with `eslint-config-airbnb-base` and all js code is validated - **+10** 
+- the `eslint` package is included in `package.json`, is setup with `eslint-config-airbnb-base` and all js code is validated - **+10**
 
 #### Extra scope (basic + normal are included)
 - local storage: save current app state to restore it after the page reload - **+20**
