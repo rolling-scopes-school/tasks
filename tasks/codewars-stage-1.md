@@ -25,7 +25,7 @@
   18. 7 kyu https://www.codewars.com/kata/easy-mathematical-callback
 
 ### Object
-  19. 7 kyu https://www.codewars.com/kata/count-characters-in-your-string
+  19. 6 kyu https://www.codewars.com/kata/count-characters-in-your-string
 
 ### Regular expression 
   20. 8 kyu https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
