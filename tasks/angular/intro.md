@@ -5,7 +5,7 @@
 # YouTube client app
 During the Angular course, you are to implement the YouTube client app. You can refer to the [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-For further implementation create a new private repository named *youtube-client* on **your** GitHub account
+For further implementation create a new private repository named *youtube-client* on **your** GitHub account.
 Please add the following trainers to the collaborators list:
 - https://github.com/pavelrazuvalau
 - https://github.com/Pulya10c
@@ -13,7 +13,7 @@ Please add the following trainers to the collaborators list:
 ## Angular. Intro task
 
 ### Getting started
-- Install @angular/cli package. It's highly recommended to use *SCSS* as the default stylesheet
+- Install *@angular/cli* package. It's highly recommended to use *SCSS* as the default stylesheet
 - Use ng-cli to create a new project
 - Explore the generated project structure
 
