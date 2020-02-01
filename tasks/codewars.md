@@ -43,7 +43,7 @@ Codewars:
   
   ### Scoring criteria
 *  1 point for 8 kyu and 7 kyu tasks (14 tasks at all)
-*  4 points - 6 kyu (14 at all)
+*  4 points - 6 kyu (11 at all)
 *  5 points - 5 kyu (7 at all)
 
 Total: 1 * 14 + 4 * 11 + 5 * 7  = 93

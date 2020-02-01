@@ -1,34 +1,36 @@
 # "HTML, CSS & Git Basics"
 
-## Задание
-Вам необходимо создать index.html страницу и стили к ней.
-В основе содержания этой страницы будет Markdown документ из прошлого задания [Git & Markdown](git-markdown.md)
+## Task
+You need to create `index.html` page and styles for it.
+Main content of this page is Markdown document from last task [Git & Markdown](git-markdown.md)
 
-В дополнение к тексту вам необходимо вствить вашу фотографию (можно рисунок). 
+In addition to the text you need to add your photo or picture.
 
-Страница должна быть размещена на GitHub Pages и доступна по адресу вида - https://your-github-account.github.io/rsschool-cv/
+Page should be deployed on Github Pages and accessible via url of the following format - 
+https://your-github-account.github.io/rsschool-cv/
 
-### Требования к html/css разметке
-- По возможности семантическая разметка
-- Следование гайдлайну http://codeguide.academy/html-css.html
-- Весь контент должен находится в блоке шириной **не более 1024px, центрированном по середине страницы**.
-- Страница должна корректно отображаться в Google Chrome последней версии.
+### Requirements for html/css markup
+- Use semantic markup (where possible)
+- It should follow guidelines: http://codeguide.academy/html-css.html
+- All content should be in the horizontally centered block with width **not more than 1024px**
+- Page should be rendered correctly in the last version of Google Chrome.
 
-### Требования к репозиторию: 
-1. Вы продолжаете работать в репозитории  `rsschool-cv` на вашем GitHub аккаунте.
-2. Страницу и стили к ней вам необходимо создать в бранче `rsschool-cv-html`, созданном на основе бранча `gh-pages`.
-3. После выполнения задания вам необходимо создать Pull Request `rsschool-cv-html`->`gh-pages` и вмержить его не удаляя бранч `rsschool-cv-html` 
+### Requirements for repository: 
+1. You keep working in the repository `rsschool-cv` in your Github account
+2. You need to create page and styles for it in the branch `rsschool-cv-html`,
+which is based on the branch `gh-pages`
+3. You need to create Pull Request `rsschool-cv-html`->`gh-pages` and merge it without removal of branch `rsschool-cv-html` after completing the task
 
-### Требования к коммитам
+### Requirements for commits
 https://docs.rs.school/#/git-convention
 
-### Требования к оформлению PR (Pull Request)
-1. PR name should contains **the task name** and probably additional info.
+### Requirements for PR (Pull Request)
+1. PR name should contain **the task name** and probably additional info.
 2. Changes **must not contain commented code, unnecessary files, changes from other branches and generated files** like *.bundle.js. Please review your changes before contributing. .editorconfig, .gitignore, etc. can be included.
 3. Comments in the PR are good practice.
 4. [How to write the perfect Pull Request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
-### Критерии оценки
-- +25 баллов, если требования к заданию выполены
-- +25 баллов, если требования к html/css разметке выполены
-- +50 баллов, если требования к репозиторию, коммитам и PR выполены
+### Assessment criteria
+- +25 points if all the task requirements are fulfilled
+- +25 points if html/css markup requirements are fulfilled
+- +50 points if repository, commits, and PR requirements are fulfilled

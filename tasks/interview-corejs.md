@@ -21,6 +21,7 @@
    * Event loop.
    * Promises
    * spread/rest
+   * Any other questions on CoreJS/DOM/Event Loop/Inheritance/etc.
    
 ### Excluded topics
    * Iterators and generators
@@ -33,7 +34,7 @@
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
 
-### The interview should be passed before 16 June 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
+### The interview should be passed before 22 December 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 
 ### Полезные ссылки
 - This\bind\call\apply https://habrahabr.ru/post/149516/
