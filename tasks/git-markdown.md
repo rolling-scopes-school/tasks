@@ -48,3 +48,25 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 ### Criteria
 - +50 points if the requirements for the task are met
 - +50 points if repository, commit and PR requirements are met
+
+### FAQ
+1. Вопрос: Я получил(а) 0  
+Ответ: Отсутствует страница с вашим CV по адресу: https://{ваш гитхаб аккаунт}.github.io/rsschool-cv/cv
+
+2. Вопрос: Я получил(а) 50 и статус "Failed repository requirements: ...."  
+Ответ: В вашем аккаунте нету репозитория "rsschool-cv" с бранчем "gh-pages", в котором есть требуемый файл "cv.md"
+Или в бранче "master" нету "README.md" файла.
+
+3. Вопрос: Я получил(а) 50 и статус "Failed commit requirements: ...."  
+Ответ: В вашем "gh-pages" бранче меньше 3 коммитов или не все коммиты следуют требованиям: https://docs.rs.school/#/git-convention
+Коммиты, которые не следуют требованиям будут перечислены в статусе.
+Вы сами можете проверить свои коммиты вот тут: https://github.com/%7Bваш гитхаб аккаунт}/rsschool-cv/commits/gh-pages
+"Merge ..." или "Initial commit" коммиты игнорировались.
+
+4. Вопрос: Я получил(а) 50 и статус "Failed PR requirements:...."  
+Основаная причина скорее всего в том, что вы не создали Pull Request из gh-pages в master или в названии PR нету названия задания ("Markdown & Git")
+Увидеть свои PR можно вот тут: https://github.com/%7Bваш гитхаб аккаунт}/rsschool-cv/pulls?utf8=%E2%9C%93&q=is%3Apr
+
+Если после этого, вы по-прежнему считаете, что оценка выставлена неверно (все ошибаются и даже роботы), просьба привести ваши аргументы с максимальным количеством деталей в комментариях к этому issue
+https://github.com/rolling-scopes-school/support/issues/1
+
