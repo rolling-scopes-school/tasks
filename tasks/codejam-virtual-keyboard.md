@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=1wefQGlnPis&feature=youtu.be
 
 ## Материалы по теме:
 
-- [Demo](https://pulya10c.github.io/keyboard/)
+- [Demo](https://wonderful-swartz-d8b98d.netlify.com/)
 - [DOM](http://learn.javascript.ru/document)
 - [Video DOM](https://www.youtube.com/watch?v=TewWd-6ZrmE)
 - [Event](http://learn.javascript.ru/event-details)
@@ -72,3 +72,4 @@ https://www.youtube.com/watch?v=1wefQGlnPis&feature=youtu.be
 - [Keycode](https://keycode.info)
 - [Клавиатура](https://learn.javascript.ru/keyboard-events)
 - [eslint (eslint-config-airbnb-base)](https://eslint.org/)
+
