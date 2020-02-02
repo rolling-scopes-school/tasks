@@ -66,4 +66,38 @@ Fines
 - [ ] The app doesn't work or has console errors (**-20**)
 
 ### Useful links
+https://angular.io/tutorial
 
+https://angular.io/tutorial/toh-pt1
+
+https://angular.io/tutorial/toh-pt2
+
+https://angular.io/tutorial/toh-pt3
+
+https://angular.io/guide/architecture-components
+
+https://angular.io/guide/displaying-data
+
+https://angular.io/guide/template-syntax
+
+https://angular.io/guide/lifecycle-hooks
+
+https://angular.io/guide/component-interaction
+
+https://angular.io/guide/cheatsheet
+
+https://angular.io/guide/attribute-directives
+
+https://angular.io/guide/structural-directives
+
+https://angular.io/guide/pipes
+
+https://angular.io/api/common
+
+https://angular.io/api/core/Directive
+
+https://angular.io/api/core/Pipe
+
+https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components
+
+https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes
