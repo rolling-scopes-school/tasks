@@ -69,6 +69,7 @@ Calculator
 - Usage of React or React + TypeScript.
 - Don’t use create-react-app 
 - You can use css preprocessors, bootstrap, material design, lodash.js etc.
+- Use your own private repository to store and manage code
 - Final version of the calculator should be available via a link. The easiest way to do so is to host your project on GitHub pages / Google Firebase / Heroku / Netlify / any other hosting.
 - Re-use components and functionality as much as possible (using hoc, render and children prop is welcome)
 
@@ -130,3 +131,8 @@ Max - **+40**
 2) React Best Practices
  - https://www.codeinwp.com/blog/react-best-practices/
  - http://www.jancarloviray.com/blog/react-best-practices-2020/
+ 
+ 
+ ## Help
+ 
+ In case of any questions leave them in the doc: https://docs.google.com/document/d/1QWoHxUGsVvgAAQeow4FkyZEUCeGgwrkF7omvFsdbZfY/edit#
