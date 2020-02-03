@@ -115,11 +115,11 @@ Max - **+40**
   
   
  - Fines:
-  - -50 and more - General stage 2 requirements violation or inappropriate quality of the code (depending on the decision of the checking)
-  - -10 there are errors in web console
-  - -50 there are errors preventing app from normal work
-  - -10 uses API key from description, not your own
-  - -20 lease and loan calculators look the same
+    - -50 and more - General stage 2 requirements violation or inappropriate quality of the code (depending on the decision of the checking)
+    - -10 there are errors in web console
+    - -50 there are errors preventing app from normal work
+    - -10 uses API key from description, not your own
+    - -20 lease and loan calculators look the same
 
 ## Useful links
 1) location API (https://ipinfo.io/)
