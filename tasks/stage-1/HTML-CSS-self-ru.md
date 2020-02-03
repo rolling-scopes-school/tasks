@@ -7,7 +7,7 @@
 <details>
   <summary>Как сдать задание?</summary>
 
-1. Перейдите по этой ссылке https://app.rs.school/course/submit-task?course=rs-2019-q3.
+1. Перейдите по этой ссылке https://app.rs.school/course/student/auto-test?course=rs-2020-q1.
 2. Выберите соответствующее задание из списка (`Stage#1 HTML-CSS-self-education`).
 
 ![app-rsshool-submit](https://i.imgur.com/ePqIhPa.png)
