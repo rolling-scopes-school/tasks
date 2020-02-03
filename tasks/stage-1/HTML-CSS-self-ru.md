@@ -78,7 +78,7 @@
 **Внимание! Для тех, у кого еще аккаунта не создано: как только сделаете новый аккаунт - начнется семидневный триал. Поэтому регистрируйтесь ровно в момент начала прохождения данного курса.** Идея такого подхода в том, что дедлайн устанавливается автоматичски на 7 дней, и пропуск дедлайна (что в реальной жизни очень важно), может серьезно вас задеть.
 
 #### 1. Cоздайте профиль на https://www.codecademy.com/learn
-#### 2. Перейдите по ссылкам на курсы, и выполните все задачи последовательно, чтобы получить бэйджи:
+#### 2. Перейдите по ссылкам на курсы, и выполните все (ТОЛЬКО БЕСПЛАТНЫЕ) задачи последовательно, чтобы получить бэйджи:
 
 [Блок HTML](https://www.codecademy.com/learn/learn-html "Introduction to HTML")
 
@@ -88,12 +88,22 @@
 #### 4. Ссылку на странице бейджей нужно запомнить - она понадобится для дальнейших ДЗ.
 > Ссылка будет иметь вид: https://www.codecademy.com/users/YOUR-NAME/achievements
 #### 5. Критерий выставления оценки
-В профиле должно отображаться 2 завершенных курса:
-- Introduction to HTML
-- Learn CSS
-
-![codecademy-score-criteria](https://i.imgur.com/mJl10iJ.png)
-
+Необходимо получить следующие бейджи:
+- Lesson Completed: Introduction to HTML
+- Lesson Completed: HTML Document Standards
+- Lesson Completed: Tables
+- Lesson Completed: Learn HTML: Forms
+- Lesson Completed: Learn HTML: Form Validation
+- Lesson Completed: Semantic HTML
+- Lesson Completed: CSS Setup and Selectors
+- Lesson Completed: CSS Visual Rules
+- Lesson Completed: The Box Model
+- Lesson Completed: Changing the Box Model
+- Lesson Completed: CSS Display and Positioning
+- Lesson Completed: CSS Color
+- Lesson Completed: CSS Typography
+- Lesson Completed: CSS Grid Essentials
+- Lesson Completed: Advanced CSS Grid
 ----
 
 ### Вариант #2. HTMLacademy [RU] - бесплатно ограниченное количество уроков
