@@ -88,22 +88,30 @@
 #### 4. Ссылку на странице бейджей нужно запомнить - она понадобится для дальнейших ДЗ.
 > Ссылка будет иметь вид: https://www.codecademy.com/users/YOUR-NAME/achievements
 #### 5. Критерий выставления оценки
-Необходимо получить следующие бейджи:
-- Lesson Completed: Introduction to HTML
-- Lesson Completed: HTML Document Standards
-- Lesson Completed: Tables
-- Lesson Completed: Learn HTML: Forms
-- Lesson Completed: Learn HTML: Form Validation
-- Lesson Completed: Semantic HTML
-- Lesson Completed: CSS Setup and Selectors
-- Lesson Completed: CSS Visual Rules
-- Lesson Completed: The Box Model
-- Lesson Completed: Changing the Box Model
-- Lesson Completed: CSS Display and Positioning
-- Lesson Completed: CSS Color
-- Lesson Completed: CSS Typography
-- Lesson Completed: CSS Grid Essentials
-- Lesson Completed: Advanced CSS Grid
+**Note:** есть несколько вариантов, так как для тех кто делал в это задание в прошлых наборах и сейчас, набор бейджей может отличаться: 
+1. **ИЛИ** Два курса должны отображаться как завершенные на странице профиля:
+    https://www.codecademy.com/profiles/YOUR-NAME
+
+    ![codecademy-score-criteria](https://i.imgur.com/mJl10iJ.png)
+2. **ИЛИ** Необходимо получить следующие бейджи:
+    - Course Completed: Learn CSS,
+    - Course Completed: Introduction to HTML,
+3. **ИЛИ** Необходимо получить следующие бейджи:c
+    - Lesson Completed: Introduction to HTML
+    - Lesson Completed: HTML Document Standards
+    - Lesson Completed: Tables
+    - Lesson Completed: Learn HTML: Forms
+    - Lesson Completed: Learn HTML: Form Validation
+    - Lesson Completed: Semantic HTML
+    - Lesson Completed: CSS Setup and Selectors
+    - Lesson Completed: CSS Visual Rules
+    - Lesson Completed: The Box Model
+    - Lesson Completed: Changing the Box Model
+    - Lesson Completed: CSS Display and Positioning
+    - Lesson Completed: CSS Color
+    - Lesson Completed: CSS Typography
+    - Lesson Completed: CSS Grid Essentials
+    - Lesson Completed: Advanced CSS Grid
 ----
 
 ### Вариант #2. HTMLacademy [RU] - бесплатно ограниченное количество уроков
