@@ -14,7 +14,7 @@
 3. блок с вариантами ответов
 4. блок с описанием птицы
 
-![screenshot](/songbird/screenshot_birds-quiz.png)
+![screenshot](./songbird/screenshot_birds-quiz.png)
 ### Demo
 https://birds-quiz.netlify.com/ (версия без Extra scope)
 
@@ -39,7 +39,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 
 ## Технические требования
 - используйте собственный приватный репозиторий
-- репозиторий должен называться: **songbird-quiz**
+- репозиторий должен называться: **songbird**
 - работа приложения проверяется в браузере Google Chrome последней версии
 - использование jQuery не допускается
 - можно использовать Bootstrap и другие CSS фреймворки
@@ -110,11 +110,10 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 - изображения птиц - https://www.flickr.com/
 - ссылка для получения изображения птицы по её латинскому названию  
 `https://www.flickr.com/services/rest/?method=flickr.photos.search&apikey=YOUR API KEY&tagmode=all&extras=urlm&format=json&nojsoncallback&tags=BIRD NAME`
-- интересные факты о птицах - `https://o-prirode.ru/pticy/`
 
 ### Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- если вам понравилась работа, можно отправить ссылку и отзыв (по желанию) на нее в этой форме: https://forms.gle/4UUyQ2214iD7zqYk8
+- если вам понравилась работа, ссылку на нее добавьте, пожалуйста, в эту форму: https://forms.gle/4UUyQ2214iD7zqYk8
 
-### Дополнительная информация
+### Документ для вопросов
 - форма для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1CKx6BcS7DgFHPhdaB3IUoaNLUcGDlqHqus3wms5b1V4/edit?usp=sharing
