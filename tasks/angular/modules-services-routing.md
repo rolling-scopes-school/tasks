@@ -19,7 +19,7 @@ The objective of the task is to implement new pages using modules, services and 
 
 **[YouTube client. Main page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
 
-**[YouTube client. Detailed information page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/details-information.jpg)**
+**[YouTube client. Detailed information page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/details-page.jpg)**
 
 ### Task requirements
 To continue with the YouTube app, some structural refactoring is required.
