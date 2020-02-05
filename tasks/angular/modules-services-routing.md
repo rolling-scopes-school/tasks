@@ -80,7 +80,7 @@ Pages directory contains components that represent individual pages (**Login pag
     - The login button in the Header component could remain inactive for now, because implementing its functionality requires some RxJS-based features (we’ll deal with it in the upcoming lesson and corresponding task). In order to implement the logout functionality, you can create a separate button that calls the logout method of the login service.
 - **Main page**
     - Move the state and its methods from the Board component to a dedicated service.
-    - By clicking the "More" button, the **Detailed information** page should appear
+    - By clicking the *More* button, the **Detailed information** page should appear
 - **Detailed information page**
     - Should contain information about the selected video.
     - To determine which video is selected, pass its id as a route param

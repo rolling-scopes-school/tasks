@@ -47,12 +47,12 @@ The project structure can be organized in the following way:
 #### Task scope
 - Generate a new Angular project using ng-cli
 - Configure TSLint with the following file:
-**[tslint.json](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/tslint.json)**
+[tslint.json](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/tslint.json)
 - Think about how to break down the whole app into smaller pieces.
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces
-*[YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)*
-- Once you finish the task, provide the link to your repository via submitting the *[form](https://docs.google.com/forms/d/e/1FAIpQLSfJimto2jNt6XWsgxJII0dDo22XvWDwzQyO6TSY_ZuUT4--Fg/viewform)*
+[YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json)
+- Once you finish the task, provide the link to your repository via submitting the [form](https://docs.google.com/forms/d/e/1FAIpQLSfJimto2jNt6XWsgxJII0dDo22XvWDwzQyO6TSY_ZuUT4--Fg/viewform)
 
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 
