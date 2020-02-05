@@ -33,7 +33,6 @@ The project structure can be organized in the following way:
     │   ├── search-item
     │   ...
     ├── models
-    │   ├── user.model.ts
     |   |── search-response.model.ts
     │   ├── search-item.model.ts
     │   ...
@@ -46,23 +45,29 @@ The project structure can be organized in the following way:
 ```
 
 #### Task scope
+- Generate a new Angular project using ng-cli
+- Configure TSLint with the following file:
+**[tslint.json](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/tslint.json)**
 - Think how to break down the whole app into smaller pieces.
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces
 *[YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)*
+- Once you finish the task, provide the link to your repository via submitting the *[form](https://docs.google.com/forms/d/e/1FAIpQLSfJimto2jNt6XWsgxJII0dDo22XvWDwzQyO6TSY_ZuUT4--Fg/viewform)*
 
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 
 #### Evaluation criteria
 Maximum points - **50**
 
-- [ ] The app is generated. Added base project structure for components and models (**+15**)
+- [ ] The app is generated (**+5**)
+- [ ] Added base project structure for components and models. TSLint is configured with the file provided in the task description (**+10**)
 - [ ] All the necessary components were created (**+15**)
-- [ ] All the necessary models were created. Search result list and search item components contain declaration of necessary fields(**+20**)
+- [ ] All the necessary models were created. Search result list and search item components contain declaration of necessary fields (**+20**)
 
 Fines
 - [ ] Failure to submit on time may lead to points loose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
 - [ ] The app doesn't work or has console errors (**-20**)
+- [ ] TSLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://www.typescriptlang.org/docs/home.html

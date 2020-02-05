@@ -42,6 +42,7 @@ Fines
 - [ ] Failure to submit on time may lead to points loose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
 - [ ] The app still contains mocked data (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
+- [ ] TSLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://rxjs-dev.firebaseapp.com/api
