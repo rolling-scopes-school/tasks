@@ -6,7 +6,7 @@
 During the Angular course, you are to implement the YouTube client app. You can refer to the [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
 For further implementation create a new private repository named *youtube-client* on **your** GitHub account.
-Please add the following trainers to the collaborators list:
+Please add the following trainers to the collaborators' list:
 - https://github.com/pavelrazuvalau
 - https://github.com/Pulya10c
 
@@ -18,7 +18,7 @@ Please add the following trainers to the collaborators list:
 - Explore the generated project structure
 
 ### Task requirements
-Within this task you are to start implementing the main page of the app.
+Within this task, you are to start implementing the main page of the app.
 
 **[YouTube client. Main page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
 
@@ -48,7 +48,7 @@ The project structure can be organized in the following way:
 - Generate a new Angular project using ng-cli
 - Configure TSLint with the following file:
 **[tslint.json](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/tslint.json)**
-- Think how to break down the whole app into smaller pieces.
+- Think about how to break down the whole app into smaller pieces.
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces
 *[YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)*
@@ -62,10 +62,10 @@ Maximum points - **50**
 - [ ] The app is generated (**+5**)
 - [ ] Added base project structure for components and models. TSLint is configured with the file provided in the task description (**+10**)
 - [ ] All the necessary components were created (**+15**)
-- [ ] All the necessary models were created. Search result list and search item components contain declaration of necessary fields (**+20**)
+- [ ] All the necessary models were created. Search result list and search item components contain declarations of necessary fields (**+20**)
 
 Fines
-- [ ] Failure to submit on time may lead to points loose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] TSLint warnings or errors are present (**-15**)
 
