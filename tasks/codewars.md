@@ -1,9 +1,9 @@
 Codewars:
 
-   1. (8 kyu) http://www.codewars.com/kata/opposite-number
-   2. (8 kyu) http://www.codewars.com/kata/basic-mathematical-operations
+   ~~1. (8 kyu) http://www.codewars.com/kata/opposite-number~~
+   ~~2. (8 kyu) http://www.codewars.com/kata/basic-mathematical-operations~~
    3. (8 kyu) http://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
-   4. (8 kyu) http://www.codewars.com/kata/transportation-on-vacation
+   ~~4. (8 kyu) http://www.codewars.com/kata/transportation-on-vacation~~
    5. (7 kyu) http://www.codewars.com/kata/get-the-middle-character
    6. (5 kyu) http://www.codewars.com/kata/partition-on
    7. (8 kyu) http://www.codewars.com/kata/word-count
