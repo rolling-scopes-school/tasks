@@ -40,7 +40,7 @@ You can use any UI frameworks/libraries to simplify (facilitate) the creation of
 For now, you can enter whatever value which won't influence your search result.
 Please note that the **Sorting criteria block** should be hidden
 - By submitting the search form, the **Search results block** appears.
-- Using the *[response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)*, render cards with predefined data
+- Using the [response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json), render cards with predefined data
     You can store the mocked data in the **Search results** component
     - The bottom border represents the publication date status. Create a directive to achieve the result
         - If a publication date is less than a month, set border background to green
