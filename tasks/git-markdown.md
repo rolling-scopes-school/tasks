@@ -64,7 +64,7 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 "Merge ..." или "Initial commit" коммиты игнорировались.
 
 4. Вопрос: Я получил(а) 50 и статус "Failed PR requirements:...."  
-Основаная причина скорее всего в том, что вы не создали Pull Request из gh-pages в master или в названии PR нету названия задания ("Markdown & Git")
+Основная причина скорее всего в том, что вы не создали Pull Request из gh-pages в master или в названии PR нету названия задания ("Markdown & Git")
 Увидеть свои PR можно вот тут: https://github.com/%7Bваш гитхаб аккаунт}/rsschool-cv/pulls?utf8=%E2%9C%93&q=is%3Apr
 
 Если после этого, вы по-прежнему считаете, что оценка выставлена неверно (все ошибаются и даже роботы), просьба привести ваши аргументы с максимальным количеством деталей в комментариях к этому issue
