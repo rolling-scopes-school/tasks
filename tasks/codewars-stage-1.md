@@ -51,6 +51,7 @@
 
 1. Insert the list below into cata scan input.
 
+<pre>
      https://www.codewars.com/kata/reversed-strings
      https://www.codewars.com/kata/remove-first-and-last-character
      https://www.codewars.com/kata/palindrome-strings
@@ -74,7 +75,7 @@
      https://www.codewars.com/kata/regexp-basics-is-it-a-letter
      https://www.codewars.com/kata/regexp-basics-is-it-a-vowel/
      username
-
+</pre>
 2. Change username to your one.
 
 3. Click "Check" to see the result.
