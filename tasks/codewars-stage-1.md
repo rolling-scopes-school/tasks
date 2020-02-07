@@ -39,3 +39,9 @@
   Total: 2 * 8 + 3 * 12 + 4 * 2 = 60  
 
 **Total sum - 60 points**
+
+## Auto-Check
+
+  https://auseika.github.io/kata-scan/ 
+  It's not for submit. It's self-test resource only.
+  
