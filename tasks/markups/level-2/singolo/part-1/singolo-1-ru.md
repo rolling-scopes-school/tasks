@@ -76,7 +76,7 @@ PNG:
 
 ## Полезные ссылки
 
-Шрифты можно найти здесь:
+Шрифты можно найти здесь:  
 [Lato, google](https://fonts.google.com/specimen/Lato)  
 [Lato, fontsquirrel](https://www.fontsquirrel.com/fonts/lato)  
 Если вы не можете найти или скачать нужный шрифт, просто замените его шрифтом с тем же типом засечек.
