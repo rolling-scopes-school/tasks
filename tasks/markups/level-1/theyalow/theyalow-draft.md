@@ -9,15 +9,15 @@ Create a web page, according to:
 
 PSD:
 
-**[theyalow PSD Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20Desktop.psd)**
+**[theyalow PSD Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.psd)**
 
-**[theyalow PSD Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.psd)**
+**[theyalow PSD Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20mobile.psd)**
 
 JPG:
 
-**[theyalow JPG Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20Desktop.jpg)**
+**[theyalow JPG Desktop](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.jpg)**
 
-**[theyalow JPG Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.jpg)**
+**[theyalow JPG Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20mobile.jpg)**
 
 The reference point here is a successful comparison via Pixel Perfect extension. "Perfect" means markup items are identcal to image layout pixel to pixel. There is a list of common cases:
 - Major blocks should be positioned perfectly on given width of the screen.
