@@ -109,7 +109,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 `https://www.xeno-canto.org/api/2/recordings?query=BIRD NAME`
 - изображения птиц - https://www.flickr.com/
 - ссылка для получения изображения птицы по её латинскому названию  
-`https://www.flickr.com/services/rest/?method=flickr.photos.search&apikey=YOUR API KEY&tagmode=all&extras=urlm&format=json&nojsoncallback&tags=BIRD NAME`
+`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOUR API KEY&tag_mode=all&extras=url_m&format=json&nojsoncallback&tags=BIRD NAME`
 
 ### Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
