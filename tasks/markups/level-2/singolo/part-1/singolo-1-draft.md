@@ -9,11 +9,11 @@ Create a web page, according to:
 
 PSD:
 
-**[Singolo. Part 1. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.psd)**
+**[Singolo. Part 1. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.psd)**
 
-JPG:
+PNG:
 
-**[Singolo. Part 1. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.jpg)**
+**[Singolo. Part 1. PNG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.png)**
 
 The reference point here is a successful comparison via Pixel Perfect extension. "Perfect" means markup items are identcal to image layout pixel to pixel. There is a list of common cases:
 - Major blocks should be positioned perfectly on given width of the screen (1200px).
@@ -102,11 +102,11 @@ It meets all the requirements for this homework.
 
 PSD:
 
-**[Singolo. Part 1. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.psd)**
+**[Singolo. Part 1. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.psd)**
 
-JPG:
+PNG:
 
-**[Singolo. Part 1. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/theyalow/THEYALOW%20Desktop.jpg)**
+**[Singolo. Part 1. PNG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.png)**
 
 Ключевым моментом является полное соответствие макету. Это достигается совпадением 2 изображений при наложении слоя с картинкой поверх готовго решения с использованием расширения Pixel Perfect. Уделите внимание следующим важным и распространенным моментам:
 - Основные блоки должны быть идеально расположены на заданной ширине экрана (1200px).
