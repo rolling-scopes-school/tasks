@@ -1,6 +1,6 @@
 | Deadline  |Repo
 |-----------|-------------|
-| 23:59 04.08.2019 | created by students themselves |
+| 23:59 27.02.2020 | created by students themselves |
 
 # CodeJam-Culture-Portal
 
