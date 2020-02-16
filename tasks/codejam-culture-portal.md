@@ -1,6 +1,6 @@
 | Deadline  |Repo
 |-----------|-------------|
-| 23:59 04.08.2019 | created by students themselves |
+| 23:59 27.02.2020 | created by students themselves |
 
 # CodeJam-Culture-Portal
 
@@ -11,7 +11,7 @@ The goal is to make content project quickly using available simple tools, distri
 
 ## Getting the assignment and group
 You can find your group and contacts here:
-https://docs.google.com/spreadsheets/d/1aC3ldXQGqdK2pI17IBV0hfUlxPOcw_sPoPQV9limrME/edit#gid=1346428228
+https://docs.google.com/spreadsheets/d/1_kRtD84hdl-aPxClLaPcDf1P2Z0lDi5q1yDqhWzsPZI/edit#gid=0
 
 ## Topics
 - [Architects of Belarus](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%8B_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8) for groups 1, 7, 13, 19, 25, 31, 37, 43;
@@ -62,50 +62,82 @@ You need to provide high level, feature base (what need to score) description.
 ## Technical requirements
 The portal must contain the following components / functional parts / blocks:
 
+### Pages
 * Main page with
   * portal's description
   * 'author of the day' block
-  * developer team description (userpics + github accounts + nicknames/names), and contribution of each member
+  
 * Navigation
 * Page with a list of authors on the given topic with search widget
-  * search should be on the current language with ability to search by name, city/place of birth
-  * 5-7 authors are enough to complete the task successfully. You can take more, if you have enough time and willingness
+  * Search should be on the current language with ability to search by name, city/place of birth
+  * **7-12** authors are enough to complete the task successfully. You can take more, if you have enough time and willingness
 * Page of an author with
   * Author's name
   * Years of life
-  * his/her picture
-  * biography in the form of timeline (example [here](https://reactjsexample.com/a-vertical-timeline-component-for-react/))
-  * list of artist's works with the date of creation
-  * photo gallery with author's picture and pictures of his/her works
-  * youtube video about the author / works / period of time author lived. Video must open in a new overlay (modal)
-  * place of author's major activity on a map: google / openstreetmap (leaflet) / yandex
-  * it's fine if **not** every element (timeline, video, photo gallery, map) will be present on every page
+  * Her/his picture
+  * Biography in the form of timeline (example [here](https://reactjsexample.com/a-vertical-timeline-component-for-react/))
+  * List of artist's works with the date of creation
+  * Photo gallery with author's picture and pictures of his/her works
+  * Youtube video about the author / works / period of time author lived. Video must open in a new overlay (modal)
+  * Place of author's major activity on a map: google / openstreetmap (leaflet) / yandex
+  * It's okay if **not** every element (timeline, video, photo gallery, map) will be present on every page
+* Page with team members with
+  * Avatars for each member
+  * Link to github / linked in / blog
+  * Role in the team (contribution)
+* Page with worklog
+  * Table with hours and time for implementing functionality
+  * Main 1-3 difficulties for the team during implementation
+  * Self-evaluation with checkboxes and list of all requirements
+* Page with styleguide
+  * links / buttons / inputs
+  * typography elements
+  * colors and its purpose (primary, secondary)
+  * icons
+  * the page can be deployed to other url
+  
 * Web portal must be deployed on Github Pages / netlify / google firebase / etc
 * Web portal has to be in 3 languages - by, ru, en. Content may vary for each version but interface elements have to be translated. For this purposes you can use this library https://www.i18next.com/ or any similar;
 
-Portal should be relatively correctly displayed on tablets and mobile phones.
-
-Content for the portal (texts, facts + year for a timeline, photo for a gallery, youtube video, place of life / activity) can be taken from Wikipedia, YouTube, Google etc.
-
-Design example / UX:
-
-- http://ses.fi/en/films/categories/documentaries/
-- https://www.aia.org/aia-architects?filters=typeFilters%3A2496%3B
-- https://literature.britishcouncil.org/writers/?Genre=3
-
 Galleries / timelines / overlays can be found here - https://bestofjs.org/.
 
+### Mobile friendly
+Portal should be relatively correctly displayed on tablets and mobile phones.
+
+### Content
+Content for the portal (texts, facts + year for a timeline, photo for a gallery, youtube video, place of life / activity) can be taken from Wikipedia, YouTube, Google etc.
+
+### Design
+
 Design / appearance is **important** for this task. The text / timeline / button for video / photo gallery / search control on the page with a list of authors are important as general look and feel.
+
+The design from technical point of view should include:
+* typography for the portal (h1-h6 headers, text style, 1-2 font types on the page) 
+* same styles for links, buttons, 
+* icon
+* limited amount of colors
+
+Usage of ready templates / themes are allowed.
+
+Design example / UX:
+- https://gatsby-theme-90s.netlify.com/ - theme for gatsby
+- https://www.aia.org/aia-architects?filters=typeFilters%3A2496%3B - grey and minimalistic 
+- https://github.com/narative/gatsby-theme-novela-example - white minimalistic theme
+- https://www.humbertpoyet.com/home/restaurant - clean design
+- https://www.culture.go.kr/english.do - humble design
+- https://www.abcd-architecture.fr/ - with animation
+
+
 
 ## Technical limitations
 You **should** develop portal using libraries of visual components such as **material-ui** or **bootstrap**.
 
-You **should** use *Reactjs* or use *gatsbyjs* to get additional points.
+You **should** use *Reactjs* or use *gatsbyjs*.
 
 Such things as page content and internal data structures for timeline / search / map / photo gallery / video overlay have to be considered on your own.
 
 ## How to submit
-You'll have to fill in the [the form with participants and link to github page](https://docs.google.com/forms/d/e/1FAIpQLSdzeXPJRR2oHZEWafgaE--9UzJC_ofNAxbJ9IqwEo6jElF-AQ/viewform) before the deadline.
+You'll have to fill in the [the form with participants and link to github page](https://forms.gle/VSeKDMAjuCdt5gtBA) before the deadline.
 
 Team member with the lowest rating in the group that takes part in the task has to make a presentation of his/her team's project. During the presentation the following things have to be shown:
 
@@ -116,9 +148,10 @@ Team member with the lowest rating in the group that takes part in the task has 
 - author's page with photo gallery, timeline and video;
 - 1-3 difficulties occurred during teamwork;
 
-Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka and Dzmitry Varabei as examinators.
+Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka and other activist as examinators.
+
 ## Requirements for commits, PR, repository
-[General requirements from stage 2](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md).
+[General requirements from stage 2](https://docs.rs.school/#/stage2?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%b2%d1%8b%d0%bf%d0%be%d0%bb%d0%bd%d0%b5%d0%bd%d0%b8%d1%8e-%d1%82%d0%b0%d1%81%d0%ba%d0%be%d0%b2-%d0%b2-rsschool-stage2).
 
 ## Evaluation
 
@@ -126,37 +159,46 @@ Mark will be the same for all team members based on the result of presentation.
 
 Maximum points - **240**
 
-### Min scope - **40**
-- [ ] **10** Main page + page with a list of authors + author's page (only html);
+### Min scope - **50**
+- [ ] **10** Main page + page with a list of authors + author's page (only pages with content without widgets);
+- [ ] **10** Page with team members + page with worklog
 - [ ] **10** Page with list of authors contains search widget;
 - [ ] **20** Portal has two languages;
 
-### Normal scope - **130**
+
+### Normal scope - **140**
+- [ ] **20** Portal has page with styleguide;
+- [ ] **10** Mobile version is okey
+- [ ] **10** Ipad/tablet version is okey
 - [ ] **10** Author's page contains timeline;
 - [ ] **10** Author's page contains video overlay;
 - [ ] **20** Author's page contains photo gallery;
 - [ ] **10** Author's page contains map (geowidget);
-- [ ] **from 10 to 40** Project is made using react (max 40 - if all widgets are done in React);
-- [ ] **from 0 to 20** Design;
-- [ ] **20** material-ui / bootstrap is used
+- [ ] **from 0 to 20** Design (typography, icons, colors, links + buttons + input are styled)
+- [ ] **20** Material-ui / bootstrap is used
+- [ ] **10** Portal has third language;
 
 ### Extra scope - **70**
 - [ ] **10** Confidence of the project presentation;
-- [ ] **30** Project is made using gatsbyjs;
-- [ ] **20** contentful / netlify cms is used for content management
-- [ ] **10** Portal has third language;
+- [ ] **10** Project is made using gatsbyjs;
+- [ ] **10** Contentful / netlify cms is used for content management
+- [ ] **20** Animations / special effects like paralax 
+- [ ] **up to 20** Outstanding design;
+- [ ] **20** Storybook/styleguidist/other react styleguide tool usage for the page with styles
+
 
 ### Fines
-- **-100** if there are less than 5 commits from each active team member. Everyone should merge their own PRs.
+- **-50** if there are less than 5 commits from each active team member. Everyone should merge their own PRs.
 - up to **-50** points for violations
 [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
 - **-40** if there is no worklog for team
-- **-20** too primitive (ugly for 2019) design / UX
+- **-20** too primitive (ugly for 2020) design / UX
 
 ## examples
 * https://github.com/rss-com-lab/staging-alesya-website - gatsby with translation
 * https://alesia-ivankova.github.io/ - deployed version
-* https://grnkvch.github.io/CodeJam-Culture-Portal/en/ - gatsby with good design and translation
+* https://grnkvch.github.io/CodeJam-Culture-Portal/en/ - gatsby with translation
+* https://culture-portal-uniorunr.netlify.com/
 
 ## answers to the questions
 * https://drive.google.com/open?id=1nBMuIWEZ3-pJIlABGWkH-wgJLdj8OP7t - xmind with answers
@@ -164,6 +206,6 @@ Maximum points - **240**
 
 
 ## Who review the tasks?
-@davojta / @dzmitry-varabei / @rs-activists
+@davojta / @rs-activists
 
-It will be couple of evening for online presentations in skype
+It will be couple of evening (22 00 - 24 00 Minsk time) for online presentations in skype
