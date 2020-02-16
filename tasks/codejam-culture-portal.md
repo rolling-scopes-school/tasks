@@ -66,7 +66,7 @@ The portal must contain the following components / functional parts / blocks:
 * Main page with
   * portal's description
   * 'author of the day' block
-  * developer team description (userpics + github accounts + nicknames/names), and contribution of each member
+  
 * Navigation
 * Page with a list of authors on the given topic with search widget
   * Search should be on the current language with ability to search by name, city/place of birth
@@ -84,7 +84,7 @@ The portal must contain the following components / functional parts / blocks:
 * Page with team members with
   * Avatars for each member
   * Link to github / linked in / blog
-  * Role in the team
+  * Role in the team (contribution)
 * Page with worklog
   * Table with hours and time for implementing functionality
   * Main 1-3 difficulties for the team during implementation
