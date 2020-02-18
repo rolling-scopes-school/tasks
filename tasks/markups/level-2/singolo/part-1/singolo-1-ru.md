@@ -30,9 +30,9 @@ PNG:
 
 *[Расширение PerfectPixel для Google Chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
 
-Поддержка браузеров: **Google Chrome, Mozilla Firefox, Microsoft Edge**.
+Поддержка браузеров: **Google Chrome, Mozilla Firefox, Microsoft Edge (Windows) or Safari (MacOS)**.
 
-В первую очередь мы разрабатываем для Google Chrome и используем Pixel Perfect для проверки соответствия. Затем проверяем, не «рушат» ли Mozilla Firefox и Microsoft Edge наши стили.
+В первую очередь мы разрабатываем для Google Chrome и используем Pixel Perfect для проверки соответствия. Затем проверяем, не «рушат» ли Mozilla Firefox, Microsoft Edge или Safari наши стили.
 
 
 ## Формат сдачи
