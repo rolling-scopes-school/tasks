@@ -1,2 +1,2 @@
- https://your-github-account.github.io/rsschool-cv/cv
+https://github.com/glebannister/https-github.com-glebannister/blob/master/README.md
  
