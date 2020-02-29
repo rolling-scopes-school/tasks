@@ -1,5 +1,5 @@
-| Deadline  |Repo
-|-----------|-------------|
+| Deadline         | Repo                           |
+| ---------------- | ------------------------------ |
 | 23:59 27.02.2020 | created by students themselves |
 
 # CodeJam-Culture-Portal
@@ -43,20 +43,20 @@ You need to provide high level, feature base (what need to score) description.
 
 *davojta*
 
-| time spent | feature |
-|-------------|-------------|
-| 2h | base structure of the project with CRA |
-| 10h | put content in json |
-| 4h | setup image gallery |
+| time spent | feature                                |
+| ---------- | -------------------------------------- |
+| 2h         | base structure of the project with CRA |
+| 10h        | put content in json                    |
+| 4h         | setup image gallery                    |
 
 
 *petriken*
 
-| time spent | feature |
-|-------------|-------------|
-| 3h | design and markup for main page |
-| 2h | markup for author page |
-| 4h | setup geowidget |
+| time spent | feature                         |
+| ---------- | ------------------------------- |
+| 3h         | design and markup for main page |
+| 2h         | markup for author page          |
+| 4h         | setup geowidget                 |
 
 
 ## Technical requirements
@@ -157,7 +157,7 @@ Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka an
 
 Mark will be the same for all team members based on the result of presentation.
 
-Maximum points - **240**
+Maximum points - **280**
 
 ### Min scope - **50**
 - [ ] **10** Main page + page with a list of authors + author's page (only pages with content without widgets);
@@ -178,7 +178,7 @@ Maximum points - **240**
 - [ ] **20** Material-ui / bootstrap is used
 - [ ] **10** Portal has third language;
 
-### Extra scope - **70**
+### Extra scope - **90**
 - [ ] **10** Confidence of the project presentation;
 - [ ] **10** Project is made using gatsbyjs;
 - [ ] **10** Contentful / netlify cms is used for content management
