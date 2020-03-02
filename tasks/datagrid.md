@@ -118,5 +118,7 @@ https://app.rs.school/course/score?course=react-2020-Q1
 ### Cross-check  
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow  
   
-### Документ для вопросов  
-- форма для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1E4ymczP9BBDsJbneq-IrJy6c-QYTpA3oHCN7iIHpRyo/edit?usp=sharing  
+### Полезные документы
+- форма для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1E4ymczP9BBDsJbneq-IrJy6c-QYTpA3oHCN7iIHpRyo/edit?usp=sharing
+- для удобства cross-check можно использовать такую таблицу (копируйте себе для каждого проверяемого задания): https://docs.google.com/spreadsheets/d/1HHVJvBPbU69qV0_ZSydBFYvTwaiB4033jAd33G2gwWQ 
+- если вам понравилась работа, ссылку на нее добавьте, пожалуйста, в эту форму: https://docs.google.com/forms/d/1y4JvzUoRWapBA08e9r0V2eynUhKRIaHwNPk7wkp1tOA
