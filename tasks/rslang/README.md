@@ -1,7 +1,3 @@
-ветка master - разработка  
-ветка netlify - деплой  
-демо: https://english-for-kids.netlify.com/
-
 # English for kids
 
 | Deadline         | Repository name| Branch name |
@@ -125,13 +121,13 @@ https://english-for-kids.netlify.com/ (версия без Extra scope)
 - [ ] не выполняются требования к pull request, репозиторию, названиям коммитов: -10 баллов (оценивает только ментор)
 
 ## Материалы
-- [папка с данными](./english-for-kids) для шести категорий слов. Для двух недостающих категорий данные необходимо собрать и подготовить самостоятельно. Можно использовать подходящее API, если удастся его найти. 
+- [папка с данными](./english-for.kids.data) для шести категорий слов. Для двух недостающих категорий данные необходимо собрать и подготовить самостоятельно. Можно использовать подходящее API, если удастся его найти. 
 - темы bootstrap  https://bootswatch.com/
 - localstorage https://learn.javascript.ru/localstorage
 
 ### Информационные ресурсы
-`https://ru.forvo.com/` - получить английское произношение слова (предлагается несколько вариантов произношения) 
-`https://dictionary.cambridge.org/` - получить английское произношение слова
+- `https://ru.forvo.com/` - получить английское произношение слова (предлагается несколько вариантов произношения) 
+- `https://dictionary.cambridge.org/` - получить английское произношение слова
 
 ### Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
