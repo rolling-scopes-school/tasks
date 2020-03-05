@@ -36,16 +36,16 @@
 
 ### The interview should be passed before 22 December 2019. Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
 
-### Полезные ссылки
-- This\bind\call\apply https://habrahabr.ru/post/149516/
-- Наследование https://learn.javascript.ru/prototypes
-- Замыкание https://learn.javascript.ru/closures
-- Всплытие https://habrahabr.ru/post/127482/
-- Промисы https://habr.com/ru/company/mailru/blog/269465/
-- Фазы события http://frontender.info/an-introduction-to-dom-events/
+### Useful links
+- This\bind\call\apply :ru: https://habrahabr.ru/post/149516/
+- Inheritance https://javascript.info/prototypes
+- Closure https://javascript.info/closure
+- Hoisting https://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
+- Promises https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
+- Event phases https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/
 - DOM Events & Event loop https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
-- post\get\put https://habrahabr.ru/post/50147/
-- REST https://habr.com/ru/post/38730/
-- как работает браузер https://habrahabr.ru/company/dataart/blog/304138/
-- анимация https://www.youtube.com/watch?v=dWE3WEpqr7M
+- post\get\put :ru: https://habrahabr.ru/post/50147/
+- REST :ru: https://habr.com/ru/post/38730/
+- How browser works :ru: https://habrahabr.ru/company/dataart/blog/304138/
+- Animation :ru: https://www.youtube.com/watch?v=dWE3WEpqr7M
 
