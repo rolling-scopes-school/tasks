@@ -47,7 +47,7 @@ PSD:
 
 JPG:
 
-**[Singolo. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo-full.jpg)**
+**[Singolo. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo.jpg)**
 
 
 ## Критерии оценки
