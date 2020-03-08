@@ -260,3 +260,37 @@ main {
 .close:hover {
     color: brown;
 }
+
+.reset {
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.title h3 {
+    color: #222;
+    text-transform: none;
+    font-size: 25px;
+    width: 951px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    margin: 20px 0;
+}
+
+.information:after {
+    display: block;
+    background: url(images/icon.png) no-repeat;
+    font-family: "Lato-Black";
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    top: -13px;
+    right: -17px;
+    font-size: 25px;
+    color: #1e04ff;
+}

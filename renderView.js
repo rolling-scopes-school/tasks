@@ -1,8 +1,12 @@
 export function render(criteria) {
     const feedback = document.querySelector('.feedback button');
+    const info = document.querySelector('.info');
+    const scoreboard = document.querySelector('.score-board');
+    const filteredCriteria = criteria.filter(item => !item.title)
+
     feedback.addEventListener('click', function(e){
         e.preventDefault();
-        getFeedback(criteria);
+        getFeedback(filteredCriteria);
     })
 
     let total = 100;
@@ -15,13 +19,25 @@ export function render(criteria) {
 
     document.querySelector('.criteria-list').appendChild(domList);
 
+    const reset = document.querySelector('.reset');
+    reset.addEventListener('click', e => {
+        total = 100;
+        filteredCriteria.map(item=>item.checked = false);
+        document.querySelectorAll("[data-active=false]").forEach(el=>{
+            el.dataset.active = "true";
+            el.children[0].children[0].checked = false;
+        });
+        scoreboard.innerHTML = 100;
+        reset.classList.add('hidden');
+        info.classList.remove('visible');
+    });
+
     domList.addEventListener('click', e => {
         const parent = e.target.parentElement.parentElement;
         const id = e.target.getAttribute("id");
 
         //close modal
-        const info = document.querySelector('.info');
-        info.classList.remove('visible');
+        //info.classList.remove('visible');
         //if(criteria[0].checked) e.preventDefault();
         if(e.target.tagName === "INPUT" && parent.dataset.active == "false") {
             parent.dataset.active = "true"
@@ -29,58 +45,67 @@ export function render(criteria) {
         }else if(e.target.tagName === "INPUT" && parent.dataset.active != "inactive"){
             if(e.target.checked) {
                 total+=parseInt(e.target.dataset.mod);
-                criteria[id].checked = true;
+                filteredCriteria[id].checked = true;
                 parent.dataset.active = "false";
             }else {
                 total+= -1 * parseInt(e.target.dataset.mod);
-                criteria[id].checked = false;
+                filteredCriteria[id].checked = false;
             }
             if( e.target.dataset.type === "main") {
             //    document.querySelectorAll("[data-active=true]").forEach(el=>el.dataset.active = "inactive");
             //    document.querySelectorAll("[data-active=false]").forEach(el=>el.dataset.active = "inactive");
                if(e.target.checked) parent.dataset.active = "false";
                //criteria.map(item=>item.checked = false);
-               criteria[0].checked = e.target.checked;
+               filteredCriteria[0].checked = e.target.checked;
             }
 
 
             if(total <= 0) {
-                document.querySelector('.score-board').innerHTML = 0;
-                getFeedback(criteria);
+                scoreboard.innerHTML = 0;
+                getFeedback(filteredCriteria);
             }else{
-                document.querySelector('.score-board').innerHTML = total;
+                scoreboard.innerHTML = total;
             }
 
         }else if(e.target.tagName === "INPUT"){
             e.preventDefault();
         }
-
+        if(total < 100) reset.classList.remove('hidden');
+        else reset.classList.add('hidden');
 
     })
 
     function renderCriterion(el, i,flag) {
 
         const parentDiv = document.createElement('div');
-        parentDiv.classList.add('checkbox-container');
-        parentDiv.dataset.active = "true";
+        if(el.type === "title") {
 
-        const input = document.createElement('input');
-        input.dataset.type = flag ? "main" : "regular";
-        input.setAttribute("type", "checkbox");
-        input.setAttribute("id", i);
-        input.dataset.mod = el.mod;
+            parentDiv.classList.add('title');
+            const title = document.createElement('h3');
+            title.innerText = el.title;
+            parentDiv.appendChild(title);
+        }else {
+            parentDiv.classList.add('checkbox-container');
+            parentDiv.dataset.active = "true";
 
-        const label = document.createElement('Label');
-        label.setAttribute("for", i);
-        label.innerText = el.text;
-        label.appendChild(input);
-        parentDiv.appendChild(label);
+            const input = document.createElement('input');
+            input.dataset.type = flag ? "main" : "regular";
+            input.setAttribute("type", "checkbox");
+            input.setAttribute("id", i);
+            el.i && input.setAttribute("title", el.i);
+            el.i && input.classList.add("information");
+            input.dataset.mod = el.mod;
+
+            const label = document.createElement('Label');
+            label.setAttribute("for", i);
+            label.innerText = el.text;
+            label.appendChild(input);
+            parentDiv.appendChild(label);
+        }
         renderList.push(parentDiv);
     }
 
     function getFeedback(criteria) {
-
-        const info = document.querySelector('.info');
         info.innerHTML = '';
 
         const close = document.createElement('p');
@@ -89,6 +114,7 @@ export function render(criteria) {
         close.addEventListener('click', ()=> info.classList.toggle('visible'));
 
         let list = [];
+
         if(criteria[0].checked) {
             list[0] = criteria[0];
         }else {
@@ -101,12 +127,12 @@ export function render(criteria) {
             list.map(item=>{
                 let strNum = item.mod + '';
                 let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <=4 ? "балла" : "баллов";
-
-                info.innerHTML += `<p>${item.text}: минус ${strNum} ${points}</p>`
-            })
+                info.innerHTML += `<p>${item.text}: минус ${strNum} ${points}</p>`;
+            });
         }else{
             info.innerHTML = '<p>У вас нет ни одной ошибки! Ваша оценка 100. Поздравляю :)</p>';
         }
+
         info.appendChild(close);
         info.classList.add("visible");
     }
