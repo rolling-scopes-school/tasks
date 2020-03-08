@@ -133,7 +133,7 @@ input[type='checkbox'] {
 }
 
 label {
-    font-size: 28px;
+    font-size: 22px;
     text-align: justify;
     padding: 20px 60px 28px 20px;
     position: relative;
@@ -204,6 +204,7 @@ main {
     bottom: 0;
     right: 138px;
     height: 43px;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
 
 }
 

@@ -22,7 +22,7 @@ export function render(criteria) {
         //close modal
         const info = document.querySelector('.info');
         info.classList.remove('visible');
-
+        //if(criteria[0].checked) e.preventDefault();
         if(e.target.tagName === "INPUT" && parent.dataset.active == "false") {
             parent.dataset.active = "true"
             e.preventDefault();
@@ -36,11 +36,11 @@ export function render(criteria) {
                 criteria[id].checked = false;
             }
             if( e.target.dataset.type === "main") {
-               document.querySelectorAll("[data-active=true]").forEach(el=>el.dataset.active = "inactive");
-               document.querySelectorAll("[data-active=false]").forEach(el=>el.dataset.active = "inactive");
-               parent.dataset.active = "inactive";
-               criteria.map(item=>item.checked = false);
-               criteria[0].checked = true;
+            //    document.querySelectorAll("[data-active=true]").forEach(el=>el.dataset.active = "inactive");
+            //    document.querySelectorAll("[data-active=false]").forEach(el=>el.dataset.active = "inactive");
+               parent.dataset.active = "false";
+               //criteria.map(item=>item.checked = false);
+               criteria[0].checked = e.target.checked;
             }
 
 
@@ -88,7 +88,13 @@ export function render(criteria) {
         close.innerHTML = "&times;";
         close.addEventListener('click', ()=> info.classList.toggle('visible'));
 
-        const list = criteria.filter(item => item.checked === true);
+        let list = [];
+        if(criteria[0].checked) {
+            list[0] = criteria[0];
+        }else {
+            list = criteria.filter(item => item.checked === true);
+        }
+
         if(list.length){
             let points = total%10 > 1 && total%10 <=4 ? "балла" : "баллов";
             info.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong></p><p>Отзыв по пунктам ТЗ:</p>`;
