@@ -116,7 +116,7 @@ PNG:
 - Если в строке несколько объектов, а их ширина выглядит одинаково, то блоки, содержащие их, должны быть равны по ширине. Разница в несколько пикселей не имеет значения, важно совпадение размеров.
 - Если вы используете тени, есть два решения, которые можно использовать. 1. Сначала необходимо объединить слои в графическом редакторе и использовать изображение в качестве фонового. 2. Добавить тень как box-shadow, и затем ее визуально обработать и придать необходимый вид.
 
-*[Разрешение PerfectPixel для Google Chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
+*[Расширение PerfectPixel для Google Chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
 
 Поддержка браузеров: **Google Chrome, Mozilla Firefox, Microsoft Edge**. Это означает, что сначала мы разрабатываем для Google Chrome и используем Pixel Perfect для проверки соответствия приложения. Затем мы проверяем, не рушат ли Mozilla Firefox, Microsoft Edge наши стили.
 
