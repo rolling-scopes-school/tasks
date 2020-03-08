@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Lato-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("LatoLatin-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("LatoLatin-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("LatoLatin-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("LatoLatin-Black.woff") format("woff");
+}
