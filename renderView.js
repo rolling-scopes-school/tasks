@@ -27,10 +27,10 @@ export function render(criteria) {
             parent.dataset.active = "true"
             e.preventDefault();
         }else if(e.target.tagName === "INPUT" && parent.dataset.active != "inactive"){
-            parent.dataset.active = "false";
             if(e.target.checked) {
                 total+=parseInt(e.target.dataset.mod);
                 criteria[id].checked = true;
+                parent.dataset.active = "false";
             }else {
                 total+= -1 * parseInt(e.target.dataset.mod);
                 criteria[id].checked = false;
@@ -38,7 +38,7 @@ export function render(criteria) {
             if( e.target.dataset.type === "main") {
             //    document.querySelectorAll("[data-active=true]").forEach(el=>el.dataset.active = "inactive");
             //    document.querySelectorAll("[data-active=false]").forEach(el=>el.dataset.active = "inactive");
-               parent.dataset.active = "false";
+               if(e.target.checked) parent.dataset.active = "false";
                //criteria.map(item=>item.checked = false);
                criteria[0].checked = e.target.checked;
             }
