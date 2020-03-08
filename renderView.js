@@ -27,6 +27,9 @@ export function render(criteria) {
             el.dataset.active = "true";
             el.children[0].children[0].checked = false;
         });
+        document.querySelectorAll("[data-active=true]").forEach(el=>{
+            el.children[0].children[0].checked = false;
+        });
         scoreboard.innerHTML = 100;
         reset.classList.add('hidden');
         info.classList.remove('visible');
