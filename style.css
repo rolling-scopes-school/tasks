@@ -126,16 +126,17 @@ header {
 input[type='checkbox'] {
     position: absolute;
     right: 15px;
-    bottom: 50%;
+    bottom: calc(50% - 15px);
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
 
 label {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 30px;
     text-align: justify;
-    padding: 20px 60px 28px 20px;
+    padding: 20px 60px 20px;
     position: relative;
     cursor: pointer;
 }
