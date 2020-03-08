@@ -2,7 +2,7 @@ export function render(criteria) {
     const feedback = document.querySelector('.feedback button');
     const info = document.querySelector('.info');
     const scoreboard = document.querySelector('.score-board');
-    const filteredCriteria = criteria.filter(item => !item.title)
+    const filteredCriteria = criteria.filter(item => !item.title);
 
     feedback.addEventListener('click', function(e){
         e.preventDefault();
@@ -91,13 +91,13 @@ export function render(criteria) {
             const input = document.createElement('input');
             input.dataset.type = flag ? "main" : "regular";
             input.setAttribute("type", "checkbox");
-            input.setAttribute("id", i);
+            input.setAttribute("id", el.id);
             el.i && input.setAttribute("title", el.i);
             el.i && input.classList.add("information");
             input.dataset.mod = el.mod;
 
             const label = document.createElement('Label');
-            label.setAttribute("for", i);
+            label.setAttribute("for", el.id);
             label.innerText = el.text;
             label.appendChild(input);
             parentDiv.appendChild(label);
@@ -105,7 +105,7 @@ export function render(criteria) {
         renderList.push(parentDiv);
     }
 
-    function getFeedback(criteria) {
+    function getFeedback(filteredCriteria) {
         info.innerHTML = '';
 
         const close = document.createElement('p');
@@ -115,10 +115,10 @@ export function render(criteria) {
 
         let list = [];
 
-        if(criteria[0].checked) {
-            list[0] = criteria[0];
+        if(filteredCriteria[0].checked) {
+            list[0] = filteredCriteria[0];
         }else {
-            list = criteria.filter(item => item.checked === true);
+            list = filteredCriteria.filter(item => item.checked === true);
         }
 
         if(list.length){
