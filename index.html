@@ -3,11 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cross-Check Singolo</title>
+  <meta name="description" content="Проверка таска Singolo в несколько кликов мышкой. Удобне отслеживание текущей проверки. Мгновенное получение отзыва для вставки в комментарии к работе">
+  <title>Cross-Check Singolo - удобная проверка Singolo</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script src="script.js" defer type="module"></script>
 </head>
 <body>
-
+  <div class="main-wrapper">
+    <header>
+      <h1 class="title">Cross-Check Singolo</h1>
+      <div class="score-title">Remain points: <span class="score-board">100</span></div>
+    </header>
+    <main>
+      <section class="prepare">
+        <div class="content-wrapper">
+          <h2>Подготовка:</h2>
+          <div class="section-description">
+            <ul>
+              <li>1. Найти и загрузить себе все файлы с актуального репозитория singolo с гитхаба пользователя.</li>
+              <li>2. Установить 2 браузера: <a href="https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAiA44LzBRB-EiwA-jJipLTNc8dHUlBxYSGG-TfLh7krKpS9gqe9kVAA0hV4pDFKdON4WcljshoC-48QAvD_BwE&gclsrc=aw.ds" target="_blank">Google Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox</a>
+              </li>
+              <li>3. Загрузить изображение <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo.jpg" class="singolo" target="_blank">singolo.jpg</a></li>
+              <li>4. Установить в Google Chrome расширение <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi" class="singolo" target="_blank">PerfectPixel</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="start">
+        <p>Чтобы избежать случайных кликов, единожды нажатое поле (или чекбокс) делает всё поле не активным. Повторный клик по этому полю только разблокирует его. Флажок чекбокса автоматически НЕ снимается/ставится. Чтобы снять/поставить флаг - кликните повторно. Посещенные и неактивные элементы меняют opacity</p><p>Если что-то непонятно, то <strong><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo-cross-check-1.md" target="_blank">читаем тут</a></strong></p>
+        <input class="start-button" type="button" value="close">
+      </section>
+      <div class="content-wrapper">
+        <section class="criteria-list"></section>
+        <div class="feedback">
+          Если проверка закончена нажмите здесь <button>Показать отзыв</button>
+        </div>
+      </div>
+    </main>
+    <div class="info"></div>
+  </div>
 </body>
 </html>
