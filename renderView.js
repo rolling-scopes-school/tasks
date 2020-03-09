@@ -1,143 +1,155 @@
-export function render(criteria) {
-    const feedback = document.querySelector('.feedback button');
-    const info = document.querySelector('.info');
-    const scoreboard = document.querySelector('.score-board');
-    const filteredCriteria = criteria.filter(item => !item.title);
+export function render ( criteria ) {
+    let isFeedback = false;
+    const feedback = document.querySelector( '.feedback button' );
+    const info = document.querySelector( '.info' );
+    const scoreboard = document.querySelector( '.score-board' );
+    const filteredCriteria = criteria.filter( item => !item.title );
 
-    feedback.addEventListener('click', function(e){
+    feedback.addEventListener( 'click', function ( e ) {
         e.preventDefault();
-        getFeedback(filteredCriteria);
-    })
+        getFeedback( filteredCriteria );
+    } )
 
     let total = 100;
     const renderList = [];
-    criteria.forEach((el,i) => {
-        el.status === "main" ? renderCriterion(el,i,true) : renderCriterion(el,i);
-    });
-    const domList = document.createElement('form');
-    renderList.forEach(el => domList.appendChild(el));
+    criteria.forEach( ( el, i ) => {
+        el.status === "main" ? renderCriterion( el, i, true ) : renderCriterion( el, i );
+    } );
+    const domList = document.createElement( 'form' );
+    renderList.forEach( el => domList.appendChild( el ) );
 
-    document.querySelector('.criteria-list').appendChild(domList);
+    document.querySelector( '.criteria-list' ).appendChild( domList );
 
-    const reset = document.querySelector('.reset');
-    reset.addEventListener('click', e => {
+    const reset = document.querySelector( '.reset' );
+    reset.addEventListener( 'click', e => {
         total = 100;
-        filteredCriteria.map(item=>item.checked = false);
-        document.querySelectorAll("[data-active=false]").forEach(el=>{
+        isFeedback = false;
+        filteredCriteria.map( item => item.checked = false );
+        document.querySelectorAll( "[data-active=false]" ).forEach( el => {
             el.dataset.active = "true";
             el.children[0].children[0].checked = false;
-        });
-        document.querySelectorAll("[data-active=true]").forEach(el=>{
+        } );
+        document.querySelectorAll( "[data-active=true]" ).forEach( el => {
             el.children[0].children[0].checked = false;
-        });
+        } );
         scoreboard.innerHTML = 100;
-        reset.classList.add('hidden');
-        info.classList.remove('visible');
-    });
+        reset.classList.add( 'hidden' );
+        info.classList.remove( 'visible' );
+    } );
 
-    domList.addEventListener('click', e => {
+    domList.addEventListener( 'click', e => {
         const parent = e.target.parentElement.parentElement;
-        const id = e.target.getAttribute("id");
+        const id = e.target.getAttribute( "id" );
 
-        //close modal
-        //info.classList.remove('visible');
-        //if(criteria[0].checked) e.preventDefault();
-        if(e.target.tagName === "INPUT" && parent.dataset.active == "false") {
+        if ( e.target.tagName === "INPUT" && parent.dataset.active == "false" ) {
             parent.dataset.active = "true"
             e.preventDefault();
-        }else if(e.target.tagName === "INPUT" && parent.dataset.active != "inactive"){
-            if(e.target.checked) {
-                total+=parseInt(e.target.dataset.mod);
+        } else if ( e.target.tagName === "INPUT" ) {
+            if ( e.target.checked ) {
+                total += parseInt( e.target.dataset.mod );
                 filteredCriteria[id].checked = true;
                 parent.dataset.active = "false";
-            }else {
-                total+= -1 * parseInt(e.target.dataset.mod);
+            } else {
+                total += -1 * parseInt( e.target.dataset.mod );
                 filteredCriteria[id].checked = false;
             }
-            if( e.target.dataset.type === "main") {
-            //    document.querySelectorAll("[data-active=true]").forEach(el=>el.dataset.active = "inactive");
-            //    document.querySelectorAll("[data-active=false]").forEach(el=>el.dataset.active = "inactive");
-               if(e.target.checked) parent.dataset.active = "false";
-               //criteria.map(item=>item.checked = false);
-               filteredCriteria[0].checked = e.target.checked;
+            if ( e.target.dataset.type === "main" ) {
+
+                if ( e.target.checked ) parent.dataset.active = "false";
+                filteredCriteria[0].checked = e.target.checked;
             }
 
 
-            if(total <= 0) {
+            if ( total <= 0 ) {
                 scoreboard.innerHTML = 0;
-                getFeedback(filteredCriteria);
-            }else{
+                getFeedback( filteredCriteria );
+            } else {
                 scoreboard.innerHTML = total;
             }
 
-        }else if(e.target.tagName === "INPUT"){
+            // if click while modal opened then re-render it
+            isFeedback && getFeedback( filteredCriteria );
+
+        } else if ( e.target.tagName === "INPUT" ) {
             e.preventDefault();
         }
-        if(total < 100) reset.classList.remove('hidden');
-        else reset.classList.add('hidden');
+        if ( total < 100 ) reset.classList.remove( 'hidden' );
+        else reset.classList.add( 'hidden' );
 
-    })
+    } )
 
-    function renderCriterion(el, i,flag) {
+    function renderCriterion ( el, i, flag ) {
 
-        const parentDiv = document.createElement('div');
-        if(el.type === "title") {
+        const parentDiv = document.createElement( 'div' );
+        if ( el.type === "title" ) {
 
-            parentDiv.classList.add('title');
-            const title = document.createElement('h3');
+            parentDiv.classList.add( 'title' );
+            const title = document.createElement( 'h3' );
             title.innerText = el.title;
-            parentDiv.appendChild(title);
-        }else {
-            parentDiv.classList.add('checkbox-container');
+            parentDiv.appendChild( title );
+        } else {
+            parentDiv.classList.add( 'checkbox-container' );
             parentDiv.dataset.active = "true";
 
-            const input = document.createElement('input');
+            const input = document.createElement( 'input' );
             input.dataset.type = flag ? "main" : "regular";
-            input.setAttribute("type", "checkbox");
-            input.setAttribute("id", el.id);
-            el.i && input.setAttribute("title", el.i);
-            el.i && input.classList.add("information");
+            input.setAttribute( "type", "checkbox" );
+            input.setAttribute( "id", el.id );
+            el.i && input.setAttribute( "title", el.i );
+            el.i && input.classList.add( "information" );
             input.dataset.mod = el.mod;
 
-            const label = document.createElement('Label');
-            label.setAttribute("for", el.id);
+            const label = document.createElement( 'Label' );
+            label.setAttribute( "for", el.id );
             label.innerText = el.text;
-            label.appendChild(input);
-            parentDiv.appendChild(label);
+            label.appendChild( input );
+            parentDiv.appendChild( label );
         }
-        renderList.push(parentDiv);
+        renderList.push( parentDiv );
     }
 
-    function getFeedback(filteredCriteria) {
-        info.innerHTML = '';
+    function getFeedback ( filteredCriteria ) {
+        info.innerHTML = '<div class="copy"><a href="#">Скопировать в буфер</a></div>';
+        const conrgats = "<img class='congrats' src='images/congrats.png' width='150' height='150' alt='Congratulations'>";
+        const ups = "<img class='sorry' src='images/sorry.png' width='150' height='150' alt='We are sorry'>";
 
-        const close = document.createElement('p');
-        close.classList.add('close');
+        const header = document.createElement( 'div' );
+        header.classList.add( "header" );
+
+        const content = document.createElement( 'div' );
+        content.classList.add( "content" );
+
+        const close = document.createElement( 'p' );
+        close.classList.add( 'close' );
         close.innerHTML = "&times;";
-        close.addEventListener('click', ()=> info.classList.toggle('visible'));
-
+        close.addEventListener( 'click', () => {
+            info.classList.toggle( 'visible' )
+            isFeedback = false;
+        });
+        header.appendChild( close );
         let list = [];
 
-        if(filteredCriteria[0].checked) {
+        if ( filteredCriteria[0].checked ) {
             list[0] = filteredCriteria[0];
-        }else {
-            list = filteredCriteria.filter(item => item.checked === true);
+        } else {
+            list = filteredCriteria.filter( item => item.checked === true );
         }
 
-        if(list.length){
-            let points = total%10 > 1 && total%10 <=4 ? "балла" : "баллов";
-            info.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong></p><p>Отзыв по пунктам ТЗ:</p>`;
-            list.map(item=>{
+        if ( list.length ) {
+            let points = total % 10 > 1 && total % 10 <= 4 ? "балла" : "баллов";
+            content.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong></p><p>Отзыв по пунктам ТЗ:</p>`;
+            list.map( item => {
                 let strNum = item.mod + '';
-                let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <=4 ? "балла" : "баллов";
-                info.innerHTML += `<p>${item.text}: минус ${strNum} ${points}</p>`;
-            });
-        }else{
-            info.innerHTML = '<p>У вас нет ни одной ошибки! Ваша оценка 100. Поздравляю :)</p>';
+                let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <= 4 ? "балла" : "баллов";
+                content.innerHTML += `<p>${item.text}: минус ${strNum} ${points}</p>`;
+            } );
+        } else {
+            info.innerHTML += '<p>' + ( total == 100 ? conrgats : '' ) + '</p><p class="congrats" style="text-align: center">У вас нет ни одной ошибки! Ваша оценка 100. Поздравляю</p>';
         }
-
-        info.appendChild(close);
-        info.classList.add("visible");
+        info.appendChild( header );
+        info.appendChild( content );
+        info.classList.add( "visible" );
+        isFeedback = true;
     }
 
 
