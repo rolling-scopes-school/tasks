@@ -334,3 +334,9 @@ main {
     text-align: center;
     background: #fff;
 }
+
+.not-link {
+    text-decoration: none !important;
+    cursor: default;
+    color: #444 !important;
+}

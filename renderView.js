@@ -1,5 +1,6 @@
 export function render ( criteria ) {
     let isFeedback = false;
+    let toClipBoard = '';
     const feedback = document.querySelector( '.feedback button' );
     const info = document.querySelector( '.info' );
     const scoreboard = document.querySelector( '.score-board' );
@@ -109,7 +110,7 @@ export function render ( criteria ) {
     }
 
     function getFeedback ( filteredCriteria ) {
-        info.innerHTML = '<div class="copy"><a href="#">Скопировать в буфер</a></div>';
+        info.innerHTML = '<div class="copy"><a href="#" onclick="copyToClipboard(event);">Скопировать в буфер</a></div>';
         const conrgats = "<img class='congrats' src='images/congrats.png' width='150' height='150' alt='Congratulations'>";
         const ups = "<img class='sorry' src='images/sorry.png' width='150' height='150' alt='We are sorry'>";
 
@@ -137,20 +138,38 @@ export function render ( criteria ) {
 
         if ( list.length ) {
             let points = total % 10 > 1 && total % 10 <= 4 ? "балла" : "баллов";
-            content.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong></p><p>Отзыв по пунктам ТЗ:</p>`;
+            content.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong> \r\n</p><p>Отзыв по пунктам ТЗ:\r\n</p>`;
             list.map( item => {
                 let strNum = item.mod + '';
                 let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <= 4 ? "балла" : "баллов";
-                content.innerHTML += `<p>${item.text}: минус ${strNum} ${points}</p>`;
+                content.innerHTML += `<p>${item.text}: минус ${strNum} ${points} \r\n</p>`;
             } );
+            toClipBoard = content.innerText;
         } else {
             info.innerHTML += '<p>' + ( total == 100 ? conrgats : '' ) + '</p><p class="congrats" style="text-align: center">У вас нет ни одной ошибки! Ваша оценка 100. Поздравляю</p>';
+            toClipBoard = "У вас нет ни одной ошибки! Ваша оценка 100. Поздравляю";
         }
         info.appendChild( header );
         info.appendChild( content );
         info.classList.add( "visible" );
         isFeedback = true;
     }
-
-
+    window.copyToClipboard = (e) => {
+        e.preventDefault();
+        e.target.classList.add("not-link");
+        e.target.innerText = "Скопировано!"
+        setTimeout(() => {
+            e.target.classList.remove("not-link");
+            e.target.innerText = "Скопировать в буфер"
+        },1000);
+        const el = document.createElement('textarea');
+        el.value = toClipBoard;
+        el.setAttribute('readonly', '');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+      };
 }
