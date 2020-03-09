@@ -181,12 +181,15 @@ header.sticky {
 }
 
 header h1 {
+    transform-origin:bottom left;
     transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
     -ms-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
 }
+
+
 
 header.sticky h1 {
     transform: scale(0.8);
