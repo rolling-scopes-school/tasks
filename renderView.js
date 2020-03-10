@@ -28,10 +28,10 @@ export function render ( criteria ) {
         filteredCriteria.map( item => item.checked = false );
         document.querySelectorAll( "[data-active=false]" ).forEach( el => {
             el.dataset.active = "true";
-            el.children[0].children[0].checked = false;
+            el.querySelector('input').checked = false;
         } );
         document.querySelectorAll( "[data-active=true]" ).forEach( el => {
-            el.children[0].children[0].checked = false;
+            el.querySelector('input').checked = false;
         } );
         scoreboard.innerHTML = 100;
         reset.classList.add( 'hidden' );
