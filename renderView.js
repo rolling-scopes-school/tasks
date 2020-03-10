@@ -139,10 +139,10 @@ export function render ( criteria ) {
         if ( list.length ) {
             let points = total % 10 > 1 && total % 10 <= 4 ? "балла" : "баллов";
             content.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong> \r\n</p><p>Отзыв по пунктам ТЗ:\r\n</p>`;
-            list.map( item => {
+            list.map( (item, i) => {
                 let strNum = item.mod + '';
                 let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <= 4 ? "балла" : "баллов";
-                content.innerHTML += `<p>${item.text}: минус ${strNum} ${points} \r\n</p>`;
+                content.innerHTML += `<p>${i+1}) ${item.text}: минус ${strNum} ${points} \r\n</p>`;
             } );
             toClipBoard = content.innerText;
         } else {
