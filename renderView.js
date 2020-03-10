@@ -102,7 +102,7 @@ export function render ( criteria ) {
 
             const label = document.createElement( 'Label' );
             label.setAttribute( "for", el.id );
-            label.innerText = el.text;
+            label.innerHTML = el.text;
             label.appendChild( input );
             parentDiv.appendChild( label );
         }
