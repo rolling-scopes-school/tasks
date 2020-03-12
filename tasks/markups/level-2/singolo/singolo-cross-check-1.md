@@ -1,20 +1,22 @@
+# [Уважаемые студенты, огромная просьба, до начала проверки внимательно ознакомиться со списком самых частых ошибок проверяющих!](https://not-saint.github.io/Cross-check-FAQ/singolo.html)
+
 # Порядок сдачи
 
-Первое, что нужно сделать, внимательно ознакомиться с документом [**Cross Check Flow**](https://docs.rs.school/#/cross-check-flow)  
-❗ Первым шагом - сделать submit собственной работы. Это нужно сделать как можно раньше.  
-❗ Пропускаем "принцип оценки работы при cross-check проверке", критерии оценки будут приведены ниже.
+1. Внимательно ознакомьтесь с документом [„Cross Check Flow“](https://docs.rs.school/#/cross-check-flow).
+2. Как можно раньше до дедлайна [отправьте свою работу на оценку в **RS App**](https://app.rs.school/course/student/cross-check-submit?course=rs-2020-q1). Без этого ее не смогут оценить, и вы получите **0**.  
+3. Критерии оценки берём из текущего документа. Не из других. Не придумываем сами.
 
 # Порядок проверки
 
 ## Подготовка
 
-1. Найти и загрузить себе все файлы с актуального репозитория **singolo** с гитхаба пользователя. 
+1. Найти и скачать файлы с актуального репозитория **singolo** с GitHub пользователя. 
 
-2. Установить 2 браузера: [Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAiA44LzBRB-EiwA-jJipLTNc8dHUlBxYSGG-TfLh7krKpS9gqe9kVAA0hV4pDFKdON4WcljshoC-48QAvD_BwE&gclsrc=aw.ds), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+2. Установить [Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAiA44LzBRB-EiwA-jJipLTNc8dHUlBxYSGG-TfLh7krKpS9gqe9kVAA0hV4pDFKdON4WcljshoC-48QAvD_BwE&gclsrc=aw.ds) и [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/).
 
-3. Загрузить изображение [**singolo.jpg**](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo.jpg)
+3. Скачать [singolo.jpg](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo.jpg).
 
-4. установить в Google Chrome расширение [**PerfectPixel**](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+4. Установить **в Google Chrome** расширение [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi). Проверка в Mozilla Firefox и других браузерах через это расширение **не требуется**.
 
 ## Оценка
 
