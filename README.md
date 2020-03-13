@@ -4,29 +4,30 @@
 
 Структура списка объектов в массиве пунктов задания:
 
-    ```javascript
-        export const task = "Some task title"; // this will be rendered as page title
+```javascript
+    export const task = "Some task title"; // this will be rendered as page title
 
-        export const criteria = [
-    {
-        type: "title", // this will be rendered as sub header
-        title: "Общие требования"
-    },
-    {
-        text: "Some text here, also with HTML tags <strong>strong</strong>. You need escape HTML tags to use it as regular text (prevent HTML rendering)",
-        max: 20, // max points amount for this subtask
-    },
-    {
-        text: "Another subtask here",
-        max: 10
-    },
-    {
-        type: "title", // another sub header right above the other tasks
-        title: "Новые требования"
-    },
-    {
-        text: "Neque porro quisquam est qui dolorem ipsum quia dolor <strong>sit amet</strong>",
-        max: 5}...etc```
+    export const criteria = [
+{
+    type: "title", // this will be rendered as sub header
+    title: "Общие требования"
+},
+{
+    text: "Some text here, also with HTML tags <strong>strong</strong>. You need escape HTML tags to use it as regular text (prevent HTML rendering)",
+    max: 20, // max points amount for this subtask
+},
+{
+    text: "Another subtask here",
+    max: 10
+},
+{
+    type: "title", // another sub header right above the other tasks
+    title: "Новые требования"
+},
+{
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor <strong>sit amet</strong>",
+    max: 5}, // etc...
+```
 
 
 ## Features:
