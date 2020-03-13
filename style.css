@@ -122,16 +122,6 @@ header {
     flex-direction: column;
 }
 
-
-input[type='checkbox'] {
-    /* position: absolute;
-    right: 15px;
-    bottom: calc(50% - 15px);
-    width: 30px;
-    height: 30px;
-    cursor: pointer; */
-}
-
 label {
     font-size: 18px;
     line-height: 30px;
