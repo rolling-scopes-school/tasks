@@ -9,6 +9,10 @@
 ### 2. any amount of sub headers (rendered all-in-one list)
 
 ### 3. custom subtask feedback (add your personal feedback while checking specific subtask)
+    - Ctrl + Enter to save feedback;
+    - Esc to Cancel
 
-[Try it online](https://xmelsky.github.io/tasks/)
+### 4. protect any field using Ctrl + click to set input field inactive. Use Ctrl + click again to set it active
+
+[Try it online](https://xmelsky.github.io/cross-check-singolo/)
 

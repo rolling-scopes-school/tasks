@@ -122,7 +122,7 @@ export function render ( criteria ) {
 
             const label = document.createElement( 'Label' );
             label.setAttribute( "for", i );
-            label.innerHTML = el.text;
+            label.innerHTML = el.text + "<a href='#' onclick='addFeedback(event);' class='add-feedback'>Add feedback</a>";
             //label.appendChild( input );
             parentDiv.appendChild( input );
             parentDiv.appendChild( label );
@@ -167,7 +167,7 @@ export function render ( criteria ) {
                     content.innerHTML += `<p><strong>${resultDescriptions[i]}\r\n</strong></p>`;
                     partialResult = resultList.filter( el => el.status == i );
                     partialResult.map( ( item, i ) => {
-                        content.innerHTML += `<p>${i + 1}) ${item.text} \r\n</p>`;
+                        content.innerHTML += `<p>${i + 1}) ${item.text} \r\n${item.feedback ? '<p style="background:#f1f1f1; font-style: italic; font-size: 11px; padding:5px"><strong>feedback: </strong>'+ item.feedback+'</p>' : ""}\r\n`;
                     } );
                 }
                 // let strNum = item.mod + '';
@@ -196,6 +196,39 @@ export function render ( criteria ) {
             remove: ( ...classes ) => classes.map( className => target.classList.remove( className ) ),
             add: ( ...classes ) => classes.map( className => target.classList.add( className ) )
         }
+    }
+
+    window.addFeedback = (e) => {
+        e.preventDefault();
+        document.querySelectorAll('.add-form').forEach(el => el.remove())
+        const link = e.target;
+        const oldChild = e.target.querySelector('form');
+        oldChild && oldChild.remove();
+        const id = e.target.parentElement.getAttribute('for');
+        const box = document.createElement('form');
+        box.classList.add('add-form');
+        const textarea = document.createElement('textarea');
+        textarea.setAttribute('placeholder', 'Use Ctrl + Enter to save this feedback or ESC to cancel');
+        if(filteredCriteria[id].feedback) {
+            textarea.value = filteredCriteria[id].feedback;
+        }
+        box.appendChild(textarea);
+        link.parentElement.appendChild(box);
+        textarea.focus();
+        textarea.select();
+        box.addEventListener('keyup', (e) => {
+            if(e.keyCode == 13 && isCtrl) {
+                filteredCriteria[id].feedback = textarea.value;
+                if(textarea.value){
+                    link.innerHTML = "Update feedback";
+                }else{
+                    delete filteredCriteria[id].feedback;
+                    link.innerHTML = "Add feedback";
+                }
+
+                box.remove();
+            }else if(e.keyCode == 27) box.remove();
+        });
     }
 
     window.copyToClipboard = ( e ) => {
