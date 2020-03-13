@@ -41,11 +41,15 @@ export function render ( criteria ) {
     reset.addEventListener( 'click', e => {
         total = 0;
         isFeedback = false;
-        filteredCriteria.map( item => item && delete item.status );
+        filteredCriteria.map( item => {
+            item && delete item.status;
+            item && delete item.feedback;
+        });
         document.querySelectorAll( ".checkbox-container" ).forEach( el => {
             el.dataset.active = "true";
             const child = el.querySelector( 'label' );
             setClasses( child ).remove( 'red', 'yellow', 'green' );
+            child.querySelector('a').innerHTML = "Add feedback";
         } );
         checkDone( 'reset' );
         scoreboard.innerHTML = 0;
