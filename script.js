@@ -1,12 +1,15 @@
-import {criteria} from "./criteria-list.js";
+import {task, criteria} from "./criteria-list.js";
 import {render} from './renderView.js';
 
 window.onload = function(){
-    document.querySelector('.start').addEventListener("click", function(e) {
+    const start = document.querySelector('.start');
+    start && start.addEventListener("click", function(e) {
         e.stopPropagation();
         if(e.target.parentElement.tagName == "SECTION") e.target.parentElement.style.display = "none";
     })
 
+    const title = document.querySelector('.title');
+    title.innerText = task;
     const header = document.querySelector('header');
     const offsetTop = header.offsetTop;
 

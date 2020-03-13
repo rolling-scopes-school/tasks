@@ -1,6 +1,14 @@
-# Cross-Check Singolo - удобная проверка Singolo. Онлайн чек-лист
+# Tasks-check - чек-лист для проверки тасков RS School
 
-## Проверка таска Singolo в несколько кликов мышкой. Удобное отслеживание текущей проверки. Мгновенное получение отзыва для вставки в комментарии к работе.
+## Features:
+ ### 1. three stages of subtasks:
+    - green: subtask solved properly (100% of grade);
+    - yellow: subtask solved partially (50% of grade);
+    - red: subtask doesn't solved;
 
-[Перейти к чек-листу](https://unibreakfast.github.io/cross-check-singolo/)
+### 2. any amount of sub headers (rendered all-in-one list)
+
+### 3. custom subtask feedback (add your personal feedback while checking specific subtask)
+
+[Try it online](https://xmelsky.github.io/cross-check-singolo/)
 
