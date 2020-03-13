@@ -10,5 +10,5 @@
 
 ### 3. custom subtask feedback (add your personal feedback while checking specific subtask)
 
-[Try it online](https://xmelsky.github.io/cross-check-singolo/)
+[Try it online](https://xmelsky.github.io/tasks/)
 
