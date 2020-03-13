@@ -449,3 +449,32 @@ main {
     display: inline-block;
     padding: 0 15px;
 }
+
+a.add-feedback {
+    margin: 0 20px;
+    color: #2b8aff;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: none;
+    line-height: 20px;
+
+}
+
+.checkbox-container label:hover a.add-feedback {
+    display: inline-block !important;
+}
+
+form.add-form {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+    z-index: 100;
+}
+
+.add-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
