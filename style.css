@@ -26,7 +26,7 @@ a:hover {
 
 body {
     font-family: "Lato-Regular", Arial, Helvetica, sans-serif;
-    --color-main: rgb(211, 19, 12);
+    --color-main: #276da5;
 }
 
 .main-wrapper {
@@ -46,7 +46,7 @@ header {
 
 
 .content-wrapper {
-    padding: 0 35px;
+    padding: 0 15px;
     padding-bottom: 100px;
 }
 
@@ -75,6 +75,10 @@ header {
 
 .task-description{
     padding: 15px 0;
+    width: 80%;
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
 }
 
 .start {
@@ -117,9 +121,9 @@ header {
     display: none;
 }
 
-.criteria-list div {
+.checkbox-container {
     display: flex;
-    flex-direction: column;
+
 }
 
 label {
@@ -130,6 +134,14 @@ label {
     position: relative;
     cursor: pointer;
     user-select: none;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+
+label span {
+
 }
 
 .checkbox-container {
@@ -138,13 +150,14 @@ label {
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
+    padding-left: 10px;
 }
 
 
-.checkbox-container:not([data-active="false"]):hover {
+/* .checkbox-container:not([data-active="false"]):hover {
     background: rgb(240, 237, 237);
     color: #333;
-}
+} */
 
 .checkbox-container[data-active="false"] label,
 .checkbox-container[data-active="inactive"] label {
@@ -164,6 +177,7 @@ header {
     -moz-transition: all .2s ease-in;
     -ms-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
+    z-index: 101;
 }
 
 header.sticky {
@@ -196,7 +210,7 @@ main {
 
   .feedback {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 138px;
     height: 43px;
     text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
@@ -204,10 +218,16 @@ main {
 }
 
 .feedback button {
-    font-size: 25px;
-    padding: 5px 10px;
+    font-size: 13px;
+    padding: 10px 10px;
     cursor: pointer;
     box-shadow: 1px 1px 5px #444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.feedback button {
+    padding-bottom: 25px;
 }
 
 .info {
@@ -299,7 +319,7 @@ main {
     color: #222;
     text-transform: none;
     font-size: 25px;
-    width: 951px;
+    width: 995px;
     margin: 0 auto;
     border-bottom: 1px solid;
     margin: 20px 0;
@@ -342,8 +362,9 @@ main {
 }
 .checkbox-container label {
     position: relative;
+    width: 30%;
 }
-.checkbox-container label:before {
+/* .checkbox-container label:before {
     content: '';
     position: absolute;
     right: 0;
@@ -416,10 +437,10 @@ main {
     -ms-transform: rotate(0) scale(2.2);
     -o-transform: rotate(0) scale(2.2);
     -webkit-transform: rotate(0) scale(2.2);
-}
+} */
 
 
-.checkbox-container label.green::before {
+/* .checkbox-container label.green::before {
     border-color: #7bbe72;
 }
 
@@ -433,7 +454,7 @@ main {
 
 .checkbox-container input[type="checkbox"]:focus + label::before {
     outline: 0;
-}
+} */
 
 .progress {
     display: inline-block;
@@ -441,13 +462,12 @@ main {
 }
 
 a.add-feedback {
-    margin: 0 20px;
+    /* margin: 0 20px; */
     color: #2b8aff;
     text-transform: uppercase;
     font-size: 10px;
-    display: none;
+    /* display: none; */
     line-height: 20px;
-
 }
 
 .checkbox-container label:hover a.add-feedback {
@@ -455,16 +475,150 @@ a.add-feedback {
 }
 
 form.add-form {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
     left: 0;
     bottom: -100%;
-    z-index: 100;
+    z-index: 100; */
 }
 
 .add-form textarea {
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     padding: 5px 10px;
     box-sizing: border-box;
 }
+
+
+/* New radio buttons styles */
+
+.radio-group {
+    width: 300px;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 10px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    padding: 0;
+    font-size: 11px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+label:hover {
+    color: #2196F3;
+}
+
+.radio-group input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid #2196F3;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .radio-group:hover input ~ .checkmark {
+    /* background-color: #ccc; */
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .radio-group input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .radio-group input:checked {
+    color: rgb(39, 106, 192);
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+
+.checkmark:active::after {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+
+  /* Show the indicator (dot/circle) when checked */
+  .radio-group input:checked ~ .checkmark:after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+  /* Style the indicator (dot/circle) */
+  .radio-group .checkmark:after {
+      top: 5px;
+      left: 5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .task-max-score {
+    width: 65px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #ccc;
+}
+
+.task-max-score span {
+    font-size: 10px;
+    line-height: 13px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+
+.task-max-score p {
+    text-align: center;
+    font-size: 35px;
+}
+
+

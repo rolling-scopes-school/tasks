@@ -4,6 +4,9 @@ export function render ( criteria ) {
     let isCtrl = false;
     let totalTasks = 0;
     let done = 0;
+
+    const checkMarks = ["не выполнено", "выполнено частично", "выполнено полностью", ];
+    const penaltiesMarks = ["нет", "да"];
     const feedback = document.querySelector( '.feedback button' );
     const info = document.querySelector( '.info' );
     const scoreboard = document.querySelector( '.score-board' );
@@ -47,9 +50,8 @@ export function render ( criteria ) {
         });
         document.querySelectorAll( ".checkbox-container" ).forEach( el => {
             el.dataset.active = "true";
-            const child = el.querySelector( 'label' );
-            setClasses( child ).remove( 'red', 'yellow', 'green' );
-            child.querySelector('a').innerHTML = "Add feedback";
+            el.querySelectorAll( 'input' ).forEach(input => input.checked = false);
+            el.querySelector('.add-feedback').innerHTML = 'Добавить отзыв';
         } );
         checkDone( 'reset' );
         scoreboard.innerHTML = 0;
@@ -59,11 +61,13 @@ export function render ( criteria ) {
 
     domList.addEventListener( 'click', e => {
         const parent = e.target.parentElement;
-        const label = parent.querySelector( 'label' );
-        const id = e.target.getAttribute( "id" );
+        const id = e.target.dataset.id;
+
         const task = filteredCriteria[id];
 
         if ( e.target.tagName === "INPUT" ) {
+            const radio = e.target;
+            const scoreId = radio.dataset.score;
             if ( isCtrl && parent.dataset.active == "true" ) {
                 parent.dataset.active = "false"
                 e.preventDefault();
@@ -73,25 +77,19 @@ export function render ( criteria ) {
                 e.preventDefault();
                 return;
             } else if ( !isCtrl && parent.dataset.active != "false" ) {
+
+                // Add subtask count
                 if ( task.status == undefined ) checkDone();
-                if ( !task.status ) {
-                    task.status = 2;
-                    setClasses( label ).remove( 'red', 'yellow' );
-                    setClasses( label ).add( 'green' );
-                    total += task.max;
-                } else if ( task.status == 2 ) {
-                    task.status = 1;
-                    setClasses( label ).add( 'yellow' );
-                    setClasses( label ).remove( 'green' );
-                    total -= task.max;
-                    total += +( task.max / 2 ).toFixed( 1 )
-                } else if ( task.status == 1 ) {
-                    task.status = 0;
-                    setClasses( label ).add( 'red' );
-                    setClasses( label ).remove( 'green', 'yellow' );
-                    total -= +( task.max / 2 ).toFixed( 1 )
+
+                // Calculate actual Total Score
+                const scores = [0, +( task.max / 2 ).toFixed( 1 ), task.max];
+                if(task.status >= 0) {
+                    total-= task.type !== 'penalty' ? scores[task.status] : scores[task.status] * 2;
                 }
-                scoreboard.innerHTML = total;
+                total+= task.type !== 'penalty' ? scores[scoreId] : scores[scoreId] * 2;
+                task.status = scoreId;
+
+                scoreboard.innerHTML = total < 0 ? 0 : total;
 
                 isFeedback && getFeedback( filteredCriteria );
 
@@ -116,22 +114,53 @@ export function render ( criteria ) {
             parentDiv.classList.add( 'checkbox-container' );
             parentDiv.dataset.active = "true";
 
-            const input = document.createElement( 'input' );
-            input.dataset.type = flag ? "main" : "regular";
-            input.setAttribute( "type", "checkbox" );
-            input.setAttribute( "id", i );
-            el.i && input.setAttribute( "title", el.i );
-            el.i && input.classList.add( "information" );
-            input.dataset.mod = el.mod;
+            const radioGroup = createRadioGroup(el, i, flag);
 
-            const label = document.createElement( 'Label' );
-            label.setAttribute( "for", i );
-            label.innerHTML = el.text + "<a href='#' onclick='addFeedback(event);' class='add-feedback'>Add feedback</a>";
+            const taskMaxScore = document.createElement('div');
+            taskMaxScore.classList.add('task-max-score');
+            const scoreDesc = el.type == 'penalty' ? 'Штрафные баллы' : 'Балл за выполнение';
+            taskMaxScore.innerHTML =   `<span>${scoreDesc}</span><p>${el.max}</p>`
+            const taskDesc = document.createElement('div');
+            taskDesc.classList.add('task-description');
+            taskDesc.innerHTML = `<p class='task-title'>${el.text}</p>`;
+
+            taskDesc.innerHTML += "<a class='add-feedback' href='#' onclick='addFeedback(event);'>Добавить отзыв</a>";
+
+            parentDiv.appendChild(taskMaxScore);
+            parentDiv.appendChild(taskDesc);
+
+            //label.innerHTML = el.text + "<a href='#' onclick='addFeedback(event);' class='add-feedback'>Add feedback</a>";
             //label.appendChild( input );
-            parentDiv.appendChild( input );
-            parentDiv.appendChild( label );
+            parentDiv.appendChild( radioGroup );
+            // parentDiv.appendChild( label );
         }
         renderList.push( parentDiv );
+    }
+
+    function createRadioGroup(el, id, flag) {
+
+        const parent = document.createElement('div');
+        parent.classList.add('radio-group');
+        const options = el.type == 'subtask' ? [...checkMarks] : [...penaltiesMarks];
+        options.map((desc, i) => {
+            const input = document.createElement( 'input' );
+            input.dataset.type = flag ? "main" : "regular";
+            input.setAttribute( "data-id", id );
+            input.setAttribute( "data-score", i );
+            input.setAttribute( "name", id );
+            input.setAttribute( "type", 'radio' );
+            const span = document.createElement('span');
+            span.classList.add('checkmark')
+
+            const label = document.createElement( 'Label' );
+            //label.setAttribute( "for", id );
+            label.innerHTML = desc;
+            label.appendChild(input);
+            label.appendChild(span);
+
+            parent.appendChild(label);
+        });
+        return parent;
     }
 
     function getFeedback ( filteredCriteria ) {
@@ -155,6 +184,7 @@ export function render ( criteria ) {
         if ( totalTasks !== done ) {
             content.innerHTML += '<p>Вы проверили не все пункты задания</p>';
         } else {
+            console.log(filteredCriteria)
             let resultList = filteredCriteria.filter( item => item && item.status != undefined );
             let points = total % 10 > 1 && total % 10 <= 4 ? "балла" : "баллов";
             content.innerHTML += `<p><strong>Ваша оценка - ${total >= 0 ? total : 0} ${points}</strong> \r\n</p><p>Отзыв по пунктам ТЗ:\r\n</p>`;
@@ -162,22 +192,19 @@ export function render ( criteria ) {
             const resultDescriptions = {
                 0: "Не выполненные/не засчитанные пункты:",
                 1: "Частично выполненные пункты:",
-                2: "Выполненные пункты:"
+                2: "Выполненные пункты:",
+                "penalty": "Штрафы:"
             }
-
-            for ( let i = 2; i >= 0; i-- ) {
+            Object.keys(resultDescriptions).forEach(desc => {
                 let partialResult = [];
-                if ( resultList.some( el => el.status == i ) ) {
-                    content.innerHTML += `<p><strong>${resultDescriptions[i]}\r\n</strong></p>`;
-                    partialResult = resultList.filter( el => el.status == i );
+                if ( resultList.some( el => el.type == desc && el.status != 0 || el.type != "penalty" && el.status ==  desc) ) {
+                    content.innerHTML += `<p><strong>${resultDescriptions[desc]}\r\n</strong></p>`;
+                    partialResult = resultList.filter( el => el.type == desc && el.status != 0 || el.type != "penalty" && el.status == desc);
                     partialResult.map( ( item, i ) => {
                         content.innerHTML += `<p>${i + 1}) ${item.text} \r\n${item.feedback ? '<p style="background:#f1f1f1; font-style: italic; font-size: 11px; padding:5px"><strong>feedback: </strong>'+ item.feedback+'</p>' : ""}\r\n`;
                     } );
                 }
-                // let strNum = item.mod + '';
-                // let points = strNum[strNum.length - 1] > 1 && strNum[strNum.length - 1] <= 4 ? "балла" : "баллов";
-                // content.innerHTML += `<p>${i + 1}) ${item.text} \r\n</p>`;
-            }
+            })
             toClipBoard = content.innerText;
         }
         info.appendChild( header );
@@ -195,20 +222,12 @@ export function render ( criteria ) {
         doneBoard.innerText = done;
     }
 
-    function setClasses ( target ) {
-        return {
-            remove: ( ...classes ) => classes.map( className => target.classList.remove( className ) ),
-            add: ( ...classes ) => classes.map( className => target.classList.add( className ) )
-        }
-    }
-
     window.addFeedback = (e) => {
         e.preventDefault();
         document.querySelectorAll('.add-form').forEach(el => el.remove())
         const link = e.target;
-        const oldChild = e.target.querySelector('form');
-        oldChild && oldChild.remove();
-        const id = e.target.parentElement.getAttribute('for');
+        const id = link.closest('.checkbox-container').querySelector('input').dataset.id;
+
         const box = document.createElement('form');
         box.classList.add('add-form');
         const textarea = document.createElement('textarea');
@@ -224,10 +243,10 @@ export function render ( criteria ) {
             if(e.keyCode == 13 && isCtrl) {
                 filteredCriteria[id].feedback = textarea.value;
                 if(textarea.value){
-                    link.innerHTML = "Update feedback";
+                    link.innerHTML = "Изменить отзыв";
                 }else{
                     delete filteredCriteria[id].feedback;
-                    link.innerHTML = "Add feedback";
+                    link.innerHTML = "Добавить отзыв";
                 }
 
                 box.remove();
