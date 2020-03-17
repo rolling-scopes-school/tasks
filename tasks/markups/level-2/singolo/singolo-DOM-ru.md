@@ -100,8 +100,8 @@ OK
 
 ```
 The letter was sent  
-Without subject  
-Without description  
+No subject  
+No description  
 OK
 ```
 
