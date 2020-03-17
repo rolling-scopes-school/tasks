@@ -1,6 +1,6 @@
 | Deadline  | Project name |
 |-----------|--------------|
-| 16.03.2020 23:59 | Singolo. DOM |
+| 21.03.2020 23:59 | Singolo. DOM |
 
 # Homework: Singolo. DOM
 
