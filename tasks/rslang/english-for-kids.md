@@ -13,7 +13,7 @@
 
 ![screenshot](english-for.kids.data/img/screenshot.png)
 ### Demo
-https://english-for-kids.netlify.com/ (версия без Extra scope)
+https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 ## Описание страниц
 1. Главная страница приложения
