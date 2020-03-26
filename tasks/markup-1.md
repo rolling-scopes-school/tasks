@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 01.04.2018 23:59 | markup-1 |
+| 14.04.2020 18.00 | markup-1 |
 
 # Homework: markup-1
 
@@ -8,98 +8,66 @@ Create web page, strictly according to:
 
 **[Lambda restaurant layout](https://www.dropbox.com/s/xvhx2kxlvzxu5n0/Restaurant_2.psd?dl=0)**
 
-Pixel Perfect is reference point of the task.
+## How to submit
 
-Browser support: Google Chrome, Mozilla Firefox, Microsoft Edge.
-
-## Как сдавать
-
-Сверстанный макет и папки с контентом залить в ветку *markup-1* в **своем** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
+Implemented layout (files/folders with the content) have to be pushed to *the markup-1* branch of **your repository**. Create a pull request and set your mentor as a reviewer.
 
 ```
-*На Github: заходим в выданный от RS **приватный** репозиторий. Искать его тут - https://github.com/rolling-scopes-school/
-*На Github: клонируем его себе на компьютер(git clone or download)
-*На компьютере: открываем его в консоли и создаем новую ветку под названием **markup-1** (git checkout -b markup-1)
-*На компьютере: закидываем свои файлы и папки в этот клонированный репозиторий
-*На компьютере: далее делаем коммит и пушим в ветку markup-1  (git add .) --> (git commit -m 'commit name') --> (git push origin markup-1)
-*На Github: далее создаем pull request (кнопка new pull request)
-*На Github: выбираем для сравнения  master <-- markup-1, дальше на странице в правой части в меню кликаем **reviewers** и выбираете вашего ментора
-*На Github: ну и наконец кликаем **pull request**
-*Итог: по сути, этими действиями мы предлагаем смержить ветку markup-1 с веткой master, а как **проверяющего** мы указываем нашего ментора.
+*GitHub: go to your RS **private** repository. You can find one here - https://github.com/rolling-scopes-school/
+*GitHub: fetch the repository to your machine(git clone or download)
+*On your machine: open the repository with CMD and create a new branch **markup-1** (git checkout -b markup-1)
+*On your machine: place your files and folders in this directory
+*On your machine: create a commit then push the files to the **markup-1** branch (git add .) --> (git commit -m 'commit name') --> (git push origin markup-1)
+*GitHub: create a pull request ('new pull request' button)
+*GitHub: pick a master branch as a target branch (master <-- markup-1), set your mentor as a reviewer( click the **reviewers** label in the right corner and pick your mentor from the list)
+*Github: click the **pull request** button
+*Summary: in a nutshell, we are suggesting to merge markup-1 brunch with master brunch, and set our mentor as a **reviewer**.
 ```
 
-## Критерии оценки
+## Success criteria
 
-За полностью выполненное задание, без нарушений, в сумме можно набрать **100 баллов**.
+**100** - the maximum amount of points you can get for implementing this task
 
-**!оценка: 0-10** означает, что если требование полностью не выполнено, то выставляется 0 баллов; если полностью выполнено, то выставляется 10 баллов; за частичное выполнение выставляется промежуточное значение на усмотрение ментора.
+!Points - **0-10** means that if none of the criteria are not met, the student gets **0** points, otherwise if everything is implemented correctly - **10** points; for the partial implementation of the feature the number of points are set at mentor's discretion.
 
-Также баллы могут сниматься за ошибки, указанные в ТЗ.
+Points can be cut down in case of mistakes (described in the technical requirements)
 
-## Техническое Задание
+## Technical Requirements
 
-1. Общее:
-	 - Файл HTML назвать index.html
-	 - Сделать отдельные папки с картинками, шрифтами, стилями. Если все будет в одном каталоге на уровне с index.html, **минус 10 баллов**.
-   - Ширина макета 1600px. И проверяться все будет, соотвественно, на такой ширине экрана, либо больше. Тогда ваш макет должен быть центрирован. Если делать на экранах, разрешение которых меньше, то будет полоса прокрутки, и это нормально. Можно использовать zoom out;
-   **!оценка: 0-10**
+1. General:
+    - The name of the HTML file should be *index.html*;
+    - Create separate folders for images, fonts, and styles. You will be penalized if all files are placed on the same level as 'index.html' file - **minus 10 points**;
+    - The markup width should be 1600px. Hence the layout will be tested on 1600px screen width or wider. The markup should be centered. If you are going to implement the task on the device with screen width lower then 1600px, the scrollbar will appear, and it is Ok (you can use zoom out)(**points - 0-10**);
 
-2. Семантическая верстка:
-	 - Использование HTML5 тегов, таких как header, nav, section, article, footer, form + fields, figure;
-	 **!оценка: 0-10**
-	 - Правильное и разумное наименование классов, избегать наименований вроде .right-column, .third-form, .left, .big, а использовать осмысленные, вроде .heading, .form-container, .wrapper, .menu-column, а так же псевдоклассы, вроде :first-child, last-child и другие;
-	 **!оценка: 0-10**
-	 - Использование id для стилей - ошибка, **минус 5 баллов**.
+2. Semantic layout:
+	 - HTML5 semantic tags should be used.For example header, nav, section, article, footer, form + fields, figure(**points - 0-10**);
+	 - Class names should be reasonable and correct, avoid names such as .right-column, .third-form, .left, .big. use more meaningful ones - .heading, .form-container, .wrapper, .menu-column. You are also welcome to use pseudo-classes (:first-child, last-child, etc.)(**points - 0-10**);
+	 - Using id for styles will be considered as a mistake, **minus 5 points**
 
-3. Правильно оформить логотип. Не забыть, что на странице должен быть h1.
-**!оценка: 0-5**
+3. The logo should be implemented correctly. Don't forget to use *h1* tag on the page(**points - 0-5**);
 
-4. Навигация выполнена с использованием тега nav. Кликабельные элементы меню должны быть ссылками.
-**!оценка: 0-5**
+4. Navigation should be implemented with a *nav* tag. Clickable parts of the menu should be *links*(**points - 0-5**);
 
-5. Обратить внимание, что страница не на белом фоне, а на заднем плане должен быть графический паттерн.
-**!оценка: 0-5**
+5. Pay your attention to the fact that the background should be a graphic pattern, not just plain white(**points - 0-5**);
 
-6. Шрифты. Их всех можно найти бесплатно, ниже будут приведены ссылки. Проверить правильное подключение. Причем правильно нужно подобрать и подходящий вес шрифта.
-**!оценка: 0-10**
+6. Fonts. You can find all the font for free (the links will be provided). The fonts should be imported properly. Don't forget about the font-weight, it also should be correct(**points - 0-10**);
 
-7. Требования по колонкам и блокам:
-	 - Проверяем, что случится, если мы в колонке, либо блоке, увеличим количество текста. Просто копируем внутрь больше текста. (Расположение колонок не должно портиться, ограничение на overflow);
-	**!оценка: 0-10**
-	 - Проверяем, что случится, если мы добавим еще одну колонку в раздел меню. (Она должна быть либо под первой колонкой, либо посередине следующей строки, либо быть скрыто свойством overflow, но никак не 3-м видимым элементом в строку, выходящим за границу макета)
-	**!оценка: 0-5**
-	 - Если использован display: inline-block, убедиться в том, что нету "пробельного" зазора между элементами в строке. Если есть, **минус 5 баллов**.
+7. Requirements for the blocks and columns:
+	 - Consider the case with more text than in the markup - just add more text to the column and check if the position of the column or layout does not change (limitation by overflow)(**points - 0-10**)
+	 - You should consider the case when one more column is added to menu section. This column should appear under the first one or in the center of the next line or hidden by overflow property. It should not break the layout by being positioned as a third visible element outside of parent's borders(**points - 0-5**);
+	 - If you are going to use inline-block property, make sure that there is no free space between the elements(**points - 0-5**);
 
-8. Картинки в разделе "fine ingredients" должны иметь формат обычных изображений (прямокгольник или квадрат) и должны быть обработаны средствами CSS (border, border-radius).
-**!оценка: 0-10**
+8. Images in *fine ingredients* section should be square or rectangle-shaped and should be styled with CSS (border, border-radius)(**points - 0-10**);
 
-9. Форма должна быть оформлена в виде тега form и всего надлежащего внутри. Форма должна содержать базовую браузерную валидацию на Email, а поля Name, Email и Date должны быть required. В макете, учтите, ошибка в названии поля. У вас ее быть не должно.
-**!оценка: 0-10**
+9. The form should be implemented with a *form* tag and with proper tags inside of it. Add basic browser validation for Email input field. Name, Email and Date fields should be required. Please ignore typo on one of template's input fields, you should fix it in your application(**points - 0-10**);
 
-10. Footer должен прибит к низу. Прибитие значит, что если убрать контент на странице, кроме футера, то футер будет все равно внизу.
-**!оценка: 0-5**
+10. The footer should be placed at the bottom of the page, meaning that if all the content but the footer is deleted from the page, the footer will still be placed at the bottom(**points - 0-5**);
 
-11. На сайте динамики может не быть, кроме событий hover. К ним можно и нужно применить стилевое оформление на ваше усмотрение, например при наведении курсором на элементы верхенго меню.
-**!оценка: 0-5**
+11.You should implement CSS style effects for the hover events(which effect to use is up to you - for example, the color of the navigation button can change on hover)(**points - 0-5**);
 
-Header можно делать фиксированным при прокрутке на фоне градиента, но доп. баллов за это не предусмотрено.
+The header can be fixed on the gradient background when scrolling, but not additional points are added for this feature.
 
-Использовать можно любую сеточную технологию. Можно использовать font-awesome для иконок.
+You may use any grid markup (Flex or Grid) you want. Font-awesome can be used for icons.
 
-Препроцессоры и постпроцессоры использовать не обязательно. Отдавать на выходе файлы типа .scss, .less нельзя. Также нельзя использовать bootstrap или подобную библиотеку. Все должно быть сделано самостоятельно. штраф **минус 40 баллов**.
+Pre-processors and post-processors are not necessary. In case if you decide to use these tools, the final file should still be in *.css* format. **Use of libraries such as Bootstrap is not allow**. The whole layout should be implemented by the you. Fine for non-compliance - **40 points**.
 
-## Полезные ссылки
-
-[Презентации](https://github.com/rolling-scopes/front-end-course/wiki/Position.-Floats.-Semantics.-CSS3)
-
-[Видео лекции от 06.10.2017](https://youtu.be/gYYWe7vlEQk)
-
-Ссылки на шрифты:
-
-[yeseva-one](https://www.fontsquirrel.com/fonts/yeseva-one)
-
-[gentium-basic](https://www.fontsquirrel.com/fonts/gentium-basic)
-
-[lato](https://www.fontsquirrel.com/fonts/lato)
-
-[open-sans](https://www.fontsquirrel.com/fonts/open-sans)

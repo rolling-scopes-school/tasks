@@ -1,37 +1,33 @@
 ﻿Deadline         | Folder Name    | Coefficient
 -----------------|----------------|--------------
-18.10.2016 23:59 | css-recipes    | 0.5
+02.04.2020 23:59 | css-recipes    | 0.5
 
-Ссылка на макет:
+[Link to PSD template](https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&preview=CV+Portfoilio.psd)
 
-https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&preview=CV+Portfoilio.psd
+##Technical Requirements:
 
-Требования:
+1.Support the latest version of Chrome Browser.
 
-1.Поддержка последней версии Chrome и  FF, IE11.
+2.The footer should be placed strictly at the bottom of the page(if all the content but the footer is deleted from the page, the footer will still be placed at the bottom).
 
-2.Footer прижат к низу.
+3.Columns should be of the same height.
 
-3.Колонки одинаковой высоты.
+4.You can get fonts here:
 
-4.Шрифты взять здесь:
+[Montserrat](https://www.google.com/fonts/specimen/Montserrat)
 
-https://www.google.com/fonts/specimen/Montserrat
+[Open+Sans](https://www.google.com/fonts/specimen/Open+Sans)
 
-https://www.google.com/fonts/specimen/Open+Sans
+You may use fonts such as Font Awesome for icons.
+The layout **should not** be implemented with:
+- Using tables (an outdated technique for implementing layouts);
+- CSS Grid or Flexbox( will be covered in the following lectures and tasks).
 
-Можно использовать шрифты (например, Font Awesome) для иконок.
+The layout **should not** break after deleting or adding an element.
 
-Не допускается верстать каркас (layout) страницы табличной версткой (устаревший вариант), flexbox’ами (будет в следующих лекциях), а также с помощью CSS Grid.
+You should add hover effects for active elements (such as buttons, links, etc.), which effect to use is up to you - for example, the color of a button can change on hover.
 
-При добавлении/удалении какого-нибудь компонента, страница не должна развалиться
-
-Продумать самостоятельно hover стили
-
-
-Дополнительно:
-Картинки для контента  на страницу можно поместить по желанию.
-
-http://www.lipsum.com/ - для заполнения страницы текстом
-
-![alt tag](http://memesmix.net/media/created/09516c.jpg)
+###Additional
+ - If you want you can add images to your page content.
+ 
+ [text generator](http://www.lipsum.com/)
