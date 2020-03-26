@@ -4,7 +4,7 @@
 
 [Link to PSD template](https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&preview=CV+Portfoilio.psd)
 
-##Technical Requirements:
+### Technical Requirements:
 
 1.Support the latest version of Chrome Browser.
 
@@ -27,7 +27,7 @@ The layout **should not** break after deleting or adding an element.
 
 You should add hover effects for active elements (such as buttons, links, etc.), which effect to use is up to you - for example, the color of a button can change on hover.
 
-###Additional
+### Additional
  - If you want you can add images to your page content.
  
  [text generator](http://www.lipsum.com/)
