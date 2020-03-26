@@ -28,7 +28,7 @@ Implemented layout (files/folders with the content) have to be pushed to *the ma
 
 **100** - the maximum amount of points you can get for implementing this task
 
-!Points - **0-10** means that if none of the criteria are not met, the student gets **0** points, otherwise if everything is implemented correctly - **10** points; for the partial implementation of the feature the number of points are set at mentor's discretion.
+!Points - **0-10** means that if none of the criteria are met, the student gets **0** points, otherwise if everything is implemented correctly - **10** points; for the partial implementation of the feature the number of points are set at mentor's discretion.
 
 Points can be cut down in case of mistakes (described in the technical requirements)
 
@@ -65,9 +65,9 @@ Points can be cut down in case of mistakes (described in the technical requireme
 
 11.You should implement CSS style effects for the hover events(which effect to use is up to you - for example, the color of the navigation button can change on hover)(**points - 0-5**);
 
-The header can be fixed on the gradient background when scrolling, but not additional points are added for this feature.
+The header can be fixed on the gradient background when scrolling, but no additional points are added for this feature.
 
-You may use any grid markup (Flex or Grid) you want. Font-awesome can be used for icons.
+You may use any grid markup you want (e.g.: Flex or Grid). Font-awesome can be used for icons.
 
-Pre-processors and post-processors are not necessary. In case if you decide to use these tools, the final file should still be in *.css* format. **Use of libraries such as Bootstrap is not allow**. The whole layout should be implemented by the you. Fine for non-compliance - **40 points**.
+Pre-processors and post-processors are not necessary. In case if you decide to use these tools, the final file should still be in *.css* format. **Use of libraries such as Bootstrap is not allow**. The whole layout should be implemented by you. Fine for non-compliance - **40 points**.
 
