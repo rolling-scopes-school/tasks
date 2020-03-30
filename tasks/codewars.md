@@ -1,4 +1,4 @@
-Codewars:
+# Codewars Stage2:
 
    1. (8 kyu) http://www.codewars.com/kata/opposite-number
    2. (8 kyu) http://www.codewars.com/kata/basic-mathematical-operations
@@ -41,7 +41,7 @@ Codewars:
      - (1 kyu) http://www.codewars.com/kata/functional-sql
      - (5 kyu) http://www.codewars.com/kata/can-you-get-the-loop
   
-  ### Scoring criteria
+## Scoring criteria
 *  1 point for 8 kyu and 7 kyu tasks (14 tasks at all)
 *  4 points - 6 kyu (11 at all)
 *  5 points - 5 kyu (7 at all)
@@ -52,4 +52,4 @@ Additionally you can score:
 *  5 points - 5 kyu (3 tasks)
 *  20 points - 1 kyu (1 task)
 
-Total sum - 128 points. 
+**Total sum - 128 points.**
