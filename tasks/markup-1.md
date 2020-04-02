@@ -2,7 +2,7 @@
 |-----------|-------------|
 | 14.04.2020 18.00 | layout-restaurant |
 
-# Homework: markup-1
+# Homework: Layout(Restaurant)
 
 Create web page, strictly according to:
 
