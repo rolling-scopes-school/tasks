@@ -5,7 +5,7 @@
    3. (8 kyu) http://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
    4. (8 kyu) http://www.codewars.com/kata/transportation-on-vacation
    5. (7 kyu) http://www.codewars.com/kata/get-the-middle-character
-   6. (5 kyu) http://www.codewars.com/kata/partition-on
+   6. (6 kyu) https://www.codewars.com/kata/545cedaa9943f7fe7b000048
    7. (8 kyu) http://www.codewars.com/kata/word-count
    8. (8 kyu) http://www.codewars.com/kata/remove-first-and-last-character-part-two
    9. (8 kyu) http://www.codewars.com/kata/implement-a-filter-function
