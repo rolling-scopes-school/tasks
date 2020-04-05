@@ -2,7 +2,7 @@
 
 | Deadline         | Repository name| Branch name |
 | ---------------- | ----------- | ----------- |
-| 05.04.2020 23:59 | english-for-kids    | develop    |
+| 18.04.2020 23:59 | english-for-kids    | develop    |
 
 **English for kids** - приложение для изучения английских слов детьми.
 
