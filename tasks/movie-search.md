@@ -83,7 +83,7 @@
 
 ## Cross-check
 - инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
-- форма для проверки задания: [cross-check-english-for-kids.netlify.com](https://cross-check-english-for-kids.netlify.com/)
+- форма для проверки задания: [cross-check-movie-search.netlify.com](https://cross-check-movie-search.netlify.com)
 
 ## Ключевые навыки
 
