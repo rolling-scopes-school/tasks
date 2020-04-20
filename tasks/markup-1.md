@@ -21,7 +21,7 @@ Implemented layout (files/folders with the content) have to be pushed to *the ma
 *GitHub: create a pull request ('new pull request' button)
 *GitHub: pick a master branch as a target branch (master <-- markup-1), set your mentor as a reviewer( click the **reviewers** label in the right corner and pick your mentor from the list)
 *Github: click the **pull request** button
-*Summary: in a nutshell, we are suggesting to merge markup-1 brunch with master brunch, and set our mentor as a **reviewer**.
+*Summary: in a nutshell, we suggest to create a PR from markup-1 brunch to the master brunch, and set our mentor as a **reviewer**. **Do not merge until it has been approved by a mentor**.
 ```
 
 ## Success criteria
