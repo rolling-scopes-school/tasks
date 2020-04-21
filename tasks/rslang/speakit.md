@@ -125,3 +125,81 @@ https://youtu.be/k7kKaa5KwBs
 ### Документ для вопросов
 - документ для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1owDtS2YLnF9ijSNjPtcPmpiFql8jcfQ6d4OB6zz53zE/edit#gid=0
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму: https://forms.gle/xo514226dk3VWaZ47
+
+## Пример получения данных по словам при помощи Fetch API
+
+Для этого создан REST API по адресу: `https://afternoon-falls-25894.herokuapp.com/`  
+На данный момент можно пользоваться следующими GET эндпоинтами для получения списка слов:  
+`https://afternoon-falls-25894.herokuapp.com/words/count` - получить общее количество слов  
+`https://afternoon-falls-25894.herokuapp.com/words?page=2&perPage=50` - получить 50 слов 2-я страница  
+
+REST сервис возвращает только JSON, без изображений и звуковых файлов. 
+
+Количество страниц вы определяете сами, оно равно `Общее количество слов / количество слов на страницу`. В примере выше запрашиваются 50 слов со второй страницы из 3600 / 50 = 72 страниц. Максимальное количество слов на страницу в запросе равно 100.   
+
+<details> 
+  <summary>Примеры асинхронных запросов</summary>
+
+  <p></p>
+
+  JS-код для получения списка слова (слова выводятся в консоль)
+
+  - при помощи fetch
+  
+   ``` javascript 
+    const getWords = async (page, perPage) => {
+        const url = `https://afternoon-falls-25894.herokuapp.com/words?page=${page}&perPage=${perPage}`;
+        const res = await fetch(url);
+        const json = await res.json();
+        console.log(JSON.stringify(json, null, 1));
+    };  
+  ```
+  
+   - результат вызова
+   
+ ```json
+    [
+     {
+      "_id": "5e8aaaf87c3d1d199c0f2d74",
+      "word": "camera",
+      "image": "files/01_0007.jpg",
+      "audio": "files/01_0007.mp3",
+      "audioMeaning": "files/01_0007_meaning.mp3",
+      "audioExample": "files/01_0007_example.mp3",
+      "textMeaning": "A <i>camera</i> is a piece of equipment that takes pictures.",
+      "textExample": "I brought my <b>camera</b> on my vacation.",
+      "transcription": "[kǽmərə]",
+      "__v": 0
+     },
+     {
+      "_id": "5e8aaaf87c3d1d199c0f2d75",
+      "word": "capital",
+      "image": "files/01_0008.jpg",
+      "audio": "files/01_0008.mp3",
+      "audioMeaning": "files/01_0008_meaning.mp3",
+      "audioExample": "files/01_0008_example.mp3",
+      "textMeaning": "A <i>capital</i> is a city where a country’s government is based.",
+      "textExample": "The <b>capital</b> of the United States is Washington, D.C.",
+      "transcription": "[kæpətl]",
+      "__v": 0
+     },
+     {
+      "_id": "5e8aaaf87c3d1d199c0f2d76",
+      "word": "catch",
+      "image": "files/01_0009.jpg",
+      "audio": "files/01_0009.mp3",
+      "audioMeaning": "files/01_0009_meaning.mp3",
+      "audioExample": "files/01_0009_example.mp3",
+      "textMeaning": "To <i>catch</i> is to grab or get something.",
+      "textExample": "Did you <b>catch</b> the ball during the baseball game?",
+      "transcription": "[kætʃ]",
+      "__v": 0
+     }
+    ]
+```
+Для получения изображений и звуков можно форкнуть репозиторий по ссылке: `https://github.com/irinainina/rslang-data`  
+После получения списка слов можно будет создавать новые HTML элементы с ссылками на нужные файлы.  
+Например, для изображение `files/01_0009.jpg` надо создать следующий элемент:  
+`<img src="https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/rslang-data/master/data/01_0009.jpg">`  
+обратите внимание, что вместо YOUR-GITHUB-USERNAME надо подставить свои данные. Так же, то что в ссылку подставляется  только имя файла без директории `file/`
+</details> 
