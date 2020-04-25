@@ -112,11 +112,11 @@
   - [Магические числа](https://ru.code-basics.com/languages/javascript/modules/variables/lessons/magic-numbers)
   - [Как писать чистый код: обзор лучших практик JavaScript](https://techrocks.ru/2019/08/27/writing-clean-code-in-javascript/)
   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
-- **API++
+- **API**
   - [OMDb API](http://www.omdbapi.com/)
   - [Yandex.Translate API](https://tech.yandex.com/translate/)
   - [Swiper API](https://swiperjs.com/api/)
-- **Туториалы##
+- **Туториалы**
 - [How to build a movie search app](https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/)
 
 
