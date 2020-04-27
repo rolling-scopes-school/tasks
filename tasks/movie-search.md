@@ -103,7 +103,7 @@
 
 ## Штрафные баллы
 - [ ] не выполняются требования к pull request, репозиторию, коммитам: -10 баллов (оценивает только ментор)
-- [ ] присутствуют ошибки в консоли, связанные с исполняемым кодом (ошибки типа favicon.ico: Failed to load resource: the server responded with a status of 404 или ошибки, связанные с запросами к API, не учитываются) или предупреждения eslint-config-airbnb-base: -15
+- [ ] присутствуют ошибки в консоли, связанные с исполняемым кодом (ошибки типа favicon.ico: Failed to load resource: the server responded with a status of 404 или ошибки, связанные с запросами к API, не учитываются) или предупреждения eslint-config-airbnb-base: -15 баллов (оценивает только ментор)
 
 ## Cross-check
 - инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
