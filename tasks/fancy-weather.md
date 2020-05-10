@@ -201,12 +201,17 @@
 - **API погоды**
   - [React-приложение Прогноз погоды на 5 дней](https://medium.com/@leizl.samano/how-to-make-a-weather-app-using-react-403c88252deb)
   - [React-приложение Прогноз погоды](https://tproger.ru/translations/react-basic-weather-app/)
-
+  
+- **Тестирование. Юнит-тесты. Jest**
+  - [Testing](https://youtu.be/xrS60rkoG3w)
+  - [Testing live coding](https://youtu.be/qFSrImO04X8)
+  - [Jest. Unit Тестирование в JavaScript](https://youtu.be/IEDe8jl5efU)
+  
 - **Советы по качеству кода**
   - [Магические числа](https://ru.code-basics.com/languages/javascript/modules/variables/lessons/magic-numbers)
   - [Как писать чистый код: обзор лучших практик JavaScript](https://techrocks.ru/2019/08/27/writing-clean-code-in-javascript/)
   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
-  
+
 - **Иконки погоды**
   - [Анимированные иконки для API DarkSky](https://darkskyapp.github.io/skycons/)
   - [Animated SVG Weather Icons](https://codepen.io/atiyahaider/pen/XwmPxq?editors=1100)
