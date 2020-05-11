@@ -36,7 +36,7 @@
 
 ## Макет приложения:
 
-![screenshot](../images/speakit.png)
+![screenshot](../images/english-puzzle.png)
 
 ## Исходные данные
 
