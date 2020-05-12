@@ -211,14 +211,13 @@
   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
 
 - **Иконки погоды**
-  - [Анимированные иконки для API DarkSky](https://darkskyapp.github.io/skycons/)
   - [Animated SVG Weather Icons](https://codepen.io/atiyahaider/pen/XwmPxq?editors=1100)
   - [Animated Weather Icons](https://codepen.io/irinainina/pen/ZEYORmy)
   - [Free animated SVG weather icons](https://www.amcharts.com/free-animated-svg-weather-icons/)
   - [Free to use animated weather icons](https://github.com/basmilius/weather-icons/tree/master/design/fill/animation-ready)
   - [Иконки макета в Figma](https://wxeka.mrmarkel.com/pws/css/icons/)
   - [owfont - symbol font for Open Weather Map API](https://websygen.github.io/owfont/)
-  
+  - [ClimaCell-API weather icons](https://github.com/ClimaCell-API/weather-code-icons)
 </details>
 
 <details> 
@@ -237,7 +236,7 @@
 - [Geolocation API](https://developer.mozilla.org/ru/docs/Web/API/Geolocation/getCurrentPosition)
 
 **2. Weather API**  
-OpenWeatherMap, Weatherbit, AccuWeather, Dark Sky, Weather2020 и др.
+OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
 
 - https://openweathermap.org/
   - регистрируемся на сайте
@@ -246,14 +245,36 @@ OpenWeatherMap, Weatherbit, AccuWeather, Dark Sky, Weather2020 и др.
   - получаем данные о погоде на ближайшие пять дней  
     `https://api.openweathermap.org/data/2.5/forecast?q=Kiev&lang=ua&units=metric&APPID=a9a3a62789de80865407c0452e9d1c27`
   - [API Docs](https://openweathermap.org/api)
-- https://darksky.net/
+- https://www.weatherbit.io (500 запросов/сутки)
   - регистрируемся на сайте
-    `https://darksky.net/dev/register`
+    `https://www.weatherbit.io/account/create`
+  - входим в личный кабинет
+    `https://www.weatherbit.io/account/login`
+  - выбираем план Free
+  - копируем API key со вкладки API Keys / Admin
+  - получаем данные о погоде на ближайшие три дня  
+    `https://api.weatherbit.io/v2.0/forecast/daily?city=Moscow&country=RU&days=3&units=S&lang=be&key=619b6dd131094859b162bb2577321b2a`
+  - [API Docs](https://www.weatherbit.io/api)
+- https://www.weatherapi.com (20000 запросов/месяц)
+  - регистрируемся на сайте
+    `https://www.weatherapi.com/signup.aspx`
   - подтверждаем email (переходим по ссылке, которая пришла на почту)
-  - получаем Secret Key
-  - получаем данные о погоде погоде на ближайшие семь дней  
-    `https://api.darksky.net/forecast/2bf27985f5a6844febcdc43c99cc81ce/53.5359,27.3400?lang=be`
-  - [API Docs](https://darksky.net/dev/docs)
+  - входим в личный кабинет 
+    `https://www.weatherapi.com/login.aspx`
+  - копируем API key
+  - получаем данные о погоде на ближайшие три дня
+    `https://api.weatherapi.com/v1/forecast.json?key=363474e96d194f10ab9212718201105&q=Moscow&days=3`
+  - [API Docs](https://www.weatherapi.com/docs/)
+- https://www.climacell.co/ (1000 запросов/сутки)
+  - регистрируемся на сайте
+    `https://developer.climacell.co/sign-up`
+  - подтверждаем email (переходим по ссылке, которая пришла на почту)
+  - входим в личный кабинет 
+    `https://developer.climacell.co/sign-in`
+  - копируем API key
+  - получаем данные о погоде на ближайшие дни
+    `https://api.climacell.co/v3/weather/forecast/daily?lat=55.7522&lon=37.6156&unit_system=si&start_time=now&fields=feels_like%2Ctemp%2Chumidity%2Cwind_speed%2Cweather_code&apikey=rh8L0roTYDgi9hvbGsd6X3cu5rRWiV05`
+  - [API Docs](https://developer.climacell.co/v3/docs)
 
 **3. Images API**
 
