@@ -25,7 +25,6 @@
 ### Примеры работ
 - https://deadline2020-fancy-weather.netlify.com/
 - https://fancy-weather-lhk.surge.sh/
-- https://chakapega-fancy-weather.netlify.com/
 - https://my-fancy-weather.netlify.com/
 
 ### Описание функциональных блоков
