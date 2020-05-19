@@ -20,7 +20,7 @@
     - the `tab` key creates a horizontal indent
     - pressing the rest of the functional keys on the keyboard does not result in inputting symbols
     - the `backspace` key removes character before the cursor
-    - the `del` key removes character acter the cursor
+    - the `del` key removes character after the cursor
     - the `shift`, `alt`, `ctrl`, `caps lock` and `space` keys should work as on a real keyboard
 
 ### Technical requirements
