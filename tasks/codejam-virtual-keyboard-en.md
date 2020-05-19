@@ -104,7 +104,7 @@ Example:
 - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ## Evaluation criteria:
-**Maximum points for the task: 110**
+**Maximum score for the task: 110**
 
 `Minimal scope:`
 - [ ] the generation of DOM elements is implemented. `body` in the `index.html` is empty (can contain only `script` tag): `+20`
@@ -134,4 +134,3 @@ Example:
 - [Keycode](https://keycode.info) (Please note that `event.keyCode` is deprecated)
 - [Keyboard events](https://learn.javascript.info/keyboard-events)
 - [Eslint (eslint-config-airbnb-base)](https://eslint.org/)
-
