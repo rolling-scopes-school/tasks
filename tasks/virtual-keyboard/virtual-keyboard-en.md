@@ -8,6 +8,7 @@
 - `index.html` file should be empty (all the necessary elements are generated with the usage of JS)
 - pressing a key on a physical keyboard highlights the key on the virtual keyboard:
   ![screenshot](images/virtual-keyboard-1.png)
+  
   **There may be differences in keystrokes on different operating systems (Windows, macOS). To avoid mistakes, it's necessary to specify in which OS the virtual keyboard was created**
 - if several buttons are pressed, all the pressed buttons are highlighted on the virtual keyboard (there're no exceptions for `Ctrl`, `Alt` and `Shift` as well)
   ![screenshot](images/virtual-keyboard-2.png)
