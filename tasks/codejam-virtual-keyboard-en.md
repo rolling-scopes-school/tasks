@@ -5,7 +5,7 @@
 
 ### Functional requirements:
 - design is up to you
-- initially, the index.html file must be empty (all the necessary elements should be generated with the usage of JS)
+- index.html file must be empty (all the necessary elements should be generated with the usage of JS)
 - typing on a physical keyboard should highlight a pressed key on the virtual keyboard:
   ![screenshot](images/virtual-keyboard-1.png)
   **There may be differences in keystrokes on different operating systems (Windows, macOS). To avoid mistakes, it's necessary to indicate on the Virtual Keyboard page in which OS the virtual keyboard was created**
