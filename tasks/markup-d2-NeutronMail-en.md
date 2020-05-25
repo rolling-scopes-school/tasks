@@ -1,9 +1,5 @@
-﻿| Deadline  | Folder name |
-|-----------|-------------|
-| 21.04.2019 23:59 | NeutronMail |
 
-
-# Homework: NeutronMail. Difficulty Level 2.
+# Homework: NeutronMail. 
 
 Create a web page, strictly according to:
 
