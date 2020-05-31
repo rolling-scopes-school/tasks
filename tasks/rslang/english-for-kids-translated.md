@@ -2,7 +2,7 @@
 
 | Deadline         | Folder name| Branch name |
 | ---------------- | ----------- | ----------- |
-| 19.04.2020 23:59 | english-for-kids    | english-for-kids    |
+|                  | english-for-kids    | english-for-kids    |
 
 **English for kids** - an application for learning English words for kids.
 
@@ -46,11 +46,47 @@ The application works in training and game modes.
 The description of the application in these modes is located in the evaluation criteria (Basic scope and Advanced scope, respectively). When you load the application or reload the page, the application opens in training mode. Switching between training and playing modes is triggered by clicking the Train / Play switch button.
 
 ## Repository requirements
-- to develop the application use school’s private repository. [How to work with a private repository](https://docs.rs.school/#/stage2?id=Как-работать-с-приватным-репозиторием)
-- the commit history should reflect the application development process. [Commit Requirements](https://docs.rs.school/#/git-convention)
-- the demo version of the application should be available at  `https://www.netlify.com/`, or on another similar hosting. For demos hosted on netlify.com, the name of the site should in the following format: name of the github account - name of the task.
-- after the end of development process or just before the deadline, create a pull request from the english-for-kids branch to the master branch. [Pull request requirements.](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Do not merge the pull request.
-- application is checked by mentor
+- the work should be done in your private repository
+- source code should be committed to a separate branch
+- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
+- once the work is finished, create a pull request from a development branch to master
+- the pull request name should contain **the task name**
+- the pull request description should contain the following information:
+    - link to the task
+    - screenshot of your application (one would be enough)
+    - link to your application
+    - date of completion/deadline
+    - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
+
+Example:
+
+```
+1. Task:
+   Link to the current is here
+2. App screenshot:
+   Your screenshot is here
+3. Deploy:  
+   A link to your deployed application is here
+4. Done 19.04.20 (deadline 19.04.20)
+5. Score: 200 / 200
+- [x] Minimal scope
+    - [x] Feature 1 is implemented (+10)
+    - [x] Feature 2 is implemented (+10)
+- [x] Basic scope
+    - [x] Feature 3 is implemented (+10)
+    - [x] Feature 4 is implemented (+10)
+- [x] Extra scope
+    - [x] Feature 5 is implemented (+10)
+    - [x] Feature 6 is implemented (+10)
+- [x] Technical requirements
+    - [x] ESLint is used (+10)
+    - [x] ES6 features are used (+10)
+    - [x] Requirements to the repository, commits and pull request are met (+10)
+- [x] Penalties
+    - [x] Errors while app's working. (-10 for each, but no more than the total number of points for requirement implementation)
+    - [x] Not comply with the requirements for Pull Request, repository, commits names (-10) scores by mentor
+```
 
 ## Technical requirements
 - the application is checked in the latest version of Google Chrome
