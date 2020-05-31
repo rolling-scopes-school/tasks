@@ -27,7 +27,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 - there are links to the pages with categories of words on the main page of the application
 - the minimum number of categories is eight
 - each link contains a thematic image and a category name
-- links are duplicated in the animated sidebar menu, which appears and disappears by toggling the icon in the upper left corner of the page
+- links are duplicated in the animated sidebar menu, which appears and disappears by clicking the icon in the upper left corner of the page
 - on the main page and category pages of the application, there is a Train / Play switch button
 
 2. Category Page
