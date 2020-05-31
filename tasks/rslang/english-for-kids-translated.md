@@ -80,7 +80,7 @@ The description of the application in these modes is located in the evaluation c
   - [ ] all elements specified in the task are present on both the mobile and desktop versions
   - [ ] all described application design requirements are met
 
-- **Layout, design, UI of interactive menu: (+10)**
+- **Layout, design, UI of the interactive menu: (+10)**
   - [ ] all described application design requirements are met
   - [ ] menu links are functional and lead to corresponding categories page of words
   - [ ] active link is styled differently
