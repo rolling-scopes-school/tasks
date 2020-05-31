@@ -75,7 +75,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 ### Hacker scope +20
 
 - [ ] animation of tiles' movement on frame: `+10`
-- [ ] when game is finished, following message is displayed "Hooray! You solved the puzzle in ##:## and N moves ". `+10`
+- [ ] when the game is finished, the following message is displayed "Hooray! You solved the puzzle in ##:## and N moves ". `+10`
 
 ## Cross-Check
 
