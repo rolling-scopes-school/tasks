@@ -1,0 +1,102 @@
+# RSS Gem Puzzle
+
+| Deadline | Repository name | Branch name |
+| -------- | --------------- | ----------- |
+|          | gem-puzzle      | develop     |
+
+## Task
+
+You have to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wiki/15_puzzle)
+
+### Game rules
+
+`Игра представляет собой набор одинаковых квадратных костяшек с нанесёнными числами, заключённых в квадратную коробку. Длина стороны коробки в четыре раза больше длины стороны костяшек для набора из 15 элементов, соответственно в коробке остаётся незаполненным одно квадратное поле. Цель игры — перемещая костяшки по коробке, добиться упорядочивания их по номерам, желательно сделав как можно меньше перемещений`
+
+`Game is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The puzzle also exists in other sizes, particularly the smaller 8-puzzle. If the size is 3×3 tiles, the puzzle is called the 8-puzzle or 9-puzzle, and if 4×4 tiles, the puzzle is called the 15-puzzle or 16-puzzle named, respectively, for the number of tiles and the number of spaces. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.`
+
+### Approximate appearance
+
+![](https://i.imgur.com/AFOXNmG.png)
+
+### Main functional requirements
+
+`Basic (required):`
+
+- the design is up to you, but it must be responsive (desktop, tablet, mobile), when switching between versions everything should be displayed correctly, all functionality should be present, nothing should disappear or leave beyond the screen. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
+- initially, `body` in the index.html file should be empty, all necessary elements are generated using JS (this requirement is not checked)
+- default size of frame is 4x4
+- at the beginning state of game, frame is filled with randomly generated numbers, when starting a new game, numbers are re-shuffled
+- when you click on a tile next to an empty cell, the tile moves to the empty cell
+- tiles can be dragged to an empty cell with the help of mouse
+- the game can be restarted without reloading the page
+- display the game duration in minutes and seconds "##:##" and the number of moves
+- usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), [webpack](https://webpack.js.org/) (this requirement is not checked)
+- implement the functionality to save the game (for example, using localStorage), so that on page reload, player can continue from where they left off
+
+`additional (to get extra points):`
+
+- implement functionality to choose frame size: from 3х3 to 8х8
+- implement animations for sliding/movement of tiles
+- on sucessful game solution, display message: «Hurray! You have solved the puzzle in #:## and N moves»
+- the top 10 results are saved in the high score table and can be viewed in any way (for example, by pressing a button)
+
+## Repository requirements
+
+- use your own private reposity to develop the application
+- repository name: **gem-puzzle**, branch name for development - **develop**, **master** branch is empty, only contains README.md
+- history of commits must reveal the process of development. [Requirements for commits](https://docs.rs.school/#/git-convention)
+- demo-version of application should be deployed on `https://www.netlify.com/`, or any other similar hosting
+- once development has been finished, or the deadline has arrived, create pull request from branch **develop** to branch **master**. [Pull Request Requirements](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Pull Request should not be merged.
+- code, commits, pull requests are not checked and assessed
+- application is only checked during cross-check
+- for task check, link to the demo-version of application must be submitted in rss-app
+
+## Technical requirements
+
+- the application is checked in the latest version of Google Chrome browser
+- jQuery is not allowed
+- you can not use Angular / React / Vue
+- you can use bootstrap, css frameworks, html and css preprocessors
+
+## Criteria for evaluation:
+
+**Maximum score for the task: 100 points for cross-check / check by mentor is not planned**
+
+### Basic scope +30
+
+- [ ] layout, design, UI: `+10`
+- [ ] at the beginning state of game, frame is filled with randomly generated numbers: `+10`
+- [ ] on click on a tile next to an empty cell, the tile moves to the empty cell: `+10`
+
+### Advanced scope +50
+
+- [ ] game can be restarted without page reload: `+10`
+- [ ] game duration and number of moves are displayed: `+10`
+- [ ] tiles can be dragged with use of mouse: `+10`
+- [ ] implemented saving the state of the game and saving the top 10 results using LocalStorage:: `+10`
+- [ ] implemented selection of different sizes for frame: `+10`
+
+### Hacker scope +20
+
+- [ ] animation of tiles' movement on frame: `+10`
+- [ ] when game is finished, following message is displayed "Hooray! You solved the puzzle in ##:## and N moves ". `+10`
+
+## Cross-Check
+
+[Check functionality of game - gem puzzle](https://rolling-scopes-school.github.io/checklist/)
+
+## Useful links
+
+- [Drag-end-drop](https://learn.javascript.ru/mouse-drag-and-drop)
+
+- [Eslint](https://eslint.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Canvas](https://developer.mozilla.org/en/docs/Web/API/Canvas_API/Tutorial)
+- [Game Canvas](https://www.w3schools.com/graphics/game_canvas.asp)
+- [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/), [Mongodb](https://www.mongodb.com/)
+- [Jest](https://jestjs.io/), [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/)
+
+RU:
+
+- [Стрим YouTube Bootstrap( пример подключения webpack, eslint, написания unit-tests)](https://www.youtube.com/watch?v=1Nk09Z4ca4A&list=PLe--kalBDwjj81fKdWlvpLsizajSAK-lh&index=32)
+- [Стрим RSS live coding: game boostrap](https://www.youtube.com/watch?v=pz9SihVxjo8&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=8)
