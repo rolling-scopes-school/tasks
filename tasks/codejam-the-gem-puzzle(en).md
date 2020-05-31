@@ -66,7 +66,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 ### Advanced scope +50
 
-- [ ] game can be restarted without page reload: `+10`
+- [ ] the game can be restarted without reloading the page: `+10`
 - [ ] game duration and number of moves are displayed: `+10`
 - [ ] tiles can be dragged with use of mouse: `+10`
 - [ ] implemented saving the state of the game and saving the top 10 results using LocalStorage:: `+10`
