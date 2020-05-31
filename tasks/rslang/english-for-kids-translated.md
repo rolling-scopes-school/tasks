@@ -24,7 +24,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 
 ## Description of Pages
 1. The Main Page of the Application
-- there are links to the categories pages of words on the main page of the application
+- there are links to the pages with categories of words on the main page of the application
 - the minimum number of categories is eight
 - each link contains a thematic image and a category name
 - links are duplicated in the animated sidebar menu, which appears and disappears by toggling the icon in the upper left corner of the page
