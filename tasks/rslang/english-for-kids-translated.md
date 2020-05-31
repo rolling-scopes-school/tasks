@@ -50,8 +50,7 @@ The description of the application in these modes is located in the evaluation c
 - the commit history should reflect the application development process. [Commit Requirements](https://docs.rs.school/#/git-convention)
 - the demo version of the application should be available at  `https://www.netlify.com/`, or on another similar hosting. For demos hosted on netlify.com, the name of the site should in the following format: name of the github account - name of the task.
 - after the end of development process or just before the deadline, create a pull request from the english-for-kids branch to the master branch. [Pull request requirements.](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Do not merge the pull request.
-- application is checked by mentor and other students (cross-check)
-- a link to the demo version of the application has to be added to rs-app to let other student asses the application during the cross-check
+- application is checked by mentor
 
 ## Technical requirements
 - the application is checked in the latest version of Google Chrome
@@ -72,7 +71,7 @@ The description of the application in these modes is located in the evaluation c
 - take care of interactivity of clickable elements - hovering the elements changes the appearance of it along with the state of the cursor. Use different styles for active and inactive states of the element
 
 ## Evaluation criteria:
-**The maximum score for the task: 170 points for a cross-check / 200 points when checked by a mentor**
+**The maximum score for the task: 200 points**
 
 ### Basic scope +50/+80
 
@@ -138,5 +137,3 @@ The description of the application in these modes is located in the evaluation c
 ### Information resources
 - [forvo.com](https://forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
 - [dictionary.cambridge.org](https://dictionary.cambridge.org/) - get English pronunciation of the word
-
-### Document for questions
