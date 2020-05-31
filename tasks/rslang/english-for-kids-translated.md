@@ -99,7 +99,7 @@ The description of the application in these modes is located in the evaluation c
 - **Code quality requirements are met (+30)** (evaluated by mentors only)
   - [ ] code duplication is kept to minimum: (+10)
   - [ ] js-code is divided into modules: (+10)
-  - [ ] webpack, eslint, eslint-config-airbnb-base and babel are connected and used: (+10)
+  - [ ] webpack, eslint, eslint-config-airbnb-base and babel are used: (+10)
 
 ### Advanced scope +80
 
