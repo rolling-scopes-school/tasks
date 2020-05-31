@@ -127,7 +127,7 @@ The description of the application in these modes is located in the evaluation c
 ## Penalty Points
 - [ ] less than eight categories, less than eight words in each category, data for the last two categories is copied from the demo, and not prepared independently: -10 points
 - [ ]  requirements for pull request, repository, and commit names are not met: -10 points (evaluated by mentors only)
-- [ ] code requirements are not met: -10 points or more (evaluated by mentors only)
+- [ ] source code requirements are not met: -10 points or more (evaluated by mentors only)
 
 ## Video explaining the task description
 - Task overview: https://youtu.be/xXBce4ZLcCQ
