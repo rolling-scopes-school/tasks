@@ -72,7 +72,7 @@ The description of the application in these modes is located in the evaluation c
 - take care of interactivity of clickable elements - hovering the elements changes the appearance of it along with the state of the cursor. Use different styles for active and inactive states of the element
 
 ## Evaluation criteria:
-**The maximum mark for the task: 170 points for a cross-check / 200 points when checked by a mentor**
+**The maximum score for the task: 170 points for a cross-check / 200 points when checked by a mentor**
 
 ### Basic scope +50/+80
 
