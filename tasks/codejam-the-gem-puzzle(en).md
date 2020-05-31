@@ -1,9 +1,5 @@
 # RSS Gem Puzzle
 
-| Deadline | Repository name | Branch name |
-| -------- | --------------- | ----------- |
-|          | gem-puzzle      | develop     |
-
 ## Task
 
 You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wiki/15_puzzle)
