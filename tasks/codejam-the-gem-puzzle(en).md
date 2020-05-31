@@ -54,7 +54,7 @@ You have to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/w
 - the application is checked in the latest version of Google Chrome browser
 - jQuery is not allowed
 - you can not use Angular / React / Vue
-- you can use bootstrap, css frameworks, html and css preprocessors
+- you can use bootstrap, CSS frameworks, HTML and CSS preprocessors
 
 ## Criteria for evaluation:
 
