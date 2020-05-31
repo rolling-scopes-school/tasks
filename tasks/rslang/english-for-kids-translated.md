@@ -34,7 +34,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 - category page includes category name and word cards related to category theme
 - the minimum number of word cards in each category is eight
 - each card has a thematic picture and an English word
-- when you click on the card, you will hear the the pronunciation of the word in English
+- when you click on the card, you will hear the pronunciation of the word in English
 - each card has a button on the right bottom corner, when you click on that button the card flips over. The back side of the card has a translation of the word. Clicking on the back side of the card does not trigger any events like pronunciation of the word.
 - card is rotated back to the front side when the mouse cursor moves beyond the borders of the card
 
