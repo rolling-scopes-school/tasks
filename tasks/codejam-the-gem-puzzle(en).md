@@ -77,10 +77,6 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - [ ] animation of tiles' movement on frame: `+10`
 - [ ] when the game is finished, the following message is displayed "Hooray! You solved the puzzle in ##:## and N moves ". `+10`
 
-## Cross-Check
-
-[Check functionality of game - gem puzzle](https://rolling-scopes-school.github.io/checklist/)
-
 ## Useful links
 
 - [Drag-end-drop](https://learn.javascript.info/mouse-drag-and-drop)
@@ -91,8 +87,3 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - [Game Canvas](https://www.w3schools.com/graphics/game_canvas.asp)
 - [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/), [Mongodb](https://www.mongodb.com/)
 - [Jest](https://jestjs.io/), [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/)
-
-RU:
-
-- [Стрим YouTube Bootstrap( пример подключения webpack, eslint, написания unit-tests)](https://www.youtube.com/watch?v=1Nk09Z4ca4A&list=PLe--kalBDwjj81fKdWlvpLsizajSAK-lh&index=32)
-- [Стрим RSS live coding: game boostrap](https://www.youtube.com/watch?v=pz9SihVxjo8&list=PLe--kalBDwjiBYlF6OivjURvvJg58tYY2&index=8)
