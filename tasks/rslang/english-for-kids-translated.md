@@ -65,7 +65,7 @@ The description of the application in these modes is located in the evaluation c
 ## Application Design Requirements
 - minimum width at which the application is displayed correctly is 320 px
 - since the application is intended for kids, including those who aren't able to read, all labels should be accompanied by pictures or icons if possible
-- you are advised to implement a smooth animation, interesting and relevant design, large and user-friendly buttons, colorful icons, beautiful pictures, light and bright colors
+- smooth animation, interesting and relevant design, large and user-friendly buttons, colorful icons, beautiful pictures, light, and bright colors are desirable
 - all user interface elements in the demo should be present in your application. However, the proposed design is not mandatory and you can make changes to it for improvement purposes
 
 - the design of the final application should look holistic: the look corresponds to user expectations, the pictures for word cards and categories are of good quality and they have the same size and the correct proportions (there are no distortions), all user interface elements function properly, markup does not fall apart when resolution is changed
