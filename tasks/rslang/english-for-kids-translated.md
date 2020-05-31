@@ -149,4 +149,3 @@ Description of the application in these modes is added in evaluation criteria (B
 
 ### Document for questions
 - document for questions related to the assignment: [ссылка](https://docs.google.com/spreadsheets/d/1AZXNZvSq8ZK1KF85S-RYJEqbVtTVCVQ7cj9l4fZ2rxc/edit#gid=0)
-- please add links to the best examples with original design, and/or with additional features to this form: [ссылка](https://forms.gle/d3MM1rRaLU2WU9Hs9)
