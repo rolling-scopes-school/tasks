@@ -108,7 +108,7 @@ The description of the application in these modes is located in the evaluation c
   - [ ] after clicking on the "Start game" button, the random word from those on the page is pronounced. For each page, and for each game, random words are generated anew: (+10)
   - [ ] after the first click on the "Start game" button, the button changes to the "Repeat" icon. When you click on the "Repeat" button, the word is pronounced again: (+10)
   - [ ] the sound signal "error" is played if the user clicks on the wrong active card: (+10)
-  - [ ] the sound signal “correct” is played if the user clicks on the correct active card. After that a new random word from those that have not yet been played is heard: (+10)
+  - [ ] the sound signal “correct” is played if the user clicks on the correct active card. After that, a new random word from those that have not yet been guessed is pronounced: (+10)
   - [ ] a card with correctly guessed word becomes inactive, and its style is changed. Clicks on inactive cards are not accompanied by any sound effects, and they do not affect the game score: (+10)
   - [ ] after the start of the game, each click on the active card is displayed in the form of stars (or other symbols). The correct answer is displayed with one colored star and the wrong answer is displayed with a different colored star. If there are too many stars and there is no space, the previous stars are hidden, and the new ones are added: (+10)
   - [ ] when the game is over: (+10)
