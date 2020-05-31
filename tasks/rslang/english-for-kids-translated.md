@@ -106,7 +106,7 @@ The description of the application in these modes is located in the evaluation c
 - **Game Mode: (+80)**
   - [ ] the game mode is activated by toggling the Train/Play switch button. Features described above for the training mode are disabled for the game mode. The button that flips the card and the text on the card are both hidden. The "Start game" button is displayed. Card size does not change. Only the image remains on the card, which occupies the card's entire area (if this does not contradict your design): (+10)
   - [ ] after clicking on the "Start game" button, the random word from those on the page is pronounced. For each page, and for each game, random words are generated anew: (+10)
-  - [ ] after the first click on the "Start game" button, the button changes to "Repeat" icon. When you click on the "Repeat" button, the word is pronounced again: (+10)
+  - [ ] after the first click on the "Start game" button, the button changes to the "Repeat" icon. When you click on the "Repeat" button, the word is pronounced again: (+10)
   - [ ] the sound signal "error" is played if the user clicks on the wrong active card: (+10)
   - [ ] the sound signal “correct” is played if the user clicks on the correct active card. After that a new random word from those that have not yet been played is heard: (+10)
   - [ ] a card with correctly guessed word becomes inactive, and its style is changed. Clicks on inactive cards are not accompanied by any sound effects, and they do not affect the game score: (+10)
