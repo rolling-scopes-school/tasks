@@ -39,7 +39,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 - a card is rotated back to the front side when the mouse cursor moves beyond the borders of the card
 
 3. Statistics Page
-- the page description is added in the evaluation criteria (Hacker scope)
+- the page description is located in the evaluation criteria (Hacker scope)
 
 ## How Application should work
 The application works in training and game modes.
