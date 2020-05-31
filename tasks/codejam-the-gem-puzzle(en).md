@@ -56,7 +56,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 ## Criteria for evaluation:
 
-**Maximum score for the task: 100 points for cross-check / check by mentor is not planned**
+**Maximum score for the task: 100 points**
 
 ### Basic scope +30
 
