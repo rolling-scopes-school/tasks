@@ -85,7 +85,7 @@ You have to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/w
 
 ## Useful links
 
-- [Drag-end-drop](https://learn.javascript.ru/mouse-drag-and-drop)
+- [Drag-end-drop](https://learn.javascript.info/mouse-drag-and-drop)
 
 - [Eslint](https://eslint.org/)
 - [TypeScript](https://www.typescriptlang.org/)
