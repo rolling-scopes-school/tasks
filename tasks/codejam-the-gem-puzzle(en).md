@@ -42,7 +42,7 @@ You have to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/w
 
 - use your own private reposity to develop the application
 - repository name: **gem-puzzle**, branch name for development - **develop**, **master** branch is empty, only contains README.md
-- history of commits must reveal the process of development. [Requirements for commits](https://docs.rs.school/#/git-convention)
+- history of commits must reveal the process of development. [Conventional commits guideline](https://www.conventionalcommits.org/en/v1.0.0/)
 - demo-version of application should be deployed on `https://www.netlify.com/`, or any other similar hosting
 - once development has been finished, or the deadline has arrived, create pull request from branch **develop** to branch **master**. [Pull Request Requirements](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Pull Request should not be merged.
 - code, commits, pull requests are not checked and assessed
