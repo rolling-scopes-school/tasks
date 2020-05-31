@@ -43,7 +43,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 
 ## How Application should work
 The application works in training and game modes.
-Description of the application in these modes is added in evaluation criteria (Basic scope and Advanced scope, respectively). When you download the application or reload the page, the application opens in training mode. Switching between training and playing modes is triggered by toggling the Train / Play switch button.
+The description of the application in these modes is located in the evaluation criteria (Basic scope and Advanced scope, respectively). When you load the application or reload the page, the application opens in training mode. Switching between training and playing modes is triggered by clicking the Train / Play switch button.
 
 ## Repository requirements
 - to develop the application use school’s private repository. [How to work with a private repository](https://docs.rs.school/#/stage2?id=Как-работать-с-приватным-репозиторием)
