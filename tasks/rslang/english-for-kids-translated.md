@@ -68,7 +68,7 @@ The description of the application in these modes is located in the evaluation c
 - smooth animation, interesting and relevant design, large and user-friendly buttons, colorful icons, beautiful pictures, light, and bright colors are desirable
 - all user interface elements in the demo should be present in your application. However, the proposed design is not mandatory and you can make changes to it for improvement purposes
 
-- the design of the final application should look holistic: the look corresponds to user expectations, the pictures for word cards and categories are of good quality and they have the same size and the correct proportions (there are no distortions), all user interface elements function properly, markup does not fall apart when resolution is changed
+- the design of the final application should look holistic: the look corresponds to user expectations, the pictures for word cards and categories are of good quality and they have the same size and the correct proportions (there are no distortions), all user interface elements function properly, markup does not fall apart when the resolution is changed
 - take care of interactivity of clickable elements - hovering the elements changes the appearance of it along with the state of the cursor. Use different styles for active and inactive states of the element
 
 ## Evaluation criteria:
