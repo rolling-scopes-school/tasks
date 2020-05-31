@@ -94,7 +94,7 @@ The description of the application in these modes is located in the evaluation c
 
 - **Training Mode: (+20)**
   - [ ] when you click on the card, the word is pronounced in English: (+10)
-  - [ ] each card has a button on the right bottom corner, when you click on that button the card flips over. The back side of the card has a translation of the word. Card is rotated back to the front side when the mouse cursor moves beyond the borders of the card: (+10)
+  - [ ] each card has a button on the right bottom corner. When you click on that button the card flips over. The back side of the card has a translation of the word. A card is rotated back to the front side when the mouse cursor moves beyond the borders of the card: (+10)
 
 - **Code quality requirements are met (+30)** (evaluated by mentors only)
   - [ ] code duplication is kept to minimum: (+10)
