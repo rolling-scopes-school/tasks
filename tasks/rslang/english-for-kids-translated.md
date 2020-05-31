@@ -104,7 +104,7 @@ The description of the application in these modes is located in the evaluation c
 ### Advanced scope +80
 
 - **Game Mode: (+80)**
-  - [ ] the game mode is activated by toggling the Train/Play switch button. Features described above for training mode are disabled in game mode. The button that flips the card and the text on the card are both hidden. The "Start game" button is displayed. Card size does not change. Only the image remains on the card, which occupies the card's entire area (if this does not contradict your design): (+10)
+  - [ ] the game mode is activated by toggling the Train/Play switch button. Features described above for the training mode are disabled for the game mode. The button that flips the card and the text on the card are both hidden. The "Start game" button is displayed. Card size does not change. Only the image remains on the card, which occupies the card's entire area (if this does not contradict your design): (+10)
   - [ ] after clicking on the "Start game" button, the random word from those on the page is pronounced. For each page, and for each game, random words are generated anew: (+10)
   - [ ] after the first click on the "Start game" button, the button changes to "Repeat" icon. When you click on the "Repeat" button, the word is pronounced again: (+10)
   - [ ] the sound signal "error" is played if the user clicks on the wrong active card: (+10)
