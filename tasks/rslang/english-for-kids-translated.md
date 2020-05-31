@@ -140,7 +140,7 @@ Description of the application in these modes is added in evaluation criteria (B
 - [Localstorage](https://learn.javascript.ru/localstorage)
 
 ### Information resources
-- [ru.forvo.com](https://ru.forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
+- [forvo.com](https://forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
 - [dictionary.cambridge.org](https://dictionary.cambridge.org/) - get English pronunciation of the word
 - [wooordhunt.ru](https://wooordhunt.ru/word/welcome) - get English pronunciation of the word
 
