@@ -36,7 +36,7 @@ https://english-for-kids.netlify.com/ (version without Hacker scope)
 - each card has a thematic picture and an English word
 - when you click on the card, you will hear the pronunciation of the word in English
 - each card has a button on the right bottom corner. When you click on the button, the card flips over. The back side of the card has a translation of the word. Clicking on the back side of the card does not trigger any events like the pronunciation of the word.
-- card is rotated back to the front side when the mouse cursor moves beyond the borders of the card
+- a card is rotated back to the front side when the mouse cursor moves beyond the borders of the card
 
 3. Statistics Page
 - the page description is added in the evaluation criteria (Hacker scope)
