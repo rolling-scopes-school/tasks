@@ -142,7 +142,6 @@ Description of the application in these modes is added in evaluation criteria (B
 ### Information resources
 - [forvo.com](https://forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
 - [dictionary.cambridge.org](https://dictionary.cambridge.org/) - get English pronunciation of the word
-- [wooordhunt.ru](https://wooordhunt.ru/word/welcome) - get English pronunciation of the word
 
 ### Cross-check
 - cross-check instructions: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
