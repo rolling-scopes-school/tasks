@@ -120,7 +120,7 @@ The description of the application in these modes is located in the evaluation c
 - **Statistics Page: (+40)**
   - [ ]  statistics page contains a list of all categories, all words in each category, and a translation of each word. The minimum width at which statistics page is displayed correctly is 320 px. The presence of a scrollbar in a table with statistics is not considered to be an error: (+10)
   - [ ] statistics is displayed next to each word - how many times a card with a given word was clicked in training mode, how many times this word was guessed in game mode, how many mistakes were made, the percentage of correct answers for each word in game mode. After restarting the application, statistics are saved: (+10)
-  - [ ] it is possible to sort the data alphabetically, for numerical data ​​- by their value. Sorting can occur in direct and reverse order and should cover the entire data range: (+10)
+  - [ ] it is possible to sort the data alphabetically, for numerical data ​​- by their value. Sorting can occur in ascending and descending order and should cover the entire data range: (+10)
   - [ ] there are "Repeat difficult words" and "Reset" buttons on statistics page. The "Reset" button resets statistics. Clicking on the "Repeat difficult words" button opens a page similar to the category page with most frequent words guessed wrong. The page "Repeat difficult words" can have from zero to eight words, depending on how many words were guessed wrong in play mode. After clicking on the "Reset" button, the number of words on the "Repeat difficult words" page is set to zero: (+10)
   - [ ] additional functionality outside of the scope of the task is implemented. This part is not evaluated, but if you can do better, then why not.
 
