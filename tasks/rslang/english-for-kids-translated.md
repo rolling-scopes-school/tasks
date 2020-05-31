@@ -129,11 +129,6 @@ Description of the application in these modes is added in evaluation criteria (B
 - [ ]  requirements for pull request, repository, and commit names are not met: -10 points (evaluated by mentors only)
 - [ ] code requirements are not met: -10 points or more (evaluated by mentors only)
 
-## Video explaining the task description
-- Task overview: https://youtu.be/xXBce4ZLcCQ
-- Task Q & A: https://youtu.be/ctpBIPygV4k
-- Task review https://youtu.be/PdHjLvcOLQw
-
 ## Resources
 - [Folder with data](./english-for.kids.data)  for six categories of words (American pronunciation is used). For the other two missing categories, you should collect the data independently using Internet resources
 - [Bootstrap themes](https://bootswatch.com/)
@@ -143,10 +138,6 @@ Description of the application in these modes is added in evaluation criteria (B
 - [ru.forvo.com](https://ru.forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
 - [dictionary.cambridge.org](https://dictionary.cambridge.org/) - get English pronunciation of the word
 - [wooordhunt.ru](https://wooordhunt.ru/word/welcome) - get English pronunciation of the word
-
-### Cross-check
-- cross-check instructions: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
-- feedback form: [cross-check-english-for-kids.netlify.com](https://cross-check-english-for-kids.netlify.com/)
 
 ### Document for questions
 - document for questions related to the assignment: [ссылка](https://docs.google.com/spreadsheets/d/1AZXNZvSq8ZK1KF85S-RYJEqbVtTVCVQ7cj9l4fZ2rxc/edit#gid=0)
