@@ -35,7 +35,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 - implement functionality to choose frame size: from 3х3 to 8х8
 - implement animations for sliding/movement of tiles
-- on sucessful game solution, display message: «Hurray! You have solved the puzzle in #:## and N moves»
+- on a successful game solution, display the message: «Hurray! You have solved the puzzle in #:## and N moves»
 - the top 10 results are saved in the high score table and can be viewed in any way (for example, by pressing a button)
 
 ## Repository requirements
