@@ -6,7 +6,7 @@
 
 ## Task
 
-You have to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wiki/15_puzzle)
+You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wiki/15_puzzle)
 
 ### Game rules
 
