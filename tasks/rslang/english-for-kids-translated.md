@@ -1,9 +1,5 @@
 # English for kids
 
-| Deadline         | Folder name| Branch name |
-| ---------------- | ----------- | ----------- |
-|                  | english-for-kids    | english-for-kids    |
-
 **English for kids** - an application for learning English words for kids.
 
 ## Application Structure:
