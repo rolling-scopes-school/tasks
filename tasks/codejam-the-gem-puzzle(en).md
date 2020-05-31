@@ -46,7 +46,6 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - demo-version of application should be deployed on `https://www.netlify.com/`, or any other similar hosting
 - once development has been finished, or the deadline has arrived, create pull request from branch **develop** to branch **master**. [Pull Request Requirements](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Pull Request should not be merged.
 - code, commits, pull requests are not checked and assessed
-- application is only checked during cross-check
 - for task check, link to the demo-version of application must be submitted in rss-app
 
 ## Technical requirements
