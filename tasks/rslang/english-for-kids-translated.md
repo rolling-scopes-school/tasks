@@ -148,4 +148,3 @@ Description of the application in these modes is added in evaluation criteria (B
 - feedback form: [cross-check-english-for-kids.netlify.com](https://cross-check-english-for-kids.netlify.com/)
 
 ### Document for questions
-- document for questions related to the assignment: [ссылка](https://docs.google.com/spreadsheets/d/1AZXNZvSq8ZK1KF85S-RYJEqbVtTVCVQ7cj9l4fZ2rxc/edit#gid=0)
