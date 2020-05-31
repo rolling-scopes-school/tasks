@@ -57,7 +57,7 @@ Description of the application in these modes is added in evaluation criteria (B
 - the application is checked in the latest version of Google Chrome
 - use of jQuery is not allowed
 - you are not allowed to use Angular / React / Vue
-- you are allowed to use bootstrap and/or any other css frameworks
+- you are allowed to use bootstrap or any other CSS frameworks
 - you are allowed to use html and css preprocessors
 - you decide whether to use a single-page (SPA) or multi-page (MPA) application development approach, as well as the implementation of navigation between pages
   - if you choose a single-page application (SPA) approach, you do not have to implement all the features of this approach (for example, routing) if they are not critical
