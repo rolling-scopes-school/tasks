@@ -29,7 +29,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - the game can be restarted without reloading the page
 - display the game duration in minutes and seconds "##:##" and the number of moves
 - usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), [webpack](https://webpack.js.org/) (this requirement is not checked)
-- implement the functionality to save the game (for example, using localStorage), so that on page reload, player can continue from where they left off
+- implement the functionality to save the game (for example, using localStorage), so that when the page is reloaded, a player can continue from where he left off
 
 `additional (to get extra points):`
 
