@@ -113,7 +113,7 @@ The description of the application in these modes is located in the evaluation c
   - [ ] when the game is over: (+10)
     - if all words are guessed correctly, the “success” signal is played, cards with words are removed, and a joyful emoticon (or another picture) is displayed on the page
     - if there were errors while guessing the words, the “failure” signal is played, cards with words are removed, and a sad emoticon (or other picture) with the number of mistakes is displayed on the page.
-- afterwards the application automatically redirects to the main page with a list of categories
+    - afterward, the application automatically redirects to the main page with a list of categories
 
 ### Hacker scope +40
 
