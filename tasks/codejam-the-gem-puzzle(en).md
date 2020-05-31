@@ -14,7 +14,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 ### Approximate appearance
 
-![](https://i.imgur.com/AFOXNmG.png)
+![](https://i.imgur.com/yaunqVV.png)
 
 ### Main functional requirements
 
@@ -69,7 +69,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - [ ] the game can be restarted without reloading the page: `+10`
 - [ ] game duration and number of moves are displayed: `+10`
 - [ ] tiles can be dragged with use of mouse: `+10`
-- [ ] implemented saving the state of the game and saving the top 10 results using LocalStorage:: `+10`
+- [ ] implemented saving the state of the game and saving the top 10 results using LocalStorage: `+10`
 - [ ] implemented selection of different sizes for frame: `+10`
 
 ### Hacker scope +20
