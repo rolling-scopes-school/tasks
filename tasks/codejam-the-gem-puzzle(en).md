@@ -61,7 +61,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 ### Basic scope +30
 
 - [ ] layout, design, UI: `+10`
-- [ ] at the beginning state of game, frame is filled with randomly generated numbers: `+10`
+- [ ] at the beginning state of the game, the frame is filled with randomly generated numbers: `+10`
 - [ ] on click on a tile next to an empty cell, the tile moves to the empty cell: `+10`
 
 ### Advanced scope +50
