@@ -20,7 +20,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 `Basic (required):`
 
-- the design is up to you, but it must be responsive (desktop, tablet, mobile), when switching between versions everything should be displayed correctly, all functionality should be present, nothing should disappear or leave beyond the screen. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
+- the design is up to you, but it should be responsive (desktop, tablet, mobile). When switching between versions everything should be displayed correctly, all functionality should be present, nothing should disappear or leave beyond the screen. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
 - initially, `body` in the index.html file should be empty, all necessary elements are generated using JS
 - the default size of the frame is 4x4
 - at the beginning state of game, frame is filled with randomly generated numbers, when starting a new game, numbers are re-shuffled
