@@ -44,7 +44,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - repository name: **gem-puzzle**, branch name for development - **develop**, **master** branch is empty, only contains README.md
 - history of commits must reveal the process of development. [Conventional commits guideline](https://www.conventionalcommits.org/en/v1.0.0/)
 - demo-version of application should be deployed on `https://www.netlify.com/`, or any other similar hosting
-- once development has been finished, or the deadline has arrived, create pull request from branch **develop** to branch **master**. [Pull Request Requirements](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать-следующую-информацию). Pull Request should not be merged.
+- once development has been finished, or the deadline has arrived, create a pull request from the **gem-puzzle** branch to the **master**. Pull Request should not be merged.
 - code, commits, pull requests are not checked and assessed
 - for task check, link to the demo-version of application must be submitted in rss-app
 
