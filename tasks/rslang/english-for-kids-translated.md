@@ -138,7 +138,7 @@ The description of the application in these modes is located in the evaluation c
 ## Resources
 - [Folder with data](./english-for.kids.data)  for six categories of words (American pronunciation is used). For the other two missing categories, you should collect the data independently using Internet resources
 - [Bootstrap themes](https://bootswatch.com/)
-- [Localstorage](https://learn.javascript.ru/localstorage)
+- [Localstorage](https://learn.javascript.info/localstorage)
 
 ### Information resources
 - [forvo.com](https://forvo.com/) - get English pronunciation of the word (several pronunciation options are offered)
