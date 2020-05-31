@@ -69,7 +69,7 @@ The description of the application in these modes is located in the evaluation c
 - all user interface elements in the demo should be present in your application. However, the proposed design is not mandatory and you can make changes to it for improvement purposes
 
 - the design of the final application should look holistic: the look corresponds to user expectations, the pictures for word cards and categories are of good quality and they have the same size and the correct proportions (there are no distortions), all user interface elements function properly, markup does not fall apart when resolution is changed
-- take care of interactivity of clickable elements - on hover change the appearance of the element and the state of the cursor, use different styles for active and inactive states of the element
+- take care of interactivity of clickable elements - hovering the elements changes the appearance of it along with the state of the cursor. Use different styles for active and inactive states of the element
 
 ## Evaluation criteria:
 **The maximum mark for the task: 170 points for a cross-check / 200 points when checked by a mentor**
