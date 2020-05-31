@@ -145,6 +145,7 @@ https://lingualeo.com/ru/training/phrasePuzzle
 - [ ] не выполняются требования к pull request, репозиторию, названиям коммитов -10 (оценивает только ментор)
 - [ ] не используются webpack, editorconfig, eslint, eslint-config-airbnb-base, babel (в т.ч в составе Angular / React / Vue) -10 (оценивает только ментор)
 - [ ] не исправлены ошибки eslint -10 (оценивает только ментор)
+- [ ] присутствуют ошибки в консоли, связанные с исполняемым кодом (ошибки типа favicon.ico: Failed to load resource: the server responded with a status of 404 или ошибки, связанные с запросами к API, не учитываются) -10 баллов (оценивает только ментор)
 
 ## Cross-check
 
