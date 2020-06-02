@@ -2,7 +2,7 @@
 
 | Deadline         | Branch name    | Folder name    |
 | ---------------- | -------------- | -------------- |
-| 10.06.2020 23:59 | english-puzzle | english-puzzle |
+| 14.06.2020 23:59 | english-puzzle | english-puzzle |
 
 **English-puzzle** - мини-игра, цель которой собрать предложения из размещённых в случайном порядке английских слов.
 
