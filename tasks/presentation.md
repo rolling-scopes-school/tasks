@@ -21,7 +21,9 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
      - a link to your Reveal presentation's deploy;
      - a link to the transcript of your presentation;
      - (optional) your comments;  
-  5. Create PR, add there your mentor as a reviewer.
+  5. Make sure that the recording of the speech, the transcript of a presentation and any additional comments are in English. Not meeting the requirements will be considered as a completely failed task.
+  6. Create PR, add there your mentor as a reviewer.
+
 
 ## Evaluation criteria:
   1. Your presentation's made on *Reveal*. Slides and speech transcript are in English: **+20 points**
