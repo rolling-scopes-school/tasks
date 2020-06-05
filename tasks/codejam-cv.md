@@ -22,7 +22,7 @@ which is based on the branch `gh-pages`
 3. You need to create Pull Request `rsschool-cv-html`->`gh-pages` and merge it without removal of branch `rsschool-cv-html` after completing the task
 
 ### Requirements for commits
-https://docs.rs.school/#/git-convention
+https://docs.rs.school/#/en/git-convention
 
 ### Requirements for PR (Pull Request)
 1. PR name should contain **the task name** and probably additional info.
