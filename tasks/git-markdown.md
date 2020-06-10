@@ -40,7 +40,7 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 ### Commits Requirements
 
 - A minimum of 3 commits
-- [Commit names according to the guideline](https://docs.rs.school/#/git-convention)
+- [Commit names according to the guideline](https://docs.rs.school/#/en/git-convention)
 
 ### PR (Pull Request) Requirements
 
@@ -63,7 +63,7 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
    Answer: You do not have "rsschool-cv" repository with "gh-pages" branch and "cv.md" file there. Or there is no “README.md” file in "master" branch.
 
 3. Question: I’ve got 50 and status "Failed commit requirements: ...."  
-   Answer: Your "gh-pages" branch has less then 3 commits or not all commits are made according to the rules: https://docs.rs.school/#/git-convention All commits that do not follow the rules will be written in the status.
+   Answer: Your "gh-pages" branch has less then 3 commits or not all commits are made according to the rules: https://docs.rs.school/#/en/git-convention All commits that do not follow the rules will be written in the status.
    You can check your commits here: https://github.com/%7Your github account}/rsschool-cv/commits/gh-pages
    "Merge ..." or "Initial commit" commits were ignored.
 
