@@ -190,6 +190,7 @@
 - Визуализация исходных данных https://rslang-data.netlify.com/
 - Минимализм в веб-дизайне https://ru.wikipedia.org/wiki/Минимализм_(дизайн)#Минимализм_в_веб-дизайне
 - Метод интервального повторения https://habr.com/ru/post/196448/
+- Ссылка на скачивание Anki https://apps.ankiweb.net/
 - Настройки программы Anki https://englishteacup.org/slovarnyj_zapas/programma-anki-nastrojka-kolod
 - Получение подробного описания слова (например значение слова, транскрипция, часть речи, синонимы, антонимы, примеры использования в предложении) https://www.wordsapi.com/
 
