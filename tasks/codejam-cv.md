@@ -11,7 +11,7 @@ https://your-github-account.github.io/rsschool-cv/
 
 ### Requirements for html/css markup
 - Use semantic markup (where possible)
-- It should follow guidelines: http://codeguide.academy/html-css.html
+- It should follow guidelines: https://codeguide.co/
 - All content should be in the horizontally centered block with width **not more than 1024px**
 - Page should be rendered correctly in the last version of Google Chrome.
 
