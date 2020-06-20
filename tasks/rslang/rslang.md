@@ -565,6 +565,9 @@ Download
 
 Для преобразования строки filter в валидный query-параметр можно использовать следующую функцию: [encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)  
 
+В фильтре также можно обращаться к полям optional объекта userWord:  
+`"userWord.optional.key":value`  
+
 Эндпоинт `/users/{id}/aggregatedWords/{wordId}` позволяет получить агрегированый объект конкретного слова.  
 
 ### Прочие эндпоинты
