@@ -336,6 +336,239 @@ Console: {
   "wordId":"5e9f5ee35eb9e72bc21af716"
 }
 ```
+
+### Users/AggregatedWords
+
+Данные эндпоинты позволяют получить список слов(или одно слово) объединенный с существующими данными в userWords. Например,  в БД существуют userWords следующего вида:
+```json
+[
+  {
+    "id": "5ee9d0709045590017eb504b",
+    "difficulty": "weak",
+    "optional": {
+      "testFieldString": "test",
+      "testFieldBoolean": true
+    },
+    "wordId": "5e9f5ee35eb9e72bc21af716"
+  },
+  {
+    "id": "5eebcde0d3f9e856e68e74e7",
+    "difficulty": "easy",
+    "optional": {
+      "field": "value1"
+    },
+    "wordId": "5e9f5ee35eb9e72bc21af4a1"
+  },
+  {
+    "id": "5eee2d5d3b0620240caa89e1",
+    "difficulty": "strong",
+    "wordId": "5e9f5ee35eb9e72bc21af4a0"
+  }
+]
+```
+Запрос к `/users/{id}/aggregatedWords` со следующими параметрами:  
+```
+userId: 5ec8942878c1e84b43e871ac
+group: 0
+wordsPerPage: 3
+filter: {
+"userWord.difficulty":"strong"
+}
+onlyUserWords: false
+```
+<details> 
+  <summary>должен вернуть такой ответ:</summary>
+
+  <p></p>
+
+```json
+[
+  {
+    "paginatedResults": [
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a0",
+        "group": 0,
+        "page": 0,
+        "word": "alcohol",
+        "image": "files/01_0002.jpg",
+        "audio": "files/01_0002.mp3",
+        "audioMeaning": "files/01_0002_meaning.mp3",
+        "audioExample": "files/01_0002_example.mp3",
+        "textMeaning": "<i>Alcohol</i> is a type of drink that can make people drunk.",
+        "textExample": "A person should not drive a car after he or she has been drinking <b>alcohol</b>.",
+        "transcription": "[ǽlkəhɔ̀ːl]",
+        "textExampleTranslate": "Человек не должен водить машину после того, как он выпил алкоголь",
+        "textMeaningTranslate": "Алкоголь - это тип напитка, который может сделать людей пьяными",
+        "wordTranslate": "алкоголь",
+        "wordsPerExampleSentence": 15,
+        "userWord": {
+          "difficulty": "strong"
+        }
+      },
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a2",
+        "group": 0,
+        "page": 0,
+        "word": "boat",
+        "image": "files/01_0005.jpg",
+        "audio": "files/01_0005.mp3",
+        "audioMeaning": "files/01_0005_meaning.mp3",
+        "audioExample": "files/01_0005_example.mp3",
+        "textMeaning": "A <i>boat</i> is a vehicle that moves across water.",
+        "textExample": "There is a small <b>boat</b> on the lake.",
+        "transcription": "[bout]",
+        "textExampleTranslate": "На озере есть маленькая лодка",
+        "textMeaningTranslate": "Лодка - это транспортное средство, которое движется по воде",
+        "wordTranslate": "лодка",
+        "wordsPerExampleSentence": 8
+      },
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a3",
+        "group": 0,
+        "page": 0,
+        "word": "arrive",
+        "image": "files/01_0003.jpg",
+        "audio": "files/01_0003.mp3",
+        "audioMeaning": "files/01_0003_meaning.mp3",
+        "audioExample": "files/01_0003_example.mp3",
+        "textMeaning": "To <i>arrive</i> is to get somewhere.",
+        "textExample": "They <b>arrived</b> at school at 7 a.m.",
+        "transcription": "[əráiv]",
+        "textExampleTranslate": "Они прибыли в школу в 7 часов утра",
+        "textMeaningTranslate": "Приехать значит попасть куда-то",
+        "wordTranslate": "прибыть",
+        "wordsPerExampleSentence": 7
+      }
+    ],
+    "totalCount": [
+      {
+        "count": 599
+      }
+    ]
+  }
+]
+```
+</details> 
+ - поле `paginatedResults` это результат агрегации `Words & UserWords` с учетом заданных параметров запроса и фильтра.    
+ - поле `totalCount` показывает сколько всего существует слов в данной группе соответствующих данному фильтру.  
+
+Пример запроса к `/users/{id}/aggregatedWords` с более сложным фильтром:  
+```
+userId: 5ec8942878c1e84b43e871ac
+group: 0
+wordsPerPage: 3
+filter: {
+  "$and": [
+    {
+      "$or": [
+        {
+          "userWord.difficulty": "strong"
+        },
+        {
+          "userWord.difficulty": "easy"
+        }
+      ]
+    }
+  ]
+}
+
+onlyUserWords: false
+```
+<details> 
+  <summary>должен вернуть такой ответ:</summary>
+
+  <p></p>
+
+```json
+	
+Response body
+Download
+[
+  {
+    "paginatedResults": [
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a0",
+        "group": 0,
+        "page": 0,
+        "word": "alcohol",
+        "image": "files/01_0002.jpg",
+        "audio": "files/01_0002.mp3",
+        "audioMeaning": "files/01_0002_meaning.mp3",
+        "audioExample": "files/01_0002_example.mp3",
+        "textMeaning": "<i>Alcohol</i> is a type of drink that can make people drunk.",
+        "textExample": "A person should not drive a car after he or she has been drinking <b>alcohol</b>.",
+        "transcription": "[ǽlkəhɔ̀ːl]",
+        "textExampleTranslate": "Человек не должен водить машину после того, как он выпил алкоголь",
+        "textMeaningTranslate": "Алкоголь - это тип напитка, который может сделать людей пьяными",
+        "wordTranslate": "алкоголь",
+        "wordsPerExampleSentence": 15,
+        "userWord": {
+          "difficulty": "strong"
+        }
+      },
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a2",
+        "group": 0,
+        "page": 0,
+        "word": "boat",
+        "image": "files/01_0005.jpg",
+        "audio": "files/01_0005.mp3",
+        "audioMeaning": "files/01_0005_meaning.mp3",
+        "audioExample": "files/01_0005_example.mp3",
+        "textMeaning": "A <i>boat</i> is a vehicle that moves across water.",
+        "textExample": "There is a small <b>boat</b> on the lake.",
+        "transcription": "[bout]",
+        "textExampleTranslate": "На озере есть маленькая лодка",
+        "textMeaningTranslate": "Лодка - это транспортное средство, которое движется по воде",
+        "wordTranslate": "лодка",
+        "wordsPerExampleSentence": 8
+      },
+      {
+        "_id": "5e9f5ee35eb9e72bc21af4a1",
+        "group": 0,
+        "page": 0,
+        "word": "agree",
+        "image": "files/01_0001.jpg",
+        "audio": "files/01_0001.mp3",
+        "audioMeaning": "files/01_0001_meaning.mp3",
+        "audioExample": "files/01_0001_example.mp3",
+        "textMeaning": "To <i>agree</i> is to have the same opinion or belief as another person.",
+        "textExample": "The students <b>agree</b> they have too much homework.",
+        "transcription": "[əgríː]",
+        "textExampleTranslate": "Студенты согласны, что у них слишком много домашней работы",
+        "textMeaningTranslate": "Согласиться - значит иметь то же мнение или убеждение, что и другой человек",
+        "wordTranslate": "согласна",
+        "wordsPerExampleSentence": 8,
+        "userWord": {
+          "difficulty": "easy",
+          "optional": {
+            "field": "value1"
+          }
+        }
+      }
+    ],
+    "totalCount": [
+      {
+        "count": 600
+      }
+    ]
+  }
+]
+```
+</details>  
+
+Параметр filter должен быть валидным JSON объектом преобразованным в строку. Все ключи в этом объекте должны быть в двойных кавычках. Кроме этого этот объект должен соответствовать требованиям к `MongoDB Query`. Вот ряд ссылок на документацию и примеры использования `MonogoDB Query`:  
+ - [Query Documents](https://docs.mongodb.com/manual/tutorial/query-documents/)  
+ - [Query and Projection Operators](https://docs.mongodb.com/manual/reference/operator/query/#query-and-projection-operators)  
+ - [An Introduction to MongoDB Query for Beginners](https://blog.exploratory.io/an-introduction-to-mongodb-query-for-beginners-bd463319aa4c)  
+ - [MongoDB - Query Document](https://www.tutorialspoint.com/mongodb/mongodb_query_document.htm)  
+
+Для преобразования строки filter в валидный query-параметр можно использовать следующую функцию: [encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)  
+
+Эндпоинт `/users/{id}/aggregatedWords/{wordId}` позволяет получить агрегированый объект конкретного слова.  
+
+### Прочие эндпоинты
+
 Также существуют эндпоинты для сохранения статистики и настроек пользователя. `\users\{id}\statistics` и `\users\{id}\settings` соответственно. Работа с ними основывается на тех же принципах, что описаны и показаны в примерах выше.  
 Объект `optional` у UserWord, Statistics, Settings имеет ограничение по размеру - не более 30 полей и общая длина объекта после `JSON.stringify()` не должна превышать 1500 символов. Структуру этих объектов вы разрабатываете сами исходя из требований и вашей реализации задачи.   
 
