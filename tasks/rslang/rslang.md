@@ -573,7 +573,7 @@ Download
 Для преобразования строки filter в валидный query-параметр можно использовать следующую функцию: [encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)  
 
 Примеры фильтров:  
- - Получить все слова у которых difficulte="hard **И** optional.key="value `{"$and":[{"userWord.difficulty":"hard", "userWord.optional.key":"value"}]}`
+ - Получить все слова у которых difficulte="hard" **И** optional.key="value" `{"$and":[{"userWord.difficulty":"hard", "userWord.optional.key":"value"}]}`
  - Получить все слова у которых difficulty="easy" **ИЛИ** или нет соответствующего userWord `{"$or":[{"userWord.difficulty":"easy"},{"userWord":null}]}`
  - Получить все слова у которых (difficulty="easy" **И** optional.repeat=true) **ИЛИ**  или нет соответствующего userWord `{"$or":[{"$and":[{"userWord.difficulty":"easy", "userWord.optional.repeat":true}]},{"userWord":null}]}`
 
