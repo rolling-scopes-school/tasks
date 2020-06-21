@@ -1,8 +1,8 @@
 # RS Lang
 
-| Deadline         | Repo name | 
-| ---------------- | ----------- | 
-| 05.07.2020 23:59 | rslang   |  
+| Deadline         | Repo name |
+| ---------------- | --------- |
+| 05.07.2020 23:59 | rslang    |
 
 **RS Lang** – приложение для изучения иностранных слов с методикой интервального повторения, отслеживанием индивидуального прогресса и мини-играми.
 
@@ -200,7 +200,88 @@
 - Метод интервального повторения https://habr.com/ru/post/196448/
 - Ссылка на скачивание Anki https://apps.ankiweb.net/
 - Настройки программы Anki https://englishteacup.org/slovarnyj_zapas/programma-anki-nastrojka-kolod
-- Получение подробного описания слова (например значение слова, транскрипция, часть речи, синонимы, антонимы, примеры использования в предложении) https://www.wordsapi.com/
+- Получение подробного описания слова (например значение слова, транскрипция, часть речи, синонимы, антонимы, примеры использования в предложении) https://dictionary.skyeng.ru/doc/api/external. API полностью бесплатна и не требует регистрации.
+
+### Пример получени подробной информации о слове
+
+Сам запрос:
+
+https://dictionary.skyeng.ru/api/public/v1/words/search?search=cat (`?search=${ вставить нужное слово }`)
+
+Пример в коде:
+
+```javascript
+const getWordDetalization = async (word) => {
+  const rawResponse = await fetch(
+    `https://dictionary.skyeng.ru/api/public/v1/words/search?search=${word}`
+  );
+
+  const content = await rawResponse.json();
+
+  console.log(content);
+};
+
+getWordDetalization('cat');
+```
+
+Возвращаемый JSON:
+
+```json
+[
+  {
+    "id": 174834,
+    "text": "CAT",
+    "meanings": [
+      {
+        "id": 248983,
+        "partOfSpeechCode": "abb",
+        "translation": {
+          "text": "программно-техническое средство ",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7f116a91c1912c5cc24b2f44d0b945f3.png?w=96",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7f116a91c1912c5cc24b2f44d0b945f3.png?w=640",
+        "transcription": "kæt",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=CAT"
+      }
+    ]
+  },
+  {
+    "id": 1560,
+    "text": "cat",
+    "meanings": [
+      {
+        "id": 65977,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "кот",
+          "note": "кошка"
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/55bd5010ef32706be7b7e371673c1b1c.jpeg?w=96",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/55bd5010ef32706be7b7e371673c1b1c.jpeg?w=640",
+        "transcription": "kæt",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=cat"
+      },
+      ...
+    ]
+  }
+]
+```
+
+Внизу документации по ссылке (https://dictionary.skyeng.ru/doc/api/external) есть расшифровки сокращений.
+
+Например во вкладке Models есть расшифровка части речи:
+
+partOfSpeechCode (string):
+
+- n - noun,
+- v - verb,
+- j - adjective,
+  
+  ....
+- phi - idiom.
+
+#### Замечание: первое значение в meanings не всегда может быть тем переводом, что вам нужен. Будьте внимательны.
 
 ## Примеры получения исходных данных
 
