@@ -372,9 +372,11 @@ userId: 5ec8942878c1e84b43e871ac
 group: 0
 wordsPerPage: 3
 filter: {
-"userWord.difficulty":"strong"
+	"$or": [
+	{"userWord.difficulty":"strong"},
+	{"userWord":null}
+	]
 }
-onlyUserWords: false
 ```
 <details> 
   <summary>должен вернуть такой ответ:</summary>
@@ -458,21 +460,26 @@ userId: 5ec8942878c1e84b43e871ac
 group: 0
 wordsPerPage: 3
 filter: {
-  "$and": [
+  "$or": [
     {
-      "$or": [
+      "$and": [
         {
-          "userWord.difficulty": "strong"
-        },
-        {
-          "userWord.difficulty": "easy"
+          "$or": [
+            {
+              "userWord.difficulty": "strong"
+            },
+            {
+              "userWord.difficulty": "easy"
+            }
+          ]
         }
       ]
+    },
+    {
+      "userWord": null
     }
   ]
 }
-
-onlyUserWords: false
 ```
 <details> 
   <summary>должен вернуть такой ответ:</summary>
@@ -565,8 +572,10 @@ Download
 
 Для преобразования строки filter в валидный query-параметр можно использовать следующую функцию: [encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)  
 
-В фильтре также можно обращаться к полям optional объекта userWord:  
-`"userWord.optional.key":value`  
+Примеры фильтров:  
+ - Получить все слова у которых difficulte="hard" **И** optional.key="value" `{"$and":[{"userWord.difficulty":"hard", "userWord.optional.key":"value"}]}`
+ - Получить все слова у которых difficulty="easy" **ИЛИ** или нет соответствующего userWord `{"$or":[{"userWord.difficulty":"easy"},{"userWord":null}]}`
+ - Получить все слова у которых (difficulty="easy" **И** optional.repeat=true) **ИЛИ**  или нет соответствующего userWord `{"$or":[{"$and":[{"userWord.difficulty":"easy", "userWord.optional.repeat":true}]},{"userWord":null}]}`
 
 Эндпоинт `/users/{id}/aggregatedWords/{wordId}` позволяет получить агрегированый объект конкретного слова.  
 
