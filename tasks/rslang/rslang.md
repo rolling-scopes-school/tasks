@@ -295,7 +295,30 @@ partOfSpeechCode (string):
 
 GET для получения списка слов:
 `https://afternoon-falls-25894.herokuapp.com/words?page=2&group=0` - получить слова со 2-й страницы группы 0  
-Строка запроса должна содержать в себе номер группы и номер страницы. Всего 6 групп(от 0 до 5) и в каждой группе по 30 страниц(от 0 до 29). В каждой странице по 20 слов. Группы разбиты по сложности от самой простой(0) до самой сложной(5).
+Строка запроса должна содержать в себе номер группы и номер страницы. Всего 6 групп(от 0 до 5) и в каждой группе по 30 страниц(от 0 до 29). В каждой странице по 20 слов. Группы разбиты по сложности от самой простой(0) до самой сложной(5).  
+
+##### Word+Assets
+
+GET запрос для получения одного слова по ID возвращает слово в виде JSON объекта в котором поля `image`, `audio`, `audioMeaning` и `audioExample` содержат изображения и аудиофайлы закодированные в `base64`.  
+Пример получения и преобразования `base64` данных в соответствующие теги HTML:  
+```html
+<html>
+<body></body>
+<script>
+  fetch('http://localhost:4000/words/5e9f5ee35eb9e72bc21af4a0')
+    .then(r => r.json())
+    .then(data => {
+      const image = new Image();
+      image.src = `data:image/jpg;base64,${data.image}`;
+      document.body.appendChild(image);
+      const audio = new Audio();
+      audio.src = `data:audio/mpeg;base64,${data.audio}`;
+      audio.controls = 'controls';
+      document.body.appendChild(audio);
+    })
+</script>
+</html>
+```
 
 ### Users
 
