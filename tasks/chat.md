@@ -8,7 +8,7 @@
 
 # General requirements
 * Connection should be [WS](https://developer.mozilla.org/en-US/docs/Glossary/WebSockets) based.  
-* You should use _ws://st-chat.shas.tel_ as connection url.
+* You should use _ws://st-chat.shas.tel_ ( or ws://chat.shas.tel) as connection url.
 
 You always will receive an array of messages from the server - when you first connect and when somebody (including you) sends a message to the server.
 
