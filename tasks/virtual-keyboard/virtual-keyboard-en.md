@@ -1,6 +1,6 @@
 # RSS Virtual Keyboard
 
-#### You are to create a virtual keyboard like this:
+#### You should to create a virtual keyboard like this:
 ![screenshot](images/virtual-keyboard.png)
 
 ### Functional requirements:
