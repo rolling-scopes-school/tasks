@@ -7,7 +7,7 @@ During the Angular course, you are to implement the YouTube client app. You can 
 
 For further implementation create a new private repository named *youtube-client* on **your** GitHub account.
 Please add the following trainers to the collaborators' list:
-- https://github.com/pavelrazuvalau
+- https://github.com/litwin90  
 - https://github.com/Pulya10c
 
 ## Angular. Intro task
