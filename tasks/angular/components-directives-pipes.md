@@ -1,6 +1,6 @@
 | Deadline         |
 |------------------|
-| 23:59 20.02.2020 |
+|                  |
 
 # YouTube client app
 
@@ -48,6 +48,7 @@ Please note that the **Sorting criteria block** should be hidden
         - If a publication date is more than 6 months, set border background to red
 - By clicking on the **Settings button**, the **Filtering criteria block** should be toggled
     - It should be possible to sort search results by date or count of views
+    - Sorting should work both in the direction of decreasing values and in the direction of increasing values
     - Using a pipe, filter search results by value that a user types in the input
 
 #### Evaluation criteria
@@ -58,7 +59,7 @@ Maximum points - **100**
 - [ ] The **Search result item** component contains all the necessary data (**+10**)
 - [ ] The **Filtering criteria block** toggle functionality is implemented (**+5**)
 - [ ] The colorful border under the **Search result item** is implemented (**+15**)
-- [ ] Search result sorting is implemented (**+20**)
+- [ ] Search result sorting is implemented (Should work both in the direction of decreasing values, and in the direction of increasing values) (**+20**)
 - [ ] Search result filtering by key words is implemented (**+20**)
 
 Fines
