@@ -1,6 +1,6 @@
 # Codewars React:
 
-1. http://www.codewars.com/kata/595b9b85ff19c2bd35000013
+1. http://www.codewars.com/kata/react-fun-number-1-component-types-and-nesting
 2. http://www.codewars.com/kata/united-state-of-react
 3. http://www.codewars.com/kata/santa-wish-list-form-in-reactjs
 4. http://www.codewars.com/kata/beam-me-up-statey-using-reactjs
@@ -28,7 +28,7 @@ Total: 3 * 8  = 24
 1. Insert the list below into cata scan input.
 
 <pre>
-http://www.codewars.com/kata/595b9b85ff19c2bd35000013
+http://www.codewars.com/kata/react-fun-number-1-component-types-and-nesting
 http://www.codewars.com/kata/united-state-of-react
 http://www.codewars.com/kata/santa-wish-list-form-in-reactjs
 http://www.codewars.com/kata/beam-me-up-statey-using-reactjs
