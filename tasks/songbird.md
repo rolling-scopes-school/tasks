@@ -1,6 +1,6 @@
 | Deadline         |Repo name    | Branch name |
 | ---------------- | ----------- | ----------- |
-| 16.08.2020 23:59 | songbird    | songbird    |
+| 30.08.2020 23:59 | songbird    | songbird    |
 
 # songbird
 
@@ -48,6 +48,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 - демо-версия приложения размещается на `https://www.netlify.com/`, либо на другом подобном хостинге. Название демо-версии приложения даёте по схеме: никнейм пользователя - название таска
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
 - после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки songbird в ветку master. [Требования к pull request](https://docs.rs.school/#/stage2?id=Требования-к-pull-request-pr)
+- как сабмитить своё решение: в поле Cross-Check: Submit https://app.rs.school/ добавьте ссылку на pull request
 
 ## Критерии оценки:
 **Максимальный балл за задание: 240 баллов**  
@@ -113,8 +114,8 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 - ссылка для получения голоса птицы по её латинскому названию  
 `https://www.xeno-canto.org/api/2/recordings?query=BIRD NAME`
 - изображения птиц - https://www.flickr.com/
-- ссылка для получения изображения птицы по её латинскому названию  
-`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOUR API KEY&tag_mode=all&extras=url_m&format=json&nojsoncallback&tags=BIRD NAME`
+- ссылка для получения изображения птицы по её названию (api_key укажите свой) 
+`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=0f15ff623f1198a1f7f52550f8c36057&tag_mode=all&extras=url_m&format=json&nojsoncallback=1&tags=соловей`
 
 ### Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
