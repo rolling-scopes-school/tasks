@@ -40,7 +40,7 @@ Schedule - расписание курса RS School.
 ## Демо
 
 1. Расписание в Google Docs [link](https://docs.google.com/spreadsheets/d/1oM2O8DtjC0HodB3j7hcIResaWBw8P18tXkOl1ymelvE/)
-2. Расписание в rs app [link](https://app.rs.school/course/schedule?course=rs-2020-q1)
+2. Расписание в rs app [link](https://app.rs.school/course/schedule?course=react-2020-Q3)
 
 ## Описание приложения
 
