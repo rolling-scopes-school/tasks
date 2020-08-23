@@ -1,4 +1,4 @@
-# JavaScript для фронтендера
+# JavaScript для верстальщика
 
 ## 1. Метод поиска querySelector
  

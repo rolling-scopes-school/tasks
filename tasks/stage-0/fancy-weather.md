@@ -169,6 +169,7 @@
 - **Приложения погоды**
   - [React-приложение Прогноз погоды на 5 дней](https://medium.com/@leizl.samano/how-to-make-a-weather-app-using-react-403c88252deb)
   - [React-приложение Прогноз погоды](https://tproger.ru/translations/react-basic-weather-app/)
+  - [Build A Weather App With Vanilla Javascript Tutorial](https://youtu.be/wPElVpR1rwA)
  
 - **Советы по качеству кода**
   - [Магические числа](https://ru.code-basics.com/languages/javascript/modules/variables/lessons/magic-numbers)
