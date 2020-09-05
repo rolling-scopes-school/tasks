@@ -40,6 +40,12 @@
 
 **Total sum - 60 points**
 
+## How to submit 
+
+Codewars is an autochecked task.  
+To submit the results, follow the link https://app.rs.school/, select Auto-Test, select Codewars in the drop-down list and enter your codewars username in form.   
+You can submit the result again before the deadline. Each next submit overwrites the previous one.
+
 ## Auto-Check
 
   https://auseika.github.io/kata-scan/ 
