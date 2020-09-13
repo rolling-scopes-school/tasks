@@ -87,3 +87,9 @@ You can submit the result again before the deadline. Each next submit overwrites
 3. Click "Check" to see the result.
 </p>
 </details>
+
+## Материалы
+
+- Короткие уроки JavaScript https://www.youtube.com/playlist?list=PLEhUqRdnYdyk_jm_3dwlo8LkZipRs3CRJ
+- Решение задач с Codewars. Level 8 https://youtu.be/pPJOen-1-mw
+- Решение задач с Codewars. JavaScript https://youtu.be/G159ypijakg
