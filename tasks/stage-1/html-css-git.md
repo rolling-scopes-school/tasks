@@ -8,7 +8,7 @@
 Основу содержания данной страницы составят данные, которые вы добавили в markdown-документ из предыдущего задания [Git & Markdown](git-markdown.md)
 
 Кроме текста на страницу необходимо добавить ваше фото или аватарку.  
-Страницу нужно размещаете на GitHub Pages. Она будет доступна по адресу `https://your-github-account.github.io/rsschool-cv/`, где вместо `your-github-account` необходимо указать свой github username.
+Страницу нужно разместить на GitHub Pages. Она будет доступна по адресу `https://your-github-account.github.io/rsschool-cv/`, где вместо `your-github-account` необходимо указать свой github username.
 
 ## Требования к вёрстке
 
