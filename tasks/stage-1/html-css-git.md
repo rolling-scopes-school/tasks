@@ -32,7 +32,7 @@
 ## Требования к Pull Request
 
 - Название Pull Request даёте по названию задания
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/stage2?id=Описание-pull-request-должно-содержать)
+- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/stage2?id=Требования-к-pull-request-pr)
 
 ## Как сабмитить задание
 
@@ -86,3 +86,5 @@ HTML, CSS & Git Basics - таск, который проверяется авт�
 - Семантические теги в HTML https://youtu.be/bQRmGxhARhc
 - Семантические теги HTML5 https://www.youtube.com/watch?v=_ih1xJyPk4A
 - HTML5 Семантические элементы https://html5css.ru/html/html5_semantic_elements.php
+- Примеры оформления CV https://www.freepik.com/free-photos-vectors/cv-template
+- Примеры оформления CV https://www.canva.com/resumes/templates/
