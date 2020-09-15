@@ -11,7 +11,7 @@ PSD:
 
 **[phototime. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.psd)**
 
-PNG:
+JPG:
 
 **[phototime. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.jpg)**
 
