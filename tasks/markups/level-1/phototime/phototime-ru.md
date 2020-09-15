@@ -9,11 +9,11 @@
 
 PSD:
 
-**[phototime. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.psd)**
+**[phototime. PSD](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.psd)**
 
 PNG:
 
-**[phototime. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo1.png)**
+**[phototime. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.jpg)**
 
 Ключевым моментом является полное соответствие макету. Это достигается совпадением двух изображений при наложении слоя с картинкой поверх готового решения с помощью браузерного расширения **Pixel Perfect**. Уделите внимание следующим важным и распространенным моментам:
 
