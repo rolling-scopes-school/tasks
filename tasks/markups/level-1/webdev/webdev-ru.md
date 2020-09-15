@@ -9,13 +9,13 @@
 
 Figma:
 
-**[webdev. Figma](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.psd)**
+**[webdev. Figma](https://www.figma.com/file/EWG64LHNWmdi51cY0W1kqt/phototime?node-id=9%3A13)**
 
-! Первое что делаем, создаем локальную копию исходного макета (делаем duplicate).
+❗ После того как авторизуемся в Фигме и открываем проект, он будет отображаться во вкладке Recent. Чтобы его продублировать себе (и иметь права редактирования в своей копии) нужно нажать по проект правой кнопкой и выбрать функцию Duplicate, после чего можно будет найти редактируемую копию проекта во вкладке Drafts — это позволит удобнее с проектом работать при верстке.
 
 JPG:
 
-**[webdev. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime.jpg)**
+**[webdev. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/webdev/webdev.jpg)**
 
 Ключевым моментом является полное соответствие макету. Это достигается совпадением двух изображений при наложении слоя с картинкой поверх готового решения с помощью браузерного расширения **Pixel Perfect**. Уделите внимание следующим важным и распространенным моментам:
 
