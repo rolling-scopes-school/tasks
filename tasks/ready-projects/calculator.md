@@ -53,7 +53,7 @@
 
 ## Материалы
 
-- Видеокурс "Основы программирования" от LoftBlog https://www.youtube.com/playlist?list=PLY4rE9dstrJwoVF-svoIBhKzE-Ok39Zg_
+- Видеокурс "Основы программирования" [https://www.youtube.com/playlist](https://www.youtube.com/playlist?list=PLY4rE9dstrJwoVF-svoIBhKzE-Ok39Zg_)
 - ES6 по-человечески https://habr.com/ru/post/305900/ 
 - Подборка различных калькуляторов https://nisnom.com/podborka-razlichnyh-kalkulyatorov-javascript-i-jquery/
 
