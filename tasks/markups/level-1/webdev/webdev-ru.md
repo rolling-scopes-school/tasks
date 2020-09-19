@@ -120,8 +120,8 @@ JPG:
 
 ### Pixel Perfect
 
-- В первую очередь обращаем внимание на визуальное скодство созданного сайта и макета. 
-- В браузере Google Chrome при помощи расширения [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) проверяем соответствие наложенния изображения [webdev.jpg](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/webdev/webdev.jpg) на страницу сайта. 
+- В первую очередь обращаем внимание на визуальное сходство созданного сайта и макета. 
+- В браузере Google Chrome при помощи расширения [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) проверяем соответствие наложения изображения [webdev.jpg](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/webdev/webdev.jpg) на страницу сайта. 
 - Допускается расхождение свёрстанного сайта и макета не более 10px.
 - Если визуальные отличия элементов составляют 10-20px, то ставим -3 балла за каждый логический блок, в котором присутствует ошибка. 
 - Если визуальные отличия элементов составляют более 20px, то ставим -5 баллов за каждый логический блок, в котором присутствует ошибка.
