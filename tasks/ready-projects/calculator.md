@@ -38,7 +38,7 @@
 
 Чтобы склонировать проект выполните команду:
 
-`git clone https://github.com/irinainina/ready-projects/ -b calculator-ru`
+`git clone https://github.com/irinainina/ready-projects/ -b calculator-en`
 
 ## Критерии оценки
 
