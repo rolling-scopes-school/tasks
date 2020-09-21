@@ -18,6 +18,8 @@
 
 Второй проект намного более современный, в css используются гриды и флексбоксы, в js - классы. Но этот проект сложнее для понимания и вряд ли подойдёт совсем начинающим.
 
+**Обратите внимание!** Если вы пишете свой собственный проект, не используйте в нём функцию eval()
+
 ## Исходные проекты
 
 ### 1. Калькулятор на JavaScript
@@ -57,9 +59,10 @@
 
 ## Материалы
 
-- Видеокурс "Основы программирования" [https://www.youtube.com/playlist](https://www.youtube.com/playlist?list=PLY4rE9dstrJwoVF-svoIBhKzE-Ok39Zg_)
-- ES6 по-человечески https://habr.com/ru/post/305900/ 
-- Подборка различных калькуляторов https://nisnom.com/podborka-razlichnyh-kalkulyatorov-javascript-i-jquery/
+- [Видеокурс "Основы программирования"](https://www.youtube.com/playlist?list=PLY4rE9dstrJwoVF-svoIBhKzE-Ok39Zg_)
+- [ES6 по-человечески](https://habr.com/ru/post/305900/) 
+- [Подборка различных калькуляторов](https://nisnom.com/podborka-razlichnyh-kalkulyatorov-javascript-i-jquery/)
+- [Никогда не используйте eval()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/eval)
 
 Документ для вопросов: https://docs.google.com/spreadsheets/d/1dMDLBC4-1XPaVMehZB6DqetToXZhq4x0PiZtj-jvLRc/
 
