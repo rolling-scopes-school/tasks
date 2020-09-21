@@ -1,8 +1,12 @@
 # calculator
 
+| Deadline         | Folder name | Branch name |
+| ---------------- | ----------- | ----------- |
+| 27.09.2020 23:59 | calculator    | calculator    |
+
 В первую очередь ознакомьтесь с [инструкцией к заданию](introduction.md) 
 
-## Task 1. Calculator +40
+## Task 1. Calculator
 
 ![screenshot](images/calculator.png)
 
