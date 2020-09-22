@@ -27,12 +27,11 @@ The project structure can be organized in the following way:
 
 ```
     app
-    ├── components                
+    ├── header                
     │   ├── header
+    ├── search
     │   ├── search-results
     │   ├── search-item
-    │   ...
-    ├── models
     |   |── search-response.model.ts
     │   ├── search-item.model.ts
     │   ...
