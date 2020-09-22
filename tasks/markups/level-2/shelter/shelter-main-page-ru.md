@@ -9,7 +9,7 @@
 
 Figma (1920px):
 
-**[shelter. Figma 1920px](https://www.figma.com/file/XnrjUGhCmdfRB6U8FACREX/shelter)**  
+**[shelter. Figma 1920px](https://www.figma.com/file/tiLsFGMWWANRXg7fXGUSHj/shelter.-Main-page)**  
 
 JPG (1200px):
 
