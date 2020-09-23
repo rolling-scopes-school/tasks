@@ -94,6 +94,5 @@ JPG (1200px):
 
 [Arial, google fonts](https://www.fonts.com/font/monotype/arial?QueryFontType=Web&src=GoogleWebFonts)  
 [Georgia, google fonts](https://www.fonts.com/font/microsoft-corporation/georgia?QueryFontType=Web&src=GoogleWebFonts)  
-[Times New Roman, google fonts](https://www.fonts.com/font/monotype/times-new-roman?QueryFontType=Web&src=GoogleWebFonts)  
 
 Можно подключать как скачиванием локальных шрифтов, так и подключением шрифтов через url на google fonts. Если вы не можете найти или скачать нужный шрифт, просто замените его шрифтом с тем же типом засечек.
