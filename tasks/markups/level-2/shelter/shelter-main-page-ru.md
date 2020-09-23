@@ -9,11 +9,11 @@
 
 Figma (1920px):
 
-**[shelter. Figma 1920px](https://www.figma.com/file/f36RB6kuNbVp5kndsfBohy/shelter.-Main-page)**  
+**[shelter. Main page. Figma 1920px](https://www.figma.com/file/f36RB6kuNbVp5kndsfBohy/shelter.-Main-page)**  
 
 JPG (1200px):
 
-**[shelter. JPG 1200px](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter.%20Main%20page.%201200.jpg)**
+**[shelter. Main page. JPG 1200px](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter.%20Main%20page.%201200.jpg)**
 
 - Основные блоки должны быть точно расположены на заданной ширине экрана (1920px). При 1920px ширине экрана, макет должен совпадать с дизайном выше.
 - Изображения, логотипы (если они есть) должны быть расположены в рамках логического контейнера с правильным подходом по центрированию и расположению. Допускается отклонение от макета в угоду сеточной или колоночной структуре.
