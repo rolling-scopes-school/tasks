@@ -35,7 +35,7 @@ Messages
 
 * The "+"icon should start a chat with a new person;
 
-* When the user moves focus to another person he should hear that person's name, status (their status can be made up depending on the color of the circle) and person's action (whether or not that person received a message and if person is typing at the moment). This info should be correctly displayed. Also you should make it more logical using aria-live. However, since our widgets are not very dynamic yet, you don't have to do that. Instead you are allowed to show it simply as description on focus but do keep aria-live stuff in mind.
+* When the user moves focus to another person he should hear that person's name, status (their status can be made up depending on the color of the circle) and person's action (whether or not that person received a message and if person is typing at the moment). This info should be correctly displayed. Also, you should make it more logical using aria-live. However, since our widgets are not very dynamic yet, you don't have to do that. Instead you are allowed to show it simply as description on focus but do keep aria-live stuff in mind.
 
 Widget with buttons
 
