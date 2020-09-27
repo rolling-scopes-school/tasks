@@ -241,3 +241,8 @@ const dispute = {
   если code coverage меньше 50%, максимальная оценка снижается пропорционально (при 25% максимум +15 баллов). 
   * Использован eslint preset (не обязательно airbnb) и нет предупреждений и ошибок. +20
   * В репозитории есть "следы" активной командной работы - комментарии в пулл реквестах. +10  
+  
+### Cross-check
+
+- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для проверки задания: https://rolling-scopes-school.github.io/checklist/  (task X CHECK APP)
