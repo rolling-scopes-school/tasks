@@ -208,7 +208,7 @@ Schedule - расписание курса RS School.
 ### Cross-check
 
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- форма для проверки задания: https://schedule-cross-check.netlify.app/
+- форма для проверки задания: https://rolling-scopes-school.github.io/checklist/  (task schedule)
 - cсылки на работы, рекомендованные вашей группой для интеграции в rs app, добавьте, пожалуйста, в эту форму https://forms.gle/uGygGwL3CL3TszwJ8
 
 ### Документ для вопросов
