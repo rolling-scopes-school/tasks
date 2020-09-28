@@ -11,7 +11,7 @@ Figma (1920px):
 
 **[shelter. Main page. Figma 1920px](https://www.figma.com/file/f36RB6kuNbVp5kndsfBohy/shelter.-Main-page)**  
 
-JPG (1200px):
+JPG (1280px):
 
 **[shelter. Main page. JPG 1280px](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter-main-1280px.jpg)**
 
