@@ -7,11 +7,11 @@
 
 Сверстать страницу согласно макету:
 
-Figma (1920px):
+Figma:
 
 **[shelter. Figma](https://www.figma.com/file/AGblT7watsIq2UYv2ewksW/shelter)**  
 
-JPG (1280px):
+JPG:
 
 **[shelter. Main page. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter-main-1280px.jpg)**
 
