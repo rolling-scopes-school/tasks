@@ -9,7 +9,7 @@
 
 Figma:
 
-**[shelter. Figma](https://www.figma.com/file/AGblT7watsIq2UYv2ewksW/shelter)**  
+**[shelter. Main page. Figma](https://www.figma.com/file/f36RB6kuNbVp5kndsfBohy/shelter.-Main-page)**  
 
 JPG:
 
