@@ -9,7 +9,7 @@
 
 Figma:
 
-**[shelter. Main page. Figma](https://www.figma.com/file/bPtimQ4C1uVzCdEm2kzJnO/shelter-adaptive)**  
+**[shelter. Adaptive. Figma](https://www.figma.com/file/bPtimQ4C1uVzCdEm2kzJnO/shelter-adaptive)**  
 
 - Основные блоки должны быть точно расположены на заданной ширине экрана так, как на дизайне Figma.
 - Изображения, логотипы (если они есть) должны быть расположены в рамках логического контейнера с правильным подходом по центрированию и расположению. Допускается отклонение от макета в угоду сеточной или колоночной структуре.
