@@ -10,7 +10,7 @@
 
 ![screenshot](images/virtual-keyboard.png)
 
-Проект по созданию виртуальной клавиатуры. Хороший современный код, в решении используются классы, достаточно понятное объяснение. Выполняя проект вы усовершенствуете навыки работы с DOM. Выполнение дополнительного неоцениваемого функционала позволит ознакомиться и поработать с экспериментальной технологией распознавания голоса - SpeechRecognition.
+Проект по созданию виртуальной клавиатуры. Хороший современный код, в решении используются классы, достаточно понятное объяснение. Выполняя проект вы усовершенствуете навыки работы с DOM, сможете познакомиться и поработать с экспериментальной технологией распознавания голоса - SpeechRecognition.
 
 - Видео: https://youtu.be/N3cq0BHDMOY (1:02:31)
 - Код: https://github.com/irinainina/ready-projects/tree/virtual-keyboard (177 lines js-code)
@@ -52,6 +52,7 @@
 
 ## Голосовой ввод текста
 
+- SpeechRecognition https://developer.mozilla.org/ru/docs/Web/API/SpeechRecognition
 - демо https://js3020.github.io/
 - видео https://youtu.be/0mJC0A72Fnw
 - код https://github.com/wesbos/JavaScript30/tree/master/20%20-%20Speech%20Detection
