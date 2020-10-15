@@ -2,7 +2,7 @@
 
 | Deadline         | Folder name | Branch name |
 | ---------------- | ----------- | ----------- |
-| 27.09.2020 23:59 | calculator    | calculator    |
+| 15.10.2020 23:59 | calculator    | calculator    |
 
 В первую очередь ознакомьтесь с [инструкцией к заданию](introduction.md) 
 
@@ -101,3 +101,7 @@
 Документ для вопросов: https://docs.google.com/spreadsheets/d/1dMDLBC4-1XPaVMehZB6DqetToXZhq4x0PiZtj-jvLRc/
 
 Ссылки на лучшие работы, добавьте, пожалуйста, в эту форму https://forms.gle/4uUvCsJ1WWXPJHCg7
+
+## Cross-check
+- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для проверки задания: https://calculator-cross-check.netlify.app/ 
