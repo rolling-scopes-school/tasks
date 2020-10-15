@@ -96,7 +96,7 @@
 ## Полезные ссылки
 
 - [Demo](https://xmelsky-gem-puzzle.netlify.app/)
-- [Drag-end-drop](https://learn.javascript.ru/mouse-drag-and-drop)
+- [Drag-and-drop](https://learn.javascript.ru/mouse-drag-and-drop)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Canvas](https://developer.mozilla.org/en/docs/Web/API/Canvas_API/Tutorial)
 - [Game Canvas](https://www.w3schools.com/graphics/game_canvas.asp)
