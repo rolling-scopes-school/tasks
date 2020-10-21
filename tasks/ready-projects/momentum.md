@@ -85,6 +85,16 @@ Momentum - аналог [одноимённого приложения](https://
 - Пример получения цитаты https://codepen.io/irinainina/pen/LYNqmQd
 - Прогноз погоды в 20 строк https://github.com/irinainina/ready-projects/blob/weather/README.md
 
+## API с цитатами
+
+- https://favqs.com/api/qotd
+- https://type.fit/api/quotes
+- https://api.adviceslip.com/advice
+- https://api.chucknorris.io/jokes/random
+- https://programming-quotes-api.herokuapp.com/quotes
+- https://quote-garden.herokuapp.com/api/v2/quotes/random
+- https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
+
 Документ для вопросов: https://docs.google.com/spreadsheets/d/1dMDLBC4-1XPaVMehZB6DqetToXZhq4x0PiZtj-jvLRc/
 
 Ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/Xc9RVjEWTTGF6ubK8
