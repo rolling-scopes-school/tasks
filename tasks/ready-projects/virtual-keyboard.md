@@ -2,7 +2,7 @@
 
 | Deadline         | Folder name | Branch name |
 | ---------------- | ----------- | ----------- |
-| 25.10.2020 23:59 | virtual-keyboard    | virtual-keyboard    |
+| 01.11.2020 23:59 | virtual-keyboard    | virtual-keyboard    |
 
 В первую очередь ознакомьтесь с [инструкцией к заданию](introduction.md)
 
