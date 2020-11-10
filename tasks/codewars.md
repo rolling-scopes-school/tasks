@@ -8,7 +8,7 @@
    6. (5 kyu) http://www.codewars.com/kata/partition-on
    7. (8 kyu) http://www.codewars.com/kata/word-count
    8. (8 kyu) http://www.codewars.com/kata/remove-first-and-last-character-part-two
-   9. (8 kyu) http://www.codewars.com/kata/implement-a-filter-function
+   9. (8 kyu) http://www.codewars.com/kata/implement-array-dot-prototype-dot-filter-1
    10. (6 kyu) http://www.codewars.com/kata/prefill-an-array
    11. (7 kyu) http://www.codewars.com/kata/cross-product-of-vectors
    12. (7 kyu) http://www.codewars.com/kata/sequence-generator-1
@@ -74,7 +74,7 @@ http://www.codewars.com/kata/get-the-middle-character
 http://www.codewars.com/kata/partition-on
 http://www.codewars.com/kata/word-count
 http://www.codewars.com/kata/remove-first-and-last-character-part-two
-http://www.codewars.com/kata/implement-a-filter-function
+http://www.codewars.com/kata/implement-array-dot-prototype-dot-filter-1
 http://www.codewars.com/kata/prefill-an-array
 http://www.codewars.com/kata/cross-product-of-vectors
 http://www.codewars.com/kata/sequence-generator-1
