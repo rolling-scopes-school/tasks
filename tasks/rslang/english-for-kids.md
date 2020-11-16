@@ -2,7 +2,7 @@
 
 | Deadline         | Folder name| Branch name |
 | ---------------- | ----------- | ----------- |
-| 29.11.2020 23:59 | english-for-kids    | english-for-kids    |
+| 07.12.2020 23:59 | english-for-kids    | english-for-kids    |
 
 **English for kids** - приложение для изучения английских слов детьми.
 
