@@ -20,7 +20,7 @@ RS School предоставляет:
 3. [HTML & CSS](materials/html.md)
 4. [Базовый JavaScript](materials/js.md)
 5. [Знакомство с документацией курса](materials/rs-school.md)
-6. [Рекомендации по изучению английского](materials/ english.md)
+6. [Рекомендации по изучению английского](materials/english.md)
 
 ## Задания самостоятельного этапа:
 (все ссылки кликабельны)
