@@ -34,6 +34,8 @@
 Не ждите молниеносного результата вне зависимости от того, сколько усилий прилагаете. Языку нужно время, чтобы отложиться в голове, стать воспринимаемым естественно и автоматически. Поэтому ни в коем случае не расстраивайтесь, если на первых порах ничего не понимаете или понимаете мало. Просто продолжайте.
 
 Момент "всё, я выучил английский, больше мне не нужно заниматься" никогда не наступит, просто потому что не может наступить в принципе. Как только вы перестаёте взаимодействовать с языком, он начинает выветриваться из вашей головы. К счастью, для вас это не проблема, ведь вы уже смотрите фильмы, читаете статьи и пишете программы исключительно на английском, не так ли? 
+
+
 ## Статьи:
 
 - [Как определить свой уровень владения английским?](http://proenglish-blog.ru/chasto-zadavaemye-voprosy/kak-opredelit-svoj-uroven-vladeniya-anglijskim.html)
@@ -51,3 +53,7 @@
 - [Учебник "4000 Essential English Words"](https://www.essentialenglish.review/apps/4000-essential-english-words-1/unit-1-the-lion-and-the-rabbit/#0)
 - [Карточки Anki. SSE 4000 Essential English Words](https://ankiweb.net/shared/info/317970103)
 - [Карточки Anki. 4000 Essential English Words](https://ankiweb.net/shared/info/1104981491)
+
+## Каналы YouTube 
+- [Learn English with Bob the Canadian] (https://www.youtube.com/channel/UCZJJTxA36ZPNTJ1WFIByaeA)
+- [English with Lucy] (https://www.youtube.com/c/EnglishwithLucy)
