@@ -125,4 +125,5 @@
 
 ## Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для проверки задания https://rs-scc-cross-check.netlify.app/
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: https://forms.gle/TVWGm7N6oaRSnrVW6
