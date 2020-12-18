@@ -28,10 +28,15 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
      - (optional) your comments;  
 
 ### Advanced scope. Extra points for those, who perform online
-  1. You show up and somewhat give a talk: **+20 points** (for courage)
+  1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your 
+     Reveal presentation: **+10 points** (for courage)
   2. Your speech is fairly coherent: **+15 points**
   3. Truly coherent speech: clear, concise and logical. You don't jump from one thought to another: **+15 points**
   4. C+ level of English: **+10 points**
+
+**❗️ Important:**  
+If you decide to perform online, you automatically agree, that your performance could be recorded and added to RS  
+School YouTube channel. Video will be _unlisted_ — it means, that only people with direct link would have access to it.
   
 ## Useful links:
 * http://speaking.io/
