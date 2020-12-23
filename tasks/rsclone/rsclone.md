@@ -212,3 +212,9 @@ RS2017Q1:
 - Обзор технологий и движков для разработки игр на js. [Смотреть](https://www.youtube.com/watch?v=Rl-SAwXsjog)
 - Простейший пример сервера и документация по node.express. [Читать](https://expressjs.com/ru/starter/hello-world.html)
 - [38+ сайтов для размещения контента](https://habr.com/ru/post/507344/)
+
+[Документ для вопросов, связанных с выполнением задания](https://docs.google.com/spreadsheets/d/1i79WR1pVb-0UihsD3M9vXe8awqhY0cfMNID9mwa3omw/edit#gid=0)
+
+## Cross-check
+- [инструкция по проведению cross-check](https://docs.rs.school/#/cross-check-flow)
+- [cсылки на лучшие работы добавьте, пожалуйста, в эту форму](https://docs.google.com/forms/d/e/1FAIpQLSdf1loMNJPthKEIv6NYa67GG28u7qybWYuyivq7Sk2Qln6IOA/viewform?usp=sf_link)
