@@ -37,6 +37,11 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
 **❗️ Important:**  
 If you decide to perform online, you automatically agree, that your performance could be recorded and added to RS  
 School YouTube channel. Video will be _unlisted_ — it means, that only people with direct link would have access to it.
+
+You understand that, once you have reserved a slot in the timesheet, you take on the responsibility for appearing and performing according to the date and time chosen, unless instructed otherwise by the jury or school administration. You also agree that you must specify your up-to-date contact details and monitor the relevant announcements in the school's channels, otherwise the jury shall be entitled to remove you from the list of presenters without any obligation to notify.
+
+The consequences of the failure to comply with the above rules may result in a penalty of up to 30 points.
+
   
 ## Useful links:
 * http://speaking.io/
