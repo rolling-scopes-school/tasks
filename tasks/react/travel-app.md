@@ -174,30 +174,51 @@ travel-app - приложение для виртуальных путешест
 
 ## Материалы
 
-- **Библиотеки**
+### Библиотеки
   - [react-image-gallery](https://www.npmjs.com/package/react-image-gallery)
   - [video-react](https://video-react.js.org/)
   - [material-ui](https://material-ui.com/)
   - [react-slick slider](https://github.com/akiran/react-slick)
   - [react-grid-gallery](https://benhowell.github.io/react-grid-gallery/)
 
-- **Асинхронные запросы, fetch/async/await**
+### Асинхронные запросы, fetch/async/await
   - [Асинхронные запросы. Использование Fetch](https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch)
   - [Асинхронные функции (async/await)](https://youtu.be/5kAPExqSZ1I)
   - [JavaScript Fetch API and using Async/Await](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
 
-- **Дата и время**
+### Дата и время
   - [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date)
   - [Date.prototype.toLocaleString](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
 
-- **API погоды**
+### API погоды
   - [React-приложение Прогноз погоды на 5 дней](https://medium.com/@leizl.samano/how-to-make-a-weather-app-using-react-403c88252deb)
   - [React-приложение Прогноз погоды](https://tproger.ru/translations/react-basic-weather-app/)
   
-- **Тестирование. Юнит-тесты. Jest**
+### Тестирование. Юнит-тесты. Jest
   - [Testing](https://youtu.be/xrS60rkoG3w)
   - [Testing live coding](https://youtu.be/qFSrImO04X8)
   - [Jest. Unit Тестирование в JavaScript](https://youtu.be/IEDe8jl5efU)
+
+### Курсы по Node.js
+- Теория
+  - https://metanit.com/web/nodejs/
+  - https://nodejs-guide.netlify.app/
+- Вебинары Nikita Rudy
+  - [node-js-and-npm-basics](https://youtu.be/CAvqa6Lj_Rg)
+  - [node-js-introduction](https://youtu.be/TEuDTl8SdZo)
+  - [node-js-networking](https://youtu.be/3Pp0K_rgk8U)
+  - [slides](https://slides.com/nikitarudy#)
+  - [код примеров](https://github.com/NikitaRudy/nodejs-lecture)
+- Вебинары pavel-yasiukevich
+  - [lecture 1](https://youtu.be/vri9zyxLBAk)
+  - [lecture 2](https://youtu.be/a3edsIATN6A)
+  - [lecture 3]()
+  - [код примеров](https://github.com/rolling-scopes-school/rs-nodejs-be-2020Q3)
+- Владилен Минин
+  - [NodeJS, Express, MongoDB](https://youtu.be/8bE_PBRriyU)
+  - [REST API. Пишем Fullstack приложение](https://youtu.be/lzQIhjElV_g)
+- Web Dev Simplified
+  - [Build A REST API With Node.js, Express, & MongoDB](https://youtu.be/fgTGADljAeg)
 
 ## Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
