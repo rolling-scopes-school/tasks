@@ -99,12 +99,13 @@
 ## Бекенд
 
 ### Что уже есть:
-- Для получения исходных данных создан [ReactLearnWords API](https://react-learnwords-example.herokuapp.com/doc/#)
-- [ReactLearnWords wiki](https://github.com/rolling-scopes-school/-LearnWords-react/wiki) содержит инструкции по деплою приложения и примеры получения исходных данных
+- создан [репозиторий с бекендом](https://github.com/rolling-scopes-school/react-rslang-be)
+- на его основе создан [ReactLearnWords API](https://react-learnwords-example.herokuapp.com/doc/#), позволяющий получить исходные данные
+- создана [ReactLearnWords wiki](https://github.com/rolling-scopes-school/react-rslang-be/wiki) с инструкциями по созданию базы данных MongoDB,  деплою бекенда на heroku, примерами получения исходных данных
 ### Что нужно сделать:
 - создать свою копию бекенда. Для этого:
-  - форкните [репозиторий с бекендом](https://github.com/rolling-scopes-school/-LearnWords-react)
-  - для создания базы данных MongoDB и деплоя бекенда на heroku следуйте туториалам [ReactLearnWords wiki](https://github.com/rolling-scopes-school/-LearnWords-react/wiki)  
+  - форкните [репозиторий с бекендом](https://github.com/rolling-scopes-school/react-rslang-be)
+  - для создания базы данных MongoDB и деплоя бекенда на heroku следуйте туториалам [ReactLearnWords wiki](https://github.com/rolling-scopes-school/react-rslang-be/wiki)  
   - вам необходимо добавить в бекенд возможность при регистрации нового пользователя указать его имя и загрузить фото
 
 ## Требования к репозиторию
