@@ -5,7 +5,7 @@
 1. (7 kyu) https://www.codewars.com/kata/disemvowel-trolls
 2. (7 kyu) https://www.codewars.com/kata/mumbling
 3. (7 kyu) https://www.codewars.com/kata/highest-and-lowest
-4. (7 kyu)https://www.codewars.com/kata/isograms
+4. (7 kyu) https://www.codewars.com/kata/isograms
 5. (7 kyu) https://www.codewars.com/kata/char-code-calculation
 6. (7 kyu) https://www.codewars.com/kata/cat-and-mouse-2d-version
 7. (6 kyu) https://www.codewars.com/kata/duplicate-encoder
