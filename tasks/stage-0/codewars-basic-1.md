@@ -10,7 +10,7 @@
 
 ### Number
 
-6. (8 kyu https://www.codewars.com/kata/even-or-odd
+6. (8 kyu) https://www.codewars.com/kata/even-or-odd
 7. (8 kyu) https://www.codewars.com/kata/century-from-year
 8. (7 kyu) https://www.codewars.com/kata/greatest-common-divisor
 9. (7 kyu) https://www.codewars.com/kata/factorial
