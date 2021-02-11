@@ -1,32 +1,68 @@
-## Задание 
-Вам необходимо решить набор задач из списка ниже. 
+# Codewars Basic
 
-1. [Is it even?](https://www.codewars.com/kata/555a67db74814aa4ee0001b5) - 8kyu
-2. [Will you make it?](https://www.codewars.com/kata/5861d28f124b35723e00005e) - 8kyu
-3. [You Can't Code Under Pressure](https://www.codewars.com/kata/53ee5429ba190077850011d4) - 8kyu
-4. [Largest 5 digit number in a series](https://www.codewars.com/kata/51675d17e0c1bed195000001) - 7 kyu
-5. [Graceful Tipping](https://www.codewars.com/kata/5eb27d81077a7400171c6820) - 7 kyu
-6. [By 3, or not by 3? That is the question . . .](https://www.codewars.com/kata/59f7fc109f0e86d705000043) - 7 kyu
-7. [N-th Fibonacci](https://www.codewars.com/kata/522551eee9abb932420004a0) - 6 kyu
-8. [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) - 6 kyu
-9. [Remove First and Last Character](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0) - 8 kyu
-10. [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5) - 8 kyu
-11. [Are You Playing Banjo?](https://www.codewars.com/kata/53af2b8861023f1d88000832) - 8 kyu
-12. [Greet Me](https://www.codewars.com/kata/535474308bb336c9980006f2) - 7 kyu
-13. [Absent vowel](https://www.codewars.com/kata/56414fdc6488ee99db00002c) - 7 kyu
-14. [Validate my Password](https://www.codewars.com/kata/59c01248bf10a47bd1000046) - 6 kyu
-15. [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) - 4 kyu
-16. [The Coupon Code](https://www.codewars.com/kata/539de388a540db7fec000642) - 7 kyu
-17. [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097) - 8 kyu
-18. [Unlucky Days](https://www.codewars.com/kata/56eb0be52caf798c630013c0) - 7 kyu
-19. [Fizz Buzz Cuckoo Clock](https://www.codewars.com/kata/58485a43d750d23bad0000e6) - 7 kyu
-20. [Milk and Cookies for Santa](https://www.codewars.com/kata/52af7bf41f5a1291a6000025) - 7 kyu
+1. (8 kyu) https://www.codewars.com/kata/is-it-even
+2. (8 kyu) https://www.codewars.com/kata/will-you-make-it
+3. (8 kyu) https://www.codewars.com/kata/you-cant-code-under-pressure-number-1
+4. (7 kyu) https://www.codewars.com/kata/largest-5-digit-number-in-a-series
+5. (7 kyu) https://www.codewars.com/kata/graceful-tipping
+6. (7 kyu) https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question
+7. (6 kyu) https://www.codewars.com/kata/n-th-fibonacci
+8. (6 kyu) https://www.codewars.com/kata/multiples-of-3-or-5
+9. (8 kyu) https://www.codewars.com/kata/remove-first-and-last-character
+10. (8 kyu) https://www.codewars.com/kata/remove-string-spaces
+11. (8 kyu) https://www.codewars.com/kata/are-you-playing-banjo
+12. (7 kyu) https://www.codewars.com/kata/greet-me
+13. (7 kyu) https://www.codewars.com/kata/absent-vowel
+14. (6 kyu) https://www.codewars.com/kata/validate-my-password
+15. (4 kyu) https://www.codewars.com/kata/human-readable-duration-format
+16. (7 kyu) https://www.codewars.com/kata/the-coupon-code
+17. (8 kyu) https://www.codewars.com/kata/century-from-year
+18. (7 kyu) https://www.codewars.com/kata/unlucky-days
+19. (7 kyu) https://www.codewars.com/kata/fizz-buzz-cuckoo-clock
+20. (7 kyu) https://www.codewars.com/kata/milk-and-cookies-for-santa
 
+## Scoring criteria
 
-### Критерии оценок
-1. За решение задачи **8 kyu** вы получаете *1 балл* ( всего 7 баллов)
-2. За решение задачи **7 kyu** вы получаете *2 балла* (всего 18 баллов)
-3. За решение задачи **6 kyu** вы полчаете *5 баллов* ( всего 15 баллов)
-4. За решение задачи **4 kyu** вы полчаете *10 баллов* ( всего 10 баллов)
+- 1 point for 8 kyu tasks (7 tasks in total)
+- 2 point for 7 kyu tasks (9 tasks in total)
+- 5 points for 6 kyu tasks (3 tasks in total)
+- 10 points for 4 kyu tasks (1 task in total)
 
-**Итого:** максимум **50** баллов
+Total: 1 \* 7 + 2 \* 9 + 5 \* 3 + 10 \* 1 = 50
+
+**Total sum - 50 points**
+
+## Auto-Check
+
+https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+
+<details>
+<summary>Instructions</summary>
+
+1. Insert the list below into cata scan input.
+<pre>
+https://www.codewars.com/kata/is-it-even
+https://www.codewars.com/kata/will-you-make-it
+https://www.codewars.com/kata/you-cant-code-under-pressure-number-1
+https://www.codewars.com/kata/largest-5-digit-number-in-a-series
+https://www.codewars.com/kata/graceful-tipping
+https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question
+https://www.codewars.com/kata/n-th-fibonacci
+https://www.codewars.com/kata/multiples-of-3-or-5
+https://www.codewars.com/kata/remove-first-and-last-character
+https://www.codewars.com/kata/remove-string-spaces
+https://www.codewars.com/kata/are-you-playing-banjo
+https://www.codewars.com/kata/greet-me
+https://www.codewars.com/kata/absent-vowel
+https://www.codewars.com/kata/validate-my-password
+https://www.codewars.com/kata/human-readable-duration-format
+https://www.codewars.com/kata/the-coupon-code
+https://www.codewars.com/kata/century-from-year
+https://www.codewars.com/kata/unlucky-days
+https://www.codewars.com/kata/fizz-buzz-cuckoo-clock
+https://www.codewars.com/kata/milk-and-cookies-for-santa
+username
+</pre>
+2. Change `username` to your one.
+3. Click 'CHECK' to see the result.
+</details>
