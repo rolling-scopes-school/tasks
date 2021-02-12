@@ -98,7 +98,7 @@
   - [Сапёр](https://reactjsexample.com/minesweeper-game-written-with-react/)
   - [Змейка](https://reactjsexample.com/a-simple-snake-game-created-with-the-react/)
   - [Камень-ножницы-бумага](https://reactjsexample.com/a-rock-paper-scissors-game-built-with-react-scss/)
-  - [Крестики-нолики](https://habr.com/ru/post/524260/)
+  - [Крестики-нолики](https://reactjsexample.com/unbeatable-tic-tac-toe-game-using-react/)
   - [2048](https://reactjsexample.com/a-2048-game-build-with-react/)
   - [Teddy game](https://reactjsexample.com/react-app-with-cartoon-animations-and-games-for-kids/)
   - [Memory game](https://reactjsexample.com/a-simple-memory-game-with-react-js/)
