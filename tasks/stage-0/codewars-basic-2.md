@@ -29,6 +29,7 @@
 
 ## Auto-Check
 
+  https://usavkov.gitlab.io/codewars-check/
   https://auseika.github.io/kata-scan/ 
 
   It's a self-test resource only, **NOT for submit.**
