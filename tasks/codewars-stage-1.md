@@ -42,8 +42,8 @@
 
 ## Scoring criteria
 
-- 2 point for 8 kyu tasks (1 task in total)
-- 2 point for 7 kyu tasks (14 tasks in total)
+- 2 points for 8 kyu tasks (1 task in total)
+- 2 points for 7 kyu tasks (14 tasks in total)
 - 5 points for 6 kyu tasks (7 tasks in total)
 
 Total: 2 \* 1 + 2 \* 14 + 5 \* 7 = 65
