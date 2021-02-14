@@ -59,51 +59,53 @@ Total: 5 \* 3 + 20 \* 1 = 35
 
 ## Auto-Check
 
-https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+It's a self-test resource only, **not for submit**.
 
-<details>
-<summary>Instructions</summary>
+- https://usavkov.gitlab.io/codewars-check
+- https://auseika.github.io/kata-scan
+    <details>
+    <summary>Instructions</summary>
 
-1. Insert the list below into cata scan input.
-<pre>
-https://www.codewars.com/kata/opposite-number
-https://www.codewars.com/kata/basic-mathematical-operations
-https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
-https://www.codewars.com/kata/transportation-on-vacation
-https://www.codewars.com/kata/get-the-middle-character
-https://www.codewars.com/kata/partition-on
-https://www.codewars.com/kata/word-count
-https://www.codewars.com/kata/remove-first-and-last-character-part-two
-https://www.codewars.com/kata/implement-array-dot-prototype-dot-filter-1
-https://www.codewars.com/kata/prefill-an-array
-https://www.codewars.com/kata/cross-product-of-vectors
-https://www.codewars.com/kata/sequence-generator-1
-https://www.codewars.com/kata/base-conversion
-https://www.codewars.com/kata/closures-and-scopes
-https://www.codewars.com/kata/a-function-within-a-function
-https://www.codewars.com/kata/can-you-keep-a-secret
-https://www.codewars.com/kata/using-closures-to-share-class-state
-https://www.codewars.com/kata/a-chain-adding-function
-https://www.codewars.com/kata/function-cache
-https://www.codewars.com/kata/function-composition
-https://www.codewars.com/kata/function-composition-1
-https://www.codewars.com/kata/stringing-me-along
-https://www.codewars.com/kata/i-spy
-https://www.codewars.com/kata/calculating-with-functions
-https://www.codewars.com/kata/santaclausable-interface
-https://www.codewars.com/kata/new-with-apply
-https://www.codewars.com/kata/extract-nested-object-reference
-https://www.codewars.com/kata/array-helpers
-https://www.codewars.com/kata/replicate-new
-https://www.codewars.com/kata/sum-of-digits-slash-digital-root
-https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
-https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
-https://www.codewars.com/kata/lazy-evaluation
-https://www.codewars.com/kata/tail-recursion-with-trampoline
-https://www.codewars.com/kata/functional-sql
-https://www.codewars.com/kata/can-you-get-the-loop
-username
-</pre>
-2. Change `username` to your one.
-3. Click 'CHECK' to see the result.
-</details>
+    1. Insert the list below into cata scan input.
+    <pre>
+  https://www.codewars.com/kata/opposite-number
+  https://www.codewars.com/kata/basic-mathematical-operations
+  https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
+  https://www.codewars.com/kata/transportation-on-vacation
+  https://www.codewars.com/kata/get-the-middle-character
+  https://www.codewars.com/kata/partition-on
+  https://www.codewars.com/kata/word-count
+  https://www.codewars.com/kata/remove-first-and-last-character-part-two
+  https://www.codewars.com/kata/implement-array-dot-prototype-dot-filter-1
+  https://www.codewars.com/kata/prefill-an-array
+  https://www.codewars.com/kata/cross-product-of-vectors
+  https://www.codewars.com/kata/sequence-generator-1
+  https://www.codewars.com/kata/base-conversion
+  https://www.codewars.com/kata/closures-and-scopes
+  https://www.codewars.com/kata/a-function-within-a-function
+  https://www.codewars.com/kata/can-you-keep-a-secret
+  https://www.codewars.com/kata/using-closures-to-share-class-state
+  https://www.codewars.com/kata/a-chain-adding-function
+  https://www.codewars.com/kata/function-cache
+  https://www.codewars.com/kata/function-composition
+  https://www.codewars.com/kata/function-composition-1
+  https://www.codewars.com/kata/stringing-me-along
+  https://www.codewars.com/kata/i-spy
+  https://www.codewars.com/kata/calculating-with-functions
+  https://www.codewars.com/kata/santaclausable-interface
+  https://www.codewars.com/kata/new-with-apply
+  https://www.codewars.com/kata/extract-nested-object-reference
+  https://www.codewars.com/kata/array-helpers
+  https://www.codewars.com/kata/replicate-new
+  https://www.codewars.com/kata/sum-of-digits-slash-digital-root
+  https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
+  https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
+  https://www.codewars.com/kata/lazy-evaluation
+  https://www.codewars.com/kata/tail-recursion-with-trampoline
+  https://www.codewars.com/kata/functional-sql
+  https://www.codewars.com/kata/can-you-get-the-loop
+  username
+    </pre>
+    2. Change `username` to your one.
+    3. Click 'CHECK' to see the result.
+    </details>

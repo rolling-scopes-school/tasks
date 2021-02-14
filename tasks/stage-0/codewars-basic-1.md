@@ -49,37 +49,39 @@ Total: 2 \* 8 + 2 \* 12 + 5 \* 2 = 50
 
 ## Auto-Check
 
-https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+It's a self-test resource only, **not for submit**.
 
-<details>
-<summary>Instructions</summary>
+- https://usavkov.gitlab.io/codewars-check
+- https://auseika.github.io/kata-scan
+    <details>
+    <summary>Instructions</summary>
 
-1. Insert the list below into cata scan input.
-<pre>
-https://www.codewars.com/kata/reversed-strings
-https://www.codewars.com/kata/remove-first-and-last-character
-https://www.codewars.com/kata/palindrome-strings
-https://www.codewars.com/kata/anagram-detection
-https://www.codewars.com/kata/birthday-i-cake
-https://www.codewars.com/kata/even-or-odd
-https://www.codewars.com/kata/century-from-year
-https://www.codewars.com/kata/greatest-common-divisor
-https://www.codewars.com/kata/factorial
-https://www.codewars.com/kata/find-the-duplicated-number-in-a-consecutive-unsorted-list
-https://www.codewars.com/kata/is-a-number-prime
-https://www.codewars.com/kata/remove-duplicates-from-list
-https://www.codewars.com/kata/sum-of-positive
-https://www.codewars.com/kata/fizz-buzz
-https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
-https://www.codewars.com/kata/shortest-word
-https://www.codewars.com/kata/square-every-digit
-https://www.codewars.com/kata/easy-mathematical-callback
-https://www.codewars.com/kata/count-characters-in-your-string
-https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
-https://www.codewars.com/kata/regexp-basics-is-it-a-letter
-https://www.codewars.com/kata/regexp-basics-is-it-a-vowel
-username
-</pre>
-2. Change `username` to your one.
-3. Click 'CHECK' to see the result.
-</details>
+    1. Insert the list below into cata scan input.
+    <pre>
+  https://www.codewars.com/kata/reversed-strings
+  https://www.codewars.com/kata/remove-first-and-last-character
+  https://www.codewars.com/kata/palindrome-strings
+  https://www.codewars.com/kata/anagram-detection
+  https://www.codewars.com/kata/birthday-i-cake
+  https://www.codewars.com/kata/even-or-odd
+  https://www.codewars.com/kata/century-from-year
+  https://www.codewars.com/kata/greatest-common-divisor
+  https://www.codewars.com/kata/factorial
+  https://www.codewars.com/kata/find-the-duplicated-number-in-a-consecutive-unsorted-list
+  https://www.codewars.com/kata/is-a-number-prime
+  https://www.codewars.com/kata/remove-duplicates-from-list
+  https://www.codewars.com/kata/sum-of-positive
+  https://www.codewars.com/kata/fizz-buzz
+  https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
+  https://www.codewars.com/kata/shortest-word
+  https://www.codewars.com/kata/square-every-digit
+  https://www.codewars.com/kata/easy-mathematical-callback
+  https://www.codewars.com/kata/count-characters-in-your-string
+  https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
+  https://www.codewars.com/kata/regexp-basics-is-it-a-letter
+  https://www.codewars.com/kata/regexp-basics-is-it-a-vowel
+  username
+    </pre>
+    2. Change `username` to your one.
+    3. Click 'CHECK' to see the result.
+    </details>

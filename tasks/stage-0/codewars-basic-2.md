@@ -31,33 +31,35 @@ Total: 1 \* 7 + 2 \* 4 + 5 \* 7 = 50
 
 ## Auto-Check
 
-https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+It's a self-test resource only, **not for submit**.
 
-<details>
-<summary>Instructions</summary>
+- https://usavkov.gitlab.io/codewars-check
+- https://auseika.github.io/kata-scan
+    <details>
+    <summary>Instructions</summary>
 
-1. Insert the list below into cata scan input.
-<pre>
-https://www.codewars.com/kata/opposite-number
-https://www.codewars.com/kata/basic-mathematical-operations
-https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
-https://www.codewars.com/kata/transportation-on-vacation
-https://www.codewars.com/kata/word-count
-https://www.codewars.com/kata/remove-first-and-last-character-part-two
-https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number
-https://www.codewars.com/kata/get-the-middle-character
-https://www.codewars.com/kata/cross-product-of-vectors
-https://www.codewars.com/kata/sequence-generator-1
-https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
-https://www.codewars.com/kata/base-conversion
-https://www.codewars.com/kata/prefill-an-array
-https://www.codewars.com/kata/closures-and-scopes
-https://www.codewars.com/kata/can-you-keep-a-secret
-https://www.codewars.com/kata/stringing-me-along
-https://www.codewars.com/kata/array-helpers
-https://www.codewars.com/kata/sum-of-digits-slash-digital-root
-username
-</pre>
-2. Change `username` to your one.
-3. Click 'CHECK' to see the result.
-</details>
+    1. Insert the list below into cata scan input.
+    <pre>
+  https://www.codewars.com/kata/opposite-number
+  https://www.codewars.com/kata/basic-mathematical-operations
+  https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters
+  https://www.codewars.com/kata/transportation-on-vacation
+  https://www.codewars.com/kata/word-count
+  https://www.codewars.com/kata/remove-first-and-last-character-part-two
+  https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number
+  https://www.codewars.com/kata/get-the-middle-character
+  https://www.codewars.com/kata/cross-product-of-vectors
+  https://www.codewars.com/kata/sequence-generator-1
+  https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
+  https://www.codewars.com/kata/base-conversion
+  https://www.codewars.com/kata/prefill-an-array
+  https://www.codewars.com/kata/closures-and-scopes
+  https://www.codewars.com/kata/can-you-keep-a-secret
+  https://www.codewars.com/kata/stringing-me-along
+  https://www.codewars.com/kata/array-helpers
+  https://www.codewars.com/kata/sum-of-digits-slash-digital-root
+  username
+    </pre>
+    2. Change `username` to your one.
+    3. Click 'CHECK' to see the result.
+    </details>

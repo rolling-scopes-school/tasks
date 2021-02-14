@@ -56,40 +56,42 @@ Codewars is an autochecked task. To submit the results, follow the link https://
 
 ## Auto-Check
 
-https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+It's a self-test resource only, **not for submit**.
 
-<details>
-<summary>Instructions</summary>
+- https://usavkov.gitlab.io/codewars-check
+- https://auseika.github.io/kata-scan
+    <details>
+    <summary>Instructions</summary>
 
-1. Insert the list below into cata scan input.
-<pre>
-https://www.codewars.com/kata/disemvowel-trolls
-https://www.codewars.com/kata/mumbling
-https://www.codewars.com/kata/highest-and-lowest
-https://www.codewars.com/kata/isograms
-https://www.codewars.com/kata/char-code-calculation
-https://www.codewars.com/kata/cat-and-mouse-2d-version
-https://www.codewars.com/kata/duplicate-encoder
-https://www.codewars.com/kata/squares-sequence
-https://www.codewars.com/kata/concatenated-sum
-https://www.codewars.com/kata/filter-the-number
-https://www.codewars.com/kata/n-th-fibonacci
-https://www.codewars.com/kata/playing-with-sets-intersection
-https://www.codewars.com/kata/divide-and-conquer
-https://www.codewars.com/kata/find-the-odd-int
-https://www.codewars.com/kata/find-the-parity-outlier
-https://www.codewars.com/kata/zipwith
-https://www.codewars.com/kata/it-is-written-in-the-stars
-https://www.codewars.com/kata/friday-the-13ths
-https://www.codewars.com/kata/counting-array-elements
-https://www.codewars.com/kata/who-is-the-killer-1
-https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
-https://www.codewars.com/kata/validate-my-password
-username
-</pre>
-2. Change `username` to your one.
-3. Click 'CHECK' to see the result.
-</details>
+    1. Insert the list below into cata scan input.
+    <pre>
+  https://www.codewars.com/kata/disemvowel-trolls
+  https://www.codewars.com/kata/mumbling
+  https://www.codewars.com/kata/highest-and-lowest
+  https://www.codewars.com/kata/isograms
+  https://www.codewars.com/kata/char-code-calculation
+  https://www.codewars.com/kata/cat-and-mouse-2d-version
+  https://www.codewars.com/kata/duplicate-encoder
+  https://www.codewars.com/kata/squares-sequence
+  https://www.codewars.com/kata/concatenated-sum
+  https://www.codewars.com/kata/filter-the-number
+  https://www.codewars.com/kata/n-th-fibonacci
+  https://www.codewars.com/kata/playing-with-sets-intersection
+  https://www.codewars.com/kata/divide-and-conquer
+  https://www.codewars.com/kata/find-the-odd-int
+  https://www.codewars.com/kata/find-the-parity-outlier
+  https://www.codewars.com/kata/zipwith
+  https://www.codewars.com/kata/it-is-written-in-the-stars
+  https://www.codewars.com/kata/friday-the-13ths
+  https://www.codewars.com/kata/counting-array-elements
+  https://www.codewars.com/kata/who-is-the-killer-1
+  https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
+  https://www.codewars.com/kata/validate-my-password
+  username
+    </pre>
+    2. Change `username` to your one.
+    3. Click 'CHECK' to see the result.
+    </details>
 
 ## Materials
 

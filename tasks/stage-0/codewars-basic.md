@@ -34,35 +34,37 @@ Total: 1 \* 7 + 2 \* 9 + 5 \* 3 + 10 \* 1 = 50
 
 ## Auto-Check
 
-https://auseika.github.io/kata-scan. It's a self-test resource only, **not for submit**.
+It's a self-test resource only, **not for submit**.
 
-<details>
-<summary>Instructions</summary>
+- https://usavkov.gitlab.io/codewars-check
+- https://auseika.github.io/kata-scan
+    <details>
+    <summary>Instructions</summary>
 
-1. Insert the list below into cata scan input.
-<pre>
-https://www.codewars.com/kata/is-it-even
-https://www.codewars.com/kata/will-you-make-it
-https://www.codewars.com/kata/you-cant-code-under-pressure-number-1
-https://www.codewars.com/kata/largest-5-digit-number-in-a-series
-https://www.codewars.com/kata/graceful-tipping
-https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question
-https://www.codewars.com/kata/n-th-fibonacci
-https://www.codewars.com/kata/multiples-of-3-or-5
-https://www.codewars.com/kata/remove-first-and-last-character
-https://www.codewars.com/kata/remove-string-spaces
-https://www.codewars.com/kata/are-you-playing-banjo
-https://www.codewars.com/kata/greet-me
-https://www.codewars.com/kata/absent-vowel
-https://www.codewars.com/kata/validate-my-password
-https://www.codewars.com/kata/human-readable-duration-format
-https://www.codewars.com/kata/the-coupon-code
-https://www.codewars.com/kata/century-from-year
-https://www.codewars.com/kata/unlucky-days
-https://www.codewars.com/kata/fizz-buzz-cuckoo-clock
-https://www.codewars.com/kata/milk-and-cookies-for-santa
-username
-</pre>
-2. Change `username` to your one.
-3. Click 'CHECK' to see the result.
-</details>
+    1. Insert the list below into cata scan input.
+    <pre>
+  https://www.codewars.com/kata/is-it-even
+  https://www.codewars.com/kata/will-you-make-it
+  https://www.codewars.com/kata/you-cant-code-under-pressure-number-1
+  https://www.codewars.com/kata/largest-5-digit-number-in-a-series
+  https://www.codewars.com/kata/graceful-tipping
+  https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question
+  https://www.codewars.com/kata/n-th-fibonacci
+  https://www.codewars.com/kata/multiples-of-3-or-5
+  https://www.codewars.com/kata/remove-first-and-last-character
+  https://www.codewars.com/kata/remove-string-spaces
+  https://www.codewars.com/kata/are-you-playing-banjo
+  https://www.codewars.com/kata/greet-me
+  https://www.codewars.com/kata/absent-vowel
+  https://www.codewars.com/kata/validate-my-password
+  https://www.codewars.com/kata/human-readable-duration-format
+  https://www.codewars.com/kata/the-coupon-code
+  https://www.codewars.com/kata/century-from-year
+  https://www.codewars.com/kata/unlucky-days
+  https://www.codewars.com/kata/fizz-buzz-cuckoo-clock
+  https://www.codewars.com/kata/milk-and-cookies-for-santa
+  username
+    </pre>
+    2. Change `username` to your one.
+    3. Click 'CHECK' to see the result.
+    </details>
