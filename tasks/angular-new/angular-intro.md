@@ -4,7 +4,7 @@
 
 1. Angular-CLI
    - Установить [Angular-CLI](https://github.com/angular/angular-cli)
-   - Просмотреть [CLI QuickStart[](https://angular.io/docs/ts/latest/cli-quickstart.html).
+   - Просмотреть [CLI QuickStart](https://angular.io/docs/ts/latest/cli-quickstart.html).
    - Просмотреть [Style Guide](https://angular.io/guide/styleguide).
    - Просмотреть [СLI Commands](https://angular.io/cli).
 2. Создание проекта:
