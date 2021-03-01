@@ -1,6 +1,6 @@
-﻿Deadline         | Folder Name    | Coefficient
------------------|----------------|--------------
-02.04.2020 17:59 | css-recipes    | 0.5
+﻿ Folder Name    | Coefficient
+----------------|----------------|
+ css-recipes    | 0.5
 
 [Link to PSD template](https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&preview=CV+Portfoilio.psd)
 

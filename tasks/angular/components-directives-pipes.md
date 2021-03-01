@@ -1,6 +1,3 @@
-| Deadline         |
-|------------------|
-|                  |
 
 # YouTube client app
 

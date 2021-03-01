@@ -1,6 +1,4 @@
-| Deadline         |
-|------------------|
-|                  |
+
 
 # YouTube Client App (Admin page)
 

@@ -1,6 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| 14.04.2020 18.00 | layout-restaurant |
+ Folder name |
+-------------|
+ layout-restaurant |
 
 # Homework: Layout(Restaurant)
 
