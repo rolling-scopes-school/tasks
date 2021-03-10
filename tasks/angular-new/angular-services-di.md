@@ -19,9 +19,12 @@
    • получения значения: строки или объекта (`getItem()`)
    • удаления значения по ключу (`removeItem()`)
 4. Создайте сервис `ConfigOptionsService` _(core/services/config-options.service.ts)_, который должен хранить объект настроек (id, login, email, ...). Сервис должен предоставлять методы для установки и извлечения данных. Метод установки на вход принимает объект, а метод извлечения данных возвращает объект. Предусмотреть возможность установки подмножества свойств. Например, { id, login }.
-5. Создайте сервис `ConstantsService` _(core/services/constant.service.ts)_, в виде готового литерала объекта, например _{ App: "TaskManager", Ver: "1.0" }_. Зарегистрируйте его, используя `useValue`.
-6. Создайте сервис `GeneratorService` _(core/services/generator.ts)_, который должен генерировать случайную последовательность символов длины n из набора _a-z, A-Z, 0-9_. Создайте функцию `GeneratorFactory(n: number)`, которая будет предоставлять сгенеренную строку, используя `GeneratorService`. Зарегистрируйте `GeneratorFactory` используя `useFactory`.
-7. Создайте демо-компонент `AboutComponent` _(layout/components/about.component.ts)_ и внедрите перечисленные выше сервисы. Используйте декоратор `@Optional()`.
+
+### Дополнительное задание
+
+1. Создайте сервис `ConstantsService` _(core/services/constant.service.ts)_, в виде готового литерала объекта, например _{ App: "TaskManager", Ver: "1.0" }_. Зарегистрируйте его, используя `useValue`.
+2. Создайте сервис `GeneratorService` _(core/services/generator.ts)_, который должен генерировать случайную последовательность символов длины n из набора _a-z, A-Z, 0-9_. Создайте функцию `GeneratorFactory(n: number)`, которая будет предоставлять сгенеренную строку, используя `GeneratorService`. Зарегистрируйте `GeneratorFactory` используя `useFactory`.
+3. Создайте демо-компонент `AboutComponent` _(layout/components/about.component.ts)_ и внедрите перечисленные выше сервисы. Используйте декоратор `@Optional()`.
 
 ## Оценка
 
