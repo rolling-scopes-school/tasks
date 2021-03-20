@@ -13,7 +13,7 @@
 - /admin
 - /admin/products
 - /admin/product/add
-- /admin/product/edit:productID + resolve guard
+- /admin/product/edit/:productID + resolve guard
 - /admin/orders
 
 ### Рекомендации
