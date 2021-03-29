@@ -13,7 +13,7 @@ PSD:
 
 JPG:
 
-**[blow JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/blow/BLOW.jpg)**
+**[blow JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/blow/BLOW.jpg)**
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
