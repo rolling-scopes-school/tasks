@@ -14,6 +14,53 @@ JPG:
 - The commit history should reflect the development process of the application. **[Commit requirements](https://docs.rs.school/#/en/git-convention)**
 - After finishing development, you shouls make a Pull Request from the `webdev` branch to the `master` branch . You don't need to merge a Pull Request
 
+### Requirements for commits, pull request, repository
+- the work should be done in your private repository
+- source code should be committed to a separate branch
+- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
+- once the work is finished, create a pull request from a development branch to master
+- the pull request name should contain **the task name**
+- the pull request description should contain the following information:
+    - link to the task
+    - screenshot of your application (one would be enough)
+    - link to your application
+    - date of completion/deadline
+    - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
+
+Example:
+
+```
+1. Task:
+   Link to the current is here
+2. App screenshot:
+   Your screenshot is here
+3. Deploy:  
+   A link to your deployed application is here
+4. Done 19.04.20 (deadline 19.04.20)
+5. Score: 200 / 200
+- [x] Minimal scope
+    - [x] Feature 1 is implemented (+10)
+    - [x] Feature 2 is implemented (+10)
+- [x] Basic scope
+    - [x] Feature 3 is implemented (+10)
+    - [x] Feature 4 is implemented (+10)
+- [x] Extra scope
+    - [x] Feature 5 is implemented (+10)
+    - [x] Feature 6 is implemented (+10)
+- [x] Technical requirements
+    - [x] ESLint is used (+10)
+    - [x] ES6 features are used (+10)
+    - [x] Requirements to the repository, commits and pull request are met (+10)
+- [x] Penalties
+    - [x] Errors while app's working. (-10 for each, but no more than the total number of points for requirement implementation)
+    - [x] Not comply with the requirements for Pull Request, repository, commits names (-10) scores by mentor
+```
+
+- Pull request `should not contain commented code, redundant files, changes from other branches and generated files`, for instance, `.bundle.js`. Please, check your changes before creating a pull request. `.editorconfig`, `.gitignore`, etc. could be included in your pull request
+- Comments on a PR is a good practice
+- [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+
 ### Pay attention to the following important and common points:
 - The main blocks should be exactly placed on the screen width `1600px`, excepted for the `Subscribe block`.
 - Images, logos (if any) should be positioned within a logical container with the correct centering and positioning approach. 
