@@ -20,7 +20,7 @@ Browser Support: Google Chrome ( last version)
 
 ## Procedure
 
-Create a new private repository named *theyalow* in **your** Github account and upload your HTML and CSS files.
+Create a new branch named *theyalow* in **your private RS** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
