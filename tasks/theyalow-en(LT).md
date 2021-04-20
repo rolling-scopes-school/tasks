@@ -20,7 +20,8 @@ Browser Support: Google Chrome ( last version)
 
 ## Procedure
 
-Create a new branch named *theyalow* in **your private RS** Github account and upload your HTML and CSS files.
+1. Create a new branch named *theyalow* in **your private RS** Github account and upload your HTML and CSS files.
+2. The task will be checked by a *cross-check*. So you should **deploy your solution on gh-page** and submit the **link to the working gh-page** into cross-check submit
 
 ## Assessment criteria
 
