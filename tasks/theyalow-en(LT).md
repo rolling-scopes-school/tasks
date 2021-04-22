@@ -18,71 +18,116 @@ JPG:
 
 Browser Support: Google Chrome ( last version)
 
-## Procedure
+## Prerequisites
 
 1. Create a new branch named *theyalow* in **your private RS** Github account and upload your HTML and CSS files.
-2. The task will be checked by a *cross-check*. So you should **deploy your solution on gh-page** and submit the **link to the working gh-page** into cross-check submit
+2. The task will be checked by *cross-check*. So you should **deploy your solution** (preferably to gh-pages) and submit the **link to the hosted solution** into cross-check submit
+
+**IMPORTANT!!!**
+Failure to host your solution and/or not providing a correct link to the hosted solution will result in 0 points!
 
 ## Assessment criteria
 
 If the task is fully completed, and no defects are found by reviwer, you are awarded **100 points**. This concerns the markup and use of HTML and CSS.
 
-You should use either **Flex or Grid** in your solution. Fonts and images should be hosted locally in the `assets` folder.
+You must use either **Flex or Grid** in your solution. Fonts and images should be hosted locally in the `assets` folder.
+The minimum width you have to support is 360px
 
-1. Failure to submit on time may result in losing **up to 40 points** of the total homework score!
-2. Failure to comply with the requirements of any task item may result in losing **3 to 10 points**.
-3. Failure to comply with coding standards or syntax requirements may result in losing **up to 20 points**.
-4. Failure to match both desktop and mobile may result in losing **up to 50 points**.
-5. Pixel perfect is out of scope
+## Global penalties
+1. Failure to submit on time - **-100 points**
+2. No hosted version of the solution - **-100 points**
+3. Not using flex or grid atleast once - **-30 points**
+5. Not following semantic standards **-1 point per semantically incorrect tag, up to -15 points**.
+6. The solution is not responsive. **Choose one**:
+    1. The layout breaks only on large screens (>1400px) **or** small screens (360 <= x <= 400) **-5 points**
+    2. One of the version (mobile/deskop) breaks between its boundaries (test by resizing from 360px to 600px for example) **-10 points**
+    3. The app doesn't take up the whole screen width (empty spaces visible on the sides at any circumstance) **-20 points**
+    4. A lot of code is rewritten to be used by desktop/mobile only **-30 points**
+    5. No mobile or desktop version present **-50 points**
+7. General inconsistencies (more than 10 per solution). This includes: **-20 points**
+    1.  very inaccurate placement of elements (>20px from the source)
+    2.  wrong background used
+    3.  wrong colors used
+8. Pixel perfect is out of scope, but try to replicate the design as best as you can
 
 ## Terms of Reference
 
-“Interactive“ means effects or animations depending on user's actions, like on hover on click.
+“Interactive“ means effects or animations depending on user's actions, like on hover, on click.
 - Care about background styles.
 - Care about lines and colors.
 
-**Desktop**
+## Scoring
+**You can score a maximum of 109, but the total after deducting penalties cannot be higher than 100**  
+**Desktop (54 points)**
 
-1. Header
-- Interactive nav.
-- Logo
-- Think of where `h1` should be used.
+1. Header **15 points**
+- All elements are clickable. **+1 points**
+- Nav elements are interactive. **+2 points**
+- Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
+- H1 tag used correctly **+1 points**
+- The nav elements are replicated pixel perfectly **+10 points**
 
-2. Main
-- Video element placed with image placeholder.
-- Slider buttons could be inactive, but should exist.
-- (Next)
-- 3 columns the same width.
-- svg icons.
-- (Next)
-- Video element placed with image placeholder.
-- All '+' should be interactive.
-- Customize range input slider, could be inactive.
+2. Main **34 points**
+- Video element placed with the image placeholder. **+5 points**
+- Slider button present, interactive **+1 points**
+- Slider button placed using the **position** property **+2 points**
+- Text is styled according to design **+2 points**
+---
+- 3 responsive columns. Their width is the same **+3 points**
+- using svg icons **+1 points**
+- Shadow used **+3 points**
+---
+- Video element placed with image placeholder. **+5 points**
+- All '+' should be interactive. **+1 points**
+- Replicate slider, could be inactive **+3 points**.
+- Every other block positioned correctly **+3 points**
+---
+- Bullet points styled **+2 points**
+- 100% free banner present and in place **+3 points**
 
-3. Footer
-- Logo
+3. Footer **5 points**
+- Shadow used **+3 points**
+- Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
+- H1 tag used correctly **+1 points**
 
-**Mobile**
+**Mobile  (47 points)**
 
-1. Header
-- Interactive nav.
-- Logo
-- Think of where `h1` should be used.
+1. Header **5 points**
+- All elements are clickable. **+1 points**
+- Nav elements are interactive. **+2 points**
+- Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
+- H1 tag used correctly **+1 points**
+2. Main **37 points**
+- Video element placed with the image placeholder. **+5 points**
+---
+- 3 responsive columns. Their width is the same **+3 points**
+- using svg icons **+1 points**
+- Layered effect used on borders **+3 points**
+---
+- Video element placed with image placeholder. **+5 points**
+- All '+' should be interactive. **+1 points**
+---
+- Using svg icons **+1 points**
+- Chat bubbles present and aligned **+3 points**
+- Chat bubbles perfectly replicated **+5 points**
+- Input present **+1 points**
+- Input perfectly replicated **+3 points**
+- Form element used **+2 points**
+- Clicking enter on the input submits the form **+1 points**
+---
+- 100% free banner present and in place **+3 points**
 
-2. Main
-- Video element placed with image placeholder.
-- Swiper instead of slider (for our case, just hide the slider).
-- (Next)
-- 3 columns the same width.
-- svg icons.
-- (Next)
-- Video element placed with image placeholder.
-- All '+' should be interactive.
-- Twitter messages should have the same design with 2 lines - message and author. 
-- Form -> input + submit
+3. Footer **5 points**
+- Shadow used **+3 points**
+- Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
+- H1 tag used correctly **+1 points**
 
-3. Footer
-- Logo
+**General (8 points)**
+
+1. Backgrounds **8 points**
+- All sections have backgrounds **+3 points**
+- All sections have correct backgrounds **+2 points**
+- All fonts are correct **+3 points**
 
 
 ## Useful links
