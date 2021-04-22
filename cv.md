@@ -9,4 +9,5 @@
 4. I've read the book for beginner of IOS developers and I did tasks myself
 5. https://github.com/Pauwell86/Lesson7/pulls
 6. I've been learning English for 3 years. I started learning English in Skyeng. Now I'm learning English with teacher on Skype twice a week
+7. https://pauwell86.github.io/
 
