@@ -57,28 +57,29 @@ The minimum width you have to support is 360px
 - Care about lines and colors.
 
 ## Scoring
-**You can score a maximum of 109, but the total after deducting penalties cannot be higher than 100**  
-**Desktop (54 points)**
+**You can score a maximum of 120, but the total after deducting penalties cannot be higher than 100**  
+**Desktop (59 points)**
 
-1. Header **15 points**
-- All elements are clickable. **+1 points**
+1. Header **16 points**
+- All elements are clickable. **+2 points**
 - Nav elements are interactive. **+2 points**
 - Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
 - H1 tag used correctly **+1 points**
 - The nav elements are replicated pixel perfectly **+10 points**
 
-2. Main **34 points**
+2. Main **38 points**
 - Video element placed with the image placeholder. **+5 points**
-- Slider button present, interactive **+1 points**
+- Slider button present, interactive **+2 points**
 - Slider button placed using the **position** property **+2 points**
 - Text is styled according to design **+2 points**
 ---
-- 3 responsive columns. Their width is the same **+3 points**
+- 3 responsive columns **+3 points**
+- The column width is equal **+2 points**
 - using svg icons **+1 points**
 - Shadow used **+3 points**
 ---
 - Video element placed with image placeholder. **+5 points**
-- All '+' should be interactive. **+1 points**
+- All '+' should be interactive. **+2 points**
 - Replicate slider, could be inactive **+3 points**.
 - Every other block positioned correctly **+3 points**
 ---
@@ -90,30 +91,31 @@ The minimum width you have to support is 360px
 - Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
 - H1 tag used correctly **+1 points**
 
-**Mobile  (47 points)**
+**Mobile  (53 points)**
 
-1. Header **5 points**
-- All elements are clickable. **+1 points**
+1. Header **6 points**
+- All elements are clickable. **+2 points**
 - Nav elements are interactive. **+2 points**
 - Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
 - H1 tag used correctly **+1 points**
-2. Main **37 points**
+2. Main **42 points**
 - Video element placed with the image placeholder. **+5 points**
 ---
-- 3 responsive columns. Their width is the same **+3 points**
+- 3 responsive columns. **+3 points**
+- The column width is equal **+2 points**
 - using svg icons **+1 points**
 - Layered effect used on borders **+3 points**
 ---
 - Video element placed with image placeholder. **+5 points**
-- All '+' should be interactive. **+1 points**
+- All '+' should be interactive. **+2 points**
 ---
 - Using svg icons **+1 points**
 - Chat bubbles present and aligned **+3 points**
 - Chat bubbles perfectly replicated **+5 points**
-- Input present **+1 points**
+- Input present **+2 points**
 - Input perfectly replicated **+3 points**
 - Form element used **+2 points**
-- Clicking enter on the input submits the form **+1 points**
+- Clicking enter on the input submits the form **+2 points**
 ---
 - 100% free banner present and in place **+3 points**
 
