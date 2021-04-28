@@ -13,7 +13,7 @@
 ### UX прототип
 
 [Базовый UX прототип в figma](https://www.figma.com/file/nE1hG7VIpX8mQ0BbPEF29I/Match-match-game?node-id=1%3A1960)
-Дизайн можно менять любым образом. 
+Дизайн можно менять любым образом, мобильная версия не требуется.  
 Разрешается использовать любые препроцессоры.
 
 ## Требования к функционалу приложения
@@ -100,12 +100,12 @@ email:
 
 ### Основное задание (Cross-check review)
 
-- [ ] **+5** - Верстка содержит все описанные в требованиях блоки
+- [ ] **+10** - Верстка содержит все описанные в требованиях блоки
 - [ ] **+20** - Соблюдены все требования к валидации полей для регистрации игрока в приложении.
-- [ ] **+10** - Реализован игровой цикл.
+- [ ] **+20** - Реализован игровой цикл.
 - [ ] **+10** - Реализована таблица рекордов.
 - [ ] **+10** - Реализована страница settings.
-- [ ] **+5** - Реализована страница about game.
+- [ ] **+10** - Реализована страница about game.
 
 Итого: **80**
 
@@ -130,9 +130,14 @@ email:
 - [ ] **-20** В приложении отсутствует разбитие на логические модули (Проверяется Ментором)
 
 ## Дополнительная информация
-- fetch api - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - загрузка изображения на canvas - https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage
+- indexedDb API - https://developer.mozilla.org/ru/docs/Web/API/IndexedDB_API
 - typescript bootstrap tools - https://www.typescriptlang.org/docs/bootstrap
 - официальная документация typescript - https://www.typescriptlang.org/
 - нативная валидация форм с помощью javascript - https://developer.mozilla.org/ru/docs/Learn/Forms/Form_validation
 - html form documentation - https://www.w3schools.com/html/html_forms.asp
+- Паки изображений для карточек 
+    - https://www.flaticon.com/packs/search?word=animals 
+    - https://unsplash.com/s/photos/pack-animal 
+    - https://www.shutterstock.com/search/pack+animals 
+    - https://all-free-download.com/free-photos/pack-animal.html
