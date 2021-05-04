@@ -43,7 +43,7 @@ The minimum width you have to support is 360px
     2. One of the version (mobile/deskop) breaks between its boundaries (test by resizing from 360px to 600px for example) **-10 points**
     3. The app doesn't take up the whole screen width (empty spaces visible on the sides at any circumstance) **-20 points**
     4. A lot of code is rewritten to be used by desktop/mobile only **-30 points**
-    5. No mobile or desktop version present **-50 points**
+    5. No mobile or desktop version present **don't evaluate the missing version**
 7. General inconsistencies (more than 10 per solution). This includes: **-20 points**
     1.  very inaccurate placement of elements (>20px from the source)
     2.  wrong background used
