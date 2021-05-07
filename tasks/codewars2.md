@@ -59,8 +59,6 @@ Total: 1 * 9 + 4 * 13 + 5 * 4  = 81
 
 ## Материалы
 
-- [Codewars. Онлайн самоучитель по программированию](https://youtu.be/Jm7nca3jk4M)
-- [Решение задач с Codewars. Level 8](https://youtu.be/pPJOen-1-mw)
 - [Классы](https://learn.javascript.ru/classes)
 - [Прототипы, наследование](https://learn.javascript.ru/prototypes)
 - [Продвинутая работа с функциями](https://learn.javascript.ru/advanced-functions)
