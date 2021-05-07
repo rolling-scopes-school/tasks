@@ -1,4 +1,4 @@
-# Codewars Stage2:
+# Codewars Stage2
 
 ## Classes
 
@@ -38,6 +38,13 @@
 * (5 kyu) https://www.codewars.com/kata/replicate-new 
 * (5 kyu) https://www.codewars.com/kata/simple-events
 
+## Как сабмитить задание
+Codewars - автопроверяемый таск.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars stage 0**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+
+Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
+
+Ваш никнейм на сайте codewars должен быть таким же, как и GitHub никнейм, под которым вы зарегистрировались в rs app. Если указанный никнейм на codewars занят, добавьте к своему GitHub никнейму окончание -rss. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
 ## Scoring criteria
 
@@ -48,3 +55,14 @@
 Total: 1 * 9 + 4 * 13 + 5 * 4  = 81
 
 **Total sum - 81 points.**
+
+
+## Материалы
+
+- [Codewars. Онлайн самоучитель по программированию](https://youtu.be/Jm7nca3jk4M)
+- [Решение задач с Codewars. Level 8](https://youtu.be/pPJOen-1-mw)
+- [Классы](https://learn.javascript.ru/classes)
+- [Прототипы, наследование](https://learn.javascript.ru/prototypes)
+- [Продвинутая работа с функциями](https://learn.javascript.ru/advanced-functions)
+- [Промисы, async/await](https://learn.javascript.ru/async)
+- [Паттерны проектирования](https://refactoring.guru/ru/design-patterns)
