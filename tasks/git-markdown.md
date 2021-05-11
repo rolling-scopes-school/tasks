@@ -57,15 +57,15 @@ The document should be deployed on GitHub Pages (https://pages.github.com/), it 
 ### FAQ
 
 1. Question: I’ve got 0 for the task  
-   Answer: The page with your CV is absent at: https://{your github account}.github.io/rsschool-cv/cv
+   Answer: The page with your CV is absent at: https://your-github-account.github.io/rsschool-cv/cv
 
 2. Question: I’ve got 50 and status "Failed repository requirements: ...."  
    Answer: You do not have "rsschool-cv" repository with "gh-pages" branch and "cv.md" file there. Or there is no “README.md” file in "master" branch.
 
 3. Question: I’ve got 50 and status "Failed commit requirements: ...."  
    Answer: Your "gh-pages" branch has less then 3 commits or not all commits are made according to the rules: https://docs.rs.school/#/en/git-convention All commits that do not follow the rules will be written in the status.
-   You can check your commits here: https://github.com/%7Your github account}/rsschool-cv/commits/gh-pages
+   You can check your commits here: https://github.com/your-github-account/rsschool-cv/commits/gh-pages
    "Merge ..." or "Initial commit" commits were ignored.
 
 4. Question: I’ve got 50 and status "Failed PR requirements:...."  
-   Answer: The main reason, in the majority of cases, is that you haven’t made a Pull Request from ‘gh-pages’ to ‘master’. The other reason - there is no task title ("Markdown & Git") in your Pull Request. To look at your PR you can here:  https://github.com/%7Your github account}/rsschool-cv/pulls?utf8=%E2%9C%93&q=is%3Apr
+   Answer: The main reason, in the majority of cases, is that you haven’t made a Pull Request from ‘gh-pages’ to ‘master’. The other reason - there is no task title ("Markdown & Git") in your Pull Request. To look at your PR you can here:  https://github.com/your-github-account/rsschool-cv/pulls?utf8=%E2%9C%93&q=is%3Apr
