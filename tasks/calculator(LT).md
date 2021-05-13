@@ -39,14 +39,14 @@ It is necessary to have a *decimal point, actions with multi-digit numbers, the 
 The calculator can work with both positive and negative numbers. For example, you can divide -9 by -3. When you enter a negative number, a minus sign appears in front of it. 
 If you have a square root operation, consider how you will handle trying to find the square root of *a negative number*.
 
-2 + -2 = 0
--9 ^ 3  = -729
+2 + -2 = 0\
+-9 ^ 3  = -729\
 -9 √  = error
 
 **Actions with decimals (+10 points)**
-Decimal operations have it's quirks in most programming languages, you can read about it [here](https://betterprogramming.pub/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476). Teach your calculator to do this.
-0.1 + 0.2 = 0.3
-0.4 - 0.1 = 0.3
+Decimal operations have it's quirks in most programming languages, you can read about it [here](https://betterprogramming.pub/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476). Teach your calculator to do this.\
+0.1 + 0.2 = 0.3\
+0.4 - 0.1 = 0.3\
 -0.1 * 0.2 = -0.02
 
 ## Instruction to cross-check
