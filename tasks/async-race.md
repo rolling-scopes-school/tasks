@@ -84,5 +84,5 @@ What are you waiting for? Let's coding!
 - Task should be scored in accordance with [Non-functional requirements](https://github.com/mikhama/async-race-prototype/blob/main/README.md#non-functional-requirements). You can find score points near each requirement.
 
 ## FAQ
-You can ask questions in this document. They will be answered before this task start:
+You can ask questions in the following document. They will be answered before this task start:
 https://docs.google.com/spreadsheets/d/1KrObgPHt6guthtswtB8AKhrLpRZ_Kf8H-3V63VDCBGw/edit?usp=sharing
