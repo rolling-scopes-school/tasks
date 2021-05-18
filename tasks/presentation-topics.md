@@ -1,3 +1,10 @@
+# Presentation topics
+
+> ## Important note about choosing a topic
+>
+> Using topics like "Introduction to React" is **highly discouraged**, please give preference to narrower and more interesting topics for listeners.
+> Also, simple copying of documentation is not the best approach to preparing an engaging presentation. Please be creative :)
+
 WebPlatform: 
 =========================== 
 * Audio API 
@@ -32,7 +39,7 @@ Libraries, Frameworks etc.
 * Vue
 * Material UI
 * Lodash
- 
+
 Web Development Projects 
 =========================== 
 * Mozilla Foundation 
