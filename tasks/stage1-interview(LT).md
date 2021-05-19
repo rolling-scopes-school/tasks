@@ -1,15 +1,17 @@
 ## What should you know about:
+### General
+1. What is version control?
+2. Fundamental git commands and what they do.
+
+
 ### HTML/CSS 
-1.  Structure of HTML page
-2. Tags ( pairs and unpairs), basic attribytes
-3. Semantic tags
-4. Types of tags ( block, inline, inline-block)
-5. Positions and difference between them
-6. Display of elements
-7. Units ( px, rem, vh and so on)
-8. Padding vs margin
-9. Box-model
-10. Float
+1. Structure of HTML page
+2. Tags, including attributes
+3. Types of elements ( block, inline, inline-block)
+4. Element positions and difference between them
+5. Display of elements
+6. Units ( px, rem, vh and so on)
+7. Box-model
 
 
 ### Flex
@@ -21,10 +23,11 @@
 
 ### Grid
 1. Direction
-2. Units ( fr vs fr)
+2. Units ( fr vs px)
 3. Vertical/horizontal aligment
 4. Self aligment
 5. Order of elements
+
 
 ### JavaScript
 1. Data types
@@ -37,6 +40,7 @@
 8. Object and it's methods
 9. Function ( types of functions, parameters)
 10. call(), apply(), bind()
-11. closer
-12. DOM ( manipulationg with DON elements)
-13. DOM API 
+11. Closures
+12. DOM ( manipulationg with DOM elements)
+13. DOM API
+14. Technical task
