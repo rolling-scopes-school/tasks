@@ -19,7 +19,7 @@ Failure to host your solution and/or not providing a correct link to the hosted 
 If the task is fully completed, and no defects are found by reviwer, you are awarded **100 points**. This concerns your solutions HTML, CSS, JS.
 
 ## Scoring
-**Basic functionality +50 points**
+**Basic functionality +60 points**
 The calculator performs mathematical operations: **addition, subtraction, multiplication, division**. 
 It is necessary to have a *decimal point, actions with multi-digit numbers, the ability to perform several actions in a row, to clear the result*
 - Basic operations (+ - *) with positive integers (2 + 2 = 4) **+15 points**
