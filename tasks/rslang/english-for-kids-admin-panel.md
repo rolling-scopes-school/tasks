@@ -165,5 +165,5 @@
 - инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
 
 ### Документ для вопросов
-- документ для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1AZXNZvSq8ZK1KF85S-RYJEqbVtTVCVQ7cj9l4fZ2rxc/edit#gid=0
+- документ для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1LjN5NEFUavLpqwGKA62dads1PckZOLlwQaihK4XcN30/edit?usp=sharing
 - ссылки на лучшие работы с оригинальным дизайном, и/или реализованными дополнительными возможностями добавьте, пожалуйста, в эту форму: https://forms.gle/d3MM1rRaLU2WU9Hs9
