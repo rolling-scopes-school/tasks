@@ -1,0 +1,35 @@
+# [Stage#0.](../../) Знакомство с системой контроля версий Git и веб-сервисом GitHub
+## В данном модуле студентам необходимо:
+1. Получить общее представление о системе контроля версий Git.
+2. Начать работу с Git на примере веб-сервиса GitHub.
+3. Познакомиться с терминологией:
+    - Repository: Local, Remote/Origin
+    - Working Directory
+    - Staging Area
+3. Познакомиться c основными командами (clone, add, commit, push, pull)
+4. Познакомиться c понятием "ветка" в git: создание новой, слияние, перебазирование
+5. Познакомиться с Markdown, оформить страницу
+6. Создать собственную веб-страничку при помощи github-pages
+
+## Приблизительное время прохождения модуля
+Теория: 3 часа
+Практика: 4 часа
+
+## Теория 
+1. Вам необходимо просмотреть видео-материалы <Антон - Добавить ссылку на YouTube> (0.5 часа)
+2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
+3. Вам необходимо просмотреть практические видео-материалы (Workshop) <Антон - Добавить ссылку на YouTube> (0.5 часа)
+4. Для практического задания ознакомиться с [документацией Markdown](https://guides.github.com/features/mastering-markdown/) - можно коротко посмотреть возможности и синтаксис, а более глубоко погрузиться на практике (0.5 часа)
+5. Короткий и понятный материал, как настроить github-pages в вашем репозитории: [ссылка на MDN](https://developer.mozilla.org/ru/docs/Learn/Common_questions/Using_Github_pages#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2_%D0%BD%D0%B0_github), [официальная документация](https://pages.github.com/)
+
+## Практика 
+1. Вам необходимо выполнить задание, в котором требуется создать собственное резюме при помощи Markdown-форматирования в Git репозитории: https://rolling-scopes-school.github.io/2021q3/#/stage0/tasks/cv/git-markdown
+
+## Дополнительные материалы
+1. Русскоязычная документация по Git: https://git-scm.com/book/ru/v2
+2. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
+3. Интерактивный тренажер по Git: https://learngitbranching.js.org/?locale=ru_RU
+4. [Скринкаст по Git (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+    - основы
+    - ветки
+    - слияние
