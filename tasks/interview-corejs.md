@@ -22,10 +22,10 @@
 * `Function.prototype.bind` implement polyfill
 * `Object.create` implement polyfill
 * `Array.flat` implement polyfill
-* `hello world.repeating(3) -> hello world hello world hello world`. How to implement?
-* `('!', 4, -10, 34, 0) -> 4!-10!34!0`
-* `five(plus(seven(minus(three())))) -> 9`
-* `add(5)(9)(-4)(1) -> 11`
+* 'hello world'.repeating(3) -> 'hello world hello world hello world'. How to implement?
+*  myFunc('!', 4, -10, 34, 0) -> '4!-10!34!0`. How to implement?
+*  five(plus(seven(minus(three())))) -> 9. How to implement?
+*  add(5)(9)(-4)(1) -> 11. How to implement?
 * `periodOutput(period)` method should output in the console once per every period how much time left from the function first call. 
   Example:
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
