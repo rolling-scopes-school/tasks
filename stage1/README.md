@@ -1,3 +1,5 @@
+# !!! Черновик. Релиз 4 сентября 2021!!!!
+
 # RS School. Курс JS/Frontend-разработка. Stage#1
 - Зачисляются все желающие
 - Темы:
@@ -43,6 +45,7 @@
 - Module: JavaScript: Functions, Context, this
 - Module: ECMAScript 6+: Features
 - Module: Data mapping and filtering
+- [Module: Functions](modules/functions/)
 
 - Codewars #1 
 - Algorithms
@@ -74,19 +77,19 @@
 - Module: Clean Code
 
 ### Неделя #10
-Module: JavaScript: Classes, constructor, new
-Module: JavaScript: Prototypes, Inheritance
+- Module: JavaScript: Classes, constructor, new
+- Module: JavaScript: Prototypes, Inheritance
 
 ### Неделя #11
-Module: Modules in JS
-Module: NPM, NodeJS Basics
+- Module: Modules in JS
+- Module: NPM, NodeJS Basics
+- [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #12
 Module: Chrome DevTools
 Codewars#2
 
 ### Неделя #13
-Module: Nodejs https://github.com/EvgeniiMal/html-builder-test
 
 ### Неделя #14
 Module: HTML Forms
