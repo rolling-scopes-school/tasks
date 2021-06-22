@@ -2,7 +2,7 @@
 
 | Deadline         | Folder name| Branch name |
 | ---------------- | ----------- | ----------- |
-| 27.06.2021 23:59 | english-for-kids-backend    | english-for-kids-backend    |
+| 12.07.2021 23:59 | english-for-kids-admin-panel  | english-for-kids-admin-panel  |
 
 **English for kids backend** - приложение для изучения английских слов детьми.
 
