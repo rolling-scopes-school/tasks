@@ -3,7 +3,7 @@
 | 30.06.2021 23:59  | codejam-chess | codejam-chess |
 
 
-# Codejam chess Часть 1
+# Chess. Часть 1
 
 ## Задача
 
