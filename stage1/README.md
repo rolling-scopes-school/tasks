@@ -60,7 +60,7 @@
 - [Модуль "Проект Virtual Museum. Part#2"](modules/project-virtual-museum)
 
 ### Неделя #6
-- Module: DOM API 
+- [Module: DOM API](modules/dom-api)
 - Module: DOM Events
 - [Модуль "Проект Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 

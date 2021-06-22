@@ -5,4 +5,4 @@
 - flex
 - git
 - IDE
-- Figma"
+- Figma

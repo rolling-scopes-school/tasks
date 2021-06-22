@@ -14,7 +14,7 @@
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/html (11 часов)
 
 ## Практика 
-1. Вам необходимо пройти тест "HTML Test #0" в RS APP > Auto Test
+1. Вам необходимо пройти тест "HTML #0 Test" в RS APP > Auto Test
 
 ## Дополнительные материалы
 1. https://webref.ru/course/html-basics - 2h
