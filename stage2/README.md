@@ -12,26 +12,37 @@
 
 ## Программа обучения
 Module: Webpack
-
-Module: JavaScript: Asynchronous
 Module: JavaScript: Events
+Module: JavaScript: Debugging, Profiling
 
-Module: JavaScript: Handling Errors, Debugging, Profiling
-Module: JavaScript: Client - Server interaction
-
-Module: TypeScript: Basic
-Module: Typescript: Advanced
-
+### Неделя #X
 Module: Object-Oriented Programming and Object-Oriented Design
 Module: Building blocks of OOP
 
+### Неделя #X
+Module: TypeScript: Basic
+Module: Typescript: Advanced
+
+### Неделя #X
+- [Module: Async programming](modules/async/)
+- Module: JavaScript: Client - Server interaction
+- [Module: HTTP / HTTPS](modules/http/)
+
+### Неделя #X
+- [Module: RESTful API Style](modules/restful-api/)
+- [Module: JavaScript Error Handling](modules/error-handling/)
+- [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+### Неделя #X
+- [Mudule: Presentation. Recorded & Online](modules/presentation)
+
+### Неделя #X
 Module: Design Patterns
 Module: SOLID Principles
 
-Modele: Agile workflow
-Module: Software Development Life Cycle (SDLC)
-
-Module: CoreJS Interview [Описание](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+### Неделя #X
+[Module: CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 
-HTTP/ HTTPS/ RESTful API
+
+
