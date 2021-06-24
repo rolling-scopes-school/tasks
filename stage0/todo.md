@@ -1,2 +1,4 @@
-1. Обновить тест RS School intro
-1. Обновить тест HTML Basics
+- Обновить тест RS School intro
+- Обновить тест HTML Basics
+- Big O
+- Графики основных математических функций

@@ -11,7 +11,10 @@
 5 часов
 
 ## Теория 
-TODO
+- Лекция
+    - https://www.youtube.com/watch?v=MuCoejGknUI 
+    - https://slides.com/dzmitrytsebruk/async-programming
+
 
 ## Практика 
 TODO

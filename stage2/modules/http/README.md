@@ -7,7 +7,9 @@
 2 часа
 
 ## Теория 
-TODO
+- Лекция
+    - https://www.youtube.com/watch?v=jOUb8wot2sU
+    - Слайды https://slides.com/dzmitrytsebruk/http
 
 ## Практика 
 TODO

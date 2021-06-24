@@ -10,7 +10,7 @@
 2 часа
 
 ## Теория 
-- Запись вебинара:
+- Лекция:
     - https://www.youtube.com/watch?v=99Qz8xRbl4k
     - Слайды https://slides.com/dzmitrytsebruk/error-handling
 

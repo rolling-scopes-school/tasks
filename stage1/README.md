@@ -60,8 +60,8 @@
 - [Модуль "Проект Virtual Museum. Part#2"](modules/project-virtual-museum)
 
 ### Неделя #6
-- [Module: DOM API](modules/dom-api)
-- Module: DOM Events
+- [Module: DOM API](modules/dom-api/)
+- [Module: DOM Events](modules/dom-events/)
 - [Модуль "Проект Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 
 ### Неделя #7
@@ -70,6 +70,7 @@
 - [Модуль "Проект Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 
 ### Неделя #8
+- [Module: Chrome DevTools](modules/chrome-devtools/)
 - Проект Momentum
 
 ### Неделя #9
@@ -86,7 +87,6 @@
 - [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #12
-Module: Chrome DevTools
 Codewars#2
 
 ### Неделя #13

@@ -7,7 +7,9 @@
 2 часа
 
 ## Теория 
-TODO
+- Лекция
+    - https://slides.com/dzmitrytsebruk/rest-api
+    - https://youtu.be/_EmcOWmstko
 
 ## Практика 
 TODO
