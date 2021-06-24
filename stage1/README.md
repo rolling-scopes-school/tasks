@@ -71,13 +71,16 @@
 
 ### Неделя #8
 - [Module: Chrome DevTools](modules/chrome-devtools/)
-- Проект Momentum
+- [Module: Clean Code](modules/clean-code/)
 
 ### Неделя #9
-- ShortTrack Tasks
-- Module: Clean Code
+- Проект Momentum
+
+
 
 ### Неделя #10
+- ShortTrack Tasks
+
 - Module: JavaScript: Classes, constructor, new
 - Module: JavaScript: Prototypes, Inheritance
 
