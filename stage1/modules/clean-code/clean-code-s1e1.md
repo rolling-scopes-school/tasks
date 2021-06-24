@@ -8,7 +8,7 @@
 
 ## Task 2. Описание: 
 
-![image](../images/clean-code.png)
+![image](clean-code.png)
 
 Перед вами небольшое одностраничное [веб-приложение TODO-list](https://github.com/ViktoryiaYatskova/clean-code-s1e1).
 Ваша задача - это навести порядок внутри файлов кода (_рефакторинг_) согласно следующим руководствам:
