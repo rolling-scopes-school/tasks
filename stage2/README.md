@@ -1,8 +1,8 @@
 # !!! Черновик. Релиз 4 октября 2021!!!!
 # RS School. Курс JS/Frontend-разработка. Stage#2
-- Для зачисления необходимо успешно выполнить задания 0 и 1 этапа, пройти собеседование с ментором
+- Для зачисления необходимо успешно выполнить задания первого этапа, пройти собеседование с ментором
 - Цели второго этапа обучения:
-    - Получение студентами знаний по Core Js
+    - Получение студентами знаний и опыта работы с TypeScript
     - Получение студентами знаний и опыта разработки UI компонентов
     - Подготовка студентов к прохождению технических интервью
     - Подтоговка студентов к выступлению на английском языке
@@ -16,12 +16,23 @@ Module: JavaScript: Events
 Module: JavaScript: Debugging, Profiling
 
 ### Неделя #X
-Module: Object-Oriented Programming and Object-Oriented Design
-Module: Building blocks of OOP
+- Собеседование с ментором - [Описание](technical-screening.md)
+- Module: HTML Forms
+- Проект Match-Match Game на JS
+
+### Неделя #X 
+- Проект Match-Match Game на JS
 
 ### Неделя #X
-Module: TypeScript: Basic
-Module: Typescript: Advanced
+- Разбор ошибок Match-Match Game, рефакторинг
+
+### Неделя #X
+- Module: Object-Oriented Programming and Object-Oriented Design
+- Module: Building blocks of OOP
+
+### Неделя #X
+- Module: TypeScript: Basic
+- Module: Typescript: Advanced
 
 ### Неделя #X
 - [Module: Async programming](modules/async/)
@@ -37,8 +48,8 @@ Module: Typescript: Advanced
 - [Mudule: Presentation. Recorded & Online](modules/presentation)
 
 ### Неделя #X
-Module: Design Patterns
-Module: SOLID Principles
+- Module: Design Patterns
+- Module: SOLID Principles
 
 ### Неделя #X
 [Module: CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
