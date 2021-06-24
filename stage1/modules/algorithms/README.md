@@ -17,4 +17,6 @@ https://www.codewars.com/kata/mutual-recursion
 - https://github.com/rolling-scopes-school/reverse-int/blob/master/README.md
 - https://github.com/rolling-scopes-school/towel-sort/blob/master/README.md
 - https://github.com/Shastel/brackets
+- https://github.com/AlreadyBored/basic-js
+
 

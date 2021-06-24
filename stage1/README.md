@@ -76,8 +76,6 @@
 ### Неделя #9
 - Проект Momentum
 
-
-
 ### Неделя #10
 - ShortTrack Tasks
 
@@ -90,7 +88,8 @@
 - [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #12
-Codewars#2
+- [Проект Self-introduction](modules/html-builder/)
+- Codewars#2
 
 ### Неделя #13
 
