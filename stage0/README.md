@@ -23,7 +23,7 @@
 
 ### Неделя #4
 - [Модуль "Figma"](modules/figma)
-- [Модуль "Проект Virtual Museum. Stage#0"](modules/project-virtual-museum)
+- [Модуль "Проект Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
 - [Модуль "Знакомство с JavaScript. Часть #1"](modules/js-basics-part-1/)
