@@ -74,7 +74,7 @@
 
 ### Неделя #8
 - [Module: Chrome DevTools](modules/chrome-devtools/)
-- [Module: Clean Code](modules/clean-code/)
+- [Проект: Clean Code](modules/clean-code/)
 
 ### Неделя #9
 - Проект Momentum

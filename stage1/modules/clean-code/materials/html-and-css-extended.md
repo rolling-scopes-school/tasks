@@ -1,6 +1,5 @@
-## [Начальный уровень тут](stage1/tasks/clean-code/guidelines/html-and-css.md)
-
-# Продвинутый уровень:
+#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../) 
+# HTML & CSS. Продвинутый уровень
 
 ## 1. HTML
 
