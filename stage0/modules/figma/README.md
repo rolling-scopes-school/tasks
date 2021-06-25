@@ -10,3 +10,6 @@
 
 ## Теория 
 1. [Figma с нуля](https://www.youtube.com/watch?v=z6mlqOGmjQQ&feature=youtu.be) (3.5 часов)
+
+## Дополнительные материалы
+- https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika
