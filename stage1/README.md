@@ -8,18 +8,21 @@
     - Верстка адаптивного макета.
     - Core JS.
     - Решения алгоритмических задач.
-    - DOM, DOM Events, Browser API
-    - Основы NodeJS
-    - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам
-    - Проект Match-Match Game на corejs
+    - DOM, DOM Events, Browser API.
+    - Проект Momentum.
+    - Основы NodeJS.
+    - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
+    - Проект Match-Match Game на Сorejs.
 - Время обучения: 15 недель
 - Формат: самообучение + вебинары + общение в Discord + задания проверяют в процессе кросс-чек и автоматически
 
 ## Необходимые базовые знания
-- Понимание основ HTML и CSS
+- Понимание основ HTML и CSS, наличие практических навыков вёрстки
+- Знание основ JavaScript (типы данных, операторы, циклы, условные констуркции, функции)
 - Знание структуры данных и их организации (массив, список, стек, очередь, дерево и т.д.). 
 - Уметь реализовать достаточно простой алгоритм на языке программирования JavaScript. Например, сортировку или поиск элементов массива.
-- (Желательно) Английский язык уровня Pre-intermediate (А2).
+- Уметь решать задачи уровня 8-7 kyu на сайте https://www.codewars.com/
+
 
 ## Программа обучения
 ### Неделя #1
@@ -55,7 +58,8 @@
 - [Модуль "Проект Virtual Museum. Part#1"](modules/project-virtual-museum)
 
 ### Неделя #5
-- [Модуль "Позиционирование в CSS. Flex. Grid."](modules/css-postioning)
+- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning)
+- [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Проект Virtual Museum. Part#2"](modules/project-virtual-museum)
 
 ### Неделя #6
@@ -90,6 +94,9 @@
 - [Проект Self-introduction](modules/html-builder/)
 - Codewars#2
 
+### Неделя #13
+- Module: HTML Forms
+- Проект Match-Match Game на JS (Часть #1)
 
 
 

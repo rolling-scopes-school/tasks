@@ -42,7 +42,7 @@
         - Asynchronous programming
         - TypeScript
         - NodeJS
-        - Подтоговка презентации
+        - Подготовка презентации на английском языке
         - Собеседование по CoreJS
 - [Stage#3](stage3/)
     - Фреймворк на выбор React или Angular

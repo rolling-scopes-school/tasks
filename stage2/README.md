@@ -17,8 +17,6 @@ Module: JavaScript: Debugging, Profiling
 
 ### Неделя #X
 - Собеседование с ментором - [Описание](technical-screening.md)
-- Module: HTML Forms
-- Проект Match-Match Game на JS
 
 ### Неделя #X 
 - Проект Match-Match Game на JS
