@@ -19,7 +19,7 @@
 
 ### Неделя #3
 - [Модуль "Проект CV"](modules/project-cv)
-- [Модуль "Позиционирование в CSS. Flex."](modules/css-postioning)
+- [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
 - [Модуль "Figma"](modules/figma)
