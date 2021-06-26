@@ -27,7 +27,8 @@
 ![screenshot](../images/museum.jpg)
 
 [Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/fhycRKILxaj103q4ecs9w3/Museum-test?node-id=0%3A1)  
-[Советы по выполнению задания](museum-hints.md)
+[Советы по выполнению задания](museum-hints.md)  
+[Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)  
 
 #### Создание собственной копии макета:
 *Делайте копию только на момент выдачи таска. До этого момента в макет могут вноситься правки*
@@ -147,3 +148,4 @@
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+- [Официальный сайт Лувра](https://www.louvre.fr/) - источник картинок, ссылок, видео
