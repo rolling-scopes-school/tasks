@@ -11,6 +11,7 @@
     - DOM, DOM Events, Browser API.
     - Проект Momentum.
     - Основы NodeJS.
+    - Webpack
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
     - Проект Match-Match Game на Сorejs.
 - Время обучения: 15 недель
@@ -77,24 +78,30 @@
 - [Проект: Clean Code](modules/clean-code/)
 
 ### Неделя #9
-- Проект Momentum
-
-### Неделя #10
-- ShortTrack Tasks
-
 - Module: JavaScript: Classes, constructor, new
 - Module: JavaScript: Prototypes, Inheritance
+- Module: NPM, NodeJS Basics
+
+- Codewars#2. Part#1
+
+### Неделя #10
+- Codewars#2. Part#2
+- ShortTrack Tasks
 
 ### Неделя #11
 - Module: Modules in JS
-- Module: NPM, NodeJS Basics
-- [Проект HTML-Builder](modules/html-builder/)
+- [Module: Webpack](modules/webpack/)
+- Проект Momentum
 
 ### Неделя #12
-- [Проект Self-introduction](modules/html-builder/)
-- Codewars#2
+- [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #13
+- [Проект Self-introduction](modules/html-builder/)
+- Module: JavaScript: Events
+- Module: JavaScript: Debugging, Profiling
+
+### Неделя #14
 - Module: HTML Forms
 - Проект Match-Match Game на JS (Часть #1)
 

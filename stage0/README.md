@@ -10,7 +10,7 @@
 ### Неделя #1
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
-- [Модуль "Основы HTML"](modules/html-basics/README.md)
+- [Модуль "Основы HTML"](modules/html-basics/)
 
 ### Неделя #2
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
