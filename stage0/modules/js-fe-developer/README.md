@@ -9,9 +9,9 @@
 2 часа
 
 ## Теория
-- //TODO важность английского языка
-- //TODO 
+- Вебинар по этой теме пройдет 6 го июля. Время можно узнать в расписании RS APP.
 - Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
+- [Рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Практика
 - Тест //TODO
