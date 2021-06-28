@@ -11,6 +11,8 @@
 ## Практика 
 1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
     - <@natein - Добавить задачи по темам строки / числа / функции / работа с объектами> - около 7-9 задач из CodeWars
+2. https://github.com/rolling-scopes-school/human-readable-number
+
 
 ## Дополнительные материалы
 1. Подробнее про контекст вызова this - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this

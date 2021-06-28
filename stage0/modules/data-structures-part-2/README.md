@@ -12,6 +12,7 @@
 ## Практика 
 1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
     - <@natein - Добавить задачи, можно снова про массивы / строки / числа на закрепление / объекты + по деревьям, если будет> - около 6-7 задач из CodeWars
+2. https://github.com/rolling-scopes-school/guessing-game
 
 ## Дополнительные материалы
 1. Оценка сложности алгоритма: [ссылка 1](https://tproger.ru/articles/computational-complexity-explained/), [ссылка 2](https://tproger.ru/translations/algorithms-and-data-structures/)

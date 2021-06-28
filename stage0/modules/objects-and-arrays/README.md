@@ -20,6 +20,9 @@
 ## Практика 
 1. Test //TODO
 2. Codewars //TODO
+3. https://github.com/rolling-scopes-school/typical-arrays-problems/
+4. https://github.com/rolling-scopes-school/reverse-int
+5. https://github.com/romacher/morse-decoder
 
 
 

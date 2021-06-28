@@ -8,24 +8,25 @@ https://www.codewars.com/kata/array-deep-count
 https://www.codewars.com/kata/mutual-recursion
 
 ### RS APP
-- https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/doubly-linked-list.md
-- https://github.com/rolling-scopes-school/guessing-game
-- https://github.com/rolling-scopes-school/typical-arrays-problems/blob/master/README.md
-- https://github.com/rolling-scopes-school/human-readable-number/blob/master/README.md
-- https://github.com/rolling-scopes-school/reverse-int/blob/master/README.md
-- https://github.com/rolling-scopes-school/towel-sort/blob/master/README.md
 - https://github.com/AlreadyBored/basic-js
-- https://github.com/rolling-scopes-school/sudoku
-- https://github.com/romacher/morse-decoder
-- https://github.com/romacher/expression-calculator
-
 
 ## Stage#0
-- https://github.com/Shastel/brackets
-- https://github.com/rolling-scopes-school/tic-tac-toe
+- https://github.com/romacher/morse-decoder (stage#0 only)
+- https://github.com/rolling-scopes-school/human-readable-number (stage#0 only)
+- https://github.com/rolling-scopes-school/typical-arrays-problems/ (stage#0 only)
+- https://github.com/rolling-scopes-school/reverse-int (stage#0 only)
+- https://github.com/Shastel/brackets (stage#0 + stage#1)
+- https://github.com/rolling-scopes-school/tic-tac-toe (stage#0 + stage#1)
+- https://github.com/rolling-scopes-school/guessing-game (stage#0 + stage#1)
+- https://github.com/rolling-scopes-school/towel-sort/ (stage#0 + stage#1)
 
 ## Stage#1
-- https://github.com/rolling-scopes-school/finite-state-machine
+- https://github.com/rolling-scopes-school/finite-state-machine (stage#0 + stage#1)
+- https://github.com/rolling-scopes-school/sudoku (stage#1 only)
+- https://github.com/romacher/expression-calculator (stage#1 only)
+
+
+
 
 
 
