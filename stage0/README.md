@@ -22,12 +22,12 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
-- [Кросс-чек](https://docs.rs.school/#/cross-check-flow) проверка проекта ["CV"](modules/project-cv/) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
 - [Модуль "Figma"](modules/figma)
 - [Модуль "Проект Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
-- [Кросс-чек](https://docs.rs.school/#/cross-check-flow) проверка проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 - [Модуль "Знакомство с JavaScript. Часть #1"](modules/js-basics-part-1/)
 
 ### Неделя #6
@@ -48,3 +48,20 @@
 Чтобы получить сертификат о прохождении подготовительного этапа вам необходимо набрать 70% от результата TOP1 студента. Например, если в конце этапа у лучшего студента 2000 баллов, проходной для всех студентов 1400 баллов (2000*0.7).  
 
 Наличие или отсутствие сертификата о прохождении подготовительного этапа не влияет на возможность дальнейшего обучения в RS School.
+
+## FAQ
+#### Можно ли изучать учебные модули заранее?
+Конечно! После прохождения всех модулей подготовительного этапа вы можете начать прохождение модулей stage#1.
+
+#### Нужна ли регистрация на stage#1 если я зарегистрирован на подготовительный этап? 
+Да, нужна. Ссылка на регистрацию тут - https://rs.school/js/ 
+
+#### Можно ли пропускать вебинары?
+Да, можно. Записи вебинаров можно будет найти на нашем канале - [YouTube](https://youtube.com/c/rollingscopesschool).  
+
+Видео удобнее смотреть на скорости 1.25 или выше.
+
+#### Кто проверяет задания?
+- Проекты "CV" и "Museum. Stage#0" проверяются в ходе [Cross-check](https://docs.rs.school/#/cross-check-flow) 
+- Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://docs.rs.school/#/rs-app-tasks) до дедлайна.
+- Таски Git & Markdown, GIt & HTML & CSS проверяется автоматически.

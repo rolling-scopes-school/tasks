@@ -27,9 +27,9 @@
 1. Посмотреть [запись вводного занятия набора 2021Q1](https://www.youtube.com/watch?v=D9Q1eSzmARw) - 2 часа
 2. Посмотреть [запись "Как учиться в RS App"](https://www.youtube.com/watch?v=v_69DaeZ7dM&feature=youtu.be) - 1 час 
 3. Прочитать документацию о курсе https://docs.rs.school/   
-   - Как организовано общение в Discord и Telegram
-   - Правила хорошего тона
+   - Процесс обучения
    - Возможные причины отчисления
+   - Сдача заданий в RS APP
    - Что такое Cross-check?
    - Кто такой RS Activist?
    - Когда возможно трудоустройство?
@@ -42,8 +42,7 @@
 1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/registry/student). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
 2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-2021Q3 если нет, записаться https://app.rs.school/registry/student?course=js-fe-2021Q3 
 3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats 
-4. Посмотреть и сохранить в закладки расписание курса 
-5. Выполнить тест "RSS Test RU" в RS APPAuto Test
+4. Выполнить тест "RSS Test (RU)" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)). 
 
 ## Дополнительные материалы
 1. [Запись YouTube стрима "RSSchool для гуманитария"](https://www.youtube.com/watch?v=mCnOni_mqdk) - 2 часа
