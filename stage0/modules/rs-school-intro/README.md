@@ -40,7 +40,7 @@
 
 ## Практика 
 1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/registry/student). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
-2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-2021Q3 если нет, записаться https://app.rs.school/registry/student?course=js-fe-2021Q3 
+2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-preschool если нет, записаться https://app.rs.school/registry/student?course=js-fe-preschool 
 3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats 
 4. Выполнить тест "RSS Test (RU)" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)). 
 
