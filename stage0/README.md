@@ -18,7 +18,7 @@
 - [Модуль "Основы CSS"](modules/css-basics/)
 
 ### Неделя #3
-- [Модуль "Проект CV"](modules/project-cv)
+- [Модуль "Проект CV"](modules/project-cv/)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
@@ -36,10 +36,10 @@
 - [Модуль "Обьекты и массивы в JavaScript. Основы"](modules/objects-and-arrays/)
 
 ### Неделя #8
-- [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/README.md)
+- [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
 
 ### Неделя #9
-- [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/README.md)
+- [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/)
 - Получение сертификата 
 
 ## Сертификат 

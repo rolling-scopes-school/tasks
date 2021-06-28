@@ -32,7 +32,8 @@
 1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/registry/student). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
 2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-2021Q3 если нет, записаться https://app.rs.school/registry/student?course=js-fe-2021Q3 
 3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats 
-4. Выполнить тест "RSS Test RU" в RS APP/Auto Test
+4. Посмотреть и сохранить в закладки расписание курса 
+5. Выполнить тест "RSS Test RU" в RS APP/Auto Test
 
 ## Дополнительные материалы
 1. [Запись YouTube стрима "RSSchool для гуманитария"](https://www.youtube.com/watch?v=mCnOni_mqdk) - 2 часа
