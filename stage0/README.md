@@ -16,15 +16,16 @@
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
 - [Модуль "Основы CSS"](modules/css-basics/)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/git-markdown.md)
 
 ### Неделя #3
-- [Модуль "Проект CV"](modules/project-cv/)
+- Проект ["CV. Часть 2 и 3."](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
 - [Модуль "Figma"](modules/figma)
-- [Модуль "Проект Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
+- Проект [" Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
@@ -50,10 +51,10 @@
 Наличие или отсутствие сертификата о прохождении подготовительного этапа не влияет на возможность дальнейшего обучения в RS School.
 
 ## FAQ
-#### Можно ли изучать учебные модули заранее?
-Конечно! После прохождения всех модулей подготовительного этапа вы можете начать прохождение модулей stage#1.
+#### Можно ли изучать учебные модули и делать проекты заранее?
+Конечно! После прохождения всех модулей подготовительного этапа вы можете начать прохождение stage#1.
 
-#### Нужна ли регистрация на stage#1 если я зарегистрирован на подготовительный этап? 
+#### Нужна ли регистрация на основной курс если я зарегистрирован на подготовительный этап? 
 Да, нужна. Ссылка на регистрацию тут - https://rs.school/js/ 
 
 #### Можно ли пропускать вебинары?

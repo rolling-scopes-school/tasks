@@ -24,7 +24,7 @@
 6. Вам необходимо прочить и запомнить [требования к коммитам в RS School](https://docs.rs.school/#/git-convention)
 
 ## Практика 
-1. Вам необходимо выполнить задание, в котором требуется создать собственное резюме при помощи Markdown-форматирования в Git репозитории: https://rolling-scopes-school.github.io/2021q3/#/stage0/tasks/cv/git-markdown
+1. Вам необходимо выполнить задание, в котором требуется создать собственное резюме при помощи Markdown-форматирования в Git репозитории: Проект ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/git-markdown.md)
 
 ## Дополнительные материалы
 1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
