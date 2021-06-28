@@ -4,7 +4,7 @@
 ## Описание 
 - Зачисляются все желающие
 - Время обучения: 9 недель
-- Формат: самообучение, групповое обучение, + общение в Discord + задания проверяют в процессе кросс-чек и автоматически
+- Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
 
 ## Программа обучения
 ### Неделя #1
@@ -22,10 +22,12 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
+- [Кросс-чек](https://docs.rs.school/#/cross-check-flow) проверка проекта ["CV"](modules/project-cv/) 
 - [Модуль "Figma"](modules/figma)
 - [Модуль "Проект Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
+- [Кросс-чек](https://docs.rs.school/#/cross-check-flow) проверка проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 - [Модуль "Знакомство с JavaScript. Часть #1"](modules/js-basics-part-1/)
 
 ### Неделя #6
