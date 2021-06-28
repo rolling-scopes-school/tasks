@@ -15,3 +15,4 @@
     - Module: Agile workflow
     - Module: Software Development Life Cycle (SDLC)
 - Финальный проект
+- Получение сертификата за Stage#3

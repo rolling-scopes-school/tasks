@@ -44,6 +44,7 @@
 ### Неделя #X
 - Module: Design Patterns
 - Module: SOLID Principles
+- Получение сертификата за Stage#2
 
 ### Неделя #X
 [Module: CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
