@@ -11,10 +11,6 @@ https://www.codewars.com/kata/mutual-recursion
 - https://github.com/AlreadyBored/basic-js
 
 ## Stage#0
-- https://github.com/romacher/morse-decoder (stage#0 only)
-- https://github.com/rolling-scopes-school/human-readable-number (stage#0 only)
-- https://github.com/rolling-scopes-school/typical-arrays-problems/ (stage#0 only)
-- https://github.com/rolling-scopes-school/reverse-int (stage#0 only)
 - https://github.com/Shastel/brackets (stage#0 + stage#1)
 - https://github.com/rolling-scopes-school/tic-tac-toe (stage#0 + stage#1)
 - https://github.com/rolling-scopes-school/guessing-game (stage#0 + stage#1)
@@ -22,8 +18,8 @@ https://www.codewars.com/kata/mutual-recursion
 
 ## Stage#1
 - https://github.com/rolling-scopes-school/finite-state-machine (stage#0 + stage#1)
-- https://github.com/rolling-scopes-school/sudoku (stage#1 only)
-- https://github.com/romacher/expression-calculator (stage#1 only)
+- https://github.com/rolling-scopes-school/sudoku (stage#0 + stage#1)
+- https://github.com/romacher/expression-calculator (stage#0 + stage#1)
 
 
 

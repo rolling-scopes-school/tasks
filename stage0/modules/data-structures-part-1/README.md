@@ -18,6 +18,7 @@
 2. https://github.com/Shastel/brackets/
 3. https://github.com/rolling-scopes-school/tic-tac-toe/
 4. https://github.com/rolling-scopes-school/towel-sort/
+5. https://github.com/romacher/expression-calculator
 
 
 ## Дополнительные материалы
