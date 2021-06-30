@@ -11,10 +11,7 @@
 ## Теория
 - Вебинар по этой теме пройдет 6 го июля. Время можно узнать в расписании RS APP.
 - Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
-- [Рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
-
-## Практика
-- Тест //TODO
+- Прочитать [рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Полезные ссылки 
 - [Запись YouTube стрима "Профориентация"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 часа
