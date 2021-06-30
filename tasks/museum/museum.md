@@ -27,6 +27,7 @@
 ![screenshot](../images/museum.jpg)
 
 [Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/fhycRKILxaj103q4ecs9w3/Museum-test?node-id=0%3A1)  
+
 [Советы по выполнению задания](museum-hints.md)  
 [Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)  
 
