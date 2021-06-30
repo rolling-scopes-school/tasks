@@ -148,4 +148,5 @@
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
-- [Официальный сайт Лувра](https://www.louvre.fr/) - источник картинок, ссылок, видео
+- [Официальный сайт Лувра](https://www.louvre.fr/) - источник ссылок на соцсети, а также картинок для галереи и видео для плейлиста, которые понадобятся на stage#1
+- [Виртуальный Лувр](http://mylouvre.su/виртуальный-лувр/) - источник ссылок на Google Street View

@@ -3,7 +3,11 @@
 Ваша задача - создать своё CV в виде html-страницы с css-стилями.  
 Основу содержания данной страницы составят данные, которые вы добавили в markdown-документ из предыдущего задания [Markdown & Git](git-markdown.md)
 
+- [Советы по выполнению задания](cv-hints.md)
+
 Кроме текста на страницу необходимо добавить ваше фото или аватарку.  
+Если вы записали видеорезюме, его также необходимо встроить в CV.
+
 Страницу нужно разместить на GitHub Pages. Она будет доступна по адресу `https://github-username.github.io/rsschool-cv/`, где вместо `github-username` необходимо указать свой GitHub username.
 
 ## Порядок работы
@@ -49,5 +53,5 @@ HTML, CSS & Git - автопроверяемый таск.
 
 ## Материалы:
 
-- [Что такое Markdown](https://guides.hexlet.io/markdown/)
 - [Полезные команды для работы с Git](https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git)
+
