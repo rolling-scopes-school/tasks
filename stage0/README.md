@@ -29,14 +29,16 @@
 
 ### Неделя #5
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
-- [Модуль "Знакомство с JavaScript. Часть #1"](modules/js-basics-part-1/)
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 
 ### Неделя #6
-- [Модуль "Знакомство с JavaScript. Часть #2"](modules/js-basics-part-2/)
-- [Модуль "Функции в JavaScript"](modules/js-functions/)
+- [Модуль "Закрепление основ JavaScript. Типы данных"](modules/data-types/)
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
+- [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 
 ### Неделя #7
-- [Модуль "Обьекты и массивы в JavaScript. Основы"](modules/objects-and-arrays/)
+- [Модуль "DOM Api"](modules/dom-api/)
+- [Модуль "DOM Events"](modules/dom-events/)
 
 ### Неделя #8
 - [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
