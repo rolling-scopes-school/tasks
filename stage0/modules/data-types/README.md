@@ -10,6 +10,7 @@
 
 ## Практика 
 1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
-    - <@natein - Добавить задачи по темам строки / числа / функции > - около 7-9 задач из CodeWars
+
+   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/data-types.md)
 2. https://github.com/rolling-scopes-school/human-readable-number
 
