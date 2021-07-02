@@ -11,7 +11,8 @@
 
 ## Практика 
 1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
-    - <@natein - Добавить задачи, можно снова про массивы / строки / числа на закрепление / объекты + по деревьям, если будет> - около 6-7 задач из CodeWars
+   
+   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-2.md)
 2. https://github.com/rolling-scopes-school/guessing-game
 3. (advanced) https://github.com/rolling-scopes-school/sudoku
 
