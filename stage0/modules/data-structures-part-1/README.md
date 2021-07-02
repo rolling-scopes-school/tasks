@@ -14,7 +14,8 @@
 
 ## Практика 
 1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
-    - <@natein - Добавить задачи по темам массивы / матрицы / стек > - около 5-6 задач из CodeWars
+
+   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-1.md)
 2. https://github.com/Shastel/brackets/
 3. https://github.com/rolling-scopes-school/tic-tac-toe/
 4. https://github.com/rolling-scopes-school/towel-sort/
