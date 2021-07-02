@@ -1,0 +1,27 @@
+# Codewars ["Обьекты и массивы в JavaScript"](https://github.com/rolling-scopes-school/tasks/blob/master/stage0/modules/objects-and-arrays)
+
+* (7 kyu) https://www.codewars.com/kata/find-the-stray-number (7, array, numbers)
+* (7 kyu) https://www.codewars.com/kata/euclidean-distance-in-n-dimensions  (7, array, numbers)
+* (6 kyu) https://www.codewars.com/kata/create-phone-number (6, array, string)
+* (7 kyu) https://www.codewars.com/kata/bubblesort-once (7, array, algorithm)
+* (7 kyu) https://www.codewars.com/kata/sort-with-arrow-functions (7, array, object)
+* (7 kyu) https://www.codewars.com/kata/whos-online (7, array, object)
+* (7 kyu) https://www.codewars.com/kata/homogenous-arrays (7, array)
+
+
+## Как сабмитить задание
+Codewars - автопроверяемый таск.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Objects & Arrays**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+
+Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
+
+Ваш никнейм на сайте codewars должен быть таким же, как и GitHub никнейм, под которым вы зарегистрировались в rs app. Если указанный никнейм на codewars занят, добавьте к своему GitHub никнейму окончание -rss. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+
+## Scoring criteria
+
+*  1 point for 8 kyu and 7 kyu tasks (6 tasks at all)
+*  4 points - 6 kyu (1 at all)
+
+Total: 1 * 6 + 4 = 10
+
+**Total sum - 10 points.**
