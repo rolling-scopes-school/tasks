@@ -19,10 +19,7 @@
 
 ## Практика 
 1. Test //TODO
-2. Codewars //TODO
+2. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/objects-arrays.md)
 3. https://github.com/rolling-scopes-school/typical-arrays-problems/
 4. https://github.com/rolling-scopes-school/reverse-int
 5. https://github.com/romacher/morse-decoder
-
-
-
