@@ -10,11 +10,16 @@
     - Бинарное поисковое дерево <Антон - Добавить ссылку на YouTube>
 
 ## Практика 
-1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
-   
-   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-2.md)
+Вам необходимо решить предложенные задачи.
+Внимание! 
+* Не ожидается, что студенты успеют решить все алгоритмические задачи.
+* Запрещено копировать код других студентов (текущего, а также предыдущих наборов).
+* Хорошо подумайте перед сабмитом чужого кода, стоит ли риск быть отчисленным за 3% баллов.
+
+Задачи: 
+1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-2.md)
 2. https://github.com/rolling-scopes-school/guessing-game
-3. (advanced) https://github.com/rolling-scopes-school/sudoku
+3. (сложная задача) https://github.com/rolling-scopes-school/sudoku
 
 ## Дополнительные материалы
 1. Оценка сложности алгоритма: [ссылка 1](https://tproger.ru/articles/computational-complexity-explained/), [ссылка 2](https://tproger.ru/translations/algorithms-and-data-structures/)
