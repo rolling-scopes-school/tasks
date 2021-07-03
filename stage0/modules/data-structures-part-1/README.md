@@ -13,13 +13,18 @@
 2. Прочить [конспект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md) 
 
 ## Практика 
-1. Вам необходимо решить все предложенные задачи по темам, которые прошли:
+Вам необходимо решить предложенные задачи.
+Внимание! 
+* Не ожидается, что студенты успеют решить все алгоритмические задачи.
+* Запрещено копировать код других студентов (текущего, а также предыдущих наборов).
+* Хорошо подумайте перед сабмитом чужого кода, стоит ли риск быть отчисленным за 3% баллов.
 
-   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-1.md)
+Задачи:  
+1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-1.md)
 2. https://github.com/Shastel/brackets/
 3. https://github.com/rolling-scopes-school/tic-tac-toe/
 4. https://github.com/rolling-scopes-school/towel-sort/
-5. https://github.com/romacher/expression-calculator
+5. (сложное задание) https://github.com/romacher/expression-calculator
 
 
 ## Дополнительные материалы
