@@ -4,7 +4,7 @@
 * (7 kyu) https://www.codewars.com/kata/next-prime
 * (6 kyu) https://www.codewars.com/kata/lottery-ticket
 * (5 kyu) https://www.codewars.com/kata/rgb-to-hex-conversion
-* (6 kyu) https://www.codewars.com/kata/invert-binary-tree
+* (6 kyu) https://www.codewars.com/kata/fun-with-trees-max-sum
 * (5 kyu) https://www.codewars.com/kata/binary-search-tree-validation
 
 ## Как сабмитить задание
