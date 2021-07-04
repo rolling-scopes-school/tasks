@@ -49,6 +49,9 @@
 ### Неделя #X
 [Module: CoreJS Interview](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
+### Неделя #X
+[Testing](modules/testing/)
+
 
 
 
