@@ -1,4 +1,3 @@
-# !!! Черновик. Релиз 4 июля 2021!!!!
 # RS School. Курс JS/Frontend-разработка. Подготовительный этап
 Подготовительный этап поможет тем, кто мало знаком или совсем не знаком с программированием и хотел бы впоследствии успешно обучаться в RS School.  
 ## Описание 
@@ -25,7 +24,7 @@
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
 - [Модуль "Figma"](modules/figma)
-- Проект [" Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
+- Проект ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
@@ -37,13 +36,18 @@
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 
 ### Неделя #7
-- [Модуль "DOM Api"](modules/dom-api/)
+- [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
+- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 
 ### Неделя #8
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 - [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
+- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
+
 
 ### Неделя #9
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
 - [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/)
 - Получение сертификата 
 
