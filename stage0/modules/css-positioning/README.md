@@ -10,10 +10,10 @@
 1. Основы позиционирования элементов
     - https://webref.ru/course/position - 2h
     - https://webref.ru/course/block-model - 2h
-    - https://webref.ru/course/block-inline - 1h"
+    - https://webref.ru/course/block-inline - 1h
 2. Flexbox
     - https://webref.ru/layout/flexbox-tutorial - 2h
-    - https://habr.com/ru/post/467049/ - 2h
+    - https://habr.com/ru/post/467049/ - 1h
 
 ## Практика 
 1. Вам необходимо пройти тест "CSS Positioning" в RS APP > Auto Test

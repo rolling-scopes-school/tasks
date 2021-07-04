@@ -44,3 +44,7 @@
 
 ### 
 https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
+
+ ## Дополнительные материалы
+1. Подробнее про контекст вызова this - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
+2. Замыкания в JS - https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures

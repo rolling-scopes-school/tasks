@@ -85,6 +85,7 @@
 - Codewars#2. Part#1
 
 ### Неделя #10
+- [Git Recap](modules/git-recap/)
 - Codewars#2. Part#2
 - ShortTrack Tasks
 
