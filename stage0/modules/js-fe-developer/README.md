@@ -9,7 +9,7 @@
 2 часа
 
 ## Теория
-- Вебинар по этой теме пройдет 6 го июля. Время можно узнать в расписании RS APP.
+- Посмотреть запись [вебинара](https://www.youtube.com/watch?v=5g1U06QjWZk).
 - Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
 - Прочитать [рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
