@@ -149,3 +149,12 @@
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
 - [Официальный сайт Лувра](https://www.louvre.fr/) - источник ссылок на соцсети, а также картинок для галереи и видео для плейлиста, которые понадобятся на stage#1
 - [Виртуальный Лувр](http://mylouvre.su/виртуальный-лувр/) - источник ссылок на Google Street View
+
+## Вебинары RS School
+- [Friday Live Coding. Part 1](https://youtu.be/ZAde-IJAHzo)
+- [Friday Live Coding. Part 2](https://youtu.be/BJENQIX2e2o)
+- [Friday Live Coding. Part 3](https://youtu.be/fooyYgIuZe8)
+- [Friday Live Coding. Part 4](https://youtu.be/Qk2UGlFNKPE)
+- [Friday Live Coding. Part 5](https://youtu.be/ouZnGUefneQ)
+- [Репозиторий с кодом](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
+- [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1) 
