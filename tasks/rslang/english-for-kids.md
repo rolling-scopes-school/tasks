@@ -180,7 +180,6 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 ### Cross-check
 - инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
-- форма для проверки: [cross-check-english-for-kids.netlify.com](https://cross-check-english-for-kids.netlify.com/)
 
 ### Документ для вопросов
 - документ для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1LjN5NEFUavLpqwGKA62dads1PckZOLlwQaihK4XcN30/edit?usp=sharing
