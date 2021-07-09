@@ -26,87 +26,88 @@
 - (Желательно) Английский язык уровня Pre-intermediate.
 
 ## Программа обучения
-### Неделя #1
+### Неделя #1 
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
 - [Модуль "Проект CV"](modules/project-cv)
-  Тесты:
-  - HTML
-  - CSS
 
 ### Неделя #2
-- Module: JavaScript: Basics
-- Module: JavaScript: Objects, Arrays
-- Codewars #1
-- Algorithms 
-- Tests 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
+- [Модуль "Figma"](modules/figma)
+- [Проект "Virtual Museum. Part#1"](modules/project-virtual-museum)
+
+- Проверка уровня базовых знаний. Тесты и codewars задачи по темам:
+  - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+  - [Модуль "Основы JavaScript. Переменные, область видимости и типы данных"](modules/data-types/)
+  - [Модуль "Основы JavaScript. Функции"](modules/js-functions/)
+  - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/) 
 
 ### Неделя #3
-- Module: JavaScript: Scope, Hoisting, Closures
-- Module: JavaScript: Functions, Context, this
-- Module: ECMAScript 6+: Features
-- Module: Data mapping and filtering
-- [Module: Functions](modules/functions/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
 
-- Codewars #1 
-- Algorithms
-- Tests
+- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning/)
+- [Модуль "CSS grid layout"](modules/css-grid/)
+- [Проект: "Virtual Museum. Part#2"](modules/project-virtual-museum)
 
 ### Неделя #4
-- [Модуль "Figma"](modules/figma)
-- [Модуль "Проект Virtual Museum. Part#1"](modules/project-virtual-museum)
+- Module: Responsive Web Design Best Practices
+- [Проект: "Virtual Museum. Part#2"](modules/project-virtual-museum)
 
 ### Неделя #5
-- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning)
-- [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Проект Virtual Museum. Part#2"](modules/project-virtual-museum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
+- [Модуль: JavaScript. Evolution](modules/js-evolution/)
+- [Модуль: JavaScript. The Functional Parts](modules/functions/)
+- [Модуль: Знакомство с Node.js. Основы работы с NPM & package.json](modules/nodejs-npm-overview)
+
+- Проверка уровня базовых знаний. Тесты и задачи по темам:
+  - [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
+  - [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/) 
 
 ### Неделя #6
-- [Module: DOM API](modules/dom-api/)
-- [Module: DOM Events](modules/dom-events/)
-- [Модуль "Проект Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
+- [Модуль: DOM API](modules/dom-api/)
+- [Модуль: Events](modules/events/)
+- [Проект "Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 
 ### Неделя #7
-- Module: Event Loop & Animation
-- Module: Responsive Web Design Best Practices
-- [Модуль "Проект Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
+- [Модуль: Event Loop & Animation](modules/eventloop-animation/)
+- [Модуль: Chrome DevTools](modules/chrome-devtools/)
+- [Проект "Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 
 ### Неделя #8
-- [Module: Chrome DevTools](modules/chrome-devtools/)
-- [Проект: Clean Code](modules/clean-code/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 
-### Неделя #9
-- Module: JavaScript: Classes, constructor, new
-- Module: JavaScript: Prototypes, Inheritance
-- Module: NPM, NodeJS Basics
-
-- Codewars#2. Part#1
-
-### Неделя #10
-- [Git Recap](modules/git-recap/)
-- Codewars#2. Part#2
-- ShortTrack Tasks
-
-### Неделя #11
-- Module: Modules in JS
-- [Module: Webpack](modules/webpack/)
+- [Модуль: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
+- [Модуль: Asynchronous JavaScript](modules/async/)
 - Проект Momentum
 
-### Неделя #12
+### Неделя #9
+- Модуль: Modules in JS
+- [Модуль: Webpack](modules/webpack/)
+- Проект Momentum
+
+### Неделя #10
+- ShortTrack Tasks
+- [Git Recap](modules/git-recap/)
+- [Проект Self-introduction](modules/html-builder/)
+
+### Неделя #11
 - [Проект HTML-Builder](modules/html-builder/)
 
-### Неделя #13
-- [Проект Self-introduction](modules/html-builder/)
-- Module: JavaScript: Events
-- Module: JavaScript: Debugging, Profiling
-
-### Неделя #14
-- Module: HTML Forms
+### Неделя #12
+- Module: HTML Forms & Validation
 - Проект Match-Match Game на JS (Часть #1)
 
+### Other
+- [Algorithms](algorithms) 
+- [Проект: Clean Code](modules/clean-code/)
+- Codewars#2. 
 
-
+## FAQ
+### Что делать до старта обучения? 
+1. Выполнить задания и тесты [подготовительного курса](stage0/)
+2. Пойти на курсы английского языка до получения уровня Pre-Intermediate (Минимум A2).
+3. Читать https://learn.javascript.ru/
 
 

@@ -52,6 +52,11 @@
 ### Неделя #X
 [Testing](modules/testing/)
 
+### Brushup
+    - context, this
+    - http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/
+
+
 
 
 
