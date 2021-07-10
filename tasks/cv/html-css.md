@@ -66,3 +66,4 @@ CV. Cross-Check - таск, который проверяется в ходе к
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
+- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
