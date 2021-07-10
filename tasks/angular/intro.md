@@ -42,8 +42,7 @@ The project structure can be organized in the following way:
 
 #### Task scope
 - Generate a new Angular project using ng-cli
-- Configure TSLint with the following file:
-[tslint.json](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/tslint.json)
+- Migrate Angular application to ESLint with rules [AirBnB](https://github.com/airbnb/javascript)
 - Think about how to break down the whole app into smaller pieces.
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces

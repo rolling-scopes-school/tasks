@@ -1,13 +1,14 @@
 ## Stage#3. Angular course
 
 ### После курса вы сможете
- - Использовать инструментарий Angular для разработки SPA приложений с нуля
- - Организовать управление состоянием, работающим независимо от остального приложения
- - Управлять потоками данных
- - Тестировать Angular приложение
+
+- Использовать инструментарий Angular для разработки SPA приложений с нуля
+- Организовать управление состоянием, работающим независимо от остального приложения
+- Управлять потоками данных
+- Тестировать Angular приложение
 
 ### Продолжительность обучения
-6 недель.
+8 недель.
 Вам потребуется около 20-40 часов в неделю.
 
 #### Тренера курса:
@@ -27,29 +28,33 @@
 - Компиляция приложения. `Angular Ivy`.
 - Обработка событий в Angular.
 - Основы `Typescript`.
-- Выдача первого задания.
-
-#### Задание:
-
-- [Angular intro](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-intro.md)
-- Ментор: Aleh Serhiyenia
 
 #### Материалы для изучения
 
-- [Лекция (видео)](https://youtu.be/HoUq9xyfCAk)
-- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/ts-intro/src)
-- [Слайды](https://slides.com/pavelrazuvalau/angular-intro)
+- Лекции:
+
+  - [Angular 2020Q1. Intro](https://youtu.be/HoUq9xyfCAk)
+  - [Angular 2021Q1. Intro](https://youtu.be/VeDh-lBCgh0)
+
+- [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/ts-intro/src)
+- [Слайды](https://slides.com/alehserhyienia/angular-intro-typescript)
 - https://www.typescriptlang.org/docs/home.html
-- https://www.typescriptlang.org/docs/handbook/basic-types.html
+- https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 - https://www.typescriptlang.org/play/index.html
 - https://cli.angular.io/
 - https://angular.io/cli
 - https://angular.io/tutorial
+- https://angular24.ru/start
 
 #### Лекция. Q&A:
 
 - Дата: смотрите в расписании
 - Тренер: Aleh Serhiyenia
+
+#### Домашнее задание:
+
+- [Angular intro](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md)
+- Ментор: Aleh Serhiyenia
 
 ## Модуль #2. Angular. Components.
 
@@ -60,17 +65,16 @@
 - Взаимодействие `Components`.
 - Создание и использование `Components` в приложении.
 
-#### Задание:
-
-- [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-components.md)
-- Ментор: Aleh Serhiyenia
-
 #### Материалы для изучения:
 
-- [Лекция(видео)](https://www.youtube.com/watch?v=rY_FWXmh4QI)
-- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components/src)
-- [Слайды](https://slides.com/pavelrazuvalau/angular-components)
-- https://angular.io/tutorial
+- Лекции:
+  - [Angular 2020Q1. Components](https://youtu.be/rY_FWXmh4QI)
+  - [Angular 2020Q3. Components](https://youtu.be/M9ywugN1iDE)
+  - [Angular 2021Q1. Components](https://youtu.be/oOR3NpA02HI)
+- [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
+- Слайды:
+  - [Angular 2020Q1. Components](https://slides.com/pavelrazuvalau/angular-components)
+  - [Angular 2021Q1. Components](https://slides.com/dzianis_davydau/components)
 - https://angular.io/tutorial/toh-pt1
 - https://angular.io/tutorial/toh-pt2
 - https://angular.io/tutorial/toh-pt3
@@ -79,54 +83,25 @@
 - https://angular.io/guide/template-syntax
 - https://angular.io/guide/lifecycle-hooks
 - https://angular.io/guide/component-interaction
+- https://angular24.ru/tutorial/toh-pt1
+- https://angular24.ru/tutorial/toh-pt2
+- https://angular24.ru/tutorial/toh-pt3
+- https://angular24.ru/guide/architecture-components
+- https://angular24.ru/guide/displaying-data
+- https://angular24.ru/guide/template-syntax
+- https://angular24.ru/guide/lifecycle-hooks
 
-#### Лекция. Q&A:
+#### Воркшоп. Q&A:
 
 - Дата: смотрите в расписании
-- Тренер: Dzianis Davydau
+- Тренер:
 
-# Неделя 2
+#### Домашнее задание:
 
-### Task review:
-
-- Разбор задания `Angular intro`.
-- Дата: смотрите в расписании.
-- Ментор: Aleh Serhiyenia.
-
-## Модуль #3. Angular. Modules & Services, Dependency injection
-
-- Что такое модули, зачем они нужны, как их использовать.
-- `CoreModule` и `SharedModule`.
-- Понятие `Services`, их задачи.
-- Понятие `Dependency injection`, что это и как его использовать.
-
-#### Задание:
-
-- [Angular. Modules](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-modules.md)
-- [Angular. Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-services-di.md)
+- [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
 - Ментор: Aleh Serhiyenia
 
-#### Материалы для изучения:
-
-- [Лекция(видео)](https://youtu.be/t4LuNI9HCMM)
-- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-modules-services)
-- [Слайды](https://slides.com/pavelrazuvalau/angular-modules-services)
-- https://angular.io/tutorial/toh-pt4
-- https://angular.io/guide/architecture-modules
-- https://angular.io/guide/ngmodules
-- https://angular.io/guide/ngmodule-faq
-- https://angular.io/guide/architecture-services
-- https://angular.io/guide/dependency-injection
-- https://angular.io/guide/dependency-injection-providers
-- https://angular.io/guide/dependency-injection-in-action
-- https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
-
-#### Лекция. Q&A:
-
-- Дата: смотрите в расписании
-- Тренер: Dzianis Davydau
-
-## Модуль #4. Angular. Directives & Pipes.
+## Модуль #3. Angular. Directives & Pipes.
 
 - Базовые знания о `Directives`. Понятие Атрибутивных и Структурных `Directives`. Встроенные `Directives`.
 - Создание `Directives`.
@@ -136,7 +111,9 @@
 
 #### Материалы для изучения:
 
-- [Лекция(видео)](https://youtu.be/S7TKY7hfWa0)
+- Лекции:
+    - [Angular 2020Q1. Directives & Pipes](https://youtu.be/S7TKY7hfWa0)
+    - [Angular 2021Q1. Directives & Pipes](https://youtu.be/RLI6AGKwVcA)
 - [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes/src)
 - [Слайды](https://slides.com/pavelrazuvalau/angular-directives-pipes)
 - https://angular.io/api/core/Directive
@@ -147,18 +124,60 @@
 - https://angular.io/api/common
 - https://angular.io/guide/cheatsheet
 
-#### Задание:
+#### Воркшоп. Q&A:
 
-- [Angular. Pipes](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-pipes.md)
-- [Angular. Directives](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-directives.md)
+- Дата: смотрите в расписании
+- Тренер:
+
+#### Домашнее задание:
+
+- [Angular. Directives & Pipes](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
 - Ментор: Aleh Serhiyenia
 
-# Неделя 3
+# Неделя 2
 
 ### Task review:
 
-- Разбор задания `Angular. Components`, `Angular. Services`, `Angular. Modules`.
+- Разбор задания `Angular intro`.
 - Дата: смотрите в расписании.
+- Ментор: Aleh Serhiyenia.
+
+## Модуль #4. Angular. Modules & Services, Dependency injection
+
+- Что такое модули, зачем они нужны, как их использовать.
+- `CoreModule` и `SharedModule`.
+- Понятие `Services`, их задачи.
+- Понятие `Dependency injection`, что это и как его использовать.
+
+#### Материалы для изучения:
+
+- Лекции:
+    - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
+    - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
+    - [Angular 2021Q1. Modules, services, DI (part 1)](https://youtu.be/3l8kUDM1naQ)
+    - [Angular 2021Q1. Modules, services, DI (part 2)](https://youtu.be/LS6HfpoCPhQ)
+- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-modules-services)
+- [Слайды Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
+- [Слайды Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
+- https://angular.io/tutorial/toh-pt4
+- https://angular.io/guide/architecture-modules
+- https://angular.io/guide/ngmodules
+- https://angular.io/guide/ngmodule-faq
+- https://angular.io/guide/architecture-services
+- https://angular.io/guide/dependency-injection
+- https://angular.io/guide/dependency-injection-providers
+- https://angular.io/guide/dependency-injection-in-action
+- https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
+- https://angular24.ru/tutorial/toh-pt4
+
+#### Воркшоп. Q&A:
+
+- Дата: смотрите в расписании
+- Тренер:
+
+#### Домашнее задание:
+
+- [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Ментор: Aleh Serhiyenia
 
 ## Модуль #5. Angular. Routing
@@ -169,14 +188,12 @@
 - `Router guards`.
 - Асинхронная загрузка.
 
-#### Задание:
-
-- [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-routing.md)
-- Ментор: Aleh Serhiyenia
-
 ### Материалы для изучения:
 
-- [Лекция(видео)](https://youtu.be/t_bGVB6jzUw)
+- Лекции: 
+    - [Angular 2020Q1. Routing](https://youtu.be/t_bGVB6jzUw)
+    - [Angular 2020Q3. Routing](https://youtu.be/Evhr5xb_qNY)
+    - [Angular 2021Q1. Routing](https://youtu.be/AFPb7JjQgCw)
 - [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
 - [Слайды](https://slides.com/pavelrazuvalau/angular-routing)
 - https://angular.io/tutorial/toh-pt5
@@ -185,54 +202,27 @@
 - https://angular.io/api/router/RouterLinkActive
 - https://angular.io/api/router/ActivatedRoute
 - https://angular.io/api/router/Resolve
+- https://angular24.ru/tutorial/toh-pt5
 
-#### Лекция. Q&A:
+#### Воркшоп. Q&A:
 
 - Дата: смотрите в расписании
-- Тренер: Dzianis Davydau
-
-## Модуль #6. Angular. HTTP.
-
-- Модуль `HttpClientModule`.
-- Объект `HttpTypeEvent`.
-- Перехват HTTP-запросов с помощью `Http Interceptor`.
+- Тренер:
 
 #### Задание:
 
-- [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-httpclient.md)
+- [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Ментор: Aleh Serhiyenia
 
-#### Материалы для изучения HTTP:
-
-- [Лекция HTTP (видео)](https://youtu.be/2LVepjuFjHw)
-- [Примеры из видео (часть 1)](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-http)
-- [Примеры из видео (часть 2)](https://github.com/pavelrazuvalau/angular-courses-app)
-- [Слайды](https://slides.com/pavelrazuvalau/angular-http)
-- https://angular.io/tutorial/toh-pt6
-- https://angular.io/guide/http
-- https://angular.io/api/common/http
-- https://angular.io/api/common/http/HttpClient
-- https://angular.io/api/common/http/HttpResponse
-- https://angular.io/api/common/http/HttpHeaders
-- https://angular.io/api/common/http/HttpParams
-
-
-#### Лекция. Q&A:
-
-- Дата: смотрите в расписании
-- Тренер: Dzianis Davydau
-
-
-# Неделя 4
+# Неделя 3
 
 ### Task review:
 
-- Разбор задания `Angular. Pipes`, `Angular. Directives`, `Angular. Routing`.
+- Разбор задания `Angular. Components, Directives, Pipes`.
 - Дата: смотрите в расписании.
-- Ментор: Aleh Serhiyenia.
+- Ментор: Aleh Serhiyenia
 
-
-## Модуль #7. RxJS & Observables
+## Модуль #6. RxJS & Observables
 
 - Принципы реактивного программирования для `JavaScript`.
 - `Observable`. `Subject`. Операторы `RxJS`.
@@ -247,10 +237,57 @@
 - https://www.learnrxjs.io/
 - https://www.npmjs.com/package/rxjs
 
-#### Лекция. Q&A:
+#### Воркшоп. Q&A:
 
 - Дата: смотрите в расписании
 - Тренер: Dzianis Davydau
+
+#### Домашнее задание:
+
+- [Angular. RxJS & Observables](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
+- Ментор: Aleh Serhiyenia
+
+## Модуль #7. Angular. HTTP.
+
+- Модуль `HttpClientModule`.
+- Объект `HttpTypeEvent`.
+- Перехват HTTP-запросов с помощью `Http Interceptor`.
+
+#### Материалы для изучения HTTP:
+
+- Лекции:
+    - [Angular 2020Q1. HTTP](https://youtu.be/2LVepjuFjHw)
+    - [Angular 2021Q3. HTTPClient](https://youtu.be/jPvn4d6DrCg)
+    - [Angular 2021Q1. HTTPClient](https://youtu.be/7RkNSWZDNEE)
+- [Примеры из видео (часть 1)](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-http)
+- [Примеры из видео (часть 2)](https://github.com/pavelrazuvalau/angular-courses-app)
+- [Слайды Angular 2020Q1. HTTP](https://slides.com/pavelrazuvalau/angular-http)
+- [Слайды Angular 2021Q1. HTTPClient](https://slides.com/dzianis_davydau/http-client)
+- https://angular.io/tutorial/toh-pt6
+- https://angular.io/guide/http
+- https://angular.io/api/common/http
+- https://angular.io/api/common/http/HttpClient
+- https://angular.io/api/common/http/HttpResponse
+- https://angular.io/api/common/http/HttpHeaders
+- https://angular.io/api/common/http/HttpParams
+
+#### Воркшоп. Q&A:
+
+- Дата: смотрите в расписании
+- Тренер:
+
+#### Домашнее задание:
+
+- [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
+- Ментор: Aleh Serhiyenia
+
+# Неделя 4
+
+### Task review:
+
+- Разбор задания `Angular. Modules, Services, Routing`.
+- Дата: смотрите в расписании.
+- Ментор: Aleh Serhiyenia.
 
 ## Модуль #8. Angular. Redux & NgRx
 
@@ -259,29 +296,23 @@
 - Использование `Effects`.
 - Преимущества `NgRx`.
 
-#### Лекция. Q&A:
+#### Воркшоп. Q&A:
 
 - Дата: смотреть в расписании
 - Тренер: Aleh Serhiyenia
 
 ### Материалы для изучения:
 
-- [Лекция (видео)](https://youtu.be/-8APehOVRLM)
+- Лекции: 
+  - [Angular 2020Q1. Redux & NgRx](https://youtu.be/-8APehOVRLM)
+  - [Angular 2020Q3. NgRX](https://youtu.be/d2pkNhIS10o)
+  - [Angular 2021q1. NgRx](https://youtu.be/Yqtwmyn9YKE)
 - [Слайды](https://drive.google.com/file/d/19m1kRSflNEVb7Z5zZRRPwVcFcu1oA54h/view?usp=sharing)
 
-#### Задание:
+#### Домашнее задание:
 
-- [Angular. NgRx](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-ngrx.md)
+- [Angular. NgRx](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/NgRX.md)
 - Ментор: Aleh Serhiyenia
-
-
-# Неделя 5
-
-### Task review:
-
-- Разбор задания `Angular. HTTPClient` и `Angular. NgRx`.
-- Дата: смотрите в расписании.
-- Ментор: Aleh Serhiyenia.
 
 ## Модуль #9. Angular. Unit test.
 
@@ -290,7 +321,7 @@
 - Тестирование компонентов с подходом `Test host`.
 - Тестирование вложенных компонентов.
 
-#### Лекция. Q&A:
+#### Воркшоп. Q&A:
 
 - Дата: смотреть в расписании
 - Тренер: Aleh Serhiyenia
@@ -306,10 +337,23 @@
 - https://www.youtube.com/watch?v=Eu35xM76kKY
 - https://github.com/stas-dolgachov/angular-testing-lecture
 
-#### Задание:
+#### Домашнее задание:
 
-- [Angular. Tests](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-unit-tests.md)
+- Написать юнит тесты к вашему приложению. Обязательно протестировать: 
+  - один любой сервис 
+  - несколько компонент:
+    - с подключенным сервисом
+    - внутри которых используются другие компоненты, пайпы, директивы
+  - directive
 - Ментор: Aleh Serhiyenia
+
+# Неделя 5
+
+### Task review:
+
+- Разбор задания `Angular. HTTPClient & NgRx`.
+- Дата: смотрите в расписании.
+- Ментор: Aleh Serhiyenia.
 
 ## Итоговый тест по Angular
 
@@ -319,4 +363,23 @@
 
 ## Модуль #10. Финальное задание.
 
-[RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-new/angular-rslang.md)
+[Shop]()
+
+# Неделя 8
+
+## Модуль #11. Проверка финального задания 
+
+### [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания [Shop]()
+
+# Дополнительная информация
+## Сертификат  
+Чтобы получить сертификат о прохождении курса вам необходимо выполнить все домашние задания, пройти итоговый тест, выполнить финальный таск и участвовать в кросс-чеке.  
+
+Наличие или отсутствие сертификата о прохождении курса является приятным бонусом и наградой за ваши труды.
+
+## FAQ
+### Где можно задать вопрос?
+Вопросы можно задать в Discord чате - https://discord.gg/PPp93EwA
+
+### Где происходит общение?
+В Discord чате - https://discord.gg/PPp93EwA
