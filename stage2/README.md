@@ -54,6 +54,8 @@
 
 ### Brushup
     - context, this
+    - Rendering/How browser works
+        - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
     - http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/
 
 

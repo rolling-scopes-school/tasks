@@ -17,6 +17,7 @@
 
 3. JavaScript: The Functional Parts
     - The spread operator
+    - The rest operator
     - Mapping
     - Filtering
     - Every/some

@@ -6,7 +6,6 @@
 - http://wontem.github.io/slides/animations/#/
 
 ### Content
-
 #### Event Loop
 - Call stack
 - Event Loop
@@ -20,10 +19,11 @@
 - Performance issues
 - Practical task
 
-### Useful links
+## Материалы
 
 #### Event Loop
 - http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html
+- http://latentflip.com/loupe/
 - [Why is setTimeout(fn, 0) sometimes useful? (читать до конца)](http://stackoverflow.com/questions/779379/why-is-settimeoutfn-0-sometimes-useful)
 
 #### Animations
