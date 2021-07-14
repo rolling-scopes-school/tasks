@@ -14,9 +14,6 @@
 ### Неделя #X
 - Собеседование с ментором - [Описание](technical-screening.md)
 
-### Неделя #X 
-- Проект Match-Match Game на JS
-
 ### Неделя #X
 - Разбор ошибок Match-Match Game, рефакторинг
 
@@ -51,6 +48,13 @@
 
 ### Неделя #X
 [Testing](modules/testing/)
+
+### Brushup
+    - context, this
+    - Rendering/How browser works
+        - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+    - http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/
+
 
 
 

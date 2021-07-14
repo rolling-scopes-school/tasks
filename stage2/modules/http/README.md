@@ -2,6 +2,7 @@
 ## В данном модуле студентам необходимо изучить:
 - основы HTTP
 - разницу с HTTPS
+- CORS
 
 ## Приблизительное время прохождения модуля
 2 часа
@@ -16,3 +17,5 @@ TODO
 
 ## Дополнительные материалы
  1. [Разница между HTTP и HTTPS](https://hostiq.ua/wiki/http-https/) - 30 мин
+ 2. [HTTP Crash Course & Exploration](https://youtu.be/iYM2zFP3Zn0) - 40 минут
+ 3. [Introducing CORS: Cross-Origin Resource Sharing](https://www.youtube.com/watch?v=JVZIhCVFJ9c) - 8 минут

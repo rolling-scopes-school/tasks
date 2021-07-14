@@ -31,7 +31,7 @@
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 
 ### Неделя #6
-- [Модуль "Закрепление основ JavaScript. Типы данных"](modules/data-types/)
+- [Модуль "Закрепление основ JavaScript. Переменные, область видимости и типы данных"](modules/data-types/)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 

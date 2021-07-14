@@ -1,11 +1,10 @@
+# JavaScript. The Functional Parts
 1. Basic FP notion:		
     - Pure functions	
 	- Immutability	
 	- Functions as first-class entities	
 	- Functions composition	
 	- High order functions	
-	- Recursion	
-	- Currying/Memoization
 
 2. First-Class Functions
     - Arrow functions in ES6
@@ -16,15 +15,9 @@
     - Closure
     - Higher-order functions
 
-## Практика
-- Implement private variable
-- Anagrams finder in javascript
-- Momoization
-- Codewars
-
 3. JavaScript: The Functional Parts
-    - JavaScript: Functional parts
     - The spread operator
+    - The rest operator
     - Mapping
     - Filtering
     - Every/some
@@ -33,14 +26,23 @@
     - Reducing
     - Combining functions
 
-## Практика
-- Recreate the map function
-- Codewars
+4. Advanced working with functions
+    - Scheduling: setTimeout and setInterval
+    - https://javascript.info/advanced-functions
 
-4. Advanced Functional Concepts
+5. Advanced Functional Concepts
     - Currying and partial application
     - Memoization
     - Recursion
+
+## Практика
+- Recreate the map function
+- Codewars
+- Implement private variable
+- Anagrams finder in javascript
+- Тест "FP Concepts"
+
+
 
 ### 
 https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
