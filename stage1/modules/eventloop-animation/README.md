@@ -17,7 +17,6 @@
 - CSS3 Transforms
 - requestAnimationFrame
 - Performance issues
-- Practical task
 
 ## Материалы
 

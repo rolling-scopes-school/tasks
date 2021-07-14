@@ -13,7 +13,6 @@
     - Основы NodeJS.
     - Webpack
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
-    - Проект Match-Match Game на Сorejs.
 - Время обучения: *UNDEFINED* недель
 - Формат: самообучение + вебинары + общение в Discord + задания проверяют в процессе кросс-чек и автоматически
 
@@ -35,8 +34,17 @@
 
 ### Неделя #2
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
-- [Модуль "Figma"](modules/figma)
-- [Проект "Virtual Museum. Part#1"](modules/project-virtual-museum)
+- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning/)
+- [Модуль "CSS grid layout"](modules/css-grid/)
+- [Модуль "Figma"](modules/figma/)
+- [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
+
+### Неделя #3
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
+
+- [Модуль: Медиазапросы](modules/media-queries/)
+- [Модуль: Верстка адаптивного макета](markup-livecoding)
+- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 - Проверка уровня базовых знаний. Тесты и codewars задачи по темам:
   - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
@@ -44,16 +52,9 @@
   - [Модуль "Основы JavaScript. Функции"](modules/js-functions/)
   - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/) 
 
-### Неделя #3
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
-
-- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning/)
-- [Модуль "CSS grid layout"](modules/css-grid/)
-- [Проект: "Virtual Museum. Part#2"](modules/project-virtual-museum)
-
 ### Неделя #4
-- Module: Responsive Web Design Best Practices
-- [Проект: "Virtual Museum. Part#2"](modules/project-virtual-museum)
+- [Модуль: HTML Forms & Validation](modules/html-form/)
+- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #5
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
@@ -68,12 +69,12 @@
 ### Неделя #6
 - [Модуль: DOM API](modules/dom-api/)
 - [Модуль: Events](modules/events/)
-- [Проект "Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
+- [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #7
 - [Модуль: Event Loop & Animation](modules/eventloop-animation/)
 - [Модуль: Chrome DevTools](modules/chrome-devtools/)
-- [Проект "Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
+- [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #8
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
@@ -85,6 +86,7 @@
 ### Неделя #9
 - Модуль: Modules in JS
 - [Модуль: Webpack](modules/webpack/)
+- [Модуль: CSS Preprocessors. Sass](modules/sass/)
 - Проект Momentum
 
 ### Неделя #10
@@ -96,13 +98,20 @@
 - [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #12
-- Module: HTML Forms & Validation
-- Проект Match-Match Game на JS (Часть #1)
+- Проект на СoreJS
+
+### Неделя #13
+- Проект на СoreJS
+
+### Неделя #14
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта на СoreJS
+- Подготовка к собеседованию с ментором
 
 ### Other
 - [Algorithms](algorithms) 
-- [Проект: Clean Code](modules/clean-code/)
 - Codewars#2. 
+- [Проект: Clean Code](modules/clean-code/)
+
 
 ## FAQ
 ### Что делать до старта обучения? 

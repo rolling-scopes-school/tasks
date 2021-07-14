@@ -14,9 +14,6 @@
 ### Неделя #X
 - Собеседование с ментором - [Описание](technical-screening.md)
 
-### Неделя #X 
-- Проект Match-Match Game на JS
-
 ### Неделя #X
 - Разбор ошибок Match-Match Game, рефакторинг
 

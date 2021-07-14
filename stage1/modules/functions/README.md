@@ -40,6 +40,7 @@
 - Codewars
 - Implement private variable
 - Anagrams finder in javascript
+- Тест "FP Concepts"
 
 
 
