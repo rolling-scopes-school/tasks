@@ -18,10 +18,6 @@
 - Разбор ошибок Match-Match Game, рефакторинг
 
 ### Неделя #X
-- Module: Object-Oriented Programming and Object-Oriented Design
-- Module: Building blocks of OOP
-
-### Неделя #X
 - Module: TypeScript: Basic
 - Module: Typescript: Advanced
 
