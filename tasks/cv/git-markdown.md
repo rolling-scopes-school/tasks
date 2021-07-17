@@ -91,14 +91,14 @@ Markdown & Git - автопроверяемый таск.
 
 3. 50 баллов и статус "Failed commit requirements: Less than 3 commits"  
    Ответ: В вашей ветке "gh-pages" менее 3 коммитов.  
-   Вы можете проверить свои коммиты здесь: `https://your-github-account.github.io/rsschool-cv/commits/gh-pages`. Коммиты "Merge ..." или "Initial commit" игнорируются.
+   Вы можете проверить свои коммиты здесь: `https://github.com/your-github-account/rsschool-cv/commits/gh-pages`. Коммиты "Merge ..." или "Initial commit" игнорируются.
 
 3. 50 баллов и статус "Failed commit requirements: Commits do no follow guideline ..."  
    Не все коммиты выполняются по правилам: https://docs.rs.school/#/en/git-convention Все коммиты, не отвечающие правилам, будут перечислены в статусе.   
 
 4. 50 баллов и статус "Failed PR requirements: No Pull Request with task name (Markdown & Git)"  
    Вы не отправили Pull Request с `gh-pages` в `master`или название Pull Request не "Markdown & Git".  
-   Увидеть свой PR, вы можете здесь: `https://your-github-account.github.io/rsschool-cv/pulls`
+   Увидеть свой PR, вы можете здесь: `https://github.com/your-github-account/rsschool-cv/pulls`
 </details>
 
 ## Материалы:
