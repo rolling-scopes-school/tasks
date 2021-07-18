@@ -1,11 +1,13 @@
-## JavaScript:
+## Question examples:
 
-- ### Basics
+### JavaScript:
+
+- #### Basics
 
   - String methods
   - Quantifiers
 
-- ### Advanced Expressions
+- #### Advanced Expressions
 
   - Hoisting
   - Temporal dead zone
@@ -13,43 +15,43 @@
   - Strict comparison
   - Be able to discover difference between strict and non-strict comparison
 
-- ### Objects Built-in methods.
+- #### Objects Built-in methods.
 
   - Know how to use built-in methods
   - Know static Object methods
   - Property flags & descriptors (student is able to set property via Object. defineProperty)
 
-- ### Object as Hash.
+- #### Object as Hash.
 
   - Be able to loop through Object keys
   - Know how to create iterable objects, Symbol.iterator usage
 
-- ### Arrays Built-in methods
+- #### Arrays Built-in methods
 
   - Know how to copy array
   - Know how to copy array part
   - Know how to modify array
 
-- ### Arrays Iterating, Sorting, Filtering
+- #### Arrays Iterating, Sorting, Filtering
 
   - Know how to sort Array
   - Be able to custom sorting for Array
   - Be able to filter Array elements
   - Know several method how to iterate Array elements
 
-- ### Functional Scope
+- #### Functional Scope
 
   - Know global scope and functional scope
   - Know variables visibility areas
   - Understand nested scopes and able work with them
 
-- ### Functions Parameters / Arguments
+- #### Functions Parameters / Arguments
 
   - Know how to define Function parameters
   - Know difference between parameters passing by value and by reference
   - Know how to handle dynamic amount of Function parameters
 
-- ### ECMAScript Intermediate
+- #### ECMAScript Intermediate
 
   - Function default parameters
   - ECMA script modules
@@ -63,7 +65,7 @@
   - String templates
   - Know how [for..of] loop works
 
-- ### Advanced Functions
+- #### Advanced Functions
 
   - [this] scope
   - Understand difference between function and method
@@ -72,7 +74,7 @@
   - Be able to replace [this] scope
   - Be able to use [call] and [apply] Function build-in methods
 
-- ### Functional Patterns
+- #### Functional Patterns
 
   - Immediately invoked functional expression (IIFE)
   - Know IIFE pattern
@@ -82,23 +84,23 @@
   - Binding, binding one function twice
   - Know how to bind [this] scope to function
 
-- ### Network requests
+- #### Network requests
 
   - Fetch (with usage)
   - XMLHTTPRequest (concept)
   - WebSocket (concept)
 
-- ### Web components
+- #### Web components
 
   - Web components, shadow DOM (concept)
 
-- ### Date & time
+- #### Date & time
 
   - Date object
   - Date methods, props
   - Timezones
 
-- ### Closures Advanced
+- #### Closures Advanced
 
   - Context (lexical environment)
   - Understand function creation context (lexical environment)
@@ -107,7 +109,7 @@
   - Understand lexical environment traversing mechanism
   - Understand connection between function and lexical environment
 
-- ### Object Oriented Programming
+- #### Object Oriented Programming
 
   - [new] keyword
   - Understand how [new] keyword works
@@ -121,7 +123,7 @@
   - Know how to create static members
   - Understand OOP emulation patterns and conventions
 
-- ### Prototypal Inheritance Basics
+- #### Prototypal Inheritance Basics
 
   - [__proto__] property
   - Understand [__proto__] object property
@@ -132,27 +134,27 @@
   - Understand dependency between function constructor [prototype] and instance [__proto__]
   - Able to create 'class' methods using function [prototype] property
 
-- ### ECMAScript Classes
+- #### ECMAScript Classes
 
   - Class declaration
   - Know [class] declaration syntax
   - Understand difference between [class] and function constructor
   - Getter/setter
 
-- ### ECMAScript Data Types & Expressions
+- #### ECMAScript Data Types & Expressions
 
   - Object [keys/values]
   - Object calculated props
   - [Set/Map] data types
   - [WeakSet/WeakMap] data types
 
-- ### JavaScript Errors
+- #### JavaScript Errors
 
   - [try..catch] statement
   - Know how to handle errors
   - Custom errors
 
-- ### ECMAScript Advanced
+- #### ECMAScript Advanced
 
   - Garbage collector (concept)
   - Promises
@@ -164,9 +166,9 @@
   - event loop
   - async/await
 
-## JavaScript in Browser:
+### JavaScript in Browser:
 
-- ### Global object window
+- #### Global object window
 
   - Location
   - Know browser location structure
@@ -180,13 +182,13 @@
   - Document
   - Cookies
 
-- ### Page Lifecycle
+- #### Page Lifecycle
 
   - Parsing
   - Reflow
   - Repaint
 
-- ### Events Basics
+- #### Events Basics
 
   - Event Phases
   - Be able to explain difference between capturing and bubbling
@@ -197,7 +199,7 @@
   - Mouse / Keyboard Events
   - Form / Input Events
 
-- ### Events Propagation / Preventing
+- #### Events Propagation / Preventing
 
   - Know Event propagation cycle
   - Know how to stop Event propagation
@@ -206,7 +208,7 @@
   - Understand Event delegating concept
   - Understand Event delegating benefits and drawbacks
 
-- ### Timers
+- #### Timers
 
   - [setTimeout]
   - [setInterval]
@@ -214,15 +216,15 @@
   - [requestAnimationFrame]
   - Be able to explain difference between [setTimeout] and [requestAnimationFrame]
 
-- ### Web Storage API & cookies
+- #### Web Storage API & cookies
 
   - LocalStorage
   - SessionStorage
   - Cookies (concept)
 
-## Typescript:
+### Typescript:
 
-- ### Ability to write concise TypeScript code using its constructs
+- #### Ability to write concise TypeScript code using its constructs
   - understanding TS(ES6) module system
   - describing variables with primitive data types.
   - using interfaces with optional properties, read-only properties, ect...
@@ -230,20 +232,20 @@
   - function types.
   - utitily types
 
-## Design patterns:
+### Design patterns:
 
-- ### Intermediate knowledge of patterns and best practices:
+- #### Intermediate knowledge of patterns and best practices:
 
   - design patterns used on his project, and able to compare these patterns
   - KISS, DRY, YAGNI
   - The meaning behind SOLID principles.
 
-## Web Communication Protocols:
+### Web Communication Protocols:
 
-- ### HTTP vs HTTPS vs HTTP/2
-- ### RESTful API
+- #### HTTP vs HTTPS vs HTTP/2
+- #### RESTful API
 
-## Coding tasks:
+### Coding tasks:
 
 - `Function.prototype.bind` implement polyfill
 - `Object.create` implement polyfill
@@ -257,7 +259,7 @@
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
 - `extendedPeriodOutput(period)` method should output in the console once per period how much time left from the function first call and increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
 
-### Passing the interview
+#### Passing the interview
 
 1. You should contact the mentor personally. Contact details will be announced through Discord.
 2. At the request of the mentor, the interview can take place online or face-to-face.
@@ -267,4 +269,4 @@
 - gets answers;
 - adds/corrects/explains/gives the right answer, if necessary.
 
-### Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
+#### Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
