@@ -15,7 +15,7 @@
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/css (8 часов)
 
 ## Практика 
-1. Вам необходимо пройти тест "CSS Test #0" в RS APP > Auto Test
+1. Вам необходимо пройти тест "Test CSS Basics [RU]" в RS APP > Auto Test
 
 ## Дополнительные материалы
 1. https://webref.ru/course/css-basics - 4h
