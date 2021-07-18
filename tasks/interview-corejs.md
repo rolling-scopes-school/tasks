@@ -1,5 +1,18 @@
 ## JS Questions:
 
+- ### Basics
+
+  - String methods
+  - Quantifiers
+
+- ### Advanced Expressions
+
+  - Hoisting
+  - Temporal dead zone
+  - Be able to discover cases of implicit data types conversion into boolean, string, number
+  - Strict comparison
+  - Be able to discover difference between strict and non-strict comparison
+
 - ### Objects Built-in methods.
 
   - Know how to use built-in methods
@@ -37,17 +50,104 @@
   - Know how to handle dynamic amount of Function parameters
 
 - ### ECMAScript Intermediate
+
   - Function default parameters
-  - ECMAscript modules
+  - ECMA script modules
   - Know how to use spread operator for Function arguments
   - Be able to compare [arguments] and spread operator
   - Spread operator for Array
   - Understand and able to use spread operator for Array concatenation
     Destructuring assignment
-  - Be able to discover destructuring assignmentconcept
+  - Be able to discover destructuring assignment concept
   - Understand variables and Function arguments destructuring assignment
   - String templates
   - Know how [for..of] loop works
+
+- ### Advanced Functions
+
+  - [this] scope
+  - Understand difference between function and method
+  - Understand how [this] works, realize [this] possible issues
+  - Manage [this] scope
+  - Be able to replace [this] scope
+  - Be able to use [call] and [apply] Function build-in methods
+
+- ### Functional Patterns
+
+  - Immediately invoked functional expression (IIFE)
+  - Know IIFE pattern
+  - Callback (Function as argument)
+  - Know callback pattern
+  - Understand callback limitations (callback hell)
+  - Binding, binding one function twice
+  - Know how to bind [this] scope to function
+
+- ### Network requests
+
+  - Fetch (with usage)
+  - XMLHTTPRequest (concept)
+  - WebSocket (concept)
+
+- ### Web components
+
+  - Web components, shadow DOM (concept)
+
+- ### Date & time
+  - Date object
+  - Date methods, props
+  - Timezones
+- ### Closures Advanced
+  - Context (lexical environment)
+  - Understand function creation context (lexical environment)
+  - Be able to explain difference between scope and context
+  - Inner/outer lexical environment
+  - Understand lexical environment traversing mechanism
+  - Understand connection between function and lexical environment
+- ### Object Oriented Programming
+  - [new] keyword
+  - Understand how [new] keyword works
+  - Function constructor
+  - Know function constructor concept
+  - Know constructor function pattern
+  - Able to create constructor functions
+  - Public, private, static members
+  - Know how to create public members
+  - Know how to create private members
+  - Know how to create static members
+  - Understand OOP emulation patterns and conventions
+- ### Prototypal Inheritance Basics
+  - [__proto__] property
+  - Understand [__proto__] object property
+  - Able to use [Object.create] and define [__proto__] explicitly
+  - Able to set / get object prototype
+  - [prototype] property
+  - Know function [prototype] property
+  - Understand dependency between function constructor [prototype] and instance [__proto__]
+  - Able to create 'class' methods using function [prototype] property
+- ### ECMAScript Classes
+  - Class declaration
+  - Know [class] declaration syntax
+  - Understand difference between [class] and function constructor
+  - Getter/setter
+- ### ECMAScript Data Types & Expressions
+  - Object [keys/values]
+  - Object calculated props
+  - [Set/Map] data types
+  - [WeakSet/WeakMap] data types
+- ### JavaScript Errors
+  - [try..catch] statement
+  - Know how to handle errors
+  - Custom errors
+- ### ECMAScript Advanced
+  - Garbage collector (concept)
+  - Promises
+  - Promise states
+  - Promise Chaining
+  - Promise Methods
+  - Be able to compare promise and callback patterns
+  - Be able to handle errors in promises
+  - event loop
+  - async/await
 
 ## Coding tasks:
 
@@ -63,10 +163,6 @@
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
 - `extendedPeriodOutput(period)` method should output in the console once per period how much time left from the function first call and increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
 
-### Excluded topics
-
-- Iterators and generators
-
 ### Passing the interview
 
 1. You should contact the mentor personally. Contact details will be announced through Discord.
@@ -78,18 +174,3 @@
 - adds/corrects/explains/gives the right answer, if necessary.
 
 ### Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
-
-### Useful links
-
-- This\bind\call\apply :ru: https://habrahabr.ru/post/149516/
-- Inheritance https://javascript.info/prototypes
-- Closure https://javascript.info/closure
-- Hoisting https://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
-- Promises https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
-- Event phases https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/
-- DOM Events & Event loop https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
-- post\get\put :ru: https://habrahabr.ru/post/50147/
-- REST :ru: https://habr.com/ru/post/38730/
-- How browser works :ru: https://habrahabr.ru/company/dataart/blog/304138/
-- Animation :ru: https://www.youtube.com/watch?v=dWE3WEpqr7M
-
