@@ -1,4 +1,4 @@
-## JS Questions:
+## JavaScript:
 
 - ### Basics
 
@@ -93,17 +93,22 @@
   - Web components, shadow DOM (concept)
 
 - ### Date & time
+
   - Date object
   - Date methods, props
   - Timezones
+
 - ### Closures Advanced
+
   - Context (lexical environment)
   - Understand function creation context (lexical environment)
   - Be able to explain difference between scope and context
   - Inner/outer lexical environment
   - Understand lexical environment traversing mechanism
   - Understand connection between function and lexical environment
+
 - ### Object Oriented Programming
+
   - [new] keyword
   - Understand how [new] keyword works
   - Function constructor
@@ -115,7 +120,9 @@
   - Know how to create private members
   - Know how to create static members
   - Understand OOP emulation patterns and conventions
+
 - ### Prototypal Inheritance Basics
+
   - [__proto__] property
   - Understand [__proto__] object property
   - Able to use [Object.create] and define [__proto__] explicitly
@@ -124,21 +131,29 @@
   - Know function [prototype] property
   - Understand dependency between function constructor [prototype] and instance [__proto__]
   - Able to create 'class' methods using function [prototype] property
+
 - ### ECMAScript Classes
+
   - Class declaration
   - Know [class] declaration syntax
   - Understand difference between [class] and function constructor
   - Getter/setter
+
 - ### ECMAScript Data Types & Expressions
+
   - Object [keys/values]
   - Object calculated props
   - [Set/Map] data types
   - [WeakSet/WeakMap] data types
+
 - ### JavaScript Errors
+
   - [try..catch] statement
   - Know how to handle errors
   - Custom errors
+
 - ### ECMAScript Advanced
+
   - Garbage collector (concept)
   - Promises
   - Promise states
@@ -148,6 +163,62 @@
   - Be able to handle errors in promises
   - event loop
   - async/await
+
+## JavaScript in Browser:
+
+- ### Global object window
+
+  - Location
+  - Know browser location structure
+  - History API (Global object window)
+  - Know browser History APIconcept
+  - Be able to navigate within browser history
+  - Be able to use history state
+  - Navigator
+  - Know how to parse user agent
+  - Know how to discover client platform, browser
+  - Document
+  - Cookies
+
+- ### Page Lifecycle
+
+  - Parsing
+  - Reflow
+  - Repaint
+
+- ### Events Basics
+
+  - Event Phases
+  - Be able to explain difference between capturing and bubbling
+  - Event Listeners
+  - DOM Events
+  - Know Event concept
+  - Know basic Event types
+  - Mouse / Keyboard Events
+  - Form / Input Events
+
+- ### Events Propagation / Preventing
+
+  - Know Event propagation cycle
+  - Know how to stop Event propagation
+  - Know how to prevent Event default browser behavior
+  - Delegating
+  - Understand Event delegating concept
+  - Understand Event delegating benefits and drawbacks
+
+- ### Timers
+
+  - [setTimeout]
+  - [setInterval]
+  - [clearTimeout]
+  - [requestAnimationFrame]
+  - Be able to explain difference between [setTimeout] and [requestAnimationFrame]
+
+- ### Web Storage API & cookies
+
+  - LocalStorage
+  - SessionStorage
+  - Cookies (concept)
 
 ## Coding tasks:
 
