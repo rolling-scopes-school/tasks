@@ -220,6 +220,29 @@
   - SessionStorage
   - Cookies (concept)
 
+## Typescript:
+
+- ### Ability to write concise TypeScript code using its constructs
+  - understanding TS(ES6) module system
+  - describing variables with primitive data types.
+  - using interfaces with optional properties, read-only properties, ect...
+  - creating custom types.
+  - function types.
+  - utitily types
+
+## Design patterns:
+
+- ### Intermediate knowledge of patterns and best practices:
+
+  - design patterns used on his project, and able to compare these patterns
+  - KISS, DRY, YAGNI
+  - The meaning behind SOLID principles.
+
+## Web Communication Protocols:
+
+- ### HTTP vs HTTPS vs HTTP/2
+- ### RESTful API
+
 ## Coding tasks:
 
 - `Function.prototype.bind` implement polyfill
