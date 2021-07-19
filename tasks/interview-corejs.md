@@ -4,6 +4,8 @@
 
 - #### Basics
 
+  - Data types
+  - Number methods
   - String methods
   - Quantifiers
 
@@ -20,11 +22,11 @@
   - Know how to use built-in methods
   - Know static Object methods
   - Property flags & descriptors (student is able to set property via Object. defineProperty)
+  - Know how to create iterable objects, Symbol.iterator usage
 
 - #### Object as Hash.
 
   - Be able to loop through Object keys
-  - Know how to create iterable objects, Symbol.iterator usage
 
 - #### Arrays Built-in methods
 
@@ -56,39 +58,39 @@
   - Function default parameters
   - ECMA script modules
   - Know how to use spread operator for Function arguments
-  - Be able to compare [arguments] and spread operator
+  - Be able to compare `arguments` and `rest parameters`
   - Spread operator for Array
   - Understand and able to use spread operator for Array concatenation
     Destructuring assignment
   - Be able to discover destructuring assignment concept
   - Understand variables and Function arguments destructuring assignment
   - String templates
-  - Know how [for..of] loop works
+  - Know how `for..of` loop works
 
 - #### Advanced Functions
 
-  - [this] scope
+  - `this` scope
   - Understand difference between function and method
-  - Understand how [this] works, realize [this] possible issues
-  - Manage [this] scope
-  - Be able to replace [this] scope
-  - Be able to use [call] and [apply] Function build-in methods
+  - Understand how `this` works, realize `this` possible issues
+  - Manage `this` scope
+  - Be able to replace `this` scope
+  - Be able to use `call` and `apply` Function build-in methods
 
 - #### Functional Patterns
 
-  - Immediately invoked functional expression (IIFE)
+  - Immediately invoked functional expression `(IIFE)`
   - Know IIFE pattern
   - Callback (Function as argument)
   - Know callback pattern
   - Understand callback limitations (callback hell)
   - Binding, binding one function twice
-  - Know how to bind [this] scope to function
+  - Know how to bind `this` scope to function
 
 - #### Network requests
 
-  - Fetch (with usage)
-  - XMLHTTPRequest (concept)
-  - WebSocket (concept)
+  - `Fetch` (with usage)
+  - `XMLHTTPRequest` (concept)
+  - `WebSocket` (concept)
 
 - #### Web components
 
@@ -99,6 +101,7 @@
   - Date object
   - Date methods, props
   - Timezones
+  - Internationalization js (Intl)
 
 - #### Closures Advanced
 
@@ -111,8 +114,8 @@
 
 - #### Object Oriented Programming
 
-  - [new] keyword
-  - Understand how [new] keyword works
+  - `new` keyword
+  - Understand how `new` keyword works
   - Function constructor
   - Know function constructor concept
   - Know constructor function pattern
@@ -125,32 +128,33 @@
 
 - #### Prototypal Inheritance Basics
 
-  - [__proto__] property
-  - Understand [__proto__] object property
-  - Able to use [Object.create] and define [__proto__] explicitly
+  - `__proto__` property
+  - Understand `__proto__` object property
+  - Able to use [Object.create] and define `__proto__` explicitly
   - Able to set / get object prototype
-  - [prototype] property
-  - Know function [prototype] property
-  - Understand dependency between function constructor [prototype] and instance [__proto__]
-  - Able to create 'class' methods using function [prototype] property
+  - `prototype` property
+  - Know function `prototype` property
+  - Understand dependency between function constructor `prototype` and instance `__proto__`
+  - Able to create 'class' methods using function `prototype` property
 
 - #### ECMAScript Classes
 
   - Class declaration
-  - Know [class] declaration syntax
-  - Understand difference between [class] and function constructor
+  - Know `class` declaration syntax
+  - Understand difference between `class` and `function constructor`
   - Getter/setter
+  - What does `super()` do and where we have to use it?
 
 - #### ECMAScript Data Types & Expressions
 
-  - Object [keys/values]
+  - Object `keys/values`
   - Object calculated props
-  - [Set/Map] data types
-  - [WeakSet/WeakMap] data types
+  - `Set/Map` data types
+  - `WeakSet/WeakMap` data types
 
 - #### JavaScript Errors
 
-  - [try..catch] statement
+  - `try..catch` statement
   - Know how to handle errors
   - Custom errors
 
@@ -210,24 +214,25 @@
 
 - #### Timers
 
-  - [setTimeout]
-  - [setInterval]
-  - [clearTimeout]
-  - [requestAnimationFrame]
-  - Be able to explain difference between [setTimeout] and [requestAnimationFrame]
+  - `setTimeout`
+  - `setInterval`
+  - `clearTimeout`
+  - `requestAnimationFrame`
+  - Be able to explain difference between `setTimeout` and `requestAnimationFrame`
 
 - #### Web Storage API & cookies
 
   - LocalStorage
   - SessionStorage
   - Cookies (concept)
+  - Difference between localStorage, sessionStorage, session and cookies
 
 ### Typescript:
 
 - #### Ability to write concise TypeScript code using its constructs
   - understanding TS(ES6) module system
   - describing variables with primitive data types.
-  - using interfaces with optional properties, read-only properties, ect...
+  - using interfaces with optional properties, read-only properties, etc...
   - creating custom types.
   - function types.
   - utitily types
@@ -250,14 +255,15 @@
 - `Function.prototype.bind` implement polyfill
 - `Object.create` implement polyfill
 - `Array.flat` implement polyfill
-- 'hello world'.repeating(3) -> 'hello world hello world hello world'. How to implement?
-- myFunc('!', 4, -10, 34, 0) -> '4!-10!34!0`. How to implement?
-- five(plus(seven(minus(three())))) -> 9. How to implement?
+- `Array.reduce` implement polyfill
+- `'hello world'.repeating(3)` -> 'hello world hello world hello world'. How to implement?
+- `myFunc('!', 4, -10, 34, 0)` -> '4!-10!34!0`. How to implement?
+- `five(plus(seven(minus(three()))))` -> 9. How to implement?
 - add(5)(9)(-4)(1) -> 11. How to implement?
-- `periodOutput(period)` method should output in the console once per every period how much time left from the function first call.
+- `periodOutput(period)` method should output in the console once per every period how mach time has passed since the first function call.
   Example:
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
-- `extendedPeriodOutput(period)` method should output in the console once per period how much time left from the function first call and increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
+- `extendedPeriodOutput(period)` method should output in the console once per period how mach time has passed since the first function call and then increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
 
 #### Passing the interview
 
