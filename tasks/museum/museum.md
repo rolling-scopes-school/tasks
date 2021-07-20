@@ -56,9 +56,9 @@
 1. легкоподдерживаемый читаемый качественный код:
    - при написании кода следуйте гайдлайну https://codeguide.academy/html-css.html
    - следуйте требованиям Руководства по качеству кода, если они не противоречат гайдлайну
-     - [общие принципы](..\clean-code-guide\generic-principles.md)
-     - [HTML и CSS рекомендации - начальный уровень](..\clean-code-guide\html-and-css.md)
-     - [HTML и CSS рекомендации - продвинутый уровень](..\clean-code-guide\html-and-css-extended.md)
+     - [общие принципы](../../stage1/modules/clean-code/materials/generic-principles.md)
+     - [HTML и CSS рекомендации - начальный уровень](../../stage1/modules/clean-code/materials/html-and-css.md)
+     - [HTML и CSS рекомендации - продвинутый уровень](../../stage1/modules/clean-code/materials/html-and-css-extended.md)
 2. вёрстка валидная, семантическая, соответствующая макету
 3. приложение корректно отображается и работает в браузере Google Chrome последней версии
 4. запрещается использование CSS-фреймворков (bootstrap)
