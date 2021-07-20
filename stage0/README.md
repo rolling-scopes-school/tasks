@@ -18,7 +18,8 @@
 - Проект ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/git-markdown.md)
 
 ### Неделя #3
-- Проект ["CV. Часть 2 и 3."](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv)
+- [Проект "CV" Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md)
+- [Проект "CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
