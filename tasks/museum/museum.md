@@ -144,6 +144,7 @@
 ## Проверка задания
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для кросс-чека https://museum-stage0-cross-check.netlify.app/
 
 ## Материалы
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
@@ -153,6 +154,13 @@
 - [Виртуальный Лувр](http://mylouvre.su/виртуальный-лувр/) - источник ссылок на Google Street View
 
 ## Вебинары RS School
+- вебинары Сергея Шаляпина
+  - [Stream 11.02.2020](https://youtu.be/UQavTWiTpnA)
+  - [Stream 03.03.2020](https://youtu.be/PhRVJC0kBGE)
+  - [Stream 10.03.2020](https://youtu.be/_5f0kznOM_A)
+  - [Stream 17.03.2020](https://youtu.be/0M9Rz-wXYas)
+  - [Stream 26.03.2020](https://youtu.be/fFDw7AH2OXo)
+- вебинары Виктории Ворожун
 - [Friday Live Coding. Part 1](https://youtu.be/ZAde-IJAHzo)
 - [Friday Live Coding. Part 2](https://youtu.be/BJENQIX2e2o)
 - [Friday Live Coding. Part 3](https://youtu.be/fooyYgIuZe8)
