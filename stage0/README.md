@@ -23,7 +23,7 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md) 
 - [Модуль "Figma"](modules/figma)
 - Проект ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
