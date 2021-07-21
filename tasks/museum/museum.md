@@ -26,12 +26,11 @@
 
 ![screenshot](../images/museum.jpg)
 
-[Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/8hh5UtV6pKkSpkYQfhL5Ey/Museum)  
+[Макет Museum](https://www.figma.com/file/7dI6mXBFTdTvXxuhZZTt5h/Museum)  
 [Советы по выполнению задания](museum-hints.md)  
 [Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)  
 
 ## Создание собственной копии макета:
-*Делайте копию только на момент выдачи таска. До этого момента в макет могут вноситься правки*
 - авторизуемся в Фигме
 - открываем макет
 - нажимаем на стрелку рядом с названием макета на панели вверху, выбираем пункт "Duplicate to yout drafts"
