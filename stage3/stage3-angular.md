@@ -386,7 +386,7 @@
 
 ## FAQ
 ### Где можно задать вопрос?
-Вопросы можно задать в Discord чате - https://discord.gg/PPp93EwA
+Вопросы можно задать в Discord чате - https://discord.gg/Y6q4paRw4e
 
 ### Где происходит общение?
-В Discord чате - https://discord.gg/PPp93EwA
+В Discord чате - https://discord.gg/Y6q4paRw4e
