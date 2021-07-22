@@ -2,24 +2,13 @@
 
 ### JavaScript:
 
-- #### Basics
-
-  - Data types
-  - Number methods
-  - String methods
-  - RegExp, quantifiers
-
 - #### Advanced Expressions
 
   - Hoisting
   - Temporal dead zone
-  - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - Strict comparison, Object.is
-  - Be able to discover difference between strict and non-strict comparison
 
 - #### Objects Built-in methods.
 
-  - Know how to use built-in methods
   - Know static Object methods
   - Property flags & descriptors (student is able to set property via Object. defineProperty)
   - Know how to create iterable objects, Symbol.iterator usage
@@ -30,23 +19,13 @@
 
 - #### Arrays Built-in methods
 
-  - Know how to copy array
   - Know how to copy array part
-  - Know how to modify array
   - Know how to flatten nested array
 
 - #### Arrays Iterating, Sorting, Filtering
 
-  - Know how to sort Array
   - Be able to custom sorting for Array
   - Be able to filter Array elements
-  - Know several method how to iterate Array elements
-
-- #### Loops
-
-  - for loop
-  - while loop
-  - do while loop
 
 - #### Functional Scope
 
@@ -191,7 +170,6 @@
   - Navigator
   - Know how to parse user agent
   - Know how to discover client platform, browser
-  - Document
   - Cookies
 
 - #### Page Lifecycle
@@ -202,14 +180,8 @@
 
 - #### Events Basics
 
-  - Event Phases
   - Be able to explain difference between capturing and bubbling
-  - Event Listeners
-  - DOM Events
   - Know Event concept
-  - Know basic Event types
-  - Mouse / Keyboard Events
-  - Form / Input Events
   - Custom events
 
 - #### Events Propagation / Preventing
@@ -223,16 +195,12 @@
 
 - #### Timers
 
-  - `setTimeout`
-  - `setInterval`
   - `clearTimeout`
   - `requestAnimationFrame`
   - Be able to explain difference between `setTimeout` and `requestAnimationFrame`
 
 - #### Web Storage API & cookies
 
-  - LocalStorage
-  - SessionStorage
   - Cookies (concept)
   - Difference between localStorage, sessionStorage, session and cookies
 
