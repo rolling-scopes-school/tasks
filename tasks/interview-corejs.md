@@ -7,14 +7,14 @@
   - Data types
   - Number methods
   - String methods
-  - Quantifiers
+  - RegExp, quantifiers
 
 - #### Advanced Expressions
 
   - Hoisting
   - Temporal dead zone
   - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - Strict comparison
+  - Strict comparison, Object.is
   - Be able to discover difference between strict and non-strict comparison
 
 - #### Objects Built-in methods.
@@ -33,6 +33,7 @@
   - Know how to copy array
   - Know how to copy array part
   - Know how to modify array
+  - Know how to flatten nested array
 
 - #### Arrays Iterating, Sorting, Filtering
 
@@ -40,6 +41,12 @@
   - Be able to custom sorting for Array
   - Be able to filter Array elements
   - Know several method how to iterate Array elements
+
+- #### Loops
+
+  - for loop
+  - while loop
+  - do while loop
 
 - #### Functional Scope
 
@@ -70,11 +77,12 @@
 - #### Advanced Functions
 
   - `this` scope
+  - Reference Type & losing `this`
   - Understand difference between function and method
   - Understand how `this` works, realize `this` possible issues
   - Manage `this` scope
   - Be able to replace `this` scope
-  - Be able to use `call` and `apply` Function build-in methods
+  - Be able to use `call` and `apply` Function built-in methods
 
 - #### Functional Patterns
 
@@ -85,6 +93,7 @@
   - Understand callback limitations (callback hell)
   - Binding, binding one function twice
   - Know how to bind `this` scope to function
+  - Carrying and partial functions
 
 - #### Network requests
 
@@ -118,7 +127,6 @@
   - Understand how `new` keyword works
   - Function constructor
   - Know function constructor concept
-  - Know constructor function pattern
   - Able to create constructor functions
   - Public, private, static members
   - Know how to create public members
@@ -141,7 +149,7 @@
 
   - Class declaration
   - Know `class` declaration syntax
-  - Understand difference between `class` and `function constructor`
+  - Understand difference between `class` and `constructor function`
   - Getter/setter
   - What does `super()` do and where we have to use it?
 
@@ -164,7 +172,7 @@
   - Promises
   - Promise states
   - Promise Chaining
-  - Promise Methods
+  - Promise static methods
   - Be able to compare promise and callback patterns
   - Be able to handle errors in promises
   - event loop
@@ -202,6 +210,7 @@
   - Know basic Event types
   - Mouse / Keyboard Events
   - Form / Input Events
+  - Custom events
 
 - #### Events Propagation / Preventing
 
@@ -236,6 +245,8 @@
   - creating custom types.
   - function types.
   - utitily types
+  - typeguards
+  - generic types (concept)
 
 ### Design patterns:
 
@@ -249,6 +260,8 @@
 
 - #### HTTP vs HTTPS vs HTTP/2
 - #### RESTful API
+- #### HTTP methods
+- #### HTTP status codes groups
 
 ### Coding tasks:
 
