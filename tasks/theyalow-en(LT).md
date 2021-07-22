@@ -34,7 +34,7 @@ You must use either **Flex or Grid** in your solution. Fonts and images should b
 The minimum width you have to support is 360px
 
 ## Global penalties
-1. Failure to submit on time - **-100 points**
+1. Failure to submit on time is equal to **failing task** at all
 2. No hosted version of the solution - **-100 points**
 3. Not using flex or grid atleast once - **-30 points**
 5. Not following semantic standards **-1 point per semantically incorrect tag, up to -15 points**.
