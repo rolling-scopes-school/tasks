@@ -8,12 +8,26 @@
   - Number methods
   - String methods
   - RegExp, quantifiers
+  - let var const - differences
+  - ternary operator
+  - switch case - examples, where it can be useful
+  - type conversions
 
 - #### Advanced Expressions
 
   - Be able to discover cases of implicit data types conversion into boolean, string, number
   - Strict comparison, Object.is
   - Be able to discover difference between strict and non-strict comparison
+  - what is polyfills
+
+- #### Function
+
+  - arrow func/ func expression/ func declaration
+
+- #### Date & time
+
+  - Date object
+  - Date methods, props
 
 - #### Objects Built-in methods.
 

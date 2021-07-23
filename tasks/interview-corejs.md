@@ -86,8 +86,6 @@
 
 - #### Date & time
 
-  - Date object
-  - Date methods, props
   - Timezones
   - Internationalization js (Intl)
 
