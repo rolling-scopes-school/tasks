@@ -17,14 +17,14 @@ Scope
 - Замыкания
 - Замыкания и циклы
 - Chaining, Decorator
+- Scheduling
+    - setTimeout and setInterval
 
 ## Приблизительное время прохождения модуля
-- 4 часа теория
-- 4 часа практика 
+- 4 часа 
 
 ## Теория 
-Вебинар
-### 
+Вам необходимо посмотреть запись вебинара: 
 - Часть#1 https://www.youtube.com/watch?v=c_rHAYNBotQ
 - Часть#2 https://www.youtube.com/watch?v=h5o_tgEMKxY
 - Слайды
@@ -32,10 +32,10 @@ Scope
     - https://kirilknysh.github.io/js-functions-talk/#/
 
 ## Практика 
+// TODO Указать актуальные название теста (@pavelrazuvalau) и задач (@natein) 
 1. Вам необходимо пройти тест "JS Scope & Functions" в RS APP > Auto Test
 2. Задачи на Codewars: 
 ```
-//TODO 
 7 kyu https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
 7 kyu https://www.codewars.com/kata/the-wheat-slash-rice-and-chessboard-problem
 6 kyu https://www.codewars.com/kata/function-composition-1

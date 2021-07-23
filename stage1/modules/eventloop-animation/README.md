@@ -1,11 +1,5 @@
-### Video
-- https://youtu.be/dG5ZaHYdre8
-
-### Slides
-- http://rolling-scopes.github.io/slides/school/event-loop/#/
-- http://wontem.github.io/slides/animations/#/
-
-### Content
+# [Stage#1.](../../) Event Loop & Animation
+## В данном модуле студентам необходимо изучить:
 #### Event Loop
 - Call stack
 - Event Loop
@@ -18,8 +12,18 @@
 - requestAnimationFrame
 - Performance issues
 
-## Материалы
+## Приблизительное время прохождения модуля
+2 часа
 
+## Теория 
+### Video
+- https://youtu.be/dG5ZaHYdre8
+
+### Slides
+- http://rolling-scopes.github.io/slides/school/event-loop/#/
+- http://wontem.github.io/slides/animations/#/
+
+## Дополнительные материалы
 #### Event Loop
 - http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html
 - http://latentflip.com/loupe/

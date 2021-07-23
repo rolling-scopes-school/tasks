@@ -16,7 +16,8 @@
     - https://tuhub.ru/posts/css-grid-complete-guide - 2h
 
 
-## Практика 
+## Практика
+// TODO Указать актуальное название теста (@sergeyshalyapin)   
 1. Вам необходимо пройти тест "Grid" в RS APP > Auto Test
 
 ## Дополнительные материалы

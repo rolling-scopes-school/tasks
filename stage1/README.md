@@ -26,15 +26,14 @@
 
 ## Программа обучения
 ### Неделя #1 
-- [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
-- [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
-- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
-- [Модуль "Проект CV"](modules/project-cv)
+- [Модуль "Знакомство с RS School"](../stage0/modules/rs-school-intro/)
+- [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
+- [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
+- [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
+- [Модуль "Проект CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv)
 
 ### Неделя #2
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](modules/project-cv/) 
-
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv) 
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/)
 - Проверка уровня базовых знаний. Тесты и задачи по темам подготовительного этапа
@@ -42,22 +41,22 @@
 ### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Figma"](modules/figma/)
+- [Модуль "Figma"](../stage0/modules/figma/)
 - [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
 - [Модуль: Медиазапросы](modules/media-queries/)
-- [Модуль: Верстка адаптивного макета](markup-livecoding)
+- [Модуль: Верстка адаптивного макета](modules/markup-livecoding/)
 - [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #5
+- [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Модуль: HTML Forms & Validation](modules/html-form/)
 - [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #6
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
-
 - [Модуль: DOM API](modules/dom-api/)
 - [Модуль: Events](modules/events/)
 - [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
@@ -80,21 +79,22 @@
 - Проект Momentum
 
 ### Неделя #10
-- ShortTrack Tasks
+- [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
 - [Git Recap](modules/git-recap/)
 - [Проект Self-introduction](modules/html-builder/)
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
- 
+- [Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных](algorithms) 
+
 ### Неделя #11
 - [Проект HTML-Builder](modules/html-builder/)
 
 ### Неделя #12
+- [Модуль: Clean Code](modules/clean-code/)
 - Module: Object-Oriented Programming and Object-Oriented Design
 - Module: Building blocks of OOP
 - Проект на СoreJS
-- [Модуль: Clean Code](modules/clean-code/)
 
 ### Неделя #13
+- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Проект на СoreJS
 
 ### Неделя #14

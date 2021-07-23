@@ -12,5 +12,6 @@
 2. [Уроки CSS - Медиа запросы основы](https://www.youtube.com/watch?v=M-xc1EOMOIE) - 30 мин"
 
 ## Практика 
+// TODO Указать актуальное название теста (@sergeyshalyapin)   
 1. Вам необходимо пройти тест "Media Queries" в RS APP > Auto Test
 
