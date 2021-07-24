@@ -56,8 +56,9 @@ CV. Cross-Check - таск, который проверяется в ходе к
 ## Cross-check
 
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- форма для проверки задания https://html-css-git-cross-check.netlify.app/
+- форма для проверки задания https://cv-cross-check.netlify.app/
 - видеоинструкция по проведению cross-check: https://youtu.be/O9qR65Juy6U
+- ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 
 ## Материалы
 
