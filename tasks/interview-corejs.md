@@ -229,6 +229,15 @@
 - #### HTTP methods
 - #### HTTP status codes groups
 
+### Common web-security knowledge `(optional)`
+
+- #### Basic understanding of most common security terms (CORS, XSS)
+
+  - XSS
+  - CORS
+  - OWASP Top 10
+  - Auth (JWT, OAuth, Basic, etc.)
+
 ### Coding tasks:
 
 - `Function.prototype.bind` implement polyfill
