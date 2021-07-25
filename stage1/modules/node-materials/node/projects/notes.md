@@ -16,38 +16,36 @@
 ```js
 const fs = require('fs');
 ```
-2. Передадим в константы три флага - название метода, название заметки, содержание заметки
+2. Передадим в константы три аргумента - название метода, название заметки, содержание заметки
  ```js
-const command = process.argv[2];
-const title = process.argv[3];
-const content = process.argv[4];
+const [command, title, content] = process.argv.slice(2);
 ```
 3. Создадим переключатель `switch`, который будет вызывать соответствующие функции для разных методов.
  ```js
-switch(command) {
-  case 'list': 
-    list();
-    break;
-  case 'view': 
-    view(title);
-    break;
-  case 'create': 
-    create(title, content);
-    break;
-  case 'remove': 
-    remove(title);
-    break;
-  default: console.log('Неизвестная команда');
+switch (command) {
+    case 'list':
+        list();
+        break;
+    case 'view':
+        view(title);
+        break;
+    case 'create':
+        create(title, content);
+        break;
+    case 'remove':
+        remove(title);
+        break;
+    default: console.log('Неизвестная команда');
 }
 ```
 4. Напишем функцию `create()` которая создаст новую заметку.  
 У функции два параметра - название заметки `title` и содержание заметки `content` 
 ```js
 function create(title, content) {
-  const notes = {title, content};
+  const notes = { title, content };
   const json = JSON.stringify(notes);
-  fs.writeFile('notes.json', json, (error, data) => {
-    if(error) return console.error(error.message);
+  fs.writeFile('notes.json', json, (error) => {
+    if (error) return console.error(error.message);
     console.log('Заметка создана');
   });
 } 
@@ -65,19 +63,20 @@ function create(title, content) {
 ```js
 function create(title, content) {
   fs.readFile('notes.json', (error, data) => {
-    if(error) return console.error(error.message);
+    if (error) return console.error(error.message);
     const notes = JSON.parse(data);
-    notes.push({title, content});
+    notes.push({ title, content });
     const json = JSON.stringify(notes);
-    fs.writeFile('notes.json', json, (error, data) => {
-      if(error) return console.error(error.message);
+
+    fs.writeFile('notes.json', json, (error) => {
+      if (error) return console.error(error.message);
       console.log('Заметка создана');
     });
   });
 }
 ```
 Запустим файл командой
-```
+```powershell
 node index create title content
 ```
 где вместо `title` и `content` - название и содержание заметки.
@@ -90,32 +89,32 @@ node index create title content
 ```js
 function list() {
   fs.readFile('notes.json', (error, data) => {
-    if(error) return console.error(error.message);
+    if (error) return console.error(error.message);
     const notes = JSON.parse(data);
     notes.forEach((note, index) => console.log(`${index + 1} ${note.title}`))
   });
-} 
+}
 ```
 Так как файл `notes.json` лежит в той же директории, что и файл с кодом, можно не прописывать к нему путь, достаточно указать его название первым аргументов метода `readFile()`. Второй аргумент метода - функция обратного вызова, которая принимает два параметра - ошибку `error` и прочитанные из файла данные `data`.  
 Преобразовать полученные данные в массив позволяет метод `JSON.parse(data)`.  
 Идём по этому массиву при помощи метода `forEach()` и для каждого элемента выводим в консоль его индекс и название заметки, так что в консоль выводится нумерованный список. Чтобы список начинался не с нуля, а с единицы, к индексу прибавим 1.
 
-6. Напишем функцию `view()`, которая выводит содержание заметки по её названию. Функция похожа на функцию `list()`. В ней также происходит чтение документа и преобразование полученных данных в массив. Затем мы используем метод `find()`, чтобы найти заметку, название которой совпадает с указанным при вызове функции. Если не совпадаем, выводим сообщение что заметка не найдена, иначе выводим её содержание.
+6. Напишем функцию `view()`, которая выводит содержание заметки по её названию. Функция похожа на функцию `list()`. В ней также происходит чтение документа и преобразование полученных данных в массив. Затем мы используем метод `find()`, чтобы найти заметку, название которой совпадает с указанным при вызове функции. Если не таких нет, выводим сообщение, что заметка не найдена, иначе выводим её содержание.
 
 ```js
-function view(title) {
+function view() {
   fs.readFile('notes.json', (error, data) => {
-    if(error) return console.error(error.message);
+    if (error) return console.error(error.message);
     const notes = JSON.parse(data);
     const note = notes.find(note => note.title === title);
-    if(!note) {
+    if (!note) {
       console.log('Заметка не найдена');
       return;
     } else {
       console.log(note.content);
     }
   });
-} 
+}
 ```
 
 7. Напишем функцию `remove()`, которая удаляет заметку по её названию.  
@@ -124,15 +123,15 @@ function view(title) {
 ```js
 function remove(title) {
   fs.readFile('notes.json', (error, data) => {
-    if(error) return console.error(error.message);
+    if (error) return console.error(error.message);
     let notes = JSON.parse(data);
     notes = notes.filter(note => note.title !== title);
     const json = JSON.stringify(notes);
-    fs.writeFile('notes.json', json, (error, data) => {
-      if(error) return console.error(error.message);
+    fs.writeFile('notes.json', json, (error) => {
+      if (error) return console.error(error.message);
       console.log('Заметка удалена');
     });
   });
-} 
+}
 ```
 Код приложения https://github.com/irinainina/node.js/tree/notes/notes
