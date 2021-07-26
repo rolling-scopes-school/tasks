@@ -1,5 +1,5 @@
 ## Node.js
-![](node/images/node-logo.jpg)
+![Node.js logo](node/images/node-logo.jpg)
 
 **Node.js** — среда выполнения JavaScript вне браузера.
 
@@ -27,10 +27,10 @@ Node.js используется для создания веб-серверов
     - [создание собственных модулей](node/module/create-module.md)
 7. [События](node/events.md)
     - [приложение Таймер](node/timer.md)
-8. [Потоки](node/flow.md)
-    - [поток чтения](node/flow-read.md)
-    - [поток записи](node/flow-write.md)
-    - [поток чтения-записи](node/flow-read-write.md)
+8. [Потоки](node/stream.md)
+    - [поток чтения](node/stream-readable.md) 
+    - [поток записи](node/stream-writable.md)
+    - [объединение потоков](node/stream-pipes.md)
 9. [Проекты](node/projects/projects.md)
     - [приложение для заметок](node/projects/notes.md)
     - [приложение github](node/projects/github-app.md)
