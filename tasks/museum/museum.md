@@ -29,6 +29,7 @@
 [Макет Museum](https://www.figma.com/file/7dI6mXBFTdTvXxuhZZTt5h/Museum)  
 [Советы по выполнению задания](museum-hints.md)  
 [Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)  
+[Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)
 
 ## Создание собственной копии макета:
 - авторизуемся в Фигме
@@ -149,8 +150,6 @@
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
-- [Официальный сайт Лувра](https://www.louvre.fr/) - источник ссылок на соцсети, а также картинок для галереи и видео для плейлиста, которые понадобятся на stage#1
-- [Виртуальный Лувр](http://mylouvre.su/виртуальный-лувр/) - источник ссылок на Google Street View
 
 ## Вебинары RS School
 - вебинары Сергея Шаляпина
