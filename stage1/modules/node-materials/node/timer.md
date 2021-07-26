@@ -1,63 +1,68 @@
 ## Приложение Таймер
 Непосредственное создание объектов на основе класса `EventEmitter` используется крайне редко.  
-Чаще всего события добавляют другим объектам. Это делается благодаря наследованию.  
-Создадим класс `Timer`, который будет наследовать метод `EventEmitter`, и, как следствие, будет иметь методы `emit()` и `on()`  
+Чаще всего интерфейс для работы с событиями добавляют другим объектам. Это делается благодаря наследованию.  
+Создадим класс `Timer`, который будет наследовать от `EventEmitter`, и, как следствие, его экземпляры будут иметь методы `emit()` и `on()`  
 ```js
 const EventEmitter = require('events');
 
 class Timer extends EventEmitter {
-  constructor(total) {
-    super();
-    this.total = total;
-    this.ticks = 0;
-  }
-
-  start() {
-    this.interval = setInterval(() => this.tick(), 1000);
-    this.emit('start');
-  }
-
-  tick() {
-    this.ticks += 1;
-    if(this.ticks <= this.total) {
-      this.emit('tick', this.ticks)
-    } else {
-      this.end();
+    constructor(total, interval) {
+        super();
+        this.total = total;
+        this.interval = interval;
+        this.ticks = 0;
     }
-  }
 
-  end() {
-    clearInterval(this.interval);
-    this.emit('end')
-  }
+    _tick() {
+        this.ticks += 1;
+        if (this.ticks <= this.total) {
+            this.emit('tick', this.ticks)
+        } else {
+            this.end();
+        }
+    }
+
+    start() {
+        this.intervalId = setInterval(() => this._tick(), this.interval);
+        this.emit('start');
+    }
+
+    end() {
+        clearInterval(this.intervalId);
+        this.emit('end');
+    }
 }
 ```
-В классе `Timer` определили три метода: 
-- `start()`
-- `tick()`
-- `end()`
-У метода `start()` есть переменная `interval`, которой присвоена функция `setInterval()` каждую секунду вызывающий метод `tick()`. Так же метод `start()` генерирует событие 'start'.  
-Метод `tick()` увеличивает переменную `ticks` на единицу и проверяет не достигнуто ли значение, указанное в свойстве конструктора `total`.  
-Если не достигнуто, метод `tick()` генерирует событие `tick`, вторым параметром которого выступает текущее значение переменной `ticks`.  
+Конструктор класса `Timer` принимает 2 аргумента:
+- `total` — общее количество срабатываний таймера
+- `interval` — интервал между срабатываниями
+
+Экземпляр класса `Timer` содержит три метода:  
+- `start()` — запускает наш таймер
+- `_tick()` — внутренный метод таймера
+- `end()` — завершает работу таймера
+
+У метода `start()` есть переменная `intervalId`, содержащая идентификатор таймера, установленного при помощи `setInterval()`, который каждую секунду вызывает метод `tick()`. Также метод `start()` генерирует событие `'start'`.  
+Метод `tick()` увеличивает переменную `ticks` на единицу и проверяет, не достигнуто ли значение, указанное в свойстве конструктора `total`.  
+Если не достигнуто, метод `tick()` генерирует событие `tick`, payload которого выступает текущее значение переменной `ticks`.  
 Если значение `total` достигнуто, метод `tick()` вызывает метод `end()`.  
-Метод `end()` очищает `setInterval()` и генерирует событие `end`.
+Метод `end()` очищает таймер `setInterval()` и генерирует событие `end`.  
 
-Создадим екземпляр класса `Timer`
+Создадим экземпляр класса `Timer`
 ```js
-const timer = new Timer(10)
+// таймер на 10 срабатываний с интервалом 500 мс
+const timer = new Timer(10, 500);
 ```
-
-И создадим для него события 
+Подпишемся на его события 
 ```js
 timer.once('start', () => console.log('Start'));
 timer.on('tick', tick => console.log(tick));
 timer.once('end', () => console.log('End'));
 ```
-
 Запустим таймер
 ```js
 timer.start();
 ```
 Таймер работает.
 
-Работа большинства объектов в Node.js основана на событиях. Это означает, что эти объекты наследуют метод `EventEmitter`
+Работа большинства объектов в Node.js основана на событиях, работа с которыми происходит за счет того, что эти объекты наследуют API `EventEmitter`.
