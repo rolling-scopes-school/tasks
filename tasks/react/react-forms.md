@@ -54,3 +54,7 @@
 
 
 Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
+
+### Теория
+
+https://docs.google.com/document/d/1C490mF-CzPkr2552nDcj3W3NJmrzXJKFBSs4C_Vg_cM/edit
