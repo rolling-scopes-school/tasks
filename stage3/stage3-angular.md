@@ -22,6 +22,7 @@
 
 - Aleh Serhiyenia
 - Dzianis Davydau
+- Yan Kozlovskiy
 
 # Учебный план
 
