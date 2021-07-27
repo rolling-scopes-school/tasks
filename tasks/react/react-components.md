@@ -26,3 +26,7 @@
 3) React App + компоненты - **9 баллов**
 
 Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
+
+### Теория
+
+https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit
