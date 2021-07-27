@@ -14,7 +14,7 @@
   (примеры: https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg, https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg, https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg).  
   
 Все логические части должны быть вынесены в отдельные компоненты.
-Компоненты не должны содержать никакой логики, не должно быть запросов к API и роутинга. Просто dump components.
+Компоненты не должны содержать никакой логики, не должно быть запросов к API и роутинга. Просто dumb components.
 
 ### Оценка
 
