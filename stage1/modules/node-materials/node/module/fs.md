@@ -26,6 +26,7 @@ fs.mkdir(path.join(__dirname, 'notes'), err => {
 ```js
 const fs = require('fs');
 const path = require('path');
+
 fs.writeFile(
     path.join(__dirname, 'notes', 'mynotes.txt'),
     'Hello world',
@@ -40,6 +41,7 @@ fs.writeFile(
 ```js
 const fs = require('fs');
 const path = require('path');
+
 fs.appendFile(
     path.join(__dirname, 'notes', 'mynotes.txt'),
     ' From append file',
@@ -54,6 +56,7 @@ fs.appendFile(
 ```js
 const fs = require('fs');
 const path = require('path');
+
 fs.readFile(
     path.join(__dirname, 'notes', 'mynotes.txt'),
     'utf-8',
@@ -68,6 +71,7 @@ fs.readFile(
 ```js
 const fs = require('fs');
 const path = require('path');
+
 fs.rename(
     path.join(__dirname, 'notes', 'mynotes.txt'),
     path.join(__dirname, 'notes', 'notes.txt'),

@@ -33,8 +33,8 @@ Node.js используется для создания веб-серверов
     - [объединение потоков](node/stream-pipes.md)
 9. [Проекты](node/projects/projects.md)
     - [приложение для заметок](node/projects/notes.md)
-    - [приложение Таймер](node/projects/github-app.md)
-    - [приложение Github](node/projects/timer.md)
+    - [приложение Таймер](node/projects/timer.md)
+    - [приложение Github](node/projects/github-app.md)
 
     
 ## Материалы

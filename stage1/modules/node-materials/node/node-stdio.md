@@ -9,7 +9,7 @@
 ### Стандартный поток вывода
 Выведем информацию в консоль при помощи `process.stdout`.
 ```js
-const stdout = process.stdout;
+const { stdout } = process;
 stdout.write('Node.js');
 ```
 Метод `stdout.write()` принимает в качестве аргумента строку и выводит её в консоль. В отличие от `console.log()` он не добавляет автоматический перенос в конце строки. При необходимости перенос строки `\n` можно добавить вручную.
@@ -17,8 +17,7 @@ stdout.write('Node.js');
 ### Стандартный поток ввода
 В файле `test.js` напишем и запустим код:  
 ```js
-const stdout = process.stdout;
-const stdin = process.stdin;
+const { stdin, stdout } = process;
 stdin.on('data', data => stdout.write(data));
 ```  
 При помощи метода `.on()` мы подписываемся на событие `'data'` объекта `stdin`.  
@@ -35,11 +34,13 @@ process.on('exit', () => stdout.write('Удачи в изучении Node.js!')
 ```  
 `process.exit()` принимает необязательный аргумент `exitCode`, представленный целым числом. По умолчанию данный метод запускается с параметром `exitCode === 0`. Такое завершение процесса означает, что программа выполнена успешно и отработала без ошибок. Завершение процесса с любым другим `exitCode`, что работа программы завершилась ошибкой. Благодаря этому можно передать разные сообщения на выходе в зависимости от того, сработала программа как нужно, или нет.
 ```js
+const { stdin, stdout } = process;
+
 process.on('exit', code => {
     if (code === 0) {
-        process.stdout.write('Всё в порядке');
+        stdout.write('Всё в порядке');
     } else {
-        process.stderr.write(`Что-то пошло не так. Программа завершилась с кодом ${code}`);
+        stderr.write(`Что-то пошло не так. Программа завершилась с кодом ${code}`);
     }
 });
 ```  
@@ -51,8 +52,7 @@ process.on('exit', code => {
   <summary>Пример решения</summary>
 
 ```js 
-const stdout = process.stdout;
-const stdin = process.stdin;
+const { stdin, stdout } = process;
 
 stdout.write('Как тебя зовут?\n');
 stdin.on('data', data => {
@@ -68,8 +68,7 @@ process.on('exit', () => stdout.write('Удачи!'));
 ### Buffer
 Несмотря на то, что в предыдущем примере параметр `data` обработчика одноименного события похож на строку, на самом деле он не является строкой. При попытке воспользоваться методами строки мы получим ошибку:
 ```js 
-const stdout = process.stdout;
-const stdin = process.stdin;
+const { stdin, stdout } = process;
 
 stdin.on('data', data => {
     // После ввода текста в консоль и нажатия Enter получим TypeError: data.toUpperCase is not a function
@@ -91,8 +90,7 @@ console.log(bufferStringified);
 ```
 Исправим наш предыдущий пример:
 ```js
-const stdout = process.stdout;
-const stdin = process.stdin;
+const { stdin, stdout } = process;
 
 stdin.on('data', data => {
     const dataStringified = data.toString();
@@ -108,8 +106,7 @@ stdin.on('data', data => {
   <summary>Пример решения</summary>
 
 ```js
-const stdout = process.stdout;
-const stdin = process.stdin;
+const { stdin, stdout } = process;
 
 stdout.write('Как тебя зовут?\n')
 stdin.on('data', data => {
