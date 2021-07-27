@@ -55,14 +55,14 @@ Please bear in mind that you don’t need to implement any logic or markup. The 
 Maximum points - **50**
 
 - [ ] The app is generated (**+5**)
-- [ ] Added base project structure for components and models. TSLint is configured with the file provided in the task description (**+10**)
+- [ ] Added base project structure for components and models. ESLint configured (**+10**)
 - [ ] All the necessary components were created (**+15**)
 - [ ] All the necessary models were created. Search result list and search item components contain declarations of necessary fields (**+20**)
 
 Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://www.typescriptlang.org/docs/home.html
