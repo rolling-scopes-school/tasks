@@ -26,14 +26,14 @@ Node.js используется для создания веб-серверов
     - [модули, устанавливаемые через npm](node/module/npm-module.md)
     - [создание собственных модулей](node/module/create-module.md)
 7. [События](node/events.md)
-    - [приложение Таймер](node/timer.md)
 8. [Потоки](node/stream.md)
     - [поток чтения](node/stream-readable.md) 
     - [поток записи](node/stream-writable.md)
     - [объединение потоков](node/stream-pipes.md)
 9. [Проекты](node/projects/projects.md)
     - [приложение для заметок](node/projects/notes.md)
-    - [приложение github](node/projects/github-app.md)
+    - [приложение Таймер](node/projects/github-app.md)
+    - [приложение Github](node/projects/timer.md)
 
     
 ## Материалы
