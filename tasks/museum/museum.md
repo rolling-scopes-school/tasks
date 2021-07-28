@@ -24,7 +24,7 @@
 - адаптивная вёрстка - 1 неделя
 - добавление интерактивности при помощи JavaScript - 2 недели
 
-<kbd>![screenshot](../images/museum.jpg)</kbd>
+<kbd>[![screenshot](../images/museum-prev.jpg)](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/museum.jpg)</kbd>
 
 [Макет Museum](https://www.figma.com/file/7dI6mXBFTdTvXxuhZZTt5h/Museum)  
 [Советы по выполнению задания](museum-hints.md)  

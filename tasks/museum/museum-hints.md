@@ -153,7 +153,7 @@
 }
 ```
 
-В figma есть проблема с определением свойства `font-weight` шрифта. Чтобы её решить, можно или установить в figma плагин [Font Fascia](https://www.figma.com/community/plugin/746097413727734148/Font-Fascia), или прокрутить свойства шрифта [чуть ниже](https://cdn.discordapp.com/attachments/861527425481310258/866660592663265310/screenshot_96.png) 
+В figma есть проблема с определением свойства `font-weight` шрифта. Чтобы её решить, можно или установить в figma плагин [Font Fascia](https://www.figma.com/community/plugin/746097413727734148/Font-Fascia), или прокрутить свойства шрифта [чуть ниже](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/figma-font-weight.png) 
 
 #### 6. Вёрстка основных блоков
 В файле `index.html` нажимаем восклицательный знак и `Tab` - готова основа html документа.  
