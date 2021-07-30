@@ -1,0 +1,28 @@
+# [Stage#1](../../) Основы JavaScript. Типы данных
+## В данном модуле студентам необходимо:
+Закрепить основы JavaScript:
+- Переменные 
+- Типы данных
+- Преобразование типов
+- Базовые операторы, математика
+- Условные и логические операторы
+- Циклы
+- Функции
+- Комментарии
+
+## Приблизительное время прохождения модуля
+4 часа
+
+## Теория 
+Вариант на выбор:
+- читать https://learn.javascript.ru/first-steps
+- смотреть https://www.youtube.com/watch?v=Jnf--72z8bs [Слайды](https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/edit)
+
+## Практика 
+// TODO Указать актуальные название теста (@pavelrazuvalau) и задач (@natein) 
+1. Вам необходимо пройти тест "JS Basics" в RS APP > Auto Test
+2. Задачи на Codewars
+
+## Дополнительные материалы
+- https://exploringjs.com/impatient-js/toc.html
+- https://learn.javascript.ru/data-types

@@ -45,6 +45,13 @@
 4. Сохранить в закладки расписание курса - https://app.rs.school/course/schedule?course=js-fe-preschool
 5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)). 
 
+## Терминология, которую вам необходимо знать
+- сross-check
+- code-of-conduct
+- RS App
+- создать issue
+- написать gratitude
+
 ## Дополнительные материалы
 1. [Запись YouTube стрима "RSSchool для гуманитария"](https://www.youtube.com/watch?v=mCnOni_mqdk) - 2 часа
 2. [Список лучших финальных проектов 2020Q3](https://docs.google.com/spreadsheets/d/1STe2AtPckojasiQI_j6s0cLRWEjvHG0LCSxN3yv5dBA/edit#gid=0) - 0.5 часа
