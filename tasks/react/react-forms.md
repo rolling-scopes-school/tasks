@@ -47,7 +47,7 @@
 
 
 
-1) Webpack, eslint, prettier - **0.5 балла**
+1) Webpack((или vite, rollup, esbuild)), eslint, prettier - **0.5 балла**
 2) Form + Cards - **14.5 баллов**
 
 
