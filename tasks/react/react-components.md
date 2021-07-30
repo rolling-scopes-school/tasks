@@ -21,7 +21,7 @@
 
 Задание будет оцениваться ментором в сентябре. Для удобства проверки создайте Pull Request(**МЕРЖИТЬ НЕ НАДО**).
 
-1) Webpack + scripts - **4 балла**
+1) Webpack(или vite, rollup, esbuild) + scripts - **4 балла**
 2) eslint, prettier - **2 балла**
 3) React App + компоненты - **9 баллов**
 
