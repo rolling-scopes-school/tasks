@@ -25,7 +25,7 @@
 4 часа
 
 ## Теория 
-Посмотреть вебинар - https://www.youtube.com/watch?v=0fFg3c4C9tA
+// TODO
 
 ## Практика 
 // TODO

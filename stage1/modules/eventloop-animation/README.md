@@ -1,16 +1,26 @@
 # [Stage#1.](../../) Event Loop & Animation
 ## В данном модуле студентам необходимо изучить:
 #### Event Loop
-- Call stack
 - Event Loop
-- Callback queue
+- Call stack
 - Web APIs
+- Callback queue
 
 #### Animations
 - CSS3 Transitions
 - CSS3 Transforms
 - requestAnimationFrame
 - Performance issues
+
+## Терминология, которую вам необходимо знать
+- Event Loop
+- asynchronous
+- single-thread
+- concurrency
+- Non-blocking
+- Call stack
+- Web APIs
+- Callback queue
 
 ## Приблизительное время прохождения модуля
 2 часа

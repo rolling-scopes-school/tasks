@@ -27,7 +27,7 @@
 5. [Генерация пользовательских событий](https://learn.javascript.ru/dispatch-events)
 6. [Основы событий мыши](https://learn.javascript.ru/mouse-events-basics)
 7. [Движение мыши: mouseover/out, mouseenter/leave](https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave)
-8. [Понимание javascript - работа с DOM](https://www.youtube.com/watch?v=-2WiaSvOj78&feature=youtu.be) - 2 часа
+8. [Понимание javascript - работа с DOM](https://www.youtube.com/watch?v=-2WiaSvOj78&feature=youtu.be)
 
 ## Практика 
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md

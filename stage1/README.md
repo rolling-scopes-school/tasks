@@ -13,8 +13,8 @@
     - Основы NodeJS.
     - Webpack
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
-- Время обучения: *UNDEFINED* недель
-- Формат: самообучение + вебинары + общение в Discord + задания проверяют в процессе кросс-чек и автоматически
+- Время обучения: 12 недель
+- Формат: самообучение + вебинары + общение в Discord + задания проверяются кросс-чеком или автоматически
 
 ## Необходимые базовые знания
 - Понимание основ HTML и CSS, наличие практических навыков вёрстки
@@ -22,7 +22,7 @@
 - Знание структуры данных и их организации (массив, список, стек, очередь, дерево и т.д.). 
 - Уметь реализовать достаточно простой алгоритм на языке программирования JavaScript. Например, сортировку или поиск элементов массива.
 - Уметь решать задачи уровня 8-7 kyu на сайте https://www.codewars.com/
-- (Желательно) Английский язык уровня Pre-intermediate.
+- (Желательно) Английский язык уровня Pre-intermediate. [Наши рекомедации](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Программа обучения
 ### Неделя #1 
@@ -46,6 +46,7 @@
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
+- [Модуль: Responsive Web Design](modules/responsive-web-design/)
 - [Модуль: Медиазапросы](modules/media-queries/)
 - [Модуль: Верстка адаптивного макета](modules/markup-livecoding/)
 - [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
@@ -76,7 +77,7 @@
 - Модуль: Modules in JS
 - [Модуль: Webpack](modules/webpack/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- Проект Momentum
+- Проект Momentum. Продолжение. 
 
 ### Неделя #10
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
@@ -89,17 +90,8 @@
 
 ### Неделя #12
 - [Модуль: Clean Code](modules/clean-code/)
-- Module: Object-Oriented Programming and Object-Oriented Design
-- Module: Building blocks of OOP
+- [Модуль: Web Storage](modules/web-storage/)
 - Проект на СoreJS
-
-### Неделя #13
-- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-- Проект на СoreJS
-
-### Неделя #14
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта на СoreJS
-- Подготовка к собеседованию с ментором
 
 ## FAQ
 ### Что делать до старта обучения? 
@@ -110,6 +102,7 @@
 ### Какой учебник по JavaScript вы можете посоветовать?
 - https://learn.javascript.ru/
 - https://exploringjs.com/impatient-js/toc.html
+- https://github.com/azat-io/you-dont-know-js-ru
  
 
 

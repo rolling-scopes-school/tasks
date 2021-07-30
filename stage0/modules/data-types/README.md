@@ -7,6 +7,7 @@
     - Замыкания
     - Hoisting 
     - Глобальные и локальные переменные	
+    - Function scoped variables
     - Block-Scoped Variables (let/const)
 3. Рассмотрим типичные задачи с числами и строками.
 4. Template strings
@@ -17,6 +18,7 @@
 ## Терминология, которую вам необходимо знать
 - Local variable
 - Block-scoped variable
+- Function-scoped variable
 - Global variable
 - Closure
 - Hoisting
