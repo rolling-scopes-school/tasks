@@ -1,3 +1,5 @@
 ## Проекты
 ![](../images/projects.png)
-- [приложение для заметок](node/projects/notes.md)
+- [Приложение для заметок](notes.md)
+- [Приложение Таймер](timer.md)
+- [Приложение Github](github-app.md)

@@ -1,41 +1,85 @@
 ## Модуль http
-Модуль http нужен для создания http-сервера 
+В Node.js для работы с сервером и протоколом HTTP используется модуль `http`
 ```js
-const http = require("http");
+const http = require('http');
 
-const server = http.createServer((request,response) => {
-  response.end("Hello NodeJS!");
-});
+const PORT = 3000;
 
-server.listen(3000, "127.0.0.1", () => {
+const requestHandler = (request, response) => {
+    const { method, url } = request;
+    console.log(`Получен ${method}-запрос на ${url}`);
+    response.write('Hello Node.js');
+    response.end('Bye!');
+};
 
-console.log("Сервер начал прослушивание запросов на порту 3000");
+const server = http.createServer(requestHandler);
+
+server.listen(PORT, 'localhost', () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
 });
 ```  
-Рассмотрим код.  
-Получаем модуль http 
+Рассмотрим этот код.  
+Импортируем модуль `http` 
 ```js
-const http = require("http"); 
+const http = require('http');
 ```  
-Используя метод `createServer()` создаём сервер
+Используя его метод `createServer()`, создаем http-сервер:
+```js
+const requestHandler = (request, response) => {
+    const { method, url } = request;
+    console.log(`Получен ${method}-запрос на ${url}`);
+    response.write('Hello Node.js');
+    response.end('Bye!');
+};
 
-В качестве коллбек-функции данный метод получает функцию с двумя параметрами `request` и `response`
+const server = http.createServer(requestHandler);
+```
+В качестве колбэка данный метод получает функцию `requestHandler` с двумя параметрами `request` и `response` (имена могут быть любыми другими)
 - `request` хранит информацию о запросе
 - `response` отвечает за отправку ответа
 
-`response.end("Hello NodeJS!");` - ответ сервера - строка `"Hello NodeJS!"`
-
-Можно написать иначе:  
+Наш `requestHandler` выводит в консоль метод запроса и адрес запрашиваемого ресурса, а также в ответ отправляет сообщения `Hello from Node.js` и `Bye!`.  
+`response.write()` пишет в тело ответа сообщение, а `respone.end()` сообщает серверу, что заголовки и тело ответа записаны и его можно отправлять.  
+NB! `response.end()` должен завершать каждый ответ. Без этого обработка запроса "зависнет" — запрос будет получен, но не будет до конца обработан.
 ```js
-const server = http.createServer((request,response) => {  
-    response.write('text 1');
-    response.end('text 2');
-})
-```  
-В ответе будут строки, переданные через `write` и через `end`  
-В данных методах можно передать строку, которая содержит теги и инлайн стили для них. Эти теги будут обработаны браузером
+const requestHandler = (request, response) => {
+    const { method, url } = request;
+    console.log(`Получен ${method}-запрос на ${url}`);
+    response.write('Hello Node.js');
+    response.end('Bye!');
+};
+```
+Метод `listen` сервера запускает его и он начинает прослушивать определенный порт в ожидании соединений. Он имеет несколько сигнатур, в нашем случае он принимает три параметра: локальный порт, локальный адрес и колбэк-функцию, которая запускается при начале прослушивания подключений.
+```js
+server.listen(PORT, 'localhost', () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
+});
+```
+Запустите файл с кодом, откройте браузер и перейдите по адресу `localhost:3000/some/page`.
+NB! Для того, чтобы запустить сервер с другим кодом, его нужно остановить и запустить заново. Мы уже знаем, как завершить процесс Node.js. На одном порту одновременно можно запустить только один сервер.
 
-Метод `listen` слушает ответ сервера Он принимает три параметра: локальный порт, локальный адрес (без него тоже работает) и коллбек-функцию, которая запускается при начале прослушивания подключений. Сайт открывается по адресу http://localhost:3000/
+В методах `write` и `end`  можно передать строку, которая содержит HTML-теги с инлайн стилями. Эти теги будут корректно обработаны браузером
+```js
+const http = require('http');
+
+const PORT = 3000;
+
+const requestHandler = (request, response) => {
+    const { method, url } = request;
+    const heading = `<h1 style="color: red">${url} page</h1>`;
+    const content = `<div style="background-color: green; width: 100px; height: 100px">Green block 100px x 100px</div>`;
+    console.log(`Получен ${method}-запрос на ${url}`);
+    response.write(heading);
+    response.end(content);
+};
+
+const server = http.createServer(requestHandler);
+
+server.listen(PORT, 'localhost', () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
+});
+```
+Повторно зайдя на страницу `localhost:3000/some/page` мы увидим рендер разметки с инлайн стилями, полученную с сервера.
 
 ## Задание
-[Приложение GitHub](../projects/notes.md)
+[Приложение GitHub](../projects/github-app.md)
