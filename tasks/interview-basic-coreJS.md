@@ -7,7 +7,7 @@
   - Data types
   - Number methods
   - String methods
-  - RegExp, quantifiers
+  - RegExp, quantifiers `(optional)`
   - let var const - differences
   - ternary operator
   - switch case - examples, where it can be useful
@@ -16,15 +16,15 @@
 - #### Advanced Expressions
 
   - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - Strict comparison, Object.is
-  - Be able to discover difference between strict and non-strict comparison
+  - Strict comparison
+  - `Object.is` `(optional)`
   - what is polyfills
 
 - #### Function
 
   - arrow func/ func expression/ func declaration
 
-- #### Date & time
+- #### Date & time `(optional)`
 
   - Date object
   - Date methods, props
