@@ -8,7 +8,7 @@
 2. От ветки `rsschool-cv-html` создайте ветку `cv-html-css`. В эту ветку автоматически переместятся файлы c вёрсткой
 3. Проверьте соответствие вашего CV требованиям задания, самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), внесите необходимые изменения
 4. Создайте и замержите Pull Request из ветки `cv-html-css` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  Мержить данный Pull Request не нужно.
+5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  Мержить данный Pull Request не нужно. При создании Pull Request возможно возникновение git-конфликта. Его наличие не будет ошибкой, тем не менее, желательно попробовать данный конфликт решить.
 
 ## Требования к вёрстке
 
@@ -51,20 +51,39 @@ CV. Cross-Check - таск, который проверяется в ходе к
 - контакты для связи и перечень навыков оформлены в виде списка `ul > li` +10
 - CV содержит контакты для связи, краткую информацию о себе, перечень навыков, пример кода (или пример html-разметки, или ссылку на выполненный проект), информацию об образовании и уровне английского +10
 - CV выполнено на английском языке +10
-- выполнены требования к `Pull Request`: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка +10
+- выполнены требования к `Pull Request`: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка (самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) +10
+- есть видеорезюме автора CV на английском языке. Продолжительность видео 3-5 минут (±15 секунд). В описание видео на YouTube добавлена его транскрипция на английском языке +10
+
+Разница между максимальной оценкой за задание (100 баллов) и максимально возможным количеством баллов за выполнение всех пунктов требований (110 баллов) позволит сгладить возможные ошибки проверяющих в ходе кросс-чека, неточности в описании задания, разное понимание требований задания проверяющим и проверяемым.
 
 ## Cross-check
-
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
 - форма для проверки задания https://cv-cross-check.netlify.app/
 - видеоинструкция по проведению cross-check: https://youtu.be/O9qR65Juy6U
 - ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 
 ## Материалы
-
 - [Семантические теги в HTML](https://youtu.be/bQRmGxhARhc)
 - [Семантические теги HTML5](https://www.youtube.com/watch?v=_ih1xJyPk4A)
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
 - [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+
+## Примеры CV
+- https://mserykh.github.io/rsschool-cv/
+- https://kusakinvova.github.io/rsschool-cv/
+- https://petr9ra.github.io/rsschool-cv/
+- https://estydaven.github.io/rsschool-cv/
+- https://alexandrdrozdfd.github.io/rsschool-cv/
+- https://yuriandev.github.io/rsschool-cv/
+
+## Примеры видеорезюме
+- https://www.youtube.com/watch?v=3j2vEycHWhs
+- https://www.youtube.com/watch?v=a_KLPUaDi4g
+- https://www.youtube.com/watch?v=cQVWIw85OAs
+- https://www.youtube.com/watch?v=A426pZuQIUk
+- https://www.youtube.com/watch?v=8QIDUvjnbM8
+- https://www.youtube.com/watch?v=NNlEKrpeByM
+- https://www.youtube.com/watch?v=01wkFZnmflo
+- https://www.youtube.com/watch?v=CLTbVVw85hw

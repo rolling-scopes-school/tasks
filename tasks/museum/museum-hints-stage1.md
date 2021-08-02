@@ -4,11 +4,11 @@
 1. [Section Welcome. Slider](#1-section-welcome-slider)
 2. [Section Visiting. Google Street View](#2-section-visiting-google-street-view)
 3. [Section Video. Playlist](#3-section-video-playlist)
-4. [Section Gallery](#4-section-gallery)
+4. [Section Gallery. HTML](#4-section-gallery)
 5. [Section Gallery. JavaScript](#5-section-gallery-javascript)
 6. [Booking ticket form](#6-booking-ticket-form)
 7. [Parallax](#7-parallax)
-8. [JS-модули](#8-js-модули)
+8. [JS-modules](#8-js-modules)
 9. [Webpack](#9-webpack)
 
 #### 1. Section Welcome. Slider
@@ -137,18 +137,18 @@ pictureInnerContainer.innerHTML = img;
 ```
 За магию отвечает последнее из них. При прокрутке страницы фон параллакса остаётся неподвижным, благодаря чему обеспечивается интересный и необычный визуальный эффект.
 
-#### 8. JS-модули
+#### 8. JS-modules
 Особенности js-модулей рассматриваются в небольшом 10-минутном видео [Модули в JavaScript](https://youtu.be/VtEwDiC5npA)
 
 **Подключение js-модулей к проекту**.  
-Есть один общий js-файл index.js и только он один подключается к html,
+Есть один общий js-файл index.js с типом `type="module"` и только он один подключается к html:
 ```html
 <script type="module" src="index.js"></script>
 ```
 Остальные js-файлы импортируются(подключаются) в index.js.  
 Такой модульный подход будет работать только на сервере. Live Server подойдёт.  
 
-Если в подключаемом js-файле есть только одна функция, для её экспорта используем директиву `export default`
+Если в подключаемом js-файле есть только одна функция, которую нужно экспортировать, для её экспорта используем директиву `export default`
 ```js
 // gallery.js
 export default singleFn;
@@ -158,7 +158,7 @@ export default singleFn;
 // index.js
 import singleFn from './js/gallery.js';
 ```  
-Если в подключаемом js-файле много функций, перед каждой пишем директиву `export `
+Если в подключаемом js-файле много функций, которые нужно экспортировать, перед каждой пишем директиву `export `
 ```js
 // gallery.js
 export function fn1() {...} 
@@ -167,15 +167,15 @@ export function fn2() {...}
 Импорт в index.js в этом случае выглядит так
 ```js
 // index.js
-import * as manyFn from  './js/gallery.js';
+import * as galleryFn from  './js/gallery.js';
 ```  
 Использовать подключенные таким образом функции можно так
 ```js
 // index.js
-import * as manyFn from  './js/gallery.js';
+import * as galleryFn from  './js/gallery.js';
 
-manyFn.fn1();
-manyFn.fn2();
+galleryFn.fn1();
+galleryFn.fn2();
 ```
 
 #### 9. Webpack

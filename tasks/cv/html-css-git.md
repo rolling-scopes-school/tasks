@@ -60,3 +60,11 @@ HTML, CSS & Git - автопроверяемый таск.
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
 - [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+
+## Примеры CV
+- https://annavoloshina.github.io/rsschool-cv/
+- https://kryvetski-andrei.github.io/rsschool-cv/
+- https://nikita-resh.github.io/rsschool-cv/
+- https://themrcrowley.github.io/rsschool-cv/
+- https://elvinyeka.github.io/rsschool-cv/
+- https://mrks77.github.io/rsschool-cv/
