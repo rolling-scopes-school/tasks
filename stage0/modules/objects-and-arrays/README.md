@@ -21,8 +21,7 @@
 3. https://learn.javascript.ru/array-methods
 
 ## Практика 
-1. Test //TODO
-2. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/objects-arrays.md)
-3. https://github.com/rolling-scopes-school/typical-arrays-problems/
-4. https://github.com/rolling-scopes-school/reverse-int
-5. https://github.com/romacher/morse-decoder
+1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/objects-arrays.md)
+2. https://github.com/rolling-scopes-school/typical-arrays-problems/
+3. https://github.com/rolling-scopes-school/reverse-int
+4. https://github.com/romacher/morse-decoder
