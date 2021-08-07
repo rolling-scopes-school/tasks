@@ -1,6 +1,6 @@
 
 
-## React. API
+## React. Router
 
 
 
@@ -44,3 +44,7 @@
 
 
 Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
+
+## Теория
+
+https://reactrouter.com/web/guides/quick-start
