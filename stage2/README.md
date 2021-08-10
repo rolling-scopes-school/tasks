@@ -7,7 +7,7 @@
     - Подготовка студентов к прохождению технических интервью
     - Подтоговка студентов к выступлению на английском языке
     - Выполнение студентами курсового проекта
-- Время обучения: 14 недель
+- Время обучения: 12 недель
 - Формат: Cамообучение + вебинары + общение в Discord. Практические занятия проверяются и оцениваются ментором и во время кросс-чек. В ходе обучения проводятся тренировочные интервью у разных менторов.
 
 ## Программа обучения
@@ -49,30 +49,31 @@
 - [Module: WebSockets](modules/websockets/)
 
 ### Неделя #8
+- Проект. Разработка в командах 2-3 чел 
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #9
-- Проект. NodeJS/Express.js. Разработка в командах 2-3 чел
-- Module: NodeJS. In-memory CRUD REST service with validation
-- Module: NodeJS. Logging and error handling
-- [Модуль: Refactoring](modules/refactoring/)
-
-### Неделя #10
-- Проект. NodeJS/Express.js. Разработка в командах 2-3 чел 
+- Проект. Разработка в командах 2-3 чел 
 - Модуль: How Browsers Work. Rendering Flow.
       - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: SOLID](modules/solid/)
 
-### Неделя #11
+### Неделя #10
 - Проект. Разработка в командах 2-3 чел 
 
-### Неделя #12
+### Неделя #11
+- Кросс-чек 
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
-### Неделя #13. 
+### Неделя #12. 
 - Перерыв перед stage#3
 - Получение сертификата за Stage#2
+
+### Дополнительные модули (самообучение/факультатив)
+- Module: NodeJS. In-memory CRUD REST service with validation
+- Module: NodeJS. Logging and error handling
+- [Модуль: Refactoring](modules/refactoring/)
 
 
       
