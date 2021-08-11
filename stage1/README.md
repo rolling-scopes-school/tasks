@@ -13,7 +13,7 @@
     - Основы NodeJS.
     - Webpack
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
-- Время обучения: 12 недель
+- Время обучения: 11 недель
 - Формат: самообучение + вебинары + общение в Discord + задания проверяются кросс-чеком или автоматически
 
 ## Необходимые базовые знания
@@ -71,13 +71,13 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
 - [Модуль: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
 - [Модуль: Asynchronous JavaScript](modules/async/)
-- Проект Momentum
+- [Проект Momentum](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum.md)
 
 ### Неделя #9
 - Модуль: Modules in JS
 - [Модуль: Webpack](modules/webpack/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- Проект Momentum. Продолжение. 
+- [Проект Momentum. Продолжение.](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum.md) 
 
 ### Неделя #10
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
@@ -87,11 +87,6 @@
 
 ### Неделя #11
 - [Проект HTML-Builder](modules/html-builder/)
-
-### Неделя #12
-- [Модуль: Clean Code](modules/clean-code/)
-- [Модуль: Web Storage](modules/web-storage/)
-- Проект на СoreJS
 
 ## FAQ
 ### Что делать до старта обучения? 
