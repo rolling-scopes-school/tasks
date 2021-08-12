@@ -52,12 +52,12 @@
 - [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #5
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
+- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Модуль: HTML Forms & Validation](modules/html-form/)
-- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
 
 ### Неделя #6
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
 - [Модуль: DOM API](modules/dom-api/)
 - [Модуль: Events](modules/events/)
 - [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
@@ -80,10 +80,10 @@
 - [Проект Momentum. Продолжение.](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum.md) 
 
 ### Неделя #10
-- [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
 - [Git Recap](modules/git-recap/)
 - [Проект Self-introduction](modules/html-builder/)
-- [Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных](algorithms) 
+- [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
+- Тесты и задачи по CoreJS
 
 ### Неделя #11
 - [Проект HTML-Builder](modules/html-builder/)
