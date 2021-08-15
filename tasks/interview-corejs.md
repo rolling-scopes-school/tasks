@@ -11,7 +11,7 @@
 
   - Know static Object methods
   - Property flags & descriptors (student is able to set property via Object. defineProperty)
-  - Know how to create iterable objects, Symbol.iterator usage
+  - Know how to create iterable objects, Symbol.iterator usage `(optional)`
 
 - #### Object as Hash.
 
@@ -51,7 +51,7 @@
   - Be able to discover destructuring assignment concept
   - Understand variables and Function arguments destructuring assignment
   - String templates
-  - Know how `for..of` loop works
+  - Know how `for..of` loop works `(optional)`
 
 - #### Advanced Functions
 
@@ -65,11 +65,11 @@
 
 - #### Functional Patterns
 
-  - Immediately invoked functional expression `(IIFE)`
-  - Know IIFE pattern
+  - Immediately invoked functional expression `(IIFE)` `(optional)`
+  - Know IIFE pattern `(optional)`
   - Callback (Function as argument)
   - Know callback pattern
-  - Understand callback limitations (callback hell)
+  - Understand callback limitations (callback hell) `(optional)`
   - Binding, binding one function twice
   - Know how to bind `this` scope to function
   - Carrying and partial functions
@@ -77,17 +77,17 @@
 - #### Network requests
 
   - `Fetch` (with usage)
-  - `XMLHTTPRequest` (concept)
-  - `WebSocket` (concept)
+  - `XMLHTTPRequest` (concept) `(optional)`
+  - `WebSocket` (concept) `(optional)`
 
 - #### Web components
 
-  - Web components, shadow DOM (concept)
+  - Web components, shadow DOM (concept) `(optional)`
 
 - #### Date & time
 
-  - Timezones
-  - Internationalization js (Intl)
+  - Timezones `(optional)`
+  - Internationalization js (Intl) `(optional)`
 
 - #### Closures Advanced
 
@@ -116,11 +116,11 @@
   - `__proto__` property
   - Understand `__proto__` object property
   - Able to use [Object.create] and define `__proto__` explicitly
-  - Able to set / get object prototype
+  - Able to set / get object prototype 
   - `prototype` property
   - Know function `prototype` property
   - Understand dependency between function constructor `prototype` and instance `__proto__`
-  - Able to create 'class' methods using function `prototype` property
+  - Able to create 'class' methods using function `prototype` property 
 
 - #### ECMAScript Classes
 
@@ -141,16 +141,16 @@
 
   - `try..catch` statement
   - Know how to handle errors
-  - Custom errors
+  - Custom errors `(optional)`
 
 - #### ECMAScript Advanced
 
-  - Garbage collector (concept)
+  - Garbage collector (concept) `(optional)`
   - Promises
   - Promise states
   - Promise Chaining
   - Promise static methods
-  - Be able to compare promise and callback patterns
+  - Be able to compare promise and callback patterns `(optional)`
   - Be able to handle errors in promises
   - event loop
   - async/await
@@ -165,8 +165,8 @@
   - Know browser History APIconcept
   - Be able to navigate within browser history
   - Be able to use history state
-  - Navigator
-  - Know how to parse user agent
+  - Navigator `(optional)`
+  - Know how to parse user agent `(optional)`
   - Know how to discover client platform, browser
   - Cookies
 
@@ -180,7 +180,7 @@
 
   - Be able to explain difference between capturing and bubbling
   - Know Event concept
-  - Custom events
+  - Custom events `(optional)`
 
 - #### Events Propagation / Preventing
 
@@ -194,8 +194,8 @@
 - #### Timers
 
   - `clearTimeout`
-  - `requestAnimationFrame`
-  - Be able to explain difference between `setTimeout` and `requestAnimationFrame`
+  - `requestAnimationFrame` `(optional)`
+  - Be able to explain difference between `setTimeout` and `requestAnimationFrame` `(optional)`
 
 - #### Web Storage API & cookies
 
@@ -210,8 +210,8 @@
   - using interfaces with optional properties, read-only properties, etc...
   - creating custom types.
   - function types.
-  - utitily types
-  - typeguards
+  - utitily types `(optional)`
+  - typeguards `(optional)`
   - generic types (concept)
 
 ### Design patterns:
@@ -220,18 +220,18 @@
 
   - design patterns used on his project, and able to compare these patterns
   - KISS, DRY, YAGNI
-  - The meaning behind SOLID principles.
+  - The meaning behind SOLID principles. 
 
-### Web Communication Protocols:
+### Web Communication Protocols: `(optional)`
 
 - #### HTTP vs HTTPS vs HTTP/2
-- #### RESTful API
+- #### RESTful API 
 - #### HTTP methods
 - #### HTTP status codes groups
 
 ### Common web-security knowledge `(optional)`
 
-- #### Basic understanding of most common security terms (CORS, XSS)
+- #### Basic understanding of most common security terms (CORS, XSS) `(optional)`
 
   - XSS
   - CORS
