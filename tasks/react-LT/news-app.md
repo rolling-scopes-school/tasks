@@ -1,9 +1,9 @@
-#News App
+# News App
 
 ## Prerequisites
 1. Create a new branch named *news-app* in **your private RS** Github account and upload your solution.
 
-##Description
+## Description
 In this task you're going to create a news app. This aplication should use open API https://newsapi.org/ (pay attention that with every request you need to send API key, you can get in on the homwe page of the API, you'll just need to sign up).
 
 **Features:**
@@ -22,9 +22,11 @@ In this task you're going to create a news app. This aplication should use open 
 9.	*Optional task*: When user scrolls down and reaches last article that was loaded, new chank of  artickles should be loaded and added to the and of the list. It should allow user to load additionally up to 100 articles.
 
 
-##Details:
+## Details:
 [Example_1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react-LT/images/Example-1.png)
+
 [Example_2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react-LT/images/Example-2.png)
+
 
 •	Page shouldn't reload when user is clicking your news app links 
 
