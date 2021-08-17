@@ -8,18 +8,22 @@ In this task you're going to create a news app. This aplication should use open 
 
 **Features:**
 1.	 App should have **3 pages**:
-	 / - home page with the list of news from newest to oldest (up to 20)
-	/:id - article page
-	/404 - for not defined routes
+	 
+		 / - home page with the list of news from newest to oldest (up to 20)
+
+		 /:id - article page
+		 
+		 /404 page should tell user that page they’re trying to visit doesn’t exist and show 404 status with some description.
 	
-2.	Article preview should have **Picture, Title, Source, Date of publication, Description** of the article, link Read more. If no picture was returned from API, placeholder should be displayed instead.
+	
+2.	Article preview should have **Picture, Title, Source, Date of publication, Description** of the article, link **Read more**. If no picture was returned from API, placeholder should be displayed instead.
 3.	**Clicking on the link "Read more"** on the article preview, user goes to it's page and can read full article. It should have picture, source, full article text, date of publication, link to return back on the home page
 4.	If user goes to the route that doesn't exist, they should be redirected to /404.
 5.	User should be able to **filter news by source**, it can be a dropdown with a list of all available sources (additionallt you can add a search bar in the dropdown, but it is not nesessery).
 6.	User should be able to **search for a specific article** in selected source (by title).
 7.	While articles are loading, **spinner** should be displayed.
 8.	If there are no articles that match request, according **message should be shown**.
-9.	*Optional task*: When user scrolls down and reaches last article that was loaded, new chank of  artickles should be loaded and added to the and of the list. It should allow user to load additionally up to 100 articles.
+9.	*Optional task*: When user scrolls down and reaches last article that was loaded, new chank of artickles should be loaded and added to the end of the list. It should allow user to load additionally up to 100 articles.
 
 
 ## Details:
