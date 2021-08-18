@@ -32,11 +32,14 @@ In this task you're going to create a news app. This aplication should use open 
 [Example_2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react-LT/images/Example-2.png)
 
 
-•	Page shouldn't reload when user is clicking your news app links 
+•	Page shouldn't reload when user is clicking your news app links. If user decides to share link on an article to someone, link he copies from your app should always lead to an article, not be redirected to the homepage 
 
 •	At least minimum styling should be added to your aplication. Pages should be responsive and look good on mobile (min possible width - 320px). Page should not stratch to the full width of the device (if it's big, like TV for example), max width of the page content is 1400px. Example of the design will be attached for your inspo. Pay attention that sources on the design wasn't implemented like dropdown. You don't have to do as on the design.
 
 •	If some error happened during Component render, it should be handeled by ErrorBoundary that should show error details
+
+
+• 	Please use PropTypes library to typing props
 
 •	Use Redux for state management (it is recomended to start your app without it and only when all your Components are in place, add Redux state management). Please separate different Redux instances in different files (example will be provided below, folder store)
 
