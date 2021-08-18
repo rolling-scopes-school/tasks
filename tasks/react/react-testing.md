@@ -43,11 +43,15 @@
 ## Теория
 
 https://www.xenonstack.com/insights/what-is-unit-testing
+
 https://www.youtube.com/watch?v=D9DdY2WmM-s
+
 https://www.youtube.com/watch?v=b3VJVwQzw_Q
 
 https://jestjs.io/ru/
+
 https://testing-library.com/docs/react-testing-library/intro/
+
 https://enzymejs.github.io/enzyme/
 
 Одна из важнейших фигур в тестировании react приложений на данный момент, поэтому его блог must to read: https://kentcdodds.com/blog/
