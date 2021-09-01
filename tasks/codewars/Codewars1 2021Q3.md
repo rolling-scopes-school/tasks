@@ -66,4 +66,10 @@ Total: 1 * 8 + 4 * 14 + 5 * 2 + 8 * 1  = 82
 
 ## Материалы
 
-ToDo: Добавить материалы
+- [Строки](https://learn.javascript.ru/string)
+- [Массивы](https://learn.javascript.ru/array)
+- [Функции](https://learn.javascript.ru/function-basics)
+- [Продвинутая работа с функциями](https://learn.javascript.ru/advanced-functions)
+- [Объекты](https://learn.javascript.ru/object-basics)
+- [Дата и время](https://learn.javascript.ru/date)
+- [Все что нужно знать о древовидных структурах данных](https://medium.com/nuances-of-programming/%D0%B2%D1%81%D0%B5-%D1%87%D1%82%D0%BE-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D1%8C-%D0%BE-%D0%B4%D1%80%D0%B5%D0%B2%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D1%85-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-d750444a77ec)
