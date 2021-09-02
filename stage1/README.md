@@ -37,31 +37,31 @@
 
 ### Неделя #3
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv) 
-- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-postioning/)
+- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](../stage0/modules/figma/)
-- [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
+- [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](modules/project-virtual-museum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](../tasks/museum/museum-stage1.md)
 - [Модуль: Responsive Web Design](modules/responsive-web-design/)
 - [Модуль: Медиазапросы](modules/media-queries/)
 - [Модуль: Верстка адаптивного макета](modules/markup-livecoding/)
-- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
+- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](modules/project-virtual-museum)
-- [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](../tasks/museum/museum-adaptive.md)
+- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Модуль: HTML Forms & Validation](modules/html-form/)
 
 ### Неделя #6
-- [Проект "Virtual Museum. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/museum)
+- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Модуль: DOM API](modules/dom-api/)
 - [Модуль: Events](modules/events/)
 
 ### Неделя #7
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. DOM & Browser API"](modules/project-virtual-museum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [CodeJam 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 - [Модуль: Event Loop & Animation](modules/eventloop-animation/)
@@ -71,17 +71,17 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
 - [Модуль: Asynchronous JavaScript](modules/async/)
-- [Проект Momentum](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum.md)
+- [Проект Momentum](../tasks/momentum/momentum-stage1.md)
 
 ### Неделя #9
 - [Модуль: Modules in JS](modules/modules-in-js/)
 - [Модуль: Webpack](modules/webpack/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект Momentum. Продолжение.](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum.md) 
+- [Проект Momentum. Продолжение.](../tasks/momentum/momentum-stage1.md) 
 
 ### Неделя #10
 - [Git Recap](modules/git-recap/)
-- [Проект Self-introduction](modules/html-builder/)
+- [Проект Self-introduction](modules/self-introduction/)
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
 - Тесты и задачи по CoreJS
 
@@ -90,7 +90,7 @@
 
 ## FAQ
 ### Что делать до старта обучения? 
-1. Выполнить задания и тесты [подготовительного курса](stage0/)
+1. Выполнить задания и тесты [подготовительного курса](../stage0/)
 2. Пойти на курсы английского языка до получения уровня Pre-Intermediate (Минимум A2).
 3. Читать https://learn.javascript.ru/
 
