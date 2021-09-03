@@ -42,13 +42,7 @@
 - https://kirilknysh.github.io/js-classes-talk/#/
 
 ## Практика 
-// TODO Обновить задачи @natein
-```js
-http://www.codewars.com/kata/santaclausable-interface
-http://www.codewars.com/kata/new-with-apply
-http://www.codewars.com/kata/extract-nested-object-reference
-http://www.codewars.com/kata/array-helpers
-```
+[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars2-2021Q3.md)
 
 ## Дополнительные материалы
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
