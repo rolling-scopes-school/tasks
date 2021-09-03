@@ -45,25 +45,25 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](../stage0/modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
+- [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. Part#1"](../tasks/museum/museum-stage1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#1"](../tasks/museum/museum-stage1.md)
 - [Модуль: "Responsive Web Design"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
 - [Модуль: "Вёрстка адаптивного макета"](modules/markup-livecoding/)
-- [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
+- [Проект: "Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. Part#2"](../tasks/museum/museum-adaptive.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
