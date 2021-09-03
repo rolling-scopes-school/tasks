@@ -19,9 +19,9 @@
 - смотреть https://www.youtube.com/watch?v=Jnf--72z8bs [Слайды](https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/edit)
 
 ## Практика 
-// TODO Указать актуальные название теста (@pavelrazuvalau) и задач (@natein) 
+// TODO Указать актуальные название теста (@pavelrazuvalau)
 1. Вам необходимо пройти тест "JS Basics" в RS APP > Auto Test
-2. Задачи на Codewars
+2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2021Q3.md)
 
 ## Дополнительные материалы
 - https://exploringjs.com/impatient-js/toc.html
