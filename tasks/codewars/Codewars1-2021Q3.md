@@ -3,9 +3,16 @@
 ## Numbers, strings
 
 * 7 kyu https://www.codewars.com/kata/absent-vowel 
+* 7 kyu https://www.codewars.com/kata/get-the-middle-character
+* 7 kyu https://www.codewars.com/kata/highest-and-lowest
+* 7 kyu https://www.codewars.com/kata/jaden-casing-strings
+* 7 kyu https://www.codewars.com/kata/disemvowel-trolls
+* 7 kyu https://www.codewars.com/kata/isograms
+* 7 kyu https://www.codewars.com/kata/nickname-generator
+* 7 kyu https://www.codewars.com/kata/digits-explosion
 * 6 kyu https://www.codewars.com/kata/handshake-problem 
 * 6 kyu https://www.codewars.com/kata/reverse-or-rotate 
-* 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5 
+* 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5* 
 
 ## Arrays
 
@@ -54,14 +61,14 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 7 kyu and Beta tasks (8 tasks at all)
+*  1 point for 7 kyu and Beta tasks (16 tasks at all)
 *  4 points - 6 kyu (14 at all)
 *  5 points - 5 kyu (2 at all)
 *  8 points - 4 kyu (1 at all)
 
-Total: 1 * 8 + 4 * 14 + 5 * 2 + 8 * 1  = 82
+Total: 1 * 16 + 4 * 14 + 5 * 2 + 8 * 1  = 90
 
-**Total sum - 82 points.**
+**Total sum - 90 points.**
 
 
 ## Материалы
