@@ -11,6 +11,7 @@
     - Основы NodeJS.
     - Webpack
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
+    - Проект ArtQuiz.
 - Время обучения: 11 недель
 - Формат: самообучение + вебинары + общение в Discord + задания проверяются кросс-чеком или автоматически
 
@@ -28,65 +29,73 @@
 - [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
+- [Модуль "Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
+- [Модуль "Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #2
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/)
 - Проверка уровня базовых знаний. Тесты и задачи по темам подготовительного этапа
-- [Модуль "Проект CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv)
+- [Модуль "Проект CV"](../tasks/cv/cv.md)
+- [Модуль "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
 
 ### Неделя #3
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](../stage0/modules/figma/)
+- [Модуль: CSS Preprocessors. Sass](modules/sass/)
 - [Проект "Virtual Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#1"](../tasks/museum/museum-stage1.md)
-- [Модуль: Responsive Web Design](modules/responsive-web-design/)
-- [Модуль: Медиазапросы](modules/media-queries/)
-- [Модуль: Верстка адаптивного макета](modules/markup-livecoding/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. Part#1"](../tasks/museum/museum-stage1.md)
+- [Модуль: "Responsive Web Design"](modules/responsive-web-design/)
+- [Модуль: "Медиазапросы"](modules/media-queries/)
+- [Модуль: "Вёрстка адаптивного макета"](modules/markup-livecoding/)
 - [Проект: "Virtual Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [Virtual Museum. Part#2"](../tasks/museum/museum-adaptive.md)
-- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. Part#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
-- [Модуль: HTML Forms & Validation](modules/html-form/)
+- [Модуль: "HTML Forms & Validation"](modules/html-form/)
+- [Модуль: "DOM API"](modules/dom-api/)
+- [Модуль: "Events"](modules/events/)
+- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
-- [Проект "Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
-- [Модуль: DOM API](modules/dom-api/)
-- [Модуль: Events](modules/events/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
+- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
+- [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
+- [Модуль "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
 
 ### Неделя #7
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Virtual Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
-- [CodeJam 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
-- [Модуль: Event Loop & Animation](modules/eventloop-animation/)
-- [Модуль: Chrome DevTools](modules/chrome-devtools/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
+- [Модуль: "Modules in JS"](modules/modules-in-js/)
+- [Модуль: "Webpack"](modules/webpack/)
+- [Модуль: "Asynchronous JavaScript"](modules/async/)
+- [Проект "Momentum"](../tasks/momentum/momentum-stage1.md)
 
 ### Неделя #8
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
-- [Модуль: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
-- [Модуль: Asynchronous JavaScript](modules/async/)
-- [Проект Momentum](../tasks/momentum/momentum-stage1.md)
-
-### Неделя #9
-- [Модуль: Modules in JS](modules/modules-in-js/)
-- [Модуль: Webpack](modules/webpack/)
-- [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект Momentum. Продолжение.](../tasks/momentum/momentum-stage1.md) 
-
-### Неделя #10
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
 - [Git Recap](modules/git-recap/)
-- [Проект Self-introduction](modules/self-introduction/)
+- [Проект "Self-introduction"](modules/self-introduction/)
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
 - Тесты и задачи по CoreJS
 
+### Неделя #9
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
+- [Модуль: "Node.js"](modules/node-materials/)
+- [Проект "HTML-Builder"](modules/html-builder/)
+
+### Неделя #10
+- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+
 ### Неделя #11
-- [Проект HTML-Builder](modules/html-builder/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- Подготовка к собеседованию с ментором
 
 ## FAQ
 ### Что делать до старта обучения? 
