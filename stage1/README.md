@@ -29,15 +29,16 @@
 - [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
-- [Модуль "Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
-- [Модуль "Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
+- ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
+- ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #2
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
-- [Модуль: "JavaScript. Область видимости и функции](modules/functions/)
+- [Модуль: "JavaScript. Область видимости и функции](modules/functions/)- 
+- [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - Проверка уровня базовых знаний. Тесты и задачи по темам подготовительного этапа
-- [Модуль "Проект CV"](../tasks/cv/cv.md)
-- [Модуль "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
+- ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
+- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
 
 ### Неделя #3
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
@@ -56,7 +57,6 @@
 
 ### Неделя #5
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#2"](../tasks/museum/museum-adaptive.md)
-- [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
@@ -66,9 +66,8 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- [Модуль "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
+- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
 
 ### Неделя #7
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
@@ -90,7 +89,8 @@
 - [Проект "HTML-Builder"](modules/html-builder/)
 
 ### Неделя #10
-- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)- 
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #11
