@@ -24,7 +24,7 @@
 
 <kbd>[![screenshot](../images/museum1-prev.jpg)](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/museum1.jpg)</kbd>
 
-[Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/8HKh13WNQ8TT9WI3BBSl5M/Museum-11.08)  
+[Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
 [Советы по выполнению задания. Часть 1](museum-hints.md)  
 [Советы по выполнению задания. Часть 2](museum-hints-stage1.md)  
 [Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)  
