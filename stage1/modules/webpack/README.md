@@ -47,7 +47,8 @@
 ## Теория 
 // TODO Актуализировать список необходимой теории
 // Добавить инстурукцию по готовой webpack сборке
-- https://youtu.be/ssORHjHHCzU
+- лекция по Webpack и введение в SPA (2017г) https://youtu.be/ssORHjHHCzU
+- разбор конфига + настройка Webpack 5 + typescript + scss/sass + eslint (2021г) https://youtu.be/bozzyi8Tok0
 
 ## Практика 
 // TODO RS APP TEST
