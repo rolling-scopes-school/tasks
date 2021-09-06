@@ -45,8 +45,8 @@
 4 часа
 
 ## Теория 
-// TODO Актуализировать список необходимой теории
-// Добавить инстурукцию по готовой webpack сборке
+// TODO: Добавить инстурукцию по готовой webpack сборке
+- официальная документация с подробными инструкциями - https://webpack.js.org/
 - лекция по Webpack и введение в SPA (2017г) https://youtu.be/ssORHjHHCzU
 - разбор конфига + настройка Webpack 5 + typescript + scss/sass + eslint (2021г) https://youtu.be/bozzyi8Tok0
 
