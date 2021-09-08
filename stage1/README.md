@@ -10,8 +10,9 @@
     - Проект Momentum.
     - Основы NodeJS.
     - Webpack
+    - Проект ArtQuiz
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
-    - Проект ArtQuiz.
+
 - Время обучения: 11 недель
 - Формат: самообучение + вебинары + общение в Discord + задания проверяются кросс-чеком или автоматически
 
@@ -37,8 +38,8 @@
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/)- 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - Проверка уровня базовых знаний. Тесты и задачи по темам подготовительного этапа
-- ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
 - [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
+- ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
 
 ### Неделя #3
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
@@ -64,10 +65,10 @@
 
 ### Неделя #6
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
-- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS  
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
+- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
+- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
 
 ### Неделя #7
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
@@ -78,10 +79,10 @@
 
 ### Неделя #8
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
-- [Git Recap](modules/git-recap/)
-- [Проект "Self-introduction"](modules/self-introduction/)
+- [Модуль: Git Recap](modules/git-recap/)
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
 - Тесты и задачи по CoreJS
+- [Проект "Self-introduction"](modules/self-introduction/)
 
 ### Неделя #9
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
@@ -89,6 +90,7 @@
 - [Проект "HTML-Builder"](modules/html-builder/)
 
 ### Неделя #10
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)- 
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
