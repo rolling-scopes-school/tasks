@@ -11,7 +11,7 @@ In this task you're going to create a news app. This aplication should use open 
 	 
 		 / - home page with the list of news from newest to oldest (up to 20)
 
-		 /:id - article page
+		 /article/:id - article page
 		 
 		 /404 page should tell user that page they’re trying to visit doesn’t exist and show 404 status with some description.
 	
