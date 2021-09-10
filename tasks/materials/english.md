@@ -44,6 +44,7 @@
 - [Duolingo](https://ru.duolingo.com/)
 - [Lingualeo](https://lingualeo.com/ru)
 - [Babadum](https://babadum.com/)
+- [Busuu](https://www.busuu.com/ru)
 
 ### Видеокурсы
 - [Полиглот английский. Сокращённый курс](https://www.youtube.com/playlist?list=PL66DIGaegedqVBwaauzKVk7DNqIFaXrN_)
