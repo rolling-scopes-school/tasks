@@ -45,17 +45,14 @@
 4 часа
 
 ## Теория 
-// TODO: Добавить инстурукцию по готовой webpack сборке
 - официальная документация с подробными инструкциями - https://webpack.js.org/
 - лекция по Webpack и введение в SPA (2017г) https://youtu.be/ssORHjHHCzU
-- разбор конфига + настройка Webpack 5 + typescript + scss/sass + eslint (2021г) https://youtu.be/bozzyi8Tok0
+- // TODO: Добавить инстурукцию по готовой webpack сборке
 
 ## Практика 
-// TODO RS APP TEST
+Пройти тест в RS App - Test Webpack Basics [RU]
 
 ## Дополнительные материалы
-//TODO Актуализировать содержание 
 1. [Webpack 4 - простая сборка проекта](https://www.youtube.com/watch?v=MRlBKfGktwI&feature=youtu.be) - 2 часа
 2. [Webpack. Полный курс 2020](https://www.youtube.com/watch?v=eSaF8NXeNsA&feature=youtu.be) - 3 часа
-
-
+3. [Разбор конфига + настройка Webpack 5 + typescript + scss/sass + eslint](https://youtu.be/bozzyi8Tok0) - 2 часа
