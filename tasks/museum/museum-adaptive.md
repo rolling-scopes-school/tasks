@@ -155,6 +155,7 @@
 ## Проверка задания
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для кросс-чека https://museum-adaptive-cross-check.netlify.app/
 
 ## Материалы
 - [Верстка сайта с нуля для начинающих | Адаптивная верстка](https://youtu.be/rc5Iauhat8s)

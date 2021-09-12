@@ -179,7 +179,7 @@
 ## Проверка задания
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-<!-- - форма для кросс-чека https://museum-stage0-cross-check.netlify.app/ -->
+- форма для кросс-чека https://museum-cross-check.netlify.app/
 
 ## Материалы
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)

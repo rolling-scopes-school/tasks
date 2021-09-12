@@ -145,6 +145,7 @@
 ## Проверка задания
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для кросс-чека https://museum-dom-cross-check.netlify.app/
 
 ## Материалы
 1. Качество кода

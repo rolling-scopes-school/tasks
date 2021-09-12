@@ -28,7 +28,7 @@
 
 [Макет Museum](https://www.figma.com/file/7dI6mXBFTdTvXxuhZZTt5h/Museum)  
 [Советы по выполнению задания](museum-hints.md)  
-[Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)  
+<!-- [Видео с обзором задания](https://youtu.be/OF9zQ0jRx4E)   -->
 [Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)
 
 ## Создание собственной копии макета:
@@ -146,7 +146,7 @@
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
 - форма для кросс-чека https://museum-stage0-cross-check.netlify.app/
-- видеоинструкция по проведению cross-check: https://youtu.be/jO6nHzAkOMs
+<!-- - видеоинструкция по проведению cross-check: https://youtu.be/jO6nHzAkOMs -->
 
 ## Материалы
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
