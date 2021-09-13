@@ -24,14 +24,13 @@
 
 <kbd>[![screenshot](../images/museum1-prev.jpg)](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/museum1.jpg)</kbd>
 
-[Макет Museum – редактируется и дорабатывается](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
+[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
 [Советы по выполнению задания. Часть 1](museum-hints.md)  
 [Советы по выполнению задания. Часть 2](museum-hints-stage1.md)  
 [Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)  
 [Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)  
 
 ## Создание собственной копии макета:
-- *Делайте копию только на момент выдачи таска. До этого момента в макет могут вноситься правки*
 - авторизуемся в Фигме
 - открываем макет
 - нажимаем на стрелку рядом с названием макета на панели вверху, выбираем пункт "Duplicate to your drafts"

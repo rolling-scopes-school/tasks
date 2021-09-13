@@ -15,7 +15,7 @@
 - Подготовка к собеседованию с ментором
 - [Модуль: Clean Code](modules/clean-code/)
 - [Модуль: Web Storage](modules/web-storage/)
-- Проект на СoreJS
+- Проект на СoreJS (Доработка Art-quiz)
 
 ### Неделя #2
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
