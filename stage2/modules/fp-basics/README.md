@@ -1,4 +1,4 @@
-# [Stage#1.](../../) JavaScript. The Functional Parts
+# [Stage#2.](../../) JavaScript. The Functional Parts
 ## В данном модуле студентам необходимо изучить:
 - Pure functions
 - Immutability
