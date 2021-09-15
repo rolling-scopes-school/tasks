@@ -97,7 +97,7 @@ Add server-side validation for create/update operations of User entity:
 ### PREREQUISITES:
 The task is a continuation of Task_2 and should be done in the same repo.
 
-### TASK 3.1i
+### TASK 3.1
 Add express middleware which will log which service method has been invoked and which arguments have been passed to it.
 
 ### TASK 3.2
