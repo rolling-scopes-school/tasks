@@ -40,6 +40,4 @@
 - [Видео лекция по Chrome DevTools](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1,5 часа
 
 ## Практика 
-// TODO Указать актуальные название теста (@pavelrazuvalau) 
-// 1. Вам необходимо пройти тест "Chrome DevTools" в RS APP > Auto Test
-
+1. Вам необходимо пройти тест "DevTools Test" в RS APP > Auto Test

@@ -34,7 +34,6 @@ Scope
     - https://kirilknysh.github.io/js-functions-talk/#/
 
 ## Практика 
-// TODO Указать актуальные название теста (@pavelrazuvalau)
 1. Вам необходимо пройти тест "JS Scope & Functions" в RS APP > Auto Test
 2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2021Q3.md)
 
