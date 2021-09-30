@@ -25,10 +25,10 @@
 - [Собеседование с ментором](modules/technical-screening.md)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта на СoreJS
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- Module: TypeScript: Basic
+- [Module: TypeScript: Basic](modules/typescript-basic/)
 
 ### Неделя #4
-- Модуль: Typescript: Advanced.
+- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Testing](modules/testing/)
 - Проект на TS + unit tests
 
