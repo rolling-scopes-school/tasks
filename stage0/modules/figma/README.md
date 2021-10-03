@@ -11,6 +11,9 @@
 ## Теория 
 1. [Figma с нуля](https://www.youtube.com/watch?v=z6mlqOGmjQQ&feature=youtu.be) (3.5 часов)
 
+## Практика
+1.  Вам необходимо пройти тест "Figma Test" в RS APP > Auto Test
+
 ## Дополнительные материалы
 - https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika
 

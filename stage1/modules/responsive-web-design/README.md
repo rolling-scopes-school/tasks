@@ -11,7 +11,6 @@
 2. https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
 
 ## Практика 
-
+1. Вам необходимо пройти тест "Media Queries & Responsive" в RS APP > Auto Test
 
 ## Дополнительные материалы
-
