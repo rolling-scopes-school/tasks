@@ -18,15 +18,15 @@
 - Проект Art-quiz. Доработка
 
 ### Неделя #2. 30/11/2021
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта Art-quiz
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
-- Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
+- Проект по миграции JS проекта на TS
 
 ### Неделя #3. 07/12/2021
 - [Собеседование с ментором](modules/technical-screening.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта на СoreJS
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Module: TypeScript: Basic](modules/typescript-basic/)
+- Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #4. 14/12/2021
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
@@ -35,6 +35,7 @@
 
 ### Неделя #5. 21/12/2021
 - Проект на TS + unit tests.  
+- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - Модуль: JavaScript: Client - Server interaction overview
 - [Модуль: Async programming](modules/async/)
 
@@ -81,11 +82,3 @@
 - Module: NodeJS. In-memory CRUD REST service with validation
 - Module: NodeJS. Logging and error handling
 - [Модуль: Refactoring](modules/refactoring/)
-
-
-      
-
-
-
-
-
