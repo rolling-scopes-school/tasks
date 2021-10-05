@@ -15,11 +15,11 @@
 - Подготовка к собеседованию с ментором
 - [Модуль: Clean Code](modules/clean-code/)
 - [Модуль: Web Storage](modules/web-storage/)
-- Проект на СoreJS (Доработка Art-quiz)
+- Проект Art-quiz. Доработка
 
 ### Неделя #2. 30/11/2021
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-- Проект на СoreJS
+- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #3. 07/12/2021
@@ -31,10 +31,10 @@
 ### Неделя #4. 14/12/2021
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Testing](modules/testing/)
-- Проект на TS + unit tests
+- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 
 ### Неделя #5. 21/12/2021
-- Проект на TS + unit tests. Продолжение 
+- Проект на TS + unit tests.  
 - Модуль: JavaScript: Client - Server interaction overview
 - [Модуль: Async programming](modules/async/)
 
