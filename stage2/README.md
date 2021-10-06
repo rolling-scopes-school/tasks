@@ -36,7 +36,7 @@
 ### Неделя #5. 21/12/2021
 - Проект на TS + unit tests.  
 - [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
-- Модуль: JavaScript: Client - Server interaction overview
+- [Модуль: Client - Server interaction overview](modules/client-server/)
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
