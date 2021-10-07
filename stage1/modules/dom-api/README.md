@@ -19,4 +19,4 @@
 ## Практика 
 // TODO Обновить описание @DimaBLR
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md
-
+1. Вам необходимо пройти тест "DOM Api" в RS APP > Auto Test
