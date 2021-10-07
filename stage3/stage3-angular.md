@@ -382,13 +382,13 @@
 
 ## Модуль #10. Финальное задание.
 
-[Shop]()
+[Shop](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/Angular-shop)
 
 # Неделя 8
 
 ## Модуль #11. Проверка финального задания 
 
-### [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания [Shop]()
+### [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания [Shop](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/Angular-shop)
 
 # Дополнительная информация
 ## Сертификат  
