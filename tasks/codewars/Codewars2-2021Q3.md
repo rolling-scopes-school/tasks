@@ -26,7 +26,7 @@
 * 6 kyu http://www.codewars.com/kata/patterncraft-state/
 * 6 kyu http://www.codewars.com/kata/patterncraft-strategy/
 * 6 kyu http://www.codewars.com/kata/patterncraft-decorator/
-* Beta  https://www.codewars.com/kata/design-patterns-observer-pattern-for-the-runway-status-at-an-airport
+* Beta  https://www.codewars.com/kata/custom-observable-class-with-map-and-filter-operators-support
 * 6 kyu https://www.codewars.com/kata/extract-nested-object-reference 
 * 6 kyu https://www.codewars.com/kata/image-host-filename-generator
 * 5 kyu https://www.codewars.com/kata/replicate-new 
