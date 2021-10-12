@@ -15,12 +15,14 @@
 - Подготовка к собеседованию с ментором
 - [Модуль: Clean Code](modules/clean-code/)
 - [Модуль: Web Storage](modules/web-storage/)
-- Проект Art-quiz. Доработка
+- ~~Проект Art-quiz. Доработка~~
+- https://github.com/mikhama/core-js-101
 
 ### Неделя #2. 30/11/2021
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта Art-quiz
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Проект по миграции JS проекта на TS
+
 
 ### Неделя #3. 07/12/2021
 - [Собеседование с ментором](modules/technical-screening.md)
@@ -77,8 +79,3 @@
 ### Неделя #13. 01/03/2022 
 - Перерыв перед stage#3
 - Получение сертификата за Stage#2
-
-### Дополнительные модули (самообучение/факультатив)
-- Module: NodeJS. In-memory CRUD REST service with validation
-- Module: NodeJS. Logging and error handling
-- [Модуль: Refactoring](modules/refactoring/)
