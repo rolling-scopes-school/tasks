@@ -18,7 +18,7 @@
 
 - [Demo](https://momentum-2021q3.netlify.app/)
 - [Файлы с вёрсткой](https://github.com/rolling-scopes-school/stage1-tasks/tree/momentum)
-- 
+
 #### Советы по выполнению задания
 - [0. Организация работы](momentum-hints.md)
 - [1. Часы и календарь](momentum-time.md)
