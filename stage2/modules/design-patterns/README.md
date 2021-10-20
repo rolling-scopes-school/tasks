@@ -4,3 +4,4 @@
 - Factory
 - Mediator
 - Observer
+- dependency injection
