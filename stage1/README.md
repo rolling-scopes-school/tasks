@@ -81,7 +81,6 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
 - [Модуль: Git Recap](modules/git-recap/)
 - [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
-- Тесты и задачи по CoreJS
 - [Проект "Self-introduction"](modules/self-introduction/)
 
 ### Неделя #9
