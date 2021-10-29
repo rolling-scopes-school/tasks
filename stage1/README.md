@@ -96,7 +96,7 @@
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #11
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 - Подготовка к собеседованию с ментором
 
 ## FAQ
