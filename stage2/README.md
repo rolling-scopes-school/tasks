@@ -42,7 +42,6 @@
 
 ### Неделя #5. 21/12/2021
 
-- Проект на TS + unit tests.
 - [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - Модуль: JavaScript: Client - Server interaction overview
 - [Модуль: Async programming](modules/async/)
