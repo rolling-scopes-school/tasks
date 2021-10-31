@@ -26,7 +26,7 @@
 
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Проект по миграции JS проекта на TS
-- Подготовка к собеседованию с ментором
+- [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #3. 07/12/2021
 
