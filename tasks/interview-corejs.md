@@ -116,7 +116,7 @@
   - `__proto__` property
   - Understand `__proto__` object property
   - Able to use [Object.create] and define `__proto__` explicitly
-  - Able to set / get object prototype 
+  - Able to set / get object prototype `(optional)`
   - `prototype` property
   - Know function `prototype` property
   - Understand dependency between function constructor `prototype` and instance `__proto__`
@@ -164,7 +164,7 @@
   - History API (Global object window)
   - Know browser History APIconcept
   - Be able to navigate within browser history
-  - Be able to use history state
+  - Be able to use history state `(optional)`
   - Navigator `(optional)`
   - Know how to parse user agent `(optional)`
   - Know how to discover client platform, browser
@@ -209,6 +209,7 @@
   - describing variables with primitive data types.
   - using interfaces with optional properties, read-only properties, etc...
   - creating custom types.
+  - types/interface differences `(optional)`
   - function types.
   - utitily types `(optional)`
   - typeguards `(optional)`
@@ -218,7 +219,7 @@
 
 - #### Intermediate knowledge of patterns and best practices:
 
-  - design patterns used on his project, and able to compare these patterns
+  - design patterns used on his project, and able to compare these patterns `(optional)`
   - KISS, DRY, YAGNI
   - The meaning behind SOLID principles. 
 
