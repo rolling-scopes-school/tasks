@@ -19,13 +19,14 @@
 - [Подготовка к собеседованию с ментором](modules/technical-screening/)
 - [Модуль: Clean Code](modules/clean-code/)
 - [Модуль: Web Storage](modules/web-storage/)
-- https://github.com/mikhama/core-js-101
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта Art-quiz
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- Подготовка к собеседованию с ментором
 
 ### Неделя #2. 30/11/2021
 
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Проект по миграции JS проекта на TS
+- Подготовка к собеседованию с ментором
 
 ### Неделя #3. 07/12/2021
 
@@ -47,6 +48,7 @@
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
+- https://github.com/mikhama/core-js-101
 
 ### Неделя #6. 11/01/2022
 
@@ -63,8 +65,6 @@
 
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - Модуль: SCRUM, Kanban
-- Модуль: Nodejs. Express.js
-- [Module: WebSockets](modules/websockets/)
 
 ### Неделя #9. 01/02/2022
 
