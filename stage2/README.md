@@ -18,26 +18,24 @@
 
 - [Подготовка к собеседованию с ментором](modules/technical-screening/)
 - [Модуль: Clean Code](modules/clean-code/)
-- [Модуль: Web Storage](modules/web-storage/)
+- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
-- Подготовка к собеседованию с ментором
 
 ### Неделя #2. 30/11/2021
 
-- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Проект по миграции JS проекта на TS
+- [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #3. 07/12/2021
 
 - [Собеседование с ментором](modules/technical-screening/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Module: TypeScript: Basic](modules/typescript-basic/)
+- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #4. 14/12/2021
 
-- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Testing](modules/testing/)
 - [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 
