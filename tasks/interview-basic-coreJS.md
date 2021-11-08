@@ -7,7 +7,6 @@
   - Data types
   - Number methods
   - String methods
-  - RegExp, quantifiers `(optional)`
   - let var const - differences
   - ternary operator
   - switch case - examples, where it can be useful

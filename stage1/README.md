@@ -97,6 +97,7 @@
 
 ### Неделя #11
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Модуль: Web Storage](modules/web-storage/)
 - Подготовка к собеседованию с ментором
 
 ## FAQ
