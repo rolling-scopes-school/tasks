@@ -18,20 +18,19 @@
 
 - [Подготовка к собеседованию с ментором](modules/technical-screening/)
 - [Модуль: Clean Code](modules/clean-code/)
-- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
+- [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #2. 30/11/2021
 
 - Проект по миграции JS проекта на TS
-- [Module: TypeScript: Basic](modules/typescript-basic/)
+- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #3. 07/12/2021
 
 - [Собеседование с ментором](modules/technical-screening/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #4. 14/12/2021
@@ -62,6 +61,7 @@
 ### Неделя #8. 25/01/2022
 
 - [Проект: Presentation. Recorded & Online](modules/presentation)
+- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Модуль: SCRUM, Kanban
 
 ### Неделя #9. 01/02/2022
