@@ -20,6 +20,7 @@
 - [Модуль: Clean Code](modules/clean-code/)
 - [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Неделя #2. 30/11/2021
 
