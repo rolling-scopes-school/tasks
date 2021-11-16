@@ -171,7 +171,8 @@ if(res.statusCode !== 200) return done(new Error('Ошибка при работ
 ```
 4. Для обработки ошибок в синхронных методах, к которым относится `JSON.parse()` используется конструкция `try {} catch() {}`  
 ```js
-try {const result = JSON.parse(body);
+try {
+  const result = JSON.parse(body);
   done(null, result);
 } catch(error) {
   done(new Error('Не удалось обработать данные'));
