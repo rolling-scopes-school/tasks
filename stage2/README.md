@@ -24,7 +24,7 @@
 
 ### Неделя #2. 30/11/2021
 
-- Проект по миграции JS проекта на TS
+- [Проект по миграции JS проекта на TS](../tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
 
