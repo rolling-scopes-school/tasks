@@ -21,35 +21,44 @@
 - [Проект "CV" Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md)
 - [Проект "CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+таски кодварс легкие
+знакомство с кодварс
 
 ### Неделя #4
+таски агоритмические
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md) 
 - [Модуль "Figma"](modules/figma)
 - Проект ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
 
 ### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
-
-### Неделя #6
 - [Модуль "Закрепление основ JavaScript. Переменные, область видимости и типы данных"](modules/data-types/)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
++кодварс +алгоритические
+лендинг часть 2
 
-### Неделя #7
+### Неделя #6
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
+лендинг часть 3
+
+### Неделя #7
+- [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
+кроссчек лендинга
+- Кодварсы последняя выдача
+
 
 ### Неделя #8
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
-- [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
-- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-
+- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 
 ### Неделя #9
+- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
+
+### Неделя #10
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-- [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/)
 - Получение сертификата 
 
 ## Сертификат 
