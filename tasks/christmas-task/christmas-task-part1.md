@@ -2,7 +2,7 @@
 
 В первой части задания вам необходимо создать страницу с игрушками с возможностью их фильтрации, сортировки, поиска. Подобную функциональность имеют каталоги интернет-магазинов - [Пример](https://react-course-comfy-sloth-store.netlify.app/products)
 
-В первую очередь ознакомьтесь с [требованиями задания](christmas-task-part1.md)  
+В первую очередь ознакомьтесь с [требованиями задания](christmas-task.md)  
 
 <kbd>![screenshot](images/demo-toys.jpg)</kbd>
 [Демо](https://christmas-tasks.netlify.app/)  
