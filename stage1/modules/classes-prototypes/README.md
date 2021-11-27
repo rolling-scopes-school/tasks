@@ -43,6 +43,7 @@
 
 ## Практика 
 [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars2-2021Q3.md)
+Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
 
 ## Дополнительные материалы
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
