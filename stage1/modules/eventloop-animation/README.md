@@ -26,6 +26,8 @@
 2 часа
 
 ## Теория 
+## Практика
+Вам необходимо пройти тест "Event Loop & Animation" в RS APP > Auto Test
 ### Video
 - https://youtu.be/dG5ZaHYdre8
 
