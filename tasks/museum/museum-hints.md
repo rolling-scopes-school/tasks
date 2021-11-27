@@ -1,5 +1,5 @@
 ## Советы по выполнению задания Museum
-- [ссылка на задание](museum.md)
+- [ссылка на задание](museum-stage1.md)
 
 0. [Организация работы](#0-организация-работы)
 1. [Работа с репозиторием](#1-работа-с-репозиторием)
@@ -76,19 +76,19 @@
     <details>
       <summary>Некоторые сокращения EMMET</summary>
 
-  Вёрстка - файл с расширением .html
-    - `! + Tab` - выведет основу html документа
-    - `link + Tab` = `<link rel="stylesheet" href="">` (подключение стилей)
-    - `.container + Tab` = `<div class="container">`
-    - `а + Tab` = `<a href=""></a>` - вместо `a` может быть любой другой тег
-    - `a.card + Tab` = `<a href="" class="card"></a>` - через точку указываем название класса
-    - `ul>li*3 + Tab` - выводится ненумерованный список с тремя пунктами
-    - `ul.nav-list>li.nav-item*3>a.nav-link + Tab` - ненумерованный список с классом `nav-list` с тремя пунктами с классом `nav-item` внутри каждого из которых ссылка с классом `nav-link`
+    Вёрстка - файл с расширением .html
+      - `! + Tab` - выведет основу html документа
+      - `link + Tab` = `<link rel="stylesheet" href="">` (подключение стилей)
+      - `.container + Tab` = `<div class="container">`
+      - `а + Tab` = `<a href=""></a>` - вместо `a` может быть любой другой тег
+      - `a.card + Tab` = `<a href="" class="card"></a>` - через точку указываем название класса
+      - `ul>li*3 + Tab` - выводится ненумерованный список с тремя пунктами
+      - `ul.nav-list>li.nav-item*3>a.nav-link + Tab` - ненумерованный список с классом `nav-list` с тремя пунктами с классом `nav-item` внутри каждого из которых ссылка с классом `nav-link`
 
-  Стили - файл с расширением .css
-    - `m10 + Tab` = `margin: 10px;`
-    - `bgc + Tab` = `background-color:`
-    - `bgi + Tab` = `background-image: url();`
+    Стили - файл с расширением .css
+      - `m10 + Tab` = `margin: 10px;`
+      - `bgc + Tab` = `background-color:`
+      - `bgi + Tab` = `background-image: url();`
     </details>
 
 3. Два пробела.  

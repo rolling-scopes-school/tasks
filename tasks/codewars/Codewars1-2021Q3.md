@@ -24,15 +24,8 @@
 
 ## Functions
 
-* Beta https://www.codewars.com/kata/uncurrying
-* 7 kyu https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
-* 7 kyu https://www.codewars.com/kata/the-wheat-slash-rice-and-chessboard-problem
-* 6 kyu https://www.codewars.com/kata/mutual-recursion
-* 6 kyu https://www.codewars.com/kata/function-composition-1
-* 6 kyu https://www.codewars.com/kata/function-composition
 * 6 kyu https://www.codewars.com/kata/closures-and-scopes
 * 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
-* 5 kyu https://www.codewars.com/kata/function-cache
 
 ## Date
 
@@ -61,14 +54,14 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 7 kyu and Beta tasks (16 tasks at all)
-*  4 points - 6 kyu (14 at all)
-*  5 points - 5 kyu (2 at all)
+*  1 point for 7 kyu and Beta tasks (13 tasks at all)
+*  4 points - 6 kyu (11 at all)
+*  5 points - 5 kyu (1 at all)
 *  8 points - 4 kyu (1 at all)
 
-Total: 1 * 16 + 4 * 14 + 5 * 2 + 8 * 1  = 90
+Total: 1 * 13 + 4 * 11 + 5 * 1 + 8 * 1  = 70
 
-**Total sum - 90 points.**
+**Total sum - 70 points.**
 
 
 ## Материалы

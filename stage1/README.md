@@ -37,9 +37,11 @@
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/)- 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
-- Проверка уровня базовых знаний. Тесты и задачи по темам подготовительного этапа
 - [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
 - ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
+- Тесты:
+    - Test HTML Basics	
+    - Test CSS Basics
 
 ### Неделя #3
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
@@ -80,8 +82,6 @@
 ### Неделя #8
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
 - [Модуль: Git Recap](modules/git-recap/)
-- [ShortTrack Tasks](https://github.com/rkhaslarov/rs-school-short-track-2021)
-- Тесты и задачи по CoreJS
 - [Проект "Self-introduction"](modules/self-introduction/)
 
 ### Неделя #9
@@ -96,7 +96,8 @@
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #11
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Модуль: Web Storage](modules/web-storage/)
 - Подготовка к собеседованию с ментором
 
 ## FAQ

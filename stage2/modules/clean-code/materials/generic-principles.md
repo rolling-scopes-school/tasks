@@ -344,8 +344,8 @@ for (let i = 0; i < 15; i++) {
 ``` 
 
 ### Далее:
-- [HTML и CSS рекомендации - начальный уровень](stage1/tasks/clean-code/guidelines/html-and-css.md)
-- [HTML и CSS рекомендации - продвинутый уровень](stage1/tasks/clean-code/guidelines/html-and-css-extended.md)
-- [Рекомендации к commit-ам](stage1/tasks/clean-code/guidelines/commits.md)
+- [HTML и CSS рекомендации - начальный уровень](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/html-and-css.md)
+- [HTML и CSS рекомендации - продвинутый уровень](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/html-and-css-extended.md)
+- [Рекомендации к commit-ам](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/commits.md)
 <!-- - [JavaScript рекомендации](./javascript.md)
 - [Автоматизируй это](./automation.md) -->

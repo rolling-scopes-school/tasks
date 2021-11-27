@@ -25,8 +25,6 @@
 2. https://github.com/Shastel/brackets/
 3. https://github.com/rolling-scopes-school/tic-tac-toe/
 4. https://github.com/rolling-scopes-school/towel-sort/
-5. (сложное задание) https://github.com/romacher/expression-calculator
-
 
 ## Дополнительные материалы
 1. Больше методов массива: [видео на YouTube](https://youtu.be/d8c-JgbpMHs), [документация MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)

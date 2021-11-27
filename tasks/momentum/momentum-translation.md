@@ -1,5 +1,5 @@
 ## Советы по выполнению задания Momentum
-- [ссылка на задание](momentum.md)
+- [ссылка на задание](momentum-stage1.md)
 
 ## 8. Перевод приложения на два языка (en/ru или en/be)
 Перевод и локализация приложения - задачи, часто встречающиеся в разработке.  
@@ -13,4 +13,4 @@
 
 Для перевода описания погоды в функцию `getWeather()` в качестве параметра передаём язык отображения страницы и указываем его в шаблонной строке, содержащей ссылку, по которой получаем информацию о погоде: `https://api.openweathermap.org/data/2.5/weather?q=Минск&lang=ru&appid=08f2a575dda978b9c539199e54df03b0&units=metric`
 
-Для перевода дати используем метод `toLocaleString()` с аргументом `options` в котором указываем язык отображения и формат даты. [Пример: использование аргумента options](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString#example_using_options)
+Для перевода даты используем метод `toLocaleString()` с аргументом `options` в котором указываем язык отображения и формат даты. [Пример: использование аргумента options](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString#example_using_options)

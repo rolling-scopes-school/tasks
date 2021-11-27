@@ -1,4 +1,4 @@
-# [Stage#1.](../../) JavaScript. The Functional Parts
+# [Stage#2.](../../) JavaScript. The Functional Parts
 ## В данном модуле студентам необходимо изучить:
 - Pure functions
 - Immutability
@@ -13,10 +13,12 @@
 2 часа
 
 ## Теория 
-// TODO
+- https://doka.guide/js/fp/
+- https://doka.guide/js/recursion/
+- https://habr.com/ru/company/ruvds/blog/332384/
 
 ## Практика
-// TODO
+- fp-basics test (@helenakrasnova)
 - Recreate the map function
 - Codewars
 - Implement private variable

@@ -26,7 +26,7 @@ node test -m Hello
 ```js
 const flagIndex = process.argv.indexOf('-m');
 if (flagIndex !== -1) {
-  const message = process.argv[index + 1];
+  const message = process.argv[flagIndex + 1];
   console.log(message);
 }
 ```
