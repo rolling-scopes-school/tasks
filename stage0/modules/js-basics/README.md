@@ -9,9 +9,14 @@
 
 ## Теория 
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/javascript (20 часов)
+2. Прослушать лекции по основам Javascript и Знакомству с Codewars
 
 ## Практика 
 1. Вам необходимо пройти тест "Test JS Basics [RU]" в RS APP > Auto Test
+2. Решить алгоритмические задачи:
+https://github.com/Shastel/human-readable-number
+https://github.com/rolling-scopes-school/typical-arrays-problems
+https://github.com/Shastel/reverse-int
 
 ## Дополнительные материалы
 1. Хороший русскоязычный курс: https://learn.javascript.ru/first-steps - 16h
