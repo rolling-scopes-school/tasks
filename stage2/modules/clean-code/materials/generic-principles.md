@@ -26,7 +26,7 @@
     + [4.1 Отложенные задачи (TODO)](#41-Отложенные-задачи-todo)
   * [5. Пробелы в конце строки](#5-Пробелы-в-конце-строки)
   * [6. Именование файлов](#6-Именование-файлов)
-  * [Далее:](#Далее)
+  * [Далее](#Далее)
 
 ## Общие принципы
 
@@ -343,7 +343,7 @@ for (let i = 0; i < 15; i++) {
 	image-slider.html
 ``` 
 
-### Далее:
+### Далее
 - [HTML и CSS рекомендации - начальный уровень](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/html-and-css.md)
 - [HTML и CSS рекомендации - продвинутый уровень](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/html-and-css-extended.md)
 - [Рекомендации к commit-ам](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/modules/clean-code/materials/commits.md)
