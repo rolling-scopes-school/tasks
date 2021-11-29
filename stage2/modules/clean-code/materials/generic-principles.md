@@ -19,13 +19,13 @@
 
 - [Зачем?](#Зачем)
 - [Общие принципы](#Общие-принципы)
-  * [1. DRY — *Don't Repeat Yourself*](#_1-dry-don39t-repeat-yourself)
-  * [2. KISS — _keep it short simple / keep it simple, stupid_](#_2-kiss-keep-it-short-simple-keep-it-simple-stupid)
-  * [3. YAGNI — _You ain't gonna need it_](#_3-yagni-you-ain39t-gonna-need-it)
-  * [4. Комментарии](#_4-Комментарии)
-    + [4.1 Отложенные задачи (TODO)](#_41-Отложенные-задачи-todo)
-  * [5. Пробелы в конце строки](#_5-Пробелы-в-конце-строки)
-  * [6. Именование файлов](#_6-Именование-файлов)
+  * [1. DRY — *Don't Repeat Yourself*](#1-dry--dont-repeat-yourself)
+  * [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--keep-it-short-simple--keep-it-simple-stupid)
+  * [3. YAGNI — _You ain't gonna need it_](#3-yagni--you-aint-gonna-need-it)
+  * [4. Комментарии](#4-Комментарии)
+    + [4.1 Отложенные задачи (TODO)](#41-Отложенные-задачи-todo)
+  * [5. Пробелы в конце строки](#5-Пробелы-в-конце-строки)
+  * [6. Именование файлов](#6-Именование-файлов)
   * [Далее:](#Далее)
 
 ## Общие принципы
