@@ -1,5 +1,3 @@
-# !!! Черновик. Релиз 30 ноября 2021!!!!
-
 # RS School. Курс JS/Frontend-разработка. Stage#2
 
 - Для зачисления необходимо успешно выполнить задания первого этапа, пройти собеседование с ментором
@@ -23,30 +21,27 @@
 - Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Неделя #2. 30/11/2021
-
 - [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #3. 07/12/2021
-
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - [Собеседование с ментором](modules/technical-screening/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #4. 14/12/2021
-
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - [Testing](modules/testing/)
-- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 
 ### Неделя #5. 21/12/2021
-
-- [Проект на TS "Бабушкины ёлочные игрушки"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
-- Модуль: JavaScript: Client - Server interaction overview
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
 - https://github.com/mikhama/core-js-101
+
+# !!! Черновик. Релиз 10 декабря 2021!!!!
 
 ### Неделя #6. 11/01/2022
 
@@ -64,6 +59,7 @@
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Модуль: SCRUM, Kanban
+- Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #9. 01/02/2022
 
