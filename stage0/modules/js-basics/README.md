@@ -12,6 +12,7 @@
 
 ## Практика 
 1. Вам необходимо пройти тест "Test JS Basics [RU]" в RS APP > Auto Test
+2. [Codewars](https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/codewars)
 
 ## Дополнительные материалы
 1. Хороший русскоязычный курс: https://learn.javascript.ru/first-steps - 16h

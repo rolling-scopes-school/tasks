@@ -22,42 +22,40 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Проект "CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](modules/codewars/)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/codewars)
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md) 
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
+- Проект ["Portfolio](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md). [Stage#0 Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md)
 
 ### Неделя #5
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
-- [Модуль "Codewars Часть#2"](modules/codewars/)
-- Проект ["Portfolio. Stage#0 Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
+- [Модуль "Codewars Часть#2"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/codewars)
+- Проект ["Portfolio. Stage#0 Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #6
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- Проект ["Portfolio. Stage#0 Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
+- Проект ["Portfolio. Stage#0 Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md)
 
 ### Неделя #7
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
-- [Модуль "Codewars Часть#3"](modules/codewars/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/codewars)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md)
 
 ### Неделя #8
 - Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 
 ### Неделя #9
 - Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 
 ### Неделя #10
-- Проект ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
 
 ### Неделя #11
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
 - Получение сертификата 
 
 ## Сертификат 
