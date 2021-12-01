@@ -8,6 +8,8 @@
 
 ## Теория
 
+- [Интерактивный курс по TypeScript](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
+
 - [Видео](https://youtube.com/playlist?list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC)
 
 ## Практика
