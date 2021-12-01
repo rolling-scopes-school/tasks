@@ -24,9 +24,9 @@
  3. [Функции-стрелки, основы](https://learn.javascript.ru/arrow-functions-basics) - 30 мин
 
 ## Практика
-1. Решить алгоритмические задачи:
-    https://github.com/Shastel/human-readable-number
-    https://github.com/Shastel/reverse-int
+Решить алгоритмические задачи:
+ 1. https://github.com/Shastel/human-readable-number
+ 2. https://github.com/Shastel/reverse-int
 
 ## Дополнительные материалы
-1. [Вебинар "Functions"](https://www.youtube.com/watch?v=fShrn50Fkhw&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=6) - 2,5 часа
+ 1. [Вебинар "Functions"](https://www.youtube.com/watch?v=fShrn50Fkhw&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=6) - 2,5 часа
