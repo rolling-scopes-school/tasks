@@ -11,6 +11,8 @@
 
 ## Теория
 
+- [Интерактивный курс по TypeScript](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
+
 - [Видео 1](https://youtu.be/h4Y4-QMz7dw)
 - [Видео 2](https://youtu.be/I_aTbZcH8Do)
 - [Видео 3](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
