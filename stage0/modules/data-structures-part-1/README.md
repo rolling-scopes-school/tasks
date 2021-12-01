@@ -24,6 +24,7 @@
 1. https://github.com/rolling-scopes-school/brackets
 2. https://github.com/Shastel/towel-sort
 3. https://github.com/romacher/morse-decoder
+4. [Codewars](modules/codewars)
 
 ## Дополнительные материалы
 1. Больше методов массива: [видео на YouTube](https://youtu.be/d8c-JgbpMHs), [документация MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)

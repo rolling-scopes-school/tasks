@@ -26,12 +26,11 @@
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md) 
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Figma"](modules/figma)
 - Проект ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
 
 ### Неделя #5
-- [Модуль "Закрепление основ JavaScript. Переменные, область видимости и типы данных"](modules/data-types/)
-- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](modules/codewars/)
 - Проект ["Portfolio. Stage#0 Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
@@ -42,7 +41,7 @@
 - Проект ["Portfolio. Stage#0 Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
 
 ### Неделя #7
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)\
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Codewars Часть#3"](modules/codewars/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/)
 
