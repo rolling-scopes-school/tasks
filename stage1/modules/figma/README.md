@@ -9,12 +9,15 @@
 1 час
 
 ## Теория 
-https://www.figma.com/best-practices/tips-on-developer-handoff/an-overview-of-figma-for-developers/ 
-https://www.smashingmagazine.com/2020/09/figma-developers-guide/
+- https://www.figma.com/best-practices/tips-on-developer-handoff/an-overview-of-figma-for-developers/ 
+- https://www.smashingmagazine.com/2020/09/figma-developers-guide/
 
 ## Практика
 @helenakrasnova
 1.  Вам необходимо пройти тест "Figma Test" в RS APP > Auto Test
+
+## Дополнительные материалы
+- [Figma с нуля](https://www.youtube.com/watch?v=z6mlqOGmjQQ&feature=youtu.be) (3.5 часов)
 
 
 ## FAQ
