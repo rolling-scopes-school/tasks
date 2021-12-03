@@ -20,7 +20,7 @@
 ## Практика
 - fp-basics test (@helenakrasnova)
 - Recreate the map function
-- Codewars
+- https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars3-2021Q3.md
 - Implement private variable
 
  ## Дополнительные материалы
