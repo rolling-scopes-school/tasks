@@ -21,4 +21,4 @@
 3. https://learn.javascript.ru/array-methods
 
 ## Практика 
-[CodeWars](https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/codewars)
+[Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars2.md)
