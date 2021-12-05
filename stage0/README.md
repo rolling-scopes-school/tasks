@@ -2,7 +2,7 @@
 Подготовительный этап поможет тем, кто мало знаком или совсем не знаком с программированием и хотел бы впоследствии успешно обучаться в RS School.  
 ## Описание 
 - Зачисляются все желающие
-- Время обучения: 9 недель
+- Время обучения: 10 недель
 - Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
 
 ## Программа обучения
@@ -10,46 +10,54 @@
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
 - [Модуль "Основы HTML"](modules/html-basics/)
+- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 
 ### Неделя #2
-- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
 - [Модуль "Основы CSS"](modules/css-basics/)
-- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/cv). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/git-markdown.md)
+- [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/git-markdown.md)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/html-css-git.md)
 
 ### Неделя #3
-- [Проект "CV" Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md)
-- [Проект "CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md)
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars1.md)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css.md) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md) 
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
+- Проект ["Portfolio](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md). [Stage#0 Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md)
 
 ### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/)
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+- [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
+- [Модуль "Codewars Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars2.md)
+- Проект ["Portfolio. Stage#0 Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #6
-- [Модуль "Закрепление основ JavaScript. Переменные, область видимости и типы данных"](modules/data-types/)
-- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
-
-### Неделя #7
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
+- Проект ["Portfolio. Stage#0 Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md)
+
+### Неделя #7
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md)
 
 ### Неделя #8
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part1)
-- [Модуль "Алгоритмы и Структуры Данных - Часть 1"](modules/data-structures-part-1/)
-- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-
+- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0)
 
 ### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30.md#part2)
-- [Модуль "Алгоритмы и Структуры Данных - Часть 2"](modules/data-structures-part-2/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0)
+- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-api)
+
+### Неделя #10
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-api)
+- Проект ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-%D0%B8%D0%B3%D1%80%D0%B0)
+
+### Неделя #11
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-%D0%B8%D0%B3%D1%80%D0%B0)
 - Получение сертификата 
 
 ## Сертификат 
