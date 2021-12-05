@@ -16,11 +16,11 @@
 - [Модуль "Основы CSS"](modules/css-basics/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
 - Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/git-markdown.md)
-- [Проект "CV" Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/html-css-git.md)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/html-css-git.md)
 
 ### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- [Проект "CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md)
+- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars1.md)
 
