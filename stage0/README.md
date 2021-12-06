@@ -58,6 +58,7 @@
     - [js30#1.1-nature-sounds](../tasks/js30%23/js30-1.md)
     - [js30#1.2-audio-player](../tasks/js30%23/js30-2.md)
     - [js30#1.3-custom-video](../tasks/js30%23/js30-3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam)
 
 ### Неделя #9
 - Проект ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
