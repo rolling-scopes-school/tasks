@@ -29,50 +29,50 @@
 ### Неделя #4
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Figma"](modules/figma)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 - Проект ["Portfolio"](../tasks/portfolio/portfolio.md) 
     - ["Portfolio#1. Фиксированная вёрстка"](../tasks/portfolio/portfolio-part1.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #5
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
 - Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
     - ["Portfolio#2. Адаптивная вёрстка"](../tasks/portfolio/portfolio-part2.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
 
 ### Неделя #6
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#2"](../tasks/portfolio/portfolio-part2.md)
 - Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
     - ["Portfolio#3. Добавление функционала"](../tasks/portfolio/portfolio-part3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#2"](../tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #7
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#3"](../tasks/portfolio/portfolio-part3.md)
+- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
 
 ### Неделя #8
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam)
 - Проект ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
     - [js30#1.1-nature-sounds](../tasks/js30%23/js30-1.md)
     - [js30#1.2-audio-player](../tasks/js30%23/js30-2.md)
     - [js30#1.3-custom-video](../tasks/js30%23/js30-3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam)
 
 ### Неделя #9
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
 - Проект ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
     - [js30#2.1-random-jokes](../tasks/js30%23/js30-4.md)
     - [js30#2.2-image-galery](../tasks/js30%23/js30-5.md)
     - [js30#2.3-movie-app](../tasks/js30%23/js30-6.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
 
 ### Неделя #10
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
 - Проект ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
     - [js30#3.1-tic-tac-toe](../tasks/js30%23/js30-7.md)
     - [js30#3.2-memory-game](../tasks/js30%23/js30-8.md)
     - [js30#3.3-random-game](../tasks/js30%23/js30-9.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
 
 ### Неделя #11
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
