@@ -26,16 +26,16 @@
 - [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #3. 07/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Собеседование с ментором](modules/technical-screening/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 
 ### Неделя #4. 14/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Testing](modules/testing/)
 
 ### Неделя #5. 21/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
