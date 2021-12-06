@@ -1,70 +1,29 @@
-# HTML, CSS & Git Basics
+# CV#2. HTML, CSS & Git Basics
 
-Ваша задача - создать своё CV в виде html-страницы с css-стилями.  
-Основу содержания данной страницы составят данные, которые вы добавили в markdown-документ из предыдущего задания [Markdown & Git](git-markdown.md)
+| Start task | Deadline task        | 
+|------------|----------------------|
+| 21.12.2021 | 03.01.2022 23:59 UTC |
 
+Ваша задача - оформить репозиторий `rsschool-cv` согласно требований задания.  
+
+- [Описание и требования задания](cv.md)
 - [Советы по выполнению задания](cv-hints.md)
 
-Кроме текста на страницу необходимо добавить ваше фото или аватарку.  
-Если вы записали видеорезюме, его также необходимо встроить в CV.
-
-Страницу нужно разместить на GitHub Pages. Она будет доступна по адресу `https://github-username.github.io/rsschool-cv/`, где вместо `github-username` необходимо указать свой GitHub username.
-
 ## Порядок работы
-
-1. Работу ведёте в репозитории `rsschool-cv`, созданном при выполнении предыдущего задания [Git & Markdown](git-markdown.md)
+1. Работу ведёте в репозитории `rsschool-cv`, созданном при выполнении предыдущего задания [Markdown & Git](git-markdown.md)
 2. От ветки `gh-pages` создайте ветку `rsschool-cv-html`
-3. В ветке `rsschool-cv-html` разместите файлы c вёрсткой. Обратите внимание, что файл `index.html` должен находиться в корне ветки
-4. Создайте и замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
-5. В файл `README.md` в ветке `main` добавьте ссылку вида `https://github-username.github.io/rsschool-cv/`, в которой вместо `github-username` укажите свой GitHub username. По этой ссылке будет открываться GitHub Pages с вашим CV
-
-## Требования к вёрстке
-
-- вёрстка валидная. Для проверки валидности вёрстки используйте сервис https://validator.w3.org/
-- вёрстка семантическая
-- при написании кода следуйте гайдлайну https://codeguide.academy/html-css.html
-- контент размещается в блоке, который горизонтально центрируется на странице
-- страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/)
-
-## Требования к коммитам
-
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
-
-## Требования к Pull Request
-
-- Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)
-
-## Как сабмитить задание
-
-HTML, CSS & Git - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **HTML, CSS & Git Basics**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
-
-Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
+3. В процессе работы над проектом в ветку `rsschool-cv-html` необходимо сделать не меньше 3-х коммитов. Согласно [гайдлайну](https://docs.rs.school/#/git-convention) название каждого коммита должно начинаться с одного из перечисленных префиксов `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
+4. В ветке `rsschool-cv-html` разместите файлы `index.html` и `style.css`
+5. В файл `index.html` добавьте любое текстовое содержание, например, своё имя. 
+6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
+Название Pull Request `HTML, CSS & Git Basics`  
+[Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
+Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
+7. В файл `README.md` ветки `rsschool-cv-html` добавьте ссылку `https://github-username.GITHUB-USERNAME.github.io/rsschool-cv/` в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub.  
+По этой ссылке будет открываться страницы CV в виде свёрстанной страницы.  
+Саму вёрстку добавим в ходе выполнения следующего задания
 
 ## Критерии оценки
-
 **Максимальный балл за задание +100**
-
-- выполнены требования к заданию +25
-- выполнены требования к вёрстке +25
-- выполнены требования к репозиторию, коммитам и Pull Request +50
-
-## Материалы:
-
-- [Полезные команды для работы с Git](https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git)
-- [Семантические теги в HTML](https://youtu.be/bQRmGxhARhc)
-- [Семантические теги HTML5](https://www.youtube.com/watch?v=_ih1xJyPk4A)
-- [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
-- [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
-- [Примеры оформления CV](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
-
-## Примеры CV
-- https://annavoloshina.github.io/rsschool-cv/
-- https://kryvetski-andrei.github.io/rsschool-cv/
-- https://nikita-resh.github.io/rsschool-cv/
-- https://themrcrowley.github.io/rsschool-cv/
-- https://elvinyeka.github.io/rsschool-cv/
-- https://mrks77.github.io/rsschool-cv/
+- выполнены требования к репозиторию +50
+- выполнены требования к коммитам и Pull Request +50

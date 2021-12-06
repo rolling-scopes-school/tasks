@@ -15,49 +15,67 @@
 ### Неделя #2
 - [Модуль "Основы CSS"](modules/css-basics/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
-- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 1 "Markdown & Git"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/git-markdown.md)
-- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 2 "HTML, CSS & Git Basics"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/html-css-git.md)
+- Проект ["CV"](../tasks/cv/cv.md). 
+    - ["CV#1. Markdown & Git"](../tasks/cv/git-markdown.md)
+    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- Проект ["CV"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv.md). [Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars1.md)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- Проект ["CV"](../tasks/cv/cv.md)
+    - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV" Часть 3 "CV. Cross-Check"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv%23/cv-stage0.md) 
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Portfolio](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md). [Stage#0 Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- Проект ["Portfolio"](../tasks/portfolio/portfolio.md) 
+    - ["Portfolio#1. Фиксированная вёрстка"](../tasks/portfolio/portfolio-part1.md)
 
 ### Неделя #5
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
-- [Модуль "Codewars Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars2.md)
-- Проект ["Portfolio. Stage#0 Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md)
+- [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
+- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
+    - ["Portfolio#2. Адаптивная вёрстка"](../tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #6
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- Проект ["Portfolio. Stage#0 Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#2"](../tasks/portfolio/portfolio-part2.md)
+- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
+    - ["Portfolio#3. Добавление функционала"](../tasks/portfolio/portfolio-part3.md)
 
 ### Неделя #7
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio. Stage#0"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#3"](../tasks/portfolio/portfolio-part3.md)
+- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
 
 ### Неделя #8
-- Проект ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam)
+- Проект ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
+    - [js30#1.1-nature-sounds](../tasks/js30%23/js30-1.md)
+    - [js30#1.2-audio-player](../tasks/js30%23/js30-2.md)
+    - [js30#1.3-custom-video](../tasks/js30%23/js30-3.md)
 
 ### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0)
-- Проект ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-api)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
+- Проект ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
+    - [js30#2.1-random-jokes](../tasks/js30%23/js30-4.md)
+    - [js30#2.2-image-galery](../tasks/js30%23/js30-5.md)
+    - [js30#2.3-movie-app](../tasks/js30%23/js30-6.md)
 
 ### Неделя #10
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-api)
-- Проект ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-%D0%B8%D0%B3%D1%80%D0%B0)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
+- Проект ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
+    - [js30#3.1-tic-tac-toe](../tasks/js30%23/js30-7.md)
+    - [js30#3.2-memory-game](../tasks/js30%23/js30-8.md)
+    - [js30#3.3-random-game](../tasks/js30%23/js30-9.md)
 
 ### Неделя #11
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md#%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-%D0%B8%D0%B3%D1%80%D0%B0)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
 - Получение сертификата 
 
 ## Сертификат 
@@ -75,18 +93,18 @@
 ### Имеет ли значения город проживания? Можно ли пройти курс полностью онлайн?
 Город проживания значения не имеет. Все этапы обучения можно пройти онлайн.
 
-#### Можно ли изучать учебные модули и делать проекты заранее?
+### Можно ли изучать учебные модули и делать проекты заранее?
 Конечно! После прохождения всех модулей подготовительного этапа вы можете начать прохождение stage#1.
 
-#### Нужна ли регистрация на основной курс если я зарегистрирован на подготовительный этап? 
+### Нужна ли регистрация на основной курс если я зарегистрирован на подготовительный этап? 
 Да, нужна. Ссылка на регистрацию тут - https://rs.school/js/ 
 
-#### Можно ли пропускать вебинары?
+### Можно ли пропускать вебинары?
 Да, можно. Записи вебинаров можно будет найти на нашем канале - [YouTube](https://youtube.com/c/rollingscopesschool).  
 
 Видео удобнее смотреть на скорости 1.25 или выше.
 
-#### Кто проверяет задания?
-- Проекты "CV" и "Museum. Stage#0" проверяются в ходе [Cross-check](https://docs.rs.school/#/cross-check-flow) 
+### Кто проверяет задания?
+- Проекты "CV", "Portfolio", "CodeJam", "JS 30" проверяются в ходе [Cross-check](https://docs.rs.school/#/cross-check-flow) 
 - Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://docs.rs.school/#/rs-app-tasks) до дедлайна.
-- Таски Git & Markdown, GIt & HTML & CSS проверяется автоматически.
+- Таски "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" проверяются автоматически.
