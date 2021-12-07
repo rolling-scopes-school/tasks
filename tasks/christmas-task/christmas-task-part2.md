@@ -8,7 +8,8 @@
 
 [Демо](https://christmas-tasks.netlify.app/)  
 Функционал реализован не полностью. Присутствуют ошибки и неточности.  
-[Исходные данные](https://github.com/rolling-scopes-school/stage1-tasks/tree/christmas-task).  
+[Макет в Figma](https://www.figma.com/file/809uUaBRpWrbIkzLOZIhFY/Christmas_task_2021Q3)  
+[Исходные данные](https://github.com/rolling-scopes-school/stage1-tasks/tree/christmas-task)  
 Вы можете редактировать исходные данные или полностью изменить их с целью улучшения качества созданного приложения  
 
 ## Страницы приложения

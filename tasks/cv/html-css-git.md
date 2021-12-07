@@ -14,7 +14,8 @@
 2. От ветки `gh-pages` создайте ветку `rsschool-cv-html`
 3. В процессе работы над проектом ведите историю коммитов. Следуйте [гайдлайну](https://docs.rs.school/#/git-convention), согласно которому название каждого коммита должно начинаться с одного из перечисленных префиксов `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
 4. В ветке `rsschool-cv-html` разместите файлы `index.html` и `style.css`
-5. В файл `index.html` добавьте тег h1 со своим именем, в файл style.css любое css-свойство. Вёрстка и стилизация CV будет выполняться в следующем задании. 
+5. В файл `index.html` добавьте любой тег, в файл style.css любое css-свойство.  
+Вёрстка и стилизация CV будет выполняться в следующем задании. 
 6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
 Название Pull Request `HTML, CSS & Git Basics`  
 [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
