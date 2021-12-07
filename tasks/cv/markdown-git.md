@@ -5,27 +5,27 @@
 
 ## Порядок работы
 
-1. В своём GitHub аккаунте создайте публичный репозиторий с названием `rsschool-cv`
-2. В главной ветке данного репозитория (`main`) должен находиться только один файл `README.md`
+1. В своём GitHub аккаунте создайте публичный репозиторий с названием `rsschool-cv`.
+2. В главной ветке данного репозитория (`main`) должен находиться только один файл `README.md`.
 3. От ветки `main` создайте ветку `gh-pages`. В ветке `gh-pages` создайте файл `cv.md`. 
 4. Используя markdown разметку в файле `cv.md` создайте своё CV. 
 5. В ветке `gh-pages` должно быть не меньше 3-х коммитов.
 6. После завершения работы откройте Pull Request из ветки `gh-pages` в ветку `main`.
-7. Название Pull Request даётся по названию задания. В данном случае название Pull Request - `Markdown & Git`
-8. В описание PR добавьте ссылку вида `https://github-username.github.io/rsschool-cv/cv`, в которой вместо `github-username` укажите свой GitHub username. После завершения работы по этой ссылке будет открываться страница CV
+7. Название Pull Request даётся по названию задания. В данном случае название Pull Request - `Markdown & Git`.
+8. В описание PR добавьте ссылку вида `https://github-username.github.io/rsschool-cv/cv`, в которой вместо `github-username` укажите свой GitHub username. После завершения работы по этой ссылке будет открываться страница CV.
 **Мержить Pull Request не нужно** 
 
 ## Требования к коммитам
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention).
 
 ## Требования к Pull Request
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)
+- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
 
 
 ## Критерии оценки
 **Максимальный балл за задание +100**
-- выполнены требования к репозиторию +50
-- выполнены требования к коммитам и Pull Request +50
+- выполнены требования к репозиторию +50;
+- выполнены требования к коммитам и Pull Request +50.
 
 <details>
 <summary>Уведомления об ошибках и их вероятные причины</summary>
@@ -43,12 +43,12 @@
 
 4. 50 баллов и статус "Failed PR requirements: No Pull Request with task name (Markdown & Git)"  
    Вы не отправили Pull Request с `gh-pages` в `master`или название Pull Request не "Markdown & Git".  
-   Увидеть свой PR, вы можете здесь: `https://github.com/your-github-account/rsschool-cv/pulls`
+   Увидеть свой PR, вы можете здесь: `https://github.com/your-github-account/rsschool-cv/pulls`.
 </details>
 
 ## Материалы:
-- [Что такое Markdown](https://guides.hexlet.io/markdown/)
-- [Полезные команды для работы с Git](https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git)
+- [Что такое Markdown](https://guides.hexlet.io/markdown/).
+- [Полезные команды для работы с Git](https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git).
 
 ## Примеры CV
 - https://annavoloshina.github.io/rsschool-cv/cv
