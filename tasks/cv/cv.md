@@ -89,3 +89,10 @@ CV (сurriculum vitae) - документ, в котором соискател�
 
 ## Проверка задания CV. Cross-Check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+
+## Материалы:
+- [Работа с Git](git.md)
+- [Краткое руководство по Markdown](https://paulradzkov.com/2014/markdown_cheatsheet/)
+- [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
+- [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
+- [Примеры оформления CV](https://www.canva.com/resumes/templates/)
