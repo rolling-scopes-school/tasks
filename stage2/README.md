@@ -25,6 +25,20 @@
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
 
+```
+По окончанию этой недели всем студентам будет необходимо использовать typescript и придерживаться следующих правил при выполнения всех последующих заданий:
+
+- использование Everyday Types 
+- использование Generics
+- использование Object Types
+- использование Classes
+- использование Function
+- нигде не используется тип Any
+- ESLinter настроен на TypeScript (используется плагин typescript-eslint/recommended) и отсутствуют ошибки
+- В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
+- webpack настроен и работает с TypeScript
+```
+
 ### Неделя #3. 07/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Собеседование с ментором](modules/technical-screening/)
