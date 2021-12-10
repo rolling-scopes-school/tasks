@@ -1,6 +1,25 @@
 # Codewars Intermediate
 
-Тут будет список задач
+- 8 kyu https://www.codewars.com/kata/take-an-arrow-to-the-knee-functionally
+- 8 kyu https://www.codewars.com/kata/merge-two-sorted-arrays-into-one
+- 7 kyu https://www.codewars.com/kata/16-plus-18-equals-214
+- 7 kyu https://www.codewars.com/kata/add-property-to-every-object-in-array
+- 7 kyu https://www.codewars.com/kata/colour-association
+- 7 kyu https://www.codewars.com/kata/combine-objects
+- 7 kyu https://www.codewars.com/kata/count-the-digit
+- 7 kyu https://www.codewars.com/kata/find-the-missing-element-between-two-arrays
+- 7 kyu https://www.codewars.com/kata/get-decimal-part-of-the-given-number
+- 7 kyu https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7
+- 7 kyu https://www.codewars.com/kata/mylanguages
+- 7 kyu https://www.codewars.com/kata/nickname-generator
+- 7 kyu https://www.codewars.com/kata/odd-even-string-sort
+- 7 kyu https://www.codewars.com/kata/power-of-two
+- 7 kyu https://www.codewars.com/kata/string-reordering
+- 7 kyu https://www.codewars.com/kata/sum-with-arrows/
+- 7 kyu https://www.codewars.com/kata/unpacking-arguments
+- 7 kyu https://www.codewars.com/kata/vowel-one
+- 7 kyu https://www.codewars.com/kata/who-is-the-killer-1
+- 6 kyu https://www.codewars.com/kata/data-reverse
 
 ## Как сабмитить задание
 Codewars - автопроверяемый таск.  
@@ -12,17 +31,19 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 8 kyu, 7 kyu and Beta tasks (9 tasks at all)
-*  4 points - 6 kyu (11 at all)
-*  5 points - 5 kyu (3 at all)
-*  8 points - 4 kyu (2 at all)
+*  2 point for 8 kyu, 7 kyu and Beta tasks (19 tasks at all)
+*  7 points - 6 kyu (1 task at all)
 
-Total: 1 * 9 + 4 * 11 + 5 * 3 + 8 * 2  = 84
+Total: 19 * 2 + 7  = 45
 
-**Total sum - 84 points.**
+**Total sum - 45 points.**
 
 
 ## Материалы
 
-- [Числа](https://learn.javascript.ru/number)
-- [Строки](https://learn.javascript.ru/string)
+- [Функции](https://learn.javascript.ru/function-basics)
+- [Стрелочные функции](https://learn.javascript.ru/arrow-functions-basics)
+- [Массивы](https://learn.javascript.ru/array)
+- [Методы массивов](https://learn.javascript.ru/array-methods)
+- [Объекты](https://learn.javascript.ru/object-basics)
+- [Остаточные параметры и оператор расширения](https://learn.javascript.ru/rest-parameters-spread-operator)
