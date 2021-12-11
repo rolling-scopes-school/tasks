@@ -29,7 +29,7 @@
 Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
 5. В файл `README.md` ветки `main` добавьте две ссылки
 - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`  
-- `https://github-username.GITHUB-USERNAME.github.io/rsschool-cv/`
+- `https://GITHUB-USERNAME.github.io/rsschool-cv/`
 в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub.  
 По этим ссылкам должны открываться страницы CV в формате markdown и в виде свёрстанной страницы.  
 
