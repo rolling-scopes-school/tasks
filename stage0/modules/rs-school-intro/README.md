@@ -24,7 +24,7 @@
 4 часа
 
 ## Теория
-1. Посмотреть [запись вводного занятия набора 2021Q3](https://youtu.be/31GK1mg9mIM) - 2 часа
+1. Посмотреть [запись вводного занятия набора 2021Q3](https://www.youtube.com/watch?v=k82f_NYIsvg) - 2 часа
 2. Посмотреть [запись "Как учиться в RS App"](https://www.youtube.com/watch?v=v_69DaeZ7dM&feature=youtu.be) - 1 час 
 3. Прочитать документацию о курсе https://docs.rs.school/   
    - Процесс обучения
