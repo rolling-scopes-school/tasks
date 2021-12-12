@@ -1,5 +1,6 @@
 # Codewars Easy
 
+- https://www.codewars.com/kata/function-1-hello-world
 - https://www.codewars.com/kata/can-we-divide-it
 - https://www.codewars.com/kata/capitalization-and-mutability
 - https://www.codewars.com/kata/century-from-year
@@ -8,7 +9,6 @@
 - https://www.codewars.com/kata/convert-to-binary
 - https://www.codewars.com/kata/even-or-odd
 - https://www.codewars.com/kata/fake-binary/javascript
-- https://www.codewars.com/kata/function-1-hello-world
 - https://www.codewars.com/kata/largest-square-inside-a-circle
 - https://www.codewars.com/kata/number-of-decimal-digits
 - https://www.codewars.com/kata/opposite-number
