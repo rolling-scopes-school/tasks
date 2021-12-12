@@ -21,13 +21,13 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  2 point for 8 kyu, 7 kyu and Beta tasks (1 tasks at all)
-*  6 points - 6 kyu (8 at all)
-*  7 points - 5 kyu (1 at all)
+*  5 point for 8 kyu, 7 kyu and Beta tasks (1 tasks at all)
+*  5 points - 6 kyu (8 at all)
+*  5 points - 5 kyu (1 at all)
 
-Total: 2 + 36 + 7  = 45
+Total: 5*10  = 50
 
-**Total sum - 45 points.**
+**Total sum - 50 points.**
 
 
 ## Материалы
