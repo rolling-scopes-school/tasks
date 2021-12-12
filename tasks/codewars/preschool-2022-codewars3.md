@@ -25,7 +25,7 @@ Codewars - автопроверяемый таск.
 *  6 points - 6 kyu (8 at all)
 *  7 points - 5 kyu (1 at all)
 
-Total: 2 * 36 + 7  = 45
+Total: 2 + 36 + 7  = 45
 
 **Total sum - 45 points.**
 
