@@ -92,7 +92,7 @@ CV (сurriculum vitae) - документ, в котором соискател�
 
 ## Материалы:
 - [Работа с Git](git.md)
-- [Краткое руководство по Markdown](https://paulradzkov.com/2014/markdown_cheatsheet/)
+- [Шпаргалка по синтаксису Markdown](https://ydmitry.ru/blog/rukovodstvo-po-markdown-dlya-uproshcheniya-veb-razrabotki/)
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)

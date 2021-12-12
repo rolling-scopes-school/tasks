@@ -35,7 +35,7 @@
 
 ## Материалы:
 - [Работа с Git](git.md)
-- [Краткое руководство по Markdown](https://paulradzkov.com/2014/markdown_cheatsheet/)
+- [Шпаргалка по синтаксису Markdown](https://ydmitry.ru/blog/rukovodstvo-po-markdown-dlya-uproshcheniya-veb-razrabotki/)
 
 ## Примеры CV в формате markdown
 - https://annavoloshina.github.io/rsschool-cv/cv
