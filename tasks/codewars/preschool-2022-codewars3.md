@@ -1,6 +1,15 @@
 # Codewars Advanced
 
-Тут будет список задач
+- 7 kyu https://www.codewars.com/kata/count-strings-in-objects
+- 6 kyu https://www.codewars.com/kata/base-conversion
+- 6 kyu https://www.codewars.com/kata/bingo-card
+- 6 kyu https://www.codewars.com/kata/bit-counting
+- 6 kyu https://www.codewars.com/kata/clocky-mc-clock-face
+- 6 kyu https://www.codewars.com/kata/is-a-number-prime
+- 6 kyu https://www.codewars.com/kata/lottery-ticket
+- 6 kyu https://www.codewars.com/kata/weird-string-case
+- 6 kyu https://www.codewars.com/kata/who-likes-it
+- 5 kyu https://www.codewars.com/kata/rgb-to-hex-conversion
 
 ## Как сабмитить задание
 Codewars - автопроверяемый таск.  
@@ -12,17 +21,20 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 8 kyu, 7 kyu and Beta tasks (9 tasks at all)
-*  4 points - 6 kyu (11 at all)
-*  5 points - 5 kyu (3 at all)
-*  8 points - 4 kyu (2 at all)
+*  2 point for 8 kyu, 7 kyu and Beta tasks (1 tasks at all)
+*  6 points - 6 kyu (8 at all)
+*  7 points - 5 kyu (1 at all)
 
-Total: 1 * 9 + 4 * 11 + 5 * 3 + 8 * 2  = 84
+Total: 2 * 36 + 7  = 45
 
-**Total sum - 84 points.**
+**Total sum - 45 points.**
 
 
 ## Материалы
 
-- [Числа](https://learn.javascript.ru/number)
 - [Строки](https://learn.javascript.ru/string)
+- [Массивы](https://learn.javascript.ru/array)
+- [Методы массивов](https://learn.javascript.ru/array-methods)
+- [Объекты](https://learn.javascript.ru/object-basics)
+- [Рекурсия](https://learn.javascript.ru/recursion)
+- [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof)
