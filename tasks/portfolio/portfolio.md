@@ -19,7 +19,7 @@ Portfolio – задание stage#0 в ходе выполнения котор
 
 <kbd>![screenshot](images/demo-desktop.jpg)</kbd>
 
-[Макет в figma](https://www.figma.com/file/6yRTVMur4ijM1w5Fj1gDPl/Portfolio)  
+[Макет в figma](https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio)  
 
 ## Создание собственной копии макета
 Выполнение задания начните с создания собственной копии макета. Для этого
