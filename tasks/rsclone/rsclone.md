@@ -2,7 +2,7 @@
 
 | Deadline         |   Repo name    | Branch name |
 | ---------------- | -------------- | ----------- |
-| 25.01.21         | rsclone        |   develop   |
+| 25.01.22         | rsclone        |   develop   |
 
 ## Задание
 
