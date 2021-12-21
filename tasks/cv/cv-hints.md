@@ -97,7 +97,7 @@
 
 16. Зайдите в `RS App`, затем во вкладку `Auto-Test`. Выберите таск `Markdown & Git` и нажмите кнопку **Submit**.
 
-![Image 21](https://i.ibb.co/hKqRBYg/28.jpg)
+![Image 21](https://i.ibb.co/rx18n8z/image.png)
 
 ## Переходим ко второму заданию HTML, CSS & Git Basics
 
@@ -105,31 +105,30 @@
 
 1. От ветки `gh-pages` создайте ветку `rsschool-cv-html`. Проверьте, в какой ветке вы находитесь, командой `git branch`. Eсли в `gh-pages`, то создайте новую ветку `rsschool-cv-html` и перейдите в неё.
 
-![Image 25](https://i.ibb.co/5LB8R1v/1-1.jpg)
+![Image 25](https://i.ibb.co/mzJ0V8Z/image.png)
 
 2. Создайте файл `index.html`, в нём будете писать вёрстку для CV
+
 После запуште изменения в ветку `rsschool-cv-html`.
 
-![Image 26](https://i.ibb.co/Zz3vQPv/2.jpg)
+![Image 26](https://i.ibb.co/rZpMP9Y/image.png)
 
 3. Для красоты CV создайте файл `style.css`, в нём будете писать стили для данной вёрстки. После того, как создадите его, так же пуште изменения на GitHub. Также нужно будет добавить ваше фото или аватарку. И так же все изменения запушить в эту ветку.
 
-4. Создайте `Pull Request` из ветки `rsschool-cv-html` в ветку `gh-pages`.
+4. В файле `README.md` в этой ветке нужно изменить содержимое. Если файла нет, создайте и добавьте ссылку `https://GITHUB-USERNAME.github.io/rsschool-cv/` в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. И так же все изменения запушить в эту ветку (`rsschool-cv-html`).
 
-![Image 27](https://i.ibb.co/pwHd1Ls/4-1.jpg)
+![Image 100](https://i.ibb.co/T8BhmwN/image.png)
 
-5. Замержите Pull Request, нажав кнопку ниже `Merge pull request`, потом кнопку `Confirm merge`.
+5. Создайте `Pull Request` из ветки `rsschool-cv-html` в ветку `gh-pages`.
 
-![Image 28](https://i.ibb.co/hXxfSZX/5-1.jpg)
+![Image 27](https://i.ibb.co/dfxdbsW/image.png)
 
-![Image 29](https://i.ibb.co/CzTqhxJ/6.jpg)
+6. Замержите Pull Request, нажав кнопку ниже `Merge pull request`, потом кнопку `Confirm merge`.
 
-6. Проверьте, в какой ветке вы сейчас находитесь (команда `git branch`). Вы должны быть в ветке `rsschool-cv-html`. Откройте файл `README.md` и измените ссылку.
+![Image 28](https://i.ibb.co/cX9rF2z/image.png)
 
-![Image 30](https://i.ibb.co/8NMWYp1/7-1.jpg)
+![Image 29](https://i.ibb.co/R4qP0v8/image.png)
 
-7. Далее *пуште* на GitHub
+7. Зайдите в `RS App`, затем во вкладку `Auto-Test`. Выберите таск `HTML, CSS & Git Basics` и нажмите кнопку **Submit**.
 
-8. Зайдите в `RS App`, затем во вкладку `Auto-Test`. Выберите таск `HTML, CSS & Git Basics` и нажмите кнопку **Submit**.
-
-![Image 32](https://i.ibb.co/k0gMmqW/100.jpg)
+![Image 32](https://i.ibb.co/x1XwQrD/image.png)
