@@ -53,9 +53,7 @@
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
-- https://github.com/mikhama/core-js-101
-
-# !!! Черновик. Релиз 10 декабря 2021!!!!
+- https://github.com/mikhama/core-js-101 (Дедлайн - 24 января 2022)
 
 ### Неделя #6. 11/01/2022
 
@@ -67,6 +65,8 @@
 
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+# !!! Черновик. Релиз 15 января 2021!!!!
 
 ### Неделя #8. 25/01/2022
 
