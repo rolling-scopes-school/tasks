@@ -110,7 +110,7 @@ The page has the following elements:
 
 ### **Product details page**
 
-- must contain the hierarchy of the selected category (breadcrumbs)
+- should contain the hierarchy of the selected category (breadcrumbs)
 - name of product
 - product images as a slider
 - add to favorites button
@@ -124,7 +124,7 @@ The page has the following elements:
 
   ![Cart](./assets/cart.png)
  
-- a list of products including its name, image, quantity (with the ability to change the number of units of a product, while the cost for this product must be recalculated), cost of the product and the ability to navigate to this product
+- a list of products including its name, image, quantity (with the ability to change the number of units of a product, while the cost for this product should be recalculated), cost of the product and the ability to navigate to this product
 - information about the total cost of the order
 - a form for entering information for the order with the following data:
    - Full name
@@ -146,7 +146,7 @@ After creating an order, show a confirmation with the specified data for deliver
 
 ### **Favorite products**
 
-A set of product cards in several columns. Each card must contain:
+A set of product cards in several columns. Each card should contain:
 
 - product image
 - name of product
@@ -158,7 +158,7 @@ A set of product cards in several columns. Each card must contain:
 ### **Orders**
 
 Should contain information about each user's order in the form of a list (design the way you want). Each item in the list is a separate order
-  - must contain information about delivery, cost for payment, order number, elements of order cancellation / editing. Each order should be implemented as a drop-down list with a set of products in the order (product name / quantity / cost)
+  - should contain information about delivery, cost for payment, order number, elements of order cancellation / editing. Each order should be implemented as a drop-down list with a set of products in the order (product name / quantity / cost)
 
 ## Backend
 
