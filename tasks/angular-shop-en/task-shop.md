@@ -1,4 +1,4 @@
-# RS Shop
+# Angular Online Shop
 
 | Deadline  |  Branch name   |
 | --------  | ------------   |
@@ -57,13 +57,13 @@ Header should contain:
   It is not necessary to create a separate page to implement search. It is enough to display the results in the dropdown.
 
   - #### **Account block**
-    - anonymous user
+    - anonymous user   
     ![Account](./assets/sign-in.png)
       - sign in, sign up buttons.   
 
-      ![Authorization](./assets/authorization.png)
+    ![Authorization](./assets/authorization.png)
 
-    - authorized user
+    - authorized user   
     ![Account](./assets/account.png)
       - log out button.
       - link to user **Cart**
@@ -91,7 +91,7 @@ The page has the following elements:
 
 ### **Category listing page**
 
-- contains the hierarchy of the selected category (breadcrumbs)
+- contains the hierarchy of the selected category (breadcrumbs)   
   ![Breadcrumbs](./assets/breadcrumbs.png)
 - category name, for example **Laptops**
 - list of products in this category as cards  
