@@ -4,10 +4,10 @@
 | -------- | --------------------- |
 |          | angular-online-shop   |
 
-**RS Shop** – the online shop application with the following functionality:
+**Angular Online Shop** – the online shop application with the following functionality:
 - products showcase
-- shopping cart
-- orders
+- managing shopping cart
+- submitting orders
 
 ## Application prototype
 The presented design is for your reference and your final one could be any.
