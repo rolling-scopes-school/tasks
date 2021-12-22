@@ -238,7 +238,7 @@ Example:
 
 ## Evaluation criteria
 
-### The maximum score for the task: **640**
+### The maximum score for the task: **620**
 ### Layout **+50**
 
 - [ ] the layout and design of the entire application are made in the same style +20
@@ -277,7 +277,7 @@ Example:
 - [ ] implemented sorting by criteria +20
 - [ ] implemented partial loading of results (pagination) +20
 
-### Product details page **+100**
+### Product details page **+80**
 
 - [ ] has breadcrumbs (breadcrumbs) +10
 - [ ] contains the necessary information about the product +10
