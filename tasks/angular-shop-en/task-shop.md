@@ -1,8 +1,8 @@
 # Angular Online Shop
 
-| Deadline  |  Branch name   |
-| --------  | ------------   |
-|           | angular-shop   |
+| Deadline |  Branch name          |
+| -------- | --------------------- |
+|          | angular-online-shop   |
 
 **RS Shop** – the online shop application with the following functionality:
 - products showcase
@@ -169,8 +169,45 @@ To do this, you need to clone the repository and run json-server locally.
 
 - the work should be done in your private repository
 - source code should be committed to a separate branch
-- the master branch should be empty (contain only files like README.md or .gitignore)
-- commit messages should follow the [guideline](https://www.conventionalcommits.org/en/v1.0.0/)
+- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
+- once the work is finished, create a pull request from a development branch to master
+- the pull request name should contain **the task name**
+- the pull request description should contain the following information:
+    - link to the task
+    - screenshot of your application (one would be enough)
+    - link to your application
+    - date of completion/deadline
+    - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
+
+Example:
+
+```
+1. Task:
+   Link to the current is here
+2. App screenshot:
+   Your screenshot is here
+3. Deploy:  
+   A link to your deployed application is here
+4. Done 19.04.20 (deadline 19.04.20)
+5. Score: 200 / 200
+- [x] Minimal scope
+    - [x] Feature 1 is implemented (+10)
+    - [x] Feature 2 is implemented (+10)
+- [x] Basic scope
+    - [x] Feature 3 is implemented (+10)
+    - [x] Feature 4 is implemented (+10)
+- [x] Extra scope
+    - [x] Feature 5 is implemented (+10)
+    - [x] Feature 6 is implemented (+10)
+- [x] Technical requirements
+    - [x] ESLint is used (+10)
+    - [x] ES6 features are used (+10)
+    - [x] Requirements to the repository, commits and pull request are met (+10)
+- [x] Penalties
+    - [x] Errors while app's working. (-10 for each, but no more than the total number of points for requirement implementation)
+    - [x] Not comply with the requirements for Pull Request, repository, commits names (-10) scores by mentor
+```
 
 ## Technical requirements
 
