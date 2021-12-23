@@ -1,3 +1,8 @@
+# В финале вас ждет одно из трех заданий на выбор:
+ - [rs lang](../rslang/rslang.md) - возможна командная разработка 
+ - [async race](../async-race.md) - индивидуальное задание
+ - RS Clone - командная разработка
+ 
 # RS Clone
 
 | Deadline         |   Repo name    | Branch name |
