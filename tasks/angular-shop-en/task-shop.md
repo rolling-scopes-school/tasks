@@ -1,8 +1,8 @@
 # Angular Online Shop
 
-| Deadline |  Branch name          |
-| -------- | --------------------- |
-|          | angular-online-shop   |
+|  Branch name        |
+| --------------------|
+| angular-online-shop |
 
 **Angular Online Shop** – the online shop application with the following functionality:
 - products showcase
