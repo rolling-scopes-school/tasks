@@ -25,23 +25,35 @@
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
 
+```
+По окончанию этой недели всем студентам будет необходимо использовать typescript и придерживаться следующих правил при выполнения всех последующих заданий:
+
+- использование Everyday Types 
+- использование Generics
+- использование Object Types
+- использование Classes
+- использование Function
+- нигде не используется тип Any
+- ESLinter настроен на TypeScript (используется плагин typescript-eslint/recommended) и отсутствуют ошибки
+- В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
+- webpack настроен и работает с TypeScript
+```
+
 ### Неделя #3. 07/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Собеседование с ментором](modules/technical-screening/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 
 ### Неделя #4. 14/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Testing](modules/testing/)
 
 ### Неделя #5. 21/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task.md)
+- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Модуль: Async programming](modules/async/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
-- https://github.com/mikhama/core-js-101
-
-# !!! Черновик. Релиз 10 декабря 2021!!!!
+- https://github.com/mikhama/core-js-101 (Дедлайн - 24 января 2022)
 
 ### Неделя #6. 11/01/2022
 
@@ -53,6 +65,8 @@
 
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+# !!! Черновик. Релиз 15 января 2021!!!!
 
 ### Неделя #8. 25/01/2022
 
