@@ -1,5 +1,5 @@
 # В финале вас ждет одно из двух заданий на выбор:
- - async race - индивидуальное задание [rs lang](../rslang/rslang.md) - возможна командная разработка 
+ - async race - индивидуальное задание [rs lang](rslang/rslang.md) - возможна командная разработка 
  - [RS Clone](rsclone/rsclone.md) - командная разработка
  
 # async-race
