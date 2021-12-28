@@ -47,7 +47,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Figma"](../stage0/modules/figma/)
+- [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
 - [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
