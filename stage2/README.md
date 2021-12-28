@@ -66,14 +66,13 @@
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
-# !!! Черновик. Релиз 15 января 2021!!!!
-
 ### Неделя #8. 25/01/2022
 
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Модуль: SCRUM, Kanban
-- Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
+
+# !!! Черновик. Релиз 15 января 2021!!!!
 
 ### Неделя #9. 01/02/2022
 
