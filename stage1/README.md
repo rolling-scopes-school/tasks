@@ -63,29 +63,29 @@
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
+//заменить на таск по dom(пятнашки)
 - [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
+//заменить на таск по dom(пятнашки)
+- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) //передвинуть
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
-- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
 
 ### Неделя #7
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Модуль: "Asynchronous JavaScript"](modules/async/)
-- [Проект "Momentum"](../tasks/momentum/momentum-stage1.md)
-
-### Неделя #8
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
-- [Модуль: Git Recap](modules/git-recap/)
 - [Проект "Self-introduction"](modules/self-introduction/)
 
-### Неделя #9
+### Неделя #8
+- [Модуль: "Asynchronous JavaScript"](modules/async/)
+- [Модуль: Git Recap](modules/git-recap/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
+- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
+
+### Неделя #9
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
 
@@ -93,6 +93,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)- 
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
+//упростить artQuiz
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #11
