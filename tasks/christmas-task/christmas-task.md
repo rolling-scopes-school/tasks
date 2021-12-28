@@ -87,6 +87,7 @@
 
 ## Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/74M8ck9FQfxZVHu9A
 
 ## Материалы
 - [Официальная документация TypeScript](https://www.typescriptlang.org/)

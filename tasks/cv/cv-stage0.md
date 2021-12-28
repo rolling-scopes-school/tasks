@@ -35,9 +35,6 @@
     - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`  
     - `https://GITHUB-USERNAME.github.io/rsschool-cv/`
 
-
-.  
-
 ## Критерии оценки
 **Максимальный балл за задание +120**
 
@@ -74,6 +71,7 @@
 
 ## Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- ссылки на самые лучшие работы вашего набора с очень высоким качеством выполнения добавьте, пожалуйста, в эту форму https://forms.gle/kcmAkFK4j1EGW5JS8
 
 ## Материалы
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
