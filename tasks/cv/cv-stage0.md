@@ -71,6 +71,7 @@
 
 ## Cross-check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- форма для кросс-чека https://cv-cross-check.netlify.app/
 - ссылки на самые лучшие работы вашего набора с очень высоким качеством выполнения добавьте, пожалуйста, в эту форму https://forms.gle/kcmAkFK4j1EGW5JS8
 
 ## Материалы
