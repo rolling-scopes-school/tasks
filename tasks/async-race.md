@@ -1,9 +1,4 @@
-# В финале вас ждет одно из двух заданий на выбор:
- - **Async Race** - индивидуальное задание
- - **[RS Lang](rslang/rslang.md)** - возможна командная разработка 
- - **[RS Clone](rsclone/rsclone.md)** - командная разработка
- 
-# async-race
+ # async-race
 
 | Folder name   | Branch name   |
 | ------------- | ------------- |
