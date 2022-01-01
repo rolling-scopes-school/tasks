@@ -5,18 +5,19 @@
 |------------|----------------------|-------------------|----------------------|
 | 25.01.2022 | 31.01.2022 23:59 UTC | 01.02.2022        | 03.02.2022 23:59 UTC |
 
-Добавим в свёрстанную на предыдущих этапах адаптивную веб-страницу следующий функционал:
+- [Описание и требования задания](portfolio.md)
+- [Советы по выполнению задания](portfolio-part3-hints.md)  
+
+В этой части задания необходимо добавить в свёрстанную на предыдущих этапах веб-страницу следующий функционал:
 - смена изображений в секции `portfolio`
 - перевод страницы на два языка
 - возможность переключения светлой и тёмной темы
 
-- [Описание и требования задания](portfolio.md)
-- [Советы по выполнению задания](portfolio-part3-hints.md)  
-
+Материалы:
 - [Файлы с переводом и изображениями](https://github.com/rolling-scopes-school/file-storage/tree/portfolio)
 - [Макет в figma](https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio)
 - [Макет в figma - светлая тема - 1](https://www.figma.com/file/YA7AnQ2Rcu4mlcd9mXf2T0/Portfolio-white-1)
-[Макет в figma - светлая тема - 2](https://www.figma.com/file/2ahDSndVsPeIN7IxQbLcrg/Portfolio-white-2)
+- [Макет в figma - светлая тема - 2](https://www.figma.com/file/2ahDSndVsPeIN7IxQbLcrg/Portfolio-white-2)
 
 ## Требования к функционалу
 1. Смена изображений в секции `portfolio` +25  
@@ -25,7 +26,7 @@
    - при кликах по кнопкам `Winter`, `Spring`, `Summer`, `Autumn` в секции `portfolio` отображаются изображения из папки с соответствующим названием +20
    - кнопка, по которой кликнули, становится активной т.е. выделяется стилем. Другие кнопки при этом будут неактивными +5
 2. Перевод страницы на два языка +25  
-   Для перевода можно воспользоваться файлом [translate.js](https://github.com/rolling-scopes-school/stage1-tasks/blob/portfolio-stage0/translate.js)  
+   Для перевода можно воспользоваться файлом [translate.js](https://github.com/rolling-scopes-school/file-storage/blob/portfolio/translate.js)  
    Содержание файла можно редактировать или полностью изменить с целью улучшения качества созданного приложения
    - при клике по надписи `ru` англоязычная страница переводится на русский язык +10
    - при клике по надписи `en` русскоязычная страница переводится на английский язык +10
@@ -41,7 +42,7 @@
 4. Дополнительный функционал: сложные эффекты для кнопок при наведении и/или клике +10  
    Для получения максимального балла за пункт требований достаточно добавить кнопкам только один эффект  
    Можно выбрать любой из предложенных эффектов или добавить свой собственный равноценный им по сложности      
-   - Ripple Button [Демо](https://irinainina.github.io/50projects50days/button-ripple-effect/)
+   - Ripple Button [Демо](https://codepen.io/irinainina/pen/qBPormJ)
    - Fluent Button [Демо](https://codepen.io/d2phap/full/rpJEaK)
    - Particles Button [Демо](https://codepen.io/chandrashekhar/pen/JLxvBG)
    - Bubbly Button [Демо](https://codepen.io/irinainina/pen/XWJmajM)
