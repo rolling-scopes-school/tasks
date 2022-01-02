@@ -26,7 +26,7 @@
 ### Организация работы
 - выполнение задания начните с изучения ТЗ. Не приступайте к работе над проектом без чёткого понимания, какой результат от вас ожидается
 - разбейте задание на небольшие подзадачи. Выполняйте их последовательно
-- ведите тайминг времени. Для учёта времени используйте [trello](https://netology.ru/blog/trello), с дополнением [Activity](https://texterra.ru/blog/prokachay-svoy-trello-rasshireniy-i-integratsiy-dlya-produktivnoy-raboty.html) (одно улучшение к доске с проектом можно подключить бесплатно). Так выглядит [доска trello](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/trello.jpg) с выполненным проектом
+- ведите тайминг времени. Для учёта времени используйте [trello](https://netology.ru/blog/trello), с дополнением [Activity](https://texterra.ru/blog/prokachay-svoy-trello-rasshireniy-i-integratsiy-dlya-produktivnoy-raboty.html) (одно улучшение к доске с проектом можно подключить бесплатно). Так выглядит [доска trello](images/trello.png) с выполненным проектом
 - для проверки соответствия своей работы требованиям задания используйте 
   - расширение [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru) для проверки соответствия вёрстки макету
   - сервис https://validator.w3.org/ для проверки валидности вёрстки
