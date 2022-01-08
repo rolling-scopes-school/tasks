@@ -19,3 +19,4 @@
 ## Дополнительные материалы
 1. [Kanban vs Scrum](https://www.coursera.org/articles/kanban-vs-scrum)
 2. [Scrumban](https://www.productplan.com/glossary/scrumban/)
+3. [Planning Poker](https://worksection.com/blog/scrum-poker.html)
