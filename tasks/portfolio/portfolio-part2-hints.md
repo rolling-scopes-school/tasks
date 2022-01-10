@@ -176,13 +176,14 @@ function closeMenu(event) {
 
 Сделать адаптив фоновых изображений можно несколькими способами. Во-первых изменять масштаб и позиционирование изображения с помощью свойств `background-size` и `background-position`:
   ```css
-  .section {
+  .hero {
+    height: 910px;
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
   
-    @media (max-width: 1439px) {
-      background-position: -100px 0;
-      background-size: 120%;
+    @media (max-width: 768px) {
+      background-position: -10px -33px;
+      background-size: 129%;
     }
   }
   ```
@@ -192,7 +193,7 @@ function closeMenu(event) {
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
   
-    @media (max-width: 1439px) {
+    @media (max-width: 768px) {
       background-image: url('../img/bg-small.jpg');
     }
   }
