@@ -183,8 +183,8 @@ function closeMenu(event) {
   
     @media (max-width: 768px) {
       height: 590px;
-      background-position: -10px -33px;
-      background-size: 129%;
+      background-position: -5px -30px;
+      background-size: auto 620px;
     }
   }
   ```
