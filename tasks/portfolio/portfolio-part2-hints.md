@@ -182,6 +182,7 @@ function closeMenu(event) {
     background-repeat: no-repeat;
   
     @media (max-width: 768px) {
+      height: 590px;
       background-position: -10px -33px;
       background-size: 129%;
     }
@@ -189,11 +190,13 @@ function closeMenu(event) {
   ```
 Во-вторых, если первый метод не подходит или трудно выполним, можно скачать из макета фоновое изображение для нужного разрешения и устанавливать его как фон в нужных медиа-запросах.
   ```css
-  .section {
+  .hero {
+    height: 910px;
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
   
     @media (max-width: 768px) {
+      height: 590px;
       background-image: url('../img/bg-small.jpg');
     }
   }
