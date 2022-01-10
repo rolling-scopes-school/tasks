@@ -9,6 +9,7 @@
 4. [CSS variables](#css-variables)
 5. [calc()](#calc)
 6. [Adaptive menu](#adaptive-menu)
+7. [Adaptive background image](#adaptive-background-image)
 
 ### Adaptive Design
 
@@ -170,3 +171,33 @@ function closeMenu(event) {
 Параметр `event` (название может быть любым) функции `closeMenu` содержит всю информацию о событии, которое произошло. `event.target` - элемент, на котором произошло событие. Если этот элемент содержит класс `'nav-link'`, значит, клик произошёл по ссылке и нужно закрыть меню.
 
 Метод, когда обработчик событий добавляется не каждому элементу, а их общему родителю, называется делегированием событий. Делегирование - один из самых важных приёмов разработки, так как позволяет отслеживать события на множестве элементов с помощью только одного обработчика.
+
+### Adaptive background image
+
+Сделать адаптив фоновых изображений можно несколькими способами. Во-первых изменять масштаб и позиционирование изображения с помощью свойств `background-size` и `background-position`:
+  ```css
+  .hero {
+    height: 910px;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+  
+    @media (max-width: 768px) {
+      height: 590px;
+      background-position: -10px -33px;
+      background-size: 129%;
+    }
+  }
+  ```
+Во-вторых, если первый метод не подходит или трудно выполним, можно скачать из макета фоновое изображение для нужного разрешения и устанавливать его как фон в нужных медиа-запросах.
+  ```css
+  .hero {
+    height: 910px;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+  
+    @media (max-width: 768px) {
+      height: 590px;
+      background-image: url('../img/bg-small.jpg');
+    }
+  }
+  ```
