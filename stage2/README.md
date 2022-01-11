@@ -70,6 +70,7 @@
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Модуль: SCRUM, Kanban
+- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #9. 01/02/2022
 
@@ -82,16 +83,19 @@
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: SOLID](modules/solid/)
+- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #11. 15/02/2022
 
 - RS Lang. Разработка в командах 2-3 чел
+- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #12. 22/02/2022
 - Кросс-чек RS Clone / RS Lang
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #13. 01/03/2022
+- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 - Презентация финального проекта 
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
