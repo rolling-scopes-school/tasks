@@ -72,7 +72,7 @@
 
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-- Модуль: SCRUM, Kanban
+- [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - Проект [Custom jQuery](https://github.com/rolling-scopes-school/dimablr-JSFE2021Q1/tree/RS-School/custom-jquery)
 
 ### Неделя #9. 01/02/2022
