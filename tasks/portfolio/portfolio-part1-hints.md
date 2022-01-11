@@ -332,7 +332,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-text-fill-color: var(--color-gold);
+  -webkit-text-fill-color: #bdae82;
   transition: background-color 0s ease-in-out 9000s;
 }
 ```
