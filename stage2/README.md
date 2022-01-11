@@ -67,35 +67,32 @@
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
 ### Неделя #8. 25/01/2022
-
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - Модуль: SCRUM, Kanban
 
-# !!! Черновик. Релиз 15 января 2021!!!!
-
 ### Неделя #9. 01/02/2022
 
-- Проект. Разработка в командах 2-3 чел
+- RS Lang. Разработка в командах 2-3 чел
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #10. 08/02/2022
 
-- Проект. Разработка в командах 2-3 чел
+- RS Lang. Разработка в командах 2-3 чел
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: SOLID](modules/solid/)
 
 ### Неделя #11. 15/02/2022
 
-- Проект. Разработка в командах 2-3 чел
+- RS Lang. Разработка в командах 2-3 чел
 
 ### Неделя #12. 22/02/2022
-
-- Кросс-чек
+- Кросс-чек RS Clone / RS Lang
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #13. 01/03/2022
-
-- Перерыв перед stage#3
+- Презентация финального проекта 
 - Получение сертификата за Stage#2
+- Перерыв перед stage#3
+
