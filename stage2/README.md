@@ -72,7 +72,6 @@
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
-
 ### Неделя #9. 01/02/2022
 
 - RS Lang. Разработка в командах 2-3 чел
