@@ -47,7 +47,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Figma"](../stage0/modules/figma/)
+- [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
 - [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
@@ -127,6 +127,9 @@
 Да, можно. Записи вебинаров можно будет найти на нашем канале - [YouTube](https://youtube.com/c/rollingscopesschool).  
 
 Видео удобнее смотреть на скорости 1.25 или выше.
+
+### Обязательно ли смотреть вебинары школы?
+Нет. Ссылки на рекомендуемую для изучения теорию находится в модулях. После самостоятельного изучения материалов модуля вы можете посмотреть вебинар, чтобы закрепить информацию или задать вопросы тренеру.
 
  
 
