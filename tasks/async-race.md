@@ -4,7 +4,6 @@
 | ------------- | ------------- |
 | async-race    | async-race    |
 
-Date of the start and the deadline you can find in [the schedule](https://app.rs.school/course/schedule?course=js-fe-2021Q3)
 
 ## Task "Async Race"
 
