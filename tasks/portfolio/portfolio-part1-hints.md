@@ -325,6 +325,19 @@
   font-size: 20px;
 }
 ```  
+
+Для стилизации фона элементов input при авто-заполнении в Chrome можно использовать следующие свойства:
+```css
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
+}
+```
+Но это не требуется по заданию и никак не оценивается.
+
 Также обратите внимание на свойство `textarea` `resize: none`, которое указывает, что пользователь не может изменять размер элемента.  
 О том, что `input` и `textarea` не наследуют свойства шрифта родителя уже упоминалось выше.  
 В остальном элементы `input` и `textarea` стилизуются точно так же, как другие элементы.
