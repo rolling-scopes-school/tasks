@@ -69,7 +69,7 @@
 ### Неделя #8. 25/01/2022
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-- Модуль: SCRUM, Kanban
+- [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #9. 01/02/2022
