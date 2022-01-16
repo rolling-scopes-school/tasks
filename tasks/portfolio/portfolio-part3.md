@@ -16,8 +16,8 @@
 Материалы:
 - [Файлы с переводом и изображениями](https://github.com/rolling-scopes-school/file-storage/tree/portfolio)
 - [Макет в figma](https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio)
-- [Макет в figma - светлая тема - 1](https://www.figma.com/file/YA7AnQ2Rcu4mlcd9mXf2T0/Portfolio-white-1)
-- [Макет в figma - светлая тема - 2](https://www.figma.com/file/2ahDSndVsPeIN7IxQbLcrg/Portfolio-white-2)
+- [Макет в figma - светлая тема - 1](https://www.figma.com/file/tbs0GYhOle1nLWvgnI7AzZ/Portfolio-white-1)
+- [Макет в figma - светлая тема - 2](https://www.figma.com/file/bpSokvEmZajiWZKs9cpNJi/Portfolio-white-2)
 
 ## Порядок работы
 
@@ -53,8 +53,8 @@
    - надписи `en` или `ru`, соответствующие текущему языку страницы, становятся активными т.е. выделяются стилем +5
 3. Переключение светлой и тёмной темы +25  
    Внешний вид тёмной темы соответствует [макету](https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio), который верстали в предыдущих частях задания, внешний вид светлой темы соответствует одному из двух вариантов макетов на выбор. Баллы за оба варианта одинаковые, выбирайте тот, который больше нравится.
-      - Вариант первый. Блоки и секции `header`, `hero`, `contacts`, `footer` остались без изменений, в оставшихся секциях цвет фона и шрифта поменялись местами: фон стал белым, шрифт черным [Макет в figma - светлая тема - 1](https://www.figma.com/file/YA7AnQ2Rcu4mlcd9mXf2T0/Portfolio-white-1)
-      - Вариант второй. Изменения затронули все блоки и секции, в том числе поменялись фоновые изображения и есть два варианта меню на выбор [Макет в figma - светлая тема - 2](https://www.figma.com/file/2ahDSndVsPeIN7IxQbLcrg/Portfolio-white-2)
+      - Вариант первый. Блоки и секции `header`, `hero`, `contacts`, `footer` остались без изменений, в оставшихся секциях цвет фона и шрифта поменялись местами: фон стал белым, шрифт черным [Макет в figma - светлая тема - 1](https://www.figma.com/file/tbs0GYhOle1nLWvgnI7AzZ/Portfolio-white-1)
+      - Вариант второй. Изменения затронули все блоки и секции, в том числе поменялись фоновые изображения и есть два варианта меню на выбор [Макет в figma - светлая тема - 2](https://www.figma.com/file/bpSokvEmZajiWZKs9cpNJi/Portfolio-white-2)
    - На страницу добавлен переключатель при клике по которому: 
       - тёмная тема приложения сменяется светлой +10
       - светлая тема приложения сменяется тёмной +10

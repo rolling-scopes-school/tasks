@@ -333,8 +333,8 @@ galleryFn.fn2();
 ### Переключение светлой и тёмной темы
 
 Из двух вариантов светлой темы выбираете тот, который больше нравится.  
-- [Макет в figma - светлая тема - 1](https://www.figma.com/file/YA7AnQ2Rcu4mlcd9mXf2T0/Portfolio-white-1)
-- [Макет в figma - светлая тема - 2](https://www.figma.com/file/2ahDSndVsPeIN7IxQbLcrg/Portfolio-white-2)
+- [Макет в figma - светлая тема - 1](https://www.figma.com/file/tbs0GYhOle1nLWvgnI7AzZ/Portfolio-white-1)
+- [Макет в figma - светлая тема - 2](https://www.figma.com/file/bpSokvEmZajiWZKs9cpNJi/Portfolio-white-2)
 
 Первый вариант проще в реализации. В нём блоки и секции `header`, `hero`, `contacts`, `footer` остались без изменений, в оставшихся секциях цвет фона и шрифта поменялись местами: фон стал белым, шрифт черным.
 
