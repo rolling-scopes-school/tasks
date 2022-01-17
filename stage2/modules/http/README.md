@@ -13,7 +13,7 @@
     - Слайды https://slides.com/dzmitrytsebruk/http
 
 ## Практика 
-TODO
+Вам необходимо пройти тест "HTTP/HTTPS" в RS APP > Auto Test
 
 ## Дополнительные материалы
  1. [Разница между HTTP и HTTPS](https://hostiq.ua/wiki/http-https/) - 30 мин
