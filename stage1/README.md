@@ -35,7 +35,7 @@
 
 ### Неделя #2
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
-- [Модуль: "JavaScript. Область видимости и функции](modules/functions/)- 
+- [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
 - ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
@@ -93,8 +93,7 @@
 ### Неделя #10
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-//ООП перенести на эту неделю 
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/) //перенести на stage2
+- [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 //упростить artQuiz таск на 1 неделю
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
