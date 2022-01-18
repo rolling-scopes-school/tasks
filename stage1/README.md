@@ -26,7 +26,7 @@
 
 ## Программа обучения
 ### Неделя #1 
-- [Модуль "Знакомство с RS School"](../stage0/modules/rs-school-intro/)
+- [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
@@ -78,6 +78,7 @@
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
 - [Проект "Self-introduction"](modules/self-introduction/)
+//собрать заявки на st
 
 ### Неделя #8
 - [Модуль: "Asynchronous JavaScript"](modules/async/)
@@ -91,9 +92,10 @@
 
 ### Неделя #10
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
-- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)- 
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
-//упростить artQuiz
+- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+//ООП перенести на эту неделю 
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/) //перенести на stage2
+//упростить artQuiz таск на 1 неделю
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 
 ### Неделя #11
