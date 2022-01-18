@@ -25,6 +25,6 @@
 
 
 ## Практика 
-- testing test (@helenakrasnova)
+- Вам необходимо пройти тест "Testing" в RS APP > Auto Test
 
 ## Дополнительные материалы
