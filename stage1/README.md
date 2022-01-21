@@ -92,10 +92,9 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md) TODO #513
+- [Проект "Подготовка к заданию Каталог. Классы, наследование, полиморфизм"]()
 
 ### Неделя #11
-- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
 - [Модуль: Web Storage](modules/web-storage/)
 - Подготовка к собеседованию с ментором
 
