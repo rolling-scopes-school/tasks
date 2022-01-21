@@ -20,6 +20,8 @@
 2 часа
 
 ## Теория 
+// добавить информацию о callback (@Pulya10c)
+TODO #511:
 1. [Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
 2. [Всплытие и погружение](https://learn.javascript.ru/bubbling-and-capturing)
 3. [Делегирование событий](https://learn.javascript.ru/event-delegation)

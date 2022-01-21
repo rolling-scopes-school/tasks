@@ -42,10 +42,10 @@
 ### Неделя #3. 07/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Собеседование с ментором](modules/technical-screening/)
-- [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 
 ### Неделя #4. 14/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Testing](modules/testing/)
 
 ### Неделя #5. 21/12/2021
