@@ -63,13 +63,11 @@
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-//заменить на таск по dom(пятнашки)
-- [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)TODO #514
 
 ### Неделя #6
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-//заменить на таск по dom(пятнашки)
 - [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) //передвинуть
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 
@@ -78,7 +76,7 @@
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
 - [Проект "Self-introduction"](modules/self-introduction/)
-//собрать заявки на st
+
 
 ### Неделя #8
 - [Модуль: "Asynchronous JavaScript"](modules/async/)
@@ -94,8 +92,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-//упростить artQuiz таск на 1 неделю
-- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md) TODO #513
 
 ### Неделя #11
 - [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
