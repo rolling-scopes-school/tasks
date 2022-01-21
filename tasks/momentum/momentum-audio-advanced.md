@@ -7,5 +7,5 @@
 
 В создании кастомного аудиоплеера могут помочь материалы:
 - Статья [Создание настраиваемого HTML5 Audio Player](https://webdesign.tutsplus.com/ru/tutorials/create-a-customized-html5-audio-player--webdesign-7081) (статья немного устарела, jQuery, который в ней используется, в проектах курса использовть запрещено)
-- [Custom Audio Player](https://codepen.io/EmNudge/pen/rRbLJQ) на codepen - умение разбираться в чужом коде и преобразовать его под свои требования - ценный и полезный навых, а codepen - отличный источник такого кода
+- [Custom Audio Player](https://codepen.io/EmNudge/pen/rRbLJQ) на codepen - умение разбираться в чужом коде и преобразовать его под свои требования - ценный и полезный навык, а codepen - отличный источник такого кода
 - [Simple Music Player](https://github.com/hecpolanco/Simple-Music-Player/blob/master/player.js) - [Demo](https://irinainina.github.io/Simple-Music-Player/player) - пример приведён потому, что в нём есть возможность переключения треков плейлиста, которой нет в предыдущем примере, и чтобы показать, что этот элемент может быть самостоятельным интересным приложением.
