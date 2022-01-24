@@ -45,12 +45,12 @@
 
 ### Неделя #4. 14/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
+- [Модуль: Async programming](modules/async/)
 - [Testing](modules/testing/)
 
 ### Неделя #5. 21/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
-- [Модуль: Async programming](modules/async/)
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 
 ### Новогодние каникулы. 28/12/2021 - 10/01/2022
 - https://github.com/mikhama/core-js-101 (Дедлайн - 24 января 2022)

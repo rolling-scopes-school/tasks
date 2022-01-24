@@ -79,7 +79,6 @@
 
 
 ### Неделя #8
-- [Модуль: "Asynchronous JavaScript"](modules/async/)
 - [Модуль: Git Recap](modules/git-recap/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 - [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
