@@ -53,9 +53,8 @@
 
 ### Неделя #4
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#1"](../tasks/museum/museum-stage1.md)
-- [Модуль: "Responsive Web Design"](modules/responsive-web-design/)
+- [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Модуль: "Вёрстка адаптивного макета"](modules/markup-livecoding/)
 - [Проект: "Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
