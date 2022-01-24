@@ -40,6 +40,8 @@
 - http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html
 - http://latentflip.com/loupe/
 - [Why is setTimeout(fn, 0) sometimes useful? (читать до конца)](http://stackoverflow.com/questions/779379/why-is-settimeoutfn-0-sometimes-useful)
+- [About the event loop in JavaScript or ""How asynchrony actually works""?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - 1 час
+- [Async JS](https://www.youtube.com/watch?v=EBKPtN7sjYc)
 
 #### Animations
 - [CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
