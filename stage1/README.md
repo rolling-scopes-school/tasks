@@ -25,7 +25,7 @@
 - (Желательно) Английский язык уровня Pre-intermediate. [Наши рекомедации](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Программа обучения
-### Неделя #1 
+### Неделя #1 (1 марта 2022)
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
@@ -33,7 +33,7 @@
 - ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
 - ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
-### Неделя #2
+### Неделя #2 (8 марта 2022)
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
@@ -43,7 +43,7 @@
     - Test HTML Basics	
     - Test CSS Basics
 
-### Неделя #3
+### Неделя #3 (15 марта 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
@@ -51,13 +51,13 @@
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
 - [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
 
-### Неделя #4
+### Неделя #4 (22 марта 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#1"](../tasks/museum/museum-stage1.md)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
 - [Проект: "Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
-### Неделя #5
+### Неделя #5 (29 марта 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
