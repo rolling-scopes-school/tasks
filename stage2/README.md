@@ -82,7 +82,6 @@
 - RS Lang. Разработка в командах 2-3 чел
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: Design Patterns](modules/design-patterns/)
-- [Модуль: SOLID](modules/solid/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #11. 15/02/2022
