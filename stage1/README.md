@@ -64,35 +64,35 @@
 - [Модуль: "Events"](modules/events/)
 - [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)TODO #514
 
-### Неделя #6
+### Неделя #6 (5 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) //передвинуть
 - Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
 
-### Неделя #7
+### Неделя #7 (12 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
 - [Проект "Self-introduction"](modules/self-introduction/)
 
-
-### Неделя #8
+### Неделя #8 (19 апреля 2022)
+- Регистрация на ShortTrack (по желанию) 
 - [Модуль: Git Recap](modules/git-recap/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
-- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
+- [Проект "CSS Meme Slider"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider) 
 
-### Неделя #9
+### Неделя #9 (26 апреля 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
 
-### Неделя #10
+### Неделя #10 (3 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Проект "Подготовка к заданию Каталог. Классы, наследование, полиморфизм"]()
 
-### Неделя #11
+### Неделя #11 (10 мая 2022)
 - [Модуль: Web Storage](modules/web-storage/)
 - Подготовка к собеседованию с ментором
 
