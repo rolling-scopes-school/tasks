@@ -28,11 +28,12 @@
 
 ## Дополнительные материалы
 1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
-2. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
-3. Интерактивный тренажер по Git: https://learngitbranching.js.org/?locale=ru_RU
-4. [Скринкаст по Git (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+2. [Инструкция по добавлению SSH в Git](https://github.com/TUstiugov/ssh-hints-for-win/blob/main/ssh-hints-for-win.md)
+3. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
+4. Интерактивный тренажер по Git: https://learngitbranching.js.org/?locale=ru_RU
+5. [Скринкаст по Git (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
     - основы
     - ветки
     - слияние
-5. [Конспект по Git](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
+6. [Конспект по Git](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
 
