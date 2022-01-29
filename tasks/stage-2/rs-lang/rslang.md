@@ -28,6 +28,9 @@
 - https://rslang-team16-alpoliakov.herokuapp.com/
 - https://rslang-team23-alexk08.netlify.app/
 - https://rslang-team-27-aplatkouski.herokuapp.com/
+- https://ulearning-69team.netlify.app/
+- https://vismmax-rslang.herokuapp.com/#/promo
+- https://rss-lang-team-53.web.app/
 
 ## Исходные данные
 
