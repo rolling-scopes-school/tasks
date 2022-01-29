@@ -26,13 +26,11 @@
 - https://rslang-team8-nin3439.netlify.app/#/
 - https://rslang-team15-natein.netlify.app/
 - https://rslang-team16-alpoliakov.herokuapp.com/
-- https://rslang-team19-rybakouvlad.herokuapp.com/
 - https://rslang-team23-alexk08.netlify.app/
 - https://rslang-team-27-aplatkouski.herokuapp.com/
-- https://rslang-team31.netlify.app/
-- https://rslang-team-34-bordo951.netlify.app/#/
-- https://react-rslang-48.netlify.app/
-- https://rslang-56-kulgeyko93.netlify.app/
+- https://ulearning-69team.netlify.app/
+- https://vismmax-rslang.herokuapp.com/#/promo
+- https://rss-lang-team-53.web.app/
 
 ## Исходные данные
 
