@@ -114,7 +114,7 @@ API позволяет получить данные от сервера, соо
   - по запросу `https://api.icndb.com/jokes` приходит список цитат
   - по запросу `https://api.icndb.com/jokes/random` приходит одна случайная цитата.
 - API с изображениями
-  - по запросу `https://api.unsplash.com/search/photos?query=springclient_id=SouHY7Uul-OxoMl3LL3c0NkxUtjIrKwf3tsGk1JaiVo` приходит список фото.
+  - по запросу `https://api.unsplash.com/search/photos?query=spring&client_id=SouHY7Uul-OxoMl3LL3c0NkxUtjIrKwf3tsGk1JaiVo` приходит список фото.
   - по запросу `https://api.unsplash.com/photos/random?query=spring&client_id=SouHY7Uul-OxoMl3LL3c0NkxUtjIrKwf3tsGk1JaiVo` получаем одно случайное фото.
 - API с информацией про фильмы
   - по запросу `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c` получаем список популярных фильмов
