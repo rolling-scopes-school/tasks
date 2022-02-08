@@ -13,6 +13,7 @@ JPG:
 - For deployment use `gh-pages`
 - The commit history should reflect the development process of the application. **[Commit requirements](https://docs.rs.school/#/en/git-convention)**
 - After finishing development, you shouls make a Pull Request from the `webdev` branch to the `master` branch . You don't need to merge a Pull Request
+- To submit the task for cross-check, you will need to host the page on gh-pages and share the link to your solution with your cross-checker
 
 ### Requirements for commits, pull request, repository
 - the work should be done in your private repository
