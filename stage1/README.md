@@ -47,20 +47,20 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Shelter"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/markups/level-2/shelter)
+- [Проект "Shelter"](../tasks/markups/level-2/shelter)
 
 ### Неделя #4 (22 марта 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"]()
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/markups/level-2/shelter)
+- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](../tasks/markups/level-2/shelter)
 
 ### Неделя #5 (29 марта 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"]()
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Shelter. DOM & Browser API"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/markups/level-2/shelter)
+- [Проект "Shelter. DOM & Browser API"](../tasks/markups/level-2/shelter)
 
 ### Неделя #6 (5 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"]()
@@ -71,12 +71,12 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект: Виртуальная клавиатура](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
 
 ### Неделя #8 (19 апреля 2022)
 - Регистрация на ShortTrack (по желанию) 
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/virtual-keyboard/virtual-keyboard-ru.md)
-- [Проект "CSS Meme Slider"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
 
 ### Неделя #9 (26 апреля 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
