@@ -28,15 +28,21 @@
 Задание будет оцениваться ментором в сентябре. Для удобства проверки создайте Pull Request(**МЕРЖИТЬ НЕ НАДО**).
 
 
-
-
 1) Api calls from Thunk - **3 балла**
 2) Redux State Management - **12 баллов**
 
 
-
-
 Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
 
+### Требования к репозиторию
+
+- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
+- в приватном репозитории школы от ветки `main` создайте ветку с названием задания, в ней создайте папку с названием задания, в папке разместите файлы проекта
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
+- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
+
 ### Теория
+Redux:
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts
 https://redux.js.org/introduction/getting-started
+https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s
