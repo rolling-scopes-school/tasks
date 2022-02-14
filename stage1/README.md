@@ -38,49 +38,45 @@
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
-- ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
 - Тесты:
     - Test HTML Basics	
     - Test CSS Basics
 
 ### Неделя #3 (15 марта 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
 - [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
+- [Проект "Shelter"](../tasks/markups/level-2/shelter)
 
 ### Неделя #4 (22 марта 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#1"](../tasks/museum/museum-stage1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"]()
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: "Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
+- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](../tasks/markups/level-2/shelter)
 
 ### Неделя #5 (29 марта 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#2"](../tasks/museum/museum-adaptive.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"]()
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)TODO #514
+- [Проект "Shelter. DOM & Browser API"](../tasks/markups/level-2/shelter)
 
 ### Неделя #6 (5 апреля 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"]()
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) //передвинуть
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
+- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных (@AlreadyBored)
 
 ### Неделя #7 (12 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект "Self-introduction"](modules/self-introduction/)
+- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
 
 ### Неделя #8 (19 апреля 2022)
 - Регистрация на ShortTrack (по желанию) 
-- [Модуль: Git Recap](modules/git-recap/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
-- [Проект "CSS Meme Slider"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
 
 ### Неделя #9 (26 апреля 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
@@ -88,12 +84,12 @@
 
 ### Неделя #10 (3 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
-- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Проект "Подготовка к заданию Каталог. Классы, наследование, полиморфизм"]()
+- [Модуль: Git Recap](modules/git-recap/)
+- [Модуль: Clean Code](modules/clean-code/)
+- Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Неделя #11 (10 мая 2022)
-- [Модуль: Web Storage](modules/web-storage/)
+- [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
 
 ## FAQ
