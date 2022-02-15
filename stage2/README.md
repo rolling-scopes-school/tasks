@@ -94,7 +94,6 @@
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #13. 01/03/2022
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 - Презентация финального проекта 
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
