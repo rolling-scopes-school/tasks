@@ -10,7 +10,7 @@
 - Формат: Cамообучение + вебинары + общение в Discord. Практические занятия проверяются и оцениваются ментором и во время кросс-чек.
 
 ## Программа обучения
-- Курс по [React](stage3-react.md) или [Angular](stage3-angular.md)
+- Курс по [React](stage3-react.md) или [Angular](../angular/)
 - Модули
     - Module: Agile workflow
     - Module: Software Development Life Cycle (SDLC)
