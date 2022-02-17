@@ -16,26 +16,32 @@
 
 
 1) Создать отдельную ветку для этого задания
-2) Переписать основную страницу на хуки сохранив функционал. все тесты по итогу должны работать
+2) Переписать основную страницу на хуки сохранив функционал. Все тесты по итогу должны работать
+3) Переписать форму на React Hook Form, сохранив функционал. Все тесты по итогу должны работать
 
 
 ### Оценка
 
 
-
-
-Задание будет оцениваться ментором в сентябре. Для удобства проверки создайте Pull Request(**МЕРЖИТЬ НЕ НАДО**).
-
-
-
+Задание будет оцениваться ментором в марте. Для удобства проверки создайте Pull Request(**МЕРЖИТЬ НЕ НАДО**).
 
 1) Hooks - **15 баллов**
 
 
-
-
 Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
 
-## Теория
+### Требования к репозиторию
 
-https://reactjs.org/docs/hooks-intro.html
+- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
+- в приватном репозитории школы от ветки `main` создайте ветку с названием задания, в ней создайте папку с названием задания, в папке разместите файлы проекта
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
+- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
+
+
+### Теория
+Introducing Hooks: https://reactjs.org/docs/hooks-intro.html
+React hooks: https://www.youtube.com/watch?v=3-Zh_DAzCi0
+React Course - Beginner's Tutorial for React JavaScript Library: https://www.youtube.com/watch?v=bMknfKXIFA8
+react-hook-form: https://react-hook-form.com/api/
+react-hook-form tutorial: https://www.youtube.com/watch?v=bU_eq8qyjic
+React-Hooks + ссылка на реп с кодом в комментах: https://www.youtube.com/watch?v=FAhnawACrOg&list=PLzLiprpVuH8cuG8ijG_m0-y63B3suk4vu&index=4&ab_channel=RollingScopesSchool
