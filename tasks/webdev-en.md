@@ -63,7 +63,7 @@ Example:
 - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ### Pay attention to the following important and common points:
-- The main blocks should be exactly placed on the screen width `1600px`, except for the `Subscribe block`, which background should span the whole screen.
+- The main blocks should be exactly placed on the screen width `1600px`, except for the `Subscribe block`, which background should span the whole screen. **-5 points penalty if not done**
 - Images, logos (if any) should be positioned within a logical container with the correct centering and positioning approach. 
 - Should work on the latest Chrome version
 - Task will be checked by a `cross-check`
