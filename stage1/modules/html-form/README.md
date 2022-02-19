@@ -14,7 +14,7 @@
 
 
 ## Практика 
-1. Вам необходимо пройти тест "HTML Forms" в RS APP > Auto Test
+1. Вам необходимо пройти тест "HTML Form" в RS APP > Auto Test
 
 ## Дополнительные материалы
 1. https://learn.javascript.ru/forms-controls

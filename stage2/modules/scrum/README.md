@@ -13,8 +13,7 @@
 - https://agilemanifesto.org/iso/ru/manifesto.html
 
 ## Практика 
-// Вам необходимо пройти тест "Scrum. Kanban" в RS APP > Auto Test
-// @helenakrasnova
+1. Вам необходимо пройти тест "Scrum. Kanban" в RS APP > Auto Test
 
 ## Дополнительные материалы
 1. [Kanban vs Scrum](https://www.coursera.org/articles/kanban-vs-scrum)
