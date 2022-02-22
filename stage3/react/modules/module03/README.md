@@ -18,9 +18,12 @@
 2) Выбрать апи
 Предлагается использовать следующие API(но можно использовать любое другое, которое вам нравится, если оно поддерживает поиск, пагинацию и сортировку): 
       - https://www.flickr.com/services/api/flickr.photos.search.html
-      - https://newsapi.org/docs/endpoints/everything   
       - https://the-one-api.dev/documentation
-**Обязательно, чтобы апи поддерживало поиск, пагинацию и сортировку**
+      - https://rickandmortyapi.com/documentation/
+      - https://developers.themoviedb.org/3/getting-started/introduction
+      - https://pipedream.com/apps/swapi
+      - https://github.com/public-apis/public-apis
+**Обязательно, чтобы апи поддерживало поиск, пагинацию и сортировку, хоть на этом этапе они не понадобятся, но велика вероятность что пригодятся позже**
 2) Переписать страницу для поиска, разбить ее на 2 логических части:
     - **строка поиска.** Вводим текст -> нажимаем Enter -> отправляем запрос к API с введенным параметром -> список результатов поиска обновляется
     - **список результатов поиска**: отображаем данные которые вернул API запрос при помощи Cards. 
