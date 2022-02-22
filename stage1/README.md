@@ -65,7 +65,7 @@
 ### Неделя #6 (5 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"]()
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных (@AlreadyBored)
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
 ### Неделя #7 (12 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
