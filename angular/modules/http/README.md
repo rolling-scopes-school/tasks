@@ -25,10 +25,10 @@
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://angular.io/tutorial/toh-pt6
-- https://angular.io/guide/http
-- https://angular.io/api/common/http
-- https://angular.io/api/common/http/HttpClient
-- https://angular.io/api/common/http/HttpResponse
-- https://angular.io/api/common/http/HttpHeaders
-- https://angular.io/api/common/http/HttpParams
+- [Get data from a server](https://angular.io/tutorial/toh-pt6)
+- [Communicating with backend services using HTTP](https://angular.io/guide/http)
+- [@angular/common/http](https://angular.io/api/common/http)
+- [HttpClient](https://angular.io/api/common/http/HttpClient)
+- [HttpResponse](https://angular.io/api/common/http/HttpResponse)
+- [HttpHeaders](https://angular.io/api/common/http/HttpHeaders)
+- [HttpParams](https://angular.io/api/common/http/HttpParams)

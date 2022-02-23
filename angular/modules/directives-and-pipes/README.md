@@ -28,10 +28,10 @@
 
 ## Дополнительные материалы
 
-- https://angular.io/api/core/Directive
-- https://angular.io/guide/attribute-directives
-- https://angular.io/guide/structural-directives
-- https://angular.io/api/core/Pipe
-- https://angular.io/guide/pipes
-- https://angular.io/api/common
-- https://angular.io/guide/cheatsheet
+- [Directive](https://angular.io/api/core/Directive)
+- [Attribute directives](https://angular.io/guide/attribute-directives)
+- [Writing structural directives](https://angular.io/guide/structural-directives)
+- [Pipe](https://angular.io/api/core/Pipe)
+- [Transforming Data Using Pipes](https://angular.io/guide/pipes)
+- [@angular/common](https://angular.io/api/common)
+- [Cheat Sheet](https://angular.io/guide/cheatsheet)

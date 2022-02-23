@@ -26,13 +26,13 @@
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://angular.io/tutorial/toh-pt4
-- https://angular.io/guide/architecture-modules
-- https://angular.io/guide/ngmodules
-- https://angular.io/guide/ngmodule-faq
-- https://angular.io/guide/architecture-services
-- https://angular.io/guide/dependency-injection
-- https://angular.io/guide/dependency-injection-providers
-- https://angular.io/guide/dependency-injection-in-action
-- https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
-- https://angular24.ru/tutorial/toh-pt4
+- [Add services](https://angular.io/tutorial/toh-pt4)
+- [Introduction to modules](https://angular.io/guide/architecture-modules)
+- [NgModules](https://angular.io/guide/ngmodules)
+- [NgModule FAQ](https://angular.io/guide/ngmodule-faq)
+- [Introduction to services and dependency injection](https://angular.io/guide/architecture-services)
+- [Dependency injection in Angular](https://angular.io/guide/dependency-injection)
+- [Dependency providers](https://angular.io/guide/dependency-injection-providers)
+- [Dependency injection in action](https://angular.io/guide/dependency-injection-in-action)
+- [Using forRoot() and forChild()](https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular)
+- [Создать HeroService](https://angular24.ru/tutorial/toh-pt4)

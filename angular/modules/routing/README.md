@@ -24,10 +24,10 @@
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://angular.io/tutorial/toh-pt5
-- https://angular.io/guide/router
-- https://angular.io/api/router
-- https://angular.io/api/router/RouterLinkActive
-- https://angular.io/api/router/ActivatedRoute
-- https://angular.io/api/router/Resolve
-- https://angular24.ru/tutorial/toh-pt5
+- [Add navigation with routing](https://angular.io/tutorial/toh-pt5)
+- [Common Routing Tasks](https://angular.io/guide/router)
+- [@angular/router](https://angular.io/api/router)
+- [RouterLinkActive](https://angular.io/api/router/RouterLinkActive)
+- [ActivatedRoute](https://angular.io/api/router/ActivatedRoute)
+- [Resolve](https://angular.io/api/router/Resolve)
+- [Добавить в приложение навигации с маршрутизацией](https://angular24.ru/tutorial/toh-pt5)

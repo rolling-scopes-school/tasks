@@ -25,8 +25,7 @@
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://angular.io/guide/testing
-- https://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/​
-- https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/
-- https://www.youtube.com/watch?v=Eu35xM76kKY
-- https://github.com/stas-dolgachov/angular-testing-lecture
+- [Testing](https://angular.io/guide/testing)
+- [Key qualities of a good unit test](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
+- [Unit testing in JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)
+- [Code angular-testing-lecture](https://github.com/stas-dolgachov/angular-testing-lecture)

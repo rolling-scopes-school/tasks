@@ -24,7 +24,7 @@
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://rxjs-dev.firebaseapp.com/api
-- http://rxmarbles.com/
-- https://www.learnrxjs.io/
-- https://www.npmjs.com/package/rxjs
+- [#BLACKLIVESMATTER](https://rxjs-dev.firebaseapp.com/api)
+- [RxJS Marbles](http://rxmarbles.com/)
+- [Learn RxJS](https://www.learnrxjs.io/)
+- [Reactive Extensions For JavaScript](https://www.npmjs.com/package/rxjs)

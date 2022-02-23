@@ -1,4 +1,5 @@
 # [Angular schedule.](../../) Intro. TypeScript
+
 ## В данном модуле студентам необходимо
 
 - Общие сведения об `Angular`.
@@ -8,6 +9,7 @@
 - Основы `Typescript`.
 
 ## Приблизительное время прохождения модуля
+
 теория - 3 часа
 задание - 2 часа
 
@@ -19,14 +21,15 @@
 - [Слайды](https://slides.com/alehserhyienia/angular-intro-typescript)
 
 ## Практическое задание
+
 - [Angular intro](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md)
 - Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
-- https://www.typescriptlang.org/docs/home.html
-- https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
-- https://www.typescriptlang.org/play/index.html
-- https://cli.angular.io/
-- https://angular.io/cli
-- https://angular.io/tutorial
-- https://angular24.ru/start
+
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
+- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+- [Online editor for TS](https://www.typescriptlang.org/play/index.html)
+- [CLI Overview and Command Reference](https://cli.angular.io/)
+- [Tour of Heroes app and tutorial](https://angular.io/tutorial)
+- [Начало работы с Angular: Ваше первое приложение](https://angular24.ru/start)

@@ -26,7 +26,7 @@
 
 ## Дополнительные материалы
 
-- https://angular.io/start/forms
-- https://angular.io/guide/reactive-forms
-- https://angular.io/guide/forms
-- https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
+- [Using forms for user input](https://angular.io/start/forms)
+- [Reactive forms](https://angular.io/guide/reactive-forms)
+- [Building a template-driven form](https://angular.io/guide/forms)
+- [Angular Forms Guide](https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/)
