@@ -27,9 +27,9 @@
 ## Программа обучения
 ### Неделя #1 (1 марта 2022)
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
-- [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
-- [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
-- [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
+- [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
+- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
+- [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
 - ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
 - ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
@@ -43,7 +43,7 @@
     - Test CSS Basics
 
 ### Неделя #3 (15 марта 2022)
-- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
+- [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
