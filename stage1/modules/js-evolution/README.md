@@ -9,32 +9,32 @@
     - [The State Of JavaScript](https://stateofjs.com/)
 - ES2015 
   - Arrays	
-    - Using the array spread operator
-    - Destructuring arrays
-    - Searching arrays with the .includes function
+    - [Using the array spread operator](https://medium.com/@luke_smaki/javascript-es6-spread-operator-and-rest-parameters-b3e89d112281)
+    - [Destructuring arrays](https://medium.com/swlh/array-destructuring-in-javascript-141196434d65)
+    - [Searching arrays with the .includes function](https://doka.guide/js/includes/)
   - Objects	
-    - Enhancing object literals 
-    - Creating objects with the spread operator
-    - Destructuring objects
-    - Iterating with the for/of loop
+    - [Enhancing object literals](https://www.geeksforgeeks.org/javascriptes6-object-literal-enhancement/) 
+    - [Creating objects with the spread operator](https://www.javascripttutorial.net/es-next/javascript-object-spread/)
+    - [Destructuring objects](https://javascript.info/destructuring-assignment#object-destructuring)
+    - [Iterating with the for/of loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
   - Complex Types of ES2015
-    - Maps
-    - Sets
-    - Symbols
+    - [Maps](https://doka.guide/js/map/)
+    - [Sets](https://doka.guide/js/set/)
+    - [Symbols](https://doka.guide/js/symbol/)
 - NPM & package.json
-  - What are packages and npm?
+  - [What are packages and npm?](https://docs.npmjs.com/about-npm)
   - Getting Started with npm	
-    - Initializing a package.json file
-    - Adding node packages
-    - Managing global directory
-    - Updating a package
-    - Removing a package
-    - Semantic versioning
-    - Introduction to package-lock.json
+    - [Initializing a package.json file](https://heynode.com/tutorial/create-packagejson-file/)
+    - [Adding node packages](https://docs.npmjs.com/downloading-and-installing-packages-locally)
+    - [Managing global directory](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
+    - [Updating a package](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
+    - [Removing a package](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
+    - [Semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
+    - [Introduction to package-lock.json](https://nodejs.dev/learn/the-package-lock-json-file)
   - Advanced Subjects	
-    - Working with a npm cache
-    - Scripting in package.json
-    - Introduction to npx
+    - [Working with a npm cache](https://docs.npmjs.com/cli/v7/commands/npm-cache)
+    - [Scripting in package.json](https://docs.npmjs.com/cli/v8/using-npm/scripts)
+    - [Introduction to npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
 
 ## Приблизительное время прохождения модуля
 3 часа
