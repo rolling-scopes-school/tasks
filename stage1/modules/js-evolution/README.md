@@ -44,7 +44,7 @@
   - [ES6 по-человечески](https://habr.com/ru/post/305900/) - 1 час
 
 ## Практика 
-  - [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2021Q3.md)
+  - [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q1.md)
 
 ## Дополнительные материалы
   - https://exploringjs.com/impatient-js/ch_history.html
