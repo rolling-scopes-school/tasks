@@ -68,7 +68,6 @@
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
 ### Неделя #7 (26 апреля 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
 - [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)

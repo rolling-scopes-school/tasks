@@ -30,7 +30,7 @@
   - подвкладки Preview, Response
     - содержимое ответа на запрос
 - Вкладка Application
-  - просмотр и манипуляции с Local Storage (Coockies, Session Storage опционально)
+  - просмотр и манипуляции с Local Storage (Cookies, Session Storage опционально)
 
 
 ## Приблизительное время прохождения модуля
