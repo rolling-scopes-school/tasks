@@ -38,6 +38,4 @@
 9. [Понимание javascript - работа с DOM](https://www.youtube.com/watch?v=-2WiaSvOj78&feature=youtu.be)
 
 ## Практика 
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks/custom-jquery.md
-
 1. Вам необходимо пройти тест "DOM Events" в RS APP > Auto Test
