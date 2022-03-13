@@ -50,7 +50,7 @@
 - https://youtu.be/ssORHjHHCzU
 
 ## Практика 
-1. Вам необходимо пройти тест "Webpack" в RS APP > Auto Test
+1. Вам необходимо пройти тест "Test Webpack Basics [RU]" в RS APP > Auto Test
 
 ## Дополнительные материалы
 //TODO Актуализировать содержание 
