@@ -1,14 +1,23 @@
-## Entry point to React course
-[Module 1](modules/module01)
+# RS School. Курс React. Stage#3
 
-[Module 2](modules/module02)
+## Программа обучения
+### Неделя #1 (22 марта 2022)
+[React. Components](modules/module01)
 
-[Module 3](modules/module03)
+### Неделя #2 (29 марта 2022)
+[React. Forms](modules/module02)
 
-[Module 4](modules/module04)
+### Неделя #3 (5 апреля 2022)
+[React. API](modules/module03)
 
-[Module 5](modules/module05)
+### Неделя #4 (12 апреля 2022)
+[React. Hooks](modules/module04)
 
-[Module 6](modules/module06)
+### Неделя #5 (19 апреля 2022)
+[React. Custom app state](modules/module05)
 
+### Неделя #6 (26 апреля 2022)
+[React. Redux](modules/module06)
+
+### Неделя #7 (3 мая 2022)
 [Technical React Interview](interview.md)
