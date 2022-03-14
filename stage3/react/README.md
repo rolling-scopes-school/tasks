@@ -19,5 +19,5 @@
 ### Неделя #6 (26 апреля 2022)
 [React. Redux](modules/module06)
 
-### Неделя #6 (3 мая 2022)
+### Неделя #7 (3 мая 2022)
 [Technical React Interview](interview.md)
