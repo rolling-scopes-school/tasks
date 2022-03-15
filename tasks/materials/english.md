@@ -47,7 +47,6 @@
 - [Busuu](https://www.busuu.com/ru)
 
 ### Видеокурсы
-- [Полиглот английский. Сокращённый курс](https://www.youtube.com/playlist?list=PL66DIGaegedqVBwaauzKVk7DNqIFaXrN_)
 - [Материалы уроков Полиглот с упражнениями](https://www.english-polyglot.com/)
 
 ### Карточки Anki
