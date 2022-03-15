@@ -41,7 +41,7 @@
 - [Модуль: "Angular. Unit test."](modules/unit-test/)
 
 ### Неделя #5-7 (18 апреля 2022 - 9 мая 2022)
-- Task review "Angular. HTTPClient & NgRx & Forms"
+- Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
 - [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
 
