@@ -19,33 +19,33 @@
   На воркшопе лекторы будут отвечать на Ваши вопросы (желательно готовить вопросы заранее) и будут показывать как применить полученные знания на практике.
 
 ## Программа обучения
-### Неделя #1 (14 марта 2022)
+### Неделя #1 (21 марта 2022)
 - [Модуль "Angular intro. TypeScript"](modules/intro/)
 - [Модуль "Angular. Components"](modules/components/)
 - [Модуль "Angular. Directives & Pipes"](modules/directives-and-pipes/)
 
-### Неделя #2 (21 марта 2022)
+### Неделя #2 (28 марта 2022)
 - Task review "Angular intro"
 - [Модуль: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/)
 - [Модуль: "Angular. Routing"](modules/routing/)
 
-### Неделя #3 (28 марта 2022)
+### Неделя #3 (4 апреля 2022)
 - Task review "Angular. Components, Directives, Pipes"
 - [Модуль "RxJS & Observables"](modules/rxjs/)
 - [Модуль "Angular. HTTP"](modules/http/)
 - [Модуль "Angular. Forms"](modules/forms/)
 
-### Неделя #4 (4 апреля 2022)
+### Неделя #4 (11 апреля 2022)
 - Task review "Angular.Modules, Services, Routing"
 - [Модуль: "Angular. Redux & NgRx"](modules/redux/)
 - [Модуль: "Angular. Unit test."](modules/unit-test/)
 
-### Неделя #5-7 (11 апреля 2022 - 25 апреля 2022)
+### Неделя #5-7 (18 апреля 2022 - 9 мая 2022)
 - Task review "Angular. HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
 - [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
 
-### Неделя #8 (2 мая 2022)
+### Неделя #8 (9 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания ["Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
 
 # Дополнительная информация
