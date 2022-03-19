@@ -28,21 +28,25 @@
 - Task review "Angular intro"
 - [Модуль: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/)
 - [Модуль: "Angular. Routing"](modules/routing/)
+- Воркшоп
 
 ### Неделя #3 (4 апреля 2022)
 - Task review "Angular. Components, Directives, Pipes"
 - [Модуль "RxJS & Observables"](modules/rxjs/)
 - [Модуль "Angular. HTTP"](modules/http/)
 - [Модуль "Angular. Forms"](modules/forms/)
+- Воркшоп
 
 ### Неделя #4 (11 апреля 2022)
 - Task review "Angular.Modules, Services, Routing"
 - [Модуль: "Angular. Redux & NgRx"](modules/redux/)
 - [Модуль: "Angular. Unit test."](modules/unit-test/)
+- Воркшоп
 
 ### Неделя #5-8 (18 апреля 2022 - 16 мая 2022)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
+- Воркшоп
 - [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
 
 ### Неделя #9 (16 мая 2022)
