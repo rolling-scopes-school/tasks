@@ -1,4 +1,14 @@
-# RS School. Курс React. Stage#3
+# RS School. Курс React.
+Курс предназначен для студентов RS School, которые прошли RS School stage #2, а также для новых студентов, которые имеют знания и практический опыт использования следующих технологий и инструментов:
+- JavaScript
+- TypeScript
+- Git, GitHub (clone, add, commit, push, pull, merge, rebase, работа с Pull Request)
+- NPM, Webpack
+- CSS3 / HTML5
+- Chrome DevTools, Figma
+- Понимание концепции REST API
+ВНИМАНИЕ! Менторы этого курса будут в первую очередь распределяться среди выпускников RS School stage #2.
+
 
 ## Программа обучения
 ### Неделя #1 (22 марта 2022)
@@ -21,3 +31,13 @@
 
 ### Неделя #7 (3 мая 2022)
 [Technical React Interview](interview.md)
+
+## Преподаватели курса
+- [Ihar Krasiuk](https://github.com/ragingyngvarr)
+- [Sergey Neprakhin](https://github.com/MadaShindeInai)
+- [Olga Bugrova](https://github.com/lyolya95)
+- [Andrej Podlubnyj](https://github.com/andron13) 
+- [Artyom Parfenenkov](https://github.com/ParfenenkovEdit)
+- [Yuliya Haluza](https://github.com/yuliaHope)
+- [Valery Dluski](https://github.com/valerydluski)
+
