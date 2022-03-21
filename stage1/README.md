@@ -49,7 +49,7 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Shelter"](../tasks/markups/level-2/shelter)
+- [Проект "Shelter"](stream1/shelter)
 
 ### Неделя #4 (12 апреля 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"]()
