@@ -38,7 +38,7 @@
 
 - Задание выполняется в приватном репозитории школы [Как работать с приватным репозиторием](https://docs.rs.school/#/stage2?id=Как-работать-с-приватным-репозиторием)
 - В приватном репозитории школы создайте ветку с названием `shelter`, в ней создайте папку с названием `shelter`, и в ней разместите файлы проекта. Проект будет содержать несколько страниц (2). Поэтому внутри на уровне с `assets` будет располагаться папка `pages`. Внутри `pages`, в папке `main` (папка по имени страницы), будут храниться файлы `.html`, `.css` и `.js`, относящиеся к данной странице. В папке `assets` по прежнему будут храниться изображения, иконки и файлы шрифтов, если есть. Как называть папки внутри `assets`: `images`, `icons`, `fonts`. Пример ниже:
-- ![shelter folder structure](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/shelter-folder-structure.jpg)
+- ![shelter folder structure](shelter-folder-structure.jpg)
 - Для деплоя используйте gh-pages [Как сделать деплой задания из приватного репозитория школы](https://docs.rs.school/#/stage2?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - История коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
 
@@ -63,7 +63,7 @@
 
 #### Десктоп версия Main (70 баллов)
 
-JPG: **[shelter. main-1280. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/shelter-main-1280px.jpg)**  
+JPG: **[shelter. main-1280. JPG](shelter-main-1280px.jpg)**  
 
 1. **Header** (`<header>` содержит только логотип и панель навигации)
 - Интерактивная панель навигации. По умолчанию, должен быть подсвечен первый элемент `About the shelter`.
@@ -104,7 +104,7 @@ JPG: **[shelter. main-1280. JPG](https://github.com/rolling-scopes-school/tasks/
 
 #### Десктоп версия Our Pets (30 баллов)
 
-JPG: **[shelter. Pets page. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/shelter-pets-1280px.jpg)**  
+JPG: **[shelter. Pets page. JPG](shelter-pets-1280px.jpg)**  
 
 1. **Header** (`<header>` содержит только логотип и панель навигации)
 - Интерактивная панель навигации. Должен быть подсвечен элемент `Our pets`.
