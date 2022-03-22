@@ -19,7 +19,7 @@
     - [Adding node packages](https://docs.npmjs.com/downloading-and-installing-packages-locally)
     - [Managing global directory](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
     - [Updating a package](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
-    - [Removing a package](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
+    - [Removing a package](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
     - [Semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
     - [Introduction to package-lock.json](https://nodejs.dev/learn/the-package-lock-json-file)
   - Advanced Subjects	
