@@ -75,7 +75,6 @@
 - [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
 
 ### Неделя #8 (10 мая 2022)
-- Регистрация на ShortTrack (по желанию) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
 - [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
@@ -83,7 +82,7 @@
 ### Неделя #9 (17 мая 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CSS Meme Slider"
 
 ### Неделя #10 (24 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
