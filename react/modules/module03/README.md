@@ -47,10 +47,11 @@
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
 
 ### Теория
-https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17
-https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18
-https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19
-React API: https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s
-Fetching Data with Fetch API: https://www.youtube.com/watch?v=r40gtnaTe9s
-Fetch Data from an API in React: https://www.youtube.com/watch?v=T3Px88x_PsA
-React Testing Library - Mock API Calls: https://www.youtube.com/watch?v=oMv2eAGWtZU
+
+- https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17
+- https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18
+- https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19
+- React API: https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s
+- Fetching Data with Fetch API: https://www.youtube.com/watch?v=r40gtnaTe9s
+- Fetch Data from an API in React: https://www.youtube.com/watch?v=T3Px88x_PsA
+- React Testing Library - Mock API Calls: https://www.youtube.com/watch?v=oMv2eAGWtZU

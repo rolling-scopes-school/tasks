@@ -40,8 +40,9 @@
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
 
 ### Теория
-useReducer: https://reactjs.org/docs/hooks-reference.html#usereducer
-useContext: https://reactjs.org/docs/hooks-reference.html#usecontext
 
-https://dev.to/madv/usecontext-with-typescript-23ln
-https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1
+- useReducer: https://reactjs.org/docs/
+- hooks-reference.html#usereducer
+- useContext: https://reactjs.org/docs/hooks-reference.html#usecontext
+- https://dev.to/madv/usecontext-with-typescript-23ln
+- https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1

@@ -43,20 +43,20 @@
 
 
 ### Теория
-https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit
 
-CRA: https://reactjs.org/docs/create-a-new-react-app.html
-Components: https://reactjs.org/docs/components-and-props.html
-React-router documentation + tutorial: https://reactrouter.com/docs/en/v6/getting-started/tutorial
-React-router video course: https://www.youtube.com/watch?v=0auS9DNTmzE
-React Testing Library documentation: https://testing-library.com/docs/react-testing-library/intro/
-React Testing Library course: https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s
+- https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit
+- CRA: https://reactjs.org/docs/create-a-new-react-app.html
+- Components: https://reactjs.org/docs/components-and-props.html
+- React-router documentation + tutorial: https://reactrouter.com/docs/en/v6/getting-started/tutorial
+- React-router video course: https://www.youtube.com/watch?v=0auS9DNTmzE
+- React Testing Library documentation: https://testing-library.com/docs/react-testing-library/intro/
+- React Testing Library course: https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s
 
-React:
-https://www.youtube.com/watch?v=L8CmtfCu9AI
-https://www.youtube.com/watch?v=Rrg4D6AHc5A
-https://www.youtube.com/watch?v=w9MvuGWVvkY
-short course react + typescript: https://www.youtube.com/watch?v=FJDVKeh7RJI
-full tutorial: https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s
+### React:
 
-Дополнительно: https://www.youtube.com/watch?v=GNrdg3PzpJQ
+- https://www.youtube.com/watch?v=L8CmtfCu9AI
+- https://www.youtube.com/watch?v=Rrg4D6AHc5A
+- https://www.youtube.com/watch?v=w9MvuGWVvkY
+- short course react + typescript: https://www.youtube.com/watch?v=FJDVKeh7RJI
+- full tutorial: https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s
+- Дополнительно: https://www.youtube.com/watch?v=GNrdg3PzpJQ

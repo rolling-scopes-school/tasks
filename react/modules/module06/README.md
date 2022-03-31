@@ -34,7 +34,8 @@
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
 
 ### Теория
+
 Redux:
-https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-https://redux.js.org/introduction/getting-started
-https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s
+- https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+- https://redux.js.org/introduction/getting-started
+- https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s
