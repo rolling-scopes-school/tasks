@@ -41,8 +41,7 @@
 
 ### Теория
 
-- useReducer: https://reactjs.org/docs/
-- hooks-reference.html#usereducer
-- useContext: https://reactjs.org/docs/hooks-reference.html#usecontext
-- https://dev.to/madv/usecontext-with-typescript-23ln
-- https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+- [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+- [useContext() with Typescript](https://dev.to/madv/usecontext-with-typescript-23ln)
+- [Using the useReducer Hook in React with TypeScript](https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1)

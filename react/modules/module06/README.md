@@ -36,6 +36,7 @@
 ### Теория
 
 Redux:
-- https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-- https://redux.js.org/introduction/getting-started
-- https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s
+- Redux Essentials, [Part 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+- [Getting Started with Redux](https://redux.js.org/introduction/getting-started)
+- React. Redux.Rolling Scopes School - [video](https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s)
+ 

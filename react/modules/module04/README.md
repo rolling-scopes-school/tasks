@@ -39,9 +39,9 @@
 
 ### Теория
 
-- Introducing Hooks: https://reactjs.org/docs/hooks-intro.html
-- React hooks: https://www.youtube.com/watch?v=3-Zh_DAzCi0
-- React Course - Beginner's Tutorial for React JavaScript Library: https://www.youtube.com/watch?v=bMknfKXIFA8
-- react-hook-form: https://react-hook-form.com/api/
-- react-hook-form tutorial: https://www.youtube.com/watch?v=bU_eq8qyjic
-- React-Hooks + ссылка на реп с кодом в комментах: https://www.youtube.com/watch?v=FAhnawACrOg&list=PLzLiprpVuH8cuG8ijG_m0-y63B3suk4vu&index=4&ab_channel=RollingScopesSchool
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React hooks](https://www.youtube.com/watch?v=3-Zh_DAzCi0)
+- React Course - [Beginner's Tutorial for React JavaScript Library](https://www.youtube.com/watch?v=bMknfKXIFA8)
+- [react-hook-form](https://react-hook-form.com/api/)
+- [react-hook-form tutorial](https://www.youtube.com/watch?v=bU_eq8qyjic)
+- [React-Hooks](https://www.youtube.com/watch?v=FAhnawACrOg&list=PLzLiprpVuH8cuG8ijG_m0-y63B3suk4vu&index=4&ab_channel=RollingScopesSchool) + ссылка на реп с кодом в комментах: 

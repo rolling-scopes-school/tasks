@@ -48,10 +48,12 @@
 
 ### Теория
 
-- https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17
-- https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18
-- https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19
-- React API: https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s
-- Fetching Data with Fetch API: https://www.youtube.com/watch?v=r40gtnaTe9s
-- Fetch Data from an API in React: https://www.youtube.com/watch?v=T3Px88x_PsA
-- React Testing Library - Mock API Calls: https://www.youtube.com/watch?v=oMv2eAGWtZU
+- Fetching Data with Fetch API: [ReactJS: Fetching Data with Fetch API and ComponentDidMount
+](https://www.youtube.com/watch?v=r40gtnaTe9s)
+- [Full React Tutorial #17 - Fetching Data with useEffect](https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17)
+- [Full React Tutorial #18 - Conditional Loading Message
+](https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18)
+- [Full React Tutorial #19 - Handling Fetch Errors](https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19)
+- [React API - video](https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s)
+- [Fetch Data from an API in React](https://www.youtube.com/watch?v=T3Px88x_PsA)
+- React Testing Library - [Mock API Calls - Mock Service Worker](https://www.youtube.com/watch?v=oMv2eAGWtZU) 
