@@ -43,20 +43,21 @@
 
 
 ### Теория
-https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit
 
-CRA: https://reactjs.org/docs/create-a-new-react-app.html
-Components: https://reactjs.org/docs/components-and-props.html
-React-router documentation + tutorial: https://reactrouter.com/docs/en/v6/getting-started/tutorial
-React-router video course: https://www.youtube.com/watch?v=0auS9DNTmzE
-React Testing Library documentation: https://testing-library.com/docs/react-testing-library/intro/
-React Testing Library course: https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s
+- [React. Components. Materials]( https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit)
+- CRA - [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Components- reactjs.org](https://reactjs.org/docs/components-and-props.html)
+- React-router [documentation + tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+- React-router [video course](https://www.youtube.com/watch?v=0auS9DNTmzE)
+- React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
+- React Testing Library course - [React Testing Library. Полный курс
+s](https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s)
 
-React:
-https://www.youtube.com/watch?v=L8CmtfCu9AI
-https://www.youtube.com/watch?v=Rrg4D6AHc5A
-https://www.youtube.com/watch?v=w9MvuGWVvkY
-short course react + typescript: https://www.youtube.com/watch?v=FJDVKeh7RJI
-full tutorial: https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s
+### React:
 
-Дополнительно: https://www.youtube.com/watch?v=GNrdg3PzpJQ
+- Rolling Scopes School Lithuania. [React 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
+- Rolling Scopes School Lithuania.[ React. Part 2](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
+- Rolling Scopes School Lithuania. [React. Part 3](https://www.youtube.com/watch?v=w9MvuGWVvkY)
+- Short course react + typescript - [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI)
+- Full tutorial: [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s)
+- Дополнительно: [React JS фундаментальный курс от А до Я](https://www.youtube.com/watch?v=GNrdg3PzpJQ)
