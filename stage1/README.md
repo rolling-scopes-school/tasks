@@ -75,7 +75,7 @@
 - [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
 
 ### Неделя #8 (10 мая 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 - [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 
