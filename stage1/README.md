@@ -72,7 +72,7 @@
 ### Неделя #7 (3 мая 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 
 ### Неделя #8 (10 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
