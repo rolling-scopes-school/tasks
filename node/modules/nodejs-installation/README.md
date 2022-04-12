@@ -9,5 +9,6 @@
 ## Estimated time to complete the module
 3 hours
 
+TODO: Add theory
 ## Theory
 - Lecture about Node.js installation & version management (upcoming)

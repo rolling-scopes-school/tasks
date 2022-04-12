@@ -14,5 +14,6 @@ TODO: add theory
 2. Lecture about debug
 
 ## Practice
-1. Assignment: File Manager
-
+1. Assignment: **File Manager**
+    - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md)
+    - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/score.md)

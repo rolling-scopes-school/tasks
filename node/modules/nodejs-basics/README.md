@@ -25,4 +25,6 @@ TODO: add theory
 2. Lecture about debug
 
 ## Practice
-1. Assignment: Node.js basics
+1. Assignment: **Node.js basics**
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/score.md)
