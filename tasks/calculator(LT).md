@@ -12,6 +12,7 @@ Browser Support: Google Chrome ( last version)
 
 **IMPORTANT!!!**
 Failure to host your solution and/or not providing a correct link to the hosted solution will result in 0 points!
+
 **IMPORTANT!!!**
 Do not use the eval ()! Using eval will award you a total of 1 points (a passing score), regardless of any other functionality implemented
 
