@@ -9,6 +9,7 @@
 ## Estimated time to complete the module
 3 hours
 
-TODO: Add theory
 ## Theory
 - Lecture about Node.js installation & version management (upcoming)
+- [How to install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
+- [nvm docs](https://github.com/nvm-sh/nvm#intro)
