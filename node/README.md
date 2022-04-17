@@ -42,4 +42,4 @@ Before the start of the course, the student must:
 - [Module "Node.js basics"](modules/nodejs-basics/README.md)
 
 ### Week 2
-- [Module "Node.js basics"](modules/nodejs-application/README.md)
+- [Module "Node.js application"](modules/nodejs-application/README.md)
