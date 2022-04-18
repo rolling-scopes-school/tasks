@@ -33,6 +33,22 @@
 
 ### Неделя #7 (3 мая 2022)
 [Technical React Interview](interview.md)
+[Project management app](../tasks/react/final-task-project-management-app.md)
+
+### Неделя #8 (10 мая 2022)
+[Technical React Interview](interview.md)
+[Project management app](../tasks/react/final-task-project-management-app.md)
+
+### Неделя #9 (17 мая 2022)
+[Technical React Interview](interview.md)
+[Project management app](../tasks/react/final-task-project-management-app.md)
+
+### Неделя #10 (24 мая 2022)
+[Technical React Interview](interview.md)
+[Project management app](../tasks/react/final-task-project-management-app.md)
+
+### Неделя #11 (31 мая 2022)
+Cross-check review: [Project management app](../tasks/react/final-task-project-management-app.md)
 
 ## Преподаватели курса
 - [Ihar Krasiuk](https://github.com/ragingyngvarr)
