@@ -47,10 +47,10 @@
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
 - Воркшоп
-- [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
+- [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
 
 ### Неделя #9 (16 мая 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания ["Project management application"](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/project-management-application)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания ["Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
 
 # Дополнительная информация
 ## Сертификат
