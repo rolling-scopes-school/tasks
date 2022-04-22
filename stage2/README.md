@@ -13,12 +13,14 @@
 ## Программа обучения
 
 ### Неделя #1. 23/11/2021
+- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
+- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 
-- [Подготовка к собеседованию с ментором](modules/technical-screening/)
-- [Модуль: Clean Code](modules/clean-code/)
+### Неделя #1. 23/11/2021
 - [Module: TypeScript: Basic](modules/typescript-basic/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["ArtQuiz"](../tasks/art-quiz/art-quiz.md)
-- Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #2. 30/11/2021
 - [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
@@ -40,8 +42,8 @@
 ```
 
 ### Неделя #3. 07/12/2021
+- [Модуль: Web Storage](modules/web-storage/)
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
-- [Собеседование с ментором](modules/technical-screening/)
 
 ### Неделя #4. 14/12/2021
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
@@ -49,14 +51,12 @@
 - [Testing](modules/testing/)
 
 ### Неделя #5. 21/12/2021
-- [Проект на TS "Бабушкины ёлочные игрушки. Часть #2."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
+- https://github.com/mikhama/core-js-101
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
+- [Модуль: "Patterns"](modules/patterns/)
 
-### Новогодние каникулы. 28/12/2021 - 10/01/2022
-- https://github.com/mikhama/core-js-101 (Дедлайн - 24 января 2022)
 
 ### Неделя #6. 11/01/2022
-
 - [Модуль: HTTP / HTTPS](modules/http/)
 - [Модуль: RESTful API Style](modules/restful-api/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
@@ -73,7 +73,7 @@
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 ### Неделя #9. 01/02/2022
-
+- [Подготовка к выполнению финального проекта](modules/final-task/)
 - RS Lang. Разработка в командах 2-3 чел
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
@@ -94,7 +94,6 @@
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #13. 01/03/2022
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 - Презентация финального проекта 
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3

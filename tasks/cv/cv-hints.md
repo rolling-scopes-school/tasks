@@ -44,7 +44,7 @@
 
 ![Image 8](https://i.ibb.co/6WVpC6z/image.png)
 
-- Можно вроверить в какой ветке сейчас вы находитесь с помощью команды `git branch`.
+- Можно проверить в какой ветке сейчас вы находитесь с помощью команды `git branch`.
 
 ![Image 9](https://i.ibb.co/znnfXDF/image.png)
 

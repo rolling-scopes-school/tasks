@@ -264,4 +264,6 @@
 - gets answers;
 - adds/corrects/explains/gives the right answer, if necessary.
 
+**Note:** preferable interview duration is 40-90 minutes. Also, it would be great to create a calendar appointment or let a student know in advance how much time the interview will take.
+
 #### Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.
