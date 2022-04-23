@@ -2,7 +2,7 @@
 Подготовительный этап поможет тем, кто мало знаком или совсем не знаком с программированием и хотел бы впоследствии успешно обучаться в RS School.  
 ## Описание 
 - Зачисляются все желающие
-- Время обучения: 10 недель
+- Время обучения: 13 недель
 - Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
 
 ## Программа обучения
@@ -16,32 +16,31 @@
 
 ### Неделя #2
 - [Модуль "Основы HTML"](modules/html-basics/)
-- Проект ["CV"](../tasks/cv/cv.md). 
-    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
-
-### Неделя #3
 - [Модуль "Основы CSS"](modules/css-basics/)
 - Проект ["CV"](../tasks/cv/cv.md). 
+    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
     - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
-### Неделя #4
+### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- [Модуль "Figma"](modules/figma)
 - Проект ["Portfolio"](../tasks/portfolio/portfolio.md) 
     - ["Portfolio#1. Фиксированная вёрстка"](../tasks/portfolio/portfolio-part1.md)
 
+### Неделя #4
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+
 ### Неделя #5
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Модуль "Figma"](modules/figma)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
+- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
+    - ["Portfolio#2. Адаптивная вёрстка"](../tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #6
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
-- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
-    - ["Portfolio#2. Адаптивная вёрстка"](../tasks/portfolio/portfolio-part2.md)
 
 ### Неделя #7
 - [Модуль "DOM API"](modules/dom-api/)
