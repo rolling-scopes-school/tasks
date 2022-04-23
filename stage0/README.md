@@ -25,8 +25,8 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Portfolio"](../tasks/portfolio/portfolio.md) 
-    - ["Portfolio#1. Фиксированная вёрстка"](../tasks/portfolio/portfolio-part1.md)
+- Проект ["Travel"](../tasks/travel/travel.md) 
+    - ["Travel#1. Фиксированная вёрстка"](../tasks/travel/travel-part1.md)
 
 ### Неделя #4
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
@@ -34,9 +34,9 @@
 
 ### Неделя #5
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#1"](../tasks/portfolio/portfolio-part1.md)
-- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
-    - ["Portfolio#2. Адаптивная вёрстка"](../tasks/portfolio/portfolio-part2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#1"](../tasks/travel/travel-part1.md)
+- Проект ["Travel"](../tasks/travel/travel.md)
+    - ["Travel#2. Адаптивная вёрстка"](../tasks/travel/travel-part2.md)
 
 ### Неделя #6
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
@@ -45,14 +45,14 @@
 ### Неделя #7
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#2"](../tasks/portfolio/portfolio-part2.md)
-- Проект ["Portfolio"](../tasks/portfolio/portfolio.md)
-    - ["Portfolio#3. Добавление функционала"](../tasks/portfolio/portfolio-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#2"](../tasks/travel/travel-part2.md)
+- Проект ["Travel"](../tasks/travel/travel.md)
+    - ["Travel#3. Добавление функционала"](../tasks/travel/travel-part3.md)
 
 ### Неделя #8
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Portfolio#3"](../tasks/portfolio/portfolio-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
 - Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
 
 ### Неделя #9
