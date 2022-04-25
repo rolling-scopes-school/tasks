@@ -12,6 +12,7 @@
 5. Display of elements
 6. Units ( px, rem, vh and so on)
 7. Box-model
+8. Selector specificity
 
 
 ### Flex
@@ -40,7 +41,6 @@
 8. Object and it's methods
 9. Function ( types of functions, parameters)
 10. call(), apply(), bind()
-11. Closures
-12. DOM ( manipulationg with DOM elements)
-13. DOM API
-14. Technical task
+11. DOM ( manipulationg with DOM elements)
+12. DOM API, querySelector
+13. Technical task
