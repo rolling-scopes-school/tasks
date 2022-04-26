@@ -54,6 +54,18 @@
 - добавьте в описание pull request ссылку на папку с бекендом, если бэкенд не был задеплоен.
 - репозиторий, в котором велась работа над проектом, после наступления дедлайна нужно сделать публичным.
 
+### Gitflow, workflow
+
+Вы вольны выбирать самостоятельный путь развития проекта и репозитория. Здесь указаны ссылки на описание и разбор популярных практик. 
+
+- [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
+  - [перевод](https://blog.noveogroup.ru/2020/05/podhody-k-upravleniju-vetkami-v-sistem/)
+- [Рабочий процесс Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+- [Стратегия ветвления ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
+- [GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
+- [Секретная ссылка к знаниям](https://www.google.com/search?q=gitflow+%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D1%8B)
+
 ## Технические требования
 
 - Локализация (минимум 2 языка). В приложении должна быть возможность смены языка по нажатию на ползунок в header
