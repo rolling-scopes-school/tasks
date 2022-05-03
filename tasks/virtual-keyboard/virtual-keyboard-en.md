@@ -37,7 +37,7 @@
 - the working application should be hosted on [GitHub Pages](https://pages.github.com/). It happens automatically on 'gh-pages' branch creation. Afterward, the page will be available at the address like https://your-github-account.github.io/name-of-your-repository
 
 ### Requirements for commits, pull request, repository
-- the work should be done in your private school's repository
+- the work should be done in your private repository
 - source code should be committed to a separate branch
 - the **master** branch should be empty (contain only files like README.md or .gitignore)
 - commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
