@@ -50,6 +50,6 @@ strBuilder
   .remove('l')                               // 'He';
   .sub(1,1)                                  // 'e';
   .get();                                    // -> 'e';
-
+```
 ##Evaluation criteria
 Each correct method is worth +7 points (100 points if every method is successfully implemented)
