@@ -60,7 +60,6 @@ https://github.com/vitaly-sazonov/kanban-rest
 Вы вольны выбирать самостоятельный путь развития проекта и репозитория. Здесь указаны ссылки на описание и разбор популярных практик. 
 
 - [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
-  - [перевод](https://blog.noveogroup.ru/2020/05/podhody-k-upravleniju-vetkami-v-sistem/)
 - [Рабочий процесс Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Стратегия ветвления ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
