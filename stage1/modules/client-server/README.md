@@ -5,6 +5,7 @@
 3. HTTPS протокол.
 4. CORS Cross-origin resource sharing.
 5. REST.
+6. HTTP 1.x, 2.x, 3x
 
 ## Приблизительное время прохождения модуля
 4 часа
@@ -19,3 +20,4 @@
 3. [Шифрование](https://doka.guide/tools/encoding/)
 4. [SSL-сертификаты](https://doka.guide/tools/ssl-certificates/)
 5. [Протокол HTTP](https://doka.guide/tools/http-protocol/)
+6. [HTTP/1 to HTTP/2 to HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
