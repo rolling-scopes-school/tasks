@@ -5,7 +5,7 @@
 3. HTTPS протокол.
 4. CORS Cross-origin resource sharing.
 5. REST.
-6. HTTP 1.x, 2.x, 3x
+6. HTTP 1.x, 2.x, 3.x
 
 ## Приблизительное время прохождения модуля
 4 часа
