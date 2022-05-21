@@ -43,3 +43,22 @@ Before the start of the course, the student must:
 
 ### Week 2
 - [Module "Node.js application"](modules/nodejs-application/README.md)
+
+### Week 3
+- Module "CRUD API"
+
+### Week 4
+- Module "Websocket basics"
+
+### Week 5
+- Module "GraphQL basics"
+
+### Week 6, Week 7
+- Module "Rest service"
+
+### Week 8
+- Module "Rest service: Logging & Error handling"
+- Module "Rest service: Containerization"
+### Week 9
+- Module "Rest service: Database & ORM"
+- Module "Rest service: Authentication & Authorization"
