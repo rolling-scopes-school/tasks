@@ -21,7 +21,7 @@ Before the start of the course, the student must:
 ## Course topics
 
 - Node.js basics
-- Websockets
+- WebSocket
 - GraphQL basics
 - REST API
 - Databases
@@ -45,10 +45,10 @@ Before the start of the course, the student must:
 - [Module "Node.js application"](modules/nodejs-application/README.md)
 
 ### Week 3
-- Module "CRUD API"
+- [Module "Network communication: HTTP"](modules/crud-api/README.md)
 
 ### Week 4
-- Module "Websocket basics"
+- [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
 ### Week 5
 - Module "GraphQL basics"
