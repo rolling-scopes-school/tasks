@@ -51,34 +51,20 @@
 
 ### Неделя #8
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
-- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
 
 ### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam)
-- Проект ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
-    - [js30#1.1-nature-sounds](../tasks/js30%23/js30-1.md)
-    - [js30#1.2-audio-player](../tasks/js30%23/js30-2.md)
-    - [js30#1.3-custom-video](../tasks/js30%23/js30-3.md)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
 
 ### Неделя #10
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#1"](../tasks/js30%23/js30.md#часть-1-работа-с-медиа)
-- Проект ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
-    - [js30#2.1-random-jokes](../tasks/js30%23/js30-4.md)
-    - [js30#2.2-image-galery](../tasks/js30%23/js30-5.md)
-    - [js30#2.3-movie-app](../tasks/js30%23/js30-6.md)
+- Проект ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
 
 ### Неделя #11
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#2"](../tasks/js30%23/js30.md#часть-2-работа-с-api)
-- Проект ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
-    - [js30#3.1-tic-tac-toe](../tasks/js30%23/js30-7.md)
-    - [js30#3.2-memory-game](../tasks/js30%23/js30-8.md)
-    - [js30#3.3-random-game](../tasks/js30%23/js30-9.md)
+- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #12
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS 30. Часть#3"](../tasks/js30%23/js30.md#часть-3-игра)
-- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
+- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
 
 
 ### Неделя #13
