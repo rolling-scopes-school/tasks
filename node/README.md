@@ -57,7 +57,7 @@ Before the start of the course, the student must:
 - Module "REST service"
 
 ### Week 8
-- Module "REST service: Logging & Error handling"
+- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
 - Module "REST service: Containerization"
 ### Week 9
 - Module "REST service: Database & ORM"
