@@ -54,11 +54,11 @@ Before the start of the course, the student must:
 - Module "GraphQL basics"
 
 ### Week 6, Week 7
-- Module "Rest service"
+- Module "REST service"
 
 ### Week 8
-- Module "Rest service: Logging & Error handling"
-- Module "Rest service: Containerization"
+- Module "REST service: Logging & Error handling"
+- Module "REST service: Containerization"
 ### Week 9
-- Module "Rest service: Database & ORM"
-- Module "Rest service: Authentication & Authorization"
+- Module "REST service: Database & ORM"
+- Module "REST service: Authentication & Authorization"
