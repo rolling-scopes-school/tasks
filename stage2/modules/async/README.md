@@ -25,7 +25,7 @@
 
 
 ## Практика 
-TODO
+1. Вам необходимо пройти тест "Async JS Test" в RS APP > Auto Test
 
 ## Дополнительные материалы
 "1. [Асинхронность в JavaScript. Таймеры, промисы, async/await](https://www.youtube.com/watch?v=Ih6Q7ka2eSQ&feature=youtu.be) - 2,5 часа

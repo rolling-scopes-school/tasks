@@ -298,4 +298,5 @@ getQuotes();
 
 Вместо JSON-файла с цитатами можно было создать js-объект с цитатами и работать с ним синхронно, но так как задача предложенного задания научиться писать асинхронный код, JSON-файл предпочтительнее.
 
-[Ссылка на JSON-файл](https://github.com/rolling-scopes-school/file-storage/blob/random-jokes/quotes.json) с цитатами на русском языке, созданный студентами предыдущего набора
+- [Ссылка на JSON-файл](https://github.com/rolling-scopes-school/file-storage/blob/random-jokes/quotes.json) с цитатами на русском языке, созданный студентами предыдущего набора
+- [Ссылка на JSON-файл](https://github.com/rolling-scopes-school/file-storage/blob/random-jokes/belarusian_quotes.json) с цитатами на белорусском языке, созданный студентами набора 2022q1

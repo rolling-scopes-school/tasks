@@ -147,13 +147,15 @@ If you can't find font you are looking for, just replace it with same serif-styl
 
 
 ## If you don't have Photoshop to work with .psd files
-There’s a good design tool: https://studio.psdetch.com/
+There’s a good design tool: [Photopea](https://www.photopea.com/) 
+No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
+It also supports work with layers and export operations (including .svg format).
+Another advantage is that its interface is very similar to that of Photoshop.
+
+
+Another alternative, give https://studio.psdetch.com/ a try.
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
 If you need to extract an image, the “export” function is available.
 It is perfectly functional to meet all the needs you would encounter in this homework.
 
-However, if you lack some of the functionality when using the previous service, give [Photopea](https://www.photopea.com/) a try.
-No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
-It also supports work with layers and export operations (including .svg format).
-Another advantage is that its interface is very similar to that of Photoshop.
 
