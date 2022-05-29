@@ -7,7 +7,7 @@
 ## Admission to the course
 
 - Anyone who wishes is enrolled in the course
-- The course is free of charge
+- The course is free
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Before the start of the course, the student must:
 ## Course topics
 
 - Node.js basics
-- Websockets
+- WebSocket
 - GraphQL basics
 - REST API
 - Databases
@@ -30,16 +30,37 @@ Before the start of the course, the student must:
 - Containerization, Docker
 - Authorization/authentication, JWT
 - Logging and error handling
-- Microservice architecture
 - Backend frameworks
 - TypeScript
 
 ## Course program
 
 ### Week 1
-
 - [Module "Node.js installation and configuration"](modules/nodejs-installation/README.md)
 - [Module "Node.js basics"](modules/nodejs-basics/README.md)
 
 ### Week 2
 - [Module "Node.js application"](modules/nodejs-application/README.md)
+
+### Week 3
+- [Module "Network communication: HTTP"](modules/crud-api/README.md)
+
+### Week 4
+- [Module "Network communication: WebSocket"](modules/websocket/README.md)
+
+### Week 5
+- [Module "GraphQL basics"](modules/graphql/README.md)
+
+### Week 6
+- [Module "REST service"](modules/rest/rest/README.md)
+
+### Week 7
+- [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
+- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
+
+### Week 8
+- [Module "REST service: Containerization"](modules/rest/containerization/README.md)
+- [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
+
+### Week 9
+- [Module "REST service: Nest.js modules"](modules/rest/nestjs-modules/README.md)
