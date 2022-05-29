@@ -7,7 +7,7 @@
 ## Admission to the course
 
 - Anyone who wishes is enrolled in the course
-- The course is free of charge
+- The course is free
 
 ## Prerequisites
 
