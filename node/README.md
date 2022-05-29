@@ -49,7 +49,7 @@ Before the start of the course, the student must:
 - [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
 ### Week 5
-- Module "GraphQL basics"
+- [Module "GraphQL basics"](modules/graphql/README.md)
 
 ### Week 6
 - [Module "REST service"](modules/rest/rest/README.md)
