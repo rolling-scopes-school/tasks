@@ -25,7 +25,8 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
      - a link to your YouTube video;
      - a link to your Reveal presentation's deploy;
      - (optional) a link to the transcript of your presentation;
-     - (optional) your comments;  
+     - (optional) your comments; 
+  7. Open a Pull Request. The title should be `presentation`.  Do not merge it.
 
 ### Advanced scope. Extra points for those, who perform online
   1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your 

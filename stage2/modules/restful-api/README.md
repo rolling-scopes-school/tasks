@@ -12,7 +12,7 @@
     - https://youtu.be/_EmcOWmstko
 
 ## Практика 
-TODO
+Вам необходимо пройти тест "RESTful API" в RS APP > Auto Test
 
 ## Дополнительные материалы
 1. [Разбираемся с REST и RESTful API](https://code.tutsplus.com/ru/tutorials/code-your-first-api-with-nodejs-and-express-understanding-rest-apis--cms-31697) - 1 час

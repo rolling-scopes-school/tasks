@@ -6,13 +6,10 @@
 - экспорт изображений
 
 ## Приблизительное время прохождения модуля
-4 часов
+30 минут
 
 ## Теория 
-1. [Figma с нуля](https://www.youtube.com/watch?v=z6mlqOGmjQQ&feature=youtu.be) (3.5 часов)
-
-## Дополнительные материалы
-- https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika
+1. [Фигма для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika) (30 минут)
 
 ## FAQ
 #### Я не могу скопировать или редактировать макет. Что делать?

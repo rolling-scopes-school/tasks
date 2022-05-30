@@ -24,7 +24,7 @@
 4 часа
 
 ## Теория
-1. Посмотреть [запись вводного занятия набора 2021Q3](https://youtu.be/31GK1mg9mIM) - 2 часа
+1. Посмотреть [запись вводного занятия набора 2021Q3](https://www.youtube.com/watch?v=k82f_NYIsvg) - 2 часа
 2. Посмотреть [запись "Как учиться в RS App"](https://www.youtube.com/watch?v=v_69DaeZ7dM&feature=youtu.be) - 1 час 
 3. Прочитать документацию о курсе https://docs.rs.school/   
    - Процесс обучения
@@ -40,9 +40,9 @@
 
 ## Практика 
 1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/registry/student). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
-2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-2021Q3 если нет, записаться https://app.rs.school/registry/student?course=js-fe-2021Q3 
+2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-preschool-2022q2 если нет, записаться https://app.rs.school/registry/student?course=js-fe-preschool-2022q2 
 3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats 
-4. Сохранить в закладки расписание курса - https://app.rs.school/course/schedule?course=js-fe-2021Q3
+4. Сохранить в закладки расписание курса - https://app.rs.school/course/schedule?course=js-fe-preschool-2022q2
 5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)). 
 
 ## Терминология, которую вам необходимо знать

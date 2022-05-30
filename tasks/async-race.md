@@ -1,10 +1,9 @@
-# async-race
+ # async-race
 
 | Folder name   | Branch name   |
 | ------------- | ------------- |
 | async-race    | async-race    |
 
-Date of the start and the deadline you can find in [the schedule](https://docs.google.com/spreadsheets/d/1oM2O8DtjC0HodB3j7hcIResaWBw8P18tXkOl1ymelvE/edit#gid=1646898206)
 
 ## Task "Async Race"
 

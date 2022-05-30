@@ -17,11 +17,14 @@
 2 часа
 
 ## Теория 
-1. [Testing](https://www.youtube.com/watch?v=xrS60rkoG3w) - 1 час
-// TODO @Mikita Zhuikou
+- https://doka.guide/js/how-to-test-and-why/
+- https://doka.guide/js/tdd/
+- https://doka.guide/js/how-to-simplify-tests/
+- https://doka.guide/js/testing-and-fake-objects/
+- https://doka.guide/js/integration-and-system-testing/
 
 
 ## Практика 
-// TODO @Mikita Zhuikou
+- Вам необходимо пройти тест "Testing" в RS APP > Auto Test
 
 ## Дополнительные материалы
