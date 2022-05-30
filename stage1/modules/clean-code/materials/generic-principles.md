@@ -166,29 +166,29 @@ for ( let i = 0; i < chips.length; i++) {
 
 ```
 const today = new Date();
-const weekday = today.getDay();
+const weekday = today.toLocaleDateString('en-US', {weekday: 'long'});
 
 // non DRY code
-if (weekDay === 'Sunday' || weekDay === 'Saturday' ) {
-    console.log('Today is ', today, 'So my day plan includes: ', 'sleep, eat, rest');
+if (weekday === 'Sunday' || weekday === 'Saturday' ) {
+    console.log(`Today is ${today} so my day plan includes: sleep, eat, rest`);
 } else {
-    console.log('Today is ', today, 'So my day plan includes: ', 'work, work, work');
+    console.log(`Today is ${today} so my day plan includes: work, work, work`);
 }
 
 // DRY code
 const today = new Date();
-const weekday = today.getDay();
+const weekday = today.toLocaleDateString('en-US', {weekday: 'long'});
 
-if (weekDay === 'Sunday' || weekDay === 'Saturday' ) {
+if (weekday === 'Sunday' || weekday === 'Saturday' ) {
     logDayPlan(today, 'sleep, eat, rest');
 } else {
     logDayPlan(today, 'work, work, work');
 }
 
 function logDayPlan(weekday, tasks) {
-    console.log('Today is ', weekday, 'So my day plan includes: ', tasks);
+    console.log(`Today is ${weekday} so my day plan includes: ${tasks}`);
 }
-
+	
 ```
 </details>
 
