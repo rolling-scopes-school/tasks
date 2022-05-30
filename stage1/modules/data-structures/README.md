@@ -29,8 +29,9 @@
 Вам необходимо пройти тест "Test Algorithms & Data structures" в RS APP > Auto Test
 
 Задачи:  
-- [Задачи: "basic-js"](https://github.com/AlreadyBored/basic-js)
 - [Задачи: "basic-js-ds"](https://github.com/AlreadyBored/basic-js-ds)
+- [Задачи: "basic-js"](https://github.com/AlreadyBored/basic-js)
+    - Выполните столько, сколько успеете.
 
 ## Дополнительные материалы
 1. Больше методов массива: [видео на YouTube](https://youtu.be/d8c-JgbpMHs), [документация MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
