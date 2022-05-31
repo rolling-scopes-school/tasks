@@ -92,4 +92,3 @@
 
 ## Проверка задания Travel#1
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- форма для кросс-чека https://portfolio-part1-check-list.netlify.app/
