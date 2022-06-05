@@ -20,8 +20,11 @@
 17 hours
 
 ## Theory 
-- [Lecture about Node.js basics](https://youtu.be/dcdjTqKV2_Q)
+- [Lecture about Node.js basics (2022Q2)](https://www.youtube.com/watch?v=oXoSeVbXX_M)
+- [Lecture about Node.js basics (previous)](https://youtu.be/dcdjTqKV2_Q)
 - [Lecture about debug](https://youtu.be/BP2I6VblN8U)
+- [Lecture about Modules in Node.js](https://www.youtube.com/watch?v=RXFOAqsWzFA)
+- [Lecture about Streams in Node.js](https://youtu.be/o1WPOQgPT3Y)
 - Node.js APIs:
   - [Filesystem API](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html)
   - [Streams API](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html)
