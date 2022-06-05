@@ -1,4 +1,5 @@
 ## Начало работы
+[HOME](../README.md)
 
 ### Устанавливаем Node.js
 Ссылка для скачивания [https://nodejs.org/en/](https://nodejs.org/en/)
