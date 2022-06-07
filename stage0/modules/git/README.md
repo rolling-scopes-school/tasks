@@ -16,7 +16,7 @@
 Практика: 4 часа
 
 ## Теория 
-1. Вам необходимо просмотреть видео-материалы [Теория по Git](https://youtu.be/6e4fVpZNxGM) (0.5 часа)
+1. [Запись лекции по Git прошлого набора](https://www.youtube.com/watch?v=6i0Wg-Pohg8)
 2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
 3. Вам необходимо просмотреть практические видео-материалы [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 часа)
 4. Для практического задания ознакомиться с [документацией Markdown](https://guides.github.com/features/mastering-markdown/) - можно коротко посмотреть возможности и синтаксис, а более глубоко погрузиться на практике (0.5 часа)
@@ -38,5 +38,4 @@
     - слияние
 6. [Конспект по Git](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
 7. Тренажёр по Git https://githowto.com/ru
-8. Запись [RSSchool для гуманитария](https://www.youtube.com/watch?v=mCnOni_mqdk&t=2796s) с разъяснениями по Git (ссылка с таймкодом) 
 
