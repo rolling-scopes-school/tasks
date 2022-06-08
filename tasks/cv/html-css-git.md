@@ -43,5 +43,5 @@
 
 ## Материалы:
 - [Работа с Git](git.md)
-- [Баовый шаблон HTML](https://webformyself.com/bazovyj-html5-shablon-dlya-lyubogo-proekta/)
+- [Базовый шаблон HTML](https://webformyself.com/bazovyj-html5-shablon-dlya-lyubogo-proekta/)
 - [Escape-последовательности](https://www.lexium.ru/2009/05/343/)
