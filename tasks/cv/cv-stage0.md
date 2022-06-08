@@ -77,7 +77,7 @@
 
 ## Проверка задания CV#3. CV Cross-Check
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- форма для кросс-чека https://cv-cross-check.netlify.app/
+- форма для кросс-чека https://rolling-scopes-school.github.io/checklist/ (пункт "CV#3. CV. Cross-Check")
 - видео с примером кросс-чека https://youtu.be/PPGO8Mvtc20
 - ссылки на самые лучшие работы вашего набора с очень высоким качеством выполнения добавьте, пожалуйста, в эту форму https://forms.gle/kcmAkFK4j1EGW5JS8
 
