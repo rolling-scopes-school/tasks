@@ -63,7 +63,7 @@
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #12
-- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 48h
+- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 96h
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
 
 
