@@ -1,4 +1,4 @@
-# [Stage#1.](../../) Classes & Prototypes
+# [Stage#2.](../../) Classes & Prototypes
 ## В данном модуле студентам необходимо изучить:
 - What is class
 - What is object
