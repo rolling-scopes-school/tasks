@@ -88,7 +88,7 @@
 1. Репозиторий +20
    - pull request выполнен в соответствии с [требованиями](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) +10
    - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
-2. Качество кода +80
+2. Качество кода +100
    - приложение полностью смигрированно на TypeScript +50:
      - используется Everyday Types + 10
      - используются Generics +10
