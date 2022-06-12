@@ -15,7 +15,7 @@
 ### Неделя #1. 14/06/2022
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md) 
+- [Задачи "Codewars2"](../tasks/codewars/Codewars-2022Q1-OOP.md) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 
 ### Неделя #2. 21/06/2022
