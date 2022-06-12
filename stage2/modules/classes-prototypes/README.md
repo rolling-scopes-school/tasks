@@ -42,7 +42,7 @@
 - https://kirilknysh.github.io/js-classes-talk/#/
 
 ## Практика 
-[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars2-2021Q3.md)
+[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-OOP.md)
 Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
 
 ## Дополнительные материалы
