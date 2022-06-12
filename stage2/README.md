@@ -53,7 +53,7 @@
 ### Неделя #6. 19/07/2022
 - https://github.com/mikhama/core-js-101
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Модуль: "Patterns"](modules/patterns/)
+- [Модуль: Design Patterns](modules/design-patterns/)
 
 
 ### Неделя #7. 26/07/2022
@@ -82,7 +82,6 @@
 
 - RS Lang. Разработка в командах 2-3 чел
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
-- [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 ### Неделя #12. 30/08/2022
