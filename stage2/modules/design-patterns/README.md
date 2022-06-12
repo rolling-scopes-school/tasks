@@ -25,5 +25,5 @@
 6 часов
 
 ## Дополнительные материалы
- [MVC](https://youtu.be/1Nk09Z4ca4A?t=5061)
- [Design Patterns](https://www.youtube.com/watch?v=pH7LauSInc8)
+ - [MVC](https://youtu.be/1Nk09Z4ca4A?t=5061)
+ - [Design Patterns](https://www.youtube.com/watch?v=pH7LauSInc8)
