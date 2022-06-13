@@ -10,19 +10,27 @@
 - Время обучения: 12 недель
 - Формат: Cамообучение + вебинары + общение в Discord. Практические занятия проверяются и оцениваются ментором и во время кросс-чек. В ходе обучения проводятся тренировочные интервью у разных менторов.
 
-## Программа обучения
+# Программа обучения
 
-### Неделя #1. 14/06/2022
+## Неделя #1. 14/06/2022
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Задачи "Codewars2"](../tasks/codewars/Codewars-2022Q1-OOP.md) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 
-### Неделя #2. 21/06/2022
+#### Активности менторов
+  - [Подтверждение регистрации на курс](https://docs.rs.school/#/mentoring-kick-off)
+
+## Неделя #2. 21/06/2022
 - [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Собеседование с ментором](modules/technical-screening/)
 
-### Неделя #3. 28/06/2022
+#### Активности менторов
+  - [Подтверждение регистрации на курс](https://docs.rs.school/#/mentoring-kick-off)
+  - [Получение студентов в ходе рандомного распределения](https://docs.rs.school/#/mentoring-kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+  - [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)  
+
+## Неделя #3. 28/06/2022
 - [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
@@ -40,61 +48,115 @@
 - В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
 - webpack настроен и работает с TypeScript
 ```
+#### Активности менторов
+  - [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
+  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 
-### Неделя #4. 05/07/2022
+## Неделя #4. 05/07/2022
 - [Модуль: Web Storage](modules/web-storage/)
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 
-### Неделя #5. 12/07/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - Выдача тем презентаций
+    - [Описание задания](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
+    - [Список тем](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). Вы можете выдать свою тему. 
+  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
+
+## Неделя #5. 12/07/2022
 - [Проект на TS "Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 - [Модуль: Async programming](modules/async/)
 - [Testing](modules/testing/)
+
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 
 ### Неделя #6. 19/07/2022
 - https://github.com/mikhama/core-js-101
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Модуль: Design Patterns](modules/design-patterns/)
 
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 
-### Неделя #7. 26/07/2022
+
+## Неделя #7. 26/07/2022
 - [Модуль: HTTP / HTTPS](modules/http/)
 - [Модуль: RESTful API Style](modules/restful-api/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
-### Неделя #8. 02/08/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
+  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+## Неделя #8. 02/08/2022
 
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
-### Неделя #9. 09/08/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+  - **TBD. Coming soon**
+
+## Неделя #9. 09/08/2022
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
-### Неделя #10. 16/08/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
+
+## Неделя #10. 16/08/2022
 - [Подготовка к выполнению финального проекта](modules/final-task/)
 - RS Lang. Разработка в командах 2-3 чел
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
-### Неделя #11. 23/08/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
+
+## Неделя #11. 23/08/2022
 
 - RS Lang. Разработка в командах 2-3 чел
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
-### Неделя #12. 30/08/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
+
+## Неделя #12. 30/08/2022
 
 - RS Lang. Разработка в командах 2-3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
-### Неделя #13. 06/09/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
+
+## Неделя #13. 06/09/2022
 - Кросс-чек RS Clone / RS Lang
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
-### Неделя #14. 13/09/2022
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
+
+## Неделя #14. 13/09/2022
 - Презентация финального проекта 
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
+
+#### Активности менторов
+  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - **TBD. Coming soon**
 
