@@ -107,22 +107,24 @@ quickSort(arr);
 
 **Бинарный поиск**
 ```js
-const arr = [1, 2, 4, 6, 1, 100, 0, 10000, 3];
+const arr = [-1, 0, 1, 2, 3, 4, 6, 100, 10000];
 
-function binarySearch(arr, i) {
-  let mid = Math.floor(arr.length / 2);
-
-  if (arr[mid] === i) {
-    return arr[mid];
-  } else if (arr[mid] < i && arr.length > 1) {
-    return binarySearch(arr.splice(mid, Number.MAX_VALUE), i);
-  } else if (arr[mid] > i && arr.length > 1) {
-    return binarySearch(arr.splice(0, mid), i);
-  } else {
-    return -1;
+function binarySearch(arr, i, left = 0, right = arr.length - 1) {
+  if (left > right) return -1;
+  else {
+    let mid = Math.floor((right + left) / 2);
+    if (arr[mid] === i) {
+      return mid;
+    } else if (arr[mid] > i) {
+      return binarySearch(arr, i, left, mid - 1);
+    } else {
+      return binarySearch(arr, i, mid + 1, right);
+    }
   }
 }
-binarySearch(arr, 100);
+
+binarySearch(arr, 5); // -1
+
 ```
 
 ## Базовые структуры данных
