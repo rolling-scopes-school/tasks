@@ -107,23 +107,46 @@ quickSort(arr);
 
 **Бинарный поиск**
 ```js
+
 const arr = [-1, 0, 1, 2, 3, 4, 6, 100, 10000];
 
-function binarySearch(arr, i, left = 0, right = arr.length - 1) {
+function binarySearchIterationMethod(arr, i) {
+  let left = 0;
+  let right = arr.length - 1;
+  let mid;
+
+  while (left <= right) {
+    mid = Math.floor((right + left) / 2);
+
+    if (arr[mid] === i) {
+      return mid;
+    } else if (arr[mid] > i) {
+      right = mid - 1;
+    } else {
+      left = mid + 1;
+    }
+  }
+
+  return -1;
+}
+
+binarySearchIterationMethod(arr, 100); // 7
+
+function binarySearchRecursiveMethod(arr, i, left = 0, right = arr.length - 1) {
   if (left > right) return -1;
   else {
     let mid = Math.floor((right + left) / 2);
     if (arr[mid] === i) {
       return mid;
     } else if (arr[mid] > i) {
-      return binarySearch(arr, i, left, mid - 1);
+      return binarySearchRecursiveMethod(arr, i, left, mid - 1);
     } else {
-      return binarySearch(arr, i, mid + 1, right);
+      return binarySearchRecursiveMethod(arr, i, mid + 1, right);
     }
   }
 }
 
-binarySearch(arr, 5); // -1
+binarySearchRecursiveMethod(arr, 5); // -1
 
 ```
 
