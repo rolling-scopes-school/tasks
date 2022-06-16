@@ -32,3 +32,5 @@
 - [Function](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 - [Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html)
 - [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
+- [TypeScript exercises](https://typescript-exercises.github.io/)
+- [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)
