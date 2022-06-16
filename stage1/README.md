@@ -76,7 +76,7 @@
 
 ### Неделя #8 (10 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
-- [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
+- [Проект "CSS Meme Slider"](../tasks/css-meme-slider) 
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 
 ### Неделя #9 (17 мая 2022)
@@ -93,6 +93,8 @@
 ### Неделя #11 (31 мая 2022)
 - [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
+
+### Перерыв (7 - 13 июня 2022)
 
 ## FAQ
 ### Что делать до старта обучения? 
