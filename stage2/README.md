@@ -77,7 +77,7 @@
 ### Неделя #6. 19/07/2022
 - https://github.com/mikhama/core-js-101
 - [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Модуль: Design Patterns](modules/design-patterns/)
+- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 
 #### Активности менторов
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
@@ -107,7 +107,7 @@
 
 ## Неделя #9. 09/08/2022
 - [Проект: Presentation. Recorded & Online](modules/presentation)
-- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
+- [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
