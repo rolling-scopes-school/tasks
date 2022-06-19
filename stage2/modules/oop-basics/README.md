@@ -323,7 +323,8 @@ class Airport {
 }
 
 ```
-
+## Практика
+Вам необходимо пройти тест "OOP Test" в RS APP > Auto Test
 ## Полезные статьи
 
 - [короткая статья на tproger](https://tproger.ru/translations/oop-principles-cheatsheet/)
