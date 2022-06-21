@@ -1,3 +1,15 @@
+# CoreJS Interview #2
+- Passing the Corejs Interview #2 is mandatory for obtaining the RS School certificate.
+- The students are not allowed to be interviewed by their current mentors.
+- The students without a mentor can also register for an interview.
+- Students should contact the interviewer themselves. Contact details will be available on the RS APP. **Note:** Students should consider that the mentor can be busy (vacation, business trip, workload, etc.), so please get in touch with him as soon as possible.
+- At the mentor's request, the interview can take place online or face-to-face.
+- Preferable interview duration is 45-90 minutes.
+- During the interview mentor:
+  - asks questions;
+  - gets answers;
+  - adds/corrects/explains/gives the right answer, if necessary.
+- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
 ## Question examples:
 
 ### JavaScript:
@@ -253,17 +265,3 @@
   Example:
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
 - `extendedPeriodOutput(period)` method should output in the console once per period how mach time has passed since the first function call and then increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
-
-#### Passing the interview
-
-1. You should contact the mentor personally. Contact details will be announced through Discord.
-2. At the request of the mentor, the interview can take place online or face-to-face.
-3. During the interview mentor:
-
-- asks questions;
-- gets answers;
-- adds/corrects/explains/gives the right answer, if necessary.
-
-**Note:** preferable interview duration is 40-90 minutes. Also, it would be great to create a calendar appointment or let a student know in advance how much time the interview will take.
-
-#### Take into account that mentor can be busy (vacation, business trip, workload and etc.), so contact him as soon as possible.

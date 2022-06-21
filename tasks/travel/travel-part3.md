@@ -27,7 +27,7 @@
 8. После окончания кросс-чека предыдущей части задания создайте и замержите Pull Request из ветки `travel` в ветку `gh-pages`.  
 Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.  
 Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке  
-`https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL/travel/`  
+`https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2022Q2/travel/`  
 в которой вместо GITHUB-USERNAME укажите свой никнейм на сайте GitHub
 8. После завершения работы отредактируйте Pull Request из ветки `travel` в ветку `main`, дополнив его функционалом третьей части задания.  
 Мержить данный Pull Request не нужно. 
