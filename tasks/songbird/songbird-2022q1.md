@@ -56,6 +56,16 @@ https://birds-quiz.netlify.com/
 - работа приложения проверяется в браузере Google Chrome последней версии
 - можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://material.io/), css-фреймворки, html и css препроцессоры
 - по согласованию с ментором можно использовать любые js-библиотеки и фреймворки за исключением jQuery. Использование jQuery не допускается
+- вам необходимо использовать TypeScript и придерживаться следующих требований:
+  - использование Everyday Types 
+  - использование Generics
+  - использование Object Types
+  - использование Classes
+  - использование Function
+  - нигде не используется тип Any
+  - ESLinter настроен на TypeScript (используется плагин typescript-eslint/recommended) и отсутствуют ошибки
+  - В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
+  - webpack настроен и работает с TypeScript
 
 ## Рекомендации по написанию кода
 - правильное именование переменных и функций
@@ -68,16 +78,6 @@ https://birds-quiz.netlify.com/
 - разбейте js-код на модули
 - используйте async/await функции для работы с асинхронным кодом
 - для сборки приложения используйте Webpack. Это может быть как ваша собственная, так и готовая сборка, например, https://www.npmjs.com/package/create-rss-app
-- вам необходимо использовать TypeScript и придерживаться следующих правил при выполнения задания:
-  - использование Everyday Types 
-  - использование Generics
-  - использование Object Types
-  - использование Classes
-  - использование Function
-  - нигде не используется тип Any
-  - ESLinter настроен на TypeScript (используется плагин typescript-eslint/recommended) и отсутствуют ошибки
-  - В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
-  - webpack настроен и работает с TypeScript
 
 ## Требования к вёрстке и оформлению приложения
 - при вёрстке и оформлении приложения ориентируйтесь на демо, на созданные нашими студентами макеты (ссылки будут позже) на примеры дизайна на [dribbble](https://dribbble.com/tags/bird_app_ui) и [behance](https://www.behance.net/search/projects/?search=birds%20app)
