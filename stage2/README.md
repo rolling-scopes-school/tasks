@@ -76,6 +76,7 @@
     - Презентация в формате "online" выполняется дополнительно, строго по желанию студентов
   - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
   - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
+  - Если у вас менее двух студентов или вы хотите менторить больше. Открываете RS APP > "Interviews" > "Available students". Нажимаете "Want To Interview" и связываетесь со студентом сами (нотификаций они получают не всегда).
 </details>
 
 ## Неделя #5. 12/07/2022
