@@ -72,6 +72,8 @@
   - Выдача тем презентаций
     - [Описание задания](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
     - [Список тем](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). Вы можете выдать свою тему. 
+    - Презентация в формате "recorded" является обязательной для всех студентов. Записанный [ролик](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) будут проверять менторы после 16 августа.
+    - Презентация в формате "online" выполняется дополнительно, строго по желанию студентов
   - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
   - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания ["Бабушкины ёлочные игрушки. Часть #1."](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/christmas-task/christmas-task.md)
 </details>
@@ -138,6 +140,7 @@
   <summary markdown="span">Активности менторов</summary>
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -151,6 +154,11 @@
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - Задание ["Презентация"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md).
+    - Студенты могут получить 2 оценки.
+    - Презентация в формате "recorded" является обязательной для всех студентов. Ментору необходимо посмотреть ролик и выставить оценку.
+    - Презентация в формате "live" выполняется дополнительно, строго по желанию студентов. Оценку выставяет жюри. Ментор может выступить в роли жюри и организовать прослушивание "live" презентаций. В этом случае на презентации должно быть не менее 5 студентов и как минимум еще один ментор.
+  
 </details>
 
 ## Неделя #11. 23/08/2022
