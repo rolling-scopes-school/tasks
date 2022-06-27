@@ -1,7 +1,7 @@
 ## Custom Lodash
 
 Your task is to implement 'custom' version of the lodash library following next requirements:
-1. Usage of `Array.prototype.*` or `Object.prototype.*` **methods** is **strictly forbidden**. You can use the properties, like `length`
+1. Usage of `Array.prototype.*` or `Object.prototype.*` **methods** and **static methods** is **strictly forbidden**. You can use the properties, like `length`
 2. You can create your own additional service functions (if needed).
 3. You should use ES6+ features (any feature which supported by latest stable Chrome).
 4. Lodash chain is out of scope
