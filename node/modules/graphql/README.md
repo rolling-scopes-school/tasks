@@ -20,5 +20,5 @@
 
 ## Practice
 1. Assignment: **GraphQL basics**
-  - [Assignment]([https://example.com](https://github.com/kmetto/nodejs-assignments/blob/main/assignments/graphql-service/assignment.md))
+  - [Assignment](https://github.com/kmetto/nodejs-assignments/blob/main/assignments/graphql-service/assignment.md)
   - [Score calculation](https://github.com/kmetto/nodejs-assignments/blob/main/assignments/graphql-service/score.md)
