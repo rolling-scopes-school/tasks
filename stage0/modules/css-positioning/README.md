@@ -23,3 +23,4 @@
 2. [CSS: Flexbox](https://www.evernote.com/shard/s368/client/snv?noteGuid=4346cdea-9386-4738-bfff-f9faafc05e94&noteKey=fb6ec76312f7111b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2F4346cdea-9386-4738-bfff-f9faafc05e94%2Ffb6ec76312f7111b&title=CSS%253A%2BFlexbox%2B%2528htmlacademy.ru%2529) - 30 мин
 3. [Шпаргалка по Flexbox](https://habr.com/ru/post/313938/) - 30 мин
 4. [Изучение флексбоксов посредством игры](https://flexboxfroggy.com/#ru) - 1 час
+5. Вебинар RSSchool - [JS/FE Stage#0 2022Q2 CSS Flex](https://www.youtube.com/watch?v=zeKsh5uPeg0&t=12s&ab_channel=RollingScopesSchool) - 1,5 часа
