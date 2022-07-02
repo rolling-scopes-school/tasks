@@ -48,17 +48,18 @@ Before the start of the course, the student must:
 ### Week 4
 - [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
-### Week 5
+### Week 5, Week 6
+
 - [Module "GraphQL basics"](modules/graphql/README.md)
 
-### Week 6
+### Week 7
 - [Module "REST service"](modules/rest/rest/README.md)
 
-### Week 7
+### Week 8
 - [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 - [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
 
-### Week 8
+### Week 9
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
 - [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
 
