@@ -17,4 +17,4 @@
 ## Дополнительные материалы
 1. Хороший русскоязычный курс: https://learn.javascript.ru/first-steps - 16h
 2. Руководство от комьюнити Mozilla: https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide
-
+3. Webinar RSSchool - [JS/FE Stage#0 2022Q2 JS Basics](https://www.youtube.com/watch?v=PH37Zvp3vDY&t=83s&ab_channel=RollingScopesSchool)
