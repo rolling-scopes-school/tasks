@@ -17,4 +17,4 @@
 ## Дополнительные материалы
 1. Хороший русскоязычный курс: https://learn.javascript.ru/first-steps - 16h
 2. Руководство от комьюнити Mozilla: https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide
-
+3. Игра [Code Combat](https://codecombat.com/) для интерактивного изучения программирования
