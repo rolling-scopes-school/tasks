@@ -28,3 +28,4 @@
 - Вам необходимо пройти тест "Testing" в RS APP > Auto Test
 
 ## Дополнительные материалы
+- https://www.youtube.com/watch?v=xrS60rkoG3w&t
