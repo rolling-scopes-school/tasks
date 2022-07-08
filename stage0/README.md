@@ -57,7 +57,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
 
 ### Неделя #10
-- Проект ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
+- Проект ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
 
 ### Неделя #11
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
