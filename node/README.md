@@ -56,12 +56,9 @@ Before the start of the course, the student must:
 - [Module "REST service"](modules/rest/rest/README.md)
 
 ### Week 8
-- [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
-- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
-
-### Week 9
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
-- [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
+- [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 
 ### Week 9
-- [Module "REST service: Nest.js modules"](modules/rest/nestjs-modules/README.md)
+- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
+- [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
