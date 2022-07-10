@@ -24,5 +24,5 @@
 
 ## Practice
 1. Assignment: **REST Service: Authentication, JWT and Security**
-  - [Assignment](https://expample.com)
-  - [Score calculation](https://expample.com)
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/score.md)
