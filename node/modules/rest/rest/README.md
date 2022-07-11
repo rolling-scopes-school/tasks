@@ -17,5 +17,5 @@
 
 ## Practice
 1. Assignment: **REST Service: Logging and error handling**
-  - [Assignment](https://expample.com)
-  - [Score calculation](https://expample.com)
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/score.md)
