@@ -52,6 +52,7 @@
 
 [Демо](https://rs-online-store.netlify.app/)  
 
+[Пример исходных данных для товаров](https://github.com/rolling-scopes-school/stage1-tasks/blob/christmas-task/data.js)
 Вы можете редактировать исходные данные или полностью изменить их с целью улучшения качества созданного приложения
 
 ## Ключевые навыки:
