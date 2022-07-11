@@ -16,6 +16,6 @@
 - [REST](https://ru.wikipedia.org/wiki/REST)
 
 ## Practice
-1. Assignment: **REST Service: Logging and error handling**
+1. Assignment: **REST Service: Basic**
   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/assignment.md)
   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/score.md)
