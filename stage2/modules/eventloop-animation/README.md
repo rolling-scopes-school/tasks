@@ -1,4 +1,4 @@
-# [Stage#1.](../../) Event Loop & Animation
+# [Stage#2.](../../) Event Loop & Animation
 ## В данном модуле студентам необходимо изучить:
 #### Event Loop
 - Event Loop
