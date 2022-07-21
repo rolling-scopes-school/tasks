@@ -38,7 +38,7 @@ If one of the mentioned above list’s items is not accomplished – grade for t
 ### Theory
 *	[React. Components. Materials](https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit)
 *	CRA - [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html)
-*	[Components- reactjs.org](https://reactjs.org/docs/components-and-props.html)
+*	[Components - reactjs.org](https://reactjs.org/docs/components-and-props.html)
 *	React-router [documentation + tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 *	React-router [video course](https://www.youtube.com/watch?v=0auS9DNTmzE) [RU]
 *	React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
