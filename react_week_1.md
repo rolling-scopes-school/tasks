@@ -44,7 +44,7 @@ If one of the mentioned above list’s items is not accomplished – grade for t
 *	React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
 *	React Testing Library course - [React Testing Library. Полный курс](https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s) [RU]
 ### React
-*	Rolling Scopes School Lithuania. [React 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
+*	Rolling Scopes School Lithuania. [React. Part 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
 *	Rolling Scopes School Lithuania. [React. Part 2](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
 *	Rolling Scopes School Lithuania. [React. Part 3](https://www.youtube.com/watch?v=w9MvuGWVvkY)
 *	Short course react + typescript - [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI)
