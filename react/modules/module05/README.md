@@ -1,47 +1,51 @@
-# Неделя 5
+# Week 5
 
-## React. Custom app state
-
-
-
-
-!! Задание выполняется в школьном приватном репозитории !!
-Нужно выполнять задание на базе предыдущего
+## React. custom app state
 
 
 
 
-Что должно быть сделано:
-
-1) Создать отдельную ветку для этого задания
-2) Создать стейт менеджмент используя useReducer и Context API, где сохранять результаты поиска и данные формы. Теперь при переключении между страницами все данные должны сохраняться.
-3) Добавить в глобальный стейт
-    - **переключатели для сортировки**(как минимум три варианта сортировки). Выбираем параметр -> отправляем запрос к API с введенным параметром -> список результатов поиска обновляется
-    -  **переключатели для пагинации.** Должна быть возможность выбрать количество результатов на странице и номер страницы, на которой мы находимся сейчас + общее количество страниц. Выбираем параметр -> отправляем запрос к API с введенным параметром -> список результатов поиска обновляется
-4) Кастомер изменил требования к выводу деталей. Теперь при нажатии на каждый айтем из результатов поиска не нужно открывать модалку, а открывать информацию на отдельной странице. Также на этой странице добавить ссылку "Назад". В хедере отобразить текущее положение. Страница с деталями должна брать данные из глобального стейта.
-Если данных нет, то сделать редирект на хоум пейдж.
-### Оценка
-
-Задание будет оцениваться ментором в течении первых 6 недель. Для удобства проверки создайте Pull Request в ветку предыдущего задания(**МЕРЖИТЬ НЕ НАДО**).
+!! The task should be done in the school's private repository!!
+It is necessary to do the task on the base of the previous one.
 
 
-1) Custom State Management - **9 баллов**
-2) Сортировка и пагинация  - **3 балла**
-3) Детали поиска в отдельной странице - **3 балла**
 
 
-Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
+What should be done:
 
-### Требования к репозиторию
+1) Create a separate branch for this task
+2) Create a state management using useReducer and Context API for search results and form data saving. Now, when switching between pages, all data should be saved.
+3) Add to global state
+    - **switches for sorting** (at least three sorting options). Select a parameter -> send a request to the API with the entered parameter -> the list of search results is updated
+    - **switches for pagination.** It should be possible to select the number of results per page and the number of the page we are currently on, the total number of pages. Select a parameter -> send a request to the API with the entered parameter -> the list of search results is updated
+4) The customer has changed the requirements for the output of parts: 
+    - Now, when you click on each item from the search results, you do not need to open a modal, but open the information on a separate page. 
+    - Also add a "Back" link on this page. 
+    - Display the current position in the header. 
+    - The detail page should take data from the global state.
+    - If there is no data, then redirect to the home page.
+### Criteria for evaluation
 
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки предыдущего задания создайте ветку с названием задания
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
+The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
-### Теория
 
-- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+1) Custom State Management - **9 points**
+2) Sorting and pagination - **3 points**
+3) Search details in a separate page - **3 points**
+
+
+If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
+
+### Repository requirements
+
+- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
+- create a branch with the name of the task in the school's private repository from the branch of the previous task. 
+- The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
+- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) [RU]. **You do not need to merge a Pull Request from the development branch to the branch of the previous task**
+
+### Theory
+
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#userreducer)
 - [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 - [useContext() with Typescript](https://dev.to/madv/usecontext-with-typescript-23ln)
-- [Using the useReducer Hook in React with TypeScript](https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1)
+- [Using the useReducer Hook in React with TypeScript](https://dev.to/craigaholliday/using-the-userreducer-hook-in-react-with-typescript-27m1)
