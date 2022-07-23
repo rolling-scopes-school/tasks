@@ -16,8 +16,8 @@ What must be done:
 
 
 1) Create a separate branch for this task
-2) Saving functionality, rewrite the main page with the hooks. All the test should be working in the end
-3) Saving functionality, rewrite the form with React Hook Form. All the test should be working in the end
+2) Saving functionality, rewrite the main page with the hooks. All tests should be working in the end
+3) Saving functionality, rewrite the form with React Hook Form. All tests should be working in the end
 
 ### Score
 
