@@ -22,7 +22,7 @@ What must be done:
 ### Score
 
 
-The task will be evaluated by a mentor during the first 6 weeks. To make the evaluation more convenient, create a Pull Request. (DO NOT MERGE).
+The task will be evaluated by a mentor during the first 6 weeks. To make the evaluation more convenient, please, create a Pull Request. (DO NOT MERGE).
 
 1) Hooks - **15 points**
 
