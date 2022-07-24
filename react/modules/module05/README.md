@@ -41,11 +41,11 @@ If at least one of the requirements is not completed, then the task is evaluated
 - the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
 - create a branch with the name of the task in the school's private repository from the branch of the previous task. 
 - The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
-- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) [RU]. **You do not need to merge a Pull Request from the development branch to the branch of the previous task**
+- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process). **You do not need to merge a Pull Request from the development branch to the branch of the previous task**
 
 ### Theory
 
-- [useReducer](https://reactjs.org/docs/hooks-reference.html#userreducer)
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 - [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 - [useContext() with Typescript](https://dev.to/madv/usecontext-with-typescript-23ln)
-- [Using the useReducer Hook in React with TypeScript](https://dev.to/craigaholliday/using-the-userreducer-hook-in-react-with-typescript-27m1)
+- [Using the useReducer Hook in React with TypeScript](https://dev.to/craigaholliday/using-the-usereducer-hook-in-react-with-typescript-27m1)
