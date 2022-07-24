@@ -55,10 +55,10 @@ Before the start of the course, the student must:
 ### Week 7
 - [Module "REST service"](modules/rest/rest/README.md)
 
-### Week 8
+### Week 8, Week 9
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
 - [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 
-### Week 9
+### Week 10
 - [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
 - [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
