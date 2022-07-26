@@ -1,58 +1,57 @@
-# Неделя 3
+# Week 3
 
 ## React. API
 
 
 
 
-!! Задание выполняется в школьном приватном репозитории !!
-Нужно выполнять задание на базе предыдущего
+!! You have to do this task in the school's private repository !!
+It should be based on the previous task.
 
-Что должно быть сделано:
+What should be done:
 
-1) Создать отдельную ветку для этого задания
-2) Выбрать апи
-Предлагается использовать следующие API(но можно использовать любое другое, которое вам нравится, если оно поддерживает поиск, пагинацию и сортировку): 
-      - https://www.flickr.com/services/api/flickr.photos.search.html
-      - https://the-one-api.dev/documentation
-      - https://rickandmortyapi.com/documentation/
-      - https://developers.themoviedb.org/3/getting-started/introduction
-      - https://pipedream.com/apps/swapi
-      - https://github.com/public-apis/public-apis
-**Обязательно, чтобы апи поддерживало поиск, пагинацию и сортировку, хоть на этом этапе они не понадобятся, но велика вероятность что пригодятся позже**
-2) Переписать страницу для поиска, разбить ее на 2 логических части:
-    - **строка поиска.** Вводим текст -> нажимаем Enter -> отправляем запрос к API с введенным параметром -> список результатов поиска обновляется
-    - **список результатов поиска**: отображаем данные которые вернул API запрос при помощи Cards. 
-3) Кастомер решил что требования поменялись. Каждый элемент списка теперь должен отображать минимальную информацию. При клике на элемент - отображаем всю доступную информацию об этом элементе в модальном окне. Закрываться модальное окно должно по клику на крестик в верхнем правом углу или по нажатию на странизу за пределами модального окна. При открытии модального окна на страницу должен быть наложен overlay.
-4) Сделать индикатор загрузки (компонент с анимацией или хотя бы строка - "Загружаем"). Расположение индикатора на свое чувство прекрасного.
+1) Create a separate branch for this task.
+2) Choose an API.
+   There are several recommended API, but you may use any other API, that you prefer if it supports searching, pagination and sorting.
+   - https://www.flickr.com/services/api/flickr.photos.search.html
+   - https://the-one-api.dev/documentation
+   - https://rickandmortyapi.com/documentation/
+   - https://developers.themoviedb.org/3/getting-started/introduction
+   - https://pipedream.com/apps/swapi
+   - https://github.com/public-apis/public-apis
+     **The API should support searching, pagination and sorting. Although you don’t need it at this stage, but there’s a good chance it might come in handy later.**
+3) Rewrite the search page, and split it into 2 logical parts:
+   - **Search bar.** Enter test -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
+   - **The result list of searching**: display the data that the API query returned using Cards.
+4) A customer decided to change requirement. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
+5) Creat a download indicator ( a component with animation, or at least with the string - ‘Downloading’). You should place this indicator with your own sense of beauty.
 
-Все логические части должны быть вынесены в компоненты.
-**User friendly интерфейс с индекатором загрузки и сообщениями на случай если данные не найдены или что-то сломалось приветствуются.**
-5) Добавить тесты, апи коллы в тестах замокать
+All the logical parts must be in separated components.
+**User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**
+5) Add tests. All the api-calls should be mocked in the tests.
 
-### Оценка
+### Criteria for evaluation
 
-Задание будет оцениваться ментором в течении первых 6 недель. Для удобства проверки создайте Pull Request(**МЕРЖИТЬ НЕ НАДО**).
+The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
-1) Тесты - **3 балла**
-2) App + API - **12 баллов**
+1) Tests - **3 points**
+2) App + API - **12 points**
 
-Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
+If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
 
-### Требования к репозиторию
+### Repository requirements
+- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
+- create a branch with the name of the  current task in the school's private repository from the branch of the previous task.
+- The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
+- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process).
 
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки предыдущего задания создайте ветку с названием задания
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
-
-### Теория
+### Theory
 
 - Fetching Data with Fetch API: [ReactJS: Fetching Data with Fetch API and ComponentDidMount
-](https://www.youtube.com/watch?v=r40gtnaTe9s)
+  ](https://www.youtube.com/watch?v=r40gtnaTe9s)
 - [Full React Tutorial #17 - Fetching Data with useEffect](https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17)
 - [Full React Tutorial #18 - Conditional Loading Message
-](https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18)
+  ](https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18)
 - [Full React Tutorial #19 - Handling Fetch Errors](https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19)
 - [React API - video](https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s)
 - [Fetch Data from an API in React](https://www.youtube.com/watch?v=T3Px88x_PsA)
