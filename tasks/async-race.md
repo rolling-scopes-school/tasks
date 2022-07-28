@@ -60,7 +60,7 @@ What are you waiting for? Let's coding!
 - (**+5**) Code shouldn't contain magical numbers or strings.
 
 ## Requirements to commits, PR and repo
-[Stage 2 requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
+[Stage 2 requirements](https://docs.app.rs.school/#/platform/pull-request-review-process)
 
 ## Key skills
 - Сommunication with a server (fetch, REST API)
