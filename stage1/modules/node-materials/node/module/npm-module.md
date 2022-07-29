@@ -1,4 +1,6 @@
 ### Установка модулей через npm.
+[HOME](../../README.md)
+
 Установим `npm` модуль `colors`. Для этого в терминале выполним команду  
 ```powershell
 npm install colors

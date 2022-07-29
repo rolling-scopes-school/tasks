@@ -18,8 +18,7 @@
 - [Видео 3](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
 
 ## Практика
-
--
+- Вам необходимо пройти тест "TS Basic" в RS APP > Auto Test
 
 ## Дополнительные материалы
 
@@ -32,3 +31,5 @@
 - [Function](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 - [Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html)
 - [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
+- [TypeScript exercises](https://typescript-exercises.github.io/)
+- [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)

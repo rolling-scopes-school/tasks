@@ -1,30 +1,30 @@
 # Codewars Easy
 
-- https://www.codewars.com/kata/function-1-hello-world
-- https://www.codewars.com/kata/can-we-divide-it
-- https://www.codewars.com/kata/capitalization-and-mutability
-- https://www.codewars.com/kata/century-from-year
-- https://www.codewars.com/kata/convert-a-number-to-a-string
-- https://www.codewars.com/kata/convert-a-string-to-a-number
-- https://www.codewars.com/kata/convert-to-binary
-- https://www.codewars.com/kata/even-or-odd
-- https://www.codewars.com/kata/fake-binary/javascript
-- https://www.codewars.com/kata/largest-square-inside-a-circle
-- https://www.codewars.com/kata/number-of-decimal-digits
-- https://www.codewars.com/kata/opposite-number
-- https://www.codewars.com/kata/perimeter-sequence
-- https://www.codewars.com/kata/remove-first-and-last-character
-- https://www.codewars.com/kata/remove-string-spaces
-- https://www.codewars.com/kata/string-ends-with
-- https://www.codewars.com/kata/simple-multiplication
-- https://www.codewars.com/kata/string-repeat
-- https://www.codewars.com/kata/students-final-grade
-- https://www.codewars.com/kata/switch-it-up
-- https://www.codewars.com/kata/thinkful-logic-drills-traffic-light
-- https://www.codewars.com/kata/third-angle-of-a-triangle
-- https://www.codewars.com/kata/transportation-on-vacation
-- https://www.codewars.com/kata/type-of-sum
-- https://www.codewars.com/kata/will-you-make-it
+- 8 kyu https://www.codewars.com/kata/function-1-hello-world
+- 8 kyu https://www.codewars.com/kata/can-we-divide-it
+- 8 kyu https://www.codewars.com/kata/capitalization-and-mutability
+- 8 kyu https://www.codewars.com/kata/century-from-year
+- 8 kyu https://www.codewars.com/kata/convert-a-number-to-a-string
+- 8 kyu https://www.codewars.com/kata/convert-a-string-to-a-number
+- 8 kyu https://www.codewars.com/kata/convert-to-binary
+- 8 kyu https://www.codewars.com/kata/even-or-odd
+- 8 kyu https://www.codewars.com/kata/fake-binary/javascript
+- 7 kyu https://www.codewars.com/kata/largest-square-inside-a-circle
+- 7 kyu https://www.codewars.com/kata/number-of-decimal-digits
+- 8 kyu https://www.codewars.com/kata/opposite-number
+- 7 kyu https://www.codewars.com/kata/perimeter-sequence
+- 8 kyu https://www.codewars.com/kata/remove-first-and-last-character
+- 8 kyu https://www.codewars.com/kata/remove-string-spaces
+- 7 kyu https://www.codewars.com/kata/string-ends-with
+- 8 kyu https://www.codewars.com/kata/simple-multiplication
+- 8 kyu https://www.codewars.com/kata/string-repeat
+- 8 kyu https://www.codewars.com/kata/students-final-grade
+- 8 kyu https://www.codewars.com/kata/switch-it-up
+- 8 kyu https://www.codewars.com/kata/thinkful-logic-drills-traffic-light
+- 8 kyu https://www.codewars.com/kata/third-angle-of-a-triangle
+- 8 kyu https://www.codewars.com/kata/transportation-on-vacation
+- 8 kyu https://www.codewars.com/kata/type-of-sum
+- 8 kyu https://www.codewars.com/kata/will-you-make-it
 
 ## Как сабмитить задание
 Codewars - автопроверяемый таск.  
@@ -32,7 +32,13 @@ Codewars - автопроверяемый таск.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
-Ваш никнейм на сайте codewars должен быть таким же, как и GitHub никнейм, под которым вы зарегистрировались в rs app. Если указанный никнейм на codewars занят, добавьте к своему GitHub никнейму окончание -rss. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+Ваш никнейм на сайте codewars должен быть в формате:
+```
+rsschool_githubUsername
+```
+Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit. Например:
+
+![example](https://user-images.githubusercontent.com/12632270/177580063-fefa5281-8632-4c17-b888-13b0f2b05803.PNG)
 
 ## Scoring criteria
 

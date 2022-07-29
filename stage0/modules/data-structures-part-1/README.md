@@ -11,7 +11,7 @@
     - [Массив](https://youtu.be/Jvm4ShU86yw)
     - [Матрица](https://youtu.be/r8uHNxrfCwc)
     - [Стек](https://youtu.be/TqlSlaMak8Y)
-2. Прочить [конспект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md) 
+2. Прочитать [конспект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md) 
 
 ## Практика 
 Вам необходимо решить предложенные задачи.

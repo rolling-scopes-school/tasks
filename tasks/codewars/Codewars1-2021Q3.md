@@ -19,7 +19,6 @@
 * 7 kyu https://www.codewars.com/kata/head-tail-init-and-last 
 * 6 kyu https://www.codewars.com/kata/array-deep-count
 * 6 kyu https://www.codewars.com/kata/valid-string
-* 6 kyu https://www.codewars.com/kata/vasya-clerk 
 * 6 kyu https://www.codewars.com/kata/sorting-by-bits
 
 ## Functions
@@ -55,13 +54,13 @@ Codewars - автопроверяемый таск.
 ## Scoring criteria
 
 *  1 point for 7 kyu and Beta tasks (13 tasks at all)
-*  4 points - 6 kyu (11 at all)
+*  4 points - 6 kyu (10 at all)
 *  5 points - 5 kyu (1 at all)
 *  8 points - 4 kyu (1 at all)
 
-Total: 1 * 13 + 4 * 11 + 5 * 1 + 8 * 1  = 70
+Total: 1 * 13 + 4 * 10 + 5 * 1 + 8 * 1  = 66
 
-**Total sum - 70 points.**
+**Total sum - 66 points.**
 
 
 ## Материалы

@@ -22,4 +22,3 @@
 - [JavaScript Modules Past & Present](https://www.youtube.com/watch?v=GQ96b_u7rGc)
 - [4 Best Practices to Write Quality JavaScript Modules](https://dmitripavlutin.com/javascript-modules-best-practices/)
 - http://exploringjs.com/es6/ch_modules.html
-- http://jsmodules.io/cjs.html

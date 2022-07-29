@@ -7,10 +7,10 @@
     - Core JS.
     - Решения алгоритмических задач.
     - DOM, DOM Events, Browser API.
-    - Проект Momentum.
+    - Проект Виртуальная клавиатура.
     - Основы NodeJS.
     - Webpack
-    - Проект ArtQuiz
+    - Проект Clean Code.
     - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
 
 - Время обучения: 11 недель
@@ -25,80 +25,76 @@
 - (Желательно) Английский язык уровня Pre-intermediate. [Наши рекомедации](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Программа обучения
-### Неделя #1 
-- [Модуль "Знакомство с RS School"](../stage0/modules/rs-school-intro/)
-- [Модуль "Профессия \"JS/Front-end разработчик\""](../stage0/modules/js-fe-developer/)
-- [Модуль "Chrome Dev Tools, VS Code, Terminal"](../stage0/modules/basic-tools/)
-- [Модуль "Знакомство с системой контроля версий Git"](../stage0/modules/git/) 
+### Неделя #1 (15 марта 2022)
+- [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
+- [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
+- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
+- [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
 - ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
 - ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
-### Неделя #2
+### Перерыв (22 - 28 марта 2022)
+
+### Неделя #2 (29 марта 2022)
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
-- [Модуль: "JavaScript. Область видимости и функции](modules/functions/)- 
+- [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
-- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2021Q3.md)
-- ["Проект CV" Часть 3 "CV"](../tasks/cv/cv.md)
+- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2022Q1.md)
 - Тесты:
     - Test HTML Basics	
     - Test CSS Basics
 
-### Неделя #3
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV"](../tasks/cv/cv.md) 
-- [Модуль "Позиционирование в CSS. Flex."](../stage0/modules/css-positioning/)
+### Неделя #3 (5 апреля 2022)
+- [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Figma"](../stage0/modules/figma/)
+- [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Museum. Part#1. Фиксированная неадаптивная вёрстка"](../tasks/museum/museum-stage1.md)
+- [Проект "Shelter"](stream1/shelter)
 
-### Неделя #4
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#1"](../tasks/museum/museum-stage1.md)
-- [Модуль: "Responsive Web Design"](modules/responsive-web-design/)
+### Неделя #4 (12 апреля 2022)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
+- [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Модуль: "Вёрстка адаптивного макета"](modules/markup-livecoding/)
-- [Проект: "Museum. Part#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
+- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](stream1/shelter#неделя-2)
 
-### Неделя #5
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. Part#2"](../tasks/museum/museum-adaptive.md)
+### Неделя #5 (19 апреля 2022)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"](stream1/shelter#неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+- [Проект "Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
 
-### Неделя #6
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum. DOM & Browser API"](../tasks/museum/museum-dom.md)
+### Неделя #6 (26 апреля 2022)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- [Задачи "Codewars2"](../tasks/codewars/Codewars2-2021Q3.md)
-- Проверка уровня базовых знаний. Тесты и задачи по алгоритмам и структурам данных
-- [Проект "CodeJam HTML&CSS" 48h](https://docs.rs.school/#/rs-app-tasks?id=codejam) по HTML/CSS 
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
-### Неделя #7
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CodeJam HTML&CSS"
+### Неделя #7 (3 мая 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Модуль: "Asynchronous JavaScript"](modules/async/)
-- [Проект "Momentum"](../tasks/momentum/momentum-stage1.md)
+- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 
-### Неделя #8
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](../tasks/momentum/momentum-stage1.md)
-- [Модуль: Git Recap](modules/git-recap/)
-- [Проект "Self-introduction"](modules/self-introduction/)
+### Неделя #8 (10 мая 2022)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- [Проект "CSS Meme Slider"](../tasks/css-meme-slider) 
+- [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 
-### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
+### Неделя #9 (17 мая 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CSS Meme Slider"
 
-### Неделя #10
+### Неделя #10 (24 мая 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
-- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)- 
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
+- [Модуль: Git Recap](modules/git-recap/)
+- [Модуль: Clean Code](modules/clean-code/)
+- Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
-### Неделя #11
-- [Проект "ArtQuiz"](../tasks/art-quiz/art-quiz.md)
-- [Модуль: Web Storage](modules/web-storage/)
+### Неделя #11 (31 мая 2022)
+- [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
+
+### Перерыв (7 - 13 июня 2022)
 
 ## FAQ
 ### Что делать до старта обучения? 
@@ -127,6 +123,9 @@
 Да, можно. Записи вебинаров можно будет найти на нашем канале - [YouTube](https://youtube.com/c/rollingscopesschool).  
 
 Видео удобнее смотреть на скорости 1.25 или выше.
+
+### Обязательно ли смотреть вебинары школы?
+Нет. Ссылки на рекомендуемую для изучения теорию находится в модулях. После самостоятельного изучения материалов модуля вы можете посмотреть вебинар, чтобы закрепить информацию или задать вопросы тренеру.
 
  
 
