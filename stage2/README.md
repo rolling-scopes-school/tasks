@@ -148,7 +148,7 @@
 
 ## Неделя #10. 16/08/2022
 - [Подготовка к выполнению финального проекта](modules/final-task/)
-- RS Lang. Разработка в командах 2-3 чел
+- [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
@@ -165,7 +165,7 @@
 
 ## Неделя #11. 23/08/2022
 
-- RS Lang. Разработка в командах 2-3 чел
+- [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - Модуль: How Browsers Work. Rendering Flow. - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
@@ -178,7 +178,7 @@
 
 ## Неделя #12. 30/08/2022
 
-- RS Lang. Разработка в командах 2-3 чел
+- [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
