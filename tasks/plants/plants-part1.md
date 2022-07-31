@@ -1,4 +1,4 @@
-## Travel#1 - Фиксированная вёрстка
+## Plants#1 - Фиксированная вёрстка
 
 | Start task | Deadline task        | Start cross-check | Deadline cross-check |
 |------------|----------------------|-------------------|----------------------|
