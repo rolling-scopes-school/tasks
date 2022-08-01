@@ -166,7 +166,7 @@
 ## Неделя #11. 23/08/2022
 
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
-- [Module: how browser work](modules/how-browsers-work/)
+- [Module: how browsers work](modules/how-browsers-work/)
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
