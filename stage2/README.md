@@ -136,6 +136,7 @@
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
+- [Подготовка к выполнению финального проекта](modules/final-task/)
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
@@ -147,7 +148,6 @@
 </details>
 
 ## Неделя #10. 16/08/2022
-- [Подготовка к выполнению финального проекта](modules/final-task/)
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
