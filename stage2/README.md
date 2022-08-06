@@ -200,7 +200,7 @@
 </details>
 
 ## Неделя #14. 13/09/2022
-- Презентация финального проекта 
+- [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation/final-project-presentation.md)
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
 
