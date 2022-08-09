@@ -26,6 +26,7 @@
 
 ## Практика
 - [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-DP.md)
+- Вам необходимо пройти тест "Design Patterns Test" в RS APP > Auto Test
 
 ## Дополнительные материалы
  - [MVC](https://youtu.be/1Nk09Z4ca4A?t=5061)
