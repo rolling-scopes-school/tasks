@@ -18,11 +18,10 @@
 - https://habr.com/ru/company/ruvds/blog/332384/
 
 ## Практика
-- fp-basics test (@helenakrasnova)
+- Вам необходимо пройти тест "FP-basics" в RS APP > Auto Test
 - Recreate the map function
-- https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars3-2021Q3.md
 - Implement private variable
-- [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars3-2021Q3.md)
+- [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-FP.md)
 
  ## Дополнительные материалы
  https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84

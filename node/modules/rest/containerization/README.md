@@ -12,7 +12,7 @@
 - Communication between services into container
 
 ## Estimated time to complete the module
-10 hours
+5 hours
 
 ## Theory
 - [Lecture: Docker basics](https://youtu.be/kAM-_vZIYkI)
@@ -22,5 +22,5 @@
 
 ## Practice
 1. Assignment: **REST Service: Containerization**
-  - [Assignment](https://expample.com)
-  - [Score calculation](https://expample.com)
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/containerization/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/containerization/score.md)

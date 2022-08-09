@@ -13,12 +13,13 @@
 - Tools for working with GraphQL
 
 ## Estimated time to complete the module
-20 hours
+40 hours
 
 ## Theory 
+- [Lecture: GraphQL basics](https://www.youtube.com/watch?v=nKdaw3Jju5Q)
 - [GraphQL](https://graphql.org/learn/)
 
 ## Practice
 1. Assignment: **GraphQL basics**
-  - [Assignment](https://example.com)
-  - [Score calculation](https://example.com)
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/graphql-service/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/graphql-service/score.md)

@@ -17,7 +17,13 @@ Codewars - автопроверяемый таск.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
-Ваш никнейм на сайте codewars должен быть таким же, как и GitHub никнейм, под которым вы зарегистрировались в rs app. Если указанный никнейм на codewars занят, добавьте к своему GitHub никнейму окончание -rss. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+Ваш никнейм на сайте codewars должен быть в формате:
+```
+rsschool_githubUsername
+```
+Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit. Например:
+
+![example](https://user-images.githubusercontent.com/12632270/177580063-fefa5281-8632-4c17-b888-13b0f2b05803.PNG)
 
 ## Scoring criteria
 

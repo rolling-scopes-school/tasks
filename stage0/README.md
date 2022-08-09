@@ -8,7 +8,7 @@
 ## Программа обучения
 ### Неделя #1
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
-- [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
+- [Модуль "Профессия \"JS/Front-end разработчик\"](modules/js-fe-developer/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - Проект ["CV"](../tasks/cv/cv.md). 
@@ -57,7 +57,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
 
 ### Неделя #10
-- Проект ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
+- Проект ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
 
 ### Неделя #11
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
