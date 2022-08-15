@@ -14,7 +14,7 @@ Theory - 3 hours
 Assignment - 2 hours
 
 ## Theory
-- [TypeScript lecture](https://www.youtube.com/watch?v=h4Y4-QMz7dw)
+- [TypeScript lecture](https://www.youtube.com/watch?v=pA5l7-SFWWY)
 - [Angular intro lecture (till 48:25)](https://youtu.be/8lt8Mvxyo5E)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
 - [Slides (till Components)](https://slides.com/pavelrazuvalau/angular-intro-components)

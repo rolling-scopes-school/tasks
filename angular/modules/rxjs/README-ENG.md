@@ -6,7 +6,7 @@
 - `Observable`. `Subject`. `RxJS`  operators.
 
 ## Approximate time to complete this module:
-Theory - 1 hour
+Theory - 2 hours
 Assignment - 1 hour
 
 ## Theory 
