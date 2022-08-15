@@ -31,4 +31,3 @@ Assignment - 2 hours
 - [Online editor for TS](https://www.typescriptlang.org/play/index.html)
 - [CLI Overview and Command Reference](https://cli.angular.io/)
 - [Tour of Heroes app and tutorial](https://angular.io/tutorial)
-- [Basics of Angular: Your first application](https://angular24.ru/start)

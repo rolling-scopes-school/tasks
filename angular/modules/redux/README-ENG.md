@@ -21,8 +21,5 @@ Assignment - 4 hours
 - Mentor: Aleh Serhiyenia
 
 ## Additional materials
-- [Motivation](https://youtu.be/JWNVU-n7-6M)
-- [Architecture](https://youtu.be/2zPnr-8X2f8)
-- [Selectors](https://youtu.be/nzjWE0Xy7eU)
-- [Router State](https://youtu.be/8sLdUYEI3gk)
-- [Effects](https://youtu.be/EErZhuYrETA)
+- [General understanding of Flux](https://facebook.github.io/flux/)
+- [NxRx docs](https://ngrx.io/docs)

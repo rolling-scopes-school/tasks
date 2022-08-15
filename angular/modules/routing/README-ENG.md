@@ -29,4 +29,3 @@ Assignment - 1 hour
 - [RouterLinkActive](https://angular.io/api/router/RouterLinkActive)
 - [ActivatedRoute](https://angular.io/api/router/ActivatedRoute)
 - [Resolve](https://angular.io/api/router/Resolve)
-- [Add navigation and routing to application](https://angular24.ru/tutorial/toh-pt5)

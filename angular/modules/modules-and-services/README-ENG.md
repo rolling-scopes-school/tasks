@@ -30,4 +30,3 @@ Assignment - 2 hours
 - [Dependency providers](https://angular.io/guide/dependency-injection-providers)
 - [Dependency injection in action](https://angular.io/guide/dependency-injection-in-action)
 - [Using forRoot() and forChild()](https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular)
-- [Create HeroService](https://angular24.ru/tutorial/toh-pt4)
