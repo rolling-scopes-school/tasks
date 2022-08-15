@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Unit test
+# [Angular schedule.](../../README-ENG.md) Unit test
 
 ## In this module, students need to learn:
 
@@ -12,7 +12,7 @@ Theory - 2 hours
 practice - 1 hour
 
 ## Theory 
-- [lecture (video)](https://youtu.be/MSXCNHrmk9U)
+- Lecture (TBD)
 - [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-unit-testing)
 - [Slides](https://slides.com/pavelrazuvalau/angular-unit-testing)
 

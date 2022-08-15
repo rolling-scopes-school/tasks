@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Http
+# [Angular schedule.](../../README-RU.md) Http
 ## В данном модуле студентам необходимо
 
 - Модуль `HttpClientModule`.

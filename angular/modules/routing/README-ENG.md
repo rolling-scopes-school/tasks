@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Routing
+# [Angular schedule.](../../README-ENG.md) Routing
 
 ## In this module, students need to learn:
 
@@ -10,14 +10,12 @@
 
 ## Approximate time to complete this module:
 Theory - 1.5 hours
-practice - 1 hour
+Assignment - 1 hour
 
 ## Theory 
-- lectures: 
-    - [Angular 2020Q1. Routing](https://youtu.be/t_bGVB6jzUw)
-    - [Angular 2020Q3. Routing](https://youtu.be/Evhr5xb_qNY)
-    - [Angular 2021Q1. Routing](https://youtu.be/AFPb7JjQgCw)
-- [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
+- [Lecture](https://youtu.be/zmER4c9Nj_A)
+- [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/9c36d584cb393ec6bf860ec34dba1e3c4b9aa6fd)
 - [Slides](https://slides.com/pavelrazuvalau/angular-routing)
 
 ## Practical assignment

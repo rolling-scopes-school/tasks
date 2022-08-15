@@ -1,22 +1,20 @@
-# [Angular schedule.](../../) Redux & NgRx.
+# [Angular schedule.](../../README-ENG.md) Redux & NgRx.
 
 ## In this module, students need to learn:
 
 - `NgRx` library.
 - Store state management. `Store`, `Actions`, `Reducers`, `Selectors`.
-- application of `Effects`.
+- Application of `Effects`.
 - Advantages of `NgRx`.
 
 ## Approximate time to complete this module:
 Theory - 6 hours
-practice - 4 hours
+Assignment - 4 hours
 
 ## Theory 
-- lectures: 
-  - [Angular 2020Q1. Redux & NgRx](https://youtu.be/-8APehOVRLM)
-  - [Angular 2020Q3. NgRX](https://youtu.be/d2pkNhIS10o)
-  - [Angular 2021q1. NgRx](https://youtu.be/Yqtwmyn9YKE)
-- [Slides](https://drive.google.com/file/d/19m1kRSflNEVb7Z5zZRRPwVcFcu1oA54h/view?usp=sharing)
+- [Lecture](https://youtu.be/cW33_Zadfew)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/65fd4112292fa2c8a10597587bcd371b7e617fed)
+- [Slides](https://slides.com/pavelrazuvalau/angular-ngrx)
 
 ## Practical assignment
 - [Angular. NgRx](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/NgRX.md)

@@ -1,9 +1,9 @@
-# [Angular schedule.](../../) Components.
+# [Angular schedule.](../../README-ENG.md) Components.
 
 ## In this module, students need to learn:
 
 - Base application structure.
-- what is `Components`, Templates?
+- What are the `Components`, Templates?
 - Two-way data binding.
 - `Components` life cycle.
 - `Components` interaction.
@@ -16,14 +16,9 @@ Assignment: 2 hours
 
 ## Theory
 
-- lectures:
-  - [Angular 2020Q1. Components](https://youtu.be/rY_FWXmh4QI)
-  - [Angular 2020Q3. Components](https://youtu.be/M9ywugN1iDE)
-  - [Angular 2021Q1. Components](https://youtu.be/oOR3NpA02HI)
-- [Examples from video](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
-- Slides:
-  - [Angular 2020Q1. Components](https://slides.com/pavelrazuvalau/angular-components)
-  - [Angular 2021Q1. Components](https://slides.com/dzianis_davydau/components)
+- [Lecture (starting from 48:25)](https://youtu.be/8lt8Mvxyo5E?t=2905)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
+- [Slides](https://slides.com/pavelrazuvalau/angular-intro-components#/3)
 
 ## Practical assignment
 

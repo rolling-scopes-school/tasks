@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Http
+# [Angular schedule.](../../README-ENG.md) Http
 
 ## In this module, students need to learn:
 
@@ -8,18 +8,13 @@
 
 ## Approximate time to complete this module:
 Theory - 1 hour
-practice - 1 hour
+Assignment - 1 hour
 
 ## Theory
 
-- lectures:
-    - [Angular 2020Q1. HTTP](https://youtu.be/2LVepjuFjHw)
-    - [Angular 2021Q3. HTTPClient](https://youtu.be/jPvn4d6DrCg)
-    - [Angular 2021Q1. HTTPClient](https://youtu.be/7RkNSWZDNEE)
-- [Examples from video (part 1)](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-http)
-- [Examples from video (part 2)](https://github.com/pavelrazuvalau/angular-courses-app)
-- [Slides Angular 2020Q1. HTTP](https://slides.com/pavelrazuvalau/angular-http)
-- [Slides Angular 2021Q1. HTTPClient](https://slides.com/dzianis_davydau/http-client)
+- [Lecture (starting from 1:16:05)](https://youtu.be/fVhS7-LsvI4?t=4565)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/c431689f6a2c0eedf93ff760b30ee237f2c2e012)
+- [Slides](https://slides.com/pavelrazuvalau/angular-modules-services-http#/5)
 
 ## Practical assignment
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)

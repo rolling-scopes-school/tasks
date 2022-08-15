@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Components.
+# [Angular schedule.](../../README-RU.md) Components.
 
 ## В данном модуле студентам необходимо:
 

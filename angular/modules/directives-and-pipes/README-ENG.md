@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Directives & Pipes.
+# [Angular schedule.](../../README-ENG.md) Directives & Pipes.
 
 ## In this module, students need to learn:
 
@@ -11,14 +11,13 @@
 ## Approximate time to complete this module:
 
 Theory - 3 hours
-practice - 3 hours
+Assignment - 3 hours
 
 ## Theory
 
-- lectures:
-  - [Angular 2020Q1. Directives & Pipes](https://youtu.be/S7TKY7hfWa0)
-  - [Angular 2021Q1. Directives & Pipes](https://youtu.be/RLI6AGKwVcA)
-- [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes/src)
+- [Lecture](https://youtu.be/ezoPOrwQ-rw)
+- [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes/src)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/e935bfeef0e794a54907ea2c1978e06e7f914cd7)
 - [Slides](https://slides.com/pavelrazuvalau/angular-directives-pipes)
 
 ## Practical assignment

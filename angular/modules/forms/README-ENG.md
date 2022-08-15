@@ -1,23 +1,22 @@
-# [Angular schedule.](../../) Forms.
+# [Angular schedule.](../../README-ENG.md) Forms.
 
 ## In this module, students need to learn:
 
 - Basic knowledge of `Forms`. Understanding of Template and Reactive `Forms`. Built-in `Directives`.
 - Create `Forms`.
-- Understanding of validators and its application. Synchronous and asynchronous validators.
-- Create custom validators.
+- Understanding of validators and its application.
+- Creation of custom validators.
 - Form constructor - `FormGroup`, `FormControl`, `FormArray`.
 
 ## Approximate time to complete this module:
 
 Theory - 4 hours
-Practice - 4 hours
+Assignment - 4 hours
 
 ## Theory
 
-- lectures:
-  - [Angular. Forms](https://www.youtube.com/watch?v=t6kyXkl5qNw)
-  - [Angular Georgia. Forms](https://www.youtube.com/watch?v=I_1fm5wx7_4)
+- [Lecture](https://youtu.be/I_1fm5wx7_4)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/8ffdd73876c299e02fe3a392ab2c0870da9b44ab)
 - [Slides](https://slides.com/pavelrazuvalau/angular-forms)
 
 ## Practical assignment

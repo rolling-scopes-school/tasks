@@ -1,26 +1,20 @@
-# [Angular schedule.](../../) Modules & Services
+# [Angular schedule.](../../README-ENG.md) Modules & Services
 
 ## In this module, students need to learn:
 
-- Modules, application and usage.
+- Modules, application and usage of modules.
 - `CoreModule` and `SharedModule`.
 - Understanding of `Services` and its application.
 - Understanding of `Dependency injection` and how to use it.
 
 ## Approximate time to complete this module:
 Theory - 2 hours
-practice - 2 hours
+Assignment - 2 hours
 
 ## Theory 
-- lectures:
-    - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
-    - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
-    - [Angular 2021Q1. Modules, services, DI (part 1)](https://youtu.be/3l8kUDM1naQ)
-    - [Angular 2021Q1. Modules, services, DI (part 2)](https://youtu.be/LS6HfpoCPhQ)
-- [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-modules-services)
-- Slides:
-    - [Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
-    - [Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
+- [Lecture (till 1:16:05)](https://youtu.be/fVhS7-LsvI4)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/c431689f6a2c0eedf93ff760b30ee237f2c2e012)
+- [Slides (till HTTP)](https://slides.com/pavelrazuvalau/angular-modules-services-http)
 
 ## Practical assignment
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)

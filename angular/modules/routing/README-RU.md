@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Routing
+# [Angular schedule.](../../README-RU.md) Routing
 ## В данном модуле студентам необходимо изучить:
 
 - Основы маршрутизации.
