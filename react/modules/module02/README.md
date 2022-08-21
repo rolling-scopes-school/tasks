@@ -4,14 +4,14 @@
 ## React. Forms
 
 !! Task should be implemented in the school’s private repository !!
-You have to implement task using React.Components
+It should be based on the previous task.
 
 ### What should be done:
 
-1) You should create a separate branch for this task from previous branch task.
-2) You should create a separate route for forms.
-3) You should  develop form using uncontrolled components
-4) You should add functional to your app:
+1. Create a separate branch for this task from previous branch task.
+2. Create a separate route for forms.
+3. Form should be implemented using uncontrolled components
+4. Add functionality to your app:
    +  Collect information through a form
    +  You can collect any type of information, but form has to include at least one control of the following types: input, date input, dropdown/select, checkbox, switcher, file upload (image)
 
@@ -35,21 +35,21 @@ You have to implement task using React.Components
 
     In case the user filled in and submitted the form five times, then five cards have to be displayed under the form.
 
-5) You should add tests.
-6) All logic parts should be extracted into components.
+5. Add tests.
+6. All logic parts should be extracted into components.
    All data must be stored in a local state of the component.
-   Components should not call API.
+   Components should not make calls to APIa.
    Using redux or any other solutions for state management is prohibited.  
    **Using any libraries with components or form libraries is prohibited.**  
 
 
-### Criteria for evaluation
+### Score
 
 The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
 
-1) Tests - **3 points**
-2) Form + Cards - **12 points**
+1. Tests - **3 points**
+2. Form + Cards - **12 points**
 
 
 If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
@@ -65,8 +65,5 @@ If case of direct DOM manipulation - **0 points**
 **You do not need to merge a Pull Request from the development branch to the branch of the previous task** 
 
 ### Theory
-
-
 Forms in React:
-
 - https://reactjs.org/docs/forms.html
