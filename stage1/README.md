@@ -79,7 +79,6 @@
 - [Модуль: Git Recap](modules/git-recap/)
 - [Модуль: Clean Code](modules/clean-code/)
 - Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
-- [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 
 ### Неделя #9 (31 октября 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
@@ -88,6 +87,7 @@
 
 ### Неделя #10 (7 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
+- [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 - Финальный таск stage1
 
 ### Неделя #11 (14 ноября 2022)
