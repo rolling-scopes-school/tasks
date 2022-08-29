@@ -47,23 +47,23 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект "Shelter"](stream1/shelter)
+- [Проект на верстку](stream1/) @sergeyshalyapin 
 
 ### Неделя #4 (26 сентября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](stream1/shelter#неделя-2)
+- [Проект: ". Адаптивная вёрстка"](stream1/) @sergeyshalyapin 
 
 ### Неделя #5 (3 октября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"](stream1/shelter#неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
+- [Проект " DOM & Browser API"](stream1/) @sergeyshalyapin 
 
 ### Неделя #6 (10 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3) @sergeyshalyapin 
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
