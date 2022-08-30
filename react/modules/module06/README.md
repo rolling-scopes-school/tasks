@@ -3,25 +3,23 @@
 ## React. Redux
 
 
-
-
-!! You have to do this task in the school's private repository !!
+!! Task should be implemented in the school’s private repository !!
 It should be based on the previous task.
 
-What should be done:
+### What should be done:
 
-1) Create a separate branch for this task.
-2) Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/)
-3) Api requests should be moved to thunks
-4) Make a conclusion: what's better - custom state management with Context or Redux?
+1. Create a separate branch for this task.
+2. Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/)
+3. Api requests should be moved to thunks
+4. Make a conclusion: what's better - custom state management with Context or Redux?
 
-### Criteria for evaluation
+### Score
 
 The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
 
-1) Api calls from Thunk - **3 points**
-2) Redux State Management - **12 points**
+1. Api calls from Thunk - **3 points**
+2. Redux State Management - **12 points**
 
 
 If at least one of the requirements is not completed, then the task is evaluated as **0 points**.

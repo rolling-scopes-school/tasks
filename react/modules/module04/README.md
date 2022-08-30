@@ -3,28 +3,21 @@
 ## React. Hooks
 
 
+!! Task should be implemented in the school’s private repository !!
+It should be based on the previous task.
 
+### What should be done:
 
-!! The task must be done in the school’s private repository !! 
-Do the task on the basis of the previous one
-
-
-
-
-What must be done:
-
-
-
-1) Create a separate branch for this task
-2) Saving functionality, rewrite the main page with the hooks. All tests should be working in the end
-3) Saving functionality, rewrite the form with React Hook Form. All tests should be working in the end
+1. Create a separate branch for this task
+2. Retain the functionality and rewrite the main page with the hooks. All tests should be working in the end
+3. Retain the functionality and rewrite the form with React Hook Form. All tests should be working in the end
 
 ### Score
 
+The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
-The task will be evaluated by a mentor during the first 6 weeks. To make the evaluation more convenient, please, create a Pull Request. (DO NOT MERGE).
 
-1) Hooks - **15 points**
+1. Hooks - **15 points**
 
 If even one of the points is not completed, the score will be 0.
 
