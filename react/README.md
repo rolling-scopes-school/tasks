@@ -33,22 +33,22 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #7 (7th of November, 2022)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [Project management app](../tasks/react/project-management-system-EN.md)
 
 ### Week #8 (14th of November, 2022)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [Project management app](../tasks/react/project-management-system-EN.md)
 
 ### Week #9 (21st of November, 2022)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [Project management app](../tasks/react/project-management-system-EN.md)
 
 ### Week #10 (28th of November, 2022)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [Project management app](../tasks/react/project-management-system-EN.md)
 
 ### Week #11 (5th of December, 2022)
-Cross-check review: [Project management app](../tasks/react/final-task-project-management-app.md)
+Cross-check review: [Project management app](../tasks/react/project-management-system-EN.md)
 
 ## Lectors
 - [Ihar Krasiuk](https://github.com/ragingyngvarr)
