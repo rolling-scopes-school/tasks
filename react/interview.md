@@ -1,29 +1,30 @@
-# Техническое интервью
-Цель технического интервью - дать студентам возможность подготовиться теоретически и морально к вопросам по Реакту и экосистеме.
-## Интервью:
-1. Не является обязательным и не является обязательным для получения сертификата
-2. Должно проводиться после завершения основных 6 модулей, в период выполнения командной задачи
-3. Для того, чтобы быть допущенным на интервью, студент должен набрать минимум 40 баллов за первые 6 модулей, либо быть рекомендованным своим ментором.
+# Technical interview
+The goal of the technical interview is to give opportunity to students to be prepared to a real React interview.
+## Interview:
+1. Is not mandatory and is not required for a certificate
+2. Should be conducted after first 6 modules completion (during the final task phase)
+3. In order to be allowed to participate in an interview, student should gather at least 40 points during the first 6 modules or should have a recommendation from his mentor
 
-## Структура
-Само интервью стоит поделить на следующие части:
-1. Вводная часть  
-На данном этапе рекомендуется представиться, рассказать немного о своем опыте и предложить студенту представиться в ответ и рассказать о своем опыте (и о мотивации выбора фронт-енда и Реакта в частности).
-Также стоит ознакомить студента с общей структурой интервью и спросить, имеются ли вопросы по вводной части.
-**Данная часть должна помочь снять напряжение и настроить интервью на конструктивный лад.**
-2. Теория  
-Здесь можно и нужно задавать вопросы, и слушать и слышать ответы. Не стоит перебивать студента, либо отвечать за него. Имеет смысл делать пометки, чтобы обсудить спорные моменты позже, на стадии фидбека. 80% времени говорит студент, 20% - интервьюер.
-3. Практическое задание  
-Небольшой таск по Реакту, обращаем внимание на код, знание основных моментов Реакта, умение справляться с задачей.
-Для практического задания можно использовать совместные онлайн эдиторы типа [ReplIT](https://replit.com/)
-4. Фидбек  
-На основании пометок из предыдущих этапов, необходимо дать студенту объективную оценку. Подчеркнуть позитивные моменты (даже если их было мало), затем пройтись по проблемным. При этом жедательно аргументированно указывать на недостатки и дать материал, который поможет этот недостаток убрать.
-5. Завершение интервью  
-Важная часть. Необходимо спросить у студента, остались ли у того вопросы, здесь стоит также поблагодарить студента за уделенное время и пожелать ему успехов в дальнейшем.
+## Interview structure
+The technical interview should be comprised of:
+1. Introduction
+This part assumes acquaintance. You should introduce yourself, briefly tell about your experience and ask the student to introduce himself and describe his experience (you could also ask about his motivation in chosing the Front-end stack).
+You should also describe the interview structure and ask the student whether he/she has any questions.
+**This part should mitigate the tension and make the interview more productive.**
+2. Theory  
+You can and should ask questions and listen to the answers. Please, do not interupt the student or provide answers instead of him. It's worth making notes to discuss some specific answers later during the feedback. Student should be speaking approximately 80% of this part's time (the rest 20% should be an interviewer speaking).
+3. Practical task
+Small task in React. Please, pay attention to the code, knowledge of the basic React patterns and ability to solve the task.
+You can use online editors for mutual work for this task (e.g. [ReplIT](https://replit.com/))
+4. Feedback
+You can base it on the notes you were taking during the 2nd phase. The goal is to give an objective estimate. You should denote the good parts first (even if it was little), and then switch to the issues. Please, share the theoretical materials which can address the issue.
+5. Final part
+**Important part**
+You should ask the student whether he/she has any questions. You should also thank the student for his/her time and wish him/her all the best in his/her endevours.
 
 
-# Оценка
-За интервью может быть выдано максимум 15 баллов
+# Score
+Maximum 15 points
 
-# Вопросы
-Вопросы можно посмотреть [тут](questions.md)
+# Interview questions
+You can check the interview questions [heres](questions.md)
