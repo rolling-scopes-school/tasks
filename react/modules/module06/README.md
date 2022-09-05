@@ -1,48 +1,40 @@
-# Неделя 6
+# Week 6
 
 ## React. Redux
 
 
+!! Task should be implemented in the school’s private repository !!
+It should be based on the previous task.
+
+### What should be done:
+
+1. Create a separate branch for this task.
+2. Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/)
+3. Api requests should be moved to thunks
+4. Make a conclusion: what's better - custom state management with Context or Redux?
+
+### Score
+
+The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
 
-!! Задание выполняется в личном приватном репозитории !!
-Нужно выполнять задание на базе предыдущего
+1. Api calls from Thunk - **3 points**
+2. Redux State Management - **12 points**
 
 
+If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
 
+### Repository requirements
 
-Что должно быть сделано:
+- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
+- create a branch with the name of the current task in the school's private repository from the branch of the previous task.
+- the commit history should display the development process of the application. [Commit-name-requirements](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов) [RU]
+- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process). **DO NOT MERGE this Pull Request from the development branch into the previous task branch**
 
+### Theory
 
-
-1) Создать отдельную ветку для этого задания
-2) Переписать стейт менеджмент на Redux используя [RTK](https://redux-toolkit.js.org/)
-3) Реквесты к апи переместить в thunks
-4) Сделать выводы что лучше - кастомный стейт менеджмент через контекст либо Redux
-
-### Оценка
-
-
-
-
-Задание будет оцениваться ментором в сентябре. Для удобства проверки создайте Pull Request в ветку предыдущего задания(**МЕРЖИТЬ НЕ НАДО**).
-
-
-1) Api calls from Thunk - **3 балла**
-2) Redux State Management - **12 баллов**
-
-
-Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
-
-### Требования к репозиторию
-
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки `main` создайте ветку с названием задания, в ней создайте папку с названием задания, в папке разместите файлы проекта
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
-
-### Теория
 Redux:
-https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-https://redux.js.org/introduction/getting-started
-https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s
+- Redux Essentials, [Part 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+- [Getting Started with Redux](https://redux.js.org/introduction/getting-started)
+- React. Redux.Rolling Scopes School - [video](https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s)
+ 

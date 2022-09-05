@@ -3,20 +3,23 @@
 ## Набор рекомендуемых библиотек
 
 ```
-"@typescript-eslint/eslint-plugin": "^5.7.0",
-"@typescript-eslint/parser": "^5.7.0",
-"eslint-config-prettier": "^8.3.0",
-"eslint-config-react": "^1.1.7",
-"eslint-plugin-prettier": "^4.0.0",
-"husky": "^7.0.4",
-"lint-staged": "^12.1.2",
-"prettier": "^2.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
 ```
 
-## Конфигурцая eslint
+## Конфигурация eslint
 Может изменяться только с согласия ментора
 ```
-  {
+{
   "parser": "@typescript-eslint/parser",
   "extends": [
     "plugin:react/recommended",
@@ -25,14 +28,23 @@
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["@typescript-eslint", "react", "prettier", "react-hooks"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "root": true,
   "parserOptions": {
-    "ecmaVersion": 11,
-    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "ecmaVersion": "latest",
+		"sourceType": "module"
   },
+  "plugins": [
+    "@typescript-eslint", "react", "prettier", "react-hooks"
+  ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -42,7 +54,8 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "error",
@@ -50,18 +63,12 @@
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off"
   },
-  "settings": {
-    "react": {
-      "pragma": "React",
-      "version": "detect"
-    }
-  },
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true
-  },
-  "root": true
+	"settings": {
+		"react": {
+			"pragma": "React",
+			"version": "detect"
+		}
+	}
 }
 ```
 
@@ -78,3 +85,28 @@
 }
 ```
 
+## TSConfig
+
+```
+
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "esnext", "dom.iterable"],
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*", "styled.d.ts"]
+}
+```

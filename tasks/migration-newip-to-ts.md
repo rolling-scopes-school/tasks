@@ -88,14 +88,14 @@
 1. Репозиторий +20
    - pull request выполнен в соответствии с [требованиями](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) +10
    - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
-2. Качество кода +80
+2. Качество кода +100
    - приложение полностью смигрированно на TypeScript +50:
      - используется Everyday Types + 10
      - используются Generics +10
      - использование Object Types +10
      - использование Classes +10
      - использование Function +10
-   - ESLinter настроен на TypeScript и отсутствуют ошибки +10
+   - ESLinter настроен на TypeScript, включено правило `no-explicit-any` и отсутствуют ошибки +10
    - нигде не используется тип Any +10
    - В конфигурационном файле TypeScript стоят флаги `"noImplicitAny": true` и `"strict": true` + 20
    - webpack настроен и работает с TypeScript +10
@@ -108,7 +108,8 @@
 
 1. Используется тип Any -20
 2. Код не полностью покрыт типами -20
-3. В конфигурационном файле TypeScript не стоят обязательные флаги `"noImplicitAny": true` и `"strict": true` - 20
+3. В конфигурационном файле TypeScript не стоят обязательные флаги `"noImplicitAny": true` и `"strict": true` -20
+4. В конфигурационном файле ESLint не включено правило `no-explicit-any` -10
 
 ## Требования к репозиторию
 

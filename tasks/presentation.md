@@ -28,7 +28,7 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
      - (optional) your comments; 
   7. Open a Pull Request. The title should be `presentation`.  Do not merge it.
 
-### Advanced scope. Extra points for those, who perform online
+### Advanced scope. Extra points for those, who perform live
   1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your 
      Reveal presentation: **+10 points** (for courage)
   2. Your speech is fairly coherent: **+15 points**
@@ -36,7 +36,7 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
   4. C+ level of English: **+10 points**
 
 **❗️ Important:**  
-If you decide to perform online, you automatically agree, that your performance could be recorded and added to RS  
+If you decide to perform live, you automatically agree, that your performance could be recorded and added to RS  
 School YouTube channel. Video will be _unlisted_ — it means, that only people with direct link would have access to it.
 
 You understand that, once you have reserved a slot in the timesheet, you take on the responsibility for appearing and performing according to the date and time chosen, unless instructed otherwise by the jury or school administration. You can cancel the reservation without any consequences whatsoever by removing your name from the list no later than **24 hours** prior to the presentation **session**. If you have a reasonable excuse not to attend, notify the jury anyway as soon as it is practically possible. You also agree that you must specify your up-to-date contact details and monitor the relevant announcements in the school's channels, otherwise the jury shall be entitled to remove you from the list of presenters without any obligation to notify.

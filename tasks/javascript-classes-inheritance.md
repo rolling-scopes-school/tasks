@@ -1,5 +1,5 @@
 
-Create a base class that will contain common methods. Then create 2 child classes (inherit from base): IntBuilder in ES6 style and StringBuilder in ES5 style. Almost all methods should be chainable for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
+Create a 2 identical base classes (one in ES6 and on in ES5) that will contain common methods (so that you can experiment how each JS edition implements inheritance). Then create 2 child classes (inherit from base): IntBuilder in ES6 style and StringBuilder in ES5 style. Almost all methods should be chainable for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
 
 #### ES6 class IntBuilder:
 ```javascript
@@ -34,7 +34,7 @@ intBuilder
 new StringBuilder(str)   // constructor takes starting string, if not passed starts with '';
 plus(...str)             // takes infinite number of strings and concat with stored string;
 minus(n)                 // cut last n chars from stored string;
-multiply(int)            // repeat stored strings n times;
+multiply(int)            // repeat stored strings n times; Prohibited to use String.prototype.repeat();
 divide(n)                // leaves first k chars of stored string, where k = Math.floor(str.length / n);
 remove(str)              // remove taken string str from stored; Prohibited to use String.prototype.replace(); 
 sub(from, n)             // leaves substring starting from and with length n;
@@ -50,4 +50,6 @@ strBuilder
   .remove('l')                               // 'He';
   .sub(1,1)                                  // 'e';
   .get();                                    // -> 'e';
-
+```
+## Evaluation criteria
+Each correct method is worth +7 points (100 points if every method is successfully implemented)

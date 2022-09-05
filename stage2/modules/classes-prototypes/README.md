@@ -1,4 +1,4 @@
-# [Stage#1.](../../) Classes & Prototypes
+# [Stage#2.](../../) Classes & Prototypes
 ## В данном модуле студентам необходимо изучить:
 - What is class
 - What is object
@@ -42,12 +42,11 @@
 - https://kirilknysh.github.io/js-classes-talk/#/
 
 ## Практика 
-[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars2-2021Q3.md)
+[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-OOP.md)
 Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
 
 ## Дополнительные материалы
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
-- https://github.com/joshburgess/not-awesome-es6-classes
 - http://mrale.ph/v8/resources.html
 - [JS Core by Dmitry Soshnikov](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
 
