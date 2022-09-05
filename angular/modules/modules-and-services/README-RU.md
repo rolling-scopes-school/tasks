@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Modules & Services
+# [Angular schedule.](../../README-RU.md) Modules & Services
 ## В данном модуле студентам необходимо:
 
 - Что такое модули, зачем они нужны, как их использовать.
