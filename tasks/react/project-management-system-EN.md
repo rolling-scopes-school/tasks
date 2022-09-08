@@ -12,7 +12,7 @@ Yandex Tracker, Asana, GanttPro, Github projects.*
 
 Pay attention that we leave the final set of tools and design up to you to not limit your possibilities and imagination.
 
-Design, prototype, as well as the implementation of the application itself to your taste.
+Design, prototype, as well as the implementation of the application are up to you.
 
 Here's the list of examples of working prototypes:
 
