@@ -42,7 +42,6 @@ The project structure can be organized in the following way:
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces
 [YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json)
-- Once you finish the task, provide the link to your repository via submitting the [form](https://docs.google.com/forms/d/1ifX_q7zXK9akd-wuDhJ_pA6kmKioeFXPsI1XNavrWn4/edit?usp=sharing)
 
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 
