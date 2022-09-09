@@ -2,10 +2,6 @@
 # YouTube client app
 During the Angular course, you are to implement the YouTube client app. You can refer to the [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-For further implementation create a new private repository named *youtube-client* on **your** GitHub account.
-Please add the following trainers to the collaborators' list:
-- https://github.com/Pulya10c
-
 ## Angular. Intro task
 
 ### Getting started
