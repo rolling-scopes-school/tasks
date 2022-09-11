@@ -49,7 +49,7 @@ Regardless of the application type, it should contain:
 
 - use your private school repository for this task
 - repo name **project-management-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
-- the commit history should reflect the development process of the application. [Commit requirements](https://docs.rs.school/#/git-convention)
+- the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
 - the demo version of the application is hosted on `gh-pages`, `netlify`, `heroku`, or another similar hosting.
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - add a link to the backend folder to the description of the pull request if the backend has not been deployed.
