@@ -52,7 +52,8 @@ Regardless of the application type, it should contain:
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
 - the demo version of the application is hosted on `gh-pages`, `netlify`, `heroku`, or another similar hosting.
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
-- add a link to the backend folder to the description of the pull request if the backend has not been deployed.
+- describe in PR how to run your backend locally if you didn't deploy backend.
+- you should make your repo public after deadline
 
 ## Technical requirements
 
