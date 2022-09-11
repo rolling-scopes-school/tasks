@@ -1,6 +1,7 @@
 #  Project Management System
 
-**Project management system** is an application that helps an individual in a team or group of developers achieve their goals.
+**Project management system** is an application that helps a team or group of developers achieve their goals.
+PLEASE READ TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE CODING❗❗❗
 
 ## Theoretical Notes
 
