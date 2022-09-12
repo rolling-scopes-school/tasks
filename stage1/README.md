@@ -47,7 +47,7 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект на верстку](stream1/) @sergeyshalyapin 
+- [Проект на верстку](stream1/shelter/) @sergeyshalyapin 
 
 ### Неделя #4 (27 сентября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
