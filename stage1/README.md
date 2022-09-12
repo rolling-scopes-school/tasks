@@ -37,7 +37,7 @@
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
-- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2022Q1.md)
+- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2022Q3.md)
 - Тесты:
     - Test HTML Basics	
     - Test CSS Basics
