@@ -2,10 +2,6 @@
 # YouTube client app
 During the Angular course, you are to implement the YouTube client app. You can refer to the [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-For further implementation create a new private repository named *youtube-client* on **your** GitHub account.
-Please add the following trainers to the collaborators' list:
-- https://github.com/Pulya10c
-
 ## Angular. Intro task
 
 ### Getting started
@@ -46,7 +42,6 @@ The project structure can be organized in the following way:
 - Generate all the necessary components using ng-cli. The search result list and each item should be represented as separate components
 - Based on the mocked response which is stored in .json file, create necessary interfaces
 [YouTube client. Response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json)
-- Once you finish the task, provide the link to your repository via submitting the [form](https://docs.google.com/forms/d/1ifX_q7zXK9akd-wuDhJ_pA6kmKioeFXPsI1XNavrWn4/edit?usp=sharing)
 
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 

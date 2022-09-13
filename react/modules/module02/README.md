@@ -1,73 +1,69 @@
-# Неделя 2
+# Week 2
 
 
 ## React. Forms
 
-!! Задание выполняется в школьном приватном репозитории !!
-Нужно выполнять задание на базе React.Components
+!! Task should be implemented in the school’s private repository !!
+It should be based on the previous task.
 
-### Что должно быть сделано:
+### What should be done:
 
-1) Создать отдельную ветку для этого задания, от ветки предыдущего задания.
-2) Создать отдельный роут для форм.
-3) Делать форму используя uncontrolled components
-4) Добавить функционал к приложению:
-   + Собирать информацию через форму.
-   +  Тип информации может быть любой, но форма как минимум должна иметь по одному контролу следующих типов: 
-   +  input, date input, dropdown/select, checkbox, switcher, file upload (image)
+1. Create a separate branch for this task from previous branch task.
+2. Create a separate route for forms.
+3. Form should be implemented using uncontrolled components
+4. Add functionality to your app:
+   +  Collect information through a form
+   +  You can collect any type of information, but form has to include at least one control of the following types: input, date input, dropdown/select, checkbox, switcher, file upload (image)
 
     ````  
-    **Пример:** 
-    input - Имя, Фамилия, Zip код;
-    date input - день рождения, дата доставки;
-    dropdown/select - список стран, список штатов (выбрать можно только один элемент из списка)
-    checkbox - поле "согласен на обработку данных", список дополнительных подарков к заказу (выбрать можно несколько из списка)
-    switcher - male/female, хочу получать уведомления об акциях/ не хочу
+    **Example:** 
+    input - name, surname, zip-code;
+    date input - birthday, date of delivery;
+    dropdown/select - list of countries, list of states (User can choose only one element from the list)
+    checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
+    switcher - male/female, "I want to receive notifications about promo, sales, etc." / "I don’t want to receive notifications about promo, sales, etc."
     file upload - profile picture
     ````  
 
-    Валидация полей должна происходить при нажатии на кнопку **Submit**. Если какие-то из полей заполнены не верно, то под ними должны отобразиться сообщения об ошибках. Карточка не должна создаваться пока все ошибки не будут исправлены. 
+    Validation should happen after the **Submit** button clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
 
-    При изменении значения введённого в input, происходит сброс не всех ошибок валидации формы, а только для этого конкретного поля. 
+    After changing value in input, then reset will happens only for one particular field (not all fields). 
 
-    Кнопка Submit должна быть заблокирована при инициализации формы (до первого ввода), а также до тех пор, пока все ошибки валидации не будут исправлены.
+    Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
 
-    При нажатии на кнопку Submit все данные из формы должны отобразиться в виде карточки в списке карточек под формой, должно отобразиться сообщение, что данные успешно сохранены, а сама форма должна быть очищена.
-    Если мы 5 раз заполнили и сабмитнули форму, то у нас должно быть 5 карточек в списке под формой.
+    After the Submit button is clicked, all data from the form has to be displayed as Card in the cards list below form. The confirmation message (with information that the data has been saved) should be displayed, after that form has to be cleared.
 
-5) Добавить тесты:
-6) 
-    Все логические части должны быть вынесены в компоненты.  
-    Все данные должны храниться в локальном стейте компонент.  
-    Компоненты не должны обращаться к API, не должно быть redux и других сторонних решений для state management.  
-    **Использование каких либо библиотек с компонентами или библиотек, которые работают с формами в этом задании запрещено.**  
+    In case the user filled in and submitted the form five times, then five cards have to be displayed under the form.
 
-
-### Оценка
-
-Задание будет оцениваться ментором в течении первых 6 недель. Для удобства проверки создайте Pull Request в ветку предыдущего задания(**МЕРЖИТЬ НЕ НАДО**).
+5. Add tests.
+6. All logic parts should be extracted into components.
+   All data must be stored in a local state of the component.
+   Components should not make calls to APIa.
+   Using redux or any other solutions for state management is prohibited.  
+   **Using any libraries with components or form libraries is prohibited.**  
 
 
-1) Тесты - **3 балла**
-2) Form + Cards - **12 баллов**
+### Score
+
+The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
 
 
-Если хоть один из пунктов не выполнен, то задание оценивается в **0 баллов**.
-Если присутсвует прямая манипуляция с DOM - **0 баллов**
-
-### Требования к репозиторию
-
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки предыдущего задания создайте ветку с названием задания
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку предыдущего задания [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). 
-
-**Мержить Pull Request из ветки разработки в ветку предыдущего задания не нужно**
+1. Tests - **3 points**
+2. Form + Cards - **12 points**
 
 
-### Теория
+If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
+If case of direct DOM manipulation - **0 points**
 
+### Repository requirements
 
+- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
+- create a branch with the name of the task in the school's private repository from the branch of the previous task.
+- The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
+- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process). 
+
+**You do not need to merge a Pull Request from the development branch to the branch of the previous task** 
+
+### Theory
 Forms in React:
-
 - https://reactjs.org/docs/forms.html

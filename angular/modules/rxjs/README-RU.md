@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) RxJS
+# [Angular schedule.](../../README-RU.md) RxJS
 ## В данном модуле студентам необходимо изучить:
 
 - Принципы реактивного программирования для `JavaScript`.

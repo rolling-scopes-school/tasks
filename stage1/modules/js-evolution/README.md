@@ -33,7 +33,7 @@
   - [ES6 по-человечески](https://habr.com/ru/post/305900/) - 1 час
 
 ## Практика 
-  - [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q1.md)
+  - [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q3.md)
 
 ## Дополнительные материалы
   - [EcmaScript - Полный курс (ES6, ES7, ES8)](https://www.youtube.com/watch?v=Ti2Q4sQkNdU) - 2,5 часа

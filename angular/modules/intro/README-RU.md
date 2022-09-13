@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Intro. TypeScript
+# [Angular schedule.](../../README-RU.md) Intro. TypeScript
 
 ## В данном модуле студентам необходимо
 
