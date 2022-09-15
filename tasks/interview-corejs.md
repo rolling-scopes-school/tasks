@@ -67,12 +67,12 @@
 
 - #### Advanced Functions
 
-  - `this` scope
+  - `this` in functions
   - Reference Type & losing `this`
   - Understand difference between function and method
   - Understand how `this` works, realize `this` possible issues
-  - Manage `this` scope
-  - Be able to replace `this` scope
+  - Manage `this`
+  - Be able to replace `this` value
   - Be able to use `call` and `apply` Function built-in methods
 
 - #### Functional Patterns

@@ -39,8 +39,8 @@
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
 - [Задачи "Codewars1"](../tasks/codewars/Codewars1-2022Q3.md)
 - Тесты:
-    - Test HTML Basics	
-    - Test CSS Basics
+    - [Test HTML Basics](../stage0/modules/html-basics/)
+    - [Test CSS Basics](../stage0/modules/css-basics/)
 
 ### Неделя #3 (20 сентября 2022)
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
