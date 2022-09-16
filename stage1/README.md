@@ -47,23 +47,23 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект на верстку](stream1/) @sergeyshalyapin 
+- [Проект на верстку](stream2/online-zoo/) @sergeyshalyapin 
 
 ### Неделя #4 (27 сентября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: ". Адаптивная вёрстка"](stream1/) @sergeyshalyapin 
+- [Проект: ". Адаптивная вёрстка"](stream2/online-zoo#неделя-2) @sergeyshalyapin 
 
 ### Неделя #5 (4 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"](stream1/shelter#неделя-2)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-2"](stream2/online-zoo#порядок-оценки-cross-check-неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект " DOM & Browser API"](stream1/) @sergeyshalyapin 
+- [Проект " DOM & Browser API"](stream2/online-zoo#неделя-3) @sergeyshalyapin 
 
 ### Неделя #6 (11 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3) @sergeyshalyapin 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin 
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
