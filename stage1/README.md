@@ -47,20 +47,20 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект на верстку](stream2/online-zoo/) @sergeyshalyapin 
+- [online-zoo. week-1](stream2/online-zoo/)
 
 ### Неделя #4 (27 сентября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: ". Адаптивная вёрстка"](stream2/online-zoo#неделя-2) @sergeyshalyapin 
+- [online-zoo. week-2](stream2/online-zoo#неделя-2)
 
 ### Неделя #5 (4 октября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-2"](stream2/online-zoo#порядок-оценки-cross-check-неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект " DOM & Browser API"](stream2/online-zoo#неделя-3) @sergeyshalyapin 
+- [online-zoo. week-3](stream2/online-zoo#неделя-3)
 
 ### Неделя #6 (11 октября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin 
@@ -72,10 +72,10 @@
 ### Неделя #7 (18 октября 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- [codejam](../tasks/)
 
 ### Неделя #8 (25 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
 - [Модуль: Git Recap](modules/git-recap/)
 - [Модуль: Clean Code](modules/clean-code/)
 - Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
