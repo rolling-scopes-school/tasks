@@ -136,3 +136,17 @@ Points are awarded for each type of block:
 ### Penalty points
 For each of the unfulfilled functional requirements, we put **-2 points** for each, but not more than the total points for the block. Thus it cannot be more than **-10 points**.
 
+### How to deploy your page to gh-pages
+gh-pages is a unique feature of Github, available for all public repositories, and for private repositories for an additional price. What it does, is it essentially makes your repository revision on the special `gh-pages` branch available on the web. Or in simpler words, whatever is on the gh-pages branch, is available via web link. When a browser opens up a public file directory like this one, it automatically renders the first index.html file it finds. If it does not find an index.html file, it just renders the file list, or whatever the server config tells it to render.
+
+**Common problems and questions:**\
+\
+**Where can I find my URL for the rendered page?**\
+You can simply go to the main page of your repo by clicking the 'code' tab item found up top. Then you need to find the environments section on the right side of the screen, it should have a 'github-pages   active' item in there. Click on it, now click on the `View Deployment` button. This should lead you to your website
+
+**I can't find the environments section on the home page**\
+Sometimes the build does not get fired. To fix this, you usually need to commit a dummy or empty commit into the gh-pages branch and it should fix your issue
+
+**I can access the gh-pages generated website, but my solution is not there**\
+Usually, this happens because your solution is stored inside some child folder. The URL is used as a file system explorer, where you need to specify the full path to your wanted file. So, let's imagine that your gh-pages url is www.mypage.com . In your gh-pages **branch**, the solution to this task is stored inside a ./webdev folder. That means, that in order to access your solution on the actual gh-pages url, you would need to request www.mypage.com/webdev
+
