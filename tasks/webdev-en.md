@@ -102,6 +102,7 @@ Example:
 - The design consists of 2 multi-dimensional layouts.
     -   Two-row.  On the left. The user icon and the sentence.
     -   Three-column. On the right. Columns - images with the same width. Pay attention that part of the third image goes off-screen. Thus, it also needs to be trimmed using styles.
+-  Slider functionality is not needed, it is static
 
 5. #### *Implement* block
 - The text block contains important text in bold. You need to use an appropriate semantic element.
