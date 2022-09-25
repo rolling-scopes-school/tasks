@@ -6,7 +6,13 @@ PLEASE READ TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE CODING❗❗❗
 ## Theoretical Notes
 
 There are many competitors on the market for our future application. Check out suggested analogs before start building your app: *Trello, Jira, Redmine, Bitrix24, Yandex Tracker, Asana, GanttPro, Github projects.*
+## Building a team
 
+- you should work in a team of 3 members
+- teams can be pre-defined there. (https://rss-teams.web.app/)
+- All students should be registered there. (https://rss-teams.web.app/)
+- All teams should be registered there. [RSSTeams](https://rss-teams.web.app/) 
+- Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams)
 ## Application Prototype
 
 Pay attention that we leave the final set of tools and design up to you to not limit your possibilities and imagination.
