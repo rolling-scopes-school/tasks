@@ -41,7 +41,7 @@ There is a description of the steps to get started, as well as a list of availab
 
 ## Application structure
 
-Regardless of the application type, it should contain:
+Your app must contain:
 
 - welcome page
 - user login
