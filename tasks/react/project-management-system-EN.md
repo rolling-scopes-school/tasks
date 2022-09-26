@@ -140,7 +140,11 @@ Your app could contain:
 - The column should have a 'delete column' button. Clicking on 'delete column' should open the confirmation modal, only after the user confirms the deleting - delete the column.
 - ATTENTION! Deleting a column removes the tasks associated with it from the BD automatically.
 - There should be a "back" button to return to the Main route
+## How to submit tasks
 
+- Link to pull request in rs app is submitted only by **team leader** ❗
+- Make sure the pull request is available for review ❗. To do this, open the link that you submit in rs app in incognito browser mode
+- If the task is not submitted before the deadline, it will not be distributed during the cross-check and points will not be added to your score.
 ## Evaluation criteria
 
 **Maximum available points for the task 620**
