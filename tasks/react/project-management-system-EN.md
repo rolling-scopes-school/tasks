@@ -123,7 +123,8 @@ Your app could contain:
 
 - There should be a button to create a column.
 - If there is at least one column on the board, you should display the task creation button.
-- To create a column and a task, you should display a form in the modal window.
+- To create a task, you should display a form in the modal window.
+- To create a column, you should display a form in the modal window.
 - Requirements for the modal window and forms are described before.
 - A task cannot be standalone and should be always bound to a column.
 - The user can create multiple columns. The user can create an unlimited number of tasks. When overflowing with the number of tasks of the column - display scroll inside the column.
