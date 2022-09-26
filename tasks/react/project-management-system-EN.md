@@ -63,7 +63,7 @@ Your app could contain:
 
 ## Technical requirements
 
-- localization (at least 2 languages). The application should be able to change the language by clicking on the slider in the header
+- localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
 - semantic layout
 - the application should work in the latest version of the Google Chrome browser
 - forms should contain validation for compliance with the expected type (email, password, etc.)
