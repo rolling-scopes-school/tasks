@@ -56,7 +56,7 @@ Your app could contain:
 - teamwork nuances described there [Teamwork](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **project-management-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
-- the demo version of the application is hosted on `gh-pages`, `netlify`, `heroku`, or another similar hosting.
+- the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service.
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - describe in PR how to run your backend locally if you didn't deploy backend.
 - you should make your repo public after deadline
