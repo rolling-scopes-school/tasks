@@ -178,20 +178,20 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] When trying to delete the board, we should receive a confirmation modal. The confirmation modal must be a generic component (one for the entire application). **1 points**
 - [ ] The user profile editing functionality is implemented. **3 points**
 
-### Board route - max 260 points
+### Board route - max 26 points
 
-- [ ] Button for column creation is displayed **10 points**
-- [ ] If a board contains at least one column - a button for task creation is displayed as well **10 points**
-- [ ] A modal window with form is displayed for column and task creation  **30 points**
-- [ ] A vertical scrollbar is displayed in the column when overflowing with the number of column tasks  **20 points**
-- [ ] The page itself on the current route doesn't have a vertical scrollbar **10 points**
-- [ ] With the help of drag-n-drop, we can swap columns. **30 points**
-- [ ] With the help of drag-n-drop, we can change the order of tasks within a column.  **30 points**
-- [ ] With the help of drag-n-drop, we can change the task belonging to the column.  **50 points**
-- [ ] by clicking on the task, we open a modal window with the edit task form. The requirements for the form and window are the same as everywhere else. **30 points**
-- [ ] The task must have a delete task button. On click: confirmation modal -> delete.  **10 points**
-- [ ] The top of a column should always display the column title. By clicking the title the test should turn into a form with cancel and submit buttons. After typing a text into the input and clicking the submit button the tile of the column should be updated. **20 points**
-- [ ] The column should have a delete button. By clicking -> confirmation modal -> when approving -> deleting. **10 points**
+- [ ] Button for column creation is displayed **1 point**
+- [ ] If a board contains at least one column - a button for task creation is displayed/become enabled as well **1 points**
+- [ ] A modal windows with forms is displayed for column and task creations  **3 points**
+- [ ] A vertical scrollbar is displayed in the column when overflowing with the number of column tasks  **2 points**
+- [ ] The page itself on the current route doesn't have a vertical scrollbar **1 points**
+- [ ] With the help of drag-n-drop, we can swap columns. **3 points**
+- [ ] With the help of drag-n-drop, we can change the order of tasks within a column.  **3 points**
+- [ ] With the help of drag-n-drop, we can change the task belonging to the column.  **5 points**
+- [ ] The functionality of viewing and editing of the task has been implemented. **3 points**
+- [ ] The task must have a delete task button. On click: confirmation modal -> delete.  **1 points**
+- [ ] At the top of the column should be Title. When you click on it, it should become an input, with Submit and Cancel buttons near it. After entering text in the input and clicking Submit - the Title of the column should change. **2 points**
+- [ ] The column should have a delete button. By clicking -> confirmation modal -> when approving -> deleting. **1 points**
 
 ### General requirements - max 80 points
 
