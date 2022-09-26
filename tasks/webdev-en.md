@@ -13,7 +13,7 @@ JPG:
 - For deployment use `gh-pages`
 - The commit history should reflect the development process of the application. **[Commit requirements](https://docs.rs.school/#/en/git-convention)**
 - After finishing development, you should make a Pull Request from the `webdev` branch to the `main` branch . You don't need to merge the Pull Request until you receive your final score
-- **To submit the task for cross-check, you will need to host the page on gh-pages and share the link to your hosted solution with your cross-checker**
+- **To submit the task for cross-check, you will need to host the page on gh-pages and submit the generated link via app.rs.school in 'Cross-Check : Submit'**
 
 ### Requirements for commits, pull request, repository
 - the work should be done in your private repository, created using the dashboard in app.rs.school
@@ -39,7 +39,7 @@ Example:
 3. Deploy:  
    A link to your deployed application is here
 4. Done 19.04.20 (deadline 19.04.20)
-5. Score: 200 / 200
+5. Score: 100 / 100
 - [x] Minimal scope
     - [x] Feature 1 is implemented (+10)
     - [x] Feature 2 is implemented (+10)
@@ -49,6 +49,7 @@ Example:
 - [x] Extra scope
     - [x] Feature 5 is implemented (+10)
     - [x] Feature 6 is implemented (+10)
+    - [x] Feature 7 is implemented (+10)
 - [x] Technical requirements
     - [x] ESLint is used (+10)
     - [x] ES6 features are used (+10)
@@ -63,7 +64,7 @@ Example:
 - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ### Pay attention to the following important and common points:
-- The main blocks should be exactly placed on the screen width `1600px`, except for the `Subscribe block`, which background should span the whole screen. **-5 points penalty if the 1600 width requirement is not done, -2 points if the subscribe block requirement is not done**
+- The main blocks should be exactly placed on the screen width `1600px`, except for the `Sign up block`, which background should span the whole screen. **-5 points penalty if the 1600 width requirement is not done, -2 points if the sign up block requirement is not done**
 - Images, logos (if any) should be positioned within a logical container with the correct centering and positioning approach. 
 - Should work on the latest Chrome version
 - Task will be checked by a `cross-check`
@@ -82,7 +83,7 @@ Example:
 1. #### Header (`<header>` contains just logo and navigation bar)
   - Interactive navigation bar. The first item should be highlighted
   - The logo is centered.
-  - The header is fixed in it's position. It doesn't move with the user when scrolling.
+  - The header is fixed in it's position. It doesn't move with the user when scrolling. That means if you scroll through the page, the header is no longer visible
   - The background image should be placed behind the text.
   - There should be one `<h1>` element on the entire page. The placement of it up to you. It should have the 'Your life is webdev' text inside of it.
 
