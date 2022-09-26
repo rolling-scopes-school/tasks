@@ -110,6 +110,7 @@ Your app could contain:
 - Form fields should be implemented in consistency with the backend API of the application. Validation should be implemented.
 - Errors from the BE side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
 - Upon successful login, the user should be redirected to the "Main route"
+- If user already logged in and he try to reach this routes - he should be redirected to Main route.
 
 ### Main route
 
