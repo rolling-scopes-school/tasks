@@ -115,7 +115,7 @@ Your app could contain:
 ### Main route
 
 - Displays all created boards as a list.
-- Boards are displayed with a small preview of the available information (title). By clicking on the element, the user redirects to the board item (Board route). There should be a button to remove the board.
+- Boards are displayed with a small preview of the available information (title, description, etc.). By clicking on the element, the user redirects to the board item (Board route). There should be a button to remove the board.
 - When a user tries to delete the board, he/she should receive a confirmation modal to verify if the user wants to delete the board (to avoid deleting the board by mistake). The confirmation modal should be a generic component (one for the application).
 - global search (optional): search for a task by task number, name, users assigned to it, and by the text of the task description.
 
