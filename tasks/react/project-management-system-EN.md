@@ -147,7 +147,10 @@ Your app could contain:
 - If the task is not submitted before the deadline, it will not be distributed during the cross-check and points will not be added to your score.
 ## Evaluation criteria
 
-**Maximum available points for the task 620**
+**Maximum available points for the task 120**
+It contains:
+- 60 for crosscheck
+- 60 for your involvement into a project. (15 in a week)
 
 ## Check criteria
 
