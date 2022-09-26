@@ -139,7 +139,7 @@ Your app could contain:
 - At the top of the column should be Title. When you click on it, it should become an input, with Submit and Cancel buttons near it. After entering text in the input and clicking Submit - the Title of the column should change.
 - The column should have a 'delete column' button. Clicking on 'delete column' should open the confirmation modal, only after the user confirms the deleting - delete the column.
 - ATTENTION! Deleting a column removes the tasks associated with it from the BD automatically.
-- There should be a "back" button to return to the main route
+- There should be a "back" button to return to the Main route
 
 ## Evaluation criteria
 
