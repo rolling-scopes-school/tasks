@@ -105,7 +105,7 @@ Your app could contain:
 - footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
 - footer is displayed on all pages of the application.  
 
-### Login / Sign up
+### Sign In / Sign Up
 
 - Form fields should be implemented in consistency with the backend API of the application. Validation should be implemented.
 - Errors from the BE side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
