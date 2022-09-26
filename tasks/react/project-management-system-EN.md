@@ -71,8 +71,6 @@ Your app could contain:
 - Using jQuery in the main application code is not allowed.
 - You can use create-react-app, css frameworks, any js/components libs you want, html and css pre-processors
 - You must use Typescript
-- forms should contain validation for compliance with the expected type (email, password, etc.)
-- you may use css frameworks, any component libraries, html and css preprocessors
 - it is necessary to use the backend for the correct operation of the application and the interaction between several users
 - ❗ it is forbidden to copy the code of other students, demos, or examples that are given in the assignment. This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
 
