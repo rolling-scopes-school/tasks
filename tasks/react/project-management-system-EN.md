@@ -87,7 +87,7 @@ Your app could contain:
 ### Welcome page(route)
 
 - The welcome page should display general information about the developer, project, and course.
-- In the upper right corner should be present 2 buttons Login and Sign up
+- In top right corner should be present 2 buttons Sign In and Sign up
 - If there is an unexpired token, the user should be redirected to the "Main route" of the application automatically.
 - When the token expires - the user should be redirected to the "Welcome page" automatically.
 - Pressing the Login / Sign up button redirects the user to the route with the Login / Sign up form automatically.
