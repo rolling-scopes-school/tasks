@@ -60,7 +60,14 @@ Your app could contain:
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - describe in PR how to run your backend locally if you didn't deploy backend.
 - you should make your repo public after deadline
+Gitflow, workflow
+You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
 
+[Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
+[Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+[ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
+[GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
 ## Technical requirements
 
 - localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
