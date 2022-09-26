@@ -44,7 +44,7 @@ There is a description of the steps to get started, as well as a list of availab
 Your app must contain:
 
 - welcome page
-- user login
+- user auth
 - projects listing page
 - selected project management page
 - additional functionality (for example, the ability to view all the tasks of the selected user)
