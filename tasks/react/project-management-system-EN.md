@@ -65,7 +65,12 @@ Your app could contain:
 
 - localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
 - semantic layout
-- the application should work in the latest version of the Google Chrome browser
+- the application should work at least in the latest version of the Google Chrome browser
+- you must use React 18 + **suspense** feature.(Gatsby, NextJS, Remix, etc. are not prohibited)
+- Private routes, 404, error boundary
+- Using jQuery in the main application code is not allowed.
+- You can use create-react-app, css frameworks, any js/components libs you want, html and css pre-processors
+- You must use Typescript
 - forms should contain validation for compliance with the expected type (email, password, etc.)
 - you may use css frameworks, any component libraries, html and css preprocessors
 - it is necessary to use the backend for the correct operation of the application and the interaction between several users
