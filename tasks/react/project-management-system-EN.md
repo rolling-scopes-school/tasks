@@ -199,9 +199,6 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Localization **20 points**
 - [ ] Backend is deployed and publicly available **10 points**
 
-### Additiona functionality - 30 points
-
-- [ ] Implemented additional functionality that is not provided for by current requirements **30 points**
 
 ### Penalties
 - [ ] React default favicon **- 1 points**
