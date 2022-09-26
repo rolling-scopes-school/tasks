@@ -129,6 +129,7 @@ Your app could contain:
 - A task must be linked to a column.
 - The user can create multiple columns. The user can create an unlimited number of tasks. When overflowing with the number of tasks of the column - display scroll **inside** the column.
 - If all columns do not fit on the screen, the page may have a horizontal scroll.
+- This page should not have vertical scroll.
 - The user can swap columns using drag-n-drop.
 - The user can change the order of tasks columns using drag-n-drop.
 - The user changes the belonging of the task to the column using drag-n-drop.
