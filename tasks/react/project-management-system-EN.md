@@ -93,6 +93,8 @@ Your app could contain:
 - Pressing the Sign In / Sign Up button redirects the user to the route with the Sign In / Sign Up form.
 
 ### Header
+
+- All Privite routes should contain sticky header. Moment when it become sticky (if there is a scroll on a page) should be animated: color can be changed or it's height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
 - There are buttons in the header for authenticated users: edit profile, logout, create new board, and localization switcher.
 - Edit profile should redirect the user to a route with a form for edit profile. The requirements for the form are the same as for all forms in the application. There should be a 'Delete User' button. In case of this action should be shown as a  "confirmation modal" then the user should be logged out, and the user should be removed from the database.
 - Create a new board - opens a modal window with a form for creating a board. Requirements for the form are the same as for all forms in the application.
