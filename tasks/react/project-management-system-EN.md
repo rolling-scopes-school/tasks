@@ -153,7 +153,9 @@ It contains:
 - 60 for your involvement into a project. (15 in a week)
 
 ## Cross-check criteria
+For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
+[How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 ### Welcome route - max 70 points
 
 - [ ] The welcome page should contain general information about the developer, project, and course. **10 points**
