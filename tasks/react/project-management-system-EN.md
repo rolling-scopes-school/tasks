@@ -45,7 +45,8 @@ Your app must contain:
 
 - welcome page
 - user auth
-- projects listing page
+- boards list page
+- selected board management page
 - selected project management page
 - additional functionality (for example, the ability to view all the tasks of the selected user)
 
