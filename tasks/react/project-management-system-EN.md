@@ -135,7 +135,7 @@ Your app could contain:
 - The user changes the belonging of the task to the column using drag-n-drop.
 - ❗ It is recommended to use the existing library from React ecosystem to implement the drag-n-drop functionality ❗.
 - Implement the ability to interact with the task in such a way that the user can comfortably view / change the data in the task (modal/separate route/editable fields etc.) . Note that 'click' can happen after MouseUp on d-n-d.
-- There should be a 'delete task' button on the task. By clicking the 'delete task' the confirmation modal should be displayed, only after a user confirms the deletion - delete the task.
+- Implement the ability to delete a task. The Delete task button should be located in a convenient place for the user. On click: Confirmation modal -> delete.
 - At the top of the column should be displayed the title. When you click on it, it should convert text into input, there should be 'cancel' and 'submit' buttons to the left of input. After entering text in the input and clicking submit - the title of the column should be updated with the entered text.
 - The column should have a 'delete column' button. Clicking on 'delete column' should open the confirmation modal, only after the user confirms the deleting - delete the column.
 - ATTENTION! Deleting a column removes the tasks associated with it from the BD automatically.
