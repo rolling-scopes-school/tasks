@@ -51,7 +51,8 @@ Your app must contain:
 
 ## Repository requirements
 
-- use your private school repository for this task
+- teamlead should create private repo in github and invite other members 
+- teamwork nuances described there [Teamwork](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **project-management-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
 - the demo version of the application is hosted on `gh-pages`, `netlify`, `heroku`, or another similar hosting.
