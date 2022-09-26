@@ -193,11 +193,13 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] At the top of the column should be Title. When you click on it, it should become an input, with Submit and Cancel buttons near it. After entering text in the input and clicking Submit - the Title of the column should change. **2 points**
 - [ ] The column should have a delete button. By clicking -> confirmation modal -> when approving -> deleting. **1 points**
 
-### General requirements - max 80 points
+### General requirements - max 11 points
 
-- [ ] Backend error handling - (Not found, unhandled rejection, etc) should be performed in a user-friendly way (toast, pop-up or anything else you implement). **50 points**
-- [ ] Localization **20 points**
-- [ ] Backend is deployed and publicly available **10 points**
+- [ ] Backend error handling - (Not found, unhandled rejection, etc) should be performed in a user-friendly way (toast, pop-up or anything else you implement). **4 points**
+- [ ] Localization **1 point**
+- [ ] Backend is deployed and publicly available **2 points**
+- [ ] Sticky header **2 points**
+- [ ] Extra scope same complexity as Global search **2 points**
 
 
 ### Penalties
