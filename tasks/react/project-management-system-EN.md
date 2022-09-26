@@ -152,7 +152,7 @@ It contains:
 - 60 for crosscheck
 - 60 for your involvement into a project. (15 in a week)
 
-## Check criteria
+## Cross-check criteria
 
 ### Welcome route - max 70 points
 
