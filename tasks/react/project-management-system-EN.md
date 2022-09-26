@@ -204,7 +204,14 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Implemented additional functionality that is not provided for by current requirements **30 points**
 
 ### Penalties
+- [ ] React default favicon **- 1 points**
+- [ ] The presence of errors and warnings in the console  **- 2 points** for each
+- [ ] The presence in the console of the results of the console.log execution - **- 2 points** for each
+- [ ] @ts-ignore or any usage (search through github repo) - **- 1 point** for each
+- [ ] Making commits after the deadline - **- 20 points**  
 
-- [ ] The presence of errors and warnings in the console  **- 20 points**
-- [ ] The presence in the console of the results of the console.log execution - **- 20 points**
-- [ ] Making commits after the deadline - **- 100 points**
+## Helpful links
+
+- [Project management](https://ru.wikipedia.org/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B8)
+- [What is a project?](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_(%D0%B2_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8))
+- [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
