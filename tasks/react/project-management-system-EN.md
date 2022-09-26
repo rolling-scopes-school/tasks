@@ -156,13 +156,13 @@ It contains:
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
-### Welcome route - max 70 points
+### Welcome route - max 7 points
 
-- [ ] The welcome page should contain general information about the developer, project, and course. **10 points**
-- [ ] In the upper right corner there are 2 buttons: login and sign up. **10 points**
-- [ ] If there is an unexpired token, the user should be redirected to the "Main route" of the application automatically. **20 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **20 points**
-- [ ] Pressing the Login / Sign up button redirects a user to the route with the Login / Sign up form. **10 points**
+- [ ] The welcome page should contain general information about the developer, project, and course. **1 point**
+- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **1 point**
+- [ ] If login token is valid and unexpired, change buttons Sign In and Sign Up on "Go to Main Page" button. **2 points**
+- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **2 points**
+- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
 
 ### Login / Sign up  - max 80 points
 
