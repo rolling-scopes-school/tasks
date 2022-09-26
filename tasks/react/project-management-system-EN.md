@@ -98,6 +98,7 @@ Your app could contain:
 - There are buttons in the header for authenticated users: Edit profile, Sign Out, Create new board, toggler / select to change language.
 - Edit profile button should redirect the user to a route with a form for edit profile. The requirements for the form are the same as for all forms in the application. There should be a 'Delete User' button. In case of this action => "confirmation modal" => then the user should be logged out, and the user should be removed from the database.
 - Create a new board - opens a modal window with a form for creating a board. Requirements for the form are the same as for all forms in the application.
+- Sign Out button - sign user out.
 
 ### Footer
 
