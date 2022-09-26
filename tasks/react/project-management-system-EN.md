@@ -133,7 +133,7 @@ Your app could contain:
 - The user can swap columns using drag-n-drop.
 - The user can change the order of tasks in column using drag-n-drop.
 - The user changes the belonging of the task to the column using drag-n-drop.
-- ❗ It is recommended to use the existing library to implement the drag-n-drop functionality ❗.
+- ❗ It is recommended to use the existing library from React ecosystem to implement the drag-n-drop functionality ❗.
 - By clicking on the task, you should open a modal window with the edit task form. The requirements for the form and window are the same everywhere.
 - There should be a 'delete task' button on the task. By clicking the 'delete task' the confirmation modal should be displayed, only after a user confirms the deletion - delete the task.
 - At the top of the column should be displayed the title. When you click on it, it should convert text into input, there should be 'cancel' and 'submit' buttons to the left of input. After entering text in the input and clicking submit - the title of the column should be updated with the entered text.
