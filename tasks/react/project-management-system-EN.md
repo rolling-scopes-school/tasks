@@ -79,7 +79,7 @@ Your app could contain:
 - you are not limited in creativity but limited by the user's capabilities
 - the application quality is characterized by the elaboration of details, attention to typography (no more than three fonts per page, font size of at least 14 px, optimal [font and background contrast](https://snook.ca/technical/colour_contrast/colour.html)), carefully selected content
 - adaptive layout. The minimum page width of the application is 320px
-- interactivity of elements users can interact with, changing the appearance of the element itself and the type of the cursor on hover, using different styles for the active and inactive state of the element, smooth animations
+- interactivity of elements users can interact with. Element hover effects. Usage of different styles for the active and inactive state of the element. Smooth animations
 - the unity of styles of all pages of the application - the same fonts, button styles, indents, the same elements on all pages of the application have the same appearance and layout. Item colors and background images may vary. In this case, colors should be from the same palette, and background images from the same collection.
 
 ## Description of function blocks
