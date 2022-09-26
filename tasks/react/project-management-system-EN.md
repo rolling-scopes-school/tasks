@@ -127,7 +127,7 @@ Your app could contain:
 - To create a column, you should display a form in the modal window.
 - Requirements for the modal window and forms are described before. (same as in first 6 modules)
 - A task must be linked to a column.
-- The user can create multiple columns. The user can create an unlimited number of tasks. When overflowing with the number of tasks of the column - display scroll inside the column.
+- The user can create multiple columns. The user can create an unlimited number of tasks. When overflowing with the number of tasks of the column - display scroll **inside** the column.
 - If all columns do not fit on the screen, the page may have a horizontal scroll.
 - The user can swap columns using drag-n-drop.
 - The user can change the order of tasks columns using drag-n-drop.
