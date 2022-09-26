@@ -47,6 +47,7 @@ Your app must contain:
 - user auth
 - boards list page
 - selected board management page
+Your app could contain:
 - additional functionality (for example, the ability to view all the tasks of the selected user)
 
 ## Repository requirements
