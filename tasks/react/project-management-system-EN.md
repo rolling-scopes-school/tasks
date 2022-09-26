@@ -164,11 +164,12 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **2 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
 
-### Login / Sign up  - max 80 points
+### Sign In / Sign Up  - max 8 points
 
-- [ ] Login/log out should be present on all pages **20 points**
-- [ ] Form fields should be implemented according to the backend API. Validation should be implemented. **50 points**
-- [ ] Upon successful login, the user should be redirected to "Main route" **10 points**
+- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **2 points**
+- [ ] Form fields should be implemented according to the backend API. Validation should be implemented. **4 points**
+- [ ] Upon successful login, the user should be redirected to "Main route" **1 point**
+- [ ] If user already logged in and he try to reach this routes - he should be redirected to Main route. **1 point**
 
 ### Main route - max 8 points
 
