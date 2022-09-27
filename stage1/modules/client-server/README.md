@@ -14,6 +14,9 @@
 1. [Network communication part 1](https://www.youtube.com/watch?v=4jA9Nea51T8)
 2. [Network communication part 2](https://www.youtube.com/watch?v=_8GoJck9O9Y)
 
+## Практика 
+1. Вам необходимо пройти тест "Client - Server interaction" в RS APP > Auto Test
+
 ## Дополнительные материалы
 1. [Работа с сетью](https://doka.guide/tools/network/)
 2. [Модели сетевого взаимодействия](https://doka.guide/tools/network-models/)
