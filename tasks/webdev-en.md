@@ -152,3 +152,6 @@ Sometimes the build does not get fired. To fix this, you usually need to commit 
 **I can access the gh-pages generated website, but my solution is not there**\
 Usually, this happens because your solution is stored inside some child folder. The URL is used as a file system explorer, where you need to specify the full path to your wanted file. So, let's imagine that your gh-pages url is www.mypage.com . In your gh-pages **branch**, the solution to this task is stored inside a ./webdev folder. That means, that in order to access your solution on the actual gh-pages url, you would need to request www.mypage.com/webdev
 
+**My images and icons are not loading properly, getting console errors with 404 status codes**
+This is probably because the paths to your assets are wrong. You should not use absolute paths, you should use relative paths. For example, you have an assets folder where you store your assets. The folder is located in the parent directory (where the index.html is). Then you should define the paths like `./assets/...`. The `./` symbol indicates that the path starts at the root path, wherever it is at that specific moment (in this case, it's the same place where index.html is located)
+
