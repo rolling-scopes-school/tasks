@@ -67,12 +67,12 @@
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
-### Черновик 
-
 ### Неделя #7 (18 октября 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
 - [codejam](../tasks/)
+
+### Черновик 
 
 ### Неделя #8 (25 октября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
