@@ -1,0 +1,600 @@
+body{
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    
+}
+
+.panda{
+    width: 1600px;
+    height: 467px;
+    
+    color: #FFFFFF;
+}
+.panda .background{height: 392px;
+    background: url(img/panda_bg.svg);
+}
+.panda header,
+.panda header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.panda header{
+    width: 1600px;
+    height: 80px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+.panda .logo{
+    position: relative;
+    width: 82px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin-top:14px;
+    margin-left: 220px;
+    margin-right: 34px;
+    color:  #FFFFFF;
+}
+.panda .logo h1{
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top:2px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+} 
+.panda .logo #bamboo{
+    height: 28px;
+    position: absolute;
+left: 5.23px;
+top: 22.64px;
+}
+.panda nav {
+    width: 1298px;
+}
+.panda header ul{
+    margin: 0;
+    padding: 0;
+}
+.panda header ul li{
+    align-items:center;
+    margin: 29px;
+}
+.panda header ul li:last-child{
+    margin-left: 411px;
+}
+.panda header ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+}
+.panda header ul li .activ{
+    color: #E47209;
+}
+
+.panda header ul li a:hover{
+    color: #E47209;
+}
+
+.panda .favorite .button:hover {
+
+    background: #E47209;
+}
+.panda .favorite .button:active{
+    background: #4B9200;
+}
+.body{
+    height: 1482px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 220px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+.body > h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+color: #FFFFFF;
+}
+.body p{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.body .information{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FE9013;
+}
+.body > div{
+    margin: 0;
+    padding: 0 92px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.52);
+backdrop-filter: blur(2px);
+border-radius: 20px;
+}
+.body > div > h2{
+    margin: 40px 0 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #FE9013;
+}
+.body > div > p{
+    margin: 0 0 60px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #333B41;
+}
+.body .donat{
+    display: flex;
+    flex-direction: row;
+    padding: 0 229px 0 215px;
+    margin: 0;
+    width: 532px;
+}
+.body .donat > div{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-right: 11px;
+    justify-content: center;
+    align-items: center;
+}
+.body .donat > div .number{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 58px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.body .donat > div .day{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #333B41;
+}
+.body .donat .x{
+    margin: 0;
+    margin-right: 64px;
+}
+.body .donat .svg{
+    padding: 0;
+    margin: 0;
+}
+.body .amount{
+    margin: 0;
+    margin-top: 48.53px;
+    margin-bottom: 17px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+.body .radio {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px 26px 9px;
+    width: 976px;
+    height: 10px;
+background: #404950;
+border-radius: 2px;
+border: none;
+} 
+.body .yelow{
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 2;
+}
+.body .yelow::before{
+    content: "";
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: #FFEE2E;
+    position: absolute;
+    z-index: 1;
+    
+}
+.body .yelow::after{
+    content: url(img/roller_icon.svg);
+    position: relative;
+    width: 40px;
+height: 40px;
+    top:-15px;
+    left: -15px;
+    z-index: 3;
+    display: none;
+}
+.body .yelow:checked::after{
+    display: block;
+}
+
+.body .for label{
+    margin: 0;
+    margin-top: 12px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+text-transform: uppercase;
+color: #333B41;
+}
+.body .for label[for="d5000"]{
+    margin-right: 58px;
+}
+
+.body .for label[for="d2000"]{
+    margin-right: 58px;
+}
+.body .for label[for="d1000"]{
+    margin-right: 58px;
+}
+.body .for label[for="d500"]{
+    margin-right: 73px;
+}
+.body .for label[for="d250"]{
+    margin-right: 73px;
+}
+.body .for label[for="d100"]{
+    margin-right: 73px;
+}
+.body .for label[for="d50"]{
+    margin-right: 73px;
+}
+.body .for label[for="d25"]{
+    margin-right: 0;
+}
+
+ .body input[type="number"]{
+    margin: 0;
+    padding: 16px 0 16px 9px;
+    margin-left: 354px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    Width:268px;
+height:54px;
+border: 1px solid #929699;
+border-radius: 2px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #929699;
+background: rgba(255, 255, 255, 0.52);
+ }
+ .body input[type="number"]:hover{
+    border-color: #4B9200;
+    color: #4B9200;
+ }
+.body .checkbox{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 397px 30px 382px;
+    padding: 0;
+}
+.body .checkbox label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height:22px;
+color: #333B41;
+}
+.body .checkbox input{
+    width: 16px;
+height: 16px;
+border: 1px solid #FE9013;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.52);
+}
+.body #button{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+border: none;
+Width:298px;
+Height:54px;
+margin: 0 337px 0 342px;
+padding: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.body .sotial{
+    margin: 30px 335px 0 340px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height:22px;
+color: #333B41;
+}
+
+footer{
+position: relative;   
+background: #111115;
+height: 443px;
+display: flex;
+flex-direction: row;
+}
+footer .logo{
+    text-decoration: none;
+    position: absolute;
+width: 80px;
+height: 50px;
+left: 220px;
+top: 41px;
+border: 0.5px solid #FFFFFF;
+border-radius: 2px;
+
+}
+footer .logo p{
+    margin:0;
+    font-weight: 400;
+font-size: 19.0145px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+footer .logo object{
+    position: relative;
+    top:-26px;
+    left:5.8px;
+}
+footer button{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: 220px;
+top: 161px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+color: #FFFFFF;
+}
+footer .first button:hover {
+
+    background: #E47209;
+}
+footer .first button:active{
+    background: #4B9200;
+}
+footer .sotial {
+    position: absolute;
+    top:259px;
+    left: 220px;
+    margin: 0;
+    padding: 0;
+    
+}
+.sotial a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+footer .first  .sotial a:hover > div{
+    background: #4B9200; color: #4B9200;
+}
+footer .first  .sotial a:hover >  p{
+    color: #4B9200;
+}
+footer .first .sotial div{
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+.sotial a p{
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+ footer ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:371px;
+    left: 619px;
+    
+    list-style: none;
+ }
+ footer ul li a{
+    text-decoration: none;
+    margin-right: 58px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+
+ }
+ footer ul li a:hover{
+    color: #E47209;
+}
+ footer ul:nth-child(5) {
+    margin: 0;
+ }
+ footer ul .activ{
+    color:#E47209;
+ }
+ footer .third{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left:1013px;
+ }
+ footer  .email {
+    display: flex;
+    flex-direction: column;
+ }
+ footer  .email label{
+    position: absolute;
+width: 237px;
+height: 29px;
+top: 40px;
+
+/* subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+ }
+ footer  .email input{
+    Width:228px;
+Height:42px;
+box-sizing: border-box;
+
+margin-top:83px;
+    
+ }
+ footer  .email #email{box-sizing: border-box;
+    background-color: #111115;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+border-radius: 2px;
+border: 1px solid #F9804B;
+color: #BDBDBD;padding-left: 10px;
+ }
+ footer  .email input[type="button"]{box-sizing: border-box;
+width: 129px;
+height:42px;
+background-color: #F1F3F2;
+/* Green */
+margin-left: 5px;
+border: 1px solid #333B41;
+border-radius: 5px;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+ }
+ footer  .email input[type="button"]:active{
+    border: 1px solid #4B9200;
+    color: #4B9200;
+ }
+ footer  .email #email:active{
+    border: 0.7px solid #4B9200;
+ }
+ footer  .email div input #email:invalid {border-color: red;}
+ footer  .email input #email:valid {border-color: green;}
+ footer .designer{
+    width: 399px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  align-items: flex-end;
+    top:341px;
+   
+ }
+ 
+ 
+ footer .designer a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 100;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+ }
+ footer .designer a:hover{
+    color: #4B9200;
+ }
+footer .designer p{
+    margin: 0;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    font-weight: 100;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+footer .designer .first{
+    margin-right: 8px;
+}
+#button:hover {
+
+    background-color: #E47209;
+}
+#button:active{
+    background-color: #4B9200;
+}

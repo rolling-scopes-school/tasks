@@ -1,0 +1,860 @@
+body{
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.panda{
+    width: 1600px;
+    height: 780px;
+    background: url(img/Giant\ Panda.png);
+    color: #FFFFFF;
+}
+.panda header,
+.panda header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.panda header{
+    width: 1600px;
+    height: 80px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+.panda .logo{
+    position: relative;
+    width: 82px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin-top:14px;
+    margin-left: 220px;
+    margin-right: 34px;
+    color:  #FFFFFF;
+}
+.panda .logo h1{
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top:2px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+} 
+.panda .logo #bamboo{
+    height: 28px;
+    position: absolute;
+left: 5.23px;
+top: 22.64px;
+}
+.panda nav {
+    width: 1298px;
+}
+.panda header ul{
+    margin: 0;
+    padding: 0;
+}
+.panda header ul li{
+    align-items:center;
+    margin: 29px;
+}
+.panda header ul li:last-child{
+    margin-left: 411px;
+}
+.panda header ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+}
+.panda header ul li .activ{
+    color: #E47209;
+}
+
+.panda header ul li a:hover{
+    color: #E47209;
+}
+
+.panda .favorite{
+    margin-left: 880px;
+    margin-top: 86px;
+    width: 500.31px;
+    height: 400px;
+}
+.panda .favorite::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 807px;
+    top: 92px;
+    width: 465px;
+height: 465px;
+border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.panda .favorite p{
+    position: relative;
+    top:-1px;
+    z-index: 1;
+    margin: 0;
+    font-weight: 700;
+font-size: 106.496px;
+line-height: 80px;
+text-align: center;
+text-transform: uppercase;
+}
+.panda .favorite p span{
+    color: #FFEE2E;
+}
+.panda .favorite .button{
+    padding: 0;
+    position: relative;
+    top: 60px;
+    left: 103px;
+    width: 298px;
+height: 54px;
+ padding: 16px 10px;
+
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+border: 0;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+}
+.panda .favorite .button:hover {
+
+    background: #E47209;
+}
+.panda .favorite .button:active{
+    background: #4B9200;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.world{
+    margin: 140px 220px 178px 219px;
+    display: flex;
+    flex-direction: row;
+}
+.world img{
+    margin-right: 87px;
+    width: 609px;
+    height: 403px;
+    backdrop-filter: blur(2px);
+}
+
+.world .text{
+    padding: 0;
+    width: 465px;
+    color: #333B41;
+}
+.world .text h2{
+    margin: 0;
+    font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+}
+.world .text p{
+    margin-bottom: 0;
+    font-weight: 400;
+font-size: 16px;
+
+}
+.world .text h3{
+    margin-top: 54px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+.world .text h2 ~ p{
+    margin-top: 20px;
+    line-height:21px;
+}
+.world .text h3 ~ p{
+    margin-top: 34px;
+    line-height: 22px;
+}
+.world::after{
+    content: url(img/flower_foto1\ \(1\).png);
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 1396px;
+    top: 792px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    margin: 0 140px 0 138px;
+}
+
+.slider button{
+    position: relative;
+    top:-2px;
+    align-self: center;
+    width: 62px;
+height: 62px;
+padding: 0;
+border: none;
+border-radius: 50%;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.slider button:active{
+    background: #4B9200;
+}
+.slider .cards{
+    position: relative;
+    margin: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+width: 1158px;
+height: 872px;
+}
+.slider .cards div{
+  
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px; ;
+}
+
+.slider .cards div:nth-child(3),
+.slider .cards div:nth-child(6){
+    margin-right: 0;
+}
+.slider .cards > div:first-child{
+    margin-bottom: 20px;
+}.slider .cards img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cards div:hover >  img{
+   transform: scale(1.05);
+   transition: 0.5s;
+}
+
+.slider .cards .information{
+    position: relative;
+    padding-top: 8px;
+    padding-left: 16px;
+}
+.slider .cards .information p{
+    margin: 0;
+    letter-spacing:0.1px;
+}
+.slider .cards .information .name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+}
+.slider .cards .information .area{
+    position: relative;
+    top: -2px;
+     font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+.slider .cards > div::after{
+    content: "";
+    display: block;
+    border: 1px solid  #F9804B; 
+    border-radius: 5px;
+    width: 364px;
+    height: 424px;
+    position: absolute;
+    z-index: 1;
+}
+.cards div:hover::after{
+    z-index: -2;
+    transition: 0.3s;
+    height:360px;
+    
+}
+.slider .cards div.meet::after{
+    content: url(img/meet-fish_icon.svg);
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    left: 310px;   
+}
+.slider .cards div.banan::after{
+    content: url(img/banana-bamboo_icon.svg);
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    left: 321px; 
+    top: 10px;  
+}
+.cards div:hover > .meet::after{
+    display: none;
+}
+.cards div:hover > .banan::after{
+    display: none;
+}
+
+.cards .block::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 5;
+    width: 364px;
+    height: 364px;
+    opacity: 0.3;
+    background: #000000;
+    display: none;
+}
+.cards div:hover > .block::after{
+    display: block;
+    z-index: 6;
+}
+.cards div:hover > .information{
+    position: relative;
+    transition: 0.5s;
+    transform: translate(0,-350px);
+    color:  #FFFFFF;
+    z-index: 8;
+}
+.cards div:hover > .slider .cards .information .area{
+    color:  #FFFFFF;
+}
+.gallery .button{
+    margin: 80px 651px 100px;
+    padding: 16px 20px;
+    width: 298px;
+    height: 54px;
+background: #FE9013;
+border: none;
+border-radius: 25px;
+color: #FFFFFF;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Roboto';
+font-style: normal;
+}
+.gallery > form button.button:hover {
+    background: #E47209;
+}
+.gallery > form button.button:active{
+    background: #4B9200;
+}
+.gallery{
+    height: 1106px;
+}
+.gallery::after{
+    content: url(img/strelitzia\ 1.png);
+    position: absolute;
+    z-index: 1;
+    top:2334px;
+    left: 1232px;
+    width: 368px;
+    height: 275px;
+}
+.gallery::before{
+    content: url(img/palm_foto.png);
+    position: absolute;
+    z-index: 2;
+    width: 880px;
+height: 460px;
+top: 2149px;
+}
+section [class="friend"]
+{background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+}
+.friend article{
+    position: relative;
+    margin:69px 220px 100px;
+    padding-top: 40px;
+    padding-bottom: 59px;
+    background: rgba(253, 253, 255, 0.52);
+backdrop-filter: blur(2px);
+border-radius: 20px;
+}
+.friend .article h3{
+    margin: 0;
+    font-weight: 400;
+font-size: 48px;
+line-height:58px;
+text-align: center;
+color: #FE9013;
+}
+.friend .article .glad{
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 99px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #333B41;
+}
+.friend .article .covid{
+    margin: 39px 0 0 99px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #333B41;
+font-weight:bold;
+}
+.friend .article .fund {
+    margin: 10px 198px 0 99px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #333B41;
+}
+.friend .article .fund a{
+    text-decoration:none;
+    color: #333B41;;
+}
+.friend .article .fund::after{
+    position: relative;
+    left: 87px;
+    top:1px;
+content: "";
+display: block;
+width: 178px;
+height: 1px;
+background: #FE9013;
+}
+.friend  .how{
+    margin:0;
+    padding: 0;
+}
+.friend  .how h3{
+    margin: 59px 0 40px;
+    font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+color: #333B41;
+text-align: center;
+}
+.friend .how .pictures{
+    padding: 0 198px;
+    display: flex;
+    flex-direction: row;
+}
+.how .pictures .step{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.pictures .step > div{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 168px;
+height: 168px;
+background: #FFFFFF;
+border-radius: 5px;
+border: 1px solid #F9804B;
+}
+.pictures > object{
+    position: relative;
+    top:62px;
+    margin: 0 31px;
+    width: 69px;
+height: 35.08px;
+}
+.pictures .step p{
+    margin: 0;font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333B41;
+}
+
+.friend button{
+    Width:298px;
+    Height:54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+}
+.friend article form  button:hover {
+
+    background: #E47209;
+}
+.friend article form  button:active{
+    background: #4B9200;
+}
+.friend form{
+    padding: 61px 431px 0;
+}
+.feedback{
+    margin: 0;
+    padding: 140px 220px 180px;
+}
+.feedback h3{
+    margin: 0;
+    margin-bottom: 47px;
+    font-weight: 400;
+font-size: 36px;
+line-height:47px;
+text-align: center;
+color: #333B41;
+}
+.feedback > div {
+    display: flex;
+    flex-direction: row;
+}
+.feedback .card{
+    box-sizing: border-box;
+    margin: 0;
+    Width:268px;
+    Height:391px;
+    background: #F1F3F2;
+border-radius: 20px;
+border: 2px solid #F3A9F8;
+border-image-slice: 1;
+
+}
+.card .back{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.card .back .top{
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}
+.card .back .top img{
+    Width:37px;
+height:37px;
+margin: 15px 10px 0px 16px;
+}
+.card .back .top div .name{
+    margin: 0;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.card .back .top div .local{
+    margin: 0;
+    font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+color: #BDBDBD;
+}
+.card .back .top div .local span{
+    padding-right: 6px;
+}
+.card .back .top div .local .right{
+    padding-left: 5px;
+}
+.card .back .text{
+    margin: 10px 15px 19px 16px;
+    text-overflow: clip;
+    font-weight: 300;
+font-size: 15px;
+line-height:18px;
+color: #767474;
+overflow: hidden; 
+height: 309px;    
+}
+.feedback .one{
+    margin-right:30px ;
+}
+.feedback .two{
+    margin-right:29px ;
+}
+.feedback .three{
+    margin-right:32px ;
+}
+.feedback .scrol{
+    margin-top: 21px;
+    margin-left: 280px;
+    width: 599px;
+    height: 8px;
+    overflow-x: scroll;
+    scrollbar-color:#FE9013;
+}
+ .feedback button{
+    margin: 0;
+    margin-top: 32px;
+    width: 298px;
+height: 54px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+ }
+.feedback  form  button:hover {
+
+    background: #E47209;
+}
+.feedback  form  button:active{
+    background: #4B9200;
+}
+ .feedback::before{
+    content: url(img/leav_foto.png);
+    position: absolute;
+    left: 1352px;
+top: 4257px;
+ }
+footer{
+position: relative;   
+background: #111115;
+height: 443px;
+display: flex;
+flex-direction: row;
+}
+footer .logo{
+    text-decoration: none;
+    position: absolute;
+width: 80px;
+height: 50px;
+left: 220px;
+top: 41px;
+border: 0.5px solid #FFFFFF;
+border-radius: 2px;
+
+}
+footer .logo p{
+    margin:0;
+    font-weight: 400;
+font-size: 19.0145px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+footer .logo object{
+    position: relative;
+    top:-26px;
+    left:5.8px;
+}
+footer button{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: 220px;
+top: 161px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+color: #FFFFFF;
+}
+footer .first button:hover {
+
+    background: #E47209;
+}
+footer .first button:active{
+    background: #4B9200;
+}
+footer .sotial {
+    position: absolute;
+    top:259px;
+    left: 220px;
+    margin: 0;
+    padding: 0;
+    
+}
+.sotial a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+footer .first  .sotial a:hover > div{
+    background: #4B9200; color: #4B9200;
+}
+footer .first  .sotial a:hover >  p{
+    color: #4B9200;
+}
+footer .first .sotial div{
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+.sotial a p{
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+ footer ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:371px;
+    left: 619px;
+    
+    list-style: none;
+ }
+ footer ul li a{
+    text-decoration: none;
+    margin-right: 58px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+
+ }
+ footer ul li a:hover{
+    color: #E47209;
+}
+ footer ul:nth-child(5) {
+    margin: 0;
+ }
+ footer ul .activ{
+    color:#E47209;
+ }
+ footer .third{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left:1013px;
+ }
+ footer  .email {
+    display: flex;
+    flex-direction: column;
+ }
+ footer  .email label{
+    position: absolute;
+width: 237px;
+height: 29px;
+top: 40px;
+
+/* subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+ }
+ footer  .email input{
+    Width:228px;
+Height:42px;
+box-sizing: border-box;
+
+margin-top:83px;
+    
+ }
+ footer  .email #email{box-sizing: border-box;
+    background-color: #111115;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+border-radius: 2px;
+border: 1px solid #F9804B;
+color: #BDBDBD;padding-left: 10px;
+ }
+ footer  .email input[type="button"]{box-sizing: border-box;
+width: 129px;
+height:42px;
+background-color: #F1F3F2;
+/* Green */
+margin-left: 5px;
+border: 1px solid #333B41;
+border-radius: 5px;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+ }
+ footer  .email input[type="button"]:active{
+    border: 1px solid #4B9200;
+    color: #4B9200;
+ }
+ footer  .email #email:active{
+    border: 0.7px solid #4B9200;
+ }
+ footer  .email div input #email:invalid {border-color: red;}
+ footer  .email input #email:valid {border-color: green;}
+ footer .designer{
+    width: 399px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  align-items: flex-end;
+    top:341px;
+   
+ }
+ 
+ 
+ footer .designer a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 100;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+ }
+ footer .designer a:hover{
+    color: #4B9200;
+ }
+footer .designer p{
+    margin: 0;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    font-weight: 100;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+footer .designer .first{
+    margin-right: 8px;
+}
+#button:hover {
+
+    background-color: #E47209;
+}
+#button:active{
+    background-color: #4B9200;
+}
