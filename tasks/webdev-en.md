@@ -70,10 +70,10 @@ Example:
 - Task will be checked by a `cross-check`
 
 ### Technical requirements:
--	usage of JQuery and other JS libraries is **not allowed**
--	usage of normalize.css, css-preprocessors, Bootstrap and other UI libraries is **not allowed**
--	usage of Angular/React/Vue and other frameworks is **not allowed**
--	position the layout in the *center* with equal margins along the edges.
+-	usage of JQuery and other JS libraries is **not allowed 0 points**
+-	usage of normalize.css, css-preprocessors, Bootstrap and other UI libraries is **not allowed 0 points**
+-	usage of Angular/React/Vue and other frameworks is **not allowed 0 points**
+-	position the layout in the *center* with equal margins along the edges. **-2 points otherwise**
 -	Add interactivities. **"Interactive"** means that the element has a visual effect or animation (up to you: cursor animation, background color change, shadow, underline,font change) upon any user action, for example, when the cursor is hovering. You do not need to use JavaScript to handle custom events for this task.Basically, this effect is implemented using the `:hover` pseudo-class and the following properties:
       - cursor: pointer,
       -	background,
@@ -84,13 +84,13 @@ Example:
   - Interactive navigation bar. The first item should be highlighted
   - The logo is centered.
   - The header doesn't have any special positional behaviors. If you scroll through the page, the header is no longer visible
-  - The background image should be placed behind the text.
-  - There should be one `<h1>` element on the entire page. The placement of it up to you. It should have the 'Your life is webdev' text inside of it.
+  - The background image should be placed behind the text. (the navbar gets it's black color from the background, not explicitly set to black)
 
 2. #### *Your Life* block
   - The get started button should be interactive.
   - Social icons should be interactive
-  - The background image should be placed behind the text. 
+  - The background image should be placed behind the text.
+  - There should be one `<h1>` element on the entire page. The placement of it up to you. It should have the 'Your life is webdev' text inside of it.
 
 3. #### *Rappresent* block
 - The text box contains important text in bold. You need to use an appropriate semantic element.
