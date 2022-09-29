@@ -92,7 +92,7 @@ Example:
   - Social icons should be interactive
   - The background image should be placed behind the text. 
 
-3. #### *Rappresent* block
+3. #### *Represent* block
 - The text box contains important text in bold. You need to use an appropriate semantic element.
 - The `get started` button should be interactive.
 - The image should have correct placement.
