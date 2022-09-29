@@ -83,7 +83,7 @@ Example:
 1. #### Header (`<header>` contains just logo and navigation bar)
   - Interactive navigation bar. The first item should be highlighted
   - The logo is centered.
-  - The header is fixed in it's position. It doesn't move with the user when scrolling. That means if you scroll through the page, the header is no longer visible
+  - The header doesn't have any special positional behaviors. If you scroll through the page, the header is no longer visible
   - The background image should be placed behind the text.
   - There should be one `<h1>` element on the entire page. The placement of it up to you. It should have the 'Your life is webdev' text inside of it.
 
