@@ -72,8 +72,6 @@
 - [Модуль: "Webpack"](modules/webpack/)
 - [codejam](../tasks/)
 
-### Черновик 
-
 ### Неделя #8 (25 октября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
 - [Модуль: Git Recap](modules/git-recap/)
@@ -83,7 +81,9 @@
 ### Неделя #9 (1 ноября 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CSS Meme Slider"
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+### Черновик 
 
 ### Неделя #10 (8 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
