@@ -1,10 +1,9 @@
-# async-race
+ # async-race
 
 | Folder name   | Branch name   |
 | ------------- | ------------- |
 | async-race    | async-race    |
 
-Date of the start and the deadline you can find in [the schedule](https://docs.google.com/spreadsheets/d/1oM2O8DtjC0HodB3j7hcIResaWBw8P18tXkOl1ymelvE/edit#gid=1646898206)
 
 ## Task "Async Race"
 
@@ -61,7 +60,7 @@ What are you waiting for? Let's coding!
 - (**+5**) Code shouldn't contain magical numbers or strings.
 
 ## Requirements to commits, PR and repo
-[Stage 2 requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
+[Stage 2 requirements](https://docs.app.rs.school/#/platform/pull-request-review-process)
 
 ## Key skills
 - Сommunication with a server (fetch, REST API)

@@ -31,8 +31,3 @@
     - [Числа и типичные задачи с ними](https://youtu.be/Cf8QnemR0oc)
     - [Строки и работа с ними](https://youtu.be/YZDVqeD3fn8)
 2. Прочитать https://learn.javascript.ru/datetime - 1 час
-
-## Практика 
-1. Вам необходимо решить все предложенные задачи по темам, которые прошли
-   [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/data-types.md)
-2. https://github.com/rolling-scopes-school/human-readable-number

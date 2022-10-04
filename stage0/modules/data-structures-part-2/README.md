@@ -21,9 +21,7 @@
 * Хорошо подумайте перед сабмитом чужого кода, стоит ли риск быть отчисленным за 3% баллов.
 
 Задачи: 
-1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-2.md)
-2. https://github.com/rolling-scopes-school/guessing-game
-3. (сложная задача) https://github.com/rolling-scopes-school/sudoku
+https://github.com/rolling-scopes-school/guessing-game
 
 ## Дополнительные материалы
 1. Оценка сложности алгоритма: [ссылка 1](https://tproger.ru/articles/computational-complexity-explained/), [ссылка 2](https://tproger.ru/translations/algorithms-and-data-structures/)

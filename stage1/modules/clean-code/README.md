@@ -28,7 +28,6 @@
 2. Пройти тест в RS APP "Test for generic principles"
 
 ## Дополнительные материалы
-- [Руководство по качеству кода](stage1/tasks/clean-code/guidelines/generic-principles.md)
 - "Чистый код", Роберт Мартин
 - [Википедия: Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions)
 - [Git commit editing](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)

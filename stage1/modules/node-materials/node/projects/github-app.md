@@ -1,4 +1,6 @@
 ## Приложение GitHub
+[HOME](../../README.md)
+
 Создадим консольное приложение, которое в качестве аргумента командной строки будет принимать имя пользователя GitHub и выводить список репозиториев этого пользователя.
 
 Для этого воспользуемся GitHub API. По запросу `https://api.github.com/users/USERNAME/repos` возвращается список репозиториев пользователя, `USERNAME` которого указан в ссылке.
@@ -171,7 +173,8 @@ if(res.statusCode !== 200) return done(new Error('Ошибка при работ
 ```
 4. Для обработки ошибок в синхронных методах, к которым относится `JSON.parse()` используется конструкция `try {} catch() {}`  
 ```js
-try {const result = JSON.parse(body);
+try {
+  const result = JSON.parse(body);
   done(null, result);
 } catch(error) {
   done(new Error('Не удалось обработать данные'));

@@ -1,4 +1,5 @@
 ## Операции ввода/вывода
+[HOME](../README.md)
 
 ### I/O (input/output)
 I/O (input/output) означает ввод/вывод

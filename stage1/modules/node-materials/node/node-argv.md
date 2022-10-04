@@ -1,4 +1,6 @@
 ## Аргументы командной строки
+[HOME](../README.md)
+
 В Node.js есть возможность запустить файл с определёнными аргументами командной строки. При запуске файла аргументы передаются после его имени. Например, при запуске   
 ```powershell  
 node test 1 2 3
@@ -26,7 +28,7 @@ node test -m Hello
 ```js
 const flagIndex = process.argv.indexOf('-m');
 if (flagIndex !== -1) {
-  const message = process.argv[index + 1];
+  const message = process.argv[flagIndex + 1];
   console.log(message);
 }
 ```

@@ -28,5 +28,5 @@
 // TODO
 
 ## Практика 
-// TODO
+Вам необходимо пройти тест "Async JS Test" в RS APP > Auto Test
 
