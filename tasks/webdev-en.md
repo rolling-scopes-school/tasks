@@ -92,7 +92,7 @@ Example:
   - The background image should be placed behind the text.
   - There should be one `<h1>` element on the entire page. The placement of it up to you. It should have the 'Your life is webdev' text inside of it.
 
-3. #### *Rappresent* block
+3. #### *Represent* block
 - The text box contains important text in bold. You need to use an appropriate semantic element.
 - The `get started` button should be interactive.
 - The image should have correct placement.
