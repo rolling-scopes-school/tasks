@@ -13,34 +13,46 @@ It should be based on the previous task.
 3. Form should be implemented using uncontrolled components
 4. Add functionality to your app:
    +  Collect information through a form
-   +  You can collect any type of information, but form has to include at least one control of the following types: input, date input, dropdown/select, checkbox, switcher, file upload (image)
+   +  You can collect any type of information, but form has to include at least one control of the following types:
+      + text input
+      + date input
+      + dropdown/select
+      + checkbox
+      + switcher
+      + file upload (image)
 
-    ````  
-    **Example:** 
-    input - name, surname, zip-code;
-    date input - birthday, date of delivery;
-    dropdown/select - list of countries, list of states (User can choose only one element from the list)
-    checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
-    switcher - male/female, "I want to receive notifications about promo, sales, etc." / "I don’t want to receive notifications about promo, sales, etc."
-    file upload - profile picture
-    ````  
+   **Example:**
+     ```
+     text input - name, surname, zip-code;
+     date input - birthday, date of delivery;
+     dropdown/select - list of countries, list of states (User can choose only one element from the list)
+     checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
+     switcher - male/female, "I want to receive notifications about promo, sales, etc." / "I don’t want to receive notifications about promo, sales, etc."
+     file upload - profile picture
+     ```
 
-    Validation should happen after the **Submit** button clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
-
-    After changing value in input, then reset will happens only for one particular field (not all fields). 
-
-    Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
-
-    After the Submit button is clicked, all data from the form has to be displayed as Card in the cards list below form. The confirmation message (with information that the data has been saved) should be displayed, after that form has to be cleared.
-
-    In case the user filled in and submitted the form five times, then five cards have to be displayed under the form.
+   After the Submit button is clicked, all data from the form has to be displayed as Card in the cards list below the form. The confirmation message (with information that the data has been saved) should be displayed, after that form has to be cleared.
+   
+   The quantity of cards should equal the number of form submissions (if the user filled in and submitted the form five times, then five cards have to be displayed under the form).
+   
+   **Form validation**
+   
+   Validation should happen after the **Submit** button was clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
+   
+   After changing the value of erroneous input, the reset should happen only for this particular field, but not for the others.
+   
+   Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
 
 5. Add tests.
-6. All logic parts should be extracted into components.
+6. All logical parts should be extracted into components.
+   
    All data must be stored in a local state of the component.
-   Components should not make calls to APIa.
-   Using redux or any other solutions for state management is prohibited.  
-   **Using any libraries with components or form libraries is prohibited.**  
+   
+   Components should not make calls to APIs.
+
+   The usage of Redux or any other solutions for state management is prohibited.
+
+   **The usage of any libraries with components or form libraries is prohibited.**  
 
 
 ### Score
