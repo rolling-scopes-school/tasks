@@ -19,7 +19,7 @@ It should be based on the previous task.
    - https://github.com/public-apis/public-apis
      **The API should support searching, pagination and sorting. Although you don’t need it at this stage, but there’s a good chance it might come in handy later.**
 3. Rewrite the search page, and split it into 2 logical parts:
-   - **Search bar.** Enter test -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
+   - **Search bar.** Enter text -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
    - **The result list of searching**: display the data that the API query returned using Cards.
 4. A customer decided to change requirement. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
 5. Creat a download indicator ( a component with animation, or at least with the string - ‘Downloading’). You should place this indicator with your own sense of beauty.
