@@ -39,7 +39,7 @@ It should be based on the previous task.
    
    Validation should happen after the **Submit** button was clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
    
-   After changing the value of erroneous input, the reset should happen only for this particular field, but not for the others.
+   On change the value of erroneous input, the error of this field should disapear; the reset should happen only for this particular field, but not for the others.
    
    Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
 
