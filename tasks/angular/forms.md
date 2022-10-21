@@ -47,7 +47,7 @@ The main goal of this task is to implement forms handling and validation using R
             - check for the URL validity (message: "The video link is invalid")
         - creation date
             - required (message: "Please enter a creation date")
-            - an entered date should now be in the future (message: "The date is invalid")
+            - an entered date should not be in the future (message: "The date is invalid")
 
 - The application should prevent a user from submitting a form in case one of the described rules is failed
 - In case a user has entered invalid data into an input, the border should be colored in red
