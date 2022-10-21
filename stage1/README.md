@@ -67,8 +67,6 @@
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
-### Черновик 
-
 ### Неделя #7 (18 октября 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
@@ -83,7 +81,9 @@
 ### Неделя #9 (1 ноября 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CSS Meme Slider"
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+### Черновик 
 
 ### Неделя #10 (8 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
