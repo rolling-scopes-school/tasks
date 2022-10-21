@@ -47,7 +47,7 @@
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
 - Workshop
-- [Final task: "Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
+- [Final task: "Project management application"](https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/angular/project-management-system.md)
 
 ### Week #9
 - [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the task ["Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
