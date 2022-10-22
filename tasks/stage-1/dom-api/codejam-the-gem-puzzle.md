@@ -20,7 +20,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - initially, `body` in the index.html file must be empty, all necessary elements are generated using JS
 - the default size of the frame is 4x4
 - at the beginning state of the game, the frame is filled with randomly generated numbers, when starting a new game, numbers are re-shuffled randomly
-- when you click on a tile next to an empty cell, the tile moves to the empty cell
+- when you click on a tile near to an empty cell, the tile moves to the empty cell
 
 `Advanced:`
 
