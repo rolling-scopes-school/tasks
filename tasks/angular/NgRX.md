@@ -43,7 +43,7 @@ The project structure must be organized in the following way:
 
 ```
     app
-    ├── core                
+    ├── core
     │   ├── components
     │   ├── pages
     │   ├── services
@@ -89,14 +89,14 @@ Maximum points - **100**
 - [ ] Saving data received from the YouTube API is implemented using NgRX library (**+30**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong project structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] TSLint warnings or errors are present (**-15**)
 
 ### Useful links
-https://ngrx.io  
-https://ngrx.io/guide/store/configuration/runtime-checks  
-https://ngrx.io/guide/store/actions  
-https://ngrx.io/guide/store/reducers  
-https://ngrx.io/guide/effects  
+https://ngrx.io
+https://ngrx.io/guide/store/configuration/runtime-checks
+https://ngrx.io/guide/store/actions
+https://ngrx.io/guide/store/reducers
+https://ngrx.io/guide/effects
