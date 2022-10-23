@@ -55,7 +55,6 @@ The project structure must be organized in the following way:
     │   ├── pipes
     ├── redux
     │   ├── actions
-    │   ├── reducers
     │   ├── effects
     │   ├── reducers
     │   ├── selectors
