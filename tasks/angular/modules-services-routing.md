@@ -95,7 +95,7 @@ Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong project structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://angular.io/tutorial/toh-pt4

@@ -39,7 +39,7 @@ Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app still contains mocked data (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://rxjs-dev.firebaseapp.com/api
