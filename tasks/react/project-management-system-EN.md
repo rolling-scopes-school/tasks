@@ -21,15 +21,15 @@ Design, prototype, as well as the implementation of the application are up to yo
 
 Here's the list of examples of working prototypes:
 
-https://comfy-klepon-a13665.netlify.app/
+https://rss-pma.netlify.app/
 
-https://project-management-appl.herokuapp.com/
+https://pm-app-34.netlify.app/
 
-https://pma-angular.netlify.app/
+https://management-app-dariija.netlify.app/
 
-https://project-management-app-group14.netlify.app/
+https://pma-olesiklesha.netlify.app/
 
-https://project-management-team7.netlify.app/
+https://tarasiukdima.github.io/project-management-app/
 
 ## Backend
 
