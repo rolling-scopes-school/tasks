@@ -1,0 +1,26 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Install and Build 🔧 
+        run: |
+          echo 'TODO build here'
+      - name: Deploy 🚀
+        env:
+          ACCESS_TOKEN: ${{ secrets.TOKEN }} # This token has to be generated as shown in https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
+        run: |
+          set -ex
+          # use the generated token to autheticate the action
+          git remote set-url origin https://mircohaug:${ACCESS_TOKEN}@github.com/mircohaug/reddit-compiler.git 
+          # split of the subtree at frontend/dist (or wherever your frontend is located) and force push it to the gh-pages branch
+          git push origin `git subtree split --prefix frontend/dist master`:gh-pages --force
