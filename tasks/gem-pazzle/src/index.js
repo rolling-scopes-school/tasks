@@ -1,20 +1,42 @@
 import './assets/style/style.css';
+import { generateMatrix, setPositionSquare, shuffle } from './helper.js'
+ 
+document.addEventListener('DOMContentLoaded', () => {
 
-
-const table = [[ 1, 3, 5, 7],
-               [ 2, 4, 6, 8],
-               [11,13,15, 9],
-               [10,12,14,  ]];
-
-console.log('Структуру данных для поля игры представляет двумерный массив : ' + table);
-
-const root = document.querySelector('#root');
-
-document.addEventListener('click', (e) => {
-    e.preventDefault();
-    const table = document.createElement('h1');
-
-    table.innerHTML = 'Hello' + table;
     const root = document.querySelector('#root');
-    root.append(table);
+    const container = document.createElement('div');
+    container.classList.add('container');
+    const navigation = document.createElement('div');
+    navigation.classList.add('navigation');
+    const startBtn = document.createElement('button');
+    startBtn.classList.add('btn');
+    startBtn.innerHTML = 'Играть';
+    const timeDisplay = document.createElement('div');
+    timeDisplay.classList.add('time');
+    navigation.append(timeDisplay);
+    navigation.append(startBtn);
+    const playingField = document.createElement('div');
+    playingField.classList.add('playing_container');
+    
+    // const 
+
+    for (let i = 1; i <= 16; i += 1) {
+        const square = document.createElement('div');
+        square.classList.add('square');
+        square.textContent = i;
+        playingField.append(square);
+    }
+    container.append(navigation);
+    container.append(playingField);
+    root.append(container);
+    const squares = Array.from(root.querySelectorAll('.square'));
+    const arrSquares = shuffle(squares.map(item => +item.innerHTML));
+    
+    let matrixField = generateMatrix(arrSquares);
+
+    squares[15].style.display = 'none';
+    setPositionSquare(matrixField, squares);
+    
 })
+
+

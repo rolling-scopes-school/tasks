@@ -7,4 +7,45 @@ h1 {
   color: red;
 }
 
+body {
+  background-image: url(../img/bck.jpeg);
+  background-size: 100%;
+}
+
+.playing_container {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  border: 2px solid white;
+  position: relative;
+  cursor: pointer;
+}
+
+.square {
+  background: grey;
+  width: 25%;
+  height: 25%;
+  font-size: 2rem;
+  outline: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 400px;
+}
+
+button {
+  color: wheat;
+  background-color: rgb(8, 33, 122);
+  width: 25%;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

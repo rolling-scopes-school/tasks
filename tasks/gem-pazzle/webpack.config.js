@@ -22,7 +22,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'webpack Boilerplate',
+            title: 'gem-puzzle@Albert Savchenko',
             template: path.resolve(__dirname, './src/template.html'), 
             filename: 'index.html', 
         }),
