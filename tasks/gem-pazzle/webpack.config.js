@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     devServer: {
         historyApiFallback: true,
         contentBase: path.resolve(__dirname, './dist'),
