@@ -47,7 +47,8 @@
 ## Теория 
 // TODO Актуализировать список необходимой теории
 // Добавить инстурукцию по готовой webpack сборке
-- https://youtu.be/ssORHjHHCzU
+- [Вебинар JS/FE 2021Q3 Webpack and Preprocessors](https://youtu.be/Edue1LmnZqo) - 2 часа
+- [Вебинар JSFE2021Q1 Webpack](https://youtu.be/bozzyi8Tok0) - 2 часа
 
 ## Практика 
 1. Вам необходимо пройти тест "Test Webpack Basics [RU]" в RS APP > Auto Test
@@ -56,5 +57,5 @@
 //TODO Актуализировать содержание 
 1. [Webpack 4 - простая сборка проекта](https://www.youtube.com/watch?v=MRlBKfGktwI&feature=youtu.be) - 2 часа
 2. [Webpack. Полный курс 2020](https://www.youtube.com/watch?v=eSaF8NXeNsA&feature=youtu.be) - 3 часа
-
-
+3. [Вебинар RS School 2017Q3 Webpack](https://youtu.be/ssORHjHHCzU) - 2 часа 43 минуты
+4. [Официальный сайт Webpack](https://webpack.js.org/)
