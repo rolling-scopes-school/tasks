@@ -16,7 +16,7 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 
 `Basic (required):`
 
-- the design should be responsive, that includes *desktop(1280px <= width)*, *tablet(768px <= width < 1280px)* and *mobile(320px <= width < 768px)*. When switching between versions everything should be displayed correctly, all functionality should be present, nothing should disappear or leave beyond the screen. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
+- the design should be adaptive (or responsive), that includes *desktop(1280px <= width)*, *tablet(768px <= width < 1280px)* and *mobile(320px <= width < 768px)*. When switching between versions everything should be displayed correctly, all functionality should be present, nothing should disappear or leave beyond the screen. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
 - initially, `body` in the index.html file must be empty, all necessary elements are generated using JS
 - the default size of the frame is 4x4
 - at the beginning state of the game, the frame is filled with randomly generated numbers, when starting a new game, numbers are re-shuffled randomly
@@ -43,9 +43,9 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 
 - the work should be done in private school's repository
 - source code should be committed to a separate branch
-- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- the **main** (or old style **master**) branch should be empty (contain only files like README.md or .gitignore)
 - commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
-- once the work is finished, create a pull request from a development branch to master
+- once the work is finished, create a pull request from a development branch to main (or master)
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
   - link to the task
