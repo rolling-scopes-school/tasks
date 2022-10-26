@@ -23,4 +23,4 @@ Assignment - 4 hours
 ## Additional materials
 - [General understanding of Flux](https://facebook.github.io/flux/)
 - [NxRx docs](https://ngrx.io/docs)
-- [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno#treat-actions-as-unique-events)
+- [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno)
