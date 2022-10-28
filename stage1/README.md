@@ -83,17 +83,15 @@
 - [Проект "HTML-Builder"](modules/html-builder/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
-### Черновик 
-
 ### Неделя #10 (8 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- Финальный таск stage1
+- [songbird](../tasks/songbird/songbird-2022q1.md)
 
 ### Неделя #11 (15 ноября 2022)
 - [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
-- Финальный таск stage1
+- [songbird](../tasks/songbird/songbird-2022q1.md)
 
 ## FAQ
 ### Что делать до старта обучения? 

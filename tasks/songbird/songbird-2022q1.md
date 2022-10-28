@@ -60,6 +60,7 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds.
 - работа приложения проверяется в браузере Google Chrome последней версии
 - можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://material.io/), css-фреймворки, html и css препроцессоры
 - запрещено использовать любые js-библиотеки и фреймворки в т.ч. jQuery
+- запрещено использовать TypeScript
 
 ## Рекомендации по написанию кода
 - правильное именование переменных и функций
