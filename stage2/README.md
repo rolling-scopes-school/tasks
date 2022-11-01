@@ -12,11 +12,12 @@
 
 # Программа обучения
 
-## Неделя #1. 14/06/2022
+## Неделя #1. 22/11/2022
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Задачи "Codewars2"](../tasks/codewars/Codewars-2022Q1-OOP.md) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["songbird"](../tasks/songbird/songbird-2022q3.md)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -24,7 +25,7 @@
 - [Подтверждение регистрации на курс](https://docs.rs.school/#/mentoring-kick-off)
 </details>
   
-## Неделя #2. 21/06/2022
+## Неделя #2. 29/11/2022
 - [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Собеседование с ментором](modules/technical-screening/)
 
@@ -36,7 +37,7 @@
 - [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)  
 </details>
 
-## Неделя #3. 28/06/2022
+## Неделя #3. 06/12/2022
 - [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
@@ -61,6 +62,8 @@
   - [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
   - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 </details>
+
+## Черновик
 
 ## Неделя #4. 05/07/2022
 - [Модуль: Web Storage](modules/web-storage/)

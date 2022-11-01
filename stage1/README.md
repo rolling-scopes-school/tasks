@@ -86,12 +86,12 @@
 ### Неделя #10 (8 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- [songbird](../tasks/songbird/songbird-2022q1.md)
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 ### Неделя #11 (15 ноября 2022)
 - [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
-- [songbird](../tasks/songbird/songbird-2022q1.md)
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 ## FAQ
 ### Что делать до старта обучения? 
