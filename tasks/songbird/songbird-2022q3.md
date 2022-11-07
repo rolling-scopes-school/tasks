@@ -58,7 +58,7 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds.
 
 ## Технические требования
 - работа приложения проверяется в браузере Google Chrome последней версии
-- css препроцессоры
+- можно использовать css препроцессоры
 - запрещено использовать любые js-библиотеки и фреймворки в т.ч. jQuery
 - запрещено использовать TypeScript
 
