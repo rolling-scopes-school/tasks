@@ -14,7 +14,7 @@ Browser Support: Google Chrome ( last version)
 Failure to host your solution and/or not providing a correct link to the hosted solution will result in 0 points!
 
 **IMPORTANT!!!**
-Do not use the eval ()! Using eval will award you a total of 1 points (a passing score), regardless of any other functionality implemented
+Do not use the eval() or the Function constructor! Using any of those will award you a total of 1 points (a passing score), regardless of any other functionality implemented
 
 ## Assessment criteria 
 If the task is fully completed, and no defects are found by reviwer, you are awarded **100 points**. This concerns your solutions HTML, CSS, JS.
