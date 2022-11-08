@@ -25,50 +25,45 @@
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Travel"](../tasks/travel/travel.md) 
-    - ["Travel#1. Фиксированная вёрстка"](../tasks/travel/travel-part1.md)
-
-### Неделя #4
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- Проект ["Plants"](../tasks/plants/plants.md) 
+    - ["Plants#1. Фиксированная вёрстка"](../tasks/plants/plants-part1.md)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #5
-- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#1"](../tasks/travel/travel-part1.md)
-- Проект ["Travel"](../tasks/travel/travel.md)
-    - ["Travel#2. Адаптивная вёрстка"](../tasks/travel/travel-part2.md)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 
 ### Неделя #6
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/travel/travel-part1.md)
+- Проект ["Plants"](../tasks/plants/plants.md)
+    - ["Plants#2. Адаптивная вёрстка"](../tasks/plants/plants-part2.md)
+
+### Неделя #7
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
 
-### Неделя #7
+### Неделя #8
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#2"](../tasks/travel/travel-part2.md)
-- Проект ["Travel"](../tasks/travel/travel.md)
-    - ["Travel#3. Добавление функционала"](../tasks/travel/travel-part3.md)
-
-### Неделя #8
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#2"](../tasks/travel/travel-part2.md)
+- Проект ["Plants"](../tasks/plants/plants.md)
+    - ["Plants#3. Добавление функционала"](../tasks/plants/plants-part3.md)
 
 ### Неделя #9
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Travel#3"](../tasks/travel/travel-part3.md)
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 
 ### Неделя #10
-- Проект ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#3"](../tasks/travel/travel-part3.md)
 
 ### Неделя #11
-- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
+- Проект ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
 
 ### Неделя #12
-- Проект ["CodeJam"](https://docs.rs.school/#/rs-app-tasks?id=codejam) 1 week
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
-
+- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #13
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CodeJam"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
 - Получение сертификата 
 
 ## Сертификат 

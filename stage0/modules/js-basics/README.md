@@ -9,6 +9,7 @@
 
 ## Теория 
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/javascript (20 часов)
+2. [Просмотреть лекцию по основам Javascript](https://youtu.be/PH37Zvp3vDY?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
 1. Вам необходимо пройти тест "Test JS Basics [RU]" в RS APP > Auto Test
