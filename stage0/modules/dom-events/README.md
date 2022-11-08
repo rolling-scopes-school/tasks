@@ -20,9 +20,7 @@
 
 ## Теория 
 1. [Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events) - 1 час
-2. Запись вебинара
-        - https://www.youtube.com/watch?v=vcXehC9JgGU
-        - Слайды http://rolling-scopes.github.io/slides/school/dom-events/#/
+2. [Запись лекции по DOM API/Events](https://youtu.be/2Yg-cH2hpiM?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 
 

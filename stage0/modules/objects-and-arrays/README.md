@@ -19,6 +19,7 @@
 1. https://learn.javascript.ru/object
 2. https://learn.javascript.ru/array
 3. https://learn.javascript.ru/array-methods
+4. [Запись лекции](https://youtu.be/-vgsjJahYec?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
 [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars2.md)
