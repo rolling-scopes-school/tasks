@@ -36,7 +36,9 @@ https://birds-quiz.netlify.com/
 Демо даёт общее представление о функционале приложения, требованиям задания соответствует только частично
 #### Исходные данные
 [На русском](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds.js)
+
 [На английском](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds-en.js)
+
 Можно вносить правки или заменить на свои
 
 ## Механизм игры
