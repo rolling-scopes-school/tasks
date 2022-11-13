@@ -10,6 +10,5 @@
 3 hours
 
 ## Theory
-- Lecture about Node.js installation & version management (upcoming)
 - [How to install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 - [nvm docs](https://github.com/nvm-sh/nvm#intro)
