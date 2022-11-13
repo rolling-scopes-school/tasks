@@ -36,9 +36,9 @@
 - [HTTP vs HTTP2](https://www.digitalocean.com/community/tutorials/http-1-1-vs-http-2-what-s-the-difference)
 - [Postman](https://learning.postman.com/docs/getting-started/introduction/#testing-apis)
 - Node.js APIs:
-  - [HTTP](https://nodejs.org/dist/latest-v16.x/docs/api/http.html)
-  - [Streams](https://nodejs.org/dist/latest-v16.x/docs/api/http2.html)
-  - [Cluster](https://nodejs.org/dist/latest-v16.x/docs/api/cluster.html)
+  - [HTTP](https://nodejs.org/dist/latest-v18.x/docs/api/http.html)
+  - [Streams](https://nodejs.org/dist/latest-v18.x/docs/api/http2.html)
+  - [Cluster](https://nodejs.org/dist/latest-v18.x/docs/api/cluster.html)
 
 ## Practice
 1. Assignment: **Simple CRUD API**
