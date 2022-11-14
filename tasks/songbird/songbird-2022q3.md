@@ -35,7 +35,9 @@ Songbird - приложение-викторина для распознаван
 https://birds-quiz.netlify.com/  
 Демо даёт общее представление о функционале приложения, требованиям задания соответствует только частично
 #### Исходные данные
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds.js  
+- [RU](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds.js)
+- [EN](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird/birds-en.js)
+
 Можно вносить правки или заменить на свои
 
 ## Механизм игры
