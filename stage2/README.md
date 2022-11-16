@@ -18,6 +18,7 @@
 - [Задачи "Codewars2"](../tasks/codewars/Codewars-2022Q1-OOP.md) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["songbird"](../tasks/songbird/songbird-2022q3.md)
+- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -28,6 +29,7 @@
 ## Неделя #2. 29/11/2022
 - [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Собеседование с ментором](modules/technical-screening/)
+- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -41,6 +43,7 @@
 - [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Модуль: Typescript: Advanced](modules/typescript-advanced/)
 - [Собеседование с ментором](modules/technical-screening/)
+- https://github.com/mikhama/core-js-101
 
 ```
 По окончанию этой недели всем студентам будет необходимо использовать typescript и придерживаться следующих правил при выполнения всех последующих заданий:
@@ -67,6 +70,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [News API](../tasks/migration-newip-to-ts.md)
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/)
+- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -85,6 +89,7 @@
 ## Неделя #5. 20/12/2022
 - [Модуль: Web Storage](modules/web-storage/)
 - [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/)
+- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -99,6 +104,7 @@
 - [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/)
 - [Модуль: Async programming](modules/async/)
 - [Testing](modules/testing/)
+- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -109,6 +115,9 @@
 
 ## Неделя #7. 03/01/2023
 - [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/)
+- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
+- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
 
 
 <details>
@@ -116,26 +125,16 @@
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
+  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
 ## Черновик
 
-### Неделя #8. 19/07/2022
-- https://github.com/mikhama/core-js-101
-- [Модуль: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Модуль: "Functional Programming Basics"](modules/fp-basics/)
-
-<details>
-  <summary markdown="span">Активности менторов</summary>
-
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
-</details>
-
-## Неделя #9. 26/07/2022
+## Неделя #8. 26/07/2022
 - [Модуль: HTTP / HTTPS](modules/http/)
 - [Модуль: RESTful API Style](modules/restful-api/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -143,9 +142,10 @@
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
   - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #10. 02/08/2022
+## Неделя #9. 02/08/2022
 
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
@@ -159,7 +159,7 @@
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #11. 09/08/2022
+## Неделя #10. 09/08/2022
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Подготовка к выполнению финального проекта](modules/final-task/)
@@ -173,15 +173,13 @@
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #12. 16/08/2022
+## Неделя #11. 16/08/2022
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
-- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
   - Задание ["Презентация"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md).
     - Студенты могут получить 2 оценки.
     - Презентация в формате "recorded" является обязательной для всех студентов. Ментору необходимо посмотреть ролик и выставить оценку.
@@ -189,7 +187,7 @@
   
 </details>
 
-## Неделя #13. 23/08/2022
+## Неделя #12. 23/08/2022
 
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
@@ -202,7 +200,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #14. 30/08/2022
+## Неделя #13. 30/08/2022
 
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -214,7 +212,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #15. 06/09/2022
+## Неделя #14. 06/09/2022
 - Кросс-чек RS Clone / RS Lang
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
@@ -225,7 +223,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #16. 13/09/2022
+## Неделя #15. 13/09/2022
 - [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation/final-project-presentation.md)
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
