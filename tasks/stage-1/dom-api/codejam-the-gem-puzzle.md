@@ -77,7 +77,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 - [ ] game duration and number of moves are displayed: `+10`
 - [ ] sound accompaniment (on/off) of tiles movement: `+10`
 - [ ] implemented saving the state of the game and saving the top 10 results using LocalStorage: `+10`
-- [ ] implemented selection of different sizes for frame: `+10`
+- [ ] implemented selection of different sizes for frame(from 3x3 to 8x8): `+10`
 
 ### Hacker scope +40
 

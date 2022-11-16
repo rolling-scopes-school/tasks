@@ -22,4 +22,5 @@ Assignment - 4 hours
 
 ## Additional materials
 - [General understanding of Flux](https://facebook.github.io/flux/)
-- [NgRx docs](https://ngrx.io/docs)
+- [NxRx docs](https://ngrx.io/docs)
+- [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno)
