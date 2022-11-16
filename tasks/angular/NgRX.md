@@ -94,8 +94,8 @@ Fines
 - [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
-https://ngrx.io
-https://ngrx.io/guide/store/configuration/runtime-checks
-https://ngrx.io/guide/store/actions
-https://ngrx.io/guide/store/reducers
-https://ngrx.io/guide/effects
+https://ngrx.io  
+https://ngrx.io/guide/store/configuration/runtime-checks  
+https://ngrx.io/guide/store/actions  
+https://ngrx.io/guide/store/reducers  
+https://ngrx.io/guide/effects  
