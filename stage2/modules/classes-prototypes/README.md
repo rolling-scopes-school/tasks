@@ -42,8 +42,8 @@
 - https://kirilknysh.github.io/js-classes-talk/#/
 
 ## Практика 
-[Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-OOP.md)
-Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
+- [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q3-OOP.md)
+- Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
 
 ## Дополнительные материалы
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
