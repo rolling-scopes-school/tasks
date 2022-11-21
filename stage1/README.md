@@ -47,35 +47,33 @@
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [Проект на верстку](stream1/) @sergeyshalyapin 
+- [online-zoo. week-1](stream2/online-zoo/)
 
 ### Неделя #4 (27 сентября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: ". Адаптивная вёрстка"](stream1/) @sergeyshalyapin 
+- [online-zoo. week-2](stream2/online-zoo#неделя-2)
 
 ### Неделя #5 (4 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"](stream1/shelter#неделя-2)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-2"](stream2/online-zoo#порядок-оценки-cross-check-неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект " DOM & Browser API"](stream1/) @sergeyshalyapin 
+- [online-zoo. week-3](stream2/online-zoo#неделя-3)
 
 ### Неделя #6 (11 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3) @sergeyshalyapin 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin 
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
-
-### Черновик 
 
 ### Неделя #7 (18 октября 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- [codejam](../tasks/)
 
 ### Неделя #8 (25 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
 - [Модуль: Git Recap](modules/git-recap/)
 - [Модуль: Clean Code](modules/clean-code/)
 - Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
@@ -83,17 +81,17 @@
 ### Неделя #9 (1 ноября 2022)
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "CSS Meme Slider"
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Неделя #10 (8 ноября 2022)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- Финальный таск stage1
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 ### Неделя #11 (15 ноября 2022)
 - [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
-- Финальный таск stage1
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 ## FAQ
 ### Что делать до старта обучения? 

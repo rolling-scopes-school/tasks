@@ -12,8 +12,9 @@ Theory - 2 hours
 practice - 1 hour
 
 ## Theory 
-- Lecture (TBD)
+- [Lecture](https://youtu.be/DCw-JBll2u0?t=2201)
 - [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-unit-testing)
+- [TODO List app](https://github.com/pavelrazuvalau/todo-list-management)
 - [Slides](https://slides.com/pavelrazuvalau/angular-unit-testing)
 
 ## Practical assignment
