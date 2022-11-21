@@ -15,7 +15,7 @@
 ## Неделя #1. 22/11/2022
 - [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Задачи "Codewars2"](../tasks/codewars/Codewars-2022Q1-OOP.md) 
+- [Задачи "Codewars-OOP"](../tasks/codewars/Codewars-2022Q3-OOP.md) 
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["songbird"](../tasks/songbird/songbird-2022q3.md)
 - https://github.com/mikhama/core-js-101
