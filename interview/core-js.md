@@ -1,334 +1,448 @@
-# CoreJS Interview
-- CoreJS Interview is in two parts - [basic](#corejs-interview-1-basic-question-examples) and [advanced](#corejs-interview-2-advanced-question-examples).
-- Passing all of parts Corejs Interview is mandatory for obtaining the RS School certificate.
-- The students are not allowed to be interviewed by their current mentors.
-- The students without a mentor can also register for an interview.
-- Students should contact the interviewer themselves. Contact details will be available on the RS APP. **Note:** Students should consider that the mentor can be busy (vacation, business trip, workload, etc.), so please get in touch with him as soon as possible.
-- At the mentor's request, the interview can take place online or face-to-face.
-- Preferable duration of each interview is 45-90 minutes.
-- During the interview mentor:
-  - asks questions;
-  - gets answers;
-  - adds/corrects/explains/gives the right answer, if necessary.
-- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
-
-## CoreJS Interview #1 (basic) question examples:
+## Basic JS Questions:
 
 ### JavaScript:
 
-- #### Basics
+<details>
+    <summary>Basics</summary>
+    <ul>
+      <li>Data types</li>
+      <li>Number methods</li>
+      <li>String methods</li>
+      <li>let var const - differences</li>
+      <li>ternary operator</li>
+      <li>switch case - examples, where it can be useful</li>
+      <li>type conversions</li>
+    </ul>
+</details>
 
-  - Data types
-  - Number methods
-  - String methods
-  - let var const - differences
-  - ternary operator
-  - switch case - examples, where it can be useful
-  - type conversions
+<details>
+    <summary>Advanced Expressions</summary>
+    <ul>
+      <li>Be able to discover cases of implicit data types conversion into boolean, string, number</li>
+      <li>Strict comparison</li>
+      <li><code>Object.is</code> (optional)</li>
+      <li>what is polyfills</li>
+    </ul>
+</details>
 
-- #### Advanced Expressions
+<details>
+    <summary>Function</summary>
+    <ul>
+      <li>arrow func/ func expression/ func declaration</li>
+    </ul>
+</details>
 
-  - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - Strict comparison
-  - `Object.is` `(optional)`
-  - what is polyfills
+<details>
+    <summary>Date & time (optional)</summary>
+    <ul>
+      <li>Date object</li>
+      <li>Date methods, props</li>
+    </ul>
+</details>
 
-- #### Function
+<details>
+    <summary>Objects Built-in methods</summary>
+    <ul>
+      <li>Know how to use built-in methods</li>
+    </ul>
+</details>
 
-  - arrow func/ func expression/ func declaration
+<details>
+    <summary>Arrays Built-in methods</summary>
+    <ul>
+      <li>Know how to copy array</li>
+      <li>Know how to modify array</li>
+    </ul>
+</details>
 
-- #### Date & time `(optional)`
+<details>
+    <summary>Arrays Iterating, Sorting, Filtering</summary>
+    <ul>
+      <li>Know how to sort Array</li>
+      <li>Know several method how to iterate Array elements</li>
+    </ul>
+</details>
 
-  - Date object
-  - Date methods, props
-
-- #### Objects Built-in methods.
-
-  - Know how to use built-in methods
-
-- #### Arrays Built-in methods
-
-  - Know how to copy array
-  - Know how to modify array
-
-- #### Arrays Iterating, Sorting, Filtering
-
-  - Know how to sort Array
-  - Know several method how to iterate Array elements
-
-- #### Loops
-
-  - for loop
-  - while loop
-  - do while loop
+<details>
+    <summary>Loops</summary>
+    <ul>
+      <li>for loop</li>
+      <li>while loop</li>
+      <li>do while loop</li>
+    </ul>
+</details>
 
 ### JavaScript in Browser:
 
-- #### Global object window
+<details>
+    <summary>Global object window</summary>
+    <ul>
+      <li>Document</li>
+    </ul>
+</details>
 
-  - Document
+<details>
+    <summary>Events Basics</summary>
+    <ul>
+      <li>Event Phases</li>
+      <li>Event Listeners</li>
+      <li>DOM Events</li>
+      <li>Know basic Event types</li>
+      <li>Mouse / Keyboard Events</li>
+      <li>Form / Input Events</li>
+    </ul>
+</details>
 
-- #### Events Basics
+<details>
+    <summary>Timers</summary>
+    <ul>
+      <li>setTimeout</li>
+      <li>setInterval</li>
+    </ul>
+</details>
 
-  - Event Phases
-  - Event Listeners
-  - DOM Events
-  - Know basic Event types
-  - Mouse / Keyboard Events
-  - Form / Input Events
+<details>
+    <summary>Web Storage API & cookies</summary>
+    <ul>
+      <li>LocalStorage</li>
+      <li>SessionStorage</li>
+    </ul>
+</details>
 
-- #### Timers
-
-  - `setTimeout`
-  - `setInterval`
-
-- #### Web Storage API & cookies
-
-  - LocalStorage
-  - SessionStorage
-
-## CoreJS Interview #2 (advanced) question examples:
+## Advanced JS Questions:
 
 ### JavaScript:
 
-- #### Advanced Expressions
+<details>
+    <summary>Advanced Expressions</summary>
+    <ul>
+      <li>Hoisting</li>
+      <li>Temporal dead zone</li>
+    </ul>
+</details>
 
-  - Hoisting
-  - Temporal dead zone
+<details>
+    <summary>Objects Built-in methods</summary>
+    <ul>
+      <li>Know static Object methods</li>
+      <li>Property flags & descriptors (student is able to set property via Object. defineProperty)</li>
+      <li>Know how to create iterable objects, Symbol.iterator usage (optional)</li>
+    </ul>
+</details>
 
-- #### Objects Built-in methods.
+<details>
+    <summary>Object as Hash</summary>
+    <ul>
+      <li>Be able to loop through Object keys</li>
+    </ul>
+</details>
 
-  - Know static Object methods
-  - Property flags & descriptors (student is able to set property via Object. defineProperty)
-  - Know how to create iterable objects, Symbol.iterator usage `(optional)`
+<details>
+    <summary>Arrays Built-in methods</summary>
+    <ul>
+      <li>Know how to copy array part</li>
+      <li>Know how to flatten nested array</li>
+    </ul>
+</details>
 
-- #### Object as Hash.
+<details>
+    <summary>Arrays Iterating, Sorting, Filtering</summary>
+    <ul>
+      <li>Be able to custom sorting for Array</li>
+      <li>Be able to filter Array elements</li>
+    </ul>
+</details>
 
-  - Be able to loop through Object keys
+<details>
+    <summary>Functional Scope</summary>
+    <ul>
+      <li>Know global scope and functional scope</li>
+      <li>Know variables visibility areas</li>
+      <li>Understand nested scopes and able work with them</li>
+    </ul>
+</details>
 
-- #### Arrays Built-in methods
+<details>
+    <summary>Functions Parameters / Arguments</summary>
+    <ul>
+      <li>Know how to define Function parameters</li>
+      <li>Know difference between parameters passing by value and by reference</li>
+      <li>Know how to handle dynamic amount of Function parameters</li>
+    </ul>
+</details>
 
-  - Know how to copy array part
-  - Know how to flatten nested array
+<details>
+    <summary>ECMAScript Intermediate</summary>
+    <ul>
+      <li>Function default parameters</li>
+      <li>ECMA script modules</li>
+      <li>Know how to use spread operator for Function arguments</li>
+      <li>Be able to compare <code>arguments</code> and <code>rest parameters</code></li>
+      <li>Spread operator for Array</li>
+      <li>Understand and able to use spread operator for Array concatenation Destructuring assignment</li>
+      <li>Be able to discover destructuring assignment concept</li>
+      <li>Understand variables and Function arguments destructuring assignment</li>
+      <li>String templates</li>
+      <li>Know how <code>for..of</code> loop works (optional)</li>
+    </ul>
+</details>
 
-- #### Arrays Iterating, Sorting, Filtering
+<details>
+    <summary>Advanced Functions</summary>
+    <ul>
+      <li><code>this</code> in functions</li>
+      <li>Reference Type & losing <code>this</code></li>
+      <li>Understand difference between function and method</li>
+      <li>Understand how <code>this</code> works, realize <code>this</code> possible issues</li>
+      <li>Manage <code>this</code></li>
+      <li>Be able to replace <code>this</code> value</li>
+      <li>Be able to use <code>call</code> and <code>apply</code> Function built-in methods</li>
+    </ul>
+</details>
 
-  - Be able to custom sorting for Array
-  - Be able to filter Array elements
+<details>
+    <summary>Functional Patterns</summary>
+    <ul>
+      <li>Immediately invoked functional expression <code>(IIFE)</code> (optional)</li>
+      <li>Know IIFE pattern (optional)</li>
+      <li>Callback (Function as argument)</li>
+      <li>Know callback pattern</li>
+      <li>Understand callback limitations (callback hell) (optional)</li>
+      <li>Binding, binding one function twice</li>
+      <li>Know how to bind <code>this</code> scope to function</li>
+      <li>Carrying and partial functions</li>
+    </ul>
+</details>
 
-- #### Functional Scope
+<details>
+    <summary>Network requests</summary>
+    <ul>
+      <li><code>Fetch</code> (with usage)</li>
+      <li><code>XMLHTTPRequest</code> (concept) (optional)</li>
+      <li><code>WebSocket</code> (concept) (optional)</li>
+    </ul>
+</details>
 
-  - Know global scope and functional scope
-  - Know variables visibility areas
-  - Understand nested scopes and able work with them
+<details>
+    <summary>Web components</summary>
+    <ul>
+      <li>Web components, shadow DOM (concept) (optional)</li>
+    </ul>
+</details>
 
-- #### Functions Parameters / Arguments
+<details>
+    <summary>Date & time</summary>
+    <ul>
+      <li>Timezones (optional)</li>
+      <li>Internationalization js (Intl) (optional)</li>
+    </ul>
+</details>
 
-  - Know how to define Function parameters
-  - Know difference between parameters passing by value and by reference
-  - Know how to handle dynamic amount of Function parameters
+<details>
+    <summary>Closures Advanced</summary>
+    <ul>
+      <li>Context (lexical environment)</li>
+      <li>Understand function creation context (lexical environment)</li>
+      <li>Be able to explain difference between scope and context</li>
+      <li>Inner/outer lexical environment</li>
+      <li>Understand lexical environment traversing mechanism</li>
+      <li>Understand connection between function and lexical environment</li>
+    </ul>
+</details>
 
-- #### ECMAScript Intermediate
+<details>
+    <summary>Object Oriented Programming</summary>
+    <ul>
+      <li><code>new</code> keyword</li>
+      <li>Understand how <code>new</code> keyword works</li>
+      <li>Function constructor</li>
+      <li>Know function constructor concept</li>
+      <li>Able to create constructor functions</li>
+      <li>Public, private, static members</li>
+      <li>Know how to create public members</li>
+      <li>Know how to create private members</li>
+      <li>Know how to create static members</li>
+      <li>Understand OOP emulation patterns and conventions</li>
+    </ul>
+</details>
 
-  - Function default parameters
-  - ECMA script modules
-  - Know how to use spread operator for Function arguments
-  - Be able to compare `arguments` and `rest parameters`
-  - Spread operator for Array
-  - Understand and able to use spread operator for Array concatenation
-    Destructuring assignment
-  - Be able to discover destructuring assignment concept
-  - Understand variables and Function arguments destructuring assignment
-  - String templates
-  - Know how `for..of` loop works `(optional)`
+<details>
+    <summary>Prototypal Inheritance Basics</summary>
+    <ul>
+      <li><code>__proto__</code> property</li>
+      <li>Understand <code>__proto__</code> object property</li>
+      <li>Able to use <code>[Object.create]</code> and define <code>__proto__</code> explicitly</li>
+      <li>Able to set / get object prototype (optional)</li>
+      <li><code>prototype</code> property</li>
+      <li>Know function <code>prototype</code> property</li>
+      <li>Understand dependency between function constructor <code>prototype</code> and instance <code>__proto__</code></li>
+      <li>Able to create 'class' methods using function <code>prototype</code> property</li>
+    </ul>
+</details>
 
-- #### Advanced Functions
+<details>
+    <summary>ECMAScript Classes</summary>
+    <ul>
+      <li>Class declaration</li>
+      <li>Know <code>class</code> declaration syntax</li>
+      <li>Understand difference between <code>class</code> and <code>constructor function</code></li>
+      <li>Getter/setter</li>
+      <li>What does <code>super()</code> do and where we have to use it?</li>
+    </ul>
+</details>
 
-  - `this` in functions
-  - Reference Type & losing `this`
-  - Understand difference between function and method
-  - Understand how `this` works, realize `this` possible issues
-  - Manage `this`
-  - Be able to replace `this` value
-  - Be able to use `call` and `apply` Function built-in methods
+<details>
+    <summary>ECMAScript Data Types & Expressions</summary>
+    <ul>
+      <li>Object <code>keys/values</code></li>
+      <li>Object calculated props</li>
+      <li><code>Set/Map</code> data types</li>
+      <li><code>WeakSet/WeakMap</code> data types</li>
+    </ul>
+</details>
 
-- #### Functional Patterns
+<details>
+    <summary>JavaScript Errors</summary>
+    <ul>
+      <li><code>try..catch</code> statement</li>
+      <li>Know how to handle errors</li>
+      <li>Custom errors (optional)</li>
+    </ul>
+</details>
 
-  - Immediately invoked functional expression `(IIFE)` `(optional)`
-  - Know IIFE pattern `(optional)`
-  - Callback (Function as argument)
-  - Know callback pattern
-  - Understand callback limitations (callback hell) `(optional)`
-  - Binding, binding one function twice
-  - Know how to bind `this` scope to function
-  - Carrying and partial functions
-
-- #### Network requests
-
-  - `Fetch` (with usage)
-  - `XMLHTTPRequest` (concept) `(optional)`
-  - `WebSocket` (concept) `(optional)`
-
-- #### Web components
-
-  - Web components, shadow DOM (concept) `(optional)`
-
-- #### Date & time
-
-  - Timezones `(optional)`
-  - Internationalization js (Intl) `(optional)`
-
-- #### Closures Advanced
-
-  - Context (lexical environment)
-  - Understand function creation context (lexical environment)
-  - Be able to explain difference between scope and context
-  - Inner/outer lexical environment
-  - Understand lexical environment traversing mechanism
-  - Understand connection between function and lexical environment
-
-- #### Object Oriented Programming
-
-  - `new` keyword
-  - Understand how `new` keyword works
-  - Function constructor
-  - Know function constructor concept
-  - Able to create constructor functions
-  - Public, private, static members
-  - Know how to create public members
-  - Know how to create private members
-  - Know how to create static members
-  - Understand OOP emulation patterns and conventions
-
-- #### Prototypal Inheritance Basics
-
-  - `__proto__` property
-  - Understand `__proto__` object property
-  - Able to use [Object.create] and define `__proto__` explicitly
-  - Able to set / get object prototype `(optional)`
-  - `prototype` property
-  - Know function `prototype` property
-  - Understand dependency between function constructor `prototype` and instance `__proto__`
-  - Able to create 'class' methods using function `prototype` property 
-
-- #### ECMAScript Classes
-
-  - Class declaration
-  - Know `class` declaration syntax
-  - Understand difference between `class` and `constructor function`
-  - Getter/setter
-  - What does `super()` do and where we have to use it?
-
-- #### ECMAScript Data Types & Expressions
-
-  - Object `keys/values`
-  - Object calculated props
-  - `Set/Map` data types
-  - `WeakSet/WeakMap` data types
-
-- #### JavaScript Errors
-
-  - `try..catch` statement
-  - Know how to handle errors
-  - Custom errors `(optional)`
-
-- #### ECMAScript Advanced
-
-  - Garbage collector (concept) `(optional)`
-  - Promises
-  - Promise states
-  - Promise Chaining
-  - Promise static methods
-  - Be able to compare promise and callback patterns `(optional)`
-  - Be able to handle errors in promises
-  - event loop
-  - async/await
+<details>
+    <summary>ECMAScript Advanced</summary>
+    <ul>
+      <li>Garbage collector (concept) (optional)</li>
+      <li>Promises</li>
+      <li>Promise states</li>
+      <li>Promise Chaining</li>
+      <li>Promise static methods</li>
+      <li>Be able to compare promise and callback patterns (optional)</li>
+      <li>Be able to handle errors in promises</li>
+      <li>event loop</li>
+      <li>async/await</li>
+    </ul>
+</details>
 
 ### JavaScript in Browser:
 
-- #### Global object window
+<details>
+    <summary>Global object window</summary>
+    <ul>
+      <li>Location</li>
+      <li>Know browser location structure</li>
+      <li>History API (Global object window)</li>
+      <li>Know browser History APIconcept</li>
+      <li>Be able to navigate within browser history</li>
+      <li>Be able to use history state (optional)</li>
+      <li>Navigator (optional)</li>
+      <li>Know how to parse user agent (optional)</li>
+      <li>Know how to discover client platform, browser</li>
+      <li>Cookies</li>
+    </ul>
+</details>
 
-  - Location
-  - Know browser location structure
-  - History API (Global object window)
-  - Know browser History APIconcept
-  - Be able to navigate within browser history
-  - Be able to use history state `(optional)`
-  - Navigator `(optional)`
-  - Know how to parse user agent `(optional)`
-  - Know how to discover client platform, browser
-  - Cookies
+<details>
+    <summary>Page Lifecycle</summary>
+    <ul>
+      <li>Parsing</li>
+      <li>Reflow</li>
+      <li>Repaint</li>
+    </ul>
+</details>
 
-- #### Page Lifecycle
+<details>
+    <summary>Events Basics</summary>
+    <ul>
+      <li>Be able to explain difference between capturing and bubbling</li>
+      <li>Know Event concept</li>
+      <li>Custom events (optional)</li>
+    </ul>
+</details>
 
-  - Parsing
-  - Reflow
-  - Repaint
+<details>
+    <summary>Events Propagation / Preventing</summary>
+    <ul>
+      <li>Know Event propagation cycle</li>
+      <li>Know how to stop Event propagation</li>
+      <li>Know how to prevent Event default browser behavior</li>
+      <li>Delegating</li>
+      <li>Understand Event delegating concept</li>
+      <li>Understand Event delegating benefits and drawbacks</li>
+    </ul>
+</details>
 
-- #### Events Basics
+<details>
+    <summary>Timers</summary>
+    <ul>
+      <li><code>clearTimeout</code></li>
+      <li><code>requestAnimationFrame</code> (optional)</li>
+      <li>Be able to explain difference between <code>setTimeout</code> and <code>requestAnimationFrame</code> `(optional)`</li>
+    </ul>
+</details>
 
-  - Be able to explain difference between capturing and bubbling
-  - Know Event concept
-  - Custom events `(optional)`
-
-- #### Events Propagation / Preventing
-
-  - Know Event propagation cycle
-  - Know how to stop Event propagation
-  - Know how to prevent Event default browser behavior
-  - Delegating
-  - Understand Event delegating concept
-  - Understand Event delegating benefits and drawbacks
-
-- #### Timers
-
-  - `clearTimeout`
-  - `requestAnimationFrame` `(optional)`
-  - Be able to explain difference between `setTimeout` and `requestAnimationFrame` `(optional)`
-
-- #### Web Storage API & cookies
-
-  - Cookies (concept)
-  - Difference between localStorage, sessionStorage, session and cookies
+<details>
+    <summary>Web Storage API & cookies</summary>
+    <ul>
+      <li>Cookies (concept)</li>
+      <li>Difference between localStorage, sessionStorage, session and cookies</li>
+    </ul>
+</details>
 
 ### Typescript:
 
-- #### Ability to write concise TypeScript code using its constructs
-  - understanding TS(ES6) module system
-  - describing variables with primitive data types.
-  - using interfaces with optional properties, read-only properties, etc...
-  - creating custom types.
-  - types/interface differences `(optional)`
-  - function types.
-  - utitily types `(optional)`
-  - typeguards `(optional)`
-  - generic types (concept)
+<details>
+    <summary>Ability to write concise TypeScript code using its constructs</summary>
+    <ul>
+      <li>understanding TS(ES6) module system</li>
+      <li>describing variables with primitive data types</li>
+      <li>using interfaces with optional properties, read-only properties, etc...</li>
+      <li>creating custom types</li>
+      <li>types/interface differences (optional)</li>
+      <li>function types</li>
+      <li>utitily types (optional)</li>
+      <li>typeguards (optional)</li>
+      <li>generic types (concept)</li>
+    </ul>
+</details>
 
 ### Design patterns:
 
-- #### Intermediate knowledge of patterns and best practices:
-
-  - design patterns used on his project, and able to compare these patterns `(optional)`
-  - KISS, DRY, YAGNI
-  - The meaning behind SOLID principles. 
+<details>
+    <summary>Intermediate knowledge of patterns and best practices</summary>
+    <ul>
+      <li>design patterns used on his project, and able to compare these patterns (optional)</li>
+      <li>KISS, DRY, YAGNI</li>
+      <li>The meaning behind SOLID principles</li>
+    </ul>
+</details>
 
 ### Web Communication Protocols: `(optional)`
 
-- #### HTTP vs HTTPS vs HTTP/2
-- #### RESTful API 
-- #### HTTP methods
-- #### HTTP status codes groups
+<details>
+    <summary>Protocols</summary>
+    <ul>
+      <li>HTTP vs HTTPS vs HTTP/2</li>
+      <li>RESTful API</li>
+      <li>HTTP methods</li>
+      <li>HTTP status codes groups</li>
+    </ul>
+</details>
 
 ### Common web-security knowledge `(optional)`
 
-- #### Basic understanding of most common security terms (CORS, XSS) `(optional)`
+<details>
+    <summary>Basic understanding of most common security terms (CORS, XSS) (optional)</summary>
+    <ul>
+      <li>XSS</li>
+      <li>CORS</li>
+      <li>OWASP Top 10</li>
+      <li>Auth (JWT, OAuth, Basic, etc.)</li>
+    </ul>
+</details>
 
-  - XSS
-  - CORS
-  - OWASP Top 10
-  - Auth (JWT, OAuth, Basic, etc.)
-
-### Coding tasks:
+### Coding tasks
 
 - `Function.prototype.bind` implement polyfill
 - `Object.create` implement polyfill
