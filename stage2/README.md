@@ -130,7 +130,7 @@
 
 ## Черновик
 
-## Неделя #8. 26/07/2022
+## Неделя #8. 10/01/2023
 - [Модуль: HTTP / HTTPS](modules/http/)
 - [Модуль: RESTful API Style](modules/restful-api/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
@@ -145,7 +145,7 @@
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #9. 02/08/2022
+## Неделя #9. 17/01/2023
 
 - [Модуль: JavaScript Error Handling](modules/error-handling/)
 - [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
@@ -159,7 +159,7 @@
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #10. 09/08/2022
+## Неделя #10. 24/01/2023
 - [Проект: Presentation. Recorded & Online](modules/presentation)
 - [Модуль: Design Patterns](modules/design-patterns/)
 - [Подготовка к выполнению финального проекта](modules/final-task/)
@@ -173,7 +173,7 @@
   - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #11. 16/08/2022
+## Неделя #11. 31/01/2023
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 
 <details>
@@ -187,7 +187,7 @@
   
 </details>
 
-## Неделя #12. 23/08/2022
+## Неделя #12. 07/02/2023
 
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
@@ -200,7 +200,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #13. 30/08/2022
+## Неделя #13. 14/02/2023
 
 - [RS Lang](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md) / [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -212,7 +212,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #14. 06/09/2022
+## Неделя #14. 21/02/2023
 - Кросс-чек RS Clone / RS Lang
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
@@ -223,7 +223,7 @@
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #15. 13/09/2022
+## Неделя #15. 28/02/2023
 - [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation/final-project-presentation.md)
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
@@ -236,5 +236,3 @@
   - Фидбек о студентах. Фидбек о ваших студента можно оставить в RS APP -> My Students. Ваш фидбек будет доступен студенту в CV RS APP.
 По своей суте фидбек аналогичен рекомендательному письму. 
 </details>
-
-
