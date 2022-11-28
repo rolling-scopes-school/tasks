@@ -10,13 +10,13 @@
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
 - After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
+
 ## Question examples:
 
 ### JavaScript:
 
 - #### Advanced Expressions
 
-  - Hoisting
   - Temporal dead zone
 
 - #### Objects Built-in methods.
@@ -25,19 +25,10 @@
   - Property flags & descriptors (student is able to set property via Object. defineProperty)
   - Know how to create iterable objects, Symbol.iterator usage `(optional)`
 
-- #### Object as Hash.
+- #### ECMAScript Data Types & Expressions
 
+  - Object computed props
   - Be able to loop through Object keys
-
-- #### Arrays Built-in methods
-
-  - Know how to copy array part
-  - Know how to flatten nested array
-
-- #### Arrays Iterating, Sorting, Filtering
-
-  - Be able to custom sorting for Array
-  - Be able to filter Array elements
 
 - #### Functional Scope
 
@@ -51,19 +42,33 @@
   - Know difference between parameters passing by value and by reference
   - Know how to handle dynamic amount of Function parameters
 
+- #### Closures Advanced
+
+  - Context (lexical environment)
+  - Understand function creation context (lexical environment)
+  - Be able to explain difference between scope and context
+  - Inner/outer lexical environment
+  - Understand lexical environment traversing mechanism
+  - Understand connection between function and lexical environment
+
 - #### ECMAScript Intermediate
 
   - Function default parameters
-  - ECMA script modules
   - Know how to use spread operator for Function arguments
   - Be able to compare `arguments` and `rest parameters`
   - Spread operator for Array
   - Understand and able to use spread operator for Array concatenation
-    Destructuring assignment
+  - Destructuring assignment
   - Be able to discover destructuring assignment concept
   - Understand variables and Function arguments destructuring assignment
-  - String templates
   - Know how `for..of` loop works `(optional)`
+
+  #### Modules in JavaScript
+  - What is module / module pattern? For what purposes they were created?
+  - Modules types (AMD, ES6, CommonJS, UMD).
+  - Modules syntax.
+  - Common modules features (export default, named exports, exports as, etc).
+  - Dynamic imports.
 
 - #### Advanced Functions
 
@@ -74,41 +79,16 @@
   - Manage `this` scope
   - Be able to replace `this` scope
   - Be able to use `call` and `apply` Function built-in methods
+  - Know how to bind `this` scope to function
+  - Binding, binding one function twice
 
 - #### Functional Patterns
 
-  - Immediately invoked functional expression `(IIFE)` `(optional)`
-  - Know IIFE pattern `(optional)`
   - Callback (Function as argument)
   - Know callback pattern
+  - Know IIFE pattern `(optional)`
   - Understand callback limitations (callback hell) `(optional)`
-  - Binding, binding one function twice
-  - Know how to bind `this` scope to function
   - Carrying and partial functions
-
-- #### Network requests
-
-  - `Fetch` (with usage)
-  - `XMLHTTPRequest` (concept) `(optional)`
-  - `WebSocket` (concept) `(optional)`
-
-- #### Web components
-
-  - Web components, shadow DOM (concept) `(optional)`
-
-- #### Date & time
-
-  - Timezones `(optional)`
-  - Internationalization js (Intl) `(optional)`
-
-- #### Closures Advanced
-
-  - Context (lexical environment)
-  - Understand function creation context (lexical environment)
-  - Be able to explain difference between scope and context
-  - Inner/outer lexical environment
-  - Understand lexical environment traversing mechanism
-  - Understand connection between function and lexical environment
 
 - #### Object Oriented Programming
 
@@ -118,21 +98,8 @@
   - Know function constructor concept
   - Able to create constructor functions
   - Public, private, static members
-  - Know how to create public members
-  - Know how to create private members
-  - Know how to create static members
-  - Understand OOP emulation patterns and conventions
-
-- #### Prototypal Inheritance Basics
-
-  - `__proto__` property
-  - Understand `__proto__` object property
-  - Able to use [Object.create] and define `__proto__` explicitly
-  - Able to set / get object prototype `(optional)`
-  - `prototype` property
-  - Know function `prototype` property
-  - Understand dependency between function constructor `prototype` and instance `__proto__`
-  - Able to create 'class' methods using function `prototype` property 
+  - Know how to create public/static/private members
+  - Understand OOP emulation patterns and conventions `(optional)`
 
 - #### ECMAScript Classes
 
@@ -142,30 +109,43 @@
   - Getter/setter
   - What does `super()` do and where we have to use it?
 
-- #### ECMAScript Data Types & Expressions
+- #### Prototypal Inheritance Basics
 
-  - Object `keys/values`
-  - Object calculated props
+  - `__proto__` property
+  - Understand `__proto__` object property
+  - Able to use [Object.create] and define `__proto__` explicitly
+  - `prototype` property
+  - Know function `prototype` property
+  - Understand dependency between function constructor `prototype` and instance `__proto__`
+  - Able to create 'class' methods using function `prototype` property 
+  - Able to set / get object prototype `(optional)`
+
+  - #### ECMAScript Advanced Data Types & Expressions
+
   - `Set/Map` data types
   - `WeakSet/WeakMap` data types
 
 - #### JavaScript Errors
 
+  - JavaScript Errors (throw, Error class)
   - `try..catch` statement
-  - Know how to handle errors
+  - Error handling
+  - Error class
+  - error logging
+  - async error events
   - Custom errors `(optional)`
 
 - #### ECMAScript Advanced
 
-  - Garbage collector (concept) `(optional)`
   - Promises
   - Promise states
-  - Promise Chaining
+  - Promise chaining
   - Promise static methods
   - Be able to compare promise and callback patterns `(optional)`
   - Be able to handle errors in promises
-  - event loop
   - async/await
+  - event loop
+  - Garbage collector (concept) `(optional)`
 
 ### JavaScript in Browser:
 
@@ -187,60 +167,84 @@
   - Parsing
   - Reflow
   - Repaint
+  - Critical rendering path (CRP) `(optional)`
 
-- #### Events Basics
+  - #### Events Basics `(optional)`
 
-  - Be able to explain difference between capturing and bubbling
-  - Know Event concept
   - Custom events `(optional)`
 
-- #### Events Propagation / Preventing
+- #### Web components `(optional)`
 
-  - Know Event propagation cycle
-  - Know how to stop Event propagation
-  - Know how to prevent Event default browser behavior
-  - Delegating
-  - Understand Event delegating concept
-  - Understand Event delegating benefits and drawbacks
+  - Web components, shadow DOM (concept) `(optional)`
 
-- #### Timers
+- #### Network requests
 
-  - `clearTimeout`
+  - `Fetch` (with usage)
+  - `XMLHTTPRequest` (concept) `(optional)`
+  - `WebSocket` (concept) `(optional)`
+
+- #### Timers `(optional)`
+
   - `requestAnimationFrame` `(optional)`
   - Be able to explain difference between `setTimeout` and `requestAnimationFrame` `(optional)`
 
 - #### Web Storage API & cookies
 
-  - Cookies (concept)
-  - Difference between localStorage, sessionStorage, session and cookies
+  - Cookies
+  - Difference between localStorage, sessionStorage and cookies
 
 ### Typescript:
 
 - #### Ability to write concise TypeScript code using its constructs
-  - understanding TS(ES6) module system
-  - describing variables with primitive data types.
+  - basic types
+  - enums
+  - type / interface, differences between them
   - using interfaces with optional properties, read-only properties, etc...
-  - creating custom types.
-  - types/interface differences `(optional)`
-  - function types.
+  - function types
   - utitily types `(optional)`
   - typeguards `(optional)`
+  - creating custom types
   - generic types (concept)
+  - understanding TS (ES6) module system
 
 ### Design patterns:
 
-- #### Intermediate knowledge of patterns and best practices:
+  - Creational Design Patterns 
+  - Structural Design Patterns
+  - Behavioral Design Patterns
+  - MVC `(optional)`
 
-  - design patterns used on his project, and able to compare these patterns `(optional)`
-  - KISS, DRY, YAGNI
-  - The meaning behind SOLID principles. 
+  - #### Intermediate knowledge of patterns and best practices:
+
+    - SOLID principles
+    - design patterns used on a student's project, and able to compare these patterns `(optional)`
+
+  - #### Software Development Methodologies `(optional)`
+
+    - Agile
+    - Scrum / Kanban / Waterfall
+    - Estimation
+
+### Testing `(optional)`
+
+  - Testing Types
+    - Integration Testing
+    - E2E
+    - Security Testing
+    - Perforamance Testing
+  - Test Pyramid
+  - Testing approaches `(optional)`
+  - FIRST
+  - TDD и BDD
+  - Frameworks `(optional)`
 
 ### Web Communication Protocols: `(optional)`
 
-- #### HTTP vs HTTPS vs HTTP/2
+- #### HTTP vs HTTPS
+- #### HTTP 1.x, 2.x, 3.x
+- #### HTTP methods, headers, responses, body
+- #### HTTP status codes groups (1xx, 2xx, 3xx, 4xx, 5xx)
 - #### RESTful API 
-- #### HTTP methods
-- #### HTTP status codes groups
 
 ### Common web-security knowledge `(optional)`
 
