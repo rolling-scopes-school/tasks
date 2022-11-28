@@ -17,6 +17,8 @@ It should be based on the previous task.
    - https://developers.themoviedb.org/3/getting-started/introduction
    - https://pipedream.com/apps/swapi
    - https://github.com/public-apis/public-apis
+   - https://unsplash.com/documentation
+  
      **The API should support searching, pagination and sorting. Although you don’t need it at this stage, but there’s a good chance it might come in handy later.**
 3. Rewrite the search page, and split it into 2 logical parts:
    - **Search bar.** Enter text -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
