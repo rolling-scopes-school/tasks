@@ -10,5 +10,5 @@
 3 hours
 
 ## Theory
-- [How to install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
+- [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)
 - [nvm docs](https://github.com/nvm-sh/nvm#intro)
