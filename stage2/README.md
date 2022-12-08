@@ -67,7 +67,6 @@
 </details>
 
 ## Неделя #4. 13/12/2022
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта [News API](../tasks/migration-newip-to-ts.md)
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
 - [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/)
 - https://github.com/mikhama/core-js-101
