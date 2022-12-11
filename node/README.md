@@ -39,16 +39,16 @@ Before the start of the course, the student must:
 - [Module "Node.js installation and configuration"](modules/nodejs-installation/README.md)
 - [Module "Node.js basics"](modules/nodejs-basics/README.md)
 
-### Week 2
+### Week 2, Week 3
 - [Module "Node.js application"](modules/nodejs-application/README.md)
 
-### Week 3
+### Week 4
 - [Module "Network communication: HTTP"](modules/crud-api/README.md)
 
-### Week 4
+### Week 5
 - [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
-### Week 5, Week 6
+### Week 6
 
 - [Module "GraphQL basics"](modules/graphql/README.md)
 

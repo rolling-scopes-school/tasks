@@ -16,7 +16,7 @@
 Практика: 4 часа
 
 ## Теория 
-1. [Запись лекции по Git прошлого набора](https://www.youtube.com/watch?v=6i0Wg-Pohg8)
+1. [Запись лекции по Git прошлого набора](https://youtu.be/6i0Wg-Pohg8?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
 3. Вам необходимо просмотреть практические видео-материалы [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 часа)
 4. Для практического задания ознакомиться с [документацией Markdown](https://guides.github.com/features/mastering-markdown/) - можно коротко посмотреть возможности и синтаксис, а более глубоко погрузиться на практике (0.5 часа)

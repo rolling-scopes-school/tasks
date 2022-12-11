@@ -68,7 +68,7 @@ The minimum width you have to support is 360px
 - The nav elements are replicated pixel perfectly **+10 points**
 
 2. Main **38 points**
-- Video element placed with the image placeholder. **+5 points**
+- Video element (doesn't need to be a video tag) placed with the image placeholder. **+5 points**
 - Slider button present, interactive **+2 points**
 - Slider button placed using the **position** property **+2 points**
 - Text is styled according to design **+2 points**
@@ -78,7 +78,7 @@ The minimum width you have to support is 360px
 - using svg icons **+1 points**
 - Shadow used **+3 points**
 ---
-- Video element placed with image placeholder. **+5 points**
+- Video element (doesn't need to be a video tag) placed with image placeholder. **+5 points**
 - All '+' should be interactive. **+2 points**
 - Replicate slider, could be inactive **+3 points**.
 - Every other block positioned correctly **+3 points**
@@ -99,14 +99,14 @@ The minimum width you have to support is 360px
 - Logo and text grouped (has one parent element that groups them together, not two separate elements). **+1 points**
 - H1 tag used correctly **+1 points**
 2. Main **42 points**
-- Video element placed with the image placeholder. **+5 points**
+- Video element (doesn't need to be a video tag) placed with the image placeholder. **+5 points**
 ---
 - 3 responsive columns. **+3 points**
 - The column width is equal **+2 points**
 - using svg icons **+1 points**
 - Layered effect used on borders **+3 points**
 ---
-- Video element placed with image placeholder. **+5 points**
+- Video element (doesn't need to be a video tag) placed with image placeholder. **+5 points**
 - All '+' should be interactive. **+2 points**
 ---
 - Using svg icons **+1 points**

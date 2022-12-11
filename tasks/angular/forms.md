@@ -47,7 +47,7 @@ The main goal of this task is to implement forms handling and validation using R
             - check for the URL validity (message: "The video link is invalid")
         - creation date
             - required (message: "Please enter a creation date")
-            - an entered date should now be in the future (message: "The date is invalid")
+            - an entered date should not be in the future (message: "The date is invalid")
 
 - The application should prevent a user from submitting a form in case one of the described rules is failed
 - In case a user has entered invalid data into an input, the border should be colored in red
@@ -64,9 +64,9 @@ Maximum points - **100**
 - [ ] The application indicated which inputs are invalid on the **Admin page** by applying appropriate style and showing corresponding message (**+20**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://angular.io/start/forms

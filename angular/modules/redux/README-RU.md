@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Redux & NgRx.
+# [Angular schedule.](../../README-RU.md) Redux & NgRx.
 ## В данном модуле студентам необходимо:
 
 - О библиотеке `NgRx`
@@ -27,3 +27,4 @@
 - [Selectors](https://youtu.be/nzjWE0Xy7eU)
 - [Router State](https://youtu.be/8sLdUYEI3gk)
 - [Effects](https://youtu.be/EErZhuYrETA)
+- [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno)

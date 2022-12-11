@@ -12,6 +12,7 @@
 
 ## Теория 
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/html (11 часов)
+2. [Просмотреть запись лекции по основам HTML и CSS](https://youtu.be/4Zj7tRlQJao?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
 1. Вам необходимо пройти тест "Test HTML Basics [RU]" в RS APP > Auto Test

@@ -23,6 +23,7 @@
  1. [Функции](https://learn.javascript.ru/function-basics) - 1 час
  2. [Function Expression](https://learn.javascript.ru/function-expressions) - 1 час
  3. [Функции-стрелки, основы](https://learn.javascript.ru/arrow-functions-basics) - 30 мин
+ 4. [Запись лекции](https://youtu.be/LBBg9L_B-tk?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика
 Решить алгоритмические задачи:

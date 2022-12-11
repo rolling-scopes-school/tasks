@@ -33,7 +33,7 @@ The project structure can be organized in the following way:
 
 ```
     app
-    ├── core                
+    ├── core
     │   ├── components
     │   ├── pages
     │   ├── services
@@ -63,7 +63,7 @@ The project structure can be organized in the following way:
 ```
 
 All the feature modules (**YouTubeModule**, **AuthModule**) must be lazy-loaded which means that they are going to be imported by using routing features rather than the direct import into a module.
- 
+
 Pages directory contains components that represent individual pages (**Login page**, **Main page**, **Detailed information page**, etc) and used in the router configuration.
 
 #### Functional requirements
@@ -92,10 +92,10 @@ Maximum points - **100**
 - [ ] At least two services (**Login service** and **Youtube service**) are implemented (**+20**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong project structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://angular.io/tutorial/toh-pt4

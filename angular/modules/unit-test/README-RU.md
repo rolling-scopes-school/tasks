@@ -1,4 +1,4 @@
-# [Angular schedule.](../../) Unit test
+# [Angular schedule.](../../README-RU.md) Unit test
 ## В данном модуле студентам необходимо изучить:
 
 - Структура теста.
