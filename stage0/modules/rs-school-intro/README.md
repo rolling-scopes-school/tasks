@@ -9,7 +9,7 @@
    - процесс обучения в комьюнити школе
    - правила и требования курса
    - расписание курса, YouTube канал
-   - документация 
+   - документация
 2. Познакомиться с учебной платформой RS APP
    - функциональность
    - как зарегистрироваться?
@@ -25,7 +25,7 @@
 
 ## Теория
 1. Посмотреть [запись вводного занятия набора 2022Q2](https://www.youtube.com/watch?v=wyS_UpMfzKw) - 2 часа
-2. Прочитать документацию о курсе https://docs.rs.school/   
+2. Прочитать документацию о курсе https://docs.rs.school/
    - Процесс обучения
    - Возможные причины отчисления
    - Сдача заданий в RS APP
@@ -37,12 +37,12 @@
     - Есть вам помогли с каким-то вопросом, и вы видите, что у других студентов возникли подобные сложности, то очень желательно, не проходить мимо и помочь в свою очередь
     - Если у вас какие-либо проблемы с выполнением тасков или платформой школы (RS App) - не следует писать в директ администраторам или модераторам
 
-## Практика 
-1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/registry/student). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
-2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-preschool-2022q4 если нет, записаться https://app.rs.school/registry/student?course=js-fe-preschool-2022q4 
-3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats 
+## Практика
+1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/profile). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
+2. Проверить записаны ли вы на курс https://app.rs.school/course/score?course=js-fe-preschool-2022q4 если нет, записаться https://app.rs.school/registry/student?course=js-fe-preschool-2022q4
+3. Указать в нике Discord свой GitHub аккаунт https://docs.rs.school/#/rs-school-chats
 4. Сохранить в закладки расписание курса - https://app.rs.school/course/schedule?course=js-fe-preschool-2022q4
-5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)). 
+5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://docs.rs.school/#/rs-app-tasks?id=%d0%a2%d0%b5%d1%81%d1%82%d1%8b)).
 
 ## Терминология, которую вам необходимо знать
 - сross-check
@@ -55,4 +55,3 @@
 1. [Запись YouTube стрима "RSSchool для гуманитария"](https://www.youtube.com/watch?v=mCnOni_mqdk) - 2 часа
 2. [Список лучших финальных проектов 2020Q3](https://docs.google.com/spreadsheets/d/1STe2AtPckojasiQI_j6s0cLRWEjvHG0LCSxN3yv5dBA/edit#gid=0) - 0.5 часа
 3. [Фидбек о школе студентов 2020q3](https://docs.google.com/spreadsheets/d/1IACz3tcZTx71Qh9z6ZXu8VimgISJvrO-bJUBLpQ-bVM/edit#gid=0) - 0.5 часа
-
