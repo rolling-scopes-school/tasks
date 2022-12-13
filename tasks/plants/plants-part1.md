@@ -20,7 +20,7 @@
 6. Самооценку своей работы выведите в консоль браузера. Для этого подключите к файлу `index.html` файл `index.js`, в нём напишите функцию console.log(), в скобках в кавычках напишите самооценку по пунктам. Для переноса строк используйте символ `\n`
 7. Создайте и замержите Pull Request из ветки `plants` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.  
 Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке  
-`https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2022Q2/plants/`  
+`https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2022Q4/plants/`  
 в которой вместо GITHUB-USERNAME укажите свой никнейм на сайте GitHub
 8. После завершения работы откройте Pull Request из ветки `plants` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  Мержить данный Pull Request не нужно. 
 9. Ссылку на деплой вашей работы засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
