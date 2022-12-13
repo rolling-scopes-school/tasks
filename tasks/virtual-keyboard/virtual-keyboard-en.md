@@ -33,7 +33,7 @@
 - usage of Bootstrap and other UI libraries is **not allowed**
 - usage of Angular/React/Vue and other frameworks is **not allowed**
 - you can use CSS preprocessors
-- [ESLint (eslint-config-airbnb-base)](https://eslint.org/) should be used
+- [ESLint (eslint-config-airbnb-base)](https://eslint.org/) should be used. It is allowed to add to the .eslintrc.js file ignoring the 'import/extensions' rule in case of using modules and needing to import them into the main file.
 - the working application should be hosted on [GitHub Pages](https://pages.github.com/). It happens automatically on 'gh-pages' branch creation. Afterward, the page will be available at the address like https://your-github-account.github.io/name-of-your-repository
 
 ### Requirements for commits, pull request, repository
