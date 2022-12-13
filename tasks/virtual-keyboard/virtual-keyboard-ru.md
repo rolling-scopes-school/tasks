@@ -25,7 +25,7 @@
 - использование Bootstrap и других CSS фреймворков не допускается  
 - использование Angular/React/Vue и других фреймворков не допускается  
 - можно использовать CSS preprocessors  
-- использовать [eslint (eslint-config-airbnb-base)](https://eslint.org/)
+- использовать [eslint (eslint-config-airbnb-base)](https://eslint.org/). Разрешается добавить в файл .eslintrc.js игнорирование правила 'import/extensions' а случае использования мобудей и необходимости импортов. 
 - рабочее приложение должно быть размещено на GitHub Pages (https://pages.github.com/), это произойдет автоматически при создании `gh-pages` бранча. После чего страница будет доступна по адресу вида https://your-github-account.github.io/name-repository
 
 ### Требования к коммитам, PR, репозиторию
