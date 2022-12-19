@@ -40,9 +40,8 @@ This is an example of API calls from a browser.
 
     private async getAuthorizationHeaderValue(apiKey: string, apiSecret: string, apiHeaderTime: string): Promise<string> {
         const arrayBuffer: ArrayBuffer = new TextEncoder().encode(apiKey + apiSecret + apiHeaderTime);
-        const arrayBuffer_1 = await crypto.subtle
-            .digest("SHA-1", arrayBuffer);
-        return [...new Uint8Array(arrayBuffer_1)]
+        const digest = await crypto.subtle.digest("SHA-1", arrayBuffer);
+        return [...new Uint8Array(digest)]
             .map(x => x.toString(16).padStart(2, '0'))
             .join('');
     }
@@ -55,7 +54,7 @@ This is an example of API calls from a browser.
         requestHeaders.set("X-Auth-Date", apiHeaderTime);
         requestHeaders.set("X-Auth-Key", apiKey);
         requestHeaders.set("Authorization", authorization);
-        requestHeaders.set("User-Agent", "https://github.com/alexey-ulashchick/podcast-backend");
+        requestHeaders.set("User-Agent", "my-amazing-podcast-player");
 
         return requestHeaders;
     }
