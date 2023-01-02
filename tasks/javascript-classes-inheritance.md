@@ -24,7 +24,7 @@ intBuilder
   .multiply(2)                       // 28;
   .divide(4)                         // 7;
   .mod(3)                            // 1;
-  .get();                            // -> 1;
+  .get();                            // 1;
 ```
 
 #### ES5 class StringBuilder
@@ -49,7 +49,7 @@ strBuilder
   .divide(4)                                 // 'Hell';
   .remove('l')                               // 'He';
   .sub(1,1)                                  // 'e';
-  .get();                                    // -> 'e';
+  .get();                                    // 'e';
 ```
 ## Evaluation criteria
 Each correct method is worth +7 points (100 points if every method is successfully implemented)
