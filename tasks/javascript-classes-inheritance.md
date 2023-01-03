@@ -1,5 +1,8 @@
 
-Create a 2 identical base classes (one in ES6 and on in ES5) that will contain common methods (so that you can experiment how each JS edition implements inheritance). Then create 2 child classes (inherit from base): IntBuilder in ES6 style and StringBuilder in ES5 style. **(There should be 4 classes in total!)** Almost all methods should be **chainable** for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
+* Create a 2 identical base classes (one in ES6 and on in ES5) that will contain common methods (so that you can experiment how each JS edition implements inheritance).
+* Then create 2 child classes (inherit from base): IntBuilder in ES6 style and StringBuilder in ES5 style. **(There should be 4 classes in total!)**
+* Almost all methods should be **chainable** for handy usage.
+* You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
 
 #### ES6 class IntBuilder:
 ```javascript
@@ -52,6 +55,6 @@ strBuilder
   .get();                                    // returns stored value 'e';
 ```
 ## Evaluation criteria
-Each correct method is worth +7 points (100 points if every method is successfully implemented)
-No inheritance -25 points
+Each correct method is worth +7 points (100 points if every method is successfully implemented)\
+No inheritance -25 points\
 No chaining -40 points
