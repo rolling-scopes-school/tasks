@@ -25,15 +25,19 @@
 - (Желательно) Английский язык уровня Pre-intermediate. [Наши рекомедации](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Программа обучения
-### Неделя #1 (6 сентября 2022)
+### Неделя #1
+#### 7 марта 2023
 - [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
 - [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
 - ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
 - ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
+- [codejam #1](../tasks/)
 
-### Неделя #2 (13 сентября 2022)
+### Неделя #2
+#### 14 марта 2023
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #1"](../tasks/)
 - [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
 - [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
 - [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
@@ -42,53 +46,65 @@
     - [Test HTML Basics](../stage0/modules/html-basics/)
     - [Test CSS Basics](../stage0/modules/css-basics/)
 
-### Неделя #3 (20 сентября 2022)
+### Неделя #3
+#### 21 марта 2023
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "CSS grid layout"](modules/css-grid/)
 - [Модуль "Figma"](./modules/figma/)
 - [Модуль: CSS Preprocessors. Sass](modules/sass/)
-- [online-zoo. week-1](stream2/online-zoo/)
+- [online-zoo. week-1](stream2/online-zoo/) @sergeyshalyapin
 
-### Неделя #4 (27 сентября 2022)
+### Неделя #4
+#### 28 марта 2023
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [online-zoo. week-2](stream2/online-zoo#неделя-2)
+- [online-zoo. week-2](stream2/online-zoo#неделя-2) @sergeyshalyapin
 
-### Неделя #5 (4 октября 2022)
+### Неделя #5
+#### 4 апреля 2023
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-2"](stream2/online-zoo#порядок-оценки-cross-check-неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [online-zoo. week-3](stream2/online-zoo#неделя-3)
+- [online-zoo. week-3](stream2/online-zoo#неделя-3) @sergeyshalyapin
 
-### Неделя #6 (11 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin 
-- [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
-
-### Неделя #7 (18 октября 2022)
-- [Модуль: "Modules in JS"](modules/modules-in-js/)
-- [Модуль: "Webpack"](modules/webpack/)
-- [codejam](../tasks/)
-
-### Неделя #8 (25 октября 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
+### Неделя #6
+#### 11 апреля 2023
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
 - [Модуль: Git Recap](modules/git-recap/)
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
+- [codejam #2](../tasks/) - (14 апреля - 16 апреля)
+
+### Неделя #7
+#### 18 апреля 2023
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #2"](../tasks/)
+- [Модуль: "Modules in JS"](modules/modules-in-js/)
+- [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
+- [codejam #3](../tasks/)
+
+### Неделя #8
+#### 25 апреля 2023
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #3"](../tasks/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
 - [Модуль: Clean Code](modules/clean-code/)
 - Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Неделя #9 (1 ноября 2022)
+#### 2 мая 2023
 - [Модуль: "Node.js"](modules/node-materials/)
 - [Проект "HTML-Builder"](modules/html-builder/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
-### Неделя #10 (8 ноября 2022)
+### Неделя #10
+#### 9 мая 2023
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
+- [Модуль: "Webpack"](modules/webpack/)
 - [songbird](../tasks/songbird/songbird-2022q3.md)
 
-### Неделя #11 (15 ноября 2022)
+### Неделя #11
+#### 16 мая 2023
 - [Проект "Self-introduction"](modules/self-introduction/)
 - Подготовка к собеседованию с ментором
 - [songbird](../tasks/songbird/songbird-2022q3.md)
