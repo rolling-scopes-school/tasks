@@ -34,7 +34,7 @@
 
 ### Неделя #6
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/travel/travel-part1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/plants/plants-part1.md)
 - Проект ["Plants"](../tasks/plants/plants.md)
     - ["Plants#2. Адаптивная вёрстка"](../tasks/plants/plants-part2.md)
 

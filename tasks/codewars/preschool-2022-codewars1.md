@@ -8,13 +8,8 @@ Codewars - автопроверяемый таск.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
-Ваш никнейм на сайте codewars должен быть в формате:
-```
-rsschool_githubUsername
-```
-Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit. Например:
+Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания **Codewars Part 1** в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
-![example](https://user-images.githubusercontent.com/12632270/177580063-fefa5281-8632-4c17-b888-13b0f2b05803.PNG)
 
 ## Scoring criteria
 
@@ -34,7 +29,7 @@ Total: 2 * 25  = 50
 ## Практика
 
 - 8 kyu https://www.codewars.com/kata/function-1-hello-world
-- 8 kyu https://www.codewars.com/kata/can-we-divide-it
+- 8 kyu https://www.codewars.com/kata/quarter-of-the-year
 - 8 kyu https://www.codewars.com/kata/capitalization-and-mutability
 - 8 kyu https://www.codewars.com/kata/century-from-year
 - 8 kyu https://www.codewars.com/kata/convert-a-number-to-a-string
