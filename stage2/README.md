@@ -1,70 +1,71 @@
-# RS School. Курс JS/Frontend-разработка. Stage#2
+# RS School. JS/Frontend Development Course. Stage#2
 
-- Для зачисления необходимо успешно выполнить задания первого этапа, пройти собеседование с ментором
-- Цели второго этапа обучения:
-  - Получение студентами знаний и опыта работы с TypeScript
-  - Получение студентами знаний и опыта разработки UI компонентов
-  - Подготовка студентов к прохождению технических интервью
-  - Подтоговка студентов к выступлению на английском языке
-  - Выполнение студентами курсового проекта
-- Время обучения: 12 недель
-- Формат: Cамообучение + вебинары + общение в Discord. Практические занятия проверяются и оцениваются ментором и во время кросс-чек. В ходе обучения проводятся тренировочные интервью у разных менторов.
+- To enroll, students must successfully complete the tasks of the first stage and pass an interview with a mentor
+- Goals of the second stage of training:
+  - Students acquire knowledge and experience working with TypeScript
+  - Students acquire knowledge and experience in developing UI components
+  - Preparing students for technical interviews
+  - Preparing students for presentations in English
+  - Students complete a team project
+- Training time: 14 weeks
+- Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
 
-# Программа обучения
+# Training Program
 
-## Неделя #1. 22/11/2022
-- [Модуль: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Модуль: Object-Oriented Programming Basics](modules/oop-basics/)
-- [Задачи "Codewars-OOP"](../tasks/codewars/Codewars-2022Q3-OOP.md) 
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Self-introduction"](modules/self-introduction/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["songbird"](../tasks/songbird/songbird-2022q3.md)
+## Week #1
+- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
+- [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md) 
+- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["Self-introduction" project](modules/self-introduction/)
+- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["songbird" project](../tasks/songbird/songbird-2022q3.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-- [Подтверждение регистрации на курс](https://docs.rs.school/#/mentoring-kick-off)
+- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
 </details>
-  
-## Неделя #2. 29/11/2022
+
+## Week #2. 11/29/2022
 - [Module: TypeScript: Basic](modules/typescript-basic/)
-- [Собеседование с ментором](modules/technical-screening/)
+- [Interview with mentor](modules/technical-screening/)
 - https://github.com/mikhama/core-js-101
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-- [Подтверждение регистрации на курс](https://docs.rs.school/#/mentoring-kick-off)
-- [Получение студентов в ходе рандомного распределения](https://docs.rs.school/#/mentoring-kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
-- [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)  
+- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
+- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+- [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)  
 </details>
 
-## Неделя #3. 06/12/2022
-- [Проект по миграции JS проекта на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Модуль: Typescript: Advanced](modules/typescript-advanced/)
-- [Собеседование с ментором](modules/technical-screening/)
+## Week #3. 12/06/2022
+- [Project on migration of JS project to TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- [Module: Typescript: Advanced](modules/typescript-advanced/)
+- [Interview with mentor](modules/technical-screening/)
 - https://github.com/mikhama/core-js-101
 
 ```
-По окончанию этой недели всем студентам будет необходимо использовать typescript и придерживаться следующих правил при выполнения всех последующих заданий:
+At the end of this week, all students will be required to use typescript and adhere to the following rules when completing all subsequent tasks:
 
-- использование Everyday Types 
-- использование Generics
-- использование Object Types
-- использование Classes
-- использование Function
-- нигде не используется тип Any
-- ESLinter настроен на TypeScript (используется плагин typescript-eslint/recommended) и отсутствуют ошибки
-- В конфигурационном файле TypeScript стоят флаги "noImplicitAny": true и "strict": true
-- webpack настроен и работает с TypeScript
+- Use of Everyday Types
+- Use of Generics
+- Use of Object Types
+- Use of Classes
+- Use of Function
+- No use of the Any type
+- ESLinter is configured for TypeScript (the typescript-eslint/recommended plugin is used) and there are no errors
+- The TypeScript configuration file has the flags "noImplicitAny": true and "strict": true
+- webpack is configured and works with TypeScript
 ```
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
   
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проведение Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
-  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+  - [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
+  - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 </details>
+
 
 ## Неделя #4. 13/12/2022
 - [Модуль: "SCRUM, Kanban"](modules/scrum/)
