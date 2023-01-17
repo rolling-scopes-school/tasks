@@ -67,35 +67,35 @@ At the end of this week, all students will be required to use typescript and adh
 </details>
 
 
-## Неделя #4. 13/12/2022
-- [Модуль: "SCRUM, Kanban"](modules/scrum/)
-- [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+## Week #4. 13/12/2022
+- [Module: "SCRUM, Kanban"](modules/scrum/)
+- [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
 - https://github.com/mikhama/core-js-101
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - Выдача тем презентаций
-    - [Описание задания](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
-    - [Список тем](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). Вы можете выдать свою тему. 
-    - Презентация в формате "recorded" является обязательной для всех студентов. Записанный [ролик](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) будут проверять менторы после 24 января.
-    - Презентация в формате "online" выполняется дополнительно, строго по желанию студентов
-  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
-  - Если у вас менее двух студентов или вы хотите менторить больше. Открываете RS APP > "Interviews" > "Available students". Нажимаете "Want To Interview" и связываетесь со студентом сами (нотификации они получают не всегда).
+  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - Presentation topic assignments
+    - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
+    - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic. 
+    - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) will be reviewed by mentors after January 24th.
+    - "Online" format presentation is optional and is up to the student's discretion.
+  - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+  - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
-## Неделя #5. 20/12/2022
-- [Модуль: Web Storage](modules/web-storage/)
-- [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+## Week #5. 12/20/2022
+- [Module: Web Storage](modules/web-storage/)
+- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
 - https://github.com/mikhama/core-js-101
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проверяем](https://docs.rs.school/#/pull-request-review-process) задание [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - Reviewing task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
   - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Командный Проект на TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
   - Если у вас менее двух студентов или вы хотите менторить больше. Открываете RS APP > "Interviews" > "Available students". Нажимаете "Want To Interview" и связываетесь со студентом сами (нотификации они получают не всегда).
 </details>
