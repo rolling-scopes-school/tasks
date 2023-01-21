@@ -77,7 +77,7 @@ What are you waiting for? Let's coding!
 - If some bugs were found then the next fees should be withdrawn:
   - (**-30**) Major bag (implemented functionality works, but after some manipulations it breaks down, and there are some unexpected errors in the browsers' console).
   - (**-10**) Minor bag (implemented functionality works, but after some manipulations it behavior changes, like button does not become enabled after changing some state, but there are not any errors in the browser's console).
-- **Note:** When you push the "start engine button" and then the "stop engine button" and repeating this operation again and again as a mad man sometimes you can see an error with the status code "404". Officially it is not a bug.
+- **Note:** When you push the "start engine button" and then the "stop engine button" or the "start race button" and "reset race button" and repeating this operation again and again as a mad man sometimes you can see an error with the status codes "404" or "429". Officially it is not a bug.
 
 ## Mentor's review
 - Max score: **150**.
