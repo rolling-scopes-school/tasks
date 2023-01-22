@@ -56,25 +56,27 @@ It should be based on the previous task.
 
 
 ### Score
+The task will be checked during cross-check and cross-code-review.
+Student can get 15 points if the following requirements are met:
+1. Eslint should not show any errors or warnings.
+2. All the functionality should work.
+3. Test coverage for the whole app should be not less than 50%.
 
-The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
+The score might be less, if:
+1. Part of functionality doesn't work.
+2. Test coverage is below 50%.
+3. Presence of the "god" components, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
 
 
-1. Tests - **3 points**
-2. Form + Cards - **12 points**
-
-
-If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
-If case of direct DOM manipulation - **0 points**
-
+If there are direct DOM manipulations – **0 points**.
 ### Repository requirements
 
-- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
-- create a branch with the name of the task in the school's private repository from the branch of the previous task.
-- The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
-- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process). 
-
-**You do not need to merge a Pull Request from the development branch to the branch of the previous task** 
+* the task should be done in the **private student's repository** 
+* in private repository create branch with the name of the task from `main` branch and work in this (dev) created branch
+* the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
+* after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
+* after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
+**Do not merge Pull Request from the development branch to the `main` branch**
 
 ### Theory
 Forms in React:
