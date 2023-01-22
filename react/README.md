@@ -13,46 +13,46 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 7 weeks are devoted to studying React and 3 more weeks to final task implementation. This course requires 20-40 hours per week
 
 ## Course program
-### Week #1 (26th of September, 2022)
+### Week #1 (13th of March, 2023)
 [React. Components](modules/module01)
 
-### Week #2 (3rd of October, 2022)
+### Week #2 (20th of March, 2023)
 [React. Forms](modules/module02)
 
-### Week #3 (10th of October, 2022)
+### Week #3 (27th of March, 2023)
 [React. API](modules/module03)
 
-### Week #4 (17th of October, 2022)
+### Week #4 (3rd of April, 2023)
 [React. Hooks](modules/module04)
 
-### Week #5 (24th of October, 2022)
-[React. Custom app state](modules/module05)
+### Week #5 (10th of April, 2023)
+[React. Redux](modules/module05)
 
-### Week #6 (31st of October, 2022)
-[React. Redux](modules/module06)
+### Week #6 (17th of April, 2023)
+[React. SSR/SSG](modules/module06)
 
-### Week #7 (7th of November, 2022)
+### Week #7 (24th of April, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/project-management-system-EN.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Week #8 (14th of November, 2022)
+### Week #8 (1th of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/project-management-system-EN.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Week #9 (21st of November, 2022)
+### Week #9 (8th of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/project-management-system-EN.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Week #10 (28th of November, 2022)
+### Week #10 (15th of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/project-management-system-EN.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Week #11 (5th of December, 2022)
-Cross-check review: [Project management app](../tasks/react/project-management-system-EN.md)
+### Week #11 (22nd of May, 2023)
+Cross-check review: - [GraphiQL](modules/graphiql.md)
+
 
 ## Lectors
 - [Ihar Krasiuk](https://github.com/ragingyngvarr)
-- [Sergey Neprakhin](https://github.com/MadaShindeInai)
 - [Olga Bugrova](https://github.com/lyolya95)
 - [Andrej Podlubnyj](https://github.com/andron13) 
 - [Artyom Parfenenkov](https://github.com/ParfenenkovEdit)

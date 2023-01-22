@@ -5,7 +5,7 @@
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. Use CRA with template --typescript.
+2. Use CRA with template *--typescript*, or use Vite with the template *react-ts*
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md) [RU]
 4. Add React-Router version 6. Add header which shows the current page. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”.
 5. Draw the following on the main page:
