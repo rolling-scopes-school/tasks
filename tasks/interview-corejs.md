@@ -15,10 +15,6 @@
 
 ### JavaScript:
 
-- #### Advanced Expressions
-
-  - Temporal dead zone
-
 - #### Objects Built-in methods.
 
   - Know static Object methods

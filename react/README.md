@@ -1,4 +1,4 @@
-# RS School. Курс React.
+# RS School. React.
 This course is aimed to the students of the RS School which passed RS School stage #2 and for the new students, which have experience with :
 - JavaScript
 - TypeScript

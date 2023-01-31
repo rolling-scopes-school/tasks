@@ -10,10 +10,9 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
 * Speaker notes for each slide.
 * Language - English.
 * Usage of [HTML Presentation Framework Reveal](https://github.com/hakimel/reveal.js/) for presentation's slides.  
-* ❗Usage of https://slides.com/ is forbidden.
 
 ## Evaluation criteria
-### Basic scope. 120 points. All steps below must be completed
+### Basic scope. 100 points. All steps below must be completed
   1. Prepare your presentation using *Reveal*. Slides and speech transcript have to be in English
   2. Record your speech in English. Two options are possible:
       1. using a camera (webcam, phone, videocamera or so). Your face and your presentation's slides have to be in frame ([good example](https://www.youtube.com/watch?v=JezLAu4751Y&feature=youtu.be)).
@@ -28,23 +27,7 @@ The whole list of appropriate topics can be found [here](presentation-topics.md)
      - (optional) your comments; 
   7. Open a Pull Request. The title should be `presentation`.  Do not merge it.
 
-### Advanced scope. Extra points for those, who perform live
-  1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your 
-     Reveal presentation: **+10 points** (for courage)
-  2. Your speech is fairly coherent: **+15 points**
-  3. Truly coherent speech: clear, concise and logical. You don't jump from one thought to another: **+15 points**
-  4. C+ level of English: **+10 points**
-
-**❗️ Important:**  
-If you decide to perform live, you automatically agree, that your performance could be recorded and added to RS  
-School YouTube channel. Video will be _unlisted_ — it means, that only people with direct link would have access to it.
-
-You understand that, once you have reserved a slot in the timesheet, you take on the responsibility for appearing and performing according to the date and time chosen, unless instructed otherwise by the jury or school administration. You can cancel the reservation without any consequences whatsoever by removing your name from the list no later than **24 hours** prior to the presentation **session**. If you have a reasonable excuse not to attend, notify the jury anyway as soon as it is practically possible. You also agree that you must specify your up-to-date contact details and monitor the relevant announcements in the school's channels, otherwise the jury shall be entitled to remove you from the list of presenters without any obligation to notify.
-
-The consequences of the failure to comply with the above rules may result in a penalty of up to **30 points**.
-
-If any time slots become available, students may reserve those for their presentations on a **first-come, first-served** basis.
-
+In case the presenter reads presentation or doesn't use Reveal - **0 points** for the task.
   
 ## Useful links:
 * http://speaking.io/

@@ -20,19 +20,21 @@
   - Data types
   - Number methods
   - String methods
+  - String templates
   - ternary operator
   - switch case - examples, where it can be useful
-  - type conversions
-  - let var const - differences
+  
 
 - #### Advanced Expressions
 
   - Be able to discover cases of implicit data types conversion into boolean, string, number
+  - type conversions
   - Strict comparison
   - `Object.is` `(optional)`
-  - what is polyfills?
+  - let var const - differences
+  - Temporal dead zone
   - Hoisting
-  - String templates
+  - what is polyfills?
 
 - #### Functions
 
