@@ -197,14 +197,14 @@ RS Clone - это командное задание, в ходе выполне�
 
 **Приложения:**
 
--[RS Recipes](https://kravchuk-st.github.io/rs-clone/recipes.html)
--[Core JS](https://corejs.netlify.app/)
--[Perfect ear](https://perfect-ear.netlify.app/)
+- [RS Recipes](https://kravchuk-st.github.io/rs-clone/recipes.html)
+- [Core JS](https://corejs.netlify.app/)
+- [Perfect ear](https://perfect-ear.netlify.app/)
 
 **Игры:**
 
--[RSWorms](https://wsko-12.github.io/RSWorms/client/)
--[RS Sloth](https://sloths.rs.school/)
+- [RSWorms](https://wsko-12.github.io/RSWorms/client/)
+- [RS Sloth](https://sloths.rs.school/)
 
 </details>
 
