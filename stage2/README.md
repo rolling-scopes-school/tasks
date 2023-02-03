@@ -17,7 +17,7 @@
 - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md) 
-- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["Self-introduction" project](modules/self-introduction/)
+- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
 - [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["songbird" project](../tasks/songbird/songbird-2022q3.md)
 - https://github.com/mikhama/core-js-101
 
