@@ -11,9 +11,6 @@ However, your app will also include authorization/authentication capabilities, t
 ## Building a team
 
 - you should work in a team of 3 members
-- teams can be pre-defined there. (https://rss-teams.web.app/)
-- All students should be registered there. (https://rss-teams.web.app/)
-- All teams should be registered there. [RSSTeams](https://rss-teams.web.app/) 
 - Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams)
 ## Application Prototype
 
@@ -48,7 +45,9 @@ Your app must contain:
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - describe in PR how to run your backend locally if you didn't deploy backend.
 - you should make your repo public after deadline
-Gitflow, workflow
+
+## Workflow/Branching strategy
+
 You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
 
 [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
@@ -61,10 +60,10 @@ You are free to choose your own way of developing the project and the repository
 - localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
 - semantic layout
 - the application should work at least in the latest version of the Google Chrome browser
-- you must use React 18 + **suspense** feature.(Gatsby, NextJS, Remix, etc. are not prohibited)
+- you must use React 18 + **suspense** feature. (Gatsby, NextJS, Remix, etc. are not prohibited)
 - Private routes, 404, error boundary
 - Using jQuery in the main application code is not allowed.
-- You can use create-react-app, vite, css frameworks, any js/components libs you want, html and css pre-processors
+- You can use Vite (or any React framework you want), css frameworks, any js/components libs you want, html and css pre-processors
 - You MUST use Typescript
 - ❗ it is forbidden to copy the code of other students or [GrahiQL](https://www.npmjs.com/package/@graphiql/react). This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
 
@@ -146,7 +145,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Penalties
 - [ ] React default favicon **- 1 points**
-- [ ] The presence of errors and warnings in the console  **- 2 points** for each
-- [ ] The presence in the console of the results of the console.log execution - **- 2 points** for each
-- [ ] @ts-ignore or any usage (search through github repo) - **- 1 point** for each
-- [ ] Making commits after the deadline - **- 20 points**  
+- [ ] The presence of errors and warnings in the console **- 2 points** for each
+- [ ] The presence in the console of the results of the console.log execution **- 2 points** for each
+- [ ] @ts-ignore or any usage (search through github repo) **- 1 point** for each
+- [ ] Making commits after the deadline **- 20 points**  
