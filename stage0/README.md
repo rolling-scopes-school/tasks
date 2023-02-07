@@ -13,12 +13,12 @@
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - Проект ["CV"](../tasks/cv/cv.md). 
     - ["CV#1. Markdown & Git"](../tasks/cv/git-markdown.md)
-    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #2
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
 - Проект ["CV"](../tasks/cv/cv.md). 
+    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
     - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #3
