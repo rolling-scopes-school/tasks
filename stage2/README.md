@@ -134,49 +134,51 @@ At the end of this week, all students will be required to use typescript and adh
   - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #8. 10/01/2023
-- [Модуль: HTTP / HTTPS](modules/http/)
-- [Модуль: RESTful API Style](modules/restful-api/)
-- [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+## Week #8. 
+### 11/07/2023
+- [Module: HTTP / HTTPS](modules/http/)
+- [Module: RESTful API Style](modules/restful-api/)
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
-  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the task ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
+  - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+  - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #9. 17/01/2023
+## Week #9. 
+### 18/07/2023
 
-- [Модуль: JavaScript Error Handling](modules/error-handling/)
-- [Проект Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Module: JavaScript Error Handling](modules/error-handling/)
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor activities</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проверяем Draft версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+  - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Черновик
 
-## Неделя #10. 24/01/2023
-- [Проект: Presentation. Recorded & Online](modules/presentation)
-- [Модуль: Design Patterns](modules/design-patterns/)
-- [Подготовка к выполнению финального проекта](modules/final-task/)
-- [Модуль: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+## Week #10. 
+### 25/01/2023
+- [Project: Presentation. Recorded & Online](modules/presentation)
+- [Module: Design Patterns](modules/design-patterns/)
+- [Preparation for Final Project](modules/final-task/)
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary>Mentor Activities</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Проверяем финальную версию](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-  - [Собеседуем студентов по CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+  - [Checking Final Version of Async Race task](https://docs.rs.school/#/pull-request-review-process) 
+  - [Interviewing Students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
 ## Неделя #11. 31/01/2023
