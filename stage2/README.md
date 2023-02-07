@@ -170,7 +170,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 
 ## Week #10. 
-### 25/01/2023
+### 25/07/2023
 - [Project: Presentation. Recorded & Online](modules/presentation)
 - [Module: Design Patterns](modules/design-patterns/)
 - [Preparation for Final Project](modules/final-task/)
