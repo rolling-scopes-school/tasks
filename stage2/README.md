@@ -17,8 +17,8 @@
 - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md) 
-- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
-- [Cross-check](https://docs.rs.school/#/cross-check-flow) of the ["songbird" project](../tasks/songbird/songbird-2022q3.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["songbird" project](../tasks/songbird/songbird-2022q3.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -74,6 +74,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 13/06/2023
 - [Module: "SCRUM, Kanban"](modules/scrum/)
 - [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -140,6 +141,8 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: RESTful API Style](modules/restful-api/)
 - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -172,6 +175,8 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: Design Patterns](modules/design-patterns/)
 - [Preparation for Final Project](modules/final-task/)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
 
 <details>
   <summary>Mentor Activities</summary>
