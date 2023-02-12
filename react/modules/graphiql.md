@@ -38,12 +38,12 @@ Your app must contain:
 ## Repository requirements
 
 - teamlead should create private repo in github and invite other members 
-- teamwork nuances described there [Teamwork](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
+- teamwork nuances are described [here](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **graphiql-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
-- the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service.
+- the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
-- describe in PR how to run your backend locally if you didn't deploy backend.
+- in case you will use proxy-service you need to include instructions on how to run it locally
 - you should make your repo public after deadline
 
 ## Workflow/Branching strategy
@@ -60,44 +60,51 @@ You are free to choose your own way of developing the project and the repository
 - localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
 - semantic layout
 - the application should work at least in the latest version of the Google Chrome browser
-- you must use React 18 + **suspense** feature. (Gatsby, NextJS, Remix, etc. are not prohibited)
-- Private routes, 404, error boundary
-- Using jQuery in the main application code is not allowed.
-- You can use Vite (or any React framework you want), css frameworks, any js/components libs you want, html and css pre-processors
-- You MUST use Typescript
+- private routes, 404, error boundary
+- using jQuery in the main application code is not allowed
+- you must use React 18 + **suspense** feature
+- you can use Vite (or any React framework you want, e.g. Gatsby, NextJS, Remix), css frameworks, any js/components libs you want, html and css pre-processors
+- you MUST use Typescript
 - ❗ it is forbidden to copy the code of other students or [GrahiQL](https://www.npmjs.com/package/@graphiql/react). This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
 
 ## Application design requirements
 
-- you are not limited in creativity but limited by the user's capabilities
 - the application quality is characterized by the elaboration of details, attention to typography (no more than three fonts per page, font size of at least 14 px, optimal [font and background contrast](https://snook.ca/technical/colour_contrast/colour.html)), carefully selected content
-- adaptive layout. The minimum page width of the application is 320px
-- interactivity of elements users can interact with. Element hover effects. Usage of different styles for the active and inactive state of the element. Smooth animations
+- adaptive layout, the minimum page width of the application should be 320px
+- interactivity of elements users can interact with; element hover effects; usage of different styles for the active and inactive state of the element; smooth animations
 - the unity of styles of all pages of the application - the same fonts, button styles, indents, the same elements on all pages of the application have the same appearance and layout. Item colors and background images may vary. In this case, colors should be from the same palette, and background images from the same collection.
 
 ## Description of function blocks
 
-### Welcome page(route)
+### General requirements
+- Errors from the api side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
 
+### Welcome page
+- If user is not authorized, main page should contain a link to Sign In / Sign Up page
+- If user is authorized, main page should contain a link to the Main route
 
 ### Header
 
-- All Privite routes should contain sticky header. Moment when it become sticky (if there is a scroll on a page) should be animated: color can be changed or it's height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
-- Sign Out button - sign user out.
+- All Private routes should contain sticky header. Moment when it become sticky (if there is a scroll on a page) should be animated: color can be changed or it's height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
+- Sign Out button - signs user out
 
 ### Footer
 
-- footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
-- footer is displayed on all pages of the application.  
+- Footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
+- Footer is displayed on all pages of the application.  
 
 ### Sign In / Sign Up
 
-- Form fields should be implemented in consistency with the backend API of the application. Validation should be implemented.
-- Errors from the BE side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
-- Upon successful login, the user should be redirected to the "Main route"
-- If user already logged in and he try to reach this routes - he should be redirected to Main route.
+- Form fields should be implemented in consistency with the backend API of the application. Validation should be implemented
+- Upon successful login, the user should be redirected to the Welcome page
+- If user has been logged in already and he/she tries to reach this route - he/she should be redirected to the Welcome page
 
 ### Main route - GraphiQL
+- Editor
+- Variables section
+- Headers section
+- Documentation section, should be visible only when app will receive a successfull response with the schema definition from the api
+- Response section
 
 ## How to submit tasks
 
