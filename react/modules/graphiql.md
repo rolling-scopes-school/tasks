@@ -95,7 +95,8 @@ You are free to choose your own way of developing the project and the repository
 
 ### Sign In / Sign Up
 
-- Form fields should be implemented in consistency with the backend API of the application. Validation should be implemented
+- For the authentication you should use Firebase with email option. Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/)
+- Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character)
 - Upon successful login, the user should be redirected to the Welcome page
 - If user has been logged in already and he/she tries to reach this route - he/she should be redirected to the Welcome page
 
@@ -115,43 +116,44 @@ You are free to choose your own way of developing the project and the repository
 
 **Maximum available points for the task 120**
 It contains:
-- 60 for crosscheck
-- 60 for your involvement into a project.  *Should we change this?*
+- maximum 90 for crosscheck
+- maximum 30 for your involvement into a project. Those points will be assigned by the mentor for each student.
 
 ## Cross-check criteria
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
-### Welcome route - max 7 points
+### Welcome route - max 10 points
 
-- [ ] The welcome page should contain general information about the developer, project, and course. **1 point**
-- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **1 point**
+- [ ] The welcome page should contain general information about the developer, project, and course. **2 point**
+- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **2 point**
 - [ ] If login token is valid and unexpired, change buttons Sign In and Sign Up on "Go to Main Page" button. **2 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **2 points**
+- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **3 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
 
-### Sign In / Sign Up  - max 8 points
+### Sign In / Sign Up  - max 20 points
 
-- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **2 points**
-- [ ] Form fields should be implemented according to the backend API. Validation should be implemented. **4 points**
-- [ ] Upon successful login, the user should be redirected to "Main route" **1 point**
-- [ ] If user already logged in and he try to reach this routes - he should be redirected to Main route. **1 point**
+- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **5 points**
+- [ ] Client-side validation should be implemented. **10 points**
+- [ ] Upon successful login, the user should be redirected to "Main route" **3 point**
+- [ ] If user already logged in and he try to reach this routes - he should be redirected to Main route. **2 point**
 
-### Main route - max ? points
+### GraphiQL route - max 50 points
+- [ ] Working editor allowing to edit the query. **15 points**
+- [ ] Working documentation explorer, should be visible only when sdl request will succeed. **15 points**
+- [ ] Variables section. Should be closed/opened **5 points**
+- [ ] Headers section. Should be closed/opened **5 points**
+- [ ] Response section. **10 points**
 
 
-### GraphiQL route - max ? points
+### General requirements - max 10 points
 
-
-### General requirements - max ? points
-
-- [ ] Localization **1 point**
-- [ ] Sticky header **2 points**
-- [ ] Extra scope same complexity as Global search **2 points**
+- [ ] Localization **5 point**
+- [ ] Sticky header **5 points**
 
 
 ### Penalties
-- [ ] React default favicon **- 1 points**
+- [ ] React default favicon **- 5 points**
 - [ ] The presence of errors and warnings in the console **- 2 points** for each
 - [ ] The presence in the console of the results of the console.log execution **- 2 points** for each
 - [ ] @ts-ignore or any usage (search through github repo) **- 1 point** for each
