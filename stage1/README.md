@@ -1,144 +1,150 @@
-# RS School. Курс JS/Frontend-разработка. Stage#1
-- Зачисляются все желающие
-- Темы:
-    - Знакомство студентов с The Rolling Scopes и RSSchool.
-    - Git, GitHub, оформление commit и pull request.
-    - Верстка адаптивного макета.
+# RS School. JS/Frontend Development Course. Stage#1
+- Open to all who wish to join
+- Topics:
+    - Introduction of students to The Rolling Scopes and RS School.
+    - Git, GitHub, commit and pull request formatting.
+    - Adaptive layout markup.
     - Core JS.
-    - Решения алгоритмических задач.
+    - Solution of algorithmic tasks.
     - DOM, DOM Events, Browser API.
-    - Проект Виртуальная клавиатура.
-    - Основы NodeJS.
+    - Virtual keyboard project.
+    - Basics of NodeJS.
     - Webpack
-    - Проект Clean Code.
-    - Подготовка к собеседованию по основам HTML/CSS/JS/Алгоритмам.
+    - Clean Code project.
+    - Preparation for interview on the basics of HTML/CSS/JS/Algorithms.
 
-- Время обучения: 11 недель
-- Формат: самообучение + вебинары + общение в Discord + задания проверяются кросс-чеком или автоматически
+- Study time: 11 weeks
+- Format: self-study + webinars + communication on Discord + assignments are checked through cross-checks or automatically
 
-## Необходимые базовые знания
-- Понимание основ HTML и CSS, наличие практических навыков вёрстки
-- Знание основ JavaScript (типы данных, операторы, циклы, условные констуркции, функции)
-- Знание структуры данных и их организации (массив, список, стек, очередь, дерево и т.д.). 
-- Уметь реализовать достаточно простой алгоритм на языке программирования JavaScript. Например, сортировку или поиск элементов массива.
-- Уметь решать задачи уровня 8-7 kyu на сайте https://www.codewars.com/
-- (Желательно) Английский язык уровня Pre-intermediate. [Наши рекомедации](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
-## Программа обучения
-### Неделя #1
-#### 7 марта 2023
-- [Модуль "Знакомство с RS School"](modules/rs-school-intro/)
-- [Модуль "Профессия \"JS/Front-end разработчик\""](modules/js-fe-developer/)
-- [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Модуль "Знакомство с системой контроля версий Git"](modules/git/) 
-- ["Проект CV". Часть 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
-- ["Проект CV". Часть 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
+## Required Basic Knowledge
+- Understanding the basics of HTML and CSS and having practical web design skills
+- Knowledge of JavaScript fundamentals (data types, operators, loops, conditional constructs, functions)
+- Knowledge of data structures and their organization (array, list, stack, queue, tree, etc.)
+- Ability to implement a simple algorithm in the JavaScript programming language, such as sorting or searching for array elements
+- Ability to solve 8-7 kyu level problems on the website https://www.codewars.com/
+- (Desirable) English language skills at Pre-Intermediate level. [Our Recommendations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
+
+## Training Program
+
+### Week #1
+#### March 7, 2023
+- [Module "Introduction to RS School"](modules/rs-school-intro/)
+- [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
+- [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
+- [Module "Getting to know version control system Git"](modules/git/) 
+- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
+- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 - [codejam #1](../tasks/)
 
-### Неделя #2
-#### 14 марта 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #1"](../tasks/)
-- [Модуль: "JavaScript. Типы данных"](modules/js-basics/)
-- [Модуль: "JavaScript. Область видимости и функции](modules/functions/) 
-- [Модуль: "JavaScript. Evolution"](modules/js-evolution/)
-- [Задачи "Codewars1"](../tasks/codewars/Codewars1-2022Q3.md)
-- Тесты:
+### Week #2
+#### March 14, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](../tasks/) project
+- [Module: "JavaScript. Data types"](modules/js-basics/)
+- [Module: "JavaScript. Scope and functions](modules/functions/) 
+- [Module: "JavaScript. Evolution"](modules/js-evolution/)
+- ["Codewars1" tasks](../tasks/codewars/Codewars1-2022Q3.md)
+- Tests:
     - [Test HTML Basics](../stage0/modules/html-basics/)
     - [Test CSS Basics](../stage0/modules/css-basics/)
 
-### Неделя #3
-#### 21 марта 2023
-- [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- [Модуль "CSS grid layout"](modules/css-grid/)
-- [Модуль "Figma"](./modules/figma/)
-- [Модуль: CSS Preprocessors. Sass](modules/sass/)
+### Week #3
+#### March 21st, 2023
+- [Module "CSS positioning. Flex."](modules/css-positioning/)
+- [Module "CSS grid layout"](modules/css-grid/)
+- [Module "Figma"](./modules/figma/)
+- [Module: CSS Preprocessors. Sass](modules/sass/)
 - [online-zoo. week-1](stream2/online-zoo/) @sergeyshalyapin
 
-### Неделя #4
-#### 28 марта 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
-- [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
-- [Модуль: "Медиазапросы"](modules/media-queries/)
+### Week #4
+#### March 28th, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["online-zoo. week-1"](stream2/online-zoo#порядок-оценки-cross-check-неделя-1)
+- [Module: "Adaptive layout markup"](modules/responsive-web-design/)
+- [Module: "Media Queries"](modules/media-queries/)
 - [online-zoo. week-2](stream2/online-zoo#неделя-2) @sergeyshalyapin
 
-### Неделя #5
-#### 4 апреля 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-2"](stream2/online-zoo#порядок-оценки-cross-check-неделя-2)
-- [Модуль: "HTML Forms & Validation"](modules/html-form/)
-- [Модуль: "DOM API"](modules/dom-api/)
-- [Модуль: "Events"](modules/events/)
-- [online-zoo. week-3](stream2/online-zoo#неделя-3) @sergeyshalyapin
+### Week #5
+#### April 4, 2023
+- [Cross-check of project "online-zoo. week-2"](https://docs.app.rs.school/#/platform/cross-check-flow)
+- [Module: "HTML Forms & Validation"](modules/html-form/)
+- [Module: "DOM API"](modules/dom-api/)
+- [Module: "Events"](modules/events/)
+- [online-zoo. week-3](stream2/online-zoo#week-3) @sergeyshalyapin
 
-### Неделя #6
-#### 11 апреля 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
-- [Модуль: Git Recap](modules/git-recap/)
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
-- [codejam #2](../tasks/) - (14 апреля - 16 апреля)
+### Week #6
+#### April 11, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["online-zoo. week-3"](stream2/online-zoo#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
+- [Module: Git Recap](modules/git-recap/)
+- [Module "Algorithms and Data Structures"](modules/data-structures/)
+- [codejam #2](../tasks/) - (April 14 - April 16)
 
-### Неделя #7
-#### 18 апреля 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #2"](../tasks/)
-- [Модуль: "Modules in JS"](modules/modules-in-js/)
-- [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
+
+### Week #7
+#### April 18, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #2"](../tasks/)
+- [Module: "Modules in JS"](modules/modules-in-js/)
+- [Module: "Chrome DevTools"](modules/chrome-devtools/)
 - [codejam #3](../tasks/)
 
-### Неделя #8
-#### 25 апреля 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam #3"](../tasks/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["codejam"](../tasks/)
-- [Модуль: Clean Code](modules/clean-code/)
-- Выполнить задание ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+### Week #8
+#### April 25, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #3"](../tasks/)
+- [Module: Clean Code](modules/clean-code/)
+- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
-### Неделя #9 (1 ноября 2022)
-#### 2 мая 2023
-- [Модуль: "Node.js"](modules/node-materials/)
-- [Проект "HTML-Builder"](modules/html-builder/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
-### Неделя #10
-#### 9 мая 2023
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["HTML-Builder"](modules/html-builder/)
-- [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- [Модуль: "Webpack"](modules/webpack/)
+### Week #9
+#### May 2nd, 2023
+- [Module: "Node.js"](modules/node-materials/)
+- [Project "HTML-Builder"](modules/html-builder/)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+
+### Week #10
+#### May 9, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
+- [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
+- [Module: "Webpack"](modules/webpack/)
 - [songbird](../tasks/songbird/songbird-2022q3.md)
 
-### Неделя #11
-#### 16 мая 2023
-- [Проект "Self-introduction"](modules/self-introduction/)
-- Подготовка к собеседованию с ментором
+### Week #11
+#### May 16th 2023
+- [Project "Self-introduction"](modules/self-introduction/)
+- Preparation for mentor interview
 - [songbird](../tasks/songbird/songbird-2022q3.md)
+
 
 ## FAQ
-### Что делать до старта обучения? 
-1. Выполнить задания и тесты [подготовительного курса](../stage0/)
-2. Пойти на курсы английского языка до получения уровня Pre-Intermediate (Минимум A2).
-3. Читать https://learn.javascript.ru/
+### What to do before the start of training?
+1. Complete the tasks and tests of the [preparatory course](../stage0/)
+2. Attend English language courses until reaching a Pre-Intermediate level (Minimum A2).
+3. Read https://learn.javascript.ru/
 
-### Какой учебник по JavaScript вы можете посоветовать?
+### What JavaScript textbook can you recommend?
 - https://learn.javascript.ru/
 - https://exploringjs.com/impatient-js/toc.html
 - https://github.com/azat-io/you-dont-know-js-ru
 
-### Где происходит общение?
-В Discord чате - https://discord.gg/2Ww3TCBvz4
+### Where is the communication taking place?
+In the Discord chat - https://discord.gg/2Ww3TCBvz4
 
-### Где можно задать вопрос?
-Вопросы можно задать в Discord чате - https://discord.gg/2Ww3TCBvz4
+### Where can I ask a question?
+Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
 
-### Имеет ли значения город проживания? Можно ли пройти курс полностью онлайн?
-Город проживания значения не имеет. Все этапы обучения можно пройти онлайн.
+### Does the place of residence matter? Can the course be completed fully online?
+The place of residence does not matter. All stages of training can be completed online.
 
-#### Можно ли изучать учебные модули и делать проекты заранее?
-Конечно! После прохождения всех модулей подготовительного этапа вы можете начать прохождение stage#2.
+#### Can I study the learning modules and do projects in advance?
+Sure! After completing all modules of the stage #1, you can start stage #2.
 
-#### Можно ли пропускать вебинары?
-Да, можно. Записи вебинаров можно будет найти на нашем канале - [YouTube](https://youtube.com/c/rollingscopesschool).  
+#### Can I miss webinars?
+Yes, you can. The webinar recordings can be found on our channel - [YouTube](https://youtube.com/c/rollingscopesschool).
 
-Видео удобнее смотреть на скорости 1.25 или выше.
+The videos are best watched at a speed of 1.25 or higher.
 
-### Обязательно ли смотреть вебинары школы?
-Нет. Ссылки на рекомендуемую для изучения теорию находится в модулях. После самостоятельного изучения материалов модуля вы можете посмотреть вебинар, чтобы закрепить информацию или задать вопросы тренеру.
+### Is it necessary to watch the webinars of the school?
+No. Links to the recommended theory can be found in the modules. After self-studying the module materials, you can watch the webinar to consolidate the information or ask questions to the trainer.
+
 
  
 
