@@ -5,7 +5,7 @@
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. Use CRA with template --typescript.
+2. We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov)
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md) [RU]
 4. Add React-Router version 6. Add header which shows the current page. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”.
 5. Draw the following on the main page:
@@ -19,8 +19,10 @@ examples: \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
-**In the situation when the access to life cycles of a component is needed or there is a necessity of state – use class components. Using hooks is forbidden at this stage.**
-6. Add tests for components. Mock LocalStorage. Add test for one card, as well as tests for the list of all cards. You can use either React Testing Library or Enzyme, but only one of them. Preferr React Testing Library.
+**Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
+6. Setup test runner if necessary. You can use either [Jest](https://jestjs.io/docs/getting-started) or [Vitest](https://vitest.dev/guide/)
+Add tests for components. Add test for one card, as well as tests for the list of all cards. You can use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Some time ago [Enzyme](https://enzymejs.github.io/enzyme/) was an alternative, but it is not compatible with the latest version of React.
+When ran, tests should show the coverage (you will be gradually increasing test coverage during next modules)
 
 All logical parts should be set into separate components.
 ### Score
@@ -48,12 +50,14 @@ If there are direct DOM manipulations – **0 points**.
 ### Theory
 
 *	[React. Components. Materials](https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit)
-*	CRA - [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html)
 *	[Components - reactjs.org](https://reactjs.org/docs/components-and-props.html)
 *	React-router [documentation + tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 *	React-router [video course](https://www.youtube.com/watch?v=0auS9DNTmzE) [RU]
 *	React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
 *	React Testing Library course - [React Testing Library. Полный курс](https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s) [RU]
+*   Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
+*   How to setup Vitest with React Testing Library - [video tutorial](https://www.youtube.com/watch?v=zU_RZ5SCUzs)
+*   React Testing Tutorial with React Testing Library and Jest - [video tutorial](https://www.youtube.com/watch?v=Flo268xRpV0)
 
 ### React
 
