@@ -35,7 +35,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
-### Week #8 (1th of May, 2023)
+### Week #8 (1st of May, 2023)
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
