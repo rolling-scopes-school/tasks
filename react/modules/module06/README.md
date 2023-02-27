@@ -15,9 +15,8 @@ It should be based on the previous task.
 5. Add e2e tests for your application via cypress.
 
 ### Score
-
+The task will be checked during cross-check and cross-code-review.  
 Student can get 15 points if the following requirements are met:
-
 1. Eslint should not show any errors or warnings. 
 2. All the functionality should work.
 3. No console errors in browser.
@@ -26,11 +25,10 @@ Student can get 15 points if the following requirements are met:
 If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
 
 The score might be less, if:
-
-1. renderToPipeableStream method haven't been used.
+1. Part of functionality doesn't work.
+2. renderToPipeableStream method haven't been used.
 2. Redux doesn't work.
 3. E2E test coverage is below than 80%.
-
 ### Repository requirements
 
 - the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
