@@ -31,6 +31,5 @@ And **cover your code by unit tests** following next requirements:
 * [omitBy](https://lodash.com/docs/4.17.11#omitBy) 
 * [pick](https://lodash.com/docs/4.17.11#pick) 
 * [pickBy](https://lodash.com/docs/4.17.11#pickBy) 
-* [toPairs](https://lodash.com/docs/4.17.11#toPairs) 
 
 ### The score is on proportion to the coverage
