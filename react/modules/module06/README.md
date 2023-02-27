@@ -16,16 +16,20 @@ It should be based on the previous task.
 
 ### Score
 
-The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
+Student can get 15 points if the following requirements are met:
 
 1. Eslint should not show any errors or warnings. 
 2. All the functionality should work.
 3. No console errors in browser.
-4. renderToPipeableStream method haven't been used.
-5. Redux doesn't work.
-6. Tests weren't added or don't work.
+4. E2E test coverage should be not less than 80%.
 
 If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
+
+The score might be less, if:
+
+1. renderToPipeableStream method haven't been used.
+2. Redux doesn't work.
+3. E2E test coverage is below than 80%.
 
 ### Repository requirements
 
