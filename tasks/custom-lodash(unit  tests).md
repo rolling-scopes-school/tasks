@@ -32,4 +32,4 @@ And **cover your code by unit tests** following next requirements:
 * [pick](https://lodash.com/docs/4.17.11#pick) 
 * [pickBy](https://lodash.com/docs/4.17.11#pickBy) 
 
-### The score is on proportion to the coverage
+### The score is on proportion to the total final coverage - 7 points for each incorrect or missing method
