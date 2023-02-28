@@ -30,8 +30,31 @@ All the logical parts must be in separated components.
 **User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**
 6. Add tests. All the api-calls should be mocked in the tests.
 
+### Questions
+You should be using Discord as the main mean of the communication.
+Also we will try to collect your questions regarding the 4th Module using special form, which will be provided via the Discord with the 4th Module start. Questions will be collected in Module 04 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
+We will try to conduct a session for each module providing answers for some questions.
+
 ### Score
 The task will be checked during cross-check and cross-code-review.
+#### Cross-code-review process
+1. Clone the repository you are going to review
+2. Install all the required dependencies
+3. Run linting using special command in package.json file, output should not produce any errors or warnings
+4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
+5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
+
+When reviewing the code try pay attention at the following principles:
+* Write code as simply as possible: KISS
+* Avoid unnecessary repetition: DRY
+* Delete what is not needed: YAGNI
+
+We also need to mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
+Please, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
+#### Cross-check process
+Run app and check that the functionality is working (cross-check)
+
+#### Points
 Student can get 15 points if the following requirements are met:
 1. Eslint should not show any errors or warnings.
 2. All the functionality should work.
