@@ -33,6 +33,7 @@ When reviewing the code try pay attention at the following principles:
 
 We also need to mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
 Please, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
+Last, but not least - check the presence of the comments. Ideally there shouldn't be any comments at all. Sometimes people just comment code which is not needed. So why not to remove it entirely? In case you will need to restore this code, you can always refer to the git history. And more - [comments are lies](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a)
 #### Cross-check process
 Run app and check that the functionality is working (cross-check)
 
@@ -45,7 +46,8 @@ Student can get 15 points if the following requirements are met:
 The score might be less, if:
 1. Part of functionality doesn't work.
 2. Test coverage is below 80%.
-3. Presence of the "god" components, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
+3. Presence of the code smells.
+4. Lots of unnessecary, redundant or obvious comments.
 
 
 If there are direct DOM manipulations – **0 points**.

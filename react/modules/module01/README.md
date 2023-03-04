@@ -24,6 +24,7 @@ https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
 Add tests for components. Add test for one card, as well as tests for the list of all cards. You can use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Some time ago [Enzyme](https://enzymejs.github.io/enzyme/) was an alternative, but it is not compatible with the latest version of React.
 When ran, tests should show the coverage (you will be gradually increasing test coverage during next modules)
 Add command to your package.json file to run tests.
+Snapshot testing is forbidden in all modules (you can check [the documentation of what is snapshot testing with Jest](https://jestjs.io/docs/snapshot-testing))
 
 All logical parts should be set into separate components.
 
@@ -52,6 +53,7 @@ When reviewing the code try pay attention at the following principles:
 
 We also need to mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
 Please, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
+Last, but not least - check the presence of the comments. Ideally there shouldn't be any comments at all. Sometimes people just comment code which is not needed. So why not to remove it entirely? In case you will need to restore this code, you can always refer to the git history. And more - [comments are lies](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a)
 #### Cross-check process
 Run app and check that the functionality is working (cross-check)
 
@@ -64,7 +66,8 @@ Student can get 15 points if the following requirements are met:
 The score might be less, if:
 1. Part of functionality doesn't work.
 2. Test coverage is below 40%.
-3. Presence of the code smells
+3. Presence of the code smells.
+4. Lots of unnessecary, redundant or obvious comments.
 
 
 If there are direct DOM manipulations – **0 points**.
