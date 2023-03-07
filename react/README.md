@@ -20,10 +20,10 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 [React. Forms](modules/module02)
 
 ### Week #3 (27th of March, 2023)
-[React. API](modules/module03)
+[React. Hooks](modules/module03)
 
 ### Week #4 (3rd of April, 2023)
-[React. Hooks](modules/module04)
+[React. API](modules/module04)
 
 ### Week #5 (10th of April, 2023)
 [React. Redux](modules/module05)
