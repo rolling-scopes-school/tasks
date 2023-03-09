@@ -46,10 +46,18 @@
 - Вы можете задеплоить свое приложение с помощью `gh-pages` для упрощения проверки другими студентами.
 - Изучите и используйте возможности рефакторинга кода, которые предлагает ваша IDE.
 
-_Пример оформления коммитов:_
+Вам на выбор предлагается два варианта оформления коммитов - выбирайте тот из них, который больше нравится. **Оба из них являются правильными!**
+
+_Пример оформления коммитов №1:_
+```
+fix(basic-2.2): add Html5 DOCTYPE tag
+refactor(extended-2.1): update CSS according to BEM
+```
+
+_Пример оформления коммитов №2:_
 ```
 fix: add Html5 DOCTYPE tag according to rule 2.2 in html-and-css.md
-refactor: adjust HTML-formatting according to rule 2.1 in html-and-css.md
+refactor: update CSS according to BEM to rule 2.1 in html-and-css-extended.md
 ```
 
 ## Критерии оценки
@@ -70,3 +78,6 @@ refactor: adjust HTML-formatting according to rule 2.1 in html-and-css.md
 - Инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow.
 
 [Документ для вопросов](https://docs.google.com/spreadsheets/d/1lgzmc72mKCmYvHimvqBNENgKJuXMON8q1f1s4GEnEVI/edit?usp=sharing)
+
+## Hints
+- Для создания коммитов студентам предлагается (т.е. желательно, но не обязательно) использовать [Commitizen](https://github.com/commitizen/cz-cli).
