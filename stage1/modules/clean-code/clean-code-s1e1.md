@@ -71,5 +71,5 @@ refactor(extended-2.1): update CSS according to BEM
 
 [Документ для вопросов](https://docs.google.com/spreadsheets/d/1lgzmc72mKCmYvHimvqBNENgKJuXMON8q1f1s4GEnEVI/edit?usp=sharing)
 
-## Additional info
+## Hints
 - Для создания коммитов студентам предлагается (т.е. желательно, но не обязательно) использовать [Commitizen](https://github.com/commitizen/cz-cli).
