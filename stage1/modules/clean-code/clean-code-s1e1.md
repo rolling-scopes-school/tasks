@@ -48,8 +48,8 @@
 
 _Пример оформления коммитов:_
 ```
-fix: add Html5 DOCTYPE tag according to rule 2.2 in html-and-css.md
-refactor: adjust HTML-formatting according to rule 2.1 in html-and-css.md
+fix(basic-2.2): add Html5 DOCTYPE tag
+refactor(extended-2.1): update CSS according to BEM
 ```
 
 ## Критерии оценки
@@ -70,3 +70,6 @@ refactor: adjust HTML-formatting according to rule 2.1 in html-and-css.md
 - Инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow.
 
 [Документ для вопросов](https://docs.google.com/spreadsheets/d/1lgzmc72mKCmYvHimvqBNENgKJuXMON8q1f1s4GEnEVI/edit?usp=sharing)
+
+## Additional info
+- Для создания коммитов студентам предлагается (т.е. желательно, но не обязательно) использовать [Commitizen](https://github.com/commitizen/cz-cli).
