@@ -40,6 +40,4 @@
 - https://nikita-resh.github.io/rsschool-cv/cv
 - https://themrcrowley.github.io/rsschool-cv/cv
 - https://elvinyeka.github.io/rsschool-cv/cv
-- https://mrks77.github.io/rsschool-cv/cv
-
 

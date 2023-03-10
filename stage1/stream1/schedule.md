@@ -32,14 +32,13 @@
 - [Module "Introduction to RS School"](modules/rs-school-intro/)
 - [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
 - [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Module "Getting to know version control system Git"](modules/git/) 
-- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
-- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
-- [codejam #1](https://github.com/DrDiman/CSS-Bayan-task)
+- [Module "Getting to know version control system Git"](modules/git/)
+- ["CSS MEME SLIDER"](..tasks/css-meme-slider/README.md)
+- [codejam #1](../tasks/)
 
 ### Week #2
 #### March 14, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](https://github.com/DrDiman/CSS-Bayan-task) project
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](../tasks/) project
 - [Module: "JavaScript. Data types"](modules/js-basics/)
 - [Module: "JavaScript. Scope and functions](modules/functions/) 
 - [Module: "JavaScript. Evolution"](modules/js-evolution/)
@@ -50,8 +49,6 @@
 
 ### Week #3
 #### March 21st, 2023
-- [Module "CSS positioning. Flex."](modules/css-positioning/)
-- [Module "CSS grid layout"](modules/css-grid/)
 - [Module "Figma"](./modules/figma/)
 - [Module: CSS Preprocessors. Sass](modules/sass/)
 - [shelter. week-1](stream1/shelter#неделя-1) @sergeyshalyapin
@@ -61,19 +58,18 @@
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-1"](stream1/shelter#порядок-оценки-cross-check-неделя-1)
 - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
 - [Module: "Media Queries"](modules/media-queries/)
-- [shelter. week-2](stream1/shelter#неделя-2) @sergeyshalyapin
+- [online-zoo. week-2](stream1/shelter#неделя-2) @sergeyshalyapin
 
 ### Week #5
 #### April 4, 2023
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-2"](stream1/shelter#порядок-оценки-cross-check-неделя-2)
 - [Module: "HTML Forms & Validation"](modules/html-form/)
 - [Module: "DOM API"](modules/dom-api/)
-- [Module: "Events"](modules/events/)
-- [shelter. week-3](stream1/shelter#неделя-3) @sergeyshalyapin
+- [online-zoo. week-3](stream1/shelter#неделя-3) @sergeyshalyapin
 
 ### Week #6
 #### April 11, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["shelter. week-3"](stream1/shelter#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["online-zoo. week-3"](stream1/shelter#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 - [codejam #2](../tasks/) - (April 14 - April 16)
@@ -82,34 +78,36 @@
 ### Week #7
 #### April 18, 2023
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #2"](../tasks/)
-- [Module: Clean Code](modules/clean-code/)
-- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
-
-### Week #8
-#### April 25, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 - [Module: "Modules in JS"](modules/modules-in-js/)
 - [Module: "Chrome DevTools"](modules/chrome-devtools/)
 - [codejam #3](../tasks/)
 
+### Week #8
+#### April 25, 2023
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #3"](../tasks/)
+- [Module: Clean Code](modules/clean-code/)
+- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+
 ### Week #9
 #### May 2nd, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #3"](../tasks/)
 - [Module: "Node.js"](modules/node-materials/)
 - [Project "HTML-Builder"](modules/html-builder/)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
 
 ### Week #10
 #### May 9, 2023
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 - [Module: "Webpack"](modules/webpack/)
-- [final task stage1](../tasks/)
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 ### Week #11
 #### May 16th 2023
 - [Project "Self-introduction"](modules/self-introduction/)
 - Preparation for mentor interview
-- [final task stage1](../tasks/)
+- [songbird](../tasks/songbird/songbird-2022q3.md)
 
 
 ## FAQ
@@ -145,6 +143,5 @@ No. Links to the recommended theory can be found in the modules. After self-stud
 
 
  
-
 
 
