@@ -35,11 +35,11 @@
 - [Module "Getting to know version control system Git"](modules/git/) 
 - ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
 - ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
-- [codejam #1](../tasks/)
+- [codejam #1](https://github.com/DrDiman/CSS-Bayan-task)
 
 ### Week #2
 #### March 14, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](../tasks/) project
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](https://github.com/DrDiman/CSS-Bayan-task) project
 - [Module: "JavaScript. Data types"](modules/js-basics/)
 - [Module: "JavaScript. Scope and functions](modules/functions/) 
 - [Module: "JavaScript. Evolution"](modules/js-evolution/)
