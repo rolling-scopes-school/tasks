@@ -54,26 +54,26 @@
 - [Module "CSS grid layout"](modules/css-grid/)
 - [Module "Figma"](./modules/figma/)
 - [Module: CSS Preprocessors. Sass](modules/sass/)
-- [shelter. week-1](stream1/shelter#неделя-1) @sergeyshalyapin
+- [shelter. week-1](../tasks/shelter/shelter.md)
 
 ### Week #4
 #### March 28th, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-1"](stream1/shelter#порядок-оценки-cross-check-неделя-1)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-1"](../tasks/shelter/shelter-part1.md)
 - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
 - [Module: "Media Queries"](modules/media-queries/)
-- [shelter. week-2](stream1/shelter#неделя-2) @sergeyshalyapin
+- [shelter. week-2](../tasks/shelter/shelter.md)
 
 ### Week #5
 #### April 4, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-2"](stream1/shelter#порядок-оценки-cross-check-неделя-2)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-2"](../tasks/shelter/shelter-part2.md)
 - [Module: "HTML Forms & Validation"](modules/html-form/)
 - [Module: "DOM API"](modules/dom-api/)
 - [Module: "Events"](modules/events/)
-- [shelter. week-3](stream1/shelter#неделя-3) @sergeyshalyapin
+- [shelter. week-3](../tasks/shelter/shelter.md)
 
 ### Week #6
 #### April 11, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["shelter. week-3"](stream1/shelter#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["shelter. week-3"](../tasks/shelter/shelter-part3.md)
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 - [codejam #2](../tasks/) - (April 14 - April 16)
