@@ -2,13 +2,11 @@
 
 ## React. Hooks
 
-
-!! Task should be implemented in the school’s private repository !!
-It should be based on the previous task.
+Task be should be based on the previous task.
 
 ### What should be done:
 
-1. Create a separate branch for this task
+1. Create a separate branch for this task from the previous branch task.
 2. Retain the functionality and rewrite the main page with the hooks. All tests should be working in the end
 3. Retain the functionality and rewrite the form with React Hook Form. All tests should be working in the end
 
@@ -53,8 +51,8 @@ The score might be less, if:
 If there are direct DOM manipulations – **0 points**.
 ### Repository requirements
 
-* the task should be done in the **private student's repository** 
-* in private repository create branch with the name of the task from `main` branch and work in this (dev) created branch
+* the task should be done in **your personal private repository** 
+* in the repository create a branch from the **previous task** branch with the name of the task and work in the created branch
 * the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
 * after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
 * after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
