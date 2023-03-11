@@ -7,7 +7,11 @@ Task be should be based on the previous task.
 ### What should be done:
 
 1. Create a separate branch for this task from the previous branch task.
-2. Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/)
+2. Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/). Store will contain:
+    - search text (remove it from the Local Storage)
+    - search results
+    - all the form submissions (check Module 02)
+With those changes you should be able to navigate between routes (Search and Form) and all the information will remain
 3. Api requests should be moved to thunks
 
 ### Questions

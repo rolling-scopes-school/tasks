@@ -21,8 +21,8 @@ Task be should be based on the previous task.
 3. Rewrite the search page, and split it into 2 logical parts:
    - **Search bar.** Enter text -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
    - **The result list of searching**: display the data that the API query returned using Cards.
-4. A customer decided to change requirement. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
-5. Creat a download indicator ( a component with animation, or at least with the string - ‘Downloading’). You should place this indicator with your own sense of beauty.
+4. A customer decided to change the requirement about cards. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
+5. Creat a progress indicator ( a component with animation, or at least with the text - ‘Progressing...’) which will be shown when request is pending. You should place this indicator with your own sense of beauty.
 
 All the logical parts must be in separated components.
 **User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**

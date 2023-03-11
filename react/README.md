@@ -2,11 +2,11 @@
 This course is aimed to the students of the RS School which passed RS School stage #2 and for the new students, which have experience with :
 - JavaScript
 - TypeScript
-- Git, GitHub (clone, add, commit, push, pull, merge, rebase, работа с Pull Request)
+- Git, GitHub (clone, add, commit, push, pull, merge, rebase, pull request flow)
 - NPM, Webpack
 - CSS3 / HTML5
 - Chrome DevTools, Figma
-- Understanding of the REST API
+- Understanding of how to interact with apis (general understanding of REST and GraphQL)
 ATTENTION! Mentors for this course will be first distributed for the graduates of the RS School stage #2.
 
 ### Course duration

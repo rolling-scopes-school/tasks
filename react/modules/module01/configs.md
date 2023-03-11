@@ -1,6 +1,6 @@
-# Конфигурация eslint и prettier для использования в задании
+# Eslint and prettier configurations
 
-## Набор рекомендуемых библиотек
+## Recommended libraries (versionS can be different)
 
 ```
     "@typescript-eslint/eslint-plugin": "^5.22.0",
@@ -16,8 +16,8 @@
     "prettier": "^2.6.2",
 ```
 
-## Конфигурация eslint
-Может изменяться только с согласия ментора
+## Eslint configuration
+Might be changed if approved by mentor
 ```
 {
   "parser": "@typescript-eslint/parser",
@@ -72,7 +72,7 @@
 }
 ```
 
-## Конфигурция prettier
+## Prettier configuration
 ```
 {
   "endOfLine": "auto",

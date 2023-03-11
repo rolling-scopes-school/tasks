@@ -8,7 +8,7 @@ Task be should be based on the previous task.
 
 1. Create a separate branch for this task from the previous branch task.
 2. Create a separate route for forms.
-3. Form should be implemented using uncontrolled components
+3. Form should be implemented using uncontrolled components (with refs)
 4. Add functionality to your app:
    +  Collect information through a form
    +  You can collect any type of information, but form has to include at least one control of the following types:
