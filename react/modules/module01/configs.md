@@ -1,6 +1,6 @@
 # Eslint and prettier configurations
 
-## Recommended libraries (versionS can be different)
+## Recommended libraries (versions can be different)
 
 ```
     "@typescript-eslint/eslint-plugin": "^5.22.0",
@@ -11,13 +11,17 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
 ```
+The configuration might be different based on what setup has been choosen (Vite or CRA), you can check [the details](https://www.npmjs.com/package/eslint-plugin-react-hooks).
+[Here are](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/) some details about setting up Husky on the project.
+
 
 ## Eslint configuration
-Might be changed if approved by mentor
+Might be insignificantly changed
 ```
 {
   "parser": "@typescript-eslint/parser",
@@ -63,12 +67,12 @@ Might be changed if approved by mentor
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off"
   },
-	"settings": {
-		"react": {
-			"pragma": "React",
-			"version": "detect"
-		}
-	}
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
 }
 ```
 
