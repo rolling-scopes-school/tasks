@@ -5,7 +5,7 @@
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov)
+2. You have to use Typescript! We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov).
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add command to you package.json file to run linting command.
 4. Add React-Router version 6. Add header which shows the current page. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”.
 5. Draw the following on the main page:
@@ -68,6 +68,7 @@ The score might be less, if:
 2. Test coverage is below 40%.
 3. Presence of the code smells.
 4. Lots of unnessecary, redundant or obvious comments.
+5. The project is not written on Typescript.
 
 
 If there are direct DOM manipulations – **0 points**.
