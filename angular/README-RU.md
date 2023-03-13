@@ -23,6 +23,7 @@
 - [Модуль "Angular intro. TypeScript"](modules/intro/README-RU.md)
 - [Модуль "Angular. Components"](modules/components/README-RU.md)
 - [Модуль "Angular. Directives & Pipes"](modules/directives-and-pipes/README-RU.md)
+- Воркшоп
 
 ### Неделя #2 (20 марта 2023)
 - Task review "Angular intro"
@@ -46,7 +47,6 @@
 ### Неделя #5-8 (10 апреля 2023 - 8 мая 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
-- Воркшоп
 - Финальное задание (TBD)
 
 ### Неделя #9 (8 мая 2023)
