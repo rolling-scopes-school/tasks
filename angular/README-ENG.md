@@ -60,4 +60,4 @@ Course certificate is a pleasant addition and reward for your hard work.
 
 ## FAQ
 ### Where to ask questions and communicate with others?
-You may ask questions in our course Discord channel - [https://discord.gg/Y6q4paRw4e](https://discord.gg/PBYW4ZvKSE)
+You may ask questions in our course Discord channel - https://discord.gg/PBYW4ZvKSE
