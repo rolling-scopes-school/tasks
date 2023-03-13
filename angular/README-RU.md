@@ -60,8 +60,8 @@
 
 ## FAQ
 ### Где можно задать вопрос?
-Вопросы можно задать в Discord чате - https://discord.gg/Y6q4paRw4e
+Вопросы можно задать в Discord чате - https://discord.gg/PBYW4ZvKSE
 
 ### Где происходит общение?
-В Discord чате - https://discord.gg/Y6q4paRw4e
+В Discord чате - https://discord.gg/PBYW4ZvKSE
  
