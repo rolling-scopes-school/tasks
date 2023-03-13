@@ -23,6 +23,7 @@
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
+- Workshop
 
 ### Week #2 (March 20 2023)
 - Task review "Angular intro"
@@ -46,7 +47,6 @@
 ### Week #5-8 (April 10 2023 - May 8 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
-- Workshop
 - Final task (TBD)
 
 ### Week #9 (May 8 2023)
