@@ -49,6 +49,8 @@ Task be should be based on the previous task.
    Components should not make calls to APIs.
 
    The usage of Redux or any other solutions for state management is prohibited.
+   
+   **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage.**
 
    **The usage of any libraries with components or form libraries is prohibited.**  
 
