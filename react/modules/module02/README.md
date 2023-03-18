@@ -11,17 +11,17 @@ Task be should be based on the previous task.
 3. Form should be implemented using uncontrolled components (with refs)
 4. Add functionality to your app:
    +  Collect information through a form
-   +  You can collect any type of information, but form has to include at least one control of the following types:
+   +  You can collect any type of information, but form has to include at least those controls:
       + text input
       + date input
       + dropdown/select
       + checkbox
-      + switcher
+      + switcher (radio)
       + file upload (image)
 
    **Example:**
      ```
-     text input - name, surname, zip-code;
+     text input - name, surname (or both), zip-code;
      date input - birthday, date of delivery;
      dropdown/select - list of countries, list of states (User can choose only one element from the list)
      checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
@@ -35,17 +35,17 @@ Task be should be based on the previous task.
    
    **Form validation**
    
-   Validation should happen after the **Submit** button was clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
-   
-   After changing the value of erroneous input, the reset should happen only for this particular field, but not for the others.
-   
-   Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
+   Validation should happen after the **Submit** button was clicked. In case when some field was filled in incorrectly, error message should be displayed below the field. The card mustn’t be created until the user fixes all errors.
+   Examples of validation:
+   - mandatory field - check if input contains any information (no text in text input, radio or checkbox isn't selcted, etc);
+   - if text input is used for the name or surname, check if name or surname starts with uppercased letter
+
+   Remove erorrs in case they have been fixed on next **Submit** button click.
 
 5. Add tests.
 6. All logical parts should be extracted into components.
-   
    All data must be stored in a local state of the component.
-   
+   For accessing state, or lifecycle events use class components.
    Components should not make calls to APIs.
 
    The usage of Redux or any other solutions for state management is prohibited.
