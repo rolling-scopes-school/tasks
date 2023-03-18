@@ -79,19 +79,20 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
-Student can get 15 points if the following requirements are met:
-1. Eslint should not show any errors or warnings.
-2. All the functionality should work.
-3. Test coverage for the whole app should be not less than 50%.
+Student can get 15 points.
+Cross code review:
+1. Linting can be run and doesn't produce any errors or warnings - 2 points.
+2. Tests can be run and the test coverage is equal or higher than 50% - 3 points.
+Cross check:
+1. There is an additional route for forms - 1 point.
+2. Form contains 6 mandatory fields (text and date inputs. dropdown, checkbox, radio, file upload) - 2 points.
+3. Validation works on submit - 2 points.
+4. After submitting the form result is provided on a card, confirmation is shown, form is cleared - 3 points.
+5. Each form submission creates a new card - 2 points.
 
-The score might be less, if:
-1. Part of functionality doesn't work.
-2. Test coverage is below 50%.
-3. Presence of the code smells.
-4. Lots of unnessecary, redundant or obvious comments.
-
-
+If TypeScript isn't used - **0 points**.
 If there are direct DOM manipulations – **0 points**.
+Smaller penalties will be given for snapshot testing, usage of any, code-smells, errors or warning in console, etc.
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
