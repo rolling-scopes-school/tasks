@@ -13,7 +13,7 @@
 
 ## Материалы:
 - [Пример данных 8 питомцев в формате `JSON`](pets.json)
-- [Макет в figma](https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom)
+- [Макет в figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
 
 ## Порядок работы
 
