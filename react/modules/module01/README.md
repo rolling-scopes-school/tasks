@@ -7,7 +7,7 @@
 1. Create a separate branch for this task.
 2. You have to use Typescript! We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov).
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add command to you package.json file to run linting command.
-4. Add React-Router version 6. Add header which shows the current page. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”.
+4. Add React-Router version 6. Add header which shows the current page title and navigation bar. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”. Page "404" can have no header if you wish.
 5. Draw the following on the main page:
 * Search Bar.\
 examples:\
@@ -44,7 +44,11 @@ The task will be checked during cross-check and cross-code-review.
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
-5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
+5. Review the code. Pay attention at the following "code smells":
+- props drilling;
+- large, complex components aka "god" components;
+- direct DOM manipulation - using `document` methods except for the argument of `createRoot`;
+- etc.
 
 When reviewing the code try pay attention at the following principles:
 * Write code as simply as possible: KISS
