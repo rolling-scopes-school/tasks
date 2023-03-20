@@ -2,7 +2,7 @@
 
 ## React. Redux
 
-Task be should be based on the previous task.
+Task should be based on the previous task.
 
 ### What should be done:
 
