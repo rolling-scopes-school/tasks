@@ -7,7 +7,7 @@
 1. Create a separate branch for this task.
 2. You have to use Typescript! We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov).
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add command to you package.json file to run linting command.
-4. Add React-Router version 6. Add header which shows the current page title and navigation bar. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”. Page "404" can have no header if you wish.
+4. Add React-Router version 6. Add header which shows the current page name. Additionally, header can contain navigation bar. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”. Page "404" can have no header if you wish.
 5. Draw the following on the main page:
 * Search Bar.\
 examples:\
