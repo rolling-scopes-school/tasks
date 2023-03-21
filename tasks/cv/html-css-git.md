@@ -50,13 +50,13 @@
 
 Create an empty index.html document. Place the cursor inside the html editor content and type ! . You will get content selection dialog that looks like this:
 
-![demo](/tasks/cv/images/html_template_basic.JPG)
+![demo](./images/html_template_basic.JPG)
 
 </details>
 
 <details><summary>click to see the demo gif</summary>
 
-![demo](/tasks/cv/images/basic_html_1.gif)
+![demo](./images/basic_html_1.gif)
 
 </details>
 
