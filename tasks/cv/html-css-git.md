@@ -41,4 +41,17 @@
 ## Материалы:
 - [Работа с Git](git.md)
 - [Базовый шаблон HTML](https://www.w3schools.com/html/)
+
+**NB** In the example above html tag missing lang attribute, which is necessary to pass the cv auto-test.
+
+**hint** You can get basic html layout by typing ! sign at the very top of newly created empty html file and pressing Enter.
+
+<details><summary>click to see the demo</summary>
+
+![demo](/tasks/cv/images/basic_html_1.gif)
+
+</details>
+
+**Additionally** You can use any basic html template by your wish by googling it.
+
 - [Escape-последовательности](https://www.lexium.ru/2009/05/343/)
