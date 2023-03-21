@@ -106,7 +106,7 @@ Shelter - это проект, в котором вам предстоит св�
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
 
 ## Материалы
-- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
+- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
 - Используемые шрифты: [Arial, google fonts](https://www.fonts.com/font/monotype/arial?QueryFontType=Web&src=GoogleWebFonts) и [Georgia, google fonts](https://www.fonts.com/font/microsoft-corporation/georgia?QueryFontType=Web&src=GoogleWebFonts)
