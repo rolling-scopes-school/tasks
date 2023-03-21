@@ -46,7 +46,7 @@
 
 **hint** You can get basic html layout by typing ! sign at the very top of newly created empty html file and pressing Enter.
 
-<details><summary>click to see the demo img</summary>
+<details><summary>click to see the demo pic</summary>
 
 Create an empty index.html document. Place the cursor inside the html editor content and type ! . You will get content selection dialog that looks like this:
 
