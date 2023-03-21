@@ -56,7 +56,7 @@ Create an empty index.html document. Place the cursor inside the html editor con
 
 <details><summary>click to see the demo gif</summary>
 
-![demo](./images/basic_html_1.gif)
+![demo](./images/basic_html_2.gif)
 
 </details>
 
