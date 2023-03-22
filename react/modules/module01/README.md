@@ -47,7 +47,7 @@ The task will be checked during cross-check and cross-code-review.
 5. Review the code. Pay attention at the following "code smells":
 - props drilling;
 - large, complex components aka "god" components;
-- direct DOM manipulation - using `document` methods except for the argument of `createRoot`;
+- direct DOM manipulation - methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
 - etc.
 
 When reviewing the code try pay attention at the following principles:
