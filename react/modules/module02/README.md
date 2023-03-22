@@ -24,7 +24,7 @@ Task should be based on the previous task.
      text input - name, surname (or both), zip-code;
      date input - birthday, date of delivery;
      dropdown/select - list of countries, list of states (User can choose only one element from the list)
-     checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
+     checkbox - both one and multiple checkboxes are accepted: "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
      switcher - male/female, "I want to receive notifications about promo, sales, etc." / "I don’t want to receive notifications about promo, sales, etc."
      file upload - profile picture
      ```
