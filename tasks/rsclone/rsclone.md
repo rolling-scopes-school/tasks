@@ -224,6 +224,31 @@ RS Clone - это командное задание, в ходе выполне�
 
 ### Работы студентов предыдущих наборов
 
+<details><summary> 2022Q3 </summary>
+
+**Games**
+
+- [Mini Golf](https://mini-golf-clone.netlify.app/)
+- [Bomberman](https://bomberman2d.netlify.app/)
+- [Spooky Adventure](https://dns147-rsclone2023-spooky-adventure.netlify.app/)
+- [Gwent](https://gwent-rs-clone.netlify.app/)
+- [OSU!](https://osu-game-87995.web.app/)
+- [Card Game](https://card-game-rsclone.netlify.app/#/entrance)
+- [Blazing](https://blazing-8s-rs.netlify.app/)
+- [Battle Ships](https://battle-ships-pwrrngrs.netlify.app/)
+
+**Applications**
+
+- [RS Doctors](https://alienteam-rsdoctors.netlify.app/)
+- [Fintess X](https://elijah-i.github.io/RS-clone/)
+- [CSS Games](https://flourishing-tarsier-2b37b9.netlify.app/)
+- [Petsitters](https://petsi-rs-clone.netlify.app/)
+- [Brain Train](https://ponomareva-nina.github.io/Wikium-Clone/)
+- [Codepen](https://rss-clone.netlify.app/)
+- [RS Social](https://rss-social.herokuapp.com/login)
+- [Amazing Trip](https://shipu4ka-rs-clone.netlify.app/)
+- [Telegram](https://telegram-rs-clone.netlify.app/)
+
 <details><summary> 2022Q1 </summary>
 
 **Приложения:**
