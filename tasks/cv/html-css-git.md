@@ -60,6 +60,6 @@ Create an empty index.html document. Place the cursor inside the html editor con
 
 </details>
 
-**Additionally** You can use any basic html template by your wish by googling it.
+**NB** You can use any basic html template by your wish by googling it.
 
 - [Escape-последовательности](https://www.lexium.ru/2009/05/343/)
