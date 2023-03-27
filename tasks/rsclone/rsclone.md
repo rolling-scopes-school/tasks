@@ -237,7 +237,7 @@ RS Clone - это командное задание, в ходе выполне�
 - [Blazing](https://blazing-8s-rs.netlify.app/)
 - [Battle Ships](https://battle-ships-pwrrngrs.netlify.app/)
 
-**Apps**
+**Applications**
 
 - [RS Doctors](https://alienteam-rsdoctors.netlify.app/)
 - [Fintess X](https://elijah-i.github.io/RS-clone/)
