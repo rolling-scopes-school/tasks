@@ -41,4 +41,25 @@
 ## Материалы:
 - [Работа с Git](git.md)
 - [Базовый шаблон HTML](https://www.w3schools.com/html/)
+
+**NB** In the example above html tag missing lang attribute, which is necessary to pass the cv auto-test.
+
+**hint** You can get basic html layout by typing ! sign at the very top of newly created empty html file and pressing Enter.
+
+<details><summary>click to see the demo pic</summary>
+
+Create an empty index.html document. Place the cursor inside the html editor content and type ! . You will get content selection dialog that looks like this:
+
+![demo](./images/html_template_basic.JPG)
+
+</details>
+
+<details><summary>click to see the demo gif</summary>
+
+![demo](./images/basic_html_2.gif)
+
+</details>
+
+**Additionally** You can use any basic html template by your wish by googling it.
+
 - [Escape-последовательности](https://www.lexium.ru/2009/05/343/)
