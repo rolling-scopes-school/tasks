@@ -42,6 +42,5 @@ Total: 1*2 + 4*7 + 5*3 + 8*1  = 53
 
 ## Материалы
 
-- [Практические композиции функций в Javascript](https://itchef.ru/articles/107420/)
 - [Мемоизация в JS и ускорение функций](https://habr.com/ru/company/ruvds/blog/332384/)
 - [Частичное применение и каррирование в JavaScript](https://www.youtube.com/watch?v=ND8KQ5xjk7o)
