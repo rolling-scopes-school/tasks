@@ -14,8 +14,9 @@
 
 ## Теория
 1. Интернет и Браузер https://webref.ru/course/introduction
-2. [Вебинар: Браузеры. VS Code – установка и настройка](https://www.youtube.com/watch?v=nd2VYxOsOwY)
-3. Терминал
+2. CDN: сеть доставки контента https://habr.com/ru/company/selectel/blog/463915/
+3. [Вебинар: Браузеры. VS Code – установка и настройка](https://www.youtube.com/watch?v=nd2VYxOsOwY)
+4. Терминал
      - [Basic Windows](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
      - [Basic Mac](https://www.imore.com/how-use-terminal-mac-when-you-have-no-idea-where-start)
 
