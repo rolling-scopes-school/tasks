@@ -76,7 +76,6 @@
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["shelter. week-3"](../tasks/shelter/shelter-part3.md)
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
-- [codejam #2](../tasks/) - (April 14 - April 16)
 
 
 ### Week #7
@@ -90,11 +89,11 @@
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 - [Module: "Modules in JS"](modules/modules-in-js/)
 - [Module: "Chrome DevTools"](modules/chrome-devtools/)
-- [codejam #3](../tasks/)
+- [virtual-keyboard](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 
 ### Week #9
 #### May 2nd, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #3"](../tasks/)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["virtual-keyboard"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 - [Module: "Node.js"](modules/node-materials/)
 - [Project "HTML-Builder"](modules/html-builder/)
 
