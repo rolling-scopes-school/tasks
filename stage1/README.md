@@ -80,7 +80,6 @@
 
 ### Week #7
 #### April 18, 2023
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #2"](../tasks/)
 - [Module: Clean Code](modules/clean-code/)
 - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
