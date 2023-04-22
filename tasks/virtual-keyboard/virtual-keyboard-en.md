@@ -38,10 +38,11 @@
 
 ### Requirements for commits, pull request, repository
 - the work should be done in your private repository
+- the repository name matches the task name (virtual-keyboard).
 - source code should be committed to a separate branch
-- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- the **main** branch should be empty (contain only files like README.md or .gitignore)
 - commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
-- once the work is finished, create a pull request from a development branch to master
+- once the work is finished, create a pull request from a **development** branch to **main**
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
     - link to the task
@@ -104,6 +105,11 @@ Example:
 
 `Penalties:`
 - [ ] there're errors related to the executable code (errors like `favicon.ico: Failed to load resource: the server responded with a status of 404` are not taken into account) or there're eslint-config-airbnb-base warnings: `-15`
+
+`Penalties are imposed only by the course administration:`
+- [ ] the repository or development branch name does not comply with the requirements: `-110`
+- [ ] less than 5 commits are made or commits are made on the same day: `-110 or expel from the course`
+- [ ] a significant portion of the application was completed after the deadline: `-110 or expel from the course`
 
 ## Useful links:
 
