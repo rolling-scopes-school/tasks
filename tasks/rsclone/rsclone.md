@@ -249,6 +249,8 @@ RS Clone - это командное задание, в ходе выполне�
 - [Amazing Trip](https://shipu4ka-rs-clone.netlify.app/)
 - [Telegram](https://telegram-rs-clone.netlify.app/)
 
+</details>
+
 <details><summary> 2022Q1 </summary>
 
 **Приложения:**
