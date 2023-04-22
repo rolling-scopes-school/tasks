@@ -40,9 +40,9 @@
 - the work should be done in your private repository
 - the repository name matches the task name (virtual-keyboard).
 - source code should be committed to a separate branch
-- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- the **main** branch should be empty (contain only files like README.md or .gitignore)
 - commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
-- once the work is finished, create a pull request from a **development** branch to **master**
+- once the work is finished, create a pull request from a **development** branch to **main**
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
     - link to the task
