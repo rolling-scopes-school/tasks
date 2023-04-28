@@ -13,7 +13,8 @@ Browser Support: Google Chrome ( last version)
 **IMPORTANT!!!**
 Failure to host your solution and/or not providing a correct link to the hosted solution will result in 0 points!
 
-**Note!** Do not use the eval ()!
+**IMPORTANT!!!**
+Do not use the eval() or the Function constructor! Using any of those will award you a total of 1 points (a passing score), regardless of any other functionality implemented
 
 ## Assessment criteria 
 If the task is fully completed, and no defects are found by reviwer, you are awarded **100 points**. This concerns your solutions HTML, CSS, JS.
@@ -25,7 +26,7 @@ It is necessary to have a *decimal point, actions with multi-digit numbers, the 
 - Basic operations (+ - *) with positive integers (2 + 2 = 4) **+15 points**
 - Division (/) with positive integers (the result might be a float) (3 / 2 = 1.5) **+5 points**
 - If the result has more than 10 digits, it must be rounded down to show only the first 10 digits in total at all times **+5 points for integers, +5 points for floats**
-- Chaining operations (2 + 2 = 4 + 2 = 6 ...) **+10 points**
+- Chaining operations (2 + 2 + (displays 4) + 2 + (displays 6) + 2 = 8 ...) **+10 points**
 - Result clear button **+10 points**
 - Error message for invalid operations (10 / 0 = Error) **+10 points**
 

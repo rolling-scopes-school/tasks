@@ -39,10 +39,11 @@ Please note that the **Sorting criteria block** should be hidden
 - By submitting the search form, the **Search results block** appears.
 - Using the [response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json), render cards with predefined data
     You can store the mocked data in the **Search results** component
-    - The bottom border represents the publication date status. Create a directive to achieve the result
-        - If a publication date is less than a month, set border background to green
-        - If a publication date is less than 7 days, set border background to blue
-        - If a publication date is more than 6 months, set border background to red
+    - The bottom border represents the publication date status. Create a directive to change background color of the border
+        - If older than 6 months – Red
+        - If from a month up to 6 months – Yellow
+        - If from seven days up to a month – Green
+        - If younger than 7 days – Blue
 - By clicking on the **Settings button**, the **Filtering criteria block** should be toggled
     - It should be possible to sort search results by date or count of views
     - Sorting should work both in the direction of decreasing values and in the direction of increasing values
@@ -60,10 +61,10 @@ Maximum points - **100**
 - [ ] Search result filtering by key words is implemented (**+20**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong components structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://angular.io/tutorial

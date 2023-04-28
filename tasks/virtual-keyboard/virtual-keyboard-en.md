@@ -33,15 +33,16 @@
 - usage of Bootstrap and other UI libraries is **not allowed**
 - usage of Angular/React/Vue and other frameworks is **not allowed**
 - you can use CSS preprocessors
-- [ESLint (eslint-config-airbnb-base)](https://eslint.org/) should be used
+- [ESLint (eslint-config-airbnb-base)](https://eslint.org/) should be used. It is allowed to add to the .eslintrc.js file ignoring the 'import/extensions' rule in case of using modules and needing to import them into the main file.
 - the working application should be hosted on [GitHub Pages](https://pages.github.com/). It happens automatically on 'gh-pages' branch creation. Afterward, the page will be available at the address like https://your-github-account.github.io/name-of-your-repository
 
 ### Requirements for commits, pull request, repository
 - the work should be done in your private repository
+- the repository name matches the task name (virtual-keyboard).
 - source code should be committed to a separate branch
-- the **master** branch should be empty (contain only files like README.md or .gitignore)
+- the **main** branch should be empty (contain only files like README.md or .gitignore)
 - commit messages should follow the [guideline](https://www.conventionalcommits.org/en)
-- once the work is finished, create a pull request from a development branch to master
+- once the work is finished, create a pull request from a **development** branch to **main**
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
     - link to the task
@@ -104,6 +105,16 @@ Example:
 
 `Penalties:`
 - [ ] there're errors related to the executable code (errors like `favicon.ico: Failed to load resource: the server responded with a status of 404` are not taken into account) or there're eslint-config-airbnb-base warnings: `-15`
+
+`Penalties are imposed only by the course administration:`
+- [ ] the repository (**virtual-keyboard**) or development branch (**development**) name does not comply with the requirements: `-110`
+- [ ] less than 5 commits are made or commits are made on the same day: `-110 or expel from the course`
+- [ ] a significant portion of the application was completed after the deadline: `-110 or expel from the course`
+
+## How to submit and check the task
+- the link to [Pull Request](#requirements-for-commits-pull-request-repository) should be submitted to the Cross-Check: Submit;
+- the repository with your work must be made **public** after the deadline of submit task. Make sure the pull request and deploy are available for review;
+- this task will be checked with peers [cross-check](https://docs.rs.school/#/cross-check-flow).
 
 ## Useful links:
 

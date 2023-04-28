@@ -12,9 +12,8 @@
 4 часов
 
 ## Теория 
-    - https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout - 2h
-    - https://tuhub.ru/posts/css-grid-complete-guide - 2h
-
+- [Основные понятия Grid Layout](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) - 2h
+- [Полное руководство по CSS Grid](https://tuhub.ru/posts/css-grid-complete-guide) - 2h
 
 ## Практика 
 1. Вам необходимо пройти тест "CSS Grid" в RS APP > Auto Test

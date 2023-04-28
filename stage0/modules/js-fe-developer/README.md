@@ -13,13 +13,8 @@
 - Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
 - Прочитать [рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
-## Практика
-   1. Вам необходимо пройти тест "Basic FE Development Test" в RS APP > Auto Test
-
 ## Полезные ссылки 
 - [Запись YouTube стрима "Профориентация"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 часа
-- [Дорожная карта JS разработчика в 2021](https://github.com/kamranahmedse/developer-roadmap)
-- [Матрица компетентности](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwSn4qxbYHSdQ428OkpArZc4Q22D8dmbzDcRXt-UzkZ1sZfGLoQmm1w-N0Rx_voKLx4i7R_k7cnQgV/pubhtml#)
 - [Отличная книга по JS на русском (learn.javascript.ru)](https://learn.javascript.ru/)
 Главы, которые желательно прочитать в первую очередь:
    - [Основы JavaScript](https://learn.javascript.ru/first-steps)

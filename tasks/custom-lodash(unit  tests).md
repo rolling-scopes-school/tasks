@@ -1,7 +1,7 @@
 ## Custom Lodash
 
 Your task is to implement 'custom' version of the lodash library following next requirements:
-1. Usage of `Array.prototype.* or `Object.prototype.*` is **strictly forbidden**.
+1. Usage of `Array.prototype.*` or `Object.prototype.*` **methods** and **static methods** is **strictly forbidden**. You can use the properties, like `length`
 2. You can create your own additional service functions (if needed).
 3. You should use ES6+ features (any feature which supported by latest stable Chrome).
 4. Lodash chain is out of scope
@@ -10,6 +10,7 @@ And **cover your code by unit tests** following next requirements:
 1. You should use Jest for the current task
 2. You shoud follow TDD (Test-driven development)
 3. The code coverage should be at least 80% (branches and functions)
+4. You can use any of the built in array and object methods for the actual unit tests
 
 ## Methods to implement:
 ### Arrays:
@@ -30,6 +31,5 @@ And **cover your code by unit tests** following next requirements:
 * [omitBy](https://lodash.com/docs/4.17.11#omitBy) 
 * [pick](https://lodash.com/docs/4.17.11#pick) 
 * [pickBy](https://lodash.com/docs/4.17.11#pickBy) 
-* [toPairs](https://lodash.com/docs/4.17.11#toPairs) 
 
-### The score is on proportion to the coverage
+### The score is on proportion to the total final coverage - 7 points for each incorrect or missing method

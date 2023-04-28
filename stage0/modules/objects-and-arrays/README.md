@@ -19,9 +19,7 @@
 1. https://learn.javascript.ru/object
 2. https://learn.javascript.ru/array
 3. https://learn.javascript.ru/array-methods
+4. [Запись лекции](https://youtu.be/-vgsjJahYec?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
-1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/objects-arrays.md)
-2. https://github.com/rolling-scopes-school/typical-arrays-problems/
-3. https://github.com/rolling-scopes-school/reverse-int
-4. https://github.com/romacher/morse-decoder
+[Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars2.md)

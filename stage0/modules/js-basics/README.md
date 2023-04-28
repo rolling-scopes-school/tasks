@@ -9,9 +9,11 @@
 
 ## Теория 
 1. Вам необходимо пройти интерактивный курс https://ru.code-basics.com/languages/javascript (20 часов)
+2. [Просмотреть лекцию по основам Javascript](https://youtu.be/PH37Zvp3vDY?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
 1. Вам необходимо пройти тест "Test JS Basics [RU]" в RS APP > Auto Test
+2. [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars1.md)
 
 ## Дополнительные материалы
 1. Хороший русскоязычный курс: https://learn.javascript.ru/first-steps - 16h

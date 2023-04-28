@@ -19,10 +19,8 @@
      - [Basic Windows](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
      - [Basic Mac](https://www.imore.com/how-use-terminal-mac-when-you-have-no-idea-where-start)
 
-## Практика
-1. Вам необходимо пройти тест "DevTools Test" в RS APP > Auto Test
-
 ## Дополнительные материалы
 - [How browser works](https://youtu.be/gdriDw-ciH8)
 - https://habr.com/ru/post/490754/ - 2h
 - https://itchief.ru/javascript/vscode-configuration-for-frontend-development - 1h
+- [Шпаргалка по плагинам для VSCode](https://solidados.github.io/plugins_vscode/)

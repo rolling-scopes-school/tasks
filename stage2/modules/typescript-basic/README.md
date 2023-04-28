@@ -11,13 +11,16 @@
 
 ## Теория
 
-- [Видео 1](https://youtu.be/h4Y4-QMz7dw)
-- [Видео 2](https://youtu.be/I_aTbZcH8Do)
-- [Видео 3](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
+- [Интерактивный курс по TypeScript](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
+
+- [Вебинар Rolling Scopes School Lithuania. TypeScript (EN)](https://youtu.be/h4Y4-QMz7dw)
+- Вебинар Node.js 2021Q2 Typescript (RU):
+  - [part 1](https://youtu.be/I_aTbZcH8Do)
+  - [part 2](https://youtu.be/CegrbRXGw20)
+- [Вебинар Angular 2021q1. Intro (RU)](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
 
 ## Практика
-
--
+- Вам необходимо пройти тест "TS Basic" в RS APP > Auto Test
 
 ## Дополнительные материалы
 
@@ -30,3 +33,5 @@
 - [Function](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 - [Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html)
 - [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
+- [TypeScript exercises](https://typescript-exercises.github.io/)
+- [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)
