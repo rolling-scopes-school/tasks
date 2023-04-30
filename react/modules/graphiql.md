@@ -65,7 +65,7 @@ You are free to choose your own way of developing the project and the repository
 - you must use React 18 + **suspense** feature
 - you can use Vite (or any React framework you want, e.g. Gatsby, NextJS, Remix), css frameworks, any js/components libs you want, html and css pre-processors
 - you MUST use Typescript
-- ❗ it is forbidden to copy the code of other students or [GrahiQL](https://www.npmjs.com/package/@graphiql/react). This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
+- ❗ it is forbidden to copy the code of other students or [GraphiQL](https://www.npmjs.com/package/@graphiql/react). This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
 
 ## Application design requirements
 
@@ -80,8 +80,8 @@ You are free to choose your own way of developing the project and the repository
 - Errors from the api side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
 
 ### Welcome page
-- If user is not authorized, main page should contain a link to Sign In / Sign Up page
-- If user is authorized, main page should contain a link to the Main route
+- If user is not authorized, the page should contain a link to Sign In / Sign Up page
+- If user is authorized, the page should contain a link to the Main page
 
 ### Header
 
@@ -90,17 +90,17 @@ You are free to choose your own way of developing the project and the repository
 
 ### Footer
 
-- Footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
+- Footer should contain a link to the authors' github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
 - Footer is displayed on all pages of the application.  
 
 ### Sign In / Sign Up
 
 - For the authentication you should use Firebase with email option. Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/)
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character)
-- Upon successful login, the user should be redirected to the Welcome page
-- If user has been logged in already and he/she tries to reach this route - he/she should be redirected to the Welcome page
+- Upon successful login, the user should be redirected to the Main page
+- If the user is already logged in and tries to reach these routes, they should be redirected to the Main page
 
-### Main route - GraphiQL
+### Main page - GraphiQL
 - Editor
 - Variables section
 - Headers section
@@ -125,9 +125,9 @@ For the convenience of verification, it is **necessary** to record and post on Y
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 ### Welcome route - max 10 points
 
-- [ ] The welcome page should contain general information about the developer, project, and course. **2 point**
+- [ ] The welcome page should contain general information about the developers, project, and course. **2 point**
 - [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **2 point**
-- [ ] If login token is valid and unexpired, change buttons Sign In and Sign Up on "Go to Main Page" button. **2 points**
+- [ ] If login token is valid and unexpired, change the Sign In and Sign Up buttons to the "Go to Main Page" button. **2 points**
 - [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **3 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
 
@@ -135,8 +135,8 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **5 points**
 - [ ] Client-side validation should be implemented. **10 points**
-- [ ] Upon successful login, the user should be redirected to "Main route" **3 point**
-- [ ] If user already logged in and he try to reach this routes - he should be redirected to Main route. **2 point**
+- [ ] Upon successful login, the user should be redirected to the Main page **3 point**
+- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. **2 point**
 
 ### GraphiQL route - max 50 points
 - [ ] Working editor allowing to edit the query. **15 points**
@@ -158,3 +158,4 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] The presence in the console of the results of the console.log execution **- 2 points** for each
 - [ ] @ts-ignore or any usage (search through github repo) **- 1 point** for each
 - [ ] Making commits after the deadline **- 20 points**  
+- [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names.
