@@ -54,7 +54,7 @@ npm install <имя модуля>
 ```powershell
 npm install <имя модуля>
 ```  
-Установим модуля nodemon. Для этого в терминале выполним команду  
+Установим модуль nodemon. Для этого в терминале выполним команду  
 ```powershell
 npm install nodemon
 ```  
