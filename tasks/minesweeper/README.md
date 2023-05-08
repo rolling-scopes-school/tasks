@@ -12,7 +12,7 @@ You are to implement a classic game — [Minesweeper](<https://en.wikipedia.org/
 
 `Basic (required):`
 
-- initially, `body` in the index.html file must be empty, **all necessary elements are generated using JS**
+- initially, `body` in the index.html file must be empty (only script tag is allowed), **all necessary elements are generated using JS**
 - the design should be adaptive (or responsive) from _(500px <= width)_. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
 - the default size of the frame is 10x10 with 10 mines.
 - the player should be able to click on cells to reveal them. If the cell contains a mine, the game is over. If the cell does not contain a mine, the number of mines in the surrounding cells should be displayed
@@ -51,8 +51,8 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
   - link to your application
   - date of completion/deadline
   - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
-  - use _gh-pages_ for deployment
-  - submit **a link to deploy** in Cross-Check: Submit tab
+- use _gh-pages_ for deployment
+- submit **a link to deploy** in Cross-Check: Submit tab
 
 ## Technical requirements
 
@@ -84,7 +84,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 ### Hacker scope +60
 
 - [ ] sound accompaniment (on/off) when clicking on cell and at the end of the game: `+10`
-- [ ] implement ability to change the size(easy - 10x10, medium - 15x15, hard - 25x25) and number of mines for each size of the field (from 10 to 99): `+20`
+- [ ] implement ability to change the size (easy - 10x10, medium - 15x15, hard - 25x25) and number of mines for each size of the field (from 10 to 99): `+20`
 - [ ] implemented saving the latest 10 results using LocalStorage: `+10`
 - [ ] implemented saving the state of the game: `+10`
 - [ ] option to choose different themes for the game board (dark/light themes): `+10`
