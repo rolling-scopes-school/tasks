@@ -41,7 +41,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 
 - the work should be done in private school's repository
 - create new branch `minesweeper` from main. Create folder `minesweeper` in the created branch where you will do source code
-- the **main** (or **master**) branch should be empty (contain only files like README.md or .gitignore)
+- the **main** (or **master**) branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - commits should represent the work history. Commit messages should follow the [guideline](https://www.conventionalcommits.org/en/v1.0.0/)
 - once the work is finished, create a pull request from a development branch to main (or master). This PR doesn't need to be merged
 - the pull request name should contain **the task name**
