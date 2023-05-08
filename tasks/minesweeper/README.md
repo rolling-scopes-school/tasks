@@ -1,5 +1,3 @@
---Draft--
-
 # RSS Minesweeper
 
 ## Task
