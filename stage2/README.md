@@ -18,7 +18,7 @@
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md) 
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["songbird" project](../tasks/songbird/songbird-2022q3.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
