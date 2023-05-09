@@ -101,13 +101,13 @@
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 - [Module: "Webpack"](modules/webpack/)
-- [final task stage1](../tasks/)
+- [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
 
 ### Week #11
 #### May 16th 2023
 - [Project "Self-introduction"](modules/self-introduction/)
 - Preparation for mentor interview
-- [final task stage1](../tasks/)
+- [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
 
 
 ## FAQ
