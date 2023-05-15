@@ -54,8 +54,6 @@
 ## Дополнительные материалы
 1. [Официальный сайт Webpack](https://webpack.js.org/)
 2. [Webpack 5 — Полный курс для начинающих. Обработка html, css, scss, js, image compress.](https://youtu.be/o8KMucDpSno) - язык: русский, длительность: 1 час 10 минут.
-3. [Webpack 5 Crash Course | Frontend Development Setup ](https://youtu.be/IZGNcSuwBZs) - язык: английский, длительность: 40 минут.
-4. [Webpack 5 Full Project Setup](https://youtu.be/TOb1c39m64A) - язык: английский, длительность: 2 часа.
-5. [Webpack 4 - простая сборка проекта](https://youtu.be/MRlBKfGktwI) - язык: русский, длительность: 1 час 45 минут.
-6. [Webpack. Полный курс 2020](https://youtu.be/eSaF8NXeNsA) - язык: русский, длительность: 2 часа 50 минут.
-7. [Вебинар RS School 2017Q3 Webpack](https://youtu.be/ssORHjHHCzU) - язык: русский, длительность: 2 часа 40 минут.
+3. [Настройка Webpack 5 для начинающих. Описание принципа работы webpack. Html, css, scss, pug, jQuery.](https://youtu.be/gVenbqg9Rww) - язык: русский, длительность: 40 минут.
+4. [Webpack 5 Crash Course | Frontend Development Setup ](https://youtu.be/IZGNcSuwBZs) - язык: английский, длительность: 40 минут.
+5. [Webpack 5 Full Project Setup](https://youtu.be/TOb1c39m64A) - язык: английский, длительность: 2 часа.
