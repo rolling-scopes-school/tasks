@@ -84,7 +84,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 ### Hacker scope +60
 
 - [ ] sound accompaniment (on/off) when clicking on cell and at the end of the game: `+10`
-- [ ] implement ability to change the size (easy - 10x10, medium - 15x15, hard - 25x25) and number of mines for each size of the field (from 10 to 99): `+20`
+- [ ] implement ability to change the size (easy - 10x10, medium - 15x15, hard - 25x25) and number of mines for each size of the field (from 1 to 99): `+20`
 - [ ] implemented saving the latest 10 results using LocalStorage: `+10`
 - [ ] implemented saving the state of the game: `+10`
 - [ ] option to choose different themes for the game board (dark/light themes): `+10`
