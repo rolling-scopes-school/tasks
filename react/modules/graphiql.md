@@ -157,7 +157,4 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] The presence in the console of the results of the console.log execution **- 2 points** for each
 - [ ] @ts-ignore or any usage (search through github repo) **- 1 point** for each
 - [ ] Making commits after the deadline **- 20 points**  
-- [ ] Linting not enabled **- 45 points**
-- [ ] Linting errors, per each **- 3 points**
-- [ ] Commented line of code, if there is a commented block of code consider it as times of a number of actual lines, per each **- 2 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names.
