@@ -72,8 +72,8 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #4.
 ### 13/06/2023
-- [Module: "SCRUM, Kanban"](modules/scrum/)
-- [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Module: Web Storage](modules/web-storage/)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - https://github.com/mikhama/core-js-101
 
@@ -93,8 +93,8 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #5
 ### 20/06/2023
-- [Module: Web Storage](modules/web-storage/)
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Testing](modules/testing/)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -108,9 +108,10 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #6.
 ### 27/06/2023
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
 - [Module: Async programming](modules/async/)
-- [Testing](modules/testing/)
+- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -122,10 +123,10 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #7.
 ### 04/07/2023
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Module: "Functional Programming Basics"](modules/fp-basics/)
+- [Module: HTTP / HTTPS](modules/http/)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -137,12 +138,9 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #8. 
 ### 11/07/2023
-- [Module: HTTP / HTTPS](modules/http/)
 - [Module: RESTful API Style](modules/restful-api/)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
-
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -155,10 +153,8 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #9. 
 ### 18/07/2023
-
 - [Module: JavaScript Error Handling](modules/error-handling/)
 - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -173,8 +169,8 @@ At the end of this week, all students will be required to use typescript and adh
 ### 25/07/2023
 - [Project: Presentation. Recorded & Online](modules/presentation)
 - [Module: Design Patterns](modules/design-patterns/)
+- [Module: "SCRUM, Kanban"](modules/scrum/)
 - [Preparation for Final Project](modules/final-task/)
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
 
