@@ -94,6 +94,7 @@ At the end of this week, all students will be required to use typescript and adh
 ## Week #5
 ### 20/06/2023
 - [Testing](modules/testing/)
+- [Module: "Functional Programming Basics"](modules/fp-basics/)
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
 - https://github.com/mikhama/core-js-101
 
@@ -111,7 +112,6 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
 - [Module: Async programming](modules/async/)
-- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -124,8 +124,8 @@ At the end of this week, all students will be required to use typescript and adh
 ## Week #7.
 ### 04/07/2023
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: "Functional Programming Basics"](modules/fp-basics/)
 - [Module: HTTP / HTTPS](modules/http/)
+- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 
 <details>
