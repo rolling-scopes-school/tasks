@@ -149,6 +149,11 @@
   - [Как писать чистый код: обзор лучших практик JavaScript](https://techrocks.ru/2019/08/27/writing-clean-code-in-javascript/)
   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
 
+- **Unit tests**
+
+  - [testing module](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/testing)
+  - [jest-dom documentation](https://testing-library.com/docs/ecosystem-jest-dom/)
+
 ## Вебинары RS School
 
 - [JS/FE 2021Q3 Typescript Basics](https://youtu.be/BRTT8ZJeoS4)
