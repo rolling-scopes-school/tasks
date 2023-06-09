@@ -73,7 +73,7 @@ At the end of this week, all students will be required to use typescript and adh
 ## Week #4.
 ### 13/06/2023
 - [Module: Web Storage](modules/web-storage/)
-- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - https://github.com/mikhama/core-js-101
 
@@ -95,7 +95,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 20/06/2023
 - [Testing](modules/testing/)
 - [Module: "Functional Programming Basics"](modules/fp-basics/)
-- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -110,7 +110,7 @@ At the end of this week, all students will be required to use typescript and adh
 ## Week #6.
 ### 27/06/2023
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Module: Async programming](modules/async/)
 - https://github.com/mikhama/core-js-101
 
