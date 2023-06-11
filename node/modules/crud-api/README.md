@@ -23,9 +23,9 @@
 20 hours
 
 ## Theory
-- [Lecture: Typescript basics Part 1](https://youtu.be/I_aTbZcH8Do)
-- [Lecture: Typescript basics Part 2](https://youtu.be/CegrbRXGw20)
-- [Lecture: Testing basics](https://youtu.be/ab_QJ52Z-fs)
+- [[RU] Lecture: Typescript basics Part 1](https://youtu.be/I_aTbZcH8Do)
+- [[RU] Lecture: Typescript basics Part 2](https://youtu.be/CegrbRXGw20)
+- [[RU] Lecture: Testing basics](https://youtu.be/ab_QJ52Z-fs)
 - [IP](https://en.wikipedia.org/wiki/Internet_Protocol)
 - [IPv4 vs IPv6](https://community.fs.com/blog/ipv4-vs-ipv6-whats-the-difference.html)
 - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)

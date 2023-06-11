@@ -13,7 +13,7 @@
 15 hours
 
 ## Theory
-- [Lecture](https://youtu.be/qxaxVwetYfU)
+- [[RU] Lecture](https://youtu.be/qxaxVwetYfU)
 - [PostgreSQL docs](https://www.postgresql.org/docs/current/)
 - [Node-postgres](https://node-postgres.com/)
 - [Typeorm](https://typeorm.io/)
