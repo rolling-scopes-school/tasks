@@ -16,7 +16,7 @@
 10 hours
 
 ## Theory
-- [Lecture: Authentication, JWT and Security](https://www.youtube.com/watch?v=K0K4bCQAfUM)
+- [[RU] Lecture: Authentication, JWT and Security](https://www.youtube.com/watch?v=K0K4bCQAfUM)
 - [OWASP TOP-10](https://owasp.org/www-project-top-ten/)
 - [JWT basics](https://jwt.io/introduction)
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
