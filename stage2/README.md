@@ -87,7 +87,7 @@ At the end of this week, all students will be required to use typescript and adh
     - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) will be reviewed by mentors after January 24th.
     - "Online" format presentation is optional and is up to the student's discretion.
   - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css))
+  - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md))
   - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
@@ -103,7 +103,7 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - Reviewing task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+  - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - If you have less than two students or want to mentor more, open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
@@ -118,7 +118,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+  - [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 </details>
 
 ## Week #7.
@@ -132,7 +132,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -146,7 +146,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css)
+  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
   - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
