@@ -82,9 +82,9 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - Presentation topic assignments
-    - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
+    - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md)
     - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic. 
-    - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) will be reviewed by mentors after January 24th.
+    - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
     - "Online" format presentation is optional and is up to the student's discretion.
   - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
   - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md))
