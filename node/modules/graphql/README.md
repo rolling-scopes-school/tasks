@@ -16,7 +16,7 @@
 40 hours
 
 ## Theory 
-- [Lecture: GraphQL basics](https://www.youtube.com/watch?v=nKdaw3Jju5Q)
+- [[RU] Lecture: GraphQL basics](https://www.youtube.com/watch?v=nKdaw3Jju5Q)
 - [GraphQL](https://graphql.org/learn/)
 
 ## Practice

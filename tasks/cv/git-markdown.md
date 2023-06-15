@@ -2,7 +2,7 @@
 
 Ваша задача - оформить репозиторий согласно требованиям, добавить в него своё CV в формате markdown, задеплоить CV в формате markdown на GitHub Pages.  
 
-- [Описание и требования задания](cv.md)
+- [Описание и требования задания](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv)
 - [Советы по выполнению задания с использованием VS Code](cv-hints.md)
 - [Советы по выполнению задания с использованием GitHub](cv-github-hints.md)  
 
@@ -40,6 +40,4 @@
 - https://nikita-resh.github.io/rsschool-cv/cv
 - https://themrcrowley.github.io/rsschool-cv/cv
 - https://elvinyeka.github.io/rsschool-cv/cv
-- https://mrks77.github.io/rsschool-cv/cv
-
 

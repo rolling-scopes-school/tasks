@@ -21,7 +21,7 @@
     - [Updating a package](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
     - [Removing a package](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
     - [Semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
-    - [Introduction to package-lock.json](https://nodejs.dev/learn/the-package-lock-json-file)
+    - [Introduction to package-lock.json](https://web.archive.org/web/20220318113630/https://nodejs.dev/learn/the-package-lock-json-file)
   - Advanced Subjects	
     - [Scripting in package.json](https://docs.npmjs.com/cli/v8/using-npm/scripts)
 

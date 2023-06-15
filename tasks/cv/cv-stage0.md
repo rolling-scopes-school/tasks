@@ -101,4 +101,3 @@
 - https://nikita-resh.github.io/rsschool-cv/
 - https://themrcrowley.github.io/rsschool-cv/
 - https://elvinyeka.github.io/rsschool-cv/
-- https://mrks77.github.io/rsschool-cv/

@@ -19,38 +19,38 @@
   На воркшопе лекторы будут отвечать на Ваши вопросы (желательно готовить вопросы заранее) и будут показывать как применить полученные знания на практике.
 
 ## Программа обучения
-### Неделя #1 (21 марта 2022)
+### Неделя #1 (13 марта 2023)
 - [Модуль "Angular intro. TypeScript"](modules/intro/README-RU.md)
 - [Модуль "Angular. Components"](modules/components/README-RU.md)
 - [Модуль "Angular. Directives & Pipes"](modules/directives-and-pipes/README-RU.md)
+- Воркшоп
 
-### Неделя #2 (28 марта 2022)
+### Неделя #2 (20 марта 2023)
 - Task review "Angular intro"
 - [Модуль: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-RU.md)
 - [Модуль: "Angular. Routing"](modules/routing/README-RU.md)
 - Воркшоп
 
-### Неделя #3 (4 апреля 2022)
+### Неделя #3 (27 марта 2023)
 - Task review "Angular. Components, Directives, Pipes"
 - [Модуль "RxJS & Observables"](modules/rxjs/README-RU.md)
 - [Модуль "Angular. HTTP"](modules/http/README-RU.md)
 - [Модуль "Angular. Forms"](modules/forms/README-RU.md)
 - Воркшоп
 
-### Неделя #4 (11 апреля 2022)
+### Неделя #4 (3 апреля 2023)
 - Task review "Angular.Modules, Services, Routing"
 - [Модуль: "Angular. Redux & NgRx"](modules/redux/README-RU.md)
 - [Модуль: "Angular. Unit test."](modules/unit-test/README-RU.md)
 - Воркшоп
 
-### Неделя #5-8 (18 апреля 2022 - 16 мая 2022)
+### Неделя #5-8 (10 апреля 2023 - 8 мая 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Итоговый тест по Angular
-- Воркшоп
-- [Финальное задание "Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
+- Финальное задание (TBD)
 
-### Неделя #9 (16 мая 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания ["Project management application"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/project-management-app.md)
+### Неделя #9 (8 мая 2023)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) финального задания (TBD)
 
 # Дополнительная информация
 ## Сертификат
@@ -60,8 +60,8 @@
 
 ## FAQ
 ### Где можно задать вопрос?
-Вопросы можно задать в Discord чате - https://discord.gg/Y6q4paRw4e
+Вопросы можно задать в Discord чате - https://discord.gg/PBYW4ZvKSE
 
 ### Где происходит общение?
-В Discord чате - https://discord.gg/Y6q4paRw4e
+В Discord чате - https://discord.gg/PBYW4ZvKSE
  

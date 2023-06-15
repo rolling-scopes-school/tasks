@@ -4,6 +4,7 @@
 - Зачисляются все желающие
 - Время обучения: 13 недель
 - Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
+- По окончании подготовительного этапа оставьте [**Отзыв**](https://docs.google.com/forms/d/e/1FAIpQLSfjki-f1rHX9nz2KycFich1erMs4Hb1Cz0xy3Yijd8IdOD8jw/viewform) школе, чтобы мы могли сделать ее лучше. Если вы покидаете курс во время обучения, по возможности, тоже оставьте отзыв, указав причину ухода.
 
 ## Программа обучения
 ### Неделя #1
@@ -13,12 +14,12 @@
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - Проект ["CV"](../tasks/cv/cv.md). 
     - ["CV#1. Markdown & Git"](../tasks/cv/git-markdown.md)
-    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #2
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
 - Проект ["CV"](../tasks/cv/cv.md). 
+    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
     - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #3
@@ -63,7 +64,7 @@
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #13
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
 - Получение сертификата 
 
 ## Сертификат 

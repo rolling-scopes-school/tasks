@@ -1,6 +1,6 @@
-# Конфигурация eslint и prettier для использования в задании
+# Eslint and prettier configurations
 
-## Набор рекомендуемых библиотек
+## Recommended libraries (versions can be different)
 
 ```
     "@typescript-eslint/eslint-plugin": "^5.22.0",
@@ -11,13 +11,17 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
 ```
+The configuration might be different based on what setup has been choosen (Vite or CRA), you can check [the details](https://www.npmjs.com/package/eslint-plugin-react-hooks).
+[Here are](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/) some details about setting up Husky on the project.
 
-## Конфигурация eslint
-Может изменяться только с согласия ментора
+
+## Eslint configuration
+Might be insignificantly changed
 ```
 {
   "parser": "@typescript-eslint/parser",
@@ -40,7 +44,7 @@
       "jsx": true
     },
     "ecmaVersion": "latest",
-		"sourceType": "module"
+	"sourceType": "module"
   },
   "plugins": [
     "@typescript-eslint", "react", "prettier", "react-hooks"
@@ -59,20 +63,20 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/no-var-reqiures": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off"
   },
-	"settings": {
-		"react": {
-			"pragma": "React",
-			"version": "detect"
-		}
-	}
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
 }
 ```
 
-## Конфигурция prettier
+## Prettier configuration
 ```
 {
   "endOfLine": "auto",
@@ -92,21 +96,25 @@
 
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["dom", "esnext", "dom.iterable"],
-    "jsx": "react",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
     "skipLibCheck": true,
-    "baseUrl": "./src",
-    "resolveJsonModule": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
-  "include": ["./src/**/*", "styled.d.ts"]
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
 ```
+Note: If you use ```CRA``` you should remove ```"references": [{ "path": "./tsconfig.node.json" }]``` from the config above

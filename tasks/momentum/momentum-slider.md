@@ -51,20 +51,20 @@ function setBg() {
   const img = new Image();
   img.src = // здесь ваш код 
   img.onload = () => {      
-    body.style.backgroundImage = // здесь тоже ваш код
+    document.body.style.backgroundImage = // здесь тоже ваш код
   }; 
 }
 ```
 **Обратите внимание** в примере выше вместо
 ```js
 img.addEventListener('load', () {
-  body.style.backgroundImage = ...
+  document.body.style.backgroundImage = ...
 })
 ```
 используется упрощённый вариант [регистрации обработчика событий](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener#older_way_to_register_event_listeners)
 ```js
 img.onload = () => {      
-  body.style.backgroundImage = ...
+  document.body.style.backgroundImage = ...
 };
 ```
 В разработке могут встречаться и использоваться оба варианта регистрации обработчика событий, при этом метод `addEventListener()` является более новым и имеет дополнительные возможности.

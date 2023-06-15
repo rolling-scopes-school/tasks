@@ -1,29 +1,27 @@
 # Week 2
 
-
 ## React. Forms
 
-!! Task should be implemented in the school’s private repository !!
-It should be based on the previous task.
+Task should be based on the previous task.
 
 ### What should be done:
 
-1. Create a separate branch for this task from previous branch task.
+1. Create a separate branch for this task from the previous branch task.
 2. Create a separate route for forms.
-3. Form should be implemented using uncontrolled components
+3. Form should be implemented using uncontrolled components (with refs)
 4. Add functionality to your app:
    +  Collect information through a form
-   +  You can collect any type of information, but form has to include at least one control of the following types:
+   +  You can collect any type of information, but form has to include at least those controls:
       + text input
       + date input
       + dropdown/select
       + checkbox
-      + switcher
+      + switcher (radio)
       + file upload (image)
 
    **Example:**
      ```
-     text input - name, surname, zip-code;
+     text input - name, surname (or both), zip-code;
      date input - birthday, date of delivery;
      dropdown/select - list of countries, list of states (User can choose only one element from the list)
      checkbox - "I consent to my personal data" field, list of extra presents (User can choose several items from the list)
@@ -37,44 +35,74 @@ It should be based on the previous task.
    
    **Form validation**
    
-   Validation should happen after the **Submit** button was clicked. In case some field was filled incorrectly, then error messages should be displayed under it. The card mustn’t be created until the user fixes all errors.
-   
-   After changing the value of erroneous input, the reset should happen only for this particular field, but not for the others.
-   
-   Submit button should be disabled at initialization (before the first typing), and until the user fixes all errors.
+   Validation should happen after the **Submit** button was clicked. In case when some field was filled in incorrectly, error message should be displayed below the field. The card mustn’t be created until the user fixes all errors.
+   Examples of validation:
+   - mandatory field - check if input contains any information (no text in text input, radio or checkbox isn't selcted, etc);
+   - if text input is used for the name or surname, check if name or surname starts with uppercased letter
+
+   Remove erorrs in case they have been fixed on next **Submit** button click.
 
 5. Add tests.
 6. All logical parts should be extracted into components.
-   
    All data must be stored in a local state of the component.
-   
+   For accessing state, or lifecycle events use class components.
    Components should not make calls to APIs.
 
    The usage of Redux or any other solutions for state management is prohibited.
+   
+   **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage.**
 
    **The usage of any libraries with components or form libraries is prohibited.**  
 
+### Questions
+You should be using Discord as the main mean of the communication.
+Also we will try to collect your questions regarding the 2nd Module using special form, which will be provided via the Discord with the 2nd Module start. Questions will be collected in Module 02 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
+We will try to conduct a session for each module providing answers for some questions.
+
 
 ### Score
+The task will be checked during cross-check and cross-code-review.
+#### Cross-code-review process
+1. Clone the repository you are going to review
+2. Install all the required dependencies
+3. Run linting using special command in package.json file, output should not produce any errors or warnings
+4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
+5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
 
-The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
+When reviewing the code try pay attention at the following principles:
+* Write code as simply as possible: KISS
+* Avoid unnecessary repetition: DRY
+* Delete what is not needed: YAGNI
 
+We also need to mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
+Please, check [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/) for reference
+Last, but not least - check the presence of the comments. Ideally there shouldn't be any comments at all. Sometimes people just comment code which is not needed. So why not to remove it entirely? In case you will need to restore this code, you can always refer to the git history. And more - [comments are lies](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a)
+#### Cross-check process
+Run app and check that the functionality is working (cross-check)
 
-1. Tests - **3 points**
-2. Form + Cards - **12 points**
+#### Points
+Student can get 15 points.
+Cross code review:
+1. Linting can be run and doesn't produce any errors or warnings - 2 points.
+2. Tests can be run and the test coverage is equal or higher than 50% - 3 points.
+Cross check:
+1. There is an additional route for forms - 1 point.
+2. Form contains 6 mandatory fields (text and date inputs. dropdown, checkbox, radio, file upload) - 2 points.
+3. Validation works on submit - 2 points.
+4. After submitting the form result is provided on a card, confirmation is shown, form is cleared - 3 points.
+5. Each form submission creates a new card - 2 points.
 
-
-If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
-If case of direct DOM manipulation - **0 points**
-
+If TypeScript isn't used - **0 points**.
+If there are direct DOM manipulations – **0 points**.
+Smaller penalties will be given for snapshot testing, usage of any, code-smells, errors or warning in console, etc.
 ### Repository requirements
 
-- the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
-- create a branch with the name of the task in the school's private repository from the branch of the previous task.
-- The commit history should display the development process of the application. [Commit-name-requirements](https://www.conventionalcommits.org/en)
-- after the development is completed, it is necessary to make a Pull Request from the application branch to the branch of the previous task [Requirements for a Pull Request](https://docs.app.rs.school/#/platform/pull-request-review-process). 
-
-**You do not need to merge a Pull Request from the development branch to the branch of the previous task** 
+* the task should be done in **your personal private repository** 
+* in the repository create a branch from the **previous task** branch with the name of the task and work in the created branch
+* the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
+* after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
+* after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
+**Do not merge Pull Request from the development branch to the `main` branch**
 
 ### Theory
 Forms in React:

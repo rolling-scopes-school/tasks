@@ -19,38 +19,39 @@
   At workshops, lectors will demonstrate practical application of obtained knowledge and will answer your questions. It is preferable to prepare questions beforehand.
 
 ## Course roadmap
-### Week #1
+### Week #1 (March 13 2023)
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
+- Workshop
 
-### Week #2
+### Week #2 (March 20 2023)
 - Task review "Angular intro"
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
 - [Module: "Angular. Routing"](modules/routing/README-ENG.md)
 - Workshop
 
-### Week #3
+### Week #3 (March 27 2023)
 - Task review "Angular. Components, Directives, Pipes"
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
 - [Module "Angular. HTTP"](modules/http/README-ENG.md)
 - [Module "Angular. Forms"](modules/forms/README-ENG.md)
 - Workshop
 
-### Week #4
+### Week #4 (April 3 2023)
 - Task review "Angular.Modules, Services, Routing"
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
 - [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
 - Workshop
 
-### Week #5-8
+### Week #5-8 (April 10 2023 - May 8 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
-- Workshop
-- [Final task: "Project management application"](https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/angular/project-management-system.md)
+- Final task (TBD)
 
-### Week #9
-- [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the task ["Project management application"](https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/angular/project-management-system.md)
+### Week #9 (May 8 2023)
+- [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 # Additional information
 ## Certificate
@@ -60,4 +61,4 @@ Course certificate is a pleasant addition and reward for your hard work.
 
 ## FAQ
 ### Where to ask questions and communicate with others?
-You may ask questions in our course Discord channel - https://discord.gg/Y6q4paRw4e
+You may ask questions in our course Discord channel - https://discord.gg/PBYW4ZvKSE
