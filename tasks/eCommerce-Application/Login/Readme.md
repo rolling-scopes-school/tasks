@@ -7,7 +7,7 @@ The login page should provide a form for users to enter their email and password
 
 ### 2. Integration with Authentication Service (20 points)
 
-- Integrate the login form with a chosen authentication service, such as commercetools or Firebase or other, to handle user authentication.
+- Integrate the login form with a chosen authentication service, such as [commercetools](https://docs.commercetools.com/api/projects/customers#authenticate-sign-in-customer) or Firebase or other, to handle user authentication.
 - Implement error handling for failed authentication attempts, such as incorrect email or password, and display user-friendly error messages.
 
 ### 3. State Management and Redirection (10 points)

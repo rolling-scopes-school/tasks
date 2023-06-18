@@ -1,4 +1,4 @@
-The registration page should provide a form for users to enter their email, password, first name, last name, and date of birth to create an account in the application. Upon successful account creation, users should be redirected to the main page of the application. The registration process should also store user profile information using a service such as commercetools SDK, an alternative service, or through your own custom implementation.
+The registration page should provide a form for users to enter their email, password, first name, last name, and date of birth to create an account in the application. Upon successful account creation, users should be redirected to the main page of the application. The registration process should also store user profile information using a service such as [commercetools SDK](https://docs.commercetools.com/api/projects/customers#create-sign-up-customer), an alternative service, or through your own custom implementation.
 
 ### 1. Input Validation (10 points)
 
