@@ -18,5 +18,5 @@ The project should include user authentication and registration pages with prope
 4. **Product Catalog Page (Total 290 points):**
     - [Product Catalog (290 points)](./Catalog/)
 
-4. **Product Detailed Page (Total 290 points):**
-    - [Product detailed Page (290 points)](./Product/)
+4. **Product Detailed Page (Total 140 points):**
+    - [Product detailed Page (140 points)](./Product/)
