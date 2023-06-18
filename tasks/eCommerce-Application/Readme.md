@@ -1,7 +1,13 @@
-# General Requirements for the eCommerce Application with User Authentication and Registration Pages
+# Requirements for User Authentication and Registration Pages
 
-## Project Overview
+## Overview
 
-The goal of this project is to develop an eCommerce web application with user authentication, registration, and profile management features. The application should allow users to browse products, add items to the shopping cart, and proceed through a secure checkout process. Users should be able to create an account to manage their profile data, including addresses, as well as view their order history.
+The project should include user authentication and registration pages with proper input validation, integration with an authentication service, and user profile data management using a back-end service like commercetools or a custom implementation.
 
-## General Requirements
+## Pages and Evaluation Criteria
+
+1. **User Authentication (Total 40 points):**
+    - [User Authentication (40 points)](./Login/)
+
+2. **Registration Pages (Total 70 points):**
+    - [User Registration (70 points)](./Registration/)
