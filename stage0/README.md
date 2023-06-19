@@ -57,7 +57,7 @@
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 
 ### Неделя #10
-- "JS-101"
+- [JS-101](https://github.com/Luffi2539/core-js-101/)
 
 ### Неделя #11
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
@@ -66,7 +66,7 @@
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
 
 ### Неделя #13
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта "JS-101"
+- Сдача хвостов (тесты, задачи, Codewars)
   
 ### Неделя #14
 - Получение сертификата
