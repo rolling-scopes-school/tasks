@@ -16,6 +16,11 @@ Key features of the application include:
 
 The application's user interface is designed to be visually appealing, ensuring smooth transitions and interactions, and effectively integrating the routing system with other website features.
 
+To simplify the task completion process and facilitate better time management, the project is divided into multiple sprints, each targeting different features and aspects of the application. [The first sprint](./Sprints/Sprint%231.md), described below, serves as the foundational setup for the project's repository, development environment, and other tools used in the development process. In the subsequent sprints, the team will work on specific features and components, such as user authentication, product catalog, shopping cart, payment.
+
+## Sprint 1: Project Setup
+[Detailed description and evaluation points for Sprint 1](./Sprints/Sprint%231.md)
+
 ## Pages and Evaluation Criteria
 
 1. **User Authentication Page (Total 40 points):**
