@@ -24,11 +24,13 @@
 
 ### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Figma"](modules/figma)
 - Проект ["Library"](../tasks/library/library.md) 
     - ["Library#1. Фиксированная вёрстка"](../tasks/library/library-part1.md)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+
+### Неделя #4
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 
 ### Неделя #5
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
