@@ -2,28 +2,29 @@
 
 In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest for testing. The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
 
-### 1. Repository Setup (20 points)
+### 1. Repository Setup (25 points)
 
-- **(6 points)** Create a GitHub repository for the project, complete with a README file, .gitignore, and necessary dependencies. [RSS-ECOMM-1](./Sprint1/RSS-ECOMM-1.md)
-- **(6 points)** Set up a clear and organized folder structure within the repository, ensuring a maintainable and scalable codebase. [RSS-ECOMM-2](./Sprint1/RSS-ECOMM-2.md)
-- **(8 points)** Invite all team members and the mentor as collaborators, ensuring everyone has access to contribute to the repository. [RSS-ECOMM-3](./Sprint1/RSS-ECOMM-3.md)
+- **(6 points)** Create a GitHub repository for the project, complete with a README file, .gitignore, and necessary dependencies. [RSS-ECOMM-01](./Sprint1/RSS-ECOMM-01.md)
+- **(6 points)** Set up a clear and organized folder structure within the repository, ensuring a maintainable and scalable codebase. [RSS-ECOMM-02](./Sprint1/RSS-ECOMM-02.md)
+- **(8 points)** Invite all team members and the mentor as collaborators, ensuring everyone has access to contribute to the repository. [RSS-ECOMM-03](./Sprint1/RSS-ECOMM-03.md)
+- **(5 points)** Create a pull request template with a clear structure for describing proposed changes and the rationale behind them. [RSS-ECOMM-21](./Sprint1/RSS-ECOMM-21.md)
 
 ### 2. Task Board Setup (Trello, Jira, etc.) (20 points)
 
-- **(6 points)** Create a project task board using a project management tool (e.g., Trello or Jira), organizing tasks into lists or columns corresponding to their status (e.g., To Do, In Progress, Done). [RSS-ECOMM-4](./Sprint1/RSS-ECOMM-4.md)
-- **(8 points)** Break down project tasks into smaller, manageable subtasks and assign them to team members, ensuring a clear delegation of responsibilities. [RSS-ECOMM-5](./Sprint1/RSS-ECOMM-5.md)
+- **(6 points)** Create a project task board using a project management tool (e.g., Trello or Jira), organizing tasks into lists or columns corresponding to their status (e.g., To Do, In Progress, Done). [RSS-ECOMM-04](./Sprint1/RSS-ECOMM-04.md)
+- **(8 points)** Break down project tasks into smaller, manageable subtasks and assign them to team members, ensuring a clear delegation of responsibilities. [RSS-ECOMM-05](./Sprint1/RSS-ECOMM-05.md)
 - **(6 points)** Share the task board with the team members and the mentor, ensuring everyone can track progress and update the status of their tasks. [RSS-ECOMM-18](./Sprint1/RSS-ECOMM-18.md)
 
 ### 3. CommerceTools Project and API Client Setup (20 points)
 
-- **(10 points)** Create the project in CommerceTools, setting up the necessary authorization, currencies, languages, and other configurations in the Merchant Center. [RSS-ECOMM-6](./Sprint1/RSS-ECOMM-6.md)
-- **(10 points)** Create the API client for CommerceTools, enabling access to the platform's APIs and managing permissions and scopes required for the project. [RSS-ECOMM-7](./Sprint1/RSS-ECOMM-7.md)
+- **(10 points)** Create the project in CommerceTools, setting up the necessary authorization, currencies, languages, and other configurations in the Merchant Center. [RSS-ECOMM-06](./Sprint1/RSS-ECOMM-06.md)
+- **(10 points)** Create the API client for CommerceTools, enabling access to the platform's APIs and managing permissions and scopes required for the project. [RSS-ECOMM-07](./Sprint1/RSS-ECOMM-07.md)
 
 ### 4. Development Environment Configuration (40 points)
 
-- **(6 points)** Set up and configure a bundler (e.g., Webpack) for the project, optimizing performance and development experience. [RSS-ECOMM-8](./Sprint1/RSS-ECOMM-8.md)
-- **(6 points)** Configure TypeScript to enforce strong typing and improve code quality throughout the project. [RSS-ECOMM-9](./Sprint1/RSS-ECOMM-9.md)
-- **(6 points)** Set up ESLint to enforce consistent coding styles and identify potential issues in the codebase.[RSS-ECOMM-10](./Sprint1/RSS-ECOMM-10.md)
+- **(6 points)** Set up and configure a bundler (e.g., Webpack) for the project, optimizing performance and development experience. [RSS-ECOMM-08](./Sprint1/RSS-ECOMM-08.md)
+- **(6 points)** Configure TypeScript to enforce strong typing and improve code quality throughout the project. [RSS-ECOMM-09](./Sprint1/RSS-ECOMM-09.md)
+- **(6 points)** Set up ESLint to enforce consistent coding styles and identify potential issues in the codebase. [RSS-ECOMM-10](./Sprint1/RSS-ECOMM-10.md)
 - **(4 points)** Configure Prettier to automatically format code, ensuring a consistent and readable code style. [RSS-ECOMM-11](./Sprint1/RSS-ECOMM-11.md)
 - **(4 points)** Initialize Husky to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process. [RSS-ECOMM-12](./Sprint1/RSS-ECOMM-12.md)
 - **(8 points)** Install and configure Jest as the testing framework for the project, enabling comprehensive testing of code functionality. [RSS-ECOMM-13](./Sprint1/RSS-ECOMM-13.md)
@@ -44,7 +45,7 @@ Note: In this sprint, we will also integrate a front-end framework (e.g., React,
 
 #### Evaluation by the Mentor
 
-During this sprint, the mentor will be the sole evaluator of the team's progress and efforts. They will assign points (up to a total of 110) based on the successful completion of the above tasks, collaboration, and overall organization of the project setup.
+During this sprint, the mentor will be the sole evaluator of the team's progress and efforts. They will assign points (up to a total of 115) based on the successful completion of the above tasks, collaboration, and overall organization of the project setup.
 
 ### Useful Links and Resources
 

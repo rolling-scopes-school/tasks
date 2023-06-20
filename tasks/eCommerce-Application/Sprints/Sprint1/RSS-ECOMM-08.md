@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-8: Configure bundler (Webpack)
+### Issue RSS-ECOMM-08: Configure bundler (Webpack)
 
 #### Description
 Set up and configure a bundler (e.g., Webpack) for the project, optimizing performance and development experience.

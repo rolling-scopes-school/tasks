@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-5: Break down tasks and delegate responsibilities
+### Issue RSS-ECOMM-05: Break down tasks and delegate responsibilities
 
 #### Description
 Break down project tasks into smaller, manageable subtasks and assign them to team members, ensuring a clear delegation of responsibilities. This process will help divide the workload evenly among team members and enable focused work on specific aspects of the project.
