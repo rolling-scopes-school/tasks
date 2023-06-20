@@ -109,7 +109,6 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #6.
 ### 27/06/2023
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Module: Async programming](modules/async/)
 - https://github.com/mikhama/core-js-101
@@ -153,6 +152,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #9. 
 ### 18/07/2023
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: JavaScript Error Handling](modules/error-handling/)
 - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
