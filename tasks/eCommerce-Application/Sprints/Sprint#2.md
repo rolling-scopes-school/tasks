@@ -1,4 +1,4 @@
-## Sprint 2: Login and Registration Pages Implementation (175 points)
+## Sprint 2: Login and Registration Pages Implementation (195 points)
 
 In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, and providing a button to navigate between the login and registration pages. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones.
 
@@ -47,5 +47,11 @@ In the second sprint, the team will focus on implementing both the login and reg
 
 ##### 5. Navigation to Login Page (5 points)
 - **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page. [RSS-ECOMM-39](./Sprint2/RSS-ECOMM-39.md)
+
+### Evaluation Criteria for Header (20 points)
+
+- **(10 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-40](./Sprint2/RSS-ECOMM-40.md)
+- **(5 points)** Ability to access the main page for all users [RSS-ECOMM-41](./Sprint2/RSS-ECOMM-41.md)
+- **(5 points)** Logout functionality for authorized users [RSS-ECOMM-42](./Sprint2/RSS-ECOMM-42.md)
 
 During this sprint, the team of students will implement the login and registration pages with form validation, proper error handling, and integration with an authentication service. Additionally, they will maintain user authentication state, saving the authentication token, handle redirections based on login status, and provide a button for navigating between the login and registration pages. The team should regularly communicate their progress, review each other's code, and integrate their work through the version control system (e.g., Git). The project will be evaluated through a cross-check process by other students.
