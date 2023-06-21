@@ -1,6 +1,15 @@
 ## Sprint 2: Login and Registration Pages Implementation (195 points)
 
-In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, and providing a button to navigate between the login and registration pages. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones.
+In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, and providing a button to navigate between the login and registration pages. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones. The mentor will also evaluate the team's progress using separate evaluation criteria.
+
+### Working with the Repository
+
+- Create a new branch for the current sprint (e.g., `feat/sprint_2`) from the previous sprint's branch (`develop`).
+- Merge all feature branches into the current sprint's branch.
+- At the end of the sprint, create a pull request from the current sprint's branch (`feat/sprint_2`) to the previous sprint's branch (`develop`).
+- Share the pull request link with the mentor for review and evaluation.
+
+### CrossCheck Criteria (195 points):
 
 ### Login Page Implementation
 
@@ -53,5 +62,13 @@ In the second sprint, the team will focus on implementing both the login and reg
 - **(10 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-40](./Sprint2/RSS-ECOMM-40.md)
 - **(5 points)** Ability to access the main page for all users [RSS-ECOMM-41](./Sprint2/RSS-ECOMM-41.md)
 - **(5 points)** Logout functionality for authorized users [RSS-ECOMM-42](./Sprint2/RSS-ECOMM-42.md)
+
+### Mentor Evaluation Criteria (45 points):
+
+1. **Code Review Participation (10 points):** Students actively participate in code reviews, providing constructive feedback and suggestions to their peers.
+2. **No Merges Without Approvals (10 points):** Pull requests are not merged without approvals from other team members, ensuring the quality of code contributions.
+3. **Pull Request Descriptions (10 points):** Pull requests include detailed descriptions, outlining the changes made and the purpose of the changes, facilitating better understanding and review.
+4. **Task Board Management (10 points):** Students maintain and regularly update a task board (e.g., Trello, Jira), ensuring that tasks are moved according to their progress and completion.
+5. **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
 
 During this sprint, the team of students will implement the login and registration pages with form validation, proper error handling, and integration with an authentication service. Additionally, they will maintain user authentication state, saving the authentication token, handle redirections based on login status, and provide a button for navigating between the login and registration pages. The team should regularly communicate their progress, review each other's code, and integrate their work through the version control system (e.g., Git). The project will be evaluated through a cross-check process by other students.

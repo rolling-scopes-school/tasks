@@ -2,6 +2,13 @@
 
 In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest for testing. The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
 
+### Working with the Repository
+
+- Create a `develop` branch from the `main` or `master` branch.
+- For each task, create a new branch from the `develop` branch, make the changes, and create a pull request to merge the changes back into the `develop` branch after a code review. Multiple issues can be combined into a single pull request.
+- At the end of the sprint, create a pull request from the `develop` branch to the `main` or `master` branch with a description in accordance with the requirements of rs-school.
+- Share the pull request link with the mentor for review and evaluation.
+
 ### 1. Repository Setup (25 points)
 
 - **(6 points)** Create a GitHub repository for the project, complete with a README file, .gitignore, and necessary dependencies. [RSS-ECOMM-01](./Sprint1/RSS-ECOMM-01.md)
@@ -22,7 +29,7 @@ In the first sprint, the team will focus on setting up the project repository, e
 
 ### 4. Development Environment Configuration (40 points)
 
-- **(6 points)** Set up and configure a bundler (e.g., Webpack) for the project, optimizing performance and development experience. [RSS-ECOMM-08](./Sprint1/RSS-ECOMM-08.md)
+- **(6 points)** Set up and configure a bundler (e.g., Webpack, Vite, Parcel, or other) for the project, supporting both development and production build modes. [RSS-ECOMM-08](./Sprint1/RSS-ECOMM-08.md)
 - **(6 points)** Configure TypeScript to enforce strong typing and improve code quality throughout the project. [RSS-ECOMM-09](./Sprint1/RSS-ECOMM-09.md)
 - **(6 points)** Set up ESLint to enforce consistent coding styles and identify potential issues in the codebase. [RSS-ECOMM-10](./Sprint1/RSS-ECOMM-10.md)
 - **(4 points)** Configure Prettier to automatically format code, ensuring a consistent and readable code style. [RSS-ECOMM-11](./Sprint1/RSS-ECOMM-11.md)
