@@ -30,23 +30,22 @@ In the second sprint, the team will focus on implementing both the login and reg
 #### Requirements
 
 ##### 1. Input Validation (20 points)
-- **(10 points)** Implement client-side validation for all required fields in the registration form, such as email, password, first name, last name, date of birth, and address fields (e.g., street, city, postal code, and country) for proper use with CommerceTools.
-- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email or a weak password.
+- **(10 points)** Implement client-side validation for all required fields in the registration form, such as email, password, first name, last name, date of birth, and address fields (e.g., street, city, postal code, and country) for proper use with CommerceTools. [RSS-ECOMM-31](./Sprint2/RSS-ECOMM-31.md)
+- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email or a weak password. [RSS-ECOMM-32](./Sprint2/RSS-ECOMM-32.md)
 
 ##### 2. Integration with Authentication Service (20 points)
-- **(10 points)** Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration.
-- **(10 points)** Implement error handling for failed registration attempts, and display user-friendly error messages.
+- **(10 points)** Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration. [RSS-ECOMM-33](./Sprint2/RSS-ECOMM-33.md)
+- **(10 points)** Implement error handling for failed registration attempts, and display user-friendly error messages. [RSS-ECOMM-34](./Sprint2/RSS-ECOMM-34.md)
 
 ##### 3. State Management, Automatic Login, and Redirection (30 points)
-- **(10 points)** Ensure proper user registration state management and successful account creation.
-- **(10 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application.
-- **(10 points)** Redirect users to the application's main page upon successful account creation and automatic login.
+- **(10 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application. [RSS-ECOMM-35](./Sprint2/RSS-ECOMM-35.md)
+- **(10 points)** Redirect users to the application's main page upon successful account creation and automatic login. [RSS-ECOMM-36](./Sprint2/RSS-ECOMM-36.md)
 
 ##### 4. Integration with commercetools (or alternative) for User Profiles and Addresses (20 points)
-- **(10 points)** Allow users to set a default address during registration.
-- **(10 points)** Enable users to select different billing and shipping addresses or choose a single address for both billing and shipping during the registration process.
+- **(10 points)** Allow users to set a default address during registration. [RSS-ECOMM-37](./Sprint2/RSS-ECOMM-37.md)
+- **(10 points)** Enable users to select different billing and shipping addresses or choose a single address for both billing and shipping during the registration process. [RSS-ECOMM-38](./Sprint2/RSS-ECOMM-38.md)
 
 ##### 5. Navigation to Login Page (5 points)
-- **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page.
+- **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page. [RSS-ECOMM-39](./Sprint2/RSS-ECOMM-39.md)
 
 During this sprint, the team of students will implement the login and registration pages with form validation, proper error handling, and integration with an authentication service. Additionally, they will maintain user authentication state, saving the authentication token, handle redirections based on login status, and provide a button for navigating between the login and registration pages. The team should regularly communicate their progress, review each other's code, and integrate their work through the version control system (e.g., Git). The project will be evaluated through a cross-check process by other students.
