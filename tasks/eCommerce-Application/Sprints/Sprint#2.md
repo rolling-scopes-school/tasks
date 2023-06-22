@@ -1,6 +1,6 @@
-## Sprint 2: Login and Registration Pages Implementation (195 points)
+## Sprint 2: Login and Registration Pages Implementation
 
-In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, and providing a button to navigate between the login and registration pages. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones. The mentor will also evaluate the team's progress using separate evaluation criteria.
+In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, providing a button to navigate between the login and registration pages, and implementing routing for proper navigation. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones. The mentor will also evaluate the team's progress using separate evaluation criteria.
 
 ### Working with the Repository
 
@@ -9,9 +9,13 @@ In the second sprint, the team will focus on implementing both the login and reg
 - At the end of the sprint, create a pull request from the current sprint's branch (`feat/sprint_2`) to the previous sprint's branch (`develop`).
 - Share the pull request link with the mentor for review and evaluation.
 
-### CrossCheck Criteria (195 points):
+### CrossCheck Criteria (225 points):
 
-### Login Page Implementation
+### Routing Implementation (30 points - Total)
+- **(15 points)** Implement routing for navigation between login, registration, and main pages. [RSS-ECOMM-43](./Sprint2/RSS-ECOMM-43.md)
+- **(15 points)** Implement a 404 (Not Found) page for invalid route requests. [RSS-ECOMM-44](./Sprint2/RSS-ECOMM-44.md)
+
+### Login Page Implementation (80 points - Total)
 
 #### Requirements
 
@@ -34,7 +38,7 @@ In the second sprint, the team will focus on implementing both the login and reg
 #### 5. Navigation to Registration Page (5 points)
 - **(5 points)** Add a button or link on the login page that allows users to navigate to the registration page. [RSS-ECOMM-30](./Sprint2/RSS-ECOMM-30.md)
 
-### Registration Page Implementation
+### Registration Page Implementation (95 points - Total)
 
 #### Requirements
 
@@ -47,8 +51,8 @@ In the second sprint, the team will focus on implementing both the login and reg
 - **(10 points)** Implement error handling for failed registration attempts, and display user-friendly error messages. [RSS-ECOMM-34](./Sprint2/RSS-ECOMM-34.md)
 
 ##### 3. State Management, Automatic Login, and Redirection (30 points)
-- **(10 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application. [RSS-ECOMM-35](./Sprint2/RSS-ECOMM-35.md)
-- **(10 points)** Redirect users to the application's main page upon successful account creation and automatic login. [RSS-ECOMM-36](./Sprint2/RSS-ECOMM-36.md)
+- **(15 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application. [RSS-ECOMM-35](./Sprint2/RSS-ECOMM-35.md)
+- **(15 points)** Redirect users to the application's main page upon successful account creation and automatic login. [RSS-ECOMM-36](./Sprint2/RSS-ECOMM-36.md)
 
 ##### 4. Integration with commercetools (or alternative) for User Profiles and Addresses (20 points)
 - **(10 points)** Allow users to set a default address during registration. [RSS-ECOMM-37](./Sprint2/RSS-ECOMM-37.md)
@@ -57,13 +61,13 @@ In the second sprint, the team will focus on implementing both the login and reg
 ##### 5. Navigation to Login Page (5 points)
 - **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page. [RSS-ECOMM-39](./Sprint2/RSS-ECOMM-39.md)
 
-### Evaluation Criteria for Header (20 points)
+### Evaluation Criteria for Header (20 points - Total)
 
 - **(10 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-40](./Sprint2/RSS-ECOMM-40.md)
 - **(5 points)** Ability to access the main page for all users [RSS-ECOMM-41](./Sprint2/RSS-ECOMM-41.md)
 - **(5 points)** Logout functionality for authorized users [RSS-ECOMM-42](./Sprint2/RSS-ECOMM-42.md)
 
-### Mentor Evaluation Criteria (45 points):
+### Mentor Evaluation Criteria (45 points - Total):
 
 1. **Code Review Participation (10 points):** Students actively participate in code reviews, providing constructive feedback and suggestions to their peers.
 2. **No Merges Without Approvals (10 points):** Pull requests are not merged without approvals from other team members, ensuring the quality of code contributions.
