@@ -186,7 +186,7 @@ At the end of this week, all students will be required to use typescript and adh
   - [Interviewing Students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #11. 31/07/2023
+## Неделя #11. 01/08/2023
 - [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 
 <details>
@@ -200,7 +200,7 @@ At the end of this week, all students will be required to use typescript and adh
   
 </details>
 
-## Неделя #12. 07/08/2023
+## Неделя #12. 08/08/2023
 
 - [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
@@ -213,7 +213,7 @@ At the end of this week, all students will be required to use typescript and adh
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #13. 14/08/2023
+## Неделя #13. 15/08/2023
 
 - [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -225,7 +225,7 @@ At the end of this week, all students will be required to use typescript and adh
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #14. 21/08/2023
+## Неделя #14. 22/08/2023
 - Кросс-чек RS Clone
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
@@ -236,7 +236,7 @@ At the end of this week, all students will be required to use typescript and adh
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #15. 28/08/2023
+## Неделя #15. 29/08/2023
 - [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation/final-project-presentation.md)
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
