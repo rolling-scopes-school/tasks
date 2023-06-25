@@ -75,4 +75,7 @@ In the second sprint, the team will focus on implementing both the login and reg
 4. **Task Board Management (10 points):** Students maintain and regularly update a task board (e.g., Trello, Jira), ensuring that tasks are moved according to their progress and completion.
 5. **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
 
-During this sprint, the team of students will implement the login and registration pages with form validation, proper error handling, and integration with an authentication service. Additionally, they will maintain user authentication state, saving the authentication token, handle redirections based on login status, and provide a button for navigating between the login and registration pages. The team should regularly communicate their progress, review each other's code, and integrate their work through the version control system (e.g., Git). The project will be evaluated through a cross-check process by other students.
+### Useful Links and Resources
+
+1. [Get started with the TypeScript SDK](https://docs.commercetools.com/sdk/js-sdk-getting-started)
+2. [AuthMiddleware](https://docs.commercetools.com/sdk/js-sdk-middleware#authmiddleware)
