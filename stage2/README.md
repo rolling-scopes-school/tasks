@@ -171,6 +171,7 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: Design Patterns](modules/design-patterns/)
 - [Module: "SCRUM, Kanban"](modules/scrum/)
 - [Preparation for Final Project](modules/final-task/)
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
 
@@ -198,20 +199,19 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Неделя #12. 07/02/2023
 
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Неделя #13. 14/02/2023
 
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
@@ -222,7 +222,7 @@ At the end of this week, all students will be required to use typescript and adh
 </details>
 
 ## Неделя #14. 21/02/2023
-- Кросс-чек RS Clone
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
