@@ -16,6 +16,7 @@
 Практика: 4 часа
 
 ## Теория 
+0. [Базовые основы по git, github](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 1. [Запись лекции по Git прошлого набора](https://youtu.be/6i0Wg-Pohg8?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
 3. Вам необходимо просмотреть практические видео-материалы [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 часа)
