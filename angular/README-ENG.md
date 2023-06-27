@@ -51,6 +51,7 @@
 
 ### Week #9 (May 8 2023)
 - [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 # Additional information
 ## Certificate

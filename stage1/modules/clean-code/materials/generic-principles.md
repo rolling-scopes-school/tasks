@@ -101,7 +101,7 @@ h1, h2, h3, h4 {
 
 ```css
 p {
-    margin-botton: 10px;
+    margin-bottom: 10px;
     text-indent: 10px;
 }
 

@@ -12,7 +12,7 @@
 10 hours
 
 ## Theory
-- [Lecture: Logging & Error handling](https://youtu.be/hJ-iN2NARX8)
+- [[RU] Lecture: Logging & Error handling](https://youtu.be/hJ-iN2NARX8)
 - [Repository from lecture](https://github.com/RidgeA/rss-school-20200408)
 - [Error handling in JS](https://javascript.info/try-catch)
 - [Node.js Error Handling Made Easy: Best Practices On Just About Everything You Need to Know](https://sematext.com/blog/node-js-error-handling/)

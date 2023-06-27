@@ -1,6 +1,6 @@
 # RSS Virtual Keyboard
 
-#### You should to create a virtual keyboard like this:
+#### You should create a virtual keyboard like this:
 ![screenshot](images/virtual-keyboard.png)
 
 ### Functional requirements:
@@ -107,7 +107,7 @@ Example:
 - [ ] there're errors related to the executable code (errors like `favicon.ico: Failed to load resource: the server responded with a status of 404` are not taken into account) or there're eslint-config-airbnb-base warnings: `-15`
 
 `Penalties are imposed only by the course administration:`
-- [ ] the repository (**virtual-keyboard**) or development branch (**development**) name does not comply with the requirements: `-110`
+- [ ] the repository (**virtual-keyboard**) or development branch (**develop**) name does not comply with the requirements: `-110`
 - [ ] less than 5 commits are made or commits are made on the same day: `-110 or expel from the course`
 - [ ] a significant portion of the application was completed after the deadline: `-110 or expel from the course`
 

@@ -72,8 +72,8 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Week #4.
 ### 13/06/2023
-- [Module: "SCRUM, Kanban"](modules/scrum/)
-- [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Module: Web Storage](modules/web-storage/)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - https://github.com/mikhama/core-js-101
 
@@ -82,19 +82,20 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - Presentation topic assignments
-    - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md)
+    - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md)
     - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic. 
-    - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md) will be reviewed by mentors after January 24th.
+    - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
     - "Online" format presentation is optional and is up to the student's discretion.
   - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Team Project on TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+  - [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md))
   - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
 ## Week #5
 ### 20/06/2023
-- [Module: Web Storage](modules/web-storage/)
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [Testing](modules/testing/)
+- [Module: "Functional Programming Basics"](modules/fp-basics/)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - https://github.com/mikhama/core-js-101
 
 <details>
@@ -102,63 +103,58 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - Reviewing task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+  - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - If you have less than two students or want to mentor more, open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
 ## Week #6.
 ### 27/06/2023
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
+- [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Module: Async programming](modules/async/)
-- [Testing](modules/testing/)
 - https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team/README.md)
+  - [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 </details>
 
 ## Week #7.
 ### 04/07/2023
-- [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Module: HTTP / HTTPS](modules/http/)
 - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Module: "Functional Programming Basics"](modules/fp-basics/)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team/README.md) task
+  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
 ## Week #8. 
 ### 11/07/2023
-- [Module: HTTP / HTTPS](modules/http/)
 - [Module: RESTful API Style](modules/restful-api/)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Team Project in TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store-team)
-
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the task ["Online-Store"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/online-store/README.md)
+  - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
   - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
   - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
 ## Week #9. 
 ### 18/07/2023
-
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: JavaScript Error Handling](modules/error-handling/)
 - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -173,6 +169,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 25/07/2023
 - [Project: Presentation. Recorded & Online](modules/presentation)
 - [Module: Design Patterns](modules/design-patterns/)
+- [Module: "SCRUM, Kanban"](modules/scrum/)
 - [Preparation for Final Project](modules/final-task/)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
@@ -202,20 +199,19 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Неделя #12. 08/08/2023
 
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
   - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-  - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Неделя #13. 15/08/2023
 
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
@@ -225,8 +221,10 @@ At the end of this week, all students will be required to use typescript and adh
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
+
 ## Неделя #14. 22/08/2023
-- Кросс-чек RS Clone
+
+- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
@@ -240,6 +238,7 @@ At the end of this week, all students will be required to use typescript and adh
 - [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation/final-project-presentation.md)
 - Получение сертификата за Stage#2
 - Перерыв перед stage#3
+- Получение фидбека от ментора. В конце курса, если у вас есть ментор, пожалуйста, попросите его/её написать отзыв о вас. Ментор может сделать это, открыв приложение RS APP, перейдя на страницу 'My Students' и нажав кнопку 'Give Feedback' напротив вашей фамилии. 
 
 <details>
   <summary markdown="span">Активности менторов</summary>

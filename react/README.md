@@ -49,6 +49,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #11 (22nd of May, 2023)
 Cross-check review: - [GraphiQL](modules/graphiql.md)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 
 ## Lectors

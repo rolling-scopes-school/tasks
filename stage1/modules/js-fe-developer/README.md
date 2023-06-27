@@ -1,26 +1,24 @@
-# [Stage#1.](../../) Знакомство с профессией "JS/Front-end разработчик"
-## В данном модуле студентам необходимо:
-- Получить представление о профессии JS/Front-end разработчика
-- Получить представление о языках, технологиях и инструментах JS/Front-end разработчика
-- Ознакомиться с обязанностями JS/Front-end разработчика
-- Ознакомиться с требованиями к начинающему JS/Front-end разработчику
+# [Stage#1.](../../) Introduction to the profession of "JS/Front-end developer"
+## In this module, students should:
+- Gain an understanding of the JS/Front-end developer profession
+- Gain an understanding of the languages, technologies, and tools used by JS/Front-end developers
+- Familiarize themselves with the responsibilities of JS/Front-end developers
+- Become acquainted with the requirements for beginning JS/Front-end developers
 
-## Приблизительное время прохождения модуля
-2 часа
+## Approximate module completion time
+2 hours
 
-## Теория
-- Посмотреть запись [вебинара](https://www.youtube.com/watch?v=5g1U06QjWZk).
-- Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
-- Прочитать [рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
+## Theory
+- Watch the [webinar recording](https://www.youtube.com/watch?v=5g1U06QjWZk).
+- Read the [recommendations for learning English](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
-## Полезные ссылки 
-- [Запись YouTube стрима "Профориентация"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 часа
-- [Дорожная карта JS разработчика в 2021](https://github.com/kamranahmedse/developer-roadmap)
-- [Матрица компетентности](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwSn4qxbYHSdQ428OkpArZc4Q22D8dmbzDcRXt-UzkZ1sZfGLoQmm1w-N0Rx_voKLx4i7R_k7cnQgV/pubhtml#)
-- [Отличная книга по JS на русском (learn.javascript.ru)](https://learn.javascript.ru/)
-Главы, которые желательно прочитать в первую очередь:
-   - [Основы JavaScript](https://learn.javascript.ru/first-steps)
-   - [Объекты: основы](https://learn.javascript.ru/object-basics)
-   - [Типы данных](https://learn.javascript.ru/data-types)
-   - [Документ](https://learn.javascript.ru/document)
-   - [Введение в события](https://learn.javascript.ru/events)
+## Useful links
+- [YouTube stream recording "Career guidance"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 hours
+- [2021 Developer Roadmap for JS](https://github.com/kamranahmedse/developer-roadmap)
+- [Excellent book on JS in Russian (learn.javascript.ru)](https://learn.javascript.ru/)
+Chapters that are recommended to be read first:
+   - [JavaScript Basics](https://learn.javascript.ru/first-steps)
+   - [Objects: the basics](https://learn.javascript.ru/object-basics)
+   - [Data types](https://learn.javascript.ru/data-types)
+   - [Document](https://learn.javascript.ru/document)
+   - [Introduction to events](https://learn.javascript.ru/events)
