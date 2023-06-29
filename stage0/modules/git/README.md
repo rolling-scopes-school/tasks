@@ -28,7 +28,7 @@
 1. Вам необходимо пройти тест "Git Test [RU]" в RS APP > Auto Test
 
 ## Дополнительные материалы
-0. [Базовые основы по git, github ( графический интрфейс )](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
+0. [Базовые основы по git, github ( графический интерфейс )](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
 2. [Инструкция по добавлению SSH в Git](https://github.com/TUstiugov/ssh-hints-for-win/blob/main/ssh-hints-for-win.md)
 3. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
