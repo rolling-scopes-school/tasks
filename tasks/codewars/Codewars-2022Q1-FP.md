@@ -20,7 +20,7 @@ Codewars - автопроверяемый таск.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
-Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания Codewars-2022Q3-OOP в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания Codewars-2022Q1-FP в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
 ## Scoring criteria
 
