@@ -16,7 +16,7 @@
 Практика: 4 часа
 
 ## Теория 
-1. [Запись лекции по Git прошлого набора](https://youtu.be/6i0Wg-Pohg8?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
+1. [Запись лекции по Git прошлого набора](https://youtu.be/6i0Wg-Pohg8?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP). *Примечание*: если вам показалось сложно то вы можете посмотреть краткий курс из доп материалов шаг 0 и вернуться обратно
 2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
 3. Вам необходимо просмотреть практические видео-материалы [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 часа)
 4. Для практического задания ознакомиться с [документацией Markdown](https://guides.github.com/features/mastering-markdown/) - можно коротко посмотреть возможности и синтаксис, а более глубоко погрузиться на практике (0.5 часа)
@@ -28,6 +28,7 @@
 1. Вам необходимо пройти тест "Git Test [RU]" в RS APP > Auto Test
 
 ## Дополнительные материалы
+0. [Базовые основы по git, github ( графический интерфейс )](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
 2. [Инструкция по добавлению SSH в Git](https://github.com/TUstiugov/ssh-hints-for-win/blob/main/ssh-hints-for-win.md)
 3. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
