@@ -42,11 +42,12 @@ Library – задание stage#0 в ходе выполнения которо
 
 ## Структура макета:
 - Макет состоит из трёх основных блоков: `<header>`, `<main>`, `<footer>`
-- на данном макете есть 5 `<section>`:
+- на данном макете есть 6 `<section>`:
+  - `welcome to the brooklyn library`
   - `about`
   - `favorites`
   - `coffee shop`
-  - `our contacts` 
+  - `our contacts`
   - `digital library cards`
 - для позиционирования `header` допускается объединение с ближайшей секцией в обертку с общим фоном
 
