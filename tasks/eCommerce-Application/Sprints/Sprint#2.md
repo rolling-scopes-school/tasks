@@ -32,8 +32,8 @@ In the second sprint, the team will focus on implementing both the login and reg
 - **(10 points)** Redirect users to the application's main page upon successful login. [RSS-ECOMM-27](./Sprint2/RSS-ECOMM-27.md)
 - **(10 points)** Redirect users who are already logged in to the main page if they try to access the login page. [RSS-ECOMM-28](./Sprint2/RSS-ECOMM-28.md)
 
-#### 4. Save Authentication Token (5 points)
-- **(5 points)** Save the authentication token securely after a successful login attempt, allowing for seamless user authentication across the application. [RSS-ECOMM-29](./Sprint2/RSS-ECOMM-29.md)
+#### 4. Handle Authentication Token (10 points)
+- **(5 points)** Obtain the authentication token securely after a successful login attempt by sending a request to the token endpoint (e.g., https://auth.europe-west1.gcp.commercetools.com/oauth/project_key/customers/token), allowing for seamless user authentication across the application. [RSS-ECOMM-29](./Sprint2/RSS-ECOMM-29.md)
 
 #### 5. Navigation to Registration Page (5 points)
 - **(5 points)** Add a button or link on the login page that allows users to navigate to the registration page. [RSS-ECOMM-30](./Sprint2/RSS-ECOMM-30.md)
@@ -67,13 +67,14 @@ In the second sprint, the team will focus on implementing both the login and reg
 - **(5 points)** Ability to access the main page for all users [RSS-ECOMM-41](./Sprint2/RSS-ECOMM-41.md)
 - **(5 points)** Logout functionality for authorized users [RSS-ECOMM-42](./Sprint2/RSS-ECOMM-42.md)
 
-### Mentor Evaluation Criteria (45 points - Total):
+### Mentor Evaluation Criteria (60 points - Total):
 
 1. **Code Review Participation (10 points):** Students actively participate in code reviews, providing constructive feedback and suggestions to their peers.
 2. **No Merges Without Approvals (10 points):** Pull requests are not merged without approvals from other team members, ensuring the quality of code contributions.
 3. **Pull Request Descriptions (10 points):** Pull requests include detailed descriptions, outlining the changes made and the purpose of the changes, facilitating better understanding and review.
 4. **Task Board Management (10 points):** Students maintain and regularly update a task board (e.g., Trello, Jira), ensuring that tasks are moved according to their progress and completion.
 5. **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
+6. **Unit Test Coverage (15 points):** The codebase has a minimum of 25% unit test coverage, ensuring the reliability and robustness of the implemented features.
 
 ### Useful Links and Resources
 
