@@ -15,7 +15,7 @@ All these features should be planned and implemented in a visually appealing and
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (280 points):
+### CrossCheck Criteria (300 points):
 
 ### Catalog Page Implementation (175 points - Total)
 
@@ -44,22 +44,23 @@ All these features should be planned and implemented in a visually appealing and
 
 - **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-54](./Sprint3/RSS-ECOMM-54.md)
 
-### Detailed Product Page Implementation (90 points)
+### Detailed Product Page Implementation (110 points)
 
-#### 1. Display Product Information (30 points)
+#### 1. Display Product Information (45 points)
 
 - **(10 points)** Use the commercetools API or any other simple API to fetch and display the product name, description, and images on the Detailed Product page. [RSS-ECOMM-55](./Sprint3/RSS-ECOMM-55.md)
-- **(10 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product. [RSS-ECOMM-56](./Sprint3/RSS-ECOMM-56.md)
+- **(25 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product. [RSS-ECOMM-56](./Sprint3/RSS-ECOMM-56.md)
 - **(10 points)** Display the product price fetched from the chosen API, and if the product is on sale, display both the original and discounted prices. [RSS-ECOMM-57](./Sprint3/RSS-ECOMM-57.md)
+
+#### 2. Enlarged Image Modal with Slider (25 points)
+
+- **(15 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-58](./Sprint3/RSS-ECOMM-58.md)
+- **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-59](./Sprint3/RSS-ECOMM-59.md)
+
 
 ### Evaluation Criteria for Header (5 points - Total)
 
-- **(5 points)** Navigation to the Catalog page for all users [RSS-ECOMM-58](./Sprint2/RSS-ECOMM-58.md)
-
-#### 2. Enlarged Image Modal with Slider (20 points)
-
-- **(10 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-58](./Sprint3/RSS-ECOMM-58.md)
-- **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-59](./Sprint3/RSS-ECOMM-59.md)
+- **(5 points)** Navigation to the Catalog page for all users [RSS-ECOMM-60](./Sprint2/RSS-ECOMM-60.md)
 
 ### Mentor Evaluation Criteria (60 points - Total):
 

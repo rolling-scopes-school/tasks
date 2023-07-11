@@ -8,11 +8,6 @@ The Catalog Product page should display a list of products with essential inform
 
 - **(20 points)** Integrate the Catalog Product page with the chosen API (commercetools or any other simple API) to enable users to add products to their shopping cart directly from the product list or the detailed product page.
 
-### 5. Category Navigation (30 points)
-
-- **(15 points)** Implement easy-to-use and clear navigation options for users to explore and switch between different product categories or subcategories using the chosen API (commercetools or any other simple API).
-- **(15 points)** Provide breadcrumb navigation or other navigational aids to help users understand and navigate the current category hierarchy.
-
 ### 6. Performance Optimization (30 points)
 
 - **(30 points)** Implement lazy loading, pagination, or infinite scroll to efficiently load and display a large number of products without significant delays or performance issues, leveraging the chosen API (commercetools or any other simple API) for product data retrieval.
