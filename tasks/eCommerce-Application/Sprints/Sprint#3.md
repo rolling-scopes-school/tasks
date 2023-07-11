@@ -1,10 +1,10 @@
-## Sprint 3: Catalog Product Page & Detailed Product Page Implementation
+## Sprint 3: Catalog Product Page, Detailed Product Page & User Profile Page Implementation
 
-In this sprint, the team will focus on implementing the Catalog Product page and the Detailed Product page. This includes fetching and displaying a list of products with essential details, implementing filtering, sorting, and searching functionality, designing interactive product cards, and providing navigation between product categories. All these features should be built using the commercetools API, or any other simple API, for product data retrieval and management.
+In this sprint, the team will focus on implementing the Catalog Product page, the Detailed Product page, and the User Profile page. This includes fetching and displaying a list of products with essential details, implementing filtering, sorting, and searching functionality, designing interactive product cards, and providing navigation between product categories. All these features should be built using the commercetools API, or any other simple API, for product data retrieval and management.
 
 For the Detailed Product page, it should provide a comprehensive and user-friendly experience by displaying extensive product information, allowing users to choose between product variations and quantities, enabling them to add or remove products from their shopping cart or wishlist, and initiating the checkout process with a "Buy and Pay" button. The page should feature an image slider, a modal window for enlarged product images, breadcrumb navigation, and widgets for selecting product options.
 
-All these features should be planned and implemented in a visually appealing and organized manner, ensuring a smooth user experience while browsing and interacting with the page. The integration with the chosen API should be seamless, providing real-time updates and data synchronization as users explore the product details, add or remove items from their shopping cart and wishlist, and customize their chosen products based on available options.
+The User Profile page should present the user's personal information, including their first name, last name, date of birth, and a list of their addresses. Additionally, it should provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses.
 
 ### Working with the Repository
 
@@ -15,7 +15,7 @@ All these features should be planned and implemented in a visually appealing and
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (300 points):
+### CrossCheck Criteria (395 points):
 
 ### Catalog Page Implementation (175 points - Total)
 
@@ -40,27 +40,42 @@ All these features should be planned and implemented in a visually appealing and
 - **(20 points)** Implement easy-to-use and clear navigation options for users to explore and switch between different product categories or subcategories using the chosen API (commercetools or any other simple API). [RSS-ECOMM-52](./Sprint3/RSS-ECOMM-52.md)
 - **(15 points)** Provide breadcrumb navigation or other navigational aids to help users understand and navigate the current category hierarchy. [RSS-ECOMM-53](./Sprint3/RSS-ECOMM-53.md)
 
-### Routing Implementation (15 points - Total)
-
-- **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-54](./Sprint3/RSS-ECOMM-54.md)
-
 ### Detailed Product Page Implementation (110 points)
 
 #### 1. Display Product Information (45 points)
 
-- **(10 points)** Use the commercetools API or any other simple API to fetch and display the product name, description, and images on the Detailed Product page. [RSS-ECOMM-55](./Sprint3/RSS-ECOMM-55.md)
-- **(25 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product. [RSS-ECOMM-56](./Sprint3/RSS-ECOMM-56.md)
-- **(10 points)** Display the product price fetched from the chosen API, and if the product is on sale, display both the original and discounted prices. [RSS-ECOMM-57](./Sprint3/RSS-ECOMM-57.md)
+- **(10 points)** Use the commercetools API or any other simple API to fetch and display the product name, description, and images on the Detailed Product page. [RSS-ECOMM-54](./Sprint3/RSS-ECOMM-54.md)
+- **(25 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product. [RSS-ECOMM-55](./Sprint3/RSS-ECOMM-55.md)
+- **(10 points)** Display the product price fetched from the chosen API, and if the product is on sale, display both the original and discounted prices. [RSS-ECOMM-56](./Sprint3/RSS-ECOMM-56.md)
 
 #### 2. Enlarged Image Modal with Slider (25 points)
 
-- **(15 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-58](./Sprint3/RSS-ECOMM-58.md)
-- **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-59](./Sprint3/RSS-ECOMM-59.md)
+- **(15 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-57](./Sprint3/RSS-ECOMM-57.md)
+- **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-58](./Sprint3/RSS-ECOMM-58.md)
 
+### User Profile Page Implementation (70 points)
 
-### Evaluation Criteria for Header (5 points - Total)
+#### 1. Display User Profile Information (30 points)
 
-- **(5 points)** Navigation to the Catalog page for all users [RSS-ECOMM-60](./Sprint2/RSS-ECOMM-60.md)
+- **(10 points)** Present the user's personal information, including first name, last name, date of birth, and a list of their addresses in the User Profile page. [RSS-ECOMM-59](./Sprint2/RSS-ECOMM-59.md)
+- **(20 points)** Provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses. [RSS-ECOMM-60](./Sprint3/RSS-ECOMM-60.md)
+
+#### 2. Edit User Profile Information (40 points)
+
+- **(10 points)** In the edit mode, allow users to update their personal information, including first name, last name, and date of birth and email. [RSS-ECOMM-61](./Sprint3/RSS-ECOMM-61.md)
+- **(10 points)** Enable users to change their password. [RSS-ECOMM-62](./Sprint3/RSS-ECOMM-62.md)
+- **(20 points)** Allow users to manage their addresses, including adding new addresses, deleting existing ones, and updating address details. [RSS-ECOMM-63](./Sprint3/RSS-ECOMM-63.md)
+
+### Routing Implementation (30 points - Total)
+
+- **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-64](./Sprint3/RSS-ECOMM-64.md)
+- **(15 points)** Implement routing for navigation to User Profile page. [RSS-ECOMM-65](./Sprint3/RSS-ECOMM-65.md)
+
+### Evaluation Criteria for Header (10 points)
+
+- **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-66](./Sprint3/RSS-ECOMM-66.md)
+- **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-67](./Sprint3/RSS-ECOMM-67.md)
+
 
 ### Mentor Evaluation Criteria (60 points - Total):
 
@@ -71,6 +86,11 @@ All these features should be planned and implemented in a visually appealing and
 5. **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
 6. **Unit Test Coverage (15 points):** The codebase has a minimum of 30% unit test coverage, ensuring the reliability and robustness of the implemented features.
 
-### Useful Links and Resources
+### Here is the final points distribution:
 
-1. [Commercetools API](https://docs.commercetools.com/api)
+- Catalog Page Implementation: 175 points
+- Routing Implementation: 30 points
+- Detailed Product Page Implementation: 110 points
+- Profile Page Implementation: 70 points
+- Evaluation Criteria for Header: 10 points
+- Mentor Evaluation Criteria: 60 points

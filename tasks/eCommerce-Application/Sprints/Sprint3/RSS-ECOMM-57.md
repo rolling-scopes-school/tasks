@@ -1,21 +1,22 @@
-### RSS-ECOMM-57: Display Product Price and Sale Price (10 points)
+### RSS-ECOMM-57: Implement Enlarged Image Modal (15 points)
 
 #### Description
-The application should fetch and display the price for each product from the chosen API on the Detailed Product page. If the product is on sale, both the original price and the sale price should be displayed. The sale price should be clearly distinguished as the current price of the product.
+When users click on the product image in the Detailed Product Page, a modal window should pop up displaying an enlarged version of the image. This feature would allow users to view the product image in more detail.
 
 #### Implementation Details
-1. **Fetch Product Price:** Fetch the price details of the product from the chosen API. This might involve using the `GET /{projectKey}/products/{ID}` endpoint for the commercetools API, which should include product price information.
-2. **Display Price:** Display the price of the product on the Detailed Product page. Make sure the price is formatted correctly and easy to read.
-3. **Display Sale Price:** If the product is on sale, fetch the sale price from the API and display it alongside the original price. Make sure it's clear which price is the current price and which price is the original price before the sale.
+1. **Image Modal:** Implement a modal window that can display an enlarged version of a product image. Consider using a library or framework feature to handle modals, or build one from scratch. The modal should include a way for the user to close it, such as an "X" button in the corner.
+2. **Image Click Event:** Attach an event listener to the product image that triggers the modal to open with the enlarged image when the image is clicked.
+3. **Image Sizing:** Make sure that the enlarged image in the modal is significantly larger than the product image, but still fits within the viewport. You may need to limit the size of the image or make the modal scrollable if the image is too large.
 
 #### Visual Implementation Ideas
-1. **Sale Price Highlight:** When a product is on sale, the sale price could be highlighted in a bright color to draw attention. The original price might be crossed out next to it to make clear that it's no longer the current price.
-2. **Price Formatting:** Both prices should be displayed with the appropriate currency symbol and two decimal places, regardless of whether the price ends in .00.
+1. **Modal Background:** When the modal opens, darken or blur the rest of the page behind the modal to help it stand out.
+2. **Close Button:** Make sure the close button is easily visible and clearly indicates its purpose.
 
 #### Acceptance Criteria
-- The application successfully fetches and displays the price for each product from the chosen API.
-- If the product is on sale, both the original price and the sale price are displayed. The sale price is clearly distinguished as the current price of the product.
+- The product image triggers a modal to open when it is clicked.
+- The modal displays an enlarged version of the product image.
+- There is a clear way for the user to close the modal.
 
 #### Useful Links and Resources
-1. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
-2. [Formatting currency in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
+1. [Modal windows in JavaScript](https://www.w3schools.com/howto/howto_css_modals.asp)
+2. [Handling click events in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)

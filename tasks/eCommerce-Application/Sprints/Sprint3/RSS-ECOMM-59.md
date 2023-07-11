@@ -1,21 +1,16 @@
-### RSS-ECOMM-59: Implement Image Slider in Enlarged Image Modal (10 points)
+### RSS-ECOMM-59: Present User's Personal Information on User Profile Page (10 points)
 
 #### Description
-The enlarged image modal should not only display a single product image but should also include a slider feature, enabling users to navigate through all product images fetched from the chosen API. This allows users to view all images of a product without having to close the modal.
+The User Profile page should display the user's personal information. This is an essential feature that allows users to view and verify their personal details. It also enhances the personalization aspect of the user experience.
 
 #### Implementation Details
-1. **Slider Setup:** Implement a slider within the enlarged image modal. This could be a custom-built slider or one from a library or framework. The slider should display one image at a time and have navigational controls to cycle through the images.
-2. **Image Fetching:** Fetch all product images from the chosen API and include them in the slider. Ensure that these images are appropriately sized and formatted for the slider.
-3. **Navigation Controls:** Implement controls (like arrows or dots) to allow users to navigate through the images in the slider. These controls should be easily visible and intuitive to use.
-
-#### Visual Implementation Ideas
-1. **Slider Design:** The slider should be clean and straightforward, focusing attention on the images themselves. Avoid unnecessary decorations or elements that might distract from the product images.
-2. **Navigation Controls:** The navigation controls should be designed in a way that they do not obscure the images but are still easily accessible for the user.
+1. **User Information:** Display the user's first name, last name, and date of birth on the User Profile page.
+2. **User Addresses:** List all of the user's saved addresses on the User Profile page. Each address entry should display all relevant information (street, city, state, zip code, country). Also, clearly indicate which address is set as the default billing address and which one is the default shipping address. Use appropriate labels or markers to distinguish them.
 
 #### Acceptance Criteria
-- The enlarged image modal includes a slider that displays all product images fetched from the API.
-- Users can navigate through the images using the slider controls.
+- The User Profile page displays the user's first name, last name, and date of birth.
+- The User Profile page lists all saved addresses for the user, with all relevant information for each address.
+- The default billing and shipping addresses are clearly indicated on the User Profile page.
 
 #### Useful Links and Resources
-1. [Simple carousel example](https://www.youtube.com/watch?v=2xP-HahCtio)
-2. [Swiper.js - Most modern mobile touch slider](https://swiperjs.com/)
+1. [commercetools: Working with Customers](https://docs.commercetools.com/api/projects/customers)

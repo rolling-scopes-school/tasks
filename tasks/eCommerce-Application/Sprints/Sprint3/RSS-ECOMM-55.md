@@ -1,22 +1,21 @@
-### RSS-ECOMM-55: Fetch and Display Product Details using Commercetools API (10 points)
+### RSS-ECOMM-55: Implement an Image Slider for Product Images (25 points)
 
 #### Description
-The application should utilize the commercetools API to fetch the detailed information such as the product name, description, and images of a selected product. The data fetched from the API should be parsed and organized to be displayed on the Detailed Product page, where users can view all details of the selected product.
+As part of the detailed product page, the application should implement an image slider that allows users to view multiple images of a selected product. This image slider should be populated with images fetched from the commercetools API, or any other simple API chosen by the team.
 
 #### Implementation Details
-1. **API Setup:** Use the already set up commercetools API in your project to fetch detailed product data. Make sure you have the necessary credentials and permissions.
-2. **Fetching Data:** Use the appropriate commercetools API endpoints to fetch product detail data. The `GET /{projectKey}/products/{ID}` endpoint could be useful for this task. Remember to handle potential errors in data fetching, like network errors or API limitations.
-3. **Data Parsing and Display:** Parse the fetched data to extract the necessary product details: name, description, and images. Display this data on the Detailed Product page in a user-friendly format.
+1. **Fetch Product Images:** For a given product, fetch all associated images from the API. This might involve the `GET /{projectKey}/products/{ID}` endpoint in the case of commercetools API, which should include image URLs in the product data.
+2. **Implement Image Slider:** Implement a user-friendly image slider that can handle multiple images. The slider should allow users to manually cycle through the images, and it should gracefully handle the case of a product with only a single image.
 
 #### Visual Implementation Ideas
-1. **Product Details:** Display the product name, description, and images on the Detailed Product page in an easy-to-read and comprehensive manner.
-2. **Product Images:** The product images should be clear and accurately represent the product. Users should have the possibility to see multiple images if available.
-3. **Product Name and Description:** The product name should be in a larger, bold font to quickly draw the user's attention. The product description should be detailed, informative, and provide all necessary details for the user to understand the product completely.
+1. **Interactive Slider:** The image slider should be interactive, letting users control which image is currently displayed. This might involve arrows on either side of the image, or a series of clickable dots representing each image.
+2. **Image Layout:** The images should be presented in a clean and organized way. Consider the size and aspect ratio of the images and how they will fit into the overall design of the page.
 
 #### Acceptance Criteria
-- The application successfully fetches detailed information of a product from the commercetools API, including the essential details: name, description, images and other attributes.
-- The fetched product details are displayed on the Detailed Product page in an organized and easy-to-understand manner.
-- The Detailed Product page includes the product's images, name, and description, and these elements are easy to identify and understand by users.
+- The application successfully fetches multiple images for a product from the chosen API, when available.
+- An image slider is implemented on the Detailed Product page, and can handle multiple images. The slider allows users to manually control which image is displayed.
+- If a product has only a single image, the slider gracefully degrades to simply display that image without any unnecessary slider controls.
 
 #### Useful Links and Resources
-2. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
+1. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
+2. [Swiper](https://swiperjs.com/), a modern mobile touch slider

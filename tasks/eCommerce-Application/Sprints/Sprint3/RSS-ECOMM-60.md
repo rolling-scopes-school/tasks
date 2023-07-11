@@ -1,18 +1,22 @@
-### RSS-ECOMM-60: Implement Navigation to Catalog Page in Header (5 points)
+### RSS-ECOMM-60: Implement Edit Mode for Updating User Details on Profile Page (20 points)
 
 #### Description
-As a fundamental feature, all users, regardless of their status (logged in or not), should have the ability to navigate to the Catalog page using the navigation options provided in the header of the website.
+It's essential for users to have the ability to update their personal information, including personal details and addresses. To facilitate this, provide a user-friendly interface that allows users to switch to an "edit mode" on the User Profile page.
 
 #### Implementation Details
-1. **Navigation Option:** Add a navigation option to the header that directs users to the Catalog page. This could be a text link, an icon, or a combination of both.
-2. **Responsive Design:** Ensure that the navigation option is visible and accessible on different devices and screen sizes.
-3. **Routing:** Implement routing from the navigation option to the Catalog page. This may involve working with your chosen front-end framework's routing library (e.g., React Router for React.js).
-
-#### Visual Implementation Ideas
-1. **Visual Cues:** The navigation option should have some visual indication (like underlining or color change) when hovered or clicked to provide feedback to the user.
-2. **Iconography:** If using an icon, choose or design one that clearly signifies the Catalog page.
+1. **Edit Mode Toggle:** Implement a clear and intuitive way for users to enter and exit the edit mode. This could be a button, a link, or any other interactive element.
+2. **Edit Personal Details:** While in edit mode, users should be able to update their first name, last name, date of birth. 
+3. **Edit Addresses:** Users should also be able to add, modify, or delete their saved addresses.
+4. **Form Validation:** Implement appropriate form validation to ensure that updated information meets necessary criteria (non-empty name fields, etc.).
+5. **Saving Changes:** Provide a clear way to save changes made in the edit mode. Inform the user of the success or failure of the update operation.
 
 #### Acceptance Criteria
-- A navigation option to the Catalog page is present in the website's header.
-- Clicking on the navigation option redirects the user to the Catalog page.
+- Users can switch to an edit mode on the User Profile page.
+- In edit mode, users can update their first name, last name, date of birth.
+- In edit mode, users can add, modify, or delete their saved addresses.
+- Changes made in the edit mode can be saved.
+- User is informed of the success or failure of the update operation.
 
+#### Useful Links and Resources
+1. [commercetools: Update Customer by ID](https://docs.commercetools.com/api/projects/customers#update-customer-by-id)
+1. [toastify-js](https://github.com/apvarun/toastify-js#readme)

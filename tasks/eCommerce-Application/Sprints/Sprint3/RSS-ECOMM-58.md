@@ -1,22 +1,21 @@
-### RSS-ECOMM-58: Implement Enlarged Image Modal (15 points)
+### RSS-ECOMM-58: Implement Image Slider in Enlarged Image Modal (10 points)
 
 #### Description
-When users click on the product image in the Detailed Product Page, a modal window should pop up displaying an enlarged version of the image. This feature would allow users to view the product image in more detail.
+The enlarged image modal should not only display a single product image but should also include a slider feature, enabling users to navigate through all product images fetched from the chosen API. This allows users to view all images of a product without having to close the modal.
 
 #### Implementation Details
-1. **Image Modal:** Implement a modal window that can display an enlarged version of a product image. Consider using a library or framework feature to handle modals, or build one from scratch. The modal should include a way for the user to close it, such as an "X" button in the corner.
-2. **Image Click Event:** Attach an event listener to the product image that triggers the modal to open with the enlarged image when the image is clicked.
-3. **Image Sizing:** Make sure that the enlarged image in the modal is significantly larger than the product image, but still fits within the viewport. You may need to limit the size of the image or make the modal scrollable if the image is too large.
+1. **Slider Setup:** Implement a slider within the enlarged image modal. This could be a custom-built slider or one from a library or framework. The slider should display one image at a time and have navigational controls to cycle through the images.
+2. **Image Fetching:** Fetch all product images from the chosen API and include them in the slider. Ensure that these images are appropriately sized and formatted for the slider.
+3. **Navigation Controls:** Implement controls (like arrows or dots) to allow users to navigate through the images in the slider. These controls should be easily visible and intuitive to use.
 
 #### Visual Implementation Ideas
-1. **Modal Background:** When the modal opens, darken or blur the rest of the page behind the modal to help it stand out.
-2. **Close Button:** Make sure the close button is easily visible and clearly indicates its purpose.
+1. **Slider Design:** The slider should be clean and straightforward, focusing attention on the images themselves. Avoid unnecessary decorations or elements that might distract from the product images.
+2. **Navigation Controls:** The navigation controls should be designed in a way that they do not obscure the images but are still easily accessible for the user.
 
 #### Acceptance Criteria
-- The product image triggers a modal to open when it is clicked.
-- The modal displays an enlarged version of the product image.
-- There is a clear way for the user to close the modal.
+- The enlarged image modal includes a slider that displays all product images fetched from the API.
+- Users can navigate through the images using the slider controls.
 
 #### Useful Links and Resources
-1. [Modal windows in JavaScript](https://www.w3schools.com/howto/howto_css_modals.asp)
-2. [Handling click events in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+1. [Simple carousel example](https://www.youtube.com/watch?v=2xP-HahCtio)
+2. [Swiper.js - Most modern mobile touch slider](https://swiperjs.com/)
