@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-07: Set up CommerceTools API client
+### Issue RSS-ECOMM-1_07: Set up CommerceTools API client
 
 #### Description
 Create the API client for CommerceTools, enabling access to the platform's APIs and managing permissions and scopes required for the project.

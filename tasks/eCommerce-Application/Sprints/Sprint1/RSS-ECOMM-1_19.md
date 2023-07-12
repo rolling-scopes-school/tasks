@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-19: Document scripts in README
+### Issue RSS-ECOMM-1_19: Document scripts in README
 
 #### Description
 Document all available scripts (e.g., for running ESLint, Prettier, and Jest tests) and their usage in the README file. This will help team members and other contributors to better understand and utilize the available scripts.

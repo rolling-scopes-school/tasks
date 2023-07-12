@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-21: Create a pull request template
+### Issue RSS-ECOMM-1_21: Create a pull request template
 
 #### Description
 Create a pull request template with a clear structure for describing proposed changes and the rationale behind them. This template will help standardize pull request descriptions and make it easier to understand the purpose of each proposed change.

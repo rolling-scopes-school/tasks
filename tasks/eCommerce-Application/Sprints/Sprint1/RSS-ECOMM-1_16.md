@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-16: Create Jest test script
+### Issue RSS-ECOMM-1_16: Create Jest test script
 
 #### Description
 Create a script for running Jest tests, streamlining the process of executing tests and generating reports on test outcomes.

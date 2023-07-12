@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-02: Set up folder structure
+### Issue RSS-ECOMM-1_02: Set up folder structure
 
 #### Description
 Set up a clear and organized folder structure within the repository, ensuring a maintainable and scalable codebase. By organizing the codebase properly, it will be easier for team members to navigate and contribute code efficiently.

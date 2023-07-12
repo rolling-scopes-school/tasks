@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-06: Set up CommerceTools project
+### Issue RSS-ECOMM-1_06: Set up CommerceTools project
 
 #### Description
 Create the project in CommerceTools, setting up the necessary authorization, currencies, languages, and other configurations in the Merchant Center.

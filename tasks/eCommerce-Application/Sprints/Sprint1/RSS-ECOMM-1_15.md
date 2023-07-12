@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-15: Create Prettier script
+### Issue RSS-ECOMM-1_15: Create Prettier script
 
 #### Description
 Create a script for running Prettier across the codebase, simplifying code formatting and ensuring uniform code style.

@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-01: Set up GitHub repository
+### Issue RSS-ECOMM-1_01: Set up GitHub repository
 
 #### Description
 Create a GitHub repository for the project, complete with a README file, .gitignore, and necessary dependencies. This repository will serve as the central codebase for the project, allowing for collaboration and version control.

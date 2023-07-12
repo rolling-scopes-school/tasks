@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-17: Update README with project description
+### Issue RSS-ECOMM-1_17: Update README with project description
 
 #### Description
 Update the README file in the repository, providing a comprehensive description of the project, its purpose, and the technology stack used. 

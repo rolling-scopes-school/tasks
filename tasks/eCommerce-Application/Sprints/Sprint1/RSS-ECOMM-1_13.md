@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-13: Install and configure Jest
+### Issue RSS-ECOMM-1_13: Install and configure Jest
 
 #### Description
 Install and configure Jest as the testing framework for the project, enabling comprehensive testing of code functionality.

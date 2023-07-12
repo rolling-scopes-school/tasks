@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-18: Share task board with team and mentor
+### Issue RSS-ECOMM-1_18: Share task board with team and mentor
 
 #### Description
 Share the task board with the team members and the mentor, ensuring everyone can track progress and update the status of their tasks. This action will help keep everyone in sync and maintain a clear understanding of the project's status.

@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-10: Set up ESLint
+### Issue RSS-ECOMM-1_10: Set up ESLint
 
 #### Description
 Set up ESLint to enforce consistent coding styles and identify potential issues in the codebase.

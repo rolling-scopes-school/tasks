@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-08: Configure bundler
+### Issue RSS-ECOMM-1_08: Configure bundler
 
 #### Description
 Set up and configure a bundler (e.g., Webpack, Vite, Parcel or other) for the project, supporting both development and production build modes.

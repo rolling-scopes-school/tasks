@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-12: Initialize Husky
+### Issue RSS-ECOMM-1_12: Initialize Husky
 
 #### Description
 Initialize Husky to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process.

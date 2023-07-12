@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-14: Create ESLint script
+### Issue RSS-ECOMM-1_14: Create ESLint script
 
 #### Description
 Create a script for running ESLint across the codebase, enabling quick and efficient identification of coding style issues and potential errors.

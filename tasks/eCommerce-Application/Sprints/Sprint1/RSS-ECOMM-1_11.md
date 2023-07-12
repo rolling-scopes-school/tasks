@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-11: Configure Prettier
+### Issue RSS-ECOMM-1_11: Configure Prettier
 
 #### Description
 Configure Prettier to automatically format code, ensuring a consistent and readable code style.
