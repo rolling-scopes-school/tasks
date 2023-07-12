@@ -2,16 +2,6 @@ The Detailed Product page should provide a comprehensive and user-friendly exper
 
 All these features should be planned and implemented in a visually appealing and organized manner, ensuring a smooth user experience while browsing and interacting with the page. The integration with the chosen API should be seamless, providing real-time updates and data synchronization as users explore the product details, add or remove items from their shopping cart and wishlist, and customize their chosen products based on available options.
 
-### 1. Display Product Information (30 points)
-
-- **(10 points)** Use the commercetools API or any other simple API to fetch and display the product name, description, and images on the Detailed Product page.
-- **(10 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product.
-- **(10 points)** Display the product price fetched from the chosen API, and if the product is on sale, display both the original and discounted prices.
-
-### 2. Enlarged Image Modal with Slider (20 points)
-
-- **(10 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window.
-- **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window.
 
 ### 3. Product Options Selection (20 points)
 
@@ -26,10 +16,6 @@ All these features should be planned and implemented in a visually appealing and
 
 - **(10 points)** Implement an "Add to Wishlist" button that saves the selected product to the user's wishlist, storing the wishlist data in the local storage.
 - **(10 points)** If the product is already in the user's wishlist, provide a "Remove from Wishlist" button that allows users to remove the product from their wishlist, updating the local storage accordingly.
-
-### 6. Breadcrumb Navigation (10 points)
-
-- **(10 points)** Provide breadcrumb navigation or other navigational aids to help users understand and navigate their position within the product hierarchy.
 
 ### 7. Quantity Selection (10 points)
 
