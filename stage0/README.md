@@ -24,20 +24,22 @@
 
 ### Неделя #3
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Plants"](../tasks/plants/plants.md) 
-    - ["Plants#1. Фиксированная вёрстка"](../tasks/plants/plants-part1.md)
+- Проект ["Library"](../tasks/library/library.md) 
+    - ["Library#1. Фиксированная вёрстка"](../tasks/library/library-part1.md)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+
+### Неделя #4
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 
 ### Неделя #5
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 
 ### Неделя #6
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/plants/plants-part1.md)
-- Проект ["Plants"](../tasks/plants/plants.md)
-    - ["Plants#2. Адаптивная вёрстка"](../tasks/plants/plants-part2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#1"](../tasks/library/library-part1.md)
+- Проект ["Library"](../tasks/library/library.md)
+    - ["Library#2. Адаптивная вёрстка"](../tasks/library/library-part2.md)
 
 ### Неделя #7
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
@@ -46,26 +48,28 @@
 ### Неделя #8
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#2"](../tasks/travel/travel-part2.md)
-- Проект ["Plants"](../tasks/plants/plants.md)
-    - ["Plants#3. Добавление функционала"](../tasks/plants/plants-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#2"](../tasks/library/library-part2.md)
+- Проект ["Library"](../tasks/library/library.md)
+    - ["Library#3. Добавление функционала"](../tasks/library/library-part3.md)
 
 ### Неделя #9
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 
 ### Неделя #10
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#3"](../tasks/travel/travel-part3.md)
+- [JS-101](https://github.com/Luffi2539/core-js-101/)
 
 ### Неделя #11
-- Проект ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
-
-### Неделя #12
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
+### Неделя #12
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
+
 ### Неделя #13
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
-- Получение сертификата 
+- Сдача хвостов (тесты, задачи, Codewars)
+  
+### Неделя #14
+- Получение сертификата
 
 ## Сертификат 
 Чтобы получить сертификат о прохождении подготовительного этапа вам необходимо набрать 70% от результата TOP1 студента. Например, если в конце этапа у лучшего студента 2000 баллов, проходной для всех студентов 1400 баллов (2000*0.7).  
