@@ -1,4 +1,4 @@
-### RSS-ECOMM-40: Navigation to Login and Registration Pages for Unauthorized Users (10 points)
+### RSS-ECOMM-2_19: Navigation to Login and Registration Pages for Unauthorized Users (10 points)
 
 #### Description
 Enable easy navigation for unauthorized users between the login and registration pages. The links or buttons for these pages should be clear, visible, and accessible, following best practices for user interface design. The buttons or links can be implemented in several ways, such as text links, styled buttons, or icons accompanied by labels.

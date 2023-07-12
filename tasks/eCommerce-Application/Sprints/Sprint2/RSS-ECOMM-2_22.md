@@ -1,4 +1,4 @@
-### Implement routing for navigation between login, registration, and main pages (10 points) [RSS-ECOMM-43]
+### Implement routing for navigation between login, registration, and main pages (10 points) [RSS-ECOMM-2_22]
 
 **Description:**  
 As a user, I should be able to navigate between the login, registration, and main pages using proper routing. Implement routing using a suitable library or framework (e.g., React Router, Angular Routing) or using an implementation suitable for applications without a specific framework.

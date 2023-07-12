@@ -7,9 +7,8 @@ Users should have the capability to update their personal information. This feat
 1. **Edit Mode:** Utilize the "edit mode" previously implemented on the User Profile page.
 2. **Updating Personal Information:** While in edit mode, users should be able to update their first name, last name, and date of birth.
 3. **Form Validation:** Ensure the updated personal information meets the necessary criteria (non-empty name fields, valid date for date of birth, etc.).
-4. **Saving Changes:** Provide a mechanism to save changes made in the edit mode, ideally with a clear indication (such as a button) that signifies saving changes.
-5. **Modal Background:** When the modal opens, darken or blur the rest of the page behind the modal to help it stand out.
-6. **Close Button:** Make sure the close button is easily visible and clearly indicates its purpose.
+4. **Modal Background:** When the modal opens, darken or blur the rest of the page behind the modal to help it stand out.
+5. **Close Button:** Make sure the close button is easily visible and clearly indicates its purpose.
 
 
 #### Visual Implementation Ideas

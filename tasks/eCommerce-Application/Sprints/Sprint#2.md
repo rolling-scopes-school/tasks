@@ -12,60 +12,60 @@ In the second sprint, the team will focus on implementing both the login and reg
 ### CrossCheck Criteria (225 points):
 
 ### Routing Implementation (30 points - Total)
-- **(15 points)** Implement routing for navigation between login, registration, and main pages. [RSS-ECOMM-43](./Sprint2/RSS-ECOMM-43.md)
-- **(15 points)** Implement a 404 (Not Found) page for invalid route requests. [RSS-ECOMM-44](./Sprint2/RSS-ECOMM-44.md)
+- **(15 points)** Implement routing for navigation between login, registration, and main pages. [RSS-ECOMM-2_22](./Sprint2/RSS-ECOMM-2_22.md)
+- **(15 points)** Implement a 404 (Not Found) page for invalid route requests. [RSS-ECOMM-2_23](./Sprint2/RSS-ECOMM-2_23.md)
 
 ### Login Page Implementation (80 points - Total)
 
 #### Requirements
 
 #### 1. Input Validation (20 points)
-- **(10 points)** Implement client-side validation for the login form, including email and password fields. [RSS-ECOMM-22](./Sprint2/RSS-ECOMM-22.md)
-- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email. [RSS-ECOMM-23](./Sprint2/RSS-ECOMM-23.md)
+- **(10 points)** Implement client-side validation for the login form, including email and password fields. [RSS-ECOMM-2_01](./Sprint2/RSS-ECOMM-2_01.md)
+- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email. [RSS-ECOMM-2_02](./Sprint2/RSS-ECOMM-2_02.md)
 
 #### 2. Integration with Authentication Service (20 points)
-- **(10 points)** Integrate the login form with a chosen authentication service (e.g., CommerceTools, Firebase, etc.) to handle user authentication. [RSS-ECOMM-24](./Sprint2/RSS-ECOMM-24.md)
-- **(10 points)** Implement error handling for failed authentication attempts, such as incorrect email or password, and display user-friendly error messages. [RSS-ECOMM-25](./Sprint2/RSS-ECOMM-25.md)
+- **(10 points)** Integrate the login form with a chosen authentication service (e.g., CommerceTools, Firebase, etc.) to handle user authentication. [RSS-ECOMM-2_03](./Sprint2/RSS-ECOMM-2_03.md)
+- **(10 points)** Implement error handling for failed authentication attempts, such as incorrect email or password, and display user-friendly error messages. [RSS-ECOMM-2_04](./Sprint2/RSS-ECOMM-2_04.md)
 
 #### 3. State Management and Redirection (30 points)
-- **(10 points)** Maintain user authentication state within the application. [RSS-ECOMM-26](./Sprint2/RSS-ECOMM-26.md)
-- **(10 points)** Redirect users to the application's main page upon successful login. [RSS-ECOMM-27](./Sprint2/RSS-ECOMM-27.md)
-- **(10 points)** Redirect users who are already logged in to the main page if they try to access the login page. [RSS-ECOMM-28](./Sprint2/RSS-ECOMM-28.md)
+- **(10 points)** Maintain user authentication state within the application. [RSS-ECOMM-2_05](./Sprint2/RSS-ECOMM-2_05.md)
+- **(10 points)** Redirect users to the application's main page upon successful login. [RSS-ECOMM-2_06](./Sprint2/RSS-ECOMM-2_06.md)
+- **(10 points)** Redirect users who are already logged in to the main page if they try to access the login page. [RSS-ECOMM-2_07](./Sprint2/RSS-ECOMM-2_07.md)
 
 #### 4. Handle Authentication Token (10 points)
-- **(5 points)** Obtain the authentication token securely after a successful login attempt by sending a request to the token endpoint (e.g., https://auth.europe-west1.gcp.commercetools.com/oauth/project_key/customers/token), allowing for seamless user authentication across the application. [RSS-ECOMM-29](./Sprint2/RSS-ECOMM-29.md)
+- **(5 points)** Obtain the authentication token securely after a successful login attempt by sending a request to the token endpoint (e.g., https://auth.europe-west1.gcp.commercetools.com/oauth/project_key/customers/token), allowing for seamless user authentication across the application. [RSS-ECOMM-2_08](./Sprint2/RSS-ECOMM-2_08.md)
 
 #### 5. Navigation to Registration Page (5 points)
-- **(5 points)** Add a button or link on the login page that allows users to navigate to the registration page. [RSS-ECOMM-30](./Sprint2/RSS-ECOMM-30.md)
+- **(5 points)** Add a button or link on the login page that allows users to navigate to the registration page. [RSS-ECOMM-2_09](./Sprint2/RSS-ECOMM-2_09.md)
 
 ### Registration Page Implementation (95 points - Total)
 
 #### Requirements
 
 ##### 1. Input Validation (20 points)
-- **(10 points)** Implement client-side validation for all required fields in the registration form, such as email, password, first name, last name, date of birth, and address fields (e.g., street, city, postal code, and country) for proper use with CommerceTools. [RSS-ECOMM-31](./Sprint2/RSS-ECOMM-31.md)
-- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email or a weak password. [RSS-ECOMM-32](./Sprint2/RSS-ECOMM-32.md)
+- **(10 points)** Implement client-side validation for all required fields in the registration form, such as email, password, first name, last name, date of birth, and address fields (e.g., street, city, postal code, and country) for proper use with CommerceTools. [RSS-ECOMM-2_10](./Sprint2/RSS-ECOMM-2_10.md)
+- **(10 points)** Display clear error messages indicating any validation issues, such as an improperly formatted email or a weak password. [RSS-ECOMM-2_11](./Sprint2/RSS-ECOMM-2_11.md)
 
 ##### 2. Integration with Authentication Service (20 points)
-- **(10 points)** Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration. [RSS-ECOMM-33](./Sprint2/RSS-ECOMM-33.md)
-- **(10 points)** Implement error handling for failed registration attempts, and display user-friendly error messages. [RSS-ECOMM-34](./Sprint2/RSS-ECOMM-34.md)
+- **(10 points)** Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration. [RSS-ECOMM-2_12](./Sprint2/RSS-ECOMM-2_12.md)
+- **(10 points)** Implement error handling for failed registration attempts, and display user-friendly error messages. [RSS-ECOMM-2_13](./Sprint2/RSS-ECOMM-2_13.md)
 
 ##### 3. State Management, Automatic Login, and Redirection (30 points)
-- **(15 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application. [RSS-ECOMM-35](./Sprint2/RSS-ECOMM-35.md)
-- **(15 points)** Redirect users to the application's main page upon successful account creation and automatic login. [RSS-ECOMM-36](./Sprint2/RSS-ECOMM-36.md)
+- **(15 points)** Upon successful account creation, automatically log in the user, save the authentication token securely, and maintain the user authentication state within the application. [RSS-ECOMM-2_14](./Sprint2/RSS-ECOMM-2_14.md)
+- **(15 points)** Redirect users to the application's main page upon successful account creation and automatic login. [RSS-ECOMM-2_15](./Sprint2/RSS-ECOMM-2_15.md)
 
 ##### 4. Integration with commercetools (or alternative) for User Profiles and Addresses (20 points)
-- **(10 points)** Allow users to set a default address during registration. [RSS-ECOMM-37](./Sprint2/RSS-ECOMM-37.md)
-- **(10 points)** Enable users to select different billing and shipping addresses or choose a single address for both billing and shipping during the registration process. [RSS-ECOMM-38](./Sprint2/RSS-ECOMM-38.md)
+- **(10 points)** Allow users to set a default address during registration. [RSS-ECOMM-2_16](./Sprint2/RSS-ECOMM-2_16.md)
+- **(10 points)** Enable users to select different billing and shipping addresses or choose a single address for both billing and shipping during the registration process. [RSS-ECOMM-2_17](./Sprint2/RSS-ECOMM-2_17.md)
 
 ##### 5. Navigation to Login Page (5 points)
-- **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page. [RSS-ECOMM-39](./Sprint2/RSS-ECOMM-39.md)
+- **(5 points)** Add a button or link on the registration page that allows users to navigate to the login page. [RSS-ECOMM-2_18](./Sprint2/RSS-ECOMM-2_18.md)
 
 ### Evaluation Criteria for Header (20 points - Total)
 
-- **(10 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-40](./Sprint2/RSS-ECOMM-40.md)
+- **(10 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-2_19](./Sprint2/RSS-ECOMM-2_19.md)
 - **(5 points)** Ability to access the main page for all users [RSS-ECOMM-41](./Sprint2/RSS-ECOMM-41.md)
-- **(5 points)** Logout functionality for authorized users [RSS-ECOMM-42](./Sprint2/RSS-ECOMM-42.md)
+- **(5 points)** Logout functionality for authorized users [RSS-ECOMM-2_21](./Sprint2/RSS-ECOMM-2_21.md)
 
 ### Mentor Evaluation Criteria (60 points - Total):
 

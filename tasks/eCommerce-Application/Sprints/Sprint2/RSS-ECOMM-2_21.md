@@ -1,4 +1,4 @@
-### RSS-ECOMM-42: Logout Functionality for Authorized Users (5 points)
+### RSS-ECOMM-2_21: Logout Functionality for Authorized Users (5 points)
 
 #### Description
 Authorized users should have the ability to log out of their accounts. There should be a clear and visible link or button in the header allowing users to log out. The link or button can be implemented using various methods, such as a text link, a styled button, or an icon with a label. Upon logging out, the authentication token should be removed from the storage where it was saved (e.g., cookie, localStorage, or sessionStorage).
