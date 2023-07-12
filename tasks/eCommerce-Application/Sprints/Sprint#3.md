@@ -2,7 +2,7 @@
 
 In this sprint, the team will focus on implementing the Catalog Product page, the Detailed Product page, and the User Profile page. This includes fetching and displaying a list of products with essential details, implementing filtering, sorting, and searching functionality, designing interactive product cards, and providing navigation between product categories. All these features should be built using the commercetools API, or any other simple API, for product data retrieval and management.
 
-For the Detailed Product page, it should provide a comprehensive and user-friendly experience by displaying extensive product information, allowing users to choose between product variations and quantities, enabling them to add or remove products from their shopping cart or wishlist, and initiating the checkout process with a "Buy and Pay" button. The page should feature an image slider, a modal window for enlarged product images, breadcrumb navigation, and widgets for selecting product options.
+For the Detailed Product page, it should provide a comprehensive and user-friendly experience by displaying extensive product information. The page should feature an image slider, a modal window for enlarged product images, breadcrumb navigation, and widgets for selecting product options.
 
 The User Profile page should present the user's personal information, including their first name, last name, date of birth, and a list of their addresses. Additionally, it should provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses.
 
