@@ -184,7 +184,7 @@ At the end of this week, all students will be required to use typescript and adh
 </details>
 
 ## Неделя #11. 01/08/2023
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -199,7 +199,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Неделя #12. 08/08/2023
 
-- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
+- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
 
 
@@ -211,7 +211,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Неделя #13. 15/08/2023
 
-- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
+- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
