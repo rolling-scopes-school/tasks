@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_12: Initialize Husky (4 points)
+### Issue RSS-ECOMM-1_12: Initialize Husky (8 points)
 
 #### Description
 
