@@ -1,15 +1,19 @@
-### Redirect users to the main page upon successful login (7 points)
+### Redirect logged-in users to the main page from the login page (10 points)
 
 #### Description
-Redirect users to the application's main page upon successful login, allowing them to access the main features and content of the application. The main page can contain simple text (e.g., "Main") or any other content to demonstrate that the user is successfully logged in. Ensure that the URL in the address bar is changed to the main page's URL, properly handling navigation and user experience during redirection.
 
-#### URL Change and Redirection Tasks
-- Implement a function or module in your application that handles successful authentication by redirecting users from the login page to the main page.
-- Update the URL in the address bar to reflect the correct URL for the main page (e.g., "/main") upon successful login and redirection.
-- Ensure that the browser's navigation (history) is updated correctly when redirecting users to the main page, allowing them to use the back button to navigate to the previous page if necessary.
-- Make sure that the user's authentication state is preserved during the redirection process, allowing them to stay logged in when accessing the main page.
+Redirect users who are already logged into the application to the main page if they attempt to access the login page. Ensure a smooth and seamless user experience by properly checking the user's authentication state, updating the URL in the address bar, and handling navigation during the redirection process.
+
+#### Redirection and Authentication State Checking Tasks
+
+- Implement a function, service, or route guard in your application that checks whether a user is already authenticated when they attempt to visit the login page.
+- If the user is authenticated, redirect them to the main page, preventing access to the login page while they are logged in.
+- Update the URL in the address bar to reflect the correct URL for the main page (e.g., "/main") for authenticated users redirected from the login page.
+- Ensure that the browser's navigation (history) is updated correctly when redirecting authenticated users to the main page.
 
 #### Acceptance Criteria
-- After successful authentication, users are redirected to the main page of the application, which contains simple text ("Main") or any other content.
-- The URL in the address bar is changed to the main page's URL upon redirection.
-- Proper handling of navigation and user experience during redirection, including browser history updates and preserving authentication state.
+
+- Authenticated users who attempt to visit the login page are automatically redirected to the main page.
+- The URL in the address bar is changed to the main page's URL for authenticated users redirected from the login page.
+- Redirection maintains the user's authentication state during the process.
+- Proper handling of navigation and user experience during redirection, including updating browser history.

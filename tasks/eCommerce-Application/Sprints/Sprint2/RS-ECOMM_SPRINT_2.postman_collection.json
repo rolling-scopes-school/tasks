@@ -1,287 +1,261 @@
 {
-	"info": {
-		"_postman_id": "cd27c4e8-ad50-40f5-99fc-5d9e13bc7b89",
-		"name": "RS-ECOMM",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "00-Obtain access CT token",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"var data = JSON.parse(responseBody);",
-							"if(data.access_token){",
-							"    postman.setGlobalVariable(\"CT_ACCESS_TOKEN\", data.access_token);",
-							"}"
-						],
-						"type": "text/javascript"
-					}
-				},
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							"\r",
-							"\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "password",
-							"value": "{{CT_CLIENT_SECRET}}",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "{{CT_CLIENT_ID}}",
-							"type": "string"
-						},
-						{
-							"key": "showPassword",
-							"value": false,
-							"type": "boolean"
-						}
-					]
-				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": []
-				},
-				"url": {
-					"raw": "{{CT_AUTH_URL}}/oauth/token?grant_type=client_credentials",
-					"host": [
-						"{{CT_AUTH_URL}}"
-					],
-					"path": [
-						"oauth",
-						"token"
-					],
-					"query": [
-						{
-							"key": "grant_type",
-							"value": "client_credentials"
-						}
-					]
-				},
-				"description": "Use this request to obtain an access token for your commercetools platform project via Client Credentials Flow. As a prerequisite you must have filled out environment variables in Postman for projectKey, client_id and client_secret to use this."
-			},
-			"response": []
-		},
-		{
-			"name": "getCustomerToken",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"var data = JSON.parse(responseBody);",
-							"if(data.access_token){",
-							"    postman.setGlobalVariable(\"CT_ACCESS_TOKEN\", data.access_token);",
-							"}"
-						],
-						"type": "text/javascript"
-					}
-				},
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							"postman.setGlobalVariable(\"USER_EMAIL\", 'valery@epam.com');\r",
-							"postman.setGlobalVariable(\"CT_CUST_PASS\", 'passwsord');\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "password",
-							"value": "{{CT_CLIENT_SECRET}}",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "{{CT_CLIENT_ID}}",
-							"type": "string"
-						},
-						{
-							"key": "showPassword",
-							"value": false,
-							"type": "boolean"
-						}
-					]
-				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{CT_AUTH_URL}}/oauth/{{CT_PRJ_KEY}}/customers/token?grant_type=password&username={{USER_EMAIL}}&password={{CT_CUST_PASS}}",
-					"host": [
-						"{{CT_AUTH_URL}}"
-					],
-					"path": [
-						"oauth",
-						"{{CT_PRJ_KEY}}",
-						"customers",
-						"token"
-					],
-					"query": [
-						{
-							"key": "grant_type",
-							"value": "password"
-						},
-						{
-							"key": "username",
-							"value": "{{USER_EMAIL}}"
-						},
-						{
-							"key": "password",
-							"value": "{{CT_CUST_PASS}}"
-						}
-					]
-				},
-				"description": "Use this request to obtain an access token for your commercetools platform project via Client Credentials Flow. As a prerequisite you must have filled out environment variables in Postman for projectKey, client_id and client_secret to use this."
-			},
-			"response": []
-		},
-		{
-			"name": "Create-Customer",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							"postman.setGlobalVariable(\"USER_ID\", '31112323d123sd23-123112313');\r",
-							"postman.setGlobalVariable(\"USER_EMAIL\", 'valery1@epam.com');\r",
-							"postman.setGlobalVariable(\"CUST_PASS\", 'password');\r",
-							"postman.setGlobalVariable(\"USER_FULL_NAME\", 'John Doe3');\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"var data = JSON.parse(responseBody);",
-							"// postman.setGlobalVariable(\"CT_CUSTOMER_ID\", data.customer.id); "
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer {{CT_ACCESS_TOKEN}}"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"customerNumber\": \"{{LMS_USER_ID}}\",\n    \"email\": \"{{LMS_USER_EMAIL}}\",\n    \"password\": \"{{CT_CUST_PASS}}\",\n    \"key\": \"{{LMS_USER_ID}}\",\n    \"firstName\": \"{{LMS_USER_FULL_NAME}}\",\n    \"lastName\": \"{{LMS_USER_EMAIL}}\"\n}"
-				},
-				"url": {
-					"raw": "{{CT_API_URL}}/{{CT_PRJ_KEY}}/customers/",
-					"host": [
-						"{{CT_API_URL}}"
-					],
-					"path": [
-						"{{CT_PRJ_KEY}}",
-						"customers",
-						""
-					]
-				},
-				"description": "http://dev.commercetools.com/http-api-projects-customers.html#create-customer-sign-up"
-			},
-			"response": []
-		}
-	],
-	"auth": {
-		"type": "apikey",
-		"apikey": [
-			{
-				"key": "key",
-				"value": "X-API-Key",
-				"type": "string"
-			}
-		]
-	},
-	"event": [
-		{
-			"listen": "prerequest",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		},
-		{
-			"listen": "test",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		}
-	],
-	"variable": [
-		{
-			"key": "CT_AUTH_URL",
-			"value": "https://auth.europe-west1.gcp.commercetools.com",
-			"type": "string"
-		},
-		{
-			"key": "CT_PRJ_KEY",
-			"value": "COPY_FROM_CT",
-			"type": "string"
-		},
-		{
-			"key": "CT_CLIENT_ID",
-			"value": "COPY_FROM_CT",
-			"type": "string"
-		},
-		{
-			"key": "CT_CLIENT_SECRET",
-			"value": "COPY_FROM_CT",
-			"type": "string"
-		},
-		{
-			"key": "CT_API_URL",
-			"value": "https://api.europe-west1.gcp.commercetools.com",
-			"type": "string"
-		}
-	]
+  "info": {
+    "_postman_id": "cd27c4e8-ad50-40f5-99fc-5d9e13bc7b89",
+    "name": "RS-ECOMM",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "00-Obtain access CT token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var data = JSON.parse(responseBody);",
+              "if(data.access_token){",
+              "    postman.setGlobalVariable(\"CT_ACCESS_TOKEN\", data.access_token);",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": ["\r", "\r", ""],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "{{CT_CLIENT_SECRET}}",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "{{CT_CLIENT_ID}}",
+              "type": "string"
+            },
+            {
+              "key": "showPassword",
+              "value": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{CT_AUTH_URL}}/oauth/token?grant_type=client_credentials",
+          "host": ["{{CT_AUTH_URL}}"],
+          "path": ["oauth", "token"],
+          "query": [
+            {
+              "key": "grant_type",
+              "value": "client_credentials"
+            }
+          ]
+        },
+        "description": "Use this request to obtain an access token for your commercetools platform project via Client Credentials Flow. As a prerequisite you must have filled out environment variables in Postman for projectKey, client_id and client_secret to use this."
+      },
+      "response": []
+    },
+    {
+      "name": "getCustomerToken",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var data = JSON.parse(responseBody);",
+              "if(data.access_token){",
+              "    postman.setGlobalVariable(\"CT_ACCESS_TOKEN\", data.access_token);",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "postman.setGlobalVariable(\"USER_EMAIL\", 'valery@epam.com');\r",
+              "postman.setGlobalVariable(\"CT_CUST_PASS\", 'passwsord');\r",
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "{{CT_CLIENT_SECRET}}",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "{{CT_CLIENT_ID}}",
+              "type": "string"
+            },
+            {
+              "key": "showPassword",
+              "value": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{CT_AUTH_URL}}/oauth/{{CT_PRJ_KEY}}/customers/token?grant_type=password&username={{USER_EMAIL}}&password={{CT_CUST_PASS}}",
+          "host": ["{{CT_AUTH_URL}}"],
+          "path": ["oauth", "{{CT_PRJ_KEY}}", "customers", "token"],
+          "query": [
+            {
+              "key": "grant_type",
+              "value": "password"
+            },
+            {
+              "key": "username",
+              "value": "{{USER_EMAIL}}"
+            },
+            {
+              "key": "password",
+              "value": "{{CT_CUST_PASS}}"
+            }
+          ]
+        },
+        "description": "Use this request to obtain an access token for your commercetools platform project via Client Credentials Flow. As a prerequisite you must have filled out environment variables in Postman for projectKey, client_id and client_secret to use this."
+      },
+      "response": []
+    },
+    {
+      "name": "Create-Customer",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "postman.setGlobalVariable(\"USER_ID\", '31112323d123sd23-123112313');\r",
+              "postman.setGlobalVariable(\"USER_EMAIL\", 'valery1@epam.com');\r",
+              "postman.setGlobalVariable(\"CUST_PASS\", 'password');\r",
+              "postman.setGlobalVariable(\"USER_FULL_NAME\", 'John Doe3');\r",
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var data = JSON.parse(responseBody);",
+              "// postman.setGlobalVariable(\"CT_CUSTOMER_ID\", data.customer.id); "
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{CT_ACCESS_TOKEN}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customerNumber\": \"{{LMS_USER_ID}}\",\n    \"email\": \"{{LMS_USER_EMAIL}}\",\n    \"password\": \"{{CT_CUST_PASS}}\",\n    \"key\": \"{{LMS_USER_ID}}\",\n    \"firstName\": \"{{LMS_USER_FULL_NAME}}\",\n    \"lastName\": \"{{LMS_USER_EMAIL}}\"\n}"
+        },
+        "url": {
+          "raw": "{{CT_API_URL}}/{{CT_PRJ_KEY}}/customers/",
+          "host": ["{{CT_API_URL}}"],
+          "path": ["{{CT_PRJ_KEY}}", "customers", ""]
+        },
+        "description": "http://dev.commercetools.com/http-api-projects-customers.html#create-customer-sign-up"
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "X-API-Key",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "CT_AUTH_URL",
+      "value": "https://auth.europe-west1.gcp.commercetools.com",
+      "type": "string"
+    },
+    {
+      "key": "CT_PRJ_KEY",
+      "value": "COPY_FROM_CT",
+      "type": "string"
+    },
+    {
+      "key": "CT_CLIENT_ID",
+      "value": "COPY_FROM_CT",
+      "type": "string"
+    },
+    {
+      "key": "CT_CLIENT_SECRET",
+      "value": "COPY_FROM_CT",
+      "type": "string"
+    },
+    {
+      "key": "CT_API_URL",
+      "value": "https://api.europe-west1.gcp.commercetools.com",
+      "type": "string"
+    }
+  ]
 }
