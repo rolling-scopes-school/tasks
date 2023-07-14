@@ -1,8 +1,0 @@
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "files.eol": "\r\n",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
