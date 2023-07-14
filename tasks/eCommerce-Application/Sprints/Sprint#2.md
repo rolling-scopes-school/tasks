@@ -1,6 +1,6 @@
-## Sprint 2: Login and Registration Pages Implementation
+## Sprint 2: Login, Registration, and Main Pages Implementation
 
-In the second sprint, the team will focus on implementing both the login and registration pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, providing a button to navigate between the login and registration pages, and implementing routing for proper navigation. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones. The mentor will also evaluate the team's progress using separate evaluation criteria.
+In the second sprint, the team will focus on implementing the login, registration and main pages, including input validation, integration with an authentication service, managing user authentication state, saving the authentication token, providing buttons to navigate between the login and registration pages, and implementing routing for proper navigation. The team's progress will be evaluated through a cross-check process, where other students will assign points based on achieving specific goals and milestones. The mentor will also evaluate the team's progress using separate evaluation criteria.
 
 ### Working with the Repository
 
@@ -32,7 +32,7 @@ In the second sprint, the team will focus on implementing both the login and reg
 
 #### 4. Handle Authentication Token (10 points)
 
-- **(5 points)** Obtain the authentication token securely after a successful login attempt by sending a request to the token endpoint (e.g., https://auth.europe-west1.gcp.commercetools.com/oauth/project_key/customers/token), allowing for seamless user authentication across the application. [RSS-ECOMM-2_07](./Sprint2/RSS-ECOMM-2_07.md)
+- **(10 points)** Obtain the authentication token securely after a successful login attempt by sending a request to the token endpoint (e.g., https://auth.europe-west1.gcp.commercetools.com/oauth/project_key/customers/token), allowing for seamless user authentication across the application. [RSS-ECOMM-2_07](./Sprint2/RSS-ECOMM-2_07.md)
 
 #### 5. Navigation to Registration Page (5 points)
 
