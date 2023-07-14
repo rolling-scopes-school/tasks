@@ -77,4 +77,4 @@ To help the team understand the various tools and technologies used in this proj
 ### Here is the final points distribution:
 
 - Mentor Evaluation Criteria: 145 points
-- Total points for Sprint 4: 145 points
+- Total points for Sprint 1: 145 points

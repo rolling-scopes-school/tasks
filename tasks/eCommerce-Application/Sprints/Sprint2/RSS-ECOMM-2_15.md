@@ -1,19 +1,24 @@
-### Redirect users to the main page upon successful account creation and automatic login (10 points)
+### Enable users to select different billing and shipping addresses during registration (15 points)
 
 #### Description
-Redirect users to the application's main page, displaying personalized content, upon successful account creation and automatic login. Ensure a smooth transition and handle redirection in a way that accounts for browser history, so users can utilize the back and forward navigation buttons seamlessly.
 
-To implement the redirection process, consider the following recommendations:
+During the registration process, give users the ability to provide different addresses for billing and shipping. Users may also have the option to use the same address for both billing and shipping. Once registration is successful, the chosen addresses should be saved in the user's profile.
 
-- Use the routing or navigation functionality provided by the front-end framework or libraries of your choice.
-- If you are not using a front-end framework, refer to these resources for redirection in plain TypeScript:
-  - [window.location documentation - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/location) to understand how to use the `window.location` API for navigation.
-  - [History API documentation - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/History) to learn about the `history.pushState()` and `history.replaceState()` methods for managing browser history.
-- Ensure that the user's authentication state is updated and properly maintained throughout the application so that they can access personalized content when redirected to the main page.
-- Merely hiding the registration form and showing the main page is not enough; make sure that the user is redirected to a new page or route.
-- Utilize client-side routing techniques to minimize loading time and provide a more seamless user experience.
+#### Business Logic Solution Idea
+
+- In the registration form, include separate input fields for billing and shipping addresses.
+- Additionally, provide a checkbox that users can tick if they want to use the same address for both billing and shipping. If checked, the application should copy the values from one set of fields to the other.
+- When the user submits the form, send a request to the commercetools API to create a new customer. Include the billing and shipping address information in the request body, as described in the [commercetools CustomerDraft documentation](https://docs.commercetools.com/api/projects/customers#ctp:api:type:CustomerDraft).
+
+#### Visual Implementation Ideas
+
+- Clearly label the input fields for billing and shipping addresses.
+- Place the checkbox for using the same address for both purposes in a prominent location on the form.
 
 #### Acceptance Criteria
-- Users are redirected to the main page upon successful account creation and automatic login
-- The redirection process takes into account browser history for seamless navigation
-- Proper use of the chosen front-end framework or library for handling routing and navigation, or implementation of plain TypeScript solutions when not using a front-end framework
+
+- Users can enter separate addresses for billing and shipping during the registration process.
+- Users can choose to use the same address for both billing and shipping.
+- The chosen addresses are saved in the user profile upon successful registration.
+- The user interface clearly distinguishes between input fields for billing and shipping addresses.
+- Proper integration with the commercetools API for storing billing and shipping address information.

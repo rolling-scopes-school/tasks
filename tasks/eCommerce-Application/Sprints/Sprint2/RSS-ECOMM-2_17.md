@@ -1,8 +1,15 @@
-### Enable users to select different billing and shipping addresses during registration (10 points)
+### Add links to all functional pages on the main page (10 points)
 
 #### Description
-Allow users to provide separate addresses for billing and shipping during registration if they wish to do so. Alternatively, they can choose to use a single address for both purposes. Save the chosen addresses in their user profile upon successful registration.
+
+In order to make navigation easier for users, add links to all functional pages of the application on the main page. These links should include, but not be limited to, the login and registration pages.
+
+#### Visual Implementation Ideas
+
+- Position the links in a visible and accessible place on the main page. They could be placed in a top navigation bar or in a sidebar, depending on the layout of the application.
+- Consider using descriptive labels for the links to help users understand where each link will take them. For instance, "Login" for the login page and "Register" for the registration page.
 
 #### Acceptance Criteria
-- Users can select different addresses for billing and shipping or use a single address for both purposes
-- The chosen addresses are saved in the user profile upon successful registration
+
+- Links to all functional pages of the application are present on the main page, including the login and registration pages.
+- The links are clearly visible and accessible to users, making the navigation easy and intuitive.

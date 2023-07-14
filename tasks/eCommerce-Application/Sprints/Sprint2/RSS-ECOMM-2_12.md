@@ -1,14 +1,21 @@
-### Integrate the registration form with a chosen authentication service (10 points)
+### Implement error handling for failed registration attempts (10 points)
 
 #### Description
-Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration. Ensure that the registration process is secure and follows best practices for handling user information. In the case of commercetools, you can refer to their API documentation for customer registration here: [commercetools API - Create/Sign up Customer](https://docs.commercetools.com/api/projects/customers#create-sign-up-customer).
 
-Upon successful account creation, display a success message to the user, informing them that their account has been created. The message should be clear, concise, and visually accessible.
+Implement error handling for_failed_registration_attempts, including, but not limited to, the following scenarios:
 
-You can check the successful creation of a customer using the browser's DevTools Network tab. When a customer is successfully created, you will see a response like the one documented here: [Customer Created Message](https://docs.commercetools.com/api/projects/messages#ctp:api:type:CustomerCreatedMessage).
+- An email address that already exists in the system: Inform the user that an account with the provided email address already exists, and suggest that they either log in or use another email address.
+- Server-side issues during registration: Display a user-friendly error message to inform the user that something went wrong during the registration process and that they should try again later.
+- Invalid input that bypasses client-side validation: Ensure any input that somehow bypasses client-side validation is appropriately handled by backend error handling.
+
+Display user-friendly error messages that inform users about the issues and how to correct them. You can follow the UI suggestions mentioned in [RSS-ECOMM-2_10](./RSS-ECOMM-2_10.md) for effectively highlighting the errors. Some of the suggested methods include using colors, icon indicators, border styling, and tooltips or popovers to make error messages clear, concise, and visually accessible.
 
 #### Acceptance Criteria
-- Successful user registration with the chosen authentication service
-- Proper submission of user information to the authentication service backend
-- A success message is displayed to the user upon successful account creation
-- Verification of successful customer creation using the browser's DevTools Network tab
+
+- Proper error handling during the registration process
+- Display user-friendly error messages for_failed_registration_attempts, including the scenarios mentioned above
+- Selected UI elements are used effectively to highlight failed registration attempt errors and improve user experience
+
+#### Useful Links and Resources
+
+1. [toastify-js](https://github.com/apvarun/toastify-js#readme)

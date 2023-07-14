@@ -1,19 +1,16 @@
-### Allow users to set a default address during registration (10 points)
+### Add a button or link on the registration page that allows users to navigate to the login page (5 points)
 
 #### Description
-When users enter their address information during registration, provide an option to save the address as their default address. This default address can be used for future transactions involving shipping or billing.
 
-According to the [commercetools CustomerDraft documentation](https://docs.commercetools.com/api/projects/customers#ctp:api:type:CustomerDraft), the properties `defaultShippingAddress` and `defaultBillingAddress` can be used to store default addresses. You can either store individual address IDs or store the complete address information in these properties.
+On the registration page, add a button or link that redirects users to the login page if they already have an account. This button or link should be easily noticeable and accessible, adhering to the best user interface design practices.
 
-For example, if a user sets an address as their default shipping address during registration, you can either save the address ID to the `defaultShippingAddress` property, or save the full address details.
+#### Visual Implementation Ideas
 
-To implement this feature, consider the following steps:
-
-- During registration, ensure that users can provide address information with the option to set an address as their default shipping and/or default billing address.
-- Integrate the registration process with the commercetools API and update the customer resource with the provided address information and default address selection.
-- Store the default address information according to the [commercetools CustomerDraft documentation](https://docs.commercetools.com/api/projects/customers#ctp:api:type:CustomerDraft).
+- Position the button or link strategically on the page so that it's easily noticeable. It could be placed below the registration form or near the top of the page for easy access.
+- The button or link could say something like "Already have an account? Login".
+- Use contrasting colors or fonts to make the button or link stand out.
 
 #### Acceptance Criteria
-- Users can set a default address while registering
-- The default address is saved in the user profile upon successful registration
-- Proper integration with the commercetools API for storing default address information
+
+- The registration page includes a clear and visible button or link.
+- Upon clicking the button or link, the user is redirected to the login page.

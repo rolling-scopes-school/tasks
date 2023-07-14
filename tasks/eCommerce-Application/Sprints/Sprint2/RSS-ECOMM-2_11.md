@@ -1,16 +1,16 @@
-### Display clear error messages for invalid inputs in the registration form (10 points)
+### Integrate the registration form with a chosen authentication service (10 points)
 
 #### Description
-Display clear and user-friendly error messages indicating any validation issues, such as an improperly formatted email address, a weak password, or incomplete address information. Make sure that error messages are shown next to the corresponding input fields and have an accessible design for users.
 
-UI suggestions for highlighting errors (not all methods are required; you can choose the most suitable ones for your design):
+Integrate the registration form with a chosen authentication service, such as commercetools, to handle user registration. Ensure that the registration process is secure and follows best practices for handling user information. In the case of commercetools, you can refer to their API documentation for customer registration here: [commercetools API - Create/Sign up Customer](https://docs.commercetools.com/api/projects/customers#create-sign-up-customer).
 
-- Use colors to indicate errors: Display error messages in a contrasting color, such as red, to make them easily visible and distinguishable from the input text.
-- Icon indicators: Show an error or warning icon next to the input field with the validation issue.
-- Border styling: Change the border color or style of the input field to signify a validation error.
-- Tooltips or popovers: Show tooltips or popovers on hovering or focusing the input field with validation issues that provide more details on the error.
+Upon successful account creation, display a success message to the user, informing them that their account has been created. The message should be clear, concise, and visually accessible.
+
+You can check the successful creation of a customer using the browser's DevTools Network tab. When a customer is successfully created, you will see a response like the one documented here: [Customer Created Message](https://docs.commercetools.com/api/projects/messages#ctp:api:type:CustomerCreatedMessage).
 
 #### Acceptance Criteria
-- Error messages are displayed for each invalid input in the registration form
-- Error messages are clear, concise, and visually accessible
-- Selected UI elements are used effectively to highlight validation errors and improve user experience
+
+- Successful user registration with the chosen authentication service
+- Proper submission of user information to the authentication service backend
+- A success message is displayed to the user upon successful account creation
+- Verification of successful customer creation using the browser's DevTools Network tab

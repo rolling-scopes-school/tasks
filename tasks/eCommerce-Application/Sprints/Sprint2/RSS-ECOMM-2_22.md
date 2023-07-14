@@ -1,14 +1,15 @@
-### Implement routing for navigation between login, registration, and main pages (10 points) [RSS-ECOMM-2_22]
+### Ability to Access the Main Page for All Users via Navigation Button or Logo (5 points)
 
-**Description:**  
-As a user, I should be able to navigate between the login, registration, and main pages using proper routing. Implement routing using a suitable library or framework (e.g., React Router, Angular Routing) or using an implementation suitable for applications without a specific framework.
+#### Description
 
-**Acceptance Criteria:**
-- Routing for navigation between login, registration, and main pages is implemented.
-- Navigation using the implemented routing is smooth, without page refreshes (when applicable, e.g., in a Single Page Application).
-- Route transitions are clear, and the user can easily understand the current route within the application.
-- Browser history management works as expected (user can navigate forward and backward using browser buttons).
+Ensure all users, regardless of authentication status, can navigate back to the main page of the application using a designated navigation button or logo.
 
-**Webinar Resources:**
-- [RS School 2023Q1 Classes, SPA. Part 1.](https://www.youtube.com/watch?v=sOlzPxs_Lg4)
-- [RS School 2023Q1 Classes, SPA. Part 2.](https://www.youtube.com/watch?v=njk5inZIwCc)
+#### Visual Implementation Ideas
+
+1. **Main Page Navigation Button or Logo**: Include a clear and distinct button or a clickable logo in the header that directs users to the main page. These elements should be easily visible and accessible from all pages of the application.
+
+#### Acceptance Criteria
+
+- A navigation button or a clickable logo is present in the header that redirects users to the main page of the application.
+- The navigation button or logo contains a link to the main page URL.
+- Clicking on the navigation button or logo takes the user to the main page from any other page in the application.

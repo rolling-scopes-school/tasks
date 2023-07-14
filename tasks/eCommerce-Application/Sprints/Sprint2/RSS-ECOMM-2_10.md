@@ -1,20 +1,16 @@
-### Implement client-side validation for required fields in the registration form (10 points)
+### Display clear error messages for invalid inputs in the registration form (10 points)
 
 #### Description
-Implement client-side validation for all required fields in the registration form using JavaScript or a front-end library. The fields include:
-- Email: A properly formatted email address (e.g., example@email.com)
-- Password: Minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter, and 1 number
-- First name: Must contain at least one character and no special characters or numbers
-- Last name: Must contain at least one character and no special characters or numbers
-- Date of birth: A valid date input ensuring the user is above a certain age (e.g., 13 years old or older)
-- Address fields:
-  - Street: Must contain at least one character
-  - City: Must contain at least one character and no special characters or numbers
-  - Postal code: Must follow the format for the country (e.g., 12345 or A1B 2C3 for the U.S. and Canada, respectively)
-  - Country: Must be a valid country from a predefined list or autocomplete field
+Display clear and user-friendly error messages indicating any validation issues, such as an improperly formatted email address, a weak password, or incomplete address information. Make sure that error messages are shown next to the corresponding input fields and have an accessible design for users.
 
-Ensure that the chosen validation approach is compatible with CommerceTools or the chosen platform.
+UI suggestions for highlighting errors (not all methods are required; you can choose the most suitable ones for your design):
+
+- Use colors to indicate errors: Display error messages in a contrasting color, such as red, to make them easily visible and distinguishable from the input text.
+- Icon indicators: Show an error or warning icon next to the input field with the validation issue.
+- Border styling: Change the border color or style of the input field to signify a validation error.
+- Tooltips or popovers: Show tooltips or popovers on hovering or focusing the input field with validation issues that provide more details on the error.
 
 #### Acceptance Criteria
-- Each required field in the registration form has validation rules
-- Registration form submission is prevented if the input doesn't meet the requirements
+- Error messages are displayed for each invalid input in the registration form
+- Error messages are clear, concise, and visually accessible
+- Selected UI elements are used effectively to highlight validation errors and improve user experience

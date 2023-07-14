@@ -1,8 +1,11 @@
-### Add a button or link on the registration page that allows users to navigate to the login page (5 points)
+### Ensure all links on the main page correctly redirect to their respective pages (10 points)
 
 #### Description
-Add a button or link on the registration page that allows users to navigate to the login page in case they already have an account. The button or link should be clear, visible, and accessible to users, following best practices for user interface design.
+
+To maintain an effective navigation experience, ensure that all links on the main page accurately redirect the user to their corresponding pages without any errors.
 
 #### Acceptance Criteria
-- A clear and visible button or link is present on the registration page
-- Clicking the button or link takes the user to the login page
+
+- Each link on the main page correctly redirects to the corresponding page.
+- No error occurs during the redirection process.
+- The correct page content is displayed after the redirection.
