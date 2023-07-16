@@ -184,7 +184,7 @@ At the end of this week, all students will be required to use typescript and adh
 </details>
 
 ## Неделя #11. 01/08/2023
-- [RS Clone](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone.md) Разработка в командах 3 чел
+- [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
 
 <details>
   <summary markdown="span">Активности менторов</summary>
@@ -199,38 +199,41 @@ At the end of this week, all students will be required to use typescript and adh
 
 ## Неделя #12. 08/08/2023
 
-- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
+- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
 
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) 
+  - [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
 ## Неделя #13. 15/08/2023
 
-- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
+- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+  - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+  - [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
 
 ## Неделя #14. 22/08/2023
 
-- [Final-Task.Sprint1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/tbd) Разработка в командах 3 чел
+- [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
 
-  - [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+  - [Checking the Draft version of Final-Task.Sprint3](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
   - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
