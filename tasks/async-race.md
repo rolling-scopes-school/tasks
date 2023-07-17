@@ -61,6 +61,7 @@ What are you waiting for? Let's coding!
 
 ## Requirements to commits, PR and repo
 [Stage 2 requirements](https://docs.rs.school/#/en/pull-request-review-process)
+NB: for mentor's check - submit link to PR, for cross-check - submit link to deploy.
 
 ## Key skills
 - Сommunication with a server (fetch, REST API)
