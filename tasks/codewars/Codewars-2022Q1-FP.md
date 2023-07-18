@@ -29,7 +29,7 @@ Codewars - автопроверяемый таск.
 *  5 points - 5 kyu (3 at all)
 *  8 points - 4 kyu (1 at all)
 
-Total: 1*2 + 4*7 + 5*3 + 8*1  = 53
+Total: 1\*2 + 4\*7 + 5\*3 + 8\*1  = 53
 
 **Total sum - 53 points.**
 
