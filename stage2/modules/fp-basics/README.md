@@ -13,7 +13,7 @@
 2 часа
 
 ## Теория 
-- https://doka.guide/js/fp/
+- https://doka.guide/tools/fp/
 - https://doka.guide/js/recursion/
 - https://habr.com/ru/company/ruvds/blog/332384/
 
