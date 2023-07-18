@@ -17,11 +17,11 @@
 2 часа
 
 ## Теория 
-- https://doka.guide/js/how-to-test-and-why/
-- https://doka.guide/js/tdd/
-- https://doka.guide/js/how-to-simplify-tests/
-- https://doka.guide/js/testing-and-fake-objects/
-- https://doka.guide/js/integration-and-system-testing/
+- https://doka.guide/tools/how-to-test-and-why/
+- https://doka.guide/tools/tdd/
+- https://doka.guide/tools/how-to-simplify-tests/
+- https://doka.guide/tools/testing-and-fake-objects/
+- https://doka.guide/tools/integration-and-system-testing/
 
 
 ## Практика 
