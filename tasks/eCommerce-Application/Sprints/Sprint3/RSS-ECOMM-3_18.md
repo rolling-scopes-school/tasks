@@ -1,4 +1,4 @@
-### RSS-ECOMM-63: Manage Addresses in User Profile Page with commercetools API (20 points)
+### Manage Addresses in User Profile Page with commercetools API (15 points)
 
 #### Description
 Users should have the capability to manage their addresses within the application. This feature increases user autonomy and ensures they can maintain their address details up-to-date using the commercetools API. Users should also be able to set default billing and shipping addresses.

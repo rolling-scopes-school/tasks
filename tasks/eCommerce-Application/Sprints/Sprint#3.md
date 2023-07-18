@@ -15,7 +15,7 @@ The User Profile page should present the user's personal information, including 
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (195 points):
+### CrossCheck Criteria (265 points):
 
 ### Catalog Page Implementation (130 points - Total)
 
@@ -52,18 +52,18 @@ The User Profile page should present the user's personal information, including 
 - **(15 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-3_12](./Sprint3/RSS-ECOMM-3_12.md)
 - **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-3_13](./Sprint3/RSS-ECOMM-3_13.md)
 
-### User Profile Page Implementation (0 points)
+### User Profile Page Implementation (70 points)
 
-#### 1. Display User Profile Information (0 points)
+#### 1. Display User Profile Information (30 points)
 
-- **(10 points)** Present the user's personal information, including first name, last name, date of birth, and a list of their addresses in the User Profile page. [RSS-ECOMM-59](./Sprint2/RSS-ECOMM-59.md)
-- **(20 points)** Provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses. [RSS-ECOMM-60](./Sprint3/RSS-ECOMM-60.md)
+- **(10 points)** Present the user's personal information, including first name, last name, date of birth, and a list of their addresses in the User Profile page. [RSS-ECOMM-3_14](./Sprint2/RSS-ECOMM-3_14.md)
+- **(20 points)** Provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses. [RSS-ECOMM-3_15](./Sprint3/RSS-ECOMM-3_15.md)
 
-#### 2. Edit User Profile Information (0 points)
+#### 2. Edit User Profile Information (40 points)
 
-- **(10 points)** In the edit mode, allow users to update their personal information, including first name, last name, and date of birth and email. [RSS-ECOMM-61](./Sprint3/RSS-ECOMM-61.md)
-- **(10 points)** Enable users to change their password. [RSS-ECOMM-62](./Sprint3/RSS-ECOMM-62.md)
-- **(20 points)** Allow users to manage their addresses, including adding new addresses, deleting existing ones, and updating address details. [RSS-ECOMM-63](./Sprint3/RSS-ECOMM-63.md)
+- **(10 points)** In the edit mode, allow users to update their personal information, including first name, last name, and date of birth and email. [RSS-ECOMM-3_16](./Sprint3/RSS-ECOMM-3_16.md)
+- **(15 points)** Enable users to change their password. [RSS-ECOMM-3_17](./Sprint3/RSS-ECOMM-3_17.md)
+- **(15 points)** Allow users to manage their addresses, including adding new addresses, deleting existing ones, and updating address details. [RSS-ECOMM-3_18](./Sprint3/RSS-ECOMM-3_18.md)
 
 ### Routing Implementation (0 points - Total)
 
@@ -89,8 +89,8 @@ The User Profile page should present the user's personal information, including 
 
 - Catalog Page Implementation: 130 points
 - Detailed Product Page Implementation: 65 points
+- Profile Page Implementation: 70 points
 - Routing Implementation: 0 points
-- Profile Page Implementation: 0 points
 - Evaluation Criteria for Header: 0 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 3: 255 points
+- Total points for Sprint 3: 325 points
