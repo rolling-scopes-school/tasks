@@ -1,4 +1,4 @@
-### RSS-ECOMM-57: Implement Enlarged Image Modal (15 points)
+### Implement Enlarged Image Modal (15 points)
 
 #### Description
 When users click on the product image in the Detailed Product Page, a modal window should pop up displaying an enlarged version of the image. This feature would allow users to view the product image in more detail.

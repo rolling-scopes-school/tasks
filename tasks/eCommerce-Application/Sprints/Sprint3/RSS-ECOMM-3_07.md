@@ -1,4 +1,4 @@
-### RSS-ECOMM-51: Redirect to Detailed Product Page (10 points)
+### Redirect to Detailed Product Page (10 points)
 
 #### Description
 When users click on a product card, they should be redirected to a detailed product information page for the selected product.

@@ -1,4 +1,4 @@
-### RSS-ECOMM-50: Interactive Product Cards (20 points)
+### Interactive Product Cards (10 points)
 
 #### Description
 Product cards displayed on the product list page should change their appearance when the user hovers over them. This will enhance the browsing experience by providing visual feedback and making the interface more dynamic.

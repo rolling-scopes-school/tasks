@@ -1,4 +1,4 @@
-### RSS-ECOMM-45: Fetch and Display Product List using Commercetools API (25 points)
+### Fetch and Display Product List using Commercetools API (20 points)
 
 #### Description
 The application should utilize the commercetools API to fetch a list of products with essential details such as the product name, image, and description. The data fetched from the API should be parsed and organized to be displayed on the Catalog Product page, where users can view the list and select individual products for more detailed information.

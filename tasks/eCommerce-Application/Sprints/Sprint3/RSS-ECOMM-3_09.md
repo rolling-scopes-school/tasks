@@ -1,4 +1,4 @@
-### RSS-ECOMM-54: Fetch and Display Product Details using Commercetools API (10 points)
+### Fetch and Display Product Details using Commercetools API (15 points)
 
 #### Description
 The application should utilize the commercetools API to fetch the detailed information such as the product name, description, and images of a selected product. The data fetched from the API should be parsed and organized to be displayed on the Detailed Product page, where users can view all details of the selected product.
