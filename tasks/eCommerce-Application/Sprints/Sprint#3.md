@@ -16,7 +16,7 @@ The User Profile page should present the user's personal information, including 
 ### Evaluation Criteria:
 
 ### CrossCheck Criteria (315 points):
-
+---
 ### Catalog Page Implementation (130 points - Total)
 
 #### 1. Display Product List (35 points)
@@ -39,7 +39,7 @@ The User Profile page should present the user's personal information, including 
 
 - **(25 points)** Implement easy-to-use and clear navigation options for users to explore and switch between different product categories or subcategories using the chosen API (commercetools or any other simple API). [RSS-ECOMM-3_08](./Sprint3/RSS-ECOMM-3_08.md)
 
-### Detailed Product Page Implementation (75 points)
+### Detailed Product Page Implementation (75 points - Total)
 
 #### 1. Display Product Information (50 points)
 
@@ -52,7 +52,7 @@ The User Profile page should present the user's personal information, including 
 - **(15 points)** Allow users to click on the product image to open an enlarged version of the image in a modal window. [RSS-ECOMM-3_12](./Sprint3/RSS-ECOMM-3_12.md)
 - **(10 points)** Enable users to navigate through all product images from the chosen API using a slider inside the modal window. [RSS-ECOMM-3_13](./Sprint3/RSS-ECOMM-3_13.md)
 
-### User Profile Page Implementation (70 points)
+### User Profile Page Implementation (70 points - Total)
 
 #### 1. Display User Profile Information (30 points)
 
@@ -70,7 +70,7 @@ The User Profile page should present the user's personal information, including 
 - **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-3_19](./Sprint3/RSS-ECOMM-3_19.md)
 - **(15 points)** Implement routing for navigation to User Profile page. [RSS-ECOMM-3_20](./Sprint3/RSS-ECOMM-3_20.md)
 
-### Evaluation Criteria for Header (10 points)
+### Evaluation Criteria for Header (10 points - Total)
 
 - **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-3_21](./Sprint3/RSS-ECOMM-3_21.md)
 - **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-3_22](./Sprint3/RSS-ECOMM-3_22.md)
