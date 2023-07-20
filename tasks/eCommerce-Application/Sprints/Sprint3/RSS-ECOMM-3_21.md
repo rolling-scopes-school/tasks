@@ -6,7 +6,6 @@ As a fundamental feature, all users, regardless of their status (logged in or no
 #### Implementation Details
 1. **Navigation Option:** Add a navigation option to the header that directs users to the Catalog page. This could be a text link, an icon, or a combination of both.
 2. **Responsive Design:** Ensure that the navigation option is visible and accessible on different devices and screen sizes.
-3. **Routing:** Implement routing from the navigation option to the Catalog page. This may involve working with your chosen front-end framework's routing library (e.g., React Router for React.js).
 
 #### Visual Implementation Ideas
 1. **Visual Cues:** The navigation option should have some visual indication (like underlining or color change) when hovered or clicked to provide feedback to the user.

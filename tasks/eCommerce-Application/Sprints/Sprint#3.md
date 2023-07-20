@@ -15,7 +15,7 @@ The User Profile page should present the user's personal information, including 
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (265 points):
+### CrossCheck Criteria (305 points):
 
 ### Catalog Page Implementation (130 points - Total)
 
@@ -65,15 +65,15 @@ The User Profile page should present the user's personal information, including 
 - **(15 points)** Enable users to change their password. [RSS-ECOMM-3_17](./Sprint3/RSS-ECOMM-3_17.md)
 - **(15 points)** Allow users to manage their addresses, including adding new addresses, deleting existing ones, and updating address details. [RSS-ECOMM-3_18](./Sprint3/RSS-ECOMM-3_18.md)
 
-### Routing Implementation (0 points - Total)
+### Routing Implementation (30 points - Total)
 
-- **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-64](./Sprint3/RSS-ECOMM-64.md)
-- **(15 points)** Implement routing for navigation to User Profile page. [RSS-ECOMM-65](./Sprint3/RSS-ECOMM-65.md)
+- **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-3_19](./Sprint3/RSS-ECOMM-3_19.md)
+- **(15 points)** Implement routing for navigation to User Profile page. [RSS-ECOMM-3_20](./Sprint3/RSS-ECOMM-3_20.md)
 
 ### Evaluation Criteria for Header (0 points)
 
-- **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-66](./Sprint3/RSS-ECOMM-66.md)
-- **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-67](./Sprint3/RSS-ECOMM-67.md)
+- **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-3_21](./Sprint3/RSS-ECOMM-3_21.md)
+- **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-3_22](./Sprint3/RSS-ECOMM-3_22.md)
 
 
 ### Mentor Evaluation Criteria (60 points - Total):
@@ -90,7 +90,7 @@ The User Profile page should present the user's personal information, including 
 - Catalog Page Implementation: 130 points
 - Detailed Product Page Implementation: 65 points
 - Profile Page Implementation: 70 points
-- Routing Implementation: 0 points
-- Evaluation Criteria for Header: 0 points
+- Routing Implementation: 30 points
+- Evaluation Criteria for Header: 10 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 3: 325 points
+- Total points for Sprint 3: 365 points
