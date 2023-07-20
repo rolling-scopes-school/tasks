@@ -1,4 +1,4 @@
-### RSS-ECOMM-56: Display Product Price and Sale Price (10 points)
+### Display Product Price and Sale Price (10 points)
 
 #### Description
 The application should fetch and display the price for each product from the chosen API on the Detailed Product page. If the product is on sale, both the original price and the sale price should be displayed. The sale price should be clearly distinguished as the current price of the product.

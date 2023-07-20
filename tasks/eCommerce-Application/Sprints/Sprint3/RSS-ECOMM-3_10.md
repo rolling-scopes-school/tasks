@@ -1,4 +1,4 @@
-### RSS-ECOMM-55: Implement an Image Slider for Product Images (25 points)
+### Implement an Image Slider for Product Images (25 points)
 
 #### Description
 As part of the detailed product page, the application should implement an image slider that allows users to view multiple images of a selected product. This image slider should be populated with images fetched from the commercetools API, or any other simple API chosen by the team.

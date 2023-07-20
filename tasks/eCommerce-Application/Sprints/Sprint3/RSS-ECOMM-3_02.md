@@ -1,4 +1,4 @@
-### RSS-ECOMM-46: Display Prices with and Without Discount for Discounted Products (25 points)
+### Display Prices with and Without Discount for Discounted Products (20 points)
 
 #### Description
 For discounted products, the application should display both the original and the discounted price. The discounted price, which is the current price the customer needs to pay, should be made visually distinct to highlight the discount and value for the customer.

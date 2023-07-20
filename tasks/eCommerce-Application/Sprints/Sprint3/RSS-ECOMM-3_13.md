@@ -1,4 +1,4 @@
-### RSS-ECOMM-58: Implement Image Slider in Enlarged Image Modal (10 points)
+### Implement Image Slider in Enlarged Image Modal (10 points)
 
 #### Description
 The enlarged image modal should not only display a single product image but should also include a slider feature, enabling users to navigate through all product images fetched from the chosen API. This allows users to view all images of a product without having to close the modal.

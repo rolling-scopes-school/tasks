@@ -6,7 +6,6 @@ In order to provide users with easy access to their Profile page, a User Profile
 #### Implementation Details
 1. **Navigation Option:** Add a User Profile link or button to the header that directs users to their Profile page. This could be a text link, an icon, or a combination of both.
 2. **Responsive Design:** Ensure that the User Profile link or button is visible and accessible on different devices and screen sizes.
-3. **Routing:** Implement routing from the User Profile link or button to the User Profile page. This may involve working with your chosen front-end framework's routing library (e.g., React Router for React.js).
 
 #### Visual Implementation Ideas
 1. **Visual Cues:** The User Profile link or button should have some visual indication (like underlining or color change) when hovered or clicked to provide feedback to the user.

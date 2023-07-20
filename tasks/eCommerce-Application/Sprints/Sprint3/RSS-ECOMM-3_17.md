@@ -1,4 +1,4 @@
-### RSS-ECOMM-62: Implement Password Change in User Profile Page (10 points)
+### Implement Password Change in User Profile Page (15 points)
 
 #### Description
 Users should have the capability to update their password within the application independently. This feature increases user autonomy and ensures they can maintain their account security up-to-date.
