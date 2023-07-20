@@ -15,7 +15,7 @@ The User Profile page should present the user's personal information, including 
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (305 points):
+### CrossCheck Criteria (315 points):
 
 ### Catalog Page Implementation (130 points - Total)
 
@@ -39,9 +39,9 @@ The User Profile page should present the user's personal information, including 
 
 - **(25 points)** Implement easy-to-use and clear navigation options for users to explore and switch between different product categories or subcategories using the chosen API (commercetools or any other simple API). [RSS-ECOMM-3_08](./Sprint3/RSS-ECOMM-3_08.md)
 
-### Detailed Product Page Implementation (65 points)
+### Detailed Product Page Implementation (75 points)
 
-#### 1. Display Product Information (40 points)
+#### 1. Display Product Information (50 points)
 
 - **(15 points)** Use the commercetools API or any other simple API to fetch and display the product name, description, and images on the Detailed Product page. [RSS-ECOMM-3_09](./Sprint3/RSS-ECOMM-3_09.md)
 - **(25 points)** Implement an image slider for product images fetched from the chosen API, allowing users to view multiple images of the product. [RSS-ECOMM-3_10](./Sprint3/RSS-ECOMM-3_10.md)
@@ -88,9 +88,9 @@ The User Profile page should present the user's personal information, including 
 ### Here is the final points distribution:
 
 - Catalog Page Implementation: 130 points
-- Detailed Product Page Implementation: 65 points
+- Detailed Product Page Implementation: 75 points
 - Profile Page Implementation: 70 points
 - Routing Implementation: 30 points
 - Evaluation Criteria for Header: 10 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 3: 365 points
+- Total points for Sprint 3: 375 points
