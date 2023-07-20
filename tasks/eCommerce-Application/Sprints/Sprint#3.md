@@ -70,7 +70,7 @@ The User Profile page should present the user's personal information, including 
 - **(15 points)** Implement routing for navigation between Catalog page, Product detail page. [RSS-ECOMM-3_19](./Sprint3/RSS-ECOMM-3_19.md)
 - **(15 points)** Implement routing for navigation to User Profile page. [RSS-ECOMM-3_20](./Sprint3/RSS-ECOMM-3_20.md)
 
-### Evaluation Criteria for Header (0 points)
+### Evaluation Criteria for Header (10 points)
 
 - **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-3_21](./Sprint3/RSS-ECOMM-3_21.md)
 - **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-3_22](./Sprint3/RSS-ECOMM-3_22.md)
