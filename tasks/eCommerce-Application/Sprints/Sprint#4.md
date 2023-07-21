@@ -11,7 +11,7 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (145 points):
+### CrossCheck Criteria (250 points):
 
 ### Catalog Page Enhancements (105 points - Total)
 
@@ -30,37 +30,51 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 #### 4. Modal Window with Image Slider (45 points)
 
 - **(20 points)** Display a modal window with an image, product name, and description when a user hovers over a product image. [RSS-ECOMM-4_04](./Sprint4/RSS-ECOMM-4_04.md)
-- **(15 points)** Allow users to navigate through all product images using the slider inside the modal window. [RSS-ECOMM-04_05](./Sprint4/RSS-ECOMM-04_05.md)
-- **(10 points)** Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-04_06](./Sprint4/RSS-ECOMM-04_06.md)
+- **(15 points)** Allow users to navigate through all product images using the slider inside the modal window. [RSS-ECOMM-4_05](./Sprint4/RSS-ECOMM-4_05.md)
+- **(10 points)** Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-4_06](./Sprint4/RSS-ECOMM-4_06.md)
 
 ### Detailed Product Page Implementation (40 points - Total)
 
 #### 1. Add or Remove Product from Cart (30 points)
 
-- **(15 points)** If the product is not already in the user's shopping cart, provide an "Add to Cart" button that adds the product with the selected options to their cart using the chosen API [RSS-ECOMM-04_07](./Sprint4/RSS-ECOMM-04_07.md)
-- **(15 points)** If the product is already in the user's shopping cart, provide a "Remove from Cart" button that allows users to remove the product from their cart using the chosen API [RSS-ECOMM-04_08](./Sprint4/RSS-ECOMM-04_08.md)
+- **(15 points)** If the product is not already in the user's shopping cart, provide an "Add to Cart" button that adds the product with the selected options to their cart using the chosen API. [RSS-ECOMM-4_07](./Sprint4/RSS-ECOMM-4_07.md)
+- **(15 points)** If the product is already in the user's shopping cart, provide a "Remove from Cart" button that allows users to remove the product from their cart using the chosen API. [RSS-ECOMM-4_08](./Sprint4/RSS-ECOMM-4_08.md)
 
-### 2. Quantity Selection (10 points)
+#### 2. Quantity Selection (10 points)
 
-- **(10 points)** Allow users to select the desired quantity of the product before adding it to their shopping cart [RSS-ECOMM-04_09](./Sprint4/RSS-ECOMM-04_09.md)
+- **(10 points)** Allow users to select the desired quantity of the product before adding it to their shopping cart. [RSS-ECOMM-4_09](./Sprint4/RSS-ECOMM-4_09.md)
 
-### Basket Page Implementation (0 points - Total)
+### Basket Page Implementation (105 points - Total)
 
-#### 1. Display Basket Items (50 points)
+#### 1. Display Basket Items (25 points)
 
-- **(30 points)** Use the commercetools API, or any other simple API, to fetch and display the list of items added to the basket along with essential details such as the name, image, and price. [RSS-ECOMM-68](./Sprint4/RSS-ECOMM-68.md)
-- **(20 points)** Display the quantity of each item in the basket. [RSS-ECOMM-69](./Sprint4/RSS-ECOMM-69.md)
+- **(25 points)** Use the commercetools API to fetch and display the list of items added to the basket along with essential details such as the name, image, and price. [RSS-ECOMM-4_10](./Sprint4/RSS-ECOMM-4_10.md)
 
-#### 2. Basket Management (80 points)
+#### 2. Modify Product Quantity (15 points)
 
-- **(30 points)** Allow users to remove items from the basket. Removing an item should immediately update the basket's total price. [RSS-ECOMM-71](./Sprint4/RSS-ECOMM-71.md)
-- **(25 points)** Implement functionality that allows users to increase or decrease the quantity of each item in the basket. This should instantly update the subtotal price for the item and the total price for the basket. [RSS-ECOMM-72](./Sprint4/RSS-ECOMM-72.md)
-- **(25 points)** Display the total price for the basket, calculated by adding up the subtotal prices of all items in the basket. [RSS-ECOMM-73](./Sprint4/RSS-ECOMM-73.md)
+- **(15 points)** Allow users to modify the quantity of each product in the cart, updating the corresponding data using the commercetools API and recalculating the total cost accordingly. [RSS-ECOMM-4_11](./Sprint4/RSS-ECOMM-4_11.md)
 
-#### 3. Navigation to Checkout (50 points)
+#### 3. Remove Product from Cart (15 points)
 
-- **(25 points)** Include a button on the Basket page that, when clicked, navigates the user to the Checkout page. [RSS-ECOMM-74](./Sprint4/RSS-ECOMM-74.md)
-- **(25 points)** The Checkout button should be disabled when the basket is empty and enabled when there are one or more items in the basket. [RSS-ECOMM-75](./Sprint4/RSS-ECOMM-75.md)
+- **(15 points)** Provide a "Remove from Cart" button for each product, enabling users to delete items from the cart and updating the cart data using the commercetools API. [RSS-ECOMM-4_12](./Sprint4/RSS-ECOMM-4_12.md)
+
+#### 4. Recalculate Total Cost (15 points)
+
+- **(15 points)** Automatically recalculate the total cost of the items in the shopping cart when users modify product quantities or remove items from the cart, using the updated data from the commercetools API. [RSS-ECOMM-4_13](./Sprint4/RSS-ECOMM-4_13.md)
+
+#### 5. Display Empty Cart Message and Link to Catalog (10 points)
+
+- **(5 points)** When the shopping cart is empty, display a clear message indicating the cart is empty. [RSS-ECOMM-4_14](./Sprint4/RSS-ECOMM-4_14.md)
+- **(5 points)** Provide a link to the catalog of products within the empty cart message, guiding users to easily continue shopping and explore other parts of the website. [RSS-ECOMM-4_15](./Sprint4/RSS-ECOMM-4_15.md)
+
+#### 6. Apply Promo Code and Display Updated Prices (15 points)
+
+- **(10 points)** Implement a feature that allows users to apply a promo code to their order, offering discounts on eligible items, and updating the total cost of the cart accordingly using the commercetools API. [RSS-ECOMM-4_16](./Sprint4/RSS-ECOMM-4_16.md)
+- **(5 points)** Display both the original price and the discounted price after applying the promo code, ensuring that the two prices are visually distinct. [RSS-ECOMM-4_17](./Sprint4/RSS-ECOMM-4_17.md)
+
+### 7. Clear Shopping Cart (10 points)
+
+- **(10 points)** Provide a "Clear Shopping Cart" button that removes all items from the user's shopping cart and updates the cart data using the commercetools API. [RSS-ECOMM-4_18](./Sprint4/RSS-ECOMM-4_18.md)
 
 ### Routing Implementation (0 points)
 
@@ -84,8 +98,8 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 - Catalog Page Enhancements: 105 points
 - Detailed Product Page Enhancements: 40 points
-- Basket Page Implementation: 0 points
+- Basket Page Implementation: 105 points
 - Routing Implementation: 0 points
 - Evaluation Criteria for Header: 0 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 205 points
+- Total points for Sprint 4: 310 points
