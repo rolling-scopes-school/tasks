@@ -11,9 +11,33 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (270 points):
+### CrossCheck Criteria (100 points):
 
-### Basket Page Implementation (200 points - Total)
+### Catalog Page Enhancements (100 points - Total)
+
+#### 1. Interactive Product Cards (5 points)
+
+- **(5 points)** Include an "Add to Cart" button on each product card, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-4_01](./Sprint4/RSS-ECOMM-4_01.md)
+
+#### 2. Shopping Cart Integration (30 points)
+
+- **(30 points)** Integrate the Catalog Product page with the chosen API (commercetools or any other simple API) to enable users to add products to their shopping cart directly from the product list. [RSS-ECOMM-4_02](./Sprint4/RSS-ECOMM-4_02.md)
+
+#### 3. Performance Optimization (20 points)
+
+- **(20 points)** Implement lazy loading, pagination, or infinite scroll to efficiently load and display a large number of products without significant delays or performance issues, leveraging the chosen API (commercetools or any other simple API) for product data retrieval. [RSS-ECOMM-4_03](./Sprint4/RSS-ECOMM-4_03.md)
+
+#### 4. Modal Window with Image Slider (45 points)
+
+- **(20 points)** Display a modal window with an image, product name, and description when a user hovers over a product image. [RSS-ECOMM-4_04](./Sprint4/RSS-ECOMM-4_04.md)
+- **(15 points)** Allow users to navigate through all product images using the slider inside the modal window. [RSS-ECOMM-04_05](./Sprint4/RSS-ECOMM-04_05.md)
+- **(10 points)** Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-04_06](./Sprint4/RSS-ECOMM-04_06.md)
+
+### Detailed Product Page Implementation (0 points - Total)
+
+<!-- TBD -->
+
+### Basket Page Implementation (0 points - Total)
 
 #### 1. Display Basket Items (50 points)
 
@@ -31,31 +55,11 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 - **(25 points)** Include a button on the Basket page that, when clicked, navigates the user to the Checkout page. [RSS-ECOMM-74](./Sprint4/RSS-ECOMM-74.md)
 - **(25 points)** The Checkout button should be disabled when the basket is empty and enabled when there are one or more items in the basket. [RSS-ECOMM-75](./Sprint4/RSS-ECOMM-75.md)
 
-### Catalog Page Enhancements (100 points - Total)
-
-#### 1. Interactive Product Cards (20 points)
-
-- **(20 points)** Include an "Add to Cart" button on each product card, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-76](./Sprint4/RSS-ECOMM-76.md)
-
-#### 2. Shopping Cart Integration (20 points)
-
-- **(20 points)** Integrate the Catalog Product page with the chosen API (commercetools or any other simple API) to enable users to add products to their shopping cart directly from the product list. [RSS-ECOMM-77](./Sprint4/RSS-ECOMM-77.md)
-
-#### 3. Performance Optimization (20 points)
-
-- **(20 points)** Implement lazy loading, pagination, or infinite scroll to efficiently load and display a large number of products without significant delays or performance issues, leveraging the chosen API (commercetools or any other simple API) for product data retrieval. [RSS-ECOMM-78](./Sprint4/RSS-ECOMM-78.md)
-
-#### 4. Modal Window with Image Slider (40 points)
-
-- **(20 points)** Display a modal window with an image slider, product name, and description when a user hovers over a product image. [RSS-ECOMM-79](./Sprint4/RSS-ECOMM-79.md)
-- **(10 points)** Allow users to navigate through all product images using the slider inside the modal window. [RSS-ECOMM-80](./Sprint4/RSS-ECOMM-80.md)
-- **(10 points)** Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-81](./Sprint4/RSS-ECOMM-81.md)
-
-### Routing Implementation (20 points)
+### Routing Implementation (0 points)
 
 - **(20 points)** Implement routing for navigation to Basket page from all other pages. [RSS-ECOMM-82](./Sprint4/RSS-ECOMM-82.md)
 
-### Evaluation Criteria for Header (20 points)
+### Evaluation Criteria for Header (0 points)
 
 - **(10 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-83](./Sprint4/RSS-ECOMM-83.md)
 - **(10 points)** Basket link or button in the header, enabling navigation to Basket page. [RSS-ECOMM-84](./Sprint4/RSS-ECOMM-84.md)
@@ -71,9 +75,9 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Here is the final points distribution:
 
-- Basket Page Implementation: 200 points
 - Catalog Page Enhancements: 100 points
-- Routing Implementation: 20 points
-- Evaluation Criteria for Header: 20 points
+- Basket Page Implementation: 0 points
+- Routing Implementation: 0 points
+- Evaluation Criteria for Header: 0 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 390 points
+- Total points for Sprint 4: 160 points

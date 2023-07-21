@@ -1,6 +1,7 @@
 ### Implement Routing and Browser Navigation for User Profile Page (15 points)
 
 #### Description
+
 To enhance the user experience, implement routing and browser navigation that allows users to navigate to the User Profile page.
 
 #### Implementation Details
@@ -11,6 +12,7 @@ To enhance the user experience, implement routing and browser navigation that al
 4. **Access Control:** The User Profile page should be accessible to all users, irrespective of whether they are logged in or not. The visibility and editability of certain information on the User Profile page can be controlled based on the user's authentication status.
 
 #### Acceptance Criteria
+
 - Navigating to and from the User Profile page changes the URL in the browser.
 - The User Profile page has a unique URL that can be directly accessed.
 - Directly accessing the unique URL for the User Profile page leads to the User Profile page.
