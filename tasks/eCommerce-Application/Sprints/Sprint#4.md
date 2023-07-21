@@ -11,7 +11,7 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (250 points):
+### CrossCheck Criteria (285 points):
 
 ### Catalog Page Enhancements (105 points - Total)
 
@@ -72,9 +72,19 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 - **(10 points)** Implement a feature that allows users to apply a promo code to their order, offering discounts on eligible items, and updating the total cost of the cart accordingly using the commercetools API. [RSS-ECOMM-4_16](./Sprint4/RSS-ECOMM-4_16.md)
 - **(5 points)** Display both the original price and the discounted price after applying the promo code, ensuring that the two prices are visually distinct. [RSS-ECOMM-4_17](./Sprint4/RSS-ECOMM-4_17.md)
 
-### 7. Clear Shopping Cart (10 points)
+#### 7. Clear Shopping Cart (10 points)
 
 - **(10 points)** Provide a "Clear Shopping Cart" button that removes all items from the user's shopping cart and updates the cart data using the commercetools API. [RSS-ECOMM-4_18](./Sprint4/RSS-ECOMM-4_18.md)
+
+### About Us Page Implementation (35 points - Total)
+
+#### 1. Introduction to the Development Team (25 points)
+
+- **(25 points)** Create a comprehensive introduction to the development team, highlighting each member's contributions to the project, their effective collaboration methods, as well as personal details such as names, roles, short bios, relevant photos, and GitHub profile links. [RSS-ECOMM-4_19](./Sprint4/RSS-ECOMM-4_19.md)
+
+#### 2. RS School Logo and Link (10 points)
+
+- **(10 points)** Feature and link the RS School logo on the "About Us" page, making it visible and recognizable, and allowing users to learn more about the educational program by linking it to the school's website. [RSS-ECOMM-4_20](./Sprint4/RSS-ECOMM-4_20.md)
 
 ### Routing Implementation (0 points)
 
@@ -99,7 +109,8 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 - Catalog Page Enhancements: 105 points
 - Detailed Product Page Enhancements: 40 points
 - Basket Page Implementation: 105 points
+- About Us Page Implementation: 35 points
 - Routing Implementation: 0 points
 - Evaluation Criteria for Header: 0 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 310 points
+- Total points for Sprint 4: 345 points
