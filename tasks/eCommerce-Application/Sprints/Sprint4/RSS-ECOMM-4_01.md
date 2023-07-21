@@ -1,8 +1,8 @@
-### Add "Add to Cart" Button on Product Cards (5 points)
+### Add "Add to Cart" Button on Product Cards (10 points)
 
 #### Description
 
-To streamline the user's shopping experience, include an "Add to Cart" button on each product card. This button doesn't have to perform any action at this stage. Its purpose is to provide a user interface that matches common e-commerce practices.
+To streamline the user's shopping experience, include an "Add to Cart" button on each product card. This button doesn't have to perform any action at this stage. Its purpose is to provide a user interface that matches common e-commerce practices. If the product is already in the shopping cart, the "Add to Cart" button should be disabled.
 
 #### Implementation Details
 
@@ -17,6 +17,7 @@ To streamline the user's shopping experience, include an "Add to Cart" button on
 #### Acceptance Criteria
 
 - Each product card has an "Add to Cart" button, which can be a traditional button or an icon.
+- If the product is already in the shopping cart, the "Add to Cart" button is inactive or provides a relevant notice.
 
 #### Useful Links and Resources
 

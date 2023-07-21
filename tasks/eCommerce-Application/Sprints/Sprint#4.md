@@ -11,11 +11,11 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (100 points):
+### CrossCheck Criteria (145 points):
 
-### Catalog Page Enhancements (100 points - Total)
+### Catalog Page Enhancements (105 points - Total)
 
-#### 1. Interactive Product Cards (5 points)
+#### 1. Interactive Product Cards (10 points)
 
 - **(5 points)** Include an "Add to Cart" button on each product card, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-4_01](./Sprint4/RSS-ECOMM-4_01.md)
 
@@ -33,9 +33,16 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 - **(15 points)** Allow users to navigate through all product images using the slider inside the modal window. [RSS-ECOMM-04_05](./Sprint4/RSS-ECOMM-04_05.md)
 - **(10 points)** Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart. [RSS-ECOMM-04_06](./Sprint4/RSS-ECOMM-04_06.md)
 
-### Detailed Product Page Implementation (0 points - Total)
+### Detailed Product Page Implementation (40 points - Total)
 
-<!-- TBD -->
+#### 1. Add or Remove Product from Cart (30 points)
+
+- **(15 points)** If the product is not already in the user's shopping cart, provide an "Add to Cart" button that adds the product with the selected options to their cart using the chosen API [RSS-ECOMM-04_07](./Sprint4/RSS-ECOMM-04_07.md)
+- **(15 points)** If the product is already in the user's shopping cart, provide a "Remove from Cart" button that allows users to remove the product from their cart using the chosen API [RSS-ECOMM-04_08](./Sprint4/RSS-ECOMM-04_08.md)
+
+### 2. Quantity Selection (10 points)
+
+- **(10 points)** Allow users to select the desired quantity of the product before adding it to their shopping cart [RSS-ECOMM-04_09](./Sprint4/RSS-ECOMM-04_09.md)
 
 ### Basket Page Implementation (0 points - Total)
 
@@ -75,9 +82,10 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Here is the final points distribution:
 
-- Catalog Page Enhancements: 100 points
+- Catalog Page Enhancements: 105 points
+- Detailed Product Page Enhancements: 40 points
 - Basket Page Implementation: 0 points
 - Routing Implementation: 0 points
 - Evaluation Criteria for Header: 0 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 160 points
+- Total points for Sprint 4: 205 points
