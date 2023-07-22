@@ -16,7 +16,9 @@ The User Profile page should present the user's personal information, including 
 ### Evaluation Criteria:
 
 ### CrossCheck Criteria (315 points):
+
 ---
+
 ### Catalog Page Implementation (130 points - Total)
 
 #### 1. Display Product List (35 points)
@@ -74,7 +76,6 @@ The User Profile page should present the user's personal information, including 
 
 - **(5 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-3_21](./Sprint3/RSS-ECOMM-3_21.md)
 - **(5 points)** User Profile link or button in the header, enabling navigation to User Profile page. [RSS-ECOMM-3_22](./Sprint3/RSS-ECOMM-3_22.md)
-
 
 ### Mentor Evaluation Criteria (60 points - Total):
 
