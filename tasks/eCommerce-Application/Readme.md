@@ -31,18 +31,18 @@ However, there are some constraints on the technology stack:
 
 ## Sprint Overviews 🏁📅
 
-### [Sprint 1 - Project Setup and CommerceTools Integration](./Sprints/Sprint#1.md) 🚀🔧
+### [Sprint 1 - Project Setup and CommerceTools Integration](./Sprints/Sprint%231.md) 🚀🔧
 
 In the first sprint, the team will lay down the project's foundation. This includes setting up the repository, organizing the task board, integrating with CommerceTools to establish the API client, and configuring the development environment. Key technologies used in this sprint include TypeScript, ESLint, Prettier, Husky, and Jest for testing.
 
-### [Sprint 2 - Login, Registration, and Main Pages Implementation](./Sprints/Sprint#2.md) 🔐🖥️
+### [Sprint 2 - Login, Registration, and Main Pages Implementation](./Sprints/Sprint%232.md) 🔐🖥️
 
 The second sprint will focus on building the application's main pages. This includes implementing the login and registration features, managing user authentication state, saving the authentication token, and setting up navigation between pages. Input validation and integration with an authentication service are also critical aspects of this sprint.
 
-### [Sprint 3 - Catalog Product, Detailed Product, and User Profile Pages Implementation](./Sprints/Sprint#3.md) 📚🔍👥
+### [Sprint 3 - Catalog Product, Detailed Product, and User Profile Pages Implementation](./Sprints/Sprint%233.md) 📚🔍👥
 
 The third sprint will focus on enhancing the user interface and experience. The team will work on implementing the Catalog Product, Detailed Product, and User Profile pages. Features like fetching and displaying products, filtering and sorting, designing product cards, and displaying user's personal information are the key tasks in this sprint.
 
-### [Sprint 4 - Detailed Product Page Enhancement, Basket Page, Catalog Page Enhancement, and About Us Page Implementation](./Sprints/Sprint#4.md) 🛍️📊🙋‍♂️🙋‍♀️
+### [Sprint 4 - Detailed Product Page Enhancement, Basket Page, Catalog Page Enhancement, and About Us Page Implementation](./Sprints/Sprint%234.md) 🛍️📊🙋‍♂️🙋‍♀️
 
 The fourth sprint will focus on improving the Detailed Product page, building the Basket page, enhancing the Catalog page, and implementing the About Us page. This includes enhancing the product view, adding basket functionality, integrating the shopping cart with the product catalog, and providing a comprehensive introduction to the development team. This sprint also focuses on performance optimization to handle a large number of products efficiently.
