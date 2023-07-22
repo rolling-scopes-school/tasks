@@ -1,6 +1,10 @@
-## Sprint 4: Basket Page and Catalog Page Enhancements
+## Sprint 4: Basket Page, Catalog Page Enhancements, and About Us Page Implementation
 
-In this sprint, the team will concentrate on building the Basket page and enhancing the Catalog page. These enhancements will include features like displaying a list of items added to the basket, increasing or decreasing the quantity of each item, removing items from the basket, displaying the subtotal and total prices, and a button for proceeding to the checkout page. For the Catalog page, we will implement interactive product cards and shopping cart integration. All these features should be built using the commercetools API for data retrieval and management. We will also implement performance optimization techniques such as lazy loading, pagination, or infinite scroll to handle a large number of products efficiently.
+In this sprint, the team will concentrate on enhancing the Detailed Product Page, building the Basket page, and further enhancing the Catalog page. These enhancements will include features such as a comprehensive view of a product with the option to add or remove the product from the cart, increase or decrease the quantity of the product, and display a clear indicator if the product is already in the user's shopping cart.
+
+The team will also work on features for the Basket page like displaying a list of items added to the basket, increasing or decreasing the quantity of each item, removing items from the basket, displaying the subtotal and total prices, and a button for proceeding to the checkout page.
+
+For the Catalog page, we will implement interactive product cards and shopping cart integration. All these features should be built using the commercetools API for data retrieval and management. We will also implement performance optimization techniques such as lazy loading, pagination, or infinite scroll to handle a large number of products efficiently.
 
 ### Working with the Repository
 
@@ -11,7 +15,7 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 ### Evaluation Criteria:
 
-### CrossCheck Criteria (285 points):
+### CrossCheck Criteria (325 points):
 
 ### Catalog Page Enhancements (105 points - Total)
 
@@ -86,14 +90,15 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 
 - **(10 points)** Feature and link the RS School logo on the "About Us" page, making it visible and recognizable, and allowing users to learn more about the educational program by linking it to the school's website. [RSS-ECOMM-4_20](./Sprint4/RSS-ECOMM-4_20.md)
 
-### Routing Implementation (0 points)
+### Routing Implementation (20 points)
 
-- **(20 points)** Implement routing for navigation to Basket page from all other pages. [RSS-ECOMM-82](./Sprint4/RSS-ECOMM-82.md)
+- **(10 points)** Implement routing for seamless navigation to the Basket page from all other pages, ensuring that the Basket page is accessible whether the user is logged in or not and supporting browser navigation buttons. [RSS-ECOMM-4_21](./Sprint4/RSS-ECOMM-4_21.md)
+- **(10 points)** Implement routing for seamless navigation to the About Us page from all other pages, ensuring that the About Us page is accessible whether the user is logged in or not and supports browser navigation buttons. [RSS-ECOMM-4_22](./Sprint4/RSS-ECOMM-4_22.md)
 
-### Evaluation Criteria for Header (0 points)
+### Evaluation Criteria for Header (20 points)
 
-- **(10 points)** Consistent header layout with necessary information like branding and user navigation across all the pages. [RSS-ECOMM-83](./Sprint4/RSS-ECOMM-83.md)
-- **(10 points)** Basket link or button in the header, enabling navigation to Basket page. [RSS-ECOMM-84](./Sprint4/RSS-ECOMM-84.md)
+- **(15 points)** Implement a basket icon in the header navigation, providing a link to the Basket page and displaying the quantity of items in the cart. [RSS-ECOMM-4_23](./Sprint4/RSS-ECOMM-4_23.md)
+- **(5 points)** Incorporate an icon or link in the header navigation leading to the About Us page. [RSS-ECOMM-4_24](./Sprint4/RSS-ECOMM-4_24.md)
 
 ### Mentor Evaluation Criteria (60 points - Total):
 
@@ -110,7 +115,7 @@ In this sprint, the team will concentrate on building the Basket page and enhanc
 - Detailed Product Page Enhancements: 40 points
 - Basket Page Implementation: 105 points
 - About Us Page Implementation: 35 points
-- Routing Implementation: 0 points
-- Evaluation Criteria for Header: 0 points
+- Routing Implementation: 20 points
+- Evaluation Criteria for Header: 20 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 345 points
+- Total points for Sprint 4: 385 points
