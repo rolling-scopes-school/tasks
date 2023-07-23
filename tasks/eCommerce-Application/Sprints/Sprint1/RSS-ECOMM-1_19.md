@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_19: Document scripts in README (6 points)
+### Issue RSS-ECOMM-1_19: Document scripts in README (4 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_14: Create ESLint script (8 points)
+### Issue RSS-ECOMM-1_14: Create ESLint script (5 points)
 
 #### Description
 

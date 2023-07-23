@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_02: Set up folder structure (6 points)
+### Issue RSS-ECOMM-1_02: Set up folder structure (10 points)
 
 #### Description
 

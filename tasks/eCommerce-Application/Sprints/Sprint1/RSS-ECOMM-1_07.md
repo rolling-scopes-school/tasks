@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_07: Set up CommerceTools API client (10 points)
+### Issue RSS-ECOMM-1_07: Set up CommerceTools API client (15 points)
 
 #### Description
 

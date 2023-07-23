@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_16: Create Jest test script (6 points)
+### Issue RSS-ECOMM-1_16: Create Jest test script (5 points)
 
 #### Description
 

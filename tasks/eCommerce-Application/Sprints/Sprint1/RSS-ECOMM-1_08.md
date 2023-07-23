@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_08: Configure bundler (6 points)
+### Issue RSS-ECOMM-1_08: Configure bundler (10 points)
 
 #### Description
 

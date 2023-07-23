@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_11: Configure Prettier (6 points)
+### Issue RSS-ECOMM-1_11: Configure Prettier (5 points)
 
 #### Description
 

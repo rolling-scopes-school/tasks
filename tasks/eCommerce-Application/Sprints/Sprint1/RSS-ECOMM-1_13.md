@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_13: Install and configure Jest (8 points)
+### Issue RSS-ECOMM-1_13: Install and configure Jest (10 points)
 
 #### Description
 
@@ -8,5 +8,3 @@ Install and configure Jest as the testing framework for the project, enabling co
 
 - Jest is installed and configured as the testing framework for the project.
 - The project allows for comprehensive testing of code functionality with Jest.
-
-Evaluation: 8 points

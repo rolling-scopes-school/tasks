@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_05: Break down tasks and delegate responsibilities (8 points)
+### Issue RSS-ECOMM-1_05: Break down tasks and delegate responsibilities (5 points)
 
 #### Description
 
@@ -9,5 +9,3 @@ Break down project tasks into smaller, manageable subtasks and assign them to te
 - Project tasks are broken down into smaller, manageable subtasks.
 - Subtasks are assigned to team members based on their expertise and workload.
 - Each team member has a clear understanding of their responsibilities.
-
-Evaluation: 8 points

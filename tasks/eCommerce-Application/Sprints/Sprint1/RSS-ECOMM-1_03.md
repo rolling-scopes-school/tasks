@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_03: Invite team members and mentor (8 points)
+### Issue RSS-ECOMM-1_03: Invite team members and mentor (4 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_15: Create Prettier script (6 points)
+### Issue RSS-ECOMM-1_15: Create Prettier script (5 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_09: Configure TypeScript (6 points)
+### Issue RSS-ECOMM-1_09: Configure TypeScript (5 points)
 
 #### Description
 

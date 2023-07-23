@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_06: Set up CommerceTools project (10 points)
+### Issue RSS-ECOMM-1_06: Set up CommerceTools project (15 points)
 
 #### Description
 
@@ -8,5 +8,3 @@ Create the project in CommerceTools, setting up the necessary authorization, cur
 
 - A new CommerceTools project is created with the correct settings.
 - Authorization, currencies, languages, and other configurations are properly set up in the Merchant Center.
-
-Evaluation: 10 points

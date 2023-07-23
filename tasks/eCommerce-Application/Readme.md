@@ -20,6 +20,12 @@ The application is powered by CommerceTools 🌐, a leading provider of commerce
 
 The application is to be developed in teams of three 👨‍💻👩‍💻👨‍💻. Don't forget to register your team on the RS School App via this [link](https://app.rs.school/course/team-distributions?course=js-fe-2023Q1) before you start working on the project.
 
+## Task Submission to Mentor and Cross-Check Rules
+
+1. For the mentor review, each team member will submit their work individually. This means that each member is responsible for demonstrating their individual contributions to the project.
+
+2. For the cross-check review, only the team lead will submit. The team lead will be responsible for consolidating the contributions of the team into a single submission.
+
 ## Technology Stack 💻📚
 
 Teams can choose whether or not to use a framework for the project. Options include popular frameworks like React ⚛️, Angular 🅰️, or Vue 🟢. If you prefer, you can also develop the application without using any of these frameworks.

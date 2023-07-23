@@ -1,4 +1,4 @@
-### Issue RSS-ECOMM-1_01: Set up GitHub repository (6 points)
+### Issue RSS-ECOMM-1_01: Set up GitHub repository (10 points)
 
 #### Description
 
@@ -9,7 +9,6 @@ Create a GitHub repository for the project, complete with a README file, .gitign
 - A new GitHub repository is created with the project name.
 - A README file is initialized with a brief description of the project.
 - A .gitignore file is added to exclude unnecessary files and directories.
-- Relevant dependencies are added to the repository.
 
 #### Useful Links
 
