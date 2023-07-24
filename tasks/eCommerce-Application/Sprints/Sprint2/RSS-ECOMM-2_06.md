@@ -1,4 +1,4 @@
-### Redirect logged-in users to the main page from the login page (10 points)
+### Issue RSS-ECOMM-2_06: Redirect logged-in users to the main page from the login page (15 points)
 
 #### Description
 

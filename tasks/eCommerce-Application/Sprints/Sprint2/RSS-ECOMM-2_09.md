@@ -1,4 +1,4 @@
-### Implement client-side validation for required fields in the registration form (20 points)
+### Issue RSS-ECOMM-2_09: Implement client-side validation for required fields in the registration form (25 points)
 
 #### Description
 

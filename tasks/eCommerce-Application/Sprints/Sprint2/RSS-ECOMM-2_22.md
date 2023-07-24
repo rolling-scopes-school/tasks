@@ -1,4 +1,4 @@
-### Ability to Access the Main Page for All Users via Navigation Button or Logo (5 points)
+### Issue RSS-ECOMM-2_22: Ability to Access the Main Page for All Users via Navigation Button or Logo (5 points)
 
 #### Description
 

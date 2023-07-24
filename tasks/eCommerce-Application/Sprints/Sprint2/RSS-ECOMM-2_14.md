@@ -1,4 +1,4 @@
-### Allow users to set a default address during registration (15 points)
+### Issue RSS-ECOMM-2_14: Allow users to set a default address during registration (15 points)
 
 #### Description
 

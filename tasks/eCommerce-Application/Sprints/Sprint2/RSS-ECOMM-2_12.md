@@ -1,4 +1,4 @@
-### Implement error handling for failed registration attempts (10 points)
+### Issue RSS-ECOMM-2_12: Implement error handling for failed registration attempts (15 points)
 
 #### Description
 

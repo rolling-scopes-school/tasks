@@ -1,4 +1,4 @@
-### Navigation to Login and Registration Pages for Unauthorized Users (10 points)
+### Issue RSS-ECOMM-2_21: Navigation to Login and Registration Pages for Unauthorized Users (15 points)
 
 #### Description
 

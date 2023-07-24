@@ -1,4 +1,4 @@
-### Enable users to select different billing and shipping addresses during registration (15 points)
+### Issue RSS-ECOMM-2_15: Enable users to select different billing and shipping addresses during registration (15 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Redirect users to the main page upon successful login (10 points)
+### Issue RSS-ECOMM-2_05: Redirect users to the main page upon successful login (15 points)
 
 #### Description
 

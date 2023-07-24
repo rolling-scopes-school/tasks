@@ -1,4 +1,4 @@
-### Logout Functionality for Authorized Users (5 points)
+### Issue RSS-ECOMM-2_23: Logout Functionality for Authorized Users (5 points)
 
 #### Description
 

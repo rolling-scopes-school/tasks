@@ -1,4 +1,4 @@
-### Add links to all functional pages on the main page (10 points)
+### Issue RSS-ECOMM-2_17: Add links to all functional pages on the main page (5 points)
 
 #### Description
 

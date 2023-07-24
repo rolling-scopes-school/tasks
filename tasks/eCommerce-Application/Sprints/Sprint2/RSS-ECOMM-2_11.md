@@ -1,4 +1,4 @@
-### Integrate the registration form with a chosen authentication service (10 points)
+### Issue RSS-ECOMM-2_11: Integrate the registration form with a chosen authentication service (10 points)
 
 #### Description
 

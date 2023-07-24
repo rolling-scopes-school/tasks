@@ -1,6 +1,7 @@
-### Redirect users to the main page upon successful account creation and automatic login (10 points)
+### Issue RSS-ECOMM-2_13: Redirect users to the main page upon successful account creation and automatic login (15 points)
 
 #### Description
+
 Redirect users to the application's main page, displaying personalized content, upon successful account creation and automatic login. Ensure a smooth transition and handle redirection in a way that accounts for browser history, so users can utilize the back and forward navigation buttons seamlessly.
 
 To implement the redirection process, consider the following recommendations:
@@ -14,6 +15,7 @@ To implement the redirection process, consider the following recommendations:
 - Utilize client-side routing techniques to minimize loading time and provide a more seamless user experience.
 
 #### Acceptance Criteria
+
 - Users are redirected to the main page upon successful account creation and automatic login
 - The redirection process takes into account browser history for seamless navigation
 - Proper use of the chosen front-end framework or library for handling routing and navigation, or implementation of plain TypeScript solutions when not using a front-end framework

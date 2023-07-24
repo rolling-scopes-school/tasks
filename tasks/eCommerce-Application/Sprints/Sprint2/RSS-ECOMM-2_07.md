@@ -1,4 +1,4 @@
-### Handle Authentication Token (10 points)
+### Issue RSS-ECOMM-2_07: Handle Authentication Token (10 points)
 
 #### Description
 

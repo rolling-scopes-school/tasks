@@ -1,4 +1,4 @@
-### Ensure all links on the main page correctly redirect to their respective pages (10 points)
+### Issue RSS-ECOMM-2_18: Ensure all links on the main page correctly redirect to their respective pages (5 points)
 
 #### Description
 

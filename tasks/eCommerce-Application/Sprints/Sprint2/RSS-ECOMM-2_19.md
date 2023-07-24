@@ -1,4 +1,4 @@
-### Implement Direct Navigation Links to Main, Login, and Registration Pages for Unauthorized Users (10 points)
+### Issue RSS-ECOMM-2_19: Implement Direct Navigation Links to Main, Login, and Registration Pages for Unauthorized Users (15 points)
 
 #### Description
 
