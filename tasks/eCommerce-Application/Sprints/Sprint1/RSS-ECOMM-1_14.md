@@ -1,10 +1,10 @@
-### Issue RSS-ECOMM-1_14: Create ESLint script (5 points)
+### Issue RSS-ECOMM-1_14: Create ESLint script (5 points) 🎯
 
-#### Description
+#### Description 📝
 
-Create a script for running ESLint across the codebase, enabling quick and efficient identification of coding style issues and potential errors.
+Create a script for running ESLint across the codebase, making it possible to quickly and efficiently identify code style issues and potential errors. 💡🔍💻
 
-#### Acceptance Criteria
+#### Acceptance Criteria 📚
 
-- A script for running ESLint is created.
-- The script allows for quick and efficient identification of code style issues and errors.
+- A script for running ESLint is created. ✅
+- The script enables quick and efficient identification of code style issues and errors. ✅👨‍💻🚀
