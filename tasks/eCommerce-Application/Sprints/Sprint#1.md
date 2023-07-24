@@ -1,4 +1,4 @@
-## Sprint 1: Repository Setup, Project Management, CommerceTools Integration, and Development Environment Configuration (145 points)
+## Sprint 1: Repository Setup, Project Management, CommerceTools Integration, and Development Environment Configuration (130 points)
 
 In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest for testing. The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
 
@@ -76,5 +76,5 @@ To help the team understand the various tools and technologies used in this proj
 
 ### Here is the final points distribution:
 
-- Mentor Evaluation Criteria: 145 points
-- Total points for Sprint 1: 145 points
+- Mentor Evaluation Criteria: 130 points
+- Total points for Sprint 1: 130 points
