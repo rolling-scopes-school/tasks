@@ -1,4 +1,4 @@
-### Implement client-side validation for required fields in the registration form (20 points)
+### Issue RSS-ECOMM-2_09: Implement client-side validation for required fields in the registration form (25 points) 🔒
 
 #### Description
 
@@ -17,7 +17,9 @@ Implement client-side validation for all required fields in the registration for
 
 Ensure that the chosen validation approach is compatible with CommerceTools or the chosen platform.
 
-#### Acceptance Criteria
+#### Acceptance Criteria ✔️
 
 - Each required field in the registration form has validation rules
 - Registration form submission is prevented if the input doesn't meet the requirements
+
+As Queen sang, "We are the champions, my friends," and with our robust validation rules, we'll keep on fighting 'til the end of invalid form submissions! 🎶🏆

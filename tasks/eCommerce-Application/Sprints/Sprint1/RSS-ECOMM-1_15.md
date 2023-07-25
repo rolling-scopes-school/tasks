@@ -1,10 +1,10 @@
-### Issue RSS-ECOMM-1_15: Create Prettier script (6 points)
+### Issue RSS-ECOMM-1_15: Create Prettier script (5 points) 📜
 
-#### Description
+#### Description 🗂️
 
-Create a script for running Prettier across the codebase, simplifying code formatting and ensuring uniform code style.
+Create a script for running Prettier across the codebase, simplifying code formatting and ensuring uniform code style. 📝🔧
 
-#### Acceptance Criteria
+#### Acceptance Criteria 🎯
 
-- A script for running Prettier is created.
-- The script simplifies code formatting and helps maintain a uniform code style across the project.
+- A script for running Prettier is created. 📄✅
+- The script simplifies code formatting and helps maintain a uniform code style across the project. 🔄👌
