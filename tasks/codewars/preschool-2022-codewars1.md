@@ -28,7 +28,7 @@ Total: 2 * 25  = 50
 
 ## Практика
 
-- 8 kyu https://www.codewars.com/kata/function-1-hello-world
+- 8 kyu https://www.codewars.com/kata/function-1-hello-world +
 - 8 kyu https://www.codewars.com/kata/quarter-of-the-year
 - 8 kyu https://www.codewars.com/kata/capitalization-and-mutability
 - 8 kyu https://www.codewars.com/kata/century-from-year
