@@ -83,6 +83,14 @@ In the second sprint, the team will focus on implementing the login, registratio
 - ☑️ **(5 points)** Ability to access the main page for all users [RSS-ECOMM-22](./Sprint2/RSS-ECOMM-2_22.md)
 - 🚫 **(5 points)** Logout functionality for authorized users [RSS-ECOMM-2_23](./Sprint2/RSS-ECOMM-2_23.md)
 
+### Penalties for Cross-Check Criteria (40 points - Total): ❌
+
+1. **Absence of Responsive Application Design (20 points):** If the application does not provide a responsive layout suitable for various devices and screen sizes, a penalty of 20 points will be applied. 📱🖥️🛑
+
+2. **Errors in the Console (20 points):** Except for request errors, console errors, including favicon error, will result in a penalty of 20 points. Ensure your code is debugged and free of unnecessary errors for a smooth user experience. 🐛🔍🛑
+
+Please note that these penalties will be deducted from the final score. Strive for high-quality, error-free code and a responsive, user-friendly design for the best outcome. 🌟🏆💪
+
 ### 👨‍🏫 Mentor Evaluation Criteria (60 points - Total):
 
 1. 🗣️ **Code Review Participation (10 points):** Students actively participate in code reviews, providing constructive feedback and suggestions to their peers.
@@ -91,6 +99,18 @@ In the second sprint, the team will focus on implementing the login, registratio
 4. 🗒️ **Task Board Management (10 points):** Students maintain and regularly update a task board (e.g., Trello, Jira), ensuring that tasks are moved according to their progress and completion.
 5. 💡 **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
 6. 🧪 **Unit Test Coverage (15 points):** The codebase has a minimum of 25% unit test coverage, ensuring the reliability and robustness of the implemented features.
+
+### Penalties for Mentor Evaluation Criteria (20 points - Total): ❌
+
+1. **Linter Errors (5 points):** If there are errors from the linter, a penalty of 5 points will be applied. Ensure that you follow the linter rules to maintain high code quality. 🛠️📝🛑
+
+2. **Prettier Errors (5 points):** If there are formatting errors detected by Prettier, a penalty of 5 points will be applied. It's important to adhere to established formatting conventions for clean, readable code. 📐✍️🛑
+
+3. **Presence of 'any' (5 points):** The use of 'any' in TypeScript can lead to potential typing issues and is generally discouraged. A penalty of 5 points will be applied if 'any' is found in the code. 🚫🔍🛑
+
+4. **Non-functional Scripts in package.json (5 points):** All scripts defined in the package.json should function correctly. If there are non-working scripts, a penalty of 5 points will be applied. ⚙️📦🛑
+
+Please note that these penalties will be deducted from the final score. Strive to adhere to best practices, maintain clean and well-formatted code, and ensure that all your scripts are working correctly for the best outcome. 🌟🏆💪
 
 ### 📚 Useful Links and Resources
 

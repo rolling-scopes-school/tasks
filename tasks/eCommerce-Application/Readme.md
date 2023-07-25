@@ -28,7 +28,7 @@ The application is to be developed in teams of three 👨‍💻👩‍💻👨�
 
 ## Technology Stack 💻📚
 
-Teams can choose whether or not to use a framework for the project. Options include popular frameworks like React ⚛️, Angular 🅰️, or Vue 🟢. If you prefer, you can also develop the application without using any of these frameworks.
+The decision on whether to use a framework for the project lies in the hands of the teams. They have the option to proceed without a framework or, alternatively, they can opt for well-known ones like React ⚛️, Angular 🅰️, or Vue 🟢.
 
 However, there are some constraints on the technology stack:
 
