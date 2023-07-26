@@ -47,7 +47,7 @@
 ### Week #5-8 (April 10 2023 - May 8 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
-- Final task (TBD)
+- [Final task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/airways.md)
 
 ### Week #9 (May 8 2023)
 - [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
