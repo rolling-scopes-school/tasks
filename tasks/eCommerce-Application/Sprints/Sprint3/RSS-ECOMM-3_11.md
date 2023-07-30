@@ -1,4 +1,4 @@
-### Display Product Price and Sale Price (10 points)
+### Issue RSS-ECOMM-3_11: Display Product Price and Sale Price (15 points)
 
 #### Description
 

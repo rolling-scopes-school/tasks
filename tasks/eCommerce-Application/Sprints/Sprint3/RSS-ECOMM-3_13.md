@@ -1,4 +1,4 @@
-### Implement Image Slider in Enlarged Image Modal (10 points)
+### Issue RSS-ECOMM-3_13: Implement Image Slider in Enlarged Image Modal (15 points)
 
 #### Description
 

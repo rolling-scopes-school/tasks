@@ -1,4 +1,4 @@
-### Fetch and Display Product Details using Commercetools API (15 points)
+### Issue RSS-ECOMM-3_09: Fetch and Display Product Details using Commercetools API (25 points)
 
 #### Description
 

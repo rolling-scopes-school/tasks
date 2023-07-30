@@ -1,4 +1,4 @@
-### Implement Robust Filtering Options for Product List Using commercetools API (20 points)
+### Issue RSS-ECOMM-3_03: Implement Robust Filtering Options for Product List Using commercetools API (30 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Interactive Product Cards (10 points)
+### Issue RSS-ECOMM-3_06: Interactive Product Cards (10 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Implement Personal Information and Email Edit in User Profile Page (10 points)
+### Issue RSS-ECOMM-3_16: Implement Personal Information and Email Edit in User Profile Page (10 points)
 
 #### Description
 

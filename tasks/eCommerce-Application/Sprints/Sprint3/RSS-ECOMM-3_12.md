@@ -1,4 +1,4 @@
-### Implement Enlarged Image Modal (15 points)
+### Issue RSS-ECOMM-3_12: Implement Enlarged Image Modal (20 points)
 
 #### Description
 

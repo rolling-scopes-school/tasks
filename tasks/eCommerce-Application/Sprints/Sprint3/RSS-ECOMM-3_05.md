@@ -1,4 +1,4 @@
-### Implement Search Functionality for Product List Using commercetools API (15 points)
+### Issue RSS-ECOMM-3_05: Implement Search Functionality for Product List Using commercetools API (20 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### Implement Category and Breadcrumb Navigation (25 points)
+### Issue RSS-ECOMM-3_08: Implement Category and Breadcrumb Navigation (25 points)
 
 #### Description
 

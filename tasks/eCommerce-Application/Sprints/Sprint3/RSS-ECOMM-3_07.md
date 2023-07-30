@@ -1,4 +1,4 @@
-### Redirect to Detailed Product Page (10 points)
+### Issue RSS-ECOMM-3_07: Redirect to Detailed Product Page (5 points)
 
 #### Description
 

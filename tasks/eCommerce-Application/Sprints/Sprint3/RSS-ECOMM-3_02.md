@@ -1,4 +1,4 @@
-### Display Prices with and Without Discount for Discounted Products (20 points)
+### Issue RSS-ECOMM-3_02: Display Prices with and Without Discount for Discounted Products (20 points)
 
 #### Description
 

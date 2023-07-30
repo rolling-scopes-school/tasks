@@ -1,4 +1,4 @@
-### Manage Addresses in User Profile Page with commercetools API (15 points)
+### Issue RSS-ECOMM-3_18: Manage Addresses in User Profile Page with commercetools API (15 points)
 
 #### Description
 

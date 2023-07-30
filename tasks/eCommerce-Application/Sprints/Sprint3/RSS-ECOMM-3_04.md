@@ -1,4 +1,4 @@
-### Implement Sorting Functionality for Product List Using commercetools API (15 points)
+### Issue RSS-ECOMM-3_04: Implement Sorting Functionality for Product List Using commercetools API (15 points)
 
 #### Description
 

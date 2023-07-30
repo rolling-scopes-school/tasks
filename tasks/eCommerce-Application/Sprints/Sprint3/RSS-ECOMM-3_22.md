@@ -1,4 +1,4 @@
-### RSS-ECOMM-67: Implement User Profile Navigation in Header (5 points)
+### Issue RSS-ECOMM-3_22: Implement User Profile Navigation in Header (5 points)
 
 #### Description
 

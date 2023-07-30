@@ -1,4 +1,4 @@
-### Implement Routing and Browser Navigation for Catalog and Product Detail Pages (20 points)
+### Issue RSS-ECOMM-3_19: Implement Routing and Browser Navigation for Catalog and Product Detail Pages (25 points)
 
 #### Description
 

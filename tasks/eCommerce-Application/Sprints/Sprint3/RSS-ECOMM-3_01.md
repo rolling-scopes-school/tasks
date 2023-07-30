@@ -1,4 +1,4 @@
-### Fetch and Display Product List using Commercetools API (20 points)
+### Issue RSS-ECOMM-3_01: Fetch and Display Product List using Commercetools API (25 points)
 
 #### Description
 

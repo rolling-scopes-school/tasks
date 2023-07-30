@@ -1,4 +1,4 @@
-### Implement an Image Slider for Product Images (25 points)
+### Issue RSS-ECOMM-3_10: Implement an Image Slider for Product Images (25 points)
 
 #### Description
 

@@ -1,4 +1,4 @@
-### RSS-ECOMM-66: Implement Navigation to Catalog Page in Header (5 points)
+### Issue RSS-ECOMM-3_21: Implement Navigation to Catalog Page in Header (5 points)
 
 #### Description
 
