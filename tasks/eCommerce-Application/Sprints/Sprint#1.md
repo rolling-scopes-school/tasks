@@ -54,7 +54,7 @@ Note: In this sprint, we will also integrate a front-end framework (e.g., React,
 
 #### Evaluation by the Mentor 🎓
 
-During this sprint, the mentor will be the sole evaluator of the team's progress and efforts. They will assign points (up to a total of 130) based on the successful completion of the above tasks, collaboration, and overall organization of the project setup.
+During this sprint, the mentor will be the sole evaluator of the team's progress and efforts. They will assign points (up to a total of 150) based on the successful completion of the above tasks, collaboration, and overall organization of the project setup.
 
 ### Useful Links and Resources 🔗
 
