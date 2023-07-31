@@ -1,4 +1,4 @@
-## Sprint 1: Repository Setup, Project Management, CommerceTools Integration, and Development Environment Configuration (130 points) 😊
+## Sprint 1: Repository Setup, Project Management, CommerceTools Integration, and Development Environment Configuration (150 points) 😊
 
 In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest for testing. 😎 The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
 
@@ -9,9 +9,9 @@ In the first sprint, the team will focus on setting up the project repository, e
 - At the end of the sprint, create a pull request from the `develop` branch to the `main` or `master` branch with a description in accordance with the requirements of rs-school. 🎓
 - Share the pull request link with the mentor for review and evaluation. 👀
 
-### Mentor Evaluation Criteria (130 points - Total): 🎯
+### Mentor Evaluation Criteria (150 points - Total): 🎯
 
-### 1. Repository Setup (19 points) 🧐
+### 1. Repository Setup (29 points) 🧐
 
 - **(10 points)** Create a GitHub repository for the project, complete with a README file, .gitignore, and necessary dependencies. [RSS-ECOMM-1_01](./Sprint1/RSS-ECOMM-1_01.md) 📚
 - **(10 points)** Set up a clear and organized folder structure within the repository, ensuring a maintainable and scalable codebase. [RSS-ECOMM-1_02](./Sprint1/RSS-ECOMM-1_02.md) 🏗️
@@ -76,7 +76,7 @@ To help the team understand the various tools and technologies used in this proj
 
 ### Here is the final points distribution: 🎖️
 
-- Mentor Evaluation Criteria: 130 points
-- Total points for Sprint 1: 130 points
+- Mentor Evaluation Criteria: 150 points
+- Total points for Sprint 1: 150 points
 
 With all these exciting tasks at hand, remember that the journey of a thousand lines of code begins with a single keystroke. So keep your spirits high, fingers on the keyboard, and let's sprint to success! Remember, we're not just writing code, we're brewing magic. Happy coding, wizards! 🧙‍♂️🎉
