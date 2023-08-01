@@ -58,7 +58,7 @@ The User Profile page should present the user's personal information, including 
 
 #### 1. Display User Profile Information (30 points) 📋
 
-- **(10 points)** Present the user's personal information, including first name, last name, date of birth, and a list of their addresses in the User Profile page. [RSS-ECOMM-3_14](./Sprint2/RSS-ECOMM-3_14.md) 📄
+- **(10 points)** Present the user's personal information, including first name, last name, date of birth, and a list of their addresses in the User Profile page. [RSS-ECOMM-3_14](./Sprint3/RSS-ECOMM-3_14.md) 📄
 - **(20 points)** Provide a user-friendly interface for users to switch to an edit mode, where they can update their personal details, email, and addresses. [RSS-ECOMM-3_15](./Sprint3/RSS-ECOMM-3_15.md) ✏️
 
 #### 2. Edit User Profile Information (40 points) ✏️
