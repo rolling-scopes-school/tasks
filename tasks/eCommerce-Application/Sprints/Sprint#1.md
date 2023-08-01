@@ -26,7 +26,7 @@ In the first sprint, the team will focus on setting up the project repository, e
 
 ### 3. CommerceTools Project and API Client Setup (30 points) 💻
 
-- **(15 points)** Create the project in CommerceTools, setting up the necessary authorization, currencies, languages, and other configurations in the Merchant Center. [RSS-ECOMM-1_06](./Sprint1/RSS-ECOMM-1_06.md) 💼
+- **(15 points)** Create the project in CommerceTools, setting up the currencies, languages, and other configurations in the Merchant Center. [RSS-ECOMM-1_06](./Sprint1/RSS-ECOMM-1_06.md) 💼
 - **(15 points)** Create the API client for CommerceTools, enabling access to the platform's APIs and managing permissions and scopes required for the project. [RSS-ECOMM-1_07](./Sprint1/RSS-ECOMM-1_07.md) 🔐
 
 ### 4. Development Environment Configuration (43 points) ⚙️
