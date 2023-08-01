@@ -25,7 +25,7 @@ In the second sprint, the team will focus on implementing the login, registratio
 - ☑️ **(25 points)** Integrate the login form with a chosen authentication service (CommerceTools) to handle user authentication. [RSS-ECOMM-2_03](./Sprint2/RSS-ECOMM-2_03.md)
 - ❌ **(20 points)** Implement error handling for failed authentication attempts, such as incorrect email or password, and display user-friendly error messages. [RSS-ECOMM-2_04](./Sprint2/RSS-ECOMM-2_04.md)
 
-#### 🔄 3. State Management and Redirection (30 points)
+#### 🔄 3. Redirection (30 points)
 
 - 🚀 **(15 points)** Redirect users to the application's main page upon successful login. [RSS-ECOMM-2_05](./Sprint2/RSS-ECOMM-2_05.md)
 - 🚀 **(15 points)** Redirect users who are already logged in to the main page if they try to access the login page. [RSS-ECOMM-2_06](./Sprint2/RSS-ECOMM-2_06.md)
@@ -100,7 +100,7 @@ Please note that these penalties will be deducted from the final score. Strive f
 5. 💡 **Active Participation in Development Discussions (5 points):** Students take an active role in discussing the development process, sharing ideas, and collaborating on solutions and improvements.
 6. 🧪 **Unit Test Coverage (15 points):** The codebase has a minimum of 25% unit test coverage, ensuring the reliability and robustness of the implemented features.
 
-### Penalties for Mentor Evaluation Criteria (20 points - Total): ❌
+### Penalties for Mentor Evaluation Criteria: ❌
 
 1. **Linter Errors (5 points):** If there are errors from the linter, a penalty of 5 points will be applied. Ensure that you follow the linter rules to maintain high code quality. 🛠️📝🛑
 
@@ -109,6 +109,8 @@ Please note that these penalties will be deducted from the final score. Strive f
 3. **Presence of 'any' (5 points):** The use of 'any' in TypeScript can lead to potential typing issues and is generally discouraged. A penalty of 5 points will be applied if 'any' is found in the code. 🚫🔍🛑
 
 4. **Non-functional Scripts in package.json (5 points):** All scripts defined in the package.json should function correctly. If there are non-working scripts, a penalty of 5 points will be applied. ⚙️📦🛑
+
+5. **Non-SPA Application (60 points):** The application should be a Single Page Application (SPA) with an empty index.html. If this requirement is not met, a penalty of 60 points will be applied. ⚠️🖥️🛑
 
 Please note that these penalties will be deducted from the final score. Strive to adhere to best practices, maintain clean and well-formatted code, and ensure that all your scripts are working correctly for the best outcome. 🌟🏆💪
 
