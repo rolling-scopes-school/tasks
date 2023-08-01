@@ -34,6 +34,7 @@ However, there are some constraints on the technology stack:
 
 1. TypeScript is mandatory for this project. It will ensure type safety and improve the maintainability and scalability of the application 📘.
 2. jQuery is not allowed. Focus on using modern JavaScript features and APIs, and the capabilities of your chosen framework, rather than relying on jQuery 🚫.
+3. The application is a Single Page Application (SPA) with an empty index.html 🗂️.
 
 ## Sprint Overviews 🏁📅
 
