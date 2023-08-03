@@ -7,4 +7,4 @@ Create the project in CommerceTools, setting up the necessary authorization, cur
 #### Acceptance Criteria 📚
 
 - A new CommerceTools project is created with the correct settings. ✔️
-- Authorization, currencies, languages, and other configurations are properly set up in the Merchant Center. 🌍
+- Currencies, languages, and other configurations are properly set up in the Merchant Center. 🌍
