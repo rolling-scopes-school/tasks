@@ -4,9 +4,10 @@ In the second sprint, the team will focus on implementing the login, registratio
 
 ### 🔧 Working with the Repository
 
-- 📌 Create a new branch for the current sprint (e.g., `feat/sprint_2`) from the previous sprint's branch (`develop`).
+- 📌 Create a new branch for the current sprint (e.g., `release/login-registration-main`) from the previous sprint's branch (`develop`).
 - 🔄 Merge all feature branches into the current sprint's branch.
-- 🎁 At the end of the sprint, create a pull request from the current sprint's branch (`feat/sprint_2`) to the previous sprint's branch (`develop`).
+- 🎁 At the end of the sprint, create a pull request from the current sprint's branch (`release/login-registration-main`) to the previous sprint's branch (`develop`).
+- ✅ Once the pull request has been reviewed and approved, merge the `release/login-registration-main` branch into the `develop` branch.
 - 📧 Share the pull request link with the mentor for review and evaluation.
 
 ### ⭐ CrossCheck Criteria (315 points):
