@@ -35,6 +35,8 @@ However, there are some constraints on the technology stack:
 1. TypeScript is mandatory for this project. It will ensure type safety and improve the maintainability and scalability of the application 📘.
 2. jQuery is not allowed. Focus on using modern JavaScript features and APIs, and the capabilities of your chosen framework, rather than relying on jQuery 🚫.
 3. The application is a Single Page Application (SPA) with an empty index.html 🗂️.
+4. **Using pre-built eCommerce templates for the frontend is not allowed**. While pre-built templates are off-limits, feel free to draw inspiration from existing designs for your unique user interface. 🚫💻🎨
+5. **Using data from commercetools-sunrise-data is not allowed**. Your application should have its own unique data set to enhance uniqueness and provide a novel user experience. This rule is to encourage creativity and realism in your eCommerce application. 🚫📊💡
 
 ## Sprint Overviews 🏁📅
 
@@ -63,7 +65,7 @@ The fourth sprint will focus on improving the Detailed Product page, building th
    The Registration page will allow new users to sign up for the application. It will have fields for entering user information including a username, email, and password. Once the user submits the form after entering all the necessary details, they will be registered and directed to the login page.
 
 3. **Main Page 🏠**  
-   The Main Page is the core of the application. This is where the users can browse the catalog of products. The page will provide a user-friendly interface that allows users to easily navigate through different categories and products. Centralized Navigation is a key feature on this page, and will include links to all functional pages of the application. Each link should redirect the user correctly to the corresponding page without any errors. The main page also displays active promo codes.
+   The Main Page provides links to all other essential pages, such as the Catalog Product Page, Detailed Product Page, User Profile Page, Basket Page, and About Us Page. Each link should accurately redirect the user to the corresponding page without any errors. In addition, the Main Page can display any other useful information that the team considers beneficial for the user, such as active promo codes, news, updates, or special offers.
 
 4. **Catalog Product Page 📋**  
    The Catalog Product page will display a list of products in a specific category. The products will be displayed as interactive cards with a picture and essential details about the product. Users can click on these cards to get more detailed information about the product.
