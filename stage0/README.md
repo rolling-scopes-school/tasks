@@ -64,8 +64,10 @@
 
 ### Неделя #12
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
+- ["CSS Mem Slider"](../tasks/css-meme-slider)
 
 ### Неделя #13
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CSS Mem Slider"](../tasks/css-meme-slider)
 - Сдача хвостов (тесты, задачи, Codewars)
   
 ### Неделя #14
