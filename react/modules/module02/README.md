@@ -10,9 +10,9 @@ The task should be based on the previous task.
 2. Rewrite components from class components to functional components using hooks.
 3. Add routing to your application using **React Router**.
 4. Add pagination:
-   - Display the current page using router parameters.
-   - The pagination component should appear after receiving the list of all items.
-   - If the user changes items on the page, make a new API call and display the results from the first page.
+    - Display the current page using router parameters.
+    - The pagination component should appear after receiving the list of all items.
+    - If the user changes items on the page, make a new API call and display the results from the first page.
 5. When clicking on each item in the list, open a "Details" component with additional information about the item. Create a new route for this using `Router Outlet`.
 6. When opening the "Details" component, make an additional API call to get detailed information about the item. Show a loading indicator while the item is being downloaded.
 7. The main list with the selected item (visually distinguished) should be visible on the left.
@@ -27,8 +27,8 @@ The task should be based on the previous task.
 
 ### Questions:
 
-You should use Discord as the primary means of communication. Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet. Please check the answers carefully before posting a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to some of the questions."
-
+You should use Discord as the primary means of communication. Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet. Please check the answers carefully before posting a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to
+some of the questions."
 
 ### Score
 
@@ -40,12 +40,12 @@ The task will be checked during cross-check and cross-code-review.
 2. Install all the necessary dependencies.
 3. Run linting using the specified command in the package.json file; the output should not contain any errors or warnings.
 4. Run tests using the specified command in the package.json file; all tests should pass, and the test coverage should be displayed after running all the tests.
-5. Review the code. Pay attention to the following "code smells": 
-   - props drilling,
-   - large and complex components (also known as "god" components),
-   - direct DOM manipulation,
-   - and so on.
-   
+5. Review the code. Pay attention to the following "code smells":
+    - props drilling,
+    - large and complex components (also known as "god" components),
+    - direct DOM manipulation,
+    - and so on.
+
 When reviewing the code, try to pay attention to the following principles:
 
 - Keep the code as simple as possible: KISS (Keep It Simple, Stupid).
@@ -54,25 +54,34 @@ When reviewing the code, try to pay attention to the following principles:
 
 We should also mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles. For further guidance, please refer to [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/).
 
-Lastly, but certainly not least, please check for the presence of comments in the code. Ideally, there should be no comments at all. Sometimes, people tend to comment code that is unnecessary. Thus, consider removing such comments entirely. Remember, if you ever need to refer to previous versions of the code, you can always consult the git history. Furthermore, keep in mind that [comments can be misleading](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a).
+Lastly, but certainly not least, please check for the presence of comments in the code. Ideally, there should be no comments at all. Sometimes, people tend to comment code that is unnecessary. Thus, consider removing such comments entirely. Remember, if you ever need to refer to previous versions of the code, you can always consult the git history. Furthermore, keep in mind
+that [comments can be misleading](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a).
 
 #### Cross-check process
 
-Run the app and verify that the functionality is working (cross-check).
-
+Run the application and confirm the proper functioning of its features (cross-check).
 
 ### Points, Scoring
 
-A student can earn up to 100 points.
+A student can achieve a maximum of 100 points.
 
-Cross-code review:
+#### Cross-code review:
 
-* Successful linting without errors or warnings - 10 points.
-* Running tests and achieving a test coverage of 50% or higher - 20 points.
+* Successful execution of linting without errors or warnings - 10 points (potential deduction in case of warnings)
+* Prettier functioning correctly - 5
+* and a separate task is established for automatic fixes - 5
+* Husky is enabled for pre-commit actions (triggers linting) - 10
+* Conversion of class components to functional components with hooks - 10
 
-#### Cross-check:
+#### Cross-check (score might be less if partially doesn't work)
 
-@TODO
+* Pagination present in both URL and on the page - 20
+* User-initiated change of items per page triggers a new request, displaying the first page - 15
+* Upon clicking, open details (use router outlet), initiate an additional API call, display a loader, and update the URL - 25
+
+#### Penalties
+
+* Absence of TypeScript - 95%
 
 ### Repository Requirements
 
@@ -87,10 +96,9 @@ Cross-code review:
 
 - React Router: https://reactrouter.com/
 - React Router 6 video tutorials
-  + [React Router 6 Tutorial](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
-  + [Build a Budgeting App with React Router](https://www.youtube.com/watch?v=VpzeeBeVWeg&list=PL4cUxeGkcC9iNnY07bh_UPaRIQZcJfARY)
-  + [React Router in Depth](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
+    + [React Router 6 Tutorial](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
+    + [Build a Budgeting App with React Router](https://www.youtube.com/watch?v=VpzeeBeVWeg&list=PL4cUxeGkcC9iNnY07bh_UPaRIQZcJfARY)
+    + [React Router in Depth](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
 - Examples https://github.com/remix-run/react-router/tree/dev/examples
-
 
 Good luck with the assignment! If you have any further questions, feel free to ask.
