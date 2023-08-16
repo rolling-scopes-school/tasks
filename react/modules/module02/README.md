@@ -81,7 +81,7 @@ A student can achieve a maximum of 100 points.
 
 #### Penalties
 
-* Absence of TypeScript - 95%
+* Absence of TypeScript - 95
 
 ### Repository Requirements
 
