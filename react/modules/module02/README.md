@@ -1,34 +1,33 @@
 # Week2
 
-## React.Routing
+## React. Routing
 
 The task should be based on the previous task.
 
 ### What should be done:
 
 1. Create a separate branch for this task from the previous task's branch.
-2. Rewrite components from class components to functional components using hooks.
-3. Add routing to your application using **React Router**.
-4. Add pagination:
-    - Display the current page using router parameters.
+2. All the class components must be changed to **functional components**.
+3. All logic should be split into components:
+    - If you need an access either to the component's lifecycle or the state **use hooks**.
+    - All data should be stored in the **component's state**.
+4. Add routing to your application using **React Router**.
+5. Add pagination:
+    - Implement pagination for your existing item list
+    - Display the current page in the browser URL using query parameters (e.g. ?page=2).
     - The pagination component should appear after receiving the list of all items.
     - If the user changes items on the page, make a new API call and display the results from the first page.
-5. When clicking on each item in the list, open a "Details" component with additional information about the item. Create a new route for this using `Router Outlet`.
-6. When opening the "Details" component, make an additional API call to get detailed information about the item. Show a loading indicator while the item is being downloaded.
-7. The main list with the selected item (visually distinguished) should be visible on the left.
-
-### Note:
-
-- All logic should be split into components.
-- All data should be stored in the component's state.
-- Use functional components with hooks for accessing state or lifecycle events.
-- The usage of Redux or other state management solutions is prohibited.
-- The usage of libraries for components or forms is prohibited.
+6. When the user clicks on any item in the list, open a "Details" component with additional information about the item. Create a new route for this using `Router Outlet`.
+7. When opening the "Details" component, make an additional API call to get detailed information about the item. Show a loading indicator while the item is being loaded.
+8. The main list with the selected item (visually distinguished) should be visible on the left.
 
 ### Questions:
 
-You should use Discord as the primary means of communication. Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet. Please check the answers carefully before posting a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to
-some of the questions."
+You should use Discord as the primary means of communication.
+
+Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet. 
+
+Please **check the answers carefully before posting** a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to some of the questions.
 
 ### Score
 
@@ -54,7 +53,7 @@ When reviewing the code, try to pay attention to the following principles:
 
 We should also mention the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) and other [SOLID](https://en.wikipedia.org/wiki/SOLID) principles. For further guidance, please refer to [this article](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/).
 
-Lastly, but certainly not least, please check for the presence of comments in the code. Ideally, there should be no comments at all. Sometimes, people tend to comment code that is unnecessary. Thus, consider removing such comments entirely. Remember, if you ever need to refer to previous versions of the code, you can always consult the git history. Furthermore, keep in mind
+Last but not least, please check for the presence of comments in the code. Ideally, there should be no comments at all. Sometimes, people tend to comment code that is unnecessary. Thus, consider removing such comments entirely. Remember, if you ever need to refer to previous versions of the code, you can always consult the git history. Furthermore, keep in mind
 that [comments can be misleading](https://blog.devgenius.io/code-should-be-the-one-version-of-the-truth-dont-add-comments-b0bcd8631a9a).
 
 #### Cross-check process
@@ -73,15 +72,17 @@ A student can achieve a maximum of 100 points.
 * Husky is enabled for pre-commit actions (triggers linting) - 10
 * Conversion of class components to functional components with hooks - 10
 
-#### Cross-check (score might be less if partially doesn't work)
+#### Cross-check (score can be less if some parts of the functionality don't work)
 
-* Pagination present in both URL and on the page - 20
+* Pagination is present in both URL and on the page - 20
 * User-initiated change of items per page triggers a new request, displaying the first page - 15
-* Upon clicking, open details (use router outlet), initiate an additional API call, display a loader, and update the URL - 25
+* Upon clicking, open details panel on the right side of the page (use router outlet, left side of the page should continue displaying the list of results), initiate an additional API call, display a loader, and update the URL. Details panel should be closed either on the "close" button click or on the main panel click - 25
 
 #### Penalties
 
 * Absence of TypeScript - 95
+* The usage of Redux or other state management solutions is prohibited - 100
+* The usage of libraries for components or forms is prohibited - 100
 
 ### Repository Requirements
 
