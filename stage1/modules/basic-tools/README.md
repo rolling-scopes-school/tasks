@@ -1,4 +1,4 @@
-# Stage#1. Fundamentals of Chrome Dev Tools and VS Code
+# Stage#1. Fundamentals of Chrome Dev Tools, VS Code and Internet
 
 ## Objectives for this module:
 
@@ -30,3 +30,7 @@ Students are required to get acquainted with:
 - [Getting Started with Chrome Dev Tools ](https://developer.chrome.com/docs/devtools/) - 2h read
 - [VSCode Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) - 1h read
 - [Vscode Extensions](https://hackr.io/blog/best-vscode-extensions)
+
+## Practice
+
+- Complete the auto-test on "Fundamentals of the Internet".
