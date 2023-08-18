@@ -64,11 +64,29 @@
 
 ### Неделя #12
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
+- ["CSS Mem Slider"](../tasks/css-meme-slider)
 
 ### Неделя #13
+- ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CSS Mem Slider"](../tasks/css-meme-slider)
 - Сдача хвостов (тесты, задачи, Codewars)
   
 ### Неделя #14
+- ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
+
+### Неделя #15
+- ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
+  
+### Неделя #16
+- Продолжаем выполнение ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
+  
+### Неделя #17
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
+  
+### Неделя #18
+- Сдача хвостов (тесты, задачи, Codewars)
 - Получение сертификата
 
 ## Сертификат 
