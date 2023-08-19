@@ -10,9 +10,9 @@ The User Profile page should present the user's personal information, including 
 
 ### 🔧 Working with the Repository
 
-- 📌 Create a new branch for the current sprint (e.g., `release/catalog-product-profile`) from the previous sprint's branch (`develop`).
+- 📌 Create a new branch for the current sprint (e.g., `release/catalog-product-profile`) from develop (branch from sprint #2 should have been already merged to develop).
 - 🔄 Merge all feature branches into the current sprint's branch.
-- 🎁 At the end of the sprint, create a pull request from the current sprint's branch (`release/catalog-product-profile`) to the previous sprint's branch (`develop`).
+- 🎁 At the end of the sprint, create a pull request from the current sprint's branch (`release/catalog-product-profile`) to the `develop` branch.
 - ✅ Once the pull request has been reviewed and approved, merge the `release/catalog-product-profile` branch into the `develop` branch.
 - 📧 Share the pull request link with the mentor for review and evaluation.
 
@@ -112,6 +112,10 @@ Please note that these penalties will be deducted from the final score. Strive f
 5. **Non-SPA Application (60 points):** The application should be a Single Page Application (SPA) with an empty index.html. If this requirement is not met, a penalty of 60 points will be applied. ⚠️🖥️🛑
 
 Please note that these penalties will be deducted from the final score. Strive to adhere to best practices, maintain clean and well-formatted code, and ensure that all your scripts are working correctly for the best outcome. 🌟🏆💪
+
+### 📚 Useful Links and Resources
+
+1. [commercetools-sunrise-data](https://github.com/commercetools/commercetools-sunrise-data)
 
 ### Here is the final points distribution:
 
