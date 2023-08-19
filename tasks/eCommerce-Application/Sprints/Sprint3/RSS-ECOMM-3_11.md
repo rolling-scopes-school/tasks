@@ -6,7 +6,7 @@ The application should fetch and display the price 💲 for each product from th
 
 #### 🔨 Implementation Details
 
-1. **Fetch Product Price:** Fetch the price details of the product from the chosen API. This might involve using the `GET /{projectKey}/products/{ID}` endpoint for the commercetools API, which should include product price information.
+1. **Fetch Product Price:** Fetch the price details of the product from the chosen API. This might involve using the `GET /{projectKey}/products/{ID}` or `GET /{projectKey}/products/key={key}` endpoints for the commercetools API, which should include product price information.
 2. **Display Price:** Display the price of the product on the Detailed Product page. Make sure the price is formatted correctly and easy to read.
 3. **Display Sale Price:** If the product is on sale, fetch the sale price from the API and display it alongside the original price. Make sure it's clear which price is the current price and which price is the original price before the sale.
 
@@ -24,3 +24,4 @@ The application should fetch and display the price 💲 for each product from th
 
 1. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
 2. [Formatting currency in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
+3. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
