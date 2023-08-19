@@ -7,7 +7,7 @@ The application should utilize the commercetools API 💻 to fetch the detailed 
 #### 🔨 Implementation Details
 
 1. **API Setup:** Use the already set up commercetools API in your project to fetch detailed product data. Make sure you have the necessary credentials 🔑 and permissions 🛡️.
-2. **Fetching Data:** Use the appropriate commercetools API endpoints to fetch product detail data. The `GET /{projectKey}/products/{ID}` or `GET /{projectKey}/products/key={key}` endpointscould be useful for this task. Remember to handle potential errors ❌ in data fetching, like network errors 🕸️ or API limitations 🚧.
+2. **Fetching Data:** Use the appropriate commercetools API endpoints to fetch product detail data. The `GET /{projectKey}/products/{ID}` or `GET /{projectKey}/products/key={key}` endpoints could be useful for this task. Remember to handle potential errors ❌ in data fetching, like network errors 🕸️ or API limitations 🚧.
 3. **Data Parsing and Display:** Parse the fetched data to extract the necessary product details: name, description, and images. Display this data on the Detailed Product page in a user-friendly format 🖥️.
 
 #### 🎨 Visual Implementation Ideas
