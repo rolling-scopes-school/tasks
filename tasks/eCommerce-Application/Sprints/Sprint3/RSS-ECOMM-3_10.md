@@ -6,7 +6,7 @@ As part of the detailed product page, the application should implement an image 
 
 #### 🔨 Implementation Details
 
-1. **Fetch Product Images:** For a given product, fetch all associated images from the API. This might involve the `GET /{projectKey}/products/{ID}` endpoint in the case of commercetools API, which should include image URLs in the product data.
+1. **Fetch Product Images:** For a given product, fetch all associated images from the API. This might involve the the `GET /{projectKey}/products/{ID}` or `GET /{projectKey}/products/key={key}` endpoints in the case of commercetools API, which should include image URLs in the product data.
 2. **Implement Image Slider:** Implement a user-friendly image slider that can handle multiple images. The slider should allow users to manually cycle through the images, and it should gracefully handle the case of a product with only a single image.
 
 #### 🎨 Visual Implementation Ideas
@@ -23,4 +23,5 @@ As part of the detailed product page, the application should implement an image 
 #### 🔗 Useful Links and Resources
 
 1. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
-2. [Swiper](https://swiperjs.com/), a modern mobile touch slider
+2. [Commercetools API endpoint for fetching product by ID](https://docs.commercetools.com/api/projects/products#get-product-by-id)
+3. [Swiper](https://swiperjs.com/), a modern mobile touch slider
