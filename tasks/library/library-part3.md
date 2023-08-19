@@ -151,3 +151,11 @@
 ## Проверка задания Library#3
 - форма для кросс-чека (Library#3): https://rolling-scopes-school.github.io/checklist/
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+
+## Материалы
+- Document Object Model https://learn.javascript.ru/document
+- Browser Events https://learn.javascript.ru/introduction-browser-events
+- Вебинар Сергея Шаляпина 2022 Q1 Simple carousel example https://youtu.be/2xP-HahCtio
+- Вебинар Сергея Шаляпина 17.10.2019 Swiper & Slider Examples (carousel live coding) https://youtu.be/rkz6LURkbBw
+- LocalStorage на пальцах https://tproger.ru/articles/localstorage/
+- LocalStorage (learn.javascript.ru) https://learn.javascript.ru/localstorage
