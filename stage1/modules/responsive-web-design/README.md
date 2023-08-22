@@ -1,21 +1,32 @@
-# [Stage#1](../../) Responsive Web Design (Адаптивный дизайн)
-## В данном модуле студентам необходимо познакомиться:
-- Познакомиться основами Responsive Web Design (Адаптивный дизайн)
-- Познакомиться c процессом верстки адаптивного макета
+# **Responsive Web Design**
 
-## Приблизительное время прохождения модуля
-6 часов
+## Module: Responsive Web Design
 
-## Теория 
-1. [Что такое адаптивный веб-дизайн?
-](https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD)
-2. https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
-3. [Вебинар Виктории Ворожун. Часть 1](https://www.youtube.com/watch?v=ZAde-IJAHzo&feature=youtu.be) - 2,5 часа
-4. [Вебинар Виктории Ворожун. Часть 2](https://www.youtube.com/watch?v=BJENQIX2e2o&feature=youtu.be) - 2,5 часа
+### Objective:
 
-## Практика 
-1. Вам необходимо пройти тест "Media Queries & Responsive" в RS APP > Auto Test
+Students should familiarize themselves with:
 
-## Дополнительные материалы
-1. [Вебинар Виктории Ворожун. Часть 3](https://www.youtube.com/watch?v=fooyYgIuZe8&feature=youtu.be) - 3 часа
-2. [Вебинар Виктории Ворожун. Часть 4](https://www.youtube.com/watch?v=Qk2UGlFNKPE) - 3 часа
+- Basics of Responsive Web Design.
+- The process of designing a responsive layout.
+
+### Duration:
+
+Approximately 6 hours.
+
+### Theory:
+
+#### **Responsive Web Design Introduction**:
+
+1. [What is responsive web design?](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+2. [Webinar by Victoria Vorozhun. Part 1 RU](#link-to-webinar-part1) - 2.5 hours.
+3. [Webinar by Victoria Vorozhun. Part 2 RU](#link-to-webinar-part2) - 2.5 hours.
+4. [Responsive_Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+
+### Practice:
+
+1. Students should take the "Media Queries & Responsive" test in RS APP > Auto Test.
+
+### Supplementary Materials:
+
+1. [Webinar by Victoria Vorozhun. Part 3 RU](#link-to-webinar-part3) - 3 hours.
+2. [Webinar by Victoria Vorozhun. Part 4 RU](#link-to-webinar-part4) - 3 hours.
