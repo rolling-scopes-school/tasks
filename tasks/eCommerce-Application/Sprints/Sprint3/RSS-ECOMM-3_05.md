@@ -18,7 +18,6 @@ The application should have an efficient 🔎 and user-friendly search feature t
 
 - Users can type search queries into a text input field on the product list page.
 - Based on the user's input, matching products are fetched from the commercetools API and displayed on the product list page.
-- The search function is case-insensitive and supports partial matches.
 
 #### 🔗 Useful Links and Resources
 
