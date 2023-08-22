@@ -103,7 +103,7 @@ You are free to choose your own way of developing the project and the repository
 ### Main page - GraphiQL
 - Editor
 - Variables section
-- Headers section
+- Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that)
 - Documentation section, should be visible only when app will receive a successfull response with the schema definition from the api
 - Response section
 
@@ -141,8 +141,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### GraphiQL route - max 50 points
 - [ ] Working editor allowing to edit the query. **15 points**
 - [ ] Working documentation explorer, should be visible only when sdl request will succeed. **15 points**
-- [ ] Variables section. Should be closed/opened **5 points**
-- [ ] Headers section. Should be closed/opened **5 points**
+- [ ] Variables section. Added varibales will be used in the request. Should be closed/opened **10 points**
 - [ ] Response section. **10 points**
 
 
