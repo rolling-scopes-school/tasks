@@ -63,8 +63,10 @@ window.addEventListener('beforeunload', setLocalStorage)
 2) перед загрузкой страницы (событие `load`) данные нужно восстановить и отобразить
 ```js
 function getLocalStorage() {
-  if(localStorage.getItem('name')) {
-    name.value = localStorage.getItem('name');
+  const nameFromLS = localStorage.getItem('name');
+
+  if (nameFromLS !== null) {
+    name.value = nameFromLS;
   }
 }
 window.addEventListener('load', getLocalStorage)
@@ -73,7 +75,7 @@ window.addEventListener('load', getLocalStorage)
 - `window` - объект окна браузера, с ним связана загрузка и перезагрузка страницы  
 - `addEventListener` - метод, который отлавливает событие элемента и выполняет переданную функцию
 - `localStorage.setItem` - метод сохраняющий данные в `localStorage`. Два параметра метода: имя значения, которое сохраняется и само значение, которое сохраняется 
-- `localStorage.getItem` - метод получающий данные из `localStorage`. Параметр метода - имя, под которым сохраняется значение.
+- `localStorage.getItem` - метод получающий данные из `localStorage`. Параметр метода - имя, под которым сохраняется значение. Возвращаемое значение - `null` или `string`.
 
 Чтобы увидеть сохранённые в браузере данные `localStorage`, на странице приложения нажмите клавишу F12, на панели `devTools` вверху выберите пункт `Application`, на боковой панели пункт `Local Storage` и ссылку на страницу приложения.
 

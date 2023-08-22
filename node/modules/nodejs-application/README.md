@@ -6,14 +6,14 @@
 - How to use Node.js APIs in complex
 
 ## Estimated time to complete the module
-20 hours
+15 hours
 ## Theory  
 
-- [Lecture about Node.js basics (2022Q2)](https://www.youtube.com/watch?v=oXoSeVbXX_M)
-- [Lecture about Node.js basics (previous)](https://youtu.be/dcdjTqKV2_Q)
-- [Lecture about debug](https://youtu.be/BP2I6VblN8U)
-- [Lecture about Modules in Node.js](https://www.youtube.com/watch?v=RXFOAqsWzFA)
-- [Lecture about Streams in Node.js](https://youtu.be/o1WPOQgPT3Y)
+- [[RU] Lecture about Node.js basics (2022Q2)](https://www.youtube.com/watch?v=oXoSeVbXX_M)
+- [[RU] Lecture about Node.js basics (previous)](https://youtu.be/dcdjTqKV2_Q)
+- [[RU] Lecture about debug](https://youtu.be/BP2I6VblN8U)
+- [[RU] Lecture about Modules in Node.js](https://www.youtube.com/watch?v=RXFOAqsWzFA)
+- [[RU] Lecture about Streams in Node.js](https://youtu.be/o1WPOQgPT3Y)
 - Node.js APIs:
   - [Filesystem API](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html)
   - [Streams API](https://nodejs.org/dist/latest-v18.x/docs/api/stream.html)

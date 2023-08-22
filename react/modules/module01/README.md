@@ -38,7 +38,11 @@ The task will be checked during cross-check and cross-code-review.
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
-5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
+5. Review the code. Pay attention at the following "code smells":
+- props drilling;
+- large, complex components aka "god" components;
+- direct DOM manipulation - methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
+- etc.
 
 When reviewing the code try pay attention at the following principles:
 * Write code as simply as possible: KISS

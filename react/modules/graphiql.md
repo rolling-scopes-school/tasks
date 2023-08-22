@@ -141,7 +141,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### GraphiQL route - max 50 points
 - [ ] Working editor allowing to edit the query. **15 points**
 - [ ] Working documentation explorer, should be visible only when sdl request will succeed. **15 points**
-- [ ] Variables section. Added varibales will be used in the request. Should be closed/opened **10 points**
+- [ ] Variables section. Should be closed/opened **10 points**
 - [ ] Response section. **10 points**
 
 

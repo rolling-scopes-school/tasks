@@ -1,5 +1,5 @@
 # RS School. Angular course
-- All students who accomplished stage#2 may enroll in the course
+- All students who have fully completed at least one of the previous stages (Stage#0, Stage#1, stage#2) and are therefore familiar with the school's processes may enroll in the course
 - Topics:
     - TypeScript
     - Components
@@ -47,10 +47,11 @@
 ### Week #5-8 (April 10 2023 - May 8 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
-- Final task (TBD)
+- [Final task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/airways.md)
 
 ### Week #9 (May 8 2023)
 - [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 # Additional information
 ## Certificate

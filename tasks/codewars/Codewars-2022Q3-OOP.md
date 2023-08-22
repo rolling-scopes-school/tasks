@@ -41,3 +41,4 @@ Total: 1 * 5 + 4 * 7 + 5 * 3 + 8 * 1  = 56
 
 - [Классы](https://learn.javascript.ru/classes)
 - [Прототипы, наследование](https://learn.javascript.ru/prototypes)
+- [Программа, которая покажет решены ли задачи](https://lidachk.github.io/codewars-check/)
