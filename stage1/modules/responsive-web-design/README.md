@@ -26,7 +26,8 @@ Approximately 6 hours.
 
 1. Students should take the "Media Queries & Responsive" test in RS APP > Auto Test.
 
-### Supplementary Materials:
+### Additional Materials:
 
 1. [Webinar by Victoria Vorozhun. Part 3 RU](https://www.youtube.com/watch?v=fooyYgIuZe8&feature=youtu.be) - 3 hours.
 2. [Webinar by Victoria Vorozhun. Part 4 RU](https://www.youtube.com/watch?v=Qk2UGlFNKPE) - 3 hours.
+3. [Responsive Layouts](https://css-tricks.com/responsive-layouts-fewer-media-queries/)
