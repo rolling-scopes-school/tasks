@@ -31,3 +31,4 @@ Approximately 6 hours.
 1. [Webinar by Victoria Vorozhun. Part 3 RU](https://www.youtube.com/watch?v=fooyYgIuZe8&feature=youtu.be) - 3 hours.
 2. [Webinar by Victoria Vorozhun. Part 4 RU](https://www.youtube.com/watch?v=Qk2UGlFNKPE) - 3 hours.
 3. [Responsive Layouts](https://css-tricks.com/responsive-layouts-fewer-media-queries/)
+4. [The guide to responsive web design in 2023](https://webflow.com/blog/responsive-web-design)
