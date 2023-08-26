@@ -1,4 +1,4 @@
-# ⏱ Issue RSS-ECOMM-4_03: Implement Efficient Loading of Products on Catalog Page (20 points)
+# ⏱ Issue RSS-ECOMM-4_03: Implement Efficient Loading of Products on Catalog Page (25 points)
 
 ## 📝 Description
 
