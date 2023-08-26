@@ -5,14 +5,24 @@
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. You have to use Typescript! Please, use [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). 
-3. Set up *Eslint*, *Prettier* so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add the following commands to you package.json file:
-- *lint* to run linting command;
-- *fix* to run prettier fix command;
-Add *Husky* to project ans configure it to run *lint* on pre-commit.
-Eslint should be configured to produce errors for usage of *any*.
-4. Pick a RESTfull api which supports search and pagination (pagination might be reffered as *offset* and *limit* params). E.g. https://pokeapi.co/, for Star Wars fans https://swapi.dev/api, for Star Trek fans https://stapi.co/api-documentation (OpenApi spec can be checked here https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml), or you can select another one complying with the requirements.
-5. Implement the following requirements:
+2. Language Requirement
+- Use **TypeScript** for the project.
+3. Project Setup
+- Initialize the project using [Vite](https://vitejs.dev/guide/) with the [*react-ts* template](https://vite.new/react-ts).
+4. Code Quality Tools
+    1. ESLint
+    - Set up ESLint to throw errors if TypeScript's *any* type is used.
+    - Follow the [configuration guide](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md).
+    2. Prettier
+    - Integrate Prettier for code formatting.
+    3. Husky
+    - Add Husky and configure it to run linting on pre-commit.
+    4. package.json commands
+    - Add the following npm scripts:
+        - `lint`: For running the lint command.
+        - `fix`: For running Prettier's fix command.
+5. Pick a RESTfull api which supports search and pagination (pagination might be reffered as *offset* and *limit* params). E.g. https://pokeapi.co/, for Star Wars fans https://swapi.dev/api, for Star Trek fans https://stapi.co/api-documentation (OpenApi spec can be checked here https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml), or you can select another one complying with the requirements.
+6. Implement the following requirements:
 - Create a page comprised of 2 sections horizontal section (a smaller top one, and a bigger bottom one);
 - On the top section put *Search* input and the "Search" button. *Search* component should look for a previusly saved search term in the local storage, if there isn't any - leave the input empty;;
 - Bottom section should show be used for displaying search results (name and a small description);
