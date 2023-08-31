@@ -12,7 +12,7 @@ Introduce your development team 🏢 in a detailed manner. The introduction shou
 
 #### ✅🎯 Acceptance Criteria
 
-- A detailed introduction of the development team is created and placed in an appropriate location (such as the About page, README file, or a dedicated team page) 🗺️.
+- A detailed introduction of the development team is created and placed in the About Us page 🗺️.
 - The introduction includes the names 📛, roles/job titles 🎯, a short bio 📄, a clear and relevant photo 🖼️, and a link to the GitHub profile 🌐 of each team member.
 - Each member's significant contributions to the project are highlighted in the introduction 🏗️.
 - The description demonstrates how the team's effective collaboration led to the project's successful completion 🎉.

@@ -24,3 +24,4 @@ The enlarged image modal should not only display a single product image 🖼️,
 
 1. [Simple carousel example](https://www.youtube.com/watch?v=2xP-HahCtio)
 2. [Swiper.js - Most modern mobile touch slider](https://swiperjs.com/)
+3. [Images](https://docs.commercetools.com/api/projects/products#ctp:api:type:Image)
