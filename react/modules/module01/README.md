@@ -9,17 +9,18 @@
 3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add command to you package.json file to run linting command.
 4. Add React-Router version 6. Add header which shows the current page name. Additionally, header can contain navigation bar. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”. Page "404" can have no header if you wish.
 5. Draw the following on the main page:
-* Search Bar.\
-examples:\
-https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png \
-https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg \
-Input value should be saved to LocalStorage during component’s unmount. During the initialization pick the value from LocalStorage and show it.
-* Cards. The more details are on the card – the better.\
-examples: \
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg \
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
-**Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
+   * Search Bar.\
+   examples:\
+   https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png \
+   https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg \
+   Input value should be saved to LocalStorage during component’s unmount. During the initialization pick the value from LocalStorage and show it.
+   * Cards. The more details are on the card – the better.\
+   examples: \
+   https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
+   https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg \
+   https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
+
+   * **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
 6. Setup test runner if necessary. You can use either [Jest](https://jestjs.io/docs/getting-started) or [Vitest](https://vitest.dev/guide/)
 Add tests for components. Add test for one card, as well as tests for the list of all cards. You can use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Some time ago [Enzyme](https://enzymejs.github.io/enzyme/) was an alternative, but it is not compatible with the latest version of React.
 When ran, tests should show the coverage (you will be gradually increasing test coverage during next modules)
@@ -45,10 +46,10 @@ The task will be checked during cross-check and cross-code-review.
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
 5. Review the code. Pay attention at the following "code smells":
-- props drilling;
-- large, complex components aka "god" components;
-- direct DOM manipulation - methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
-- etc.
+   - props drilling;
+   - large, complex components aka "god" components;
+   - direct DOM manipulation - methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
+   - etc.
 
 When reviewing the code try pay attention at the following principles:
 * Write code as simply as possible: KISS
@@ -76,6 +77,7 @@ The score might be less, if:
 
 
 If there are direct DOM manipulations – **0 points**.
+
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
@@ -83,24 +85,26 @@ If there are direct DOM manipulations – **0 points**.
 * the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
 * after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
 * after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
-**Do not merge Pull Request from the development branch to the `main` branch**
+
+* **Do not merge Pull Request from the development branch to the `main` branch**
+
 ### Theory
 
-*	[React. Components. Materials](https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit)
-*	[Components - reactjs.org](https://reactjs.org/docs/components-and-props.html)
-*	React-router [documentation + tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
-*	React-router [video course](https://www.youtube.com/watch?v=0auS9DNTmzE) [RU]
-*	React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
-*	React Testing Library course - [React Testing Library. Полный курс](https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s) [RU]
-*   Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
-*   How to setup Vitest with React Testing Library - [video tutorial](https://www.youtube.com/watch?v=zU_RZ5SCUzs)
-*   React Testing Tutorial with React Testing Library and Jest - [video tutorial](https://www.youtube.com/watch?v=Flo268xRpV0)
+* [React. Components. Materials](https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit)
+* [Components - reactjs.org](https://reactjs.org/docs/components-and-props.html)
+* React-router [documentation + tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+* React-router [video course](https://www.youtube.com/watch?v=0auS9DNTmzE) [RU]
+* React Testing [Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
+* React Testing Library course - [React Testing Library. Полный курс](https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s) [RU]
+* Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
+* How to setup Vitest with React Testing Library - [video tutorial](https://www.youtube.com/watch?v=zU_RZ5SCUzs)
+* React Testing Tutorial with React Testing Library and Jest - [video tutorial](https://www.youtube.com/watch?v=Flo268xRpV0)
 
 ### React
 
-*	Rolling Scopes School Lithuania. [React. Part 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
-*	Rolling Scopes School Lithuania. [React. Part 2](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
-*	Rolling Scopes School Lithuania. [React. Part 3](https://www.youtube.com/watch?v=w9MvuGWVvkY)
-*	Short course react + typescript - [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI)
-*	Full tutorial: [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s)
-*	Additionally: [React JS фундаментальный курс от А до Я](https://www.youtube.com/watch?v=GNrdg3PzpJQ) [RU]
+* Rolling Scopes School Lithuania. [React. Part 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
+* Rolling Scopes School Lithuania. [React. Part 2](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
+* Rolling Scopes School Lithuania. [React. Part 3](https://www.youtube.com/watch?v=w9MvuGWVvkY)
+* Short course react + typescript - [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI)
+* Full tutorial: [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s)
+* Additionally: [React JS фундаментальный курс от А до Я](https://www.youtube.com/watch?v=GNrdg3PzpJQ) [RU]
