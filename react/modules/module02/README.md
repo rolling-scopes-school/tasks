@@ -2,7 +2,8 @@
 
 ## React. Routing
 
-The task should be based on the previous task.
+The task should be based on the previous task. We're using [React Router v6.x ](https://reactrouter.com/en/main/start/overview) in this task.
+
 
 ### What should be done:
 
@@ -14,18 +15,19 @@ The task should be based on the previous task.
 4. Add routing to your application using **React Router**.
 5. Add pagination:
     - Implement pagination for your existing item list
-    - Display the current page in the browser URL using query parameters (e.g. ?page=2).
+    - Display the current page in the browser URL using query parameters (e.g. ?page=2, e.g /search/2).
     - The pagination component should appear after receiving the list of all items.
     - If the user changes items on the page, make a new API call and display the results from the first page.
-6. When the user clicks on any item in the list, open a "Details" component with additional information about the item. Create a new route for this using `Router Outlet`.
-7. When opening the "Details" component, make an additional API call to get detailed information about the item. Show a loading indicator while the item is being loaded.
-8. The main list with the selected item (visually distinguished) should be visible on the left.
+6. Main page displays search results. On item click page should be split into 2 section:
+    - left section will continue to display search results;
+    - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
+    - Reflect in the url that "Details" section has been opened for the selected item (e.g. /?frontpage=2&details=1).
 
 ### Questions:
 
 You should use Discord as the primary means of communication.
 
-Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet. 
+Additionally, we will attempt to collect your questions regarding the 2nd Module using a special form, which will be provided via Discord at the beginning of the 2nd Module. Questions will be collected in the Module 02 section of the same spreadsheet.
 
 Please **check the answers carefully before posting** a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to some of the questions.
 
@@ -64,23 +66,20 @@ Run the application and confirm the proper functioning of its features (cross-ch
 
 A student can achieve a maximum of 100 points.
 
-#### Cross-code review:
-
-* Successful execution of linting without errors or warnings - 10 points (potential deduction in case of warnings)
-* Prettier functioning correctly - 5
-* and a separate task is established for automatic fixes - 5
-* Husky is enabled for pre-commit actions (triggers linting) - 10
-* Conversion of class components to functional components with hooks - 10
-
 #### Cross-check (score can be less if some parts of the functionality don't work)
 
-* Pagination is present in both URL and on the page - 20
-* User-initiated change of items per page triggers a new request, displaying the first page - 15
-* Upon clicking, open details panel on the right side of the page (use router outlet, left side of the page should continue displaying the list of results), initiate an additional API call, display a loader, and update the URL. Details panel should be closed either on the "close" button click or on the main panel click - 25
+* Conversion of class components to functional components with hooks - **10**
+* Pagination is present in both URL and on the page - **20**
+* User-initiated change of items per page triggers a new request, displaying the first page - **15**
+* Upon clicking, open details panel on the right side of the page: - **5**
+  - use router outlet, left side of the page should continue displaying the list of results - **10**
+  - initiate an additional API call, display a loader, and update the URL - **5**
+  - Details panel should be closed either on the "close" button click or on the main panel click - **10**
 
 #### Penalties
 
 * Absence of TypeScript - 95
+* Prettier, linting, and Husky are not set up - 100
 * The usage of Redux or other state management solutions is prohibited - 100
 * The usage of libraries for components or forms is prohibited - 100
 
@@ -91,7 +90,8 @@ A student can achieve a maximum of 100 points.
 * The commit history should accurately reflect the process of creating the app. Refer to [Commit requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU] for details.
 * Once development is complete, you must create a Pull Request from the app's branch to the `main` branch. Refer to [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU] for details.
 * After completing the module, make your private repository accessible for cross-checks and cross-code-reviews for the duration of the next module (one week). After this week concludes, the repository should be set to private once again.
-  **Do not merge the Pull Request from the development branch to the `main` branch.**
+
+**Do not merge the Pull Request from the development branch to the `main` branch.**
 
 ### Theory:
 
