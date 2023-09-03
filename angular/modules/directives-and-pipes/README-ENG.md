@@ -23,7 +23,7 @@ Assignment - 3 hours
 ## Practical assignment
 
 - [Angular. Directives & Pipes](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Mentor: Aleh Serhiyenia
+- Mentor: Natalia Loginova
 
 ## Additional materials
 

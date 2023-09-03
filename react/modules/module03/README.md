@@ -8,7 +8,7 @@ The task should be based on the previous task.
 
 1. Create a separate branch for this task from the previous task's branch.
 2. Implement custom state management using the Context API.
-   - Utilize the created context to store both the value entered in the Search component and the list of items received from the API.
+   - Utilize the created context to store both the value entered in the Search component and the list of items received from the API;
    - Ensure that all components that need to access this data use the context.
 3. Add and configure testing libraries: React Testing Library and Jest.
 4. Write tests for the following scenarios, keeping in mind that you should use mocked data instead of real API calls:
@@ -17,7 +17,7 @@ The task should be based on the previous task.
      - Check that an appropriate message is displayed if no cards are present.
    - Card:
      - Ensure that the card component renders the relevant card data;
-     - Validate that clicking on a card opens a detailed card component.
+     - Validate that clicking on a card opens a detailed card component;
        - Check that clicking triggers an additional API call to fetch detailed information;
        - Check that a loading indicator is displayed while fetching data.
    - Detailed Card:

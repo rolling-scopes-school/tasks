@@ -1,5 +1,5 @@
 # RS School. Angular course
-- All students who accomplished stage#2 may enroll in the course
+- All students who have fully completed at least one of the previous stages (Stage#0, Stage#1, stage#2) and are therefore familiar with the school's processes may enroll in the course
 - Topics:
     - TypeScript
     - Components

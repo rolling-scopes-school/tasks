@@ -8,7 +8,7 @@ To prevent duplication and increase user convenience, only allow a product to be
 
 1. **Product Duplication Check:** Before adding a product to the shopping cart, verify whether the product is already present in the user's shopping cart.
 2. **"Add to Cart" Button:** If the product is not already in the shopping cart, the "Add to Cart" button should be active and clickable. When clicked, this button should add the product with the selected options to the shopping cart.
-3. **API Integration:** Use the chosen API to manage the shopping cart and add products to it.
+3. **API Integration:** Use the commercetools to manage the shopping cart and add products to it.
 
 #### ✅ Acceptance Criteria
 

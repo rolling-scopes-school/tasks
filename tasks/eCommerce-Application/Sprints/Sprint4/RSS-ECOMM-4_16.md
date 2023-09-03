@@ -1,4 +1,4 @@
-### 💰🔖 Issue RSS-ECOMM-4_16: Implement Promo Code Application Feature (10 points)
+### 💰🔖 Issue RSS-ECOMM-4_16: Implement Promo Code Application Feature (15 points)
 
 #### 📝📚 Description
 

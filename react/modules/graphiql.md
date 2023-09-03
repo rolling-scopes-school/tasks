@@ -103,7 +103,7 @@ You are free to choose your own way of developing the project and the repository
 ### Main page - GraphiQL
 - Editor
 - Variables section
-- Headers section
+- Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that)
 - Documentation section, should be visible only when app will receive a successfull response with the schema definition from the api
 - Response section
 
