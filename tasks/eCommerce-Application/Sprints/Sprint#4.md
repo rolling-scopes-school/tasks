@@ -16,9 +16,9 @@ For the Catalog page 📚🌟, we will implement interactive product cards 🖼�
 
 ### Evaluation Criteria: 📋
 
-### CrossCheck Criteria (330 points): ✅
+### CrossCheck Criteria (285 points): ✅
 
-### Catalog Page Enhancements (115 points - Total) 🛒🌟
+### Catalog Page Enhancements (70 points - Total) 🛒🌟
 
 #### 1. Interactive Product Cards (10 points) 🖼️👆
 
@@ -31,12 +31,6 @@ For the Catalog page 📚🌟, we will implement interactive product cards 🖼�
 #### 3. Performance Optimization (25 points) 🚀💡
 
 - **(25 points)** 🎯 Implement lazy loading ⏳, pagination 📄🔍, or infinite scroll 🔄 to efficiently load and display a large number of products without significant delays or performance issues, leveraging the commercetools API for product data retrieval 🌐🛠️. [RSS-ECOMM-4_03](./Sprint4/RSS-ECOMM-4_03.md)
-
-#### 4. Modal Window with Image Slider (45 points) 🖼️🔍
-
-- **(20 points)** 🎯 Display a modal window with an image 🖼️, product name 🏷️, and description 📝 when a user hovers over a product image. [RSS-ECOMM-4_04](./Sprint4/RSS-ECOMM-4_04.md)
-- **(15 points)** 🎯 Allow users to navigate through all product images using the slider inside the modal window 🖼️👉👈. [RSS-ECOMM-4_05](./Sprint4/RSS-ECOMM-4_05.md)
-- **(10 points)** 🎯 Include an "Add to Cart" button in the modal window, enabling users to directly add the product to the shopping cart 🛒. [RSS-ECOMM-4_06](./Sprint4/RSS-ECOMM-4_06.md)
 
 ### Detailed Product Page Implementation (30 points - Total) 📄🌟
 
