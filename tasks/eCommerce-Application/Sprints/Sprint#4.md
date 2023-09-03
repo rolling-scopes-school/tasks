@@ -126,11 +126,11 @@ Please note that these penalties will be deducted from the final score. Strive t
 
 ### Here is the final points distribution:
 
-- Catalog Page Enhancements: 115 points
+- Catalog Page Enhancements: 70 points
 - Detailed Product Page Enhancements: 30 points
 - Basket Page Implementation: 110 points
 - About Us Page Implementation: 35 points
 - Routing Implementation: 20 points
 - Evaluation Criteria for Header: 20 points
 - Mentor Evaluation Criteria: 60 points
-- Total points for Sprint 4: 390 points
+- Total points for Sprint 4: 345 points
