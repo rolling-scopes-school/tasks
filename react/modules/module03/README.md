@@ -10,27 +10,26 @@ The task should be based on the previous task.
 2. Implement custom state management using the Context API.
    - Utilize the created context to store both the value entered in the Search component and the list of items received from the API;
    - Ensure that all components that need to access this data use the context.
-3. Add and configure testing libraries: React Testing Library and Jest.
-4. Write tests for the following scenarios, keeping in mind that you should use mocked data instead of real API calls:
-   - Card List:
-     - Verify that the component renders the specified number of cards;
-     - Check that an appropriate message is displayed if no cards are present.
-   - Card:
-     - Ensure that the card component renders the relevant card data;
-     - Validate that clicking on a card opens a detailed card component;
-       - Check that clicking triggers an additional API call to fetch detailed information;
-       - Check that a loading indicator is displayed while fetching data.
-   - Detailed Card:
-     - Make sure the detailed card component correctly displays the detailed card data;
-     - Ensure that clicking the close button hides the component.
-   - Pagination:
-     - Make sure the component receives and uses the data from the url.
-   - Search Component:
-     - Verify that clicking the Search button saves the entered value to the local storage;
-     - Check that the component retrieves the value from the local storage upon mounting.
-   - 404 Page:
-     - Ensure that the 404 page is displayed when navigating to an invalid route.
-5. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
+3. Add and configure test runner: Jest or Vitest. Add testing library: React Testing Library. You should add tests for the several scenarios keeping in mind that mocked data should be used instead of real API calls.
+4. Tests for the Card List component:
+   - Verify that the component renders the specified number of cards;
+   - Check that an appropriate message is displayed if no cards are present.
+5. Tests for the Card component:
+   - Ensure that the card component renders the relevant card data;
+   - Validate that clicking on a card opens a detailed card component;
+     - Check that clicking triggers an additional API call to fetch detailed information;
+     - Check that a loading indicator is displayed while fetching data.
+6. Tests for the Detailed Card component:
+   - Make sure the detailed card component correctly displays the detailed card data;
+   - Ensure that clicking the close button hides the component.
+7. Tests for the Pagination component:
+   - Make sure the component updates URL query parameter when page changes.
+8. Tests for the Search component:
+   - Verify that clicking the Search button saves the entered value to the local storage;
+   - Check that the component retrieves the value from the local storage upon mounting.
+9. Tests for the 404 Page component:
+   - Ensure that the 404 page is displayed when navigating to an invalid route.
+10. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
 ### Questions
 
@@ -65,7 +64,9 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
+
 ##### Student can get 100 points:
+
 - Custom state management using the Context API is implemented - **5 points**
 - The Search component value is stored in the context - **5 points**
 - The list of items received from the API is stored in the context - **5 points**
@@ -75,11 +76,12 @@ Run app and check that the functionality is working (cross-check)
 - Husky runs tests on pre-push - **10 points**
 
 ##### Penalties:
+
 - TypeScript isn't used: **-95 points**
-- Usage of *any*: **-20 points per each**
-- Usage of *ts-ignore*: **-20 points per each**
+- Usage of _any_: **-20 points per each**
+- Usage of _ts-ignore_: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
-- Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 ### Repository requirements
 
@@ -93,6 +95,7 @@ Run app and check that the functionality is working (cross-check)
 ### Useful links
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Vitest](https://vitest.dev/guide/)
 - [Jest](https://jestjs.io/docs/getting-started)
 - [Mock Service Worker](https://mswjs.io/docs/)
 - [Pattern for writing good tests](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
