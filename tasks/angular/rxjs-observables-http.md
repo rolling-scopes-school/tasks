@@ -63,3 +63,5 @@ https://angular.io/api/common/http/HttpResponse
 https://angular.io/api/common/http/HttpHeaders
 
 https://angular.io/api/common/http/HttpParams
+
+https://pazel.dev/how-to-keep-your-secrets-from-your-source-code-in-an-angular-project
