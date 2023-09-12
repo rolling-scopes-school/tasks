@@ -3,7 +3,7 @@
 ## [RS School. Курс по Angular.](../../README-RU.md)
 
 
-## В данном модуле студенты изучат 👩‍🎓👨‍🎓
+## В данном модуле студенты изучат
 
 - Понятие модулей, их практическое применение и их роль в приложениях..
 - `CoreModule` и `SharedModule`.
@@ -28,7 +28,7 @@
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Тест: Modules & Services, Dependency injection
 
-## Документация📄
+## Документация 📄
 - [RU: Документация](https://angular24.ru/)
 - [Add services](https://angular.io/tutorial/toh-pt4)
 - [Introduction to modules](https://angular.io/guide/architecture-modules)
@@ -38,9 +38,9 @@
 - [Dependency injection in Angular](https://angular.io/guide/dependency-injection)
 - [Dependency providers](https://angular.io/guide/dependency-injection-providers)
 - [Dependency injection in action](https://angular.io/guide/dependency-injection-in-action)
-- [Создание HeroService](https://angular24.ru/tutorial/toh-pt4)
+- [RU: Создание HeroService](https://angular24.ru/tutorial/toh-pt4)
 
-## Дополнительные материалы 📄
+## Дополнительные материалы 📚
 - [Angular Roadmap](https://roadmap.sh/angular)
 - [Project Structure in Angular](https://www.youtube.com/watch?v=mJGg7LWmVeU)
 - [Angular: useValue, useClass, useExisting and useFactory in a nutshell](https://medium.com/@matsal.dev/angular-usevalue-useclass-useexisting-and-usefactory-in-a-nutshell-97db8d206084)
