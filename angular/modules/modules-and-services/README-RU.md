@@ -1,16 +1,19 @@
-# [Angular schedule.](../../README-RU.md) Modules & Services
-## В данном модуле студентам необходимо:
+# Modules & Services 🚀
 
-- Что такое модули, зачем они нужны, как их использовать.
+## [RS School. Курс по Angular.](../../README-RU.md)
+
+
+## В данном модуле студенты изучат 👩‍🎓👨‍🎓
+
+- Понятие модулей, их практическое применение и их роль в приложениях..
 - `CoreModule` и `SharedModule`.
 - Понятие `Services`, их задачи.
 - Понятие `Dependency injection`, что это и как его использовать.
 
-## Приблизительное время прохождения модуля
-теория - 2 часа
-практика - 2 часа
+## Приблизительное время прохождения модуля ⌚
+#### Теория - 2 часа, Практика - 2 часа.
 
-## Теория 
+## Теория 👩‍🏫
 - Лекции:
     - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
     - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
@@ -21,11 +24,12 @@
     - [Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
     - [Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
 
-## Практическое задание
+## Практическое задание 💻
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Ментор: Aleh Serhiyenia
+- Тест: Modules & Services, Dependency injection
 
-## Дополнительные материалы
+## Документация📄
+- [RU: Документация](https://angular24.ru/)
 - [Add services](https://angular.io/tutorial/toh-pt4)
 - [Introduction to modules](https://angular.io/guide/architecture-modules)
 - [NgModules](https://angular.io/guide/ngmodules)
@@ -34,5 +38,12 @@
 - [Dependency injection in Angular](https://angular.io/guide/dependency-injection)
 - [Dependency providers](https://angular.io/guide/dependency-injection-providers)
 - [Dependency injection in action](https://angular.io/guide/dependency-injection-in-action)
+- [Создание HeroService](https://angular24.ru/tutorial/toh-pt4)
+
+## Дополнительные материалы 📄
+- [Angular Roadmap](https://roadmap.sh/angular)
+- [Project Structure in Angular](https://www.youtube.com/watch?v=mJGg7LWmVeU)
+- [Angular: useValue, useClass, useExisting and useFactory in a nutshell](https://medium.com/@matsal.dev/angular-usevalue-useclass-useexisting-and-usefactory-in-a-nutshell-97db8d206084)
+- [Angular Dependency Injection: Complete Guide](https://blog.angular-university.io/angular-dependency-injection/)
 - [Using forRoot() and forChild()](https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular)
-- [Создать HeroService](https://angular24.ru/tutorial/toh-pt4)
+- [Angular Standalone Components: Welcome to a World Without NgModule](https://netbasal.com/angular-standalone-components-welcome-to-a-world-without-ngmodule-abd3963e89c5)
