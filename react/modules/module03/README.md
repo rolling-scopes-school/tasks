@@ -10,26 +10,27 @@ The task should be based on the previous task.
 2. Implement custom state management using the Context API.
    - Utilize the created context to store both the value entered in the Search component and the list of items received from the API;
    - Ensure that all components that need to access this data use the context.
-3. Add and configure test runner: Jest or Vitest. Add testing library: React Testing Library. You should add tests for the several scenarios keeping in mind that mocked data should be used instead of real API calls.
-4. Tests for the Card List component:
+3. Add and configure test runner: Jest or Vitest. Test runner should show the test coverage. You should aim to reach at least 80% of the test coverage.
+4. Add testing library: React Testing Library. You should add tests for the several scenarios keeping in mind that mocked data should be used instead of real API calls.
+5. Tests for the Card List component:
    - Verify that the component renders the specified number of cards;
    - Check that an appropriate message is displayed if no cards are present.
-5. Tests for the Card component:
+6. Tests for the Card component:
    - Ensure that the card component renders the relevant card data;
    - Validate that clicking on a card opens a detailed card component;
      - Check that clicking triggers an additional API call to fetch detailed information;
      - Check that a loading indicator is displayed while fetching data.
-6. Tests for the Detailed Card component:
+7. Tests for the Detailed Card component:
    - Make sure the detailed card component correctly displays the detailed card data;
    - Ensure that clicking the close button hides the component.
-7. Tests for the Pagination component:
+8. Tests for the Pagination component:
    - Make sure the component updates URL query parameter when page changes.
-8. Tests for the Search component:
+9. Tests for the Search component:
    - Verify that clicking the Search button saves the entered value to the local storage;
    - Check that the component retrieves the value from the local storage upon mounting.
-9. Tests for the 404 Page component:
+10. Tests for the 404 Page component:
    - Ensure that the 404 page is displayed when navigating to an invalid route.
-10. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
+11. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
 ### Questions
 
@@ -82,6 +83,7 @@ Run app and check that the functionality is working (cross-check)
 - Usage of _ts-ignore_: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Test coverage is less than 80%: **-30 points**
 
 ### Repository requirements
 

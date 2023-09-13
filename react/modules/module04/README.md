@@ -1,35 +1,24 @@
 # Week 4
 
-## React. API
+## Redux. RTK.
 
 Task should be based on the previous task.
 
 ### What should be done:
 
 1. Create a separate branch for this task from the previous branch task.
-2. Choose an API.
-   There are several recommended APIs. But you may choose any other API that you prefer if it supports search, pagination and sorting.
-   - https://www.flickr.com/services/api/flickr.photos.search.html
-   - https://the-one-api.dev/documentation
-   - https://rickandmortyapi.com/documentation/
-   - https://developers.themoviedb.org/3/getting-started/introduction
-   - https://pipedream.com/apps/swapi
-   - https://github.com/public-apis/public-apis
-   - https://unsplash.com/documentation
-  
-     **The API should support searching, pagination and sorting. Although you don’t need it at this stage, but there’s a good chance it might come in handy later.**
-3. Rewrite the search page, and split it into 2 logical parts:
-   - **Search bar.** Enter text -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
-   - **The result list of searching**: display the data that the API query returned using Cards.
-4. A customer decided to change the requirement about cards. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
-5. Create a progress indicator (a component with animation, or at least with the text - ‘Progressing...’) which will be shown when request is pending. You should place this indicator with your own sense of beauty.
-  
-     All the logical parts must be in separated components.
-  
-     **User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**
-  
-6. Add tests. All the api-calls should be mocked in the tests.
-
+2. Redux Integration
+   - Integrate Redux into your application. You'll need to set up the Redux store and reducers using Redux Toolkit.
+3. Connect Components. Connect the relevant components to the Redux store. Components should be able to access and modify the following data:
+   - Save search value on CTA (Call to Action) button click.
+   - Save items per page.
+   - Save view mode value.
+   - RTK Query Implementation: Use Redux Toolkit Query (RTK Query) to make API calls and cache the results. This will modify your previous API call implementation.
+4. Loading Flags
+   - Implement separate loading flags in the Redux store for the main page and details page. These flags should indicate whether data is being loaded.
+5. Test Updates
+   - Update your tests to accommodate the changes introduced by Redux and RTK Query. 
+   - Test the functionality related to Redux state and API calls.
 ### Questions
 You should be using Discord as the main mean of the communication.
 Also we will try to collect your questions regarding the 4th Module using special form, which will be provided via the Discord with the 4th Module start. Questions will be collected in Module 04 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
@@ -56,19 +45,22 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
-Student can get 15 points if the following requirements are met:
-1. Eslint should not show any errors or warnings.
-2. All the functionality should work.
-3. Test coverage for the whole app should be not less than 70%.
-
-The score might be less, if:
-1. Part of functionality doesn't work.
-2. Test coverage is below 70%.
-3. Presence of the code smells.
-4. Lots of unnessecary, redundant or obvious comments.
-
-
-If there are direct DOM manipulations – **0 points**.
+##### Student can get 100 points:
+- Redux is integrated to the app with the help of Redux Toolkit - **25 points**
+- Search is saved in the store - **5 points**
+- Items per page is saved in the store - **5 points**
+- View mode is saved in the store - **10 points**
+- Loading flags
+- When either search or items per page is changed, application makes a new call using RTK Query to fetch the data - **25 points**
+- Tests had been modified to test the functionality using Redux and RTK Query - **20 points**
+##### Penalties:
+- TypeScript isn't used: **-95 points**
+- Usage of *any*: **-20 points per each**
+- Usage of *ts-ignore*: **-20 points per each**
+- Direct DOM manipulations inside the React components: **-50 points per each**
+- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
+- Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Test coverage is less than 80%: **-30 points**
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
@@ -80,12 +72,8 @@ If there are direct DOM manipulations – **0 points**.
 
 ### Theory
 
-- Fetching Data with Fetch API: [ReactJS: Fetching Data with Fetch API and ComponentDidMount
-  ](https://www.youtube.com/watch?v=r40gtnaTe9s)
-- [Full React Tutorial #17 - Fetching Data with useEffect](https://www.youtube.com/watch?v=qdCHEUaFhBk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=17)
-- [Full React Tutorial #18 - Conditional Loading Message
-  ](https://www.youtube.com/watch?v=qtheqr0jgIQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=18)
-- [Full React Tutorial #19 - Handling Fetch Errors](https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19)
-- [React API - video](https://www.youtube.com/watch?v=W9czPM2N65Y&t=3495s)
-- [Fetch Data from an API in React](https://www.youtube.com/watch?v=T3Px88x_PsA)
+- Redux Toolkit Docs - [Start with configureStore](https://redux-toolkit.js.org/api/configureStore)
+- RTK Query - [Overview](https://redux-toolkit.js.org/rtk-query/overview)
+- [Redux - Writing tests](https://redux.js.org/usage/writing-tests)
+- [How to test RTK Query with react testing library](https://dev.to/ifeanyichima/-testing-components-with-a-request-for-rtk-query-using-msw-and-react-testing-library-5a8n)
 - React Testing Library - [Mock API Calls - Mock Service Worker](https://www.youtube.com/watch?v=oMv2eAGWtZU) 
