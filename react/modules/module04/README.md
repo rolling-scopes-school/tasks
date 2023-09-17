@@ -50,7 +50,7 @@ Run app and check that the functionality is working (cross-check)
 - Search is saved in the store - **5 points**
 - Items per page is saved in the store - **5 points**
 - View mode is saved in the store - **10 points**
-- Loading flags
+- Loading indicators are shown, loading flags are saved in the store,  - **10 points**
 - When either search or items per page is changed, application makes a new call using RTK Query to fetch the data - **25 points**
 - Tests had been modified to test the functionality using Redux and RTK Query - **20 points**
 ##### Penalties:
