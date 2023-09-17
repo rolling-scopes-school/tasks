@@ -3,8 +3,8 @@
 Your task is to create a branch named `rsschool-cv-html` in the `gh-pages` branch of the `rsschool-cv` repository, add files `index.html` and `style.css` to it, which contain basic empty templates or templates with minimal content (the layout and styling of the CV will be done in the next task), and deploy them to GitHub Pages.
 
 - [Task description and requirements](cv.md)
-- [Tips for completing the task using VS Code](cv-hints.md)
-- [Tips for completing the task using GitHub](cv-github-hints.md)
+- [Tips for completing the task using VS Code](../cv-hints.md)
+- [Tips for completing the task using GitHub](../cv-github-hints.md)
 
 Please note that the tips provided are not part of the task. Follow the tips only as much as they can help you.
 
@@ -34,7 +34,7 @@ All errors found by the validator during the checking of your work are listed in
 - Requirements for commits and Pull Request are met +50
 
 ## Materials:
-- [Working with Git](git.md)
+- [Working with Git](../git.md)
 - [Basic HTML Template](https://www.w3schools.com/html/)
 
 **NB** In the example above, the html tag is missing the lang attribute, which is necessary to pass the CV auto-test.
@@ -45,13 +45,13 @@ All errors found by the validator during the checking of your work are listed in
 
 Create an empty index.html document. Place the cursor inside the HTML editor content and type `!`. You will get a content selection dialog that looks like this:
 
-![demo](./images/html_template_basic.JPG)
+![demo](../images/html_template_basic.JPG)
 
 </details>
 
 <details><summary>Click to see the demo gif</summary>
 
-![demo](./images/basic_html_2.gif)
+![demo](../images/basic_html_2.gif)
 
 </details>
 
