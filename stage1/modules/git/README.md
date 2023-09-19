@@ -24,18 +24,17 @@ Practice: 4 hours
 5. Video instructions [how to deploy page using the GitHub Pages](https://www.youtube.com/watch?v=OltY8JIaP-4) (7 min)
 
 ## Practice
-1. Pass the test "Git Test [RU]" in the RS APP > Auto Test
+1. Use [an interactive tool](https://learngitbranching.js.org) to practice Git 
 
 ## Additional sources
 1. [Git Basics. Handbook](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 2. Instructions [how to generate SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) and [how add it to your GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
-3. [Interactive tool to learn Git](https://learngitbranching.js.org) 
-4. [RU] Good [docs-styled book](https://uleming.github.io/gitbook/index.html) from a Git-community
-5. [RU] [Screencast of the Git theory (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+3. [RU] Good [docs-styled book](https://uleming.github.io/gitbook/index.html) from a Git-community
+4. [RU] [Screencast of the Git theory (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
     - basics
     - branches
     - merge
-6. Git summary
+5. Git summary
    - [[RU]](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
    - [[ENG]](https://cs.fyi/guide/git-cheatsheet)
 
