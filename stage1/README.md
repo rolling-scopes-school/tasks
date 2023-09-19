@@ -66,7 +66,7 @@
 
 - [Module "CSS positioning. Flex."](modules/css-positioning/)
 - [Module "CSS grid layout"](modules/css-grid/)
-- [Module: CSS Preprocessors. Sass](modules/sass/)
+- [Module: CSS Preprocessors. Sass](modules/sass/en/README.md)
 - [shelter. week-1](../tasks/shelter/shelter.md)
 
 ### Week #4
