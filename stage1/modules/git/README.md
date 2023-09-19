@@ -18,10 +18,10 @@ Practice: 4 hours
 ## Theory 
 1. You should read and remember [commits requirements](https://docs.rs.school/#/en/git-convention) in RS School
 2. Watch video materials [Git/GitHub theory](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (~0.5 hour)
-2. Watch this video together with practicing to use Git by yourself [Git Workshop [RU]](https://youtu.be/Dlr_E7WfA08) (0.5 hour)
-3. Learn [Markdown's documentation](https://guides.github.com/features/mastering-markdown/) - you can start with basics and syntax and dive in other concepts when practice (0.5 hour)
-4. Short and valuable instruction for setting up the GitHub Pages in your repository [provided by MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/Using_GitHub_pages), [official documentation](https://pages.github.com/)
-5. Video instructions [how to deploy page using the GitHub Pages](https://www.youtube.com/watch?v=OltY8JIaP-4) (7 min)
+3. Watch this video together with practicing to use Git by yourself [Git Workshop [RU]](https://youtu.be/Dlr_E7WfA08) (0.5 hour)
+4. Learn [Markdown's documentation](https://guides.github.com/features/mastering-markdown/) - you can start with basics and syntax and dive in other concepts when practice (0.5 hour)
+5. Short and valuable instruction for setting up the GitHub Pages in your repository [provided by MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/Using_GitHub_pages), [official documentation](https://pages.github.com/)
+6. Video instructions [how to deploy page using the GitHub Pages](https://www.youtube.com/watch?v=OltY8JIaP-4) (7 min)
 
 ## Practice
 1. Use [an interactive tool](https://learngitbranching.js.org) to practice Git 
