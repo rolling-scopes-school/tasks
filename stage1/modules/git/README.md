@@ -24,7 +24,8 @@ Practice: 4 hours
 6. Video instructions [how to deploy page using the GitHub Pages](https://www.youtube.com/watch?v=OltY8JIaP-4) (7 min)
 
 ## Practice
-1. Use [an interactive tool](https://learngitbranching.js.org) to practice Git 
+1. Pass the test "Git Test [RU]" in the RS APP > Auto Test
+2. Use [an interactive tool](https://learngitbranching.js.org) to practice Git 
 
 ## Additional sources
 1. [Git Basics. Handbook](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
