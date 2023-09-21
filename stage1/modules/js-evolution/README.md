@@ -1,5 +1,5 @@
 # [Stage#1](../../) JavaScript. Evolution
-## В данном модуле студентам необходимо познакомиться с: 
+## In this module, students need to learn about: 
 - ES2015 
   - Arrays	
     - [Using the array spread operator](https://medium.com/@luke_smaki/javascript-es6-spread-operator-and-rest-parameters-b3e89d112281)
@@ -25,18 +25,18 @@
   - Advanced Subjects	
     - [Scripting in package.json](https://docs.npmjs.com/cli/v8/using-npm/scripts)
 
-## Приблизительное время прохождения модуля
-3 часа
+## Approximate time to complete this module:
+3h
 
-## Теория
+## Theory
   - // TODO
-  - [ES6 по-человечески](https://habr.com/ru/post/305900/) - 1 час
+  - [ES6 for Humans](https://habr.com/ru/post/305900/) - 1h
 
-## Практика 
-  - [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q1.md)
+## Practice 
+  - [Codewars tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q1.md)
 
-## Дополнительные материалы
-  - [EcmaScript - Полный курс (ES6, ES7, ES8)](https://www.youtube.com/watch?v=Ti2Q4sQkNdU) - 2,5 часа
+## Additional sources
+  - [ [RU] EcmaScript - Complete course (ES6, ES7, ES8)](https://www.youtube.com/watch?v=Ti2Q4sQkNdU) - 2,5h
   - [The State Of JavaScript](https://stateofjs.com/)
 
 
