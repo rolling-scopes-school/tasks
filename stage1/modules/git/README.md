@@ -1,40 +1,41 @@
-# [Stage#1.](../../) Знакомство с системой контроля версий Git и веб-сервисом GitHub
-## В данном модуле студентам необходимо:
-1. Получить общее представление о системе контроля версий Git.
-2. Начать работу с Git на примере веб-сервиса GitHub.
-3. Познакомиться с терминологией:
+# [Stage#1.](../../) Introduction to the Git version control system and the GitHub web service
+## What should be done:
+1. Get basic understanding of the Git version control system
+2. Get started to work with Git using a web-service GitHub
+3. Get to know the following terminology:
     - Repository: Local, Remote/Origin
     - Working Directory
     - Staging Area
-3. Познакомиться c основными командами (clone, add, commit, push, pull)
-4. Познакомиться c понятием "ветка" в git: создание новой, слияние, перебазирование
-5. Познакомиться с Markdown, оформить страницу
-6. Создать собственную веб-страничку при помощи github-pages
+3. Learn the main commands (clone, add, commit, push, pull)
+4. Get to know a concept of 'branch' in the Git: create, merge, rebase
+5. Get to know a Markdown basics, create a page using it
+6. Create personal web page with the GitHub Pages
 
-## Приблизительное время прохождения модуля
-Теория: 3 часа
-Практика: 4 часа
+## Approximate learning time
+Theory: 3 hours  
+Practice: 4 hours
 
-## Теория 
-1. Вам необходимо просмотреть видео-материалы [Теория по Git](https://youtu.be/6e4fVpZNxGM) (0.5 часа)
-2. Просмотреть [материалы из презентации](https://slides.com/anton_bely/saturday-talk#/2)
-3. Вам необходимо просмотреть практические видео-материалы [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 часа)
-4. Для практического задания ознакомиться с [документацией Markdown](https://guides.github.com/features/mastering-markdown/) - можно коротко посмотреть возможности и синтаксис, а более глубоко погрузиться на практике (0.5 часа)
-5. Короткий и понятный материал, как настроить github-pages в вашем репозитории: [ссылка на MDN](https://developer.mozilla.org/ru/docs/Learn/Common_questions/Using_Github_pages#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2_%D0%BD%D0%B0_github), [официальная документация](https://pages.github.com/)
-6. Вам необходимо прочитать и запомнить [требования к коммитам в RS School](https://docs.rs.school/#/git-convention)
-7. Посмотреть видео [как деплоить на GitHub Pages](https://youtu.be/0lvKcqP3aP0)
+## Theory 
+1. You should read and remember [commits requirements](https://docs.rs.school/#/en/git-convention) in RS School
+2. Watch video materials [Git/GitHub theory](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (~0.5 hour)
+3. Watch this video together with practicing to use Git by yourself [Git Workshop [RU]](https://youtu.be/Dlr_E7WfA08) (0.5 hour)
+4. Learn [Markdown's documentation](https://guides.github.com/features/mastering-markdown/) - you can start with basics and syntax and dive in other concepts when practice (0.5 hour)
+5. Short and valuable instruction for setting up the GitHub Pages in your repository [provided by MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/Using_GitHub_pages), [official documentation](https://pages.github.com/)
+6. Video instructions [how to deploy page using the GitHub Pages](https://www.youtube.com/watch?v=OltY8JIaP-4) (7 min)
 
-## Практика 
-1. Вам необходимо пройти тест "Git Test [RU]" в RS APP > Auto Test
+## Practice
+1. Pass the test "Git Test [RU]" in the RS APP > Auto Test
+2. Use [an interactive tool](https://learngitbranching.js.org) to practice Git 
 
-## Дополнительные материалы
-1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
-2. [Инструкция по добавлению SSH в Git](https://github.com/TUstiugov/ssh-hints-for-win/blob/main/ssh-hints-for-win.md)
-3. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
-4. Интерактивный тренажер по Git: https://learngitbranching.js.org/?locale=ru_RU
-5. [Скринкаст по Git (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
-    - основы
-    - ветки
-    - слияние
-6. [Конспект по Git](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
+## Additional sources
+1. [Git Basics. Handbook](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+2. Instructions [how to generate SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) and [how add it to your GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+3. [RU] Good [docs-styled book](https://uleming.github.io/gitbook/index.html) from a Git-community
+4. [RU] [Screencast of the Git theory (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+    - basics
+    - branches
+    - merge
+5. Git summary
+   - [[RU]](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
+   - [[ENG]](https://cs.fyi/guide/git-cheatsheet)
 
