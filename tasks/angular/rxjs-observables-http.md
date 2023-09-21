@@ -33,13 +33,13 @@ Maximum points - **100**
 - [ ] Login block reflects the current login state (**+15**)
 - [ ] Search functionality is integrated with the YouTube API (**+30**)
 - [ ] Detailed information page uses a call to the YouTube API (**+30**)
-- [ ] HTTP interceptor is used to pass the token and the base API URL (**+10**) 
+- [ ] HTTP interceptor is used to pass the token and the base API URL (**+10**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Stage #2 requirements](https://docs.rs.school/#/stage2?id=%d0%94%d0%b5%d0%b4%d0%bb%d0%b0%d0%b9%d0%bd%d1%8b)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app still contains mocked data (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
-- [ ] TSLint warnings or errors are present (**-15**)
+- [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
 https://rxjs-dev.firebaseapp.com/api
@@ -63,3 +63,5 @@ https://angular.io/api/common/http/HttpResponse
 https://angular.io/api/common/http/HttpHeaders
 
 https://angular.io/api/common/http/HttpParams
+
+https://pazel.dev/how-to-keep-your-secrets-from-your-source-code-in-an-angular-project

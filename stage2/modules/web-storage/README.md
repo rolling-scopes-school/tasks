@@ -11,6 +11,7 @@
 ## Теория 
 - [LocalStorage, sessionStorage](https://learn.javascript.ru/localstorage) - 30 минут
 - [Cookie](https://learn.javascript.ru/cookie) - 30 минут
+- [indexedDB](https://learn.javascript.ru/indexeddb) - 30 минут
 
 ## Практика
 Вам необходимо пройти тест "Web Storage" в RS APP > Auto Test

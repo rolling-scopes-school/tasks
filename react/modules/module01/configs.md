@@ -1,22 +1,29 @@
-# Конфигурация eslint и prettier для использования в задании
+# Eslint and prettier configurations
 
-## Набор рекомендуемых библиотек
+## Recommended libraries (versions can be different)
 
 ```
-"@typescript-eslint/eslint-plugin": "^5.7.0",
-"@typescript-eslint/parser": "^5.7.0",
-"eslint-config-prettier": "^8.3.0",
-"eslint-config-react": "^1.1.7",
-"eslint-plugin-prettier": "^4.0.0",
-"husky": "^7.0.4",
-"lint-staged": "^12.1.2",
-"prettier": "^2.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
 ```
+The configuration might be different based on what setup has been choosen (Vite or CRA), you can check [the details](https://www.npmjs.com/package/eslint-plugin-react-hooks).
+[Here are](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/) some details about setting up Husky on the project.
 
-## Конфигурцая eslint
-Может изменяться только с согласия ментора
+
+## Eslint configuration
+Might be insignificantly changed
 ```
-  {
+{
   "parser": "@typescript-eslint/parser",
   "extends": [
     "plugin:react/recommended",
@@ -25,14 +32,23 @@
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["@typescript-eslint", "react", "prettier", "react-hooks"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "root": true,
   "parserOptions": {
-    "ecmaVersion": 11,
-    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "ecmaVersion": "latest",
+	"sourceType": "module"
   },
+  "plugins": [
+    "@typescript-eslint", "react", "prettier", "react-hooks"
+  ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -42,7 +58,8 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "error",
@@ -55,17 +72,11 @@
       "pragma": "React",
       "version": "detect"
     }
-  },
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true
-  },
-  "root": true
+  }
 }
 ```
 
-## Конфигурция prettier
+## Prettier configuration
 ```
 {
   "endOfLine": "auto",
@@ -77,3 +88,33 @@
   "arrowParens": "always"
 }
 ```
+
+## TSConfig
+
+```
+
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
+```
+Note: If you use ```CRA``` you should remove ```"references": [{ "path": "./tsconfig.node.json" }]``` from the config above

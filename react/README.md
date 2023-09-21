@@ -1,61 +1,61 @@
-# RS School. Курс React.
-Курс предназначен для студентов RS School, которые прошли RS School stage #2, а также для новых студентов, которые имеют знания и практический опыт использования следующих технологий и инструментов:
+# RS School. React.
+This course is aimed to the students of the RS School which passed RS School stage #2 and for the new students, which have experience with :
 - JavaScript
 - TypeScript
-- Git, GitHub (clone, add, commit, push, pull, merge, rebase, работа с Pull Request)
+- Git, GitHub (clone, add, commit, push, pull, merge, rebase, pull request flow)
 - NPM, Webpack
 - CSS3 / HTML5
 - Chrome DevTools, Figma
-- Понимание концепции REST API
-ВНИМАНИЕ! Менторы этого курса будут в первую очередь распределяться среди выпускников RS School stage #2.
+- Understanding of how to interact with apis (general understanding of REST and GraphQL)
+ATTENTION! Mentors for this course will be first distributed for the graduates of the RS School stage #2.
 
-### Продолжительность обучения
-7 недель отводиться на изучения React и еще 3 недели на выполнение финального проекта. Программа требует 20-40 часов в неделю.
+### Course duration
+7 weeks are devoted to studying React and 3 more weeks to final task implementation. This course requires 20-40 hours per week
 
-## Программа обучения
-### Неделя #1 (22 марта 2022)
+## Course program
+### Week #1 (13th of March, 2023)
 [React. Components](modules/module01)
 
-### Неделя #2 (29 марта 2022)
+### Week #2 (20th of March, 2023)
 [React. Forms](modules/module02)
 
-### Неделя #3 (5 апреля 2022)
-[React. API](modules/module03)
+### Week #3 (27th of March, 2023)
+[React. Hooks](modules/module03)
 
-### Неделя #4 (12 апреля 2022)
-[React. Hooks](modules/module04)
+### Week #4 (3rd of April, 2023)
+[React. API](modules/module04)
 
-### Неделя #5 (19 апреля 2022)
-[React. Custom app state](modules/module05)
+### Week #5 (10th of April, 2023)
+[React. Redux](modules/module05)
 
-### Неделя #6 (26 апреля 2022)
-[React. Redux](modules/module06)
+### Week #6 (17th of April, 2023)
+[React. SSR/SSG](modules/module06)
 
-### Неделя #7 (3 мая 2022)
+### Week #7 (24th of April, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Неделя #8 (10 мая 2022)
+### Week #8 (1st of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Неделя #9 (17 мая 2022)
+### Week #9 (8th of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Неделя #10 (24 мая 2022)
+### Week #10 (15th of May, 2023)
 - [Technical React Interview](interview.md)
-- [Project management app](../tasks/react/final-task-project-management-app.md)
+- [GraphiQL](modules/graphiql.md)
 
-### Неделя #11 (31 мая 2022)
-Cross-check review: [Project management app](../tasks/react/final-task-project-management-app.md)
+### Week #11 (22nd of May, 2023)
+Cross-check review: - [GraphiQL](modules/graphiql.md)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
-## Преподаватели курса
+
+## Lectors
 - [Ihar Krasiuk](https://github.com/ragingyngvarr)
-- [Sergey Neprakhin](https://github.com/MadaShindeInai)
 - [Olga Bugrova](https://github.com/lyolya95)
 - [Andrej Podlubnyj](https://github.com/andron13) 
 - [Artyom Parfenenkov](https://github.com/ParfenenkovEdit)
-- [Yuliya Haluza](https://github.com/yuliaHope)
 - [Valery Dluski](https://github.com/valerydluski)
 

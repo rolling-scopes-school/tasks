@@ -10,10 +10,10 @@
 - Work with ORM
 
 ## Estimated time to complete the module
-20 hours
+15 hours
 
 ## Theory
-- [Lecture](https://youtu.be/qxaxVwetYfU)
+- [[RU] Lecture](https://youtu.be/qxaxVwetYfU)
 - [PostgreSQL docs](https://www.postgresql.org/docs/current/)
 - [Node-postgres](https://node-postgres.com/)
 - [Typeorm](https://typeorm.io/)
@@ -22,5 +22,5 @@
 
 ## Practice
 1. Assignment: **REST Service: Database & ORM**
-  - [Assignment](https://expample.com)
-  - [Score calculation](https://expample.com)
+  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/database-orm/assignment.md)
+  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/database-orm/score.md)

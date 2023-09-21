@@ -15,6 +15,7 @@
 
 ## Теория 
 - https://learn.javascript.ru/document
+- [Запись лекции по DOM API/Events](https://youtu.be/2Yg-cH2hpiM?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Дополнительные материалы
 - Запись вебинара RS School

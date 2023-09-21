@@ -11,7 +11,14 @@
 
 ## Источник
 
-[Исходное приложение](https://github.com/Pulya10c/news-JS)
+[Исходное приложение](https://github.com/rolling-scopes-school/news-JS/)
+
+### Proxy
+
+- News API больше не позволяет вызывать API с других ресурсов кроме localhost
+- Прокси News API сервера для использования в задеплоенной версии:
+  - https://rss-news-api.onrender.com/
+  - https://news-proxy.spanb4.shop/
 
 ## Требования к заданию
 
@@ -90,10 +97,10 @@
    - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
 2. Качество кода +100
    - приложение полностью смигрированно на TypeScript +50:
-     - используется Everyday Types + 10
+     - используется Everyday Types and Enums + 10
      - используются Generics +10
      - использование Object Types +10
-     - использование Classes +10
+     - использование Classes and private, public +10
      - использование Function +10
    - ESLinter настроен на TypeScript, включено правило `no-explicit-any` и отсутствуют ошибки +10
    - нигде не используется тип Any +10
@@ -110,6 +117,7 @@
 2. Код не полностью покрыт типами -20
 3. В конфигурационном файле TypeScript не стоят обязательные флаги `"noImplicitAny": true` и `"strict": true` -20
 4. В конфигурационном файле ESLint не включено правило `no-explicit-any` -10
+5. Ошибки ESLinter -10
 
 ## Требования к репозиторию
 
@@ -119,6 +127,7 @@
 - при невозможности использовать gh-pages, используйте для деплоя https://app.netlify.com/drop. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
+- **ссылку на пулл реквест** необходимо отправить на проверку ментору в Dashboard -> Mentor's Check по кнопке "Submit Task"
 
 ## Материалы которые могут помочь:
 

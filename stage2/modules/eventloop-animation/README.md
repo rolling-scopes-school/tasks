@@ -1,4 +1,4 @@
-# [Stage#1.](../../) Event Loop & Animation
+# [Stage#2.](../../) Event Loop & Animation
 ## В данном модуле студентам необходимо изучить:
 #### Event Loop
 - Event Loop
@@ -45,5 +45,5 @@
 
 #### Animations
 - [CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
-- [High Performance Animations](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
+- [High Performance Animations](https://web.dev/animations-examples/)
 - [Why Moving Elements With Translate() Is Better Than Pos:abs Top/left](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/)

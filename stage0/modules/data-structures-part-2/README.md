@@ -8,6 +8,7 @@
 1. Вам необходимо просмотреть видео-материалы про структуры данных, которые построены на указателях (2 часа)
     - [Связный список](https://youtu.be/NpcHTBOAId0)
     - [Бинарное поисковое дерево](https://youtu.be/fnqUD4FTE5Q)
+2. [Запись вебинара](https://youtu.be/SqQAP4S8PA8?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика 
 ### Teст
@@ -21,8 +22,7 @@
 * Хорошо подумайте перед сабмитом чужого кода, стоит ли риск быть отчисленным за 3% баллов.
 
 Задачи: 
-1. [CodeWars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/algorithms-2.md)
-2. https://github.com/rolling-scopes-school/guessing-game
+https://github.com/rolling-scopes-school/guessing-game
 
 ## Дополнительные материалы
 1. Оценка сложности алгоритма: [ссылка 1](https://tproger.ru/articles/computational-complexity-explained/), [ссылка 2](https://tproger.ru/translations/algorithms-and-data-structures/)

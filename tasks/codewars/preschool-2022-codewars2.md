@@ -15,7 +15,7 @@
 - 7 kyu https://www.codewars.com/kata/odd-even-string-sort
 - 7 kyu https://www.codewars.com/kata/power-of-two
 - 7 kyu https://www.codewars.com/kata/string-reordering
-- 7 kyu https://www.codewars.com/kata/sum-with-arrows/
+- 7 kyu https://www.codewars.com/kata/minimize-sum-of-array-array-series-number-1
 - 7 kyu https://www.codewars.com/kata/unpacking-arguments
 - 7 kyu https://www.codewars.com/kata/vowel-one
 - 7 kyu https://www.codewars.com/kata/who-is-the-killer-1
@@ -27,7 +27,8 @@ Codewars - автопроверяемый таск.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
-Ваш никнейм на сайте codewars должен быть таким же, как и GitHub никнейм, под которым вы зарегистрировались в rs app. Если указанный никнейм на codewars занят, добавьте к своему GitHub никнейму окончание -rss. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания **Codewars Part 2** в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
+
 
 ## Scoring criteria
 

@@ -14,6 +14,7 @@
 2. Flexbox
     - https://webref.ru/layout/flexbox-tutorial - 2h
     - https://habr.com/ru/post/467049/ - 1h
+3. Лекция по [основам Flex позиционирования](https://youtu.be/zeKsh5uPeg0?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика
 1.  Вам необходимо пройти тест "CSS Positioning & Flexbox" в RS APP > Auto Test
