@@ -20,7 +20,7 @@ A profound understanding of JavaScript is the starting point for learning everyt
 ## 📖 Theory
 
 - 🎥 **Webinar:** [Introduction to JS/Front-end development, TypeScript, NodeJS basics, and cloud services [RU]](https://www.youtube.com/watch?v=5g1U06QjWZk) - 2 hours.
-- 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md) - Focus on technical language proficiency required for development and interaction with cloud services.
+- 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## 💡 Essential Knowledge for Front-end Developers
 
