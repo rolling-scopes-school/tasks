@@ -11,7 +11,7 @@ In this module, students should:
 
 ## 🕒 Module Completion Time
 
-- Approximate Time: **2 hours**
+- Approximate Time: **4 hours**
 
 ## 📖 Theory
 
