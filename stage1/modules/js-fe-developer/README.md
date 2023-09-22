@@ -19,7 +19,7 @@ A profound understanding of JavaScript is the starting point for learning everyt
 
 ## 📖 Theory
 
-- 🎥 **Webinar:** [Introduction to JS/Front-end development, TypeScript, NodeJS basics, and cloud services [RU]](https://www.youtube.com/watch?v=5g1U06QjWZk) - 2 hours.
+- tbd: #1194
 - 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## 💡 Essential Knowledge for Front-end Developers
@@ -47,16 +47,3 @@ Understanding NodeJS, Cloud services, and TypeScript is crucial due to the expan
 - [AWS Best Practices](https://roadmap.sh/best-practices/aws)
 - [Full Stack Developer Roadmap](https://roadmap.sh/full-stack)
 - [Career Guidance [RU]](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 hours
-
-### 📚 Suggested Reading
-
-- [You Don't Know JS, Kyle Simpson](https://www.amazon.com/You-Dont-Know-JS-Closures/dp/1449335586)
-- [Excellent book on JS](https://javascript.info/)
-  Chapters to Start With:
-  - [JavaScript Basics](https://javascript.info/first-steps)
-  - [Objects: the basics](https://javascript.info/object-basics)
-  - [Data types](https://javascript.info/data-types)
-  - [Advanced working with functions](https://javascript.info/advanced-functions)
-  - [Document](https://javascript.info/document)
-  - [Introduction to events](https://javascript.info/events)
-- [doka guide [RU]](https://doka.guide/)
