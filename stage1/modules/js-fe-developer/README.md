@@ -9,6 +9,10 @@ In this module, students should:
 - 🤝 **Familiarize** themselves with the responsibilities of JS/Front-end developers and the integration between client-side applications and back-end services.
 - 📚 **Acquaint** themselves with the entry-level requirements and essential skills for aspiring JS/Front-end developers.
 
+## 🌐 Starting Point: Deep Understanding of JavaScript
+
+A profound understanding of JavaScript is the starting point for learning everything else in front-end development. It forms the backbone of web development, enabling you to grasp the complexities of other technologies and languages effectively.
+
 ## 🕒 Module Completion Time
 
 - Approximate Time: **4 hours**
