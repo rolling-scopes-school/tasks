@@ -16,13 +16,14 @@ Assignment - 8 hours
 - [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/rxjs-observables)
 - [Slides](https://slides.com/pavelrazuvalau/angular-rxjs)
 
-### Supplements:
+### Supplements (required):
 
 Following materials also should be considered as learning sources before starting practical tasks
 
 - [`async` pipe in html](https://www.telerik.com/blogs/angular-basics-step-by-step-understanding-async-pipe)
 - [Learn RxJS](https://www.learnrxjs.io)
 - [RxJS API List](https://rxjs-dev.firebaseapp.com/api)
+- [RxJS Crash Cource](https://youtu.be/tGWBy6Vqq9w)
 - [RxJS best practices](https://blog.brecht.io/rxjs-best-practices-in-angular)
 - Hot and Cold Observables:
     - [Explanation by Predrag Carapic](https://www.decodedfrontend.io/hot-vs-cold-observable-in-rxjs)
