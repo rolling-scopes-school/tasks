@@ -43,9 +43,8 @@
 - [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
 - [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - [Module "Getting to know version control system Git"](modules/git/)
-- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/git-markdown.md)
-- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
-- [codejam #1](https://github.com/DrDiman/CSS-Bayan-task)
+- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
+- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
 
 ### Week #2
 
