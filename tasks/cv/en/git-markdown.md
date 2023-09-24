@@ -2,18 +2,18 @@
 
 Your task is to create a repository according to the requirements, add your CV in markdown format to it, and deploy the CV in markdown format to GitHub Pages.
 
-- [Task description and requirements](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv)
-- [Tips for completing the task using VS Code](../cv-hints.md)
-- [Tips for completing the task using GitHub](../cv-github-hints.md)
+- [Task description and requirements](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/en/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv)
+- [Tips for completing the task using VS Code](cv-hints.md)
+- [Tips for completing the task using GitHub](cv-github-hints.md)
 
 ## Workflow
 1. In your GitHub account, create a public repository with the name `rsschool-cv`. In the main branch of this repository (`main`), there should be only one file, `README.md`.
 2. Create a branch `gh-pages` from the `main` branch.
-3. During the work on the project, you need to make at least 3 commits in the `gh-pages` branch. According to the [commit guideline](https://docs.rs.school/#/git-convention), the name of each commit should start with one of the listed prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
+3. During the work on the project, you need to make at least 3 commits in the `gh-pages` branch. According to the [commit guideline](https://docs.rs.school/#/en/git-convention), the name of each commit should start with one of the listed prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
 4. In the `gh-pages` branch, place the `cv.md` file.
-5. Using the markdown language in the `cv.md` file, create your CV. The requirements for the CV content and recommendations for its preparation are listed in the [task description](../cv.md#содержание-cv).
+5. Using the markdown language in the `cv.md` file, create your CV. The requirements for the CV content and recommendations for its preparation are listed in the [task description](cv.md#cv-contents).
 6. In the `README.md` file of the `gh-pages` branch, add a link like `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`, replacing `GITHUB-USERNAME` with your GitHub username. This link should open the CV page deployed on GitHub Pages.
-7. Create a Pull Request from the `gh-pages` branch to the `main` branch. The title of the Pull Request should be `Markdown & Git`. Follow the [Pull Request description template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). Do not merge the Pull Request from the `gh-pages` branch to the `main` branch.
+7. Create a Pull Request from the `gh-pages` branch to the `main` branch. The title of the Pull Request should be `Markdown & Git`. Follow the [Pull Request description template](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr). Do not merge the Pull Request from the `gh-pages` branch to the `main` branch.
 
 ## Publishing the CV on `github-pages` (Deploy)
 To find the link to your previously published CV (and add it to the third point of the Pull Request description):
