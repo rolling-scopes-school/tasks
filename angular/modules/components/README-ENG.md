@@ -36,3 +36,4 @@
 - [Component interaction](https://angular.io/guide/component-interaction)
 - [Content projection](https://angular.io/guide/content-projection)
 - [🆕 Standalone components](https://angular.io/guide/standalone-components)
+- [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)
