@@ -227,7 +227,7 @@
     - Integration Testing
     - E2E
     - Security Testing
-    - Perforamance Testing
+    - Performance Testing
   - Test Pyramid
   - Testing approaches `(optional)`
   - FIRST
