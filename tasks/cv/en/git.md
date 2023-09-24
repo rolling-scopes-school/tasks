@@ -10,13 +10,13 @@ At stage #0, you need to learn the basics of working with Git and GitHub. There 
 6. [Creating Pull Request](#6-creating-pull-request)
 7. [Deploying to gh-pages](#7-deploying-to-gh-pages)
 8. [Deploying to Netlify](#8-deploying-to-netlify)
-9. [School Private Repository](#9-school-private-repository)
+9. [School Private Repository](#9-schools-private-repository)
 
-### 1. Registering on GitHub
+## 1. Registering on GitHub
 [GitHub](https://github.com/)  
 Video: [Registering on GitHub](https://youtu.be/5DKVktUtH3A)
 
-### 2. Creating a Repository
+## 2. Creating a Repository
 To create a repository, click on the "New repository" button at the top right.  
 On the repository creation page [here](https://github.com/new), specify:  
 - Repository name
@@ -24,7 +24,7 @@ On the repository creation page [here](https://github.com/new), specify:
 - Check the box to create a README file  
 Video: [Creating a Repository on GitHub](https://youtu.be/CgFHLQBwj7A)
 
-### 3. Cloning a Repository to Your Computer
+## 3. Cloning a Repository to Your Computer
 The repository in the form of a folder on your computer is called a local repository.  
 The repository uploaded to GitHub is called a remote repository.  
 When you clone a repository from GitHub to your computer, you create a **local copy of the remote repository**.
@@ -38,7 +38,7 @@ For example, to clone the course tasks repository to your computer:
 If you need to clone a specific branch of the repository to your computer, execute the command:  
 `git clone repository link -b branch name`
 
-### 4. Uploading Files to a Repository
+## 4. Uploading Files to a Repository
 You can upload files to a repository via GitHub's web interface or using Git. Let's look at both methods.
 
 #### Uploading Files to a Repository via GitHub Interface
@@ -53,25 +53,25 @@ You can upload files to a repository via GitHub's web interface or using Git. Le
 - Commit the changes with `git commit -m "write what you changed"`.
 - Push the files to the repository with `git push origin main`, where `main` is the branch name you're pushing to.
 
-### 5. Creating Branches
+## 5. Creating Branches
 The main branch of a repository is usually named `main` (formerly `master`).  
 You can create other branches from it, and create branches from those branches, and so on.  
 At the early stages of learning, all branches are created exclusively from the main branch.  
 Before creating a new branch, make sure you are in the main branch of the repository.
 
-#### Creating Branches via GitHub Interface
+### Creating Branches via GitHub Interface
 1. Ensure you are in the main repository branch, `main` (or `master`).
 2. Click on the triangle next to the branch name. Enter the branch name, e.g., `gh-pages`.
 3. Click on the "Create branch: gh-pages from main" (or from `master`) line. You've created the `gh-pages` branch.
 
 ![Creating Branch](../images/create-branch.png)
 
-#### Creating Branches via Git
+## Creating Branches via Git
 - Clone the repository to your computer with the `git clone repository link`.
 - While in the repository folder, open Git Bash and execute `git checkout -b gh-pages`. You've created the `gh-pages` branch.
 - Note that when you create a branch, it copies all the files from the branch you created it from.
 
-### 6. Creating Pull Request
+## 6. Creating Pull Request
 During the RS School projects, you'll often create Pull Requests from a development branch to the main branch of your repository (`main` or `master`), or from a development branch to the `gh-pages` branch.
 
 Pull Requests are created through the GitHub interface. Here's how:
@@ -84,7 +84,7 @@ Pull Requests are created through the GitHub interface. Here's how:
 - You can add an image to the Pull Request description by simply dragging it from your computer.
 - If you click the "Merge pull request" button, the Pull Request will be closed, and the files from the development branch will be moved to the branch you're merging into.
 
-## 7. Deployment to gh-pages
+## 7. deploying to gh-pages
 
 Deployment means hosting your project - a website or application - on the internet. 
 
@@ -115,7 +115,7 @@ where you need to specify:
 `github-name` - GitHub user nickname
 `repository-name` - repository name
 
-## 8. Deployment to netlify
+## 8. deploying to netlify
 
 If you need to host a project created in a private repository on the internet, you can use the service [https://www.netlify.com/](https://www.netlify.com/). To do this, log in to Netlify, click the "New site from Git" button, and specify the repository on GitHub where your application is located.
 
