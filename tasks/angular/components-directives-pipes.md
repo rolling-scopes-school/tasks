@@ -36,7 +36,7 @@ You can use any UI frameworks/libraries to simplify (facilitate) the creation of
 - When user opens the app, only the **Header** section should be shown
 - After submitting the search form, the **Search results block** appears.
 - Show cards of videos populated with mocked data (use data from [response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json) file). You can store the mocked data in the **Search results** component
-    - The bottom border represents the publication date status. The following colors should be used:
+    - The bottom border represents the publication date status. The following border colors should be used:
         - 🟥 if older than 6 months
         - 🟨 if between 1 and 6 months
         - 🟩 if between 7 days and 1 month
@@ -53,7 +53,7 @@ Maximum score - **100**
 - [ ] Fake search functionality is implemented: by submitting the form in the **Header** component, search results are shown (**+20**)
 - [ ] The **Search result item** component contains all the necessary data (**+10**)
 - [ ] The **Filtering criteria block** toggle functionality is implemented (**+5**)
-- [ ] The colorful border under the **Search result item** is implemented using a `Directive` (**+15**)
+- [ ] The colored border under the **Search result item** is implemented using a `Directive` (**+15**)
 - [ ] Search result sorting is implemented (both ascending and descending directions) (**+15**)
 - [ ] Search result filtering by key words is implemented using a `Pipe` (**+15**)
 - [ ] Custom Button component is implemented and used across the application. The component utilizes [Content projection](https://angular.io/guide/content-projection) to display the button text (**+5**)
