@@ -10,7 +10,7 @@
 ## Approximate time to complete this module:
 
 Theory - 6 hours;
-Assignment - 4 hours
+Assignment - 8 hours
 
 ## Theory
 
@@ -32,5 +32,5 @@ Assignment - 4 hours
 
 ## Additional materials
 
-- [General understanding of Flux](https://facebook.github.io/flux/)
+- [Component store](https://youtu.be/r0Rzt4lQ0T0)
 - [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno)
