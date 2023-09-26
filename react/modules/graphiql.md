@@ -29,11 +29,11 @@ Your app must contain:
 1. Welcome page
 2. User auth
 3. GraphiQL page with:
-    - request editor
+    - request editor (query editor / json viewer)
     - variables editor
-    - headers editor (optional)
+    - headers editor
     - documentation explorer (should be lazy-loaded)
-    - response section
+    - response section (query editor / json viewer)
 
 ## Repository requirements
 
@@ -57,7 +57,7 @@ You are free to choose your own way of developing the project and the repository
 [GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
 ## Technical requirements
 
-- localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
+- localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header. Localization should be implemented using Context API. No 3rd party / open source solutions are allowed.
 - semantic layout
 - the application should work at least in the latest version of the Google Chrome browser
 - private routes, 404, error boundary
@@ -65,6 +65,9 @@ You are free to choose your own way of developing the project and the repository
 - you must use React 18 + **suspense** feature
 - you can use Vite (or any React framework you want, e.g. Gatsby, NextJS, Remix), css frameworks, any js/components libs you want, html and css pre-processors
 - you MUST use Typescript
+- tests should be present on the project (**test** command in the package.json ), test coverage should be reported when running the command, test coverage should be at least 80%
+- Eslint, prettier (**lint** and **prettier-fix** commands in the package.json)
+- Husky hooks (run **lint** on pre-commit, **test** on pre-push) 
 - ❗ it is forbidden to copy the code of other students or [GraphiQL](https://www.npmjs.com/package/@graphiql/react). This ban applies to html, css, and js code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except github repositories of course students.
 
 ## Application design requirements
@@ -101,11 +104,11 @@ You are free to choose your own way of developing the project and the repository
 - If the user is already logged in and tries to reach these routes, they should be redirected to the Main page
 
 ### Main page - GraphiQL
-- Editor
+- Query editor / Json viewer. Query editro should support prettifying. Any 3rd party / open source solution is forbidden, you should implement it on your own. Json viewer should be read only, it will be used in the response section.
 - Variables section
 - Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that)
 - Documentation section, should be visible only when app will receive a successfull response with the schema definition from the api
-- Response section
+- Response section. Should be represnted by the same Query editor / Json viewer component. Should be read only.
 
 ## How to submit tasks
 
@@ -114,47 +117,53 @@ You are free to choose your own way of developing the project and the repository
 - If the task is not submitted before the deadline, it will not be distributed during the cross-check and points will not be added to your score.
 ## Evaluation criteria
 
-**Maximum available points for the task 120**
+**Maximum available points for the task 400**
 It contains:
-- maximum 90 for crosscheck
-- maximum 30 for your involvement into a project. Those points will be assigned by the mentor for each student.
+- maximum 350 for crosscheck
+- maximum 50 for your involvement into a project. Those points will be assigned by the mentor for each student.
 
 ## Cross-check criteria
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
-### Welcome route - max 10 points
+### Welcome route - max 50 points
 
-- [ ] The welcome page should contain general information about the developers, project, and course. **2 point**
-- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **2 point**
-- [ ] If login token is valid and unexpired, change the Sign In and Sign Up buttons to the "Go to Main Page" button. **2 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **3 points**
-- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
+- [ ] The welcome page should contain general information about the developers, project, and course. **10 point**
+- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **10 point**
+- [ ] If login token is valid and unexpired, change the Sign In and Sign Up buttons to the "Go to Main Page" button. **10 points**
+- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **10 points**
+- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **10 point**
 
-### Sign In / Sign Up  - max 20 points
+### Sign In / Sign Up  - max 50 points
 
-- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **5 points**
-- [ ] Client-side validation should be implemented. **10 points**
-- [ ] Upon successful login, the user should be redirected to the Main page **3 point**
-- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. **2 point**
+- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **10 points**
+- [ ] Client-side validation should be implemented. **20 points**
+- [ ] Upon successful login, the user should be redirected to the Main page **10 point**
+- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. **10 point**
 
-### GraphiQL route - max 50 points
-- [ ] Working editor allowing to edit the query. **15 points**
-- [ ] Working documentation explorer, should be visible only when sdl request will succeed. **15 points**
-- [ ] Variables section. Should be closed/opened **10 points**
-- [ ] Response section. **10 points**
+### GraphiQL route - max 200 points
+- [ ] Working editor allowing to edit the query. **50 points**
+- [ ] Working documentation explorer, should be visible only when sdl request will succeed. **50 points**
+- [ ] Variables section. Could be showed/closed **30 points**
+- [ ] Header section. Could be showed/closed **20 points** 
+- [ ] Response section. Editor in read only json viewer mode **50 points**
 
 
-### General requirements - max 10 points
+### General requirements - max 50 points
 
-- [ ] Localization **5 point**
-- [ ] Sticky header **5 points**
+- [ ] Localization **40 point**
+- [ ] Sticky header **10 points**
 
 
 ### Penalties
-- [ ] React default favicon **- 5 points**
-- [ ] The presence of errors and warnings in the console **- 2 points** for each
-- [ ] The presence in the console of the results of the console.log execution **- 2 points** for each
-- [ ] @ts-ignore or any usage (search through github repo) **- 1 point** for each
-- [ ] Making commits after the deadline **- 20 points**  
+- [ ] React default favicon **-50 points**
+- [ ] The presence of errors and warnings in the console **-20 points** for each
+- [ ] The presence in the console of the results of the console.log execution **-20 points** for each
+- [ ] @ts-ignore or any usage (search through github repo) **-20 point** for each
+- [ ] Making commits after the deadline **-100 points**
+- [ ] Absence of tests **-250 points**
+- [ ] Test coverage below 80% **-100 points**
+- [ ] Absence of linting **-150 points**
+- [ ] Absence of prettier **-100 points**
+- [ ] Absence of husky git hooks **-100 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names.
