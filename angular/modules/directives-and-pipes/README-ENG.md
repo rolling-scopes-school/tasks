@@ -18,7 +18,7 @@ Assignment - 3 hours
 - [Lecture](https://youtu.be/ezoPOrwQ-rw)
 - [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes/src)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/e935bfeef0e794a54907ea2c1978e06e7f914cd7)
-- [Slides](https://slides.com/pavelrazuvalau/angular-directives-pipes)
+- [Slides](https://slides.com/natalia_loginowa/angular-directives-pipes)
 
 ## Practical assignment
 
