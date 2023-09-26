@@ -14,4 +14,4 @@
 4. [Make a website responsive for all devices](https://www.youtube.com/watch?v=UUjNEMXZA-k) - 30 minutes
 
 ## Practice   
-1. You need to complete the "Media Queries & Responsive" test in RS APP > Auto Test.
+1. You are required to complete the "Media Queries & Responsive" test in RS APP > Auto Test.
