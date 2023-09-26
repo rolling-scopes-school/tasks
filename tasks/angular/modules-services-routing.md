@@ -3,30 +3,25 @@
 
 [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-## Angular. Modules & Services. Routing task
-The objective of the task is to implement new pages using modules, services and routing features. So, your app will contain the following pages:
-- Login page
-- 404 page
-- Main page (which is implemented before)
-- Detailed information page
+## Angular: Modules, Services, & Routing Task
+The goal of this task is to implement new pages using modules, services, and routing features. After finishing, your app should include the following pages
+- Login page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/login.jpg)
+- 404 page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/404.jpg)
+- Main page (which is implemented before). [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)
+- Detailed information page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/details-page.jpg)
 
-**[YouTube client. Login page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/login.jpg)**
-
-**[YouTube client. 404 page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/404.jpg)**
-
-**[YouTube client. Main page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
-
-**[YouTube client. Detailed information page JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/details-page.jpg)**
-
-### Task requirements
+### Task requirements 🗒️
 To continue with the YouTube app, some structural refactoring is required.
 First, your project should be reorganized into the following modules:
-- **CoreModule** (global layout components: Header, Footer, global services). Should be imported **ONCE** in **AppModule**
-- **YoutubeModule** (YouTube feature module. Includes the main page implemented before, the **Detailed information page**, models, services, etc.)
-- **AuthModule** (login page, login service, etc.)
-- (optionally) **SharedModule** for shared components, directives, and pipes. Should **NOT** include services. It could be imported into each feature module.
+- **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the AppModule. It needs to be integrated within the **AppModule**
+- **YoutubeModule:** This is a feature module for YouTube functionalities. It should contain the main page (previously implemented), the **Detailed Information Page**, and related models, services, etc.
+- **AuthModule:** This module will contain the login page, login service, and corresponding components.
+- **SharedModule (optional):** If implemented, this module should consist of shared components, directives, and pipes. It can be imported into each feature module as needed.
 
-Please bear in mind that the *app.component* shouldn’t contain any logic at this stage.
+#### Important notes 📌
+- The **CoreModule** should be imported only **ONCE** into the AppModule to avoid any re-imports.
+- **app.component** should **NOT** contain any logic at this stage of development.
+- The **SharedModule**, if implemented, should **NOT** include services.
 
 #### Project structure and technical requirements
 The project structure can be organized in the following way:
@@ -82,6 +77,16 @@ Pages directory contains components that represent individual pages (**Login pag
     - Should contain information about the selected video.
     - To determine which video is selected, pass its id as a route param
 
+#### Optional task (without points)
+- Develop two logger services to handle logging differently for development and production modes. Use the logger service to log the message in the console after the user is logged in
+    - DevLoggerService: This service should log messages with a [DEV] prefix. Example: *[DEV]: App is running in the development mode*
+    - ProdLoggerService: This service should log messages with a [PROD] prefix. Example: *[PROD]: App is running in the production mode*
+- You could place this services in the **CoreModule**
+- For better implementetion you could create an abstract class LoggerService with a method logMessage that takes in a message and logs it. Both DevLoggerService and ProdLoggerService should extend this abstract class, providing their own prefix values.
+- Provide one of the logger services for the entire app based on the mode it's running in. 
+
+📌 *Note: You could use the isDevMode() function from Angular to check this. To check the implementation in the prod mode you can use **ng serve --configuration production** command*
+
 #### Evaluation criteria
 Maximum points - **100**
 
@@ -98,9 +103,9 @@ Fines
 - [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
-https://angular.io/tutorial/toh-pt4
+https://angular.io/tutorial/tour-of-heroes/toh-pt4
 
-https://angular.io/tutorial/toh-pt5
+https://angular.io/tutorial/tour-of-heroes/toh-pt5
 
 https://angular.io/guide/architecture-modules
 
@@ -116,8 +121,7 @@ https://angular.io/guide/dependency-injection-providers
 
 https://angular.io/guide/dependency-injection-in-action
 
-https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
-
+https://www.freelancermap.com/blog/using-forroot-and-forchild-to-configure-modules-in-angular/
 https://angular.io/guide/router
 
 https://angular.io/api/router
