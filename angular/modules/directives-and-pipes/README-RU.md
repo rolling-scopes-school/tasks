@@ -19,7 +19,7 @@
   - [Angular 2020Q1. Directives & Pipes](https://youtu.be/S7TKY7hfWa0)
   - [Angular 2021Q1. Directives & Pipes](https://youtu.be/RLI6AGKwVcA)
 - [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes/src)
-- [Слайды](https://slides.com/pavelrazuvalau/angular-directives-pipes)
+- [Слайды](https://slides.com/natalia_loginowa/angular-directives-pipes)
 
 ## Практическое задание
 
