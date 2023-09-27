@@ -20,6 +20,7 @@ Design, prototype, as well as the implementation of the application are up to yo
 
 
 ## Backend
+
 Application doesn't require a backend.
 You can use any open GraphQL api which supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), or you can create a proxy service as part of your app and use it to make requests to any GraphQL api (even those which do not support CORS)
 
@@ -57,7 +58,6 @@ You are free to choose your own way of developing the project and the repository
 [GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
 ## Technical requirements
 
-- localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header. Localization should be implemented using Context API. No 3rd party / open source solutions are allowed.
 - semantic layout
 - the application should work at least in the latest version of the Google Chrome browser
 - private routes, 404, error boundary
@@ -80,9 +80,13 @@ You are free to choose your own way of developing the project and the repository
 ## Description of function blocks
 
 ### General requirements
-- Errors from the api side - (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
+
+- Errors from the api side (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like this - up to your decision).
+- Localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header. Localization should be implemented using Context API. No 3rd party / open source solutions are allowed.
+
 
 ### Welcome page
+
 - If user is not authorized, the page should contain a link to Sign In / Sign Up page
 - If user is authorized, the page should contain a link to the Main page
 
@@ -104,6 +108,7 @@ You are free to choose your own way of developing the project and the repository
 - If the user is already logged in and tries to reach these routes, they should be redirected to the Main page
 
 ### Main page - GraphiQL
+
 - Query editor / Json viewer. Query editor should support prettifying. Any 3rd party / open source solution is forbidden, you should implement it on your own. Json viewer should be read only, it will be used in the response section.
 - Variables section
 - Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that)
@@ -118,14 +123,16 @@ You are free to choose your own way of developing the project and the repository
 ## Evaluation criteria
 
 **Maximum available points for the task 400**
+
 It contains:
 - maximum 350 for crosscheck
 - maximum 50 for your involvement into a project. Those points will be assigned by the mentor for each student.
 
 ## Cross-check criteria
-For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
-[How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
+[How to evaluate tasks in Cross check](https://docs.rs.school/#/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+
 ### Welcome route - max 50 points
 
 - [ ] The welcome page should contain general information about the developers, project, and course **10 point**
@@ -142,6 +149,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page **10 point**
 
 ### GraphiQL route - max 200 points
+
 - [ ] Working editor allowing to edit and prettify the query **60 points**
 - [ ] Working documentation explorer, should be visible only when sdl request will succeed **50 points**
 - [ ] Variables section; could be showed/closed **30 points**
@@ -157,6 +165,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 
 ### Penalties
+
 - [ ] React default favicon **-50 points**
 - [ ] The presence of errors and warnings in the console **-20 points** for each
 - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
@@ -167,4 +176,5 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of linting **-150 points**
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
+- [ ] Usage 3rd party / open source libraries for prettifying, i18n **-150 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
