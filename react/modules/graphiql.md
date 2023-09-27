@@ -11,12 +11,13 @@ However, your app will also include authorization/authentication capabilities, t
 ## Building a team
 
 - you should work in a team of 3 members
-- Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams)
+- you should select a team lead, who will be coordinating the development
 ## Application Prototype
 
-Pay attention that we leave the final set of tools and design up to you to not limit your possibilities and imagination.
-
+You can use [existing solutions](https://graphql.github.io/swapi-graphql) as a source for inspiration.
+However, pay attention that we leave the final set of tools and design up to you to not limit your possibilities and imagination.
 Design, prototype, as well as the implementation of the application are up to you.
+
 
 ## Backend
 Application doesn't require a backend.
@@ -38,7 +39,6 @@ Your app must contain:
 ## Repository requirements
 
 - teamlead should create private repo in github and invite other members 
-- teamwork nuances are described [here](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **graphiql-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
 - the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
@@ -104,11 +104,11 @@ You are free to choose your own way of developing the project and the repository
 - If the user is already logged in and tries to reach these routes, they should be redirected to the Main page
 
 ### Main page - GraphiQL
-- Query editor / Json viewer. Query editro should support prettifying. Any 3rd party / open source solution is forbidden, you should implement it on your own. Json viewer should be read only, it will be used in the response section.
+- Query editor / Json viewer. Query editor should support prettifying. Any 3rd party / open source solution is forbidden, you should implement it on your own. Json viewer should be read only, it will be used in the response section.
 - Variables section
 - Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that)
 - Documentation section, should be visible only when app will receive a successfull response with the schema definition from the api
-- Response section. Should be represnted by the same Query editor / Json viewer component. Should be read only.
+- Response section. Should be represented by the same Query editor / Json viewer component. Should be read only.
 
 ## How to submit tasks
 
@@ -128,31 +128,32 @@ For the convenience of verification, it is **necessary** to record and post on Y
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 ### Welcome route - max 50 points
 
-- [ ] The welcome page should contain general information about the developers, project, and course. **10 point**
-- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. **10 point**
-- [ ] If login token is valid and unexpired, change the Sign In and Sign Up buttons to the "Go to Main Page" button. **10 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **10 points**
-- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **10 point**
+- [ ] The welcome page should contain general information about the developers, project, and course **10 point**
+- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up **10 point**
+- [ ] If login token is valid and unexpired, change the Sign In and Sign Up buttons to the "Go to Main Page" button **10 points**
+- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically **10 points**
+- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form **10 point**
 
 ### Sign In / Sign Up  - max 50 points
 
 - [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **10 points**
-- [ ] Client-side validation should be implemented. **20 points**
+- [ ] Client-side validation should be implemented **20 points**
 - [ ] Upon successful login, the user should be redirected to the Main page **10 point**
-- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. **10 point**
+- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page **10 point**
 
 ### GraphiQL route - max 200 points
-- [ ] Working editor allowing to edit the query. **50 points**
-- [ ] Working documentation explorer, should be visible only when sdl request will succeed. **50 points**
-- [ ] Variables section. Could be showed/closed **30 points**
-- [ ] Header section. Could be showed/closed **20 points** 
-- [ ] Response section. Editor in read only json viewer mode **50 points**
+- [ ] Working editor allowing to edit the query **50 points**
+- [ ] Working documentation explorer, should be visible only when sdl request will succeed **50 points**
+- [ ] Variables section; could be showed/closed **30 points**
+- [ ] Header section; could be showed/closed **20 points** 
+- [ ] Response section; editor in read only json viewer mode **50 points**
 
 
 ### General requirements - max 50 points
 
-- [ ] Localization **40 point**
+- [ ] Localization **30 point**
 - [ ] Sticky header **10 points**
+- [ ] Errors from api side are displayed in the user friendly format **10 points**
 
 
 ### Penalties
@@ -166,4 +167,4 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of linting **-150 points**
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
-- [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names.
+- [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
