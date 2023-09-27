@@ -142,11 +142,11 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page **10 point**
 
 ### GraphiQL route - max 200 points
-- [ ] Working editor allowing to edit the query **50 points**
+- [ ] Working editor allowing to edit and prettify the query **60 points**
 - [ ] Working documentation explorer, should be visible only when sdl request will succeed **50 points**
 - [ ] Variables section; could be showed/closed **30 points**
 - [ ] Header section; could be showed/closed **20 points** 
-- [ ] Response section; editor in read only json viewer mode **50 points**
+- [ ] Response section; editor in read only json viewer mode **40 points**
 
 
 ### General requirements - max 50 points
