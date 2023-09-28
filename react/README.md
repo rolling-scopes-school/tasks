@@ -13,49 +13,52 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 7 weeks are devoted to studying React and 3 more weeks to final task implementation. This course requires 20-40 hours per week
 
 ## Course program
-### Week #1 (13th of March, 2023)
+### Week #1 (23th of October, 2023)
 [React. Components](modules/module01)
 
-### Week #2 (20th of March, 2023)
-[React. Forms](modules/module02)
+### Week #2 (30th of October, 2023)
+[React. Routing](modules/module02)
 
-### Week #3 (27th of March, 2023)
-[React. Hooks](modules/module03)
+### Week #3 (6th of November, 2023)
+[React. Tests / Context API](modules/module03)
 
-### Week #4 (3rd of April, 2023)
-[React. API](modules/module04)
+### Week #4 (13th of November, 2023)
+[React. Redux. RTK](modules/module04)
 
-### Week #5 (10th of April, 2023)
-[React. Redux](modules/module05)
+### Week #5 (20th of November, 2023)
+[React. NextJS / SSR / SSG](modules/module05)
 
-### Week #6 (17th of April, 2023)
-[React. SSR/SSG](modules/module06)
+### Week #6 (27th of November, 2023)
+[React. Forms](modules/module06)
 
-### Week #7 (24th of April, 2023)
+### Week #7 (4th of December, 2023)
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
-### Week #8 (1st of May, 2023)
+### Week #8 (11th of December, 2023)
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
-### Week #9 (8th of May, 2023)
+### Week #9 (18th of December, 2023)
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
-### Week #10 (15th of May, 2023)
+### Break week (25th of December, 2023 - 1st of January, 2024)
+- Celebrate Christmas
+- Celebrate the New Year
+### Week #10 (2nd of January, 2024)
 - [Technical React Interview](interview.md)
 - [GraphiQL](modules/graphiql.md)
 
-### Week #11 (22nd of May, 2023)
+### Week #12 (8th of January, 2024)
 Cross-check review: - [GraphiQL](modules/graphiql.md)
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 
 ## Lectors
 - [Ihar Krasiuk](https://github.com/ragingyngvarr)
-- [Olga Bugrova](https://github.com/lyolya95)
 - [Andrej Podlubnyj](https://github.com/andron13) 
 - [Artyom Parfenenkov](https://github.com/ParfenenkovEdit)
+- [Dzmitry Yarmoshkin](https://github.com/SpaNb4)
 - [Valery Dluski](https://github.com/valerydluski)
 
