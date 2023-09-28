@@ -28,7 +28,7 @@ Functions
 
 ## Theory 
 You need to watch the webinar recording:
-- Part#1 https://www.youtube.com/watch?v=c_rHAYNBotQ
+- [Part#1 [RU]](https://www.youtube.com/watch?v=c_rHAYNBotQ)
 - Part2#2 https://www.youtube.com/watch?v=h5o_tgEMKxY
 - Slides
     - https://kirilknysh.github.io/js-scope-talk/#/
