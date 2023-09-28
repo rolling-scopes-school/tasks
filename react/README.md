@@ -10,7 +10,7 @@ This course is aimed to the students of the RS School which passed RS School sta
 ATTENTION! Mentors for this course will be first distributed for the graduates of the RS School stage #2.
 
 ### Course duration
-7 weeks are devoted to studying React and 3 more weeks to final task implementation. This course requires 20-40 hours per week
+6 weeks are devoted to studying React and 4 more weeks to final task implementation. This course requires 20-40 hours per week
 
 ## Course program
 ### Week #1 (23th of October, 2023)
