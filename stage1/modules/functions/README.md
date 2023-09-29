@@ -1,43 +1,43 @@
-# [Stage#1](../../) Область видимости и функции
-## В данном модуле студентам необходимо изучить:
+# [Stage#1](../../) Scope and Functions
+## In this module, students need to study:
+
 Scope
-- Область видимости (Scope)
-- Глобальный и локальный Scope
-- Вложенный Scope
+- Scope
+- Global and Local Scope
+- Nested Scope
 - Hoisting
-- temporal dead zone (TDZ)
-Функции
-- типы функций
-- передача параметров
-- возврат значения
-- функции как данные
-- this
-- контекст
-- функция как конструктор
-- call/apply/bind
-- Статический и динамический scope
-- Замыкания
-- Замыкания и циклы
+- Temporal Dead Zone (TDZ)
+Functions
+- Types of Functions
+- Parameter Passing
+- Return Value
+- Functions as Data
+- This
+- Context
+- Function as Constructor
+- Call/Apply/Bind
+- Static and Dynamic Scope
+- Closures
+- Closures and Loops
 - Chaining, Decorator
 - Scheduling
     - setTimeout and setInterval
 
-## Приблизительное время прохождения модуля
-- 4 часа 
+## Approximate module completion time:
+- 4 hours
 
-## Теория 
-Вам необходимо посмотреть запись вебинара: 
-- Часть#1 https://www.youtube.com/watch?v=c_rHAYNBotQ
-- Часть#2 https://www.youtube.com/watch?v=h5o_tgEMKxY
-- Слайды
+## Theory 
+You need to watch the webinar recording:
+- [Part#1 [RU]](https://www.youtube.com/watch?v=c_rHAYNBotQ)
+- [Part#2 [RU]](https://www.youtube.com/watch?v=h5o_tgEMKxY)
+- Slides
     - https://kirilknysh.github.io/js-scope-talk/#/
     - https://kirilknysh.github.io/js-functions-talk/#/
 
-## Практика 
-1. Вам необходимо пройти тест "JS Scope & Functions" в RS APP > Auto Test
-2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q3.md)
+## Practice 
+1. You need to take the 'JS Scope & Functions' test in RS APP > Auto Test
 
-## Дополнительные материалы
+## Additional materials
 - https://learn.javascript.ru/advanced-functions
-- Подробнее про контекст вызова this - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
-- Замыкания в JS - https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
+- More about the context of `this` https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
+- Closures in JS - https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
