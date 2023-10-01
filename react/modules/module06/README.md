@@ -9,9 +9,9 @@ In this task you going to use Next.js Pages API instead of brand-new APP dir API
 
 1. Create a separate branch for this task from the previous branch task.
 2. Migrate the app to the Next.JS retaining the functionality.
-    - You must enable server-side rendering for all pages.
+    - You must enable server-side rendering for all the pages.
 3. Switch from react-router to Next.JS router (react-router lib must be removed).
-4. Update tests to make it works with Next.JS.
+4. Update tests to make it work with Next.JS.
 5. You must use **Pages API** instead of **new APP API**.
 
 ### Questions
@@ -75,3 +75,5 @@ Run app and check that the functionality is working (cross-check)
 - [SSR vs SSG](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
 - [Next.JS](https://nextjs.org/)
 - [Pages API](https://nextjs.org/docs/pages)
+- [RTK with server side rendering](https://redux-toolkit.js.org/rtk-query/usage/server-side-rendering)
+- [RTK Query + Next.JS example](https://github.com/phryneas/ssr-experiments/tree/main/nextjs-blog)
