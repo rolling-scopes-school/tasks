@@ -29,6 +29,7 @@
    - By default application makes a call to the selected api to get the list of the items with the search term fron the input (only first page). If the input is empty make a call to get all the items;
    - When user modifies the *Search* input and clicks on "Search" button, application makes a call to an api with the newly provided search term (search term should not have any trailing spaces, process the input) to get the results (only first page);
    - The provided search term should be saved to the local storage, if the value exists overwrite it;
+7. Wrap application to an error boundary to catch errors. Report an error to a console and show fallback UI (use respective methods for this). Create a button which will throw an error on click to test the functionality.
 
 **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
 
@@ -72,10 +73,11 @@ Run app and check that the functionality is working (cross-check)
 ##### Student can get 100 points:
 - Eslint is set up, when *lint* command is run it doesn't produce any errors (if there are warnings score might be less) - **15 points**
 - Prettier is set up, *fix* commands fixes issues - **15 points**
-- Husky is set up, linting is run on pre-commit - **15 points**
-- Page is split into 2 sections, top one has *Search* and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown whilst app makes a call to the api)- **25 points**
+- Husky is set up, linting is run on pre-commit - **10 points**
+- Page is split into 2 sections, top one has *Search* and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown whilst app makes a call to the api) - **20 points**
 - When user types something to the *Search* and clicks "Search" button, a loader is displayed and the list is changed according to the response results for a provided search term - **15 points**
 - The search term typed into the *Search* is saved in the local storage when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - **15 points**
+- Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. Ther should be a button to throw an error - **10 points**
 
 ##### Penalties:
 - TypeScript isn't used: **-95 points**
@@ -97,11 +99,11 @@ Run app and check that the functionality is working (cross-check)
 
 ### Theory
 
-- [React. Components. Materials](https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit) - *some of the links might be old*
 - [Class component](https://react.dev/reference/react/Component)
 - [Class component's state](https://react.dev/reference/react/Component#state)
 - [componentDidMount()](https://react.dev/reference/react/Component#componentdidmount)
 - [componentWillUnmount()](https://react.dev/reference/react/Component#componentwillunmount)
+- [ErrorBoundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
 - Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
 
 ### React

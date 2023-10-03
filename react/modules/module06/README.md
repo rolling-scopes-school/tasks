@@ -1,18 +1,52 @@
 # Week 6
 
-## React. Next.JS/SSR/SSG
+## React. Forms
 
-### Disclaimer:
-In this task you going to use Next.js Pages API instead of brand-new APP dir API. The main motivation of it is stability and wide community around this solution. Pages API still supportable by Next.JS team. This decision will help you avoid unnecessary problems and questions regarding server-side components. Anyway, if you are interested in deep dive into APP API you can read about it [here](https://nextjs.org/docs/app/building-your-application/routing) and [here](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md).
+This task shouldn't be based on the previous 5 modules.
 
 ### What should be done:
 
-1. Create a separate branch for this task from the previous branch task.
-2. Migrate the app to the Next.JS retaining the functionality.
-    - You must enable server-side rendering for all the pages.
-3. Switch from react-router to Next.JS router (react-router lib must be removed).
-4. Update tests to make it work with Next.JS.
-5. You must use **Pages API** instead of **new APP API**.
+1. Create a separate branch for this task.
+2. Language Requirement
+   - Use **TypeScript** for the project.
+3. Project Setup
+   - Initialize the project using [Vite](https://vitejs.dev/guide/) with the [*react-ts* template](https://vite.new/react-ts).
+4. Code Quality Tools
+    1. ESLint
+       - Set up ESLint to throw errors if TypeScript's *any* type is used.
+       - Follow the [configuration guide](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md).
+    2. Prettier
+       - Integrate Prettier for code formatting.
+    3. Husky
+       - Add Husky and configure it to run linting on pre-commit.
+    4. package.json commands
+       - Add the following npm scripts:
+           - `lint`: For running the lint command.
+           - `fix`: For running Prettier's fix command.
+5. Add **React Hook Form**, **Yup**, **Redux Toolkit** and **React Router** to the application.
+6. Routing. There will be 3 routes:
+    - Main, should have links to other 2 routes
+    - Route for the form created using uncontrolled components approach
+    - Route for the similar form, but created with the help of the **React Hook Form**
+7. Redux. Use redux to store the data provided by both apprioaches on the Main route. You can use tiles to display data taken from each form.
+8. Forms
+   Both forms will collect the same data:
+   - name (validate for first uppercased letter)
+   - age (should be number, no negative values)
+   - email (validate for email)
+   - 2 passwords (should match, display the password strength: 1 number, 1 uppercased letter, 1 lowercased letter, 1 special character)
+   - gender (you can use radio buttons or select control)
+   - accept T&C (checkbox)
+   - input control to upload picture (validate size and extension, allow png jpeg, save in redux store as base64)
+   - autocomplete control to select country (all countries shoudl be stored in the Redux store)
+   Form should contain labels, which should be connected with inouts (look at **htmlFor**)
+9. Validation
+   Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the eroros are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+   - Uncontrolled components should implement validation on submit
+   - Approach with **React Hook Form** should implement live validation
+10. After submitting the form
+   On successful form submission redirect user to the main route with all the previulsy entered data. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
+
 
 ### Questions
 You should be using Discord as the main mean of the communication.
@@ -43,28 +77,25 @@ Run app and check that the functionality is working (cross-check)
 
 #### Points
 ##### Student can get 100 points:
-- The app migrated to the Next.JS - **25 points**
-- All retaining functionality works as expected from previous tasks - **25 points**
-- Pages API has been used for all pages - **20 points**
-- All pages with state receive it via getServerSideProps - **10 points**
-- Tests had been modified to work with SSR - **20 points**
+- 3 routes (main and 2 routes for forms), Redux is set up and used to collect data from both forms, redirect to main route after submitting the form - **15 points**
+- Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** is used for validation (10 points if works only for one form) - **20 points**
+- Name, age, email, gender picker, accpet T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **20 points**
+- Input for image is implemented for both forms, image is saved as base64 and dispaly on the main route after redirect - **15 points**
+- Passwords (with password strength) are iplemeneted for both forms - **15 points**
+- Autocomplete works for both forms - **15 points**
+**Max points should be assigned in case if the requireemnt have been implemented for both forms, if something doesn;t work, score should be less**
 
 ##### Penalties:
-- Next.js isn't used: **-100 points**
 - TypeScript isn't used: **-95 points**
-- Usage of client state on page: **-20 points** per each
-- Pages API isn't used: **-50 points** 
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
-- Direct DOM manipulations inside the React components: **-50 points per each**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-- Test coverage is less than 80%: **-30 points**
+- Validation is implemented without **Yup** - **-25 points**
 
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
-* in the repository create a branch from the **previous task** branch with the name of the task and work in the created branch
+* in the repository create a branch with the name of the task and work in the created branch
 * the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
 * after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
 * after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
@@ -72,8 +103,9 @@ Run app and check that the functionality is working (cross-check)
 
 ### Theory
 
-- [SSR vs SSG](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
-- [Next.JS](https://nextjs.org/)
-- [Pages API](https://nextjs.org/docs/pages)
-- [RTK with server side rendering](https://redux-toolkit.js.org/rtk-query/usage/server-side-rendering)
-- [RTK Query + Next.JS example](https://github.com/phryneas/ssr-experiments/tree/main/nextjs-blog)
+ - [Uncontrolled components (old documentation)](https://legacy.reactjs.org/docs/uncontrolled-components.html)
+ - [Uncontrolled vs Controlled components in React](https://www.geeksforgeeks.org/controlled-vs-uncontrolled-components-in-reactjs/)
+ - [React Hook Form](https://www.react-hook-form.com/get-started/)
+ - [Using Yup with React Hook Form. 1](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98)
+ - [Using Yup with React Hook Form. 2](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57)
+ - [Yup](https://github.com/jquense/yup)
