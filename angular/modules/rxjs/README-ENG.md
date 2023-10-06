@@ -46,7 +46,6 @@ Following materials also should be considered as learning sources before startin
 - [Reactive Extensions For JavaScript](https://www.npmjs.com/package/rxjs)
 - RxJS visualization:
     - [Graphic examples](https://rxjs-visualize.explosionpills.com)
-    - [RxJS Marbles](http://rxmarbles.com/)
     - [Real-time simulator](https://rxviz.com)
 - [9 most used RxJS operators](https://www.linkedin.com/pulse/top-9-commonly-used-rxjs-operators-angular-akash-chauhan)
 - [13 most used RxJS operators by Naveen Chandupatla](https://medium.com/@nkchandupatla/rxjs-most-commonly-used-operators-b987e526ceb6)
