@@ -63,7 +63,7 @@ Maximum points - **100**
 Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong components structure (**-20**)
-- [ ] The app doesn't work or has console errors (**-20**)
+- [ ] The app doesn't work or has console errors (**-30**)
 - [ ] ESLint warnings or errors are present (**-15**)
 
 ### Useful links
@@ -93,12 +93,18 @@ https://angular.io/guide/structural-directives
 
 https://angular.io/guide/pipes
 
-https://angular.io/api/common
-
 https://angular.io/api/core/Directive
 
 https://angular.io/api/core/Pipe
 
 https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components
 
-https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-directives-pipes
+https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src
+
+https://medium.com/javascript-everyday/encapsulate-common-behaviors-with-the-aid-of-angular-directives-223ace0cd0ca
+
+https://levelup.gitconnected.com/the-power-of-angular-directives-a-comprehensive-guide-f9f929404b6b
+
+https://levelup.gitconnected.com/what-is-a-pipe-in-angular-how-do-you-use-angular-pipes-650d7ff6d103
+
+https://towardsdev.com/the-unknown-angular-built-in-pipes-you-need-to-start-using-a8fb1dec2ac1
