@@ -55,7 +55,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 10. The code must be readable, without minification or obfuscation.
 
 ## Repository Requirements
-- The work should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
+- Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 - Create new branch `coffee-shop` from `main`. Create folder `coffee-shop` in the created branch where you will do source code
 - The `main` (or `master`) branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
