@@ -1,18 +1,17 @@
 # [Angular schedule.](../../README-ENG.md) Components.
 
-## In this module, students need to learn:
+## In this module you will learn:
 
 - Base application structure.
 - What are the `Components`, Templates?
-- Two-way data binding.
-- `Components` life cycle.
-- `Components` interaction.
-- Creation and usage of `Components` in application.
+- Data binding: one-way and two-way.
+- `Component` lifecycle.
+- Creation and usage of `Components` in practice.
 
 ## Approximate time to complete this module:
 
-Theory: 2 hours
-Assignment: 2 hours
+- Theory: 2 hours
+- Assignment: 4 hours
 
 ## Theory
 
@@ -27,11 +26,14 @@ Assignment: 2 hours
 
 ## Additional materials
 
-- [The hero editor](https://angular.io/tutorial/toh-pt1)
-- [Display a selection list](https://angular.io/tutorial/toh-pt2)
-- [Create a feature component](https://angular.io/tutorial/toh-pt3)
+- [The hero editor](https://angular.io/tutorial/tour-of-heroes/toh-pt1)
+- [Display a selection list](https://angular.io/tutorial/tour-of-heroes/toh-pt2)
+- [Create a feature component](https://angular.io/tutorial/tour-of-heroes/toh-pt3)
 - [Introduction to components and templates](https://angular.io/guide/architecture-components)
 - [Getting started with Angular](https://angular.io/guide/displaying-data)
 - [Template syntax](https://angular.io/guide/template-syntax)
 - [Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
 - [Component interaction](https://angular.io/guide/component-interaction)
+- [Content projection](https://angular.io/guide/content-projection)
+- [🆕 Standalone components](https://angular.io/guide/standalone-components)
+- [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)

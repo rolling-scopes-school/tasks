@@ -4,7 +4,7 @@
 
 - `HttpClientModule` Module.
 - `HttpTypeEvent` Object.
-- Intercept of HTTP requests with `HTTP Interceptor`.
+-  Intercept of HTTP requests with `HTTP Interceptor`.
 
 ## Approximate time to complete this module:
 Theory - 1 hour
