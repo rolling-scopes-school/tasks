@@ -19,37 +19,37 @@
   At workshops, lectors will demonstrate practical application of obtained knowledge and will answer your questions. It is preferable to prepare questions beforehand.
 
 ## Course roadmap
-### Week #1 (March 13 2023)
+### Week #1 (October 16 2023)
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
 - Workshop
 
-### Week #2 (March 20 2023)
+### Week #2 (October 23 2023)
 - Task review "Angular intro"
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
 - [Module: "Angular. Routing"](modules/routing/README-ENG.md)
 - Workshop
 
-### Week #3 (March 27 2023)
+### Week #3 (October 30 2023)
 - Task review "Angular. Components, Directives, Pipes"
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
 - [Module "Angular. HTTP"](modules/http/README-ENG.md)
 - [Module "Angular. Forms"](modules/forms/README-ENG.md)
 - Workshop
 
-### Week #4 (April 3 2023)
+### Week #4 (November 6 2023)
 - Task review "Angular.Modules, Services, Routing"
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
 - [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
 - Workshop
 
-### Week #5-8 (April 10 2023 - May 8 2023)
+### Week #5-8 (November 13 2023 - December 4 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
 - [Final task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/airways.md)
 
-### Week #9 (May 8 2023)
+### Week #9 (December 11 2023)
 - [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 

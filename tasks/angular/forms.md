@@ -54,7 +54,7 @@ The main goal of this task is to implement forms handling and validation using R
 - To indicate which rule fails, an appropriate message under an invalid input field should be displayed.
 
 #### Evaluation criteria
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] **Login block** is implemented as reactive form (**+10**)
 - [ ] Validation rules are applied to the **Login block**. The form submission is possible only if a user enters valid data to all inputs (**+20**)

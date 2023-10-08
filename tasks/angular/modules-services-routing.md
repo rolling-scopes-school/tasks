@@ -83,7 +83,7 @@ Pages directory contains components that represent individual pages (**Login pag
     - To determine which video is selected, pass its id as a route param
 
 #### Evaluation criteria
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] The **404 page** and redirection logic is implemented (**+15**)
 - [ ] The **Login page** functionality with necessary rules is implemented (**+30**)
