@@ -1,4 +1,4 @@
-# Modules & Services 🚀
+# Modules & Services
 
 ## [RS School. Курс по Angular.](../../README-RU.md)
 
@@ -10,10 +10,12 @@
 - Понятие `Services`, их задачи.
 - Понятие `Dependency injection`, что это и как его использовать.
 
-## Приблизительное время прохождения модуля ⌚
-#### Теория - 2 часа, Практика - 2 часа.
+## Приблизительное время прохождения модуля
 
-## Теория 👩‍🏫
+теория - 2 часа, 
+практика - 2 часа.
+
+## Теория
 - Лекции:
     - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
     - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
@@ -24,11 +26,11 @@
     - [Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
     - [Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
 
-## Практическое задание 💻
+## Практическое задание
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Тест: Modules & Services, Dependency injection
 
-## Документация 📄
+## Дополнительные материалы
 - [RU: Документация](https://angular24.ru/)
 - [Add services](https://angular.io/tutorial/toh-pt4)
 - [Introduction to modules](https://angular.io/guide/architecture-modules)
@@ -39,8 +41,6 @@
 - [Dependency providers](https://angular.io/guide/dependency-injection-providers)
 - [Dependency injection in action](https://angular.io/guide/dependency-injection-in-action)
 - [RU: Создание HeroService](https://angular24.ru/tutorial/toh-pt4)
-
-## Дополнительные материалы 📚
 - [Angular Roadmap](https://roadmap.sh/angular)
 - [Project Structure in Angular](https://www.youtube.com/watch?v=mJGg7LWmVeU)
 - [Angular: useValue, useClass, useExisting and useFactory in a nutshell](https://medium.com/@matsal.dev/angular-usevalue-useclass-useexisting-and-usefactory-in-a-nutshell-97db8d206084)
