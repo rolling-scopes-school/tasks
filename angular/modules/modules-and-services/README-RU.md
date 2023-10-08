@@ -28,7 +28,6 @@
 
 ## Практическое задание
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Тест: Modules & Services, Dependency injection
 
 ## Дополнительные материалы
 - [RU: Документация](https://angular24.ru/)
