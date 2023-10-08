@@ -3,14 +3,14 @@
 
 [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-## Angular: Modules, Services, & Routing Task
+## Angular: Modules, Services, Routing Task
 The goal of this task is to implement new pages using modules, services, and routing features. After finishing, your app should include the following pages
 - Login page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/login.jpg)
 - 404 page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/404.jpg)
 - Main page (which is implemented before). [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)
 - Detailed information page. [Mockup (JPG)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/details-page.jpg)
 
-### Task requirements 🗒️
+### Task requirements
 To continue with the YouTube app, some structural refactoring is required.
 First, your project should be reorganized into the following modules:
 - **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the AppModule. It needs to be integrated within the **AppModule**
@@ -18,7 +18,7 @@ First, your project should be reorganized into the following modules:
 - **AuthModule:** This module will contain the login page, login service, and corresponding components.
 - **SharedModule (optional):** If implemented, this module should consist of shared components, directives, and pipes. It can be imported into each feature module as needed.
 
-#### Important notes 📌
+#### Important notes
 - The **CoreModule** should be imported only **ONCE** into the AppModule to avoid any re-imports.
 - **app.component** should **NOT** contain any logic at this stage of development.
 - The **SharedModule**, if implemented, should **NOT** include services.
@@ -85,7 +85,7 @@ Pages directory contains components that represent individual pages (**Login pag
 - For better implementetion you could create an abstract class LoggerService with a method logMessage that takes in a message and logs it. Both DevLoggerService and ProdLoggerService should extend this abstract class, providing their own prefix values.
 - Provide one of the logger services for the entire app based on the mode it's running in. 
 
-📌 *Note: You could use the isDevMode() function from Angular to check this. To check the implementation in the prod mode you can use **ng serve --configuration production** command*
+*Note: You could use the isDevMode() function from Angular to check this. To check the implementation in the prod mode you can use **ng serve --configuration production** command*
 
 #### Evaluation criteria
 Maximum points - **100**
