@@ -26,8 +26,5 @@
 
 ## Additional materials
 
-- [RU: TypeScript by Yauhen Kavalchuk](https://www.youtube.com/watch?v=MtO76yEYbxA&list=PLNkWIWHIRwMEm1FgiLjHqSky27x5rXvQa)
 - [EN: TypeScript Tutorial by Net Ninja](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
 - [EN: Angular for Beginners Course by freeCodeCamp.org](https://www.youtube.com/watch?v=3qBXWUpoPHo)
-- [RU: Начало работы с Angular: Ваше первое приложение](https://angular24.ru/)
-- [RU: Разрушаем мифы про Angular](https://www.youtube.com/watch?v=ZHvQv34WKlk)
