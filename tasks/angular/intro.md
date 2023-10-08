@@ -46,7 +46,7 @@ The project structure can be organized in the following way:
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 
 #### Evaluation criteria
-Maximum points - **60**
+Maximum score - **60**
 
 - [ ] The app is generated. (**+5**)
 - [ ] Added base project structure for components and models.(**+10**)

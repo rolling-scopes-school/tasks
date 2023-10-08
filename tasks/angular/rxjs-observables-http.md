@@ -34,7 +34,7 @@ YouTube API for requesting data in the app.
 
 #### Evaluation criteria
 
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] Search input debounce is implemented (**+15**)
 - [ ] Login block reflects the current login state (**+15**)

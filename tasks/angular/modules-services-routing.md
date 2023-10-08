@@ -88,7 +88,7 @@ Pages directory contains components that represent individual pages (**Login pag
 *Note: You could use the isDevMode() function from Angular to check this. To check the implementation in the prod mode you can use **ng serve --configuration production** command*
 
 #### Evaluation criteria
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] The **404 page** and redirection logic is implemented (**+15**)
 - [ ] The **Login page** functionality with necessary rules is implemented (**+30**)

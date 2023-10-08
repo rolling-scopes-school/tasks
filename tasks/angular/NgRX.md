@@ -148,7 +148,7 @@ Here you can find an example of admin page: [Admin page reference](./admin.jpg):
 
 ### Evaluation criteria
 
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] _Admin Page_ is generated (**+5**)
 - [ ] _Favorite Page_ is generated (**+5**)
