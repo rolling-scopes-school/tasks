@@ -67,9 +67,8 @@ Maximum score - **100**
 - [ ] **Admin page** is implemented as reactive form (**+10**)
 - [ ] Validation rules are applied to the **Admin page**. Form submission is possible only if all inputs are valid (**+15**)
 - [ ] The application indicates which inputs are invalid on the **Admin page** with appropriate styles and messages (**+15**)
-- [ ] "Tags" sub-form is implemented using `FormArray`. "Add tag" button works correctly (**15**)
-- [ ] "Reset" button functionality is fully implemented (**5**)
-- [ ] TODO: seems that form submit logic is missing at any point of the course. To be added if confirmed.
+- [ ] "Tags" sub-form is implemented using `FormArray`. "Add tag" button works correctly (**+15**)
+- [ ] "Reset" button functionality is fully implemented (**+5**)
 
 Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)

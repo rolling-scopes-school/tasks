@@ -1,6 +1,6 @@
 # [Angular schedule.](../../README-RU.md) Forms.
 
-## ## В данном модуле студентам необходимо изучить:
+## В данном модуле студентам необходимо изучить:
 
 - Базовые знания о `Forms`. Понятие шаблонных и реактивных `Forms`. Встроенные `Directives`.
 - Создание `Forms`.
@@ -22,7 +22,6 @@
 
 ## Практическое задание
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
-- Ментор: Aleh Serhiyenia
 
 ## Дополнительные материалы
 

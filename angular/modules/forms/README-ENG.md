@@ -21,7 +21,6 @@
 
 ## Practical assignment
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
-- Mentor: Aleh Serhiyenia
 
 ## Additional materials
 
