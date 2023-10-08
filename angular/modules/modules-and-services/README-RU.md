@@ -28,6 +28,7 @@
 
 ## Практическое задание
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
+- Тренер: Diana Kohut
 
 ## Дополнительные материалы
 - [RU: Документация](https://angular24.ru/)

@@ -24,7 +24,6 @@ practice - 1 hour
     - with injected service
     - inside of which are used other components, pipes, directives
   - directive
-- Mentor: Aleh Serhiyenia
 
 ## Additional materials
 - [Testing](https://angular.io/guide/testing)

@@ -21,7 +21,7 @@
 
 ## Практическое задание
 - [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Arcangelo Saccà
 
 ## Дополнительные материалы
 - [Add navigation with routing](https://angular.io/tutorial/toh-pt5)

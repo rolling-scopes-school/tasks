@@ -21,7 +21,7 @@ Assignment - 2 hours.
 
 ## Practical assignment
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-
+- Trainer: Diana Kohut
 
 ## Additional materials
 - [Add services](https://angular.io/tutorial/toh-pt4)

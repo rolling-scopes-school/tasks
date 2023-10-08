@@ -22,7 +22,7 @@
 
 - [Angular intro](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md)
 - Test: Intro to Angular (TypeScript, Angular-cli)
-- Mentor: Rustam Satlykov
+- Trainer: Rustam Satlykov
 
 ## Additional materials
 
