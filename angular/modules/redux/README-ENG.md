@@ -28,7 +28,7 @@ Assignment - 8 hours
 ## Practical assignment
 
 - [Angular. NgRx](../../../tasks/angular/NgRX.md)
-- Mentor: Aleh Serhiyenia
+- Trainer: Oleh Duleba
 
 ## Additional materials
 

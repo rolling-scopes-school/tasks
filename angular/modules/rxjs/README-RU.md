@@ -33,7 +33,7 @@
 ## Практическое задание
 
 - [Angular. RxJS & Observables](../../../tasks/angular/rxjs-observables-http.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Oleh Duleba
 
 ## Дополнительные материалы
 

@@ -23,7 +23,7 @@
 ## Практика
 
 - [Angular. NgRx](../../../tasks/angular/NgRX.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Oleh Duleba
 
 ## Дополнительные материалы
 

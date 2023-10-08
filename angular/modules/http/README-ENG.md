@@ -18,7 +18,7 @@ Assignment - 1 hour
 
 ## Practical assignment
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
-- Mentor: Arcangelo Saccà
+- Trainer: Arcangelo Saccà
 
 ## Additional materials
 - [Get data from a server](https://angular.io/tutorial/toh-pt6)

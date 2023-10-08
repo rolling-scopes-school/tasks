@@ -21,6 +21,7 @@
 
 ## Practical assignment
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
+- Trainer: Kirill Britsyn
 
 ## Additional materials
 

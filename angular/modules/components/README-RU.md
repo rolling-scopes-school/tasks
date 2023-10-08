@@ -28,7 +28,7 @@
 ## Практическое задание
 
 - [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Kirill Britsyn
 
 ## Дополнительные материалы
 

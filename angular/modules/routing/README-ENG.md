@@ -20,7 +20,7 @@ Assignment - 1 hour
 
 ## Practical assignment
 - [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Mentor: Aleh Serhiyenia
+- Trainer: Arcangelo Saccà 
 
 ## Additional materials
 - [Add navigation with routing](https://angular.io/tutorial/toh-pt5)
