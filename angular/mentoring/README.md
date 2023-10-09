@@ -71,7 +71,53 @@ You can check your invite here - https://github.com/orgs/rolling-scopes-school/i
 Mentors can select students at step 1.2. (Confirmation of mentorship for the course)
 or ask the course coordinators to assign them the most prepared students from the waiting list.
 
-### Additional mentor activities. Strictly voluntary :)
+## 3. Mentoring
+In the first week of mentoring, the mentor needs to:
+- Create a communication channel with their students (in Discord, Telegram, etc.)
+- Schedule a weekly meeting with their students
+- Familiarize themselves with the rules of interaction between students and mentors
+- Read the [algorithm for reviewing student PRs](pull-request-review-process.md)
+- Bookmark the curriculum - https://github.com/rolling-scopes-school/tasks/blob/mentoring-process-in-angular/angular/README-ENG.md
+
+#### Main rules of interaction between students and mentors
+- The communication is initiated by the student. The student should be self-motivated to learn.
+- The mentor needs to review the completed works of students within one to two weeks.
+- The review of completed works is done through reviewing the respective Pull Requests. [Algorithm for reviewing student PRs](pull-request-review-process.md)
+- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](rs-school-chats.md).
+
+#### Weekly meeting with students
+- Can be conducted with all students at once or in a 1-on-1 format.
+- Can be conducted online (Skype, Google Hangouts, etc.) or offline.
+- The standard duration of a meeting is 60 - 90 minutes.
+- It's necessary to add the meeting to your calendar and the students' calendars.
+- Before the meeting, it's necessary to review open Pull Requests of students. Leave your comments. Each PR should have at least three of your remarks.
+- Approximate plan for the meeting:
+  - Introduction, discussion of news.
+  - Discussion of topics, modules of the curriculum.
+  - Discussion of Code review results.
+  - Additional topics. For example:
+      - Resume/self-presentation preparation and interview passing
+      - Scrum, patterns, etc.
+  - Answers to students' questions.
+
+#### Weekly activities of the mentor
+- The mentor reviews and evaluates students' works through reviewing the respective Pull Request of students. As a result, each student's PR contains mentor comments on the code, recommendations, and the final score. Each PR should have at least three of your remarks. The score is given by the mentor based on the evaluation criteria specified for each task. After the review, the mentor enters the score into the Score form, based on which the Public Score is generated. [Algorithm for reviewing student PRs](pull-request-review-process.md)
+- Conducting a meeting, answering students' questions.
+- If the mentor has less than two students or is willing to take more, they can pick students from the Waitlist.
+
+#### Deadlines for students
+- Deadlines for all tasks are specified in the course schedule.
+- If a student didn't manage to submit the task on time, the mentor at their discretion may apply the following penalties:
+    - -10 points to the score if late up to 3 days inclusive
+    - -30% off the score if late up to 7 days inclusive
+    - -70% off the score if late more than a week
+    - At the mentor's discretion, in case of a valid reason (hospital, military training, etc.)
+    - When applying penalty coefficients, rounding is done in favor of the student
+
+#### Deadlines for mentors
+It is expected that the mentor reviews the student's work within one to two weeks after the student has submitted the work. But the sooner, the better. The dates of deadlines for students are indicated in the schedule.
+
+#### Additional mentor activities. Strictly voluntary :)
 - Speaking at webinars, conducting YouTube Live broadcasts.
 - [Development of educational assignments and tests](https://github.com/rolling-scopes-school/tasks).
 - Development of school applications and utilities. For example, [RS APP](https://github.com/rolling-scopes/rsschool-app).
@@ -81,5 +127,5 @@ or ask the course coordinators to assign them the most prepared students from th
 - Developing new courses.
 - Your ideas.
 
-### Pay it forward
+## Pay it forward
 The school operates on the "Pay it forward" principle. According to this principle, we expect that students who have studied at the school for free will return as mentors to pass on their knowledge to the next generation of students.
