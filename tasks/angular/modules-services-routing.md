@@ -127,3 +127,5 @@ https://angular.io/guide/router
 https://angular.io/api/router
 
 https://angular.io/api/router/RouterLinkActive
+
+https://angular.io/guide/lazy-loading-ngmodules
