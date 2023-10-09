@@ -59,6 +59,10 @@ In order to earn a course certificate, you need to complete all assignments, pas
 
 Course certificate is a pleasant addition and reward for your hard work.
 
+## For mentors
+- [RU: Mentoring](https://docs.rs.school/#/mentoring-kick-off)
+- [Task Checking Process by Mentor](https://docs.app.rs.school/#/platform/pull-request-review-process)
+
 ## FAQ
 ### Where to ask questions and communicate with others?
 You may ask questions in our course Discord channel - https://discord.gg/PBYW4ZvKSE
