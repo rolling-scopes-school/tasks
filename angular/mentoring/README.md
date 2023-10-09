@@ -67,6 +67,10 @@ You can check your invite here - https://github.com/orgs/rolling-scopes-school/i
 3. Mentors have access to all repositories of students of this course.
 4. By default, mentors are subscribed to all changes in student repositories. You can unsubscribe in github settings (Profile>Settings>Notifications>Automatically watch repositories) or using the script - https://github.com/Shastel/runsubscribe
 
+## 2. Acquiring Students
+Mentors can select students at step 1.2. (Confirmation of mentorship for the course)
+or ask the course coordinators to assign them the most prepared students from the waiting list.
+
 ### Additional mentor activities. Strictly voluntary :)
 - Speaking at webinars, conducting YouTube Live broadcasts.
 - [Development of educational assignments and tests](https://github.com/rolling-scopes-school/tasks).
