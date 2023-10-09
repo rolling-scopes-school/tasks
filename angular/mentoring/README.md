@@ -33,8 +33,39 @@ If you have ever studied at RS School, or simply share our "Teach it forward" id
 #### Gentleman's Agreement
 Mentors have the primary right to hire the students they teach into their company/project/team.
 
-## Registration
-Register as a mentor - [app.rs.school/registry/mentor](https://app.rs.school/registry/mentor)
+#### Joint Mentoring
+Mentors can team up and mentor students together. In this case, students are still assigned to a specific mentor, but assignments of students in the combined group can be reviewed by mentors as they see fit. For example, they can review assignments and conduct meetings in turns.
+
+## 1. Mentor Registration
+#### 1.1. Registration in RS APP
+1. To become a mentor, you need to fill out the form - [app.rs.school/registry/mentor](https://app.rs.school/registry/mentor).
+2. Some time after registration (from a week to several months), the mentor receives an assignment for the course.
+An email (and/or telegram account) will receive a message asking to confirm registration and an invitation to the organizational webinar.
+During registration confirmation, mentors can specify:
+    - Preferences for student location (your city, country, or random location).
+    - The number of students the mentor wants to mentor.
+    - Acquaintances/friends/colleagues the mentor wants to mentor. If the acquaintance is not on the list, ask them to register for the course - [app.rs.school/registry/student](https://app.rs.school/registry/student).
+3. After confirming the registration you will get:
+  - Access to the mentor chat
+  - Information about the introductory session for mentors
+
+#### 1.2. Communication Channels
+- Telegram channel for mentors. You will get the link to the channel after registration confirmation.
+- Weekly meeting for mentors. Held once a week. Duration 30 minutes. Participation is optional. The meeting is recorded, and a summary of the meeting is dropped in telegram.
+- [Discord server](https://discord.gg/xwReXYqvs7) - this is the main communication channel for students.
+- Closed group of activists and mentors in Discord(https://discord.gg/xwReXYqvs7). Here we discuss the educational process, platform, and everything related to education at RS School. How to access the group is indicated below.
+- Getting the mentor role in Discord
+  1. Open - https://app.rs.school/profile
+  2. Authorize through discord in the `Discord Integration` block
+  3. Add your Github name to your Discord nickname https://docs.rs.school/#/rs-school-chats?id=discord
+  4. Write a message in the Discord channel #👋mentors-reception-desk (https://discord.gg/RNrz6ymyj6). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
+
+#### 1.3. Access to Private Student Repositories.
+1. All students work with private GitHub repositories of RS School https://github.com/rolling-scopes-school
+2. All mentors are added to a separate GitHub Team.
+You can check your invite here - https://github.com/orgs/rolling-scopes-school/invitation
+3. Mentors have access to all repositories of students of this course.
+4. By default, mentors are subscribed to all changes in student repositories. You can unsubscribe in github settings (Profile>Settings>Notifications>Automatically watch repositories) or using the script - https://github.com/Shastel/runsubscribe
 
 ### Additional mentor activities. Strictly voluntary :)
 - Speaking at webinars, conducting YouTube Live broadcasts.
