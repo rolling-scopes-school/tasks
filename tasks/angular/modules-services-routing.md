@@ -101,6 +101,9 @@ Fines
 - [ ] The app has wrong project structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
+- [ ] Using the `Any` type. (**-20**)
+- [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
+- [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
 
 ### Useful links
 https://angular.io/tutorial/tour-of-heroes/toh-pt4
