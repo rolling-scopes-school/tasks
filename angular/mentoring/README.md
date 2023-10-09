@@ -7,7 +7,7 @@ Welcome to the mentoring documentation for the Angular course at [The Rolling Sc
    1. [Registration in RS APP](#registration-in-rs-app)
    2. [Communication Channels](#communication-channels)
    3. [Access to Private Student Repositories](#access-to-private-student-repositories)
-3. [Acquiring Students](#acquiring-students)
+3. [Getting Mentees](#getting-mentees)
 4. [Mentoring](#mentoring)
    1. [Basic Rules of Interaction between Students and Mentors](#basic-rules-of-interaction-between-students-and-mentors)
    2. [Weekly Meeting with Students](#weekly-meeting-with-students)
@@ -91,9 +91,9 @@ You can check your invite here - https://github.com/orgs/rolling-scopes-school/i
 3. Mentors have access to all repositories of students of this course.
 4. By default, mentors are subscribed to all changes in student repositories. You can unsubscribe in github settings (Profile>Settings>Notifications>Automatically watch repositories) or using the script - https://github.com/Shastel/runsubscribe
    
-## Acquiring Students
-Mentors can select students at step 1.2. (Confirmation of mentorship for the course)
-or ask the course coordinators to assign them the most prepared students from the waiting list.
+## Getting Mentees
+Mentors have the option to select mentees during step "Confirmation of mentorship for the course",
+or they can request the course coordinators to assign them the most prepared mentees from the waiting list.
 
 ## Mentoring
 In the first week of mentoring, the mentor needs to:
