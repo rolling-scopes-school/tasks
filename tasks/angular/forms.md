@@ -74,6 +74,9 @@ Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
+- [ ] Using the `Any` type. (**-20**)
+- [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
+- [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
 - [ ] `UntypedFormGroup` or other `Untyped` form controls are used at any point of the task. Usage of `any` type is considered equivalent to using `Untyped` forms. (**-15**) 
 
 ### Useful links
