@@ -16,7 +16,7 @@
     - [Angular 2020Q1. Routing](https://youtu.be/t_bGVB6jzUw)
     - [Angular 2020Q3. Routing](https://youtu.be/Evhr5xb_qNY)
     - [Angular 2021Q1. Routing](https://youtu.be/AFPb7JjQgCw)
-- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
+- [Примеры из видео](https://github.com/anjx/angular-lectures/tree/master/angular-routing)
 - [Слайды](https://slides.com/pavelrazuvalau/angular-routing)
 
 ## Практическое задание

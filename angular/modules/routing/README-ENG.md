@@ -14,7 +14,7 @@ Assignment - 1 hour
 
 ## Theory 
 - [Lecture](https://youtu.be/zmER4c9Nj_A)
-- [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
+- [Examples from the lecture](https://github.com/anjx/angular-lectures/tree/master/angular-routing)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/9c36d584cb393ec6bf860ec34dba1e3c4b9aa6fd)
 - [Slides](https://slides.com/pavelrazuvalau/angular-routing)
 
