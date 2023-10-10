@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) RxJS
+# [Angular schedule.](../../README.md) RxJS
 
 ## В данном модуле студентам необходимо изучить:
 

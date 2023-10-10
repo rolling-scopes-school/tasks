@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-ENG.md) Unit test
+# [Angular schedule.](../../README.md) Unit test
 
 ## In this module, students need to learn:
 

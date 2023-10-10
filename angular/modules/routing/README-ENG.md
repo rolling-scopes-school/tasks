@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-ENG.md) Routing
+# [Angular schedule.](../../README.md) Routing
 
 ## In this module, students need to learn:
 
