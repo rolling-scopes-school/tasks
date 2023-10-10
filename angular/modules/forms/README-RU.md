@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) Forms.
+# [Angular schedule.](../../README.md) Forms.
 
 ## В данном модуле студентам необходимо изучить:
 

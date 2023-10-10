@@ -1,6 +1,6 @@
 # Modules & Services
 
-## [RS School. Angular course.](../../README-ENG.md)
+## [RS School. Angular course.](../../README.md)
 
 ## In this module, students need to learn:
 

@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-ENG.md) Components.
+# [Angular schedule.](../../README.md) Components.
 
 ## In this module you will learn:
 

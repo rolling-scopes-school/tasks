@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) Directives & Pipes.
+# [Angular schedule.](../../README.md) Directives & Pipes.
 
 ## В данном модуле студентам необходимо:
 

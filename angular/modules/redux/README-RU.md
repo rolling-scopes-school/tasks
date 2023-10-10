@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) Redux & NgRx.
+# [Angular schedule.](../../README.md) Redux & NgRx.
 
 ## В данном модуле студентам необходимо:
 
