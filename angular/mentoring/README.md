@@ -81,7 +81,7 @@ During registration confirmation, mentors can specify:
 - Getting the mentor role in Discord
   1. Open - https://app.rs.school/profile
   2. Authorize through Discord in the `Discord Integration` block
-  3. Add your Github name to your Discord nickname. Go to the Discord server (https://discord.gg/xwReXYqvs7), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
+  3. Add your GitHub name to your Discord nickname. Go to the Discord server (https://discord.gg/xwReXYqvs7), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
   4. Write a message in the Discord channel #👋mentors-reception-desk (https://discord.gg/RNrz6ymyj6). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
 
 ### Access to Private Student Repositories
@@ -106,7 +106,7 @@ In the first week of mentoring, the mentor needs to:
 - The communication is initiated by the student. The student should be self-motivated to learn.
 - The mentor needs to review the completed works of students within one to two weeks.
 - The review of completed works is done through reviewing the respective Pull Requests. [Algorithm for reviewing student PRs](pull-request-review-process.md)
-- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](rs-school-chats.md).
+- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](https://docs.rs.school/#/rs-school-chats).
 
 ### Weekly Meeting with Students
 - Can be conducted with all students at once or in a 1-on-1 format.
@@ -146,9 +146,9 @@ In the first week of mentoring, the mentor needs to:
 
 ## Contact
 For any inquiries or further assistance, feel free to reach out to the course coordinators:
-- Rustam Satlykov (telegram: @rustamsatlykov)
-- Natalia Loginova (telegram: @natalia_loginowa)
-- Aleh Serhiyenia (telegram: @bear_bel)
+- Rustam Satlykov (telegram: @rustamsatlykov, discord: @rustamsatlykov)
+- Natalia Loginova (telegram: @natalia_loginowa, discord: @natalia06219)
+- Aleh Serhiyenia (telegram: @bear_bel, discord: bear_bel)
 
 ## Contributing
 We welcome suggestions for improvements or additions to this documentation. If you have a proposal, please create a pull request or issue, and we'll gladly review it.

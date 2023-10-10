@@ -47,21 +47,20 @@
 ### Week #5-8 (November 13 2023 - December 4 2023)
 - Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
 - Angular final test
-- [Final task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/airways.md)
+- Final task
 
 ### Week #9 (December 11 2023)
-- [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
+- Review the Final task
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 # Additional information
 ## Certificate
-In order to earn a course certificate, you need to complete all assignments, pass the final test, complete the final task and take part in cross check.
+In order to earn a course certificate, you need to complete all assignments, pass the final test, complete the final task and take part in crosscheck.
 
 Course certificate is a pleasant addition and reward for your hard work.
 
 ## For mentors
-- [RU: Mentoring](https://docs.rs.school/#/mentoring-kick-off)
-- [Task Checking Process by Mentor](https://docs.app.rs.school/#/platform/pull-request-review-process)
+- [Mentoring Documentation for Angular Course](./mentoring/README.md)
 
 ## FAQ
 ### Where to ask questions and communicate with others?
