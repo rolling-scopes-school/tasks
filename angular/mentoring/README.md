@@ -80,8 +80,8 @@ During registration confirmation, mentors can specify:
 - Closed group of activists and mentors in Discord(https://discord.gg/xwReXYqvs7). Here we discuss the educational process, platform, and everything related to education at RS School. How to access the group is indicated below.
 - Getting the mentor role in Discord
   1. Open - https://app.rs.school/profile
-  2. Authorize through discord in the `Discord Integration` block
-  3. Add your Github name to your Discord nickname https://docs.rs.school/#/rs-school-chats?id=discord
+  2. Authorize through Discord in the `Discord Integration` block
+  3. Add your Github name to your Discord nickname. Go to the Discord server (https://discord.gg/xwReXYqvs7), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
   4. Write a message in the Discord channel #👋mentors-reception-desk (https://discord.gg/RNrz6ymyj6). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
 
 ### Access to Private Student Repositories
@@ -101,7 +101,6 @@ In the first week of mentoring, the mentor needs to:
 - Schedule a weekly meeting with their students
 - Familiarize themselves with the rules of interaction between students and mentors
 - Read the [algorithm for reviewing student PRs](pull-request-review-process.md)
-- Bookmark the curriculum - https://github.com/rolling-scopes-school/tasks/blob/mentoring-process-in-angular/angular/README-ENG.md
 
 ### Basic Rules of Interaction between Students and Mentors
 - The communication is initiated by the student. The student should be self-motivated to learn.
