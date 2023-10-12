@@ -22,4 +22,6 @@
 1. [Видео лекция Position. Floats. Flex. Semantic. CSS3](https://www.youtube.com/watch?v=iSQcOjxttNg&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=3) - 2 часа
 2. [CSS: Flexbox](https://www.evernote.com/shard/s368/client/snv?noteGuid=4346cdea-9386-4738-bfff-f9faafc05e94&noteKey=fb6ec76312f7111b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2F4346cdea-9386-4738-bfff-f9faafc05e94%2Ffb6ec76312f7111b&title=CSS%253A%2BFlexbox%2B%2528htmlacademy.ru%2529) - 30 мин
 3. [Шпаргалка по Flexbox](https://habr.com/ru/post/313938/) - 30 мин
-4. [Изучение флексбоксов посредством игры](https://flexboxfroggy.com/#ru) - 1 час
+4. [Flexbox Playground](https://preview.webflow.com/preview/flexbox-game?preview=d1a26b027c4803817087a91c651e321f&m=1) - 1 час
+5. [Изучение флексбоксов посредством игры](https://flexboxfroggy.com/#ru) - 1 час
+6. [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) - 2 часа
