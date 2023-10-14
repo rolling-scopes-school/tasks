@@ -1,7 +1,7 @@
-# Coffee Shop
+# Coffee House
 
 ## Project's Description
-Coffee Shop is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.
+Coffee House is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.
 
 ## Key skills
 - Valid semantic responsive web design;
@@ -11,13 +11,13 @@ Coffee Shop is a project where you will need to create a website consisting of t
 
 ## Project Work Stages
 The task consists of three parts:
-- [Coffee-shop. Week-1: Fixed layout](coffee-shop-week1.md)
+- [Coffee-House. Week-1: Fixed layout](coffee-house-week1.md)
   - In this part of the task, you need to create the 'Home' and 'Menu' pages based on the layout, which should display correctly when the window width is at least 1440px;
   - The validity of the work is checked, as well as its compliance with the layout.
-- [Coffee-shop. Week-2: Responsive design](coffee-shop-week2.md)
+- [Coffee-House. Week-2: Responsive design](coffee-house-week2.md)
   - In this part of the task, it is necessary to add responsiveness to the pages created in the first stage, up to and including a width of 380px;
   - The validity of the work is checked, its alignment with the layout at the corresponding page width, layout responsiveness, and the absence of horizontal scroll bars.
-- [Coffee-shop. Week-3: Adding functionality](coffee-shop-week3.md)
+- [Coffee-House. Week-3: Adding functionality](coffee-house-week3.md)
   - In this part of the task, we use JavaScript to add interactivity to the pages;
   - The implemented functionality is being checked.
 
@@ -56,13 +56,13 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 ## Repository Requirements
 - Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
-- Create new branch `coffee-shop` from `main`. Create folder `coffee-shop` in the created branch where you will do source code
+- Create new branch `coffee-house` from `main`. Create a folder `coffee-house` in the created branch. Place your code in this folder.
 - The `main` (or `master`) branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
-- Since the task is divided into three parts, coffee-shop will have three versions:
-   1. The `coffee-shop` branch will contain the first part of the assignment. When starting the second part, create a branch `coffee-shop-week2` from the `coffee-shop` branch to continue from where you left off in the first part
-   2. Upon completing the second part of the assignment, create a Pull Request from the `coffee-shop-week2` branch to the `coffee-shop` branch, check for conflicts, and perform the Merge
-   3. For the third part, repeat the first 2 steps with a different branch name (`coffee-shop-week3`)
+- Since the task is divided into three parts, coffee-house will have three versions:
+   1. The `coffee-house` branch will contain the first part of the assignment. When starting the second part, create a branch `coffee-house-week2` from the `coffee-house` branch to continue from where you left off in the first part
+   2. Upon completing the second part of the assignment, create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, check for conflicts, and perform the Merge
+   3. For the third part, repeat the first 2 steps with a different branch name (`coffee-house-week3`)
    4. Please note: Pull Requests with subsequent merges are only done from the current development branch into the initial branch of this task. Merging into the `main` branch is not performed!
 - The internal structure of the project is at your discretion. The simplest option is separate pages, each with its own styles and js. When submitting the work, please ensure that the provided submission link opens the main page of the deployed project
 
@@ -87,7 +87,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
 - Each part of the assignment is assessed through a cross-check
 - Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow
 
-## Материалы
+## Materials
 - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
