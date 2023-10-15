@@ -16,7 +16,7 @@ In this task you going to use Next.js Pages API instead of brand-new APP dir API
 
 ### Questions
 You should be using Discord as the main mean of the communication.
-Also, we will try to collect your questions regarding the 6th Module using special form, which will be provided via the Discord with the 6th Module start. Questions will be collected in Module 06 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
+Also, we will try to collect your questions regarding the 5th Module using special form, which will be provided via the Discord with the 6th Module start. Questions will be collected in Module 06 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
 We will try to conduct a session for each module providing answers for some questions.
 
 Please **check the answers carefully before posting** a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to some of the questions.
