@@ -14,39 +14,45 @@
 - Course duration: 8 weeks. You will need approximately around 20-40 hours per week.
 - Format: All webinars are recorded, and can be found on our channel - [YouTube](https://youtube.com/c/rollingscopesschool).
   All theoretical materials are provided in the form of recorded lectures from previous courses.
-  Online lectures will be in the format of practical lessons (Workshops).
-  Before each workshop, students need to study learning materials, including lecture recording, on a given topic.
-  At workshops, lectors will demonstrate practical application of obtained knowledge and will answer your questions. It is preferable to prepare questions beforehand.
+  Online lectures will be in the format of practical lessons.
 
 ## Course roadmap
 ### Week #1 (October 16 2023)
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
-- Workshop
+- Angular test #1 (Angular CLI, TypeScript)
+- Angular test #2 (Components)
 
 ### Week #2 (October 23 2023)
-- Task review "Angular intro"
+- [Task review "Angular intro"](../tasks/angular/intro.md)
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
 - [Module: "Angular. Routing"](modules/routing/README-ENG.md)
-- Workshop
+- Angular test #3 (Modules, Services)
+- Angular test #4 (Routing)
 
 ### Week #3 (October 30 2023)
-- Task review "Angular. Components, Directives, Pipes"
+- [Task review "Angular. Components, Directives, Pipes"](../tasks/angular/components-directives-pipes.md)
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
 - [Module "Angular. HTTP"](modules/http/README-ENG.md)
 - [Module "Angular. Forms"](modules/forms/README-ENG.md)
-- Workshop
+- Angular test #5 (RxJS & Observables)
+- Angular test #6 (HTTP)
+- Angular test #7 (Forms)
 
 ### Week #4 (November 6 2023)
-- Task review "Angular.Modules, Services, Routing"
+- [Task review "Angular.Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
 - [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
-- Workshop
+- Angular test #8 (Redux & NgRx)
+- Angular test #9 (Unit test)
 
-### Week #5-8 (November 13 2023 - December 4 2023)
-- Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
-- Angular final test
+### Week #5 (November 13 2023)
+- [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
+- [Task review "Angular. Forms"](../tasks/angular/forms.md)
+
+### Week #6-8 (November 20 2023 - December 4 2023)
+- [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
 - Final task
 
 ### Week #9 (December 11 2023)
