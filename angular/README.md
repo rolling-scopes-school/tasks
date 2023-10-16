@@ -21,31 +21,32 @@
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
-- Angular test #1 (Angular CLI, TypeScript)
-- Angular test #2 (Components)
+- Test: Angular CLI, TypeScript.
+- Test: Components.
+- Test: Pipes, Directives.
 
 ### Week #2 (October 23 2023)
 - [Task review "Angular intro"](../tasks/angular/intro.md)
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
 - [Module: "Angular. Routing"](modules/routing/README-ENG.md)
-- Angular test #3 (Modules, Services)
-- Angular test #4 (Routing)
+- Test: Modules, Services.
+- Test: Routing.
 
 ### Week #3 (October 30 2023)
 - [Task review "Angular. Components, Directives, Pipes"](../tasks/angular/components-directives-pipes.md)
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
 - [Module "Angular. HTTP"](modules/http/README-ENG.md)
 - [Module "Angular. Forms"](modules/forms/README-ENG.md)
-- Angular test #5 (RxJS & Observables)
-- Angular test #6 (HTTP)
-- Angular test #7 (Forms)
+- Test: RxJS & Observables.
+- Test: HTTP.
+- Test: Forms.
 
 ### Week #4 (November 6 2023)
 - [Task review "Angular.Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
 - [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
-- Angular test #8 (Redux & NgRx)
-- Angular test #9 (Unit test)
+- Test: Redux & NgRx.
+- Test: Unit tests.
 
 ### Week #5 (November 13 2023)
 - [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
@@ -61,7 +62,7 @@
 
 # Additional information
 ## Certificate
-In order to earn a course certificate, you need to complete all assignments, pass the final test, complete the final task and take part in crosscheck.
+In order to earn a course certificate, you need to complete all assignments, complete the final task, and get 70% of the TOP 1 score of the course student.
 
 Course certificate is a pleasant addition and reward for your hard work.
 
