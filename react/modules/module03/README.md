@@ -72,7 +72,7 @@ Run app and check that the functionality is working (cross-check)
 - The Search component value is stored in the context - **5 points**
 - The list of items received from the API is stored in the context - **5 points**
 - The context is used in components that need access to the data - **5 points**
-- React Testing Library and Jest are added and configured - **10 points**
+- React Testing Library and Jest or Vitest are added and configured - **10 points**
 - Test cases - **60 points** (5 points per each)
 - Husky runs tests on pre-push - **10 points**
 
