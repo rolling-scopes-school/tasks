@@ -1,27 +1,32 @@
-# [Stage#1.](../../) Позиционирование в CSS. Flex.
-## В данном модуле студентам необходимо:
-- Изучить и понимать position, block-model
-- Изучить основы flexbox layout
+# [Stage#1.](../../) Positioning in CSS. Flex.
+## In this module, students should:
+- Learn and understand 'position' and 'block-model' concepts
+- Learn the basics of flexbox layout
 
-## Приблизительное время прохождения модуля
-6 часов
+## Approximate module completion time:
+6 hours
 
-## Теория 
-1. Основы позиционирования элементов
-    - https://webref.ru/course/position - 2h
-    - https://webref.ru/course/block-model - 2h
-    - https://webref.ru/course/block-inline - 1h
+## Theory 
+1. Basics of elements positioning
+    - [EN] https://www.peterlunch.com/blog/understanding-the-css-position-property - 1h
+    - [EN] https://internetingishard.netlify.app/html-and-css/css-box-model/ - 2h
+    - [RU] https://webref.ru/course/position - 2h
+    - [RU] https://webref.ru/course/block-model - 2h
+    - [RU] https://webref.ru/course/block-inline - 1h
 2. Flexbox
-    - https://webref.ru/layout/flexbox-tutorial - 2h
-    - https://habr.com/ru/post/467049/ - 1h
+    - [EN] https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - 1h
+    - [EN] https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ - 2h
+    - [RU] https://webref.ru/layout/flexbox-tutorial - 2h
+    - [RU] https://habr.com/ru/post/467049/ - 1h
 
-## Практика
-1.  Вам необходимо пройти тест "CSS Positioning & Flexbox" в RS APP > Auto Test
+## Practice
+1.  You need to take the "CSS Positioning & Flexbox" test in the RS APP > Auto Test
 
-## Дополнительные материалы
-1. [Видео лекция Position. Floats. Flex. Semantic. CSS3](https://www.youtube.com/watch?v=iSQcOjxttNg&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=3) - 2 часа
-2. [CSS: Flexbox](https://www.evernote.com/shard/s368/client/snv?noteGuid=4346cdea-9386-4738-bfff-f9faafc05e94&noteKey=fb6ec76312f7111b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2F4346cdea-9386-4738-bfff-f9faafc05e94%2Ffb6ec76312f7111b&title=CSS%253A%2BFlexbox%2B%2528htmlacademy.ru%2529) - 30 мин
-3. [Шпаргалка по Flexbox](https://habr.com/ru/post/313938/) - 30 мин
-4. [Flexbox Playground](https://preview.webflow.com/preview/flexbox-game?preview=d1a26b027c4803817087a91c651e321f&m=1) - 1 час
-5. [Изучение флексбоксов посредством игры](https://flexboxfroggy.com/#ru) - 1 час
-6. [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) - 2 часа
+## Additional materials
+1. [EN] [Video lecture: Learn Flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU) - 30 min
+2. [EN] [CSS Position Property Tutorial for Beginners | Absolute, Relative, Fixed, Sticky](https://www.youtube.com/watch?v=zqg4A6g9GfA) - 30 min
+3. [EN] [Flexbox Playground](https://preview.webflow.com/preview/flexbox-game?preview=d1a26b027c4803817087a91c651e321f&m=1) - 1 hour
+4. [EN] [Flexbox Cheat Sheet](https://jonitrythall.com/content/flexboxsheet.pdf) - 30 min
+5. [EN] [Learning Flexbox Through Game](https://flexboxfroggy.com/#en) - 1 hour
+6. [RU] [Video lecture: Position. Floats. Flex. Semantic. CSS3](https://www.youtube.com/watch?v=iSQcOjxttNg&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=3) - 2 hours
+7. [RU] [CSS: Flexbox](https://www.evernote.com/shard/s368/client/snv?noteGuid=4346cdea-9386-4738-bfff-f9faafc05e94&noteKey=fb6ec76312f7111b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2F4346cdea-9386-4738-bfff-f9faafc05e94%2Ffb6ec76312f7111b&title=CSS%253A%2BFlexbox%2B%2528htmlacademy.ru%2529) - 30 min
