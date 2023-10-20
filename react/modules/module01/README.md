@@ -50,7 +50,7 @@ The task will be checked during cross-check and cross-code-review.
 1. Clone the repository you are going to review
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
-4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
+4. Run prettier using special command in package.json file, make sure that fix commands fixes issues
 5. Review the code. Pay attention at the following "code smells":
    - props drilling;
    - large, complex components aka "god" components;
