@@ -2,7 +2,7 @@
 
 - [Main task Description and Requirements](coffee-house.md)
 
-You need to create `home` and `menu` pages according to the [Design in Figma](#) - **only Home \[1440\]** and **Menu \[1440\] > Coffee**  
+You need to create `home` and `menu` pages according to the [Design in Figma](#) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group  
 The content width of 1440px should not change when resizing the browser window.
 
 ## Workflow
@@ -10,8 +10,8 @@ The content width of 1440px should not change when resizing the browser window.
 1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 2. Create new branch `coffee-house` from `main`. Create a folder `coffee-house` in the created branch. Place your code in this folder.
 3. Complete the task.  
-4. Check if your work meets [Layout Requirements](#требования-к-вёрстке)  
-5. Evaluate your work yourself according to the provided [Assessment Criteria](#критерии-оценки), taking into account the [Specifics of verifying layout](#specifics-of-verifying-layout) for compliance with the layout
+4. Check if your work meets [Layout Requirements](#layout-requirements)  
+5. Evaluate your work yourself according to the provided [Criteria for evaluation](#criteria-for-evaluation), taking into account the [Specifics of verifying layout](#specifics-of-verifying-layout) for compliance with the layout
 6. To make the assessment of your work easier, print your self-assessment to the browser console. To do this, include the `index.js` file in your `*.html` file, write a `console.log()` function in it, and in parentheses within quotes, write your self-assessment points. Use the `\n` character to insert line breaks.  
 For example:
 ```
@@ -74,7 +74,7 @@ To make the assessment of your work easier, print self-assessment of your projec
 - When checking the layout using the PerfectPixel extension, make sure that the extension is set to a scale of 1, while the browser and operating system are set to a scale of 100%.
 - If the screen resolution is greater than 1440 pixels, to check for compliance with the layout, it is sufficient to center horizontally the layout or manually align it with the top-left corner guides.
 - If the screen resolution is 1440 pixels or less, use the device toolbar in Google Chrome browser in responsive mode for checking.
-- Please note that when checking the work in a window with a width of 1280 pixels, the layout may compress by approximately 17 pixels. This happens because part of the layout space is consumed by the vertical scroll (17 pixels - the standard scroll size for Google Chrome).
+- Please note that when checking the work in a window with a width of 1440 pixels, the layout may compress by approximately 17 pixels. This happens because part of the layout space is consumed by the vertical scroll (17 pixels - the standard scroll size for Google Chrome).
 - Each block and section are reviewed separately, meaning that shortcomings in the previous block do not carry over to next one. When transitioning to the review of the next block, we align it with overlaid layout.
 - Regarding text, we check its alignment and spacing relative to the block's boundaries. Text sizes are only checked for height. Deviations in word width and letter spacing when comparing the layout and the markup are not considered errors if the correct font with the specified properties is used
 
