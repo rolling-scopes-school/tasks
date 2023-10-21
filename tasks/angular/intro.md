@@ -51,7 +51,7 @@ Maximum score - **70**
 - [ ] The app is generated. (**+5**)
 - [ ] Added base project structure for components and models.(**+10**)
 - [ ] ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled. (**+10**)
-- [ ] TypeScript is configured, the `noImplicitAny: true` and `strict: true`. (**+10**)
+- [ ] TypeScript is configured, the `strict: true` rule is enabled. (**+10**)
 - [ ] All the necessary components were created. (**+15**)
 - [ ] All the necessary models were created. Search result list and search item components contain declarations of necessary fields. (**+20**)
 
@@ -60,7 +60,7 @@ Fines
 - [ ] The app doesn't work or has console errors. (**-20**)
 - [ ] ESLint warnings or errors are present. (**-15**)
 - [ ] Using the `Any` type. (**-20**)
-- [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
+- [ ] Mandatory flag `strict: true` is not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
 - [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
 - [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
