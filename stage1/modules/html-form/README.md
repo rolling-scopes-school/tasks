@@ -1,21 +1,21 @@
 # [Stage#1](../../) HTML Forms & Validation
-## В данном модуле студентам необходимо познакомиться:
-- с HTML формами
-- валидацией HTML форм
-- обработкой событий HTML форм
+## In this module students should get acquainted with:
+- HTML forms
+- HTML forms validation
+- HTML forms events handling
 
-## Приблизительное время прохождения модуля
-2 часа
+## Approximate module completion time:
+2 hours
 
-## Теория 
-1. Вам необходимо прочитать: 
+## Theory 
+1. You need to read: 
     - https://developer.mozilla.org/ru/docs/Learn/Forms
     - https://developer.mozilla.org/ru/docs/Learn/Forms/Form_validation
 
 
-## Практика 
-1. Вам необходимо пройти тест "HTML Form" в RS APP > Auto Test
+## Practice 
+1. You need to take the "HTML Form" test in the RS APP > Auto Test
 
-## Дополнительные материалы
+## Additional materials
 1. https://learn.javascript.ru/forms-controls
-2. [Запись вебинара RS School](https://www.youtube.com/watch?v=PhRVJC0kBGE)
+2. [RS School recorded webinar](https://www.youtube.com/watch?v=PhRVJC0kBGE)
