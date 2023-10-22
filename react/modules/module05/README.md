@@ -50,16 +50,17 @@ Run app and check that the functionality is working (cross-check)
 - Tests had been modified to work with SSR - **20 points**
 
 ##### Penalties:
-- Next.js isn't used: **-100 points**
 - TypeScript isn't used: **-95 points**
-- Usage of client state on page: **-20 points** per each
-- Pages API isn't used: **-50 points** 
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
+- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
+- Next.js isn't used: **-100 points**
+- Usage of client state on page: **-20 points** per each
+- Pages API isn't used: **-50 points** 
 
 ### Repository requirements
 
