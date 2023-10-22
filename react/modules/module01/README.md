@@ -20,7 +20,7 @@
     4. package.json commands
        - Add the following npm scripts:
            - `lint`: For running the lint command.
-           - `fix`: For running Prettier's fix command.
+           - `format:fix`: For running Prettier's --write command.
 5. Pick a RESTfull api which supports search and pagination (pagination might be reffered as *offset* and *limit* params). E.g. https://pokeapi.co/, for Star Wars fans https://swapi.dev/api, for Star Trek fans https://stapi.co/api-documentation (OpenApi spec can be checked here https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml), or you can select another one complying with the requirements.
 6. Implement the following requirements:
    - Create a page comprised of 2 horizontal section (a smaller top one, and a bigger bottom one);
@@ -72,12 +72,12 @@ Run app and check that the functionality is working (cross-check)
 #### Points
 ##### Student can get 100 points:
 - Eslint is set up, when *lint* command is run it doesn't produce any errors (if there are warnings score might be less) - **15 points**
-- Prettier is set up, *fix* commands fixes issues - **15 points**
+- Prettier is set up, *format:fix* command fixes issues - **15 points**
 - Husky is set up, linting is run on pre-commit - **10 points**
-- Page is split into 2 sections, top one has *Search* and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown whilst app makes a call to the api) - **20 points**
-- When user types something to the *Search* and clicks "Search" button, a loader is displayed and the list is changed according to the response results for a provided search term - **15 points**
-- The search term typed into the *Search* is saved in the local storage when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - **15 points**
-- Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. Ther should be a button to throw an error - **10 points**
+- Page is split into 2 sections, top one has *Search* input and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown while app makes a call to the api) - **20 points**
+- When user types something to the *Search* input and clicks "Search" button, a loader is displayed and the list is changed according to the response results for a provided search term - **15 points**
+- The search term typed into the *Search* input is saved in the local storage when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - **15 points**
+- Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error - **10 points**
 
 ##### Penalties:
 - TypeScript isn't used: **-95 points**
