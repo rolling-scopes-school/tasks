@@ -9,13 +9,13 @@
 
 ## Theory 
 1. You need to read: 
-    - https://developer.mozilla.org/ru/docs/Learn/Forms
-    - https://developer.mozilla.org/ru/docs/Learn/Forms/Form_validation
+    - https://developer.mozilla.org/en-US/docs/Learn/Forms
+    - https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 
 
 ## Practice 
 1. You need to take the "HTML Form" test in the RS APP > Auto Test
 
 ## Additional materials
-1. https://learn.javascript.ru/forms-controls
+1. [Forms, controls](https://javascript.info/forms-controls)
 2. [RS School recorded webinar](https://www.youtube.com/watch?v=PhRVJC0kBGE)
