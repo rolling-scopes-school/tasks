@@ -58,9 +58,10 @@ Run app and check that the functionality is working (cross-check)
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
+- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
