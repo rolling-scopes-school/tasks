@@ -13,8 +13,8 @@ In this part of the task, you need to add the following functionality to the web
 ❗ Each DOM object (block) with a product description, whether it's a product in a category or a modal on the 'menu' page, will be generated from data objects with corresponding fields. The assembled JSON with the necessary objects for the project can be found in the [Materials](#materials).
 
 ## Materials:
-- [The assembled JSON with all products]()
-- [Design in Figma]()
+- [The assembled JSON with all products](products.json)
+- [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0)
 
 ## Workflow
 

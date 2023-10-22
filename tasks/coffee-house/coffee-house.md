@@ -24,7 +24,7 @@ The task consists of three parts:
 The duration of each part of the task is 1 week.  
 The form of evaluation for each part of the task is a cross-check review.
 
-[Layout in Figma](#)
+[Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0)
 
 ## Creating your own copy of the layout
 Start the task by creating your own copy of the layout. To do this:

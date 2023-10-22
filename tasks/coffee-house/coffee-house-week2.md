@@ -3,7 +3,7 @@
 - [Main task Description and Requirements](coffee-house.md)  
   
 In this part of the task, we will adapt the previously created pages (**Home** and **Menu > Coffee**) for tablets and mobile devices.
-At screen resolutions of 1440px, 768px, and 380px, the goal is to match the layout with the corresponding [Design in Figma](#).  
+At screen resolutions of 1440px, 768px, and 380px, the goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0).  
 The choice of breakpoints and their number is left to the student.  
 For all other resolutions up to 380px, ensure:
   - There is no horizontal scroll bar.

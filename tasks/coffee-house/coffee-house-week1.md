@@ -2,8 +2,10 @@
 
 - [Main task Description and Requirements](coffee-house.md)
 
-You need to create `home` and `menu` pages according to the [Design in Figma](#) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group  
-The content width of 1440px should not change when resizing the browser window.
+You need to create `home` and `menu` pages according to the [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group.  
+The content width of 1440px should not change when resizing the browser window.  
+  
+[Prototype in Figma](https://www.figma.com/proto/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?page-id=0%3A1&type=design&node-id=216-1349&viewport=875%2C385%2C0.03&t=rqlxorgzq8m3fnhO-1&scaling=min-zoom&starting-point-node-id=216%3A1349)
 
 ## Workflow
 
