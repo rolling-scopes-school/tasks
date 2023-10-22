@@ -1,7 +1,7 @@
 ## Coffee-House. Week-2 - Responsive design
 
 - [Main task Description and Requirements](coffee-house.md)  
-
+  
 In this part of the task, we will adapt the previously created pages (**Home** and **Menu > Coffee**) for tablets and mobile devices.
 At screen resolutions of 1440px, 768px, and 380px, the goal is to match the layout with the corresponding [Design in Figma](#).  
 The choice of breakpoints and their number is left to the student.  
@@ -11,12 +11,12 @@ For all other resolutions up to 380px, ensure:
   - All page content is retained.
   - Image proportions remain unchanged.
   - No white spaces appear to the right of the blocks.
-To make responsive design, use relative units of measurement
+To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ## Workflow
 
 1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).  
-2. Create new branch `coffee-house-week2` from `coffee-house`. You will already find the `coffee-shop` folder with the project files completed in the previous stage in this branch.
+2. Create new branch `coffee-house-week2` from `coffee-house`. You will already find the `coffee-house` folder with the project files completed in the previous stage in this branch.
 3. Continue working on the task in the branch you've created.  
 4. Check if your work meets [Layout Requirements](#layout-requirements).  
 5. Evaluate your work independently according to the provided [Criteria for evaluation](#criteria-for-evaluation), taking into account the [DevTools responsiveness check details](#devtools-responsiveness-check-details) and [Specifics of verifying layout](#specifics-of-verifying-layout).
@@ -51,7 +51,7 @@ There is no need to merge this Pull Request.
    - `Mobile App` block on `home` page **+2**
    - `Menu` block on `menu` page **+2**
    - `<footer>` block on each page **+2**   
-3. The layout of the pages matches the design at a screen width of 320px: **+14**
+3. The layout of the pages matches the design at a screen width of 380px: **+14**
    - `<header>` block on each page **+2**
    - `Enjoy` block on `home` page **+2**
    - `Favourites Coffee` block on `home` page **+2**
@@ -74,7 +74,7 @@ Opening the menu by clicking on the burger menu icon is not checked at this stag
 
 ## Criteria for evaluation
 
-**Maximum score for the task: 100 points**  
+**Maximum score for the task: 90 points**  
 
 Scores for requirement points are specified in [Layout Requirements](#layout-requirements) section  
 
@@ -83,8 +83,8 @@ All disputed issues are resolved in favor of the student being assessed.
 To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
 
 ## Penalties
-1. Layout of the entire design or individual blocks is implemented using images -100
-2. Using frameworks, libraries, and technologies prohibited in technical requirements -100
+1. Layout of the entire design or individual blocks is implemented using images -90
+2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
 
 ## DevTools responsiveness check details
 1. Open Developer Tools:
