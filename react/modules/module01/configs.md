@@ -23,21 +23,14 @@ The configuration might be different based on what setup has been choosen (Vite 
 Might be insignificantly changed
 ```
 {
-  "parser": "@typescript-eslint/parser",
+  "root": true,
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true,
-    "node": true
-  },
-  "root": true,
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -45,8 +38,14 @@ Might be insignificantly changed
     "ecmaVersion": "latest",
 	"sourceType": "module"
   },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
   "plugins": [
-    "@typescript-eslint", "react", "prettier", "react-hooks"
+    "@typescript-eslint", "react", "react-hooks"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
@@ -54,8 +53,6 @@ Might be insignificantly changed
     "comma-dangle": ["error", "only-multiline"],
     "react/prop-types": "off",
     "react/display-name": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/ban-ts-comment": "error",
     "@typescript-eslint/no-non-null-assertion": "off",
