@@ -86,6 +86,8 @@ Run app and check that the functionality is working (cross-check)
 - Direct DOM manipulations inside the React components: **-50 points per each**
 - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of Redux or other state management libraries: **-100 points**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 ### Repository requirements
 
