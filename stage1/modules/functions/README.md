@@ -26,18 +26,15 @@ Functions
 ## Approximate module completion time:
 - 4 hours
 
-## Theory 
-You need to watch the webinar recording:
+## Practice 
+1. You need to take the 'JS Scope & Functions' test in RS APP > Auto Test
+
+## Additional materials
+- [More about the context of `this`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this)
+- [You Don't Know JS Yet: Scope & Closures - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
+- [Closures in JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures)
 - [Part#1 [RU]](https://www.youtube.com/watch?v=c_rHAYNBotQ)
 - [Part#2 [RU]](https://www.youtube.com/watch?v=h5o_tgEMKxY)
 - Slides
     - https://kirilknysh.github.io/js-scope-talk/#/
     - https://kirilknysh.github.io/js-functions-talk/#/
-
-## Practice 
-1. You need to take the 'JS Scope & Functions' test in RS APP > Auto Test
-
-## Additional materials
-- https://learn.javascript.ru/advanced-functions
-- More about the context of `this` https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
-- Closures in JS - https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
