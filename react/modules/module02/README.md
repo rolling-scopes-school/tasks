@@ -8,7 +8,7 @@ The task should be based on the previous task. We're using [React Router v6.x ](
 ### What should be done:
 
 1. Create a separate branch for this task from the previous task's branch.
-2. All the class components must be changed to **functional components**.
+2. All components must be changed to **functional components**, except **Error Boundary** components, as error boundaries in React still need to be class components.
 3. All logic should be split into components:
     - If you need an access either to the component's lifecycle or the state **use hooks**.
     - All data should be stored in the **component's state**.
