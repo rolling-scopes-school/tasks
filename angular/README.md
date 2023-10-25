@@ -11,7 +11,7 @@
     - Forms
     - Redux & NgRx
     - Unit test
-- Course duration: 8 weeks. You will need approximately around 20-40 hours per week.
+- Course duration: 9 weeks. You will need approximately around 20-40 hours per week.
 - Format: All webinars are recorded, and can be found on our channel - [YouTube](https://youtube.com/c/rollingscopesschool).
   All theoretical materials are provided in the form of recorded lectures from previous courses.
   Online lectures will be in the format of practical lessons.
@@ -44,19 +44,22 @@
 ### Week #4 (November 6 2023)
 - [Task review "Angular.Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
-- [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
 - Test: Redux & NgRx.
-- Test: Unit tests.
 
 ### Week #5 (November 13 2023)
+- [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
 - [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
 - [Task review "Angular. Forms"](../tasks/angular/forms.md)
+- Test: Unit tests.
 
-### Week #6-8 (November 20 2023 - December 4 2023)
+### Week #6 (November 20 2023)
 - [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
+
+### Week #7-9 (November 27 2023 - December 11 2023)
+- [Task review "Angular. Unit testing with Jest"](../tasks/angular/unit-testing-jest.md)
 - Final task
 
-### Week #9 (December 11 2023)
+### Week #10 (December 18 2023)
 - Review the Final task
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
