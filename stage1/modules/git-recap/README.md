@@ -1,7 +1,7 @@
-# [Stage#1.](../../) Закрепление основ GIT 
-## В данном модуле студентам необходимо:
-1. Закрепить знания по использованию git
-2. Изучить:
+# [Stage#1.](../../) Git basics reinforcement
+## In this module students should:
+1. Consolidate knowledge in using Git
+2. Learn:
 - Git Concepts and Architecture	
 	- The three trees
 	- Hash values (SHA-1)
@@ -20,15 +20,15 @@
 	- Ignore tracked files
 	- Track empty directories
 
-## Приблизительное время прохождения модуля
-3 часа 
+## Approximate module completion time:
+3 hours 
 
-## Теория 
-// TODO @Паша Разувалов
+## Theory 
 
-## Практика 
-// TODO @Паша Разувалов (Test Git & GitHub #2)
 
-## Дополнительные материалы
-1. [Конспект](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git) - 1 час
-2. [Интерактивный курс](https://learngitbranching.js.org/?locale=ru_RU) - 1,5 часа
+## Practice 
+You need to take the "Git & GitHub #2" test in the RS APP > Auto Test
+
+## Additional materials
+1. [Synopsis (RU)](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git) - 1 hour
+2. [Interactive course](https://learngitbranching.js.org/?locale=en_EN) - 1,5 hours
