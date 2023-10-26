@@ -49,14 +49,14 @@ There is no need to merge this Pull Request.
    - The placement and dimensions of elements in the burger menu match the layout (horizontal centering of menu items): **+2**
    - When the page width increases to 769px or higher, the burger icon and the open burger menu hide, and the navigation panel appears: **+2**
 2. Implementation of the carousel on the `home` page: **+24**
-   - Carousel elements are automatically swipes from right with a specified time interval by default. The time interval duration is at the student's choose, but the recommended value is 5-7 seconds: **+4**
-   - The current state until the next automatic switch is showed in the progress bar of the corresponding slide by filling it with color: **+4**
+   - Carousel elements are automatically scroll to the left with a specified time interval by default. The time interval duration is at the student's choose, but the recommended value is 5-7 seconds: **+4**
+   - The current state until the next automatic switch is shown in the progress bar of the corresponding slide by filling it with color: **+4**
    - Only the progress bar of the current slide can be filled; the rest remain in their default state: **+2**
    - When hovering the mouse or touch-and-hold on the displayed carousel element, the time to the element switch is paused. When the mouse cursor moves out, or the hold ends, the time continues from where it stopped: **+2**
    - The switch slides is accompanied by like the carousel animation (the method of animation execution is not verified): **+4**
    - Manual switching in the corresponding direction is implemented by pressing left arrow button or right arrow button: **+2**
-   - For mobile devices, manual switching in the corresponding direction is additionally implemented by swipe left or right: **+2**
-   - When manually switching, the progress bar state of the switched slide is reset, and the progress bar of the displayed slide starts to fill: **+2**
+   - For mobile devices, manual switching in the corresponding direction is additionally implemented by swiping left or right: **+2**
+   - When manually switching, the progress bar state of the switched slide resets, and the progress bar of the displayed slide starts to fill: **+2**
    - When switching to the right after the third element, it returns to the first. When switching to the left after the first element, it returns to the third: **+2**
 3. Categories of products on the `menu` page: **+16**
    - The **Coffee** category is active and the corresponding products are displayed when opening or reloading the `menu` page: **+2**
