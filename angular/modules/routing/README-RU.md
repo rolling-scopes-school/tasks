@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) Routing
+# [Angular schedule.](../../README.md) Routing
 ## В данном модуле студентам необходимо изучить:
 
 - Основы маршрутизации.
@@ -16,12 +16,12 @@
     - [Angular 2020Q1. Routing](https://youtu.be/t_bGVB6jzUw)
     - [Angular 2020Q3. Routing](https://youtu.be/Evhr5xb_qNY)
     - [Angular 2021Q1. Routing](https://youtu.be/AFPb7JjQgCw)
-- [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-routing)
+- [Примеры из видео](https://github.com/anjx/angular-lectures/tree/master/angular-routing)
 - [Слайды](https://slides.com/pavelrazuvalau/angular-routing)
 
 ## Практическое задание
 - [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Arcangelo Saccà
 
 ## Дополнительные материалы
 - [Add navigation with routing](https://angular.io/tutorial/toh-pt5)

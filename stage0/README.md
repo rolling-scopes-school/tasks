@@ -122,3 +122,6 @@
 - Проекты "CV", "Portfolio", "CodeJam", "JS 30" проверяются в ходе [Cross-check](https://docs.rs.school/#/cross-check-flow) 
 - Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://docs.rs.school/#/rs-app-tasks) до дедлайна.
 - Таски "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" проверяются автоматически.
+
+### Как перенести выполненные задания из приватного репозитория школы в свой личный репозиторий
+- Подробная инструкция о копировании репозиториев https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository

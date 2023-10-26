@@ -2,7 +2,7 @@
 # YouTube client app
 During the Angular course, you are to implement the YouTube client app. You can refer to the [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
 
-## Angular. Intro task
+## Angular. Intro task 
 
 ### Getting started
 - Install *@angular/cli* package. It's highly recommended to use *SCSS* as the default stylesheet
@@ -46,27 +46,29 @@ The project structure can be organized in the following way:
 Please bear in mind that you don’t need to implement any logic or markup. The outcome of this task should contain only newly generated and empty components.
 
 #### Evaluation criteria
-Maximum points - **50**
+Maximum score - **70**
 
-- [ ] The app is generated (**+5**)
-- [ ] Added base project structure for components and models. ESLint configured (**+10**)
-- [ ] All the necessary components were created (**+15**)
-- [ ] All the necessary models were created. Search result list and search item components contain declarations of necessary fields (**+20**)
+- [ ] The app is generated. (**+5**)
+- [ ] Added base project structure for components and models.(**+10**)
+- [ ] ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled. (**+10**)
+- [ ] TypeScript is configured, the `noImplicitAny: true` and `strict: true`. (**+10**)
+- [ ] All the necessary components were created. (**+15**)
+- [ ] All the necessary models were created. Search result list and search item components contain declarations of necessary fields. (**+20**)
 
 Fines
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
-- [ ] The app doesn't work or has console errors (**-20**)
-- [ ] ESLint warnings or errors are present (**-15**)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+- [ ] The app doesn't work or has console errors. (**-20**)
+- [ ] ESLint warnings or errors are present. (**-15**)
+- [ ] Using the `Any` type. (**-20**)
+- [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
+- [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
+- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
 
 ### Useful links
-https://www.typescriptlang.org/docs/home.html
-
-https://www.typescriptlang.org/docs/handbook/basic-types.html
-
-https://www.typescriptlang.org/play/index.html
-
-https://cli.angular.io
-
-https://angular.io/cli
-
-https://angular.io/tutorial
+https://www.typescriptlang.org/docs/home.html </br>
+https://www.typescriptlang.org/docs/handbook/basic-types.html </br>
+https://www.typescriptlang.org/play/index.html </br>
+https://cli.angular.io </br>
+https://angular.io/cli </br>
+https://angular.io/tutorial </br>

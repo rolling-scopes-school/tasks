@@ -72,7 +72,7 @@ Run app and check that the functionality is working (cross-check)
 - The Search component value is stored in the context - **5 points**
 - The list of items received from the API is stored in the context - **5 points**
 - The context is used in components that need access to the data - **5 points**
-- React Testing Library and Jest are added and configured - **10 points**
+- React Testing Library and Jest or Vitest are added and configured - **10 points**
 - Test cases - **60 points** (5 points per each)
 - Husky runs tests on pre-push - **10 points**
 
@@ -83,6 +83,8 @@ Run app and check that the functionality is working (cross-check)
 - Usage of _ts-ignore_: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of Redux or other state management libraries: **-100 points**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
 
 ### Repository requirements

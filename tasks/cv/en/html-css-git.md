@@ -3,8 +3,8 @@
 Your task is to create a branch named `rsschool-cv-html` in the `gh-pages` branch of the `rsschool-cv` repository, add files `index.html` and `style.css` to it, which contain basic empty templates or templates with minimal content (the layout and styling of the CV will be done in the next task), and deploy them to GitHub Pages.
 
 - [Task description and requirements](cv.md)
-- [Tips for completing the task using VS Code](../cv-hints.md)
-- [Tips for completing the task using GitHub](../cv-github-hints.md)
+- [Tips for completing the task using VS Code](cv-hints.md)
+- [Tips for completing the task using GitHub](cv-github-hints.md)
 
 Please note that the tips provided are not part of the task. Follow the tips only as much as they can help you.
 
@@ -18,10 +18,10 @@ All errors found by the validator during the checking of your work are listed in
 ## Workflow
 1. Continue working in the `rsschool-cv` repository created during the previous task [Markdown & Git](git-markdown.md).
 2. Create a branch `rsschool-cv-html` from the `gh-pages` branch.
-3. Maintain a commit history during the project. Follow the [commit guideline](https://docs.rs.school/#/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
+3. Maintain a commit history during the project. Follow the [commit guideline](https://docs.rs.school/#/en/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
 4. In the `rsschool-cv-html` branch, place the files `index.html` and `style.css`, adding basic empty templates or templates with minimal content to them. The actual CV layout and styling will be done in the next task.
 5. In the `README.md` file of the `rsschool-cv-html` branch, add a link like `https://GITHUB-USERNAME.github.io/rsschool-cv/`, replacing `GITHUB-USERNAME` with your GitHub username. This link will open the CV page as a fully styled webpage. We will add the actual layout during the next task.
-6. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
+6. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
 
 ## How to Submit the Assignment
 - After completing the task, go to the [RS App](https://app.rs.school/), select **Auto-Test**, choose the task's name from the dropdown, and click **Submit**.
@@ -34,7 +34,7 @@ All errors found by the validator during the checking of your work are listed in
 - Requirements for commits and Pull Request are met +50
 
 ## Materials:
-- [Working with Git](../git.md)
+- [Working with Git [RU]](../git.md)
 - [Basic HTML Template](https://www.w3schools.com/html/)
 
 **NB** In the example above, the html tag is missing the lang attribute, which is necessary to pass the CV auto-test.

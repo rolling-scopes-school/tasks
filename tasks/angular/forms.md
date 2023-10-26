@@ -13,7 +13,7 @@ The main goal of this task is to implement forms handling and validation using R
 
     ![Login](./login.jpg)
 
-    - implement login form using Reactive Forms functionality
+    - implement login form
     - add validation rules for input fields:
         - login
             - required (message: "Please enter a login email")
@@ -30,7 +30,7 @@ The main goal of this task is to implement forms handling and validation using R
 
     ![Admin](./admin.jpg)
 
-    - implement card creation form using Reactive Forms functionality
+    - implement card creation form
     - add validation rules for input fields:
         - title
             - required (message: "Please enter a title")
@@ -41,38 +41,55 @@ The main goal of this task is to implement forms handling and validation using R
             - max length: 255 (message: "The description is too long")
         - link to the image cover
             - required (message: "Please enter a link to the image")
-            - check for the URL validity (message: "The image link is invalid")
         - link to the video
             - required (message: "Please enter a link to the video")
-            - check for the URL validity (message: "The video link is invalid")
         - creation date
             - required (message: "Please enter a creation date")
             - an entered date should not be in the future (message: "The date is invalid")
+    - implement "Tags" sub-form:
+        - initially a single "Tag" input is present
+        - click "Add tag" button to add an extra input
+        - each tag input should be required
+        - form can have up to five "Tag" inputs
+    - implement "Reset" button
+        - when clicked all inputs should be reset to their initial values and the "Tags" sub-form should return to having only a single (empty) input
 
-- The application should prevent a user from submitting a form in case one of the described rules is failed
-- In case a user has entered invalid data into an input, the border should be colored in red
+- The application should prevent user from submitting the form if at least one of the described validation rules didn't pass
+- If the user has entered invalid data into an input, its border should be colored in red
 - To indicate which rule fails, an appropriate message under an invalid input field should be displayed.
 
 #### Evaluation criteria
-Maximum points - **100**
+Maximum score - **100**
 
 - [ ] **Login block** is implemented as reactive form (**+10**)
-- [ ] Validation rules are applied to the **Login block**. The form submission is possible only if a user enters valid data to all inputs (**+20**)
-- [ ] The application indicated which inputs are invalid on the **Login block** by applying appropriate style and showing corresponding message (**+20**)
+- [ ] Validation rules are applied to the **Login block**. Form submission is possible only if all inputs are valid (**+15**)
+- [ ] The application indicates which inputs are invalid on the **Login block** with appropriate styles and messages (**+15**)
 - [ ] **Admin page** is implemented as reactive form (**+10**)
-- [ ] Validation rules are applied to the **Admin page**. The form submission is possible only if a user enters valid data to all inputs (**+20**)
-- [ ] The application indicated which inputs are invalid on the **Admin page** by applying appropriate style and showing corresponding message (**+20**)
+- [ ] Validation rules are applied to the **Admin page**. Form submission is possible only if all inputs are valid (**+15**)
+- [ ] The application indicates which inputs are invalid on the **Admin page** with appropriate styles and messages (**+15**)
+- [ ] "Tags" sub-form is implemented using `FormArray`. "Add tag" button works correctly (**+15**)
+- [ ] "Reset" button functionality is fully implemented (**+5**)
 
 Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
+- [ ] Using the `Any` type. (**-20**)
+- [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
+- [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
+- [ ] `UntypedFormGroup` or other `Untyped` form controls are used at any point of the task. Usage of `any` type is considered equivalent to using `Untyped` forms. (**-15**)
+- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
 
 ### Useful links
-https://angular.io/start/forms
+https://angular.io/start/start-forms
 
 https://angular.io/guide/reactive-forms
 
 https://angular.io/guide/forms
+
+https://angular.io/guide/typed-forms
+
+https://angular.io/api/forms/FormGroup
 
 https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/

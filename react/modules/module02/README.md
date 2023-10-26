@@ -8,7 +8,7 @@ The task should be based on the previous task. We're using [React Router v6.x ](
 ### What should be done:
 
 1. Create a separate branch for this task from the previous task's branch.
-2. All the class components must be changed to **functional components**.
+2. All components must be changed to **functional components**, except **Error Boundary** components, as error boundaries in React still need to be class components.
 3. All logic should be split into components:
     - If you need an access either to the component's lifecycle or the state **use hooks**.
     - All data should be stored in the **component's state**.
@@ -77,11 +77,13 @@ A student can achieve a maximum of 100 points.
   - Details panel should be closed either on the "close" button click or on the main panel click - **10**
 
 #### Penalties
-
-* Absence of TypeScript - 95
-* Prettier, linting, and Husky are not set up - 100
-* The usage of Redux or other state management solutions is prohibited - 100
-* The usage of libraries for components or forms is prohibited - 100
+- TypeScript isn't used: **-95 points**
+- Usage of _any_: **-20 points per each**
+- Usage of _ts-ignore_: **-20 points per each**
+- Direct DOM manipulations inside the React components: **-50 points per each**
+- Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of Redux or other state management libraries: **-100 points**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 ### Repository Requirements
 
