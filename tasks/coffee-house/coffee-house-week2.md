@@ -69,7 +69,7 @@ There is no need to merge this Pull Request.
    - On `menu` page: **+4**
 6. At screen widths of 768px and below on both pages, the menu and navigation buttons in the header are hidden, and a burger menu icon appears: **+4**  
 Opening the menu by clicking on the burger menu icon is not checked at this stage  
-7. Hover effects are disabled for mobile devices on both pages: **+4**
+7. Hover effects are enable on desktop devices (`Desktop` device type in DevTools) and disabled for mobile devices on both pages (`Mobile` device type in DevTools): **+4**
 8. The layout of both pages is valid: to check the validity of the layout, use the service https://validator.w3.org/ : **+12**
 
 ## Criteria for evaluation
@@ -97,7 +97,8 @@ To make the assessment of your work easier, print self-assessment of your projec
 2. Set the screen width to the required value according to the task description, at which we will check the layout against the Design from Figma. If the page of the website being checked does not reformat, or if there is a white space on the right, you may need to refresh the page several times.
 3. Check the layout for compliance with the Design.
 4. For check responsiveness at different screen widths, smoothly change the screen width in DevTools from maximum (1440px) to minimum (380px), and make sure there is no horizontal scroll bar at any screen widths. If a scroll bar appears or white space appears on the right, try refreshing the page; perhaps the layout didn't update.
-5. When scaling the screen (e.g., zoom + 125%), the actual width may differ by 1-2 pixels. For example, the actual value may be 767 or 769, even though the developer tools show 768. Therefore, you should adjust to the transition point, despite the difference.    
+5. When scaling the screen (e.g., zoom + 125%), the actual width may differ by 1-2 pixels. For example, the actual value may be 767 or 769, even though the developer tools show 768. Therefore, you should adjust to the transition point, despite the difference.
+6. Check that hover effects on interactive elements are disabled in the `Mobile` device type. To do this, click on an interactive element and ensure it does not remain in a hover state. Switch to the `Desktop` device type to verify that hover effects are enabled.    
   
 ![image](https://user-images.githubusercontent.com/73646765/223966120-845e2526-c54c-4611-8173-db5f9a2c3faa.png)
 

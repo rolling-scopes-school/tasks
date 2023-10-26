@@ -14,6 +14,7 @@ In this part of the task, you need to add the following functionality to the web
 
 ## Materials:
 - [The assembled JSON with all products](products.json)
+- [Video for `Enjoy` block](https://www.pexels.com/ru-ru/video/2909914/)
 - [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0)
 
 ## Workflow
