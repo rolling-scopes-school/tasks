@@ -90,6 +90,7 @@ Run app and check that the functionality is working (cross-check)
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Validation is implemented without **Yup** - **-25 points**
 
 ### Repository requirements

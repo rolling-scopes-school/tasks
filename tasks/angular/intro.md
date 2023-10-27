@@ -66,9 +66,9 @@ Fines
 - [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
 
 ### Useful links
-https://www.typescriptlang.org/docs/home.html
-https://www.typescriptlang.org/docs/handbook/basic-types.html
-https://www.typescriptlang.org/play/index.html
-https://cli.angular.ios
-https://angular.io/cli
-https://angular.io/tutorial
+https://www.typescriptlang.org/docs/home.html </br>
+https://www.typescriptlang.org/docs/handbook/basic-types.html </br>
+https://www.typescriptlang.org/play/index.html </br>
+https://cli.angular.io </br>
+https://angular.io/cli </br>
+https://angular.io/tutorial </br>

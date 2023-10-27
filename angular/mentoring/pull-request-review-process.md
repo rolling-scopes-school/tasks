@@ -12,7 +12,7 @@
 5. The student addresses the comments within 5 days.
    - If the mentor's comment to the PR is pending the student's answer - the student writes the answer as a comment's reply
    - If the student has committed some changes, the student must leave a comment about what exactly has changed
-6. Based on the results of the code review and corresponding changes, the mentor sets the final grade in Score (`RS APP > Submit-review`).
+6. Based on the results of the code review and corresponding changes, the mentor sets the final grade in the Mentor Dashboard (`RS APP > Dashboard`).
    - It is up to the mentor to decide whether to deduct points or not for the functionality implemented by the student after the deadline.
    - If the student has not addressed the mentor's comments, the mentor may further reduce the mark. The size of the penalty is at the discretion of the mentor, maximum -50 points.
 
