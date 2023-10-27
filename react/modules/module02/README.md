@@ -40,8 +40,7 @@ The task will be checked during cross-check and cross-code-review.
 1. Clone the repository you are going to review.
 2. Install all the necessary dependencies.
 3. Run linting using the specified command in the package.json file; the output should not contain any errors or warnings.
-4. Run tests using the specified command in the package.json file; all tests should pass, and the test coverage should be displayed after running all the tests.
-5. Review the code. Pay attention to the following "code smells":
+4. Review the code. Pay attention to the following "code smells":
     - props drilling,
     - large and complex components (also known as "god" components),
     - direct DOM manipulation,
