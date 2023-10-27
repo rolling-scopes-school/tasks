@@ -21,7 +21,7 @@
 	- Track empty directories
 
 ## Approximate module completion time:
-3 hours 
+4 hours 
 
 ## Theory 
 You need to read:
@@ -42,6 +42,6 @@ You need to take the "Git & GitHub #2" test in the RS APP > Auto Test
 
 ## Additional materials
 1. ["Git How To" guided tour](https://githowto.com/)
-2. [Synopsis (RU)](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git) - 1 hour
-3. [Interactive course](https://learngitbranching.js.org/?locale=en_EN) - 1,5 hours
-4. [GitHub Minesweeper](https://profy.dev/project/github-minesweeper) -  2 hours
+2. [Synopsis (RU)](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
+3. [Interactive course](https://learngitbranching.js.org/?locale=en_EN)
+4. [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
