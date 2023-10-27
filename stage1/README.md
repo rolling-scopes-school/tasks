@@ -66,32 +66,32 @@
 - [Module "CSS positioning. Flex."](modules/css-positioning/)
 - [Module "CSS grid layout"](modules/css-grid/)
 - [Module: CSS Preprocessors. Sass](modules/sass/en/README.md)
-- [Coffee House. Week-1](../tasks/shelter/shelter.md)
+- [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
 
 ### Week #4
 
 #### November 28, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/shelter/shelter-part1.md)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/coffee-house/coffee-house-week1.md)
 - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
 - [Module: "Media Queries"](modules/media-queries/)
-- [Coffee House. Week-2](../tasks/shelter/shelter.md)
+- [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
 
 ### Week #5
 
 #### December 5, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/shelter/shelter-part2.md)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
 - [Module: "HTML Forms & Validation"](modules/html-form/)
 - [Module: "DOM API"](modules/dom-api/)
 - [Module: "Events"](modules/events/)
-- [Coffee House. Week-3](../tasks/shelter/shelter.md)
+- [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
 
 ### Week #6
 
 #### December 12, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/shelter-part3.md)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/coffee-house-week3.md)
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 
