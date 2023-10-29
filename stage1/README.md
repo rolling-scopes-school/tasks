@@ -39,18 +39,28 @@
 
 #### November 7, 2023
 
-- [Module "Introduction to RS School"](modules/rs-school-intro/)
-- [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
-- [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Module "Getting to know version control system Git"](modules/git/)
-- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
-- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
+- Modules:
+
+  - [Module "Introduction to RS School"](modules/rs-school-intro/)
+  - [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
+  - [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
+  - [Module "Getting to know version control system Git"](modules/git/)
+
+- Tasks:
+
+  - ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
+  - ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
+
+- Tests:
+
+  - RSS Test(ST1)
+  - Git Test(ST1)
+  - Fundamentals of the Internet(ST1)
 
 ### Week #2
 
 #### November 14, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](https://github.com/DrDiman/CSS-Bayan-task) project
 - [Module: "JavaScript. Data types"](modules/js-basics/)
 - [Module: "JavaScript. Scope and functions"](modules/functions/)
 - [Module: "JavaScript. Evolution"](modules/js-evolution/)
