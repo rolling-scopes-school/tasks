@@ -76,6 +76,7 @@ A student can achieve a maximum of 100 points.
   - Details panel should be closed either on the "close" button click or on the main panel click - **10**
 
 #### Penalties
+
 - TypeScript isn't used: **-95 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
@@ -83,6 +84,7 @@ A student can achieve a maximum of 100 points.
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository Requirements
 

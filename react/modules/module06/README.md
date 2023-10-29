@@ -76,7 +76,9 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
+
 ##### Student can get 100 points:
+
 - 3 routes (main and 2 routes for forms), Redux is set up and used to collect data from both forms, redirect to main route after submitting the form - **15 points**
 - Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** is used for validation (10 points if works only for one form) - **20 points**
 - Name, age, email, gender picker, accpet T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **20 points**
@@ -86,12 +88,14 @@ Run app and check that the functionality is working (cross-check)
 **Max points should be assigned in case if the requireemnt have been implemented for both forms, if something doesn;t work, score should be less**
 
 ##### Penalties:
+
 - TypeScript isn't used: **-95 points**
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Validation is implemented without **Yup** - **-25 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository requirements
 

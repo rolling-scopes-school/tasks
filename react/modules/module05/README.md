@@ -42,7 +42,9 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
+
 ##### Student can get 100 points:
+
 - The app migrated to the Next.JS - **25 points**
 - All retaining functionality works as expected from previous tasks - **25 points**
 - Pages API has been used for all pages - **20 points**
@@ -50,6 +52,7 @@ Run app and check that the functionality is working (cross-check)
 - Tests had been modified to work with SSR - **20 points**
 
 ##### Penalties:
+
 - TypeScript isn't used: **-95 points**
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
@@ -60,7 +63,8 @@ Run app and check that the functionality is working (cross-check)
 - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Next.js isn't used: **-100 points**
 - Usage of client state on page: **-20 points** per each
-- Pages API isn't used: **-50 points** 
+- Pages API isn't used: **-50 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository requirements
 
