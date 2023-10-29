@@ -86,6 +86,7 @@ Run app and check that the functionality is working (cross-check)
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository requirements
 
