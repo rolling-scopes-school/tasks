@@ -53,9 +53,9 @@
 
 - Tests:
 
-  - RSS Test(ST1)
-  - Git Test(ST1)
-  - Fundamentals of the Internet(ST1)
+  - [St1] RSS Test
+  - [St1] Git test
+  - [St1] Fundamentals of the Internet
 
 ### Week #2
 
