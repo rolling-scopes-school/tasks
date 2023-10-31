@@ -118,12 +118,11 @@
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 
-### Week #7
+### Break Week
 
 #### December 19, 2023
 
-- [Module: Clean Code](modules/clean-code/)
-- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- Break week, only the deadlines of previously issued tasks and tests
 
 ### Break Week
 
@@ -131,9 +130,16 @@
 
 - Break week, no new content or assignments
 
-### Week #8
+### Week #7
 
 #### January 2, 2024
+
+- [Module: Clean Code](modules/clean-code/)
+- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+### Week #8
+
+#### January 9, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 - [Module: "Modules in JS"](modules/modules-in-js/)
@@ -142,7 +148,7 @@
 
 ### Week #9
 
-#### January 9, 2024
+#### January 16, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["virtual-keyboard"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 - [Module: "Node.js"](modules/node-materials/)
@@ -150,7 +156,7 @@
 
 ### Week #10
 
-#### January 16, 2024
+#### January 23, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
@@ -159,7 +165,7 @@
 
 ### Week #11
 
-#### January 23, 2024
+#### January 30, 2024
 
 - [Project "Self-introduction"](modules/self-introduction/)
 - Preparation for mentor interview
