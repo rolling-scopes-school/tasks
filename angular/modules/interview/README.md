@@ -38,4 +38,4 @@ Maximum 10 points
 
 # Interview Questions
 
-You can read the interview questions [in Progress]()
+You can read the interview [questions](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions.md)
