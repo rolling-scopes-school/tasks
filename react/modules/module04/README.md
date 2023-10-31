@@ -45,7 +45,9 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 Run app and check that the functionality is working (cross-check)
 
 #### Points
+
 ##### Student can get 100 points:
+
 - Redux is integrated to the app with the help of Redux Toolkit - **25 points**
 - Search is saved in the store - **5 points**
 - Items per page is saved in the store - **5 points**
@@ -53,7 +55,9 @@ Run app and check that the functionality is working (cross-check)
 - Loading indicators are shown, loading flags are saved in the store,  - **10 points**
 - When either search or items per page is changed, application makes a new call using RTK Query to fetch the data - **25 points**
 - Tests had been modified to test the functionality using Redux and RTK Query - **20 points**
+
 ##### Penalties:
+
 - TypeScript isn't used: **-95 points**
 - Usage of *any*: **-20 points per each**
 - Usage of *ts-ignore*: **-20 points per each**
@@ -61,6 +65,8 @@ Run app and check that the functionality is working (cross-check)
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
+- Commits after the deadline: **-40 points**
+
 ### Repository requirements
 
 * the task should be done in **your personal private repository** 
