@@ -61,13 +61,25 @@
 
 #### November 14, 2023
 
-- [Module: "JavaScript. Data types"](modules/js-basics/)
-- [Module: "JavaScript. Scope and functions"](modules/functions/)
-- [Module: "JavaScript. Evolution"](modules/js-evolution/)
-- ["Codewars1" tasks](../tasks/codewars/Codewars1-2022Q3.md)
+- Modules:
+
+  - [Module: "JavaScript. JS-Basics"](modules/js-basics/)
+  - [Module: "JavaScript. Scope and functions"](modules/functions/)
+  - [Module: "JavaScript. Evolution"](modules/js-evolution/)
+
+- Tasks:
+
+  - ["Codewars1" tasks](../tasks/codewars/Codewars1-2022Q3.md) (@valerydluski)
+  - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers)
+  - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers) (@natein)
+
 - Tests:
-  - [Test HTML Basics](../stage0/modules/html-basics/)
-  - [Test CSS Basics](../stage0/modules/css-basics/)
+
+  - [[St1] JS Basics](modules/js-basics/)
+  - [[St1] JS Types](modules/js-basics/)
+  - [[St1] JS Scope & Functions](modules/functions/)
+  - [[St1] Test HTML Basics](../stage0/modules/html-basics/)
+  - [[St1] Test CSS Basics](../stage0/modules/css-basics/)
 
 ### Week #3
 
