@@ -60,7 +60,6 @@ Run app and check that the functionality is working (cross-check)
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Next.js isn't used: **-100 points**
 - Usage of client state on page: **-20 points** per each
 - Pages API isn't used: **-50 points**

@@ -65,7 +65,6 @@ Run app and check that the functionality is working (cross-check)
 - Presence of *code-smells* (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 - Commits after the deadline: **-40 points**
 
 ### Repository requirements
