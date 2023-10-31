@@ -9,6 +9,7 @@ Your task is to create a branch named `rsschool-cv-html` in the `gh-pages` branc
 Please note that the tips provided are not part of the task. Follow the tips only as much as they can help you.
 
 Some of the validation rules:
+
 - Extra spaces at the end of lines are not allowed.
 - A closing tag or closing slash for a non-pair tag is not allowed.
 - If you use characters `<`, `>`, `&`, etc., they must be replaced with escape sequences.
@@ -16,6 +17,7 @@ Some of the validation rules:
 All errors found by the validator during the checking of your work are listed in the `Details` section of the results table.
 
 ## Workflow
+
 1. Continue working in the `rsschool-cv` repository created during the previous task [Markdown & Git](git-markdown.md).
 2. Create a branch `rsschool-cv-html` from the `gh-pages` branch.
 3. Maintain a commit history during the project. Follow the [commit guideline](https://docs.rs.school/#/en/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
@@ -24,16 +26,20 @@ All errors found by the validator during the checking of your work are listed in
 6. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
 
 ## How to Submit the Assignment
+
 - After completing the task, go to the [RS App](https://app.rs.school/), select **Auto-Test**, choose the task's name from the dropdown, and click **Submit**.
 - You can submit the assignment as many times as you like before the deadline, and each subsequent submission will overwrite the previous one.
 - Note: If you encounter the error "Error: Temporary Github Error. Cannot get commits. Please try in 10 mins." when submitting, it means the system is overloaded and cannot retrieve information about your commits from GitHub. You don't need to fix anything; just try submitting the assignment again later, repeating your attempts until successful or until the deadline, whichever comes first.
 
 ## Grading Criteria
+
 **Maximum score for the assignment +100**
+
 - Requirements for the repository are met +50.
 - Requirements for commits and Pull Request are met +50
 
 ## Materials:
+
 - [Working with Git [RU]](../git.md)
 - [Basic HTML Template](https://www.w3schools.com/html/)
 
