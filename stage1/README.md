@@ -77,6 +77,7 @@
   - [[St1] JS Basics](modules/js-basics/)
   - [[St1] JS Types](modules/js-basics/)
   - [[St1] JS Scope & Functions](modules/functions/)
+  - [[St1] JS Evolution](modules/js-evolution/)
   - [[St1] Test HTML Basics](../stage0/modules/html-basics/)
   - [[St1] Test CSS Basics](../stage0/modules/css-basics/)
 
