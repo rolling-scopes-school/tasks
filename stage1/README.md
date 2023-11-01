@@ -69,9 +69,8 @@
 
 - Tasks:
 
-  - ["Codewars1" tasks](../tasks/codewars/Codewars1-2022Q3.md) (@valerydluski)
   - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers)
-  - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers) (@natein)
+  - [core-js-strings](https://github.com/rolling-scopes-school/core-js-strings)
 
 - Tests:
 
