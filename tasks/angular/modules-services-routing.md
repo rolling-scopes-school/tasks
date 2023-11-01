@@ -13,7 +13,7 @@ The goal of this task is to implement new pages using modules, services, and rou
 ### Task requirements
 To continue with the YouTube app, some structural refactoring is required.
 First, your project should be reorganized into the following modules:
-- **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the AppModule. It needs to be integrated within the **AppModule**
+- **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the **AppModule**
 - **YoutubeModule:** This is a feature module for YouTube functionalities. It should contain the main page (previously implemented), the **Detailed Information Page**, and related models, services, etc.
 - **AuthModule:** This module will contain the login page, login service, and corresponding components.
 - **SharedModule (optional):** If implemented, this module should consist of shared components, directives, and pipes. It can be imported into each feature module as needed.
