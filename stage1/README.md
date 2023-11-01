@@ -85,11 +85,23 @@
 
 #### November 21, 2023
 
-- [Module "CSS positioning. Flex."](modules/css-positioning/)
-- [Module "CSS grid layout"](modules/css-grid/)
-- [Module: CSS Preprocessors. Sass](modules/sass/en/README.md)
-- [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
-- [shelter. week-1](../tasks/shelter/shelter.md)
+- Modules
+
+  - [Module "CSS positioning. Flex."](modules/css-positioning/)
+  - [Module "CSS grid layout"](modules/css-grid/)
+  - [Module: CSS Preprocessors. Sass](modules/sass/en/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
+
+- Tasks:
+
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+
+- Tests:
+
+  - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
+  - [[St1] CSS grid](modules/css-grid/)
+  - [[St1] Preprocessors. SASS.](modules/sass/en/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/)
 
 ### Week #4
 
