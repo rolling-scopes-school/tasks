@@ -9,7 +9,7 @@
 
 ## Approximate time to complete this module:
 Theory - 2 hours  
-Practice - 1 hour
+Practice - 4 hour
 
 ## Theory 
 - [Lecture](https://youtu.be/DCw-JBll2u0?t=2201)
@@ -25,12 +25,7 @@ Practice - 1 hour
 - [Testing services](https://angular.io/guide/testing-services)
 
 ## Practical assignment
-- Write Unit tests for your application. Test cases (obligatory): 
-  - one of any service 
-  - several components:
-    - with injected service
-    - inside which are used other components, pipes, directives
-  - directive
+- [Angular. Unit testing with Jest](../../../tasks/angular/unit-testing-jest.md)
 
 ## Additional materials
 - [Testing](https://angular.io/guide/testing)
