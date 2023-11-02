@@ -1,6 +1,7 @@
 ## Coffee-House. Week-3: Adding functionality
 
-- [Main task Description and Requirements](coffee-house.md)  
+### Main Task Description and Requirements
+- [Detailed Description](coffee-house.md)  
   
 In this part of the task, you need to add the following functionality to the web pages previously created in the task:
 
@@ -22,7 +23,7 @@ In this part of the task, you need to add the following functionality to the web
 1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).  
 2. Create new branch `coffee-house-week3` from `coffee-house`. You will already find the `coffee-house` folder with the project files completed in the previous stage in this branch.
 3. Continue working on the task in the branch you've created.  
-4. Check the compliance of your work with the [Functional Requirements](#functional-requirements).  
+4. Check the compliance of your work with the [CrossCheck Criteria](#crosscheck-criteria).  
 5. Evaluate your work independently according to the provided [Criteria for evaluation](#criteria-for-evaluation).
 6. To make the assessment of your work easier, print your self-assessment to the browser console. To do this, include the `index.js` file in your `*.html` file, write a `console.log()` function in it, and in parentheses within quotes, write your self-assessment points. Use the `\n` character to insert line breaks.  
 For example:
@@ -38,7 +39,7 @@ There is no need to merge this Pull Request.
 10. Submit the link to the deployment of your work in the [RS APP](https://app.rs.school/) section "Cross-Check Submit".
 11. After the task deadline, the cross-check process begins. The cross-check lasts for three days. To receive points for the task, you need to review all the submissions sent for review and submit the results of the review in the "Cross-Check Review" section of [RS APP](https://app.rs.school/).
 
-## Functional Requirements
+### CrossCheck Criteria (90 points)
 1. Implementation of the burger menu on both pages: **+22**
    - At a page width of 768px or less, the navigation panel hides, and the burger icon appears: **+2**
    - When clicking the burger icon, the burger menu slides out from the right, and the burger icon smoothly transforms into a cross: **+4**
@@ -78,28 +79,29 @@ There is no need to merge this Pull Request.
    - In the `Enjoy` block of the `home` page, a video is played in the background instead of an image, without sound and control elements, and without the ability to interact with it: **+4**
    - After the video is finished, it automatically starts over: **+4**
 
+### Penalties
+1. Layout of the entire design or individual blocks is implemented using images -90
+2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
+
 ## Criteria for evaluation
 
 **Maximum score for the task: 90 points**  
 
-Scores for requirement points are specified in [Layout Requirements](#layout-requirements) section  
+Scores for requirement points are specified in [CrossCheck Criteria](#crosscheck-criteria) section.  
+Penalties are specified in [Penalties](#penalties) section.  
 
 All disputed issues are resolved in favor of the student being assessed.
 
 To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
-
-## Penalties
-1. Layout of the entire design or individual blocks is implemented using images -90
-2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
 
 ## How to submit
 - **Coffee-House. Week-3: Adding functionality** task is checked by cross-check.  
 - After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.   
 
 ## Submit Recommendations
-- It is recommended to submit the task as early as possible, as soon as the option becomes available in the rs app. After submission, you can continue working on the task until the deadline
-- Since the project is being done in a private repository, there is no point in submitting a link to the repository or a pull request - the reviewer won't be able to see it. The private school repository is only visible to you, course admins, and your mentors when they become available 
-- Make sure that the deployed link you provide opens in incognito mode of the browser 
+- Consider submitting early, once the option is available in the RS App. You can make further changes until the deadline.
+- As the project resides in a private repository, repository or pull request links are unnecessary since reviewers won't access them. Only you, course admins, and assigned mentors (if any) can view the private school repository.
+- Ensure the deployed link functions in the browser's incognito mode.
 
 ## Task Evaluation
 - Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow

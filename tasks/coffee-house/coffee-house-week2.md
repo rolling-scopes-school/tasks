@@ -1,6 +1,7 @@
 ## Coffee-House. Week-2 - Responsive design
 
-- [Main task Description and Requirements](coffee-house.md)  
+### Main Task Description and Requirements
+- [Detailed Description](coffee-house.md)  
   
 In this part of the task, we will adapt the previously created pages (**Home** and **Menu > Coffee**) for tablets and mobile devices.
 At screen resolutions of 1440px, 768px, and 380px, the goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0).  
@@ -18,7 +19,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).  
 2. Create new branch `coffee-house-week2` from `coffee-house`. You will already find the `coffee-house` folder with the project files completed in the previous stage in this branch.
 3. Continue working on the task in the branch you've created.  
-4. Check if your work meets [Layout Requirements](#layout-requirements).  
+4. Check if your work meets [CrossCheck Criteria](#crosscheck-criteria).  
 5. Evaluate your work independently according to the provided [Criteria for evaluation](#criteria-for-evaluation), taking into account the [DevTools responsiveness check details](#devtools-responsiveness-check-details) and [Specifics of verifying layout](#specifics-of-verifying-layout).
 6. To make the assessment of your work easier, print your self-assessment to the browser console. To do this, include the `index.js` file in your `*.html` file, write a `console.log()` function in it, and in parentheses within quotes, write your self-assessment points. Use the `\n` character to insert line breaks.  
 For example:
@@ -34,7 +35,7 @@ There is no need to merge this Pull Request.
 9. Submit the link to the deployment of your work in the [RS APP](https://app.rs.school/) section "Cross-Check Submit".
 10. After the task deadline, the cross-check process begins. The cross-check lasts for three days. To receive points for the task, you need to review all the submissions sent for review and submit the results of the review in the "Cross-Check Review" section of [RS APP](https://app.rs.school/).
 
-## Layout Requirements
+### CrossCheck Criteria (90 points)
 1. The layout of the pages matches the design at a screen width of 1440px: **+14**
    - `<header>` block on each page **+2**
    - `Enjoy` block on `home` page **+2**
@@ -72,19 +73,20 @@ Opening the menu by clicking on the burger menu icon is not checked at this stag
 7. Hover effects are enable on desktop devices (`Desktop` device type in DevTools) and disabled for mobile devices on both pages (`Mobile` device type in DevTools): **+4**
 8. The layout of both pages is valid: to check the validity of the layout, use the service https://validator.w3.org/ : **+12**
 
+### Penalties
+1. Layout of the entire design or individual blocks is implemented using images -90
+2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
+
 ## Criteria for evaluation
 
 **Maximum score for the task: 90 points**  
 
-Scores for requirement points are specified in [Layout Requirements](#layout-requirements) section  
+Scores for requirement points are specified in [CrossCheck Criteria](#crosscheck-criteria) section.  
+Penalties are specified in [Penalties](#penalties) section.  
 
 All disputed issues are resolved in favor of the student being assessed.
 
 To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
-
-## Penalties
-1. Layout of the entire design or individual blocks is implemented using images -90
-2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
 
 ## DevTools responsiveness check details
 1. Open Developer Tools:
@@ -116,9 +118,9 @@ To make the assessment of your work easier, print self-assessment of your projec
 - After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button. 
 
 ## Submit Recommendations
-- It is recommended to submit the task as early as possible, as soon as the option becomes available in the rs app. After submission, you can continue working on the task until the deadline
-- Since the project is being done in a private repository, there is no point in submitting a link to the repository or a pull request - the reviewer won't be able to see it. The private school repository is only visible to you, course admins, and your mentors when they become available 
-- Make sure that the deployed link you provide opens in incognito mode of the browser  
+- Consider submitting early, once the option is available in the RS App. You can make further changes until the deadline.
+- As the project resides in a private repository, repository or pull request links are unnecessary since reviewers won't access them. Only you, course admins, and assigned mentors (if any) can view the private school repository.
+- Ensure the deployed link functions in the browser's incognito mode.  
 
 ## Task Evaluation
 - Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow
