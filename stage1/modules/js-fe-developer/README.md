@@ -19,7 +19,7 @@ A profound understanding of JavaScript is the starting point for learning everyt
 
 ## 📖 Theory
 
-- tbd: [issue](https://github.com/rolling-scopes-school/tasks/issues/1194)
+- [Webinar](https://www.youtube.com/watch?v=A6-omh-SVug)
 - 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## 💡 Essential Knowledge for Front-end Developers

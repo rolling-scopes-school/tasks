@@ -2,7 +2,7 @@
 
 ## Recommended libraries (versions can be different)
 
-```
+```json
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "eslint": "^8.14.0",
@@ -15,20 +15,22 @@
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
 ```
+
 The configuration might be different based on what setup has been choosen (Vite or CRA), you can check [the details](https://www.npmjs.com/package/eslint-plugin-react-hooks).
 [Here are](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/) some details about setting up Husky on the project.
 
-
 ## Eslint configuration
+
 Might be insignificantly changed
-```
+
+```json
 {
   "root": true,
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
+    "plugin:react-hooks/recommended",
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -36,7 +38,7 @@ Might be insignificantly changed
       "jsx": true
     },
     "ecmaVersion": "latest",
-	"sourceType": "module"
+    "sourceType": "module"
   },
   "env": {
     "browser": true,
@@ -70,10 +72,12 @@ Might be insignificantly changed
     }
   }
 }
+
 ```
 
 ## Prettier configuration
-```
+
+```json
 {
   "endOfLine": "auto",
   "semi": true,
@@ -87,9 +91,7 @@ Might be insignificantly changed
 
 ## TSConfig
 
-```
-
-
+```json
 {
   "compilerOptions": {
     "target": "ESNext",
@@ -105,7 +107,6 @@ Might be insignificantly changed
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noImplicitAny": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
@@ -113,4 +114,5 @@ Might be insignificantly changed
   "references": [{ "path": "./tsconfig.node.json" }]
 }
 ```
+
 Note: If you use ```CRA``` you should remove ```"references": [{ "path": "./tsconfig.node.json" }]``` from the config above

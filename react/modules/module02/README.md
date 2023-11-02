@@ -40,8 +40,7 @@ The task will be checked during cross-check and cross-code-review.
 1. Clone the repository you are going to review.
 2. Install all the necessary dependencies.
 3. Run linting using the specified command in the package.json file; the output should not contain any errors or warnings.
-4. Run tests using the specified command in the package.json file; all tests should pass, and the test coverage should be displayed after running all the tests.
-5. Review the code. Pay attention to the following "code smells":
+4. Review the code. Pay attention to the following "code smells":
     - props drilling,
     - large and complex components (also known as "god" components),
     - direct DOM manipulation,
@@ -68,15 +67,16 @@ A student can achieve a maximum of 100 points.
 
 #### Cross-check (score can be less if some parts of the functionality don't work)
 
-* Conversion of class components to functional components with hooks - **10**
-* Pagination is present in both URL and on the page - **20**
-* User-initiated change of items per page triggers a new request, displaying the first page - **15**
+* Conversion of class components to functional components with hooks - **20**
+* Pagination is present in both URL and on the page - **30**
+* User-initiated change of items per page triggers a new request, displaying the first page - **20**
 * Upon clicking, open details panel on the right side of the page: - **5**
   - use router outlet, left side of the page should continue displaying the list of results - **10**
   - initiate an additional API call, display a loader, and update the URL - **5**
   - Details panel should be closed either on the "close" button click or on the main panel click - **10**
 
 #### Penalties
+
 - TypeScript isn't used: **-95 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
@@ -84,6 +84,7 @@ A student can achieve a maximum of 100 points.
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository Requirements
 

@@ -1,27 +1,39 @@
-# [Stage#1](../../) Основы JavaScript. Типы данных
-## В данном модуле студентам необходимо:
-Закрепить основы JavaScript:
-- Переменные 
-- Типы данных
-- Преобразование типов
-- Базовые операторы, математика
-- Условные и логические операторы
-- Циклы
-- Функции
-- Комментарии
+# [Stage#1](../../) JavaScript basics
 
-## Приблизительное время прохождения модуля
-4 часа
+## What should be done:
 
-## Теория 
-Вариант на выбор:
-- читать https://learn.javascript.ru/first-steps
-- смотреть https://www.youtube.com/watch?v=Jnf--72z8bs [Слайды](https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/edit)
+Strengthen JavaScript knowledge:
 
-## Практика 
-1. Вам необходимо пройти тест "JS Basics [RU]" и "JS Types" в RS APP > Auto Test
-2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q3.md)
+- Variables
+- Data types
+- Type conversion
+- Basic operators, mathematics
+- Conditional and logical operators
+- Loops
+- Functions
+- Comments
 
-## Дополнительные материалы
-- https://exploringjs.com/impatient-js/toc.html
-- https://learn.javascript.ru/data-types
+## Approximate learning time
+
+4 hours
+
+## Theory
+
+- Learn next submodules:
+  - [Variables](./variables.md)
+  - [Data types](./data-types.md)
+  - [Type conversion](./type-conversion.md)
+  - [Basic operators and mathematics](./basic-operators.md)
+  - [Conditional and logical operators](./logical-operators.md)
+  - [Loops](./loops.md)
+  - [Functions](./functions.md)
+  - [Comments](./comments.md)
+
+## Practice
+
+1. You need to pass the test "[St1] JS Basics" at the RS APP > Auto Test
+2. Practice new knowledge on [the JSchallenger](https://www.jschallenger.com/javascript-practice/javascript-fundamentals) interactive app
+
+## Additional sources
+
+- All JavaScript basics in [one handbook](https://exploringjs.com/impatient-js/toc.html)

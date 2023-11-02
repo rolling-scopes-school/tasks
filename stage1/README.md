@@ -39,34 +39,69 @@
 
 #### November 7, 2023
 
-- [Module "Introduction to RS School"](modules/rs-school-intro/)
-- [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
-- [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-- [Module "Getting to know version control system Git"](modules/git/)
-- ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
-- ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
+- Modules:
+
+  - [Module "Introduction to RS School"](modules/rs-school-intro/)
+  - [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
+  - [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
+  - [Module "Getting to know version control system Git"](modules/git/)
+
+- Tasks:
+
+  - ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
+  - ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
+
+- Tests:
+
+  - [St1] RSS Test
+  - [St1] Git test
+  - [St1] Fundamentals of the Internet
 
 ### Week #2
 
 #### November 14, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](https://github.com/DrDiman/CSS-Bayan-task) project
-- [Module: "JavaScript. Data types"](modules/js-basics/)
-- [Module: "JavaScript. Scope and functions"](modules/functions/)
-- [Module: "JavaScript. Evolution"](modules/js-evolution/)
-- ["Codewars1" tasks](../tasks/codewars/Codewars1-2022Q3.md)
+- Modules:
+
+  - [Module: "JavaScript. JS-Basics"](modules/js-basics/)
+  - [Module: "JavaScript. Scope and functions"](modules/functions/)
+  - [Module: "JavaScript. Evolution"](modules/js-evolution/)
+
+- Tasks:
+
+  - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers)
+  - [core-js-strings](https://github.com/rolling-scopes-school/core-js-strings)
+
 - Tests:
-  - [Test HTML Basics](../stage0/modules/html-basics/)
-  - [Test CSS Basics](../stage0/modules/css-basics/)
+
+  - [[St1] JS Basics](modules/js-basics/)
+  - [[St1] JS Types](modules/js-basics/)
+  - [[St1] JS Scope & Functions](modules/functions/)
+  - [[St1] JS Evolution](modules/js-evolution/)
+  - [[St1] Test HTML Basics](../stage0/modules/html-basics/)
+  - [[St1] Test CSS Basics](../stage0/modules/css-basics/)
 
 ### Week #3
 
 #### November 21, 2023
 
-- [Module "CSS positioning. Flex."](modules/css-positioning/)
-- [Module "CSS grid layout"](modules/css-grid/)
-- [Module: CSS Preprocessors. Sass](modules/sass/en/README.md)
-- [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+- Modules
+
+  - [Module "CSS positioning. Flex."](modules/css-positioning/)
+  - [Module "CSS grid layout"](modules/css-grid/)
+  - [Module: CSS Preprocessors. Sass](modules/sass/en/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
+
+- Tasks:
+
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+
+- Tests:
+
+  - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
+  - [[St1] CSS grid](modules/css-grid/)
+  - [[St1] Preprocessors. SASS.](modules/sass/en/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/)
 
 ### Week #4
 
@@ -95,12 +130,11 @@
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 
-### Week #7
+### Break Week
 
 #### December 19, 2023
 
-- [Module: Clean Code](modules/clean-code/)
-- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- Break week, only the deadlines of previously issued tasks and tests
 
 ### Break Week
 
@@ -108,9 +142,16 @@
 
 - Break week, no new content or assignments
 
-### Week #8
+### Week #7
 
 #### January 2, 2024
+
+- [Module: Clean Code](modules/clean-code/)
+- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+### Week #8
+
+#### January 9, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 - [Module: "Modules in JS"](modules/modules-in-js/)
@@ -119,7 +160,7 @@
 
 ### Week #9
 
-#### January 9, 2024
+#### January 16, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["virtual-keyboard"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 - [Module: "Node.js"](modules/node-materials/)
@@ -127,7 +168,7 @@
 
 ### Week #10
 
-#### January 16, 2024
+#### January 23, 2024
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
@@ -136,7 +177,7 @@
 
 ### Week #11
 
-#### January 23, 2024
+#### January 30, 2024
 
 - [Project "Self-introduction"](modules/self-introduction/)
 - Preparation for mentor interview

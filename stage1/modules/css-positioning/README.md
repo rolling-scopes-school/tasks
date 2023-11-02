@@ -1,28 +1,34 @@
 # [Stage#1.](../../) Positioning in CSS. Flex.
+
 ## In this module, students should:
+
 - Learn and understand 'position' and 'block-model' concepts
 - Learn the basics of flexbox layout
 
 ## Approximate module completion time:
+
 6 hours
 
-## Theory 
+## Theory
+
 1. Basics of elements positioning
-    - [EN] https://www.peterlunch.com/blog/understanding-the-css-position-property - 1h
-    - [EN] https://internetingishard.netlify.app/html-and-css/css-box-model/ - 2h
-    - [RU] https://webref.ru/course/position - 2h
-    - [RU] https://webref.ru/course/block-model - 2h
-    - [RU] https://webref.ru/course/block-inline - 1h
+   - [EN] https://www.peterlunch.com/blog/understanding-the-css-position-property - 1h
+   - [EN] https://internetingishard.netlify.app/html-and-css/css-box-model/ - 2h
+   - [RU] https://webref.ru/course/position - 2h
+   - [RU] https://webref.ru/course/block-model - 2h
+   - [RU] https://webref.ru/course/block-inline - 1h
 2. Flexbox
-    - [EN] https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - 1h
-    - [EN] https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ - 2h
-    - [RU] https://webref.ru/layout/flexbox-tutorial - 2h
-    - [RU] https://habr.com/ru/post/467049/ - 1h
+   - [EN] https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - 1h
+   - [EN] https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ - 2h
+   - [RU] https://webref.ru/layout/flexbox-tutorial - 2h
+   - [RU] https://habr.com/ru/post/467049/ - 1h
 
 ## Practice
-1.  You need to take the "CSS Positioning & Flexbox" test in the RS APP > Auto Test
+
+1.  You need to take the "[St1] CSS Positioning & Flexbox" test in the RS APP > Auto Test
 
 ## Additional materials
+
 1. [EN] [Video lecture: Learn Flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU) - 30 min
 2. [EN] [CSS Position Property Tutorial for Beginners | Absolute, Relative, Fixed, Sticky](https://www.youtube.com/watch?v=zqg4A6g9GfA) - 30 min
 3. [EN] [Flexbox Playground](https://preview.webflow.com/preview/flexbox-game?preview=d1a26b027c4803817087a91c651e321f&m=1) - 1 hour

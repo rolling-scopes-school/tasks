@@ -24,4 +24,4 @@ Know and understand:
 
 ## Practice
 
-1. You need to take the test "Preprocessors. SASS" in RS APP > Auto Test
+1. You need to take the test "[St1] Preprocessors. SASS." in RS APP > Auto Test
