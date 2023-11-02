@@ -17,7 +17,7 @@ The task should be based on the previous task. We're using [React Router v6.x ](
     - Implement pagination for your existing item list
     - Display the current page in the browser URL using query parameters (e.g. ?page=2, e.g /search/2).
     - The pagination component should appear after receiving the list of all items.
-    - If the user changes items on the page, make a new API call and display the results from the first page.
+    - If the user changes the number of items shown per page, make a new API call and display the results from the first page.
 6. Main page displays search results. On item click page should be split into 2 section:
     - left section will continue to display search results;
     - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
