@@ -47,13 +47,13 @@
 - Test: Redux & NgRx.
 
 ### Week #5 (November 13 2023)
-- [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
 - [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
 - [Task review "Angular. Forms"](../tasks/angular/forms.md)
-- Test: Unit tests.
 
 ### Week #6 (November 20 2023)
 - [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
+- [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
+- Test: Unit tests.
 
 ### Week #7-9 (November 27 2023 - December 11 2023)
 - [Task review "Angular. Unit testing with Jest"](../tasks/angular/unit-testing-jest.md)
