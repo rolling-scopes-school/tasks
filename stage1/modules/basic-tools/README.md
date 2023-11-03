@@ -19,7 +19,7 @@ Students are required to get acquainted with:
 ## Theory
 
 1. [Internet and Browsers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
-2. [Webinar: Browsers and VS Code – Installation and Setup (Ru)](https://www.youtube.com/watch?v=VqCgcpAypFQ)
+2. [Webinar: Browsers and VS Code – Installation and Setup (Ru)](https://www.youtube.com/watch?v=nd2VYxOsOwY)
 3. Terminal:
    - [Basic Windows Commands](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
    - [Basic Mac Commands](https://www.imore.com/how-use-terminal-mac-when-you-have-no-idea-where-start)
