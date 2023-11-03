@@ -1,18 +1,18 @@
-# [Angular schedule.](../../README-RU.md) Components.
+# [Angular schedule.](../../README.md) Components.
 
-## В данном модуле студентам необходимо:
+## В данном модуле студентам необходимо изучить:
 
 - Базовая структура приложения.
 - Что такое `Components`, шаблоны.
-- Двухсторонее связывание.
+- Одностороннее и двухсторонее связывание.
 - Жизненный цикл `Components`.
 - Взаимодействие `Components`.
 - Создание и использование `Components` в приложении.
 
 ## Приблизительное время прохождения модуля
 
-Теория: 2 часа
-задание: 2 часа
+- Теория: 2 часа
+- Задание: 4 часа
 
 ## Теория
 
@@ -20,7 +20,7 @@
   - [Angular 2020Q1. Components](https://youtu.be/rY_FWXmh4QI)
   - [Angular 2020Q3. Components](https://youtu.be/M9ywugN1iDE)
   - [Angular 2021Q1. Components](https://youtu.be/oOR3NpA02HI)
-- [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
+  - [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
 - Слайды:
   - [Angular 2020Q1. Components](https://slides.com/pavelrazuvalau/angular-components)
   - [Angular 2021Q1. Components](https://slides.com/dzianis_davydau/components)
@@ -28,7 +28,7 @@
 ## Практическое задание
 
 - [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Kirill Britsyn
 
 ## Дополнительные материалы
 
@@ -41,6 +41,8 @@ English version
 - [Template syntax](https://angular.io/guide/template-syntax)
 - [Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
 - [Component interaction](https://angular.io/guide/component-interaction)
+- [Content projection](https://angular.io/guide/content-projection)
+- [🆕 Standalone components](https://angular.io/guide/standalone-components)
 
 Russian version
 - [Редактор героев](https://angular24.ru/tutorial/toh-pt1)

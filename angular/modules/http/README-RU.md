@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-RU.md) Http
+# [Angular schedule.](../../README.md) Http
 ## В данном модуле студентам необходимо
 
 - Модуль `HttpClientModule`.
@@ -22,7 +22,7 @@
 
 ## Практическое задание
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
-- Ментор: Aleh Serhiyenia
+- Тренер: Arcangelo Saccà
 
 ## Дополнительные материалы
 - [Get data from a server](https://angular.io/tutorial/toh-pt6)

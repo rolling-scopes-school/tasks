@@ -8,7 +8,7 @@ The task should be based on the previous task. We're using [React Router v6.x ](
 ### What should be done:
 
 1. Create a separate branch for this task from the previous task's branch.
-2. All the class components must be changed to **functional components**.
+2. All components must be changed to **functional components**, except **Error Boundary** components, as error boundaries in React still need to be class components.
 3. All logic should be split into components:
     - If you need an access either to the component's lifecycle or the state **use hooks**.
     - All data should be stored in the **component's state**.
@@ -17,7 +17,7 @@ The task should be based on the previous task. We're using [React Router v6.x ](
     - Implement pagination for your existing item list
     - Display the current page in the browser URL using query parameters (e.g. ?page=2, e.g /search/2).
     - The pagination component should appear after receiving the list of all items.
-    - If the user changes items on the page, make a new API call and display the results from the first page.
+    - If the user changes the number of items shown per page, make a new API call and display the results from the first page.
 6. Main page displays search results. On item click page should be split into 2 section:
     - left section will continue to display search results;
     - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
@@ -40,8 +40,7 @@ The task will be checked during cross-check and cross-code-review.
 1. Clone the repository you are going to review.
 2. Install all the necessary dependencies.
 3. Run linting using the specified command in the package.json file; the output should not contain any errors or warnings.
-4. Run tests using the specified command in the package.json file; all tests should pass, and the test coverage should be displayed after running all the tests.
-5. Review the code. Pay attention to the following "code smells":
+4. Review the code. Pay attention to the following "code smells":
     - props drilling,
     - large and complex components (also known as "god" components),
     - direct DOM manipulation,
@@ -68,9 +67,9 @@ A student can achieve a maximum of 100 points.
 
 #### Cross-check (score can be less if some parts of the functionality don't work)
 
-* Conversion of class components to functional components with hooks - **10**
-* Pagination is present in both URL and on the page - **20**
-* User-initiated change of items per page triggers a new request, displaying the first page - **15**
+* Conversion of class components to functional components with hooks - **20**
+* Pagination is present in both URL and on the page - **30**
+* User-initiated change of items per page triggers a new request, displaying the first page - **20**
 * Upon clicking, open details panel on the right side of the page: - **5**
   - use router outlet, left side of the page should continue displaying the list of results - **10**
   - initiate an additional API call, display a loader, and update the URL - **5**
@@ -78,10 +77,14 @@ A student can achieve a maximum of 100 points.
 
 #### Penalties
 
-* Absence of TypeScript - 95
-* Prettier, linting, and Husky are not set up - 100
-* The usage of Redux or other state management solutions is prohibited - 100
-* The usage of libraries for components or forms is prohibited - 100
+- TypeScript isn't used: **-95 points**
+- Usage of _any_: **-20 points per each**
+- Usage of _ts-ignore_: **-20 points per each**
+- Direct DOM manipulations inside the React components: **-50 points per each**
+- Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of Redux or other state management libraries: **-100 points**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+- Commits after the deadline: **-40 points**
 
 ### Repository Requirements
 

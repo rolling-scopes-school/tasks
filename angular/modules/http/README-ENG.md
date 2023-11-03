@@ -1,10 +1,10 @@
-# [Angular schedule.](../../README-ENG.md) Http
+# [Angular schedule.](../../README.md) Http
 
 ## In this module, students need to learn:
 
 - `HttpClientModule` Module.
 - `HttpTypeEvent` Object.
-- Intercept of HTTP requests with `HTTP Interceptor`.
+-  Intercept of HTTP requests with `HTTP Interceptor`.
 
 ## Approximate time to complete this module:
 Theory - 1 hour
@@ -18,7 +18,7 @@ Assignment - 1 hour
 
 ## Practical assignment
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
-- Mentor: Arcangelo Saccà
+- Trainer: Arcangelo Saccà
 
 ## Additional materials
 - [Get data from a server](https://angular.io/tutorial/toh-pt6)

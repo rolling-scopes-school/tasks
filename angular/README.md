@@ -11,53 +11,66 @@
     - Forms
     - Redux & NgRx
     - Unit test
-- Course duration: 8 weeks. You will need approximately around 20-40 hours per week.
+- Course duration: 9 weeks. You will need approximately around 20-40 hours per week.
 - Format: All webinars are recorded, and can be found on our channel - [YouTube](https://youtube.com/c/rollingscopesschool).
   All theoretical materials are provided in the form of recorded lectures from previous courses.
-  Online lectures will be in the format of practical lessons (Workshops).
-  Before each workshop, students need to study learning materials, including lecture recording, on a given topic.
-  At workshops, lectors will demonstrate practical application of obtained knowledge and will answer your questions. It is preferable to prepare questions beforehand.
+  Online lectures will be in the format of practical lessons.
 
 ## Course roadmap
-### Week #1 (March 13 2023)
+### Week #1 (October 16 2023)
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components"](modules/components/README-ENG.md)
 - [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
-- Workshop
+- Test: Angular CLI, TypeScript.
+- Test: Components.
+- Test: Pipes, Directives.
 
-### Week #2 (March 20 2023)
-- Task review "Angular intro"
+### Week #2 (October 23 2023)
+- [Task review "Angular intro"](../tasks/angular/intro.md)
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
 - [Module: "Angular. Routing"](modules/routing/README-ENG.md)
-- Workshop
+- Test: Modules, Services.
+- Test: Routing.
 
-### Week #3 (March 27 2023)
-- Task review "Angular. Components, Directives, Pipes"
+### Week #3 (October 30 2023)
+- [Task review "Angular. Components, Directives, Pipes"](../tasks/angular/components-directives-pipes.md)
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
 - [Module "Angular. HTTP"](modules/http/README-ENG.md)
 - [Module "Angular. Forms"](modules/forms/README-ENG.md)
-- Workshop
+- Test: RxJS & Observables.
+- Test: HTTP.
+- Test: Forms.
 
-### Week #4 (April 3 2023)
-- Task review "Angular.Modules, Services, Routing"
+### Week #4 (November 6 2023)
+- [Task review "Angular.Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
+- Test: Redux & NgRx.
+
+### Week #5 (November 13 2023)
+- [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
+- [Task review "Angular. Forms"](../tasks/angular/forms.md)
+
+### Week #6 (November 20 2023)
+- [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
 - [Module: "Angular. Unit test."](modules/unit-test/README-ENG.md)
-- Workshop
+- Test: Unit tests.
 
-### Week #5-8 (April 10 2023 - May 8 2023)
-- Task review "Angular. RxJS & HTTPClient & NgRx & Forms"
-- Angular final test
-- [Final task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/airways.md)
+### Week #7-9 (November 27 2023 - December 11 2023)
+- [Task review "Angular. Unit testing with Jest"](../tasks/angular/unit-testing-jest.md)
+- Final task
 
-### Week #9 (May 8 2023)
-- [Cross check](https://docs.app.rs.school/#/platform/cross-check-flow) of the Final task (TBD)
+### Week #10 (December 18 2023)
+- Review the Final task
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 # Additional information
 ## Certificate
-In order to earn a course certificate, you need to complete all assignments, pass the final test, complete the final task and take part in cross check.
+In order to earn a course certificate, you need to complete all assignments, complete the final task, and get 70% of the TOP 1 score of the course student.
 
 Course certificate is a pleasant addition and reward for your hard work.
+
+## For mentors
+- [Mentoring Documentation for Angular Course](./mentoring/README.md)
 
 ## FAQ
 ### Where to ask questions and communicate with others?

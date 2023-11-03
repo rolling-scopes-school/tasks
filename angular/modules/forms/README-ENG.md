@@ -1,17 +1,17 @@
-# [Angular schedule.](../../README-ENG.md) Forms.
+# [Angular schedule.](../../README.md) Forms.
 
-## In this module, students need to learn:
+## In this module you will learn:
 
-- Basic knowledge of `Forms`. Understanding of Template and Reactive `Forms`. Built-in `Directives`.
-- Create `Forms`.
-- Understanding of validators and its application.
-- Creation of custom validators.
-- Form constructor - `FormGroup`, `FormControl`, `FormArray`.
+- Basics of `Forms`
+- Difference between `Template-driven` and `Reactive` forms
+- How to create and use both types
+- Understanding the role of form validators and how to use them
+- How to create custom validators
 
 ## Approximate time to complete this module:
 
-Theory - 4 hours
-Assignment - 4 hours
+- Theory - 4 hours
+- Assignment - 6 hours
 
 ## Theory
 
@@ -21,7 +21,7 @@ Assignment - 4 hours
 
 ## Practical assignment
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
-- Mentor: Aleh Serhiyenia
+- Trainer: Kirill Britsyn
 
 ## Additional materials
 
@@ -29,3 +29,4 @@ Assignment - 4 hours
 - [Reactive forms](https://angular.io/guide/reactive-forms)
 - [Building a template-driven form](https://angular.io/guide/forms)
 - [Angular Forms Guide](https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/)
+- [Typed forms](https://angular.io/guide/typed-forms)
