@@ -18,9 +18,9 @@ The task should be based on the previous task.
 6. Tests for the Card component:
    - Ensure that the card component renders the relevant card data;
    - Validate that clicking on a card opens a detailed card component;
-     - Check that clicking triggers an additional API call to fetch detailed information;
-     - Check that a loading indicator is displayed while fetching data.
+   - Check that clicking triggers an additional API call to fetch detailed information.
 7. Tests for the Detailed Card component:
+   - Check that a loading indicator is displayed while fetching data;
    - Make sure the detailed card component correctly displays the detailed card data;
    - Ensure that clicking the close button hides the component.
 8. Tests for the Pagination component:
