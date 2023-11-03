@@ -52,7 +52,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 7. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
 8. Using a style reset with `reset.css` is not recommended.
 9. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
-10. The code must be readable, without minification or obfuscation.
+10. The code must be readable, without minification or obfuscation. You are allowed to use bundlers, such as [Vite](https://vitejs.dev/) or [Webpack](https://webpack.js.org/), but please enable [source maps](https://web.dev/articles/source-maps). Gulp is unmaintained and should not be used.
 
 ## Repository Requirements
 - Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
