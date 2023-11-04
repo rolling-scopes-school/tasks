@@ -85,7 +85,7 @@
 
 #### November 21, 2023
 
-- Modules
+- Modules:
 
   - [Module "CSS positioning. Flex."](modules/css-positioning/)
   - [Module "CSS grid layout"](modules/css-grid/)
@@ -107,10 +107,22 @@
 
 #### November 28, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/coffee-house/coffee-house-week1.md)
-- [Module: "Adaptive layout markup"](modules/responsive-web-design/)
-- [Module: "Media Queries"](modules/media-queries/)
-- [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/coffee-house/coffee-house-week1.md)
+
+- Modules:
+
+  - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
+  - [Module: "Media Queries"](modules/media-queries/)
+
+- Tasks:
+
+  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+
+- Tests:
+
+  - [[St1] Media Queries & Responsive](modules/media-queries/)
 
 ### Week #5
 

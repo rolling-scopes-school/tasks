@@ -1,36 +1,40 @@
-## Coffee-House. Week-1 - Fixed layout  
+## Coffee-House. Week-1 - Fixed layout
 
 ### Main Task Description and Requirements
+
 - [Detailed Description](coffee-house.md)
 
 You need to create `home` and `menu` pages according to the [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group.  
-The content width of 1440px should not change when resizing the browser window.  
-  
+The content width of 1440px should not change when resizing the browser window.
+
 [Prototype in Figma](https://www.figma.com/proto/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?page-id=0%3A1&type=design&node-id=216-1349&viewport=875%2C385%2C0.03&t=rqlxorgzq8m3fnhO-1&scaling=min-zoom&starting-point-node-id=216%3A1349)
 
 ## Workflow
 
 1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 2. Create new branch `coffee-house` from `main`. Create a folder `coffee-house` in the created branch. Place your code in this folder.
-3. Complete the task.  
-4. Check if your work meets [CrossCheck Criteria](#crosscheck-criteria)  
+3. Complete the task.
+4. Check if your work meets [CrossCheck Criteria](#crosscheck-criteria)
 5. Evaluate your work yourself according to the provided [Criteria for evaluation](#criteria-for-evaluation), taking into account the [Specifics of verifying layout](#specifics-of-verifying-layout) for compliance with the layout
 6. To make the assessment of your work easier, print your self-assessment to the browser console. To do this, include the `index.js` file in your `*.html` file, write a `console.log()` function in it, and in parentheses within quotes, write your self-assessment points. Use the `\n` character to insert line breaks.  
-For example:
+   For example:
+
 ```
 console.log('1. First criteria's name: +5\n2.Second criteria's name: +10')
 ```
-7. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `coffee-house` branch into `gh-pages` branch. The Pull Request title can be arbitrary. There is no need to describe this Pull Request.  
+
+7. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `coffee-house` branch into `gh-pages` branch. The Pull Request title can be arbitrary. There is no need to describe this Pull Request.
 8. After completing your work, open a Pull Request from the `coffee-house` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  
-There is no need to merge this Pull Request. 
+   There is no need to merge this Pull Request.
 9. Submit the link to the deployment of your work in the [RS APP](https://app.rs.school/) section "Cross-Check Submit"
 10. After the task deadline, the cross-check process begins. The cross-check lasts for three days. To receive points for the task, you need to review all the submissions sent for review and submit the results of the review in the "Cross-Check Review" section of [RS APP](https://app.rs.school/).
 
 ### CrossCheck Criteria (100 points)
+
 1. Checking validation of pages: **+16**
    - The layout of both pages is valid: to check the validity of the layout, use the service https://validator.w3.org/ . **+12** (6 points per page)  
-   Valid markup of checked page corresponds to the message "Document checking completed. No errors or warnings to show." In this case, we assign the full points for the checked page (+6). If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
-   -  Favicon is added to each page **+4**
+     Valid markup of checked page corresponds to the message "Document checking completed. No errors or warnings to show." In this case, we assign the full points for the checked page (+6). If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
+   - Favicon is added to each page **+4**
 2. The layout matches the design **+42**
    - `<header>` block on each page **+6**
    - `Enjoy` block on `home` page **+6**
@@ -38,7 +42,7 @@ There is no need to merge this Pull Request.
    - `About` block on `home` page **+6**
    - `Mobile App` block on `home` page **+6**
    - `Menu` block on `menu` page **+6**
-   - `<footer>` block on each page **+6**  
+   - `<footer>` block on each page **+6**
 3. CSS Requirements **+10**
    - For positioning images in `About` block on `home` page and products in `Menu` block on `menu` page used **Flexbox** or **Grid Layout** **+4**
    - When scaling the browser page (<100%) or increasing the page width (>1440px), the layout of both pages is centered rather than shifted to the side and not stretched across the entire width **+4**
@@ -58,21 +62,23 @@ There is no need to merge this Pull Request.
    - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover and click, without affecting adjacent elements **+4**
 
 ### Penalties
+
 1. Layout of the entire design or individual blocks is implemented using images -100
 2. Using frameworks, libraries, and technologies prohibited in technical requirements -100
 
 ## Criteria for evaluation
 
-**Maximum score for the task: 100 points**  
+**Maximum score for the task: 100 points**
 
 Scores for requirement points are specified in [CrossCheck Criteria](#crosscheck-criteria) section  
-Penalties are specified in [Penalties](#penalties) section.  
-  
+Penalties are specified in [Penalties](#penalties) section.
+
 All disputed issues are resolved in favor of the student being assessed.
 
 To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
 
 ## Specifics of verifying layout
+
 - Deviation from the layout of up to 10px horizontally and vertically is allowed, provided that the visual similarity between the layout and the markup is maintained.
 - Use the [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru) extension as a tool to check the layout's conformity with the design
 - When checking the layout using the PerfectPixel extension, make sure that the extension is set to a scale of 1, while the browser and operating system are set to a scale of 100%.
@@ -83,13 +89,16 @@ To make the assessment of your work easier, print self-assessment of your projec
 - Regarding text, we check its alignment and spacing relative to the block's boundaries. Text sizes are only checked for height. Deviations in word width and letter spacing when comparing the layout and the markup are not considered errors if the correct font with the specified properties is used
 
 ## How to submit
-- **Coffee-House. Week-1 - Fixed layout** task is checked by cross-check.  
-- After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.  
+
+- **Coffee-House. Week-1 - Fixed layout** task is checked by cross-check.
+- After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.
 
 ## Submit Recommendations
+
 - Consider submitting early, once the option is available in the RS App. You can make further changes until the deadline.
 - As the project resides in a private repository, repository or pull request links are unnecessary since reviewers won't access them. Only you, course admins, and assigned mentors (if any) can view the private school repository.
-- Ensure the deployed link functions in the browser's incognito mode. 
+- Ensure the deployed link functions in the browser's incognito mode.
 
 ## Task Evaluation
+
 - Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow
