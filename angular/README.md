@@ -63,6 +63,9 @@
 - Review the Final task
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
+### Week #11
+- [Interview](modules/interview/README.md)
+
 # Additional information
 ## Certificate
 In order to earn a course certificate, you need to complete all assignments, complete the final task, and get 70% of the TOP 1 score of the course student.
