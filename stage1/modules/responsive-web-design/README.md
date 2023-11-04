@@ -24,7 +24,7 @@ Approximately 6 hours.
 
 ### Practice:
 
-1. Students should take the "Media Queries & Responsive" test in RS APP > Auto Test.
+1. Students should take the "[St1] Media Queries & Responsive" test in RS APP > Auto Test.
 
 ### Additional Materials:
 
