@@ -32,7 +32,8 @@ In this module, students will delve into the world of browser events and event h
 
 ## 📖 Theoretical Learning
 
-[JavaScript Events 2023Q1](https://youtube.com/live/VJEpE6DaOYo)
+Webinars: [JavaScript Events 2023Q1 [RU]](https://youtube.com/live/VJEpE6DaOYo)
+Materials: [Presentation](https://github.com/MikAleinik/rs-webinar/tree/events)
 
 Students are expected to read and understand the following topics:
 
