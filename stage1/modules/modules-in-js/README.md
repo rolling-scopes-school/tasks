@@ -13,10 +13,10 @@ Approximately 2-3 hours.
 ## Theory 
 1. Read [about modules in JS](https://javascript.info/modules)(~30 min)
 2. Read [about JavaScript modules, module formats, module loaders and module bundlers](https://jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/) (~ 10 min)
-3. Watch [video about modules in JS](https://www.youtube.com/watch?v=qJWALEoGge4) (32 min) (optional)
+3. Watch [video about modules in JS](https://www.youtube.com/watch?v=XmVbnmJ2QEc) (36 min) (optional)
 
 ## Practice
-1. Students should take the "Modules in JavaScript" test in RS APP > Auto Test.
+1. Students should take the "[St1] Modules in JavaScript" test in RS APP > Auto Test.
 
 ## Additional sources
 1. [Brief history of JavaScript Modules](https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde)
