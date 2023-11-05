@@ -27,7 +27,6 @@ Following materials also should be considered as learning sources before startin
 - [RxJS best practices](https://blog.brecht.io/rxjs-best-practices-in-angular)
 - Hot and Cold Observables:
     - [Explanation by Predrag Carapic](https://www.decodedfrontend.io/hot-vs-cold-observable-in-rxjs)
-    - [Explanation by Sebastian](https://medium.com/codingthesmartway-com-blog/getting-started-with-rxjs-part-3-hot-and-cold-observables-4713757c9a88)
 - Higher-order Observables
     - [RxJS documentation](https://rxjs.dev/guide/higher-order-observables)
 
