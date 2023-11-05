@@ -46,8 +46,12 @@ Students are expected to read and understand the following topics:
 7. [Creating and Dispatching Custom Events](https://javascript.info/dispatch-events)
 8. [Fundamentals of Mouse Events](https://javascript.info/mouse-events-basics)
 9. [Navigating Mouse Movement Events](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave)
-10. [JavaScript DOM Tutorial (Video Series)](https://www.youtube.com/watch?v=FIORjGvT0kk&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V)
 
 ## 💻 Practical Application
 
 - Complete the "[St1] DOM Events" test within the RS APP > Auto Test section for hands-on practice and validation of knowledge.
+
+## Additional materials
+
+1. [JavaScript Events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
+2. [Handling Events in JavaScript](https://www.javascripttutorial.net/javascript-dom/handling-events-in-javascript/)
