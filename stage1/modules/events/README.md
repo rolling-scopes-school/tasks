@@ -1,40 +1,57 @@
-# [Stage#1.](../../) Events
-## In this module, students are required to study:
-1. What is an Event?
-2. Interfaces based on Events. Full list from MDN.
-3. Where to start with "Events"? 
-4. Callbacks:
-    - definition of asynchronous programming
-    - understanding what asynchronous means
-    - cases where callbacks are needed (`setTimeout`, `addEventListener`, `onClick`, ...)
-    - writing code using callbacks.
-5. Event handlers. Ways to attach a handler to a specific event:
-    - in the DOM tree with the `on<event>` attribute
-    - signing property to a DOM object
-    - resigning a handler on the target
-    - exceptions
-    - removing a handler
-    - object handlers: handleEvent.
-6. Event object.
-7. Bubbling and capturing.
-8. Event delegation.
-9. Browser default actions.
-10. Dispatching custom events.
+# [🎯 Stage#1: Events](../../)
 
-## Estimated Module Duration
-2 hours
+## 📚 Module Overview
 
-## Theory 
-1. [Introduction to browser events](https://javascript.info/introduction-browser-events)
-2. [Introduction: callbacks](https://javascript.info/callbacks) 
-3. [Object handlers: handleEvent](https://javascript.info/introduction-browser-events#obekt-obrabotchik-handleevent)
-3. [Bubbling and capturing](https://javascript.info/bubbling-and-capturing)
-4. [Event delegation](https://javascript.info/event-delegation)
-5. [Browser default actions](https://javascript.info/default-browser-action)
-6. [Dispatching custom events](https://javascript.info/dispatch-events)
-7. [Mouse events](https://javascript.info/mouse-events-basics)
-8. [Moving the mouse: mouseover/out, mouseenter/leave](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave)
-9. [Javascript DOM tutorial](https://www.youtube.com/watch?v=FIORjGvT0kk&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V)
+In this module, students will delve into the world of browser events and event handling. They will learn the intricacies of event-driven programming and practice how to manage and utilize events within web applications.
 
-## Practice 
-1. You are required to complete the "DOM Events" test in RS APP > Auto Test.
+### Students will:
+
+1. Understand the concept of an **Event**.
+2. Explore **Interfaces based on Events**, with a complete list referenced from MDN.
+3. Discover the starting point for working with **Events**.
+4. Grasp the concept of **Callbacks**:
+   - Comprehend the definition of asynchronous programming.
+   - Learn what it means to be asynchronous.
+   - Recognize scenarios that require callbacks (e.g., `setTimeout`, `addEventListener`, `onClick`, etc.).
+   - Develop skills in writing code that utilizes callbacks.
+5. Master **Event Handlers** and different methods to attach them to events:
+   - Utilize the `on<event>` attribute within the DOM tree.
+   - Assign properties to DOM objects to handle events.
+   - Understand the reassignment of handlers on the target and exceptions.
+   - Learn techniques for removing event handlers.
+   - Implement object handlers through `handleEvent`.
+6. Dive into the **Event Object** and its properties.
+7. Study **Bubbling and Capturing** mechanisms.
+8. Practice **Event Delegation** to manage events efficiently.
+9. Learn about **Browser Default Actions** and how to handle them.
+10. Experiment with **Dispatching Custom Events** to tailor event-driven behavior.
+
+## ⏰ Estimated Module Duration
+
+- **2 hours**
+
+## 📖 Theoretical Learning
+
+Webinar: [JavaScript Events 2023Q1 [RU]](https://youtube.com/live/VJEpE6DaOYo)
+Materials: [Presentation](https://github.com/MikAleinik/rs-webinar/tree/events)
+
+Students are expected to read and understand the following topics:
+
+1. [Introduction to Browser Events](https://javascript.info/introduction-browser-events)
+2. [Introduction to Callbacks](https://javascript.info/callbacks)
+3. [Object Handlers: `handleEvent`](https://javascript.info/introduction-browser-events#obekt-obrabotchik-handleevent)
+4. [Bubbling and Capturing Explained](https://javascript.info/bubbling-and-capturing)
+5. [Mastering Event Delegation](https://javascript.info/event-delegation)
+6. [Handling Browser Default Actions](https://javascript.info/default-browser-action)
+7. [Creating and Dispatching Custom Events](https://javascript.info/dispatch-events)
+8. [Fundamentals of Mouse Events](https://javascript.info/mouse-events-basics)
+9. [Navigating Mouse Movement Events](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave)
+
+## 💻 Practical Application
+
+- Complete the "[St1] DOM Events" test within the RS APP > Auto Test section for hands-on practice and validation of knowledge.
+
+## Additional materials
+
+1. [JavaScript Events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
+2. [Handling Events in JavaScript](https://www.javascripttutorial.net/javascript-dom/handling-events-in-javascript/)
