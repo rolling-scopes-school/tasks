@@ -128,11 +128,25 @@
 
 #### December 5, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
-- [Module: "HTML Forms & Validation"](modules/html-form/)
-- [Module: "DOM API"](modules/dom-api/)
-- [Module: "Events"](modules/events/)
-- [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
+
+- Modules:
+
+  - [Module: "HTML Forms & Validation"](modules/html-form/)
+  - [Module: "DOM API"](modules/dom-api/)
+  - [Module: "Events"](modules/events/)
+
+- Tasks:
+
+  - [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+
+- Tests:
+
+  - [[St1] HTML Form](modules/html-form/)
+  - [[St1] DOM Api](modules/dom-api/)
+  - [[St1] DOM Events](modules/events/)
 
 ### Week #6
 
