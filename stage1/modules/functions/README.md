@@ -17,7 +17,7 @@ Scope
 - [Call/Apply/Bind](https://www.freecodecamp.org/news/understand-call-apply-and-bind-in-javascript-with-examples/)
 - [Static and Dynamic Scope](https://benmyers.dev/blog/scope/#lexical-scope-versus-dynamic-scope)
 - [Closures](https://benmyers.dev/blog/scope/#closures)
-- [Closures and Loops](https://www.geeksforgeeks.org/concept-of-javascript-closures-inside-loops/)
+- [Closures and Loops](https://www.freecodecamp.org/news/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript-558d8255d8a4)
 - [Chaining](https://www.geeksforgeeks.org/method-chaining-in-javascript/)
 - [Decorator](https://javascript.info/call-apply-decorators)
 - Scheduling
