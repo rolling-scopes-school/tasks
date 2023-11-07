@@ -13,6 +13,7 @@
 - [Видео](https://youtube.com/playlist?list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC)
 
 ## Практика
+
 - Вам необходимо пройти тест "TS Advanced" в RS APP > Auto Test
 
 ## Дополнительные материалы:

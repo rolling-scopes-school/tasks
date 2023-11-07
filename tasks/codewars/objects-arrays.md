@@ -1,16 +1,17 @@
 # Codewars ["Обьекты и массивы в JavaScript"](https://github.com/rolling-scopes-school/tasks/blob/master/stage0/modules/objects-and-arrays)
 
-* (7 kyu) https://www.codewars.com/kata/find-the-stray-number
-* (7 kyu) https://www.codewars.com/kata/euclidean-distance-in-n-dimensions
-* (6 kyu) https://www.codewars.com/kata/create-phone-number
-* (7 kyu) https://www.codewars.com/kata/bubblesort-once
-* (7 kyu) https://www.codewars.com/kata/sort-with-arrow-functions
-* (7 kyu) https://www.codewars.com/kata/whos-online
-* (7 kyu) https://www.codewars.com/kata/homogenous-arrays
+- (7 kyu) https://www.codewars.com/kata/find-the-stray-number
+- (7 kyu) https://www.codewars.com/kata/euclidean-distance-in-n-dimensions
+- (6 kyu) https://www.codewars.com/kata/create-phone-number
+- (7 kyu) https://www.codewars.com/kata/bubblesort-once
+- (7 kyu) https://www.codewars.com/kata/sort-with-arrow-functions
+- (7 kyu) https://www.codewars.com/kata/whos-online
+- (7 kyu) https://www.codewars.com/kata/homogenous-arrays
 
 ## Как сабмитить задание
+
 Codewars - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Objects & Arrays**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Objects & Arrays**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
@@ -18,9 +19,9 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 8 kyu and 7 kyu tasks (6 tasks at all)
-*  4 points - 6 kyu (1 at all)
+- 1 point for 8 kyu and 7 kyu tasks (6 tasks at all)
+- 4 points - 6 kyu (1 at all)
 
-Total: 1 * 6 + 4 * 1 = 10
+Total: 1 _ 6 + 4 _ 1 = 10
 
 **Total sum - 10 points.**

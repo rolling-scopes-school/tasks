@@ -1,0 +1,23 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "Эт8avaScript / Front-end, проводимый сообществом с 2013 года. В RS School может учиться каждый, независимо от возраста, профессии, места жительства. Новый набор студентов стартует каждые полгода и насчитывает около 6000-7000 человек. Для продуктивного обучения студентам помогают 250+ менторов.",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "ci:format": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/tasks.git"
+  },
+  "author": "dzmitry-varabei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/tasks/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/tasks#readme"
+}

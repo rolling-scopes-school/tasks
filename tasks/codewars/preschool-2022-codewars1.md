@@ -3,28 +3,26 @@
 1. Запись лекции по [основам Codewars и алгоритмическим задачам](https://youtu.be/m2SwEM1EISQ?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Как сабмитить задание
+
 Codewars - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 1**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 1**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
 Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания **Codewars Part 1** в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
-
 ## Scoring criteria
 
-*  2 point for 8, 7 kyu and Beta tasks (25 tasks at all)
+- 2 point for 8, 7 kyu and Beta tasks (25 tasks at all)
 
-Total: 2 * 25  = 50
+Total: 2 \* 25 = 50
 
 **Total sum - 50 points.**
-
 
 ## Материалы
 
 - [Числа](https://learn.javascript.ru/number)
 - [Строки](https://learn.javascript.ru/string)
-
 
 ## Практика
 

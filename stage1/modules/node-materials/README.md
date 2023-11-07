@@ -1,4 +1,5 @@
 ## Node.js
+
 ![Node.js logo](node/images/node-logo.jpg)
 
 **Node.js** — среда выполнения JavaScript вне браузера.
@@ -14,30 +15,31 @@ Node.js используется для создания веб-серверов
 К относительным недостаткам Node.js можно отнести то, что он несколько хуже подходит для решения задач, требующих интенсивных вычислений (хотя с появлением `worker threads` ситуация значительно улучшилась).
 
 ## Содержание
+
 1. [Начало работы](node/node-introduction.md)
 2. [Операции ввода/вывода](node/node-io.md)
 3. [Стандартные потоки ввода/вывода](node/node-stdio.md)
 4. [Аргументы командной строки](node/node-argv.md)
 5. [Доступ к файловой системе](node/node-fs-access.md)
 6. [Модули](node/node-module.md)
-    - [модуль path](node/module/path.md)
-    - [модуль fs](node/module/fs.md)
-    - [модуль os](node/module/os.md)
-    - [модуль http](node/module/http.md)
-    - [модули, устанавливаемые через npm](node/module/npm-module.md)
-    - [создание собственных модулей](node/module/create-module.md)
+   - [модуль path](node/module/path.md)
+   - [модуль fs](node/module/fs.md)
+   - [модуль os](node/module/os.md)
+   - [модуль http](node/module/http.md)
+   - [модули, устанавливаемые через npm](node/module/npm-module.md)
+   - [создание собственных модулей](node/module/create-module.md)
 7. [События](node/events.md)
 8. [Потоки](node/stream.md)
-    - [поток чтения](node/stream-readable.md) 
-    - [поток записи](node/stream-writable.md)
-    - [объединение потоков](node/stream-pipes.md)
+   - [поток чтения](node/stream-readable.md)
+   - [поток записи](node/stream-writable.md)
+   - [объединение потоков](node/stream-pipes.md)
 9. [Проекты](node/projects/projects.md)
-    - [приложение для заметок](node/projects/notes.md)
-    - [приложение Таймер](node/projects/timer.md)
-    - [приложение Github](node/projects/github-app.md)
+   - [приложение для заметок](node/projects/notes.md)
+   - [приложение Таймер](node/projects/timer.md)
+   - [приложение Github](node/projects/github-app.md)
 
-    
 ## Материалы
+
 - [Введение в node.js](http://imnotgenius.com/vvedeniya-v-node-js/)
 - [Гайд по Node.js](https://nodejsdev.ru/guide/)
 - [Скринкаст по Node.js](https://learn.javascript.ru/screencast/nodejs)
