@@ -17,9 +17,11 @@
 - Blocking vs Non-blocking I/O
 
 ## Estimated time to complete the module
+
 17 hours
 
-## Theory 
+## Theory
+
 - [[RU] Lecture about Node.js basics (2022Q2)](https://www.youtube.com/watch?v=oXoSeVbXX_M)
 - [[RU] Lecture about Node.js basics (previous)](https://youtu.be/dcdjTqKV2_Q)
 - [[RU] Lecture about debug](https://youtu.be/BP2I6VblN8U)
@@ -44,6 +46,8 @@
 - [Blocking vs Non-blocking I/O](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 
 ## Practice
+
 1. Assignment: **Node.js basics**
-  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
-  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/score.md)
+
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/score.md)

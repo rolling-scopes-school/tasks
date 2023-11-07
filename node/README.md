@@ -11,7 +11,8 @@
 
 ## Prerequisites
 
-Before the start of the course, the student must:  
+Before the start of the course, the student must:
+
 - Have good knowledge of JavaScript
 - Have basic knowledge of Git, Github
 - Have basic knowledge of TypeScript
@@ -36,17 +37,21 @@ Before the start of the course, the student must:
 ## Course program
 
 ### Week 1
+
 - [Module "Node.js installation and configuration"](modules/nodejs-installation/README.md)
 - [Module "Node.js basics"](modules/nodejs-basics/README.md)
 
 ### Week 2
+
 - [Module "Node.js application"](modules/nodejs-application/README.md)
 
 ### Week 3
+
 - [Module "Network communication: HTTP"](modules/crud-api/README.md)
 - [Module "Testing basics"](modules/testing/README.md)
 
 ### Week 4
+
 - [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
 ### Week 5
@@ -54,12 +59,15 @@ Before the start of the course, the student must:
 - [Module "GraphQL basics"](modules/graphql/README.md)
 
 ### Week 6
+
 - [Module "REST service"](modules/rest/rest/README.md)
 
 ### Week 7, Week 8
+
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
 - [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 
 ### Week 9
+
 - [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
 - [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)

@@ -13,7 +13,7 @@ For all other resolutions up to 380px, ensure:
 - The layout is adaptive and responsive.
 - All page content is preserved.
 - Image proportions are maintained.
-- No white spaces are present to the right of the blocks.  
+- No white spaces are present to the right of the blocks.
 
 To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
