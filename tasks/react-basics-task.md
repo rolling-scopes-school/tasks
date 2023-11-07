@@ -10,11 +10,10 @@ This documnet contatins all nessesary use-case and functional requirements
 
 1. Client side:
 
-
-    - React JS 16+
-    - React Roter 4
-    - Styled Components (Optional)
-    - Whatever you want
+   - React JS 16+
+   - React Roter 4
+   - Styled Components (Optional)
+   - Whatever you want
 
 ## References:
 

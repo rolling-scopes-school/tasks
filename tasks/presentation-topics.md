@@ -5,8 +5,7 @@
 > Using topics like "Introduction to React" is **highly discouraged**, please give preference to narrower and more interesting topics for listeners.
 > Also, simple copying of documentation is not the best approach to preparing an engaging presentation. Please be creative :)
 
-WebPlatform:
-===========================
+# WebPlatform:
 
 - Audio API
 - Video API
@@ -22,8 +21,7 @@ WebPlatform:
 - CSS & Shaders
 - Browser extensions API
 
-Libraries, Frameworks etc.
-===========================
+# Libraries, Frameworks etc.
 
 - D3.js
 - Electron
@@ -42,15 +40,13 @@ Libraries, Frameworks etc.
 - Material UI
 - Lodash
 
-Web Development Projects
-===========================
+# Web Development Projects
 
 - Mozilla Foundation
 - Servo
 - JerryScript
 
-Tech
-===========================
+# Tech
 
 - Blockchain
 - OpenSource movement/ideology
@@ -58,8 +54,7 @@ Tech
 - NLP (overview)
 - Machine Learning (overview)
 
-Development
-===========================
+# Development
 
 - Agile
 - Scrum
@@ -69,8 +64,7 @@ Development
 - Jira
 - GitHub features
 
-"Backend"
-===========================
+# "Backend"
 
 - MongoDB
 - RabbitMQ
@@ -86,8 +80,7 @@ Development
 - CAP theorem
 - Serverless Computing, FaaS, AWS Lambda, Google Cloud Functions, Azure Functions
 
-Misc.  
-===========================
+# Misc.
 
 - Ten Essential Unix Commands
 - Google analytics
@@ -95,15 +88,13 @@ Misc.
 - W3C committee
 - TC39 committee
 
-Security
-===========================
+# Security
 
 - OWASP Top 10
 - Cross-site request forgery
 - Cross-site scripting
 
-History
-===========================
+# History
 
 - Ada Lovelace / Charles Babbage
 - Konrad Zuse
