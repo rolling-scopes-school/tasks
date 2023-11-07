@@ -1,5 +1,9 @@
 # [Stage#1](../../) Scope and Functions
 
+## Module Overview
+
+In the "Scope and Functions" module, students explore core JavaScript concepts. They'll learn about variable scope, including global and local scopes, and delve into function mechanics — from declaration to execution. Understanding 'this' context, closures, and function timing with `setTimeout` and `setInterval` will equip learners with essential skills for advanced JavaScript programming.
+
 ## In this module, students need to study:
 
 Scope
@@ -33,11 +37,8 @@ Scope
 
 ## Additional materials
 
-- [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- [Closures in JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures)
-- [You Don't Know JS Yet: Scope & Closures - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
-- [RSSchool 2018Q1. JS scope + JS functions. [RU]](https://www.youtube.com/watch?v=c_rHAYNBotQ)
-- [RSSchool 2018Q1. JS scope + JS functions. [RU]](https://www.youtube.com/watch?v=h5o_tgEMKxY)
-- Slides
-  - https://kirilknysh.github.io/js-scope-talk/#/
-  - https://kirilknysh.github.io/js-functions-talk/#/
+- Deep Dive into Functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- Understanding Closures: [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures)
+- You Don't Know JS: Scope & Closures: [GitHub](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
+- Webinar Recordings (in Russian): [YouTube](https://www.youtube.com/watch?v=c_rHAYNBotQ), [YouTube](https://www.youtube.com/watch?v=h5o_tgEMKxY)
+- Presentation Slides: [Scope](https://kirilknysh.github.io/js-scope-talk/#/), [Functions](https://kirilknysh.github.io/js-functions-talk/#/)
