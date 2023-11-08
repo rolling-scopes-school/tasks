@@ -81,78 +81,65 @@ Please allocate at least one day to prepare. A good result on this assessment wi
 ## Learning Path for students with offer #1 & offer 2:
 We assume that students with offer#2 have good knowledge in at least 2 of the 3 key areas, are willing to fill the gaps in 2 months, have self-discipline, motivation and are willing to study without supervision. 
  
-# Week#1
+### Week#1
 
-1. AWS Cloud Practitioner Essentials
+#### 1. AWS Cloud Practitioner Essentials
 Course Duration: Approximately 6-12 hours.
 Objective: Complete the course and obtain a certificate.
 Course Link: AWS Cloud Practitioner Essentials
 Next Steps: Present the course completion certificate to Igor Nazarov.
-2. AWS Cloud Quest: Cloud Practitioner
+#### 2. AWS Cloud Quest: Cloud Practitioner
 Course Duration: 12-18 hours.
 Objective: Earn the AWS Cloud Quest: Cloud Practitioner digital badge.
 Course Link: AWS Cloud Quest: Cloud Practitioner
 Optional: You can display the badge on your LinkedIn profile.
 Next Steps: Share the badge link with Igor Nazarov.
-3. AWS Cloud Developer
+#### 3. AWS Cloud Developer
 Introduction: Watch the introductory webinar.
 Registration: Sign up on the RS APP.
 Community: Join the Discord community.
 Assignment: After completing the AWS Cloud Practitioner Essentials and AWS Cloud Quest: Cloud Practitioner courses, tackle the first week's assignment - "Cloud Introduction". It should be relatively straightforward given your prior learning.
 Course Duration: 10 weeks with a commitment of 10-16 hours per week.
-4. Please complete the survey form to provide information about your skills and other relevant details.
+#### 4. Please complete the survey form to provide information about your skills and other relevant details.
 
 # Week #2, Week #3 and following
-Continue with the RS School AWS Cloud Developer course
+#### Continue with the RS School AWS Cloud Developer course
 If you already have a mentor, please continue with the relevant course (NodeJS, Angular, etc.).
-Two options
+Two options:
 
-If you don’t have a mentor, or if you have some free time, please complete the courses from the list available at: https://e90rm.notion.site/AWS-NextGen-course-f1208e1bf58e45f29bfe162cc1d1fab3.
+1. If you don’t have a mentor, or if you have some free time, please complete the courses from the list available at: https://e90rm.notion.site/AWS-NextGen-course-f1208e1bf58e45f29bfe162cc1d1fab3.
 
 Each course from this list awards AWS Badges upon completion and will prepare you for the "AWS Certified Developer - Associate" exam. For more information, visit: https://aws.amazon.com/certification/certified-developer-associate/
 
-(Alternative Path): If you're ready to invest approximately $10-15 (depending on promotions, do not buy at full price), we and AWS employees recommend the following course: https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/. This course is specifically designed to prepare you for the "AWS Certified Developer - Associate" exam.
+2. (Alternative Path): If you're ready to invest approximately $10-15 (depending on promotions, do not buy at full price), we and AWS employees recommend the following course: https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/. This course is specifically designed to prepare you for the "AWS Certified Developer - Associate" exam.
 Mentoring Programs
 
 # Angular Mentoring Program
 
-Designed specifically for students who do not have in-depth knowledge of at least one of the JS/FE frameworks.
+- Designed specifically for students who do not have in-depth knowledge of at least one of the JS/FE frameworks.
+- Introduction: Watch the introductory webinar on Angular.
+- Registration: Enroll through the RS APP for the Angular course.
+- Community: Be part of the Discord community.
+- Course Duration: Engage in a 9-week intensive, dedicating over 20 hours each week.
+- Course Program: For a detailed curriculum, check out the GitHub - Angular Course Tasks.
 
-Introduction: Watch the introductory webinar on Angular.
-
-Registration: Enroll through the RS APP for the Angular course.
-
-Community: Be part of the Discord community.
-
-Course Duration: Engage in a 9-week intensive, dedicating over 20 hours each week.
-
-Course Program: For a detailed curriculum, check out the GitHub - Angular Course Tasks.
-
-To get a mentor, please send a DM to @dzmitry_varabei
 # NodeJS Mentoring Program
 
-Designed specifically for students who do not have in-depth knowledge of NodeJS
-
-Introduction: Begin by watching the NodeJS introductory webinar.
-
-Registration: Sign up via the RS APP for the NodeJS course.
-
-Community: Join the Discord community for NodeJS enthusiasts.
-
-Course Duration: Progress depends on your dedication and performance. Complete tasks at a pace that suits you. Assignments are evaluated both automatically and by a mentor.
-
-Course Program: GitHub - NodeJS Course Tasks.
-
-To get a mentor, please send a DM to @dzmitry_varabei
+- Designed specifically for students who do not have in-depth knowledge of NodeJS
+- Introduction: Begin by watching the NodeJS introductory webinar.
+- Registration: Sign up via the RS APP for the NodeJS course.
+- Community: Join the Discord community for NodeJS enthusiasts.
+- Course Duration: Progress depends on your dedication and performance. Complete tasks at a pace that suits you. Assignments are evaluated both automatically and by a mentor.
+- Course Program: GitHub - NodeJS Course Tasks.
 
 ## Miscellaneous
 #### Setting Priorities (for Students)
 
 When managing your time and resources, please adhere to the following priority order:
 
-Current Job Commitment: If you're currently employed, prioritize fulfilling your job responsibilities.
-Project Position: If you've been assigned a position in a new project at EPAM, that should be your next priority.
-Learning Path: If you find you have additional time or haven't been assigned a job or position, please focus on the content provided in the Learning Path of this document.
+- Current Job Commitment: If you're currently employed, prioritize fulfilling your job responsibilities.
+- Project Position: If you've been assigned a position in a new project at EPAM, that should be your next priority.
+- Learning Path: If you find you have additional time or haven't been assigned a job or position, please focus on the content provided in the Learning Path of this document.
 
 #### Communication Channel for Students and Team
 
