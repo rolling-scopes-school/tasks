@@ -41,8 +41,8 @@ The content width of 1440px should not change when resizing the browser window.
    - When scaling the browser page (<100%) or increasing the page width (>1440px), the layout of both pages is centered rather than shifted to the side and not stretched across the entire width: **+4**
    - The background color **Body** stretches across the entire width of the page: **+2**
 4. Interactivity: **+32**
-   - Navigation elements (except `Contacts`) lead to corresponding blocks on `home` page (anchor links): **+4**
-   - `Contacts` in navigation panel links to the `<footer>` block on its own page (anchor link): **+2**
+   - Navigation elements (except `Contact us`) lead to corresponding blocks on `home` page (anchor links): **+4**
+   - `Contact us` in navigation panel links to the `<footer>` block on its own page (anchor link): **+2**
    - Smooth scrolling with anchor links: **+2**
    - When clicking on the **Menu** buttons in `header` and `Enjoy` block on `home` page, it navigates to the `menu` page: **+2**
    - The **Menu** button in `header` on `menu` page is non-interactive: **+2**
