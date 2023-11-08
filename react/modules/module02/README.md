@@ -89,9 +89,9 @@ A student can achieve a maximum of 100 points.
 
 - The task should be completed in **your personal private repository**.
 - In the repository, create a branch from the **previous task** branch using the task's name and work within this newly created branch.
-- The commit history should accurately reflect the process of creating the app. Refer to [Commit requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU] for details.
-- Once development is complete, you must create a Pull Request from the app's branch to the `main` branch. Refer to [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU] for details.
-- after completing the module, private repository should be exposed for the duration of the cross-check (please check the schedule), when the cross-check is finished, repository should be made private again
+- The commit history should reflect the process of creating the app. Refer to [Commit requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU] for details.
+- Once development is complete, you need to create a Pull Request from the current task branch to the previous task branch. Refer to [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU] for details.
+- After completing the module, private repository should be exposed for the duration of the cross-check (please check the schedule). When the cross-check is finished, repository should be made private again.
 
 **Do not merge the Pull Request from the development branch to the `main` branch.**
 
