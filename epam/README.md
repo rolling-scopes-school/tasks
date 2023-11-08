@@ -1,7 +1,7 @@
 # RS School JS-XStack-LAB
 
 #### JS-XStack-LAB Targets
-- 2024: Prepare and move to production 100 junior developers in the GUKKA region.
+- 2024: Prepare and move to production 100 junior developers in the GUKKA region. Hiring in Hungary, Poland, Romania, Bulgaria, Serbia also possible, but candidates must have all necessary documents for legal employment (work permit, residence permit, etc.). 
 - 2023Q4-2024Q1: Prepare and move to production 20 junior developers in the GUKKA region.
 
 #### JS-XStack-LAB Candidate Sources:
@@ -148,6 +148,8 @@ Microsoft Teams serves as our primary means of communication. For any inquiries 
 ### TODO
 - Request AWS Exam coupons @Dzmitry Varabei 
 - Call for interviewers/mentors @Dzmitry Varabei
-- Refactor JavaScript Skill Matrix @Valery Dluski 
+- Refactor JavaScript Skill Matrix @Valery Dluski
+- DevOps learning path @Dzmitry Varabei  
+
 
 
