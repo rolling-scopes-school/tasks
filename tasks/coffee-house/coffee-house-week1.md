@@ -4,7 +4,7 @@
 
 - [Detailed Description](coffee-house.md)
 
-You need to create `home` and `menu` pages according to the [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group.  
+You need to create `home` and `menu` pages according to the [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) - **only \[D\] Home** and **\[D\] Menu \[1440\] > Coffee** in **\[D\] Desktop 1440px** group.
 The content width of 1440px should not change when resizing the browser window.
 
 [Prototype in Figma](https://www.figma.com/proto/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?page-id=0%3A1&type=design&node-id=216-1349&viewport=875%2C385%2C0.03&t=rqlxorgzq8m3fnhO-1&scaling=min-zoom&starting-point-node-id=216%3A1349)
@@ -17,7 +17,7 @@ The content width of 1440px should not change when resizing the browser window.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
 5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
 6. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `coffee-house` branch into `gh-pages` branch. The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. Once you have completed your work, open a Pull Request from the `coffee-house` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
+7. Once you have completed your work, open a Pull Request from the `coffee-house` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
    There is no need to merge this Pull Request.
 8. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
 9. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
@@ -25,7 +25,7 @@ The content width of 1440px should not change when resizing the browser window.
 ### CrossCheck Criteria (100 points)
 
 1. Checking validation of pages: **+16**
-   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)  
+   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)
      Valid markup of checked page corresponds to the message "Document checking completed. No errors or warnings to show." In this case, we assign the full points for the checked page (+6). If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
    - Favicon is added to each page: **+4**
 2. The layout matches the design: **+42**
@@ -41,8 +41,8 @@ The content width of 1440px should not change when resizing the browser window.
    - When scaling the browser page (<100%) or increasing the page width (>1440px), the layout of both pages is centered rather than shifted to the side and not stretched across the entire width: **+4**
    - The background color **Body** stretches across the entire width of the page: **+2**
 4. Interactivity: **+32**
-   - Navigation elements (except `Contact us`) lead to corresponding blocks on `home` page (anchor links): **+4**
-   - `Contact us` in navigation panel links to the `<footer>` block on its own page (anchor link): **+2**
+   - Navigation elements (except `Contacts`) lead to corresponding blocks on `home` page (anchor links): **+4**
+   - `Contacts` in navigation panel links to the `<footer>` block on its own page (anchor link): **+2**
    - Smooth scrolling with anchor links: **+2**
    - When clicking on the **Menu** buttons in `header` and `Enjoy` block on `home` page, it navigates to the `menu` page: **+2**
    - The **Menu** button in `header` on `menu` page is non-interactive: **+2**
@@ -63,7 +63,7 @@ The content width of 1440px should not change when resizing the browser window.
 
 **Maximum score for the task: 100 points**
 
-The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.  
+The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.
 Penalties are outlined in the [Penalties](#penalties) section.
 
 Any disputed issues should be resolved in favor of the student being assessed.
