@@ -48,9 +48,6 @@
 - [Babadum](https://babadum.com/)
 - [Busuu](https://www.busuu.com/ru)
 
-### Видеокурсы
-
-- [Материалы уроков Полиглот с упражнениями](https://www.english-polyglot.com/)
 
 ### Карточки Anki
 
