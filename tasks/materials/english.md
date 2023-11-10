@@ -62,7 +62,7 @@
 - [Engvid with Alex](https://www.youtube.com/@engvidAlex)
 - [Engvid with Ronnie](https://www.youtube.com/@engvidRonnie)
 - [Rachels english](https://www.youtube.com/@rachelsenglish)
-- [Phonetic Fanatic](https://www.youtube.com/@PhoneticFanatic/)
+- [Phonetic Fanatic](https://www.youtube.com/@PhoneticFanatic)
 
 ### Адаптированные книги и видео
 
