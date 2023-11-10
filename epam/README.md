@@ -92,8 +92,6 @@ Please allocate at least one day to prepare. A good result on this assessment wi
 
 We assume that students with offer#2 have good knowledge in at least 2 of the 3 key areas, are willing to fill the gaps in 2 months, have self-discipline, motivation and are willing to study without supervision.
 
-
-
 ### Week#1
 
 #### 1. AWS Cloud Practitioner Essentials
