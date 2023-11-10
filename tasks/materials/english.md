@@ -59,6 +59,10 @@
 - [Learn English with Bob the Canadian](https://www.youtube.com/channel/UCZJJTxA36ZPNTJ1WFIByaeA)
 - [English with Lucy](https://www.youtube.com/c/EnglishwithLucy)
 - [Бесплатный репетитор](https://www.youtube.com/channel/UCcnjJu-ejZlLaz-OwpBd7dQ)
+- [Engvid with Alex](https://www.youtube.com/@engvidAlex)
+- [Engvid with Ronnie](https://www.youtube.com/@engvidRonnie)
+- [Rachels english](https://www.youtube.com/@rachelsenglish)
+- [Phonetic Fanatic](https://www.youtube.com/@PhoneticFanatic/)
 
 ### Адаптированные книги и видео
 
