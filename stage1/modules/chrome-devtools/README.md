@@ -1,5 +1,9 @@
 # [Stage#1.](../../) Chrome DevTools
 
+## Module Overview
+
+In the "Chrome DevTools" module, students explore the comprehensive toolset for web development and debugging. Students navigate the Elements tab for real-time HTML and CSS tweaks, while the Console tab sharpens logging and debugging expertise. With the Sources tab, they explore application structure and code analysis, and the Network tab illuminates the understanding of network requests. Wrapping up with the Application tab, students delve into manipulating local storage, cookies, and an optional peek into session storage.
+
 ## In this module, students need to study:
 
 - Elements tab:
