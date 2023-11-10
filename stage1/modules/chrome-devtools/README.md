@@ -1,47 +1,47 @@
 # [Stage#1.](../../) Chrome DevTools
 
-## В данном модуле студентам необходимо изучить:
+## In this module, students need to study:
 
-- Вкладка Elements:
-  - нахождение HTML-элемента в DOM-дереве
-  - просмотр и динамическое(но временное) изменение HTML-структуры документа
-  - Просмотр и динамическое(но временное) изменение стилей DOM-элемента
-  - Нахождение в файле стилей (вкладка Source) определенного стиля
-  - Просмотр результирующих стилей, которые применились к HTML-элементу
-- Вкладка Console:
-  - виды логов из js-файла, которые рендерятся во вкладке Сonsole - console.log(), console.info(), console,error().
-  - переход из консоли в строку в файл скрипта(вкладка Source) к источнику лога.
-  - сохранение/очищение логов между перезагрузками страницы
-- Вкладка Source:
-  - просмотр конечной структуры веб-приложения
-  - просмотр содержимого файлов из структуры в подвкладке Page
-  - приведение в читаемый вид содержимого файла при необходимости
-  - точки останова в скрипте
-  - переход между точками останова и пошаговый просмотр выполнения кода
-  - просмотр областей видимости точек основа, текущего состояния переменных
-- Вкладка Network:
-  - просмотр запросов
-  - фильтрация запросов по типам
-  - сохранение/очищение логов запросов между перезагрузками страницы
-  - просмотр информации о запросе - подвкладки Header, Preview, Response, остальное - опционально.
-  - подвкладка Header. Уметь читать информацию:
-    - url запроса
-    - метод запроса
-    - статус запроса
-    - payload запроса (request body или query параметры)
-  - подвкладки Preview, Response
-    - содержимое ответа на запрос
-- Вкладка Application
-  - просмотр и манипуляции с Local Storage (Cookies, Session Storage опционально)
+- Elements tab:
+  - The position of HTML elements in the DOM Tree
+  - View and dynamically (but temporarily) change HTML structure of a document
+  - View and dynamically (but temporarily) change the DOM element's styles
+  - Locate specific styles within a style file (Sources tab)
+  - Review the resulting styles applied to HTML element
+- Console tab:
+  - Understand different types of JavaScript logs displayed in the Console panel: console.log(), console.info(), console,error().
+  - Navigate from the console to the corresponding log source in the script file (Source tab)
+  - Manage log storage: save or clear logs between page reloads
+- Sources tab:
+  - View the final structure of the web application
+  - Explore file content within the Page tab
+  - Make the file content more readable if necessary
+  - What is breakpoints and why do we need them 
+  - Navigate between breakpoints and step through the code
+  - Inspect the scope and check variable values at specific moments
+- Network tab:
+  - Review and analyze network requests
+  - Filter requests by type
+  - Manage request logs: save or clear logs between page reloads
+  - Inspect request information (Headers, Preview, Response tabs, the rest is optional)
+  - Headers tab. Be able to find the information:
+    - request URL
+    - request method
+    - request status
+    - request payload (request body or query parameters)
+  - Preview, Response tabs
+    - Review response content
+- Application tab
+  - Explore and modify Local Storage (Cookies, Session Storage is optional)
 
-## Приблизительное время прохождения модуля
+## Approximate module completion time:
 
-2 часа
+2 hours
 
-## Теория
+## Theory
 
-- [Видео лекция по Chrome DevTools](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1,5 часа
+- Webinar Recordings (in Russian): [Chrome DevTools](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1,5 hours
 
-## Практика
+## Practice
 
-1. Вам необходимо пройти тест "DevTools Test" в RS APP > Auto Test
+1. You need to take the "DevTools Test" test in RS APP > Auto Test
