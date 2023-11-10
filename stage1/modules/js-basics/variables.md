@@ -14,7 +14,7 @@
 ## Theory
 
 - [detailed article](https://javascript.info/variables) (~15 min)
-- [detailed article](https://www.freecodecamp.org/news/how-to-declare-variables-in-javascript/) of differences between existed ways of variable declaration and hoisting (~ 15 min)
+- [detailed article](https://www.freecodecamp.org/news/how-to-declare-variables-in-javascript/) of differences between variable declaration, reassignment, scope and hoisting (~ 20 min)
 
 ## Practice
 
