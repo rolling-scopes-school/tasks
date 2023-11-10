@@ -95,9 +95,8 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 
 - **Do not press "Merge"!**
 
-16. Go to "RS App," then the "Auto-Test" tab. Choose the "Markdown & Git" task and click the "Submit" button.
+16. Go to "RS App," then the "Auto-Test" tab. At the time of reading this article, the interface has changed so when you go to auto-tests, you select a specific task, in this case CV#1 and just click "start task" and then "submit" .The empty window will be filled with your result, the school bot itself will find your repository by the name you specified during registration and check it out.
 
-![Step 16](https://i.ibb.co/rx18n8z/image.png)
 
 ## Moving on to the Second Task: HTML, CSS & Git Basics
 
