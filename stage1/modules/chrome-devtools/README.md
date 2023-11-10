@@ -1,5 +1,7 @@
 # [Stage#1.](../../) Chrome DevTools
+
 ## В данном модуле студентам необходимо изучить:
+
 - Вкладка Elements:
   - нахождение HTML-элемента в DOM-дереве
   - просмотр и динамическое(но временное) изменение HTML-структуры документа
@@ -32,12 +34,14 @@
 - Вкладка Application
   - просмотр и манипуляции с Local Storage (Cookies, Session Storage опционально)
 
-
 ## Приблизительное время прохождения модуля
+
 2 часа
 
-## Теория 
+## Теория
+
 - [Видео лекция по Chrome DevTools](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1,5 часа
 
-## Практика 
+## Практика
+
 1. Вам необходимо пройти тест "DevTools Test" в RS APP > Auto Test

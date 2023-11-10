@@ -8,10 +8,12 @@
 - Testing nested components.
 
 ## Approximate time to complete this module:
+
 Theory - 2 hours  
 Practice - 4 hour
 
-## Theory 
+## Theory
+
 - [Lecture](https://youtu.be/DCw-JBll2u0?t=2201)
 - [Examples from video](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-unit-testing)
 - [TODO List app](https://github.com/pavelrazuvalau/todo-list-management)
@@ -25,9 +27,11 @@ Practice - 4 hour
 - [Testing services](https://angular.io/guide/testing-services)
 
 ## Practical assignment
+
 - [Angular. Unit testing with Jest](../../../tasks/angular/unit-testing-jest.md)
 
 ## Additional materials
+
 - [Testing](https://angular.io/guide/testing)
 - [Key qualities of a good unit test](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Unit testing in JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)

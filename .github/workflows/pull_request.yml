@@ -1,0 +1,29 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [master]
+
+concurrency:
+  group: pr_${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr_format:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Format
+        run: |
+          npm run ci:format

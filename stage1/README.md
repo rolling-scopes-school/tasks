@@ -113,7 +113,7 @@
 
 - Modules:
 
-  - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
+  - [Module: "Responsive Web Design"](modules/responsive-web-design/)
   - [Module: "Media Queries"](modules/media-queries/)
 
 - Tasks:

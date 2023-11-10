@@ -20,17 +20,17 @@ YouTube API for requesting data in the app.
 #### Functional requirements
 
 - **Global search functionality**
-    - remove the *Search* button. Now we're going to invoke the search logic once the user types something
-    - in order not to spam our API, create a new Observable in your component and emit changes until the user enters at
-      least 3 characters
-    - add debounce functionality to prevent API calls from being performed if the user is still typing.
+  - remove the _Search_ button. Now we're going to invoke the search logic once the user types something
+  - in order not to spam our API, create a new Observable in your component and emit changes until the user enters at
+    least 3 characters
+  - add debounce functionality to prevent API calls from being performed if the user is still typing.
 - **Login block**
-    - create a new Observable in the **Login service** that will emit a boolean which indicates whether the user is
-      logged in or not.
-    - show the "Login" and "Logout" button if the user is logged out / logged in
+  - create a new Observable in the **Login service** that will emit a boolean which indicates whether the user is
+    logged in or not.
+  - show the "Login" and "Logout" button if the user is logged out / logged in
 - **HTTP requests and YouTube API**
-    - remove the mocked response from your project and use a service that is created in the **YouTube module**.
-    - use the HTTP interceptor to shorten request URLs in your services and pass your access token.
+  - remove the mocked response from your project and use a service that is created in the **YouTube module**.
+  - use the HTTP interceptor to shorten request URLs in your services and pass your access token.
 
 #### Evaluation criteria
 
@@ -45,7 +45,7 @@ Maximum score - **100**
 Fines
 
 - [ ] Failure to submit on time may lead to points lose according to
-  the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+      the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app still contains mocked data (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)

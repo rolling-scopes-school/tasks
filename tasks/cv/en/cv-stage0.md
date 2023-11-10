@@ -34,30 +34,30 @@ In this task, you are required to create a CV webpage. The content of this webpa
 
 - The student submits a link to their CV deployed on `gh-pages` in the [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2022q2) (+10 points).
 - Valid markup (+10 points).
-   - Use the [https://validator.w3.org/](https://validator.w3.org/) service to check validity.
-   - Valid markup should display "Document checking completed. No errors or warnings to show." Full points for meeting this requirement.
-   - If there are warnings (warnings) but no errors (errors), half of the points for this requirement are awarded.
+  - Use the [https://validator.w3.org/](https://validator.w3.org/) service to check validity.
+  - Valid markup should display "Document checking completed. No errors or warnings to show." Full points for meeting this requirement.
+  - If there are warnings (warnings) but no errors (errors), half of the points for this requirement are awarded.
 - Semantic markup (+20 points).
-   - The following elements are present and used as intended in the code:
-     - `header`, `main`, `footer` (+5 points).
-     - `nav` element (+5 points).
-     - Only one `h1` heading (+5 points).
-     - `h2` headings (+5 points).
+  - The following elements are present and used as intended in the code:
+    - `header`, `main`, `footer` (+5 points).
+    - `nav` element (+5 points).
+    - Only one `h1` heading (+5 points).
+    - `h2` headings (+5 points).
 - Footer includes a link to the author's GitHub, the year of creation, the [course logo](https://rs.school/images/rs_school_js.svg), and a [link to the course](https://rs.school/js/) (+10 points).
-   - If the link in the footer leads to the [stage0 course](https://rs.school/js-stage0/), it is not considered an error.
+  - If the link in the footer leads to the [stage0 course](https://rs.school/js-stage0/), it is not considered an error.
 - CSS styles are used for formatting the CV (+10 points).
 - When the browser window is resized, the formatting remains centered horizontally rather than shifting to the side (+10 points).
 - The CV page includes a photo or avatar of the author, with no distortion of proportions, and with an `alt` attribute for the image (+10 points).
 - Navigation, contact information, and a list of skills are formatted as a list (`ul > li` or `ul > li > a`) (+10 points).
-   - Numbered lists (`ol > li` or `ol > li > a`) are also allowed.
+  - Numbered lists (`ol > li` or `ol > li > a`) are also allowed.
 - Content of the CV (+30 points).
-   - The CV includes:
-     - A brief self-introduction (+5 points).
-     - Contact information (+5 points).
-     - A list of skills (+5 points).
-     - A code example. Code is added using characters and tags, not as an image (+5 points).
-     - A list of completed educational projects with links to source code or the application page (+5 points).
-     - Information about education and English proficiency (+5 points).
+  - The CV includes:
+    - A brief self-introduction (+5 points).
+    - Contact information (+5 points).
+    - A list of skills (+5 points).
+    - A code example. Code is added using characters and tags, not as an image (+5 points).
+    - A list of completed educational projects with links to source code or the application page (+5 points).
+    - Information about education and English proficiency (+5 points).
 - The CV is written in English (+10 points).
 
 The difference between the maximum score for the task (130 points) and the maximum possible score for meeting all requirements (120 points) allows for potential discrepancies in cross-checking, inaccuracies in the task description, differing interpretations of requirements by reviewers and those being reviewed.
