@@ -30,7 +30,7 @@ To find the link to your previously published CV (and add it to the third point 
 ## How to Submit the Assignment
 
 - After completing the task, go to the [RS App](https://app.rs.school/), select **Auto-Test**, choose the task's name, click **Open task**, click **Submit task**.
-The results (score, accuracy, details) may not appear immediately and could take some time to process. If you see zeros and blanks after submitting, you can refresh the results page to update them.The results (score, accuracy, details) may not appear immediately and could take some time to process. If you see zeros and blanks after submitting, you can refresh the results page to update them.
+The results (score, accuracy, details) may not appear immediately and could take some time to process. If you see zeros and blanks after submitting, you can refresh the results page to update them.
 - You can submit the assignment as many times as you like before the deadline, and each subsequent submission will overwrite the previous one.
 - Note: If you encounter the error "Error: Temporary Github Error. Cannot get commits. Please try in 10 mins." when submitting, it means the system is overloaded and cannot retrieve information about your commits from GitHub (request limit reached). You don't need to fix anything; just try submitting the assignment again later, repeating your attempts until successful or until the deadline, whichever comes first.
 
