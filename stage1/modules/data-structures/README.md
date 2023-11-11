@@ -1,48 +1,50 @@
-# Тема модуля: Алгоритмы и Структуры Данных (часть 1)
+# Module Topic: Algorithms and Data Structures (Part 1)
+## Module content:
+1. Introduction to algorithm efficiency metric (Big O notation).
+2. Introduction to basic data structures.
+3. Typical problems with arrays and matrices.
+4. Introduction to Stack and Queue data structures.
+5. Data structures with pointers.
+6. Introduction to Linked Lists.
+7. Introduction to Tree data structure based on the example of a BST (Binary Search Tree).
 
-## Содержание модуля:
+## Theory 
+1. You need to watch video materials about the most popular and frequently used data structures and typical problems associated with them
+    - [RU] [Video lecture: Array](https://youtu.be/Jvm4ShU86yw) - 15 min
+    - [RU] [Video lecture: Matrix](https://youtu.be/r8uHNxrfCwc) - 30 min
+    - [RU] [Video lecture: Stack](https://youtu.be/TqlSlaMak8Y) - 20 min
+    - [EN] [Youtube video: Array](https://youtu.be/txjmvEPlAtU?si=Y2sO3jcBcwR5NjLi) - 10 min
+    - [EN] [Youtube video: Matrix / part 1](https://youtu.be/CDpJ4PIWAlE?si=jgFFSNyyZOKOiPY8), [Youtube video: Matrix / part 2](https://youtu.be/ajSXu2D2gzg?si=342sreFA-oqZcEQg) - 30 min
+    - [EN] [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
+2. Read:
+    - [RU] [Notes: Algorithms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md) 
+3. You need to watch video materials about data structures with pointers
+    - [RU] [Video lecture: Linked List](https://youtu.be/NpcHTBOAId0) - 25 min
+    - [RU] [Video lecture: Binary Search Tree](https://youtu.be/fnqUD4FTE5Q) - 40 min
+    - [EN] [Youtube video: Linked Lists](https://www.youtube.com/watch?v=ChWWEncl76Y) - 15 min
+    - [EN] [Youtube video: Binary Search Tree](https://www.youtube.com/watch?v=6JeuJRqKJrI) - 20 min
 
-1. Познакомимся с характеристикой сложности алгоритма (Big O notation)
-2. Познакомимся с простейшими структурами данных.
-3. Рассмотрим типичные задачи с массивами и матрицами.
-4. Познакомимся со структурой данных Стек и Очередь.
-5. Рассмотрим структуры данных с указателями.
-6. Познакомимся со структурой данных Связный список.
-7. Познакомимся со структурой данных Дерево на примере Бинарного Поискового Дерева (BST - Binary Search Tree).
+## Practice 
+You need to solve the proposed algorithmic tasks.
+Attention! 
+* It is not expected for students to solve all of the tasks.
+* Copying code from other students (current or previous cohorts) is not allowed.
+* Think carefully before submitting someone else's code; is it worth the risk of being expelled for 3% of the total grade?
 
-## Теория
+### Test
+You need to complete the "Test Algorithms & Data structures" in RS APP > Auto Test
 
-1. Вам необходимо просмотреть видео-материалы про наиболее популярные и часто используемые структуры данных и типичные задачи с ними (2 часа)
-   - [Массив](https://youtu.be/Jvm4ShU86yw)
-   - [Матрица](https://youtu.be/r8uHNxrfCwc)
-   - [Стек](https://youtu.be/TqlSlaMak8Y)
-2. Прочитать [конспект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md)
-3. Вам необходимо просмотреть видео-материалы про структуры данных, которые построены на указателях (2 часа)
-   - [Связный список](https://youtu.be/NpcHTBOAId0)
-   - [Бинарное поисковое дерево](https://youtu.be/fnqUD4FTE5Q)
+Tasks:  
+- [Tasks: "basic-js-ds"](https://github.com/AlreadyBored/basic-js-ds)
+- [Tasks: "basic-js"](https://github.com/AlreadyBored/basic-js)
+    - Complete as many tasks as you can.
 
-## Практика
-
-Вам необходимо решить предложенные задачи.
-Внимание!
-
-- Не ожидается, что студенты успеют решить все алгоритмические задачи.
-- Запрещено копировать код других студентов (текущего, а также предыдущих наборов).
-- Хорошо подумайте перед сабмитом чужого кода, стоит ли риск быть отчисленным за 3% баллов.
-
-### Teст
-
-Вам необходимо пройти тест "Test Algorithms & Data structures" в RS APP > Auto Test
-
-Задачи:
-
-- [Задачи: "basic-js-ds"](https://github.com/AlreadyBored/basic-js-ds)
-- [Задачи: "basic-js"](https://github.com/AlreadyBored/basic-js)
-  - Выполните столько, сколько успеете.
-
-## Дополнительные материалы
-
-1. Больше методов массива: [видео на YouTube](https://youtu.be/d8c-JgbpMHs), [документация MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
-2. Интересные обходы массивов: [видео на YouTube](https://youtu.be/jM7aTyncf8Y)
-3. Оценка сложности алгоритма: [ссылка 1](https://tproger.ru/articles/computational-complexity-explained/), [ссылка 2](https://tproger.ru/translations/algorithms-and-data-structures/)
-4. [Big O нотация и AT](https://www.youtube.com/watch?v=luExFPwQVOY)
+## Additional resources
+1. [RU] [Video lecture: More array methods](https://youtu.be/d8c-JgbpMHs), [MDN documentation](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
+2. [RU] [Video lecture: Interesting array traversals](https://youtu.be/jM7aTyncf8Y)
+3. [RU] Algorithm complexity analysis: [source 1](https://tproger.ru/articles/computational-complexity-explained/), [source 2](https://tproger.ru/translations/algorithms-and-data-structures/)
+4. [RU] [Video lecture: Big O notation and AT](https://www.youtube.com/watch?v=luExFPwQVOY)
+5. [EN] [Practice-based course: Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
+6. [EN] [Youtube video: Big O notation](https://youtu.be/3yUuo7TqMW8?si=00nLTn2st0Ntxgx7)
+7. [EN] [Iterating Over an Array](https://javascript.plainenglish.io/understanding-the-different-ways-of-iterating-over-an-array-in-javascript-26851399c531)
+8. [EN] [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
