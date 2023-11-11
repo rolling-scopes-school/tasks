@@ -48,10 +48,6 @@
 - [Babadum](https://babadum.com/)
 - [Busuu](https://www.busuu.com/ru)
 
-### Видеокурсы
-
-- [Материалы уроков Полиглот с упражнениями](https://www.english-polyglot.com/)
-
 ### Карточки Anki
 
 - [Учебник "4000 Essential English Words"](https://www.essentialenglish.review/apps/4000-essential-english-words-1/unit-1-the-lion-and-the-rabbit/#0)
@@ -63,6 +59,11 @@
 - [Learn English with Bob the Canadian](https://www.youtube.com/channel/UCZJJTxA36ZPNTJ1WFIByaeA)
 - [English with Lucy](https://www.youtube.com/c/EnglishwithLucy)
 - [Бесплатный репетитор](https://www.youtube.com/channel/UCcnjJu-ejZlLaz-OwpBd7dQ)
+- [Engvid with Alex](https://www.youtube.com/@engvidAlex)
+- [Engvid with Ronnie](https://www.youtube.com/@engvidRonnie)
+- [Rachels english](https://www.youtube.com/@rachelsenglish)
+- [Phonetic Fanatic](https://www.youtube.com/@PhoneticFanatic)
+- [Английский по плейлистам - уроки для начинающих с нуля](https://www.youtube.com/playlist?list=PLD6SPjEPomatGZyaYOV1SOzS0MpIjc2oV)
 
 ### Адаптированные книги и видео
 
