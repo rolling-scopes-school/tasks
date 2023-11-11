@@ -10,17 +10,16 @@ In the "Chrome DevTools" module, students explore the comprehensive toolset for 
   - [The position of HTML elements in the DOM Tree](https://developer.chrome.com/docs/devtools/dom/#view)
   - [Inspect and temporarily modify the HTML structure of a document](https://developer.chrome.com/docs/devtools/dom/#content)
   - [Inspect and temporarily modify the DOM element's styles](https://developer.chrome.com/docs/devtools/css/#view)
-  - [Locate specific styles within a style file (Sources tab)](https://developer.chrome.com/docs/devtools/css/#declarations)
+  - [Locate specific styles within a style file (Sources tab)](https://irishdotnet.dev/fridaydevtip-find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
   - [Review the resulting styles applied to HTML element](https://developer.chrome.com/docs/devtools/css/issues/#css-in-computed)
 - [Console tab](https://developer.chrome.com/docs/devtools/console/):
-  - Understand different types of JavaScript logs displayed in the Console panel: [console.log()](https://developer.chrome.com/docs/devtools/console/api/#log), [console.info()](https://developer.chrome.com/docs/devtools/console/api/#info), [console,error()](https://developer.chrome.com/docs/devtools/console/api/#error).
+  - Understand different types of JavaScript logs displayed in the Console panel: [console.log()](https://developer.chrome.com/docs/devtools/console/api/#log), [console.info()](https://developer.chrome.com/docs/devtools/console/api/#info), [console.error()](https://developer.chrome.com/docs/devtools/console/api/#error).
   - [Navigate from the console to the corresponding log source in the script file (Source tab)](https://developer.chrome.com/docs/devtools/console/log/#javascript)
   - [Manage log storage: save or clear logs between page reloads](https://developer.chrome.com/docs/devtools/console/reference/#persist)
 - Sources tab:
-  - [View the file structure of the web application](https://developer.chrome.com/docs/devtools/sources/#files)
-  - [Explore file content within the Page tab](https://developer.chrome.com/docs/devtools/sources/#files)
+  - [Explore the file structure of the web application and delve into the file's content](https://developer.chrome.com/docs/devtools/sources/#files)
   - [What are breakpoints and why do we need them](https://developer.chrome.com/docs/devtools/javascript/#event-breakpoint) 
-  - [Navigate between breakpoints and step through the code](https://developer.chrome.com/docs/devtools/javascript/#event-breakpoint)
+  - [Navigate between breakpoints and step through the code](https://developer.chrome.com/docs/devtools/javascript/#code-stepping)
   - [Inspect the scope and check variable values at specific moments](https://developer.chrome.com/docs/devtools/javascript/#check-values)
 - Network tab:
   - [Review and analyze network requests](https://developer.chrome.com/docs/devtools/network/#load)
