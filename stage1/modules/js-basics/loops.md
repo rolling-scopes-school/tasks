@@ -11,7 +11,7 @@
 
 ## Theory
 
-- Read about [existed types of loops](https://javascript.info/logical-operators) in JavaScript (~ 11 min)
+- Read about [existed types of loops](https://javascript.info/while-for) in JavaScript (~ 11 min)
 - _**or**_ watch [video](https://www.youtube.com/watch?v=Kn06785pkJg) (~ 11 min)
 
 ## Practice
