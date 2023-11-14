@@ -74,6 +74,7 @@ Run app and check that the functionality is working (cross-check)
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
 - Commits after the deadline: **-40 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/pull-request-review-process?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-pull-request-pr) : **-10 points**
 
 ### Repository requirements
 
