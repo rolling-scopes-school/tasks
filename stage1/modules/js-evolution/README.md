@@ -1,5 +1,9 @@
 # [Stage#1](../../) JavaScript. Evolution
 
+## Module Overview
+
+In the "JavaScript. Evolution" module, students will dive into the modern features and improvements brought by ES2015 (also known as ES6) and how it has transformed JavaScript development. The module emphasizes practical skills in using advanced ES2015 features like array and object destructuring, spread operators, as well as understanding complex types such as Maps, Sets, and Symbols. Additionally, it covers the fundamentals of npm (Node Package Manager) and package.json, providing students with the essential tools for managing JavaScript projects and dependencies.
+
 ## In this module, students need to learn about:
 
 - ES2015
@@ -33,7 +37,7 @@
 
 ## Practice
 
-- [Codewars tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q1.md)
+1.  You need to take the "[St1] JS Evolution" test in the RS APP > Auto Test
 
 ## Additional sources
 
