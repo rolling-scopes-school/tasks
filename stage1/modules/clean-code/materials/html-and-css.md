@@ -366,7 +366,7 @@ div.error {
 ```css
 /* Not recommended */
 h3 {
-  font-weight: bold;
+  font-weight:bold;
 }
 
 /* Recommended */
@@ -384,8 +384,8 @@ h3 {
 ```css
 /* Not recommended */
 .test {
-  display: block;
-  height: 100px;
+  display: block,
+  height: 100px,
 }
 
 /* Recommended */
@@ -403,8 +403,7 @@ h3 {
 
 ```css
 /* Not recommended */
-a:focus,
-a:active {
+a:focus, a:active {
   position: relative;
   top: 1px;
 }
