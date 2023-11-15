@@ -2,43 +2,45 @@
 
 ![Node.js logo](node/images/node-logo.jpg)
 
-**Node.js** — среда выполнения JavaScript вне браузера.
+**Node.js** — an open-source, cross-platform JavaScript runtime environment.
 
-В основе Node.js — виртуальная машина V8. Она была создана компанией Google для браузера Chrome. V8 умеет выполнять JavaScript быстрее и экономнее, чем любая другая.
+Node.js is based on the V8 virtual machine. It was created by Google for the Chrome browser. V8 can execute JavaScript faster and more efficiently than any other.
 
-Node.js используется для создания веб-серверов, самостоятельных приложений, программ для компьютеров и мобильных устройств, а также программирования микроконтроллеров.
+Node.js is used to create web servers, standalone applications, programs for computers and mobile devices, and to program microcontrollers.
 
-У Node.js только одна платформа, в которой в результате постоянного улучшения появляется поддержка новейших возможностей Javascript. В отличие от браузерного JS, не нужно заботиться о поддержке устаревших браузеров, практически никогда не нужно транспилировать код под старые версии платформы (однако, как и в случае с браузерным JS, перед использованием новейших возможностей языка рекомендуется проверить, что они уже поддерживаются выбранной версией Node.js).
+Node.js has only one platform, and through continuous improvement, it supports the latest Javascript features. Unlike browser-based JS, you don't need to worry about supporting legacy browsers, and you almost never need to transpile code for older versions of the platform (however, as with browser-based JS, before using the latest language features, it is recommended to check that they are already supported by the selected version of Node.js).
 
-Компании выбирают Node.js за скорость и простоту разработки, возможность использовать один язык при создании фронтенда и бэкенда, скорость работы созданных приложений, кроссплатформенность, экономию ресурсов.
+Companies opt for Node.js due to its speedy and straightforward development, the convenience of using a single language for both frontend and backend, the rapid performance of the resulting applications, the capability to craft cross-platform software, and the cost-effective use of resources.
 
-К относительным недостаткам Node.js можно отнести то, что он несколько хуже подходит для решения задач, требующих интенсивных вычислений (хотя с появлением `worker threads` ситуация значительно улучшилась).
+Node.js has its drawbacks, particularly in scenarios demanding intensive calculations, although the introduction of worker threads has notably enhanced its suitability in such cases.
 
-## Содержание
+## Table of Contents
 
-1. [Начало работы](node/node-introduction.md)
-2. [Операции ввода/вывода](node/node-io.md)
-3. [Стандартные потоки ввода/вывода](node/node-stdio.md)
-4. [Аргументы командной строки](node/node-argv.md)
-5. [Доступ к файловой системе](node/node-fs-access.md)
-6. [Модули](node/node-module.md)
-   - [модуль path](node/module/path.md)
-   - [модуль fs](node/module/fs.md)
-   - [модуль os](node/module/os.md)
-   - [модуль http](node/module/http.md)
-   - [модули, устанавливаемые через npm](node/module/npm-module.md)
-   - [создание собственных модулей](node/module/create-module.md)
-7. [События](node/events.md)
-8. [Потоки](node/stream.md)
-   - [поток чтения](node/stream-readable.md)
-   - [поток записи](node/stream-writable.md)
-   - [объединение потоков](node/stream-pipes.md)
-9. [Проекты](node/projects/projects.md)
-   - [приложение для заметок](node/projects/notes.md)
-   - [приложение Таймер](node/projects/timer.md)
-   - [приложение Github](node/projects/github-app.md)
+1. [Getting started](node/node-introduction.md)
+2. [Input/Output Operations](node/node-io.md)
+3. [Standard Input/Output Streams](node/node-stdio.md)
+4. [Command Line Arguments](node/node-argv.md)
+5. [File System Access](node/node-fs-access.md)
+6. [Modules](node/node-module.md)
+   - [Path Module](node/module/path.md)
+   - [File System Module](node/module/fs.md)
+   - [Operating System Module](node/module/os.md)
+   - [HTTP Module](node/module/http.md)
+   - [Modules installed via npm](node/module/npm-module.md)
+   - [Creating Custom Modules](node/module/create-module.md)
+7. [Events](node/events.md)
+8. [Streams](node/stream.md)
+   - [Read Stream](node/stream-readable.md)
+   - [Write Stream](node/stream-writable.md)
+   - [Combining Streams](node/stream-pipes.md)
+9. [Projects](node/projects/projects.md)
+   - [Note-taking Application](node/projects/notes.md)
+   - [Timer Application](node/projects/timer.md)
+   - [Github Application](node/projects/github-app.md)
 
 ## Материалы
+
+// TODO: revise materials
 
 - [Введение в node.js](http://imnotgenius.com/vvedeniya-v-node-js/)
 - [Гайд по Node.js](https://nodejsdev.ru/guide/)
