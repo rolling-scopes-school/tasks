@@ -177,4 +177,5 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
 - [ ] Usage 3rd party / open source libraries for prettifying, i18n **-150 points**
+- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
