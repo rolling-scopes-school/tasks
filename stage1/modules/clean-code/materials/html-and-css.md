@@ -37,7 +37,7 @@
 
 ```html
 <!-- Not recommended -->
-<a href="/">Home</a>
+<A HREF="/">Home</a>
 
 <!-- Recommended -->
 <img src="google.png" alt="Google" />
@@ -45,7 +45,7 @@
 
 ```css
 /* Not recommended */
-color: #e5e5e5;
+color: #E5E5E5;
 
 /* Recommended */
 color: #e5e5e5;
@@ -57,7 +57,7 @@ color: #e5e5e5;
 
 ```html
 <!-- Not recommended -->
-<a class="main-button main-button-secondary">Sign in</a>
+<a class='main-button main-button-secondary'>Sign in</a>
 
 <!-- Recommended -->
 <a class="main-button main-button-secondary">Sign in</a>
