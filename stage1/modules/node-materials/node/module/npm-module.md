@@ -1,14 +1,14 @@
-### Установка модулей через npm.
+### Installing Modules via npm
 
 [HOME](../../README.md)
 
-Установим `npm` модуль `colors`. Для этого в терминале выполним команду
+Let's install the `colors` module using `npm`. In the terminal, execute the command:
 
 ```powershell
 npm install colors
 ```
 
-В папке проекта создадим файл `index.js` и напишем в нём код:
+In the project folder, create a file named `index.js` and write the following code:
 
 ```js
 require("colors");
@@ -16,4 +16,4 @@ const text = "Hello, world!";
 console.log(text.rainbow);
 ```
 
-Данный пакет по умолчанию работает за счет расширения `String.prototype`, поэтому нам не нужно записывать результат `require('colors')` в переменную, поскольку мы не используем его. Запустим файл, выполнив в терминале команду `node index`.
+This package by default operates by extending `String.prototype`, so we don't need to assign the result of `require('colors')` to a variable since we're not using it. Run the file by executing the command `node index` in the terminal.

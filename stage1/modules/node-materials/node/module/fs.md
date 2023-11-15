@@ -1,23 +1,23 @@
-## Модуль fs
+## File System Module
 
 [HOME](../../README.md)
 
-Модуль `fs` (file system) нужен для работы с файлами и папками. Он умеет создавать и удалять файлы и папки, переименовывать их, записывать и считывать данные.
+The `fs` (file system) module is used for working with files and folders. It can create and delete files and folders, rename them, and read and write data.
 
-Импортируем `fs`:
+Import `fs`:
 
 ```js
 const fs = require("fs");
 ```
 
-Создадим папку. Для этого есть два метода:
+Let's create a folder. There are two methods for this:
 
-- асинхронный `fs.mkdir`
-- синхронный `fs.mkdirSync`
+- asynchronous `fs.mkdir`
+- synchronous `fs.mkdirSync`
 
-При работе с файловой системой рекомендуется использовать асинхронные методы, которые не блокируют поток выполнения. Если папка или файл будут создаваться синхронно, выполнение кода остановится, пока они не будут созданы. Такие паузы в выполнении кода нежелательны.
+When working with the file system, it is recommended to use asynchronous methods that do not block the execution thread. If folders or files are created synchronously, the code execution will pause until they are created. Such pauses in code execution are undesirable.
 
-Создадим папку `notes` в текущей директории
+Let's create a folder named `notes` in the current directory:
 
 ```js
 const fs = require("fs");
@@ -25,11 +25,11 @@ const path = require("path");
 
 fs.mkdir(path.join(__dirname, "notes"), (err) => {
   if (err) throw err;
-  console.log("Папка была создана");
+  console.log("Folder was created");
 });
 ```
 
-Создадим файл `mynotes.txt`, содержащий текст `Hello world` внутри папки `notes`
+Now, let's create a file named `mynotes.txt` containing the text `Hello world` inside the `notes` folder:
 
 ```js
 const fs = require("fs");
@@ -40,12 +40,12 @@ fs.writeFile(
   "Hello world",
   (err) => {
     if (err) throw err;
-    console.log("Файл был создан");
+    console.log("File was created");
   },
 );
 ```
 
-Дополним файл, записав в него ещё какую-то информацию
+Let's add more information to the file:
 
 ```js
 const fs = require("fs");
@@ -56,12 +56,12 @@ fs.appendFile(
   " From append file",
   (err) => {
     if (err) throw err;
-    console.log("Файл был изменен");
+    console.log("File was modified");
   },
 );
 ```
 
-Прочитаем информацию из файла
+Let's read the information from the file:
 
 ```js
 const fs = require("fs");
@@ -77,7 +77,7 @@ fs.readFile(
 );
 ```
 
-Переименуем файл
+Let's rename the file:
 
 ```js
 const fs = require("fs");
@@ -88,11 +88,11 @@ fs.rename(
   path.join(__dirname, "notes", "notes.txt"),
   (err) => {
     if (err) throw err;
-    console.log("Файл переименован");
+    console.log("File renamed");
   },
 );
 ```
 
-### Задание
+### Project
 
-[Приложение для заметок](../projects/notes.md)
+[Note-taking Application](../projects/notes.md)

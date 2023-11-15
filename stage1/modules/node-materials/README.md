@@ -26,7 +26,7 @@ Node.js has its drawbacks, particularly in scenarios demanding intensive calcula
    - [File System Module](node/module/fs.md)
    - [Operating System Module](node/module/os.md)
    - [HTTP Module](node/module/http.md)
-   - [Modules installed via npm](node/module/npm-module.md)
+   - [Installing Modules via npm](node/module/npm-module.md)
    - [Creating Custom Modules](node/module/create-module.md)
 7. [Events](node/events.md)
 8. [Streams](node/stream.md)

@@ -1,33 +1,33 @@
-## Модуль os
+## Operating System Module
 
 [HOME](../../README.md)
 
-Модуль `os` (operating system) предоставляет данные об операционной системе пользователя
+The `os` (operating system) module provides information about the user's operating system
 
 ```js
 const os = require("os");
 
-// Платформа
+// Platform
 console.log(os.platform());
 
-// Архитектура
+// Architecture
 console.log(os.arch());
 
-// Информация о CPU
+// CPU Information
 console.log(os.cpus());
 
-// Общий объём памяти
+// Total Memory
 console.log(os.totalmem());
 
-// Объём свободной памяти
+// Free Memory
 console.log(os.freemem());
 
-// Корневая директория
+// Home Directory
 console.log(os.homedir());
 
-// Время работы системы
+// System Uptime
 console.log(os.uptime());
 
-// Символ окончания строки в данной системе
+// End of Line Symbol in the Current System
 console.log(os.EOL);
 ```

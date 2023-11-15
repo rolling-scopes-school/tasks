@@ -1,38 +1,38 @@
-## Модуль Path
+## Path Module
 
 [HOME](../../README.md)
 
-Одним из стандартных модулей является `path`. Модуль `path` предназначен для того, чтобы работать с путями в Node.js. При помощи него можно получить имя файла, расширение файла, имя папки, указать путь к файлу.
+One of the standard modules in Node.js is `path`. The `path` module is designed to work with file paths in Node.js. It allows you to get the file name, file extension, folder name, and specify the path to the file.
 
-Чтобы использовать `path`, его необходимо подключить:
+To use `path`, you need to require it:
 
 ```js
 const path = require("path");
 ```
 
-Информацию о свойствах и методах `path` можно найти в [документации Node.js](https://nodejs.org/docs/latest-v14.x/api/path.html).
+You can find the information about the properties and methods of `path` in the [Node.js documentation](https://nodejs.org/docs/latest-v14.x/api/path.html).
 
-Рассмотрим некоторые из них:
+Let's look at some of them:
 
-- Получение данных о файле
+- Retrieving file data
   ```js
-  // для файла, расположенного по адресу C:\Users\Admin\Desktop\nodejs-basic\index.js
+  // for a file located at C:\Users\Admin\Desktop\nodejs-basic\index.js
   const path = require("path");
-  console.log(path.basename(__filename)); // index.js - имя файла на Windows, полный путь к файлу на POSIX-системах
-  console.log(path.dirname(__filename)); // C:\Users\Admin\Desktop\nodejs-basic - название папки
-  console.log(path.extname(__filename)); // .js - расширение файла
-  console.log(path.parse(__filename)); // возвращает объект в котором указывается корень диска, имя папки, имя файла, расширение файла, имя файла без расширения
+  console.log(path.basename(__filename)); // index.js - file name on Windows, full file path on POSIX systems
+  console.log(path.dirname(__filename)); // C:\Users\Admin\Desktop\nodejs-basic - folder name
+  console.log(path.extname(__filename)); // .js - file extension
+  console.log(path.parse(__filename)); // returns an object specifying the disk root, folder name, file name, file extension, file name without extension
   ```
-- Конкатенация путей
+- Concatenating paths
   ```js
-  // для файла, расположенного по адресу C:\Users\Admin\Desktop\nodejs-basic\index.js
+  // for a file located at C:\Users\Admin\Desktop\nodejs-basic\index.js
   const path = require("path");
-  // вернет C:\Users\Admin\Desktop\nodejs-basic\test\second.html
+  // returns C:\Users\Admin\Desktop\nodejs-basic\test\second.html
   console.log(path.join(__dirname, "test", "second.html"));
   ```
-  `path.join()` объединяет заданные сегменты пути вместе, используя в качестве разделителя разделитель данной конкретной платформы (для Linux - прямой слэш, для Windows - обратный слэш), результат - относительный путь
+  `path.join()` concatenates the specified path segments together, using the separator for the specific platform (forward slash `/` for Linux, backslash `\` for Windows). The result is a relative path.
   ```js
   const path = require("path");
   console.log(path.resolve(__dirname, "./test", "/second.html"));
   ```
-  `path.resolve()` преобразует последовательность путей или сегментов пути в абсолютный путь справа налево и нормализует его: если в некоторых сегментах пути указываются слэши, а в некоторых нет, всё равно будет сгенерирован правильный путь.
+  `path.resolve()` converts a sequence of paths or path segments into an absolute path from right to left and normalizes it: if some path segments have slashes while others don't, it will still generate the correct path.
