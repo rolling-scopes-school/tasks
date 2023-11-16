@@ -1,34 +1,34 @@
-## Консольное приложение Notes
+## Notes App
 
 [HOME](../../README.md)
 
-Напишем простое консольное приложение Notes для работы с заметками.  
-У приложения необходимо реализовать четыре метода
+Let's write a simple console application called Notes for working with notes. The application needs to implement four methods:
 
 - `create`
 - `list`
 - `view`
 - `remove`
 
-Метод `create` создаёт новую заметку в файле `notes.json`. У метода `create` два аргумента - название заметки и её содержание.  
-Метод `list` выводит список заметок.  
-Метод `view` выводит в консоль содержимое заметки, название которой передано в качестве аргумента.  
-Метод `remove` удаляет заметку, название которой передано в качестве аргумента.  
-Для вызова методов они указываются в качестве аргументов командной строки.
+The `create` method creates a new note in the notes.json file. The `create` method has two arguments: the note's title and its content.   
+The `list` method displays a list of notes.   
+The `view` method outputs the content of a note whose title is passed as an argument.   
+The `remove` method deletes a note whose title is passed as an argument.
 
-1. Импортируем модуль `fs` для работы с файлами
+To call these methods, they are specified as command-line arguments.
+
+1. Import the `fs` module for file operations:
 
 ```js
 const fs = require("fs");
 ```
 
-2. Передадим в константы три аргумента - название метода, название заметки, содержание заметки
+2. Assign three arguments to constants — the method name, the note title, and the note content:
 
 ```js
 const [command, title, content] = process.argv.slice(2);
 ```
 
-3. Создадим переключатель `switch`, который будет вызывать соответствующие функции для разных методов.
+3. Create a `switch` statement that calls the corresponding functions for different methods:
 
 ```js
 switch (command) {
@@ -45,12 +45,11 @@ switch (command) {
     remove(title);
     break;
   default:
-    console.log("Неизвестная команда");
+    console.log("Unknown command");
 }
 ```
 
-4. Напишем функцию `create()` которая создаст новую заметку.  
-   У функции два параметра - название заметки `title` и содержание заметки `content`
+4. Write the `create()` function that creates a new note. The function has two parameters: the title of the note `title` and the content of the note `content`:
 
 ```js
 function create(title, content) {
@@ -58,20 +57,25 @@ function create(title, content) {
   const json = JSON.stringify(notes);
   fs.writeFile("notes.json", json, (error) => {
     if (error) return console.error(error.message);
-    console.log("Заметка создана");
+    console.log("Note created");
   });
 }
 ```
 
-Функция работает, но она не добавляет данные, а заменяет их.
+The function works, but it doesn't add data; instead, it replaces them.
 
-То есть нам нужно:
+So, we need to:
 
 - прочитать уже имеющиеся данные из файла `'notes.json'` при помощи метода `fs.readFile()`
 - преобразовать полученные данные в массив при помощи метода `JSON.parse()`
 - дополнить массив новыми данными при помощи метода `.push()`
 - преобразовать массив в JSON при помощи метода `JSON.stringify()`
 - записать данные в файл `'notes.json'` при помощи метода `fs.writeFile()`
+- Read the existing data from the `notes.json` file using the `fs.readFile()` method
+- Convert the received data into an array using the `JSON.parse()` method
+- Add new data to the array using the `.push()` method
+- Convert the array to JSON using the `JSON.stringify()` method
+- Write the data to the `notes.json` file using the `fs.writeFile()` method
 
 ```js
 function create(title, content) {
@@ -83,25 +87,25 @@ function create(title, content) {
 
     fs.writeFile("notes.json", json, (error) => {
       if (error) return console.error(error.message);
-      console.log("Заметка создана");
+      console.log("Note created");
     });
   });
 }
 ```
 
-Запустим файл командой
+Run the file with the command:
 
 ```powershell
 node index create title content
 ```
 
-где вместо `title` и `content` - название и содержание заметки.
+where `title` and `content` are the title and content of the note.
 
-Обратите внимание, если бы мы записывали данные в текстовом формате, дополнить файл новыми данными можно было бы значительно проще, использовав вместо метода `fs.writeFile()` метод `fs.appendFile()`.
+Note that if we were writing data in text format, it would be much easier to append new data using the `fs.appendFile()` method instead of the `fs.writeFile()` method.
 
-Также необходимо написать функцию `init()`, которая проверяет наличие файла `'notes.json'` и, если такого файла нет, создаёт его с содержимым `[]`. С этим постарайтесь справиться самостоятельно.
+Also, it is necessary to write a function `init()` that checks the existence of the `notes.json` file and, if the file does not exist, creates it with the content `[]`. Try to handle this on your own.
 
-5. Напишем функцию `list()`, которая читает документ `notes.json` и выводит названия заметок
+5. Write the `list()` function, which reads the `notes.json` document and outputs the titles of the notes:
 
 ```js
 function list() {
@@ -113,11 +117,13 @@ function list() {
 }
 ```
 
-Так как файл `notes.json` лежит в той же директории, что и файл с кодом, можно не прописывать к нему путь, достаточно указать его название первым аргументов метода `readFile()`. Второй аргумент метода - функция обратного вызова, которая принимает два параметра - ошибку `error` и прочитанные из файла данные `data`.  
-Преобразовать полученные данные в массив позволяет метод `JSON.parse(data)`.  
-Идём по этому массиву при помощи метода `forEach()` и для каждого элемента выводим в консоль его индекс и название заметки, так что в консоль выводится нумерованный список. Чтобы список начинался не с нуля, а с единицы, к индексу прибавим 1.
+Since the `notes.json` file is in the same directory as the code file, there is no need to specify the path; it's enough to provide its name as the first argument to the `readFile()` method. The second argument of the method is a callback function that takes two parameters - an error (`error`) and the data read from the file (`data`).   
 
-6. Напишем функцию `view()`, которая выводит содержание заметки по её названию. Функция похожа на функцию `list()`. В ней также происходит чтение документа и преобразование полученных данных в массив. Затем мы используем метод `find()`, чтобы найти заметку, название которой совпадает с указанным при вызове функции. Если не таких нет, выводим сообщение, что заметка не найдена, иначе выводим её содержание.
+Converting the received data into an array is done using the `JSON.parse(data)` method. We iterate through this array using the `forEach()` method and, for each element, print its index and the title of the note to the console, creating a numbered list. To start the list from one instead of zero, we add 1 to the index.
+
+6. Write the `view()` function, which outputs the content of a note by its title
+
+The function is similar to the `list()` function. It reads the document, converts the received data into an array, and then uses the `find()` method to find the note whose title matches the one specified when calling the function. If there is no such note, it prints a message that the note is not found; otherwise, it prints its content:
 
 ```js
 function view(title) {
@@ -126,7 +132,7 @@ function view(title) {
     const notes = JSON.parse(data);
     const note = notes.find((note) => note.title === title);
     if (!note) {
-      console.log("Заметка не найдена");
+      console.log("Note not found");
       return;
     } else {
       console.log(note.content);
@@ -135,8 +141,9 @@ function view(title) {
 }
 ```
 
-7. Напишем функцию `remove()`, которая удаляет заметку по её названию.  
-   Точно так же как в предыдущих функциях мы прочитали файл, преобразовали полученные данные в массив, затем, используя метод `filter()` отфильтровали данные, оставив в массиве только те, заголовки которых не совпадают с переданным, преобразовали массив в JSON и записали его в файл.
+7. Write the `remove()` function, which deletes a note by its title
+
+Just like in the previous functions, we read the file, convert the received data into an array, then use the `filter()` method to filter the data, leaving only those whose titles do not match the passed title. After that, we convert the array to JSON and write it to the file:
 
 ```js
 function remove(title) {
@@ -147,12 +154,12 @@ function remove(title) {
     const json = JSON.stringify(notes);
     fs.writeFile("notes.json", json, (error) => {
       if (error) return console.error(error.message);
-      console.log("Заметка удалена");
+      console.log("Note deleted");
     });
   });
 }
 ```
 
-Код приложения https://github.com/irinainina/node.js/tree/notes/notes
+Application code: [Notes App](https://github.com/irinainina/node.js/tree/notes/notes)
 
-P.S. Код данного приложения очень хорошо выглядел бы в виде класса с соответствующими методами. Вы можете потренироваться и сделать это самостоятельно.
+P.S. The code of this application would look very good as a class with corresponding methods. You can practice and do it yourself.

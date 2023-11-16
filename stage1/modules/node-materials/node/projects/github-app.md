@@ -1,39 +1,41 @@
-## Приложение GitHub
+## Github App
 
 [HOME](../../README.md)
 
-Создадим консольное приложение, которое в качестве аргумента командной строки будет принимать имя пользователя GitHub и выводить список репозиториев этого пользователя.
+Let's create a console application that, as a command-line argument, will take a GitHub username and display a list of that user's repositories.
 
-Для этого воспользуемся GitHub API. По запросу `https://api.github.com/users/USERNAME/repos` возвращается список репозиториев пользователя, `USERNAME` которого указан в ссылке.
+To achieve this, we'll use the GitHub API. The request `https://api.github.com/users/USERNAME/repos` returns a list of repositories for the user whose `USERNAME` is specified in the link.
 
-1. Начнём работу с создания нового Node.js приложения.  
-   Создадим папку `github-app`, откроем её в VS Code, в терминале выполним команду
+1. Start by creating a new Node.js application   
+
+Create a folder named github-app, open it in VS Code, and run the following command in the terminal:
 
 ```
 npm init -y
 ```
 
-Создадим два файла:
+Create two files:
 
-- `app.js` - основной файл приложения
-- `github.js` - в нём пишем логику взаимодействия с API.
+- `app.js` - the main application file
+- `github.js` - the file where we write the logic for interacting with the API
 
-2. Начнём с файла `app.js`  
-   Импортируем в него модуль `github`. Так как это самостоятельно созданный модуль, в качестве параметра метода `require()` указываем путь к файлу с кодом модуля
+2. Let's start with the `app.js` file   
+
+Import the `github` module into it. Since this is a manually created module, specify the path to the module code file as a parameter to the `require()` method:
 
 ```js
 const github = require("./github");
 ```
 
-Создадим переменную `username` в которой сохраним аргумент командной строки, переданный при запуске программы
+Create a variable `username` to store the command-line argument passed when the program is launched:
 
 ```js
 const username = process.argv[2];
 ```
 
-Используем импортированный объект `github`, у которого есть свойство `getRepos()` - функция, возвращающая список репозиториев пользователя.  
-Параметры функции `getRepos()` - `username` - имя пользователя и функция обратного вызова, принимающая два параметра - `error` - ошибка и `repos` - полученные данные, в нашем случае - список репозиториев.  
-В теле функции обработаем ошибку и выведем в консоль названия репозиториев
+Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.   
+The parameters of the `getRepos()` function are `username` - the username and a callback function taking two parameters: `error` - an error, and `repos` - the received data, in our case, a list of repositories.
+In the callback function, let's handle the error and print the names of the repositories to the console:
 
 ```js
 github.getRepos(username, (error, repos) => {
@@ -43,12 +45,16 @@ github.getRepos(username, (error, repos) => {
 });
 ```
 
-3. Переходим к файлу `github.js`. Наше приложение будет общаться с сервером по протоколу `https`. Для этого в Node.js есть встроенный модуль `https`, аналогичный [модулю http](../module/http.md).  
-   Для отправки запроса к API используем метод `get()` , который позволяет получить данные от сервера.  
-   Импортируем модуль `https` и напишем код функции `getRepos()`. Параметр функции - `username` - имя пользователя GitHub.  
-   У метода `https.get()` два параметра: URL, по которому отправляется запрос, и функция обратного вызова, принимающая один параметр - ответ сервера `responce`, сокращенно `res`.  
-   Свойство `res.statusCode` возвращает ответ сервера. Ответ `200` свидетельствует об успешном подключении, любой другой говорит о проблеме с подключением.  
-   Экспортируем модуль `github` как объект, со свойством `getRepos` и значением `getRepos`:
+3. Move on to the `github.js` file   
+
+Our application will communicate with the server over the `https` protocol. For this, Node.js has a built-in `https module`, similar to the [HTTP Module](../module/http.md).   
+
+To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.
+Import the `https` module and write the code for the `getRepos()` function. The function parameter is `username` - the GitHub username.
+The `https.get()` method has two parameters: the URL to which the request is sent and a callback function taking one parameter - the server response, abbreviated as `res`.
+
+The `res.statusCode` property returns the server response. A response of `200` indicates a successful connection, while any other response indicates a connection problem.
+Export the `github` module as an object with a `getRepos` property and the value of `getRepos`:
 
 ```js
 const https = require("https");
@@ -60,19 +66,19 @@ function getRepos(username) {
 module.exports = { getRepos };
 ```
 
-Запустим файл `app`. Аргументом командной строки при запуске файла укажем любой известный нам репозиторий:
+Run the `app` file. Specify a well-known repository as a command-line argument when running the file:
 
 ```
 node app goldbergyoni
 ```
 
-Приложение возвращает ошибку `403`.  
-Код ответа на статус ошибки `"HTTP 403 Forbidden"` указывает, что сервер понял запрос, но отказывается его авторизовать.  
-При этом, если мы попробуем запросить те же данные из бразера, перейдя по ссылке https://api.github.com/users/goldbergyoni/repos , получим страницу с нужными нам данными.
+The application returns a `403` error.   
+The response code for the error status `HTTP 403 Forbidden` indicates that the server understood the request but refuses to authorize it.   
+However, if we try to request the same data from the browser by visiting the link https://api.github.com/users/goldbergyoni/repos, we get the page with the data we need.
 
-Для запроса к API необходимо указать заголовок `User-Agent`. Браузер при переходе по ссылке добавляет этот заголовок сам, в приложении Node.js его необходимо указать.
+To make a request to the API, we need to specify the `User-Agent` header. While the browser adds this header automatically when navigating to a link, in a Node.js application, we need to specify it.
 
-Перед отправкой запроса создадим объект `option`, который отправим вместе с запросом
+Before sending the request, create an `option` object that we'll send along with the request:
 
 ```js
 const option = {
@@ -84,12 +90,12 @@ const option = {
 };
 ```
 
-Первым параметром метода `https.get()` укажем не URL-адрес, по которому отправляется запрос, а `option`.  
-Приложение возвращает статус `200`. который сообщает об успешном подключении.
+Use the `option` object as the first parameter in `the https.get` method. The application returns a `200` status, indicating a successful connection.
 
-4. Обработка входящих данных.  
-   Практически всё в Node.js, в том числе общение с сервером, реализуется асинхронно, при помощи событий и потоков. Информация от сервера приходит по частям.  
-   У ответа сервера `response` (`res`) есть событие `data`, которое сработает тогда, когда от сервера придёт часть запрошенной информации. Подпишемся на это событие и выведем полученные данные в консоль
+4. Handling incoming data   
+
+Almost everything in Node.js, including communication with the server, is implemented asynchronously, using events and streams. Information from the server comes in parts.   
+The server response (`res`) has a `data` event, which fires when a part of the requested information comes from the server. Subscribe to this event and print the received data to the console:
 
 ```js
 function getRepos(username) {
@@ -106,8 +112,9 @@ function getRepos(username) {
 }
 ```
 
-В консоли несколько объектов `Buffer`. Преобразовать данные в текст можно или используя метод `data.toString()`, или воспользовавшись методом `res.setEncoding('utf-8')`.  
-Чтобы объединить фрагменты данных, создадим переменную `body = ''` и все фрагменты данных будем к ней присоединять
+In the console, you see several `Buffer` objects. You can convert the data to text either by using the `data.toString()` method or by using the `res.setEncoding('utf-8')` method.
+
+To concatenate the data fragments, create a variable `body = ''`, and append all data fragments to it:
 
 ```js
 function getRepos(username) {
@@ -126,8 +133,8 @@ function getRepos(username) {
 }
 ```
 
-У метода `response` (`res`) есть событие `end`, которое сработает когда передача данных закончится.  
-При наступлении этого события при помощи метода `JSON.parse(body)` преобразуем полученные данные в массив
+The response (`res`) method has an `end` event, which triggers when the data transmission is complete.   
+Upon the occurrence of this event, use the `JSON.parse(body)` method to convert the received data into an array:
 
 ```js
 function getRepos(username) {
@@ -150,7 +157,11 @@ function getRepos(username) {
 }
 ```
 
-5. Как передать полученные данные в модуль `app`, который импортирует модуль `github`. Обратите внимание, что модуль `app` ожидает функцию `getRepos()` с двумя параметрами - `username`, и функцией обратного вызова у которой тоже два параметра `(error, repos)`. Эту функцию обратного вызова необходимо указать параметром функции `getRepos()` в модуле `github`. Назовём её `done` - стандартное название подобных функций. И внутри метода `response` (`res`) при наступлении события `end` вызовем функцию `done(null, result);`. Первый параметр функции - `null` - отсутствие ошибки, второй параметр - `result` - массив с репозиториями.
+5. Passing data to the `app` module   
+
+To pass the obtained data to the `app` module, which imports the `github` module, note that the `app` module expects the `getRepos()` function with two parameters - `username` and a callback function that also has two parameters `(error, repos)`. This callback function needs to be specified as a parameter to the `getRepos()` function in the `github` module. Let's name it `done` - a standard name for such functions.
+
+Inside the response method (`res`), upon the occurrence of the `end` event, call the `done(null, result)` function. The first parameter of the function is `null` - no error, and the second parameter is `result` - an array of repositories:
 
 ```js
 function getRepos(username, done) {
@@ -173,51 +184,52 @@ function getRepos(username, done) {
 }
 ```
 
-6. Обработка ошибок
-   При работе приложения ошибки могут быть в следующих случаях
+6. Error Handling
 
-- приложение запускается без имени пользователя
-- ошибка при отправке запроса, если указано несуществующее имя пользователя
-- ошибка при получении ответа от сервера
-- при преобразовании полученных данных в массив
-  Ошибки обрабатываем в модуле `github` и передаём их в модуль `app` указывая первым параметром функции `done()`
+- The application is launched without a username
+- An error occurs when sending a request if a nonexistent username is specified
+- An error occurs when receiving a response from the server
+- An error occurs when converting the received data into an array
 
-1. чтобы обработать ошибку, когда приложение запускается без имени пользователя, проверяем, пришёл ли в функцию `done()` параметр `username`
+Handle errors in the `github` module and pass them to the `app` module, specifying them as the first parameter of the `done()` function.
+
+1. To handle the error when the application is launched without a username, check if the `username` parameter is present in the `done()` function:
 
 ```js
-if (!username) return done(new Error("Необходимо указать имя пользователя"));
+if (!username) return done(new Error("Username is required"));
 ```
 
-2. Ошибка запроса - событие метода `request` `error`.  
-   Создадим переменную `request` указав её значением метод `https.get()`
+2. Request error - the `error` event of the `request` method.
 
-```
-req.on('error', error => done(new Error('Не удалось отправить запрос')));
+Create a variable `request` and set its value to the `https.get()` method:
+
+```js
+req.on('error', error => done(new Error('Failed to send request')));
 ```
 
-3. об ошибке при получении ответа от сервера свидетельствует статус ответа отличный от `200`
+3. An error in receiving a response from the server is indicated by a response status other than `200`:
 
 ```js
 if (res.statusCode !== 200)
-  return done(new Error("Ошибка при работе с сервером"));
+  return done(new Error("Error working with the server"));
 ```
 
-4. Для обработки ошибок в синхронных методах, к которым относится `JSON.parse()` используется конструкция `try {} catch() {}`
+4. To handle errors in synchronous methods, including `JSON.parse()`, use the `try {} catch() {}` statement:
 
 ```js
 try {
   const result = JSON.parse(body);
   done(null, result);
 } catch (error) {
-  done(new Error("Не удалось обработать данные"));
+  done(new Error("Failed to process data"));
 }
 ```
 
-Код функции с обработанными ошибками
+Here is the modified function with error handling:
 
 ```js
 function getRepos(username, done) {
-  if (!username) return done(new Error("Необходимо указать имя пользователя"));
+  if (!username) return done(new Error("Username is required"));
   const option = {
     hostname: "api.github.com",
     path: `/users/${username}/repos`,
@@ -235,19 +247,19 @@ function getRepos(username, done) {
           const result = JSON.parse(body);
           done(null, result);
         } catch (error) {
-          done(new Error("Не удалось обработать данные"));
+          done(new Error("Failed to process data"));
         }
       });
     } else {
       done(
         new Error(
-          `Ошибка при работе с сервером ${res.statusCode} ${res.statusMessage}`,
+          `Error working with the server ${res.statusCode} ${res.statusMessage}`,
         ),
       );
     }
   });
-  req.on("error", (error) => done(new Error("Не удалось отправить запрос")));
+  req.on("error", (error) => done(new Error("Failed to send request")));
 }
 ```
 
-Код приложения https://github.com/irinainina/node.js/tree/github.app/github-app
+Application code: [GitHub App](https://github.com/irinainina/node.js/tree/github.app/github-app)

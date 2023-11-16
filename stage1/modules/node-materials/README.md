@@ -34,9 +34,9 @@ Node.js has its drawbacks, particularly in scenarios demanding intensive calcula
    - [Write Stream](node/stream-writable.md)
    - [Combining Streams](node/stream-pipes.md)
 9. [Projects](node/projects/projects.md)
-   - [Note-taking Application](node/projects/notes.md)
-   - [Timer Application](node/projects/timer.md)
-   - [Github Application](node/projects/github-app.md)
+   - [Notes App](node/projects/notes.md)
+   - [Timer App](node/projects/timer.md)
+   - [Github App](node/projects/github-app.md)
 
 ## Материалы
 
