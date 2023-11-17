@@ -16,7 +16,7 @@ Node.js has its drawbacks, particularly in scenarios demanding intensive calcula
 
 ## Table of Contents
 
-1. [Getting started](node/node-introduction.md)
+1. [Getting Started](node/node-introduction.md)
 2. [Input/Output Operations](node/node-io.md)
 3. [Standard Input/Output Streams](node/node-stdio.md)
 4. [Command Line Arguments](node/node-argv.md)
@@ -30,9 +30,9 @@ Node.js has its drawbacks, particularly in scenarios demanding intensive calcula
    - [Creating Custom Modules](node/module/create-module.md)
 7. [Events](node/events.md)
 8. [Streams](node/stream.md)
-   - [Read Stream](node/stream-readable.md)
-   - [Write Stream](node/stream-writable.md)
-   - [Combining Streams](node/stream-pipes.md)
+   - [Readable Stream](node/stream-readable.md)
+   - [Writable Stream](node/stream-writable.md)
+   - [Combining Readable-Writable Streams](node/stream-pipes.md)
 9. [Projects](node/projects/projects.md)
    - [Notes App](node/projects/notes.md)
    - [Timer App](node/projects/timer.md)

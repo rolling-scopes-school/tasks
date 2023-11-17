@@ -1,28 +1,37 @@
-## Доступ к файловой системе
+## File System Access
 
 [HOME](../README.md)
 
-В отличие от браузерного JavaScript, у Node.js есть доступ к файловой системе.  
-Например, мы легко можем узнать абсолютный путь к директории, в которой находится наш файл. Для этого откроем файл `test.js` и напишем в нём код  
-`console.log(__dirname);`  
-Откроем терминал и запустим файл
+Unlike browser-based JavaScript, Node.js has access to the file system.   
+For example, we can easily determine the absolute path to the directory containing our file. To do this, open the `test.js` file and write the code:
+
+```js
+console.log(__dirname); 
+```
+
+Open the terminal and run the file:
 
 ```powershell
 node test
 ```
 
-В консоль выведется абсолютный путь к директории с файлом `test.js`.
-Теперь выведем абсолютный путь к файлу. Для этого в файле `test.js` добавим строку  
-`console.log(__filename);`  
-Теперь в консоль выводится абсолютный путь к файлу `test.js` вместе с его именем.  
-_Чтобы в терминале повторно появилась последняя введенная команда, достаточно нажать клавишу "↑" на клавиатуре._
+The console will output the absolute path to the directory with the `test.js` file.   
+Now let's output the absolute path to the file. To do this, add the line in the `test.js` file:
 
-### Задание
+```js
+console.log(__filename);
+```
 
-Напишите программу, которая возвращает путь к папке, если запускается с флагом '-d', или путь к файлу, если запускается с флагом '-f'. Если файл запускается без флага или с флагом, отличным от указанных в задании, выводится предложение запустить программу с флагом '-d' или '-f'.
+Now the console displays the absolute path to the `test.js` file along with its name.
+
+_To repeat the last entered command in the terminal, just press the "↑" key on the keyboard._
+
+### Task
+
+Write a program that returns the path to the folder if it is launched with the `-d` flag, or the path to the file if it is launched with the `-f` flag. If the file is launched without a flag or with a flag other than those specified in the task, a suggestion to run the program with the `-d` or `-f` flag is displayed.
 
 <details>
-  <summary>Пример решения</summary>
+  <summary>Example Solution</summary>
 
 ```js
 const { stdout } = process;
@@ -33,7 +42,7 @@ if (flag === "-d") {
 } else if (flag === "-f") {
   stdout.write(__filename);
 } else {
-  stdout.write("Пожалуйста, запустите программу с флагом -d или -f");
+  stdout.write("Please run the program with the -d or -f flag");
 }
 ```
 

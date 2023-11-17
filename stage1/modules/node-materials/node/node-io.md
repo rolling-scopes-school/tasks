@@ -1,38 +1,38 @@
-## Операции ввода/вывода
+## Input/Output Operations
 
 [HOME](../README.md)
 
-### I/O (input/output)
+### I/O (Input/Output)
 
-I/O (input/output) означает ввод/вывод
+I/O stands for input/output.
 
-- input - получение информации от сетевых ресурсов, или чтение с диска или файла, или ввод с клавиатуры
-- output - вывод информации, например, сохранение на диск или запись в файл, или вывод в консоль
+- `input` - obtaining information from network resources, reading from disk or file, or keyboard input
+- `output` - displaying information, such as saving to disk or writing to a file, or output to the console
 
-Это самые затратные по времени этапы работы программы. Сравните:
+These are the most time-consuming stages of a program's operation. Compare:
 ![](../node/images/io.png)
 
-### Блокирующий I/O
+### Blocking I/O
 
-Операции input/output происходят синхронно, одна за другой
+Input/output operations occur synchronously, one after another:
 
 ```js
-const connection = db.connect(); // подключаемся к базе данных
-const users = connection.query("SELECT * FROM users"); // делаем запрос
-console.log(users); // выводим информацию в консоль
+const connection = db.connect(); // connect to the database
+const users = connection.query("SELECT * FROM users"); // make a query
+console.log(users); // display information in the console
 ```
 
-Это простой в реализации, но очень затратный по времени вариант: программа ждёт **250 миллионов тактов процессора**, пока не произойдёт подключение к базе данных.  
-Вторая проблема синхронного I/O - он не отказоустойчив. Если программа не сможет подключиться к базе данных, или если в базе данных не найдётся затребованной информации, программа остановит свою работу.
+This is a simple implementation but a very time-consuming one: the program waits for **250 million processor cycles** until a connection to the database occurs.   
+The second problem with synchronous I/O is that it is not fault-tolerant. If the program cannot connect to the database or if the requested information is not found in the database, the program will stop working.
 
-Синхронный или блокирующий I/O в Node.js используется очень редко:
+Synchronous or blocking I/O in Node.js is used very rarely:
 
-- если необходимо получить данные, без которых работа программы не может начаться. Например, информацию о настройках
-- может использоваться в консольных приложениях, у которых только один пользователь
+- When you need to get data without which the program cannot start. For example, information about settings
+- It can be used in console applications with only one user
 
-### Неблокирующий I/O
+### Non-blocking I/O
 
-Неблокирующий I/O происходит асинхронно
+Non-blocking I/O occurs asynchronously:
 
 ```js
 db.connect((error, connection) => {
@@ -43,8 +43,10 @@ db.connect((error, connection) => {
 });
 ```
 
-В данном примере программа вызывает `db.connect()`, ставит его колбэк в очередь и переходит к выполнению оставшейся синхронной части кода. Когда весь синхронный код выполнен, программа возвращается к выполнению колбэка `db.connect()`.
+In this example, the program calls `db.connect()`, puts its callback in the queue, and proceeds to execute the remaining synchronous part of the code. When all synchronous code is executed, the program returns to execute the `db.connect()` callback.
 
-Первым аргументом колбэка, переданного в `db.connect()`, является ошибка. Если ошибка имеется, то в нашем примере происходит "проброс исключения", в результате которого эта ошибка либо будет обработана в коде выше, либо вывалится в рантайм и "повалит" приложение. Если ошибки нет - `error === null` (в логическом контексте `false`) - функция переходит к работе с базой данных: выполняет `connection.query()` и `console.log()`.
+The first argument of the callback passed to `db.connect()` is an error. If an error occurs, in our example, an "exception forwarding" occurs, as a result of which this error will either be handled in the code above or will throw in the runtime, causing the application to crash.
 
-В основе работы Node.js лежат **неблокирующий ввод/вывод** и **асинхронность**. Благодаря этому приложения на Node.js работают быстро и могут обрабатывать большое количество клиентских запросов в единицу времени.
+If there is no error - `error === null` (in a logical context `false`) - the function proceeds to work with the database: performs `connection.query()` and `console.log()`.
+
+Node.js is based on **non-blocking I/O** and **asynchrony**. Thanks to this, Node.js applications work quickly and can handle a large number of client requests in a unit of time.

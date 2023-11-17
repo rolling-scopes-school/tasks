@@ -1,34 +1,41 @@
-## Модули
+## Modules
 
 [HOME](../README.md)
 
-Node.js любой файл воспринимает как модуль. В Node.js на данный момент используются 2 системы модулей: **CommonJS** (модули, используемые в Node.js по умолчанию, появились раньше) и **ECMAScript модули** (реализуют функционал JS, впервые появившийся в спецификации ECMAScript 2015). Они имеют существенные отличия друг от друга. В рамках данных материалов мы используем только **CommonJS** модули.
-Глобальных переменных вроде `__dirname`, `__filename`, `process` в Node.js [не так много](https://nodejs.org/dist/latest-v14.x/docs/api/globals.html). Остальной функционал реализован в виде подключаемых модулей.  
-Преимущества использования модулей в Node.js:
+Node.js treats any file as a module.
 
-- Лучшее структурирование кода — код, разбитый на модули, гораздо легче для понимания, поддержки, тестирования
-- Облегчение переиспользования кода — правильно написанный и документированный модуль легко может быть использован в нескольких местах в одном проекте, а также в разных проектах
-- Инкапсуляция — содержимое модуля инкапсулировано, т.е. доступно исключительно внутри модуля. Разработчик сам решает, что импортировать в модуль и что экспортировать за пределы модуля
-- Благодаря [кэшированию](https://nodejs.org/dist/latest-v14.x/docs/api/modules.html#modules_caching) модулей их многократный импорт не приводит к дополнительным издержкам производительности
+Node.js currently uses two module systems: **CommonJS** (modules used by default in Node.js, appeared earlier) and **ECMAScript modules** (implementing functionality from ECMAScript 2015 specification). They have significant differences from each other. In this material, we only use **CommonJS** modules.
 
-Упрощенно, модули в Node.js можно разделить на 3 типа:
+There are not many global variables in Node.js, such as `__dirname`, `__filename`, `process` ([check the list here](https://nodejs.org/dist/latest-v14.x/docs/api/globals.html#globals_global_objects)). The rest of the functionality is implemented as importable modules.
 
-1. Стандартные модули (core modules), которые мы получаем "из коробки", устанавливая Node.js на компьютер.
-   Примеры стандартных модулей:
+Advantages of using modules in Node.js:
 
-- [модуль path](module/path.md)
-- [модуль fs](module/fs.md)
-- [модуль os](module/os.md)
+- Better code organization — code divided into modules is much easier to understand, support, and test
+- Code reuse facilitation — a correctly written and documented module can easily be used in multiple places within one project and in different projects
+- Encapsulation — the contents of a module are encapsulated, i.e., available exclusively within the module. Developers decide what to import into the module and what to export beyond the module
+- Thanks to [module caching](https://nodejs.org/dist/latest-v14.x/docs/api/modules.html#modules_caching), multiple imports of modules do not lead to additional performance overhead
 
-2. [Модули-пакеты](module/npm-module.md)
-3. [Модули, которые разработчик создаёт самостоятельно](module/create-module.md)
+To simplify, modules in Node.js can be divided into three types:
 
-### Стандартные модули
+1. Core modules, which we get "out of the box" by installing Node.js on a computer.   
+Examples of core modules:
 
-Они уже скомпилированы в двоичный код и описаны в документации. [Перечень стандартных модулей](https://nodejs.org/dist/latest-v14.x/docs/api/). Стандартные модули достаточно подключить и можно с ними работать.
+   - [path module](module/path.md)
+   - [fs module](module/fs.md)
+   - [os module](module/os.md)
 
-Для подключения модуля используется функция `require()`  
-Примеры подключения модулей:
+2. [Packages](module/npm-module.md)
+3. [Custom modules](module/create-module.md)
+
+### Core Modules
+
+They are already compiled into binary code and described in the documentation.   
+[List of core modules](https://nodejs.org/dist/latest-v14.x/docs/api/)
+
+Core modules are easy to include, and you can start working with them.
+
+To include a module, the `require()` function is used.   
+Examples of module inclusion:
 
 ```js
 const path = require("path");
@@ -36,50 +43,60 @@ const fs = require("fs");
 const os = require("os");
 ```
 
-### Модули-пакеты (Packages)
+### Packages
 
-К модулям-пакетам относятся папки с кодом, описываемые при помощи находящегося в них файла `package.json`.
-С модулями-пакетами удобно работать при помощи менеджеров пакетов, таких как `npm` или `yarn`. Если мы хотим использовать уже написанные кем-то модули-пакеты (частый способ использования кода других разработчиков), их нужно установить, затем подключить, затем использовать.  
-Установка модуля-пакета при помощи `npm` осуществляется командой
+Packages include folders with code described using the `package.json` file inside them.
+
+Packages are convenient to work with using package managers such as `npm` or `yarn`. If we want to use modules already written by someone (a common way to use other developers' code), we need to install them, then include them, and then use them.
+
+To install a package using `npm`, use the command:
 
 ```powershell
-npm install <имя модуля>
+npm install <module name>
 ```
 
-### Модули, которые разработчик создаёт самостоятельно
+### Custom modules
 
-Создание модуля начинается с создания отдельного js-файла, в котором пишется код. Если модуль должен экспортировать что-либо наружу, это делается при помощи записи экспортируемого значения в качестве свойства специального объекта `module.exports`, либо его перезаписи.
-Экспортируемые из одних модулей значения мы можем импортировать в других модулях. Как и в случае с другими типами модулей, импорт осуществляется при помощи функции `require()`, только в качестве аргумента функции вместо имени модуля указываем путь к файлу.
+Creating a module starts with creating a separate JS file where the code is written. If the module needs to export something, this is done by writing the exported value as a property of the special `module.exports` object, or by overwriting it.
 
-Работу с модулями в Node.js начнём с создания Node.js-приложения
+Values exported from one module can be imported into other modules. As with other types of modules, import is done using the `require()` function, but in this case, the path to the file is specified instead of the module name.
 
-### Создание Node.js-приложения
+Let's start working with modules in Node.js by creating a Node.js application.
 
-Создадим новый проект. Для этого создадим папку проекта, откроем её в VS Code и в терминале выполним команду  
-`npm init -y`  
-Параметр `-y` (Yes) означает, что мы соглашаемся со всеми настройками проекта по умолчанию.  
-В папке проекта появляется файл `package.json`, который описывает созданное приложение.
+### Creating a Node.js Application
 
-### Установка модулей-пакетов через npm.
+Let's create a new project. To do this, create a project folder, open it in VS Code, and in the terminal, execute the command:
 
-Установка модуля осуществляется командой
-
-```powershell
-npm install <имя модуля>
+```bash
+npm init -y
 ```
 
-Установим модуль nodemon. Для этого в терминале выполним команду
+The `-y` (Yes) parameter means that we agree with all project settings by default.   
+A `package.json` file is created in the project folder, describing the created application.
 
-```powershell
+### Installing Packages via npm
+
+To install a module, use the command
+
+```bash
+npm install <module name>
+```
+
+Install the `nodemon` module. To do this, execute the command in the terminal:
+
+```bash
 npm install nodemon
 ```
 
-Удаление модуля:
+Removing a module:
 
-```powershell
+```bash
 npm uninstall nodemon
 ```
 
-Установленные модули добавляются в папку `node_modules`, а информация о них добавляется в файл `package.json`. Кроме того, автоматически создается файл `package.lock.json`, гарантирующий идентичность пакетов у различных пользователей, а также выполняющий ряд других полезных функций.
-Если удалить папку `node_modules` и выполнить команду `npm install`, папка `node_modules` восстановится вместе со всеми добавленными модулями на основе записей в файле `package.json`.
-Проекты, написанные на Node.js, добавляются на GitHub без папки `node_modules`, но с файлом `package.json`, а также `package.lock.json`. После скачивания такого проекта необходимо выполнить в терминале команду `npm install`, чтобы восстановить все установленные через `npm` модули.
+Installed modules are added to the `node_modules` folder, and information about them is added to the `package.json` file. Additionally, a `package-lock.json` file is automatically created, ensuring package identity among different users and performing other useful functions.
+
+If you delete the `node_modules` folder and execute the `npm install` command, the `node_modules` folder will be restored along with all the added modules based on the records in the `package.json` file.
+
+Node.js projects are added to GitHub without the `node_modules` folder but with the `package.json` and `package-lock.json` files.   
+After downloading such a project, you need to execute the `npm install` command in the terminal to restore all modules installed through npm.

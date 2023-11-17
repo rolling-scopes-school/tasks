@@ -1,21 +1,21 @@
-## Поток записи (Writable stream)
+## Writable Stream
 
 [HOME](../README.md)
 
-Поток записи, является противоположностью потока чтения. Он используется для записи данных. Записывать данные можно, к примеру: в стандартный поток вывода, файл, response при обработке на сервере, другой поток и т.д.
+A writable stream is the opposite of a readable stream. It is used for writing data. Data can be written to various destinations, such as the standard output stream, a file, a server response during server processing, another stream, and so on.
 
-Если мы читаем данные по частям, логично записывать их тоже по частям.  
-Для этого создадим поток записи `output`
+If we read data in chunks, it makes sense to write them in chunks as well.   
+To do this, let's create a writable stream called `output`:
 
 ```js
 const fs = require("fs");
 const output = fs.createWriteStream("destination.txt");
 ```
 
-Если не создать файл, который указан в качестве пункта назначения наших данных, `destination.txt`, перед началом записи он будет создан автоматически.  
-Поток чтения назовём `input` и каждую часть данных, которую он отдает, будем записывать в файл при помощи метода `output.write()`
+If the file specified as the destination for our data, `destination.txt`, is not created before writing begins, it will be created automatically.   
+Let's name the readable stream `input`, and for each part of the data it provides, we'll write it to the file using the `output.write()` method.
 
-Сравните полученный код потока записи с кодом [потока чтения](stream-readable.md) - они создаются и используются сходным образом.
+Compare the code for the writable stream with the code for the [readable stream](stream-readable.md) - they are created and used in a similar way:
 
 ```js
 const fs = require("fs");

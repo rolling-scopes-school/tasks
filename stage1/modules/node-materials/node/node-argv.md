@@ -1,38 +1,42 @@
-## Аргументы командной строки
+## Command Line Arguments
 
 [HOME](../README.md)
 
-В Node.js есть возможность запустить файл с определёнными аргументами командной строки. При запуске файла аргументы передаются после его имени. Например, при запуске
+In Node.js, you can run a file with specific command line arguments. When running a file, the arguments are passed after its name. For example, when running:
 
 ```powershell
 node test 1 2 3
 ```
 
-`1`, `2`, `3` - это аргументы.
-Как внутри кода получить доступ к переданным при запуске файла аргументам? Для этого используется свойство глобального объекта `process` - `process.argv`
+`1`, `2`, `3` are the arguments.   
+How can you access the arguments passed when the file is launched within the code? This is done using the `process.argv` property of the global `process` object.
 
-В файле `test.js` напишем код  
-`console.log(process.argv);`  
-В терминале выполним команду `node test 1 2 3`.  
-В консоли отображается массив, первые два элемента которого - путь к файлу node.exe и путь к запущенному файлу. Дальше идут переданные аргументы.
+In the `test.js` file, let's write the code:
 
-Если нужно получить только аргументы, выполним код
+```js
+console.log(process.argv);
+```
+
+In the terminal, execute the command `node test 1 2 3`.   
+In the console, an array is displayed, the first two elements of which are the path to the node.exe file and the path to the executed file. After that come the passed arguments.
+
+If you only need to get the arguments, execute the code:
 
 ```js
 console.log(process.argv.slice(2));
 ```
 
-Метод `process.argv.slice(2)` возвращает новый массив, который начинается с элемента с индексом "2".
+The `process.argv.slice(2)` method returns a new array that starts from the element at index "2".
 
-### Флаги
+### Flags
 
-Чтобы иметь возможность отправлять аргументы в любом порядке или пропускать какие-то из них, аргументы командной строки можно пометить. Для этого используются флаги - слова или символы, которые указывают, что за ними следует аргумент командной строки. Перед флагами, как правило, ставят один или два дефиса, чтобы не перепутать их с аргументами. Например,
+To have the ability to send arguments in any order or skip some of them, you can mark command line arguments. For this purpose, flags are used. Flags are words or symbols indicating that a command line argument follows them. Flags are usually preceded by one or two dashes to avoid confusion with arguments. For example:
 
 ```powershell
 node test -m Hello
 ```
 
-Чтобы получить аргумент с указанным флагом, напишем код
+To get the argument with the specified flag, write the code:
 
 ```js
 const flagIndex = process.argv.indexOf("-m");
@@ -42,7 +46,7 @@ if (flagIndex !== -1) {
 }
 ```
 
-Можно этот код преобразовать в функцию, получающую флаг аргумента и возвращающую его значение
+You can transform this code into a function that takes the flag argument and returns its value:
 
 ```js
 function getValue(flag) {
@@ -53,14 +57,14 @@ const message = getValue("-m");
 console.log(message);
 ```
 
-### Практическое применение
+### Practical Usage
 
-На практике в случае, если вы пишете код для работы с аргументами командной строки самостоятельно, необходимо корректно обработать всевозможные ситуации — аргумент может отсутствовать, флаг может быть не передан, либо передан без значения, либо само наличие флага является булевым значением и т.д.  
-Для повышения удобства работы с аргументами командной строки, а также минимизации вероятности возникновения ошибок удобно использовать готовые решения, такие как [minimist](https://www.npmjs.com/package/minimist), [commander](https://www.npmjs.com/package/commander), [yargs](https://www.npmjs.com/package/yargs) и другие.
+In practice, when you write code to handle command line arguments yourself, it is necessary to handle various situations correctly — an argument may be missing, a flag may not be passed, or it may be passed without a value. The mere presence of a flag can also be a boolean value, and so on.   
+To make working with command line arguments more convenient and minimize the likelihood of errors, it is useful to use ready-made solutions such as [minimist](https://www.npmjs.com/package/minimist), [commander](https://www.npmjs.com/package/commander), [yargs](https://www.npmjs.com/package/yargs), and others.
 
-### CLI options
+### CLI Options
 
-Помимо пользовательских аргументов командной строки, можно передавать опции командной строки (CLI options). Опции командной строки передаются **до** пути к запускаемому файлу и модифицируют поведение Node.js. Например, можно отключить использование свойства `__proto__`. Так, запуск файла со следующим содержимым:
+In addition to custom command line arguments, you can pass command line options (CLI options). Command line options are passed **before** the path to the executed file and modify the behavior of Node.js. For example, you can disable the use of the `__proto__` property. Thus, running a file with the following content:
 
 ```js
 // test.js
@@ -74,29 +78,31 @@ obj.__proto__ = protoObj;
 obj.sayHi();
 ```
 
-с опцией `--disable-proto=throw`
+with the option `--disable-proto=throw`:
 
 ```powershell
 node --disable-proto=throw test
 ```
 
-приведет к ошибке. Полный список опций можно посмотреть в [документации](https://nodejs.org/dist/latest-v14.x/docs/api/cli.html#cli_options)
+will result in an error. You can view the full list of options in the [documentation](https://nodejs.org/dist/latest-v14.x/docs/api/cli.html#cli_options).
 
-### Переменные окружения
+### Environment Variables
 
-Иногда нам нужно **снаружи** передать в код некое значение, которое будет использоваться нашим приложением. Например, мы хотим реализовать различное поведение приложения при запуске на "боевом" сервере и в процессе разработки. В этом нам могут помочь **переменные окружения**. Переменные окружения имеют синтаксис вида `variable_name=variable_value` и размещаются перед `node ...` Вот так при использовании терминала Bash можно передать переменную, которая будет показывать, в каком режиме сейчас запущено приложение:
+Sometimes we need to pass some value from the **outside** to our code, which will be used by our application. For example, we want to implement different behavior when the application is launched on a production server and during development. Environment variables can help us in this case. 
+
+Environment variables have a syntax like `variable_name=variable_value` and are placed before `node ....`. In Bash, for example, you can pass a variable that shows in which mode the application is currently running:
 
 ```bash
 PRODUCTION=false node test
 ```
 
-А так при использовании терминала Powershell
+Or in PowerShell:
 
 ```powershell
 $env:PRODUCTION="false"; node test
 ```
 
-Доступ к таким переменным внутри кода можно получить через `process.env`:
+Access to such variables inside the code can be obtained through `process.env`:
 
 ```js
 const productionMode = process.env.PRODUCTION === "true";
@@ -109,36 +115,36 @@ if (productionMode) {
 }
 ```
 
-### Задание
+### Task
 
-Напишите программу, которая просит у пользователя ввести два числа, складывает эти числа, если запускается с флагом `-s`, или перемножает, если запускается с флагом `-m`, после чего завершает свою работу. Для ввода и вывода информации используйте стандартные потоки ввода/вывода. Пример работы (пользовательский ввод начинается с `>`)
+Write a program that prompts the user to enter two numbers, adds these numbers if launched with the `-s` flag, or multiplies them if launched with the `-m` flag, and then terminates. Use standard input/output for input and output. Here is an example of how it should work (user input starts with `>`):
 
 ```powershell
 > node test.js -m
-Введите 2 числа
+Enter 2 numbers
 > 2 7
 2 * 7 = 14
 ```
 
 ```powershell
 > node test.js -s
-Введите 2 числа
+Enter 2 numbers
 > 2 7
 2 + 7 = 9
 ```
 
 <details>
-<summary>Пример решения</summary>
+<summary>Example Solution</summary>
 
 ```js
 const { stdout, stdin, exit } = process;
 const flag = process.argv[2];
 const allowedFlags = ["-m", "-s"];
 if (!allowedFlags.includes(flag)) {
-  stdout.write("Попробуйте ещё раз запустить файл с флагом -s или -m");
+  stdout.write("Try running the file again with the -s or -m flag");
   exit();
 }
-stdout.write("Введите, пожалуйста, два числа\n");
+stdout.write("Please enter two numbers\n");
 stdin.on("data", (data) => {
   const numString = data.toString();
   const numStringsArray = numString.split(" ");
@@ -147,7 +153,7 @@ stdin.on("data", (data) => {
     Number.isNaN(+numStr),
   );
   if (hasIncorrectLength || hasIncorrectValues) {
-    stdout.write("Нужно ввести 2 числа, разделенных пробелом");
+    stdout.write("You need to enter 2 numbers separated by a space");
     exit();
   }
   const [firstNum, secondNum] = numStringsArray.map((numStr) => +numStr);

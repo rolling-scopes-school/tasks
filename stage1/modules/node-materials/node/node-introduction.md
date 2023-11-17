@@ -1,70 +1,75 @@
-## Начало работы
+## Getting Started
 
 [HOME](../README.md)
 
-### Устанавливаем Node.js
+### Installing Node.js
 
-Ссылка для скачивания [https://nodejs.org/en/](https://nodejs.org/en/)
+Download link https://nodejs.org/en
 
-Скачиваем и устанавливаем последнюю LTS версию (Recommended For Most Users)
+Download and install the latest LTS version (Recommended For Most Users)
 
-Проверяем что именно установили. Для этого проверяем версию Node.js.  
-Открываем Git Bash: клик правой кнопкой по рабочему столу, в контекстном меню выбираем Git Bash Here. Если такого пункта нет, скачайте и установите Git [https://git-scm.com/downloads](https://git-scm.com/downloads).  
-Выполняем команду `node -v`  
-Если отображается версия Node.js, значит, с первым пунктом мы справились и Node.js установили.
+Check what you have installed. To do this, check the version of Node.js.   
+Open Git Bash: right-click on the desktop, choose `Git Bash Here` from the context menu. If this option is not available, download and install Git https://git-scm.com/downloads.
 
-### Возможные проблемы при установке
+Execute the command `node -v`.   
+If the Node.js version is displayed, then we have successfully completed the first step, and Node.js is installed.
 
-Иногда после установки Node.js команды в терминале, начинающиеся с `node`, вызывают ошибки наподобие `'node' is not recognized as an internal or external command, operable program or batch file`. В этом случае нужно добавить корректный путь к директории с Node.js в `PATH`. [Пример решения](https://love2dev.com/blog/node-is-not-recognized-as-an-internal-or-external-command/).
+### Possible Installation Issues
 
-### Где писать код
+Sometimes, after installing Node.js, commands in the terminal starting with `node` may cause errors like `'node' is not recognized as an internal or external command, operable program or batch file`.   
+In this case, you need to add the correct path to the Node.js directory to the `PATH`.   
+[Example solution](https://love2dev.com/blog/node-is-not-recognized-as-an-internal-or-external-command/).
 
-В терминале писать не очень удобно. Как и в блокноте. Выбираем привычный VS Code, открываем терминал (вкладка `Терминал` на панели вверху, пункт `Создать терминал`), проверяем, что терминал работает. Для этого выполняем команду `node -v`.
+### Where to Write Code
 
-### Режим REPL
+Neither writing code in the terminal, nor is Notepad is very convenient. Let's choose VS Code, open the terminal (tab `Terminal` on the top panel, item `Create Terminal`), check that the terminal is working. To do this, execute the command `node -v`.
 
-Код можно писать и выполнять прямо в терминале.  
-Такой режим называется REPL (от англ. `Read-Eval-Print-Loop` — цикл `чтение — вычисление — вывод`  
-Чтобы в него перейти, выполните в терминале команду `node`  
-Теперь код можно писать непосредственно в терминале, REPL вычислит введенное выражение и выведет результат. К примеру, если ввести `2 + 2` и нажать Enter, REPL выведет `4`.  
-Также можно делать явный вывод в консоль при помощи уже знакомых нам методов. Так, вы можете написать
+### REPL Mode
 
-```js
-console.log("Hello, world!");
-```
+You can write and execute code directly in the terminal.   
+This mode is called `REPL` (Read-Eval-Print-Loop).
 
-REPL имеет некоторые полезные команды, получить информацию о которых можно, отправив команду `.help`  
-Чтобы выйти из режима REPL, отправьте команду `.exit`(также для более грубого завершения процесса можно применить стандартное для используемого терминала сочетание клавиш наподобие `Ctrl + C`).  
-Очистить терминал позволят такие команды, как `cls` (для стандартной командной строки Windows и Powershell), `clear` (для Bash).
+To enter it, execute the command `node` in the terminal.   
+Now you can write code directly in the terminal, and REPL will evaluate the entered expression and display the result. For example, if you enter `2 + 2` and press Enter, REPL will output `4`.
 
-### Как запустить файл
-
-Режим REPL используется достаточно редко.  
-Как правило, при помощи Node.js запускают код, размещенный в файлах.  
-Создадим файл `test.js` и напишем в нём команду
+You can also make explicit console output using the familiar methods. For example, you can write:
 
 ```js
 console.log("Hello, world!");
 ```
 
-Откроем этот файл при помощи VS Code, в терминале выполним команду
+REPL has some useful commands, information about which can be obtained by sending the `.help` command.   
+To exit REPL mode, send the `.exit` command (also, for a more forceful process termination, you can use the standard key combination for the terminal used, such as `Ctrl + C`).   
+Clear the terminal using commands like `cls` (for the standard Windows Command Prompt and PowerShell) or `clear` (for Bash).
+
+### How to Run a File
+
+The REPL mode is used relatively rarely. Typically, Node.js is used to run code located in files.
+
+Let's create a file `test.js` and write the command in it:
+
+```js
+console.log("Hello, world!");
+```
+
+Open this file with VS Code, in the terminal execute the command:
 
 ```powershell
 node test.js
 ```
 
-Обратите внимание:
+Note:
 
-- расширение файла можно не указывать, т.е достаточно написать `node test`
-- если возникла ошибка, убедитесь, что терминал открыт в той же директории, в которой находится файл `test.js`
+- You don't have to specify the file extension, i.e., it is enough to write `node test`
+- If an error occurs, make sure the terminal is open in the same directory where the `test.js` file is located
 
-## Задание
+## Task
 
-1. Выведите в консоль строку `"Hello, Node.js!"` используя режим REPL
-2. Выведите в консоль строку `"Hello, Node.js!"` запустив при помощи Node.js файл с кодом
+1. Output the string `Hello, Node.js!` to the console using REPL mode
+2. Output the string `Hello, Node.js!` by running a file with Node.js
 
 <details>
-<summary>Пример решения</summary>
+<summary>Example Solution</summary>
 
 ```js
 console.log("Hello, Node.js!");

@@ -1,140 +1,144 @@
-## Стандартные потоки ввода/вывода
+## Standard Input/Output Streams
 
 [HOME](../README.md)
 
-Для ввода и вывода информации (I/O - input/output) в Node.js существуют стандартные потоки ввода и вывода:
+For input and output operations (I/O) in Node.js, there are standard input and output streams:
 
-- `process.stdin` - поток ввода
-- `process.stdout` - поток вывода
-- `process.stderr` - поток ошибки как разновидность потока вывода
+- `process.stdin` - input stream
+- `process.stdout` - output stream
+- `process.stderr` - error stream as a variation of the output stream
 
-Например, уже известный нам `console.log()` для вывода информации использует `process.stdout`.
+For example, the well-known `console.log()` for outputting information uses `process.stdout`.
 
-### Стандартный поток вывода
+### Standard Output Stream
 
-Выведем информацию в консоль при помощи `process.stdout`.
+Let's output information to the console using `process.stdout`:
 
 ```js
 const { stdout } = process;
 stdout.write("Node.js");
 ```
 
-Метод `stdout.write()` принимает в качестве аргумента строку и выводит её в консоль. В отличие от `console.log()` он не добавляет автоматический перенос в конце строки. При необходимости перенос строки `\n` можно добавить вручную.
+The `stdout.write()` method takes a string as an argument and outputs it to the console. Unlike `console.log()`, it does not automatically add a line break at the end of the string. If a line break is needed, `\n` can be added manually.
 
-### Стандартный поток ввода
+### Standard Input Stream
 
-В файле `test.js` напишем и запустим код:
+In the file `test.js`, let's write and run the code:
 
 ```js
 const { stdin, stdout } = process;
 stdin.on("data", (data) => stdout.write(data));
 ```
 
-При помощи метода `.on()` мы подписываемся на событие `'data'` объекта `stdin`.  
-Метод `.on()` принимает два параметра - название события `'data'` и стрелочную функцию-обработчик `data => stdout.write(data)`, которая выводит в консоль переданные данные.
+Using the `.on()` method, we subscribe to the `data` event of the `stdin` object.   
+The `.on()` method takes two parameters - the event name `data` and the arrow function handler `data => stdout.write(data)`, which outputs the entered data to the console.
 
-Теперь, когда мы вводим в консоль какой-то текст и нажимаем клавишу Enter, `stdout.write()` возвращает введённый нами текст.
+Now, when we enter some text in the console and press the Enter key, `stdout.write()` returns the text we entered.
 
-### Метод process.exit()
+### The `process.exit()` Method
 
-Остановить выполнение программы можно нажав комбинацию клавиш `Ctrl + C` или использовав метод `process.exit()`.
+To stop the program, you can press the `Ctrl + C` key combination or use the `process.exit()` method.
 
-Метод `process.exit()` при запуске эмитит событие `'exit'`, подписавшись на которое мы можем выполнить определенные действия перед завершением программы:
+The `process.exit()` method emits the `exit` event when executed, and by subscribing to this event, we can perform certain actions before the program terminates:
 
 ```js
-process.on("exit", () => stdout.write("Удачи в изучении Node.js!"));
+process.on("exit", () => stdout.write("Good luck learning Node.js!"));
 ```
 
-`process.exit()` принимает необязательный аргумент `exitCode`, представленный целым числом. По умолчанию данный метод запускается с параметром `exitCode === 0`. Такое завершение процесса означает, что программа выполнена успешно и отработала без ошибок. Завершение процесса с любым другим `exitCode`, что работа программы завершилась ошибкой. Благодаря этому можно передать разные сообщения на выходе в зависимости от того, сработала программа как нужно, или нет.
+`process.exit()` takes an optional argument `exitCode`, represented by an integer.   
+By default, this method is called with `exitCode === 0`. This type of process termination indicates that the program executed successfully and ran without errors.   
+Exiting the process with any other `exitCode` signifies that the program terminated with an error. This allows different messages to be passed depending on whether the program executed as intended or not:
 
 ```js
 const { stdout, stderr } = process;
 
 process.on("exit", (code) => {
   if (code === 0) {
-    stdout.write("Всё в порядке");
+    stdout.write("Everything is ok");
   } else {
-    stderr.write(`Что-то пошло не так. Программа завершилась с кодом ${code}`);
+    stderr.write(`Something went wrong. The program exited with code ${code}`);
   }
 });
 ```
 
-## Задание 1
+## Task 1
 
-Напишите программу, которая спрашивает у пользователя его имя, после ввода имени приветствует его, указывая имя, а затем прекращает свою работу и прощается с пользователем.
+Write a program that asks the user for their name, greets them after entering the name, and then stops its execution, saying goodbye to the user.
 
 <details>
-  <summary>Пример решения</summary>
+  <summary>Example solution</summary>
 
 ```js
 const { stdin, stdout } = process;
 
-stdout.write("Как тебя зовут?\n");
+stdout.write("What is your name?\n");
 stdin.on("data", (data) => {
-  stdout.write("Привет, ");
+  stdout.write("Hello, ");
   stdout.write(data);
   process.exit();
 });
-process.on("exit", () => stdout.write("Удачи!"));
+process.on("exit", () => stdout.write("Goodbye!"));
 ```
 
 </details>
 
 ### Buffer
 
-Несмотря на то, что в предыдущем примере параметр `data` обработчика одноименного события похож на строку, на самом деле он не является строкой. При попытке воспользоваться методами строки мы получим ошибку:
+Despite the fact that in the previous example the `data` parameter of the event handler looks like a string, it is not. If we try to use string methods, we will get an error:
 
 ```js
 const { stdin, stdout } = process;
 
 stdin.on("data", (data) => {
-  // После ввода текста в консоль и нажатия Enter получим TypeError: data.toUpperCase is not a function
-  stdout.write("Cообщение в верхнем регистре: ");
+  // After entering text in the console and pressing Enter, TypeError: data.toUpperCase is not a function will be thrown
+  stdout.write("Message in uppercase: ");
   stdout.write(data.toUpperCase());
 });
 ```
 
-Если мы выведем в консоль тип переменной `data`, мы увидим `object`. Применив [трюк со специальным свойством [[Class]]](https://learn.javascript.ru/class-instanceof#sekretnoe-svoystvo-class) мы получим для `data` `[object Uint8Array]`. Поскольку `process.stdin` — это поток, он работает с данными в двоичном формате. Для работы с таким форматом данных в Node.js есть специальный объект `Buffer`, который и является подклассом `Uint8Array`(типизированный массив, хранящий 8-битные целые беззнаковые значения).  
-Данные, содержащиеся в буфере, можно привести к строке:
+If we log the type of the `data` variable to the console, we will see `object`. By applying the [trick with the special `[[Class]]` property](https://learn.javascript.ru/class-instanceof#sekretnoe-svoystvo-class), we get `[object Uint8Array]` for `data`.
+
+Since `process.stdin` is a stream, it works with data in **binary** format. To handle such data in Node.js, there is a special `Buffer` object, which is a subclass of `Uint8Array` (a typed array storing 8-bit unsigned integer values).   
+The data contained in the `Buffer` can be converted to a string:
 
 ```js
-// создадим буфер из строки, вторым параметром передав кодировку (по умолчанию будет использована utf-8)
+// create a buffer from a string, specifying the encoding as the second parameter (utf-8 will be used by default)
 const myBuffer = Buffer.from("Hi Node.js!", "utf-8");
-// получим <Buffer 48 69 20 4e 6f 64 65 2e 6a 73 21>
+// get <Buffer 48 69 20 4e 6f 64 65 2e 6a 73 21>
 console.log(myBuffer);
-// приведем к строке
+// convert to a string
 const bufferStringified = myBuffer.toString();
 // Hi Node.js!
 console.log(bufferStringified);
 ```
 
-Исправим наш предыдущий пример:
+Let's fix our previous example:
 
 ```js
 const { stdin, stdout } = process;
 
 stdin.on("data", (data) => {
   const dataStringified = data.toString();
-  stdout.write("Cообщение в верхнем регистре: ");
+  stdout.write("Message in uppercase: ");
   stdout.write(dataStringified.toUpperCase());
 });
 ```
 
-## Задание 2
+## Task 2
 
-Напишите программу, которая спрашивает у пользователя его имя, после ввода имени возвращает указанное пользователем имя наоборот и прекращает работу.
+Write a program that asks the user for their name, returns the user-entered name in reverse, and then stops its execution.
 
 <details>
-  <summary>Пример решения</summary>
+  <summary>Example solution</summary>
 
 ```js
 const { stdin, stdout } = process;
 
-stdout.write("Как тебя зовут?\n");
+stdout.write("What is your name?\n");
 stdin.on("data", (data) => {
   const name = data.toString();
   const reverseName = name.split("").reverse().join("");
-  stdout.write(`\nТвоё имя наоборот ${reverseName}`);
+  stdout.write(`\nYour name in reverse is ${reverseName}`);
   process.exit();
 });
 ```

@@ -1,20 +1,22 @@
-## Streams (потоки, стримы)
+## Streams
 
 [HOME](../README.md)
 
 ![stream schema](https://pawelgrzybek.com/photos/2020-07-14-1.png)
-Если нам нужно работать с достаточно большим объёмом данных, работать с ним целиком означает загрузить оперативную память и остановить работу программы на все время операции.
 
-Вместо этого считывание и запись данных можно осуществлять по частям, небольшими фрагментами - чанками (`chunk`). Это позволяет работать с очень большими объемами данных, не повышая объем потребляемой памяти пропорционально их размеру.
+When working with a significant amount of data, processing it all at once can lead to loading the entire dataset into memory and freezing the program for the entire duration of the operation.
 
-Стримы используют интерфейс работы с событиями, унаследованный от `EventEmitter`.
+Instead of this, reading and writing data can be done in parts, small fragments called `chunks`. This approach allows working with very large volumes of data without proportionally increasing the memory consumption.
 
-Помимо использования готовых стримов, мы можем создавать свои собственные стримы, отнаследовавшись от базовых классов и реализовав некоторые обязательные методы.
+Streams use an event-driven interface, inherited from `EventEmitter`.
 
-Для работы с потоковыми данными в Node.js есть абстрактный интерфейс — streams (потоки, стримы).  
-В Node.js есть 4 основных вида потоков:
+In addition to using existing streams, we can create our own streams by inheriting from basic classes and implementing some mandatory methods.
 
-- [Readable](stream-readable.md) — поток чтения, используется для чтения данных
-- [Writable](stream-writable.md) — поток записи, используется для записи данных
-- Duplex — поток, который может быть использован как для чтения, так и для записи данных
-- Transform— разновидность `Duplex`, используемая для преобразования данных
+For working with stream data in Node.js, there is an abstract interface — streams.
+
+In Node.js, there are 4 main types of streams:
+
+- [Readable](stream-readable.md) — a readable stream used for reading data
+- [Writable](stream-writable.md) — a writable stream used for writing data
+- Duplex — a stream that can be used for both reading and writing data
+- Transform — a type of `Duplex` used for data transformation

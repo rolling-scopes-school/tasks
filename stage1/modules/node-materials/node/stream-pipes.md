@@ -1,8 +1,8 @@
-## Объединение потоков чтения-записи
+## Combining Readable-Writable Streams
 
 [HOME](../README.md)
 
-Код из [предыдущей части](stream-writable.md) можно сделать ещё проще и лучше:
+The code from the [previous section](stream-writable.md) can be made even simpler and better:
 
 ```js
 const fs = require("fs");
@@ -13,25 +13,26 @@ const output = fs.createWriteStream("destination.txt");
 input.pipe(output);
 ```
 
-Несмотря на то, что кода стало меньше, работает он точно так же, как прежде.  
-Метод `pipe()`, имеющийся у каждого потока, можно использовать для объединения одних потоков с другими. Такие цепочки могут объединять несколько потоков.
+Despite the reduction in code, it works exactly the same as before.   
+The `pipe()` method, available on every stream, can be used to combine one stream with another. Such chains can connect multiple streams.
 
-Эту особенность метода `pipe()` используют, например, для сжатия файлов.
+This feature of the `pipe()` method is used, for example, for compressing files.
 
-Импортируем `zlib`, и используем ее стандартный метод, который отвечает за сжатие файлов. Поток `gzip` является трансформирующим потоком: получает одни данные, преобразует их и возвращаёт другие данные.  
-После создания потока чтения создадим поток, который отвечает за сжатие файла:
+Let's import `zlib` and use its standard method responsible for compressing files. The `gzip` stream is a transforming stream: it receives one set of data, transforms it, and returns another set of data.
+
+After creating the reading stream, let's create a stream responsible for compressing the file:
 
 ```js
 const gzip = zlib.createGzip();
 ```
 
-затем чего соединим поток сжатия и поток вывода:
+then connect the compression stream and the output stream:
 
 ```js
 input.pipe(gzip).pipe(output);
 ```
 
-Полный код примера:
+The complete code:
 
 ```js
 const fs = require("fs");
@@ -44,7 +45,7 @@ const gzip = zlib.createGzip();
 input.pipe(gzip).pipe(output);
 ```
 
-Есть довольно удобный способ объединения нескольких потоков, позволяющий использовать один обработчик ошибок — функция `pipeline`:
+There is a convenient way to combine multiple streams, allowing the use of a single error handler — the `pipeline` function:
 
 ```js
 const fs = require("fs");
@@ -57,7 +58,7 @@ const gzip = zlib.createGzip();
 
 pipeline(input, gzip, output, (err) => {
   if (err) {
-    // обрабатываем ошибки
+    // handle errors
   }
 });
 ```
