@@ -24,7 +24,7 @@ Design, prototype, as well as implementation of the application, are up to you.
 ## Backend / API
 
 - Application doesn't require a backend.
-- You should support any open, user-specified GraphQL API that supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). You can create a proxy service as part of your app and use it to make requests to any GraphQL API (even those that do not support CORS).
+- Application should support any open, user-specified GraphQL API that supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). You can create a proxy service as part of your app and use it to make requests to any GraphQL API (even those that do not support CORS).
 
 ## Application structure
 
