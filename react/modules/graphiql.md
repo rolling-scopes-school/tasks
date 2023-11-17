@@ -95,7 +95,9 @@ You are free to choose your own way of developing the project and the repository
 
 ### Header
 
-- All Private routes should be present in a sticky header. The moment it becomes sticky (if there is a scroll on a page) should be animated: color can be changed or its height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
+- The header should be sticky. The moment it becomes sticky (if there is a scroll on a page) should be animated: color can be changed or its height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
+- Link to Welcome page
+- Control that allows user to switch the language
 - Sign Out button - signs user out
 
 ### Footer
@@ -112,9 +114,11 @@ You are free to choose your own way of developing the project and the repository
 
 ### Main page - GraphiQL
 
+- This route should be private.
+- Header should be visible.
 - Query editor / JSON viewer. The query editor should support prettifying. Any 3rd party / open-source solution is forbidden, you should implement it on your own. JSON viewer should be read-only, it will be used in the response section.
-- Variables section.
-- Headers section (optional. If you are making a CORS request each added header should be supported on the backend, please, consider that).
+- Variables editor section.
+- Headers editor section (If you are making a CORS request each added header should be supported on the backend, please, consider that).
 - Documentation section, should be visible only when the app receives a successful response with the schema definition from the API.
 - Response section. Should be represented by the same Query editor / JSON viewer component. Should be read only.
 - Change Endpoint button - allows the user to switch to an arbitrary GraphQL endpoint.
@@ -158,8 +162,8 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - [ ] Functional editor enabling query editing and prettifying **60 points**
 - [ ] Operational documentation explorer, visible _only_ upon successful SDL request **50 points**
-- [ ] Variables section that can shown or hidden **30 points**
-- [ ] Header section that can be shown or hidden **20 points**
+- [ ] Variables section that can shown or hidden, specified variables are sent to the server  **30 points**
+- [ ] Header section that can be shown or hidden, user-added headers are sent to the server **20 points**
 - [ ] Response section with an editor in read-only as a JSON viewer **40 points**
 
 ### General requirements - max 50 points
