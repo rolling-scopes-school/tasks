@@ -30,7 +30,7 @@ const { stdin, stdout } = process;
 stdin.on("data", (data) => stdout.write(data));
 ```
 
-Using the `.on()` method, we subscribe to the `data` event of the `stdin` object.   
+Using the `.on()` method, we subscribe to the `data` event of the `stdin` object.  
 The `.on()` method takes two parameters - the event name `data` and the arrow function handler `data => stdout.write(data)`, which outputs the entered data to the console.
 
 Now, when we enter some text in the console and press the Enter key, `stdout.write()` returns the text we entered.
@@ -45,8 +45,8 @@ The `process.exit()` method emits the `exit` event when executed, and by subscri
 process.on("exit", () => stdout.write("Good luck learning Node.js!"));
 ```
 
-`process.exit()` takes an optional argument `exitCode`, represented by an integer.   
-By default, this method is called with `exitCode === 0`. This type of process termination indicates that the program executed successfully and ran without errors.   
+`process.exit()` takes an optional argument `exitCode`, represented by an integer.  
+By default, this method is called with `exitCode === 0`. This type of process termination indicates that the program executed successfully and ran without errors.  
 Exiting the process with any other `exitCode` signifies that the program terminated with an error. This allows different messages to be passed depending on whether the program executed as intended or not:
 
 ```js
@@ -98,7 +98,7 @@ stdin.on("data", (data) => {
 
 If we log the type of the `data` variable to the console, we will see `object`. By applying the [trick with the special `[[Class]]` property](https://learn.javascript.ru/class-instanceof#sekretnoe-svoystvo-class), we get `[object Uint8Array]` for `data`.
 
-Since `process.stdin` is a stream, it works with data in **binary** format. To handle such data in Node.js, there is a special `Buffer` object, which is a subclass of `Uint8Array` (a typed array storing 8-bit unsigned integer values).   
+Since `process.stdin` is a stream, it works with data in **binary** format. To handle such data in Node.js, there is a special `Buffer` object, which is a subclass of `Uint8Array` (a typed array storing 8-bit unsigned integer values).  
 The data contained in the `Buffer` can be converted to a string:
 
 ```js

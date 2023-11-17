@@ -9,9 +9,9 @@ Let's write a simple console application called Notes for working with notes. Th
 - `view`
 - `remove`
 
-The `create` method creates a new note in the notes.json file. The `create` method has two arguments: the note's title and its content.   
-The `list` method displays a list of notes.   
-The `view` method outputs the content of a note whose title is passed as an argument.   
+The `create` method creates a new note in the notes.json file. The `create` method has two arguments: the note's title and its content.  
+The `list` method displays a list of notes.  
+The `view` method outputs the content of a note whose title is passed as an argument.  
 The `remove` method deletes a note whose title is passed as an argument.
 
 To call these methods, they are specified as command-line arguments.
@@ -117,7 +117,7 @@ function list() {
 }
 ```
 
-Since the `notes.json` file is in the same directory as the code file, there is no need to specify the path; it's enough to provide its name as the first argument to the `readFile()` method. The second argument of the method is a callback function that takes two parameters - an error (`error`) and the data read from the file (`data`).   
+Since the `notes.json` file is in the same directory as the code file, there is no need to specify the path; it's enough to provide its name as the first argument to the `readFile()` method. The second argument of the method is a callback function that takes two parameters - an error (`error`) and the data read from the file (`data`).
 
 Converting the received data into an array is done using the `JSON.parse(data)` method. We iterate through this array using the `forEach()` method and, for each element, print its index and the title of the note to the console, creating a numbered list. To start the list from one instead of zero, we add 1 to the index.
 

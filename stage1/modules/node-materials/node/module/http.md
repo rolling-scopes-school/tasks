@@ -48,8 +48,8 @@ This method takes a callback function `requestHandler` with two parameters, `req
 - `request` holds information about the request
 - `response` is responsible for sending the response
 
-Our `requestHandler` logs the request method and the address of the requested resource to the console. It also sends the messages `Hello from Node.js` and `Bye!` as responses.   
-The `response.write()` method writes the message to the response body, and `response.end()` informs the server that the headers and body of the response are written and it can be sent.   
+Our `requestHandler` logs the request method and the address of the requested resource to the console. It also sends the messages `Hello from Node.js` and `Bye!` as responses.  
+The `response.write()` method writes the message to the response body, and `response.end()` informs the server that the headers and body of the response are written and it can be sent.  
 Note that `response.end()` should terminate every response. Without it, the request processing will "hang" — the request will be received but not fully processed.
 
 ```js
@@ -69,7 +69,7 @@ server.listen(PORT, "localhost", () => {
 });
 ```
 
-Run the file with the code, open your browser, and go to the address `localhost:3000/some/page`.   
+Run the file with the code, open your browser, and go to the address `localhost:3000/some/page`.  
 Note that to run the server with different code, you need to stop it and restart it. You already know how to terminate a Node.js process. Only one server can be running on a port at a time.
 
 In the `write` and `end` methods, you can pass a string containing HTML tags with inline styles. These tags will be correctly processed by the browser.

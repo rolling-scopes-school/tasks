@@ -22,7 +22,7 @@ const users = connection.query("SELECT * FROM users"); // make a query
 console.log(users); // display information in the console
 ```
 
-This is a simple implementation but a very time-consuming one: the program waits for **250 million processor cycles** until a connection to the database occurs.   
+This is a simple implementation but a very time-consuming one: the program waits for **250 million processor cycles** until a connection to the database occurs.  
 The second problem with synchronous I/O is that it is not fault-tolerant. If the program cannot connect to the database or if the requested information is not found in the database, the program will stop working.
 
 Synchronous or blocking I/O in Node.js is used very rarely:

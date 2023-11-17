@@ -49,10 +49,10 @@ An instance of the `Timer` class has three methods:
 - `_tick()` — an internal method of the timer
 - `end()` — stops the timer
 
-The `start()` method has a variable `intervalId` containing the timer identifier set by `setInterval()`, which calls the `tick()` method every second. Also, the `start()` method emits a `start` event.   
-The `tick()` method increments the ticks variable by one and checks if the value specified in the constructor's property `total` has been reached.   
-If it hasn't been reached, the `tick()` method emits a `tick` event, with the current value of the `ticks` variable as the payload.   
-If the `total` value is reached, the `tick()` method calls the `end()` method.   
+The `start()` method has a variable `intervalId` containing the timer identifier set by `setInterval()`, which calls the `tick()` method every second. Also, the `start()` method emits a `start` event.  
+The `tick()` method increments the ticks variable by one and checks if the value specified in the constructor's property `total` has been reached.  
+If it hasn't been reached, the `tick()` method emits a `tick` event, with the current value of the `ticks` variable as the payload.  
+If the `total` value is reached, the `tick()` method calls the `end()` method.  
 The `end()` method clears the `setInterval()` timer and emits an `end` event.
 
 Let's create an instance of the `Timer` class:

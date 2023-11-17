@@ -6,7 +6,7 @@ Let's create a console application that, as a command-line argument, will take a
 
 To achieve this, we'll use the GitHub API. The request `https://api.github.com/users/USERNAME/repos` returns a list of repositories for the user whose `USERNAME` is specified in the link.
 
-1. Start by creating a new Node.js application   
+1. Start by creating a new Node.js application
 
 Create a folder named github-app, open it in VS Code, and run the following command in the terminal:
 
@@ -19,7 +19,7 @@ Create two files:
 - `app.js` - the main application file
 - `github.js` - the file where we write the logic for interacting with the API
 
-2. Let's start with the `app.js` file   
+2. Let's start with the `app.js` file
 
 Import the `github` module into it. Since this is a manually created module, specify the path to the module code file as a parameter to the `require()` method:
 
@@ -33,7 +33,7 @@ Create a variable `username` to store the command-line argument passed when the 
 const username = process.argv[2];
 ```
 
-Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.   
+Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.  
 The parameters of the `getRepos()` function are `username` - the username and a callback function taking two parameters: `error` - an error, and `repos` - the received data, in our case, a list of repositories.
 In the callback function, let's handle the error and print the names of the repositories to the console:
 
@@ -45,9 +45,9 @@ github.getRepos(username, (error, repos) => {
 });
 ```
 
-3. Move on to the `github.js` file   
+3. Move on to the `github.js` file
 
-Our application will communicate with the server over the `https` protocol. For this, Node.js has a built-in `https module`, similar to the [HTTP Module](../module/http.md).   
+Our application will communicate with the server over the `https` protocol. For this, Node.js has a built-in `https module`, similar to the [HTTP Module](../module/http.md).
 
 To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.
 Import the `https` module and write the code for the `getRepos()` function. The function parameter is `username` - the GitHub username.
@@ -72,8 +72,8 @@ Run the `app` file. Specify a well-known repository as a command-line argument w
 node app goldbergyoni
 ```
 
-The application returns a `403` error.   
-The response code for the error status `HTTP 403 Forbidden` indicates that the server understood the request but refuses to authorize it.   
+The application returns a `403` error.  
+The response code for the error status `HTTP 403 Forbidden` indicates that the server understood the request but refuses to authorize it.  
 However, if we try to request the same data from the browser by visiting the link https://api.github.com/users/goldbergyoni/repos, we get the page with the data we need.
 
 To make a request to the API, we need to specify the `User-Agent` header. While the browser adds this header automatically when navigating to a link, in a Node.js application, we need to specify it.
@@ -92,9 +92,9 @@ const option = {
 
 Use the `option` object as the first parameter in `the https.get` method. The application returns a `200` status, indicating a successful connection.
 
-4. Handling incoming data   
+4. Handling incoming data
 
-Almost everything in Node.js, including communication with the server, is implemented asynchronously, using events and streams. Information from the server comes in parts.   
+Almost everything in Node.js, including communication with the server, is implemented asynchronously, using events and streams. Information from the server comes in parts.  
 The server response (`res`) has a `data` event, which fires when a part of the requested information comes from the server. Subscribe to this event and print the received data to the console:
 
 ```js
@@ -133,7 +133,7 @@ function getRepos(username) {
 }
 ```
 
-The response (`res`) method has an `end` event, which triggers when the data transmission is complete.   
+The response (`res`) method has an `end` event, which triggers when the data transmission is complete.  
 Upon the occurrence of this event, use the `JSON.parse(body)` method to convert the received data into an array:
 
 ```js
@@ -157,7 +157,7 @@ function getRepos(username) {
 }
 ```
 
-5. Passing data to the `app` module   
+5. Passing data to the `app` module
 
 To pass the obtained data to the `app` module, which imports the `github` module, note that the `app` module expects the `getRepos()` function with two parameters - `username` and a callback function that also has two parameters `(error, repos)`. This callback function needs to be specified as a parameter to the `getRepos()` function in the `github` module. Let's name it `done` - a standard name for such functions.
 
@@ -204,7 +204,7 @@ if (!username) return done(new Error("Username is required"));
 Create a variable `request` and set its value to the `https.get()` method:
 
 ```js
-req.on('error', error => done(new Error('Failed to send request')));
+req.on("error", (error) => done(new Error("Failed to send request")));
 ```
 
 3. An error in receiving a response from the server is indicated by a response status other than `200`:
@@ -253,8 +253,8 @@ function getRepos(username, done) {
     } else {
       done(
         new Error(
-          `Error working with the server ${res.statusCode} ${res.statusMessage}`,
-        ),
+          `Error working with the server ${res.statusCode} ${res.statusMessage}`
+        )
       );
     }
   });

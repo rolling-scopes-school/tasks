@@ -8,7 +8,7 @@ In Node.js, you can run a file with specific command line arguments. When runnin
 node test 1 2 3
 ```
 
-`1`, `2`, `3` are the arguments.   
+`1`, `2`, `3` are the arguments.  
 How can you access the arguments passed when the file is launched within the code? This is done using the `process.argv` property of the global `process` object.
 
 In the `test.js` file, let's write the code:
@@ -17,7 +17,7 @@ In the `test.js` file, let's write the code:
 console.log(process.argv);
 ```
 
-In the terminal, execute the command `node test 1 2 3`.   
+In the terminal, execute the command `node test 1 2 3`.  
 In the console, an array is displayed, the first two elements of which are the path to the node.exe file and the path to the executed file. After that come the passed arguments.
 
 If you only need to get the arguments, execute the code:
@@ -59,7 +59,7 @@ console.log(message);
 
 ### Practical Usage
 
-In practice, when you write code to handle command line arguments yourself, it is necessary to handle various situations correctly — an argument may be missing, a flag may not be passed, or it may be passed without a value. The mere presence of a flag can also be a boolean value, and so on.   
+In practice, when you write code to handle command line arguments yourself, it is necessary to handle various situations correctly — an argument may be missing, a flag may not be passed, or it may be passed without a value. The mere presence of a flag can also be a boolean value, and so on.  
 To make working with command line arguments more convenient and minimize the likelihood of errors, it is useful to use ready-made solutions such as [minimist](https://www.npmjs.com/package/minimist), [commander](https://www.npmjs.com/package/commander), [yargs](https://www.npmjs.com/package/yargs), and others.
 
 ### CLI Options
@@ -88,7 +88,7 @@ will result in an error. You can view the full list of options in the [documenta
 
 ### Environment Variables
 
-Sometimes we need to pass some value from the **outside** to our code, which will be used by our application. For example, we want to implement different behavior when the application is launched on a production server and during development. Environment variables can help us in this case. 
+Sometimes we need to pass some value from the **outside** to our code, which will be used by our application. For example, we want to implement different behavior when the application is launched on a production server and during development. Environment variables can help us in this case.
 
 Environment variables have a syntax like `variable_name=variable_value` and are placed before `node ....`. In Bash, for example, you can pass a variable that shows in which mode the application is currently running:
 
@@ -150,7 +150,7 @@ stdin.on("data", (data) => {
   const numStringsArray = numString.split(" ");
   const hasIncorrectLength = numStringsArray.length !== 2;
   const hasIncorrectValues = numStringsArray.some((numStr) =>
-    Number.isNaN(+numStr),
+    Number.isNaN(+numStr)
   );
   if (hasIncorrectLength || hasIncorrectValues) {
     stdout.write("You need to enter 2 numbers separated by a space");

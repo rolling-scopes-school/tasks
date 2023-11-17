@@ -13,7 +13,7 @@ const fs = require("fs");
 const readableStream = fs.createReadStream("source.txt");
 ```
 
-A readable stream has a `data` event that is emitted when the stream has read a chunk of data and is ready to deliver it to the consumer of that data.   
+A readable stream has a `data` event that is emitted when the stream has read a chunk of data and is ready to deliver it to the consumer of that data.  
 When this event occurs, we will output the received part of the data to the console:
 
 ```js
@@ -24,7 +24,7 @@ readableStream.on("data", (chunk) => console.log(chunk));
 
 In the console, instead of text, there are `Buffer` objects. Previously, we solved this problem using the `data.toString()` method, but you can convert a `Buffer` to a string in another way by specifying the encoding `'utf-8'` as the second parameter of the `createReadStream()` method.
 
-How can we be sure that the data is coming in chunks?   
+How can we be sure that the data is coming in chunks?  
 Let's output to the console not the data itself, but the length of each incoming data chunk:
 
 ```js

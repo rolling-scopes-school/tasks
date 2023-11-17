@@ -2,11 +2,11 @@
 
 [HOME](../README.md)
 
-Unlike browser-based JavaScript, Node.js has access to the file system.   
+Unlike browser-based JavaScript, Node.js has access to the file system.  
 For example, we can easily determine the absolute path to the directory containing our file. To do this, open the `test.js` file and write the code:
 
 ```js
-console.log(__dirname); 
+console.log(__dirname);
 ```
 
 Open the terminal and run the file:
@@ -15,7 +15,7 @@ Open the terminal and run the file:
 node test
 ```
 
-The console will output the absolute path to the directory with the `test.js` file.   
+The console will output the absolute path to the directory with the `test.js` file.  
 Now let's output the absolute path to the file. To do this, add the line in the `test.js` file:
 
 ```js

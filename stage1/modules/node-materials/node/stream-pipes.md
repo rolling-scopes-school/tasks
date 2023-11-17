@@ -13,7 +13,7 @@ const output = fs.createWriteStream("destination.txt");
 input.pipe(output);
 ```
 
-Despite the reduction in code, it works exactly the same as before.   
+Despite the reduction in code, it works exactly the same as before.  
 The `pipe()` method, available on every stream, can be used to combine one stream with another. Such chains can connect multiple streams.
 
 This feature of the `pipe()` method is used, for example, for compressing files.
