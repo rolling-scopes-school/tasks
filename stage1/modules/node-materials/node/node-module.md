@@ -51,7 +51,7 @@ Packages are convenient to work with using package managers such as `npm` or `ya
 
 To install a package using `npm`, use the command:
 
-```powershell
+```bash
 npm install <module name>
 ```
 
@@ -76,7 +76,7 @@ A `package.json` file is created in the project folder, describing the created a
 
 ### Installing Packages via npm
 
-To install a module, use the command
+To install a module, use the command:
 
 ```bash
 npm install <module name>
@@ -94,7 +94,8 @@ Removing a module:
 npm uninstall nodemon
 ```
 
-Installed modules are added to the `node_modules` folder, and information about them is added to the `package.json` file. Additionally, a `package-lock.json` file is automatically created, ensuring package identity among different users and performing other useful functions.
+Installed modules are added to the `node_modules` folder, and information about them is added to the `package.json` file.  
+Additionally, a `package-lock.json` file is automatically created, ensuring package identity among different users and performing other useful functions.
 
 If you delete the `node_modules` folder and execute the `npm install` command, the `node_modules` folder will be restored along with all the added modules based on the records in the `package.json` file.
 

@@ -44,9 +44,6 @@ let data = "";
 stream.on("data", (chunk) => (data += chunk));
 ```
 
-Так как мы имеем дело с потоком данных, нам нужно знать когда поток завершится. Для этого у стрима есть событие `'end'`. Это событие срабатывает когда все данные уже переданы.  
-При наступлении события `'end'` выведем в консоль сообщение и длину полученных данных:
-
 Since we are dealing with a data stream, we need to know when the stream will end. For this, the stream has an `end` event. This event is triggered when all the data has already been passed.
 
 When the `end` event occurs, we'll output a message to the console and the length of the received data:

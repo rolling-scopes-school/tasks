@@ -96,7 +96,7 @@ stdin.on("data", (data) => {
 });
 ```
 
-If we log the type of the `data` variable to the console, we will see `object`. By applying the [trick with the special `[[Class]]` property](https://learn.javascript.ru/class-instanceof#sekretnoe-svoystvo-class), we get `[object Uint8Array]` for `data`.
+If we log the type of the `data` variable to the console, we will see `object`. By applying the [trick with the toString() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString#using_tostring_to_detect_object_class), we get `[object Uint8Array]` for `data`.
 
 Since `process.stdin` is a stream, it works with data in **binary** format. To handle such data in Node.js, there is a special `Buffer` object, which is a subclass of `Uint8Array` (a typed array storing 8-bit unsigned integer values).  
 The data contained in the `Buffer` can be converted to a string:

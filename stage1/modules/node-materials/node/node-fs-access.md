@@ -11,7 +11,7 @@ console.log(__dirname);
 
 Open the terminal and run the file:
 
-```powershell
+```bash
 node test
 ```
 

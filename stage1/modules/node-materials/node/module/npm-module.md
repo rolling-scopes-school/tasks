@@ -4,7 +4,7 @@
 
 Let's install the `colors` module using `npm`. In the terminal, execute the command:
 
-```powershell
+```bash
 npm install colors
 ```
 

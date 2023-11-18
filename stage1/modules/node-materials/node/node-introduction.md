@@ -4,7 +4,7 @@
 
 ### Installing Node.js
 
-Download link https://nodejs.org/en
+Download link: https://nodejs.org/en
 
 Download and install the latest LTS version (Recommended For Most Users)
 
@@ -54,7 +54,7 @@ console.log("Hello, world!");
 
 Open this file with VS Code, in the terminal execute the command:
 
-```powershell
+```bash
 node test.js
 ```
 

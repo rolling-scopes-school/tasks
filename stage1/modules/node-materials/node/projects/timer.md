@@ -2,8 +2,9 @@
 
 [HOME](../../README.md)
 
-Directly creating objects based on the `EventEmitter` class is extremely rare.
+Directly creating objects based on the `EventEmitter` class is extremely rare.  
 More often, the interface for working with events is added to other objects. This is done through inheritance.
+
 Let's create a class called `Timer` that will inherit from `EventEmitter`, and, as a result, its instances will have the `emit()` and `on()` methods:
 
 ```js

@@ -2,17 +2,17 @@
 
 [HOME](../../README.md)
 
-Let's write a simple console application called Notes for working with notes. The application needs to implement four methods:
+Let's write a simple console application called Notes for working with notes. The application needs to implement 4 methods:
 
 - `create`
 - `list`
 - `view`
 - `remove`
 
-The `create` method creates a new note in the notes.json file. The `create` method has two arguments: the note's title and its content.  
-The `list` method displays a list of notes.  
-The `view` method outputs the content of a note whose title is passed as an argument.  
-The `remove` method deletes a note whose title is passed as an argument.
+1. The `create` method creates a new note in the notes.json file. The `create` method has two arguments: the note's title and its content.
+2. The `list` method displays a list of notes.
+3. The `view` method outputs the content of a note whose title is passed as an argument.
+4. The `remove` method deletes a note whose title is passed as an argument.
 
 To call these methods, they are specified as command-line arguments.
 
@@ -66,11 +66,6 @@ The function works, but it doesn't add data; instead, it replaces them.
 
 So, we need to:
 
-- прочитать уже имеющиеся данные из файла `'notes.json'` при помощи метода `fs.readFile()`
-- преобразовать полученные данные в массив при помощи метода `JSON.parse()`
-- дополнить массив новыми данными при помощи метода `.push()`
-- преобразовать массив в JSON при помощи метода `JSON.stringify()`
-- записать данные в файл `'notes.json'` при помощи метода `fs.writeFile()`
 - Read the existing data from the `notes.json` file using the `fs.readFile()` method
 - Convert the received data into an array using the `JSON.parse()` method
 - Add new data to the array using the `.push()` method
@@ -95,7 +90,7 @@ function create(title, content) {
 
 Run the file with the command:
 
-```powershell
+```bash
 node index create title content
 ```
 

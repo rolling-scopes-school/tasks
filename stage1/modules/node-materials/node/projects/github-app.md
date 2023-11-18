@@ -8,7 +8,7 @@ To achieve this, we'll use the GitHub API. The request `https://api.github.com/u
 
 1. Start by creating a new Node.js application
 
-Create a folder named github-app, open it in VS Code, and run the following command in the terminal:
+Create a folder named `github-app`, open it in VS Code, and run the following command in the terminal:
 
 ```
 npm init -y
@@ -35,6 +35,7 @@ const username = process.argv[2];
 
 Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.  
 The parameters of the `getRepos()` function are `username` - the username and a callback function taking two parameters: `error` - an error, and `repos` - the received data, in our case, a list of repositories.
+
 In the callback function, let's handle the error and print the names of the repositories to the console:
 
 ```js
@@ -49,11 +50,11 @@ github.getRepos(username, (error, repos) => {
 
 Our application will communicate with the server over the `https` protocol. For this, Node.js has a built-in `https module`, similar to the [HTTP Module](../module/http.md).
 
-To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.
+To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.  
 Import the `https` module and write the code for the `getRepos()` function. The function parameter is `username` - the GitHub username.
 The `https.get()` method has two parameters: the URL to which the request is sent and a callback function taking one parameter - the server response, abbreviated as `res`.
 
-The `res.statusCode` property returns the server response. A response of `200` indicates a successful connection, while any other response indicates a connection problem.
+The `res.statusCode` property returns the server response. A response of `200` indicates a successful connection, while any other response indicates a connection problem.  
 Export the `github` module as an object with a `getRepos` property and the value of `getRepos`:
 
 ```js
@@ -94,7 +95,8 @@ Use the `option` object as the first parameter in `the https.get` method. The ap
 
 4. Handling incoming data
 
-Almost everything in Node.js, including communication with the server, is implemented asynchronously, using events and streams. Information from the server comes in parts.  
+Almost everything in Node.js, including communication with the server, is implemented asynchronously, using events and streams. Information from the server comes in parts.
+
 The server response (`res`) has a `data` event, which fires when a part of the requested information comes from the server. Subscribe to this event and print the received data to the console:
 
 ```js
@@ -133,7 +135,8 @@ function getRepos(username) {
 }
 ```
 
-The response (`res`) method has an `end` event, which triggers when the data transmission is complete.  
+The response (`res`) method has an `end` event, which triggers when the data transmission is complete.
+
 Upon the occurrence of this event, use the `JSON.parse(body)` method to convert the received data into an array:
 
 ```js
@@ -186,6 +189,8 @@ function getRepos(username, done) {
 
 6. Error Handling
 
+When working with the application, errors may occur in the following cases:
+
 - The application is launched without a username
 - An error occurs when sending a request if a nonexistent username is specified
 - An error occurs when receiving a response from the server
@@ -199,7 +204,7 @@ Handle errors in the `github` module and pass them to the `app` module, specifyi
 if (!username) return done(new Error("Username is required"));
 ```
 
-2. Request error - the `error` event of the `request` method.
+2. Request error - the `error` event of the `request` method
 
 Create a variable `request` and set its value to the `https.get()` method:
 
@@ -253,8 +258,8 @@ function getRepos(username, done) {
     } else {
       done(
         new Error(
-          `Error working with the server ${res.statusCode} ${res.statusMessage}`
-        )
+          `Error working with the server ${res.statusCode} ${res.statusMessage}`,
+        ),
       );
     }
   });

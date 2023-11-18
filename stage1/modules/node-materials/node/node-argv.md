@@ -32,7 +32,7 @@ The `process.argv.slice(2)` method returns a new array that starts from the elem
 
 To have the ability to send arguments in any order or skip some of them, you can mark command line arguments. For this purpose, flags are used. Flags are words or symbols indicating that a command line argument follows them. Flags are usually preceded by one or two dashes to avoid confusion with arguments. For example:
 
-```powershell
+```bash
 node test -m Hello
 ```
 
@@ -80,7 +80,7 @@ obj.sayHi();
 
 with the option `--disable-proto=throw`:
 
-```powershell
+```bash
 node --disable-proto=throw test
 ```
 
@@ -119,14 +119,14 @@ if (productionMode) {
 
 Write a program that prompts the user to enter two numbers, adds these numbers if launched with the `-s` flag, or multiplies them if launched with the `-m` flag, and then terminates. Use standard input/output for input and output. Here is an example of how it should work (user input starts with `>`):
 
-```powershell
+```bash
 > node test.js -m
 Enter 2 numbers
 > 2 7
 2 * 7 = 14
 ```
 
-```powershell
+```bash
 > node test.js -s
 Enter 2 numbers
 > 2 7
@@ -150,7 +150,7 @@ stdin.on("data", (data) => {
   const numStringsArray = numString.split(" ");
   const hasIncorrectLength = numStringsArray.length !== 2;
   const hasIncorrectValues = numStringsArray.some((numStr) =>
-    Number.isNaN(+numStr)
+    Number.isNaN(+numStr),
   );
   if (hasIncorrectLength || hasIncorrectValues) {
     stdout.write("You need to enter 2 numbers separated by a space");

@@ -2,7 +2,7 @@
 
 [HOME](../README.md)
 
-![stream schema](https://pawelgrzybek.com/photos/2020-07-14-1.png)
+![stream schema](images/stream-schema.png)
 
 When working with a significant amount of data, processing it all at once can lead to loading the entire dataset into memory and freezing the program for the entire duration of the operation.
 
