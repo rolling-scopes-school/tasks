@@ -89,8 +89,8 @@
 
   - [Module "CSS positioning. Flex."](modules/css-positioning/)
   - [Module "CSS grid layout"](modules/css-grid/)
-  - [Module: CSS Preprocessors. Sass](modules/sass/en/)
-  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
+  - [Module: CSS Preprocessors. Sass](modules/sass/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 - Tasks:
 
