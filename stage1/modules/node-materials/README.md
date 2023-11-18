@@ -38,14 +38,12 @@ Node.js has its drawbacks, particularly in scenarios demanding intensive calcula
    - [Timer App](node/projects/timer.md)
    - [Github App](node/projects/github-app.md)
 
-## Материалы
+## Materials
 
-// TODO: revise materials
-
-- [Введение в node.js](http://imnotgenius.com/vvedeniya-v-node-js/)
-- [Гайд по Node.js](https://nodejsdev.ru/guide/)
-- [Скринкаст по Node.js](https://learn.javascript.ru/screencast/nodejs)
-- [Создание первого приложения на Node](https://webref.ru/dev/first-node-app)
-- [Руководство по Node.js - metanit](https://metanit.com/web/nodejs/)
-- [Пишем API на Node.js](https://www.youtube.com/playlist?list=PLY4rE9dstrJzrDaSPKOrhNgQ19GhVl19u)
-- [Герман Волков. Node.js](https://youtu.be/qZ5xzkEdkhg) - [Презентация](https://drive.google.com/file/d/1P3mRxOQISJHEatmAEv5X_f1Qk8OEr9rZ/view)
+- [How to Get Started with NodeJS](https://www.freecodecamp.org/news/get-started-with-nodejs/)
+- [Introduction to NodeJS](https://youtu.be/JZXQ455OT3A?si=9bmAsMq0PDKB-4QA)
+- [The Absolute Beginner's Guide to Node.js](https://www.cloudbees.com/blog/node-js-tutorial)
+- [Node.js Tutorial for Beginners](https://youtu.be/-u-j7uqU7sI?si=LOEicYHfrPmxwftO)
+- [Build a Node.js Project from scratch](https://anotheruiguy.gitbooks.io/nodeexpreslibsass_from-scratch/content/)
+- [NodeJS Tutorial](https://www.geeksforgeeks.org/nodejs/)
+- [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8?si=WosH_b9hgkH7MPqj)
