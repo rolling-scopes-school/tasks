@@ -1,5 +1,3 @@
-### Pull Request Template for rolling-scopes-school/tasks 📝
-
 #### Title of Pull Request
 
 <!-- ✍️ Provide a concise and informative title for your pull request -->
