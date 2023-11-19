@@ -174,6 +174,7 @@
 
 - [Module: Clean Code](modules/clean-code/)
 - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- [Linters, Formatters, and Husky](modules/linters-formatters-husky/README.md)
 
 ### Week #8
 
