@@ -100,8 +100,8 @@
 
   - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
   - [[St1] CSS grid](modules/css-grid/)
-  - [[St1] Preprocessors. SASS.](modules/sass/en/)
-  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/)
+  - [[St1] Preprocessors. SASS.](modules/sass/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 ### Week #4
 
