@@ -24,6 +24,7 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Network Communication:**
+
 - [RS School Webinar on Network Communication part 1 (RU)](https://www.youtube.com/watch?v=4jA9Nea51T8) - 2 hours
 - [RS School Webinar on Network Communication part 2 (RU)](https://www.youtube.com/watch?v=_8GoJck9O9Y) - 2 hours
 
@@ -34,15 +35,6 @@ Students are encouraged to study the following resources:
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
-
-//TODO: revise resources
-
-1. [Работа с сетью](https://doka.guide/tools/network/)
-2. [Модели сетевого взаимодействия](https://doka.guide/tools/network-models/)
-3. [Шифрование](https://doka.guide/tools/encoding/)
-4. [SSL-сертификаты](https://doka.guide/tools/ssl-certificates/)
-5. [Протокол HTTP](https://doka.guide/tools/http-protocol/)
-6. [HTTP/1 to HTTP/2 to HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
 
 1. [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
 2. [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
