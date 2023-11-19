@@ -12,7 +12,7 @@ Students will:
 - Grasp key operators used in media queries.
 - Understand the purpose and implementation of the viewport meta tag.
 
-## Estimated Module Duration ⏱️
+## Approximate Module Completion Time ⏱️
 
 - **2.5 hours**
 

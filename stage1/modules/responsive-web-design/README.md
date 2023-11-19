@@ -11,9 +11,9 @@ Students should familiarize themselves with:
 - The fundamentals of Responsive Web Design.
 - Techniques and strategies for designing responsive layouts.
 
-### Duration ⏱️
+## Approximate Module Completion Time ⏱️
 
-- Approximately 6 hours.
+- **6 hours.**
 
 ### Theory 📖
 
