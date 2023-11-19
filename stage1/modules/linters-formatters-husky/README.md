@@ -11,10 +11,10 @@ This module introduces students to essential development tools: Linters, Formatt
   - Formatters
   - Husky
 - Explore reasons to use these tools
-- Get to know how to install and configure these tools 
-
+- Get to know how to install and configure these tools
 
 ## Approximate Module Completion Time ⏱️
+
 - **1,5 hour**
 
 ## Theory 📖
@@ -29,9 +29,11 @@ This module introduces students to essential development tools: Linters, Formatt
 8. Watch [the video-tutorial about husky setting up](https://www.youtube.com/watch?v=-qHA6zbOdLc) (~ 4 min)
 
 ## Practice 💻
+
 1. Students should take the "[St1] Linters, Formatters, and Husky" test in RS APP > Auto Test.
 
 ## Additional materials:
+
 1. [Prettier documentation](https://prettier.io/)
 2. [ESLint configuration (docs)](https://eslint.org/docs/latest/use/configure/)
 3. [Popular style guides](https://blog.codacy.com/4-popular-javascript-style-guides)
