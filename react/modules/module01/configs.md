@@ -46,9 +46,7 @@ Might be insignificantly changed
     "jest": true,
     "node": true
   },
-  "plugins": [
-    "@typescript-eslint", "react", "react-hooks"
-  ],
+  "plugins": ["@typescript-eslint", "react", "react-hooks"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -72,7 +70,6 @@ Might be insignificantly changed
     }
   }
 }
-
 ```
 
 ## Prettier configuration
@@ -115,4 +112,4 @@ Might be insignificantly changed
 }
 ```
 
-Note: If you use ```CRA``` you should remove ```"references": [{ "path": "./tsconfig.node.json" }]``` from the config above
+Note: If you use `CRA` you should remove `"references": [{ "path": "./tsconfig.node.json" }]` from the config above

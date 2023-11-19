@@ -1,4 +1,3 @@
-
 # YouTube client app
 
 [Figma mockup](https://www.figma.com/file/tS3Zqk138yXUmRxSWKDv4r/YouTube-client?node-id=0%3A1)
@@ -6,6 +5,7 @@
 ## Angular. Components. Directives & Pipes task
 
 ### Task requirements
+
 The main goal of this task is to implement the main page of the YouTube client app.
 You are to enrich previously generated components with necessary functionality and markup.
 
@@ -14,39 +14,42 @@ You can use any UI frameworks/libraries to simplify (facilitate) the creation of
 **[YouTube client. Main page](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
 
 #### Components structure
+
 - Header
-    - Logo
-    - Search input with submit button
-    - Settings button
-    - Login information block
+  - Logo
+  - Search input with submit button
+  - Settings button
+  - Login information block
 - Filtering criteria block
-    - Buttons that represent each sort criterion
-    - Input that is related to the "by word or sentence" criterion which is used for filtering results
+  - Buttons that represent each sort criterion
+  - Input that is related to the "by word or sentence" criterion which is used for filtering results
 - Search results block
-    - Search result item
-        - Video thumbnail
-        - Views count
-        - Likes count
-        - Dislikes count
-        - Comments count
-        - Video title
-        - "More button"
+  - Search result item
+    - Video thumbnail
+    - Views count
+    - Likes count
+    - Dislikes count
+    - Comments count
+    - Video title
+    - "More button"
 
 #### Functional requirements
+
 - When user opens the app, only the **Header** section should be shown
 - After submitting the search form, the **Search results block** appears.
 - Show cards of videos populated with mocked data (use data from [response example](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/response.json) file). You can store the mocked data in the **Search results** component
-    - The bottom border represents the publication date status. The following border colors should be used:
-        - 🟥 if older than 6 months
-        - 🟨 if between 1 and 6 months
-        - 🟩 if between 7 days and 1 month
-        - 🟦 if newer than 7 days
+  - The bottom border represents the publication date status. The following border colors should be used:
+    - 🟥 if older than 6 months
+    - 🟨 if between 1 and 6 months
+    - 🟩 if between 7 days and 1 month
+    - 🟦 if newer than 7 days
 - By clicking the **Settings** button, the **Filtering criteria block** should be toggled on/off
-    - It should be possible to sort search results by date or view count
-    - Sorting should work in both ascending and descending directions of the values
-    - Filter search results by the value that user types in the input
+  - It should be possible to sort search results by date or view count
+  - Sorting should work in both ascending and descending directions of the values
+  - Filter search results by the value that user types in the input
 
 #### Evaluation criteria
+
 Maximum score - **100**
 
 - [ ] Main layout is implemented (**+10**)
@@ -60,6 +63,7 @@ Maximum score - **100**
 - [ ] One of the components is implemented as [standalone](https://angular.io/guide/standalone-components). Strong recommendation to choose a simple presentational component and not a "Smart" container component for this task (**+5**)
 
 Fines
+
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app has wrong components structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-30**)
@@ -71,6 +75,7 @@ Fines
 - [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
 
 ### Useful links
+
 https://angular.io/tutorial
 
 https://angular.io/tutorial/tour-of-heroes/toh-pt1

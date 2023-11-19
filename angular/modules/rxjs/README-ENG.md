@@ -3,7 +3,7 @@
 ## In this module, students need to learn:
 
 - Principles of reactive programming.
-- hot/cold `Observable`, `Subject`, `RxJS`  operators.
+- hot/cold `Observable`, `Subject`, `RxJS` operators.
 
 ## Approximate time to complete this module:
 
@@ -26,10 +26,10 @@ Following materials also should be considered as learning sources before startin
 - [RxJS Crash Cource](https://youtu.be/tGWBy6Vqq9w)
 - [RxJS best practices](https://blog.brecht.io/rxjs-best-practices-in-angular)
 - Hot and Cold Observables:
-    - [Explanation by Predrag Carapic](https://www.decodedfrontend.io/hot-vs-cold-observable-in-rxjs)
-    - [Explanation by Sebastian](https://medium.com/codingthesmartway-com-blog/getting-started-with-rxjs-part-3-hot-and-cold-observables-4713757c9a88)
+  - [Explanation by Predrag Carapic](https://www.decodedfrontend.io/hot-vs-cold-observable-in-rxjs)
+  - [Explanation by Sebastian](https://medium.com/codingthesmartway-com-blog/getting-started-with-rxjs-part-3-hot-and-cold-observables-4713757c9a88)
 - Higher-order Observables
-    - [RxJS documentation](https://rxjs.dev/guide/higher-order-observables)
+  - [RxJS documentation](https://rxjs.dev/guide/higher-order-observables)
 
 ## Practical assignment
 
@@ -45,8 +45,8 @@ Following materials also should be considered as learning sources before startin
 
 - [Reactive Extensions For JavaScript](https://www.npmjs.com/package/rxjs)
 - RxJS visualization:
-    - [Graphic examples](https://rxjs-visualize.explosionpills.com)
-    - [Real-time simulator](https://rxviz.com)
+  - [Graphic examples](https://rxjs-visualize.explosionpills.com)
+  - [Real-time simulator](https://rxviz.com)
 - [9 most used RxJS operators](https://www.linkedin.com/pulse/top-9-commonly-used-rxjs-operators-angular-akash-chauhan)
 - [13 most used RxJS operators by Naveen Chandupatla](https://medium.com/@nkchandupatla/rxjs-most-commonly-used-operators-b987e526ceb6)
 - [6 important RxJS operators by Netanel Basal](https://netbasal.com/rxjs-six-operators-that-you-must-know-5ed3b6e238a0)

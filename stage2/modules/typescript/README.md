@@ -7,7 +7,6 @@
 - generics
 - any, unknown
 
-
 0. Basics https://www.typescriptlang.org/docs/handbook/2/basic-types.html
 1. Types https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 2. Utility Types https://www.typescriptlang.org/docs/handbook/utility-types.html

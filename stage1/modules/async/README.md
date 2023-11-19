@@ -1,13 +1,15 @@
-# [Stage#1.](../../) Asynchronous JavaScript 
+# [Stage#1.](../../) Asynchronous JavaScript
+
 ## В данном модуле студентам необходимо изучить:
-- Introduction	
-- Programming Asynchronously with Callbacks	
+
+- Introduction
+- Programming Asynchronously with Callbacks
   - Understanding what asynchronous means
   - Defining asynchronous programming
   - Understanding callbacks
   - Building code using a callback
   - Implementing a fail callback
-- Programming Asynchronously with Promises	
+- Programming Asynchronously with Promises
   - Understanding promises
   - Building code using promises
   - Working with a returned promise
@@ -16,17 +18,19 @@
   - Batching multiple promises: Preparation
   - Batching multiple promises: Implementation
   - Polyfilling promises
-- Programming Asynchronously with Async/Await	
+- Programming Asynchronously with Async/Await
   - Understanding the async/await model
   - Building code using async/await
   - Handling errors with async/await
 
 ## Приблизительное время прохождения модуля
+
 4 часа
 
-## Теория 
+## Теория
+
 // TODO
 
-## Практика 
-Вам необходимо пройти тест "Async JS Test" в RS APP > Auto Test
+## Практика
 
+Вам необходимо пройти тест "Async JS Test" в RS APP > Auto Test

@@ -5,11 +5,13 @@
 In this coding task, you will attempt to integrate Jest into the Angular application and develop unit tests for services and components.
 
 #### Task scope
+
 - Migrate Angular application from Karma and Jasmine to Jest.
 - Write unit test cases for services.
 - Write unit test cases for components.
 
 #### Evaluation criteria
+
 Maximum score - **100**
 
 - [ ] Uninstall Karma and Jasmine packages from the Angular project. (**+5**)
@@ -38,4 +40,5 @@ Fines
 - [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
 
 ### Useful links
+
 - [Angular unit testing with Jest 2023](https://medium.com/@megha.d.parmar2018/angular-unit-testing-with-jest-2023-2676faa2e564)

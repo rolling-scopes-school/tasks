@@ -13,9 +13,11 @@
 - CORS
 
 ## Estimated time to complete the module
+
 10 hours
 
 ## Theory
+
 - [[RU] Lecture: Authentication, JWT and Security](https://www.youtube.com/watch?v=K0K4bCQAfUM)
 - [OWASP TOP-10](https://owasp.org/www-project-top-ten/)
 - [JWT basics](https://jwt.io/introduction)
@@ -23,6 +25,8 @@
 - [Passport strategies](https://www.passportjs.org/packages/)
 
 ## Practice
+
 1. Assignment: **REST Service: Authentication, JWT and Security**
-  - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/assignment.md)
-  - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/score.md)
+
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/authentication/score.md)
