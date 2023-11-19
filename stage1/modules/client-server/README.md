@@ -1,4 +1,4 @@
-# [Stage#1.](../../) Client - Server Interaction Overview
+# [Stage#1.](../../) Client-Server Interaction Overview
 
 ## Module Overview 📚
 
