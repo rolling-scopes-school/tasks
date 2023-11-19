@@ -94,7 +94,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
 
 - Tests:
 
@@ -118,7 +118,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
 
 - Tests:
 
@@ -140,7 +140,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
 
 - Tests:
 
@@ -152,7 +152,7 @@
 
 #### December 12, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/coffee-house-week3.md)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 
