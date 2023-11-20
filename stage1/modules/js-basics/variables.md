@@ -14,8 +14,7 @@
 ## Theory
 
 - [detailed article](https://javascript.info/variables) (~15 min)
-- [summary table](https://www.geeksforgeeks.org/javascript-variables/#:~:text=When%20to%20Use%20var%2C%20let%2C%20or%20const) of differences between existed ways of variable declaration (~ 5 min)
-- [hoisting](https://www.programiz.com/javascript/hoisting) (~ 10 min)
+- [detailed article](https://www.freecodecamp.org/news/how-to-declare-variables-in-javascript/) of differences between variable declaration, reassignment, scope and hoisting (~ 20 min)
 
 ## Practice
 

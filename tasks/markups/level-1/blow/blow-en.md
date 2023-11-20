@@ -1,7 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| no | blow |
-
+| Deadline | Folder name |
+| -------- | ----------- |
+| no       | blow        |
 
 # Homework: Blow. Difficulty Level 1.
 
@@ -17,14 +16,13 @@ JPG:
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
-*[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
+_[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)_
 
 Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
-
 ## Procedure
 
-Create a new private repository named *blow* in **your** Github account and upload your HTML and CSS files.
+Create a new private repository named _blow_ in **your** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
@@ -46,13 +44,13 @@ Fully responsive layout **is not required**.
 2. Navigation bar in the top of application.
 3. Interactive button.
 
-
 ## Useful links
 
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
 
 ## If you don't have Photoshop to work with .psd files
+
 There’s a good design tool: https://studio.psdetch.com/
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
 If you need to extract an image, the “export” function is available.
@@ -62,4 +60,3 @@ However, if you lack some of the functionality when using the previous service, 
 No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
 It also supports work with layers and export operations (including .svg format).
 Another advantage is that its interface is very similar to that of Photoshop.
-

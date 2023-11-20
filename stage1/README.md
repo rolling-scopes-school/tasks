@@ -89,19 +89,19 @@
 
   - [Module "CSS positioning. Flex."](modules/css-positioning/)
   - [Module "CSS grid layout"](modules/css-grid/)
-  - [Module: CSS Preprocessors. Sass](modules/sass/en/)
-  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
+  - [Module: CSS Preprocessors. Sass](modules/sass/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 - Tasks:
 
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
 
 - Tests:
 
   - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
   - [[St1] CSS grid](modules/css-grid/)
-  - [[St1] Preprocessors. SASS.](modules/sass/en/)
-  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/)
+  - [[St1] Preprocessors. SASS.](modules/sass/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 ### Week #4
 
@@ -113,12 +113,12 @@
 
 - Modules:
 
-  - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
+  - [Module: "Responsive Web Design"](modules/responsive-web-design/)
   - [Module: "Media Queries"](modules/media-queries/)
 
 - Tasks:
 
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
 
 - Tests:
 
@@ -140,7 +140,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
 
 - Tests:
 
@@ -152,7 +152,7 @@
 
 #### December 12, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/coffee-house-week3.md)
+- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 
@@ -174,6 +174,7 @@
 
 - [Module: Clean Code](modules/clean-code/)
 - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- [Linters, Formatters, and Husky](modules/linters-formatters-husky/README.md)
 
 ### Week #8
 

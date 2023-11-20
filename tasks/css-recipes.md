@@ -1,6 +1,6 @@
-﻿ Folder Name    | Coefficient
-----------------|----------------|
- css-recipes    | 0.5
+﻿| Folder Name | Coefficient |
+| ----------- | ----------- |
+| css-recipes | 0.5         |
 
 [Link to PSD template](https://www.dropbox.com/sh/b1kiqkpadgwup8a/AAAU1kQWCt5yD32MGfILVSQoa?dl=0&preview=CV+Portfoilio.psd)
 
@@ -20,6 +20,7 @@
 
 You may use fonts such as Font Awesome for icons.
 The layout **should not** be implemented with:
+
 - Using tables (an outdated technique for implementing layouts);
 - CSS Grid or Flexbox( will be covered in the following lectures and tasks).
 
@@ -28,6 +29,7 @@ The layout **should not** break after deleting or adding an element.
 You should add hover effects for active elements (such as buttons, links, etc.), which effect to use is up to you - for example, the color of a button can change on hover.
 
 ### Additional
- - If you want you can add images to your page content.
- 
- [text generator](http://www.lipsum.com/)
+
+- If you want you can add images to your page content.
+
+[text generator](http://www.lipsum.com/)
