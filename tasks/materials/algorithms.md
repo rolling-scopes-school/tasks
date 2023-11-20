@@ -1,18 +1,18 @@
-# Алгоритмы/Структуры данных
+# Algorithms/Data Structures
 
-- [Базовые алгоритмы сортировки и поиска](#Базовые-алгоритмы-сортировки-и-поиска)
-- [Базовые структуры данных](#Базовые-структуры-данных)
+- [Basic Sorting and Searching Algorithms](#Basic-Sorting-and-Searching-Algorithms)
+- [Basic Data Structures](#Basic-Data-Structures)
 
-## Базовые алгоритмы сортировки и поиска
+## Basic Sorting and Searching Algorithms
 
-### Big-О или «О» большое
+### Big-О Notation
 
-В программировании Big-О показывает, за сколько шагов (тактов процессора) выполняется алгоритм.\
-Характеризует быстродействие функции (эффективность конкретного алгоритма).\
-Использовать Big-О для оценки сложности алгоритма предложил Дональд Кнут.\
-Читаем: О(1) – О от одного, О(n) – О от n.
+In programming, Big-O notation indicates the number of steps (processor clock cycles) an algorithm takes to execute. It characterizes the efficiency of a function or a specific algorithm.
 
-Чем быстрее возрастает время выполнения функции при увеличении количества элементов, тем менее эффективен алгоритм. Одними из самых часто встречаемых сложностей являются:
+Donald Knuth introduced the use of Big-O to assess algorithm complexity.  
+Read as: O(1) – O of one, O(n) – O of n.
+
+The faster the execution time of a function increases with the number of elements, the less efficient the algorithm is. Some commonly encountered complexities include:
 
 - О(1)
 - O(log n)
@@ -21,24 +21,26 @@
 - O(n²)
 - O(n!)
 
-Их эффективность:
+Their efficiencies:
 
-![Наглядная сложность выполнения алгоритмов](images/big-o.png)
+![Visual representation of algorithm execution complexities](images/big-o.png)
 
-Следующее демо позволяет наглядно сравнить скорость выполнения некоторых алгоритмов сортировки, отличающихся значением Big-О (картинка кликабельна).
+The following demo visually compares the execution speed of some sorting algorithms that differ in their Big-O values (the image is clickable):
 
 [![Demo images](images/algoritms-timer-demo.png)](https://algorithms-timer-demo.netlify.app/)
 
-### Пузырьковая сортировка
+### Bubble Sort
 
-- Пробегает набор данных слева направо, сравнивая значения внутри каждой пары и перемещая наименьшее влево.
-  Процесс повторяется до тех пор, пока ни одно значение уже не может быть перемещено.
-- Алгоритм очень прост в реализации, но малоэффективен
-- Эффективность («О» большое):
-  - Наилучший вариант: O(n).
-  - Средний и худший варианты: O(n²).
+Iterates through a dataset from left to right, comparing values within each pair and moving the smallest to the left. The process repeats until no value can be moved.
 
-**Пузырьковая сортировка**
+The algorithm is simple to implement but inefficient.
+
+#### Efficiency (Big-O)
+
+- Best case: O(n)
+- Average and worst cases: O(n²)
+
+#### Implementation
 
 ```js
 function bubbleSort(arr) {
@@ -57,38 +59,34 @@ function bubbleSort(arr) {
 bubbleSort(arr);
 ```
 
-### Сортировка слиянием (merge sort)
+### Merge sort
 
-- Весь набор данных делится минимум на две группы.
-  Пары значений сравниваются между собой, наименьшее перемещается влево.
-  После сортировки внутри всех пар, сравниваются левые значения двух левых пар. Таким образом, создаётся группа из четырёх значений: два наименьшие — слева, наибольшие — справа.
-  Процесс повторяется до тех пор, пока не останется только один набор.
-- Это один из фундаментальных алгоритмов сортировки.
-- Эффективность («О» большое):
-  - Наилучший вариант: O(n).
-  - Средний и худший варианты: O(n log n).
+Divides the entire dataset into a minimum of two groups. Pairs of values are compared, and the smallest is moved to the left. After sorting within all pairs, the left values of two left pairs are compared, creating a group of four values: two smallest on the left, two largest on the right.  
+This process repeats until only one set remains.
 
-### Быстрая сортировка
+One of the fundamental sorting algorithms.
 
-- Весь набор данных делится пополам путём выбора среднего элемента и перемещения всех, кто меньше него, влево.
-  Затем такая же процедура итерационно выполняется с левой частью до тех пор, пока не останутся только два элемента. В результате левая часть окажется отсортированной.
-  Затем всё то же самое делается с правой частью.
+#### Efficiency (Big-O)
 
-Хотя «О» большое здесь имеет те же значения (а в ряде случаев — хуже), что и у многих других алгоритмов сортировки, но на практике этот алгоритм зачастую работает быстрее, например, той же сортировки слиянием.
-Данные будут последовательно делиться пополам, пока не будут целиком отсортированы.
+- Best case: O(n)
+- Average and worst cases: O(n log n)
 
-- Эффективность («О» большое):
-  - Наилучший вариант: O(n).
-  - Средний вариант: O(n log n).
-  - Худший вариант: O(n²).
+### Quick Sort
 
-**Сравнение алгоритмов сортировки слиянием и быстрой сортировки**
+Divides the entire dataset in half by selecting the middle element and moving all elements smaller than it to the left. The same procedure is iteratively performed on the left part until only two elements remain. The same process is then applied to the right part.  
+Data will continuously split until fully sorted.
 
-Быстрая сортировка на практике зачастую эффективнее.
-Сортировка слиянием сразу делит набор данных на наименьшие возможные группы, а затем восстанавливает набор, инкрементально сортируя и укрупняя группы.
-Быстрая сортировка последовательно делит набор по среднему значению, пока он не будет отсортирован рекурсивно.
+###### Note
 
-**Быстрая сортировка**
+Although the Big-O values here are the same as many other sorting algorithms (and in some cases worse), this algorithm often performs faster in practice, for example, compared to merge sort.
+
+#### Efficiency (Big-O)
+
+- Best case: O(n)
+- Average case: O(n log n)
+- Worst case: O(n²)
+
+#### Implementation
 
 ```js
 function quickSort(arr) {
@@ -106,11 +104,17 @@ function quickSort(arr) {
 quickSort(arr);
 ```
 
-### Бинарный поиск
+#### Comparison of Merge Sort and Quick Sort
 
-[Что такое бинарный поиск](https://youtu.be/9EmO9_MK1gQ?t=34)
+- Quick sort is often more efficient in practice
+- Merge sort immediately divides the dataset into the smallest possible groups and then incrementally sorts and merges the groups
+- Quick sort sequentially divides the dataset by the average value until it is recursively sorted
 
-**Бинарный поиск**
+### Binary Search
+
+#### Implementation
+
+1. Iteration Method
 
 ```js
 const arr = [-1, 0, 1, 2, 3, 4, 6, 100, 10000];
@@ -136,7 +140,11 @@ function binarySearchIterationMethod(arr, i) {
 }
 
 binarySearchIterationMethod(arr, 100); // 7
+```
 
+2. Recursive Method
+
+```js
 function binarySearchRecursiveMethod(arr, i, left = 0, right = arr.length - 1) {
   if (left > right) return -1;
   else {
@@ -154,86 +162,113 @@ function binarySearchRecursiveMethod(arr, i, left = 0, right = arr.length - 1) {
 binarySearchRecursiveMethod(arr, 5); // -1
 ```
 
-## Базовые структуры данных
+---
 
-- массив
-- список
-- стек
-- очередь
-- хэш таблица
-- двоичное дерево
+## Basic Data Structures
 
-### Массив
+- Array
+- Linked List
+- Stack
+- Queue
+- Hash Table
+- Binary Tree
 
-- Упорядоченный набор элементов, к каждому из которых можно обратиться по его индексу (порядковому номеру в массиве).
-- Оптимален для индексирования (получения элемента массива через его номер).
-- Плох для поиска, вставки и удаления, если не делать этого в самом конце массива.
-- Эффективность («О» большое):
-  - Индексирование: O(1).
-  - Поиск: O(n).
-  - Двоичный поиск: O(log n).
-  - Вставка: недопустимо (если не делать этого в самом конце массива).
+### Array
 
-### Список (связный список)
+- An ordered set of elements, each accessible by its index (ordinal number in the array)
+- Optimal for indexing (retrieving an array element by its number).
+- Poor for search, insertion, and deletion unless performed at the very end of the array
 
-- Данные хранятся в узлах, указывающих на другие узлы. По итогу список выглядит, как вложенные друг в друга объекты.
-- У каждого узла есть value (значение этого элемента(узла)) и nextNode (ссылка на следующий элемент связного списка).
-- Оптимален для вставки и удаления (т.к. надо просто "перекинуть" указатель с определенного элемента на следующий).
-- Плох для индексирования и поиска (сложно получить элемент по его номеру или просто найти элемент из-за вложенности).
+#### Efficiency (Big-O)
 
-###### Дополнительно:
+- Indexing: O(1)
+- Search: O(n)
+- Binary search: O(log n)
+- Insertion: Inadmissible _(unless performed at the very end of the array)_
 
-- Существует двусвязный список: он имеет помимо nextNode и value ещё и previousNode (значение узла, ссылка на следующий узел и на предыдущий соответственно).
+### Linked List
 
-### Стек
+- Data is stored in nodes, pointing to other nodes. The list looks like nested objects
+- Each node has a value (the value of that element/node) and nextNode (reference to the next element in the linked list).
+- Optimal for insertion and deletion (as it only requires shifting the pointer from one element to the next).
+- Poor for indexing and searching (difficult to get an element by its number or find an element due to nested structure).
 
-- Обычно реализуется с помощью связного списка, может быть создан и из массива
-- Стеки — это LIFO-структуры данных (last in, first out).
-- Аналог стека — стопка тарелок: последнюю добавленную в стопку тарелку возьмут первой.
-- Голова – единственное место для вставки и удаления элементов.
+#### Efficiency (Big-O)
 
-### Очереди
+- Indexing: O(n)
+- Search: O(n)
+- Binary search: O(n)
+- Insertion: O(1)
 
-- Как и стек очереди могут быть реализованы с помощью связного списка или массива.
-- Очереди — это FIFO-структуры данных (first in, first out).
-- Аналог очереди - очередь в магазине: первого покупателя обслужат первым
-- Элементы удаляются из головы, а добавляются в хвост.
+###### Note
 
-- Эффективность списка, стека, очереди («О» большое):
-  - Индексирование: O(n).
-  - Поиск: O(n).
-  - Двоичный поиск: O(n).
-  - Вставка: O(1).
+There is a Doubly Linked List: it has, in addition to nextNode and value, a previousNode (value of the node, reference to the next node, and reference to the previous node, respectively).
 
-### Хэш-таблица (объект)
+### Stack
 
-- Данные хранятся в виде пар ключ-значение.
-- Оптимальны для поиска, вставки и удаления.
-- Эффективность («О» большое):
-  - Индексирование: O(1).
-  - Поиск: O(1).
-  - Вставка: O(1).
+- Usually implemented using a linked list but can be created from an array
+- Stacks are Last-In-First-Out (LIFO) data structures
+- An analogy to a stack is a stack of plates: the last plate added to the stack will be the first one taken
+- The head is the only place for inserting and removing elements
 
-### Двоичное дерево
+#### Efficiency (Big-O)
 
-- Двоичное дерево — структура данных, в которой каждый узел имеет максимум два дочерних элемента. Дочерние элементы бывают левым и правым.
-  Ключ левого дочернего узла меньше, чем у родительского.
-  Ключ правого дочернего узла больше, чем у родительского.
-- Оптимальны для сортировки и поиска.
-- Эффективность («О» большое):
-  - Индексирование: O(log n).
-  - Поиск: O(log n).
-  - Вставка: O(log n).
+- Indexing: O(n)
+- Search: O(n)
+- Binary search: O(n)
+- Insertion: O(1)
 
-#### Что можно сделать до старта курса
+### Queues
 
-- решать задачи на сайте [Codewars](https://www.codewars.com/), определять значение Big O используемых вами алгоритмов
+- Like stacks, queues can be implemented using a linked list or an array
+- Queues are First-In-First-Out (FIFO) data structures
+- An analogy to a queue is a line at a store: the first customer in will be served first
+- Elements are removed from the head, and added to the tail
 
-#### Вебинары RS School
+#### Efficiency (Big-O)
+
+- Indexing: O(n)
+- Search: O(n)
+- Binary search: O(n)
+- Insertion: O(1)
+
+### Hash Table (Object)
+
+- Data is stored in the form of key-value pairs.
+- Optimal for search, insertion, and deletion.
+
+#### Efficiency (Big-O)
+
+- Indexing: O(1)
+- Search: O(1)
+- Insertion: O(1)
+
+### Binary Tree
+
+- A binary tree is a data structure in which each node has a maximum of two child elements: left and right
+- The key of the left child node is smaller than that of the parent
+- The key of the right child node is larger than that of the parent
+- Optimal for sorting and searching
+
+#### Efficiency (Big-O)
+
+- Indexing: O(log n)
+- Search: O(log n)
+- Insertion: O(log n)
+
+#### What to do before the start of the course
+
+- Perform tasks on the [Codewars website](https://www.codewars.com/) and determine the Big O notation of the algorithms you use.
+
+#### RS School webinars
+
+// TODO: revise materials
 
 - [Data Structures with JS](https://youtu.be/j6w_ZJSYNRU)
 
-#### Дополнительные материалы
+#### Additional Materials
+
+// TODO: revise materials
 
 - [Шпаргалка для технического собеседования](https://habr.com/ru/company/mailru/blog/350326/)
 - [Алгоритмы сортировки в танцах](https://www.youtube.com/user/AlgoRythmics/videos)
