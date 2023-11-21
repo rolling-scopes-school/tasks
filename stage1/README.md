@@ -175,13 +175,13 @@
 
 #### December 19, 2023
 
-- Break week, only the deadlines of previously issued tasks and tests
+- Break week with deadlines for previously issued tasks and tests only.
 
 ### Break Week
 
 #### December 26, 2023
 
-- Break week, no new content or assignments
+- Break week without new content or assignments.
 
 ### Week #7
 
