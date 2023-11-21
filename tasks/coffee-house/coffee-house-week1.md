@@ -54,7 +54,7 @@ The content width of 1440px should not change when resizing the browser window.
    - In the `<footer>` block, clicking on the link with phone number (all area including icon) should initiate a phone call: **+2**
    - In the `<footer>` block, clicking on the link with the address (all area including icon) should open a new browser tab with Google Maps displaying any location of your choice: **+2**
    - Interactivity of links and buttons is implemented according to Figma layout. Interactivity includes not only changing cursor's appearance, for example, using the `cursor: pointer` property, but also the use of other visual effects, such as changing the background color or font color, following the **Styleguide** in Figma layout: **+4**
-   - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover and click, without affecting adjacent elements: **+4**
+   - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+4**
 
 ### Penalties
 
