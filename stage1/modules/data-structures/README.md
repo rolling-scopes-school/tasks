@@ -1,5 +1,9 @@
 # Module Topic: Algorithms and Data Structures (Part 1)
 
+## Module Overview
+
+This module serves as an introduction to the fundamental concepts of algorithms and data structures in programming. It aims to provide students with a foundational understanding of algorithm efficiency metrics, such as Big O notation, and the use of various basic data structures. The module covers arrays, matrices, stacks, queues, pointers, linked lists, and binary search trees (BSTs). Through this module, students will not only learn the theoretical aspects but also apply these concepts in solving typical problems.
+
 ## Module content:
 
 1. Introduction to algorithm efficiency metric (Big O notation).
@@ -13,19 +17,19 @@
 ## Theory
 
 1. You need to watch video materials about the most popular and frequently used data structures and typical problems associated with them
-   - [RU] [Video lecture: Array](https://youtu.be/Jvm4ShU86yw) - 15 min
-   - [RU] [Video lecture: Matrix](https://youtu.be/r8uHNxrfCwc) - 30 min
-   - [RU] [Video lecture: Stack](https://youtu.be/TqlSlaMak8Y) - 20 min
-   - [EN] [Youtube video: Array](https://youtu.be/txjmvEPlAtU?si=Y2sO3jcBcwR5NjLi) - 10 min
-   - [EN] [Youtube video: Matrix / part 1](https://youtu.be/CDpJ4PIWAlE?si=jgFFSNyyZOKOiPY8), [Youtube video: Matrix / part 2](https://youtu.be/ajSXu2D2gzg?si=342sreFA-oqZcEQg) - 30 min
-   - [EN] [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
+   - [Video lecture: Array (RU)](https://youtu.be/Jvm4ShU86yw) - 15 min
+   - [Video lecture: Matrix (RU)](https://youtu.be/r8uHNxrfCwc) - 30 min
+   - [Video lecture: Stack (RU)](https://youtu.be/TqlSlaMak8Y) - 20 min
+   - [Youtube video: Array](https://youtu.be/txjmvEPlAtU?si=Y2sO3jcBcwR5NjLi) - 10 min
+   - [Youtube video: Matrix / part 1](https://youtu.be/CDpJ4PIWAlE?si=jgFFSNyyZOKOiPY8), [Youtube video: Matrix / part 2](https://youtu.be/ajSXu2D2gzg?si=342sreFA-oqZcEQg) - 30 min
+   - [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
 2. Read:
-   - [RU] [Notes: Algorithms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md)
+   - [Notes: Algorithms (RU)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md)
 3. You need to watch video materials about data structures with pointers
-   - [RU] [Video lecture: Linked List](https://youtu.be/NpcHTBOAId0) - 25 min
-   - [RU] [Video lecture: Binary Search Tree](https://youtu.be/fnqUD4FTE5Q) - 40 min
-   - [EN] [Youtube video: Linked Lists](https://www.youtube.com/watch?v=ChWWEncl76Y) - 15 min
-   - [EN] [Youtube video: Binary Search Tree](https://www.youtube.com/watch?v=6JeuJRqKJrI) - 20 min
+   - [Video lecture: Linked List (RU)](https://youtu.be/NpcHTBOAId0) - 25 min
+   - [Video lecture: Binary Search Tree (RU)](https://youtu.be/fnqUD4FTE5Q) - 40 min
+   - [Youtube video: Linked Lists](https://www.youtube.com/watch?v=ChWWEncl76Y) - 15 min
+   - [Youtube video: Binary Search Tree](https://www.youtube.com/watch?v=6JeuJRqKJrI) - 20 min
 
 ## Practice
 
@@ -38,7 +42,7 @@ Attention!
 
 ### Test
 
-You need to complete the "Test Algorithms & Data structures" in RS APP > Auto Test
+You need to complete the "[St1] Test Algorithms & Data structures" in RS APP > Auto Test
 
 Tasks:
 
@@ -48,11 +52,11 @@ Tasks:
 
 ## Additional resources
 
-1. [RU] [Video lecture: More array methods](https://youtu.be/d8c-JgbpMHs), [MDN documentation](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
-2. [RU] [Video lecture: Interesting array traversals](https://youtu.be/jM7aTyncf8Y)
-3. [RU] Algorithm complexity analysis: [source 1](https://tproger.ru/articles/computational-complexity-explained/), [source 2](https://tproger.ru/translations/algorithms-and-data-structures/)
-4. [RU] [Video lecture: Big O notation and AT](https://www.youtube.com/watch?v=luExFPwQVOY)
-5. [EN] [Practice-based course: Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
-6. [EN] [Youtube video: Big O notation](https://youtu.be/3yUuo7TqMW8?si=00nLTn2st0Ntxgx7)
-7. [EN] [Iterating Over an Array](https://javascript.plainenglish.io/understanding-the-different-ways-of-iterating-over-an-array-in-javascript-26851399c531)
-8. [EN] [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+1. [Video lecture: More array methods (RU)](https://youtu.be/d8c-JgbpMHs), [MDN documentation](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
+2. [Video lecture: Interesting array traversals (RU)](https://youtu.be/jM7aTyncf8Y)
+3. Algorithm complexity analysis (RU): [source 1](https://tproger.ru/articles/computational-complexity-explained/), [source 2](https://tproger.ru/translations/algorithms-and-data-structures/)
+4. [Video lecture: Big O notation and AT (RU)](https://www.youtube.com/watch?v=luExFPwQVOY)
+5. [Practice-based course: Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
+6. [Youtube video: Big O notation](https://youtu.be/3yUuo7TqMW8?si=00nLTn2st0Ntxgx7)
+7. [Iterating Over an Array](https://javascript.plainenglish.io/understanding-the-different-ways-of-iterating-over-an-array-in-javascript-26851399c531)
+8. [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
