@@ -9,8 +9,14 @@
 
 In programming, Big-O notation indicates the number of steps (processor clock cycles) an algorithm takes to execute. It characterizes the efficiency of a function or a specific algorithm.
 
-Donald Knuth introduced the use of Big-O to assess algorithm complexity.  
-Read as: O(1) – O of one, O(n) – O of n.
+Donald Knuth introduced the use of Big-O to assess algorithm complexity.
+
+Read as:
+
+- O(1) – O of one
+- O(n) – O of n
+- O(n²) - O of n squared
+  ...
 
 The faster the execution time of a function increases with the number of elements, the less efficient the algorithm is. Some commonly encountered complexities include:
 
@@ -25,7 +31,7 @@ Their efficiencies:
 
 ![Visual representation of algorithm execution complexities](images/big-o.png)
 
-The following demo visually compares the execution speed of some sorting algorithms that differ in their Big-O values (the image is clickable):
+The following demo visually compares the execution speed of some sorting algorithms that differ in their Big-O values _(the image is clickable)_:
 
 [![Demo images](images/algoritms-timer-demo.png)](https://algorithms-timer-demo.netlify.app/)
 
@@ -37,8 +43,8 @@ The algorithm is simple to implement but inefficient.
 
 #### Efficiency (Big-O)
 
-- Best case: O(n)
-- Average and worst cases: O(n²)
+- Best case: **O(n)**
+- Average and worst cases: **O(n²)**
 
 #### Implementation
 
@@ -68,12 +74,12 @@ One of the fundamental sorting algorithms.
 
 #### Efficiency (Big-O)
 
-- Best case: O(n)
-- Average and worst cases: O(n log n)
+- Best case: **O(n)**
+- Average and worst cases: **O(n log n)**
 
 ### Quick Sort
 
-Divides the entire dataset in half by selecting the middle element and moving all elements smaller than it to the left. The same procedure is iteratively performed on the left part until only two elements remain. The same process is then applied to the right part.  
+Divides the entire dataset in half by selecting the middle element (also known as `pivot`) and moving all elements smaller than it to the left. The same procedure is iteratively performed on the left part until only two elements remain. The same process is then applied to the right part.  
 Data will continuously split until fully sorted.
 
 ###### Note
@@ -82,9 +88,9 @@ Although the Big-O values here are the same as many other sorting algorithms (an
 
 #### Efficiency (Big-O)
 
-- Best case: O(n)
-- Average case: O(n log n)
-- Worst case: O(n²)
+- Best case: **O(n)**
+- Average case: **O(n log n)**
+- Worst case: **O(n²)**
 
 #### Implementation
 
@@ -107,8 +113,8 @@ quickSort(arr);
 #### Comparison of Merge Sort and Quick Sort
 
 - Quick sort is often more efficient in practice
-- Merge sort immediately divides the dataset into the smallest possible groups and then incrementally sorts and merges the groups
-- Quick sort sequentially divides the dataset by the average value until it is recursively sorted
+- Merge sort **immediately** divides the dataset into the smallest possible groups and then incrementally sorts and merges the groups
+- Quick sort **sequentially** divides the dataset by the average value until it is recursively sorted
 
 ### Binary Search
 
@@ -181,56 +187,66 @@ binarySearchRecursiveMethod(arr, 5); // -1
 
 #### Efficiency (Big-O)
 
-- Indexing: O(1)
-- Search: O(n)
-- Binary search: O(log n)
-- Insertion: Inadmissible _(unless performed at the very end of the array)_
+- Indexing: **O(1)**
+- Search: **O(n)**
+- Binary search: **O(log n)**
+- Insertion: **Inadmissible** _(unless performed at the very end of the array)_
+
+###### Notes
+
+Learn more about inserting elements in an array [here](https://javascript.info/array#performance)
 
 ### Linked List
 
 - Data is stored in nodes, pointing to other nodes. The list looks like nested objects
-- Each node has a value (the value of that element/node) and nextNode (reference to the next element in the linked list).
+- Each node has a `value` (the value of that element/node) and `nextNode` (reference to the next element in the linked list).
 - Optimal for insertion and deletion (as it only requires shifting the pointer from one element to the next).
 - Poor for indexing and searching (difficult to get an element by its number or find an element due to nested structure).
 
 #### Efficiency (Big-O)
 
-- Indexing: O(n)
-- Search: O(n)
-- Binary search: O(n)
-- Insertion: O(1)
+- Indexing: **O(n)**
+- Search: **O(n)**
+- Binary search: **O(n)**
+- Insertion: **O(1)**
 
 ###### Note
 
-There is a Doubly Linked List: it has, in addition to nextNode and value, a previousNode (value of the node, reference to the next node, and reference to the previous node, respectively).
+In addition to a Linked List, there is also a **Doubly Linked List**: it has, in addition to `nextNode` and `value`, a `previousNode` (value of the node, reference to the next node, and reference to the previous node, respectively).
 
 ### Stack
 
 - Usually implemented using a linked list but can be created from an array
-- Stacks are Last-In-First-Out (LIFO) data structures
+- Stacks are **Last-In-First-Out (LIFO)** data structures
 - An analogy to a stack is a stack of plates: the last plate added to the stack will be the first one taken
 - The head is the only place for inserting and removing elements
 
 #### Efficiency (Big-O)
 
-- Indexing: O(n)
-- Search: O(n)
-- Binary search: O(n)
-- Insertion: O(1)
+- Indexing: **O(n)**
+- Search: **O(n)**
+- Binary search: **O(n)**
+- Insertion: **O(1)**
 
 ### Queues
 
 - Like stacks, queues can be implemented using a linked list or an array
-- Queues are First-In-First-Out (FIFO) data structures
+- Queues are **First-In-First-Out (FIFO)** data structures
 - An analogy to a queue is a line at a store: the first customer in will be served first
 - Elements are removed from the head, and added to the tail
 
 #### Efficiency (Big-O)
 
-- Indexing: O(n)
-- Search: O(n)
-- Binary search: O(n)
-- Insertion: O(1)
+- Indexing: **O(n)**
+- Search: **O(n)**
+- Binary search: **O(n)**
+- Insertion: **O(1)**
+
+###### Note
+
+In addition to a standard Queue, there exists a specialized data structure known as a **Priority Queue**.
+
+While a regular queue follows a First-In-First-Out (FIFO) principle, a Priority Queue prioritizes elements based on their assigned priorities. This means that the element with the highest priority is served first, distinguishing it from a standard queue where the order of arrival determines service.
 
 ### Hash Table (Object)
 
@@ -239,9 +255,9 @@ There is a Doubly Linked List: it has, in addition to nextNode and value, a prev
 
 #### Efficiency (Big-O)
 
-- Indexing: O(1)
-- Search: O(1)
-- Insertion: O(1)
+- Indexing: **O(1)**
+- Search: **O(1)**
+- Insertion: **O(1)**
 
 ### Binary Tree
 
@@ -252,9 +268,9 @@ There is a Doubly Linked List: it has, in addition to nextNode and value, a prev
 
 #### Efficiency (Big-O)
 
-- Indexing: O(log n)
-- Search: O(log n)
-- Insertion: O(log n)
+- Indexing: **O(log n)**
+- Search: **O(log n)**
+- Insertion: **O(log n)**
 
 #### What to do before the start of the course
 
