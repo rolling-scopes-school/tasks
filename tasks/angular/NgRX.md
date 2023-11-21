@@ -100,7 +100,8 @@ Here you can find an example of admin page: [Admin page reference](./admin.jpg):
    - list of videos from API YouTube.
 2. NgRx storage must only be changed in the following cases:
    - new response from the YouTube API is received;
-   - new card is added using _Admin Page_.
+   - new card is added using _Admin Page_;
+   - card is deleted;
 3. _Custom Cards_ must contain the following information:
    - title
    - description
@@ -108,7 +109,7 @@ Here you can find an example of admin page: [Admin page reference](./admin.jpg):
    - link to video
    - creation date (current date)
 4. Information about _Custom Cards_ must be saved until your application is reloaded even if you perform requests to
-   YouTube API. In other words, all custom cards are one-off session data and suppose to be saved in localStorage.
+   YouTube API. In other words, all custom cards are one-off session data and suppose not to be saved in localStorage.
 
 #### Expected behavior
 
