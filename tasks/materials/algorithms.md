@@ -418,15 +418,12 @@ To learn more about graphs, visit [this link](https://www.geeksforgeeks.org/grap
 
 #### RS School webinars
 
-// TODO: revise materials
-
-- [Data Structures with JS](https://youtu.be/j6w_ZJSYNRU)
+- [Data Structures with JS (RU)](https://youtu.be/j6w_ZJSYNRU)
 
 #### Additional Materials
 
-// TODO: revise materials
-
-- [Шпаргалка для технического собеседования](https://habr.com/ru/company/mailru/blog/350326/)
-- [Алгоритмы сортировки в танцах](https://www.youtube.com/user/AlgoRythmics/videos)
-- [Оценка сложности алгоритма. Сложность алгоритмов. Big O](https://youtu.be/ZRdOb4yR0kk)
-- [CS50 (Computer Science 50)](https://ru.wikipedia.org/wiki/CS50)
+- [Big O Notation and Time Complexity](https://youtu.be/JgWm6sQwS_I?si=9-3WgSij8pGON3pq)
+- [JavaScript Data Structures (Playlist)](https://youtube.com/playlist?list=PLC3y8-rFHvwg6nsAOfC5Is18KB2DrVOJy&si=5AsAUr8NvY8C3JpZ)
+- [CS50x 2023 Data Structures](https://www.youtube.com/live/X8h4dq9Hzq8?si=Z-Pl-anE6_rH9lUS)
+- [CS50x 2023 Algorithms](https://www.youtube.com/live/4oqjcKenCH8?si=MOf4kjKY0Ra7Lc5t)
+- [Sorting Algorithms Visualizations (Playlist)](https://youtube.com/playlist?list=PL2aHrV9pFqNS79ZKnGLw-RG5gH01bcjRZ&si=_HIpEn3bpoRYsMiA)
