@@ -43,42 +43,42 @@ jobs:
               - 'stage2/**'
 
       - name: Add 'react' label
-        if: steps.detect_changes.outputs.react == 'true'
+        if: steps.detect_changes.outputs.react == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
             react
 
       - name: Add 'angular' label
-        if: steps.detect_changes.outputs.angular == 'true'
+        if: steps.detect_changes.outputs.angular == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
             angular
 
       - name: Add 'node' label
-        if: steps.detect_changes.outputs.node == 'true'
+        if: steps.detect_changes.outputs.node == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
             node
 
       - name: Add 'stage#0' label
-        if: steps.detect_changes.outputs.stage0 == 'true'
+        if: steps.detect_changes.outputs.stage0 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
             stage#0
 
       - name: Add 'stage#1' label
-        if: steps.detect_changes.outputs.stage1 == 'true'
+        if: steps.detect_changes.outputs.stage1 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
             stage#1
 
       - name: Add 'stage#2' label
-        if: steps.detect_changes.outputs.stage2 == 'true'
+        if: steps.detect_changes.outputs.stage2 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
