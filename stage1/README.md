@@ -94,7 +94,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
 
 - Tests:
 
@@ -118,7 +118,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
 
 - Tests:
 
@@ -140,7 +140,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
 
 - Tests:
 
@@ -152,21 +152,36 @@
 
 #### December 12, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/coffee-house-week3.md)
-- [Module: Git Recap](modules/git-recap/)
-- [Module "Algorithms and Data Structures"](modules/data-structures/)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
+
+- Modules:
+
+  - [Module: Git Recap](modules/git-recap/)
+  - [Module "Algorithms and Data Structures"](modules/data-structures/)
+
+- Tasks:
+
+  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
+  - [basic-js](https://github.com/AlreadyBored/basic-js)
+
+- Tests:
+
+  - [[St1] Git & GitHub #2](modules/git-recap/)
+  - [[St1] Test Algorithms & Data structures](modules/data-structures/)
 
 ### Break Week
 
 #### December 19, 2023
 
-- Break week, only the deadlines of previously issued tasks and tests
+- Break week with deadlines for previously issued tasks and tests only.
 
 ### Break Week
 
 #### December 26, 2023
 
-- Break week, no new content or assignments
+- Break week without new content or assignments.
 
 ### Week #7
 

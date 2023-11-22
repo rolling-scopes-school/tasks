@@ -25,6 +25,7 @@ This module serves as an introduction to the fundamental concepts of algorithms 
    - [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
 2. Read:
    - [Notes: Algorithms](./algorithms.md)
+
 3. You need to watch video materials about data structures with pointers
    - [Video lecture: Linked List (RU)](https://youtu.be/NpcHTBOAId0) - 25 min
    - [Video lecture: Binary Search Tree (RU)](https://youtu.be/fnqUD4FTE5Q) - 40 min
