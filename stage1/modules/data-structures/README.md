@@ -24,7 +24,7 @@ This module serves as an introduction to the fundamental concepts of algorithms 
    - [Youtube video: Matrix / part 1](https://youtu.be/CDpJ4PIWAlE?si=jgFFSNyyZOKOiPY8), [Youtube video: Matrix / part 2](https://youtu.be/ajSXu2D2gzg?si=342sreFA-oqZcEQg) - 30 min
    - [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
 2. Read:
-   - [Notes: Algorithms (RU)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md)
+   - [Notes: Algorithms](./algorithms.md)
 3. You need to watch video materials about data structures with pointers
    - [Video lecture: Linked List (RU)](https://youtu.be/NpcHTBOAId0) - 25 min
    - [Video lecture: Binary Search Tree (RU)](https://youtu.be/fnqUD4FTE5Q) - 40 min
