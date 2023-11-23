@@ -69,7 +69,6 @@ Run app and check that the functionality is working (cross-check)
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
 - Next.js isn't used: **-100 points**
-- Usage of client state on page: **-20 points** per each
 - Pages API isn't used: **-50 points**
 - Commits after the deadline: **-40 points**
 
