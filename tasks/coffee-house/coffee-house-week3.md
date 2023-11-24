@@ -62,7 +62,7 @@ In this part of the task, you need to add the following functionality to the web
    - Example of carousel operation on desktop:
    ![](<carousel_desktop.gif>)
 
-    - Example of carousel operation on mobile:
+   - Example of carousel operation on mobile:
    ![](<carousel_mobile.gif>)
 
 3. Categories of products on the `menu` page: **+16**
