@@ -35,6 +35,52 @@ The following demo visually compares the execution speed of some sorting algorit
 
 [![Demo images](images/algoritms-timer-demo.png)](https://algorithms-timer-demo.netlify.app/)
 
+###### Note
+
+In addition to Big-O notation, there are also other approaches to assessing the time complexity of algorithms.
+
+**Big-Ω (Big-Omega) notation** represents the lower bound of the time complexity of an algorithm. It is used to describe the best-case scenario or the minimum time an algorithm will take to execute.  
+For example, if an algorithm has a time complexity of `Ω(f(n))`, it means that the algorithm's running time will not grow slower than a constant multiple of the function `f(n)` as the input size `n` increases.
+
+**Big-Θ (Big-Theta) notation** represents both the upper and lower bounds of the time complexity of an algorithm. It provides a tight, asymptotically precise description of the algorithm's growth rate.  
+For example, if an algorithm has a time complexity of `Θ(f(n))`, it means that the running time grows at the same rate as a constant multiple of the function `f(n)` as the input size `n` increases.
+
+In summary, **Big Omega notation** describes the <u>lower bound (best-case)</u> of an algorithm's time complexity, while **Big Theta notation** provides a precise range by capturing <u>both the upper and lower bounds</u>, offering a comprehensive understanding of an algorithm's performance.
+
+**Example: Linear Search**
+
+```js
+function linearSearch(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i;
+    }
+  }
+  return -1;
+}
+```
+
+**Big Omega (Ω) Notation**
+
+Best-case scenario: **Ω(1)**
+
+- The best-case scenario occurs when the target element is found at the very beginning of the array (at index 0).
+- In this case, the algorithm would find the target in the first iteration, resulting in a constant time operation.
+- The lower bound is Ω(1), indicating that the algorithm can be very efficient in the best-case scenario.
+
+**Big Theta (Θ) Notation**
+
+Average and worst-case scenario: **Θ(n)**
+
+- The average and worst-case scenario occur when the target element is not found in the array or is found at the end of the array.
+- In these cases, the algorithm needs to traverse the entire array, checking each element until it finds the target or reaches the end.
+- The time complexity is directly proportional to the size of the input array (n).
+
+You can read more about these notations:
+
+- [Big-Ω (Big-Omega) Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation#:~:text=The%20Big%2DOmega%20notation%20gives,in%20n%20or%20linear%20time.)
+- [Big–Θ (Big Theta) Notation](https://www.geeksforgeeks.org/analysis-of-algorithms-big-theta-notation/)
+
 ### Bubble Sort
 
 Iterates through a dataset from left to right, comparing values within each pair and moving the smallest to the left. The process repeats until no value can be moved.
@@ -205,6 +251,8 @@ binarySearchRecursiveMethod(arr, 5); // -1
 - Queue
 - Hash Table
 - Binary Tree
+- Heap
+- Graph
 
 ### Array
 
@@ -387,6 +435,14 @@ For min heap:
 - Insertion: **O(1)**
 - Find-min: **O(1)**
 - Delete-min: **O(log n)**
+
+###### Note
+
+The term **heap** is used in two different contexts: one in computer memory, where it refers to a region for dynamic memory allocation, and the other as a data structure, where it refers to a specialized tree-based structure with a specific ordering property.
+
+In terms of memory allocation, in contrast to the stack, which is a region of memory managed by the compiler, the heap is used for memory that needs to be dynamically allocated during runtime.
+
+It is crucial to highlight that <u>the heap as a part of computer memory has nothing to do with the heap data structure</u>.
 
 Find more info about heaps [here](https://onestepcode.com/heap-implementation-javascript/)
 
