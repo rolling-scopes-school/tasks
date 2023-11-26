@@ -58,6 +58,10 @@ In this part of the task, you need to add the following functionality to the web
    - For mobile devices, manual switching in the corresponding direction is additionally implemented by swiping left or right: **+2**
    - When manually switching, the progress bar state of the switched slide resets, and the progress bar of the displayed slide starts to fill: **+2**
    - When switching to the right after the third element, it returns to the first. When switching to the left after the first element, it returns to the third: **+2**
+   - Example of carousel operation on desktop:
+     ![](carousel_desktop.gif)
+   - Example of carousel operation on mobile:
+     ![](carousel_mobile.gif)
 3. Categories of products on the `menu` page: **+16**
    - The **Coffee** category is active and the corresponding products are displayed when opening or reloading the `menu` page: **+2**
    - When switching categories, the products of the selected category are displayed: **+2**
