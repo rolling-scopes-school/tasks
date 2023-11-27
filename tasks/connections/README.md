@@ -46,17 +46,25 @@ You can use additional package with visual components (to simplify and speed up 
 - [NGX Bootstrap](https://valor-software.com/ngx-bootstrap/#/documentation)
 - [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
 - [PrimeNG](https://primeng.org/installation)
+- [Taiga UI](https://taiga-ui.dev/getting-started)
 
-You also need [NgRx](https://ngrx.io/guide/store). Using other packages is prohibited!
+You also need [NgRx](https://ngrx.io/guide/store) for production. You are free to utilize any
+development packages (
+eslint, [husky](https://typicode.github.io/husky/), [prettier](https://prettier.io/docs/en/) etc.)
+that are installed in `devDependencies` to aid in application construction but usage of any
+additional production packages is prohibited!
+
+We encourage you to use `ChangeDetectionStrategy.OnPush` strategy in components instead
+of `Default`.
 
 As a result application is supposed to use real backend and be deployed to any public host-provider
 to make your project reachable. Also, the source of your project should be pushed to school
 repository to allow any other student check it out.
 
 > [!Warning]
-> In the README.md file in your project repository should be defined brief description what
+> In the root README.md file of your project a brief description should be defined what
 > milestones were made and the link to deployed running version! Otherwise, other student will not be
-> able to verify your work.
+> able to verify your application.
 
 ## Milestones
 
@@ -79,11 +87,11 @@ Total score: **800 points**
 
 Each milestone has relative score. Each milestone has number of points for successful result.
 
-But in case if any common violation is present the project is losing **additional** points:
+But in case if some common violation is present the project is losing **additional** points:
 
 - any uncaught errors: **-100 points** for an error in console
 - used `any` instead of dedicated interface/type: **-100 points**
-- used some additional npm package: **-100 points**
+- used some additional production npm package (except NgRx): **-100 points**
 
 ### Url navigation
 
@@ -110,13 +118,9 @@ _`/profile` (user profile)_
 User's information with the ability to edit it.
 
 _`/group/{:groupID}` (broadcast page)_  
-`:groupID` is unique group identifier  
+where, `:groupID` is unique group identifier;  
 Page where user can send message to all participants.
 
 _`/conversation/{:conversationID}` (person dialog)_  
-`:conversationID` is unique user identifier to speak with  
+where, `:conversationID` is unique user identifier to speak with;  
 Page where user can write personal messages directly.
-
-_`/logout` (to sign out)_  
-That is not a visual page. It is just endpoint to clear up token for user and return back into
-authorization page.
