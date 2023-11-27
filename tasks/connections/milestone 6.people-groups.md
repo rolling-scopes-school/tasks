@@ -1,6 +1,6 @@
 ## Milestone 6. People & Groups
 
-**Score:** 220
+**Score:** 425
 
 The **default page** for authorized user should be the one without extra path (root routing).
 Page is split into 2 vertical sections.
@@ -330,7 +330,7 @@ _rough example of people list_:
 Sofía&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `-----------------------`  
 `|`
-Nicolás&nbsp;&nbsp;******\*******&nbsp; `|`  
+Nicolás&nbsp;&nbsp;`********`&nbsp; `|`  
 `-----------------------`  
 `|`
 Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
