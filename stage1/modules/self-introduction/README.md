@@ -1,70 +1,69 @@
 # Self-introduction
 
-Задача — записать короткое (**3–5 минут**) видео с самопрезентацией. Расскажите о себе, о том, почему вы заинтересовались программированием, как и с какой целью пришли в RS School. В качестве референса можно использовать выполненное вами задание [Markdown & Git](https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/git-markdown).
+The task is to record a short (**3-5 min**) self-presentation video. Share some information about yourself, why you got interested in programming, and the purpose of joining RS School. You can use your completed [Markdown & Git](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/en/git-markdown.md) assignment as a reference.
 
-> ## О чём рассказать
+> ## What to include
 >
-> - О том, кто вы такой. Имя, основной навык и роль. Например, "My name is ... and I'm a junior frontend developer".
-> - Вкратце об образовании. Например, "I am a recent computer science graduate from Belarusian State University of Informatics and Radioelectronics and am currently attending the RSSchool frontend course".
-> - О том, что вам интересно изучать, о профессиональных планах и о своей мотивации заниматься программированием — в том числе это поможет менторам в выборе самых мотивированных студентов, попавших в wait list.
-> - О вашем учебном или пет-проекте, над которым вы работали в последнее время. Опишите его цель, основные технологии, сложности, с которыми пришлось столкнуться, и результаты.
+> - Introduce yourself: say your name, major skill, and role. For example, "My name is ... and I'm a junior Front-end developer."
+> - Briefly mention your education. For example, "I am a recent computer science graduate from Belarusian State University of Informatics and Radioelectronics and currently I am taking the RS School Front-end course."
+> - Talk about what you are aspiring to learn, your professional plans and goals, and your motivation to study programming. This information will help mentors select the most motivated students from the Wait list.
+> - Also talk about your recent course or pet project. Describe its goal, the main technologies you used, the challenges you faced, and the results you achieved.
 
-Вместе с тем, ограничений нет — вы сами решаете, какую информацию о себе рассказать.
+However, there are no restrictions to what you need to say about yourself. It is up to you to decide what information to share.
 
-Выступление должно быть **на английском языке**. Кроме записи видео, нужно составить транскрипт — текстовую расшифровку выступления (также **на английском языке**). Ссылку на видео и транскрипт разместить в [приватном школьном репозитории](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) и [задеплоить, используя gh-pages](Как-сделать-деплой-задания-из-приватного-репозитория-школы).
+The presentation must be **in English**. Together with the recorded video create a transcript, which is a text of your presentation (it must also be **in English**). Put the link to the video and the transcript into your [private school repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) and [deploy it using gh-pages](https://docs.rs.school/#/private-repository?id=%d0%9a%d0%b0%d0%ba-%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b4%d0%b5%d0%bf%d0%bb%d0%be%d0%b9-%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f-%d0%b8%d0%b7-%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%bd%d0%be%d0%b3%d0%be-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d1%88%d0%ba%d0%be%d0%bb%d1%8b).
 
-## Порядок работы
+## Workflow
 
-1. Запишите видео с вашим выступлением на английском языке. Желательно, чтобы ваше лицо было в кадре (для записи можно использовать веб-камеру, камеру телефона, видеокамеру, камеру ноутбука и т.д).
-2. Загрузите видео в ваш личный [YouTube](https://www.youtube.com/)-аккаунт. Можно сделать видеоролик доступным только по ссылке — для этого в настройках видео установите [Параметры доступа > Доступ по ссылке (Visibility > Unlisted)](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en).
-3. В вашем **приватном** репозитории (по ссылке вида `https://github.com/rolling-scopes-school/your-github-account-JSFE2022Q3`) от ветки `main` создайте ветку `self-introduction`.
-4. В созданной ветке `self-introduction` создайте папку `self-introduction`, в ней создайте файл `index.md`.
-5. Добавьте ссылку на ваше YouTube-видео в файл `index.md`
-6. Под ссылкой добавьте текстовую расшифровку вашего выступления. Текст должен повторять сказанное в вашем выступлении, но может быть не дословным — можно отредактировать текст, убрав из него лишние междометия, слова-паразиты и т.п.
-7. Для деплоя используйте gh-pages [Как сделать деплой задания из приватного репозитория школы](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
-8. Сделайте Pull Request из ветки `self-introduction` в ветку `main`. Pull Request должен называться так же, как и задание — **Self-Introduction**, и соответствовать [требованиям к Pull Requests](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). В качестве скриншота результата можно прикрепить скриншот видео, а в качестве ссылки на деплой — ссылку вида `https://rolling-scopes-school.github.io/your-github-account-JSFE2022Q3/self-introduction/`. **Мержить Pull Request не нужно**.
+1. Record a video of your presentation in English. It is strongly recommended that you show your face in the frame (you can use a webcam, phone camera, video camera, laptop camera, etc. for recording).
+2. Upload the video to your personal [YouTube](https://www.youtube.com/) account. You can make the video accessible only via a link. To do that when uploading, set Visibility > Save or publish > Unlisted. You can change the accessibility settings after uploading as well. To do that go to [Content > Videos > Visibility > Unlisted](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en) in the video settings.
+3. In your **private school** repository (accessible via a link like `https://github.com/rolling-scopes-school/your-github-account-JSFE2023Q4`), create a branch `self-introduction` with the `main` branch as the source one.
+5. In the created `self-introduction` branch, create a folder `self-introduction`, and create a file with the name `index.md` inside it.
+6. Add a link to your YouTube video to the `index.md` file.
+7. Add a transcript of your presentation below the link. The text must be a written copy of what you said in the presentation, although it can be edited to remove unnecessary interjections, filler words, etc., so the transcription does not have to be word-for-word. 
+8. Use `gh-pages` for deployment. Follow the instructions on [how to deploy an assignment from a private school repository](https://docs.rs.school/#/private-repository?id=%D0%9A%D0%B0%D0%BA-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B4%D0%B5%D0%BF%D0%BB%D0%BE%D0%B9-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8%D0%B7-%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B).
+9. Create a Pull Request from the `self-introduction` branch to the `main` branch. The Pull Request must have the same name as the assignment – **Self-Introduction**, and it has to meet the [requirements for Pull Requests](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr). As a screenshot of the result attach a screenshot of the video and provide a deployment link in the following format `https://rolling-scopes-school.github.io/your-github-account-JSFE2023Q4/self-introduction/`. **Do not merge this Pull Request.**
 
-> ### Важно
+> ### Important
 >
-> - Проверьте, что видео и текст доступны по ссылкам и для просмотра не требуется никаких дополнительных разрешений. Проще всего проверить это, открыв обе ссылки в режиме инкогнито в браузере.
-> - Мы не просим вас загружать видео в открытый доступ. Вы можете [включить доступ к ролику только по ссылке](#работа-с-youtube). Такое видео смогут просмотреть только пользователи, у которых есть нужный URL.
+> - Ensure that the video and transcript can be accessed through the links you provide and do not require any additional permissions. The easiest way to check this is to try opening both links in Incognito mode in your browser.
+> - We do not require you to make the video public. You can make it [accessible only via a link](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en). This way only the users who receive the correct URL from you will be able to watch the video.
 
-## Проверка задания
+## Task Check
 
-Факт записи видеоролика будет проверяться с помощью [кросс-чека](https://docs.rs.school/#/cross-check-flow), а его содержание будут оценивать менторы.
+During [Cross-Check](https://docs.rs.school/#/cross-check-flow) you will have to check the fact that there is a recording, but **not** its content. The content will later be assessed by mentors.
 
-Чтобы отправить выполненное задание на проверку, зайдите в [rs app](https://app.rs.school/), перейдите на вкладку Cross-Check: Submit, выберите задание **Self-Introduction** и добавьте в форму **ссылку на деплой**.
+To submit the completed task for review, go to [RS App](https://app.rs.school/), choose the Cross-Check: Submit tab, select the **Self-Introduction** task in the dropdown menu, and add your **deployment link** to the form.
 
-Также не забудьте сделать Pull Request из ветки разработки в `Main` (этот PR не мержить), чтобы презентацию смог посмотреть ментор.
+Also, remember to create a Pull Request from the development branch `self-introduction` to `main` (do not merge this PR) for mentors to be able to watch your presentation.
 
-### Критерии оценки
+### Assessment Criteria
 
-Максимальный балл за задание — **100 баллов**
+The maximum score for the task is **100 points**.
 
-- Есть ссылка на видеозапись выступления. В видео автор рассказывает о себе на английском языке, видео имеет длительность около 3–5 минут (отклонение в пределах 15 секунд ошибкой считать не нужно) — **+50 баллов**
-- Есть транскрипт выступления. Транскрипт на английском языке и содержит полный текст выступления (может быть незначительно отредактирован) — **+50 баллов**
+- In the video, the author talks about themselves in English, and the video lasts for about 3-5 minutes (variation within 15 seconds must not be considered either an error or a reason to subtract any points) — **+50 points**.
+- There is a transcript of the presentation. The transcript is in English and contains the complete text of the presentation (it is allowed for the script to be slightly edited, though) — **+50 points**.
 
-**Важно**: при проверке **не нужно оценивать уровень английского** или качество презентации. Руководствуйтесь только критериями, описанными выше.
+**Nota bene**: When evaluating, there is **no need to assess the level of English** or the quality of the presentation. Follow only the criteria described above.
 
-## Полезные ссылки
+## Useful Links
 
-### Примеры выступлений
+### Sample Presentations
 
 - [Video CV / Resume of a Computer Engineer: Anupma Raj](https://www.youtube.com/watch?v=dMBBrLGcsCI)
-- [Video CV/ Sample Video Resume of Full Stack Developer : HireFox](https://www.youtube.com/watch?v=PYuPmNFHTog)
+- [Video CV/ Sample Video Resume of Full Stack Developer: HireFox](https://www.youtube.com/watch?v=PYuPmNFHTog)
 - [BEST VIDEO CV EVER  MARK LERUSTE](https://www.youtube.com/watch?v=c_PZTAW5piQ)
-- Видеорезюме студентов набора 2021q1
+- Video Resumes of the 2021Q1 class students
   - https://www.youtube.com/watch?v=A426pZuQIUk
   - https://www.youtube.com/watch?v=a_KLPUaDi4g
   - https://www.youtube.com/watch?v=cQVWIw85OAs
   - https://www.youtube.com/watch?v=8QIDUvjnbM8
   - https://www.youtube.com/watch?v=NNlEKrpeByM
-  - https://www.youtube.com/watch?v=01wkFZnmflo
   - https://www.youtube.com/watch?v=CLTbVVw85hw
   - https://www.youtube.com/watch?v=3j2vEycHWhs
 
-### Работа с YouTube
+### How to work with YouTube
 
-- [Как загрузить видео на YouTube](https://support.google.com/youtube/answer/57407?co=GENIE.Platform%3DDesktop&hl=ru)
-- [Как изменить настройки доступа к видео](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=ru&oco=0)
-- [Как изменить описание видео](https://support.google.com/youtube/answer/57404?co=GENIE.Platform%3DDesktop&hl=ru&oco=0)
+- [How to upload YouTube videos](https://support.google.com/youtube/answer/57407?co=GENIE.Platform%3DDesktop&hl=en)
+- [How to change video privacy settings](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en&oco=0)
+- [How to edit video description](https://support.google.com/youtube/answer/57404?co=GENIE.Platform%3DDesktop&hl=en&oco=0)
