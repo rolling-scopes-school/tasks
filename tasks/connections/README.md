@@ -50,7 +50,7 @@ You can use additional package with visual components (to simplify and speed up 
 You also need [NgRx](https://ngrx.io/guide/store). Using other packages is prohibited!
 
 As a result application is supposed to use real backend and be deployed to any public host-provider
-to make your project reachable. Also, the source of your project should be pushed to school
+to make your project reachable. Also, the source of your project should be pushed to your private public
 repository to allow any other student check it out.
 
 > [!Warning]
