@@ -1,6 +1,6 @@
 ## Milestone 6. People & Groups
 
-**Score:** 425
+**Score:** 175
 
 The **default page** for authorized user should be the one without extra path (root routing).
 Page is split into 2 vertical sections.
@@ -13,7 +13,7 @@ Right side is [People section](#milestone-62-people-list).
 
 ## Milestone 6.1. Group list
 
-**Score:** 265
+**Score:** 100
 
 Each of users can observe all available groups to broadcast messages. There is no private groups!
 Also, user can create new one that will be visible for all other users.
@@ -283,7 +283,7 @@ _status code_ **400**
 
 ## Milestone 6.2. People list
 
-**Score:** 160
+**Score:** 60
 
 User can observe all list of registered participants and make the individual conversation with any
 of them.
@@ -460,43 +460,43 @@ _status code_ **400**
 
 ### Profit
 
-- default page for authorized user: **25 points**
-- page is divided on 2 vertical sections with independent content: **10 points**
+- default page for authorized user: **10 points**
+- page is divided on 2 vertical sections with independent content: **5 points**
 
 #### Group section (left)
 
-- the list of available groups is loaded if user opens this page first time: **30 points**
-- the list item created by current user should contain _Delete_ button: **20 points**
+- the list of available groups is loaded if user opens this page first time: **5 points**
+- the list item created by current user should contain _Delete_ button: **10 points**
 - the confirmation modal appears after clicking on _Delete_ button on list item with _Cancel_,
   _Delete_ button inside. If user clicks _Cancel_ the modal disappears. If user clicks _Delete_ the
-  http-request is sent and item is removed from the list after succeeded response: **40 points**
+  http-request is sent and item is removed from the list after succeeded response: **15 points**
 - clicking on _Update_ button sends corresponding http-request and update group
-  list if succeeded: **30 points**
+  list if succeeded: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
-  (except if error occurs): **20 points**
+  (except if error occurs): **10 points**
 - _Update_ button is disabled after clicking during updating and until the timer
-  is active: **10 points**
+  is active: **5 points**
 - clicking on _Create_ button the modal window is opened. There is reactive form with validation and
-  submit button: **30 points**
-- submit button in modal window should be disabled until form is valid: **10 points**
+  submit button: **10 points**
+- submit button in modal window should be disabled until form is valid: **5 points**
 - clicking on submit button in modal window the appropriate http-request is sent to create new
-  group. Modal window is closed only if http-request succeeded: **40 points**
-- error messages are displayed if any http-request fails: **20 points**
-- clicking on list item the user is redirected to group dialog page: **15 points**
+  group. Modal window is closed only if http-request succeeded: **15 points**
+- error messages are displayed if any http-request fails: **10 points**
+- clicking on list item the user is redirected to group dialog page: **5 points**
 
 #### People list (right)
 
-- the list of people is loaded if user opens this page first time: **30 points**
+- the list of people is loaded if user opens this page first time: **10 points**
 - the list item with which current user already has active conversation has
-  special background: **30 points**
+  special background: **10 points**
 - clicking on _Update_ button sends corresponding http-request and update people list
-  if succeeded: **30 points**
+  if succeeded: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
-  (except if error occurs): **20 points**
+  (except if error occurs): **10 points**
 - _Update_ button is disabled after clicking during updating and until the
-  timer is active: **10 points**
+  timer is active: **5 points**
 - clicking on list item the user is redirected to personal conversation page. New conversation (via
-  certain http-request) is created if it has not already created before transition: **50 points**
+  certain http-request) is created if it has not already created before transition: **15 points**
 
 ### Fines
 

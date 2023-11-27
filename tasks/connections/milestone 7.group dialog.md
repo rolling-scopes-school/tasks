@@ -1,6 +1,6 @@
 ## Milestone 7. Group dialog
 
-**Score:** 330
+**Score:** 140
 
 Before user can send any message in the public dialog the channel have to be created as mentioned
 above.
@@ -255,28 +255,28 @@ _status code_ **400**
 
 ### Profit
 
-- the page is protected by a guard only for authorized user: **15 points**
-- the error message is displayed if group with provided id does not exist: **15 points**
+- the page is protected by a guard only for authorized user: **5 points**
+- the error message is displayed if group with provided id does not exist: **10 points**
 - _Return back_ is a link, not a button: **5 points**
 - the full message history is loaded if user visit this page first time: **10 points**
 - only the last messages (using `since` parameter) are loaded if user opens this group conversation
-  again: **50 points**
+  again: **20 points**
 - only the last messages (using `since` parameter) are loaded if user clicks on
-  _Update_ button: **40 points**
+  _Update_ button: **20 points**
 - messages in corresponding area are sorted by time. New messages are appended at
-  the bottom: **25 points**
+  the bottom: **5 points**
 - message item contains readable time, user name and text. Own messages are displayed on the right.
-  Other messages are displayed on the left: **25 points**
+  Other messages are displayed on the left: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
-  (except if error occurs): **20 points**
+  (except if error occurs): **10 points**
 - _Update_ button is disabled after clicking during updating and until the
-  timer is active: **10 points**
-- group is created by current user should contain _Delete_ button: **20 points**
+  timer is active: **5 points**
+- group is created by current user should contain _Delete_ button: **10 points**
 - the confirmation modal appears after clicking on _Delete_ button with _Cancel_,
   _Delete_ button inside. If user clicks _Cancel_ the modal disappears. If user clicks _Delete_ the
   http-request is sent and the user is redirected to main page after succeeded
-  response: **40 points**
+  response: **10 points**
 - form field has `required` validator. _Send_ new message button is disabled until field
-  has text: **15 points**
+  has text: **5 points**
 - new messages are loaded (using `since` parameter) after successful sending new message
-  with @ngrx/effects by user: **40 points**
+  with @ngrx/effects by user: **15 points**

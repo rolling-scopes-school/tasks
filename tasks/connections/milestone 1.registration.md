@@ -1,6 +1,6 @@
 ## Milestone 1. Registration
 
-**Score:** 120
+**Score:** 60
 
 Before user be accessed it should be saved in the system.
 Registration page should be on specific routing `/signup`.
@@ -91,11 +91,11 @@ _status code_ **400**
 
 ### Profit
 
-- page with dedicated url: **10 points**
-- validation for _name_ field with error messages: **15 points**
-- validation for _password_ field with error messages: **15 points**
-- redirection to sign-in page after successful registration: **15 points**
-- error messages for failed http-request is shown: **40 points**
+- page with dedicated url: **5 points**
+- validation for _name_ field with error messages: **5 points**
+- validation for _password_ field with error messages: **5 points**
+- redirection to sign-in page after successful registration: **10 points**
+- error messages for failed http-request is shown: **10 points**
 - created and used dedicated @ngrx/effects for authorization processes: **25 points**
 
 ### Fines

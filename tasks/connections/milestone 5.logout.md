@@ -1,6 +1,6 @@
 ## Milestone 5. Logout
 
-**Score:** 90
+**Score:** 40
 
 User can terminate current session. Successful sign out process removes token for
 http-request and application should wipe out all relative browser
@@ -72,7 +72,7 @@ _status code_ **400**
 ### Profit
 
 - clicking on `Logout` button the http-request is sent
-  with `DELETE` method: **30 points**
-- user is redirected to Sign-In page after successful logout process: **20 points**
-- all data in `cookies`, `localStorage` is deleted: **20 points**
-- error messages are displayed if http-request fails: **20 points**
+  with `DELETE` method: **10 points**
+- user is redirected to Sign-In page after successful logout process: **10 points**
+- all data in `cookies`, `localStorage` is deleted: **10 points**
+- error messages are displayed if http-request fails: **10 points**

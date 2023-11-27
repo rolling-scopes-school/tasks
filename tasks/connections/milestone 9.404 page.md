@@ -1,6 +1,6 @@
 ## Milestone 9. 404 page
 
-**Score:** 50
+**Score:** 30
 
 For the occasion when user tries to open unknown page he should be informed about it with the
 appropriate message.
@@ -17,8 +17,8 @@ Page is supposed to have:
 
 ### Profit
 
-- error message is displayed about wrong url/page: **50 points**
+- error message is displayed about wrong url/page: **30 points**
 
 ## Fines
 
-- url is changed: **-30 points**
+- url is changed: **-20 points**

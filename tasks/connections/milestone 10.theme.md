@@ -1,6 +1,6 @@
 ## Milestone 10. Dark/Light theme.
 
-**Score:** 180
+**Score:** 50
 
 To allow user change the appearance of the site to improve visual perception in varying levels of
 ambient lightning.
@@ -28,11 +28,11 @@ services or decorators for that.
 
 ### Profit
 
-- chosen state is saved in `localStorage` and used/applied after reloading: **60 points**
-- light/dark styles are applied to main page: **40 points**
-- light/dark styles are applied to group dialog page: **40 points**
-- light/dark styles are applied to personal conversation page: **40 points**
+- chosen state is saved in `localStorage` and used/applied after reloading: **20 points**
+- light/dark styles are applied to main page: **10 points**
+- light/dark styles are applied to group dialog page: **10 points**
+- light/dark styles are applied to personal conversation page: **10 points**
 
 ### Fines
 
-- used services or any functional approach besides css inheritance: **-50 points**
+- used services or any functional approach besides css inheritance: **-20 points**

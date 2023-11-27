@@ -1,6 +1,6 @@
 ## Milestone 3. Profile
 
-**Score:** 80
+**Score:** 40
 
 Information on this page should be loaded **only once** and save in store when user visit this page
 first
@@ -89,10 +89,10 @@ _status code_ **400**
 ### Profit
 
 - `user id`, `email`, `creation time`, `user name` data of current user in
-  displayed on the page: **70 points**
+  displayed on the page: **30 points**
 - error message is shown if http-request failed: **10 points**
 
 ### Fines
 
-- data is not saved in the store: **-30 points**
-- http-request is sent every time if user opens profile: **-30 points**
+- data is not saved in the store: **-15 points**
+- http-request is sent every time if user opens profile: **-15 points**

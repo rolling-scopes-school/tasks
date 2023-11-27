@@ -1,6 +1,6 @@
 ## Milestone 2. Login
 
-**Score:** 150
+**Score:** 70
 
 If user with certain email was signed up, he can enter the system using login form.
 It should be **default page** if user is not authenticated yet!
@@ -108,14 +108,14 @@ _status code_ **400**
 
 ### Profit
 
-- default page for unauthorized user: **25 points**
-- validation for _name_ field with error messages: **15 points**
-- validation for _password_ field with error messages: **15 points**
-- redirection to the main page after successful authentication: **15 points**
-- error messages for failed http-request is shown: **30 points**
+- default page for unauthorized user: **10 points**
+- validation for _name_ field with error messages: **5 points**
+- validation for _password_ field with error messages: **5 points**
+- redirection to the main page after successful authentication: **10 points**
+- error messages for failed http-request is shown: **10 points**
 - created and used dedicated @ngrx/effects for authorization processes: **20 points**
 - `token`, `uid` and `email` value is saved in `localStorage` and used again
-  after page reloading: **30 points**
+  after page reloading: **10 points**
 
 ### Fines
 
