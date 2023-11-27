@@ -32,7 +32,7 @@ Page consist of:
 Triggers the process of authorization. Any errors during the registration should be displayed to let
 use know about the problem.
 
-**link to [Sign-Up](./milestone%201.registration.md) page**  
+**link to [Sign-Up](./milestone_1.registration.md) page**  
 If user does not have account yet.
 
 ### Endpoint

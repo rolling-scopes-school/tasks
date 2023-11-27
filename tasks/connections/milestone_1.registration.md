@@ -5,7 +5,7 @@
 Before user be accessed it should be saved in the system.
 Registration page should be on specific routing `/signup`.
 
-User have to be redirected to the [Sign-In](./milestone%202.login.md) page after successful registration.
+User have to be redirected to the [Sign-In](./milestone_2.login.md) page after successful registration.
 
 ### Visualization
 

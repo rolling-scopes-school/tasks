@@ -6,7 +6,7 @@ User can terminate current session. Successful sign out process removes token fo
 http-request and application should wipe out all relative browser
 data (`localStorage` | `sessionStorage` | `cookies`).
 
-If action succeed user supposed to be redirected into [Login page](./milestone%202.login.md).
+If action succeed user supposed to be redirected into [Login page](./milestone_2.login.md).
 
 ### Visualization
 
