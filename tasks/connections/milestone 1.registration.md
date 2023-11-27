@@ -27,7 +27,7 @@ If user already have an account he is able to login.
 
 ### Endpoint
 
-> `POST` https://5mbpeycgg1.execute-api.eu-central-1.amazonaws.com/registration
+> `POST` https://tasks.app.rs.school/angular/registration
 
 #### Request body
 

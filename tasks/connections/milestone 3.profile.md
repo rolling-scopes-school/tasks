@@ -17,7 +17,7 @@ Page with certain routing `/profile` should contain:
 
 ### Endpoint
 
-> `GET` https://cinqj0r16e.execute-api.eu-central-1.amazonaws.com/profile
+> `GET` https://tasks.app.rs.school/angular/profile
 
 #### Request headers
 
@@ -44,8 +44,7 @@ _json_ format
     "S": "string"
   },
   "createdAt": {
-    "S": "string"
-    // unix timestamp in milliseconds
+    "S": "string" // unix timestamp in milliseconds
   }
 }
 ```

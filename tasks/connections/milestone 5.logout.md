@@ -16,7 +16,7 @@ Button can be pressed once and button should be disabled until previous http-req
 
 ### Endpoint
 
-> `DELETE` https://ie1zpdr086.execute-api.eu-central-1.amazonaws.com/logout
+> `DELETE` https://tasks.app.rs.school/angular/logout
 
 Removes session data for the user.
 

@@ -61,7 +61,7 @@ name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 ### Endpoint
 
-> `GET` https://n4dyyox9g9.execute-api.eu-central-1.amazonaws.com/groups/list
+> `GET` https://tasks.app.rs.school/angular/groups/list
 
 Retrieves list of available groups which can be used to broadcast messages.
 
@@ -125,7 +125,7 @@ _status code_ **400**
 
 ---
 
-> `POST` https://0j9gdnzdpd.execute-api.eu-central-1.amazonaws.com/groups/create
+> `POST` https://tasks.app.rs.school/angular/groups/create
 
 Creates new group with specific name. Owner will be able to delete created group.
 
@@ -213,7 +213,7 @@ _status code_ **400**
 
 ---
 
-> `DELETE` https://7yt5fzdh2f.execute-api.eu-central-1.amazonaws.com/groups/delete?groupID={:groupID}
+> `DELETE` https://tasks.app.rs.school/angular/groups/delete?groupID={:groupID}
 
 Deletes group by owner.
 
@@ -338,7 +338,7 @@ Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 ### Endpoint
 
-> `GET` https://kxqohlqmw6.execute-api.eu-central-1.amazonaws.com/users
+> `GET` https://tasks.app.rs.school/angular/users
 
 Retrieves list of participants.
 
@@ -398,7 +398,7 @@ _status code_ **400**
 
 ---
 
-> `GET` https://n4r8c9u9eh.execute-api.eu-central-1.amazonaws.com/conversations/list
+> `GET` https://tasks.app.rs.school/angular/conversations/list
 
 Retrieves list of active conversations of current user.
 

@@ -16,7 +16,7 @@ Form field `name` should obey the same validation rules as on Registration page.
 
 ### Endpoint
 
-> `PUT` https://ce3k5xi22m.execute-api.eu-central-1.amazonaws.com/profile
+> `PUT` https://tasks.app.rs.school/angular/profile
 
 Edit profile data of current user.
 

@@ -37,7 +37,7 @@ If user does not have account yet.
 
 ### Endpoint
 
-> `POST` https://uoq2b5pfmd.execute-api.eu-central-1.amazonaws.com/login
+> `POST` https://tasks.app.rs.school/angular/login
 
 #### Request body
 

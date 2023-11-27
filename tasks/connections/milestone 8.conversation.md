@@ -67,7 +67,7 @@ and append them to the list.
 
 ### Endpoint
 
-> `GET` https://68yqrljhs3.execute-api.eu-central-1.amazonaws.com/conversations/read?conversationID=46f6aq96dzs&since=1699833375896
+> `GET` https://tasks.app.rs.school/angular/conversations/read?conversationID=46f6aq96dzs&since=1699833375896
 
 Received messages of provided conversation.
 
@@ -103,8 +103,7 @@ _json_ format
         "S": "string"
       },
       "createdAt": {
-        "S": "string"
-        // unix timestamp
+        "S": "string" // unix timestamp
       }
     }
     // ... other objects in the same format
@@ -160,7 +159,7 @@ _status code_ **400**
 
 ---
 
-> `POST` https://ezsl9q7d2d.execute-api.eu-central-1.amazonaws.com/conversations/append
+> `POST` https://tasks.app.rs.school/angular/conversations/append
 
 Sends new message to the partner.
 

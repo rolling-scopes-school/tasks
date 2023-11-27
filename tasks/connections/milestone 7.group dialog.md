@@ -68,7 +68,7 @@ and append them to the list.
 
 ### Endpoint
 
-> `GET` https://7q6pam6743.execute-api.eu-central-1.amazonaws.com/groups/read?groupID={:groupID}&since={:since}
+> `GET` https://tasks.app.rs.school/angular/groups/read?groupID={:groupID}&since={:since}
 
 Retrieves messages of provided group.
 
@@ -104,8 +104,7 @@ _json_ format
         "S": "string"
       },
       "createdAt": {
-        "S": "string"
-        // unix timestamp
+        "S": "string" // unix timestamp
       }
     }
     // ... other objects in the same format
@@ -161,7 +160,7 @@ _status code_ **400**
 
 ---
 
-> `POST` https://9ixpng57y3.execute-api.eu-central-1.amazonaws.com/groups/append
+> `POST` https://tasks.app.rs.school/angular/groups/append
 
 Sends new message into the group channel.
 
