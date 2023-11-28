@@ -90,8 +90,10 @@ _json_ format
         "S": "string"
       },
       "createdAt": {
+        "S": "string" // unix timestamp
+      },
+      "createdBy": {
         "S": "string"
-        // unix timestamp
       }
     }
     // ... another object in the same format
