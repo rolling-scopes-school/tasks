@@ -90,8 +90,10 @@ _json_ format
         "S": "string"
       },
       "createdAt": {
+        "S": "string" // unix timestamp
+      },
+      "createdBy": {
         "S": "string"
-        // unix timestamp
       }
     }
     // ... another object in the same format
@@ -453,6 +455,105 @@ _status code_ **400**
 {
   "type": "InvalidTokenException",
   "message": "Header should contain \"Authorization\" parameter with Bearer code."
+}
+```
+
+---
+
+> `POST` https://tasks.app.rs.school/angular/conversations/create
+
+Creates conversation with the user.
+
+#### Request headers
+
+| Header          | Type     | Description                                                                               |
+| --------------- | -------- | ----------------------------------------------------------------------------------------- |
+| `rs-uid`        | `string` | user identifier received after successful authentication                                  |
+| `rs-email`      | `string` | user email                                                                                |
+| `Authorization` | `string` | `Bearer <TOKEN>`, where `<TOKEN>` is token value received after successful authentication |
+
+#### Request body
+
+| Property    | Type     | Description     |
+| ----------- | -------- | --------------- |
+| `companion` | `string` | user identifier |
+
+#### Response
+
+_status code_ **201**  
+_json_ format
+
+```json
+{
+  "conversationID": "string"
+}
+```
+
+#### Exception
+
+###### Have not passed required headers in http-request
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidUserDataException",
+  "message": "Header should contain \"rs-uid\", \"rs-email\" and \"Authorization\" parameters."
+}
+```
+
+###### Have not passed valid Authorization header parameter
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidTokenException",
+  "message": "Header should contain \"Authorization\" parameter with Bearer code."
+}
+```
+
+###### Sent form data is corrupted
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Invalid multipart/form-data request"
+}
+```
+
+###### Format of form data is unknown or cannot be read
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Invalid post data"
+}
+```
+
+###### Companion identifier is not defined
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Parameter \"companion\" should be defined."
+}
+```
+
+###### Conversation already exist
+
+_status code_ **400**
+
+```json
+{
+  "type": "DuplicationNotAllowedException",
+  "message": "Conversation already exists."
 }
 ```
 
