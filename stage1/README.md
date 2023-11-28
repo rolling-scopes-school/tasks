@@ -3,7 +3,7 @@
 ## 🚀 Overview
 
 - 📣 **Open to all who wish to join**
-- 📅 **Study time:** 11 weeks
+- 📅 **Study time:** 12 weeks
 - 📚 **Format:** self-study + webinars + Discord communication + assignments (cross-checks/auto-checks)
 
 ### 📝 Topics Covered:
@@ -187,9 +187,19 @@
 
 #### January 2, 2024
 
-- [Module: Clean Code](modules/clean-code/)
-- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
-- [Linters, Formatters, and Husky](modules/linters-formatters-husky/README.md)
+- Modules:
+
+  - [Module: Clean Code](modules/clean-code/)
+  - [Linters, Formatters, and Husky](modules/linters-formatters-husky/)
+
+- Tasks:
+
+  - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+- Tests:
+
+  - [[St1] Clean-Code](modules/clean-code/)
+  - [[St1] Linters, Formatters, and Husky](modules/linters-formatters-husky/)
 
 ### Week #8
 
