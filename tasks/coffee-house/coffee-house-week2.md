@@ -24,10 +24,10 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 3. Continue working on the task within the branch you have created.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
 5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
-6. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, resolve any conflicts that arise, and then marge the Pull Request.  
+6. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, resolve any conflicts that arise, and then merge the Pull Request.  
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, yoy can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.  
-   The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
+7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, you can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.  
+   The title of the Pull Request can be chosen at your discretion. A description of this Pull Request is not necessary.
 8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the second part of the task.  
    It is not required to merge this Pull Request.
 9. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
