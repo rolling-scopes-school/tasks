@@ -45,7 +45,7 @@ In this part of the task, you need to add the following functionality to the web
    - When clicking the cross, the burger menu smoothly hides, moving to the right of the screen, and the cross smoothly transforms into a burger icon: **+4**
    - The burger icon is created using HTML and CSS without the use of images: **+2**
    - Links in the burger menu work, providing smooth scrolling to anchor points: **+2**
-   - When clicking on any link (interactive or non-interactive) in the menu, the burger menu smoothly hides to the right, and the cross smoothly transforms into a burger icon: **+2**
+   - When clicking on any link (interactive or non-interactive) in the menu, and if there is no transition to another page with a different URL, the burger menu smoothly hides to the right, and the cross smoothly transforms into a burger icon: **+2**
    - The placement and dimensions of elements in the burger menu match the layout (horizontal centering of menu items): **+2**
    - When the page width increases to 769px or higher, the burger icon and the open burger menu hide, and the navigation panel appears: **+2**
 2. Implementation of the carousel on the `home` page: **+24**
