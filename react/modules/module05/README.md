@@ -69,7 +69,6 @@ Run app and check that the functionality is working (cross-check)
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Test coverage is less than 80%: **-30 points**
 - Next.js isn't used: **-100 points**
-- Usage of client state on page: **-20 points** per each
 - Pages API isn't used: **-50 points**
 - Commits after the deadline: **-40 points**
 
@@ -90,3 +89,4 @@ Run app and check that the functionality is working (cross-check)
 - [Pages API](https://nextjs.org/docs/pages)
 - [RTK with server side rendering](https://redux-toolkit.js.org/rtk-query/usage/server-side-rendering)
 - [RTK Query + Next.JS example](https://github.com/phryneas/ssr-experiments/tree/main/nextjs-blog)
+- [Webinar: Next.js - Your next step in React](https://www.youtube.com/watch?v=_iAApVcgr88)
