@@ -1,26 +1,36 @@
-# [Angular schedule.](../../README-ENG.md) Redux & NgRx.
+# [Angular schedule.](../../README.md) Redux & NgRx.
 
 ## In this module, students need to learn:
 
 - `NgRx` library.
-- Store state management. `Store`, `Actions`, `Reducers`, `Selectors`.
-- Application of `Effects`.
+- Store state management: `Store`, `Actions`, `Reducers`, `Selectors`.
+- Application with `Effects`.
 - Advantages of `NgRx`.
 
 ## Approximate time to complete this module:
-Theory - 6 hours
-Assignment - 4 hours
+
+Theory - 6 hours;
+Assignment - 8 hours
 
 ## Theory
+
 - [Lecture](https://youtu.be/cW33_Zadfew)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/65fd4112292fa2c8a10597587bcd371b7e617fed)
 - [Slides](https://slides.com/pavelrazuvalau/angular-ngrx)
 
+### Supplements (required)
+
+- [NxRx documentation](https://ngrx.io/docs)
+- [Crucial examples](https://youtu.be/SkoI_VHtcTU)
+- [Install Redux DevTools in the browser](https://github.com/reduxjs/redux-devtools)
+- [Beginner to Advanced NgRx](https://youtu.be/iWX7qCGVt9U)
+
 ## Practical assignment
-- [Angular. NgRx](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/NgRX.md)
-- Mentor: Aleh Serhiyenia
+
+- [Angular. NgRx](../../../tasks/angular/NgRX.md)
+- Trainer: Oleh Duleba
 
 ## Additional materials
-- [General understanding of Flux](https://facebook.github.io/flux/)
-- [NxRx docs](https://ngrx.io/docs)
+
+- [Component store](https://youtu.be/r0Rzt4lQ0T0)
 - [NgRx Tips I Needed in the Beginning](https://dev.to/this-is-angular/ngrx-tips-i-needed-in-the-beginning-4hno)

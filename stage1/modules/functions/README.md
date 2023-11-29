@@ -1,43 +1,44 @@
-# [Stage#1](../../) Область видимости и функции
-## В данном модуле студентам необходимо изучить:
+# [Stage#1](../../) Scope and Functions
+
+## Module Overview
+
+In the "Scope and Functions" module, students explore core JavaScript concepts. They'll learn about variable scope, including global and local scopes, and delve into function mechanics — from declaration to execution. Understanding 'this' context, closures, and function timing with `setTimeout` and `setInterval` will equip learners with essential skills for advanced JavaScript programming.
+
+## In this module, students need to study:
+
 Scope
-- Область видимости (Scope)
-- Глобальный и локальный Scope
-- Вложенный Scope
-- Hoisting
-- temporal dead zone (TDZ)
-Функции
-- типы функций
-- передача параметров
-- возврат значения
-- функции как данные
-- this
-- контекст
-- функция как конструктор
-- call/apply/bind
-- Статический и динамический scope
-- Замыкания
-- Замыкания и циклы
-- Chaining, Decorator
+
+- [Scope: Global and Local Scope, Nested Scope](https://www.freecodecamp.org/news/scope-and-closures-in-javascript/)
+- [Hoisting](https://www.freecodecamp.org/news/what-is-hoisting-in-javascript-3/)
+- [Temporal Dead Zone (TDZ)](https://www.freecodecamp.org/news/what-is-the-temporal-dead-zone/)
+  Functions
+- [Types of Functions](https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/)
+- [Parameter Passing](https://javascript.info/function-basics#parameters)
+- [Return Value](https://javascript.info/function-basics#returning-a-value)
+- [Functions as Data](https://education.launchcode.org/intro-to-professional-web-dev/chapters/more-on-functions/functions-as-values.html)
+- [This, Context](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- [Function as Constructor](https://javascript.info/constructor-new#constructor-function)
+- [Call/Apply/Bind](https://www.freecodecamp.org/news/understand-call-apply-and-bind-in-javascript-with-examples/)
+- [Static and Dynamic Scope](https://benmyers.dev/blog/scope/#lexical-scope-versus-dynamic-scope)
+- [Closures](https://benmyers.dev/blog/scope/#closures)
+- [Closures and Loops](https://www.freecodecamp.org/news/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript-558d8255d8a4)
+- [Chaining](https://www.geeksforgeeks.org/method-chaining-in-javascript/)
+- [Decorator](https://javascript.info/call-apply-decorators)
 - Scheduling
-    - setTimeout and setInterval
+  - [setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
 
-## Приблизительное время прохождения модуля
-- 4 часа 
+## Approximate module completion time:
 
-## Теория 
-Вам необходимо посмотреть запись вебинара: 
-- Часть#1 https://www.youtube.com/watch?v=c_rHAYNBotQ
-- Часть#2 https://www.youtube.com/watch?v=h5o_tgEMKxY
-- Слайды
-    - https://kirilknysh.github.io/js-scope-talk/#/
-    - https://kirilknysh.github.io/js-functions-talk/#/
+- 4 hours
 
-## Практика 
-1. Вам необходимо пройти тест "JS Scope & Functions" в RS APP > Auto Test
-2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q3.md)
+## Practice
 
-## Дополнительные материалы
-- https://learn.javascript.ru/advanced-functions
-- Подробнее про контекст вызова this - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
-- Замыкания в JS - https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
+1. You need to take the 'JS Scope & Functions' test in RS APP > Auto Test
+
+## Additional materials
+
+- Deep Dive into Functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- Understanding Closures: [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures)
+- You Don't Know JS: Scope & Closures: [GitHub](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
+- Webinar Recordings (in Russian): [YouTube](https://www.youtube.com/watch?v=c_rHAYNBotQ), [YouTube](https://www.youtube.com/watch?v=h5o_tgEMKxY)
+- Presentation Slides: [Scope](https://kirilknysh.github.io/js-scope-talk/#/), [Functions](https://kirilknysh.github.io/js-functions-talk/#/)

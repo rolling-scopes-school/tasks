@@ -1,25 +1,36 @@
-# [Stage#1.](../../) Основы работы с Chrome Dev Tools и VS Code
-## В данном модуле студентам необходимо
-Познакомиться с:
-- особенностями работы браузера
-- возможностями Chrome Dev Tools (Стили и Инспектор элементов)
-- редактором VSCode
-    - настройка среды
-    - расширения
-    - консоль
-- Основными командами терминала
+# Stage#1. Fundamentals of Chrome Dev Tools, VS Code and Internet
 
-## Приблизительное время прохождения модуля
-4 часа
+## Objectives for this module:
 
-## Теория
-1. Интернет и Браузер https://webref.ru/course/introduction
-2. [Вебинар: Браузеры. VS Code – установка и настройка](https://www.youtube.com/watch?v=nd2VYxOsOwY)
-3. Терминал
-     - [Basic Windows](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
-     - [Basic Mac](https://www.imore.com/how-use-terminal-mac-when-you-have-no-idea-where-start)
+Students are required to get acquainted with:
 
-## Дополнительные материалы
-- [How browser works](https://youtu.be/gdriDw-ciH8)
-- https://habr.com/ru/post/490754/ - 2h
-- https://itchief.ru/javascript/vscode-configuration-for-frontend-development - 1h
+- The functioning and nuances of browsers
+- Features of Chrome Dev Tools (Styles and Element Inspector)
+- The VSCode Editor
+  - Setting up the environment
+  - Extensions
+  - Console
+- Basic terminal commands
+
+## Estimated time for completing the module:
+
+4 hours
+
+## Theory
+
+1. [Internet and Browsers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+2. [Webinar: Browsers and VS Code – Installation and Setup (Ru)](https://www.youtube.com/watch?v=nd2VYxOsOwY)
+3. Terminal:
+   - [Basic Windows Commands](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
+   - [Basic Mac Commands](https://www.imore.com/how-use-terminal-mac-when-you-have-no-idea-where-start)
+
+## Additional resources
+
+- [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [Getting Started with Chrome Dev Tools ](https://developer.chrome.com/docs/devtools/) - 2h read
+- [VSCode Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) - 1h read
+- [Vscode Extensions](https://hackr.io/blog/best-vscode-extensions)
+
+## Practice
+
+- Complete the auto-test on "Fundamentals of the Internet".

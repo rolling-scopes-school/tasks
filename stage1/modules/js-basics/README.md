@@ -1,27 +1,42 @@
-# [Stage#1](../../) Основы JavaScript. Типы данных
-## В данном модуле студентам необходимо:
-Закрепить основы JavaScript:
-- Переменные 
-- Типы данных
-- Преобразование типов
-- Базовые операторы, математика
-- Условные и логические операторы
-- Циклы
-- Функции
-- Комментарии
+# [Stage#1](../../) JavaScript Basics
 
-## Приблизительное время прохождения модуля
-4 часа
+## Module Overview
 
-## Теория 
-Вариант на выбор:
-- читать https://learn.javascript.ru/first-steps
-- смотреть https://www.youtube.com/watch?v=Jnf--72z8bs [Слайды](https://docs.google.com/presentation/d/1C1ri0y3tVPgbFSgg2u-ohUzZasT6WlPTB-dViNH1Eyo/edit)
+This foundational module is crafted to solidify the participants' understanding of core JavaScript concepts. By reinforcing their knowledge of the language's building blocks, students will be equipped with the skills necessary to tackle more complex programming challenges and frameworks.
 
-## Практика 
-1. Вам необходимо пройти тест "JS Basics [RU]" и "JS Types" в RS APP > Auto Test
-2. [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars1-2022Q3.md)
+Strengthen JavaScript knowledge:
 
-## Дополнительные материалы
-- https://exploringjs.com/impatient-js/toc.html
-- https://learn.javascript.ru/data-types
+- Variables
+- Data types
+- Type conversion
+- Basic operators, mathematics
+- Conditional and logical operators
+- Loops
+- Functions
+- Comments
+
+## Estimated Learning Time
+
+- **4 hours**
+
+## Theory
+
+Participants are to study the following submodules:
+
+- [Variables](./variables.md)
+- [Data Types](./data-types.md)
+- [Type Conversion](./type-conversion.md)
+- [Basic Operators and Mathematics](./basic-operators.md)
+- [Conditional and Logical Operators](./logical-operators.md)
+- [Loops](./loops.md)
+- [Functions](./functions.md)
+- [Comments](./comments.md)
+
+## Practice
+
+1. Successfully complete the "[St1] JS Basics" test located in RS APP > Auto Test.
+2. Apply and challenge your new knowledge on interactive exercises via [JS Challenger](https://www.jschallenger.com/javascript-practice/javascript-fundamentals).
+
+## Additional Sources
+
+- Access a comprehensive overview of JavaScript fundamentals in [one concise handbook](https://exploringjs.com/impatient-js/toc.html).

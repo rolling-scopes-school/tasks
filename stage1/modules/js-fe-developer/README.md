@@ -1,26 +1,49 @@
-# [Stage#1.](../../) Знакомство с профессией "JS/Front-end разработчик"
-## В данном модуле студентам необходимо:
-- Получить представление о профессии JS/Front-end разработчика
-- Получить представление о языках, технологиях и инструментах JS/Front-end разработчика
-- Ознакомиться с обязанностями JS/Front-end разработчика
-- Ознакомиться с требованиями к начинающему JS/Front-end разработчику
+# [🌟 Stage#1.](../../) Introduction to the profession of "JS/Front-end developer" 🌟
 
-## Приблизительное время прохождения модуля
-2 часа
+## 🎯 Objectives
 
-## Теория
-- Посмотреть запись [вебинара](https://www.youtube.com/watch?v=5g1U06QjWZk).
-- Ознакомиться с [требованиями](js-l1-position-requirements.md) к JS/Front-end разработчику в EPAM 
-- Прочитать [рекомендации по изучению английского языка](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
+In this module, students should:
 
-## Полезные ссылки 
-- [Запись YouTube стрима "Профориентация"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 часа
-- [Дорожная карта JS разработчика в 2021](https://github.com/kamranahmedse/developer-roadmap)
-- [Матрица компетентности](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwSn4qxbYHSdQ428OkpArZc4Q22D8dmbzDcRXt-UzkZ1sZfGLoQmm1w-N0Rx_voKLx4i7R_k7cnQgV/pubhtml#)
-- [Отличная книга по JS на русском (learn.javascript.ru)](https://learn.javascript.ru/)
-Главы, которые желательно прочитать в первую очередь:
-   - [Основы JavaScript](https://learn.javascript.ru/first-steps)
-   - [Объекты: основы](https://learn.javascript.ru/object-basics)
-   - [Типы данных](https://learn.javascript.ru/data-types)
-   - [Документ](https://learn.javascript.ru/document)
-   - [Введение в события](https://learn.javascript.ru/events)
+- 🧠 **Understand** the JS/Front-end developer profession and the evolving requirements, including the mandatory knowledge of TypeScript.
+- 🛠️ **Explore** the languages, technologies, and tools used by JS/Front-end developers, focusing on basic NodeJS knowledge and cloud services.
+- 🤝 **Familiarize** themselves with the responsibilities of JS/Front-end developers and the integration between client-side applications and back-end services.
+- 📚 **Acquaint** themselves with the entry-level requirements and essential skills for aspiring JS/Front-end developers.
+
+## 🌐 Starting Point: Deep Understanding of JavaScript
+
+A profound understanding of JavaScript is the starting point for learning everything else in front-end development. It forms the backbone of web development, enabling you to grasp the complexities of other technologies and languages effectively.
+
+## 🕒 Module Completion Time
+
+- Approximate Time: **4 hours**
+
+## 📖 Theory
+
+- [Webinar](https://www.youtube.com/watch?v=A6-omh-SVug)
+- 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
+
+## 💡 Essential Knowledge for Front-end Developers
+
+Understanding NodeJS, Cloud services, and TypeScript is crucial due to the expansion of front-end development.
+
+- 🌐 **TypeScript:** Offers static typing, enhancing code quality and understandability.
+- 💻 **NodeJS:** Enables the creation of server-side applications, improving overall functionality and efficiency of web applications.
+- ☁️ **Cloud Services:** Provides platforms for hosting and optimizing applications, ensuring scalability and performance.
+
+### 🌟 Why are they Mandatory?
+
+- 📝 **TypeScript** is a must-learn language for its contribution to writing reliable code.
+- 🔍 **NodeJS** allows developers to understand back-end functionalities and contribute comprehensively to project development.
+- 🚀 **Cloud Services** proficiency ensures the optimal utilization of modern development resources, emphasizing performance and scalability.
+
+## 🔗 Useful Links
+
+- [JavaScript Roadmap](https://roadmap.sh/javascript)
+- [Frontend Roadmap](https://roadmap.sh/frontend)
+- [TypeScript Roadmap](https://roadmap.sh/typescript)
+- [React Roadmap](https://roadmap.sh/react)
+- [Angular Roadmap](https://roadmap.sh/angular)
+- [NodeJS Roadmap](https://roadmap.sh/nodejs)
+- [AWS Best Practices](https://roadmap.sh/best-practices/aws)
+- [Full Stack Developer Roadmap](https://roadmap.sh/full-stack)
+- [Career Guidance [RU]](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 hours

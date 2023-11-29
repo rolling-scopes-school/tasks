@@ -2,61 +2,57 @@
 
 ## Recommended libraries (versions can be different)
 
-```
+```json
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
 ```
+
 The configuration might be different based on what setup has been choosen (Vite or CRA), you can check [the details](https://www.npmjs.com/package/eslint-plugin-react-hooks).
 [Here are](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/) some details about setting up Husky on the project.
 
-
 ## Eslint configuration
+
 Might be insignificantly changed
-```
+
+```json
 {
-  "parser": "@typescript-eslint/parser",
+  "root": true,
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "es6": true,
     "jest": true,
     "node": true
   },
-  "root": true,
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": "latest",
-	"sourceType": "module"
-  },
-  "plugins": [
-    "@typescript-eslint", "react", "prettier", "react-hooks"
-  ],
+  "plugins": ["@typescript-eslint", "react", "react-hooks"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "comma-dangle": ["error", "only-multiline"],
     "react/prop-types": "off",
     "react/display-name": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/ban-ts-comment": "error",
     "@typescript-eslint/no-non-null-assertion": "off",
@@ -77,23 +73,22 @@ Might be insignificantly changed
 ```
 
 ## Prettier configuration
-```
+
+```json
 {
   "endOfLine": "auto",
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "printWidth": 100,
+  "printWidth": 80,
   "arrowParens": "always"
 }
 ```
 
 ## TSConfig
 
-```
-
-
+```json
 {
   "compilerOptions": {
     "target": "ESNext",
@@ -109,7 +104,6 @@ Might be insignificantly changed
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noImplicitAny": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
@@ -117,4 +111,5 @@ Might be insignificantly changed
   "references": [{ "path": "./tsconfig.node.json" }]
 }
 ```
-Note: If you use ```CRA``` you should remove ```"references": [{ "path": "./tsconfig.node.json" }]``` from the config above
+
+Note: If you use `CRA` you should remove `"references": [{ "path": "./tsconfig.node.json" }]` from the config above

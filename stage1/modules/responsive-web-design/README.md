@@ -1,21 +1,36 @@
-# [Stage#1](../../) Responsive Web Design (Адаптивный дизайн)
-## В данном модуле студентам необходимо познакомиться:
-- Познакомиться основами Responsive Web Design (Адаптивный дизайн)
-- Познакомиться c процессом верстки адаптивного макета
+# [Stage#1](../../) **Responsive Web Design** 🌐
 
-## Приблизительное время прохождения модуля
-6 часов
+## Module Overview 📚
 
-## Теория 
-1. [Что такое адаптивный веб-дизайн?
-](https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD)
-2. https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
-3. [Вебинар Виктории Ворожун. Часть 1](https://www.youtube.com/watch?v=ZAde-IJAHzo&feature=youtu.be) - 2,5 часа
-4. [Вебинар Виктории Ворожун. Часть 2](https://www.youtube.com/watch?v=BJENQIX2e2o&feature=youtu.be) - 2,5 часа
+This module delves into the principles and practices of Responsive Web Design, a vital skill in modern web development. It focuses on educating students about the basics of Responsive Web Design and guiding them through the process of crafting layouts that adapt seamlessly across a range of devices and screen sizes.
 
-## Практика 
-1. Вам необходимо пройти тест "Media Queries & Responsive" в RS APP > Auto Test
+### Objective 🎯
 
-## Дополнительные материалы
-1. [Вебинар Виктории Ворожун. Часть 3](https://www.youtube.com/watch?v=fooyYgIuZe8&feature=youtu.be) - 3 часа
-2. [Вебинар Виктории Ворожун. Часть 4](https://www.youtube.com/watch?v=Qk2UGlFNKPE) - 3 часа
+Students should familiarize themselves with:
+
+- The fundamentals of Responsive Web Design.
+- Techniques and strategies for designing responsive layouts.
+
+## Approximate Module Completion Time ⏱️
+
+- **6 hours.**
+
+### Theory 📖
+
+#### **Introduction to Responsive Web Design**:
+
+1. [What is Responsive Web Design?](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+2. [Webinar by Victoria Vorozhun, Part 1 (RU)](https://www.youtube.com/watch?v=ZAde-IJAHzo&feature=youtu.be) - 2.5 hours
+3. [Webinar by Victoria Vorozhun, Part 2 (RU)](https://www.youtube.com/watch?v=BJENQIX2e2o&feature=youtu.be) - 2.5 hours
+4. [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+
+### Practice 💻
+
+1. Students are required to complete the "[St1] Media Queries & Responsive" test in the RS-App > Auto Test.
+
+### Additional Materials 📘
+
+1. [Webinar by Victoria Vorozhun, Part 3 (RU)](https://www.youtube.com/watch?v=fooyYgIuZe8&feature=youtu.be) - 3 hours
+2. [Webinar by Victoria Vorozhun, Part 4 (RU)](https://www.youtube.com/watch?v=Qk2UGlFNKPE) - 3 hours
+3. [Responsive Layouts](https://css-tricks.com/responsive-layouts-fewer-media-queries/)
+4. [The Guide to Responsive Web Design in 2023](https://webflow.com/blog/responsive-web-design)

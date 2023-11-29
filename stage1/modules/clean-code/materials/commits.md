@@ -1,13 +1,14 @@
-#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../) 
+#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../)
+
 # Правила работы с GIT
 
 ## Требования содержанию коммита
 
 За каждым коммитом должна стоять
 
-* или законченная функциональность / документация
-* или полноценное исправление дефекта кода
-* или законченный рефакторинг кода
+- или законченная функциональность / документация
+- или полноценное исправление дефекта кода
+- или законченный рефакторинг кода
 
 Проще говоря, все изменения в коммите, могут быть легко описаны одним простым предложением с единственным сказуемым.
 
@@ -23,73 +24,75 @@
 - Должен использоваться imperative mood («move cursor to...», not «moves cursor to...»)
 
 ### Примеры имен коммитов
-*  `init`: – используется для начала проекта/таска. 
 
-	**Примеры:**
-	
-	```js
-	init: start youtube-task
-	init: start mentor-dashboard task
-	```
+- `init`: – используется для начала проекта/таска.
 
-*  `feat`: – это реализованная новая функциональность из технического задания (добавил поддержку зуммирования, добавил footer, добавил карточку продукта). 
+  **Примеры:**
 
-	**Примеры:**
-	
-	```
-	feat: add basic page layout
-	feat: implement search box 
-	feat: implement request to youtube API
-	feat: implement swipe for horizontal list
-	feat: add additional navigation button
-	feat: add banner
-	feat: add social links
-	feat: add physical security section
-	feat: add real social icons
-	```
+  ```js
+  init: start youtube-task
+  init: start mentor-dashboard task
+  ```
 
-* `fix`: – исправил ошибку в ранее реализованной функциональности. 
+- `feat`: – это реализованная новая функциональность из технического задания (добавил поддержку зуммирования, добавил footer, добавил карточку продукта).
 
-	**Примеры:**
-	
-	```
-	fix: implement correct loading data from youtube
-	fix: change layout for video items to fix bugs
-	fix: relayout header for firefox
-	fix: adjust social links for mobile
-	```
+  **Примеры:**
 
-* `refactor`: – новой функциональности не добавлял / поведения не менял. Файлы в другие места положил, удалил, добавил. Изменил форматирование кода (white-space, formatting, missing semi-colons, etc). Улучшил алгоритм, без изменения функциональности. 
+  ```
+  feat: add basic page layout
+  feat: implement search box
+  feat: implement request to youtube API
+  feat: implement swipe for horizontal list
+  feat: add additional navigation button
+  feat: add banner
+  feat: add social links
+  feat: add physical security section
+  feat: add real social icons
+  ```
 
-	**Примеры:**
-	
-	```
-	refactor: change structure of the project
-	refactor: rename vars for better readability
-	refactor: apply eslint
-	refactor: apply prettier
-	```
+- `fix`: – исправил ошибку в ранее реализованной функциональности.
 
-* `docs`: – используется при работе с документацией/readme проекта. 
+  **Примеры:**
 
-	**Примеры:**
-	
-	```
-	docs: update readme with additional information
-	docs: update description of run() method
-	```
+  ```
+  fix: implement correct loading data from youtube
+  fix: change layout for video items to fix bugs
+  fix: relayout header for firefox
+  fix: adjust social links for mobile
+  ```
+
+- `refactor`: – новой функциональности не добавлял / поведения не менял. Файлы в другие места положил, удалил, добавил. Изменил форматирование кода (white-space, formatting, missing semi-colons, etc). Улучшил алгоритм, без изменения функциональности.
+
+  **Примеры:**
+
+  ```
+  refactor: change structure of the project
+  refactor: rename vars for better readability
+  refactor: apply eslint
+  refactor: apply prettier
+  ```
+
+- `docs`: – используется при работе с документацией/readme проекта.
+
+  **Примеры:**
+
+  ```
+  docs: update readme with additional information
+  docs: update description of run() method
+  ```
 
 ## Требования к Pull Request (PR)
 
 **Pull Request** – это место для обсуждения кода. Он не должен выглядеть как монолог студента или ментора. Будьте культурными, уважайте время и работу друг друга.
 
 ### Описание Pull Request должно содержать следующую информацию:
+
 - Ссылка на задание.
 - Скриншот результата выполнения задания (страница созданного приложения или сайта). Скриншот добавляем в Pull Request в виде изображения.
 - Ссылка на задеплоенную версию вашего приложения или сайта. Для деплоя можно использовать:
-	* при наличии приватного репозитория школы – `gh-pages`;
-	* при отсутствии приватного репозитория школы или при невозможности разместить приложение на gh-pages приватного репозитория школы – netlify.com либо на другом подобном хостинге.
-	* для демоверсий, размещённых на [netlify.com](netlify.com), название сайта даётся по схеме: `имя гитхаб-аккаунта – название таска`.
+  - при наличии приватного репозитория школы – `gh-pages`;
+  - при отсутствии приватного репозитория школы или при невозможности разместить приложение на gh-pages приватного репозитория школы – netlify.com либо на другом подобном хостинге.
+  - для демоверсий, размещённых на [netlify.com](netlify.com), название сайта даётся по схеме: `имя гитхаб-аккаунта – название таска`.
 - Дата сдачи / дата дедлайна.
 - Ваша самопроверка с предварительной оценкой.
 - Рекомендуется добавить ссылку на YouTube видео с самооценкой созданного проекта (только для заданий, которые проверяются при помощи cross-check).
@@ -105,14 +108,15 @@
 
    – Вёрстка, дизайн, UI (15/30)
 
-      – [x] минимальная ширина страницы, при которой она отображается корректно – 320 рх (10)
-      – [±] внешний вид приложения внешне соответствует макету или является его улучшенной версией (5/10)
-      – [ ] приложение корректно отображается для любого выбранного языка (0)
+   – [x] минимальная ширина страницы, при которой она отображается корректно – 320 рх (10)
+   – [±] внешний вид приложения внешне соответствует макету или является его улучшенной версией (5/10)
+   – [ ] приложение корректно отображается для любого выбранного языка (0)
    – В блоке "Погода за сегодня" отображаются следующие данные (15/20)
 
-      – [x] данные о погоде и местоположении пользователя (10)
-      – [±] часы, обновляющие время каждую секунду (5/10)
- 	 ...
+   – [x] данные о погоде и местоположении пользователя (10)
+   – [±] часы, обновляющие время каждую секунду (5/10)
+   ...
+
 6. Ссылка на YouTube видео с самооценкой.
 ```
 

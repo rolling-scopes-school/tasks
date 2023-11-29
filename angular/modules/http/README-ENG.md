@@ -1,4 +1,4 @@
-# [Angular schedule.](../../README-ENG.md) Http
+# [Angular schedule.](../../README.md) Http
 
 ## In this module, students need to learn:
 
@@ -7,6 +7,7 @@
 - Intercept of HTTP requests with `HTTP Interceptor`.
 
 ## Approximate time to complete this module:
+
 Theory - 1 hour
 Assignment - 1 hour
 
@@ -17,10 +18,12 @@ Assignment - 1 hour
 - [Slides](https://slides.com/pavelrazuvalau/angular-modules-services-http#/5)
 
 ## Practical assignment
+
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
-- Mentor: Aleh Serhiyenia
+- Trainer: Arcangelo Saccà
 
 ## Additional materials
+
 - [Get data from a server](https://angular.io/tutorial/toh-pt6)
 - [Communicating with backend services using HTTP](https://angular.io/guide/http)
 - [@angular/common/http](https://angular.io/api/common/http)

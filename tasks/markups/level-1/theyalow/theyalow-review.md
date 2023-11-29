@@ -1,7 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| 29.09.2019 23:59 | theyalow |
-
+| Deadline         | Folder name |
+| ---------------- | ----------- |
+| 29.09.2019 23:59 | theyalow    |
 
 # Review: theyalow. Difficulty Level 1.
 
@@ -21,16 +20,15 @@ JPG:
 
 - [ ] The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
-*[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
+_[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)_
 
-*[Page Ruler extension for chrome](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en)*
+_[Page Ruler extension for chrome](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en)_
 
 - [ ] Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
-
 ## Procedure
 
-Create a new private repository named *theyalow* in **your** Github account and upload your HTML and CSS files.
+Create a new private repository named _theyalow_ in **your** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
@@ -47,17 +45,20 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 ## Terms of Reference
 
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
+
 - Care about background styles.
 - Care about lines and colors.
 
 **Desktop**
 
 1. Header
+
 - [ ] Interactive nav.
 - [ ] Logo
 - [ ] Think of where `h1` should be used.
 
 2. Main
+
 - [ ] Video element placed with image placeholder.
 - [ ] Slider buttons could be inactive, but should exist.
 - (Next)
@@ -69,16 +70,19 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 - [ ] Customize range input slider, could be inactive.
 
 3. Footer
+
 - [ ] Logo
 
 **Mobile**
 
 1. Header
+
 - [ ] Interactive nav.
 - [ ] Logo
 - [ ] Think of where `h1` should be used.
 
 2. Main
+
 - [ ] Video element placed with image placeholder.
 - [ ] Swiper instead of slider (for our case, just hide the slider).
 - (Next)
@@ -87,12 +91,12 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 - (Next)
 - [ ] Video element placed with image placeholder.
 - [ ] All '+' should be interactive.
-- [ ] Twitter messages should have the same design with 2 lines - message and author. 
+- [ ] Twitter messages should have the same design with 2 lines - message and author.
 - [ ] Form -> input + submit
 
 3. Footer
-- [ ] Logo
 
+- [ ] Logo
 
 ## Useful links
 
@@ -107,8 +111,8 @@ Fonts can be found here:
 [Asap Regular](https://www.fontsquirrel.com/fonts/asap?q%5Bterm%5D=asap&q%5Bsearch_check%5D=Y)  
 If you can't find font you are looking for, just replace it with same serif-style font.
 
-
 ## If you don't have Photoshop to work with .psd files
+
 There’s a good design tool: https://studio.psdetch.com/
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
 If you need to extract an image, the “export” function is available.
@@ -118,4 +122,3 @@ However, if you lack some of the functionality when using the previous service, 
 No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
 It also supports work with layers and export operations (including .svg format).
 Another advantage is that its interface is very similar to that of Photoshop.
-

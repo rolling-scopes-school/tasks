@@ -12,24 +12,23 @@
 - 5 kyu https://www.codewars.com/kata/rgb-to-hex-conversion
 
 ## Как сабмитить задание
+
 Codewars - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 3**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 3**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
 Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания **Codewars Part 3** в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
-
 ## Scoring criteria
 
-*  5 point for 8 kyu, 7 kyu and Beta tasks (1 tasks at all)
-*  5 points - 6 kyu (8 at all)
-*  5 points - 5 kyu (1 at all)
+- 5 point for 8 kyu, 7 kyu and Beta tasks (1 tasks at all)
+- 5 points - 6 kyu (8 at all)
+- 5 points - 5 kyu (1 at all)
 
-Total: 5*10  = 50
+Total: 5\*10 = 50
 
 **Total sum - 50 points.**
-
 
 ## Материалы
 
