@@ -109,7 +109,7 @@ _status code_ **400**
 ### Profit
 
 - default page for unauthorized user: **10 points**
-- validation for _name_ field with error messages: **5 points**
+- validation for _email_ field with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
 - redirection to the main page after successful authentication: **10 points**
 - error messages for failed http-request is shown: **10 points**
