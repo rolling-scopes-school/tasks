@@ -59,7 +59,7 @@ of `Default`.
 
 As a result application is supposed to use real backend and be deployed to any public host-provider
 to make your project reachable. Also, the source of your project should be pushed to your private
-repository to allow any other student check it out.
+repository to allow any other students check it out.
 NB: make repository public right before the cross-check and submit link to the PR (from development
 branch to main) in the Cross-Check Submit in RSApp.
 Pull Request should follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following).
