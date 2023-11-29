@@ -10,17 +10,18 @@
 8. http://www.codewars.com/kata/easter-egg-list-in-reactjs
 
 ## Scoring criteria
-*  3 point for each task
 
-Total: 3 * 8  = 24
+- 3 point for each task
+
+Total: 3 \* 8 = 24
 
 **Total sum - 24 points.**
 
 ## Auto-Check
 
-  https://auseika.github.io/kata-scan/ 
+https://auseika.github.io/kata-scan/
 
-  It's a self-test resource only, **NOT for submit.**
+It's a self-test resource only, **NOT for submit.**
 
 <details><summary>Instructions</summary>
 <p>
@@ -38,9 +39,9 @@ http://www.codewars.com/kata/custom-hook-react
 http://www.codewars.com/kata/easter-egg-list-in-reactjs
 username
 </pre>
+
 2. Change `username` to your one.
 
 3. Click `CHECK` to see the result.
 </p>
 </details>
-

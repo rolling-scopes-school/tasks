@@ -1,0 +1,92 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [master]
+
+concurrency:
+  group: pr_${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr_format:
+    name: Format
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Detect changes in specific directories
+        id: detect_changes
+        uses: dorny/paths-filter@v2
+        with:
+          filters: |
+            react:
+              - 'react/**'
+            angular:
+              - 'angular/**'
+            node:
+              - 'node/**'
+            stage0:
+              - 'stage0/**'
+            stage1:
+              - 'stage1/**'
+            stage2:
+              - 'stage2/**'
+
+      - name: Add 'react' label
+        if: steps.detect_changes.outputs.react == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            react
+
+      - name: Add 'angular' label
+        if: steps.detect_changes.outputs.angular == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            angular
+
+      - name: Add 'node' label
+        if: steps.detect_changes.outputs.node == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            node
+
+      - name: Add 'stage#0' label
+        if: steps.detect_changes.outputs.stage0 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            stage#0
+
+      - name: Add 'stage#1' label
+        if: steps.detect_changes.outputs.stage1 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            stage#1
+
+      - name: Add 'stage#2' label
+        if: steps.detect_changes.outputs.stage2 == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            stage#2
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Format
+        run: |
+          npm run ci:format

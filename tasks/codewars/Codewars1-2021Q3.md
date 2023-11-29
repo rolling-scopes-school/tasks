@@ -2,50 +2,51 @@
 
 ## Numbers, strings
 
-* 7 kyu https://www.codewars.com/kata/absent-vowel 
-* 7 kyu https://www.codewars.com/kata/get-the-middle-character
-* 7 kyu https://www.codewars.com/kata/highest-and-lowest
-* 7 kyu https://www.codewars.com/kata/jaden-casing-strings
-* 7 kyu https://www.codewars.com/kata/disemvowel-trolls
-* 7 kyu https://www.codewars.com/kata/isograms
-* 7 kyu https://www.codewars.com/kata/nickname-generator
-* 7 kyu https://www.codewars.com/kata/digits-explosion
-* 6 kyu https://www.codewars.com/kata/handshake-problem 
-* 6 kyu https://www.codewars.com/kata/reverse-or-rotate 
-* 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5
+- 7 kyu https://www.codewars.com/kata/absent-vowel
+- 7 kyu https://www.codewars.com/kata/get-the-middle-character
+- 7 kyu https://www.codewars.com/kata/highest-and-lowest
+- 7 kyu https://www.codewars.com/kata/jaden-casing-strings
+- 7 kyu https://www.codewars.com/kata/disemvowel-trolls
+- 7 kyu https://www.codewars.com/kata/isograms
+- 7 kyu https://www.codewars.com/kata/nickname-generator
+- 7 kyu https://www.codewars.com/kata/digits-explosion
+- 6 kyu https://www.codewars.com/kata/handshake-problem
+- 6 kyu https://www.codewars.com/kata/reverse-or-rotate
+- 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5
 
 ## Arrays
 
-* 7 kyu https://www.codewars.com/kata/head-tail-init-and-last 
-* 6 kyu https://www.codewars.com/kata/array-deep-count
-* 6 kyu https://www.codewars.com/kata/valid-string
-* 6 kyu https://www.codewars.com/kata/sorting-by-bits
+- 7 kyu https://www.codewars.com/kata/head-tail-init-and-last
+- 6 kyu https://www.codewars.com/kata/array-deep-count
+- 6 kyu https://www.codewars.com/kata/valid-string
+- 6 kyu https://www.codewars.com/kata/sorting-by-bits
 
 ## Functions
 
-* 6 kyu https://www.codewars.com/kata/closures-and-scopes
-* 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
+- 6 kyu https://www.codewars.com/kata/closures-and-scopes
+- 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
 
 ## Date
 
-* 7 kyu https://www.codewars.com/kata/the-coupon-code 
-* 7 kyu https://www.codewars.com/kata/unlucky-days 
-* 4 kyu https://www.codewars.com/kata/human-readable-duration-format 
+- 7 kyu https://www.codewars.com/kata/the-coupon-code
+- 7 kyu https://www.codewars.com/kata/unlucky-days
+- 4 kyu https://www.codewars.com/kata/human-readable-duration-format
 
 ## Objects
 
-* 7 kyu https://www.codewars.com/kata/mylanguages
-* 6 kyu https://www.codewars.com/kata/run-length-encoding
-* 6 kyu https://www.codewars.com/kata/urban-dictionary
+- 7 kyu https://www.codewars.com/kata/mylanguages
+- 6 kyu https://www.codewars.com/kata/run-length-encoding
+- 6 kyu https://www.codewars.com/kata/urban-dictionary
 
 ## Data Structures
 
-* 7 kyu https://www.codewars.com/kata/convert-a-linked-list-to-a-string 
-* 5 kyu https://www.codewars.com/kata/fun-with-trees-array-to-tree 
+- 7 kyu https://www.codewars.com/kata/convert-a-linked-list-to-a-string
+- 5 kyu https://www.codewars.com/kata/fun-with-trees-array-to-tree
 
 ## Как сабмитить задание
+
 Codewars - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars1-2021Q3**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars1-2021Q3**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
@@ -53,15 +54,14 @@ Codewars - автопроверяемый таск.
 
 ## Scoring criteria
 
-*  1 point for 7 kyu and Beta tasks (13 tasks at all)
-*  4 points - 6 kyu (10 at all)
-*  5 points - 5 kyu (1 at all)
-*  8 points - 4 kyu (1 at all)
+- 1 point for 7 kyu and Beta tasks (13 tasks at all)
+- 4 points - 6 kyu (10 at all)
+- 5 points - 5 kyu (1 at all)
+- 8 points - 4 kyu (1 at all)
 
-Total: 1 * 13 + 4 * 10 + 5 * 1 + 8 * 1  = 66
+Total: 1 _ 13 + 4 _ 10 + 5 _ 1 + 8 _ 1 = 66
 
 **Total sum - 66 points.**
-
 
 ## Материалы
 

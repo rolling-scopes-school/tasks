@@ -43,11 +43,11 @@ You are to implement a classic game — [Gem Puzzle](https://en.wikipedia.org/wi
 - once the work is finished, create a pull request from a development branch to master
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
-    - link to the task
-    - screenshot of your application (one would be enough)
-    - link to your application
-    - date of completion/deadline
-    - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
+  - link to the task
+  - screenshot of your application (one would be enough)
+  - link to your application
+  - date of completion/deadline
+  - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
 
 Example:
 
@@ -56,7 +56,7 @@ Example:
    Link to the current is here
 2. App screenshot:
    Your screenshot is here
-3. Deploy:  
+3. Deploy:
    A link to your deployed application is here
 4. Done 19.04.20 (deadline 19.04.20)
 5. Score: 200 / 200

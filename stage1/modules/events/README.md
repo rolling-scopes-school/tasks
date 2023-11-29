@@ -1,40 +1,58 @@
-# [Stage#1.](../../) Events
-## В данном модуле студентам необходимо изучить:
-1. Событие. Определение.
-2. Интерфейсы, основанные на Event. Полный список с MDN.
-3. С каких событий начать?
-4. Колбэки:
-    - Определение асинхронного программирования;
-    - Понимание того, что означает асинхронность;
-    - В каких случаях нужны колбэки (`setTimeout`, `addEventListener`, `onClick`, ...);
-    - Создание кода с использованием колбэков.
-5. Обработчики событий. Способы привязать обработчик к определенному событию:
-    - В DOM-дереве c атрибутом `on<cобытие>`;
-    - Присвоить свойство DOM-объекту;
-    - Регистрация обработчика на target;
-    - Исключения;
-    - Удаление обработчика;
-    - Объект-обработчик.
-6. Объект события.
-7. Всплытие и погружение.
-8. Делегирование.
-9. Действия по умолчанию.
-10. Генерация пользовательских событий.
+# [🎯 Stage#1: Events](../../)
 
-## Приблизительное время прохождения модуля
-2 часа.
+## 📚 Module Overview
 
-## Теория 
-1. [Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
-2. [Колбэки](https://learn.javascript.ru/callbacks)
-3. [Объект-обработчик](https://learn.javascript.ru/introduction-browser-events#obekt-obrabotchik-handleevent)
-3. [Всплытие и погружение](https://learn.javascript.ru/bubbling-and-capturing)
-4. [Делегирование событий](https://learn.javascript.ru/event-delegation)
-5. [Действия браузера по умолчанию](https://learn.javascript.ru/default-browser-action)
-6. [Генерация пользовательских событий](https://learn.javascript.ru/dispatch-events)
-7. [Основы событий мыши](https://learn.javascript.ru/mouse-events-basics)
-8. [Движение мыши: mouseover/out, mouseenter/leave](https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave)
-9. [Понимание javascript - работа с DOM](https://www.youtube.com/watch?v=-2WiaSvOj78&feature=youtu.be)
+This module immerses students in the world of browser events and event handling, a cornerstone of interactive web development. They will learn the fundamentals of event-driven programming, understanding how to manage and utilize events within web applications effectively.
 
-## Практика 
-1. Вам необходимо пройти тест "DOM Events" в RS APP > Auto Test
+## Learning Objectives 🎯
+
+Students will:
+
+1. Comprehend the concept and significance of an **Event** in web programming.
+2. Explore various **Interfaces based on Events**, with detailed references from MDN.
+3. Identify starting points and best practices for working with **Events**.
+4. Understand and implement **Callbacks** in different scenarios:
+   - Grasp asynchronous programming and its applications.
+   - Recognize scenarios necessitating callbacks (e.g., `setTimeout`, `addEventListener`, `onClick`).
+   - Develop and apply skills in writing code using callbacks.
+5. Master **Event Handlers**, learning different techniques to attach and manage them:
+   - Utilize `on<event>` attributes and properties within the DOM.
+   - Understand reassignment and removal of handlers, along with exceptions.
+   - Implement `handleEvent` for object handlers.
+6. Delve into the **Event Object**, studying its properties and uses.
+7. Understand **Bubbling and Capturing** mechanisms in event propagation.
+8. Apply **Event Delegation** for efficient event management.
+9. Examine **Browser Default Actions** and strategies to handle them.
+10. Learn about **Dispatching Custom Events** for tailored event-driven interactions.
+
+## Approximate Module Completion Time ⏱️
+
+- **2 hours**
+
+## Theory 📖
+
+1. **Foundational Concepts of Events:**
+
+   - [Introduction to Browser Events](https://javascript.info/introduction-browser-events)
+   - [Introduction to Callbacks](https://javascript.info/callbacks)
+   - [Object Handlers: `handleEvent`](https://javascript.info/introduction-browser-events#obekt-obrabotchik-handleevent)
+   - [Bubbling and Capturing Explained](https://javascript.info/bubbling-and-capturing)
+   - [Mastering Event Delegation](https://javascript.info/event-delegation)
+   - [Handling Browser Default Actions](https://javascript.info/default-browser-action)
+   - [Creating and Dispatching Custom Events](https://javascript.info/dispatch-events)
+   - [Fundamentals of Mouse Events](https://javascript.info/mouse-events-basics)
+   - [Navigating Mouse Movement Events](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave)
+
+   Webinar and Materials:
+
+   - [JavaScript Events 2023Q1 [RU]](https://youtube.com/live/VJEpE6DaOYo)
+   - [Presentation Slides](https://github.com/MikAleinik/rs-webinar/tree/events)
+
+## Practice 💻
+
+- Complete the "[St1] DOM Events" test in the RS APP > Auto Test for hands-on experience and skill assessment.
+
+## Additional Resources 📘
+
+1. [JavaScript Events - JavaScript Tutorial](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
+2. [Handling Events in JavaScript - JavaScript Tutorial](https://www.javascripttutorial.net/javascript-dom/handling-events-in-javascript/)

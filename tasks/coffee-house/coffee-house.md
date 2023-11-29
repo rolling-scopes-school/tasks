@@ -15,13 +15,13 @@ Coffee House is a project where you will need to create a website consisting of 
 
 The task consists of three parts:
 
-- [Coffee-House. Week-1: Fixed layout](coffee-house-week1.md)
+- [Coffee-House. Week-1: Fixed Layout](coffee-house-week1.md)
   - In this part of the task, you need to create the 'Home' and 'Menu' pages based on the layout, which should display correctly when the window width is at least 1440px;
   - The validity of the work is checked, as well as its compliance with the layout.
-- [Coffee-House. Week-2: Responsive design](coffee-house-week2.md)
+- [Coffee-House. Week-2: Responsive Design](coffee-house-week2.md)
   - In this part of the task, it is necessary to add responsiveness to the pages created in the first stage, up to and including a width of 380px;
   - The validity of the work is checked, its alignment with the layout at the corresponding page width, layout responsiveness, and the absence of horizontal scroll bars.
-- [Coffee-House. Week-3: Adding functionality](coffee-house-week3.md)
+- [Coffee-House. Week-3: Adding Functionality](coffee-house-week3.md)
   - In this part of the task, we use JavaScript to add interactivity to the pages;
   - The implemented functionality is being checked.
 
@@ -61,7 +61,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 7. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
 8. Using a style reset with `reset.css` is not recommended.
 9. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
-10. The code must be readable, without minification or obfuscation.
+10. The code must be readable, without minification or obfuscation. You are allowed to use bundlers, such as [Vite](https://vitejs.dev/) or [Webpack](https://webpack.js.org/), but please enable [source maps](https://web.dev/articles/source-maps). Gulp is unmaintained and should not be used.
 
 ## Repository Requirements
 

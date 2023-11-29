@@ -3,7 +3,7 @@
 ## 🚀 Overview
 
 - 📣 **Open to all who wish to join**
-- 📅 **Study time:** 11 weeks
+- 📅 **Study time:** 12 weeks
 - 📚 **Format:** self-study + webinars + Discord communication + assignments (cross-checks/auto-checks)
 
 ### 📝 Topics Covered:
@@ -89,19 +89,19 @@
 
   - [Module "CSS positioning. Flex."](modules/css-positioning/)
   - [Module "CSS grid layout"](modules/css-grid/)
-  - [Module: CSS Preprocessors. Sass](modules/sass/en/)
-  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/README.md)
+  - [Module: CSS Preprocessors. Sass](modules/sass/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 - Tasks:
 
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
 
 - Tests:
 
   - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
   - [[St1] CSS grid](modules/css-grid/)
-  - [[St1] Preprocessors. SASS.](modules/sass/en/)
-  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/en/)
+  - [[St1] Preprocessors. SASS.](modules/sass/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 ### Week #4
 
@@ -113,12 +113,12 @@
 
 - Modules:
 
-  - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
+  - [Module: "Responsive Web Design"](modules/responsive-web-design/)
   - [Module: "Media Queries"](modules/media-queries/)
 
 - Tasks:
 
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house.md)
+  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
 
 - Tests:
 
@@ -128,38 +128,78 @@
 
 #### December 5, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
-- [Module: "HTML Forms & Validation"](modules/html-form/)
-- [Module: "DOM API"](modules/dom-api/)
-- [Module: "Events"](modules/events/)
-- [Coffee House. Week-3](../tasks/coffee-house/shelter.md)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
+
+- Modules:
+
+  - [Module: "HTML Forms & Validation"](modules/html-form/)
+  - [Module: "DOM API"](modules/dom-api/)
+  - [Module: "Events"](modules/events/)
+
+- Tasks:
+
+  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
+
+- Tests:
+
+  - [[St1] HTML Form](modules/html-form/)
+  - [[St1] DOM Api](modules/dom-api/)
+  - [[St1] DOM Events](modules/events/)
 
 ### Week #6
 
 #### December 12, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/shelter/coffee-house-week3.md)
-- [Module: Git Recap](modules/git-recap/)
-- [Module "Algorithms and Data Structures"](modules/data-structures/)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
+
+- Modules:
+
+  - [Module: Git Recap](modules/git-recap/)
+  - [Module "Algorithms and Data Structures"](modules/data-structures/)
+
+- Tasks:
+
+  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
+  - [basic-js](https://github.com/AlreadyBored/basic-js)
+
+- Tests:
+
+  - [[St1] Git & GitHub #2](modules/git-recap/)
+  - [[St1] Test Algorithms & Data structures](modules/data-structures/)
 
 ### Break Week
 
 #### December 19, 2023
 
-- Break week, only the deadlines of previously issued tasks and tests
+- Break week with deadlines for previously issued tasks and tests only.
 
 ### Break Week
 
 #### December 26, 2023
 
-- Break week, no new content or assignments
+- Break week without new content or assignments.
 
 ### Week #7
 
 #### January 2, 2024
 
-- [Module: Clean Code](modules/clean-code/)
-- ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- Modules:
+
+  - [Module: Clean Code](modules/clean-code/)
+  - [Linters, Formatters, and Husky](modules/linters-formatters-husky/)
+
+- Tasks:
+
+  - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+
+- Tests:
+
+  - [[St1] Clean-Code](modules/clean-code/)
+  - [[St1] Linters, Formatters, and Husky](modules/linters-formatters-husky/)
 
 ### Week #8
 

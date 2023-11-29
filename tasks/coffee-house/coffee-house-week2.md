@@ -1,136 +1,129 @@
-## Coffee-House. Week-2 - Responsive design
+## Coffee-House. Week-2 - Responsive Design
 
 ### Main Task Description and Requirements
 
 - [Detailed Description](coffee-house.md)
 
 In this part of the task, we will adapt the previously created pages (**Home** and **Menu > Coffee**) for tablets and mobile devices.
-At screen resolutions of 1440px, 768px, and 380px, the goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0).  
-The choice of breakpoints and their number is left to the student.  
+The goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) at screen resolutions of 1440px, 768px, and 380px.
+The choice of breakpoints and their number is left to the student's discretion.  
 For all other resolutions up to 380px, ensure:
 
-- There is no horizontal scroll bar.
+- There is no horizontal scrollbar.
 - The layout is adaptive and responsive.
-- All page content is retained.
-- Image proportions remain unchanged.
-- No white spaces appear to the right of the blocks.
-  To make responsive design, use relative units of measurement (%, rem, vh, etc).
+- All page content is preserved.
+- Image proportions are maintained.
+- No white spaces are present to the right of the blocks.
+
+To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ## Workflow
 
-1. Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
-2. Create new branch `coffee-house-week2` from `coffee-house`. You will already find the `coffee-house` folder with the project files completed in the previous stage in this branch.
-3. Continue working on the task in the branch you've created.
-4. Check if your work meets [CrossCheck Criteria](#crosscheck-criteria).
-5. Evaluate your work independently according to the provided [Criteria for evaluation](#criteria-for-evaluation), taking into account the [DevTools responsiveness check details](#devtools-responsiveness-check-details) and [Specifics of verifying layout](#specifics-of-verifying-layout).
-6. To make the assessment of your work easier, print your self-assessment to the browser console. To do this, include the `index.js` file in your `*.html` file, write a `console.log()` function in it, and in parentheses within quotes, write your self-assessment points. Use the `\n` character to insert line breaks.  
-   For example:
-
-```
-console.log('1. First criteria's name: +5\n2.Second criteria's name: +10')
-```
-
-7. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, check for conflicts, and perform the Merge.  
-   The Pull Request title can be arbitrary. There is no need to describe this Pull Request.
-8. After completing the cross-check for the previous part of the task, update your project's deployment. For example, create and merge a Pull Request from the `coffee-house` branch into the `gh-pages` branch.  
-   The Pull Request title can be arbitrary. There is no need to describe this Pull Request.
-9. After completing your work, update the Pull Request from the `coffee-house` branch to the `main` branch, expanding its functionality with the second part of the task.  
-   There is no need to merge this Pull Request.
-10. Submit the link to the deployment of your work in the [RS APP](https://app.rs.school/) section "Cross-Check Submit".
-11. After the task deadline, the cross-check process begins. The cross-check lasts for three days. To receive points for the task, you need to review all the submissions sent for review and submit the results of the review in the "Cross-Check Review" section of [RS APP](https://app.rs.school/).
+1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
+2. Create a new branch named `coffee-house-week2` from the `coffee-house` branch. You will find the `coffee-house` folder containing the project files completed in the previous stage within this branch.
+3. Continue working on the task within the branch you have created.
+4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
+5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
+6. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, resolve any conflicts that arise, and then marge the Pull Request.  
+   The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
+7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, yoy can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.  
+   The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
+8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the second part of the task.  
+   It is not required to merge this Pull Request.
+9. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
+10. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
 
 ### CrossCheck Criteria (90 points)
 
-1. The layout of the pages matches the design at a screen width of 1440px: **+14**
-   - `<header>` block on each page **+2**
-   - `Enjoy` block on `home` page **+2**
-   - `Favourites Coffee` block on `home` page **+2**
-   - `About` block on `home` page **+2**
-   - `Mobile App` block on `home` page **+2**
-   - `Menu` block on `menu` page **+2**
-   - `<footer>` block on each page **+2**
-2. The layout of the pages matches the design at a screen width of 768px: **+14**
-   - `<header>` block on each page **+2**
-   - `Enjoy` block on `home` page **+2**
-   - `Favourites Coffee` block on `home` page **+2**
-   - `About` block on `home` page **+2**
-   - `Mobile App` block on `home` page **+2**
-   - `Menu` block on `menu` page **+2**
-   - `<footer>` block on each page **+2**
-3. The layout of the pages matches the design at a screen width of 380px: **+14**
-   - `<header>` block on each page **+2**
-   - `Enjoy` block on `home` page **+2**
-   - `Favourites Coffee` block on `home` page **+2**
-   - `About` block on `home` page **+2**
-   - `Mobile App` block on `home` page **+2**
-   - `Menu` block on `menu` page **+2**
-   - `<footer>` block on each page **+2**
-4. There is no horizontal scroll bar at all screen width up to 380px inclusive. All page content remains as per the design: it is not cropped, removed, or shifted to the side: **+20**
-   - No horizontal scroll bar when the `home` page width is between 1440px and 768px: **+5**
-   - No horizontal scroll bar when the `home` page width is between 768рх and 380рх: **+5**
-   - No horizontal scroll bar when the `menu` page width is between 1440px and 768px: **+5**
-   - No horizontal scroll bar when the `menu` page width is between 768рх and 380рх: **+5**
-5. During smooth resizing of the screen from 1440px to 380px, the layout takes up the full width of the window (including the margins specified in the layout), elements change their sizes and positions (but without full scaling), elements do not overlap, and images maintain their correct proportions: **+8**
+1. The layout of the pages aligns the design at a screen width of 1440px: **+14**
+   - `<header>` block on each page: **+2**
+   - `Enjoy` block on `home` page: **+2**
+   - `Favourites Coffee` block on `home` page: **+2**
+   - `About` block on `home` page: **+2**
+   - `Mobile App` block on `home` page: **+2**
+   - `Menu` block on `menu` page: **+2**
+   - `<footer>` block on each page: **+2**
+2. The layout of the pages aligns the design at a screen width of 768px: **+14**
+   - `<header>` block on each page: **+2**
+   - `Enjoy` block on `home` page: **+2**
+   - `Favourites Coffee` block on `home` page: **+2**
+   - `About` block on `home` page: **+2**
+   - `Mobile App` block on `home` page: **+2**
+   - `Menu` block on `menu` page: **+2**
+   - `<footer>` block on each page: **+2**
+3. The layout of the pages aligns the design at a screen width of 380px: **+14**
+   - `<header>` block on each page: **+2**
+   - `Enjoy` block on `home` page: **+2**
+   - `Favourites Coffee` block on `home` page: **+2**
+   - `About` block on `home` page: **+2**
+   - `Mobile App` block on `home` page: **+2**
+   - `Menu` block on `menu` page: **+2**
+   - `<footer>` block on each page: **+2**
+4. There is no horizontal scrollbar at all screen width up to 380px inclusive. All page content remains as per the design: it is not cropped, removed, or shifted to the side: **+20**
+   - `home` page: no horizontal scroll bar between 1440px and 768px widths: **+5**
+   - `home` page: no horizontal scroll bar between 768px and 380px widths: **+5**
+   - `menu` page: no horizontal scroll bar between 1440px and 768px widths: **+5**
+   - `menu` page: no horizontal scroll bar between 768px and 380px widths: **+5**
+5. During smooth resizing of the browser window from 1440px to 380px, the layout occupies the full width of the window (including specified margins), elements adjust their sizes and positions appropriately without full scaling, no elements overlap, and images maintain their correct aspect ratios: **+8**
    - On `home` page: **+4**
    - On `menu` page: **+4**
-6. At screen widths of 768px and below on both pages, the menu and navigation buttons in the header are hidden, and a burger menu icon appears: **+4**  
-   Opening the menu by clicking on the burger menu icon is not checked at this stage
-7. Hover effects are enable on desktop devices (`Desktop` device type in DevTools) and disabled for mobile devices on both pages (`Mobile` device type in DevTools): **+4**
-8. The layout of both pages is valid: to check the validity of the layout, use the service https://validator.w3.org/ : **+12**
+6. At screen widths of 768px and below, the menu and navigation buttons in the header are concealed on both pages, and a burger menu icon is displayed: **+4**  
+   (Note: Activation of the burger menu icon is not evaluated at this stage.)
+7. Hover effects are active on desktop devices (as per the `Desktop` device type in DevTools) and are disabled for mobile devices (as per the `Mobile` device type in DevTools) on both pages: **+4**
+8. The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12**
 
 ### Penalties
 
-1. Layout of the entire design or individual blocks is implemented using images -90
-2. Using frameworks, libraries, and technologies prohibited in technical requirements -90
+1. If the layout of the entire design or individual blocks is implemented using images, this will result in a penalty of **-90 points**.
+2. The use of frameworks, libraries, and technologies that are prohibited in the technical requirements will also result in a penalty of **-90 points**.
 
-## Criteria for evaluation
+## Criteria for Evaluation
 
 **Maximum score for the task: 90 points**
 
-Scores for requirement points are specified in [CrossCheck Criteria](#crosscheck-criteria) section.  
-Penalties are specified in [Penalties](#penalties) section.
+The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.  
+Penalties are outlined in the [Penalties](#penalties) section.
 
-All disputed issues are resolved in favor of the student being assessed.
+Any disputed issues should be resolved in favor of the student being assessed.
 
-To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
+## DevTools Responsiveness Check Details
 
-## DevTools responsiveness check details
-
-1. Open Developer Tools:
-   - Press the `F12` key or right-click and choose the `View Source` option in the context menu;
-   - Click on the **Toggle device toolbar** icon in the top right corner of the developer tools panel;
-   - Choose **Responsive** on the top panel.
-2. Make sure there is no vertical scrollbar in **Responsive** mode. If a scrollbar is present, remove it by following these steps:
+1. To open Developer Tools:
+   - Press the `F12` key, or right-click and choose the `View Source` option in the context menu;
+   - Click on the **Toggle Device Toolbar** icon in the top-right corner of the Developer Tools panel;
+   - Select **Responsive** on the top panel.
+2. Ensure there is no vertical scrollbar in **Responsive** mode. If a scrollbar is present, eliminate it by:
    - Switch the device type from `Desktop` to `Mobile` in the Device Toolbar panel;
-   - If the device type is not displayed, click on the three dots on the right in the Device Toolbar panel and select `Add device type`
-3. Set the screen width to the required value according to the task description, at which we will check the layout against the Design from Figma. If the page of the website being checked does not reformat, or if there is a white space on the right, you may need to refresh the page several times.
-4. Check the layout for compliance with the Design.
-5. For check responsiveness at different screen widths, smoothly change the screen width in DevTools from maximum (1440px) to minimum (380px), and make sure there is no horizontal scroll bar at any screen widths. If a scroll bar appears or white space appears on the right, try refreshing the page; perhaps the layout didn't update.
-6. When scaling the screen (e.g., zoom + 125%), the actual width may differ by 1-2 pixels. For example, the actual value may be 767 or 769, even though the developer tools show 768. Therefore, you should adjust to the transition point, despite the difference.
-7. Check that hover effects on interactive elements are disabled in the `Mobile` device type. To do this, click on an interactive element and ensure it does not remain in a hover state. Switch to the `Desktop` device type to verify that hover effects are enabled.
+   - If the device type is not visible, click on the three dots on the right in the Device Toolbar panel and choose `Add device type`.
+3. Adjust the screen width to the specified value in the task description to check the layout against the Figma design. If the website page does not reformat correctly, or if there is a white space on the right, you may need to refresh the page multiple times.
+4. Compare the layout with the Design for accuracy.
+5. To test responsiveness at various screen widths, smoothly change the screen width in DevTools from the maximum (1440px) to the minimum (380px), and verify there is no horizontal scrollbar at any width. If a scrollbar or white space on the right emerges, refresh the page as the layout might not have updated correctly.
+6. When scaling the screen (e.g., zoom to 125%), the actual width might differ by 1-2 pixels. For example, the actual value might be 767px or 769px even though the Developer Tools indicate 768px. Adjust to the transition point despite this discrepancy.
+7. Confirm that hover effects on interactive elements are deactivated in the `Mobile` device type. Click on an interactive element to ensure it does not remain in a hover state. Then, switch to the `Desktop` device type to check that hover effects are functional.
 
 ![image](https://user-images.githubusercontent.com/73646765/223966120-845e2526-c54c-4611-8173-db5f9a2c3faa.png)
 
-## Specifics of verifying layout
+## Specifics of Verifying Layout
 
-- Deviation from the layout of up to 10px horizontally and vertically is allowed, provided that the visual similarity between the layout and the markup is maintained.
-- Use the [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru) extension as a tool to check the layout's conformity with the design.
-- When checking the layout using the PerfectPixel extension, make sure that the extension is set to a scale of 1, while the browser and operating system are set to a scale of 100%.
-- Each block and section are reviewed separately, meaning that shortcomings in the previous block do not carry over to next one. When transitioning to the review of the next block, we align it with overlaid layout.
-- Regarding text, we check its alignment and spacing relative to the block's boundaries. Text sizes are only checked for height. Deviations in word width and letter spacing when comparing the layout and the markup are not considered errors if the correct font with the specified properties is used
-- The disappearance of the two images in the `About` block of the `home` page can occur at any point between 1440px and 768px
+- A deviation of up to 10px horizontally and vertically from the layout is permissible as long as visual congruity between the design and the markup is preserved.
+- Utilize the [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru) Chrome extension to verify alignment with the design.
+- When using the PerfectPixel extension, ensure it is set to a scale factor of 1, and that your browser and operating system are set to 100% scale.
+- Each block and section should be evaluated independently; deficiencies in one block should not affect the assessment of subsequent blocks. Start each new block's review with it aligned to the overlaid layout from PerfectPixel.
+- For text, check its alignment and spacing within the confines of the block. Text sizes should be checked only for their height. Variations in word width and letter spacing are not considered errors as long as the correct font with specified properties is used.
+- The disappearance of the two images in the `About` block on the `home` page must occur at screen width 768px.
+- The disappearance of the four products in the `Menu` block on the `menu` page must occur at screen width 768px
 
-## How to submit
+## How to Submit
 
-- **Coffee-House. Week-2 - Responsive design** task is checked by cross-check.
-- After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.
+- **Coffee-House. Week-2 - Responsive Design** task is evaluated through a cross-check process.
+- Upon receipt of the task and prior to the submission deadline, proceed to the RS App at https://app.rs.school/. Navigate to **Cross-Check: Submit**, select the appropriate task from the dropdown list, and enter the URL of your deployed website into the **Solution URL** field. Then click the **Submit** button.
 
 ## Submit Recommendations
 
-- Consider submitting early, once the option is available in the RS App. You can make further changes until the deadline.
-- As the project resides in a private repository, repository or pull request links are unnecessary since reviewers won't access them. Only you, course admins, and assigned mentors (if any) can view the private school repository.
-- Ensure the deployed link functions in the browser's incognito mode.
+- Aim to submit early once the submission option becomes available in the RS App. You are free to make additional changes up until the deadline.
+- Given that the project is contained within a private repository, there's no need to share repository or pull request links as reviewers will not have access to them. Private repositories are visible only to you, the course administrators, and any assigned mentors.
+- Verify that the deployed website link is functional, especially when accessed in the browser's incognito mode.
 
 ## Task Evaluation
 
-- Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://docs.rs.school/#/cross-check-flow

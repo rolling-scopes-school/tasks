@@ -1,8 +1,7 @@
-| Deadline  | Completeness | Project name |
-|-----------|--------------|--------------|
-| 1) 06.10.2019 23:59 | First draft | repair-design-project |
+| Deadline            | Completeness  | Project name          |
+| ------------------- | ------------- | --------------------- |
+| 1) 06.10.2019 23:59 | First draft   | repair-design-project |
 | 2) 01.12.2019 23:59 | Final project | repair-design-project |
-
 
 # Homework: repair-design-project. Difficulty Level 3.
 
@@ -65,6 +64,7 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 ## Terms of Reference
 
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
+
 - Care about background styles.
 - Care about lines and colors.
 - Care about pointer cursor.
@@ -72,11 +72,13 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 **Desktop**
 
 1. Header (`<header>` holds logo, h1, navbar, tel, button)
+
 - Interactive navbar, button.
 - Phone number must contain href of type tel.
 - Think of where `<h1>` should be used.
 
 2. Main (not necessary `<main>`)
+
 - [ ] Interactive buttons.
 - [ ] INSTAGRAM - should be a link.
 - [ ] Interactive "scroll down".
@@ -84,7 +86,7 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - [ ] Interactive 3 items navbar.
 - [ ] Slider should have overflow hidden.
 - [ ] Interactive slider button.
-- [ ] Interactive arrows and pagination circles. 
+- [ ] Interactive arrows and pagination circles.
 - (Next block)
 - [ ] [any youtube video of repair topic](https://support.google.com/youtube/answer/171780?hl=en)
 - (Next block)
@@ -119,16 +121,19 @@ If the task is fully completed, and no defects are found by mentor, you are awar
 - [ ] Map API block can be placed as just image.
 
 3. Footer (`<footer>` holds logo, navbar, tel, button)
+
 - [ ] Interactive navbar, button.
 - [ ] Phone number must contain href of type tel.
 
 **Mobile**
 
 1. Header (`<header>` holds logo, h1, navbar, tel, button)
+
 - [ ] Phone number must contain href of type tel.
 - [ ] Think of where `<h1>` should be used.
 
 2. Main (not necessary `<main>`)
+
 - [ ] Interactive buttons.
 - (Next block)
 - [ ] 2 columns under the image.
