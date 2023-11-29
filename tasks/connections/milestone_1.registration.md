@@ -15,8 +15,8 @@ Page consist of:
 
 - first name field; It could be any of letters or spaces;
 - email field. With validation for the email type;
-- password field. With validation: minimum 8 symbols, 1 capital letter, 1 digit and 1 special
-  symbol.
+- password field. With validation: minimum 8 symbols that include at least 1 capital letter, at
+  least 1 digit and at least 1 special symbol.
 
 **submit button**  
 Triggers the process of registration. Any errors during the registration should be displayed to let
