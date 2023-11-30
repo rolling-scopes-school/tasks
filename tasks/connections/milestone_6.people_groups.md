@@ -577,12 +577,12 @@ _status code_ **400**
   (except if error occurs): **10 points**
 - _Update_ button is disabled after clicking during updating and until the timer
   is active: **5 points**
-- clicking on _Create_ button the modal window is opened. There is reactive form with validation and
+- clicking on _Create_ button the modal window is opened. There is form with validation and
   submit button: **10 points**
 - submit button in modal window should be disabled until form is valid: **5 points**
 - clicking on submit button in modal window the appropriate http-request is sent to create new
   group. Modal window is closed only if http-request succeeded: **15 points**
-- error messages are displayed if any http-request fails: **10 points**
+- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
 - clicking on list item the user is redirected to group dialog page: **5 points**
 
 #### People list (right)
@@ -603,5 +603,14 @@ _status code_ **400**
 
 #### Group section
 
-- list of groups is loaded every time if user returns back into main page: **-40 points**
-- list of groups is loaded after successful created new group or deleted group: **-40 points**
+- list of groups is loaded automatically every time if user returns back into main page (until
+  browser page is reloaded): **-25 points**
+- list of groups is loaded automatically after successful created new group or
+  deleted group: **-25 points**
+
+#### People list
+
+- list of people is loaded automatically every time if user returns back into main page (until
+  browser page is reloaded): **-25 points**
+- list of people is loaded automatically after successful created new conversation or
+  deleted it: **-25 points**

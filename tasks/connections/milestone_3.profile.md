@@ -90,7 +90,8 @@ _status code_ **400**
 
 - `user id`, `email`, `creation time`, `user name` data of current user in
   displayed on the page: **30 points**
-- error message is shown if http-request failed: **10 points**
+- error message with appropriate text are displayed if loading http-request fails (for instance, if
+  internet connection is lost): **10 points**
 
 ### Fines
 
