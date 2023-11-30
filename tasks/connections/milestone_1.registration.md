@@ -89,15 +89,25 @@ _status code_ **400**
 
 ## Examination
 
+_Submit_ word is just the name of the button, you can use whatever label for the button you want.
+
 ### Profit
 
 - page with dedicated url: **5 points**
 - validation for _name_ field with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
-- redirection to sign-in page after successful registration: **10 points**
-- error messages for failed http-request is shown: **10 points**
-- created and used dedicated @ngrx/effects for authorization processes: **25 points**
+- redirection to sign-in page after successful registration: **5 points**
+- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- _Submit_ button is disabled if form is invalid. Also, it should be disabled after http error with
+  type `PrimaryDuplicationException` until the user changes the field value: **10 points**
+- _Submit_ button is disabled and `email` field has error message of taken account if user type the
+  same email address that he tried to send before and got
+  an error `PrimaryDuplicationException`: **10 points**
+- _Submit_ button is disabled after clicking until any http error is returned (http success is not
+  considered because redirection into login page should be in that case): **10 points**
 
 ### Fines
 
-- redirection to sign-in page after failed registration: **-25 points**
+- redirection to sign-in page after failed registration: **-20 points**
+- user can click _Submit_ button more than once even if previous http-request
+  is not completed: **-20 points**

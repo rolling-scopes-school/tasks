@@ -106,17 +106,25 @@ _status code_ **400**
 
 ## Examination
 
+_Submit_ word is just the name of the button, you can use whatever label for the button you want.
+
 ### Profit
 
 - default page for unauthorized user: **10 points**
 - validation for _email_ field with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
 - redirection to the main page after successful authentication: **10 points**
-- error messages for failed http-request is shown: **10 points**
-- created and used dedicated @ngrx/effects for authorization processes: **20 points**
-- `token`, `uid` and `email` value is saved in `localStorage` and used again
-  after page reloading: **10 points**
+- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- _Submit_ button is disabled if form is invalid. Also, it should be disabled after http error with
+  type `NotFoundException` until the user changes `email` or `password` field value: **10 points**
+- _Submit_ button is disabled after clicking until any http error is returned (http success is not
+  considered because redirection into main page should be in that case): **10 points**
+- `token`, `uid` and `email` value is saved in `localStorage` after successful sign in and used
+  again in the following htt-requests even after page reloading (it allows user to omit login again
+  after page reloading): **10 points**
 
 ### Fines
 
-- redirection to sign-in page after failed registration: **-30 points**
+- redirection to sign-in page after failed registration: **-20 points**
+- user can click _Submit_ button more than once even if previous http-request
+  is not completed: **-20 points**

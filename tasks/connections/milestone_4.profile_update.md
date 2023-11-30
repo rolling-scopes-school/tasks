@@ -101,12 +101,11 @@ _status code_ **400**
 
 - button _Edit_ makes `name` field editable: **10 points**
 - button _Cancel_ returns initial state: **5 points**
-- button _Save_ (via @ngrx/effects) sends new http-request to save
-  new data and update store: **20 points**
+- button _Save_ sends new http-request to save new data and update store: **20 points**
 - buttons _Cancel_ and _Save_ is visible ony for editable
   form: **5 points**
 - button _Edit_ is visible only for static page: **5 points**
-- error messages are displayed if http-request fails: **10 points**
+- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
 
 ### Fines
 

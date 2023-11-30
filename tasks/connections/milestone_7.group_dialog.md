@@ -276,7 +276,7 @@ _status code_ **400**
   _Delete_ button inside. If user clicks _Cancel_ the modal disappears. If user clicks _Delete_ the
   http-request is sent and the user is redirected to main page after succeeded
   response: **10 points**
-- form field has `required` validator. _Send_ new message button is disabled until field
+- form field has `required` validator. _Send new message_ button is disabled until field
   has text: **5 points**
-- new messages are loaded (using `since` parameter) after successful sending new message
-  with @ngrx/effects by user: **15 points**
+- new messages are loaded (using `since` parameter) after successful sending
+  new message: **15 points**
