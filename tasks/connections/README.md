@@ -99,11 +99,19 @@ Each milestone has relative score. Each milestone has number of points for succe
 
 But in case if some common violation is present the project is losing **additional** points:
 
-- any uncaught errors: **-100 points** for an error in console
-- used `any` instead of dedicated interface/type: **-100 points**
-- used some additional production npm package (except NgRx): **-100 points**
+#### During Cross-Check
 
-### Url navigation
+- any uncaught errors: **-100 points** for an error in console
+
+#### Final conclusion
+
+Restrictions on additional packages cannot be verified by students. This condition will be further
+tested for students who score more than half of the points. If a student violates this condition,
+the project scores will be nullified.
+
+- used any production npm-package except NgRx: **-800 points**
+
+## Url navigation
 
 #### Guest
 
