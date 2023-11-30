@@ -25,8 +25,8 @@ Page consist of:
 
 **reactive form** with:
 
-- email
-- password
+- email field; Validation: required, email type;
+- password field; Validation: required;
 
 **submit button**  
 Triggers the process of authorization. Any errors during the registration should be displayed to let
@@ -120,8 +120,8 @@ _Submit_ word is just the name of the button, you can use whatever label for the
 - _Submit_ button is disabled after clicking until any http error is returned (http success is not
   considered because redirection into main page should be in that case): **10 points**
 - `token`, `uid` and `email` value is saved in `localStorage` after successful sign in and used
-  again in the following htt-requests even after page reloading (it allows user to omit login again
-  after page reloading): **10 points**
+  again in the following http-requests even after page reloading (it allows user to omit
+  sign in again after page reloading): **10 points**
 
 ### Fines
 

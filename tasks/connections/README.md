@@ -93,7 +93,7 @@ Detailed information about each part of the application is presented in the sect
 
 Total score: **800 points**
 
-# Examination
+## Examination
 
 Each milestone has relative score. Each milestone has number of points for successful result.
 
