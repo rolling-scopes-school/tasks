@@ -37,7 +37,7 @@
 
 ```html
 <!-- Not recommended -->
-<a href="/">Home</a>
+<A HREF="/">Home</A>
 
 <!-- Recommended -->
 <img src="google.png" alt="Google" />
@@ -45,7 +45,7 @@
 
 ```css
 /* Not recommended */
-color: #e5e5e5;
+color: #E5E5E5;
 
 /* Recommended */
 color: #e5e5e5;
@@ -57,7 +57,7 @@ color: #e5e5e5;
 
 ```html
 <!-- Not recommended -->
-<a class="main-button main-button-secondary">Sign in</a>
+<a class='main-button main-button-secondary'>Sign in</a>
 
 <!-- Recommended -->
 <a class="main-button main-button-secondary">Sign in</a>
@@ -366,7 +366,7 @@ div.error {
 ```css
 /* Not recommended */
 h3 {
-  font-weight: bold;
+  font-weight:bold;
 }
 
 /* Recommended */
@@ -384,8 +384,8 @@ h3 {
 ```css
 /* Not recommended */
 .test {
-  display: block;
-  height: 100px;
+  display: block
+  height: 100px
 }
 
 /* Recommended */
@@ -403,8 +403,7 @@ h3 {
 
 ```css
 /* Not recommended */
-a:focus,
-a:active {
+a:focus, a:active {
   position: relative;
   top: 1px;
 }
