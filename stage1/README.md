@@ -159,7 +159,7 @@
 - Modules:
 
   - [Module: Git Recap](modules/git-recap/)
-  - [Module "Algorithms and Data Structures"](modules/data-structures/)
+  - [Module "Algorithms and Data Structures"](modules/data-structures-and-algorithms/)
 
 - Tasks:
 
@@ -169,7 +169,7 @@
 - Tests:
 
   - [[St1] Git & GitHub #2](modules/git-recap/)
-  - [[St1] Test Algorithms & Data structures](modules/data-structures/)
+  - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
 
 ### Break Week
 

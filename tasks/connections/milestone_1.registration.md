@@ -15,8 +15,8 @@ Page consist of:
 
 - first name field; It could be any of letters or spaces;
 - email field. With validation for the email type;
-- password field. With validation: minimum 8 symbols, 1 capital letter, 1 digit and 1 special
-  symbol.
+- password field. With validation: minimum 8 symbols that include at least 1 capital letter, at
+  least 1 digit and at least 1 special symbol.
 
 **submit button**  
 Triggers the process of registration. Any errors during the registration should be displayed to let
@@ -89,15 +89,25 @@ _status code_ **400**
 
 ## Examination
 
+_Submit_ word is just the name of the button, you can use whatever label for the button you want.
+
 ### Profit
 
 - page with dedicated url: **5 points**
 - validation for _name_ field with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
-- redirection to sign-in page after successful registration: **10 points**
-- error messages for failed http-request is shown: **10 points**
-- created and used dedicated @ngrx/effects for authorization processes: **25 points**
+- redirection to sign-in page after successful registration: **5 points**
+- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- _Submit_ button is disabled if form is invalid. Also, it should be disabled after http error with
+  type `PrimaryDuplicationException` until the user changes the field value: **10 points**
+- _Submit_ button is disabled and `email` field has error message of taken account if user type the
+  same email address that he tried to send before and got
+  an error `PrimaryDuplicationException`: **10 points**
+- _Submit_ button is disabled after clicking until any http error is returned (http success is not
+  considered because redirection into login page should be in that case): **10 points**
 
 ### Fines
 
-- redirection to sign-in page after failed registration: **-25 points**
+- redirection to sign-in page after failed registration: **-20 points**
+- user can click _Submit_ button more than once even if previous http-request
+  is not completed: **-20 points**

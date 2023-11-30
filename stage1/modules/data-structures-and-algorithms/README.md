@@ -16,18 +16,22 @@ This module serves as an introduction to the fundamental concepts of algorithms 
 
 ## Theory
 
-1. You need to watch video materials about the most popular and frequently used data structures and typical problems associated with them
+1. You need to watch video materials about the most popular and frequently used data structures and typical problems associated with them:
+
    - [Video lecture: Array (RU)](https://youtu.be/Jvm4ShU86yw) - 15 min
    - [Video lecture: Matrix (RU)](https://youtu.be/r8uHNxrfCwc) - 30 min
    - [Video lecture: Stack (RU)](https://youtu.be/TqlSlaMak8Y) - 20 min
    - [Youtube video: Array](https://youtu.be/txjmvEPlAtU?si=Y2sO3jcBcwR5NjLi) - 10 min
    - [Youtube video: Matrix / part 1](https://youtu.be/CDpJ4PIWAlE?si=jgFFSNyyZOKOiPY8), [Youtube video: Matrix / part 2](https://youtu.be/ajSXu2D2gzg?si=342sreFA-oqZcEQg) - 30 min
    - [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
+
 2. Read:
 
    - [Notes: Algorithms](./algorithms.md)
+   - [Notes: Data Structures](./data-structures.md)
 
-3. You need to watch video materials about data structures with pointers
+3. You need to watch video materials about data structures with pointers:
+
    - [Video lecture: Linked List (RU)](https://youtu.be/NpcHTBOAId0) - 25 min
    - [Video lecture: Binary Search Tree (RU)](https://youtu.be/fnqUD4FTE5Q) - 40 min
    - [Youtube video: Linked Lists](https://www.youtube.com/watch?v=ChWWEncl76Y) - 15 min
