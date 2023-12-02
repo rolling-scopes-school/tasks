@@ -29,8 +29,7 @@ This task shouldn't be based on the previous 5 modules.
    - Route for the form created using uncontrolled components approach
    - Route for the similar form, but created with the help of the **React Hook Form**
 7. Redux. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
-8. Forms
-   Both forms will collect the same data:
+8. Forms. Both forms will collect the same data:
    - name (validate for first uppercased letter)
    - age (should be number, no negative values)
    - email (validate for email)
@@ -40,12 +39,10 @@ This task shouldn't be based on the previous 5 modules.
    - input control to upload picture (validate size and extension, allow png jpeg, save in redux store as base64)
    - autocomplete control to select country (all countries should be stored in the Redux store)
      Form should contain labels, which should be connected with inputs (look at **htmlFor**)
-9. Validation
-   Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+9. Validation. Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
    - Uncontrolled components should implement validation on submit
    - Approach with **React Hook Form** should implement live validation
-10. After submitting the form
-    On successful form submission redirect user to the main route with all the previously entered data. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
+10. After submitting the form. On successful form submission redirect user to the main route with all the previously entered data. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
 
 ### Questions
 
