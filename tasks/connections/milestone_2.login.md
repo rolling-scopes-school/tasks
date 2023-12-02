@@ -125,6 +125,6 @@ _Submit_ word is just the name of the button, you can use whatever label for the
 
 ### Fines
 
-- redirection to sign-in page after failed registration: **-20 points**
+- redirection to main page after failed login: **-20 points**
 - user can click _Submit_ button more than once even if previous http-request
   is not completed: **-20 points**
