@@ -195,6 +195,8 @@
 - Tasks:
 
   - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+  - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks)
+  - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays)
 
 - Tests:
 
