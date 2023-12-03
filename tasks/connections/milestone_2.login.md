@@ -114,11 +114,11 @@ _Submit_ word is just the name of the button, you can use whatever label for the
 - validation for _email_ field with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
 - redirection to the main page after successful authentication: **10 points**
-- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
+  succeed: **10 points**
 - _Submit_ button is disabled if form is invalid. Also, it should be disabled after http error with
   type `NotFoundException` until the user changes `email` or `password` field value: **10 points**
-- _Submit_ button is disabled after clicking until any http error is returned (http success is not
-  considered because redirection into main page should be in that case): **10 points**
+- _Submit_ button is disabled after clicking while http-request is in progress: **10 points**
 - `token`, `uid` and `email` value is saved in `localStorage` after successful sign in and used
   again in the following http-requests even after page reloading (it allows user to omit
   sign in again after page reloading): **10 points**

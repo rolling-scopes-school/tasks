@@ -2,9 +2,8 @@
 
 **Score:** 40
 
-Information on this page should be loaded **only once** and save in store when user visit this page
-first
-time.
+Information on this page should be loaded **only once** and save in @ngrx/store when user visit this
+page first time.
 
 ### Visualization
 
@@ -95,5 +94,5 @@ _status code_ **400**
 
 ### Fines
 
-- data is not saved in the store: **-15 points**
+- data is not saved in the @ngrx/store: **-15 points**
 - http-request is sent every time if user opens profile: **-15 points**

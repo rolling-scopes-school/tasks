@@ -75,4 +75,5 @@ _status code_ **400**
   with `DELETE` method: **10 points**
 - user is redirected to Sign-In page after successful logout process: **10 points**
 - all data in `cookies`, `localStorage` is deleted: **10 points**
-- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
+  succeed: **10 points**
