@@ -323,8 +323,7 @@ routing `/conversation/{:conversationID}`.
 > conversation via special http-request (below) before user is redirected to the dialog page if
 > there is no
 > already created conversation with unique id. If any errors occur during conversation creation user
-> have to see toast danger message and redirection is
-> canceled.
+> have to see [toast](./README.md#toast) danger message and redirection is canceled.
 
 _rough example of people list_:  
 `-----------------------`  
@@ -582,7 +581,8 @@ _status code_ **400**
 - submit button in modal window should be disabled until form is valid: **5 points**
 - clicking on submit button in modal window the appropriate http-request is sent to create new
   group. Modal window is closed only if http-request succeeded: **15 points**
-- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
+  succeed: **10 points**
 - clicking on list item the user is redirected to group dialog page: **5 points**
 
 #### People list (right)

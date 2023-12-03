@@ -93,17 +93,25 @@ Detailed information about each part of the application is presented in the sect
 
 Total score: **800 points**
 
-# Examination
+## Examination
 
 Each milestone has relative score. Each milestone has number of points for successful result.
 
 But in case if some common violation is present the project is losing **additional** points:
 
-- any uncaught errors: **-100 points** for an error in console
-- used `any` instead of dedicated interface/type: **-100 points**
-- used some additional production npm package (except NgRx): **-100 points**
+#### During Cross-Check
 
-### Url navigation
+- any uncaught errors: **-100 points** for an error in console
+
+#### Final conclusion
+
+Restrictions on additional packages cannot be verified by students. This condition will be further
+tested for students who score more than half of the points. If a student violates this condition,
+the project scores will be nullified.
+
+- used any production npm-package except NgRx: **-800 points**
+
+## Url navigation
 
 #### Guest
 
@@ -134,3 +142,25 @@ Page where user can send message to all participants.
 _`/conversation/{:conversationID}` (person dialog)_  
 where, `:conversationID` is unique user identifier to speak with;  
 Page where user can write personal messages directly.
+
+## Declarations
+
+### Toast
+
+It is a discrete and ephemeral notification presented to users on a graphical user interface.
+conveys concise information, notifications, or feedback in a visually unobtrusive manner. These
+messages are designed to appear momentarily and autonomously vanish without necessitating user
+intervention, thereby minimizing disruption to the user's ongoing tasks.
+
+The nomenclature "toast" in this context draws an analogy from the culinary practice where a toaster
+pops up, signifying the completion of the toasting process. Analogously, a toast message emerges on
+the user interface, delivering pertinent information and subsequently dissipating after a brief
+period.
+
+In various graphic packages, this element is denoted by distinct
+names: [Snackbar](https://material.angular.io/components/snack-bar/overview) in Angular
+Material, [Toast](https://ng-bootstrap.github.io/#/components/toast/overview) in NG
+Bootstrap, [Toast](https://primeng.org/toast) in
+PrimeNG, [Push](https://taiga-ui.dev/components/push) in Taiga UI, or you
+can [make the component](https://medium.com/geekculture/simple-toast-notification-in-angular-f018b9aa3dc8)
+yourself.

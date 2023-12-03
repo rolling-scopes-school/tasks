@@ -4,7 +4,7 @@
 
 User can change and save his name. Application **should not** perform _get_ http-request `/profile`
 again to retrieve saved data, if _put_ http-request succeed the data from the form is being
-persisted in store and is used on Profile page instantly.
+persisted in @ngrx/store and is used on Profile page instantly.
 
 ### Visualization
 
@@ -101,13 +101,14 @@ _status code_ **400**
 
 - button _Edit_ makes `name` field editable: **10 points**
 - button _Cancel_ returns initial state: **5 points**
-- button _Save_ sends new http-request to save new data and update store: **20 points**
+- button _Save_ sends new http-request to save new data and update @ngrx/store: **20 points**
 - buttons _Cancel_ and _Save_ is visible ony for editable
   form: **5 points**
 - button _Edit_ is visible only for static page: **5 points**
-- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
+  succeed: **10 points**
 
 ### Fines
 
 - http-request to retrieve profile data is sent: **-20 points**
-- data in the store is updated even if http-request fails: **-20 points**
+- data in the @ngrx/store is updated even if http-request fails: **-20 points**

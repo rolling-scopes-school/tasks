@@ -13,10 +13,10 @@ Page consist of:
 
 **reactive form** with:
 
-- first name field; It could be any of letters or spaces;
-- email field. With validation for the email type;
-- password field. With validation: minimum 8 symbols that include at least 1 capital letter, at
-  least 1 digit and at least 1 special symbol.
+- first name field; Validation: required, allowed only letters or spaces, maximum 40 characters;
+- email field; Validation: required, email type;
+- password field; Validation: required, minimum 8 symbols that include at least 1 capital letter, at
+  least 1 digit and at least 1 special symbol;
 
 **submit button**  
 Triggers the process of registration. Any errors during the registration should be displayed to let
@@ -94,17 +94,17 @@ _Submit_ word is just the name of the button, you can use whatever label for the
 ### Profit
 
 - page with dedicated url: **5 points**
-- validation for _name_ field with error messages: **5 points**
+- validation for _name_ and _email_ fields with error messages: **5 points**
 - validation for _password_ field with error messages: **5 points**
 - redirection to sign-in page after successful registration: **5 points**
-- toast messages with appropriate text are displayed if http-request fails or succeed: **10 points**
+- [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
+  succeed: **10 points**
 - _Submit_ button is disabled if form is invalid. Also, it should be disabled after http error with
   type `PrimaryDuplicationException` until the user changes the field value: **10 points**
 - _Submit_ button is disabled and `email` field has error message of taken account if user type the
   same email address that he tried to send before and got
   an error `PrimaryDuplicationException`: **10 points**
-- _Submit_ button is disabled after clicking until any http error is returned (http success is not
-  considered because redirection into login page should be in that case): **10 points**
+- _Submit_ button is disabled after clicking while http-request is in progress: **10 points**
 
 ### Fines
 
