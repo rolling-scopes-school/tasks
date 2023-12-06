@@ -12,7 +12,7 @@
 
 Approximately 2-3 hours.
 
-## Theory 
+## Theory
 
 1. Read [about modules in JS](https://javascript.info/modules)(~30 min)
 2. Read [about JavaScript modules, module formats, module loaders and module bundlers](https://jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/) (~ 10 min)
