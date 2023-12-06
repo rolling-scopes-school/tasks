@@ -101,7 +101,10 @@ But in case if some common violation is present the project is losing **addition
 
 #### During Cross-Check
 
-- any uncaught errors: **-100 points** for an error in console
+- any uncaught runtime errors: **-100 points** for an error(s) in console.  
+  _Explanation_: 400/500 http-error messages could appear in the console, but if it was handled and
+  UI displayed some message, notification or made any other communication to the user what is
+  happening - that is not the reason to deduct the points from the student.
 
 #### Final conclusion
 
