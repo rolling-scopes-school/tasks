@@ -48,7 +48,7 @@ You can use additional package with visual components (to simplify and speed up 
 - [PrimeNG](https://primeng.org/installation)
 - [Taiga UI](https://taiga-ui.dev/getting-started)
 
-You also need [NgRx](https://ngrx.io/guide/store) for production. You are free to utilize any
+You may also need [NgRx](https://ngrx.io/guide/store) for production. You are free to utilize any
 development packages (
 eslint, [husky](https://typicode.github.io/husky/), [prettier](https://prettier.io/docs/en/) etc.)
 that are installed in `devDependencies` to aid in application construction but usage of any
@@ -112,7 +112,8 @@ Restrictions on additional packages cannot be verified by students. This conditi
 tested for students who score more than half of the points. If a student violates this condition,
 the project scores will be nullified.
 
-- used any production npm-package except NgRx: **-800 points**
+- used any production npm-package (except NgRx and 1 library with visual
+  components): **-800 points**
 
 ## Url navigation
 

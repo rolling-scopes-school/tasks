@@ -3,8 +3,8 @@
 **Score:** 55
 
 User can change and save his name. Application **should not** perform _get_ http-request `/profile`
-again to retrieve saved data, if _put_ http-request succeed the data from the form is being
-persisted in @ngrx/store and is used on Profile page instantly.
+again to retrieve saved data, if _put_ http-request succeed the data from the form is used on
+Profile page instantly.
 
 ### Visualization
 
@@ -111,4 +111,4 @@ _status code_ **400**
 ### Fines
 
 - http-request to retrieve profile data is sent: **-20 points**
-- data in the @ngrx/store is updated even if http-request fails: **-20 points**
+- edited data is applied to the static Profile page even if http-request fails: **-20 points**
