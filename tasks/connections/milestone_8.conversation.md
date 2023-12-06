@@ -2,7 +2,8 @@
 
 **Score:** 140
 
-Before user can send any message to other participant the conversation have to be created.
+Before user can send any message to other participant the conversation should exist or has to be
+created with `/conversations/create` endpoint.
 
 ### Visualization
 
