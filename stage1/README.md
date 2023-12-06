@@ -241,6 +241,8 @@
 
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
 - [Project "Self-introduction"](modules/self-introduction/)
+- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - Preparation for mentor interview
 
 <details>

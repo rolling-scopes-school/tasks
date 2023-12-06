@@ -16,8 +16,6 @@
 
 ### 23/05/2023
 
-- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
 - [Interview with mentor](modules/technical-screening/)
