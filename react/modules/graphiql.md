@@ -117,7 +117,7 @@ You are free to choose your own way of developing the project and the repository
 
 - This route should be private.
 - Header should be visible.
-- Query editor / JSON viewer. The query editor should support prettifying. Any 3rd party / open-source solution is forbidden, you should implement it on your own. JSON viewer should be read-only, it will be used in the response section.
+- Query editor / JSON viewer. The query editor should support prettifying - any 3rd party / open-source solution is forbidden, you should implement it on your own. JSON viewer should be read-only, it will be used in the response section.
 - Variables editor section.
 - Headers editor section (If you are making a CORS request each added header should be supported on the backend, please, consider that).
 - Documentation section, should be visible only when the app receives a successful response with the schema definition from the API.
