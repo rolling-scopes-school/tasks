@@ -2,7 +2,8 @@
 
 **Score:** 140
 
-Before user can send any message to other participant the conversation have to be created.
+Before user can send any message to other participant the conversation should exist or has to be
+created with `/conversations/create` endpoint.
 
 ### Visualization
 
@@ -53,8 +54,8 @@ Simple form field with _text_ type for new message + _Send_ button to trigger pr
 
 ### Technical solution
 
-All received message data should be saved in the @ngrx/store in some way in order to not load ald
-messages again if user navigates between pages and returns back to the conversation until browser is
+All received message data should be organized in a way that prevents loading of old(previous)
+messages again if user navigates between pages and returns back to the channel until browser is
 reloaded.
 
 Corresponding endpoint can receive optional query parameter `since`.
@@ -247,6 +248,76 @@ _status code_ **400**
 {
   "type": "InvalidIDException",
   "message": "Conversation with id \"{conversationID}\" does not exist or was deleted before."
+}
+```
+
+---
+
+> `DELETE` https://tasks.app.rs.school/angular/conversations/delete?conversationID={:conversationID}
+
+Deletes conversation with the interlocutor.
+
+#### Request headers
+
+| Header          | Type     | Description                                                                               |
+| --------------- | -------- | ----------------------------------------------------------------------------------------- |
+| `rs-uid`        | `string` | user identifier received after successful authentication                                  |
+| `rs-email`      | `string` | user email                                                                                |
+| `Authorization` | `string` | `Bearer <TOKEN>`, where `<TOKEN>` is token value received after successful authentication |
+
+#### Request query
+
+| Parameter        | Type     | Description                    |
+| ---------------- | -------- | ------------------------------ |
+| `conversationID` | `string` | unique conversation identifier |
+
+#### Response
+
+_status code_ **200**
+
+#### Exception
+
+###### Have not passed required headers in http-request
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidUserDataException",
+  "message": "Header should contain \"rs-uid\", \"rs-email\" and \"Authorization\" parameters."
+}
+```
+
+###### Have not passed valid Authorization header parameter
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidTokenException",
+  "message": "Header should contain \"Authorization\" parameter with Bearer code."
+}
+```
+
+###### Query string should contain required parameters
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "\"conversationID\" parameter should be in query list."
+}
+```
+
+###### Conversation does not exist
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidIDException",
+  "message": "Conversation with id \"{conversationID}\" does not exist or was removed before."
 }
 ```
 

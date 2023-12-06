@@ -48,7 +48,7 @@ You can use additional package with visual components (to simplify and speed up 
 - [PrimeNG](https://primeng.org/installation)
 - [Taiga UI](https://taiga-ui.dev/getting-started)
 
-You also need [NgRx](https://ngrx.io/guide/store) for production. You are free to utilize any
+You may also need [NgRx](https://ngrx.io/guide/store) for production. You are free to utilize any
 development packages (
 eslint, [husky](https://typicode.github.io/husky/), [prettier](https://prettier.io/docs/en/) etc.)
 that are installed in `devDependencies` to aid in application construction but usage of any
@@ -101,7 +101,10 @@ But in case if some common violation is present the project is losing **addition
 
 #### During Cross-Check
 
-- any uncaught errors: **-100 points** for an error in console
+- any uncaught runtime errors: **-100 points** for an error(s) in console.  
+  _Explanation_: 400/500 http-error messages could appear in the console, but if it was handled and
+  UI displayed some message, notification or made any other communication to the user what is
+  happening - that is not the reason to deduct the points from the student.
 
 #### Final conclusion
 
@@ -109,7 +112,8 @@ Restrictions on additional packages cannot be verified by students. This conditi
 tested for students who score more than half of the points. If a student violates this condition,
 the project scores will be nullified.
 
-- used any production npm-package except NgRx: **-800 points**
+- used any production npm-package (except NgRx and 1 library with visual
+  components): **-800 points**
 
 ## Url navigation
 

@@ -2,8 +2,7 @@
 
 **Score:** 40
 
-Information on this page should be loaded **only once** and save in @ngrx/store when user visit this
-page first time.
+Information on this page should be loaded **only once** when user visit this page first time.
 
 ### Visualization
 
@@ -87,12 +86,11 @@ _status code_ **400**
 
 ### Profit
 
-- `user id`, `email`, `creation time`, `user name` data of current user in
-  displayed on the page: **30 points**
-- error message with appropriate text are displayed if loading http-request fails (for instance, if
-  internet connection is lost): **10 points**
+- `user id`, `email`, `creation time`, `user name` data of current user is displayed
+  on the page: **30 points**
+- error message with appropriate text are displayed on the page if loading http-request fails
+  (for instance, if internet connection is lost): **10 points**
 
 ### Fines
 
-- data is not saved in the @ngrx/store: **-15 points**
-- http-request is sent every time if user opens profile: **-15 points**
+- `/profile` http-request is sent every time if user opens profile page: **-15 points**

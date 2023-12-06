@@ -2,8 +2,8 @@
 
 **Score:** 140
 
-Before user can send any message in the public dialog the channel have to be created as mentioned
-above.
+Before user can send any message in the public dialog the channel should exist or has to be created
+with `/groups/create` endpoint.
 
 ### Visualization
 
@@ -54,7 +54,7 @@ Simple form field with _text_ type for new message + _Send_ button to trigger pr
 
 ### Technical solution
 
-All received message data should be saved in the @ngrx/store in some way in order to not load ald
+All received message data should be organized in a way that prevents loading of old(previous)
 messages again if user navigates between pages and returns back to the channel until browser is
 reloaded.
 
