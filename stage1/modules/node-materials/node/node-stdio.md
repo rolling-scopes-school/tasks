@@ -1,88 +1,105 @@
 ## Стандартные потоки ввода/вывода
+
 [HOME](../README.md)
 
-Для ввода и вывода информации (I/O - input/output) в Node.js существуют стандартные потоки ввода и вывода:  
-- `process.stdin` - поток ввода  
-- `process.stdout` - поток вывода  
+Для ввода и вывода информации (I/O - input/output) в Node.js существуют стандартные потоки ввода и вывода:
+
+- `process.stdin` - поток ввода
+- `process.stdout` - поток вывода
 - `process.stderr` - поток ошибки как разновидность потока вывода
 
 Например, уже известный нам `console.log()` для вывода информации использует `process.stdout`.
 
 ### Стандартный поток вывода
+
 Выведем информацию в консоль при помощи `process.stdout`.
+
 ```js
 const { stdout } = process;
-stdout.write('Node.js');
+stdout.write("Node.js");
 ```
+
 Метод `stdout.write()` принимает в качестве аргумента строку и выводит её в консоль. В отличие от `console.log()` он не добавляет автоматический перенос в конце строки. При необходимости перенос строки `\n` можно добавить вручную.
 
 ### Стандартный поток ввода
-В файле `test.js` напишем и запустим код:  
+
+В файле `test.js` напишем и запустим код:
+
 ```js
 const { stdin, stdout } = process;
-stdin.on('data', data => stdout.write(data));
-```  
+stdin.on("data", (data) => stdout.write(data));
+```
+
 При помощи метода `.on()` мы подписываемся на событие `'data'` объекта `stdin`.  
 Метод `.on()` принимает два параметра - название события `'data'` и стрелочную функцию-обработчик `data => stdout.write(data)`, которая выводит в консоль переданные данные.
 
 Теперь, когда мы вводим в консоль какой-то текст и нажимаем клавишу Enter, `stdout.write()` возвращает введённый нами текст.
 
 ### Метод process.exit()
+
 Остановить выполнение программы можно нажав комбинацию клавиш `Ctrl + C` или использовав метод `process.exit()`.
 
 Метод `process.exit()` при запуске эмитит событие `'exit'`, подписавшись на которое мы можем выполнить определенные действия перед завершением программы:
+
 ```js
-process.on('exit', () => stdout.write('Удачи в изучении Node.js!'));
-```  
+process.on("exit", () => stdout.write("Удачи в изучении Node.js!"));
+```
+
 `process.exit()` принимает необязательный аргумент `exitCode`, представленный целым числом. По умолчанию данный метод запускается с параметром `exitCode === 0`. Такое завершение процесса означает, что программа выполнена успешно и отработала без ошибок. Завершение процесса с любым другим `exitCode`, что работа программы завершилась ошибкой. Благодаря этому можно передать разные сообщения на выходе в зависимости от того, сработала программа как нужно, или нет.
+
 ```js
 const { stdout, stderr } = process;
 
-process.on('exit', code => {
-    if (code === 0) {
-        stdout.write('Всё в порядке');
-    } else {
-        stderr.write(`Что-то пошло не так. Программа завершилась с кодом ${code}`);
-    }
+process.on("exit", (code) => {
+  if (code === 0) {
+    stdout.write("Всё в порядке");
+  } else {
+    stderr.write(`Что-то пошло не так. Программа завершилась с кодом ${code}`);
+  }
 });
-```  
+```
 
 ## Задание 1
+
 Напишите программу, которая спрашивает у пользователя его имя, после ввода имени приветствует его, указывая имя, а затем прекращает свою работу и прощается с пользователем.
 
 <details>
   <summary>Пример решения</summary>
 
-```js 
+```js
 const { stdin, stdout } = process;
 
-stdout.write('Как тебя зовут?\n');
-stdin.on('data', data => {
-  stdout.write('Привет, ');
+stdout.write("Как тебя зовут?\n");
+stdin.on("data", (data) => {
+  stdout.write("Привет, ");
   stdout.write(data);
   process.exit();
 });
-process.on('exit', () => stdout.write('Удачи!'));
+process.on("exit", () => stdout.write("Удачи!"));
 ```
 
 </details>
 
 ### Buffer
+
 Несмотря на то, что в предыдущем примере параметр `data` обработчика одноименного события похож на строку, на самом деле он не является строкой. При попытке воспользоваться методами строки мы получим ошибку:
-```js 
+
+```js
 const { stdin, stdout } = process;
 
-stdin.on('data', data => {
-    // После ввода текста в консоль и нажатия Enter получим TypeError: data.toUpperCase is not a function
-    stdout.write('Cообщение в верхнем регистре: ');
-    stdout.write(data.toUpperCase());
+stdin.on("data", (data) => {
+  // После ввода текста в консоль и нажатия Enter получим TypeError: data.toUpperCase is not a function
+  stdout.write("Cообщение в верхнем регистре: ");
+  stdout.write(data.toUpperCase());
 });
 ```
+
 Если мы выведем в консоль тип переменной `data`, мы увидим `object`. Применив [трюк со специальным свойством [[Class]]](https://learn.javascript.ru/class-instanceof#sekretnoe-svoystvo-class) мы получим для `data` `[object Uint8Array]`. Поскольку `process.stdin` — это поток, он работает с данными в двоичном формате. Для работы с таким форматом данных в Node.js есть специальный объект `Buffer`, который и является подклассом `Uint8Array`(типизированный массив, хранящий 8-битные целые беззнаковые значения).  
-Данные, содержащиеся в буфере, можно привести к строке:  
+Данные, содержащиеся в буфере, можно привести к строке:
+
 ```js
 // создадим буфер из строки, вторым параметром передав кодировку (по умолчанию будет использована utf-8)
-const myBuffer = Buffer.from('Hi Node.js!', 'utf-8');
+const myBuffer = Buffer.from("Hi Node.js!", "utf-8");
 // получим <Buffer 48 69 20 4e 6f 64 65 2e 6a 73 21>
 console.log(myBuffer);
 // приведем к строке
@@ -90,18 +107,21 @@ const bufferStringified = myBuffer.toString();
 // Hi Node.js!
 console.log(bufferStringified);
 ```
+
 Исправим наш предыдущий пример:
+
 ```js
 const { stdin, stdout } = process;
 
-stdin.on('data', data => {
-    const dataStringified = data.toString();
-    stdout.write('Cообщение в верхнем регистре: ');
-    stdout.write(dataStringified.toUpperCase());
+stdin.on("data", (data) => {
+  const dataStringified = data.toString();
+  stdout.write("Cообщение в верхнем регистре: ");
+  stdout.write(dataStringified.toUpperCase());
 });
 ```
 
 ## Задание 2
+
 Напишите программу, которая спрашивает у пользователя его имя, после ввода имени возвращает указанное пользователем имя наоборот и прекращает работу.
 
 <details>
@@ -110,12 +130,13 @@ stdin.on('data', data => {
 ```js
 const { stdin, stdout } = process;
 
-stdout.write('Как тебя зовут?\n')
-stdin.on('data', data => {
+stdout.write("Как тебя зовут?\n");
+stdin.on("data", (data) => {
   const name = data.toString();
-  const reverseName = name.split('').reverse().join('');
+  const reverseName = name.split("").reverse().join("");
   stdout.write(`\nТвоё имя наоборот ${reverseName}`);
   process.exit();
 });
 ```
+
 </details>

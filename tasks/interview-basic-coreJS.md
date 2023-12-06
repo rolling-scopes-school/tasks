@@ -1,4 +1,5 @@
 # CoreJS Interview #1
+
 - Passing the Corejs Interview #1 is mandatory for obtaining the RS School certificate.
 - The students are not allowed to be interviewed by their current mentors.
 - The students without a mentor can also register for an interview.
@@ -9,7 +10,7 @@
   - asks questions;
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
-- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
+- After the interview mentor have to fill in the feedback form (RS APP > Interviews)
 
 ## Question examples:
 
@@ -23,7 +24,6 @@
   - String templates
   - ternary operator
   - switch case - examples, where it can be useful
-  
 
 - #### Advanced Expressions
 

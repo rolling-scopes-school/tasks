@@ -1,7 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| 10.03.2019 23:59 | hexal |
-
+| Deadline         | Folder name |
+| ---------------- | ----------- |
+| 10.03.2019 23:59 | hexal       |
 
 # Homework: Hexal. Difficulty Level 1.
 
@@ -17,14 +16,13 @@ JPG:
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
-*[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
+_[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)_
 
 Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
-
 ## Procedure
 
-Create a new private repository named *hexal* in **your** Github account and upload your HTML and CSS files.
+Create a new private repository named _hexal_ in **your** Github account and upload your HTML and CSS files.
 
 ## Assessment criteria
 
@@ -43,11 +41,13 @@ Fully responsive layout **is not required**.
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
 1. Header.
+
 - Interactive nav.
 - Think of where `h1` should be used.
 - Header triangle must be centered horizontally.
 
 2. Main.
+
 - Slider is not required, but allowed.
 - Hex blocks must be positioned as shown on the PSD template.
 - Care about lines and colors.
@@ -55,12 +55,13 @@ Fully responsive layout **is not required**.
 - Add hyperlinks to social network icons.
 
 3. Footer
+
 - Must include a form with relevant inputs and textarea.
 - Required fields must be validated on the client side.
 - Phone number and email address must be clickable (for example, when a user clicks the phone icon, a prompt appears that allows the user to call this number)
 
-
 ## Useful links
+
 There is a useful tool to manipulate triangles:
 http://apps.eky.hk/css-triangle-generator/
 
@@ -68,6 +69,7 @@ To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
 
 ## If you don't have Photoshop to work with .psd files
+
 There’s a good design tool: https://studio.psdetch.com/
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
 If you need to extract an image, the “export” function is available.
@@ -77,4 +79,3 @@ However, if you lack some of the functionality when using the previous service, 
 No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats.
 It also supports work with layers and export operations (including .svg format).
 Another advantage is that its interface is very similar to that of Photoshop.
-

@@ -1,4 +1,5 @@
 # [Angular schedule.](../../README.md) Unit test
+
 ## В данном модуле студентам необходимо изучить:
 
 - Структура теста.
@@ -7,10 +8,12 @@
 - Тестирование вложенных компонентов.
 
 ## Приблизительное время прохождения модуля
+
 Теория - 2 часа  
 Практика - 4 час
 
-## Теория 
+## Теория
+
 - [Лекция (видео)](https://youtu.be/MSXCNHrmk9U)
 - [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-unit-testing)
 - [Слайды](https://slides.com/pavelrazuvalau/angular-unit-testing)
@@ -22,9 +25,11 @@
 - [Тестирование сервисов](https://angular.io/guide/testing-services)
 
 ## Практическое задание
+
 - [Angular. Unit testing with Jest](../../../tasks/angular/unit-testing-jest.md)
 
 ## Дополнительные материалы
+
 - [Тестирование](https://angular.io/guide/testing)
 - [Основные качества хорошего юнит теста](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Юнит-тестирование в JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)

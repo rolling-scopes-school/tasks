@@ -39,9 +39,9 @@
 
 - [Reactive Extensions For JavaScript](https://www.npmjs.com/package/rxjs)
 - RxJS визуализатор:
-    - [Операторы в динамике](https://rxjs-visualize.explosionpills.com)
-    - [RxJS Marbles](http://rxmarbles.com/)
-    - [Симулятор](https://rxviz.com)
+  - [Операторы в динамике](https://rxjs-visualize.explosionpills.com)
+  - [RxJS Marbles](http://rxmarbles.com/)
+  - [Симулятор](https://rxviz.com)
 - [Как подключить Youtube API](https://coderlessons.com/articles/veb-razrabotka-articles/angular-observables-and-promises-kak-ikh-ispolzovat)
 - [Subject и его наследники](https://dou.ua/forums/topic/33240/)
-- 
+-

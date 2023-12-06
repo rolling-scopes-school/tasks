@@ -33,6 +33,7 @@
 ## Дополнительные материалы
 
 English version
+
 - [The hero editor](https://angular.io/tutorial/toh-pt1)
 - [Display a selection list](https://angular.io/tutorial/toh-pt2)
 - [Create a feature component](https://angular.io/tutorial/toh-pt3)
@@ -45,6 +46,7 @@ English version
 - [🆕 Standalone components](https://angular.io/guide/standalone-components)
 
 Russian version
+
 - [Редактор героев](https://angular24.ru/tutorial/toh-pt1)
 - [Показать список выбора](https://angular24.ru/tutorial/toh-pt2)
 - [Создать компонент компонента](https://angular24.ru/tutorial/toh-pt3)

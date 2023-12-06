@@ -20,6 +20,7 @@
 - [Вебинар Angular 2021q1. Intro (RU)](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
 
 ## Практика
+
 - Вам необходимо пройти тест "TS Basic" в RS APP > Auto Test
 
 ## Дополнительные материалы

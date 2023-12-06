@@ -4,7 +4,6 @@ Luckily, they provided us with designs for reference:
 
 <https://www.figma.com/file/7wKT7HgXxwzQVHxfLfgH0C/Airways>
 
-
 ## Background
 
 The app called Airways - it’s an online platform designed to help users find and book flights quickly and easily. The app enables users to search for flights by selecting their desired destination, the number and age of passengers, dates, and the type of flight - one-way or round-trip.
@@ -15,37 +14,27 @@ To facilitate the booking process, users select their desired dates and are prom
 
 The app also offers personalization settings like date and currency format, allowing users to customize their experience according to their preferences.
 
-
 ## Functional features
 
 - User Registration: The app should have a user registration feature that requires users to create an account to book a flight. This will allow the platform to capture user information and preserve all the bookings made previously.
 
-
 - Personalization Settings: The app should offer personalization settings, such as the date and currency format, to allow users to customize their experience according to their preferences.
-
 
 - Flight Search (Main) Page: The app should provide users with a simple and intuitive flight search functionality. This should include options to select the destination, type of flight (one-way or round-trip), and the number and age of passengers.
 
-
 - Flight Selection Page: Once the user has entered their search criteria, the app should display all available flights along with the dates, prices, and the available number of seats. This will help the user to choose the most suitable option.
-
 
 - Booking Process Page: After selecting a flight, the user will be taken to another page where they can provide passenger data, baggage options, contact information, and payment details to complete the booking. Once a user has provided booking details, he’ll see the summary with all the flight information provided.
 
-
 - Booking Summary Page: This shows all the data provided before checkout. We can process the payment now, or add it to the shopping cart for later.
-
 
 - Shopping Cart Page: Consists of previously added bookings that are awaiting payment.
 
-
 - User Account Page: All bookings made by the user should be accessible from their account page. This should include the ability to view, modify, and cancel bookings as well as track their travel history.
-
 
 ## Technical requirements
 
 The maximum number of available points for the task evaluation is 700
-
 
 ### Page layout (+150)
 
@@ -54,9 +43,6 @@ General Requirements:
 - The web app must be responsive, i.e., it should adapt to various screen sizes and resolutions, such as desktops, laptops, tablets, and smartphones.
 - The web app should follow the same style guide across all the pages, including the color scheme, typography, and visual elements.
 - All the forms should have client-side validation that prevents submission and shows invalid fields if any of the required data is missing. The validation rule should correspond to the expected data type (e.g. email, phone number, name, etc.)
-
-  
-
 
 Header:
 
@@ -78,11 +64,9 @@ Footer:
 - Includes the copyright text and payment method logos
 - You can include a piece of brief information about developers (name, avatar, GitHub link) that were working on the project
 
-
 ### User authentication (+50)
 
 - The app should provide a user registration flow that guides the user through the process of creating an account. The flow should include two tabs - "Login" and "Sign Up."
-
 
 - Login tab:
 
@@ -95,14 +79,11 @@ Footer:
   - Form validation: The registration form should have validation rules in place to ensure that all required fields are filled in, the name field doesn't contain numbers, the email address is valid, and the phone number is in the correct format.
   - Acknowledgment of terms and conditions: The registration form should include a checkmark to indicate that the user acknowledges the terms and conditions. The submission is possible only after checking the checkbox.
 
-
 - Once a user has logged in or signed up, they should stay on the same page where they initiated the authentication process.
-
 
 ### Flight Search (Main) Page (+100)
 
 - The entry point of the app. Available for anonymous users.
-
 
 - The flight search form should include the following fields:
 
@@ -120,7 +101,6 @@ Footer:
 
 - Once a user filled in all the required fields and clicks the “Search” button, he’s taken to the “Flight Selection” page
 
-
 ### Flight Selection Page (+150)
 
 - Available for anonymous users.
@@ -128,13 +108,11 @@ Footer:
 - It should show the progress of booking and the current step
 - The page displays previously selected destinations, dates, flight types, and amount of passengers.
 
-
 - The "Edit" button should allow the user to modify their search criteria if needed in a quick way by showing a floating panel with the same fields as on the Flight Search Page.
 - Each flight section should be displayed in a separate container with a header that displays the flight destination.
 - The number of flights should represent the selected flight type: one-way or round trip
 - A calendar should be displayed for each flight section. It includes price as well
 - Dates in the past should be disabled by default.
-
 
 - Each selected date should contain the following information:
 
@@ -156,7 +134,6 @@ Footer:
 - The "Continue" button is disabled until the user selects all the flights
 
 - The "Back" button should allow the user to return to the Flight Search form with previously pre-filled data.
-
 
 ### Booking Process Page (+100)
 
@@ -186,9 +163,6 @@ Footer:
 
 - The page should include two buttons, "Back" and "Continue". Clicking the "Back" button should take the user back to the previous page, with all the data preserved. Clicking the "Continue" button should take the user to the summary page with all the information provided.
 
-
-
-
 ### Summary Page (+50)
 
 - The Summary page is the final step before confirming the flight booking. It will display all the details entered by the user during the booking process, including:
@@ -197,15 +171,12 @@ Footer:
   - Passenger details: This section should show the passenger data as well as baggage options.
   - Payment details: This section should display the total cost of the booking, broken down by each component, such as the base fare, taxes, and any additional fees.
 
-
 - The Summary page should also include the following elements:
-
 
 - Process indicator: A visual indicator should show the user which step of the booking process they are on and how many steps are remaining.
 - Buy Now button: This button should allow the user to confirm the booking and proceed to payment.
 - Add to Cart button: This button should allow the user to add the booking to their shopping cart and continue browsing the app. The user should be able to return to the cart at a later time to complete the booking.
 - Back button: This button should allow the user to return to the previous step in the booking process to make any necessary changes.
-
 
 ### Shopping Cart (User Account) Page (+100)
 
@@ -227,7 +198,6 @@ User Account page:
 - Each row should have a clickable link that navigates the user to the Booking Summary page.
 - The Booking Summary page should display all the information about the booking, but without the option to modify or cancel the booking.
 - There should be a "Return to Account" button on the Booking Summary page, which takes the user back to the User Account page.
-
 
 ## Penalties
 

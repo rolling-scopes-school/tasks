@@ -1,6 +1,7 @@
 ### Binary Tree
-* Создайте публичный репозиторий на github-е
-* Скачайте подготовленые исходники таска [тут](http://school.rollingscopes.com/padawan/binary-tree.zip)
+
+- Создайте публичный репозиторий на github-е
+- Скачайте подготовленые исходники таска [тут](http://school.rollingscopes.com/padawan/binary-tree.zip)
 
 Что лежит в архиве?
 

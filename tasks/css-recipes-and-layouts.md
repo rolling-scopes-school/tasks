@@ -2,8 +2,8 @@ CSS Recipes & Layouts. Responsive Web Design
 
 # Homework: css-recipes-and-layouts
 
-| Deadline  | Folder name |
-|-----------|-------------|
+| Deadline         | Folder name             |
+| ---------------- | ----------------------- |
 | 06.05.2018 23:59 | css-recipes-and-layouts |
 
 Create web page, strictly according to: **[Racoon blog layout](https://www.dropbox.com/s/gd9m1w2t19b3qlx/responsive_blog_remastered.psd?dl=0)**
@@ -12,7 +12,7 @@ No Pixel Perfect required
 
 ## Как сдавать
 
-Сверстанный макет и папки с контентом залить в ветку *css-recipes-and-layouts* в своем **приватном** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
+Сверстанный макет и папки с контентом залить в ветку _css-recipes-and-layouts_ в своем **приватном** репозитории. Сделать пулл реквест и указать в ревьюверах своего ментора.
 
 ## Критерии оценки
 

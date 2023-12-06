@@ -21,6 +21,7 @@
   - [Слайды](https://slides.com/pavelrazuvalau/angular-forms)
 
 ## Практическое задание
+
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
 - Тренер: Kirill Britsyn
 

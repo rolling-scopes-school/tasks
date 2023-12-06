@@ -1,4 +1,5 @@
 # CoreJS Interview #2
+
 - Passing the Corejs Interview #2 is mandatory for obtaining the RS School certificate.
 - The students are not allowed to be interviewed by their current mentors.
 - The students without a mentor can also register for an interview.
@@ -9,7 +10,7 @@
   - asks questions;
   - gets answers;
   - adds/corrects/explains/gives the right answer, if necessary.
-- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
+- After the interview mentor have to fill in the feedback form (RS APP > Interviews)
 
 ## Question examples:
 
@@ -60,6 +61,7 @@
   - Know how `for..of` loop works `(optional)`
 
   #### Modules in JavaScript
+
   - What is module / module pattern? For what purposes they were created?
   - Modules types (AMD, ES6, CommonJS, UMD).
   - Modules syntax.
@@ -113,7 +115,7 @@
   - `prototype` property
   - Know function `prototype` property
   - Understand dependency between function constructor `prototype` and instance `__proto__`
-  - Able to create 'class' methods using function `prototype` property 
+  - Able to create 'class' methods using function `prototype` property
   - Able to set / get object prototype `(optional)`
 
   - #### ECMAScript Advanced Data Types & Expressions
@@ -205,34 +207,34 @@
 
 ### Design patterns:
 
-  - Creational Design Patterns 
-  - Structural Design Patterns
-  - Behavioral Design Patterns
-  - MVC `(optional)`
+- Creational Design Patterns
+- Structural Design Patterns
+- Behavioral Design Patterns
+- MVC `(optional)`
 
-  - #### Intermediate knowledge of patterns and best practices:
+- #### Intermediate knowledge of patterns and best practices:
 
-    - SOLID principles
-    - design patterns used on a student's project, and able to compare these patterns `(optional)`
+  - SOLID principles
+  - design patterns used on a student's project, and able to compare these patterns `(optional)`
 
-  - #### Software Development Methodologies `(optional)`
+- #### Software Development Methodologies `(optional)`
 
-    - Agile
-    - Scrum / Kanban / Waterfall
-    - Estimation
+  - Agile
+  - Scrum / Kanban / Waterfall
+  - Estimation
 
 ### Testing `(optional)`
 
-  - Testing Types
-    - Integration Testing
-    - E2E
-    - Security Testing
-    - Perforamance Testing
-  - Test Pyramid
-  - Testing approaches `(optional)`
-  - FIRST
-  - TDD и BDD
-  - Frameworks `(optional)`
+- Testing Types
+  - Integration Testing
+  - E2E
+  - Security Testing
+  - Perforamance Testing
+- Test Pyramid
+- Testing approaches `(optional)`
+- FIRST
+- TDD и BDD
+- Frameworks `(optional)`
 
 ### Web Communication Protocols: `(optional)`
 
@@ -240,7 +242,7 @@
 - #### HTTP 1.x, 2.x, 3.x
 - #### HTTP methods, headers, responses, body
 - #### HTTP status codes groups (1xx, 2xx, 3xx, 4xx, 5xx)
-- #### RESTful API 
+- #### RESTful API
 
 ### Common web-security knowledge `(optional)`
 

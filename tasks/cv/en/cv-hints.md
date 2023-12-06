@@ -10,11 +10,13 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 1. Go to [GitHub](https://github.com/) and register for an account. Download and install [Git](https://git-scm.com/) on your computer. During installation, simply click "Next" repeatedly.
 
 2. In your GitHub account, create a public repository with the name `rsschool-cv`.
+
    - How to do it: Click on the plus icon next to your profile picture, select "New repository" from the dropdown, enter the repository name, ensure it's public, and create a README.md file by checking the box.
 
    ![Step 2](https://i.ibb.co/2ZjkXSJ/image.png)
 
 3. Clone the repository to your computer in the folder where you store your projects.
+
    - How to do it: Right-click in the folder and select "Open with Code" (or use Git Bash Here to enter commands in the terminal).
 
    ![Step 3](https://i.ibb.co/TmdL7HH/image.png)
@@ -54,48 +56,48 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 10. To upload your changes from your local computer to GitHub, start by using the command `git add .` (note the dot at the end) to stage the changes. You can check what has changed from the initial state and display the files with the `git status` command.
     > **Note**: To successfully upload changes to the remote repository, make sure the changed files are saved. You can configure auto-save in your code editor if necessary.
 
-   ![Step 10](https://i.ibb.co/K9Dk0rg/image.png)
+![Step 10](https://i.ibb.co/K9Dk0rg/image.png)
 
 11. Next, commit the changes using the `git commit -m 'COMMIT NAME'` command.
     - Pay attention to the **commit name requirements** described at [https://docs.rs.school/#/en/git-convention](https://docs.rs.school/#/en/git-convention). The task specifies that there should be at least three commits in the `gh-pages` branch, and commit names should start with prefixes like `init:`, `feat:`, `fix:`, `refactor:`, or `docs:`.
 
-   ![Step 11](https://i.ibb.co/yWLXJM4/image.png)
+![Step 11](https://i.ibb.co/yWLXJM4/image.png)
 
 12. Now you can push (send to GitHub from your local machine) the changes. First, check which branch you are in using the `git branch` command, and then push the changes using the `git push origin <BRANCH NAME>` command. You should use `git push origin gh-pages` to push to the `gh-pages` branch.
 
-   ![Step 12](https://i.ibb.co/bQzrF0C/image.png)
+![Step 12](https://i.ibb.co/bQzrF0C/image.png)
 
-   - You can refresh the GitHub page in your browser to see the changes. A new `gh-pages` branch should appear, containing the README.md file and an empty cv.md file. You can also visit the commit page to view all the commits in this branch.
+- You can refresh the GitHub page in your browser to see the changes. A new `gh-pages` branch should appear, containing the README.md file and an empty cv.md file. You can also visit the commit page to view all the commits in this branch.
 
 13. Fill in `cv.md` using your code editor with Markdown syntax following the guidelines at https://guides.hexlet.io/markdown/ and periodically push the changes to GitHub.
 
-   ![Step 13](https://i.ibb.co/N2XZ1sj/image.png)
+![Step 13](https://i.ibb.co/N2XZ1sj/image.png)
 
-   - **Don't forget to use appropriate commit names!**
+- **Don't forget to use appropriate commit names!**
 
 14. In the `README.md` file, add a link of the form `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`, replacing `GITHUB-USERNAME` with your GitHub username. After completing this step, your CV will be accessible via this link.
 
-   ![Step 14](https://i.ibb.co/gJmDFxF/image.png)
+![Step 14](https://i.ibb.co/gJmDFxF/image.png)
 
-   - **Push the changes to GitHub.**
+- **Push the changes to GitHub.**
 
 15. Once you have written your CV, added the link to README.md, and pushed the latest changes, create a Pull Request (PR) for review. Before doing this, it's a good idea to review the commit names. To create a Pull Request, go to your repository on GitHub, click the "Pull Request" button in the center, and then click "New pull request" on the right. Select the source and target branches and click the green "Create pull request" button.
 
-   ![Step 15](https://i.ibb.co/C1k1FqH/image.png)
+![Step 15](https://i.ibb.co/C1k1FqH/image.png)
 
-   ![Step 15.2](https://i.ibb.co/xL7Ny67/image.png)
+![Step 15.2](https://i.ibb.co/xL7Ny67/image.png)
 
-   ![Step 15.3](https://i.ibb.co/phRt9rB/image.png)
+![Step 15.3](https://i.ibb.co/phRt9rB/image.png)
 
-   - Provide a PR description according to the scheme at [https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr](https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr). Use the task's name as the PR title.
+- Provide a PR description according to the scheme at [https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr](https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr). Use the task's name as the PR title.
 
-   ![Step 15.4](https://i.ibb.co/s5wnrSd/image.png)
+![Step 15.4](https://i.ibb.co/s5wnrSd/image.png)
 
-   - **Do not press "Merge"!**
+- **Do not press "Merge"!**
 
 16. Go to "RS App," then the "Auto-Test" tab. Choose the "Markdown & Git" task and click the "Submit" button.
 
-   ![Step 16](https://i.ibb.co/rx18n8z/image.png)
+![Step 16](https://i.ibb.co/rx18n8z/image.png)
 
 ## Moving on to the Second Task: HTML, CSS & Git Basics
 

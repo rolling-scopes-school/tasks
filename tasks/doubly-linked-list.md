@@ -1,7 +1,7 @@
 # Doubly Linked List
 
-| Deadline   |
-|------------|
+| Deadline         |
+| ---------------- |
 | 29.09.2017 23:59 |
 
 Your task is to implement [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list) data structure.
@@ -13,5 +13,6 @@ Your task is to implement [doubly linked list](https://en.wikipedia.org/wiki/Dou
 5. Submit your task to [RS School Padawans](https://github.com/rolling-scopes/front-end-course/wiki/RS-School-Padawans)
 
 # FAQ
+
 1. [How to fork github repo](https://help.github.com/articles/fork-a-repo/)
 2. [How to commit and push changes](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/)

@@ -20,9 +20,11 @@
 - How to use Node.js APIs in complex
 
 ## Estimated time to complete the module
+
 20 hours
 
 ## Theory
+
 - [[RU] Lecture: Typescript basics Part 1](https://youtu.be/I_aTbZcH8Do)
 - [[RU] Lecture: Typescript basics Part 2](https://youtu.be/CegrbRXGw20)
 - [[RU] Lecture: Testing basics](https://youtu.be/ab_QJ52Z-fs)
@@ -41,6 +43,7 @@
   - [Cluster](https://nodejs.org/dist/latest-v18.x/docs/api/cluster.html)
 
 ## Practice
+
 1. Assignment: **Simple CRUD API**
-    - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)
-    - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/score.md)
+   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)
+   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/score.md)

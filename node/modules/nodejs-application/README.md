@@ -6,8 +6,10 @@
 - How to use Node.js APIs in complex
 
 ## Estimated time to complete the module
+
 15 hours
-## Theory  
+
+## Theory
 
 - [[RU] Lecture about Node.js basics (2022Q2)](https://www.youtube.com/watch?v=oXoSeVbXX_M)
 - [[RU] Lecture about Node.js basics (previous)](https://youtu.be/dcdjTqKV2_Q)
@@ -31,6 +33,7 @@
   - [Crypto API](https://nodejs.org/dist/latest-v18.x/docs/api/crypto.html)
 
 ## Practice
+
 1. Assignment: **File Manager**
-    - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md)
-    - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/score.md)
+   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md)
+   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/score.md)

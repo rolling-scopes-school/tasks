@@ -1,36 +1,35 @@
 # JavaScript для верстальщика
 
 ## 1. Метод поиска querySelector
- 
+
 JavaScript отвечает за динамику веб-страниц, позволяет им реагировать на действия пользователя. Но для того, чтобы JavaScript мог изменить состояние элемента на странице, вначале ему необходимо этот элемент найти.
 
-Метод поиска элементов в JavaScript  называется `querySelector`.
+Метод поиска элементов в JavaScript называется `querySelector`.
 Его синтаксис:
 
 ```javascript
-document.querySelector('.logo img');
+document.querySelector(".logo img");
 ```
 
 Здесь:
+
 - `document` – где ищем (по всему документу);
 - `querySelector` – метод поиска элементов;
 - `.logo img` – css-селектор
-
 
 Метод `querySelector` позволяет найти любой элемент веб-страницы, отображенный в html-разметке: тег, класс, id и их сочетания.
 
 **Пример**. Используя метод `querySelector` найдём в документе элемент с классом `logo`
 
 ```javascript
-document.querySelector('.logo');
+document.querySelector(".logo");
 ```
 
-**Пример**.  Найдём изображение внутри элемента с классом `logo`,
+**Пример**. Найдём изображение внутри элемента с классом `logo`,
 
 ```javascript
-document.querySelector('.logo img');
+document.querySelector(".logo img");
 ```
-
 
 ## 2. Метод поиска querySelectorAll
 
@@ -40,9 +39,8 @@ document.querySelector('.logo img');
 **Пример**. Найдём все изображения внутри элемента с классом `slider`, используя метод поиска `querySelectorAll`.
 
 ```javascript
-document.querySelectorAll('.slider img');
+document.querySelectorAll(".slider img");
 ```
-
 
 ## 3. Объявление и создание переменных
 
@@ -50,13 +48,14 @@ document.querySelectorAll('.slider img');
 Процесс создания переменной выглядит примерно так:
 
 ```javascript
-const logo = document.querySelector('.logo img');
+const logo = document.querySelector(".logo img");
 ```
 
 Здесь:
+
 - `const` – объявление переменной;
 - `logo` – имя переменной;
-- `=`  – оператор присвоения.
+- `=` – оператор присвоения.
 
 Правая часть выражения нам уже известна и понятна.
 
@@ -69,9 +68,8 @@ const logo = document.querySelector('.logo img');
 **Пример**. Используя метод `querySelector`, найдём первое изображение на странице, результат поиска присвоим переменной с именем firstImage.
 
 ```javascript
-const firstImage = document.querySelector('img');
+const firstImage = document.querySelector("img");
 ```
-
 
 ## 4. Ограничиваем область поиска // как искать в определённой области документа
 
@@ -80,16 +78,17 @@ const firstImage = document.querySelector('img');
 Например, если нужные нам элементы находятся внутри главного меню, то разумно и правильно будет найти в документе меню, присвоить результат поиска переменной и дальше уже её использовать в качестве области поиска:
 
 ```javascript
-const nav = document.querySelector('nav');
-const logo = nav.querySelector('.logo img');
+const nav = document.querySelector("nav");
+const logo = nav.querySelector(".logo img");
 ```
 
-## 5. Метод отлова событий 
+## 5. Метод отлова событий
 
 Событие – это сигнал от браузера о том, что что-то произошло.  
 Существует много видов событий. Перечислим некоторые из них (запоминать события не нужно).
 
 **События мыши**:
+
 - `click` – клик
 - `contextmenu` – клик правой кнопкой мыши
 - `dbclick` – двойной клик
@@ -99,11 +98,13 @@ const logo = nav.querySelector('.logo img');
 - `mousemove` – движение мыши
 
 **Клавиатурные события**:
+
 - `keydown` – кнопка нажата
 - `keyup` – кнопка отжата
 - `keypress` – кнопка удерживается
 
 **События на элементах управления**:
+
 - `focus` – элемент в фокусе, например, пользователь нажимает на input или в текстовое поле вводит текст
 - `blur` – убрали мышку из фокуса
 - `reset` – форма очищена
@@ -115,7 +116,7 @@ const logo = nav.querySelector('.logo img');
 Его синтаксис:
 
 ```javascript
-document.addEventListener('click', () => {
+document.addEventListener("click", () => {
   // code
 });
 ```
@@ -123,14 +124,14 @@ document.addEventListener('click', () => {
 - `document` – область в которой отлавливаем события;
 - `addEventListener` – метод отлова событий;
 - `click` – какое именно событие отлавливаем ('клик');
-- `() => {}` – функция, которая будет выполнена в тот момент, когда событие произойдёт.   
+- `() => {}` – функция, которая будет выполнена в тот момент, когда событие произойдёт.
 
-**Пример**.  Напишем код, который будет выводить в консоль сообщения «Какое чудесное фото» при клике  по изображению с классом `pretty-image`.
+**Пример**. Напишем код, который будет выводить в консоль сообщения «Какое чудесное фото» при клике по изображению с классом `pretty-image`.
 
 ```javascript
-const image = document.querySelector('.pretty-image');
-image.addEventListener('click', () => {
-  console.log('Какое чудесное фото');
+const image = document.querySelector(".pretty-image");
+image.addEventListener("click", () => {
+  console.log("Какое чудесное фото");
 });
 ```
 
@@ -149,22 +150,23 @@ image.addEventListener('click', () => {
 
 Так как метод `classList` работает только с классами, то в кавычках внутри может находиться только название класса. И вот перед этим названием класса **точка не ставится никогда**. Эту ошибку часто совершают начинающие разработчики.
 
-**Пример**. Напишем программу, которая будет скрывать и отображать изображение с классом  `pretty-image` при кликах по нему мышкой.
+**Пример**. Напишем программу, которая будет скрывать и отображать изображение с классом `pretty-image` при кликах по нему мышкой.
 
 1. В css пропишем правило для класса `pretty-image` указав ему свойство opacity: 0;
+
 ```css
 .image-hide {
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 ```
 
 2. В js используем метод `classList.toggle`
 
 ```javascript
-const image = document.querySelector('.pretty-image');
-image.addEventListener('click', () => {
-  image.classList.toggle('image-hide');
+const image = document.querySelector(".pretty-image");
+image.addEventListener("click", () => {
+  image.classList.toggle("image-hide");
 });
 ```
 
@@ -177,10 +179,10 @@ image.addEventListener('click', () => {
 Чтобы понять как это можно сделать, посмотрите на код:
 
 ```javascript
-const logo = document.querySelector('a.logo');
-logo.addEventListener('click', (event) => {
-    event.preventDefault();
-    console.log('Это моя аватарка');
+const logo = document.querySelector("a.logo");
+logo.addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log("Это моя аватарка");
 });
 ```
 
@@ -188,7 +190,6 @@ logo.addEventListener('click', (event) => {
 
 - `function(event)` – аргумент event – любое событие;
 - `event.preventDefault();` – оно отменено.
-
 
 ## 8. Если элемент недоступен // classList.add и classList.remove
 
@@ -199,31 +200,31 @@ logo.addEventListener('click', (event) => {
 1. Используя метод поиска `querySelector`, найдём в документе кнопки с классами `show` и `hide` и изображение с классом `.pretty-image,` присвоим результат поиска переменным `show`, `hide` и `image`.
 
 ```javascript
-const show = document.querySelector('.show');
-const hide = document.querySelector('.hide');
-const image = document.querySelector('.pretty-image');
+const show = document.querySelector(".show");
+const hide = document.querySelector(".hide");
+const image = document.querySelector(".pretty-image");
 ```
 
-2.  Используем метод `addEventListener` для отлова кликов по кнопкам `show` и `hide` и выполнения переданной функции. 
+2.  Используем метод `addEventListener` для отлова кликов по кнопкам `show` и `hide` и выполнения переданной функции.
 
 ```javascript
-show.addEventListener('click', () => {});
-hide.addEventListener('click', () => {});
+show.addEventListener("click", () => {});
+hide.addEventListener("click", () => {});
 ```
 
 3.  Для кликов по кнопке `hide` в качестве функции укажем добавление класса `image-hide` к элементу `image`. Добавить класс позволяет метод `classList.add`
 
 ```javascript
-hide.addEventListener('click', () => {
-    image.classList.add('image-hide');
+hide.addEventListener("click", () => {
+  image.classList.add("image-hide");
 });
 ```
 
 4. Для кликов по кнопке `show` в качестве функции укажем удаление класса `image-hide` у элемента `image`. Удалить класс позволяет метод `classList.remove`
 
 ```javascript
-show.addEventListener('click', () => {
-    image.classList.remove('image-hide');
+show.addEventListener("click", () => {
+  image.classList.remove("image-hide");
 });
 ```
 
@@ -233,10 +234,10 @@ show.addEventListener('click', () => {
 Вот как будет выглядеть код скрывающий элемент с классом `.pretty-image` при нажатии на клавишу пробел:
 
 ```javascript
-const image = document.querySelector('.pretty-image');
-window.addEventListener('keydown', (event) => {
-  if(event.code === 'Space') {
-    image.classList.add('image-hide');
+const image = document.querySelector(".pretty-image");
+window.addEventListener("keydown", (event) => {
+  if (event.code === "Space") {
+    image.classList.add("image-hide");
   }
 });
 ```
@@ -244,9 +245,9 @@ window.addEventListener('keydown', (event) => {
 Большая часть кода нам уже знакома, но появились некоторые новые моменты. К ним относятся:
 
 - глобальный объект `window`. Мы уже знакомы с глобальным объектом `document`, который содержит весь код страницы и все его элементы.  
-`window` – это окно браузера, в котором данный документ отображается;
+  `window` – это окно браузера, в котором данный документ отображается;
 - событие `keydown`. Несложно догадаться, что речь идёт о нажатии на клавишу;
-- условие `if(event.code === 'Space')` выполняется, если нажата клавиша пробле, код которой равен 'Space'. 
+- условие `if(event.code === 'Space')` выполняется, если нажата клавиша пробле, код которой равен 'Space'.
 
 Узнать код клавиши можно на странице https://keycode.info/. Перейдите по ссылке, нажмите на клавишу и увидите её код. Оператор `===` означает «равно», тогда как одинарное `=` это оператор присвоения.
 

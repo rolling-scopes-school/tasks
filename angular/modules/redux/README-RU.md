@@ -15,9 +15,9 @@
 ## Теория
 
 - Лекции:
-    - [Angular 2020Q1. Redux & NgRx](https://youtu.be/-8APehOVRLM)
-    - [Angular 2020Q3. NgRX](https://youtu.be/d2pkNhIS10o)
-    - [Angular 2021q1. NgRx](https://youtu.be/Yqtwmyn9YKE)
+  - [Angular 2020Q1. Redux & NgRx](https://youtu.be/-8APehOVRLM)
+  - [Angular 2020Q3. NgRX](https://youtu.be/d2pkNhIS10o)
+  - [Angular 2021q1. NgRx](https://youtu.be/Yqtwmyn9YKE)
 - [Слайды](https://drive.google.com/file/d/19m1kRSflNEVb7Z5zZRRPwVcFcu1oA54h/view?usp=sharing)
 
 ## Практика

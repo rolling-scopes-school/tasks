@@ -22,23 +22,22 @@
 - 6 kyu https://www.codewars.com/kata/data-reverse
 
 ## Как сабмитить задание
+
 Codewars - автопроверяемый таск.  
-После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 2**, нажмите кнопку **Submit**. Справа отобразится результат проверки.  
+После окончания работы над заданием зайдите в rs app https://app.rs.school/, выберите **Auto-Test**, в выпадающем списке выберите **Codewars Part 2**, нажмите кнопку **Submit**. Справа отобразится результат проверки.
 
 Сабмитить задание можно сколько угодно раз, каждый следующий сабмит перезаписывает предыдущий.
 
 Не забудьте поменять никнейм на Codewars. Он будет указан при выборе задания **Codewars Part 2** в rs app. Изменить никнейм на codewars можно по ссылке https://www.codewars.com/users/edit
 
-
 ## Scoring criteria
 
-*  2 point for 8 kyu, 7 kyu and Beta tasks (19 tasks at all)
-*  7 points - 6 kyu (1 task at all)
+- 2 point for 8 kyu, 7 kyu and Beta tasks (19 tasks at all)
+- 7 points - 6 kyu (1 task at all)
 
-Total: 19 * 2 + 7  = 45
+Total: 19 \* 2 + 7 = 45
 
 **Total sum - 45 points.**
-
 
 ## Материалы
 

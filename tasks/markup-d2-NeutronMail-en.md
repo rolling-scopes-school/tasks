@@ -1,5 +1,4 @@
-
-# Homework: NeutronMail. 
+# Homework: NeutronMail.
 
 Create a web page, strictly according to:
 
@@ -13,10 +12,9 @@ JPG:
 
 The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
-*[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
+_[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)_
 
 Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
-
 
 ## Procedure
 
@@ -40,29 +38,33 @@ Page only for desktop gives you up to 50 points. Responsive for at least 3 scree
 ## Terms of Reference
 
 Preferable @media points:
-1) more than 1400px - wrapper should be centered in case the resolution is bigger.
-2) 1400px - when responsive more than 1400px, main container should not affect. Social network icons and Customers block should float.
-3) 1200px - when responsive less than 1400px content from both sides should float, but structure of layout sould be the same (lines, columns, blocks).
-4) 800px or 768px - when responsive less than 1200px blocks sequence and layout structure could be changed. Lines can dissapear, but all blocks with contet inside should be visible.
-5) 540px or 480px or 420px - when responsive less than previous media some content can be hidden, some can be restyled.
-6) Less than previous media - structure should have mobile view, with simple menu view and only necessary content available.
+
+1. more than 1400px - wrapper should be centered in case the resolution is bigger.
+2. 1400px - when responsive more than 1400px, main container should not affect. Social network icons and Customers block should float.
+3. 1200px - when responsive less than 1400px content from both sides should float, but structure of layout sould be the same (lines, columns, blocks).
+4. 800px or 768px - when responsive less than 1200px blocks sequence and layout structure could be changed. Lines can dissapear, but all blocks with contet inside should be visible.
+5. 540px or 480px or 420px - when responsive less than previous media some content can be hidden, some can be restyled.
+6. Less than previous media - structure should have mobile view, with simple menu view and only necessary content available.
 
 “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
 
 1. Header.
+
 - Interactive nav.
 - Think of where `h1` should be used.
 - Gradients could be applied approximately. No need to make them 100% identical
 - Buttons and icons should be positioned accurately on desktop version.
 
 2. Main.
-- Thin lines must not be images. Think of html elements and css properties to use. 
+
+- Thin lines must not be images. Think of html elements and css properties to use.
 - Care about icons, fonts and colors.
 
 3. Footer
+
 - Email addresses must be clickable as 'mailto'.
 - Care about breadcrumbs (slashes between social links). They should not be selected as other text does. Example:
-![breadcrumbs](https://image.prntscr.com/image/eZL-0kQsRpWQSzarVc1NbA.png "breadcrumbs")
+  ![breadcrumbs](https://image.prntscr.com/image/eZL-0kQsRpWQSzarVc1NbA.png "breadcrumbs")
 
 ## Useful links
 
@@ -76,6 +78,7 @@ To simplify work with CSS syntax and selectors, you can use CSS3 generator at:
 http://css3generator.com/
 
 ## If you don't have Photoshop to work with .psd files
+
 There’s a good design tool: https://studio.psdetch.com/
 No sign-up is required, just click the “open” button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
 If you need to extract an image, the “export” function is available.

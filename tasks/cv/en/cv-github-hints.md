@@ -7,6 +7,7 @@ If the [previous tips](./cv-hints.md) seemed a bit challenging for beginners, yo
 The advantage of this method is that you don't need to install any software. It also works all the time and can help you when you encounter issues with Git.
 
 ## Markdown & Git Task
+
 Please review the requirements of the [Markdown & Git task](git-markdown.md) again and follow them step by step.
 
 #### 1. Creating a Repository
@@ -38,8 +39,9 @@ We have created the "gh-pages" branch and switched to it. The README.md file fro
 #### 4. Adding the `cv.md` File
 
 You need to add the "cv.md" file to the "gh-pages" branch. You can do this in one of two ways:
-1) Create the file directly in the GitHub repository.
-2) Create the file on your computer and upload it to GitHub.
+
+1. Create the file directly in the GitHub repository.
+2. Create the file on your computer and upload it to GitHub.
 
 I prefer the second option because it allows you to upload not only files but also entire folders to GitHub.
 
@@ -58,6 +60,7 @@ Before clicking the green "Commit new file" button, you should provide a commit 
 ![Step 6](../images/6.jpg)
 
 If you decide to click "Upload files," you will again have two options:
+
 - Select a file from your computer.
 - Drag and drop a file or folder with files from your computer into the file upload window.
 
@@ -142,6 +145,7 @@ To see the evaluation result, you may need to refresh the page.
 Congratulations! You have completed the first part of the assignment.
 
 ## HTML, CSS & Git Basics Task
+
 Task description: [HTML, CSS & Git Basics](html-css-git.md)
 
 #### 1. Create the Branch `rsschool-cv-html`

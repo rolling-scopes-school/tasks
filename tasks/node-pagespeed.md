@@ -1,6 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
-| 17.02.2018| node-pagespeed |
+| Deadline   | Folder name    |
+| ---------- | -------------- |
+| 17.02.2018 | node-pagespeed |
 
 ## Node pagespeed
 
@@ -13,11 +13,9 @@ Script takes 2 command line parameters:
 
 **Example**: `node index.js ./urls.txt ./results`
 
-
 File contains urls splitted by EOL symbol ('\r\n' or '\n')
 
 File ends with EOL
-
 
 ### Requirements:
 
@@ -31,7 +29,6 @@ File ends with EOL
 **Example**: while running the script the internet connection was lost
 
 **Possible solution**: try to make request again multiple times. If you didn't come to success write error details to file and console (so that you could understand what happened). Script should continue execution and in the end there appears a message like: "Some requests failed. See logs: <path/to/logfile>" (message is also written to logs)
-
 
 **Example**: you have made a mistake in logic for cheduling https calls and tried to make more than 100 scans per 100 seconds (or Google became greedy and made limitations more strict like 50 scans per 100 minutes)
 

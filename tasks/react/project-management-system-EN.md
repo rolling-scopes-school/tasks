@@ -1,18 +1,20 @@
-#  Project Management System
+# Project Management System
 
 **Project management system** is an application that helps a team or group of developers achieve their goals.
 PLEASE READ TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE CODING❗❗❗
 
 ## Theoretical Notes
 
-There are many competitors on the market for our future application. Check out suggested analogs before start building your app: *Trello, Jira, Redmine, Bitrix24, Yandex Tracker, Asana, GanttPro, Github projects.*
+There are many competitors on the market for our future application. Check out suggested analogs before start building your app: _Trello, Jira, Redmine, Bitrix24, Yandex Tracker, Asana, GanttPro, Github projects._
+
 ## Building a team
 
 - you should work in a team of 3 members
 - teams can be pre-defined there. (https://rss-teams.web.app/)
 - All students should be registered there. (https://rss-teams.web.app/)
-- All teams should be registered there. [RSSTeams](https://rss-teams.web.app/) 
+- All teams should be registered there. [RSSTeams](https://rss-teams.web.app/)
 - Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams)
+
 ## Application Prototype
 
 Pay attention that we leave the final set of tools and design up to you to not limit your possibilities and imagination.
@@ -47,12 +49,12 @@ Your app must contain:
 - user auth
 - boards list page
 - selected board management page
-Your app could contain:
+  Your app could contain:
 - additional functionality (for example, the ability to view all the tasks of the selected user)
 
 ## Repository requirements
 
-- teamlead should create private repo in github and invite other members 
+- teamlead should create private repo in github and invite other members
 - teamwork nuances described there [Teamwork](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **project-management-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
@@ -60,14 +62,15 @@ Your app could contain:
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - describe in PR how to run your backend locally if you didn't deploy backend.
 - you should make your repo public after deadline
-Gitflow, workflow
-You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
+  Gitflow, workflow
+  You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
 
 [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
 [Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
 [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 [ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
 [GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
+
 ## Technical requirements
 
 - localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in header.
@@ -110,7 +113,7 @@ You are free to choose your own way of developing the project and the repository
 ### Footer
 
 - footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
-- footer is displayed on all pages of the application.  
+- footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up
 
@@ -147,22 +150,27 @@ You are free to choose your own way of developing the project and the repository
 - The column should have a 'delete column' button. Clicking on 'delete column' should open the confirmation modal, only after the user confirms the deleting - delete the column.
 - ATTENTION! Deleting a column removes the tasks associated with it from the BD automatically.
 - There should be a "back" button to return to the Main route
+
 ## How to submit tasks
 
 - Link to pull request in rs app is submitted only by **team leader** ❗
 - Make sure the pull request is available for review ❗. To do this, open the link that you submit in rs app in incognito browser mode
 - If the task is not submitted before the deadline, it will not be distributed during the cross-check and points will not be added to your score.
+
 ## Evaluation criteria
 
 **Maximum available points for the task 120**
 It contains:
+
 - 60 for crosscheck
 - 60 for your involvement into a project. (15 in a week)
 
 ## Cross-check criteria
+
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+
 ### Welcome route - max 7 points
 
 - [ ] The welcome page should contain general information about the developer, project, and course. **1 point**
@@ -171,7 +179,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. **2 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. **1 point**
 
-### Sign In / Sign Up  - max 8 points
+### Sign In / Sign Up - max 8 points
 
 - [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **2 points**
 - [ ] Form fields should be implemented according to the backend API. Validation should be implemented. **4 points**
@@ -190,14 +198,14 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - [ ] Button for column creation is displayed **1 point**
 - [ ] If a board contains at least one column - a button for task creation is displayed/become enabled as well **1 points**
-- [ ] A modal windows with forms is displayed for column and task creations  **3 points**
-- [ ] A vertical scrollbar is displayed in the column when overflowing with the number of column tasks  **2 points**
+- [ ] A modal windows with forms is displayed for column and task creations **3 points**
+- [ ] A vertical scrollbar is displayed in the column when overflowing with the number of column tasks **2 points**
 - [ ] The page itself on the current route doesn't have a vertical scrollbar **1 points**
 - [ ] With the help of drag-n-drop, we can swap columns. **3 points**
-- [ ] With the help of drag-n-drop, we can change the order of tasks within a column.  **3 points**
-- [ ] With the help of drag-n-drop, we can change the task belonging to the column.  **5 points**
+- [ ] With the help of drag-n-drop, we can change the order of tasks within a column. **3 points**
+- [ ] With the help of drag-n-drop, we can change the task belonging to the column. **5 points**
 - [ ] The functionality of viewing and editing of the task has been implemented. **3 points**
-- [ ] The task must have a delete task button. On click: confirmation modal -> delete.  **1 points**
+- [ ] The task must have a delete task button. On click: confirmation modal -> delete. **1 points**
 - [ ] At the top of the column should be Title. When you click on it, it should become an input, with Submit and Cancel buttons near it. After entering text in the input and clicking Submit - the Title of the column should change. **2 points**
 - [ ] The column should have a delete button. By clicking -> confirmation modal -> when approving -> deleting. **1 points**
 
@@ -209,16 +217,16 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Sticky header **2 points**
 - [ ] Extra scope same complexity as Global search **2 points**
 
-
 ### Penalties
+
 - [ ] React default favicon **- 1 points**
-- [ ] The presence of errors and warnings in the console  **- 2 points** for each
+- [ ] The presence of errors and warnings in the console **- 2 points** for each
 - [ ] The presence in the console of the results of the console.log execution - **- 2 points** for each
 - [ ] @ts-ignore or any usage (search through github repo) - **- 1 point** for each
-- [ ] Making commits after the deadline - **- 20 points**  
+- [ ] Making commits after the deadline - **- 20 points**
 
 ## Helpful links
 
 - [Project management](https://ru.wikipedia.org/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B8)
-- [What is a project?](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_(%D0%B2_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8))
-- [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+- [What is a project?](<https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_(%D0%B2_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8)>)
+- [Kanban](<https://en.wikipedia.org/wiki/Kanban_(development)>)

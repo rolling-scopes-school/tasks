@@ -18,9 +18,9 @@ The task should be based on the previous task.
 6. Tests for the Card component:
    - Ensure that the card component renders the relevant card data;
    - Validate that clicking on a card opens a detailed card component;
-     - Check that clicking triggers an additional API call to fetch detailed information;
-     - Check that a loading indicator is displayed while fetching data.
+   - Check that clicking triggers an additional API call to fetch detailed information.
 7. Tests for the Detailed Card component:
+   - Check that a loading indicator is displayed while fetching data;
    - Make sure the detailed card component correctly displays the detailed card data;
    - Ensure that clicking the close button hides the component.
 8. Tests for the Pagination component:
@@ -29,7 +29,9 @@ The task should be based on the previous task.
    - Verify that clicking the Search button saves the entered value to the local storage;
    - Check that the component retrieves the value from the local storage upon mounting.
 10. Tests for the 404 Page component:
-   - Ensure that the 404 page is displayed when navigating to an invalid route.
+
+- Ensure that the 404 page is displayed when navigating to an invalid route.
+
 11. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
 ### Questions
@@ -90,11 +92,12 @@ Run app and check that the functionality is working (cross-check)
 
 ### Repository requirements
 
-- the task should be done in **your personal private repository**
-- in the repository create a branch from the **previous task** branch with the name of the task and work in the created branch
-- the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
-- after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
-- after completing the module, private repository should be exposed for the duration of the cross-check (please check the schedule), when the cross-check is finished, repository should be made private again 
+- The task should be completed in **your personal private repository**.
+- In the repository, create a branch from the **previous task** branch using the task's name and work within this newly created branch.
+- The commit history should reflect the process of creating the app. Refer to [Commit requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU] for details.
+- Once development is complete, you need to create a Pull Request from the current task branch to the previous task branch. Refer to [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU] for details.
+- After completing the module, private repository should be exposed for the duration of the cross-check (please check the schedule). When the cross-check is finished, repository should be made private again.
+
   **Do not merge Pull Request from the development branch to the `main` branch**
 
 ### Useful links

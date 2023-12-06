@@ -11,19 +11,22 @@
 
 ## Approximate time to complete this module:
 
-Theory - 2 hours, 
+Theory - 2 hours,
 Assignment - 2 hours.
 
-## Theory 
+## Theory
+
 - [Lecture (till 1:16:05)](https://youtu.be/fVhS7-LsvI4)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/c431689f6a2c0eedf93ff760b30ee237f2c2e012)
 - [Slides (till HTTP)](https://slides.com/pavelrazuvalau/angular-modules-services-http)
 
 ## Practical assignment
+
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Trainer: Diana Kohut
 
 ## Additional materials
+
 - [Add services](https://angular.io/tutorial/toh-pt4)
 - [Introduction to modules](https://angular.io/guide/architecture-modules)
 - [NgModules](https://angular.io/guide/ngmodules)

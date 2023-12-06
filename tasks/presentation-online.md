@@ -1,25 +1,28 @@
 # Presentation
+
 Prepare a presentation on a given topic, offered or approved by your mentor.
 
 ## Topics' list
+
 The whole list of appropriate topics can be found [here](presentation-topics.md).
 
 ## Requirements:
-* 8–10 minutes for the presentation.
-* Speech rehearsal with your mentor's group or mentor.
-* Speaker notes for each slide.
-* Language - English.
-* Usage of [HTML Presentation Framework Reveal](https://github.com/hakimel/reveal.js/) for presentation's slides.  
 
+- 8–10 minutes for the presentation.
+- Speech rehearsal with your mentor's group or mentor.
+- Speaker notes for each slide.
+- Language - English.
+- Usage of [HTML Presentation Framework Reveal](https://github.com/hakimel/reveal.js/) for presentation's slides.
 
 ### Advanced scope. 110 points.
-  1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your deployed
-     Reveal presentation: **+10 points**
-  2. Your speech is fairly coherent: clear, concise and logical. You don't jump from one thought to another **+30 points**
-  3. You use Reveal's features: customization, vertical slides, pretty code feature, animations, etc. - **+20 points**
-  4. You keep the timing for performance (8-10 minutes): **+10 points**
-  5. You ask for questions from the audience and jury - **+30 points**
-  6. C+ level of English: **+10 points**
+
+1. You show up (using a camera, webcam, phone, videocamera or so) and somewhat give a talk with demonstrating your deployed
+   Reveal presentation: **+10 points**
+2. Your speech is fairly coherent: clear, concise and logical. You don't jump from one thought to another **+30 points**
+3. You use Reveal's features: customization, vertical slides, pretty code feature, animations, etc. - **+20 points**
+4. You keep the timing for performance (8-10 minutes): **+10 points**
+5. You ask for questions from the audience and jury - **+30 points**
+6. C+ level of English: **+10 points**
 
 **❗️ Important:**  
 If you decide to perform live, you automatically agree, that your performance could be recorded and added to RS  
@@ -31,10 +34,10 @@ The consequences of the failure to comply with the above rules may result in a p
 
 If any time slots become available, students may reserve those for their presentations on a **first-come, first-served** basis.
 
-  
 ## Useful links:
-* http://speaking.io/
-* https://zachholman.com/talk/the-talk-on-talks/
-* https://obsproject.com/
-* https://macreports.com/record-face-screen-mac/
-* [Chrome extension for recording screencast + webcam](https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb)
+
+- http://speaking.io/
+- https://zachholman.com/talk/the-talk-on-talks/
+- https://obsproject.com/
+- https://macreports.com/record-face-screen-mac/
+- [Chrome extension for recording screencast + webcam](https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb)

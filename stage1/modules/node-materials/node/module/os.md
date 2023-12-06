@@ -1,10 +1,11 @@
 ## Модуль os
+
 [HOME](../../README.md)
 
 Модуль `os` (operating system) предоставляет данные об операционной системе пользователя
 
 ```js
-const os = require('os');
+const os = require("os");
 
 // Платформа
 console.log(os.platform());

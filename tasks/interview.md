@@ -1,14 +1,15 @@
 Что спрашивают на интервью:
 
 Всегда:
+
 - Prototypes
 - Closures
 - Hoisting
 - DOM Events & Event loop (https://www.youtube.com/watch?v=8aGhZQkoFbQ)
--	Ajax (https://learn.javascript.ru/ajax)
-
+- Ajax (https://learn.javascript.ru/ajax)
 
 Реже:
+
 - OOP
 - HTML/CSS theory (adaptive design, semantic markup etc)
 - How browser works (rendering, painting etc)
@@ -19,9 +20,4 @@
 - Git
 - webpack and gulp.
 
-Список будет обновляться. 
-
-
-
-
-
+Список будет обновляться.

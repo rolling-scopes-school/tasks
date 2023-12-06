@@ -1,6 +1,6 @@
-Deadline         | Folder Name    | Mark
------------------|----------------|---------------
-21.03.2016 09:00 | float_layouts  | 0.5
+| Deadline         | Folder Name   | Mark |
+| ---------------- | ------------- | ---- |
+| 21.03.2016 09:00 | float_layouts | 0.5  |
 
 Developing Typical Layouts
 

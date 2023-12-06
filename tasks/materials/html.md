@@ -3,6 +3,7 @@
 На сегодня в интернете есть много курсов, знакомящих с вёрсткой. При наличии времени и желания освоить теоретические вопросы и научиться верстать несложные сайты возможно самостоятельно.
 
 Вам необходимы знания следующих тем и вопросов:
+
 - HTML
   - [блочная модель](https://webref.ru/course/block-model)
   - [блочные и строчные элементы](https://webref.ru/course/block-inline)
@@ -14,16 +15,18 @@
   - [основы css](https://webref.ru/course/css-basics)
   - [css-селекторы, их типы](https://loftblog.ru/material/osnovy-css-urok-2/)
   - [вес селекторов](http://css.yoksel.ru/specifity/)
-  - [медиазапросы](https://youtu.be/M-xc1EOMOIE) 
+  - [медиазапросы](https://youtu.be/M-xc1EOMOIE)
 
 Также совершенно необходим практический опыт вёрстки, хотя бы один самостоятельно свёрстанный сайт.
 
 #### Что можно сделать до старта курса
+
 - пройти бесплатные тренажеры на сайте [HTML Academy](https://htmlacademy.ru/courses) стартового, начального и среднего уровня
-- пройти интерактивные курсы [Code Basics HTML](https://ru.code-basics.com/languages/html), [Code Basics CSS](https://ru.code-basics.com/languages/css) 
+- пройти интерактивные курсы [Code Basics HTML](https://ru.code-basics.com/languages/html), [Code Basics CSS](https://ru.code-basics.com/languages/css)
 - самостоятельно сверстать небольшой сайт, например, [wildlife](https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/wildlife)
 
 #### Вебинары RS School
+
 - [HTML/CSS Basics](https://youtu.be/xdBTX4RMoBE)
 - [Position. Floats. Flex. Semantic. CSS3](https://youtu.be/iSQcOjxttNg)
 - вебинары Сергея Шаляпина
@@ -39,9 +42,10 @@
   - [Friday Live Coding. Part 4](https://youtu.be/Qk2UGlFNKPE)
   - [Friday Live Coding. Part 5](https://youtu.be/ouZnGUefneQ)
   - [Репозиторий с кодом](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
-  - [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1) 
+  - [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
 
 #### Дополнительные материалы
+
 - Теория
   - [Веб-документация MDN](https://developer.mozilla.org/ru/docs/Web)
   - [Коллекция практических советов и заметок по вёрстке](https://habr.com/ru/post/273471/)
@@ -62,5 +66,4 @@
   - [HTML для начинающих](https://www.youtube.com/playlist?list=PLY4rE9dstrJyeZlPWoKJr1xKVVnG4w-Hc)
   - [Плагин Emmet](https://www.youtube.com/watch?v=WeNN9So5DTs)
   - [Основы CSS/CSS3](https://www.youtube.com/playlist?list=PL026CCEB5125879C2)
-  - [Вёрстка сайта с нуля для начинающих](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW) 
-
+  - [Вёрстка сайта с нуля для начинающих](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)

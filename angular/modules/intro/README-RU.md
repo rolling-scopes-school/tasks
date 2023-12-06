@@ -1,6 +1,6 @@
-#  Intro to Angular
+# Intro to Angular
 
-## [RS School. Курс по Angular.](../../README-RU.md) 
+## [RS School. Курс по Angular.](../../README-RU.md)
 
 ## В данном модуле студенты изучат
 

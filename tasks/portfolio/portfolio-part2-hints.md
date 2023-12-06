@@ -143,26 +143,26 @@
 Чтобы найти несколько элементов, используем метод `querySelectorAll()`.
 
 ```js
-const navLinks = document.querySelectorAll('.nav-link');
+const navLinks = document.querySelectorAll(".nav-link");
 ```
 
 Метод `querySelectorAll()` возвращает коллекцию NodeList. NodeList не является массивом, но его элементы можно перебрать при помощи метода `forEach()`
 
 ```js
-navLinks.forEach((el) => el.addEventListener('click', closeMenu));
+navLinks.forEach((el) => el.addEventListener("click", closeMenu));
 ```
 
 В коде выше мы добавили слушатель событий на каждую ссылку меню. Можно обойтись только одним слушателем, который добавляем их общему родителю.
 
 ```js
-nav.addEventListener('click', closeMenu);
+nav.addEventListener("click", closeMenu);
 ```
 
 Чтобы меню закрывалось только при клике по ссылке, добавляем условие
 
 ```js
 function closeMenu(event) {
-  if (event.target.classList.contains('nav-link')) {
+  if (event.target.classList.contains("nav-link")) {
     // здесь код, удаляющий класс `'open'` у гамбургер-иконки и у меню
   }
 }
@@ -175,29 +175,32 @@ function closeMenu(event) {
 ### Adaptive background image
 
 Сделать адаптив фоновых изображений можно несколькими способами. Во-первых изменять масштаб и позиционирование изображения с помощью свойств `background-size` и `background-position`:
-  ```css
-  .hero {
-    height: 910px;
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-  
-    @media (max-width: 768px) {
-      height: 590px;
-      background-position: -5px -30px;
-      background-size: auto 620px;
-    }
+
+```css
+.hero {
+  height: 910px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    height: 590px;
+    background-position: -5px -30px;
+    background-size: auto 620px;
   }
-  ```
+}
+```
+
 Во-вторых, если первый метод не подходит или трудно выполним, можно скачать из макета фоновое изображение для нужного разрешения и устанавливать его как фон в нужных медиа-запросах.
-  ```css
-  .hero {
-    height: 910px;
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-  
-    @media (max-width: 768px) {
-      height: 590px;
-      background-image: url('../img/bg-small.jpg');
-    }
+
+```css
+.hero {
+  height: 910px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    height: 590px;
+    background-image: url("../img/bg-small.jpg");
   }
-  ```
+}
+```

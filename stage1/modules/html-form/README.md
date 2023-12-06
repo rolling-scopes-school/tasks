@@ -1,22 +1,37 @@
-# [Stage#1](../../) HTML Forms & Validation
-## In this module students should get acquainted with:
-- HTML forms
-- HTML forms validation
-- HTML forms events handling
+# [Stage#1](../../) HTML Forms & Validation 📝
 
-## Approximate module completion time:
-4 hours
+## Module Overview 📚
 
-## Theory 
-1. You need to read: 
-    - https://developer.mozilla.org/en-US/docs/Learn/Forms
-    - https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+This module provides an in-depth exploration of HTML forms, focusing on their creation, validation, and event handling. It aims to equip students with the knowledge to effectively use forms for collecting user input and emphasizes the importance of validating this input for maintaining data integrity and enhancing user experience.
 
+## Learning Objectives 🎯
 
-## Practice 
-1. You need to take the "HTML Form" test in the RS APP > Auto Test
+Students will:
 
-## Additional materials
-1. [Forms, controls](https://javascript.info/forms-controls)
-2. [Forms course](https://web.dev/learn/forms/)
-3. [RS School recorded webinar (RU)](https://www.youtube.com/watch?v=PhRVJC0kBGE)
+- Understand the fundamentals of HTML forms and their role in web applications.
+- Learn techniques for HTML form validation to ensure accurate data collection.
+- Explore event handling in HTML forms for interactive user experiences.
+
+## Approximate Module Completion Time ⏱️
+
+- **4 hours**
+
+## Theory 📖
+
+Students are encouraged to study the following resources:
+
+1. **Understanding HTML Forms:**
+   - [HTML Forms on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+   - [Form Validation on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+
+## Practice 💻
+
+- Complete the "[St1] HTML Form" test in the RS APP > Auto Test.
+
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
+
+1. [Forms and Controls](https://javascript.info/forms-controls) - A detailed guide to form elements in JavaScript.
+2. [Learn Forms](https://web.dev/learn/forms/) - A practical course on web form accessibility and usage.
+3. [RS School Webinar on Forms (RU)](https://www.youtube.com/watch?v=PhRVJC0kBGE)

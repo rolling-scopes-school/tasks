@@ -1,15 +1,17 @@
 # Angular Online Shop
 
-|  Branch name        |
-| --------------------|
+| Branch name         |
+| ------------------- |
 | angular-online-shop |
 
 **Angular Online Shop** – the online shop application with the following functionality:
+
 - products showcase
 - managing shopping cart
 - submitting orders
 
 ## Application prototype
+
 The presented design is for your reference and your final one could be any.
 
 ![Landing](./assets/landing.png)
@@ -17,9 +19,9 @@ The presented design is for your reference and your final one could be any.
 ## Application structure
 
 1. [Header](#header):  
-  1.1 Navigation  
-  1.2 Navigation to products category  
-  1.3 Profile block  
+   1.1 Navigation  
+   1.2 Navigation to products category  
+   1.3 Profile block
 1. [Footer](#footer)
 1. [Shop landing page](#shop-landing-page)
 1. [Category listing page](#category-listing-page)
@@ -34,7 +36,8 @@ The presented design is for your reference and your final one could be any.
 
 Header should contain:
 
-- #### Block with information:  
+- #### Block with information:
+
   - contacts block: main contacts information and the dropdown with additional contacts
 
     ![Contacts](./assets/contacts.png)
@@ -42,29 +45,32 @@ Header should contain:
   - block that contains contact center working hours
 
 - #### Navigation block:
+
   - located under the **Block with information**
   - has a logo (could be any). By clicking it a user navigates to the **Shop landing page**.
-  - contains the **Catalog** button, after clicking on it a panel with product categories appears (or navigation to a separate page occurs)   
-  - product categories should have hierarchy 
+  - contains the **Catalog** button, after clicking on it a panel with product categories appears (or navigation to a separate page occurs)
+  - product categories should have hierarchy
 
     ![Hierarchy](./assets/categories.png)
+
   - the panel is divided into 2 parts - on the left are the main categories of products (the topmost level), on the right are nested categories. When you hover over any main category on the left, a list of nested categories that belong to the main category is displayed on the right.
 
   - search by categories and products. The results should be displayed in a dropdown box. Search results should display a list of products that match the request with the ability to go to a page with details of any of the specified products. When entering characters in the search input, implement debounce, which sends a request after an input delay (for example: 100 ms), as well as for a particular number of characters (for example: more than 2)
 
     ![Search](./assets/search.png)
-  
+
   It is not necessary to create a separate page to implement search. It is enough to display the results in the dropdown.
 
   - #### **Account block**
-    - anonymous user   
-    ![Account](./assets/sign-in.png)
-      - sign in, sign up buttons.   
+
+    - anonymous user  
+      ![Account](./assets/sign-in.png)
+      - sign in, sign up buttons.
 
     ![Authorization](./assets/authorization.png)
 
-    - authorized user   
-    ![Account](./assets/account.png)
+    - authorized user  
+      ![Account](./assets/account.png)
       - log out button.
       - link to user **Cart**
       - link to user **Favorite products**
@@ -91,20 +97,20 @@ The page has the following elements:
 
 ### **Category listing page**
 
-- contains the hierarchy of the selected category (breadcrumbs)   
+- contains the hierarchy of the selected category (breadcrumbs)  
   ![Breadcrumbs](./assets/breadcrumbs.png)
 - category name, for example **Laptops**
 - list of products in this category as cards  
   ![Cards](./assets/listing.png)
   - product name
   - image
-  - availability of a product. For products with more than 20 in the warehouse, paint the card green, if from 5 to 19 - yellow, if less than 5 - red.   
+  - availability of a product. For products with more than 20 in the warehouse, paint the card green, if from 5 to 19 - yellow, if less than 5 - red.
   - price
   - rating
   - add to cart button
   - add to favorites button
   - state of the buttons should be changed depending on whether an item is in cart or marked as favorite
-- it should be possible to sort products by price (cheap first or expensive first) and by rating   
+- it should be possible to sort products by price (cheap first or expensive first) and by rating  
   ![Sorting](./assets/sort.png)
 - products should not be displayed all at once, but in groups of 10, after which there should be a "Show more" button, by clicking on which another group of 10 products is loaded.
 
@@ -122,25 +128,26 @@ The page has the following elements:
 
 ### **Cart**
 
-  ![Cart](./assets/cart.png)
- 
+![Cart](./assets/cart.png)
+
 - a list of products including its name, image, quantity (with the ability to change the number of units of a product, while the cost for this product should be recalculated), cost of the product and the ability to navigate to this product
 - information about the total cost of the order
 - a form for entering information for the order with the following data:
-   - Full name
-   - Delivery address
-   - Phone number
-   - Desired delivery time. Date & time picker can be used
-   - Comment to the order
+  - Full name
+  - Delivery address
+  - Phone number
+  - Desired delivery time. Date & time picker can be used
+  - Comment to the order
 - button for submitting an order
 
 Field validation rules:
+
 - Full name: required field, minimum length - 3, maximum - 50
 - Delivery address: required field, minimum length - 3, maximum - 250
 - Phone number: required field, the line contains only the "+" symbol at the beginning and numbers
 - Desired delivery time: required field, valid date and time
 - Comment to order: optional field, maximum length - 250
-The user can place an order only if all fields are valid, otherwise it is necessary to show an error message under the field that is filled in incorrectly.
+  The user can place an order only if all fields are valid, otherwise it is necessary to show an error message under the field that is filled in incorrectly.
 
 After creating an order, show a confirmation with the specified data for delivery and a message like "Your order has been created successfully, expect delivery at the specified time."
 
@@ -158,7 +165,8 @@ A set of product cards in several columns. Each card should contain:
 ### **Orders**
 
 Should contain information about each user's order in the form of a list (design the way you want). Each item in the list is a separate order
-  - should contain information about delivery, cost for payment, order number, elements of order cancellation / editing. Each order should be implemented as a drop-down list with a set of products in the order (product name / quantity / cost)
+
+- should contain information about delivery, cost for payment, order number, elements of order cancellation / editing. Each order should be implemented as a drop-down list with a set of products in the order (product name / quantity / cost)
 
 ## Backend
 
@@ -174,11 +182,11 @@ To do this, you need to clone the repository and run json-server locally.
 - once the work is finished, create a pull request from a development branch to master
 - the pull request name should contain **the task name**
 - the pull request description should contain the following information:
-    - link to the task
-    - screenshot of your application (one would be enough)
-    - link to your application
-    - date of completion/deadline
-    - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
+  - link to the task
+  - screenshot of your application (one would be enough)
+  - link to your application
+  - date of completion/deadline
+  - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
 
 Example:
 
@@ -187,7 +195,7 @@ Example:
    Link to the current is here
 2. App screenshot:
    Your screenshot is here
-3. Deploy:  
+3. Deploy:
    A link to your deployed application is here
 4. Done 19.04.20 (deadline 19.04.20)
 5. Score: 200 / 200
@@ -239,6 +247,7 @@ Example:
 ## Evaluation criteria
 
 ### The maximum score for the task: **620**
+
 ### Layout **+50**
 
 - [ ] the layout and design of the entire application are made in the same style +20
@@ -306,9 +315,11 @@ Example:
 - [ ] implemented the ability to edit the order +20
 
 ### Additional functionality **+50**
+
 - [ ] additional functionality not specified in the task has been implemented. The original idea, contribution to improving the quality of the application, usefulness, complexity and quality of implementation are evaluated: up to 50
 
 ### Penalties
+
 - [ ] repository requirements aren't met -50
 - [ ] the source code has lint errors -20
 - [ ] errors occur in the console while the application is running (http errors are not counted) -50

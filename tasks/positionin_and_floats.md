@@ -1,7 +1,6 @@
-| Deadline  | Folder name |
-|-----------|-------------|
+| Deadline         | Folder name          |
+| ---------------- | -------------------- |
 | 20.02.2017 23:59 | positions-and-floats |
-
 
 Despription
 
@@ -15,10 +14,8 @@ Despription
 6. Нельзя использовать препроцессоры, фреймворки и т.п. Только чистый HTML и CSS
 7. Для скругления элементов использовать полученные знания о CSS3
 8. 4 блока с CSS шутками - простые картинки
-9. !!! Не использовать flex  - только position и float 
+9. !!! Не использовать flex - только position и float
 10. Шрифт Myriad Pro либо https://fonts.google.com/specimen/PT+Sans
-
-
 
 Link to mockup
 https://dl.dropboxusercontent.com/u/65879610/float_position%20task.psd

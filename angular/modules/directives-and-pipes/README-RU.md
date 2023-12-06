@@ -27,6 +27,7 @@
 - Тренер: Natalia Loginova
 
 ## Дополнительные материалы
+
 - [Directive](https://angular.io/api/core/Directive)
 - [Attribute directives](https://angular.io/guide/attribute-directives)
 - [Writing structural directives](https://angular.io/guide/structural-directives)

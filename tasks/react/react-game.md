@@ -4,7 +4,7 @@
 | ---------------- | ---------- | ----------- |
 | 03.03.2021 23:59 | react-game | react-game  |
 
-В ходе выполнения задания вам необходимо создать игру с использованием библиотеки React. 
+В ходе выполнения задания вам необходимо создать игру с использованием библиотеки React.
 
 ## Тематика игры
 
@@ -15,27 +15,27 @@
 
 - разработка игры ведётся в личном приватном репозитории
 - название репозитория: `react-game`, название ветки, в которой ведётся разработка - `react-game`, ветка `main` пустая, содержит только README.md
-- в файл README.md нужно добавить инструкцию по запуску игры 
+- в файл README.md нужно добавить инструкцию по запуску игры
 - история коммитов должна отображать процесс разработки игры. [Требования к коммитам](https://docs.rs.school/#/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.  
-Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
+  Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request не нужно**
 - репозиторий, в котором велась работа над проектом, после наступления дедлайна нужно сделать публичным.
 
 ## Технические требования
 
 - работа игры проверяется в браузере Google Chrome последней версии
-- необходимо использовать React 
+- необходимо использовать React
 - можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://material.io/), css-фреймворки, html и css препроцессоры
 - разрешается использовать jQuery только в качесте подключаемой зависимости для UI библиотек. Использование jQuery в основном коде приложения не допускается
-- рекомендуется  использовать TypeScript 
+- рекомендуется использовать TypeScript
 - рекомендуется создать и использовать бекенд. Данная рекомендация связана с очень высоким спросом на фронтенд-разработчиков, знакомых хотя бы с основами node.js.
 - запрещено копировать код других студентов, демо, примеров, которые приводятся в задании. Этот запрет касается html, css, js кода. Можно использовать небольшие фрагменты кода со Stack Overflow, других самостоятельно найденных источников в интернете, за исключением github-репозиториев студентов курса. Возле использованного чужого фрагмента кода в комментарии указывается ссылка на источник.
 
 ## Как сабмитить задание
 
 - Задание сабмитится в rs app. Для этого зайдите в rs app https://app.rs.school/, выберите пункт Cross-Check: Submit, в выпадающем списке выберите название таска, в поле Solution URL добавьте ссылку на pull request, нажмите кнопку Submit. После сабмита задание можно продолжать выполнять до самого дедлайна.
-- Убедитесь, что pull request доступен для проверки. Для этого откройте ссылку, которую сабмитите в  rs app, в режиме инкогнито браузера.
+- Убедитесь, что pull request доступен для проверки. Для этого откройте ссылку, которую сабмитите в rs app, в режиме инкогнито браузера.
 - Если задание не засабмитить до дедлайна, оно не попадёт на распределение при кросс-чеке и за него не будут выставлены баллы.
 
 ## Требования к оформлению приложения
@@ -48,7 +48,7 @@
 
 **Максимальный балл за задание: 100 баллов**.
 
-В связи со свободным выбором темы создаваемой игры, проверяются и оцениваются только отдельные её элементы, указанные в критериях оценки. 
+В связи со свободным выбором темы создаваемой игры, проверяются и оцениваются только отдельные её элементы, указанные в критериях оценки.
 
 Для удобства проверки необходимо записать и разместить на YouTube небольшое (2-3 мин) видео для проверяющих с объяснением как реализован каждый пункт из перечисленных в критериях оценки. Ссылку на видео можно добавить в описание pull request или в footer приложения добавить [иконку YouTube](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg) со ссылкой на видео.
 
@@ -63,7 +63,7 @@
 - [ ] звуки и музыка. В игре есть звуки и музыка, и есть настройки звуков и музыки: возможность вкл/откл звуки, вкл/откл музыку, регулировать громкость звуков, регулировать громкость музыки +10
 - [ ] настройки игры. Есть не меньше трёх настроек разных опций игры, например, внешний вид игрового поля и фигур, сложность игры, определение порядка ходов. Речь не про настройки звуков и музыки, которые проверялись и оценивались в предыдущем пункте. Это должны быть настройки разных опций, а не три параметра одной опции, например, размера игрового поля +10
 - [ ] статистика. Пользователь информируется о состоянии игры, ведётся запись ходов, побед и поражений, времени игры, либо отображается другая статистика игры. Есть таблица рекордов, в которой сохраняются результаты предыдущих 10 игр +10
-- [ ] сохранение состояния игры при перезагрузке страницы. Сохраняются все опции игры: ходы, набранные очки, положение фигур и т д. Состояние игры сохраняется без необходимости кликать по кнопке save. Есть кнопка new game для запуска новой игры +10 
+- [ ] сохранение состояния игры при перезагрузке страницы. Сохраняются все опции игры: ходы, набранные очки, положение фигур и т д. Состояние игры сохраняется без необходимости кликать по кнопке save. Есть кнопка new game для запуска новой игры +10
 - [ ] возможность управления игрой с клавиатуры или не меньше пяти hot keys. Есть список горячих клавиш для управления игрой с клавиатуры +10
 
 ### Hacker scope +20
@@ -74,6 +74,7 @@
 ## Материалы
 
 ### Курсы по React
+
 - [Официальное руководство](https://ru.reactjs.org/)
 - [Уроки React JS от IT-KAMASUTRA](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
 - [Уроки React js для начинающих от Web Developer Blog](https://www.youtube.com/playlist?list=PLVfMKQXDAhGV90yI1FzsciwEi-11ILfAG)
@@ -84,6 +85,7 @@
 - Воркшоп по React от Glo Academy. Пишем свой Инстаграм [День 1](https://youtu.be/IJvTV-8FaPI), [День 2](https://youtu.be/zxtDR-SFDfI), [День 3](https://youtu.be/-eSOiFGL2f0)
 
 ### Курсы по Node.js
+
 - Теория
   - https://metanit.com/web/nodejs/
   - https://nodejs-guide.netlify.app/
@@ -95,18 +97,20 @@
   - [код примеров](https://github.com/NikitaRudy/nodejs-lecture)
 
 ### Примеры игр
-  - [Сапёр](https://reactjsexample.com/minesweeper-game-written-with-react/)
-  - [Змейка](https://reactjsexample.com/a-simple-snake-game-created-with-the-react/)
-  - [Камень-ножницы-бумага](https://reactjsexample.com/a-rock-paper-scissors-game-built-with-react-scss/)
-  - [Крестики-нолики](https://reactjsexample.com/unbeatable-tic-tac-toe-game-using-react/)
-  - [2048](https://reactjsexample.com/a-2048-game-build-with-react/)
-  - [Teddy game](https://reactjsexample.com/react-app-with-cartoon-animations-and-games-for-kids/)
-  - [Memory game](https://reactjsexample.com/a-simple-memory-game-with-react-js/)
-  - [Шашки](https://reactjsexample.com/checkers-game-ai-opponent-in-react/)
-  - [Шахматы](https://reactjsexample.com/mobile-first-chess-with-react-js/)
-  - [Судоку](https://reactjsexample.com/sudoku-game-written-using-react-js/)
-  - [Flappy Bird](https://flappybacon.netlify.app/)
+
+- [Сапёр](https://reactjsexample.com/minesweeper-game-written-with-react/)
+- [Змейка](https://reactjsexample.com/a-simple-snake-game-created-with-the-react/)
+- [Камень-ножницы-бумага](https://reactjsexample.com/a-rock-paper-scissors-game-built-with-react-scss/)
+- [Крестики-нолики](https://reactjsexample.com/unbeatable-tic-tac-toe-game-using-react/)
+- [2048](https://reactjsexample.com/a-2048-game-build-with-react/)
+- [Teddy game](https://reactjsexample.com/react-app-with-cartoon-animations-and-games-for-kids/)
+- [Memory game](https://reactjsexample.com/a-simple-memory-game-with-react-js/)
+- [Шашки](https://reactjsexample.com/checkers-game-ai-opponent-in-react/)
+- [Шахматы](https://reactjsexample.com/mobile-first-chess-with-react-js/)
+- [Судоку](https://reactjsexample.com/sudoku-game-written-using-react-js/)
+- [Flappy Bird](https://flappybacon.netlify.app/)
 
 ## Cross-check
+
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/M2J3zF2mXfvbSScP8](https://docs.google.com/forms/d/e/1FAIpQLSclryL395bH7V8t-7UriMrZsJSaoz5TQuWakQbwVPGJaBHvIQ/viewform?usp=sf_link)

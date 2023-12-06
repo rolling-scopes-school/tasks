@@ -2,7 +2,6 @@
 
 ## [RS School. Курс по Angular.](../../README-RU.md)
 
-
 ## В данном модуле студенты изучат
 
 - Понятие модулей, их практическое применение и их роль в приложениях..
@@ -12,25 +11,28 @@
 
 ## Приблизительное время прохождения модуля
 
-теория - 2 часа, 
+теория - 2 часа,
 практика - 2 часа.
 
 ## Теория
+
 - Лекции:
-    - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
-    - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
-    - [Angular 2021Q1. Modules, services, DI (part 1)](https://youtu.be/3l8kUDM1naQ)
-    - [Angular 2021Q1. Modules, services, DI (part 2)](https://youtu.be/LS6HfpoCPhQ)
+  - [Angular 2020Q1. Modules & Services](https://youtu.be/t4LuNI9HCMM)
+  - [Angular 2020Q3. Modules, services, DI](https://youtu.be/hTwLchuRz1Q)
+  - [Angular 2021Q1. Modules, services, DI (part 1)](https://youtu.be/3l8kUDM1naQ)
+  - [Angular 2021Q1. Modules, services, DI (part 2)](https://youtu.be/LS6HfpoCPhQ)
 - [Примеры из видео](https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-modules-services)
 - Слайды:
-    - [Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
-    - [Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
+  - [Angular 2020Q1. Modules & Services](https://slides.com/pavelrazuvalau/angular-modules-services)
+  - [Angular 2021Q1. Modules, services, DI](https://slides.com/dzianis_davydau/modules-services-di)
 
 ## Практическое задание
+
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
 - Тренер: Diana Kohut
 
 ## Дополнительные материалы
+
 - [RU: Документация](https://angular24.ru/)
 - [Add services](https://angular.io/tutorial/toh-pt4)
 - [Introduction to modules](https://angular.io/guide/architecture-modules)

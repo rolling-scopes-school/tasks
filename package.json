@@ -1,0 +1,23 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "ci:format": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/tasks.git"
+  },
+  "author": "dzmitry-varabei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/tasks/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/tasks#readme"
+}

@@ -1,6 +1,8 @@
-# [Stage#1](../../) JavaScript basics
+# [Stage#1](../../) JavaScript Basics
 
-## What should be done:
+## Module Overview
+
+This foundational module is crafted to solidify the participants' understanding of core JavaScript concepts. By reinforcing their knowledge of the language's building blocks, students will be equipped with the skills necessary to tackle more complex programming challenges and frameworks.
 
 Strengthen JavaScript knowledge:
 
@@ -13,27 +15,28 @@ Strengthen JavaScript knowledge:
 - Functions
 - Comments
 
-## Approximate learning time
+## Estimated Learning Time
 
-4 hours
+- **4 hours**
 
 ## Theory
 
-- Learn next submodules:
-  - [Variables](./variables.md)
-  - [Data types](./data-types.md)
-  - [Type conversion](./type-conversion.md)
-  - [Basic operators and mathematics](./basic-operators.md)
-  - [Conditional and logical operators](./logical-operators.md)
-  - [Loops](./loops.md)
-  - [Functions](./functions.md)
-  - [Comments](./comments.md)
+Participants are to study the following submodules:
+
+- [Variables](./variables.md)
+- [Data Types](./data-types.md)
+- [Type Conversion](./type-conversion.md)
+- [Basic Operators and Mathematics](./basic-operators.md)
+- [Conditional and Logical Operators](./logical-operators.md)
+- [Loops](./loops.md)
+- [Functions](./functions.md)
+- [Comments](./comments.md)
 
 ## Practice
 
-1. You need to pass the test "[St1] JS Basics" at the RS APP > Auto Test
-2. Practice new knowledge on [the JSchallenger](https://www.jschallenger.com/javascript-practice/javascript-fundamentals) interactive app
+1. Successfully complete the "[St1] JS Basics" test located in RS APP > Auto Test.
+2. Apply and challenge your new knowledge on interactive exercises via [JS Challenger](https://www.jschallenger.com/javascript-practice/javascript-fundamentals).
 
-## Additional sources
+## Additional Sources
 
-- All JavaScript basics in [one handbook](https://exploringjs.com/impatient-js/toc.html)
+- Access a comprehensive overview of JavaScript fundamentals in [one concise handbook](https://exploringjs.com/impatient-js/toc.html).
