@@ -3,7 +3,7 @@
 **Score:** 55
 
 User can change and save his name. Application **should not** perform _get_ http-request `/profile`
-again to retrieve saved data, if _put_ http-request succeed the data from the form is used on
+again to retrieve saved data, if _put_ http-request succeed the data from the form is applied to
 Profile page instantly.
 
 ### Visualization

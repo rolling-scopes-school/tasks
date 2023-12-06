@@ -86,7 +86,7 @@ _status code_ **400**
 
 ### Profit
 
-- `user id`, `email`, `creation time`, `user name` data of current user is displayed 
+- `user id`, `email`, `creation time`, `user name` data of current user is displayed
   on the page: **30 points**
 - error message with appropriate text are displayed on the page if loading http-request fails
   (for instance, if internet connection is lost): **10 points**
