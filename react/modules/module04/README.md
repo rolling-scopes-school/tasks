@@ -12,7 +12,6 @@ Task should be based on the previous task.
 3. Connect Components. Connect the relevant components to the Redux store. Components should be able to access and modify the following data:
    - Save search value on CTA (Call to Action) button click.
    - Save items per page.
-   - Save view mode value.
    - RTK Query Implementation: Use Redux Toolkit Query (RTK Query) to make API calls and cache the results. This will modify your previous API call implementation.
 4. Loading Flags
    - Implement separate loading flags in the Redux store for the main page and details page. These flags should indicate whether data is being loaded.
@@ -56,13 +55,12 @@ Run app and check that the functionality is working (cross-check)
 
 ##### Student can get 100 points:
 
-- Redux is integrated to the app with the help of Redux Toolkit - **25 points**
+- Redux is integrated to the app with the help of Redux Toolkit - **30 points**
 - Search is saved in the store - **5 points**
 - Items per page is saved in the store - **5 points**
-- View mode is saved in the store - **10 points**
 - Loading indicators are shown, loading flags are saved in the store, - **10 points**
 - When either search or items per page is changed, application makes a new call using RTK Query to fetch the data - **25 points**
-- Tests had been modified to test the functionality using Redux and RTK Query - **20 points**
+- Tests had been modified to test the functionality using Redux and RTK Query - **25 points**
 
 ##### Penalties:
 

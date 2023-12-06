@@ -28,7 +28,7 @@ This task shouldn't be based on the previous 5 modules.
    - Main, should have links to other 2 routes
    - Route for the form created using uncontrolled components approach
    - Route for the similar form, but created with the help of the **React Hook Form**
-7. Redux. Use redux to store the data provided by both apprioaches on the Main route. You can use tiles to display data taken from each form.
+7. Redux. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
 8. Forms
    Both forms will collect the same data:
    - name (validate for first uppercased letter)
@@ -38,19 +38,19 @@ This task shouldn't be based on the previous 5 modules.
    - gender (you can use radio buttons or select control)
    - accept T&C (checkbox)
    - input control to upload picture (validate size and extension, allow png jpeg, save in redux store as base64)
-   - autocomplete control to select country (all countries shoudl be stored in the Redux store)
-     Form should contain labels, which should be connected with inouts (look at **htmlFor**)
+   - autocomplete control to select country (all countries should be stored in the Redux store)
+     Form should contain labels, which should be connected with inputs (look at **htmlFor**)
 9. Validation
-   Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the eroros are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+   Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
    - Uncontrolled components should implement validation on submit
    - Approach with **React Hook Form** should implement live validation
 10. After submitting the form
-    On successful form submission redirect user to the main route with all the previulsy entered data. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
+    On successful form submission redirect user to the main route with all the previously entered data. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
 
 ### Questions
 
 You should be using Discord as the main mean of the communication.
-Also, we will try to collect your questions regarding the 6th Module using special form, which will be provided via the Discord with the 6th Module start. Questions will be collected in Module 06 section of the same spreadsheet. Please, check answers carefully before posting the question, may be your question has been answered already.
+Also, we will try to collect your questions regarding the 6th Module using special form, which will be provided via the Discord with the 6th Module start. Questions will be collected in Module 06 section of the same spreadsheet.
 We will try to conduct a session for each module providing answers for some questions.
 
 Please **check the answers carefully before posting** a question, as your question might have already been answered. We will strive to hold a session for each module, providing answers to some of the questions.
@@ -64,8 +64,7 @@ The task will be checked during cross-check and cross-code-review.
 1. Clone the repository you are going to review
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
-4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
-5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
+4. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
 
 When reviewing the code try pay attention at the following principles:
 
@@ -87,11 +86,11 @@ Run app and check that the functionality is working (cross-check)
 
 - 3 routes (main and 2 routes for forms), Redux is set up and used to collect data from both forms, redirect to main route after submitting the form - **15 points**
 - Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** is used for validation (10 points if works only for one form) - **20 points**
-- Name, age, email, gender picker, accpet T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **20 points**
+- Name, age, email, gender picker, accept T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **20 points**
 - Input for image is implemented for both forms, image is saved as base64 and dispaly on the main route after redirect - **15 points**
-- Passwords (with password strength) are iplemeneted for both forms - **15 points**
+- Passwords (with password strength) are implemented for both forms - **15 points**
 - Autocomplete works for both forms - **15 points**
-  **Max points should be assigned in case if the requireemnt have been implemented for both forms, if something doesn;t work, score should be less**
+  **Max points should be assigned in case if the requirement has been implemented for both forms, if something doesn't work, score should be less**
 
 ##### Penalties:
 
