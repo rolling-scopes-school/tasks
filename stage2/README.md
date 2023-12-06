@@ -50,7 +50,7 @@
 ### 06/06/2023
 
 - [Module: Code review]()
-- [Module: Spa]()
+- [Module: SPA]()
 - [Interview with mentor](modules/technical-screening/)
 
 ```
