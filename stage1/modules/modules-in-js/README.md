@@ -1,6 +1,6 @@
 # [Stage#1](../../) Modules in JavaScript
 
-## In this module students should learn:
+## In this module, students need to study:
 
 - What is module / module pattern? For what purposes they were created?
 - Modules types (AMD, ES6, CommonJS, UMD, IIFE)
@@ -8,7 +8,7 @@
 - Common modules features (export default, named exports, exports as, etc)
 - Dynamic imports
 
-## Duration:
+## Estimated Learning Time:
 
 Approximately 2-3 hours.
 
@@ -22,7 +22,7 @@ Approximately 2-3 hours.
 
 1. Students should take the "[St1] Modules in JavaScript" test in RS APP > Auto Test.
 
-## Additional sources
+## Additional Sources
 
 1. [Brief history of JavaScript Modules](https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde)
 2. [Detailed description of each JS module type](https://dev.to/ndesmic/an-overview-of-javascript-modules-dfg)
