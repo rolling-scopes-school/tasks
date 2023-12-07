@@ -144,7 +144,7 @@ where, `:groupID` is unique group identifier;
 Page where user can send message to all participants.
 
 _`/conversation/{:conversationID}` (person dialog)_  
-where, `:conversationID` is unique user identifier to speak with;  
+where, `:conversationID` is unique room identifier with interlocutor; 
 Page where user can write personal messages directly.
 
 ## Declarations
