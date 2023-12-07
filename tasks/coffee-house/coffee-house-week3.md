@@ -39,7 +39,7 @@ In this part of the task, you need to add the following functionality to the web
 ### CrossCheck Criteria (90 points)
 
 1. Implementation of the burger menu on both pages: **+22**
-   - At a page width of 768px or less, the navigation panel hides, and the burger icon appears: **+2**
+   - At a page width of 768px or more, the navigation panel hides, and the burger icon appears: **+2**
    - When clicking the burger icon, the burger menu slides out from the right, and the burger icon smoothly transforms into a cross: **+4**
    - The burger menu occupies the entire available screen area below the `<header>` block: **+2**
    - When clicking the cross, the burger menu smoothly hides, moving to the right of the screen, and the cross smoothly transforms into a burger icon: **+4**
