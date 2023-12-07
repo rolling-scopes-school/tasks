@@ -16,26 +16,26 @@
 
 ### 23/05/2023
 
-- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
 - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
+- [Module: TypeScript: Basic](modules/typescript-basic/)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
-- https://github.com/mikhama/core-js-101
+- [Interview with mentor](modules/technical-screening/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](-(https://docs.rs.school/#/mentoring-kick-off)
+- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
+- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+- [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
 </details>
 
 ## Week #2.
 
 ### 30/05/2023
 
-- [Module: TypeScript: Basic](modules/typescript-basic/)
+- [Project on migration of JS project to TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- [Module: Typescript: Advanced](modules/typescript-advanced/)
 - [Interview with mentor](modules/technical-screening/)
-- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -49,10 +49,9 @@
 
 ### 06/06/2023
 
-- [Project on migration of JS project to TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Module: Typescript: Advanced](modules/typescript-advanced/)
+- [Module: Code review]()
+- [Module: SPA]()
 - [Interview with mentor](modules/technical-screening/)
-- https://github.com/mikhama/core-js-101
 
 ```
 At the end of this week, all students will be required to use typescript and adhere to the following rules when completing all subsequent tasks:
@@ -83,7 +82,6 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: Web Storage](modules/web-storage/)
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -106,7 +104,6 @@ At the end of this week, all students will be required to use typescript and adh
 - [Testing](modules/testing/)
 - [Module: "Functional Programming Basics"](modules/fp-basics/)
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -123,7 +120,6 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Module: Async programming](modules/async/)
-- https://github.com/mikhama/core-js-101
 
 <details>
   <summary markdown="span">Mentor activities</summary>

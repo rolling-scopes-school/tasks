@@ -233,9 +233,23 @@
 
 #### January 30, 2024
 
-- [Project "Self-introduction"](modules/self-introduction/)
-- Preparation for mentor interview
 - [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
+
+### Week #12
+
+#### February 6, 2024
+
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
+- [Project "Self-introduction"](modules/self-introduction/)
+- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
+- Preparation for mentor interview
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
+
+- [Confirming course registration](-(https://docs.rs.school/#/mentoring-kick-off)
+</details>
 
 ## ❓ FAQ
 
