@@ -1,8 +1,8 @@
 ---
 name: Educational Content Development and Enhancement Issue Template
 about: Template for proposing new educational content, tasks, or enhancing existing materials.
-title: '[Course Name]: Title of the Proposal'
-assignees: '@valerydluski'
+title: "[Course Name]: Title of the Proposal"
+assignees: "@valerydluski"
 ---
 
 ## Title
