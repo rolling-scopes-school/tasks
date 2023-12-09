@@ -134,10 +134,10 @@ Run app and check that the functionality is working (cross-check)
 - Inside Fiber: [in-depth overview of the new reconciliation algorithm in React](https://angularindepth.com/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react)
 - A Visual Guide to React Rendering - [It Always Re-renders](https://alexsidorenko.com/blog/react-render-always-rerenders/)
 - A (Mostly) [Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
+
 ##### Styles
 
 - Install [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
 - A Thorough [Analysis of CSS-in-JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)
 - Documentation [styled-components](https://styled-components.com/docs), aloud in the final task
 - [The styled-components Happy Path](https://www.joshwcomeau.com/css/styled-components/)
-

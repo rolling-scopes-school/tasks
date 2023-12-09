@@ -85,7 +85,7 @@ Run app and check that the functionality is working (cross-check)
 
 ### Theory
 
-#### Official docs 
+#### Official docs
 
 - Redux Toolkit Docs - [Start with configureStore](https://redux-toolkit.js.org/api/configureStore)
 - RTK Query - [Overview](https://redux-toolkit.js.org/rtk-query/overview)
