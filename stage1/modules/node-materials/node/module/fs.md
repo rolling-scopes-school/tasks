@@ -41,7 +41,7 @@ fs.writeFile(
   (err) => {
     if (err) throw err;
     console.log("File was created");
-  },
+  }
 );
 ```
 
@@ -57,7 +57,7 @@ fs.appendFile(
   (err) => {
     if (err) throw err;
     console.log("File was modified");
-  },
+  }
 );
 ```
 
@@ -73,7 +73,7 @@ fs.readFile(
   (err, data) => {
     if (err) throw err;
     console.log(data);
-  },
+  }
 );
 ```
 
@@ -89,7 +89,7 @@ fs.rename(
   (err) => {
     if (err) throw err;
     console.log("File renamed");
-  },
+  }
 );
 ```
 

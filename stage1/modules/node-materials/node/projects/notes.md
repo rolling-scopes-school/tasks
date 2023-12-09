@@ -112,11 +112,11 @@ function list() {
 }
 ```
 
-Since the `notes.json` file is in the same directory as the code file, there is no need to specify the path; it's enough to provide its name as the first argument to the `readFile()` method. The second argument of the method is a callback function that takes two parameters - an error (`error`) and the data read from the file (`data`).
+Since the `notes.json` file is located in the same directory as the code file, there's no need to specify its full path. It's enough to provide its name as the first argument to the `readFile()` method. The second argument of this method is a callback function, which accepts two parameters: an `error` for any encountered errors, and the `data` read from the file.
 
 Converting the received data into an array is done using the `JSON.parse(data)` method. We iterate through this array using the `forEach()` method and, for each element, print its index and the title of the note to the console, creating a numbered list. To start the list from one instead of zero, we add 1 to the index.
 
-6. Write the `view()` function, which outputs the content of a note by its title
+6. Implement the `view()` function, which displays the content of a note based on its title.
 
 The function is similar to the `list()` function. It reads the document, converts the received data into an array, and then uses the `find()` method to find the note whose title matches the one specified when calling the function. If there is no such note, it prints a message that the note is not found; otherwise, it prints its content:
 
@@ -136,7 +136,7 @@ function view(title) {
 }
 ```
 
-7. Write the `remove()` function, which deletes a note by its title
+7. Implement the `remove()` function, which deletes a note by its title.
 
 Just like in the previous functions, we read the file, convert the received data into an array, then use the `filter()` method to filter the data, leaving only those whose titles do not match the passed title. After that, we convert the array to JSON and write it to the file:
 

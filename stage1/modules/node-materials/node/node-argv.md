@@ -117,7 +117,8 @@ if (productionMode) {
 
 ### Task
 
-Write a program that prompts the user to enter two numbers, adds these numbers if launched with the `-s` flag, or multiplies them if launched with the `-m` flag, and then terminates. Use standard input/output for input and output. Here is an example of how it should work (user input starts with `>`):
+Develop a program that prompts the user to enter two numbers. It should add these numbers if executed with the `-s ` flag, or multiply them if executed with the `-m` flag. After performing the operation, the program should then terminate.  
+Employ standard input/output streams for data input and output. Below is an example of how it should work (user input starts with `>`):
 
 ```bash
 > node test.js -m
@@ -150,7 +151,7 @@ stdin.on("data", (data) => {
   const numStringsArray = numString.split(" ");
   const hasIncorrectLength = numStringsArray.length !== 2;
   const hasIncorrectValues = numStringsArray.some((numStr) =>
-    Number.isNaN(+numStr),
+    Number.isNaN(+numStr)
   );
   if (hasIncorrectLength || hasIncorrectValues) {
     stdout.write("You need to enter 2 numbers separated by a space");

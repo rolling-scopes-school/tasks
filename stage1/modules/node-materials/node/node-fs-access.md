@@ -28,7 +28,7 @@ _To repeat the last entered command in the terminal, just press the "↑" key on
 
 ### Task
 
-Write a program that returns the path to the folder if it is launched with the `-d` flag, or the path to the file if it is launched with the `-f` flag. If the file is launched without a flag or with a flag other than those specified in the task, a suggestion to run the program with the `-d` or `-f` flag is displayed.
+Develop a program that returns the path to the folder if it is launched with the `-d` flag, or the path to the file if it is launched with the `-f` flag. If the file is launched without a flag or with a flag other than those specified in the task, a suggestion to run the program with the `-d` or `-f` flag is displayed.
 
 <details>
   <summary>Example Solution</summary>
