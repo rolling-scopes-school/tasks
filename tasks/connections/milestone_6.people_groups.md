@@ -29,6 +29,10 @@ User can update the list no more than once a minute! Countdown must be present n
 button till the next update is possible. If time is out countdown disappears.
 This state should be preserved even after transition to other pages and back.
 
+> [!NOTE]
+> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
+> First visit on the page should not have any effect on timer.
+
 **_Create_ button**  
 _Create_ button opens modal window with a reactive form where user can enter `name`. Using
 endpoint (below) application creates new group and append it into the list **without** retrieving
@@ -54,7 +58,7 @@ _rough example of group list_:
 `|` Someone's Group name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `---------------------------------`  
 `|` My Group
-name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10006; `|`  
+name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10006; `|`  
 `---------------------------------`  
 `|` Someone's Group name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `---------------------------------`
@@ -309,7 +313,11 @@ _Update_ button refreshes the people list by sending http-request and renders ob
 
 User can update the list no more than once a minute! Countdown must be present near the _Update_
 button till the next update is possible. If time is out countdown disappears.
-This state should be preserved even after transition to other pages and countdown
+This state should be preserved even after transition to other pages and back.
+
+> [!NOTE]
+> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
+> First visit on the page should not have any effect on timer.
 
 **List of people**  
 Simple list with **clickable items as a link** of all members. If user has the conversation with
@@ -319,9 +327,9 @@ created earlier, its list item should have different background light color.
 Clicking on item user is redirected to dedicated page with
 routing `/conversation/{:conversationID}`.
 
-> [!WARNING] Technically application should create
-> conversation via special http-request (below) before user is redirected to the dialog page if
-> there is no
+> [!WARNING]
+> Technically application should create conversation via special http-request (below) before user is
+> redirected to the dialog page if there is no
 > already created conversation with unique id. If any errors occur during conversation creation user
 > have to see [toast](./README.md#toast) danger message and redirection is canceled.
 
@@ -331,7 +339,7 @@ _rough example of people list_:
 Sofía&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `-----------------------`  
 `|`
-Nicolás&nbsp;&nbsp;`********`&nbsp; `|`  
+Nicolás&nbsp;&nbsp;`*********`&nbsp; `|`  
 `-----------------------`  
 `|`
 Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
