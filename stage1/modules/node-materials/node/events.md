@@ -1,47 +1,47 @@
-## Модуль events
+## Events
 
 [HOME](../README.md)
 
-Модуль `Events` предназначен для работы с событиями.
+The `Events` module is designed to work with events.
 
-С событиями мы уже сталкивались раньше, когда читали файл
+We have already encountered events earlier when reading a file:
 
 ```js
 const { stdin, stdout } = process;
 stdin.on("data", (data) => stdout.write(data));
 ```
 
-и когда выводили сообщение при завершении работы программы
+and when displaying a message upon the program's completion:
 
 ```js
 const { stdout } = process;
-process.on("exit", () => stdout.write("Удачи в изучении Node.js!"));
+process.on("exit", () => stdout.write("Good luck learning Node.js!"));
 ```
 
-Модуль `Events` позволяет создавать и генерировать свои собственные события.
+The `Events` module allows you to create and generate your own events.
 
-Импортируем класс `EventEmitter` из модуля `events`
+Let's import the `EventEmitter` class from the `events` module:
 
 ```js
 const EventEmitter = require("events");
 ```
 
-Создадим экземпляр `EventEmitter` — объект `emitter`
+Now, let's create an instance of `EventEmitter` called `emitter`:
 
 ```js
 const EventEmitter = require("events");
 const emitter = new EventEmitter();
 ```
 
-У него есть два полезных метода:
+It has two useful methods:
 
-- `emit(<event>)` - генерирует событие `event`, заставляя срабатывать обработчики этого события у подписчиков
-- `on(<event>, <handler>)` - подписка на события (выполнение функции `handler` действий при наступлении события `event`
+- `emit(<event>)` - generates the event, causing the event handlers for this event to be triggered for subscribers
+- `on(<event>, <handler>)` - subscribes to events (executes the `handler` function when the `event` occurs)
 
-У метода `on(<event>, <handler>)` два аргумента:
+The `on(<event>, <handler>)` method has two arguments:
 
-- `event` - название события.
-- `handler` - обработчик события (функция, которая сработает, когда событие произойдёт)
+- `event` - the name of the event
+- `handler` - the event handler (the function that will run when the event occurs)
 
 ```js
 const EventEmitter = require("events");
@@ -50,8 +50,7 @@ const emitter = new EventEmitter();
 emitter.on("start", () => console.log("Start"));
 ```
 
-Мы подписались на событие `'start'` для объекта `emitter`. Теперь нам нужно сгенерировать это событие, чтобы сработал его обработчик
-Для этого вызываем метод `emit()`, аргументом которого указываем название события
+We subscribed to the `start` event for the `emitter` object. Now we need to generate this event to trigger its handler. To do this, we call the `emit()` method, specifying the event name as an argument:
 
 ```js
 const EventEmitter = require("events");
@@ -62,10 +61,9 @@ emitter.on("start", () => console.log("Start"));
 emitter.emit("start");
 ```
 
-Запускаем файл с кодом, в консоли видим надпись 'Start'.
-Самостоятельно созданное событие работает.
+When we run the code file, we see the 'Start' message in the console. The custom event works.
 
-При вызове события в методе `emit()` можно передать какое-то дополнительное значение (`payload`). Это значение будет передано в качестве аргумента в функцию-обработчик
+When calling the `emit()` method for an event, you can pass some additional value (`payload`). This value will be passed as an argument to the handler function:
 
 ```js
 const EventEmitter = require("events");
@@ -76,7 +74,7 @@ emitter.on("start", (message) => console.log(message));
 emitter.emit("start", "Start message");
 ```
 
-Таких значение можно передать несколько
+You can pass multiple values as well:
 
 ```js
 const EventEmitter = require("events");
@@ -87,7 +85,7 @@ emitter.on("start", (first, second) => console.log(`${first} and ${second}`));
 emitter.emit("start", 1, 2); // 1 and 2
 ```
 
-При подписке на событие его обработчик ставится в очередь обработчиков. Одному и тому же событию можно назначить несколько обработчиков (по умолчанию **не больше 10**, но это не жесткий лимит). Обработчики срабатывают в том порядке, в котором они были назначены:
+When subscribing to an event, its handler is added to the handler queue. Multiple handlers (by default, **no more than 10**, but this is not a strict limit) can be assigned to the same event. Handlers are triggered in the order they were assigned:
 
 ```js
 const EventEmitter = require("events");
@@ -99,10 +97,10 @@ const handler2 = () => console.log(2);
 emitter.on("start", handler1);
 emitter.on("start", handler2);
 
-emitter.emit("start"); // выводит 1, затем 2
+emitter.emit("start"); // outputs 1, then 2
 ```
 
-Поставить назначенный позже обработчик в начало очереди нам поможет метод `prependListener`
+To place a handler assigned later at the beginning of the queue, the `prependListener` method is used:
 
 ```js
 const EventEmitter = require("events");
@@ -116,12 +114,12 @@ const handler4 = () => console.log(4);
 emitter.on("start", handler1);
 emitter.on("start", handler2);
 emitter.on("start", handler3);
-emitter.prependListener("start", handler4); // назначет позже, сработает раньше
+emitter.prependListener("start", handler4); // assigned later, triggered earlier
 
-emitter.emit("start"); // выведет цифры в следующем порядке: 4 => 1 => 2 => 3
+emitter.emit("start"); // outputs numbers in the following order: 4 => 1 => 2 => 3
 ```
 
-Один и тот же обработчик может быть назначен несколько раз:
+The same handler can be assigned multiple times:
 
 ```js
 const EventEmitter = require("events");
@@ -133,10 +131,10 @@ emitter.on("start", handler);
 emitter.on("start", handler);
 emitter.on("start", handler);
 
-emitter.emit("start"); // выводит 1 трижды
+emitter.emit("start"); // outputs 1 three times
 ```
 
-Обработчик срабатывает на каждую генерацию события:
+The handler is triggered for each event generation:
 
 ```js
 const EventEmitter = require("events");
@@ -149,7 +147,7 @@ emitter.emit("start", "from"); // from
 emitter.emit("start", "Node.js"); // Node.js
 ```
 
-Если необходимо, чтобы обработчик срабатывал только один раз, для подписки используем метод `once()`
+If you want the handler to be triggered only once, use the `once()` method for subscription:
 
 ```js
 const EventEmitter = require("events");
@@ -157,12 +155,12 @@ const emitter = new EventEmitter();
 
 emitter.once("start", (message) => console.log(message));
 
-emitter.emit("start", "Hello"); // сработает только для этого вызова
+emitter.emit("start", "Hello"); // works only for this call
 emitter.emit("start", "from");
 emitter.emit("start", "Node.js");
 ```
 
-Удалить из очереди одну функцию-обработчик определенного события позволяет метод экземпляра `EventEmitter` `off()` (или его алиас `removeListener`)
+To remove a specific event handler function from the queue, the `off()` method of the `EventEmitter` instance (or its alias `removeListener`) is used:
 
 ```js
 const EventEmitter = require("events");
@@ -174,13 +172,13 @@ emitter.on("start", handler);
 
 emitter.emit("start", "Hello"); // Hello
 
-emitter.off("start", handler); // дальнейшие события не будут обработаны
+emitter.off("start", handler); // further events will not be handled
 
 emitter.emit("start", "from");
 emitter.emit("start", "Node.js");
 ```
 
-Иногда мы хотим, чтобы наш собственный класс имел API `EventEmitter`:
+Sometimes, we want our custom class to have the `EventEmitter` API:
 
 ```js
 const EventEmitter = require("events");
@@ -204,4 +202,4 @@ user.on("greetings", user.sayHi);
 user.emit("greetings"); // Hi! My name is Vasya
 ```
 
-Заметили странность? Как правило, в случае передачи метода объекта для использования в качестве обработчика происходит потеря контекста. Но не в этом случае, так как `this` внутри функции-обработчика ссылается на экземпляр `EventEmitter` (в нашем случае объект `user`).
+Notice anything strange? Usually, when passing an object's method for use as an event handler, the context is lost. But not in this case because `this` inside the event handler function refers to the `EventEmitter` instance (in our case, the `user` object).

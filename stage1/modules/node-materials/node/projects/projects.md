@@ -1,9 +1,9 @@
-## Проекты
+## Projects
 
 [HOME](../../README.md)
 
 ![](../images/projects.png)
 
-- [Приложение для заметок](notes.md)
-- [Приложение Таймер](timer.md)
-- [Приложение Github](github-app.md)
+- [Notes App](notes.md)
+- [Timer App](timer.md)
+- [Github App](github-app.md)
