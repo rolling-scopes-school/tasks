@@ -258,8 +258,8 @@ function getRepos(username, done) {
     } else {
       done(
         new Error(
-          `Error working with the server ${res.statusCode} ${res.statusMessage}`
-        )
+          `Error working with the server ${res.statusCode} ${res.statusMessage}`,
+        ),
       );
     }
   });

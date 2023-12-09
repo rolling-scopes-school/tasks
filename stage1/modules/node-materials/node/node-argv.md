@@ -151,7 +151,7 @@ stdin.on("data", (data) => {
   const numStringsArray = numString.split(" ");
   const hasIncorrectLength = numStringsArray.length !== 2;
   const hasIncorrectValues = numStringsArray.some((numStr) =>
-    Number.isNaN(+numStr)
+    Number.isNaN(+numStr),
   );
   if (hasIncorrectLength || hasIncorrectValues) {
     stdout.write("You need to enter 2 numbers separated by a space");
