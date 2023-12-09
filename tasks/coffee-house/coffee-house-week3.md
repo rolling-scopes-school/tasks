@@ -31,7 +31,7 @@ In this part of the task, you need to add the following functionality to the web
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
 7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, you can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.  
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the second part of the task.  
+8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the third part of the task.  
    It is not required to merge this Pull Request.
 9. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
 10. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
