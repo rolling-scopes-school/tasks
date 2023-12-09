@@ -85,8 +85,19 @@ Run app and check that the functionality is working (cross-check)
 
 ### Theory
 
+#### Official docs 
+
 - Redux Toolkit Docs - [Start with configureStore](https://redux-toolkit.js.org/api/configureStore)
 - RTK Query - [Overview](https://redux-toolkit.js.org/rtk-query/overview)
 - [Redux - Writing tests](https://redux.js.org/usage/writing-tests)
+
+#### Useful Resources
+
 - [How to test RTK Query with react testing library](https://dev.to/ifeanyichima/-testing-components-with-a-request-for-rtk-query-using-msw-and-react-testing-library-5a8n)
-- React Testing Library - [Mock API Calls - Mock Service Worker](https://www.youtube.com/watch?v=oMv2eAGWtZU)
+- Software Design, Architecture & Best Practices - [Tao of React](https://alexkondov.com/tao-of-react/)
+- Why React Context is Not a "State Management" Tool and [Why It Doesn't Replace Redux](https://blog.isquaredsoftware.com/2021/01/context-redux-differences/)
+- [The new wave of React state management](https://frontendmastery.com/posts/the-new-wave-of-react-state-management/)
+
+#### Video tutorials
+
+- React Testing Library - [Mock API Calls - Mock Service Worker 📺](https://www.youtube.com/watch?v=oMv2eAGWtZU)

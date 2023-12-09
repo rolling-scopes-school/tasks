@@ -97,10 +97,22 @@ A student can achieve a maximum of 100 points.
 
 ### Theory:
 
+- [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
+
+#### React Router
+
 - React Router: https://reactrouter.com/
 - React Router 6 video tutorials
-  - [React Router 6 Tutorial](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
-  - [Build a Budgeting App with React Router](https://www.youtube.com/watch?v=VpzeeBeVWeg&list=PL4cUxeGkcC9iNnY07bh_UPaRIQZcJfARY)
+  - [React Router 6 Tutorial 📺](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
+  - [Build a Budgeting App with React Router 📺](https://www.youtube.com/watch?v=VpzeeBeVWeg&list=PL4cUxeGkcC9iNnY07bh_UPaRIQZcJfARY)
 - Examples https://github.com/remix-run/react-router/tree/dev/examples
+
+#### React Hooks
+
+- Making [setInterval Declarative with React Hooks](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+- A Complete [Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+- useEffect [sometimes fires before paint](https://blog.thoughtspile.tech/2021/11/15/unintentional-layout-effect/)
+- You Might [Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)
+- A [Visual Guide to React Rendering - useMemo](https://alexsidorenko.com/blog/react-render-usememo/)
 
 Good luck with the assignment! If you have any further questions, feel free to ask.

@@ -2,7 +2,7 @@
 
 ## React. Forms
 
-This task shouldn't be based on the previous 5 modules.
+This task **shouldn't** be based on the previous 5 modules.
 
 ### What should be done:
 
@@ -120,3 +120,24 @@ Run app and check that the functionality is working (cross-check)
 - [Using Yup with React Hook Form. 1](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98)
 - [Using Yup with React Hook Form. 2](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57)
 - [Yup](https://github.com/jquense/yup)
+- [Picking the right React component pattern](https://www.benmvp.com/blog/picking-right-react-component-pattern/)
+- [Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
+
+#### General knowledge before the final task
+
+- [React Libraries for 2023](https://www.robinwieruch.de/react-libraries/)
+- library of general-purpose [React hooks](https://github.com/react-hookz/web)
+- So you think you know [everything about React refs](https://blog.thoughtspile.tech/2021/05/17/everything-about-react-refs/)
+- The React and React Native Event System Explained: [A Harmonious Coexistence](https://levelup.gitconnected.com/how-exactly-does-react-handles-events-71e8b5e359f2)
+- [What Is React Fiber? 📺](https://www.youtube.com/watch?v=0ympFIwQFJw)
+- [A Cartoon Intro to Fiber 📺](https://www.youtube.com/watch?v=ZCuYPiUIONs) - React Conf 2017
+- Inside Fiber: [in-depth overview of the new reconciliation algorithm in React](https://angularindepth.com/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react)
+- A Visual Guide to React Rendering - [It Always Re-renders](https://alexsidorenko.com/blog/react-render-always-rerenders/)
+- A (Mostly) [Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
+##### Styles
+
+- Install [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
+- A Thorough [Analysis of CSS-in-JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)
+- Documentation [styled-components](https://styled-components.com/docs), aloud in the final task
+- [The styled-components Happy Path](https://www.joshwcomeau.com/css/styled-components/)
+
