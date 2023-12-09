@@ -622,3 +622,5 @@ _status code_ **400**
   browser page is reloaded): **-25 points**
 - list of people is loaded automatically after successful created new conversation or
   deleted it: **-25 points**
+- http-request to `/conversations/list` is sent every time clicking on _Update_
+  button: **-20 points**

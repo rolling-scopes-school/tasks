@@ -349,3 +349,9 @@ _status code_ **400**
   has text: **5 points**
 - new messages are loaded (using `since` parameter) after successful sending
   new message: **15 points**
+
+### Fines
+
+- _Delete_ button is not present on the page hard page reloading(refresh): **-15 points**
+- while user is on this conversation page, he reloads the page and navigates to the main page.
+  Http-request to `/conversations/list` or `/users` is sent more than once: **-25 points**
