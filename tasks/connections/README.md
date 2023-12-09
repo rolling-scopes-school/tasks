@@ -97,6 +97,11 @@ Total score: **800 points**
 
 Each milestone has relative score. Each milestone has number of points for successful result.
 
+> [!WARNING]
+> All functionality and all requirements should be met even if user reload(refresh) any page in any
+> time!  
+> During the cross-check session you can try to refresh any page and validate requirements again.
+
 But in case if some common violation is present the project is losing **additional** points:
 
 #### During Cross-Check
@@ -144,7 +149,7 @@ where, `:groupID` is unique group identifier;
 Page where user can send message to all participants.
 
 _`/conversation/{:conversationID}` (person dialog)_  
-where, `:conversationID` is unique room identifier with interlocutor; 
+where, `:conversationID` is unique room identifier with interlocutor;
 Page where user can write personal messages directly.
 
 ## Declarations
