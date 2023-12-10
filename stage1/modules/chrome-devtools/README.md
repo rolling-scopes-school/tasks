@@ -1,50 +1,60 @@
-# [Stage#1.](../../) Chrome DevTools
+# [Stage#1.](../../) Chrome DevTools 🛠️
 
-## Module Overview
+## Module Overview 📚
 
-In the "Chrome DevTools" module, students explore the comprehensive toolset for web development and debugging. Students navigate the Elements tab for real-time HTML and CSS tweaks, while the Console tab sharpens logging and debugging expertise. With the Sources tab, they explore application structure and code analysis, and the Network tab illuminates the understanding of network requests. Wrapping up with the Application tab, students delve into manipulating local storage, cookies, and an optional peek into session storage.
+The "Chrome DevTools" module offers an in-depth exploration of Chrome's integrated development environment. It guides students through key features like the Elements tab for HTML and CSS manipulation, the Console tab for JavaScript logging and debugging, the Sources tab for code analysis, and the Network tab for understanding network requests. Additionally, the module covers the Application tab for insights into local storage and cookies management.
 
-## In this module, students need to study:
+## Learning Objectives 🎯
 
-- Elements tab:
-  - [The position of HTML elements in the DOM Tree](https://developer.chrome.com/docs/devtools/dom/#view)
-  - [Inspect and temporarily modify the HTML structure of a document](https://developer.chrome.com/docs/devtools/dom/#content)
-  - [Inspect and temporarily modify the DOM element's styles](https://developer.chrome.com/docs/devtools/css/#view)
-  - [Locate specific styles within a style file (Sources tab)](https://irishdotnet.dev/fridaydevtip-find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
-  - [Review the resulting styles applied to HTML element](https://developer.chrome.com/docs/devtools/css/issues/#css-in-computed)
-- [Console tab](https://developer.chrome.com/docs/devtools/console/):
-  - Understand different types of JavaScript logs displayed in the Console panel: [console.log()](https://developer.chrome.com/docs/devtools/console/api/#log), [console.info()](https://developer.chrome.com/docs/devtools/console/api/#info), [console.error()](https://developer.chrome.com/docs/devtools/console/api/#error).
-  - [Navigate from the console to the corresponding log source in the script file (Source tab)](https://developer.chrome.com/docs/devtools/console/log/#javascript)
-  - [Manage log storage: save or clear logs between page reloads](https://developer.chrome.com/docs/devtools/console/reference/#persist)
-- Sources tab:
-  - [Explore the file structure of the web application and delve into the file's content](https://developer.chrome.com/docs/devtools/sources/#files)
-  - [What are breakpoints and why do we need them](https://developer.chrome.com/docs/devtools/javascript/#event-breakpoint)
-  - [Navigate between breakpoints and step through the code](https://developer.chrome.com/docs/devtools/javascript/#code-stepping)
-  - [Inspect the scope and check variable values at specific moments](https://developer.chrome.com/docs/devtools/javascript/#check-values)
-- Network tab:
-  - [Review and analyze network requests](https://developer.chrome.com/docs/devtools/network/#load)
-  - [Filter requests by type](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-type)
-  - [Manage request logs](https://developer.chrome.com/docs/devtools/network/reference/#clear): save or clear logs between page reloads
-  - Inspect request information (Headers, Preview, Response tabs, the rest is optional)
-    - [Headers tab](https://developer.chrome.com/docs/devtools/network/#details). Be able to find the information:
-      - request URL
-      - request method
-      - request status
-      - request payload (request body or query parameters)
-    - [Preview, Response tabs](https://developer.chrome.com/docs/devtools/network/#details)
-    - [Review response content](https://developer.chrome.com/docs/devtools/network/reference/#response)
-- Application tab
-  - [Explore and modify Local Storage (Cookies, Session Storage is optional)](https://developer.chrome.com/docs/devtools/storage/localstorage/)
+Students will:
 
-## Approximate module completion time:
+- Master the use of the Elements tab, including inspecting the DOM tree, modifying HTML structure, and reviewing CSS styles.
+- Gain proficiency in using the Console tab for different types of JavaScript logging and managing console logs.
+- Explore the Sources tab to understand web application structure and utilize breakpoints for debugging.
+- Analyze network requests using the Network tab, including filtering requests and inspecting request information.
+- Learn to manipulate local storage within the Application tab.
 
-2 hours
+## Approximate Module Completion Time ⏱️
 
-## Practice
+- **2 hours**
 
-1. You need to take the "DevTools Test" test in RS APP > Auto Test
+## Theory 📖
 
-## Additional materials
+Students are encouraged to study the following resources:
 
-- Webinar Recordings (in Russian): [Chrome DevTools](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1,5 hours
+1. **Elements Tab:**
+
+   - [DOM Tree Position](https://developer.chrome.com/docs/devtools/dom/#view)
+   - [Inspecting and Modifying HTML Structure](https://developer.chrome.com/docs/devtools/dom/#content)
+   - [Modifying DOM Element Styles](https://developer.chrome.com/docs/devtools/css/#view)
+   - [Locating Styles in Source Files](https://irishdotnet.dev/fridaydevtip-find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
+   - [Reviewing Applied Styles](https://developer.chrome.com/docs/devtools/css/issues/#css-in-computed)
+
+2. **Console Tab:**
+
+   - [JavaScript Logs in the Console Panel](https://developer.chrome.com/docs/devtools/console/)
+   - [Navigating from Console to Source](https://developer.chrome.com/docs/devtools/console/log/#javascript)
+   - [Managing Log Storage](https://developer.chrome.com/docs/devtools/console/reference/#persist)
+
+3. **Sources Tab:**
+
+   - [Exploring Web Application File Structure](https://developer.chrome.com/docs/devtools/sources/#files)
+   - [Breakpoints and Code Navigation](https://developer.chrome.com/docs/devtools/javascript/#event-breakpoint)
+
+4. **Network Tab:**
+
+   - [Analyzing Network Requests](https://developer.chrome.com/docs/devtools/network/#load)
+   - [Filtering and Managing Requests](https://developer.chrome.com/docs/devtools/network/reference/#clear)
+   - [Inspecting Request Information](https://developer.chrome.com/docs/devtools/network/#details)
+
+5. **Application Tab:**
+   - [Local Storage Exploration](https://developer.chrome.com/docs/devtools/storage/localstorage/)
+
+## Practice 💻
+
+- Complete the "[St1] DevTools Test" in the RS APP > Auto Test.
+
+## Additional Resources 📘
+
+- [Chrome DevTools Webinar Recordings (RU)](https://www.youtube.com/watch?v=gvB0qoio-Ic&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=7) - 1.5 hours
 - [What's New in DevTools](https://developer.chrome.com/docs/devtools/news/)
