@@ -117,7 +117,7 @@ Run app and check that the functionality is working (cross-check)
 - [ErrorBoundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
 - Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
 
-### React
+#### React
 
 - Rolling Scopes School Lithuania. [React. Part 1 📺](https://www.youtube.com/watch?v=L8CmtfCu9AI)
 - Rolling Scopes School Lithuania. [React. Part 2 📺](https://www.youtube.com/watch?v=Rrg4D6AHc5A)

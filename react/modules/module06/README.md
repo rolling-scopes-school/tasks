@@ -120,11 +120,11 @@ Run app and check that the functionality is working (cross-check)
 - [Using Yup with React Hook Form. 1](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98)
 - [Using Yup with React Hook Form. 2](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57)
 - [Yup](https://github.com/jquense/yup)
-- [Picking the right React component pattern](https://www.benmvp.com/blog/picking-right-react-component-pattern/)
-- [Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
 
 #### General knowledge before the final task
 
+- [Picking the right React component pattern](https://www.benmvp.com/blog/picking-right-react-component-pattern/)
+- [Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
 - [React Libraries for 2023](https://www.robinwieruch.de/react-libraries/)
 - library of general-purpose [React hooks](https://github.com/react-hookz/web)
 - So you think you know [everything about React refs](https://blog.thoughtspile.tech/2021/05/17/everything-about-react-refs/)
@@ -139,5 +139,5 @@ Run app and check that the functionality is working (cross-check)
 
 - Install [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
 - A Thorough [Analysis of CSS-in-JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)
-- Documentation [styled-components](https://styled-components.com/docs), aloud in the final task
+- Documentation [styled-components](https://styled-components.com/docs), allowed in the final task
 - [The styled-components Happy Path](https://www.joshwcomeau.com/css/styled-components/)
