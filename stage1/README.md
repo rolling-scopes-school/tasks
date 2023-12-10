@@ -207,10 +207,23 @@
 
 #### January 9, 2024
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
-- [Module: "Modules in JS"](modules/modules-in-js/)
-- [Module: "Chrome DevTools"](modules/chrome-devtools/)
-- [virtual-keyboard](../tasks/virtual-keyboard/virtual-keyboard-en.md)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+
+- Modules:
+
+  - [Module: "Modules in JS"](modules/modules-in-js/)
+  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
+
+- Tasks:
+
+  - [Hangman](tasks/hangman/)
+
+- Tests:
+
+  - [[St1] Modules in JS](modules/modules-in-js/)
+  - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
 ### Week #9
 
