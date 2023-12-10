@@ -71,6 +71,7 @@ Run app and check that the functionality is working (cross-check)
 - Next.js isn't used: **-100 points**
 - Pages API isn't used: **-50 points**
 - Commits after the deadline: **-40 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
 
 ### Repository requirements
 

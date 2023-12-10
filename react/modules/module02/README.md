@@ -84,6 +84,7 @@ A student can achieve a maximum of 100 points.
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Commits after the deadline: **-40 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
 
 ### Repository Requirements
 
