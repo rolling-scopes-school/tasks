@@ -240,6 +240,17 @@ _status code_ **400**
 }
 ```
 
+###### Conversation is not ready to be used
+
+_status code_ **400**
+
+```json
+{
+  "type": "RoomReadyException",
+  "message": "Conversation with id \"{conversationID}\" seems not ready yet"
+}
+```
+
 ###### Conversation does not exist
 
 _status code_ **400**

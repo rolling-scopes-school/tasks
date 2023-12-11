@@ -240,6 +240,17 @@ _status code_ **400**
 }
 ```
 
+###### Conversation is not ready to be used
+
+_status code_ **400**
+
+```json
+{
+  "type": "RoomReadyException",
+  "message": "Group with id \"{groupID}\" seems not ready yet"
+}
+```
+
 ###### Group does not exist
 
 _status code_ **400**
