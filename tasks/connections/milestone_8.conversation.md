@@ -98,13 +98,13 @@ _json_ format
   "Items": [
     {
       "authorID": {
-        "S": "string"
+        "S": "string" // id of the author of the message
       },
       "message": {
-        "S": "string"
+        "S": "string" // message text
       },
       "createdAt": {
-        "S": "string" // unix timestamp
+        "S": "string" // unix timestamp when message was sent
       }
     }
     // ... other objects in the same format
@@ -363,6 +363,6 @@ _status code_ **400**
 
 ### Fines
 
-- _Delete_ button is not present on the page hard page reloading(refresh): **-15 points**
+- _Delete_ button is not present on the page hard page reloading(refreshing): **-15 points**
 - while user is on this conversation page, he reloads the page and navigates to the main page.
   Http-request to `/conversations/list` or `/users` is sent more than once: **-25 points**

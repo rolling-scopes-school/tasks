@@ -88,16 +88,16 @@ _json_ format
   "Items": [
     {
       "id": {
-        "S": "string"
+        "S": "string" // group id
       },
       "name": {
-        "S": "string"
+        "S": "string" // group name
       },
       "createdAt": {
-        "S": "string" // unix timestamp
+        "S": "string" // unix timestamp when group was created
       },
       "createdBy": {
-        "S": "string"
+        "S": "string" // user id who created this group
       }
     }
     // ... another object in the same format
@@ -331,7 +331,7 @@ routing `/conversation/{:conversationID}`.
 > Technically application should create conversation via special http-request (below) before user is
 > redirected to the dialog page if there is no
 > already created conversation with unique id. If any errors occur during conversation creation user
-> have to see [toast](./README.md#toast) danger message and redirection is canceled.
+> have to see [toast](./README.md#toast) danger message and redirection should be canceled.
 
 _rough example of people list_:  
 `-----------------------`  
@@ -350,6 +350,8 @@ Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 > `GET` https://tasks.app.rs.school/angular/users
 
 Retrieves list of participants.
+
+_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
 
 #### Request headers
 
@@ -370,10 +372,10 @@ _json_ format
   "Items": [
     {
       "name": {
-        "S": "string"
+        "S": "string" // user name
       },
       "uid": {
-        "S": "string"
+        "S": "string" // user id
       }
     }
     // ... another object in the same format
@@ -411,6 +413,8 @@ _status code_ **400**
 
 Retrieves list of active conversations of current user.
 
+_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
+
 #### Request headers
 
 | Header          | Type     | Description                                                                               |
@@ -430,10 +434,10 @@ _json_ format
   "Items": [
     {
       "id": {
-        "S": "string"
+        "S": "string" // conversation id
       },
       "companionID": {
-        "S": "string"
+        "S": "string" // conversation parter's id
       }
     }
     // ... another object in the same format
@@ -611,16 +615,18 @@ _status code_ **400**
 
 #### Group section
 
-- list of groups is loaded automatically every time if user returns back into main page (until
-  browser page is reloaded): **-25 points**
-- list of groups is loaded automatically after successful created new group or
-  deleted group: **-25 points**
+- list of groups via `/groups/list` is automatically loaded more than once during 1 browser
+  session (until the user refreshes the page) if user do not click _Update_ button. For instance,
+  when user navigates through the pages, sends new messages, deletes or creates
+  group(s): **-30 points**
 
 #### People list
 
-- list of people is loaded automatically every time if user returns back into main page (until
-  browser page is reloaded): **-25 points**
-- list of people is loaded automatically after successful created new conversation or
-  deleted it: **-25 points**
-- http-request to `/conversations/list` is sent every time clicking on _Update_
-  button: **-20 points**
+- list of conversations via `/conversations/list` is automatically loaded more than once during 1
+  browser session (until the user refreshes the page) if user do not click _Update_ button. For
+  instance, when user navigates through the pages, sends new messages, deletes or creates
+  conversation(s): **-20 points**
+- list of users via `/users` is automatically loaded more than once during 1 browser session (until
+  the user refreshes the page) if user do not click _Update_ button. For instance, when user
+  navigates through the pages, sends new messages, deletes or creates
+  conversation(s): **-20 points**
