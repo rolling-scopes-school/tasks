@@ -117,7 +117,7 @@ One of the fundamental sorting algorithms.
 
 #### Complexity (Big-O)
 
-- Best case: **O(n)**
+- Best case: **O(n log n)**
 - Average and worst cases: **O(n log n)**
 
 #### Implementation
@@ -157,7 +157,7 @@ Although the Big-O values here are the same as many other sorting algorithms (an
 
 #### Complexity (Big-O)
 
-- Best case: **O(n)**
+- Best case: **O(n log n)**
 - Average case: **O(n log n)**
 - Worst case: **O(n²)**
 
