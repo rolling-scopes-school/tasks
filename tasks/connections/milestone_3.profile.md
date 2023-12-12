@@ -33,16 +33,16 @@ _json_ format
 ```json
 {
   "email": {
-    "S": "string"
+    "S": "string" // user email
   },
   "name": {
-    "S": "string"
+    "S": "string" // user name
   },
   "uid": {
-    "S": "string"
+    "S": "string" // user id
   },
   "createdAt": {
-    "S": "string" // unix timestamp in milliseconds
+    "S": "string" // unix timestamp in milliseconds when profile was created
   }
 }
 ```

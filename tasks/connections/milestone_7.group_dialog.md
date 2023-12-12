@@ -19,6 +19,16 @@ display new messages if they are.
 This button can be pressed once a minute and _Update_ button should be disabled! Countdown is
 supposed to indicate how much time left. Countdown disappears when time is out.
 
+> [!NOTE]
+> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
+> First visit on the page should not have any effect on timer.
+
+> [!NOTE]
+> Countdown(timer) should display the actual number of seconds remaining until the end of one minute
+> after the _Update_ button is pressed, even if the user navigates across pages. That is, if the user
+> presses the _Update_ button, goes to other pages, and returns to the list page after 58 seconds, he
+> should see the timer showing 2, 1, _(disappear)_
+
 **_Delete_ button**  
 Visible only for group owner.
 Clicking on this button the group will be deleted and people will not be able to sent messages.
@@ -98,13 +108,13 @@ _json_ format
   "Items": [
     {
       "authorID": {
-        "S": "string"
+        "S": "string" // id of the author of the message
       },
       "message": {
-        "S": "string"
+        "S": "string" // message text
       },
       "createdAt": {
-        "S": "string" // unix timestamp
+        "S": "string" // unix timestamp when message was sent
       }
     }
     // ... other objects in the same format
@@ -240,6 +250,17 @@ _status code_ **400**
 }
 ```
 
+###### Conversation is not ready to be used
+
+_status code_ **400**
+
+```json
+{
+  "type": "RoomReadyException",
+  "message": "Group with id \"{groupID}\" seems not ready yet"
+}
+```
+
 ###### Group does not exist
 
 _status code_ **400**
@@ -280,3 +301,10 @@ _status code_ **400**
   has text: **5 points**
 - new messages are loaded (using `since` parameter) after successful sending
   new message: **15 points**
+
+### Fines
+
+- _Delete_ button is not present on the page for own group after hard page
+  reloading(refreshing): **-20 points**
+- while user is on this dialog page, he reloads the page and navigates to the main page.
+  Http-request to `/groups/list` is sent more than once: **-25 points**

@@ -29,6 +29,16 @@ User can update the list no more than once a minute! Countdown must be present n
 button till the next update is possible. If time is out countdown disappears.
 This state should be preserved even after transition to other pages and back.
 
+> [!NOTE]
+> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
+> First visit on the page should not have any effect on timer.
+
+> [!NOTE]
+> Countdown(timer) should display the actual number of seconds remaining until the end of one minute
+> after the _Update_ button is pressed, even if the user navigates across pages. That is, if the user
+> presses the _Update_ button, goes to other pages, and returns to the list page after 35 seconds, he
+> should see the timer showing 25, 24, 23...
+
 **_Create_ button**  
 _Create_ button opens modal window with a reactive form where user can enter `name`. Using
 endpoint (below) application creates new group and append it into the list **without** retrieving
@@ -54,7 +64,7 @@ _rough example of group list_:
 `|` Someone's Group name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `---------------------------------`  
 `|` My Group
-name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10006; `|`  
+name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10006; `|`  
 `---------------------------------`  
 `|` Someone's Group name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `---------------------------------`
@@ -84,16 +94,16 @@ _json_ format
   "Items": [
     {
       "id": {
-        "S": "string"
+        "S": "string" // group id
       },
       "name": {
-        "S": "string"
+        "S": "string" // group name
       },
       "createdAt": {
-        "S": "string" // unix timestamp
+        "S": "string" // unix timestamp when group was created
       },
       "createdBy": {
-        "S": "string"
+        "S": "string" // user id who created this group
       }
     }
     // ... another object in the same format
@@ -309,7 +319,17 @@ _Update_ button refreshes the people list by sending http-request and renders ob
 
 User can update the list no more than once a minute! Countdown must be present near the _Update_
 button till the next update is possible. If time is out countdown disappears.
-This state should be preserved even after transition to other pages and countdown
+This state should be preserved even after transition to other pages and back.
+
+> [!NOTE]
+> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
+> First visit on the page should not have any effect on timer.
+
+> [!NOTE]
+> Countdown(timer) should display the actual number of seconds remaining until the end of one minute
+> after the _Update_ button is pressed, even if the user navigates across pages. That is, if the user
+> presses the _Update_ button, goes to other pages, and returns to the list page after 12 seconds, he
+> should see the timer showing 48, 47, 46...
 
 **List of people**  
 Simple list with **clickable items as a link** of all members. If user has the conversation with
@@ -319,11 +339,11 @@ created earlier, its list item should have different background light color.
 Clicking on item user is redirected to dedicated page with
 routing `/conversation/{:conversationID}`.
 
-> [!WARNING] Technically application should create
-> conversation via special http-request (below) before user is redirected to the dialog page if
-> there is no
+> [!WARNING]
+> Technically application should create conversation via special http-request (below) before user is
+> redirected to the dialog page if there is no
 > already created conversation with unique id. If any errors occur during conversation creation user
-> have to see [toast](./README.md#toast) danger message and redirection is canceled.
+> have to see [toast](./README.md#toast) danger message and redirection should be canceled.
 
 _rough example of people list_:  
 `-----------------------`  
@@ -331,7 +351,7 @@ _rough example of people list_:
 Sofía&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
 `-----------------------`  
 `|`
-Nicolás&nbsp;&nbsp;`********`&nbsp; `|`  
+Nicolás&nbsp;&nbsp;`*********`&nbsp; `|`  
 `-----------------------`  
 `|`
 Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `|`  
@@ -342,6 +362,8 @@ Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 > `GET` https://tasks.app.rs.school/angular/users
 
 Retrieves list of participants.
+
+_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
 
 #### Request headers
 
@@ -362,10 +384,10 @@ _json_ format
   "Items": [
     {
       "name": {
-        "S": "string"
+        "S": "string" // user name
       },
       "uid": {
-        "S": "string"
+        "S": "string" // user id
       }
     }
     // ... another object in the same format
@@ -403,6 +425,8 @@ _status code_ **400**
 
 Retrieves list of active conversations of current user.
 
+_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
+
 #### Request headers
 
 | Header          | Type     | Description                                                                               |
@@ -422,10 +446,10 @@ _json_ format
   "Items": [
     {
       "id": {
-        "S": "string"
+        "S": "string" // conversation id
       },
       "companionID": {
-        "S": "string"
+        "S": "string" // conversation parter's id
       }
     }
     // ... another object in the same format
@@ -603,14 +627,18 @@ _status code_ **400**
 
 #### Group section
 
-- list of groups is loaded automatically every time if user returns back into main page (until
-  browser page is reloaded): **-25 points**
-- list of groups is loaded automatically after successful created new group or
-  deleted group: **-25 points**
+- list of groups via `/groups/list` is automatically loaded more than once during 1 browser
+  session (until the user refreshes the page) if user do not click _Update_ button. For instance,
+  when user navigates through the pages, sends new messages, deletes or creates
+  group(s): **-30 points**
 
 #### People list
 
-- list of people is loaded automatically every time if user returns back into main page (until
-  browser page is reloaded): **-25 points**
-- list of people is loaded automatically after successful created new conversation or
-  deleted it: **-25 points**
+- list of conversations via `/conversations/list` is automatically loaded more than once during 1
+  browser session (until the user refreshes the page) if user do not click _Update_ button. For
+  instance, when user navigates through the pages, sends new messages, deletes or creates
+  conversation(s): **-20 points**
+- list of users via `/users` is automatically loaded more than once during 1 browser session (until
+  the user refreshes the page) if user do not click _Update_ button. For instance, when user
+  navigates through the pages, sends new messages, deletes or creates
+  conversation(s): **-20 points**

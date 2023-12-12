@@ -13,7 +13,8 @@ Page consist of:
 
 **reactive form** with:
 
-- first name field; Validation: required, allowed only letters or spaces, maximum 40 characters;
+- first name field; Validation: required, allowed only letters (any language) or spaces, maximum 40
+  characters;
 - email field; Validation: required, email type;
 - password field; Validation: required, minimum 8 symbols that include at least 1 capital letter, at
   least 1 digit and at least 1 special symbol;
