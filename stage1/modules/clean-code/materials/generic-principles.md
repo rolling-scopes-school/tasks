@@ -1,67 +1,65 @@
-#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../)
+#### [Stage#1](../../) > [Project 'Clean Code S1E1'](../)
 
-# Руководство по качеству кода
+# Code Quality Manual
 
-- [Зачем?](#Зачем)
-- [Общие принципы](#Общие-принципы)
-  - [1. DRY — _Don't Repeat Yourself_](#_1-dry-don39t-repeat-yourself)
-  - [2. KISS — _keep it short simple / keep it simple, stupid_](#_2-kiss-keep-it-short-simple-keep-it-simple-stupid)
-  - [3. YAGNI — _You ain't gonna need it_](#_3-yagni-you-ain39t-gonna-need-it)
-  - [4. Комментарии](#_4-Комментарии)
-    - [4.1 Отложенные задачи (TODO)](#_41-Отложенные-задачи-todo)
-  - [5. Пробелы в конце строки](#_5-Пробелы-в-конце-строки)
-  - [6. Именование файлов](#_6-Именование-файлов)
-  - [Далее](#Далее)
+- [Why?](#Why)
+- [Common approaches](#Common-approaches)
+  - [1. DRY — _Don't Repeat Yourself_](#1-dry--_dont-repeat-yourself_)
+  - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--_keep-it-short-simple--keep-it-simple-stupid_)
+  - [3. YAGNI — _You ain't gonna need it_](#3-yagni--_you-aint-gonna-need-it_)
+  - [4. Comments](#4-comments)
+    - [4.1 TODOs](#41-todos)
+  - [5. Trailing whitespaces_](#5-trailing-whitespaces)
+  - [6. Files naming](#6-files-naming)
+  - [Continue](#Continue)
 
-## Зачем?
+## Why?
 
-Легкоподдерживаемый читаемый код – то, к чему стремится любой опытный разработчик. Это код, который легко читать через 2 месяца, полгода, год и больше после его написания, причём не только автору, но и любому другому программисту. А так как в большинстве случаев код разрабатывается в командах – ваши сокомандники должны иметь возможность легко разбираться в вашем кусочке приложения, не прилагая усилий, чтобы расшифровать написанную логику.
+Easily maintainable readable code is what any experienced developer wants. This is code that is easy to read in 2 months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
 
-Точно так же и вам будет куда комфортнее разбираться в чужом коде, если он максимально понятно написан и соответствуют единому стилистическому стандарту, принятому в команде.
+In the same way, you will be much more comfortable to understand someone else's code if it is written as clearly as possible and conforms to a common stylistic standard accepted in the team.
 
-Но, казалось бы, как правила стилизации кода (например, выбор кавычек `'` или `"` и регистра написания букв) влияют на его удобочитаемость?
+But, it would seem, how do code styling rules (for example, the choice of `'` or `"` quotation marks and letter case) affect its readability?
 
-Если очень кратко: напрямую.
+Very briefly: directly.
 
-Чуть длиннее:
+A bit longer:
 
-Пока вы пишете код в одном стиле, вы привыкаете к этому написанию. Нейроны вашего мозга мгновенно определяют, что за переменной с заглавной буквы скрывается класс, а за словом с маленькой буквы стоит локальная изменяемая переменная. Вы также не испытываете раздражения при виде отличного от вашего стиля написания, а это очень важно. Чтение чужого кода – само по себе не всегда приятное занятие, но если этот код ещё и вызывает раздражение... В общем, в жизни программиста и без того хватает сложностей, потому не стоит создавать себе дополнительных.
+As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that behind a capitalized variable is a class, and behind a small-letter word is a locally modifiable variable. You also don't feel irritation when you see a writing style different from your own, and this is very important. Reading someone else's code is not always a pleasant task in itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
 
-Ещё одна причина – единый стандарт экономит время на написание кода. Вы не тратите минуты на раздумья: с какого регистра назвать переменную и какой выбрать стиль написания (н/п, _верблюжьяНотация_ или *ВЕРХНИЙ*РЕГИСТР\_), а на автомате пишете в том стиле, что описан в заранее принятом стандарте.
+One more reason - a single standard saves time on writing code. You don't spend a minute thinking about which case to use to name a variable and which writing style to choose, but write according to the accepted style.
 
-## Общие принципы
+## Common approaches
 
 ### 1. DRY — _Don't Repeat Yourself_
 
 or **DIE** — _Duplication Is Evil_
 
-_Дублирование – это зло!_
-
-Принцип призывает Вас не повторяться при написании кода. Всё, что Вы пишете в проекте, должно быть определено только один раз.
-При несоблюдении этого принципа программист будет вынужден вносить изменения в несколько повторяющихся фрагментов кода, вместо одного. Также дублирующийся код приводит к разрастанию программы, а значит, усложняет ее понимание, читабельность.
+The principle urges you not to repeat yourself when writing code. Everything you write in a project should be defined only once.
+If this principle is not observed, the programmer will be forced to make changes in several repeating code fragments instead of one. Also, duplicated code leads to unwanted code grow and thus makes it harder to understand and read.
 
 <details>
     <summary>
-    Хочу знать больше:
+    Wanna know more!
     </summary>
 
-**История:**
-Принцип был впервые упомянут в книге [«Программист-прагматик» Эндрю Ханта](https://ideafix.name/wp-content/uploads/stuff/book51.pdf) (1999). Однако ещё до выхода книги в свет он был широкоизвестен и повсеместно применялся. В то же время «Программист-прагматик» точно определил принцип и дал ему имя.
+**The history:**
+The principle was first mentioned in the book ["The Pragmatic Programmer" by Andrew Hunt](https://ideafix.name/wp-content/uploads/stuff/book51.pdf) (1999). However, even before the book was published, it was widely known and widely used. At the same time "The Pragmatic Programmer" precisely defined the principle and gave it a name.
 
-В книге DRY описывается как:
+In the book DRY is described as:
 
-> «Каждый фрагмент знания должен иметь единственное, однозначное,
-> надежное представление в системе»,
+> "Every piece of knowledge must have a single, unambiguous,
+> authoritative representation within a system".
 
-где «фрагмент знания» можно понимать как функциональный логически завершённый кусок кода вашего приложения или алгоритм.
+where "piece of knowledge" can be understood as a functional, logically completed piece of code for your application or algorithm.
 
 </details>
 
-**Примеры:**
+**Examples:**
 
 <details>
 	<summary> 
-		1. CSS: Группировка селекторов
+		1. CSS: Selectors grouping
 	</summary>
 
 ```css
@@ -83,7 +81,7 @@ h4 {
 }
 ```
 
-С использованием группировки селекторов CSS этот же код может быть написан так:
+This code can be refactored using selectors grouping:
 
 ```css
 h1,
@@ -99,10 +97,10 @@ h4 {
 
 <details>
 	<summary> 
-		2. CSS: Повторяющиеся группы стилей в классы
+		2. CSS: Move repeating style pieces inside classes
 	</summary>
 
-Если один набор CSS-свойств задает стиль нескольких элементов на странице, то такие элементы обычно объединяют в один CSS-класс:
+If a single set of CSS properties defines the style of several elements on a page, these elements are usually combined into a single CSS class:
 
 ```css
 p {
@@ -124,24 +122,19 @@ p {
 
 ```html
 <section>
-  <h2 class="bold-text">Жалобная книга</h2>
+  <h2 class="bold-text">A book</h2>
   <p>
-    Лежит она, эта книга, в специально построенной для нее конторке на станции
-    железной дороги. Ключ от конторки «хранится у станционного жандарма», на
-    деле же никакого ключа не нужно, так как конторка всегда отперта.
-    Раскрывайте книгу и читайте:
+    I don't know, what to write here, but it's definitely the first paragraph.
   </p>
-  <p class="quotation">«Милостивый государь! Проба пера!?»</p>
-  <p></p>
+  <p class="quotation">«Hello world»</p>
   <p>
-    Под этим нарисована рожица с длинным носом и рожками. Под рожицей написано:
+    I still don't know, what to write here, but it's definitely the second paragraph.
   </p>
   <p class="quotation">
-    «Ты картина, я портрет, ты скотина, а я нет. Я — морда твоя».
+    «Hello world 2»
   </p>
   <p>
-    «Подъезжая к сией станцыи и глядя на природу в окно, у меня слетела шляпа.
-    И. Ярмонкин».
+    Just some common bla-bla text :).
   </p>
 </section>
 ```
@@ -150,7 +143,7 @@ p {
 
 <details>
 	<summary> 
-		3. JS: Циклы
+		3. JS: Cycles
 	</summary>
 
 ```js
@@ -174,10 +167,10 @@ for (let i = 0; i < chips.length; i++) {
 
 <details>
 	<summary> 
-		4. JS: Функции
+		4. JS: Functions
 	</summary>
 
-Дублирующуюся логику удобно выносить в функции.
+It is convenient to put duplicated logic into functions.
 
 ```js
 const today = new Date();
@@ -209,80 +202,77 @@ function logDayPlan(weekday, tasks) {
 
 ### 2. KISS — _keep it short simple / keep it simple, stupid_
 
-_Делайте вещи проще!_
+Sometimes the most correct solution is the simplest realization of a task without anything extra.
 
-Порой наиболее правильное решение – это наиболее простая реализация задачи, в которой нет ничего лишнего.
-
-Чем проще код, тем легче в нём разобраться, как вам, так и другим людям, занимающимся его поддержкой. Под простотой подразумевается отказ от использования хитроумных приемов и ненужного усложнения.
+The simpler the code is, the easier it is to understand, both for you and for other people involved in its support. Simplicity means refraining from using tricky tricks and unnecessary complication.
 
 <details>
-    <summary>Примеры:</summary>
+    <summary>Examples:</summary>
 
-В качестве примера нарушения этого принципа можно назвать написание отдельной функции только лишь для осуществления операции сложения или использование побитового оператора (right shift >> 1) для деления целых чисел на 2.
+An example of violating this principle is writing a separate function just to perform the addition operation or using a bitwise operator (right shift >> 1) to divide integers by 2.
 
 `(4 >> 1) === (4 / 2)`
 
-Последнее может оказаться более эффективным для некоторых программных компиляторов, чем обычное деление `/ 2`, но при этом очень сильно снижается понятность кода.
+The last one may be more efficient for some program compilers than the usual `/ 2` division, but the code's understandability is very much reduced.
 
-> Важное примечание: Для JS движков эффективность операции сдвига нивелируется дорогостоящим приведением к целочисленному – [тут подробнее](https://thefullsnack.com/en/bitwise-javascript-fast.html).
+> Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://thefullsnack.com/en/bitwise-javascript-fast.html).
 
-Применяя такой подход, вы осуществляете clever coding («заумный» кодинг) и over-optimization (чрезмерную оптимизацию). И то, и другое в долгосрочной перспективе будет делать ваш код всё менее и менее понятным как другим разработчикам, так и вам самим, ведь, возможно, вам придётся разбираться с этим кодом снова через месяц, два, год.
+By taking this approach, you are doing clever coding and over-optimization. Both of them will make your code less and less understandable in the long run, both to other developers and to yourself, because you may have to deal with this code again in a month, two or a year.
 
 </details>
 
 <details>
-    <summary>Хочу знать больше:</summary>
+    <summary>Want to know more!</summary>
 
-**История:**
+**History:**
 
-Принцип проектирования, принятый в военно-морских силах США в 1960. Принцип KISS утверждает, что большинство систем работают лучше всего, если они остаются простыми, а не усложняются. Поэтому в области проектирования простота должна быть одной из ключевых целей и следует избегать ненужной сложности. Фраза ассоциировалась с авиаконструктором Кларенсом Джонсоном (1910—1990). В 1970-х гг. широко использовался термин «KISS-принцип» (англ. KISS principle). Вариации на фразу включают «англ. Keep it Simple, Silly», «keep it short and simple», «keep it simple and straightforward» и «keep it small and simple».
+A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than becoming more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "English Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
 
-[Ещё больше на Википедии](<https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF)>)
+[More on Wikipedia](<https://en.wikipedia.org/wiki/KISS_principle>)
+
 
 </details>
 
 ### 3. YAGNI — _You ain't gonna need it_
 
-_Вам это не понадобится!_
+Anything that is not required for the project to work as planned shouldn't be in it.
 
-Всё, что не предусмотрено заданием проекта, не должно быть в нём.
+Simply put, you should not write functionality for the future if you don't need it right now. The desire to write code for the future can have many unpleasant consequences:
 
-Проще говоря, вам не стоит писать функциональность наперед, если прямо сейчас в ней нет необходимости. Желание написать код на будущее может иметь много неприятных последствий:
+- You waste valuable time that could be used to add, test, and improve the functionality that is really needed.
+- New features should be tested, documented.
+- Your unnecessary new features may later prevent you from adding new, but already needed, features.
+- If the code you write is eventually needed, it may not be the right code.
+- Superfluous code may never be needed in the end.
+- Superfluous code complicates your program (see KISS).
+- Adding new unnecessary functionality can lead to a desire to add even more new unnecessary functionality, leading to a snowball effect.
 
-- Вы тратите драгоценное время, которое могло бы быть использовано на добавление, тестирование и улучшение действительно необходимой функциональности.
-- Новые функции должны быть протестированы, задокументированы.
-- Ваши ненужные новые функции могут впоследствии помешать добавить новые, но уже нужные.
-- Если написанный код в итоге понадобится, он может оказаться неправильным.
-- Лишний код может в итоге никогда и не понадобиться.
-- Лишний код усложняет вашу программу (см. KISS).
-- Добавление новой ненужной функциональности может привести к желанию добавить ещё больше новой лишней функциональности, приводя к эффекту «снежного кома».
+[Martin Fowler about YAGNI](https://martinfowler.com/bliki/Yagni.html)
 
-[Мартин Фаулер о YAGNI](https://martinfowler.com/bliki/Yagni.html)
+### 4. Comments
 
-### 4. Комментарии
+Explain code as necessary, where possible.
 
-Поясняйте код при необходимости, где это возможно.
+Use comments to explain the code:
 
-Используйте комментарии для пояснения кода:
+- What does it cover?
+- What is its purpose?
+- Why is this solution used or preferred?
 
-- Что он покрывает?
-- Какова его задача?
-- Почему такое решение используется или предпочтительно?
+At the same time, don't try to cover all the code with comments. Using meaningful names of variables and functions, breaking code into logical fragments using functions, and other practices help to make code as readable and understandable as possible without resorting to comments (self-documenting code).
 
-В то же время не стоит пытаться покрыть комментариями весь код. Использование значимых названий переменных и функций, разбитие кода на логические фрагменты с помощью функции и другие практики помогают сделать код максимально читаемым и понятным не прибегая к комментариям (самодокументирующийся код).
+Nevertheless, there are cases when you need explanatory comments no matter how your code looks like.
 
-Тем не менее, бывают случаи, когда поясняющие комментарии нужны, вне зависимости от того, как выглядит ваш код.
-
-Обычно это происходит, когда вам нужно добавить контекст к неинтуитивному решению.
+This is usually when you need to add context to a non-intuitive solution.
 
 ```js
 // Not recommended
-const MAIN_TEXT_COLOUR = "#000000"; // colour for main text on the page
+const MAIN_TEXT_COLOUR = "#000000"; // color for main text on the page
 ```
 
-Комментарий тут излишен, так как он поясняет очевидное из названия переменной назначение константы.
+The comment here is unnecessary, because it explains the purpose of the constant, which is obvious from the name of the variable.
 
-А вот хороший пример из библиотеки Lodash:
+Here is a good example from the Lodash library:
 
 ```js
 // Recommended
@@ -294,16 +284,16 @@ function addSetEntry(set, value) {
 }
 ```
 
-[Подробнее о комментариях](https://learn.javascript.ru/comments)
+[More about comments](https://javascript.info/comments)
 
-#### 4.1. Отложенные задачи (TODO)
+#### 4.1. TODOs
 
-_Частный случай комментариев_
+_Some part of comments_
 
-TODO – от англ. _to do_ (пер. «сделать») используется для обозначения запланированного изменения прямо в комментариях кода. Обычно эта задача относится к несрочным изменениям, но достаточно важным. Поэтому разработчики прямо в коде оставляют своего рода напоминание себе и другим программистам.
+TODO - from English _to do_ is used to denote a planned change directly in code comments. Usually this task refers to changes that are not urgent but rather important. That's why developers leave a kind of reminder to themselves and other programmers right in the code.
 
-- Впереди такой пометки используйте префикс «ТODO: ...».
-- Используйте только данный тип обозначения для TODO-задач.
+- Use the prefix "TODO: ..." in front of such a notation.
+- Use only this type of notation for TODO tasks.
 
 ```js
 // TODO: move this magic number (15 rows) to the configuration file
@@ -321,11 +311,9 @@ for (let i = 0; i < 15; i++) {
 </ul>
 ```
 
-### 5. Пробелы в конце строки
+### 5. Trailing whitespaces
 
-_англ. Trailing whitespaces_
-
-Пробелы в конце строки являются излишними, к тому же они усложняют commit-изменения в Github (вы видите лишнюю строчку/символ изменений, не несущего смыслового изменения):
+Spaces at the end of a line are unnecessary, and they complicate commit changes in Github (you see an extra line/change character that doesn't carry a meaningful change):
 
 ```html
 <!-- Not recommended -->
@@ -338,12 +326,11 @@ _англ. Trailing whitespaces_
 <p>Yes, please.</p>
 ```
 
-### 6. Именование файлов
+### 6. Files naming
 
-Придерживайтесь единого стиля именования файлов в проекте. Рекомендуем использовать нижний регистр написания с разделением слов дефисом.
+Use the same files naming styleguide in the project. It is recommended to use lower case spelling with words separated by hyphens.
 
-Также удобно разделять файлы на `/js`, `/assets`, `/styles` (если иное не указано в тексте задания). Покомпонентная структура папок тоже приемлема (имеется в виду хранение в одной папке всех файлов, относящихся к определённой компоненте).
-
+It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless otherwise specified in the text of the task). Component-by-component folder structure is also acceptable (meaning storing all files related to a certain component in one folder).
 ```
 /assets
 	right-arrow-image.svg
@@ -359,10 +346,8 @@ _англ. Trailing whitespaces_
 	image-slider.html
 ```
 
-### Далее:
+### Continue
 
-- [HTML и CSS рекомендации – начальный уровень](html-and-css.md)
-- [HTML и CSS рекомендации – продвинутый уровень](html-and-css-extended.md)
-- [Рекомендации к commit-ам](commits.md)
-<!-- – [JavaScript рекомендации](./javascript.md)
-- [Автоматизируй это](./automation.md) -->
+- [HTML and CSS recommendations - beginner level](html-and-css.md)
+- [HTML and CSS recommendations - advanced level](html-and-css-extended.md)
+- [Commits recommendations](commits.md)
