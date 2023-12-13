@@ -1,21 +1,18 @@
-#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../)
+#### [Stage#1](../../) > [Project 'Clean Code S1E1'](../)
 
-# HTML & CSS. Начальный уровень
+# HTML & CSS. Beginner level
 
-## 1. Общие правила для HTML + CSS
+## 1. General HTML & CSS rules
 
-### 1.1. Отступы
+### 1.1. Indentation
 
-Всегда используйте для одного отступа два пробела.
-Не используйте табуляцию (tab-символ) для отступов и не смешивайте виды отступов (tab и пробелы одновременно).
+Always use two spaces for one indentation.
+Do not use tabs for indentation and do not mix indentation types (tabs and spaces).
 
 <details>
-    <summary>Почему?</summary>
+    <summary>Why?</summary>
 
-Так как над проектами работает команда людей, то зачастую один исходный код проекта отображается в различных редакторах кода. Проблемы начинаются тогда, когда в одном файле используются разные методы идентации. Так как каждый редактор кода по-разному отображает tab-отступ, красивый файл в вашей IDE может выглядеть совсем несуразно в другой.
-
-[Источник](https://dev.by/news/otstupy-tab-ili-probel-programmist-proanaliziroval-milliard-faylov-i-nashyol-otvet)
-
+Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a beautiful file in your IDE may look quite ugly in another IDE.
 </details>
 
 ```html
@@ -31,13 +28,13 @@
 }
 ```
 
-### 1.2. Нижний регистр написания
+### 1.2. Use lowercase
 
-Весь код должен быть в нижнем регистре. Это касается всех HTML-имен, включая названия атрибутов, значения атрибутов, CSS-селекторы, CSS-свойства и их значения. Тип документа `<!DOCTYPE html>` является исключением из правила.
+All HTML-tags, attributes and their values, CSS selectors, CSS properties and their values must be in lowercase. `<!DOCTYPE html>` is an exception to this rule.
 
 ```html
 <!-- Not recommended -->
-<a href="/">Home</a>
+<SPAN CLASS="text-ROSE">Home</SPAN>
 
 <!-- Recommended -->
 <img src="google.png" alt="Google" />
@@ -45,19 +42,19 @@
 
 ```css
 /* Not recommended */
-color: #e5e5e5;
+color: #E5E5E5;
 
 /* Recommended */
 color: #e5e5e5;
 ```
 
-### 1.3. Кавычки в HTML/CSS документе
+### 1.3. Quotes in HTML & CSS files
 
-Используйте двойные кавычки вместо одинарных для задания значений атрибутов и CSS свойств.
+Use double quotes instead of single quotes for HTML attributes and CSS properties.
 
 ```html
 <!-- Not recommended -->
-<a class="main-button main-button-secondary">Sign in</a>
+<a class='main-button main-button-secondary'>Sign in</a>
 
 <!-- Recommended -->
 <a class="main-button main-button-secondary">Sign in</a>
@@ -65,15 +62,15 @@ color: #e5e5e5;
 
 ## 2. HTML
 
-### 2.1. Форматирование
+### 2.1. Formatting
 
-Выделяйте новую строку для каждого блочного, табличного или списочного элемента, независимо от заданных для них стилей.
-И ставьте отступы для каждого вложенного элемента, соблюдая таким образом лестницу вложенности. Строчные элементы можно (но не обязательно) переносить с добавлением отступов для улучшения читаемости кода.
+Put every block, table or list element on a new line, regardless of their styles.
 
-**Примеры:**
+Intend each nested element, thus respecting the nesting ladder.
+Inline elements can (but do not have to) be put to a new line and intended to improve code readability.
 
-- Элемент `<em>` – строчный, потому его можно не переносить. Он используется для выделения подстроки в параграфе.
-  В то время как блочный `<p>` обязательно нужно перенести на новую строку.
+- Element `<em>` is used to highlight a substring on a paragraph. It can stay where it is, because it is an inline element.
+- Element `<p>` is a block element, so it must be put on a new line.
 
 ```html
 <blockquote>
@@ -81,40 +78,40 @@ color: #e5e5e5;
 </blockquote>
 ```
 
-- Списочные элементы:
+- List elements:
 
 ```html
 <ul>
-  <li>Маша</li>
-  <li>Глаша</li>
-  <li>Чебураша</li>
+  <li>JavaScript</li>
+  <li>TypeScript</li>
+  <li>React.js</li>
 </ul>
 ```
 
-- Табличные элементы:
+- Table elements:
 
 ```html
 <table>
   <thead>
     <tr>
-      <th scope="col">Прибыль</th>
-      <th scope="col">Налоги</th>
+      <th scope="col">Income</th>
+      <th scope="col">Taxes</th>
     </tr>
-
-    <tr></tr>
   </thead>
   <tbody>
     <tr>
-      <td>$ 5.00</td>
-      <td>$ 4.50</td>
+      <td>$5.00</td>
+      <td>$4.50</td>
     </tr>
-
-    <tr></tr>
+    <tr>
+      <td>$9.00</td>
+      <td>$2.50</td>
+    </tr>
   </tbody>
 </table>
 ```
 
-- Элементы input и button строчные, но перенос их на отдельные строки улучшит читаемость и восприятие кода.
+- Input and button elements are inline, but putting them on a new line will increase the code readability.
 
 ```html
 <div>
@@ -123,89 +120,65 @@ color: #e5e5e5;
 </div>
 ```
 
-### 2.2. Тип документа / Document Type
+### 2.2. Document Type
 
-Используйте HTML5.
+Use HTML5.
 
-HTML5 рекомендуется для всех видов HTML-документов и обозначается первым тегом в HTML документе:
+HTML5 is recommended for all types of HTML files and is marked by the first tag in HTML file:
 `<!DOCTYPE html>`
 
-### 2.3. Символы-мнемоники
+### 2.3. Named character references
 
-Не используйте символы-мнемоники.
+Do not use named character references.
 
-Нет смысла использовать мнемоники, такие как `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) или `&#x263a;`(&#x263a;), когда все команды в файлах, редакторах используют одну кодировку (UTF-8).
+There is no sense to use named character references, such as `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) or `&#x263a;`(&#x263a;), when all files use the same encoding (UTF-8).
 
-Единственное исключение из этого правила – служебные символы HTML (например `<` и `&`), а также вспомогательные и «невидимые» символы (например неразрывный пробел).
+The only exception to this rule - special symbols in HTML (e.g. `<` and `&`) and "invisible" characters (e.g. non-breaking space `&nbsp;`).
 
 ```html
 <!-- Not recommended -->
-<div>Валютный знак евро: &ldquo;&eur;&rdquo;.</div>
+<div>Euro sign: &ldquo;&eur;&rdquo;.</div>
 
  <!--  Recommended -->
-<div>Валютный знак евро: «€». </div>
+<div>Euro sign: "€". </div>
 ```
 
-### 2.4. Атрибут 'type'
+### 2.4. 'type' attribute
 
-Не используйте атрибут `type` при подключении стилей (кроме вариантов когда используется что-то кроме CSS) и скриптов (кроме вариантов когда это не JavaScript).
+Do not use `type` attribute when connecting styles and scripts (use it only if you connect not CSS or JS).
 
 <details>
-    <summary>Почему?</summary>
-    Указывать атрибут «type» в данном случае необязательно потому, что HTML5 использует text/css (англ.) и text/javascript (англ.) по умолчанию.
-    Это будет работать даже в старых браузерах.
+    <summary>Why?</summary>
+    HTML5 uses 'text/css' and 'text/javascript' by default, so there is no need to use 'type' attribute.
+    This works even in old browsers.
 </details>
 
 ```html
 <!--  Not recommended -->
-<link rel="stylesheet" href="//www.google.com/css/main.css" type="text/css" />
+<link rel="stylesheet" href="https://www.google.com/css/main.css" type="text/css" />
 
 <!--  Recommended -->
-<link rel="stylesheet" href="//www.google.com/css/main.css" />
+<link rel="stylesheet" href="https://www.google.com/css/main.css" />
 ```
 
 ```html
 <!--  Not recommended -->
 <script
-  src="//www.google.com/js/gweb/analytics/autotrack.js"
+  src="https://www.google.com/js/gweb/analytics/autotrack.js"
   type="text/javascript"
 ></script>
 
 <!--  Recommended -->
-<script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+<script src="https://www.google.com/js/gweb/analytics/autotrack.js"></script>
 ```
 
-## Опциональные рекомендации:
+## Optional recommendations:
 
 ### 2.5. HTML Line-Wrapping
 
-Разбивайте длинные строки на несколько.
+Break long lines to multiple lines.
 
-Разбиение длинного текста на несколько строк может значительно улучшить читаемость кода.
-
-При разбиении строк рекомендуется перед каждой перенесенной строкой от начальной поставить отступ хотя бы в 4 пробела.
-
-**Примеры:**
-
-```html
-<md-progress-circular
-  md-mode="indeterminate"
-  class="md-accent"
-  ng-show="ctrl.loading"
-  md-diameter="35"
->
-</md-progress-circular>
-```
-
-```html
-<md-progress-circular
-  md-mode="indeterminate"
-  class="md-accent"
-  ng-show="ctrl.loading"
-  md-diameter="35"
->
-</md-progress-circular>
-```
+Breaking a long text to multiple lines may significantly increase code readability.
 
 ```html
 <md-progress-circular
@@ -219,55 +192,57 @@ HTML5 рекомендуется для всех видов HTML-докумен�
 
 ## 3. CSS
 
-### 3.1. Единый стиль именования селекторов (классов / id)
+### 3.1. Single style for selectors naming
 
-Какой бы стиль написания имен вы ни выбрали, соблюдайте его во всем проекте.
+Whichever style of name writing you choose, follow it throughout the project.
 
-Если вы используете БЭМ, придерживайтесь этой нотации без исключения.
+If you use BEM, stick to that notation without exception.
 
-Иначе рекомендуется использовать дефис для разделения слов в селекторах и прописание их в нижнем регистре,
-при этом все слова в селекторе обязательно должны быть отделены.
+Otherwise, it is recommended that you use a hyphen to separate words in selectors and spell them in lower case, and all words in the selector must be separated.
 
-[Подробнее о БЭМ](https://ru.bem.info/methodology/quick-start/)
+[More about BEM](https://en.bem.info/methodology/quick-start/)
 
 ```css
-/* Не рекомендуется: слова “demo” и “image” не разделены */
+/* Not recommended: words “demo” and “image” are not separated */
 .demoimage {
 }
 
-/* Не рекомендуется: используется подчеркивание вместо дефиса */
+/* Not recommended: usage of underscore instead of hyphen */
 .error_status {
 }
 
-/* Рекомендуется */
+/* Recommended */
 #video-id {
 }
 .ads-sample {
 }
 
-/* Рекомендуется в случае использования БЭМ */
+/* Recommended for BEM */
+.block-name__element-name_modifier-name {
+}
+
 .search-form__button {
 }
 ```
 
-### 3.2. Значимые названия идентификаторов и классов:
+### 3.2. Meaningful naming of identifiers and classes:
 
-Используйте шаблонные или осмысленные имена классов и идентификаторы.
+Use template or meaningful class names and identifiers.
 
-Вместо использования шифров или описания внешнего вида элемента попробуйте в имени класса или идентификатора выразить смысл его создания или дайте ему шаблонное имя…
+Instead of using ciphers or describing the appearance of an element, try to express in the name of a class or identifier the meaning of its creation or give it a template name
 
-Рекомендуется выбирать имена, отражающие сущность класса, потому что их проще понять и, скорее всего, не понадобится менять в будущем.
+It is recommended to choose names that reflect the essence of the class because they are easier to understand and will likely not need to be changed in the future.
 
-Шаблонные имена – это просто вариант названия для элементов, у которых нет специального предназначения или которые не отличаются от своих братьев и сестер. Обычно они необходимы в качестве «Помощников».
+Template names are simply a naming option for elements that have no special purpose or are not distinct from their siblings. They are usually needed as "Helpers".
 
-Использование функциональных или шаблонных имен уменьшает необходимость ненужных изменений в документа или шаблонах.
+Using functional or template names reduces the need for unnecessary changes to the document or templates.
 
 ```css
-/* Не рекомендуется: не имеет смысла */
+/* Not recommended: has no meaning */
 #yee-1901 {
 }
 
-/* Не рекомендуется: описание внешнего вида */
+/* Not recommended: appearance description */
 .button-green {
 }
 .clear {
@@ -275,7 +250,7 @@ HTML5 рекомендуется для всех видов HTML-докумен�
 ```
 
 ```css
-/* Рекомендуется: точно и по делу */
+/* Recommended: short and simple */
 #gallery {
 }
 #login {
@@ -283,23 +258,23 @@ HTML5 рекомендуется для всех видов HTML-докумен�
 .video {
 }
 
-/* Рекомендуется: шаблонное имя */
+/* Recommended: template name */
 .clearfix {
 }
 .alt {
 }
 ```
 
-### 3.3. Лаконичность названий идентификаторов и классов
+### 3.3. Keep the names of identifiers and classes concise
 
-Для идентификаторов и классов используйте настолько длинные имена, насколько нужно, но настолько короткие, насколько возможно.
+For identifiers and classes, use names that are as long as necessary, but as short as possible.
 
-Попробуйте сформулировать, что именно должен делать данный элемент, при этом будьте кратки насколько возможно.
+Try to articulate exactly what the element is supposed to do, while being as concise as possible.
 
-Такое использование классов и идентификаторов вносит свой вклад в облегчение понимания и увеличение эффективности кода.
+This use of classes and identifiers contributes to making code easier to understand and more efficient.
 
 ```css
-/* Не рекомендуется */
+/* Not recommended */
 #navigation {
 }
 .atr {
@@ -307,24 +282,24 @@ HTML5 рекомендуется для всех видов HTML-докумен�
 ```
 
 ```css
-/* Рекомендуется */
+/* Recommended */
 #nav {
 }
 .author {
 }
 ```
 
-### 3.4. Теговые селекторы
+### 3.4. Tag selectors
 
-Не используйте теговые селекторы (за исключением намеренного сброса дефолтных стилей).
+Do not use tag selectors (except for intentionally resetting the default styles).
 
-Это повышает производительность при применении стилей браузером.
-[Подробнее о этом](https://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)
+It increases performance when applying styles by browser.
+[More details here](https://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)
 
-К тому же, возможно, в будущем вы захотите изменить используемый тег на какой-то другой, в таком случае вам придется отследить все места использования данного тега в стилях и поправить на новый, в то время как использование классов / id помогает абстрагировать ваши стили от деталей вашей html-верстки.
+You may want to change the tag you use to some other tag in the future, in which case you'll have to track down all the places where that tag is used in the styles and correct to the new one, while using classes / id helps abstract your styles from the details of your html layout.
 
 ```css
-/* Не рекомендуется */
+/* Not recommended */
 body {
 }
 ul#example {
@@ -332,7 +307,7 @@ ul#example {
 div.error {
 }
 
-/* Рекомендуется */
+/* Recommended */
 .page {
 }
 #example {
@@ -341,12 +316,12 @@ div.error {
 }
 ```
 
-### 3.5. Отступы в блоках.
+### 3.5. Indentation in blocks
 
-Всегда ставьте отступы для содержимого блоков.
+Always intend the content of blocks.
 
-Всегда ставьте отступы для любого содержимого в блоке (блоки разделены фигурными скобками `{}`).
-Например для правил внутри правил или объявлений, чтобы отобразить иерархию и облегчить понимание кода.
+Always indent any content in a block (blocks are separated by curly braces `{}`).
+For example for rules within rules or declarations, to show hierarchy and make the code easier to understand.
 
 ```css
 @media screen, projection {
@@ -357,35 +332,33 @@ div.error {
 }
 ```
 
-### 3.6. Пробел после названий свойств
+### 3.6. Space after property name
 
-Используйте пробелы после двоеточий в объявлениях.
-
-Всегда используйте один пробел после двоеточия (но не до) в объявлениях для порядка в коде.
+Always use one space after (not before) a colon in properties.
 
 ```css
 /* Not recommended */
 h3 {
-  font-weight: bold;
+  font-size :16px;
+  font-weight:bold;
 }
 
 /* Recommended */
 h3 {
+  font-size: 16px;
   font-weight: bold;
 }
 ```
 
-### 3.7. Точка с запятой после свойств
+### 3.7. Semicolon after properties
 
-Ставьте точку с запятой после каждого свойства.
-
-После каждого объявления ставьте точку с запятой для согласованности кода и облегчения добавления новых свойств.
+Put semicolon after each property.
 
 ```css
 /* Not recommended */
 .test {
   display: block;
-  height: 100px;
+  height: 100px
 }
 
 /* Recommended */
@@ -395,18 +368,17 @@ h3 {
 }
 ```
 
-### 3.8. Разделение селекторов и свойств
+### 3.8. Separate selectors and properties
 
-Отделяйте селекторы и свойства переносом строки.
+Separate selectors and properties with a line break.
 
-Начинайте каждый селектор или правило с новой строки.
+Start each selector or rule on a new line.
 
 ```css
 /* Not recommended */
 a:focus,
 a:active {
-  position: relative;
-  top: 1px;
+  position: relative; top: 1px;
 }
 
 /* Recommended */
@@ -418,4 +390,4 @@ h3 {
 }
 ```
 
-## [Продвинутый уровень](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/materials/html-and-css-extended.md)
+## [Advanced level](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/materials/html-and-css-extended.md)
