@@ -124,11 +124,11 @@ p {
 <section>
   <h2 class="bold-text">A book</h2>
   <p>
-    I don't know, what to write here, but it's definitely the first paragraph.
+    I don't know what to write here, but it's definitely the first paragraph.
   </p>
   <p class="quotation">«Hello world»</p>
   <p>
-    I still don't know, what to write here, but it's definitely the second paragraph.
+    I still don't know what to write here, but it's definitely the second paragraph.
   </p>
   <p class="quotation">
     «Hello world 2»
