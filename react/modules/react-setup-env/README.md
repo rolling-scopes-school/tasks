@@ -1,6 +1,4 @@
-[//]: # "TODO куда ссылка из тайтла должна вести?"
-
-# Setting Up React Environment 🌟
+# [React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Setting Up Environment 🌟
 
 ## Module Overview 📚
 

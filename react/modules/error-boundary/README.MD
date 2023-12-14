@@ -1,6 +1,4 @@
-[//]: # (TODO куда ссылка из тайтла должна вести?)
-
-# [react](../) Error Boundary in React 🌟
+# [React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Error Boundary 🌟
 
 ## Module Overview 📚
 
