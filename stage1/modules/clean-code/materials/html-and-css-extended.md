@@ -1,4 +1,4 @@
-#### [Stage#1](../../) > [Project 'Clean Code S1E1'](../)
+#### [Stage#1](../../) > [Clean Code S1E1](../)
 
 # HTML & CSS. Advanced level.
 

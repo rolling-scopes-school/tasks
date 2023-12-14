@@ -1,17 +1,17 @@
-#### [Stage#1](../../) > [Project 'Clean Code S1E1'](README.md)
+#### [Stage#1](../../) > [Clean Code S1E1](README.md)
 
 # Task "Clean Code S1E1"
 
 ![image](clean-code.png)
 
-Here is a small single-page [TODO-list application](https://github.com/ViktoryiaYatskova/clean-code-s1e1).
+Here is a small single-page [TODO-list application](https://github.com/rolling-scopes-school/clean-code-s1e1).
 Your task is to edit and change code – refactor code files, while the functionality of the application should remain the same. Changes should be made according the following guidelines: [html-and-css](materials/html-and-css.md) and [html-and-css-extended](materials/html-and-css-extended.md).
 
 No automatic code formatting tools are expected to be used at this task.
 
 ## Implementation Requirements
 
-**Warning!** Student can give a 0, if at least of the following requirements is not met:
+**Warning!** Student can give a 0, if at least one of the following requirements is not met:
 
 - Use a personal **public** repository on GitHub to complete the task.
   Make a fork of an existing project or just create a new one and copy the task project files.
