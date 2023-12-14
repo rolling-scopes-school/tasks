@@ -16,12 +16,12 @@ It should be the link(!) to navigate to primary page.
 Clicking on _Update_ button the application should send http-request, process the response and
 display new messages if they are.
 
-This button can be pressed once a minute and _Update_ button should be disabled! Countdown is
-supposed to indicate how much time left. Countdown disappears when time is out.
+This button can be pressed once a minute and _Update_ button should be disabled (user cannot click
+it)! Countdown is supposed to indicate how much time left. Countdown disappears when time is out.
 
 > [!NOTE]
-> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
-> First visit on the page should not have any effect on timer.
+> Countdown(timer) and disabled _Update_ button (user cannot click it) is applied only after
+> clicking on _Update_ button. First visit on the page should not have any effect on timer.
 
 > [!NOTE]
 > Countdown(timer) should display the actual number of seconds remaining until the end of one minute
@@ -290,15 +290,15 @@ _status code_ **400**
   Other messages are displayed on the left: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
   (except if error occurs): **10 points**
-- _Update_ button is disabled after clicking during updating and until the
+- _Update_ button is disabled (user cannot click it) after clicking during updating and until the
   timer is active: **5 points**
 - group is created by current user should contain _Delete_ button: **10 points**
 - the confirmation modal appears after clicking on _Delete_ button with _Cancel_,
   _Delete_ button inside. If user clicks _Cancel_ the modal disappears. If user clicks _Delete_ the
   http-request is sent and the user is redirected to main page after succeeded
   response: **10 points**
-- form field has `required` validator. _Send new message_ button is disabled until field
-  has text: **5 points**
+- form field has `required` validator. _Send new message_ button is disabled (user cannot click it)
+  until field has text: **5 points**
 - new messages are loaded (using `since` parameter) after successful sending
   new message: **15 points**
 
@@ -307,4 +307,5 @@ _status code_ **400**
 - _Delete_ button is not present on the page for own group after hard page
   reloading(refreshing): **-20 points**
 - while user is on this dialog page, he reloads the page and navigates to the main page.
-  Http-request to `/groups/list` is sent more than once: **-25 points**
+  Http-request to `/groups/list` is sent more than once (if user do not click _Update_
+  button): **-25 points**
