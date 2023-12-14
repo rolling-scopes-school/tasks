@@ -13,6 +13,7 @@ Do not use tabs for indentation and do not mix indentation types (tabs and space
     <summary>Why?</summary>
 
 Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a beautiful file in your IDE may look quite ugly in another IDE.
+
 </details>
 
 ```html

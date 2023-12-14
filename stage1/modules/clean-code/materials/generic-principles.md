@@ -9,7 +9,7 @@
   - [3. YAGNI — _You ain't gonna need it_](#3-yagni--_you-aint-gonna-need-it_)
   - [4. Comments](#4-comments)
     - [4.1 TODOs](#41-todos)
-  - [5. Trailing whitespaces_](#5-trailing-whitespaces)
+  - [5. Trailing whitespaces\_](#5-trailing-whitespaces)
   - [6. Files naming](#6-files-naming)
   - [Continue](#Continue)
 
@@ -128,14 +128,11 @@ p {
   </p>
   <p class="quotation">«Hello world»</p>
   <p>
-    I still don't know what to write here, but it's definitely the second paragraph.
+    I still don't know what to write here, but it's definitely the second
+    paragraph.
   </p>
-  <p class="quotation">
-    «Hello world 2»
-  </p>
-  <p>
-    Just some common bla-bla text :).
-  </p>
+  <p class="quotation">«Hello world 2»</p>
+  <p>Just some common bla-bla text :).</p>
 </section>
 ```
 
@@ -228,8 +225,7 @@ By taking this approach, you are doing clever coding and over-optimization. Both
 
 A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than becoming more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "English Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
 
-[More on Wikipedia](<https://en.wikipedia.org/wiki/KISS_principle>)
-
+[More on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
 </details>
 
@@ -331,6 +327,7 @@ Spaces at the end of a line are unnecessary, and they complicate commit changes 
 Use the same files naming styleguide in the project. It is recommended to use lower case spelling with words separated by hyphens.
 
 It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless otherwise specified in the text of the task). Component-by-component folder structure is also acceptable (meaning storing all files related to a certain component in one folder).
+
 ```
 /assets
 	right-arrow-image.svg

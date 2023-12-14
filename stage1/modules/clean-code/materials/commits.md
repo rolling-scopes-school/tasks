@@ -10,14 +10,12 @@ Each commit should have
 - either completed fix of a defect in code
 - either completed code refactoring
 
-
 Long story short, all changes in a commit should be described by one sentence with a single predicate.
 
 **Why is it required?**
 
 - When mentor will review your Pull Request, it will be easier to them to look through a list of commits and check logic in each commit separately, than review code of whole application.
 - If logic of one commit is wrong, you will be able to `revert` it without touching other functionality.
-
 
 ## Commits name requirements
 
