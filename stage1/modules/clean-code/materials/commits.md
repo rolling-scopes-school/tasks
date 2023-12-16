@@ -1,42 +1,42 @@
-#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../)
+#### [Stage#1](../../) > [Clean Code S1E1](../)
 
-# Правила работы с GIT
+# Git rules
 
-## Требования содержанию коммита
+## Commits content requirements
 
-За каждым коммитом должна стоять
+Each commit should have
 
-- или законченная функциональность / документация
-- или полноценное исправление дефекта кода
-- или законченный рефакторинг кода
+- either completed functionality / documentation
+- either completed fix of a defect in code
+- either completed code refactoring
 
-Проще говоря, все изменения в коммите, могут быть легко описаны одним простым предложением с единственным сказуемым.
+Long story short, all changes in a commit should be described by one sentence with a single predicate.
 
-**Зачем это нужно?**
+**Why is it required?**
 
-- Когда ментор будет проверять ваш Pull Request, ему будет проще пройтись по списку коммитов и проверить логику в каждом из них по отдельности, чем охватывать код всего приложения разом.
-- Если логика одного из коммитов будет ошибочной, у вас будет возможность быстро сделать `revert` одного коммита, нежели по крупицам собирать куски кода неверной функциональности.
+- When mentor will review your Pull Request, it will be easier to them to look through a list of commits and check logic in each commit separately, than review code of whole application.
+- If logic of one commit is wrong, you will be able to `revert` it without touching other functionality.
 
-## Требования к именам коммитов
+## Commits name requirements
 
-- Названия коммитов должны быть согласно [гайдлайну](https://www.conventionalcommits.org/en/v1.0.0/)
-- Должен использоваться present tense («add feature», not «added feature»)
-- Должен использоваться imperative mood («move cursor to...», not «moves cursor to...»)
+- Commits' name must follow [the guideline](https://www.conventionalcommits.org/en/v1.0.0/)
+- Present tense must be used (e.g. `"add feature"`, not `"added feature"`)
+- Imperative mood must be used (e.g. `"move cursor to ..."`, not `"moves cursor to ..."`)
 
-### Примеры имен коммитов
+### Examples of commits' names
 
-- `init`: – используется для начала проекта/таска.
+- `init`: - is used for the beginning of a project or a task.
 
-  **Примеры:**
+  **Examples:**
 
-  ```js
-  init: start youtube-task
+  ```
+  init: start youtube task
   init: start mentor-dashboard task
   ```
 
-- `feat`: – это реализованная новая функциональность из технического задания (добавил поддержку зуммирования, добавил footer, добавил карточку продукта).
+- `feat`: – is used for adding a new feature (added zoom, added footer, updated product card etc.)
 
-  **Примеры:**
+  **Examples:**
 
   ```
   feat: add basic page layout
@@ -50,9 +50,9 @@
   feat: add real social icons
   ```
 
-- `fix`: – исправил ошибку в ранее реализованной функциональности.
+- `fix`: – is used for fixing some bugs.
 
-  **Примеры:**
+  **Examples:**
 
   ```
   fix: implement correct loading data from youtube
@@ -61,9 +61,9 @@
   fix: adjust social links for mobile
   ```
 
-- `refactor`: – новой функциональности не добавлял / поведения не менял. Файлы в другие места положил, удалил, добавил. Изменил форматирование кода (white-space, formatting, missing semi-colons, etc). Улучшил алгоритм, без изменения функциональности.
+- `refactor`: – code refactoring: application functionality wasn't changed, files were moved/created/deleted, code formatting changed, algorithms improved, but functional part is the same.
 
-  **Примеры:**
+  **Examples:**
 
   ```
   refactor: change structure of the project
@@ -72,32 +72,32 @@
   refactor: apply prettier
   ```
 
-- `docs`: – используется при работе с документацией/readme проекта.
+- `docs`: – is used for docs/README updates.
 
-  **Примеры:**
+  **Examples:**
 
   ```
   docs: update readme with additional information
   docs: update description of run() method
   ```
 
-## Требования к Pull Request (PR)
+## PR Requirements
 
-**Pull Request** – это место для обсуждения кода. Он не должен выглядеть как монолог студента или ментора. Будьте культурными, уважайте время и работу друг друга.
+**Pull Request** is a place to discuss code. It should not look like a student or mentor monologue. Be cultural, respect each other's time and work.
 
-### Описание Pull Request должно содержать следующую информацию:
+### The Pull Request description should contain the following information:
 
-- Ссылка на задание.
-- Скриншот результата выполнения задания (страница созданного приложения или сайта). Скриншот добавляем в Pull Request в виде изображения.
-- Ссылка на задеплоенную версию вашего приложения или сайта. Для деплоя можно использовать:
-  - при наличии приватного репозитория школы – `gh-pages`;
-  - при отсутствии приватного репозитория школы или при невозможности разместить приложение на gh-pages приватного репозитория школы – netlify.com либо на другом подобном хостинге.
-  - для демоверсий, размещённых на [netlify.com](netlify.com), название сайта даётся по схеме: `имя гитхаб-аккаунта – название таска`.
-- Дата сдачи / дата дедлайна.
-- Ваша самопроверка с предварительной оценкой.
-- Рекомендуется добавить ссылку на YouTube видео с самооценкой созданного проекта (только для заданий, которые проверяются при помощи cross-check).
+- A link to the task.
+- Screenshot of the result of the task (page of the created application or website). Add the screenshot to the Pull Request as an image.
+- A link to the deployed version of your application or website. You can use the following ways for the deployment:
+  - `gh-pages` if there is a private repository of the school;
+  - if there is no private repository of the school or if it is impossible to place the application on gh-pages of the school's private repository - netlify.com or other similar hosting.
+  - for demos hosted on [netlify.com](netlify.com), the site name is given as: `github account name - task name`.
+- Due Date / Deadline Date.
+- Your self-assessment with a preliminary grade.
+- It is recommended to add a link to a YouTube video of a self-check of the project you created (only for tasks that are cross-checked).
 
-#### Пример оформления:
+#### PR Example:
 
 ```markdown
 1. Task: [https://github.com/rolling-scopes-school/tasks/blob/master/tasks/fancy-weather.md]()
@@ -106,21 +106,21 @@
 4. Done 28.05.2020 / deadline 31.05.2020
 5. Score: 220 / 300
 
-   – Вёрстка, дизайн, UI (15/30)
+   – HTML, CSS, Design (15/30)
 
-   – [x] минимальная ширина страницы, при которой она отображается корректно – 320 рх (10)
-   – [±] внешний вид приложения внешне соответствует макету или является его улучшенной версией (5/10)
-   – [ ] приложение корректно отображается для любого выбранного языка (0)
-   – В блоке "Погода за сегодня" отображаются следующие данные (15/20)
+   – [x] The smallest available page width: 320px (10)
+   – [±] UI is copied from the template or is even improved (5/10)
+   – [ ] the application works correctly for each of the languages (0)
+   – The "Weather for tomorrow" block contains the following data (15/20)
 
-   – [x] данные о погоде и местоположении пользователя (10)
-   – [±] часы, обновляющие время каждую секунду (5/10)
+   – [x] weather and geolocation data (10)
+   – [±] clocks that are updated every second (5/10)
    ...
 
-6. Ссылка на YouTube видео с самооценкой.
+6. YouTube link with self-check.
 ```
 
-### Pull Request не должен содержать:
+### PR should not contain:
 
-- Закомментированного кода.
-- Лишних файлов, автосгенерированного кода, папки node_modules и т.д. Используйте `.gitignore` для таких случаев. [Подробнее](https://git-scm.com/docs/gitignore)
+- Commented code.
+- Some extra files, autogenerated code, node_modules folder etc. Use `.gitignore` for such cases. [More](https://git-scm.com/docs/gitignore)

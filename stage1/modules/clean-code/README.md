@@ -1,43 +1,42 @@
-# [Stage#1](../../) Проект 'Clean Code S1E1'
+# [Stage#1](../../) Project 'Clean Code S1E1'
 
-## В данном модуле студентам необходимо:
+## In this module, students should:
 
-- Познакомиться с общими принципами:
+- Learn the general principles:
   - DRY
   - KISS
   - YAGNI
-- Подходами к:
-  - Форматированию кода
-  - Написанию комментариев
-  - Оформлению коммитов и PRы
+- Approaches to:
+  - Code formatting
+  - Code comments writing
+  - Commits and PRs styling
   - JavaScript Style Guide
   - Tools, linters
-- Начать изучение практик написания чистого, читабельного кода
-- Потренировать навыки работы с VS Code и Git
+- Start learning the practices of writing clean, readable code
 
-## Приблизительное время прохождения модуля
+## Approximate time to complete the module
 
-10 часов
+10 hours
 
-## Теория
+## Theory part
 
-Вам необходимо прочитать руководство:
+You need to read the materials:
 
-- [Общие принципы](materials/generic-principles.md)
-- [Правила работы с GIT](materials/commits.md)
-- [Общие правила для HTML + CSS. Часть 1](materials/html-and-css.md)
-- [Общие правила для HTML + CSS. Часть 2](materials/html-and-css-extended.md)
+- [Generic Principles](materials/generic-principles.md)
+- [Git rules](materials/commits.md)
+- [Common rules for HTML & CSS. Part 1](materials/html-and-css.md)
+- [Common rules for HTML & CSS. Part 2](materials/html-and-css-extended.md)
 
-## Практика
+## Practice part
 
-1. Выполнить задание ['Clean Code S1E1'](clean-code-s1e1.md)
-2. Пройти тест в RS APP "Test for generic principles"
+1. Complete the task ['Clean Code S1E1'](clean-code-s1e1.md)
+2. Pass the "Test for generic principles" in the RS APP.
 
-## Дополнительные материалы
+## Additional materials
 
-- "Чистый код", Роберт Мартин
-- [Википедия: Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions)
+- "Clean code", Robert Martin
+- [Wikipedia: Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions)
 - [Git commit editing](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-  - [Как использовать Vim или поменять editor для Git](https://www.tempertemper.net/blog/changing-editor-for-git-on-the-command-line)
+  - [How to use Vim or how to change Git editor](https://www.tempertemper.net/blog/changing-editor-for-git-on-the-command-line)
 - [Refactoring code with VS Code](https://code.visualstudio.com/docs/editor/refactoring)
 - [Key bindings in VS Code](https://code.visualstudio.com/docs/getstarted/keybindings)

@@ -1,32 +1,30 @@
-#### [Stage#1](../../) > [Проект 'Clean Code S1E1'](../)
+#### [Stage#1](../../) > [Clean Code S1E1](../)
 
-# HTML & CSS. Продвинутый уровень
+# HTML & CSS. Advanced level.
 
 ## 1. HTML
 
-### 1.1. Семантика
+### 1.1. Semantics
 
-Используйте HTML так, как это было задумано.
+Use HTML the way it was intended to be used.
 
-Используйте теги по их прямому назначению: `<h1-6>` - для заголовков, `<p>` – для абзацев, `<a>` – для ссылок и т.д.
-Помимо `<div>`-ов для блоков вам нужно применять такие элементы, как `<aside>`, `<section>`, `<article>`.
+Use tags as it should be used: `<h1-6>` for headings, `<p>` for paragraphs, `<a>` for links etc.
+You should also you such elements as `<aside>`, `<section>`, `<article>`.
 
-**Почему?**
+**Why?**
 
-- Это облегчает чтение, редактирование и поддержку кода.
-- Также, если ваш сайт будет открываться на электронной книге,
-  то семантические теги помогут парсеру разобрать элементы вашей страницы на компоненты согласно их назначению
-  и правильно отобразить пользователю.
-- Так вы заботитесь обо всех пользователях:
-  если страница открывается в браузере в режиме чтения **для слабовидящих людей**,
-  специальный робот будет озвучивать читателю каждый элемент,
-  чтобы помочь распознать контент страницы. Этот робот полагается на добросовестное использование семантических тегов.
-  В противном случае читатель не сможет сориентироваться на вашем сайте.
-  (подробнее: [Accessibility](https://developer.mozilla.org/ru/docs/Learn/Accessibility/HTML))
-- Поисковые системы Google, Yandex, Bing используют семантические теги как ключевые слова, с помощью которых они лучше распознают внутреннее содержимое страницы,
-  и потому ранжируют такие страницы выше в результатах поиска.
-  Чем выше ваша страница ранжируется в поисковом запросе, тем больше пользователей ее посетят.
-  [Еще о SEO](https://developer.mozilla.org/ru/docs/Glossary/SEO)
+- This makes it easier to read, edit, and maintain code.
+- Also, if your site opens on an e-book,
+  semantic tags will help the parser parse your page elements into their intended components
+  and display them correctly to the user.
+- This is how you take care of all users:
+  if the page is opened in the mode for people who can't see well, a special robot will read each element so the user can recognize the page content. This robot relies on the fair use of semantic tags.
+  Otherwise, the reader will not be able to navigate your site.
+  (read more: [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML))
+- Search engines Google, Yandex, Bing use semantic tags as keywords with which they better recognize the internal content of a page,
+  and therefore rank such pages higher in search results.
+  The higher your page ranks in a search query, the more users will visit it.
+  [More on SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
 
 ```html
 <!-- Not recommended -->
@@ -36,36 +34,36 @@
 <a href="recommendations/"> All recommendations </a>
 ```
 
-**Советуем изучить:**
+**It's good to learn:**
 
-- [Подробнее о семантике здесь](https://developer.mozilla.org/ru/docs/Glossary/Semantics#semantics_in_html)
-- [И здесь](https://www.w3schools.com/html/html5_semantic_elements.asp)
-- [Советы по использованию](https://medium.com/@stasonmars/%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B8%CC%86-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-html5-c7cd5e6f1ebb)
+- [More about semantics here](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- [and here](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [Usage advices](https://medium.com/@stasonmars/%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B8%CC%86-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-html5-c7cd5e6f1ebb)
 
-### 1.2. Альтернатива для мультимедиа
+### 1.2. Media alternatives
 
-Всегда указывайте альтернативное содержимое для мультимедиа.
+Always specify alternative content for multimedia.
 
-Постарайтесь указать альтернативное содержимое для мультимедиа:
-например для картинок, видео или анимаций, заданных с помощью canvas.
+Try to specify alternative content for multimedia:
+For example, for pictures, videos, or animations defined with canvas.
 
-Для картинок – это осмысленный альтернативный текст (alt),
-а для видео и аудио – расшифровки текста и подписи, если это возможно.
+For pictures, this is a meaningful alternative text (alt),
+and for video and audio, transcripts and captions if possible.
 
-**Note!** Если для картинки `alt` избыточен или она используется только в декоративных целях в местах,
-где нельзя использовать CSS, _используйте пустой альтернативный текст_ `alt=""`.
+**Note!** If `alt` is redundant for a picture, or if it is used only for decorative purposes in places,
+where CSS cannot be used, _use the empty alternate text_ `alt=""`.
 
-**Почему?**
+**Why?**
 
-- Атрибут `alt` невероятно полезен для доступности:
-  программы чтения с экрана читают это описание своим слабовидящим пользователям,
-  чтобы дать им знать, что отображено на странице.
-- Это же описание используется поисковиками (Google, Yandex) для определения их содержания и отображения в результатах своего поиска.
-  Таким образом, это еще один способ увеличить число пользователей вашей страницы.
-- К тому же описание из `alt` отображается на странице,
-  если изображение не может быть загружено по какой-либо причине:
-  плохое соединение, блокировка контента или поломана ссылка на ресурс.
-- [Ещё подробнее](https://moz.com/learn/seo/alt-text)
+- The `alt` attribute is incredibly useful for accessibility:
+  screen reader programs read this description to their visually impaired users,
+  to let them know what is displayed on the page.
+- This same description is also used by search engines (Google, Yandex) to identify their content and display it in their search results.
+  So, this is another way to increase the number of users of your page.
+- Plus, the description from `alt` is displayed on the page,
+  if the image cannot be loaded for any reason:
+  bad connection, content blocking or broken resource link.
+- [Read more](https://moz.com/learn/seo/alt-text)
 
 ```html
 <!-- Not recommended -->
@@ -75,7 +73,7 @@
 <img src="spreadsheet.png" alt="Spreadsheet screenshot" />
 ```
 
-Файл субтитров добавляется с помощью `<track>`-элемента:
+The subtitle file is added using the `<track>` element:
 
 ```html
 <video preload="auto" width="480" height="360" poster="cute-kitten-video.jpg">
@@ -89,13 +87,13 @@
 
 ### 2.1. БЭМ
 
-Используйте БЭМ-нотацию для формирования имен классов.
+Use BEM notation to form class names.
 
-БЭМ (Блок, Элемент, Модификатор) – компонентный подход к веб-разработке. В его основе лежит принцип разделения интерфейса на независимые блоки. Он позволяет легко и быстро разрабатывать интерфейсы любой сложности и повторно использовать существующий код, избегая «Copy-Paste».
+BEM (Block, Element, Modifier) is a component-based approach to web development. It is based on the principle of dividing an interface into independent blocks. It allows you to easily and quickly develop interfaces of any complexity and reuse existing code, avoiding "Copy-Paste".
 
-БЭМ берет свое начало в компании Яндекс, однако распространился далеко за ее пределы.
+BEM originated in Yandex, but has spread far beyond its borders.
 
-Вкратце, в основе БЭМ лежит идея разделения любого интерфейса на блоки. Неотделимые части блоков – элементы. У тех и других есть модификаторы.
+Briefly, BEM is based on the idea of dividing any interface into blocks. The inseparable parts of the blocks are elements. Both have modifiers.
 
 ```html
 <ul class="menu">
@@ -111,10 +109,10 @@
 </ul>
 ```
 
-В качестве примера рассмотрим меню сайта. Оно может быть в шапке и в боковой части сайта – значит, это блок. В нём есть обязательные части: элементы списка меню, заголовок – это его элементы. Если какой-то элемент меню является активным, то ему даётся модификатор.
+As an example, let's look at the site menu. It can be in the header and in the side of the site - so it is a block. It has mandatory parts: menu list items, title - these are its elements. If some menu element is active, it is given a modifier.
 
-#### Еще больше интересного про БЭМ:
+#### Even more interesting things about BEM:
 
-- Здесь: [История БЭМ, для чего нужен, как использовать](https://habr.com/ru/company/yandex/blog/276035/)
-- И здесь: [БЭМ первые шаги, подробная документация](https://ru.bem.info/methodology/quick-start/)
-- Ну и тут: [БЭМ для начинающих. Очевидные и неочевидные вопросы верстки](https://medium.com/@innabelaya/%D0%B1%D1%8D%D0%BC-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-1a21d67cf840)
+- Here: [BEM history and why do we need it](https://habr.com/ru/company/yandex/blog/276035/)
+- And here: [First BEM steps and docs](https://en.bem.info/methodology/quick-start/)
+- Also, here: [BEM for beginners. Easy and hard parts of development](https://medium.com/@innabelaya/%D0%B1%D1%8D%D0%BC-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-1a21d67cf840)
