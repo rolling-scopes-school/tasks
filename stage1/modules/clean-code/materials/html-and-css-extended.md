@@ -85,7 +85,7 @@ The subtitle file is added using the `<track>` element:
 
 ## 2. CSS
 
-### 2.1. БЭМ
+### 2.1. BEM
 
 Use BEM notation to form class names.
 
