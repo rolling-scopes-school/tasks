@@ -67,8 +67,8 @@ Use double quotes instead of single quotes for HTML attributes and CSS propertie
 
 Put every block, table or list element on a new line, regardless of their styles.
 
-Intend each nested element, thus respecting the nesting ladder.
-Inline elements can (but do not have to) be put to a new line and intended to improve code readability.
+Indent each nested element, thus respecting the nesting ladder.
+Inline elements can (but do not have to) be put to a new line and indented to improve code readability.
 
 - Element `<em>` is used to highlight a substring on a paragraph. It can stay where it is, because it is an inline element.
 - Element `<p>` is a block element, so it must be put on a new line.
@@ -319,7 +319,7 @@ div.error {
 
 ### 3.5. Indentation in blocks
 
-Always intend the content of blocks.
+Always indent the content of blocks.
 
 Always indent any content in a block (blocks are separated by curly braces `{}`).
 For example for rules within rules or declarations, to show hierarchy and make the code easier to understand.
