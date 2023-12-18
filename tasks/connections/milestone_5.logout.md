@@ -59,7 +59,7 @@ _status code_ **400**
 
 ###### Passed token is invalid
 
-_status code_ **400**
+_status code_ **401**
 
 ```json
 {
