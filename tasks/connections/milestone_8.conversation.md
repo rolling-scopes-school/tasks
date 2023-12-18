@@ -27,8 +27,8 @@ supposed to indicate how much time left. Countdown disappears when time is out.
 > [!NOTE]
 > Countdown(timer) should display the actual number of seconds remaining until the end of one minute
 > after the _Update_ button is pressed, even if the user navigates across pages. That is, if the user
-> presses the _Update_ button, goes to other pages, and returns to the list page after 23 seconds, he
-> should see the timer showing 37, 36, 35...
+> presses the _Update_ button, goes to other pages, and returns back to the list page after 23
+> seconds, he should see the timer showing 37, 36, 35...
 
 **_Delete_ button**  
 Clicking on this button the conversation will be deleted and the partner will not be able to sent
