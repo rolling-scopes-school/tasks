@@ -1,23 +1,24 @@
 # [Stage#1.](../../) HTML Builder
 
-## В данном модуле студентам необходимо:
+## Module Overview 📚
 
-Закрепить основы NodeJS
+The block consists of five small tasks of increasing complexity and a final assignment.  
+The tasks focus on the study of specific topics such as working with files, streams, events, paths, and directories. Materials and a possible algorithm for completing each task are provided.  
+The final assignment involves using the skills acquired earlier to create a small console utility that allows assembling a static site from HTML components and style files.
 
-## Приблизительное время прохождения модуля
+## Learning Objectives 🎯
 
-16 часов
+During the completion of this task, students will:
 
-## Цели задания:
+- Solidify the basics of NodeJS
+- Gain skills in working with the file system
+- Familiarize themselves with streams and events
+- Acquire skills in working with paths and the Path module
 
-- Получение навыков работы с файловой системой
-- Знакомство с streams и events
-- Получение навыков работы с путями и модулем Path
+## Approximate Module Completion Time ⏱️
 
-## Описание:
+- **16 hours**
 
-Блок состоит из пяти небольших задач с нарастающей сложностью и финального задания. Задачи сосредоточенны на изучении конкретных тем, таких как: работа с файлами, потоками, событиями, путями и директориями. Для каждой из задач предоставлены материалы и возможный алгоритм выполнения. Финальное задание предполагает использование полученных ранее навыков для создания небольшой консольной утилиты позволяющей собрать статический сайт из HTML компонентов и файлов стилей.
+## Practice 💻
 
-## Ссылка на репозиторий задания:
-
-https://github.com/EvgeniiMal/HTML-builder
+- [Task Repository](https://github.com/rolling-scopes-school/HTML-builder)
