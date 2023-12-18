@@ -30,7 +30,7 @@ Students are encouraged to study the following resources:
 
 ## Practice 💻
 
-- Complete the test "Client - Server interaction" in the RS-App > Auto Test.
+- Complete the test "[St1] Client - Server interaction" in the RS-App > Auto Test.
 
 ## Additional Resources 📘
 
@@ -46,3 +46,4 @@ Expand your knowledge with these additional materials:
 8. [Evolution of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP)
 9. [What Is HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
 10. [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo&t=14s)
+11. [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
