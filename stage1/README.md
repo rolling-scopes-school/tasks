@@ -229,9 +229,17 @@
 
 #### January 16, 2024
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["virtual-keyboard"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
-- [Module: "Node.js"](modules/node-materials/)
-- [Project "HTML-Builder"](modules/html-builder/)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Hangman"](tasks/hangman/)
+
+- Modules:
+
+  - [Module: "Node.js"](modules/node-materials/)
+
+- Tasks:
+
+  - [Project "HTML-Builder"](tasks/html-builder/)
 
 ### Week #10
 
