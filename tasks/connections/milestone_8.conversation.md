@@ -169,6 +169,17 @@ _status code_ **400**
 }
 ```
 
+###### Conversation id parameter is wrong
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Validation of \"conversationID\" parameter failed"
+}
+```
+
 ---
 
 > `POST` https://tasks.app.rs.school/angular/conversations/append

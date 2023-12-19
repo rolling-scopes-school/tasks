@@ -168,6 +168,17 @@ _status code_ **400**
 }
 ```
 
+###### Group id parameter is wrong
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Validation of \"groupID\" parameter failed"
+}
+```
+
 ---
 
 > `POST` https://tasks.app.rs.school/angular/groups/append
