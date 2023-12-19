@@ -12,7 +12,8 @@ If action succeed user supposed to be redirected into [Login page](./milestone_2
 
 Special button `Logout` should be places on the [Profile page](#milestone-3-profile) in the top
 right corner.
-Button can be pressed once and button should be disabled until previous http-request is completed.
+Button can be pressed once and button should be disabled (user cannot click it) until previous
+http-request is completed.
 
 ### Endpoint
 
@@ -58,7 +59,7 @@ _status code_ **400**
 
 ###### Passed token is invalid
 
-_status code_ **400**
+_status code_ **401**
 
 ```json
 {

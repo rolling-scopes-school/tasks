@@ -12,11 +12,11 @@ The button _Edit_ should be present on the page. Clicking on the button field `n
 editable, _Save_ button appears to save new data on the server via http-request, _Cancel_ button
 appears to revert back state to static form without modifications.
 
-_Save_ button is disabled (or is not visible) while http-request is sent and other updating
-processes are in progress to prevent clicking the button multiple times in a row.  
-_Cancel_ button is disabled (or is not visible) while http-request is sent and other updating
-processes are in progress to prevent editing from being canceled if the updating process is already
-running.
+_Save_ button is disabled (user cannot click it) or is not visible while http-request is sent and
+other updating processes are in progress to prevent clicking the button multiple times in a row.  
+_Cancel_ button is disabled (user cannot click it) or is not visible while http-request is sent and
+other updating processes are in progress to prevent editing from being canceled if the updating
+process is already running.
 
 Form field `name` should obey the same validation rules as
 on [Registration page](./milestone_1.registration.md).

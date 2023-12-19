@@ -30,8 +30,8 @@ button till the next update is possible. If time is out countdown disappears.
 This state should be preserved even after transition to other pages and back.
 
 > [!NOTE]
-> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
-> First visit on the page should not have any effect on timer.
+> Countdown(timer) and disabled _Update_ button (user cannot click it) is applied only after
+> clicking on _Update_ button. First visit on the page should not have any effect on timer.
 
 > [!NOTE]
 > Countdown(timer) should display the actual number of seconds remaining until the end of one minute
@@ -322,8 +322,8 @@ button till the next update is possible. If time is out countdown disappears.
 This state should be preserved even after transition to other pages and back.
 
 > [!NOTE]
-> Countdown(timer) and disabled _Update_ button is applied only after clicking on _Update_ button.  
-> First visit on the page should not have any effect on timer.
+> Countdown(timer) and disabled _Update_ button (user cannot click it) is applied only after
+> clicking on _Update_ button. First visit on the page should not have any effect on timer.
 
 > [!NOTE]
 > Countdown(timer) should display the actual number of seconds remaining until the end of one minute
@@ -362,8 +362,6 @@ Mateo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 > `GET` https://tasks.app.rs.school/angular/users
 
 Retrieves list of participants.
-
-_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
 
 #### Request headers
 
@@ -424,8 +422,6 @@ _status code_ **400**
 > `GET` https://tasks.app.rs.school/angular/conversations/list
 
 Retrieves list of active conversations of current user.
-
-_You can use this endpoint only once during 1 browser session (until the user refreshes the page)._
 
 #### Request headers
 
@@ -598,11 +594,12 @@ _status code_ **400**
   list if succeeded: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
   (except if error occurs): **10 points**
-- _Update_ button is disabled after clicking during updating and until the timer
-  is active: **5 points**
+- _Update_ button is disabled (user cannot click it) after clicking during updating and until the
+  timer is active: **5 points**
 - clicking on _Create_ button the modal window is opened. There is form with validation and
   submit button: **10 points**
-- submit button in modal window should be disabled until form is valid: **5 points**
+- submit button in modal window should be disabled (user cannot click it) until form
+  is valid: **5 points**
 - clicking on submit button in modal window the appropriate http-request is sent to create new
   group. Modal window is closed only if http-request succeeded: **15 points**
 - [toast messages](./README.md#toast) with appropriate text are displayed if http-request fails or
@@ -618,7 +615,7 @@ _status code_ **400**
   if succeeded: **10 points**
 - countdown appears for 1 minute after clicking on _Update_ button
   (except if error occurs): **10 points**
-- _Update_ button is disabled after clicking during updating and until the
+- _Update_ button is disabled (user cannot click it) after clicking during updating and until the
   timer is active: **5 points**
 - clicking on list item the user is redirected to personal conversation page. New conversation (via
   certain http-request) is created if it has not already created before transition: **15 points**
