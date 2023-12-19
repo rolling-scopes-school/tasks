@@ -59,16 +59,16 @@ of `Default`.
 
 ## Mounting
 
-The source code of your project should be pushed to school repository into dedicated _connections_
-folder alongside other projects. As a result application is supposed to use real backend and be
-deployed to any public host-provider
-to make your project reachable to allow other students check it out.
+The source code of your project should be pushed to **school repository** into dedicated
+_connections_ folder alongside other projects. As a result application is supposed to be deployed to
+any public host-provider to make your project reachable to allow other students check it out.
+A link to your working deployed project should be submitted in [RSApp](https://app.rs.school).
 
-All changes have to be merged into primary branch (_main_, _master_). There should be no any active
-branches or merge/pull requests in your repository.
+All changes have to be merged into primary branch (_main_, _master_) in your repository. There
+should be **no any active** branches or merge/pull requests.
 
-In the README.md file of your project a brief description should be defined what
-milestones were made and the link to deployed running version.
+In the **README.md** file of your project a brief description should be defined what milestones were
+made and the **link** to deployed running version.
 
 ## Milestones
 

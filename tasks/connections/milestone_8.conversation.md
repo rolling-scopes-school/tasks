@@ -169,6 +169,17 @@ _status code_ **400**
 }
 ```
 
+###### Conversation id parameter is wrong
+
+_status code_ **400**
+
+```json
+{
+  "type": "InvalidFormDataException",
+  "message": "Validation of \"conversationID\" parameter failed"
+}
+```
+
 ---
 
 > `POST` https://tasks.app.rs.school/angular/conversations/append
@@ -378,3 +389,5 @@ _status code_ **400**
 - while user is on this conversation page, he reloads the page and navigates to the main page.
   Http-request to `/conversations/list` or `/users` is sent more than once (if user do not click
   _Update_ button): **-25 points**
+- user can enter the page of existing dialog and see the messages even if he is
+  not authorized: **-15 points**
