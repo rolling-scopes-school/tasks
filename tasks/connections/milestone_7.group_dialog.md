@@ -320,3 +320,5 @@ _status code_ **400**
 - while user is on this dialog page, he reloads the page and navigates to the main page.
   Http-request to `/groups/list` is sent more than once (if user do not click _Update_
   button): **-25 points**
+- user can enter the page of existing dialog and see the messages even if he is
+  not authorized: **-15 points**
