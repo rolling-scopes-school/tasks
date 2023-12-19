@@ -624,18 +624,16 @@ _status code_ **400**
 
 #### Group section
 
-- list of groups via `/groups/list` is automatically loaded more than once during 1 browser
-  session (until the user refreshes the page) if user do not click _Update_ button. For instance,
-  when user navigates through the pages, sends new messages, deletes or creates
-  group(s): **-30 points**
+- list of groups via `/groups/list` is automatically (_Update_ button is not pressed) loaded more
+  than once **until** user logs out or refreshes the browser's page. For instance, when user
+  navigates through the pages, sends new messages, deletes or creates group(s): **-30 points**
 
 #### People list
 
-- list of conversations via `/conversations/list` is automatically loaded more than once during 1
-  browser session (until the user refreshes the page) if user do not click _Update_ button. For
-  instance, when user navigates through the pages, sends new messages, deletes or creates
+- list of conversations via `/conversations/list` is automatically (_Update_ button is not pressed)
+  loaded more than once **until** user logs out or refreshes the browser's page. For instance, when
+  user navigates through the pages, sends new messages, deletes or creates
   conversation(s): **-20 points**
-- list of users via `/users` is automatically loaded more than once during 1 browser session (until
-  the user refreshes the page) if user do not click _Update_ button. For instance, when user
-  navigates through the pages, sends new messages, deletes or creates
-  conversation(s): **-20 points**
+- list of users via `/users` is automatically (_Update_ button is not pressed) loaded more than once
+  **until** user logs out or refreshes the browser's page. For instance, when user navigates through
+  the pages, sends new messages, deletes or creates conversation(s): **-20 points**
