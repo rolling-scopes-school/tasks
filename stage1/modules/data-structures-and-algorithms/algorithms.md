@@ -22,6 +22,7 @@ The faster the execution time of a function increases with the number of element
 - O(n)
 - O(n log n)
 - O(n²)
+- O(2^n)
 - O(n!)
 
 Their efficiencies:
@@ -115,10 +116,14 @@ This process repeats until only one set remains.
 
 One of the fundamental sorting algorithms.
 
+###### Note
+
+Merge sort performs well when sorting large lists, but its operation time is slower than other sorting solutions when used on smaller lists. Another disadvantage of merge sort is that it will execute the operational steps even if the initial list is already sorted, which causes the complexity of this algorithm to remain consistent in all cases: best, worst, and average.
+In the use case of sorting linked lists, merge sort is one of the fastest sorting algorithms to use.
+
 #### Complexity (Big-O)
 
-- Best case: **O(n)**
-- Average and worst cases: **O(n log n)**
+- Best, average and worst cases: **O(n log n)**
 
 #### Implementation
 
@@ -187,6 +192,15 @@ quickSort(arr);
 - Quick sort **sequentially** divides the dataset by the average value until it is recursively sorted
 
 ### Binary Search
+
+Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration.
+
+![Visual representation of binary search work](images/binary-search-work.gif)
+
+#### Complexity (Big-O)
+
+- Best case: **O(1)**
+- Average and worst cases: **O(log n)**
 
 #### Implementation
 
