@@ -162,8 +162,7 @@ Although the Big-O values here are the same as many other sorting algorithms (an
 
 #### Complexity (Big-O)
 
-- Best case: **O(n)**
-- Average case: **O(n log n)**
+- Best and average cases: **O(n log n)**
 - Worst case: **O(n²)**
 
 #### Implementation
