@@ -1,15 +1,28 @@
 # [Stage#2.](../../) TypeScript Basic
 
-## В данном модуле студентам необходимо приобрести следующие навыки:
+## Module Overview 📚
 
-- способность читать код, написанный на TypeScript
-- описание переменных с примитивными типами данных
-- умение писать код c использованием TypeScript
-- использование `interface`, `type`, `classes`, `enum`, `generic`, `union`
-- использование функций
-- понимание модулей в TypeScript
+This module introduces students to TypeScript Basics. It aims to provide an in-depth understanding of key concepts such as reading and writing TypeScript code, describing variables with primitive data types, and exploring essential TypeScript constructs like interface, type, and more.  
+The module covers a range of topics from fundamental TypeScript skills to theoretical aspects, fostering a solid understanding of the basics of TypeScript among students.
 
-## Теория
+## Learning Objectives 🎯
+
+In this module, students are expected to develop a range of essential skills, including:
+
+- Reading TypeScript code
+- Describing variables using primitive data types
+- Writing code in TypeScript
+- Exploring concepts like `interface`, `type`, `classes`, `enum`, `generic` and `union`
+- Using functions appropriately
+- Gaining a basic understanding of TypeScript modules
+
+## Approximate Module Completion Time ⏱️
+
+- **8 hours**
+
+## Theory 📖
+
+// TODO: update materials
 
 - [Интерактивный курс по TypeScript](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
 
@@ -19,11 +32,13 @@
   - [part 2](https://youtu.be/CegrbRXGw20)
 - [Вебинар Angular 2021q1. Intro (RU)](https://youtu.be/VeDh-lBCgh0?list=PLzLiprpVuH8f3t4lncrwtZOyYxAR8rkMk&t=4169)
 
-## Практика
+## Practice 💻
 
-- Вам необходимо пройти тест "TS Basic" в RS APP > Auto Test
+- Complete the test "[St2] TS Basic" in the RS-App > Auto Test.
 
-## Дополнительные материалы
+## Additional Resources 📘
+
+// TODO: update materials
 
 - [Basic Type](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
 - [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
