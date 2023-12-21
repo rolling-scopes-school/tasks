@@ -38,7 +38,7 @@ In this part of the task, you need to add the following functionality to the web
 
 ### CrossCheck Criteria (90 points)
 
-1. Implementation of the burger menu on both pages: **+22**
+1. Implementation of the **burger menu** on both pages: **+22**
    - At a page width of 768px or less, the navigation panel hides, and the burger icon appears: **+2**
    - When clicking the burger icon, the burger menu slides out from the right, and the burger icon smoothly transforms into a cross: **+4**
    - The burger menu occupies the entire available screen area below the `<header>` block: **+2**
@@ -48,7 +48,7 @@ In this part of the task, you need to add the following functionality to the web
    - When clicking on any link (interactive or non-interactive) in the menu, the burger menu smoothly hides to the right, and the cross smoothly transforms into a burger icon: **+2**
    - The placement and dimensions of elements in the burger menu match the layout (horizontal centering of menu items): **+2**
    - When the page width increases to 769px or higher, the burger icon and the open burger menu hide, and the navigation panel appears: **+2**
-2. Implementation of the carousel on the `home` page: **+24**
+2. Implementation of the **Carousel** on the `home` page: **+24**
    - Carousel elements are automatically scroll to the left with a specified time interval by default. The time interval duration is at the student's choose, but the recommended value is 5-7 seconds: **+4**
    - The current state until the next automatic switch is shown in the progress bar of the corresponding slide by filling it with color: **+4**
    - Only the progress bar of the current slide can be filled; the rest remain in their default state: **+2**
@@ -62,13 +62,14 @@ In this part of the task, you need to add the following functionality to the web
      ![](carousel_desktop.gif)
    - Example of carousel operation on mobile:
      ![](carousel_mobile.gif)
-3. Categories of products on the `menu` page: **+16**
+3. Implementation of the **Category switching** for products on the `menu` page: **+4**
    - The **Coffee** category is active and the corresponding products are displayed when opening or reloading the `menu` page: **+2**
    - When switching categories, the products of the selected category are displayed: **+2**
+4. Implementation of the **Loading more products** on the `menu` page **+12**
    - For screens with a width of 768px or less, when opening/reloading the page or switching categories, only 4 products are displayed. If there are more than 4 products in the displayed category, a **Load More** button is displayed below: **+4**
    - When clicking the **Load More** button below the displayed products, the missing products are added, and the **Load More** button is hidden: **+4**
    - When changing the screen width, the product display mode (8 products per page or 4 products with a **Load More** button) changes without page reloading: **+4**
-4. The Modal on the `menu` page: **+20**
+5. Implementation of the **Modal** for selected product on the `menu` page: **+20**
    - The Modal with the description of a specific product opens when clicking on any part of a card of product: **+2**
    - The part of the page outside the Modal is darkened: **+2**
    - When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+2**
@@ -77,7 +78,7 @@ In this part of the task, you need to add the following functionality to the web
    - After the Modal is opened, the 'Size' option 'S' is selected, and no option in the 'Additives' section is selected. The product's final price is the same as in the card: **+2**
    - Only one 'Size' option can be selected. Changing this option also changes the final price of the product based on the choice (+$0.00 for **S**, +$0.50 for **M**, +$1.00 for **L**): **+4**
    - Multiple 'Additives' options can be selected, and each selected option increases the final price of the product by $0.50: **+4**
-5. Video on the `home` page: **+8**
+6. Video on the `home` page: **+8**
    - In the `Enjoy` block of the `home` page, a video is played in the background instead of an image, without sound and control elements, and without the ability to interact with it: **+4**
    - After the video is finished, it automatically starts over: **+4**
 
