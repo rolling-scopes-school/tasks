@@ -40,6 +40,7 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 Theory:
+
 - [The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
 - [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 - [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
@@ -50,9 +51,11 @@ Theory:
 - [Namespaces and Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html)
 
 Video:
+
 - [TypeScript Full Course for Beginners](https://www.youtube.com/watch?v=gieEQFIfgYc)
 
 Tools and Exercises:
+
 - [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
 - [TypeScript Exercises](https://typescript-exercises.github.io/)
 - [Collection of TypeScript Type Challenges](https://github.com/type-challenges/type-challenges)
