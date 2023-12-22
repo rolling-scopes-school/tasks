@@ -12,7 +12,7 @@ Do not use tabs for indentation and do not mix indentation types (tabs and space
 <details>
     <summary>Why?</summary>
 
-Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a beautiful file in your IDE may look quite ugly in another IDE.
+Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a file which looks beautiful in your IDE may look quite ugly in another IDE.
 
 </details>
 
@@ -177,9 +177,9 @@ Do not use `type` attribute when connecting styles and scripts (use it only if y
 
 ### 2.5. HTML Line-Wrapping
 
-Break long lines to multiple lines.
+Break long lines into multiple lines.
 
-Breaking a long text to multiple lines may significantly increase code readability.
+Breaking a long text into multiple lines may significantly increase code readability.
 
 ```html
 <md-progress-circular

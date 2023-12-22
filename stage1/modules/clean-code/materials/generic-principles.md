@@ -210,7 +210,7 @@ An example of violating this principle is writing a separate function just to pe
 
 `(4 >> 1) === (4 / 2)`
 
-The last one may be more efficient for some program compilers than the usual `/ 2` division, but the code's clarity is very much reduced.
+It may be more efficient for some program compilers than the usual `/ 2` division, but the code's clarity is very much reduced.
 
 > Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://thefullsnack.com/en/bitwise-javascript-fast.html).
 
@@ -223,7 +223,7 @@ By accepting this approach, you are doing clever coding and over-optimization. B
 
 **History:**
 
-A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than become more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
+A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than become more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with an aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
 
 [More on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
@@ -286,7 +286,7 @@ function addSetEntry(set, value) {
 
 _Some part of comments_
 
-TODO - from English _to do_ is used to denote a planned change directly in code comments. Usually this task refers to changes that are not urgent but rather important. That's why developers leave a kind of reminder to themselves and other programmers right in the code.
+TODO - from English _to do_ is used to denote a planned change directly in code comments. Usually this task refers to changes that are not urgent but rather important. That's why developers leave a kind of a reminder for themselves and other programmers right in the code.
 
 - Use the prefix "TODO: ..." in front of such notation.
 - Use only this type of notation for TODO tasks.
