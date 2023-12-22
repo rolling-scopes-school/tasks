@@ -41,7 +41,7 @@ Also, remember to create a Pull Request from the development branch `self-introd
 
 The maximum score for the task is **100 points**.
 
-- In the video, the author talks about themselves in English, and the video lasts for about 3-5 minutes (variation within 15 seconds must not be considered either an error or a reason to subtract any points) — **+50 points**.
+- There is a link to the video with the self-presentation. In the video, the author talks about themselves in English, and the video lasts for about 3-5 minutes (variation within 15 seconds must not be considered either an error or a reason to subtract any points) — **+50 points**.
 - There is a transcript of the presentation. The transcript is in English and contains the complete text of the presentation (it is allowed for the script to be slightly edited, though) — **+50 points**.
 
 **Nota bene**: When evaluating, there is **no need to assess the level of English** or the quality of the presentation. Follow only the criteria described above.
