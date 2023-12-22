@@ -60,7 +60,7 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
 
 ## Repository requirements
 
-- The task must be done in ***private school's repository**.
+- The task must be done in **\*private school's repository**.
 - The code must be committed to a separate branch **named as the task**.
 - The `main` (or old style master) branch **must be empty** (contain only files like README.md or .gitignore).
 - Commit messages must follow the [guideline](https://docs.rs.school/#/git-convention)
@@ -100,6 +100,7 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [ ] When the user clicks the 'play again' button, the game starts over by showing a new question and resetting the gallows, the incorrect guesses counter and the underscores for the secret word: `+15`
 
 ## Penalties:
+
 - The question-answer pair remains the same upon refreshing the page _(please, refresh the page **multiple times** to verify this requirement)_: `-20`
 - When clicking on 'play again' button, the newly selected question-answer pair is identical to the previous one: `-20`
 - When clicking on 'play again' button, the elements on the page are reset by reloading the page instead of updating them dynamically: `-50`
