@@ -247,7 +247,7 @@
 
 - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- [Module: "Webpack"](modules/webpack/)
+- [Module: "Bundlers"](modules/bundlers/)
 - [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
 
 ### Week #11
