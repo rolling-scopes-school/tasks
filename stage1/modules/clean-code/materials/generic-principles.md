@@ -25,7 +25,7 @@ Very briefly: directly.
 
 A bit longer:
 
-As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritation when you see code written by another programmer, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
+As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritation when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
 
 One more reason - a single standard saves time on writing code. You don't spend a minute thinking about which case to use to name a variable and which writing style to choose, but write according to the accepted style.
 
@@ -201,7 +201,7 @@ function logDayPlan(weekday, tasks) {
 
 Sometimes the most correct solution is the simplest realization of a task without anything extra.
 
-The simpler the code is, the easier it is to understand, both for you and for other people involved in its support. Simplicity means refraining from using gimmicky patterns and unnecessary complication.
+The simpler the code is, the easier it is to understand, both for you and for other people involved in its support. Simplicity means refraining from using tricky patterns and unnecessary complication.
 
 <details>
     <summary>Examples:</summary>

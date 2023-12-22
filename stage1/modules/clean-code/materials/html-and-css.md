@@ -132,7 +132,7 @@ HTML5 is recommended for all types of HTML files and is marked by the first tag 
 
 Do not use named character references.
 
-There is no sense to use named character references, such as `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) or `&#x263a;`(&#x263a;), when all files use the same encoding (UTF-8).
+There is no sense in using named character references, such as `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) or `&#x263a;`(&#x263a;), when all files use the same encoding (UTF-8).
 
 The only exception to this rule - special symbols in HTML (e.g. `<` and `&`) and "invisible" characters (e.g. non-breaking space `&nbsp;`).
 
@@ -199,7 +199,7 @@ Whichever style of name writing you choose, follow it throughout the project.
 
 If you use BEM, stick to that notation without exception.
 
-Otherwise, it is recommended that you use a hyphen to separate words in selectors and spell them in lower case, and all words in the selector must be separated.
+Otherwise, it is recommended that you use a hyphen to separate words in selectors and spell them in lower case, and all the words in the selector must be separated.
 
 [More about BEM](https://en.bem.info/methodology/quick-start/)
 
@@ -230,7 +230,7 @@ Otherwise, it is recommended that you use a hyphen to separate words in selector
 
 Use template or meaningful class names and identifiers.
 
-Instead of using ciphers or describing the appearance of an element, try to express in the name of a class or identifier the meaning of its creation or give it a template name
+Instead of using ciphers or describing the appearance of an element, try to express the meaning of its creation in its name of a class or identifier or give it a template name.
 
 It is recommended to choose names that reflect the essence of the class because they are easier to understand and will likely not need to be changed in the future.
 
@@ -294,10 +294,10 @@ This use of classes and identifiers contributes to making code easier to underst
 
 Do not use tag selectors (except for intentionally resetting the default styles).
 
-It increases performance when applying styles by browser.
+It increases performance when applying styles by a browser.
 [More details here](https://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)
 
-You may want to change the tag you use to some other tag in the future, in which case you'll have to track down all the places where that tag is used in the styles and correct to the new one, while using classes / id helps abstract your styles from the details of your html layout.
+You may want to change the tag you use to some other tag in the future, in which case you'll have to track down all the places where that tag is used in the styles and replace it with the new one, while using classes / id helps abstract your styles from the details of your html layout.
 
 ```css
 /* Not recommended */
