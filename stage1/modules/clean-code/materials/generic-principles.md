@@ -19,7 +19,7 @@ Easily maintainable readable code is what any experienced developer wants. This 
 
 In the same way, you will be much more comfortable to understand someone else's code if it is written as clearly as possible and conforms to a common stylistic standard accepted in the team.
 
-But, it would seem, how do code styling rules (for example, the choice of `'` or `"` quotation marks and letter case) affect its readability?
+But how would code styling rules (for example, the choice of `'` or `"` quotation marks and letter case) affect its readability?
 
 Very briefly: directly.
 
