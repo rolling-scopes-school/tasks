@@ -46,9 +46,20 @@ Theory:
 - [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
 - [Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html)
 - [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
-- [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics)
 - [More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 - [Namespaces and Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html)
+- [The Never Type](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-never-type)
+- [Unknown Top Type](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type)
+- [Const Assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions)
+- [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
+- [Non-null Assertion Operator](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator)
+- [Satisfies Keyword](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator)
+- [Type Inference](https://www.typescriptlang.org/docs/handbook/type-inference.html#handbook-content)
+- [Intersection Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types)
+- [Union Types in TypeScript](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
+- [Keyof Type Operator](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content)
+- [TypeScript vs JavaScript](https://thenewstack.io/typescript-vs-javascript/)
+- [Interfaces vs. Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 
 Video:
 
