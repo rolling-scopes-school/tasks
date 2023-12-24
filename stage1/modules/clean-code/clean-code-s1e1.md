@@ -70,7 +70,7 @@ refactor: update CSS according to BEM to rule 2.1 in html-and-css-extended.md
 **Maximum amount of points for the task +45**
 
 - +2 points for each of 15 list items [beginner guideline](materials/html-and-css.md), which is fully completed\*.
-- +5 points for each of 3 list items [advanced guideline](materials/html-css-extended.md), which if fully completed\*.
+- +5 points for each of 3 list items [advanced guideline](materials/html-and-css-extended.md), which if fully completed\*.
 - If there are changes in margins and padding because of HTML tags' replacement, that insignificantly change the UI, that's not a mistake, no penalties should be applied.
 
 (\* the rule must be applied for the whole document, not just for a piece of code).
@@ -85,4 +85,4 @@ refactor: update CSS according to BEM to rule 2.1 in html-and-css-extended.md
 
 ## Hints
 
-- To create the commits students are offered to use [Commitizen](https://github.com/commmitizen/cz-cli). Its usage is not required.
+- To create the commits students are offered to use [Commitizen](https://github.com/commitizen/cz-cli). Its usage is not required.
