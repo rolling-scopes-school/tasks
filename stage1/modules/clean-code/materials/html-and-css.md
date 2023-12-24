@@ -230,7 +230,7 @@ Otherwise, it is recommended that you use a hyphen to separate words in selector
 
 Use template or meaningful class names and identifiers.
 
-Instead of using ciphers or describing the appearance of an element, try to express the meaning of its creation in its name of a class or identifier or give it a template name.
+Rather than relying on ciphers or describing an element's appearance, aim to convey the purpose behind its creation in the name of its class or identifier. Alternatively, assign a descriptive template name.
 
 It is recommended to choose names that reflect the essence of the class because they are easier to understand and will likely not need to be changed in the future.
 
