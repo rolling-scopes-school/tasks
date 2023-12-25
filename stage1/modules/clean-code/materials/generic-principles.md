@@ -324,7 +324,7 @@ Spaces at the end of a line are unnecessary, and they complicate commit changes 
 
 ### 6. Files naming
 
-Use the same files naming styleguide in the project. It is recommended to use lower case spelling with words separated by hyphens.
+Use the same files naming styleguide in the project.
 
 It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless otherwise specified in the requirements). Component-by-component folder structure is also acceptable (meaning storing all the files related to a certain component in one folder).
 
