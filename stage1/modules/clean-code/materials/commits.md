@@ -14,8 +14,8 @@ Long story short, all changes in a commit should be described by one sentence wi
 
 **Why is it required?**
 
-- When mentor will review your Pull Request, it will be easier to them to look through a list of commits and check logic in each commit separately, than review code of whole application.
-- If logic of one commit is wrong, you will be able to `revert` it without touching other functionality.
+- When a mentor is reviewing your Pull Request, it will be easier for them to look through the list of commits and check the logic in each commit separately than review the code of the whole application.
+- If the logic of one commit is wrong, you will be able to `revert` it without interfering with other functionality.
 
 ## Commits name requirements
 

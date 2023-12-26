@@ -8,8 +8,8 @@
 
 Use HTML the way it was intended to be used.
 
-Use tags as it should be used: `<h1-6>` for headings, `<p>` for paragraphs, `<a>` for links etc.
-You should also you such elements as `<aside>`, `<section>`, `<article>`.
+Use tags as they should be used: `<h1-6>` for headings, `<p>` for paragraphs, `<a>` for links etc.
+You should also use such elements as `<aside>`, `<section>`, `<article>`.
 
 **Why?**
 
@@ -19,7 +19,7 @@ You should also you such elements as `<aside>`, `<section>`, `<article>`.
   and display them correctly to the user.
 - This is how you take care of all users:
   if the page is opened in the mode for people who can't see well, a special robot will read each element so the user can recognize the page content. This robot relies on the fair use of semantic tags.
-  Otherwise, the reader will not be able to navigate your site.
+  Otherwise, the reader will not be able to navigate through your site.
   (read more: [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML))
 - Search engines Google, Yandex, Bing use semantic tags as keywords with which they better recognize the internal content of a page,
   and therefore rank such pages higher in search results.
@@ -109,7 +109,7 @@ Briefly, BEM is based on the idea of dividing any interface into blocks. The ins
 </ul>
 ```
 
-As an example, let's look at the site menu. It can be in the header and in the side of the site - so it is a block. It has mandatory parts: menu list items, title - these are its elements. If some menu element is active, it is given a modifier.
+As an example, let's look at the site menu. It can be in the header and on the side of the site - so it is a block. It has mandatory parts: menu list items, title - these are its elements. If some menu element is active, it is given a modifier.
 
 #### Even more interesting things about BEM:
 
