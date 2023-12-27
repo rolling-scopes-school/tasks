@@ -247,7 +247,7 @@
 
 - Cross-Check Reviews:
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
 
 - Modules:
 
@@ -275,7 +275,7 @@
 
 #### February 6, 2024
 
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1](../tasks)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1](/tasks)
 - [Project "Self-introduction"](modules/self-introduction/)
 - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
@@ -284,7 +284,7 @@
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](-(https://docs.rs.school/#/mentoring-kick-off)
+- [Confirming course registration](https://docs.rs.school/#/mentoring-kick-off)
 </details>
 
 ## ❓ FAQ
