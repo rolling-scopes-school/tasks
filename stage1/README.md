@@ -245,22 +245,37 @@
 
 #### January 23, 2024
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
-- [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
-- [Module: "Bundlers"](modules/bundlers/)
-- [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
+
+- Modules:
+
+  - [Module: "Client-Server interaction overview"](modules/client-server)
+  - [Module: "Bundlers"](modules/bundlers/)
+
+- Tasks:
+
+  - [Final task stage1](tasks/)
+
+- Tests:
+
+  - [[St1] Client - Server interaction](modules/client-server)
+  - [[St1] Introduction to Bundlers](modules/bundlers/)
 
 ### Week #11
 
 #### January 30, 2024
 
-- [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
+- Tasks:
+
+  - [Final task stage1](tasks/)
 
 ### Week #12
 
 #### February 6, 2024
 
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1 - Minesweeper](../tasks/minesweeper/README.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1](/tasks)
 - [Project "Self-introduction"](modules/self-introduction/)
 - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
@@ -269,7 +284,7 @@
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](-(https://docs.rs.school/#/mentoring-kick-off)
+- [Confirming course registration](https://docs.rs.school/#/mentoring-kick-off)
 </details>
 
 ## ❓ FAQ
