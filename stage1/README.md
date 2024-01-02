@@ -214,7 +214,7 @@
 - Modules:
 
   - [Module: "Modules in JS"](modules/modules-in-js/)
-  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
+  - [Module: "Bundlers"](modules/bundlers/)
 
 - Tasks:
 
@@ -223,7 +223,7 @@
 - Tests:
 
   - [[St1] Modules in JS](modules/modules-in-js/)
-  - [[St1] Chrome DevTools](modules/chrome-devtools/)
+  - [[St1] Introduction to Bundlers](modules/bundlers/)
 
 ### Week #9
 
@@ -251,8 +251,7 @@
 
 - Modules:
 
-  - [Module: "Client-Server interaction overview"](modules/client-server)
-  - [Module: "Bundlers"](modules/bundlers/)
+  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
 
 - Tasks:
 
@@ -260,16 +259,23 @@
 
 - Tests:
 
-  - [[St1] Client - Server interaction](modules/client-server)
-  - [[St1] Introduction to Bundlers](modules/bundlers/)
+  - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
 ### Week #11
 
 #### January 30, 2024
 
+- Modules:
+
+  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
+
 - Tasks:
 
   - [Final task stage1](tasks/)
+
+- Tests:
+
+  - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
 ### Week #12
 
