@@ -1,22 +1,38 @@
 # [Stage#2.](../../) TypeScript Advanced
 
-## В данном модуле студентам необходимо приобрести следующие навыки:
+## Module Overview 📚
 
-- служебные типы для облегчения работы общих типов
-- настройка tsconfig
-- знания по настройке сборки с использованием TypeScript
+This module is designed for students to enhance their skills in TypeScript. It aims to provide an in-depth understanding of utility types for streamlined work with common types, configuring `tsconfig` effectively, and gaining knowledge in setting up builds using TypeScript.
 
-## Теория
+## Learning Objectives 🎯
 
-- [Интерактивный курс по TypeScript](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
+In this module, students are expected to acquire the following skills:
 
-- [Видео](https://youtube.com/playlist?list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC)
+- Utility types to facilitate working with common types
+- Configuring `tsconfig`
+- Knowledge of configuring builds using TypeScript
 
-## Практика
+## Approximate Module Completion Time ⏱️
 
-- Вам необходимо пройти тест "TS Advanced" в RS APP > Auto Test
+- **5 hours**
 
-## Дополнительные материалы:
+## Theory 📖
+
+Students are encouraged to study the following resources:
+
+- [Learn Typescript Tutorial](https://scrimba.com/learn/typescript) - [3 hours]
+- [Utility Types - Advanced TypeScript](https://youtu.be/Fgcu_iB2X04?si=KzVUMpuuhnH92gRj) - [1 hour]
+- [Webpack & TypeScript Setup](https://youtube.com/playlist?list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC) - [1 hour]
+
+## Practice 💻
+
+- Complete the test "[St2] TS Advanced" in the RS-App > Auto Test.
+
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
+
+// TODO: revise materials
 
 - [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 - [tsconfig 1](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
