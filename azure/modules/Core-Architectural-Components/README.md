@@ -35,8 +35,8 @@ Students are encouraged to explore the following resources:
    - [Manage Azure resource groups](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
 
 3. **Azure Subscriptions and Management Groups:**
-   - [Understanding Azure Subscriptions](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limitsl) - 20 minutes
-   - [Organizing Resources with Azure Management Groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview) - 30 minutes
+   - [Understanding Azure Subscriptions](https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide)
+   - [Organizing Resources with Azure Management Groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
 
 ## Practice 💻
 
