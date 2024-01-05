@@ -46,5 +46,5 @@ Students are encouraged to delve into the following resources:
 ## Additional Resources 📘
 
 1. [The Benefits of Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/#Benefits)
-2. [Top 7 benefits of cloud computing](https://creative-computing.co.uk/top-7-benefits-of-cloud-computing/)
+2. [Top 7 Benefits of Cloud Computing](https://creative-computing.co.uk/top-7-benefits-of-cloud-computing/)
 3. [Advantages and Disadvantages of Cloud Computing](https://cloud.google.com/learn/advantages-of-cloud-computing)
