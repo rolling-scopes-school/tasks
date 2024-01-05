@@ -31,7 +31,7 @@ Students are encouraged to delve into the following resources:
    - [Decoding Cloud Service Models: A Comprehensive Guide - Bacancy Technology](https://www.bacancytechnology.com/blog/cloud-service-models)
    - [Cloud Service Models: IaaS vs PaaS vs SaaS - Which is best? - Toobler](https://www.toobler.com/blog/cloud-service-models-iaas-paas-saas)
    - [IaaS vs. PaaS vs. SaaS: Decoding Cloud Service Models - Teamgate](https://www.teamgate.com/blog/iaas-vs-paas-vs-saas/)
-   - [What are Iaas, Paas and Saas?](https://www.ibm.com/topics/iaas-paas-saas)
+   - [What are IaaS, PaaS and SaaS?](https://www.ibm.com/topics/iaas-paas-saas)
 
 3. **Major Cloud Providers:**
 
