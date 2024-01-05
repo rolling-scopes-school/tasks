@@ -1,4 +1,4 @@
-# [Stage#1](../../../) Cloud Fundamentals ☁️
+# [Azure](../../) Cloud Fundamentals ☁️
 
 ## Module Overview 📚
 
