@@ -12,7 +12,7 @@ Do not use tabs for indentation and do not mix indentation types (tabs and space
 <details>
     <summary>Why?</summary>
 
-Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a beautiful file in your IDE may look quite ugly in another IDE.
+Since there is a team of people working on projects, often the same project source code is displayed in different code editors. Problems start when different idempotent methods are used in the same file. Since each code editor displays tab indentation differently, a file which looks beautiful in your IDE may look quite ugly in another IDE.
 
 </details>
 
@@ -67,8 +67,8 @@ Use double quotes instead of single quotes for HTML attributes and CSS propertie
 
 Put every block, table or list element on a new line, regardless of their styles.
 
-Intend each nested element, thus respecting the nesting ladder.
-Inline elements can (but do not have to) be put to a new line and intended to improve code readability.
+Indent each nested element, thus respecting the nesting ladder.
+Inline elements can (but do not have to) be put to a new line and indented to improve code readability.
 
 - Element `<em>` is used to highlight a substring on a paragraph. It can stay where it is, because it is an inline element.
 - Element `<p>` is a block element, so it must be put on a new line.
@@ -132,7 +132,7 @@ HTML5 is recommended for all types of HTML files and is marked by the first tag 
 
 Do not use named character references.
 
-There is no sense to use named character references, such as `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) or `&#x263a;`(&#x263a;), when all files use the same encoding (UTF-8).
+There is no sense in using named character references, such as `&mdash;`(&mdash;), `&rdquo;`(&rdquo;) or `&#x263a;`(&#x263a;), when all files use the same encoding (UTF-8).
 
 The only exception to this rule - special symbols in HTML (e.g. `<` and `&`) and "invisible" characters (e.g. non-breaking space `&nbsp;`).
 
@@ -177,9 +177,9 @@ Do not use `type` attribute when connecting styles and scripts (use it only if y
 
 ### 2.5. HTML Line-Wrapping
 
-Break long lines to multiple lines.
+Break long lines into multiple lines.
 
-Breaking a long text to multiple lines may significantly increase code readability.
+Breaking a long text into multiple lines may significantly increase code readability.
 
 ```html
 <md-progress-circular
@@ -199,7 +199,7 @@ Whichever style of name writing you choose, follow it throughout the project.
 
 If you use BEM, stick to that notation without exception.
 
-Otherwise, it is recommended that you use a hyphen to separate words in selectors and spell them in lower case, and all words in the selector must be separated.
+Otherwise, it is recommended that you use a hyphen to separate words in selectors and spell them in lower case, and all the words in the selector must be separated.
 
 [More about BEM](https://en.bem.info/methodology/quick-start/)
 
@@ -230,7 +230,7 @@ Otherwise, it is recommended that you use a hyphen to separate words in selector
 
 Use template or meaningful class names and identifiers.
 
-Instead of using ciphers or describing the appearance of an element, try to express in the name of a class or identifier the meaning of its creation or give it a template name
+Rather than relying on ciphers or describing an element's appearance, aim to convey the purpose behind its creation in the name of its class or identifier. Alternatively, assign a descriptive template name.
 
 It is recommended to choose names that reflect the essence of the class because they are easier to understand and will likely not need to be changed in the future.
 
@@ -294,10 +294,10 @@ This use of classes and identifiers contributes to making code easier to underst
 
 Do not use tag selectors (except for intentionally resetting the default styles).
 
-It increases performance when applying styles by browser.
+It increases performance when applying styles by a browser.
 [More details here](https://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)
 
-You may want to change the tag you use to some other tag in the future, in which case you'll have to track down all the places where that tag is used in the styles and correct to the new one, while using classes / id helps abstract your styles from the details of your html layout.
+You may want to change the tag you use to some other tag in the future, in which case you'll have to track down all the places where that tag is used in the styles and replace it with the new one, while using classes / id helps abstract your styles from the details of your html layout.
 
 ```css
 /* Not recommended */
@@ -319,7 +319,7 @@ div.error {
 
 ### 3.5. Indentation in blocks
 
-Always intend the content of blocks.
+Always indent the content of blocks.
 
 Always indent any content in a block (blocks are separated by curly braces `{}`).
 For example for rules within rules or declarations, to show hierarchy and make the code easier to understand.

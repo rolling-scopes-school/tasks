@@ -15,17 +15,17 @@
 
 ## Why?
 
-Easily maintainable readable code is what any experienced developer wants. This is code that is easy to read in 2 months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
+Easily maintainable readable code is what any experienced developer wants. This is code that is easy to read in two months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
 
 In the same way, you will be much more comfortable to understand someone else's code if it is written as clearly as possible and conforms to a common stylistic standard accepted in the team.
 
-But, it would seem, how do code styling rules (for example, the choice of `'` or `"` quotation marks and letter case) affect its readability?
+But you might ask, how do code styling rules (for example, the choice of `'` or `"` quotation marks and letter case) affect its readability?
 
 Very briefly: directly.
 
 A bit longer:
 
-As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that behind a capitalized variable is a class, and behind a small-letter word is a locally modifiable variable. You also don't feel irritation when you see a writing style different from your own, and this is very important. Reading someone else's code is not always a pleasant task in itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
+As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritation when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
 
 One more reason - a single standard saves time on writing code. You don't spend a minute thinking about which case to use to name a variable and which writing style to choose, but write according to the accepted style.
 
@@ -36,7 +36,7 @@ One more reason - a single standard saves time on writing code. You don't spend 
 or **DIE** — _Duplication Is Evil_
 
 The principle urges you not to repeat yourself when writing code. Everything you write in a project should be defined only once.
-If this principle is not observed, the programmer will be forced to make changes in several repeating code fragments instead of one. Also, duplicated code leads to unwanted code grow and thus makes it harder to understand and read.
+If this principle is not followed, the programmer will be forced to make changes in several repeating code fragments instead of one. Also, duplicated code leads to unwanted code build-up and thus makes it harder to understand and read.
 
 <details>
     <summary>
@@ -44,7 +44,7 @@ If this principle is not observed, the programmer will be forced to make changes
     </summary>
 
 **The history:**
-The principle was first mentioned in the book ["The Pragmatic Programmer" by Andrew Hunt](https://ideafix.name/wp-content/uploads/stuff/book51.pdf) (1999). However, even before the book was published, it was widely known and widely used. At the same time "The Pragmatic Programmer" precisely defined the principle and gave it a name.
+The principle was first mentioned in the book ["The Pragmatic Programmer" by Andrew Hunt](https://ideafix.name/wp-content/uploads/stuff/book51.pdf) (1999). However, even before the book was published, it had been widely known and widely used. At the same time "The Pragmatic Programmer" precisely defined the principle and gave it a name.
 
 In the book DRY is described as:
 
@@ -58,7 +58,7 @@ where "piece of knowledge" can be understood as a functional, logically complete
 **Examples:**
 
 <details>
-	<summary> 
+	<summary>
 		1. CSS: Selectors grouping
 	</summary>
 
@@ -96,7 +96,7 @@ h4 {
 </details>
 
 <details>
-	<summary> 
+	<summary>
 		2. CSS: Move repeating style pieces inside classes
 	</summary>
 
@@ -139,7 +139,7 @@ p {
 </details>
 
 <details>
-	<summary> 
+	<summary>
 		3. JS: Cycles
 	</summary>
 
@@ -163,7 +163,7 @@ for (let i = 0; i < chips.length; i++) {
 </details>
 
 <details>
-	<summary> 
+	<summary>
 		4. JS: Functions
 	</summary>
 
@@ -201,7 +201,7 @@ function logDayPlan(weekday, tasks) {
 
 Sometimes the most correct solution is the simplest realization of a task without anything extra.
 
-The simpler the code is, the easier it is to understand, both for you and for other people involved in its support. Simplicity means refraining from using tricky tricks and unnecessary complication.
+The simpler the code is, the easier it is to understand, both for you and for other people involved in its support. Simplicity means refraining from using tricky patterns and unnecessary complication.
 
 <details>
     <summary>Examples:</summary>
@@ -210,11 +210,11 @@ An example of violating this principle is writing a separate function just to pe
 
 `(4 >> 1) === (4 / 2)`
 
-The last one may be more efficient for some program compilers than the usual `/ 2` division, but the code's understandability is very much reduced.
+It may be more efficient for some program compilers than the usual `/ 2` division, but the code's clarity is very much reduced.
 
 > Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://thefullsnack.com/en/bitwise-javascript-fast.html).
 
-By taking this approach, you are doing clever coding and over-optimization. Both of them will make your code less and less understandable in the long run, both to other developers and to yourself, because you may have to deal with this code again in a month, two or a year.
+By accepting this approach, you are doing clever coding and over-optimization. Both of them will make your code less and less clear in the long run, both to other developers and to yourself. Remember that you may have to deal with this code again in a month, two, or a year.
 
 </details>
 
@@ -223,7 +223,7 @@ By taking this approach, you are doing clever coding and over-optimization. Both
 
 **History:**
 
-A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than becoming more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "English Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
+A design principle used by the U.S. Navy in 1960. The KISS principle states that most systems work best if they remain simple rather than become more complex. Therefore, in design, simplicity should be a key goal and unnecessary complexity should be avoided. The phrase was associated with an aircraft designer Clarence Johnson (1910-1990). In the 1970s, the term "KISS principle" was widely used. Variations on the phrase include "Keep it Simple, Silly", "keep it short and simple", "keep it simple and straightforward", and "keep it small and simple."
 
 [More on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
@@ -235,9 +235,9 @@ Anything that is not required for the project to work as planned shouldn't be in
 
 Simply put, you should not write functionality for the future if you don't need it right now. The desire to write code for the future can have many unpleasant consequences:
 
-- You waste valuable time that could be used to add, test, and improve the functionality that is really needed.
-- New features should be tested, documented.
-- Your unnecessary new features may later prevent you from adding new, but already needed, features.
+- You waste valuable time that could be used to add, test, and improve the functionality that is really required.
+- New features should be tested and documented.
+- Your unnecessary new features may later prevent you from adding new, but already required, features.
 - If the code you write is eventually needed, it may not be the right code.
 - Superfluous code may never be needed in the end.
 - Superfluous code complicates your program (see KISS).
@@ -255,9 +255,9 @@ Use comments to explain the code:
 - What is its purpose?
 - Why is this solution used or preferred?
 
-At the same time, don't try to cover all the code with comments. Using meaningful names of variables and functions, breaking code into logical fragments using functions, and other practices help to make code as readable and understandable as possible without resorting to comments (self-documenting code).
+At the same time, don't try to cover all the code with comments. Using meaningful names of variables and functions, breaking code into logical fragments using functions, and other practices help to make code as readable and clear as possible without resorting to comments (self-documenting code).
 
-Nevertheless, there are cases when you need explanatory comments no matter how your code looks like.
+Nevertheless, there are cases when you need explanatory comments no matter what your code looks like.
 
 This is usually when you need to add context to a non-intuitive solution.
 
@@ -286,9 +286,9 @@ function addSetEntry(set, value) {
 
 _Some part of comments_
 
-TODO - from English _to do_ is used to denote a planned change directly in code comments. Usually this task refers to changes that are not urgent but rather important. That's why developers leave a kind of reminder to themselves and other programmers right in the code.
+TODO - from English _to do_ is used to denote a planned change directly in code comments. Usually this task refers to changes that are not urgent but rather important. That's why developers leave a kind of a reminder for themselves and other programmers right in the code.
 
-- Use the prefix "TODO: ..." in front of such a notation.
+- Use the prefix "TODO: ..." in front of such notation.
 - Use only this type of notation for TODO tasks.
 
 ```js
@@ -309,7 +309,7 @@ for (let i = 0; i < 15; i++) {
 
 ### 5. Trailing whitespaces
 
-Spaces at the end of a line are unnecessary, and they complicate commit changes in Github (you see an extra line/change character that doesn't carry a meaningful change):
+Spaces at the end of a line are unnecessary, and they complicate commit changes on Github (you see an extra line/change character that doesn't carry a meaningful change):
 
 ```html
 <!-- Not recommended -->
@@ -324,9 +324,9 @@ Spaces at the end of a line are unnecessary, and they complicate commit changes 
 
 ### 6. Files naming
 
-Use the same files naming styleguide in the project. It is recommended to use lower case spelling with words separated by hyphens.
+Use the same files naming styleguide in the project.
 
-It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless otherwise specified in the text of the task). Component-by-component folder structure is also acceptable (meaning storing all files related to a certain component in one folder).
+It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless otherwise specified in the requirements). Component-by-component folder structure is also acceptable (meaning storing all the files related to a certain component in one folder).
 
 ```
 /assets
