@@ -267,7 +267,7 @@
 
 - Modules:
 
-  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
+  [[St1] Introduction to Bundlers](modules/bundlers/)
 
 - Tasks:
 
@@ -275,7 +275,7 @@
 
 - Tests:
 
-  - [[St1] Chrome DevTools](modules/chrome-devtools/)
+  - [[St1] Introduction to Bundlers](modules/bundlers/)
 
 ### Week #12
 
