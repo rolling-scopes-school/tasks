@@ -27,6 +27,7 @@ Students are encouraged to study the following resources:
 ## Practice 💻
 
 - Complete the test "[St2] TS Advanced" in the RS-App > Auto Test.
+- Complete the task "[News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)".
 
 ## Additional Resources 📘
 
