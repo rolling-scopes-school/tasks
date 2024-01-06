@@ -6,11 +6,11 @@ This module is designed for students to enhance their skills in TypeScript. It a
 
 ## Learning Objectives 🎯
 
-In this module, students are expected to acquire the following skills:
+In this module, students should develop the following skills:
 
-- Utility types to facilitate working with common types
+- Using utility types to streamline working with common types
 - Configuring `tsconfig`
-- Knowledge of configuring builds using TypeScript
+- Understanding how to configure builds with TypeScript
 
 ## Approximate Module Completion Time ⏱️
 
