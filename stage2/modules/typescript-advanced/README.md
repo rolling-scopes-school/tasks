@@ -32,14 +32,18 @@ Students are encouraged to study the following resources:
 
 Expand your knowledge with these additional materials:
 
-// TODO: revise materials
+Theory:
 
 - [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
-- [tsconfig 1](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-- [tsconfig 2](https://www.typescriptlang.org/tsconfig)
-- [How to set up a TypeScript project](https://www.freecodecamp.org/news/how-to-set-up-a-typescript-project-67b427114884/)
-- [How to add TypeScript](https://www.freecodecamp.org/news/how-to-add-typescript-to-a-javascript-project/)
-- [MSBuild](https://www.typescriptlang.org/docs/handbook/compiler-options-in-msbuild.html)
-- [Webpack](https://webpack.js.org/guides/typescript/)
-- [TypeScript exercises](https://typescript-exercises.github.io/)
-- [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)
+- [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+- [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+- [How to Set Up a TypeScript Project](https://www.freecodecamp.org/news/how-to-set-up-a-typescript-project-67b427114884/)
+- [How to Add TypeScript to a JavaScript Project](https://www.freecodecamp.org/news/how-to-add-typescript-to-a-javascript-project/)
+- [Compiler Options in MSBuild](https://www.typescriptlang.org/docs/handbook/compiler-options-in-msbuild.html)
+- [Webpack Basic Setup for TypeScript](https://webpack.js.org/guides/typescript/)
+
+Tools and Exercises:
+
+- [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
+- [TypeScript Exercises](https://typescript-exercises.github.io/)
+- [Collection of TypeScript Type Challenges](https://github.com/type-challenges/type-challenges)
