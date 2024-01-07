@@ -16,20 +16,8 @@
 
 ### JavaScript:
 
-- #### Basics
-
-  - Data types
-  - Number methods
-  - String methods
-  - String templates
-  - ternary operator
-  - switch case - examples, where it can be useful
-
 - #### Advanced Expressions
 
-  - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - type conversions
-  - Strict comparison
   - `Object.is` `(optional)`
   - let var const - differences
   - Temporal dead zone
@@ -58,12 +46,6 @@
   - Know several method how to iterate Array elements
   - Be able to custom sorting for Array
   - Be able to filter Array elements
-
-- #### Loops
-
-  - for loop
-  - while loop
-  - do while loop
 
 ### JavaScript in Browser:
 
