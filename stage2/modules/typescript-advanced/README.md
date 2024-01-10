@@ -52,7 +52,6 @@ Expand your knowledge with these additional materials:
 
 Theory:
 
-- [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 - [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 - [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
 - [How to Set Up a TypeScript Project](https://www.freecodecamp.org/news/how-to-set-up-a-typescript-project-67b427114884/)
