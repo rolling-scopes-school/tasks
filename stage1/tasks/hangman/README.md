@@ -77,7 +77,7 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
   - Outdated libraries (e.g. `JQuery`, etc.),
   - Any JS libraries which are not devDependencies (e.g. `lodash`),
   - `TypeScript`.
-- You can use CSS preprocessors (`SASS`, `SCSS`) and `normalize.css`.
+- You can use CSS preprocessors (`SASS`, `SCSS`) and `normalize.css` or `modern-normalize`.
 - It is strongly recommended to use `eslint` and `prettier`.
 
 ## CrossCheck Criteria (150 points)
