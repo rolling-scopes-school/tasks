@@ -267,7 +267,7 @@
 
 - Modules:
 
-  [[St1] Introduction to Bundlers](modules/bundlers/)
+  [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
 
@@ -275,7 +275,7 @@
 
 - Tests:
 
-  - [[St1] Introduction to Bundlers](modules/bundlers/)
+  - [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 ### Week #12
 
