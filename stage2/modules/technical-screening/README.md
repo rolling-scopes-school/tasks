@@ -1,13 +1,13 @@
 ## Technical Screening 🗣️
 
-Technical Screening or the process of a mentor recruiting students for their group.
+Technical Screening or the process of a mentor recruiting students into their group.
 
 ## Interview Objectives 🎯
 
 - Forming a list of students for RSSchool stage#2.
-- Creating subgroups of "Mentor-Students".
+- Creating "Mentor-Students" subgroups.
   Each mentor interviews more people than they plan to mentor (For example, +2 students).
-  After all interviews, a mentor can dismiss part of the group to retain the number of students they can mentor. Mentors may delay dismissal for a few weeks to make a more considered decision.
+  After all interviews, a mentor can dismiss a part of the group to retain the number of students they can mentor. Mentors may delay dismissal for a few weeks to make a more considered decision.
 - Checking the students' level of preparation.
 - Providing students with interview experience.
 
@@ -18,28 +18,28 @@ Technical Screening or the process of a mentor recruiting students for their gro
 
 ## Number of Students and Invitation Order 📝
 
-The number of students invited for interviews depends on the number of mentors who have signed up for the course.
+The number of students invited to interviews depends on the number of mentors who have signed up for the course.
 For example, in RSSchool 2021Q1 (winter 2021), 247 people registered as mentors. 1101 interviews were conducted. 691 students continued studying with a mentor in the second stage.
 
 Students receive invitations in the following order:
 
-1. By the recommendation of a mentor, if the mentor is ready to mentor these students.
+1. On the recommendation of a mentor if the mentor is ready to mentor those students.
 2. Based on the results of the first stage of the course.
 
 ## Interview Process 🔄
 
 Interviews take place during the first three weeks of RSSchool stage#2.
-You can track current interview information at [app.rs.school](https://app.rs.school) in the `Interviews` section. Here you will find a link to the interview description, the interview deadline, and a registration button.
+You can track current interview information on [app.rs.school](https://app.rs.school) in the `Interviews` section. There you will find a link to the interview description, the interview deadline, and a registration button.
 
 ### Stages
 
 1. **Registration** 📌. To participate in the interview selection, the student must click the `Register` button. If an Interviewer is already displayed for the student, there is no need to click the button; they should contact the interviewer.
-2. **Pairing** 👥. After distribution, students will see their Interviewer — a link to their account at [app.rs.school](https://app.rs.school) with contact details. The student must contact the interviewer within the first week to agree on an interview date.
-   If an Interviewer does not appear for the student, they are not invited for an interview and are automatically moved to the wait-list.
+2. **Pairing** 👥. After the distribution, students will see their Interviewer — a link to their account on [app.rs.school](https://app.rs.school) with contact details. The student must contact the interviewer within the first week to agree on an interview date.
+   If an Interviewer is not shown to the student, they are not invited to an interview and automatically moved to the wait-list
 3. **Conducting the Interview** 💬. The interview can be conducted online. The average interview duration is ~60 minutes.
-4. **Interview Results** 📊. After a student completes the interview, the `Result` column will contain the mentor's decision: Yes — the mentor takes the student; otherwise, the student is moved to the wait-list.
+4. **Interview Results** 📊. After a student completes the interview, the `Result` column will display the mentor's decision: Yes — the mentor takes the student; otherwise, the student is moved to the wait-list.
 
-**Wait-list** 📃 — a list of students who were either not invited for an interview or were rejected by a mentor after the interview. From this list, mentors can recruit additional students if possible.
+**Wait-list** 📃 is a list of the students who were either not invited to an interview or were rejected by a mentor after the interview. Mentors can recruit additional students from this list if possible.
 **Redistribution** 🔁. Additional redistributions may be conducted at the administration's discretion, involving students from the wait-list.
 
 ## Interview Topics 📚
@@ -56,7 +56,7 @@ You can track current interview information at [app.rs.school](https://app.rs.sc
   - Pseudo-classes and pseudo-elements
   - Box model
   - em vs rem, relative and absolute values
-  - Positioning: document flow, position property, Overflow, and z-index
+  - Positioning: document flow, position property, overflow, and z-index
   - Flexbox
   - Grid
   - ...
@@ -67,10 +67,10 @@ You can track current interview information at [app.rs.school](https://app.rs.sc
   - String methods
   - String templates
   - Ternary operator
-  - Switch case - examples, where it can be useful
+  - Switch case - examples where it can be useful
   - Loops
   - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - type conversions
+  - Type conversions
   - Strict comparison
 
 ## Checking English Level During the Mentor Interview
@@ -81,7 +81,7 @@ You can track current interview information at [app.rs.school](https://app.rs.sc
 
 ## What Students Should Do if They Fail the Interview 😟
 
-Students can continue to study independently or enroll in the next batch. Lectures, assignments, and chats are publicly accessible. Assignments will not be checked by a mentor. Grades for tests and cross-checks will be given. Mentors may recruit students during the course if possible.
+Students can continue studying independently or enroll in the next batch. All the lectures, assignments, and chats are publicly accessible. The assignments will not be checked by a mentor. The grades for the tests and cross-checks will be given. Mentors may recruit students during the course if possible.
 
 ## What to Do if a Student is Dissatisfied with the Mentor Interview 😕
 
