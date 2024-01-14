@@ -64,11 +64,10 @@ You can track current interview information on [app.rs.school](https://app.rs.sc
   - Data types
   - Variables
   - Number methods
-  - String methods
-  - String templates
-  - Ternary operator
+  - String methods & String templates
+  - Ternary, Nullish Coalescing, Optional Chaining, and Logical Operators – Syntax and Use Cases
   - Switch case - examples where it can be useful
-  - Loops
+  - Loops - for, while, do while
   - Be able to discover cases of implicit data types conversion into boolean, string, number
   - Type conversions
   - Strict comparison
