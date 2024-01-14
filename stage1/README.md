@@ -267,7 +267,7 @@
 
 - Modules:
 
-  [[St1] Introduction to Bundlers](modules/bundlers/)
+  [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
 
@@ -275,7 +275,7 @@
 
 - Tests:
 
-  - [[St1] Introduction to Bundlers](modules/bundlers/)
+  - [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 ### Week #12
 
@@ -285,7 +285,7 @@
 - [Project "Self-introduction"](modules/self-introduction/)
 - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
 - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
-- Preparation for mentor interview
+- Preparation for [Technical Screening](../stage2/modules/technical-screening/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>

@@ -1,106 +1,104 @@
-## Собеседование с ментором
+## Technical Screening 🗣️
 
-Technical Screening или Процесс набора студентов ментором в свою группу.
+Technical Screening or the process of a mentor recruiting students into their group.
 
-## Цели собеседования:
+## Interview Objectives 🎯
 
-- Формирование списка студентов RSSchool stage#2.
-- Формирование подгрупп "Ментор-студенты".
-  Каждый ментор интервьюирует больше людей, чем он планировал менторить (Например, +2 студента).
-  После проведения всех собеседований ментор может отчислить часть группы, чтобы оставить себе то количество студентов, которое он может менторить. По своему желанию ментор может отложить отчисление на несколько недель, чтобы принять более взвешенное решение.
-- Проверка уровня подготовки студентов.
-- Получение студентами опыта прохождения интервью.
+- Forming a list of students for RSSchool stage#2.
+- Creating "Mentor-Students" subgroups.
+  Each mentor interviews more people than they plan to mentor (For example, +2 students).
+  After all interviews, a mentor can dismiss a part of the group to retain the number of students they can mentor. Mentors may delay dismissal for a few weeks to make a more considered decision.
+- Checking the students' level of preparation.
+- Providing students with interview experience.
 
-## Внимание! RS School никак заранее не проверяет:
+## Attention! RS School does not pre-check 🚫
 
-- адекватность менторов
-- адекватность студентов
+- Mentors' adequacy
+- Students' adequacy
 
-## Количество студентов и порядок их приглашения
+## Number of Students and Invitation Order 📝
 
-Количество приглашаемых на интервью студентов зависит от количества менторов, записавшихся на курс.
-Например, в наборе RSSchool 2021Q1 (зима, 2021) 247 человек записалось в менторы. Провели 1101 интервью. Во втором этапе с ментором продолжили учиться 691 студент.
+The number of students invited to interviews depends on the number of mentors who have signed up for the course.
+For example, in RSSchool 2021Q1 (winter 2021), 247 people registered as mentors. 1101 interviews were conducted. 691 students continued studying with a mentor in the second stage.
 
-Студенты получают приглашение в следующем порядке:
+Students receive invitations in the following order:
 
-1.  По рекомендации ментора, если ментор сам готов менторить этих студентов.
-2.  По результатам обучения в первом этапе курса.
+1. On the recommendation of a mentor if the mentor is ready to mentor those students.
+2. Based on the results of the first stage of the course.
 
-## Процесс интервью
+## Interview Process 🔄
 
-Интервью проходят в течение первых двух недель RSSchool stage#2.
-Отслеживать актуальную информацию по интервью можно в [app.rs.school](https://app.rs.school) в разделе `Interviews`. Здесь будет содержаться ссылка на описание интервью, дедлайн проведения интервью и кнопка регистрации.
+Interviews take place during the first three weeks of RSSchool stage#2.
+You can track current interview information on [app.rs.school](https://app.rs.school) in the `Interviews` section. There you will find a link to the interview description, the interview deadline, and a registration button.
 
-### Этапы
+### Stages
 
-1. **Регистрация**. Для того, чтобы принять участие в отборе на интервью студенту необходимо нажать кнопку `Register`. Если у студента уже отображен Interviewer — нажимать кнопку не нужно, следует связаться с интервьюером.
-2. **Формирование пар**. После распределения у студентов отобразится Interviewer — будет присутствовать ссылка на его аккаунт в [app.rs.school](https://app.rs.school) с контактами для связи. Студенту необходимо в течение первой недели связаться с интервьюером и согласовать дату интервью.
-   Если у студента не появился Interviewer — он не приглашается на интервью и автоматически перемещается в wait-лист.
-3. **Проведение интервью**. Интервью может быть проведено в онлайн формате. Среднестатистическая продолжительность интервью ~60 минут.
-4. **Итоги интервью**. После прохождения студентом интервью в графе `Result` будет содержаться информация о решении ментора: Yes — ментор берет студента, иначе — студент перемещается в wait-лист.
+1. **Registration** 📌. To participate in the interview selection, the student must click the `Register` button. If an Interviewer is already displayed for the student, there is no need to click the button; they should contact the interviewer.
+2. **Pairing** 👥. After the distribution, students will see their Interviewer — a link to their account on [app.rs.school](https://app.rs.school) with contact details. The student must contact the interviewer within the first week to agree on an interview date.
+   If an Interviewer is not shown to the student, they are not invited to an interview and automatically moved to the wait-list
+3. **Conducting the Interview** 💬. The interview can be conducted online. The average interview duration is ~60 minutes.
+4. **Interview Results** 📊. After a student completes the interview, the `Result` column will display the mentor's decision: Yes — the mentor takes the student; otherwise, the student is moved to the wait-list.
 
-**Wait-лист** — список студентов, которые либо не были приглашены на интервью, либо были отклонены ментором после интервью. Из данного списка менторы, при наличии возможностей, могут осуществлять добор студентов.
-**Повторное распределение**. По усмотрению администрации могут проводится повторные распределения, в них будут участвовать студенты из wait-листа, которые не проходили интервью.
+**Wait-list** 📃 is a list of the students who were either not invited to an interview or were rejected by a mentor after the interview. Mentors can recruit additional students from this list if possible.
+**Redistribution** 🔁. Additional redistributions may be conducted at the administration's discretion, involving students from the wait-list.
 
-## Темы интервью
+## Interview Topics 📚
 
-- Основы ООП. [Примеры вопросов](https://habrahabr.ru/post/345658/)
-- Базовые структуры данных и их организация (массив, список, стек, очередь, дерево, хэш таблица и т. д.).
-- Уметь реализовать достаточно простой алгоритм на JavaScript. [Примеры заданий](https://www.codewars.com/kata/search/javascript?q=&r[]=-7&tags=Algorithms&beta=false)
-- Базовые алгоритмы сортировки и поиска.
-- Двоичная система счисления.
-- **Несколько вопросов по решенным заданиям из stage#1**
-- Основы html/css:
-  - Значения атрибута display
-  - Веса селекторов
-  - Псевдоклассы и псевдоэлементы
+- Basics of OOP.
+- Basic data structures and their organization (array, list, stack, queue, tree, hash table, etc.).
+- Ability to implement a fairly simple algorithm in JavaScript. [Example tasks](https://www.codewars.com/kata/search/javascript?q=&r[]=-7&tags=Algorithms&beta=false)
+- Basic sorting and searching algorithms.
+- Binary number system.
+- **Several questions on tasks solved in stage#1**
+- Basics of HTML/CSS:
+  - Display attribute values
+  - Selector weights
+  - Pseudo-classes and pseudo-elements
   - Box model
-  - em vs rem, относительные и абсолютные величины
-  - Позиционирование: поток документа, свойство position, Overflow и z-index
+  - em vs rem, relative and absolute values
+  - Positioning: document flow, position property, overflow, and z-index
   - Flexbox
   - Grid
   - ...
-- Основы JS:
-  - Типы данных
-  - Переменные
-  - Преобразование типов
-  - Базовые операторы
-  - Операторы сравнения
-  - Циклы
-  - if, if else, switch
+- Basics of JS:
+  - Data types
+  - Variables
+  - Number methods
+  - String methods & String templates
+  - Ternary, Nullish Coalescing, Optional Chaining, and Logical Operators – Syntax and Use Cases
+  - Switch case - examples where it can be useful
+  - Loops - for, while, do while
+  - Be able to discover cases of implicit data types conversion into boolean, string, number
+  - Type conversions
+  - Strict comparison
 
-## Проверка уровня английского во время интервью с ментором:
+## Checking English Level During the Mentor Interview
 
-1. Студент может показать результат теста по английскому как основание для выставления своего уровня.
-2. Студент можете показать сертификат каких-нибудь курсов.
-3. Ментор может задать дополнительные вопросы.
-4. Для обучения в stage#2 знание английского не критично. Если вы претендуете на трудоустройство в EPAM, уровень английского к концу stage#2 должен быть A2.
+1. The student can show the result of an English test as a basis for their level.
+2. The student can show a certificate from some courses.
+3. The mentor may ask additional questions.
 
-## Что делать студенту в случае неуспешного прохождения собеседования
+## What Students Should Do if They Fail the Interview 😟
 
-Студент может продолжить обучение самостоятельно или записаться на следующий набор. Лекции, задания и чаты находятся в открытом доступе. Задания не будут проверяться ментором. Оценки за тесты, кросс-чек будут выставляться. При наличии возможности, менторы могут добирать студентов по ходу обучения.
+Students can continue studying independently or enroll in the next batch. All the lectures, assignments, and chats are publicly accessible. The assignments will not be checked by a mentor. The grades for the tests and cross-checks will be given. Mentors may recruit students during the course if possible.
 
-## Что делать, если студент недоволен собеседованием с ментором
+## What to Do if a Student is Dissatisfied with the Mentor Interview 😕
 
-В таком случае студенту необходимо описать ситуацию и свою претензию [тут](https://github.com/rolling-scopes-school/support/issues/51)
+In such a case, the student needs to describe the situation and their complaint [here](TBD @valerydluski)
 
-## FAQ
+## FAQ ❓
 
-### Типичные проблемы студентов
+### Typical Student Problems
 
-1. Не могу связаться с ментором, так как в его профиле не указаны контакты.
-2. Контакты есть, но ментор не отвечает более 3х дней.
-3. Ментор не может больше менторить.
-   Вам необходимо оставить комментарий [тут](https://github.com/rolling-scopes-school/support/issues/51)
+1. I can't contact the mentor because their profile does not contain contact details.
+2. Contacts are there, but the mentor does not respond for more than 3 days.
+3. The mentor can no longer mentor.
+   You need to leave a comment in the issue link which is in the announcements channel
 
-### Вопрос: Нужно ли регистрироваться на собеседование с ментором, если ментор уже есть?
+### Question: Do I need to register for an interview with a mentor if I already have a mentor? 🤔
 
-Даже если у вас уже есть ментор, вам необходимо зарегистрироваться. Тогда, в случае возникновения каких-либо проблем с ментором, вы сможете попасть в лист ожидания и в дальнейшем рассчитывать на получение нового ментора.
+Even if you already have a mentor, you need to register. Then, in case of any problems with the mentor, you can be put on the waiting list and later expect to get a new mentor.
 
-## Вопрос: Как студенту перейти к другому ментору?
+### Question: How can a student switch to another mentor? 🔄
 
-Курс не предусматривает возможности выбора студентом ментора.
-
-## Полезные ссылки
-
-- https://github.com/YauhenKavalchuk/interview-questions
+The course does not provide the option for students to choose a mentor.
