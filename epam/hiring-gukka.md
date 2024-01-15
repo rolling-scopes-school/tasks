@@ -1,6 +1,4 @@
-# EPAM Employment and Onboarding Process for RS School Graduates in 2024
-
-## Overview of Employment at EPAM for RS School Students in the GUKKA Region (Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, and Armenia).
+# EPAM Employment and Onboarding Process for RS School Graduates in 2024 in the GUKKA Region (Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, and Armenia).
 
 ### Hiring Plan for 2024
 
