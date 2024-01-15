@@ -134,13 +134,17 @@ Max - **+40**
 
 ## Useful links
 
-1. location API (https://ipinfo.io/)
+1. IP2Location.io API (https://www.ip2location.io/)
+
+- Get location data https://api.ip2location.io/
+
+2. location API (https://ipinfo.io/)
 
 - Sign up
 - Get token
 - Get location data (you need only postal) https://ipinfo.io/json?token=eb5b90bb77d46a
 
-2. React Best Practices
+3. React Best Practices
 
 - https://www.codeinwp.com/blog/react-best-practices/
 - http://www.jancarloviray.com/blog/react-best-practices-2020/

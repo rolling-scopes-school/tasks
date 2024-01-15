@@ -198,6 +198,10 @@ _В предложенный макет можно вносить свои из�
 
 **1. Geolocation API**
 
+- [IP2Location.io](https://www.ip2location.io/)
+  - получаем данные о местоположении пользователя  
+    `https://api.ip2location.io/`
+  - [API Docs](http://www.ip2location.io/ip2location-documentation)
 - https://ipinfo.io/
   - регистрируемся на сайте
   - получаем токен
