@@ -23,19 +23,23 @@
 - **Exclusion:** D2 and D3 developers are not eligible for junior positions.
 
 ## EPAM Hiring Process
+### 1. Application
+If you meet the requirements please [fill in the form](https://docs.google.com/forms/d/e/1FAIpQLScTZwI2C4KgL22YAK4n4ASMJVUrY242S_PV0i6CkrReoClxyA/viewform)
+We process applications in batches. The next batch will be processed on January 22. And then every two weeks.
+In case of a successful application, we will inform you by email or Telegram.
 
-### 1. General Technical Interview
+### 2. General Technical Interview
 - **Conduct:** In English, lasting 60-90 minutes, can be attempted from February onwards.
 - **Interviewer:** Randomly selected EPAM employees certified to conduct interviews.
 
-### 2. Post-Interview "EPAM Student" Status
+### 3. Post-Interview "EPAM Student" Status
 - **Successful Candidates:** Registered at EPAM as "Students."
 - **Benefits:** Access to corporate MS Teams and some internal resources, such as the Learn portal.
 
-### 3. NodeJS Requirement
+### 4. NodeJS Requirement
 - If lacking solid knowledge or experience in NodeJS, candidates must complete the RS School NodeJS course and obtain a certificate.
 
-### 4. Further Interviews
+### 5. Further Interviews
 - **Subjects:** TS+Algorithms, a framework (React or Angular), and NodeJS.
 - **Opportunity for Retake:** One failed interview can be retaken, sometimes twice.
 - **Transition to Junior:** Upon passing at least two interviews and completing a cloud course (AWS or Azure), candidates are promoted to a junior position with partial or full salary depending on the specific offer they qualify for.
@@ -56,7 +60,7 @@
 3. NodeJS TechCheck
    - https://kb.epam.com/pages/viewpage.action?pageId=1534736251
 
-## 5. Onboarding Candidates to EPAM
+## 6. Onboarding Candidates to EPAM
 
 ### A. Offer Categories
 1. **Full junior salary**
@@ -71,7 +75,7 @@
    - **Salary:** 50% of a Junior's salary for up to 2 months.
    - **Progression:** After 2 months, candidates either transition to a full junior position or are terminated.
 
-## 6. EPAM FullStack LAB (aka JAB)
+## 7. EPAM FullStack LAB (aka JAB)
 A LAB employee can be there for up to three months. During this time they work on production projects in an "on-training" position. After that they should be transferred to a billable position (together with their transfer to another EPAM department).
 
 
