@@ -2,15 +2,18 @@
 
 ## Module Overview 📚
 
-This module introduces students to object-oriented programming basics. It aims to provide an in-depth understanding of basic OOP principles, classes, objects and prototypal inheritance. The module covers a range of topics from OOP principles to classes and instances.
+The "Object-Oriented Programming Basics" is an introductory module designed to teach students the fundamental concepts and principles of Object-Oriented Programming (OOP). This module will cover core OOP concepts such as classes, objects, inheritance, encapsulation, polymorphism, and abstraction. It is tailored for beginners and aims to provide a solid foundation for understanding and applying OOP.
 
 ## Learning Objectives 🎯
 
 Students will:
 
-- Understand OOP principles (inheritance, abstraction, encapsulation, polymorphism).
-- Learn object, classes and instances concepts (parent class (superclass), child class (subclass)).
-- Get acquainted with prototypal inheritance in JS.
+- Grasp the basic principles of Object-Oriented Programming.
+- Understand the concept and importance of classes and objects.
+- Learn about inheritance and its role in promoting code reusability.
+- Comprehend the significance of encapsulation in data protection.
+- Explore polymorphism and its usage in creating flexible code.
+- Understand abstraction and its role in simplifying complex systems.
 
 ## Approximate Module Completion Time ⏱️
 
@@ -24,7 +27,7 @@ Students are encouraged to study the following resources:
    - [Read OOP overview with examples](./materials/oop-overview.md)
    - [Proceed with OOP fundamentals](https://www.freecodecamp.org/news/object-oriented-programming-javascript/) - [~20 min]
    - [Learn deeper OOP in MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming) - [~1 hr]
-   - [OOP cheat sheet](Rhttps://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) - [~20 min]
+   - [OOP cheat sheet](https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) - [~20 min]
    - [Deep dive OOP video with examples](https://www.youtube.com/watch?v=vDJpGenyHaA) - [40 min]
 
 ## Practice 💻
@@ -36,3 +39,8 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 1. [OOP, Object, Classes](https://eloquentjavascript.net/06_object.html)
+2. [Discover Object Oriented Programming](https://blog.hubspot.com/website/object-oriented-programming)
+3. [Inheritance](<https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>)
+4. [Polymorphism In Programming](https://www.bmc.com/blogs/polymorphism-programming/)
+5. [Encapsulation](<https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>)
+6. [Abstraction](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>)

@@ -149,10 +149,10 @@ class Manager extends Employee {
 
 ### Encapsulation
 
-In OOP for successful interaction between objects one group of objects doesn’t need (or it even can be harmful) to know about other objects group’s inner construction/state. The example from every day life is the microwave oven - it has complicated inner structure. 
-<img src="./images/microvawe-oven-inside.JPG" width="400" height="200" />  
+In OOP for successful interaction between objects one group of objects doesn’t need (or it even can be harmful) to know about other objects group’s inner construction/state. The example from every day life is the microwave oven - it has complicated inner structure.
+<img src="../images/microvawe-oven-inside.JPG" width="400" height="200" />  
 If we want to use this oven without protective cover we can break it or get electrocuted. One doesn’t need to understand microwave’s construction and how it works in order to use microwave. It just provides us convenient and safe way of interaction - user interface.  
-<img src="./images/microvawe-oven-interface.JPG" width="400" height="200" />  
+<img src="../images/microvawe-oven-interface.JPG" width="400" height="200" />  
 Let’s take a look at Timer class as an example:
 
 ```ts
