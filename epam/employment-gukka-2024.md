@@ -78,6 +78,10 @@ In case of a successful application, we will inform you by email or Telegram.
 ## 7. EPAM FullStack LAB (aka JAB)
 A LAB employee can be there for up to three months. During this time they work on production projects in an "on-training" position. After that they should be transferred to a billable position (together with their transfer to another EPAM department).
 
+## Telegram chat
+If you have read this document to the end and still have questions, please join the Telegram chat and feel free to ask/discuss: 
+https://t.me/epamjsxstacklab
+
 
 
 
