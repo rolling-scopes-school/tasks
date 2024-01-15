@@ -35,6 +35,7 @@ In case of a successful application, we will inform you by email or Telegram.
 ### 3. Post-Interview "EPAM Student" Status
 - **Successful Candidates:** Registered at EPAM as "Students."
 - **Benefits:** Access to corporate MS Teams and some internal resources, such as the Learn portal.
+- **You can start taking courses on AWS. All the information is here** https://github.com/rolling-scopes-school/tasks/blob/docs-epam-doc-structure-refactoring/epam/epam-js-lab.md
 
 ### 4. NodeJS Requirement
 - If lacking solid knowledge or experience in NodeJS, candidates must complete the RS School NodeJS course and obtain a certificate.
