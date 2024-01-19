@@ -60,7 +60,7 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
 
 ## Repository requirements
 
-- The task must be done in **\*private school's repository**.
+- The task must be done in [**\*private school's repository**](https://docs.rs.school/#/private-repository).
 - The code must be committed to a separate branch **named as the task (`hangman`)**.
 - The `main` (or old style master) branch **must be empty** (contain only files like README.md or .gitignore).
 - Commit messages must follow the [guideline](https://rs.school/docs/ru/git-convention)
@@ -105,6 +105,7 @@ _It is recommended to print the secret word in the browser's console to facilita
 - When clicking on 'play again' button, the newly selected question-answer pair is identical to the previous one: `-20`
 - When clicking on 'play again' button, the elements on the page are reset by reloading the page instead of updating them dynamically: `-50`
 - `body` in the `index.html` is not empty (contains something else besides the allowed `script` tag): `-150`
+- a large chunk/all of code is pasted via innerHTML, insertAdjacentHTML: `-20`
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
 
 **!!!** The administration reserves the right to invalidate a student's score for the task if any of the mandatory requirements are not fulfilled in a proper manner _(e.g. if the student has used html templates to generate the `body` content)_.
