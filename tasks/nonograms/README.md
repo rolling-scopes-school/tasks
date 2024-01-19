@@ -2,7 +2,7 @@
 
 ## Task
 
-You are to implement a classic game — [Nonograms](<https://en.wikipedia.org/wiki/Nonogram>)
+You are to implement a classic game — [Nonograms](https://en.wikipedia.org/wiki/Nonogram)
 Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.com/wiki/Tips_for_solving)
 
 ### Game rules
@@ -24,7 +24,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 
 `Advanced:`
 
-- the game should have at least 5 templates for easy level (5x5) and the player is able to choose what picture he/she wants to solve (for example list of items)
+- the game should have at least 5 templates for easy level (5x5). Players should be able to choose the picture they wish to solve, possibly through a list of items.
 - a player is able to fill in a square in the grid changing the color of the grid to crossed-cell(X) using right mouse-click. Context menu should not appear. Filling empty cells with X is not obligatory to win the game.
 - the game can be restarted (reset) without reloading the page (for example, by clicking on button `Reset game`). Otherwise the player can change game template or game level (for example, you could implement menu with options) without reloading the page.
 - display the game duration in format XX:XX, stop-watch will start after first click on field (not on clues)
@@ -34,7 +34,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 `Additional (to get extra points):`
 
 - dark/light themes of the game. Changing the theme implies a change in the entire color scheme of the application, including the background color, cell colors, counters, buttons etc.
-- the game should have 3 levels of difficulty (5x5, 10x10, 15x15) which changes the size of the game board and the main template (pictures) and at least 5 templates for each level. User should have ability to choose the picture that he wants to solve
+- implement three levels of difficulty in the game: easy (5x5), medium (10x10), and hard (15x15). Each level should vary in the size of the game board and the complexity of the main template (pictures).
 - the latest 5 win results are saved in the high score table. Table is sorted by time of the game using XX:XX format (for example, using LocalStorage).
 - implement button "random game". When player clicks on button - the random template appears (both template and level must be chosen randomly by algorithm)
 - implement "Solution" button near the field. When player clicks the button - the field will be filled in cells with right solution. Usage of the button doesn't mean winning and will not be recorded into winning table
@@ -91,7 +91,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 - [ ] option to choose different themes for the game board (dark/light themes): `+15`
 - [ ] ability to change the size (5x5, 10x10, 15x15) is implemented and there are least 5 templates for each level: `+20`
 - [ ] implemented saving the latest 5 win results with sorting: `+15`
-- [ ] "random game" button is implemented: `+15`
+- [ ] "random game" button is implemented. When player clicks on button - the random template appears (both template and level must be chosen randomly by algorithm): `+15`
 - [ ] "Solution" button is implemented. When player clicks on button - the field is filled in cells with right solution. Such games is not recorded into winning table: `+15`
 
 ### Penalties
