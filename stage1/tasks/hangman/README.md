@@ -88,7 +88,7 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [ ] The generation of DOM elements is implemented. `body` in the `index.html` is empty (can contain only `script` tag). _This requirement can be checked by pressing `Ctrl+U` (Windows) or `Option(⌥)+Command(⌘)+U` (Mac)_: `+20`
 - [ ] The game starts with the correct default view (empty gallows, underscores for secret word, etc.) and a random question: `+5`
 - [ ] The user can play the game by using the virtual keyboard: `+20`
-- [ ] The user can play the game by using the physical keyboard: `+20`
+- [ ] The user can play the game by using the physical keyboard and only alphabetic letters are allowed to enter: `+20`
 - [ ] When the letter is correct, it appears instead of the corresponding underscore. If the letter repeats in the word, all corresponding underscores must be replaced by it: `+15`
 - [ ] When the letter is incorrect:
   - [ ] the incorrect guesses counter is updated: `+5`
