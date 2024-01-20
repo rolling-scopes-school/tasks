@@ -116,3 +116,5 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [Event](http://learn.javascript.info/event-details)
 - [An Introduction To DOM Events](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
 - [Keyboard events](https://learn.javascript.info/keyboard-events)
+- [:disabled CSS pseudo-class ](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled?retiredLocale=uk)
+- [HTMLSelectElement.disabled](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled)
