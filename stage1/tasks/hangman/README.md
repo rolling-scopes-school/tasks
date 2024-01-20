@@ -93,7 +93,7 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [ ] When the letter is incorrect:
   - [ ] the incorrect guesses counter is updated: `+5`
   - [ ] a body part is added to the gallows: `+5`
-  - [ ] Pressing non-alphabetic (numbers, punctuations etc.) characters does not change the counter and does not add a body part to the gallows: `+5`
+  - [ ] pressing non-alphabetic characters (numbers, punctuations etc.) does not change the counter and does not add a body part to the gallows: `+5`
 - [ ] The clicked/pressed letter is disabled: `+5`
 - [ ] The body parts appear on the gallows in the logical order (head, body, left arm, right arm, left leg, right leg): `+5`
 - [ ] When the user runs out of 6 attempts or wins the game, the modal window appears: `+10`
