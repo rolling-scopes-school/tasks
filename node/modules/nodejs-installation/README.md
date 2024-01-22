@@ -12,5 +12,5 @@
 
 ## Theory
 
-- [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)
+- [How to install Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
 - [nvm docs](https://github.com/nvm-sh/nvm#intro)
