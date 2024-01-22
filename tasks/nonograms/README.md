@@ -84,7 +84,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 - [ ] the game can be restarted without reloading the page: `+15`
 - [ ] game duration is displayed, stop-watch will start after first click on field (not on clues) and related message is displayed at the end of the game: `+10`
 - [ ] sound accompaniment (on/off) for every events (see **Advanced** block): `+15`
-- [ ] implemented saving the state of the latest game and "Continue last game": `+15`
+- [ ] implemented saving the state of the latest game and "Continue last game" button: `+15`
 
 ### Hacker scope +80 points
 
