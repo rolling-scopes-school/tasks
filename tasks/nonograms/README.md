@@ -18,9 +18,9 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 - initially, `body` in the index.html file must be empty (only script tag is allowed), **all necessary elements are generated using JS**
 - the design should be adaptive (or responsive) from _(500px <= width)_. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
 - the default size of the frame is 5x5. The clues are given at the top and left side of the grid. The sequence of numbers must be logically arranged and help the player solve the nonogram
-- for player's field: every 5 cells in a rows and columns should be divided by divider (bold line). For clues: every 5 cells in a **rows** should be divided by divider (for left clues); every 5 cells in a **columns** should be divided by divider (for top clues). Clues should be divided from player's field by bold line.
+- for game field: every 5 cells in a rows and columns should be divided by divider (bold line). For clues: every 5 cells in a **rows** should be divided by divider (for left clues); every 5 cells in a **columns** should be divided by divider (for top clues). Clues should be divided from game field by bold line.
 - a player is able to fill in a cell in the grid, using left mouse-click. On a click event, trigger the functionality of changing the color of the grid to dark (black). When player clicks on dark cell - it will change to empty (white).
-- end game when players fill all **black** cells correctly according to the hints. On a successful game solution, display "Great! You have solved the nonogram!" (in case you missed stop-watch implementation)
+- end game when players fill all **black** cells correctly according to the clues. On a successful game solution, display "Great! You have solved the nonogram!" (in case you missed stop-watch implementation)
 
 `Advanced:`
 
@@ -73,7 +73,7 @@ Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), 
 
 - [ ] layout, design, responsive UI: `+20`
 - [ ] at the beginning state of the game, the frame has size 5x5. The sequence of numbers is logically arranged and help the player solve the nonogram: `+20`
-- [ ] cells and clues are divided by divides as described in Basic block: `+5`
+- [ ] cells and clues are divided by dividers as described in Basic block: `+5`
 - [ ] when user clicks on cells using mouse left-click - it should be mark as dark. When user click on dark cell - it should be mark as empty (white) cell: `+15`
 - [ ] the game should end when the player reveals all **black** cells correctly and related message is displayed at the end of the game: `+20`
 
