@@ -51,8 +51,7 @@ Students are encouraged to study the following resources:
 
 ## Practice 💻
 
-- [Codewars tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q3-OOP.md)
-- Complete the test "Classes & Prototypes" in the RS APP > Auto Test
+- Complete the test "[St1] Classes & Prototypes" in the RS APP > Auto Test
 
 ## Additional Resources 📘
 
@@ -60,5 +59,5 @@ Expand your knowledge with these additional materials:
 
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
 - [MDN article "Using classes"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes)
-- [Inheritance and the prototype chain](http://developer.mozilla.org/en-US/docs/Web/JavaScipt/Inheritance_and_the_prototype_chain)
+- [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [Objects, JavaScript.info](https://javascript.info/object-basics)
