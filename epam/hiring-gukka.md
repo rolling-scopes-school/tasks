@@ -87,6 +87,7 @@ In case of a successful application, we will inform you by email or Telegram.
    - **Progression:** After 2 months, candidates either transition to a full junior position or are terminated.
 
 ## 7. EPAM FullStack LAB (aka JAB)
+
 EPAM FullStack LAB (also known as JAB) is a structural unit of EPAM where employees are placed before they are transferred to the production unit. You have to pass all the interviews to get here.
 A LAB employee can be there for up to three months. During this time they work on production projects in an "on-training" position. After that they should be transferred to a billable position (together with their transfer to another EPAM department).
 
