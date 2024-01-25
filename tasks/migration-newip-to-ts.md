@@ -2,134 +2,142 @@
 
 **[News API](https://newsapi.org/)** - это простой HTTP REST API для поиска и извлечения новостей со всего Интернета.
 
-## Ключевые навыки:
+**[News API](https://newsapi.org/)** is a simple HTTP REST API for searching and retrieving news from across the Internet.
+
+## Key skills:
 
 - JavaScript Classes
 - Modules in JavaScript
 - Webpack
 - TypeScript
 
-## Источник
+## Source
 
-[Исходное приложение](https://github.com/rolling-scopes-school/news-JS/)
+[Original app](https://github.com/rolling-scopes-school/news-JS/)
 
 ### Proxy
 
-- News API больше не позволяет вызывать API с других ресурсов кроме localhost
-- Прокси News API сервера для использования в задеплоенной версии:
+- News API no longer allows calling the API from other sources except localhost.
+- Proxy News API servers for use in the deployed version:
   - https://rss-news-api.onrender.com/
   - https://news-proxy.spanb4.shop/
 
-## Требования к заданию
+// TODO: check if still available
 
-- Скопировать себе приложение и создать свою копию приложения
-- Добавить [TypeScript](https://www.typescriptlang.org/) в проект
-- Настроить ESLint для работы с TypeScript
-- Настроить Webpack для работы с Typescript
-- Смигрировать приложение с JavaScript на TypeScript, обязательно использовать:
-  - Enum
-  - interface
-  - type
+## Task Requirements
+
+- Create your own copy of the application.
+- Add [TypeScript](https://www.typescriptlang.org/) to the project.
+- Set up [ESLint](https://eslint.org/) to work with TypeScript.
+- Configure [Webpack](https://webpack.js.org/) to work with TypeScript.
+- Migrate the application from JavaScript to TypeScript, using:
+  - Enums
+  - Interfaces
+  - Types
   - Generics
-  - Union
-  - Private, public
-  - Partial, pick, readonly
-  - Тип `any` использовать **ЗАПРЕЩАЕТСЯ!**
-- Сделать верстку адаптивной с дизайном на свое усмотрение
+  - Union Types
+  - Access modifiers (`private`, `public`)
+  - Utility Types (`Partial`, `Pick`, `Readonly`)
+  - The usage of `any` type is **STRICTLY PROHIBITED!**
+- Make the layout adaptive with a design at your discretion.
 
-## Требования к вёрстке и оформлению приложения
+## Requirements for Layout and Application Design
 
-- внешний вид приложения соответствует предложенному образцу или является его улучшенной версией
-- вёрстка адаптивная. Минимальная ширина страницы, при которой проверяется корректность отображения приложения - 320рх, максимальная ширина страницы, при которой проверяется корректность отображения приложения - 1920рх
-- в футере приложения есть ссылка на гитхаб автора, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/)
+- The appearance of the application matches the proposed sample or is an improved version of it.
+- The layout is adaptive. The minimum page width at which the correctness of the application display is checked is `320px`, and the maximum page width is `1920px`.
+- The application's footer includes a link to the author's GitHub, the year of the application's creation, and the [course logo](https://rs.school/images/rs_school_js.svg) with a [link to the course](https://rs.school/js/).
 
-## Технические требования
+## Technical Requirements
 
-- работа приложения проверяется в браузере Google Chrome последней версии
+- Application functionality is tested in the latest version of the Google Chrome browser.
 
-## Последовательность выполнения задания:
+## Task Execution Sequence
 
-### Этап 1. Bootstrap приложения
+### Step 1: Bootstrap the Application
 
-Результатом выполнения этого этапа является:
+During this step, we've achieved the following:
 
-- `TypeScript` добавлен в проект
-  - добавлен npm пакет `TypeScript`
-  - создан `tsconfig.json` файл
-- `ESLint` и `Webpack` настроены для работы с `TypeScript`
-- В `ESLint` используется плагин [typescript-eslint/recommended](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
-- Ваша копия приложения запускается
+- Integrated TypeScript into the project by adding the TypeScript npm package.
+- Created the `tsconfig.json` file.
+- Configured ESLint and Webpack to seamlessly collaborate with TypeScript.
+- Implemented the [typescript-eslint/recommended](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) plugin in ESLint.
+- Successfully got your version of the application up and running.
 
-### Этап 2. Подготовка к миграция кода на TypeScript
+### Step 2: Prepare for Code Migration to TypeScript
 
-Результатом выполнения этого этапа является:
+The outcome of completing this step includes:
 
-- Файлы с расширением `*.js` переименованы в файлы с расширением `*.ts`
-- Созданы необходимые интерфейсы для обмена данными c [News API](https://newsapi.org/)
+- Renaming files with the extension `*.js` to files with the extension `*.ts`.
+- Creating necessary interfaces for data exchange with [News API](https://newsapi.org/).
 
-### Этап 3. Миграция кода на TypeScript
+### Step 3: Migration of Code to TypeScript
 
-Результатом выполнения этого этапа является:
+The result of completing this step is as follows:
 
-- Код строго типизирован. А именно:
-  - объявленны типы для всех переменных
-  - типизированны параметры функций и методов, а так же для возвращаемые значения (и если значения не возвращаются)
-  - типизированны используемые классы
-  - созданные ранее интерфейсы используются в коде
-  - созданы и используются enums, generics, partial и т.д.
-- В конфигурационном файле TypeScript стоят флаги:
+- Code is strictly typed, including:
+  - Declaration of types for all variables.
+  - Typing parameters for functions and methods, and appropriately handling cases where functions do not return a value.
+  - Typing used classes.
+  - Previously created interfaces are used in the code.
+  - Enums, generics, utility types, etc., are created and utilized.
+- The TypeScript configuration file includes the following flags:
   - `"noImplicitAny": true`
   - `"strict": true`
-- ESLint включено правило `no-explicit-any`
+- ESLint has the `no-explicit-any` rule enabled.
 
-### Этап 4. Адаптивная верстка
+### Step 4: Adaptive Layout
 
-Результатом выполнения этого этапа является:
+The result of completing this step is:
 
-- При масштабировании верстка не плывет, элементы не выпадают, часть контента не скрывается
+- The layout maintains stability during scaling, ensuring that elements adapt responsively without overlapping or hiding outside the viewport.
 
-## Проверка задания ментором
+## Task Review by Mentor
 
-**Максимальный балл за задание +170**
+**Maximum score for the task +170**
 
-1. Репозиторий +20
-   - pull request выполнен в соответствии с [требованиями](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) +10
-   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
-2. Качество кода +100
-   - приложение полностью смигрированно на TypeScript +50:
-     - используется Everyday Types and Enums + 10
-     - используются Generics +10
-     - использование Object Types +10
-     - использование Classes and private, public +10
-     - использование Function +10
-   - ESLinter настроен на TypeScript, включено правило `no-explicit-any` и отсутствуют ошибки +10
-   - нигде не используется тип Any +10
-   - В конфигурационном файле TypeScript стоят флаги `"noImplicitAny": true` и `"strict": true` + 20
-   - webpack настроен и работает с TypeScript +10
-3. Оформление и функционал приложения +50
-   - выполнена адаптивная верстка +10
-   - добавлен свой собственный дизайн или улучшения (в ПР должно быть описано что именно) +20
-   - у ментора нет замечаний к оформлению +20
+1. Repository **+20**
+   - Pull request is made in accordance with the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) **+10**
+   - Commit history is maintained, and commit names are given according to the [guideline](https://docs.rs.school/#/en/git-convention) **+10**
+2. Code Quality **+100**
+   - The application is fully migrated to TypeScript **+50**:
+     - Everyday Types and Enums are used **+10**
+     - Generics are used **+10**
+     - Object Types are used **+10**
+     - Classes and access modifiers (`private`, `public`) are used **+10**
+     - Functions are used **+10**
+       // TODO: clarify this criterion
+   - ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors **+10**
+   - The `any` type is not used anywhere **+10**
+   - The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true` **+20**
+   - Webpack is configured and working with TypeScript **+10**
+3. Design and Application Functionality **+50**
+   - Adaptive layout is implemented **+10**
+   - Your own design or improvements to the existing design are added (details should be described in the Pull Request) **+20**
+   - No comments from the mentor regarding the design **+20**
 
-## Штрафы
+## Penalties
 
-1. Используется тип Any -20
-2. Код не полностью покрыт типами -20
-3. В конфигурационном файле TypeScript не стоят обязательные флаги `"noImplicitAny": true` и `"strict": true` -20
-4. В конфигурационном файле ESLint не включено правило `no-explicit-any` -10
-5. Ошибки ESLinter -10
+1. Use of the `any` type **-20**
+2. Code is not fully covered with types **-20**
+3. Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file **-20**
+4. The ESLint configuration file does not include the `no-explicit-any` rule **-10**
+5. ESLint errors **-10**
 
-## Требования к репозиторию
+## Repository Requirements
 
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки `main` создайте ветку с названием задания, в ней создайте папку с названием задания, в папке разместите файлы проекта
-- для деплоя используйте gh-pages [Как сделать деплой задания из приватного репозитория школы](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
-- при невозможности использовать gh-pages, используйте для деплоя https://app.netlify.com/drop. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
-- **ссылку на пулл реквест** необходимо отправить на проверку ментору в Dashboard -> Mentor's Check по кнопке "Submit Task"
+- The task is performed in the school's private repository
+- In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
+- For deployment, use **gh-pages**
+- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.  
+  Name the page according to the scheme: `GitHub-account-name`-`task-name`, e.g. `octocat-news-api`
+- Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://docs.rs.school/#/en/git-convention).
+- After development is complete, create a Pull Request from the application branch to the `main` branch. Fill in your PR according to [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr).  
+  **Do not merge the Pull Request from the development branch to the `main` branch!**
+- Send the **link to the pull request** for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
 
-## Материалы которые могут помочь:
+## Useful Resources
+
+// TODO: update links
 
 - [tsconfig](https://habr.com/ru/post/557738/)
 - [no-explicit-any](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)
