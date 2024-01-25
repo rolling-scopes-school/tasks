@@ -102,8 +102,7 @@ The result of completing this step is:
   - **(10 points)** Generics are used
   - **(10 points)** Object Types are used
   - **(10 points)** Classes and access modifiers (`private`, `public`) are used
-  - **(10 points)** Functions are used
-    // TODO: clarify this criterion
+  - **(10 points)** [Function Types](https://www.typescriptlang.org/docs/handbook/2/functions.html) are used
 - **(10 points)** ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors
 - **(10 points)** The `any` type isn't used anywhere
 - **(20 points)** The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true`
