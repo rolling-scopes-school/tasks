@@ -1,10 +1,8 @@
 # News API
 
-**[News API](https://newsapi.org/)** - это простой HTTP REST API для поиска и извлечения новостей со всего Интернета.
-
 **[News API](https://newsapi.org/)** is a simple HTTP REST API for searching and retrieving news from across the Internet.
 
-## Key skills:
+## Key skills
 
 - JavaScript Classes
 - Modules in JavaScript
@@ -22,8 +20,6 @@
   - https://rss-news-api.onrender.com/
   - https://news-proxy.spanb4.shop/
 
-// TODO: check if still available
-
 ## Task Requirements
 
 - Create your own copy of the application.
@@ -38,8 +34,9 @@
   - Union Types
   - Access modifiers (`private`, `public`)
   - Utility Types (`Partial`, `Pick`, `Readonly`)
-  - The usage of `any` type is **STRICTLY PROHIBITED!**
 - Make the layout adaptive with a design at your discretion.
+
+**The usage of `any` type is STRICTLY PROHIBITED!**
 
 ## Requirements for Layout and Application Design
 
@@ -91,54 +88,56 @@ The result of completing this step is:
 
 - The layout maintains stability during scaling, ensuring that elements adapt responsively without overlapping or hiding outside the viewport.
 
-## Task Review by Mentor
+## Mentor Evaluation Criteria (170 points) 🎯
 
-**Maximum score for the task +170**
+### 1. Repository Setup (20 points)
 
-1. Repository **+20**
-   - Pull request is made in accordance with the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) **+10**
-   - Commit history is maintained, and commit names are given according to the [guideline](https://docs.rs.school/#/en/git-convention) **+10**
-2. Code Quality **+100**
-   - The application is fully migrated to TypeScript **+50**:
-     - Everyday Types and Enums are used **+10**
-     - Generics are used **+10**
-     - Object Types are used **+10**
-     - Classes and access modifiers (`private`, `public`) are used **+10**
-     - Functions are used **+10**
-       // TODO: clarify this criterion
-   - ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors **+10**
-   - The `any` type is not used anywhere **+10**
-   - The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true` **+20**
-   - Webpack is configured and working with TypeScript **+10**
-3. Design and Application Functionality **+50**
-   - Adaptive layout is implemented **+10**
-   - Your own design or improvements to the existing design are added (details should be described in the Pull Request) **+20**
-   - No comments from the mentor regarding the design **+20**
+- **(10 points)** Pull request is made in accordance with the [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr)
+- **(10 points)** Commit history is maintained, and commit names are given according to the [Commit Requirements](https://docs.rs.school/#/en/git-convention)
 
-## Penalties
+### 2. Code Quality (100 points)
 
-1. Use of the `any` type **-20**
-2. Code is not fully covered with types **-20**
-3. Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file **-20**
-4. The ESLint configuration file does not include the `no-explicit-any` rule **-10**
-5. ESLint errors **-10**
+- **(50 points)** The application is fully migrated to TypeScript:
+  - **(10 points)** Everyday Types and Enums are used
+  - **(10 points)** Generics are used
+  - **(10 points)** Object Types are used
+  - **(10 points)** Classes and access modifiers (`private`, `public`) are used
+  - **(10 points)** Functions are used
+    // TODO: clarify this criterion
+- **(10 points)** ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors
+- **(10 points)** The `any` type isn't used anywhere
+- **(20 points)** The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true`
+- **(10 points)** Webpack is configured to work with TypeScript
+
+### 3. Design and Application Functionality (50 points)
+
+- **(10 points)** Adaptive layout is implemented
+- **(20 points)** Your own design or improvements to the existing design are added (details should be described in the Pull Request)
+- **(20 points)** No remarks from the mentor regarding the design
+
+## Penalties 🚓
+
+- **(-20 points)** Use of the `any` type
+- **(-20 points)** Code is not fully covered with types
+- **(-20 points)** Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file
+- **(-10 points)** The ESLint configuration file does not include the `no-explicit-any` rule **-10**
+- **(-10 points)** ESLint errors
 
 ## Repository Requirements
 
-- The task is performed in the school's private repository
+- The task is performed in the school's <u>private</u> repository
 - In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
-- For deployment, use **gh-pages**
+- For deployment, use `gh-pages`
 - If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.  
-  Name the page according to the scheme: `GitHub-account-name`-`task-name`, e.g. `octocat-news-api`
+  Name the page according to the scheme: `GitHub-account-name`-`task-name` (e.g. `octocat-news-api`).
 - Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://docs.rs.school/#/en/git-convention).
-- After development is complete, create a Pull Request from the application branch to the `main` branch. Fill in your PR according to [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr).  
+- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr).  
   **Do not merge the Pull Request from the development branch to the `main` branch!**
-- Send the **link to the pull request** for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
+- Send the <u>link to the pull request</u> for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
 
 ## Useful Resources
 
-// TODO: update links
-
-- [tsconfig](https://habr.com/ru/post/557738/)
-- [no-explicit-any](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)
-- [responsive and adaptive](https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/)
+- [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+- [no-explicit-any](https://typescript-eslint.io/rules/no-explicit-any/)
+- [TypeScript Guide for Webpack](https://webpack.js.org/guides/typescript/)
+- [The Difference Between Responsive and Adaptive Design](https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/)

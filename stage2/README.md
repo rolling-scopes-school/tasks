@@ -33,7 +33,7 @@
 
 ### 20/02/2024
 
-- [Project on migration of JS project to TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Module: Typescript: Advanced](modules/typescript-advanced/)
 - [Interview with mentor](modules/technical-screening/)
 
