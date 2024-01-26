@@ -28,6 +28,7 @@
 
   - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
   - [Interview with mentor](modules/technical-screening/)
+  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
 
 - Tests:
 
