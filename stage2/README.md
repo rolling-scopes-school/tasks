@@ -26,7 +26,6 @@
 
 - Tasks:
 
-  - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
   - [Interview with mentor](modules/technical-screening/)
   - [TypeScript Essentials](tasks/TypeScriptEssentials/)
 
@@ -46,9 +45,22 @@
 
 ### 20/02/2024
 
-- [Project on migration of JS project to TS](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Module: Typescript: Advanced](modules/typescript-advanced/)
-- [Interview with mentor](modules/technical-screening/)
+- Modules:
+
+  - [Module: Typescript: Advanced](modules/typescript-advanced/)
+
+- Tasks:
+
+  - [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Interview with mentor](modules/technical-screening/)
+  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
+  - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
+  - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates)
+
+- Tests:
+
+  - [[St2] Typescript Advanced](modules/typescript-advanced/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
