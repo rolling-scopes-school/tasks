@@ -124,9 +124,9 @@ The result of completing this step is:
 
 ## Repository Requirements
 
-- The task is performed in the school's <u>private</u> repository
+- The task is performed in the **school's private repository**.
 - In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
-- For deployment, use `gh-pages`
+- For deployment, use `gh-pages`.
 - If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.  
   Name the page according to the scheme: `GitHub-account-name`-`task-name` (e.g. `octocat-news-api`).
 - Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://docs.rs.school/#/en/git-convention).
