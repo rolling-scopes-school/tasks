@@ -17,6 +17,7 @@ The objective of this task is to create a comprehensive Markdown file that lists
    - Ensure that each badge is named descriptively to reflect the module it represents.
 
 3. **Linking Badges to Modules:**
+
    - Provide a direct link for each badge to its corresponding module or the page where the badge was awarded.
    - Verify that all links are functional and direct to the correct module.
 

@@ -17,6 +17,7 @@ This task entails completing a module that focuses on developing typed functions
    - Make sure the badge is visible in your profile on the learning platform.
 
 3. **Markdown File Update:**
+
    - Add the badge to your Markdown file.
    - Ensure the link to the badge is correctly formatted and leads directly to your earned badge.
 

@@ -17,6 +17,7 @@ The task involves completing a module focused on implementing interfaces in Type
    - Check to confirm the badge appears in your profile on the learning platform.
 
 3. **Markdown File Update:**
+
    - Incorporate the badge into your Markdown documentation.
    - Ensure the badge link is properly inserted and leads to the correct badge.
 

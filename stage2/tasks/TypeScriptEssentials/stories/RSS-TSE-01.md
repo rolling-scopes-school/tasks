@@ -17,6 +17,7 @@ This task requires the completion of the "Getting Started with TypeScript" modul
    - Ensure you receive the badge in your learning platform account.
 
 3. **Markdown File Update:**
+
    - Update the provided Markdown file with the link to your badge.
    - The link should be directly accessible and viewable.
 

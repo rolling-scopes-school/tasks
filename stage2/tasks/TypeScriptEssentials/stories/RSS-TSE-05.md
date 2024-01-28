@@ -17,6 +17,7 @@ The objective of this task is to complete a module focused on declaring and inst
    - Verify that this badge is accessible in your account on the learning platform.
 
 3. **Markdown File Update:**
+
    - Integrate the badge into your Markdown file.
    - Ensure the badge link is functional and directs viewers to the specific badge you earned.
 

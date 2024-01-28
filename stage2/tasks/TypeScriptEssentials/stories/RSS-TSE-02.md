@@ -17,6 +17,7 @@ This task focuses on completing a module specifically about declaring variable t
    - Ensure that this badge is visible in your learning platform profile.
 
 3. **Markdown File Update:**
+
    - Update the provided Markdown file by adding a link to the newly earned badge.
    - Make sure the link is functional and directs to the specific badge.
 

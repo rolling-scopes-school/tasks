@@ -17,6 +17,7 @@ This task involves completing a module dedicated to understanding and using gene
    - Confirm that this badge is visible in your learning platform profile.
 
 3. **Markdown File Update:**
+
    - Update your Markdown file to include the badge you've earned.
    - Ensure that the link to the badge is correct and leads directly to your specific achievement.
 

@@ -17,6 +17,7 @@ This task involves completing a module that covers the effective organization of
    - Ensure the badge is visible in your account on the learning platform.
 
 3. **Markdown File Update:**
+
    - Add the earned badge to your Markdown file.
    - The badge link should be correctly inserted and lead directly to the earned badge.
 

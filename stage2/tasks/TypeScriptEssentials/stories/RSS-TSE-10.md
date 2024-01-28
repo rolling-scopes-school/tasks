@@ -22,6 +22,7 @@ This task requires crafting personal reflections for each TypeScript module comp
    - Optionally, include examples or hypothetical scenarios where these skills could be beneficial.
 
 4. **Documentation:**
+
    - Compile these reflections in a Markdown file named `TypeScript-Modules-Reflections.md` or similar.
    - Structure the document clearly, with separate sections for each module reflection.
 

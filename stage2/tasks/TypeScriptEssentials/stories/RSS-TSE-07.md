@@ -17,6 +17,7 @@ This task is centered around completing a module that teaches how to work with e
    - Make sure the badge is added to your profile on the learning platform.
 
 3. **Markdown File Update:**
+
    - Incorporate the badge into your Markdown documentation.
    - The link to the badge should be correctly formatted and lead directly to your badge.
 

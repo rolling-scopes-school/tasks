@@ -17,6 +17,7 @@ This penalty policy is applied to any changes made to a deployed document after 
    - This strict policy is in place to uphold the integrity and discipline of the deployment process.
 
 3. **Verifying Last Modified Date:**
+
    - The last modified date of the deployed document can be verified using the `document.lastModified` command in the browser console.
    - This command helps identify the date and time of the last modification, which is crucial for enforcing the penalty policy.
 
