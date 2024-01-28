@@ -71,6 +71,12 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 
 1. **Cross-Check Submission**: Submit your task for cross-check by deploying your Markdown file with all your badges and reflections to `gh-pages`. Submit the link to the deployed Markdown file on `gh-pages` for cross-check evaluation in the RS App.
 
+### Evaluation Criteria: 📋
+
+### CrossCheck Criteria (50 points): ✅
+
+[Cross-Check-Criteria](./CrossCheckCriteria.md)
+
 ## 🌟 Final Goal
 
 Upon completing these modules, you'll not only deepen your understanding of TypeScript but also have a personalized showcase of your learning journey. This documentation will serve as a valuable asset in your portfolio, demonstrating your commitment and expertise in TypeScript.
