@@ -1,30 +1,31 @@
-# [Stage#2.](../../) Classes & Prototypes
+# [Stage#2.](../../) Classes & Prototypes 🌟
 
-## В данном модуле студентам необходимо изучить:
+## Module Overview 📚
 
-- What is class
-- What is object
-  - key
-  - value
-- Inheritance
-  - classical
-  - prototypal
-- Classes in JS
-  - Introduction to classes
-  - Defining a class
-  - Differences between functions and classes
-  - Hoisting explained with classes
-  - Strict mode with classes explained
-  - Static methods and usage
-  - Prototype methods explained
-- Using Prototypal Inheritance
-  - Understand the prototype property
-  - Modify an object's prototype
-  - Create a prototype chain
-  - Apply prototypal inheritance
-- Constructors
-  - Introduction to constructors
-  - Constructor and super usage
+This module introduces students to classes and prototypes in JavaScript. It aims to provide an in-depth understanding of classes in JS, objects and inheritance. Through this module, students will explore the concepts of constructor, classical and prototypal inheritance, gaining a solid foundation for creating modular, reusable, and maintainable code.
+
+## Learning Objectives 🎯
+
+Students will:
+
+- Understand what is class.
+- Learn What is object, its key and value.
+- Dive into the inheritance concept, both classical and prototypal.
+- Explore what are classes in JS. In partucular:
+  - Introduction to classes;
+  - Defining a class;
+  - Differences between functions and classes;
+  - Hoisting explained with classes;
+  - Strict mode with classes explained;
+  - Static methods and usage;
+  - Prototype methods explained.
+- Delve into the usage of prototypal inheritance and understand the prototype property. Get familiar how to:
+  - Modify an object's prototype;
+  - Create a prototype chain;
+  - Apply prototypal inheritance.
+- Grasp the concept of constructors:
+  - Introduction to constructors;
+  - Constructor and super usage.
 - typeof
 - instanceof
 - Inheritance
@@ -35,30 +36,28 @@
   - Extends intro and usage
   - Mixins intro and usage
 
-## Приблизительное время прохождения модуля
+## Approximate Module Completion Time ⏱️
 
-6 часов
+6 hours
 
-## Теория
+## Theory 📖
 
-Посмотреть вебинары:
+Students are encouraged to study the following resources:
 
-- [RS School. JavaScript Classes](https://youtu.be/O462BetYst8)
-- [Презентация из вебинара "RS School. JavaScript Classes"](https://kirilknysh.github.io/js-classes-talk/#/)
-- [JavaScript Classes & Prototypes / Классы и прототипы в JavaScript. JS/FE 2021Q3](https://youtu.be/QceUxKQeFDA)
-- [Classes / Классы](https://youtu.be/uy_6CeZ6MTU)
+- [FreeCodeCamp video about JavaScript Classes](https://youtube.com/watch?v=2ZphE5HcQPQ)
+- [RS School Presentaton "JavaScript Classes"](https://kirilknysh.github.io/js-classes-talk/#/)
+- [JavaScript Classes](https://javascript.info/classes)
+- [Prototypes and Inheritance](https://javascript.info/prototypes)
 
-## Практика
+## Practice 💻
 
-- [Задачи на Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q3-OOP.md)
-- Вам необходимо пройти тест "Classes & Prototypes" в RS APP > Auto Test
+- Complete the test "[St1] Classes & Prototypes" in the RS APP > Auto Test
 
-## Дополнительные материалы
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
 
 - [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
-- http://mrale.ph/v8/resources.html
-- [JS Core by Dmitry Soshnikov, 2nd edition](http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/)
-- [JS Core by Dmitry Soshnikov](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
-- [Объекты, Learn.JavaScript.ru](https://learn.javascript.ru/object-basics)
-- [Прототипы, наследование, Learn.JavaScript.ru](https://learn.javascript.ru/prototypes)
-- [Классы, Learn.JavaScript.ru](https://learn.javascript.ru/classes)
+- [MDN article "Using classes"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes)
+- [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [Objects, JavaScript.info](https://javascript.info/object-basics)

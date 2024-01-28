@@ -255,7 +255,7 @@
 
 - Tasks:
 
-  - [Final task stage1](tasks/)
+  - [Nonograms](../tasks/nonograms/)
 
 - Tests:
 
@@ -267,11 +267,11 @@
 
 - Modules:
 
-  [[St1] Client-Server Interaction Overview](modules/client-server/)
+  [Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
 
-  - [Final task stage1](tasks/)
+  - [Nonograms](../tasks/nonograms/)
 
 - Tests:
 
@@ -281,11 +281,25 @@
 
 #### February 6, 2024
 
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1](/tasks)
-- [Project "Self-introduction"](modules/self-introduction/)
-- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
-- Preparation for [Technical Screening](../stage2/modules/technical-screening/)
+- Cross-Check Reviews:
+
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Nonograms"](../tasks/nonograms/)
+
+- Modules:
+
+  - [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
+  - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
+  - Preparation for [Technical Screening](../stage2/modules/technical-screening/)
+
+- Tasks:
+
+  - [Project "Self-introduction"](modules/self-introduction/)
+
+- Tests:
+
+  - [[St1] Classes & Prototypes](modules/classes-prototypes/)
+  - [[St1] OOP Test](modules/classes-prototypes/)
+  - [[St1] Final test stage#1](https://github.com/rolling-scopes-school/tasks/tree/master/stage1)
 
 <details>
   <summary markdown="span">Mentor activities</summary>

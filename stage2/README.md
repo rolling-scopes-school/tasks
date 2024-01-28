@@ -16,10 +16,22 @@
 
 ### 13/02/2024
 
-- [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
-- [Module: TypeScript: Basic](modules/typescript-basic/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
-- [Interview with mentor](modules/technical-screening/)
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
+
+- Modules:
+
+  - [Module: TypeScript: Basic](modules/typescript-basic/)
+
+- Tasks:
+
+  - [Interview with mentor](modules/technical-screening/)
+  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
+
+- Tests:
+
+  - [[St2] TypeScript Basics](modules/typescript-basic/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -33,9 +45,22 @@
 
 ### 20/02/2024
 
-- [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Module: Typescript: Advanced](modules/typescript-advanced/)
-- [Interview with mentor](modules/technical-screening/)
+- Modules:
+
+  - [Module: Typescript: Advanced](modules/typescript-advanced/)
+
+- Tasks:
+
+  - [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Interview with mentor](modules/technical-screening/)
+  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
+  - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
+  - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates)
+
+- Tests:
+
+  - [[St2] Typescript Advanced](modules/typescript-advanced/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
