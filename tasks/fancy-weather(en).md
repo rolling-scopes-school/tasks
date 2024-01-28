@@ -220,6 +220,10 @@ In the case of non-critical defects, the number of points will be calculated to 
 
 **1. Geolocation API**
 
+- [IP2Location.io](https://www.ip2location.io/)
+  - get current user location  
+    `https://api.ip2location.io/`
+  - [API Docs](http://www.ip2location.io/ip2location-documentation)
 - https://ipinfo.io/
   - sign up
   - get token
