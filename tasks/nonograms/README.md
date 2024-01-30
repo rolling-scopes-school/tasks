@@ -25,7 +25,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 `Advanced:`
 
 - the game should have at least 5 templates for easy level (5x5). Players should be able to choose the picture they wish to solve, possibly through a list of items. You might implement it in two ways: either make a list of possible templates with images(solved puzzles) or using template names (without pictures), or using both images and names. User should also easy understand what is the level of image.
-- a player is able to fill in a cell in the grid changing the color of the grid to crossed-cell(X) using right mouse-click. Context menu should not appear. Filling empty cells with X is not obligatory to win the game.
+- a player is able to fill in a cell in the grid changing the color of the grid to crossed-cell(X) using right mouse-click in desktop device mode (as per the Desktop device type in DevTools). Context menu should not appear. Filling empty cells with X is not obligatory to win the game.
 - the game can be restarted (reset) without reloading the page (for example, by clicking on button `Reset game`). After clicking the button the level of game and template (picture) should not be changed - it means that only filled cells will be reset. Otherwise the player can change game template or game level (for example, you could implement menu with options) without reloading the page.
 - display the game duration in format XX:XX, stop-watch will start after first click on field (not on clues). "Great! You have solved the nonogram in ## seconds!" is displayed after winning.
 - the game should include sound effects for events such as mark a cell as black, flagging a cell as X, flagging a cell as empty and win game.
