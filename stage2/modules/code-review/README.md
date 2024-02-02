@@ -3,6 +3,7 @@
 ## Module Overview 📚
 
 The "Code Review Basics and Best Practices" module is designed to equip students with the knowledge and skills necessary for conducting effective code reviews. This module covers the importance of code reviews in software development, techniques for performing code reviews, and best practices for providing constructive feedback.
+
 ![alt text](image.png)
 
 ## Learning Objectives 🎯
