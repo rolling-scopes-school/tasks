@@ -45,5 +45,5 @@ Students are encouraged to explore the following resources:
 
 ## Additional Resources 📘
 
-1. [SmartBear - Best Practices for Peer Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+1. [Best Practices for Peer Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 2. [Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
