@@ -38,7 +38,7 @@
 
 - [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
 - [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
-- [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
+- [Conducting Technical Screening](./modules/technical-screening/)
 </details>
 
 ## Week #2.
@@ -56,27 +56,10 @@
   - [TypeScript Essentials](tasks/TypeScriptEssentials/)
   - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
   - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
-  - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates)
 
 - Tests:
 
   - [[St2] Typescript Advanced](modules/typescript-advanced/)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
-- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
-- [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
-</details>
-
-## Week #3.
-
-### 27/02/2024
-
-- [Module: Code review]()
-- [Module: SPA]()
-- [Interview with mentor](modules/technical-screening/)
 
 ```
 At the end of this week, all students will be required to use typescript and adhere to the following rules when completing all subsequent tasks:
@@ -94,9 +77,42 @@ At the end of this week, all students will be required to use typescript and adh
 
 <details>
   <summary markdown="span">Mentor activities</summary>
+
+- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
+- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+- [Conducting Technical Screening](./modules/technical-screening/)
+</details>
+
+## Week #3.
+
+### 27/02/2024
+
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+
+- Modules:
+
+  - [Module: Code review](./modules/code-review/)
+  - [Module: SPA](./modules/single-page-application/)
+
+- Tasks:
+
+  - [Code review](./tasks//code-review/)
+  - [Interview with mentor](modules/technical-screening/)
+  - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates)
+
+- Tests:
+
+  - [[St2] Single Page Application](modules/single-page-application/)
+  - [[St2] Code review](modules/code-review/)
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
   
   - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Conducting Technical Screening](https://docs.rs.school/#/mentoring-first-interview)
+  - [Conducting Technical Screening](./modules/technical-screening/)
   - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 </details>
 
