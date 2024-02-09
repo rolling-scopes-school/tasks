@@ -4,11 +4,6 @@
 
 - **Objective:** To hire at least 100 RS School graduates for Junior Software Engineer positions.
 - **Location:** Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, and Armenia (GUKKA region).
-- **Quarterly Hiring Goals:**
-  - First Quarter: ~10 positions.
-  - Second Quarter: ~30 positions.
-  - Third Quarter: ~30 positions.
-  - Fourth Quarter: ~30 positions.
 - **Note:** Hiring targets are specific to candidates with a junior title. Students can be hired flexibly in terms of timing and quantity.
 
 ### Candidate Requirements
