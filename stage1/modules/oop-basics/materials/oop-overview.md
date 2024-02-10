@@ -272,7 +272,7 @@ class Car extends Transport {
         super(type, model)
     }
 
-    public move(): {
+    public move() {
         console.log('Moving on the road');
     }
 }
