@@ -5,6 +5,7 @@
 - 📣 **Open to all who wish to join**
 - 📅 **Study time:** 12 weeks
 - 📚 **Format:** self-study + webinars + Discord communication + assignments (cross-checks/auto-checks)
+- 🌐 **Roadmap:** [Stage#1 Roadmap](https://roadmap.sh/r?id=6546196a4352f418f817e70d)
 
 ### 📝 Topics Covered:
 
