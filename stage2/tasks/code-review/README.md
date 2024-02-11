@@ -59,7 +59,7 @@ These detailed guidelines are crafted for students undertaking the code review t
 
 ## 📋 Evaluation Criteria
 
-### ✅ Mentor Evaluation Criteria (75 points - Total):
+### ✅ Mentor Evaluation Criteria (95 points - Total):
 
 Refer to the detailed [Mentor Evaluation Criteria](./MentorEvaluationCriteria.md) to understand the scoring system.
 
