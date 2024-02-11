@@ -43,4 +43,4 @@ Students are encouraged to explore the following resources:
 
 ## Additional Resources 📘
 
-1. [Components [RU]](https://gist.github.com/TELEUZI/0fadffb59a84c07bfdf97e0353d3281c)
+1. [Creating markup with JS](https://gist.github.com/TELEUZI/410d19772481d98b06e0b41ebf89fff1)
