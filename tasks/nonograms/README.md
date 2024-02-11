@@ -15,7 +15,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 
 `Basic (required):`
 
-- initially, `body` in the index.html file must be empty (only script tag is allowed), **all necessary elements are generated using JS**
+- initially, `body` in the index.html file must be empty (only script tag is allowed) **all necessary elements are generated using JS**
 - the design should be adaptive (or responsive) from _(500px <= width)_. It is acceptable to change the appearance for the mobile version (for example, hide the buttons in the burger menu)
 - the default size of the frame is 5x5. The clues are given at the top and left side of the grid. The sequence of numbers must be logically arranged and help the player solve the nonogram
 - for game field: every 5 cells in rows and columns should be divided by divider (bold line). For clues: every 5 cells in a **rows** should be divided by divider (for left clues); every 5 cells in a **columns** should be divided by divider (for top clues). Clues should be divided from game field by bold line.
