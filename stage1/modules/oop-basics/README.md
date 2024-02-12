@@ -29,6 +29,7 @@ Students are encouraged to study the following resources:
    - [Learn deeper OOP in MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming) - [~1 hr]
    - [OOP cheat sheet](https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) - [~20 min]
    - [Deep dive OOP video with examples](https://www.youtube.com/watch?v=vDJpGenyHaA) - [40 min]
+   - [UML Summary](https://www.inf.fu-berlin.de/lehre/WS97/SWT/uml/doc/summary.pdf) - [~30 min]
 
 ## Practice 💻
 
@@ -44,3 +45,5 @@ Expand your knowledge with these additional materials:
 4. [Polymorphism In Programming](https://www.bmc.com/blogs/polymorphism-programming/)
 5. [Encapsulation](<https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>)
 6. [Abstraction](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>)
+7. [The Unified Modeling Language lecture](https://youtu.be/F5UJkENKc50)
+8. [Unified Modeling Language User Guide](https://patologia.com.mx/informatica/uug.pdf)
