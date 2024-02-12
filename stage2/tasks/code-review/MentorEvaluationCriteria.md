@@ -10,17 +10,17 @@ This document outlines the evaluation criteria for mentors assessing the code re
 
 - **2 points for each identified issue**.
 - Maximum of 50 points for this criterion.
-- Focus on identifying inefficient code, poor practices, or errors.
+- Focus on identifying inefficient code, poor practices (code repeat, overcomplicated code, useless code, misleading naming, etc.), or errors.
 
 ### 2. Providing Suggestions (Total: 15 points)
 
-- **3 points for each comment containing suggestions**.
+- **3 points for each comment containing code improvement suggestions**.
 - Maximum of 15 points for this criterion.
 - Emphasis on actionable and constructive suggestions.
 
 ### 3. Comment Placement Accuracy (10 points)
 
-- **10 points if all comments are accurately placed** relevant to the specific lines of code they address.
+- **10 points if all comments are accurately placed** meaning they should be directly relevant to the specific lines of code they address.
 
 ### 4. Positive Acknowledgement (Total: 10 points)
 
