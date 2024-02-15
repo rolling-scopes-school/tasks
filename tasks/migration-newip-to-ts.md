@@ -18,7 +18,7 @@
 - News API no longer allows calling the API from other sources except localhost.
 - Proxy News API servers for use in the deployed version:
   - https://rss-news-api.onrender.com/
-  - https://news-proxy.spanb4.shop/
+  - https://news-proxy.spanb4.online/
 
 ## Task Requirements
 
