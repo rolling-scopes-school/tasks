@@ -84,7 +84,7 @@ Students can continue studying independently or enroll in the next batch. All th
 
 ## What to Do if a Student is Dissatisfied with the Mentor Interview 😕
 
-In such a case, the student needs to describe the situation and their complaint [here](TBD @valerydluski)
+In such a case, the student needs to describe the situation and their complaint [here](https://github.com/rolling-scopes-school/support/issues/957)
 
 ## FAQ ❓
 
