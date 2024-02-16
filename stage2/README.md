@@ -90,7 +90,6 @@ At the end of this week, all students will be required to use typescript and adh
 - Cross-Check Reviews:
 
   - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 
 - Modules:
 
