@@ -24,15 +24,17 @@ In this module, students will:
 
 ## Approximate Module Completion Time ⏱️
 
-- **5 hours**
+- **8 hours**
 
 ## Theory 📖
 
-// TODO: revise and update
+Students are encouraged to study the following resources:
 
-- Лекция
-  - https://www.youtube.com/watch?v=MuCoejGknUI
-  - https://slides.com/dzmitrytsebruk/async-programming
+- [Promises, async/await](https://javascript.info/async)
+- [Error Handling](https://javascript.info/error-handling)
+- [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
+- [Async Programming Lecture [RU]](https://www.youtube.com/watch?v=MuCoejGknUI)
+- [Async Programming Lecture Slides](https://slides.com/dzmitrytsebruk/async-programming)
 
 ## Practice 💻
 
@@ -40,9 +42,10 @@ In this module, students will:
 
 ## Additional Resources 📘
 
-// TODO: revise and update
+Expand your knowledge with these additional materials:
 
-1. [Асинхронность в JavaScript. Таймеры, промисы, async/await](https://www.youtube.com/watch?v=Ih6Q7ka2eSQ&feature=youtu.be) - 2,5 часа
-2. [Полное понимание синхронного и асинхронного JavaScript с Async/Await](https://medium.com/@stasonmars/%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B8-%D0%B0%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-javascript-%D1%81-async-await-ba5f47f4436) - 1 час
-3. [Использование Fetch](https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch) - 1 час
-4. [Асинхронные функции (async/await)](https://youtu.be/5kAPExqSZ1I) - 1 час
+- [How Promises Work in JavaScript](https://www.freecodecamp.org/news/guide-to-javascript-promises/#how-to-handle-errors-in-async-await)
+- [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
+- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [How to Learn JavaScript Promises and Async/Await in 20 Minutes](https://www.freecodecamp.org/news/learn-promise-async-await-in-20-minutes/)
+- [Learn Callbacks, Promises, Async/Await By Making Ice Cream](https://www.youtube.com/watch?v=n5ZtTO1ArWg)
