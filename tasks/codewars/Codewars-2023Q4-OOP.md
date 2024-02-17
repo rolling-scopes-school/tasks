@@ -34,7 +34,7 @@ Don't forget to change your nickname on Codewars. The nickname will be displayed
 - 5 points - 5 kyu (3 at all)
 - 8 points - 4 kyu (1 at all)
 
-Total: 1 _ 5 + 4 _ 6 + 5 _ 3 + 8 _ 1 = 52
+Total: 1 \* 5 + 4 \* 6 + 5 \* 3 + 8 \* 1 = 52
 
 **Total sum - 52 points.**
 
