@@ -53,6 +53,7 @@ Expand your knowledge with these additional materials:
 
 - **HTTP:**
 
+  - [HTTP - CS50](https://www.youtube.com/watch?v=4axL8Gfw2nI)
   - [HTTP Crash Course & Exploration](https://youtu.be/iYM2zFP3Zn0)
 
 - **CORS:**
