@@ -119,9 +119,17 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 05/03/2024
 
-- [Module: Web Storage](modules/web-storage/)
-- [new task @valerydluski](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- Modules:
+
+  - [Module: Web Storage](modules/web-storage/)
+
+- Tasks:
+
+  - [RSS Puzzle](./tasks/puzzle/)
+
+- Tests:
+
+  - [[St2] Web Storage](modules/web-storage/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -133,7 +141,8 @@ At the end of this week, all students will be required to use typescript and adh
   - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
   - "Online" format presentation is optional and is up to the student's discretion.
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md))
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
+- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/)
 - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
@@ -141,7 +150,6 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 12/03/2024
 
-- [Testing](modules/testing/)
 - [Module: "Functional Programming Basics"](modules/fp-basics/)
 - [new task @valerydluski](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 
@@ -158,6 +166,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 19/03/2024
 
+- [Testing](modules/testing/)
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: Async programming](modules/async/)
 - [Module: HTTP / HTTPS](modules/http/)
