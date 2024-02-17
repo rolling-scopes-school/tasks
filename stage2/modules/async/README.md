@@ -24,17 +24,32 @@ In this module, students will:
 
 ## Approximate Module Completion Time ⏱️
 
-- **8 hours**
+- **10 hours**
 
 ## Theory 📖
 
 Students are encouraged to study the following resources:
 
-- [Promises, async/await](https://javascript.info/async)
-- [Error Handling](https://javascript.info/error-handling)
-- [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
-- [Async Programming Lecture [RU]](https://www.youtube.com/watch?v=MuCoejGknUI)
-- [Async Programming Lecture Slides](https://slides.com/dzmitrytsebruk/async-programming)
+1. **Promises:**
+
+   - [Promises, async/await](https://javascript.info/async)
+   - [JavaScript Promises - Introduction](https://www.codeguage.com/courses/advanced-js/promises-introduction)
+   - [JavaScript Promises - Basics](https://www.codeguage.com/courses/advanced-js/promises-basics)
+   - [Promises Chaining](https://www.codeguage.com/courses/advanced-js/promises-chaining)
+
+2. **Error Handling:**
+
+   - [Error Handling](https://javascript.info/error-handling)
+   - [Promises Error Handling](https://www.codeguage.com/courses/advanced-js/promises-error-handling)
+
+3. **Timers:**
+
+   - [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
+
+4. **RS Materials:**
+
+   - [Async Programming Lecture [RU]](https://www.youtube.com/watch?v=MuCoejGknUI)
+   - [Async Programming Lecture Slides](https://slides.com/dzmitrytsebruk/async-programming)
 
 ## Practice 💻
 
@@ -44,8 +59,17 @@ Students are encouraged to study the following resources:
 
 Expand your knowledge with these additional materials:
 
-- [How Promises Work in JavaScript](https://www.freecodecamp.org/news/guide-to-javascript-promises/#how-to-handle-errors-in-async-await)
-- [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
-- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [How to Learn JavaScript Promises and Async/Await in 20 Minutes](https://www.freecodecamp.org/news/learn-promise-async-await-in-20-minutes/)
-- [Learn Callbacks, Promises, Async/Await By Making Ice Cream](https://www.youtube.com/watch?v=n5ZtTO1ArWg)
+- **To Read:**
+
+  - [How Promises Work in JavaScript](https://www.freecodecamp.org/news/guide-to-javascript-promises/#how-to-handle-errors-in-async-await)
+  - [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
+  - [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [How to Learn JavaScript Promises and Async/Await in 20 Minutes](https://www.freecodecamp.org/news/learn-promise-async-await-in-20-minutes/)
+
+- **To Watch:**
+
+  - [Learn Callbacks, Promises, Async/Await By Making Ice Cream](https://www.youtube.com/watch?v=n5ZtTO1ArWg)
+
+- **Tools:**
+  - [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+  - [JavaScript Visualizer 9000](https://www.jsv9000.app/)
