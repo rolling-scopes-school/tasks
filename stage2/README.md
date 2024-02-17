@@ -193,7 +193,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 02/04/2024
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [new task @mikaleinik](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
+- [Fun chat](tasks/fun-chat/README.md)
 - [Module: JavaScript Error Handling](modules/error-handling/)
 
 <details>
@@ -211,7 +211,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: Design Patterns](modules/design-patterns/)
-- [new task @mikaleinik](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
+- [Fun chat](tasks/fun-chat/README.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
