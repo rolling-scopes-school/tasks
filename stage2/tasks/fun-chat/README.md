@@ -88,7 +88,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 - (+5) The browser tab must display the application icon.
 - (+5) The interface elements with which the user will interact must be responsive and the cursor must change when they are hovered over.
-- (+5) Responsive layout must be implemented for resolutions ranging from 1440px to 380px, inclusive.
+- (+5) Responsive layout must be implemented for resolutions ranging from 1440 px to 380 px, inclusive.
 
 #### 10. Server Connection (+20)
 
