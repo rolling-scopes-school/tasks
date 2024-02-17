@@ -2,19 +2,22 @@
 
 ## Module Overview 📚
 
-This module provides students with foundational knowledge of HTTP, HTTPS, and CORS, essential for web development. Students will delve into the fundamentals of these protocols, understanding their functionalities and differences. By the end of the module, students will have a solid understanding of managing HTTP requests, distinguishing between HTTP and HTTPS, and implementing CORS to ensure secure and efficient communication between web resources.
+This module provides students with foundational knowledge of HTTP, HTTPS, and CORS, essential for web development. Additionally, students will explore API security best practices, authentication and authorization methods, and emerging technologies such as HTTP/3 and the QUIC protocol, shaping the future of web development.
 
 ## Learning Objectives 🎯
 
 Students will:
 
 - Gain an understanding of the basics of HTTP
-- Learn about the difference between HTTP and HTTPS, including their security measures and protocols
-- Explore CORS, covering its definition, implementation, and its importance in web development
+- Learn about the difference between HTTP and HTTPS, including their security measures
+- Explore CORS and its importance in web development
+- Examine API security best practices, incorporating techniques like rate limiting, input validation, and error handling
+- Delve into authentication and authorization methods such as Basic Auth, OAuth, and JWT
+- Explore Emerging Technologies and Future Trends, with a focus on HTTP/3, QUIC protocol, and other advancements
 
 ## Approximate Module Completion Time ⏱️
 
-- **2 hours**
+- **4 hours**
 
 ## Theory 📖
 
