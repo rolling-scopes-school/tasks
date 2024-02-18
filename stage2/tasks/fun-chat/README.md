@@ -22,6 +22,8 @@ We've found a ready-made [server application](https://github.com/rolling-scopes-
 
 Before initiating the development of the client application, you have to clone the [server application](https://github.com/rolling-scopes-school/fun-chat-server/tree/main) to your local computer, launch the local server, and maintain the server application's operation as needed.
 
+**Important!** If for any reason you have changed the port which your client application will use and it is different from the one suggested in the server application settings, be sure to notify your reviewers.
+
 To complete the task in the school repository, create a separate branch and regularly commit your solutions to it.
 
 You have complete freedom to implement any visual design for the application. You will find a sample of a possible app design [here](https://mikaleinik.github.io/chat-deploy).
