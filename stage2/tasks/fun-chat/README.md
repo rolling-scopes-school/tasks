@@ -9,7 +9,7 @@ We've found a ready-made [server application](https://github.com/rolling-scopes-
 
 - Familiarize yourself with the WebSocket connection protocol.
 - Gain experience working with a connection where both the client and server applications can initiate sending messages.
-- Refine and solidify skills in asynchronous coding.
+- Refine and solidify your skills in asynchronous coding.
 - Enhance and consolidate your skills in working with the Document Object Model (DOM) and creating markup using code.
 
 ## Useful Links
@@ -24,7 +24,7 @@ Before initiating the development of the client application, you have to clone t
 
 To complete the task in the school repository, create a separate branch and regularly commit your solutions to it.
 
-You have complete freedom to implement any visual design for the application. You'll find a sample of a possible app design [here](https://mikaleinik.github.io/chat-deploy).
+You have complete freedom to implement any visual design for the application. You will find a sample of a possible app design [here](https://mikaleinik.github.io/chat-deploy).
 
 ## Functional Requirements (+250)
 
@@ -48,7 +48,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 4. Footer (+5)
 
-- (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of application creation.
+- (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of the app creation.
 
 #### 5. User List (+30)
 
@@ -59,15 +59,15 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 6. User Dialogue (+75)
 
-- (+5) Provides information about the user with whom the dialogue is open, also indicating whether that user is online.
-- (+5) Provides the complete message history with the selected user, including messages from both the current user and the user with whom the dialogue is currently open.
+- (+5) Provides information about the user with whom the dialogue is open, as well as indicating whether that user is online.
+- (+5) Provides a complete message history with the selected user, including messages from both the current user and the user with whom the dialogue is currently open.
 - (+5) Arranges messages chronologically based on the time of sending. The latest message is displayed near the message input and send component.
 - (+5) In the absence of message history, a message in the message history field indicates that this is the beginning of the dialogue.
-- (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user.)
-- (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user.)
+- (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
+- (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
 - (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message.
 - (+5) When new unread messages appear (before meeting the conditions to remove the dividing line), the line must always stay within the dialogue area and not hide in the scroll area.
-- (+5) The dividing line between read and unread messages must be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
+- (+5) The dividing line between read and unread messages can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
 - (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
 - (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
 - (+10) The user can delete their own previously sent messages.
