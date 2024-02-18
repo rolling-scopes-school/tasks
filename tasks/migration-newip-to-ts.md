@@ -18,6 +18,7 @@
 - News API no longer allows calling the API from other sources except localhost.
 - Proxy News API servers for use in the deployed version:
   - https://rss-news-api.onrender.com/
+    - has additional mocks endpoints - `/mocks/sources` and `/mocks/everything` - that return static data to help prevent exhausting API key requests limit during the developing process.
   - https://news-proxy.spanb4.online/
 
 ## Task Requirements
