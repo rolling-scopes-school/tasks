@@ -10,7 +10,7 @@ We've found a ready-made [server application](https://github.com/rolling-scopes-
 - Familiarize yourself with the WebSocket connection protocol.
 - Gain experience working with a connection where both the client and server applications can initiate sending messages.
 - Refine and solidify skills in asynchronous coding.
-- Refine and solidify skills in working with the Document Object Model (DOM) and creating markup using code.
+- Enhance and consolidate your skills in working with the Document Object Model (DOM) and creating markup using code.
 
 ## Useful Links
 
