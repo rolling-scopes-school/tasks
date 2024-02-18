@@ -102,7 +102,7 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+20) The application is a Single Page Application (SPA) with implemented routing.
 - (+20) The application is implemented using TypeScript.
 - (+20) Input/output parameters of all methods are explicitly typed, and the `any` type is not used.
-- (+20) Eslint with the Airbnb style guide is used, with the `noInlineConfig: true` rule enabled in the configuration.
+- (+20) ESLint with the Airbnb style guide is used, with the `noInlineConfig: true` rule enabled in the configuration.
 - (+10) Webpack or another module bundler is used.
 - (+10) Code is organized into small functions with clear names and purposes, with each function not exceeding 40 lines.
 - (+10) There is no code duplication.
