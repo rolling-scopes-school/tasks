@@ -160,7 +160,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: Async programming](modules/async/)
-- [Module: HTTP / HTTPS](modules/http/)
+- [Module: Web Security](modules/web-security/)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
 
