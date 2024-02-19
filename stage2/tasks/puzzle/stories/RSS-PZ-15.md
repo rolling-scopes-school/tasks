@@ -1,4 +1,4 @@
-# ⏱ Issue RSS-PZ-15: Implement Drag-and-Drop for Interactive Sentence Assembly (20 points)
+# ⏱ Issue RSS-PZ-15: Implement Drag-and-Drop for Interactive Sentence Assembly (15 points)
 
 ## 📝 Description
 

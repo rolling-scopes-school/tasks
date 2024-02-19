@@ -1,4 +1,4 @@
-# ⏱ Issue RSS-PZ-14: Implement 'Auto-Complete' Button for Sentence Assembly (10 points)
+# ⏱ Issue RSS-PZ-14: Implement 'Auto-Complete' Button for Sentence Assembly (5 points)
 
 ## 📝 Description
 

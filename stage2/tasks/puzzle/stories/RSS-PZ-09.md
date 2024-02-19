@@ -1,4 +1,4 @@
-# ⏱ Issue RSS-PZ-09: Dynamic Sizing of Word Cards Based on Word Length (10 points)
+# ⏱ Issue RSS-PZ-09: Dynamic Sizing of Word Cards Based on Word Length (5 points)
 
 ## 📝 Description
 

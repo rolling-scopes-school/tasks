@@ -1,4 +1,4 @@
-# ⏱ Issue RSS-PZ-08: Design Main Game Page with Interactive Word Cards (15 points)
+# ⏱ Issue RSS-PZ-08: Design Main Game Page with Interactive Word Cards (10 points)
 
 ## 📝 Description
 
