@@ -1,4 +1,4 @@
-# RSS Puzzle Evaluation Cross-Check Criteria (210 points): ✅
+# RSS Puzzle Evaluation Cross-Check Criteria (220 points): ✅
 
 ### User Name Entry Page Evaluation Criteria (Total Points: 20) 📋👤
 
@@ -107,3 +107,13 @@
 #### 3. Persistence and Continuation of Last Round (5 points) 💾🔄
 
 - **(5 points)** 🎯 Ensure that the player's last completed round is saved in local storage. Upon restarting the game, it should automatically commence from the next round following the last completed one. This functionality provides a seamless continuation of gameplay across sessions. [RSS-PZ-27](./stories/RSS-PZ-27.md)
+
+### Completion and Revelation of Background Image Evaluation Criteria (Total Points: 10) 🎨🖼️
+
+#### 1. Background Image Revelation and Information Display (5 points) 🌅🔍
+
+- **(5 points)** 🎯 Implement a feature where, upon correctly assembling all ten sentences in a round, the borders between word cards and the words themselves fade away, making the background image on the cards fully visible. Alongside the revealed image, display brief information about it, including the author, title, and year of creation. This functionality enhances the visual reward and educational value of the game. [RSS-PZ-28](./stories/RSS-PZ-28.md)
+
+#### 2. Transition to Next Round or Results Screen (5 points) 🔜📊
+
+- **(5 points)** 🎯 Ensure that a 'Results' button appears alongside the 'Continue' button upon successfully completing all ten sentences of a round. Clicking 'Continue' should lead to the next round, while 'Results' should display a summary of the player's performance in the completed round. This feature facilitates smooth progression and reflective learning in the game. [RSS-PZ-29](./stories/RSS-PZ-29.md)
