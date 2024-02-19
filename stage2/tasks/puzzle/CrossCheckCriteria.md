@@ -1,4 +1,4 @@
-# RSS Puzzle Evaluation Cross-Check Criteria (220 points): ✅
+# RSS Puzzle Evaluation Cross-Check Criteria (245 points): ✅
 
 ### User Name Entry Page Evaluation Criteria (Total Points: 20) 📋👤
 
@@ -117,3 +117,21 @@
 #### 2. Transition to Next Round or Results Screen (5 points) 🔜📊
 
 - **(5 points)** 🎯 Ensure that a 'Results' button appears alongside the 'Continue' button upon successfully completing all ten sentences of a round. Clicking 'Continue' should lead to the next round, while 'Results' should display a summary of the player's performance in the completed round. This feature facilitates smooth progression and reflective learning in the game. [RSS-PZ-29](./stories/RSS-PZ-29.md)
+
+### Statistics Page Evaluation Criteria (Total Points: 25) 📊🔍
+
+#### 1. Navigation from Statistics Page (5 points) 🔜🎮
+
+- **(5 points)** 🎯 Implement a 'Continue' button on the statistics page. Clicking this button should navigate the player to the next round of the game [RSS-PZ-30](./stories/RSS-PZ-30.md)
+
+#### 2. Categorization of Sentences (10 points) 📝✅❌
+
+- **(10 points)** 🎯 Create two distinct sections on the statistics page: 'Known' for sentences the player assembled correctly and 'Unknown' for sentences revealed using the 'I don't know' button. This categorization should reflect the player's performance regardless of the number of attempts or hints used. [RSS-PZ-31](./stories/RSS-PZ-31.md)
+
+#### 3. Round Sentences and Audio Pronunciation Feature (5 points) 🔊📖
+
+- **(5 points)** 🎯 Display all sentences from the round on the statistics page, each accompanied by an audio icon. Enable audio playback of each sentence's pronunciation upon clicking the corresponding sentence. This feature aids in auditory learning and reinforces language skills. [RSS-PZ-32](./stories/RSS-PZ-32.md)
+
+#### 4. Miniature Artwork Display (5 points) 🎨🖼️
+
+- **(5 points)** 🎯 Show a miniature of the artwork assembled in the current round on the statistics page. This visual element serves as a reward and a recap of the player's achievement in assembling the puzzle-like sentences. [RSS-PZ-33](./stories/RSS-PZ-33.md)
