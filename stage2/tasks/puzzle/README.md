@@ -81,7 +81,7 @@
 
 ## Evaluation Criteria: 📋
 
-### CrossCheck Criteria (250 points): ✅
+### CrossCheck Criteria (245 points): ✅
 
 [Cross-Check Criteria](./CrossCheckCriteria.md)
 
