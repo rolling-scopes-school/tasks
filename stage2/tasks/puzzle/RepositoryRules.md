@@ -29,7 +29,3 @@
 ![alt text](./images/PRTitle.png)
 ![alt text](./images/description.png)
 ![alt text](./images/squash.png)
-
----
-
-By following these updated repository rules, developers will ensure a clean, organized, and efficient workflow for the RSS Puzzle project. Each feature will be distinctly traceable, and the repository's history will remain clear and concise.
