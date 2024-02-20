@@ -80,7 +80,7 @@
 
 [Cross-Check Criteria](./CrossCheckCriteria.md)
 
-### Mentors Check Criteria (150 points): ✅
+### Mentors Check Criteria (170 points): ✅
 
 [Mentors Check Criteria](./MentorsCheckCriteria.md)
 
