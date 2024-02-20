@@ -2,63 +2,58 @@
 
 ## Introduction 🌟
 
-**RSS Puzzle** is an interactive mini-game designed to enhance English language skills through assembling sentences from jumbled words, inspired by Lingualeo's Phrase Constructor training.
+**RSS Puzzle** is an interactive mini-game aimed at enhancing English language skills. Players assemble sentences from jumbled words, inspired by Lingualeo's Phrase Constructor training. The game integrates various levels of difficulty, hint options, and a unique puzzle-like experience with artwork.
 
 ## Prototype 🚀
 
 - **Inspiration**: Lingualeo's Phrase Constructor training.
-- **Testing**: Available at [Lingualeo](https://lingualeo.com/ru/training/phrasePuzzle) after registering and adding sentences from [recommended phrasebooks](https://lingualeo.com/ru/dictionary/sets-recommended-phrasebooks).
+- **Testing**: Available at [Lingualeo](https://lingualeo.com/ru/training/phrasePuzzle) after registration and adding sentences from [recommended phrasebooks](https://lingualeo.com/ru/dictionary/sets-recommended-phrasebooks).
 
 ## Application Structure 🏗️
 
 ### Core Components
 
-- **User Name Entry**: Enter first and last names for a personalized experience, stored in local storage 📝.
-- **Global Toolbar**: Includes a logout option 🔙.
-- **Start Screen**: Introduction and 'Start' button, accessible after name entry 🌐.
-- **Main Page**: Central gameplay area with menu, hints, results, and data blocks, along with action buttons ⚙️🔊✍️📋.
-- **Statistics Page**: Displays game statistics and artwork information 🖼️.
+- **User Name Entry**: Personalized access with name storage in local storage 📝.
+- **Global Toolbar**: Includes logout functionality 🔙.
+- **Start Screen**: Welcomes users with game information and a 'Start' button 🌐.
+- **Main Game Page**: Features gameplay area with word cards, hint options, sentence assembly, and round progression ⚙️🔊✍️📋.
+- **Statistics Page**: Displays round performance, sentence categorization, audio pronunciation, and artwork information 🖼️.
 
 ### Data Set 📚
 
-- A collection of 3600 English words, sorted by difficulty, with example sentences for gameplay.
-- **Word Collection**: Access the JSON collection of words [here](https://github.com/rolling-scopes-school/rss-puzzle-data/tree/main/data).
+- **Word Collection**: A set of 3600 English words sorted by difficulty, accessible [here](https://github.com/rolling-scopes-school/rss-puzzle-data/tree/main/data).
+- **Audio Files**: Pronunciation audio files available [here](https://github.com/rolling-scopes-school/rss-puzzle-data/tree/main/files).
 
 ## Functional Blocks 🧱
 
 ### User Interaction
 
-- **User Name Entry**: Simplified access via name entry, stored in local storage 🔐.
-- **Start Screen**: Features app name, brief instructions, and the 'Start' button 🌐.
-- **Menu**: Allows selection of difficulty level and game round, toggling of auto-pronunciation, and choosing hints ⚙️.
-- **Hint Block**: Contains sentence translation and audio icon 🔊. Access audio files [here](https://github.com/rolling-scopes-school/rss-puzzle-data/tree/main/files).
-- **Result Block**: Assembles sentences with a dedicated line for each sentence ✍️.
-- **Data Block**: Randomly placed word cards for sentence assembly 📋.
-- **Statistics Page**: Displays all round sentences with audio icons, miniature artwork, and artwork details 🖼️.
+- **Level and Round Selection**: Choose from six difficulty levels and various rounds 🎚️.
+- **Sentence Assembly**: Drag-and-drop functionality for forming sentences 👆.
+- **Hint Options**: Includes translation, pronunciation, and puzzle image hints 💡.
+- **Statistics and Progress Tracking**: Review performance and artwork on the statistics page 📊.
 
 ### Gameplay Mechanics
 
-- **Sentence Assembly**: Interactive drag-and-drop of words to form sentences 👆.
-- **Progressive Difficulty**: Six levels of difficulty 📈.
-- **Artwork Puzzle**: Word cards feature puzzle-like interlocking edges and form part of a larger image puzzle 🧩.
+- **Artwork Puzzle**: Assemble sentences to reveal parts of an artwork puzzle 🧩.
+- **Interactive Hints**: Toggle hints for enhanced gameplay experience 🔄.
+- **Progressive Difficulty**: Gradual increase in challenge across levels 📈.
 
 ## Image Resources for Artwork Puzzles 🌠
 
 - **Original Data**: Available at [this GitHub repository](https://github.com/rolling-scopes-school/rss-puzzle-data/tree/main/images).
-- **Custom Collection**: Students may build their own collection of images for the puzzles.
+- **Custom Collection**: Option for students to create their own image collection.
 
 ## Gameplay Workflow 🎮
 
-1. **Name Entry**: Mandatory for accessing the game 🚪.
-2. **Start Screen**: Introduction and transition to the main gameplay 🌐.
-3. **Round Playthrough**: Sentence assembly, hint usage, and level progression 🔁.
-4. **Results and Continuation**: Showcases artwork and offers statistical insights post-round 📈📉.
+1. **Name Entry**: Required for game access 🚪.
+2. **Start Screen**: Introduction and transition to gameplay 🌐.
+3. **Round Playthrough**: Engage in sentence assembly, utilize hints, and progress through rounds 🔁.
+4. **Results and Reflection**: Review round statistics and artwork achievements 📈📉.
 
 ## Repository Rules 🗃️
 
-- **Repository**: Work in the private school repository.
-- **Branch**: Create a new branch `rss-puzzle` from `main` or `master`.
-- **Commits**: Follow commit guidelines and maintain a clear history.
+[Repository Rules](./RepositoryRules.md)
 
 ## Technical Requirements 🛠️
 
