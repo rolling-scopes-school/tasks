@@ -2,32 +2,31 @@
 
 ## 📝 Description
 
-Incorporate a seamless transition in the game logic where the 'Check' button transforms into a 'Continue' button once a sentence is correctly assembled. This change signals to the player that they have successfully completed the current sentence and can proceed to the next one or the next round. This feature is pivotal for enhancing user experience by providing clear and intuitive guidance on game progression.
+Enhance the game's user interface by transforming the 'Check' button into a 'Continue' button after correctly assembling a sentence. This transition should indicate to the player that they are ready to proceed either to the next sentence or to the background image revelation screen ([RSS-PZ-28](./stories/RSS-PZ-28.md)) if the feature is implemented. If not, the button should lead to the next round. This enhancement aims to provide a seamless and intuitive gaming experience.
 
 ## 🔨 Implementation Details
 
 1. **Button Transformation Logic:**
 
-   - Initially, present the player with a 'Check' button to verify the sentence assembly.
-   - Upon correct assembly of the sentence, programmatically transform this 'Check' button into a 'Continue' button.
+   - Start with a 'Check' button for players to verify sentence assembly.
+   - Upon correct assembly, change the 'Check' button to a 'Continue' button.
 
-2. **Verifying Sentence Correctness:**
+2. **Sentence Correctness Verification:**
 
-   - Implement logic that determines the correctness of the sentence when the 'Check' button is pressed.
-   - Only transform the button to 'Continue' if the sentence is assembled correctly.
+   - Develop logic to determine the accuracy of the assembled sentence.
+   - Enable the 'Continue' button only after the sentence is confirmed to be correct.
 
-3. **'Continue' Button Functionality:**
+3. **Navigational Functionality of 'Continue' Button:**
 
-   - Once transformed, the 'Continue' button should allow the player to progress to the next sentence or redirect to the statistics page.
-   - Ensure this transition is smooth and maintains the continuity of the game.
+   - If the background image revelation feature ([RSS-PZ-28](./stories/RSS-PZ-28.md)) is implemented and the sentence is the final one in the round, direct the player to the image revelation screen.
+   - Otherwise, allow the player to advance to the next round.
 
-4. **Visual Feedback and Styling:**
-
-   - Provide clear visual feedback during the button transformation to indicate the change in functionality.
-   - Style both buttons consistently with the game's theme but with distinguishable features.
+4. **Visual Feedback and Consistency:**
+   - Provide clear visual cues during the button's transformation to indicate its changed function.
+   - Ensure the design of both buttons is consistent with the overall game aesthetic.
 
 ## ✅ Acceptance Criteria
 
-- The 'Check' button transforms into a 'Continue' button upon the correct assembly of a sentence.
-- The button transformation is accompanied by clear visual feedback.
-- The 'Continue' button enables progression to the next sentence or redirect to the statistics page.
+- The 'Check' button becomes a 'Continue' button after the player assembles a sentence correctly.
+- Visual feedback clearly indicates the button's transformation.
+- The 'Continue' button leads to either the background image revelation screen ([RSS-PZ-28](./stories/RSS-PZ-28.md)) or the next round, based on game progression and feature implementation.

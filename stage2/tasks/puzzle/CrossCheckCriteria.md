@@ -50,7 +50,7 @@
 
 #### 4. Sentence Transition and Round Completion (10 points) 🔜🎯
 
-- **(10 points)** 🎯 Implement functionality that enables the player to transition to the next sentence upon clicking a button, given the current sentence is correctly assembled. If the current sentence is the last in the round, display the statistics page. This feature ensures a smooth progression through the game. [RSS-PZ-11](./stories/RSS-PZ-11.md)
+- **(10 points)** 🎯 Implement a feature that allows the player to proceed to the next sentence by clicking a button, provided the current sentence is correctly assembled. If the current sentence is the last one in the round and the background image completion feature ([RSS-PZ-28](./stories/RSS-PZ-28.md)) is implemented, then reveal the background image with its details. If [RSS-PZ-28](./stories/RSS-PZ-28.md) is not implemented, the player should automatically proceed to the next round. This design ensures a smooth and engaging progression through the game. [RSS-PZ-11](./stories/RSS-PZ-11.md)
 
 #### 5. Sentence Assembly Verification (10 points) ✔️🔍
 
