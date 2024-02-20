@@ -54,7 +54,7 @@
   - [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
   - [Interview with mentor](modules/technical-screening/)
   - [TypeScript Essentials](tasks/TypeScriptEssentials/)
-  - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2022Q3-OOP.md)
+  - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2023Q4-OOP.md)
   - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
 
 - Tests:
