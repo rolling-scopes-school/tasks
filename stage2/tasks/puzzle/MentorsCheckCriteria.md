@@ -49,3 +49,25 @@
 ### 7. Overall Code Quality (50 points) 🌟👨‍💻
 
 - **(Up to 50 points)** 🎯 Discretionary points awarded by the mentor based on overall code quality, readability
+
+### Penalties for the RSS Puzzle Project (Up to -100% of Total Points)
+
+#### 1. Non-Compliance with TypeScript-Only Requirement (-100%)
+
+- **(-100% of Total Points)** 🚫 If the application is not written in TypeScript, a penalty of 100% will be applied.
+
+#### 2. Use of Prohibited Libraries or Frameworks (-100%)
+
+- **(-100% of Total Points)** 🚫 Utilizing libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc., will incur a penalty of 100%.
+
+#### 3. Violation of Content Generation Rule (-70%)
+
+- **(-70% of Total Points)** 🚫 If the entire content of the page is not generated using TypeScript (if `index.html` contains more than just the `body` tag), a penalty of 70% will be applied.
+
+#### 4. Linter, TypeScript, or Prettier Errors (-5 points per error)
+
+- **(-5 points per error)** 🚫 Each error related to linters, TypeScript, or Prettier will result in a deduction of 5 points.
+
+#### 5. Use of `any` Type in TypeScript (-5 points per instance)
+
+- **(-5 points per instance)** 🚫 Each use of the `any` type in TypeScript code will result in a deduction of 5 points.
