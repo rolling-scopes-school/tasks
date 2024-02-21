@@ -150,23 +150,58 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 12/03/2024
 
-- [Module: "Functional Programming Basics"](modules/fp-basics/)
-- [new task @valerydluski](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
+- Modules:
+
+  - [Module: "Functional Programming Basics"](modules/fp-basics/)
+
+- Tasks:
+
+  - [RSS Puzzle](./tasks/puzzle/)
+
+- Tests:
+
+  - [[St2] Functional Programming](modules/fp-basics/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- Reviewing task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
+- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/)
+- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
-## Week #6.
+## Week #6
 
 ### 19/03/2024
 
-- [Testing](modules/testing/)
+- Modules:
+
+  - [Testing](modules/testing/)
+
+- Tasks:
+
+  - [RSS Testing](./tasks/rss-testing/)
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+
+- Tests:
+
+  - [[St2] Testing](./modules/testing/)
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
+
+- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Testing](./tasks/rss-testing/)
+- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+</details>
+
+## Week #7.
+
+### 26/03/2024
+
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: Async programming](modules/async/)
 - [Module: HTTP / HTTPS](modules/http/)
@@ -180,9 +215,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 </details>
 
-## Week #7.
+## Week #8.
 
-### 26/03/2024
+### 02/04/2024
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
@@ -197,9 +232,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Week #8.
+## Week #9.
 
-### 02/04/2024
+### 09/04/2024
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [new task @mikaleinik](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
@@ -214,9 +249,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Week #9.
+## Week #10.
 
-### 09/04/2024
+### 16/04/2024
 
 - [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Module: Design Patterns](modules/design-patterns/)
@@ -230,9 +265,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Week #10.
+## Week #11.
 
-### 16/04/2024
+### 23/04/2024
 
 - [Project: Presentation. Recorded & Online](modules/presentation)
 - [Module: "SCRUM, Kanban"](modules/scrum/)
@@ -248,9 +283,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing Students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Неделя #11.
+## Week #12.
 
-### 23/04/2024
+### 30/04/2024
 
 - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
 
@@ -262,9 +297,9 @@ At the end of this week, all students will be required to use typescript and adh
 - Задание ["Презентация"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md). - Презентация в формате "recorded" является обязательной для всех студентов. Ментору необходимо посмотреть ролик и выставить оценку.
 </details>
 
-## Неделя #12.
+## Week #13.
 
-### 30/04/2024
+### 07/05/2024
 
 - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Module: how browsers work](modules/how-browsers-work/)
@@ -276,9 +311,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
-## Неделя #13.
+## Week #14.
 
-### 07/05/2024
+### 14/05/2024
 
 - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -291,9 +326,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
-## Неделя #14.
+## Week #15.
 
-### 14/05/2024
+### 21/05/2024
 
 - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -306,9 +341,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #15.
+## Week #16.
 
-### 21/05/2024
+### 28/05/2024
 
 - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md) Разработка в командах 3 чел
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -321,9 +356,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #16.
+## Week #17.
 
-### 28/05/2024
+### 04/06/2024
 
 - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 - [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
@@ -336,9 +371,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #17.
+## Week #18.
 
-### 04/06/2024
+### 11/06/2024
 
 - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 
@@ -350,9 +385,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Неделя #18.
+## Week #19.
 
-### 11/06/2024
+### 18/06/2024
 
 - [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
 - Получение сертификата за Stage#2
