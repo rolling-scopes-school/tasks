@@ -111,7 +111,7 @@ The result of completing this step is:
 
 - **(10 points)** Adaptive layout is implemented
 - **(10 points)** Your own design or improvements to the existing one are added (details should be described in the Pull Request)
-- **(10 points)** Additional functionality is added to the app (the PR should describe what it is, e.g. alphabetical filter or your own idea)
+- **(10 points)** Additional functionality is added to the app (the PR should describe what it is, e.g. alphabetical filter or come up with your own idea)
 - **(20 points)** No remarks from the mentor regarding the design
 
 ## Penalties 🚓
