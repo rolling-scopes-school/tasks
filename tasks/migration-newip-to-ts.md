@@ -110,7 +110,8 @@ The result of completing this step is:
 ### 3. Design and Application Functionality (50 points)
 
 - **(10 points)** Adaptive layout is implemented
-- **(20 points)** Your own design or improvements to the existing design are added (details should be described in the Pull Request)
+- **(10 points)** Your own design or improvements to the existing one are added (details should be described in the Pull Request)
+- **(10 points)** Additional functionality is added to the app (the PR should describe what it is, e.g. alphabetical filter or your own idea)
 - **(20 points)** No remarks from the mentor regarding the design
 
 ## Penalties 🚓
@@ -126,10 +127,10 @@ The result of completing this step is:
 - The task is performed in the **school's private repository**.
 - In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
 - For deployment, use `gh-pages`.
-- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.  
+- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.
   Name the page according to the scheme: `GitHub-account-name`-`task-name` (e.g. `octocat-news-api`).
 - Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://docs.rs.school/#/en/git-convention).
-- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr).  
+- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr).
   **Do not merge the Pull Request from the development branch to the `main` branch!**
 - Send the <u>link to the pull request</u> for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
 
