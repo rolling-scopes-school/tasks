@@ -16,57 +16,13 @@
 
 ### JavaScript:
 
-- #### Objects Built-in methods.
+#### Modules in JavaScript
 
-  - Know static Object methods
-  - Property flags & descriptors (student is able to set property via Object. defineProperty)
-  - Know how to create iterable objects, Symbol.iterator usage `(optional)`
-
-- #### ECMAScript Data Types & Expressions
-
-  - Object computed props
-  - Be able to loop through Object keys
-
-- #### Functional Scope
-
-  - Know global scope and functional scope
-  - Know variables visibility areas
-  - Understand nested scopes and able work with them
-
-- #### Functions Parameters / Arguments
-
-  - Know how to define Function parameters
-  - Know difference between parameters passing by value and by reference
-  - Know how to handle dynamic amount of Function parameters
-
-- #### Closures Advanced
-
-  - Context (lexical environment)
-  - Understand function creation context (lexical environment)
-  - Be able to explain difference between scope and context
-  - Inner/outer lexical environment
-  - Understand lexical environment traversing mechanism
-  - Understand connection between function and lexical environment
-
-- #### ECMAScript Intermediate
-
-  - Function default parameters
-  - Know how to use spread operator for Function arguments
-  - Be able to compare `arguments` and `rest parameters`
-  - Spread operator for Array
-  - Understand and able to use spread operator for Array concatenation
-  - Destructuring assignment
-  - Be able to discover destructuring assignment concept
-  - Understand variables and Function arguments destructuring assignment
-  - Know how `for..of` loop works `(optional)`
-
-  #### Modules in JavaScript
-
-  - What is module / module pattern? For what purposes they were created?
-  - Modules types (AMD, ES6, CommonJS, UMD).
-  - Modules syntax.
-  - Common modules features (export default, named exports, exports as, etc).
-  - Dynamic imports.
+- What is module / module pattern? For what purposes they were created?
+- Modules types (AMD, ES6, CommonJS, UMD).
+- Modules syntax.
+- Common modules features (export default, named exports, exports as, etc).
+- Dynamic imports.
 
 - #### Advanced Functions
 
@@ -158,7 +114,6 @@
   - Navigator `(optional)`
   - Know how to parse user agent `(optional)`
   - Know how to discover client platform, browser
-  - Cookies
 
 - #### Page Lifecycle
 
@@ -185,11 +140,6 @@
 
   - `requestAnimationFrame` `(optional)`
   - Be able to explain difference between `setTimeout` and `requestAnimationFrame` `(optional)`
-
-- #### Web Storage API & cookies
-
-  - Cookies
-  - Difference between localStorage, sessionStorage and cookies
 
 ### Typescript:
 
