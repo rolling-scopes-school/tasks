@@ -28,6 +28,18 @@
 
   - arrow func/ func expression/ func declaration
 
+- #### Advanced Functions
+
+  - `this` in functions
+  - Reference Type & losing `this`
+  - Understand difference between function and method
+  - Understand how `this` works, realize `this` possible issues
+  - Manage `this`
+  - Be able to replace `this` value
+  - Be able to use `call` and `apply` Function built-in methods
+  - Know how to bind `this` scope to function
+  - Binding, binding one function twice
+
 - #### Objects Built-in methods.
 
   - Object `keys/values`
