@@ -57,6 +57,18 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - The mechanism of lexical environment traversal.
 - Connection between function and its lexical environment.
 
+- #### Advanced Functions
+
+  - `this` in functions
+  - Reference Type & losing `this`
+  - Understand difference between function and method
+  - Understand how `this` works, realize `this` possible issues
+  - Manage `this`
+  - Be able to replace `this` value
+  - Be able to use `call` and `apply` Function built-in methods
+  - Know how to bind `this` scope to function
+  - Binding, binding one function twice
+
 #### ECMAScript Intermediate
 
 - Function default parameters.
