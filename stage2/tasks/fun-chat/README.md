@@ -37,29 +37,28 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed.
 - (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
 
-#### 2. Main Page (+25)
+#### 2. Main Page (+15)
 
 - (+15) Access is granted only to authenticated users.
-- (+10) Includes the following components (parts/elements): header, footer, user list, user dialogue. The elements of the page can be pop-up and are not required to be constantly in view.
 
-#### 3. Header (+10)
+#### 3. Header (on the main page) (+10)
 
 - (+3) Displays the current authenticated user's name.
 - (+2) Displays the app's name.
 - (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
 
-#### 4. Footer (+5)
+#### 4. Footer (on the main page) (+5)
 
 - (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of the app creation.
 
-#### 5. User List (+30)
+#### 5. User List (on the main page) (+30)
 
 - (+10) Displays all registered users and an indicator of each user's online status.
 - (+5) The currently authenticated user is not in the list.
 - (+5) Implements user search by name.
 - (+10) Displays information about the number of unread messages from each user.
 
-#### 6. User Dialogue (+75)
+#### 6. User Dialogue (on the main page) (+75)
 
 - (+5) Provides information about the user with whom the dialogue is open, as well as indicating whether that user is online.
 - (+5) Provides a complete message history with the selected user, including messages from both the current user and the user with whom the dialogue is currently open.
@@ -75,24 +74,28 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+10) The user can delete their own previously sent messages.
 - (+10) The user can edit the text of their own previously sent messages.
 
-#### 7. Message Content (+25)
+#### 7. Message Content (on the main page) (+25)
 
 - (+15) Messages include the time of sending, sender's username, message delivery status, message text, and indication of whether the message has been edited.
 - (+5) The message "delivered"/"read" status is visible only to the sender of the message.
 - (+5) A user cannot send a message without any content (without text).
 
-#### 8. Message Delivery and Read Status (+20)
+#### 8. Message Delivery and Read Status (on the main page) (+20)
 
 - (+20) The status changes to "delivered" when the message recipient logs into the application or if the message is sent to the user who is online.
 - (+20) The status changes to "read" when the message recipient opens a dialogue with unread messages and performs any of the following actions: scrolls in the message history area, sends a new message, or clicks inside the message history area.
 
-#### 9. Interface and Visual Design (+15)
+#### 9. About Page (+10)
+
+- (+10) Contains brief information about the application and its author. The content is at the student's discretion.
+
+#### 10. Interface and Visual Design (+15)
 
 - (+5) The browser tab must display the application icon.
 - (+5) The interface elements with which the user will interact must be responsive and the cursor must change when they are hovered over.
 - (+5) Responsive layout must be implemented for resolutions ranging from 1440 px to 380 px, inclusive.
 
-#### 10. Server Connection (+20)
+#### 11. Server Connection (on all pages) (+20)
 
 - (+10) If a sudden disconnection from the server occurs, a message must be displayed to the user, and an attempt to restore the connection must be made.
 - (+10) Upon reconnecting to the server, the application must perform the current user reauthorization without requiring user intervention.
@@ -102,9 +105,10 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+20) The application is divided into logical modules/layers, such as, for example, API interaction, user interface rendering, application state management, etc.
 - (+20) All HTML content is generated using JavaScript. `Body` must be empty. Either `head` or `body` can contain the only `<script> tag` (`body` containing only the `<script> tag` is considered to be empty).
 - (+20) The application is a Single Page Application (SPA) with implemented routing.
-- (+20) The application is implemented using TypeScript.
 - (+20) Input/output parameters of all methods are explicitly typed, and the `any` type is not used.
 - (+20) ESLint with the Airbnb style guide is used, with the `noInlineConfig: true` rule enabled in the configuration.
+- (+10) Prettier is used to automatically format code, ensuring a consistent and readable code style.
+- (+10) Husky is used to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process.
 - (+10) Webpack or another module bundler is used.
 - (+10) Code is organized into small functions with clear names and purposes, with each function not exceeding 40 lines.
 - (+10) There is no code duplication.
@@ -123,11 +127,19 @@ You have complete freedom to implement any visual design for the application. Yo
 - A pull request with a description following the school's rules must be created for the assessment.
 - Evaluation is based on [technical requirements](#technical-requirements-160).
 
-## Penalties
+## Penalties Cross-Check
 
 - (-100%) Use of libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc.
+- (-100%) If the application is not written in TypeScript.
 - (-15) For recurring application errors, a deduction is allowed only once for each distinct type of error.
 - (-5) For layout issues where the elements overlap or cover each other, a deduction is allowed only once for each distinct type of issue.
+
+## Penalties Mentor
+
+- (-100%) Use of libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc.
+- (-100%) If the application is not written in TypeScript.
+- (-50%) If the entire content of the page is not generated using TypeScript (if index.html contains more than just the body tag).
+- (-50) With remarks on code quality, readability.
 
 ## FAQ
 
@@ -137,7 +149,7 @@ _Answer_ - Yes, it is allowed.
 
 _Question_ - Is the appearance of the application evaluated?
 
-_Answer_ - Only the criteria specified in the [interface section](#9-interface-and-visual-design-15) are assessed; students are free to choose every other aspect of the design themselves.
+_Answer_ - Only the criteria specified in the [interface section](#10-interface-and-visual-design-15) are assessed; students are free to choose every other aspect of the design themselves.
 
 _Question_ - How should the task be assessed if the information in a particular element is not updated according to the actions of other users or the server?
 
@@ -154,3 +166,7 @@ _Answer_ - It is not considered a layout issue if only the first 10 characters o
 _Question_ - If a user sends a very long message, how can the requirements of the interface points be met?
 
 _Answer_ - The complete message must be displayed in the dialogue.
+
+_Question_ - What pages are available to a non-authorized user?
+
+_Answer_ - It has access to the authentication and about pages.
