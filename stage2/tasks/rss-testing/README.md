@@ -22,6 +22,8 @@ Embark on a journey to enhance your JavaScript testing skills by integrating Jes
 
 ## Resources
 
+- **Jest Documentation**: Dive into the [Jest Documentation](https://jestjs.io/docs/getting-started) to understand the fundamentals of testing with Jest.
+- **DOM Testing Library Docs**: Explore the [Testing Library Docs](https://testing-library.com/docs/dom-testing-library/intro) for guidance on using DOM Testing Library effectively.
 - **Project Repository**: Access the project on GitHub through the [Movie App Testing Repository](https://github.com/rolling-scopes-school/movie-app-testing) to commence your testing journey.
 
 # 🗂️ Repository Management Guidelines
