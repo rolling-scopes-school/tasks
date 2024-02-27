@@ -42,6 +42,7 @@ Students are encouraged to explore the following resources:
    - [GitHub's Code Review Tool](https://github.com/features/code-review/)
 
 4. **Webinars:**
+
    - [Code Review [RU]](https://www.youtube.com/watch?v=lRtUJFuIyv0)
 
 ## Practice 💻
