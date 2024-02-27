@@ -169,4 +169,4 @@ _Answer_ - The complete message must be displayed in the dialogue.
 
 _Question_ - What pages are available to a non-authorized user?
 
-_Answer_ - It has access to the authentication and about pages.
+_Answer_ - They have access to the Authentication and About pages.
