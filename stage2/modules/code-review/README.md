@@ -47,7 +47,7 @@ Students are encouraged to explore the following resources:
 
 ## Practice 💻
 
-- Task TBD.
+- Complete the task ['Code Review'](../../tasks/code-review/)
 - Complete the test "[St2] Code Review" in the RS-App > Auto Test.
 
 ## Additional Resources 📘
