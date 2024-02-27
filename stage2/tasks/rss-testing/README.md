@@ -41,6 +41,7 @@ To prepare for the "RSS Testing" task within your private school repository, sim
    - **Start Fresh**: Create a new branch named `rss-testing` directly from the `main` or `master` branch of your private school repository. This will serve as the dedicated workspace for your testing activities.
 
 2. **Code Placement**:
+
    - **Organize**: Copy the source code of the application into the `rss-testing` branch. This ensures that all testing efforts are centralized within this branch, facilitating a focused and organized approach to writing and managing tests
 
 ## Conducting Your Tests
