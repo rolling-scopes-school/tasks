@@ -36,9 +36,14 @@ Students are encouraged to explore the following resources:
    - [Google's Code Review Guidelines - Writing Comments](https://google.github.io/eng-practices/review/reviewer/comments.html)
 
 3. **Tools and Techniques:**
+
    - [Popular Code Review Tools](https://www.softwaretestinghelp.com/code-review-tools/)
    - [Code Review Best Practices on Roadmap.sh](https://roadmap.sh/best-practices/code-review)
    - [GitHub's Code Review Tool](https://github.com/features/code-review/)
+
+4. **Webinars:**
+
+   - [Code Review [RU]](https://www.youtube.com/watch?v=lRtUJFuIyv0)
 
 ## Practice 💻
 
