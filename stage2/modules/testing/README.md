@@ -1,13 +1,15 @@
 # [Stage#2.](../../) Testing
 
 ## Module Overview 📚
+
 In this module, the fundamentals of testing in JavaScript covered, including its importance, different types of testing, popular frameworks and libraries, methodologies like FIRST, TDD and BDD, and best practices. Testing is an integral part of the software development process, and mastering it can greatly improve the quality and reliability of application code.
 
 ## Learning Objectives 🎯
 
 Students will:
+
 - Study the basics of testing and see the importance of testing in JavaScript development
-- Learn about different types of testing and their purposes. Such as: 
+- Learn about different types of testing and their purposes. Such as:
   - Engineering Processes
   - Integration Testing
   - E2E
@@ -38,7 +40,7 @@ Students are encouraged to study the following resources:
 
 ## Practice 💻
 
--  Complete the "Testing" test in the RS-App > Auto Test.
+- Complete the "Testing" test in the RS-App > Auto Test.
 
 ## Additional Resources 📘
 
