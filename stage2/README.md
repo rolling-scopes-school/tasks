@@ -175,6 +175,42 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 19/03/2024
 
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Module: Async programming](modules/async/)
+- [Module: HTTP / HTTPS](modules/http/)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
+
+- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+</details>
+
+## Week #7.
+
+### 26/03/2024
+
+- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
+- [Module: RESTful API Style](modules/restful-api/)
+- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
+
+- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+</details>
+
+## Week #8.
+
+### 02/04/2024
+
 - Modules:
 
   - [Testing](modules/testing/)
@@ -191,44 +227,8 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Testing](./tasks/rss-testing/)
-</details>
-
-## Week #7.
-
-### 26/03/2024
-
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: Async programming](modules/async/)
-- [Module: HTTP / HTTPS](modules/http/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking draft version](https://docs.rs.school/#/pull-request-review-process) of task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
-</details>
-
-## Week #8.
-
-### 02/04/2024
-
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Module: RESTful API Style](modules/restful-api/)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
 ## Week #9.
