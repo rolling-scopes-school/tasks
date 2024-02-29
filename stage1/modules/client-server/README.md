@@ -62,7 +62,6 @@ Expand your knowledge with these additional materials:
 
 - **HTTP Protocol:**
 
-  - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
   - [Evolution of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP)
 
 - **Security Concepts:**
@@ -70,7 +69,7 @@ Expand your knowledge with these additional materials:
   - [Encoding, Encryption and Hashing](https://auth0.com/blog/encoding-encryption-hashing/)
   - [What is SSL Encryption?](https://www.arkoselabs.com/explained/ssl-encryption/)
   - [What Is HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
-  - [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo&t=14s)
+  - [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 
 - **Emerging Technologies:**
 
