@@ -24,8 +24,6 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 
 ## Sample Questions
 
-- #### Objects Built-in methods.
-
 ### JavaScript Topics:
 
 #### Advanced Expressions
@@ -52,6 +50,13 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - Differences in parameters passing by value and by reference.
 - Handling a dynamic amount of function parameters.
 
+#### Closures Advanced
+
+- Understanding context and lexical environments.
+- Differences between scope and context.
+- The mechanism of lexical environment traversal.
+- Connection between function and its lexical environment.
+
 - #### Advanced Functions
 
   - `this` in functions
@@ -63,13 +68,6 @@ Post-interview, the mentor is required to fill in a feedback form available unde
   - Be able to use `call` and `apply` Function built-in methods
   - Know how to bind `this` scope to function
   - Binding, binding one function twice
-
-#### Closures Advanced
-
-- Understanding context and lexical environments.
-- Differences between scope and context.
-- The mechanism of lexical environment traversal.
-- Connection between function and its lexical environment.
 
 #### ECMAScript Intermediate
 
