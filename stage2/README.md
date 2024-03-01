@@ -157,6 +157,7 @@ At the end of this week, all students will be required to use typescript and adh
 - Tasks:
 
   - [RSS Puzzle](./tasks/puzzle/)
+  - [Codewars FP](../tasks/codewars/Codewars-2022Q1-FP.md)
 
 - Tests:
 
@@ -175,11 +176,24 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 19/03/2024
 
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: Async programming](modules/async/)
-- [Module: HTTP / HTTPS](modules/http/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [RSS Puzzle](./tasks/puzzle/)
+
+- Modules:
+
+  - [Module: Async programming](modules/async/)
+  - [Module: Web Security](modules/web-security/)
+
+- Tasks:
+
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+
+- Tests:
+
+  - [[St2] Async programming](modules/async/)
+  - [[St2] Web Security](modules/web-security/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -187,7 +201,7 @@ At the end of this week, all students will be required to use typescript and adh
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+- If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
 ## Week #7.
