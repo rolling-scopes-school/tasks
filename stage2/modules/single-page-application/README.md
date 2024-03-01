@@ -34,8 +34,8 @@ Students are encouraged to explore the following resources:
    - [Native JavaScript Routing](https://css-tricks.com/native-javascript-routing/)
 
 3. **Lecture Videos:**
-   - [SPA Development [RU]](https://www.youtube.com/watch?v=njk5inZIwCc)
-   - [SPA Development Part 2 [RU]](https://www.youtube.com/watch?v=sOlzPxs_Lg4)
+   - [SPA Development [RU]](https://www.youtube.com/watch?v=sOlzPxs_Lg4)
+   - [SPA Development Part 2 [RU]](https://www.youtube.com/watch?v=njk5inZIwCc)
 
 ## Practice 💻
 
