@@ -188,18 +188,21 @@ At the end of this week, all students will be required to use typescript and adh
 - Tasks:
 
   - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-  - [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+  - [Project Async Race](./tasks/async-race/)
 
 - Tests:
 
   - [[St2] Async programming](modules/async/)
   - [[St2] Web Security](modules/web-security/)
+  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises)
+  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
@@ -208,16 +211,27 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 26/03/2024
 
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: "Event Loop & Animation"](modules/eventloop-animation/)
-- [Module: RESTful API Style](modules/restful-api/)
-- [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- Modules:
+
+  - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
+  - [Module: RESTful API Style](modules/restful-api/)
+
+- Tasks:
+
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Project Async Race](./tasks/async-race/)
+
+- Tests:
+
+  - [[St2] Event Loop & Animation](modules/eventloop-animation/)
+  - [[St2] RESTful API Style](modules/restful-api/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -242,6 +256,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
 - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Testing](./tasks/rss-testing/)
 </details>
 
@@ -258,7 +273,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
 - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](./tasks/async-race/)
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -274,7 +289,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](./tasks/async-race/)
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -286,7 +301,7 @@ At the end of this week, all students will be required to use typescript and adh
 - [Module: "SCRUM, Kanban"](modules/scrum/)
 - [Module: CI/CD](@valerydluski)
 - [Preparation for Final Project](modules/final-task/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md)
+- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](./tasks/async-race/)
 
 <details>
   <summary>Mentor Activities</summary>
