@@ -58,7 +58,7 @@
 
 #### 2. Use of Prohibited Libraries or Frameworks (-100%)
 
-- **(-100% of Total Points)** 🚫 Utilizing libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc., will incur a penalty of 100%.
+- **(-100% of Total Points)** 🚫 Utilizing libraries or frameworks such as JQuery, React, Angular, Vue, Material Design, etc., will incur a penalty of 100%.
 
 #### 3. Violation of Content Generation Rule (-70%)
 
