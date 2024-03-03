@@ -95,3 +95,7 @@ May you find the perfect sequence for your words as you navigate through the cha
 ![Screenshot](./images/puzzle2.png)
 ![Screenshot](./images/puzzle3.png)
 ![Screenshot](./images/puzzle4.png)
+
+#Q&A Session
+
+[RSS Puzzle Q&A [RU]](https://youtu.be/81om13PW1h0)
