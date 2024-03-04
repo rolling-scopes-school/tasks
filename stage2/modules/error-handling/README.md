@@ -25,11 +25,21 @@ Students are encouraged to study the following resources:
 
 - RS School Lecture "JS Error Handling" (RU): [video](https://www.youtube.com/watch?v=99Qz8xRbl4k), [slides](https://slides.com/dzmitrytsebruk/error-handling)
 - [Error Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+- Types of Errors:
+  - [EvalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
+  - [RangeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
+  - [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+  - [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+  - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+  - [URIError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError)
+  - [AggregateError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError)
+  - [InternalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
 - [`throw` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 - [`try...catch` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 - [Window: error event](https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event)
 - [Custom Errors](https://www.w3docs.com/learn-javascript/custom-errors-extending-error.html)
 - [Error Handling with Promises](https://www.w3docs.com/learn-javascript/error-handling-with-promises.html)
+- [Error Handling](https://javascript.info/error-handling)
 
 ## Practice 💻
 
