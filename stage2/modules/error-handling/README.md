@@ -23,23 +23,33 @@ In this module, students are expected to familiarize themselves with:
 
 Students are encouraged to study the following resources:
 
-- RS School Lecture "JS Error Handling" (RU): [video](https://www.youtube.com/watch?v=99Qz8xRbl4k), [slides](https://slides.com/dzmitrytsebruk/error-handling)
-- [Error Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
-- Types of Errors:
-  - [EvalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
-  - [RangeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
-  - [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
-  - [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
-  - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-  - [URIError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError)
-  - [AggregateError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError)
-  - [InternalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
-- [`throw` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
-- [`try...catch` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
-- [Window: error event](https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event)
-- [Custom Errors](https://www.w3docs.com/learn-javascript/custom-errors-extending-error.html)
-- [Error Handling with Promises](https://www.w3docs.com/learn-javascript/error-handling-with-promises.html)
-- [Error Handling](https://javascript.info/error-handling)
+1. **Error Object:**
+   - [Error Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+   - [Error Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/Error)
+2. **Types of Errors:**
+   - [EvalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
+   - [RangeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
+   - [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+   - [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+   - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+   - [URIError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError)
+   - [AggregateError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError)
+   - [InternalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
+3. **Throw and Catch Errors:**
+   - [`throw` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+   - [`try...catch` Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+   - [Error Handling, "try...catch"](https://javascript.info/try-catch)
+4. **Custom Errors:**
+   - [Custom Errors, Extending Error](https://javascript.info/custom-errors)
+5. **Asynchronous Error Handling:**
+   - [Error Handling with Promises](https://javascript.info/promise-error-handling)
+   - [Async/Await Error Handling](https://javascript.info/async-await#error-handling)
+6. **`error` Event:**
+   - [Window: `error` Event](https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event)
+   - [HTMLElement: `error` Event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/error_event)
+7. **RS School Lecture:**
+   - [JS Error Handling Video [RU]](https://www.youtube.com/watch?v=99Qz8xRbl4k)
+   - [JS Error Handling Slides](https://slides.com/dzmitrytsebruk/error-handling)
 
 ## Practice 💻
 
