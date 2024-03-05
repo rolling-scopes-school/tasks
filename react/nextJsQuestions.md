@@ -26,7 +26,6 @@
 
 [Explain the purpose of the `fallback` property in the `getStaticPaths` method](https://nextjs.org/docs/basic-features/data-fetching#fallback)
 
-
 ## Advanced Topics:
 
 [Describe the purpose and use cases of API routes in Next.js](https://nextjs.org/docs/api-routes/introduction)

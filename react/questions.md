@@ -6,9 +6,11 @@
 [Is it possible to use React without JSX?](https://scrimba.com/articles/react-interview-questions/#can-you-write-react-without-jsx)
 
 ## Styled-components
+
 [Using styled-components](https://styled-components.com/docs/basics)
 
 ## Components
+
 [Component Definition (Class-based, Functional)](https://www.twilio.com/en-us/blog/react-choose-functional-components)
 [Components Сomposition](https://medium.com/@karnikagupta1830/mastering-component-composition-in-react-a-comprehensive-guide-eb1ef8a740a3)
 
@@ -42,7 +44,6 @@
 [Controlled/uncontrolled components](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
 [Statefull vs stateless components](https://dev.to/sidramaqbool/understanding-stateful-and-stateless-components-in-react-22oo#:~:text=Stateful%20Components%3A%20Use%20them%20when,not%20require%20any%20state%20management)
 
-
 ## Ref
 
 [What is the difference between refs and state variables?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-refs-and-state-variables)  
@@ -70,7 +71,6 @@
 
 [React Router](https://reactrouter.com/en/main/start/concepts)
 [History](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API)
-
 
 ## Other
 
