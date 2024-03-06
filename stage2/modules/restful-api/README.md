@@ -1,25 +1,41 @@
-# [Stage#2.](../../) RESTful API Style
+# [Stage#2.](../../) RESTful API Style 🌐
 
-## В данном модуле студентам необходимо изучить:
+## Module Overview 📚
 
-- Знать и понимать основные принципы REST API
-- json server
+This module aims to equip students with an understanding of the fundamental principles of REST API and introduces them to using json server for creating mock RESTful services. By the end of this module, students should be proficient in understanding and implementing basic RESTful services in their applications.
 
-## Приблизительное время прохождения модуля
+## Learning Objectives 🎯
 
-2 часа
+Students will:
 
-## Теория
+- Understand and explain the basic principles of REST APIs.
+- Learn how to use json server for creating mock RESTful services.
+- Gain practical experience in designing and testing RESTful APIs.
 
-- Лекция
-  - https://slides.com/dzmitrytsebruk/rest-api
-  - https://youtu.be/_EmcOWmstko
+## Approximate Module Completion Time ⏱️
 
-## Практика
+- **2 hours**
 
-Вам необходимо пройти тест "RESTful API" в RS APP > Auto Test
+## Theory 📖
 
-## Дополнительные материалы
+Students are encouraged to explore the following resources:
 
-1. [Разбираемся с REST и RESTful API](https://code.tutsplus.com/ru/tutorials/code-your-first-api-with-nodejs-and-express-understanding-rest-apis--cms-31697) - 1 час
-2. [REST: простым языком](https://medium.com/@andr.ivas12/rest-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-90a0bca0bc78) - 1 час
+- **REST and RESTful APIs**
+
+  - [Understanding REST and RESTful API](https://code.tutsplus.com/ru/tutorials/code-your-first-api-with-nodejs-and-express-understanding-rest-apis--cms-31697)
+  - [What is REST?](https://www.codecademy.com/article/what-is-rest)
+  - [Fundamentals of REST API](https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag)
+
+- **Lecture on REST API principles:**
+  - [REST API Slides](https://slides.com/dzmitrytsebruk/rest-api)
+  - [REST API Video Lecture [RU]](https://youtu.be/_EmcOWmstko)
+
+## Practice 💻
+
+- Complete the "[St2] RESTful API" test in the RS APP > Auto Test section.
+
+## Additional Resources 📘
+
+1. [REST: Explained in Simple Terms [RU]](https://medium.com/@andr.ivas12/rest-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-90a0bca0bc78)
+2. [API Versioning Methods](https://restfulapi.net/versioning/)
+3. [What is an API?](https://aws.amazon.com/what-is/api/)
