@@ -10,7 +10,6 @@ Students will:
 
 - Understand and explain the basic principles of REST APIs.
 - Learn how to use json server for creating mock RESTful services.
-- Gain practical experience in designing and testing RESTful APIs.
 
 ## Approximate Module Completion Time ⏱️
 
