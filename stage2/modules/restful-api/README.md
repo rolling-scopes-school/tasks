@@ -2,7 +2,7 @@
 
 ## Module Overview 📚
 
-This module aims to equip students with an understanding of the fundamental principles of REST API and introduces them to using json server for creating mock RESTful services. By the end of this module, students should be proficient in understanding and implementing basic RESTful services in their applications.
+This module aims to equip students with an understanding of the fundamental principles of REST API and introduces them to using json server for creating mock RESTful services. By the end of this module, students should be proficient in understanding basic RESTful services.
 
 ## Learning Objectives 🎯
 
