@@ -1,20 +1,20 @@
 # Functional programming
 
--   7 kyu https://www.codewars.com/kata/first-class-function-factory
--   6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-1-map
--   6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-2-filter
--   6 kyu https://www.codewars.com/kata/power-bind
--   6 kyu https://www.codewars.com/kata/closures-and-scopes
--   6 kyu https://www.codewars.com/kata/function-composition
--   6 kyu https://www.codewars.com/kata/function-composition-1
--   6 kyu https://www.codewars.com/kata/reusable-memoisation
--   6 kyu https://www.codewars.com/kata/once
--   6 kyu https://www.codewars.com/kata/multifilter
--   6 kyu https://www.codewars.com/kata/combinator-flip
--   5 kyu https://www.codewars.com/kata/function-cache
--   5 kyu https://www.codewars.com/kata/a-chain-adding-function
--   5 kyu https://www.codewars.com/kata/lazy-repeater
--   4 kyu https://www.codewars.com/kata/currying-vs-partial-application
+- 7 kyu https://www.codewars.com/kata/first-class-function-factory
+- 6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-1-map
+- 6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-2-filter
+- 6 kyu https://www.codewars.com/kata/power-bind
+- 6 kyu https://www.codewars.com/kata/closures-and-scopes
+- 6 kyu https://www.codewars.com/kata/function-composition
+- 6 kyu https://www.codewars.com/kata/function-composition-1
+- 6 kyu https://www.codewars.com/kata/reusable-memoisation
+- 6 kyu https://www.codewars.com/kata/once
+- 6 kyu https://www.codewars.com/kata/multifilter
+- 6 kyu https://www.codewars.com/kata/combinator-flip
+- 5 kyu https://www.codewars.com/kata/function-cache
+- 5 kyu https://www.codewars.com/kata/a-chain-adding-function
+- 5 kyu https://www.codewars.com/kata/lazy-repeater
+- 4 kyu https://www.codewars.com/kata/currying-vs-partial-application
 
 ## How to submit the task
 
@@ -46,4 +46,3 @@ Total: 1\*1 + 4\*10 + 5\*3 + 8\*1 = 64
 - [How to use Memoize to cache JavaScript function results and speed up your code](https://www.freecodecamp.org/news/understanding-memoize-in-javascript-51d07d19430e/)
 - [Currying](https://javascript.info/currying-partials)
 - [Currying and Partial Application in JavaScript](https://barker.codes/blog/currying-and-partial-application-in-javascript/)
-
