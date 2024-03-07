@@ -157,7 +157,7 @@ At the end of this week, all students will be required to use typescript and adh
 - Tasks:
 
   - [RSS Puzzle](./tasks/puzzle/)
-  - [Codewars FP](../tasks/codewars/Codewars-2022Q1-FP.md)
+  - [Codewars FP](../tasks/codewars/Codewars-2023Q4-FP.md)
 
 - Tests:
 

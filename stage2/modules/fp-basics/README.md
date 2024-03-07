@@ -36,7 +36,7 @@ Students are encouraged to study the following resources:
 ## Practice 💻
 
 - Complete the test "[St2] FP-basics" in the RS-App > Auto Test.
-- Complete the [Codewars tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-FP.md)
+- Complete the [Codewars tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-FP.md)
 
 ## Additional Resources 📘
 

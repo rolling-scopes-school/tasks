@@ -5,6 +5,15 @@
 [What is JSX?](https://scrimba.com/articles/react-interview-questions/#what-is-jsx)  
 [Is it possible to use React without JSX?](https://scrimba.com/articles/react-interview-questions/#can-you-write-react-without-jsx)
 
+## Styled-components
+
+[Using styled-components](https://styled-components.com/docs/basics)
+
+## Components
+
+[Component Definition (Class-based, Functional)](https://www.twilio.com/en-us/blog/react-choose-functional-components)
+[Components Сomposition](https://medium.com/@karnikagupta1830/mastering-component-composition-in-react-a-comprehensive-guide-eb1ef8a740a3)
+
 ## React DOM
 
 [What is the virtual DOM? How does react use the virtual DOM to render the UI?](https://adhithiravi.medium.com/react-virtual-dom-explained-in-simple-english-fc2d0b277bc5#:~:text=React%20uses%20virtual%20DOM%20to,re%2Drendering%20of%20the%20UI.)  
@@ -16,6 +25,7 @@
 [When is a component rendered?](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)  
 [How not to render on props change?](https://reactjs.org/docs/react-api.html#reactmemo)  
 [Is it OK to use arrow functions in render methods?](https://reactjs.org/docs/faq-functions.html#is-it-ok-to-use-arrow-functions-in-render-methods)
+[Components rendering system](https://medium.com/@pnk.tanwar/react-ui-rendering-under-the-hood-2ff83d875fae)
 
 ## Interaction between components
 
@@ -31,6 +41,8 @@
 [How does state in a class component differ from state in a functional component?](https://scrimba.com/articles/react-interview-questions/#how-does-state-in-a-class-component-differ-from-state-in-a-functional-component)  
 [What is the component lifecycle?](https://scrimba.com/articles/react-interview-questions/#what-is-the-component-lifecycle)  
 [How do you update lifecycle in function components?](https://scrimba.com/articles/react-interview-questions/#how-do-you-update-lifecycle-in-function-components)
+[Controlled/uncontrolled components](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
+[Statefull vs stateless components](https://dev.to/sidramaqbool/understanding-stateful-and-stateless-components-in-react-22oo#:~:text=Stateful%20Components%3A%20Use%20them%20when,not%20require%20any%20state%20management)
 
 ## Ref
 
@@ -48,6 +60,17 @@
 [Enumerate base principles](https://redux.js.org/understanding/thinking-in-redux/three-principles)  
 [What is the typical flow of data in a React + Redux app?](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow)  
 [Benefits of Redux?](https://fintelics.medium.com/technical-benefits-of-using-redux-f7d345e7cc9c)
+[Async Redux flow](https://redux.js.org/tutorials/fundamentals/part-6-async-logic)
+
+## State Management by managers
+
+[Mobx](https://mobx.js.org/the-gist-of-mobx.html)
+[Reflux](https://github.com/reflux/refluxjs/blob/master/README.md)
+
+## Routing
+
+[React Router](https://reactrouter.com/en/main/start/concepts)
+[History](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API)
 
 ## Other
 
@@ -60,3 +83,42 @@
 ## Coding task
 
 Small react app: form, button, results list
+
+# Next.js Interview Questions
+
+## General Questions:
+
+[What is Next.js, and how does it differ from traditional React applications?](https://nextjs.org/docs/getting-started/introduction)
+
+[Explain the concept of server-side rendering (SSR) in Next.js](https://nextjs.org/docs/basic-features/data-fetching)
+
+[How does Next.js handle client-side routing?](https://nextjs.org/docs/navigation/introduction)
+
+[What are the benefits of using Next.js for building React applications?](https://nextjs.org/learn/basics/why-use-nextjs)
+
+[What is the purpose of the `getInitialProps` function in Next.js? How is it different from using `getStaticProps` or `getServerSideProps`?](https://nextjs.org/docs/api-reference/data-fetching/getInitialProps)
+
+[How does Next.js handle automatic code splitting, and why is it important?](https://nextjs.org/docs/advanced-features/automatic-code-splitting)
+
+[What is the purpose of the `Link` component in Next.js, and how does it differ from traditional anchor (`<a>`) tags?](https://nextjs.org/docs/api-reference/next/link)
+
+[How can you configure routing in a Next.js application?](https://nextjs.org/docs/basic-features/pages)
+
+## Data Fetching:
+
+[Compare and contrast `getStaticProps` and `getServerSideProps` in terms of use cases and performance considerations](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation) and [Next.js Documentation - getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering)
+
+[When would you choose to use `getStaticPaths` in Next.js, and how does it relate to dynamic routes?](https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation)
+
+[Explain the purpose of the `fallback` property in the `getStaticPaths` method](https://nextjs.org/docs/basic-features/data-fetching#fallback)
+
+## Advanced Topics:
+
+[Describe the purpose and use cases of API routes in Next.js](https://nextjs.org/docs/api-routes/introduction)
+
+[Explain the concept of middleware in Next.js and its role in the application lifecycle](https://nextjs.org/docs/api-routes/api-middlewares)
+
+[What are serverless functions in the context of Next.js, and how can they be utilized?](https://nextjs.org/docs/api-routes/api-middlewares)
+
+[How does Next.js handle authentication in applications?](https://nextjs.org/docs/authentication/introduction)
+
