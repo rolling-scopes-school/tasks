@@ -121,4 +121,3 @@ Small react app: form, button, results list
 [What are serverless functions in the context of Next.js, and how can they be utilized?](https://nextjs.org/docs/api-routes/api-middlewares)
 
 [How does Next.js handle authentication in applications?](https://nextjs.org/docs/authentication/introduction)
-
