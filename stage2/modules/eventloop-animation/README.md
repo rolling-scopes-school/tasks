@@ -1,41 +1,25 @@
 # [Stage#2.](../../) Event Loop & Animation
 
-## В данном модуле студентам необходимо изучить:
+## Module Overview 📚
 
-#### Event Loop
+This module introduces students to the Event Loop and Animation concepts in web development. It aims to provide a comprehensive understanding of how JavaScript handles asynchronous events and the principles behind creating animations using CSS3. The module covers topics ranging from understanding the Event Loop to mastering CSS3 animations.
 
-- Event Loop
-- Call stack
-- Web APIs
-- Callback queue
+## Learning Objectives 🎯
 
-#### Animations
+Students will:
 
-- CSS3 Transitions
-- CSS3 Transforms
-- requestAnimationFrame
-- Performance issues
+- Understand the Event Loop mechanism in JavaScript, including its components like the Call Stack, Web APIs, and Callback Queue.
+- Grasp the concept of single-threaded execution and how JavaScript handles concurrency through asynchronous operations.
+- Learn about CSS3 Transitions and Transforms for creating animations.
+- Explore techniques such as requestAnimationFrame and addressing performance issues in animations.
 
-## Терминология, которую вам необходимо знать
+## Approximate Module Completion Time ⏱️
 
-- Event Loop
-- asynchronous
-- single-thread
-- concurrency
-- Non-blocking
-- Call stack
-- Web APIs
-- Callback queue
+- **[2 hours]**
 
-## Приблизительное время прохождения модуля
+## Theory 📖
 
-2 часа
-
-## Теория
-
-## Практика
-
-Вам необходимо пройти тест "Event Loop & Animation" в RS APP > Auto Test
+Students are encouraged to study the following resources:
 
 ### Video
 
@@ -46,7 +30,11 @@
 - http://rolling-scopes.github.io/slides/school/event-loop/#/
 - http://wontem.github.io/slides/animations/#/
 
-## Дополнительные материалы
+## Practice 💻
+
+- Complete the test "[St2] Event Loop & Animation" in RS APP > Auto Test.
+
+## Additional Resources 📘
 
 #### Event Loop
 
