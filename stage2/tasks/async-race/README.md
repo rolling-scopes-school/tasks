@@ -8,8 +8,6 @@ Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_applica
 
 Previously, development of this application had been started by a Belarusian developer named Dzmitry (and was almost finished). However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources of UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts) beforehand. Additionally, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
 
-Previously, development of this application had been started by a Belarusian developer named Dzmitry (and was almost finished). However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources of UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts) beforehand. Additionally, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
-
 We found in the latest news that a new company called "The Fast and the Furious" announced the release of a new product that will really blow people's minds. There isn't a lot of information about this product. All we know is that it's about "easier car management than you can imagine." It's exactly what our thieves :supervillain: are up to. They're going to release their product in two weeks. But we can't allow them to do that. We must be first.
 
 What are you waiting for? Let's start coding!
