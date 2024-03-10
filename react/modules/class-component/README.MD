@@ -25,23 +25,28 @@ Students are encouraged to study the following resources:
 
 1. **Understanding Class Components:**
     - [Component](https://react.dev/reference/react/Component) - [1 hour]
-    - [React Official Docs - Components and Props](https://legacy.reactjs.org/docs/components-and-props.html) - [15 minutes]
-    - [React Official Docs - State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html) - [15 minutes]
+    - [React Official Docs—Components and Props](https://legacy.reactjs.org/docs/components-and-props.html) - [15 minutes]
+    - [React Official Docs—State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html) - [15 minutes]
 2. **Implementing Class Components:**
-    - [React Tutorial - Class Components](https://www.tutorialspoint.com/reactjs/reactjs_components.htm) - [30 minutes]
+    - [React Tutorial—Class Components](https://www.tutorialspoint.com/reactjs/reactjs_components.htm) - [30 minutes]
     - [Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
-
-[//]: # (TODO Practice?)
 
 ## Practice 💻
 
 - Complete the test "Class Components in React" in the RS-App > Auto Test.
 - Complete the task "Implement Class Component in a React Application".
 
-[//]: # (TODO есть доп материалы?)
-
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
 
-1. [This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
+- React.Component [Overview](https://legacy.reactjs.org/docs/react-component.html)
+- Your [First Component](https://react.dev/learn/your-first-component)
+- [Passing Props](https://react.dev/learn/passing-props-to-a-component) to a Component
+- [State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
+- [Responding to Events](https://react.dev/learn/responding-to-events)
+- [Rendering Lists](https://react.dev/learn/rendering-lists)
+- [Sharing State](https://react.dev/learn/sharing-state-between-components) Between Components
+- [This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
+
+

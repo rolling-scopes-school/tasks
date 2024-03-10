@@ -32,13 +32,11 @@ Students are encouraged to study the following resources:
     - [How To Use Error Boundaries in React](https://www.digitalocean.com/community/tutorials/react-error-boundaries) - [15 minutes]
     - [Handling Errors with Error Boundaries](https://codepen.io/gaearon/pen/wqvxGa?editors=0010) - [15 minutes]
 
-[//]: # (TODO Practice?)
-
 ## Practice 💻
 
 - Complete the test "Error Boundary in React" in the RS-App > Auto Test.
 - Complete the task "Implement Error Boundary in a React Application".
-
+ 
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
