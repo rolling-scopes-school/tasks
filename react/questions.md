@@ -108,7 +108,7 @@ How does Next.js handle automatic code splitting, and why is it important?
 
 Compare and contrast `getStaticProps` and `getServerSideProps` in terms of use cases and performance considerations
 
-[When would you choose to use `getStaticPaths` in Next.js, and how does it relate to dynamic routes?]( https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
+[When would you choose to use `getStaticPaths` in Next.js, and how does it relate to dynamic routes?](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
 
 ## Advanced Topics:
 
