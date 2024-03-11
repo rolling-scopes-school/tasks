@@ -2,7 +2,7 @@
 
 ## Module Overview 📚
 
-The "React Hooks and Custom Hooks" module delves into the modern approach of building React components using Hooks. It introduces the fundamental hooks provided by React, their practical applications, and the process of creating custom hooks for more complex state management and side effects. This course aims to equip students with the skills to leverage hooks for efficient and readable component design, enhancing their React development proficiency.
+The "React Hooks and Custom Hooks" module delves into the modern approach of building React components using Hooks. It introduces the fundamental hooks provided by React, their practical applications, and the process of creating custom hooks for more complex state management and side effects. This module aims to equip students with the skills to leverage hooks for efficient and readable component design, enhancing their React development proficiency.
 
 ## Learning Objectives 🎯
 
