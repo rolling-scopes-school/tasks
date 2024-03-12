@@ -44,6 +44,8 @@ Students are encouraged to study the following resources:
 
 ## Additional Resources 📘
 
+Expand your knowledge with these additional materials:
+
 - **Event Loop:**
 
   - [What the heck is the Event Loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
