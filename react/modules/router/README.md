@@ -52,7 +52,7 @@ Students are encouraged to explore the following resources:
    - [useParams](https://reactrouter.com/en/main/hooks/use-params)
    - [useRoutes](https://reactrouter.com/en/main/hooks/use-routes)
    - [useLocation](https://reactrouter.com/en/main/hooks/use-location)
-   - [sueSearchParams](https://reactrouter.com/en/main/hooks/use-search-params)
+   - [useSearchParams](https://reactrouter.com/en/main/hooks/use-search-params)
 
 ## Practice 💻
 
