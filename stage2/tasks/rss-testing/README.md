@@ -17,7 +17,7 @@ Embark on a journey to enhance your JavaScript testing skills by integrating Jes
 
 ## Technical Requirements
 
-- **Repository Management**: Instead of cloning the original repository, fork the [Movie App Testing repository](https://github.com/rolling-scopes-school/movie-app-testing) and then transfer it to a private repository within the school's GitHub organization, under the branch named `rss-testing`.
+- **Repository Management**: Instead of cloning the original repository, copy the files from the [Movie App Testing repository](https://github.com/rolling-scopes-school/movie-app-testing) and add them to the branch named `rss-testing` of your private school repository.
 - **Familiarize and Install**: Get to know the project structure and install all necessary dependencies for Jest and DOM Testing Library to begin writing your tests.
 
 ## Resources
