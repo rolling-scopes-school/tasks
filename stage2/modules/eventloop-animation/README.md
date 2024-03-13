@@ -31,6 +31,7 @@ Students are encouraged to study the following resources:
 
    - [Web Animation Performance Fundamentals](https://www.freecodecamp.org/news/web-animation-performance-fundamentals/)
    - [CSS and JavaScript animation performance](https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance)
+   - [Request Animation Frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 
 3. **RS Materials:**
 
