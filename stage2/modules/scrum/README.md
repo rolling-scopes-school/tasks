@@ -1,24 +1,36 @@
 # [Stage#2.](../../) Scrum
 
-## В данном модуле студентам необходимо изучить:
+## Module Overview 📚
 
-- Подход к управлению проектами и разработке продуктов Agile
-- Гибкий метод управления проектами Scrum
-- Инструмент управления проектами Kanban
+In this module, students will explore Agile project management and product development approaches, with a focus on Scrum, a flexible project management method, and Kanban, a tool for project management. Through understanding these methodologies, students will acquire valuable insights into effectively managing projects, fostering collaboration within teams, and adapting to changing requirements in dynamic environments.
 
-## Приблизительное время прохождения модуля
+## Learning Objectives 🎯
 
-2 часа
+Students will:
 
-## Теория
+- Understand Agile project management and product development approach.
+- Learn the flexible project management method Scrum.
+- Get acquainted with the project management tool Kanban.
+
+## Approximate Module Completion Time ⏱️
+
+- **2 hours**
+
+## Theory 📖
+
+Students are encouraged to study the following resources:
 
 - https://www.atlassian.com/ru/agile/kanban/kanban-vs-scrum
 - https://doka.guide/tools/agile/
 - https://agilemanifesto.org/iso/ru/manifesto.html
 
-## Практика
+## Practice 💻
 
-1. Вам необходимо пройти тест "Scrum. Kanban" в RS APP > Auto Test
+- Complete the test "[St2] Scrum. Kanban" in the RS-App > Auto Test.
+
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
 
 ## Дополнительные материалы
 
