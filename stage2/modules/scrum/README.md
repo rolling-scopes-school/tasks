@@ -2,7 +2,7 @@
 
 ## Module Overview 📚
 
-In this module, students will explore Agile project management and product development approaches, with a focus on Scrum, a flexible project management method, and Kanban, a tool for project management. Through understanding these methodologies, students will acquire valuable insights into effectively managing projects, fostering collaboration within teams, and adapting to changing requirements in dynamic environments.
+In this module, students will explore Agile project management and product development frameworks, focusing on Scrum, a flexible project management method, and Kanban, a framework for visualizing and managing work. Through understanding these methodologies, students will acquire valuable insights into effectively managing projects, fostering collaboration within teams, and adapting to changing requirements in dynamic environments.
 
 ![The Scrum Framework At a Glance](./images/scrum.jpg)
 
