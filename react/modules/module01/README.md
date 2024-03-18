@@ -118,11 +118,11 @@ Run app and check that the functionality is working (cross-check)
 - [ErrorBoundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
 - Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router - [video tutorial](https://www.youtube.com/watch?app=desktop&v=cchqeWY0Nak)
 
-### React
+#### React
 
-- Rolling Scopes School Lithuania. [React. Part 1](https://www.youtube.com/watch?v=L8CmtfCu9AI)
-- Rolling Scopes School Lithuania. [React. Part 2](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
-- Rolling Scopes School Lithuania. [React. Part 3](https://www.youtube.com/watch?v=w9MvuGWVvkY)
-- Short course react + typescript - [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI)
-- Full tutorial: [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s)
-- Additionally: [React JS фундаментальный курс от А до Я](https://www.youtube.com/watch?v=GNrdg3PzpJQ) [RU]
+- Rolling Scopes School Lithuania. [React. Part 1 📺](https://www.youtube.com/watch?v=L8CmtfCu9AI)
+- Rolling Scopes School Lithuania. [React. Part 2 📺](https://www.youtube.com/watch?v=Rrg4D6AHc5A)
+- Rolling Scopes School Lithuania. [React. Part 3 📺](https://www.youtube.com/watch?v=w9MvuGWVvkY)
+- Short course react + typescript - [React & TypeScript - Course for Beginners 📺](https://www.youtube.com/watch?v=FJDVKeh7RJI)
+- Full tutorial: [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks 📺](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s)
+- Additionally: [React JS фундаментальный курс от А до Я 📺](https://www.youtube.com/watch?v=GNrdg3PzpJQ) [RU]
