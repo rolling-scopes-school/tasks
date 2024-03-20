@@ -243,10 +243,6 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Testing](modules/testing/)
 
-- Tasks:
-
-  - [RSS Testing](./tasks/rss-testing/)
-
 - Tests:
 
   - [[St2] Testing](./modules/testing/)
@@ -257,7 +253,6 @@ At the end of this week, all students will be required to use typescript and adh
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Testing](./tasks/rss-testing/)
 </details>
 
 ## Week #9.
