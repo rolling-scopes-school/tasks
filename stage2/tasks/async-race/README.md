@@ -52,7 +52,7 @@ What are you waiting for? Let's start coding!
 - **No Libraries/Frameworks**: Pure TypeScript only, optional use of Bootstrap for CSS.
 - **TypeScript Mandatory**: Strong typing throughout, with no use of "any".
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
-- **SPA Implementation**: Entire content generated via JavaScript, utilizing Webpack or similar for bundling.
+- **SPA Implementation**: Entire content generated via TypeScript, utilizing Webpack or similar for bundling.
 - **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
 
 ## 🛠️ Technical Implementation
