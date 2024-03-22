@@ -1,3 +1,8 @@
+# Welcome to the test task!
+Below is a description of the test task. Please read it carefully. The ability to follow the requirements is important to us.
+You should complete the task before proceeding to the recruiter's interview and subsequent technical interview.
+During the technical interview, the interviewer may discuss your solution. 
+
 ## Task "Async Race"
 
 Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment :radio: in real cars :car:, to be precise, all of his collection of cars. He is eager to create a kind of drag-racing competition in order to discover which car is the fastest.
@@ -45,18 +50,20 @@ What are you waiting for? Let's start coding!
 
 ## 📜 Non-functional Requirements
 
-- **No Libraries/Frameworks**: Pure JavaScript only, optional use of Bootstrap for CSS.
+- **Framework Usage**:  Development must utilize either React or Angular.
 - **TypeScript Mandatory**: Strong typing throughout, with no use of "any".
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
-- **SPA Implementation**: Entire content generated via JavaScript, utilizing Webpack or similar for bundling.
+- **SPA Implementation**: All content must be generated using TypeScript.
 - **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
+
+- These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Intreviewers will use these guidelines to assess the technical execution and overall quality of the project.
 
 ## 🛠️ Technical Implementation
 
 - Implement CRUD operations for cars using the provided server mock.
 - Design UI elements for car management and race controls.
 - Utilize fetch for server communication, and handle promises for asynchronous tasks.
-- Create animations for car movements using JavaScript and CSS.
+- Create animations for car movements using TypeScript and CSS.
 - Ensure responsiveness and compatibility across different devices and browsers.
 
 ## 📚 Resources
@@ -64,7 +71,6 @@ What are you waiting for? Let's start coding!
 - [Server Mock Repo](https://github.com/mikhama/async-race-api)
 - [Demo Video](https://youtu.be/sTXtlBLh-Ts)
 - [Color Palette Tool](https://www.colorspire.com/rgb-color-wheel/)
-- [SPA Wikipedia](https://en.wikipedia.org/wiki/Single-page_application)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## 🔄 Evaluation
@@ -180,12 +186,6 @@ Mentors will evaluate the "Async Race" Single Page Application (SPA) based on th
 
 - **(Up to 35 points)** Discretionary points awarded by the mentor based on overall code quality, readability
 
-## 🔒 Mandatory Requirements
-
-- **No Libraries/Frameworks (-100%):** The use of libraries or frameworks such as JQuery, React, Angular, Lodash, Material Design, etc., is strictly prohibited. Bootstrap CSS is permitted for styling purposes only.
-- **Typescript Usage (-100%):** The application must be developed using TypeScript. All method input and output parameters must be typed accurately, and the use of "any" type is not allowed.
-
-  These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Mentors will use these guidelines to assess the technical execution and overall quality of the project.
 
 ## FAQ
 
