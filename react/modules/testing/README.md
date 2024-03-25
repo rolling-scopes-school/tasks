@@ -39,7 +39,7 @@ Students are encouraged to study the following resources:
    - [Integration testing in React](https://medium.com/expedia-group-tech/integration-testing-in-react-21f92a55a894) - [5 minutes read, you can ignore the Enzyme part]
 4. **Functional vs Non-functional testing**
    - [Functional vs Non-Functional testing](https://circleci.com/blog/functional-vs-non-functional-testing/) - [5 minutes read]
-4. **TDD, F.I.R.S.T, AAA and other scary abbreviations**
+5. **TDD, F.I.R.S.T, AAA and other scary abbreviations**
    - [5 useful tips](https://dev.to/one-beyond/the-5-principles-of-unit-testing-1p5f) - [5 minutes read]
    - [F.I.R.S.T.](https://github.com/tekguard/Principles-of-Unit-Testing) - [2 minutes read]
    - [AAA](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/) - [2 minutes read]
