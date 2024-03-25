@@ -67,32 +67,25 @@ What are you waiting for? Let's start coding!
 - Create animations for car movements using TypeScript and CSS.
 - Ensure responsiveness and compatibility across different devices and browsers.
 
-## Requirements to commits, PR and repo
+## Requirements to commits and repo
+### Commit Guidelines
+- Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) format.
+- Use lowercase for commit types (`init`, `feat`, `fix`, `refactor`, `docs`, etc.).
+- Write in present tense (e.g., "add feature") and imperative mood (e.g., "move cursor to...").
 
-[Stage 2 requirements](https://docs.rs.school/#/en/pull-request-review-process)
-NB: for mentor's check - submit link to PR, for cross-check - submit link to deploy.
+#### Commit Examples
+- `init:` Start a project/task (e.g., `init: start youtube-task`).
+- `feat:` Introduce new features (e.g., `feat: add zoom support`).
+- `fix:` Correct bugs in existing features (e.g., `fix: correct data loading`).
+- `refactor:` Improve the code without altering functionality (e.g., `refactor: rename vars`).
+- `docs:` Update documentation (e.g., `docs: update readme`).
 
-## 📚 Resources
+### README.md 
+When your solution is implemented, please include the checklist below in the `README.md`. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
 
-- [Server Mock Repo](https://github.com/mikhama/async-race-api)
-- [Demo Video](https://youtu.be/sTXtlBLh-Ts)
-- [Color Palette Tool](https://www.colorspire.com/rgb-color-wheel/)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+Also, please deploy the UI to gh-pages, Netlify, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
 
-## 🔄 Evaluation Rules
-
-- **[@Candidate]** The UI should be deployed to gh-pages, Netlify, or a similar service, and the link should be included in the `README.md`.
-- **[@Reviewer]** You should clone the [server repository](https://github.com/mikhama/async-race-api.git) and keep the server running during the functionality review.
-- **[@Reviewer]** Test task should be evaluated based on both functional and non-functional requirements.
-- **[@Candidate]** Pay close attention to details in the implementation, as bugs and deviations from the requirements can impact your score.
-- **[@Reviewer]** If bugs are found, the following deductions can be applied:
-  - (**-30**) Major bug (implemented functionality works but breaks down after certain manipulations, with unexpected errors in the browser's console).
-  - (**-10**) Minor bug (implemented functionality works but behaves inconsistently after certain manipulations, such as a button not becoming enabled after changing some state, with no errors in the browser's console).
-  - **Note:** If you repeatedly press the "start engine button" then the "stop engine button" or the "start race button" then the "reset race button" and see a "404" or "429" error, this is not considered a bug.
-
-**[@Candidate]** When your solution is implemented, please include the following checklist in the `README.md`. Mark all the features that have been implemented, then calculate your score and put it at the beginning of the `README.md`.
-
-### Checklist
+## Checklist
 
 ## 🏁 Basic Structure (85 points)
 
@@ -171,6 +164,15 @@ NB: for mentor's check - submit link to PR, for cross-check - submit link to dep
 
 - [ ] **(Up to 35 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
 
+## 🔄 Evaluation Rules
+- **[@Candidate]** The UI should be deployed to gh-pages, Netlify, or a similar service, and the link should be included in the `README.md`.
+- **[@Reviewer]** You should clone the [server repository](https://github.com/mikhama/async-race-api.git) and keep the server running during the functionality review.
+- **[@Reviewer]** Test task should be evaluated based on both functional and non-functional requirements.
+- **[@Candidate]** Pay close attention to details in the implementation, as bugs and deviations from the requirements can impact your score.
+- **[@Reviewer]** If bugs are found, the following deductions can be applied:
+  - (**-30**) Major bug (implemented functionality works but breaks down after certain manipulations, with unexpected errors in the browser's console).
+  - (**-10**) Minor bug (implemented functionality works but behaves inconsistently after certain manipulations, such as a button not becoming enabled after changing some state, with no errors in the browser's console).
+  - **Note:** If you repeatedly press the "start engine button" then the "stop engine button" or the "start race button" then the "reset race button" and see a "404" or "429" error, this is not considered a bug.
 
 ## FAQ
 #### Question: How do I integrate the mock server with my GitHub repository?
@@ -185,3 +187,7 @@ The entire array - that's the whole idea, to use query string parameters to requ
 ## Communication. Telegram channel 
 We have created a Telegram channel to give you an opportunity to discuss the task, ask questions, etc.
 Join - https://t.me/+KuU8bd4-gcYwOTUy
+
+## 📚 Resources
+- [Server Mock Repo](https://github.com/mikhama/async-race-api)
+- [Demo Video](https://youtu.be/sTXtlBLh-Ts)
