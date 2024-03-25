@@ -4,11 +4,12 @@ You should complete the task before proceeding to the recruiter's interview and 
 During the technical interview, the interviewer may discuss your solution. 
 
 ## Task "Async Race"
-
+#### Try to imagine the scenario. 
 Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment :radio: in real cars :car:, to be precise, all of his collection of cars. He is eager to create a kind of drag-racing competition in order to discover which car is the fastest.
 Each radio controller has an HTTP-compatible interface. It lets you start or stop the engine of the car and, of course, enable "driving" mode.
 Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_application) to manage the collection of cars, operate their engines, and show race statistics.
-Previously, development of this application had been started by a Belarusian developer named Dzmitry (and was almost finished). However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources of UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts) beforehand. Additionally, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
+
+Previously, the development of this application was started (and almost finished) by a freelance developer named Mikhama. However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources for the UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts). In addition, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
 We found in the latest news that a new company called "The Fast and the Furious" announced the release of a new product that will really blow people's minds. There isn't a lot of information about this product. All we know is that it's about "easier car management than you can imagine." It's exactly what our thieves :supervillain: are up to. They're going to release their product in two weeks. But we can't allow them to do that. We must be first.
 
 What are you waiting for? Let's start coding!
@@ -169,12 +170,18 @@ NB: for mentor's check - submit link to PR, for cross-check - submit link to dep
 ## 🌟 Overall Code Quality (35 points)
 
 - [ ] **(Up to 35 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
-  
+
 
 ## FAQ
+#### Question: How do I integrate the mock server with my GitHub repository?
+First, you'll need to clone the mock server's repository to your local machine and make sure it's up and running. Next, your task is to develop the user interface (UI) in a separate repository of your own. This setup requires the server to be active in your local environment (localhost), eliminating the need for backend deployment. It's important to understand that changes to the backend are not allowed, as the evaluation process involves using an unmodified version of the backend, specifically the one originally provided.
 
-You can find answers and questions in this document:
-https://docs.google.com/spreadsheets/d/1KrObgPHt6guthtswtB8AKhrLpRZ_Kf8H-3V63VDCBGw/edit?usp=sharing
+#### Question: Is it possible to use any UI component libraries like Ant Design?
+Feel free to use any library 
 
-Link to Q&A live-stream recording:
-https://www.youtube.com/watch?v=HHEMeRt42QY
+#### Question about sorting the winners. The page displays 10 entries. Should the sorting be applied to just these 10 entries, or to the entire array of winners?
+The entire array - that's the whole idea, to use query string parameters to request a portion of the data (including the sorted ones). The JSON-server API handles this perfectly.
+
+## Communication. Telegram channel 
+We have created a Telegram channel to give you an opportunity to discuss the task, ask questions, etc.
+Join - https://t.me/+KuU8bd4-gcYwOTUy
