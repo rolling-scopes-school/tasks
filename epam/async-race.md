@@ -9,7 +9,7 @@ Your customer has an idea to spend his money. He has hired some engineers who in
 Each radio controller has an HTTP-compatible interface. It lets you start or stop the engine of the car and, of course, enable "driving" mode.
 Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_application) to manage the collection of cars, operate their engines, and show race statistics.
 
-Previously, the development of this application was started (and almost finished) by a freelance developer named Mikhama. However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources for the UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts). In addition, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
+Previously, the development of this application was started (and almost finished) by a freelance developer named Mikhama. However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources for the UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/aLjibbo9spo). In addition, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
 We found in the latest news that a new company called "The Fast and the Furious" announced the release of a new product that will really blow people's minds. There isn't a lot of information about this product. All we know is that it's about "easier car management than you can imagine." It's exactly what our thieves :supervillain: are up to. They're going to release their product in two weeks. But we can't allow them to do that. We must be first.
 
 What are you waiting for? Let's start coding!
@@ -83,9 +83,22 @@ What are you waiting for? Let's start coding!
 ### README.md 
 When your solution is implemented, please include the checklist below in the `README.md`. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
 
-Also, please deploy the UI to gh-pages, Netlify, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
+Also, please deploy the UI to gh-pages, AWS Amplify, Netlify, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
 
 ## Checklist
+
+## 🚀 UI Deployment
+- [ ] **Deployment Platform:** Successfully deploy the UI on one of the following platforms: GitHub Pages, AWS Amplify, Netlify, or a similar service.
+
+## ✅ Requirements to Commits and Repository
+
+- [ ] **Commit guidelines compliance:** Ensure that all commits follow the specified commit guidelines, thereby promoting a clear and consistent commit history. This includes using meaningful commit messages that accurately describe the changes made.
+
+- [ ] **Checklist included in README.md:** Include the project's checklist in the README.md file. Mark all implemented features to provide a clear overview of the project's completion status. 
+
+- [ ] **Score calculation:** Use this checklist to calculate your score. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
+
+- [ ] **UI Deployment link in README.md**: Place the link to the deployed UI at the top of the README.md file, alongside the calculated score. 
 
 ## 🏁 Basic Structure (85 points)
 
@@ -190,4 +203,4 @@ Join - https://t.me/+KuU8bd4-gcYwOTUy
 
 ## 📚 Resources
 - [Server Mock Repo](https://github.com/mikhama/async-race-api)
-- [Demo Video](https://youtu.be/sTXtlBLh-Ts)
+- [Demo Video](https://youtu.be/aLjibbo9spo)
