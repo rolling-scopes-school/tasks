@@ -87,9 +87,9 @@ a crucial role in community engagement and the growth of React itself.
 
 Versions:
 
-* 0.14.6 (January 6, 2016)
-* 15.0.0 (April 7, 2016)
-* 15.4.1 (November 22, 2016)
+- 0.14.6 (January 6, 2016)
+- 15.0.0 (April 7, 2016)
+- 15.4.1 (November 22, 2016)
 
 The year 2016 ushered in a pivotal transition for React with the launch of version 15.0 in April. Underneath the hood,
 this release entailed a sweeping overhaul of React's internal architecture, drastically improving its efficiency and
@@ -206,16 +206,16 @@ exciting to see what future developments bring.
 Versions: 17.0.2 (March 22, 2021)
 
 ### 2022:
+
 Versions: 18.0.0 (March 29, 2022)— 18.2.0 (June 14, 2022)
 
 ### 2024:
 
 Versions: 19 expected
 
-React Conf 2024 is scheduled for May 15–16 in Henderson, Nevada! 
-
+React Conf 2024 is scheduled for May 15–16 in Henderson, Nevada!
 
 ## Links:
 
 - React [changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
-- React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) 
+- React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
