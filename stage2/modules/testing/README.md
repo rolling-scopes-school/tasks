@@ -1,36 +1,49 @@
-# [Stage#2.](../../) Введение в тестирование
+# [Stage#2.](../../) Testing
 
-## В данном модуле студентам необходимо изучить:
+## Module Overview 📚
 
-- Overview
-- Testing Types
+In this module, the fundamentals of testing in JavaScript covered, including its importance, different types of testing, popular frameworks and libraries, methodologies like FIRST, TDD and BDD, and best practices. Testing is an integral part of the software development process, and mastering it can greatly improve the quality and reliability of application code.
+
+## Learning Objectives 🎯
+
+Students will:
+
+- Study the basics of testing and see the importance of testing in JavaScript development
+- Learn about different types of testing and their purposes. Such as:
   - Engineering Processes
   - Integration Testing
   - E2E
   - Security Testing
   - Perforamance Testing
-- Test Pyramid
-- Testing approaches
+- Understand the concept of Test Pyramid
+- Differentiate between testing approaches like:
   - FIRST
   - TDD и BDD
-- Frameworks
+- Explore popular testing frameworks and libraries
 
-## Приблизительное время прохождения модуля
+## Approximate Module Completion Time ⏱️
 
-2 часа
+- **2 hours**
 
-## Теория
+## Theory 📖
 
-- https://doka.guide/tools/how-to-test-and-why/
-- https://doka.guide/tools/tdd/
-- https://doka.guide/tools/how-to-simplify-tests/
-- https://doka.guide/tools/testing-and-fake-objects/
-- https://doka.guide/tools/integration-and-system-testing/
+Students are encouraged to study the following resources:
 
-## Практика
+- https://testsigma.com/blog/fundamentals-of-software-testing/
+- https://www.testim.io/blog/software-testing-basics/
+- https://circleci.com/blog/test-driven-development-tdd/
+- https://blog.logrocket.com/javascript-testing-best-practices/
+- https://wanago.io/2018/08/27/testing-javascript-tutorial-types-of-tests-of-unit-testing-with-jest/
+- https://github.com/goldbergyoni/javascript-testing-best-practices
+- https://www.testim.io/blog/javascript-integration-testing-painlessly/
+- https://testsigma.com/blog/end-to-end-testing-frameworks/
 
-- Вам необходимо пройти тест "Testing" в RS APP > Auto Test
+## Practice 💻
 
-## Дополнительные материалы
+- Complete the "Testing" test in the RS-App > Auto Test.
 
-- https://www.youtube.com/watch?v=xrS60rkoG3w&t
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
+
+- https://www.youtube.com/watch?v=XnsV8YACAHQ
