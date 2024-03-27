@@ -17,7 +17,8 @@ The seeds of React took root in Facebook's dynamic ecosystem. **Facebook** had a
 original JavaScript codebase wasn't scaling well to handle the swift updates required for the ever-growing Facebook
 newsfeed.
 
-Facebook engineer **Jordan Walke** borrowed ideas from **XHP**, an HTML component PHP framework, and used them to create a
+Facebook engineer **Jordan Walke** borrowed ideas from **XHP**, an HTML component PHP framework, and used them to create
+a
 JavaScript library enabling the construction of reusable UI components. It's the birth of React. This library played a
 transformational role in surmounting the performance bottlenecks of Facebook’s News Feed.
 
@@ -30,7 +31,8 @@ Facebook's newsfeed set a promising stage for what would soon revolutionize the 
 In 2012, the Facebook team was still using and developing React internally, training its developers, and stress-testing
 the tool's scalability and performance within its projects.
 
-However, the significant stride of that year was **implementing React into Instagram**. After Facebook acquired Instagram in
+However, the significant stride of that year was **implementing React into Instagram**. After Facebook acquired
+Instagram in
 2012, they started using React in Instagram.com, affording Facebook a robust opportunity to further test and enhance
 React before its public release.
 
@@ -58,7 +60,8 @@ of React.
 Versions: 0.9.0 (February 20, 2014)— 0.12.2 (December 18, 2014)
 
 November of this year marked another significant milestone for React with the release of React 0.12.0. A major
-enhancement in this update was the inclusion of **JSX syntax**, which could now be used directly within JavaScript without
+enhancement in this update was the inclusion of **JSX syntax**, which could now be used directly within JavaScript
+without
 necessitating a separate preprocessor. Being a syntax extension for JavaScript, JSX allowed developers to write elements
 and components using a syntax that resembled HTML. This not only improved the readability and structure of the code but
 also ushered in a more intuitive and effortless coding experience, opening doors to seamless component creation and more
@@ -68,11 +71,13 @@ efficient development workflows in React.
 
 Versions: 0.13.0 (March 10, 2015)— 0.14.5 (December 29, 2015)
 
-**React Native** was announced at the React.js Conf in February. React Native is a mobile development framework that allows
+**React Native** was announced at the React.js Conf in February. React Native is a mobile development framework that
+allows
 developers to leverage React and JavaScript-like methods for building mobile applications.
 
 Alongside React's growth, a library called Redux was gaining popularity in managing complex state in JavaScript
-applications. **Redux**, created by **Dan Abramov** and **Andrew Clark**, uses patterns inspired by the Flux architecture—introduced
+applications. **Redux**, created by **Dan Abramov** and **Andrew Clark**, uses patterns inspired by the Flux
+architecture—introduced
 by Facebook--and functional programming concepts, reducing the complexity of state mutation and application logic.
 
 In June, at React Europe conference, Dan Abramov, presented Redux for the first time, describing it as a predictable
@@ -95,7 +100,8 @@ The year 2016 ushered in a pivotal transition for React with the launch of versi
 this release entailed a sweeping overhaul of React's internal architecture, drastically improving its efficiency and
 performance.
 
-One of the visible enhancements of this update was the strengthened **SVG support** within the JSX syntax. Now, developers
+One of the visible enhancements of this update was the strengthened **SVG support** within the JSX syntax. Now,
+developers
 could seamlessly use JSX to write SVG within their React components, enhancing the ease of working with graphics and
 visual content on the web.
 
@@ -205,17 +211,42 @@ exciting to see what future developments bring.
 
 Versions: 17.0.2 (March 22, 2021)
 
+React version 17, mainly focuses on making it easier to upgrade React itself. Unlike previous versions,
+React 17 does not introduce new developer-facing features, instead it includes changes that make future upgrades less
+risky and disruptive. Some of the changes include gradual upgrades, event delegation changes, effect cleanup timing
+changes, consistent error handling, and new JSX transform. Gradual upgrades allow React to co-exist with other versions
+in a single page. Event delegation changes in React 17 ensure that no event handlers are attached to the document
+anymore, this also improves compatibility with future React versions. Furthermore, for more consistent error handling,
+React 17 uses a new mechanism which continues the component tree rendering even if there are errors in the components.
+It also introduces a new JSX transform which helps in reducing bundle size.
+
 ### 2022:
 
 Versions: 18.0.0 (March 29, 2022)— 18.2.0 (June 14, 2022)
+
+React 18 introduces several significant features and updates designed to improve the user interface. The most notable
+feature is automatic batching, which optimizes the process of multiple state updates, reducing the number of re-renders
+and improving performance. Additionally, React 18 introduces a new Root API that supports concurrent rendering and
+enhanced Suspense capabilities. It also comes with more efficient server components, which can render data directly into
+the HTML for better performance and a more seamless experience. Furthermore, React 18 enhances the handling of
+interruptions during rendering to ensure that priority actions, like user interactions, are not stalled by ongoing
+rendering work, offering a smoother and more responsive interface. However, due to fundamental changes in the way React
+performs, upgrading applications to React 18 requires careful planning. It has also introduced a community-driven
+approach for testing and getting feedback on new features before stable release.
 
 ### 2024:
 
 Versions: 19 expected
 
 React Conf 2024 is scheduled for May 15–16 in Henderson, Nevada!
+New features that have already landed in Canary include React Server Components, Asset Loading, Document Metadata, and
+Actions.
 
 ## Links:
 
 - React [changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
-- React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
+- React
+  Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
+- [React v17.0](https://legacy.reactjs.org/blog/2020/10/20/react-v17.html)
+- A Comprehensive Guide to the Latest Features and
+  Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
