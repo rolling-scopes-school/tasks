@@ -5,7 +5,7 @@ During the technical interview, the interviewer may discuss your solution.
 
 ## Task "Async Race"
 #### Try to imagine the scenario. 
-Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment :radio: in real cars :car:, to be precise, all of his collection of cars. He is eager to create a kind of drag-racing competition in order to discover which car is the fastest.
+Your customer has an idea to spend their money. They have hired some engineers who installed radio-controlled equipment :radio: in real cars :car:. To be precise, in their entire collection of cars. They are eager to create a kind of drag-racing competition to discover which car is the fastest.
 Each radio controller has an HTTP-compatible interface. It lets you start or stop the engine of the car and, of course, enable "driving" mode.
 Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_application) to manage the collection of cars, operate their engines, and show race statistics.
 
@@ -29,7 +29,7 @@ What are you waiting for? Let's start coding!
 
 ### Garage View
 
-- CRUD operations for cars with "name" and "color" attributes.
+- [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations for cars with "name" and "color" attributes.
 - Color selection from an RGB palette with a preview of the car in the chosen color.
 - Pagination to display cars (7 per page) and a feature to generate 100 random cars at once.
 
@@ -51,17 +51,17 @@ What are you waiting for? Let's start coding!
 
 ## 📜 Non-functional Requirements
 
-- **Framework Usage**:  Development must utilize either React or Angular.
-- **TypeScript Mandatory**: Strong typing throughout, with no use of "any".
+- **Framework Usage**: Development must utilize either React v18+ or Angular v17+.
+- **TypeScript Mandatory**: Strong typing enforced throughout. TypeScript `strict` mode must be enabled, and the `noImplicitAny` flag set to `true` to ensure no implicit `any` types are used.
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
-- **SPA Implementation**: All content must be generated using TypeScript.
-- **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
+- **SPA Implementation**: All content must be generated using TypeScript with strict type checking.
+- **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings. The `tsconfig.json` must be configured to enforce strict typing principles.
 
 - These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Intreviewers will use these guidelines to assess the technical execution and overall quality of the project.
 
 ## 🛠️ Technical Implementation
 
-- Implement CRUD operations for cars using the provided server mock.
+- Implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations for cars using the provided server mock.
 - Design UI elements for car management and race controls.
 - Utilize fetch for server communication, and handle promises for asynchronous tasks.
 - Create animations for car movements using TypeScript and CSS.
@@ -83,12 +83,12 @@ What are you waiting for? Let's start coding!
 ### README.md 
 When your solution is implemented, please include the checklist below in the `README.md`. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
 
-Also, please deploy the UI to gh-pages, AWS Amplify, Netlify, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
+Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
 
 ## Checklist
 
 ## 🚀 UI Deployment
-- [ ] **Deployment Platform:** Successfully deploy the UI on one of the following platforms: GitHub Pages, AWS Amplify, Netlify, or a similar service.
+- [ ] **Deployment Platform:** Successfully deploy the UI on one of the following platforms: GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service.
 
 ## ✅ Requirements to Commits and Repository
 
@@ -153,25 +153,25 @@ Also, please deploy the UI to gh-pages, AWS Amplify, Netlify, or a similar servi
 
 ## 🌐 Single Page Application (25 points)
 
-- [ ] **SPA Implementation (25 points):** The application must be a Single Page Application (SPA), ensuring seamless user experience without page reloads during navigation.
+- [ ] **SPA Implementation (25 points):** The application must be a Single Page Application (SPA) using either React v18+ or Angular v17+. All content must be generated using TypeScript with `strict` and `noImplicitAny` settings enabled in `tsconfig.json`, ensuring seamless user experience without page reloads during navigation.
 
 ## 📦 Bundling and Tooling (20 points)
 
-- [ ] **Use of Webpack or Similar (20 points):** Implement Webpack or another bundling tool to compile the project into a minimal set of files, ideally one HTML file, one JS file, and one CSS file.
+- [ ] **Use of Webpack or Similar (20 points):** Implement Webpack or another bundling tool to compile the project into a minimal set of files, ideally one HTML file, one JS file, and one CSS file. Ensure that the configuration enforces TypeScript strict type checking.
 
 ## ✅ Code Quality and Standards (15 points)
 
-- [ ] **Eslint with Airbnb Style Guide (15 points):** Adhere to the Airbnb ESLint configuration to maintain code quality. Specific rules may be adjusted only with mentor approval, and there should be no ESLint errors or warnings.
+- [ ] **Eslint with Airbnb Style Guide (15 points):** Code must adhere to the Airbnb ESLint configuration to maintain code quality, as outlined in the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). Specific rules may be adjusted only with mentor approval, and there should be no ESLint errors or warnings.
 
 ## 📏 Code Organization and Efficiency (15 points)
 
-- [ ] **Function Modularization (10 points):** Code should be organized into small, clearly named functions with specific purposes. Each function should not exceed 40 lines.
-- [ ] **Code Duplication and Magic Numbers (5 points):** Minimize code duplication and avoid the use of magic numbers or strings throughout the codebase.
+- [ ] **Function Modularization (10 points):** Code should be organized into small, clearly named functions with specific purposes. Each function should not exceed 40 lines, reflecting strong typing and avoiding the use of magic numbers or strings.
+- [ ] **Code Duplication and Magic Numbers (5 points):** Minimize code duplication and maintain readability by avoiding the use of magic numbers or strings throughout the codebase.
 
 ## 🎨 Prettier and ESLint Configuration (10 points)
 
-- [ ] **(5 points)** Prettier is correctly set up with two scripts in `package.json`: `format` for auto-formatting and `ci:format` for checking issues.
-- [ ] **(5 points)** ESLint is configured with the [Airbnb style guide](https://github.com/airbnb/javascript). A `lint` script in `package.json` runs ESLint checks.
+- [ ] **Prettier Setup (5 points):** Prettier is correctly set up with two scripts in `package.json`: `format` for auto-formatting and `ci:format` for checking issues.
+- [ ] **ESLint Configuration (5 points):** ESLint is configured with the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). A `lint` script in `package.json` runs ESLint checks. Configuration files should reflect strict TypeScript settings as per `tsconfig.json`.
 
 ## 🌟 Overall Code Quality (35 points)
 
