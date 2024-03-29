@@ -49,4 +49,4 @@ Expand your knowledge with these additional materials:
 
 - [Fail Fast approach in Frontend Development](https://www.youtube.com/watch?v=XnsV8YACAHQ) - [50min]
 - [Testing](https://www.youtube.com/watch?v=xrS60rkoG3w&t) - [52min]
-- [Testing live coding](https://youtu.be/qFSrImO04X8) - [1h37min]
+- [Testing live coding](https://youtu.be/qFSrImO04X8) - [1h 37min]
