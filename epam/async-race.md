@@ -1,10 +1,13 @@
 # Welcome to the test task!
+
 Below is a description of the test task. Please read it carefully. The ability to follow the requirements is important to us.
 You should complete the task before proceeding to the recruiter's interview and subsequent technical interview.
-During the technical interview, the interviewer may discuss your solution. 
+During the technical interview, the interviewer may discuss your solution.
 
 ## Task "Async Race"
-#### Try to imagine the scenario. 
+
+#### Try to imagine the scenario.
+
 Your customer has an idea to spend their money. They have hired some engineers who installed radio-controlled equipment :radio: in real cars :car:. To be precise, in their entire collection of cars. They are eager to create a kind of drag-racing competition to discover which car is the fastest.
 Each radio controller has an HTTP-compatible interface. It lets you start or stop the engine of the car and, of course, enable "driving" mode.
 Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_application) to manage the collection of cars, operate their engines, and show race statistics.
@@ -68,19 +71,23 @@ What are you waiting for? Let's start coding!
 - Ensure responsiveness and compatibility across different devices and browsers.
 
 ## Requirements to commits and repo
+
 ### Commit Guidelines
+
 - Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) format.
 - Use lowercase for commit types (`init`, `feat`, `fix`, `refactor`, `docs`, etc.).
 - Write in present tense (e.g., "add feature") and imperative mood (e.g., "move cursor to...").
 
 #### Commit Examples
+
 - `init:` Start a project/task (e.g., `init: start youtube-task`).
 - `feat:` Introduce new features (e.g., `feat: add zoom support`).
 - `fix:` Correct bugs in existing features (e.g., `fix: correct data loading`).
 - `refactor:` Improve the code without altering functionality (e.g., `refactor: rename vars`).
 - `docs:` Update documentation (e.g., `docs: update readme`).
 
-### README.md 
+### README.md
+
 When your solution is implemented, please include the checklist below in the `README.md`. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
 
 Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
@@ -88,17 +95,18 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
 ## Checklist
 
 ## 🚀 UI Deployment
+
 - [ ] **Deployment Platform:** Successfully deploy the UI on one of the following platforms: GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service.
 
 ## ✅ Requirements to Commits and Repository
 
 - [ ] **Commit guidelines compliance:** Ensure that all commits follow the specified commit guidelines, thereby promoting a clear and consistent commit history. This includes using meaningful commit messages that accurately describe the changes made.
 
-- [ ] **Checklist included in README.md:** Include the project's checklist in the README.md file. Mark all implemented features to provide a clear overview of the project's completion status. 
+- [ ] **Checklist included in README.md:** Include the project's checklist in the README.md file. Mark all implemented features to provide a clear overview of the project's completion status.
 
 - [ ] **Score calculation:** Use this checklist to calculate your score. Check all implemented features, then calculate your score and put it at the top of the `README.md`.
 
-- [ ] **UI Deployment link in README.md**: Place the link to the deployed UI at the top of the README.md file, alongside the calculated score. 
+- [ ] **UI Deployment link in README.md**: Place the link to the deployed UI at the top of the README.md file, alongside the calculated score.
 
 ## 🏁 Basic Structure (85 points)
 
@@ -178,6 +186,7 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
 - [ ] **(Up to 35 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
 
 ## 🔄 Evaluation Rules
+
 - **[@Candidate]** The UI should be deployed to gh-pages, Netlify, or a similar service, and the link should be included in the `README.md`.
 - **[@Reviewer]** You should clone the [server repository](https://github.com/mikhama/async-race-api.git) and keep the server running during the functionality review.
 - **[@Reviewer]** Test task should be evaluated based on both functional and non-functional requirements.
@@ -188,19 +197,25 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
   - **Note:** If you repeatedly press the "start engine button" then the "stop engine button" or the "start race button" then the "reset race button" and see a "404" or "429" error, this is not considered a bug.
 
 ## FAQ
+
 #### Question: How do I integrate the mock server with my GitHub repository?
+
 First, you'll need to clone the mock server's repository to your local machine and make sure it's up and running. Next, your task is to develop the user interface (UI) in a separate repository of your own. This setup requires the server to be active in your local environment (localhost), eliminating the need for backend deployment. It's important to understand that changes to the backend are not allowed, as the evaluation process involves using an unmodified version of the backend, specifically the one originally provided.
 
 #### Question: Is it possible to use any UI component libraries like Ant Design?
-Feel free to use any library 
+
+Feel free to use any library
 
 #### Question about sorting the winners. The page displays 10 entries. Should the sorting be applied to just these 10 entries, or to the entire array of winners?
+
 The entire array - that's the whole idea, to use query string parameters to request a portion of the data (including the sorted ones). The JSON-server API handles this perfectly.
 
-## Communication. Telegram channel 
+## Communication. Telegram channel
+
 We have created a Telegram channel to give you an opportunity to discuss the task, ask questions, etc.
 Join - https://t.me/+KuU8bd4-gcYwOTUy
 
 ## 📚 Resources
+
 - [Server Mock Repo](https://github.com/mikhama/async-race-api)
 - [Demo Video](https://youtu.be/aLjibbo9spo)
