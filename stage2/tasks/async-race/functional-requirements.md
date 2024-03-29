@@ -17,7 +17,7 @@ This document outlines the detailed criteria for the evaluation of the "Async Ra
 
 #### Car Management (45 points)
 
-- **CRUD Operations (20 points):** Enable users to create, update, and delete cars, and display the list of cars. A car has two attributes: "name" and "color". For "delete"-operation car should be deleted from "garage" table as well as from "winners".
+- **CRUD Operations (20 points):** Enable users to create, update, and delete cars, and display the list of cars. A car has two attributes: "name" and "color". For "delete/update"-operations car should be deleted/updated from/in "garage" table as well as from/in "winners".
 - **Color Selection (10 points):** Allow color selection from an RGB palette ([like here](https://colorspire.com/rgb-color-wheel/)), displaying the selected color on the car's image along with its name.
 - **Management Buttons (5 points):** Provide buttons near each car's image for updating its attributes or deleting it.
 - **Pagination (10 points):** Implement pagination for the "Garage" view, displaying 7 cars per page.
