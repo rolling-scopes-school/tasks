@@ -239,6 +239,10 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 02/04/2024
 
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
+
 - Modules:
 
   - [Testing](modules/testing/)
@@ -246,6 +250,10 @@ At the end of this week, all students will be required to use typescript and adh
 - Tests:
 
   - [[St2] Testing](./modules/testing/)
+
+- Tasks:
+
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -259,17 +267,26 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 09/04/2024
 
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Fun Сhat](tasks/fun-chat/README.md)
-- [Module: JavaScript Error Handling](modules/error-handling/)
-- [Module: WebSockets](modules/web-sockets/)
+- Modules:
+
+  - [Module: JavaScript Error Handling](modules/error-handling/)
+  - [Module: WebSockets](modules/web-sockets/)
+
+- Tests:
+
+  - [[St2] Error handling](./modules/error-handling/)
+
+- Tasks:
+
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+  - [Fun Сhat](tasks/fun-chat/README.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [RSS-CSS-Selectors](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Async Race](./tasks/async-race/)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Async Race](./tasks/async-race/)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
