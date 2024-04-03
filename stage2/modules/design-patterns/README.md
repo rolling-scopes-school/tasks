@@ -24,8 +24,7 @@ Students are encouraged to explore the following resources for a comprehensive u
 
 1. **Introduction to Design Patterns:**
 
-   - [Application architecture and patterns](https://doka.guide/tools/architecture-and-design-patterns/)
-   - [MVC](https://doka.guide/tools/architecture-mvc/)
+   - [Software Design Pattern](https://refactoring.guru/design-patterns)
 
 2. **Creational Design Patterns:**
 
