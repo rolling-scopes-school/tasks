@@ -89,8 +89,8 @@ NB: for mentor's check - submit link to PR, for cross-check - submit link to dep
 - Reviewer should clone [repo with a server](https://github.com/mikhama/async-race-api.git) and keep the server running during functionality review.
 - Task should be scored in accordance with [Functional requirements](./functional-requirements.md). You can find score points near each requirement.
 - If some bugs were found then the next fees should be withdrawn:
-  - (**-30**) Major bag (implemented functionality works, but after some manipulations it breaks down, and there are some unexpected errors in the browsers' console).
-  - (**-10**) Minor bag (implemented functionality works, but after some manipulations it behavior changes, like button does not become enabled after changing some state, but there are not any errors in the browser's console).
+  - (**-30**) Major bug (implemented functionality works, but after some manipulations it breaks down, and there are some unexpected errors in the browsers' console).
+  - (**-10**) Minor bug (implemented functionality works, but after some manipulations it behavior changes, like button does not become enabled after changing some state, but there are not any errors in the browser's console).
 - **Note:** When you push the "start engine button" and then the "stop engine button" or the "start race button" and "reset race button" and repeating this operation again and again as a mad man sometimes you can see an error with the status codes "404" or "429". Officially it is not a bug.
 
 ## Mentor's review
