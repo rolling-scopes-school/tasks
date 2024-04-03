@@ -2,7 +2,7 @@
 
 ## Module Overview 📚
 
-The "Design Patterns" module delves into the foundational principles of software design patterns, categorizing them into creational, structural, and behavioral patterns. This course aims to equip students with the knowledge to apply these patterns in various programming scenarios, enhancing code reusability, scalability, and maintainability.
+The "Design Patterns" module delves into the foundational principles of software design patterns, categorizing them into creational, structural, and behavioral patterns. This module aims to equip students with the knowledge to apply these patterns in various programming scenarios, enhancing code reusability, scalability, and maintainability.
 
 ## Learning Objectives 🎯
 
