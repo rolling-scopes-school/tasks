@@ -14,7 +14,7 @@ Students will:
   - Integration Testing
   - E2E
   - Security Testing
-  - Perforamance Testing
+  - Performance Testing
 - Understand the concept of Test Pyramid
 - Differentiate between testing approaches like:
   - FIRST
@@ -29,7 +29,7 @@ Students will:
 
 Students are encouraged to study the following resources:
 
-- [Fundamentals of Software Tseting](https://testsigma.com/blog/fundamentals-of-software-testing/) - [20min]
+- [Fundamentals of Software Testing](https://testsigma.com/blog/fundamentals-of-software-testing/) - [20min]
 - [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) - [5min]
 - [Software Testing Basics](https://www.testim.io/blog/software-testing-basics/) - [20min]
 - [Test Driven Development](https://circleci.com/blog/test-driven-development-tdd/) - [15min]
