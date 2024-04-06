@@ -294,16 +294,24 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 16/04/2024
 
-- [Module: CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Module: Design Patterns](modules/design-patterns/)
-- [Fun Сhat](tasks/fun-chat/README.md)
+- Modules:
+
+  - [Module: Design Patterns](modules/design-patterns/)
+
+- Tests:
+
+  - [[St2] Design Patterns](modules/design-patterns/)
+
+- Tasks:
+
+  - [Fun Сhat](tasks/fun-chat/README.md)
+  - [Codewars Design Patterns](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-DP.md)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) задания [Async Race](./tasks/async-race/)
-- [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
 ## Week #11.
@@ -312,7 +320,6 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Project: Presentation. Recorded & Online](modules/presentation)
 - [Module: "SCRUM, Kanban"](modules/scrum/)
-- [Module: CI/CD](@valerydluski)
 - [Preparation for Final Project](modules/final-task/)
 - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](./tasks/async-race/)
 
@@ -329,6 +336,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 30/04/2024
 
 - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
+- [Module: CI/CD](@valerydluski)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
