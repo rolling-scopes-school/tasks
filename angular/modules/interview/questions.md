@@ -119,3 +119,19 @@
 6. How do you mock (mock) and stub (stub) dependencies in tests for services?
 7. How do you test forms based on templates and reactive forms?
 8. What are async, **fakeAsync**, and **tick**, and how are they used when testing asynchronous code?
+
+## Signals:
+
+1. What are Signals?
+2. How to read and modify the value of a signal?
+3. What is the main advantage of using signals instead of primitive values?
+4. What is the advantage of using Signal Inputs?
+5. How do we subscribe to a signal?
+6. Can we read the value of a signal from a computed signal without creating a dependency?
+7. Detecting signal changes with the effect() API
+8. What is the relation between Signals and change detection?
+
+## Angular 16-17 features:
+
+1. What's new in Angular 16 and 17 versions? 
+2. Describe new features @if, @for, @switch, @defer
