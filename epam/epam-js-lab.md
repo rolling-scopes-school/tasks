@@ -20,9 +20,9 @@ Once you have passed the EPAM General Interview and become an EPAM Student, you 
 
 ##### A. Option #1
 
-- **Introduction:** Watch the introductory webinar.
-- **Registration:** Sign up on the RS APP.
-- **Community:** Join the Discord community.
+- **Introduction:** [Watch the introductory webinar](https://www.youtube.com/watch?v=_2iuvokB7Jk).
+- **Materials:** https://github.com/rolling-scopes-school/aws/tree/main/aws-developer
+- **Community:** [Join the Discord community](https://discord.com/invite/WEZxwRa4J6).
 - **Assignment:** "Cloud Introduction" after completing AWS Fundamentals.
 - **Duration:** 10 weeks, 10-16 hours per week.
 
