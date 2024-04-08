@@ -30,16 +30,17 @@ You have complete freedom to implement any visual design for the application. Yo
 
 ## Functional Requirements (+250)
 
-#### 1. User Authentication Page (+25)
+#### 1. User Authentication Page (+30)
 
 - (+10) The authentication form validates the entered data based on at least two different criteria. Such as, for example, case sensitivity and the use of special characters. The selection of validation criteria and their display options is at the student's discretion and must be evaluated solely based on the quantity and functionality.
 - (+5) The user is unable to submit an authentication request with data that has not passed validation.
 - (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed.
 - (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
+- (+5) Access is granted only to not authenticated users.
 
-#### 2. Main Page (+15)
+#### 2. Main Page (+10)
 
-- (+15) Access is granted only to authenticated users.
+- (+10) Access is granted only to authenticated users.
 
 #### 3. Header (on the main page) (+10)
 
@@ -55,7 +56,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 - (+10) Displays all registered users and an indicator of each user's online status.
 - (+5) The currently authenticated user is not in the list.
-- (+5) Implements user search by name.
+- (+5) Implements user search by name. The search will be case sensitive or case-insensitive at the student's discretion.
 - (+10) Displays information about the number of unread messages from each user.
 
 #### 6. User Dialogue (on the main page) (+75)
@@ -87,7 +88,8 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 9. About Page (+10)
 
-- (+10) Contains brief information about the application and its author. The content is at the student's discretion.
+- (+5) Contains brief information about the application and its author. The content is at the student's discretion.
+- (+5) Access is granted to all users.
 
 #### 10. Interface and Visual Design (+15)
 
@@ -129,19 +131,21 @@ You have complete freedom to implement any visual design for the application. Yo
 
 ## Penalties Cross-Check
 
-- (-100%) Use of libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc.
-- (-100%) If the application is not written in TypeScript.
 - (-15) For recurring application errors, a deduction is allowed only once for each distinct type of error.
 - (-5) For layout issues where the elements overlap or cover each other, a deduction is allowed only once for each distinct type of issue.
 
 ## Penalties Mentor
 
-- (-100%) Use of libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, Material Design, etc.
+- (-100%) Use of JavaScript libraries or frameworks such as JQuery, React, Angular, Vue, Lodash, etc.
 - (-100%) If the application is not written in TypeScript.
 - (-50%) If the entire content of the page is not generated using TypeScript (if index.html contains more than just the body tag).
 - (-50) With remarks on code quality, readability.
 
 ## FAQ
+
+_Question_ - Is the use of CSS framework allowed?
+
+_Answer_ - Yes, it is allowed.
 
 _Question_ - Is the use of style preprocessors such as SCSS, SASS, etc. allowed?
 
@@ -170,3 +174,15 @@ _Answer_ - The complete message must be displayed in the dialogue.
 _Question_ - What pages are available to a non-authorized user?
 
 _Answer_ - They have access to the Authentication and About pages.
+
+_Question_ - Is it necessary to clear the message entry field when selecting a dialog with another user?
+
+_Answer_ - Yes, it's necessary to clean.
+
+_Question_ - Should the message history be restored when reconnection is restored?
+
+_Answer_ - No, message history is not restored after the connection is restored, only users authorized at the time of connection restoration.
+
+_Question_ - How do I simulate a loss of connection to the server when performing a cross-check?
+
+_Answer_ - Only by stopping the local server and restarting it.
