@@ -31,11 +31,6 @@ Students are encouraged to study the following resources:
     - [React Tutorial—Class Components](https://www.tutorialspoint.com/reactjs/reactjs_components.htm) - [30 minutes]
     - [Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
 
-## Practice 💻
-
-- Complete the test "Class Components in React" in the RS-App > Auto Test.
-- Complete the task "Implement Class Component in a React Application".
-
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
