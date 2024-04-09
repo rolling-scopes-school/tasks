@@ -33,11 +33,6 @@ Students are recommended to study the following resources:
    - How to Use the [React Context API](https://www.freecodecamp.org/news/context-api-in-react/) - [1 hour]
    - [Learn useContext In 13 Minutes](https://www.youtube.com/watch?v=5LrDIWkK_Bc) - [15 minutes]
 
-## Practice 💻
-
-- Complete the test "Context API in React" in the RS-App > Auto Test.
-- Complete the task "Implement Context API in a React Application".
-
 ## Additional Resources 📘
 
 Broaden your knowledge with these extra materials:
