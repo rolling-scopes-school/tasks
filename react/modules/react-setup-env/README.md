@@ -43,10 +43,6 @@ Students are encouraged to study the following resources:
    - Jest [Getting Started](https://jestjs.io/docs/getting-started)
    - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
-## Practice 💻
-
-- Complete the task 'Set Up Your First React Application'.
-
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:

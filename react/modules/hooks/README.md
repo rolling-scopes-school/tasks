@@ -44,10 +44,6 @@ Students are encouraged to explore the following resources:
    - [Building Your Own Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components)
    - [React Custom Hooks Examples](https://usehooks.com/)
 
-## Practice 💻
-
-- Complete the test "React Hooks" in the RS-App > Auto Test.
-
 ## Additional Resources 📘
 
 1. [React Hooks FAQ](https://reactjs.org/docs/hooks-faq.html)
