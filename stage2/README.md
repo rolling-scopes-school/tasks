@@ -318,17 +318,28 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 23/04/2024
 
-- [Project: Presentation. Recorded & Online](modules/presentation)
-- [Module: "SCRUM, Kanban"](modules/scrum/)
-- [Preparation for Final Project](modules/final-task/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](./tasks/async-race/)
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
+
+- Modules:
+
+  - [Module: "SCRUM, Kanban"](modules/scrum/)
+  - [Preparation for Final Project](modules/final-task/)
+
+- Tests:
+
+  - [[St2] Scrum. Kanban](modules/scrum/)
+
+- Tasks:
+
+  - [Project: Presentation. Recorded](tasks/presentation/)
 
 <details>
   <summary>Mentor Activities</summary>
 
 - [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking Final Version of Async Race task](https://docs.rs.school/#/pull-request-review-process)
-- [Interviewing Students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
 ## Week #12.
