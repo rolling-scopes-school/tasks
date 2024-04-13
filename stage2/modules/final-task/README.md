@@ -47,7 +47,7 @@ The following Discord channels need to be created:
 - git (questions about git)
 - work-status (for daily reports of each team member)
 
-2. The Discord server is the main communication channel for the group. Voice channels on Discord, Teams, Telegram, Skype, etc., can be used for video or audio conferences.
+2. The Discord server is the main communication channel for the group. Voice channels on Discord, Teams, Telegram, Skype, etc. can be used for video or audio conferences.
 
 ### First Meeting
 
