@@ -14,7 +14,7 @@
 
 #### Distribution of Students into Groups
 
-1. Students proceede to the Team Distributions tab on RS App and register there thus confirming their willingness and readiness to take part in the final course project.
+1. Students proceed to the Team Distributions tab on RS App and register there thus confirming their willingness and readiness to take part in the final course project.
 
 2. Groups are formed on Team Distributions. Students can either create their own team, join an existing team, or be assigned to a team randomly.
 
