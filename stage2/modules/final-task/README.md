@@ -4,7 +4,7 @@
 
 1. Before the start of the final project, all the students who have not completed the last three assignments in a row are to be expelled as inactive.
 
-2. The team distribution process is to be done on [RS App](https://app.rs.school/course/team-distributions?course=js-fe-2023Q4).
+2. The team distribution process is to be done through Team Distributions on RS App.
 
 3. Students may choose to form their teams independently. Each team will include three students.
 
@@ -14,9 +14,9 @@
 
 #### Distribution of Students into Groups
 
-1. Students register on [RS App](https://app.rs.school/course/team-distributions?course=js-fe-2023Q4) thus confirming their willingness and readiness to take part in the final course project.
+1. Students proceede to the Team Distributions tab on RS App and register there thus confirming their willingness and readiness to take part in the final course project.
 
-2. Groups are formed on [RS App](https://app.rs.school/course/team-distributions?course=js-fe-2023Q4). Students can either create their own team, join an existing team, or be assigned to a team randomly.
+2. Groups are formed on Team Distributions. Students can either create their own team, join an existing team, or be assigned to a team randomly.
 
 #### Mentor's Tasks
 
@@ -38,7 +38,7 @@
 
 #### Communication Channels
 
-1. The team lead creates a server on Discord, leaves a link to it in the description of the team registration form on [RS App](https://app.rs.school/course/team-distributions?course=js-fe-2023Q4) and invites their team members to the created server or they join it themselves.
+1. The team lead creates a server on Discord, leaves a link to it in the description of the team registration form under the Team Distributions tab on RS App and invites their team members to the created server or they join it themselves.
 
 The following Discord channels need to be created:
 
