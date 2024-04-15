@@ -35,7 +35,6 @@
 
 All logical parts should be set into separate components.
 
-
 ## Points.
 
 ### Student can get 100 points:

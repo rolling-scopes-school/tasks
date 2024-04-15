@@ -20,16 +20,21 @@
    - Validate that clicking on a card opens a detailed card component;
    - Check that clicking triggers an additional API call to fetch detailed information.
 10. Tests for the Detailed Card component:
-   - Check that a loading indicator is displayed while fetching data;
-   - Make sure the detailed card component correctly displays the detailed card data;
-   - Ensure that clicking the close button hides the component.
-11. Tests for the Pagination component:
-   - Make sure the component updates URL query parameter when page changes.
-12. Tests for the Search component:
-   - Verify that clicking the Search button saves the entered value to the local storage;
-   - Check that the component retrieves the value from the local storage upon mounting.
-13. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
+- Check that a loading indicator is displayed while fetching data;
+- Make sure the detailed card component correctly displays the detailed card data;
+- Ensure that clicking the close button hides the component.
+
+11. Tests for the Pagination component:
+
+- Make sure the component updates URL query parameter when page changes.
+
+12. Tests for the Search component:
+
+- Verify that clicking the Search button saves the entered value to the local storage;
+- Check that the component retrieves the value from the local storage upon mounting.
+
+13. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
 ## Application Requirements.
 
@@ -41,7 +46,6 @@
    - left section will continue to display search results;
    - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
    - reflect in the url that "Details" section has been opened for the selected item (e.g. /?frontpage=2&details=1).
-
 
 ## Points.
 
