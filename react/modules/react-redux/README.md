@@ -13,7 +13,7 @@ Students will:
 - Understand the principles of Redux and Redux Toolkit.
 - Learn how to integrate Redux into React applications using React Redux bindings.
 - Explore the usage of Redux Toolkit for simplified Redux state management.
-- Get familiar with advanced Redux concepts like middleware and thunks using Redux Toolkit.
+- Get familiar with advanced Redux concepts like middlewares (e.g. thunks) using Redux Toolkit.
 - Learn about Redux Toolkit Query for efficient data fetching and caching.
 
 ## Approximate Module Completion Time ⏱️
