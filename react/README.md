@@ -17,29 +17,47 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 ## Course program
 
-### Week #1 (23th of October, 2023)
+### Week #1 (25th of June, 2024)
 
-[React. Components](modules/module01)
+#### Theory
+[Vite with React and the TypeScript](modules/react-setup-env/)
+[Class Components](modules/class-component/)
+[Error Boundaries](modules/error-boundary/)
 
-### Week #2 (30th of October, 2023)
+#### Practical tasks
+[Task 1](modules//tasks/class-components.md)
 
-[React. Routing](modules/module02)
+### Week #2 (2nd of July, 2024)
 
-### Week #3 (6th of November, 2023)
+#### Theory
+[Hooks](modules/hooks/)
+[React Router](modules/router/)
+[React Tests](modules/testing/)
 
-[React. Tests / Context API](modules/module03)
+#### Practical tasks
+[Task 2](modules/tasks/routing.md)
 
-### Week #4 (13th of November, 2023)
+### Week #3 (9th of July, 2024)
 
-[React. Redux. RTK](modules/module04)
+#### Theory
+[Context API](modules/context-api/)
+[Redux. RTK. RTK Query](modules/)
 
-### Week #5 (20th of November, 2023)
+#### Practical tasks
+[Task 3](modules/tasks/redux.md)
 
-[React. NextJS / SSR / SSG](modules/module05)
+### Week #4 (16th of July, 2024)
 
-### Week #6 (27th of November, 2023)
+#### Theory
+[Context API](modules/context-api/)
+[Redux. RTK. RTK Query](modules/)
 
-[React. Forms](modules/module06)
+#### Practical tasks
+[Task 3](modules/tasks/redux.md)
+
+### Week #5 (23rd of July, 2024)
+
+### Week #6 (30th of July, 2024)
 
 ### Week #7 (4th of December, 2023)
 
