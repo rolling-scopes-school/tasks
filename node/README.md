@@ -73,4 +73,5 @@ Before the start of the course, the student must:
 - [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
 
 ## Optional
+
 - [NodeJS Interview Preparation](modules/interview/README.MD)
