@@ -4,6 +4,7 @@ Preparing for a Node.js interview, especially with a focus on NestJS, requires a
 
 ## 🚀 Node.js Fundamental Concepts
 
+- **Node.js Versioning**: Major, Minor, and Patch Releases. What is LTS?
 - **Event-Driven Architecture**: The importance of events for non-blocking I/O operations.
 - **Non-Blocking I/O**: Understanding non-blocking I/O mechanisms to enhance application performance.
 - **Single-Threaded Model with Event Loop**: How Node.js handles concurrency with a single-threaded model and event loop.
@@ -68,6 +69,9 @@ Preparing for a Node.js interview, especially with a focus on NestJS, requires a
 
 - **NestJS Project Structure**: Organizing code for maintainability and scalability.
 - **Real-world Use Cases**: Discussing practical applications and solutions built with NestJS.
+- **Loggers**: types of loggers, logging levels, logging tools, and libraries (Logstash, Winston, etc.)
+- **NodeJS Error handling and Debugging**: Promise rejections, Native debugging, inspectors, and specialized tools
+
 
 By covering these topics, candidates will demonstrate their comprehensive knowledge of both Node.js and NestJS, showcasing their abilities to build scalable, secure, and efficient web applications. Be prepared to discuss your experience with these technologies, share code samples, and explain your decision-making processes in real-world projects.
 
