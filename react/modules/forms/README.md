@@ -1,22 +1,22 @@
-[React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Forms 🌟
+# [React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Forms 🌟
 
 ## Module Overview 📚
 
-The "React Form" module explores  the most popular form libraries for React are **React Hook Form** or **Formik**. Through this module, students will learn an overview of solutions to handle forms. The module covers one of the most popular solutions to create a fully functional form with input validation.
+The "React Form" module explores the most popular form libraries for React are **React Hook Form** or **Formik**. Through this module, students will learn an overview of solutions to handle forms. The module covers one of the most popular solutions to create a fully functional form with input validation.
 
 ## Learning Objectives 🎯
 
 Students will:
 
 - Understand the basics of working with forms in React.
-- Learn how to create basic forms in React. 
-- Know how to control the state of a form using React state. 
-- Understand controlled and uncontrolled form elements. 
+- Learn how to create basic forms in React.
+- Know how to control the state of a form using React state.
+- Understand controlled and uncontrolled form elements.
 - Learn how to use event handlers to process submitted forms.
 - Understand form validation in React.
-- Learn about form libraries like **React Hook Form** or **Formik** to simplify working with forms in React. 
-- Understand how to handle file uploads in React forms. 
-- Know how to create dynamic forms in React 
+- Learn about form libraries like **React Hook Form** or **Formik** to simplify working with forms in React.
+- Understand how to handle file uploads in React forms.
+- Know how to create dynamic forms in React
 - Learn how to push submitted form data to the server or to state management libraries.
 
 ## Approximate Module Completion Time ⏱️
@@ -89,5 +89,5 @@ Students are encouraged to explore the following resources:
 Expand your knowledge with these additional materials:
 
 - [article: React Hook Form, Formik or Redux Form?](https://react-hook-form.com/faqs#ReactHookFormFormikorReduxForm) - [10 minutes]
-- [react.dev: useFormState](https://react.dev/reference/react-dom/hooks/useFormState#noun-labs-1201738-(2)) - [10 minutes]
+- [react.dev: useFormState](<https://react.dev/reference/react-dom/hooks/useFormState#noun-labs-1201738-(2)>) - [10 minutes]
 - [react.dev: useFormStatus](https://react.dev/reference/react-dom/hooks/useFormStatus) - [10 minutes]
