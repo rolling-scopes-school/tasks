@@ -59,6 +59,7 @@ What are you waiting for? Let's start coding!
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
 - **SPA Implementation**: All content must be generated using TypeScript with strict type checking.
 - **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings. The `tsconfig.json` must be configured to enforce strict typing principles.
+- **UI Design**: The design is completely up to you. In this project, we care about the quality of the code and the fulfillment of other functional and non-functional requirements.
 
 - These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Intreviewers will use these guidelines to assess the technical execution and overall quality of the project.
 
