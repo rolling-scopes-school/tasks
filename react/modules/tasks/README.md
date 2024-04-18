@@ -5,7 +5,7 @@ Those requireminets are applied to all the tasks, if not provided in the task ex
 ## Questions
 
 You should be using Discord as the main mean of the communication.
-We will try to collect your questions regarding each of the tasks using special form, which will be provided via the Discord with the 1st Module start. Questions will be collected in respective section of the spreadsheet, which also will be provided via the Discord with the 1st Module start. 
+We will try to collect your questions regarding each of the tasks using special form, which will be provided via the Discord with the 1st Module start. Questions will be collected in respective section of the spreadsheet, which also will be provided via the Discord with the 1st Module start.
 Please, check answers carefully before posting the question, may be your question has been answered already.
 
 ## Repository requirements
@@ -25,6 +25,7 @@ Please, check answers carefully before posting the question, may be your questio
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
 5. Review the code. Pay attention at the following "code smells":
+
 - props drilling;
 - large, complex components aka "god" components;
 - direct DOM manipulation, methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
