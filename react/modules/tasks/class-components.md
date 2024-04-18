@@ -1,8 +1,8 @@
 # React project setup. Class components. Error boundary.
 
-## Technical Requirements.
+## Technical Requirements
 
-1. Create a separate branch for this task.
+1. Create a separate branch for this task. Branch name: "class-components".
 2. Language Requirement
    - Use **TypeScript** for the project.
 3. Project Setup
@@ -10,7 +10,6 @@
 4. Code Quality Tools
    1. ESLint
       - Set up ESLint to throw errors if TypeScript's _any_ type is used.
-      - Follow the [configuration guide](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md).
    2. Prettier
       - Integrate Prettier for code formatting.
    3. Husky
@@ -21,12 +20,12 @@
         - `format:fix`: For running Prettier's --write command.
 5. Pick a RESTfull api which supports search and pagination (pagination might be reffered as _offset_ and _limit_ params). E.g. https://pokeapi.co/, for Star Wars fans https://swapi.dev/api, for Star Trek fans https://stapi.co/api-documentation (OpenApi spec can be checked here https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml), or you can select another one complying with the requirements.
 
-## Application Requirements.
+## Application Requirements
 
-1. Create a page comprised of 2 horizontal section (a smaller top one, and a bigger bottom one).
+1. Create a page comprised of 2 horizontal sections (a smaller top one, and a bigger bottom one).
 2. On the top section put _Search_ input and the "Search" button. _Search_ component should look for a previously saved search term in the local storage (LS), if there isn't any - leave the input empty.
-3. Bottom section should show be used for displaying search results (name and a small description).
-4. By default application makes a call to the selected api to get the list of the items with the search term fron the input (only first page). If the input is empty make a call to get all the items.
+3. Bottom section should be used for displaying search results (name and a small description).
+4. By default application makes a call to the selected api to get the list of the items with the search term from the input (only first page). If the input is empty make a call to get all the items.
 5. When user modifies the _Search_ input and clicks on "Search" button, application makes a call to an api with the newly provided search term (search term should not have any trailing spaces, process the input) to get the results (only first page).
 6. The provided search term should be saved to the LS, if the value exists overwrite it.
 7. Wrap application to an error boundary to catch errors. Report an error to a console and show fallback UI (use respective methods for this). Create a button which will throw an error on click to test the functionality.
@@ -35,7 +34,7 @@
 
 All logical parts should be set into separate components.
 
-## Points.
+## Points
 
 ### Student can get 100 points:
 
@@ -47,7 +46,7 @@ All logical parts should be set into separate components.
 - The search term typed into the _Search_ input is saved in the LS when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - **15 points**
 - Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error - **10 points**
 
-### Penalties:
+### Penalties
 
 - TypeScript isn't used: **-95 points**
 - Usage of _any_: **-20 points per each**

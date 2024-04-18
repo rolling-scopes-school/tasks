@@ -21,9 +21,9 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 #### Theory
 
-[Vite with React and the TypeScript](modules/react-setup-env/)
-[Class Components](modules/class-component/)
-[Error Boundaries](modules/error-boundary/)
+- [Vite with React and the TypeScript](modules/react-setup-env/)
+- [Class Components](modules/class-component/)
+- [Error Boundaries](modules/error-boundary/)
 
 #### Practical tasks
 
@@ -33,9 +33,9 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 #### Theory
 
-[Hooks](modules/hooks/)
-[React Router](modules/router/)
-[React Tests](modules/testing/)
+- [Hooks](modules/hooks/)
+- [React Router](modules/router/)
+- [React Tests](modules/testing/)
 
 #### Practical tasks
 
@@ -45,8 +45,8 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 #### Theory
 
-[Context API](modules/context-api/)
-[Redux. RTK. RTK Query](modules/react-redux/)
+- [Context API](modules/context-api/)
+- [Redux. RTK. RTK Query](modules/react-redux/)
 
 #### Practical tasks
 
@@ -56,8 +56,8 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 #### Theory
 
-[Context API](modules/context-api/)
-[Redux. RTK. RTK Query](modules/react-redux/)
+- [Context API](modules/context-api/)
+- [Redux. RTK. RTK Query](modules/react-redux/)
 
 #### Practical tasks
 
