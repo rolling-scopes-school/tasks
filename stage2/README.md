@@ -347,7 +347,7 @@ At the end of this week, all students will be required to use typescript and adh
 ### 30/04/2024
 
 - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
-- [Module: CI/CD](@valerydluski)
+- [Module: CI/CD](./modules/ci-cd/)
 
 <details>
   <summary markdown="span">Активности менторов</summary>
