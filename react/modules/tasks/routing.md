@@ -53,7 +53,7 @@ A student can achieve a maximum of 100 points.
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
-- Tests are added to the project, can be run via a `test` command in the package.json, no errors are produced, test coverage >= 80% - **30**
+- Tests are added to the project, can be run via a `test` command in the package.json, no errors are produced, test coverage >= 80% (at least for `statements`) - **30**
 - Conversion of class components to functional components with hooks - **15**
 - Custom hook to restore search query from LS and put it back to LS on unmount - **5**
 - Pagination is present in both URL and on the page - **20**
