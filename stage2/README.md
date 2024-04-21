@@ -346,15 +346,22 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 30/04/2024
 
-- [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
-- [Module: CI/CD](./modules/ci-cd/)
+- Modules:
+
+  - [Module: CI/CD](./modules/ci-cd/)
+
+- Tasks:
+
+  - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Async Race task](https://docs.rs.school/#/pull-request-review-process)
-- [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- Задание ["Презентация"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md). - Презентация в формате "recorded" является обязательной для всех студентов. Ментору необходимо посмотреть ролик и выставить оценку.
+- [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Project: Presentation. Recorded](tasks/presentation/)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+
 </details>
 
 ## Week #13.
