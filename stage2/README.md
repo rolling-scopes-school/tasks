@@ -350,6 +350,10 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: CI/CD](./modules/ci-cd/)
 
+- Tests:
+
+  - [[St2] CI/CD](./modules/ci-cd/)
+
 - Tasks:
 
   - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
