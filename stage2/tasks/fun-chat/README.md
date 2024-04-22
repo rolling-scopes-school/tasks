@@ -186,3 +186,15 @@ _Answer_ - No, message history is not restored after the connection is restored,
 _Question_ - How do I simulate a loss of connection to the server when performing a cross-check?
 
 _Answer_ - Only by stopping the local server and restarting it.
+
+_Question_ - Which message is considered empty?
+
+_Answer_ - A message that contains nothing, not a single character. The length of such a message is zero characters.
+
+_Question_ - Is it acceptable to replace the username in your posts with "you"?
+
+_Answer_ - Yes.
+
+_Question_ - What should be shown if a new message is too long?
+
+_Answer_ - You should be able to see the beginning of the message and all the text that fits in the dialog area.
