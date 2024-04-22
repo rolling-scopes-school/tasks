@@ -29,7 +29,7 @@ Students are encouraged to explore the following resources:
 
 1. **Getting Started with React Forms:**
 
-   - [video: webDev React JS #10 Формы (Forms)](https://www.youtube.com/watch?v=LLum_dcrbFo) - [15 minutes]
+   - [video: webDev React JS #10 Forms](https://www.youtube.com/watch?v=LLum_dcrbFo) - [15 minutes]
    - [article: Create a Form using React JS](https://www.geeksforgeeks.org/create-a-form-using-reactjs/) - [10 minutes]
    - [article: React Forms](https://www.w3schools.com/react/react_forms.asp) - [10 minutes]
 
