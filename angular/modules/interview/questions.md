@@ -17,6 +17,7 @@
 6. What are ViewChild and ViewChildren?
 7. What is the difference between ElementRef and Renderer2?
 8. How do HostBinding and HostListener decorators work?
+9. What is the change detection mechanism in Angular, and how do the Default and OnPush strategies differ? When is it better to use each one?
 
 ## Directives:
 
@@ -60,6 +61,7 @@
 6. What are Subject and BehaviorSubject, and how are they used in Angular?
 7. How would you explain the concepts of **_Hot_** and **_Cold_** Observables?
 8. How do you properly unsubscribe from an Observable?
+9. What are the different approaches to state management in Angular? What are the benefits of using service-based methods versus NgRx or other state management libraries?
 
 ## Dependency Injection:
 
