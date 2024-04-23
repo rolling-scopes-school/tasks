@@ -55,7 +55,7 @@ Students are encouraged to study the following resources:
 
 6. **Webinars:**
 
-   - [Unit tests [RU]](https://www.youtube.com/watch?v=LZ7kQ7fTwfA)
+   - [Unit tests [RU]](https://www.youtube.com/watch?v=LZ7kQ7fTwfA) - [2h 8min]
 
 ## Practice 💻
 
@@ -65,6 +65,6 @@ Students are encouraged to study the following resources:
 
 Expand your knowledge with these additional materials:
 
-- [Fail Fast approach in Frontend Development](https://www.youtube.com/watch?v=XnsV8YACAHQ) - [50min]
-- [Testing](https://www.youtube.com/watch?v=xrS60rkoG3w&t) - [52min]
-- [Testing live coding](https://youtu.be/qFSrImO04X8) - [1h 37min]
+- [Fail Fast approach in Frontend Development [RU]](https://www.youtube.com/watch?v=XnsV8YACAHQ) - [50min]
+- [Testing [RU]](https://www.youtube.com/watch?v=xrS60rkoG3w&t) - [52min]
+- [Testing live coding [RU]](https://youtu.be/qFSrImO04X8) - [1h 37min]
