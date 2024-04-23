@@ -372,14 +372,23 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 07/05/2024
 
-- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
-- [Module: how browsers work](modules/how-browsers-work/)
+- Modules:
+
+  - [Module: How Browsers Work - Rendering Flow](modules/how-browsers-work/)
+
+- Tests:
+
+  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
+
+- Tasks:
+
+  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
 ## Week #14.
