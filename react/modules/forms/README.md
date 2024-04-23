@@ -57,7 +57,7 @@ Students are encouraged to explore the following resources:
 6. **Form libraries like **React Hook Form** to simplify working with forms in React:**
 
    - [React Hook Form](https://www.react-hook-form.com/get-started/) - [60 minutes]
-   
+
 7. **Form validation in React:**
 
    - [article: How to perform form validation in React?](https://www.geeksforgeeks.org/how-to-perform-form-validation-in-react/) - [10 minutes]
