@@ -2,7 +2,15 @@
 
 Below is a description of the test task. Please read it carefully. The ability to follow the requirements is important to us.
 You should complete the task before proceeding to the recruiter's interview and subsequent technical interview.
-During the technical interview, the interviewer may discuss your solution.
+During the technical interview, the interviewer may discuss your solution.  
+To successfuly complete the task you ***MUST*** follow the requirements carefully. 
+
+### 🚧🚧🚧 Important notes 🚧🚧🚧
+* You ***MUST*** deployt your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.  
+* You ***MUST*** provide a link to the deployed solution in the README.md file. Interviewer will have his own running backend.
+* You ***MUST*** include a checklist in the README.md file. And estimate your score.  
+
+#### 🛑 IF YOU FAIL ANY OF THE POINTS ABOVE INTERVIEWER IS ENTITLED TO REJECT YOUR ASSIGMENT. 🛑
 
 ## Task "Async Race"
 
