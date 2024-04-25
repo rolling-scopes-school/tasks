@@ -5,12 +5,13 @@ You should complete the task before proceeding to the recruiter's interview and 
 During the technical interview, the interviewer may discuss your solution.  
 To successfuly complete the task you ***MUST*** follow the requirements carefully. 
 
-### 🚧🚧🚧 Important notes 🚧🚧🚧
-* You ***MUST*** deployt your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.  
-* You ***MUST*** provide a link to the deployed solution in the README.md file. Interviewer will have his own running backend.
+### 🚧🚧🚧 Important Notes 🚧🚧🚧
+* You ***MUST*** deploy your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.  
+* You ***MUST*** provide a link to the deployed solution (frontend only) in the README.md file. Interviewer will have its own running backend.
 * You ***MUST*** include a checklist in the README.md file. And estimate your score.  
+* The deadline for submitting your solution is 3 weeks after the task is assigned. If you have submitted, but the assignment has not yet been verified, you may continue development.
 
-#### 🛑 IF YOU FAIL ANY OF THE POINTS ABOVE INTERVIEWER IS ENTITLED TO REJECT YOUR ASSIGMENT. 🛑
+#### 🛑 IF YOU FAIL ANY OF THE ABOVE, THE INTERVIEWER IS ENTITLED TO REJECT YOUR ASSIGNMENT. 🛑
 
 ## Task "Async Race"
 
