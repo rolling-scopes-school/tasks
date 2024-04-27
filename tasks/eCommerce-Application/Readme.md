@@ -42,7 +42,7 @@ However, there are some constraints on the technology stack:
 
 ### [Sprint 1 - Project Setup and CommerceTools Integration](./Sprints/Sprint%231.md) 🚀🔧
 
-In the first sprint, the team will lay down the project's foundation. This includes setting up the repository, organizing the task board, integrating with CommerceTools to establish the API client, and configuring the development environment. Key technologies used in this sprint include TypeScript, ESLint, Prettier, Husky, and Jest (or Vitest) for testing.
+In the first sprint, the team will lay down the project's foundation. This includes setting up the repository, organizing the task board, integrating with CommerceTools to establish the API client, and configuring the development environment. Key technologies used in this sprint include TypeScript, ESLint, Prettier, Husky, and Jest or Vitest for testing.
 
 ### [Sprint 2 - Login, Registration, and Main Pages Implementation](./Sprints/Sprint%232.md) 🔐🖥️
 
