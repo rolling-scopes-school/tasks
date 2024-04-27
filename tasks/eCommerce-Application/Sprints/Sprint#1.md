@@ -1,6 +1,6 @@
 ## Sprint 1: Repository Setup, Project Management, CommerceTools Integration, and Development Environment Configuration (150 points) 😊
 
-In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest for testing. 😎 The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
+In the first sprint, the team will focus on setting up the project repository, establishing effective project management using a task board, integrating with CommerceTools to create the project and API client, and configuring the development environment with a bundler, TypeScript, ESLint, Prettier, Husky, and Jest (or Vitest) for testing. 😎 The mentor will evaluate the team's progress and assign points based on achieving specific goals and milestones.
 
 ### Working with the Repository 📁
 
@@ -36,7 +36,7 @@ In the first sprint, the team will focus on setting up the project repository, e
 - **(5 points)** Set up ESLint to enforce consistent coding styles and identify potential issues in the codebase. [RSS-ECOMM-1_10](./Sprint1/RSS-ECOMM-1_10.md) 📏
 - **(5 points)** Configure Prettier to automatically format code, ensuring a consistent and readable code style. [RSS-ECOMM-1_11](./Sprint1/RSS-ECOMM-1_11.md) ✨
 - **(8 points)** Initialize Husky to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process. [RSS-ECOMM-1_12](./Sprint1/RSS-ECOMM-1_12.md) 🐕
-- **(10 points)** Install and configure Jest as the testing framework for the project, enabling comprehensive testing of code functionality. [RSS-ECOMM-1_13](./Sprint1/RSS-ECOMM-1_13.md) 🧪
+- **(10 points)** Install and configure Jest (or Vitest) as the testing framework for the project, enabling comprehensive testing of code functionality. [RSS-ECOMM-1_13](./Sprint1/RSS-ECOMM-1_13.md) 🧪
 
 Note: In this sprint, we will also integrate a front-end framework (e.g., React, Angular, Vue) to facilitate efficient and organized development of the user interface, but it will not be part of the evaluation criteria for the sprint. 🌐
 
@@ -44,12 +44,12 @@ Note: In this sprint, we will also integrate a front-end framework (e.g., React,
 
 - **(5 points)** Create a script for running ESLint across the codebase, enabling quick and efficient identification of coding style issues and potential errors. [RSS-ECOMM-1_14](./Sprint1/RSS-ECOMM-1_14.md) 🐞
 - **(5 points)** Create a script for running Prettier across the codebase, simplifying code formatting and ensuring uniform code style. [RSS-ECOMM-1_15](./Sprint1/RSS-ECOMM-1_15.md) 🎨
-- **(5 points)** Create a script for running Jest tests, streamlining the process of executing tests and generating reports on test outcomes. [RSS-ECOMM-1_16](./Sprint1/RSS-ECOMM-1_16.md) 🧾
+- **(5 points)** Create a script for running Jest (or Vitest) tests, streamlining the process of executing tests and generating reports on test outcomes. [RSS-ECOMM-1_16](./Sprint1/RSS-ECOMM-1_16.md) 🧾
 
 ### 6. Comprehensive README (19 points) 📝
 
 - **(10 points)** Add a thorough README file in the repository, describing the project, its purpose, and the technology stack used. [RSS-ECOMM-1_17](./Sprint1/RSS-ECOMM-1_17.md) 📘
-- **(5 points)** Clearly document all available scripts (e.g., for running ESLint, Prettier, and Jest tests) and their usage in the README file. [RSS-ECOMM-1_19](./Sprint1/RSS-ECOMM-1_19.md) 📜
+- **(5 points)** Clearly document all available scripts (e.g., for running ESLint, Prettier, and Jest (or Vitest) tests) and their usage in the README file. [RSS-ECOMM-1_19](./Sprint1/RSS-ECOMM-1_19.md) 📜
 - **(4 points)** Provide detailed instructions for setting up and running the project locally, ensuring newcomers and contributors can quickly get started. [RSS-ECOMM-1_20](./Sprint1/RSS-ECOMM-1_20.md) 🚀
 
 #### Evaluation by the Mentor 🎓
@@ -73,6 +73,7 @@ To help the team understand the various tools and technologies used in this proj
 11. [Prettier - Getting started](https://prettier.io/docs/en/index.html) 🎨
 12. [Husky - Getting started](https://github.com/typicode/husky#readme) 🐕
 13. [Jest - Getting started](https://jestjs.io/docs/getting-started) 🧪
+14. [Vitest - Getting started](https://vitest.dev/guide/) 🧪
 
 ### Here is the final points distribution: 🎖️
 
