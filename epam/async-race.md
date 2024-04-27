@@ -3,13 +3,14 @@
 Below is a description of the test task. Please read it carefully. The ability to follow the requirements is important to us.
 You should complete the task before proceeding to the recruiter's interview and subsequent technical interview.
 During the technical interview, the interviewer may discuss your solution.  
-To successfuly complete the task you ***MUST*** follow the requirements carefully. 
+To successfuly complete the task you **_MUST_** follow the requirements carefully.
 
 ### 🚧🚧🚧 Important Notes 🚧🚧🚧
-* You ***MUST*** deploy your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.  
-* You ***MUST*** provide a link to the deployed solution (frontend only) in the README.md file. Interviewer will have its own running backend.
-* You ***MUST*** include a checklist in the README.md file. And estimate your score.  
-* The deadline for submitting your solution is 3 weeks after the task is assigned. If you have submitted, but the assignment has not yet been verified, you may continue development.
+
+- You **_MUST_** deploy your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
+- You **_MUST_** provide a link to the deployed solution (frontend only) in the README.md file. Interviewer will have its own running backend.
+- You **_MUST_** include a checklist in the README.md file. And estimate your score.
+- The deadline for submitting your solution is 3 weeks after the task is assigned. If you have submitted, but the assignment has not yet been verified, you may continue development.
 
 #### 🛑 IF YOU FAIL ANY OF THE ABOVE, THE INTERVIEWER IS ENTITLED TO REJECT YOUR ASSIGNMENT. 🛑
 
