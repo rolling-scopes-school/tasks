@@ -122,6 +122,7 @@ You have complete freedom to implement any visual design for the application. Yo
 - The application must be deployed on `gh-pages` or a similar service.
 - Evaluation is performed only on a locally running server application.
 - Assessment is based on [functional requirements](#functional-requirements-250).
+- Check in the latest version of Google Chrome.
 
 ## Mentor Review:
 
