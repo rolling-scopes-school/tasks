@@ -32,20 +32,21 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 1. User Authentication Page (+30)
 
-- (+10) The authentication form validates the entered data based on at least two different criteria. Such as, for example, case sensitivity and the use of special characters. The selection of validation criteria and their display options is at the student's discretion and must be evaluated solely based on the quantity and functionality.
+- (+5) The login field is checked by a validator. The validator must be different from the password applied in the field. The selection of validation criteria and their display options is at the student's discretion.
+- (+5) The password field is checked by a validator. The validator must be different from the one used in the login field. The selection of validation criteria and their display options is at the student's discretion.
 - (+5) The user is unable to submit an authentication request with data that has not passed validation.
-- (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed.
+- (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed. The message does not have to be a complete copy of the server's response.
 - (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
 - (+5) Access is granted only to not authenticated users.
 
-#### 2. Main Page (+10)
+#### 2. Main Page (+5)
 
-- (+10) Access is granted only to authenticated users.
+- (+5) Access is granted only to authenticated users.
 
-#### 3. Header (on the main page) (+10)
+#### 3. Header (on the main page) (+15)
 
-- (+3) Displays the current authenticated user's name.
-- (+2) Displays the app's name.
+- (+5) Displays the current authenticated user's name.
+- (+5) Displays the app's name.
 - (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
 
 #### 4. Footer (on the main page) (+5)
@@ -67,9 +68,9 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+5) In the absence of message history, a message in the message history field indicates that this is the beginning of the dialogue.
 - (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
 - (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
-- (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message.
-- (+5) When new unread messages appear (before meeting the conditions to remove the dividing line), the line must always stay within the dialogue area and not hide in the scroll area.
+- (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message. When new unread messages appear (before meeting the conditions to remove the dividing line), the line must always stay within the dialogue area and not hide in the scroll area.
 - (+5) The dividing line between read and unread messages can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
+- (+5) After meeting the conditions to remove the dividing line new messages are immediately given a read status. The same thing happens when a dialog is just started.
 - (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
 - (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
 - (+10) The user can delete their own previously sent messages.
@@ -132,6 +133,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 ## Penalties Cross-Check
 
+- (-50%) Using alerts to show application messages or using alerts to replace application pages.
 - (-15) For recurring application errors, a deduction is allowed only once for each distinct type of error.
 - (-5) For layout issues where the elements overlap or cover each other, a deduction is allowed only once for each distinct type of issue.
 
@@ -156,9 +158,13 @@ _Question_ - Is the appearance of the application evaluated?
 
 _Answer_ - Only the criteria specified in the [interface section](#10-interface-and-visual-design-15) are assessed; students are free to choose every other aspect of the design themselves.
 
+_Question_ - Is a validator that checks for an empty string on authorization allowed?
+
+_Answer_ - No, it's not allowed. Your validation form must not submit blank fields and must additionally check any other criteria.
+
 _Question_ - How should the task be assessed if the information in a particular element is not updated according to the actions of other users or the server?
 
-_Answer_ - Elements containing current information must be promptly updated. Simply having such elements does not mean meeting the requirement. For example, user activity must always reflect their relevant current status.
+_Answer_ - Elements containing current information must be promptly updated. Simply having such elements does not mean meeting the requirement. For example, user activity must always reflect their relevant current status. If component updates only occur after a page refresh, then the requirements clause is not met.
 
 _Question_ - How should message statuses ("delivered"/"read") change when we have a large number of messages?
 
@@ -170,7 +176,7 @@ _Answer_ - It is not considered a layout issue if only the first 10 characters o
 
 _Question_ - If a user sends a very long message, how can the requirements of the interface points be met?
 
-_Answer_ - The complete message must be displayed in the dialogue.
+_Answer_ - The complete message must be displayed in the dialogue. If a new message is too long you should be able to see the beginning of the message and all the text that fits in the dialog area.
 
 _Question_ - What pages are available to a non-authorized user?
 
@@ -195,7 +201,3 @@ _Answer_ - A message that contains nothing, not a single character. The length o
 _Question_ - Is it acceptable to replace the username in your posts with "you"?
 
 _Answer_ - Yes.
-
-_Question_ - What should be shown if a new message is too long?
-
-_Answer_ - You should be able to see the beginning of the message and all the text that fits in the dialog area.
