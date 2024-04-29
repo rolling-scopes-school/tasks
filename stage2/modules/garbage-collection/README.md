@@ -31,6 +31,7 @@ Students are encouraged to explore the following resources:
    - [Reference Counting in JavaScript](https://v8.dev/blog/trash-talk)
 
 3. **Detecting and Preventing Memory Leaks:**
+
    - [Tools and Techniques to Detect Memory Leaks in JavaScript](https://www.dynatrace.com/news/blog/understanding-garbage-collection-and-hunting-memory-leaks-in-node-js/)
 
 ## Additional Resources 📘
