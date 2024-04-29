@@ -1,4 +1,4 @@
-# How Browsers Work: Rendering Flow 🌐
+# [Stage#2.](../../) How Browsers Work: Rendering Flow 🌐
 
 ## Module Overview 📚
 
