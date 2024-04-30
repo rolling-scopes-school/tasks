@@ -37,11 +37,11 @@ You have complete freedom to implement any visual design for the application. Yo
 - (+5) The user is unable to submit an authentication request with data that has not passed validation.
 - (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed. The message does not have to be a complete copy of the server's response.
 - (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
-- (+5) Access is granted only to not authenticated users.
+- (+5) Access is granted only to not authenticated users. Only considered if the page is implemented.
 
 #### 2. Main Page (+5)
 
-- (+5) Access is granted only to authenticated users.
+- (+5) Access is granted only to authenticated users. Only considered if the page is implemented.
 
 #### 3. Header (on the main page) (+15)
 
@@ -90,7 +90,7 @@ You have complete freedom to implement any visual design for the application. Yo
 #### 9. About Page (+10)
 
 - (+5) Contains brief information about the application and its author. The content is at the student's discretion.
-- (+5) Access is granted to all users.
+- (+5) Access is granted to all users. Only considered if the page is implemented.
 
 #### 10. Interface and Visual Design (+15)
 
@@ -181,6 +181,10 @@ _Answer_ - The complete message must be displayed in the dialogue. If a new mess
 _Question_ - What pages are available to a non-authorized user?
 
 _Answer_ - They have access to the Authentication and About pages.
+
+_Question_ - How to check page access points if no routing is implemented?
+
+_Answer_ - You perform any action to go to a banned page. If you fail to do so, the requirements have been met. It is not allowed to modify the markup or inject your own scripts for transition attempts.
 
 _Question_ - Is it necessary to clear the message entry field when selecting a dialog with another user?
 
