@@ -23,16 +23,16 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding client and server rendering:**
-    - [SSR vs CSR](https://wpwebinfotech.com/blog/server-side-rendering-vs-client-side-rendering/) - 1 hour
-    - [SSR vs SSG](https://www.sanity.io/ssr-vs-ssg-guide) - 30 minutes
-    - [The two reacts](https://overreacted.io/the-two-reacts/) - 30 minutes
+   - [SSR vs CSR](https://wpwebinfotech.com/blog/server-side-rendering-vs-client-side-rendering/) - 1 hour
+   - [SSR vs SSG](https://www.sanity.io/ssr-vs-ssg-guide) - 30 minutes
+   - [The two reacts](https://overreacted.io/the-two-reacts/) - 30 minutes
 2. **React Server Components:**
-    - [RSC from scratch](https://github.com/reactwg/server-components/discussions/5) - 2 hours
-    - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
-    - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
+   - [RSC from scratch](https://github.com/reactwg/server-components/discussions/5) - 2 hours
+   - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
+   - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
 3. **Next.js:**
-    - [Migration from Vite to Next.js](https://nextjs.org/docs/app/building-your-application/upgrading/from-vite) - 2 hours
-    - [Next.js quick start](https://nextjs.org/docs/getting-started/installation) - 4 hours
+   - [Migration from Vite to Next.js](https://nextjs.org/docs/app/building-your-application/upgrading/from-vite) - 2 hours
+   - [Next.js quick start](https://nextjs.org/docs/getting-started/installation) - 4 hours
 
 ## Additional Resources 📘
 
