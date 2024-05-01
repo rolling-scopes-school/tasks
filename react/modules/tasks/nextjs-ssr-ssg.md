@@ -4,15 +4,15 @@
 
 1. Create a separate branch for this task from the previous branch task. Branch name: "nextjs-ssr-pages-api".
 2. Next.js Pages API Integration:
-    - Migrate your application from vite to next.js by using Pages folder API. You'll need to adapt existing libraries to work with next.js.
-2. Next.js App Router API Integration:
-    - Create a separate branch for this point from "nextjs-ssr-pages-api" branch. Branch name: "nextjs-ssr-app-router-api".
-    - Migrate from Pages Api to App Folder Api.
-3. Remix Integration:
-    -  Create a separate branch for this point from the previous branch task. Branch name: "remix-ssr".
-    - Add Remix framework to your vite config
-    - Migrate your application to ssr with Remix
-4. Tests: TBD
+   - Migrate your application from vite to next.js by using Pages folder API. You'll need to adapt existing libraries to work with next.js.
+3. Next.js App Router API Integration:
+   - Create a separate branch for this point from "nextjs-ssr-pages-api" branch. Branch name: "nextjs-ssr-app-router-api".
+   - Migrate from Pages Api to App Folder Api.
+4. Remix Integration:
+   - Create a separate branch for this point from the previous branch task. Branch name: "remix-ssr".
+   - Add Remix framework to your vite config
+   - Migrate your application to ssr with Remix
+5. Tests: TBD
 
 ## Application Requirements
 
@@ -27,7 +27,6 @@ A student can achieve a maximum of 150 points.
 - Next.js Pages API is used in "nextjs-ssr-pages-api" branch. Pages render on the server - **50**
 - Next.js App Router API is used in "nextjs-ssr-app-router-api" branch. Pages render on the server with RSC - **50**
 - Remix is used in "remix-ssr" branch. Pages render on the server - **50**
-
 
 ### Penalties
 
