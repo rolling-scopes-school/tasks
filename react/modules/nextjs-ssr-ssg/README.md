@@ -29,7 +29,6 @@ Students are encouraged to study the following resources:
 2. **React Server Components:**
    - [RSC from scratch](https://github.com/reactwg/server-components/discussions/5) - 2 hours
    - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
-   - [Sense of RSC](https://www.joshwcomeau.com/react/server-components/) - 2 hours
 3. **Next.js:**
    - [Migration from Vite to Next.js](https://nextjs.org/docs/app/building-your-application/upgrading/from-vite) - 2 hours
    - [Next.js quick start](https://nextjs.org/docs/getting-started/installation) - 4 hours
