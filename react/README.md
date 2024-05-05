@@ -67,6 +67,14 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 ### Week #6 (30th of July, 2024)
 
+#### Theory
+
+- [Forms in React](modules/forms/)
+
+#### Practical tasks
+
+[Task 5](modules/tasks/forms.md)
+
 ### Week #7 (4th of December, 2023)
 
 - [Technical React Interview](interview.md)
