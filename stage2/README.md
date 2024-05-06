@@ -395,15 +395,21 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 14/05/2024
 
-- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Modules:
+
+  - [Module: JavaScript Garbage Collection](modules/garbage-collection/)
+
+- Tasks:
+
+  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Week #15.
