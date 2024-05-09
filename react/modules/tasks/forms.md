@@ -25,7 +25,7 @@
 1. Routing. There will be 3 routes:
    - Main, should have links to other 2 routes
    - Route for the form created using uncontrolled components approach
-   - Route for the similar form, but created with the help of the **React Hook Form**
+   - Route for the similar form, but created using **React Hook Form**
 2. Redux. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
 3. Forms
    Both forms will collect the same data:
@@ -34,12 +34,12 @@
    - email (validate for email)
    - 2 passwords (should match, display the password strength: 1 number, 1 uppercased letter, 1 lowercased letter, 1 special character)
    - gender (you can use radio buttons or select control)
-   - accept T&C (checkbox)
+   - accept Terms and Conditions agreement (T&C, can be a checkbox)
    - input control to upload picture (validate size and extension, allow png jpeg, save in redux store as base64)
    - autocomplete control to select country (all countries should be stored in the Redux store)
      Form should contain labels, which should be connected with inputs (look at **htmlFor**)
 4. Validation
-   Implement validation according to the inputs description from p. 8. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+   Implement validation according to the inputs description from p. 3. Use **Yup** for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
    - Uncontrolled components should implement validation on submit
    - Approach with **React Hook Form** should implement live validation
 5. After submitting the form
@@ -59,11 +59,11 @@
 
 ### Penalties
 
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - TypeScript isn't used: **-95 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Validation is implemented without **Yup** - **-25 points**
 - Commits after the deadline: **-40 points**
-- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
