@@ -37,11 +37,11 @@ You have complete freedom to implement any visual design for the application. Yo
 3. (+5) The user is unable to submit an authentication request with data that has not passed validation.
 4. (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed. The message does not have to be a complete copy of the server's response.
 5. (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
-6. (+5) Access is granted only to not authenticated users. Only considered if the page is implemented.
+6. (+5) Only not authenticated users have access to this page. If the user is authorized and tries to proceed to the Authentication page, they must be redirected to the Main page automatically.
 
 #### 2. Main Page (+5)
 
-1. (+5) Access is granted only to authenticated users. Only considered if the page is implemented.
+1. (+5) Only authenticated users have access to this page. If the user is unauthorized and tries to proceed to the Main page, they must be redirected to the Authentication page automatically.
 
 #### 3. Header (on the main page) (+15)
 
@@ -68,9 +68,9 @@ You have complete freedom to implement any visual design for the application. Yo
 4. (+5) In the absence of message history, a message in the message history field indicates that this is the beginning of the dialogue.
 5. (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
 6. (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
-7. (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message. When receiving new unread messages appear (before meeting the conditions to remove the dividing line), the line must always stay within the dialogue area and not hide in the scroll area.
-8. (+5) The dividing line between read and unread messages can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
-9. (+5) After meeting the conditions to remove the dividing line new messages are immediately given a read status. The same thing happens when a dialog is just started.
+7. (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message. When receiving new unread messages in an open dialogue, the line must always stay within the dialogue area and not hide in the scroll area until the conditions to remove it are met.
+8. (+5) The dividing line between read and unread messages in an open dialogue can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
+9. (+5) After meeting the conditions to remove the dividing line, new messages are immediately given a "read" status. This must be implemented for both old dialogues that already have a history and new dialogues that have just been started for the first time.
 10. (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
 11. (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
 12. (+10) The user can delete their own previously sent messages.
@@ -90,7 +90,7 @@ You have complete freedom to implement any visual design for the application. Yo
 #### 9. About Page (+10)
 
 1. (+5) Contains brief information about the application and its author. The content is at the student's discretion.
-2. (+5) Access is granted to all users. Only considered if the page is implemented.
+2. (+5) Access is granted to both authenticated and unauthorized users.
 
 #### 10. Interface and Visual Design (+15)
 
@@ -184,7 +184,7 @@ _Answer_ - They have access to the Authentication and About pages.
 
 _Question_ - How to check page access points if no routing is implemented?
 
-_Answer_ - You perform any action to go to a banned page. If you fail to do so, the requirements have been met. It is not allowed to modify the markup or inject your own scripts for transition attempts.
+_Answer_ - You perform any action to go to a page where the user is supposed to be not allowed to proceed according to the requirements. If you fail to do so, the requirements have been met. It is not allowed to modify the markup or inject your own scripts for transition attempts.
 
 _Question_ - Is it necessary to clear the message entry field when selecting a dialog with another user?
 
