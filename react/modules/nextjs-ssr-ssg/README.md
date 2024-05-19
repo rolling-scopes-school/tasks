@@ -4,7 +4,7 @@
 
 This module introduces students to Server Side Rendering and Static Site Generation with Next.js framework. It aims to provide an in-depth understanding of server rendering and difference between client and server computations. The module covers a range of topics from understating the principles of server rendering to implementing it with Next.js, and React Server Components.
 
-In addition, this module covers the Remix framework, as an analogue of Next.js.
+In addition, this module covers the Remix framework, as an alternative approach of enabling SSG and SSR for React-based applications.
 
 ## Learning Objectives 🎯
 
