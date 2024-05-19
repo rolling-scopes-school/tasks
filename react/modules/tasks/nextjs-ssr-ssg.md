@@ -14,8 +14,8 @@
 4. Remix Integration:
    - Create a separate branch for this point from the previous branch task. Branch name: "remix-ssr".
    - Add the Remix framework to your vite config
+   - [Update routing](https://remix.run/docs/en/main/file-conventions/routes)
    - Migrate your application to ssr with Remix
-   - [Update routing](https://remix.run/docs/en/main/file-conventions/routes2)
 
 ## Application Requirements
 
