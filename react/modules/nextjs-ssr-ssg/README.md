@@ -37,4 +37,5 @@ Students are encouraged to study the following resources:
 
 Expand your knowledge with these additional materials:
 
-1. [Remix quick start](https://remix.run/docs/en/main/start/quickstart)
+1. [Remix quick start](https://remix.run/docs/en/main/discussion/introduction)
+2. [Future of Remix](https://remix.run/blog/merging-remix-and-react-router)
