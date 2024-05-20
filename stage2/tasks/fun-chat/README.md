@@ -32,89 +32,90 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 1. User Authentication Page (+30)
 
-- (+10) The authentication form validates the entered data based on at least two different criteria. Such as, for example, case sensitivity and the use of special characters. The selection of validation criteria and their display options is at the student's discretion and must be evaluated solely based on the quantity and functionality.
-- (+5) The user is unable to submit an authentication request with data that has not passed validation.
-- (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed.
-- (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
-- (+5) Access is granted only to not authenticated users.
+1. (+5) The login field is checked by a validator. The validator must be different from the password applied in the field. The selection of validation criteria and their display options is at the student's discretion.
+2. (+5) The password field is checked by a validator. The validator must be different from the one used in the login field. The selection of validation criteria and their display options is at the student's discretion.
+3. (+5) The user is unable to submit an authentication request with data that has not passed validation.
+4. (+5) In case of an authentication error (based on the server response), a message indicating the corresponding error sent by the server must be displayed. The message does not have to be a complete copy of the server's response.
+5. (+5) User authentication is possible both by clicking the button with the mouse or by pressing the "Enter" key without the need to focus on the button.
+6. (+5) Only not authenticated users have access to this page. If the user is authorized and tries to proceed to the Authentication page, they must be redirected to the Main page automatically.
 
-#### 2. Main Page (+10)
+#### 2. Main Page (+5)
 
-- (+10) Access is granted only to authenticated users.
+1. (+5) Only authenticated users have access to this page. If the user is unauthorized and tries to proceed to the Main page, they must be redirected to the Authentication page automatically.
 
-#### 3. Header (on the main page) (+10)
+#### 3. Header (on the main page) (+15)
 
-- (+3) Displays the current authenticated user's name.
-- (+2) Displays the app's name.
-- (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
+1. (+5) Displays the current authenticated user's name.
+2. (+5) Displays the app's name.
+3. (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
 
 #### 4. Footer (on the main page) (+5)
 
-- (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of the app creation.
+1. (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of the app creation.
 
 #### 5. User List (on the main page) (+30)
 
-- (+10) Displays all registered users and an indicator of each user's online status.
-- (+5) The currently authenticated user is not in the list.
-- (+5) Implements user search by name. The search will be case sensitive or case-insensitive at the student's discretion.
-- (+10) Displays information about the number of unread messages from each user.
+1. (+10) Displays all registered users and an indicator of each user's online status.
+2. (+5) The currently authenticated user is not in the list.
+3. (+5) Implements user search by name. The search will be case sensitive or case-insensitive at the student's discretion.
+4. (+10) Displays information about the number of unread messages from each user.
 
 #### 6. User Dialogue (on the main page) (+75)
 
-- (+5) Provides information about the user with whom the dialogue is open, as well as indicating whether that user is online.
-- (+5) Provides a complete message history with the selected user, including messages from both the current user and the user with whom the dialogue is currently open.
-- (+5) Arranges messages chronologically based on the time of sending. The latest message is displayed near the message input and send component.
-- (+5) In the absence of message history, a message in the message history field indicates that this is the beginning of the dialogue.
-- (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
-- (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
-- (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message.
-- (+5) When new unread messages appear (before meeting the conditions to remove the dividing line), the line must always stay within the dialogue area and not hide in the scroll area.
-- (+5) The dividing line between read and unread messages can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
-- (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
-- (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
-- (+10) The user can delete their own previously sent messages.
-- (+10) The user can edit the text of their own previously sent messages.
+1. (+5) Provides information about the user with whom the dialogue is open, as well as indicating whether that user is online.
+2. (+5) Provides a complete message history with the selected user, including messages from both the current user and the user with whom the dialogue is currently open.
+3. (+5) Arranges messages chronologically based on the time of sending. The latest message is displayed near the message input and send component.
+4. (+5) In the absence of message history, a message in the message history field indicates that this is the beginning of the dialogue.
+5. (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
+6. (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
+7. (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message. When receiving new unread messages in an open dialogue, the line must always stay within the dialogue area and not hide in the scroll area until the conditions to remove it are met.
+8. (+5) The dividing line between read and unread messages in an open dialogue can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
+9. (+5) After meeting the conditions to remove the dividing line, new messages are immediately given a "read" status. This must be implemented for both old dialogues that already have a history and new dialogues that have just been started for the first time.
+10. (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
+11. (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
+12. (+10) The user can delete their own previously sent messages.
+13. (+10) The user can edit the text of their own previously sent messages.
 
 #### 7. Message Content (on the main page) (+25)
 
-- (+15) Messages include the time of sending, sender's username, message delivery status, message text, and indication of whether the message has been edited.
-- (+5) The message "delivered"/"read" status is visible only to the sender of the message.
-- (+5) A user cannot send a message without any content (without text).
+1. (+15) Messages include the time of sending, sender's username, message delivery status, message text, and indication of whether the message has been edited.
+2. (+5) The message "delivered"/"read" status is visible only to the sender of the message.
+3. (+5) A user cannot send a message without any content (without text).
 
 #### 8. Message Delivery and Read Status (on the main page) (+20)
 
-- (+10) The status changes to "delivered" when the message recipient logs into the application or if the message is sent to the user who is online.
-- (+10) The status changes to "read" when the message recipient opens a dialogue with unread messages and performs any of the following actions: scrolls in the message history area, sends a new message, or clicks inside the message history area.
+1. (+10) The status changes to "delivered" when the message recipient logs into the application or if the message is sent to the user who is online.
+2. (+10) The status changes to "read" when the message recipient opens a dialogue with unread messages and performs any of the following actions: scrolls in the message history area, sends a new message, or clicks inside the message history area.
 
 #### 9. About Page (+10)
 
-- (+5) Contains brief information about the application and its author. The content is at the student's discretion.
-- (+5) Access is granted to all users.
+1. (+5) Contains brief information about the application and its author. The content is at the student's discretion.
+2. (+5) Access is granted to both authenticated and unauthorized users.
 
 #### 10. Interface and Visual Design (+15)
 
-- (+5) The browser tab must display the application icon.
-- (+5) The interface elements with which the user will interact must be responsive and the cursor must change when they are hovered over.
-- (+5) Responsive layout must be implemented for resolutions ranging from 1440 px to 380 px, inclusive.
+1. (+5) The browser tab must display the application icon.
+2. (+5) The interface elements with which the user will interact must be responsive and the cursor must change when they are hovered over.
+3. (+5) Responsive layout must be implemented for resolutions ranging from 1440 px to 380 px, inclusive.
 
 #### 11. Server Connection (on all pages) (+20)
 
-- (+10) If a sudden disconnection from the server occurs, a message must be displayed to the user, and an attempt to restore the connection must be made.
-- (+10) Upon reconnecting to the server, the application must perform the current user reauthorization without requiring user intervention.
+1. (+10) If a sudden disconnection from the server occurs, a message must be displayed to the user, and an attempt to restore the connection must be made.
+2. (+10) Upon reconnecting to the server, the application must perform the current user reauthorization without requiring user intervention.
 
 ## Technical Requirements (+160)
 
-- (+20) The application is divided into logical modules/layers, such as, for example, API interaction, user interface rendering, application state management, etc.
-- (+20) All HTML content is generated using JavaScript. `Body` must be empty. Either `head` or `body` can contain the only `<script> tag` (`body` containing only the `<script> tag` is considered to be empty).
-- (+20) The application is a Single Page Application (SPA) with implemented routing.
-- (+20) Input/output parameters of all methods are explicitly typed, and the `any` type is not used.
-- (+20) ESLint with the Airbnb style guide is used, with the `noInlineConfig: true` rule enabled in the configuration.
-- (+10) Prettier is used to automatically format code, ensuring a consistent and readable code style.
-- (+10) Husky is used to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process.
-- (+10) Webpack or another module bundler is used.
-- (+10) Code is organized into small functions with clear names and purposes, with each function not exceeding 40 lines.
-- (+10) There is no code duplication.
-- (+10) The code does not contain magic numbers or strings.
+1. (+20) The application is divided into logical modules/layers, such as, for example, API interaction, user interface rendering, application state management, etc.
+2. (+20) All HTML content is generated using JavaScript. `Body` must be empty. Either `head` or `body` can contain the only `<script> tag` (`body` containing only the `<script> tag` is considered to be empty).
+3. (+20) The application is a Single Page Application (SPA) with implemented routing.
+4. (+20) Input/output parameters of all methods are explicitly typed, and the `any` type is not used.
+5. (+20) ESLint with the Airbnb style guide is used, with the `noInlineConfig: true` rule enabled in the configuration.
+6. (+10) Prettier is used to automatically format code, ensuring a consistent and readable code style.
+7. (+10) Husky is used to manage Git hooks, automating tasks such as code formatting and linting checks during the commit process.
+8. (+10) Webpack or another module bundler is used.
+9. (+10) Code is organized into small functions with clear names and purposes, with each function not exceeding 40 lines.
+10. (+10) There is no code duplication.
+11. (+10) The code does not contain magic numbers or strings.
 
 ## Cross-Check:
 
@@ -132,6 +133,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 ## Penalties Cross-Check
 
+- (-50%) Using alerts to show application messages or using alerts to replace application pages.
 - (-15) For recurring application errors, a deduction is allowed only once for each distinct type of error.
 - (-5) For layout issues where the elements overlap or cover each other, a deduction is allowed only once for each distinct type of issue.
 
@@ -156,9 +158,13 @@ _Question_ - Is the appearance of the application evaluated?
 
 _Answer_ - Only the criteria specified in the [interface section](#10-interface-and-visual-design-15) are assessed; students are free to choose every other aspect of the design themselves.
 
+_Question_ - Is a validator that checks for an empty string on authorization allowed?
+
+_Answer_ - No, it's not allowed. Your validation form must not submit blank fields and must additionally check any other criteria.
+
 _Question_ - How should the task be assessed if the information in a particular element is not updated according to the actions of other users or the server?
 
-_Answer_ - Elements containing current information must be promptly updated. Simply having such elements does not mean meeting the requirement. For example, user activity must always reflect their relevant current status.
+_Answer_ - Elements containing current information must be promptly updated. Simply having such elements does not mean meeting the requirement. For example, user activity must always reflect their relevant current status. If component updates only occur after a page refresh, then the requirements clause is not met.
 
 _Question_ - How should message statuses ("delivered"/"read") change when we have a large number of messages?
 
@@ -170,11 +176,15 @@ _Answer_ - It is not considered a layout issue if only the first 10 characters o
 
 _Question_ - If a user sends a very long message, how can the requirements of the interface points be met?
 
-_Answer_ - The complete message must be displayed in the dialogue.
+_Answer_ - The complete message must be displayed in the dialogue. If a new message is too long you should be able to see the beginning of the message and all the text that fits in the dialog area.
 
 _Question_ - What pages are available to a non-authorized user?
 
 _Answer_ - They have access to the Authentication and About pages.
+
+_Question_ - How to check page access points if no routing is implemented?
+
+_Answer_ - You perform any action to go to a page where the user is supposed to be not allowed to proceed according to the requirements. If you fail to do so, the requirements have been met. It is not allowed to modify the markup or inject your own scripts for transition attempts.
 
 _Question_ - Is it necessary to clear the message entry field when selecting a dialog with another user?
 
@@ -195,7 +205,3 @@ _Answer_ - A message that contains nothing, not a single character. The length o
 _Question_ - Is it acceptable to replace the username in your posts with "you"?
 
 _Answer_ - Yes.
-
-_Question_ - What should be shown if a new message is too long?
-
-_Answer_ - You should be able to see the beginning of the message and all the text that fits in the dialog area.
