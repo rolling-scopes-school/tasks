@@ -7,6 +7,7 @@ The course lasts 11 weeks, requiring approximately 20-40 hours of study per week
 All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool). Theoretical materials are provided as recorded lectures from previous courses.
 
 ### Topics Covered:
+
 - TypeScript
 - Components
 - Directives & Pipes
@@ -19,7 +20,9 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/r
 - Unit Testing
 
 ### Prerequisites:
+
 Before starting the course, you should have knowledge of:
+
 - JavaScript, TypeScript Basics, CSS3, HTML5, NPM
 - Git & GitHub (clone, add, commit, push, pull, merge, rebase, work with Pull Requests)
 - Chrome DevTools
@@ -27,12 +30,15 @@ Before starting the course, you should have knowledge of:
 - REST API concepts
 
 ### Certification:
+
 To earn a course certificate, you must complete all assignments, finish the final project, and achieve at least 70% of the top student's score in the course. The certificate is a recognition of your hard work and dedication.
 
 ### For Mentors:
+
 - [Mentoring Documentation for Angular Course](./mentoring/README.md)
 
 ### Communication:
+
 **Where can I ask questions and communicate with others?**
 You can ask questions and interact with others in our course Discord channel: [Discord](https://discord.gg/PBYW4ZvKSE)
 
@@ -95,4 +101,3 @@ You can ask questions and interact with others in our course Discord channel: [D
 ### Week #11
 
 - [Interview](modules/interview/README.md)
-

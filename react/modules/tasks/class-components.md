@@ -10,6 +10,7 @@
 4. Code Quality Tools
    1. ESLint
       - Set up ESLint to throw errors if TypeScript's _any_ type is used.
+      - Set up [eslint-plugin-react-compiler](https://www.npmjs.com/package/eslint-plugin-react-compiler) to throw errors if React rules are violated.
    2. Prettier
       - Integrate Prettier for code formatting.
    3. Husky
@@ -49,6 +50,7 @@ All logical parts should be set into separate components.
 ### Penalties
 
 - TypeScript isn't used: **-95 points**
+- eslint-plugin-react-compiler isn't used or isn't configured to throw errors: **-50 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
