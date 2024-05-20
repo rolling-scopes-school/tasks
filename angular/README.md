@@ -1,23 +1,42 @@
 # RS School. Angular course
 
-- All students who have fully completed at least one of the previous stages (Stage#0, Stage#1, stage#2) and are therefore familiar with the school's processes may enroll in the course
-- Topics:
-  - TypeScript
-  - Components
-  - Directives & Pipes
-  - Modules & Services, Dependency injection
-  - Routing
-  - RxJS & Observables
-  - HTTP
-  - Forms
-  - Redux & NgRx
-  - Unit test
-- Course duration: 9 weeks. You will need approximately around 20-40 hours per week.
-- Format: All webinars are recorded, and can be found on our channel - [YouTube](https://youtube.com/c/rollingscopesschool).
-  All theoretical materials are provided in the form of recorded lectures from previous courses.
-  Online lectures will be in the format of practical lessons.
+This course is designed for individuals with a solid foundation in JavaScript, TypeScript, and front-end development. Familiarity with RS School processes and RS Stage #2 certification is a plus.
 
-## Course roadmap
+The course lasts 11 weeks, requiring approximately 20-40 hours of study per week.
+
+All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool). Theoretical materials are provided as recorded lectures from previous courses.
+
+### Topics Covered:
+- TypeScript
+- Components
+- Directives & Pipes
+- Modules & Services, Dependency Injection
+- Routing
+- RxJS & Observables
+- HTTP
+- Forms
+- Redux & NgRx
+- Unit Testing
+
+### Prerequisites:
+Before starting the course, you should have knowledge of:
+- JavaScript, TypeScript Basics, CSS3, HTML5, NPM
+- Git & GitHub (clone, add, commit, push, pull, merge, rebase, work with Pull Requests)
+- Chrome DevTools
+- Figma
+- REST API concepts
+
+### Certification:
+To earn a course certificate, you must complete all assignments, finish the final project, and achieve at least 70% of the top student's score in the course. The certificate is a recognition of your hard work and dedication.
+
+### For Mentors:
+- [Mentoring Documentation for Angular Course](./mentoring/README.md)
+
+### Communication:
+**Where can I ask questions and communicate with others?**
+You can ask questions and interact with others in our course Discord channel: [Discord](https://discord.gg/PBYW4ZvKSE)
+
+# Course roadmap
 
 ### Week #1 (October 16 2023)
 
@@ -77,20 +96,3 @@
 
 - [Interview](modules/interview/README.md)
 
-# Additional information
-
-## Certificate
-
-In order to earn a course certificate, you need to complete all assignments, complete the final task, and get 70% of the TOP 1 score of the course student.
-
-Course certificate is a pleasant addition and reward for your hard work.
-
-## For mentors
-
-- [Mentoring Documentation for Angular Course](./mentoring/README.md)
-
-## FAQ
-
-### Where to ask questions and communicate with others?
-
-You may ask questions in our course Discord channel - https://discord.gg/PBYW4ZvKSE
