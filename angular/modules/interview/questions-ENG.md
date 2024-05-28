@@ -18,6 +18,7 @@
 7. What is the difference between ElementRef and Renderer2?
 8. How do HostBinding and HostListener decorators work?
 9. What is the change detection mechanism in Angular, and how do the Default and OnPush strategies differ? When is it better to use each one?
+10. How do you handle dynamic components?
 
 ## Directives:
 
@@ -40,6 +41,7 @@
 5. How do you pass parameters to a `Pipe` to change behavior or format data?
 6. What are the advantages of using `Async pipes`. How do you apply them with Observable or Promise?
 7. How does the process of registering a custom pipe in a module occur?
+8. How do you handle complex transformations in pipes?
 
 ## Routing:
 
@@ -50,6 +52,7 @@
 5. What are the preloading strategies, and how do you use them?
 6. How do you use **Route Guards** (e.g., **CanActivate** and **CanDeactivate**) to protect routes?
 7. What is **ActivatedRoute**, and how do you apply it to get information about the current route?
+8. How do you handle lazy loading in routing?
 
 ## RxJS:
 
@@ -62,6 +65,7 @@
 7. How would you explain the concepts of **_Hot_** and **_Cold_** Observables?
 8. How do you properly unsubscribe from an Observable?
 9. What are the different approaches to state management in Angular? What are the benefits of using service-based methods versus NgRx or other state management libraries?
+10. How do you handle error handling and retry logic with RxJS?
 
 ## Dependency Injection:
 
@@ -73,6 +77,9 @@
 6. What is a DI token, and how do you use it for dependency injection?
 7. How do you use **@Optional**, **@Self**, and **@SkipSelf** decorators to control dependency injection and their handling?
 8. How do you inject dependencies based on conditions or by different provided implementations?
+9. What is a multi-provider and how do you configure it?
+10. How do you implement dependency injection for standalone components?
+11. How can you reuse standalone components across different parts of your Angular application?
 
 ## Forms:
 
@@ -84,6 +91,7 @@
 6. What is two-way data binding in the context of Template-driven Forms?
 7. How do you use FormBuilder to create reactive forms using convenient and shorter syntax notation?
 8. How do you track the change state of forms or form controls (e.g., _touched_, _dirty_)?
+9. How do you handle asynchronous validation?
 
 ## Lazy Loading:
 
@@ -94,6 +102,7 @@
 5. What is Preload strategy, and what are the main strategies used for preloading modules (**NoPreloading** or **PreloadAllModules**)?
 6. How do you use PreloadingStrategy with Angular Router to organize preloading of data?
 7. What are the disadvantages of lazy loading?
+8. How do you debug lazy loading issues?
 
 ## Modules:
 
@@ -109,7 +118,8 @@
 4. How can you handle errors during HTTP requests in Angular?
 5. What are some techniques to optimize HTTP requests and handle caching considerations for Angular applications?
 6. What is the purpose of **HttpInterceptor** in Angular, and how does it work?
-7. n which scenarios would you consider using an interceptor for error handling in an Angular application?
+7. In which scenarios would you consider using an interceptor for error handling in an Angular application?
+8. How do you handle authentication and authorization with HTTP interceptors?
 
 ## Tests (Testing):
 
@@ -121,6 +131,7 @@
 6. How do you mock (mock) and stub (stub) dependencies in tests for services?
 7. How do you test forms based on templates and reactive forms?
 8. What are async, **fakeAsync**, and **tick**, and how are they used when testing asynchronous code?
+9. How do you ensure your tests are isolated and do not interfere with each other?
 
 ## Signals:
 
@@ -132,8 +143,14 @@
 6. Can we read the value of a signal from a computed signal without creating a dependency?
 7. Detecting signal changes with the effect() API
 8. What is the relation between Signals and change detection?
+9. How do you handle signal debugging?
 
-## Angular 16-17 features:
+## Angular 16, 17, 18 features:
 
-1. What's new in Angular 16 and 17 versions? 
-2. Describe new features @if, @for, @switch, @defer
+1. What's new in Angular 16, 17, and 18 versions? 
+2. Describe the new features **@if**, **@for**, **@switch**, **@defer**.
+3. Can you explain the benefits of using the new Angular Ivy renderer introduced in Angular 18?
+4. How does Angular 18 improve performance and bundle size optimization compared to previous versions?
+5. What enhancements or additions have been made to Angular Material in the recent versions?
+6. How does Angular 18 support server-side rendering (SSR) and what improvements does it offer in this area?
+7. Discuss any updates or improvements made to Angular CLI and its features in the latest releases.
