@@ -34,4 +34,3 @@
 - [RU: Directives](https://angdev.ru/angular/built-in-directives/)
 
 - [Pure vs Impure Pipe](https://medium.com/@ghoul.ahmed5/pure-vs-impure-pipe-in-angular-2152cf073e4d)
-
