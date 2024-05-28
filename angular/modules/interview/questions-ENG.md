@@ -147,7 +147,7 @@
 
 ## Angular 16, 17, 18 features:
 
-1. What's new in Angular 16, 17, and 18 versions? 
+1. What's new in Angular 16, 17, and 18 versions?
 2. Describe the new features **@if**, **@for**, **@switch**, **@defer**.
 3. Can you explain the benefits of using the new Angular Ivy renderer introduced in Angular 18?
 4. How does Angular 18 improve performance and bundle size optimization compared to previous versions?
