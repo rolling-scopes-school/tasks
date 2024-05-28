@@ -32,15 +32,16 @@ Practice - 4 hour
 
 ## Additional materials
 
-- [Testing](https://angular.io/guide/testing)
+- [Testing](https://angular.dev/guide/testing)
+
 - [Key qualities of a good unit test](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Unit testing in JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)
 - [Code angular-testing-lecture](https://github.com/stas-dolgachov/angular-testing-lecture)
 - [Best practices for angular unit testing](https://gorillalogic.com/blog/best-practices-for-angular-unit-testing)
-- [Testing components basics](https://angular.io/guide/testing-components-basics)
+- [Testing components basics](https://angular.dev/guide/testing/components-basics)
 - [Migrate Jasmine to Jest](https://jestjs.io/docs/migration-guide)
-- [Testing pipes](https://angular.io/guide/testing-pipes)
-- [Testing attribute directive](https://angular.io/guide/testing-attribute-directives)
+- [Testing pipes](https://angular.dev/guide/testing/pipes)
+- [Testing attribute directive](https://angular.dev/guide/testing/attribute-directives)
 - [Migrate Jasmine to Jest more detailed](https://dev.to/this-is-angular/migrate-from-jasmine-to-jest-and-testing-in-angular-286i)
 - [Integrate Jest into an angular application](https://timdeschryver.dev/blog/integrate-jest-into-an-angular-application-and-library)
 - [Testing standalone directive](https://blog.stackademic.com/testing-standalone-directive-with-jest-in-angular-16-90f2781a26c3)

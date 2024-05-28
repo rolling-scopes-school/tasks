@@ -30,15 +30,18 @@
 
 ## Дополнительные материалы
 
-- [Тестирование](https://angular.io/guide/testing)
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
+
+- [Тестирование](https://angdev.ru/archive/angular9/angular-unit-testing/)
 - [Основные качества хорошего юнит теста](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Юнит-тестирование в JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)
 - [Code angular-testing-lecture](https://github.com/stas-dolgachov/angular-testing-lecture)
 - [Best practices юнит тестирования в angular](https://gorillalogic.com/blog/best-practices-for-angular-unit-testing)
-- [Основы тестирования компонентов](https://angular.io/guide/testing-components-basics)
+- [Основы тестирования компонентов](https://angdev.ru/archive/angular9/components-unit-testing/)
 - [Миграция Jasmine на Jest](https://jestjs.io/docs/migration-guide)
-- [Тестирование пайпов (pipes)](https://angular.io/guide/testing-pipes)
-- [Тестирование атрибутивных директив](https://angular.io/guide/testing-attribute-directives)
+- [Тестирование пайпов (pipes)](https://angdev.ru/archive/angular9/pipes-unit-testing/)
+- [Тестирование атрибутивных директив](https://angdev.ru/archive/angular9/directives-unit-testing/)
 - [Миграция Jasmine на Jest (более подробно)](https://dev.to/this-is-angular/migrate-from-jasmine-to-jest-and-testing-in-angular-286i)
 - [Интеграция Jest в приложение](https://timdeschryver.dev/blog/integrate-jest-into-an-angular-application-and-library)
 - [Тестирование директивы](https://blog.stackademic.com/testing-standalone-directive-with-jest-in-angular-16-90f2781a26c3)

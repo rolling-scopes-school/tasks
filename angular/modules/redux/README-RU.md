@@ -23,10 +23,11 @@
 ## Практика
 
 - [Angular. NgRx](../../../tasks/angular/NgRX.md)
-- Тренер: Oleh Duleba
 
 ## Дополнительные материалы
 
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
 - [Motivation](https://youtu.be/JWNVU-n7-6M)
 - [Architecture](https://youtu.be/2zPnr-8X2f8)
 - [Selectors](https://youtu.be/nzjWE0Xy7eU)

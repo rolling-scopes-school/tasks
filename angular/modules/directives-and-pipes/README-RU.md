@@ -7,6 +7,7 @@
 - Понятие `Decorators` и взаимодействие с пользователем с помощью `Directives`.
 - Базовые знания о `Pipes`. Параметры. Чистый и нечистый `Pipe`. Цепочки `Pipe`. Встроенные `Pipe`.
 - Создание `Pipe`.
+- Новый синтаксис использования `Directives` в Angular 17+.
 
 ## Приблизительное время прохождения модуля
 
@@ -16,24 +17,21 @@
 ## Теория
 
 - Лекции:
-  - [Angular 2020Q1. Directives & Pipes](https://youtu.be/S7TKY7hfWa0)
   - [Angular 2021Q1. Directives & Pipes](https://youtu.be/RLI6AGKwVcA)
+  - [Directive Angular 17+](https://www.youtube.com/watch?v=8Mv-kj9XWCs)
+- [Video](https://www.youtube.com/watch?v=eM3zi_n7lNs&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
 - [Примеры из видео](https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src)
 - [Слайды](https://slides.com/natalia_loginowa/angular-directives-pipes)
 
 ## Практическое задание
 
 - [Angular. Directives & Pipes](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Тренер: Natalia Loginova
 
 ## Дополнительные материалы
 
-- [Directive](https://angular.io/api/core/Directive)
-- [Attribute directives](https://angular.io/guide/attribute-directives)
-- [Writing structural directives](https://angular.io/guide/structural-directives)
-- [Directive composition API](https://angular.io/guide/directive-composition-api)
-- [Pipe](https://angular.io/api/core/Pipe)
-- [Transforming Data Using Pipes](https://angular.io/guide/pipes)
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
+- [RU: Directives](https://angdev.ru/angular/built-in-directives/)
+
 - [Pure vs Impure Pipe](https://medium.com/@ghoul.ahmed5/pure-vs-impure-pipe-in-angular-2152cf073e4d)
-- [@angular/common](https://angular.io/api/common)
-- [Cheat Sheet](https://angular.io/guide/cheatsheet)
+
