@@ -21,7 +21,6 @@ Theory - 5 hours
   - `Multiple subscriptions`: A single signal can have multiple subscribers, ensuring flexibility in information transmission between different parts of an application.
   - `Data manipulation`: Signals enable various operations with data, such as filtering, transforming, merging, and much more.
 
-
 ## Practical assignment
 
 - [Angular. Signals (In progress)]()
