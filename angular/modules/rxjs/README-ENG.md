@@ -33,7 +33,6 @@ Following materials also should be considered as learning sources before startin
 ## Practical assignment
 
 - [Angular. RxJS & Observables](../../../tasks/angular/rxjs-observables-http.md)
-- Trainer: Oleh Duleba
 
 ### Self-practice
 
