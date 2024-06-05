@@ -23,7 +23,7 @@ Theory - 5 hours
 
 ## Practical assignment
 
-- [Angular. Signals (In progress)]()
+- [Angular. Signals](../../../tasks/angular/signals.md)
 
 ## Additional materials
 
