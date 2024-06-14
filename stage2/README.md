@@ -482,15 +482,14 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 18/06/2024
 
-- [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
-- Получение сертификата за Stage#2
-- Перерыв перед stage#3
-- Получение фидбека от ментора. В конце курса, если у вас есть ментор, пожалуйста, попросите его/её написать отзыв о вас. Ментор может сделать это, открыв приложение RS APP, перейдя на страницу 'My Students' и нажав кнопку 'Give Feedback' напротив вашей фамилии.
+- [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
+- Receiving the certificate for Stage#2
+- Break before Stage#3
+- Receiving feedback from the mentor. At the end of the course, if you have a mentor, please ask them to write a review for you. The mentor can do this by opening the RS APP, going to the 'My Students' page, and clicking the 'Give Feedback' button next to your name.
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-- Фидбек о студентах. Фидбек о ваших студента можно оставить в RS APP -> My Students. Ваш фидбек будет доступен студенту в CV RS APP.
-По своей суте фидбек аналогичен рекомендательному письму.
+- Feedback on students. You can leave feedback on your students in the RS APP -> My Students. Your feedback will be available to the student in their RS APP CV. Essentially, feedback is similar to a recommendation letter.
 </details>
