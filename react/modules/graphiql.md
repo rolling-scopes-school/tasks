@@ -7,7 +7,7 @@ PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TA
 
 [**Postman**](https://www.postman.com/) is a rich platorm for using (and building) apis. However you can use any REST client as a reference.
 It should support method selection, url, headers.
-**GraphiQL** is a playground/IDE for graphQL requestsю You can use as an example (https://www.npmjs.com/package/@graphiql/react).
+**GraphiQL** is a playground/IDE for graphQL requests. You can use [this project](https://www.npmjs.com/package/@graphiql/react) as an example.
 
 Additional parts which your app will also include:
 
@@ -206,13 +206,19 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Upon successful login, the user is redirected to the Main page **10 points**
 - [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page **10 points**
 
-### GraphiQL route - max 200 points
+### RESTfull client - max 100 points
 
-- [ ] Functional editor enabling query editing and prettifying **60 points**
-- [ ] Operational documentation explorer, visible _only_ upon successful SDL request **50 points**
-- [ ] Variables section that can shown or hidden, specified variables are sent to the server **30 points**
-- [ ] Header section that can be shown or hidden, user-added headers are sent to the server **20 points**
-- [ ] Response section with an editor in read-only as a JSON viewer **40 points**
+- [ ] Functional editor enabling query editing and prettifying, read-only response section, request body provided in the url as base64-encoded on focus out **50 points**
+- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the url on change - **10 points**
+- [ ] Input for the url, entered value is provided in base64-encoded way on change **15 points**
+- [ ] Headers section, value is provided in the url on header add/change **25 points**
+
+### GraphiQL route - max 100 points
+
+- [ ] Functional editor enabling query editing and prettifying, read-only response section, request body provided in the url as base64-encoded on focus out **50 points**
+- [ ] Operational documentation explorer, visible _only_ upon successful SDL request **25 points**
+- [ ] Variables section that can shown or hidden, specified variables are sent to the server **15 points**
+- [ ] Header section that can be shown or hidden, value is provided in the url on header add/change **10 points**
 
 ### General requirements - max 50 points
 
@@ -222,7 +228,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Penalties
 
-- [ ] React default favicon **-50 points**
+- [ ] Vite/NextJS default favicon **-50 points**
 - [ ] The presence of errors and warnings in the console **-20 points** for each
 - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
 - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
@@ -233,6 +239,6 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of linting **-150 points**
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
-- [ ] Usage 3rd party / open source libraries for prettifying, i18n **-150 points**
+- [ ] Usage 3rd party / open source libraries for i18n **-150 points**
 - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
