@@ -39,6 +39,7 @@ Your app must contain:
 2. User registration/authentication.
 3. RESTfull client, which includes:
    - method selector
+   - text input for the endpoint url
    - request editor
    - headers editor
    - response section
@@ -103,7 +104,7 @@ You are free to choose your own way of developing the project and the repository
 ### Welcome page
 
 - If the user is not authorized, the page should contain a link to Sign In / Sign Up page.
-- If the user is authorized, the page should contain links to the RESTfull client, GraohiQL client, History routes.
+- If the user is authorized, the page should contain links to the RESTfull client, GraphiQL client, History routes.
 
 ### Header
 
@@ -130,7 +131,7 @@ You are free to choose your own way of developing the project and the repository
 - Header should be visible.
 - Method selector. Selected method should be reflected in the application url (e.g. http://restclient.com/GET), for more details check the next section.
 - Endpoint (url) input.
-- Request body editor / JSON viewer. It will be used in the response section in read-only mode. Please, mind that request body editor should support at least JSON and the plain text. Support of the XML syntax is not manadatory.
+- Request body editor / JSON viewer. It will be used in the response section in read-only mode. Please, mind that request body editor should support at least JSON and the plain text. Support of the XML syntax is not mandatory.
 - Variables editor section.
 - Headers editor section.
 - Response section. Should be read only.
@@ -169,7 +170,7 @@ In your editor you would need to specify headers, too (mind that you need to url
 #### Routing on GraphiQL client
 
 Similar to the RESTfull client, the request infromation should be provided via the url, with the only exception - all the GraphQL queries are POST queries, so to distinguish it from the usual REST queries, you should use GRAPHQL as a first route parameter:
-`http://localhost:5137/GRAPHQL/{endpointUrlBase64encoded}/{boqyBase64encoded}?header1=header1value&header2=header2value...`
+`http://localhost:5137/GRAPHQL/{endpointUrlBase64encoded}/{bodyBase64encoded}?header1=header1value&header2=header2value...`
 
 ## How to submit tasks
 
