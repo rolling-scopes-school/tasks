@@ -1,4 +1,4 @@
-[React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Class Components 🌟
+# [React](https://github.com/rolling-scopes-school/tasks/tree/master/react) Class Components 🌟
 
 ## Module Overview 📚
 
