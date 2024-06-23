@@ -318,135 +318,178 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### 23/04/2024
 
-- [Project: Presentation. Recorded & Online](modules/presentation)
-- [Module: "SCRUM, Kanban"](modules/scrum/)
-- [Preparation for Final Project](modules/final-task/)
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) task [Project Async Race](./tasks/async-race/)
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
+
+- Modules:
+
+  - [Module: "SCRUM, Kanban"](modules/scrum/)
+  - [Preparation for Final Project](modules/final-task/)
+
+- Tests:
+
+  - [[St2] Scrum. Kanban](modules/scrum/)
+
+- Tasks:
+
+  - [Project: Presentation. Recorded](tasks/presentation/)
 
 <details>
   <summary>Mentor Activities</summary>
 
 - [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking Final Version of Async Race task](https://docs.rs.school/#/pull-request-review-process)
-- [Interviewing Students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
 ## Week #12.
 
 ### 30/04/2024
 
-- [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md) Разработка в командах 3 чел
-- [Module: CI/CD](@valerydluski)
+- Modules:
+
+  - [Module: CI/CD](./modules/ci-cd/)
+
+- Tests:
+
+  - [[St2] CI/CD](./modules/ci-cd/)
+
+- Tasks:
+
+  - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Async Race task](https://docs.rs.school/#/pull-request-review-process)
-- [Eженедельный митинг со студентами](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- Задание ["Презентация"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md). - Презентация в формате "recorded" является обязательной для всех студентов. Ментору необходимо посмотреть ролик и выставить оценку.
+- [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Project: Presentation. Recorded](tasks/presentation/)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+
 </details>
 
 ## Week #13.
 
 ### 07/05/2024
 
-- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
-- [Module: how browsers work](modules/how-browsers-work/)
+- Modules:
+
+  - [Module: How Browsers Work - Rendering Flow](modules/how-browsers-work/)
+
+- Tests:
+
+  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
+
+- Tasks:
+
+  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
 ## Week #14.
 
 ### 14/05/2024
 
-- [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md) Разработка в командах 3 чел
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Modules:
+
+  - [Module: JavaScript Garbage Collection](modules/garbage-collection/)
+
+- Tasks:
+
+  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version of Final-Task.Sprint2](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Week #15.
 
 ### 21/05/2024
 
-- [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md) Разработка в командах 3 чел
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Tasks:
+
+  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking the Draft version of Final-Task.Sprint3](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 - [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Week #16.
 
 ### 28/05/2024
 
-- [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md) Разработка в командах 3 чел
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Tasks:
+
+  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking the Draft version of Final-Task.Sprint3](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 - [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Week #17.
 
 ### 04/06/2024
 
-- [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-- [Модуль: CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Tasks:
+
+  - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking the Draft version of Final-Task.Sprint4](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 - [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
 ## Week #18.
 
 ### 11/06/2024
 
-- [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+- Tasks:
+
+  - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
-- [Checking the Draft version of Final-Task.Sprint4](https://docs.rs.school/#/pull-request-review-process) задания [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 - [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Собеседуем студентов по CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 </details>
 
 ## Week #19.
 
 ### 18/06/2024
 
-- [Презентация финального проекта](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
-- Получение сертификата за Stage#2
-- Перерыв перед stage#3
-- Получение фидбека от ментора. В конце курса, если у вас есть ментор, пожалуйста, попросите его/её написать отзыв о вас. Ментор может сделать это, открыв приложение RS APP, перейдя на страницу 'My Students' и нажав кнопку 'Give Feedback' напротив вашей фамилии.
+- [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
+- Receiving the certificate for Stage#2
+- Break before Stage#3
+- Receiving feedback from the mentor. At the end of the course, if you have a mentor, please ask them to write a review for you. The mentor can do this by opening the RS APP, going to the 'My Students' page, and clicking the 'Give Feedback' button next to your name.
 
 <details>
-  <summary markdown="span">Активности менторов</summary>
+  <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-- Фидбек о студентах. Фидбек о ваших студента можно оставить в RS APP -> My Students. Ваш фидбек будет доступен студенту в CV RS APP.
-По своей суте фидбек аналогичен рекомендательному письму.
+- Feedback on students. You can leave feedback on your students in the RS APP -> My Students. Your feedback will be available to the student in their RS APP CV. Essentially, feedback is similar to a recommendation letter.
 </details>

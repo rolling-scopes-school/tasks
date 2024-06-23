@@ -25,14 +25,16 @@
 ## Практическое задание
 
 - [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
-- Тренер: Arcangelo Saccà
 
 ## Дополнительные материалы
 
-- [Add navigation with routing](https://angular.io/tutorial/toh-pt5)
-- [Common Routing Tasks](https://angular.io/guide/router)
-- [@angular/router](https://angular.io/api/router)
-- [RouterLinkActive](https://angular.io/api/router/RouterLinkActive)
-- [ActivatedRoute](https://angular.io/api/router/ActivatedRoute)
+- [DOCS Routing](https://angular.dev/guide/routing)
+- [Learn Routing](https://angular.dev/tutorials/learn-angular/13-define-a-route)
+- [Learn RouterLink](https://angular.dev/tutorials/learn-angular/14-routerLink)
+
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
+- [Add navigation with routing](https://angdev.ru/archive/webdraftt/route/define/)
+- [Common Routing Tasks](https://angdev.ru/archive/webdraftt/route/nav/)
 - [Resolve](https://angular.io/api/router/Resolve)
 - [Добавить в приложение навигации с маршрутизацией](https://angular24.ru/tutorial/toh-pt5)

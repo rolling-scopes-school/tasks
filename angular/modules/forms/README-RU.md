@@ -23,12 +23,12 @@
 ## Практическое задание
 
 - [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
-- Тренер: Kirill Britsyn
 
 ## Дополнительные материалы
 
-- [Using forms for user input](https://angular.io/start/forms)
-- [Reactive forms](https://angular.io/guide/reactive-forms)
-- [Building a template-driven form](https://angular.io/guide/forms)
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
+- [Введение в формы](https://angdev.ru/angular/forms-overview/)
+- [Reactive forms](https://angdev.ru/angular/reactive-forms/)
 - [Angular Forms Guide](https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/)
-- [Typed forms](https://angular.io/guide/typed-forms)
+- [Динамические формы](https://angdev.ru/angular/dynamic-form/)

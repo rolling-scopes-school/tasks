@@ -54,10 +54,6 @@ Students are encouraged to explore the following resources:
    - [useLocation](https://reactrouter.com/en/main/hooks/use-location)
    - [useSearchParams](https://reactrouter.com/en/main/hooks/use-search-params)
 
-## Practice 💻
-
-- Complete the test "React Router" in the RS-App > Auto Test.
-
 ## Additional Resources 📘
 
 1. [How to use React Router v6](https://www.robinwieruch.de/react-router/)

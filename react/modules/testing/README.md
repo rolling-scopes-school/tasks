@@ -45,10 +45,6 @@ Students are encouraged to study the following resources:
    - [AAA](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/) - [2 minutes read]
    - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
-## Practice 💻
-
-- Complete the test "Testing in React" in the RS-App > Auto Test.
-
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:

@@ -2,7 +2,17 @@
 
 Below is a description of the test task. Please read it carefully. The ability to follow the requirements is important to us.
 You should complete the task before proceeding to the recruiter's interview and subsequent technical interview.
-During the technical interview, the interviewer may discuss your solution.
+During the technical interview, the interviewer may discuss your solution.  
+To successfuly complete the task you **_MUST_** follow the requirements carefully.
+
+### 🚧🚧🚧 Important Notes 🚧🚧🚧
+
+- You **_MUST_** deploy your solution (frontend only). There are many free services like GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
+- You **_MUST_** provide a link to the deployed solution (frontend only) in the README.md file. Interviewer will have its own running backend.
+- You **_MUST_** include a checklist in the README.md file. And estimate your score.
+- The deadline for submitting your solution is 3 weeks after the task is assigned. If you have submitted, but the assignment has not yet been verified, you may continue development.
+
+#### 🛑 IF YOU FAIL ANY OF THE ABOVE, THE INTERVIEWER IS ENTITLED TO REJECT YOUR ASSIGNMENT. 🛑
 
 ## Task "Async Race"
 
@@ -59,6 +69,7 @@ What are you waiting for? Let's start coding!
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
 - **SPA Implementation**: All content must be generated using TypeScript with strict type checking.
 - **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings. The `tsconfig.json` must be configured to enforce strict typing principles.
+- **UI Design**: The design is completely up to you. In this project, we care about the quality of the code and the fulfillment of other functional and non-functional requirements.
 
 - These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Intreviewers will use these guidelines to assess the technical execution and overall quality of the project.
 

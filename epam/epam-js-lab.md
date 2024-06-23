@@ -41,6 +41,12 @@ Once you have passed the EPAM General Interview and become an EPAM Student, you 
 - Create a 3-5 minute video.
 - Guidelines: [Self-Introduction Guidelines](https://github.com/rolling-scopes-school/tasks/blob/master/epam/self-Introduction.md)
 
+### Interview Preparation
+
+- [NodeJs](https://github.com/rolling-scopes-school/tasks/blob/master/node/modules/interview/README.MD)
+- [Angular](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions.md)
+- [React](https://github.com/rolling-scopes-school/tasks/blob/master/react/questions.md)
+
 ## Information for Mentors
 
 - Students must be self-motivated.

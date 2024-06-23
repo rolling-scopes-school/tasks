@@ -33,10 +33,11 @@
 ## Практическое задание
 
 - [Angular. RxJS & Observables](../../../tasks/angular/rxjs-observables-http.md)
-- Тренер: Oleh Duleba
 
 ## Дополнительные материалы
 
+- [RU: Angular doc](https://angdev.ru/angular)
+- [RU: Документация](https://angular-ru.github.io)
 - [Reactive Extensions For JavaScript](https://www.npmjs.com/package/rxjs)
 - RxJS визуализатор:
   - [Операторы в динамике](https://rxjs-visualize.explosionpills.com)

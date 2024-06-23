@@ -32,8 +32,8 @@
 
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Library"](../tasks/library/library.md)
-  - ["Library#1. Фиксированная вёрстка"](../tasks/library/library-part1.md)
+- Проект ["Shelter"](../tasks/shelter/shelter.md)
+  - ["Shelter#1. Фиксированная вёрстка"](../tasks/shelter/shelter-part1.md)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #4
@@ -47,9 +47,9 @@
 ### Неделя #6
 
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#1"](../tasks/library/library-part1.md)
-- Проект ["Library"](../tasks/library/library.md)
-  - ["Library#2. Адаптивная вёрстка"](../tasks/library/library-part2.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#1"](../tasks/shelter/shelter-part1.md)
+- Проект ["Shelter"](../tasks/shelter/shelter.md)
+  - ["Shelter#2. Адаптивная вёрстка"](../tasks/shelter/shelter-part2.md)
 
 ### Неделя #7
 
@@ -60,9 +60,9 @@
 
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#2"](../tasks/library/library-part2.md)
-- Проект ["Library"](../tasks/library/library.md)
-  - ["Library#3. Добавление функционала"](../tasks/library/library-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#2"](../tasks/shelter/shelter-part2.md)
+- Проект ["Shelter"](../tasks/shelter/shelter.md)
+  - ["Shelter#3. Добавление функционала"](../tasks/shelter/shelter-part3.md)
 
 ### Неделя #9
 

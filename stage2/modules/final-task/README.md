@@ -1,118 +1,112 @@
-## Курсовой проект
+## Final Project
 
-### Подготовка со стороны школы к выполнению курсового проекта
+### School's Preparation for Final Project Execution
 
-1. Перед выполнением курсового проекта все студенты, у которых не выполнены три последних задания подряд, отчисляются как неактивные.
+1. Before the start of the final project, all the students who have not completed the last three assignments in a row are to be expelled as inactive.
 
-2. Процесс распределения по командам полностью автоматизирован и будет проходить через https://rss-teams.web.app
+2. The team distribution process is to be done through Team Distributions on RS App.
 
-3. По желанию студенты самостоятельно могут объединяться в группы. В каждой группе 3 студента.
+3. Students may choose to form their teams independently. Each team will include three students.
 
-4. Чтобы позиция в скоре более объективно отображала уровень подготовки студентов, нужно попросить менторов перед распределением студентов по группам выставить баллы за все таски, кроме последнего. Баллы за последний перед курсовым проектом таск до момента распределения студентов по группам в скор не добавляются.
+4. To ensure that the score position reflects the students' level of preparation more objectively it is necessary to ask mentors to grade all the tasks except for the last one before the distribution into groups occurs. The points for the last task before the final project are not added to the score until students are distributed into teams.
 
-### Организация командной работы
+### Teamwork Management
 
-#### Распределение студентов по группам
+#### Distribution of Students into Groups
 
-1. Студенты курса регистрируются в https://rss-teams.web.app , тем самым подтверждая своё желание и готовность участвовать в выполнении курсового проекта.
+1. Students proceed to the Team Distributions tab on RS App and register there thus confirming their willingness and readiness to take part in the final course project.
 
-2. Формирование групп происходит либо по желанию студентов, либо рандомно.
+2. Groups are formed on Team Distributions. Students can either create their own team, join an existing team, or be assigned to a team randomly.
 
-3. Переход студентов в другие группы возможен по их желанию при наличии серьёзных причин, с ведома и согласия ментора, организующего курсовой проект.
+#### Mentor's Tasks
 
-#### Задачи ментора
+1. Assists students in solving emerging problems, provides recommendations, observations, and advice.
 
-1. Выступает куратором команды – организует и проводит первый митинг с командой.
+2. Conducts code reviews.
 
-2. Помогает распределить обязанности, разбить каждую функциональность на подзадачи для каждого члена команды.
+3. Passes on to students their development experience, accepted best practices in production.
 
-3. Помогает студентам решать возникающие проблемы, даёт рекомендации, замечания, советы.
+#### Team Lead
 
-4. Проводит code review.
+1. Initially, the team lead is determined by the highest score, yet, by mutual agreement, they are free to assign their role to another team member.
 
-5. Выступает как координатор, стратег, организатор. Передаёт студентам свой опыт разработки, принятые в продакшене best practices.
+2. Organizes and conducts the first meeting with the team.
 
-Если менторы согласятся быть кураторами групп, за три недели группового таска они смогут научить студентов очень многому.
+3. Coordinates the team's activities, plans, distributes tasks, breaks down functionalities into subtasks for each team member, and resolves disagreements in case they arise.
 
-Если у групп не будет кураторов, их задачи перекладываются на студентов, которые впоследствии будут выполнять роль тим лида своих команд.
+4. If necessary, holds additional meetings with the team to clarify the requirements and tasks set before them.
 
-#### Тим лид команды
+#### Communication Channels
 
-1. По умолчанию тим лидом команды является участник с самым высоким скором. По взаимной договорённости он может передать свои обязанности другому участнику команды.
+1. The team lead creates a server on Discord, leaves a link to it in the description of the team registration form under the Team Distributions tab on RS App and invites their team members to the created server or they join it themselves.
 
-2. Тим лид координирует деятельность команды, занимается распределением задач, планированием, а также разрешает спорные ситуации между участниками команды.
+The following Discord channels need to be created:
 
-3. В случае необходимости проводит дополнительные митинги с командой для уточнения требований, поставленных задач перед командой.
+- general (for general communication)
+- materials (materials and useful links)
+- git (questions about git)
+- work-status (for daily reports of each team member)
 
-#### Каналы связи
+2. The Discord server is the main communication channel for the group. Voice channels on Discord, Teams, Telegram, Skype, etc. can be used for video or audio conferences.
 
-1. Тим лид команды создаёт сервер в Discord, оставляет ссылку на него в таблице рядом со списком своей группы, приглашает на созданный сервер участников своей группы или они сами к нему присоединяются.
+### First Meeting
 
-В Discord создаются каналы
+1. Takes place the day after the distribution into teams. The time and format of the meeting are agreed upon in advance. It's highly recommended to document the meeting results in writing.
 
-- all (для всех общий)
-- materials (полезные ссылки)
-- git (вопросы по гиту)
-- work-status (раздел для ежедневного отчета каждого участника команды)
+2. The first meeting objective is to establish basic agreements, project structure, environment, teamwork rules, and set up all essential prerequisites to initiate the development process.
 
-2. Сервер в Discord является основным каналом связи группы. Для видео- или аудио-конференций могут использоваться голосовой канал в Discord, Skype, Telegram и т.д.
+3. Prior to the meeting, all group members must familiarize themselves with the task requirements, formulate their suggestions for implementation, assess their skills and preferences, and decide on the tasks they are able and willing to take on.
 
-### Первый митинг
+4. During the meeting, the participants are encouraged to identify each other's strengths, listen to suggestions, clarify preferences, and outline the plan for the upcoming week's tasks.
 
-1. Проводится на следующий день после распределения по командам. Время и форма проведения митинга оговариваются заранее. Итоги митинга желательно зафиксировать в письменном виде.
+5. After the meeting, each team member should be allocated their own area of responsibility, for which they are accountable, and the completion of which contributes to a part of the entire project.
 
-2. Задача первого митинга – определить базовые соглашения, структуру, окружение проекта, правила командной работы, создать все необходимые условия для начала процесса разработки.
+#### Work with Repository
 
-3. Перед проведением митинга всем участникам группы необходимо разобраться с требованиями таска, продумать свои предложения по их реализации, определиться со своими возможностями и предпочтениями – реализацией каких задач могли бы и хотели бы заняться.
+1. At the initial stage of collaborative Git usage, almost every team member may encounter challenges and issues. It's essential to anticipate such difficulties and the possibility of errors beforehand.
 
-4. Тим лид создаёт приватный репозиторий, в который приглашает всех участников своей команды. Также тим лид создаёт базовую конфигурацию проекта: устанавливает и настраивает webpack, eslint, eslint-config-airbnb-base, babel, gitignore и другие необходимые зависимости.
+2. The `master` branch serves as a primary production branch housing exclusively the project's final releases – the product that can be offered to users (in our case, what is subject to review). Until the end of development, the `master` branch is empty, containing only the `README.md` file. At the end of the development or when the deadline approaches, the `develop` branch is merged into the `master` branch.
 
-5. В ходе митинга участникам необходимо определить сильные стороны друг друга, выслушать предложения и выяснить предпочтения каждого, спланировать работу на ближайшую неделю.
+3. The `develop` branch is the main development branch, containing the latest working version of the project, where all completed functional components are integrated as they are finalized.
 
-6. После митинга у каждого участника команды должен быть свой участок работы, за который он отвечает и результатом выполнения которого является часть общего проекта.
+4. Each team member, including the team lead, conducts development in their own branch. Branch names align with the specific functionality being implemented. Branches are created at the beginning of each feature development based on the current state of the `develop` branch. All merges into the `develop` branch occur only through Pull Requests. Resolving merge conflicts requires merging the `develop` branch into your feature branch.
 
-#### Работа с репозиторием
+5. A branch is considered merge-ready into `develop` if there is at least one approve from another team member or mentor and all comments (if any) are marked as resolved. A comment can be resolved only by the person who left it.
 
-1. На начальном этапе командной работы с git трудности и проблемы могут возникнуть почти у каждого участника команды. Наличие таких трудностей и появление возможных ошибок нужно предусмотреть заранее.
+6. Following approval for the merge, each team member is responsible for merging their own Pull Request. If necessary, they resolve conflicts, thus gaining valuable experience.
 
-2. Ветка master – это основная production ветка: в ней находятся только финальные релизы проекта – то, что можно предложить пользователям (в нашем случае – то, что подлежит проверке). До самого окончания разработки ветка master пустая, содержит только файл README.md. В конце разработки или при наступлении дедлайна в ветку master мержим ветку develop.
+7. Not only the team lead or mentor but also the other team members are expected to be requested to review and approve Pull Requests. This inclusive approach allows everyone to participate as a reviewer, gaining insights into all implemented features and their functionality.
 
-3. Ветка develop – основная ветка разработки. В ней находится самая актуальная рабочая версия проекта, собираются вместе все готовые части функциональности по мере их завершения.
+8. Each team member is expected to contribute a minimum of five commits and at least two Pull Requests merged into the `develop` branch. Failure to adhere to these requirements results in penalty points for deficiencies in team organization.
 
-4. Каждый участник команды, и тим лид команды в том числе, ведут разработку в своих собственных ветках. Название ветки даётся в соответствии с реализуемой частью функциональности. Данные ветки создаются при начале разработки каждой фичи от develop (актуальной на тот момент). Все мержи в ветку develop происходят только через Pull Request. Для того, чтобы разрешить merge conflicts, нужно смержить ветку develop в свою feature ветку.
+#### Coordination of Collaborative Work
 
-5. Ветка считается готовой к мержу в develop, если все комментарии помечены как resolved и как минимум два члена команды поставили approve. Resolve комментария может делать только тот человек, который его оставил.
+1. To allocate tasks, establish interim deadlines, and ensure clear insight into the development progress (including who is working on what and at what stage), a task tracker like GitHub Projects, Trello, or any other mutually agreed-upon tool is used.
 
-6. После разрешения на мерж, каждый сам мержит свой Pull request. Если требуется – разрешает конфликты. Это очень важный опыт.
+2. In the work-status channel (or preferably in daily stand-up meetings), each team member (including the team lead) provides daily mini-reports structured as follows:
 
-7. В ревьюверы включать не только тим лида и куратора группы, но и участников команды. Это позволяет каждому попробовать себя в роли ревьюера, видеть все реализованные фичи, каким образом они работают.
+- what they accomplished the previous day and how long the development process took
+- objectives for the current day
+- what blockers or difficulties they encountered and where they need help
 
-8. От каждого участника команды ожидается минимум пять коммитов и минимум два собственных Pull Request, замерженых в ветку develop. Если требования к минимальному количеству коммитов и Pull Request от каждого участника не выполняется, команде начисляются штрафные баллы за недостатки в организации командной работы.
+3. Task trackers and daily mini reports serve to mitigate duplication and parallelism in team tasks, preventing situations where two team members are working on the same task simultaneously. Daily reporting on individual contributions stimulates team members' engagement, facilitates benchmarking of individual progress against others', and keeps everyone informed about the development process.
 
-#### Координация совместной работы
+4. The worklog, compiled based on the task tracker and daily mini reports, serves as a comprehensive record of the team's collective work, highlighting each member's contributions. It details the specific contributions of each team member, emphasizing tangible achievements like implemented features or application components — actions that would hold value and justify payment from an employer. Entries such as "learned to code", "thought a lot", "read a book" are deemed inadequate.
 
-1. Для распределения задач, установки промежуточных дедлайнов, понимания каждым хода разработки (кто, где и на какой стадии находится) используются таск-трекеры: Projects текущего GitHub репозитория, Trello или любой другой инструмент по согласованию с куратором группы / тим лида.
+### Final Project Presentation
 
-2. В канале work-status (еще лучше - в формате ежедневного митинга) каждый участник команды (в том числе тим лид) каждый день составляют мини-отчёты по схеме:
+1. The final course project presentation is conducted by whatever means convenient for the jury (Teams, Google Meet, Discord, Skype, etc.).
 
-- что сделал за предыдущий день день, сколько времени потратил на процесс разработки
-- что планирует делать сегодня
-- какие возникли трудности, вопросы, проблемы и т д.
+2. Each team is tasked with creating a 5-7-minute presentation showcasing their developed application. They highlight the features and benefits of their application, and share insights into the development process, challenges faced, and solutions implemented.
 
-3. Таск-трекеры и ежедневные мини-отчёты позволяют исключить дублирование и параллелизм в работе команды, когда два участника работают над одной задачей. Необходимость каждый день отчитаться о своём вкладе в командную работу стимулирует активность участников команды, позволяет сравнить свой результат с результатом других, быть в курсе процесса разработки.
+3. Scores awarded to the team during the presentation are not disclosed or discussed.
 
-4. На основе таск-трекера и мини-отчётов составляется worklog – отчёт о проделанной командной работе с указанием вклада каждого участника команды. В worklog вносятся конкретные реализованные фичи или элементы приложения. Образно, то, за что вам будет готов платить работодатель. Варианты "учился писать код" или "читал книгу", "много думал" не годятся.
+### Grading of the Final Project
 
-### Презентация курсового проекта
+1. Final projects are assessed based on both cross-checks and project presentations.
 
-1. Презентация курсового проекта происходит в форме конференции в скайпе, присоединиться к которой могут все желающие.
+2. Cross-checks are conducted not by individual students, but by groups. This means that each group is responsible for reviewing and assessing the projects of four other groups.
 
-2. Каждая команда готовит презентацию созданного приложения продолжительностью не больше 5-7 минут, в которой демонстрирует особенности его работы и преимущества, рассказывает об особенностях разработки, трудностях и путях их преодоления.
+### Useful Links
 
-3. В ходе презентации полученные командой баллы не озвучиваются и не комментируются.
-
-### Выставление оценок за курсовой проект
-
-1. Курсовые проекты оцениваются в ходе кросс-чека и в ходе презентации проекта.
-
-2. Кросс-чек проводится не отдельными студентами, а группами. То есть каждая группа должна проверить и оценить проекты 4 других групп.
+- [Q&A Session. Organization of Teamwork](https://www.youtube.com/watch?v=35f-XI3bkWA)
