@@ -17,10 +17,11 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 ## Course program
 
-### Week #1 (25th of June, 2024)
+### Week #1 (1st of July, 2024)
 
 #### Theory
 
+- [History of React](modules/react-evolution/)
 - [Vite with React and the TypeScript](modules/react-setup-env/)
 - [Class Components](modules/class-component/)
 - [Error Boundaries](modules/error-boundary/)
@@ -29,7 +30,7 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 1](modules//tasks/class-components.md)
 
-### Week #2 (2nd of July, 2024)
+### Week #2 (8th of July, 2024)
 
 #### Theory
 
@@ -41,7 +42,7 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 2](modules/tasks/routing.md)
 
-### Week #3 (9th of July, 2024)
+### Week #3 (15th of July, 2024)
 
 #### Theory
 
@@ -52,7 +53,7 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 3](modules/tasks/redux.md)
 
-### Week #4 (16th of July, 2024)
+### Week #4 (22nd of July, 2024)
 
 #### Theory
 
@@ -63,9 +64,17 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 3](modules/tasks/redux.md)
 
-### Week #5 (23rd of July, 2024)
+### Week #5 (29th of July, 2024)
 
-### Week #6 (30th of July, 2024)
+#### Theory
+
+- [Server-side rendering/generation in React. NextJS. Remix](modules/nextjs-ssr-ssg/)
+
+#### Practical tasks
+
+[Task 4](modules/tasks/nextjs-ssr-ssg.md)
+
+### Week #6 (5th of August, 2024)
 
 #### Theory
 
@@ -75,34 +84,29 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 5](modules/tasks/forms.md)
 
-### Week #7 (4th of December, 2023)
+### Week #7 (12th of August, 2024)
 
 - [Technical React Interview](interview.md)
-- [GraphiQL](modules/graphiql.md)
+- [REST/GraphiQL client](modules/tasks/final.md)
 
-### Week #8 (11th of December, 2023)
-
-- [Technical React Interview](interview.md)
-- [GraphiQL](modules/graphiql.md)
-
-### Week #9 (18th of December, 2023)
+### Week #8 (19th of August, 2024)
 
 - [Technical React Interview](interview.md)
-- [GraphiQL](modules/graphiql.md)
+- [REST/GraphiQL client](modules/tasks/final.md)
 
-### Break week (25th of December, 2023 - 1st of January, 2024)
-
-- Celebrate Christmas
-- Celebrate the New Year
-
-### Week #10 (2nd of January, 2024)
+### Week #9 (26th of August, 2024)
 
 - [Technical React Interview](interview.md)
-- [GraphiQL](modules/graphiql.md)
+- [REST/GraphiQL client](modules/tasks/final.md)
 
-### Week #12 (8th of January, 2024)
+### Week #10 (2nd of September, 2024)
 
-Cross-check review: - [GraphiQL](modules/graphiql.md)
+- [Technical React Interview](interview.md)
+- [REST/GraphiQL client](modules/tasks/final.md)
+
+### Week #12 (9th of September, 2024)
+
+Cross-check review: - [REST/GraphiQL client](modules/tasks/final.md)
 
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 

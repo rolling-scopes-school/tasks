@@ -33,4 +33,4 @@ Maximum 15 points
 
 # Interview questions
 
-You can check the interview questions [heres](questions.md)
+You can check the interview questions [here](questions.md)

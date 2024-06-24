@@ -59,5 +59,6 @@ Students are encouraged to explore the following resources:
 1. [How to use React Router v6](https://www.robinwieruch.de/react-router/)
 2. [How to use React Router v6 in React apps](https://blog.logrocket.com/react-router-v6-guide/)
 3. [Upgrading from v5](https://reactrouter.com/ru/main/upgrading/v5)
+4. [Future of the React Router - React Router 7](https://remix.run/blog/merging-remix-and-react-router) (this topic would be also partially covered in [SSR/SSG module](../nextjs-ssr-ssg/))
 
 By the end of this module, students will have a comprehensive understanding of routing in React applications using React Router. They will be equipped with the skills to create sophisticated and user-friendly SPAs that simulate multi-page navigation seamlessly.
