@@ -14,7 +14,7 @@
         "publishedAt": "2024-06-24T12:42:19.000Z",
         "channelId": "UCg8ss4xW9jASrqWGP30jXiw",
         "title": "Introduction to Angular - Learning Angular",
-        "description": "Полный курс по Angular 8+:\nhttps://clc.to/angular\n\nTelegram: https://teleg.one/js_by_vladilen \nInstagram: https://www.instagram.com/vladilen.minin \nVK: https://vk.com/vladilen.minin \nГруппа VK: https://vk.com/js_by_vladilen \n\nReact Native: мобильная разработка на JavaScript:\nhttps://clc.to/rnative\n\nПоддержать выпуск новых видео:\nЯД: https://money.yandex.ru/to/410013757655670\nPayPal: https://www.paypal.me/vladilenm \n\n30 мая 2019 года бы релиз Angular 8 и я решил записать  по нему быстрый курс. В видео вы узнаете, как Angular работает, как его установить.\nВ результате урока я покажу создание Todo приложения с разными подходами. Разберем работу с сервером, сервисами, пайпами, коммуникацией между компонентами и немного RxJS\n\nИсходный код:\nhttps://github.com/vladilenm/angular8-cc\n\nAngular 8 - Быстрый курс за 60 минут",
+        "description": "In this series, learn how to build your first Angular application. Angular is a web framework that allows teams to deliver web apps with confidence. Discover how these tools build scalable applications.",
         "thumbnails": {
           "default": {
             "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/default.jpg",
@@ -42,7 +42,7 @@
             "height": 720
           }
         },
-        "channelTitle": "Владилен Минин",
+        "channelTitle": "Angular",
         "tags": [
           "angular",
           "angular 8",
@@ -528,7 +528,7 @@
         "publishedAt": "2024-02-22T15:00:14.000Z",
         "channelId": "UCg8ss4xW9jASrqWGP30jXiw",
         "title": "Top 50 Angular Interview Questions",
-        "description": "Полный курс по Angular 8+:\nhttps://clc.to/angular\n\nДобавляйте меня в ВК: https://vk.com/vladilen.minin\nГруппа ВК: https://vk.com/js_by_vladilen\nTelegram: https://teleg.one/js_by_vladilen\nInstagram: https://www.instagram.com/vladilen.minin\n\nПоддержать выпуск новых видео:\nЯД: https://money.yandex.ru/to/410013757655670\nPayPal: https://www.paypal.me/vladilenm \n\nAngular 40 вопросов для собеседования. Подготовка к интервью",
+        "description": "Angular Interview Masterclass",
         "thumbnails": {
           "default": {
             "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/default.jpg",
@@ -556,7 +556,7 @@
             "height": 720
           }
         },
-        "channelTitle": "Владилен Минин",
+        "channelTitle": "Interview Happy",
         "tags": [
           "angular",
           "angularjs",
@@ -584,7 +584,7 @@
         "liveBroadcastContent": "none",
         "localized": {
           "title": "Top 50 Angular Interview Questions",
-          "description": "Полный курс по Angular 8+:\nhttps://clc.to/angular\n\nДобавляйте меня в ВК: https://vk.com/vladilen.minin\nГруппа ВК: https://vk.com/js_by_vladilen\nTelegram: https://teleg.one/js_by_vladilen\nInstagram: https://www.instagram.com/vladilen.minin\n\nПоддержать выпуск новых видео:\nЯД: https://money.yandex.ru/to/410013757655670\nPayPal: https://www.paypal.me/vladilenm \n\nAngular 40 вопросов для собеседования. Подготовка к интервью"
+          "description": "Angular Interview Masterclass"
         },
         "defaultAudioLanguage": "en-US"
       },
@@ -604,7 +604,7 @@
         "publishedAt": "2024-01-06T16:06:13.000Z",
         "channelId": "UCg8ss4xW9jASrqWGP30jXiw",
         "title": "RxJs In Practice Course",
-        "description": "Курс по Angular 8+: \nhttps://clc.to/angular \n\nДобавляйте меня в ВК: https://vk.com/vladilen.minin\nTelegram: https://teleg.one/js_by_vladilen\nInstagram: https://www.instagram.com/vladilen.minin\nГруппа ВК: https://vk.com/js_by_vladilen\n\nПоддержать выпуск новых видео:\nЯД: https://money.yandex.ru/to/410013757655670\nPayPal: https://www.paypal.me/vladilenm \n\nВ видео я покажу разработку приложения органайзера с нуля.\nВ видео я не буду пояснять базовые моменты, так как это практика для опытных разработчиков\n\nВ результате вы получите приложение, в котором будет использоваться много RxJS, Firebase, MomentJS и Angular 8\nНе будет никаких CSS фреймворков - все стили будут написаны с нуля с использованием CSS переменных\n\nИсходный код:\nhttps://github.com/vladilenm/angular-organizer\n\nAngular 8 + RxJS. Приложение Целиком (Для Опытных!)\nhttps://youtu.be/xGgwQvza0Ns",
+        "description": "In this lessons we will start learning RxJs at the beginning: we are going to start with the most fundamental RxJs concept which is the Stream of Values.",
         "thumbnails": {
           "default": {
             "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/default.jpg",
@@ -632,7 +632,7 @@
             "height": 720
           }
         },
-        "channelTitle": "Владилен Минин",
+        "channelTitle": "Angular University",
         "tags": [
           "angular",
           "angular 8",
@@ -663,7 +663,7 @@
         "liveBroadcastContent": "none",
         "localized": {
           "title": "RxJs In Practice Course",
-          "description": "Курс по Angular 8+: \nhttps://clc.to/angular \n\nДобавляйте меня в ВК: https://vk.com/vladilen.minin\nTelegram: https://teleg.one/js_by_vladilen\nInstagram: https://www.instagram.com/vladilen.minin\nГруппа ВК: https://vk.com/js_by_vladilen\n\nПоддержать выпуск новых видео:\nЯД: https://money.yandex.ru/to/410013757655670\nPayPal: https://www.paypal.me/vladilenm \n\nВ видео я покажу разработку приложения органайзера с нуля.\nВ видео я не буду пояснять базовые моменты, так как это практика для опытных разработчиков\n\nВ результате вы получите приложение, в котором будет использоваться много RxJS, Firebase, MomentJS и Angular 8\nНе будет никаких CSS фреймворков - все стили будут написаны с нуля с использованием CSS переменных\n\nИсходный код:\nhttps://github.com/vladilenm/angular-organizer\n\nAngular 8 + RxJS. Приложение Целиком (Для Опытных!)\nhttps://youtu.be/NaZwVUHnmfE"
+          "description": "In this lessons we will start learning RxJs at the beginning: we are going to start with the most fundamental RxJs concept which is the Stream of Values."
         },
         "defaultAudioLanguage": "en-US"
       },
