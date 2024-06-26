@@ -14,15 +14,15 @@ In this task, you will get acquainted with the new functionality of Angular: Sig
 
 Maximum score - **30**
 
-- [ ] Refactor the API service to use a signal for managing the API request and returning the response data.  Implement this in two or more times. (**+10**)
-- [ ] Use a signal to display data in the component's template.  Implement this in two or more times. (**+10**)
+- [ ] Refactor the API service to use a signal for managing the API request and returning the response data. Implement this in two or more times. (**+10**)
+- [ ] Use a signal to display data in the component's template. Implement this in two or more times. (**+10**)
 - [ ] Convert Observables to Signals using `toSignal`. Implement this in one or more times. (**+10**)
 
 Fines
 
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app doesn't work or has console errors. (**-20**)
-- [ ] ESLint warnings or errors are present. (**-15**)
+- [ ] ESLint's warnings or errors are present. (**-15**)
 - [ ] For each unit test case that fails. (**-20**)
 - [ ] Didn't migrate the application completely from Karma and Jasmine to Jest. (**-20**)
 - [ ] Using the `Any` type. (**-20**)
