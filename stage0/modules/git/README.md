@@ -36,7 +36,7 @@
 
 0. [Базовые основы по git, github ( графический интерфейс )](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 1. [Основы Git. Учебник](https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий)
-2. [Инструкция по добавлению SSH в Git](https://github.com/TUstiugov/ssh-hints-for-win/blob/main/ssh-hints-for-win.md)
+2. [Инструкция по добавлению SSH в Git](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 3. Хорошие материалы от Git-комьюнити в виде документации: https://uleming.github.io/gitbook/index.html
 4. Интерактивный тренажер по Git: https://learngitbranching.js.org/?locale=ru_RU
 5. [Скринкаст по Git (learn.javascript.ru)](https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
