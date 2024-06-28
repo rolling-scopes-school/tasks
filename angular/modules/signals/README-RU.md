@@ -27,7 +27,7 @@
 
 ## Практическое задание
 
-- [Angular. Signals (в разработке)]()
+- [Angular. Signals](../../../tasks/angular/signals.md)
 
 ## Дополнительные материалы
 
