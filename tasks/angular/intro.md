@@ -7,7 +7,8 @@ During the Angular course, you are to implement the YouTube client app. You can 
 ### Getting started
 
 - Install _@angular/cli_ package. It's highly recommended to use _SCSS_ as the default stylesheet
-- Use ng-cli to create a new project
+- Use the Angular CLI to create a new project with Angular v18 or later
+- Don't recommend to use ESLint v9 or later (we suggest using ESLint v8)
 - Explore the generated project structure
 
 ### Task requirements
