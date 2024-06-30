@@ -1,4 +1,4 @@
-# React project setup. Class components. Error boundary.
+# React forms.
 
 ## Technical Requirements
 

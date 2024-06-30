@@ -30,6 +30,11 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 1](modules//tasks/class-components.md)
 
+#### Tests
+
+- Test 1. React components
+- Test 2. React error boundary
+
 ### Week #2 (8th of July, 2024)
 
 #### Theory
@@ -42,6 +47,11 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 2](modules/tasks/routing.md)
 
+#### Tests
+
+- Test 3. React hooks
+- Test 4. React routing
+
 ### Week #3 (15th of July, 2024)
 
 #### Theory
@@ -52,6 +62,10 @@ This course is aimed to the students of the RS School which passed RS School sta
 #### Practical tasks
 
 [Task 3](modules/tasks/redux.md)
+
+#### Tests
+
+- Test 5. React testing and context
 
 ### Week #4 (22nd of July, 2024)
 
@@ -64,6 +78,10 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 3](modules/tasks/redux.md)
 
+#### Tests
+
+- Test 6. React Redux
+
 ### Week #5 (29th of July, 2024)
 
 #### Theory
@@ -74,6 +92,10 @@ This course is aimed to the students of the RS School which passed RS School sta
 
 [Task 4](modules/tasks/nextjs-ssr-ssg.md)
 
+#### Tests
+
+- Test 7. React SSR
+
 ### Week #6 (5th of August, 2024)
 
 #### Theory
@@ -83,6 +105,10 @@ This course is aimed to the students of the RS School which passed RS School sta
 #### Practical tasks
 
 [Task 5](modules/tasks/forms.md)
+
+#### Tests
+
+- Test 8. React forms
 
 ### Week #7 (12th of August, 2024)
 
