@@ -59,8 +59,8 @@ Maximum score - **100**
 - [ ] The colored border under the **Search result item** is implemented using a `Directive` (**+15**)
 - [ ] Search result sorting is implemented (both ascending and descending directions) (**+15**)
 - [ ] Search result filtering by key words is implemented using a `Pipe` (**+15**)
-- [ ] Custom Button component is implemented and used across the application. The component utilizes [Content projection](https://angular.io/guide/content-projection) to display the button text (**+5**)
-- [ ] One of the components is implemented as [standalone](https://angular.io/guide/standalone-components). Strong recommendation to choose a simple presentational component and not a "Smart" container component for this task (**+5**)
+- [ ] Custom Button component is implemented and used across the application. The component utilizes [Content projection](https://angular.dev/guide/components/content-projection) to display the button text (**+5**)
+- [ ] One of the components is implemented as [standalone](https://angular.dev/guide/components/importing). Strong recommendation to choose a simple presentational component and not a "Smart" container component for this task (**+5**)
 
 Fines
 
