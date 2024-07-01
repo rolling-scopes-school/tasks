@@ -44,7 +44,7 @@ You can ask questions and interact with others in our course Discord channel: [D
 
 # Course roadmap
 
-### Week #1 (Juli 1 2024)
+### Week #1 (July 1, 2024)
 
 - [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
 - [Module "Angular. Components. Standalone Components"](modules/components/README-ENG.md)
@@ -53,7 +53,7 @@ You can ask questions and interact with others in our course Discord channel: [D
 - Test: Components. Standalone Components.
 - Test: Pipes, Directives.
 
-### Week #2 (Juli 6 2024)
+### Week #2 (July 6, 2024)
 
 - [Task review "Angular intro"](../tasks/angular/intro.md)
 - [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
@@ -61,7 +61,7 @@ You can ask questions and interact with others in our course Discord channel: [D
 - Test: Modules, Services.
 - Test: Routing.
 
-### Week #3 (Juli 15 2024)
+### Week #3 (July 15, 2024)
 
 - [Task review "Angular. Components, Directives, Pipes"](../tasks/angular/components-directives-pipes.md)
 - [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
@@ -71,30 +71,30 @@ You can ask questions and interact with others in our course Discord channel: [D
 - Test: HTTP.
 - Test: Forms.
 
-### Week #4 (Juli 22 2024)
+### Week #4 (July 22, 2024)
 
 - [Task review "Angular. Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
 - [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
 - Test: Redux & NgRx.
 
-### Week #5 (Juli 29 2024)
+### Week #5 (July 29, 2024)
 
 - [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
 - [Task review "Angular. Forms"](../tasks/angular/forms.md)
 - [Module: "Signals"](modules/signals/README-ENG.md)
 
-### Week #6 (August 5 2024)
+### Week #6 (August 5, 2024)
 
 - [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
 - [Module: "Angular. Unit test. Jasmin. Jest."](modules/unit-test/README-ENG.md)
 - Test: Unit tests.
 
-### Week #7-9 (August 12 2024 - August 19 2024)
+### Week #7-9 (August 12, 2024 - August 19, 2024)
 
 - [Task review "Angular. Unit testing with Jest"](../tasks/angular/unit-testing-jest.md)
 - Final task
 
-### Week #10 (August 26 2024)
+### Week #10 (August 26, 2024)
 
 - Review the Final task
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
