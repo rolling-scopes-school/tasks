@@ -37,34 +37,57 @@ What are you waiting for? Let's start coding!
 
 ### Basic Structure
 
-- Two main views: "Garage" and "Winners", each with their name, page number, and a count of items in the database.
-- Persistent view state between switches, maintaining user input and pagination.
+- Two main views: "Garage" and "Winners.
+- Persistent state of user interface between switches, maintaining user input and pagination.
+- The race condition when switching between views can be handled to your liking (the race can be reset, continue, or stop). The main thing is to do it correctly. 
 
 ### Garage View
 
-- [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations for cars with "name" and "color" attributes.
-- Color selection from an RGB palette with a preview of the car in the chosen color.
-- Pagination to display cars (7 per page) and a feature to generate 100 random cars at once.
-
-### Car Animation
-
-- Start/stop engine buttons with corresponding animations and handling of engine states.
-- Adaptive animations that work on screens as small as 500px.
-
-### Race Animation
-
-- A button to start a race for all cars on the current page.
-- A reset button to return all cars to their starting positions.
-- Display the winner's name upon race completion.
+- Name of view ("Garage")
+- Car creation and editing panel.
+  - Field for entering the name (creating a car).
+  - Color picker (creating a car).
+  - Field for entering the name (editing a car).
+  - Color picker (editing a car).
+  - (Or you can use only one field and picker for both).
+- Race control panel.
+  - Race start and reset buttons.
+  - Button for creating 100 random cars.
+- Garage section.
+  - Cars sections.
+    - Car control panel.
+      - Button to start and stop a single race.
+      - Buttons for selecting and deleting a car.
+    - Car's name.
+    - Race track.
+  - The number of all cars in the garage.
+  - Pagination to display cars (7 per page).
 
 ### Winners View
 
-- Display winning cars with their image, name, number of wins, and best time.
-- Pagination and sorting capabilities by wins and best times.
+- Name of view ("Winners")
+- Winners table, with the following columns:
+  - Car number.
+  - Car icon.
+  - Name.
+  - Number of wins.
+  - Best time.
+- Pagination to display cars (10 per page).
+
+### Race
+
+- Adaptive animations that work on screens as small as 500px.
+- Winner banner. Shown at the end of the race, in case there is a winner. 
+- During a running race, navigation through the application and manipulations with cars should be handled. You can manage this at your discretion, but the work must be correct.
+*Example: The race is started and we are trying to remove a car. Possible solutions:*
+  - *Block the remove button until the end of the race.*
+  - *Stop the race and remove the car.*
+
 
 ## 📜 Non-functional Requirements
 
 - **Framework Usage**: Development must utilize either React v18+ or Angular v17+.
+- **State Manager**: When using React v18+ it is mandatory to use a state manager (Redux, Redux toolkit, MobX or other). React.Context can also be used, but is not recommended.
 - **TypeScript Mandatory**: Strong typing enforced throughout. TypeScript `strict` mode must be enabled, and the `noImplicitAny` flag set to `true` to ensure no implicit `any` types are used.
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
 - **SPA Implementation**: All content must be generated using TypeScript with strict type checking.
@@ -79,7 +102,6 @@ What are you waiting for? Let's start coding!
 - Design UI elements for car management and race controls.
 - Utilize fetch for server communication, and handle promises for asynchronous tasks.
 - Create animations for car movements using TypeScript and CSS.
-- Ensure responsiveness and compatibility across different devices and browsers.
 
 ## Requirements to commits and repo
 
@@ -103,7 +125,8 @@ When your solution is implemented, please include the checklist below in the `RE
 
 Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
 
-## Checklist
+## Checklist ___/400 pts
+
 
 ## 🚀 UI Deployment
 
@@ -119,82 +142,63 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
 
 - [ ] **UI Deployment link in README.md**: Place the link to the deployed UI at the top of the README.md file, alongside the calculated score.
 
-## 🏁 Basic Structure (85 points)
-
-### 1. View Configuration (30 points)
+## Basic Structure (80 points)
 
 - [ ] **Two Views (10 points):** Implement two primary views: "Garage" and "Winners".
-- [ ] **Garage View Content (5 points):** The "Garage" view must display its name, the current page number, and the total number of cars in the database (how many car user has in his garage).
-- [ ] **Winners View Content (5 points):** The "Winners" view should similarly display its name, the current page number, and the total count of records in the database (how many records the winners table contains).
-- [ ] **Persistent State (10 points):** Ensure the view state remains consistent when navigating between views. This includes preserving page numbers and input states. For example, page number shouldn't be reset, input controls should contain that they contained before switching, etc.
+- [ ] **Garage View Content (30 points):** The "Garage" view must display:
+  - [ ] Name of view
+  - [ ] Car creation and editing panel
+  - [ ] Race control panel
+  - [ ] Garage section
+- [ ] **Winners View Content (10 points):** The "Winners" view should display:
+  - [ ] Name of view ("Winners")
+  - [ ] Winners table
+  - [ ] Pagination
+- [ ] **Persistent State (30 points):** Ensure the view state remains consistent when navigating between views. This includes preserving page numbers and input states. For example, page number shouldn't be reset, input controls should contain that they contained before switching, etc.
 
-### 2. Garage View Functionality (55 points)
+## Garage View (90 points)
 
-#### Car Management (45 points)
-
-- [ ] **CRUD Operations (20 points):** Enable users to create, update, and delete cars, and display the list of cars. A car has two attributes: "name" and "color". For "delete"-operation car should be deleted from "garage" table as well as from "winners".
+- [ ] **Car Creation And Editing Panel. CRUD Operations (20 points):** Enable users to create, update, and delete cars. A car has two attributes: "name" and "color". Empty and too long names should be handled. For "delete"-operation car should be deleted from "garage" table as well as from "winners".
 - [ ] **Color Selection (10 points):** Allow color selection from an RGB palette ([like here](https://colorspire.com/rgb-color-wheel/)), displaying the selected color on the car's image along with its name.
-- [ ] **Management Buttons (5 points):** Provide buttons near each car's image for updating its attributes or deleting it.
+- [ ] **Random Car Creation (20 points):** There should be a button to create random cars (100 cars per click). Name should be assembled from two random parts, for example "Tesla" + "Model S", or "Ford" + "Mustang" (At least 10 different names for each part). Color should be also generated randomly.
+- [ ] **Car Management Buttons (10 points):** Provide buttons near each car's image for updating its attributes or deleting it.
 - [ ] **Pagination (10 points):** Implement pagination for the "Garage" view, displaying 7 cars per page.
+- [ ] **EXTRA POINTS (20 points):**
+  - [ ] **Empty Garage** Handle empty garage with user friendly message "No Cars" or something like this. Do it at your discretion.
+  - [ ] **Empty Garage Page** If you remove the last one car on the page, you should be moved on the previous page, to hide the empty one.
 
-#### Car Generation (10 points)
 
-- [ ] **Random Car Creation (10 points):** There should be a button to create random cars (100 cars per click). Name should be assembled from two random parts, for example "Tesla" + "Model S", or "Ford" + "Mustang" (At least 10 different names for each part). Color should be also generated randomly.
-
-## 🚗 Car Animation (50 points)
-
-- [ ] **Engine Control Buttons (10 points):** Place start/stop engine buttons near each car's image.
-- [ ] **Start Engine Animation (20 points):** User clicks to the engine start button -> UI is waiting for car's velocity answer -> animate the car and makes another request to drive. In case api returned 500 error car animation should be stopped.
-- [ ] **Stop Engine Animation (10 points):** User clicks to the engine stop button -> UI is waiting for answer for stopping engine -> car returned to it's initial place.
-- [ ] **Button States (5 points):** Start engine button should be disabled in case car is already in driving mode. As well as stop engine button should be disabled when car is on it's initial place.
-- [ ] **Responsive Animation (5 points):** Ensure car animations are fluid and responsive on screens as small as 500px.
-
-## 🏎️ Race Animation (35 points)
-
-- [ ] **Start Race Button (15 points):** Implement a button to start the race for all cars on the current page.
-- [ ] **Reset Race Button (10 points):** Create a button to reset the race, returning all cars to their starting positions.
-- [ ] **Winner Announcement (10 points):** After some car finishes first user should see the message contains car's name that shows which one has won.
-
-## 🏆 Winners View (45 points)
+## 🏆 Winners View (50 points)
 
 - [ ] **Display Winners (15 points):** After some car wins it should be displayed at the "Winners view" table.
 - [ ] **Pagination for Winners (10 points):** Implement pagination for the "Winners" view, with 10 winners per page.
-- [ ] **Winners Table (10 points):** The table should include columns for the car's №, image, name, number of wins, and best time in seconds. If the same car wins more than once the number of wins should be incremented while best time should be saved only if it's better than the stored one.
+- [ ] **Winners Table (15 points):** The table should include columns for the car's №, image, name, number of wins, and best time in seconds. If the same car wins more than once the number of wins should be incremented while best time should be saved only if it's better than the stored one.
 - [ ] **Sorting Functionality (10 points):** Allow users to sort the table by the number of wins and best time, in ascending or descending order.
 
-## 🏗️ Application Architecture (40 points)
+## 🚗 Race (170 points)
 
-- [ ] **Modular Design (40 points):** The application should be clearly divided into logical modules or layers, such as API interaction, UI rendering, and state management. Consultation with a mentor on the architecture before implementation is advised.
-
-## 📜 Dynamic Content Generation (30 points)
-
-- [ ] **JavaScript-Generated HTML Content (30 points):** All HTML content must be dynamically generated using JavaScript, with the `<body>` tag containing only a single `<script>` tag.
-
-## 🌐 Single Page Application (25 points)
-
-- [ ] **SPA Implementation (25 points):** The application must be a Single Page Application (SPA) using either React v18+ or Angular v17+. All content must be generated using TypeScript with `strict` and `noImplicitAny` settings enabled in `tsconfig.json`, ensuring seamless user experience without page reloads during navigation.
-
-## 📦 Bundling and Tooling (20 points)
-
-- [ ] **Use of Webpack or Similar (20 points):** Implement Webpack or another bundling tool to compile the project into a minimal set of files, ideally one HTML file, one JS file, and one CSS file. Ensure that the configuration enforces TypeScript strict type checking.
-
-## ✅ Code Quality and Standards (15 points)
-
-- [ ] **Eslint with Airbnb Style Guide (15 points):** Code must adhere to the Airbnb ESLint configuration to maintain code quality, as outlined in the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). Specific rules may be adjusted only with mentor approval, and there should be no ESLint errors or warnings.
-
-## 📏 Code Organization and Efficiency (15 points)
-
-- [ ] **Function Modularization (10 points):** Code should be organized into small, clearly named functions with specific purposes. Each function should not exceed 40 lines, reflecting strong typing and avoiding the use of magic numbers or strings.
-- [ ] **Code Duplication and Magic Numbers (5 points):** Minimize code duplication and maintain readability by avoiding the use of magic numbers or strings throughout the codebase.
+- [ ] **Start Engine Animation (20 points):** User clicks to the engine start button near each car -> UI is waiting for car's velocity answer -> animate the car and makes another request to drive. In case api returned 500 error car animation should be stopped.
+- [ ] **Stop Engine Animation (20 points):** User clicks to the engine stop button near each car -> UI is waiting for answer for stopping engine -> car returned to it's initial place.
+- [ ] **Responsive Animation (30 points):** Ensure car animations are fluid and responsive on screens as small as 500px.
+- [ ] **Start Race Button (10 points):** Start button should start the race for all cars on the current page.
+- [ ] **Reset Race Button (15 points):** Reset button should return all cars to their starting positions.
+- [ ] **Winner Announcement (5 points):** After some car finishes first user should see the message contains car's name that shows which one has won.
+- [ ] **Button States (20 points):** Start engine button should be disabled in case car is already in driving mode. As well as stop engine button should be disabled when car is on it's initial place.
+- [ ] **Actions during the race (50 points):** Control over actions during a running race. Such as, deleting or editing a car, changing a page or view. Adding new cars. You can block buttons and stop the race. The main thing is to ensure predictable operation of the application.
 
 ## 🎨 Prettier and ESLint Configuration (10 points)
 
 - [ ] **Prettier Setup (5 points):** Prettier is correctly set up with two scripts in `package.json`: `format` for auto-formatting and `ci:format` for checking issues.
 - [ ] **ESLint Configuration (5 points):** ESLint is configured with the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). A `lint` script in `package.json` runs ESLint checks. Configuration files should reflect strict TypeScript settings as per `tsconfig.json`.
 
-## 🌟 Overall Code Quality (35 points)
+## 🌟 Overall Code Quality. (100 points) *Skip during self-check*
 
-- [ ] **(Up to 35 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
+- [ ] **(Up to 100 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
+  - [ ] **Modular Design** The application should be clearly divided into logical modules or layers, such as API interaction, UI rendering, and state management.
+  - [ ] **Function Modularization** Code should be organized into small, clearly named functions with specific purposes. Common functions moved to helper. Each function should not exceed 40 lines.
+  - [ ] **Code Duplication and Magic Numbers** Minimize code duplication and maintain readability by avoiding the use of magic numbers or strings throughout the codebase.
+  - [ ] **Readability** Clear, readable code. Understandable names of variables, functions, modules
+  - [ ] **Extra features** *Example for React: Custom hooks, Portals, React Router* 
 
 ## 🔄 Evaluation Rules
 
