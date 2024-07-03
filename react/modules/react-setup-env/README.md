@@ -34,7 +34,7 @@ Students are encouraged to study the following resources:
    - [ESLint and Prettier configuration for React project](https://dev.to/tsamaya/eslint-and-prettier-configuration-for-react-project-2gij) - [30 minutes]
    - [Eslint Documentation](https://eslint.org/docs/latest/) - [30 minutes]
    - [Prettier Documentation](https://prettier.io/docs/en/options.html) - [30 minutes]
-   - [Husky Guide](https://typicode.github.io/husky/guide.html) - [30 minutes]
+   - [Husky How-To](https://typicode.github.io/husky/how-to.html) - [30 minutes]
 4. **Vite:**
    - [Getting Started with Vite](https://vitejs.dev/guide/) - [25 minutes]
    - [Why Vite](https://vitejs.dev/guide/why) - [5 minutes]
