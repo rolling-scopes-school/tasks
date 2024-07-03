@@ -27,7 +27,6 @@ Students are encouraged to study the following resources:
 1. **Understanding Error Boundaries:**
    - [Catching rendering errors with an error boundary - new version](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) - [30 minutes]
    - [React Official Docs - Error Boundaries - legacy](https://legacy.reactjs.org/docs/error-boundaries.html) - [1 hour]
-   - [Error Handling in React 16](https://legacy.reactjs.org/blog/2017/07/26/error-handling-in-react-16.html) - [30 minutes]
 2. **Implementing Error Boundaries:**
    - [How To Use Error Boundaries in React](https://www.digitalocean.com/community/tutorials/react-error-boundaries) - [15 minutes]
    - [Handling Errors with Error Boundaries](https://codepen.io/gaearon/pen/wqvxGa?editors=0010) - [15 minutes]
