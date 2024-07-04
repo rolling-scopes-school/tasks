@@ -17,18 +17,14 @@
 
 ## Теория
 
-- Лекции:
-  - [Angular 2020Q1. Components](https://youtu.be/rY_FWXmh4QI)
-  - [Angular 2021Q1. Components](https://youtu.be/oOR3NpA02HI)
-  - [Standalone Components 1](https://www.youtube.com/watch?v=ca2zuEDsDhs)
-  - [Standalone Components 2](https://www.youtube.com/watch?v=mDdCB2oR9IE)
-  - [Standalone Components 3](https://www.youtube.com/watch?v=NYqjdqBySmY)
-  - [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
-  - [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
-- Слайды:
-  - [Angular 2020Q1. Components](https://slides.com/pavelrazuvalau/angular-components)
-  - [Angular 2021Q1. Components](https://slides.com/dzianis_davydau/components)
-  - [Docs](https://angdev.ru/angular/standalone-components/)
+- [Лекция (начиная с 48:25)](https://youtu.be/8lt8Mvxyo5E?t=2905)
+- [Standalone Components 1](https://www.youtube.com/watch?v=x5PZwb4XurU)
+- [Standalone Components 2](https://www.youtube.com/watch?v=NYqjdqBySmY)
+- [Angular Standalone Components](https://www.youtube.com/watch?v=v1omt9uVpXk)
+- [Видео](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
+- [Слайды](https://slides.com/pavelrazuvalau/angular-intro-components#/3)
+- [Docs](https://angular.io/guide/standalone-components)
 
 ## Практическое задание
 
@@ -36,10 +32,10 @@
 
 ## Дополнительные материалы
 
-- [Первое приложение](https://angdev.ru/angular/first-app/)
-- [Введение в компоненты](https://angdev.ru/angular/architecture-components/)
-- [Хуки жизненного цикла](https://angdev.ru/angular/lifecycle-hooks/)
-- [Инкапсуляция представления](https://angdev.ru/angular/view-encapsulation/)
-- [Создать компонент характеристик](https://angdev.ru/angular/toh-pt3/)
-- [Показать список выбора](https://angdev.ru/angular/toh-pt2/)
-- [Проекция содержимого](https://angdev.ru/angular/content-projection/)
+- [Docs Component](https://angular.dev/guide/components)
+- [Learn Angular. Component](https://angular.dev/tutorials/learn-angular/1-components-in-angular)
+- [Learn Angular. Updating the Component](https://angular.dev/tutorials/learn-angular/2-updating-the-component-class)
+- [Learn Angular. Composing Components](https://angular.dev/tutorials/learn-angular/3-composing-components)
+
+- [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)
+
