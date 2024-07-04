@@ -16,11 +16,12 @@
 
 ## Теория
 
-- Лекции:
-  - [Angular 2021Q1. Directives & Pipes](https://youtu.be/RLI6AGKwVcA)
-  - [Directive Angular 17+](https://www.youtube.com/watch?v=8Mv-kj9XWCs)
-- [Video](https://www.youtube.com/watch?v=eM3zi_n7lNs&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
-- [Примеры из видео](https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src)
+- [Лекция](https://youtu.be/ezoPOrwQ-rw)
+- [Директивы Angular 17+ 1](https://www.youtube.com/watch?v=W5l5r0tCsAk)
+- [Директивы Angular 17+ 2](https://www.youtube.com/watch?v=loB7f_2YlfY)
+- [Видео](https://www.youtube.com/watch?v=eM3zi_n7lNs&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
+- [Примеры из лекции](https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src)
+- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/e935bfeef0e794a54907ea2c1978e06e7f914cd7)
 - [Слайды](https://slides.com/natalia_loginowa/angular-directives-pipes)
 
 ## Практическое задание
@@ -29,8 +30,11 @@
 
 ## Дополнительные материалы
 
-- [RU: Angular doc](https://angdev.ru/angular)
-- [RU: Документация](https://angular-ru.github.io)
-- [RU: Directives](https://angdev.ru/angular/built-in-directives/)
+- [DOCS Directive](https://angular.dev/guide/directives)
+- [DOCS Pipes](https://angular.dev/guide/pipes)
 
-- [Pure vs Impure Pipe](https://medium.com/@ghoul.ahmed5/pure-vs-impure-pipe-in-angular-2152cf073e4d)
+- [Learn Pipes](https://angular.dev/tutorials/learn-angular/22-pipes)
+- [Learn Formatting data with pipes](https://angular.dev/tutorials/learn-angular/23-pipes-format-data)
+- [Learn Custom Pipe](https://angular.dev/tutorials/learn-angular/24-create-a-pipe)
+- [Learn Directives @if](https://angular.dev/tutorials/learn-angular/4-control-flow-if)
+- [Learn Directives @for](https://angular.dev/tutorials/learn-angular/5-control-flow-for)
