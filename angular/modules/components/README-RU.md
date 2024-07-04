@@ -38,4 +38,3 @@
 - [Learn Angular. Composing Components](https://angular.dev/tutorials/learn-angular/3-composing-components)
 
 - [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)
-
