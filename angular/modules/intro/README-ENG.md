@@ -27,6 +27,8 @@
 
 ## Additional materials
 
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
+- [Angular Documentation](https://angular.dev/)
 - [DOCS Intro](https://angular.dev/overview)
 - [DOCS Cli](https://angular.dev/tools/cli)
 
