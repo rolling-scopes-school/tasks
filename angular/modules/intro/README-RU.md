@@ -14,9 +14,9 @@
 
 ## Теория от менторов RS
 
-- [TypeScript lecture](https://www.youtube.com/watch?v=pA5l7-SFWWY)
-- [Angular intro lecture (till 48:25)](https://youtu.be/8lt8Mvxyo5E)
-- [Video](https://www.youtube.com/watch?v=xAT0lHYhHMY&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=1)
+- [Лекция по TypeScript](https://www.youtube.com/watch?v=pA5l7-SFWWY)
+- [Angular вводная лекция (до 48:25)](https://youtu.be/8lt8Mvxyo5E)
+- [Видео](https://www.youtube.com/watch?v=xAT0lHYhHMY&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=1)
 - [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/ts-intro/src)
 - [Слайды](https://slides.com/alehserhyienia/angular-intro-typescript)
 
@@ -27,8 +27,8 @@
 
 ## Дополнительные материалы
 
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
-- [Angular Documentation](https://angular.dev/)
+- [TypeScript Документация](https://www.typescriptlang.org/docs/home.html)
+- [Angular Документация](https://angular.dev/)
 - [DOCS Intro](https://angular.dev/overview)
 - [DOCS Cli](https://angular.dev/tools/cli)
 
