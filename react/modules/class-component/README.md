@@ -38,7 +38,6 @@ Expand your knowledge with these additional materials:
 - React.Component [Overview](https://legacy.reactjs.org/docs/react-component.html)
 - Your [First Component](https://react.dev/learn/your-first-component)
 - [Passing Props](https://react.dev/learn/passing-props-to-a-component) to a Component
-- [State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
 - [Responding to Events](https://react.dev/learn/responding-to-events)
 - [Rendering Lists](https://react.dev/learn/rendering-lists)
 - [Sharing State](https://react.dev/learn/sharing-state-between-components) Between Components
