@@ -81,4 +81,4 @@ https://cli.angular.io </br>
 https://angular.io/cli </br>
 https://angular.io/tutorial </br>
 
-NB Before the start of the first task - you have to create your private school repository in the Dashboard of rs-app https://app.rs.school/course/student/dashboard by clicking on the link in 'Your repository' block, then you perform all the tasks there, if not specified otherwise.
+NB Before the start of the first task - you have to create your private school repository in the Dashboard of rs-app https://app.rs.school/course/student/dashboard by clicking on the link in 'Your repository' block, then you perform all the tasks there, unless specified otherwise.
