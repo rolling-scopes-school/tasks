@@ -28,7 +28,7 @@ Assignment - 2 hours.
 ## Additional materials
 
 - [DOCS DI](https://angular.dev/guide/di)
-- [Learn Services & DI](https://angular.dev/guide/di)
+- [Learn Services & DI](https://angular.dev/guide/di/creating-injectable-service)
 - [Learn DI 1](https://angular.dev/tutorials/learn-angular/20-inject-based-di)
 - [Learn DI 2](https://angular.dev/tutorials/learn-angular/21-constructor-based-di)
 
