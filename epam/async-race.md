@@ -37,9 +37,9 @@ What are you waiting for? Let's start coding!
 
 ### Basic Structure
 
-- Two main views: "Garage" and "Winners.
-- Persistent state of user interface between switches, maintaining user input and pagination.
-- The race condition when switching between views can be handled to your liking (the race can be reset, continue, or stop). The main thing is to do it correctly. 
+- Two main views: "Garage" and "Winners."
+- Persistent state of the user interface between switches, maintaining user input and pagination.
+- The race condition when switching between views can be handled according to your preference (the race can be reset, continue, or stop). The main thing is to handle it correctly.
 
 ### Garage View
 
