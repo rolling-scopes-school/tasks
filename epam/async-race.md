@@ -77,12 +77,11 @@ What are you waiting for? Let's start coding!
 ### Race
 
 - Adaptive animations that work on screens as small as 500px.
-- Winner banner. Shown at the end of the race, in case there is a winner. 
+- Winner banner. Shown at the end of the race, in case there is a winner.
 - During a running race, navigation through the application and manipulations with cars should be handled. You can manage this at your discretion, but the work must be correct.
-*Example: The race is started and we are trying to remove a car. Possible solutions:*
-  - *Block the remove button until the end of the race.*
-  - *Stop the race and remove the car.*
-
+  _Example: The race is started and we are trying to remove a car. Possible solutions:_
+  - _Block the remove button until the end of the race._
+  - _Stop the race and remove the car._
 
 ## 📜 Non-functional Requirements
 
@@ -125,8 +124,7 @@ When your solution is implemented, please include the checklist below in the `RE
 
 Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service, and put the link at the top of the `README.md` (alone with the calculated score).
 
-## Checklist ___/400 pts
-
+## Checklist \_\_\_/400 pts
 
 ## 🚀 UI Deployment
 
@@ -167,7 +165,6 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
   - [ ] **Empty Garage** Handle empty garage with user friendly message "No Cars" or something like this. Do it at your discretion.
   - [ ] **Empty Garage Page** If you remove the last one car on the page, you should be moved on the previous page, to hide the empty one.
 
-
 ## 🏆 Winners View (50 points)
 
 - [ ] **Display Winners (15 points):** After some car wins it should be displayed at the "Winners view" table.
@@ -191,14 +188,14 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
 - [ ] **Prettier Setup (5 points):** Prettier is correctly set up with two scripts in `package.json`: `format` for auto-formatting and `ci:format` for checking issues.
 - [ ] **ESLint Configuration (5 points):** ESLint is configured with the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). A `lint` script in `package.json` runs ESLint checks. Configuration files should reflect strict TypeScript settings as per `tsconfig.json`.
 
-## 🌟 Overall Code Quality. (100 points) *Skip during self-check*
+## 🌟 Overall Code Quality. (100 points) _Skip during self-check_
 
 - [ ] **(Up to 100 points)** Discretionary points awarded by the reviewer based on overall code quality, readability
   - [ ] **Modular Design** The application should be clearly divided into logical modules or layers, such as API interaction, UI rendering, and state management.
   - [ ] **Function Modularization** Code should be organized into small, clearly named functions with specific purposes. Common functions moved to helper. Each function should not exceed 40 lines.
   - [ ] **Code Duplication and Magic Numbers** Minimize code duplication and maintain readability by avoiding the use of magic numbers or strings throughout the codebase.
   - [ ] **Readability** Clear, readable code. Understandable names of variables, functions, modules
-  - [ ] **Extra features** *Example for React: Custom hooks, Portals, React Router* 
+  - [ ] **Extra features** _Example for React: Custom hooks, Portals, React Router_
 
 ## 🔄 Evaluation Rules
 

@@ -4,7 +4,7 @@
 
 1. Create a separate branch for this task from the previous task's branch. Branch name: "hooks-and-routing".
 2. All components must be changed to **functional components**, except **Error Boundary** components, as error boundaries in React still need to be class components.
-   - Implement custom hook to restore search query from the local storage (LS) and put it to the LS on unmount. Use respective React lifecycle hook as a basis.
+   - Implement custom hook to restore search query from the local storage (LS). Use respective React lifecycle hook as a basis.
 3. All logic should be split into components:
    - If you need an access either to the component's lifecycle or the state **use hooks**.
    - All data should be stored in the **component's state**.
@@ -55,7 +55,7 @@ A student can achieve a maximum of 100 points.
 
 - Tests are added to the project, can be run via a `test` command in the package.json, no errors are produced, test coverage >= 80% (at least for `statements`) - **30**
 - Conversion of class components to functional components with hooks - **15**
-- Custom hook to restore search query from LS and put it back to LS on unmount - **5**
+- Custom hook to restore search query from LS - **5**
 - Pagination is present in both URL and on the page - **20**
 - Upon clicking, open details panel on the right side of the page: - **5**
   - use router outlet, left side of the page should continue displaying the list of results - **10**
