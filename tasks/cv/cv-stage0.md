@@ -37,7 +37,7 @@
 
 **Максимальный балл за задание +120**
 
-- студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2022q2) ссылку на своё CV, задеплоенное на `gh-pages` +10
+- студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2024q2) ссылку на своё CV, задеплоенное на `gh-pages` +10
 - вёрстка валидная +10
   - для проверки валидности вёрстки используйте сервис https://validator.w3.org/
   - валидной вёрстке соответствует надпись "Document checking completed. No errors or warnings to show." В таком случае баллы за пункт требований выставляем полностью.
