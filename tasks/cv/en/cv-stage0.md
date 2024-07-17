@@ -9,7 +9,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
 - Follow the [HTML and CSS guidelines](https://codeguide.academy/html-css.html) when writing code.
 - Content should be placed within a block that is horizontally centered on the page.
 - The CV page should display correctly in the latest version of Google Chrome.
-- Include a footer with a link to your GitHub, the year of creation, and the [course logo](https://rs.school/images/rs_school_js.svg) with a [link to the course](https://rs.school/courses/javascript-ru).
+- Include a footer with a link to your GitHub, the year of creation, and the [course logo](../rs-school-logo.svg) with a [link to the course](https://rs.school/courses/javascript-ru).
 
 ## Workflow
 
@@ -43,7 +43,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
     - `nav` element (+5 points).
     - Only one `h1` heading (+5 points).
     - `h2` headings (+5 points).
-- Footer includes a link to the author's GitHub, the year of creation, the [course logo](https://rs.school/images/rs_school_js.svg), and a [link to the course](https://rs.school/courses/javascript-ru) (+10 points).
+- Footer includes a link to the author's GitHub, the year of creation, the [course logo](../rs-school-logo.svg), and a [link to the course](https://rs.school/courses/javascript-ru) (+10 points).
   - If the link in the footer leads to the [stage0 course](https://rs.school/courses/javascript-preschool-ru), it is not considered an error.
 - CSS styles are used for formatting the CV (+10 points).
 - When the browser window is resized, the formatting remains centered horizontally rather than shifting to the side (+10 points).
