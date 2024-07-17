@@ -15,11 +15,11 @@
 - вёрстка валидная. Для проверки валидности вёрстки используйте используйте сервис https://validator.w3.org/
 - вёрстка семантическая
 - вёрстка адаптивная
-- при написании кода следуйте гайдлайну https://codeguide.academy/html-css.html
+- при написании кода следуйте [гайдлайну](https://codeguide.academy/html-css.html)
 - контент размещается в блоке, который горизонтально центрируется на странице
 - содержание СV соответствует рекомендациям EPAM HR department, указанным в задании [Markdown & Git](git-markdown.md)
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/).  
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru).  
   Данный пункт не оценивается, но без ссылки на ваш гитхаб, проверяющие не смогут проверить описание PR и выставить за него баллы.
 
 ## Требования к коммитам
@@ -29,7 +29,7 @@
 ## Технические требования
 
 - работа приложения проверяется в браузере Google Chrome последней версии
-- можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://material.io/), css фреймворки, html и css препроцессоры
+- можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://m3.material.io/), css фреймворки, html и css препроцессоры
 - разрешается использовать jQuery только в качестве подключаемой зависимости для UI библиотек. Использование jQuery в основном коде приложения не допускается
 - можно использовать Angular/React/Vue, другие JS-фреймворки и библиотеки (кроме jQuery)
 
@@ -87,7 +87,7 @@ CV - таск, который проверяется в ходе кросс-че
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
 
 ## Примеры CV
 
