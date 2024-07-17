@@ -19,7 +19,7 @@ In this task, the layout of the CV created during the [HTML, CSS & Git](html-css
 - The content should be placed in a block that is horizontally centered on the page.
 - The content of the CV should adhere to the recommendations of the EPAM HR department, as specified in the [Markdown & Git](git-markdown.md) assignment.
 - The CV page should display correctly in the latest version of the Google Chrome browser.
-- In the footer, include a link to your GitHub, the year of application creation, the [course logo](https://rs.school/images/rs_school_js.svg) with a link to the [course](https://rs.school/js/). This item is not graded, but without a link to your GitHub, reviewers won't be able to check the PR description and assign points for it.
+- In the footer, include a link to your GitHub, the year of application creation, the [course logo](../rs-school-logo.svg) with a link to the [course](https://rs.school/js/). This item is not graded, but without a link to your GitHub, reviewers won't be able to check the PR description and assign points for it.
 
 ## Commit Requirements
 
