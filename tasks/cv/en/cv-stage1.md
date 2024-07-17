@@ -76,7 +76,7 @@ The difference between the maximum score for the task (150 points) and the maxim
 ## Cross-Check
 
 - Cross-check instructions: [Cross-Check Flow](https://docs.rs.school/#/en/cross-check-flow)
-- Review form: [Review Form](https://rolling-scopes-school.github.io/checklist/) (choose "CV")
+- Review form: [Review Form](https://rolling-scopes-school.github.io/checklist/) (item "CV")
 - Please add links to the best works to the form: [Form](https://forms.gle/tgC3Y3dn9y2Yu5NF6)
 
 ## Resources
