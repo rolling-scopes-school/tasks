@@ -22,13 +22,13 @@
 1. Работу ведёте в ветке `rsschool-cv-html` репозитория `rsschool-cv`.
 2. При вёрстке CV ориентируйтесь на [Требования к вёрстке](#требования-к-вёрстке) и [Критерии оценки](#критерии-оценки).
 3. Самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки)
-4. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
+4. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
+   Название Pull Request на ваше усмотрение. Описывать этот Pull Request не нужно.  
+   Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
+5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
    Название Pull Request `CV. Cross-Check`  
    [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
    Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
-5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
-   Название Pull Request на ваше усмотрение. Описывать этот Pull Request не нужно.  
-   Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
 6. В файл `README.md` ветки `main` добавьте две ссылки, в которых вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этим ссылкам должны открываться страницы CV в формате markdown и в виде свёрстанной страницы
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/`
