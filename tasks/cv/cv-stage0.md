@@ -15,7 +15,7 @@
 - при написании кода рекомендуется следовать гайдлайну https://codeguide.academy/html-css.html
 - контент размещается в блоке, который горизонтально центрируется на странице
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru)
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru)
 
 ## Порядок работы
 
@@ -49,7 +49,7 @@
   - элемент `nav` +5
   - только один заголовок `h1` +5
   - заголовки `h2` +5
-- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru) +10  
+- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru) +10  
   Если ссылка в футере ведёт на [курс stage0](https://rs.school/courses/javascript-preschool-ru) или на [English курс](https://rs.school/courses/javascript), это не ошибка.
 - для оформления СV используются css-стили +10
 - при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону +10
