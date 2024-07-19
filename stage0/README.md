@@ -79,7 +79,7 @@
 
 ### Неделя #12
 
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#3"](../tasks/shelter/shelter-part3.md)
 - ["CSS Mem Slider"](../tasks/css-meme-slider)
 
 ### Неделя #13
