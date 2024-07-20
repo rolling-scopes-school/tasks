@@ -32,7 +32,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
 
 **Maximum score for the task: +120**
 
-- The student submits a link to their CV deployed on `gh-pages` in the [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2024q2) (+10 points).
+- The student submits a link to their CV deployed on `gh-pages` in the [rs app](https://app.rs.school/course/student/cross-check-submit) (+10 points).
 - Valid markup (+10 points).
   - Use the [https://validator.w3.org/](https://validator.w3.org/) service to check validity.
   - Valid markup should display "Document checking completed. No errors or warnings to show." Full points for meeting this requirement.
