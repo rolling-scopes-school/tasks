@@ -23,8 +23,8 @@ Practice - 4 hour
 - [NGRX testing](https://next.ngrx.io/guide/store/testing)
 - [Testing standalone component (v. 16)](http://www.kamilkonopka.eu/posts/testing-angular-16-standalone-components-with-jest)
 - [HTTP based service (v. 16)](https://blog.stackademic.com/testing-http-based-services-within-angular-16-with-jest-c9e867e22632)
-- [Component testing scenarios](https://angular.io/guide/testing-components-scenarios#component-testing-scenarios)
-- [Testing services](https://angular.io/guide/testing-services)
+- [Component testing scenarios](https://angular.dev/guide/testing/components-scenarios)
+- [Testing services](https://angular.dev/guide/testing/services)
 
 ## Practical assignment
 
