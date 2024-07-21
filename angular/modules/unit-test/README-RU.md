@@ -9,7 +9,7 @@
 
 ## Приблизительное время прохождения модуля
 
-Теория - 2 часа  
+Теория - 2 часа
 Практика - 4 час
 
 ## Теория
@@ -21,8 +21,8 @@
 - [Тестирование NGRX store](https://itnext.io/complete-testing-of-angular-ngrx-store-with-jest-a4ac5fb55e23)
 - [Тестирование NGRX](https://next.ngrx.io/guide/store/testing)
 - [Тестирование standalone компонента (v. 16)](http://www.kamilkonopka.eu/posts/testing-angular-16-standalone-components-with-jest)
-- [Сценарии тестирования компонентов](https://angular.io/guide/testing-components-scenarios#component-testing-scenarios)
-- [Тестирование сервисов](https://angular.io/guide/testing-services)
+- [Сценарии тестирования компонентов](https://angular.dev/guide/testing/components-scenarios)
+- [Тестирование сервисов](https://angular.dev/guide/testing/services)
 
 ## Практическое задание
 
