@@ -101,4 +101,6 @@ You can ask questions and interact with others in our course Discord channel: [D
 
 ### Week #11
 
+- [Presentation](modules/peresentation/README-ENG.md)
+
 - [Interview](modules/interview/README.md)
