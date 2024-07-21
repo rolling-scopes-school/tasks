@@ -10,7 +10,7 @@
 ## Approximate time to complete this module:
 
 Theory - 2 hours
-Practice - 4 hour
+Practice - 4 hours
 
 ## Theory
 
