@@ -9,7 +9,7 @@
    - RTK Query Implementation: Use Redux Toolkit Query (RTK Query) to make API calls and cache the results. This will modify your previous API call implementation;
    - Use RTK Query to show whether the data is being loaded. Avoid prop-drilling, if it is required to show indicator in child component, put the respective flag in the store;
    - Items returned for the current page should be stored in the store;
-   - Selected item details should be stored in the store.
+   - Currently selected item details should be stored in the store.
 4. Context API:
    - Add context to control the application theme (light or dark).
 5. Test Updates
@@ -38,8 +38,7 @@ A student can achieve a maximum of 200 points.
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
-- RTK query is used for api calls - **25**
-- Current page and selected item details are saved in the separate slices in the Redux store - **25**
+- RTK query is used for api calls - **50**
 - Selected items are managed through the redux store, selected items are persistent across pages - **50**
 - Flyout component is showed/hidden based on the presence of selected items, displays the number of selected items - **20**
 - "Unselect all" button and "Download" button work according to the requirements - **35**
