@@ -11,8 +11,8 @@
 
 ## Approximate time to complete this module:
 
-Theory - 2 hours,
-Assignment - 2 hours.
+Theory - 2 hours
+Assignment - 2 hours
 
 ## Theory
 
@@ -25,6 +25,7 @@ Assignment - 2 hours.
 ## Practical assignment
 
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
+- Test: Angular test (Modules, Services)
 
 ## Additional materials
 

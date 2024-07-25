@@ -21,6 +21,7 @@ Assignment - 1 hour
 ## Practical assignment
 
 - [Angular. HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
+- Test: Angular test (HTTP)
 
 ## Additional materials
 

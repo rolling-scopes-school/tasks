@@ -9,8 +9,8 @@
 
 ## Approximate time to complete this module:
 
-Theory - 2 hours  
-Practice - 4 hour
+Theory - 2 hours
+Practice - 4 hours
 
 ## Theory
 
@@ -29,11 +29,12 @@ Practice - 4 hour
 ## Practical assignment
 
 - [Angular. Unit testing with Jest](../../../tasks/angular/unit-testing-jest.md)
+- Test: Angular test (Unit test)
 
 ## Additional materials
 
 - [Testing](https://angular.dev/guide/testing)
-
+- [HTTP Testing](https://angular.dev/guide/http/testing)
 - [Key qualities of a good unit test](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Unit testing in JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)
 - [Code angular-testing-lecture](https://github.com/stas-dolgachov/angular-testing-lecture)
