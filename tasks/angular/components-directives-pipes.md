@@ -12,6 +12,8 @@ You are to enrich previously generated components with necessary functionality a
 You can use any UI frameworks/libraries to simplify (facilitate) the creation of your markup. It's recommended to use Angular Material as it’s fully integrated with Angular.
 
 **[YouTube client. Main page](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
+NB: Visual design and colour scheme of the app is by your taste - just all the necessary components should be created and usually better if they would be on their recommended places,
+though you can also follow one in one offered design.
 
 #### Components structure
 
