@@ -73,8 +73,6 @@ https://angular.dev/api#common-http
 
 https://angular.dev/api/common/http/HttpClient
 
-https://angular.io/api/common/http/HttpResponse
-
 https://angular.dev/api/common/http/HttpResponse
 
 https://angular.dev/api/common/http/HttpParams
