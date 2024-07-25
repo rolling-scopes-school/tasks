@@ -14,7 +14,7 @@ The goal of this task is to implement new pages using modules, services, and rou
 ### Task requirements
 
 To continue with the YouTube app, some structural refactoring is required.
-First, your project should be reorganized into the following modules:
+First, your project can be reorganized into the following modules (final decision is on your mentor on how many modules to create if you're following standalone approach):
 
 - **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the **AppModule**
 - **YoutubeModule:** This is a feature module for YouTube functionalities. It should contain the main page (previously implemented), the **Detailed Information Page**, and related models, services, etc.
