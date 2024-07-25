@@ -91,8 +91,8 @@ Fines
 [Attribute directives](https://angular.dev/guide/directives/attribute-directives)
 [Structural directives](https://angular.dev/guide/directives/structural-directives)
 [Pipes](https://angular.dev/guide/pipes)
-[API Directive](https://angular.dev/api/core/Directive)
-[API Pipes](https://angular.dev/api/core/Pipe)
+[api Directive](https://angular.dev/api/core/Directive)
+[api Pipes](https://angular.dev/api/core/Pipe)
 
 https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components
 https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src

@@ -86,14 +86,10 @@ Fines
 
 ### Useful links
 
-https://angular.io/start/start-forms
-
-https://angular.io/guide/reactive-forms
-
-https://angular.io/guide/forms
-
-https://angular.io/guide/typed-forms
-
-https://angular.io/api/forms/FormGroup
+[Forms Overview](https://angular.dev/tutorials/learn-angular/15-forms)
+[Reactive forms](https://angular.dev/guide/forms/reactive-forms)
+[Typed Forms](https://angular.dev/guide/forms/typed-forms)
+[Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
+[api FormGroup](https://angular.dev/api/forms/FormGroup)
 
 https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
