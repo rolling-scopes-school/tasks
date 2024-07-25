@@ -118,29 +118,20 @@ Fines
 
 ### Useful links
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt4
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt5
+[Tour of Heroes Tutorial](https://angular.io/tutorial/tour-of-heroes/toh-pt4)
 
-https://angular.io/guide/architecture-modules
-
-https://angular.io/guide/ngmodules
-
-https://angular.io/guide/ngmodule-faq
-
+[Importing and using components](https://angular.dev/guide/components/importing)
+[NgModules](https://angular.dev/guide/ngmodules)
+[NgModule FAQ](https://angular.dev/guide/ngmodules/faq)
 https://angular.io/guide/architecture-services
-
-https://angular.io/guide/dependency-injection
-
-https://angular.io/guide/dependency-injection-providers
-
-https://angular.io/guide/dependency-injection-in-action
+[Dependency injection in Angular](https://angular.dev/guide/di)
+[Configuring dependency providers](https://angular.dev/guide/di/dependency-injection-providers)
+[DI in action](https://angular.dev/guide/di/di-in-action)
+[Common Routing Tasks](https://angular.dev/guide/routing/common-router-tasks)
+[api Router](https://angular.dev/api#router)
+[api RouterLinkActive](https://angular.dev/api/router/RouterLinkActive)
+[Lazy loading](https://angular.dev/guide/ngmodules/lazy-loading)
 
 https://www.freelancermap.com/blog/using-forroot-and-forchild-to-configure-modules-in-angular/
-https://angular.io/guide/router
-
-https://angular.io/api/router
-
-https://angular.io/api/router/RouterLinkActive
-
-https://angular.io/guide/lazy-loading-ngmodules
