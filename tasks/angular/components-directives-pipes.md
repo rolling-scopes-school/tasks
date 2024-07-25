@@ -79,44 +79,25 @@ Fines
 
 ### Useful links
 
-https://angular.io/tutorial
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt1
+[Tour of Heroes Tutorial](https://v17.angular.io/tutorial/tour-of-heroes/toh-pt1)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt2
-
-https://angular.io/tutorial/tour-of-heroes/toh-pt3
-
-https://angular.io/guide/architecture-components
-
-https://angular.io/guide/displaying-data
-
-https://angular.io/guide/template-syntax
-
-https://angular.io/guide/lifecycle-hooks
-
-https://angular.io/guide/component-interaction
-
-https://angular.io/guide/cheatsheet
-
-https://angular.io/guide/attribute-directives
-
-https://angular.io/guide/structural-directives
-
-https://angular.io/guide/pipes
-
-https://angular.io/api/core/Directive
-
-https://angular.io/api/core/Pipe
+[Components](https://angular.dev/guide/components)
+[Templates syntax](https://angular.dev/guide/templates)
+[Components Lifecycle](https://angular.dev/guide/components/lifecycle)
+[Components Interaction](https://angular.dev/guide/components/inputs)
+[Cheatsheet](https://angular.io/guide/cheatsheet)
+[Attribute directives](https://angular.dev/guide/directives/attribute-directives)
+[Structural directives](https://angular.dev/guide/directives/structural-directives)
+[Pipes](https://angular.dev/guide/pipes)
+[API Directive](https://angular.dev/api/core/Directive)
+[API Pipes](https://angular.dev/api/core/Pipe)
 
 https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components
-
 https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src
 
 https://medium.com/javascript-everyday/encapsulate-common-behaviors-with-the-aid-of-angular-directives-223ace0cd0ca
-
 https://levelup.gitconnected.com/the-power-of-angular-directives-a-comprehensive-guide-f9f929404b6b
-
 https://levelup.gitconnected.com/what-is-a-pipe-in-angular-how-do-you-use-angular-pipes-650d7ff6d103
-
 https://towardsdev.com/the-unknown-angular-built-in-pipes-you-need-to-start-using-a8fb1dec2ac1
