@@ -49,7 +49,7 @@ NB: Visual design and colour scheme of the app is by your taste - just all the n
   - Sorting should work in both ascending and descending directions of the values
   - Filter search results by the value that user types in the input
 
-NB: Though new Angular 18 generates Standalone components by default, and standalone architecture is recommended by Angular developers for all the new projects - in one of the future tasks you'll be asked to implement some of the components as modules to get acquainted with NgModules concept, since they are still widely used in legacy code and a lot of projects were created on Angular 14 and lower versions.
+NB: Though new Angular 18 generates Standalone components by default, and standalone architecture is recommended by Angular developers for all the new projects - in one of the future tasks you'll be asked to implement some of the components as modules to get acquainted with NgModules concept, since they are still widely used in legacy code and a lot of projects were created on Angular 14 and lower versions, and in sake of learning different approaches.
 
 #### Evaluation criteria
 
