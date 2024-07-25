@@ -79,7 +79,7 @@
 
 ### Неделя #12
 
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Library#3"](../tasks/library/library-part3.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#3"](../tasks/shelter/shelter-part3.md)
 - ["CSS Mem Slider"](../tasks/css-meme-slider)
 
 ### Неделя #13
@@ -137,7 +137,7 @@
 
 ### Нужна ли регистрация на основной курс если я зарегистрирован на подготовительный этап?
 
-Да, нужна. Ссылка на регистрацию тут - https://rs.school/js/
+Да, нужна. Ссылка на регистрацию тут - https://rs.school/courses/javascript-ru
 
 ### Можно ли пропускать вебинары?
 
