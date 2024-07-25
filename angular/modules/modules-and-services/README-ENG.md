@@ -40,3 +40,4 @@ Assignment - 2 hours
 - [Angular Dependency Injection: Complete Guide](https://blog.angular-university.io/angular-dependency-injection/)
 - [Using forRoot() and forChild()](https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular)
 - [Angular Standalone Components: Welcome to a World Without NgModule](https://netbasal.com/angular-standalone-components-welcome-to-a-world-without-ngmodule-abd3963e89c5)
+- [Shared Module - любимый антипаттерн angular разработчиков (RU)](https://www.youtube.com/watch?v=XVON1hJuZCo)
