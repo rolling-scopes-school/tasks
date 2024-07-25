@@ -150,3 +150,4 @@
 ## Проверка задания shelter. week-1
 
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- список доступных чеклистов: [Cheklists](https://rolling-scopes-school.github.io/checklist/)
