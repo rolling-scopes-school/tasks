@@ -75,6 +75,8 @@ https://angular.dev/api/common/http/HttpClient
 
 https://angular.dev/api/common/http/HttpResponse
 
+https://angular.dev/api/common/http/HttpHeaders
+
 https://angular.dev/api/common/http/HttpParams
 
 https://pazel.dev/how-to-keep-your-secrets-from-your-source-code-in-an-angular-project
