@@ -98,8 +98,14 @@ You are free to choose your own way of developing the project and the repository
 
 ### General requirements
 
-- Errors from the API side (Not found, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like that - up to your decision).
-- Localization (at least 2 languages). You should be able to change the language by clicking on the toggler/select in the header. Localization should be implemented using Context API. No 3rd party / open-source solutions are allowed.
+- Errors (Not found route, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like that - up to your decision).
+- Internationalization (i18n) - at least 2 languages. You should be able to change the language by clicking on the toggler/select in the header.
+
+#### Error handling
+
+Application should gracefully handle errors and show meaningfull messages to the user.
+Please, distiungush between errors on the application level and the valid HTTP error code.
+CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx HTTP response codess should be displayed on the response section.
 
 ### Welcome page
 
@@ -123,18 +129,18 @@ You are free to choose your own way of developing the project and the repository
 - For the authentication you should use Firebase with the email/password sign-in method. Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/)
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character, Unicode passwords must be supported)
 - Upon successful login, the user should be redirected to the RESTfull client
-- If the user is already logged in and tries to reach these routes, they should be redirected to the Main page
+- If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
 
 ### RESTfull client
 
 - This route should be private.
 - Header should be visible.
-- Method selector. Selected method should be reflected in the application url (e.g. http://restclient.com/GET), for more details check the next section.
+- Method selector. Selected method should be reflected in the application url (e.g. http://restclient.com/GET), for more details, please, check the next section.
 - Endpoint (url) input.
-- Request body editor / JSON viewer. It will be used in the response section in read-only mode. Please, mind that request body editor should support at least JSON and the plain text. Support of the XML syntax is not mandatory.
+- Request body editor / JSON viewer. It will be used in the response section in read-only mode. Should support prettifying. Please, mind that request body editor should support at least JSON and the plain text. Support of the XML syntax is not mandatory.
 - Variables editor section.
 - Headers editor section.
-- Response section. Should be read only.
+- Response section. Should be read only. Should contain information about HTTP response code and the response status.
 
 #### Routing on RESTfull client
 
@@ -153,7 +159,7 @@ And we you want to make a POST request to the same endpoint, e.g.:
 curl -d '{"title":"fakeTitle","userId":1,"body":"fakeMessage"}' https://jsonplaceholder.typicode.com/posts
 ```
 
-In your editor you would need to specify headers, too (mind that you need to url encode headers values):
+Headers, specified in the editor, should be provided as url query parameters (mind that you need to url encode headers values):
 `http://localhost:5137/POST/aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3Bvc3Rz/eyJ0aXRsZSI6ImZha2VUaXRsZSIsInVzZXJJZCI6MSwiYm9keSI6ImZha2VNZXNzYWdlIn0=?Content-Type=application%2Fjson`
 
 ### GraphiQL
@@ -161,16 +167,25 @@ In your editor you would need to specify headers, too (mind that you need to url
 - This route should be private.
 - Header should be visible.
 - Endpoint (url) input.
-- Query editor / JSON viewer. The query editor should support prettifying - any 3rd party / open-source solution is forbidden, you should implement it on your own. JSON viewer should be read-only, it will be used in the response section.
-- Variables editor section.
-- Headers editor section (If you are making a CORS request each added header should be supported on the backend, please, consider that).
-- Documentation section, should be visible only when the app receives a successful response with the schema definition from the API.
-- Response section. Should be read only.
+- SDL endpoint (url) input which will be used for the documentation. By default will duplicate the value provided in the main url input, and will add "?sdl" to the end. Use should be able to modify this url if the api uses another endpoint for the documentation.
+- Query editor. The query editor should support prettifying. You CAN use one editor for GraphiQL and the RESTfull client, but mind the support of the GraphQL syntax.
+- Response section / JSON viewer. JSON viewer should be read-only, it will be used in the response section. Should contain information about HTTP response code and the response status. You SHOULD reuse the one from the RESTfull client.
+- Variables editor section. You CAN reuse the one from the RESTfull client.
+- Headers editor section (If you are making a CORS request each added header should be supported on the backend, please, consider that). You CAN reuse the one from the RESTfull client.
+- Documentation section, should be visible only when the app receives a successfull response with the schema definition from the API.
 
 #### Routing on GraphiQL client
 
 Similar to the RESTfull client, the request infromation should be provided via the url, with the only exception - all the GraphQL queries are POST queries, so to distinguish it from the usual REST queries, you should use GRAPHQL as a first route parameter:
 `http://localhost:5137/GRAPHQL/{endpointUrlBase64encoded}/{bodyBase64encoded}?header1=header1value&header2=header2value...`
+
+### History
+
+- This route should be private.
+- If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTfull and to the GraphiQL clients.
+- All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
+- History section should display request using links, on clicking on the link, user should be havigated to the respective section (RESTfull client or GraohiQL).
+- After navigating to the respective section, all the functional fields (url, method selector, headers, body, values, sdl url for the GraphQL query) should be restored. Please, mind this when saving the request in the local storage to ensure that all the required data will be saved.
 
 ## How to submit tasks
 
@@ -184,7 +199,7 @@ Similar to the RESTfull client, the request infromation should be provided via t
 
 It contains:
 
-- maximum 350 for crosscheck
+- maximum 400 for crosscheck
 - maximum 50 for your involvement in a project. Those points will be assigned by the mentor for each student.
 
 ## Cross-check criteria
@@ -194,52 +209,61 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Welcome route - max 50 points
 
-- [ ] The welcome page should contain general information about the developers, project, and course **10 points**
-- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up **10 points**
-- [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Main Page" button **10 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically **10 points**
-- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form **10 points**
+- [ ] The welcome page should contain general information about the developers, project, and course. - **10 points**
+- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. - **10 points**
+- [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Main Page" button. - **10 points**
+- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. - **10 points**
+- [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. - **10 points**
 
 ### Sign In / Sign Up - max 50 points
 
-- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be **10 points**
-- [ ] Client-side validation is implemented **20 points**
-- [ ] Upon successful login, the user is redirected to the Main page **10 points**
-- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page **10 points**
+- [ ] Buttons for Sign In / Sign Up / Sign Out are everywhere where they should be. - **10 points**
+- [ ] Client-side validation is implemented. - **20 points**
+- [ ] Upon successful login, the user is redirected to the Main page. - **10 points**
+- [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. - **10 points**
 
-### RESTfull client - max 100 points
+### RESTfull client - max 120 points
 
-- [ ] Functional editor enabling query editing and prettifying, read-only response section, request body provided in the url as base64-encoded on focus out **50 points**
-- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the url on change - **10 points**
-- [ ] Input for the url, entered value is provided in base64-encoded way on change **15 points**
-- [ ] Headers section, value is provided in the url on header add/change **25 points**
+- [ ] Functional editor enabling query editing and prettifying, request body provided in the url as base64-encoded on focus out. - **40 points**
+- [ ] Functional read-only response section, with information about HTTP status and the code. - **30 mpoints**
+- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the url on change. - **10 points**
+- [ ] Input for the url, entered value is provided in base64-encoded way on change. - **15 points**
+- [ ] Variables section that can shown or hidden, specified variables are included in the body. - **15 points**
+- [ ] Headers section, value is provided in the url on header add/change. - **20 points**
 
-### GraphiQL route - max 100 points
+### GraphiQL route - max 80 points
 
-- [ ] Functional editor enabling query editing and prettifying, read-only response section, request body provided in the url as base64-encoded on focus out **50 points**
-- [ ] Operational documentation explorer, visible _only_ upon successful SDL request **25 points**
-- [ ] Variables section that can shown or hidden, specified variables are sent to the server **15 points**
-- [ ] Header section that can be shown or hidden, value is provided in the url on header add/change **10 points**
+- [ ] Functional editor enabling query editing and prettifying, request body provided in the url as base64-encoded on focus out. - **35 points**
+- [ ] Read-only response section, with information about HTTP status and the code, reused from the RESTfull client. - **5 points**
+- [ ] Operational documentation explorer, visible _only_ upon successful SDL request. - **20 points**
+- [ ] Variables section that can shown or hidden, specified variables are included in the body. - **10 points**
+- [ ] Header section that can be shown or hidden, value is provided in the url on header add/change. - **10 points**
+
+### History route = max 50 points
+
+- [ ] History shows informational message with links to the clients when there is no requests in the local storage. - **10 points**
+- [ ] User can navigate to the previoulsy executed HTTP request to the RESTfull client, HTTP method, url, body, headers, variables are restored. **20 points**
+- [ ] User can navigate to the previoulsy executed GraphQL request to the GraphiQL client, url, SDL url, body, headers, variables are restored. **20 points**
 
 ### General requirements - max 50 points
 
-- [ ] Localization **30 points**
-- [ ] Sticky header **10 points**
-- [ ] Errors from API side are displayed in the user friendly format **10 points**
+- [ ] Multiple (at lest 2) languages support / i18n. - **30 points**
+- [ ] Sticky header. - **10 points**
+- [ ] Errors are displayed in the user friendly format. - **10 points**
 
 ### Penalties
 
 - [ ] Vite/NextJS default favicon **-50 points**
+- [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 - [ ] The presence of errors and warnings in the console **-20 points** for each
 - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
 - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
-- [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 - [ ] Making commits after the deadline **-100 points**
 - [ ] Absence of tests **-250 points**
 - [ ] Test coverage below 80% **-100 points**
 - [ ] Absence of linting **-150 points**
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
-- [ ] Usage 3rd party / open source libraries for i18n **-150 points**
-- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
+- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following) **-10 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
