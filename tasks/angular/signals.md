@@ -23,7 +23,6 @@ Fines
 - [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
 - [ ] The app doesn't work or has console errors. (**-20**)
 - [ ] ESLint's warnings or errors are present. (**-15**)
-- [ ] For each unit test case that fails. (**-20**)
 - [ ] Didn't migrate the application completely from Karma and Jasmine to Jest. (**-20**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
