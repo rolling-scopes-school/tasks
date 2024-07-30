@@ -99,7 +99,7 @@ You are free to choose your own way of developing the project and the repository
 ### General requirements
 
 - Errors (Not found route, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like that - up to your decision).
-- Internationalization (i18n) - at least 2 languages. You should be able to change the language by clicking on the toggler/select in the header.
+- Internationalization (i18n) - at least 2 languages. User should be able to change the language by clicking on the toggler/select in the header.
 
 #### Error handling
 
