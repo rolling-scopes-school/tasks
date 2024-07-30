@@ -167,7 +167,7 @@ Headers, specified in the editor, should be provided as url query parameters (mi
 - This route should be private.
 - Header should be visible.
 - Endpoint (url) input.
-- SDL endpoint (url) input which will be used for the documentation. By default will duplicate the value provided in the main url input, and will add "?sdl" to the end. Use should be able to modify this url if the api uses another endpoint for the documentation.
+- SDL endpoint (url) input which will be used for the documentation. By default will duplicate the value provided in the main url input, and will add "?sdl" to the end. User should be able to modify this url if the api uses another endpoint for the documentation.
 - Query editor. The query editor should support prettifying. You CAN use one editor for GraphiQL and the RESTfull client, but mind the support of the GraphQL syntax.
 - Response section / JSON viewer. JSON viewer should be read-only, it will be used in the response section. Should contain information about HTTP response code and the response status. You SHOULD reuse the one from the RESTfull client.
 - Variables editor section. You CAN reuse the one from the RESTfull client.
