@@ -100,6 +100,20 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 #### Theory
 
+- [Server-side rendering/generation in React. NextJS. Remix](modules/nextjs-ssr-ssg/)
+
+#### Practical tasks
+
+[Task 4](modules/tasks/nextjs-ssr-ssg.md)
+
+#### Tests
+
+- Test 7. React SSR
+
+### Week #7 (12th of August, 2024)
+
+#### Theory
+
 - [Forms in React](modules/forms/)
 
 #### Practical tasks
@@ -109,11 +123,6 @@ This course is aimed at the students of the RS School who have passed RS School 
 #### Tests
 
 - Test 8. React forms
-
-### Week #7 (12th of August, 2024)
-
-- [Technical React Interview](interview.md)
-- [REST/GraphiQL client](modules/tasks/final.md)
 
 ### Week #8 (19th of August, 2024)
 
@@ -130,7 +139,12 @@ This course is aimed at the students of the RS School who have passed RS School 
 - [Technical React Interview](interview.md)
 - [REST/GraphiQL client](modules/tasks/final.md)
 
-### Week #12 (9th of September, 2024)
+### Week #11 (9th of September, 2024)
+
+- [Technical React Interview](interview.md)
+- [REST/GraphiQL client](modules/tasks/final.md)
+
+### Week #12 (16th of September, 2024)
 
 Cross-check review: - [REST/GraphiQL client](modules/tasks/final.md)
 
