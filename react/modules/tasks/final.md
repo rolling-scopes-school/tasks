@@ -105,7 +105,7 @@ You are free to choose your own way of developing the project and the repository
 
 Application should gracefully handle errors and show meaningfull messages to the user.
 Please, distiungush between errors on the application level and the valid HTTP error code.
-CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx HTTP response codess should be displayed on the response section.
+CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx HTTP response codes should be displayed in the response section.
 
 ### Welcome page
 
