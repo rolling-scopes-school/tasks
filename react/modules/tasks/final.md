@@ -241,7 +241,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### History route - max 50 points
 
-- [ ] History shows informational message with links to the clients when there is no requests in the local storage. - **10 points**
+- [ ] History shows informational message with links to the clients when there are no requests in the local storage. - **10 points**
 - [ ] User can navigate to the previoulsy executed HTTP request to the RESTfull client, HTTP method, url, body, headers, variables are restored. **20 points**
 - [ ] User can navigate to the previoulsy executed GraphQL request to the GraphiQL client, url, SDL url, body, headers, variables are restored. **20 points**
 
