@@ -239,7 +239,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Variables section that can shown or hidden, specified variables are included in the body. - **10 points**
 - [ ] Header section that can be shown or hidden, value is provided in the url on header add/change. - **10 points**
 
-### History route = max 50 points
+### History route - max 50 points
 
 - [ ] History shows informational message with links to the clients when there is no requests in the local storage. - **10 points**
 - [ ] User can navigate to the previoulsy executed HTTP request to the RESTfull client, HTTP method, url, body, headers, variables are restored. **20 points**
