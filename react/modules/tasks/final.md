@@ -184,7 +184,7 @@ Similar to the RESTfull client, the request infromation should be provided via t
 - This route should be private.
 - If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTfull and to the GraphiQL clients.
 - All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
-- History section should display request using links, on clicking on the link, user should be havigated to the respective section (RESTfull client or GraohiQL).
+- History section should display request using links, on clicking on the link, user should be navigated to the respective section (RESTfull client or GraphiQL).
 - After navigating to the respective section, all the functional fields (url, method selector, headers, body, values, sdl url for the GraphQL query) should be restored. Please, mind this when saving the request in the local storage to ensure that all the required data will be saved.
 
 ## How to submit tasks
