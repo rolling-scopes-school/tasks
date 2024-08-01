@@ -77,8 +77,9 @@ Fines
 https://www.typescriptlang.org/docs/home.html </br>
 https://www.typescriptlang.org/docs/handbook/basic-types.html </br>
 https://www.typescriptlang.org/play/index.html </br>
-https://cli.angular.io </br>
-https://angular.io/cli </br>
-https://angular.io/tutorial </br>
+https://angular.dev/tools/cli </br>
+https://angular.dev/cli </br>
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular) </br>
+[Tour of Heroes Tutorial](https://v17.angular.io/tutorial/tour-of-heroes/toh-pt1)
 
 NB Before the start of the first task - you have to create your private school repository in the Dashboard of rs-app https://app.rs.school/course/student/dashboard by clicking on the link in 'Your repository' block, then you perform all the tasks there, unless specified otherwise.

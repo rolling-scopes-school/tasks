@@ -7,7 +7,7 @@
 
 ## Approximate time to complete this module:
 
-Theory - 3 hours;
+Theory - 3 hours
 Assignment - 8 hours
 
 ## Theory
@@ -33,11 +33,12 @@ Following materials also should be considered as learning sources before startin
 ## Practical assignment
 
 - [Angular. RxJS & Observables](../../../tasks/angular/rxjs-observables-http.md)
+- Test: Angular test (RxJS & Observables)
 
 ### Self-practice
 
 - [Cars and trucks](https://stackblitz.com/edit/angular-rxjs-exercise?file=index.ts)
-- [Fruits game](https://www.rxjs-fruits.com)
+- [Fruits game 🍎🍌🍒](https://www.rxjs-fruits.com)
 
 ## Additional materials
 
