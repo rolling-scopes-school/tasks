@@ -23,11 +23,11 @@
 
 Их эффективность:
 
-![Наглядная сложность выполнения алгоритмов](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage1/modules/data-structures-and-algorithms/images/big-o.png)
+![Наглядная сложность выполнения алгоритмов](./images/big-o.png)
 
 Следующее демо позволяет наглядно сравнить скорость выполнения некоторых алгоритмов сортировки, отличающихся значением Big-О (картинка кликабельна).
 
-[![Demo images](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage1/modules/data-structures-and-algorithms/images/algoritms-timer-demo.png)](https://algorithms-timer-demo.netlify.app/)
+[![Demo images](./images/algoritms-timer-demo.png)](https://algorithms-timer-demo.netlify.app/)
 
 ### Пузырьковая сортировка
 
@@ -37,6 +37,8 @@
 - Эффективность («О» большое):
   - Наилучший вариант: O(n).
   - Средний и худший варианты: O(n²).
+
+![Наглядное выполнение алгоритма](./images/bubble-sort-example.gif)
 
 **Пузырьковая сортировка**
 
@@ -68,6 +70,8 @@ bubbleSort(arr);
   - Наилучший вариант: O(n).
   - Средний и худший варианты: O(n log n).
 
+![Наглядное выполнение алгоритма](./images/merge-sort-example.gif)
+
 ### Быстрая сортировка
 
 - Весь набор данных делится пополам путём выбора среднего элемента и перемещения всех, кто меньше него, влево.
@@ -81,6 +85,8 @@ bubbleSort(arr);
   - Наилучший вариант: O(n).
   - Средний вариант: O(n log n).
   - Худший вариант: O(n²).
+
+![Наглядное выполнение алгоритма](./images/quicksort-example.gif)
 
 **Сравнение алгоритмов сортировки слиянием и быстрой сортировки**
 
@@ -109,6 +115,8 @@ quickSort(arr);
 ### Бинарный поиск
 
 [Что такое бинарный поиск](https://youtu.be/9EmO9_MK1gQ?t=34)
+
+![Наглядное выполнение алгоритма](./images/binary_search_tree_example.gif)
 
 **Бинарный поиск**
 
@@ -174,6 +182,8 @@ binarySearchRecursiveMethod(arr, 5); // -1
   - Двоичный поиск: O(log n).
   - Вставка: недопустимо (если не делать этого в самом конце массива).
 
+![Array](./images/array.webp)
+
 ### Список (связный список)
 
 - Данные хранятся в узлах, указывающих на другие узлы. По итогу список выглядит, как вложенные друг в друга объекты.
@@ -185,12 +195,16 @@ binarySearchRecursiveMethod(arr, 5); // -1
 
 - Существует двусвязный список: он имеет помимо nextNode и value ещё и previousNode (значение узла, ссылка на следующий узел и на предыдущий соответственно).
 
+![List](./images/linked-list.webp)
+
 ### Стек
 
 - Обычно реализуется с помощью связного списка, может быть создан и из массива
 - Стеки — это LIFO-структуры данных (last in, first out).
 - Аналог стека — стопка тарелок: последнюю добавленную в стопку тарелку возьмут первой.
 - Голова – единственное место для вставки и удаления элементов.
+
+![Stack](./images/stack.png)
 
 ### Очереди
 
@@ -205,6 +219,8 @@ binarySearchRecursiveMethod(arr, 5); // -1
   - Двоичный поиск: O(n).
   - Вставка: O(1).
 
+![Queue](./images/queue.png)
+
 ### Хэш-таблица (объект)
 
 - Данные хранятся в виде пар ключ-значение.
@@ -213,6 +229,8 @@ binarySearchRecursiveMethod(arr, 5); // -1
   - Индексирование: O(1).
   - Поиск: O(1).
   - Вставка: O(1).
+
+![Hash table](./images/hash-table.jpg)
 
 ### Двоичное дерево
 
@@ -224,6 +242,8 @@ binarySearchRecursiveMethod(arr, 5); // -1
   - Индексирование: O(log n).
   - Поиск: O(log n).
   - Вставка: O(log n).
+
+![Binary tree](./images/binary-tree.png)
 
 #### Что можно сделать до старта курса
 
