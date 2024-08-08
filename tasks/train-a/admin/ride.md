@@ -50,17 +50,17 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - Form fields for entering departure/arrival times.
   - Form fields for entering prices.
 
-### Acceptance Criteria
+### Acceptance Criteria (100)
 
-#### Acceptance Criteria 1: Navigation
+#### Acceptance Criteria 1: Navigation (5)
 
 - When the "Back" button is clicked, the manager must be navigated back to the route page.
 
-#### Acceptance Criteria 2: Page title
+#### Acceptance Criteria 2: Page title (5)
 
 - The page title must include the route id, displaying it clearly at the top.
 
-#### Acceptance Criteria 3: List of rides
+#### Acceptance Criteria 3: List of rides (30)
 
 - Each ride card in the list must display:
   - The ride id in the title.
@@ -68,26 +68,33 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - The arrival time (except for the first station) and departure time (except for the last station) for each station as the second column.
   - Prices for all carriage types in the middle of the previous and next station rows.
 
-#### Acceptance Criteria 4: Editing times
+#### Acceptance Criteria 4: Editing times (20)
 
 - Each cell for arrival/departure time must include an "Edit" button.
 - When the "Edit" button is clicked, the cell must become editable.
 - The manager must be able to edit the time and save the changes.
 - After saving, the updated time must be displayed in the cell.
 
-#### Acceptance Criteria 5: Editing prices
+#### Acceptance Criteria 5: Editing prices (20)
 
 - Each cell for prices must include an "Edit" button.
 - When the "Edit" button is clicked, the cell must become editable.
 - The manager must be able to edit the prices for each carriage type and save the changes.
 - After saving, the updated prices must be displayed in the cell.
 
-#### Acceptance Criteria 6: Creating new rides
+#### Acceptance Criteria 6: Creating new rides (10)
 
 - When the "Create" button is clicked, a new ride list must be created with:
   - Predefined stations listed as the first column.
   - Form fields for entering departure and arrival times as the second column.
   - Form fields for entering prices as the third column.
+
+#### Acceptance Criteria 7: Deleting a ride (10)
+
+- Rides departing from the first station in the future contain a "Delete" button
+- When the "Delete" button is clicked:
+  - A confirmation modal must appear.
+  - Upon confirming the deletion, the ride must be removed from the list.
 
 ## API
 

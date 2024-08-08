@@ -2,7 +2,7 @@
 
 **Browser path**: _/trip/:rideId?from=stationId&to=stationId_
 
-**Score**: 50
+**Score**: 90
 
 ## Description
 
@@ -46,9 +46,9 @@ A **carriage** is a structure for transporting passengers with specific paramete
 - Clicking the "Book seat" button must reserved seat for user.
 - If user acts like a guest, the modal authorization window should appear(or any other option) before seat is booked to determine which user runs the process.
 
-### Acceptance criteria
+### Acceptance criteria (90)
 
-#### Acceptance Criteria 1: Display start and end stations
+#### Acceptance Criteria 1: Display start and end stations (10)
 
 - The top of the page must display the start and end stations, including departure and arrival times.
 - The ride identifier must be visible below the station names.
@@ -58,7 +58,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
   - All intermediate stations along with their respective arrival and departure times.
   - Dwell time.
 
-#### Acceptance Criteria 2: Carriage type tabs
+#### Acceptance Criteria 2: Carriage type tabs (30)
 
 - Tabs for each carriage type must be visible and clearly labeled with:
   - Carriage type name.
@@ -68,7 +68,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
   - Display the list of train cars corresponding to the selected carriage type.
 - Update the seat availability information accordingly.
 
-#### Acceptance Criteria 3: Train car list items
+#### Acceptance Criteria 3: Train car list items (30)
 
 - Each train car list item must:
   - Display the car number and the number of available seats.
@@ -77,7 +77,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
   - Change the seat color to yellow.
   - Display the seat number and price in a sticky panel on the right.
 
-#### Acceptance 4: Booking a seat
+#### Acceptance 4: Booking a seat (20)
 
 - The "Book seat" button must be present and clickable only when a seat is selected.
 - Clicking the "Book seat" button must:

@@ -2,7 +2,7 @@
 
 **Browser path**: _/_
 
-**Score**: 50
+**Score**: 70
 
 ## Description
 
@@ -58,9 +58,9 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 - The form must include a submit button.
 - The submit button must be disabled until the form is valid (all fields are correctly filled).
 
-### Acceptance Criteria: Search section [(design 1)](#search-block-1)
+### Acceptance Criteria: Search section [(design 1)](#search-block-1) (20)
 
-#### Acceptance Criteria 1: Start city field autocomplete
+#### Acceptance Criteria 1: Start city field autocomplete (6)
 
 > [!WARNING]
 > **Technical quirk**  
@@ -70,7 +70,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 - When the user begins typing in the "From" field, an autocomplete dropdown must appear with city suggestions.
 - The user must be able to select a city from the autocomplete suggestions.
 
-#### Acceptance Criteria 2: End city field autocomplete
+#### Acceptance Criteria 2: End city field autocomplete (6)
 
 > [!WARNING]
 > **Technical quirk**  
@@ -80,13 +80,13 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 - When the user begins typing in the "To" field, an autocomplete dropdown must appear with city suggestions.
 - The user must be able to select a city from the autocomplete suggestions.
 
-#### Acceptance Criteria 3: Calendar field
+#### Acceptance Criteria 3: Calendar field (6)
 
 - The form must include a field labeled "Date/Time" for specifying the date and optional time of the trip.
 - The user must be able to select a date from a calendar that only allows future days.
 - The time selection must be optional and only available if a date is selected.
 
-#### Acceptance Criteria 4: Submit button validation
+#### Acceptance Criteria 4: Submit button validation (2)
 
 - The form must include a submit button labeled "Search".
 - The submit button must remain disabled until the "From", "To", and "Date/Time" fields are all filled and valid.
@@ -117,28 +117,28 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 - The inline tabs must be responsive and must display correctly on various devices (mobile, tablet, desktop).
 
-### Acceptance Criteria: Filter [(design 2)](#filter-2)
+### Acceptance Criteria: Filter [(design 2)](#filter-2) (15)
 
-#### Acceptance Criteria 1: Display dormat
+#### Acceptance Criteria 1: Display dormat (2)
 
 - Each tab must display the date in the format "MMMM dd" (e.g., "August 01") and the corresponding day name (e.g., "Monday").
 
-#### Acceptance Criteria 2: Clickable functionality
+#### Acceptance Criteria 2: Clickable functionality (2)
 
 - When a user clicks on a tab, the list of train rides must update to show the rides available for the selected date.
 - Each tab must be individually clickable.
 
-#### Acceptance Criteria 3: Visual highlighting of selected tab
+#### Acceptance Criteria 3: Visual highlighting of selected tab (2)
 
 - The selected tab must be visually highlighted to indicate it is the active selection.
 - Only one tab can be highlighted at a time.
 
-#### Acceptance Criteria 4: Reflecting search results
+#### Acceptance Criteria 4: Reflecting search results (7)
 
 - The tabs must dynamically display only the dates for which there are available train rides based on the search results.
 - When a tab is selected, the corresponding train rides for that date must be displayed.
 
-#### Acceptance Criteria 5: Responsive Design
+#### Acceptance Criteria 5: Responsive Design (2)
 
 - The inline tabs must display correctly and be fully functional on mobile, tablet, and desktop devices.
 - The layout must adjust to ensure usability across different screen sizes.
@@ -168,16 +168,16 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 - If no rides are available, a message indicating that no rides are available must be displayed.
 
-### Acceptance Criteria: Result list ([design 3](#result-list-3))
+### Acceptance Criteria: Result list ([design 3](#result-list-3)) (25)
 
-#### Acceptance Criteria 1: Display of train rides
+#### Acceptance Criteria 1: Display of train rides (6)
 
 - The result list must display train rides grouped by day.
 - Each item must have an "information section" and a "price section" with the specified content.
 - The list of results must be grouped by day from the filter, showing available routes for each day.
 - Each item is clickable for whole area and redirects user to the [detail page](./search-detail.md), when user can make an order.
 
-#### Acceptance Criteria 2: Information section
+#### Acceptance Criteria 2: Information section (8)
 
 - The departure time, arrival time, and corresponding dates must be displayed.
 - The start city and end city of the trip (that user selected) must be displayed.
@@ -185,12 +185,12 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 - A "Route" button must be present and, when clicked, must open a modal window showing all stations in the route.
 - The start and end stations of the route must be displayed below.
 
-#### Acceptance Criteria 3: Price section
+#### Acceptance Criteria 3: Price section (8)
 
 - The price section must display a list of unique carriage types as a area.
 - Each carriage area must display the name of carriage, number of free seats, and the price for the ride between the selected stations (that user selected).
 
-#### Acceptance Criteria 4: Message for no rides available
+#### Acceptance Criteria 4: Message for no rides available (3)
 
 - If there are no available rides, a specific message such as "No rides available" must be displayed.
 
@@ -210,17 +210,17 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 - The modal window must be dismissible by the user, either by clicking a close button or by clicking outside the modal window.
 
-### Acceptance Criteria: Trip detail ([design 4](#result-trip-details-4))
+### Acceptance Criteria: Trip detail ([design 4](#result-trip-details-4)) (10)
 
-#### Acceptance Criteria 1: Route button presence
+#### Acceptance Criteria 1: Route button presence (1)
 
 - Each result item element must have a "Route" button that is clearly visible.
 
-#### Acceptance Criteria 2: Modal window trigger
+#### Acceptance Criteria 2: Modal window trigger (2)
 
 - When the "Route" button is clicked, a modal window must appear.
 
-#### Acceptance Criteria 3: Modal window content
+#### Acceptance Criteria 3: Modal window content (5)
 
 - Title of modal contains text "Route" alogn with route id number.
 
@@ -235,7 +235,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
   - City name in the secord column
   - Dwell time at each station in the third column.
 
-#### Acceptance Criteria 4: User interaction
+#### Acceptance Criteria 4: User interaction (2)
 
 - The modal window must include a close button.
 - The modal window must also close when the user clicks outside of it.

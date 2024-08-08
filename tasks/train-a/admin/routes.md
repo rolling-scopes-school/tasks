@@ -46,34 +46,34 @@ Minimum 3 carriages, minimum 3 stations;
 - Clicking the "Save" button must save the new route or update the existing route.
 - The new route must appear in the list of routes, or the updated route must replace the existing route.
 
-### Acceptance Criteria
+### Acceptance Criteria (100)
 
-#### Acceptance Criteria 1: Display of routes
+#### Acceptance Criteria 1: Display of routes (10)
 
 - The page must list all routes with the following information:
   - Route name.
   - Sequence of cities the route passes through.
   - Sequence of carriage types assigned to the route.
 
-#### Acceptance Criteria 2: Route management actions
+#### Acceptance Criteria 2: Route management actions (15)
 
 - Each route card must include:
   - A "Delete" button that opens a confirmation modal.
   - An "Assign Ride" button that navigates to a new page for schedule creation.
   - An "Update" button that displays the form for updating the route.
 
-#### Acceptance Criteria 3: Deleting a route
+#### Acceptance Criteria 3: Deleting a route (10)
 
 - When the "Delete" button is clicked:
   - A confirmation modal must appear.
   - Upon confirming the deletion, the route must be removed from the list.
 
-#### Acceptance Criteria 4: Assigning a ride
+#### Acceptance Criteria 4: Assigning a ride (10)
 
 - When the "Assign Ride" button is clicked:
   - The manager must be navigated to a [page](./ride.md) where they can observe existing rides or create a new schedule for the route.
 
-#### Acceptance Criteria 5: Creating and updating routes
+#### Acceptance Criteria 5: Creating and updating routes (45)
 
 - When the "Create" button is clicked:
   - A form must appear at the top of the page with two sections for adding stations and carriages.
@@ -84,7 +84,7 @@ Minimum 3 carriages, minimum 3 stations;
   - **In the list of selectable stations, there should be only those stations that are explicitly connected to the previous one in the list, i.e., stations from the 'connectedTo' list.**
   - Adding any number of carriage types in sequence, with a new empty selector appearing when the last one is filled.
 
-#### Acceptance Criteria 6: Saving routes
+#### Acceptance Criteria 6: Saving routes (10)
 
 - When the "Save" button is clicked:
   - The new route must be added to the list of routes if creating a new route.

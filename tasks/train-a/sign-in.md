@@ -2,7 +2,7 @@
 
 **Browser path**: _/signin_
 
-**Score**: 50
+**Score**: 30
 
 **Access**: only for guests (run by guards)
 
@@ -37,9 +37,9 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 - User can click "Sign In" button only once during http-request execution. If authentication was successful - browser receives token, save it into `localStorage` and follow the [instructions](./readme.md#authorization-token).
 
-### Acceptance Criteria
+### Acceptance Criteria (30)
 
-#### Acceptance Criteria 1: Access control
+#### Acceptance Criteria 1: Access control (5)
 
 - User should be authenticated and redirected to the homepage upon entering valid email and password.
 
@@ -49,7 +49,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 - After successful authentication each following http-requests must comply with [Authorization record](./readme.md#authorization-token)
 
-#### Acceptance Criteria 2: Error message for incorrect password
+#### Acceptance Criteria 2: Error message for incorrect password (5)
 
 - Display "_Incorrect email or password_" error message when user enters a valid email but incorrect password.
 
@@ -57,21 +57,21 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 - Password has to be not less 8 symbols excluding space around.
 
-#### Acceptance Criteria 3: Error message for email
+#### Acceptance Criteria 3: Error message for email (5)
 
 - Display "_Incorrect email or password_" error message when user enters a non-existent email.
 
 - Display "_Incorrect email_" error message under email field if content of email field does not match _^[\w\d\_]+@[\w\d\_]+\.\w{2,7}$_ regular expression.
 
-#### Acceptance Criteria 4: Error message for empty field
+#### Acceptance Criteria 4: Error message for empty field (5)
 
 - Display "_Required_" error message under the empty form fields **after** Sign In button is clicked first time. Error does not appear until user click button regardless of content.
 
-#### Acceptance Criteria 5: Disabled Sign In button
+#### Acceptance Criteria 5: Disabled Sign In button (5)
 
 - Button "Sign In" is disabled until user fill valid email/password in. User cannot click it.
 
-#### Acceptance Criteria 6: Responsive design
+#### Acceptance Criteria 6: Responsive design (5)
 
 - The sign-up page must display correctly and be fully functional on mobile, tablet, and desktop devices.
 

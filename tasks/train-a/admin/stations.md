@@ -2,7 +2,7 @@
 
 **Browser path:** _/admin/stations_
 
-**Score**: 100
+**Score**: 50
 
 **Access**: only for manager (run by guards)
 
@@ -41,23 +41,23 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
 - The page must allow the manager to delete an existing station, but only if there are no active rides passing through that station.
 - If an attempt is made to delete a station with active rides, an appropriate error message must be displayed.
 
-### Acceptance Criteria
+### Acceptance Criteria (50)
 
-#### Acceptance Criteria 1: Station coordinates input
+#### Acceptance Criteria 1: Station coordinates input (20)
 
 - The page must provide form fields for latitude and longitude.
 - When valid latitude and longitude values are entered, they must be accepted and saved.
 - The page could also provide an interactive map.
 - When a point is dropped on the map, the corresponding latitude and longitude values must be populated and synchronized with form field.
 
-#### Acceptance Criteria 2: Connecting stations
+#### Acceptance Criteria 2: Connecting stations (15)
 
 - The page must allow the manager to connect the new station to other stations. It is dynamic number of items, selecting one item the next form field appears.
 - If using a map, the manager must be able to draw connections between stations.
 - If using form fields, the manager must be able to select and connect stations from a list.
-- The connections must be saved and displayed correctly.
+- Name, coordinates and connection list are required. The connections must be saved and displayed correctly.
 
-#### Acceptance Criteria 3: Displaying existing stations
+#### Acceptance Criteria 3: Displaying existing stations (10)
 
 - The page must display a list of existing stations below the station creation section.
 - Each station entry in the list must display:
@@ -65,7 +65,7 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
   - The coordinates (latitude and longitude).
   - A list of other stations it is connected with.
 
-#### Acceptance Criteria 4: Deleting stations
+#### Acceptance Criteria 4: Deleting stations (5)
 
 - The page must allow the deletion of a station only if there are no active rides passing through it.
 - If an attempt is made to delete a station with active rides, an error message "Cannot delete station with active rides" must be displayed.

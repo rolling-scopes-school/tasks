@@ -2,7 +2,7 @@
 
 **Browser path**: _/profile_
 
-**Score**: 50
+**Score**: 30
 
 **Access**: only for authenticated user (run by guards)
 
@@ -40,9 +40,9 @@ Page allows authenticated users to view and update their personal information. U
 
 - The modal window must close upon successful password change.
 
-### Acceptance Criteria
+### Acceptance Criteria (30)
 
-#### Acceptance Criteria 1: Editable user name
+#### Acceptance Criteria 1: Editable user name (8)
 
 - The user's name must be displayed as a text block with an "Edit" button.
 
@@ -50,7 +50,7 @@ Page allows authenticated users to view and update their personal information. U
 
 - When the "Save" button is clicked, the new name must be saved, the form field must revert to a text block, and the "Save" button must change back to an "Edit" button.
 
-#### Acceptance Criteria 2: Editable user email
+#### Acceptance Criteria 2: Editable user email (8)
 
 - The user's email must be displayed as a text block with an "Edit" button.
 
@@ -58,13 +58,12 @@ Page allows authenticated users to view and update their personal information. U
 
 - When the "Save" button is clicked, the new email must be saved, the form field must revert to a text block, and the "Save" button must change back to an "Edit" button.
 
-#### Acceptance Criteria 3: Logout functionality
+#### Acceptance Criteria 3: Logout functionality (4)
 
 - The user profile page must include a "Logout" button.
-
 - When the "Logout" button is clicked, the user session must be terminated, and the user must be redirected to the main page.
 
-#### Acceptance Criteria 4: Change password functionality
+#### Acceptance Criteria 4: Change password functionality (10)
 
 - The user profile page must include a "Change Password" button.
 

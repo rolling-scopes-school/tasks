@@ -2,7 +2,7 @@
 
 **Browser path:** _/admin/carriages_
 
-**Score**: 100
+**Score**: 60
 
 **Access**: only for manager (run by guards)
 
@@ -47,9 +47,9 @@ Carriage is composed with parameters:
 - When the manager clicks the "Save" button, the new or updated carriage must be inserted into the list of carriages.
 - After saving, the form must disappear.
 
-### Acceptance Criteria
+### Acceptance Criteria (60)
 
-#### Acceptance Criteria 1: Page layout and "Create" button
+#### Acceptance Criteria 1: Page layout (10)
 
 - The page must display a "Create" button at the top.
 - Below the "Create" button, a list of existing carriages must be displayed vertically, each with:
@@ -57,7 +57,7 @@ Carriage is composed with parameters:
   - A rendered picture of the carriage based on its configuration parameters.
   - "Update" button for each item.
 
-#### Acceptance Criteria 2: Displaying Carriage Configuration Form
+#### Acceptance Criteria 2: Displaying carriage configuration form (15)
 
 - When the manager clicks the "Create" button:
   - A form must appear at the top with fields for rows, leftSeats, and rightSeats.
@@ -68,12 +68,12 @@ Carriage is composed with parameters:
   - A "Update" button must be present in the form.
   - The dynamically rendered prototype must update according to changes made in the form.
 
-#### Acceptance Criteria 3: Dynamically rendering prototype
+#### Acceptance Criteria 3: Dynamically rendering prototype (25)
 
 - As the manager fills out or updates the rows, leftSeats, and rightSeats fields in the form:
   - The prototype of the carriage must dynamically update to reflect the changes.
 
-#### Acceptance Criteria 4: Saving and displaying new/updated carriages
+#### Acceptance Criteria 4: Saving and displaying new/updated carriages (10)
 
 - When the manager clicks the "Save" button:
   - If creating a new carriage:

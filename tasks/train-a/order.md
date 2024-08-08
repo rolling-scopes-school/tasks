@@ -2,7 +2,7 @@
 
 **Browser path**: _/orders_
 
-**Score**: 100
+**Score**: 40
 
 **Access**: only for authenticated user (run by guards)
 
@@ -24,9 +24,9 @@ User is able to see their orders in the list.
 - Order item should contain user name of the order owner.
 - Manager can cancel any active order.
 
-### Acceptance Criteria
+### Acceptance Criteria (40)
 
-#### Acceptance Criteria 1: Order list display
+#### Acceptance Criteria 1: Order list display (4)
 
 - The order list is accessible from the site header.
 - Each order in the list displays the following information:
@@ -41,36 +41,36 @@ User is able to see their orders in the list.
   - Price
 - Orders are sorted by the start trip time in ascending order by default.
 
-#### Acceptance Criteria 2: Start trip
+#### Acceptance Criteria 2: Start trip (4)
 
 - The start trip station name is displayed correctly for each order.
 - The start trip station is the departure station for the journey.
 - The start trip time is displayed in a clear and readable format "MMMM dd hh:mm".
 - The start trip time reflects the exact departure time of the train from the booked station.
 
-#### Acceptance Criteria 3: End trip
+#### Acceptance Criteria 3: End trip (4)
 
 - The end trip station name is displayed correctly for each order.
 - The end trip station is the arrival station for the journey.
 - The end trip time is displayed in a clear and readable format "MMMM dd hh:mm".
 - The end trip time reflects the exact arrival time of the train.
 
-#### Acceptance Criteria 4: Trip duration
+#### Acceptance Criteria 4: Trip duration (8)
 
 - The trip duration is calculated and displayed in hours and minutes (e.g., 3h 45m, 45h 12m).
 - The trip duration represents the total travel time from the start trip time to the end trip time.
 
-#### Acceptance Criteria 5: Carriage type
+#### Acceptance Criteria 5: Carriage type (4)
 
 - The carriage type is displayed (e.g., Economy, Business, First Class).
 - The carriage type reflects the class of service selected by the user.
 
-#### Acceptance Criteria 6: Price
+#### Acceptance Criteria 6: Price (4)
 
 - The price of the ticket is displayed in the local currency (e.g., $50.00).
 - The price reflects the total cost of the ticket for the trip (between selected stations as segments).
 
-#### Acceptance Criteria 7: Cancel button
+#### Acceptance Criteria 7: Cancel button (4)
 
 - Active but not completed orders display a "Cancel" button.
 - Clicking the "Cancel" button prompts the user to confirm the cancellation.
@@ -78,7 +78,7 @@ User is able to see their orders in the list.
 - If there is an error during cancellation, an error message is displayed.
 - The "Cancel" button is hidden for completed or past orders.
 
-#### Acceptance Criteria 8: Manager
+#### Acceptance Criteria 8: Manager (8)
 
 - The manager must be able to view a list of all orders, not limited to their own.
 - The manager must see a "Cancel Order" button next to each active order in the list.

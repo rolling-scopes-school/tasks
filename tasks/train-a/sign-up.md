@@ -2,7 +2,7 @@
 
 **Browser path**: _/signup_
 
-**Score**: 50
+**Score**: 30
 
 **Access**: only for guests (run by guards)  
 
@@ -46,31 +46,31 @@ User is able to enter _email_ and _password_ into the relative fields and create
 
 - The Sign Up page should provide a clear and user-friendly interface.
 
-### Acceptance Criteria
+### Acceptance Criteria (30)
 
-#### Acceptance Criteria 1: Access control
+#### Acceptance Criteria 1: Access control (5)
 
 - User should be able to register with a valid email, password, and matching repeat password, and should be redirected to a [Sign In page](./sign-in.md) page upon successful registration.
 
-#### Acceptance Criteria 2: Password Validation Error
+#### Acceptance Criteria 2: Password validation error (5)
 
 - Display "_Passwords do not match_" error message when the password and repeat password fields do not match.
 
 - Display "_Password must be at least 8 characters long_" error message when the password is less than 8 characters.
 
-#### Acceptance Criteria 3: Email already exists error
+#### Acceptance Criteria 3: Email already exists error (5)
 
 - Display "_Account with this email already exists_" error message when the user tries to sign up with an email that is already registered.
 
-#### Acceptance Criteria 4: Error message for empty field
+#### Acceptance Criteria 4: Error message for empty field (5)
 
 - Display "_Required_" error message under the empty form fields **after** Register button is clicked first time. Error does not appear until user click button regardless of content.
 
-#### Acceptance Criteria 5: Disabled Sign Up button
+#### Acceptance Criteria 5: Disabled Sign Up button (5)
 
 - Button "Register" is disabled until user fill valid email/password in. User cannot click it.
 
-#### Acceptance Criteria 6: Responsive design
+#### Acceptance Criteria 6: Responsive design (5)
 
 - The Sign Up page must display correctly and be fully functional on mobile, tablet, and desktop devices.
 
