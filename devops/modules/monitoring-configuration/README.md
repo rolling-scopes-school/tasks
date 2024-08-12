@@ -6,7 +6,7 @@ In this module you need to configure cluster's metrics collection with Prometheu
 
 ## Task 1. Install and configure Prometheus.
 
-Monitoring is an essential part of any production setup. Prometheus is an open-source system which may collect metrics from applications, hosted a K8s cluster as well as from the cluster itself. See Prometheus documentation (https://prometheus.io/docs/introduction/overview/) for more details.
+Monitoring is an essential part of any production setup. Prometheus is an open-source system which may collect metrics from applications, hosted in a K8s cluster as well as from the cluster itself. See Prometheus documentation (https://prometheus.io/docs/introduction/overview/) for more details.
 
 In this task you need to install Prometheus to your cluster using Helm chart by Bitnami. Make sure that Prometheus is able to collect some essential metrics, like nodes CPU and memory usage. You may check collected metrics in Prometheus web interface, which might be accessed via kubectl proxy or port-forward functions.
 
@@ -32,7 +32,7 @@ In this task you need to install Grafana using Helm chart by Bitnami. When done 
 
 It's easy to miss some important change in your service when relying only on visual observation of related metrics. To avoid such situations, it's crucial to have good alerting service. In this task you need to configure Alertmanager (https://prometheus.io/docs/alerting/latest/alertmanager/) - a Prometheus' component, which might be used to send alerts via various channels.
 
-You task is to configure multiple alerts for such events as:
+Your task is to configure multiple alerts for such events as:
 
 - high CPU utilization on any node of your cluster;
 - lack of CPU cores capacity on any node of your cluster;

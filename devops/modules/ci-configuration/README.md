@@ -10,7 +10,7 @@ There are multiple ways to install Jenkins on a K8s cluster. In this task you ne
 
 When done with Helm, install Jenkins using the instruction from Jenkins documentation (https://www.jenkins.io/doc/book/installing/kubernetes/#install-jenkins-with-helm-v3). Make sure that Jenkins is installed into a separate namespace.
 
-Before proceeding with Jenkins installation, please make sure that you cluster meets the following requirements:
+Before proceeding with Jenkins installation, please make sure that your cluster meets the following requirements:
 
 1. The cluster has a solution for managing persistent volumes (PV) and persistent volume claims (PVC). For more information on PV and PVC see the official K8s documentation (https://kubernetes.io/docs/concepts/storage/volumes/). See this k3s documentation page for some possible solutions (https://docs.k3s.io/storage)
 2. Since you are going to access your Jenkins server via the internet, your communications with the server should be encrypted using TLS. For that reason you'll need an ingress controller installed and configured to serve traffic via HTTPS. Note, that you'll also need a certificate and a private key. You may use one provided via Letsencrypt, ZeroSSL or any other services. If you don't have a domain name, you may also use self-signed certificate, but it's not the recommended solution.
@@ -35,9 +35,9 @@ Before starting with the pipeline, you need to implement the following:
 
 Artifacts from these steps (Dockerfile and Helm chart) should be stored in a git repository, which will be available to Jenkins. You may use your applications' main repository as well.
 
-The next step is to configure a Jenkins pipeline. The pipeline should be stored in a form of Jenkinsfile in your main git repository, and be triggered on each push event on this repo. The pipeline should contain the steps following:
+The next step is to configure a Jenkins pipeline. The pipeline should be stored in a form of Jenkinsfile in your main git repository, and be triggered on each push event on this repo. The pipeline should contain the following steps:
 
-1. Applications build;
+1. Application's build;
 2. Unit test's execution;
 3. Security check with SonarQube;
 4. Docker image building and pushing to ECR. This step is supposed be triggered manually;
@@ -46,5 +46,5 @@ The next step is to configure a Jenkins pipeline. The pipeline should be stored 
 
 **This task is considered as done if all the conditions below are met:**
 
-- your build artifacts are store within git (Dockerfile, Helm chart) and ECR (Docker image);
+- your built artifacts are stored within git (Dockerfile, Helm chart) and ECR (Docker image);
 - your pipeline has all steps from the description above.

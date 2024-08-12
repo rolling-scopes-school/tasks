@@ -6,12 +6,12 @@ In this module you will install and configure required software, select proper n
 
 ## Task 1. Software installation and configuration
 
-You need to install and configure the software following on your local computer:
+You need to install and configure the following software on your local computer:
 
 - AWS CLI 2(https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - Terraform 1.4+ (https://developer.hashicorp.com/terraform/install?product_intent=terraform)
 
-In your AWS account, navigate to IAM and create a new user, with the policies following attached:
+In your AWS account, navigate to IAM and create a new user, with the following policies attached:
 
 - AmazonEC2FullAccess
 - AmazonRoute53FullAccess
@@ -39,7 +39,7 @@ There are two possible ways to implement networking for a K8s cluster. You need 
 
 ### Networking with public subnets only
 
-In that option your VPC should contain two private subnets, located in different AZs within the selected AWS Region. The VPC should have in Internet Gateway attached, and have proper routing configuration.
+In that option your VPC should contain two private subnets, located in different AZs within the selected AWS Region. The VPC should have an Internet Gateway attached, and have proper routing configuration.
 
 This option doesn't introduce an additional cost.
 
