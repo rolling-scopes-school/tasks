@@ -4,7 +4,7 @@
 
 The page is designed for managing trips and train movement infrastructure, with the ability to create any type of carriage, place stations, and set up routes.
 
-> There is only 1 user with this role:
+> There is only 1 user with this role:<br />
 > _email:_ admin@admin.com  
 > _password:_ my-password
 
