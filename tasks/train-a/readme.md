@@ -4,7 +4,7 @@
 
 ### Organization
 
-The project is a collaborative (team group) effort involving a maximum of five team members. The project timeline you can find in [RSApp Schedule](https://app.rs.school/course/schedule), and the final product must be a serverless application accessible to the public.
+The project is a collaborative (team group) effort involving a maximum of four team members. The project timeline you can find in [RSApp Schedule](https://app.rs.school/course/schedule), and the final product must be a serverless application accessible to the public.
 
 ### Project Purpose
 
@@ -44,8 +44,8 @@ A substantial amount of static data has been added to the database for testing p
 
 ### Manager credentials
 
-> The manager and the root administrator can enter the system with  
-> _email:_ <admin@admin.com>  
+> The manager and the root administrator can enter the system with
+> _email:_ <admin@admin.com>
 > _password:_ my-password
 
 ### Authorization token
