@@ -14,8 +14,8 @@ Each train can consist of carriages of different types. Manager can create sever
 
 Carriage is composed with parameters:
 
-- **code**  - auto-generated unique code for item. User to update carriage.
-- **name**   - unique name of the carriage type.
+- **code** - auto-generated unique code for item. User to update carriage.
+- **name** - unique name of the carriage type.
 - **rows** - number of rows (16 in example below)
 - **leftSeats** - - the number of seats to the left of the aisle in a row (2 in example below)
 - **rightSeats** - the number of seats to the right of the aisle in a row (3 in example below)
@@ -102,6 +102,7 @@ Carriage is composed with parameters:
 > `(POST) /api/carriage`
 
 - Request (application/json)
+
   - Body (object)
     - name: `Only-women` (string) - Carriage name
     - rows: `18` (number) - amount of rows in carriage
@@ -109,6 +110,7 @@ Carriage is composed with parameters:
     - rightSeats: `2` (number) - amount of seats to the right of the aisle
 
 - Response 201 (application/json)
+
   - Attributes (object)
     - code: `type18` (string) - Carriage unique identifier
 
@@ -123,6 +125,7 @@ Carriage is composed with parameters:
 > `(PUT) /api/carriage/{code}`
 
 - Request (application/json)
+
   - Parameters: (object)
     - code: `type18` (string) - Carriage unique identifierØ
   - Body: (object)
@@ -132,10 +135,12 @@ Carriage is composed with parameters:
     - rightSeats: `3` (number) - amount of seats to the right of the aisle
 
 - Response 200 (application/json)
+
   - Attributes: (object)
     - code: `type18` (string) - Carriage unique identifier
 
 - Response 401 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Access is not granted` (string) - Error message

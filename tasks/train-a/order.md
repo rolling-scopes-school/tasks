@@ -97,6 +97,7 @@ User is able to see their orders in the list.
 > `(GET) /api/order`
 
 - Request (application/json)
+
   - Attributes: (object)
     - all: `true` (boolean, optional) - allows manager to retrieve all orders
 
@@ -114,13 +115,14 @@ User is able to see their orders in the list.
       - segments: (array[object]) - List of road section between each station. Always 1 less than the number of stations on the route
         - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` (array[string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
         - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-          - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+          - dynamic*carriage_type_1: `210` (number) - the price of 210 units for \_dynamic_carriage_type_1* carriage type on current section
 
 ### To retrieve users (only for manager)
 
 > `(GET) /api/users`
 
 - Request (application/json)
+
   - Attributes: (object)
 
 - Response 200 (application/json)
@@ -135,13 +137,16 @@ User is able to see their orders in the list.
 > `(DELETE) /api/order/{orderId}`
 
 - Request (application/json)
+
   - Parameters:
     - orderId: `215` (number, required) - Identifier of the order
 
 - Response 200 (application/json)
+
   - Attributes: (object)
 
 - Response 400 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Order is not found` (string) - Error message

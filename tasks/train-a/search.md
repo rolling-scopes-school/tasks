@@ -32,8 +32,8 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
   - **Form field _Date_**: From what date to search
     - **Search**: Button to initiate the search process
 - **Result list item**:
-  - **Arrival date/time**: When train reach the target
-  - **Departure date/time**: When train departs from the station
+  - **Arrival date/time**: When a train reaches the station
+  - **Departure date/time**: When a train departs from the station
   - **Duration**: Travel time
   - **Carriage(s)**: Carriage type(s) with free seats and price
 
@@ -62,9 +62,8 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 #### Acceptance Criteria 1: Start city field autocomplete (6)
 
-> [!WARNING]
-> **Technical quirk**  
-> Developer should obtain coordinates of the location throught whatever external services their want while user fill city name in the form field.
+> [!WARNING] > **Technical quirk**  
+> Developer should obtain coordinates of the location through whatever external services they want while user fills city name in the form field.
 
 - The form must include a field labeled "From" for the start city.
 - When the user begins typing in the "From" field, an autocomplete dropdown must appear with city suggestions.
@@ -72,9 +71,8 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 #### Acceptance Criteria 2: End city field autocomplete (6)
 
-> [!WARNING]
-> **Technical quirk**  
-> Developer should obtain coordinates of the location throught whatever external services their want while user fill city name in the form field.
+> [!WARNING] > **Technical quirk**  
+> Developer should obtain coordinates of the location through whatever external services they want while user fills city name in the form field.
 
 - The form must include a field labeled "To" for the end city.
 - When the user begins typing in the "To" field, an autocomplete dropdown must appear with city suggestions.
@@ -222,9 +220,10 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 #### Acceptance Criteria 3: Modal window content (5)
 
-- Title of modal contains text "Route" alogn with route id number.
+- Title of modal contains text "Route" along with route id number.
 
 - The modal window must display:
+
   - The start station of the trip at the top.
   - The end station of the trip at the bottom.
   - All intermediate stations between the start and end stations listed in order.
@@ -255,6 +254,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 > `(GET) /api/search`
 
 - Request (application/json)
+
   - Attributes: (object)
     - fromLatitude: `48.8575` (number, required) - Latitude of the start city
     - fromLongitude: `2.3514` (number, required) - Longitude of the start city
@@ -263,6 +263,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
     - time: `1723669200000` (number, optional) - unix timestamp of the trip
 
 - Response 200 (application/json)
+
   - Attributes: (object)
     - from: (object) - set of data about start point
       - stationId: `5` (number) - Unique station identifier
@@ -285,10 +286,11 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
         - segments: (array[object]) - List of road section between each station. Always 1 less than the number of stations on the route
           - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` (array[string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
           - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-            - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+            - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
           - occupiedSeats: (array[number]) - list of occupied seat numbers
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Start station not found` (string) - Error message

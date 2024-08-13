@@ -104,6 +104,7 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 
 - Request (application/json)
 - Parameters:
+
   - id: `17` (number, required) - Identifier of the route
 
 - Response 200 (application/json)
@@ -116,26 +117,29 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
       - segments: (array[object]) - List of road section between each station. Always 1 less than the number of stations on the route
         - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` ([string, string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
         - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-          - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+          - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
 
 ### Create new ride
 
 > `(POST) /api/route/{routeId}/ride`
 
 - Request (application/json)
+
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
   - Body (object)
     - segments: (array[object])
       - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` ([string, string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
       - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-        - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+        - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
 
 - Response 201 (application/json)
+
   - Attributes (object)
     - id: `215` (number) - New ride identifier
 
 - Response 401 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
@@ -152,6 +156,7 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 > `(PUT) /api/route/{routeId}/ride/{rideId}`
 
 - Request (application/json)
+
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
     - rideId: `215` (number, required) - Identifier of the ride
@@ -159,12 +164,14 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
     - segments: (array[object])
       - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` ([string, string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
       - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-        - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+        - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
 
 - Response 200 (application/json)
+
   - Attributes (object)
 
 - Response 401 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message

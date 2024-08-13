@@ -90,6 +90,7 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
 > `(POST) /api/station`
 
 - Request (application/json)
+
   - Body (object)
     - city: `Birmingham` (string) - City name where station is located
     - latitude: `52.4862` (number) - Latitude of the station
@@ -97,10 +98,12 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
     - relations: `[4,7,9,14,21]` (array[number]) - List of related station identifiers
 
 - Response 201 (application/json)
+
   - Attributes (object)
     - id: `17` (number) - New station identifier
 
 - Response 401 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
@@ -117,10 +120,12 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
 > `(DELETE) /api/station/{id}`
 
 - Request (application/json)
+
   - Parameters:
     - id: `215` (number, required) - Identifier of the station
 
 - Response 200 (application/json)
+
   - Attributes: (object)
 
 - Response 401 (application/json)

@@ -86,27 +86,32 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 > `(POST) /api/signin`
 
 - Request (application/json)
+
   - Body (object)
     - email: `user@example.com` (string, required) - User's email address
     - password: `Password123` (string, required) - User's password
 
 - Response 201 (application/json)
+
   - Attributes (object)
     - token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...` (string, required) - Authentication token
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Fields are empty` (string) - Error message
       - reason: `invalidFields` (string) - Unique error type
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Email is wrong` (string) - Error message
       - reason: `invalidEmail` (string) - Unique error type
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `User is not found` (string) - Error message

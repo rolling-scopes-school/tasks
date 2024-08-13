@@ -13,10 +13,16 @@ The header serves as the primary navigation and information bar for users. It mu
 #### Requirement 2: Guest state
 
 - The header must display the following links for guests:
+  - Sign In
+  - Sign Up
+  - Home (default)
 
 #### Requirement 3: General user state
 
 - The header must display the following links for authenticated general users:
+  - Home (default)
+  - Profile
+  - My Orders
 
 #### Requirement 4: Manager/Administrator state
 
@@ -56,7 +62,7 @@ The header serves as the primary navigation and information bar for users. It mu
   - The "Admin" link must redirect to the [admin page](./admin/readme.md).
   - The "Admin" link must be accessible only to users with the manager or administrator role, enforced by a guard.
 
-#### Acceptance Criteria 4: Guard for qdmin page
+#### Acceptance Criteria 4: Guard for admin page
 
 - The "Admin" link must be protected by a guard that checks the user's role.
 - If a general user or guest tries to access the "Admin" page, they must be redirected to a "Not Authorized" page or receive an appropriate error message.

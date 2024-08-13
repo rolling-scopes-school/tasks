@@ -4,7 +4,7 @@
 
 ### Organization
 
-The project is a collaborative (team group) effort involving a maximum of five team members. The project timeline is two weeks, and the final product must be a serverless application accessible to the public.
+The project is a collaborative (team group) effort involving a maximum of five team members. The project timeline you can find in [RSApp Schedule](https://app.rs.school/course/schedule), and the final product must be a serverless application accessible to the public.
 
 ### Project Purpose
 
@@ -65,8 +65,8 @@ Server saves only the number for the price. Frontend can be configured for whate
 
 Feel free to use all your knowledge and skills to implement the project, as the assessment will take place in two stages:
 
-- Peer review: Your project will be reviewed by other team members.
-- Presentation: You will present your project to a jury that will evaluate not only the technical result but also teamwork, communication, and task distribution. You will need to demonstrate each team member's contribution and area of responsibility.
+- Peer review: Your project will be reviewed by members of other teams in **cross-check session**.
+- **Presentation**: You will present your project to a jury that will evaluate not only the technical result but also teamwork, communication, and task distribution. You will need to demonstrate each team member's contribution and area of responsibility.
 
 ## Clarifications
 
@@ -95,4 +95,4 @@ Detailed information about the pages can be observed in corresponding files:
 
 All pages must adhere to a consistent theme using component libraries, packages, and styles. A [shared header](./header-fragment.md) fragment is provided for this purpose.
 
-### Choose the appropriate strategy and good luck!
+### Choose the appropriate strategy and good luck

@@ -96,10 +96,12 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(GET) /api/search/{rideId}`
 
 - Request (application/json)
+
   - Parameters:
     - rideId: `745` (number, required) - Identifier of the ride, it is instance of the route
 
 - Response 200 (application/json)
+
   - Attributes: (object)
     - rideId: `745` (number) - Identifier of certain schedule for the route
     - path: `[33, 5, 62, 11, 48, 34]` (array[number]) - List of station identifiers
@@ -108,7 +110,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
       - segments: (array[object]) - List of road section between each station. Always 1 less than the number of stations on the route
         - time: `['2024-08-08T22:19:57.708Z', '2024-08-12T03:29:57.708Z']` (array[string]) - dates of the start of movement on the section and the end of movement on the section in string form - [departure_from_prev_station, arrival_at_next_station]
         - price: (object) - set of prices for all carriage types on this route. It has vary size depending on the train configuration
-          - dynamic_carriage_type_1: `210` (number) - the price of 210 units for _dynamic_carriage_type_1_ carriage type on current section
+          - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
         - occupiedSeats: `[4,28,42,61]` (array[number]) - list of occupied seat numbers
 
 - Response 400 (application/json)
@@ -122,6 +124,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(POST) /api/order`
 
 - Request (application/json)
+
   - Body (object)
     - rideId: `745` (number, required) - Identifier of certain schedule for the route
     - seat: `27` (number, required) - Selected seat number
@@ -129,16 +132,19 @@ A **carriage** is a structure for transporting passengers with specific paramete
     - stationEnd: `61` (number, required) - Station id which user leaves the train
 
 - Response 201 (application/json)
+
   - Attributes: (object)
     - id: `209` (string) - identifier of new order
 
 - Response 400 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Ride not found` (string) - Error message
       - reason: `rideNotFound` (string) - Error type
 
 - Response 400 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Invalid stations` (string) - Error message
@@ -155,13 +161,16 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(DELETE) /api/order/{orderId}`
 
 - Request (application/json)
+
   - Parameters:
   - orderId: `215` (number, required) - Identifier of the order
 
 - Response 200 (application/json)
+
   - Attributes: (object)
 
 - Response 400 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Order is not found` (string) - Error message
