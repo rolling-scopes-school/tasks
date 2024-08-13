@@ -33,7 +33,7 @@ Before starting with the pipeline, you need to implement the following:
 1. A Docker image(s) for your application. The image(s) should be stored in AWS ECR repository. Note, that your k8s nodes should be able to access this repository as well. For that reason you'll need to adjust or create a new instance profile, associated with your EC2 instances, to let them access the repository.
 2. A Helm chart for your application. The chart should handle configuration of all the components (like configmaps, deployments, etc.), which are required to run the application withing a K8s cluster. See Helm documentation for more details on this step. During the development of the chart, you may test it manually from your computer, where Helm is installed.
 
-Artifacts from these steps (Dockerfile and Helm chart) should be stored in a git repository, which will be available to Jenkins. You may use your applications' main repository as well.
+Artifacts from these steps (Dockerfile and Helm chart) should be stored in a git repository, which will be available to Jenkins. You may use your application's main repository as well.
 
 The next step is to configure a Jenkins pipeline. The pipeline should be stored in a form of Jenkinsfile in your main git repository, and be triggered on each push event on this repo. The pipeline should contain the following steps:
 
