@@ -44,9 +44,7 @@ A substantial amount of static data has been added to the database for testing p
 
 ### Manager credentials
 
-> The manager and the root administrator can enter the system with<br />
-> _email:_ <admin@admin.com><br />
-> _password:_ my-password
+> The manager and the root administrator can enter the system with<br /> > _email:_ <admin@admin.com><br /> > _password:_ my-password
 
 ### Authorization token
 
