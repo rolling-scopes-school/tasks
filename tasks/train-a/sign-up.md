@@ -124,7 +124,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 
 ### Sign Up page example
 
-![Sign Up page example](./desgins/signup.png)
+![Sign Up page example](./designs/signup.png)
 
 ## Next section
 
