@@ -130,7 +130,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 ### Sign In page example
 
-![Sign In page example](./desgins/signin.png)
+![Sign In page example](./designs/signin.png)
 
 ## Next Section
 
