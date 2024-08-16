@@ -15,7 +15,7 @@ Several things to keep in mind during cluster deployment:
 3. You'll need a domain name or a sub-domain for kOps-managed cluster;
 4. Make sure you're using AWS EC2 instances type from Free Tier to avoid addition expenses (see https://aws.amazon.com/free for more details).
 
-Rule of thumb: use k3s if you don't want to spend on AWS resources; use kOps if you'd like to practise with more a more real-life cluster.
+Rule of thumb: use k3s if you don't want to spend on AWS resources; use kOps if you'd like to practise with a more real-life cluster.
 
 **This task is considered as done if all the conditions below are met:**
 
