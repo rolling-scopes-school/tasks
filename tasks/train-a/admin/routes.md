@@ -1,4 +1,4 @@
-# Routes
+# Routes (manager)
 
 **Browser path:** _/admin/routes_
 
