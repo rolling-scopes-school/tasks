@@ -16,7 +16,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 - **Password field**: For secure password entry.
 - **RepeatPassword field**: To duplicate password value.
 - **Register button**: To initiate the register process.
-- **Sign In link**: To navigate user to Sign Up page.
+- **Sign In link**: To navigate user to Sign-In page.
 
 > [!IMPORTANT]
 > Password recovery is not supported. If a user forgets their password, they will lose access to the system.
@@ -69,7 +69,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 
 #### Acceptance Criteria 5: Disabled Sign Up button (5)
 
-- Button "Register" is disabled until user fill email in correct format and password matches the restriction. User cannot click it.
+- Button "Register" is disabled until user fills email in correct format and password matches the restriction. User cannot click it.
 - Button "Register" is disabled during the registration process.
 
 #### Acceptance Criteria 6: Responsive design (5)
@@ -77,6 +77,12 @@ User is able to enter _email_ and _password_ into the relative fields and create
 - The Sign-Up page must display correctly and be fully functional on mobile, tablet, and desktop devices.
 
 ### User Flow
+
+Imagine you’re looking at the most beautiful registration form in the world. You’re enjoying every aspect of its majestic design... and just as you’re about to enter your email address, :fire: :boom: :collision: – errors pop up because the email format is incorrect, even though you haven’t finished typing it yet. It’s frustrating to be interrupted with errors before you’ve even had a chance to complete your input.
+
+When designing a registration form, it’s important to show errors to the user in the right way. There are two stages of validation: on the frontend and backend. On the frontend, errors are only shown after the user attempts to submit the form. This helps to avoid unnecessary concerns during data entry.
+
+However, if passwords need to match, errors for mismatched passwords should be shown immediately, as users cannot see the entered passwords. For other types of errors, they are displayed only after the form is submitted and a 400 error is received from the server. This approach simplifies the form’s use and makes it more user-friendly.
 
 #### User Scenario 1: Successful Sign-Up
 
@@ -137,7 +143,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 **Objective**: Verify that the system handles incorrect passwords correctly.
 
 - Navigate to Sign-Up page
-  - **Action**: Open the browser and go to /signin.
+  - **Action**: Open the browser and go to _/signin_.
   - **Expected Result**: The Sign-Up page is displayed with the "Register" button initially disabled.
 - Enter email in valid format and empty password
   - **Action**: Input `user@example.com` into the Email field and left empty Password field.
@@ -160,7 +166,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 **Objective**: Verify that user can see failed registration.
 
 - Navigate to Sign-Up page
-  - **Action**: Open the browser and go to /signup.
+  - **Action**: Open the browser and go to _/signup_.
   - **Expected Result**: The Sign-Up page is displayed with the "Register" button initially disabled.
 - Enter email and password
   - **Action**: Input existing email in correct format into the Email field, corresponding account password into the Password field and the same password into RepeatPassword field.
@@ -176,7 +182,7 @@ User is able to enter _email_ and _password_ into the relative fields and create
 - Change the email
   - **Action**: Start editing the email to any other one.
   - **Expected Result**:
-    - Error "_Account with this email already exists_" are removed for Email field.
+    - Error "_Account with this email already exists_" is removed for Email field.
     - There are no errors if Email contains value in correct format (match regular expression). "Register" button is active.
     - Error message "_Incorrect email_" is displayed under Email field if it contains value in wrong format (does not match regular expression). "Register" button is disabled.
     - Error message "_Required_" is displayed if Email field is empty. "Register" button is disabled.

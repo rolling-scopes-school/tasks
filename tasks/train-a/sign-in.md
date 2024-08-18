@@ -14,7 +14,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 - **Email field**: Where users input their login credentials.
 - **Password field**: For secure password entry.
-- **Sign In button** To initiate the login process.
+- **Sign In button**: To initiate the login process.
 - **Sign Up link**: To navigate user to Sign-Up page.
 
 > [!IMPORTANT]
@@ -49,23 +49,23 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 #### Acceptance Criteria 2: Error message for incorrect password (5)
 
 - User can fill any symbols in any languages.
-- Display "_Incorrect email or password_" error message under Email and Password fields when user click "Sign In" button with existing email but incorrect password for that account.
-- Errors appear when user click on "Sign In" button and receive 400 error.
+- Display "_Incorrect email or password_" error message under Email and Password fields when user clicks "Sign In" button with existing email but incorrect password for that account.
+- Errors appear when user clicks on "Sign In" button and receives 400 error.
 - Error under field that is being edited disappears when user changes this field content.
 
 #### Acceptance Criteria 3: Error message for email (5)
 
-- Display "_Incorrect email or password_" error message under Email and Password fields when user click "Sign In" button with existing email but incorrect password for that account. Error disappears when user changes Email field content.
+- Display "_Incorrect email or password_" error message under Email and Password fields when user clicks "Sign In" button with existing email but incorrect password for that account. Error disappears when user changes Email field content.
 - Display "_Incorrect email_" error message under Email field if user changes content of email field after clicking on "Sign In" button and it does not match _^[\w\d\_]+@[\w\d\_]+\.\w{2,7}$_ regular expression.
-- Errors appear when user click on "Sign In" button and receive 400 error.
+- Errors appear when user clicks on "Sign In" button and receive 400 error.
 
 #### Acceptance Criteria 4: Error message for empty field (5)
 
-- Display "_Required_" error message under the empty form fields **after** "Sign In" button is clicked first time. Error does not appear until user click button regardless of content.
+- Display "_Required_" error message under the empty form fields **after** "Sign In" button is clicked first time. Error does not appear until user clicks button regardless of content.
 
 #### Acceptance Criteria 5: Disabled Sign In button (5)
 
-- Button "Sign In" is disabled until user fill email in correct format and password is not empty. User cannot click it.
+- Button "Sign In" is disabled until user fills email in correct format and password is not empty. User cannot click it.
 - Button "Sign In" is disabled during the authentication process.
 
 #### Acceptance Criteria 6: Responsive design (5)
@@ -73,6 +73,8 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 - The Sign-Up page must display correctly and be fully functional on mobile, tablet, and desktop devices.
 
 ### User Flow
+
+The essence of the checks is the same as [for registration](./sign-up.md#user-flow) - display error only after "Sign In" button is clicked.
 
 #### User Scenario 1: Successful Sign-In
 
@@ -115,7 +117,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 **Objective**: Verify that the system handles incorrect passwords correctly.
 
 - Navigate to Sign-In page
-  - **Action**: Open the browser and go to /signin.
+  - **Action**: Open the browser and go to _/signin_.
   - **Expected Result**: The Sign-In page is displayed with the "Sign In" button initially disabled.
 - Enter email in valid format and empty password
   - **Action**: Input `user@example.com` into the Email field and left empty Password field.
@@ -131,14 +133,14 @@ User can enter _email_ and _password_ into relative form fields and be granted t
   - **Expected Result**: The "Sign In" button becomes enabled and user is able to click it. No visible errors.
 - Clear the Password field
   - **Action**: Remove all content from the Password field.
-  - **Expected Result**: The "Sign In" buttons turns back to disabled. No visible errors.
+  - **Expected Result**: The "Sign In" button turns back to disabled. No visible errors.
 
 #### User Scenario 4: Invalid email in credentials
 
 **Objective**: Verify that user can see failed authentication.
 
 - Navigate to Sign-In page
-  - **Action**: Open the browser and go to /signin.
+  - **Action**: Open the browser and go to _/signin_.
   - **Expected Result**: The Sign-In page is displayed with the "Sign In" button initially disabled.
 - Enter email and password
   - **Action**: Input non-existing email in correct format into the Email field and any password into the Password field.
@@ -164,7 +166,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 **Objective**: Verify that user can see failed authentication.
 
 - Navigate to Sign-In page
-  - **Action**: Open the browser and go to /signin.
+  - **Action**: Open the browser and go to _/signin_.
   - **Expected Result**: The Sign-In page is displayed with the "Sign In" button initially disabled.
 - Enter email and password
   - **Action**: Input existing email in correct format into the Email field and any wrong non-empty password into the Password field.
