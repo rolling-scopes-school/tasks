@@ -112,6 +112,54 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - If the user is not authorized, the page should contain a link to Sign In / Sign Up page.
 - If the user is authorized, the page should contain links to the RESTfull client, GraphiQL client, History routes.
 
+
+#### Welcome page template. User is not signed in
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +---------------------------------------------+   |
+|  | [Logo] | Language Toggle | [Sign In]        |   |
+|  +---------------------------------------------+   |
++----------------------------------------------------+
+|                                                    |
+|   +--------------------------------------------+   |
+|   |                                            |   |
+|   |                Welcome!                    |   |
+|   |                                            |   |
+|   | [Sign In] [Sign Up]                        |   |
+|   |                                            |   |
+|   +--------------------------------------------+   |
+|                                                    |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+```
+
+#### Welcome page template. User is signed in
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +---------------------------------------------+   |
+|  | [Logo] | Language Toggle | [Sign Out]       |   |
+|  +---------------------------------------------+   |
++----------------------------------------------------+
+|                                                    |
+|   +--------------------------------------------+   |
+|   |                                            |   |
+|   |         Welcome Back, [Username]!          |   |
+|   |                                            |   |
+|   +--------------------------------------------+   |
+|                                                    |
+|  +--------------------------------------------+    |
+|  | REST Client | GraphiQL Client | History    |    |
+|  +--------------------------------------------+    |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+```
+
 ### Header
 
 - The header should be sticky. The moment it becomes sticky (if there is a scroll on a page) should be animated: color can be changed or its height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
@@ -131,6 +179,31 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - Upon successful login, the user should be redirected to the RESTfull client
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
 
+#### Sign up / Sign in template
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +---------------------------------------------+   |
+|  | [Logo] | Language Toggle | [Sign Out] |     |   |
+|  +---------------------------------------------+   |
++----------------------------------------------------+
+|                                                    |
+|   +--------------------------------------------+   |
+|   |                                            |   |
+|   |                Sign In / Sign Up           |   |
+|   |                                            |   |
+|   | [Email Input]                              |   |
+|   | [Password Input]                           |   |
+|   | [Submit Button]                            |   |
+|   +--------------------------------------------+   |
+|                                                    |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+
+```
+
 ### RESTfull client
 
 - This route should be private.
@@ -141,6 +214,37 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - Variables editor section.
 - Headers editor section.
 - Response section. Should be read only. Should contain information about HTTP response code and the response status.
+
+#### RESTfull client template
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +----------------------------------------------+  |
+|  | [Logo] | Language Toggle | [Sign Out] |      |  |
+|  +----------------------------------------------+  |
++----------------------------------------------------+
+|                                                    |
+|   +------------------- REST Client -------------+  |
+|   | +-------------+ +--------------------------+ | |
+|   | | Method      | | Endpoint URL             | | |
+|   | +-------------+ +--------------------------+ | |
+|   | Headers: [Add Header Button]                 | |
+|   | +------------------------------------------+ | |
+|   | | Header Key | Header Value                | | |
+|   | +------------------------------------------+ | |
+|   | Body: [JSON/Text Editor]                     | |
+|   +---------------------------------------------+  |
+|                                                    |
+|   +----------------- Response -------------------+ |
+|   | Status: [HTTP Status Code]                   | |
+|   | Body: [Read-Only JSON Viewer]                | |
+|   +---------------------------------------------+  |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+
+```
 
 #### Routing on RESTfull client
 
@@ -174,6 +278,37 @@ Headers, specified in the editor, should be provided as url query parameters (mi
 - Headers editor section (If you are making a CORS request each added header should be supported on the backend, please, consider that). You CAN reuse the one from the RESTfull client.
 - Documentation section, should be visible only when the app receives a successfull response with the schema definition from the API.
 
+#### GraphiQL template
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +----------------------------------------------+  |
+|  | [Logo] | Language Toggle | [Sign Out] |      |  |
+|  +----------------------------------------------+  |
++----------------------------------------------------+
+|                                                    |
+|   +------------------ GraphiQL Client -----------+ |
+|   | Endpoint URL: [URL Input]                    | |
+|   | SDL URL: [URL Input]                         | |
+|   | Headers: [Add Header Button]                 | |
+|   | +-----------------------------------------+  | |
+|   | | Header Key | Header Value               |  | |
+|   | +-----------------------------------------+  | |
+|   | Query: [GraphQL Query Editor]                | |
+|   | Variables: [Variables Editor]                | |
+|   +----------------------------------------------+ |
+|                                                    |
+|   +----------------- Response -------------------+ |
+|   | Status: [HTTP Status Code]                   | |
+|   | Body: [Read-Only JSON Viewer]                | |
+|   +--------------------------------------------+   |
+|   Documentation: [Visible if SDL Response Success] |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+```
+
 #### Routing on GraphiQL client
 
 Similar to the RESTfull client, the request infromation should be provided via the url, with the only exception - all the GraphQL queries are POST queries, so to distinguish it from the usual REST queries, you should use GRAPHQL as a first route parameter:
@@ -182,10 +317,59 @@ Similar to the RESTfull client, the request infromation should be provided via t
 ### History
 
 - This route should be private.
-- If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTfull and to the GraphiQL clients.
-- All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
 - History section should display request using links, on clicking on the link, user should be navigated to the respective section (RESTfull client or GraphiQL).
+- All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
 - After navigating to the respective section, all the functional fields (url, method selector, headers, body, values, sdl url for the GraphQL query) should be restored. Please, mind this when saving the request in the local storage to ensure that all the required data will be saved.
+- If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTfull and to the GraphiQL clients.
+
+#### History template. No requests
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +---------------------------------------------+   |
+|  | [Logo] | Language Toggle | [Sign Out]       |   |
+|  +---------------------------------------------+   |
++----------------------------------------------------+
+|                                                    |
+|   +--------------------------------------------+   |
+|   |                                            |   |
+|   |      You haven't executed any requests     |   |
+|   |            It's empty here. Try:           |   |
+|   |                                            |   |
+|   |   [REST Client]    [GraphiQL Client]       |   |
+|   |                                            |   |
+|   +--------------------------------------------+   |
+|                                                    |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+```
+
+#### History template with requests
+```
++----------------------------------------------------+
+|                      Header                        |
+|  +---------------------------------------------+   |
+|  | [Logo] | Language Toggle | [Sign Out]       |   |
+|  +---------------------------------------------+   |
++----------------------------------------------------+
+|                                                    |
+|   +--------------------------------------------+   |
+|   |               History Requests             |   |
+|   +--------------------------------------------+   |
+|                                                    |
+|  +----------------------------------------------+  |
+|  | [GET https://api.example.com/resource/1]     |  |
+|  | [POST https://api.example.com/resource]      |  |
+|  | [GRAPHQL https://graphql.example.com/query]  |  |
+|  +----------------------------------------------+  |
+|                                                    |
++----------------------------------------------------+
+|                      Footer                        |
+|    [GitHub Link] | Year | [Course Logo]            |
++----------------------------------------------------+
+```
 
 ## How to submit tasks
 
