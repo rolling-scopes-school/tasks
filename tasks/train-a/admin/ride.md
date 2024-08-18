@@ -1,4 +1,4 @@
-# Schedule
+# Schedule (manager)
 
 **Browser path:** _/admin/routes/{id}_
 
