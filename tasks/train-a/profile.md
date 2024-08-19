@@ -175,5 +175,5 @@ Page allows authenticated users to view and update their personal information. U
 
 ## Next section
 
-- [Home page](./home.md)
+- [Home page](./search.md)
 - [Manager page](./admin)
