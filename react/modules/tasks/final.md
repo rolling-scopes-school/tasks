@@ -112,8 +112,8 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - If the user is not authorized, the page should contain a link to Sign In / Sign Up page.
 - If the user is authorized, the page should contain links to the RESTfull client, GraphiQL client, History routes.
 
-
 #### Welcome page template. User is not signed in
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -137,6 +137,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 ```
 
 #### Welcome page template. User is signed in
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -180,6 +181,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
 
 #### Sign up / Sign in template
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -216,6 +218,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - Response section. Should be read only. Should contain information about HTTP response code and the response status.
 
 #### RESTfull client template
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -279,6 +282,7 @@ Headers, specified in the editor, should be provided as url query parameters (mi
 - Documentation section, should be visible only when the app receives a successfull response with the schema definition from the API.
 
 #### GraphiQL template
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -323,6 +327,7 @@ Similar to the RESTfull client, the request infromation should be provided via t
 - If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTfull and to the GraphiQL clients.
 
 #### History template. No requests
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
@@ -347,6 +352,7 @@ Similar to the RESTfull client, the request infromation should be provided via t
 ```
 
 #### History template with requests
+
 ```
 +----------------------------------------------------+
 |                      Header                        |
