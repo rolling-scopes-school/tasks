@@ -60,7 +60,7 @@ Carriage is composed with parameters:
 #### Acceptance Criteria 2: Displaying carriage configuration form (15)
 
 - When the manager clicks the "Create" button:
-  - A form must appear at the top with fields for rows, leftSeats, and rightSeats.
+  - A form must appear at the top with fields for name, rows, leftSeats, and rightSeats.
   - A "Save" button must be present in the form.
   - A dynamically rendered prototype of the carriage must be displayed based on the values entered in the form fields.
 - When the manager clicks the "Update" button for an existing carriage:
