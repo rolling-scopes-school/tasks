@@ -90,7 +90,6 @@ You are free to choose your own way of developing the project and the repository
 ## Application design requirements
 
 - the application quality is characterized by the elaboration of details, attention to typography (no more than three fonts per page, font size of at least 14 px, optimal [font and background contrast](https://snook.ca/technical/colour_contrast/colour.html)), carefully selected content
-- adaptive layout, the minimum page width of the application should be 320px
 - interactivity of elements users can interact with; element hover effects; usage of different styles for the active and inactive state of the element; smooth animations
 - the unity of styles of all pages of the application - the same fonts, button styles, indents, and the same elements on all pages of the application have the same appearance and layout. Item colors and background images may vary. In this case, colors should be from the same palette, and background images from the same collection.
 
