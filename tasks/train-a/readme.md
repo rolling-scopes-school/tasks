@@ -59,7 +59,7 @@ Since user passed authorization and `{token: "some-token-here"}` was replied to 
 
 ### Currency
 
-Server saves only the number for the price. Frontend can be configured for whatever price you want.
+Server saves only the number for the price. Frontend can be configured for whatever currency you want.
 
 ## Assessment
 

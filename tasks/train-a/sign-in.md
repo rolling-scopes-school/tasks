@@ -43,7 +43,7 @@ User can enter _email_ and _password_ into relative form fields and be granted t
 
 - User should be authenticated and redirected to the homepage upon entering valid email and password.
 - Once signed in, the user should not be able to access the Sign-In page again until they log out.
-- If an authenticated user tries to access the Sign-In page directly via the browser URL, they should be redirected to the [Homepage](./home.md).
+- If an authenticated user tries to access the Sign-In page directly via the browser URL, they should be redirected to the [Homepage](./search.md).
 - After successful authentication each following http-requests must comply with [Authorization record](./readme.md#authorization-token)
 
 #### Acceptance Criteria 2: Error message for incorrect password (5)
