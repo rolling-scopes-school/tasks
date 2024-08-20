@@ -14,10 +14,10 @@ Each train can consist of carriages of different types. Manager can create sever
 
 Carriage is composed with parameters:
 
-- **code** - auto-generated unique code for item. User to update carriage.
+- **code** - auto-generated unique code for item. It is used in update http-request.
 - **name** - unique name of the carriage type.
 - **rows** - number of rows (16 in example below)
-- **leftSeats** - - the number of seats to the left of the aisle in a row (2 in example below)
+- **leftSeats** - the number of seats to the left of the aisle in a row (2 in example below)
 - **rightSeats** - the number of seats to the right of the aisle in a row (3 in example below)
 
 ![Designation of carriage elements](../designs/search-details/carriage%20hints.png)
@@ -30,7 +30,7 @@ Carriage is composed with parameters:
 - Below the "Create" button, there must be a list of already created carriages displayed vertically.
 - Each carriage in the list must include:
   - The name of the carriage type.
-  - A rendered picture of the train car based on its configuration parameters: rows, leftSeats, and rightSeats.
+  - A rendered picture of the train car based on its configuration parameters: rows, leftSeats and rightSeats.
 - If the manager clicks the "Create" button or the "Update" button for any existing carriage, a form must appear at the top of the page.
 
 #### Requirement 2: Carriage configuration form
