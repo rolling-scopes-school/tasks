@@ -169,7 +169,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ### Footer
 
-- Footer should contain a link to the authors' GitHub, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
+- Footer should contain a link to the authors' GitHub, the year the application was created, [course logo](../../assets/rss-logo.svg) with [link to the course](https://rs.school/react/).
 - Footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up
