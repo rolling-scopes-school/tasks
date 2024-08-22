@@ -35,7 +35,7 @@ Design, prototype, as well as implementation of the application, are up to you.
 
 Your app must contain:
 
-1. Welcome page
+1. Main page
 2. User registration/authentication.
 3. RESTfull client, which includes:
    - method selector
@@ -106,18 +106,18 @@ Application should gracefully handle errors and show meaningfull messages to the
 Please, distiungush between errors on the application level and the valid HTTP error code.
 CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx HTTP response codes should be displayed in the response section.
 
-### Welcome page
+### Main page
 
 - If the user is not authorized, the page should contain a link to Sign In / Sign Up page.
 - If the user is authorized, the page should contain links to the RESTfull client, GraphiQL client, History routes.
 
-#### Welcome page template. User is not signed in
+#### Main page template. User is not signed in
 
 ```
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
-|  | [Logo] | Language Toggle | [Sign In]        |   |
+|  | [Logo] | Lang Toggle | [Sign In] | [Sign up]|   |
 |  +---------------------------------------------+   |
 +----------------------------------------------------+
 |                                                    |
@@ -135,7 +135,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 +----------------------------------------------------+
 ```
 
-#### Welcome page template. User is signed in
+#### Main page template. User is signed in
 
 ```
 +----------------------------------------------------+
@@ -163,7 +163,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 ### Header
 
 - The header should be sticky. The moment it becomes sticky (if there is a scroll on a page) should be animated: color can be changed or its height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
-- Link to Welcome page
+- Link to the Main page
 - Control that allows user to switch the language
 - Sign Out button - signs user out
 
@@ -176,10 +176,10 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 - For the authentication you should use Firebase with the email/password sign-in method. Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/)
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character, Unicode passwords must be supported)
-- Upon successful login, the user should be redirected to the RESTfull client
+- Upon successful login, the user should be redirected to the Main page
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
 
-#### Sign up / Sign in template
+#### Sign In / Sign Up template
 
 ```
 +----------------------------------------------------+
@@ -396,12 +396,12 @@ It contains:
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
-### Welcome route - max 50 points
+### Main route - max 50 points
 
-- [ ] The welcome page should contain general information about the developers, project, and course. - **10 points**
+- [ ] The Main page should contain general information about the developers, project, and course. - **10 points**
 - [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. - **10 points**
 - [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Main Page" button. - **10 points**
-- [ ] When the token expires - the user should be redirected to the "Welcome page" automatically. - **10 points**
+- [ ] When the token expires - the user should be redirected to the Main page automatically. - **10 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. - **10 points**
 
 ### Sign In / Sign Up - max 50 points
