@@ -149,7 +149,7 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - Attributes (object)
     - error:
       - message: `Route not found` (string) - Error message if routeId is wrong
-      - reason: `recordNotFound` (string) - Wrong token idintifier
+      - reason: `recordNotFound` (string) - Unique error type
 
 ### Update ride
 
@@ -181,7 +181,35 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - Attributes (object)
     - error:
       - message: `Ride not found` (string) - Error message if routeId or rideId is wrong
-      - reason: `recordNotFound` (string) - Wrong token idintifier
+      - reason: `recordNotFound` (string) - Unique error type
+
+### Delete ride
+
+> `(DELETE) /api/route/{routeId}/ride/{rideId}`
+
+- Request (application/json)
+  - Parameters:
+    - routeId: `17` (number, required) - Identifier of the route
+    - rideId: `215` (number, required) - Identifier of the ride
+
+- Response 200 (application/json)
+  - Attributes (object)
+
+- Response 401 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Access is not granted` (string) - Error message
+      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Ride not found` (string) - Error message if routeId or rideId is wrong
+      - reason: `recordNotFound` (string) - Unique error type
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Ride is already used` (string) - Error message if some order exist with certain ride
+      - reason: `recordInUse` (string) - Unique error type
 
 ## Design example
 

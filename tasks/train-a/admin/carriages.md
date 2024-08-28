@@ -85,7 +85,7 @@ Carriage is composed with parameters:
 
 ## API
 
-### Retrieve carriage list
+### Retrieve carriage type list
 
 > `(GET) /api/carriage`
 
@@ -120,6 +120,12 @@ Carriage is composed with parameters:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token idintifier
 
+- Response 400 (application/json)
+  - Attributes: (object)
+    - error:
+      - message: `Carriage already exists` (string) - Error message
+      - reason: `invalidUniqueKey` (string) - Wrong token idintifier
+
 ### Update carriage type
 
 > `(PUT) /api/carriage/{code}`
@@ -127,7 +133,7 @@ Carriage is composed with parameters:
 - Request (application/json)
 
   - Parameters: (object)
-    - code: `type18` (string) - Carriage unique identifierØ
+    - code: `type18` (string) - Carriage unique identifier
   - Body: (object)
     - name: `Only-women` (string) - Carriage name
     - rows: `16` (number) - amount of rows in carriage
@@ -151,6 +157,33 @@ Carriage is composed with parameters:
     - error:
       - message: `Carriage not found` (string) - Error message
       - reason: `recordNotFound` (string) - Wrong token idintifier
+
+### Delete carriage type
+
+> `(DELETE) /api/carriage/{code}`
+
+- Request (application/json)
+  - Parameters: (object)
+    - code: `type18` (string) - Carriage unique identifier
+
+- Response 200 (application/json)
+  - Attributes (object)
+
+- Response 401 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Access is not granted` (string) - Error message
+      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Carriage not found` (string) - Error message if carriage code is wrong
+      - reason: `recordNotFound` (string) - Unique error type
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Carriage is already used` (string) - Error message if some order exist with certain carriage type
+      - reason: `recordInUse` (string) - Unique error type
 
 ## Next section
 
