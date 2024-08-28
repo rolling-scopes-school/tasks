@@ -115,16 +115,17 @@ Carriage is composed with parameters:
     - code: `type18` (string) - Carriage unique identifier
 
 - Response 401 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
   - Attributes: (object)
     - error:
       - message: `Carriage already exists` (string) - Error message
-      - reason: `invalidUniqueKey` (string) - Wrong token idintifier
+      - reason: `invalidUniqueKey` (string) - Unique error type
 
 ### Update carriage type
 
@@ -150,30 +151,32 @@ Carriage is composed with parameters:
   - Attributes: (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
   - Attributes: (object)
     - error:
       - message: `Carriage not found` (string) - Error message
-      - reason: `recordNotFound` (string) - Wrong token idintifier
+      - reason: `recordNotFound` (string) - Unique error type
 
 ### Delete carriage type
 
 > `(DELETE) /api/carriage/{code}`
 
 - Request (application/json)
+
   - Parameters: (object)
     - code: `type18` (string) - Carriage unique identifier
 
 - Response 200 (application/json)
+
   - Attributes (object)
 
 - Response 401 (application/json)
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 - Response 400 (application/json)
   - Attributes (object)
     - error:

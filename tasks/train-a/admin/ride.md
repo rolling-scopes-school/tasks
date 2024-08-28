@@ -143,7 +143,7 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
   - Attributes (object)
@@ -175,7 +175,7 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
   - Attributes (object)
@@ -188,18 +188,20 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 > `(DELETE) /api/route/{routeId}/ride/{rideId}`
 
 - Request (application/json)
+
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
     - rideId: `215` (number, required) - Identifier of the ride
 
 - Response 200 (application/json)
+
   - Attributes (object)
 
 - Response 401 (application/json)
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
-      - reason: `invalidAccessToken` (string) - Wrong token idintifier
+      - reason: `invalidAccessToken` (string) - Wrong token identifier
 - Response 400 (application/json)
   - Attributes (object)
     - error:
