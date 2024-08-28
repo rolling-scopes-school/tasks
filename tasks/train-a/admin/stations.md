@@ -133,6 +133,11 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
     - error:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token idintifier
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Station is already used` (string) - Error message if some route exist with certain station
+      - reason: `recordInUse` (string) - Unique error type
 
 ## Design example
 
