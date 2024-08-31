@@ -146,10 +146,31 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
       - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Route not found` (string) - Error message if routeId is wrong
       - reason: `recordNotFound` (string) - Unique error type
+
+- Response 400 (application/json)
+
+  - Attributes (object)
+    - error:
+      - message: `Parameters are irrelevant` (string) - Error message if request parameters are wrong
+      - reason: `invalidData` (string) - Unique error type
+
+- Response 400 (application/json)
+
+  - Attributes (object)
+    - error:
+      - message: `Time is irrelevant` (string) - Error message if time sequence is wrong
+      - reason: `invalidData` (string) - Unique error type
+
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Price is irrelevant` (string) - Error message if price sequence is wrong
+      - reason: `invalidData` (string) - Unique error type
 
 ### Update ride
 
@@ -178,10 +199,31 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
       - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Ride not found` (string) - Error message if routeId or rideId is wrong
       - reason: `recordNotFound` (string) - Unique error type
+
+- Response 400 (application/json)
+
+  - Attributes (object)
+    - error:
+      - message: `Parameters are irrelevant` (string) - Error message if request parameters are wrong
+      - reason: `invalidData` (string) - Unique error type
+
+- Response 400 (application/json)
+
+  - Attributes (object)
+    - error:
+      - message: `Time is irrelevant` (string) - Error message if time sequence is wrong
+      - reason: `invalidData` (string) - Unique error type
+
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Price is irrelevant` (string) - Error message if price sequence is wrong
+      - reason: `invalidData` (string) - Unique error type
 
 ### Delete ride
 
