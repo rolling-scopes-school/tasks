@@ -164,10 +164,24 @@ Minimum 3 carriages, minimum 3 stations;
   - Attributes: (object)
 
 - Response 401 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token idintifier
+
+- Response 400 (application/json)
+
+  - Attributes (object)
+    - error:
+      - message: `Route not found` (string) - Error message if routeId is wrong
+      - reason: `recordNotFound` (string) - Unique error type
+
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Route is already used` (string) - Error message if some order exist with certain route
+      - reason: `recordInUse` (string) - Unique error type
 
 ## Design example
 

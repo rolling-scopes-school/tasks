@@ -151,10 +151,25 @@ A **carriage** is a structure for transporting passengers with specific paramete
       - reason: `invalidStations` (string) - Error type
 
 - Response 400 (application/json)
+
+  - Attributes: (object)
+    - error:
+      - message: `Parameters are irrelevant` (string) - Error message
+      - reason: `invalidData` (string) - Error type
+
+- Response 400 (application/json)
+
   - Attributes: (object)
     - error:
       - message: `Ride is already booked` (string) - Error message
       - reason: `alreadyBooked` (string) - Error type
+
+- Response 400 (application/json)
+
+  - Attributes: (object)
+    - error:
+      - message: `Trip is expired` (string) - Error message
+      - reason: `invalidRide` (string) - Error type
 
 ### To cancel active order
 
