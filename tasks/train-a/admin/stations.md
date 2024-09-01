@@ -110,9 +110,16 @@ It does not matter what the way is chosen, latitude/longitude have to be assigne
       - reason: `invalidAccessToken` (string) - Wrong token idintifier
 
 - Response 400 (application/json)
+
   - Attributes (object)
     - error:
       - message: `Invalid station data` (string) - Error message
+      - reason: `invalidStationData` (string) - Wrong token idintifier
+
+- Response 400 (application/json)
+  - Attributes (object)
+    - error:
+      - message: `Invalid station relations` (string) - Error message
       - reason: `invalidStationData` (string) - Wrong token idintifier
 
 ### Delete station
