@@ -1,4 +1,4 @@
-# Train-A
+# A-Train
 
 ## Welcome to the final project
 
@@ -22,7 +22,7 @@ Before starting, please note the following technical details:
 
 ### Technical Setup
 
-To simulate the backend functionality, install the latest `@planess/train-a-backend@latest` npm package into your project. Modify the `src/main.ts` file as instructed:
+To simulate the backend functionality, [install](https://docs.npmjs.com/downloading-and-installing-packages-locally) the latest `@planess/train-a-backend@latest` npm package into your project. Modify the `src/main.ts` file as instructed:
 
 #### src/main.ts
 
@@ -37,6 +37,8 @@ import { AppComponent } from './app/app.component';
 +  .then(() => bootstrapApplication(AppComponent, appConfig))
   .catch((err) => console.error(err));
 ```
+
+To observe current version of packages and monitor outdated list, the `npm outdated` [command](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry) could be used.
 
 ### Project Data
 
