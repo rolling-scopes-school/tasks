@@ -7,14 +7,14 @@
   - Preparing students for technical interviews
   - Preparing students for presentations in English
   - Students complete a team project
-- Training time: 14 weeks
+- Training time: 19 weeks
 - Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
 
 # Training Program
 
 ## Week #1
 
-### 13/02/2024
+### February 11, 2025
 
 - Cross-Check Reviews:
 
@@ -41,9 +41,9 @@
 - [Conducting Technical Screening](./modules/technical-screening/)
 </details>
 
-## Week #2.
+## Week #2
 
-### 20/02/2024
+### February 18, 2025
 
 - Modules:
 
@@ -83,9 +83,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Conducting Technical Screening](./modules/technical-screening/)
 </details>
 
-## Week #3.
+## Week #3
 
-### 27/02/2024
+### February 25, 2025
 
 - Cross-Check Reviews:
 
@@ -115,21 +115,23 @@ At the end of this week, all students will be required to use typescript and adh
   - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 </details>
 
-## Week #4.
+## Week #4
 
-### 05/03/2024
+### March 4, 2025
 
 - Modules:
 
   - [Module: Web Storage](modules/web-storage/)
+  - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
 
 - Tasks:
 
-  - [RSS Puzzle](./tasks/puzzle/)
+  - [Wheel of Fortune](./tasks)
 
 - Tests:
 
   - [[St2] Web Storage](modules/web-storage/)
+  - [[St2] Event Loop & Animation](modules/eventloop-animation/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -142,13 +144,13 @@ At the end of this week, all students will be required to use typescript and adh
   - "Online" format presentation is optional and is up to the student's discretion.
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/)
+- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Wheel of Fortune](./tasks)
 - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
 ## Week #5
 
-### 12/03/2024
+### March 11, 2025
 
 - Modules:
 
@@ -156,7 +158,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Tasks:
 
-  - [RSS Puzzle](./tasks/puzzle/)
+  - [Wheel of Fortune](./tasks)
   - [Codewars FP](../tasks/codewars/Codewars-2023Q4-FP.md)
 
 - Tests:
@@ -168,17 +170,17 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/)
+- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Wheel of Fortune](./tasks)
 - If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
 ## Week #6
 
-### 19/03/2024
+### March 18, 2025
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [RSS Puzzle](./tasks/puzzle/)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Wheel of Fortune](./tasks)
 
 - Modules:
 
@@ -201,19 +203,18 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
+- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Wheel of Fortune](./tasks)
 - [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
-## Week #7.
+## Week #7
 
-### 26/03/2024
+### March 25, 2025
 
 - Modules:
 
-  - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
   - [Module: RESTful API Style](modules/restful-api/)
 
 - Tasks:
@@ -223,7 +224,6 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Tests:
 
-  - [[St2] Event Loop & Animation](modules/eventloop-animation/)
   - [[St2] RESTful API Style](modules/restful-api/)
 
 <details>
@@ -235,9 +235,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Week #8.
+## Week #8
 
-### 02/04/2024
+### April 1, 2025
 
 - Cross-Check Reviews:
 
@@ -263,9 +263,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking](https://docs.rs.school/#/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
 </details>
 
-## Week #9.
+## Week #9
 
-### 09/04/2024
+### April 8, 2025
 
 - Modules:
 
@@ -290,9 +290,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
-## Week #10.
+## Week #10
 
-### 16/04/2024
+### April 15, 2025
 
 - Modules:
 
@@ -314,9 +314,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
-## Week #11.
+## Week #11
 
-### 23/04/2024
+### April 22, 2025
 
 - Cross-Check Reviews:
 
@@ -342,9 +342,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
-## Week #12.
+## Week #12
 
-### 30/04/2024
+### April 29, 2025
 
 - Modules:
 
@@ -368,9 +368,9 @@ At the end of this week, all students will be required to use typescript and adh
 
 </details>
 
-## Week #13.
+## Week #13
 
-### 07/05/2024
+### May 6, 2025
 
 - Modules:
 
@@ -391,9 +391,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
-## Week #14.
+## Week #14
 
-### 14/05/2024
+### May 13, 2025
 
 - Modules:
 
@@ -412,26 +412,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Week #15.
+## Week #15
 
-### 21/05/2024
-
-- Tasks:
-
-  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
-
-<details>
-  <summary markdown="span">Mentor Activities</summary>
-
-- [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
-</details>
-
-## Week #16.
-
-### 28/05/2024
+### May 20, 2025
 
 - Tasks:
 
@@ -446,9 +429,26 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Week #17.
+## Week #16
 
-### 04/06/2024
+### May 27, 2025
+
+- Tasks:
+
+  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+
+<details>
+  <summary markdown="span">Mentor Activities</summary>
+
+- [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+</details>
+
+## Week #17
+
+### June 3, 2025
 
 - Tasks:
 
@@ -463,9 +463,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
-## Week #18.
+## Week #18
 
-### 11/06/2024
+### June 10, 2025
 
 - Tasks:
 
@@ -478,9 +478,9 @@ At the end of this week, all students will be required to use typescript and adh
 - [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 </details>
 
-## Week #19.
+## Week #19
 
-### 18/06/2024
+### June 17, 2025
 
 - [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
 - Receiving the certificate for Stage#2
