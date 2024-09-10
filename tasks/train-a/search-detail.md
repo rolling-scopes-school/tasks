@@ -104,6 +104,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
 
   - Attributes: (object)
     - rideId: `745` (number) - Identifier of certain schedule for the route
+    - routeId: `18` (number) - Identifier of corresponding route
     - path: `[33, 5, 62, 11, 48, 34]` (array[number]) - List of station identifiers
     - carriages: `['carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7']` (array[string]) - List of carriage types for the train
     - schedule: (object) - Information about the ride
@@ -212,7 +213,7 @@ A **carriage** is a structure for transporting passengers with specific paramete
 
 ![Cars on grouped type](./designs/search-details/carriage%202.png)
 
-#### Page with hints
+### Page with hints
 
 #### One of carriage type tab is selected
 
