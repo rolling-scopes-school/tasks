@@ -14,7 +14,7 @@
 
 #### [Посмотреть программу обучения.](stage0)
 
-#### [Зарегистрироваться на подготовительный курс.](https://rs.school/js-stage0/)
+#### [Зарегистрироваться на подготовительный курс.](https://rs.school/courses/javascript-preschool-ru/)
 
 ## Основной курс
 
@@ -65,5 +65,4 @@
 
 ### Дополнительные этапы обучения
 
-- [Short Track](epam/short-track.md)
 - [EPAM JS LAB](epam/epam-js-lab.md)
