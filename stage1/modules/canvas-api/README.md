@@ -1,4 +1,4 @@
-# [Stage#2.](../../) Canvas API
+# [Stage#1.](../../) Canvas API
 
 ## Module Overview 📚
 
@@ -28,7 +28,7 @@ Students are encouraged to study the following resources:
 
 ## Practice 💻
 
-- Complete the test "[St2] Canvas API" in the RS-App > Auto Test.
+- Complete the test "[St1] Canvas API" in the RS-App > Auto Test.
 
 ## Additional Resources 📘
 
