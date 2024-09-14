@@ -7,10 +7,12 @@ In this task, you will install and configure the required software on your local
 ## Steps
 
 1. **Install AWS CLI and Terraform**
+
    - Follow the instructions to install [AWS CLI 2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
    - Follow the instructions to install [Terraform 1.4+](https://developer.hashicorp.com/terraform/install?product_intent=terraform).
 
 2. **Create IAM User and Configure MFA**
+
    - In your AWS account, navigate to IAM and create a new user with the following policies attached:
      - AmazonEC2FullAccess
      - AmazonRoute53FullAccess
