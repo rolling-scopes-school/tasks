@@ -7,16 +7,20 @@ In this task, you will create a Helm chart for a simple application and deploy i
 ## Steps
 
 1. **Create Helm Chart**
+
    - Create a Helm chart for your application.
 
 2. **Deploy the Application**
+
    - Deploy the application using the Helm chart.
    - Ensure the application is accessible from the internet.
 
 3. **Store Artifacts in Git**
+
    - Store the application and Helm chart in a new git repository.
 
 4. **Verify the Application**
+
    - Verify that the application is running and accessible.
 
 5. **Additional Tasks**
@@ -33,16 +37,20 @@ In this task, you will create a Helm chart for a simple application and deploy i
 ## Evaluation Criteria (100 points for covering all criteria)
 
 1. **Helm Chart Creation (40 points)**
+
    - A Helm chart for the application is created.
 
 2. **Application Deployment (30 points)**
+
    - The application is deployed using the Helm chart.
    - The application is accessible from the internet.
 
 3. **Repository Submission (5 points)**
+
    - A new repository is created with the application and Helm chart.
 
 4. **Verification (5 points)**
+
    - The application is verified to be running and accessible.
 
 5. **Additional Tasks (20 points)**

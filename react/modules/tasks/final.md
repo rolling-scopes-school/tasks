@@ -413,12 +413,12 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### RESTfull client - max 120 points
 
-- [ ] Functional editor enabling query editing and prettifying, request body provided in the url as base64-encoded on focus out. - **40 points**
+- [ ] Functional editor enabling query editing and prettifying, request body provided in the url as base64-encoded on focus out. - **35 points**
 - [ ] Functional read-only response section, with information about HTTP status and the code. - **30 mpoints**
 - [ ] Method selector, shows all the valid HTTP verbs, value is provided in the url on change. - **10 points**
 - [ ] Input for the url, entered value is provided in base64-encoded way on change. - **15 points**
 - [ ] Variables section that can shown or hidden, specified variables are included in the body. - **15 points**
-- [ ] Headers section, value is provided in the url on header add/change. - **20 points**
+- [ ] Headers section, value is provided in the url on header add/change. - **15 points**
 
 ### GraphiQL route - max 80 points
 
@@ -431,8 +431,8 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### History route - max 50 points
 
 - [ ] History shows informational message with links to the clients when there are no requests in the local storage. - **10 points**
-- [ ] User can navigate to the previoulsy executed HTTP request to the RESTfull client, HTTP method, url, body, headers, variables are restored. **20 points**
-- [ ] User can navigate to the previoulsy executed GraphQL request to the GraphiQL client, url, SDL url, body, headers, variables are restored. **20 points**
+- [ ] User can navigate to the previoulsy executed HTTP request to the RESTfull client, HTTP method, url, body, headers are restored. **20 points**
+- [ ] User can navigate to the previoulsy executed GraphQL request to the GraphiQL client, url, SDL url, body, headers are restored. **20 points**
 
 ### General requirements - max 50 points
 
