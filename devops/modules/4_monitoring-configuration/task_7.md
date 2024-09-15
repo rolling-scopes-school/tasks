@@ -7,6 +7,7 @@ In this task, you will install Prometheus on your Kubernetes (K8s) cluster using
 ## Steps
 
 1. **Install Prometheus**
+
    - Follow the instructions to install Prometheus using the Helm chart by Bitnami. Refer to the [Prometheus documentation](https://prometheus.io/docs/introduction/overview/) for more details.
    - Ensure Prometheus is not exposed outside (i.e., it cannot be accessed directly from the internet).
 
@@ -23,10 +24,12 @@ In this task, you will install Prometheus on your Kubernetes (K8s) cluster using
 ## Evaluation Criteria (100 points for covering all criteria)
 
 1. **Prometheus Installation (50 points)**
+
    - Prometheus is installed on the K8s cluster using the Helm chart by Bitnami.
    - Prometheus is not exposed outside (i.e., it cannot be accessed directly from the internet).
 
 2. **Metrics Collection (40 points)**
+
    - Prometheus is collecting essential cluster-specific metrics, such as nodes' CPU and memory usage.
    - Metrics can be checked via Prometheus web interface using `kubectl proxy` or `port-forward`.
 
