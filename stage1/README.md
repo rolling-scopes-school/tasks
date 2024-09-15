@@ -3,7 +3,7 @@
 ## 🚀 Overview
 
 - 📣 **Open to all who wish to join**
-- 📅 **Study time:** 12 weeks
+- 📅 **Study time:** 13 weeks
 - 📚 **Format:** self-study + webinars + Discord communication + assignments (cross-checks/auto-checks)
 - 🌐 **Roadmap:** [Stage#1 Roadmap](https://roadmap.sh/r?id=6546196a4352f418f817e70d)
 
@@ -38,7 +38,7 @@
 
 ### Week #1
 
-#### November 7, 2023
+#### October 29, 2024
 
 - Modules:
 
@@ -60,7 +60,7 @@
 
 ### Week #2
 
-#### November 14, 2023
+#### November 5, 2024
 
 - Modules:
 
@@ -84,7 +84,7 @@
 
 ### Week #3
 
-#### November 21, 2023
+#### November 12, 2024
 
 - Modules:
 
@@ -95,7 +95,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
+  - Christmas shop. Part 1: Fixed Layout
 
 - Tests:
 
@@ -106,11 +106,11 @@
 
 ### Week #4
 
-#### November 28, 2023
+#### November 19, 2024
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/coffee-house/coffee-house-week1.md)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "Christmas shop. Part 1: Fixed Layout"
 
 - Modules:
 
@@ -119,7 +119,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
+  - Christmas shop. Part 2: Responsive Design
 
 - Tests:
 
@@ -127,11 +127,11 @@
 
 ### Week #5
 
-#### December 5, 2023
+#### November 26, 2024
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "Christmas shop. Part 2: Responsive Design"
 
 - Modules:
 
@@ -141,7 +141,7 @@
 
 - Tasks:
 
-  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
+  - Christmas shop. Part 3: Adding Functionality
 
 - Tests:
 
@@ -151,42 +151,28 @@
 
 ### Week #6
 
-#### December 12, 2023
+#### December 3, 2024
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project "Christmas shop. Part 3: Adding Functionality"
 
 - Modules:
 
   - [Module: Git Recap](modules/git-recap/)
-  - [Module "Algorithms and Data Structures"](modules/data-structures-and-algorithms/)
 
 - Tasks:
 
-  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
-  - [basic-js](https://github.com/AlreadyBored/basic-js)
+  - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks)
+  - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays)
 
 - Tests:
 
   - [[St1] Git & GitHub #2](modules/git-recap/)
-  - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
-
-### Break Week
-
-#### December 19, 2023
-
-- Break week with deadlines for previously issued tasks and tests only.
-
-### Break Week
-
-#### December 26, 2023
-
-- Break week without new content or assignments.
 
 ### Week #7
 
-#### January 2, 2024
+#### December 10, 2024
 
 - Modules:
 
@@ -196,8 +182,6 @@
 - Tasks:
 
   - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
-  - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks)
-  - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays)
 
 - Tests:
 
@@ -206,11 +190,40 @@
 
 ### Week #8
 
-#### January 9, 2024
+#### December 17, 2024
 
 - Cross-Check Reviews:
 
   - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+
+- Modules:
+
+  - [Module "Algorithms and Data Structures"](modules/data-structures-and-algorithms/)
+
+- Tasks:
+
+  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
+  - [basic-js](https://github.com/AlreadyBored/basic-js)
+
+- Tests:
+
+  - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
+
+### Break Week
+
+#### December 24, 2024
+
+- Break week with deadlines for previously issued tasks and tests only.
+
+### Break Week
+
+#### December 31, 2024
+
+- Break week without new content or assignments.
+
+### Week #9
+
+#### January 7, 2025
 
 - Modules:
 
@@ -226,9 +239,9 @@
   - [[St1] Modules in JS](modules/modules-in-js/)
   - [[St1] Introduction to Bundlers](modules/bundlers/)
 
-### Week #9
+### Week #10
 
-#### January 16, 2024
+#### January 14, 2025
 
 - Cross-Check Reviews:
 
@@ -242,9 +255,9 @@
 
   - [Project "HTML-Builder"](tasks/html-builder/)
 
-### Week #10
+### Week #11
 
-#### January 23, 2024
+#### January 21, 2025
 
 - Cross-Check Reviews:
 
@@ -262,9 +275,9 @@
 
   - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
-### Week #11
+### Week #12
 
-#### January 30, 2024
+#### January 28, 2025
 
 - Modules:
 
@@ -278,9 +291,9 @@
 
   - [[St1] Client-Server Interaction Overview](modules/client-server/)
 
-### Week #12
+### Week #13
 
-#### February 6, 2024
+#### February 4, 2025
 
 - Cross-Check Reviews:
 
