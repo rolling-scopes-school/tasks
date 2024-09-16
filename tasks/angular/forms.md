@@ -52,6 +52,7 @@ The main goal of this task is to implement forms handling and validation using R
     - click "Add tag" button to add an extra input
     - each tag input should be required
     - form can have up to five "Tag" inputs
+    - each tag starts with # sign
   - implement "Reset" button
     - when clicked all inputs should be reset to their initial values and the "Tags" sub-form should return to having only a single (empty) input
 
@@ -86,14 +87,10 @@ Fines
 
 ### Useful links
 
-https://angular.io/start/start-forms
-
-https://angular.io/guide/reactive-forms
-
-https://angular.io/guide/forms
-
-https://angular.io/guide/typed-forms
-
-https://angular.io/api/forms/FormGroup
+[Forms Overview](https://angular.dev/tutorials/learn-angular/15-forms)
+[Reactive forms](https://angular.dev/guide/forms/reactive-forms)
+[Typed Forms](https://angular.dev/guide/forms/typed-forms)
+[Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
+[api FormGroup](https://angular.dev/api/forms/FormGroup)
 
 https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/

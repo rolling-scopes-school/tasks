@@ -9,7 +9,7 @@
 
 ## Approximate time to complete this module:
 
-Theory - 6 hours;
+Theory - 6 hours
 Assignment - 8 hours
 
 ## Theory
@@ -28,6 +28,7 @@ Assignment - 8 hours
 ## Practical assignment
 
 - [Angular. NgRx](../../../tasks/angular/NgRX.md)
+- Test: Angular test (Redux & NgRx)
 
 ## Additional materials
 

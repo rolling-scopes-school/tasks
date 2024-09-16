@@ -23,11 +23,12 @@
 - [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
 - [Slides](https://slides.com/pavelrazuvalau/angular-intro-components#/3)
-- [Docs](https://angular.io/guide/standalone-components)
+- [Docs](https://angular.dev/guide/components/importing)
 
 ## Practical assignment
 
 - [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
+- Test: Angular test (Components)
 
 ## Additional materials
 

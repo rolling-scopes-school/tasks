@@ -29,16 +29,19 @@ Practice - 4 hours
 ## Practical assignment
 
 - [Angular. Unit testing with Jest](../../../tasks/angular/unit-testing-jest.md)
+- Test: Angular test (Unit test)
 
 ## Additional materials
 
 - [Testing](https://angular.dev/guide/testing)
-
 - [Key qualities of a good unit test](https://www.kenneth-truyers.net/2012/12/15/key-qualities-of-a-good-unit-test/)
 - [Unit testing in JavaScript](https://www.youtube.com/watch?v=Eu35xM76kKY)
 - [Code angular-testing-lecture](https://github.com/stas-dolgachov/angular-testing-lecture)
 - [Best practices for angular unit testing](https://gorillalogic.com/blog/best-practices-for-angular-unit-testing)
+- [Testing services](https://angular.dev/guide/testing/services)
 - [Testing components basics](https://angular.dev/guide/testing/components-basics)
+- [Component testing scenarios](https://angular.dev/guide/testing/components-scenarios)
+- [HTTP Testing](https://angular.dev/guide/http/testing)
 - [Migrate Jasmine to Jest](https://jestjs.io/docs/migration-guide)
 - [Testing pipes](https://angular.dev/guide/testing/pipes)
 - [Testing attribute directive](https://angular.dev/guide/testing/attribute-directives)
