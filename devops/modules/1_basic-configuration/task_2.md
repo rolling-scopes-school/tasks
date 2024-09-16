@@ -10,8 +10,10 @@ In this task, you will write Terraform code to configure the basic networking in
 
    - Create Terraform code to configure the following:
      - VPC
+     - 2 public subnets in different AZs for Bastion host and NAT
      - 2 private subnets in different AZs
      - Internet Gateway
+     - NAT Gateway for instances in private subnets
      - Proper routing configuration
 
 2. **Organize Code**
