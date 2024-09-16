@@ -4,9 +4,9 @@
 
 ## In this module, students will learn
 
-- The concept of signals
-- The benefits of using signals
-- Using signals in Angular
+- The concept of `Signals`
+- The benefits of using Signals
+- Using Signals in Angular
 
 ## Approximate time to complete the module
 
@@ -24,6 +24,7 @@ Theory - 5 hours
 ## Practical assignment
 
 - [Angular. Signals](../../../tasks/angular/signals.md)
+- Test: Angular test (Signals)
 
 ## Additional materials
 

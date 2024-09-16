@@ -11,25 +11,25 @@
 
 ## Approximate time to complete this module:
 
-Theory - 2 hours,
-Assignment - 2 hours.
+Theory - 2 hours
+Assignment - 2 hours
 
 ## Theory
 
 - [Lecture (till 1:16:05)](https://youtu.be/fVhS7-LsvI4)
 - [Video](https://www.youtube.com/watch?v=-jRxG84AzCI&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=6)
-- [Video DI](https://www.youtube.com/watch?v=-jRxG84AzCI&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=6)
 - [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/c431689f6a2c0eedf93ff760b30ee237f2c2e012)
 - [Slides (till HTTP)](https://slides.com/pavelrazuvalau/angular-modules-services-http)
 
 ## Practical assignment
 
 - [Angular. Modules & Services](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
+- Test: Angular test (Modules, Services)
 
 ## Additional materials
 
 - [DOCS DI](https://angular.dev/guide/di)
-- [Learn Services & DI](https://angular.dev/guide/signals)
+- [Learn Services & DI](https://angular.dev/guide/di/creating-injectable-service)
 - [Learn DI 1](https://angular.dev/tutorials/learn-angular/20-inject-based-di)
 - [Learn DI 2](https://angular.dev/tutorials/learn-angular/21-constructor-based-di)
 
@@ -39,3 +39,4 @@ Assignment - 2 hours.
 - [Angular Dependency Injection: Complete Guide](https://blog.angular-university.io/angular-dependency-injection/)
 - [Using forRoot() and forChild()](https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular)
 - [Angular Standalone Components: Welcome to a World Without NgModule](https://netbasal.com/angular-standalone-components-welcome-to-a-world-without-ngmodule-abd3963e89c5)
+- [Shared Module - любимый антипаттерн angular разработчиков (RU)](https://www.youtube.com/watch?v=XVON1hJuZCo)

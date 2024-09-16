@@ -24,6 +24,7 @@ Assignment - 1 hour
 ## Practical assignment
 
 - [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
+- Test: Angular test (Routing)
 
 ## Additional materials
 

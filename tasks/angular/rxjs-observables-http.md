@@ -67,16 +67,16 @@ https://www.npmjs.com/package/rxjs
 
 https://angular.io/tutorial/toh-pt6
 
-https://angular.io/guide/http
+https://angular.dev/guide/http
 
-https://angular.io/api/common/http
+https://angular.dev/api#common-http
 
-https://angular.io/api/common/http/HttpClient
+https://angular.dev/api/common/http/HttpClient
 
-https://angular.io/api/common/http/HttpResponse
+https://angular.dev/api/common/http/HttpResponse
 
-https://angular.io/api/common/http/HttpHeaders
+https://angular.dev/api/common/http/HttpHeaders
 
-https://angular.io/api/common/http/HttpParams
+https://angular.dev/api/common/http/HttpParams
 
 https://pazel.dev/how-to-keep-your-secrets-from-your-source-code-in-an-angular-project

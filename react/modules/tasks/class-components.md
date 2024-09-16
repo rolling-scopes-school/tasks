@@ -23,13 +23,14 @@
 
 ## Application Requirements
 
-1. Create a page comprised of 2 horizontal sections (a smaller top one, and a bigger bottom one).
-2. On the top section put _Search_ input and the "Search" button. _Search_ component should look for a previously saved search term in the local storage (LS), if there isn't any - leave the input empty.
-3. Bottom section should be used for displaying search results (name and a small description).
-4. By default application makes a call to the selected api to get the list of the items with the search term from the input (only first page). If the input is empty make a call to get all the items.
-5. When user modifies the _Search_ input and clicks on "Search" button, application makes a call to an api with the newly provided search term (search term should not have any trailing spaces, process the input) to get the results (only first page).
-6. The provided search term should be saved to the LS, if the value exists overwrite it.
-7. Wrap application to an error boundary to catch errors. Report an error to a console and show fallback UI (use respective methods for this). Create a button which will throw an error on click to test the functionality.
+1. Divide your page into at least two sections/components. The smaller section should be at the top, and the larger section should be at the bottom.
+2. In the top section, place a _Search_ input and a "Search" button. The _Search_ component should look for a previously saved search term in the local storage (LS). If there isn't any, leave the input empty.
+3. The bottom section should be used for displaying search results (name and a small description).
+4. By default, the application makes a call to the selected API to get a list of items using the search term from the input (only the first page). If the input is empty, make a call to get all items.
+5. When the user modifies the _Search_ input and clicks the "Search" button, the application makes a call to the API with the newly provided search term (the search term should not have any trailing spaces; process the input) to get the results (only the first page).
+6. The provided search term should be saved to the LS. If the value exists, overwrite it.
+7. If your application makes a request to the server API, this should be visible to the user. Implement a Spinner, Skeleton, Loading Bar, Blurring Content, or any other appropriate method in your UI to indicate this.
+8. Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI (use respective methods for this). Create a button that will throw an error on click to test the functionality.
 
 **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
 

@@ -12,6 +12,7 @@ You are to enrich previously generated components with necessary functionality a
 You can use any UI frameworks/libraries to simplify (facilitate) the creation of your markup. It's recommended to use Angular Material as it’s fully integrated with Angular.
 
 **[YouTube client. Main page](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/main.jpg)**
+NB: Visual design and colour scheme of the app is by your taste and up to you - just all the necessary components should be created and usually better if they would be on their recommended places, though you can also follow one to one the offered design.
 
 #### Components structure
 
@@ -48,6 +49,8 @@ You can use any UI frameworks/libraries to simplify (facilitate) the creation of
   - Sorting should work in both ascending and descending directions of the values
   - Filter search results by the value that user types in the input
 
+NB: Though new Angular 18 generates Standalone components by default, and standalone architecture is recommended by Angular developers for all the new projects - in one of the future tasks you'll be asked to implement some of the components as modules to get acquainted with NgModules concept, since they are still widely used in legacy code and a lot of projects were created on Angular 14 and lower versions, and in sake of learning different approaches.
+
 #### Evaluation criteria
 
 Maximum score - **100**
@@ -76,44 +79,25 @@ Fines
 
 ### Useful links
 
-https://angular.io/tutorial
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt1
+[Tour of Heroes Tutorial](https://v17.angular.io/tutorial/tour-of-heroes/toh-pt1)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt2
-
-https://angular.io/tutorial/tour-of-heroes/toh-pt3
-
-https://angular.io/guide/architecture-components
-
-https://angular.io/guide/displaying-data
-
-https://angular.io/guide/template-syntax
-
-https://angular.io/guide/lifecycle-hooks
-
-https://angular.io/guide/component-interaction
-
-https://angular.io/guide/cheatsheet
-
-https://angular.io/guide/attribute-directives
-
-https://angular.io/guide/structural-directives
-
-https://angular.io/guide/pipes
-
-https://angular.io/api/core/Directive
-
-https://angular.io/api/core/Pipe
+[Components](https://angular.dev/guide/components)
+[Templates syntax](https://angular.dev/guide/templates)
+[Components Lifecycle](https://angular.dev/guide/components/lifecycle)
+[Components Interaction](https://angular.dev/guide/components/inputs)
+[Cheatsheet](https://angular.io/guide/cheatsheet)
+[Attribute directives](https://angular.dev/guide/directives/attribute-directives)
+[Structural directives](https://angular.dev/guide/directives/structural-directives)
+[Pipes](https://angular.dev/guide/pipes)
+[api Directive](https://angular.dev/api/core/Directive)
+[api Pipes](https://angular.dev/api/core/Pipe)
 
 https://github.com/pavelrazuvalau/angular-lectures/tree/master/angular-components
-
 https://github.com/NataliaLoginova/angular-course/tree/main/angular-directives-pipes/src
 
 https://medium.com/javascript-everyday/encapsulate-common-behaviors-with-the-aid-of-angular-directives-223ace0cd0ca
-
 https://levelup.gitconnected.com/the-power-of-angular-directives-a-comprehensive-guide-f9f929404b6b
-
 https://levelup.gitconnected.com/what-is-a-pipe-in-angular-how-do-you-use-angular-pipes-650d7ff6d103
-
 https://towardsdev.com/the-unknown-angular-built-in-pipes-you-need-to-start-using-a8fb1dec2ac1
