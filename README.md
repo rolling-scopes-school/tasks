@@ -59,7 +59,6 @@
 4. добавить себя в `Assignees`;
 5. добавить в `Assignees`:
 
-- @valerydluski;
 - @natein;
 
 6. получить плюсик в карму;
