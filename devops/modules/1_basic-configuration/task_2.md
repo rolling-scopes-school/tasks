@@ -7,14 +7,14 @@ In this task, you will write Terraform code to configure the basic networking in
 ## Steps
 
 1. **Write Terraform Code**
-
    - Create Terraform code to configure the following:
-     - VPC
-     - 2 public subnets in different AZs for Bastion host and NAT
-     - 2 private subnets in different AZs
-     - Internet Gateway
-     - NAT Gateway for instances in private subnets
-     - Proper routing configuration
+      - VPC
+      - 2 public subnets in different AZs
+      - 2 private subnets in different AZs
+      - Internet Gateway
+      - Routing configuration:
+         - Instances in all subnets can reach each other
+         - Instances in public subnets can reach addresses outside VPC and vice-versa
 
 2. **Organize Code**
 
@@ -32,19 +32,25 @@ In this task, you will write Terraform code to configure the basic networking in
    - (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
 
 5. **Additional Tasks**
-   - Implement security groups and network ACLs.
+   - Implement security groups.
    - Create a bastion host for secure access to the private subnets.
+   - Organize NAT for private subnets, so instances in private subnet can connect with outside world:
+      - Simpler way: create a NAT Gateway
+      - Cheaper way: configure a NAT instance in public subnet
    - Document the infrastructure setup and usage in a README file.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
-1. **Terraform Code Implementation (60 points)**
+1. **Terraform Code Implementation (50 points)**
 
    - Terraform code is created to configure the following:
-     - VPC
-     - 2 private subnets in different AZs
-     - Internet Gateway
-     - Proper routing configuration
+      - VPC
+      - 2 public subnets in different AZs
+      - 2 private subnets in different AZs
+      - Internet Gateway
+      - Routing configuration:
+         - Instances in all subnets can reach each other
+         - Instances in public subnets can reach addresses outside VPC and vice-versa
 
 2. **Code Organization (10 points)**
 
@@ -56,12 +62,47 @@ In this task, you will write Terraform code to configure the basic networking in
    - Terraform plan is executed successfully.
    - A resource map screenshot is provided (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
-4. **Additional Tasks (20 points)**
+4. **Additional Tasks (30 points)**
    - **Security Groups and Network ACLs (5 points)**
      - Implement security groups and network ACLs for the VPC and subnets.
    - **Bastion Host (5 points)**
      - Create a bastion host for secure access to the private subnets.
+   - **NAT is implemented for private subnets (10 points)**
+     - Orginize NAT for private subnets with simpler or cheaper way
+     - Instances in private subnets should be able to reach addresses outside VPC
    - **Documentation (5 points)**
      - Document the infrastructure setup and usage in a README file.
    - **Submission (5 points)**
    - A GitHub Actions (GHA) pipeline is set up for the Terraform code.
+
+## References
+
+#### Simpler way
+Elastic IP:
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+
+Route table association:
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/main_route_table_association
+
+NAT vs Internet Gateway:
+- https://stackoverflow.com/questions/74455063/what-exactly-are-nat-gateway-and-internet-gateway-on-aws
+
+Configuration EC2 with private subnets:
+- https://medium.com/@prabhupj/terraform-way-to-run-aws-ec2-instances-in-a-private-subnet-and-load-balancing-with-an-application-98da5a11d4f1
+
+#### Cheaper way
+Making EC2 a NAT gateway:
+- https://medium.com/nerd-for-tech/how-to-turn-an-amazon-linux-2023-ec2-into-a-nat-instance-4568dad1778f
+
+Configuration of NAT with multiple interfaces:
+- It is needed to provide an interface by VPC and consume the interface by the Bastion host
+- https://people.computing.clemson.edu/~jmarty/courses/LinuxStuff/SetupNATWIthIpTables.pdf
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface
+
+iptables:
+- https://linux.die.net/man/8/iptables
+
+Logs for troubleshooting user-data:
+- https://stackoverflow.com/questions/15904095/how-to-check-whether-my-user-data-passing-to-ec2-instance-is-working
+- /var/log/cloud-init.log
+- /var/log/cloud-init-output.log
