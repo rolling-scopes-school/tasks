@@ -55,22 +55,25 @@ In this part of the task, you need to add the following functionality to the web
    - Scrolling the slider is accompanied by like the carousel animation (the method of animation execution is not verified): **+4**
    - The slider is fully scrolled with 3 presses of the arrow button in one direction for screen widths of 768px and larger, and with 6 presses of the arrow button in one direction for screen widths of 767px and less: **+8**
 3. Implementation of the **Timer** on the `home` page: **+8**
-   - The timer shows the correct value of the remaining days, hours, minutes, and seconds until the New Year in the UTC: **+4**
+   - The timer shows the correct value of the remaining days, hours, minutes, and seconds until the New Year in the UTC: **+2**
+   - Leading zeros are not displayed for single-digit numbers: **+2**
    - The timer updates every second, displaying the current remaining time: **+4**
-4. Implementation of the **Category switching** for products on the `gifts` page: **+6**
+4. When opening and refreshing the page, 4 random cards are displayed in the block **Best Gifts** on the `home` page: **+4**
+5. Implementation of the **Category switching** for products on the `gifts` page: **+6**
    - The **ALL** category is active and all gifts are displayed when opening or reloading the `gifts` page: **+2**
    - When switching categories, the gifts of the selected category are displayed: **+4**
-5. Implementation of the **Button UP** on the `gifts` page: **+16**
+6. Implementation of the **Button UP** on the `gifts` page: **+14**
    - The button can only appear at a screen width of 768px and less: **+4**
    - At the top of the page, the button is not displayed: **+4**
    - The button appears after scrolling the page down: **+4**
-   - When the button is clicked, the page scrolls to the top: **+4**
-6. Implementation of the **Modal** for selected gift on both pages: **+20**
+   - When the button is clicked, the page scrolls to the top: **+2**
+7. Implementation of the **Modal** for selected gift on both pages: **+18**
    - The Modal with the description of a specific gift opens when clicking on any part of a card of gift: **+4**
-   - The part of the page outside the Modal is darkened: **+4**
+   - The description and superpowers in the Modal corresponds to the selected gift: **+4**
+   - The part of the page outside the Modal is darkened: **+2**
    - When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+4**
-   - Clicking on the area around the Modal and **Close** button closes it: **+4**
-   - The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+4**
+   - Clicking on the area around the Modal and **Close** button closes it: **+2**
+   - The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+2**
 
 ### Penalties
 
