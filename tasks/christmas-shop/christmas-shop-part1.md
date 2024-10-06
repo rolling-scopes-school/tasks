@@ -45,13 +45,14 @@ The content width of 1440px should not change when resizing the browser window.
    - Navigation elements (except `CONTACTS`) lead to corresponding blocks on `home` page: **+4**
    - `CONTACTS` in navigation panel links to the `<footer>` block on its own page: **+2**
    - Smooth scrolling with anchor links: **+2**
-   - When clicking on the **GIFTS** button in `header`, **Explore Magical Gifts** button in `Explore` block and **THE GIFTS** in `<footer>` on `home` page, it navigates to the `gifts` page: **+2**
-   - The **GIFTS** button in `header` and **THE GIFTS** in `<footer>` on `menu` page is non-interactive and don't have a hover effects: **+2**
+   - When clicking on the **GIFTS** button in `header` and **Explore Magical Gifts** button in `Explore` block on `home` page, it navigates to the `gifts` page: **+2**
+   - The **GIFTS** button in `header` on `menu` page is non-interactive and don't have a hover effects: **+2**
    - When clicking on the **Logo** in `header`, it navigates to the `home` page: **+2**
    - The active **ALL** button in `Gifts` block of `gifts` page is non-interactive and don't have a hover effects: **+2**
    - Each Gift-card in the `Gifts` block of the `menu` page, `Best Gifts` block on `home` page and cards in `<footer>` is interactive when hovering over any area of the card: **+6**
    - In the `<footer>` block, clicking on the card **CALL US** should initiate a phone call: **+2**
    - In the `<footer>` block, clicking on the card **WRITE US** should open the mail client: **+2**
+   - In the `<footer>` block, clicking on the card **THE GIFTS** should open a new browser tab with Google Maps displaying any location of your choice: **+2**
    - In the `<footer>` block, clicking on the link **Made in Rolling Scopes School** should open the [school's website](https://rs.school/) in a new tab: **+2**
    - Interactivity of links and buttons is implemented according to Figma layout. Interactivity includes not only changing cursor's appearance, for example, using the `cursor: pointer` property, but also the use of other visual effects, such as changing the background color or font color, following the **Styleguide** in Figma layout: **+4**
    - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+4**
