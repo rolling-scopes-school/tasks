@@ -4,7 +4,7 @@
 
 - [Detailed Description](christmas-shop.md)
 
-You need to create `home` and `gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.
+You need to create `home` and `gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.  
 The content width of 1440px should not change when resizing the browser window.
 
 ## Workflow
@@ -23,7 +23,7 @@ The content width of 1440px should not change when resizing the browser window.
 ### CrossCheck Criteria (110 points)
 
 1. Checking validation of pages: **+18**
-   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)
+   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)  
      Valid markup of checked page corresponds to the message "Document checking completed. No errors or warnings to show." In this case, we assign the full points for the checked page (+6). If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
    - Favicon is added to each page: **+2**
    - Each page has only one `<h1>` element: **+2**
@@ -34,8 +34,8 @@ The content width of 1440px should not change when resizing the browser window.
    - `About` block on `home` page: **+6**
    - `Slider` block on `home` page: **+6**
    - `Best Gifts` block on `home` page: **+6**
-   - `Lets Go` block on `home` page: **+6**
-   - `Gifts` block on `menu` page: **+6**
+   - `Ready to start` block on `home` page: **+6**
+   - `Gifts` block on `gifts` page: **+6**
    - `<footer>` block on each page: **+6**
 3. CSS Requirements: **+10**
    - For positioning gifts in `Best Gifts` block on `home` page and gifts in `Gifts` block on `gifts` page used **Flexbox** or **Grid Layout**: **+4**
@@ -45,11 +45,11 @@ The content width of 1440px should not change when resizing the browser window.
    - Navigation elements (except `CONTACTS`) lead to corresponding blocks on `home` page: **+4**
    - `CONTACTS` in navigation panel links to the `<footer>` block on its own page: **+2**
    - Smooth scrolling with anchor links: **+2**
-   - When clicking on the **GIFTS** button in `header` and **Explore Magical Gifts** button in `Explore` block on `home` page, it navigates to the `gifts` page: **+2**
-   - The **GIFTS** button in `header` on `menu` page is non-interactive and don't have a hover effects: **+2**
+   - When clicking on the **GIFTS** link in `header` and **Explore Magical Gifts** button in `Explore` and `Ready to start` blocks on `home` page, it navigates to the `gifts` page: **+2**
+   - The **GIFTS** link in `header` on `gifts` page is non-interactive and don't have a hover effects: **+2**
    - When clicking on the **Logo** in `header`, it navigates to the `home` page: **+2**
    - The active **ALL** button in `Gifts` block of `gifts` page is non-interactive and don't have a hover effects: **+2**
-   - Each Gift-card in the `Gifts` block of the `menu` page, `Best Gifts` block on `home` page and cards in `<footer>` is interactive when hovering over any area of the card: **+6**
+   - Each Gift-card in the `Gifts` block of the `gifts` page, `Best Gifts` block on `home` page and cards in `<footer>` is interactive when hovering over any area of the card: **+6**
    - In the `<footer>` block, clicking on the card **CALL US** should initiate a phone call: **+2**
    - In the `<footer>` block, clicking on the card **WRITE US** should open the mail client: **+2**
    - In the `<footer>` block, clicking on the card **THE GIFTS** should open a new browser tab with Google Maps displaying any location of your choice: **+2**
