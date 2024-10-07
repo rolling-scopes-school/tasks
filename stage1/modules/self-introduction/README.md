@@ -53,14 +53,13 @@ The maximum score for the task is **100 points**.
 - [Video CV / Resume of a Computer Engineer: Anupma Raj](https://www.youtube.com/watch?v=dMBBrLGcsCI)
 - [Video CV/ Sample Video Resume of Full Stack Developer: HireFox](https://www.youtube.com/watch?v=PYuPmNFHTog)
 - [BEST VIDEO CV EVER  MARK LERUSTE](https://www.youtube.com/watch?v=c_PZTAW5piQ)
-- Video Resumes of the 2021Q1 class students
-  - https://www.youtube.com/watch?v=A426pZuQIUk
-  - https://www.youtube.com/watch?v=a_KLPUaDi4g
-  - https://www.youtube.com/watch?v=cQVWIw85OAs
-  - https://www.youtube.com/watch?v=8QIDUvjnbM8
-  - https://www.youtube.com/watch?v=NNlEKrpeByM
-  - https://www.youtube.com/watch?v=CLTbVVw85hw
-  - https://www.youtube.com/watch?v=3j2vEycHWhs
+- Video Resumes of the 2023Q4 class students
+  - https://rolling-scopes-school.github.io/jezhora-JSFE2023Q4/self-introduction/
+  - https://rolling-scopes-school.github.io/haroshii232-JSFE2023Q4/self-introduction/
+  - https://rolling-scopes-school.github.io/sergiozeppo-JSFE2023Q4/self-introduction/
+  - https://rolling-scopes-school.github.io/yuliya-karuk-JSFE2023Q4/self-introduction/index
+  - https://rolling-scopes-school.github.io/yulikk-JSFE2023Q4/self-introductions/
+  - https://rolling-scopes-school.github.io/tabrisel-JSFE2023Q4/self-introduction/
 
 ### How to work with YouTube
 
