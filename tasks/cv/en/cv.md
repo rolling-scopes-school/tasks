@@ -132,4 +132,4 @@ EPAM HR Department Recommendations
 - [HTML5 Semantic Elements](https://html5css.ru/html/html5_semantic_elements.php)
 - [CV Design Examples](https://www.freepik.com/free-photos-vectors/cv-template)
 - [CV Design Examples](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
