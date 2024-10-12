@@ -58,14 +58,14 @@ Recommendations are provided for reference; strict adherence to them is not expe
 1. The layout is valid, semantic, and matches the design.
 2. The application is displayed correctly and functions properly in the latest version of Google Chrome.
 3. Using HTML preprocessors and template engines (e.g. `Pug`) **is not allowed**.
-3. Using CSS frameworks (e.g., `Bootstrap`) **is not allowed**.
-4. Using JS frameworks (e.g., `Angular`, `React`, `Vue`, etc.) **is not allowed**.
-5. Using outdated libraries (e.g. `JQuery`, etc.) or pre-built libraries (e.g. `Swiper`, etc) to implement functionality **is not allowed**.
-6. Using `TypeScript` **is not allowed**.
-7. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
-8. Using a style reset with `reset.css` is not recommended.
-9. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
-10. The code must be readable, without minification or obfuscation. You are allowed to use bundlers, such as [Vite](https://vitejs.dev/) or [Webpack](https://webpack.js.org/), but please enable [source maps](https://web.dev/articles/source-maps). Gulp is unmaintained and should not be used.
+4. Using CSS frameworks (e.g., `Bootstrap`) **is not allowed**.
+5. Using JS frameworks (e.g., `Angular`, `React`, `Vue`, etc.) **is not allowed**.
+6. Using outdated libraries (e.g. `JQuery`, etc.) or pre-built libraries (e.g. `Swiper`, etc) to implement functionality **is not allowed**.
+7. Using `TypeScript` **is not allowed**.
+8. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
+9. Using a style reset with `reset.css` is not recommended.
+10. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
+11. The code must be readable, without minification or obfuscation. You are allowed to use bundlers, such as [Vite](https://vitejs.dev/) or [Webpack](https://webpack.js.org/), but please enable [source maps](https://web.dev/articles/source-maps). Gulp is unmaintained and should not be used.
 
 ## Repository Requirements
 

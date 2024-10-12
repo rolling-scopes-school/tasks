@@ -84,7 +84,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 **Maximum score for the task: 100 points**
 
-The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.  
+The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.
 
 Any disputed issues should be resolved in favor of the student being assessed.
 

@@ -23,8 +23,8 @@ The content width of 1440px should not change when resizing the browser window.
 ### CrossCheck Criteria (110 points)
 
 1. Checking validation of pages: **+18**
-   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)  
-     - Valid markup of checked page corresponds to the message *"Document checking completed. No errors or warnings to show."* In this case, we assign the full points for the checked page (+6).
+   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)
+     - Valid markup of checked page corresponds to the message _"Document checking completed. No errors or warnings to show."_ In this case, we assign the full points for the checked page (+6).
      - If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
    - Favicon is added to each page: **+2**
    - Each page has only one `<h1>` element: **+2**
