@@ -9,21 +9,21 @@ In this task, you are required to create a CV webpage. The content of this webpa
 - Follow the [HTML and CSS guidelines](https://codeguide.academy/html-css.html) when writing code.
 - Content should be placed within a block that is horizontally centered on the page.
 - The CV page should display correctly in the latest version of Google Chrome.
-- Include a footer with a link to your GitHub, the year of creation, and the [course logo](https://rs.school/images/rs_school_js.svg) with a [link to the course](https://rs.school/js/).
+- Include a footer with a link to your GitHub, the year of creation, and the [course logo](../rs-school-logo.svg) with a [link to the course](https://rs.school/courses/javascript-ru).
 
 ## Workflow
 
 1. Work in the `rsschool-cv-html` branch of the `rsschool-cv` repository.
 2. When formatting the CV, follow the [Formatting Requirements](#requirements-for-formatting) and [Evaluation Criteria](#evaluation-criteria).
 3. Self-assess your work based on the provided [Evaluation Criteria](#evaluation-criteria).
-4. Create a Pull Request from the `rsschool-cv-html` branch to the `main` branch.
-   - Title the Pull Request as "CV. Cross-Check."
-   - Provide a description for the Pull Request following this [schema](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr).
-   - Do not merge the Pull Request from the `rsschool-cv-html` branch into the `main` branch.
-5. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
+4. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
    - Choose a title for the Pull Request at your discretion.
    - No need to provide a description for this Pull Request.
    - Merge the Pull Request from the `rsschool-cv-html` branch into the `gh-pages` branch.
+5. Create a Pull Request from the `rsschool-cv-html` branch to the `main` branch.
+   - Title the Pull Request as "CV. Cross-Check."
+   - Provide a description for the Pull Request following this [schema](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr).
+   - Do not merge the Pull Request from the `rsschool-cv-html` branch into the `main` branch.
 6. In the `README.md` file of the `main` branch, add two links where you should replace `GITHUB-USERNAME` with your GitHub username. These links should open your CV in Markdown format and as a formatted webpage.
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/`
@@ -32,7 +32,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
 
 **Maximum score for the task: +120**
 
-- The student submits a link to their CV deployed on `gh-pages` in the [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2022q2) (+10 points).
+- The student submits a link to their CV deployed on `gh-pages` in the [rs app](https://app.rs.school/course/student/cross-check-submit) (+10 points).
 - Valid markup (+10 points).
   - Use the [https://validator.w3.org/](https://validator.w3.org/) service to check validity.
   - Valid markup should display "Document checking completed. No errors or warnings to show." Full points for meeting this requirement.
@@ -43,8 +43,8 @@ In this task, you are required to create a CV webpage. The content of this webpa
     - `nav` element (+5 points).
     - Only one `h1` heading (+5 points).
     - `h2` headings (+5 points).
-- Footer includes a link to the author's GitHub, the year of creation, the [course logo](https://rs.school/images/rs_school_js.svg), and a [link to the course](https://rs.school/js/) (+10 points).
-  - If the link in the footer leads to the [stage0 course](https://rs.school/js-stage0/), it is not considered an error.
+- Footer includes a link to the author's GitHub, the year of creation, the [course logo](../rs-school-logo.svg), and a [link to the course](https://rs.school/courses/javascript-ru) (+10 points).
+  - If the link in the footer leads to the [stage0 course](https://rs.school/courses/javascript-preschool-ru), it is not considered an error.
 - CSS styles are used for formatting the CV (+10 points).
 - When the browser window is resized, the formatting remains centered horizontally rather than shifting to the side (+10 points).
 - The CV page includes a photo or avatar of the author, with no distortion of proportions, and with an `alt` attribute for the image (+10 points).
@@ -81,7 +81,7 @@ The difference between the maximum score for the task (130 points) and the maxim
 - [HTML5 Semantic Elements](https://html5css.ru/html/html5_semantic_elements.php)
 - [Examples of CV Templates](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Examples of CV Templates](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
 
 ## Examples of CVs
 

@@ -4,9 +4,9 @@
 
 ## Порядок работы
 
-1. Работу ведёте в своём личном репозитории `rsschool-cv`
-2. От ветки `rsschool-cv-html` создайте ветку `cv-html-css`. В эту ветку автоматически переместятся файлы c вёрсткой
-3. Проверьте соответствие вашего CV требованиям задания, самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), внесите необходимые изменения
+1. Работу ведёте в своём личном репозитории `rsschool-cv`.
+2. От ветки `rsschool-cv-html` создайте ветку `cv-html-css`. В эту ветку автоматически переместятся файлы c вёрсткой.
+3. Проверьте соответствие вашего CV требованиям задания, самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), внесите необходимые изменения.
 4. Создайте и замержите Pull Request из ветки `cv-html-css` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
 5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
 
@@ -15,11 +15,11 @@
 - вёрстка валидная. Для проверки валидности вёрстки используйте используйте сервис https://validator.w3.org/
 - вёрстка семантическая
 - вёрстка адаптивная
-- при написании кода следуйте гайдлайну https://codeguide.academy/html-css.html
+- при написании кода следуйте [гайдлайну](https://codeguide.academy/html-css.html)
 - контент размещается в блоке, который горизонтально центрируется на странице
 - содержание СV соответствует рекомендациям EPAM HR department, указанным в задании [Markdown & Git](git-markdown.md)
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/).  
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru).  
   Данный пункт не оценивается, но без ссылки на ваш гитхаб, проверяющие не смогут проверить описание PR и выставить за него баллы.
 
 ## Требования к коммитам
@@ -29,7 +29,7 @@
 ## Технические требования
 
 - работа приложения проверяется в браузере Google Chrome последней версии
-- можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://material.io/), css фреймворки, html и css препроцессоры
+- можно использовать [bootstrap](https://getbootstrap.com/), [material design](https://m3.material.io/), css фреймворки, html и css препроцессоры
 - разрешается использовать jQuery только в качестве подключаемой зависимости для UI библиотек. Использование jQuery в основном коде приложения не допускается
 - можно использовать Angular/React/Vue, другие JS-фреймворки и библиотеки (кроме jQuery)
 
@@ -41,7 +41,7 @@ CV - таск, который проверяется в ходе кросс-че
 
 Для сабмита задания до дедлайна таска зайдите в rs app https://app.rs.school/ вкладка **Cross-Check: Submit**, выберите задание **CV** и добавьте в форму **ссылку на деплой** своего CV на gh-pages.
 
-Для проверки приложения в ходе кросс-чека, ссылки на проверяемые работы будут находиться в rs app вкладка **Cross-Check: Review**.
+Для проверки приложения в ходе кросс-чека, ссылки на проверяемые работы будут находиться в rs app во вкладке **Cross-Check: Review**.
 
 ## Критерии оценки
 
@@ -77,7 +77,7 @@ CV - таск, который проверяется в ходе кросс-че
 ## Cross-check
 
 - инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
-- форма для проверки задания https://cv-stage1-cross-check.netlify.app/
+- форма для проверки задания https://rolling-scopes-school.github.io/checklist/ (пункт "CV")
 - ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 
 ## Материалы
@@ -87,7 +87,7 @@ CV - таск, который проверяется в ходе кросс-че
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
 
 ## Примеры CV
 

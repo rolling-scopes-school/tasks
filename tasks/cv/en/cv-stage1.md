@@ -19,7 +19,7 @@ In this task, the layout of the CV created during the [HTML, CSS & Git](html-css
 - The content should be placed in a block that is horizontally centered on the page.
 - The content of the CV should adhere to the recommendations of the EPAM HR department, as specified in the [Markdown & Git](git-markdown.md) assignment.
 - The CV page should display correctly in the latest version of the Google Chrome browser.
-- In the footer, include a link to your GitHub, the year of application creation, the [course logo](https://rs.school/images/rs_school_js.svg) with a link to the [course](https://rs.school/js/). This item is not graded, but without a link to your GitHub, reviewers won't be able to check the PR description and assign points for it.
+- In the footer, include a link to your GitHub, the year of application creation, the [course logo](../rs-school-logo.svg) with a link to the [course](https://rs.school/courses/javascript). This item is not graded, but without a link to your GitHub, reviewers won't be able to check the PR description and assign points for it.
 
 ## Commit Requirements
 
@@ -76,7 +76,7 @@ The difference between the maximum score for the task (150 points) and the maxim
 ## Cross-Check
 
 - Cross-check instructions: [Cross-Check Flow](https://docs.rs.school/#/en/cross-check-flow)
-- Review form: [Review Form](https://cv-stage1-cross-check.netlify.app/)
+- Review form: [Review Form](https://rolling-scopes-school.github.io/checklist/) (item "CV")
 - Please add links to the best works to the form: [Form](https://forms.gle/tgC3Y3dn9y2Yu5NF6)
 
 ## Resources
@@ -86,7 +86,7 @@ The difference between the maximum score for the task (150 points) and the maxim
 - [HTML5 Semantic Elements (English)](https://html5css.ru/html/html5_semantic_elements.php)
 - [CV Design Examples](https://www.freepik.com/free-photos-vectors/cv-template)
 - [CV Design Examples](https://www.canva.com/resumes/templates/)
-- [Figma Community - CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community - CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
 
 ## Examples of CVs
 
