@@ -77,8 +77,8 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ### Penalties
 
-1. The layout of the entire design or individual blocks is implemented using images.
-2. The use of frameworks, libraries, and technologies that are prohibited in the technical requirements.
+1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
+2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
 ## Criteria for Evaluation
 
@@ -91,7 +91,7 @@ Any disputed issues should be resolved in favor of the student being assessed.
 ## DevTools Responsiveness Check Details
 
 1. To open Developer Tools:
-   - Press the `F12` key, or right-click and choose the `View Source` option in the context menu;
+   - Press the `F12` key, or right-click and choose the `Inspect` option in the context menu;
    - Click on the **Toggle Device Toolbar** icon in the top-right corner of the Developer Tools panel;
    - Select **Responsive** on the top panel.
 2. Ensure there is no vertical scrollbar in **Responsive** mode. If a scrollbar is present, eliminate it by:

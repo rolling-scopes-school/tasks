@@ -39,9 +39,9 @@ Start the task by creating your own copy of the layout. To do this:
 
 - Log in to [Figma](https://www.figma.com/);
 - Open the layout;
-- On the top panel, click on the arrow next to the layout name, and select the option "Duplicate to your drafts";
+- On the left panel, click on the arrow next to the layout name, and select the option "Duplicate to your drafts";
 - At the top left, open the settings, and choose "Back to files";
-- Open the copy of the layout with the label "In Drafts".
+- Open the copy of the layout with the label "Drafts".
 
 ## Code quality recommendations
 
@@ -71,7 +71,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 - Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 - Create new branch `christmas-shop` from `main`. Create a folder `christmas-shop` in the created branch. Place your code in this folder.
-- The `main` (or `master`) branch should be empty (contain only files like README.md, .gitignore or .github folder)
+- The `main` branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - Since the task is divided into three parts, christmas-shop will have three versions:
   1.  The `christmas-shop` branch will contain the first part of the assignment. When starting the second part, create a branch `christmas-shop-part2` from the `christmas-shop` branch to continue from where you left off in the first part

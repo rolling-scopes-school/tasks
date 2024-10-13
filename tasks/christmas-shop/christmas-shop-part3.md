@@ -78,8 +78,8 @@ In this part of the task, you need to add the following functionality to the web
 
 ### Penalties
 
-1. The layout of the entire design or individual blocks is implemented using images.
-2. The use of frameworks, libraries, and technologies that are prohibited in the technical requirements.
+1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
+2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
 ## Criteria for Evaluation
 

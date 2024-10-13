@@ -27,7 +27,7 @@ The content width of 1440px should not change when resizing the browser window.
      - Valid markup of checked page corresponds to the message _"Document checking completed. No errors or warnings to show."_ In this case, we assign the full points for the checked page (+6).
      - If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
    - Favicon is added to each page: **+2**
-   - Each page has only one `<h1>` element: **+2**
+   - Only one `<h1>` per each page: **+2**
    - The URL of the `Gifts` page differs from the URL of the `Home` page (e.g. `your-site.com` for the `Home` page and `your-site.com/gifts` for the `Gifts` page): **+2**
 2. The layout matches the design: **+46**
    - `<header>` on each page: **+4**
@@ -60,8 +60,8 @@ The content width of 1440px should not change when resizing the browser window.
 
 ### Penalties
 
-1. The layout of the entire design or individual blocks is implemented using images.
-2. The use of frameworks, libraries, and technologies that are prohibited in the technical requirements.
+1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
+2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
 ## Criteria for Evaluation
 
