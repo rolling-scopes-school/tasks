@@ -62,7 +62,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 5. Using JS frameworks (e.g., `Angular`, `React`, `Vue`, etc.) **is not allowed**.
 6. Using outdated libraries (e.g. `JQuery`, etc.) or pre-built libraries (e.g. `Swiper`, etc) to implement functionality **is not allowed**.
 7. Using `TypeScript` **is not allowed**.
-8. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
+8. Using CSS preprocessors (`SASS`, `SCSS`), [modern-normalize](https://github.com/sindresorhus/modern-normalize) is allowed.
 9. Using a style reset with `reset.css` is not recommended.
 10. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
 11. The code must be readable, without minification or obfuscation. You are allowed to use bundlers, such as [Vite](https://vitejs.dev/) or [Webpack](https://webpack.js.org/), but please enable [source maps](https://web.dev/articles/source-maps). Gulp is unmaintained and should not be used.
