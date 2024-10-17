@@ -77,6 +77,8 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ### Penalties
 
+Penalties for the task are assigned by the course curators, not by students. An imposed penalty results in zero points for the task. If you believe there's a reason to apply any of the following penalties in the work you're evaluating, please direct message the link to it to one of the curators:
+
 1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
 2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
