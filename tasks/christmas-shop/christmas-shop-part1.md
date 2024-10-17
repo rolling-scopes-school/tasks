@@ -65,8 +65,6 @@ Penalties for the task are assigned by the course curators, not by students. An 
 1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
 2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
-
-
 ## Criteria for Evaluation
 
 **Maximum score for the task: 110 points**
