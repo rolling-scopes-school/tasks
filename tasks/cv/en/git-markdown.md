@@ -20,9 +20,9 @@ Your task is to create a repository according to the requirements, add your CV i
 
 To find the link to your previously published CV (and add it to the third point of the Pull Request description):
 
-- In your repository, on the right side, find the `Environments` section (usually located in the lower right corner).
+- In your repository, on the right side, find the `Deployments` section (usually located in the lower right corner).
   ![github](../images/find_deploy_01.png)
-- Click on `github-pages` (next to the rocket icon 🚀), and in the opened window, click on `View Deployment`. This should open the website with your CV that you've created.
+- Click on `github-pages` (next to green mark icon ✅), and in the opened window, click on the link in the `Latest deployments` section. This should open the website with your CV that you've created.
   ![github](../images/find_deploy_02.png)
 - The `gh-pages` service allows you to publish your content on the internet (making it public for anyone to see). It uses files with the `.md` extension as content. However, if there is a file with the `index.html` extension in the root of the repository, it will be used as the main page since it has higher priority than `.md` files.
 - The first task (CV#1) is checked automatically. Our bot visits the repository's page and checks the correctness of commit prefixes, the number of commits (should be more than three), the title of the PR, and that its points are filled. Afterward, in the cross-check stage, the HTML/CSS task (CV#3) will be checked, which involves creating the CV using HTML/CSS.
@@ -44,7 +44,7 @@ To find the link to your previously published CV (and add it to the third point 
 ## Materials:
 
 - [Working with Git](git.md).
-- [Markdown Syntax Cheat Sheet](https://ydmitry.ru/blog/rukovodstvo-po-markdown-dlya-uproshcheniya-veb-razrabotki/).
+- [Markdown Syntax Cheat Sheet [RU]](https://ydmitry.ru/blog/rukovodstvo-po-markdown-dlya-uproshcheniya-veb-razrabotki/).
 
 ## Examples of CVs in markdown format
 
