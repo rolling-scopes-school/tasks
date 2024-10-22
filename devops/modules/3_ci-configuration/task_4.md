@@ -4,7 +4,7 @@
 
 In this task, you will install Jenkins CI server on your Kubernetes (K8s) cluster using Helm and configure it to be accessible via internet.
 IMPORTANT! You better choose to use t3/t2.small VMs, since micro have not sufficient amount of RAM for running Jenkins. Be aware that small instances are not included in the free tier, so you'll be charged 0.05$/hour for them.
-Best choise for saving - create 1 small instalnce in public network. Setup init script to install k3s and deploy all of the necessary HELM charts to startup jenkins. Destroy environment whenever you are not working with it. 
+Best choise for saving - create 1 small instalnce in public network. Setup init script to install k3s and deploy all of the necessary HELM charts to startup jenkins. Destroy environment whenever you are not working with it.
 Have a look at this [JCasC article](https://medium.com/globant/jenkins-jcasc-for-beginners-819dff6f8bc) to store jenkins configuration and jobs as s code.
 
 ## Steps
@@ -21,7 +21,7 @@ Have a look at this [JCasC article](https://medium.com/globant/jenkins-jcasc-for
 3. **Install Jenkins**
 
    - Follow the instructions from the [Jenkins documentation](https://www.jenkins.io/doc/book/installing/kubernetes/#install-jenkins-with-helm-v3) to install Jenkins using Helm. Ensure Jenkins is installed in a separate namespace.
-   [Debug init container](https://kubernetes.io/docs/tasks/debug/debug-application/debug-init-containers/#accessing-logs-from-init-containers)
+     [Debug init container](https://kubernetes.io/docs/tasks/debug/debug-application/debug-init-containers/#accessing-logs-from-init-containers)
 
 4. **Verify Jenkins Installation**
 
