@@ -13,12 +13,12 @@
 2. Git, GitHub, commit and pull request formatting.
 3. Adaptive layout markup.
 4. Core JS.
-5. Algorithmic tasks.
-6. DOM, DOM Events, Browser API.
-7. Virtual keyboard project.
-8. Basics of NodeJS.
-9. Webpack
-10. Clean Code project.
+5. DOM, DOM Events, Browser API.
+6. Algorithmic tasks.
+7. Clean Code project.
+8. Modules.
+9. Bundlers.
+10. Basics of NodeJS.
 11. Preparation for HTML/CSS/JS/Algorithms interviews.
 
 ---
@@ -95,7 +95,7 @@
 
 - Tasks:
 
-  - Christmas shop. Part 1: Fixed Layout
+  - [Christmas shop. Part 1: Fixed Layout](../tasks/christmas-shop/christmas-shop.md)
 
 - Tests:
 
@@ -110,7 +110,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "Christmas shop. Part 1: Fixed Layout"
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "[Christmas shop. Part 1: Fixed Layout](../tasks/christmas-shop/christmas-shop-part1.md)"
 
 - Modules:
 
@@ -119,7 +119,7 @@
 
 - Tasks:
 
-  - Christmas shop. Part 2: Responsive Design
+  - [Christmas shop. Part 2: Responsive Design](../tasks/christmas-shop/christmas-shop.md)
 
 - Tests:
 
@@ -131,7 +131,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "Christmas shop. Part 2: Responsive Design"
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "[Christmas shop. Part 2: Responsive Design](../tasks/christmas-shop/christmas-shop-part2.md)"
 
 - Modules:
 
@@ -141,7 +141,7 @@
 
 - Tasks:
 
-  - Christmas shop. Part 3: Adding Functionality
+  - [Christmas shop. Part 3: Adding Functionality](../tasks/christmas-shop/christmas-shop.md)
 
 - Tests:
 
@@ -155,7 +155,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project "Christmas shop. Part 3: Adding Functionality"
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project "[Christmas shop. Part 3: Adding Functionality](../tasks/christmas-shop/christmas-shop-part3.md)"
 
 - Modules:
 
@@ -198,6 +198,7 @@
 
 - Modules:
 
+  - [Module "Canvas API"](modules/canvas-api/)
   - [Module "Algorithms and Data Structures"](modules/data-structures-and-algorithms/)
 
 - Tasks:
@@ -207,6 +208,7 @@
 
 - Tests:
 
+  - [[St1] Canvas API](modules/canvas-api/)
   - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
 
 ### Break Week
