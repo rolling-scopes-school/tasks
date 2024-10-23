@@ -54,7 +54,7 @@ The second part of the application allows you to see the previously created list
 - Required: Prettier, ESLint, StyleLint and libraries for them.
 - Required: Husky, lint-staged, commitlint.
 - Required: Bundlers (webpack, vite). _(It is allowed to use bundler's plugins.)_
-- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`).
+- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`), `clsx`/`classnames` package.
 - Prohibited: Frameworks like Angular, React, Vue, etc.
 - Prohibited: jQuery.
 - Prohibited: eslint-plugin-prettier.
