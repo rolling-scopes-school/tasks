@@ -56,9 +56,9 @@ In this part of the task, you need to add the following functionality to the web
    - Scrolling the slider is accompanied by like the carousel animation (the method of animation execution is not verified): **+4**
    - The slider is fully scrolled with 3 presses of the arrow button in one direction for screen widths of 768px and larger, and with 6 presses of the arrow button in one direction for screen widths of 767px and less: **+8**
 3. Implementation of the **Timer** on the `home` page: **+8**
-   - The timer shows the correct value of the remaining days, hours, minutes, and seconds until the New Year in the UTC: **+2**
+   - The timer shows the correct value of the remaining days, hours, minutes, and seconds until the New Year in `UTC+0`: **+2**
    - Leading zeros are not displayed for single-digit numbers: **+2**
-   - The timer updates every second, displaying the current remaining time: **+4**
+   - The timer updates every second, displaying the current remaining time with the labels `days`, `hours`, `minutes`, `seconds` (the labels must not change): **+4**
 4. When opening and refreshing the page, 4 random cards are displayed in the block **Best Gifts** on the `home` page: **+4**
 5. Implementation of the **Category switching** for products on the `gifts` page: **+6**
    - The **ALL** category is active and all gifts are displayed when opening or reloading the `gifts` page: **+2**
