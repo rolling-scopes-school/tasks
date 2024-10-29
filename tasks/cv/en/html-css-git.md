@@ -1,6 +1,6 @@
 # CV#2. HTML, CSS & Git Basics
 
-Your task is to create a branch named `rsschool-cv-html` in the `gh-pages` branch of the `rsschool-cv` repository, add files `index.html` and `style.css` to it, which contain basic empty templates or templates with minimal content (the layout and styling of the CV will be done in the next task), and deploy them to GitHub Pages.
+Your task is to create a branch named `rsschool-cv-html` from the `gh-pages` branch of the `rsschool-cv` repository, add files `index.html` and `style.css` to it, which contain basic empty templates or templates with minimal content (the layout and styling of the CV will be done in the next task), and deploy them to GitHub Pages.
 
 - [Task description and requirements](cv.md)
 - [Tips for completing the task using VS Code](cv-hints.md)
