@@ -46,7 +46,7 @@ The second part of the application allows you to see the previously created list
 - App must not have unexpected errors in the console.
 - The app must be supported by at least the latest version of the “google chrome” browser.
 
-## Technical Requirements (+160)
+## Technical Requirements (160 points total)
 
 ### General
 
@@ -60,9 +60,9 @@ The second part of the application allows you to see the previously created list
 - Prohibited: eslint-plugin-prettier.
 - Prohibited: Third-party libraries not listed in the allowed libraries.
 
-### Code Formatting and Linting (+80)
+### Code Formatting and Linting (80 points)
 
-#### TypeScript
+#### TypeScript (12/80)
 
 > TypeScript helps us avoid unnecessary code errors at runtime and helps the IDE give us relevant hints during development.
 
@@ -70,7 +70,7 @@ The second part of the application allows you to see the previously created list
 2. (+2) TypeScript configuration file is added to the project and used.
 3. (+8) TypeScript configuration file must include the `strict` options enabled.
 
-#### Prettier
+#### Prettier (8/80)
 
 > The formatter allows us to be less distracted by manual indentation and comma spacing, allowing us to better focus on writing code.
 
@@ -78,7 +78,7 @@ The second part of the application allows you to see the previously created list
 2. (+2) Prettier configuration file is added to the project and used.
 3. (+4) `package.json` must contain 2 scripts: `ci:format` for checking issues with CI and `format` for manually formatting project files. _The `prettier` command has many useful options, such as `--list-different` and `--ignore-unknown`._
 
-#### ESLint
+#### ESLint (40/80)
 
 > Linter allows us to keep our code clean. Clean code is more readable, maintainable, and reusable. And its auto-fixing of errors allows us to save time on refactoring.
 
@@ -103,7 +103,7 @@ The second part of the application allows you to see the previously created list
    - _It is allowed to tweak the config to be stricter to make your code even cleaner (according to your or your mentor's preference)._
 6. (+4) `package.json` must contain 2 scripts: `ci:lint` for checking issues with CI and `lint` for manually checking project files.
 
-#### StyleLint
+#### StyleLint (10/80)
 
 > Linter allows us to keep our code clean. Clean code is more readable, maintainable, and reusable. And its auto-fixing of errors allows us to save time on refactoring.
 
@@ -112,7 +112,7 @@ The second part of the application allows you to see the previously created list
 3. (+2) StyleLint configuration file must be configured with [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) and [`stylelint-config-clean-order`](https://github.com/kutsan/stylelint-config-clean-order). _It is acceptable to disable or tweak some rules for better DX._
 4. (+4) `package.json` must contain 2 scripts: `ci:stylelint` for checking issues with CI and `stylelint` for manually checking project files.
 
-#### Husky (with lint-staged and commitlint)
+#### Husky (10/80)
 
 > `husky` allows us to run some code during various git events using git hooks.  
 > `lint-staged` allows us to run linters/formatters only on code that is prepared for commit.  
@@ -124,7 +124,7 @@ The second part of the application allows you to see the previously created list
 4. (+2) `lint-staged` must be configured to run `ci:` scripts at least for javascript/typescript and css/scss/etc. files.
 5. (+2) `commitlint` must be configured with [`@commitlint/config-conventional`](https://www.npmjs.com/package/@commitlint/config-conventional).
 
-### Code Quality (+80)
+### Code Quality (80 points)
 
 > The use of innerHTML is prohibited. Use of DOM search methods is prohibited. ([there are good reasons for not using them](https://gist.github.com/TELEUZI/410d19772481d98b06e0b41ebf89fff1#naive-implementation-).)
 >
@@ -132,23 +132,23 @@ The second part of the application allows you to see the previously created list
 >
 > This won't cause any pain if you at least just write a reusable function that takes in the necessary element settings (`tagName`, `className`, `textContent`, etc.) and returns a ready-to-use element.
 
-#### Code Smells
+#### Code Smells (4/80)
 
 1. (+2) The code does not contain magic values.
 2. (+2) Code contains minimal or no code duplication at all.
 
-#### Bundling and Modularity
+#### Bundling and Modularity (12/80)
 
 1. (+4) HTML elements are generated using a utility function or class.
 2. (+4) The code is logically divided into modules/layers. _(you can consult your mentor about architecture.)_.
 3. (+4) The application is built by a bundler.
 
-#### Clear and Reusable Functions
+#### Clear and Reusable Functions (16/80)
 
 1. (+8) The code is divided into small functions (≤ 40 lines each) with clear names and purposes. The same applies to classes and their methods. _(ESLint rule `max-lines-per-function` may be useful for this.)_
 2. (+8) Arguments and return values of functions and methods are explicitly typed.
 
-#### Care About Types
+#### Care About Types (48/80)
 
 > [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
 
@@ -156,11 +156,11 @@ The second part of the application allows you to see the previously created list
 2. (+16) The code does not contain any explicit or implicit `any`.
 3. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
 
-## Functional Requirements (+256)
+## Functional Requirements (256 points total)
 
-### List of lots (+92)
+### List of lots (92 points)
 
-#### General
+#### General (13/92)
 
 1. (+1) Displays the app's name.
 2. (+2) Displays the list of lots.
@@ -168,7 +168,7 @@ The second part of the application allows you to see the previously created list
 4. (+4) Current lots must remain the same _(not reset, not shuffled)_ when reloading the page.
 5. (+4) Current lots must remain the same _(not reset, not shuffled)_ when closing a tab/window and opening it in a new one.
 
-#### Lot
+#### Lot (28/92)
 
 ##### `id`
 
@@ -196,9 +196,9 @@ The second part of the application allows you to see the previously created list
 
 ##### Lot columns
 
-1. (+4) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([lots](#lot)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
+1. (+4) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([lots](#lot-2892)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
 
-#### List Buttons
+#### List Buttons (51/92)
 
 ##### New lot
 
@@ -208,7 +208,7 @@ The second part of the application allows you to see the previously created list
 4. (+2) "New lot" must have an empty `title`.
 5. (+2) "New lot" must have an empty `weight`.
 6. (+2) "New lot" must have a `delete button`.
-7. (+2) "New lot" must meet the [#Lot](#lot) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
+7. (+2) "New lot" must meet the [#Lot](#lot-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
 
 ##### Clear list
 
@@ -230,7 +230,7 @@ The second part of the application allows you to see the previously created list
 3. (+2) The type of files to be selected must be limited to a single file of type `.json`.
 4. (+2) The current list of lots must be completely replaced by the list from the `.json` file you uploaded _(your app must be able to read and correctly parse the file created by your `save list button` click)_.
 5. (+2) The order of lots in the app must match the order of lots in the file. The `id` of lots must be newly generated.
-6. (+2) Each "loaded lot" must meet the [#Lot](#lot) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
+6. (+2) Each "loaded lot" must meet the [#Lot](#lot-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
 
 ##### Start
 
@@ -238,7 +238,7 @@ The second part of the application allows you to see the previously created list
 2. (+4) The `start button` click must open `WoF` modal window.
 3. (+4) The list of current lots passed to the modal window must be filtered and contain only valid lots. A lot is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`.
 
-### WoF Modal (+164)
+### WoF Modal (164 points)
 
 > Great place to get familiar with the `<dialog>` element, but the old-fashioned `div.modal>div.modal-content` pattern is ok too.
 >
@@ -252,12 +252,12 @@ The second part of the application allows you to see the previously created list
 >
 > If the modal window `WoF` was closed and reopened, the life cycle starts again with `initial state`.
 
-#### General
+#### General (4/164)
 
 1. (+2) Displays the `WoF` modal window if the number of valid lots is two or more.
 2. (+2) Displays a modal window asking to add at least 2 valid lots if the number of valid lots is less than two.
 
-#### Wheel
+#### Wheel (75/164)
 
 > Canvas API and requestAnimationFrame are very good for this part of the assignment.
 
@@ -303,7 +303,7 @@ The second part of the application allows you to see the previously created list
 8. (+4) In the wheel rotation state, the `lot slice title` shall not change its location relative to the boundaries of its `lot slice`. _It means that visually `lot slice title` and `lot slice` should rotate as an indivisible element._
 9. (+2) In the wheel rotation state, the `cursor` must stay in its place and not rotate.
 
-#### Selected lot
+#### Selected lot (13/164)
 
 1. (+1) Displays a `selected lot` element within the `WoF` modal window.
 2. (+2) In the wheel initial state, `selected lot` must display the `title` of the lot currently pointed to by the wheel `cursor`.
@@ -312,21 +312,21 @@ The second part of the application allows you to see the previously created list
 5. (+2) In the initial and rotation states, the `selected lot` must not be highlighted.
 6. (+2) In the winning state, the `selected lot` must be highlighted.
 
-#### Interactions
+#### Interactions (72/164)
 
-##### Close button
+##### Closing modal
 
-1. (+1) Displays a `close button` in the upper right corner of modal window for returning to the [list of lots](#list-of-lots-92). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "⨉", "x", etc.)_.
-2. (+4) The `close button` click must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92).
-3. (+4) Closing `WoF` modal window must remove it from DOM.
-4. (+4) In the wheel rotation state, `close button` must be temporarily visually disabled or hidden and must not be functioning.
-5. (+4) In the initial and winning states `close button` returns to its original state and functions as it should.
-
-##### Outside click
-
-1. (+4) The `outside click` must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92).
-2. (+4) In the wheel rotation state, the `outside click` functionality must be temporarily disabled.
-3. (+4) In the initial and winning states `outside click` functions as it should.
+1. (+1) Displays a `close button` in the upper right corner of modal window for returning to the [list of lots](#list-of-lots-92-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "⨉", "x", etc.)_.
+2. (+4) The `close button` click must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
+3. (+4) The `Escape key press` must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
+4. (+4) The `outside click` must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
+5. (+4) Closing `WoF` modal window must remove it from DOM.
+6. (+2) In the wheel rotation state, `close button` must be temporarily visually disabled or hidden and must not be functioning.
+7. (+2) In the wheel rotation state, the `Escape key press` functionality must be temporarily disabled.
+8. (+2) In the wheel rotation state, the `outside click` functionality must be temporarily disabled.
+9. (+2) In the initial and winning states `close button` returns to its original state and functions as it should.
+10. (+2) In the initial and winning states `Escape key press` functions as it should.
+11. (+2) In the initial and winning states `outside click` functions as it should.
 
 ##### Duration
 
@@ -359,7 +359,7 @@ The second part of the application allows you to see the previously created list
 ## Crosscheck Evaluation
 
 - Submit app for crosscheck according to [Submission Requirements](#repository-and-submission-requirements).
-- Evaluation is based on [Functional Requirements](#functional-requirements-256).
+- Evaluation is based on [Functional Requirements](#functional-requirements-256-points-total).
 - Check on the latest version of the “google chrome” browser.
 
 ## Crosscheck Penalties (Up to -100%)
@@ -372,7 +372,7 @@ The second part of the application allows you to see the previously created list
 ## Mentor review Evaluation
 
 - Submit app for mentor review according to [Submission Requirements](#repository-and-submission-requirements).
-- Evaluation is based on [Technical Requirements](#technical-requirements-160).
+- Evaluation is based on [Technical Requirements](#technical-requirements-160-points-total).
 
 ## Mentor/Moderation Penalties (Up to -100%)
 
