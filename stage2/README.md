@@ -7,7 +7,7 @@
   - Preparing students for technical interviews
   - Preparing students for presentations in English
   - Students complete a team project
-- Training time: 19 weeks
+- Training time: 20 weeks
 - Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
 
 # Training Program
@@ -242,14 +242,14 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: JavaScript Error Handling](modules/error-handling/)
 
-- Tests:
-
-  - [[St2] Error handling](./modules/error-handling/)
-
 - Tasks:
 
   - [Project Async Race](./tasks/async-race/)
   - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+
+- Tests:
+
+  - [[St2] Error handling](./modules/error-handling/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -272,14 +272,14 @@ At the end of this week, all students will be required to use typescript and adh
   - [Testing](modules/testing/)
   - [Module: WebSockets](modules/web-sockets/)
 
-- Tests:
-
-  - [[St2] Testing](./modules/testing/)
-
 - Tasks:
 
   - [Fun Сhat](tasks/fun-chat/README.md)
   - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+
+- Tests:
+
+  - [[St2] Testing](./modules/testing/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -298,14 +298,14 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: Design Patterns](modules/design-patterns/)
 
-- Tests:
-
-  - [[St2] Design Patterns](modules/design-patterns/)
-
 - Tasks:
 
   - [Fun Сhat](tasks/fun-chat/README.md)
   - [Codewars Design Patterns](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-DP.md)
+
+- Tests:
+
+  - [[St2] Design Patterns](modules/design-patterns/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -327,13 +327,13 @@ At the end of this week, all students will be required to use typescript and adh
   - [Module: "SCRUM, Kanban"](modules/scrum/)
   - [Preparation for Final Project](modules/final-task/)
 
-- Tests:
-
-  - [[St2] Scrum. Kanban](modules/scrum/)
-
 - Tasks:
 
   - [Project: Presentation. Recorded](tasks/presentation/)
+
+- Tests:
+
+  - [[St2] Scrum. Kanban](modules/scrum/)
 
 <details>
   <summary>Mentor Activities</summary>
@@ -350,13 +350,13 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: CI/CD](./modules/ci-cd/)
 
-- Tests:
-
-  - [[St2] CI/CD](./modules/ci-cd/)
-
 - Tasks:
 
   - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+
+- Tests:
+
+  - [[St2] CI/CD](./modules/ci-cd/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
@@ -376,13 +376,13 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: How Browsers Work - Rendering Flow](modules/how-browsers-work/)
 
-- Tests:
-
-  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
-
 - Tasks:
 
   - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+
+- Tests:
+
+  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
