@@ -83,7 +83,7 @@ The second part of the application allows you to see the previously created list
 > Linter allows us to keep our code clean. Clean code is more readable, maintainable, and reusable. And its auto-fixing of errors allows us to save time on refactoring.
 
 1. (+2) [ESLint](https://eslint.org/) must be installed to developer dependencies.
-2. (+2) ESLint configuration file is added to the project and used.
+2. (+2) ESLint configuration file is added to the project and used. _(both [`flat`](https://eslint.org/docs/latest/use/configure/configuration-files) and [`legacy`](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated) config formats are allowed.)_
 3. (+8) ESLint configuration file must include the `noInlineConfig` and `reportUnusedDisableDirectives` options enabled.
 4. (+8) ESLint configuration file must include all of the following rules included:
 
