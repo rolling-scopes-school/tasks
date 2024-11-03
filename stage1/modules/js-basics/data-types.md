@@ -19,4 +19,4 @@
 
 ## Practice
 
-1. Pass test "[St1] JS Types" at the RS APP > Auto Test
+Pass test "[St1] JS Types" at the RS APP > Auto Test
