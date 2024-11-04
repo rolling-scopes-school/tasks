@@ -7,7 +7,7 @@
   - Preparing students for technical interviews
   - Preparing students for presentations in English
   - Students complete a team project
-- Training time: 19 weeks
+- Training time: 20 weeks
 - Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
 
 # Training Program
@@ -190,14 +190,13 @@ At the end of this week, all students will be required to use typescript and adh
 - Tasks:
 
   - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-  - [Project Async Race](./tasks/async-race/)
+  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises)
+  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions)
 
 - Tests:
 
   - [[St2] Async programming](modules/async/)
   - [[St2] Web Security](modules/web-security/)
-  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises)
-  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -219,8 +218,8 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Tasks:
 
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
   - [Project Async Race](./tasks/async-race/)
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 
 - Tests:
 
@@ -239,21 +238,18 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### April 1, 2025
 
-- Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
-
 - Modules:
 
-  - [Testing](modules/testing/)
-
-- Tests:
-
-  - [[St2] Testing](./modules/testing/)
+  - [Module: JavaScript Error Handling](modules/error-handling/)
 
 - Tasks:
 
+  - [Project Async Race](./tasks/async-race/)
   - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+
+- Tests:
+
+  - [[St2] Error handling](./modules/error-handling/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -267,19 +263,23 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### April 8, 2025
 
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
+
 - Modules:
 
-  - [Module: JavaScript Error Handling](modules/error-handling/)
+  - [Testing](modules/testing/)
   - [Module: WebSockets](modules/web-sockets/)
-
-- Tests:
-
-  - [[St2] Error handling](./modules/error-handling/)
 
 - Tasks:
 
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
   - [Fun Сhat](tasks/fun-chat/README.md)
+  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+
+- Tests:
+
+  - [[St2] Testing](./modules/testing/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -298,14 +298,14 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: Design Patterns](modules/design-patterns/)
 
-- Tests:
-
-  - [[St2] Design Patterns](modules/design-patterns/)
-
 - Tasks:
 
   - [Fun Сhat](tasks/fun-chat/README.md)
   - [Codewars Design Patterns](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-DP.md)
+
+- Tests:
+
+  - [[St2] Design Patterns](modules/design-patterns/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
@@ -327,13 +327,13 @@ At the end of this week, all students will be required to use typescript and adh
   - [Module: "SCRUM, Kanban"](modules/scrum/)
   - [Preparation for Final Project](modules/final-task/)
 
-- Tests:
-
-  - [[St2] Scrum. Kanban](modules/scrum/)
-
 - Tasks:
 
   - [Project: Presentation. Recorded](tasks/presentation/)
+
+- Tests:
+
+  - [[St2] Scrum. Kanban](modules/scrum/)
 
 <details>
   <summary>Mentor Activities</summary>
@@ -350,13 +350,13 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: CI/CD](./modules/ci-cd/)
 
-- Tests:
-
-  - [[St2] CI/CD](./modules/ci-cd/)
-
 - Tasks:
 
   - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+
+- Tests:
+
+  - [[St2] CI/CD](./modules/ci-cd/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
@@ -376,13 +376,13 @@ At the end of this week, all students will be required to use typescript and adh
 
   - [Module: How Browsers Work - Rendering Flow](modules/how-browsers-work/)
 
-- Tests:
-
-  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
-
 - Tasks:
 
   - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+
+- Tests:
+
+  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
@@ -415,6 +415,10 @@ At the end of this week, all students will be required to use typescript and adh
 ## Week #15
 
 ### May 20, 2025
+
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 
 - Tasks:
 
@@ -450,6 +454,10 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### June 3, 2025
 
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+
 - Tasks:
 
   - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
@@ -482,7 +490,24 @@ At the end of this week, all students will be required to use typescript and adh
 
 ### June 17, 2025
 
-- [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
+- Cross-Check Reviews:
+
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+
+- Presentations:
+
+  - [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
+
+<details>
+  <summary markdown="span">Mentor Activities</summary>
+
+- [Checking Final Version of Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+</details>
+
+## Week #20
+
+### June 24, 2025
+
 - Receiving the certificate for Stage#2
 - Break before Stage#3
 - Receiving feedback from the mentor. At the end of the course, if you have a mentor, please ask them to write a review for you. The mentor can do this by opening the RS APP, going to the 'My Students' page, and clicking the 'Give Feedback' button next to your name.
@@ -490,6 +515,5 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 - Feedback on students. You can leave feedback on your students in the RS APP -> My Students. Your feedback will be available to the student in their RS APP CV. Essentially, feedback is similar to a recommendation letter.
 </details>
