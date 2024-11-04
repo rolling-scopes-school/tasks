@@ -12,19 +12,19 @@ In this task, you will create a Helm chart for a simple application and deploy i
 
 2. **Deploy the Application**
 
-   - Deploy the application using the Helm chart.
+   - Deploy the WordPress application using the Helm chart.
    - Ensure the application is accessible from the internet.
 
 3. **Store Artifacts in Git**
 
-   - Store the application and Helm chart in a new git repository.
+   - Store the WordPress application and Helm chart in a new git repository.
 
 4. **Verify the Application**
 
    - Verify that the application is running and accessible.
 
 5. **Additional Tasks**
-   - Implement a CI/CD pipeline to automate the deployment of the application.
+   - Implement a CI/CD pipeline to automate the deployment of the WordPress.
    - Document the application setup and deployment process in a README file.
 
 ## Submission
@@ -38,7 +38,7 @@ In this task, you will create a Helm chart for a simple application and deploy i
 
 1. **Helm Chart Creation (40 points)**
 
-   - A Helm chart for the application is created.
+   - A Helm chart for the WordPress application is created.
 
 2. **Application Deployment (30 points)**
 
@@ -47,7 +47,7 @@ In this task, you will create a Helm chart for a simple application and deploy i
 
 3. **Repository Submission (5 points)**
 
-   - A new repository is created with the application and Helm chart.
+   - A new repository is created with the WordPress and Helm chart.
 
 4. **Verification (5 points)**
 
