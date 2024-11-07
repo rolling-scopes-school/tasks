@@ -94,7 +94,12 @@ The second part of the application allows you to see the previously created list
      "@typescript-eslint/consistent-type-assertions": [
        "error",
        { "assertionStyle": "never" }
-     ]
+     ],
+     "@typescript-eslint/explicit-member-accessibility": [
+       "error",
+       { "accessibility": "explicit", "overrides": { "constructors": "off" } }
+     ],
+     "@typescript-eslint/member-ordering": "error"
    }
    ```
 
