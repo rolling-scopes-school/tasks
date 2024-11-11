@@ -4,7 +4,7 @@
 
 - [Detailed Description](christmas-shop.md)
 
-You need to create `Home` and `Gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.  
+You need to create `Home` and `Gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.
 The content width of 1440px should not change when resizing the browser window.
 
 ## Workflow
@@ -56,7 +56,7 @@ The content width of 1440px should not change when resizing the browser window.
    - In the `<footer>`, clicking on the card **MAGIC FOREST** should open a new browser tab with Google Maps displaying any location of your choice: **+2**
    - In the `<footer>`, clicking on the link **Made in Rolling Scopes School** should open the [school's website](https://rs.school/) in a new tab: **+2**
    - Interactivity of the links and buttons is implemented according to the Figma layout. Interactivity includes not only changing cursor's appearance, for example, using the `cursor: pointer` property, but also the use of other visual effects, such as changing the background color or font color, following the **Styleguide** in the Figma layout. If the interactivity is not specified in the **Styleguide**, `cursor: pointer` property is enough: **+4**
-   - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+4**
+   - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+2**
 
 ### Penalties
 
