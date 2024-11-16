@@ -49,13 +49,13 @@ In this part of the task, you need to add the following functionality to the web
    - When clicking on any link (interactive or non-interactive) in the menu, the burger menu hides, and the cross transforms into a burger icon: **+2**
    - When clicking on any link (interactive or non-interactive) in the menu, the burger menu smoothly hides to the right, and the cross smoothly transforms into a burger icon if a user stays on the same page: **+2**
    - The placement and sizes of elements in the burger menu correspond to the layout (horizontal and vertical centering of menu items): **+2**
-   - When the page width increases to 769px and larger, the burger icon and the open burger menu hide, and the navigation panel appears: **+2**
+   - When the page width increases more than 768px, the burger icon and the open burger menu hide, and the navigation panel appears: **+2**
 2. Implementation of the **Slider** on the `home` page: **+18**
    - Scrolling the slider in the corresponding direction is implemented by pressing left arrow button and right arrow button: **+2**
    - The left arrow button is inactive at the far left position of the slider: **+2**
    - The right arrow button is inactive at the far right position of the slider: **+2**
-   - Scrolling the slider is accompanied by like the carousel animation (the method of animation execution is not verified): **+4**
-   - The slider is fully scrolled with 3 presses of the arrow button in one direction for screen widths of 769px and larger, and with 6 presses of the arrow button in one direction for screen widths of 768px and less: **+8**
+   - Scrolling the slider is accompanied by the carousel-like animation (the method of animation execution is not verified): **+4**
+   - The slider is fully scrolled with 3 presses of the arrow button in one direction for screen widths more than 768px, and with 6 presses of the arrow button in one direction for screen widths of 768px and less: **+8**
 3. Implementation of the **Timer** on the `home` page: **+8**
    - The timer shows the correct value of the remaining days, hours, minutes, and seconds until the New Year in `UTC+0`: **+2**
    - Leading zeros are not displayed for single-digit numbers: **+2**
@@ -65,7 +65,7 @@ In this part of the task, you need to add the following functionality to the web
    - The **ALL** category is active and all gifts are displayed when opening or reloading the `gifts` page: **+2**
    - When switching categories, the gifts of the selected category are displayed: **+4**
    - Only the selected category tab is active: **+2**
-6. Implementation of the **Button UP** on the `gifts` page: **+14**
+6. Implementation of the **Scroll-to-Top** button on the `gifts` page: **+14**
    - The button can only appear at a screen width of 768px and less: **+4**
    - At the top of the page, the button is not displayed: **+4**
    - The button appears after scrolling the page down by 300px: **+4**
