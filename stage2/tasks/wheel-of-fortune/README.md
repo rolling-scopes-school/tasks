@@ -335,7 +335,7 @@ The second part of the application allows you to see the previously created list
 
 ##### Duration
 
-1. (+1) Displays a `duration` `<input>` element within the `WoF` modal window for setting the rotation duration in seconds.
+1. (+1) Displays a `duration` `<input>` element within the `WoF` modal window for setting the rotation duration in seconds. The appearance of this input should clearly indicate its purpose _(contain appropriate label and/or placeholder. e.g., "duration", "time", "seconds", etc.)_
 2. (+2) `duration` element must be able to be edited by the user.
 3. (+2) `duration` element must take only numbers.
 4. (+2) `duration` element must have a default value, which should be between 5 and 30 seconds.
