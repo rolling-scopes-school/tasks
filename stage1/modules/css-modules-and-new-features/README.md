@@ -44,6 +44,7 @@ Students should review the following resources:
 ## Additional Materials 📘
 
 Enhance your skills with these supplementary materials:
+
 - [An intro to CSS Anchor Positioning with basic examples](https://utilitybend.com/blog/lets-hang-an-intro-to-css-anchor-positioning-with-basic-examples)
 - [CSS Anchor Positioning Guide](https://css-tricks.com/css-anchor-positioning-guide/)
 - [Learning CSS anchor positioning Through Anchoreum Game](https://anchoreum.com/)
