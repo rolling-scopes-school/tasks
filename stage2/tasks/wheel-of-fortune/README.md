@@ -257,10 +257,11 @@ The second part of the application allows you to see the previously created list
 >
 > If the modal window `WoF` was closed and reopened, the life cycle starts again with `initial state`.
 
-#### General (4/164)
+#### General (6/164)
 
 1. (+2) Displays the `WoF` modal window if the number of valid lots is two or more.
 2. (+2) Displays a modal window asking to add at least 2 valid lots if the number of valid lots is less than two.
+3. (+2) An opened modal window must block the page scrolling until the modal window is closed.
 
 #### Wheel (75/164)
 
@@ -293,7 +294,7 @@ The second part of the application allows you to see the previously created list
 ##### Cursor
 
 1. (+4) The `wheel` element must display a `cursor` that points to the current lot. It can be designed in the form of a triangle, arrow or any similar figure with a clearly defined pointer.
-2. (+4) The `cursor` must be placed at any position on the edge of the `wheel` and not overlapped by other elements.
+2. (+2) The `cursor` must be placed at any position on the edge of the `wheel` and not overlapped by other elements.
 3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent slices, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
 
 ##### Wheel rotating
