@@ -1,21 +1,22 @@
-# Wheel of fortune
+# Decision Making Tool
 
 ## Description
 
-Your task is to implement an single page application (SPA) for drawing lots using the wheel of fortune (hereafter `WoF`).
+Your task is to implement a single page application (SPA) for decision making.  
+This application is designed to help streamers, content makers, tabletop role-players to make random pick based on the weight of an option (it increases the chance of an option being picked).
 
-The application consists of two parts.
+The application consists of two parts: `List of Options` and `Decision Picker`.
 
-The first part of the application allows you to edit the list of lots (sections of `WoF`), as well as to save it to a file and load it from a file. There is also a button to go to `WoF` itself.
+The first part of the application (`List of Options`) allows you to edit the list of options, as well as to save it to a file and load it from a file. There is also a button to go to the second part of the application (`Decision Picker`).
 
-The second part of the application allows you to see the previously created list as `WoF` itself. There is also an element for displaying the selected lot, a button to start `WoF` rotation and a user-friendly option to return to the first part of the application (the list of lots).
+The second part of the application (`Decision Picker`) allows you to visualize the previously created list. There is also an element for displaying the picked option, a button to start the picking process and a user-friendly option to return to the first part of the application (`List of Options`).
 
 ## Demo
 
 > This is a demo of the app's functionality.  
 > The app design is up to you as long as it meets the requirements of the assignment.
 
-<https://er-wof-demo.netlify.app/>
+<https://er-dmt-demo.netlify.app/>
 
 ## Task Objectives
 
@@ -31,7 +32,7 @@ The second part of the application allows you to see the previously created list
 ## Repository and Submission Requirements
 
 - Use a [private school repository](https://docs.rs.school/#/private-repository) to develop this application.
-- Use the `wheel-of-fortune` branch as your development branch.
+- Use the `decision-making-tool` branch as your development branch.
 - Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://docs.rs.school/#/git-convention).
 - Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_.
 - Use the app **deploy link** to [submit](https://app.rs.school/course/student/cross-check-submit) the app to crosscheck in [app.rs](https://app.rs.school/course/student/cross-check-submit). **Make sure** your link is accessible to everyone by opening it in incognito mode.
@@ -163,104 +164,104 @@ The second part of the application allows you to see the previously created list
 
 ## Functional Requirements (256 points total)
 
-### List of lots (92 points)
+### List of Options (92 points)
 
 #### General (13/92)
 
 1. (+1) Displays the app's name.
-2. (+2) Displays the list of lots.
-3. (+2) In the `initial state`, the list contains 1 empty lot _(id === `#1`, empty `title` and `weight`)_. _The `initial state` here means the state of the application when the user first encounters it (this can be simulated by pre-closing all current incognito tabs, if any, and opening a new one)_.
-4. (+4) Current lots must remain the same _(not reset, not shuffled)_ when reloading the page.
-5. (+4) Current lots must remain the same _(not reset, not shuffled)_ when closing a tab/window and opening it in a new one.
+2. (+2) Displays the list of options.
+3. (+2) In the `initial state`, the list of options contains 1 empty option _(id === `#1`, empty `title` and `weight`)_. _The `initial state` here means the state of the application when the user first encounters it (this can be simulated by pre-closing all current incognito tabs, if any, and opening a new one)_.
+4. (+4) Current options must remain the same _(not reset, not shuffled)_ when reloading the page.
+5. (+4) Current options must remain the same _(not reset, not shuffled)_ when closing a tab/window and opening it in a new one.
 
-#### Lot (28/92)
+#### Option (28/92)
 
 ##### `id`
 
-1. (+1) Each lot's `id` must be displayed.
-2. (+2) Each lot's `id` must be unique.
-3. (+2) Each lot's `id` must be in `#n` format _(`#1`, `#2`, `#3`, etc.)_.
-4. (+4) Each lot's `id` must be generated programmatically at creation and the user has no possibility to change it manually.
+1. (+1) Each option's `id` must be displayed.
+2. (+2) Each option's `id` must be unique.
+3. (+2) Each option's `id` must be in `#n` format _(`#1`, `#2`, `#3`, and so on)_.
+4. (+4) Each option's `id` must be generated programmatically at creation and the user has no possibility to change it manually.
 
 ##### `title`
 
-1. (+1) Each lot's `title` must be displayed.
-2. (+2) Each lot's `title` must be able to be edited by the user.
+1. (+1) Each option's `title` must be displayed.
+2. (+2) Each option's `title` must be able to be edited by the user.
 
 ##### `weight`
 
-1. (+1) Each lot's `weight` must be displayed.
-2. (+2) Each lot's `weight` must be able to be edited by the user.
-3. (+2) Each lot's `weight` must take only numbers.
+1. (+1) Each option's `weight` must be displayed.
+2. (+2) Each option's `weight` must be able to be edited by the user.
+3. (+2) Each option's `weight` must take only numbers.
 
 ##### `delete button`
 
-1. (+1) Each lot's `delete button` must be displayed. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "delete", "remove", etc.)_.
-2. (+4) Lot's `delete button` click must delete the current lot from the list.
-3. (+2) When the last lot is deleted _(if the list has become completely empty)_, the id count must be reset and empty "new lot" with `id` `#1` should be added to the list _(as at `initial state`)_
+1. (+1) Each option's `delete button` must be displayed. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "delete", "remove", etc.)_.
+2. (+4) Option's `delete button` click must delete the current option from the list.
+3. (+2) When the last option is deleted _(if the list has become completely empty)_, the id count must be reset and empty "new option" with `id` `#1` should be added to the list _(as at `initial state`)_
 
-##### Lot columns
+##### Option columns
 
-1. (+4) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([lots](#lot-2892)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
+1. (+4) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([options](#option-2892)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
 
 #### List Buttons (51/92)
 
-##### New lot
+##### New option
 
-1. (+1) Displays a `add lot button` next to the list of lots for creating a "new lot". The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "add lot", "new lot", "+", etc.)_.
-2. (+4) The `add lot button` click must create a "new lot".
-3. (+2) "New lot" must have a unique `id`.
-4. (+2) "New lot" must have an empty `title`.
-5. (+2) "New lot" must have an empty `weight`.
-6. (+2) "New lot" must have a `delete button`.
-7. (+2) "New lot" must meet the [#Lot](#lot-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
+1. (+1) Displays a `add option button` next to the list of options for creating a "new option". The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "add option", "new option", "+", etc.)_.
+2. (+4) The `add option button` click must create a "new option".
+3. (+2) "New option" must have a unique `id`.
+4. (+2) "New option" must have an empty `title`.
+5. (+2) "New option" must have an empty `weight`.
+6. (+2) "New option" must have a `delete button`.
+7. (+2) "New option" must meet the [#Option](#option-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Option columns](#option-columns) requirements)_.
 
 ##### Clear list
 
-1. (+1) Displays a `clear list button` next to the list of lots for removing all lots from the list. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "clear list", "reset list", etc.)_.
-2. (+4) The `clear list button` click must remove all current lots from the list.
-3. (+2) In addition to clearing the list, an empty "new lot" with `id` `#1` should be added to the list _(as at `initial state`)_.
+1. (+1) Displays a `clear list button` next to the list of options for removing all options from the list. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "clear list", "reset list", etc.)_.
+2. (+4) The `clear list button` click must remove all current options from the list.
+3. (+2) In addition to clearing the list, an empty "new option" with `id` `#1` should be added to the list _(as at `initial state`)_.
 
 ##### Save list to file
 
-1. (+1) Displays a `save list button` next to the list of lots for saving all current lots to the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "save list to file", "save list as json", etc.)_.
-2. (+4) The `save list button` click must collect the current lots data, convert it to a json object and save it to a `.json` file.
-3. (+2) The `title` and `weight` values of lots must be saved.
-4. (+2) The order of lots in the file must match the order of lots in the app.
+1. (+1) Displays a `save list button` next to the list of options for saving all current options to the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "save list to file", "save list as json", etc.)_.
+2. (+4) The `save list button` click must collect the current options data, convert it to a json object and save it to a `.json` file.
+3. (+2) The `title` and `weight` values of options must be saved.
+4. (+2) The order of options in the file must match the order of options in the app.
 
 ##### Load list from file
 
-1. (+1) Displays a `load list button` next to the list of lots for loading lots from the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "load list from file", "load list from json", etc.)_.
+1. (+1) Displays a `load list button` next to the list of options for loading options from the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "load list from file", "load list from json", etc.)_.
 2. (+2) The `save list button` click must open the interface to select the file.
 3. (+2) The type of files to be selected must be limited to a single file of type `.json`.
-4. (+2) The current list of lots must be completely replaced by the list from the `.json` file you uploaded _(your app must be able to read and correctly parse the file created by your `save list button` click)_.
-5. (+2) The order of lots in the app must match the order of lots in the file. The `id` of lots must be newly generated.
-6. (+2) Each "loaded lot" must meet the [#Lot](#lot-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Lot columns](#lot-columns) requirements)_.
+4. (+2) The current list of options must be completely replaced by the list from the `.json` file you uploaded _(your app must be able to read and correctly parse the file created by your `save list button` click)_.
+5. (+2) The order of options in the app must match the order of options in the file. The `id` of options must be newly generated.
+6. (+2) Each "loaded option" must meet the [#Option](#option-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Option columns](#option-columns) requirements)_.
 
 ##### Start
 
-1. (+1) Displays a `start button` next to the list of lots for displaying the `WoF` generated by the data from the list of current lots. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "start", "play", "open wheel of fortune", etc.)_.
-2. (+4) The `start button` click must open `WoF` modal window.
-3. (+4) The list of current lots passed to the modal window must be filtered and contain only valid lots. A lot is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`.
+1. (+1) Displays a `start button` next to the list of options for displaying the `Decision Picker` generated by the data from the list of current options. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "start", "pick decision", "open decision picker", etc.)_.
+2. (+4) The `start button` click must open `Decision Picker` modal window.
+3. (+4) The list of current options passed to the modal window must be filtered and contain only valid options. An option is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`.
 
-### WoF Modal (164 points)
+### Decision Picker (164 points)
 
-> Great place to get familiar with the `<dialog>` element, but the old-fashioned `div.modal>div.modal-content` pattern is ok too.
+> Great place to get familiar with the `<dialog>` element, but the old-fashioned `div.modal>div.modal-content` pattern is ok too as long as it meets the requirements
 >
 > Briefly, the states mentioned below are:
 >
-> 1. Modal window `WoF` opened - the wheel is in the `initial state`.
-> 2. A successful start of rotation has been initiated - the wheel is in the `rotation state`.
-> 3. The rotation has finished and the winning lot has been determined - the wheel is in the `winning state`.
+> 1. `Decision Picker` modal window opened - the decision picker is in the `initial state`.
+> 2. A successful start of picking process has been initiated - the decision picker is in the `picking state`.
+> 3. The picking process has finished and the picked option has been determined - the decision picker is in the `picked state`.
 >
-> After that `rotation state` and `winning state` cyclically change each other according to points 2 and 3.
+> After that `picking state` and `picked state` cyclically change each other according to points 2 and 3.
 >
-> If the modal window `WoF` was closed and reopened, the life cycle starts again with `initial state`.
+> If the `Decision Picker` modal window was closed and reopened, the life cycle starts again with `initial state`.
 
 #### General (6/164)
 
-1. (+2) Displays the `WoF` modal window if the number of valid lots is two or more.
-2. (+2) Displays a modal window asking to add at least 2 valid lots if the number of valid lots is less than two.
+1. (+2) Displays the `Decision Picker` modal window if the number of valid options is two or more.
+2. (+2) Displays a modal window asking to add at least 2 valid options if the number of valid options is less than two.
 3. (+2) An opened modal window must block the page scrolling until the modal window is closed.
 
 #### Wheel (75/164)
@@ -269,98 +270,98 @@ The second part of the application allows you to see the previously created list
 
 ##### General
 
-1. (+1) Displays the `wheel` element in the `WoF` modal window.
+1. (+1) Displays the `wheel` element in the `Decision Picker` modal window.
 
-##### Lot slice
+##### Option section
 
-1. (+2) The `wheel` element must display lots as slices of a circle.
-2. (+4) The order of `lot slices` on the `wheel` element must be randomized when the modal window is opened and not change until it is closed.
-3. (+4) The fill color of each `lot slice` must be randomly generated when the modal window is opened and not change until it is closed.
-4. (+8) The width (angle) of each `lot slice` must depend on the `weight` field of the lot. _The main idea of this feature is that by setting the values of lot weight we can adjust the chance of winning a particular lot. That is, the higher the weight of a particular lot, the wider its slice, and therefore the higher the chance of winning it._
-5. (+2) Each `lot-slice` must have a visual boundary to distinguish it from other elements (e.g., adjacent slices, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+1. (+2) The `wheel` element must display options as sections of a circle.
+2. (+4) The order of `option sections` on the `wheel` element must be randomized when the modal window is opened and not change until it is closed.
+3. (+4) The fill color of each `option section` must be randomly generated when the modal window is opened and not change until it is closed.
+4. (+8) The width (angle) of each `option section` must depend on the `weight` field of the option. _The main idea of this feature is that by setting the weight value of the option we can adjust the chance of that particular option being picked. That is, the higher the weight of the option, the wider its section, and therefore the higher the chance of being picked._
+5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
 
-##### Lot slice title
+##### Option section title
 
-1. (+2) Each `lot slice` must display the `title` value of the lot as text (except in the case described in the next bullet point). The text should be placed on the slice from the center of the wheel to the edge (or from the edge to the center).
-2. (+4) Each `lot slice title` must not violate the boundaries of its slice. If the width (angle) of the slice is not wide enough to display the text, the text must not be displayed.
-3. (+4) Each `lot slice title` must not violate the boundaries of wheel. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
-4. (+2) Each displayed `lot slice title` must have a visual boundary to distinguish it from the randomized `lot slice` fill color. _(Additional stroke, shadow, fill can be useful here.)_
+1. (+2) Each `option section` must display the `title` value of the option as text (except in the case described in the next bullet point). The text should be placed in the section from the center of the wheel to the edge (or from the edge to the center).
+2. (+4) Each `option section title` must not violate the boundaries of its section. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
+3. (+4) Each `option section title` must not violate the boundaries of wheel. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
+4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_
 
 ##### Center element
 
-1. (+2) In the center of the `wheel`, there must be a decorative element to hide the point of contact between all the wheel slices _(e.g., a small circle, star, image, etc.)_.
-2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent slices), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+1. (+2) In the center of the `wheel`, there must be a decorative element to hide the point of contact between all the option sections _(e.g., a small circle, star, image, etc.)_.
+2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
 
 ##### Cursor
 
-1. (+4) The `wheel` element must display a `cursor` that points to the current lot. It can be designed in the form of a triangle, arrow or any similar figure with a clearly defined pointer.
+1. (+4) The `wheel` element must display a `cursor` that points to the current option. It can be designed in the form of a triangle, arrow or any similar figure with a clearly defined pointer.
 2. (+2) The `cursor` must be placed at any position on the edge of the `wheel` and not overlapped by other elements.
-3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent slices, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
 
-##### Wheel rotating
+##### Decision Picking
 
-1. (+2) When wheel rotation is initiated, the wheel must start rotating and stop after a short duration.
+1. (+2) When decision picking is initiated, the wheel must start rotating and stop after a short duration.
 2. (+4) The rotation duration must be specified by the `duration` element. That is, it should correspond to its value (in seconds) at the moment of rotation start. _Be loyal when crosschecking. A small inaccuracy is acceptable. There is no need to reduce points for a difference of a couple of seconds._
 3. (+4) The rotation should have a non-linear velocity. Use a suitable easing _(e.g. `ease-in-out` or `ease-in-out-back' with a tiny magnitude)_.
-4. (+4) The wheel must perform several full spins (minimum 5) and stop at a randomly selected lot.
-5. (+2) A `winning sound` must be played when `wheel rotation state` is changed to `wheel winning state` if the app sound is not muted.
-6. (+2) A `winning sound` must not be played if the app sound is muted.
-7. (+4) In the wheel rotation state, `lot slices` must not change their order, shape, color. _It means that visually the `lot slices` shall rotate as an indivisible whole wheel._
-8. (+4) In the wheel rotation state, the `lot slice title` shall not change its location relative to the boundaries of its `lot slice`. _It means that visually `lot slice title` and `lot slice` should rotate as an indivisible element._
-9. (+2) In the wheel rotation state, the `cursor` must stay in its place and not rotate.
+4. (+4) The wheel must perform several full turns (minimum 5) and stop at a randomly picked option.
+5. (+2) A `finish sound` must be played when `picking state` is changed to `picked state` if the app sound is not muted.
+6. (+2) A `finish sound` must not be played if the app sound is muted.
+7. (+4) In the `picking state`, `option sections` must not change their order, shape, color. _It means that visually the `option sections` shall rotate as an indivisible whole wheel._
+8. (+4) In the `picking state`, each `option section title` shall not change its location relative to the boundaries of its `option section`. _It means that visually `option section title` and `option section` should rotate as an indivisible element._
+9. (+2) In the `picking state`, the `cursor` must stay in its place and not rotate.
 
-#### Selected lot (13/164)
+#### Picked option (13/164)
 
-1. (+1) Displays a `selected lot` element within the `WoF` modal window.
-2. (+2) In the wheel initial state, `selected lot` must display the `title` of the lot currently pointed to by the wheel `cursor`.
-3. (+4) In the wheel rotation state, `selected lot` must **dynamically** display the `title` of the lot currently pointed to by the wheel cursor.
-4. (+2) In the wheel winning state, `selected lot` must display the `title` of the lot currently pointed to by the wheel cursor.
-5. (+2) In the initial and rotation states, the `selected lot` must not be highlighted.
-6. (+2) In the winning state, the `selected lot` must be highlighted.
+1. (+1) Displays a `picked option` element within the `Decision Picker` modal window.
+2. (+2) In the `initial state`, `picked option` must display the `title` of the option currently pointed to by the wheel `cursor`.
+3. (+4) In the `picking state`, `picked option` must **dynamically** display the `title` of the option currently pointed to by the wheel cursor.
+4. (+2) In the `picked state`, `picked option` must display the `title` of the option currently pointed to by the wheel cursor.
+5. (+2) In the `initial and picking states`, the `picked option` must not be highlighted.
+6. (+2) In the `picked state`, the `picked option` must be highlighted.
 
 #### Interactions (72/164)
 
 ##### Closing modal
 
-1. (+1) Displays a `close button` in the upper right corner of modal window for returning to the [list of lots](#list-of-lots-92-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "⨉", "x", etc.)_.
-2. (+4) The `close button` click must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
-3. (+4) The `Escape key press` must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
-4. (+4) The `outside click` must close `WoF` modal window and return the user to the [list of lots](#list-of-lots-92-points).
-5. (+4) Closing `WoF` modal window must remove it from DOM.
-6. (+2) In the wheel rotation state, `close button` must be temporarily visually disabled or hidden and must not be functioning.
-7. (+2) In the wheel rotation state, the `Escape key press` functionality must be temporarily disabled.
-8. (+2) In the wheel rotation state, the `outside click` functionality must be temporarily disabled.
-9. (+2) In the initial and winning states `close button` returns to its original state and functions as it should.
-10. (+2) In the initial and winning states `Escape key press` functions as it should.
-11. (+2) In the initial and winning states `outside click` functions as it should.
+1. (+1) Displays a `close button` in the upper right corner of modal window for returning to the [list of options](#list-of-options-92-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "⨉", "x", etc.)_.
+2. (+4) The `close button` click must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
+3. (+4) The `Escape key press` must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
+4. (+4) The `outside click` must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
+5. (+4) Closing `Decision Picker` modal window must remove it from DOM.
+6. (+2) In the `picking state`, `close button` must be temporarily visually disabled or hidden and must not be functioning.
+7. (+2) In the `picking state`, the `Escape key press` functionality must be temporarily disabled.
+8. (+2) In the `picking state`, the `outside click` functionality must be temporarily disabled.
+9. (+2) In the `initial and picked states` `close button` returns to its original state and functions as it should.
+10. (+2) In the `initial and picked states` `Escape key press` functions as it should.
+11. (+2) In the `initial and picked states` `outside click` functions as it should.
 
 ##### Duration
 
-1. (+1) Displays a `duration` `<input>` element within the `WoF` modal window for setting the rotation duration in seconds. The appearance of this input should clearly indicate its purpose _(contain appropriate label and/or placeholder. e.g., "duration", "time", "seconds", etc.)_
+1. (+1) Displays a `duration` `<input>` element within the `Decision Picker` modal window for setting the rotation duration in seconds. The appearance of this input should clearly indicate its purpose _(contain appropriate label and/or placeholder. e.g., "duration", "time", "seconds", etc.)_
 2. (+2) `duration` element must be able to be edited by the user.
 3. (+2) `duration` element must take only numbers.
 4. (+2) `duration` element must have a default value, which should be between 5 and 30 seconds.
-5. (+4) In the wheel rotation state, `duration` element must be temporarily visually disabled and must not be functioning.
-6. (+4) In the initial and winning states `duration` element returns to its original state and functions as it should.
+5. (+4) In the `picking state`, `duration` element must be temporarily visually disabled and must not be functioning.
+6. (+4) In the `initial and picked states` `duration` element returns to its original state and functions as it should.
 
-##### Spin
+##### Pick
 
-1. (+1) Displays a `spin button` within the `WoF` modal window for start rotation of the wheel. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "spin", "play", etc.)_.
-2. (+4) The `spin button` click must attempt to initiate rotation of the wheel.
-   - If the `duration` input value is greater than five seconds inclusive, the wheel should successfully initiate rotation.
+1. (+1) Displays a `pick button` within the `Decision Picker` modal window for start picking process. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "pick", "start", etc.)_.
+2. (+4) The `pick button` click must attempt to initiate picking process.
+   - If the `duration` input value is greater than five seconds inclusive, the `Decision Picker` should successfully initiate picking process.
    - Otherwise, the user should be notified of incorrect input _(the default form validation is enough, but you can implement a custom one if you want)_.
-3. (+4) In the wheel rotation state, `spin button` must be temporarily visually disabled and must not be functioning.
-4. (+4) In the initial and winning states `spin button` returns to its original state and functions as it should.
+3. (+4) In the `picking state`, `pick button` must be temporarily visually disabled and must not be functioning.
+4. (+4) In the `initial and picked states` `pick button` returns to its original state and functions as it should.
 
 ##### Sound
 
 > Keeping or not keeping mute state between sessions is at your choice and is not evaluated on crosscheck.
 
-1. (+1) Displays a `sound button` within the `WoF` modal window for toggling sound on/off. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "sound: on", "sound: off", "🔊", "🔇", etc.)_.
+1. (+1) Displays a `sound button` within the `Decision Picker` modal window for toggling sound on/off. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "sound: on", "sound: off", "🔊", "🔇", etc.)_.
 2. (+4) The `sound button` click must toggle sound on/off.
 3. (+2) The `sound button` appearance must correspond to the current mute state (dynamically). _This means that if the sound is muted, the button shows that it is muted and vice versa._
-4. (+4) In the wheel rotation state, `sound button` must be temporarily visually disabled or hidden and must not be functioning.
-5. (+4) In the initial and winning states `sound button` returns to its original state and functions as it should.
+4. (+4) In the `picking state`, `sound button` must be temporarily visually disabled or hidden and must not be functioning.
+5. (+4) In the `initial and picked states` `sound button` returns to its original state and functions as it should.
 
 ## Crosscheck Evaluation
 
