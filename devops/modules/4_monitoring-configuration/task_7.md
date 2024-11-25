@@ -7,31 +7,39 @@ In this task, you will install Prometheus on your Kubernetes (K8s) cluster using
 ## Steps
 
 1. **Install Prometheus**
-
    - Follow the instructions to install Prometheus using the Helm chart by Bitnami. Refer to the [Prometheus documentation](https://prometheus.io/docs/introduction/overview/) for more details.
-   - Ensure Prometheus is not exposed outside (i.e., it cannot be accessed directly from the internet).
-
-2. **Verify Metrics Collection**
-   - Ensure Prometheus is collecting essential cluster-specific metrics, such as nodes' CPU and memory usage.
-   - Check the collected metrics via Prometheus web interface using `kubectl proxy` or `port-forward`.
+2. **Install Exporters**
+   - Install necessary exporters to collect metrics from Kubernetes components.
+3. **Configure Prometheus**
+   - Configure Prometheus to get metrics from Kubernetes components.
+4. **Verify Metrics Collection**
+   - Ensure Prometheus is collecting essential cluster-specific metrics, such as nodes' memory usage.
+   - Check the collected metrics via Prometheus web interface.
 
 ## Submission
 
-- Provide a PR with the Helm chart and configuration files for Prometheus deployment in a new repository.
-- Ensure that Prometheus is installed and collecting cluster-specific metrics.
-- Provide a README file documenting the Prometheus setup, including the custom dashboard.
+- Provide a PR with automation of a Prometheus deployment in Kubernetes with IaC or CI/CD pipeline.
+- Provide an output of `kubectl get pods` with running Prometheus.
+- Include a screenshot of any metrics (e.g. node disk space usage) shown in the Prometheus web UI.
+- Provide a README file documenting the Prometheus deployment and configuration.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
-1. **Prometheus Installation (50 points)**
+1. **Prometheus Installation (20 points)**
+   - Prometheus is installed and running on the K8s cluster.
+2. **Deployment Automation (30 points)**
+   - Automation of deployment with IaC or CI/CD pipeline is created.
+3. **Web interface is available (10 points)**
+   - Metrics can be checked via Prometheus web interface.
+4. **Metrics Collection (35 points)**
+   - Prometheus is collecting essential cluster-specific metrics, such as nodes' memory usage.
+5. **Documentation is created (5 points)**
+   - A README file is created or updated documenting the Prometheus deployment and configuration.
 
-   - Prometheus is installed on the K8s cluster using the Helm chart by Bitnami.
-   - Prometheus is not exposed outside (i.e., it cannot be accessed directly from the internet).
+## References
 
-2. **Metrics Collection (40 points)**
-
-   - Prometheus is collecting essential cluster-specific metrics, such as nodes' CPU and memory usage.
-   - Metrics can be checked via Prometheus web interface using `kubectl proxy` or `port-forward`.
-
-3. **Repository Submission (10 points)**
-   - A repository is created with the Helm chart and configuration files for Prometheus deployment.
+- [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
+- [Helm Chart for Prometheus](https://github.com/bitnami/charts/tree/main/bitnami/prometheus)
+- [Bitnami Prometheus Helm Chart README](https://github.com/bitnami/charts/blob/main/bitnami/prometheus/README.md)
+- [Kube state metrics](https://github.com/kubernetes/kube-state-metrics)
+- [Prometheus Node Exporter](https://github.com/prometheus/node_exporter)
