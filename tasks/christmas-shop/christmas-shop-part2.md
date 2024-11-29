@@ -34,6 +34,8 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 The goal of cross-check is to provide adequate feedback and help people learn. Points should not be deducted for minor deviations in non-essential elements (e.g., background images, icons, or slight visual shifts) unless they disrupt the layout, obscure content, or cause usability issues. Any disputed issues should be resolved in favor of the student being assessed.  
 
+Instructions for conducting a cross-check: <https://docs.rs.school/#/cross-check-flow>
+
 1. The layout of the pages aligns the design at a screen width of 1440px: **+16**
    - `<header>` on each page: **+2**
    - `Hero` section on `Home` page: **+2**
@@ -116,7 +118,3 @@ Penalties for the task are assigned by the course curators, not by students. An 
 - Aim to submit early once the submission option becomes available in the RS App. You are free to make additional changes up until the deadline.
 - Given that the project is contained within a private repository, there's no need to share repository or pull request links as reviewers will not have access to them. Private repositories are visible only to you, the course administrators, and any assigned mentors.
 - Verify that the deployed website link is functional, especially when accessed in the browser's incognito mode.
-
-## Task Evaluation
-
-- Follow the instructions for conducting a cross-check available at: <https://docs.rs.school/#/cross-check-flow>
