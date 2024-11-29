@@ -1,6 +1,6 @@
 # Christmas Shop. Part-1 - Fixed Layout
 
-[Main Christmas Shop task](christmas-shop.md)
+[← Main Christmas Shop task](christmas-shop.md)
   
 ## Current task description
 

@@ -1,8 +1,8 @@
-## Christmas Shop. Part-2 - Responsive Design
+# Christmas Shop. Part-2 - Responsive Design
 
-### Main Task Description and Requirements
+[← Main Christmas Shop task](christmas-shop.md)
 
-- [Detailed Description](christmas-shop.md)
+## Current task description
 
 In this part of the task, we will adapt the previously created pages (**Home** and **Gifts**) for tablets and mobile devices.  
 The goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) at screen resolutions of 1440px, 768px, and 380px.  
@@ -17,23 +17,22 @@ For all other resolutions up to 380px, ensure:
 
 To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
-## Workflow
-
 1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
 2. Create a new branch named `christmas-shop-part2` from the `christmas-shop` branch. You will find the `christmas-shop` folder containing the project files completed in the previous stage within this branch.
-3. Continue working on the task within the branch you have created.
-4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
-5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
-6. Create a Pull Request from the `christmas-shop-part2` branch to the `christmas-shop` branch, resolve any conflicts that arise, and then merge the Pull Request.  
+3. Complete the task in the `christmas-shop-part2` branch.
+4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria-100-points) and [Specifics of Verifying Layout](#specifics-of-verifying-layout).
+5. Create a Pull Request from the `christmas-shop-part2` branch to the `christmas-shop` branch, resolve any conflicts that arise, and then merge the Pull Request.  
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, you can create and merge a Pull Request from the `christmas-shop` branch to the `gh-pages` branch.  
+6. After completing the cross-check for the previous part of the task, update your project's deployment. For example, you can create and merge a Pull Request from the `christmas-shop` branch to the `gh-pages` branch.  
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-8. Once you have completed your work, update the Pull Request from the `christmas-shop` branch to the `main` branch to include the newly added functionality from the second part of the task.  
+7. Once you have completed your work, update the Pull Request from the `christmas-shop` branch to the `main` branch to include the newly added functionality from the second part of the task.  
    It is not required to merge this Pull Request.
-9. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
-10. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
+8. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
+9. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
 
-### CrossCheck Criteria (100 points)
+## CrossCheck Criteria (100 points)
+
+The goal of cross-check is to provide adequate feedback and help people learn. Points should not be deducted for minor deviations in non-essential elements (e.g., background images, icons, or slight visual shifts) unless they disrupt the layout, obscure content, or cause usability issues. Any disputed issues should be resolved in favor of the student being assessed.  
 
 1. The layout of the pages aligns the design at a screen width of 1440px: **+16**
    - `<header>` on each page: **+2**
@@ -73,7 +72,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 6. At screen widths of 768px, the menu and navigation links in `<header>` are concealed on both pages, and a burger menu icon is displayed: **+4**  
    (Note: Activation of the burger menu icon is not evaluated at this stage.)
 7. Hover effects are active on desktop devices (as per the `Desktop` device type in DevTools) and are disabled for mobile devices (as per the `Mobile` device type in DevTools) on both pages: **+4**
-8. The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12**
+8. The layout for both pages is validated and error-free according to the W3C Validator (<https://validator.w3.org/>): **+12**
 
 ### Penalties
 
@@ -81,14 +80,6 @@ Penalties for the task are assigned by the course curators, not by students. An 
 
 1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
 2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
-
-## Criteria for Evaluation
-
-**Maximum score for the task: 100 points**
-
-The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.
-
-Any disputed issues should be resolved in favor of the student being assessed.
 
 ## DevTools Responsiveness Check Details
 
@@ -118,7 +109,7 @@ Any disputed issues should be resolved in favor of the student being assessed.
 ## How to Submit
 
 - **Christmas Shop. Part-2 - Responsive Design** task is evaluated through a cross-check process.
-- Upon receipt of the task and prior to the submission deadline, proceed to the RS App at https://app.rs.school/. Navigate to **Cross-Check: Submit**, select the appropriate task from the dropdown list, and enter the URL of your deployed website into the **Solution URL** field. Then click the **Submit** button.
+- Upon receipt of the task and prior to the submission deadline, proceed to the RS App at <https://app.rs.school/>. Navigate to **Cross-Check: Submit**, select the appropriate task from the dropdown list, and enter the URL of your deployed website into the **Solution URL** field. Then click the **Submit** button.
 
 ## Submit Recommendations
 
@@ -128,4 +119,4 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://docs.rs.school/#/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: <https://docs.rs.school/#/cross-check-flow>
