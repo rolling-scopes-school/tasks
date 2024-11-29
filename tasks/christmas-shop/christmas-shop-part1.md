@@ -1,29 +1,30 @@
-## Christmas Shop. Part-1 - Fixed Layout
+# Christmas Shop. Part-1 - Fixed Layout
 
-### Main Task Description and Requirements
+[Main Christmas Shop task](christmas-shop.md)
+  
+## Current task description
 
-- [Detailed Description](christmas-shop.md)
-
-You need to create `Home` and `Gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.
+Create `Home` and `Gifts` pages according to the [Design in Figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop) - only **Home / w1440** and **Gifts / w1440**.
 The content width of 1440px should not change when resizing the browser window.
-
-## Workflow
 
 1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 2. Create a new branch named `christmas-shop` from `main` branch. Create a folder `christmas-shop` in the created branch. Place your code in this folder.
 3. Complete the task.
-4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
-5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
-6. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `christmas-shop` branch into `gh-pages` branch. The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. Once you have completed your work, open a Pull Request from the `christmas-shop` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria-110-points) and [Specifics of Verifying Layout](#specifics-of-verifying-layout).
+5. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `christmas-shop` branch into `gh-pages` branch. The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
+6. Once you have completed your work, open a Pull Request from the `christmas-shop` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
    There is no need to merge this Pull Request.
-8. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
-9. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
+7. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
+8. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
 
 ### CrossCheck Criteria (110 points)
 
+The goal of cross-check is to provide adequate feedback and help people learn. Points should not be deducted for minor deviations in non-essential elements (e.g., background images, icons, or slight visual shifts) unless they disrupt the layout, obscure content, or cause usability issues. Any disputed issues should be resolved in favor of the student being assessed.  
+
+Instructions for conducting a cross-check: <https://docs.rs.school/#/cross-check-flow>
+
 1. Checking validation of pages: **+18**
-   - The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12** (6 points per page)
+   - The layout for both pages is validated and error-free according to the W3C Validator (<https://validator.w3.org/>): **+12** (6 points per page)
      - Valid markup of checked page corresponds to the message _"Document checking completed. No errors or warnings to show."_ In this case, we assign the full points for the checked page (+6).
      - If there are `warnings` but no `errors`, we assign half of the points (+3) for the checked page
    - Favicon is added to each page: **+2**
@@ -65,14 +66,6 @@ Penalties for the task are assigned by the course curators, not by students. An 
 1. The layout of the entire design or individual blocks is implemented using images, except in cases where the image is specifically required by the design.
 2. The use of frameworks, libraries, and technologies that are prohibited in the [Technical Requirements](./christmas-shop.md#technical-requirements).
 
-## Criteria for Evaluation
-
-**Maximum score for the task: 110 points**
-
-The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.
-
-Any disputed issues should be resolved in favor of the student being assessed.
-
 ## Specifics of Verifying Layout
 
 - A deviation of up to 10px horizontally and vertically from the layout is permissible as long as visual congruity between the design and the markup is preserved.
@@ -87,14 +80,10 @@ Any disputed issues should be resolved in favor of the student being assessed.
 ## How to Submit
 
 - **Christmas Shop. Part-1 - Fixed Layout** task is evaluated through a cross-check process.
-- Upon receipt of the task and prior to the submission deadline, proceed to the RS App at https://app.rs.school/. Navigate to **Cross-Check: Submit**, select the appropriate task from the dropdown list, and enter the URL of your deployed website into the **Solution URL** field. Then click the **Submit** button.
+- Upon receipt of the task and prior to the submission deadline, proceed to the RS App at <https://app.rs.school/>. Navigate to **Cross-Check: Submit**, select the appropriate task from the dropdown list, and enter the URL of your deployed website into the **Solution URL** field. Then click the **Submit** button.
 
 ## Submit Recommendations
 
 - Aim to submit early once the submission option becomes available in the RS App. You are free to make additional changes up until the deadline.
 - Given that the project is contained within a private repository, there's no need to share repository or pull request links as reviewers will not have access to them. Private repositories are visible only to you, the course administrators, and any assigned mentors.
 - Verify that the deployed website link is functional, especially when accessed in the browser's incognito mode.
-
-## Task Evaluation
-
-- Follow the instructions for conducting a cross-check available at: https://docs.rs.school/#/cross-check-flow
