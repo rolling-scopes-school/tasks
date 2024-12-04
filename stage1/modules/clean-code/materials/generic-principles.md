@@ -4,9 +4,9 @@
 
 - [Why?](#Why)
 - [Common approaches](#Common-approaches)
-  - [1. DRY — _Don't Repeat Yourself_](#1-dry--_dont-repeat-yourself_)
-  - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--_keep-it-short-simple--keep-it-simple-stupid_)
-  - [3. YAGNI — _You ain't gonna need it_](#3-yagni--_you-aint-gonna-need-it_)
+  - [1. DRY — _Don't Repeat Yourself_](#1-dry--dont-repeat-yourself)
+  - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--keep-it-short-simple--keep-it-simple-stupid)
+  - [3. YAGNI — _You ain't gonna need it_](#3-yagni--you-aint-gonna-need-it)
   - [4. Comments](#4-comments)
     - [4.1 TODOs](#41-todos)
   - [5. Trailing whitespaces\_](#5-trailing-whitespaces)
