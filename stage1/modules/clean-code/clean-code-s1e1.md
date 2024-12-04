@@ -13,7 +13,7 @@ No automatic code formatting tools are expected to be used at this task.
 
 ## Implementation Requirements
 
-**Warning!** Student can give 0 points if at least one of the following requirements is not met:
+**Warning!** A reviewer can give 0 points if at least one of the following requirements is not met:
 
 1. Use a personal **public** repository on GitHub to complete the task. Make a fork of the existing project or create a new one named `clean-code-s1e1` and copy the task project files (in this case the commit message for adding the files must start with `"init:"`).
 2. One commit must contain changes related to a single point of the guidelines, the commit message must reflect all the changes made in the commit. Intersection of two or more rules in a single commit is acceptable only if compliance of one rule automatically leads to compliance of another one and it is impossible to separate them (all the rules must be listed in a commit message in this case).
