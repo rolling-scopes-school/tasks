@@ -91,8 +91,8 @@ Long story short, all changes in a commit should be described by one sentence wi
 - Screenshot of the result of the task (page of the created application or website). Add the screenshot to the Pull Request as an image.
 - A link to the deployed version of your application or website. You can use the following ways for the deployment:
   - `gh-pages` if there is a private repository of the school;
-  - if there is no private repository of the school or if it is impossible to deploy the application on gh-pages of the school's private repository - [Netlify](netlify.com) or another similar hosting.
-  - for demos hosted on [Netlify](netlify.com), the site name must be given as: `github account name - task name`.
+  - if there is no private repository of the school or if it is impossible to deploy the application on gh-pages of the school's private repository - [Netlify](https://www.netlify.com/) or another similar hosting.
+  - for demos hosted on Netlify, the site name must be given as: `github account name - task name`.
 - Due Date / Deadline Date.
 - Your self-assessment with a preliminary grade.
 - It is recommended to add a link to a self-check video of the project you created.
