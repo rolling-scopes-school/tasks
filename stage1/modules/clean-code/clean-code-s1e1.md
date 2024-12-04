@@ -23,7 +23,7 @@ No automatic code formatting tools are expected to be used at this task.
 6. [The original application functionality](#application-functionality) must remain the same after all your changes or be fixed if necessary.
 7. Once the task is completed, create a Pull Request from the branch `clean-code-s1e1` into `main` of your personal **public** repository.
 
-    **Warning!**: if you have forked the project, the default branch to create a PR will be `main` of the task description repository. You MUST change the repository and open a PR into the `main` branch of **YOUR** repository.
+   **Warning!**: if you have forked the project, the default branch to create a PR will be `main` of the task description repository. You MUST change the repository and open a PR into the `main` branch of **YOUR** repository.
 
 8. A Pull Request must be described according to [the following rules](https://docs.rs.school/#/pull-request-review-process?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-pull-request-pr).
 9. `main` branch must not be modified.

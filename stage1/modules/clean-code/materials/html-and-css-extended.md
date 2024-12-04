@@ -19,7 +19,7 @@ You should also use such elements as `<aside>`, `<section>`, `<article>`.
   if the page is opened in the mode for people who can't see well, a special robot will read each element so the user can recognize the page content. This robot relies on the fair use of semantic tags. Otherwise, the reader will not be able to navigate through your site.<br>
   Read more: [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 - Search engines Google, Yandex, Bing use semantic tags as keywords with which they better recognize the internal content of a page, and therefore rank such pages higher in search results. The higher your page ranks in a search query, the more users will visit it.<br>
-[More on SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
+  [More on SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
 
 ```html
 <!-- Not recommended -->
