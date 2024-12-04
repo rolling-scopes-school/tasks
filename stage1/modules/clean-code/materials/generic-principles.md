@@ -15,7 +15,7 @@
 
 ## Why?
 
-Easily maintainable readable code is what any experienced developer wants. This is code that is easy to read in two months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
+Easily maintainable and readable code is what any experienced developer wants. This is code that is easy to read in two months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
 
 In the same way, you will be much more comfortable to understand someone else's code if it is written as clearly as possible and conforms to a common stylistic standard accepted in the team.
 
@@ -25,7 +25,7 @@ Very briefly: directly.
 
 A bit longer:
 
-As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritation when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
+As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritated when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
 
 One more reason - a single standard saves time on writing code. You don't spend a minute thinking about which case to use to name a variable and which writing style to choose, but write according to the accepted style.
 
@@ -212,7 +212,7 @@ An example of violating this principle is writing a separate function just to pe
 
 It may be more efficient for some program compilers than the usual `/ 2` division, but the code's clarity is very much reduced.
 
-> Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://thefullsnack.com/en/bitwise-javascript-fast.html).
+> Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://pimylifeup.com/javascript-bitwise-operators/).
 
 By accepting this approach, you are doing clever coding and over-optimization. Both of them will make your code less and less clear in the long run, both to other developers and to yourself. Remember that you may have to deal with this code again in a month, two, or a year.
 

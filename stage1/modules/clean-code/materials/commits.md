@@ -4,11 +4,11 @@
 
 ## Commits content requirements
 
-Each commit should have
+Each commit should contain one of the following:
 
-- either completed functionality / documentation
-- either completed fix of a defect in code
-- either completed code refactoring
+- completed functionality/documentation
+- completed fix of a defect in code
+- completed code refactoring
 
 Long story short, all changes in a commit should be described by one sentence with a single predicate.
 
@@ -17,15 +17,15 @@ Long story short, all changes in a commit should be described by one sentence wi
 - When a mentor is reviewing your Pull Request, it will be easier for them to look through the list of commits and check the logic in each commit separately than review the code of the whole application.
 - If the logic of one commit is wrong, you will be able to `revert` it without interfering with other functionality.
 
-## Commits name requirements
+## Commit message requirements
 
-- Commits' name must follow [the guideline](https://www.conventionalcommits.org/en/v1.0.0/)
+- Commit message must follow [the guideline](https://www.conventionalcommits.org/en/v1.0.0/)
 - Present tense must be used (e.g. `"add feature"`, not `"added feature"`)
 - Imperative mood must be used (e.g. `"move cursor to ..."`, not `"moves cursor to ..."`)
 
-### Examples of commits' names
+### Examples of commit messages
 
-- `init`: - is used for the beginning of a project or a task.
+- `init`: is used for the beginning of a project or a task.
 
   **Examples:**
 
@@ -34,7 +34,7 @@ Long story short, all changes in a commit should be described by one sentence wi
   init: start mentor-dashboard task
   ```
 
-- `feat`: – is used for adding a new feature (added zoom, added footer, updated product card etc.)
+- `feat`: is used when adding a new feature (added zoom, added footer, updated product card etc.)
 
   **Examples:**
 
@@ -50,7 +50,7 @@ Long story short, all changes in a commit should be described by one sentence wi
   feat: add real social icons
   ```
 
-- `fix`: – is used for fixing some bugs.
+- `fix`: is used for fixing some bugs.
 
   **Examples:**
 
@@ -61,7 +61,7 @@ Long story short, all changes in a commit should be described by one sentence wi
   fix: adjust social links for mobile
   ```
 
-- `refactor`: – code refactoring: application functionality wasn't changed, files were moved/created/deleted, code formatting changed, algorithms improved, but functional part is the same.
+- `refactor`: is used for code refactoring: the files were moved/created/deleted, code formatting changed, algorithms improved, but the functionality remains the same.
 
   **Examples:**
 
@@ -72,7 +72,7 @@ Long story short, all changes in a commit should be described by one sentence wi
   refactor: apply prettier
   ```
 
-- `docs`: – is used for docs/README updates.
+- `docs`: is used for docs/README updates.
 
   **Examples:**
 
@@ -83,7 +83,7 @@ Long story short, all changes in a commit should be described by one sentence wi
 
 ## PR Requirements
 
-**Pull Request** is a place to discuss code. It should not look like a student or mentor monologue. Be cultural, respect each other's time and work.
+**Pull Request** is a place to discuss code. It should not look like a student or mentor monologue. Be polite, respect each other's time and work.
 
 ### The Pull Request description should contain the following information:
 
@@ -91,15 +91,15 @@ Long story short, all changes in a commit should be described by one sentence wi
 - Screenshot of the result of the task (page of the created application or website). Add the screenshot to the Pull Request as an image.
 - A link to the deployed version of your application or website. You can use the following ways for the deployment:
   - `gh-pages` if there is a private repository of the school;
-  - if there is no private repository of the school or if it is impossible to place the application on gh-pages of the school's private repository - netlify.com or other similar hosting.
-  - for demos hosted on [netlify.com](netlify.com), the site name is given as: `github account name - task name`.
+  - if there is no private repository of the school or if it is impossible to deploy the application on gh-pages of the school's private repository - [Netlify](netlify.com) or another similar hosting.
+  - for demos hosted on [Netlify](netlify.com), the site name must be given as: `github account name - task name`.
 - Due Date / Deadline Date.
 - Your self-assessment with a preliminary grade.
-- It is recommended to add a link to a YouTube video of a self-check of the project you created (only for tasks that are cross-checked).
+- It is recommended to add a link to a self-check video of the project you created.
 
 #### PR Example:
 
-```markdown
+```md
 1. Task: [https://github.com/rolling-scopes-school/tasks/blob/master/tasks/fancy-weather.md]()
 2. Screenshot: ![](https://docs.rs.school/images/fancy-weather.png)
 3. Deploy: [https://chakapega-fancy-weather.netlify.com/]()
@@ -122,5 +122,5 @@ Long story short, all changes in a commit should be described by one sentence wi
 
 ### PR should not contain:
 
-- Commented code.
-- Some extra files, autogenerated code, node_modules folder etc. Use `.gitignore` for such cases. [More](https://git-scm.com/docs/gitignore)
+- Commented out code.
+- Any extra files, autogenerated code, node_modules folder etc. Use `.gitignore` for such cases. [More](https://git-scm.com/docs/gitignore)
