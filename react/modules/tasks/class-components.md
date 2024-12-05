@@ -113,11 +113,54 @@
 5. When the user modifies the _Search_ input and clicks the "Search" button, the application makes a call to the API with the newly provided search term (the search term should not have any trailing spaces; process the input) to get the results (only the first page).
 6. The provided search term should be saved to the LS. If the value exists, overwrite it.
 7. If your application makes a request to the server API, this should be visible to the user. Implement a Spinner, Skeleton, Loading Bar, Blurring Content, or any other appropriate method in your UI to indicate this.
-8. Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI (use respective methods for this). Create a button that will throw an error on click to test the functionality.
+8. If the request didn't succeed (status code **4xx** or **5xx**), show the menanigfull message. You can use [ModResponse](https://chromewebstore.google.com/detail/modresponse-mock-and-repl/bbjcdpjihbfmkgikdkplcalfebgcjjpm) or similar, to test this functionality.
+9. Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI (use respective methods for this). Create a button that will throw an error on click to test the functionality.
 
 **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
 
 All logical parts should be set into separate components.
+
+## Template
+This template represents the possible layout for your app, but you can create your app based on your own preferencies.
+Successfull response.
+```
++-------------------------------------------------------+
+|                                                       |
+|  +------------------ Top controls ------------------+ |
+|  | +--------------------------+ +-----------------+ | |
+|  | | [Search Input Field]     | | [Search Button] | | |
+|  | +--------------------------+ +-----------------+ | |
+|  +--------------------------------------------------+ |
+|                                                       |
+|  +-------------------- Results ---------------------+ |
+|  | +----------------------------------------------+ | |
+|  | | Item Name  | Item Description                | | |
+|  | +----------------------------------------------+ | |
+|  | | [Item 1]   | [Description 1]                 | | |
+|  | | [Item 2]   | [Description 2]                 | | |
+|  | | ...        | ...                             | | |
+|  +--------------------------------------------------+ |
+|                                       [Error Button]  |
++-------------------------------------------------------+
+```
+Non-successfull response.
+```
++-------------------------------------------------------+
+|                                                       |
+|  +------------------ Top controls ------------------+ |
+|  | +--------------------------+ +-----------------+ | |
+|  | | [Search Input Field]     | | [Search Button] | | |
+|  | +--------------------------+ +-----------------+ | |
+|  +--------------------------------------------------+ |
+|                                                       |
+|  +-------------------- Results ---------------------+ |
+|  |                                                  | |
+|  |                 Error description                | |
+|  |                                                  | |
+|  +--------------------------------------------------+ |
+|                                       [Error Button]  |
++-------------------------------------------------------+
+```
 
 ## Points
 
