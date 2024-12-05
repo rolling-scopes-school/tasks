@@ -121,8 +121,10 @@
 All logical parts should be set into separate components.
 
 ## Template
+
 This template represents the possible layout for your app, but you can create your app based on your own preferencies.
 Successfull response.
+
 ```
 +-------------------------------------------------------+
 |                                                       |
@@ -143,7 +145,9 @@ Successfull response.
 |                                       [Error Button]  |
 +-------------------------------------------------------+
 ```
+
 Non-successfull response.
+
 ```
 +-------------------------------------------------------+
 |                                                       |
