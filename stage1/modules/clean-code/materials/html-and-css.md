@@ -67,7 +67,7 @@ Use double quotes instead of single quotes for HTML attributes and CSS propertie
 Put every block, table or list element on a new line, regardless of their styles.
 
 Indent each nested element, thus respecting the nesting ladder.
-Inline elements can (but do not have to) be put to a new line to improve code readability.
+Inline elements can (but do not have to) be put to a new line and indented to improve code readability.
 
 - Element `<em>` is used to highlight a substring on a paragraph. It can stay where it is, because it is an inline element.
 - Element `<p>` is a block element, so it must be put on a new line.
