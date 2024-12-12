@@ -2,59 +2,48 @@
 
 ## Objective
 
-In this task, you will create a Helm chart for a simple application and deploy it on your Kubernetes (K8s) cluster.
+In this task, you will create a Docker image and Helm chart for a simple application and deploy it on your Kubernetes (K8s) cluster.
 
 ## Steps
 
 1. **Create Helm Chart**
 
-   - Create a Helm chart for your application.
+   - Create a Helm chart for your [Application](https://github.com/rolling-scopes-school/tasks/tree/master/devops/flask_app/README.md).
 
 2. **Deploy the Application**
 
-   - Deploy the WordPress application using the Helm chart.
-   - Ensure the application is accessible from the internet.
+   - Deploy application using the Helm chart.
+   - Ensure the application is accessible from the web browser.
 
 3. **Store Artifacts in Git**
 
-   - Store the WordPress application and Helm chart in a new git repository.
+   - Store the application and Helm chart in your git repository.
 
-4. **Verify the Application**
-
-   - Verify that the application is running and accessible.
-
-5. **Additional Tasks**
-   - Implement a CI/CD pipeline to automate the deployment of the WordPress.
+4. **Additional Tasks**
    - Document the application setup and deployment process in a README file.
 
 ## Submission
 
-- Provide a PR with the application and Helm chart in a new repository.
-- Ensure that the application is accessible from the internet.
-- Provide a PR with the CI/CD pipeline code for the application deployment.
+- Create a task_5 branch in your repository
+- Provide a PR with the application and Helm chart in your repository.
+- Ensure that the application is accessible from the web browser. Provide a screenshot from your browser.
 - Provide a README file documenting the application setup and deployment process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
 1. **Helm Chart Creation (40 points)**
 
-   - A Helm chart for the WordPress application is created.
+   - A Helm chart for the application is created.
 
-2. **Application Deployment (30 points)**
+2. **Application Deployment (50 points)**
 
    - The application is deployed using the Helm chart.
-   - The application is accessible from the internet.
+   - The application is accessible from the web browser.
 
-3. **Repository Submission (5 points)**
-
-   - A new repository is created with the WordPress and Helm chart.
-
-4. **Verification (5 points)**
-
-   - The application is verified to be running and accessible.
-
-5. **Additional Tasks (20 points)**
-   - **CI/CD Pipeline (10 points)**
-     - A CI/CD pipeline is set up to automate the deployment of the application.
+4. **Additional Tasks (10 points)**
    - **Documentation (10 points)**
      - The application setup and deployment process are documented in a README file.
+
+## References
+
+- [Create your HELM chart](https://helm.sh/docs/helm/helm_create/)

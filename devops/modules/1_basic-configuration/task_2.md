@@ -29,7 +29,8 @@ In this task, you will write Terraform code to configure the basic networking in
 
 4. **Submit Code**
 
-   - Create a PR with the Terraform code in a new repository.
+   - Create Task_2 branch in your repository.
+   - Create a PR with the Terraform code in your repository from task_2 repo to main.
    - (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
 
 5. **Additional Tasks**

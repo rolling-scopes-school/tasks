@@ -6,33 +6,19 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
 
 ## Steps
 
-1. **Create Docker Image and Store in ECR**
 
-   - Create a Docker image for your application.
-   - Store the Docker image in an AWS ECR repository.
-   - Ensure your K8s nodes can access the ECR repository by adjusting or creating a new instance profile for your EC2 instances.
+1. **Configure Jenkins Pipeline**
 
-2. **Create Helm Chart**
-
-   - Create a Helm chart for your application.
-   - Test the Helm chart manually from your local machine.
-
-3. **Store Artifacts in Git**
-
-   - Store the Dockerfile and Helm chart in a git repository accessible to Jenkins.
-
-4. **Configure Jenkins Pipeline**
-
-   - Create a Jenkins pipeline and store it as a Jenkinsfile in your main git repository.
+   - Create a Jenkins pipeline and store it as a Jenkinsfile in your git repository.
    - Configure the pipeline to be triggered on each push event to the repository.
 
-5. **Pipeline Steps**
+2. **Pipeline Steps**
 
    - The pipeline should include the following steps:
      1. Application build
      2. Unit test execution
      3. Security check with SonarQube
-     4. Docker image building and pushing to ECR (manual trigger)
+     4. Docker image building and pushing to any Registry
      5. Deployment to K8s cluster with Helm (dependent on the previous step)
      6. (Optional) Application verification (e.g., curl main page, send requests to API, smoke test)
 
@@ -42,6 +28,7 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
 
 ## Submission
 
+- Create task_6 branch in your repository
 - Provide a PR with the application, Helm chart, and Jenkinsfile in a repository.
 - Ensure that the pipeline runs successfully and deploys the application to the K8s cluster.
 - Provide a README file documenting the pipeline setup and deployment process.
