@@ -1,5 +1,5 @@
 # Task 1: AWS Account Configuration
-
+![task_1 schema](../../visual_assets/task_1.png)
 ## Objective
 
 In this task, you will:

@@ -1,5 +1,5 @@
 # Task: K8s Cluster Configuration and Creation
-
+![task_3 schema](../../visual_assets/task_3.png)
 ## Objective
 
 In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS using or k3s. You will also verify the cluster by running a simple workload.

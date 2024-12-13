@@ -1,4 +1,5 @@
 # Task 7: Prometheus Deployment on K8s
+![task_7 schema](../../visual_assets/task_7.png)
 
 ## Objective
 

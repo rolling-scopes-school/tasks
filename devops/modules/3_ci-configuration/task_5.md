@@ -1,4 +1,5 @@
 # Task 5: Simple Application Deployment with Helm
+![task_5 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
 

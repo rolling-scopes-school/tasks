@@ -1,4 +1,5 @@
 # Task 4: Jenkins Installation and Configuration
+![task_4 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
 

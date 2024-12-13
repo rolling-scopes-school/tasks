@@ -1,4 +1,5 @@
 # Task 2: Basic Infrastructure Configuration
+![task_2 schema](../../visual_assets/task_2.png)
 
 ## Objective
 

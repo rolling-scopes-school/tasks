@@ -1,4 +1,5 @@
 # Task 6: Application Deployment via Jenkins Pipeline
+![task_6 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
 
