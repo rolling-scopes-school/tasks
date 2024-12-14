@@ -9,7 +9,7 @@ In this task, you will:
 - Deploy S3 buckets for Terraform states
 - Create a Github Actions workflow to deploy infrastructure in AWS
 
-Extra steps: 
+Additional tasks: 
 - Create a federation with your AWS account for Github Actions
 - Create an IAM role for Github Actions
 
@@ -46,11 +46,11 @@ Extra steps:
 
 5. **Create a bucket for Terraform states**
 
-   - Consider skipping the part with setting locks with DaynamoDB from the instructions down below. vvvv
+   - Locking terraform state via DynamoDB is not required in this task, but recommended by the best practices. vvvv
    - [Managing Terraform states Best Practices](https://spacelift.io/blog/terraform-s3-backend)
    - [Terraform backend S3](https://developer.hashicorp.com/terraform/language/backend/s3)
 
-6. **Create an IAM role for Github Actions(extra step)💫**
+6. **Create an IAM role for Github Actions(Additional task)💫**
 
    - Create an IAM role `GithubActionsRole` with the same permissions as in step 2:
      - AmazonEC2FullAccess
@@ -62,9 +62,9 @@ Extra steps:
      - AmazonEventBridgeFullAccess
    - [Terraform resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role)
 
-7. **Configure an Identity Provider and Trust policies for Github Actions💫**
+7. **Configure an Identity Provider and Trust policies for Github Actions(Additional task)💫**
 
-   - Update the `GithubActionsRole` IAM role with Trust policy following the next guides
+   - Update the `GithubActionsRole` IAM role with a Trust policy following the next guides
    - [IAM roles terms and concepts](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html#id_roles_terms-and-concepts)
    - [Github tutorial](https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)
    - [AWS documentation on OIDC providers](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create_GitHub)
@@ -72,7 +72,7 @@ Extra steps:
 
 8. **Create a Github Actions workflow for deployment via Terraform**
    - The workflow should have 3 jobs that run on pull request and push to the default branch:
-     - `terraform-check` with format checking [terraform fmt](https://developer.hashicorp.com/terraform/cli/commands/fmt)
+     - `terraform-check` with format checking using [terraform fmt](https://developer.hashicorp.com/terraform/cli/commands/fmt)
      - `terraform-plan` for planning deployments [terraform plan](https://developer.hashicorp.com/terraform/cli/commands/plan)
      - `terraform-apply` for deploying [terraform apply](https://developer.hashicorp.com/terraform/cli/commands/apply)
    - [terraform init](https://developer.hashicorp.com/terraform/cli/commands/init)
@@ -81,9 +81,12 @@ Extra steps:
    - [Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials)
 
 ## Submission
- - create branch task_1 in your repository.
- - Provide PR from task_1 branch to main.
- - Ensure that the AWS CLI and Terraform installations are verified using `aws --version` and `terraform version`.
+ - Create a branch `task_1` from `main` branch in your repository.
+ - [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) from `task_1` branch to `main`.
+ - Provide the code for Terraform and GitHub Actions in the PR.
+ - Provide screenshots of `aws --version` and `terraform version` in the PR description.
+ - Provide a link to the Github Actions workflow run in the PR description.
+ - Provide the Terraform plan output with S3 bucket (and possibly additional resources) creation in the PR description.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
@@ -110,9 +113,9 @@ Extra steps:
 
    - Terraform plan is executed successfully
 
-6. **Additional Tasks (10 points)**
+6. **Additional Tasks (20 points)**
    - **Documentation (5 points)**
-     - Document the infrastructure setup and usage in a README file.
+   - Document the infrastructure setup and usage in a README file.
    - **Submission (5 points)**
    - A GitHub Actions (GHA) pipeline is passing
    - **Secure authorization (10 points)**

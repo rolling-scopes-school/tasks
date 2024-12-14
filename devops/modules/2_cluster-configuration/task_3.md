@@ -9,8 +9,7 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 1. **Choose Deployment Method**
 
    - Get familiar with [k3s](https://k3s.io/).
-   - Use AWS EC2 instances from the Free Tier to avoid additional expenses.
-
+   - Use AWS EC2 instances from the [AWS Free Tier](https://aws.amazon.com/free/) to avoid additional expenses.
 2. **Create or Extend Terraform Code**
 
    - Create or extend Terraform code to manage AWS resources required for the cluster creation.
@@ -18,9 +17,10 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 
 3. **Deploy the Cluster**
 
+   - Deploy [Bastion host](https://www.geeksforgeeks.org/what-is-aws-bastion-host/)
    - Deploy the K8s cluster using k3s.
    - Ensure the cluster is accessible from your bastion host 
-   - Exra step to make it accessable from your local computer.
+   - **Additional task** make it accessible from your local computer.
 
 4. **Verify the Cluster**
 
@@ -40,10 +40,10 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 
 ## Submission
 
-- Create task_3 branch in your repository
+- Create a `task_3` branch from `main` in your repository.
 - Provide a PR with the Terraform code for the K8s cluster and bastion host.
-- Provide a screenshot of the `kubectl get nodes` command output.
-- Provide a screenshot of the `kubectl get all` command output.
+- A screenshot of the `kubectl get all --all-namespaces` command output is provided. (pod named "nginx" should be present)
+- Provide a screenshot of the `kubectl get nodes` command output. 2 nodes should be present.
 - Provide a README file documenting the cluster setup and deployment process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
@@ -55,13 +55,17 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 
 2. **Cluster Verification (50 points)**
 
-   - The cluster is verified by running the `kubectl get nodes` command from the local computer.
-   - A screenshot of the `kubectl get nodes` command output is provided.
+   - The cluster is verified by running the `kubectl get nodes` command from the bastion host.
+   - k8s cluster consists of 2 nodes (may be checked on screenshot).
 
 4. **Workload Deployment (30 points)**
 
    - A simple workload is deployed on the cluster using `kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml`.
-   - A screenshot of the `kubectl get all` command output is provided. (pod named "nginx" should be presented)
+   - Pod named "nginx" presented in the 
 
-5. **Additional Tasks (10 points)**
-   - Document the cluster setup and deployment process in a README file.
+6. **Additional Tasks (10 points)**
+   - **Documentation (5 points)**
+      - Document the cluster setup and deployment process in a README file.
+   - **Cluster accessability (5 points)**
+      - The cluster is verified by running the `kubectl get nodes` command from the **local computer**.
+

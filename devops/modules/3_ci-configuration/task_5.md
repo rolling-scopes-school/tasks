@@ -13,7 +13,7 @@ In this task, you will create a Docker image and Helm chart for a simple applica
 
 2. **Deploy the Application**
 
-   - Deploy application using the Helm chart.
+   - Deploy the application using the Helm chart.
    - Ensure the application is accessible from the web browser.
 
 3. **Store Artifacts in Git**
@@ -25,7 +25,7 @@ In this task, you will create a Docker image and Helm chart for a simple applica
 
 ## Submission
 
-- Create a task_5 branch in your repository
+- Create a `task_5` branch from `main` in your repository.
 - Provide a PR with the application and Helm chart in your repository.
 - Ensure that the application is accessible from the web browser. Provide a screenshot from your browser.
 - Provide a README file documenting the application setup and deployment process.

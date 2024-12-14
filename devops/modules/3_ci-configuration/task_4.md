@@ -3,12 +3,12 @@
 
 ## Objective
 
-In term to avoid unnecessary spendings, we'll not use cluster we've just created in the AWS. However, we'll leverage [Minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Fx86-64%2Fstable%2Fbinary+download). It's a k8s cluster, which you may install to your local machines. It should be enough for learning purposes. Follow the doumentation from taht link to install minikube on your local PC. And then, proceed right to [steps](#steps).
+In order to avoid unnecessary spending, we'll not use cluster we've just created in the AWS. However, we'll leverage [Minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Fx86-64%2Fstable%2Fbinary+download). It's a k8s cluster, which you may install to your local machines. It should be enough for learning purposes. Follow the documentation from that link to install minikube on your local PC. And then, proceed right to [steps](#steps).
 
-If you're brave enough to keep using cluster deployed in the clouds - pay attention on the resource's consumption my your VM. And keep in mynd notification down bellow.
+If you're brave enough to keep using cluster deployed in the clouds - pay attention on the resource's consumption my your VM. And keep in mind notification down bellow.
 
 IMPORTANT!( for cloud deployment only. Skip this one if you are chose to use minikube) You better choose to use t3/t2.small VMs, since micro have not sufficient amount of RAM for running Jenkins. Be aware that small instances are not included in the free tier, so you'll be charged 0.05$/hour for them.
-Best choise for saving - create 1 small instalnce in public network. Setup init script to install k3s and deploy all of the necessary HELM charts to startup jenkins. Destroy environment whenever you are not working with it.
+Best choise for saving - create 1 small instance in public network. Set up an init script to install k3s, and deploy all of the necessary HELM charts to startup jenkins. Destroy environment whenever you are not working with it.
 
 ## Steps
 
@@ -37,7 +37,7 @@ Best choise for saving - create 1 small instalnce in public network. Setup init 
 
 ## Submission
 
-- Create a task_4 branch in your repository
+- Create a `task_4` branch from `main` in your repository.
 - Provide a PR with the Helm chart for Jenkins deployment.
 - Ensure that Jenkins is accessible via web browser. [Setup reverse proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04) if you are working in the environment behind the bastion host.
 - Provide a screenshot of the Jenkins freestyle project log showing "Hello world".

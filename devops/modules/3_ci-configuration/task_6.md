@@ -20,8 +20,8 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
      2. Unit test execution
      3. Security check with SonarQube
      4. Docker image building and pushing to any Registry
-     5. Deployment to K8s cluster with Helm (dependent on the previous step)
-     6. (Optional) Application verification (e.g., curl main page, send requests to API, smoke test)
+     5. Deployment to the K8s cluster with Helm (dependent on the previous step)
+     6. (Optional) Application verification (e.g., curl the main page, send requests to API, smoke test)
 
 6. **Additional Tasks**
    - Set up a notification system to alert on pipeline failures or successes.
@@ -29,7 +29,7 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
 
 ## Submission
 
-- Create task_6 branch in your repository
+- Create a `task_6` branch from `main` in your repository.
 - Provide a PR with the application, Helm chart, and Jenkinsfile in a repository.
 - Ensure that the pipeline runs successfully and deploys the application to the K8s cluster.
 - Provide a README file documenting the pipeline setup and deployment process.

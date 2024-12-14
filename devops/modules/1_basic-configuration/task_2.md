@@ -28,19 +28,19 @@ In this task, you will write Terraform code to configure the basic networking in
    - Execute `terraform plan` to ensure the configuration is correct.
    - Provide a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
-4. **Submit Code**
-
-   - Create Task_2 branch in your repository.
-   - Create a PR with the Terraform code in your repository from task_2 repo to main.
-   - (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
-
-5. **Additional Tasks**
+4. **Additional Tasks**
    - Implement security groups.
    - Create a bastion host for secure access to the private subnets.
-   - Organize NAT for private subnets, so instances in private subnet can connect with outside world:
+   - Organize NAT for private subnets, so instances in the private subnet can connect with the outside world:
      - Simpler way: create a NAT Gateway
-     - Cheaper way: configure a NAT instance in public subnet
+     - Cheaper way: configure a NAT instance in the public subnet
    - Document the infrastructure setup and usage in a README file.
+
+## Submission
+   - Create `task_2` branch from `main` in your repository.
+   - [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) with the Terraform code in your repository from `task_2` to `main`.
+   - Provide screenshots of a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map) in the PR description.
+   - (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
@@ -53,7 +53,7 @@ In this task, you will write Terraform code to configure the basic networking in
      - Internet Gateway
      - Routing configuration:
        - Instances in all subnets can reach each other
-       - Instances in public subnets can reach addresses outside VPC and vice-versa
+       - Instances in public subnets can reach addresses outside the VPC and vice-versa
 
 2. **Code Organization (10 points)**
 
@@ -71,8 +71,8 @@ In this task, you will write Terraform code to configure the basic networking in
    - **Bastion Host (5 points)**
      - Create a bastion host for secure access to the private subnets.
    - **NAT is implemented for private subnets (10 points)**
-     - Orginize NAT for private subnets with simpler or cheaper way
-     - Instances in private subnets should be able to reach addresses outside VPC
+     - Orginize NAT for private subnets in a simpler or cheaper way
+     - Instances in private subnets should be able to reach addresses outside the VPC
    - **Documentation (5 points)**
      - Document the infrastructure setup and usage in a README file.
    - **Submission (5 points)**

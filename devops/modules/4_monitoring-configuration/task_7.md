@@ -3,7 +3,7 @@
 
 ## Objective
 
-In this task, you'll setup a set of tools to monitor you cluster and application. We'll do it by installing Prometheus and Grafana in your cluster using HELM charts. Main goal is to collect essential metrics from an our infrastructure and visualize them. 
+In this task, you'll setup a set of tools to monitor your cluster and application. We'll do it by installing Prometheus and Grafana in your cluster using HELM charts. Main goal is to collect essential metrics from an our infrastructure and visualize them. 
 
 ## Steps
 
@@ -46,6 +46,7 @@ In this task, you'll setup a set of tools to monitor you cluster and application
    - Simulate CPU and memory stress on a Kubernetes node using tools like `stress` or `sysbench`.
 
 ## Submission
+- Create a `task_7` branch from `main` in your repository.
 - Provide a README file documenting the Monitoring tools deployment and configuration. **Note:** Ensure that all personal data, such as email addresses and SMTP credentials, are hidden in screenshots, code and documentation.
 
 #### Prometheus
