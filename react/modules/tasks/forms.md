@@ -36,7 +36,7 @@
 ### Student can get 100 points:
 
 - 3 routes (main and 2 routes for forms), Redux is set up and used to collect data from both forms, redirect to main route after submitting the form - **15 points**
-- Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** or **Zod** are used for validation (10 points if works only for one form) - **20 points**
+- Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** or **Zod** is used for validation (10 points if works only for one form) - **20 points**
 - Name, age, email, gender picker, accept T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **20 points**
 - Input for image is implemented for both forms, image is saved as base64 and dispaly on the main route after redirect - **15 points**
 - Passwords (with password strength) are implemented for both forms - **15 points**

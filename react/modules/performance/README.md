@@ -17,7 +17,7 @@ Students will:
 - Learn about **code splitting** and **lazy loading** to improve application load times.
 - Understand the impact of **reconciliation** and how to optimize it.
 - Learn about **virtualization** techniques to efficiently render large lists.
-- Know how to use performance monitoring tools to track and improve application performance.
+- Know how to use React Dev Tools track and improve application performance.
 
 ## Approximate Module Completion Time ⏱️
 
@@ -28,3 +28,35 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **useCallback, useMemo, React.memo**
+
+   - [React useCallback - React official documentation](https://react.dev/reference/react/useCallback)
+   - [React useMemo - React official documentation](https://react.dev/reference/react/useMemo)
+   - [React.memo - React official documentation](https://react.dev/reference/react/memo)
+
+2. **React keys**
+
+   - [Keeping list items in order with key - React official documentation](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key)
+
+3. **React Profiler**
+
+   - [React Profiler - React official documentation](https://react.dev/reference/react/Profiler)
+
+4. **Code splitting and lazy loading**
+
+   - [React.lazy() - React official documentation](https://react.dev/reference/react/lazy)
+   - [Lazy loading in NextJS](https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading)
+   - [Effortless Speed: Next.js Lazy Loading](https://www.youtube.com/watch?v=vgh1InaRGUQ)
+
+5. **Reconciliation**
+
+   - [React reconciliation: how it works and why should we care](https://www.developerway.com/posts/reconciliation-in-react)
+
+6. **Virtualization techniques**
+
+   - [react-virtualized vs. react-window)](https://blog.logrocket.com/react-virtualized-vs-react-window)
+   - [react-virtualized](https://www.npmjs.com/package/react-virtualized)
+   - [react-window](https://www.npmjs.com/package/react-window)
+
+7. **React Dev Tools**
+   - [React Dev Tools - React official documentation](https://react.dev/learn/react-developer-tools)
+   - [How To Debug React Apps Like A Senior Developer - Web Dev Simplified](https://www.youtube.com/watch?v=l8knG0BPr-o)
