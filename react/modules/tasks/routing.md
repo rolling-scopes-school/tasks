@@ -1,5 +1,16 @@
 # React Routing. Tests.
 
+## Application Requirements
+
+1. Add pagination:
+   - implement pagination for your existing item list
+   - display the current page in the browser URL using query parameters (e.g. ?page=2, e.g /search/2).
+   - the pagination component should appear after receiving the list of all items.
+2. Main page displays search results. On item click page should be split into 2 section:
+   - left section will continue to display search results;
+   - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
+   - reflect in the url that "Details" section has been opened for the selected item (e.g. /?frontpage=2&details=1).
+
 ## Technical Requirements
 
 1. Create a separate branch for this task from the previous task's branch. Branch name: "hooks-and-routing".
@@ -35,17 +46,6 @@
 - Check that the component retrieves the value from the local storage upon mounting.
 
 13. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
-
-## Application Requirements
-
-1. Add pagination:
-   - implement pagination for your existing item list
-   - display the current page in the browser URL using query parameters (e.g. ?page=2, e.g /search/2).
-   - the pagination component should appear after receiving the list of all items.
-2. Main page displays search results. On item click page should be split into 2 section:
-   - left section will continue to display search results;
-   - right section should display details using Router Outlet (show loading indicator while making an additional call for details, add control for closing the section, also section should be closed when user clicks on the left section)
-   - reflect in the url that "Details" section has been opened for the selected item (e.g. /?frontpage=2&details=1).
 
 ## Points
 

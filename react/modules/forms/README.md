@@ -63,7 +63,8 @@ Students are encouraged to explore the following resources:
    - [article: How to perform form validation in React?](https://www.geeksforgeeks.org/how-to-perform-form-validation-in-react/) - [10 minutes]
    - [article: React form validation with React Hook Form and Yup](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98) - [20 minutes]
    - [article: Creating a React Form Using React Hook Form and Yup in TypeScript](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57) - [30 minutes]
-   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [50 minutes]
+   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [25 minutes]
+   - [Zod](https://github.com/colinhacks/zod) - [30 minutes]
 
 8. **How to handle file uploads in React forms:**
 

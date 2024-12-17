@@ -1,21 +1,5 @@
 # Redux. Redux Toolkit, RTK Query. Context api.
 
-## Technical requirements
-
-1. Create a separate branch for this task from the previous branch task. Branch name: "app-state-management".
-2. Redux Integration:
-   - Integrate Redux into your application. You'll need to set up the Redux store and reducers using Redux Toolkit.
-3. RTK Query integration:
-   - RTK Query Implementation: Use Redux Toolkit Query (RTK Query) to make API calls and cache the results. This will modify your previous API call implementation;
-   - Use RTK Query to show whether the data is being loaded. Avoid prop-drilling, if it is required to show indicator in child component, put the respective flag in the store;
-   - Items returned for the current page should be stored in the store;
-   - Currently selected item details should be stored in the store.
-4. Context API:
-   - Add context to control the application theme (light or dark).
-5. Test Updates
-   - Update your tests to accommodate the changes introduced by Redux and RTK Query.
-   - Test the functionality related to Redux state and API calls.
-
 ## Application Requirements
 
 1. Selected items (Redux):
@@ -31,6 +15,22 @@
    - Add button/radio buttons/dropdown on top of the application for theme selection;
    - User should have an option to select one of the 2 themes (e.g. light or dark);
    - Selected theme should affect the appearance of the whole application
+
+## Technical requirements
+
+1. Create a separate branch for this task from the previous branch task. Branch name: "app-state-management".
+2. Redux Integration:
+   - Integrate Redux into your application. You'll need to set up the Redux store and reducers using Redux Toolkit.
+3. RTK Query integration:
+   - RTK Query Implementation: Use Redux Toolkit Query (RTK Query) to make API calls and cache the results. This will modify your previous API call implementation;
+   - Use RTK Query to show whether the data is being loaded. Avoid prop-drilling, if it is required to show indicator in child component, put the respective flag in the store;
+   - Items returned for the current page should be stored in the store;
+   - Currently selected item details should be stored in the store.
+4. Context API:
+   - Add context to control the application theme (light or dark).
+5. Test Updates
+   - Update your tests to accommodate the changes introduced by Redux and RTK Query.
+   - Test the functionality related to Redux state and API calls.
 
 ## Points
 
