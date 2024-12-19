@@ -28,7 +28,7 @@ In this task, you will write Terraform code to configure the basic networking in
    - Execute `terraform plan` to ensure the configuration is correct.
    - Provide a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
-4. **Additional Tasks**
+4. **Additional Tasks💫**
    - Implement security groups.
    - Create a bastion host for secure access to the private subnets.
    - Organize NAT for private subnets, so instances in the private subnet can connect with the outside world:
@@ -65,7 +65,7 @@ In this task, you will write Terraform code to configure the basic networking in
    - Terraform plan is executed successfully.
    - A resource map screenshot is provided (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
-4. **Additional Tasks (30 points)**
+4. **Additional Tasks (30 points)💫**
    - **Security Groups and Network ACLs (5 points)**
      - Implement security groups and network ACLs for the VPC and subnets.
    - **Bastion Host (5 points)**

@@ -45,6 +45,11 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
 4. **Verify Alerts**
    - Simulate CPU and memory stress on a Kubernetes node using tools like `stress` or `sysbench`.
 
+### **Additional Tasks💫**
+   - Alert Rules, Contact Points, and SMTP settings are configured using YAML files or other code-based methods.
+   - Document the process of installation and configuration of monitoring tools.
+
+
 ## Submission
 - Create a `task_7` branch from `main` in your repository.
 - Provide a README file documenting the Monitoring tools deployment and configuration. **Note:** Ensure that all personal data, such as email addresses and SMTP credentials, are hidden in screenshots, code and documentation.
@@ -84,9 +89,11 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
      - High CPU utilization on any node of the cluster.
      - Lack of RAM capacity on any node of the cluster.
    - Alerts are configured to be delivered to your email address.
-7. **Additional Tasks (10 points)**
+7. **Additional Tasks (20 points)💫**
    - **Configuration is done completely in code (10 points)**
      - Alert Rules, Contact Points, and SMTP settings are configured using YAML files or other code-based methods.
+   - **Documentation (10 points)**
+     - The process of installation and configuration of monitoring tools is documented in a README file.
 
 ## References
 

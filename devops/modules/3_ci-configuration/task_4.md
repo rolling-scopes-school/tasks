@@ -25,13 +25,14 @@ Best choise for saving - create 1 small instance in public network. Set up an in
 
    - Follow the instructions from the [Jenkins documentation](https://www.jenkins.io/doc/book/installing/kubernetes/#install-jenkins-with-helm-v3) to install Jenkins using Helm. Ensure Jenkins is installed in a separate namespace.
      [Debug init container](https://kubernetes.io/docs/tasks/debug/debug-application/debug-init-containers/#accessing-logs-from-init-containers)
+   - Ensure that Jenkins is accessible via web browser. [Setup reverse proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04) if you are working in the environment behind the bastion host.
 
 4. **Verify Jenkins Installation**
 
    - Create a simple freestyle project in Jenkins that writes "Hello world" into the log.
 
-5. **Additional Tasks**
-   - Set up a GitHub Actions (GHA) pipeline to deploy Jenkins. (not applicable on minikube installation. Not "not" at all, actually. if you'll succeed with this one, ping someone from Administration, please)
+5. **Additional Tasks💫**
+   - Set up a GitHub Actions (GHA) pipeline to deploy Jenkins. (not applicable on minikube installation)
    - Configure authentication and security settings for Jenkins.
    - Use JCasC to store your Hello World job. 
 
@@ -39,11 +40,10 @@ Best choise for saving - create 1 small instance in public network. Set up an in
 
 - Create a `task_4` branch from `main` in your repository.
 - Provide a PR with the Helm chart for Jenkins deployment.
-- Ensure that Jenkins is accessible via web browser. [Setup reverse proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04) if you are working in the environment behind the bastion host.
 - Provide a screenshot of the Jenkins freestyle project log showing "Hello world".
 - Provide a PR with the GHA pipeline code for Jenkins deployment.
 - Attach screenshot with ```kubectl get all --all-namespaces``` to the PR
-- Document the authentication and security configurations in a README file.
+- Provide a README file documenting the installation and configuration process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 
@@ -68,10 +68,10 @@ Best choise for saving - create 1 small instance in public network. Set up an in
 
    - A simple Jenkins freestyle project is created and runs successfully, writing "Hello world" into the log.
 
-6. **Additional Tasks (15 points)**
+6. **Additional Tasks (15 points)💫**
    - **GitHub Actions (GHA) Pipeline (5 points)**
      - A GHA pipeline is set up to deploy Jenkins.
    - **Authentication and Security (5 points)**
      - Authentication and security settings are configured for Jenkins.
    - **JCasC is used to describe job in Jenkins (5 points)**
-      - "Hello World" job is exists in helm values.
+      - "Hello World" job is created via JCasC in HELM chart values.

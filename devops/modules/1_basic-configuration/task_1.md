@@ -92,7 +92,7 @@ Additional tasks:
 
 1. **MFA User configured (10 points)**
 
-   - Provide a screenshot of the non-root account secured by MFA (ensure sensitive information is not shared).
+   - Screenshot of the non-root account secured by MFA (ensure sensitive information is not shared) is presented
 
 2. **Bucket and GithubActionsRole IAM role configured (20 points)**
 
@@ -113,7 +113,7 @@ Additional tasks:
 
    - Terraform plan is executed successfully
 
-6. **Additional Tasks (20 points)**
+6. **Additional Tasks (20 points)💫**
    - **Documentation (5 points)**
    - Document the infrastructure setup and usage in a README file.
    - **Submission (5 points)**

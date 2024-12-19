@@ -23,7 +23,9 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
      5. Deployment to the K8s cluster with Helm (dependent on the previous step)
      6. (Optional) Application verification (e.g., curl the main page, send requests to API, smoke test)
 
-6. **Additional Tasks**
+3. **Application verification**
+   - Ensure that the pipeline runs successfully and deploys the application to the K8s cluster.
+4. **Additional Tasks💫**
    - Set up a notification system to alert on pipeline failures or successes.
    - Document the pipeline setup and deployment process in a README file.
 
@@ -31,7 +33,7 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
 
 - Create a `task_6` branch from `main` in your repository.
 - Provide a PR with the application, Helm chart, and Jenkinsfile in a repository.
-- Ensure that the pipeline runs successfully and deploys the application to the K8s cluster.
+- Provide a screenshot of passed Jenkins pipeline
 - Provide a README file documenting the pipeline setup and deployment process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
@@ -58,7 +60,7 @@ In this task, you will configure a Jenkins pipeline to deploy your application o
 
    - The pipeline runs successfully and deploys the application to the K8s cluster.
 
-5. **Additional Tasks (30 points)**
+5. **Additional Tasks (30 points)💫**
    - **Application Verification (10 points)**
      - Application verification is performed (e.g., curl main page, send requests to API, smoke test).
    - **Notification System (10 points)**

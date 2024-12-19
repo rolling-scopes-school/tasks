@@ -35,14 +35,14 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
      ```
    - Ensure the workload runs successfully on the cluster.
 
-6. **Additional Tasks**
-   - Document the cluster setup and deployment process in a README file.
+6. **Additional Tasks💫**
+   - Document the cluster setup process in a README file.
 
 ## Submission
 
 - Create a `task_3` branch from `main` in your repository.
 - Provide a PR with the Terraform code for the K8s cluster and bastion host.
-- A screenshot of the `kubectl get all --all-namespaces` command output is provided. (pod named "nginx" should be present)
+- Provide a screenshot of the `kubectl get all --all-namespaces` command output. (pod named "nginx" should be present)
 - Provide a screenshot of the `kubectl get nodes` command output. 2 nodes should be present.
 - Provide a README file documenting the cluster setup and deployment process.
 
@@ -61,9 +61,9 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 4. **Workload Deployment (30 points)**
 
    - A simple workload is deployed on the cluster using `kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml`.
-   - Pod named "nginx" presented in the 
+   - Pod named "nginx" presented in the output of `kubectl get all --all-namespaces` command
 
-6. **Additional Tasks (10 points)**
+6. **Additional Tasks (10 points)💫**
    - **Documentation (5 points)**
       - Document the cluster setup and deployment process in a README file.
    - **Cluster accessability (5 points)**

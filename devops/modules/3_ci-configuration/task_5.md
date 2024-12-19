@@ -20,14 +20,14 @@ In this task, you will create a Docker image and Helm chart for a simple applica
 
    - Store the application and Helm chart in your git repository.
 
-4. **Additional Tasks**
+4. **Additional Tasks💫**
    - Document the application setup and deployment process in a README file.
 
 ## Submission
 
 - Create a `task_5` branch from `main` in your repository.
 - Provide a PR with the application and Helm chart in your repository.
-- Ensure that the application is accessible from the web browser. Provide a screenshot from your browser.
+- Provide a screenshot from your browser with working application.
 - Provide a README file documenting the application setup and deployment process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
@@ -41,9 +41,9 @@ In this task, you will create a Docker image and Helm chart for a simple applica
    - The application is deployed using the Helm chart.
    - The application is accessible from the web browser.
 
-4. **Additional Tasks (10 points)**
+4. **Additional Tasks (10 points)💫**
    - **Documentation (10 points)**
-     - The application setup and deployment process are documented in a README file.
+     - The application setup and deployment processes are documented in a README file.
 
 ## References
 
