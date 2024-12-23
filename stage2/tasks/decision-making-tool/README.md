@@ -21,6 +21,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ## Task Objectives
 
 - Acquire or refine skills in creating, modifying, and deleting HTML elements dynamically using code.
+- Practice on implementing SPA with seamless navigation between different parts of the application _(e.g., via `Hash Router`/`History Api Router` strategy)_.
 - Practice storing user input between sessions _(e.g., via `Web Storage API`)_.
 - Learn to collect and save user input data to a file.
 - Learn to load and process data from a file _(e.g., via `File API`)_.
@@ -164,24 +165,36 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## Functional Requirements (256 points total)
 
-### List of Options (92 points)
+### List of Options (108 points)
 
-#### General (13/92)
+> List of Options consists of app's name, [`List`](#list-9108) with [`Options`](#option-22108) and a panel with [`Buttons`](#buttons-34108) for interacting with the list and navigation.
+
+#### General (9/108)
 
 1. (+1) Displays the app's name.
-2. (+2) Displays the list of options.
-3. (+2) In the `initial state`, the list of options contains 1 empty option _(id === `#1`, empty `title` and `weight`)_. _The `initial state` here means the state of the application when the user first encounters it (this can be simulated by pre-closing all current incognito tabs, if any, and opening a new one)_.
-4. (+4) Current options must remain the same _(not reset, not shuffled)_ when reloading the page.
-5. (+4) Current options must remain the same _(not reset, not shuffled)_ when closing a tab/window and opening it in a new one.
+2. (+2) `List of Options` must be directly accessible via a direct link.
+3. (+4) The URL must be relevant to the content displayed if the user reached it through an interactive element within the application.
+4. (+2) The URL must not change when the page is manually reloaded.
 
-#### Option (28/92)
+#### List (9/108)
+
+1. (+1) Displays the [`List`](#list-9108) with [`Options`](#option-22108).
+2. (+2) In the `initial state`, the list contains exactly 1 empty option _(`{"id": "#1", "title": "", "weight": ""}`)_. _The `initial state` here means the state of the application when the user first encounters it (this can be simulated by pre-closing all current incognito tabs, if any, and opening a new one._
+3. (+2) Current options must be persisted _(not reset, not shuffled)_ when the page is reloaded.
+4. (+2) Current options must be persisted _(not reset, not shuffled)_ when the tab/window is closed and a new one is opened.
+5. (+2) Current options must be persisted _(not reset, not shuffled)_ when the user is navigated to another route and then back again.
+
+#### Option (22/108)
+
+> Refers to any displayed options in the list, including all created and inserted options.
 
 ##### `id`
 
 1. (+1) Each option's `id` must be displayed.
 2. (+2) Each option's `id` must be unique.
 3. (+2) Each option's `id` must be in `#n` format _(`#1`, `#2`, `#3`, and so on)_.
-4. (+4) Each option's `id` must be generated programmatically at creation and the user has no possibility to change it manually.
+4. (+2) Each option's `id` must be generated programmatically at creation _(user cannot change it directly in this element)_.
+5. (+2) When the list of options becomes completely empty, the `id` counter must be reset.
 
 ##### `title`
 
@@ -197,86 +210,158 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ##### `delete button`
 
 1. (+1) Each option's `delete button` must be displayed. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "delete", "remove", etc.)_.
-2. (+4) Option's `delete button` click must delete the current option from the list.
-3. (+2) When the last option is deleted _(if the list has become completely empty)_, the id count must be reset and empty "new option" with `id` `#1` should be added to the list _(as at `initial state`)_
+2. (+2) Option's `delete button` click must delete the current option from the list.
 
 ##### Option columns
 
-1. (+4) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([options](#option-2892)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
+1. (+2) The width of the "columns" ([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button)) should match in "rows" ([`option`](#option-22108)). _(`flex`/`grid`/`table` can be useful here. How you do it is up to you.)_
 
-#### List Buttons (51/92)
+#### Buttons (34/108)
 
-##### New option
+##### Add option
 
-1. (+1) Displays a `add option button` next to the list of options for creating a "new option". The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "add option", "new option", "+", etc.)_.
-2. (+4) The `add option button` click must create a "new option".
-3. (+2) "New option" must have a unique `id`.
-4. (+2) "New option" must have an empty `title`.
-5. (+2) "New option" must have an empty `weight`.
-6. (+2) "New option" must have a `delete button`.
-7. (+2) "New option" must meet the [#Option](#option-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Option columns](#option-columns) requirements)_.
+1. (+1) Displays an `add option button` for creating a "new option". The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "add option", "new option", "+", etc.)_.
+2. (+2) The `add option button` click must create a "new option" _(empty `title`, empty `weight`)_ and add it to the bottom of the list.
+
+##### Paste list
+
+1. (+1) Displays a `paste list button` for displaying the [`paste list` modal window](#paste-list-modal). The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "paste list", "load list from clipboard", etc.)_.
+2. (+2) The `paste list button` click must open the `paste list` modal window.
 
 ##### Clear list
 
-1. (+1) Displays a `clear list button` next to the list of options for removing all options from the list. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "clear list", "reset list", etc.)_.
-2. (+4) The `clear list button` click must remove all current options from the list.
-3. (+2) In addition to clearing the list, an empty "new option" with `id` `#1` should be added to the list _(as at `initial state`)_.
+1. (+1) Displays a `clear list button` for removing all options from the list. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "clear list", "reset list", etc.)_.
+2. (+2) The `clear list button` click must remove all current options from the list.
 
-##### Save list to file
+##### Save list to json
 
-1. (+1) Displays a `save list button` next to the list of options for saving all current options to the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "save list to file", "save list as json", etc.)_.
-2. (+4) The `save list button` click must collect the current options data, convert it to a json object and save it to a `.json` file.
-3. (+2) The `title` and `weight` values of options must be saved.
+1. (+1) Displays a `save list button` for saving all current options to the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "save list to file", "save list as json", etc.)_.
+2. (+4) The `save list button` click must collect the all current options data, convert it to a json object and save it to a `.json` file.
+3. (+2) The `id`, `title` and `weight` values of options must be saved.
 4. (+2) The order of options in the file must match the order of options in the app.
 
-##### Load list from file
+##### Load list from json
 
-1. (+1) Displays a `load list button` next to the list of options for loading options from the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "load list from file", "load list from json", etc.)_.
-2. (+2) The `save list button` click must open the interface to select the file.
+1. (+1) Displays a `load list button` for loading options from the `.json` file. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "load list from file", "load list from json", etc.)_.
+2. (+2) The `load list button` click must open the interface to select the file.
 3. (+2) The type of files to be selected must be limited to a single file of type `.json`.
-4. (+2) The current list of options must be completely replaced by the list from the `.json` file you uploaded _(your app must be able to read and correctly parse the file created by your `save list button` click)_.
-5. (+2) The order of options in the app must match the order of options in the file. The `id` of options must be newly generated.
-6. (+2) Each "loaded option" must meet the [#Option](#option-2892) requirements _([`id`](#id), [`title`](#title), [`weight`](#weight), [`delete button`](#delete-button) and [Option columns](#option-columns) requirements)_.
+4. (+4) The current list of options must be completely replaced by the list from the `.json` file you uploaded _(your app must be able to read and correctly parse the file created by your `save list button` click)_.
+5. (+2) The order of options in the app must match the order of options in the file.
 
 ##### Start
 
-1. (+1) Displays a `start button` next to the list of options for displaying the `Decision Picker` generated by the data from the list of current options. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "start", "pick decision", "open decision picker", etc.)_.
-2. (+4) The `start button` click must open `Decision Picker` modal window.
-3. (+4) The list of current options passed to the modal window must be filtered and contain only valid options. An option is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`.
+1. (+1) Displays a `start button` for navigating to the [`Decision picker` route](#decision-picker-143-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "start", "pick decision", "open decision picker", etc.)_.
+2. (+2) The `start button` click must navigate to the `Decision picker` route if there are at least two `valid options`. _An option is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`._
+3. (+2) The `start button` click must open the [`add valid options` modal window](#add-valid-options-modal), instructing the user to add at least two `valid options` if there are less than two `valid options` in the list. _An option is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`._
 
-### Decision Picker (164 points)
+#### Modal windows (34/108)
 
 > Great place to get familiar with the `<dialog>` element, but the old-fashioned `div.modal>div.modal-content` pattern is ok too as long as it meets the requirements
+
+##### Paste list modal
+
+1. (+1) The `paste list` modal window must display a `paste field` element for inserting new options data as text in a CSV-like format
+2. (+1) The `paste list` modal window should display its `confirm button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Confirm", "Submit", "✔", etc.)_.
+3. (+1) The `paste list` modal window should display its `cancel button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Cancel", "Close", "⨉", "x", etc.)_.
+4. (+2) The `paste field` element must be able to be edited by the user.
+5. (+8) The `confirm button` click must parse the text from the `paste field`, create `new options` from that data and add those `new options` to the bottom of the list as well as close the `paste list` modal window.
+6. (+2) The `cancel button` click must close the `paste list` modal window without affecting the list.
+7. (+2) The `escape key press` must close the `paste list` modal window without affecting the list.
+8. (+2) The `outside click` must close the `paste list` modal window without affecting the list.
+9. (+2) An opened `paste list` modal window must block the page scrolling until the modal window is closed.
+10. (+2) Closing `paste list` modal window must also remove it from the DOM.
+
+##### Add valid options modal
+
+1. (+1) The `add valid options` modal window should display its `close button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Close", "Cancel", "⨉", "x", etc.)_.
+2. (+2) The `close button` click must close the modal window.
+3. (+2) The `escape key press` must close the modal window.
+4. (+2) The `outside click` must close the modal window.
+5. (+2) An opened `add valid options` modal window must block the page scrolling until the modal window is closed.
+6. (+2) Closing `add valid options` modal window must also remove it from the DOM.
+
+### Decision Picker (143 points)
+
+> Decision picker consists of app's name, [`Wheel`](#wheel-73143) canvas, [`Picked option`](#picked-option-13143) displaying element and a panel with [`Buttons`](#interactions-42143) for interacting and navigation.
+> The `Wheel` element displays the filtered list of `valid options` from the `List of Options` as sections of a circle (`option sections`) of different widths. The width of the section depends on the `weight` value. The color of the section is randomized when `Decision Picker` is opened.
 >
 > Briefly, the states mentioned below are:
 >
-> 1. `Decision Picker` modal window opened - the decision picker is in the `initial state`.
+> 1. `Decision Picker` opened - the decision picker is in the `initial state`.
 > 2. A successful start of picking process has been initiated - the decision picker is in the `picking state`.
 > 3. The picking process has finished and the picked option has been determined - the decision picker is in the `picked state`.
 >
 > After that `picking state` and `picked state` cyclically change each other according to points 2 and 3.
 >
-> If the `Decision Picker` modal window was closed and reopened, the life cycle starts again with `initial state`.
+> If the `Decision Picker` was closed and reopened, the life cycle starts again with `initial state`.
 
-#### General (6/164)
+#### General (15/143)
 
-1. (+2) Displays the `Decision Picker` modal window if the number of valid options is two or more.
-2. (+2) Displays a modal window asking to add at least 2 valid options if the number of valid options is less than two.
-3. (+2) An opened modal window must block the page scrolling until the modal window is closed.
+1. (+1) Displays the app's name.
+2. (+4) `Decision Picker` must be directly accessible via a direct link.
+3. (+4) User must be redirected to `List of Options` if there are less than two `valid options` to display. _An option is considered valid if its [`title`](#title) is not empty and its [`weight`](#weight) is greater than `0`._
+4. (+4) The URL must be relevant to the content displayed if the user reached it through an interactive element within the application.
+5. (+2) The URL must not change when the page is manually reloaded.
 
-#### Wheel (75/164)
+#### Interactions (42/143)
+
+##### Back
+
+1. (+1) Displays a `back button` for navigating to the [`List of Options` route](#decision-picker-143-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Back", "⬅", "↖", "🏠" etc.)_.
+2. (+2) The `back button` click must navigate to the `List of Options` route.
+3. (+2) In the `picking state` `back button` must be temporarily visually disabled and must not be functioning.
+4. (+2) In the `initial and picked states` `back button` returns to its original state and functions as it should.
+
+##### Sound
+
+1. (+1) Displays a `sound button` for toggling sound on/off. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "sound: on", "sound: off", "🔊", "🔇", etc.)_.
+2. (+2) The `sound button` click must toggle sound on/off.
+3. (+2) The `sound button` appearance must correspond to the current `mute state` (dynamically). _This means that if the sound is muted, the button shows that it is muted and vice versa._
+4. (+2) The `mute state` must be persisted when the page is reloaded.
+5. (+2) The `mute state` must be persisted when the tab/window is closed and a new one is opened.
+6. (+2) The `mute state` must be persisted when the user is navigated to another route and then back again.
+7. (+2) In the `picking state` `sound button` must be temporarily visually disabled and must not be functioning.
+8. (+2) In the `initial and picked states` `sound button` returns to its original state and functions as it should.
+
+##### Duration
+
+1. (+1) Displays a `duration` `<input>` element for setting the rotation duration in seconds. The appearance of this input should clearly indicate its purpose _(contain appropriate label and/or placeholder. e.g., "⏲", "duration", "time", "seconds", etc.)_
+2. (+2) `duration` element must be able to be edited by the user.
+3. (+2) `duration` element must take only numbers.
+4. (+2) `duration` element must have a default value, which should be between 5 and 30 seconds.
+5. (+2) In the `picking state`, `duration` element must be temporarily visually disabled and must not be functioning.
+6. (+2) In the `initial and picked states` `duration` element returns to its original state and functions as it should.
+
+##### Pick
+
+1. (+1) Displays a `pick button` for start picking process. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "▶", "pick", "start", etc.)_.
+2. (+2) The `pick button` click must initiate the picking process if the `duration` input value is greater than five seconds inclusive.
+3. (+2) The `pick button` click must notify the user of an incorrect input. _(the default form validation is enough, but you can implement a custom one if you want.)_
+4. (+2) In the `picking state`, `pick button` must be temporarily visually disabled and must not be functioning.
+5. (+2) In the `initial and picked states` `pick button` returns to its original state and functions as it should.
+
+#### Picked option (13/143)
+
+1. (+1) Displays a `picked option` element.
+2. (+2) In the `initial state`, `picked option` must display an appropriate message inviting the player to initiate the picking process.
+3. (+4) In the `picking state`, `picked option` must **dynamically** display the `title` of the option currently pointed to by the wheel `cursor`.
+4. (+2) In the `picked state`, `picked option` must display the `title` of the option currently pointed to by the wheel `cursor`.
+5. (+2) In the `initial and picking states`, the `picked option` must not be highlighted.
+6. (+2) In the `picked state`, the `picked option` must be highlighted.
+
+#### Wheel (73/143)
 
 > Canvas API and requestAnimationFrame are very good for this part of the assignment.
 
 ##### General
 
-1. (+1) Displays the `wheel` element in the `Decision Picker` modal window.
+1. (+1) Displays the `wheel` element as a single `<canvas>` element.
 
 ##### Option section
 
-1. (+2) The `wheel` element must display options as sections of a circle.
-2. (+4) The order of `option sections` on the `wheel` element must be randomized when the modal window is opened and not change until it is closed.
-3. (+4) The fill color of each `option section` must be randomly generated when the modal window is opened and not change until it is closed.
+1. (+2) The `wheel` element must display `valid options` from the `List of Options` as sections of a circle.
+2. (+4) The order of `option sections` on the `wheel` element must be randomized when the `Decision Picker` is opened and not change until it is closed.
+3. (+4) The fill color of each `option section` must be randomly generated when the `Decision Picker` is opened and not change until it is closed.
 4. (+8) The width (angle) of each `option section` must depend on the `weight` field of the option. _The main idea of this feature is that by setting the weight value of the option we can adjust the chance of that particular option being picked. That is, the higher the weight of the option, the wider its section, and therefore the higher the chance of being picked._
 5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
 
@@ -302,66 +387,21 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 1. (+2) When decision picking is initiated, the wheel must start rotating and stop after a short duration.
 2. (+4) The rotation duration must be specified by the `duration` element. That is, it should correspond to its value (in seconds) at the moment of rotation start. _Be loyal when crosschecking. A small inaccuracy is acceptable. There is no need to reduce points for a difference of a couple of seconds._
-3. (+4) The rotation should have a non-linear velocity. Use a suitable easing _(e.g. `ease-in-out` or `ease-in-out-back' with a tiny magnitude)_.
+3. (+4) The rotation should have a non-linear velocity. Use a suitable easing _(e.g. `ease-in-out` or `ease-in-out-back` with a tiny magnitude)_.
 4. (+4) The wheel must perform several full turns (minimum 5) and stop at a randomly picked option.
-5. (+2) A `finish sound` must be played when `picking state` is changed to `picked state` if the app sound is not muted.
-6. (+2) A `finish sound` must not be played if the app sound is muted.
+5. (+2) A `finish sound` must be played when `picking state` is changed to `picked state` if `mute state` is toggled `on`.
+6. (+2) A `finish sound` must not be played if `mute state` is toggled `off`.
 7. (+4) In the `picking state`, `option sections` must not change their order, shape, color. _It means that visually the `option sections` shall rotate as an indivisible whole wheel._
 8. (+4) In the `picking state`, each `option section title` shall not change its location relative to the boundaries of its `option section`. _It means that visually `option section title` and `option section` should rotate as an indivisible element._
 9. (+2) In the `picking state`, the `cursor` must stay in its place and not rotate.
 
-#### Picked option (13/164)
+### Error page (5 points)
 
-1. (+1) Displays a `picked option` element within the `Decision Picker` modal window.
-2. (+2) In the `initial state`, `picked option` must display the `title` of the option currently pointed to by the wheel `cursor`.
-3. (+4) In the `picking state`, `picked option` must **dynamically** display the `title` of the option currently pointed to by the wheel cursor.
-4. (+2) In the `picked state`, `picked option` must display the `title` of the option currently pointed to by the wheel cursor.
-5. (+2) In the `initial and picking states`, the `picked option` must not be highlighted.
-6. (+2) In the `picked state`, the `picked option` must be highlighted.
+#### General (5/5)
 
-#### Interactions (72/164)
-
-##### Closing modal
-
-1. (+1) Displays a `close button` in the upper right corner of modal window for returning to the [list of options](#list-of-options-92-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "⨉", "x", etc.)_.
-2. (+4) The `close button` click must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
-3. (+4) The `Escape key press` must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
-4. (+4) The `outside click` must close `Decision Picker` modal window and return the user to the [list of options](#list-of-options-92-points).
-5. (+4) Closing `Decision Picker` modal window must remove it from DOM.
-6. (+2) In the `picking state`, `close button` must be temporarily visually disabled or hidden and must not be functioning.
-7. (+2) In the `picking state`, the `Escape key press` functionality must be temporarily disabled.
-8. (+2) In the `picking state`, the `outside click` functionality must be temporarily disabled.
-9. (+2) In the `initial and picked states` `close button` returns to its original state and functions as it should.
-10. (+2) In the `initial and picked states` `Escape key press` functions as it should.
-11. (+2) In the `initial and picked states` `outside click` functions as it should.
-
-##### Duration
-
-1. (+1) Displays a `duration` `<input>` element within the `Decision Picker` modal window for setting the rotation duration in seconds. The appearance of this input should clearly indicate its purpose _(contain appropriate label and/or placeholder. e.g., "duration", "time", "seconds", etc.)_
-2. (+2) `duration` element must be able to be edited by the user.
-3. (+2) `duration` element must take only numbers.
-4. (+2) `duration` element must have a default value, which should be between 5 and 30 seconds.
-5. (+4) In the `picking state`, `duration` element must be temporarily visually disabled and must not be functioning.
-6. (+4) In the `initial and picked states` `duration` element returns to its original state and functions as it should.
-
-##### Pick
-
-1. (+1) Displays a `pick button` within the `Decision Picker` modal window for start picking process. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "pick", "start", etc.)_.
-2. (+4) The `pick button` click must attempt to initiate picking process.
-   - If the `duration` input value is greater than five seconds inclusive, the `Decision Picker` should successfully initiate picking process.
-   - Otherwise, the user should be notified of incorrect input _(the default form validation is enough, but you can implement a custom one if you want)_.
-3. (+4) In the `picking state`, `pick button` must be temporarily visually disabled and must not be functioning.
-4. (+4) In the `initial and picked states` `pick button` returns to its original state and functions as it should.
-
-##### Sound
-
-> Keeping or not keeping mute state between sessions is at your choice and is not evaluated on crosscheck.
-
-1. (+1) Displays a `sound button` within the `Decision Picker` modal window for toggling sound on/off. The appearance of this button should clearly indicate its purpose _(contain appropriate text and/or icon. e.g., "sound: on", "sound: off", "🔊", "🔇", etc.)_.
-2. (+4) The `sound button` click must toggle sound on/off.
-3. (+2) The `sound button` appearance must correspond to the current mute state (dynamically). _This means that if the sound is muted, the button shows that it is muted and vice versa._
-4. (+4) In the `picking state`, `sound button` must be temporarily visually disabled or hidden and must not be functioning.
-5. (+4) In the `initial and picked states` `sound button` returns to its original state and functions as it should.
+1. (+2) Implemented `Error page` display if the user is on an unknown route.
+2. (+1) The `Error page` displays a `back button` for navigating to the [`List of Options` route](#list-of-options-108-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Back", "Back to main page", "⬅", "↖" etc.)_.
+3. (+2) The `back button` click must navigate to the `List of Options` route.
 
 ## Crosscheck Evaluation
 
@@ -372,6 +412,8 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ## Crosscheck Penalties (Up to -100%)
 
 - (-100%) Non-empty `<body>` in the `index.html` (only `<script>` tag is allowed).
+- (-100% for [Wheel](#wheel-73143) section) [Wheel general requirement](#general-1) ``Displays the `wheel` element as a single `<canvas>` element.`` is not met.
+- (-50) The app is not a SPA. _There are page reloads when navigating within the application._
 - (-50) The app is not supported at `640px <= width <= 1280px` at least _(e.g., DOM elements go out of the bounds of parent elements, overlap, etc.)_.
 - (-100%) Using `alert`, `prompt`, `confirm`.
 - (-10 per error) For repeated app errors, the deduction is only allowed once for each distinct kind of error.
@@ -405,6 +447,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - [TS: Type Guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
 - [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
 - [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)
+- [Wiki: SPA](https://en.wikipedia.org/wiki/Single-page_application)
 
 ## Assignment Feedback
 
