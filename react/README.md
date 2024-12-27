@@ -17,7 +17,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 ## Course program
 
-### Week #1 (1st of July, 2024)
+### Week #1 (27th of January, 2025)
 
 #### Theory
 
@@ -35,7 +35,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 - Test 1. React components
 - Test 2. React error boundary
 
-### Week #2 (8th of July, 2024)
+### Week #2 (3rd of February, 2025)
 
 #### Theory
 
@@ -52,7 +52,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 - Test 3. React hooks
 - Test 4. React routing
 
-### Week #3 (15th of July, 2024)
+### Week #3 (10th of February, 2025)
 
 #### Theory
 
@@ -67,7 +67,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 5. React testing and context
 
-### Week #4 (22nd of July, 2024)
+### Week #4 (17th of February, 2025)
 
 #### Theory
 
@@ -82,7 +82,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 6. React Redux
 
-### Week #5 (29th of July, 2024)
+### Week #5 (29th of July, 2025)
 
 #### Theory
 
@@ -96,7 +96,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 7. React SSR
 
-### Week #6 (5th of August, 2024)
+### Week #6 (24th of February, 2025)
 
 #### Theory
 
@@ -110,7 +110,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 7. React SSR
 
-### Week #7 (12th of August, 2024)
+### Week #7 (3rd of March, 2025)
 
 #### Theory
 
@@ -124,29 +124,39 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 8. React forms
 
-### Week #8 (19th of August, 2024)
+### Week #8 (10th of March, 2025)
+
+#### Theory
+
+- [React Performance](modules/performance)
+
+#### Practical tasks
+
+[Task 6](modules/tasks/performance.md)
+
+### Week #9 (17th of March, 2025)
 
 - [Technical React Interview](interview.md)
-- [REST/GraphiQL client](modules/tasks/final.md)
+- [REST client](modules/tasks/final.md)
 
-### Week #9 (26th of August, 2024)
-
-- [Technical React Interview](interview.md)
-- [REST/GraphiQL client](modules/tasks/final.md)
-
-### Week #10 (2nd of September, 2024)
+### Week #10 (24th of March, 2025)
 
 - [Technical React Interview](interview.md)
-- [REST/GraphiQL client](modules/tasks/final.md)
+- [REST client](modules/tasks/final.md)
 
-### Week #11 (9th of September, 2024)
+### Week #11 (31st of March, 2025)
 
 - [Technical React Interview](interview.md)
-- [REST/GraphiQL client](modules/tasks/final.md)
+- [REST client](modules/tasks/final.md)
 
-### Week #12 (16th of September, 2024)
+### Week #12 (7th of April, 2025)
 
-Cross-check review: - [REST/GraphiQL client](modules/tasks/final.md)
+- [Technical React Interview](interview.md)
+- [REST client](modules/tasks/final.md)
+
+### Week #13 (14th of April, 2025)
+
+Cross-check review: - [REST client](modules/tasks/final.md)
 
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
@@ -156,4 +166,5 @@ Cross-check review: - [REST/GraphiQL client](modules/tasks/final.md)
 - [Andrej Podlubnyj](https://github.com/andron13)
 - [Artyom Parfenenkov](https://github.com/ParfenenkovEdit)
 - [Dzmitry Yarmoshkin](https://github.com/SpaNb4)
+- [Marharyta Maletz](https://github.com/Margaryta-Maletz)
 - [Valery Dluski](https://github.com/valerydluski)
