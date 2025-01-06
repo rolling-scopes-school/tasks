@@ -234,7 +234,7 @@
 
 - Tasks:
 
-  - [Hangman](tasks/hangman/)
+  - [Simon Says](tasks/simon-says/)
 
 - Tests:
 
@@ -247,7 +247,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Hangman"](tasks/hangman/)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Simon Says"](tasks/simon-says/)
 
 - Modules:
 
