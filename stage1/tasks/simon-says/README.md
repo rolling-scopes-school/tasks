@@ -145,7 +145,7 @@ _It is recommended to print the right answer for each round in the browser's con
 - [ ] Clicking the “Next” button starts the next round with a new, randomly generated sequence that is two symbols longer than the previous one. The "Next" button is replaced by the "Repeat the sequence" button: `+5`
 - [ ] After successfully completing the 5th round, there is final feedback indicating the game is over and the “Repeat the sequence” button, if still enabled, becomes disabled: `+5`
 - [ ] The user’s last chosen difficulty level is saved and preselected by default when the user starts a new game: `+5`
-- [ ] Responsive/adaptive UI from 1440px to 360px viewport: `+10`
+- [ ] The app is supported at the requested width (desktop _1440px <= width_, tablet _768px <= width < 1440px_ and mobile _360px <= width < 768px_) (e.g., no DOM elements overlap, disappear, etc.):: `+10`
 
 ## Penalties
 
@@ -158,7 +158,6 @@ _It is recommended to print the right answer for each round in the browser's con
 - Once the answer is detected as correct or incorrect, the application still handles new user input on virtual or physical keyboards: `-20`
 - Hiding and displaying additional elements cause the main elements to shift or move: `-20`
 - The sequence is not **randomly generated** for each new round and/or the two new symbols are simply added to the previous sequence: `-50`
-- The app is not supported at the requested width (desktop _1440px <= width_, tablet _768px <= width < 1440px_ and mobile _360px <= width < 768px_) (e.g., DOM elements overlap, disappear, etc.): `-50`
 - `window.location.reload` is used to restart the game when it's over: `-50`
 - The application is not done **in English**: `-150`
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
