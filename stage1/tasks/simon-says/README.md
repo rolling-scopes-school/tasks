@@ -93,7 +93,7 @@ To practice event handling, such as clicks and keyboard inputs.
 - The selected difficulty level persists only for the duration of the browser session. Saving it in the localStorage **is not required**.
 - The application should be done **in English**.
 - The use of `alert`, `prompt`, `confirm` **is prohibited**.
-- The app **must not have** unexpected errors in the console.
+- The app **must not have** unexpected errors in the console. This rule applies only to errors caused by the application itself (errors resulting from installed browser extensions or antiviruses should be ignored).
 
 ## Repository requirements
 
@@ -150,7 +150,7 @@ _It is recommended to print the right answer for each round in the browser's con
 
 ## Penalties
 
-- Unexpected errors in the console (the deduction is only allowed once for each distinct kind of error): `-10 per error`
+- Unexpected errors in the console caused by the application(the deduction is only allowed once for each distinct kind of error): `-10 per error`
 - Feedback messages displayed in page do not disappear when the user clicks the “Repeat the sequence” (if still present and enabled)/"Next" or "New game" buttons: `-10`
 - Feedback messages displayed as separate popups/dialogs do not have a closing button, or the interaction with the page is not disabled when the message is displayed: `-10`
 - More than one key at a time is highlighted when guessing the sequence or more than one key is processed at a time: `-10`
@@ -163,7 +163,7 @@ _It is recommended to print the right answer for each round in the browser's con
 - The application is not done **in English**: `-150`
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
 - `body` in the `index.html` is not empty (can contain only `script` tag). _This requirement can be checked by pressing `Ctrl+U` (Windows) or `Option(⌥)+Command(⌘)+U` (Mac)_: `-150`
-- Not all elements elements are generated using `createElement()` function or JS code is minified, not allowing to check this requirement: `-150`
+- Not all elements are generated using `createElement()` function or JS code is minified, not allowing to check this requirement: `-150`
 - Using `alert`, `prompt`, `confirm`: `-150`
 
 ## Useful links:
