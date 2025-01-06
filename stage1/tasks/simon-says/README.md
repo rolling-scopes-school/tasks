@@ -24,6 +24,7 @@ To practice event handling, such as clicks and keyboard inputs.
 - The user can use both **virtual** _(by clicking keys on the screen)_ and **physical** keyboards _(by pressing keys on their keyboard)_ to play the game.
 - Handling NumPad events **is not required**. NumPad inputs can be ignored during the game.
 - Pressing keys with symbols that are not part of the current difficulty level **must be ignored** during the game _(e.g. for the "Medium" level, pressing any not letter key must be ignored)_.
+- **Only one key** can be processed at a time. If the user attempts to press multiple keys simultaneously, the application should process only the first key press detected to prevent multiple inputs from being registered at the same moment.
 
 ##### Initial game screen
 
@@ -152,7 +153,7 @@ _It is recommended to print the right answer for each round in the browser's con
 - Unexpected errors in the console (the deduction is only allowed once for each distinct kind of error): `-10 per error`
 - Feedback messages displayed in page do not disappear when the user clicks the “Repeat the sequence” (if still present and enabled)/"Next" or "New game" buttons: `-10`
 - Feedback messages displayed as separate popups/dialogs do not have a closing button, or the interaction with the page is not disabled when the message is displayed: `-10`
-- More than one key at a time is highlighted when guessing the sequence: `-10`
+- More than one key at a time is highlighted when guessing the sequence or more than one key is processed at a time: `-10`
 - The symbols that are not part of the current difficulty level are not ignored: `-20`
 - Upper and lower case letters are not treated as the same symbol: `-20`
 - Once the answer is detected as correct or incorrect, the application still handles new user input on virtual or physical keyboards: `-20`
