@@ -247,7 +247,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Hangman"](tasks/simon-says/)
+  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Simon Says"](tasks/simon-says/)
 
 - Modules:
 
