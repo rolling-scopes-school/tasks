@@ -23,7 +23,7 @@ To practice event handling, such as clicks and keyboard inputs.
 - Each new round presents a new **randomly generated** sequence based on the level of difficulty, with the sequence length **increasing by two symbols** each round (culminating in a 10-symbol sequence by the 5th round).
 - The user can use both **virtual** _(by clicking keys on the screen)_ and **physical** keyboards _(by pressing keys on their keyboard)_ to play the game.
 - Handling NumPad events **is not required**. NumPad inputs can be ignored during the game.
-- Pressing keys with symbols that are not part of the current difficulty level or are non-alphanumeric **must be ignored** during the game _(e.g. for the "Medium" level, pressing any not letter key must be ignored)_.
+- Pressing keys with symbols that are not part of the current difficulty level **must be ignored** during the game _(e.g. for the "Medium" level, pressing any not letter key must be ignored)_.
 
 ##### Initial game screen
 
@@ -42,23 +42,25 @@ To practice event handling, such as clicks and keyboard inputs.
   - There is a rounds counter that displays the current round number.
   - The “Start” button disappears.
   - The “Repeat the sequence” and “New game” buttons are displayed.
-- Only after clicking the “Start” button is the first sequence shown by simulating the typing of the corresponding symbols on the virtual keyboard. The typing simulation should be clear: the symbols are “typed” one after another, and the corresponding keys are highlighted.
+  - There is a non-editable input that reflects the sequence typed by the user.
 - The “Repeat the sequence” button is always enabled at the beginning of each new round.
-- The user can click the “Repeat the sequence” button **only once per round**. After that, the “Repeat the sequence” button becomes disabled until the next round (if the user successfully completes the current round).
-- After clicking the “Repeat the Sequence” button:
-  - The same sequence is reproduced one more time.
-  - The round is reset by "removing" the information about inserted symbols, so that the user can start typing the sequence again from its beginning
-  - If the user has already made an incorrect attempt in the current round, the corresponding feedback message is removed.
+- Only after clicking the “Start” button is the first sequence shown by simulating the typing of the corresponding symbols on the virtual keyboard. The typing simulation should be clear: the symbols are “typed” one after another, and the corresponding keys are highlighted for at least 0.3 seconds.
 - No user input (clicking or pressing keys) is allowed during the typing simulation, and all buttons are disabled.
 - Once the typing simulation is finished, the buttons are enabled and user input is allowed. If the user has already clicked the “Repeat the sequence” button, this button remains disabled.
 
 ##### User interaction
 
-- When the user answers by clicking keys on the virtual keyboard, the clicked keys are momentarily highlighted upon clicking to provide visual feedback.
-- When answering by pressing keys on the physical keyboard, the corresponding keys on the virtual keyboard are briefly highlighted upon pressing to provide visual feedback.
+- When the user answers by clicking keys on the virtual keyboard, the clicked keys are momentarily highlighted upon clicking to provide visual feedback. Only one key at a time can be highlighted.
+- When answering by pressing keys on the physical keyboard, the corresponding keys on the virtual keyboard are briefly highlighted upon pressing to provide visual feedback. Only one key at a time can be highlighted.
+- Each symbol entered by the user is immediately displayed in a dedicated, non-editable input field. The input must reflect all the symbols inserted by the user, in the order they were entered.
 - A correct answer is automatically recognized after the user presses **the last key in the sequence**. No additional submit action is required.
 - An incorrect answer is immediately detected upon the **first wrong key press** in the sequence.
 - Once the answer is detected as correct or incorrect, handling any new user input on virtual or physical keyboards **is not allowed**.
+- The user can click the “Repeat the sequence” button **only once per round**. After clicking on "Repeat the sequence" button:
+  - The “Repeat the sequence” button becomes disabled until the next round (if the user successfully completes the current round).
+  - The same sequence is reproduced one more time.
+  - The round is reset by clearing the input with previously inserted sequence (if it's not empty), so that the user can start typing the sequence again from its beginning.
+  - If the user has already made an incorrect attempt in the current round, the corresponding feedback message is removed.
 - The user is allowed only **one incorrect attempt per round**. After a second incorrect attempt in the same round, the game is considered over and the “Repeat the sequence” button, if still enabled, becomes disabled.
 - At any moment (except during the typing simulation), the user can click the “New game” button to restart the game from the **initial game screen** _(see "Initial game screen" section above for details)_. The preselected level of difficulty will remain the same as in the last game (e.g., if the last choice was “Medium”, this option is preselected by default).
 
@@ -82,9 +84,10 @@ To practice event handling, such as clicks and keyboard inputs.
 
 - Initially, `body` in the index.html file should be empty (only script tag is allowed).
 - All necessary elements must be generated using `createElement()` function. No `html` injection is allowed.
-- The design is **adaptive (or responsive)**, that includes desktop(1440px <= width), tablet(768px <= width < 1440px) and mobile(360px <= width < 768px). When switching between versions everything must be displayed correctly, all functionality must be present, no content must disappear or be left beyond the screen.
+- The design is **adaptive (or responsive)**, that includes desktop(1440px <= width), tablet(768px <= width < 1440px) and mobile(360px <= width < 768px). When resizing, all elements must adjust proportionally without abrupt switching, ensuring correct display, full functionality, and no hidden or off-screen content.
 - The design is **at your discretion**.
 - The sequence is **randomly generated** for each new round.
+- Hiding and displaying additional elements must not cause the main elements to shift or move **(e.g. hiding the feedback message must not move the keyboard ensuring that the player can easily follow the sequence)**.
 - Using `window.location.reload` to restart the game when it's over **is not allowed**.
 - The selected difficulty level persists only for the duration of the browser session. Saving it in the localStorage **is not required**.
 - The application should be done **in English**.
@@ -126,13 +129,14 @@ _It is recommended to print the right answer for each round in the browser's con
 - [ ] The game includes 5 rounds, and the rounds counter accurately displays the current round number and updates it after each successful round completion: `+5`
 - [ ] The initial game screen is implemented correctly (presents the "Start" button, the possibility to choose the level of difficulty and a virtual keyboard) and the virtual keyboard updates accordingly when the difficulty is changed: `+10`
 - [ ] Clicking the “Start” button initiates the first round with a sequence of 2 symbols and disables the ability to change the difficulty after starting the game: `+5`
-- [ ] When the first rounds starts, there is an indicator of the current level of difficulty and a rounds counter, as well as the "Repeat the sequence" and "New game" buttons. The "Start" button disappears: `+5`
-- [ ] The new sequence is always accurately simulated by clearly highlighting corresponding keys on the virtual keyboard: `+10`
+- [ ] When the first rounds starts, there is an indicator of the current level of difficulty and a rounds counter, an input that reflects the sequence typed by the user, as well as the "Repeat the sequence" and "New game" buttons. The "Start" button disappears: `+5`
+- [ ] Each symbol in the sequence is accurately simulated by highlighting its corresponding key on the virtual keyboard for at least 0.3 seconds: `+5`
 - [ ] The “Repeat the sequence” button is always enabled at the beginning of each new round, can be clicked only once per round and becomes disabled after a single use: `+5`
-- [ ] The “Repeat the sequence” button reproduces the current sequence when clicked, the feedback message, if any, is removed, and the user can start typing the sequence again from its beginning: `+10`
+- [ ] The “Repeat the sequence” button reproduces the current sequence when clicked, the feedback message, if any, is removed, and the input with previously inserted sequence (if it's not empty) is cleared so that the user can start typing the sequence again from the beginning: `+10`
 - [ ] While the sequence is being displayed through the typing simulation, no user input (clicking or pressing keys) is possible, and all buttons are disabled. After the typing simulation completes, all buttons are re-enabled and user input is permitted. However, if the user has previously clicked the “Repeat the sequence” button during the current round, that button stays disabled: `+5`
 - [ ] The user can play the game by using the virtual keyboard, and the corresponding keys are highlighted upon clicking: `+20`
 - [ ] The user can play the game by using the physical keyboard, and the corresponding virtual keys are briefly highlighted upon pressing: `+20`
+- [ ] Each symbol entered by the user is immediately displayed in a dedicated, non-editable input field. The input reflects all the symbols inserted by the user, in the order they were entered: `+5`
 - [ ] Only one incorrect attempt per round is allowed, and after a second incorrect attempt, the “Repeat the sequence” button becomes disabled (if it's not already): `+5`
 - [ ] The "New game" button is always accessible (except during the typing simulation), allowing the user to restart the game from the initial game screen at any moment: `+5`
 - [ ] A correct answer is automatically recognized after the user presses **the last key in the sequence**, while an incorrect one is immediately detected upon the **first wrong key press** in the sequence: `+10`
@@ -148,9 +152,11 @@ _It is recommended to print the right answer for each round in the browser's con
 - Unexpected errors in the console (the deduction is only allowed once for each distinct kind of error): `-10 per error`
 - Feedback messages displayed in page do not disappear when the user clicks the “Repeat the sequence” (if still present and enabled)/"Next" or "New game" buttons: `-10`
 - Feedback messages displayed as separate popups/dialogs do not have a closing button, or the interaction with the page is not disabled when the message is displayed: `-10`
+- More than one key at a time is highlighted when guessing the sequence: `-10`
 - The symbols that are not part of the current difficulty level are not ignored: `-20`
 - Upper and lower case letters are not treated as the same symbol: `-20`
 - Once the answer is detected as correct or incorrect, the application still handles new user input on virtual or physical keyboards: `-20`
+- Hiding and displaying additional elements cause the main elements to shift or move: `-20`
 - The sequence is not **randomly generated** for each new round and/or the two new symbols are simply added to the previous sequence: `-50`
 - The app is not supported at the requested width (desktop _1440px <= width_, tablet _768px <= width < 1440px_ and mobile _360px <= width < 768px_) (e.g., DOM elements overlap, disappear, etc.): `-50`
 - `window.location.reload` is used to restart the game when it's over: `-50`
