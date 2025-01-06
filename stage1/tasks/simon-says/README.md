@@ -70,7 +70,7 @@ To practice event handling, such as clicks and keyboard inputs.
 - Feedback for an incorrect answer should appear immediately after **the first incorrectly clicked or pressed key**, while feedback for a correct answer should only be displayed after **the entire sequence has been repeated correctly**.
 - If feedback messages are displayed in page:
   - Feedback for an incorrect answer should disappear as soon as the user clicks the “Repeat the sequence” (if still enabled) or "New game" buttons.
-  - Feedback for a correct answer should disappear as soon as the user clicks the “Next” button or "New game" buttons.
+  - Feedback for a correct answer should disappear as soon as the user clicks the “Next” or "New game" buttons.
 - If feedback messages are displayed as separate popups/dialogs:
   - There should be a "Close" or any similar button (e.g. "Ok", "X", etc.) that allows the user to close the message.
   - Any interaction with the page is disabled when the message is displayed.
