@@ -40,7 +40,6 @@ To practice event handling, such as clicks and keyboard inputs.
   - It is not possible to change the level of difficulty.
   - An indicator of the current level of difficulty is always visible on the game screen.
   - There is a rounds counter that displays the current round number.
-- When the first round begins:
   - The “Start” button disappears.
   - The “Repeat the sequence” and “New game” buttons are displayed.
 - Only after clicking the “Start” button is the first sequence shown by simulating the typing of the corresponding symbols on the virtual keyboard. The typing simulation should be clear: the symbols are “typed” one after another, and the corresponding keys are highlighted.
