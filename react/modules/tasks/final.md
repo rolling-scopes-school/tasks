@@ -163,7 +163,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ### Footer
 
-- Footer should contain a link to the authors' GitHub, the year the application was created, [course logo](../../assets/rss-logo.svg) with [link to the course](https://rs.school/react/).
+- Footer should contain a link to the authors' GitHub, the year the application was created, [course logo](../../assets/rss-logo.svg) with [link to the course](https://rs.school/courses/reactjs).
 - Footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up
@@ -283,7 +283,8 @@ Code generation should support at least the following:
 - Java
 - C#
 - Go
-  Please, check the [Postman code generators](https://www.npmjs.com/package/postman-code-generators). Although you can implement the solution on your own, or use any other 3rd party libs.
+
+Please, check the [Postman code generators](https://www.npmjs.com/package/postman-code-generators). Although you can implement the solution on your own, or use any other 3rd party library.
 
 ### Variables
 
@@ -293,10 +294,13 @@ Code generation should support at least the following:
 - Application should load previously saved variables on user's successful authentication.
 - Variable value can be inserted either in the url, or request body, or header value.
 - To indicate that the variable should be used, user can specify it as {{variableName}}.
+  
   Variable in the url:
   `https://wwww.npmjs.com/{{packageName}}`
+  
   Variable in the header:
   `{{APPLICATION_JSON}}`
+  
   Variable in the JSON:
   ```json
   {
