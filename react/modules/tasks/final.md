@@ -294,14 +294,15 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 - Application should load previously saved variables on user's successful authentication.
 - Variable value can be inserted either in the url, or request body, or header value.
 - To indicate that the variable should be used, user can specify it as {{variableName}}.
-  
+
   Variable in the url:
   `https://wwww.npmjs.com/{{packageName}}`
-  
+
   Variable in the header:
   `{{APPLICATION_JSON}}`
-  
+
   Variable in the JSON:
+
   ```json
   {
     "foo": "{{BAR}}"
