@@ -22,9 +22,9 @@
 4. Add routing to your application using **React Router**.
 5. Add a 404 page when user navigates to non-existing route.
 6. Add and configure a test runner: Jest or Vitest. Test runner should show the test coverage.
-   - You should aim to reach at least 70% of the test coverage without testing App.tsx (coverage App.tsx must be 0%).
+   - You should aim to reach at least 70% of the test coverage without testing App.tsx (coverage for App.tsx must be 0%).
    - Include in coverage only tsx files.
-   ```js
+   ```
     coverage: {
       include: ['**/*.tsx'],
       exclude: ['**/node_modules/**', '**/*.test.tsx', '**/*.spec.tsx', 'src/__tests__/setup.ts'],
@@ -39,20 +39,14 @@
    - Validate that clicking on a card opens a detailed card component.
    - Check that clicking triggers an additional API call to fetch detailed information.
 10. Tests for the Detailed Card component:
-
-- Check that a loading indicator is displayed while fetching data.
-- Make sure the detailed card component correctly displays the detailed card data.
-- Ensure that clicking the close button hides the component.
-
+    - Check that a loading indicator is displayed while fetching data.
+    - Make sure the detailed card component correctly displays the detailed card data.
+    - Ensure that clicking the close button hides the component.
 11. Tests for the Pagination component:
-
-- Make sure the component updates URL query parameter when page changes.
-
+    - Make sure the component updates URL query parameter when page changes.
 12. Tests for the Search component:
-
-- Verify that clicking the Search button saves the entered value to the local storage.
-- Check that the component retrieves the value from the local storage upon mounting.
-
+    - Verify that clicking the Search button saves the entered value to the local storage.
+    - Check that the component retrieves the value from the local storage upon mounting.
 13. Lastly, update Husky to run tests on the pre-push hook, ensuring that tests are automatically executed before any code is pushed.
 
 ## Points
@@ -79,7 +73,8 @@ A student can achieve a maximum of 100 points.
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-- Test coverage <70% but >= 60% (at least for `statements`): **-10 points**
+- Test coverage below 70% but >=60% (at least for `statements`): **-10 points**
+- Test coverage below 60% (at least for `statements`): **-50 points**
 - Test coverage include test for App.tsx: **-50 points**
 - Commits after the deadline: **-40 points**
 - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
