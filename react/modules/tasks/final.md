@@ -377,14 +377,9 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 ## Evaluation criteria
 
-**Maximum available points for the task are 500**
+**Maximum available points for the task are 450**
 
-It contains:
-
-- maximum 450 for crosscheck
-- maximum 50 for your involvement in a project. Those points will be assigned by the mentor for each student.
-
-## Cross-check criteria
+### Cross-check criteria
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 [How to evaluate tasks in Cross check](https://docs.rs.school/#/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
