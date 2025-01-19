@@ -19,7 +19,7 @@
 3. All logic should be split into components:
    - If you need an access either to the component's lifecycle or the state **use hooks**.
    - All data should be stored in the **component's state**.
-4. Add routing to your application using **React Router**.
+4. Add routing to your application using **React Router**. Use [SPA (non-SSR)](https://reactrouter.com/start/framework/rendering#client-side-rendering) mode.
 5. Add a 404 page when user navigates to non-existing route.
 6. Add and configure a test runner: Jest or Vitest. Test runner should show the test coverage.
    - You should aim to reach at least 70% of the test coverage without testing App.tsx (coverage for App.tsx must be 0%).

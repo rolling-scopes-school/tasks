@@ -25,10 +25,13 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Redux, Redux Toolkit, and RTK Query:**
+
    - [Redux Essentials](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) - 4 hours
    - [Why Redux Toolkit is How To Use Redux Today](https://redux-toolkit.js.org/introduction/why-rtk-is-redux-today) - 1 hour
    - [RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview) - 1 hour
+
 2. **Implementing Redux in React applications:**
+
    - [Redux Toolkit Getting Started Using The Official Templates](https://redux-toolkit.js.org/introduction/getting-started) - 1 hour
    - [Redux Toolkit Quick Start By Adding To An Existing App](https://redux-toolkit.js.org/tutorials/quick-start) - 1 hour
    - [RTK Query Quick Start](https://redux-toolkit.js.org/tutorials/rtk-query/) - 1 hour
@@ -42,3 +45,9 @@ Expand your knowledge with these additional materials:
 - [Redux Thunk](https://redux.js.org/usage/writing-logic-thunks) - Explore Redux Thunk middleware for handling asynchronous actions.
 - [React Redux Hooks](https://react-redux.js.org/api/hooks) - Explore React Redux hooks for functional components.
 - [Redux DevTools Extension](https://redux.js.org/tutorials/fundamentals/part-6-async-logic#redux-devtools-extension) - Debug your Redux state changes effectively.
+
+## Alternative state management solutions:
+
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Jotai](https://jotai.org/)
+- [MobX](https://mobx.js.org/README.html)
