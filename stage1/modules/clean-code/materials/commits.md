@@ -68,8 +68,6 @@ Long story short, all changes in a commit should be described by one sentence wi
   ```
   refactor: change structure of the project
   refactor: rename vars for better readability
-  refactor: apply eslint
-  refactor: apply prettier
   ```
 
 - `docs`: is used for docs/README updates.
@@ -79,6 +77,26 @@ Long story short, all changes in a commit should be described by one sentence wi
   ```
   docs: update readme with additional information
   docs: update description of run() method
+  ```
+
+- `style`: is used for changes in code style and formatting.
+
+  **Examples:**
+
+  ```
+  style: remove trailing white spaces
+  style: add missing semi-colons
+  style: format code with prettier
+  ```
+
+- `chore`: other changes that don't modify src or test files.
+
+  **Examples:**
+
+  ```
+  chore: update .gitignore to exclude logs
+  chore: add .editorconfig file for uniform code formatting
+  chore: rename environment variable file to .env.example
   ```
 
 ## PR Requirements
