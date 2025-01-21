@@ -30,8 +30,12 @@ Students are recommended to study the following resources:
    - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context) - [30 minutes]
 
 2. **Implementing Context API:**
+
    - How to Use the [React Context API](https://www.freecodecamp.org/news/context-api-in-react/) - [1 hour]
    - [Learn useContext In 13 Minutes](https://www.youtube.com/watch?v=5LrDIWkK_Bc) - [15 minutes]
+
+3. **New `use` hook:**
+   - Usage of `use` - [new React API](https://react.dev/reference/react/use)
 
 ## Additional Resources 📘
 

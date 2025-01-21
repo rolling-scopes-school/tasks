@@ -23,6 +23,38 @@ Students will:
 
 - **7 hours**
 
+## React 19 and the _useActionState_
+
+### What is useActionState?
+
+The [`useActionState`](https://react.dev/reference/react/useActionState) hook is a new addition in React 19 that allows developers to manage state in a more declarative and efficient manner. It is designed to simplify state management by providing a way to define state transitions directly within the component.
+
+### How does it work?
+
+- **Declarative State Transitions:** `useActionState` allows you to define state transitions in a declarative manner, making your code more readable and easier to maintain.
+- **Efficiency:** By managing state transitions more efficiently, `useActionState` can help reduce unnecessary re-renders and improve the performance of your application.
+- **Integration with Actions:** The hook integrates seamlessly with actions, allowing you to define how state should change in response to specific actions.
+
+### Example Usage
+
+```jsx
+import { useActionState } from "react";
+
+async function increment(previousState, formData) {
+  return previousState + 1;
+}
+
+function StatefulForm({}) {
+  const [state, formAction] = useActionState(increment, 0);
+  return (
+    <form>
+      {state}
+      <button formAction={formAction}>Increment</button>
+    </form>
+  );
+}
+```
+
 ## Theory 📖
 
 Students are encouraged to explore the following resources:

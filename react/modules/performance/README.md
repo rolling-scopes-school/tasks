@@ -23,6 +23,30 @@ Students will:
 
 - **7 hours**
 
+## React Compiler (beta)
+
+### What is the React Compiler?
+
+The React Compiler is an upcoming feature in React that aims to optimize the performance of React applications by transforming the code at build time. It analyzes the React components and applies various optimizations to improve the runtime performance and reduce the bundle size.
+
+### How is it Connected to React Performance?
+
+The React Compiler enhances performance by:
+
+- **Code Transformation:** It transforms the React code to make it more efficient, reducing the amount of work the browser needs to do at runtime.
+- **Static Analysis:** By analyzing the code statically, it can identify and eliminate unnecessary re-renders and optimize the rendering process.
+- **Optimized Output:** The compiler generates optimized JavaScript code that runs faster and consumes less memory.
+
+### Necessity of Understanding React Performance
+
+Understanding how React achieves performance is crucial because:
+
+- **Efficient Development:** Knowledge of performance optimization techniques allows developers to write more efficient and scalable React applications.
+- **Debugging:** It helps in identifying and fixing performance bottlenecks in the application.
+- **Leveraging New Features:** Being aware of the upcoming features like the React Compiler enables developers to take full advantage of the latest optimizations and improvements in React.
+
+For more information, refer to the [React Compiler documentation](https://react.dev/learn/react-compiler).
+
 ## Theory 📖
 
 Students are encouraged to explore the following resources:
