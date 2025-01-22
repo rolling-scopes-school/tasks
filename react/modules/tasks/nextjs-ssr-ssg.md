@@ -14,7 +14,7 @@
 4. [Optional] React Router 7 Integration:
    - Create a separate branch for this point from the previous branch task. Branch name: "react-router-ssr".
    - [Update routing](https://reactrouter.com/start/framework/routing)
-   - Migrate your application to ssr with React Router 7: data fetching should be done via loaders on the server-side
+   - Migrate your application to SSR with React Router 7: data fetching should be done via loaders on the server-side
 
 ## Application Requirements
 
