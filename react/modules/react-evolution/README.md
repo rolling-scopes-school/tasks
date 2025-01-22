@@ -237,7 +237,7 @@ approach for testing and getting feedback on new features before stable release.
 ### 2024:
 
 Versions: 19.0.0 (December 05, 2024)
-(What's new in React 19)[https://react.dev/blog/2024/12/05/react-19#whats-new-in-react-19]
+[What's new in React 19](https://react.dev/blog/2024/12/05/react-19#whats-new-in-react-19)
 
 React 19 release brings a host of groundbreaking features that significantly enhance the development experience and application performance. Let's explore four key innovations:
 
