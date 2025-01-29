@@ -71,6 +71,8 @@ Non-successful response.
 
 5. **Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.**
 
+6. You can use CSS frameworks (e.g. Tailwind CSS).
+
 ## Points
 
 ### Student can get 100 points:
