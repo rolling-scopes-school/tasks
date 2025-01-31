@@ -42,11 +42,11 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## General Requirements
 
-- `<body>` in the `index.html` must be empty (only `<script>` tag is allowed). _(You can check this with the `View page source` option in the context menu in google chrome.)_
+- `<body>` in the `index.html` must be empty (only `<script>` tag is allowed). _(You can check this with the `View page source` option in the context menu in Google Chrome.)_
 - App must be supported at `640px <= width <= 1280px` at least _(DOM elements should not go out of bounds of parent elements, overlap, etc.)_.
 - The use of `alert`, `prompt`, `confirm` is prohibited.
 - App must not have unexpected errors in the console.
-- The app must be supported by at least the latest version of the “google chrome” browser.
+- The app must be supported by at least the latest version of the Google Chrome browser.
 
 ## Technical Requirements (160 points total)
 
@@ -147,7 +147,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 #### Bundling and Modularity (12/80)
 
 1. (+4) HTML elements are generated using a utility function or class.
-2. (+4) The code is logically divided into modules/layers. _(you can consult your mentor about architecture.)_.
+2. (+4) The code is logically divided into modules/layers. _(you can consult your mentor about architecture.)_
 3. (+4) The application is built by a bundler.
 
 #### Clear and Reusable Functions (16/80)
@@ -407,7 +407,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 - Submit app for crosscheck according to [Submission Requirements](#repository-and-submission-requirements).
 - Evaluation is based on [Functional Requirements](#functional-requirements-256-points-total).
-- Check on the latest version of the “google chrome” browser.
+- Check on the latest version of the Google Chrome browser.
 
 ## Crosscheck Penalties (Up to -100%)
 
