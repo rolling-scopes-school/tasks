@@ -152,7 +152,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Clear and Reusable Functions (16/80)
 
-1. (+8) The code is divided into small functions (≤ 40 lines each) with clear names and purposes. The same applies to classes and their methods. _(ESLint rule `max-lines-per-function` may be useful for this.)_
+1. (+8) The code is divided into small functions (≤ 40 lines each or according to the mentor's preference) with clear names and purposes. The same applies to classes and their methods. _(ESLint rule `max-lines-per-function` may be useful for this.)_
 2. (+8) Arguments and return values of functions and methods are explicitly typed.
 
 #### Care About Types (48/80)
