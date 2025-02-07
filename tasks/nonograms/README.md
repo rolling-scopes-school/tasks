@@ -28,7 +28,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 - a player is able to fill in a cell in the grid changing the color of the grid to crossed-cell(X) using right mouse-click. Context menu should not appear. Filling empty cells with X is not obligatory to win the game.
 - the game can be restarted (reset) without reloading the page (for example, by clicking on button `Reset game`). After clicking the button the level of game and template (picture) should not be changed - it means that only filled cells will be reset. Otherwise the player can change game template or game level (for example, you could implement menu with options) without reloading the page.
 - display the game duration in format XX:XX, stop-watch will start after first click on field (not on clues). "Great! You have solved the nonogram in ## seconds!" is displayed after winning.
-- the game should include sound effects for events such as mark a cell as black, flagging a cell as X, flagging a cell as empty and win game.
+- the game should include sound effects for events such as mark a cell as black, flagging a cell as X, flagging a cell as empty and win game. There should be a "Sound on/off" button that toggles sound effects.
 - the staging of the game is saved (for example, using localStorage) by clicking on button "Save game", so that when player clicks on button "continue last game", he can continue playing from where he left off.
 
 `Additional (to get extra points):`
