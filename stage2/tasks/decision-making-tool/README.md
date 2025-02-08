@@ -395,18 +395,18 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 8. (+4) In the `picking state`, each `option section title` shall not change its location relative to the boundaries of its `option section`. _It means that visually `option section title` and `option section` should rotate as an indivisible element._
 9. (+2) In the `picking state`, the `cursor` must stay in its place and not rotate.
 
-### Error page (5 points)
+### Error page (4 points)
 
-#### General (5/5)
+#### General (4/4)
 
-1. (+2) Implemented `Error page` display if the user is on an unknown route.
+1. (+1) Implemented `Error page` display if the user is on an unknown route.
 2. (+1) The `Error page` displays a `back button` for navigating to the [`List of Options` route](#list-of-options-108-points). The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Back", "Back to main page", "⬅", "↖" etc.)_.
 3. (+2) The `back button` click must navigate to the `List of Options` route.
 
 ## Crosscheck Evaluation
 
 - Submit app for crosscheck according to [Submission Requirements](#repository-and-submission-requirements).
-- Evaluation is based on [Functional Requirements](#functional-requirements-256-points-total).
+- Evaluation is based on [Functional Requirements](#functional-requirements-255-points-total).
 - Check on the latest version of the Google Chrome browser.
 
 ## Crosscheck Penalties (Up to -100%)
