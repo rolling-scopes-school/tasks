@@ -78,7 +78,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 1. (+2) [Prettier](https://prettier.io/) must be installed to developer dependencies.
 2. (+2) Prettier configuration file is added to the project and used.
-3. (+4) `package.json` must contain 2 scripts: `ci:format` for checking issues with CI and `format` for manually formatting project files. _The `prettier` command has many useful options, such as `--list-different` and `--ignore-unknown`._
+3. (+4) `package.json` must contain `format` script for formatting project files. _The `prettier` command has many useful options, such as `--list-different` and `--ignore-unknown`._
 
 #### ESLint (40/80)
 
@@ -108,7 +108,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-config-airbnb-typescript`](https://www.npmjs.com/package/eslint-config-airbnb-typescript), [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) (do not confuse it with `eslint-plugin-prettier`. it is [not recommended](https://prettier.io/docs/en/integrating-with-linters.html#:~:text=generally%20not%20recommended) by the prettier documentation.) and the necessary dependencies for them to work.
    - _With the mentor's permission, it is acceptable to disable or tweak some rules (e.g. `import/prefer-default-export`, `no-underscore-dangle`, etc.) as long as it does not conflict with penalties._
    - _It is allowed to tweak the config to be stricter to make your code even cleaner (according to your or your mentor's preference)._
-6. (+4) `package.json` must contain 2 scripts: `ci:lint` for checking issues with CI and `lint` for manually checking project files.
+6. (+4) `package.json` must contain `lint` script for checking project files.
 
 #### StyleLint (10/80)
 
@@ -117,7 +117,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 1. (+2) [StyleLint](https://stylelint.io/) must be installed to developer dependencies.
 2. (+2) StyleLint configuration file is added to the project and used.
 3. (+2) StyleLint configuration file must be configured with [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) and [`stylelint-config-clean-order`](https://github.com/kutsan/stylelint-config-clean-order). _It is acceptable to disable or tweak some rules for better DX._
-4. (+4) `package.json` must contain 2 scripts: `ci:stylelint` for checking issues with CI and `stylelint` for manually checking project files.
+4. (+4) `package.json` must contain `stylelint` script for checking project files.
 
 #### Husky (10/80)
 
@@ -128,7 +128,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 1. (+2) [`husky`](https://typicode.github.io/husky/), [`lint-staged`](https://github.com/lint-staged/lint-staged) and [`commitlint`](https://commitlint.js.org/) must be installed to developer dependencies.
 2. (+2) `husky` must be configured to run `lint-staged` on the `pre-commit` hook.
 3. (+2) `husky` must be configured to run `commitlint` on the `commit-msg` hook.
-4. (+2) `lint-staged` must be configured to run `ci:` scripts at least for javascript/typescript and css/scss/etc. files.
+4. (+2) `lint-staged` must be configured to run `eslint`, `stylelint` and `prettier` at least for javascript/typescript and css/scss/etc. files.
 5. (+2) `commitlint` must be configured with [`@commitlint/config-conventional`](https://www.npmjs.com/package/@commitlint/config-conventional).
 
 ### Code Quality (80 points)
