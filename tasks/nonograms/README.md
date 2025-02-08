@@ -21,6 +21,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 - for the game field: every 5 cells in rows and columns should be divided by a divider (bold line). For clues: every 5 cells in **rows** should be divided by a divider (for left clues); every 5 cells in **columns** should be divided by a divider (for top clues). Clues should be divided from game field by bold line.
 - a player is able to fill in a cell in the grid, using left mouse-click. On a click event, trigger the functionality of changing the color of the grid to dark (black). When player clicks on dark cell - it will change to empty (white).
 - game ends when player fills all the **black** (dark) cells correctly according to the clues and board can no longer be interacted with. Upon a successful solution solution, display "Great! You have solved the nonogram!" (in case the stop-watch implementation was skipped).
+
 `Advanced:`
 
 - the game should have at least 5 templates for easy level (5x5). Players should be able to choose the picture they wish to solve, possibly through a list of items. You might implement it in three ways: (1) a list of possible templates with images (solved puzzles), (2) a list using template names (without pictures), or (3) a combination of both images and names. The user should easily understand the difficulty level of the image.
