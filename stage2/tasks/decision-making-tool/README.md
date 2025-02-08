@@ -70,7 +70,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 1. (+2) [TypeScript](https://www.typescriptlang.org/) must be installed to developer dependencies.
 2. (+2) TypeScript configuration file is added to the project and used.
-3. (+8) TypeScript configuration file must include the `strict` options enabled.
+3. (+8) TypeScript configuration file must have all of the [strict mode family options](https://www.typescriptlang.org/tsconfig/#strict) enabled.
 
 #### Prettier (8/80)
 
@@ -141,7 +141,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Code Smells (4/80)
 
-1. (+2) The code does not contain magic values.
+1. (+2) The code does not contain magic (hardcoded) values. _([magic numbers](https://refactoring.guru/replace-magic-number-with-symbolic-constant), [magic strings](https://dev.to/josuews303/dont-use-magic-strings-2aol), etc.)_
 2. (+2) Code contains minimal or no code duplication at all.
 
 #### Bundling and Modularity (12/80)
@@ -163,7 +163,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+16) The code does not contain any explicit or implicit `any`.
 3. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
 
-## Functional Requirements (256 points total)
+## Functional Requirements (255 points total)
 
 ### List of Options (108 points)
 
