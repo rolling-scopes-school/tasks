@@ -53,7 +53,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ### General
 
 - Language: Application written in TypeScript.
-- Required: Prettier, ESLint, StyleLint and libraries for them.
+- Required: Prettier, ESLint, StyleLint. _(It is allowed to use configs and plugins for this tools.)_
 - Required: Husky, lint-staged, commitlint.
 - Required: Bundlers (webpack, vite). _(It is allowed to use bundler's plugins.)_
 - Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`), `clsx`/`classnames` package.
@@ -86,8 +86,8 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 1. (+2) [ESLint](https://eslint.org/) must be installed to developer dependencies.
 2. (+2) ESLint configuration file is added to the project and used. _(both [`flat`](https://eslint.org/docs/latest/use/configure/configuration-files) and [`legacy`](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated) config formats are allowed.)_
-3. (+8) ESLint configuration file must include the `noInlineConfig` and `reportUnusedDisableDirectives` options enabled.
-4. (+8) ESLint configuration file must include all of the following rules included:
+3. (+8) ESLint configuration file must have the `noInlineConfig` and `reportUnusedDisableDirectives` options enabled.
+4. (+8) ESLint configuration file must contain all of the following rules:
 
    ```json
    {
@@ -137,7 +137,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 >
 > For creating elements that will need to be accessed by code, a great solution is to use `createElement` and variables. For clearing/replacing element content, `replaceChildren` may be useful. To add elements that will not need to be accessed by code, it is acceptable to use `insertAdjacentHTML`.
 >
-> This won't cause any pain if you at least just write a reusable function that takes in the necessary element settings (`tagName`, `className`, `textContent`, etc.) and returns a ready-to-use element.
+> This won't cause any pain if you at least just write a reusable function (or class) that takes in the necessary element settings (`tagName`, `className`, `textContent`, etc.) and returns a ready-to-use element (or component).
 
 #### Code Smells (4/80)
 
@@ -148,11 +148,11 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 1. (+4) HTML elements are generated using a utility function or class.
 2. (+4) The code is logically divided into modules/layers. _(you can consult your mentor about architecture.)_
-3. (+4) The application is built by a bundler.
+3. (+4) The application is built with a bundler.
 
 #### Clear and Reusable Functions (16/80)
 
-1. (+8) The code is divided into small functions (≤ 40 lines each or according to the mentor's preference) with clear names and purposes. The same applies to classes and their methods. _(ESLint rule `max-lines-per-function` may be useful for this.)_
+1. (+8) The code is divided into small functions (≤ 40 lines each or according to the mentor's preference) with clear names and purposes. The same applies to methods of classes. _(ESLint rule `max-lines-per-function` may be useful for this.)_
 2. (+8) Arguments and return values of functions and methods are explicitly typed.
 
 #### Care About Types (48/80)
