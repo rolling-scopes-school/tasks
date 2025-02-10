@@ -62,7 +62,7 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 
 1. Create a new branch `gh-pages` from the `main` branch.
 2. Create a new branch `typescript-essentials` from the `main` branch.
-3. In the `typescript-essentials` branch, create an MD file, **for example** with the name `typescript-badges-compilation.md`.
+3. In the `typescript-essentials` branch, create a `badges-compilation.md` file.
 
 ### Pull Requests
 
@@ -71,7 +71,7 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 
 ## 💼 Task Submission to Cross-Check Rules
 
-Due to the fact that the repository is private, the link to the deployment will not work. If you did everything as described in the `Manage branches` section, then the deployment link will look like this `https://<YOUR-GITHUB-USERNAME>.github.io/typescript-essentials/<MD-FILE-NAME>`
+Due to the fact that the repository is private, the link to the deployment will not work. If you did everything as described in the `Manage branches` section, then the deployment link will look like this `https://<YOUR-GITHUB-USERNAME>.github.io/typescript-essentials/badges-compilation`
 
 ### !!! Note !!!
 
