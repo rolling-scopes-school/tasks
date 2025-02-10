@@ -71,7 +71,7 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 
 ## 💼 Task Submission to Cross-Check Rules
 
-Due to the fact that the repository is private, the link to the deployment will not work. If you did everything as described in the `Manage branches` section, then the deployment link will look like this `https://<YOUR-GITHUB-USERNAME>.github.io/typescript-essentials/badges-compilation`
+Due to the fact that the repository is private, the link to the deployment will not work. If you did everything as described in the `Branch Management` section, then the deployment link will look like this `https://<YOUR-GITHUB-USERNAME>.github.io/typescript-essentials/badges-compilation`
 
 ### !!! Note !!!
 
