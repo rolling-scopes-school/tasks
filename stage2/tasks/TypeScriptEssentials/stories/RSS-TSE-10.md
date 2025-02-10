@@ -23,7 +23,7 @@ This task requires crafting personal reflections for each TypeScript module comp
 
 4. **Documentation:**
 
-   - Compile these reflections in a Markdown file named `TypeScript-Modules-Reflections.md` or similar.
+   - Compile these reflections in a Markdown file named `badges-compilation.md` or similar.
    - Structure the document clearly, with separate sections for each module reflection.
 
 ## ✅ Acceptance Criteria
