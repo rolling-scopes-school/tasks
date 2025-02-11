@@ -59,7 +59,6 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`), `clsx`/`classnames` package.
 - Prohibited: Frameworks like Angular, React, Vue, etc.
 - Prohibited: jQuery.
-- Prohibited: eslint-plugin-prettier.
 - Prohibited: Third-party libraries not listed in the allowed libraries.
 
 ### Code Formatting and Linting (80 points)
@@ -105,9 +104,37 @@ The second part of the application (`Decision Picker`) allows you to visualize t
    }
    ```
 
-5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-config-airbnb-typescript`](https://www.npmjs.com/package/eslint-config-airbnb-typescript), [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) (do not confuse it with `eslint-plugin-prettier`. it is [not recommended](https://prettier.io/docs/en/integrating-with-linters.html#:~:text=generally%20not%20recommended) by the prettier documentation.) and the necessary dependencies for them to work.
-   - _With the mentor's permission, it is acceptable to disable or tweak some rules (e.g. `import/prefer-default-export`, `no-underscore-dangle`, etc.) as long as it does not conflict with penalties._
+5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-plugin-unicorn`](https://github.com/sindresorhus/eslint-plugin-unicorn#readme) (with enabled [recommended preset config](https://github.com/sindresorhus/eslint-plugin-unicorn?tab=readme-ov-file#preset-configs)) and the necessary dependencies for them to work.
+
+   - _With the mentor's permission, it is acceptable to disable or tweak some rules as long as it does not conflict with penalties. e.g.:_
+
+     ```json
+     {
+       "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+       "unicorn/no-array-callback-reference": "off",
+       "unicorn/no-array-for-each": "off",
+       "unicorn/no-array-reduce": "off",
+       "unicorn/no-null": "off",
+       "unicorn/number-literal-case": "off",
+       "unicorn/numeric-separators-style": "off",
+       "unicorn/prevent-abbreviations": [
+         "error",
+         {
+           "allowList": {
+             "acc": true,
+             "env": true,
+             "i": true,
+             "j": true,
+             "props": true,
+             "Props": true
+           }
+         }
+       ]
+     }
+     ```
+
    - _It is allowed to tweak the config to be stricter to make your code even cleaner (according to your or your mentor's preference)._
+
 6. (+4) `package.json` must contain `lint` script for checking project files.
 
 #### StyleLint (10/80)
