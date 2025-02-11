@@ -100,3 +100,9 @@
             "format:fix": "prettier --write ."
         ```
         You can check the final setup [here](https://github.com/kravaring/rs-react-app).
+
+Here’s your addition in polished English:
+
+---
+
+⚠️ **Attention** ⚠️: Your final setup may differ from what is presented here, depending on course requirements and personal preferences. The use of `any` is typically discouraged, and we would prefer the plugins mentioned above to be utilized. This guide is intended to assist beginners and should not restrict more advanced users.
