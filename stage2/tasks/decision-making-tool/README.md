@@ -160,7 +160,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ### Code Quality (80 points)
 
-> The use of innerHTML is prohibited. Use of DOM search methods is prohibited. ([there are good reasons for not using them](https://gist.github.com/TELEUZI/410d19772481d98b06e0b41ebf89fff1#naive-implementation-).)
+> The use of innerHTML is prohibited. Use of DOM search methods (querySelector*, getElement*, etc.) is prohibited. ([there are good reasons for not using them](https://gist.github.com/TELEUZI/410d19772481d98b06e0b41ebf89fff1#naive-implementation-).)
 >
 > For creating elements that will need to be accessed by code, a great solution is to use `createElement` and variables. For clearing/replacing element content, `replaceChildren` may be useful. To add elements that will not need to be accessed by code, it is acceptable to use `insertAdjacentHTML`.
 >
