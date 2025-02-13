@@ -104,7 +104,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
    }
    ```
 
-5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-plugin-unicorn`](https://github.com/sindresorhus/eslint-plugin-unicorn#readme) (with enabled [recommended preset config](https://github.com/sindresorhus/eslint-plugin-unicorn?tab=readme-ov-file#preset-configs)) and the necessary dependencies for them to work.
+5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-plugin-unicorn`](https://www.npmjs.com/package/eslint-plugin-unicorn) (with enabled [recommended preset config](https://www.npmjs.com/package/eslint-plugin-unicorn#preset-configs-eslintconfigjs)) and the necessary dependencies for them to work.
 
    - _With the mentor's permission, it is acceptable to disable or tweak some rules as long as it does not conflict with penalties. e.g.:_
 
@@ -478,4 +478,4 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## Assignment Feedback
 
-[Feedback](https://forms.gle/LZ8jYqKueJpCrqSR7) | [Q&A (form)](https://forms.gle/GvhN7VPSCGPyb6ad8) | [Q&A (answers)](https://docs.google.com/spreadsheets/d/1MZMyL9h9zK6flH3QGuX_7FkrXnRkMOZtbQw5ITsBp-g/pubhtml?gid=1977116421&single=true)
+[Feedback](https://forms.gle/WrUrSZrHWGtunZKU6) | [Q&A (form)](https://forms.gle/nNFdLDG4qSbcKPVUA) | [Q&A (answers)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2fPnnF5G2WjjatO0Kf_YqWexUhWhBxGIJv_92Wo2pau2tfyNxGmU4hP8EGzTYWw6MRUtqgHDZxVmd/pubhtml?gid=194706600&single=true)
