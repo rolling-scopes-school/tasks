@@ -41,7 +41,7 @@
 
 - The appearance of the application matches the proposed sample or is an improved version of it.
 - The layout is adaptive. The minimum page width at which the correctness of the application display is checked is `320px`, and the maximum page width is `1920px`.
-- The application's footer includes a link to the author's GitHub, the year of the application's creation, and the [course logo](https://rs.school/images/rs_school_js.svg) with a [link to the course](https://rs.school/js/).
+- The application's footer includes a link to the author's GitHub, the year of the application's creation, and the [course logo](https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg) with a [link to the course](https://rs.school/courses/javascript).
 
 ## Technical Requirements
 
