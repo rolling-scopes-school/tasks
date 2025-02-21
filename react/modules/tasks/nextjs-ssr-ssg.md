@@ -4,7 +4,7 @@
 
 1. Create a separate branch for this task from the previous branch task. Branch name: "nextjs-ssr-pages-api".
 2. Next.js Pages Api Integration:
-   - [Migrate your application from vite to next.js by using Pages folder API](https://nextjs.org/docs/pages/building-your-application/upgrading/from-vite).
+   - [Migrate your application from vite to next.js by using Pages folder API](https://www.geeksforgeeks.org/next-js-upgrading-migrating-from-vite/?ysclid=m7dms13nb6414592988#steps-to-migrate-from-vite).
    - React-router should be removed. You must use file-based routing provided by next.js (Pages Api).
    - You may need to adapt some existing libraries to work with next.js if necessary.
 3. Next.js App Router Api Integration:
