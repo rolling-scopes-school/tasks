@@ -82,7 +82,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 6. React Redux
 
-### Week #5 (29th of July, 2025)
+### Week #5 (24th of February, 2025)
 
 #### Theory
 
@@ -96,7 +96,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 7. React SSR
 
-### Week #6 (24th of February, 2025)
+### Week #6 (3rd of March, 2025)
 
 #### Theory
 
@@ -110,7 +110,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 7. React SSR
 
-### Week #7 (3rd of March, 2025)
+### Week #7 (10th of March, 2025)
 
 #### Theory
 
@@ -124,7 +124,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 - Test 8. React forms
 
-### Week #8 (10th of March, 2025)
+### Week #8 (17th of March, 2025)
 
 #### Theory
 
@@ -134,27 +134,27 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 [Task 6](modules/tasks/performance.md)
 
-### Week #9 (17th of March, 2025)
+### Week #9 (24th of March, 2025)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #10 (24th of March, 2025)
+### Week #10 (31st of March, 2025)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #11 (31st of March, 2025)
+### Week #11 (7th of April, 2025)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #12 (7th of April, 2025)
+### Week #12 (14th of April, 2025)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #13 (14th of April, 2025)
+### Week #13 (21st of April, 2025)
 
 Cross-check review: - [REST client](modules/tasks/final.md)
 
