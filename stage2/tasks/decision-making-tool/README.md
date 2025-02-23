@@ -56,7 +56,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - Required: Prettier, ESLint, StyleLint. _(It is allowed to use configs and plugins for this tools.)_
 - Required: Husky, lint-staged, commitlint.
 - Required: Bundlers (webpack, vite). _(It is allowed to use bundler's plugins.)_
-- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`), `clsx`/`classnames` package.
+- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`), `clsx`/`classnames` package.
 - Prohibited: Frameworks like Angular, React, Vue, etc.
 - Prohibited: jQuery.
 - Prohibited: Third-party libraries not listed in the allowed libraries.
