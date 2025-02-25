@@ -416,7 +416,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 1. (+2) When decision picking is initiated, the wheel must start rotating and stop after a short duration.
 2. (+4) The rotation duration must be specified by the `duration` element. That is, it should correspond to its value (in seconds) at the moment of rotation start. _Be loyal when crosschecking. A small inaccuracy is acceptable. There is no need to reduce points for a difference of a couple of seconds._
 3. (+4) The rotation should have a non-linear velocity. Use a suitable easing _(e.g. `ease-in-out` or `ease-in-out-back` with a tiny magnitude)_.
-4. (+4) The wheel must perform several full turns (minimum 5) and stop at a randomly picked option.
+4. (+4) The wheel must perform several full turns (minimum 5) and stop at a random point on the circumference _(at a random position on the random option section)_.
 5. (+2) A `finish sound` must be played when `picking state` is changed to `picked state` if `mute state` is toggled `on`.
 6. (+2) A `finish sound` must not be played if `mute state` is toggled `off`.
 7. (+4) In the `picking state`, `option sections` must not change their order, shape, color. _It means that visually the `option sections` shall rotate as an indivisible whole wheel._
