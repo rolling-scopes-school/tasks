@@ -218,11 +218,14 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ##### `id`
 
+> `id` - is a constant [unique identifier](https://en.wikipedia.org/wiki/Unique_identifier) (not just a sequence number).
+
 1. (+1) Each option's `id` must be displayed.
 2. (+2) Each option's `id` must be unique.
 3. (+2) Each option's `id` must be in `#n` format _(`#1`, `#2`, `#3`, and so on)_.
 4. (+2) Each option's `id` must be generated programmatically at creation _(user cannot change it directly in this element)_.
-5. (+2) When the list of options becomes completely empty, the `id` counter must be reset.
+5. (+1) Each option's `id` must be constant and not affected by deletion of any other option.
+6. (+1) When the list of options becomes completely empty, the `id` counter must be reset.
 
 ##### `title`
 
