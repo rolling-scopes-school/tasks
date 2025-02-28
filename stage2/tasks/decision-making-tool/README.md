@@ -185,11 +185,13 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Care About Types (48/80)
 
-> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
+> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)  
+> Type assertions (`x as SomeType`) and non-nullability assertions (`y!`) are unsafe. Both only silence the TypeScript compiler, but do not insert any runtime checks to match these assertions, so they can cause your program to crash at runtime.
 
-1. (+16) The code does not contain any type assertions.
-2. (+16) The code does not contain any explicit or implicit `any`.
-3. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
+1. (+8) The code does not contain any type assertions.
+2. (+8) The code does not contain any non-nullability assertions.
+3. (+16) The code does not contain any explicit or implicit `any`.
+4. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
 
 ## Functional Requirements (255 points total)
 
@@ -462,7 +464,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - (-70%) Use of innerHTML or DOM search methods (querySelector*, getElement*, etc.).
 - (-5 per error) Every error related to linters, TypeScript, or Prettier results in a 5 point penalty.
 - (-5 per instance) Each use of any in a project results in a 5 point penalty.
-- (-5 per instance) Each use of type assertion in a project results in a 5 point penalty.
+- (-5 per instance) Each use of type assertion or non-nullability assertion in a project results in a 5 point penalty.
 - (up to -50) There are unresolved mentor comments on the quality of the code or the content of the configs.
 
 ## Useful links
@@ -477,6 +479,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - [Easings](https://easings.net/)
 - [TS: Type Guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
 - [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
+- [Google: Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 - [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)
 - [Wiki: SPA](https://en.wikipedia.org/wiki/Single-page_application)
 
