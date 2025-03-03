@@ -32,12 +32,12 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## Repository and Submission Requirements
 
-- Use a [private school repository](https://docs.rs.school/#/private-repository) to develop this application.
+- Use a [private school repository](https://rs.school/docs/ru/private-repository) to develop this application.
 - Use the `decision-making-tool` branch as your development branch.
-- Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://docs.rs.school/#/git-convention).
+- Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://rs.school/docs/ru/git-convention).
 - Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_.
 - Use the app **deploy link** to [submit](https://app.rs.school/course/student/cross-check-submit) the app to crosscheck in [app.rs](https://app.rs.school/course/student/cross-check-submit). **Make sure** your link is accessible to everyone by opening it in incognito mode.
-- Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
+- Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://rs.school/docs/ru/pull-request-review-process?id=Требования-к-pull-request-pr#требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
 - Use the **PR link** to [submit](https://app.rs.school/course/student/dashboard) the app to mentor in [app.rs](https://app.rs.school/course/student/dashboard).
 
 ## General Requirements
@@ -56,7 +56,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - Required: Prettier, ESLint, StyleLint. _(It is allowed to use configs and plugins for this tools.)_
 - Required: Husky, lint-staged, commitlint.
 - Required: Bundlers (webpack, vite). _(It is allowed to use bundler's plugins.)_
-- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS in JS libraries (`tailwindcss`, `styled components`), `clsx`/`classnames` package.
+- Allowed: CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx`/`classnames` package.
 - Prohibited: Frameworks like Angular, React, Vue, etc.
 - Prohibited: jQuery.
 - Prohibited: Third-party libraries not listed in the allowed libraries.
@@ -90,17 +90,18 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
    ```json
    {
-     "@typescript-eslint/consistent-type-imports": "error",
-     "@typescript-eslint/explicit-function-return-type": "error",
      "@typescript-eslint/consistent-type-assertions": [
        "error",
        { "assertionStyle": "never" }
      ],
+     "@typescript-eslint/consistent-type-imports": "error",
+     "@typescript-eslint/explicit-function-return-type": "error",
      "@typescript-eslint/explicit-member-accessibility": [
        "error",
        { "accessibility": "explicit", "overrides": { "constructors": "off" } }
      ],
-     "@typescript-eslint/member-ordering": "error"
+     "@typescript-eslint/member-ordering": "error",
+     "class-methods-use-this": "error"
    }
    ```
 
@@ -184,11 +185,13 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Care About Types (48/80)
 
-> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
+> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)  
+> Type assertions (`x as SomeType`) and non-nullability assertions (`y!`) are unsafe. Both only silence the TypeScript compiler, but do not insert any runtime checks to match these assertions, so they can cause your program to crash at runtime.
 
-1. (+16) The code does not contain any type assertions.
-2. (+16) The code does not contain any explicit or implicit `any`.
-3. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
+1. (+8) The code does not contain any type assertions.
+2. (+8) The code does not contain any non-nullability assertions.
+3. (+16) The code does not contain any explicit or implicit `any`.
+4. (+16) The code contains and uses [type guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) _(e.g., type narrowing type predicates, assertion functions, etc.)_. _(small hint: functions to get data from a json file and/or localStorage are great places to apply type guards.)_
 
 ## Functional Requirements (255 points total)
 
@@ -217,11 +220,14 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ##### `id`
 
+> `id` - is a constant [unique identifier](https://en.wikipedia.org/wiki/Unique_identifier) (not just a sequence number).
+
 1. (+1) Each option's `id` must be displayed.
 2. (+2) Each option's `id` must be unique.
 3. (+2) Each option's `id` must be in `#n` format _(`#1`, `#2`, `#3`, and so on)_.
 4. (+2) Each option's `id` must be generated programmatically at creation _(user cannot change it directly in this element)_.
-5. (+2) When the list of options becomes completely empty, the `id` counter must be reset.
+5. (+1) Each option's `id` must be constant and not affected by deletion of any other option.
+6. (+1) When the list of options becomes completely empty, the `id` counter must be reset.
 
 ##### `title`
 
@@ -415,7 +421,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 1. (+2) When decision picking is initiated, the wheel must start rotating and stop after a short duration.
 2. (+4) The rotation duration must be specified by the `duration` element. That is, it should correspond to its value (in seconds) at the moment of rotation start. _Be loyal when crosschecking. A small inaccuracy is acceptable. There is no need to reduce points for a difference of a couple of seconds._
 3. (+4) The rotation should have a non-linear velocity. Use a suitable easing _(e.g. `ease-in-out` or `ease-in-out-back` with a tiny magnitude)_.
-4. (+4) The wheel must perform several full turns (minimum 5) and stop at a randomly picked option.
+4. (+4) The wheel must perform several full turns (minimum 5) and stop at a random point on the circumference _(at a random position on the random option section)_.
 5. (+2) A `finish sound` must be played when `picking state` is changed to `picked state` if `mute state` is toggled `on`.
 6. (+2) A `finish sound` must not be played if `mute state` is toggled `off`.
 7. (+4) In the `picking state`, `option sections` must not change their order, shape, color. _It means that visually the `option sections` shall rotate as an indivisible whole wheel._
@@ -458,7 +464,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - (-70%) Use of innerHTML or DOM search methods (querySelector*, getElement*, etc.).
 - (-5 per error) Every error related to linters, TypeScript, or Prettier results in a 5 point penalty.
 - (-5 per instance) Each use of any in a project results in a 5 point penalty.
-- (-5 per instance) Each use of type assertion in a project results in a 5 point penalty.
+- (-5 per instance) Each use of type assertion or non-nullability assertion in a project results in a 5 point penalty.
 - (up to -50) There are unresolved mentor comments on the quality of the code or the content of the configs.
 
 ## Useful links
@@ -473,6 +479,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - [Easings](https://easings.net/)
 - [TS: Type Guards](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
 - [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
+- [Google: Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 - [Prettier: Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)
 - [Wiki: SPA](https://en.wikipedia.org/wiki/Single-page_application)
 
