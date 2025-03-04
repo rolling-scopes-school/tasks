@@ -34,7 +34,7 @@ A student can achieve a maximum of 100 points (+50 optional).
 ### Penalties
 
 - React Router 7 part implemented without Next.js implementation before: **-150 points**
-- Test coverage less than 80%: **-30 points per each branch**
+- Test coverage less than 70%: **-30 points per each branch**
 - TypeScript isn't used: **-145 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
