@@ -68,4 +68,4 @@
 - Usage of _ts-ignore_: **-20 points per each**
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
