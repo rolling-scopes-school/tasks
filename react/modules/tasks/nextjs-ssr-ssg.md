@@ -34,7 +34,7 @@ A student can achieve a maximum of 100 points (+50 optional).
 ### Penalties
 
 - React Router 7 part implemented without Next.js implementation before: **-150 points**
-- Test coverage less than 80%: **-30 points per each branch**
+- Test coverage less than 70%: **-30 points per each branch**
 - TypeScript isn't used: **-145 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
@@ -42,4 +42,4 @@ A student can achieve a maximum of 100 points (+50 optional).
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 - Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
