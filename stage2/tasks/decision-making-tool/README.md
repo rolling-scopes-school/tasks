@@ -297,11 +297,11 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+1) The `paste list` modal window should display its `confirm button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Confirm", "Submit", "✔", etc.)_.
 3. (+1) The `paste list` modal window should display its `cancel button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Cancel", "Close", "⨉", "x", etc.)_.
 4. (+2) The `paste field` element must be able to be edited by the user.
-5. (+8) The `confirm button` click must parse the text from the `paste field`, create `new options` from that data and add those `new options` to the bottom of the list as well as close the `paste list` modal window.
+5. (+8) The `confirm button` click must parse the text from the `paste field`, create `new options` from that data and add those `new options` to the bottom of the list as well as close the `paste list` modal window. <!-- TODO: Изменить пункт так, чтоб было очевидно, что новые опции создавались только из строк с валидными вариантами -->
 6. (+2) The `cancel button` click must close the `paste list` modal window without affecting the list.
 7. (+2) The `escape key press` must close the `paste list` modal window without affecting the list.
 8. (+2) The `outside click` must close the `paste list` modal window without affecting the list.
-9. (+2) An opened `paste list` modal window must block the page scrolling until the modal window is closed.
+9. (+2) An opened `paste list` modal window must block the page scrolling until the modal window is closed. <!-- TODO: Изменить пункт так, чтоб вариант с страницей без скролла не вызывал вопросов -->
 10. (+2) Closing `paste list` modal window must also remove it from the DOM.
 
 ##### Add valid options modal
@@ -310,7 +310,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+2) The `close button` click must close the modal window.
 3. (+2) The `escape key press` must close the modal window.
 4. (+2) The `outside click` must close the modal window.
-5. (+2) An opened `add valid options` modal window must block the page scrolling until the modal window is closed.
+5. (+2) An opened `add valid options` modal window must block the page scrolling until the modal window is closed. <!-- TODO: Изменить пункт так, чтоб вариант с страницей без скролла не вызывал вопросов -->
 6. (+2) Closing `add valid options` modal window must also remove it from the DOM.
 
 ### Decision Picker (143 points)
