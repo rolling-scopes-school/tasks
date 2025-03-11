@@ -401,8 +401,8 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ##### Option section title
 
 1. (+2) Each `option section` must display the `title` value of the option as text (except in the case described in the next bullet point). The text should be placed in the section from the center of the wheel to the edge (or from the edge to the center).
-2. (+4) Each `option section title` must not violate the boundaries of its section. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
-3. (+4) Each `option section title` must not violate the boundaries of wheel. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
+2. (+4) Each `option section title` must not violate the boundaries of its section vertically. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
+3. (+4) Each `option section title` must not violate the boundaries of its section horizontally. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
 4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_
 
 ##### Center element
