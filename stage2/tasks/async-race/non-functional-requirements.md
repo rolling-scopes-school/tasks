@@ -45,19 +45,19 @@ Mentors will evaluate the "Async Race" Single Page Application (SPA) based on th
   "unicorn/number-literal-case": "off",
   "unicorn/numeric-separators-style": "off",
   "unicorn/prevent-abbreviations": [
-      "error",
-      {
-        "allowList": {
-          "acc": true,
-          "env": true,
-          "i": true,
-          "j": true,
-          "props": true,
-          "Props": true
-        }
+    "error",
+    {
+      "allowList": {
+        "acc": true,
+        "env": true,
+        "i": true,
+        "j": true,
+        "props": true,
+        "Props": true
       }
-    ]
-  }
+    }
+  ]
+}
 ```
 
 ## 🌟 Overall Code Quality (35 points)
