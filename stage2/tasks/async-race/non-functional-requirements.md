@@ -36,7 +36,7 @@ Mentors will evaluate the "Async Race" Single Page Application (SPA) based on th
   Specific rules may be adjusted only with mentor approval, e.g.:
 
 ```json
-  {
+{
   "@typescript-eslint/consistent-type-definitions": ["error", "type"],
   "unicorn/no-array-callback-reference": "off",
   "unicorn/no-array-for-each": "off",
