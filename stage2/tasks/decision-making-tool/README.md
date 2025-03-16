@@ -396,25 +396,25 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+4) The order of `option sections` on the `wheel` element must be randomized when the `Decision Picker` is opened and not change until it is closed.
 3. (+4) The fill color of each `option section` must be randomly generated when the `Decision Picker` is opened and not change until it is closed.
 4. (+8) The width (angle) of each `option section` must depend on the `weight` field of the option. _The main idea of this feature is that by setting the weight value of the option we can adjust the chance of that particular option being picked. That is, the higher the weight of the option, the wider its section, and therefore the higher the chance of being picked._
-5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Option section title
 
 1. (+2) Each `option section` must display the `title` value of the option as text (except in the case described in the next bullet point). The text should be placed in the section from the center of the wheel to the edge (or from the edge to the center).
 2. (+4) Each `option section title` must not violate the boundaries of its section vertically. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
 3. (+4) Each `option section title` must not violate the boundaries of its section horizontally. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
-4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_
+4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Center element
 
 1. (+2) In the center of the `wheel`, there must be a decorative element to hide the point of contact between all the option sections _(e.g., a small circle, star, image, etc.)_.
-2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Cursor
 
 1. (+4) The `wheel` element must display a `cursor` that points to the current option. It can be designed in the form of a triangle, arrow or any similar figure with a clearly defined pointer.
 2. (+2) The `cursor` must be placed at any position on the edge of the `wheel` and not overlapped by other elements.
-3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Decision Picking
 
