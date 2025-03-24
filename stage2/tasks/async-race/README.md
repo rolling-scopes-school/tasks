@@ -49,11 +49,15 @@ What are you waiting for? Let's start coding!
 
 ## 📜 Non-functional Requirements
 
-- **No Libraries/Frameworks**: Pure TypeScript only, optional use of Bootstrap for CSS.
-- **TypeScript Mandatory**: Strong typing throughout, with no use of "any".
+- **No Libraries/Frameworks**: The use of libraries or frameworks such as JQuery, React, Angular, Lodash, Material Design, etc., is strictly prohibited.
+
+  - Bootstrap CSS is permitted for **styling purposes** only.
+  - CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx/classnames` package are allowed.
+
+- **TypeScript Mandatory**: The application must be developed using TypeScript. All method input and output parameters must be typed accurately, and the use of explicit or implicit "any" type, type assertions (`foo as BarType`) and non-nullability assertions (`y!`) is not allowed.
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
-- **SPA Implementation**: Entire content generated via TypeScript, utilizing Webpack or similar for bundling.
-- **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
+- **SPA Implementation**: Entire content generated via TypeScript, utilizing Vite/Webpack or similar for bundling.
+- **Code Quality**: Adhere to the [Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
 
 ## 🛠️ Technical Implementation
 
