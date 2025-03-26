@@ -85,7 +85,7 @@ You have complete freedom to implement any visual design for the application. Yo
 #### 8. Message Delivery and Read Status (on the main page) (+20)
 
 1. (+10) The status changes to "delivered" when the message recipient logs into the application or if the message is sent to the user who is online.
-2. (+10) The status changes to "read" when the message recipient opens a dialog with unread messages and performs actions 6.8 or the recipient has a dialog with previously performed actions 6.8 open.
+2. (+10) The status changes to "read" when the message recipient opens a dialog with unread messages and performs actions [6.8](#6-user-dialogue-on-the-main-page-75) or the recipient has a dialog with previously performed actions [6.8](#6-user-dialogue-on-the-main-page-75) open. The same rules apply for an open new dialog in which the recipient receives messages.
 
 #### 9. About Page (+10)
 
