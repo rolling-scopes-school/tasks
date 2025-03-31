@@ -40,3 +40,11 @@ Students should review the following resources:
 ## Practice 💻
 
 - Complete the test "[St1]CSS Modules And Some CSS New Features" in the RS APP > Auto Test.
+
+## Additional Materials 📘
+
+Enhance your skills with these supplementary materials:
+
+- [An intro to CSS Anchor Positioning with basic examples](https://utilitybend.com/blog/lets-hang-an-intro-to-css-anchor-positioning-with-basic-examples)
+- [CSS Anchor Positioning Guide](https://css-tricks.com/css-anchor-positioning-guide/)
+- [Learning CSS anchor positioning Through Anchoreum Game](https://anchoreum.com/)
