@@ -102,7 +102,7 @@ You have complete freedom to implement any visual design for the application. Yo
 1. (+10) If a sudden disconnection from the server occurs, a message must be displayed to the user, and an attempt to restore the connection must be made.
 2. (+10) Upon reconnecting to the server, the application must perform the current user reauthorization without requiring user intervention.
 
-#### 12. Page Navigation (on all pages) (+15)
+#### 12. Browser Page Navigation (on all pages) (+15)
 
 1. (+5) The browser's "Forward" and "Back" buttons work correctly according to the user's browsing history.
 2. (+5) Each page has a unique URL address that changes in the browser bar according to the user's current position.
