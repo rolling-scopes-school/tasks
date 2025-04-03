@@ -104,7 +104,7 @@ You have complete freedom to implement any visual design for the application. Yo
 
 #### 12. Page Navigation (on all pages) (+15)
 
-1. (+5) The browser's “Forward” and “Back” buttons work correctly according to the user's browsing history.
+1. (+5) The browser's "Forward" and "Back" buttons work correctly according to the user's browsing history.
 2. (+5) Each page has a unique URL address that changes in the browser bar according to the user's current position.
 3. (+5) The user is able to navigate in the application by typing the URL of the page into the browser bar.
 
