@@ -43,19 +43,18 @@ You have complete freedom to implement any visual design for the application. Yo
 
 1. (+5) Only authenticated users have access to this page. If the user is unauthorized and tries to proceed to the Main page, they must be redirected to the Authentication page automatically.
 
-#### 3. Header (on the main page) (+15)
+#### 3. Header (on the main page) (+10)
 
-1. (+5) Displays the current authenticated user's name.
-2. (+5) Displays the app's name.
-3. (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
+1. (+5) Displays the current authenticated user's name and app's name.
+2. (+5) Includes a logout button which when pressed terminates the current session and opens the authentication form (window/page).
 
 #### 4. Footer (on the main page) (+5)
 
 1. (+5) Includes the school's logo and name, the author's name, a link to the author's GitHub, and the year of the app creation.
 
-#### 5. User List (on the main page) (+30)
+#### 5. User List (on the main page) (+25)
 
-1. (+10) Displays all registered users and an indicator of each user's online status.
+1. (+5) Displays all registered users and an indicator of each user's online status.
 2. (+5) The currently authenticated user is not in the list.
 3. (+5) Implements user search by name. The search will be case sensitive or case-insensitive at the student's discretion.
 4. (+10) Displays information about the number of unread messages from each user.
@@ -76,9 +75,9 @@ You have complete freedom to implement any visual design for the application. Yo
 12. (+10) The user can delete their own previously sent messages.
 13. (+10) The user can edit the text of their own previously sent messages.
 
-#### 7. Message Content (on the main page) (+25)
+#### 7. Message Content (on the main page) (+20)
 
-1. (+15) Messages include the time of sending, sender's username, message delivery status, message text, and indication of whether the message has been edited.
+1. (+10) Messages include the time of sending, sender's username, message delivery status, message text, and indication of whether the message has been edited.
 2. (+5) The message "delivered"/"read" status is visible only to the sender of the message.
 3. (+5) A user cannot send a message without any content (without text).
 
@@ -103,11 +102,17 @@ You have complete freedom to implement any visual design for the application. Yo
 1. (+10) If a sudden disconnection from the server occurs, a message must be displayed to the user, and an attempt to restore the connection must be made.
 2. (+10) Upon reconnecting to the server, the application must perform the current user reauthorization without requiring user intervention.
 
+#### 12. Browser Page Navigation (on all pages) (+15)
+
+1. (+5) The browser's "Forward" and "Back" buttons work correctly according to the user's browsing history.
+2. (+5) Each page has a unique URL address that changes in the browser bar according to the user's current position.
+3. (+5) The user is able to navigate in the application by typing the URL of the page into the browser bar.
+
 ## Technical Requirements (+160)
 
 1. (+20) The application is divided into logical modules/layers, such as, for example, API interaction, user interface rendering, application state management, etc.
 2. (+20) All HTML content is generated using JavaScript. `Body` must be empty. Either `head` or `body` can contain the only `<script> tag` (`body` containing only the `<script> tag` is considered to be empty).
-3. (+20) The application is a Single Page Application (SPA) with implemented routing.
+3. (+20) The application is a Single Page Application (SPA) with implemented routing using the browser URL string.
 4. (+20) Input/output parameters of all methods are explicitly typed, and the `any` type is not used.
 5. (+20) ESLint with the [TypeScript](https://typescript-eslint.io/getting-started) and [Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) style guide is used, with the `noInlineConfig: true` rule enabled in the configuration. With the mentor's permission, it is acceptable to disable or tweak some rules as long as it does not conflict with penalties.
 6. (+10) Prettier is used to automatically format code, ensuring a consistent and readable code style.
