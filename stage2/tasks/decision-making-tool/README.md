@@ -35,7 +35,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - Use a [private school repository](https://rs.school/docs/ru/private-repository) to develop this application.
 - Use the `decision-making-tool` branch as your development branch.
 - Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://rs.school/docs/ru/git-convention).
-- Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_.
+- Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_. _(It is allowed to use netlify if you can't deploy to gh-pages because of permissions.)_
 - Use the app **deploy link** to [submit](https://app.rs.school/course/student/cross-check-submit) the app to crosscheck in [app.rs](https://app.rs.school/course/student/cross-check-submit). **Make sure** your link is accessible to everyone by opening it in incognito mode.
 - Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://rs.school/docs/ru/pull-request-review-process?id=Требования-к-pull-request-pr#требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
 - Use the **PR link** to [submit](https://app.rs.school/course/student/dashboard) the app to mentor in [app.rs](https://app.rs.school/course/student/dashboard).
@@ -84,7 +84,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 > Linter allows us to keep our code clean. Clean code is more readable, maintainable, and reusable. And its auto-fixing of errors allows us to save time on refactoring.
 
 1. (+2) [ESLint](https://eslint.org/) must be installed to developer dependencies.
-2. (+2) ESLint configuration file is added to the project and used. _(both [`flat`](https://eslint.org/docs/latest/use/configure/configuration-files) and [`legacy`](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated) config formats are allowed.)_
+2. (+2) ESLint [configuration file](https://eslint.org/docs/latest/use/configure/configuration-files) is added to the project and used.
 3. (+8) ESLint configuration file must have the `noInlineConfig` and `reportUnusedDisableDirectives` options enabled.
 4. (+8) ESLint configuration file must contain all of the following rules:
 
@@ -297,11 +297,11 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+1) The `paste list` modal window should display its `confirm button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Confirm", "Submit", "✔", etc.)_.
 3. (+1) The `paste list` modal window should display its `cancel button`. The appearance of this button should clearly indicate its purpose _(contain appropriate text or icon. e.g., "Cancel", "Close", "⨉", "x", etc.)_.
 4. (+2) The `paste field` element must be able to be edited by the user.
-5. (+8) The `confirm button` click must parse the text from the `paste field`, create `new options` from that data and add those `new options` to the bottom of the list as well as close the `paste list` modal window.
+5. (+8) The `confirm button` click must parse the text from the `paste field`, create `new options` from that data and add those `new options` to the bottom of the list as well as close the `paste list` modal window. <!-- TODO: Изменить пункт так, чтоб было очевидно, что новые опции создавались только из строк с валидными вариантами -->
 6. (+2) The `cancel button` click must close the `paste list` modal window without affecting the list.
 7. (+2) The `escape key press` must close the `paste list` modal window without affecting the list.
 8. (+2) The `outside click` must close the `paste list` modal window without affecting the list.
-9. (+2) An opened `paste list` modal window must block the page scrolling until the modal window is closed.
+9. (+2) An opened `paste list` modal window must block the page scrolling until the modal window is closed. <!-- TODO: Изменить пункт так, чтоб вариант с страницей без скролла не вызывал вопросов -->
 10. (+2) Closing `paste list` modal window must also remove it from the DOM.
 
 ##### Add valid options modal
@@ -310,7 +310,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+2) The `close button` click must close the modal window.
 3. (+2) The `escape key press` must close the modal window.
 4. (+2) The `outside click` must close the modal window.
-5. (+2) An opened `add valid options` modal window must block the page scrolling until the modal window is closed.
+5. (+2) An opened `add valid options` modal window must block the page scrolling until the modal window is closed. <!-- TODO: Изменить пункт так, чтоб вариант с страницей без скролла не вызывал вопросов -->
 6. (+2) Closing `add valid options` modal window must also remove it from the DOM.
 
 ### Decision Picker (143 points)
@@ -396,25 +396,25 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 2. (+4) The order of `option sections` on the `wheel` element must be randomized when the `Decision Picker` is opened and not change until it is closed.
 3. (+4) The fill color of each `option section` must be randomly generated when the `Decision Picker` is opened and not change until it is closed.
 4. (+8) The width (angle) of each `option section` must depend on the `weight` field of the option. _The main idea of this feature is that by setting the weight value of the option we can adjust the chance of that particular option being picked. That is, the higher the weight of the option, the wider its section, and therefore the higher the chance of being picked._
-5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+5. (+2) Each `option section` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, cursor, center element), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Option section title
 
 1. (+2) Each `option section` must display the `title` value of the option as text (except in the case described in the next bullet point). The text should be placed in the section from the center of the wheel to the edge (or from the edge to the center).
-2. (+4) Each `option section title` must not violate the boundaries of its section. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
-3. (+4) Each `option section title` must not violate the boundaries of wheel. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
-4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_
+2. (+4) Each `option section title` must not violate the boundaries of its section vertically. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
+3. (+4) Each `option section title` must not violate the boundaries of its section horizontally. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
+4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Center element
 
 1. (+2) In the center of the `wheel`, there must be a decorative element to hide the point of contact between all the option sections _(e.g., a small circle, star, image, etc.)_.
-2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+2. (+2) The `center element` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Cursor
 
 1. (+4) The `wheel` element must display a `cursor` that points to the current option. It can be designed in the form of a triangle, arrow or any similar figure with a clearly defined pointer.
 2. (+2) The `cursor` must be placed at any position on the edge of the `wheel` and not overlapped by other elements.
-3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_
+3. (+2) The `cursor` must have a visual boundary to distinguish it from other elements (e.g., adjacent sections, background), even if their fill colors are similar. _(Additional stroke, shadow, fill can be useful here.)_ <!-- TODO: изменить формулировку так, чтоб на кроссчеке не возникало дополнительных вопросов -->
 
 ##### Decision Picking
 
