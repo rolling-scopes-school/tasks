@@ -59,14 +59,14 @@
 ### Неделя #7
 - [JS-101](https://github.com/Luffi2539/core-js-101/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
-- Secret Task!!!
+- [Secret Task](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Неделя #8
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Secret Task"](https://opis-cdn.tinkoffjournal.ru/mercury/10-randomnykh-memov-chast-iz-kotorykh-s-kotikami-5.png)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Secret Task"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
   
 ### Неделя #10
 - Сдача хвостов, получение сертификата
