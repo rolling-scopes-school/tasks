@@ -5,7 +5,7 @@
 ## Описание
 
 - Зачисляются все желающие
-- Время обучения: 13 недель
+- Время обучения: 10 недель
 - Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
 - По окончании подготовительного этапа оставьте [**Отзыв**](https://docs.google.com/forms/d/e/1FAIpQLSfjki-f1rHX9nz2KycFich1erMs4Hb1Cz0xy3Yijd8IdOD8jw/viewform) школе, чтобы мы могли сделать ее лучше. Если вы покидаете курс во время обучения, по возможности, тоже оставьте отзыв, указав причину ухода.
 
@@ -24,92 +24,53 @@
 
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
+- [Модуль "Figma"](modules/figma)
 - Проект ["CV"](../tasks/cv/cv.md).
   - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
   - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #3
-
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
-- [Модуль "Figma"](modules/figma)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#1. Фиксированная вёрстка"](../tasks/shelter/shelter-part1.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- Проект ["CV"](../tasks/cv/cv.md).
+  - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- Проект ["Museum"](../tasks/museum/museum-stage1.md)
+  - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum-stage1.md)
 
 ### Неделя #4
-
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
-
-### Неделя #5
-
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
-
-### Неделя #6
-
-- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#1"](../tasks/shelter/shelter-part1.md)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#2. Адаптивная вёрстка"](../tasks/shelter/shelter-part2.md)
-
-### Неделя #7
-
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#1"](../tasks/museum/museum-stage1.md)
+- Проект ["Museum"](../tasks/museum/museum-stage1.md)
+  - ["Museum#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
-### Неделя #8
-
+### Неделя #5
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#2"](../tasks/shelter/shelter-part2.md)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#3. Добавление функционала"](../tasks/shelter/shelter-part3.md)
+- Проект ["Museum"](../tasks/museum/museum-stage1.md)
+  - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
 
-### Неделя #9
-
+### Неделя #6
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 
-### Неделя #10
-
+### Неделя #7
 - [JS-101](https://github.com/Luffi2539/core-js-101/)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
+- Secret Task!!!
 
-### Неделя #11
-
+### Неделя #8
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
-### Неделя #12
+### Неделя #9
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Secret Task"](https://opis-cdn.tinkoffjournal.ru/mercury/10-randomnykh-memov-chast-iz-kotorykh-s-kotikami-5.png)
+  
+### Неделя #10
+- Сдача хвостов, получение сертификата
 
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#3"](../tasks/shelter/shelter-part3.md)
-- ["CSS Mem Slider"](../tasks/css-meme-slider)
-
-### Неделя #13
-
-- ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CSS Mem Slider"](../tasks/css-meme-slider)
-- Сдача хвостов (тесты, задачи, Codewars)
-
-### Неделя #14
-
-- ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
-
-### Неделя #15
-
-- ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
-
-### Неделя #16
-
-- Продолжаем выполнение ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-
-### Неделя #17
-
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-
-### Неделя #18
-
-- Сдача хвостов (тесты, задачи, Codewars)
-- Получение сертификата
 
 ## Сертификат
 
