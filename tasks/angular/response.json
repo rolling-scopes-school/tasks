@@ -327,70 +327,54 @@
     {
       "kind": "youtube#video",
       "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/GuGydXnkvpl-L4ntYhAaLNiseZ4\"",
-      "id": "VAkio68d51A",
+      "id": "BVIffUyYlUk",
       "snippet": {
         "publishedAt": "2025-02-25T00:09:23.000Z",
-        "channelId": "UCZ9qFEC82qM6Pk-54Q4TVWA",
-        "title": "What is Angular? (Explained for Beginners)",
-        "description": "When you're just starting out you are probably wondering \"What is Angular exactly? When you ask that question it leads to a lot of concepts that are over your head and don't make sense. So in this video I really want to cover what exactly Angular is and why it's even necessary... all from a beginners point of view.\n\n*** DOWNLOAD THE FREE REPORT ***\nFor my free report on the five best programming languages in 2019 (for beginners) go to: https://andysterkowitz.com/report",
+        "channelId": "UCaukwNoTfV9mfVMgoQQPj7A",
+        "title": "Обучение Angular для начинающих за 5 часов",
+        "description": "Запускай своё путешествие в мир Angular с моим ПОЛНЫМ курсом для начинающих! За 5 часов ты освоите основы и продвинутые аспекты Angular, чтобы начать создавать мощные веб-приложения.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/VAkio68d51A/default.jpg",
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/VAkio68d51A/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/VAkio68d51A/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/VAkio68d51A/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/VAkio68d51A/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "Andy Sterkowitz",
+        "channelTitle": "Ivan Chernyakov",
         "tags": [
           "angular",
-          "angular 7",
+          "angular node js",
           "angularjs",
-          "learn angular",
-          "angular.js",
-          "angular tutorial for beginners",
-          "angular for beginners",
-          "angular for dummies",
-          "what is angular",
-          "what is angular 7",
-          "angular2",
-          "angular 2",
-          "javascript",
-          "front end framework",
-          "web development",
-          "web development 2019",
-          "front end framework 2019",
-          "what is a front end framework",
-          "software development",
-          "programming",
-          "front end software developer",
-          "web developer"
-        ],
+          "angularjs lessons",
+          "angular concepts",
+          "Angular intro",
+          "what is angular"],
         "categoryId": "28",
         "liveBroadcastContent": "none",
         "defaultLanguage": "en",
         "localized": {
           "title": "What is Angular? (Explained for Beginners)",
-          "description": "When you're just starting out you are probably wondering \"What is Angular exactly? When you ask that question it leads to a lot of concepts that are over your head and don't make sense. So in this video I really want to cover what exactly Angular is and why it's even necessary... all from a beginners point of view.\n\n*** DOWNLOAD THE FREE REPORT ***\nFor my free report on the five best programming languages in 2019 (for beginners) go to: https://andysterkowitz.com/report"
+          "description": "Запускай своё путешествие в мир Angular с моим ПОЛНЫМ курсом для начинающих! За 5 часов ты освоите основы и продвинутые аспекты Angular, чтобы начать создавать мощные веб-приложения."
         },
         "defaultAudioLanguage": "en"
       },
