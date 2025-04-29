@@ -30,6 +30,7 @@
   - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #3
+
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
@@ -39,6 +40,7 @@
   - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum-stage1.md)
 
 ### Неделя #4
+
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
@@ -47,6 +49,7 @@
   - ["Museum#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
+
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
@@ -54,23 +57,27 @@
   - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
+
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
 ### Неделя #7
+
 - [JS-101](https://github.com/Luffi2539/core-js-101/)
 - [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
 - [Secret Task](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Неделя #8
+
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #9
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Secret Task"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  
-### Неделя #10
-- Сдача хвостов, получение сертификата
 
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Secret Task"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+### Неделя #10
+
+- Сдача хвостов, получение сертификата
 
 ## Сертификат
 

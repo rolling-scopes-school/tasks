@@ -1,0 +1,654 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/Cmodw7c5XPTM8Yg3kMXelihxek4\"",
+  "pageInfo": {
+    "totalResults": 10,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/tmmI1yiRrmLWlKikXk1gD3TXsUI\"",
+      "id": "xAT0lHYhHMY",
+      "snippet": {
+        "publishedAt": "2025-06-11T12:42:19.000Z",
+        "channelId": "UCbn1OgGei-DV7aSRo_HaAiw",
+        "title": "Introduction to Angular - Learning Angular (Part 1)",
+        "description": "In this series, learn how to build your first Angular application. Angular is a web framework that allows teams to deliver web apps with confidence. Discover how these tools build scalable applications.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xAT0lHYhHMY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Angular",
+        "tags": [
+          "Angular developers",
+          "Angular",
+          "how to build angular application",
+          "what is angular",
+          "google technology",
+          "app building technology",
+          "angular framework",
+          "what can i build with angular",
+          "angular tutorial",
+          "how to get started with angular",
+          "angular basics",
+          "how to build an app with angular"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Introduction to Angular - Learning Angular",
+          "description": "In this series, learn how to build your first Angular application. Angular is a web framework that allows teams to deliver web apps with confidence. Discover how these tools build scalable applications."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "170826",
+        "likeCount": "1773",
+        "dislikeCount": "26",
+        "favoriteCount": "0",
+        "commentCount": "37"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/uto79F2R8W05GFpiUAcLdFGs7PQ\"",
+      "id": "Fdf5aTYRW0E",
+      "snippet": {
+        "publishedAt": "2025-05-30T17:46:58.000Z",
+        "channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+        "title": "Angular Crash Course",
+        "description": "In this video we will talk about what Angular is and then jump in and build a small app With Angular 7, looking at most of the fundamental concepts like components, services, modules, etc.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fdf5aTYRW0E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fdf5aTYRW0E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fdf5aTYRW0E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fdf5aTYRW0E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fdf5aTYRW0E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Traversy Media",
+        "tags": ["angular", "angular 7", "angular tutorial", "angularjs"],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Angular Crash Course",
+          "description": "In this video we will talk about what Angular is and then jump in and build a small app With Angular 7, looking at most of the fundamental concepts like components, services, modules, etc."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "971121",
+        "likeCount": "16213",
+        "dislikeCount": "131",
+        "favoriteCount": "0",
+        "commentCount": "844"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/6e0k9ik7TThWpqueHGOhTRIN1-A\"",
+      "id": "3qBXWUpoPHo",
+      "snippet": {
+        "publishedAt": "2025-03-05T16:48:15.000Z",
+        "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+        "title": "Angular for Beginners Course - Full Front End Tutorial with TypeScript",
+        "description": "Learn Angular in this complete course for beginners. First you will learn the basics of Typescript and then you will learn about important Angular concepts such as binding, dependency injection, forms, routing, and more.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3qBXWUpoPHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3qBXWUpoPHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3qBXWUpoPHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3qBXWUpoPHo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3qBXWUpoPHo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "freeCodeCamp.org",
+        "tags": [
+          "learn angular",
+          "learn angular from scratch",
+          "angular",
+          "angular tutorial",
+          "angular 18",
+          "Angular",
+          "angular course",
+          "angularjs",
+          "angular tutorial for beginners",
+          "angular crash course",
+          "angular tutorial for beginners step by step",
+          "angular js",
+          "angular typescript"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Angular for Beginners Course - Full Front End Tutorial with TypeScript",
+          "description": "Learn Angular in this complete course for beginners. First you will learn the basics of Typescript and then you will learn about important Angular concepts such as binding, dependency injection, forms, routing, and more."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "1666085",
+        "likeCount": "23342",
+        "dislikeCount": "473",
+        "favoriteCount": "0",
+        "commentCount": "1255"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/cDwx4Ds5-J9CmiqmazUetzrLZKY\"",
+      "id": "oxmGOkQJu3A",
+      "snippet": {
+        "publishedAt": "2025-04-04T15:00:12.000Z",
+        "channelId": "UCssWuTdNCWN4RSF3wHzzjMw",
+        "title": "Angular 19 Features: A Game-Changing Evolution",
+        "description": "Discover the exciting new features in Angular 19 with a deep dive into partial hydration in Angular applications! In this video, we explore how to use a linkedSignal in Angular app, the benefits it brings, and the changes it introduces. Learn step-by-step instructions to set up your Angular project with SSR and partial hydration and understand how this impacts performance and debugging. Don't miss out on the future of Angular development!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oxmGOkQJu3A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oxmGOkQJu3A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oxmGOkQJu3A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oxmGOkQJu3A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oxmGOkQJu3A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Monsterlessons Academy",
+        "tags": [
+          "learn angular",
+          "learn angular from scratch",
+          "angular",
+          "angular tutorial",
+          "angular 19",
+          "Angular",
+          "angular course",
+          "angular new features"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Angular 19 Features: A Game-Changing Evolution",
+          "description": "Discover the exciting new features in Angular 19 with a deep dive into partial hydration in Angular applications! In this video, we explore how to use a linkedSignal in Angular app, the benefits it brings, and the changes it introduces. Learn step-by-step instructions to set up your Angular project with SSR and partial hydration and understand how this impacts performance and debugging. Don't miss out on the future of Angular development!"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "13221",
+        "likeCount": "345",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "22"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/_99tEunMszVYvCj2-1aUTKgOoSY\"",
+      "id": "IPVwJmD2ZFQ",
+      "snippet": {
+        "publishedAt": "2025-06-25T07:44:08.000Z",
+        "channelId": "UCSj1Igu3ejxqcQISNEmx8VQ",
+        "title": "LinkedSignal in Angular 19: The Gem We Were Missing",
+        "description": "In this video, you will learn everything you have to know about a new experimental reactive primitive linkedSignal that appears for the first time in Angular 19 and solves many issues with signal-based state management in a very elegant way. We will explore the basic functionality and dive deeper to explore alternative syntax and more advanced use cases.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IPVwJmD2ZFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IPVwJmD2ZFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IPVwJmD2ZFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IPVwJmD2ZFQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IPVwJmD2ZFQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Decoded Frontend",
+        "tags": [
+          "angular 19",
+          "angular 19 new features",
+          "angular 19 tutorial",
+          "angular linkedsignal",
+          "angular signals",
+          "linked signal demo",
+          "linked signal in angular 19",
+          "linkedsignal explained",
+          "linkedsignal tutorial",
+          "reactive programming"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "LinkedSignal in Angular 19: The Gem We Were Missing",
+          "description": "In this video, you will learn everything you have to know about a new experimental reactive primitive linkedSignal that appears for the first time in Angular 19 and solves many issues with signal-based state management in a very elegant way. We will explore the basic functionality and dive deeper to explore alternative syntax and more advanced use cases."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "15279",
+        "likeCount": "871",
+        "dislikeCount": "8",
+        "favoriteCount": "0",
+        "commentCount": "61"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/GuGydXnkvpl-L4ntYhAaLNiseZ4\"",
+      "id": "BVIffUyYlUk",
+      "snippet": {
+        "publishedAt": "2025-02-25T00:09:23.000Z",
+        "channelId": "UCaukwNoTfV9mfVMgoQQPj7A",
+        "title": "Обучение Angular для начинающих за 5 часов",
+        "description": "Запускай своё путешествие в мир Angular с моим ПОЛНЫМ курсом для начинающих! За 5 часов ты освоите основы и продвинутые аспекты Angular, чтобы начать создавать мощные веб-приложения.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BVIffUyYlUk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ivan Chernyakov",
+        "tags": [
+          "angular",
+          "angular node js",
+          "angularjs",
+          "angularjs lessons",
+          "angular concepts",
+          "Angular intro",
+          "what is angular"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "What is Angular? (Explained for Beginners)",
+          "description": "Запускай своё путешествие в мир Angular с моим ПОЛНЫМ курсом для начинающих! За 5 часов ты освоите основы и продвинутые аспекты Angular, чтобы начать создавать мощные веб-приложения."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "57997",
+        "likeCount": "1662",
+        "dislikeCount": "34",
+        "favoriteCount": "0",
+        "commentCount": "114"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/u2qq5ltpXouoIrpkJgGLu8YOIeg\"",
+      "id": "RedkSCxVPbw",
+      "snippet": {
+        "publishedAt": "2024-12-01T15:00:05.000Z",
+        "channelId": "UCXzw-OdotBUcNA9yhuYQBwA",
+        "title": "20 Angular Concepts you Need to Know",
+        "description": "What is Angular 18, Angular CLI, Building components, Angular Modules, Standalone Components, Imports, Single File Components, Signals and Reactivity, Computed signals, Lifecycle Hooks, Templates, Built-in Control Flow, Event listeners, Data binding, Reactive Forms, Dependency Injection, Deferrable Views, Inputs & Outputs, Event emitters.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RedkSCxVPbw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RedkSCxVPbw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RedkSCxVPbw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RedkSCxVPbw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RedkSCxVPbw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Awesome",
+        "tags": [
+          "angular",
+          "angular node js",
+          "angularjs",
+          "angularjs lessons",
+          "angular concepts",
+          "Angular intro",
+          "what is angular"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "20 Angular Concepts you Need to Know",
+          "description": "What is Angular 18, Angular CLI, Building components, Angular Modules, Standalone Components, Imports, Single File Components, Signals and Reactivity, Computed signals, Lifecycle Hooks, Templates, Built-in Control Flow, Event listeners, Data binding, Reactive Forms, Dependency Injection, Deferrable Views, Inputs & Outputs, Event emitters."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "33896",
+        "likeCount": "977",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "53"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/96JEWzuOaAgaHrcnKhmatlZzPME\"",
+      "id": "4KBVkQ7b6yk",
+      "snippet": {
+        "publishedAt": "2025-02-22T15:00:14.000Z",
+        "channelId": "UCPcmW5NwvMPk1FEqSRKV1Dw",
+        "title": "Top 50 Angular Interview Questions",
+        "description": "Angular Interview Masterclass",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4KBVkQ7b6yk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Interview Happy",
+        "tags": [
+          "Angular",
+          "Interview Questions and Answers",
+          "Software Engineering",
+          "IT Companies",
+          "Product Based Companies"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Top 50 Angular Interview Questions",
+          "description": "Angular Interview Masterclass"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "6824",
+        "likeCount": "59",
+        "dislikeCount": "10",
+        "favoriteCount": "0",
+        "commentCount": "126"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/pvVvPt5cchXjCoSYxodr18lOaEg\"",
+      "id": "xGgwQvza0Ns",
+      "snippet": {
+        "publishedAt": "2024-07-31T16:06:13.000Z",
+        "channelId": "UC3cEGKhg3OERn-ihVsJcb7A",
+        "title": "Reactive Angular - Stateless Observable-based Services",
+        "description": "In this lessons we will start learning RxJs at the beginning: we are going to start with the most fundamental RxJs concept which is the Stream of Values.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xGgwQvza0Ns/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Angular University",
+        "tags": [
+          "angular 5",
+          "angular 5 tutorial",
+          "angular 5 course",
+          "angular 4",
+          "angular 4 tutorial",
+          "angular 4 course",
+          "angular 2 tutorial",
+          "angular 2 tutorial for beginners",
+          "angular 2 for beginners",
+          "angular 2 introduction",
+          "angular 2",
+          "typescript",
+          "angularjs",
+          "angular"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Reactive Angular - Stateless Observable-based Services",
+          "description": "In this lessons we will start learning RxJs at the beginning: we are going to start with the most fundamental RxJs concept which is the Stream of Values."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "10145",
+        "likeCount": "121",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "8"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/KuFm1jGNMzgjE2VlAEsPgRVra4o\"",
+      "id": "G0bBLvWXBvc",
+      "snippet": {
+        "publishedAt": "2024-09-16T16:53:41.000Z",
+        "channelId": "UCsBjURrPoezykLs9EqgamOA",
+        "title": "Angular for Beginners - Let's build a Tic-Tac-Toe PWA",
+        "description": "Learn the basics of Angular 8 🚀 by building a tic-tac-toe game 🕹️ from scratch...Then deploy it as an installable progressive web app (PWA).",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G0bBLvWXBvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G0bBLvWXBvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G0bBLvWXBvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G0bBLvWXBvc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G0bBLvWXBvc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fireship",
+        "tags": [
+          "webdev",
+          "app development",
+          "lesson",
+          "tutorial",
+          "beginners",
+          "beginner",
+          "basic",
+          "angular tutorial",
+          "angular basics",
+          "angular for beginners",
+          "angular 8",
+          "angular components",
+          "learn angular",
+          "learn play",
+          "angular course",
+          "angular game"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Angular for Beginners - Let's build a Tic-Tac-Toe PWA",
+          "description": "Learn the basics of Angular 8 🚀 by building a tic-tac-toe game 🕹️ from scratch...Then deploy it as an installable progressive web app (PWA)."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "504657",
+        "likeCount": "12092",
+        "dislikeCount": "36",
+        "favoriteCount": "0",
+        "commentCount": "463"
+      }
+    }
+  ]
+}

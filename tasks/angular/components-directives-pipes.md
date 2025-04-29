@@ -38,7 +38,7 @@ NB: Visual design and colour scheme of the app is by your taste and up to you - 
 
 - When user opens the app, only the **Header** section should be shown
 - After submitting the search form, the **Search results block** appears.
-- Show cards of videos populated with mocked data (use data from [response example](./response.json) file). You can store the mocked data in the **Search results** component
+- Show cards of videos populated with mocked data (use data from [response example](./youtube_response.json) file). You can store the mocked data in the **Search results** component
   - The bottom border represents the publication date status. The following border colors should be used:
     - 🟥 if older than 6 months
     - 🟨 if between 1 and 6 months
