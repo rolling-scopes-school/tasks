@@ -190,7 +190,6 @@ Versions: 17.0.2 (March 22, 2021)
 React version 17 mainly focused on making it easier to upgrade React itself. Unlike previous versions, React 17 did not introduce new developer-facing features; instead, it included changes that make future upgrades less risky and disruptive.
 
 Some of the changes include:
-
 - Gradual upgrades allowing React to co-exist with other versions in a single page
 - Event delegation changes ensuring no event handlers are attached to the document
 - Effect cleanup timing changes
@@ -221,46 +220,41 @@ React 19 release brings a host of groundbreaking features that significantly enh
    This new compiler transforms React code into optimized JavaScript, offering substantial performance gains. It autonomously manages component rendering for UI state changes, eliminating the need for manual state and UI updates. The compiler also optimizes components as needed, reducing dependency on hooks like `useMemo`, `memo` APIs, and `useCallback`.
 
    Key benefits:
-
-   - Improved error reporting in `react-dom`
-   - Seamless rendering of async scripts anywhere in a component tree
-   - Native rendering of document metadata tags in components
-   - Better APIs for loading and preloading browser resources
+    - Improved error reporting in `react-dom`
+    - Seamless rendering of async scripts anywhere in a component tree
+    - Native rendering of document metadata tags in components
+    - Better APIs for loading and preloading browser resources
 
 2. **Server Actions**:
    Server actions streamline data mutations and state updates in React applications by bridging the gap between client and server seamlessly. This enhancement enables developers to automatically handle pending states, error management, optimistic updates, and sequential requests.
 
    Key benefits:
-
-   - Client components can call asynchronous functions
-   - Built-in error handling
-   - Immediate user feedback during data submission
-   - Simplified form handling through new props like `action` and `formAction`
+    - Client components can call asynchronous functions
+    - Built-in error handling
+    - Immediate user feedback during data submission
+    - Simplified form handling through new props like `action` and `formAction`
 
 3. **React Server Components (RSCs)**:
    RSCs allow server-side rendering of UI components, separate from client-side applications or traditional SSR. This approach significantly improves initial page load times, especially for complex UIs. RSCs can be executed at build time or for each request, offering flexibility.
 
    Key benefits:
-
-   - Faster page load time and smoother interactions
-   - Runtime flexibility at build time and for each request
-   - Improved app performance
+    - Faster page load time and smoother interactions
+    - Runtime flexibility at build time and for each request
+    - Improved app performance
 
 4. **New Hooks: `useFormStatus`, `useActionState`, `useOptimistic`**:
    React 19 introduces three prominent hooks that transform how React developers handle forms:
 
-   - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
+    - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
 
-   - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
+    - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
 
-   - `useOptimistic`: Facilitates immediate UI updates during asynchronous data mutations, enhancing perceived responsiveness.
+    - `useOptimistic`: Facilitates immediate UI updates during asynchronous data mutations, enhancing perceived responsiveness.
 
 5. **New API: `use`**:
    React 19 introduces an experimental API called `use`, designed to read resource values (like Promises or context) directly within render functions, leading to more concise code for asynchronous data fetching and state management.
 
 ## React's Influence on the Frontend Ecosystem
-
-_Note: This list includes the individuals specifically mentioned in the React evolution document and represents the core contributors who shaped React's early development and ecosystem._
 
 React's approach to UI development has had far-reaching impacts beyond just its own ecosystem:
 
@@ -295,48 +289,3 @@ React's growth has been remarkable:
 - [React v17.0](https://legacy.reactjs.org/blog/2020/10/20/react-v17.html)
 - A Comprehensive Guide to the Latest Features and Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
 - [React Conference Presentations](https://reactjs.org/community/conferences.html)
-
-## Influential People in React Development
-
-This section highlights the key individuals who have shaped React's development and ecosystem throughout its evolution.
-
-### React Core Team & Creators
-
-#### [Jordan Walke](https://x.com/jordwalke)
-
-- **Role**: Creator of React
-- **Contribution**: Created the original React library in 2011 at Facebook, borrowing ideas from XHP (HTML component PHP framework) to solve Facebook News Feed performance issues
-
-#### [Pete Hunt](https://x.com/floydophone)
-
-- **Role**: Early Core Team Member
-- **Contribution**: Early adopter who helped open-source React and authored many core features, instrumental in React's public release in 2013
-
-#### [Sebastian Markbåge](https://x.com/sebmarkbage)
-
-- **Role**: React Architect
-- **Contribution**: Joined early and became a key figure in React's evolution, contributing to architectural decisions and long-term vision
-
-#### [Paul O'Shannessy](https://www.threads.com/@zpao)
-
-- **Role**: Core Team Member
-- **Contribution**: Helped shape React's build processes and development workflows in the early years
-
-### State Management Ecosystem
-
-#### Dan Abramov
-
-- **Role**: Redux Creator & React Core Team Member
-- **Contribution**: Co-created Redux in 2015, presented it at React Europe conference, later joined Facebook's React team and contributed to React's development
-
-#### [Andrew Clark](https://x.com/acdlite)
-
-- **Role**: Redux Co-creator & React Core Team Member
-- **Contribution**: Co-created Redux with Dan Abramov, later joined Facebook and became a key contributor to React Fiber and other major React features
-
-### Extended React Ecosystem Contributors
-
-#### [Sophie Alpert](https://sophiebits.com/)
-
-- **Role**: React Core Team Member
-- **Contribution**: Mentioned as one of the key figures who formed the nucleus of React's technical leadership and community presence
