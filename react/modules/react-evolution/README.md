@@ -190,6 +190,7 @@ Versions: 17.0.2 (March 22, 2021)
 React version 17 mainly focused on making it easier to upgrade React itself. Unlike previous versions, React 17 did not introduce new developer-facing features; instead, it included changes that make future upgrades less risky and disruptive.
 
 Some of the changes include:
+
 - Gradual upgrades allowing React to co-exist with other versions in a single page
 - Event delegation changes ensuring no event handlers are attached to the document
 - Effect cleanup timing changes
@@ -220,36 +221,39 @@ React 19 release brings a host of groundbreaking features that significantly enh
    This new compiler transforms React code into optimized JavaScript, offering substantial performance gains. It autonomously manages component rendering for UI state changes, eliminating the need for manual state and UI updates. The compiler also optimizes components as needed, reducing dependency on hooks like `useMemo`, `memo` APIs, and `useCallback`.
 
    Key benefits:
-    - Improved error reporting in `react-dom`
-    - Seamless rendering of async scripts anywhere in a component tree
-    - Native rendering of document metadata tags in components
-    - Better APIs for loading and preloading browser resources
+
+   - Improved error reporting in `react-dom`
+   - Seamless rendering of async scripts anywhere in a component tree
+   - Native rendering of document metadata tags in components
+   - Better APIs for loading and preloading browser resources
 
 2. **Server Actions**:
    Server actions streamline data mutations and state updates in React applications by bridging the gap between client and server seamlessly. This enhancement enables developers to automatically handle pending states, error management, optimistic updates, and sequential requests.
 
    Key benefits:
-    - Client components can call asynchronous functions
-    - Built-in error handling
-    - Immediate user feedback during data submission
-    - Simplified form handling through new props like `action` and `formAction`
+
+   - Client components can call asynchronous functions
+   - Built-in error handling
+   - Immediate user feedback during data submission
+   - Simplified form handling through new props like `action` and `formAction`
 
 3. **React Server Components (RSCs)**:
    RSCs allow server-side rendering of UI components, separate from client-side applications or traditional SSR. This approach significantly improves initial page load times, especially for complex UIs. RSCs can be executed at build time or for each request, offering flexibility.
 
    Key benefits:
-    - Faster page load time and smoother interactions
-    - Runtime flexibility at build time and for each request
-    - Improved app performance
+
+   - Faster page load time and smoother interactions
+   - Runtime flexibility at build time and for each request
+   - Improved app performance
 
 4. **New Hooks: `useFormStatus`, `useActionState`, `useOptimistic`**:
    React 19 introduces three prominent hooks that transform how React developers handle forms:
 
-    - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
+   - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
 
-    - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
+   - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
 
-    - `useOptimistic`: Facilitates immediate UI updates during asynchronous data mutations, enhancing perceived responsiveness.
+   - `useOptimistic`: Facilitates immediate UI updates during asynchronous data mutations, enhancing perceived responsiveness.
 
 5. **New API: `use`**:
    React 19 introduces an experimental API called `use`, designed to read resource values (like Promises or context) directly within render functions, leading to more concise code for asynchronous data fetching and state management.
