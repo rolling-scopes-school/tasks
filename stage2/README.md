@@ -18,7 +18,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
 
 - Modules:
 
@@ -51,7 +51,7 @@
 
 - Tasks:
 
-  - [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [News API](../tasks/migration-newip-to-ts.md)
   - [Interview with mentor](modules/technical-screening/)
   - [TypeScript Essentials](tasks/TypeScriptEssentials/)
   - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2023Q4-OOP.md)
@@ -89,7 +89,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
 
 - Modules:
 
@@ -112,7 +112,7 @@ At the end of this week, all students will be required to use typescript and adh
   
   - [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
   - [Conducting Technical Screening](./modules/technical-screening/)
-  - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](../tasks/migration-newip-to-ts.md)
 </details>
 
 ## Week #4
@@ -142,7 +142,7 @@ At the end of this week, all students will be required to use typescript and adh
   - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic.
   - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
   - "Online" format presentation is optional and is up to the student's discretion.
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](../tasks/migration-newip-to-ts.md)
 - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code Review](./tasks/code-review/)
 - [Checking Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
 - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
@@ -180,7 +180,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Decision Making Tool](./tasks/decision-making-tool/README.md)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Decision Making Tool](./tasks/decision-making-tool/README.md)
 
 - Modules:
 
@@ -264,7 +264,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Async Race](./tasks/async-race/)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
 
 - Modules:
 
@@ -319,7 +319,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
 
 - Modules:
 
@@ -417,7 +417,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 
 - Tasks:
 
@@ -455,7 +455,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 
 - Tasks:
 
@@ -491,7 +491,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 
 - Presentations:
 
