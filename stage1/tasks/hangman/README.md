@@ -63,10 +63,10 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
 - The task must be done in **\*private school's repository**.
 - The code must be committed to a separate branch **named as the task (`hangman`)**.
 - The `main` (or old style master) branch **must be empty** (contain only files like README.md or .gitignore).
-- Commit messages must follow the [guideline](https://docs.rs.school/#/git-convention)
+- Commit messages must follow the [guideline](https://rs.school/docs/ru/git-convention)
 - Once the work is finished, create a pull request from a **hangman** branch to **main** (or master).
 - The pull request name must contain **the task name**.
-- The pull request description must be provided according to the [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+- The pull request description must be provided according to the [template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
 
 ## Technical requirements
 

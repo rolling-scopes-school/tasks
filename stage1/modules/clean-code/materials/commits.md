@@ -101,7 +101,7 @@ Long story short, all changes in a commit should be described by one sentence wi
 
 ```md
 1. Task: [https://github.com/rolling-scopes-school/tasks/blob/master/tasks/fancy-weather.md]()
-2. Screenshot: ![](https://docs.rs.school/images/fancy-weather.png)
+2. Screenshot: ![](https://rs.school/docs/ru/images/fancy-weather.png)
 3. Deploy: [https://chakapega-fancy-weather.netlify.com/]()
 4. Done 28.05.2020 / deadline 31.05.2020
 5. Score: 220 / 300

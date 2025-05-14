@@ -89,8 +89,8 @@ Mentors can team up and mentor students together. In this case, students are sti
 - Getting the mentor role in Discord
   1. Open - https://app.rs.school/profile
   2. Authorize through Discord in the `Discord Integration` block
-  3. Add your GitHub name to your Discord nickname. Go to the Discord server (https://discord.gg/xwReXYqvs7), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
-  4. Write a message in the Discord channel #👋mentors-reception-desk (https://discord.gg/RNrz6ymyj6). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
+  3. Add your GitHub name to your Discord nickname. Go to the Discord server (<https://discord.gg/xwReXYqvs7>), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
+  4. Write a message in the Discord channel #👋mentors-reception-desk (<https://discord.gg/RNrz6ymyj6>). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
 
 ### Access to Private Student Repositories
 
@@ -119,7 +119,7 @@ In the first week of mentoring, the mentor needs to:
 - The communication is initiated by the student. The student should be self-motivated to learn.
 - The mentor needs to review the completed works of students within one to two weeks.
 - The review of completed works is done through reviewing the respective Pull Requests. [Algorithm for reviewing student PRs](pull-request-review-process.md)
-- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](https://docs.rs.school/#/rs-school-chats).
+- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](https://rs.school/docs/ru/rs-school-chats).
 
 ### Weekly Meeting with Students
 

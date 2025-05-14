@@ -320,7 +320,8 @@
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://docs.rs.school/#/mentoring-kick-off)
+- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
+
 </details>
 
 ## ❓ FAQ
