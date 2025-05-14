@@ -255,7 +255,9 @@ https://dictionary.skyeng.ru/api/public/v1/words/search?search=cat (`?search=${ 
 
 ```javascript
 const getWordDetalization = async (word) => {
-  const rawResponse = await fetch(`https://dictionary.skyeng.ru/api/public/v1/words/search?search=${word}`);
+  const rawResponse = await fetch(
+    `https://dictionary.skyeng.ru/api/public/v1/words/search?search=${word}`,
+  );
 
   const content = await rawResponse.json();
 
