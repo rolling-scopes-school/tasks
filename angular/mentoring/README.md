@@ -89,8 +89,8 @@ Mentors can team up and mentor students together. In this case, students are sti
 - Getting the mentor role in Discord
   1. Open - https://app.rs.school/profile
   2. Authorize through Discord in the `Discord Integration` block
-  3. Add your GitHub name to your Discord nickname. Go to the Discord server (<https://discord.gg/xwReXYqvs7>), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
-  4. Write a message in the Discord channel #👋mentors-reception-desk (<https://discord.gg/RNrz6ymyj6>). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
+  3. Add your GitHub name to your Discord nickname. Go to the Discord server (https://discord.gg/xwReXYqvs7), click `Server Settings`, select `Edit Server Profile`, and fill in the `Server Nickname` field as Your Nickname (Your GitHub), e.g., Paval Miatlitski (@pavalEscoba).
+  4. Write a message in the Discord channel #👋mentors-reception-desk (https://discord.gg/RNrz6ymyj6). Example message: "Hi everyone, my name is Juan and I'm a mentor from Poland"
 
 ### Access to Private Student Repositories
 
