@@ -18,7 +18,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
 
 - Modules:
 
@@ -89,7 +89,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
 
 - Modules:
 
@@ -180,7 +180,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Decision Making Tool](./tasks/decision-making-tool/README.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Decision Making Tool](./tasks/decision-making-tool/README.md)
 
 - Modules:
 
@@ -264,7 +264,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Async Race](./tasks/async-race/)
 
 - Modules:
 
@@ -319,7 +319,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
 
 - Modules:
 
@@ -417,7 +417,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 
 - Tasks:
 
@@ -455,7 +455,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 
 - Tasks:
 
@@ -491,7 +491,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - Cross-Check Reviews:
 
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 
 - Presentations:
 

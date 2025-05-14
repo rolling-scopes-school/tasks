@@ -28,7 +28,7 @@ Maximum score - **100**
 
 Fines
 
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app doesn't work or has console errors. (**-20**)
 - [ ] ESLint warnings or errors are present. (**-15**)
 - [ ] For each unit test case that fails. (**-20**)

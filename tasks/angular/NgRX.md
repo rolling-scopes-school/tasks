@@ -166,7 +166,7 @@ Maximum score - **100**
 Fines
 
 - [ ] Failure to submit on time may lead to points lose according to
-      the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+      the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] Store is not separated into video data and sequences for _List Page_ and _Favorite Page_ (**-30**)
 - [ ] _Custom Card_ on _List Page_ or _View Page_ contains _favorite button_ (**-15**)
 - [ ] _favorite button_ on _List Page_ or _View Page_ for common YouTube video element doesn't change its appearance

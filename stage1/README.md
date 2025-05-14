@@ -110,7 +110,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "[Christmas shop. Part 1: Fixed Layout](../tasks/christmas-shop/christmas-shop-part1.md)"
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Christmas shop. Part 1: Fixed Layout](../tasks/christmas-shop/christmas-shop-part1.md)"
 
 - Modules:
 
@@ -131,7 +131,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project "[Christmas shop. Part 2: Responsive Design](../tasks/christmas-shop/christmas-shop-part2.md)"
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Christmas shop. Part 2: Responsive Design](../tasks/christmas-shop/christmas-shop-part2.md)"
 
 - Modules:
 
@@ -155,7 +155,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project "[Christmas shop. Part 3: Adding Functionality](../tasks/christmas-shop/christmas-shop-part3.md)"
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Christmas shop. Part 3: Adding Functionality](../tasks/christmas-shop/christmas-shop-part3.md)"
 
 - Modules:
 
@@ -194,7 +194,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
 
 - Modules:
 
@@ -247,7 +247,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Simon Says"](tasks/simon-says/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project ["Simon Says"](tasks/simon-says/)
 
 - Modules:
 
@@ -263,7 +263,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
 
 - Modules:
 
@@ -299,7 +299,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Nonograms"](../tasks/nonograms/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project ["Nonograms"](../tasks/nonograms/)
 
 - Modules:
 
