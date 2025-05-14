@@ -6,7 +6,7 @@
 
 **English for kids** - приложение для изучения английских слов детьми.
 
-## Структура приложения:
+## Структура приложения
 
 1. Главная страница
 2. Страница категории
@@ -19,15 +19,15 @@
 
 ### Demo
 
-https://english-for-kids.netlify.com/ (версия без Hacker scope)
+<https://english-for-kids.netlify.com/> (версия без Hacker scope)
 
 ## Примеры работ
 
-- https://marta-r-english-for-kids.netlify.app/
-- https://zheromskyv-english-for-kids.netlify.app/
-- https://xmelsky-english-for-kids.netlify.app/
-- https://irinateln0va-english-for-kids.netlify.app/
-- https://kotiknalune-english-for-kids.netlify.app/
+- <https://marta-r-english-for-kids.netlify.app/>
+- <https://zheromskyv-english-for-kids.netlify.app/>
+- <https://xmelsky-english-for-kids.netlify.app/>
+- <https://irinateln0va-english-for-kids.netlify.app/>
+- <https://kotiknalune-english-for-kids.netlify.app/>
 
 ## Описание страниц
 
@@ -63,14 +63,14 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 - задание выполняется в приватном репозитории школы [Как работать с приватным репозиторием](https://rs.school/docs/ru/private-repository#как-работать-с-приватным-репозиторием). Если у вас нет приватного репозиторий школы, задание можно выполнять в личном приватном репозитории.
 - в приватном репозитории создайте ветку с названием задания, в ней создайте папку с названием задания, и в ней разместите файлы проекта
-- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы). Если вы не можете задеплоить проект на `gh-pages`, для деплоя можно использовать https://app.netlify.com/drop  
+- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы). Если вы не можете задеплоить проект на `gh-pages`, для деплоя можно использовать <https://app.netlify.com/drop>  
   Для демоверсий, размещённых на `netlify`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://rs.school/docs/ru/pull-request-review-process#описание-pull-request-должно-содержать-следующую-информацию). **Мержить Pull Request не нужно**
 
 ## Как сабмитить задание
 
-Засабмитить задание необходимо как можно раньше, как только в rs app появится такая возможность. Для этого зайдите в rs app https://app.rs.school/, выберите пункт Cross-Check: Submit, в выпадающем списке выберите название таска, в поле Solution URL добавьте ссылку на задеплоенную версию вашего приложения, нажмите кнопку Submit.  
+Засабмитить задание необходимо как можно раньше, как только в rs app появится такая возможность. Для этого зайдите в rs app <https://app.rs.school/>, выберите пункт Cross-Check: Submit, в выпадающем списке выберите название таска, в поле Solution URL добавьте ссылку на задеплоенную версию вашего приложения, нажмите кнопку Submit.  
 После сабмита задания его можно продолжать выполнять до самого дедлайна.
 
 ## Технические требования
@@ -87,9 +87,9 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 - вёрстка адаптивная. Минимальная ширина страницы, при которой проверяется корректность отображения приложения, 320рх
 - так как приложение предназначено для обучения детей, в том числе и тех, которые ещё не умеют читать, все надписи, если это возможно, необходимо продублировать картинками или иконками
 - интерактивность элементов, с которыми пользователи могут взаимодействовать, изменение внешнего вида самого элемента и состояния курсора при наведении, использование разных стилей для активного и неактивного состояния элемента, плавные анимации
-- в футере приложения есть ссылка на гитхаб автора, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/)
+- в футере приложения есть ссылка на гитхаб автора, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru)
 
-## Критерии оценки:
+## Критерии оценки
 
 **Максимальный балл за задание: 275 баллов при кросс-чеке / 360 баллов при проверке ментором**
 
@@ -168,9 +168,9 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 ## Видео с разбором задания
 
-- Task overview: https://youtu.be/xXBce4ZLcCQ
-- Task Q & A: https://youtu.be/ctpBIPygV4k
-- Task review https://youtu.be/PdHjLvcOLQw
+- Task overview: <https://youtu.be/xXBce4ZLcCQ>
+- Task Q & A: <https://youtu.be/ctpBIPygV4k>
+- Task review <https://youtu.be/PdHjLvcOLQw>
 
 ## Материалы
 
@@ -196,5 +196,5 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 ### Документ для вопросов
 
-- документ для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1LjN5NEFUavLpqwGKA62dads1PckZOLlwQaihK4XcN30/edit?usp=sharing
-- ссылки на лучшие работы с оригинальным дизайном, и/или реализованными дополнительными возможностями добавьте, пожалуйста, в эту форму: https://forms.gle/d3MM1rRaLU2WU9Hs9
+- документ для вопросов, связанных с выполнением задания: <https://docs.google.com/spreadsheets/d/1LjN5NEFUavLpqwGKA62dads1PckZOLlwQaihK4XcN30/edit?usp=sharing>
+- ссылки на лучшие работы с оригинальным дизайном, и/или реализованными дополнительными возможностями добавьте, пожалуйста, в эту форму: <https://forms.gle/d3MM1rRaLU2WU9Hs9>

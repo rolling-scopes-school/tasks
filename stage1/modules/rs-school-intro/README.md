@@ -24,7 +24,7 @@ The course documentation answers most queries. However, it's worth noting that t
 ## Theory
 
 1. Watch [the introductory session for the 2024Q4 intake](https://www.youtube.com/watch?v=cD3cFXkNmoU)
-2. Read the course documentation <https://rs.school/docs/ru/>
+2. Read the course documentation <https://rs.school/docs/ru>
    - Learning process
    - Possible reasons for expulsion
    - Submitting assignments in RS APP

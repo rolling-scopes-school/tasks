@@ -105,7 +105,7 @@
 
 ### Footer
 
-- footer со ссылками на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/angular/). footer отображается на всех страницах приложения.
+- footer со ссылками на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/angular). footer отображается на всех страницах приложения.
 
 ### Login / Sign up
 

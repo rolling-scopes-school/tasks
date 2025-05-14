@@ -10,8 +10,8 @@ There are many competitors on the market for our future application. Check out s
 ## Building a team
 
 - you should work in a team of 3 members
-- teams can be pre-defined there. (https://rss-teams.web.app/)
-- All students should be registered there. (https://rss-teams.web.app/)
+- teams can be pre-defined there. (<https://rss-teams.web.app/>)
+- All students should be registered there. (<https://rss-teams.web.app/>)
 - All teams should be registered there. [RSSTeams](https://rss-teams.web.app/)
 - Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams) <!-- TODO: страница с организацией командной работы в документации отсутствует -->
 
@@ -23,19 +23,19 @@ Design, prototype, as well as the implementation of the application are up to yo
 
 Here's the list of examples of working prototypes:
 
-https://rss-pma.netlify.app/
+<https://rss-pma.netlify.app/>
 
-https://pm-app-34.netlify.app/
+<https://pm-app-34.netlify.app/>
 
-https://management-app-dariija.netlify.app/
+<https://management-app-dariija.netlify.app/>
 
-https://pma-olesiklesha.netlify.app/
+<https://pma-olesiklesha.netlify.app/>
 
-https://tarasiukdima.github.io/project-management-app/
+<https://tarasiukdima.github.io/project-management-app/>
 
 ## Backend
 
-Use https://github.com/vitaly-sazonov/kanban-rest or https://github.com/rolling-scopes-school/final-task-backend/pull/1 as a backend.
+Use <https://github.com/vitaly-sazonov/kanban-rest> or <https://github.com/rolling-scopes-school/final-task-backend/pull/1> as a backend.
 There is a description of the steps to get started, as well as a list of available requests in the repository.
 
 - You will need to deploy the backend yourself to demonstrate the working application.
@@ -112,7 +112,7 @@ Your app must contain:
 
 ### Footer
 
-- footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
+- footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/courses/reactjs).
 - footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up

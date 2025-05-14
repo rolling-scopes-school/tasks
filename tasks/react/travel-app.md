@@ -19,7 +19,7 @@ travel-app - приложение для виртуальных путешест
 - приложение состоит из главной страницы и страницы страны.
 - у каждой страницы приложения есть header и footer
 - header содержит логотип приложения со ссылкой на главную страницу, поле поиска, поле для выбора языка локализации страницы. В header страницы страны поле поиска отсутствует.
-- footer содержит ссылки на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/).
+- footer содержит ссылки на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru).
 
 ### Главная страница приложения
 
@@ -141,7 +141,7 @@ travel-app - приложение для виртуальных путешест
 - интерактивность элементов, с которыми пользователи могут взаимодействовать, изменение внешнего вида самого элемента и состояния курсора при наведении, использование разных стилей для активного и неактивного состояния элемента, плавные анимации
 - единое стилевое оформление всех страниц приложения
 
-## Критерии оценки:
+## Критерии оценки
 
 **Максимальный балл за задание: 200 баллов**.
 
@@ -219,8 +219,8 @@ travel-app - приложение для виртуальных путешест
 ### Курсы по Node.js
 
 - Теория
-  - https://metanit.com/web/nodejs/
-  - https://nodejs-guide.netlify.app/
+  - <https://metanit.com/web/nodejs/>
+  - <https://nodejs-guide.netlify.app/>
 - Вебинары Nikita Rudy (RS School 2019q1 - общее представление о node.js)
   - [node-js-and-npm-basics](https://youtu.be/CAvqa6Lj_Rg)
   - [node-js-introduction](https://youtu.be/TEuDTl8SdZo)
@@ -243,5 +243,5 @@ travel-app - приложение для виртуальных путешест
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/of58sPryDRLe2JZy6](https://docs.google.com/forms/d/e/1FAIpQLSclPHGiIZeBZ8YvbRIrglDyAKgCY1NCTUFNSUJA2cFXeGZnqg/viewform?usp=sf_link)
