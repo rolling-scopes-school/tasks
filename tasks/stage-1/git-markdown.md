@@ -76,7 +76,7 @@ Markdown & Git - автопроверяемый таск.
    Вы можете проверить свои коммиты здесь: `https://your-github-account.github.io/rsschool-cv/commits/gh-pages`. Коммиты "Merge ..." или "Initial commit" игнорируются.
 
 3. 50 баллов и статус "Failed commit requirements: Commits do no follow guideline ..."  
-   Не все коммиты выполняются по правилам: https://docs.rs.school/#/en/git-convention Все коммиты, не отвечающие правилам, будут перечислены в статусе.
+   Не все коммиты выполняются по правилам: https://rs.school/docs/en/git-convention Все коммиты, не отвечающие правилам, будут перечислены в статусе.
 
 4. 50 баллов и статус "Failed PR requirements: No Pull Request with task name (Markdown & Git)"  
    Вы не отправили Pull Request с `gh-pages` в `master`или название Pull Request не "Markdown & Git".  

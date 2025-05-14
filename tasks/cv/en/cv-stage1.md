@@ -8,7 +8,7 @@ In this task, the layout of the CV created during the [HTML, CSS & Git](html-css
 2. Create a branch `cv-html-css` from the `rsschool-cv-html` branch. The files with the layout will be automatically moved to this branch.
 3. Check the compliance of your CV with the requirements of the task, evaluate your work according to the provided [Scoring Criteria](#scoring-criteria), and make necessary changes.
 4. Create and merge a Pull Request from the `cv-html-css` branch into the `gh-pages` branch. The Pull Request's name can be arbitrary. There is no need to describe this Pull Request.
-5. After completing the work, open a Pull Request from the `cv-html-css` branch into the `main` branch. Name the Pull Request based on the task's name. [Provide a description for the Pull Request following the schema](https://docs.rs.school/#/en/pull-request-review-process?id=pr-requirements) and do not merge this Pull Request.
+5. After completing the work, open a Pull Request from the `cv-html-css` branch into the `main` branch. Name the Pull Request based on the task's name. [Provide a description for the Pull Request following the schema](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) and do not merge this Pull Request.
 
 ## Layout Requirements
 
@@ -23,7 +23,7 @@ In this task, the layout of the CV created during the [HTML, CSS & Git](html-css
 
 ## Commit Requirements
 
-- [Name your commits according to the guideline](https://docs.rs.school/#/en/git-convention)
+- [Name your commits according to the guideline](https://rs.school/docs/en/git-convention)
 
 ## Technical Requirements
 
@@ -75,7 +75,7 @@ The difference between the maximum score for the task (150 points) and the maxim
 
 ## Cross-Check
 
-- Cross-check instructions: [Cross-Check Flow](https://docs.rs.school/#/en/cross-check-flow)
+- Cross-check instructions: [Cross-Check Flow](https://rs.school/docs/en/cross-check-flow)
 - Review form: [Review Form](https://rolling-scopes-school.github.io/checklist/) (item "CV")
 - Please add links to the best works to the form: [Form](https://forms.gle/tgC3Y3dn9y2Yu5NF6)
 

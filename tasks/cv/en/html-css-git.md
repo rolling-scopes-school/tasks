@@ -20,10 +20,10 @@ All errors found by the validator during the checking of your work are listed in
 
 1. Continue working in the `rsschool-cv` repository created during the previous task [Markdown & Git](git-markdown.md).
 2. Create a branch `rsschool-cv-html` from the `gh-pages` branch.
-3. Maintain a commit history during the project. Follow the [commit guideline](https://docs.rs.school/#/en/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
+3. Maintain a commit history during the project. Follow the [commit guideline](https://rs.school/docs/en/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
 4. In the `rsschool-cv-html` branch, place the files `index.html` and `style.css`, adding basic empty templates or templates with minimal content to them. The actual CV layout and styling will be done in the next task.
 5. In the `README.md` file of the `rsschool-cv-html` branch, add a link like `https://GITHUB-USERNAME.github.io/rsschool-cv/`, replacing `GITHUB-USERNAME` with your GitHub username. This link will open the CV page as a fully styled webpage. We will add the actual layout during the next task.
-6. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
+6. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
 
 ## How to Submit the Assignment
 
