@@ -61,7 +61,7 @@
 
 11. Далее фиксируйте изменения (_коммитим_) командой `git commit -m 'НАЗВАНИЕ КОММИТА'`.
 
-- Обратите внимание на **требования** к коммитам [https://docs.rs.school/#/git-convention](https://docs.rs.school/#/git-convention). В ТЗ написано что должно быть не менее 3-х коммитов в ветку `gh-pages`. Коммиты должны начинаться с префиксов: `init:`, `feat:` , `fix:` , `refactor:` , `docs:`.
+- Обратите внимание на **требования** к коммитам [https://rs.school/docs/ru/git-convention](https://rs.school/docs/ru/git-convention). В ТЗ написано что должно быть не менее 3-х коммитов в ветку `gh-pages`. Коммиты должны начинаться с префиксов: `init:`, `feat:` , `fix:` , `refactor:` , `docs:`.
 
 ![Image 12](https://i.ibb.co/yWLXJM4/image.png)
 

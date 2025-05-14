@@ -200,6 +200,6 @@ Momentum - большой и интересный таск. В ходе его �
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/Xc9RVjEWTTGF6ubK8
 - Документ для вопросов: https://docs.google.com/spreadsheets/d/1dMDLBC4-1XPaVMehZB6DqetToXZhq4x0PiZtj-jvLRc/edit#gid=1153986630

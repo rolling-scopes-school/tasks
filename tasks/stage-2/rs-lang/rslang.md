@@ -169,7 +169,7 @@
 - для разработки приложения тим лид команды в своём аккаунте github создаёт приватный репозиторий, коллаборантами в который приглашает всех участников своей команды
 - название репозитория: **rslang**, название ветки, в которой ведётся разработка - **develop**, ветка **main** пустая, содержит только README.md
 - [особенности командной работы с репозиторием](https://github.com/pavelrazuvalau/docs/blob/bc122a5cf556faf43745252c55fa441706cf0b6c/docs/final-task.md#работа-с-репозиторием)
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.  
   Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: rslang - гитхаб тимлида команды
 - после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
@@ -218,5 +218,5 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/pEZshjLxzHU1K6tT6](https://docs.google.com/forms/d/e/1FAIpQLSe2ya0fdUEjlaJJlTqkvCprb-FPbN8iNSVAYNnp7fSFBxJ-vQ/viewform?usp=sf_link)

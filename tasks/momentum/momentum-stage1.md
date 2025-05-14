@@ -161,7 +161,7 @@
 ## Проверка задания
 
 - задание будет проверяться посредством кросс-чека.
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чек проверки [https://momentum-crosscheck.netlify.app/](https://rolling-scopes-school.github.io/checklist/) (В списке чеклистов 2 моментума, необходимо выбрать тот в котором 40 пунктов и максимум 150 баллов)
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/Xc9RVjEWTTGF6ubK8
 

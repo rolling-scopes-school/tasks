@@ -36,7 +36,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%B5%D1%80_%D0%BF%D0%BB%D0%B0%
 - для разработки приложения тимлид команды в своём аккаунте github создаёт приватный репозиторий, коллабораторами в который приглашает всех участников своей команды
 - особенности командной работы с репозиторием описаны в [Документации курса](https://github.com/rolling-scopes-school/tasks/tree/master/stage3/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - название репозитория: **pointing-poker**, название ветки, в которой ведётся разработка - **develop**, ветка **main** пустая, содержит только README.md
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.
 - после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). **Мержить Pull Request не нужно**
 - добавьте в описание pull request ссылку на папку с бекендом
@@ -197,7 +197,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%B5%D1%80_%D0%BF%D0%BB%D0%B0%
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания будет размещена в анонсах
 - cсылки на лучшие работы добавьте, пожалуйста, в эту [форму](https://forms.gle/nHL6SJxqVHVkNBH27)
 

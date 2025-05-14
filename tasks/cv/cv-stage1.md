@@ -24,7 +24,7 @@
 
 ## Требования к коммитам
 
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Технические требования
 
@@ -76,7 +76,7 @@ CV - таск, который проверяется в ходе кросс-че
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания https://rolling-scopes-school.github.io/checklist/ (пункт "CV")
 - ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 

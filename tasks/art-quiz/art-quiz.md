@@ -154,7 +154,7 @@
 
 1. Репозиторий +20
    - pull request выполнен в соответствии с [требованиями](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) +10
-   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
+   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://rs.school/docs/ru/git-convention) +10
 2. Качество кода +150
    - правильное именование переменных и функций +10
    - используется prettier, код отформатирован, хорошо читается +10
@@ -238,7 +238,7 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания https://art-quiz-cross-check.netlify.app/
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/C1gXgJv4kGCPiMz9A
 - документ для вопросов: https://docs.google.com/spreadsheets/d/1kfp680-tHPCd8gW2I4M1LAwlsFgHM87z9iLiRcu1KHE/

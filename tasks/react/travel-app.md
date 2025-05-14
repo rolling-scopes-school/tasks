@@ -108,7 +108,7 @@ travel-app - приложение для виртуальных путешест
 - особенности командной работы с репозиторием описаны в [Документации курса](https://docs.rs.school/#/final-task?id=Работа-с-репозиторием) <!-- TODO: страница с особенностями командной работы в документации отсутствует -->
 - название репозитория: `travel-app`, название ветки, в которой ведётся разработка - `develop`, ветка `main` пустая, содержит только README.md
 - в файл README.md нужно добавить инструкцию по запуску приложения
-- история коммитов должна отображать процесс разработки приложения [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.  
   Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). **Мержить Pull Request не нужно**
@@ -243,5 +243,5 @@ travel-app - приложение для виртуальных путешест
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/of58sPryDRLe2JZy6](https://docs.google.com/forms/d/e/1FAIpQLSclPHGiIZeBZ8YvbRIrglDyAKgCY1NCTUFNSUJA2cFXeGZnqg/viewform?usp=sf_link)

@@ -12,7 +12,7 @@
 ## Порядок работы
 
 1. Задание выполняется в приватном репозитории школы.  
-   [Как работать с приватным репозиторием школы](https://docs.rs.school/#/private-repository)
+   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
 2. От ветки `main` создайте ветку `plants` в ней создайте папку `plants`, в ней разместите файлы проекта
 3. Выполните задание.
 4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
@@ -98,4 +98,4 @@
 ## Проверка задания Plants#1
 
 - форма для кросс-чека (Plants#1): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow

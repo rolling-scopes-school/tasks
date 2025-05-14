@@ -111,7 +111,7 @@
 
 1. Репозиторий +20
    - pull request выполнен в соответствии с [требованиями](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) +10
-   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
+   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://rs.school/docs/ru/git-convention) +10
 2. Технические требования +130
    - создано API, которое используется в качестве источника данных +50
    - используется TypeScript и его возможности +30
@@ -195,6 +195,6 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 <!-- - ссылки на лучшие работы добавьте, пожалуйста, в эту форму
 - документ для вопросов: -->

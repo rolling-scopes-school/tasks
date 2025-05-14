@@ -65,7 +65,7 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 - в приватном репозитории создайте ветку с названием задания, в ней создайте папку с названием задания, и в ней разместите файлы проекта
 - для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы). Если вы не можете задеплоить проект на `gh-pages`, для деплоя можно использовать https://app.netlify.com/drop  
   Для демоверсий, размещённых на `netlify`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://rs.school/docs/ru/pull-request-review-process#описание-pull-request-должно-содержать-следующую-информацию). **Мержить Pull Request не нужно**
 
 ## Как сабмитить задание
@@ -192,7 +192,7 @@ https://english-for-kids.netlify.com/ (версия без Hacker scope)
 
 ### Cross-check
 
-- инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
+- инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://rs.school/docs/ru/cross-check-flow)
 
 ### Документ для вопросов
 

@@ -50,7 +50,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 - необходимо использовать React
 - можно использовать CSS preprocessors
 - демо-версия приложения размещается на `https://www.netlify.com/`, либо на другом подобном хостинге. Название демо-версии приложения даёте по схеме: никнейм пользователя - название таска
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки songbird в ветку master. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
 - как сабмитить своё решение: в поле Cross-Check: Submit https://app.rs.school/ добавьте ссылку на pull request
 
@@ -126,7 +126,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 
 ### Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания https://songbird-cross-check.netlify.app/
 - если вам понравилась работа, ссылку на нее добавьте, пожалуйста, в эту форму: https://forms.gle/4UUyQ2214iD7zqYk8
 

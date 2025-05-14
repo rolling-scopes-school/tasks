@@ -36,7 +36,7 @@
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
+- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
 - [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-получение-студентов)
 - [Conducting Technical Screening](./modules/technical-screening/)
 </details>
@@ -78,7 +78,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
+- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
 - [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-получение-студентов)
 - [Conducting Technical Screening](./modules/technical-screening/)
 </details>
@@ -112,7 +112,7 @@ At the end of this week, all students will be required to use typescript and adh
   
   - [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
   - [Conducting Technical Screening](./modules/technical-screening/)
-  - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+  - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
 </details>
 
 ## Week #4
@@ -142,9 +142,9 @@ At the end of this week, all students will be required to use typescript and adh
   - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic.
   - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
   - "Online" format presentation is optional and is up to the student's discretion.
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code Review](./tasks/code-review/)
+- [Checking Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
 - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 </details>
 
@@ -169,8 +169,8 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code Review](./tasks/code-review/)
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
 - If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
 
@@ -202,8 +202,8 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Decision Making Tool](./tasks/decision-making-tool/README.md)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Decision Making Tool](./tasks/decision-making-tool/README.md)
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 </details>
@@ -229,7 +229,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -255,7 +255,7 @@ At the end of this week, all students will be required to use typescript and adh
 
 - [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
 </details>
 
 ## Week #9
@@ -284,8 +284,8 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Async Race](./tasks/async-race/)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Async Race](./tasks/async-race/)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 </details>
 
@@ -310,7 +310,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor activities</summary>
 
 - [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
 ## Week #11
@@ -338,7 +338,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary>Mentor Activities</summary>
 
 - [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
 ## Week #12
@@ -361,9 +361,9 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Project: Presentation. Recorded](tasks/presentation/)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
+- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Project: Presentation. Recorded](tasks/presentation/)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
 
 </details>
 
@@ -387,7 +387,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 </details>
 
 ## Week #14
@@ -407,7 +407,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
@@ -428,7 +428,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
@@ -445,7 +445,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
@@ -466,7 +466,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 - [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
 </details>
 
@@ -482,7 +482,7 @@ At the end of this week, all students will be required to use typescript and adh
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
 </details>
 
 ## Week #19

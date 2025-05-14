@@ -162,5 +162,5 @@ https://birds-quiz.netlify.com/
 
 ### Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - для удобства проверки самооценку своей работы выведите в консоль (функция console.log)

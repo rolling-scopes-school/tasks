@@ -27,7 +27,7 @@
 
 ## Требования к коммитам
 
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Требования к Pull Request
 

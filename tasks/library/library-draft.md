@@ -83,7 +83,7 @@ Library – задание stage#0 в ходе выполнения которо
 
 ## Требования к репозиторию
 
-- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://docs.rs.school/#/private-repository)
+- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
 - если у вас не создаётся приватный репозиторий школы, задание можно выполнять в личном приватном репозитории
 - от ветки `main` создайте ветку `library` в ней создайте папку `library`, в ней разместите файлы проекта
 - для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
@@ -96,7 +96,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Требования к Pull Request
 
@@ -129,7 +129,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания
 
 - форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 
 ## Материалы
 
@@ -177,7 +177,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Порядок работы
 
 1. Задание выполняется в приватном репозитории школы.
-   [Как работать с приватным репозиторием школы](https://docs.rs.school/#/private-repository)
+   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
 2. От ветки `main` создайте ветку `library` в ней создайте папку `library`, в ней разместите файлы проекта
 3. Выполните задание.
 4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
@@ -286,7 +286,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#1
 
 - форма для кросс-чека (Library#1): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 
 ---
 
@@ -404,7 +404,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#2
 
 - форма для кросс-чека (Library#2): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 
 ---
 
@@ -585,4 +585,4 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#3
 
 - форма для кросс-чека (Library#3): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow

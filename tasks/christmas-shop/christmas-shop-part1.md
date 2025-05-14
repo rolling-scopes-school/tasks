@@ -9,7 +9,7 @@ The content width of 1440px should not change when resizing the browser window.
 
 ## Workflow
 
-1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
+1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository)
 2. Create a new branch named `christmas-shop` from `main` branch. Create a folder `christmas-shop` in the created branch. Place your code in this folder.
 3. Complete the task.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
@@ -97,4 +97,4 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://docs.rs.school/#/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://rs.school/docs/ru/cross-check-flow

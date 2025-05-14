@@ -13,7 +13,7 @@
 ## Порядок работы
 
 1. Задание выполняется в приватном репозитории школы.  
-   [Как работать с приватным репозиторием школы](https://docs.rs.school/#/private-repository)
+   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
 2. От ветки `main` создайте ветку `portfolio` в ней создайте папку `portfolio`, в ней разместите файлы проекта
 3. Выполните задание.
 4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
@@ -102,5 +102,5 @@
 
 ## Проверка задания Portfolio#1
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://portfolio-part1-check-list.netlify.app/

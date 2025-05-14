@@ -191,6 +191,6 @@
 
 ## Cross-check
 
-- [инструкция по проведению cross-check](https://docs.rs.school/#/cross-check-flow)
+- [инструкция по проведению cross-check](https://rs.school/docs/ru/cross-check-flow)
 - [форма для проверки задания](https://covid-dashboard-cross-check.netlify.app/)
 - [cсылки на лучшие работы добавьте, пожалуйста, в эту форму](https://forms.gle/kAEtwN1mRouA5pny5)

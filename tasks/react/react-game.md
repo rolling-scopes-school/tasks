@@ -16,7 +16,7 @@
 - разработка игры ведётся в личном приватном репозитории
 - название репозитория: `react-game`, название ветки, в которой ведётся разработка - `react-game`, ветка `main` пустая, содержит только README.md
 - в файл README.md нужно добавить инструкцию по запуску игры
-- история коммитов должна отображать процесс разработки игры. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки игры. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.  
   Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). **Мержить Pull Request не нужно**
@@ -112,5 +112,5 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/M2J3zF2mXfvbSScP8](https://docs.google.com/forms/d/e/1FAIpQLSclryL395bH7V8t-7UriMrZsJSaoz5TQuWakQbwVPGJaBHvIQ/viewform?usp=sf_link)

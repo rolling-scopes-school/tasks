@@ -69,7 +69,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 ## Repository Requirements
 
-- Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
+- Task should be done in private school's repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository)
 - Create new branch `christmas-shop` from `main`. Create a folder `christmas-shop` in the created branch. Place your code in this folder.
 - The `main` branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
@@ -83,7 +83,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 ## Commit Requirements
 
 - Commit history should reflect the application development process.
-- [Give commit names according to the guideline](https://docs.rs.school/#/git-convention)
+- [Give commit names according to the guideline](https://rs.school/docs/ru/git-convention)
 
 ## Requirements for Pull Requests
 
@@ -104,7 +104,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
 ## Task Evaluation
 
 - Each part of the assignment is assessed through a cross-check
-- Instructions for conducting a cross-check: https://docs.rs.school/#/cross-check-flow
+- Instructions for conducting a cross-check: https://rs.school/docs/ru/cross-check-flow
 
 ## Materials
 
