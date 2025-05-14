@@ -59,11 +59,11 @@
 ## Требования к репозиторию
 
 - для разработки приложения тим лид команды в своём аккаунте github создаёт приватный репозиторий, коллаборантами в который приглашает всех участников своей команды
-- особенности командной работы с репозиторием описаны в [Документации курса](https://docs.rs.school/#/final-task?id=Работа-с-репозиторием)
+- особенности командной работы с репозиторием описаны в [Документации курса](https://docs.rs.school/#/final-task?id=Работа-с-репозиторием) <!-- TODO: страница с особенностями командной работы в документации отсутствует -->
 - название репозитория: **rslang**, название ветки, в которой ведётся разработка - **develop**, ветка **master** пустая, содержит только README.md
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
 - демо-версия приложения размещается на `https://www.netlify.com/`, либо на другом подобном хостинге
-- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки develop в ветку master. [Требования к pull request](https://docs.rs.school/#/pull-request-review-process?id=%d0%9e%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-pull-request-%d0%b4%d0%be%d0%bb%d0%b6%d0%bd%d0%be-%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d1%82%d1%8c-%d1%81%d0%bb%d0%b5%d0%b4%d1%83%d1%8e%d1%89%d1%83%d1%8e-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8e)
+- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки develop в ветку master. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#описание-pull-request-должно-содержать-следующую-информацию)
 
 ## Технические требования
 
@@ -255,9 +255,7 @@ https://dictionary.skyeng.ru/api/public/v1/words/search?search=cat (`?search=${ 
 
 ```javascript
 const getWordDetalization = async (word) => {
-  const rawResponse = await fetch(
-    `https://dictionary.skyeng.ru/api/public/v1/words/search?search=${word}`,
-  );
+  const rawResponse = await fetch(`https://dictionary.skyeng.ru/api/public/v1/words/search?search=${word}`);
 
   const content = await rawResponse.json();
 

@@ -38,7 +38,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%B5%D1%80_%D0%BF%D0%BB%D0%B0%
 - название репозитория: **pointing-poker**, название ветки, в которой ведётся разработка - **develop**, ветка **main** пустая, содержит только README.md
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.
-- после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request не нужно**
+- после окончания разработки или при наступлении дедлайна, создайте pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). **Мержить Pull Request не нужно**
 - добавьте в описание pull request ссылку на папку с бекендом
 - репозиторий, в котором велась работа над проектом, после наступления дедлайна нужно сделать публичным.
 

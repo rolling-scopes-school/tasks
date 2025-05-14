@@ -15,7 +15,7 @@ The content width of 1440px should not change when resizing the browser window.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
 5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
 6. Deploy your work to gh-pages. For example, create and merge a Pull Request from the `christmas-shop` branch into `gh-pages` branch. The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. Once you have completed your work, open a Pull Request from the `christmas-shop` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+7. Once you have completed your work, open a Pull Request from the `christmas-shop` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
    There is no need to merge this Pull Request.
 8. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
 9. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).

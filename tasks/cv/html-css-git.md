@@ -27,7 +27,7 @@
    Саму вёрстку добавим в ходе выполнения следующего задания
 6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
    Название Pull Request `HTML, CSS & Git Basics`
-   [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
    Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
 
 ## Как сабмитить задание

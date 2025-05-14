@@ -68,7 +68,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 - Task should be done in private school's repository. [How to work with a school's private repository](https://docs.rs.school/#/private-repository)
 - Create new branch `coffee-house` from `main`. Create a folder `coffee-house` in the created branch. Place your code in this folder.
 - The `main` (or `master`) branch should be empty (contain only files like README.md, .gitignore or .github folder)
-- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - Since the task is divided into three parts, coffee-house will have three versions:
   1.  The `coffee-house` branch will contain the first part of the assignment. When starting the second part, create a branch `coffee-house-week2` from the `coffee-house` branch to continue from where you left off in the first part
   2.  Upon completing the second part of the assignment, create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, check for conflicts, and perform the Merge
@@ -84,7 +84,7 @@ Recommendations are provided for reference; strict adherence to them is not expe
 ## Requirements for Pull Requests
 
 - Name the Pull Request according to the task title
-- [Provide the Pull Request description following the template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  
+- [Provide the Pull Request description following the template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
   **No need to merge the Pull Request from the development branch into the `main` branch**.
 
 ## How to submit

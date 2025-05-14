@@ -32,7 +32,7 @@
 ## Требования к Pull Request
 
 - Название Pull Request даёте по названию задания
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/stage2?id=Требования-к-pull-request-pr)
+- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
 
 ## Как сабмитить задание
 

@@ -51,7 +51,7 @@ https://birds-quiz.netlify.com/ (версия без Extra scope)
 - можно использовать CSS preprocessors
 - демо-версия приложения размещается на `https://www.netlify.com/`, либо на другом подобном хостинге. Название демо-версии приложения даёте по схеме: никнейм пользователя - название таска
 - история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
-- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки songbird в ветку master. [Требования к pull request](https://docs.rs.school/#/stage2?id=Требования-к-pull-request-pr)
+- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки songbird в ветку master. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
 - как сабмитить своё решение: в поле Cross-Check: Submit https://app.rs.school/ добавьте ссылку на pull request
 
 ## Критерии оценки:

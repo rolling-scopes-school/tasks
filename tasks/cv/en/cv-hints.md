@@ -89,7 +89,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 
 ![Step 15.3](https://i.ibb.co/phRt9rB/image.png)
 
-- Provide a PR description according to the scheme at [https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr](https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr). Use the task's name as the PR title.
+- Provide a PR description according to the scheme at [https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr). Use the task's name as the PR title.
 
 ![Step 15.4](https://i.ibb.co/s5wnrSd/image.png)
 

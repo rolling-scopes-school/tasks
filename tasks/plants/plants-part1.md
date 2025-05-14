@@ -22,7 +22,7 @@
    Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке  
    `https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2022Q4/plants/`  
    в которой вместо GITHUB-USERNAME укажите свой никнейм на сайте GitHub
-8. После завершения работы откройте Pull Request из ветки `plants` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
+8. После завершения работы откройте Pull Request из ветки `plants` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
 9. Ссылку на деплой вашей работы засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
 10. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) результат проверки.
 

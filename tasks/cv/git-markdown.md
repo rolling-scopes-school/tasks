@@ -18,7 +18,7 @@
 6. В файл `README.md` ветки `gh-pages` добавьте ссылку вида `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`, в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этой ссылке должна открываться страница CV, задеплоенная на GitHub Pages.
 7. Создайте Pull Request из ветки `gh-pages` в ветку `main`.  
    Название Pull Request `Markdown & Git`  
-   [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
+   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).  
    Мержить Pull Request из ветки `gh-pages` в ветку `main` не нужно.
 
 ## Публикация резюме на `github-pages` (Deploy)
