@@ -136,7 +136,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - Presentation topic assignments
   - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md)
   - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic.
@@ -168,7 +168,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code Review](./tasks/code-review/)
 - [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Decision Making Tool](./tasks/decision-making-tool/README.md)
 - If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
@@ -253,7 +253,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
 - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
 </details>
@@ -283,7 +283,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Async Race](./tasks/async-race/)
 - [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 - [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
@@ -309,7 +309,7 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](ttps://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
 - [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
 </details>
 
