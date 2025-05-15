@@ -100,6 +100,6 @@ Momentum - аналог [одноимённого приложения](https://
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания: https://momentum-cross-check.netlify.app/
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/Xc9RVjEWTTGF6ubK8

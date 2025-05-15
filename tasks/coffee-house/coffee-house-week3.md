@@ -22,7 +22,7 @@ In this part of the task, you need to add the following functionality to the web
 
 ## Workflow
 
-1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
+1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository).
 2. Create a new branch named `coffee-house-week3` from `coffee-house` branch. You will find the `coffee-house` folder containing the project files completed in the previous stage within this branch.
 3. Continue working on the task within the branch you have created.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
@@ -109,4 +109,4 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://docs.rs.school/#/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://rs.school/docs/ru/cross-check-flow

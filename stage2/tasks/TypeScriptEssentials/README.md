@@ -67,7 +67,7 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 ### Pull Requests
 
 1. Once you complete a module, **open and merge** a pull request (PR) from `typescript-essentials` to `gh-pages` for deployment.
-2. Once you complete a module, **open and don't merge** a pull request (PR) from `typescript-essentials` to `main`. Format the PR description in accordance with the [PR Description requirements](https://docs.rs.school/#/en/pull-request-review-process?id=description-example).
+2. Once you complete a module, **open and don't merge** a pull request (PR) from `typescript-essentials` to `main`. Format the PR description in accordance with the [PR Description requirements](https://rs.school/docs/en/pull-request-review-process?id=description-example).
 
 ## 💼 Task Submission to Cross-Check Rules
 

@@ -10,10 +10,10 @@ There are many competitors on the market for our future application. Check out s
 ## Building a team
 
 - you should work in a team of 3 members
-- teams can be pre-defined there. (https://rss-teams.web.app/)
-- All students should be registered there. (https://rss-teams.web.app/)
+- teams can be pre-defined there. (<https://rss-teams.web.app/>)
+- All students should be registered there. (<https://rss-teams.web.app/>)
 - All teams should be registered there. [RSSTeams](https://rss-teams.web.app/)
-- Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams)
+- Teamwork guidelines [RSSchool Docs](https://docs.rs.school/#/teams) <!-- TODO: страница с организацией командной работы в документации отсутствует -->
 
 ## Application Prototype
 
@@ -23,19 +23,19 @@ Design, prototype, as well as the implementation of the application are up to yo
 
 Here's the list of examples of working prototypes:
 
-https://rss-pma.netlify.app/
+<https://rss-pma.netlify.app/>
 
-https://pm-app-34.netlify.app/
+<https://pm-app-34.netlify.app/>
 
-https://management-app-dariija.netlify.app/
+<https://management-app-dariija.netlify.app/>
 
-https://pma-olesiklesha.netlify.app/
+<https://pma-olesiklesha.netlify.app/>
 
-https://tarasiukdima.github.io/project-management-app/
+<https://tarasiukdima.github.io/project-management-app/>
 
 ## Backend
 
-Use https://github.com/vitaly-sazonov/kanban-rest or https://github.com/rolling-scopes-school/final-task-backend/pull/1 as a backend.
+Use <https://github.com/vitaly-sazonov/kanban-rest> or <https://github.com/rolling-scopes-school/final-task-backend/pull/1> as a backend.
 There is a description of the steps to get started, as well as a list of available requests in the repository.
 
 - You will need to deploy the backend yourself to demonstrate the working application.
@@ -57,7 +57,7 @@ Your app must contain:
 - teamlead should create private repo in github and invite other members
 - teamwork nuances described there [Teamwork](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/final-task#%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 - repo name **project-management-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
-- the commit history should display application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
+- the commit history should display application development process. [Commit requirements](https://rs.school/docs/ru/git-convention)
 - the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service.
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - describe in PR how to run your backend locally if you didn't deploy backend.
@@ -112,7 +112,7 @@ Your app must contain:
 
 ### Footer
 
-- footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/react/).
+- footer should contain a link to the author's github, the year the application was created, [course logo](https://rs.school/images/rs_school_js.svg) with [link to the course](https://rs.school/courses/reactjs).
 - footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up
@@ -169,7 +169,7 @@ It contains:
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 
-[How to evaluate tasks in Cross check](https://docs.rs.school/#/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+[How to evaluate tasks in Cross check](https://rs.school/docs/ru/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
 ### Welcome route - max 7 points
 

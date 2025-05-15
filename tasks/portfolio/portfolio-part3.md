@@ -98,6 +98,6 @@
 
 ## Проверка задания Portfolio#3
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://portfolio-part3-check-list.netlify.app/
 - ссылки на самые лучшие работы с интересным дополнительным функционалом добавьте, пожалуйста, в эту форму https://forms.gle/PUfhSHSfUFosqFbBA

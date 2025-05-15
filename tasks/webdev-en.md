@@ -13,7 +13,7 @@ JPG:
 - The task is performed in the private repository of the school
 - In the private repository of the school, create a branch called `webdev`, then create a folder in it called `webdev`, and here place the project files - HTML (`index.html`), CSS (`style.css`) and the `assets` folder with images and font files, if any
 - For deployment use `gh-pages`
-- The commit history should reflect the development process of the application. **[Commit requirements](https://docs.rs.school/#/en/git-convention)**
+- The commit history should reflect the development process of the application. **[Commit requirements](https://rs.school/docs/en/git-convention)**
 - After finishing development, you should make a Pull Request from the `webdev` branch to the `main` branch . You don't need to merge the Pull Request until you receive your final score
 - **To submit the task for cross-check, you will need to host the page on gh-pages and submit the generated link via app.rs.school in 'Cross-Check : Submit'**
 

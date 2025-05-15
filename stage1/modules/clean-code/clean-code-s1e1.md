@@ -18,14 +18,14 @@ No automatic code formatting tools are expected to be used at this task.
 1. Use a personal **public** repository on GitHub to complete the task. Make a fork of the existing project or create a new one named `clean-code-s1e1` and copy the task project files (in this case the commit message for adding the files must start with `"init:"`).
 2. One commit must contain changes related to a single point of the guidelines, the commit message must reflect all the changes made in the commit. Intersection of two or more rules in a single commit is acceptable only if compliance of one rule automatically leads to compliance of another one and it is impossible to separate them (all the rules must be listed in a commit message in this case).
 3. Prettier or other automatic code formatting tools must not be used.
-4. Each commit must be made according to the [commit requirements](https://docs.rs.school/#/git-convention?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b0%d0%bc-%d0%ba%d0%be%d0%bc%d0%bc%d0%b8%d1%82%d0%be%d0%b2) and comply consistently with one of the [commit message style](#commit-message-style) options.
+4. Each commit must be made according to the [commit requirements](https://rs.school/docs/ru/git-convention#требования-к-именам-коммитов) and comply consistently with one of the [commit message style](#commit-message-style) options.
 5. Create a new branch from `main` and name it `clean-code-s1e1`. All your changes must be made inside this new branch.
 6. [The original application functionality](#application-functionality) must remain the same after all your changes or be fixed if necessary.
 7. Once the task is completed, create a Pull Request from the branch `clean-code-s1e1` into `main` of your personal **public** repository.
 
    **Warning!**: if you have forked the project, the default branch to create a PR will be `main` of the task description repository. You MUST change the repository and open a PR into the `main` branch of **YOUR** repository.
 
-8. A Pull Request must be described according to [the following rules](https://docs.rs.school/#/pull-request-review-process?id=%d0%a2%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%ba-pull-request-pr).
+8. A Pull Request must be described according to [the following rules](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
 9. `main` branch must not be modified.
 10. The PR must be open.
 11. ❗ Submit your **Pull Request** link once the task is completed.
@@ -87,7 +87,7 @@ Commit messages must be written in English.
 
 - To review the task you can open the repository locally or on GitHub.
 - The cross-check form is built-in on [RS App](https://app.rs.school/) ("Cross-Check: Review"), or you can use a cross-check [checklist](https://rolling-scopes-school.github.io/checklist/) ("Clean code S1E1").
-- [Cross-check flow](https://docs.rs.school/#/cross-check-flow).
+- [Cross-check flow](https://rs.school/docs/ru/cross-check-flow).
 
 ## Q&A
 

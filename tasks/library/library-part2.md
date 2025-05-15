@@ -109,4 +109,4 @@
 ## Проверка задания Library#2
 
 - форма для кросс-чека (Library#2): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
