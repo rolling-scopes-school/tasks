@@ -87,12 +87,12 @@ EPAM HR Department Recommendations
 ## Commit Requirements:
 
 - The commit history should reflect the development process of the application.
-- [Use commit names according to the guideline](https://docs.rs.school/#/en/git-convention)
+- [Use commit names according to the guideline](https://rs.school/docs/en/git-convention)
 
 ## Pull Request Requirements:
 
 - Give the Pull Request a title based on the task name.
-- [Give the Pull Request a description following the scheme](https://docs.rs.school/#/en/pull-request-review-process?id=Requirements-for-pull-request-pr)
+- [Give the Pull Request a description following the scheme](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr)
 - Do not merge the Pull Request from the development branch into the `main` branch.
 
 ## To Earn Points for the Assignment, You Must:
@@ -120,7 +120,7 @@ EPAM HR Department Recommendations
 
 ## CV. Cross-Check Assignment Review
 
-- Cross-checking instructions: https://docs.rs.school/#/en/cross-check-flow
+- Cross-checking instructions: https://rs.school/docs/en/cross-check-flow
 - Cross-check form: https://rolling-scopes-school.github.io/checklist/ (item "CV#3. CV. Cross-Check")
 - Example video of cross-check: https://youtu.be/PPGO8Mvtc20
 - Please add the links to the very best works of your cohort, demonstrating a high level of completion, to this form: https://forms.gle/kcmAkFK4j1EGW5JS8

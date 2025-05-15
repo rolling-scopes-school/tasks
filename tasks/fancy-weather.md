@@ -149,7 +149,7 @@ _В предложенный макет можно вносить свои из�
 
 ### Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания https://cross-check-fancy-weather.netlify.com/
 
 ### Ключевые навыки

@@ -20,7 +20,7 @@ Practice: 4 hours
 
 ## Theory
 
-1. You should read and remember [commits requirements](https://docs.rs.school/#/en/git-convention) in RS School
+1. You should read and remember [commits requirements](https://rs.school/docs/en/git-convention) in RS School
 2. Watch video materials [Git/GitHub theory](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (~0.5 hour)
 3. Watch this video together with practicing to use Git by yourself [Git Workshop [RU]](https://youtu.be/Dlr_E7WfA08) (0.5 hour)
 4. Learn [Markdown's documentation](https://guides.github.com/features/mastering-markdown/) - you can start with basics and syntax and dive in other concepts when practice (0.5 hour)

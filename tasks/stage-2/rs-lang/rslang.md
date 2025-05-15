@@ -24,15 +24,15 @@
 
 (сейчас требования к заданию сократились: отказались от словаря, настроек, возможности удаления слов, оставили две мини-игры вместо четырёх)
 
-- https://heyheyjude.github.io/rss-lang/
-- https://rslang-team8-nin3439.netlify.app/#/
-- https://rslang-team15-natein.netlify.app/
-- https://rslang-team16-alpoliakov.herokuapp.com/
-- https://rslang-team23-alexk08.netlify.app/
-- https://rslang-team-27-aplatkouski.herokuapp.com/
-- https://ulearning-69team.netlify.app/
-- https://vismmax-rslang.herokuapp.com/#/promo
-- https://rss-lang-team-53.web.app/
+- <https://heyheyjude.github.io/rss-lang/>
+- <https://rslang-team8-nin3439.netlify.app/#/>
+- <https://rslang-team15-natein.netlify.app/>
+- <https://rslang-team16-alpoliakov.herokuapp.com/>
+- <https://rslang-team23-alexk08.netlify.app/>
+- <https://rslang-team-27-aplatkouski.herokuapp.com/>
+- <https://ulearning-69team.netlify.app/>
+- <https://vismmax-rslang.herokuapp.com/#/promo>
+- <https://rss-lang-team-53.web.app/>
 
 ## Исходные данные
 
@@ -56,7 +56,7 @@
   - меню с навигацией по учебнику, ссылками на мини-игры и статистику. Меню или иконка меню отображается на всех страницах приложения
   - описание возможностей и преимуществ приложения
   - раздел "О команде" с фото или аватарками и ссылками на гитхабы всех участников команды, описанием вклада в разработку приложения каждого из них. При желании данный раздел можно вынести в отдельную страницу
-  - footer со ссылками на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/). footer отображается на всех страницах приложения за исключением мини-игр
+  - footer со ссылками на гитхабы авторов приложения, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru). footer отображается на всех страницах приложения за исключением мини-игр
 
 ### Авторизация +50
 
@@ -145,13 +145,13 @@
 
 ## Бекенд
 
-### Что уже есть:
+### Что уже есть
 
 - создан [репозиторий с бекендом](https://github.com/rolling-scopes-school/react-rslang-be)
 - на его основе создан [ReactLearnWords API](https://react-learnwords-example.herokuapp.com/doc/#), позволяющий получить исходные данные
 - создана [ReactLearnWords wiki](https://github.com/rolling-scopes-school/react-rslang-be/wiki) с инструкциями по созданию базы данных MongoDB, деплою бекенда на heroku, примерами получения исходных данных
 
-### Создание копии бэкенда:
+### Создание копии бэкенда
 
 Рекомендуется создать локальную копию бэкенда, так как у бесплатного плана в heroku есть свои ограничения, а таск будет выполняться несколькими людьми. Плюс вы можете вносить в копию свои изменения, если считаете их необходимыми для вашей функциональности. Для этого:
 
@@ -169,10 +169,10 @@
 - для разработки приложения тим лид команды в своём аккаунте github создаёт приватный репозиторий, коллаборантами в который приглашает всех участников своей команды
 - название репозитория: **rslang**, название ветки, в которой ведётся разработка - **develop**, ветка **main** пустая, содержит только README.md
 - [особенности командной работы с репозиторием](https://github.com/pavelrazuvalau/docs/blob/bc122a5cf556faf43745252c55fa441706cf0b6c/docs/final-task.md#работа-с-репозиторием)
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention)
+- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://rs.school/docs/ru/git-convention)
 - демо-версия приложения размещается на `gh-pages`, `netlify`, `heroku` либо на другом подобном хостинге.  
   Для демоверсий, размещённых на `netlify` и `heroku`, название страницы дайте по схеме: rslang - гитхаб тимлида команды
-- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки разработки в ветку `main`. [Требования к pull request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+- после окончания разработки или при наступлении дедлайна, создайте и замержите pull request из ветки разработки в ветку `main`. [Требования к pull request](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
 - для тех, кто будет делать бекенд, добавьте в описание pull request ссылку на репозиторий с бекендом
 - репозиторий, в котором велась работа над проектом, после наступления дедлайна нужно сделать публичным.
 
@@ -218,5 +218,5 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму: [https://forms.gle/pEZshjLxzHU1K6tT6](https://docs.google.com/forms/d/e/1FAIpQLSe2ya0fdUEjlaJJlTqkvCprb-FPbN8iNSVAYNnp7fSFBxJ-vQ/viewform?usp=sf_link)

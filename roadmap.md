@@ -14,7 +14,7 @@
 
 #### [Посмотреть программу обучения.](stage0)
 
-#### [Зарегистрироваться на подготовительный курс.](https://rs.school/courses/javascript-preschool-ru/)
+#### [Зарегистрироваться на подготовительный курс.](https://rs.school/courses/javascript-preschool-ru)
 
 ## Основной курс
 

@@ -119,7 +119,7 @@ In the first week of mentoring, the mentor needs to:
 - The communication is initiated by the student. The student should be self-motivated to learn.
 - The mentor needs to review the completed works of students within one to two weeks.
 - The review of completed works is done through reviewing the respective Pull Requests. [Algorithm for reviewing student PRs](pull-request-review-process.md)
-- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](https://docs.rs.school/#/rs-school-chats).
+- Most questions students ask in the respective Discord channels, not to their mentor. [More about the organization of Discord channels](https://rs.school/docs/ru/rs-school-chats).
 
 ### Weekly Meeting with Students
 

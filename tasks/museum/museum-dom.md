@@ -45,20 +45,20 @@
 
 ## Требования к репозиторию
 
-- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://docs.rs.school/#/private-repository)
+- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
 - от ветки `museum-adaptive` создайте ветку `museum-dom`, переименуйте папку `museum-adaptive` в `museum-dom`, в ней продолжайте разработку проекта
-- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - если не можете для деплоя использовать `gh-pages`, используйте https://app.netlify.com/drop. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  
+- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
 ## Функционал приложения
@@ -173,7 +173,7 @@
 ## Проверка задания
 
 - задание будет проверяться посредством кросс-чека.
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://museum-dom-cross-check.netlify.app/
 
 ## Материалы

@@ -77,4 +77,4 @@ A student can achieve a maximum of 100 points.
 - Test coverage below 60% (at least for `statements`): **-50 points**
 - Test coverage include test for App.tsx: **-50 points**
 - Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following): **-10 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**

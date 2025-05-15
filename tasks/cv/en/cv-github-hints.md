@@ -68,7 +68,7 @@ Be attentive. Before clicking the green "Commit changes" button, you should prov
 
 #### 5. Commit Names
 
-According to the task requirements, the "gh-pages" branch should have at least three commits, whose names start with one of the prefixes: "init:", "feat:", "fix:", "refactor:", "docs:". [Examples of commit names](https://docs.rs.school/#/en/git-convention?id=%d0%9f%d1%80%d0%b8%d0%bc%d0%b5%d1%80%d1%8b-%d0%b8%d0%bc%d0%b5%d0%bd-%d0%ba%d0%be%d0%bc%d0%bc%d0%b8%d1%82%d0%be%d0%b2).
+According to the task requirements, the "gh-pages" branch should have at least three commits, whose names start with one of the prefixes: "init:", "feat:", "fix:", "refactor:", "docs:". [Examples of commit names](https://rs.school/docs/en/git-convention#examples-of-commit-names).
 
 After completing the previous step, you have made one commit. You need to make two more commits. To do this, you can click on the pencil icon next to the "cv.md" file and make some changes to it.
 

@@ -2,7 +2,7 @@
 
 # Порядок сдачи
 
-1. Внимательно ознакомьтесь с документом [„Cross Check Flow“](https://docs.rs.school/#/cross-check-flow).
+1. Внимательно ознакомьтесь с документом [„Cross Check Flow“](https://rs.school/docs/ru/cross-check-flow).
 2. Как можно раньше до дедлайна [отправьте свою работу на оценку в **RS App**](https://app.rs.school/course/student/cross-check-submit?course=rs-2020-q1). Без этого ее не смогут оценить, и вы получите **0**.
 3. Критерии оценки берём из текущего документа. Не из других. Не придумываем сами.
 

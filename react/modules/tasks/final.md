@@ -50,7 +50,7 @@ Your app must contain:
 
 - team lead should create a private repo in GitHub and invite other members
 - repo name **rest-client-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
-- the commit history should display the application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
+- the commit history should display the application development process. [Commit requirements](https://rs.school/docs/ru/git-convention)
 - the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - in case you will use proxy-service you need to include instructions on how to run it locally
@@ -382,7 +382,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 ### Cross-check criteria
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
-[How to evaluate tasks in Cross check](https://docs.rs.school/#/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+[How to evaluate tasks in Cross check](https://rs.school/docs/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
 ### Main route - max 50 points
 
@@ -442,5 +442,5 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of linting **-150 points**
 - [ ] Absence of prettier **-100 points**
 - [ ] Absence of husky git hooks **-100 points**
-- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following) **-10 points**
+- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
