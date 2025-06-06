@@ -1,5 +1,7 @@
 # Task: K8s Cluster Configuration and Creation
+
 ![task_3 schema](../../visual_assets/task_3.png)
+
 ## Objective
 
 In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS using or k3s. You will also verify the cluster by running a simple workload.
@@ -10,6 +12,7 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 
    - Get familiar with [k3s](https://k3s.io/).
    - Use AWS EC2 instances from the [AWS Free Tier](https://aws.amazon.com/free/) to avoid additional expenses.
+
 2. **Create or Extend Terraform Code**
 
    - Create or extend Terraform code to manage AWS resources required for the cluster creation.
@@ -19,7 +22,7 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
 
    - Deploy [Bastion host](https://www.geeksforgeeks.org/what-is-aws-bastion-host/)
    - Deploy the K8s cluster using k3s.
-   - Ensure the cluster is accessible from your bastion host 
+   - Ensure the cluster is accessible from your bastion host
    - **Additional task** make it accessible from your local computer.
 
 4. **Verify the Cluster**
@@ -58,14 +61,13 @@ In this task, you will configure and deploy a Kubernetes (K8s) cluster on AWS us
    - The cluster is verified by running the `kubectl get nodes` command from the bastion host.
    - k8s cluster consists of 2 nodes (may be checked on screenshot).
 
-4. **Workload Deployment (30 points)**
+3. **Workload Deployment (30 points)**
 
    - A simple workload is deployed on the cluster using `kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml`.
    - Pod named "nginx" presented in the output of `kubectl get all --all-namespaces` command
 
-6. **Additional Tasks (10 points)💫**
+4. **Additional Tasks (10 points)💫**
    - **Documentation (5 points)**
-      - Document the cluster setup and deployment process in a README file.
+     - Document the cluster setup and deployment process in a README file.
    - **Cluster accessability (5 points)**
-      - The cluster is verified by running the `kubectl get nodes` command from the **local computer**.
-
+     - The cluster is verified by running the `kubectl get nodes` command from the **local computer**.

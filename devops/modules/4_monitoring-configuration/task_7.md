@@ -1,9 +1,10 @@
 # Task 7: Prometheus Deployment on K8s
+
 ![task_7 schema](../../visual_assets/task_7.png)
 
 ## Objective
 
-In this task, you'll setup a set of tools to monitor your cluster and application. We'll do it by installing Prometheus and Grafana in your cluster using HELM charts. Main goal is to collect essential metrics from an our infrastructure and visualize them. 
+In this task, you'll setup a set of tools to monitor your cluster and application. We'll do it by installing Prometheus and Grafana in your cluster using HELM charts. Main goal is to collect essential metrics from an our infrastructure and visualize them.
 
 ## Steps
 
@@ -18,7 +19,9 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
 4. **Verify Metrics Collection**
    - Ensure Prometheus is collecting essential cluster-specific metrics, such as nodes' memory usage.
    - Check the collected metrics via Prometheus web interface.
-### Grafana 
+
+### Grafana
+
 1. **Install Grafana**
    - Follow the instructions to install Grafana using the Helm chart by Bitnami. Refer to the [Grafana documentation](https://grafana.com/docs/) for more details.
 2. **Configure Grafana**
@@ -46,25 +49,29 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
    - Simulate CPU and memory stress on a Kubernetes node using tools like `stress` or `sysbench`.
 
 ### **Additional Tasks💫**
-   - Alert Rules, Contact Points, and SMTP settings are configured using YAML files or other code-based methods.
-   - Document the process of installation and configuration of monitoring tools.
 
+- Alert Rules, Contact Points, and SMTP settings are configured using YAML files or other code-based methods.
+- Document the process of installation and configuration of monitoring tools.
 
 ## Submission
+
 - Create a `task_7` branch from `main` in your repository.
 - Provide a README file documenting the Monitoring tools deployment and configuration. **Note:** Ensure that all personal data, such as email addresses and SMTP credentials, are hidden in screenshots, code and documentation.
 
 #### Prometheus
+
 - Provide a PR with automation of a MOnitoring tools deployment in Kubernetes with IaC or CI/CD pipeline.
 - Provide an output of `kubectl get all --all-namespaces` with running Prometheus and Grafana.
 - Include a screenshot of any metrics (e.g. node disk space usage) shown in the Prometheus web UI.
 
 #### Grafana
+
 - Include a screenshot or configuration of the Prometheus data source configuration.
 - Include a screenshot of the dashboard created.
 - Include a JSON file of the dashboard layout.
 
 #### Alertmanager
+
 - Include into PR (description or in changes) screenshots of:
   - Contact Points.
   - Alert Rules in normal and firing state.
@@ -98,6 +105,7 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
 ## References
 
 ### Prometheus
+
 - [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
 - [Helm Chart for Prometheus](https://github.com/bitnami/charts/tree/main/bitnami/prometheus)
 - [Bitnami Prometheus Helm Chart README](https://github.com/bitnami/charts/blob/main/bitnami/prometheus/README.md)
@@ -112,6 +120,7 @@ In this task, you'll setup a set of tools to monitor your cluster and applicatio
 - [Understanding Machine CPU Usage](https://www.robustperception.io/understanding-machine-cpu-usage/)
 
 ### Grafana AlertManager
+
 - [Grafana Alerting Documentation](https://grafana.com/docs/grafana/latest/alerting/)
 - AWS restricts outgoing connections for sending emails: [AWS Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html#port-25-throttle)
 - Domain for AWS SES can be anything, it won't require verification to send emails to verified email addresses.

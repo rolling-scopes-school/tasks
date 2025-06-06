@@ -1,4 +1,5 @@
 # Task 4: Jenkins Installation and Configuration
+
 ![task_4 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
@@ -34,7 +35,7 @@ Best choise for saving - create 1 small instance in public network. Set up an in
 5. **Additional Tasks💫**
    - Set up a GitHub Actions (GHA) pipeline to deploy Jenkins. (not applicable on minikube installation)
    - Configure authentication and security settings for Jenkins.
-   - Use JCasC to store your Hello World job. 
+   - Use JCasC to store your Hello World job.
 
 ## Submission
 
@@ -42,7 +43,7 @@ Best choise for saving - create 1 small instance in public network. Set up an in
 - Provide a PR with the Helm chart for Jenkins deployment.
 - Provide a screenshot of the Jenkins freestyle project log showing "Hello world".
 - Provide a PR with the GHA pipeline code for Jenkins deployment.
-- Attach screenshot with ```kubectl get all --all-namespaces``` to the PR
+- Attach screenshot with `kubectl get all --all-namespaces` to the PR
 - Provide a README file documenting the installation and configuration process.
 
 ## Evaluation Criteria (100 points for covering all criteria)
@@ -74,4 +75,4 @@ Best choise for saving - create 1 small instance in public network. Set up an in
    - **Authentication and Security (5 points)**
      - Authentication and security settings are configured for Jenkins.
    - **JCasC is used to describe job in Jenkins (5 points)**
-      - "Hello World" job is created via JCasC in HELM chart values.
+     - "Hello World" job is created via JCasC in HELM chart values.

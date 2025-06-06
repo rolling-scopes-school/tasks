@@ -81,17 +81,23 @@ The course aims to offer in-depth knowledge of DevOps principles and essential A
 - After the deployment, you can add steps to verify that the application is running as expected. This could involve checking the status of the Kubernetes deployment, running integration tests, or hitting a health check endpoint.
 
 ## Module 4: Monitoring with Prometheus and Grafana
+
 ### Prometheus
+
 - Using Helm to install Prometheus in Kubernetes.
 - Configuring Prometheus to collect metrics from the cluster.
 - Creating and configuring Service Monitor to track services in the cluster.
 - Configuring alert rules in Prometheus for monitoring critical events.
+
 ### Grafana
+
 - Deploying Grafana in Kubernetes using Helm.
 - Setting up secure access to Grafana via Ingress or LoadBalancer.
 - Configuring Grafana to connect to Prometheus as a data source.
 - Importing or creating dashboards to visualize metrics from Prometheus.
+
 ### Alerting Management
+
 - Conducting tests to verify the collection of metrics and their display in Grafana.
 - Simulating failures or high loads to test configured alerts.
 

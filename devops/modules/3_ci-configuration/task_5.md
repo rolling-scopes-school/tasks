@@ -1,4 +1,5 @@
 # Task 5: Simple Application Deployment with Helm
+
 ![task_5 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
@@ -41,7 +42,7 @@ In this task, you will create a Docker image and Helm chart for a simple applica
    - The application is deployed using the Helm chart.
    - The application is accessible from the web browser.
 
-4. **Additional Tasks (10 points)💫**
+3. **Additional Tasks (10 points)💫**
    - **Documentation (10 points)**
      - The application setup and deployment processes are documented in a README file.
 

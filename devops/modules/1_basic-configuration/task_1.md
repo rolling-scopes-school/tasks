@@ -1,5 +1,7 @@
 # Task 1: AWS Account Configuration
+
 ![task_1 schema](../../visual_assets/task_1.png)
+
 ## Objective
 
 In this task, you will:
@@ -9,10 +11,10 @@ In this task, you will:
 - Deploy S3 buckets for Terraform states
 - Create a Github Actions workflow to deploy infrastructure in AWS
 
-Additional tasks: 
+Additional tasks:
+
 - Create a federation with your AWS account for Github Actions
 - Create an IAM role for Github Actions
-
 
 ## Steps
 
@@ -81,12 +83,13 @@ Additional tasks:
    - [Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials)
 
 ## Submission
- - Create a branch `task_1` from `main` branch in your repository.
- - [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) from `task_1` branch to `main`.
- - Provide the code for Terraform and GitHub Actions in the PR.
- - Provide screenshots of `aws --version` and `terraform version` in the PR description.
- - Provide a link to the Github Actions workflow run in the PR description.
- - Provide the Terraform plan output with S3 bucket (and possibly additional resources) creation in the PR description.
+
+- Create a branch `task_1` from `main` branch in your repository.
+- [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) from `task_1` branch to `main`.
+- Provide the code for Terraform and GitHub Actions in the PR.
+- Provide screenshots of `aws --version` and `terraform version` in the PR description.
+- Provide a link to the Github Actions workflow run in the PR description.
+- Provide the Terraform plan output with S3 bucket (and possibly additional resources) creation in the PR description.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 

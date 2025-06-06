@@ -1,4 +1,5 @@
 # Task 2: Basic Infrastructure Configuration
+
 ![task_2 schema](../../visual_assets/task_2.png)
 
 ## Objective
@@ -37,10 +38,11 @@ In this task, you will write Terraform code to configure the basic networking in
    - Document the infrastructure setup and usage in a README file.
 
 ## Submission
-   - Create `task_2` branch from `main` in your repository.
-   - [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) with the Terraform code in your repository from `task_2` to `main`.
-   - Provide screenshots of a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map) in the PR description.
-   - (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
+
+- Create `task_2` branch from `main` in your repository.
+- [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) with the Terraform code in your repository from `task_2` to `main`.
+- Provide screenshots of a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map) in the PR description.
+- (Optional) Set up a GitHub Actions (GHA) pipeline for the Terraform code.
 
 ## Evaluation Criteria (100 points for covering all criteria)
 

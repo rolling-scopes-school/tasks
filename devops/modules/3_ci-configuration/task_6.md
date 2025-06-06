@@ -1,4 +1,5 @@
 # Task 6: Application Deployment via Jenkins Pipeline
+
 ![task_6 schema](../../visual_assets/task_4-6.png)
 
 ## Objective
@@ -6,7 +7,6 @@
 In this task, you will configure a Jenkins pipeline to deploy your application on a Kubernetes (K8s) cluster. The pipeline will cover the software lifecycle phases of build, testing, and deployment.
 
 ## Steps
-
 
 1. **Configure Jenkins Pipeline**
 
