@@ -6,16 +6,9 @@ In this module you need to configure a K8s cluster on top of the network infrast
 
 ## K8s deployment and configuration
 
-There are multiple ways of deployment K8s cluster on AWS. In this course you're supposed to use either kOps (https://kops.sigs.k8s.io/) or k3s (https://k3s.io/). You need to get familiar with both project and decide which one is more suitable for you.
+There are multiple ways of deployment K8s cluster on AWS. In this course you're supposed to use k3s (https://k3s.io/).
 
-Several things to keep in mind during cluster deployment:
-
-1. kOps will handle creation of most resources for you, with k3s you are in charge of underlying infrastructure management;
-2. By default, kOps creates more AWS resources. This may lead to additional expenses and not fit into AWS Free Tier;
-3. You'll need a domain name or a sub-domain for kOps-managed cluster;
-4. Make sure you're using AWS EC2 instances type from Free Tier to avoid addition expenses (see https://aws.amazon.com/free for more details).
-
-Rule of thumb: use k3s if you don't want to spend on AWS resources; use kOps if you'd like to practise with a more real-life cluster.
+Make sure you're using AWS EC2 instances type from Free Tier to avoid addition expenses (see https://aws.amazon.com/free for more details).
 
 **This task is considered as done if all the conditions below are met:**
 
