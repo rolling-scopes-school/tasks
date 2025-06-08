@@ -103,6 +103,13 @@ Welcome.defaultProps = {
 #### Component composition
 [Components Сomposition](https://medium.com/@karnikagupta1830/mastering-component-composition-in-react-a-comprehensive-guide-eb1ef8a740a3)
 
+#### Component state
+[State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+[What is the difference between props and state?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-props-and-state)  
+
+#### Manipulating DOM directly using Refs
+[Manipulating the DOM with Refs](https://react.dev/learn/manipulating-the-dom-with-refs)
+[What is the difference between refs and state variables?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-refs-and-state-variables)  
 
 ### 🟢 Hooks
 #### *useState*
@@ -169,6 +176,7 @@ function Logger({ value }) {
 #### Lifecycle in class vs functional components
 [React Class Component Lifecycle Methods – Explained with Examples](https://www.freecodecamp.org/news/react-component-lifecycle-methods/)
 [React component lifecycle: React lifecycle methods & hooks](https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/)
+[When is a class component rendered?](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)  
 
 #### Cleanup functions in *useEffect*
 [Understanding React’s useEffect cleanup function](https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/)
@@ -265,10 +273,15 @@ function MyForm() {
 
 [useActionState](https://react.dev/reference/react/useActionState)
 
-### 🟡 Lifting State, Data Flow, Dependency Injection in React
+### 🟡 Lifting State, Data Flow
 #### Lifting state up, Props drilling
 [What is prop drilling?](https://scrimba.com/articles/react-interview-questions/#what-is-prop-drilling)  
 [How do you pass a value from sibling to sibling?](https://reactjs.org/docs/lifting-state-up.html#gatsby-focus-wrapper)
+
+#### Passing values
+[How do you pass a value from parent to child?](https://scrimba.com/articles/react-interview-questions/#how-do-you-pass-a-value-from-parent-to-child)
+[How do you pass a value from child to parent?](https://scrimba.com/articles/react-interview-questions/#how-do-you-pass-a-value-from-child-to-parent)
+[Can a child component modify its own props?](https://scrimba.com/articles/react-interview-questions/#can-a-child-component-modify-its-own-props) 
 
 ### 🟡 Lists, Keys, and Reconciliation
 #### Rendering lists with *.map*, the role and rules of *key*, avoiding unstable keys
@@ -424,6 +437,7 @@ function MyProvider({ children }) {
 [React Developer Tools](https://react.dev/learn/react-developer-tools)
 
 #### Avoiding unnecessary re-renders in large trees
+
 - Use `React.memo` to prevent re-rendering of pure components when their props haven't changed.
 - Split state and context to minimize the number of components affected by updates.
 - Move state closer to where it's used (state colocation).
@@ -431,7 +445,95 @@ function MyProvider({ children }) {
 - Avoid passing new objects/arrays/functions as props unless necessary.
 - Use keys carefully in lists to prevent unnecessary remounts.
 
+#### Deoptimization using *flushSync*
+
+flushSync is a method provided by React DOM (from react-dom) that allows you to force React to flush state updates synchronously, outside of React's normal batching behavior.
+
+**Batching in React:**
+Normally, React batches multiple state updates together for performance reasons. This means that if you call several setState functions in quick succession (such as inside event handlers), React will group them and perform a single re-render at the end. This improves efficiency but can sometimes delay updates in ways that aren't desirable for certain UI scenarios.
+
+**What flushSync does:**
+When you wrap a state update inside flushSync, React will immediately process that update and re-render the component before moving on. This is useful when you need to ensure the DOM is updated right away, such as when measuring layout or synchronizing with non-React code.
+
+**When to use:**
+When you need immediate DOM updates (e.g., for measurements or animations).
+Use sparingly, as it can hurt performance if overused.
+
+Example:
+```jsx
+import { flushSync } from 'react-dom';
+
+function handleClick() {
+  flushSync(() => {
+    setCount(count + 1); // This update is flushed immediately
+  });
+  // DOM is updated here
+}
+```
+
+[flushSync](https://react.dev/reference/react-dom/flushSync)
+
 ### 🟡🔴 React Router (v7+)
+#### Declarative mode. Routing
+[Declarative routing](https://reactrouter.com/start/declarative/routing)
+Example:
+```jsx
+<Routes>
+  <Route index element={<Home />} />
+  <Route path="about" element={<About />} />
+
+  <Route element={<AuthLayout />}>
+    <Route path="login" element={<Login />} />
+    <Route path="register" element={<Register />} />
+  </Route>
+
+  <Route path="concerts">
+    <Route index element={<ConcertsHome />} />
+    <Route path=":city" element={<City />} />
+    <Route path="trending" element={<Trending />} />
+  </Route>
+</Routes>
+```
+
+#### Data mode. Routing using *createBrowserRouter*
+
+`createBrowserRouter` is a data-driven API for defining routes and loaders in React Router v6+.  
+It replaces the old `<Routes>`/`<Route>` JSX structure with a configuration object, enabling features like data loading, error boundaries, and nested routes outside of JSX.
+
+Example:
+```jsx
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const router = createBrowserRouter([
+  { path: "/", element: <Home /> },
+  { path: "/about", element: <About /> },
+]);
+function App() {
+  return <RouterProvider router={router} />;
+}
+```
+- **Old (declarative mode) style:** Routes defined in JSX with `<Routes>` and `<Route>`.
+- **New (data mode) style:** Routes defined as objects, supporting advanced features and better data loading.
+
+[createBrowserRouter docs](https://reactrouter.com/en/main/routers/create-browser-router)
+[Routing](https://reactrouter.com/7.6.1/start/data/routing)
+
+#### Nested routes
+Routes can be nested inside parent routes through *children*.
+Example:
+```jsx
+createBrowserRouter([
+  {
+    path: "/dashboard",
+    Component: Dashboard,
+    children: [
+      { index: true, Component: Home },
+      { path: "settings", Component: Settings },
+    ],
+  },
+]);
+```
+[Nested Routes](https://reactrouter.com/7.6.1/start/data/routing#nested-routes)
+
 #### Dynamic params
 
 Example:
@@ -464,46 +566,6 @@ function GoHome() {
 }
 ```
 [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
-
-#### *createBrowserRouter*
-
-`createBrowserRouter` is a data-driven API for defining routes and loaders in React Router v6+.  
-It replaces the old `<Routes>`/`<Route>` JSX structure with a configuration object, enabling features like data loading, error boundaries, and nested routes outside of JSX.
-
-Example:
-```jsx
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/about", element: <About /> },
-]);
-function App() {
-  return <RouterProvider router={router} />;
-}
-```
-- **Old style:** Routes defined in JSX with `<Routes>` and `<Route>`.
-- **New style:** Routes defined as objects, supporting advanced features and better data loading.
-
-[createBrowserRouter docs](https://reactrouter.com/en/main/routers/create-browser-router)
-[Routing](https://reactrouter.com/7.6.1/start/data/routing)
-
-#### Nested routes
-Routes can be nested inside parent routes through *children*.
-Example:
-```jsx
-createBrowserRouter([
-  {
-    path: "/dashboard",
-    Component: Dashboard,
-    children: [
-      { index: true, Component: Home },
-      { path: "settings", Component: Settings },
-    ],
-  },
-]);
-```
-[Nested Routes](https://reactrouter.com/7.6.1/start/data/routing#nested-routes)
-
 
 ### 🔴 Error Handling
 #### Error boundaries (class component pattern)
@@ -558,6 +620,7 @@ function App() {
 
 ### 🔴 State Management Libraries
 #### Redux (store, reducers, actions)
+
 - **Single source of truth:** The state of your whole application is stored in an object tree within a single store.
 - **State is read-only:** The only way to change the state is to emit an action, an object describing what happened.
 - **Changes are made with pure functions:** To specify how the state tree is transformed by actions, you write pure reducers.
@@ -636,6 +699,7 @@ function Todos() {
 [React Query](https://tanstack.com/query/latest/docs/framework/react/overview)
 
 #### Redux Toolkt Query
+
 Redux Toolkit Query (RTK Query) simplifies data fetching and caching in Redux apps.
 
 Example usage:
@@ -685,12 +749,150 @@ function Todos() {
 ```
 [Redux Toolkit Query Docs](https://redux-toolkit.js.org/rtk-query/overview)
 
-## 🔴 SSR & Meta Frameworks
-#### Server-side rendering (Next.js)
+### 🔴 SSR & Meta Frameworks
+#### Server-side rendering and Server-side generation
+- **Server-side rendering (SSR):** HTML is generated on each request at runtime, enabling dynamic content and SEO.
+- **Static site generation (SSG):** HTML is generated at build time, resulting in fast, cacheable pages.
 
-#### getStaticProps, getServerSideProps
+[SSR vs SSG](https://strapi.io/blog/ssr-vs-ssg-in-nextjs-differences-advantages-and-use-cases)
 
-#### Client/server separation in React Server Components
+#### Next.JS. Pages router
+
+The traditional file-based routing system in Next.js (`pages/` directory). Each file becomes a route.
+Example:
+```sh
+pages/
+  index.js        // route: /
+  about.js        // route: /about
+  blog/[id].js    // dynamic route: /blog/123
+```
+[Pages Router](https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts)
+
+#### Next.JS. *getStaticProps*, *getStaticPaths*, *getServerSideProps*
+
+- `getStaticProps`: Fetch data at build time for static generation.
+- `getStaticPaths`: Specify dynamic routes to pre-render at build time.
+- `getServerSideProps`: Fetch data on each request for SSR.
+
+```js
+// pages/posts/[id].js
+export async function getStaticProps({ params }) {
+  // fetch post data
+  return { props: { post } };
+}
+export async function getStaticPaths() {
+  // fetch all post ids
+  return { paths: [{ params: { id: '1' } }], fallback: false };
+}
+```
+[getStaticProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)  
+[getStaticPaths](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)  
+[getServerSideProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props)
+
+#### Next.JS. App router
+
+The new routing system in Next.js (`app/` directory) supporting layouts, nested routes, and React Server Components.
+Example:
+```sh
+app/
+  layout.js       // root layout
+  page.js         // route: /
+  about/page.js   // route: /about
+```
+[How to create layouts and pages](https://nextjs.org/docs/app/getting-started/layouts-and-pages)
+[Linking and Navigating](https://nextjs.org/docs/app/getting-started/linking-and-navigating)
+
+#### Next.JS. Route Handlers and Middleware in App router
+
+Route Handlers allow you to create custom request handlers for a given route using the Web Request and Response APIs.
+[Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+
+Middleware runs before a request is completed, allowing you to modify the request/response, handle redirects, authentication, etc.
+Example:
+```js
+// middleware.js
+export function middleware(request) {
+  // logic here
+  return NextResponse.next();
+}
+```
+[Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
+
+#### NextJS. Fetching data
+[How to fetch data and stream](https://nextjs.org/docs/app/getting-started/fetching-data)
+
+#### Next.JS. Client/server separation in React Server Components
+
+- **Server Components:** Run only on the server, can fetch data directly, and never send code to the client.
+- **Client Components:** Run in the browser, can use state/effects, and interact with the DOM.
+Mark a file as client with `"use client"` at the top.
+
+Example:
+```jsx
+// app/page.js (Server Component by default)
+import ClientButton from './ClientButton';
+// ClientButton.js
+"use client";
+export default function ClientButton() { /* ... */ }
+```
+[React Server Components](https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#client-and-server-components)
+
+#### React Router Framework
+React Router Framework mode enables full-stack routing for React apps, supporting client, server, and static rendering with data loading and mutations.
+[Installing React Router in framework mode](https://reactrouter.com/7.6.1/start/framework/installation)
+
+#### React Router Framework. Routing
+Define routes in a `routes` directory or with a route config. Supports loaders, actions, and error boundaries.
+```ts
+// app/routes.ts
+import {
+  type RouteConfig,
+  route,
+  index,
+  layout,
+  prefix,
+} from "@react-router/dev/routes";
+
+export default [
+  index("./home.tsx"),
+  route("about", "./about.tsx"),
+
+  layout("./auth/layout.tsx", [
+    route("login", "./auth/login.tsx"),
+    route("register", "./auth/register.tsx"),
+  ]),
+
+  ...prefix("concerts", [
+    index("./concerts/home.tsx"),
+    route(":city", "./concerts/city.tsx"),
+    route("trending", "./concerts/trending.tsx"),
+  ]),
+] satisfies RouteConfig;
+
+```
+[React Router framework Routing](https://reactrouter.com/start/framework/routing)
+
+#### React Router Framework. Client, Server and Static Data Loading
+- **Client:** Data is fetched in the browser using loaders.
+- **Server:** Data is fetched on the server and sent with the HTML.
+- **Static:** Data is fetched at build time for static export.
+
+Example loader:
+```jsx
+export async function loader() {
+  const data = await fetch("/api/data").then(res => res.json());
+  return { data };
+}
+```
+[Data Loading](https://reactrouter.com/start/framework/data-loading)
+
+#### TanStack Start
+TanStack Start is a full-stack React framework powered by TanStack Router. It provides a full-document SSR, streaming, server functions, bundling, and more using tools like Nitro and Vite.
+[TanStack Start Overview](https://tanstack.com/start/latest/docs/framework/react/overview)
+
+#### Waku
+Waku is a minimal React framework focused on simplicity and fast developer experience, ideal for small to medium projects. It emphasizes minimal configuration and fun, modern workflows for building with React Server Components.
+[Waku](https://waku.gg/)
 
 ### 🔴 Concurrent Features & Suspense
 #### Suspense for lazy-loading
@@ -732,113 +934,76 @@ function SearchList({ items }) {
 [useTransition](https://react.dev/reference/react/useTransition)
 
 #### *useDeferredValue*
+[useDeferredValue](https://react.dev/reference/react/useDeferredValue)
 
 ### 🟡🔴 Build Process / CI/CD / Tooling
 #### CRA vs Vite vs custom Webpack
 
-#### Babel basics
+- **CRA (Create React App):** [DEPRECATED] Old way to create React applications with zero-config React setup. Was considered to be good for beginners and quick prototypes, but less flexible for advanced needs.
+  ```sh
+  npx create-react-app my-app
+  ```
+  [CRA Docs](https://create-react-app.dev/)
+  **Do not use it today!**
+- **Vite:** Fast build tool and dev server. Uses native ES modules, instant HMR, and supports React out of the box.
+  ```sh
+  npm create vite@latest my-app -- --template react-ts
+  ```
+  [Vite Docs](https://vitejs.dev/guide/)
+- **Custom Webpack:** Full control over build process, plugins, and optimizations. More setup and maintenance required.
+  [Webpack Docs](https://webpack.js.org/concepts/)
 
 #### Linting, formatting, pre-commit hooks
 
+- **Linting:** Use ESLint to catch code issues.
+  ```sh
+  npx eslint src/
+  ```
+  [ESLint](https://eslint.org/)
+- **Formatting:** Use Prettier for consistent code style.
+  ```sh
+  npx prettier --write src/
+  ```
+  [Prettier](https://prettier.io/)
+- **Pre-commit hooks:** Use Husky or lint-staged to run checks before commits.
+  ```sh
+  npx husky-init && npm install
+  # Add a hook: .husky/pre-commit
+  npx husky add .husky/pre-commit "npx lint-staged"
+  ```
+  [Husky](https://typicode.github.io/husky/#/)
+  [lint-staged](https://github.com/okonet/lint-staged)
+
 #### Dockerizing React apps, CI/CD pipelines
 
-## React DOM
+- **Dockerizing:** Use a Dockerfile to build and serve your React app.
+  ```dockerfile
+  # Dockerfile
+  FROM node:18 AS build
+  WORKDIR /app
+  COPY . .
+  RUN npm install && npm run build
 
-[What is the virtual DOM? How does react use the virtual DOM to render the UI?](https://adhithiravi.medium.com/react-virtual-dom-explained-in-simple-english-fc2d0b277bc5#:~:text=React%20uses%20virtual%20DOM%20to,re%2Drendering%20of%20the%20UI.)  
-[Is the virtual DOM the same as the shadow DOM?](https://scrimba.com/articles/react-interview-questions/#is-the-virtual-dom-the-same-as-the-shadow-dom)  
-[What is the difference between the virtual DOM and the real DOM?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-the-virtual-dom-and-the-real-dom)
-
-## Render
-
-[When is a component rendered?](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)  
-[How not to render on props change?](https://reactjs.org/docs/react-api.html#reactmemo)  
-[Is it OK to use arrow functions in render methods?](https://reactjs.org/docs/faq-functions.html#is-it-ok-to-use-arrow-functions-in-render-methods)
-[Components rendering system](https://medium.com/@pnk.tanwar/react-ui-rendering-under-the-hood-2ff83d875fae)
-
-## Interaction between components
-
-[How do you pass a value from parent to child?](https://scrimba.com/articles/react-interview-questions/#how-do-you-pass-a-value-from-parent-to-child)  
-[How do you pass a value from child to parent?](https://scrimba.com/articles/react-interview-questions/#how-do-you-pass-a-value-from-child-to-parent)  
-
-[Can a child component modify its own props?](https://scrimba.com/articles/react-interview-questions/#can-a-child-component-modify-its-own-props)  
-
-
-## Lifecycle and State
-
-[What is the difference between props and state?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-props-and-state)  
-[How does state in a class component differ from state in a functional component?](https://scrimba.com/articles/react-interview-questions/#how-does-state-in-a-class-component-differ-from-state-in-a-functional-component)  
-[What is the component lifecycle?](https://scrimba.com/articles/react-interview-questions/#what-is-the-component-lifecycle)  
-[How do you update lifecycle in function components?](https://scrimba.com/articles/react-interview-questions/#how-do-you-update-lifecycle-in-function-components)
-[Controlled/uncontrolled components](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
-[Statefull vs stateless components](https://dev.to/sidramaqbool/understanding-stateful-and-stateless-components-in-react-22oo#:~:text=Stateful%20Components%3A%20Use%20them%20when,not%20require%20any%20state%20management)
-
-## Ref
-
-[What is the difference between refs and state variables?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-refs-and-state-variables)  
-[When is the best time to use refs?](https://scrimba.com/articles/react-interview-questions/#when-is-the-best-time-to-use-refs)  
-[What is the proper way to update a ref in a function component?](https://scrimba.com/articles/react-interview-questions/#what-is-the-proper-way-to-update-a-ref-in-a-function-component)
-
-## Context
-
-[What is the difference between the context API and prop drilling?](https://scrimba.com/articles/react-interview-questions/#what-is-the-difference-between-the-context-api-and-prop-drilling)  
-[When shouldn't you use the context API?](https://scrimba.com/articles/react-interview-questions/#when-shouldn-t-you-use-the-context-api)
-
-## Redux
-
-[Async Redux flow](https://redux.js.org/tutorials/fundamentals/part-6-async-logic)
-
-## State Management by managers
-
-[Mobx](https://mobx.js.org/the-gist-of-mobx.html)
-[Reflux](https://github.com/reflux/refluxjs/blob/master/README.md)
-
-## Routing
-
-[React Router](https://reactrouter.com/en/main/start/concepts)
-[History](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API)
-
-## Other
-
-[Is it a good idea to use Math.random for keys?](https://reactjs.org/docs/lists-and-keys.html#keys)  
-[What are the limitations of React?](https://scrimba.com/articles/react-interview-questions/#what-are-the-limitations-of-react)  
-[What is a higher order component?](https://scrimba.com/articles/react-interview-questions/#what-is-a-higher-order-component)  
-[What are uncontrolled and controlled components?](https://scrimba.com/articles/react-interview-questions/#what-are-uncontrolled-and-controlled-components)  
-[React optimizations](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
+  FROM nginx:alpine
+  COPY --from=build /app/build /usr/share/nginx/html
+  ```
+  [Dockerizing React](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa)
+- **CI/CD:** Automate build, test, and deploy with tools like GitHub Actions, GitLab CI, or Jenkins.
+  ```yaml
+  # .github/workflows/ci.yml
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - uses: actions/setup-node@v3
+        - run: npm ci
+        - run: npm run build
+  ```
+  [GitHub Actions](https://docs.github.com/en/actions)
+  [GitLab CI](https://docs.gitlab.com/ee/ci/)
+  [Jenkins](https://www.jenkins.io/doc/)
 
 ## Coding task
 
 Small react app: form, button, results list
-
-# Next.js Interview Questions
-
-## General Questions:
-
-[What is Next.js, and how does it differ from traditional React applications?](https://nextjs.org/docs)
-
-[Explain the concept of server-side rendering (SSR) in Next.js](https://nextjs.org/docs/pages/building-your-application/data-fetching)
-
-[How does Next.js handle client-side routing?](https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating)
-
-What are the benefits of using Next.js for building React applications?
-
-What is the purpose of the `getInitialProps` function in Next.js? How is it different from using `getStaticProps` or `getServerSideProps`?
-
-How does Next.js handle automatic code splitting, and why is it important?
-
-[What is the purpose of the `Link` component in Next.js, and how does it differ from traditional anchor (`<a>`) tags?](https://nextjs.org/docs/pages/api-reference/components/link)
-
-[How can you configure routing in a Next.js application?](https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts)
-
-## Data Fetching:
-
-Compare and contrast `getStaticProps` and `getServerSideProps` in terms of use cases and performance considerations
-
-[When would you choose to use `getStaticPaths` in Next.js, and how does it relate to dynamic routes?](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
-
-## Advanced Topics:
-
-[Describe the purpose and use cases of API routes in Next.js](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
-
-[Explain the concept of middleware in Next.js and its role in the application lifecycle](https://nextjs.org/docs/pages/building-your-application/routing/middleware)
-
-[How does Next.js handle authentication in applications?](https://nextjs.org/docs/pages/building-your-application/authentication)
