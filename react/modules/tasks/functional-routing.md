@@ -1,0 +1,78 @@
+# React: Routing and Hooks
+
+## 🧠 Task Description
+
+In this task, you will refactor your class components to functional components with hooks and implement routing functionality. You'll add pagination, detailed views, and URL-based navigation.
+
+## 🎯 Task Goals
+
+- Convert class components to functional components using React hooks
+- Implement React Router for navigation and URL management
+- Create custom hooks for shared logic
+- Add pagination with URL synchronization
+
+
+## Application Requirements
+
+1. **Pagination**:
+    - Add pagination for your item list (search results)
+    - Display current page in URL using query parameters (e.g., `?page=2`)
+    - Pagination should appear after receiving the list of items
+
+2. **Master-Detail View**:
+    - Main page displays search results
+    - On item click, split page into 2 sections:
+        - **Left**: Continue displaying search results
+        - **Right**: Display item details using React Router outlet
+    - Show loading indicator while fetching details
+    - Add close control for details section
+    - Reflect details state in URL (e.g., `/?page=2&details=1`)
+
+3. **About Page**:
+    - Create an About page with application author information
+    - Include a link to the RS School React course
+    - Add navigation to reach the About page from the main application
+   
+## Technical Requirements
+
+1. **Branch Management**: Create branch from **"unit-testing"**. Branch name: **"hooks-and-routing"**
+
+2. **Component Conversion**:
+    - Convert ALL class components to **functional components** with hooks
+    - **Exception**: Keep **Error Boundary** as class component
+    - Create custom hook for localStorage operations
+
+3. **Routing Setup**:
+    - Add **React Router** in SPA mode
+    - Add **404 page** for non-existing routes
+
+## Points
+
+A student can achieve a maximum of 100 points.
+
+### Cross-check (score can be less if some parts of the functionality don't work)
+
+- Custom hook to restore search query from LS - **20**
+- Pagination is present in both URL and on the page - **20**
+- Upon clicking, open details panel on the right side of the page: - **5**
+  - use router outlet, left side of the page should continue displaying the list of results - **10**
+  - initiate an additional API call, display a loader, and update the URL - **10**
+  - Details panel should be closed either on the "close" button click or on the main panel click - **10**
+- about page is implemented with author information and a link to the RS School React course - **5**
+- new tests are added for the new functionality - **20**
+
+### Penalties
+
+- TypeScript isn't used: **-95 points**
+- Usage of _any_: **-20 points per each**
+- Usage of _ts-ignore_: **-20 points per each**
+- Direct DOM manipulations inside the React components: **-50 points per each**
+- Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+- Usage of Redux or other state management libraries: **-100 points**
+- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+- **Test coverage below 80% but ≥70%**: **-10 points**
+- **Test coverage below 70% but ≥50%**: **-30 points**
+- **Test coverage below 50%**: **-50 points**
+- Test coverage include test for App.tsx: **-50 points**
+- Commits after the deadline: **-40 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
