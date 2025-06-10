@@ -17,7 +17,7 @@
 5. Links must be rendered via a Link component from next/link.
 6. All requests must be done from the server. [Example how to adopt searchParams to the next.js](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination), [Fetching data](https://nextjs.org/docs/app/getting-started/fetching-data)
 7. Move render of components to the server as much as possible. [E.g., static markup, components without state\hooks usage](https://nextjs.org/docs/app/getting-started/server-and-client-components).
-8. Csv file from the Redux task must be compiled [on the server](https://nextjs.org/docs/app/guides/forms). 
+8. Csv file from the Redux task must be compiled [on the server](https://nextjs.org/docs/app/guides/forms).
 
 ## Points
 
