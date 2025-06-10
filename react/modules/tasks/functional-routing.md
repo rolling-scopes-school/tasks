@@ -11,40 +11,42 @@ In this task, you will refactor your class components to functional components w
 - Create custom hooks for shared logic
 - Add pagination with URL synchronization
 
-
 ## Application Requirements
 
 1. **Pagination**:
-    - Add pagination for your item list (search results)
-    - Display current page in URL using query parameters (e.g., `?page=2`)
-    - Pagination should appear after receiving the list of items
+
+   - Add pagination for your item list (search results)
+   - Display current page in URL using query parameters (e.g., `?page=2`)
+   - Pagination should appear after receiving the list of items
 
 2. **Master-Detail View**:
-    - Main page displays search results
-    - On item click, split page into 2 sections:
-        - **Left**: Continue displaying search results
-        - **Right**: Display item details using React Router outlet
-    - Show loading indicator while fetching details
-    - Add close control for details section
-    - Reflect details state in URL (e.g., `/?page=2&details=1`)
+
+   - Main page displays search results
+   - On item click, split page into 2 sections:
+     - **Left**: Continue displaying search results
+     - **Right**: Display item details using React Router outlet
+   - Show loading indicator while fetching details
+   - Add close control for details section
+   - Reflect details state in URL (e.g., `/?page=2&details=1`)
 
 3. **About Page**:
-    - Create an About page with application author information
-    - Include a link to the RS School React course
-    - Add navigation to reach the About page from the main application
-   
+   - Create an About page with application author information
+   - Include a link to the RS School React course
+   - Add navigation to reach the About page from the main application
+
 ## Technical Requirements
 
 1. **Branch Management**: Create branch from **"unit-testing"**. Branch name: **"hooks-and-routing"**
 
 2. **Component Conversion**:
-    - Convert ALL class components to **functional components** with hooks
-    - **Exception**: Keep **Error Boundary** as class component
-    - Create custom hook for localStorage operations
+
+   - Convert ALL class components to **functional components** with hooks
+   - **Exception**: Keep **Error Boundary** as class component
+   - Create custom hook for localStorage operations
 
 3. **Routing Setup**:
-    - Add **React Router** in SPA mode
-    - Add **404 page** for non-existing routes
+   - Add **React Router** in SPA mode
+   - Add **404 page** for non-existing routes
 
 ## Points
 
