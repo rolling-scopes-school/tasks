@@ -6,7 +6,7 @@
 2. Next.js App Router Integration:
    - [Migrate your application from vite to the Next.js by using App Router](https://nextjs.org/docs/app/guides/migrating/from-vite).
    - React-router should be removed. You must use file-based routing provided by next.js (App Router).
-   - You may need to adapt some existing libraries to work with next.js if necessary. (Redux (can be replaced with [zustand](https://zustand.docs.pmnd.rs/guides/nextjs))).
+   - You may need to adapt some existing libraries to work with next.js if necessary. (E.g., Redux).
 
 ## Application Requirements
 
@@ -30,12 +30,12 @@ A student can achieve a maximum of 100 points.
 - All images are rendered via the next/image component - **10**
 - All links are rendered via the next/link component - **10**
 - 404 error page implemented - **5**
-- Network requests from the server - **20**
+- All network requests are done via the server - **20**
 - CSV file compiled in the server action - **20**
 
 ### Penalties
 
-- TypeScript isn't used: **-145 points**
+- TypeScript isn't used: **-100 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
 - Direct DOM manipulations inside the React components: **-50 points per each**
