@@ -45,7 +45,7 @@ In this task, you will refactor your class components to functional components w
    - Create custom hook for localStorage operations
 
 3. **Routing Setup**:
-   - Add **React Router** in SPA mode
+   - Add **React Router** in SPA mode using either "Data" or "Declarative" approach ([pick one](https://reactrouter.com/start/modes#api--mode-availability-table))
    - Add **404 page** for non-existing routes
 
 ## Points
@@ -72,9 +72,9 @@ A student can achieve a maximum of 100 points.
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-- **Test coverage below 80% but ≥70%**: **-10 points**
-- **Test coverage below 70% but ≥50%**: **-30 points**
-- **Test coverage below 50%**: **-50 points**
+- Statement coverage below 80% (≥70%): **-10 points**
+- Statement coverage below 70% (≥50%): **-30 points**
+- All coverage metrics below 50%: **-50 points**
 - Test coverage include test for App.tsx: **-50 points**
 - Commits after the deadline: **-40 points**
 - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**

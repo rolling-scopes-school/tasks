@@ -20,7 +20,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ## Application Requirements
 
-1. **Test Coverage**: Achieve at least **80% test coverage** for all components (statements, branches, functions, lines)
+1. **Test Coverage**: Achieve at least **80% statement coverage** for all components, with minimum 50% coverage for branches, functions, and lines.
 2. **No Implementation Changes**: Write tests for existing class components without modifying their code
 3. **Behavior-Focused Testing**: Test what components do, not how they do it
 4. **API Mocking**: Mock all external API calls to ensure tests are isolated and fast
@@ -41,9 +41,9 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
      "coverageThreshold": {
        "global": {
          "statements": 80,
-         "branches": 80,
-         "functions": 80,
-         "lines": 80
+         "branches": 50,
+         "functions": 50,
+         "lines": 50
        }
      }
    }
@@ -72,7 +72,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ## Suggested Test Scenarios
 
-⚠️ You can use the following scenarios as a guide for writing your tests. Feel free to add more tests based on your components' specific behaviors and requirements. Your application may differ from these examples, so these scenarios are **suggestions only**. Remember, your goal is **80% test coverage**.
+⚠️ You can use the following scenarios as a guide for writing your tests. Feel free to add more tests based on your components' specific behaviors and requirements. Your application may differ from these examples, so these scenarios are **suggestions only**. Strive for **80% test statement coverage** as your target milestone.
 
 ### 1. Search Component Tests
 
@@ -156,7 +156,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 ### 9. Submission Requirements
 
 1. All tests must pass: `npm run test`
-2. Coverage report must show ≥80% in all metrics: `npm run test:coverage`
+2. Coverage report must show ≥50% in all metrics and ≥80% in statements : `npm run test:coverage`
 3. No console errors or warnings during test execution
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
@@ -165,12 +165,13 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ### Student can get 100 points:
 
-- **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **20 points**
-- **Search Component Tests** (localStorage, user input, search functionality) - **15 points**
+- **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
+- **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
 - **Results/CardList Component Tests** (rendering, data display, loading states) - **15 points**
 - **Card Component Tests** (rendering, click interactions) - **15 points**
 - **Error Boundary Tests** (error catching, fallback UI, test error button) - **15 points**
 - **API Integration Tests** (mocked API calls, success/error handling) - **15 points**
+- **Husky Pre-push Hook** (tests run automatically before push) - **5 points**
 
 ### Penalties
 
@@ -181,9 +182,9 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Usage of Redux or other state management libraries: **-100 points**
 - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-- **Test coverage below 80% but ≥70%**: **-10 points**
-- **Test coverage below 70% but ≥50%**: **-30 points**
-- **Test coverage below 50%**: **-50 points**
+- Statement coverage below 80% (≥70%): **-10 points**
+- Statement coverage below 70% (≥50%): **-30 points**
+- All coverage metrics below 50%: **-50 points**
 - Test coverage include test for App.tsx: **-50 points**
 - Commits after the deadline: **-40 points**
 - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
