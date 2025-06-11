@@ -1,15 +1,19 @@
-# React forms
+# React Forms
 
 ## Application Requirements
 
-1. Portals. Use React Portals to display forms in modals:
+1. **Portals**. Use React Portals to display forms in modals:
+
    - Main page should have buttons to open 2 different modals
    - Modal for the form created using uncontrolled components approach
    - Modal for the similar form, but created using **React Hook Form**
    - Modals should be properly accessible (focus management, ESC key to close, click outside to close)
-2. Redux. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
-3. Forms
+
+2. **Redux**. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
+
+3. **Forms**
    Both forms will collect the same data:
+
    - name (validate for first uppercased letter)
    - age (should be number, no negative values)
    - email (validate for email)
@@ -19,18 +23,51 @@
    - input control to upload picture (validate size and extension, allow png jpeg, save in redux store as base64)
    - autocomplete control to select country (all countries should be stored in the Redux store)
      Form should contain labels, which should be connected with inputs (look at **htmlFor**)
-4. Validation
+
+4. **Validation**
    Implement validation according to the inputs description from p. 3. Use **Yup** or **Zod** (but pick just one) for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+
    - Uncontrolled components should implement validation on submit
    - Approach with **React Hook Form** should implement live validation
-5. After submitting the form
+
+5. **After submitting the form**
    On successful form submission close the modal and display the newly entered data on the main page. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
+
+6. **Testing Requirements / Unit Testing**
+
+   - **Form Components Testing**: Test both uncontrolled and React Hook Form implementations
+
+     - Test form rendering with all required fields
+     - Test field validation (name, age, email, passwords, etc.)
+     - Test password strength calculation
+     - Test form submission with valid/invalid data
+     - Test error message display and clearing
+
+   - **Modal Components Testing**:
+
+     - Test modal opening/closing functionality
+     - Test accessibility features (focus management, ESC key)
+     - Test click outside to close behavior
+     - Test portal rendering
+
+   - **Redux Store Testing**:
+
+     - Test actions and action creators
+     - Test reducers with different action types
+     - Test selectors
+     - Test store state updates after form submissions
+
+   - **Utility Functions Testing**:
+     - Test password strength validation
+     - Test image to base64 conversion
+     - Test form validation helpers
+     - Test country autocomplete filtering
 
 ## Technical Requirements
 
 1. Create a separate branch for this task. Branch name: "forms". For this task you will need to create a new application.
 2. Follow the requirements for the project setup listed [here](./project-setup.md)
-3. Add **React Hook Form**, **Yup** or **Zod**, **Redux Toolkit** to the application.
+3. Add **React Hook Form**, **Yup** or **Zod**, **Redux Toolkit**, **Jest** or **Vitest** with React Testing Library to the application.
 
 ## Points
 
@@ -51,6 +88,9 @@
 - TypeScript isn't used: **-95 points**
 - Usage of _any_: **-20 points per each**
 - Usage of _ts-ignore_: **-20 points per each**
+- Testing statement coverage below 80% (≥70%): **-10 points**
+- Testing statement coverage below 70% (≥50%): **-30 points**
+- Testing all coverage metrics below 50%: **-50 points**
 - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 - Validation is implemented without **Yup** or **Zod** - **-25 points**
 - Commits after the deadline: **-40 points**
