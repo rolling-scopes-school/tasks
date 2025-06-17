@@ -5,11 +5,12 @@
 1. **Portals**. Use React Portals to display forms in modals:
 
    - Main page should have buttons to open 2 different modals
-   - Modal for the form created using uncontrolled components approach
-   - Modal for the similar form, but created using **React Hook Form**
+   - **Shared modal component** that renders different content:
+     - Form created using uncontrolled components approach
+     - Similar form created using React Hook Form
    - Modals should be properly accessible (focus management, ESC key to close, click outside to close)
 
-2. **Redux**. Use redux to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
+2. **State Management**. Use Redux or Zustand to store the data provided by both approaches on the Main route. You can use tiles to display data taken from each form.
 
 3. **Forms**
    Both forms will collect the same data:
@@ -67,14 +68,14 @@
 
 1. Create a separate branch for this task. Branch name: "forms". For this task you will need to create a new application.
 2. Follow the requirements for the project setup listed [here](./project-setup.md)
-3. Add **React Hook Form**, **Yup** or **Zod**, **Redux Toolkit**, **Jest** or **Vitest** with React Testing Library to the application.
+3. Add **React Hook Form**, **Yup** or **Zod**, **Redux Toolkit** or **Zustand**, **Jest** or **Vitest** with React Testing Library to the application.
 
 ## Points
 
 ### Student can get 100 points:
 
-- 2 modals using React Portals (one for each form approach) - **15 points**
-- Redux is set up and used to collect data from both forms, proper modal behavior (accessibility, close on ESC/outside click) - **15 points**
+- Universal, single modal with React Portal (reusable for both controlled and uncontrolled forms) - **15 points**
+- State Management set up with Redux or Zustand and used to collect data from both forms, proper modal behavior (accessibility, close on ESC/outside click) - **15 points**
 - Validation works for both forms according to the requirements (error messages, blocking submit button), **Yup** or **Zod** is used for validation (10 points if works only for one form) - **15 points**
 - Name, age, email, gender picker, accept T&C are implemented for both forms and collect data (if something doesn't work, score can be less) - **15 points**
 - Input for image is implemented for both forms, image is saved as base64 and display on the main page after form submission - **15 points**
