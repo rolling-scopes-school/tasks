@@ -260,6 +260,8 @@ React 19 release brings a host of groundbreaking features that significantly enh
 
 ## React's Influence on the Frontend Ecosystem
 
+_Note: This list includes the individuals specifically mentioned in the React evolution document and represents the core contributors who shaped React's early development and ecosystem._
+
 React's approach to UI development has had far-reaching impacts beyond just its own ecosystem:
 
 ### Inspired Frameworks and Libraries
@@ -293,3 +295,48 @@ React's growth has been remarkable:
 - [React v17.0](https://legacy.reactjs.org/blog/2020/10/20/react-v17.html)
 - A Comprehensive Guide to the Latest Features and Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
 - [React Conference Presentations](https://reactjs.org/community/conferences.html)
+
+## Influential People in React Development
+
+This section highlights the key individuals who have shaped React's development and ecosystem throughout its evolution.
+
+### React Core Team & Creators
+
+#### [Jordan Walke](https://x.com/jordwalke)
+
+- **Role**: Creator of React
+- **Contribution**: Created the original React library in 2011 at Facebook, borrowing ideas from XHP (HTML component PHP framework) to solve Facebook News Feed performance issues
+
+#### [Pete Hunt](https://x.com/floydophone)
+
+- **Role**: Early Core Team Member
+- **Contribution**: Early adopter who helped open-source React and authored many core features, instrumental in React's public release in 2013
+
+#### [Sebastian Markbåge](https://x.com/sebmarkbage)
+
+- **Role**: React Architect
+- **Contribution**: Joined early and became a key figure in React's evolution, contributing to architectural decisions and long-term vision
+
+#### [Paul O'Shannessy](https://www.threads.com/@zpao)
+
+- **Role**: Core Team Member
+- **Contribution**: Helped shape React's build processes and development workflows in the early years
+
+### State Management Ecosystem
+
+#### Dan Abramov
+
+- **Role**: Redux Creator & React Core Team Member
+- **Contribution**: Co-created Redux in 2015, presented it at React Europe conference, later joined Facebook's React team and contributed to React's development
+
+#### [Andrew Clark](https://x.com/acdlite)
+
+- **Role**: Redux Co-creator & React Core Team Member
+- **Contribution**: Co-created Redux with Dan Abramov, later joined Facebook and became a key contributor to React Fiber and other major React features
+
+### Extended React Ecosystem Contributors
+
+#### [Sophie Alpert](https://sophiebits.com/)
+
+- **Role**: React Core Team Member
+- **Contribution**: Mentioned as one of the key figures who formed the nucleus of React's technical leadership and community presence
