@@ -23,40 +23,28 @@ Students are encouraged to study the following resources:
 
 1. **Prerequisites and Installing Node.js and npm:**
 
-   - [Node.js Official Website](https://nodejs.org/en/) - [15 minutes]
-   - [How to Install Node.js and npm](https://www.npmjs.com/get-npm) - [15 minutes]
-   - [npm vs npx](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/) — What’s the
-     Difference? - [15 minutes]
+   - [**Node.js Website** - Node.js](https://nodejs.org/en/) - [5 minutes]
 
-2. **Creating a New React Application and Understanding Project Structure:**
+2. **Vite:**
 
-   - [Start a New React Project](https://react.dev/learn/start-a-new-react-project) - [30 minutes]
-   - [React.js Architecture Pattern](https://www.knowledgehut.com/blog/web-development/react-js-architecture) - [30 minutes]
+   - [**Vite Docs** - Getting Started with Vite](https://vitejs.dev/guide/) - [25 minutes]
 
-3. **Setting Up Linter, Prettier, Husky:**
+3. **Creating a New React Application and Understanding Project Structure:**
 
-   - [Configuration (new: eslint.config.js)](https://github.com/jsx-eslint/eslint-plugin-react?tab=readme-ov-file#configuration-new-eslintconfigjs)
-   - [ESLint and Prettier configuration for React project](https://dev.to/tsamaya/eslint-and-prettier-configuration-for-react-project-2gij) - [30 minutes]
-   - [Eslint Documentation](https://eslint.org/docs/latest/) - [30 minutes]
-   - [Prettier Documentation](https://prettier.io/docs/en/options.html) - [30 minutes]
-   - [Husky How-To](https://typicode.github.io/husky/how-to.html) - [30 minutes]
+   - [**React Docs** - Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch) - [30 minutes]
+   - [**React Docs (Legacy)** - File Structure](https://legacy.reactjs.org/docs/faq-structure.html) - [5 minutes]
+   - [**Dev Community** - Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25) - [1 hour]
 
-4. **Vite:**
+4. **Setting Up Linter, Prettier, Husky:**
 
-   - [Getting Started with Vite](https://vitejs.dev/guide/) - [25 minutes]
-   - [Why Vite](https://vitejs.dev/guide/why) - [5 minutes]
-
-5. **Vitest or Jest:**
-
-   - [Why Vitest and Guide](https://vitest.dev/guide/) - [30 minutes]
-   - Jest [Getting Started](https://jestjs.io/docs/getting-started)
-   - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+   - [**React Docs** - Getting Started with ESLint](http://eslint.org/docs/latest/use/getting-started) - [30 minutes]
+   - [**eslint-plugin-react (GitHub)** - Configuration (new: eslint.config.js)](https://github.com/jsx-eslint/eslint-plugin-react?tab=readme-ov-file#configuration-new-eslintconfigjs) - [10 minutes]
+   - [**Prettier Docs** - Install](https://prettier.io/docs/install) - [10 minutes]
+   - [**Husky Docs** - Get started](https://typicode.github.io/husky/get-started.html) - [10 minutes]
 
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
 
-1. [Component Architecture](https://handsonreact.com/docs/component-architecture)
-2. Architectural methodology for frontend projects [Feature-Sliced Design ](https://feature-sliced.design/) - [1 hour]
-3. [Container and Presentational Components](https://www.patterns.dev/react/presentational-container-pattern/)
-4. Why you should add [Eslint to a React Vite project](https://dev.to/bushblade/add-eslint-to-a-react-vite-project-4pib) - [15 minutes]
+- [**freeCodeCamp Article** - npm vs npx - What’s the Difference?](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/) - [15 minutes]
+- [**Hands on React** - Component Architecture](https://handsonreact.com/docs/component-architecture) - [30 minutes]
