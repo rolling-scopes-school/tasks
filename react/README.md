@@ -57,11 +57,11 @@ This course is aimed at the students of the RS School who have passed RS School 
 #### Theory
 
 - [Context API](modules/context-api/)
-- [Redux. RTK. RTK Query](modules/react-redux/)
+- [Redux. RTK](modules/state-management/)
 
 #### Practical tasks
 
-[Task 3](modules/tasks/redux.md)
+[Task 4](modules/tasks/state-management.md)
 
 #### Tests
 
@@ -71,12 +71,11 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 #### Theory
 
-- [Context API](modules/context-api/)
-- [Redux. RTK. RTK Query](modules/react-redux/)
+- [RTK Query. Tanstack Query](modules/state-management/queries.md)
 
 #### Practical tasks
 
-[Task 3](modules/tasks/redux.md)
+[Task 5](modules/tasks/queries.md)
 
 #### Tests
 
@@ -90,7 +89,7 @@ This course is aimed at the students of the RS School who have passed RS School 
 
 #### Practical tasks
 
-[Task 4](modules/tasks/nextjs-ssr-ssg.md)
+[Task 6](modules/tasks/nextjs-ssr-ssg.md)
 
 #### Tests
 
