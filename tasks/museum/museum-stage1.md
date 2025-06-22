@@ -196,7 +196,7 @@
 
 ## Материалы
 
-- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/useful/figma)
+- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
 - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
 - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
 
