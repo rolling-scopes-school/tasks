@@ -4,6 +4,10 @@
 
 In this task, you will refactor your class components to functional components with hooks and implement routing functionality. You'll add pagination, detailed views, and URL-based navigation.
 
+## ⚠️ IMPORTANT NOTICE
+
+Focus on routing and functional components. Remove any button or functionality which throws exceptions unnecessarily.
+
 ## 🎯 Task Goals
 
 - Convert class components to functional components using React hooks
