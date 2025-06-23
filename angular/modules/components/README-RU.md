@@ -1,33 +1,27 @@
 # [Angular schedule.](../../README.md) Components.
 
-## В данном модуле студентам необходимо изучить:
+## В этом модуле вы узнаете:
 
-- Базовая структура приложения.
-- Что такое `Components`, шаблоны.
-- Одностороннее и двухсторонее связывание.
-- Жизненный цикл `Components`.
-- Взаимодействие `Components`.
+- Как устроена структура Angular-приложения.
+- Что такое `Components` и шаблоны.
+- Связывание данных: одностороннее и двустороннее.
+- Жизненный цикл `Components` и его основные хуки.
+- Как создавать и использовать `Components` на практике.
 - Создание и использование `Components` в приложении.
-- `Standalone Components`. Создание, использование, особенности.
+- Что такое `Standalone Components`: как создавать, использовать и какие преимущества они дают.
 
-## Приблизительное время прохождения модуля
+## Приблизительное время на прохождение модуля:
 
 - Теория: 2 часа
 - Задание: 4 часа
 
 ## Теория
 
-- Лекции:
-  - [Angular 2020Q1. Components](https://youtu.be/rY_FWXmh4QI)
-  - [Angular 2021Q1. Components](https://youtu.be/oOR3NpA02HI)
   - [Standalone Components 1](https://www.youtube.com/watch?v=ca2zuEDsDhs)
   - [Standalone Components 2](https://www.youtube.com/watch?v=mDdCB2oR9IE)
   - [Standalone Components 3](https://www.youtube.com/watch?v=NYqjdqBySmY)
   - [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
   - [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
-- Слайды:
-  - [Angular 2020Q1. Components](https://slides.com/pavelrazuvalau/angular-components)
-  - [Angular 2021Q1. Components](https://slides.com/dzianis_davydau/components)
   - [Docs](https://angdev.ru/angular/standalone-components/)
 
 ## Практическое задание
