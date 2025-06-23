@@ -17,12 +17,12 @@
 
 ## Теория
 
-  - [Standalone Components 1](https://www.youtube.com/watch?v=ca2zuEDsDhs)
-  - [Standalone Components 2](https://www.youtube.com/watch?v=mDdCB2oR9IE)
-  - [Standalone Components 3](https://www.youtube.com/watch?v=NYqjdqBySmY)
-  - [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
-  - [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
-  - [Docs](https://angdev.ru/angular/standalone-components/)
+- [Standalone Components 1](https://www.youtube.com/watch?v=ca2zuEDsDhs)
+- [Standalone Components 2](https://www.youtube.com/watch?v=mDdCB2oR9IE)
+- [Standalone Components 3](https://www.youtube.com/watch?v=NYqjdqBySmY)
+- [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
+- [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/angular-components/src)
+- [Docs](https://angdev.ru/angular/standalone-components/)
 
 ## Практическое задание
 
