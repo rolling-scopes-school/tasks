@@ -50,9 +50,9 @@
 
 ### Неделя #5
 
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
+- - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
 - Проект ["Museum"](../tasks/museum/museum-stage1.md)
   - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
 
