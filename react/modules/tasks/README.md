@@ -43,3 +43,7 @@ Last, but not least - check the presence of the comments. Ideally there shouldn'
 ## Cross-check process
 
 Run app and check that the functionality is working (cross-check). You can check details [here](https://rs.school/docs/en/cross-check-flow#step-3-checking-each-others-work)
+
+## Mentor's review process
+
+A mentor check task must be submitted to the Mentor's review block in the Dashboard section of the RS App before the deadline. You can check details [here](https://rs.school/docs/en/pull-request-review-process)
