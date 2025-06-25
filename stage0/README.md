@@ -24,7 +24,6 @@
 
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
-- [Модуль "Figma"](modules/figma)
 - Проект ["CV"](../tasks/cv/cv.md).
   - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
   - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
@@ -32,6 +31,7 @@
 ### Неделя #3
 
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
+- [Модуль "Figma"](modules/figma)
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 - Проект ["CV"](../tasks/cv/cv.md).
@@ -81,9 +81,7 @@
 
 ## Сертификат
 
-Чтобы получить сертификат о прохождении подготовительного этапа вам необходимо набрать 70% от результата TOP1 студента. Например, если в конце этапа у лучшего студента 2000 баллов, проходной для всех студентов 1400 баллов (2000\*0.7).
-
-Наличие или отсутствие сертификата о прохождении подготовительного этапа не влияет на возможность дальнейшего обучения в RS School.
+В рамках подготовительного этапа выдача сертификата не предусмотрена.
 
 ## FAQ
 
@@ -119,7 +117,7 @@
 
 ### Кто проверяет задания?
 
-- Проекты "CV", "Portfolio", "CodeJam", "JS 30" проверяются в ходе [Cross-check](https://rs.school/docs/ru/cross-check-flow)
+- Проекты "CV#3", "Museum", "Secret Task" проверяются в ходе [Cross-check](https://rs.school/docs/ru/cross-check-flow)
 - Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://rs.school/docs/ru/rs-app-tasks) до дедлайна.
 - Таски "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" проверяются автоматически.
 
