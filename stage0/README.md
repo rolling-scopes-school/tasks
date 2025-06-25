@@ -58,11 +58,10 @@
 
 ### Неделя #6
 
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [JS-101](https://github.com/Luffi2539/core-js-101/)
 
 ### Неделя #7
 
-- [JS-101](https://github.com/Luffi2539/core-js-101/)
 - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
 - [Secret Task](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
@@ -70,6 +69,7 @@
 
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
 ### Неделя #9
 
