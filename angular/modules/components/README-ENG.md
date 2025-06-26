@@ -1,6 +1,6 @@
 # [Angular schedule.](../../README.md) Components.
 
-## In this module you will learn:
+## In this module, you will learn:
 
 - How Angular applications are structured.
 - What are `Components` and Templates?
