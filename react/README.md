@@ -31,9 +31,6 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 1](modules/tasks/class-components.md)
 
-- Cross-check review: [Task 1](modules/tasks/class-components.md)
-- Mentor review: [Task 1](modules/tasks/class-components.md)
-
 #### Tests
 
 - Test 0. How to learn in RS School
@@ -49,8 +46,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 2](modules/tasks/tests.md)
 
-- Cross-check review: [Task 2](modules/tasks/tests.md)
-- Mentor review: [Task 2](modules/tasks/tests.md)
+- Cross-check review: [Task 1](modules/tasks/class-components.md)
+- Mentor review: [Task 1](modules/tasks/class-components.md)
 
 #### Tests
 
@@ -67,8 +64,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 3](modules/tasks/functional-routing.md)
 
-- Cross-check review: [Task 3](modules/tasks/functional-routing.md)
-- Mentor review: [Task 3](modules/tasks/functional-routing.md)
+- Cross-check review: [Task 2](modules/tasks/tests.md)
+- Mentor review: [Task 2](modules/tasks/tests.md)
 
 #### Tests
 
@@ -86,8 +83,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 4](modules/tasks/state-management.md)
 
-- Cross-check review: [Task 4](modules/tasks/state-management.md)
-- Mentor review: [Task 4](modules/tasks/state-management.md)
+- Cross-check review: [Task 3](modules/tasks/functional-routing.md)
+- Mentor review: [Task 3](modules/tasks/functional-routing.md)
 
 #### Tests
 
@@ -103,8 +100,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 5](modules/tasks/queries.md)
 
-- Cross-check review: [Task 5](modules/tasks/queries.md)
-- Mentor review: [Task 5](modules/tasks/queries.md)
+- Cross-check review: [Task 4](modules/tasks/state-management.md)
+- Mentor review: [Task 4](modules/tasks/state-management.md)
 
 #### Tests
 
@@ -120,8 +117,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 6](modules/tasks/nextjs-ssr-ssg.md)
 
-- Cross-check review: [Task 6](modules/tasks/nextjs-ssr-ssg.md)
-- Mentor review: [Task 6](modules/tasks/nextjs-ssr-ssg.md)
+- Cross-check review: [Task 5](modules/tasks/queries.md)
+- Mentor review: [Task 5](modules/tasks/queries.md)
 
 #### Tests
 
@@ -138,8 +135,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 7](modules/tasks/forms.md)
 
-- Cross-check review: [Task 7](modules/tasks/forms.md)
-- Mentor review: [Task 7](modules/tasks/forms.md)
+- Cross-check review: [Task 6](modules/tasks/nextjs-ssr-ssg.md)
+- Mentor review: [Task 6](modules/tasks/nextjs-ssr-ssg.md)
 
 #### Tests
 
@@ -155,13 +152,18 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 8](modules/tasks/performance.md)
 
-- Cross-check review: [Task 8](modules/tasks/performance.md)
-- Mentor review: [Task 8](modules/tasks/performance.md)
+- Cross-check review: [Task 7](modules/tasks/forms.md)
+- Mentor review: [Task 7](modules/tasks/forms.md)
 
 ### Week #9 (1st of September, 2025)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
+
+#### Practical tasks
+
+- Cross-check review: [Task 8](modules/tasks/performance.md)
+- Mentor review: [Task 8](modules/tasks/performance.md)
 
 ### Week #10 (8th of September, 2025)
 

@@ -309,17 +309,28 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
   }
   ```
 
-### History
+### History and analytics
 
 - This route should be private.
-- History code should be lazy-loaded (so unauthenticated user won't download the code).
-- History section should display request using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
-- All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
-- History section should not contain variables. If the variables have been used in the request, replace them with the respective values.
-- After navigating to the respective section, all the functional fields (URL, method selector, headers, body, values) should be restored. Please, mind this when saving the request in the local storage to ensure that all the required data will be saved.
-- If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTful client.
+- History and analytics code should be lazy-loaded (so unauthenticated user won't download the code).
+- The section should be server-side generated: all request history and analytics are aggregated and rendered on the server, then sent to the client for display.
+- The section should display requests using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
+- All request history and analytics information must be loaded from Firebase/Supabase for the logged in user. The information is written to the database from the server side after each request.
+- The following parameters must be stored for each request:
+  - **Request Duration (Latency):** Time taken from sending the request to receiving the response.
+  - **Response Status Code:** HTTP status code (e.g., 200, 404, 500) for each request.
+  - **Request Timestamp:** When the request was made (date and time).
+  - **Request Method:** GET, POST, PUT, DELETE, etc.
+  - **Request Size:** Size of the request payload (in bytes).
+  - **Response Size:** Size of the response payload (in bytes).
+  - **Error Details:** If the request failed, log the error message or type (timeout, network error, etc.).
+  - **Endpoint/URL:** The endpoint that was called (for grouping and analysis).
+- The section should show requests sorted by the time of their execution.
+- The section should not contain variables, because information should be recorded from the server side.
+- After navigating to the respective section, all the functional fields (URL, method selector, headers, body, values) should be restored. Please, mind this when saving the request in the database to ensure that all the required data will be saved.
+- If there are no requests in the history, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTful client.
 
-#### History template. No requests
+#### History and analytics template. No requests
 
 ```
 +----------------------------------------------------+
@@ -344,7 +355,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 +----------------------------------------------------+
 ```
 
-#### History template with requests
+#### History and analytics template with requests
 
 ```
 +----------------------------------------------------+
@@ -377,7 +388,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 ## Evaluation criteria
 
-**Maximum available points for the task are 450**
+**Maximum available points for the task are 500**
 
 ### Cross-check criteria
 
@@ -408,10 +419,11 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Headers section, value is provided in the URL on header add/change. - **20 points**
 - [ ] Code generation section. - **30 points**
 
-### History route - max 50 points
+### History and analytics route - max 100 points
 
-- [ ] History shows informational message with links to the clients when there are no requests in the local storage. - **20 points**
-- [ ] User can navigate to the previously executed HTTP request to the RESTful client, HTTP method, URL, body, headers are restored. **30 points**
+- [ ] History and analytics is server-side generated and shows informational message with links to the clients when there are no requests in the database. - **20 points**
+- [ ] User can navigate to the previously executed HTTP request to the RESTful client, HTTP method, URL, body, headers are restored. - **30 points**
+- [ ] The following analytics are recorded to the database from the application server side and displayed to the user: request duration, response status code, request timestamp, request method, request size, response size, error details, endpoint/URL. - **50 points**
 
 ### Variables route - max 50 points
 
@@ -444,3 +456,38 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Absence of husky git hooks **-100 points**
 - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
 - [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
+
+## Sequence Diagram: User Journey and Analytics Flow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant UI as React UI
+    participant Server as Application Server (NextJS/Remix)
+    participant API as External API
+    participant DB as Firebase/Supabase
+
+    User->>UI: Open REST Client
+    User->>UI: Fill request details (method, URL, headers, body)
+    User->>UI: Click 'Send Request'
+    UI->>Server: Send request details
+    Server->>API: Make HTTP request to external API
+    API-->>Server: Return response
+    Server->>DB: Store analytics (duration, status, timestamp, etc.)
+    Server-->>UI: Return response data
+    UI-->>User: Display response
+
+    User->>UI: Navigate to History and Analytics
+    UI->>Server: Request server-side generated history and analytics
+    Server->>DB: Fetch and aggregate analytics for user
+    Server-->>UI: Return server-rendered analytics and history
+    UI-->>User: Display history and analytics
+
+    User->>UI: Click 'Send Request' again in the history
+    UI->>Server: Send request details (re-execution)
+    Server->>API: Make HTTP request to external API
+    API-->>Server: Return new response
+    Server->>DB: Store new analytics (duration, status, timestamp, etc.)
+    Server-->>UI: Return new response data
+    UI-->>User: Display new response and analytics
+```
