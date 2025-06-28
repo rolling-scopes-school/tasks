@@ -179,7 +179,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-Cross-check review: - [REST client](modules/tasks/final.md)
+- Cross-check review: [REST client](modules/tasks/final.md)
+- Mentor review: [REST client](modules/tasks/final.md)
 
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
