@@ -47,7 +47,6 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 [Task 2](modules/tasks/tests.md)
 
 - Cross-check review: [Task 1](modules/tasks/class-components.md)
-- Mentor review: [Task 1](modules/tasks/class-components.md)
 
 #### Tests
 
