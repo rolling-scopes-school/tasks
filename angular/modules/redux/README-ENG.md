@@ -1,6 +1,6 @@
 # [Angular schedule.](../../README.md) Redux & NgRx
 
-## In this module,  you will learn:
+## In this module, you will learn:
 
 - What the `NgRx` library is and how it helps manage application state
 - Key NgRx concepts: `Store`, `Actions`, `Reducers`, `Selectors`
