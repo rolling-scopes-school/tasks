@@ -17,6 +17,7 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/r
 - HTTP
 - Forms
 - Redux & NgRx
+- Signals
 - Unit Testing
 
 ### Prerequisites:
