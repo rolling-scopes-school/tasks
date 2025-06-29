@@ -14,7 +14,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Course duration
 
-8 weeks are devoted to studying React and 4 more weeks to final task implementation. This course requires 20-40 hours per week.
+8 weeks are devoted to studying React and 3 more weeks to final task implementation. This course requires 20-40 hours per week.
 
 ## Course program
 
