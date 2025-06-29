@@ -26,5 +26,5 @@
 
 ## Дополнительные материалы
 
-1. https://webref.ru/course/css-basics - 4h
+1. [Основы CSS](https://webref.ru/course/css-basics) - 4h
 2. [Изучение селекторов посредством игры](https://flukeout.github.io/) - 1h
