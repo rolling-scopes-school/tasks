@@ -22,7 +22,7 @@
 
 ## Practical assignment
 
-- [Angular. Forms](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/forms.md)
+- TBD
 - Test: Angular test (Forms)
 
 ## Additional materials

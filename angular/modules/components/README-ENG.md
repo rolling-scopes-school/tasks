@@ -26,7 +26,7 @@
 
 ## Practical assignment
 
-- [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
+- TBD
 - Test: Angular test (Components)
 
 ## Additional materials

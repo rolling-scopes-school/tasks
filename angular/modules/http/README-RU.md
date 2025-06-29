@@ -23,7 +23,7 @@
 
 ## Практическое задание
 
-- [Задание: Angular — HTTPClient](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
+- TBD
 
 ## Дополнительные материалы
 

@@ -20,7 +20,7 @@ Assignment - 1 hour
 
 ## Practical assignment
 
-- [Task: Angular — RxJS, Observables & HTTP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/rxjs-observables-http.md)
+- TBD
 - Test: Angular test (HTTP)
 
 ## Additional materials
