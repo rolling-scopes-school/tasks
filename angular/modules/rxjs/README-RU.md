@@ -34,7 +34,7 @@
 
 ## Практическое задание
 
-- [Задание: Angular — RxJS & Observables](../../../tasks/angular/rxjs-observables-http.md)
+- TBD
 
 ## Дополнительные материалы
 
