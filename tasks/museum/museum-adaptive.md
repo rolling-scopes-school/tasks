@@ -201,4 +201,3 @@
   - [Friday Live Coding. Part 5](https://youtu.be/ouZnGUefneQ)
   - [Репозиторий с кодом](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
   - [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
-
