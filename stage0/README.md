@@ -36,16 +36,16 @@
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 - Проект ["CV"](../tasks/cv/cv.md).
   - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
-- Проект ["Museum"](../tasks/museum/museum-stage1.md)
-  - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum-stage1.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
+  - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum.md)
 
 ### Неделя #4
 
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#1"](../tasks/museum/museum-stage1.md)
-- Проект ["Museum"](../tasks/museum/museum-stage1.md)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#1"](../tasks/museum/museum.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
   - ["Museum#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
@@ -53,7 +53,7 @@
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
 - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
-- Проект ["Museum"](../tasks/museum/museum-stage1.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
   - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
