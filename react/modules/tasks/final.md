@@ -441,21 +441,42 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Penalties
 
-- [ ] Vite/NextJS default favicon **-50 points**
-- [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
-- [ ] The presence of errors and warnings in the console **-20 points** for each
-- [ ] The presence in the console of the results of the console.log execution **-20 points** for each
-- [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
-- [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
-- [ ] Making commits after the deadline **-100 points**
-- [ ] Absence of tests **-250 points**
-- [ ] Test coverage below 80% **-100 points**
-- [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
-- [ ] Absence of linting **-150 points**
-- [ ] Absence of prettier **-100 points**
-- [ ] Absence of husky git hooks **-100 points**
-- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
-- [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
+- **1. TypeScript & Code Quality**
+
+  - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
+  - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
+
+- **2. Test Coverage**
+
+  - [ ] Statement coverage below 80% (≥70%): **-50 points**
+  - [ ] Statement coverage below 70% (≥50%): **-100 points**
+  - [ ] All coverage metrics below 50%: **-150 points**
+  - [ ] Absence of tests **-250 points**
+
+- **3. React Best Practices**
+
+  - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
+
+- **4. Console & Error Handling**
+
+  - [ ] The presence of errors and warnings in the console **-20 points** for each
+  - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
+  - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
+
+- **5. Development Tools**
+
+  - [ ] Absence of linting **-150 points**
+  - [ ] Absence of prettier **-100 points**
+  - [ ] Absence of husky git hooks **-100 points**
+
+- **6. UI/UX**
+
+  - [ ] Vite/NextJS default favicon **-50 points**
+
+- **7. Project Management**
+  - [ ] Making commits after the deadline **-100 points**
+  - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
+  - [ ] ⚠️ The administration reserves the right to apply penalties for the use of incorrect repository or branch names
 
 ## Sequence Diagram: User Journey and Analytics Flow
 

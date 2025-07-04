@@ -87,12 +87,22 @@ Non-successful response.
 
 ### Penalties
 
-- TypeScript isn't used: **-95 points**
-- Usage of _any_: **-20 points per each**
-- Usage of _ts-ignore_: **-20 points per each**
-- Direct DOM manipulations inside the React components: **-50 points per each**
-- React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
-- Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-- Usage of Redux or other state management libraries: **-100 points**
-- Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+- **1. TypeScript & Code Quality**
+
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+
+- **2. React Best Practices**
+
+  - Direct DOM manipulations inside the React components: **-50 points per each**
+  - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
+
+- **3. External Dependencies**
+
+  - Usage of Redux or other state management libraries: **-100 points**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **4. Project Management**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
