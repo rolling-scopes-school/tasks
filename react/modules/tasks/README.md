@@ -1,6 +1,6 @@
 # General requirements for all the tasks
 
-Those requireminets are applied to all the tasks, if not provided in the task explicitly
+Those requirements are applied to all the tasks, if not provided in the task explicitly
 
 ## Questions
 
