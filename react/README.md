@@ -22,6 +22,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Theory
 
+- [RS School Documentation](https://rs.school/docs/en)
 - [History of React](modules/react-evolution/)
 - [Vite with React and the TypeScript](modules/react-setup-env/)
 - [Class Components](modules/class-component/)
@@ -30,6 +31,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 #### Practical tasks
 
 [Task 1](modules/tasks/class-components.md)
+
+- [General requirements for all tasks](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/README.md#general-requirements-for-all-the-tasks)
 
 #### Tests
 
