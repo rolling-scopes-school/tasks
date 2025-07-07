@@ -32,6 +32,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 1](modules/tasks/class-components.md)
 
+- [General requirements for all tasks](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/README.md#general-requirements-for-all-the-tasks)
+
 #### Tests
 
 - Test 0. How to learn in RS School
