@@ -107,9 +107,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Rendering Tests**:
   - Displays item name and description correctly
   - Handles missing props gracefully
-- **Interaction Tests**:
-  - Calls onClick handler when card is clicked
-  - Passes correct item data to click handler
 
 ### 4. Loading Component Tests
 
@@ -168,7 +165,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
 - **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
 - **Results/CardList Component Tests** (rendering, data display, loading states) - **15 points**
-- **Card Component Tests** (rendering, click interactions) - **15 points**
+- **Card Component Tests** (rendering) - **15 points**
 - **Error Boundary Tests** (error catching, fallback UI, test error button) - **15 points**
 - **API Integration Tests** (mocked API calls, success/error handling) - **15 points**
 - **Husky Pre-push Hook** (tests run automatically before push) - **5 points**
