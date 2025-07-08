@@ -33,7 +33,6 @@ Assignment - 2 hours
 - [Overview: Dependency Injection](https://angular.dev/guide/di)
 - [Creating an Injectable Service](https://angular.dev/guide/di/creating-injectable-service)
 - [Learn DI (Inject-based)](https://angular.dev/tutorials/learn-angular/20-inject-based-di)
-- [Angular Roadmap (roadmap.sh)](https://roadmap.sh/angular)
 - [Project Structure Best Practices (YouTube)](https://www.youtube.com/watch?v=mJGg7LWmVeU)
 - [useValue, useClass, useExisting, useFactory — in a nutshell](https://medium.com/@matsal.dev/angular-usevalue-useclass-useexisting-and-usefactory-in-a-nutshell-97db8d206084)
 - [Complete Guide to Angular Dependency Injection (Angular University)](https://blog.angular-university.io/angular-dependency-injection/)

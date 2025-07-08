@@ -2,7 +2,7 @@
 
 ## In this module, you will learn:
 
-- How to use the HttpClient service in Angular (with provideHttpClient() – the standalone approach)
+- How to use the HttpClient service in Angular
 - Legacy approach: providing HttpClient via HttpClientModule (deprecated)
 - What the `HttpEvent` object is and how to work with HTTP events
 - How to intercept HTTP requests using an `HTTP Interceptor`

@@ -4,7 +4,7 @@
 
 - The basics of `Directives`: understanding structural and attribute directives, the directive composition API, and built-in directives.
 - How to create custom `Directives`.
-- How to use directive-related decorators like @Directive, @HostListener, and @HostBinding to implement user interaction.
+- How to use directive-related decorators like @Directive, @HostListener, @HostBinding, and the `host` property to implement user interaction.
 - The fundamentals of `Pipes`: parameters, chaining, and the difference between pure and impure pipes.
 - How to create custom `Pipes`.
 - The new control flow syntax (`@if`, `@for`) introduced in Angular 17+.

@@ -28,3 +28,6 @@ Practice - 4 hours
 ## Additional materials
 
 - [Testing Angular – Comprehensive guide](https://testing-angular.com/)
+- [Testing](https://angular.dev/guide/testing)
+- [Integrate Jest into an angular application](https://timdeschryver.dev/blog/integrate-jest-into-an-angular-application-and-library)
+- [Testing NgRx](https://ngrx.io/guide/store/testing)

@@ -33,3 +33,6 @@ Assignment - 2 hours
 - [Docs: Angular Overview](https://angular.dev/overview)
 - [Docs: Angular CLI](https://angular.dev/tools/cli)
 - [EN: TypeScript Tutorial by Net Ninja (YouTube)](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
+- [Angular Roadmap (roadmap.sh)](https://roadmap.sh/angular)
+- [LLM prompts and AI IDE setup](https://angular.dev/ai/develop-with-ai)
+- [Angular coding style guide](https://angular.dev/style-guide)
