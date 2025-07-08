@@ -5,8 +5,8 @@
 - The basics of working with `Forms` in Angular
 - The difference between `Template-driven` and `Reactive` forms
 - How to create and use both types of forms
-- The concept of validators in Angular and how to use built-in and custom ones
-- How to create custom validators
+- How to simplify form creation using `FormBuilder`
+- How to use validators in Angular: built-in and custom
 
 ## Approximate time to complete this module:
 

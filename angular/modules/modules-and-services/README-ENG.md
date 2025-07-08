@@ -6,7 +6,7 @@
 
 - What Angular modules are, how to use them, and their role in application architecture
 - The difference between `CoreModule` and `SharedModule`, and when to use them
-- UHow `Services` work and how to create and inject them
+- How `Services` work and how to create and use them
 - What `Dependency injection (DI)` is and how to apply it in practice
 
 ## Approximate time to complete this module:
