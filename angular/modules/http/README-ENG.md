@@ -8,7 +8,7 @@
 - How to intercept HTTP requests using an `HTTP Interceptor`
 
 > ⚠️ Note: Starting from Angular 16, the preferred way to provide the HttpClient service is via the provideHttpClient() function.
-The older HttpClientModule can still be mentioned for compatibility and legacy code understanding.
+> The older HttpClientModule can still be mentioned for compatibility and legacy code understanding.
 
 ## Approximate time to complete this module:
 

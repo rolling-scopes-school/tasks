@@ -26,7 +26,6 @@ Assignment - 3 hours
 - [Structural Directives - Part 2](https://www.youtube.com/watch?v=zpVVHI21TAo)
 - [Directive Composition API](https://angular.love/work-smart-not-hard-use-directive-composition-api)
 
-
 ## Practical assignment
 
 - TBD
