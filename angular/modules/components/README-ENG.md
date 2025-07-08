@@ -5,7 +5,7 @@
 - How Angular applications are structured.
 - What are `Components` and Templates?
 - Data binding: one-way and two-way.
-- `Component` lifecycle methods.
+- `Component` lifecycle hooks.
 - How to create and use `Components` in practice.
 - Introduction to `Standalone Components`: how to create, use, and understand their benefits.
 
