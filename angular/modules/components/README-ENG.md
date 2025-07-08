@@ -7,7 +7,7 @@
 - Data binding: one-way and two-way.
 - `Component` lifecycle hooks.
 - How to create and use `Components` in practice.
-- Introduction to `Standalone Components`: how to create, use, and understand their benefits.
+- Introduction to `Standalone Components`: how to create, use, and benefit from them.
 
 ## Approximate time to complete this module:
 
