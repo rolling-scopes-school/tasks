@@ -5,7 +5,7 @@
 - The basics of working with `Forms` in Angular
 - The difference between `Template-driven` and `Reactive` forms
 - How to create and use both types of forms
-- The role of built-in validators and how to use them
+- The concept of validators in Angular and how to use built-in and custom ones
 - How to create custom validators
 
 ## Approximate time to complete this module:
@@ -18,7 +18,7 @@
 - [Lecture: Angular Forms](https://youtu.be/I_1fm5wx7_4)
 - [Video overview](https://www.youtube.com/watch?v=kWbk-dOJaNQ&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=7)
 - [TODO list management app (forms example)](https://github.com/pavelrazuvalau/todo-list-management/tree/8ffdd73876c299e02fe3a392ab2c0870da9b44ab)
-- [Slides: Angular Forms](https://slides.com/pavelrazuvalau/angular-forms)
+- [Building Custom Form Controls in Angular (Article)](https://blog.angular-university.io/angular-custom-form-controls/)
 
 ## Practical assignment
 

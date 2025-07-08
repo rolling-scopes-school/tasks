@@ -2,10 +2,10 @@
 
 ## In this module, you will learn:
 
-- What the `NgRx` library is and how it helps manage application state
-- Key NgRx concepts: `Store`, `Actions`, `Reducers`, `Selectors`
+- What the `NgRx` library is and how it helps manage application state.
+- Key NgRx concepts: `Store`, `Actions`, `Reducers`, `Selectors`.
 - How to handle side effects using `Effects`.
-- The benefits and trade-offs of using `NgRx` in large-scale Angular applications
+- The benefits and trade-offs of using `NgRx` and the alternative `Signals Store` in large-scale Angular applications.
 
 ## Approximate time to complete this module:
 
@@ -17,6 +17,7 @@ Assignment - 8 hours
 - [Lecture: Introduction to NgRx](https://youtu.be/cW33_Zadfew)
 - [TODO list management app with NgRx](https://github.com/pavelrazuvalau/todo-list-management/tree/65fd4112292fa2c8a10597587bcd371b7e617fed)
 - [Slides: NgRx in Angular](https://slides.com/pavelrazuvalau/angular-ngrx)
+- [NgRx Signal Store](https://ngrx.io/guide/signals/signal-store)
 
 ### Supplements (required)
 

@@ -6,7 +6,7 @@
 - How to use the `RouterOutlet` directive
 - How to configure multiple routes and pass route parameters
 - What `Router guards` are and how to use them
-- How to implement lazy (asynchronous) loading for modules and components
+- How to implement lazy loading for modules and components
 
 ## Approximate time to complete this module:
 
@@ -20,6 +20,7 @@ Assignment - 1 hour
 - [Examples from the lecture](https://github.com/anjx/angular-lectures/tree/master/angular-routing)
 - [TODO list management app with routing](https://github.com/pavelrazuvalau/todo-list-management/tree/9c36d584cb393ec6bf860ec34dba1e3c4b9aa6fd)
 - [Slides: Angular Routing](https://slides.com/pavelrazuvalau/angular-routing)
+- [Enhancing Angular’s route redirection logic: introducing redirectFunction](https://medium.com/netanelbasal/enhancing-angulars-route-redirection-logic-introducing-redirectfunction-245a45add387)
 
 ## Practical assignment
 

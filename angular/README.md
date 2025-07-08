@@ -10,6 +10,7 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/r
 
 - TypeScript
 - Components, Standalone Components
+- Signals
 - Directives & Pipes
 - Modules, Services, Dependency Injection
 - Routing
@@ -17,7 +18,6 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/r
 - HTTP
 - Forms
 - Redux & NgRx
-- Signals
 - Unit Testing
 
 ### Prerequisites:

@@ -13,6 +13,7 @@
 Theory - 5 hours
 
 ## Theory
+- [Angular Signals: reactive context and dynamic dependency tracking](https://medium.com/@eugeniyoz/angular-signals-reactive-context-and-dynamic-dependency-tracking-d2d6100568b0)
 
 - Benefits of using signals
   - `Asynchronicity` – Signals simplify handling of asynchronous operations like user interactions or server requests

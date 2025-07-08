@@ -31,4 +31,4 @@
 - [Обзор форм в Angular](https://angdev.ru/angular/forms-overview/)
 - [Реактивные формы](https://angdev.ru/angular/reactive-forms/)
 - [Angular University: шаблонные и реактивные формы (EN)](https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/)
-- [Динамические формы](https://angdev.ru/angular/dynamic-form/)
+- [Динамические формы](https://angular.dev/guide/forms/dynamic-forms)

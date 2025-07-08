@@ -17,6 +17,7 @@ Assignment - 8 hours
 - [Lecture: Introduction to RxJS](https://youtu.be/fkmbA1LXAak)
 - [Examples from the lecture](https://github.com/pavelrazuvalau/angular-lectures/tree/master/rxjs-observables)
 - [Slides: Angular & RxJS](https://slides.com/pavelrazuvalau/angular-rxjs)
+- [Why you have to unsubscribe from Observable](https://medium.com/angular-in-depth/why-you-have-to-unsubscribe-from-observable-92502d5639d0)
 
 ### Supplements (required):
 

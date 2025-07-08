@@ -20,6 +20,8 @@ Assignment - 2 hours
 - [Video overview](https://www.youtube.com/watch?v=-jRxG84AzCI&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=6)
 - [TODO list management app (with modules/services)](https://github.com/pavelrazuvalau/todo-list-management/tree/c431689f6a2c0eedf93ff760b30ee237f2c2e012)
 - [Slides (up to HTTP section)](https://slides.com/pavelrazuvalau/angular-modules-services-http)
+- [Angular: providers in Directives. Things you need to know](https://medium.com/@IgorPak-dev/angular-providers-in-directives-things-you-need-to-know-b07ae671e3bc)
+- [Understanding Angular Injection Context](https://medium.com/netanelbasal/understanding-angular-injection-context-18a0780ede2d)
 
 ## Practical assignment
 
