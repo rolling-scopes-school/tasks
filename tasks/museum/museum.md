@@ -25,6 +25,9 @@
 [Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
 [Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)  
 [Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)
+[Советы по выполнению задания. Часть 1 #1](museum-hints.md)
+[Советы по выполнению задания. Часть 1 #2](museum-hints-advanced.md)
+[Советы по выполнению задания. Часть 2](museum-hints-adaptive.md)
 
 ## Создание собственной копии макета:
 
@@ -108,9 +111,37 @@
 
 ## Материалы
 
-- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
-- [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
-- [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+1. Работа в Figma
+   - [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
+   - [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
+   - [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+2. Адаптивная верстка
+   - [Верстка сайта с нуля для начинающих | Адаптивная верстка](https://youtu.be/rc5Iauhat8s)
+3. Качество кода
+   - [Как писать чистый код: обзор лучших практик JavaScript](https://techrocks.ru/2019/08/27/writing-clean-code-in-javascript/)
+   - [Пишем чистый и масштабируемый JavaScript-код](https://habr.com/ru/company/ruvds/blog/452562/)
+   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
+4. Создание собственного слайдера
+   - [Swiper & Slider Examples (carousel live coding)](https://youtu.be/rkz6LURkbBw) - [код](https://www.dropbox.com/s/0g5c0qz69keig6s/carusel-swiper.zip?dl=0)
+   - [Делаем слайдер на чистом JavaScript с нуля](https://youtu.be/K3E1OfQuJ0Q) - [код и демо](https://github.com/Eremeow138/wayup-slider-js)
+   - [Infinite pure Javascript slider](https://medium.com/@claudiaconceic/infinite-plain-javascript-slider-click-and-touch-events-540c8bd174f2) - [код и демо](https://codepen.io/cconceicao/pen/PBQawy)
+5. Библиотеки для создания слайдера
+   - [Tiny Slider](http://ganlanyuan.github.io/tiny-slider/demo/) - [Документация](https://github.com/ganlanyuan/tiny-slider#tiny-slider-2)
+   - [Swiper](https://swiperjs.com/demos) - [Документация](https://swiperjs.com/swiper-api)
+   - [Slick Slider](https://kenwheeler.github.io/slick/) - [Документация](https://github.com/kenwheeler/slick#slick)
+6. Кастомный видеоплеер
+   - [Custom HTML5 Video Player](https://youtu.be/yx-HYerClEA)
+7. Слайдер сравнения изображений
+   - [Как сделать - Ползунок сравнения изображений](https://html5css.ru/howto/howto_js_image_comparison.php)
+8. Анимация при прокрутке
+   - [Slide In on Scroll](https://youtu.be/uzRsENVD3W8)
+9. Sass
+   - [Документация на русском](https://sass-scss.ru/)
+   - [Более полная документация на английском]( https://sass-lang.com/)
+10. Webpack
+   - [Webpack JS/FE 2021Q1 [RU]](https://www.youtube.com/watch?v=bozzyi8Tok0)
+   - [Документация](https://webpack.js.org/concepts/)
+   - [Сборка для студентов](https://www.npmjs.com/package/create-rss-app)
 
 ## Вебинары RS School
 
@@ -131,3 +162,4 @@
   - [Friday Live Coding. Part 5](https://youtu.be/ouZnGUefneQ)
   - [Репозиторий с кодом](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
   - [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
+  - [Preprocessors. SASS](https://www.youtube.com/watch?v=JO8DvVZbxDw)

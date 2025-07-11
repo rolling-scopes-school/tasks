@@ -24,12 +24,8 @@
 - вёрстка и стилизация интерактивных элементов интерфейса (кнопки, ссылки, переключатели)
 - вёрстка и стилизация форм
 
-<kbd>[![screenshot](../images/museum1-prev.jpg)](https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/images/museum1.jpg)</kbd>
-
-[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
-[Советы по выполнению задания. Часть 1 #1](museum-hints.md)  
-[Советы по выполнению задания. Часть 1 #2](museum-hints-stage1.md)  
-[Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)  
+[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)
+[Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)
 [Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)
 
 ## Структура макета:
@@ -66,7 +62,7 @@
 
 ## Критерии оценки
 
-**Максимальный балл за задание – 160 баллов**
+**Максимальный балл за задание – 150 баллов**
 
 Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
 

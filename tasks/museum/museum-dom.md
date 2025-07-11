@@ -62,7 +62,11 @@
 - [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
-## Функционал приложения
+## Критерии оценки
+
+**Максимальный балл за задание +150**
+
+Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
 
 1. Слайдер в секции `Welcome` +24
 
@@ -159,14 +163,6 @@
 
 10. Любой собственный дополнительный функционал, улучшающий качество проекта. Например, ночная тема, плавная смена изображений в блоке `Tickets`, всплывающее окно с информацией про картины и их авторов, кнопка прокрутки страницы вверх, возможность проголосовать за понравившиеся картины с сохранением данных в local storage, всё зависит от вашей фантазии и чувства вкуса. Для удобства проверки выполненный вами дополнительный функционал включите в самооценку, которую выведите в консоль браузера +10
 
-## Критерии оценки
-
-**Максимальный балл за задание +150**
-
-Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
-
-Баллы за отдельные пункты требований указаны в разделе ["Функционал приложения"](#функционал-приложения)
-
 Разница между максимальной оценкой за приложение (150 баллов) и максимально возможным количеством баллов за выполнение всех пунктов требований (160 баллов) позволит сгладить возможные ошибки проверяющих в ходе кросс-чека, неточности в описании задания, разное понимание требований задания проверяющим и проверяемым.
 
 ## Как сабмитить задание
@@ -179,24 +175,3 @@
 
 - задание будет проверяться посредством кросс-чека.
 - инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
-
-## Материалы
-
-1. Качество кода
-   - [Как писать чистый код: обзор лучших практик JavaScript](https://techrocks.ru/2019/08/27/writing-clean-code-in-javascript/)
-   - [Пишем чистый и масштабируемый JavaScript-код](https://habr.com/ru/company/ruvds/blog/452562/)
-   - [Рекомендации по написанию чистого кода на JavaScript](https://habr.com/ru/company/ruvds/blog/454520/)
-2. Создание собственного слайдера
-   - [Swiper & Slider Examples (carousel live coding)](https://youtu.be/rkz6LURkbBw) - [код](https://www.dropbox.com/s/0g5c0qz69keig6s/carusel-swiper.zip?dl=0)
-   - [Делаем слайдер на чистом JavaScript с нуля](https://youtu.be/K3E1OfQuJ0Q) - [код и демо](https://github.com/Eremeow138/wayup-slider-js)
-   - [Infinite pure Javascript slider](https://medium.com/@claudiaconceic/infinite-plain-javascript-slider-click-and-touch-events-540c8bd174f2) - [код и демо](https://codepen.io/cconceicao/pen/PBQawy)
-3. Библиотеки для создания слайдера
-   - [Tiny Slider](http://ganlanyuan.github.io/tiny-slider/demo/) - [Документация](https://github.com/ganlanyuan/tiny-slider#tiny-slider-2)
-   - [Swiper](https://swiperjs.com/demos) - [Документация](https://swiperjs.com/swiper-api)
-   - [Slick Slider](https://kenwheeler.github.io/slick/) - [Документация](https://github.com/kenwheeler/slick#slick)
-4. Кастомный видеоплеер
-   - [Custom HTML5 Video Player](https://youtu.be/yx-HYerClEA)
-5. Слайдер сравнения изображений
-   - [Как сделать - Ползунок сравнения изображений](https://html5css.ru/howto/howto_js_image_comparison.php)
-6. Анимация при прокрутке
-   - [Slide In on Scroll](https://youtu.be/uzRsENVD3W8)
