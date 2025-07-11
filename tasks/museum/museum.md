@@ -139,10 +139,9 @@
    - [Документация на русском](https://sass-scss.ru/)
    - [Более полная документация на английском](https://sass-lang.com/)
 10. Webpack
-
-- [Webpack JS/FE 2021Q1 [RU]](https://www.youtube.com/watch?v=bozzyi8Tok0)
-- [Документация](https://webpack.js.org/concepts/)
-- [Сборка для студентов](https://www.npmjs.com/package/create-rss-app)
+   - [Webpack JS/FE 2021Q1 [RU]](https://www.youtube.com/watch?v=bozzyi8Tok0)
+   - [Документация](https://webpack.js.org/concepts/)
+   - [Сборка для студентов](https://www.npmjs.com/package/create-rss-app)
 
 ## Вебинары RS School
 
