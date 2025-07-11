@@ -20,7 +20,7 @@
 - использование для адаптации верстки flexbox и/или grid, функции calc(), css-переменных
 - рефакторинг кода
 
-[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
+[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)
 
 ## Структура макета:
 
