@@ -5,7 +5,7 @@
 Smart Home UI is an application for monitoring and controlling smart devices within a home environment. It offers a structured and interactive layout that allows users to:
 
 - Monitor temperature, humidity, weather conditions, electricity usage, and other sensor data
-- Control lights, sockets, relays, and switches  
+- Control lights, sockets, relays, and switches
 - View a unified dashboard composed of device and sensor cards grouped by rooms or functional areas
 
 The interface adapts to various room configurations and device combinations, providing a flexible and user-friendly experience.
@@ -99,9 +99,9 @@ The device component should receive a data object like:
 }
 ```
 
-- In **single-device cards**, the icon acts as a toggle  
-- In **multi-device cards**, use a **switch element** to control device state  
-- The icon should visually reflect the device’s current state (ON/OFF)  
+- In **single-device cards**, the icon acts as a toggle
+- In **multi-device cards**, use a **switch element** to control device state
+- The icon should visually reflect the device’s current state (ON/OFF)
 - You may use icons from **Angular Material** or any other icon set
 
 #### Sensor
@@ -147,35 +147,35 @@ Additional custom pipes are encouraged but optional. It may include transforming
 
 ### Getting Started — 30 points
 
-- Project is initialized and structured — 5  
-- ESLint is configured with AirBnB style guide — 5  
-- Models are created based on the mock data — 5  
-- Components are generated according to the **Components structure** section — 5  
-- HTML layout is implemented: sidebar, tab switcher, and dashboard container — 5  
+- Project is initialized and structured — 5
+- ESLint is configured with AirBnB style guide — 5
+- Models are created based on the mock data — 5
+- Components are generated according to the **Components structure** section — 5
+- HTML layout is implemented: sidebar, tab switcher, and dashboard container — 5
 - Sidebar is responsive: static and always visible on desktop, collapsible with toggle icon on tablet/mobile and hidden by default — 5
 
 ### Components — 40 points
 
-- Card list and individual cards are implemented as separate components and interact via Input/Output; card lists are displayed in separate tabs — 5  
-- Group toggle is implemented and stays synchronized with device states — 5  
-- Devices are rendered using a shared component with icon, label, and state; includes correct interaction logic for single and multi-device cards; icon and switch reflect device state — 15  
+- Card list and individual cards are implemented as separate components and interact via Input/Output; card lists are displayed in separate tabs — 5
+- Group toggle is implemented and stays synchronized with device states — 5
+- Devices are rendered using a shared component with icon, label, and state; includes correct interaction logic for single and multi-device cards; icon and switch reflect device state — 15
 - Sensors are rendered using a shared component with icon, label, and value; sensor value is formatted from an object with amount and unit — 15
 
 ### Custom logic — 30 points
 
-- At least one custom directive is implemented and used (e.g., highlight active devices or cards) — 15  
+- At least one custom directive is implemented and used (e.g., highlight active devices or cards) — 15
 - At least one custom pipe is implemented and used to format sensor values — 15
 
 ## Penalties
 
-- App fails to build or has console errors — −30  
-- Component structure significantly deviates from described architecture — −15  
-- No custom directive is implemented — −15  
-- No custom pipe is implemented — −15  
-- ESLint warnings or errors are present — −10  
-- Using the `any` type in TypeScript — −10  
-- Mandatory flag `strict: true` is not set in the TypeScript configuration file — −10  
-- The ESLint configuration file does not include the `no-explicit-any` rule — −5  
-- Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` — −5  
-- Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements) — −5  
+- App fails to build or has console errors — −30
+- Component structure significantly deviates from described architecture — −15
+- No custom directive is implemented — −15
+- No custom pipe is implemented — −15
+- ESLint warnings or errors are present — −10
+- Using the `any` type in TypeScript — −10
+- Mandatory flag `strict: true` is not set in the TypeScript configuration file — −10
+- The ESLint configuration file does not include the `no-explicit-any` rule — −5
+- Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` — −5
+- Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements) — −5
 - Failure to submit on time may lead to points loss according to the [Deadlines for Students requirements](https://rs.school/docs/en/pull-request-review-process#deadlines-for-students)
