@@ -143,7 +143,10 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 ### 7. API Integration Tests
 
 - **Mocked API Calls**:
-  - Use `jest.mock` or `vi.mock` to mock API calls
+  - Use `jest.mock`, or `vi.mock`, or `MSW` to mock API calls
+    - [Jest Mock Functions](https://jestjs.io/docs/mock-functions)
+    - [Vitest Mocking](https://vitest.dev/guide/mocking)
+    - [Mock Service Worker](https://mswjs.io/docs)
   - Test both success and error scenarios
 
 ### 8. Setup
