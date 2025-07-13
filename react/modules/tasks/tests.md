@@ -184,7 +184,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
-  - Test coverage include test for App.tsx: **-50 points**
 
 - **3. React Best Practices**
 
