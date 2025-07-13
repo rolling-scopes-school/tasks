@@ -20,7 +20,8 @@ The interface adapts to various room configurations and device combinations, pro
   - You are free to choose either **Standalone components** or **NgModules**
   - Your choice of architecture will **not affect your score**
 - It's highly recommended to use **SCSS** as the default stylesheet format
-- Migrate the Angular application to ESLint and configure rules from the [AirBnB style guide](https://github.com/airbnb/javascript)
+- Migrate the Angular application to ESLint
+  - **Instead of Airbnb**, use the [Unicorn ESLint plugin](https://github.com/sindresorhus/eslint-plugin-unicorn), which was already used in Stage 2 and is known to work reliably with ESLint 9+
 - Generate all the necessary components using `ng-cli`
 - Use mock data to define the initial dashboard content. Based on this data:
   - Create interfaces/models for card types, devices, and sensors
@@ -148,7 +149,7 @@ Additional custom pipes are encouraged but optional. It may include transforming
 ### Getting Started — 30 points
 
 - Project is initialized and structured — 5
-- ESLint is configured with AirBnB style guide — 5
+- ESLint is configured with the **Unicorn plugin** — 5
 - Models are created based on the mock data — 5
 - Components are generated according to the **Components structure** section — 5
 - HTML layout is implemented: sidebar, tab switcher, and dashboard container — 5
