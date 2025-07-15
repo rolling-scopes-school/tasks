@@ -24,8 +24,8 @@
 - вёрстка и стилизация интерактивных элементов интерфейса (кнопки, ссылки, переключатели)
 - вёрстка и стилизация форм
 
-[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)
-[Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)
+[Макет Museum](https://www.figma.com/file/xkP6mIaq7uG1Uru7CpasXq/Museum-04.09)  
+[Папка assets с изображениями и видео](https://github.com/rolling-scopes-school/stage1-tasks/tree/museum)  
 [Используемые в макете ссылки](https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/README.md)
 
 ## Структура макета:
