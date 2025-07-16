@@ -2,7 +2,7 @@
 
 ## 🧠 Task Description
 
-In this task, your goal is to write comprehensive unit tests for the class components implemented during **Week 1 - Class components**. This task focuses exclusively on testing without any refactoring. You are **not allowed to modify, refactor, or convert components** to functional ones at this stage.
+In this task, your goal is to write comprehensive unit tests for the class components created during **Week 1 - Class components**. The primary focus here is on testing, so it’s recommended to avoid modifying or refactoring the components this week. **Pay attention**: you are **not allowed to convert components** to functional ones at this stage.
 
 You must use **Jest** or **Vitest** as the test runner and **React Testing Library (RTL)** for component testing to cover the key behaviors, rendering logic, and user interactions of your components.
 
@@ -163,7 +163,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ## Points Distribution
 
-### Student can get 100 points:
+### Student can get 100 points
 
 - **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
 - **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
