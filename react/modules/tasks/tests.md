@@ -161,7 +161,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
 
-## Points Distribution:
+## Points Distribution
 
 ### Student can get 100 points
 
