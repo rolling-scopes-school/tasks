@@ -65,7 +65,8 @@ A student can achieve a maximum of 100 points.
   - initiate an additional API call, display a loader, and update the URL - **10**
   - Details panel should be closed either on the "close" button click or on the main panel click - **10**
 - about page is implemented with author information and a link to the RS School React course - **5**
-- new tests are added for the new functionality - **20**
+- 404 is implemented - **5**
+- new tests are added for the new functionality - **15**
 
 ### Penalties
 
