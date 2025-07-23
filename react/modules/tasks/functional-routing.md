@@ -61,11 +61,12 @@ A student can achieve a maximum of 100 points.
 - Custom hook to restore search query from LS - **20**
 - Pagination is present in both URL and on the page - **20**
 - Upon clicking, open details panel on the right side of the page: - **5**
-  - use router outlet, left side of the page should continue displaying the list of results - **10**
-  - initiate an additional API call, display a loader, and update the URL - **10**
+  - Use router outlet, left side of the page should continue displaying the list of results - **10**
+  - Initiate an additional API call, display a loader, and update the URL - **10**
   - Details panel should be closed either on the "close" button click or on the main panel click - **10**
-- about page is implemented with author information and a link to the RS School React course - **5**
-- new tests are added for the new functionality - **20**
+- About page is implemented with author information and a link to the RS School React course - **5**
+- 404 is implemented - **5**
+- New tests are added for the new functionality - **15**
 
 ### Penalties
 
