@@ -30,7 +30,13 @@ The **Sidebar** is a global component included in the application layout. It sho
   - Redirect to `/login`
 - You may use multiple interceptors to organize logic separately if needed
 
-## API Endpoints
+### Backend Integration
+
+You can find backend setup and API usage instructions here:
+
+[Smart Home API](https://github.com/pavelrazuvalau/smart-home-json-server)
+
+### API Endpoints
 
 - `POST /api/user/login`  
   Body:
@@ -132,6 +138,8 @@ The **Sidebar** is a global component included in the application layout. It sho
 
 ## Login Flow
 
+![Login](./login.png)
+
 - On app start:
 
   - If a token is present in `localStorage`, call `GET /api/profile`
@@ -213,9 +221,3 @@ If the backend returns an empty dashboards list, display a message like "You don
 - Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` - **-5**
 - Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements) - **-5**
 - Failure to submit on time may lead to points loss according to the [Deadlines for Students requirements](https://rs.school/docs/en/pull-request-review-process#deadlines-for-students)
-
-## Backend Instructions
-
-You can find backend setup and API usage instructions here:
-
-[Smart Home API](https://github.com/pavelrazuvalau/smart-home-json-server)
