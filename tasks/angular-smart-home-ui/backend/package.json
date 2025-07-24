@@ -1,0 +1,16 @@
+{
+  "name": "shart-home-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "json-server": "^0.17.4",
+    "lodash": "^4.17.21"
+  }
+}

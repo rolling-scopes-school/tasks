@@ -1,0 +1,396 @@
+{
+  "dashboards": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "icon": "home",
+      "tabs": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "cards": [
+            {
+              "id": "balcony-weather",
+              "title": "Balcony",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "thermostat",
+                  "label": "Temperature",
+                  "value": {
+                    "amount": 18.5,
+                    "unit": "\u00b0C"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "water_drop",
+                  "label": "Humidity",
+                  "value": {
+                    "amount": 72,
+                    "unit": "%"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "cloud",
+                  "label": "Weather",
+                  "value": {
+                    "amount": 1,
+                    "unit": "clear"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "indoor-rooms",
+              "title": "Rooms",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "co2",
+                  "label": "CO2 Sensor",
+                  "value": {
+                    "amount": 520,
+                    "unit": "ppm"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "water_drop",
+                  "label": "Humidity",
+                  "value": {
+                    "amount": 45,
+                    "unit": "%"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bathroom-motion",
+              "title": "Bathroom",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "motion_photos_on",
+                  "label": "Motion Sensor",
+                  "value": {
+                    "amount": 1,
+                    "unit": "detected"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "living-room-mixed",
+              "title": "Living Room",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Floor Lamp",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "power",
+                  "label": "TV Socket",
+                  "state": false
+                },
+                {
+                  "type": "sensor",
+                  "icon": "thermostat",
+                  "label": "Temperature",
+                  "value": {
+                    "amount": 23.5,
+                    "unit": "\u00b0C"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "co2",
+                  "label": "CO2 Sensor",
+                  "value": {
+                    "amount": 610,
+                    "unit": "ppm"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lights",
+          "title": "Lights",
+          "cards": [
+            {
+              "id": "kitchen-light",
+              "title": "Kitchen",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Ceiling Light",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "corridor-light",
+              "title": "Corridor",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Ceiling Light",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "living-room-light",
+              "title": "Living Room",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Chandelier",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "bedroom-light",
+              "title": "Bedroom",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Main Light",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "bathroom-light",
+              "title": "Bathroom",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "lightbulb",
+                  "label": "Ceiling Light",
+                  "state": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "title": "Electricity",
+      "icon": "bolt",
+      "tabs": [
+        {
+          "id": "usage",
+          "title": "Current Usage",
+          "cards": [
+            {
+              "id": "meter-status",
+              "title": "Electric Meter",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "flash_on",
+                  "label": "Total Usage",
+                  "value": {
+                    "amount": 2.5,
+                    "unit": "kWh"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "access_time",
+                  "label": "Peak Hour",
+                  "value": {
+                    "amount": 1,
+                    "unit": "true"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "usage-breakdown",
+              "title": "Appliance Breakdown",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "tv",
+                  "label": "TV",
+                  "value": {
+                    "amount": 0.8,
+                    "unit": "kWh"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "kitchen",
+                  "label": "Microwave",
+                  "value": {
+                    "amount": 0.5,
+                    "unit": "kWh"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "heat_pump",
+                  "label": "Heater",
+                  "value": {
+                    "amount": 1.2,
+                    "unit": "kWh"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "Climate",
+      "icon": "device_thermostat",
+      "tabs": [
+        {
+          "id": "inside",
+          "title": "Indoor",
+          "cards": [
+            {
+              "id": "climate-bedroom",
+              "title": "Bedroom",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "thermostat",
+                  "label": "Temperature",
+                  "value": {
+                    "amount": 21.0,
+                    "unit": "°C"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "water_drop",
+                  "label": "Humidity",
+                  "value": {
+                    "amount": 40,
+                    "unit": "%"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "climate-kitchen",
+              "title": "Kitchen",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "thermostat",
+                  "label": "Temperature",
+                  "value": {
+                    "amount": 22.8,
+                    "unit": "°C"
+                  }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "co2",
+                  "label": "CO2",
+                  "value": {
+                    "amount": 460,
+                    "unit": "ppm"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "icon": "shield",
+      "tabs": [
+        {
+          "id": "home-security",
+          "title": "Home",
+          "cards": [
+            {
+              "id": "entrance-door",
+              "title": "Entrance",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "door_front",
+                  "label": "Door Lock",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "camera-zone1",
+              "title": "Camera Zone 1",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "videocam",
+                  "label": "Camera Front",
+                  "state": true
+                },
+                {
+                  "type": "sensor",
+                  "icon": "motion_photos_on",
+                  "label": "Motion",
+                  "value": {
+                    "amount": 1,
+                    "unit": "detected"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "alarm-status",
+              "title": "Alarm",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "notifications_active",
+                  "label": "Main Alarm",
+                  "state": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "userName": "Warner",
+      "password": "ea",
+      "fullName": "Ines Lowe",
+      "initials": "IL",
+      "token": "58ebfdf7f1f558c5c86e17f6"
+    },
+    {
+      "userName": "Morales",
+      "password": "id",
+      "fullName": "Brock Beasley",
+      "initials": "BB",
+      "token": "58ebfdf7ec92657b493b24da"
+    },
+    {
+      "userName": "Dale",
+      "password": "consequat",
+      "fullName": "Aurelia Franks",
+      "initials": "AF",
+      "token": "58ebfdf772a49d09aeee10a8"
+    },
+    {
+      "userName": "Blackburn",
+      "password": "consectetur",
+      "fullName": "Serena Henson",
+      "initials": "SH",
+      "token": "58ebfdf7b2bab0bdb97711f4"
+    },
+    {
+      "userName": "Sparks",
+      "password": "consectetur",
+      "fullName": "Carlson Marsh",
+      "initials": "CM",
+      "token": "58ebfdf7279c92a711dc8918"
+    },
+    {
+      "userName": "Trujillo",
+      "password": "ut",
+      "fullName": "Rae Gonzales",
+      "initials": "RG",
+      "token": "58ebfdf72728b878deec25aa"
+    },
+    {
+      "userName": "Hobbs",
+      "password": "sit",
+      "fullName": "Dawson Bowen",
+      "initials": "DB",
+      "token": "58ebfdf7cdb7d7e179910a13"
+    },
+    {
+      "userName": "Lowe",
+      "password": "elit",
+      "fullName": "Haney Hill",
+      "initials": "HH",
+      "token": "58ebfdf7bf15103f01c22a77"
+    },
+    {
+      "userName": "Lolita",
+      "password": "ullamco",
+      "fullName": "Gilda Donaldson",
+      "initials": "GD",
+      "token": "58ebfdf743bcda131c777cd1"
+    },
+    {
+      "userName": "Olsen",
+      "password": "in",
+      "fullName": "Colleen Day",
+      "initials": "CD",
+      "token": "58ebfdf7a36d4ad36cc693f8"
+    }
+  ]
+}
