@@ -32,7 +32,7 @@ The **Sidebar** is a global component included in the application layout. It sho
 
 ## API Endpoints
 
-- `POST /api/login`  
+- `POST /api/user/login`  
   Body:
 
   ```json
@@ -45,7 +45,7 @@ The **Sidebar** is a global component included in the application layout. It sho
   { "token": "string" }
   ```
 
-- `GET /api/profile`  
+- `GET /api/user/profile`  
   Headers: `Authorization: Bearer ${token}`  
   Response:
 
@@ -213,3 +213,9 @@ If the backend returns an empty dashboards list, display a message like "You don
 - Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` - **-5**
 - Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements) - **-5**
 - Failure to submit on time may lead to points loss according to the [Deadlines for Students requirements](https://rs.school/docs/en/pull-request-review-process#deadlines-for-students)
+
+## Backend Instructions
+
+You can find backend setup and API usage instructions here:
+
+[Smart Home API](https://github.com/pavelrazuvalau/smart-home-json-server)
