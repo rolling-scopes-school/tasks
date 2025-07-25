@@ -76,7 +76,7 @@ A student can achieve a maximum of 100 points.
 
 - **3. React Best Practices**
 
-  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
+  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within useEffect/useLayoutEffect/useInsertionEffect hooks): **-50 points per each**
 
 - **4. External Dependencies**
 
