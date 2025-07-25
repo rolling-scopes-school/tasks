@@ -32,7 +32,7 @@ Focus on routing and functional components. Remove any button or functionality w
    - Show loading indicator while fetching details
    - Add close control for details section
    - The details part should be optional — by default, no item is selected when the page first loads
-   - Reflect page number and selected item in the URL (e.g., `/?page=2&details=1` or `/page/:detailsId`)
+   - Reflect page number and selected item in the URL (e.g., `/?page=2&details=1` or `/:page/:detailsId?`). Urls like `/1` or `/1/567` are valid.
 
 3. **About Page**:
    - Create an About page with application author information
