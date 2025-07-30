@@ -23,7 +23,6 @@ This task is a continuation of the state management task. In this task, you will
    - Data loading states should be visible to users (loading indicators)
    - Error states should be properly handled and displayed to users
    - The cached data should persist between page navigations
-   - Implement at least one optimistic update (e.g., when selecting/unselecting items)
 
 ## Technical Requirements
 
