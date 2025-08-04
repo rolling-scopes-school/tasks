@@ -51,6 +51,26 @@
 
 A student can achieve a maximum of 100 points.
 
+## FAQ (Frequently Asked Questions)
+
+### ❓ Can I manipulate DOM directly?
+
+Direct DOM manipulation is only allowed for toggling theme-related attributes on `document.documentElement` inside a `useEffect`. All other DOM manipulations inside React components are **prohibited** and will be penalized.
+
+### ❓ Do I need to use localStorage to remember the selected theme?
+
+Using the **Context API is mandatory** for implementing theme switching.  
+If you want to **persist the user's choice across sessions**, you may additionally use `localStorage`, but it is not required by default.
+
+### ❓ Do I need to persist selected items in localStorage?
+
+No. The selected items only need to persist in memory (application state) across page navigations within the session. There's no requirement to store them in localStorage or across reloads.
+
+### ❓ Can I use a library to download the .csv file?
+
+No. **Using any external libraries for downloading files is strictly prohibited.**  
+You must implement the download functionality using **native browser APIs** (e.g. `Blob`, `URL.createObjectURL`, `a.download`) without relying on third-party packages.
+
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
 - State management is properly implemented with either Redux Toolkit or Zustand - **35**
@@ -76,7 +96,7 @@ A student can achieve a maximum of 100 points.
 
 - **3. React Best Practices**
 
-  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within useEffect/useLayoutEffect/useInsertionEffect hooks): **-50 points per each**
+  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
 
 - **4. External Dependencies**
 
