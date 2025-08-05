@@ -129,8 +129,6 @@ Request Body:
 - `toggleDeviceState({ deviceId: string, newState: boolean })`  
   Effect sends `PATCH /api/devices/:deviceId`
 
----
-
 ## Functional Requirements
 
 ### Dashboard Creation
@@ -147,8 +145,6 @@ Request Body:
   - Reload dashboard list
   - Navigate to the created dashboard
 
----
-
 ### Dashboard Deletion
 
 - Dashboards should be deletable from the view or sidebar
@@ -157,8 +153,6 @@ Request Body:
   - Send `DELETE /api/dashboards/:id`
   - Reload dashboard list
   - Navigate to `/dashboard`
-
----
 
 ### Edit Mode
 
@@ -188,8 +182,6 @@ Request Body:
 - Add/remove items using list from `GET /api/devices`
 - No validation: duplicates and empty cards are allowed
 
----
-
 ### Device Toggle
 
 - Outside Edit Mode:
@@ -199,35 +191,37 @@ Request Body:
 
 ## Evaluation Criteria (100 points)
 
-### Forms & Validation - **25 points**
+### Forms & Validation - **10 points**
 
 - Dashboard creation form with required, max length, and uniqueness checks - **5**
 - Tab rename form with required, max length, and local uniqueness - **5**
-- Error messages and empty states displayed clearly - **5**
-- Discard restores state and exits Edit Mode - **5**
-- At least one Signal is used appropriately - **5**
 
-### NgRx State Management - **35 points**
+### NgRx State Management - **40 points**
 
 - Selected dashboard is stored and managed via NgRx - **10**
 - All tab/card/item updates go through store actions - **10**
 - Device toggle handled through separate actions/effects - **10**
-- No direct mutation - **5**
+- Dashboard state is restored correctly on discard - **10**
 
 ### Functionality - **40 points**
 
 - Dashboard creation and navigation works - **5**
-- Full tab/card editing and reorder logic - **15**
-- Reordering reflects immediately and persists on save - **5**
-- Deletion logic for dashboards/tabs/cards/items - **15**
+- Tab and card creation, and item addition (core add/edit logic) - **10**
+- Tab and card reordering works correctly with immediate visual feedback - **5**
+- Deletion logic for dashboards/tabs/cards/items - **5**
+- Card content can be modified (add/remove devices and sensors) - **10**
+- Edit Mode behavior (enter, save, discard) - **5**
+
+### Signals - **10 points**
+
+- At least one Signal is used appropriately - **10**
 
 ## Penalties
 
-- Store is not used for dashboard - **-30**
-- Device toggle handled locally - **-15**
-- API not used for saving/deleting - **-15**
-- Missing validation or broken forms - **-10**
-- Business logic is implemented in components/templates - **-10**
+- Store is not used for dashboard - **-25**
+- Device toggle handled locally (not via NgRx) - **-10**
+- API not used for saving/deleting dashboards - **-10**
+- Business logic is implemented in components/templates instead of services or store - **-10**
 - ESLint warnings or errors are present - **-10**
 - Using the `any` type in TypeScript - **-10**
 - Mandatory flag `strict: true` is not set in the TypeScript configuration file - **-10**
