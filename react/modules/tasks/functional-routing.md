@@ -57,6 +57,45 @@ Focus on routing and functional components. Remove any button or functionality w
 
 A student can achieve a maximum of 100 points.
 
+## 📚 FAQ (Frequently Asked Questions)
+
+### ❓ Should the `page` parameter always be in the URL?
+
+Yes. Even if no search term or details are selected, the current page should always be reflected in the URL, e.g., `?page=1`.
+
+### ❓ Does "Pagination is present in both URL and on the page" mean synchronization?
+
+Yes. The page number in the URL must match the visible pagination state. If the user clicks to go to page 3, the URL should change to `?page=3`.
+
+### ❓ Should we use `<Outlet>` for the details section?
+
+Yes. As described in the Master-Detail requirement, the details section should be implemented using React Router’s `<Outlet>`.
+
+### ❓ What if the About page exists but is not linked anywhere?
+
+It is considered partially implemented. For full points, the About page must exist **and** be accessible via a navigation link from the main app.
+
+### ❓ My 404 page works on the deployed site, but not on localhost. Is that okay?
+
+No. The 404 page must work **locally**, since cross-checking is done using `localhost`. GitHub Pages or other hosts may override your 404 behavior.
+
+### ❓ Do I need to pass the search query in the URL?
+
+Only if you want to. It's not required in the task, but you're free to include it as a `search` query param (e.g., `?page=1&search=pikachu`). It's not part of the scoring though.
+
+### ❓ Can I use `useSearchParams` or `useParams`?
+
+Yes. You can choose either or both depending on your routing strategy.
+
+### ❓ What should I put in the `details` param?
+
+You should pass the ID (or identifier) of the selected item from the search results, e.g., `?page=1&details=25`.
+
+### ❓ My PR is merged into `main`. Is it a penalty?
+
+No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.  
+However, merging into `main` is **not recommended**, as it may complicate the review process for your mentor.
+
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
 - Custom hook to restore search query from LS - **20**
@@ -95,4 +134,3 @@ A student can achieve a maximum of 100 points.
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
