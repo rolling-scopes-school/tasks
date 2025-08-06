@@ -28,7 +28,7 @@ Focus on routing and functional components. Remove any button or functionality w
    - Main page displays search results
    - On item click, split page into 2 sections:
      - **Left**: Continue displaying search results
-     - **Right**: Display item details using React Router <Outlet>
+     - **Right**: Display item details using React Router `<Outlet>`
    - Show loading indicator while fetching details
    - Add close control for details section
    - The details part should be optional — by default, no item is selected when the page first loads
