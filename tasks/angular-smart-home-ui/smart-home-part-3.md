@@ -10,6 +10,8 @@ All dashboard-related changes should be managed using NgRx Store + Effects and s
 
 The backend has been extended to support full dashboard editing.
 
+[Smart Home API](https://github.com/pavelrazuvalau/smart-home-json-server)
+
 ### `GET /api/devices`
 
 Returns a list of all available devices and sensors.
@@ -21,7 +23,8 @@ Response:
   {
     "type": "device",
     "icon": "lightbulb",
-    "label": "Living Room Light"
+    "label": "Living Room Light",
+    "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae"
   },
   {
     "type": "sensor",
@@ -30,7 +33,8 @@ Response:
     "value": {
       "amount": 22.5,
       "unit": "°C"
-    }
+    },
+    "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ar"
   }
 ]
 ```
@@ -57,7 +61,8 @@ Sample Request Body:
               "type": "device",
               "icon": "lightbulb",
               "label": "Lamp",
-              "state": true
+              "state": true,
+              "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae"
             },
             {
               "type": "sensor",
@@ -66,7 +71,8 @@ Sample Request Body:
               "value": {
                 "amount": 23.5,
                 "unit": "°C"
-              }
+              },
+              "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ar"
             }
           ]
         }
