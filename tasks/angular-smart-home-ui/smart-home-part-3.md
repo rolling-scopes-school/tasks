@@ -80,8 +80,6 @@ Sample Request Body:
 
 Deletes the specified dashboard.
 
-When deleting a dashboard, you should display a confirmation modal (e.g. "Are you sure you want to delete this dashboard?").
-
 ### `PATCH /api/devices/:deviceId`
 
 Updates the state of a single device.
@@ -94,18 +92,15 @@ Request Body:
 }
 ```
 
----
-
 ## Architecture Requirements
 
-- Use NgRx Store + Effects to manage the **currently selected dashboard**, i.e. the one loaded via `/dashboard/:dashboardId/:tabId`
-- All dashboard modifications should go through actions and update the store
-- You are not required to store the dashboard list in NgRx. Focus on managing only the currently selected dashboard in the store
-- Use Angular Signals for UI state like Edit Mode
-- All API interactions related to the selected dashboard should go through services and effects
-- Device state changes should be handled via separate NgRx actions and effects, i.e. not bundled with dashboard updates
-
----
+- Use NgRx Store + Effects to manage the **currently selected dashboard**, i.e., the one loaded via `/dashboard/:dashboardId/:tabId`.
+- All dashboard modifications should go through actions and update the store.
+- You are not required to store the dashboard list in NgRx - focus on managing only the selected dashboard.
+- Use Signals for UI state like Edit Mode.
+- All API interactions related to the selected dashboard should go through services and effects.
+- Device state changes should be handled via separate NgRx actions and effects (not bundled with dashboard updates).
+- The screenshots provided in the task are for your reference. You are encouraged to improve the UI or adjust elements as needed to enhance usability or match your design preferences.
 
 ## NgRx Actions (Recommended Structure)
 
@@ -117,84 +112,102 @@ Request Body:
 
 - `addCard({ tabId: string, layout: string })`
 - `removeCard({ tabId: string, cardId: string })`
-- `reorderCard({ tabId: string, cardId: string, newIndex: number })`  
-  In the UI, you may show the position as `index + 1`. Movement should be reflected immediately in UI, but persisted only on Save
+- `reorderCard({ tabId: string, cardId: string, newIndex: number })` - visually update position in the UI immediately, persist only on Save.
 
 - `addItemToCard({ tabId: string, cardId: string, item: DeviceItem | SensorItem })`
 - `removeItemFromCard({ tabId: string, cardId: string, itemId: string })`
 
-- `saveDashboard()` - effect sends `POST /api/dashboards/:dashboardId`, then `exitEditMode()`
-- `discardChanges()` - reverts to snapshot made at Edit Mode entry, then `exitEditMode()`
+- `saveDashboard()` – effect sends `POST /api/dashboards/:dashboardId`, then `exitEditMode()`
+- `discardChanges()` – reverts to snapshot made at Edit Mode entry, then `exitEditMode()`
 
-- `toggleDeviceState({ deviceId: string, newState: boolean })`  
-  Effect sends `PATCH /api/devices/:deviceId`
+- `toggleDeviceState({ deviceId: string, newState: boolean })` - effect sends `PATCH /api/devices/:deviceId`
 
 ## Functional Requirements
 
 ### Dashboard Creation
 
-- An “Add Dashboard” button should be shown in the **Sidebar footer**
-- Clicking it opens a modal with:
+![Dashboard](dashboard-with-crud.png)
 
-  - `id`: required, max 30 characters, should be unique (validated locally)
-  - `title`: required, max 50 characters
-  - `icon`: required
-
+- An “Add Dashboard” button should be shown in the **Sidebar footer**.
+- Clicking it opens a modal with a form, containing the following fields:
+  - `id`: required, max 30 characters, should be unique (validate locally).
+  - `title`: required, max 50 characters.
+  - `icon`: required.
 - On submit:
-  - Send `POST /api/dashboards/:id` with empty structure
-  - Reload dashboard list
-  - Navigate to the created dashboard
+  - Send `POST /api/dashboards/:id` with empty structure.
+  - Reload the dashboard list.
+  - Navigate to the created dashboard.
 
 ### Dashboard Deletion
 
-- Dashboards should be deletable from the view or sidebar
-- Show a confirmation modal before deletion
+- Deletion is triggered by clicking the Delete button in the toolbar while not in Edit Mode
+- Show a confirmation modal before deletion.
 - On confirm:
-  - Send `DELETE /api/dashboards/:id`
-  - Reload dashboard list
-  - Navigate to `/dashboard`
+  - Send `DELETE /api/dashboards/:id`.
+  - Reload dashboard list.
+  - Navigate to the first available dashboard
 
 ### Edit Mode
 
-- Controlled by a Signal
-- Store a deep copy of current dashboard when entering the Edit Mode
+![Edit Mode](dashboard-edit-mode.png)
+
+- Edit Mode is activated by clicking the Edit button in the toolbar
+- You can rename the current dashboard
+- UI State of components is controlled by a Signal.
+- Store a deep copy of the current dashboard when entering Edit Mode.
 - When exiting:
-  - On Save - send full POST and call `exitEditMode()`
-  - On Discard - revert state and call `exitEditMode()`
+  - On Save: send full POST and call `exitEditMode()`.
+  - On Discard: revert state and call `exitEditMode()`.
 
 #### Tabs
 
-- Add, remove, rename, reorder using left/right buttons
-- Title: required, max 50 characters, unique within dashboard
+- Add, remove, rename, reorder using left/right buttons.
+- Clicking the Edit or Create button shows an editable input field.
+- Title: required, max 50 characters, unique within the dashboard.
+- The tab ID should duplicate the provided tab name in kebab-case (e.g. energy-usage)
 
 #### Cards
 
-- Creation starts with selecting layout: `singleDevice`, `horizontalLayout`, or `verticalLayout`
-- After layout is selected, an empty card is added and devices/sensors can be inserted
-- **Layout cannot be changed** after creation
-- Reordering:
-  - Use ↑/↓ buttons or a numeric input (index + 1)
-  - Movement updates UI immediately, but is saved only on Save
-- Empty cards should display an empty state
+![Add Card](add-card.png)
 
-#### Card Content
+- Clicking the Add Card button at the bottom opens a modal for selecting the card layout.
+- Creation starts with selecting layout: `singleDevice`, `horizontalLayout`, or `verticalLayout`.
+- After layout is selected, an empty card is added and devices/sensors can be inserted.
+- **Layout cannot be changed** after creation.
+- Empty cards should display an empty state.
 
-- Add/remove items using list from `GET /api/devices`
-- No validation: duplicates and empty cards are allowed
+##### Reordering
+
+- Use - / + buttons or numeric input (`index + 1`).
+- It updates the UI immediately; persist only on Save.
+
+##### Card Content
+
+![Add Entity](add-entity.png)
+
+- Click the three-dot icon on a card to open a modal window for editing its content.
+- You can set a card title (optional, e.g., Bedroom). Leaving it empty is allowed.
+- A list of already added entities (devices or sensors) is displayed - each can be individually removed.
+- A dropdown labeled "Select an Entity" allows you to add items from the list of available entities retrieved via `GET /api/devices`.
+- No validation is required:
+  - Duplicate entities are allowed
+  - Empty cards (with no devices or sensors) are allowed - make sure to display an appropriate empty state in the UI.
 
 ### Device Toggle
 
-- Outside Edit Mode:
-  - Dispatch `toggleDeviceState({ deviceId, newState })`
-  - Effect sends `PATCH` request to backend
-  - Store is updated accordingly
+In previous parts, toggling a device only updated the UI. Now, device state changes should be synchronized with the backend.
+
+- When a device toggle is clicked:
+  - Dispatch `toggleDeviceState({ deviceId, newState })`.
+  - Effect sends `PATCH` request to backend.
+  - Store is updated accordingly.
 
 ## Evaluation Criteria (100 points)
 
 ### Forms & Validation - **10 points**
 
 - Dashboard creation form with required, max length, and uniqueness checks - **5**
-- Tab rename form with required, max length, and local uniqueness - **5**
+- Tab form with required, max length, and local uniqueness - **5**
 
 ### NgRx State Management - **40 points**
 
@@ -209,12 +222,12 @@ Request Body:
 - Tab and card creation, and item addition (core add/edit logic) - **10**
 - Tab and card reordering works correctly with immediate visual feedback - **5**
 - Deletion logic for dashboards/tabs/cards/items - **5**
-- Card content can be modified (add/remove devices and sensors) - **10**
+- Card content can be modified (title, add/remove devices and sensors) - **10**
 - Edit Mode behavior (enter, save, discard) - **5**
 
 ### Signals - **10 points**
 
-- At least one Signal is used appropriately - **10**
+- At least one Signal is used appropriately (e.g. Edit Mode UI state) - **10**
 
 ## Penalties
 
