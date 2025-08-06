@@ -49,7 +49,6 @@ This task is a continuation of the state management task. In this task, you will
 4. Test Updates:
    - Update your tests to cover the new querying functionality
    - Test loading states, error states, and caching behavior
-   - Test optimistic updates if implemented
 
 ## Points
 
