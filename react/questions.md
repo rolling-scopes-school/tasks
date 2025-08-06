@@ -424,6 +424,14 @@ Unlike React Hooks, `use` can be called within loops and conditional statements 
 
 [use](https://react.dev/reference/react/use)
 
+### 🔴 Advanced Rendering Patterns
+
+#### React Portal
+
+A React Portal provides a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. Common use cases include modals, tooltips, dropdowns, and toast notifications. Even though the portal's content is rendered elsewhere in the DOM tree, it still behaves like a normal React child, meaning it can access context from the parent tree and events will bubble up to ancestors in the React tree, not the DOM tree.
+
+[createPortal](https://react.dev/reference/react-dom/createPortal)
+
 ### 🔴 Context API
 
 #### Creating and consuming contexts
@@ -588,7 +596,7 @@ It replaces the old `<Routes>`/`<Route>` JSX structure with a configuration obje
 Example:
 
 ```jsx
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/about", element: <About /> },
@@ -629,7 +637,7 @@ createBrowserRouter([
 Example:
 
 ```jsx
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 function User() {
   const { id } = useParams();
   return <div>User ID: {id}</div>;
@@ -643,7 +651,7 @@ function User() {
 Example:
 
 ```jsx
-import { Navigate } from "react-router-dom";
+import { Navigate } from "react-router";
 <Route path="/old" element={<Navigate to="/new" replace />} />;
 ```
 
@@ -654,7 +662,7 @@ import { Navigate } from "react-router-dom";
 Example:
 
 ```jsx
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 function GoHome() {
   const navigate = useNavigate();
   return <button onClick={() => navigate("/")}>Go Home</button>;
@@ -662,6 +670,24 @@ function GoHome() {
 ```
 
 [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
+
+#### Outlet
+
+Example:
+
+```jsx
+import { Outlet } from "react-router";
+function SomeParent() {
+  return (
+    <div>
+      <h1>Parent Content</h1>
+      <Outlet />
+    </div>
+  );
+}
+```
+
+[Outlet](https://reactrouter.com/api/components/Outlet)
 
 ### 🔴 Error Handling
 
