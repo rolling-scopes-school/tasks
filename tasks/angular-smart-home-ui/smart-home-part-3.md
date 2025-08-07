@@ -24,7 +24,8 @@ Response:
     "type": "device",
     "icon": "lightbulb",
     "label": "Living Room Light",
-    "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae"
+    "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae",
+    "state": true
   },
   {
     "type": "sensor",
@@ -39,7 +40,47 @@ Response:
 ]
 ```
 
-### `POST /api/dashboards/:dashboardId`
+### `PATCH /api/devices/:deviceId`
+
+Updates the state of a single device (should be of type 'device'). The state change is also applied to all dashboards where this device is present.
+
+Sample Request Body:
+
+```json
+{
+  "state": true
+}
+```
+
+Response:
+
+Returns the full updated device object:
+
+```json
+{
+  "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae",
+  "type": "device",
+  "icon": "lightbulb",
+  "label": "Living Room Light",
+  "state": true
+}
+```
+
+### `POST /api/dashboards`
+
+Creates a new dashboard. All fields are required and validated.
+
+Sample Request Body:
+
+```json
+{
+  "id": "overview",
+  "title": "Overview",
+  "icon": "home"
+}
+```
+
+### `PUT /api/dashboards/:dashboardId`
 
 Saves the full structure of a dashboard (tabs + cards + content).
 
@@ -86,18 +127,6 @@ Sample Request Body:
 
 Deletes the specified dashboard.
 
-### `PATCH /api/devices/:deviceId`
-
-Updates the state of a single device.
-
-Request Body:
-
-```json
-{
-  "state": true
-}
-```
-
 ## Architecture Requirements
 
 - Use NgRx Store + Effects to manage the **currently selected dashboard**, i.e., the one loaded via `/dashboard/:dashboardId/:tabId`.
@@ -140,7 +169,7 @@ Request Body:
   - `title`: required, max 50 characters.
   - `icon`: required.
 - On submit:
-  - Send `POST /api/dashboards/:id` with empty structure.
+  - Send `POST /api/dashboards` with the payload.
   - Reload the dashboard list.
   - Navigate to the created dashboard.
 
@@ -162,7 +191,7 @@ Request Body:
 - UI State of components is controlled by a Signal.
 - Store a deep copy of the current dashboard when entering Edit Mode.
 - When exiting:
-  - On Save: send full POST and call `exitEditMode()`.
+  - On Save: send `PUT /api/dashboards/:dashboardId` and call `exitEditMode()`.
   - On Discard: revert state and call `exitEditMode()`.
 
 #### Tabs
@@ -205,8 +234,10 @@ In previous parts, toggling a device only updated the UI. Now, device state chan
 
 - When a device toggle is clicked:
   - Dispatch `toggleDeviceState({ deviceId, newState })`.
-  - Effect sends `PATCH` request to backend.
+  - Effect sends `PATCH /api/devices/:deviceId` request to backend.
   - Store is updated accordingly.
+
+The changes should be immediate on the UI (i.e. no need to wait for BE response. If API request has failed, you can revert the device state).
 
 ## Evaluation Criteria (100 points)
 
