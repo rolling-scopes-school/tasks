@@ -1,5 +1,16 @@
 # REST Client
 
+## Framework Options
+
+You can choose from several modern React frameworks for your project. All of these support server-side logic, routing, and are suitable for building full-stack React applications:
+
+- **React Router 7 (Framework mode)**: The latest version of React Router, now with features merged from Remix. [Docs](https://reactrouter.com/start/modes#framework)
+- **Next.js (App Router)**: The recommended way to use Next.js for full-stack React apps. [Docs](https://nextjs.org/docs/app)
+- **Tanstack Start**: A modern, full-stack React framework from the creators of TanStack Query. [Docs](https://tanstack.com/start/latest)
+- **Waku**: A minimal React framework for building full-stack apps. [Docs](https://waku.gg/)
+
+You are free to choose any of these options based on your team's preferences and project requirements.
+
 You will be working on creating a light-weight version of Postman in one app.
 PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TASK
 
@@ -28,7 +39,10 @@ Design, prototype, as well as implementation of the application, are up to you.
 
 - Application doesn't require a backend.
 - Application should support any open, user-specified API (RESTful).
-- You will use either NextJS or Remix to make calls to the endpoint through the server. So this is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+- You will use either **Next.js (App Router)** or **React Router 7 (Framework mode)** to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+  - **React Router 7 Framework mode** is the evolution of Remix, as Remix features have been merged into React Router. See [React Router 7 Framework mode docs](https://reactrouter.com/start/modes#framework).
+  - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app).
+  - You may also use **Tanstack Start** ([docs](https://tanstack.com/start/latest)) or **Waku** ([docs](https://waku.gg/)) as alternative modern React frameworks for full-stack development.
 
 ## Application structure
 
@@ -73,7 +87,14 @@ You are free to choose your own way of developing the project and the repository
 - private routes, 404, error boundary
 - using jQuery in the main application code is not allowed (might be a part of other libraries, so pay attention to what you are using)
 - you MUST use React 18 and above
-- you MUST use either NextJS or Remix with Vite (or React Router 7)
+- you MUST use one of the following modern React frameworks for your project:
+  - **React Router 7 (Framework mode)** (recommended; includes Remix features)
+  - **Next.js (App Router)**
+  - **Tanstack Start**
+  - **Waku**
+
+See the section "Framework Options" above for more details and links.
+
 - you might use any CSS frameworks, any JS/components libs you want, HTML and CSS pre-processors
 - you MUST use Typescript
 - tests should be present on the project (**test** command in the package.json), and test coverage should be reported when running the command; test coverage should be at least 80%
@@ -168,9 +189,10 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ### Sign In / Sign Up
 
-- For the authentication you should use Firebase or Supabase with the email/password sign-in method.
-  Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/) as an example of Firebase usage.
-  Supabase has a [free tier](https://supabase.com/pricing). Please, check this [documentation](https://supabase.com/docs/guides/getting-started/tutorials/with-react) as an example of Supabase integration with React app.
+- For authentication you should use **Firebase**, **Supabase**, or **Convex** with the email/password sign-in method.
+  - Firebase: see this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/) as an example of Firebase usage.
+  - Supabase: has a [free tier](https://supabase.com/pricing). See this [documentation](https://supabase.com/docs/guides/getting-started/tutorials/with-react) as an example of Supabase integration with React app.
+  - Convex: see the [Convex Quickstart](https://docs.convex.dev/quickstarts) for setup and integration details.
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character, Unicode passwords must be supported)
 - Upon successful login, the user should be redirected to the Main page
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
@@ -315,7 +337,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 - History and analytics code should be lazy-loaded (so unauthenticated user won't download the code).
 - The section should be server-side generated: all request history and analytics are aggregated and rendered on the server, then sent to the client for display.
 - The section should display requests using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
-- All request history and analytics information must be loaded from Firebase/Supabase for the logged in user. The information is written to the database from the server side after each request.
+- All request history and analytics information must be loaded from **Firebase**, **Supabase**, or **Convex** for the logged in user. The information is written to the database from the server side after each request.
 - The following parameters must be stored for each request:
   - **Request Duration (Latency):** Time taken from sending the request to receiving the response.
   - **Response Status Code:** HTTP status code (e.g., 200, 404, 500) for each request.
@@ -441,6 +463,10 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Penalties
 
+- **0. Framework Choice**
+
+  - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
+
 - **1. TypeScript & Code Quality**
 
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
@@ -484,7 +510,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 sequenceDiagram
     participant User
     participant UI as React UI
-    participant Server as Application Server (NextJS/Remix)
+    participant Server as Application Server (NextJS/RR7/TS Start/Waku)
     participant API as External API
     participant DB as Firebase/Supabase
 
