@@ -16,7 +16,7 @@
 4. Add 404 page.
 5. Images must be rendered via an Image component from next/image.
 6. Links must be rendered via a Link component from the next-intl [createNavigation](https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#i18n-navigation) function. The "createNavigation" function is a wrapper on top on Next.js navigation with supporting locales.
-7. All requests must be done from the server. [Example how to adopt searchParams to the next.js](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination), [Fetching data](https://nextjs.org/docs/app/getting-started/fetching-data)
+7. All static requests must be done from the server. [Example how to adopt searchParams to the next.js](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination), [Fetching data](https://nextjs.org/docs/app/getting-started/fetching-data). Dynamic requests (depends on search params for example) still can be done from the client via rtk-query\tanstack-query etc.
 8. Move render of components to the server as much as possible. [E.g., static markup, components without state\hooks usage](https://nextjs.org/docs/app/getting-started/server-and-client-components).
 9. Csv file from the Redux task must be compiled [on the server](https://nextjs.org/docs/app/guides/forms).
 
@@ -29,7 +29,7 @@ A student can achieve a maximum of 100 points.
 - Next.js App Router is used in "nextjs-ssr" branch. Pages render on the server with RSC - **20**
 - The application supports at least two languages - **10**
 - Shared layout is used at the root of application - **5**
-- All images are rendered via the next/image component - **10**
+- All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically. - **10**
 - All links are rendered via the next-intl createNavigation function - **10**
 - 404 error page implemented - **5**
 - All network requests are done via the server - **20**
