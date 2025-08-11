@@ -63,7 +63,7 @@
 ### Неделя #7
 
 - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
-- [Not a Fight Club](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/notFightClub)
+- [Not a Fight Club](../tasks/notFightClub/)
 
 ### Неделя #8
 
@@ -73,7 +73,7 @@
 
 ### Неделя #9
 
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Secret Task"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта [Not a Fight Club](../tasks/notFightClub/)
 
 ### Неделя #10
 
