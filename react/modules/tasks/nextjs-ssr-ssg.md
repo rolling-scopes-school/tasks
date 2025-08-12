@@ -11,7 +11,7 @@
 ## Application Requirements
 
 1. Application should function in accordance to the requirements provided in the previous modules, if they do not contradict with the new requirements provided in this module.
-2. Add internationalization via [next-intl](https://next-intl.dev/). Your application must support at least 2 languages. The language can be changed via switcher on the client. There is no need to translate the data that comes from the API if the API does not support other languages.
+2. Add internationalization via [next-intl](https://next-intl.dev/). Your application must support at least 2 languages. The language can be changed via switcher on the client. There is no need to translate the data that comes from the API.
 3. Add a shared layout for pages.
 4. Add 404 page.
 5. Images must be rendered via an Image component from next/image.
