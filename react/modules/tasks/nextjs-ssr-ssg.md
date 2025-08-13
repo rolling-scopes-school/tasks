@@ -19,6 +19,7 @@
 7. All static requests must be done from the server. [Example how to adopt searchParams to the next.js](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination), [Fetching data](https://nextjs.org/docs/app/getting-started/fetching-data). Dynamic requests (depends on search params for example) still can be done from the client via rtk-query\tanstack-query etc.
 8. Move render of components to the server as much as possible. [E.g., static markup, components without state\hooks usage](https://nextjs.org/docs/app/getting-started/server-and-client-components).
 9. Csv file from the Redux task must be compiled [on the server](https://nextjs.org/docs/app/guides/forms).
+10. The first loading page should come from the server, and saving requests from previous task can be left as is (no need to migrate).
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
@@ -28,7 +29,7 @@
 - All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically. - **10**
 - All links are rendered via the next-intl createNavigation function - **10**
 - 404 error page implemented - **5**
-- All network requests are done via the server - **20**
+- All static requests are done via the server - **20**
 - CSV file compiled in the server action - **20**
 
 ## Points
