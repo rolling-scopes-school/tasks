@@ -54,6 +54,59 @@ This task is a continuation of the state management task. In this task, you will
 
 A student can achieve a maximum of 100 points.
 
+## FAQ (Frequently Asked Questions)
+
+### ❓ What does “Currently selected item details should be cached” mean?
+
+It means that when a user opens a detail view for an item, the data fetched for that item should be cached so reopening it later won’t trigger another network request.
+
+### ❓ How many “Refresh” buttons do I need?
+
+The implementation is up to you:
+
+- **One button** that invalidates both list and detail data is fine.
+- **Two buttons** (one in the list view, one in the details view) are also fine.  
+  The key is that you demonstrate manual cache invalidation.
+
+### ❓ What’s the difference between cache invalidation and refetching?
+
+- **Refetch**: Re-requests the current query without clearing its cache key.
+- **Invalidate**: Clears cache for a query so that the next access forces a fresh API call.
+
+### ❓ Should I clear the browser’s disk cache?
+
+No. This task is only about the in-memory cache of RTK Query or TanStack Query.  
+You are **not** expected to manage or bypass the browser’s own HTTP cache.
+
+### ❓ How do I test “Cache invalidation and refetching work correctly”?
+
+Example:
+
+1. Open page 1 → request is made.
+2. Open page 2 → request is made.
+3. Return to page 1 → no request (data comes from cache).
+4. Press “Refresh” → request is made again for page 1.
+5. Repeat for search queries and detail pages.
+
+### ❓ What if my pagination is server-side?
+
+That’s fine — caching should still ensure that returning to a previously visited page does not trigger a new request unless you manually invalidate it.
+
+### ❓ Can I fetch multiple items in parallel for CSV export?
+
+Yes:
+
+- In RTK Query — create an endpoint that takes an array and fetches items (possibly using `Promise.all` inside).
+- In TanStack Query — use `useQueries` for parallel fetching.
+
+### ❓ Do I need to set `staleTime` or similar options?
+
+Not mandatory, but you may adjust them to control freshness. The main requirement is that navigation between already loaded pages should not make unnecessary API calls.
+
+### ❓ Can I use React Query Devtools or Redux Devtools?
+
+Yes. They are not considered UI libraries and will not result in penalties.
+
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
 - Query library (RTK Query or TanStack Query) is properly implemented - **25**
