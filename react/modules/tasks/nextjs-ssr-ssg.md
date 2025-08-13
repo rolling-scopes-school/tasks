@@ -19,10 +19,7 @@
 7. All static requests must be done from the server. [Example how to adopt searchParams to the next.js](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination), [Fetching data](https://nextjs.org/docs/app/getting-started/fetching-data). Dynamic requests (depends on search params for example) still can be done from the client via rtk-query\tanstack-query etc.
 8. Move render of components to the server as much as possible. [E.g., static markup, components without state\hooks usage](https://nextjs.org/docs/app/getting-started/server-and-client-components).
 9. Csv file from the Redux task must be compiled [on the server](https://nextjs.org/docs/app/guides/forms).
-
-## Points
-
-A student can achieve a maximum of 100 points.
+10. The first loading page should come from the server, and saving requests from previous task can be left as is (no need to migrate).
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
@@ -32,8 +29,55 @@ A student can achieve a maximum of 100 points.
 - All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically. - **10**
 - All links are rendered via the next-intl createNavigation function - **10**
 - 404 error page implemented - **5**
-- All network requests are done via the server - **20**
+- All static requests are done via the server - **20**
 - CSV file compiled in the server action - **20**
+
+## Points
+
+A student can achieve a maximum of 100 points.
+
+## FAQ (Frequently Asked Questions)
+
+### ❓ Do I need to rewrite the project from scratch or migrate?
+
+You should continue working in the same project and **migrate it** to Next.js App Router.  
+Create a new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements.
+
+### ❓ Where should I deploy? Is GitHub Pages allowed?
+
+You can deploy the project wherever you prefer — GitHub Pages, Netlify, Vercel, or any other hosting platform.  
+The main goal is to explore different deployment options and understand how they work.
+
+Keep in mind that **Vercel** is developed by the same team that builds Next.js and has a deep integration with it, so it might be worth getting to know its features and deployment workflow more closely.
+
+### ❓ Do I need to translate API data?
+
+**No.** Localize **UI and navigation** (interface texts, headings, labels).  
+Leave **API data as-is** if the API doesn’t support multiple languages.
+
+### ❓ What about images and `next/image`?
+
+- All images must be rendered with `next/image` (if your API doesn’t have images, you automatically get the points per the spec).
+- For external URLs, configure `images.domains` or `images.remotePatterns` in `next.config.mjs`.
+- Avoid custom loaders unless strictly necessary.
+
+### ❓ Where should requests be made?
+
+- **Static/invariant requests** (not dependent on user actions) → **server** (RSC/Server Components, `fetch` in server code).
+- **Dynamic requests** (depend on `searchParams` or user interaction) → client (RTK Query / TanStack Query allowed).
+- Move as many stateless components as possible to **Server Components**.
+
+### ❓ CSV must now be generated on the server. How?
+
+Use a **Server Action** or server route handler to create the CSV and send it with proper headers.
+
+### ❓ Can I use a library for theme switching (e.g., `next-themes`)?
+
+Please **do not** use external libraries for theme switching.  
+Implement your own solution by hand:
+
+- Keep theme state in **React Context**.
+- Optionally persist the choice with **localStorage**.
 
 ### Penalties
 
