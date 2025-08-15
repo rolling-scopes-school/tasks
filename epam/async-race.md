@@ -191,10 +191,8 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
   - `plugin:@typescript-eslint/recommended`
   - `plugin:react/recommended`
   - `plugin:react-hooks/recommended`  
-  Configuration must reflect strict TypeScript settings as per `tsconfig.json` (with `strict` and `noImplicitAny` enabled).  
-  A `lint` script in `package.json` must run ESLint checks for `.ts` and `.tsx` files.
-
-
+    Configuration must reflect strict TypeScript settings as per `tsconfig.json` (with `strict` and `noImplicitAny` enabled).  
+    A `lint` script in `package.json` must run ESLint checks for `.ts` and `.tsx` files.
 
 ## 🌟 Overall Code Quality. (100 points) _Skip during self-check_
 
