@@ -90,7 +90,7 @@ What are you waiting for? Let's start coding!
 - **TypeScript Mandatory**: Strong typing enforced throughout. TypeScript `strict` mode must be enabled, and the `noImplicitAny` flag set to `true` to ensure no implicit `any` types are used.
 - **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
 - **SPA Implementation**: All content must be generated using TypeScript with strict type checking.
-- **Code Quality**: Adherence to Airbnb's ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings. The `tsconfig.json` must be configured to enforce strict typing principles.
+- **Code Quality**: Adherence to ESLint configuration based on recommended rules for TypeScript and React (`eslint:recommended`, `plugin:@typescript-eslint/recommended`, `plugin:react/recommended`, `plugin:react-hooks/recommended`). Avoid magic numbers and magic strings. The `tsconfig.json` must be configured to enforce strict typing principles (`strict: true`, `noImplicitAny: true`).
 - **UI Design**: The design is completely up to you. In this project, we care about the quality of the code and the fulfillment of other functional and non-functional requirements.
 
 - These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Intreviewers will use these guidelines to assess the technical execution and overall quality of the project.
@@ -186,7 +186,15 @@ Also, please deploy the UI to GitHub Pages, Netlify, Vercel, Cloudflare Pages, o
 ## 🎨 Prettier and ESLint Configuration (10 points)
 
 - [ ] **Prettier Setup (5 points):** Prettier is correctly set up with two scripts in `package.json`: `format` for auto-formatting and `ci:format` for checking issues.
-- [ ] **ESLint Configuration (5 points):** ESLint is configured with the [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb). A `lint` script in `package.json` runs ESLint checks. Configuration files should reflect strict TypeScript settings as per `tsconfig.json`.
+- [ ] **ESLint Configuration (5 points):** ESLint is configured using the recommended rulesets:
+  - `eslint:recommended`
+  - `plugin:@typescript-eslint/recommended`
+  - `plugin:react/recommended`
+  - `plugin:react-hooks/recommended`  
+  Configuration must reflect strict TypeScript settings as per `tsconfig.json` (with `strict` and `noImplicitAny` enabled).  
+  A `lint` script in `package.json` must run ESLint checks for `.ts` and `.tsx` files.
+
+
 
 ## 🌟 Overall Code Quality. (100 points) _Skip during self-check_
 
