@@ -58,7 +58,7 @@
 
 ### Неделя #6
 
-- [JS-101](https://github.com/Luffi2539/core-js-101/)
+- [JS-101](https://github.com/rolling-scopes-school/core-js-101-stage0/)
 
 ### Неделя #7
 
