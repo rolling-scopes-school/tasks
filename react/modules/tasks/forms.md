@@ -26,10 +26,10 @@
      Form should contain labels, which should be connected with inputs (look at **htmlFor**)
 
 4. **Validation**
-   Implement validation according to the inputs description from p. 3. Use **Yup** or **Zod** (but pick just one) for validation. Show errors either above each component, or below (but stick with one approach everywhere). Block submitting the form before all the errors are fixed (disable submit button). Good UX assumes that there are no "jumps" when showing errors.
+   Implement validation according to the input descriptions in p. 3. Use **Yup** or **Zod** (but pick just one) as the validation schema. Show error messages consistently — either above or below each field, and stick with that placement throughout the form.
 
-   - Uncontrolled components should implement validation on submit
-   - Approach with **React Hook Form** should implement live validation
+   - For the **React Hook Form** approach, the submit button should be **disabled** while there are validation errors (live validation).
+   - The **uncontrolled form** should validate inputs only **on submit**, and does **not need to disable** the submit button.
 
 5. **After submitting the form**
    On successful form submission close the modal and display the newly entered data on the main page. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
