@@ -31,6 +31,8 @@
    - For the **React Hook Form** approach, the submit button should be **disabled** while there are validation errors (live validation).
    - The **uncontrolled form** should validate inputs only **on submit**, and does **not need to disable** the submit button.
 
+   Avoid layout shifts when showing error messages to ensure a smooth user experience.
+
 5. **After submitting the form**
    On successful form submission close the modal and display the newly entered data on the main page. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
 
