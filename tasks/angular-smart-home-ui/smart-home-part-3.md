@@ -187,7 +187,7 @@ Deletes the specified dashboard.
 ![Edit Mode](dashboard-edit-mode.png)
 
 - Edit Mode is activated by clicking the Edit button in the toolbar
-- You can rename the current dashboard
+- Dashboard name and icon are being specified on the creation step only
 - UI State of components is controlled by a Signal.
 - Store a deep copy of the current dashboard when entering Edit Mode.
 - When exiting:
