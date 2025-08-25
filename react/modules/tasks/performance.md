@@ -58,9 +58,8 @@
 
 - Fetch and display country data, including name, population (latest year), and ISO code (if available) - **10 points**
 - Display a table of yearly data for each country with required columns (year, population, co2, co2_per_capita) - **10 points**
-- Modal widget for selecting additional columns to display - **10 points**
-- Year selector to change displayed year for all countries, with highlight on updated data - **10 points**
-- Filtering by region using a dropdown menu - **10 points**
+- Modal widget for selecting additional columns to display - **15 points**
+- Year selector to change displayed year for all countries, with highlight on updated data - **15 points**
 - Searching countries by name using a search bar - **10 points**
 - Sorting countries by population (selected year) or name (asc/desc) - **10 points**
 - Using useMemo to memoize filtered, searched, sorted countries and selected columns - **10 points**
