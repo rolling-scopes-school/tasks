@@ -9,16 +9,15 @@
    - Display a list of countries, showing name, population (latest year by default), and ISO code (if available). For each country, show a table of yearly data with required columns: year, population, co2, co2_per_capita. If a value is missing, display "N/A".
    - Add a modal widget that lets users select additional columns to display from the available yearly data fields (e.g., methane, oil_co2, temperature_change_from_co2, etc.).
 
-2. Year Selection, Filtering, Sorting, and Search
+2. Year Selection, Sorting, and Search
 
    - Add a year selector at the top to choose which year to display for all countries/regions. When the year changes, briefly highlight updated data.
-   - Filter countries by region using a dropdown menu.
    - Search countries by name using a search bar.
    - Sort countries by population (for the selected year) or by name (ascending/descending).
 
 3. Performance Optimization
-   - Use **useMemo** to memoize the filtered, searched, and sorted list of countries and selected columns.
-   - Use **useCallback** to memoize event handler functions for filtering, searching, sorting, and column selection.
+   - Use **useMemo** to memoize the searched and sorted list of countries and selected columns.
+   - Use **useCallback** to memoize event handler functions for searching, sorting, and column selection.
    - Use **React.memo** to wrap components like country cards and data tables to prevent unnecessary re-renders.
    - Use proper key props for lists and tables to avoid reconciliation issues.
 
@@ -62,8 +61,8 @@
 - Year selector to change displayed year for all countries, with highlight on updated data - **15 points**
 - Searching countries by name using a search bar - **10 points**
 - Sorting countries by population (selected year) or name (asc/desc) - **10 points**
-- Using useMemo to memoize filtered, searched, sorted countries and selected columns - **10 points**
-- Using useCallback to memoize event handlers for filtering, searching, sorting, and column selection - **10 points**
+- Using useMemo to memoize searched, sorted and selected columns - **10 points**
+- Using useCallback to memoize event handlers for searching, sorting, and column selection - **10 points**
 - Using React Suspense for data loading and fallback UI - **10 points**
 
 ### Penalties
