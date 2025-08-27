@@ -6,7 +6,7 @@ Build a production-quality Angular app in a team of 3. You have 1 month for impl
 
 ## Freedom of choice
 
-* You may create a focused clone of any well-known web app of game you know (e.g., Trello/Notion/Twitter(X)/Spotify/Duolingo/Airbnb/GitHub Issues) — or build an original app with similar complexity.
+* You may create a focused clone of any well-known web app or game you know (e.g., Trello/Notion/Twitter(X)/Spotify/Duolingo/Airbnb/GitHub Issues) — or build an original app with similar complexity.
 * You choose the data layer: your own backend, **Firebase**, or **any public API**.
 * You may use **Gen-AI** to help implement a backend or tooling.
 * Presentation may be in **English or Russian**.
