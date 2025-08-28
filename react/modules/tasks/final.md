@@ -98,7 +98,7 @@ See the section "Framework Options" above for more details and links.
 - you might use any CSS frameworks, any JS/components libs you want, HTML and CSS pre-processors
 - you MUST use Typescript
 - tests should be present on the project (**test** command in the package.json), and test coverage should be reported when running the command; test coverage should be at least 80%
-- Eslint, prettier (**lint** and **prettier-fix** commands in the package.json)
+- Linting and formatting tools (**lint** and **format-fix** commands in the package.json)
 - Husky hooks (run **lint** on pre-commit, **test** on pre-push)
 - ❗ it is forbidden to copy the code of other students. This ban applies to HTML, CSS, and JS code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except GitHub repositories of course students.
 
@@ -491,8 +491,8 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - **5. Development Tools**
 
-  - [ ] Absence of linting **-150 points**
-  - [ ] Absence of prettier **-100 points**
+  - [ ] Absence of a linting tool **-150 points**
+  - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
 
 - **6. UI/UX**
