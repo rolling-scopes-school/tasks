@@ -75,10 +75,14 @@
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
-- **2. External Dependencies**
+- **2. Project requirements**
+
+  - Absence of the performance report in the app's `README.md` file: **-70 points**
+
+- **3. External Dependencies**
 
   - Usage of component libraries, e.g., Material UI, Ant Design: **-100 points**
 
-- **3. Project Management**
+- **4. Project Management**
   - Commits after the deadline: **-40 points**
   - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
