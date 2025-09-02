@@ -283,7 +283,7 @@
 
 - Modules:
 
-  [Client-Server Interaction Overview](modules/client-server/)
+  - [Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
 

@@ -34,7 +34,7 @@ Students are encouraged to study the following resources:
 
 ## Practice 💻
 
-- Complete the test "OOP Test" in the RS-App > Auto Test.
+- Complete the test "[St1] OOP Test" in the RS-App > Auto Test.
 
 ## Additional Resources 📘
 

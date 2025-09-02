@@ -29,7 +29,7 @@ Practice: 4 hours
 
 ## Practice
 
-1. Pass the test "Git Test [RU]" in the RS APP > Auto Test
+1. Pass the test "[St1] Git test" in the RS APP > Auto Test
 2. Use [an interactive tool](https://learngitbranching.js.org) to practice Git
 
 ## Additional sources

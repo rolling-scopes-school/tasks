@@ -42,7 +42,7 @@ The course documentation answers most queries. However, it's worth noting that t
 2. Check if you're enrolled in the course. To do this, go to https://app.rs.school/ and navigate to the "Dashboard" page. The top of the page should display a heading like `Student dashboard {Your Course Name}`, for example, `Student dashboard JS/FE Pre-School 2022Q4`.
 3. Include your GitHub account in your Discord nickname <https://rs.school/docs/ru/rs-school-chats>
 4. Bookmark the course schedule. To do this, go to https://app.rs.school/ and navigate to the "Schedule" page.
-5. Take the "RSS Test" in RS APP ([Submitting assignments in RS APP](https://rs.school/docs/ru/rs-app-tasks#тесты)).
+5. Take the "[St1] RSS Test" in RS APP ([Submitting assignments in RS APP](https://rs.school/docs/ru/rs-app-tasks#тесты)).
 
 ## Terminology You Need to Know
 
