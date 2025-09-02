@@ -193,7 +193,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
   - Firebase: see this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/) as an example of Firebase usage.
   - Supabase: has a [free tier](https://supabase.com/pricing). See this [documentation](https://supabase.com/docs/guides/getting-started/tutorials/with-react) as an example of Supabase integration with React app.
   - Convex: see the [Convex Quickstart](https://docs.convex.dev/quickstarts) for setup and integration details.
-  - NextAuth.js: see [documentation](https://next-auth.js.org/providers/credentials) for implementation example. You can use any supported [adapter](https://next-auth.js.org/adapters) (for example [Prisma](https://authjs.dev/getting-started/adapters/prisma)) and [sqlite](https://sqlite.org/) database for persist data.
+  - NextAuth.js: see [documentation](https://next-auth.js.org/providers/credentials) for an implementation example. You can use any supported [adapter](https://next-auth.js.org/adapters) (for example, [Prisma](https://authjs.dev/getting-started/adapters/prisma)) and an [sqlite](https://sqlite.org/) database to persist data.
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character, Unicode passwords must be supported)
 - Upon successful login, the user should be redirected to the Main page
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
