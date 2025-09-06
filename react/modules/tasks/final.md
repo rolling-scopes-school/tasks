@@ -435,11 +435,11 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### RESTful client - max 150 points
 
-- [ ] Functional editor enabling query editing and prettifying, request body provided in the URL as base64-encoded on focus out. - **35 points**
+- [ ] Functional editor enabling query editing and prettifying, request body provided in the URL as base64-encoded on request submit. - **35 points**
 - [ ] Functional read-only response section, with information about HTTP status and the code. - **30 points**
-- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the URL on change. - **15 points**
-- [ ] Input for the URL, entered value is provided in base64-encoded way on change. - **20 points**
-- [ ] Headers section, value is provided in the URL on header add/change. - **20 points**
+- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the URL on request submit. - **15 points**
+- [ ] Input for the URL, entered value is provided in base64-encoded way on request submit. - **20 points**
+- [ ] Headers section, value is provided in the URL on request submit. - **20 points**
 - [ ] Code generation section. - **30 points**
 
 ### History and analytics route - max 100 points
