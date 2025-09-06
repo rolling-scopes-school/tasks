@@ -39,4 +39,4 @@ Students should review the following resources:
 
 ## Practice 💻
 
-- Complete the test "[St1]CSS Modules And Some CSS New Features" in the RS APP > Auto Test.
+- Complete the test "[St1] CSS Modules And Some CSS New Features" in the RS APP > Auto Test.

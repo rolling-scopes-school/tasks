@@ -36,7 +36,7 @@
 
 ### Статьи:
 
-- [Проверьте уровень владения английским языком](https://www.efset.org/ru/free-english-test/)
+- [Проверьте уровень владения английским языком](https://www.efset.org)
 - [Английский для айтишника? Легко!](https://habr.com/ru/post/130208/)
 - [Перестаньте учить английские слова](https://habr.com/ru/post/172873/)
 - [22 сайта для программиста, которые помогут заговорить на английском](https://habr.com/ru/post/464457/)
@@ -71,4 +71,4 @@
 - [Engoo Daily news](https://engoo.com/app/daily-news)
 - [English Videos A1-A2](https://www.youtube.com/playlist?list=PLfFN2W7YMYBQW5jNxedDsPX1_w0u70N09)
 - [Extra English](https://www.youtube.com/playlist?list=PLQziPRNOSqdIm3clqE0MTvabhCd0-2R1A)
-- [6 Minute English with BBC](https://www.bbc.co.uk/learningenglish/russian/features/6-minute-english)
+- [6 Minute English with BBC](https://www.bbc.co.uk/learningenglish/english/features/6-minute-english)
