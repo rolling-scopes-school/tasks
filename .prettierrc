@@ -1,3 +1,7 @@
 {
-  "endOfLine": "auto"
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "printWidth": 120,
+  "semi": true
 }
