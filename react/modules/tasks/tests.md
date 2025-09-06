@@ -161,9 +161,54 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
 
-## Points Distribution
+## Points
 
-### Student can get 100 points
+A student can achieve a maximum of 100 points.
+
+## 📚 FAQ (Frequently Asked Questions)
+
+### ❓ Am I allowed to modify existing components to make testing easier?
+
+Yes — if necessary, you are allowed to modify the component code to improve testability. Just make sure you don’t change the logic or convert class components to functional ones.
+
+### ❓ Can I add data-testid attributes?
+
+Yes. You may add data-testid attributes if necessary, but prefer semantic queries such as getByRole, getByLabelText, or getByText, following Testing Library’s query priority.
+
+### ❓ Can I use real API calls in tests?
+
+No. You must test your code, not the backend. All API calls should be mocked using `jest.mock`, `vi.mock`, or tools like Mock Service Worker (MSW). Tests should not rely on external services.
+
+### ❓ If one file has low coverage but overall project coverage is fine, will I lose points?
+
+No. The rule applies to the total (global) coverage only.
+
+### ❓ How do I set up coverage threshold?
+
+In your test config (e.g., jest.config.js):
+
+```
+coverageThreshold: {
+    global: {
+        statements: 80,
+        branches: 50,
+        functions: 50,
+        lines: 50,
+    },
+},
+```
+
+### ❓ Should I test main.tsx or App.tsx?
+
+You don’t need to test main.tsx directly. Focus on components like App.tsx and everything rendered within it.
+
+### ❓ Is deployment required for this task?
+
+No, deployment is not mandatory for the unit testing task.  
+That said, deploying your app (e.g., to GitHub Pages, Vercel, or Netlify) is highly recommended — it makes the review process easier and demonstrates good development practice.  
+If you'd like to deploy, feel free to do so, but it won’t affect your score.
+
+### Cross-check (score can be less if some parts of the functionality don't work)
 
 - **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
 - **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
