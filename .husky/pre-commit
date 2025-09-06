@@ -1,0 +1,22 @@
+#!/bin/bash
+
+BASIC_RED="\033[0;31m"
+BASIC_GREEN="\033[0;32m"
+BASIC_YELLOW="\033[0;33m"
+BASIC_CYAN="\033[0;36m"
+ENDCOLOR="\033[0m"
+
+run_prettier () {
+  echo -e "${BASIC_CYAN}✨ Formatting staged files with Prettier${ENDCOLOR}"
+  npx lint-staged
+  if [[ $? -ne 0 ]]
+  then
+    echo -e "${BASIC_RED}❌ Prettier formatting failed.${ENDCOLOR}"
+    echo -e "${BASIC_YELLOW}⚠️ Please fix the errors and try again.${ENDCOLOR}"
+    exit 1
+  fi
+}
+
+run_prettier
+
+printf "${BASIC_GREEN}✅ Prettier formatting completed successfully.${ENDCOLOR}\n"
