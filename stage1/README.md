@@ -37,7 +37,7 @@
 
 ### Week #1
 
-#### October 29, 2024
+#### September 9, 2025
 
 - Modules:
 
@@ -59,7 +59,7 @@
 
 ### Week #2
 
-#### November 5, 2024
+#### September 16, 2025
 
 - Modules:
 
