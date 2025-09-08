@@ -422,7 +422,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - [ ] The Main page should contain general information about the developers, project, and course. - **10 points**
 - [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. - **10 points**
-- [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Main Page" button. - **10 points**
+- [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Sign Out" button. - **10 points**
 - [ ] When the token expires - the user should be redirected to the Main page automatically. - **10 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. - **10 points**
 
