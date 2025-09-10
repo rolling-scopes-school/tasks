@@ -86,9 +86,9 @@
 
 - Tests:
 
-  - [St1] RSS Test
-  - [St1] Git test
-  - [St1] Fundamentals of the Internet
+  - [[St1] RSS Test](modules/rs-school-intro)
+  - [[St1] Git test](modules/git)
+  - [[St1] Fundamentals of the Internet](modules/basic-tools)
 
 ### Week #2
 
