@@ -23,7 +23,6 @@ The project consists of three parts:
 
 - [Requirements and Evaluation Criteria](git-markdown.md)
 - [Tips for Completing the Assignment Using VS Code](cv-hints.md)
-- [Tips for Completing the Assignment Using GitHub](cv-github-hints.md)
 - In this part of the task, you create a personal public repository named `rsschool-cv`, add your CV in Markdown format to it, and deploy it on GitHub Pages.
 - Evaluation is based on the commit history and pull request.
 - Estimated completion time: 2 hours
@@ -33,7 +32,6 @@ The project consists of three parts:
 
 - [Requirements and Evaluation Criteria](html-css-git.md)
 - [Tips for Completing the Assignment Using VS Code](cv-hints.md)
-- [Tips for Completing the Assignment Using GitHub](cv-github-hints.md)
 - In this part of the task, you continue working in the previously created repository. Create another branch called `rsschool-cv-html`, add `index.html` and `style.css` files with arbitrary content to it, and deploy them on GitHub Pages.
 - Evaluation is based on the commit history and pull request.
 - Estimated completion time: 1 hour

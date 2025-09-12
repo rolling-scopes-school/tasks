@@ -4,7 +4,6 @@ Your task is to create a repository according to the requirements, add your CV i
 
 - [Task description and requirements](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/en/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv)
 - [Tips for completing the task using VS Code](cv-hints.md)
-- [Tips for completing the task using GitHub](cv-github-hints.md)
 
 ## Workflow
 

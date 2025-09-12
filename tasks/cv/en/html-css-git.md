@@ -4,7 +4,6 @@ Your task is to create a branch named `rsschool-cv-html` from the `gh-pages` bra
 
 - [Task description and requirements](cv.md)
 - [Tips for completing the task using VS Code](cv-hints.md)
-- [Tips for completing the task using GitHub](cv-github-hints.md)
 
 Please note that the tips provided are not part of the task. Follow the tips only as much as they can help you.
 
