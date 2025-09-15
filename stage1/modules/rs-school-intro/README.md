@@ -4,7 +4,7 @@ To excel in RS School, it's crucial to comprehend the course structure, unique a
 
 The course documentation answers most queries. However, it's worth noting that the educational process is ever-changing, and the documentation may not always be up-to-date.
 
-## Objectives for This Module:
+## Objectives for This Module
 
 1. Get to Know RS School and the Course:
    - Educational process in the community-based school
@@ -23,7 +23,7 @@ The course documentation answers most queries. However, it's worth noting that t
 
 ## Theory
 
-1. Watch [the introductory session for the 2024Q4 intake](https://www.youtube.com/watch?v=cD3cFXkNmoU)
+1. Watch [the introductory session for the 2025Q3 intake](https://www.youtube.com/live/G1aSSeq2XbE)
 2. Read the course documentation <https://rs.school/docs/ru>
    - Learning process
    - Possible reasons for expulsion
@@ -32,16 +32,16 @@ The course documentation answers most queries. However, it's worth noting that t
    - Who is an RS Activist?
    - When is employment possible?
 3. Remember the etiquette rules of RS School:
-   - If someone helped you, don't forget to say thank you. Preferably, use https://app.rs.school/gratitude
+   - If someone helped you, don't forget to say thank you. Preferably, use <https://app.rs.school/gratitude>
    - If someone helped you with a question, and you see other students struggling with the same issue, it is highly encouraged to reciprocate the help
    - If you have any problems with task completion or the school platform (RS App) - it's best not to direct message administrators or moderators
 
 ## Practice
 
-1. You need to create and fill out a [student profile in RS APP](https://app.rs.school/registry/student). Access to the RS APP is through your GitHub account. You can create a GitHub account here - https://github.com/.
-2. Check if you're enrolled in the course. To do this, go to https://app.rs.school/ and navigate to the "Dashboard" page. The top of the page should display a heading like `Student dashboard {Your Course Name}`, for example, `Student dashboard JS/FE Pre-School 2022Q4`.
+1. You need to create and fill out a [student profile in RS APP](https://app.rs.school/registry/student). Access to the RS APP is through your GitHub account. You can create a GitHub account here - <https://github.com/>.
+2. Check if you're enrolled in the course. To do this, go to <https://app.rs.school/> and navigate to the "Dashboard" page. The top of the page should display a heading like `Student dashboard {Your Course Name}`, for example, `Student dashboard JS/FE Pre-School 2022Q4`.
 3. Include your GitHub account in your Discord nickname <https://rs.school/docs/ru/rs-school-chats>
-4. Bookmark the course schedule. To do this, go to https://app.rs.school/ and navigate to the "Schedule" page.
+4. Bookmark the course schedule. To do this, go to <https://app.rs.school/> and navigate to the "Schedule" page.
 5. Take the "[St1] RSS Test" in RS APP ([Submitting assignments in RS APP](https://rs.school/docs/ru/rs-app-tasks#тесты)).
 
 ## Terminology You Need to Know
