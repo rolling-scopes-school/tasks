@@ -23,7 +23,7 @@ The course documentation answers most queries. However, it's worth noting that t
 
 ## Theory
 
-1. Watch [the introductory session for the 2024Q4 intake](https://www.youtube.com/watch?v=cD3cFXkNmoU)
+1. Watch [the introductory session for the 2025Q3 intake](https://www.youtube.com/live/G1aSSeq2XbE)
 2. Read the course documentation <https://rs.school/docs/ru>
    - Learning process
    - Possible reasons for expulsion
