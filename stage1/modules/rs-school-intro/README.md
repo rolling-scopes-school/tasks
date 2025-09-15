@@ -23,7 +23,7 @@ The course documentation answers most queries. However, it's worth noting that t
 
 ## Theory
 
-1. Watch [the introductory session for the 2025Q3 intake](https://www.youtube.com/live/G1aSSeq2XbE)
+1. Watch [the introductory session for the 2024Q4 intake](https://www.youtube.com/watch?v=cD3cFXkNmoU)
 2. Read the course documentation <https://rs.school/docs/ru>
    - Learning process
    - Possible reasons for expulsion
@@ -59,7 +59,7 @@ The course documentation answers most queries. However, it's worth noting that t
 3. [Student Feedback on the School from 2020Q3](https://docs.google.com/spreadsheets/d/1IACz3tcZTx71Qh9z6ZXu8VimgISJvrO-bJUBLpQ-bVM/edit#gid=0)
 4. [Student Feedback on the School from 2023Q4](https://docs.google.com/spreadsheets/d/1Hx1z7kZxkMcuJe0-qiAfTiGnBSBKu-oUwRXQevBrafQ/edit)
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 
 #### Can I study the modules and do the projects in advance?
 
