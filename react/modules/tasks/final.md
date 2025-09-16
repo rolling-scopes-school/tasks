@@ -280,7 +280,7 @@ curl https://jsonplaceholder.typicode.com/posts/1
 
 So the URL might look so:
 `http://localhost:5137/GET/aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3Bvc3RzLzE=`
-And we you want to make a POST request to the same endpoint, e.g.:
+And we want to make a POST request to the same endpoint, e.g.:
 
 ```curl
 curl -d '{"title":"fakeTitle","userId":1,"body":"fakeMessage"}' https://jsonplaceholder.typicode.com/posts
