@@ -44,9 +44,9 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 - [Guideline](https://codeguide.academy/html-css.html#html)
 - Code quality guide
-  - [General principles](../../stage1/modules/clean-code/materials/generic-principles.md)
-  - [HTML and CSS recommendations - beginner level](../../stage1/modules/clean-code/materials/html-and-css.md)
-  - [HTML and CSS recommendations - advanced level](../../stage1/modules/clean-code/materials/html-and-css-extended.md)
+  - [General principles](../../modules/clean-code/materials/generic-principles.md)
+  - [HTML and CSS recommendations - beginner level](../../modules/clean-code/materials/html-and-css.md)
+  - [HTML and CSS recommendations - advanced level](../../modules/clean-code/materials/html-and-css-extended.md)
 
 ## Technical requirements
 
