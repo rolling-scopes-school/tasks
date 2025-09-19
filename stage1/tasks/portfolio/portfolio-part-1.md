@@ -67,7 +67,7 @@ Any disputed issues should be resolved in favor of the student being assessed.
    - `Price` section: **+4**
    - `FAQ` section: **+4**
    - `<footer>`: **+4**
-4. At any width between 1440px and 380px, no horizontal scrollbar appears. All page content displays exactly as intended by the design — nothing is cropped, removed, or shifted.: **+12**
+4. At any width between 1440px and 380px, no horizontal scrollbar appears. All page content displays exactly as intended by the design — nothing is cropped, removed, or shifted: **+12**
    - no horizontal scroll bar between 1440px and 768px widths: **+6**
    - no horizontal scroll bar between 768px and 380px widths: **+6**
 5. During smooth resizing of the browser window from 1440px to 380px, the layout occupies the full width of the window (including specified margins), elements adjust their sizes and positions appropriately without full scaling, no elements overlap, and images maintain their correct aspect ratios: **+8**

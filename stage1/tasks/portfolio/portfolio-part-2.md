@@ -53,7 +53,7 @@ Any disputed issues should be resolved in favor of the student being assessed.
    - When clicking the cross, the burger menu smoothly hides, moving to the right of the screen, and the cross smoothly transforms into a burger icon: **+4**
    - When clicking on any link in the menu, the burger menu smoothly hides to the right, and the cross smoothly transforms into a burger icon: **+4**
    - Links scroll smoothly to their anchor points: **+4**
-   - The page behind the open menu does not scroll: **+4**
+   - The page behind the open menu does not scroll. After closing the menu, scrolling works again: **+4**
    - Above 768px, both the burger icon and menu are hidden, and the standard navigation panel is shown: **+4**
 2. Implementation of the **Slider**: **+40**
 
@@ -75,7 +75,7 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 - A modal opens when you click any "BOOK NOW" button in the cards within the `Packages & Pricing` section: **+4**
 - The part of the page outside the Modal is darkened: **+4**
-- When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+4**
+- When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+6**
 - Clicking both outside the modal and on the close button closes it: **+4**
 - The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+4**
 
