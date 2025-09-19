@@ -127,7 +127,7 @@
 
 - Tasks:
 
-  - [Portfolio. Part 1: Responsive Layout](../tasks/portfolio/portfolio.md)
+  - [Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio.md)
 
 - Tests:
 
@@ -141,7 +141,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](../tasks/portfolio/portfolio-part-1.md)"
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio-part-1.md)"
 
 - Modules:
 
@@ -151,7 +151,7 @@
 
 - Tasks:
 
-  - [Portfolio. Part 2: Adding Functionality](../tasks/portfolio/portfolio.md)
+  - [Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio.md)
 
 - Tests:
 
@@ -165,7 +165,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](../tasks/portfolio/portfolio-part-2.md)"
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio-part-2.md)"
 
 - Modules:
 
