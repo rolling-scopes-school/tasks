@@ -73,9 +73,9 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 4. Implementation of the **modals**: **+22**
 
-- A modal opens when you click any "BOOK NOW" button in the cards within the `Packages & Pricing` section: **+4**
+- A modal opens when you click any "BOOK NOW" button in the cards within the `Packages & Pricing` section: **+6**
 - The part of the page outside the Modal is darkened: **+4**
-- When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+6**
+- When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+4**
 - Clicking both outside the modal and on the close button closes it: **+4**
 - The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+4**
 
