@@ -22,7 +22,7 @@ In this part of the task, you need to add the following functionality to the web
 1. The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository).
 2. Create a new branch named `portfolio-part2` from `portfolio` branch. You will find the `portfolio` folder containing the project files completed in the previous stage within this branch.
 3. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).  
-  [How to submit](#how-to-submit).
+   [How to submit](#how-to-submit).
 4. Continue working on the task within the branch you have created.
 5. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria-130-points).
 6. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation).
@@ -56,25 +56,32 @@ Any disputed issues should be resolved in favor of the student being assessed.
    - The page behind the open menu does not scroll: **+4**
    - Above 768px, both the burger icon and menu are hidden, and the standard navigation panel is shown: **+4**
 2. Implementation of the **Slider**: **+40**
-  - By default, the slider track must be horizontally centered on the page: **+4**
-  - On desktop, slider scrolling is activated by hovering the cursor over the left or right area: **+8**
-  - On desktop, the active area for scrolling the slider is ~30% of the screen width on each side: **+8**
-  - On desktop, the remaining area in the center is inactive: **+4**
-  - On mobile, the slider is scrolled by swiping with a finger: **+8**
-  - The slider's end positions are aligned with the page content on either side. Scrolling is locked beyond these points: **+8**
+
+- By default, the slider track must be horizontally centered on the page: **+4**
+- On desktop, slider scrolling is activated by hovering the cursor over the left or right area: **+8**
+- On desktop, the active area for scrolling the slider is ~30% of the screen width on each side: **+8**
+- On desktop, the remaining area in the center is inactive: **+4**
+- On mobile, the slider is scrolled by swiping with a finger: **+8**
+- The slider's end positions are aligned with the page content on either side. Scrolling is locked beyond these points: **+8**
+
 3. Implementation of the **accordions** in the `FAQ` section: **+24**
-  - By default, the first accordion is open: **+4**
-  - You can open or close the accordion by clicking anywhere on its header: **+4**
-  - Only one accordion can be open at a time (opening a new one closes the previous): **+8**
-  - Accordion state persists after page reload: **+8**
+
+- By default, the first accordion is open: **+4**
+- You can open or close the accordion by clicking anywhere on its header: **+4**
+- Only one accordion can be open at a time (opening a new one closes the previous): **+8**
+- Accordion state persists after page reload: **+8**
+
 4. Implementation of the **modals**: **+22**
-  - A modal opens when you click any "BOOK NOW" button in the cards within the `Packages & Pricing` section: **+4**
-  - The part of the page outside the Modal is darkened: **+4**
-  - When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+4**
-  - Clicking both outside the modal and on the close button closes it: **+4**
-  - The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+4**
+
+- A modal opens when you click any "BOOK NOW" button in the cards within the `Packages & Pricing` section: **+4**
+- The part of the page outside the Modal is darkened: **+4**
+- When the Modal is open, the vertical scroll of the page becomes inactive; when closed, it becomes active again: **+4**
+- Clicking both outside the modal and on the close button closes it: **+4**
+- The Modal is centered on both axes, sizes of modal elements and their layout match the design: **+4**
+
 5. Implementation of the **scroll down** button: **+4**
-  - When the button is clicked, the page scrolls to `About` section: **+4**
+
+- When the button is clicked, the page scrolls to `About` section: **+4**
 
 ### Penalties
 

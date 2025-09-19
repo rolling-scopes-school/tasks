@@ -16,6 +16,7 @@ Portfolio is the stage#1 task, during which you'll create a responsive landing p
 The task consists of three parts:
 
 - [Portfolio. Part 1: Responsive Layout](portfolio-part-1.md)
+
   - In this part of the task, you need to create a responsive Portfolio page based on the Figma design.
   - The layout will be evaluated for validity, accuracy at specified breakpoints, responsiveness, and the absence of horizontal scrollbars..
 
@@ -124,24 +125,25 @@ After receiving the task but before the deadline, please go to the RS App at htt
 <details>
   <summary>[RU] Webinars</summary>
 
-  - Sergey Shalyapin's Webinars
-    - [Stream 11.02.2020. Broswers and IDEs. HTML and CSS Basics [RU]](https://youtu.be/UQavTWiTpnA)
-    - [Stream 03.03.2020 Forms & Inputs. Flexbox & Grid example [RU]](https://youtu.be/PhRVJC0kBGE)
-    - [Stream 10.03.2020. DOM events exampes [RU]](https://youtu.be/_5f0kznOM_A)
-    - [Stream 17.03.2020 DOM examples [RU]](https://youtu.be/0M9Rz-wXYas)
-    - [Stream 07.04.2022. SCSS (Sass) Basics. Flex vs Grid Layout [RU]](https://youtu.be/MOrQRgP8kbo)
-    - [Stream 12.04.2022. Media queries. Responsive vs Adaptive. [RU]](https://youtu.be/CbtdP2vGOI8)
-    - [Stream 20.04.2022. JS DOM & Events. Simple carousel example [RU]](https://youtu.be/2xP-HahCtio)
-  
-  - Victoria Vorozhun's Webinars
-    - [Friday Live Coding. Part 1 [RU]](https://youtu.be/ZAde-IJAHzo)
-    - [Friday Live Coding. Part 2 [RU]](https://youtu.be/BJENQIX2e2o)
-    - [Friday Live Coding. Part 3 [RU]](https://youtu.be/fooyYgIuZe8)
-    - [Friday Live Coding. Part 4 [RU]](https://youtu.be/Qk2UGlFNKPE)
-    - [Friday Live Coding. Part 5 [RU]](https://youtu.be/ouZnGUefneQ)
-    - [Code Repository](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
-    - [Figma Design](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
-  
+- Sergey Shalyapin's Webinars
+
+  - [Stream 11.02.2020. Broswers and IDEs. HTML and CSS Basics [RU]](https://youtu.be/UQavTWiTpnA)
+  - [Stream 03.03.2020 Forms & Inputs. Flexbox & Grid example [RU]](https://youtu.be/PhRVJC0kBGE)
+  - [Stream 10.03.2020. DOM events exampes [RU]](https://youtu.be/_5f0kznOM_A)
+  - [Stream 17.03.2020 DOM examples [RU]](https://youtu.be/0M9Rz-wXYas)
+  - [Stream 07.04.2022. SCSS (Sass) Basics. Flex vs Grid Layout [RU]](https://youtu.be/MOrQRgP8kbo)
+  - [Stream 12.04.2022. Media queries. Responsive vs Adaptive. [RU]](https://youtu.be/CbtdP2vGOI8)
+  - [Stream 20.04.2022. JS DOM & Events. Simple carousel example [RU]](https://youtu.be/2xP-HahCtio)
+
+- Victoria Vorozhun's Webinars
+  - [Friday Live Coding. Part 1 [RU]](https://youtu.be/ZAde-IJAHzo)
+  - [Friday Live Coding. Part 2 [RU]](https://youtu.be/BJENQIX2e2o)
+  - [Friday Live Coding. Part 3 [RU]](https://youtu.be/fooyYgIuZe8)
+  - [Friday Live Coding. Part 4 [RU]](https://youtu.be/Qk2UGlFNKPE)
+  - [Friday Live Coding. Part 5 [RU]](https://youtu.be/ouZnGUefneQ)
+  - [Code Repository](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
+  - [Figma Design](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
+
 </details>
 
 <details>
@@ -154,5 +156,3 @@ After receiving the task but before the deadline, please go to the RS App at htt
   - [RS School. Lithuania. DOM Events [EN]](https://youtu.be/CSije4jqjv8?si=0_oxwJDH-QdQvSFs)
 
 </details>
-
-

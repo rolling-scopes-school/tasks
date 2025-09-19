@@ -23,12 +23,12 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 2. Create a new branch named `portfolio` from the `main` branch. Create a folder `portfolio` in the created branch. Place your code in this folder.
 3. Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
 4. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).  
-  [How to submit](#how-to-submit).
+   [How to submit](#how-to-submit).
 5. Complete the task. Don't forget to submit your work before the deadline (see step 8).
 6. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria-160-points).
 7. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
 8. Open a Pull Request from the `portfolio` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
-  There is no need to merge this Pull Request.
+   There is no need to merge this Pull Request.
 9. After the task deadline has passed, the cross-check phase will start, lasting three days. Failure to complete and submit cross-check reviews in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/) will result in zero points for this task.
 
 ## Criteria for Evaluation
@@ -74,19 +74,22 @@ Any disputed issues should be resolved in favor of the student being assessed.
 6. At screen widths of 768px, the menu and navigation links in `<header>` are concealed, and a burger menu icon is displayed: **+4**  
    (Note: Activation of the burger menu icon is not evaluated at this stage.)
 7. Interactivity: **+26**
-  - Smooth scrolling with anchor links: **+4**
-  - Interactivity of the links and buttons is implemented according to the Figma layout. Interactivity includes not only changing cursor's appearance, for example, using the `cursor: pointer` property, but also the use of other visual effects, such as changing the background color or font color, following the **Styleguide** in the Figma layout. If the interactivity is not specified in the **Styleguide**, `cursor: pointer` property is enough: **+4**
-  - Each Package-card in the `Packages & Pricing` section is interactive (color for border and button) when hovering over any area of the card: **+6**
-  - Each accordion's header in the `FAQ` section is interactive (color for name and "plus" sign) when hovering over any area of the header, except content of this accordion: **+6**
-     (Note: Opening/closing of accordion sections is not evaluated at this stage.)
-  - Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+2**
-  - Hover effects are active on desktop devices (as per the `Desktop` device type in DevTools) and are disabled for mobile devices (as per the `Mobile` device type in DevTools): **+4**
+
+- Smooth scrolling with anchor links: **+4**
+- Interactivity of the links and buttons is implemented according to the Figma layout. Interactivity includes not only changing cursor's appearance, for example, using the `cursor: pointer` property, but also the use of other visual effects, such as changing the background color or font color, following the **Styleguide** in the Figma layout. If the interactivity is not specified in the **Styleguide**, `cursor: pointer` property is enough: **+4**
+- Each Package-card in the `Packages & Pricing` section is interactive (color for border and button) when hovering over any area of the card: **+6**
+- Each accordion's header in the `FAQ` section is interactive (color for name and "plus" sign) when hovering over any area of the header, except content of this accordion: **+6**
+  (Note: Opening/closing of accordion sections is not evaluated at this stage.)
+- Mandatory requirement for interactivity: smooth change in the appearance of an element on hover, without affecting adjacent elements: **+2**
+- Hover effects are active on desktop devices (as per the `Desktop` device type in DevTools) and are disabled for mobile devices (as per the `Mobile` device type in DevTools): **+4**
+
 8. Checking validation of the page: **+14**
-  - The layout for the page is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+6**
-     - Valid markup of checked page corresponds to the message _"Document checking completed. No errors or warnings to show."_ In this case, you assigns the full points for the checked page (+6).
-     - If there are `warnings` but no `errors`, you assigns half of the points (+3) for the checked page
-   - Favicon is added to the page: **+4**
-   - Only one `<h1>` on the page: **+4**
+
+- The layout for the page is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+6**
+  - Valid markup of checked page corresponds to the message _"Document checking completed. No errors or warnings to show."_ In this case, you assigns the full points for the checked page (+6).
+  - If there are `warnings` but no `errors`, you assigns half of the points (+3) for the checked page
+- Favicon is added to the page: **+4**
+- Only one `<h1>` on the page: **+4**
 
 ### Penalties
 
@@ -137,4 +140,4 @@ Penalties for the task are assigned by the course curators, not by students. An 
 
 ## Materials
 
--  [How to load fonts [EN]](https://www.jonoalderson.com/performance/youre-loading-fonts-wrong/)
+- [How to load fonts [EN]](https://www.jonoalderson.com/performance/youre-loading-fonts-wrong/)
