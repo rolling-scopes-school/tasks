@@ -456,7 +456,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### General requirements - max 50 points
 
-- [ ] Multiple (at lest 2) languages support / i18n. - **30 points**
+- [ ] Multiple (at least 2) languages support / i18n. - **30 points**
 - [ ] Sticky header. - **10 points**
 - [ ] Errors are displayed in the user friendly format. - **10 points**
 
