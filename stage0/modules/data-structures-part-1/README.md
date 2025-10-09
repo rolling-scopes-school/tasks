@@ -29,8 +29,8 @@
 Задачи:
 
 1. https://github.com/rolling-scopes-school/brackets
-2. https://github.com/Shastel/towel-sort
-3. https://github.com/romacher/morse-decoder
+2. https://github.com/rolling-scopes-school/towel-sort
+3. https://github.com/rolling-scopes-school/morse-decoder
 4. [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
 ## Дополнительные материалы

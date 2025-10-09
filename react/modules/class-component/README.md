@@ -25,23 +25,23 @@ Students are encouraged to study the following resources:
 
 1. **Understanding Class Components:**
 
-   - [Component](https://react.dev/reference/react/Component) - [1 hour]
-   - [React Official Docs—Components and Props](https://legacy.reactjs.org/docs/components-and-props.html) - [15 minutes]
-   - [React Official Docs—State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html) - [15 minutes]
+   - [**React Docs** - Component API](https://react.dev/reference/react/Component) - [1 hour]
+     - [Defining a class component](https://react.dev/reference/react/Component#defining-a-class-component)
+     - [Adding state to a class component](https://react.dev/reference/react/Component#adding-state-to-a-class-component)
+     - [Adding lifecycle methods to a class component](https://react.dev/reference/react/Component#adding-lifecycle-methods-to-a-class-component)
+   - [**React Docs (Legacy)** - React.Component](https://legacy.reactjs.org/docs/react-component.html) - [1 hour]
+     - [Components and Props](https://legacy.reactjs.org/docs/components-and-props.html)
+     - [State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
+     - [Handling Events](https://legacy.reactjs.org/docs/handling-events.html)
 
 2. **Implementing Class Components:**
 
-   - [React Tutorial—Class Components](https://www.tutorialspoint.com/reactjs/reactjs_components.htm) - [30 minutes]
-   - [Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
+- [**React Docs** - Component Usage](https://react.dev/reference/react/Component#usage) - [30 minutes]
+- [**W3Schools** - React Class Components](https://www.w3schools.com/react/react_class.asp) - [30 minutes]
 
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
 
-- React.Component [Overview](https://legacy.reactjs.org/docs/react-component.html)
-- Your [First Component](https://react.dev/learn/your-first-component)
-- [Passing Props](https://react.dev/learn/passing-props-to-a-component) to a Component
-- [Responding to Events](https://react.dev/learn/responding-to-events)
-- [Rendering Lists](https://react.dev/learn/rendering-lists)
-- [Sharing State](https://react.dev/learn/sharing-state-between-components) Between Components
-- [This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
+- [**DigitalOcean Tutorial** - Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
+- [**freeCodeCamp Article** - This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) - [30 minutes]

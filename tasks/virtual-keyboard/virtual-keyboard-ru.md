@@ -126,7 +126,7 @@
 
 - ссылка на [Pull Request](#requirements-for-commits-pull-request-repository) должна быть засабмичена в Cross-Check: Submit;
 - репозиторий с твоей работой должен быть сделан **публичным** (public) после дедлайна выполнения задания. Убедись, что pull request и deploy доступны для просмотра;
-- это задание будет проверяться другими участниками курса в ходе [кросс-чека](https://docs.rs.school/#/cross-check-flow).
+- это задание будет проверяться другими участниками курса в ходе [кросс-чека](https://rs.school/docs/ru/cross-check-flow).
 
 ## Полезные ссылки:
 

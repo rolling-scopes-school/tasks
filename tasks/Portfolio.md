@@ -81,7 +81,7 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://docs.rs.school/#/cross-check-flow)
+- инструкция по проведению cross-check: [docs.rs.school/#/cross-check-flow](https://rs.school/docs/ru/cross-check-flow)
 - форма для проверки задания: https://portfolio-cross-check.netlify.app/
 
 ## Материалы к заданию

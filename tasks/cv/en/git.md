@@ -92,7 +92,7 @@ Pull Requests are created through the GitHub interface. Here's how:
 - Click the "Compare & pull request" button at the top right. This button appears if there are changes in the development branch compared to another branch, even an extra dot in the README file.
 - Specify from which repository branch to which branch you are creating the Pull Request.
 - Click the green "Create pull request" button. You've opened a Pull Request. Leave it as it is; it makes it convenient for the mentor to review the code.
-- You can and should add a description to the Pull Request. [The Pull Request description should contain the following information](https://docs.rs.school/#/en/pull-request-review-process?id=Описание-pull-request-должно-содержать-следующую-информацию).
+- You can and should add a description to the Pull Request. [The Pull Request description should contain the following information](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following).
 - You can add an image to the Pull Request description by simply dragging it from your computer.
 - If you click the "Merge pull request" button, the Pull Request will be closed, and the files from the development branch will be moved to the branch you're merging into.
 

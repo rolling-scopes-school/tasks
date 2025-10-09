@@ -22,7 +22,7 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Preprocessors and Sass:**
-   - [Preprocessors and SASS (Video)](https://www.youtube.com/watch?v=JO8DvVZbxDw&feature=youtu.be) - 2 hours
+   - [Preprocessors and SASS (Video)](https://www.youtube.com/watch?v=JO8DvVZbxDw) - 2 hours
      - [Associated Slides (in Russian)](https://slides.com/viktoryiavorozhun/deck)
    - [Sass Basics (Official Guide)](https://sass-lang.com/guide/) - 1 hour
    - [Overview of PostCSS tool](https://postcss.org/)

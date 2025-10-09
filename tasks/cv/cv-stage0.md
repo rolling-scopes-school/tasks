@@ -27,7 +27,7 @@
    Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
 5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
    Название Pull Request `CV. Cross-Check`  
-   [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
+   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).  
    Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
 6. В файл `README.md` ветки `main` добавьте две ссылки, в которых вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этим ссылкам должны открываться страницы CV в формате markdown и в виде свёрстанной страницы
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
@@ -77,10 +77,9 @@
 
 ## Проверка задания CV#3. CV Cross-Check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://rolling-scopes-school.github.io/checklist/ (пункт "CV#3. CV. Cross-Check")
 - видео с примером кросс-чека https://youtu.be/PPGO8Mvtc20
-- ссылки на самые лучшие работы вашего набора с очень высоким качеством выполнения добавьте, пожалуйста, в эту форму https://forms.gle/kcmAkFK4j1EGW5JS8
 
 ## Материалы
 

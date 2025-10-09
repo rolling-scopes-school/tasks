@@ -1,5 +1,16 @@
 # REST Client
 
+## Framework Options
+
+You can choose from several modern React frameworks for your project. All of these support server-side logic, routing, and are suitable for building full-stack React applications:
+
+- **React Router 7 (Framework mode)**: The latest version of React Router, now with features merged from Remix. [Docs](https://reactrouter.com/start/modes#framework)
+- **Next.js (App Router)**: The recommended way to use Next.js for full-stack React apps. [Docs](https://nextjs.org/docs/app)
+- **Tanstack Start**: A modern, full-stack React framework from the creators of TanStack Query. [Docs](https://tanstack.com/start/latest)
+- **Waku**: A minimal React framework for building full-stack apps. [Docs](https://waku.gg/)
+
+You are free to choose any of these options based on your team's preferences and project requirements.
+
 You will be working on creating a light-weight version of Postman in one app.
 PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TASK
 
@@ -28,7 +39,10 @@ Design, prototype, as well as implementation of the application, are up to you.
 
 - Application doesn't require a backend.
 - Application should support any open, user-specified API (RESTful).
-- You will use either NextJS or Remix to make calls to the endpoint through the server. So this is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+- You will use either **Next.js (App Router)** or **React Router 7 (Framework mode)** to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+  - **React Router 7 Framework mode** is the evolution of Remix, as Remix features have been merged into React Router. See [React Router 7 Framework mode docs](https://reactrouter.com/start/modes#framework).
+  - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app).
+  - You may also use **Tanstack Start** ([docs](https://tanstack.com/start/latest)) or **Waku** ([docs](https://waku.gg/)) as alternative modern React frameworks for full-stack development.
 
 ## Application structure
 
@@ -50,7 +64,7 @@ Your app must contain:
 
 - team lead should create a private repo in GitHub and invite other members
 - repo name **rest-client-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
-- the commit history should display the application development process. [Commit requirements](https://docs.rs.school/#/git-convention)
+- the commit history should display the application development process. [Commit requirements](https://rs.school/docs/ru/git-convention)
 - the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
 - in case you will use proxy-service you need to include instructions on how to run it locally
@@ -73,11 +87,18 @@ You are free to choose your own way of developing the project and the repository
 - private routes, 404, error boundary
 - using jQuery in the main application code is not allowed (might be a part of other libraries, so pay attention to what you are using)
 - you MUST use React 18 and above
-- you MUST use either NextJS or Remix with Vite (or React Router 7)
+- you MUST use one of the following modern React frameworks for your project:
+  - **React Router 7 (Framework mode)** (recommended; includes Remix features)
+  - **Next.js (App Router)**
+  - **Tanstack Start**
+  - **Waku**
+
+See the section "Framework Options" above for more details and links.
+
 - you might use any CSS frameworks, any JS/components libs you want, HTML and CSS pre-processors
 - you MUST use Typescript
 - tests should be present on the project (**test** command in the package.json), and test coverage should be reported when running the command; test coverage should be at least 80%
-- Eslint, prettier (**lint** and **prettier-fix** commands in the package.json)
+- Linting and formatting tools (**lint** and **format-fix** commands in the package.json)
 - Husky hooks (run **lint** on pre-commit, **test** on pre-push)
 - ❗ it is forbidden to copy the code of other students. This ban applies to HTML, CSS, and JS code. You can use small code snippets from Stack Overflow, and other self-found sources on the Internet, except GitHub repositories of course students.
 
@@ -168,9 +189,11 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ### Sign In / Sign Up
 
-- For the authentication you should use Firebase or Supabase with the email/password sign-in method.
-  Please, check this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/) as an example of Firebase usage.
-  Supabase has a [free tier](https://supabase.com/pricing). Please, check this [documentation](https://supabase.com/docs/guides/getting-started/tutorials/with-react) as an example of Supabase integration with React app.
+- For authentication you should use **Firebase**, **Supabase**, **Convex** or **NextAuth.js** with the email/password sign-in method.
+  - Firebase: see this [article](https://blog.logrocket.com/user-authentication-firebase-react-apps/) as an example of Firebase usage.
+  - Supabase: has a [free tier](https://supabase.com/pricing). See this [documentation](https://supabase.com/docs/guides/getting-started/tutorials/with-react) as an example of Supabase integration with React app.
+  - Convex: see the [Convex Quickstart](https://docs.convex.dev/quickstarts) for setup and integration details.
+  - NextAuth.js: see [documentation](https://next-auth.js.org/providers/credentials) for an implementation example. You can use any supported [adapter](https://next-auth.js.org/adapters) (for example, [Prisma](https://authjs.dev/getting-started/adapters/prisma)) and an [sqlite](https://sqlite.org/) database to persist data.
 - Client-side validation should be implemented (email and password strength - minimum 8 symbols, at least one letter, one digit, one special character, Unicode passwords must be supported)
 - Upon successful login, the user should be redirected to the Main page
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
@@ -309,17 +332,28 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
   }
   ```
 
-### History
+### History and analytics
 
 - This route should be private.
-- History code should be lazy-loaded (so unauthenticated user won't download the code).
-- History section should display request using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
-- All the requests should be saved in the local storage on submit, history section should show requests sorted by the time of their execution.
-- History section should not contain variables. If the variables have been used in the request, replace them with the respective values.
-- After navigating to the respective section, all the functional fields (URL, method selector, headers, body, values) should be restored. Please, mind this when saving the request in the local storage to ensure that all the required data will be saved.
-- If there are no requests in the local storage, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTful client.
+- History and analytics code should be lazy-loaded (so unauthenticated user won't download the code).
+- The section should be server-side generated: all request history and analytics are aggregated and rendered on the server, then sent to the client for display.
+- The section should display requests using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
+- All request history and analytics information must be loaded from **Firebase**, **Supabase**, or **Convex** for the logged in user. The information is written to the database from the server side after each request.
+- The following parameters must be stored for each request:
+  - **Request Duration (Latency):** Time taken from sending the request to receiving the response.
+  - **Response Status Code:** HTTP status code (e.g., 200, 404, 500) for each request.
+  - **Request Timestamp:** When the request was made (date and time).
+  - **Request Method:** GET, POST, PUT, DELETE, etc.
+  - **Request Size:** Size of the request payload (in bytes).
+  - **Response Size:** Size of the response payload (in bytes).
+  - **Error Details:** If the request failed, log the error message or type (timeout, network error, etc.).
+  - **Endpoint/URL:** The endpoint that was called (for grouping and analysis).
+- The section should show requests sorted by the time of their execution.
+- The section should not contain variables, because information should be recorded from the server side.
+- After navigating to the respective section, all the functional fields (URL, method selector, headers, body, values) should be restored. Please, mind this when saving the request in the database to ensure that all the required data will be saved.
+- If there are no requests in the history, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTful client.
 
-#### History template. No requests
+#### History and analytics template. No requests
 
 ```
 +----------------------------------------------------+
@@ -344,7 +378,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 +----------------------------------------------------+
 ```
 
-#### History template with requests
+#### History and analytics template with requests
 
 ```
 +----------------------------------------------------+
@@ -377,19 +411,19 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 ## Evaluation criteria
 
-**Maximum available points for the task are 450**
+**Maximum available points for the task are 500**
 
 ### Cross-check criteria
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
-[How to evaluate tasks in Cross check](https://docs.rs.school/#/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+[How to evaluate tasks in Cross check](https://rs.school/docs/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
 ### Main route - max 50 points
 
 - [ ] The Main page should contain general information about the developers, project, and course. - **10 points**
 - [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. - **10 points**
-- [ ] If the login token is valid and unexpired, the Sign In and Sign Up buttons are replaced with the "Main Page" button. - **10 points**
-- [ ] When the token expires - the user should be redirected to the Main page automatically. - **10 points**
+- [ ] If the user is authorized, there should be a Main Page button instead of Sign In and Sign Up buttons in the upper right corner. - **10 points**
+- [ ] If the token is expired/invalid - the user should be redirected from the private routes to the Main page (it might happen either automatically, on page refresh or on route change). - **10 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. - **10 points**
 
 ### Sign In / Sign Up - max 50 points
@@ -401,17 +435,18 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### RESTful client - max 150 points
 
-- [ ] Functional editor enabling query editing and prettifying, request body provided in the URL as base64-encoded on focus out. - **35 points**
+- [ ] Functional editor enabling query editing and prettifying, request body provided in the URL as base64-encoded on request submit. - **35 points**
 - [ ] Functional read-only response section, with information about HTTP status and the code. - **30 points**
-- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the URL on change. - **15 points**
-- [ ] Input for the URL, entered value is provided in base64-encoded way on change. - **20 points**
-- [ ] Headers section, value is provided in the URL on header add/change. - **20 points**
+- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the URL on request submit. - **15 points**
+- [ ] Input for the URL, entered value is provided in base64-encoded way on request submit. - **20 points**
+- [ ] Headers section, value is provided in the URL on request submit. - **20 points**
 - [ ] Code generation section. - **30 points**
 
-### History route - max 50 points
+### History and analytics route - max 100 points
 
-- [ ] History shows informational message with links to the clients when there are no requests in the local storage. - **20 points**
-- [ ] User can navigate to the previously executed HTTP request to the RESTful client, HTTP method, URL, body, headers are restored. **30 points**
+- [ ] History and analytics is server-side generated and shows informational message with links to the clients when there are no requests in the database. - **20 points**
+- [ ] User can navigate to the previously executed HTTP request to the RESTful client, HTTP method, URL, body, headers are restored. - **30 points**
+- [ ] The following analytics are recorded to the database from the application server side and displayed to the user: request duration, response status code, request timestamp, request method, request size, response size, error details, endpoint/URL. - **50 points**
 
 ### Variables route - max 50 points
 
@@ -429,18 +464,78 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### Penalties
 
-- [ ] Vite/NextJS default favicon **-50 points**
-- [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
-- [ ] The presence of errors and warnings in the console **-20 points** for each
-- [ ] The presence in the console of the results of the console.log execution **-20 points** for each
-- [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
-- [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
-- [ ] Making commits after the deadline **-100 points**
-- [ ] Absence of tests **-250 points**
-- [ ] Test coverage below 80% **-100 points**
-- [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
-- [ ] Absence of linting **-150 points**
-- [ ] Absence of prettier **-100 points**
-- [ ] Absence of husky git hooks **-100 points**
-- [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-description-must-contain-the-following) **-10 points**
-- [ ] The administration reserves the right to apply penalties for the use of incorrect repository or branch names
+- **0. Framework Choice**
+
+  - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
+
+- **1. TypeScript & Code Quality**
+
+  - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
+  - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
+
+- **2. Test Coverage**
+
+  - [ ] Statement coverage below 80% (≥70%): **-50 points**
+  - [ ] Statement coverage below 70% (≥50%): **-100 points**
+  - [ ] All coverage metrics below 50%: **-150 points**
+  - [ ] Absence of tests **-250 points**
+
+- **3. React Best Practices**
+
+  - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
+
+- **4. Console & Error Handling**
+
+  - [ ] The presence of errors and warnings in the console **-20 points** for each
+  - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
+  - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
+
+- **5. Development Tools**
+
+  - [ ] Absence of a linting tool **-150 points**
+  - [ ] Absence of a formatting tool **-100 points**
+  - [ ] Absence of husky git hooks **-100 points**
+
+- **6. UI/UX**
+
+  - [ ] Vite/NextJS default favicon **-50 points**
+
+- **7. Project Management**
+  - [ ] Making commits after the deadline **-100 points**
+  - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
+  - [ ] ⚠️ The administration reserves the right to apply penalties for the use of incorrect repository or branch names
+
+## Sequence Diagram: User Journey and Analytics Flow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant UI as React UI
+    participant Server as Application Server (NextJS/RR7/TS Start/Waku)
+    participant API as External API
+    participant DB as Firebase/Supabase
+
+    User->>UI: Open REST Client
+    User->>UI: Fill request details (method, URL, headers, body)
+    User->>UI: Click 'Send Request'
+    UI->>Server: Send request details
+    Server->>API: Make HTTP request to external API
+    API-->>Server: Return response
+    Server->>DB: Store analytics (duration, status, timestamp, etc.)
+    Server-->>UI: Return response data
+    UI-->>User: Display response
+
+    User->>UI: Navigate to History and Analytics
+    UI->>Server: Request server-side generated history and analytics
+    Server->>DB: Fetch and aggregate analytics for user
+    Server-->>UI: Return server-rendered analytics and history
+    UI-->>User: Display history and analytics
+
+    User->>UI: Click 'Send Request' again in the history
+    UI->>Server: Send request details (re-execution)
+    Server->>API: Make HTTP request to external API
+    API-->>Server: Return new response
+    Server->>DB: Store new analytics (duration, status, timestamp, etc.)
+    Server-->>UI: Return new response data
+    UI-->>User: Display new response and analytics
+```

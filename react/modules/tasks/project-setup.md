@@ -1,4 +1,17 @@
-# React Vite project setup with Eslint, Prettier and Husky
+# 🧱 React Vite Project Setup with ESLint, Prettier and Husky
+
+## ⚠️ Initial Setup Instructions
+
+1. ✅ First Commit — README.md Only
+
+   - Your very first commit must contain only a README.md file.
+   - Do not install Vite, React, or any dependencies in the initial commit.
+   - Commit message should follow convention, like: `chore: initial commit with README`
+
+2. 🌿 Branching Rules
+
+   - All further development must happen in dedicated branches.
+   - The main branch should stay clean and must not be merged with any student branches.
 
 ## Technical requirements
 
