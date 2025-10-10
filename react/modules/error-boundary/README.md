@@ -25,15 +25,17 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Error Boundaries:**
-   - [Catching rendering errors with an error boundary - new version](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) - [30 minutes]
-   - [React Official Docs - Error Boundaries - legacy](https://legacy.reactjs.org/docs/error-boundaries.html) - [1 hour]
+
+   - [**React Docs** - Catching rendering errors with an error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) - [30 minutes]
+   - [**React Docs (Legacy)** - Error Boundaries](https://legacy.reactjs.org/docs/error-boundaries.html) - [30 minutes]
+
 2. **Implementing Error Boundaries:**
-   - [How To Use Error Boundaries in React](https://www.digitalocean.com/community/tutorials/react-error-boundaries) - [15 minutes]
-   - [Handling Errors with Error Boundaries](https://codepen.io/gaearon/pen/wqvxGa?editors=0010) - [15 minutes]
+   - [**DigitalOcean Tutorial** - How To Use Error Boundaries in React](https://www.digitalocean.com/community/tutorials/react-error-boundaries) - [15 minutes]
+   - [**Kent C. Dodds Blog** - Use react-error-boundary to handle errors in React](https://kentcdodds.com/blog/use-react-error-boundary-to-handle-errors-in-react) - [30 minutes]
 
 ## Additional Resources 📘
 
 Expand your knowledge with these additional materials:
 
-1. [ErrorBoundary with FallbackComponent prop](https://github.com/bvaughn/react-error-boundary?tab=readme-ov-file#errorboundary-with-fallbackcomponent-prop) - [15 minutes]
-2. [Custom error pages in React with GraphQL and Error Boundaries](https://www.freecodecamp.org/news/how-to-handle-graphql-errors-with-react-error-boundaries-dd9273feda85/) - [15 minutes]
+- [**react-error-boundary (GitHub)** - Reusable React error boundary component](https://github.com/bvaughn/react-error-boundary) - [10 minutes]
+- [**CodeSandbox Example** - Handling Errors with Error Boundaries](https://codesandbox.io/p/sandbox/react-16-error-boundaries-forked-vnhng4) - [5 minutes]

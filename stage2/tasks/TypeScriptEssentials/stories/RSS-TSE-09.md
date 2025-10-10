@@ -8,7 +8,7 @@ The objective of this task is to create a comprehensive Markdown file that lists
 
 1. **Markdown File Creation:**
 
-   - Create a new Markdown file named `TypeScript-Badges-Compilation.md` or similar.
+   - Create a new Markdown file named `badges-compilation.md` or similar.
    - Organize the file in a clear and readable format, possibly using headings, bullet points, or tables.
 
 2. **Badge Compilation:**

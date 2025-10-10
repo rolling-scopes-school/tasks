@@ -8,7 +8,7 @@
 2. От ветки `rsschool-cv-html` создайте ветку `cv-html-css`. В эту ветку автоматически переместятся файлы c вёрсткой.
 3. Проверьте соответствие вашего CV требованиям задания, самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), внесите необходимые изменения.
 4. Создайте и замержите Pull Request из ветки `cv-html-css` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
+5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
 
 ## Требования к вёрстке
 
@@ -24,7 +24,7 @@
 
 ## Требования к коммитам
 
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Технические требования
 
@@ -76,7 +76,7 @@ CV - таск, который проверяется в ходе кросс-че
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания https://rolling-scopes-school.github.io/checklist/ (пункт "CV")
 - ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 

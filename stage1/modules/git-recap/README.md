@@ -51,6 +51,6 @@ You need to take the "[St1] Git & GitHub #2" test in the RS APP > Auto Test
 ## Additional Materials
 
 1. ["Git How To" Guided Tour](https://githowto.com/)
-2. [Synopsis (RU)](https://www.evernote.com/shard/s368/client/snv?noteGuid=b1359883-2b9e-419a-b9de-dd959fc05f05&noteKey=97c0f19486d851b3&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs368%2Fsh%2Fb1359883-2b9e-419a-b9de-dd959fc05f05%2F97c0f19486d851b3&title=Git)
+2. [Synopsis (RU)](https://share.evernote.com/note/b1359883-2b9e-419a-b9de-dd959fc05f05)
 3. [Interactive Course](https://learngitbranching.js.org/?locale=en_EN)
 4. [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)

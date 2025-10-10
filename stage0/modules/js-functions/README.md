@@ -35,8 +35,8 @@
 
 Решить алгоритмические задачи:
 
-1.  https://github.com/Shastel/human-readable-number
-2.  https://github.com/Shastel/reverse-int
+1.  https://github.com/rolling-scopes-school/human-readable-number
+2.  https://github.com/rolling-scopes-school/reverse-int
 
 ## Дополнительные материалы
 

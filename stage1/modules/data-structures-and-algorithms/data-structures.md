@@ -2,14 +2,14 @@
 
 ## Basic Data Structures
 
-- Array
-- Linked List
-- Stack
-- Queue
-- Hash Table
-- Binary Tree
-- Heap
-- Graph
+- [Array](#array)
+- [Linked List](#linked-list)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Hash Table](#hash-table)
+- [Binary Tree](#binary-tree)
+- [Heap](#heap)
+- [Graph](#graph)
 
 ### Array
 

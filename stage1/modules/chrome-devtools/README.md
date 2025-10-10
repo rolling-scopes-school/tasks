@@ -27,7 +27,7 @@ Students are encouraged to study the following resources:
    - [DOM Tree Position](https://developer.chrome.com/docs/devtools/dom/#view)
    - [Inspecting and Modifying HTML Structure](https://developer.chrome.com/docs/devtools/dom/#content)
    - [Modifying DOM Element Styles](https://developer.chrome.com/docs/devtools/css/#view)
-   - [Locating Styles in Source Files](https://irishdotnet.dev/fridaydevtip-find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
+   - [Locating Styles in Source Files](https://irishdotnet.dev/find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
    - [Reviewing Applied Styles](https://developer.chrome.com/docs/devtools/css/issues/#css-in-computed)
 
 2. **Console Tab:**

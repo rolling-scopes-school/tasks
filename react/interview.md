@@ -4,9 +4,9 @@ The goal of the technical interview is to give opportunity to students to be pre
 
 ## Interview:
 
-1. Is not mandatory and is not required for a certificate
+1. The interview is **mandatory** and a minimum score of 4 points out of 10 (coefficient of 10) is **required to receive the certificate**
 2. Should be conducted after first 6 modules completion (during the final task phase)
-3. In order to be allowed to participate in an interview, student should gather at least 40 points during the first 6 modules or should have a recommendation from his mentor
+3. In order to be allowed to participate in an interview, student should gather at least 200 points during the first 6 modules or should have a recommendation from his mentor
 
 ## Interview structure
 
@@ -29,8 +29,8 @@ The technical interview should be comprised of:
 
 # Score
 
-Maximum 15 points
+Maximum 100 points
 
 # Interview questions
 
-You can check the interview questions [here](questions.md)
+You can check the interview questions [here](questions.md).

@@ -14,16 +14,11 @@ You should also use such elements as `<aside>`, `<section>`, `<article>`.
 **Why?**
 
 - This makes it easier to read, edit, and maintain code.
-- Also, if your site opens on an e-book,
-  semantic tags will help the parser parse your page elements into their intended components
-  and display them correctly to the user.
-- This is how you take care of all users:
-  if the page is opened in the mode for people who can't see well, a special robot will read each element so the user can recognize the page content. This robot relies on the fair use of semantic tags.
-  Otherwise, the reader will not be able to navigate through your site.
-  (read more: [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML))
-- Search engines Google, Yandex, Bing use semantic tags as keywords with which they better recognize the internal content of a page,
-  and therefore rank such pages higher in search results.
-  The higher your page ranks in a search query, the more users will visit it.
+- Also, if your site opens on an e-book, semantic tags will help the parser parse your page elements into their intended components and display them correctly to the user.
+- This is how you take care of all users:<br>
+  if the page is opened in the mode for people who can't see well, a special robot will read each element so the user can recognize the page content. This robot relies on the fair use of semantic tags. Otherwise, the reader will not be able to navigate through your site.<br>
+  Read more: [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+- Search engines Google, Yandex, Bing use semantic tags as keywords with which they better recognize the internal content of a page, and therefore rank such pages higher in search results. The higher your page ranks in a search query, the more users will visit it.<br>
   [More on SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
 
 ```html
@@ -42,27 +37,18 @@ You should also use such elements as `<aside>`, `<section>`, `<article>`.
 
 ### 1.2. Media alternatives
 
-Always specify alternative content for multimedia.
+Always try to specify alternative content for multimedia.
 
-Try to specify alternative content for multimedia:
-For example, for pictures, videos, or animations defined with canvas.
+For example, for pictures, videos, or animations defined with canvas. For pictures, this is a meaningful alternative text (alt), and for video and audio, transcripts and captions if possible.
 
-For pictures, this is a meaningful alternative text (alt),
-and for video and audio, transcripts and captions if possible.
-
-**Note!** If `alt` is redundant for a picture, or if it is used only for decorative purposes in places,
-where CSS cannot be used, _use the empty alternate text_ `alt=""`.
+**Note!** If `alt` is redundant for a picture, or if it is used only for decorative purposes in places where CSS cannot be used _use the empty alternate text_ `alt=""`.
 
 **Why?**
 
-- The `alt` attribute is incredibly useful for accessibility:
-  screen reader programs read this description to their visually impaired users,
-  to let them know what is displayed on the page.
-- This same description is also used by search engines (Google, Yandex) to identify their content and display it in their search results.
-  So, this is another way to increase the number of users of your page.
-- Plus, the description from `alt` is displayed on the page,
-  if the image cannot be loaded for any reason:
-  bad connection, content blocking or broken resource link.
+- The `alt` attribute is incredibly useful for accessibility:<br>
+  screen reader programs read this description to their visually impaired users, to let them know what is displayed on the page.
+- This same description is also used by search engines (Google, Yandex) to identify their content and display it in their search results. So, this is another way to increase the number of users of your page.
+- Plus, the description from `alt` is displayed on the page, if the image cannot be loaded for any reason: bad connection, content blocking or broken resource link.
 - [Read more](https://moz.com/learn/seo/alt-text)
 
 ```html

@@ -118,6 +118,6 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания: https://virtual-keyboard-cross-check.netlify.app/
 - cсылки на лучшие работы добавьте, пожалуйста, в эту форму https://forms.gle/v8EoNu1QjU1otUxg7

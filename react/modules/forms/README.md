@@ -23,6 +23,38 @@ Students will:
 
 - **7 hours**
 
+## React 19 and the _useActionState_
+
+### What is useActionState?
+
+The [`useActionState`](https://react.dev/reference/react/useActionState) hook is a new addition in React 19 that allows developers to manage state in a more declarative and efficient manner. It is designed to simplify state management by providing a way to define state transitions directly within the component.
+
+### How does it work?
+
+- **Declarative State Transitions:** `useActionState` allows you to define state transitions in a declarative manner, making your code more readable and easier to maintain.
+- **Efficiency:** By managing state transitions more efficiently, `useActionState` can help reduce unnecessary re-renders and improve the performance of your application.
+- **Integration with Actions:** The hook integrates seamlessly with actions, allowing you to define how state should change in response to specific actions.
+
+### Example Usage
+
+```jsx
+import { useActionState } from "react";
+
+async function increment(previousState, formData) {
+  return previousState + 1;
+}
+
+function StatefulForm({}) {
+  const [state, formAction] = useActionState(increment, 0);
+  return (
+    <form>
+      {state}
+      <button formAction={formAction}>Increment</button>
+    </form>
+  );
+}
+```
+
 ## Theory 📖
 
 Students are encouraged to explore the following resources:
@@ -63,7 +95,8 @@ Students are encouraged to explore the following resources:
    - [article: How to perform form validation in React?](https://www.geeksforgeeks.org/how-to-perform-form-validation-in-react/) - [10 minutes]
    - [article: React form validation with React Hook Form and Yup](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98) - [20 minutes]
    - [article: Creating a React Form Using React Hook Form and Yup in TypeScript](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57) - [30 minutes]
-   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [50 minutes]
+   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [25 minutes]
+   - [Zod](https://github.com/colinhacks/zod) - [30 minutes]
 
 8. **How to handle file uploads in React forms:**
 

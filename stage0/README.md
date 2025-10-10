@@ -5,7 +5,7 @@
 ## Описание
 
 - Зачисляются все желающие
-- Время обучения: 13 недель
+- Время обучения: 10 недель
 - Формат: самообучение, групповое обучение, общение в Discord, задания проверяют в процессе кросс-чек и автоматически
 - По окончании подготовительного этапа оставьте [**Отзыв**](https://docs.google.com/forms/d/e/1FAIpQLSfjki-f1rHX9nz2KycFich1erMs4Hb1Cz0xy3Yijd8IdOD8jw/viewform) школе, чтобы мы могли сделать ее лучше. Если вы покидаете курс во время обучения, по возможности, тоже оставьте отзыв, указав причину ухода.
 
@@ -32,90 +32,56 @@
 
 - [Модуль "Позиционирование в CSS. Flex."](modules/css-positioning/)
 - [Модуль "Figma"](modules/figma)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#1. Фиксированная вёрстка"](../tasks/shelter/shelter-part1.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- Проект ["CV"](../tasks/cv/cv.md).
+  - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
+  - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum-fixed.md)
 
 ### Неделя #4
 
-- [Модуль "Знакомство с JavaScript"](modules/js-basics/)
+- [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
+- [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
+- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#1"](../tasks/museum/museum-fixed.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
+  - ["Museum#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
 
 ### Неделя #5
 
-- [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
+- [Модуль "DOM API"](modules/dom-api/)
+- [Модуль "DOM Events"](modules/dom-events/)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
+- Проект ["Museum"](../tasks/museum/museum.md)
+  - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
 
 ### Неделя #6
 
-- [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#1"](../tasks/shelter/shelter-part1.md)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#2. Адаптивная вёрстка"](../tasks/shelter/shelter-part2.md)
+- [JS-101](https://github.com/rolling-scopes-school/core-js-101-stage0/)
 
 ### Неделя #7
 
-- [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
-- [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
+- [Not a Fight Club](../tasks/notFightClub/)
 
 ### Неделя #8
 
-- [Модуль "DOM API"](modules/dom-api/)
-- [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#2"](../tasks/shelter/shelter-part2.md)
-- Проект ["Shelter"](../tasks/shelter/shelter.md)
-  - ["Shelter#3. Добавление функционала"](../tasks/shelter/shelter-part3.md)
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
+- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
 ### Неделя #9
 
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта [Not a Fight Club](../tasks/notFightClub/)
 
 ### Неделя #10
 
-- [JS-101](https://github.com/Luffi2539/core-js-101/)
-
-### Неделя #11
-
-- [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
-
-### Неделя #12
-
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter#3"](../tasks/shelter/shelter-part3.md)
-- ["CSS Mem Slider"](../tasks/css-meme-slider)
-
-### Неделя #13
-
-- ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["CSS Mem Slider"](../tasks/css-meme-slider)
-- Сдача хвостов (тесты, задачи, Codewars)
-
-### Неделя #14
-
-- ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Audio Player"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md)
-
-### Неделя #15
-
-- ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Image Gallery"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md)
-
-### Неделя #16
-
-- Продолжаем выполнение ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-
-### Неделя #17
-
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["JS-30 Random Game"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md)
-
-### Неделя #18
-
-- Сдача хвостов (тесты, задачи, Codewars)
-- Получение сертификата
+- Сдача хвостов
 
 ## Сертификат
 
-Чтобы получить сертификат о прохождении подготовительного этапа вам необходимо набрать 70% от результата TOP1 студента. Например, если в конце этапа у лучшего студента 2000 баллов, проходной для всех студентов 1400 баллов (2000\*0.7).
-
-Наличие или отсутствие сертификата о прохождении подготовительного этапа не влияет на возможность дальнейшего обучения в RS School.
+В рамках подготовительного этапа выдача сертификата не предусмотрена.
 
 ## FAQ
 
@@ -151,8 +117,8 @@
 
 ### Кто проверяет задания?
 
-- Проекты "CV", "Portfolio", "CodeJam", "JS 30" проверяются в ходе [Cross-check](https://docs.rs.school/#/cross-check-flow)
-- Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://docs.rs.school/#/rs-app-tasks) до дедлайна.
+- Проекты "CV#3", "Museum", "Secret Task" проверяются в ходе [Cross-check](https://rs.school/docs/ru/cross-check-flow)
+- Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://rs.school/docs/ru/rs-app-tasks) до дедлайна.
 - Таски "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" проверяются автоматически.
 
 ### Как перенести выполненные задания из приватного репозитория школы в свой личный репозиторий

@@ -61,7 +61,7 @@
 
 11. Далее фиксируйте изменения (_коммитим_) командой `git commit -m 'НАЗВАНИЕ КОММИТА'`.
 
-- Обратите внимание на **требования** к коммитам [https://docs.rs.school/#/git-convention](https://docs.rs.school/#/git-convention). В ТЗ написано что должно быть не менее 3-х коммитов в ветку `gh-pages`. Коммиты должны начинаться с префиксов: `init:`, `feat:` , `fix:` , `refactor:` , `docs:`.
+- Обратите внимание на **требования** к коммитам [https://rs.school/docs/ru/git-convention](https://rs.school/docs/ru/git-convention). В ТЗ написано что должно быть не менее 3-х коммитов в ветку `gh-pages`. Коммиты должны начинаться с префиксов: `init:`, `feat:` , `fix:` , `refactor:` , `docs:`.
 
 ![Image 12](https://i.ibb.co/yWLXJM4/image.png)
 
@@ -91,7 +91,7 @@
 
 ![Image 18](https://i.ibb.co/phRt9rB/image.png)
 
-- Описание Pull Request дайте по схеме [https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr). Название Pull Request дайте по названию задания
+- Описание Pull Request дайте по схеме [https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). Название Pull Request дайте по названию задания
 
 ![Image 19](https://i.ibb.co/s5wnrSd/image.png)
 

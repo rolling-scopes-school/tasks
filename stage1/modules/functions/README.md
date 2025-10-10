@@ -33,12 +33,12 @@ Scope
 
 ## Practice
 
-1. You need to take the 'JS Scope & Functions' test in RS APP > Auto Test
+1. You need to take the "[St1] JS Scope & Functions" test in RS APP > Auto Test
 
 ## Additional materials
 
 - Deep Dive into Functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- Understanding Closures: [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures)
+- Understanding Closures: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 - You Don't Know JS: Scope & Closures: [GitHub](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
 - Webinar Recordings (in Russian): [YouTube](https://www.youtube.com/watch?v=c_rHAYNBotQ), [YouTube](https://www.youtube.com/watch?v=h5o_tgEMKxY)
 - Presentation Slides: [Scope](https://kirilknysh.github.io/js-scope-talk/#/), [Functions](https://kirilknysh.github.io/js-functions-talk/#/)
