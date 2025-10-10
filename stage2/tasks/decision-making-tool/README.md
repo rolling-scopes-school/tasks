@@ -35,7 +35,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 - Use a [private school repository](https://rs.school/docs/ru/private-repository) to develop this application.
 - Use the `decision-making-tool` branch as your development branch.
 - Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://rs.school/docs/ru/git-convention).
-- Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_.
+- Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_. _(It is allowed to use netlify if you can't deploy to gh-pages because of permissions.)_
 - Use the app **deploy link** to [submit](https://app.rs.school/course/student/cross-check-submit) the app to crosscheck in [app.rs](https://app.rs.school/course/student/cross-check-submit). **Make sure** your link is accessible to everyone by opening it in incognito mode.
 - Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://rs.school/docs/ru/pull-request-review-process?id=Требования-к-pull-request-pr#требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
 - Use the **PR link** to [submit](https://app.rs.school/course/student/dashboard) the app to mentor in [app.rs](https://app.rs.school/course/student/dashboard).
@@ -84,7 +84,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 > Linter allows us to keep our code clean. Clean code is more readable, maintainable, and reusable. And its auto-fixing of errors allows us to save time on refactoring.
 
 1. (+2) [ESLint](https://eslint.org/) must be installed to developer dependencies.
-2. (+2) ESLint configuration file is added to the project and used. _(both [`flat`](https://eslint.org/docs/latest/use/configure/configuration-files) and [`legacy`](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated) config formats are allowed.)_
+2. (+2) ESLint [configuration file](https://eslint.org/docs/latest/use/configure/configuration-files) is added to the project and used.
 3. (+8) ESLint configuration file must have the `noInlineConfig` and `reportUnusedDisableDirectives` options enabled.
 4. (+8) ESLint configuration file must contain all of the following rules:
 
@@ -401,8 +401,8 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 ##### Option section title
 
 1. (+2) Each `option section` must display the `title` value of the option as text (except in the case described in the next bullet point). The text should be placed in the section from the center of the wheel to the edge (or from the edge to the center).
-2. (+4) Each `option section title` must not violate the boundaries of its section. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
-3. (+4) Each `option section title` must not violate the boundaries of wheel. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
+2. (+4) Each `option section title` must not violate the boundaries of its section vertically. If the width (angle) of the section is not wide enough to display the text, the text must not be displayed.
+3. (+4) Each `option section title` must not violate the boundaries of its section horizontally. If `title` is too long, it should be clipped and end with ellipsis _(e.g., `"some very very long title" -> "some very very long t…"`)_.
 4. (+2) Each displayed `option section title` must have a visual boundary to distinguish it from the randomized `option section` fill color. _(Additional stroke, shadow, fill can be useful here.)_
 
 ##### Center element
