@@ -38,8 +38,7 @@ Students are encouraged to delve into the following resources:
 
 3. **Exploring Vite and esbuild:**
    - [Vite: Next Generation Frontend Tooling](https://vitejs.dev/guide/)
-   - [esbuild: An Extremely Fast JavaScript Bundler](https://esbuild.github.io/)
-   - [esbuild: Documentation](https://esbuild.github.io/api/)
+   - [esbuild: An Extremely Fast JavaScript Bundler](https://esbuild.github.io/getting-started/)
 
 ## Practice 💻
 
@@ -47,5 +46,6 @@ Students are encouraged to delve into the following resources:
 
 ## Additional Resources 📘
 
-1. [10 Best JavaScript Build Tools and Bundlers Compared](https://www.codeinwp.com/blog/best-javascript-build-tools-bundlers/#gref)
-2. [A Complete Guide to Webpack 5](https://www.valentinog.com/blog/webpack/)
+1. [Webpack alternatives: 5 top JavaScript bundlers](https://www.contentful.com/blog/webpack-alternatives-5-top-bundlers/)
+2. [5 Webpack Alternatives: Comparing Modern JS Bundlers for Front-End Projects](https://strapi.io/blog/modern-javascript-bundlers-comparison-2025)
+3. [10 Best JavaScript Build Tools and Bundlers Compared](https://www.codeinwp.com/blog/best-javascript-build-tools-bundlers/#gref)
