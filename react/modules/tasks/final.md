@@ -280,7 +280,7 @@ curl https://jsonplaceholder.typicode.com/posts/1
 
 So the URL might look so:
 `http://localhost:5137/GET/aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3Bvc3RzLzE=`
-And we you want to make a POST request to the same endpoint, e.g.:
+And we want to make a POST request to the same endpoint, e.g.:
 
 ```curl
 curl -d '{"title":"fakeTitle","userId":1,"body":"fakeMessage"}' https://jsonplaceholder.typicode.com/posts
@@ -456,7 +456,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 ### General requirements - max 50 points
 
-- [ ] Multiple (at lest 2) languages support / i18n. - **30 points**
+- [ ] Multiple (at least 2) languages support / i18n. - **30 points**
 - [ ] Sticky header. - **10 points**
 - [ ] Errors are displayed in the user friendly format. - **10 points**
 
