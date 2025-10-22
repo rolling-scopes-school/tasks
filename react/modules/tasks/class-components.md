@@ -75,7 +75,41 @@ Non-successful response.
 
 ## Points
 
-### Student can get 100 points:
+A student can achieve a maximum of 100 points.
+
+## FAQ (Frequently Asked Questions)
+
+### ❓ Does the search input require an exact name match?
+
+Yes. You can implement full-name matching. Partial match is optional.
+
+### ❓ What if the search input is empty?
+
+Fetch the full list (or first page) of items from the API.
+
+### ❓ How to simulate a failed request?
+
+Use ModResponse or set an invalid endpoint to trigger a 4xx/5xx response.
+
+### ❓ My loader is not visible — API is too fast. What to do?
+
+Wrap the API call in a short setTimeout (e.g. 200–300ms) to simulate loading.
+
+### ❓ I committed to the school repo. What now?
+
+Change the remote URL to your private GitHub repo and push again.
+Also, make sure your project is placed in the **root** of the repository, not inside a subfolder.
+
+### ❓ I updated code after submitting a PR. Do I need to resubmit?
+
+No. The PR will update automatically as long as it's not merged.
+
+### ❓ I used function components instead of class components. Is that allowed?
+
+Function components are allowed, but **state and lifecycle functionality must be implemented using class components**.  
+Hooks are not permitted in this task.
+
+### Cross-check (score can be less if some parts of the functionality don't work)
 
 - Eslint is set up, when _lint_ command is run it doesn't produce any errors (if there are warnings score might be less) - **15 points**
 - Prettier is set up, _format:fix_ command fixes issues - **15 points**
