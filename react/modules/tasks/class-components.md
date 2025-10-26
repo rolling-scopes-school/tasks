@@ -1,16 +1,126 @@
 # React project setup. Class components. Error boundary.
 
-## Application Requirements
+## Functional Requirements
 
-1. Divide your page into at least two sections/components. The smaller section should be at the top, and the larger section should be at the bottom.
-2. In the top section, place a _Search_ input and a "Search" button. The _Search_ component should look for a previously saved search term in the local storage (LS). If there isn't any, leave the input empty.
-3. The bottom section should be used for displaying search results (name and a small description).
-4. By default, the application makes a call to the selected API to get a list of items using the search term from the input (only the first page). If the input is empty, make a call to get all items.
-5. When the user modifies the _Search_ input and clicks the "Search" button, the application makes a call to the API with the newly provided search term (the search term should not have any trailing spaces; process the input) to get the results (only the first page).
-6. The provided search term should be saved to the LS. If the value exists, overwrite it.
-7. If your application makes a request to the server API, this should be visible to the user. Implement a Spinner, Skeleton, Loading Bar, Blurring Content, or any other appropriate method in your UI to indicate this.
-8. If the request didn't succeed (status code **4xx** or **5xx**), show the meaningful message. You can use [ModResponse](https://chromewebstore.google.com/detail/modresponse-mock-and-repl/bbjcdpjihbfmkgikdkplcalfebgcjjpm) or similar, to test this functionality.
-9. Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI (use respective methods for this). Create a button that will throw an error on click to test the functionality.
+### Feature 1: Application Layout Structure (**5 points**)
+
+**As a** user  
+**I want** to see a clearly organized page layout  
+**So that** I can easily interact with the search functionality and view results
+
+**Scenario:** Page Layout Organization
+
+- **Given** I am on the application page
+- **Then** I should see two distinct sections:
+  - A smaller search section at the top
+  - A larger results section at the bottom
+
+### Feature 2: Search Functionality with Local Storage (**15 points**)
+
+**As a** user  
+**I want** to have a search interface that remembers my last search  
+**So that** I can continue my previous search session
+
+**Scenario:** Initial Search Component Load
+
+- **Given** I open the application
+- **When** the search component loads
+- **Then** it should check local storage for a previous search term
+- **And** populate the search input if a term exists
+- **Or** leave it empty if no previous term is found
+
+### Feature 3: Search Results Display (**10 points**)
+
+**As a** user  
+**I want** to see search results clearly displayed  
+**So that** I can easily review the found items
+
+**Scenario:** Results Display Format
+
+- **Given** I am viewing the results section
+- **Then** each result should display:
+  - Item name
+  - Item description
+
+### Feature 4: Initial Data Load (**10 points**)
+
+**As a** user  
+**I want** to see relevant items when I first open the application  
+**So that** I can start browsing immediately
+
+**Scenario:** Default Data Load
+
+- **Given** I open the application
+- **When** it initially loads
+- **Then** it should fetch the first page of items based on:
+  - The search term from input if it exists
+  - All available items if no search term exists
+
+### Feature 5: Search Execution (**20 points**)
+
+**As a** user  
+**I want** to search for specific items  
+**So that** I can find relevant content
+
+**Scenario:** Perform Search
+
+- **Given** I am on the search page
+- **When** I enter a search term
+- **And** click the "Search" button
+- **Then** the system should:
+  - Remove any trailing spaces from the input
+  - Fetch the first page of matching results
+  - Update the display with new results
+
+### Feature 6: Search Term Persistence (**5 points**)
+
+**As a** user  
+**I want** my search terms to be saved  
+**So that** I can resume my search later
+
+**Scenario:** Save Search Term
+
+- **Given** I perform a search
+- **When** I click the "Search" button
+- **Then** the search term should be saved to local storage
+- **And** overwrite any existing saved term
+
+### Feature 7: Loading State Indication (**10 points**)
+
+**As a** user  
+**I want** to know when the application is loading data  
+**So that** I understand when to wait for results
+
+**Scenario:** API Request Loading State
+
+- **Given** I initiate any API request
+- **Then** I should see a loading indicator (Spinner/Skeleton/Loading Bar/Blur)
+- **And** the indicator should remain until data loads
+
+### Feature 8: Error Handling (**10 points**)
+
+**As a** user  
+**I want** to be informed when something goes wrong  
+**So that** I understand why my request failed
+
+**Scenario:** Failed API Request
+
+- **Given** I make a search request
+- **When** the server returns an error (4xx or 5xx)
+- **Then** I should see a meaningful error message
+
+### Feature 9: Application Error Boundary (**15 points**)
+
+**As a** user  
+**I want** the application to handle errors gracefully  
+**So that** I can still use the app even if parts of it fail
+
+**Scenario:** Error Boundary Implementation
+
+- **Given** an error occurs in the application
+- **Then** the error should be logged to the console
+- **And** a fallback UI should be displayed
+- **And** there should be a test button to simulate errors
 
 ## Template
 
@@ -73,10 +183,6 @@ Non-successful response.
 
 6. You can use CSS frameworks (e.g. Tailwind CSS).
 
-## Points
-
-A student can achieve a maximum of 100 points.
-
 ## FAQ (Frequently Asked Questions)
 
 ### ❓ Does the search input require an exact name match?
@@ -109,34 +215,28 @@ No. The PR will update automatically as long as it's not merged.
 Function components are allowed, but **state and lifecycle functionality must be implemented using class components**.  
 Hooks are not permitted in this task.
 
-### Cross-check (score can be less if some parts of the functionality don't work)
-
-- Eslint is set up, when _lint_ command is run it doesn't produce any errors (if there are warnings score might be less) - **15 points**
-- Prettier is set up, _format:fix_ command fixes issues - **15 points**
-- Husky is set up, linting is run on pre-commit - **10 points**
-- Page is split into at least two sections, top one has _Search_ input and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown while app makes a call to the api) - **20 points**
-- When user types something to the _Search_ input and clicks "Search" button, a loader is displayed and the list is changed according to the response results for a provided search term - **15 points**
-- The search term typed into the _Search_ input is saved in the LS when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - **15 points**
-- Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error - **10 points**
-
 ### Penalties
 
-- **1. TypeScript & Code Quality**
+- **1. Project setup**
+
+  - Project has been setup without using [Vite](https://vitejs.dev/guide/) with the [_react-ts_ template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts): **-95 points**
+
+- **2. TypeScript & Code Quality**
 
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
-- **2. React Best Practices**
+- **3. React Best Practices**
 
   - Direct DOM manipulations inside the React components: **-50 points per each**
   - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 
-- **3. External Dependencies**
+- **4. External Dependencies**
 
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
-- **4. Project Management**
+- **5. Project Management**
   - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
