@@ -2,12 +2,11 @@
 
 - **Deadline:** 09-12-2018 23:00
 - **Where to submit:** Your private repository, branch "code-jam-scoreboard", folder "code-jam-scoreboard".
-- **Requirements for the commits, PR, repository** - https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md
+- **Requirements for the commits, PR, repository** - <https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md>
 
 - **Resctrictions:**
-
   - Have to work in Chrome;
-  - Active use of https://lodash.com/ is welcome;
+  - Active use of <https://lodash.com/> is welcome;
   - You can google, communicate with each other, use stackoverflow;
 
 - **What to submit / criteria for evaluation**
@@ -21,11 +20,11 @@
   - **+5 points**
     - Toggling the radio button - relevant sessions are displayed (`rsschool` or `rsschool-demo`);
   - **+35 points**
-    - Add _"Comparison"_ column to your table which will contain checkboxes. "Checked" rows will be displayed in the form of _Line Chart_ (for example - http://www.chartjs.org/samples/latest/charts/line/basic.html). Up to 10 rows can be selected simultaneously. Line Chart displays the name of the puzzle on the _x-axis_, _y-axis_ - solution time, _legend_ contains github of the player.  
+    - Add _"Comparison"_ column to your table which will contain checkboxes. "Checked" rows will be displayed in the form of _Line Chart_ (for example - <http://www.chartjs.org/samples/latest/charts/line/basic.html>). Up to 10 rows can be selected simultaneously. Line Chart displays the name of the puzzle on the _x-axis_, _y-axis_ - solution time, _legend_ contains github of the player.
       You can use ready-made Line Chart component;
   - **+30 point**
-    - Implement an opportunity to check participants from the previous training course (2018Q1), who passed _CSS Quick Draw 2018Q1_ but still studying now. Build any comparative analytics of the results achieved by them in comparison with the previous training course. Data from the previous training can be found here - https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-scoreboard.md.
-  - **-50 points** for violation https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md
+    - Implement an opportunity to check participants from the previous training course (2018Q1), who passed _CSS Quick Draw 2018Q1_ but still studying now. Build any comparative analytics of the results achieved by them in comparison with the previous training course. Data from the previous training can be found here - <https://github.com/rolling-scopes-school/tasks/blob/2018-Q1/tasks/codejam-scoreboard.md>.
+  - **-50 points** for violation <https://github.com/rolling-scopes-school/docs/blob/master/stage2-tasks-requirements.md>
 
 #### Sample table
 
@@ -38,7 +37,7 @@
 ### Clarification
 
 Dumps of the previous CodeJam _"CSS Quick Draw"_ are in the folder:
-https://drive.google.com/drive/folders/10XH1dNj4c7yOptjFblhc1Y74FmMJNUwQ
+<https://drive.google.com/drive/folders/10XH1dNj4c7yOptjFblhc1Y74FmMJNUwQ>
 
 Session you need is in _sessions.json_ file on line 34.
 

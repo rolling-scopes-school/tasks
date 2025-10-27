@@ -7,20 +7,16 @@ Develop a feature that enables players to choose from six difficulty levels, wit
 ## 🔨 Implementation Details
 
 1. **Difficulty Level Selection:**
-
    - Introduce an interface element (like a dropdown menu or a set of buttons) for players to select from six difficulty levels.
 
 2. **Determining Game Rounds:**
-
    - Based on the chosen difficulty level, calculate the number of game rounds. This calculation should take into account the available data in the source collection.
    - Ensure that the complexity and length of the game rounds are appropriately scaled with the difficulty level.
 
 3. **Data Integration from Source Collection:**
-
    - Integrate sentence data from the source collection to populate the game rounds corresponding to the selected difficulty level.
 
 4. **User Interface for Selection:**
-
    - Design the difficulty selection interface to be user-friendly and visually appealing, seamlessly fitting into the overall game design.
 
 5. **Immediate Game Restart with New Level:**
@@ -29,11 +25,9 @@ Develop a feature that enables players to choose from six difficulty levels, wit
 ## 🎨 Visual Implementation Ideas
 
 1. **Difficulty Selection Controls:**
-
    - Use visually distinct elements for each difficulty level, such as color-coded buttons or icons.
 
 2. **Adaptive Game Interface:**
-
    - Design the game interface to adapt dynamically based on the selected difficulty level, altering aspects like layout, color scheme, or typography.
 
 3. **Animations and Transitions:**

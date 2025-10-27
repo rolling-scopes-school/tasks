@@ -7,17 +7,14 @@ This task focuses on completing a module specifically about declaring variable t
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Enroll in and complete the module that covers declaring variable types in TypeScript.
    - Pay special attention to TypeScript's static typing system, including the use of `let`, `const`, and various type annotations.
 
 2. **Badge Acquisition:**
-
    - A badge will be awarded upon successful completion of the module.
    - Ensure that this badge is visible in your learning platform profile.
 
 3. **Markdown File Update:**
-
    - Update the provided Markdown file by adding a link to the newly earned badge.
    - Make sure the link is functional and directs to the specific badge.
 

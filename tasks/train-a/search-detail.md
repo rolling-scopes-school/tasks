@@ -96,12 +96,10 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(GET) /api/search/{rideId}`
 
 - Request (application/json)
-
   - Parameters:
     - rideId: `745` (number, required) - Identifier of the ride, it is instance of the route
 
 - Response 200 (application/json)
-
   - Attributes: (object)
     - rideId: `745` (number) - Identifier of certain schedule for the route
     - routeId: `18` (number) - Identifier of corresponding route
@@ -125,7 +123,6 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(POST) /api/order`
 
 - Request (application/json)
-
   - Body (object)
     - rideId: `745` (number, required) - Identifier of certain schedule for the route
     - seat: `27` (number, required) - Selected seat number
@@ -133,40 +130,34 @@ A **carriage** is a structure for transporting passengers with specific paramete
     - stationEnd: `61` (number, required) - Station id which user leaves the train
 
 - Response 201 (application/json)
-
   - Attributes: (object)
     - id: `209` (string) - identifier of new order
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Ride not found` (string) - Error message
       - reason: `rideNotFound` (string) - Error type
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Invalid stations` (string) - Error message
       - reason: `invalidStations` (string) - Error type
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Parameters are irrelevant` (string) - Error message
       - reason: `invalidData` (string) - Error type
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Ride is already booked` (string) - Error message
       - reason: `alreadyBooked` (string) - Error type
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Trip is expired` (string) - Error message
@@ -177,16 +168,13 @@ A **carriage** is a structure for transporting passengers with specific paramete
 > `(DELETE) /api/order/{orderId}`
 
 - Request (application/json)
-
   - Parameters:
   - orderId: `215` (number, required) - Identifier of the order
 
 - Response 200 (application/json)
-
   - Attributes: (object)
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Order is not found` (string) - Error message

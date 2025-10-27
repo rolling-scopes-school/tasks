@@ -9,7 +9,6 @@ In this task, you will write Terraform code to configure the basic networking in
 ## Steps
 
 1. **Write Terraform Code**
-
    - Create Terraform code to configure the following:
      - VPC
      - 2 public subnets in different AZs
@@ -20,12 +19,10 @@ In this task, you will write Terraform code to configure the basic networking in
        - Instances in public subnets can reach addresses outside VPC and vice-versa
 
 2. **Organize Code**
-
    - Define variables in a separate variables file.
    - Separate resources into different files for better organization.
 
 3. **Verify Configuration**
-
    - Execute `terraform plan` to ensure the configuration is correct.
    - Provide a resource map screenshot (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
@@ -47,7 +44,6 @@ In this task, you will write Terraform code to configure the basic networking in
 ## Evaluation Criteria (100 points for covering all criteria)
 
 1. **Terraform Code Implementation (50 points)**
-
    - Terraform code is created to configure the following:
      - VPC
      - 2 public subnets in different AZs
@@ -58,12 +54,10 @@ In this task, you will write Terraform code to configure the basic networking in
        - Instances in public subnets can reach addresses outside the VPC and vice-versa
 
 2. **Code Organization (10 points)**
-
    - Variables are defined in a separate variables file.
    - Resources are separated into different files for better organization.
 
 3. **Verification (10 points)**
-
    - Terraform plan is executed successfully.
    - A resource map screenshot is provided (VPC -> Your VPCs -> your_VPC_name -> Resource map).
 
@@ -86,38 +80,38 @@ In this task, you will write Terraform code to configure the basic networking in
 
 Elastic IP:
 
-- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+- <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html>
 
 Route table association:
 
-- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/main_route_table_association
+- <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/main_route_table_association>
 
 NAT vs Internet Gateway:
 
-- https://stackoverflow.com/questions/74455063/what-exactly-are-nat-gateway-and-internet-gateway-on-aws
+- <https://stackoverflow.com/questions/74455063/what-exactly-are-nat-gateway-and-internet-gateway-on-aws>
 
 Configuration EC2 with private subnets:
 
-- https://medium.com/@prabhupj/terraform-way-to-run-aws-ec2-instances-in-a-private-subnet-and-load-balancing-with-an-application-98da5a11d4f1
+- <https://medium.com/@prabhupj/terraform-way-to-run-aws-ec2-instances-in-a-private-subnet-and-load-balancing-with-an-application-98da5a11d4f1>
 
 #### Cheaper way
 
 Making EC2 a NAT gateway:
 
-- https://medium.com/nerd-for-tech/how-to-turn-an-amazon-linux-2023-ec2-into-a-nat-instance-4568dad1778f
+- <https://medium.com/nerd-for-tech/how-to-turn-an-amazon-linux-2023-ec2-into-a-nat-instance-4568dad1778f>
 
 Configuration of NAT with multiple interfaces:
 
 - It is needed to provide an interface by VPC and consume the interface by the Bastion host
-- https://people.computing.clemson.edu/~jmarty/courses/LinuxStuff/SetupNATWIthIpTables.pdf
-- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface
+- <https://people.computing.clemson.edu/~jmarty/courses/LinuxStuff/SetupNATWIthIpTables.pdf>
+- <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface>
 
 iptables:
 
-- https://linux.die.net/man/8/iptables
+- <https://linux.die.net/man/8/iptables>
 
 Logs for troubleshooting user-data:
 
-- https://stackoverflow.com/questions/15904095/how-to-check-whether-my-user-data-passing-to-ec2-instance-is-working
+- <https://stackoverflow.com/questions/15904095/how-to-check-whether-my-user-data-passing-to-ec2-instance-is-working>
 - /var/log/cloud-init.log
 - /var/log/cloud-init-output.log

@@ -62,7 +62,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 #### Acceptance Criteria 1: Start city field autocomplete (6)
 
-> [!WARNING] > **Technical quirk**  
+> [!WARNING] > **Technical quirk**
 > Developer should obtain coordinates of the location through whatever external services they want while user fills city name in the form field.
 
 - The form must include a field labeled "From" for the start city.
@@ -71,7 +71,7 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 
 #### Acceptance Criteria 2: End city field autocomplete (6)
 
-> [!WARNING] > **Technical quirk**  
+> [!WARNING] > **Technical quirk**
 > Developer should obtain coordinates of the location through whatever external services they want while user fills city name in the form field.
 
 - The form must include a field labeled "To" for the end city.
@@ -223,7 +223,6 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 - Title of modal contains text "Route" along with route id number.
 
 - The modal window must display:
-
   - The start station of the trip at the top.
   - The end station of the trip at the bottom.
   - All intermediate stations between the start and end stations listed in order.
@@ -254,7 +253,6 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
 > `(GET) /api/search`
 
 - Request (application/json)
-
   - Attributes: (object)
     - fromLatitude: `48.8575` (number, required) - Latitude of the start city
     - fromLongitude: `2.3514` (number, required) - Longitude of the start city
@@ -263,7 +261,6 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
     - time: `1723669200000` (number, optional) - unix timestamp of the trip
 
 - Response 200 (application/json)
-
   - Attributes: (object)
     - from: (object) - set of data about start point
       - stationId: `5` (number) - Unique station identifier
@@ -290,7 +287,6 @@ Apart from ride, the **trip** is a journey between selected stations by user. It
           - occupiedSeats: (array[number]) - list of occupied seat numbers
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Start station not found` (string) - Error message

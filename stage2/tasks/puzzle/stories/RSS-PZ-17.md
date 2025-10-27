@@ -7,22 +7,18 @@ Introduce a translation hint feature that displays the translation of the senten
 ## 🔨 Implementation Details
 
 1. **Dynamic Translation Display:**
-
    - The translation should dynamically correspond to the sentence currently being assembled.
 
 2. **UI Placement and Design:**
-
    - Consider subtle animations or effects for the hint's appearance and disappearance.
 
 ## 🎨 Visual Implementation Ideas
 
 1. **Hint Design:**
-
    - Use a contrasting yet harmonious color scheme for the hint box to distinguish it from the game layout.
    - Employ readable fonts and appropriate text sizes.
 
 2. **Interactive Elements:**
-
    - Add an icon or symbol (like a lightbulb or a question mark) that players can click or hover over to view the hint.
 
 ## ✅ Acceptance Criteria

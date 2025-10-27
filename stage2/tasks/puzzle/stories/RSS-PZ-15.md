@@ -7,23 +7,18 @@ Introduce drag-and-drop functionality to enhance the interactivity of the game. 
 ## 🔨 Implementation Details
 
 1. **Draggable Word Cards:**
-
    - Make each word card draggable. Players should be able to click and drag words from the source block to the result block and vice versa.
 
 2. **Droppable Areas:**
-
    - Designate the source data block and the result block as droppable areas where words can be placed.
 
 3. **Internal Sentence Rearrangement:**
-
    - Allow for the dragging and rearranging of words within the result block to facilitate sentence construction.
 
 4. **Drag-and-Drop Feedback:**
-
    - Provide visual cues during the drag-and-drop process, such as highlighting the drop area or changing the cursor.
 
 5. **Mobile Responsiveness:**
-
    - Ensure that the drag-and-drop functionality is also accessible and functional on touch devices.
 
 6. **Error Handling:**
@@ -32,12 +27,10 @@ Introduce drag-and-drop functionality to enhance the interactivity of the game. 
 ## 🎨 Visual Implementation Ideas
 
 1. **Interactive Card Design:**
-
    - Style the word cards with subtle shadows or lift effects to suggest they are draggable.
    - Change the appearance of the card (like a slight size increase or border color change) when it's being dragged.
 
 2. **Highlighting Drop Areas:**
-
    - Temporarily highlight or change the appearance of drop areas when a word card is hovered over them.
 
 3. **Drag-and-Drop Animations:**

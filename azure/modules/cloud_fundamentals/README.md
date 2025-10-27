@@ -23,18 +23,15 @@ Students will:
 Students are encouraged to delve into the following resources:
 
 1. **Basic Theoretical Understanding:**
-
    - [Cloud Computing Basics - Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/)
 
 2. **Cloud Service Models (IaaS, PaaS, SaaS):**
-
    - [Decoding Cloud Service Models: A Comprehensive Guide - Bacancy Technology](https://www.bacancytechnology.com/blog/cloud-service-models)
    - [Cloud Service Models: IaaS vs PaaS vs SaaS - Which is best? - Toobler](https://www.toobler.com/blog/cloud-service-models-iaas-paas-saas)
    - [IaaS vs. PaaS vs. SaaS: Decoding Cloud Service Models - Teamgate](https://www.teamgate.com/blog/iaas-vs-paas-vs-saas/)
    - [What are IaaS, PaaS and SaaS?](https://www.ibm.com/topics/iaas-paas-saas)
 
 3. **Major Cloud Providers:**
-
    - [Azure Services Guide](https://azure.microsoft.com/en-us/products/)
    - [Overview of AWS Services](https://aws.amazon.com/products/)
    - [Google Cloud Products](https://cloud.google.com/products)

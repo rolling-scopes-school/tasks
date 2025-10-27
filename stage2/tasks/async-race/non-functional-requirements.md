@@ -67,7 +67,6 @@ Mentors will evaluate the "Async Race" Single Page Application (SPA) based on th
 ## 🔒 Mandatory Requirements
 
 - **No Libraries/Frameworks (-100%):** The use of libraries or frameworks such as JQuery, React, Angular, Lodash, Material Design, etc., is strictly prohibited.
-
   - Bootstrap CSS is permitted for **styling purposes** only.
   - CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx/classnames` package are allowed.
 

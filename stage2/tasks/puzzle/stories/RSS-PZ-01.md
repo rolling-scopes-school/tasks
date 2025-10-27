@@ -7,16 +7,13 @@ This task involves creating two distinct input fields on the user name entry pag
 ## 🔨 Implementation Details
 
 1. **Designing Input Fields:**
-
    - Add two input fields on the login page, distinctly labeled as 'First Name' and 'Surname'.
    - Ensure the fields are placed in a logical order, typically with the first name field above the surname field.
 
 2. **Mandatory Fields:**
-
    - Configure both input fields to be required. This means the form cannot be submitted unless both fields contain data.
 
 3. **Login Button:**
-
    - Introduce a 'Login' button below the surname field.
    - The button should initially be in a default state, becoming fully interactive once the form requirements are met.
 
@@ -27,7 +24,6 @@ This task involves creating two distinct input fields on the user name entry pag
 ## 🎨 Visual Implementation Ideas
 
 1. **Input Fields Styling:**
-
    - Use a consistent and readable font.
    - Employ subtle borders or shading to define the input areas clearly.
 

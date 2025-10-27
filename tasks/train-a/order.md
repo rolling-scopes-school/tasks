@@ -97,7 +97,6 @@ User is able to see their orders in the list.
 > `(GET) /api/order`
 
 - Request (application/json)
-
   - Attributes: (object)
     - all: `true` (boolean, optional) - allows manager to retrieve all orders
 
@@ -122,7 +121,6 @@ User is able to see their orders in the list.
 > `(GET) /api/users`
 
 - Request (application/json)
-
   - Attributes: (object)
 
 - Response 200 (application/json)
@@ -137,16 +135,13 @@ User is able to see their orders in the list.
 > `(DELETE) /api/order/{orderId}`
 
 - Request (application/json)
-
   - Parameters:
     - orderId: `215` (number, required) - Identifier of the order
 
 - Response 200 (application/json)
-
   - Attributes: (object)
 
 - Response 400 (application/json)
-
   - Attributes: (object)
     - error:
       - message: `Order is not found` (string) - Error message

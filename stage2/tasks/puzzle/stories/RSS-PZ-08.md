@@ -7,29 +7,24 @@ The main game page should display individual word cards, each representing a wor
 ## 🔨 Implementation Details
 
 1. **Sentence Breakdown into Word Cards:**
-
    - Break down a provided sentence into individual words.
    - Each word becomes a separate card displayed in the source data block.
 
 2. **Randomizing Word Cards:**
-
    - Arrange these word cards in a random order every time the game is initiated.
    - Ensure that the randomness is effective, providing a unique experience in each session.
 
 3. **Interactive Card Movement:**
-
    - Implement click functionality on each word card.
    - Upon clicking, the card should move from the source block to the result block, maintaining the clicked order.
 
 ## 🎨 Visual Implementation Ideas
 
 1. **Word Card Styling:**
-
    - Style the cards with distinct borders and a background color that makes the text easily readable.
    - Consider adding a hover effect to indicate when a card is selectable.
 
 2. **Animating Card Movement:**
-
    - Apply a smooth animation effect when cards move from the source block to the result block.
 
 ## ✅ Acceptance Criteria

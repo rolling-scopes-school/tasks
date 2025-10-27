@@ -2,7 +2,7 @@
 
 **English for kids** - an application for learning English words for kids.
 
-## Application Structure:
+## Application Structure
 
 1. Main page
 2. Category Page
@@ -12,15 +12,15 @@
 
 ### Demo
 
-https://english-for-kids.netlify.com/ (version without Hacker scope)
+<https://english-for-kids.netlify.com/> (version without Hacker scope)
 
 ## Examples of work
 
-- https://marta-r-english-for-kids.netlify.app/
-- https://zheromskyv-english-for-kids.netlify.app/
-- https://xmelsky-english-for-kids.netlify.app/
-- https://irinateln0va-english-for-kids.netlify.app/
-- https://kotiknalune-english-for-kids.netlify.app/
+- <https://marta-r-english-for-kids.netlify.app/>
+- <https://zheromskyv-english-for-kids.netlify.app/>
+- <https://xmelsky-english-for-kids.netlify.app/>
+- <https://irinateln0va-english-for-kids.netlify.app/>
+- <https://kotiknalune-english-for-kids.netlify.app/>
 
 ## Description of Pages
 
@@ -114,19 +114,17 @@ Example:
 - the design of the final application should look holistic: the look corresponds to user expectations, the pictures for word cards and categories are of good quality and they have the same size and the correct proportions (there are no distortions), all user interface elements function properly, markup does not fall apart when the resolution is changed
 - take care of interactivity of clickable elements - hovering the elements changes the appearance of it along with the state of the cursor. Use different styles for active and inactive states of the element
 
-## Evaluation criteria:
+## Evaluation criteria
 
 **The maximum score for the task: 200 points**
 
 ### Basic scope +50/+80
 
 - **Layout, design, UI of the main page of the application: (+10)**
-
   - [ ] all elements specified in the task are present on both the mobile and desktop versions
   - [ ] all described application design requirements are met
 
 - **Layout, design, UI of the interactive menu: (+10)**
-
   - [ ] all described application design requirements are met
   - [ ] menu links are functional and lead to corresponding categories page of words
   - [ ] active link is styled differently
@@ -135,12 +133,10 @@ Example:
   - [ ] the menu is closed by clicking on the cross icon, by clicking on the link in the menu, by clicking anywhere in the application, except the menu itself
 
 - **Layout, design, UI of categories page: (+10)**
-
   - [ ] all the elements specified in the task are present on both mobile and desktop versions
   - [ ] all described application design requirements are met
 
 - **Training Mode: (+20)**
-
   - [ ] when you click on the card, the word is pronounced in English: (+10)
   - [ ] each card has a button on the right bottom corner. When you click on that button the card flips over. The back side of the card has a translation of the word. A card is rotated back to the front side when the mouse cursor moves beyond the borders of the card: (+10)
 

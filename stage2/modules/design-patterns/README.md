@@ -23,25 +23,21 @@ Students will:
 Students are encouraged to explore the following resources for a comprehensive understanding:
 
 1. **Introduction to Design Patterns:**
-
    - [Software Design Pattern](https://refactoring.guru/design-patterns)
 
 2. **Creational Design Patterns:**
-
    - [Factory Method](https://refactoring.guru/design-patterns/factory-method)
    - [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
    - [Builder](https://refactoring.guru/design-patterns/builder)
    - [Singleton](https://refactoring.guru/design-patterns/singleton)
 
 3. **Structural Design Patterns:**
-
    - [Adapter](https://refactoring.guru/design-patterns/adapter)
    - [Decorator](https://refactoring.guru/design-patterns/decorator)
    - [Facade](https://refactoring.guru/design-patterns/facade)
    - [Proxy](https://refactoring.guru/design-patterns/proxy)
 
 4. **Behavioral Design Patterns:**
-
    - [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
    - [Command](https://refactoring.guru/design-patterns/command)
    - [Iterator](https://refactoring.guru/design-patterns/iterator)

@@ -13,7 +13,6 @@ The main goal of this task is to implement forms handling and validation using R
 - **Login block**
 
   ![Login](./login.jpg)
-
   - implement login form
   - add validation rules for input fields:
     - login
@@ -30,7 +29,6 @@ The main goal of this task is to implement forms handling and validation using R
 - **Admin page**
 
   ![Admin](./admin.jpg)
-
   - implement card creation form
   - add validation rules for input fields:
     - title
@@ -93,4 +91,4 @@ Fines
 [Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
 [api FormGroup](https://angular.dev/api/forms/FormGroup)
 
-https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
+<https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/>

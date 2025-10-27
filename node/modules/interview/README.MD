@@ -72,6 +72,4 @@ Preparing for a Node.js interview, especially with a focus on NestJS, requires a
 - **Loggers**: types of loggers, logging levels, logging tools, and libraries (Logstash, Winston, etc.)
 - **NodeJS Error handling and Debugging**: Promise rejections, Native debugging, inspectors, and specialized tools
 
-
 By covering these topics, candidates will demonstrate their comprehensive knowledge of both Node.js and NestJS, showcasing their abilities to build scalable, secure, and efficient web applications. Be prepared to discuss your experience with these technologies, share code samples, and explain your decision-making processes in real-world projects.
-

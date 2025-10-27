@@ -7,16 +7,13 @@ Implement a 'Results' button that appears alongside the 'Continue' button upon s
 ## 🔨 Implementation Details
 
 1. **Results and Continue Button Placement:**
-
    - Position both the 'Results' and 'Continue' buttons prominently after the completion of a round.
    - Ensure clear differentiation between the two buttons in terms of design and labeling.
 
 2. **Navigation to Statistics View:**
-
    - Configure the 'Results' button to navigate the player to a detailed statistics page or view, showcasing the performance summary of the completed round.
 
 3. **Smooth Transition to Next Round:**
-
    - Ensure that the 'Continue' button seamlessly transitions the player to the subsequent round.
 
 4. **Intuitive Interface for Results and Progression:**
@@ -25,7 +22,6 @@ Implement a 'Results' button that appears alongside the 'Continue' button upon s
 ## 🎨 Visual Implementation Ideas
 
 1. **Contrasting Button Designs:**
-
    - Use distinct colors or styles for the 'Results' and 'Continue' buttons to emphasize their different functions.
 
 ## ✅ Acceptance Criteria

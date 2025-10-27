@@ -2,6 +2,6 @@
   "trailingComma": "all",
   "arrowParens": "always",
   "endOfLine": "auto",
-  "printWidth": 120,
+  "printWidth": 80,
   "semi": true
 }

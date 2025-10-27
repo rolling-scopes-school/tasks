@@ -128,7 +128,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 #### Main page template. User is not signed in
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
@@ -152,7 +152,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 #### Main page template. User is signed in
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
@@ -200,7 +200,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 #### Sign In / Sign Up template
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
@@ -229,7 +229,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - This route should be private.
 - Rest client code should be lazy-loaded (so unauthenticated user won't download the code).
 - Header should be visible.
-- Method selector. Selected method should be reflected in the application URL (e.g. http://restclient.com/GET), for more details, please, check the next section.
+- Method selector. Selected method should be reflected in the application URL (e.g. <http://restclient.com/GET>), for more details, please, check the next section.
 - Endpoint (URL) input.
 - Request body editor / JSON viewer. It will be used in the response section in read-only mode. Should support prettifying. Please, mind that request body editor should support at least JSON and plain text. Support of the XML syntax is not mandatory.
 - Headers editor section.
@@ -238,7 +238,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 #### RESTful client template
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +----------------------------------------------+  |
@@ -355,7 +355,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 #### History and analytics template. No requests
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
@@ -380,7 +380,7 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 #### History and analytics template with requests
 
-```
+```text
 +----------------------------------------------------+
 |                      Header                        |
 |  +---------------------------------------------+   |
@@ -465,39 +465,32 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### Penalties
 
 - **0. Framework Choice**
-
   - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
 
 - **1. TypeScript & Code Quality**
-
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
   - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 
 - **2. Test Coverage**
-
   - [ ] Statement coverage below 80% (≥70%): **-50 points**
   - [ ] Statement coverage below 70% (≥50%): **-100 points**
   - [ ] All coverage metrics below 50%: **-150 points**
   - [ ] Absence of tests **-250 points**
 
 - **3. React Best Practices**
-
   - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
 
 - **4. Console & Error Handling**
-
   - [ ] The presence of errors and warnings in the console **-20 points** for each
   - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
   - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 
 - **5. Development Tools**
-
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
 
 - **6. UI/UX**
-
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**

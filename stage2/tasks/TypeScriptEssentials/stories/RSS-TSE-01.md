@@ -7,17 +7,14 @@ This task requires the completion of the "Getting Started with TypeScript" modul
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Enroll and complete the "Getting Started with TypeScript" module.
    - Focus on understanding TypeScript basics, including types, interfaces, classes, and modules.
 
 2. **Badge Acquisition:**
-
    - After completing the module, you will receive a badge.
    - Ensure you receive the badge in your learning platform account.
 
 3. **Markdown File Update:**
-
    - Update the provided Markdown file with the link to your badge.
    - The link should be directly accessible and viewable.
 

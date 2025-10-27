@@ -9,16 +9,13 @@ In this task, you will create a Docker image and Helm chart for a simple applica
 ## Steps
 
 1. **Create Helm Chart**
-
    - Create a Helm chart for your [Application](https://github.com/rolling-scopes-school/tasks/tree/master/devops/flask_app/README.md).
 
 2. **Deploy the Application**
-
    - Deploy the application using the Helm chart.
    - Ensure the application is accessible from the web browser.
 
 3. **Store Artifacts in Git**
-
    - Store the application and Helm chart in your git repository.
 
 4. **Additional Tasks💫**
@@ -34,11 +31,9 @@ In this task, you will create a Docker image and Helm chart for a simple applica
 ## Evaluation Criteria (100 points for covering all criteria)
 
 1. **Helm Chart Creation (40 points)**
-
    - A Helm chart for the application is created.
 
 2. **Application Deployment (50 points)**
-
    - The application is deployed using the Helm chart.
    - The application is accessible from the web browser.
 

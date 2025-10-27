@@ -24,7 +24,7 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 
 ## Sample Questions
 
-### JavaScript Topics:
+### JavaScript Topics
 
 #### Advanced Expressions
 
@@ -58,7 +58,6 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - Connection between function and its lexical environment.
 
 - #### Advanced Functions
-
   - `this` in functions
   - Reference Type & losing `this`
   - Understand difference between function and method
@@ -100,7 +99,7 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 - Sorting and custom sorting arrays.
 - Filtering array elements.
 
-### JavaScript in Browser:
+### JavaScript in Browser
 
 #### Global Object Window
 
@@ -142,7 +141,7 @@ Post-interview, the mentor is required to fill in a feedback form available unde
 
 - Understanding and applying KISS, DRY, and YAGNI principles.
 
-### Coding tasks:
+### Coding tasks
 
 ### Coding Tasks Examples
 

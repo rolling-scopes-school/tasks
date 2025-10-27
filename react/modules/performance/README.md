@@ -52,31 +52,25 @@ For more information, refer to the [React Compiler documentation](https://react.
 Students are encouraged to explore the following resources:
 
 1. **useCallback, useMemo, React.memo**
-
    - [React useCallback - React official documentation](https://react.dev/reference/react/useCallback)
    - [React useMemo - React official documentation](https://react.dev/reference/react/useMemo)
    - [React.memo - React official documentation](https://react.dev/reference/react/memo)
 
 2. **React keys**
-
    - [Keeping list items in order with key - React official documentation](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key)
 
 3. **React Profiler**
-
    - [React Profiler - React official documentation](https://react.dev/reference/react/Profiler)
 
 4. **Code splitting and lazy loading**
-
    - [React.lazy() - React official documentation](https://react.dev/reference/react/lazy)
    - [Lazy loading in NextJS](https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading)
    - [Effortless Speed: Next.js Lazy Loading](https://www.youtube.com/watch?v=vgh1InaRGUQ)
 
 5. **Reconciliation**
-
    - [React reconciliation: how it works and why should we care](https://www.developerway.com/posts/reconciliation-in-react)
 
 6. **Virtualization techniques**
-
    - [react-virtualized vs. react-window)](https://blog.logrocket.com/react-virtualized-vs-react-window)
    - [react-virtualized](https://www.npmjs.com/package/react-virtualized)
    - [react-window](https://www.npmjs.com/package/react-window)

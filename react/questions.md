@@ -6,7 +6,7 @@
 
 #### JSX syntax and how it compiles
 
-Example:  
+Example:
 JSX lets you write HTML-like code in your JavaScript:
 
 ```jsx
@@ -17,13 +17,13 @@ function Hello() {
 
 This JSX is compiled to `React.createElement('h1', null, 'Hello, world!')` under the hood.
 
-[What is JSX?](https://scrimba.com/articles/react-interview-questions/#what-is-jsx)  
+[What is JSX?](https://scrimba.com/articles/react-interview-questions/#what-is-jsx)
 [Is it possible to use React without JSX?](https://scrimba.com/articles/react-interview-questions/#can-you-write-react-without-jsx)
 
 #### _React.createElement_ and virtual DOM basics
 
-Example:  
-`React.createElement('h1', { className: 'greeting' }, 'Hello!')`  
+Example:
+`React.createElement('h1', { className: 'greeting' }, 'Hello!')`
 returns a plain JavaScript object (the VDOM node) describing the element, which React uses to build and update the UI efficiently.
 
 [createElement function](https://react.dev/reference/react/createElement)
@@ -35,7 +35,7 @@ returns a plain JavaScript object (the VDOM node) describing the element, which 
 
 #### Embedding expressions
 
-You can embed any JavaScript expression in JSX by wrapping it in curly braces `{}`.  
+You can embed any JavaScript expression in JSX by wrapping it in curly braces `{}`.
 Example:
 
 ```jsx
@@ -46,7 +46,7 @@ function Greeting({ name }) {
 
 #### Conditional rendering (&&, ternary)
 
-Examples:  
+Examples:
 Using `&&`:
 
 ```jsx
@@ -67,8 +67,8 @@ Using ternary:
 
 Renders one of two elements based on the condition.
 
-**Pitfall:**  
-If the left side of `&&` is a value like `0`, it will render `0` instead of nothing.  
+**Pitfall:**
+If the left side of `&&` is a value like `0`, it will render `0` instead of nothing.
 Example:
 
 ```jsx
@@ -199,10 +199,10 @@ function Logger({ value }) {
 #### Rule of hooks
 
 - Rules of Hooks:
-- 1.  Only call hooks at the top level. Do not call hooks inside loops, conditions, or nested functions.
-- 2.  Only call hooks from React function components or custom hooks. Do not call hooks from regular JavaScript functions.
-- 3.  Custom hooks must also follow the rules of hooks.
-- 4.  Hooks should always be called in the same order on every render.
+  1. Only call hooks at the top level. Do not call hooks inside loops, conditions, or nested functions.
+  2. Only call hooks from React function components or custom hooks. Do not call hooks from regular JavaScript functions.
+  3. Custom hooks must also follow the rules of hooks.
+  4. Hooks should always be called in the same order on every render.
 
 [Rules of hooks](https://react.dev/warnings/invalid-hook-call-warning)
 
@@ -243,7 +243,7 @@ useEffect(() => {
 
 #### Event binding in class components [legacy]
 
-In React, event binding connects UI events (like clicks) to handler functions.  
+In React, event binding connects UI events (like clicks) to handler functions.
 For class components, you often need to bind methods to `this`:
 
 ```jsx
@@ -296,7 +296,7 @@ function Button() {
 
 #### _useActionState_
 
-`useActionState` is a React hook for managing state updates triggered by asynchronous actions, such as form submissions.  
+`useActionState` is a React hook for managing state updates triggered by asynchronous actions, such as form submissions.
 It helps handle state transitions and pending states in forms, especially in React Server Components and concurrent features.
 
 Example:
@@ -330,7 +330,7 @@ function MyForm() {
 
 #### Lifting state up, Props drilling
 
-[What is prop drilling?](https://scrimba.com/articles/react-interview-questions/#what-is-prop-drilling)  
+[What is prop drilling?](https://scrimba.com/articles/react-interview-questions/#what-is-prop-drilling)
 [How do you pass a value from sibling to sibling?](https://reactjs.org/docs/lifting-state-up.html#gatsby-focus-wrapper)
 
 #### Passing values
@@ -412,7 +412,7 @@ Rules for writing custom hooks:
 
 #### _useLayoutEffect_
 
-`useLayoutEffect` runs synchronously after all DOM mutations but before the browser paints, similar to how code inside `requestAnimationFrame` runs before the next repaint.  
+`useLayoutEffect` runs synchronously after all DOM mutations but before the browser paints, similar to how code inside `requestAnimationFrame` runs before the next repaint.
 This makes `useLayoutEffect` useful for reading layout or making DOM measurements and synchronously applying changes, ensuring the user doesn't see intermediate states.
 
 [useLayoutEffect](https://react.dev/reference/react/useLayoutEffect)
@@ -590,7 +590,7 @@ Example:
 
 #### Data mode. Routing using _createBrowserRouter_
 
-`createBrowserRouter` is a data-driven API for defining routes and loaders in React Router v6+.  
+`createBrowserRouter` is a data-driven API for defining routes and loaders in React Router v6+.
 It replaces the old `<Routes>`/`<Route>` JSX structure with a configuration object, enabling features like data loading, error boundaries, and nested routes outside of JSX.
 
 Example:
@@ -759,8 +759,8 @@ function App() {
 - **State is read-only:** The only way to change the state is to emit an action, an object describing what happened.
 - **Changes are made with pure functions:** To specify how the state tree is transformed by actions, you write pure reducers.
 
-[Enumerate base principles](https://redux.js.org/understanding/thinking-in-redux/three-principles)  
-[What is the typical flow of data in a React + Redux app?](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow)  
+[Enumerate base principles](https://redux.js.org/understanding/thinking-in-redux/three-principles)
+[What is the typical flow of data in a React + Redux app?](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow)
 [Benefits of Redux?](https://fintelics.medium.com/technical-benefits-of-using-redux-f7d345e7cc9c)
 
 #### Redux Middleware
@@ -774,6 +774,7 @@ function App() {
 #### Zustand / Jotai / MobX
 
 - **Zustand:** Minimal, unopinionated state management using hooks. Create a store and access/update state via custom hooks.
+
   ```jsx
   import { create } from "zustand";
   const useStore = create((set) => ({
@@ -785,7 +786,9 @@ function App() {
     return <button onClick={inc}>{count}</button>;
   }
   ```
+
 - **Jotai:** Primitive and flexible atomic state. Define atoms and use them with hooks.
+
   ```jsx
   import { atom, useAtom } from "jotai";
   const countAtom = atom(0);
@@ -794,7 +797,9 @@ function App() {
     return <button onClick={() => setCount((c) => c + 1)}>{count}</button>;
   }
   ```
+
 - **MobX:** Reactive state management using observables and decorators. Use `makeAutoObservable` and observer components.
+
   ```jsx
   import { makeAutoObservable } from "mobx";
   import { observer } from "mobx-react-lite";
@@ -812,13 +817,14 @@ function App() {
     <button onClick={() => store.inc()}>{store.count}</button>
   ));
   ```
+
   [Zustand](https://github.com/pmndrs/zustand)
   [Jotai](https://jotai.org/)
   [MobX](https://mobx.js.org/README.html)
 
 #### React Query (server-state)
 
-React Query manages **server state** (data fetched from APIs) by handling caching, background updates, and synchronization with the server.  
+React Query manages **server state** (data fetched from APIs) by handling caching, background updates, and synchronization with the server.
 You use hooks like `useQuery` and `useMutation` to fetch and update data, reducing boilerplate for async logic.
 
 Example:
@@ -947,8 +953,8 @@ export async function getStaticPaths() {
 }
 ```
 
-[getStaticProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)  
-[getStaticPaths](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)  
+[getStaticProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)
+[getStaticPaths](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
 [getServerSideProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props)
 
 #### Next.JS. App router
@@ -1126,37 +1132,51 @@ function SearchList({ items }) {
 #### CRA vs Vite vs custom Webpack
 
 - **CRA (Create React App):** [DEPRECATED] Old way to create React applications with zero-config React setup. Was considered to be good for beginners and quick prototypes, but less flexible for advanced needs.
+
   ```sh
   npx create-react-app my-app
   ```
+
   [CRA Docs](https://create-react-app.dev/)
   **Do not use it today!**
+
 - **Vite:** Fast build tool and dev server. Uses native ES modules, instant HMR, and supports React out of the box.
+
   ```sh
   npm create vite@latest my-app -- --template react-ts
   ```
+
   [Vite Docs](https://vitejs.dev/guide/)
+
 - **Custom Webpack:** Full control over build process, plugins, and optimizations. More setup and maintenance required.
   [Webpack Docs](https://webpack.js.org/concepts/)
 
 #### Linting, formatting, pre-commit hooks
 
 - **Linting:** Use ESLint to catch code issues.
+
   ```sh
   npx eslint src/
   ```
+
   [ESLint](https://eslint.org/)
+
 - **Formatting:** Use Prettier for consistent code style.
+
   ```sh
   npx prettier --write src/
   ```
+
   [Prettier](https://prettier.io/)
+
 - **Pre-commit hooks:** Use Husky or lint-staged to run checks before commits.
+
   ```sh
   npx husky-init && npm install
   # Add a hook: .husky/pre-commit
   npx husky add .husky/pre-commit "npx lint-staged"
   ```
+
   [Husky](https://typicode.github.io/husky/#/)
   [lint-staged](https://github.com/okonet/lint-staged)
 
@@ -1178,6 +1198,7 @@ function SearchList({ items }) {
   [Dockerizing React](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa)
 
 - **CI/CD:** Automate build, test, and deploy with tools like GitHub Actions, GitLab CI, or Jenkins.
+
   ```yaml
   # .github/workflows/ci.yml
   jobs:
@@ -1189,6 +1210,7 @@ function SearchList({ items }) {
         - run: npm ci
         - run: npm run build
   ```
+
   [GitHub Actions](https://docs.github.com/en/actions)
   [GitLab CI](https://docs.gitlab.com/ee/ci/)
   [Jenkins](https://www.jenkins.io/doc/)

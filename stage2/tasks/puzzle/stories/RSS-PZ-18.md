@@ -7,17 +7,14 @@ Enhance the game's user experience by adding a feature that allows players to ch
 ## 🔨 Implementation Details
 
 1. **Choice of Toggle or Button:**
-
    - Provide a toggle switch or button for players to control the translation hint visibility.
    - Clearly label this control for easy understanding and access.
 
 2. **Conditional Display of Translation Hint:**
-
    - When the hint feature is enabled, display the translation at the same time as the sentence appears in the source data block.
    - If the hint is disabled, reveal the translation only after the sentence is correctly assembled.
 
 3. **User Interface Integration:**
-
    - Integrate the toggle/button seamlessly within the game interface, ensuring it does not disrupt the gameplay.
 
 4. **Visual Feedback:**
@@ -26,7 +23,6 @@ Enhance the game's user experience by adding a feature that allows players to ch
 ## 🎨 Visual Implementation Ideas
 
 1. **Design of Control Element:**
-
    - Style the toggle switch or button to align with the game's visual theme, using symbols like an eye or text for clarity.
    - Implement animations or color changes to indicate the active state of the control.
 

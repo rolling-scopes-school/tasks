@@ -193,7 +193,6 @@ You get points for two things:
 
 - You may use **any public API**. Respect terms of use, rate limits, and privacy. Provide fallback data or mocks for the demo.
 - You may use **Gen-AI** to help implement a backend or tools.
-
   - You must **review and own** the code - security, secrets, licenses.
   - Do not commit secrets or API keys.
   - Note AI-assisted parts in README (one short paragraph is enough).
@@ -240,7 +239,6 @@ In the app footer (for a game - in the About/Help section) add:
 - Deploy to GitHub Pages, Netlify, Vercel, Render, or similar.
 - After the deadline, open a **PR from `develop` to `main`**.
 - In the PR description include:
-
   - the **feature list** with **your points** for each item (total **must not exceed 600**),
   - the **deploy link**. If there is no deploy - explain why and add a **video** that shows all features,
   - for teams with a backend: add a backend folder in the repo or a link to its repository.
@@ -254,7 +252,6 @@ In the app footer (for a game - in the About/Help section) add:
 - Public repository after the deadline.
 - Deployed app link + optional short video.
 - Final PR with:
-
   - self-assessment table with points and links,
   - architecture diagram,
   - screenshots,

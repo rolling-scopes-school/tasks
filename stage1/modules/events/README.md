@@ -32,7 +32,6 @@ Students will:
 ## Theory 📖
 
 1. **Foundational Concepts of Events:**
-
    - [Introduction to Browser Events](https://javascript.info/introduction-browser-events)
    - [Introduction to Callbacks](https://javascript.info/callbacks)
    - [Object Handlers: `handleEvent`](https://javascript.info/introduction-browser-events#obekt-obrabotchik-handleevent)
@@ -44,7 +43,6 @@ Students will:
    - [Navigating Mouse Movement Events](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave)
 
    Webinar and Materials:
-
    - [JavaScript Events 2023Q1 [RU]](https://youtube.com/live/VJEpE6DaOYo)
    - [Presentation Slides](https://github.com/MikAleinik/rs-webinar/tree/events)
 

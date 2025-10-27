@@ -51,7 +51,6 @@
 #### 1. Modification After Deadline (100% Deduction) ⏰❌
 
 - **(100% Deduction)** 🎯 If any changes are made to the file after the submission deadline, a full penalty of 100% will be applied. This ensures the integrity of the learning process and adherence to deadlines. It is crucial to manage time effectively and complete all tasks within the given timeframe.
-
   - **Strict Adherence to Deadline (100%):** Ensure that all work, including final touches and edits, is completed before the submission deadline. Late modifications indicate poor time management and disregard for the set timeline. [RSS-TSE-PENALTY-01](./stories/RSS-TSE-PENALTY-01.md)
 
 - **🚫 Important Note:** This penalty is non-negotiable and strictly enforced to maintain fairness and consistency in the evaluation process. Planning and time management are key skills that are being assessed alongside your TypeScript proficiency. 🕒🔒

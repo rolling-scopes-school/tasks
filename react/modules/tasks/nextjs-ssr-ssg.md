@@ -40,19 +40,19 @@ A student can achieve a maximum of 100 points.
 
 ### ❓ Do I need to rewrite the project from scratch or migrate?
 
-You should continue working in the same project and **migrate it** to Next.js App Router.  
+You should continue working in the same project and **migrate it** to Next.js App Router.
 Create a new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements.
 
 ### ❓ Where should I deploy? Is GitHub Pages allowed?
 
-You can deploy the project wherever you prefer — GitHub Pages, Netlify, Vercel, or any other hosting platform.  
+You can deploy the project wherever you prefer — GitHub Pages, Netlify, Vercel, or any other hosting platform.
 The main goal is to explore different deployment options and understand how they work.
 
 Keep in mind that **Vercel** is developed by the same team that builds Next.js and has a deep integration with it, so it might be worth getting to know its features and deployment workflow more closely.
 
 ### ❓ Do I need to translate API data?
 
-**No.** Localize **UI and navigation** (interface texts, headings, labels).  
+**No.** Localize **UI and navigation** (interface texts, headings, labels).
 Leave **API data as-is** if the API doesn’t support multiple languages.
 
 ### ❓ What about images and `next/image`?
@@ -73,7 +73,7 @@ Use a **Server Action** or server route handler to create the CSV and send it wi
 
 ### ❓ Can I use a library for theme switching (e.g., `next-themes`)?
 
-Please **do not** use external libraries for theme switching.  
+Please **do not** use external libraries for theme switching.
 Implement your own solution by hand:
 
 - Keep theme state in **React Context**.
@@ -82,18 +82,15 @@ Implement your own solution by hand:
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-100 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **3. External Dependencies**
-
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **4. Project Management**
