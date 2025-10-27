@@ -7,13 +7,11 @@
 The Virtual Music Kit is an interactive sound application inspired by real musical instruments such as a piano, drums, or **any other instrument of your choice**.
 Users should be able to play sounds live (by clicking visual elements and/or by pressing assigned keyboard keys), or reproduce a sequence of available sounds of their choice.
 
-
 ### What you will learn
 
 - DOM ­manipulation
 - Event handling
 - Audio playback in the browser
-
 
 ### UI requirements
 
@@ -21,6 +19,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
    It is not required to reproduce the real-life appearance of the instrument. You can design it creatively, but it must be immediately clear to users which instrument the application simulates.
 
 2. The application includes at least **7 distinct sounds (or notes)** related to the chosen instrument.
+
 - Each sound and its corresponding visual element must be mapped to **one unique keyboard key** (for example: `A`, `S`, `D`, `F`, etc.).
 - Only **English letter keys** can be used for this purpose.
 - The default key assignments must **always remain the same** after a page refresh and must **not be generated randomly**.
@@ -30,17 +29,20 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - Each sound must be triggered **either by pressing** its assigned keyboard key **or by clicking** on the corresponding visual element.
 
 3. There is an **edit button/icon** next to each key.
+
 - When the user clicks an **edit button**, the selected key appears in a dedicated **input field** on the screen.
 - The edit input field is displayed **only when** an edit button is clicked. Its exact position in the layout is not important, but it must be **clear and intuitive** for the user.
-- After entering a new key and pressing **Enter**, the edit input disappears and the app updates the assigned key for that sound and visually refreshes the corresponding label on the interface.  
+- After entering a new key and pressing **Enter**, the edit input disappears and the app updates the assigned key for that sound and visually refreshes the corresponding label on the interface.
 - No changes should occur **without confirming** via Enter.
 - The app must prevent assigning the **same key to multiple sounds** when reassigning controls.
 - Any changes made by the user are **temporary** and do **not persist after a page refresh**.
 
-4. Every "playable" element must have **three visual states**: default, hover, and active.  
+4. Every "playable" element must have **three visual states**: default, hover, and active.
+
 - Hover and active states can be implemented with any visual effect (for example: color change, animation, highlight, etc.).
 
 5. When the user clicks a **visual element** or presses the corresponding **keyboard key**:
+
 - The corresponding sound is **played once** (it must not repeat if the user keeps pressing the key or mouse).
 - Pressing the **same key or visual element again** plays the corresponding sound **once more**.
 - The visual element switches to its **active state**, which lasts as long as the user keeps pressing the key or mouse.
@@ -49,6 +51,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - **Only one key** can be processed at a time. If the user attempts to press multiple keys simultaneously, the application should process only the **first key press detected** to prevent multiple inputs from being registered at the same moment.
 
 6. There is an **input field** where the user can type a sequence of the assigned keys (for example: `ASDFG`).
+
 - Only the keys **assigned to the app’s sounds** are allowed.
 - Invalid characters should be **ignored or prevented**.
 - Both **uppercase and lowercase** letters are accepted.
@@ -56,16 +59,17 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - Each key can appear **multiple times** in the sequence.
 
 7. There is a **button** that allows the user to **play the sequence** entered in the input field. When clicked:
+
 - The app plays the sounds **one by one**, in the order typed in the sequence.
 - While each sound is playing, the corresponding visual element switches to its **active state**, which ends when the sound stops playing.
 - There should be a short, consistent **delay between each step** in the sequence (for example, 300–500 ms) to avoid sound overlap.
 
 8. During the **automatic playback**:
+
 - The user cannot click or press any new keys (**interactions are disabled**).
 - The input field and play button are **disabled until playback ends**. The disabled state must be **visually distinct** and indicate that the element is **temporarily inactive**.
 
 9. After playback finishes, **interactivity is fully restored** (the user can again click, type, or play sounds normally).
-
 
 ### Main functional requirements
 
@@ -75,7 +79,6 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - The design is **at your discretion**.
 - The application should be done **in English**.
 - The app **must not have** unexpected errors in the console. This rule applies only to errors caused by the application itself (errors resulting from installed browser extensions or antiviruses should be ignored).
-
 
 ## Repository requirements
 
@@ -93,7 +96,6 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
   - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
 - Submit **a link to deploy** in Cross-Check: Submit tab.
 
-
 ## Technical requirements
 
 - The application is checked in the latest version of Google Chrome browser.
@@ -105,7 +107,6 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - You **can** use bootstrap, CSS frameworks, HTML and CSS preprocessors, and `normalize.css` or `modern-normalize`.
 - JS code **must not be minified** to facilitate the cross-check process.
 - It is strongly recommended to use `eslint` and `prettier`.
-
 
 ## CrossCheck Criteria (150 points)
 
@@ -131,7 +132,6 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - [ ] The input field and play button are **disabled and visually reflect** their disabled state during playback: `+5`
 - [ ] After playback finishes, **interactivity is fully restored**: `+5`
 
-
 ## Penalties
 
 - Unexpected errors in the console caused by the application(the deduction is only allowed once for each distinct kind of error): `-10 per error`
@@ -147,7 +147,6 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
 - `body` in the `index.html` is not empty (can contain only `script` tag). _This requirement can be checked by pressing `Ctrl+U` (Windows) or `Option(⌥)+Command(⌘)+U` (Mac)_: `-150`
 - Not all elements are generated using `createElement()` function or JS code is minified, not allowing to check this requirement: `-150`
-
 
 ## Useful links:
 
