@@ -138,7 +138,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - Sounds overlap during sequence playback: `-10`
 - More than one key is highlighted or processed at the same time: `-10`
 - Input field accepts characters that are not assigned to any sound: `-20`
-- Input field allows more characters than the number of available sounds: `-20`
+- Input field allows more characters than the number of available sounds multiplied by two: `-20`
 - The **default** key assignments **do not remain the same** after a page refresh: `-50`
 - The changes made by the user to the key assignments **persist after a page reload**: `-50`
 - The app doesn't prevent assigning the **same key to multiple sounds** when reassigning controls: `-50`
