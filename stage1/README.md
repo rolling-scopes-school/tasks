@@ -235,7 +235,7 @@
 
 - Tasks:
 
-  - [TBD](tasks/tbd/)
+  - [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Tests:
 
@@ -249,7 +249,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [TBD](tasks/tbd/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Modules:
 
@@ -257,7 +257,7 @@
 
 - Tasks:
 
-  - [TBD](tasks/tbd/)
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
 - Tests:
 
@@ -273,7 +273,7 @@
 
 - Tasks:
 
-  - [TBD](tasks/tbd/)
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
 - Tests:
 
@@ -285,7 +285,7 @@
 
 - Cross-Check Reviews:
 
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [TBD](tasks/tbd/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [Pair 'em Up](./tasks/pair-em-up/)
 
 - Modules:
 
