@@ -7,17 +7,14 @@ Introduce a toggle feature in the game that allows players to control the visibi
 ## 🔨 Implementation Details
 
 1. **Background Image Hint Toggle:**
-
    - Implement a toggle control, such as a switch or button, for players to enable or disable the background image hint.
    - Ensure the toggle is clearly labeled and intuitive to use.
 
 2. **Conditional Image Visibility:**
-
    - If the hint is enabled, display the background images on the word cards immediately as the sentence appears in the source data block.
    - If disabled, reveal the images only after the sentence is correctly assembled.
 
 3. **Integration into Game UI:**
-
    - Seamlessly incorporate the toggle control within the game interface, ensuring it does not detract from the gameplay experience.
 
 4. **Feedback for Toggle State:**
@@ -26,12 +23,10 @@ Introduce a toggle feature in the game that allows players to control the visibi
 ## 🎨 Visual Implementation Ideas
 
 1. **Toggle/Button Design:**
-
    - Style the toggle/button to match the game's aesthetic, using clear visual cues for its on/off states.
    - Consider using icons or graphics that represent the background image feature.
 
 2. **Background Image Presentation:**
-
    - Design the word cards so that the images are visually appealing and contribute to the puzzle-like aspect of the game.
 
 ## ✅ Acceptance Criteria

@@ -38,7 +38,7 @@ You can find backend setup and API usage instructions here:
 
 ### API Endpoints
 
-- `POST /api/user/login`  
+- `POST /api/user/login`
   Body:
 
   ```json
@@ -51,16 +51,16 @@ You can find backend setup and API usage instructions here:
   { "token": "string" }
   ```
 
-- `GET /api/user/profile`  
-  Headers: `Authorization: Bearer ${token}`  
+- `GET /api/user/profile`
+  Headers: `Authorization: Bearer ${token}`
   Response:
 
   ```json
   { "fullName": "string", "initials": "string" }
   ```
 
-- `GET /api/dashboards`  
-  Headers: `Authorization: Bearer ${token}`  
+- `GET /api/dashboards`
+  Headers: `Authorization: Bearer ${token}`
   Response:
 
   ```json
@@ -70,8 +70,8 @@ You can find backend setup and API usage instructions here:
   ]
   ```
 
-- `GET /api/dashboards/:dashboardId`  
-  Headers: `Authorization: Bearer ${token}`  
+- `GET /api/dashboards/:dashboardId`
+  Headers: `Authorization: Bearer ${token}`
   Response:
 
   ```json
@@ -141,14 +141,12 @@ You can find backend setup and API usage instructions here:
 ![Login](./login.png)
 
 - On app start:
-
   - If a token is present in `localStorage`, call `GET /api/profile`
   - If it returns 200, use the returned data to display the user and consider them logged in. Set the authenticated status in the service
   - If it returns 401, clear the token and redirect to `/login`
   - If there is no token: skip the request and consider the user anonymous
 
 - On login:
-
   - The login page is located at `/login` route.
   - It includes a centered layout form component for entering the `userName` and `password` fields.
   - Use the login form to submit credentials to `POST /api/login`

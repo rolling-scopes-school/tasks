@@ -7,7 +7,6 @@ Introduce a 'Start' button on the application's start screen, which when clicked
 ## 🔨 Implementation Details
 
 1. **Button Placement and Design:**
-
    - Position the 'Start' button in a prominent location on the start screen, ensuring it is easily visible and accessible.
    - Design the button to be visually appealing and consistent with the game's overall design theme.
 
@@ -18,12 +17,10 @@ Introduce a 'Start' button on the application's start screen, which when clicked
 ## 🎨 Visual Implementation Ideas
 
 1. **Styling:**
-
    - Use engaging colors and fonts for the button to make it stand out.
    - Consider adding hover effects to enhance user interaction.
 
 2. **Iconography:**
-
    - Optionally, include an icon on the button that symbolizes 'play' or 'start', such as a rightward arrow or a play symbol.
 
 3. **Animation:**

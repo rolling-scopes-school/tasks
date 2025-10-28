@@ -7,21 +7,17 @@ This task focuses on ensuring the application's core features are accessible sol
 ## 🔨 Implementation Details
 
 1. **Access Control:**
-
    - Ascertain logged-in status by verifying the presence of the user's name in local storage.
    - Redirect users lacking this criterion to the login page, effectively restricting access to the application's primary features.
 
 2. **Direct Navigation for Logged-In Users:**
-
    - Automatically direct users with stored login credentials to the start screen, ensuring immediate access to the application's functionalities.
 
 3. **Logout Mechanism:**
-
    - Integrate a prominently accessible logout option within the application.
    - Clicking the logout button should remove the user's credentials from local storage.
 
 4. **Post-Logout Redirection:**
-
    - Following credential clearance, navigate the user back to the login interface.
    - This redirection should be executed seamlessly and without delay.
 
@@ -32,7 +28,6 @@ This task focuses on ensuring the application's core features are accessible sol
 ## 🎨 Visual Design Suggestions
 
 1. **Logout Button Aesthetics:**
-
    - Situate a clearly marked 'Logout' button within a prominent section of the UI, such as the header or navigation bar.
    - Design the button to align with the application's overall aesthetic while still being distinct for easy identification.
 

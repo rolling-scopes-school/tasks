@@ -97,7 +97,6 @@ Minimum 3 carriages, minimum 3 stations;
 > `(GET) /api/route`
 
 - Request (application/json)
-
   - Attributes: (object)
 
 - Response 200 (application/json)
@@ -111,13 +110,11 @@ Minimum 3 carriages, minimum 3 stations;
 > `(POST) /api/route`
 
 - Request (application/json)
-
   - Body (object)
     - path: `[33, 5, 62, 11, 48, 34]` (array[number]) - List of station identifiers
     - carriages: `['carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7']` (array[string]) - List of carriage identifiers for the train
 
 - Response 201 (application/json)
-
   - Attributes (object)
     - id: `17` (number) - New route identifier
 
@@ -132,7 +129,6 @@ Minimum 3 carriages, minimum 3 stations;
 > `(PUT) /api/route/{id}`
 
 - Request (application/json)
-
   - Parameters:
     - id: `17` (number, required) - Identifier of the route
   - Body (object)
@@ -140,7 +136,6 @@ Minimum 3 carriages, minimum 3 stations;
     - carriages: `['carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_2', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7', 'carriage_type_7']` (array[string]) - List of carriage identifiers for the train
 
 - Response 200 (application/json)
-
   - Attributes (object)
     - id: `17` (number) - Route identifier
 
@@ -155,23 +150,19 @@ Minimum 3 carriages, minimum 3 stations;
 > `(DELETE) /api/route/{id}`
 
 - Request (application/json)
-
   - Parameters:
     - id: `17` (number, required) - Identifier of the route
 
 - Response 200 (application/json)
-
   - Attributes: (object)
 
 - Response 401 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token idintifier
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Route not found` (string) - Error message if routeId is wrong

@@ -1,4 +1,4 @@
-# React project setup. Class components. Error boundary.
+# React project setup. Class components. Error boundary
 
 ## Application Requirements
 
@@ -18,7 +18,7 @@ This template represents the possible layout for your app, but you can create yo
 
 Successful response.
 
-```
+```text
 +-------------------------------------------------------+
 |                                                       |
 |  +------------------ Top controls ------------------+ |
@@ -41,7 +41,7 @@ Successful response.
 
 Non-successful response.
 
-```
+```text
 +-------------------------------------------------------+
 |                                                       |
 |  +------------------ Top controls ------------------+ |
@@ -65,7 +65,7 @@ Non-successful response.
 
 2. Follow the requirements for the project setup listed [here](./project-setup.md)
 
-3. Pick a RESTfull api which supports search and pagination (pagination might be referred as _offset_ and _limit_ params). E.g. https://pokeapi.co/, for Star Wars fans https://swapi.dev/api, for Star Trek fans https://stapi.co/api-documentation (OpenApi spec can be checked here https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml), or you can select another one complying with the requirements.
+3. Pick a RESTfull api which supports search and pagination (pagination might be referred as _offset_ and _limit_ params). E.g. <https://pokeapi.co/>, for Star Wars fans <https://swapi.dev/api>, for Star Trek fans <https://stapi.co/api-documentation> (OpenApi spec can be checked here <https://editor.swagger.io/?url=https://stapi.co/api/v1/rest/common/download/stapi.yaml>), or you can select another one complying with the requirements.
 
 4. All logical parts should be set into separate components such as CardList, Card, Search, Header, Main etc.
 
@@ -106,7 +106,7 @@ No. The PR will update automatically as long as it's not merged.
 
 ### ❓ I used function components instead of class components. Is that allowed?
 
-Function components are allowed, but **state and lifecycle functionality must be implemented using class components**.  
+Function components are allowed, but **state and lifecycle functionality must be implemented using class components**.
 Hooks are not permitted in this task.
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
@@ -122,19 +122,16 @@ Hooks are not permitted in this task.
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
   - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 
 - **3. External Dependencies**
-
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 

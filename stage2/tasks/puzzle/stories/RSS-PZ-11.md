@@ -7,12 +7,10 @@ Develop a 'Continue' button (or similar label) within the game interface, which 
 ## 🔨 Implementation Details
 
 1. **Conditional Activation of 'Continue' Button:**
-
    - Integrate a 'Continue' button in the game interface, initially inactive.
    - Activate the button only after verifying the correct assembly of the current sentence.
 
 2. **Sentence Correctness Verification:**
-
    - Implement logic to assess the accuracy of the sentence constructed by the player.
    - Enable the button only when the sentence is confirmed to be correct.
 
@@ -23,7 +21,6 @@ Develop a 'Continue' button (or similar label) within the game interface, which 
 ## 🎨 Visual Implementation Ideas
 
 1. **Button Design:**
-
    - Ensure the 'Continue' button aligns with the game's visual theme.
    - Consider adding progression-indicative icons, like forward arrows, for a clearer interface.
 

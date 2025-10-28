@@ -7,17 +7,14 @@ The objective of this task is to create a comprehensive Markdown file that lists
 ## 🔨 Implementation Details
 
 1. **Markdown File Creation:**
-
    - Create a new Markdown file named `badges-compilation.md` or similar.
    - Organize the file in a clear and readable format, possibly using headings, bullet points, or tables.
 
 2. **Badge Compilation:**
-
    - List each badge you have earned from the TypeScript module series.
    - Ensure that each badge is named descriptively to reflect the module it represents.
 
 3. **Linking Badges to Modules:**
-
    - Provide a direct link for each badge to its corresponding module or the page where the badge was awarded.
    - Verify that all links are functional and direct to the correct module.
 

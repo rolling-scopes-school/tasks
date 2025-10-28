@@ -78,7 +78,6 @@ Page allows authenticated users to view and update their personal information. U
 > `(GET) /api/profile`
 
 - Response 200 (application/json)
-
   - Attributes (object)
     - name: `John Doe` (string) - User name
     - email: `user@example.com` (string) - User's email address
@@ -95,20 +94,17 @@ Page allows authenticated users to view and update their personal information. U
 > `(PUT) /api/profile`
 
 - Request (application/json)
-
   - Body (object)
     - email: `user@example.com` (string) - User's email address
     - name: `Dohn Doe` (string) - User's name
 
 - Response 200 (application/json)
-
   - Attributes (object)
     - name: `John Doe` (string) - User name
     - email: `user@example.com` (string) - User's email address
     - role: `manager|user` (string) - Access level
 
 - Response 401 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
@@ -125,12 +121,10 @@ Page allows authenticated users to view and update their personal information. U
 > `(PUT) /api/profile/password`
 
 - Request (application/json)
-
   - Body (object)
     - password: `my-new-password` (string) - User's new password
 
 - Response 401 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
@@ -147,7 +141,6 @@ Page allows authenticated users to view and update their personal information. U
 > `(DELETE) /api/logout`
 
 - Response 200 (application/json)
-
   - Attributes (object)
 
 - Response 401 (application/json)

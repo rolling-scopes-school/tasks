@@ -24,7 +24,6 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Class Components:**
-
    - [**React Docs** - Component API](https://react.dev/reference/react/Component) - [1 hour]
      - [Defining a class component](https://react.dev/reference/react/Component#defining-a-class-component)
      - [Adding state to a class component](https://react.dev/reference/react/Component#adding-state-to-a-class-component)

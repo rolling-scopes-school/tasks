@@ -2,7 +2,7 @@
 
 ## Description
 
-Your task is to implement a single page application (SPA) for decision making.  
+Your task is to implement a single page application (SPA) for decision making.
 This application is designed to help streamers, content makers, tabletop role-players to make random pick based on the weight of an option (it increases the chance of an option being picked).
 
 The application consists of two parts: `List of Options` and `Decision Picker`.
@@ -13,7 +13,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## Demo
 
-> This is a demo of the app's functionality.  
+> This is a demo of the app's functionality.
 > The app design is up to you as long as it meets the requirements of the assignment.
 
 <https://er-dmt-demo.netlify.app/>
@@ -106,7 +106,6 @@ The second part of the application (`Decision Picker`) allows you to visualize t
    ```
 
 5. (+16) ESLint configuration file must be configured with [`typescript-eslint`](https://typescript-eslint.io/) (with enabled [type checking rules](https://typescript-eslint.io/getting-started/typed-linting/)), [`eslint-plugin-unicorn`](https://www.npmjs.com/package/eslint-plugin-unicorn) (with enabled [recommended preset config](https://www.npmjs.com/package/eslint-plugin-unicorn#preset-configs-eslintconfigjs)) and the necessary dependencies for them to work.
-
    - _With the mentor's permission, it is acceptable to disable or tweak some rules as long as it does not conflict with penalties. e.g.:_
 
      ```json
@@ -149,8 +148,8 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Husky (10/80)
 
-> `husky` allows us to run some code during various git events using git hooks.  
-> `lint-staged` allows us to run linters/formatters only on code that is prepared for commit.  
+> `husky` allows us to run some code during various git events using git hooks.
+> `lint-staged` allows us to run linters/formatters only on code that is prepared for commit.
 > `commitlint` keeps track of commit names and allows us to avoid unnecessary `git rebase -i`.
 
 1. (+2) [`husky`](https://typicode.github.io/husky/), [`lint-staged`](https://github.com/lint-staged/lint-staged) and [`commitlint`](https://commitlint.js.org/) must be installed to developer dependencies.
@@ -185,7 +184,7 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 #### Care About Types (48/80)
 
-> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)  
+> [There is no point in using TypeScript if you don’t care about types](https://javascript.plainenglish.io/there-is-no-point-to-use-typescript-in-your-project-if-you-dont-care-about-types-68131deeb43a)
 > Type assertions (`x as SomeType`) and non-nullability assertions (`y!`) are unsafe. Both only silence the TypeScript compiler, but do not insert any runtime checks to match these assertions, so they can cause your program to crash at runtime.
 
 1. (+8) The code does not contain any type assertions.

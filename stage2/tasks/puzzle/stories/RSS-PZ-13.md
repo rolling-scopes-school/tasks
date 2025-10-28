@@ -7,17 +7,14 @@ Enhance the game's user interface by transforming the 'Check' button into a 'Con
 ## 🔨 Implementation Details
 
 1. **Button Transformation Logic:**
-
    - Start with a 'Check' button for players to verify sentence assembly.
    - Upon correct assembly, change the 'Check' button to a 'Continue' button.
 
 2. **Sentence Correctness Verification:**
-
    - Develop logic to determine the accuracy of the assembled sentence.
    - Enable the 'Continue' button only after the sentence is confirmed to be correct.
 
 3. **Navigational Functionality of 'Continue' Button:**
-
    - If the background image revelation feature ([RSS-PZ-28](./RSS-PZ-28.md)) is implemented and the sentence is the final one in the round, direct the player to the image revelation screen.
    - Otherwise, allow the player to advance to the next round.
 

@@ -51,27 +51,22 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 - **Internet Basics:**
-
   - [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
   - [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 - **Networking Models:**
-
   - [OSI Model for Beginners](https://www.hackercoolmagazine.com/osi-model-for-beginners/#:~:text=In%20OSI%20Model%2C%20the%20network,these%20layers%20in%20more%20detail.)
   - [TCP/IP Model Guide](https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-tcp-ip-model#:~:text=TCP%2FIP%20allows%20computers%20on,the%20host%20to%20the%20host.)
 
 - **HTTP Protocol:**
-
   - [Evolution of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP)
 
 - **Security Concepts:**
-
   - [Encoding, Encryption and Hashing](https://auth0.com/blog/encoding-encryption-hashing/)
   - [What is SSL Encryption?](https://www.arkoselabs.com/explained/ssl-encryption/)
   - [What Is HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
   - [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 
 - **Emerging Technologies:**
-
   - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
   - [The Road to QUIC](https://blog.cloudflare.com/the-road-to-quic)

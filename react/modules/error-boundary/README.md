@@ -25,7 +25,6 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Error Boundaries:**
-
    - [**React Docs** - Catching rendering errors with an error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) - [30 minutes]
    - [**React Docs (Legacy)** - Error Boundaries](https://legacy.reactjs.org/docs/error-boundaries.html) - [30 minutes]
 

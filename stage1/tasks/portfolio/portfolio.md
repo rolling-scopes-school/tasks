@@ -16,7 +16,6 @@ Portfolio is the stage#1 task, during which you'll create a responsive landing p
 The task consists of three parts:
 
 - [Portfolio. Part 1: Responsive Layout](portfolio-part-1.md)
-
   - In this part of the task, you need to create a responsive Portfolio page based on the Figma design.
   - The layout will be evaluated for validity, accuracy at specified breakpoints, responsiveness, and the absence of horizontal scrollbars..
 
@@ -26,7 +25,7 @@ The task consists of three parts:
 
 Each part lasts one week and is evaluated through cross-check reviews
 
-[Design in Figma](https://www.figma.com/design/iFsApEUsf6tPwXas56gOiT/Portfolio)  
+[Design in Figma](https://www.figma.com/design/iFsApEUsf6tPwXas56gOiT/Portfolio)
 [Graphic materials (zip, ~110Mb)](https://drive.google.com/file/d/1W67CCUA5ixwOVISFA78VMQaHY9hO7Pvr/view?usp=sharing)
 
 ## Creating your own copy of the layout
@@ -70,9 +69,9 @@ Recommendations are provided for reference; strict adherence to them is not expe
 - The `main` branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - Since the task is divided into two parts, portfolio will have two versions:
-  1.  The `portfolio` branch will contain the first part of the assignment. When starting the second part, create a branch `portfolio-part2` from the `portfolio` branch to continue from where you left off in the first part
-  2.  Upon completing the second part of the assignment, create a Pull Request from the `portfolio-part2` branch to the `portfolio` branch, check for conflicts, and perform the Merge
-  3.  Please note: Pull Requests with subsequent merges are only done from the current development branch into the initial branch of this task. Merging into the `main` branch is not performed!
+  1. The `portfolio` branch will contain the first part of the assignment. When starting the second part, create a branch `portfolio-part2` from the `portfolio` branch to continue from where you left off in the first part
+  2. Upon completing the second part of the assignment, create a Pull Request from the `portfolio-part2` branch to the `portfolio` branch, check for conflicts, and perform the Merge
+  3. Please note: Pull Requests with subsequent merges are only done from the current development branch into the initial branch of this task. Merging into the `main` branch is not performed!
 - The internal structure of the project is at your discretion.
 
 ## Commit Requirements
@@ -83,12 +82,12 @@ Recommendations are provided for reference; strict adherence to them is not expe
 ## Requirements for Pull Requests
 
 - Name the Pull Request according to the task title
-- [Provide the Pull Request description following the template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
+- [Provide the Pull Request description following the template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
   **No need to merge the Pull Request from the development branch into the `main` branch**.
 
 ## How to submit
 
-After receiving the task but before the deadline, please go to the RS App at https://app.rs.school/. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.
+After receiving the task but before the deadline, please go to the RS App at <https://app.rs.school/>. Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the link to the deployed version of your created website in the **Solution URL** field. Then, click **Submit** button.
 
 ## Submit Recommendations
 
@@ -99,7 +98,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
 ## Task Evaluation
 
 - Each part of the assignment is assessed through a cross-check
-- Instructions for conducting a cross-check: https://rs.school/docs/ru/cross-check-flow
+- Instructions for conducting a cross-check: <https://rs.school/docs/ru/cross-check-flow>
 
 ⚠️ The administration reserves the right to deduct points or apply penalties for violations not explicitly listed in the task description if they affect the validity, fairness, or integrity of the assignment.
 
@@ -107,17 +106,19 @@ After receiving the task but before the deadline, please go to the RS App at htt
 
 <details>
   <summary>[RU] Materials</summary>
-  
-  - [Старт в Figma для верстальщика [RU]](https://htmlacademy.ru/blog/soft/figma)
-  - [Инструкция по работе в Figma для верстальщика [RU]](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
-  - [Верстка сайта с нуля из Figma [RU]](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+
+- [Старт в Figma для верстальщика [RU]](https://htmlacademy.ru/blog/soft/figma)
+- [Инструкция по работе в Figma для верстальщика [RU]](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
+- [Верстка сайта с нуля из Figma [RU]](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+
 </details>
 
 <details>
   <summary>[EN] Materials</summary>
-  
-  - [Video course. Figma for Developers - Quick Tutorial [EN]](https://www.youtube.com/playlist?list=PL7e8VJ_ZN6epq-oiYOufiuPI-fpDC2Mby)
-  - [From Figma to Webflow: turning your static designs into interactive websites [EN]](https://webflow.com/blog/from-figma-to-webflow-turning-your-static-designs-into-interactive-websites)
+
+- [Video course. Figma for Developers - Quick Tutorial [EN]](https://www.youtube.com/playlist?list=PL7e8VJ_ZN6epq-oiYOufiuPI-fpDC2Mby)
+- [From Figma to Webflow: turning your static designs into interactive websites [EN]](https://webflow.com/blog/from-figma-to-webflow-turning-your-static-designs-into-interactive-websites)
+
 </details>
 
 ## RS School Webinars
@@ -126,7 +127,6 @@ After receiving the task but before the deadline, please go to the RS App at htt
   <summary>[RU] Webinars</summary>
 
 - Sergey Shalyapin's Webinars
-
   - [Stream 11.02.2020. Broswers and IDEs. HTML and CSS Basics [RU]](https://youtu.be/UQavTWiTpnA)
   - [Stream 03.03.2020 Forms & Inputs. Flexbox & Grid example [RU]](https://youtu.be/PhRVJC0kBGE)
   - [Stream 10.03.2020. DOM events exampes [RU]](https://youtu.be/_5f0kznOM_A)
@@ -148,11 +148,11 @@ After receiving the task but before the deadline, please go to the RS App at htt
 
 <details>
   <summary>[EN] Webinars</summary>
-  
-  - [Lecture RS School.Lithuania. HTML/Css [EN]](https://youtu.be/YiLqgZY4xCU?si=QImMmMJpksOpUNwe)
-  - [RS School. Lithuania. Semantics. CSS3 [EN]](https://youtu.be/9T6Ho--eqGc)
-  - [RS School. Lithuania. Flex [EN]](https://youtu.be/TSrIHeKQ3nQ?si=7k8NMTERL_GsfEYD)
-  - [RS School. Lithuania. DOM API [EN]](https://youtu.be/DABqkW_Rt0s?si=ciJP5V5LSpf7Q4VY)
-  - [RS School. Lithuania. DOM Events [EN]](https://youtu.be/CSije4jqjv8?si=0_oxwJDH-QdQvSFs)
+
+- [Lecture RS School.Lithuania. HTML/Css [EN]](https://youtu.be/YiLqgZY4xCU?si=QImMmMJpksOpUNwe)
+- [RS School. Lithuania. Semantics. CSS3 [EN]](https://youtu.be/9T6Ho--eqGc)
+- [RS School. Lithuania. Flex [EN]](https://youtu.be/TSrIHeKQ3nQ?si=7k8NMTERL_GsfEYD)
+- [RS School. Lithuania. DOM API [EN]](https://youtu.be/DABqkW_Rt0s?si=ciJP5V5LSpf7Q4VY)
+- [RS School. Lithuania. DOM Events [EN]](https://youtu.be/CSije4jqjv8?si=0_oxwJDH-QdQvSFs)
 
 </details>

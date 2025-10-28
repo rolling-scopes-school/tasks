@@ -5,13 +5,11 @@ This task is a continuation of the state management task. In this task, you will
 ## Application Requirements
 
 1. API Integration:
-
    - Based on your state management choice from the previous task, implement one of the following:
      - For Redux users: Implement RTK Query for making API calls
      - For Zustand users: Implement TanStack Query (formerly React Query) for data fetching
 
 2. Required Query Features:
-
    - Cache the results of API calls
    - Display loading states while data is being fetched
    - Handle error states appropriately
@@ -29,7 +27,6 @@ This task is a continuation of the state management task. In this task, you will
 1. Create a separate branch for this task from the state management task branch. Branch name: "api-queries"
 
 2. Library Integration:
-
    - For Redux users:
      - Implement RTK Query endpoints for all your API calls
      - Use RTK Query hooks in your components
@@ -40,7 +37,6 @@ This task is a continuation of the state management task. In this task, you will
      - Implement proper cache management
 
 3. Data Management:
-
    - Items returned for the current page should be properly cached
    - Currently selected item details should be cached
    - Loading states should be tracked and displayed appropriately
@@ -65,7 +61,7 @@ It means that when a user opens a detail view for an item, the data fetched for 
 The implementation is up to you:
 
 - **One button** that invalidates both list and detail data is fine.
-- **Two buttons** (one in the list view, one in the details view) are also fine.  
+- **Two buttons** (one in the list view, one in the details view) are also fine.
   The key is that you demonstrate manual cache invalidation.
 
 ### ❓ What’s the difference between cache invalidation and refetching?
@@ -75,7 +71,7 @@ The implementation is up to you:
 
 ### ❓ Should I clear the browser’s disk cache?
 
-No. This task is only about the in-memory cache of RTK Query or TanStack Query.  
+No. This task is only about the in-memory cache of RTK Query or TanStack Query.
 You are **not** expected to manage or bypass the browser’s own HTTP cache.
 
 ### ❓ How do I test “Cache invalidation and refetching work correctly”?
@@ -119,24 +115,20 @@ Yes. They are not considered UI libraries and will not result in penalties.
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage**
-
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **4. External Dependencies**
-
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **5. Project Management**

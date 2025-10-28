@@ -7,11 +7,9 @@ Enhance the user experience by displaying a personalized greeting that includes 
 ## 🔨 Implementation Details
 
 1. **Retrieval of Name from Local Storage:**
-
    - Implement a function to fetch the user's first name and surname stored in local storage.
 
 2. **Displaying the Personalized Greeting:**
-
    - Construct a greeting message that incorporates the retrieved names.
    - Ensure that the greeting is displayed prominently on the user interface after successful login or page reload.
 
@@ -21,7 +19,6 @@ Enhance the user experience by displaying a personalized greeting that includes 
 ## 🎨 Visual Implementation Ideas
 
 1. **Typography and Color:**
-
    - Use a friendly and welcoming font style for the greeting.
    - Employ colors that contrast well with the background for better visibility.
 

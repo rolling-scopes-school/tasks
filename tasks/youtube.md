@@ -1,11 +1,11 @@
 # YouTube client
 
-### Task:
+### Task
 
 The task is to create a web app to view the information about youtube clips on user request.
 YouTube REST API should be accessed via cross-domain XHR requests.
 
-### Use case:
+### Use case
 
 1. User sees a search box as he starts up the app.
 2. The user inputs a request in the search box. e.g. - javascript
@@ -22,7 +22,6 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 4. During a mousedown event on a paging component the tooltip with page number should pop-up.
 5. Your complete app should be uploaded to github pages (gh-pages branch) or to any other hosting.
 6. Each clip-component should provide the following information about a single YouTube clip:
-
    - title (includes a clickable link to YouTube)
    - clip preview as a picture
    - video description
@@ -32,16 +31,16 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 
    Showing any other information is optional.
 
-### Samples of YouTube REST API requests:
+### Samples of YouTube REST API requests
 
     - https://www.googleapis.com/youtube/v3/search?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&type=video&part=snippet&maxResults=15&q=js
     - https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=nq4aU9gmZQk,REu2BcnlD34,qbPTdW7KgOg&part=snippet,statistics
     - How to get an API key - https://www.youtube.com/watch?v=JbWnRhHfTDA
     - You can find a more detailed documenation here - https://developers.google.com/youtube/v3/
 
-### UI Examples:
+### UI Examples
 
-#### Default view:
+#### Default view
 
 ![](https://i.imgur.com/W7CTv9X.png)
 
@@ -58,7 +57,7 @@ YouTube REST API should be accessed via cross-domain XHR requests.
 - HTML rendering via JavaScript (a page is loaded without html tags inside document.body);
 - CSS preprocessors can be used;
 - CSS3 Animations with Transitions & Transforms;
-- Use of jQuery and other frameworks and libs **is forbidden** (except for https://lodash.com/);
+- Use of jQuery and other frameworks and libs **is forbidden** (except for <https://lodash.com/>);
 - `.editorconfig` is required
 - `eslint` is required
 - `eslint-config-airbnb-base` is required

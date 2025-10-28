@@ -25,24 +25,20 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to Code Reviews:**
-
    - [What is Code Review?](https://www.atlassian.com/agile/software-development/code-reviews)
    - [Code Review Best Practices by Michaela Greiler](https://www.michaelagreiler.com/code-review-best-practices/)
 
 2. **Code Review Best Practices:**
-
    - [Code Review Guidelines for Humans](https://mtlynch.io/human-code-reviews-1/)
    - [Google's Code Review Guidelines - Looking for](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
    - [Google's Code Review Guidelines - Writing Comments](https://google.github.io/eng-practices/review/reviewer/comments.html)
 
 3. **Tools and Techniques:**
-
    - [Popular Code Review Tools](https://www.softwaretestinghelp.com/code-review-tools/)
    - [Code Review Best Practices on Roadmap.sh](https://roadmap.sh/best-practices/code-review)
    - [GitHub's Code Review Tool](https://github.com/features/code-review/)
 
 4. **Webinars:**
-
    - [Code Review [RU]](https://www.youtube.com/watch?v=lRtUJFuIyv0)
 
 ## Practice 💻

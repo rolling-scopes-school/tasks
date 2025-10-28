@@ -18,13 +18,11 @@ Focus on routing and functional components. Remove any button or functionality w
 ## Application Requirements
 
 1. **Pagination**:
-
    - Add pagination for your item list (search results)
    - Display current page in URL using query parameters (e.g., `?page=2`)
    - Pagination should appear after receiving the list of items
 
 2. **Master-Detail View**:
-
    - Main page displays search results
    - On item click, split page into 2 sections:
      - **Left**: Continue displaying search results
@@ -44,7 +42,6 @@ Focus on routing and functional components. Remove any button or functionality w
 1. **Branch Management**: Create branch from **"unit-testing"**. Branch name: **"hooks-and-routing"**
 
 2. **Component Conversion**:
-
    - Convert ALL class components to **functional components** with hooks
    - **Exception**: Keep **Error Boundary** as class component
    - Create custom hook for localStorage operations
@@ -72,24 +69,20 @@ A student can achieve a maximum of 100 points.
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage**
-
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **4. External Dependencies**
-
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 

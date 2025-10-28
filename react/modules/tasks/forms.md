@@ -3,7 +3,6 @@
 ## Application Requirements
 
 1. **Portals**. Use React Portals to display forms in modals:
-
    - Main page should have buttons to open 2 different modals
    - **Shared modal component** that renders different content:
      - Form created using uncontrolled components approach
@@ -14,7 +13,6 @@
 
 3. **Forms**
    Both forms will collect the same data:
-
    - name (validate for first uppercased letter)
    - age (should be number, no negative values)
    - email (validate for email)
@@ -27,7 +25,6 @@
 
 4. **Validation**
    Implement validation according to the input descriptions in p. 3. Use **Yup** or **Zod** (but pick just one) as the validation schema. Show error messages consistently — either above or below each field, and stick with that placement throughout the form.
-
    - For the **React Hook Form** approach, the submit button should be **disabled** while there are validation errors (live validation).
    - The **uncontrolled form** should validate inputs only **on submit**, and does **not need to disable** the submit button.
 
@@ -37,9 +34,7 @@
    On successful form submission close the modal and display the newly entered data on the main page. Make an indication for a newly entered data on the main route (e.g. show border in a different color for a few seconds, or a different background color)
 
 6. **Testing Requirements / Unit Testing**
-
    - **Form Components Testing**: Test both uncontrolled and React Hook Form implementations
-
      - Test form rendering with all required fields
      - Test field validation (name, age, email, passwords, etc.)
      - Test password strength calculation
@@ -47,14 +42,12 @@
      - Test error message display and clearing
 
    - **Modal Components Testing**:
-
      - Test modal opening/closing functionality
      - Test accessibility features (focus management, ESC key)
      - Test click outside to close behavior
      - Test portal rendering
 
    - **Redux Store Testing**:
-
      - Test actions and action creators
      - Test reducers with different action types
      - Test selectors
@@ -74,7 +67,7 @@
 
 ## Points
 
-### Student can get 100 points:
+### Student can get 100 points
 
 - Universal, single modal with React Portal (reusable for both controlled and uncontrolled forms) - **15 points**
 - State Management set up with Redux or Zustand and used to collect data from both forms, proper modal behavior (accessibility, close on ESC/outside click) - **15 points**
@@ -88,24 +81,20 @@
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage**
-
   - Testing statement coverage below 80% (≥70%): **-10 points**
   - Testing statement coverage below 70% (≥50%): **-30 points**
   - Testing all coverage metrics below 50%: **-50 points**
 
 - **3. External Dependencies**
-
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **4. Validation**
-
   - Validation is implemented without **Yup** or **Zod** - **-25 points**
 
 - **5. Project Management**

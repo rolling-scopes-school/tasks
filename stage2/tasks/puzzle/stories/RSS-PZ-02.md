@@ -7,17 +7,14 @@ This task focuses on adding advanced validation rules to the first name and surn
 ## 🔨 Implementation Details
 
 1. **Character Restriction Validation:**
-
    - Ensure that both input fields only accept English alphabet letters and the hyphen ('-') symbol.
    - Implement a regex pattern in the input field validation to restrict unwanted characters.
 
 2. **Uppercase First Letter Validation:**
-
    - Validate that the first letter of each field (first name and surname) is in uppercase.
    - This could be achieved through a custom validation script or regex.
 
 3. **Minimum Length Requirement:**
-
    - Set a minimum length of 3 characters for the first name field and 4 characters for the surname field.
    - Ensure that the form validation checks and enforces these minimum lengths before allowing submission.
 
@@ -28,7 +25,6 @@ This task focuses on adding advanced validation rules to the first name and surn
 ## 🎨 Visual Implementation Ideas
 
 1. **Validation Feedback:**
-
    - Use color coding (like red for errors) to highlight the input fields when validation fails.
    - Consider inline icons or symbols (like a warning sign) to draw attention to the specific issue.
 

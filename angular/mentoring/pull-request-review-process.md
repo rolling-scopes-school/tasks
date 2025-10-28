@@ -20,7 +20,7 @@
 
 Pull Request is a place to discuss contributor's code. It should not be a monologue but rather a fruitful collaboration between a contributor and a reviewer. Stay professional, respect each other's time and efforts.
 
-### Pull Request description must contain the following:
+### Pull Request description must contain the following
 
 1. Task URL.
 2. Screenshot showing the result of Task's completion. The screenshot is added to a Pull Request as an image attachment. To achieve that you can just dra-and-drop the screenshot to the Description text area.
@@ -35,7 +35,7 @@ Pull Request is a place to discuss contributor's code. It should not be a monolo
 
 ### Description Example
 
-```
+```text
 1. Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/fancy-weather.md
 2. Screenshot:
    ![](https://rs.school/docs/images/fancy-weather.png)
@@ -52,7 +52,7 @@ Pull Request is a place to discuss contributor's code. It should not be a monolo
  ...
 ```
 
-### Pull Request must not contain the following:
+### Pull Request must not contain the following
 
 - Commented code
 - Leftover and/or irrelevant files, auto-generated code, node_modules, etc.
@@ -156,9 +156,9 @@ function findMinValue() {...}
 
 ```js
 const KEY_CODES = {
-	Space: 32,
-	Enter: 13,
-	...
+ Space: 32,
+ Enter: 13,
+ ...
 }
 
 if (key === KEY_CODES.Enter) {

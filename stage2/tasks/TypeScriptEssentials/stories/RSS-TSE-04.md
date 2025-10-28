@@ -7,17 +7,14 @@ This task entails completing a module that focuses on developing typed functions
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Enroll and complete the module dedicated to developing typed functions in TypeScript.
    - Emphasize learning about specifying types for function parameters and return values, and the utilization of generics in functions.
 
 2. **Badge Acquisition:**
-
    - A badge will be awarded upon successful completion of the module.
    - Make sure the badge is visible in your profile on the learning platform.
 
 3. **Markdown File Update:**
-
    - Add the badge to your Markdown file.
    - Ensure the link to the badge is correctly formatted and leads directly to your earned badge.
 

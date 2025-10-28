@@ -35,13 +35,11 @@ Points can be cut down in case of mistakes (described in the technical requireme
 ## Technical Requirements
 
 1. General:
-
    - The name of the HTML file should be _index.html_;
    - Create separate folders for images, fonts, and styles. You will be penalized if all files are placed on the same level as 'index.html' file - **minus 10 points**;
    - The markup width should be 1600px. Hence the layout will be tested on 1600px screen width or wider. The markup should be centered. If you are going to implement the task on the device with screen width lower then 1600px, the scrollbar will appear, and it is Ok (you can use zoom out)(**points - 0-10**);
 
 2. Semantic layout:
-
    - HTML5 semantic tags should be used.For example header, nav, section, article, footer, form + fields, figure(**points - 0-10**);
    - Class names should be reasonable and correct, avoid names such as .right-column, .third-form, .left, .big. use more meaningful ones - .heading, .form-container, .wrapper, .menu-column. You are also welcome to use pseudo-classes (:first-child, last-child, etc.)(**points - 0-10**);
    - Using id for styles will be considered as a mistake, **minus 5 points**
@@ -55,7 +53,6 @@ Points can be cut down in case of mistakes (described in the technical requireme
 6. Fonts. You can find all the font for free (the links will be provided). The fonts should be imported properly. Don't forget about the font-weight, it also should be correct(**points - 0-10**);
 
 7. Requirements for the blocks and columns:
-
    - Consider the case with more text than in the markup - just add more text to the column and check if the position of the column or layout does not change (limitation by overflow)(**points - 0-10**)
    - You should consider the case when one more column is added to menu section. This column should appear under the first one or in the center of the next line or hidden by overflow property. It should not break the layout by being positioned as a third visible element outside of parent's borders(**points - 0-5**);
    - If you are going to use inline-block property, make sure that there is no free space between the elements(**points - 0-5**);
