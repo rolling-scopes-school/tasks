@@ -219,7 +219,7 @@ Hooks are not permitted in this task.
 
 - **1. Project setup**
 
-  - Project has been setup without using [Vite](https://vitejs.dev/guide/) with the [_react-ts_ template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts): **-95 points**
+  - Project has been set up without using [Vite](https://vitejs.dev/guide/) with the [_react-ts_ template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts): **-95 points**
 
 - **2. TypeScript & Code Quality**
 
