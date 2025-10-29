@@ -45,7 +45,7 @@ Expand your knowledge with these additional materials:
 - [**DigitalOcean Tutorial** - Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
 - [**freeCodeCamp Article** - This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) - [30 minutes]
 
-Official dokumentation:
+Official documentation:
 
 - [**React Docs** - Component API](https://react.dev/reference/react/Component)
 - [**React Docs (Legacy)** - React.Component](https://legacy.reactjs.org/docs/react-component.html)
