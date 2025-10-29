@@ -24,11 +24,11 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Understanding Class Components:**
-   - [**React Docs** - Component API](https://react.dev/reference/react/Component) - [1 hour]
+   - **React Docs** - Component API - [1 hour]
      - [Defining a class component](https://react.dev/reference/react/Component#defining-a-class-component)
      - [Adding state to a class component](https://react.dev/reference/react/Component#adding-state-to-a-class-component)
      - [Adding lifecycle methods to a class component](https://react.dev/reference/react/Component#adding-lifecycle-methods-to-a-class-component)
-   - [**React Docs (Legacy)** - React.Component](https://legacy.reactjs.org/docs/react-component.html) - [1 hour]
+   - **React Docs (Legacy)** - React.Component - [1 hour]
      - [Components and Props](https://legacy.reactjs.org/docs/components-and-props.html)
      - [State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
      - [Handling Events](https://legacy.reactjs.org/docs/handling-events.html)
@@ -44,3 +44,8 @@ Expand your knowledge with these additional materials:
 
 - [**DigitalOcean Tutorial** - Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
 - [**freeCodeCamp Article** - This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) - [30 minutes]
+
+Official dokumentation:
+
+- [**React Docs** - Component API](https://react.dev/reference/react/Component)
+- [**React Docs (Legacy)** - React.Component](https://legacy.reactjs.org/docs/react-component.html)
