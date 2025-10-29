@@ -44,3 +44,9 @@ Students are encouraged to explore the following resources:
 ## Additional Resources 📘
 
 1. [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+
+2. [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/)
+
+3. [Azure Global Infrastructure Map](https://infrastructuremap.microsoft.com/)
+
+4. [Azure Service Limits and Quotas](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits)
