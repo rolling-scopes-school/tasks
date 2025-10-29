@@ -23,13 +23,11 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **SPA Fundamentals:**
-
    - [Introduction to Single Page Applications](https://en.wikipedia.org/wiki/Single-page_application)
    - [Single Page Applications](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
    - [What I wish I had known about single page applications](https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/)
 
 2. **Client-Side Routing in SPAs:**
-
    - [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
    - [Native JavaScript Routing](https://css-tricks.com/native-javascript-routing/)
 

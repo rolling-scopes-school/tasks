@@ -40,13 +40,13 @@ This task is the continuation of the [CodeJam Pallete](./codejam-pallete.md) and
 - preview component should use
   - canvas api for animation
   - or use the method from piskel app (change background image with frame rate)
-- Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
+- Please use `Frames` and `Preview` components of <https://www.piskelapp.com/> as an ideal example of what should be done.
 - Should work in Chrome
 
 ### Non-functional requirements
 
 - Components source files should be stored in the folders with the component name.
-- When you finalize one functionality you should commit you intermediate results. You can refactor and commit changes till deadline. For more details, please read - https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md
+- When you finalize one functionality you should commit you intermediate results. You can refactor and commit changes till deadline. For more details, please read - <https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md>
 - You CAN use Material design or Bootstrap
 - You CAN use preprocessors
 - the tech requirements are same as for piskel clone
@@ -75,7 +75,6 @@ Maximum points - **100**
   - delete a frame - **15**
   - duplicate frame - **20**
 - `Preview` functionality
-
   - Ability to animate the created frames - **20**
   - Ability to change FPS rate from 1 to 24 per second - **20**
   - Ability to run the animation in Full screen mode - **10**

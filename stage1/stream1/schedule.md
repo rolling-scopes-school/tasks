@@ -2,7 +2,6 @@
 
 - Open to all who wish to join
 - Topics:
-
   - Introduction of students to The Rolling Scopes and RS School.
   - Git, GitHub, commit and pull request formatting.
   - Adaptive layout markup.
@@ -24,7 +23,7 @@
 - Knowledge of JavaScript fundamentals (data types, operators, loops, conditional constructs, functions)
 - Knowledge of data structures and their organization (array, list, stack, queue, tree, etc.)
 - Ability to implement a simple algorithm in the JavaScript programming language, such as sorting or searching for array elements
-- Ability to solve 8-7 kyu level problems on the website https://www.codewars.com/
+- Ability to solve 8-7 kyu level problems on the website <https://www.codewars.com/>
 - (Desirable) English language skills at Pre-Intermediate level. [Our Recommendations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Training Program
@@ -136,21 +135,21 @@
 
 1. Complete the tasks and tests of the [preparatory course](../stage0/)
 2. Attend English language courses until reaching a Pre-Intermediate level (Minimum A2).
-3. Read https://learn.javascript.ru/
+3. Read <https://learn.javascript.ru/>
 
 ### What JavaScript textbook can you recommend?
 
-- https://learn.javascript.ru/
-- https://exploringjs.com/impatient-js/toc.html
-- https://github.com/azat-io/you-dont-know-js-ru
+- <https://learn.javascript.ru/>
+- <https://exploringjs.com/impatient-js/toc.html>
+- <https://github.com/azat-io/you-dont-know-js-ru>
 
 ### Where is the communication taking place?
 
-In the Discord chat - https://discord.gg/2Ww3TCBvz4
+In the Discord chat - <https://discord.gg/2Ww3TCBvz4>
 
 ### Where can I ask a question?
 
-Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
+Questions can be asked in the Discord chat - <https://discord.gg/2Ww3TCBvz4>
 
 ### Does the place of residence matter? Can the course be completed fully online?
 

@@ -23,13 +23,11 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Azure Regions and Availability:**
-
    - [Azure regions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/regions)
    - [Azure Availability Zones](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview?tabs=azure-cli)
    - [Azure cross-region replication](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions)
 
 2. **Azure Data Centers and Resource Management:**
-
    - [Microsoft Datacenters](https://datacenters.microsoft.com/globe/explore)
    - [Manage Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal)
    - [Manage Azure resource groups](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)

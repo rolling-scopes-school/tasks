@@ -6,8 +6,8 @@
 
 ## Functional requirements
 
-You need to create a simplified clone of the https://www.piskelapp.com/, a web-based tool for Spriting and Pixel art.
-An overview of the features can be found in this playlist: https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnwNOVbAzI
+You need to create a simplified clone of the <https://www.piskelapp.com/>, a web-based tool for Spriting and Pixel art.
+An overview of the features can be found in this playlist: <https://www.youtube.com/playlist?list=PLO3K3VFvlU6Akj3W29_nMLZFnwNOVbAzI>
 
 ### Required functionality
 
@@ -21,7 +21,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
   - Eraser
   - Stroke (to draw straight lines)
   - Paint all pixels of the same color
-- Please use Tools in https://www.piskelapp.com/ as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
+- Please use Tools in <https://www.piskelapp.com/> as an ideal example of what should be done. Use only main functionality without keyboard modifiers (ALT or SHIFT keys)
 - Preview
   - Small animation preview window in the top right corner
   - Full screen mode
@@ -29,7 +29,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
   - Ability to add/delete a frame
   - Ability to reorder a frame via Drag and Drop
   - Ability to duplicate a frame
-- Please use `Frames` and `Preview` components of https://www.piskelapp.com/ as an ideal example of what should be done.
+- Please use `Frames` and `Preview` components of <https://www.piskelapp.com/> as an ideal example of what should be done.
 - Export the final result
   - to local file system in any format (.gif / .apng)
 - User session
@@ -48,7 +48,7 @@ An overview of the features can be found in this playlist: https://www.youtube.c
   - Keyboard shortcuts should be available on hover
   - Modal window to change keyboard shortcuts
 
-## Technical requirements:
+## Technical requirements
 
 1. Browser support: latest version of Google **Chrome**.
 2. Usage of **JS/ES2015+** or **TypeScript**.
@@ -98,7 +98,7 @@ Total: 50h
 - Use meaningful names for variables. Avoid single characters for variable names (i, n, j, d, etc.), abstract or common names (obj, arr, num, item1, etc.)
 - Use the eslint with airbnb for all js code
 
-### Project structure. Organization of files and folders (example):
+### Project structure. Organization of files and folders (example)
 
 Usage of webpack is mandatory! Components directories should include all the needed resources and styles. For example, by removing folder `modal-dialog` all styles related to this dialog will be removed as well.
 
@@ -125,7 +125,7 @@ Notes for Webpack usage:
 - There is no point in putting your code inside an Immediately-invoked Function Expression.
 - There is no point in applying 'use strict' mode.
 
-### Score criteria:
+### Score criteria
 
 Basic (80) + Normal (180) + Extra (160) + Impossible (30) - **+450**
 
@@ -136,7 +136,6 @@ Max - **+80**
 - [ ] Usage of Webpack and required project structure: **+10 points.**
 - [ ] Custom canvas size (32x32 / 64x64 / 128x128) - **+10**
 - [ ] Tools
-
   - [ ] Pen. Required size is 1 unit. (**+5**)
   - [ ] Pen. Other unit sizes (2, 3, 4) .(**+10**)
   - [ ] Color select (color picker) (**+5**)
@@ -198,29 +197,28 @@ Max - **+30**
 - [ ] **-20** eslint is not configured or there is a lot of errors
 - [ ] **-20** magic number
 
-#### Useful links:
+#### Useful links
 
-- piskel app source files - https://github.com/piskelapp/piskel (for information!)
+- piskel app source files - <https://github.com/piskelapp/piskel> (for information!)
 - some canvas tricks
-  - https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage
+  - <https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage>
 - animation
-  - https://developer.mozilla.org/ru/docs/DOM/window.requestAnimationFrame
-  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
-  - https://learn.javascript.ru/js-animation
-  - https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe ( thanks @fomenkogregory)
+  - <https://developer.mozilla.org/ru/docs/DOM/window.requestAnimationFrame>
+  - <https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations>
+  - <https://learn.javascript.ru/js-animation>
+  - <https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe> ( thanks @fomenkogregory)
 - login
-  - google - https://firebase.google.com/docs/auth/web/google-signin#handle_the_sign-in_flow_with_the_firebase_sdk
+  - google - <https://firebase.google.com/docs/auth/web/google-signin#handle_the_sign-in_flow_with_the_firebase_sdk>
 - canvas libs
-  - http://fabricjs.com/
+  - <http://fabricjs.com/>
 - previous videos
-  - animation player bootstrap - https://www.youtube.com/watch?v=KpvMSDQGmpY
-- full screen - http://qnimate.com/full-screen-api-tutorial-with-demo/
+  - animation player bootstrap - <https://www.youtube.com/watch?v=KpvMSDQGmpY>
+- full screen - <http://qnimate.com/full-screen-api-tutorial-with-demo/>
 - refactorings
   - [magic number](<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)>)
 - unit tests
-
   - [full coverage](https://github.com/davojta/2019q1-base-project-bootstrap/commit/1c5a7d801d1475ddec7d2d18c3a265923dd12b73)
 
 ### Lecture materials from @davojta analyzing the common mistakes appearing in the process
 
-- https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md
+- <https://github.com/rolling-scopes-school/lectures/blob/master/lectures/refactoring.md>

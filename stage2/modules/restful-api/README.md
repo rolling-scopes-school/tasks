@@ -20,7 +20,6 @@ Students will:
 Students are encouraged to explore the following resources:
 
 - **REST and RESTful APIs**
-
   - [Understanding REST and RESTful API](https://code.tutsplus.com/ru/tutorials/code-your-first-api-with-nodejs-and-express-understanding-rest-apis--cms-31697)
   - [What is REST?](https://www.codecademy.com/article/what-is-rest)
   - [Fundamentals of REST API](https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag)

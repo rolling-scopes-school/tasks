@@ -7,17 +7,14 @@ Introduce a background image feature for the word cards, where each card carries
 ## 🔨 Implementation Details
 
 1. **Image Segmentation:**
-
    - Divide a larger image into segments, with each segment being the background of a word card.
    - Ensure that the complete set of word cards for a sentence forms a coherent part of the larger image.
 
 2. **Sentence-to-Image Correspondence:**
-
    - Assign each sentence in the game to a specific segment of the larger image.
    - As players progress through sentences, they gradually reveal different parts of the image.
 
 3. **Card Design:**
-
    - Design the word cards to ensure that text readability is maintained against the background image.
    - Use a translucent overlay or text shadow to enhance text visibility if necessary.
 
@@ -27,7 +24,6 @@ Introduce a background image feature for the word cards, where each card carries
 ## 🎨 Visual Implementation Ideas
 
 1. **Puzzle-Like Layout:**
-
    - Arrange the word cards so that when placed in the correct order, the segments form a recognizable part of the larger image.
 
 2. **Visual Harmony:**

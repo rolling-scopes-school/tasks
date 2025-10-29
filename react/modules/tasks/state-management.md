@@ -3,7 +3,6 @@
 ## Application Requirements
 
 1. State Management Solution:
-
    - Students must choose between Redux (with Redux Toolkit) or Zustand as their state management solution.
    - The following functionality must be implemented using the chosen state management solution:
 
@@ -13,7 +12,6 @@
    - When user navigates to the next page, and then goes back, previously selected items should be shown (if there were any)
    - When user unselects an item, it should be removed from the state
 3. Downloading Selected Items:
-
    - When at least 1 item has been selected, the flyout element should appear at the bottom
    - The flyout element should contain number of selected elements (e.g. "3 items are selected") and 2 buttons: "Unselect all" and "Download"
    - When "Unselect all" button is clicked, all the selected items should be unselected and the flyout should be removed from the page
@@ -29,7 +27,6 @@
 1. Create a separate branch for this task from the previous branch task. Branch name: "app-state-management"
 
 2. State Management Setup:
-
    - If using Redux:
      - Integrate Redux into your application using Redux Toolkit
      - Set up the Redux store and reducers using Redux Toolkit
@@ -40,7 +37,6 @@
      - Implement selectors if needed
 
 3. Context API:
-
    - Add context to control the application theme (light or dark)
 
 4. Test Updates:
@@ -59,7 +55,7 @@ Direct DOM manipulation is only allowed for toggling theme-related attributes on
 
 ### ❓ Do I need to use localStorage to remember the selected theme?
 
-Using the **Context API is mandatory** for implementing theme switching.  
+Using the **Context API is mandatory** for implementing theme switching.
 If you want to **persist the user's choice across sessions**, you may additionally use `localStorage`, but it is not required by default.
 
 ### ❓ Do I need to persist selected items in localStorage?
@@ -68,7 +64,7 @@ No. The selected items only need to persist in memory (application state) across
 
 ### ❓ Can I use a library to download the .csv file?
 
-No. **Using any external libraries for downloading files is strictly prohibited.**  
+No. **Using any external libraries for downloading files is strictly prohibited.**
 You must implement the download functionality using **native browser APIs** (e.g. `Blob`, `URL.createObjectURL`, `a.download`) without relying on third-party packages.
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
@@ -82,24 +78,20 @@ You must implement the download functionality using **native browser APIs** (e.g
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage**
-
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
-
   - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
 
 - **4. External Dependencies**
-
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **5. Project Management**

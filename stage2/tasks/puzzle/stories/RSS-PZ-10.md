@@ -7,16 +7,13 @@ Enhance the interactivity of the main game page by enabling word cards in the re
 ## 🔨 Implementation Details
 
 1. **Two-Way Interaction:**
-
    - Implement click functionality on word cards in the result block.
    - Allow cards in the result block to be moved back to the source block upon clicking.
 
 2. **Maintaining Click Order:**
-
    - When a word card is moved back to the source block, it should be placed in the order it was clicked, relative to other returned cards.
 
 3. **Handling Empty States:**
-
    - If all cards are moved back to the source block, ensure the result block handles the empty state gracefully.
 
 4. **Consistent Card Behavior:**
@@ -25,11 +22,9 @@ Enhance the interactivity of the main game page by enabling word cards in the re
 ## 🎨 Visual Implementation Ideas
 
 1. **Animation for Moving Cards:**
-
    - Implement a smooth animation for the transition of cards between the source and result blocks.
 
 2. **Highlighting Selected Cards:**
-
    - Use subtle highlights or borders to indicate which cards have been selected for movement.
 
 ## ✅ Acceptance Criteria

@@ -7,27 +7,22 @@ Introduce a feature on the statistics page that displays all sentences from the 
 ## 🔨 Implementation Details
 
 1. **Sentence Display with Audio Icons:**
-
    - Present all sentences from the round on the statistics page.
    - Accompany each sentence with an audio icon that indicates the availability of pronunciation playback.
 
 2. **Audio Playback Functionality:**
-
    - Implement functionality where clicking on an audio icon plays the pronunciation of the corresponding sentence.
 
 3. **User Interface for Audio Playback:**
-
    - Design the audio icons to be intuitive and easily clickable.
    - Place the icons in close proximity to their respective sentences for easy association.
 
 ## 🎨 Visual Implementation Ideas
 
 1. **Intuitive Audio Icons:**
-
    - Use universally recognized symbols for audio playback, such as speaker icons.
 
 2. **Hover Effects for Icons:**
-
    - Implement hover effects on the audio icons to indicate interactivity.
 
 3. **Layout and Design:**

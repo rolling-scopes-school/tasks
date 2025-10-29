@@ -7,22 +7,18 @@ This task requires crafting personal reflections for each TypeScript module comp
 ## 🔨 Implementation Details
 
 1. **Reflection Writing:**
-
    - Write a reflection for each TypeScript module you've completed.
    - Ensure each reflection covers key learnings, skills gained, and how these can be applied in practical situations.
 
 2. **Depth and Insight:**
-
    - Provide insights into how each module has enhanced your understanding of TypeScript.
    - Discuss specific concepts or techniques from the module and their relevance in your development work.
 
 3. **Real-World Application:**
-
    - Highlight how the knowledge gained can be applied to real-world programming challenges.
    - Optionally, include examples or hypothetical scenarios where these skills could be beneficial.
 
 4. **Documentation:**
-
    - Compile these reflections in a Markdown file named `badges-compilation.md` or similar.
    - Structure the document clearly, with separate sections for each module reflection.
 

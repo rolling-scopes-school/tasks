@@ -2,7 +2,7 @@
 
 <!-- ✍️ Provide a concise and informative title for your pull request -->
 
-#### 🤔 This is a ...
+#### 🤔 This is a
 
 - [ ] 🌟 New task
 - [ ] 🌐 New module

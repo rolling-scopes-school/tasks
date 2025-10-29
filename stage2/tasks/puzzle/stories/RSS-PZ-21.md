@@ -7,17 +7,14 @@ Implement a toggle feature for the pronunciation hint in the game, allowing play
 ## 🔨 Implementation Details
 
 1. **Pronunciation Hint Toggle Control:**
-
    - Include a toggle control, such as a switch or a button, for players to enable or disable the pronunciation hint.
    - Clearly label the toggle to indicate its function.
 
 2. **Conditional Audio Icon/Button Display:**
-
    - If the hint is enabled, display the audio icon or button immediately with the sentence in the source data block.
    - If disabled, show the audio option only after the sentence is correctly assembled.
 
 3. **Seamless UI Integration:**
-
    - Integrate the toggle control within the game’s user interface in a non-intrusive yet easily accessible manner.
 
 4. **Visual Feedback for Toggle State:**
@@ -26,12 +23,10 @@ Implement a toggle feature for the pronunciation hint in the game, allowing play
 ## 🎨 Visual Implementation Ideas
 
 1. **Toggle/Button Design:**
-
    - Style the toggle/button to be visually cohesive with the game's theme, using clear on/off indicators.
    - Implement a design that easily conveys its purpose, such as a speaker icon for the audio toggle.
 
 2. **Dynamic Appearance of Audio Icon/Button:**
-
    - Design the audio icon/button to appear or disappear smoothly, aligning with the toggle state.
 
 ## ✅ Acceptance Criteria

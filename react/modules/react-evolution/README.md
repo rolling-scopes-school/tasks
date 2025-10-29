@@ -10,7 +10,7 @@ This declarative approach dramatically reduced the complexity of building intera
 
 The evolution of React is a testament to Facebook's vision and the collective efforts of the developer community worldwide. The adoption and contributions by other corporations further accelerated its growth and application in modern web development.
 
-## The Story of React:
+## The Story of React
 
 ### Web Development Before React
 
@@ -23,7 +23,7 @@ In the early 2010s, the JavaScript landscape was dominated by libraries and fram
 
 Web applications were growing increasingly complex, and developers struggled with performance issues, especially in applications with frequent updates. DOM manipulation was expensive, and existing approaches often led to "spaghetti code" that was difficult to maintain as applications scaled.
 
-### 2011:
+### 2011
 
 The seeds of React took root in Facebook's dynamic ecosystem. **Facebook** had a massive user base to cater to, and its original JavaScript codebase wasn't scaling well to handle the swift updates required for the ever-growing Facebook newsfeed.
 
@@ -31,7 +31,7 @@ Facebook engineer **Jordan Walke** borrowed ideas from **XHP**, an HTML componen
 
 The debut of React within Facebook's environments marked a grand shift towards component-based architecture, fostering better speed, scalability, and efficiency. Despite being initially used internally, the successful overhaul of Facebook's newsfeed set a promising stage for what would soon revolutionize web development.
 
-### 2012:
+### 2012
 
 In 2012, the Facebook team was still using and developing React internally, training its developers, and stress-testing the tool's scalability and performance within its projects.
 
@@ -41,7 +41,7 @@ This implementation process into Instagram led to the establishment of critical 
 
 While there were no public releases of React in 2012, it was a pivotal year for its development and laid the groundwork for its subsequent open-sourcing.
 
-### 2013:
+### 2013
 
 Public release:
 Versions: 0.3.0 (May 29, 2013)— 0.8.0 (December 19, 2013)
@@ -59,13 +59,13 @@ The early React team was small but highly influential in shaping the library's d
 
 These individuals, along with others who would join later (like Dan Abramov, Sophie Alpert, and Andrew Clark), formed the nucleus of React's technical leadership and community presence.
 
-### 2014:
+### 2014
 
 Versions: 0.9.0 (February 20, 2014)— 0.12.2 (December 18, 2014)
 
 November of this year marked another significant milestone for React with the release of React 0.12.0. A major enhancement in this update was the inclusion of **JSX syntax**, which could now be used directly within JavaScript without requiring a separate preprocessor. Being a syntax extension for JavaScript, JSX allowed developers to write elements and components using a syntax that resembled HTML. This not only improved the readability and structure of the code but also created a more intuitive and effortless coding experience, enabling seamless component creation and more efficient development workflows in React.
 
-### 2015:
+### 2015
 
 Versions: 0.13.0 (March 10, 2015)— 0.14.5 (December 29, 2015)
 
@@ -77,7 +77,7 @@ In June, at React Europe conference, Dan Abramov presented Redux for the first t
 
 Despite Redux not being core to React, it has influenced many patterns and practices in the React ecosystem and played a crucial role in community engagement and the growth of React itself.
 
-### 2016:
+### 2016
 
 Versions:
 
@@ -95,7 +95,7 @@ This significant update also addressed error handling, making it more robust and
 
 **React 15.0** thus represented the library's continuous advancement and commitment to stay abreast of modern web development needs and standards.
 
-### 2017:
+### 2017
 
 Versions: 15.4.2 (January 6, 2017)— 16.2.0 (November 28, 2017)
 
@@ -122,7 +122,7 @@ By 2017, React's ecosystem had grown significantly:
 
 Additionally, 2017 saw the first **React Europe** conference outside the US, highlighting React's growing international adoption. Companies across Europe, Asia, and other regions were increasingly adopting React as their frontend solution of choice.
 
-### 2018:
+### 2018
 
 Versions: 16.2.1 (August 1, 2018)— 16.7.0 (December 19, 2018)
 
@@ -136,7 +136,7 @@ Hooks simplified the overall React mastery curve, offering more direct API funct
 
 Through the implementation of hooks, there was a profound impact not only on the way applications were created but also how code was shared and reused among different components. The introduction of hooks marked a critical turning point in the React development journey, taking a giant leap towards functional programming within React ecosystem.
 
-### 2019:
+### 2019
 
 Versions: 16.8.0 (February 6, 2019)— 16.12.0 (November 14, 2019)
 
@@ -152,7 +152,7 @@ Moreover, this update also deprecated some lifecycle methods (componentWillMount
 
 Thus, 2019 remarkably improved React's performance, debugging, and testing capabilities, giving developers a robust toolkit to build more refined applications.
 
-### 2020:
+### 2020
 
 Versions: 16.13.0 (February 26, 2020)— 17.0.1 (October 22, 2020)
 
@@ -183,7 +183,7 @@ While React itself is primarily a client-side library, frameworks built on top o
 
 Next.js solved many of the SEO, performance, and developer experience challenges that were inherent to single-page applications. By 2020, it had become a critical part of the React ecosystem, with many large companies adopting it as their primary React framework.
 
-### 2021:
+### 2021
 
 Versions: 17.0.2 (March 22, 2021)
 
@@ -197,7 +197,7 @@ Some of the changes include:
 - Consistent error handling
 - New JSX transform helping reduce bundle size
 
-### 2022:
+### 2022
 
 Versions: 18.0.0 (March 29, 2022)— 18.2.0 (June 14, 2022)
 
@@ -210,7 +210,7 @@ React 18 introduced several significant features and updates designed to improve
 
 Due to fundamental changes in the way React performs, upgrading applications to React 18 requires careful planning. React 18 also introduced a community-driven approach for testing and getting feedback on new features before stable release.
 
-### 2024:
+### 2024
 
 Versions: 19.0.0 (December 05, 2024)
 [What's new in React 19](https://react.dev/blog/2024/12/05/react-19#whats-new-in-react-19)
@@ -221,7 +221,6 @@ React 19 release brings a host of groundbreaking features that significantly enh
    This new compiler transforms React code into optimized JavaScript, offering substantial performance gains. It autonomously manages component rendering for UI state changes, eliminating the need for manual state and UI updates. The compiler also optimizes components as needed, reducing dependency on hooks like `useMemo`, `memo` APIs, and `useCallback`.
 
    Key benefits:
-
    - Improved error reporting in `react-dom`
    - Seamless rendering of async scripts anywhere in a component tree
    - Native rendering of document metadata tags in components
@@ -231,7 +230,6 @@ React 19 release brings a host of groundbreaking features that significantly enh
    Server actions streamline data mutations and state updates in React applications by bridging the gap between client and server seamlessly. This enhancement enables developers to automatically handle pending states, error management, optimistic updates, and sequential requests.
 
    Key benefits:
-
    - Client components can call asynchronous functions
    - Built-in error handling
    - Immediate user feedback during data submission
@@ -241,14 +239,12 @@ React 19 release brings a host of groundbreaking features that significantly enh
    RSCs allow server-side rendering of UI components, separate from client-side applications or traditional SSR. This approach significantly improves initial page load times, especially for complex UIs. RSCs can be executed at build time or for each request, offering flexibility.
 
    Key benefits:
-
    - Faster page load time and smoother interactions
    - Runtime flexibility at build time and for each request
    - Improved app performance
 
 4. **New Hooks: `useFormStatus`, `useActionState`, `useOptimistic`**:
    React 19 introduces three prominent hooks that transform how React developers handle forms:
-
    - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
 
    - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
@@ -286,7 +282,7 @@ React's growth has been remarkable:
 - **Job Market**: Consistently one of the most in-demand frontend skills
 - **Company Adoption**: Used by thousands of companies including Facebook/Meta, Netflix, Airbnb, Discord, and Twitter/X
 
-## Links:
+## Links
 
 - React [changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
 - React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)

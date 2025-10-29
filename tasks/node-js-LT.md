@@ -1,13 +1,13 @@
 ## 1. BASICS. NODEJS FUNDAMENTAL THEORY
 
-### PREREQUISITES:
+### PREREQUISITES
 
-1.  Install the latest LTS (Long Term Support) version of [Node.js](https://nodejs.org/en/), by any available means (exe, nvm, brew, etc.).
-2.  Check in the console (terminal) that the Node.js installation was done properly by running the following commands node –v or node --version.
-3.  Create a repo for your homework tasks on your private [Github](https://github.com/)
-4.  Provide your mentor with the link to the PR.
-5.  Create package.json by running the following commands npm init or npm init –y.
-6.  Install globally or locally npm package [nodemon](https://github.com/remy/nodemon) to dev dependency.
+1. Install the latest LTS (Long Term Support) version of [Node.js](https://nodejs.org/en/), by any available means (exe, nvm, brew, etc.).
+2. Check in the console (terminal) that the Node.js installation was done properly by running the following commands node –v or node --version.
+3. Create a repo for your homework tasks on your private [Github](https://github.com/)
+4. Provide your mentor with the link to the PR.
+5. Create package.json by running the following commands npm init or npm init –y.
+6. Install globally or locally npm package [nodemon](https://github.com/remy/nodemon) to dev dependency.
 
 ### TASK 1.1
 
@@ -29,7 +29,7 @@ Write a program which reads a string from the standard input stdin, reverses it 
 
 Write a program which should do the following:
 
-- Read the content of csvfile from./csvdirectory. Example: https://epa.ms/nodejs19-hw1-ex1
+- Read the content of csvfile from./csvdirectory. Example: <https://epa.ms/nodejs19-hw1-ex1>
 - Use the [csvtojson package](https://github.com/Keyang/node-csvtojson) to convert csvfile to json object.
 - Write the csvfile content to a new txtfile. Use the following format:
 
@@ -59,7 +59,7 @@ Rewrite the above-mentioned programs to use [babel](https://babeljs.io/) and ES6
 
 ## 2. IN MEMORY CRUD REST SERVICE WITH VALIDATION
 
-### PREREQUISITES:
+### PREREQUISITES
 
 1. Install the latest LTS (Long Term Support) version of [Node.js](https://nodejs.org/en/), by any available means (.exe, nvm, brew, etc.)
 2. Check in the console (terminal) that the Node.js installation was done properly by running the following commands node –v or node –version
@@ -85,7 +85,6 @@ type User = {
 ```
 
 - Service should have the following CRUD operations for User:
-
   - get user by id;
   - create and update user;
   - get auto-suggest list from limit users, sorted by login property and filtered by _loginSubstring_ in the login property: _getAutoSuggestUsers_(loginSubstring, limit)
@@ -113,7 +112,7 @@ Add server-side validation for create/update operations of User entity:
 
 ## 3. LOGGING & ERROR HANDLING
 
-### PREREQUISITES:
+### PREREQUISITES
 
 The task is a continuation of Task_2 and should be done in the same repo.
 
@@ -147,7 +146,7 @@ Every method in the controllers should log the errors which should include the f
 
 ## 4. JWT AUTHORIZATION AND CORS
 
-### PREREQUISITES:
+### PREREQUISITES
 
 The task is a continuation of Task_3 should be done in the same repo.
 

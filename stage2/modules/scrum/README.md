@@ -24,13 +24,11 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Agile:**
-
    - [The Agile Coach](https://www.atlassian.com/agile)
    - [Agile Project Management](https://www.atlassian.com/agile/project-management)
    - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 
 2. **Agile Frameworks:**
-
    - [Kanban](https://www.atlassian.com/agile/kanban)
    - [What is Scrum and how to get started](https://www.atlassian.com/agile/scrum)
    - [Kanban vs. Scrum: which agile are you?](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
@@ -44,7 +42,6 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 - **To Read:**
-
   - [Kanban vs. Scrum: What's the Difference?](https://www.coursera.org/articles/kanban-vs-scrum)
   - [Scrum poker for agile projects](https://www.atlassian.com/blog/platform/scrum-poker-for-agile-projects)
   - [Scrumban](https://www.productplan.com/glossary/scrumban/)
@@ -53,11 +50,9 @@ Expand your knowledge with these additional materials:
   - [DevOps vs. Agile](https://www.atlassian.com/devops/what-is-devops/agile-vs-devops)
 
 - **To Watch:**
-
   - [Agile Methodology Tutorial for Beginners](https://www.youtube.com/watch?v=KNBHQ0pyaG8)
   - [Google Project Management Certificate Playlist](https://www.youtube.com/playlist?list=PLTZYG7bZ1u6puLWxUtqAjZkIB4dB_JFzk)
 
 - **Tools:**
-
   - [Story Point Poker](https://storypoint.poker/)
   - [EasyRetro](https://easyretro.io/)

@@ -17,9 +17,8 @@ Advantages of using modules in Node.js:
 
 To simplify, modules in Node.js can be divided into three types:
 
-1. Core modules, which we get "out of the box" by installing Node.js on a computer.  
+1. Core modules, which we get "out of the box" by installing Node.js on a computer.
    Examples of core modules:
-
    - [path module](module/path.md)
    - [fs module](module/fs.md)
    - [os module](module/os.md)
@@ -29,12 +28,12 @@ To simplify, modules in Node.js can be divided into three types:
 
 ### Core Modules
 
-They are already compiled into binary code and described in the documentation.  
+They are already compiled into binary code and described in the documentation.
 [List of core modules](https://nodejs.org/dist/latest-v14.x/docs/api/)
 
 Core modules are easy to include, and you can start working with them.
 
-To include a module, the `require()` function is used.  
+To include a module, the `require()` function is used.
 Examples of module inclusion:
 
 ```js
@@ -71,7 +70,7 @@ Let's create a new project. To do this, create a project folder, open it in VS C
 npm init -y
 ```
 
-The `-y` (Yes) parameter means that we agree with all project settings by default.  
+The `-y` (Yes) parameter means that we agree with all project settings by default.
 A `package.json` file is created in the project folder, describing the created application.
 
 ### Installing Packages via npm
@@ -94,10 +93,10 @@ Removing a module:
 npm uninstall nodemon
 ```
 
-Installed modules are added to the `node_modules` folder, and information about them is added to the `package.json` file.  
+Installed modules are added to the `node_modules` folder, and information about them is added to the `package.json` file.
 Additionally, a `package-lock.json` file is automatically created, ensuring package identity among different users and performing other useful functions.
 
 If you delete the `node_modules` folder and execute the `npm install` command, the `node_modules` folder will be restored along with all the added modules based on the records in the `package.json` file.
 
-Node.js projects are added to GitHub without the `node_modules` folder but with the `package.json` and `package-lock.json` files.  
+Node.js projects are added to GitHub without the `node_modules` folder but with the `package.json` and `package-lock.json` files.
 After downloading such a project, you need to execute the `npm install` command in the terminal to restore all modules installed through npm.

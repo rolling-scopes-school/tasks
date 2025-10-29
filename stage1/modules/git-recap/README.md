@@ -4,10 +4,9 @@
 
 This module is designed to reinforce and deepen students' understanding of Git, a fundamental tool in modern software development. It focuses on consolidating existing knowledge while introducing more advanced Git concepts and practical skills. Students will explore Git's internal mechanisms, learn how to manage changes effectively, and utilize .gitignore for better project management.
 
-## In this module students should:
+## In this module students should
 
 1. **Consolidate Knowledge in Using Git**:
-
    - Enhance understanding and proficiency in daily Git usage.
 
 2. **Learn Advanced Git Concepts**:
@@ -24,7 +23,7 @@ This module is designed to reinforce and deepen students' understanding of Git, 
      - Determine what files to ignore.
      - Globally ignore files and track empty directories.
 
-## Approximate module completion time:
+## Approximate module completion time
 
 4 hours
 

@@ -32,7 +32,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 1. **Branch Management**: Create a separate branch from "class-components". Branch name: **"unit-testing"**
 
 2. **Test Runner Configuration**:
-
    - Configure **Jest** or **Vitest** with React Testing Library
    - Set up test coverage reporting with the following minimum thresholds:
 
@@ -50,10 +49,9 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
    ```
 
 3. **Coverage Configuration**:
-
    - This is an example of coverage configuration:
 
-   ```
+   ```js
    coverage: {
      include: ['src/**/*.{js,jsx,ts,tsx}'],
      exclude: [
@@ -176,24 +174,20 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 ### Penalties
 
 - **1. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage**
-
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **4. External Dependencies**
-
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 

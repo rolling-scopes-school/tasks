@@ -7,17 +7,14 @@ Create an engaging and informative start screen for the application. This screen
 ## 🔨 Implementation Details
 
 1. **Application Name Display:**
-
    - Position the application name prominently at the top of the start screen.
    - Choose a font and size that aligns with the game's theme and is easily readable.
 
 2. **Game Description:**
-
    - Directly below the application name, include a brief description of the game.
    - The description should be engaging and informative, providing users with a clear idea of what the game is about.
 
 3. **Graphic Elements:**
-
    - Consider adding thematic graphic elements or a background that resonates with the game's style.
 
 4. **Layout and Design:**
@@ -27,7 +24,6 @@ Create an engaging and informative start screen for the application. This screen
 ## 🎨 Visual Implementation Ideas
 
 1. **Typography and Color Scheme:**
-
    - Use typography that reflects the game's character. For instance, a fantasy game might use a script or medieval-style font.
    - Employ a color scheme that complements the game's theme and is visually striking.
 

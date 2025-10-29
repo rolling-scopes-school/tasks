@@ -202,31 +202,26 @@ However, if passwords need to match, errors for mismatched passwords should be s
 > `(POST) /api/signup`
 
 - Request (application/json)
-
   - Body (object)
     - email: `user@example.com` (string, required) - User's email address
     - password: `Password123` (string, required) - User's password
 
 - Response 201 (application/json)
-
   - Attributes (object)
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Fields are empty` (string) - Error message
       - reason: `invalidFields` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Email is wrong` (string) - Error message
       - reason: `invalidEmail` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Password is wrong` (string) - Error message

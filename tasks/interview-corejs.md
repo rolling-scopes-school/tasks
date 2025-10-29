@@ -18,7 +18,7 @@ During the interview, the mentor will:
 
 ## Interview Topics and Question Examples
 
-### JavaScript Topics:
+### JavaScript Topics
 
 #### **Modules in JavaScript**
 
@@ -64,7 +64,7 @@ During the interview, the mentor will:
 - Promises, async/await, and the event loop.
 - Garbage collection basics.
 
-### JavaScript in Browser:
+### JavaScript in Browser
 
 #### **Global object window**
 
@@ -83,7 +83,7 @@ During the interview, the mentor will:
 
 - Differences between `setTimeout` and `requestAnimationFrame`.
 
-### TypeScript:
+### TypeScript
 
 - Writing efficient TypeScript using basic types, enums, interfaces, and generics:
   - basic types
@@ -97,55 +97,50 @@ During the interview, the mentor will:
   - generic types (concept)
 - Understanding the module system in ES6 and TypeScript.
 
-### Design Patterns:
+### Design Patterns
 
 - Familiarity with Creational, Structural, and Behavioral Design Patterns.
 - SOLID principles and design patterns in project contexts.
 
-### Software Development Methodologies:
+### Software Development Methodologies
 
 - Agile, Scrum, Kanban, and Waterfall methodologies.
 - Project estimation techniques.
 
-### Testing:
+### Testing
 
 - Understanding different types of testing (Integration, E2E, Performance).
 - Test Pyramid.
 - Test-driven development (TDD) and behavior-driven development (BDD).
 
-### Web Communication Protocols:
+### Web Communication Protocols
 
 - Differences between HTTP and HTTPS.
 - Understanding HTTP methods, headers, responses, and status codes.
 - Concepts of RESTful APIs.
 
-### Common Web-Security Knowledge:
+### Common Web-Security Knowledge
 
 - Basic security concepts including CORS, XSS, and OWASP Top 10.
 - Authentication mechanisms (JWT, OAuth).
 
-### Coding Task Examples:
+### Coding Task Examples
 
 #### **Polyfills and Extensions**
 
 1. **Function.prototype.bind Polyfill**
-
    - Implement a polyfill for `Function.prototype.bind`.
 
 2. **Object.create Polyfill**
-
    - Implement a polyfill for `Object.create`.
 
 3. **Array.flat Polyfill**
-
    - Implement a polyfill for `Array.flat`.
 
 4. **Array.reduce Polyfill**
-
    - Implement a polyfill for `Array.reduce`.
 
 5. **String Repeating Function**
-
    - Create a method that allows a string to be repeated a certain number of times, similar to the native `String.prototype.repeat`.
 
 6. **Custom Join Function**
@@ -154,17 +149,14 @@ During the interview, the mentor will:
 #### **Functional Programming Challenges**
 
 7. **Functional Expressions**
-
    - Implement a series of functions that allow for functional expressions such as `five(plus(seven(minus(three()))))`.
 
 8. **Curried Addition Function**
-
    - Write a function that supports adding numbers in a curried form, such as `add(5)(9)(-4)(1)`.
 
 #### **Timing Functions**
 
 9. **Periodic Output**
-
    - Write a function that logs the elapsed time in milliseconds at regular intervals.
 
 10. **Extended Periodic Output**

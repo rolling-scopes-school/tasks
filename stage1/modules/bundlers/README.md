@@ -24,12 +24,10 @@ Students will:
 Students are encouraged to delve into the following resources:
 
 1. **Fundamentals of Module Bundling:**
-
    - [How Module Bundlers Work](https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/)
    - [JavaScript Module Bundlers Guide](https://snipcart.com/blog/javascript-module-bundler)
 
 2. **Webpack, Rollup, and Parcel:**
-
    - [Webpack Concepts](https://webpack.js.org/concepts/)
    - [Getting Started with Rollup](https://rollupjs.org/guide/en/)
    - [Parcel - A Blazing Fast Bundler](https://parceljs.org/getting-started/webapp/)

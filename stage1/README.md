@@ -73,19 +73,16 @@
 #### September 9, 2025
 
 - Modules:
-
   - [Module: Introduction to RS School](modules/rs-school-intro/)
   - [Module: JS/Front-end Developer Profession](modules/js-fe-developer/)
   - [Module: Chrome Dev Tools, VS Code, Terminal](modules/basic-tools/)
   - [Module: Getting to know version control system Git](modules/git/)
 
 - Tasks:
-
   - [CV Project. Part 1 Markdown & Git](../tasks/cv/en/git-markdown.md)
   - [CV Project. Part 2 HTML, CSS & Git Basics](../tasks/cv/en/html-css-git.md)
 
 - Tests:
-
   - [[St1] RSS Test](modules/rs-school-intro)
   - [[St1] Git test](modules/git)
   - [[St1] Fundamentals of the Internet](modules/basic-tools)
@@ -95,18 +92,15 @@
 #### September 16, 2025
 
 - Modules:
-
   - [Module: JavaScript. JS-Basics](modules/js-basics/)
   - [Module: JavaScript. Scope and functions](modules/functions/)
   - [Module: JavaScript. Evolution](modules/js-evolution/)
 
 - Tasks:
-
   - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers)
   - [core-js-strings](https://github.com/rolling-scopes-school/core-js-strings)
 
 - Tests:
-
   - [[St1] JS Basics](modules/js-basics/)
   - [[St1] JS Types](modules/js-basics/)
   - [[St1] JS Scope & Functions](modules/functions/)
@@ -119,18 +113,15 @@
 #### September 23, 2025
 
 - Modules:
-
   - [Module: CSS positioning. Flex.](modules/css-positioning/)
   - [Module: CSS grid layout](modules/css-grid/)
   - [Module: Responsive Web Design](modules/responsive-web-design/)
   - [Module: Media Queries](modules/media-queries/)
 
 - Tasks:
-
   - [Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio.md)
 
 - Tests:
-
   - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
   - [[St1] CSS grid](modules/css-grid/)
   - [[St1] Media Queries & Responsive](modules/media-queries/)
@@ -140,21 +131,17 @@
 #### September 30, 2025
 
 - Cross-Check Reviews:
-
   - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio-part-1.md)"
 
 - Modules:
-
   - [Module: HTML Forms & Validation](modules/html-form/)
   - [Module: DOM API](modules/dom-api/)
   - [Module: Events](modules/events/)
 
 - Tasks:
-
   - [Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio.md)
 
 - Tests:
-
   - [[St1] HTML Form](modules/html-form/)
   - [[St1] DOM Api](modules/dom-api/)
   - [[St1] DOM Events](modules/events/)
@@ -164,20 +151,16 @@
 #### October 7, 2025
 
 - Cross-Check Reviews:
-
   - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio-part-2.md)"
 
 - Modules:
-
   - [Module: Git Recap](modules/git-recap/)
 
 - Tasks:
-
   - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks)
   - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays)
 
 - Tests:
-
   - [[St1] Git & GitHub #2](modules/git-recap/)
 
 ### Week #6
@@ -185,17 +168,14 @@
 #### October 14, 2025
 
 - Modules:
-
   - [Module: Clean Code](modules/clean-code/)
   - [Linters, Formatters, and Husky](modules/linters-formatters-husky/)
   - [Module: CSS Preprocessors. Sass](modules/sass/)
 
 - Tasks:
-
   - [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
 
 - Tests:
-
   - [[St1] Clean-Code](modules/clean-code/)
   - [[St1] Linters, Formatters, and Husky](modules/linters-formatters-husky/)
   - [[St1] Preprocessors. SASS.](modules/sass/)
@@ -205,21 +185,17 @@
 #### October 21, 2025
 
 - Cross-Check Reviews:
-
   - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
 
 - Modules:
-
   - [Module: Canvas API](modules/canvas-api/)
   - [Module: Algorithms and Data Structures](modules/data-structures-and-algorithms/)
 
 - Tasks:
-
   - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
   - [basic-js](https://github.com/AlreadyBored/basic-js)
 
 - Tests:
-
   - [[St1] Canvas API](modules/canvas-api/)
   - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
 
@@ -228,17 +204,14 @@
 #### October 28, 2025
 
 - Modules:
-
   - [Module: Modules in JS](modules/modules-in-js/)
   - [Module: Bundlers](modules/bundlers/)
   - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 - Tasks:
-
-  - [TBD](tasks/tbd/)
+  - [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Tests:
-
   - [[St1] Modules in JS](modules/modules-in-js/)
   - [[St1] Introduction to Bundlers](modules/bundlers/)
   - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
@@ -248,19 +221,15 @@
 #### November 4, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [TBD](tasks/tbd/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Modules:
-
   - [Module: Chrome DevTools](modules/chrome-devtools/)
 
 - Tasks:
-
-  - [TBD](tasks/tbd/)
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
 - Tests:
-
   - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
 ### Week #10
@@ -268,15 +237,12 @@
 #### November 11, 2025
 
 - Modules:
-
   - [Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
-
-  - [TBD](tasks/tbd/)
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
 - Tests:
-
   - [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 ### Week #11
@@ -284,21 +250,17 @@
 #### November 18, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [TBD](tasks/tbd/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [Pair 'em Up](./tasks/pair-em-up/)
 
 - Modules:
-
   - [Module: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
   - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
   - Preparation for [Technical Screening](../stage2/modules/technical-screening/)
 
 - Tasks:
-
   - [Project "Self-introduction"](modules/self-introduction/)
 
 - Tests:
-
   - [[St1] Classes & Prototypes](modules/classes-prototypes/)
   - [[St1] OOP Test](modules/classes-prototypes/)
   - [[St1] Final test stage#1](https://github.com/rolling-scopes-school/tasks/tree/master/stage1)

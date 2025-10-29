@@ -7,17 +7,14 @@ This task involves completing a module dedicated to understanding and using gene
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Register for and complete the module focused on generics in TypeScript.
    - Pay close attention to the principles of generics, including their syntax, use cases, and advantages in creating type-safe and reusable code.
 
 2. **Badge Acquisition:**
-
    - A badge symbolizing your achievement in understanding generics will be awarded after module completion.
    - Confirm that this badge is visible in your learning platform profile.
 
 3. **Markdown File Update:**
-
    - Update your Markdown file to include the badge you've earned.
    - Ensure that the link to the badge is correct and leads directly to your specific achievement.
 

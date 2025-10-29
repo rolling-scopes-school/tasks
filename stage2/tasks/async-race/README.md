@@ -1,4 +1,4 @@
-## Task "Async Race"
+# Task "Async Race"
 
 Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment :radio: in real cars :car:, to be precise, all of his collection of cars. He is eager to create a kind of drag-racing competition in order to discover which car is the fastest.
 
@@ -50,7 +50,6 @@ What are you waiting for? Let's start coding!
 ## 📜 Non-functional Requirements
 
 - **No Libraries/Frameworks**: The use of libraries or frameworks such as JQuery, React, Angular, Lodash, Material Design, etc., is strictly prohibited.
-
   - Bootstrap CSS is permitted for **styling purposes** only.
   - CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx/classnames` package are allowed.
 
@@ -86,7 +85,7 @@ What are you waiting for? Let's start coding!
 [Stage 2 requirements](https://rs.school/docs/en/pull-request-review-process)
 NB: for mentor's check - submit link to PR, for cross-check - submit link to deploy.
 
-## Cross-check:
+## Cross-check
 
 - Max score: **215**.
 - UI should be deployed to gh-pages, netlify or some similar service and the link shared via RS App.
@@ -105,7 +104,7 @@ NB: for mentor's check - submit link to PR, for cross-check - submit link to dep
 ## FAQ
 
 You can find answers and questions in this document:
-https://docs.google.com/spreadsheets/d/1KrObgPHt6guthtswtB8AKhrLpRZ_Kf8H-3V63VDCBGw/edit?usp=sharing
+<https://docs.google.com/spreadsheets/d/1KrObgPHt6guthtswtB8AKhrLpRZ_Kf8H-3V63VDCBGw/edit?usp=sharing>
 
 Link to Q&A live-stream recording:
-https://www.youtube.com/watch?v=HHEMeRt42QY
+<https://www.youtube.com/watch?v=HHEMeRt42QY>

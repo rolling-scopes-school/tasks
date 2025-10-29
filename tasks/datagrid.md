@@ -9,13 +9,13 @@
 
 ## Примеры дизайна
 
-- https://uimovement.com/design/data-table-filter/
-- https://dribbble.com/shots/9404247-SaaS-Software-Budgets-Control-UGEM/attachments/1428945?mode=media
-- https://dribbble.com/shots/5744805-OEM-Network-Dashboard/attachments
+- <https://uimovement.com/design/data-table-filter/>
+- <https://dribbble.com/shots/9404247-SaaS-Software-Budgets-Control-UGEM/attachments/1428945?mode=media>
+- <https://dribbble.com/shots/5744805-OEM-Network-Dashboard/attachments>
 
 ## Демо
 
-https://app.rs.school/course/score?course=react-2020-Q1
+<https://app.rs.school/course/score?course=react-2020-Q1>
 
 ## Функциональные требования
 
@@ -78,17 +78,16 @@ https://app.rs.school/course/score?course=react-2020-Q1
 
 - saga, thunk и любой другой middleware для сайд эффектов. Однако некоторые требования в hacker scope подразумевают использование middleware.
 
-## Критерии оценки:
+## Критерии оценки
 
 **Максимальный балл за задание: 300 баллов**
 
 - **Non-interactive scope +30**
-
   - Данные отображаются в таблице в соответствии с функциональными требованиями. +30
 
     Подумайте, какую лучше выбрать технику вёрстки таблицы. Обычные блоки, блоки с абсолютной позицией, \<table>, flexbox, etc - правильного варианта нет, но от выборанной техники будет зависеть реализация некоторых из требований ниже.
 
-* **Basic scope +70**
+- **Basic scope +70**
   - Реализована сортировка по одной колонке. +10
   - Понятная индикация, по какой колонке применена сортировка и в каком направлении (по возрастанию или убыванию) +10
   - Реализована фильтрация по введённому тексту (поиск подстроки как минимум в значениях одной колонки). +10
@@ -98,7 +97,6 @@ https://app.rs.school/course/score?course=react-2020-Q1
   - (В дополнение к предыдущему) При фильтрации по enum колонке можно выбрать несколько значений (multiselect UI-элемент). +10
 
 - **Advanced scope +150**
-
   - С зажатым shift можно сортировать по нескольким колонкам. +20
   - Реализована [виртуализация рядов](https://web.dev/virtualize-long-lists-react-window/) для отображении большого объёма данных. +30.
 
@@ -125,10 +123,10 @@ https://app.rs.school/course/score?course=react-2020-Q1
 
 ### Cross-check
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
 
 ### Полезные документы
 
-- форма для вопросов, связанных с выполнением задания: https://docs.google.com/spreadsheets/d/1E4ymczP9BBDsJbneq-IrJy6c-QYTpA3oHCN7iIHpRyo/edit?usp=sharing
-- для удобства cross-check можно использовать такую таблицу (копируйте себе для каждого проверяемого задания): https://docs.google.com/spreadsheets/d/1HHVJvBPbU69qV0_ZSydBFYvTwaiB4033jAd33G2gwWQ
-- если вам понравилась работа, ссылку на нее добавьте, пожалуйста, в эту форму: https://docs.google.com/forms/d/1y4JvzUoRWapBA08e9r0V2eynUhKRIaHwNPk7wkp1tOA
+- форма для вопросов, связанных с выполнением задания: <https://docs.google.com/spreadsheets/d/1E4ymczP9BBDsJbneq-IrJy6c-QYTpA3oHCN7iIHpRyo/edit?usp=sharing>
+- для удобства cross-check можно использовать такую таблицу (копируйте себе для каждого проверяемого задания): <https://docs.google.com/spreadsheets/d/1HHVJvBPbU69qV0_ZSydBFYvTwaiB4033jAd33G2gwWQ>
+- если вам понравилась работа, ссылку на нее добавьте, пожалуйста, в эту форму: <https://docs.google.com/forms/d/1y4JvzUoRWapBA08e9r0V2eynUhKRIaHwNPk7wkp1tOA>

@@ -23,17 +23,14 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to WebSockets:**
-
    - [What are WebSockets?](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
    - [Understanding WebSockets](https://web.dev/articles/websockets-basics)
    - [WebSocket](https://javascript.info/websocket)
 
 2. **Implementing WebSockets in JavaScript:**
-
    - [Creating a WebSocket chat application with JavaScript](https://www.tutorialspoint.com/websockets/websockets_quick_guide.htm)
 
 3. **Securing WebSocket Connections:**
-
    - [Securing Your WebSocket Connections](https://devcenter.heroku.com/articles/websocket-security)
    - [How to secure your WebSocket connections](https://www.freecodecamp.org/news/how-to-secure-your-websocket-connections-d0be0996c556/)
 

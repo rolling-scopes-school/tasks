@@ -21,7 +21,6 @@ Students will:
 Explore these comprehensive resources to grasp the technical details of browser rendering:
 
 1. **Introduction to Browser Rendering**:
-
    - [How Browsers Work: Behind the scenes of modern web browsers](https://web.dev/howbrowserswork/)
    - [Browser Rendering Optimization](https://developers.google.com/web/fundamentals/performance/rendering)
 

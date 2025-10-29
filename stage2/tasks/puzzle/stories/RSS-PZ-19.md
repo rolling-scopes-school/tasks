@@ -7,18 +7,15 @@ Develop a pronunciation hint feature that gives players the option to hear the p
 ## 🔨 Implementation Details
 
 1. **Pronunciation Hint Activation:**
-
    - Include a button or an icon that, when clicked, plays the audio pronunciation of the current sentence.
    - Ensure this feature is easily accessible but not obtrusive to the game's interface.
 
 2. **UI Design for Audio Feature:**
-
    - Design the audio control interface to be intuitive and visually harmonious with the overall game design.
 
 ## 🎨 Visual Implementation Ideas
 
 1. **Iconography and Button Design:**
-
    - Use a speaker or sound icon to represent the pronunciation feature.
    - Style the button or icon to fit seamlessly within the game’s aesthetic.
 

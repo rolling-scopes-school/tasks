@@ -2,8 +2,8 @@
 
 # Code Quality Manual
 
-- [Why?](#Why)
-- [Common approaches](#Common-approaches)
+- [Why?](#why)
+- [Common approaches](#common-approaches)
   - [1. DRY — _Don't Repeat Yourself_](#1-dry--dont-repeat-yourself)
   - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--keep-it-short-simple--keep-it-simple-stupid)
   - [3. YAGNI — _You ain't gonna need it_](#3-yagni--you-aint-gonna-need-it)
@@ -11,7 +11,7 @@
     - [4.1 TODOs](#41-todos)
   - [5. Trailing whitespaces\_](#5-trailing-whitespaces)
   - [6. Files naming](#6-files-naming)
-  - [Continue](#Continue)
+  - [Continue](#continue)
 
 ## Why?
 
@@ -58,9 +58,9 @@ where "piece of knowledge" can be understood as a functional, logically complete
 **Examples:**
 
 <details>
-	<summary>
-		1. CSS: Selectors grouping
-	</summary>
+ <summary>
+  1. CSS: Selectors grouping
+ </summary>
 
 ```css
 h1 {
@@ -96,9 +96,9 @@ h4 {
 </details>
 
 <details>
-	<summary>
-		2. CSS: Move repeating style pieces inside classes
-	</summary>
+ <summary>
+  2. CSS: Move repeating style pieces inside classes
+ </summary>
 
 If a single set of CSS properties defines the style of several elements on a page, these elements are usually combined into a single CSS class:
 
@@ -139,9 +139,9 @@ p {
 </details>
 
 <details>
-	<summary>
-		3. JS: Cycles
-	</summary>
+ <summary>
+  3. JS: Cycles
+ </summary>
 
 ```js
 // non DRY code
@@ -163,9 +163,9 @@ for (let i = 0; i < chips.length; i++) {
 </details>
 
 <details>
-	<summary>
-		4. JS: Functions
-	</summary>
+ <summary>
+  4. JS: Functions
+ </summary>
 
 It is convenient to put duplicated logic into functions.
 
@@ -330,17 +330,17 @@ It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless
 
 ```
 /assets
-	right-arrow-image.svg
-	left-arrow-image.svg
+ right-arrow-image.svg
+ left-arrow-image.svg
 /js
-	app.js
-	image-slider.js
+ app.js
+ image-slider.js
 /styles
-	basic.css
-	image-slider.css
+ basic.css
+ image-slider.css
 /html
-	index.html
-	image-slider.html
+ index.html
+ image-slider.html
 ```
 
 ### Continue

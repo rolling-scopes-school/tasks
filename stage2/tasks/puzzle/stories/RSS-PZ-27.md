@@ -7,31 +7,25 @@ Implement a feature to save the player's last completed round in local storage. 
 ## 🔨 Implementation Details
 
 1. **Saving Progress in Local Storage:**
-
    - After each round is completed, save the round and level information in the browser's local storage.
 
 2. **Auto-Resume Logic:**
-
    - On restarting the game, retrieve the last completed round from local storage.
    - Automatically start the game from the next round or, if applicable, the next difficulty level.
 
 3. **Handling Last Round and Level:**
-
    - If the last completed round was the final one in the current difficulty level, start the next game session at the first round of the subsequent level.
    - If it was the last round of the highest level, restart the game from the first round of the first difficulty level.
 
 4. **User Interface Update:**
-
    - Update the game interface to reflect the resumed progress, including the current level and round.
 
 ## 🎨 Visual Implementation Ideas
 
 1. **Progress Indicators:**
-
    - Use visual cues like highlighted rounds or levels to indicate the player's current position in the game.
 
 2. **Animation or Transition Effects:**
-
    - Incorporate smooth transitions or animations when the game auto-resumes to the next round or level.
 
 3. **Informative Messages:**

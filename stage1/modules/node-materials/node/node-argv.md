@@ -8,7 +8,7 @@ In Node.js, you can run a file with specific command line arguments. When runnin
 node test 1 2 3
 ```
 
-`1`, `2`, `3` are the arguments.  
+`1`, `2`, `3` are the arguments.
 How can you access the arguments passed when the file is launched within the code? This is done using the `process.argv` property of the global `process` object.
 
 In the `test.js` file, let's write the code:
@@ -17,7 +17,7 @@ In the `test.js` file, let's write the code:
 console.log(process.argv);
 ```
 
-In the terminal, execute the command `node test 1 2 3`.  
+In the terminal, execute the command `node test 1 2 3`.
 In the console, an array is displayed, the first two elements of which are the path to the node.exe file and the path to the executed file. After that come the passed arguments.
 
 If you only need to get the arguments, execute the code:
@@ -59,7 +59,7 @@ console.log(message);
 
 ### Practical Usage
 
-In practice, when you write code to handle command line arguments yourself, it is necessary to handle various situations correctly — an argument may be missing, a flag may not be passed, or it may be passed without a value. The mere presence of a flag can also be a boolean value, and so on.  
+In practice, when you write code to handle command line arguments yourself, it is necessary to handle various situations correctly — an argument may be missing, a flag may not be passed, or it may be passed without a value. The mere presence of a flag can also be a boolean value, and so on.
 To make working with command line arguments more convenient and minimize the likelihood of errors, it is useful to use ready-made solutions such as [minimist](https://www.npmjs.com/package/minimist), [commander](https://www.npmjs.com/package/commander), [yargs](https://www.npmjs.com/package/yargs), and others.
 
 ### CLI Options
@@ -117,7 +117,7 @@ if (productionMode) {
 
 ### Task
 
-Develop a program that prompts the user to enter two numbers. It should add these numbers if executed with the `-s ` flag, or multiply them if executed with the `-m` flag. After performing the operation, the program should then terminate.  
+Develop a program that prompts the user to enter two numbers. It should add these numbers if executed with the `-s` flag, or multiply them if executed with the `-m` flag. After performing the operation, the program should then terminate.
 Employ standard input/output streams for data input and output. Below is an example of how it should work (user input starts with `>`):
 
 ```bash
