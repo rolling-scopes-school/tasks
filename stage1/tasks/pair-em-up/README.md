@@ -104,7 +104,7 @@ Players have access to limited-use assist tools to help overcome challenging boa
 
 - **Win condition**: Reach or exceed the target score of 100 points
 - **Lose condition** (either of the following must be true):
-  - no valid moves remain and no shuffle uses are left and no add numbers uses remain
+  - no valid moves remain and all assist tools have been used
   - the 50-line grid limit has been reached
 
 ### ⏱️ Game Limits
@@ -127,9 +127,9 @@ The initial screen that players see when launching the application:
 - **Game title**: "Pair 'em Up" prominently displayed
 - **Author credit**: Author's GitHub username with a clickable link to their profile
 - **Mode selection**: Buttons or interface to choose between Classic, Random, and Chaotic game modes
-- **Continue game button**: Appears only when a saved game exists; allows resuming a previously saved game
-- **Settings access**: Button to open the settings panel/modal
-- **Results access**: Button to view game history and high scores
+- **Continue game button**: Appears/enabled only when a saved game exists; allows resuming a previously saved game
+- **Settings access**: Settings panel/modal with audio and theme controls
+- **Results access**: Panel/modal with scores table
 
 ### 🎭 Game Modes
 
@@ -150,7 +150,7 @@ The main gameplay interface containing:
 - **Control buttons**:
   - **Reset button**: Restarts the current game in the same mode with fresh numbers
   - **Save game button**: Preserves current game state (grid, score, timer, mode, undo history, assist tools uses)
-  - **Continue game button**: Loads a previously saved game state
+  - **Continue game button**: Loads a previously saved game state (enabled only when a saved game exists)
 - **Assist buttons**: Five strategic tools (Hints, Revert, Add Numbers, Shuffle, Eraser) with usage counters
 - **Settings button**: Quick access to game settings during play
 
@@ -184,7 +184,7 @@ End-game conditions and result presentation:
 
 - **Win condition**: Player reaches or exceeds the target score of 100 points
 - **Lose conditions**:
-  - No valid moves remain AND no shuffle uses left AND no add numbers uses remain
+  - No valid moves remain AND all assist tools have been used
   - OR the 50-line grid limit has been reached (from repeated "Add Numbers" usage)
 - **Result display**: Modal or screen showing final outcome (Win/Loss), user message, final score, and completion time (MM:SS format)
 - **Post-game options**: Ability to play again (the same mode and settings), return to main menu, or view results
@@ -222,6 +222,20 @@ Customizable game preferences:
   - UI element colors (buttons, counters, text)
   - All interactive elements and indicators
 
+### 🎁 Bonus
+
+Add your personal touch! Implement a creative feature, polish the user experience, or showcase exceptional design skills. You can choose from (but not limited to) the following ideas for bonus features:
+
+- Background music
+- New game mode (i.e. Zen mode - no timer, no score, no assists)
+- Custom themes (i.e. Halloween theme)
+- Visual combo indicators
+- Achievement system
+- Progress visualization
+- Hint system improvements
+- Interactive tutorial
+- Easter eggs
+
 ## Main technical requirements 💻
 
 - Initially, the `body` in the `index.html` file must be empty (only a script tag is allowed). **All necessary elements must be generated using JavaScript.**
@@ -234,6 +248,7 @@ Customizable game preferences:
   - JS frameworks (e.g., `Angular`, `React`, `Vue`, etc.)
   - `TypeScript`
   - Outdated libraries (e.g., `jQuery`, etc.)
+  - External libraries for main app functionality (game logic, DOM manipulation, data storage, etc.)
 
 - It is **allowed** to use:
   - CSS preprocessors: (e.g., [SASS](https://sass-lang.com/))
@@ -344,16 +359,19 @@ Customizable game preferences:
 #### Code Quality & Functionality (15 points)
 
 - [ ] **Error handling**: No JavaScript errors in browser console (5 points)
-- [ ] **Edge case handling**: Game works properly in unusual scenarios (10 points)
+
+#### Bonus (10 points)
+
+- [ ] **Bonus feature** implemented (10 points)
 
 ### Penalties
 
 - **Critical technical violations**:
   - `body` in the `index.html` file is not empty (only `script` tag is allowed): `-100%`
-  - Using JS frameworks (`Angular`, `React`, `Vue`, etc.), `TypeScript`, or outdated libraries (`jQuery`, etc.): `-100%`
+  - Anything mentioned as "not allowed" in the "Main technical requirements" section: `-100%`
 
 - **Responsive design violations**:
-  - App is not supported at 380px ≤ width ≤ 1280px viewport range (e.g., DOM elements go out of bounds, overlap, etc.): `-50%`
+  - App is not supported at 380px ≤ width ≤ 1280px viewport range (e.g., DOM elements go out of bounds, overlap, etc.): `-30%`
 
 - **User experience violations**:
   - Using `alert()`, `prompt()`, or `confirm()` functions: `-50%`
