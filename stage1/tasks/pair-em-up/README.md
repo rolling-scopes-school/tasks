@@ -306,11 +306,11 @@ Customizable game preferences:
   - [ ] **Continue game button**: Loads a previously saved game state (5 points)
 - [ ] **Assist tools UI**: All 5 tools displayed with usage counters (5 points)
 - **Settings panel**: Complete audio and theme controls
-  - [ ] Sound toggle(s) for sound effects (3 points)
-  - [ ] Theme switching between light and dark modes (3 points)
+  - [ ] **Sound toggle(s)** for sound effects (3 points)
+  - [ ] **Theme switching** between light and dark modes (3 points)
 - **Results screen**: Statistics and high scores table properly displayed
-  - [ ] Statistics: Current game score, completion time, win/loss outcome (5 points)
-  - [ ] High scores table: Latest 5 games sorted by time (4 points)
+  - [ ] **Statistics**: Current game score, completion time, win/loss outcome (5 points)
+  - [ ] **High scores table**: Latest 5 games sorted by time (4 points)
 - [ ] **Screen navigation**: Proper transitions between all screens (3 points)
 
 #### Responsive Design & Browser Support (25 points)
@@ -329,8 +329,8 @@ Customizable game preferences:
 #### Audio & Visual Feedback (25 points)
 
 - [ ] **Cell selection sounds**: Audio feedback for cell interactions (4 points)
-- [ ] **Valid pair sounds**: Success sound for correct matches (3 points)
-- [ ] **Invalid pair sounds**: Error sound for incorrect attempts (3 points)
+- [ ] **Valid/invalid pair sounds**: Sounds for correct/invalid pair matches (3 points)
+- [ ] **Win/lose sounds**: Sounds for winning/losing the game (3 points)
 - [ ] **Visual cell highlighting**: Selected cells clearly indicated (5 points)
 - [ ] **Animation effects**: Smooth transitions and visual feedback (5 points)
 - [ ] **Theme switching**: Complete light/dark mode implementation (5 points)
