@@ -218,23 +218,19 @@ Hooks are not permitted in this task.
 ### Penalties
 
 - **1. Project setup**
-
   - Project has been set up without using [Vite](https://vitejs.dev/guide/) with the [_react-ts_ template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts): **-95 points**
 
 - **2. TypeScript & Code Quality**
-
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **3. React Best Practices**
-
   - Direct DOM manipulations inside the React components: **-50 points per each**
   - React hooks are used to get access to either state, or to the component lifecycle: **-70 points**
 
 - **4. External Dependencies**
-
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
