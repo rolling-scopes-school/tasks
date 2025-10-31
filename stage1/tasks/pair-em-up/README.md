@@ -65,7 +65,7 @@ A valid pair consists of exactly two numbers that meet one of the following crit
 - **Sum to 10**: Two numbers that add up to 10 (e.g., 3 and 7, 4 and 6)
 - **Special case**: A pair of fives (5 and 5) awards bonus points
 
-  Here's an example of a valid pairs:
+  Here's an example of valid pairs:
 
   <img src="./img/valid-pairs.jpg" alt="Valid pairs" width="300">
 
