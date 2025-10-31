@@ -47,12 +47,12 @@ By completing this comprehensive project, you will master:
 
 ## Game objective 🎯
 
-**Pair 'em Up** is a strategic number-matching puzzle game where players must clear a 9×5 grid by finding and removing valid pairs of numbers. The goal is to score points by strategically matching number pairs while managing limited assist tools and resources. Players win by reaching or exceeding the target score of 100 points before running out of valid moves and available assists.
+**Pair 'em Up** is a strategic number-matching puzzle game where players must clear a grid by finding and removing valid pairs of numbers. The goal is to score points by strategically matching number pairs while managing limited assist tools and resources. Players win by reaching or exceeding the target score of 100 points before running out of valid moves and available assists.
 
 The game offers three distinct modes:
 
-- **Classic mode**: Sequential numbers from 1-9 and 11-19 (excluding 10) arranged in order
-- **Random mode**: Numbers from 1-9 and 11-19 (excluding 10) placed in random order
+- **Classic mode**: Sequential numbers from 1-19 (excluding 0) arranged in order
+- **Random mode**: Numbers from 1-19 (excluding 0) placed in random order
 - **Chaotic mode**: Exactly 27 random numbers using only digits 1-9
 
 ## Game rules 📋
@@ -64,6 +64,10 @@ A valid pair consists of exactly two numbers that meet one of the following crit
 - **Identical numbers**: Two numbers that are exactly the same (e.g., 7 and 7)
 - **Sum to 10**: Two numbers that add up to 10 (e.g., 3 and 7, 4 and 6)
 - **Special case**: A pair of fives (5 and 5) awards bonus points
+
+  Here's an example of a valid pairs:
+
+  <img src="./img/valid-pairs.jpg" alt="Valid pairs" width="300">
 
 ### 🎯 Pair Selection Rules
 
@@ -135,16 +139,27 @@ The initial screen that players see when launching the application:
 
 Three distinct difficulty modes with different number generation patterns:
 
-- **Classic mode**: Sequential numbers from 1-9 and 11-19 (excluding 10) arranged in order. When adding new numbers with "Add numbers" button, they continue the sequential pattern.
-- **Random mode**: Numbers from 1-9 and 11-19 (excluding 10) placed in random order initially. When adding new numbers with "Add numbers" button, they are also placed randomly.
-- **Chaotic mode**: Exactly 27 random numbers using only digits 1-9. When adding new numbers with "Add numbers" button, appends as many new random numbers (1-9) to the grid as the number of remaining numbers.
+- **Classic mode**: Sequential numbers arranged in a specific grid pattern. The game starts with numbers 1-9 placed in the first row (one number per cell), followed by numbers 10-19 in the next two rows, avoiding the number 0 (a total of 27 numbers). Each number occupies exactly one cell. When adding new numbers with the "Add numbers" button, they continue the sequential pattern starting from where the initial numbers left off.
+
+  The classic mode grid pattern will look exactly like this:
+  <img src="./img/classic.jpg" alt="Classic mode" width="300">
+
+- **Random mode**: The same set of numbers as Classic mode (1-19, excluding 0 (a total of 27 numbers)) but placed randomly throughout the initial grid. Each number occupies exactly one cell, but their positions are shuffled randomly rather than following a sequential pattern. When adding new numbers with the "Add numbers" button, additional numbers from the same set are generated and placed randomly in the following cells.
+
+  Here's an example of the random mode grid pattern:
+  <img src="./img/random.jpg" alt="Random mode" width="300">
+
+- **Chaotic mode**: Exactly 27 random numbers using only single digits from 1-9, with no restrictions on duplicates. The initial grid is filled completely with these randomly generated numbers, each occupying exactly one cell. When adding new numbers with the "Add numbers" button, the system appends as many new random numbers (1-9) to the grid as there are remaining numbers currently on the board, maintaining the chaotic and unpredictable nature of this mode.
+
+  Here's an example of the chaotic mode grid pattern:
+  <img src="./img/chaotic.jpg" alt="Chaotic mode" width="300">
 
 ### 🎨 Game Screen Layout
 
 The main gameplay interface containing:
 
 - **Mode selection info**: Information about the current mode (Classic, Random, Chaotic)
-- **Game grid**: Initial 9×5 cell grid where numbers are displayed and interacted with
+- **Game grid**: Initial cell grid where numbers are displayed and interacted with. The grid is 9 columns wide. The number of rows is determined by the number of numbers in the grid. One number takes exactly one cell.
 - **Score display**: Shows current score and target score (100 points); updates immediately after each successful pair match
 - **Timer**: Running time display in MM:SS format, starts automatically when game loads
 - **Control buttons**:
@@ -224,15 +239,15 @@ Customizable game preferences:
 
 ### 🎁 Bonus
 
-Add your personal touch! Implement a creative feature, polish the user experience, or showcase exceptional design skills. You can choose from (but not limited to) the following ideas for bonus features:
+Add your personal touch! Implement a creative feature, polish the user experience, or showcase exceptional design skills. Choose from these inspiring ideas or create something else (just make sure it's related to the game and clear to the user):
 
 - Background music
 - New game mode (i.e. Zen mode - no timer, no score, no assists)
-- Custom themes (i.e. Halloween theme)
+- Custom themes (i.e. Halloween theme, Christmas theme, etc.)
 - Visual combo indicators
 - Achievement system
-- Progress visualization
-- Hint system improvements
+- Progress visualization (e.g. progress bar, progress circle, etc.)
+- Hint system improvements (e.g. hint system that highlights available pairs, etc.)
 - Interactive tutorial
 - Easter eggs
 
@@ -302,8 +317,8 @@ Add your personal touch! Implement a creative feature, polish the user experienc
 
 #### Game Grid & Number Generation (32 points)
 
-- [ ] **Classic mode - sequential placement**: Numbers 1-9, 11-19 in correct order (9 points)
-- [ ] **Random mode - random placement**: Numbers 1-9, 11-19 placed randomly (9 points)
+- [ ] **Classic mode - sequential placement**: Numbers 1-19 (excluding 0) in correct order (9 points)
+- [ ] **Random mode - random placement**: Numbers 1-19 (excluding 0) placed randomly (9 points)
 - [ ] **Chaotic mode - 27 numbers**: Exactly 27 random numbers from 1-9 (9 points)
 - [ ] **Number regeneration**: Correct number generation according to the current mode (5 points)
 
@@ -312,7 +327,7 @@ Add your personal touch! Implement a creative feature, polish the user experienc
 - [ ] **Start screen - title display**: Game title prominently shown (4 points)
 - [ ] **Start screen - author credit**: GitHub link displayed and functional (4 points)
 - [ ] **Start screen - mode selection**: Three mode buttons functional (4 points)
-- [ ] **Game screen - grid display**: Initial 9×5 grid properly rendered (6 points)
+- [ ] **Game screen - grid display**: Initial grid properly rendered (6 points)
 - [ ] **Game screen - score display**: Current and target score shown (5 points)
 - [ ] **Game screen - timer display**: MM:SS format counting from start (5 points)
 - **Control buttons**: Reset, Save, Continue buttons functional
