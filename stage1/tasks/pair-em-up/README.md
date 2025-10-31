@@ -142,16 +142,19 @@ Three distinct difficulty modes with different number generation patterns:
 - **Classic mode**: Sequential numbers arranged in a specific grid pattern. The game starts with numbers 1-9 placed in the first row (one number per cell), followed by numbers 10-19 in the next two rows, avoiding the number 0 (a total of 27 numbers). Each number occupies exactly one cell. When adding new numbers with the "Add numbers" button, they continue the sequential pattern starting from where the initial numbers left off.
 
   The classic mode grid pattern will look exactly like this:
+
   <img src="./img/classic.jpg" alt="Classic mode" width="300">
 
 - **Random mode**: The same set of numbers as Classic mode (1-19, excluding 0 (a total of 27 numbers)) but placed randomly throughout the initial grid. Each number occupies exactly one cell, but their positions are shuffled randomly rather than following a sequential pattern. When adding new numbers with the "Add numbers" button, additional numbers from the same set are generated and placed randomly in the following cells.
 
   Here's an example of the random mode grid pattern:
+
   <img src="./img/random.jpg" alt="Random mode" width="300">
 
 - **Chaotic mode**: Exactly 27 random numbers using only single digits from 1-9, with no restrictions on duplicates. The initial grid is filled completely with these randomly generated numbers, each occupying exactly one cell. When adding new numbers with the "Add numbers" button, the system appends as many new random numbers (1-9) to the grid as there are remaining numbers currently on the board, maintaining the chaotic and unpredictable nature of this mode.
 
   Here's an example of the chaotic mode grid pattern:
+
   <img src="./img/chaotic.jpg" alt="Chaotic mode" width="300">
 
 ### 🎨 Game Screen Layout
