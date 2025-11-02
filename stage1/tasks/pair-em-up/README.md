@@ -307,8 +307,8 @@ Add your personal touch! Implement a creative feature, polish the user experienc
 - [ ] **Scoring - bonus pairs**: Awards exactly 3 points for pairs of fives (5 points)
 - [ ] **Win condition detection**: Correctly ends game when score reaches 100+ (5 points)
 - **Lose condition detection**:
-  - [ ] **no moves**: Correctly ends game when no moves available and no assists left (5 points)
-  - [ ] **grid limit**: Correctly ends game when the 50-line grid limit is reached (5 points)
+  - [ ] **No moves**: Correctly ends game when no moves available and no assists left (5 points)
+  - [ ] **Grid limit**: Correctly ends game when the 50-line grid limit is reached (5 points)
 - [ ] **Grid boundary rules**: Implements proper row boundary pair matching (last number of one row can pair with the first number of the next row) (5 points)
 - [ ] **50-line limit enforcement**: Prevents adding numbers beyond grid limit (5 points)
 - **Assist tools implementation**: All 5 tools work with correct usage limits
