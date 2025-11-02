@@ -279,7 +279,7 @@ Fetch the full list (or first page) of items from the API.
 
 ### ❓ How to simulate a failed request?
 
-Use MockResponse or set an invalid endpoint to trigger a 4xx/5xx response.
+Use [ModResponse](https://chromewebstore.google.com/detail/modresponse-mock-and-repl/bbjcdpjihbfmkgikdkplcalfebgcjjpm?pli=1) or set an invalid endpoint to trigger a 4xx/5xx response.
 
 ### ❓ How to see the loader during a request?
 
