@@ -100,3 +100,110 @@
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
   - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+
+## FAQ (Frequently Asked Questions)
+
+### Should the modal close and the form reset after a successful submit?
+
+Yes. Close the modal and clear the form.
+
+### Do we store only the latest submission or all submissions?
+
+Store all successful submissions (a history), and display them on the main page.
+
+### Is Tailwind or icon libraries (e.g., lucide-react) allowed?
+
+Yes. They are not UI component libraries.
+
+### Can I keep the countries list in Zustand instead of Redux?
+
+Yes.
+
+### What branch and PR target?
+
+Work in `forms`, open a PR to `main`.
+
+### What exactly is an uncontrolled form here?
+
+Inputs are not driven by React state (value). Read values via FormData, form onSubmit/onChange, or refs.
+
+### In the uncontrolled form, do I need to disable the submit button?
+
+No. Validate on submit only.
+
+### May I attach onChange handlers in the uncontrolled form?
+
+Yes, as long as you don’t set the input value programmatically.
+
+### Should the uncontrolled form be implemented without React Hook Form?
+
+Yes. Uncontrolled = without RHF; the other form = with RHF.
+
+### In the RHF form, should the submit button be disabled when there are errors?
+
+Yes, live (real-time) validation should disable submit.
+
+### Is the image upload required?
+
+Treat it as required and validate type/size, then store as base64.
+
+### How do I convert the uploaded image to base64?
+
+Use FileReader.readAsDataURL and save the result to the store.
+
+### Is <input list> with <datalist> acceptable for country autocomplete?
+
+Yes, but the countries list must live in the store and the value should be validated against it.
+
+### Must the autocomplete accept only values from the list?
+
+Yes, validate that the chosen value exists in the stored list.
+
+### After reopening a modal, should fields be prefilled with previous data?
+
+No. After a successful submit, reopen as empty.
+
+### What accessibility is required for modals?
+
+Focus trap, return focus to trigger, close on ESC, and close on outside click.
+
+### Do I still need useEffect for loading/error states?
+
+No. Use the form library/state and schema errors; no manual value control.
+
+### How do I test file uploads?
+
+Use userEvent.upload with a File instance in RTL tests.
+
+### Must every required field render in both forms?
+
+Yes. Both forms collect the same data and validate according to the schema.
+
+### Do both forms have to use the same validation schema (Yup or Zod)?
+
+Yes. Apply the chosen schema to both forms.
+
+### How strict should email validation be in this task?
+
+Keep it deliberately minimal. At this learning stage, validate only basic structure:
+
+- exactly one @
+- non-empty local part before @
+- domain with at least one dot (e.g., example.com)
+- Avoid regular expressions. Do not validate with regex. Implement clear, step-by-step checks that you and reviewers can read (split by @, verify non-empty parts, ensure the domain has a dot, etc.).
+
+### How to validate password vs confirmPassword with Zod in real time?
+
+Use refine/superRefine with watch to compare fields.
+
+### Does password strength block submission?
+
+Not required. Only mismatched passwords (and other schema errors) must block.
+
+### How to show password strength in the uncontrolled form?
+
+Show an indicator via form/input onChange, or show a summary after submit errors.
+
+### Can I implement password strength as text instead of a progress bar?
+
+Yes. Any clear indicator is acceptable.
