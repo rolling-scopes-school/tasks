@@ -18,6 +18,16 @@ body {
     text-align: center;
     padding: 20px;
     width: 100%;
+    transition: all 0.3s ease;
+}
+
+.app-container.playback-active {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.app-container.playback-active .piano-key {
+    pointer-events: none;
 }
 
 .piano-title {
@@ -351,6 +361,14 @@ body {
     background: #f8fff8;
 }
 
+.sequence-input.disabled {
+    background-color: #f5f5f5;
+    color: #999;
+    cursor: not-allowed;
+    border-color: #ccc;
+    opacity: 0.7;
+}
+
 .char-count {
     font-size: 0.9rem;
     font-weight: bold;
@@ -361,6 +379,49 @@ body {
     background: #f5f5f5;
     border-radius: 4px;
     border: 1px solid #ddd;
+}
+
+/* ===== PLAY BUTTON STYLES ===== */
+.play-button {
+    width: 100%;
+    padding: 12px 24px;
+    margin-top: 15px;
+    background: linear-gradient(145deg, #4CAF50, #45a049);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.play-button:hover:not(:disabled) {
+    background: linear-gradient(145deg, #45a049, #4CAF50);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.play-button:active:not(:disabled) {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.play-button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    opacity: 0.7;
+}
+
+.play-button.disabled {
+    pointer-events: none;
 }
 
 .sequence-instruction {
@@ -491,6 +552,10 @@ body {
         padding: 10px 14px;
         font-size: 1rem;
     }
+    .play-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
     
     /* Responsive hover adjustments */
     .white-key:hover {
@@ -503,6 +568,10 @@ body {
     
     .keyboard-keys span:hover {
         transform: translateY(-1px) scale(1.03);
+    }
+    
+    .play-button:hover:not(:disabled) {
+        transform: translateY(-1px);
     }
 }
 
@@ -580,6 +649,11 @@ body {
     .sequence-instruction {
         font-size: 0.8rem;
     }
+    .play-button {
+        padding: 10px 16px;
+        font-size: 1rem;
+        margin-top: 12px;
+    }
     .edit-input-container {
         padding: 10px;
         margin: 15px 10px;
@@ -611,6 +685,10 @@ body {
     .edit-key-input:focus,
     .edit-key-input:hover,
     .sequence-input:focus {
+        transform: translateY(0);
+    }
+    
+    .play-button:hover:not(:disabled) {
         transform: translateY(0);
     }
 }

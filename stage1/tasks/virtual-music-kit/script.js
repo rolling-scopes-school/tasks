@@ -14,7 +14,10 @@ class VirtualPiano {
         this.editInput = null;
         this.activeKey = null;
         this.sequenceInput = null;
+        this.playButton = null;
         this.maxSequenceLength = 14; // 7 sounds * 2
+        this.isPlayingSequence = false;
+        this.playbackDelay = 400; // ms between notes
         this.init();
     }
 
@@ -44,8 +47,8 @@ class VirtualPiano {
                 return;
             }
 
-            // Don't process piano keys when sequence input is focused
-            if (document.activeElement === this.sequenceInput.input) {
+            // Don't process piano keys when sequence input is focused or during playback
+            if (document.activeElement === this.sequenceInput.input || this.isPlayingSequence) {
                 return;
             }
 
@@ -71,7 +74,7 @@ class VirtualPiano {
 
         // Handle keyboard layout independence
         document.addEventListener('keypress', (event) => {
-            if (this.editingKey) return;
+            if (this.editingKey || this.isPlayingSequence) return;
             
             // Don't process piano keys when sequence input is focused
             if (document.activeElement === this.sequenceInput.input) {
@@ -90,7 +93,7 @@ class VirtualPiano {
     }
 
     handleKeyPress(note) {
-        if (this.activeKey) return;
+        if (this.activeKey || this.isPlayingSequence) return;
         
         const keyElement = document.querySelector(`[data-note="${note}"]`);
         if (keyElement) {
@@ -123,7 +126,7 @@ class VirtualPiano {
                 <span>A</span><span>S</span><span>D</span><span>F</span><span>G</span><span>H</span><span>J</span>
             </div>
             <p class="edit-instruction">Click the edit button (✎) on any key to change its keyboard assignment</p>
-            <p class="feature-info">• Single key processing • Keyboard layout independent • No sound overlap</p>
+            <p class="feature-info">• Single key processing • Keyboard layout independent • No sound overlap • Sequence playback</p>
         `;
         
         this.pianoContainer = document.createElement('div');
@@ -166,6 +169,12 @@ class VirtualPiano {
         charCount.className = 'char-count';
         charCount.textContent = `0/${this.maxSequenceLength}`;
         
+        // Create play button
+        this.playButton = document.createElement('button');
+        this.playButton.className = 'play-button';
+        this.playButton.innerHTML = '▶ Play Sequence';
+        this.playButton.disabled = true;
+        
         const instruction = document.createElement('div');
         instruction.className = 'sequence-instruction';
         instruction.textContent = 'Only letters A,S,D,F,G,H,J are allowed (case insensitive)';
@@ -178,10 +187,14 @@ class VirtualPiano {
         
         container.appendChild(label);
         container.appendChild(inputContainer);
+        container.appendChild(this.playButton);
         container.appendChild(instruction);
         
         // Setup input validation
         this.setupSequenceInputValidation(input, charCount);
+        
+        // Setup play button functionality
+        this.setupPlayButton();
         
         return {
             container,
@@ -209,6 +222,9 @@ class VirtualPiano {
             
             // Update character count
             charCount.textContent = `${value.length}/${this.maxSequenceLength}`;
+            
+            // Update play button state
+            this.playButton.disabled = value.length === 0 || this.isPlayingSequence;
             
             // Visual feedback
             if (value.length > 0) {
@@ -239,6 +255,131 @@ class VirtualPiano {
                 this.showSequenceError(`"${e.key}" is not a valid key. Allowed keys: ${allowedKeys.join(', ')}`);
             }
         });
+    }
+
+    setupPlayButton() {
+        this.playButton.addEventListener('click', () => {
+            if (!this.isPlayingSequence && this.sequenceInput.input.value.trim().length > 0) {
+                this.playSequence();
+            }
+        });
+    }
+
+    async playSequence() {
+        if (this.isPlayingSequence) return;
+        
+        const sequence = this.sequenceInput.input.value.toUpperCase();
+        if (sequence.length === 0) return;
+        
+        // Disable interactions
+        this.setPlaybackState(true);
+        
+        try {
+            for (let i = 0; i < sequence.length; i++) {
+                const char = sequence[i];
+                const note = this.getNoteFromCharacter(char);
+                
+                if (note) {
+                    // Highlight and play the note
+                    await this.playNoteWithVisual(note);
+                    
+                    // Add delay between notes (except for the last one)
+                    if (i < sequence.length - 1) {
+                        await this.delay(this.playbackDelay);
+                    }
+                }
+            }
+        } catch (error) {
+            console.error('Error during sequence playback:', error);
+        } finally {
+            // Re-enable interactions
+            this.setPlaybackState(false);
+        }
+    }
+
+    async playNoteWithVisual(note) {
+        return new Promise((resolve) => {
+            const keyElement = document.querySelector(`[data-note="${note}"]`);
+            if (!keyElement) {
+                resolve();
+                return;
+            }
+            
+            // Highlight the key
+            this.pressKey(keyElement);
+            
+            // Play the sound
+            if (this.sounds[note]) {
+                this.sounds[note].currentTime = 0;
+                this.sounds[note].play().catch(error => {
+                    console.warn(`Could not play sound for note ${note}:`, error);
+                });
+                
+                // Wait for sound to end or timeout after 2 seconds
+                const soundEnded = () => {
+                    this.releaseKey(keyElement);
+                    this.sounds[note].removeEventListener('ended', soundEnded);
+                    resolve();
+                };
+                
+                this.sounds[note].addEventListener('ended', soundEnded);
+                
+                // Safety timeout in case 'ended' event doesn't fire
+                setTimeout(soundEnded, 2000);
+            } else {
+                // If no sound, just wait a bit then release
+                setTimeout(() => {
+                    this.releaseKey(keyElement);
+                    resolve();
+                }, 500);
+            }
+        });
+    }
+
+    pressKey(keyElement) {
+        const note = keyElement.dataset.note;
+        keyElement.classList.add('key-pressed');
+        console.log(`Playing note: ${note}`);
+    }
+
+    releaseKey(keyElement) {
+        const note = keyElement.dataset.note;
+        keyElement.classList.remove('key-pressed');
+    }
+
+    getNoteFromCharacter(char) {
+        const keyCode = `Key${char}`;
+        return this.keyboardMap[keyCode];
+    }
+
+    delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    setPlaybackState(isPlaying) {
+        this.isPlayingSequence = isPlaying;
+        
+        // Disable/enable sequence input
+        this.sequenceInput.input.disabled = isPlaying;
+        
+        // Disable/enable play button
+        this.playButton.disabled = isPlaying || this.sequenceInput.input.value.trim().length === 0;
+        
+        // Update play button text
+        this.playButton.innerHTML = isPlaying ? 
+            '⏸ Playing...' : 
+            '▶ Play Sequence';
+        
+        // Add/remove disabled styling
+        if (isPlaying) {
+            this.sequenceInput.input.classList.add('disabled');
+            this.playButton.classList.add('disabled');
+            this.appContainer.classList.add('playback-active');
+        } else {
+            this.sequenceInput.input.classList.remove('disabled');
+            this.playButton.classList.remove('disabled');
+            this.appContainer.classList.remove('playback-active');
+        }
     }
 
     getAllowedSequenceKeys() {
@@ -360,7 +501,9 @@ class VirtualPiano {
             editButton.title = 'Change keyboard assignment';
             editButton.addEventListener('click', (e) => {
                 e.stopPropagation();
-                this.startEditing(note, key);
+                if (!this.isPlayingSequence) {
+                    this.startEditing(note, key);
+                }
             });
             key.appendChild(editButton);
         }
@@ -373,67 +516,43 @@ class VirtualPiano {
     addKeyInteractions(key) {
         key.addEventListener('mousedown', (e) => {
             e.preventDefault();
-            if (!this.activeKey) {
+            if (!this.activeKey && !this.isPlayingSequence) {
                 this.pressKey(key);
             }
         });
         
         key.addEventListener('mouseup', () => {
-            if (this.activeKey === key.dataset.note) {
+            if (this.activeKey === key.dataset.note && !this.isPlayingSequence) {
                 this.releaseKey(key);
+                this.activeKey = null;
             }
         });
         
         key.addEventListener('mouseleave', () => {
-            if (this.activeKey === key.dataset.note) {
+            if (this.activeKey === key.dataset.note && !this.isPlayingSequence) {
                 this.releaseKey(key);
+                this.activeKey = null;
             }
         });
         
         key.addEventListener('touchstart', (e) => {
             e.preventDefault();
-            if (!this.activeKey) {
+            if (!this.activeKey && !this.isPlayingSequence) {
                 this.pressKey(key);
             }
         });
         
         key.addEventListener('touchend', () => {
-            if (this.activeKey === key.dataset.note) {
+            if (this.activeKey === key.dataset.note && !this.isPlayingSequence) {
                 this.releaseKey(key);
+                this.activeKey = null;
             }
         });
     }
 
-    pressKey(key) {
-        const note = key.dataset.note;
-        
-        this.activeKey = note;
-        key.classList.add('key-pressed');
-        
-        if (this.sounds[note]) {
-            this.sounds[note].pause();
-            this.sounds[note].currentTime = 0;
-            
-            this.sounds[note].play().catch(error => {
-                console.warn(`Could not play sound for note ${note}:`, error);
-            });
-        }
-        
-        console.log(`Playing note: ${note}`);
-    }
-
-    releaseKey(key) {
-        const note = key.dataset.note;
-        
-        if (this.activeKey === note) {
-            key.classList.remove('key-pressed');
-            this.activeKey = null;
-        }
-    }
-
     startEditing(note, keyElement) {
-        if (this.activeKey) {
-            console.log('Cannot edit while a key is active');
+        if (this.activeKey || this.isPlayingSequence) {
+            console.log('Cannot edit while a key is active or during playback');
             return;
         }
         
