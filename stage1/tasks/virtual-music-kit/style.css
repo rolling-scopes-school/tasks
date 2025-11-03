@@ -45,30 +45,82 @@ body {
 
 .piano-key {
     position: relative;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 8px 8px;
     cursor: pointer;
-    transition: all 0.1s ease;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     user-select: none;
+    transform: translateY(0);
 }
 
+/* ===== WHITE KEYS - ENHANCED STATES ===== */
 .white-key {
-    background: linear-gradient(to bottom, #fff 0%, #f8f9fa 100%);
-    border: 2px solid #ccc;
-    border-top: none;
+    background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
+    border: 2px solid #b8b8b8;
+    border-top: 1px solid #e0e0e0;
     width: 60px;
     height: 100%;
     margin: 0 1px;
     z-index: 1;
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.1),
+        inset 0 1px 0 rgba(255,255,255,0.8);
 }
 
+/* White Key - Hover State */
+.white-key:hover {
+    background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%);
+    border-color: #a0a0a0;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 
+        0 6px 12px rgba(0,0,0,0.15),
+        0 0 0 2px rgba(102, 126, 234, 0.3),
+        inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+/* White Key - Active/Pressed State */
+.white-key.key-pressed {
+    background: linear-gradient(145deg, #e9ecef 0%, #dee2e6 100%) !important;
+    border-color: #8a8a8a;
+    transform: translateY(4px) scale(0.98);
+    box-shadow: 
+        inset 0 4px 8px rgba(0,0,0,0.15),
+        0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.1s ease;
+}
+
+/* ===== BLACK KEYS - ENHANCED STATES ===== */
 .black-key {
-    background: linear-gradient(to bottom, #333 0%, #000 100%);
+    background: linear-gradient(145deg, #2d2d2d 0%, #1a1a1a 100%);
     width: 40px;
     height: 60%;
     position: absolute;
     top: 0;
     z-index: 2;
     transform: translateX(-50%);
+    box-shadow: 
+        0 4px 8px rgba(0,0,0,0.3),
+        inset 0 -1px 0 rgba(255,255,255,0.1);
+    border: 1px solid #000;
+}
+
+/* Black Key - Hover State */
+.black-key:hover {
+    background: linear-gradient(145deg, #3d3d3d 0%, #2a2a2a 100%);
+    transform: translateX(-50%) translateY(-2px) scale(1.05);
+    box-shadow: 
+        0 6px 16px rgba(0,0,0,0.4),
+        0 0 0 2px rgba(255, 215, 0, 0.4),
+        inset 0 -1px 0 rgba(255,255,255,0.2);
+}
+
+/* Black Key - Active/Pressed State */
+.black-key.key-pressed {
+    background: linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 100%) !important;
+    transform: translateX(-50%) translateY(3px) scale(0.95);
+    box-shadow: 
+        inset 0 4px 12px rgba(0,0,0,0.5),
+        0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.1s ease;
 }
 
 .black-key[data-note="C#"] { left: 45px; }
@@ -118,56 +170,14 @@ body {
 }
 
 .white-key .note-label {
-    bottom: 25px;
+    bottom: 30px;
 }
 
 .black-key .note-label {
-    bottom: 20px;
+    bottom: 25px;
 }
 
-.piano-key:hover {
-    transform: translateY(-2px);
-}
-
-.white-key:hover {
-    background: linear-gradient(to bottom, #e9ecef 0%, #dee2e6 100%);
-}
-
-.black-key:hover {
-    background: linear-gradient(to bottom, #555 0%, #222 100%);
-}
-
-.piano-key:active {
-    transform: translateY(2px);
-}
-
-.key-pressed {
-    transform: translateY(4px) !important;
-}
-
-.white-key.key-pressed {
-    background: linear-gradient(to bottom, #dee2e6 0%, #adb5bd 100%) !important;
-    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-}
-
-.black-key.key-pressed {
-    background: linear-gradient(to bottom, #222 0%, #111 100%) !important;
-    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.4);
-}
-
-.key-editing {
-    box-shadow: 0 0 0 3px #ffeb3b !important;
-    z-index: 10;
-}
-
-.white-key.key-editing {
-    background: linear-gradient(to bottom, #fff8e1 0%, #ffecb3 100%) !important;
-}
-
-.black-key.key-editing {
-    background: linear-gradient(to bottom, #5d4037 0%, #3e2723 100%) !important;
-}
-
+/* ===== EDIT BUTTON STATES ===== */
 .edit-button {
     position: absolute;
     bottom: 5px;
@@ -175,7 +185,7 @@ body {
     transform: translateX(-50%);
     background: rgba(102, 126, 234, 0.9);
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     color: white;
     width: 24px;
     height: 20px;
@@ -185,22 +195,52 @@ body {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 5;
 }
 
-.piano-key:hover .edit-button {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-2px);
-}
-
+/* Edit Button - Hover State */
 .edit-button:hover {
-    background: #667eea;
-    transform: translateX(-50%) translateY(-2px);
+    background: #5a6fd8;
+    transform: translateX(-50%) translateY(-2px) scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Edit Button - Active State */
+.edit-button:active {
+    background: #4a5fc8;
+    transform: translateX(-50%) translateY(0) scale(0.95);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
+}
+
+/* Show edit button on piano key hover */
+.piano-key:hover .edit-button {
+    opacity: 1;
+}
+
+/* ===== ENHANCED EDITING STATE ===== */
+.key-editing {
+    box-shadow: 
+        0 0 0 3px #ffeb3b,
+        0 0 20px rgba(255, 235, 59, 0.4) !important;
+    z-index: 10;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 3px #ffeb3b, 0 0 20px rgba(255, 235, 59, 0.4); }
+    50% { box-shadow: 0 0 0 3px #ffeb3b, 0 0 30px rgba(255, 235, 59, 0.6); }
+}
+
+.white-key.key-editing {
+    background: linear-gradient(145deg, #fff8e1 0%, #ffecb3 100%) !important;
+}
+
+.black-key.key-editing {
+    background: linear-gradient(145deg, #5d4037 0%, #3e2723 100%) !important;
+}
 
 .instructions {
     color: white;
@@ -219,13 +259,33 @@ body {
     gap: 8px;
 }
 
+/* ===== KEYBOARD KEYS IN INSTRUCTIONS - ENHANCED STATES ===== */
 .keyboard-keys span {
-    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(145deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.15) 100%);
     padding: 8px 12px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-weight: bold;
     min-width: 40px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Keyboard Key - Hover State */
+.keyboard-keys span:hover {
+    background: linear-gradient(145deg, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.25) 100%);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Keyboard Key - Active State */
+.keyboard-keys span:active {
+    background: linear-gradient(145deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.1) 100%);
+    transform: translateY(1px) scale(0.95);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.1s ease;
 }
 
 .edit-instruction {
@@ -255,19 +315,31 @@ body {
     margin-right: 10px;
 }
 
+/* ===== EDIT INPUT STATES ===== */
 .edit-key-input {
     padding: 8px 12px;
     border: 2px solid #ddd;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 1rem;
     width: 60px;
     text-align: center;
     text-transform: uppercase;
+    transition: all 0.3s ease;
+    background: white;
 }
 
-.edit-key-input:focus {
-    outline: none;
+/* Edit Input - Focus/Hover State */
+.edit-key-input:focus,
+.edit-key-input:hover {
     border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Edit Input - Active State (when typing) */
+.edit-key-input:active {
+    transform: translateY(0);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
 }
 
 .edit-input-container .edit-instruction {
@@ -295,7 +367,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive design */
+/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 1439px) and (min-width: 768px) {
     .piano-title {
         font-size: 2rem;
@@ -315,10 +387,10 @@ body {
         padding: 1px 4px;
     }
     .white-key .note-label {
-        bottom: 22px;
+        bottom: 25px;
     }
     .black-key .note-label {
-        bottom: 18px;
+        bottom: 20px;
     }
     .instructions p {
         font-size: 1rem;
@@ -326,6 +398,19 @@ body {
     .keyboard-keys span {
         padding: 6px 10px;
         min-width: 35px;
+    }
+    
+    /* Responsive hover adjustments */
+    .white-key:hover {
+        transform: translateY(-2px) scale(1.01);
+    }
+    
+    .black-key:hover {
+        transform: translateX(-50%) translateY(-1px) scale(1.03);
+    }
+    
+    .keyboard-keys span:hover {
+        transform: translateY(-1px) scale(1.03);
     }
 }
 
@@ -360,11 +445,11 @@ body {
         min-width: 16px;
     }
     .white-key .note-label {
-        bottom: 18px;
+        bottom: 20px;
         font-size: 0.7rem;
     }
     .black-key .note-label {
-        bottom: 15px;
+        bottom: 16px;
         font-size: 0.6rem;
     }
     .instructions p {
@@ -388,7 +473,26 @@ body {
     }
     .edit-button {
         width: 18px;
-        height: 18px;
+        height: 16px;
         font-size: 0.6rem;
+        bottom: 3px;
+    }
+    
+    /* Mobile hover adjustments */
+    .white-key:hover {
+        transform: translateY(-1px) scale(1.01);
+    }
+    
+    .black-key:hover {
+        transform: translateX(-50%) translateY(-1px) scale(1.02);
+    }
+    
+    .keyboard-keys span:hover {
+        transform: translateY(-1px) scale(1.02);
+    }
+    
+    .edit-key-input:focus,
+    .edit-key-input:hover {
+        transform: translateY(0);
     }
 }
