@@ -243,3 +243,54 @@ body {
         font-size: 0.6rem;
     }
 }
+
+.instructions {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.instructions p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.keyboard-keys {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.keyboard-keys span {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    min-width: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive instructions */
+@media (max-width: 1439px) and (min-width: 768px) {
+    .instructions p {
+        font-size: 1rem;
+    }
+    .keyboard-keys span {
+        padding: 6px 10px;
+        min-width: 35px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+    .instructions p {
+        font-size: 0.9rem;
+    }
+    .keyboard-keys {
+        gap: 5px;
+    }
+    .keyboard-keys span {
+        padding: 4px 8px;
+        min-width: 30px;
+        font-size: 0.8rem;
+    }
+}

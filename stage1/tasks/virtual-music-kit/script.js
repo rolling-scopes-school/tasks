@@ -63,26 +63,37 @@ handleKeyPress(note) {
     }
 
     createAppStructure() {
-        // Create main app container
-        this.appContainer = document.createElement('div');
-        this.appContainer.className = 'app-container';
-        
-        // Create title
-        const title = document.createElement('h1');
-        title.textContent = 'Virtual Piano';
-        title.className = 'piano-title';
-        
-        // Create piano container
-        this.pianoContainer = document.createElement('div');
-        this.pianoContainer.className = 'piano-container';
-        
-        // Append to app container
-        this.appContainer.appendChild(title);
-        this.appContainer.appendChild(this.pianoContainer);
-        
-        // Append to body
-        document.body.appendChild(this.appContainer);
-    }
+    // Create main app container
+    this.appContainer = document.createElement('div');
+    this.appContainer.className = 'app-container';
+    
+    // Create title
+    const title = document.createElement('h1');
+    title.textContent = 'Virtual Piano';
+    title.className = 'piano-title';
+    
+    // Create instructions
+    const instructions = document.createElement('div');
+    instructions.className = 'instructions';
+    instructions.innerHTML = `
+        <p>Click the keys or use your keyboard:</p>
+        <div class="keyboard-keys">
+            <span>A</span><span>S</span><span>D</span><span>F</span><span>G</span><span>H</span><span>J</span>
+        </div>
+    `;
+    
+    // Create piano container
+    this.pianoContainer = document.createElement('div');
+    this.pianoContainer.className = 'piano-container';
+    
+    // Append to app container
+    this.appContainer.appendChild(title);
+    this.appContainer.appendChild(instructions);
+    this.appContainer.appendChild(this.pianoContainer);
+    
+    // Append to body
+    document.body.appendChild(this.appContainer);
+}
 
     createPianoLayout() {
         // This will be implemented in the next step
