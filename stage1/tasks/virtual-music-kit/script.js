@@ -12,6 +12,7 @@ class VirtualPiano {
         };
         this.editingKey = null;
         this.editInput = null;
+        this.activeKey = null; // Track currently active key to prevent multiple inputs
         this.init();
     }
 
@@ -41,6 +42,12 @@ class VirtualPiano {
                 return;
             }
 
+            // Prevent multiple key processing
+            if (this.activeKey) {
+                event.preventDefault();
+                return;
+            }
+
             if (this.keyboardMap[event.code]) {
                 event.preventDefault();
                 this.handleKeyPress(this.keyboardMap[event.code]);
@@ -54,19 +61,40 @@ class VirtualPiano {
                 this.handleKeyRelease(this.keyboardMap[event.code]);
             }
         });
+
+        // Handle keyboard layout independence - listen for keypress to catch actual character
+        document.addEventListener('keypress', (event) => {
+            if (this.editingKey) return;
+            
+            // Convert any keyboard layout to uppercase English letter
+            const key = event.key.toUpperCase();
+            if (/^[A-Z]$/.test(key)) {
+                // Find if this character corresponds to any mapped key
+                const keyCode = `Key${key}`;
+                if (this.keyboardMap[keyCode] && !this.activeKey) {
+                    event.preventDefault();
+                    this.handleKeyPress(this.keyboardMap[keyCode]);
+                }
+            }
+        });
     }
 
     handleKeyPress(note) {
+        // Only process if no other key is active
+        if (this.activeKey) return;
+        
         const keyElement = document.querySelector(`[data-note="${note}"]`);
-        if (keyElement && !keyElement.classList.contains('key-pressed')) {
+        if (keyElement) {
+            this.activeKey = note;
             this.pressKey(keyElement);
         }
     }
 
     handleKeyRelease(note) {
         const keyElement = document.querySelector(`[data-note="${note}"]`);
-        if (keyElement) {
+        if (keyElement && this.activeKey === note) {
             this.releaseKey(keyElement);
+            this.activeKey = null;
         }
     }
 
@@ -86,6 +114,7 @@ class VirtualPiano {
                 <span>A</span><span>S</span><span>D</span><span>F</span><span>G</span><span>H</span><span>J</span>
             </div>
             <p class="edit-instruction">Click the edit button (✎) on any key to change its keyboard assignment</p>
+            <p class="feature-info">• Single key processing • Keyboard layout independent • No sound overlap</p>
         `;
         
         this.pianoContainer = document.createElement('div');
@@ -196,24 +225,55 @@ class VirtualPiano {
     }
 
     addKeyInteractions(key) {
-        key.addEventListener('mousedown', () => this.pressKey(key));
-        key.addEventListener('mouseup', () => this.releaseKey(key));
-        key.addEventListener('mouseleave', () => this.releaseKey(key));
+        // Mouse events with single-key processing
+        key.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            if (!this.activeKey) {
+                this.pressKey(key);
+            }
+        });
         
+        key.addEventListener('mouseup', () => {
+            if (this.activeKey === key.dataset.note) {
+                this.releaseKey(key);
+            }
+        });
+        
+        key.addEventListener('mouseleave', () => {
+            if (this.activeKey === key.dataset.note) {
+                this.releaseKey(key);
+            }
+        });
+        
+        // Touch events with single-key processing
         key.addEventListener('touchstart', (e) => {
             e.preventDefault();
-            this.pressKey(key);
+            if (!this.activeKey) {
+                this.pressKey(key);
+            }
         });
-        key.addEventListener('touchend', () => this.releaseKey(key));
+        
+        key.addEventListener('touchend', () => {
+            if (this.activeKey === key.dataset.note) {
+                this.releaseKey(key);
+            }
+        });
     }
 
     pressKey(key) {
-        key.classList.add('key-pressed');
-        
         const note = key.dataset.note;
         
+        // Set active key and update visual state
+        this.activeKey = note;
+        key.classList.add('key-pressed');
+        
+        // Play sound exactly once
         if (this.sounds[note]) {
+            // Stop and reset the sound to ensure it plays from beginning
+            this.sounds[note].pause();
             this.sounds[note].currentTime = 0;
+            
+            // Play the sound with error handling
             this.sounds[note].play().catch(error => {
                 console.warn(`Could not play sound for note ${note}:`, error);
             });
@@ -223,10 +283,22 @@ class VirtualPiano {
     }
 
     releaseKey(key) {
-        key.classList.remove('key-pressed');
+        const note = key.dataset.note;
+        
+        // Only release if this is the currently active key
+        if (this.activeKey === note) {
+            key.classList.remove('key-pressed');
+            this.activeKey = null;
+        }
     }
 
     startEditing(note, keyElement) {
+        // Don't allow editing while a key is active
+        if (this.activeKey) {
+            console.log('Cannot edit while a key is active');
+            return;
+        }
+        
         this.editingKey = note;
         
         this.editInput.noteDisplay.textContent = note;

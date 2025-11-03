@@ -253,6 +253,13 @@ body {
     font-size: 1.1rem;
 }
 
+.feature-info {
+    font-size: 0.8rem !important;
+    opacity: 0.7;
+    margin-top: 15px !important;
+    font-style: italic;
+}
+
 .keyboard-keys {
     display: flex;
     justify-content: center;
@@ -454,6 +461,9 @@ body {
     }
     .instructions p {
         font-size: 0.9rem;
+    }
+    .feature-info {
+        font-size: 0.7rem !important;
     }
     .keyboard-keys {
         gap: 5px;
