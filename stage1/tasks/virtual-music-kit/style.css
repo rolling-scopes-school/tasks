@@ -1,4 +1,4 @@
- /* Reset and base styles */
+/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +13,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/* ... previous styles ... */
 
 .app-container {
     text-align: center;
@@ -36,28 +34,6 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     position: relative;
 }
-
-/* Responsive design */
-@media (max-width: 1439px) and (min-width: 768px) {
-    .piano-title {
-        font-size: 2rem;
-    }
-    .piano-container {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 767px) and (min-width: 360px) {
-    .piano-title {
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-    }
-    .piano-container {
-        padding: 10px;
-        margin: 0 10px;
-    }
-}
-/* ... previous styles ... */
 
 .keys-container {
     position: relative;
@@ -95,7 +71,6 @@ body {
     transform: translateX(-50%);
 }
 
-/* Position black keys between white keys */
 .black-key[data-note="C#"] { left: 45px; }
 .black-key[data-note="D#"] { left: 105px; }
 .black-key[data-note="F#"] { left: 225px; }
@@ -117,67 +92,6 @@ body {
 .black-key .note-label {
     color: white;
 }
-
-/* Hover and active states */
-.piano-key:hover {
-    transform: translateY(-2px);
-}
-
-.white-key:hover {
-    background: linear-gradient(to bottom, #e9ecef 0%, #dee2e6 100%);
-}
-
-.black-key:hover {
-    background: linear-gradient(to bottom, #555 0%, #222 100%);
-}
-
-.piano-key:active {
-    transform: translateY(2px);
-}
-
-/* Responsive adjustments */
-@media (max-width: 1439px) and (min-width: 768px) {
-    .keys-container {
-        height: 180px;
-        max-width: 700px;
-    }
-    .white-key { width: 50px; }
-    .black-key { width: 35px; }
-}
-
-@media (max-width: 767px) and (min-width: 360px) {
-    .keys-container {
-        height: 150px;
-        max-width: 100%;
-    }
-    .white-key { 
-        width: 40px; 
-        font-size: 0.8rem;
-    }
-    .black-key { 
-        width: 30px; 
-        font-size: 0.7rem;
-    }
-    .note-label {
-        bottom: 5px;
-    }
-}
-
-.key-pressed {
-    transform: translateY(4px) !important;
-}
-
-.white-key.key-pressed {
-    background: linear-gradient(to bottom, #dee2e6 0%, #adb5bd 100%) !important;
-    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-}
-
-.black-key.key-pressed {
-    background: linear-gradient(to bottom, #222 0%, #111 100%) !important;
-    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.4);
-}
-
-/* ... existing styles ... */
 
 .keyboard-label {
     position: absolute;
@@ -203,45 +117,82 @@ body {
     color: #333;
 }
 
-/* Adjust note label position to make room for keyboard label */
 .white-key .note-label {
-    bottom: 25px; /* Moved up to accommodate keyboard label */
+    bottom: 25px;
 }
 
 .black-key .note-label {
-    bottom: 20px; /* Moved up to accommodate keyboard label */
+    bottom: 20px;
 }
 
-/* Responsive adjustments for labels */
-@media (max-width: 1439px) and (min-width: 768px) {
-    .keyboard-label {
-        font-size: 0.8rem;
-        top: 8px;
-        padding: 1px 4px;
-    }
-    .white-key .note-label {
-        bottom: 22px;
-    }
-    .black-key .note-label {
-        bottom: 18px;
-    }
+.piano-key:hover {
+    transform: translateY(-2px);
 }
 
-@media (max-width: 767px) and (min-width: 360px) {
-    .keyboard-label {
-        font-size: 0.7rem;
-        top: 5px;
-        padding: 1px 3px;
-        min-width: 16px;
-    }
-    .white-key .note-label {
-        bottom: 18px;
-        font-size: 0.7rem;
-    }
-    .black-key .note-label {
-        bottom: 15px;
-        font-size: 0.6rem;
-    }
+.white-key:hover {
+    background: linear-gradient(to bottom, #e9ecef 0%, #dee2e6 100%);
+}
+
+.black-key:hover {
+    background: linear-gradient(to bottom, #555 0%, #222 100%);
+}
+
+.piano-key:active {
+    transform: translateY(2px);
+}
+
+.key-pressed {
+    transform: translateY(4px) !important;
+}
+
+.white-key.key-pressed {
+    background: linear-gradient(to bottom, #dee2e6 0%, #adb5bd 100%) !important;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.black-key.key-pressed {
+    background: linear-gradient(to bottom, #222 0%, #111 100%) !important;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.4);
+}
+
+.key-editing {
+    box-shadow: 0 0 0 3px #ffeb3b !important;
+    z-index: 10;
+}
+
+.white-key.key-editing {
+    background: linear-gradient(to bottom, #fff8e1 0%, #ffecb3 100%) !important;
+}
+
+.black-key.key-editing {
+    background: linear-gradient(to bottom, #5d4037 0%, #3e2723 100%) !important;
+}
+
+.edit-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(102, 126, 234, 0.8);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.piano-key:hover .edit-button {
+    opacity: 1;
+}
+
+.edit-button:hover {
+    background: #667eea;
 }
 
 .instructions {
@@ -270,8 +221,98 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Responsive instructions */
+.edit-instruction {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+.edit-input-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #667eea;
+}
+
+.edit-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.edit-note-display {
+    font-weight: bold;
+    color: #667eea;
+    margin-right: 10px;
+}
+
+.edit-key-input {
+    padding: 8px 12px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.edit-key-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.edit-input-container .edit-instruction {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 8px;
+}
+
+.edit-error {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.edit-success {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive design */
 @media (max-width: 1439px) and (min-width: 768px) {
+    .piano-title {
+        font-size: 2rem;
+    }
+    .piano-container {
+        padding: 15px;
+    }
+    .keys-container {
+        height: 180px;
+        max-width: 700px;
+    }
+    .white-key { width: 50px; }
+    .black-key { width: 35px; }
+    .keyboard-label {
+        font-size: 0.8rem;
+        top: 8px;
+        padding: 1px 4px;
+    }
+    .white-key .note-label {
+        bottom: 22px;
+    }
+    .black-key .note-label {
+        bottom: 18px;
+    }
     .instructions p {
         font-size: 1rem;
     }
@@ -282,6 +323,43 @@ body {
 }
 
 @media (max-width: 767px) and (min-width: 360px) {
+    .piano-title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .piano-container {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .keys-container {
+        height: 150px;
+        max-width: 100%;
+    }
+    .white-key { 
+        width: 40px; 
+        font-size: 0.8rem;
+    }
+    .black-key { 
+        width: 30px; 
+        font-size: 0.7rem;
+    }
+    .note-label {
+        bottom: 5px;
+    }
+    .keyboard-label {
+        font-size: 0.7rem;
+        top: 5px;
+        padding: 1px 3px;
+        min-width: 16px;
+    }
+    .white-key .note-label {
+        bottom: 18px;
+        font-size: 0.7rem;
+    }
+    .black-key .note-label {
+        bottom: 15px;
+        font-size: 0.6rem;
+    }
     .instructions p {
         font-size: 0.9rem;
     }
@@ -292,5 +370,18 @@ body {
         padding: 4px 8px;
         min-width: 30px;
         font-size: 0.8rem;
+    }
+    .edit-input-container {
+        padding: 10px;
+        margin: 15px 10px;
+    }
+    .edit-key-input {
+        width: 50px;
+        padding: 6px 10px;
+    }
+    .edit-button {
+        width: 18px;
+        height: 18px;
+        font-size: 0.6rem;
     }
 }
