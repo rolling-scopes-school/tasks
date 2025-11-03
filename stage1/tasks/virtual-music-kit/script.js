@@ -78,6 +78,50 @@ class VirtualPiano {
         
         return key;
     }
+
+        createKey(type, note, position) {
+        const key = document.createElement('div');
+        key.className = `piano-key ${type}-key`;
+        key.dataset.note = note;
+        key.dataset.type = type;
+        
+        // Add note label
+        if (note) {
+            const noteLabel = document.createElement('span');
+            noteLabel.className = 'note-label';
+            noteLabel.textContent = note;
+            key.appendChild(noteLabel);
+        }
+        
+        // Add event listeners
+        this.addKeyInteractions(key);
+        
+        return key;
+    }
+
+    addKeyInteractions(key) {
+        // Mouse events
+        key.addEventListener('mousedown', () => this.pressKey(key));
+        key.addEventListener('mouseup', () => this.releaseKey(key));
+        key.addEventListener('mouseleave', () => this.releaseKey(key));
+        
+        // Touch events for mobile
+        key.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            this.pressKey(key);
+        });
+        key.addEventListener('touchend', () => this.releaseKey(key));
+    }
+
+    pressKey(key) {
+        key.classList.add('key-pressed');
+        // Sound will be added in future steps
+        console.log(`Playing note: ${key.dataset.note}`);
+    }
+
+    releaseKey(key) {
+        key.classList.remove('key-pressed');
+    }
 }
 
 // Initialize the piano when DOM is loaded

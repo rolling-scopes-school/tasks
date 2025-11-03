@@ -162,3 +162,17 @@ body {
         bottom: 5px;
     }
 }
+
+.key-pressed {
+    transform: translateY(4px) !important;
+}
+
+.white-key.key-pressed {
+    background: linear-gradient(to bottom, #dee2e6 0%, #adb5bd 100%) !important;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.black-key.key-pressed {
+    background: linear-gradient(to bottom, #222 0%, #111 100%) !important;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.4);
+}
