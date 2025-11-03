@@ -112,21 +112,39 @@ class VirtualPiano {
     }
 
     createKey(type, note, position) {
-        const key = document.createElement('div');
-        key.className = `piano-key ${type}-key`;
-        key.dataset.note = note;
-        key.dataset.type = type;
+    const key = document.createElement('div');
+    key.className = `piano-key ${type}-key`;
+    key.dataset.note = note;
+    key.dataset.type = type;
+    
+    // Add note label
+    if (note) {
+        const noteLabel = document.createElement('span');
+        noteLabel.className = 'note-label';
+        noteLabel.textContent = note;
+        key.appendChild(noteLabel);
         
-        // Add note label
-        if (note) {
-            const noteLabel = document.createElement('span');
-            noteLabel.className = 'note-label';
-            noteLabel.textContent = note;
-            key.appendChild(noteLabel);
+        // Add keyboard key label
+        const keyboardLabel = document.createElement('span');
+        keyboardLabel.className = 'keyboard-label';
+        
+        // Find which keyboard key maps to this note
+        const keyboardKey = Object.keys(this.keyboardMap).find(
+            key => this.keyboardMap[key] === note
+        );
+        
+        if (keyboardKey) {
+            // Convert 'KeyA' to 'A', 'KeyS' to 'S', etc.
+            keyboardLabel.textContent = keyboardKey.replace('Key', '');
+            key.appendChild(keyboardLabel);
         }
-        
-        return key;
     }
+    
+    // Add event listeners
+    this.addKeyInteractions(key);
+    
+    return key;
+}
 
         createKey(type, note, position) {
         const key = document.createElement('div');

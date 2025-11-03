@@ -176,3 +176,70 @@ body {
     background: linear-gradient(to bottom, #222 0%, #111 100%) !important;
     box-shadow: inset 0 -2px 5px rgba(0,0,0,0.4);
 }
+
+/* ... existing styles ... */
+
+.keyboard-label {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.white-key .keyboard-label {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.black-key .keyboard-label {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+/* Adjust note label position to make room for keyboard label */
+.white-key .note-label {
+    bottom: 25px; /* Moved up to accommodate keyboard label */
+}
+
+.black-key .note-label {
+    bottom: 20px; /* Moved up to accommodate keyboard label */
+}
+
+/* Responsive adjustments for labels */
+@media (max-width: 1439px) and (min-width: 768px) {
+    .keyboard-label {
+        font-size: 0.8rem;
+        top: 8px;
+        padding: 1px 4px;
+    }
+    .white-key .note-label {
+        bottom: 22px;
+    }
+    .black-key .note-label {
+        bottom: 18px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+    .keyboard-label {
+        font-size: 0.7rem;
+        top: 5px;
+        padding: 1px 3px;
+        min-width: 16px;
+    }
+    .white-key .note-label {
+        bottom: 18px;
+        font-size: 0.7rem;
+    }
+    .black-key .note-label {
+        bottom: 15px;
+        font-size: 0.6rem;
+    }
+}
