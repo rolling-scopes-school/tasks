@@ -170,13 +170,14 @@ body {
 
 .edit-button {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    background: rgba(102, 126, 234, 0.8);
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(102, 126, 234, 0.9);
     border: none;
     border-radius: 3px;
     color: white;
-    width: 20px;
+    width: 24px;
     height: 20px;
     font-size: 0.7rem;
     cursor: pointer;
@@ -184,16 +185,22 @@ body {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.2s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 5;
 }
 
 .piano-key:hover .edit-button {
     opacity: 1;
+    transform: translateX(-50%) translateY(-2px);
 }
 
 .edit-button:hover {
     background: #667eea;
+    transform: translateX(-50%) translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 .instructions {
     color: white;
