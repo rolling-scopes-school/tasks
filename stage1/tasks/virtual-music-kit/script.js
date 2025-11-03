@@ -2,15 +2,64 @@
 console.log('Virtual Piano initialized');
 // Virtual Piano Application
 class VirtualPiano {
-    constructor() {
+   constructor() {
         this.appContainer = null;
         this.pianoContainer = null;
+        this.sounds = {};
+        this.keyboardMap = {
+            'KeyA': 'C', 'KeyS': 'D', 'KeyD': 'E', 'KeyF': 'F',
+            'KeyG': 'G', 'KeyH': 'A', 'KeyJ': 'B'
+        };
         this.init();
     }
 
     init() {
         this.createAppStructure();
+        this.loadSounds();
         this.createPianoLayout();
+        this.setupKeyboardListeners();
+    }
+
+    loadSounds() {
+        // Define the notes we need
+        const notes = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
+        
+        notes.forEach(note => {
+            this.sounds[note] = new Audio(`sounds/${note.toLowerCase()}4.mp3`);
+            // Preload sounds
+            this.sounds[note].load();
+        });
+    }
+
+    setupKeyboardListeners() {
+        document.addEventListener('keydown', (event) => {
+            // Prevent default only for our piano keys
+            if (this.keyboardMap[event.code]) {
+                event.preventDefault();
+                this.handleKeyPress(this.keyboardMap[event.code]);
+            }
+        });
+
+        document.addEventListener('keyup', (event) => {
+            if (this.keyboardMap[event.code]) {
+                this.handleKeyRelease(this.keyboardMap[event.code]);
+            }
+        });
+    }
+
+    handleKeyPress(note) {
+        // Find the key element and trigger press
+        const keyElement = document.querySelector(`[data-note="${note}"]`);
+        if (keyElement) {
+            this.pressKey(keyElement);
+        }
+    }
+
+    handleKeyRelease(note) {
+        const keyElement = document.querySelector(`[data-note="${note}"]`);
+        if (keyElement) {
+            this.releaseKey(keyElement);
+        }
     }
 
     createAppStructure() {
