@@ -1,3 +1,19 @@
+ /* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ... previous styles ... */
 
 .app-container {
@@ -39,5 +55,110 @@
     .piano-container {
         padding: 10px;
         margin: 0 10px;
+    }
+}
+/* ... previous styles ... */
+
+.keys-container {
+    position: relative;
+    display: flex;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.piano-key {
+    position: relative;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    user-select: none;
+}
+
+.white-key {
+    background: linear-gradient(to bottom, #fff 0%, #f8f9fa 100%);
+    border: 2px solid #ccc;
+    border-top: none;
+    width: 60px;
+    height: 100%;
+    margin: 0 1px;
+    z-index: 1;
+}
+
+.black-key {
+    background: linear-gradient(to bottom, #333 0%, #000 100%);
+    width: 40px;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+/* Position black keys between white keys */
+.black-key[data-note="C#"] { left: 45px; }
+.black-key[data-note="D#"] { left: 105px; }
+.black-key[data-note="F#"] { left: 225px; }
+.black-key[data-note="G#"] { left: 285px; }
+.black-key[data-note="A#"] { left: 345px; }
+
+.note-label {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+.white-key .note-label {
+    color: #333;
+}
+
+.black-key .note-label {
+    color: white;
+}
+
+/* Hover and active states */
+.piano-key:hover {
+    transform: translateY(-2px);
+}
+
+.white-key:hover {
+    background: linear-gradient(to bottom, #e9ecef 0%, #dee2e6 100%);
+}
+
+.black-key:hover {
+    background: linear-gradient(to bottom, #555 0%, #222 100%);
+}
+
+.piano-key:active {
+    transform: translateY(2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1439px) and (min-width: 768px) {
+    .keys-container {
+        height: 180px;
+        max-width: 700px;
+    }
+    .white-key { width: 50px; }
+    .black-key { width: 35px; }
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+    .keys-container {
+        height: 150px;
+        max-width: 100%;
+    }
+    .white-key { 
+        width: 40px; 
+        font-size: 0.8rem;
+    }
+    .black-key { 
+        width: 30px; 
+        font-size: 0.7rem;
+    }
+    .note-label {
+        bottom: 5px;
     }
 }
