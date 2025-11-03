@@ -12,7 +12,9 @@ class VirtualPiano {
         };
         this.editingKey = null;
         this.editInput = null;
-        this.activeKey = null; // Track currently active key to prevent multiple inputs
+        this.activeKey = null;
+        this.sequenceInput = null;
+        this.maxSequenceLength = 14; // 7 sounds * 2
         this.init();
     }
 
@@ -42,6 +44,11 @@ class VirtualPiano {
                 return;
             }
 
+            // Don't process piano keys when sequence input is focused
+            if (document.activeElement === this.sequenceInput.input) {
+                return;
+            }
+
             // Prevent multiple key processing
             if (this.activeKey) {
                 event.preventDefault();
@@ -62,14 +69,17 @@ class VirtualPiano {
             }
         });
 
-        // Handle keyboard layout independence - listen for keypress to catch actual character
+        // Handle keyboard layout independence
         document.addEventListener('keypress', (event) => {
             if (this.editingKey) return;
             
-            // Convert any keyboard layout to uppercase English letter
+            // Don't process piano keys when sequence input is focused
+            if (document.activeElement === this.sequenceInput.input) {
+                return;
+            }
+            
             const key = event.key.toUpperCase();
             if (/^[A-Z]$/.test(key)) {
-                // Find if this character corresponds to any mapped key
                 const keyCode = `Key${key}`;
                 if (this.keyboardMap[keyCode] && !this.activeKey) {
                     event.preventDefault();
@@ -80,7 +90,6 @@ class VirtualPiano {
     }
 
     handleKeyPress(note) {
-        // Only process if no other key is active
         if (this.activeKey) return;
         
         const keyElement = document.querySelector(`[data-note="${note}"]`);
@@ -120,14 +129,151 @@ class VirtualPiano {
         this.pianoContainer = document.createElement('div');
         this.pianoContainer.className = 'piano-container';
         
+        // Create sequence input
+        this.sequenceInput = this.createSequenceInput();
+        
         this.editInput = this.createEditInput();
         
         this.appContainer.appendChild(title);
         this.appContainer.appendChild(instructions);
+        this.appContainer.appendChild(this.sequenceInput.container);
         this.appContainer.appendChild(this.pianoContainer);
         this.appContainer.appendChild(this.editInput.container);
         
         document.body.appendChild(this.appContainer);
+    }
+
+    createSequenceInput() {
+        const container = document.createElement('div');
+        container.className = 'sequence-input-container';
+        
+        const label = document.createElement('label');
+        label.textContent = 'Type a sequence to play (max 14 characters):';
+        label.className = 'sequence-label';
+        label.htmlFor = 'sequence-input';
+        
+        const inputContainer = document.createElement('div');
+        inputContainer.className = 'sequence-input-wrapper';
+        
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.id = 'sequence-input';
+        input.className = 'sequence-input';
+        input.placeholder = 'Example: ASDFG or asdfg';
+        input.maxLength = this.maxSequenceLength;
+        
+        const charCount = document.createElement('div');
+        charCount.className = 'char-count';
+        charCount.textContent = `0/${this.maxSequenceLength}`;
+        
+        const instruction = document.createElement('div');
+        instruction.className = 'sequence-instruction';
+        instruction.textContent = 'Only letters A,S,D,F,G,H,J are allowed (case insensitive)';
+        
+        // Get current allowed keys for the instruction
+        this.updateSequenceInstruction(instruction);
+        
+        inputContainer.appendChild(input);
+        inputContainer.appendChild(charCount);
+        
+        container.appendChild(label);
+        container.appendChild(inputContainer);
+        container.appendChild(instruction);
+        
+        // Setup input validation
+        this.setupSequenceInputValidation(input, charCount);
+        
+        return {
+            container,
+            input,
+            charCount,
+            instruction
+        };
+    }
+
+    setupSequenceInputValidation(input, charCount) {
+        input.addEventListener('input', (e) => {
+            let value = e.target.value.toUpperCase();
+            
+            // Filter out invalid characters - only allow assigned keys
+            const allowedKeys = this.getAllowedSequenceKeys();
+            const filteredValue = value.split('').filter(char => 
+                allowedKeys.includes(char)
+            ).join('');
+            
+            // Update the input value with filtered characters
+            if (value !== filteredValue) {
+                input.value = filteredValue;
+                value = filteredValue;
+            }
+            
+            // Update character count
+            charCount.textContent = `${value.length}/${this.maxSequenceLength}`;
+            
+            // Visual feedback
+            if (value.length > 0) {
+                input.classList.add('has-content');
+            } else {
+                input.classList.remove('has-content');
+            }
+            
+            // Update instruction with current allowed keys
+            this.updateSequenceInstruction(this.sequenceInput.instruction);
+        });
+        
+        input.addEventListener('keydown', (e) => {
+            // Allow control keys (backspace, delete, arrows, etc.)
+            if (e.ctrlKey || e.metaKey || [
+                'Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 
+                'ArrowUp', 'ArrowDown', 'Tab', 'Home', 'End'
+            ].includes(e.key)) {
+                return;
+            }
+            
+            // Prevent entering characters that aren't allowed
+            const allowedKeys = this.getAllowedSequenceKeys();
+            if (!allowedKeys.includes(e.key.toUpperCase())) {
+                e.preventDefault();
+                
+                // Show temporary error
+                this.showSequenceError(`"${e.key}" is not a valid key. Allowed keys: ${allowedKeys.join(', ')}`);
+            }
+        });
+    }
+
+    getAllowedSequenceKeys() {
+        return Object.keys(this.keyboardMap).map(keyCode => 
+            keyCode.replace('Key', '')
+        );
+    }
+
+    updateSequenceInstruction(instructionElement) {
+        const allowedKeys = this.getAllowedSequenceKeys();
+        instructionElement.textContent = `Only letters ${allowedKeys.join(', ')} are allowed (case insensitive)`;
+    }
+
+    showSequenceError(message) {
+        // Remove any existing error
+        const existingError = this.sequenceInput.container.querySelector('.sequence-error');
+        if (existingError) {
+            existingError.remove();
+        }
+
+        const error = document.createElement('div');
+        error.className = 'sequence-error';
+        error.textContent = message;
+        error.style.color = '#f44336';
+        error.style.marginTop = '8px';
+        error.style.fontSize = '0.9rem';
+        error.style.textAlign = 'center';
+
+        this.sequenceInput.container.appendChild(error);
+        
+        setTimeout(() => {
+            if (error.parentNode) {
+                error.remove();
+            }
+        }, 3000);
     }
 
     createEditInput() {
@@ -225,7 +371,6 @@ class VirtualPiano {
     }
 
     addKeyInteractions(key) {
-        // Mouse events with single-key processing
         key.addEventListener('mousedown', (e) => {
             e.preventDefault();
             if (!this.activeKey) {
@@ -245,7 +390,6 @@ class VirtualPiano {
             }
         });
         
-        // Touch events with single-key processing
         key.addEventListener('touchstart', (e) => {
             e.preventDefault();
             if (!this.activeKey) {
@@ -263,17 +407,13 @@ class VirtualPiano {
     pressKey(key) {
         const note = key.dataset.note;
         
-        // Set active key and update visual state
         this.activeKey = note;
         key.classList.add('key-pressed');
         
-        // Play sound exactly once
         if (this.sounds[note]) {
-            // Stop and reset the sound to ensure it plays from beginning
             this.sounds[note].pause();
             this.sounds[note].currentTime = 0;
             
-            // Play the sound with error handling
             this.sounds[note].play().catch(error => {
                 console.warn(`Could not play sound for note ${note}:`, error);
             });
@@ -285,7 +425,6 @@ class VirtualPiano {
     releaseKey(key) {
         const note = key.dataset.note;
         
-        // Only release if this is the currently active key
         if (this.activeKey === note) {
             key.classList.remove('key-pressed');
             this.activeKey = null;
@@ -293,7 +432,6 @@ class VirtualPiano {
     }
 
     startEditing(note, keyElement) {
-        // Don't allow editing while a key is active
         if (this.activeKey) {
             console.log('Cannot edit while a key is active');
             return;
@@ -386,6 +524,9 @@ class VirtualPiano {
         this.keyboardMap[newKeyCode] = note;
         
         this.updateKeyboardLabel(note, newKeyCode);
+        
+        // Update sequence instruction when keys change
+        this.updateSequenceInstruction(this.sequenceInput.instruction);
         
         console.log(`Updated ${note} to key: ${newKeyCode.replace('Key', '')}`);
     }
