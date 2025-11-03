@@ -47,13 +47,13 @@ class VirtualPiano {
         });
     }
 
-    handleKeyPress(note) {
-        // Find the key element and trigger press
-        const keyElement = document.querySelector(`[data-note="${note}"]`);
-        if (keyElement) {
-            this.pressKey(keyElement);
-        }
+handleKeyPress(note) {
+    // Find the key element and trigger press
+    const keyElement = document.querySelector(`[data-note="${note}"]`);
+    if (keyElement && !keyElement.classList.contains('key-pressed')) {
+        this.pressKey(keyElement);
     }
+}
 
     handleKeyRelease(note) {
         const keyElement = document.querySelector(`[data-note="${note}"]`);
@@ -180,15 +180,26 @@ class VirtualPiano {
         key.addEventListener('touchend', () => this.releaseKey(key));
     }
 
-    pressKey(key) {
-        key.classList.add('key-pressed');
-        // Sound will be added in future steps
-        console.log(`Playing note: ${key.dataset.note}`);
+  pressKey(key) {
+    key.classList.add('key-pressed');
+    
+    const note = key.dataset.note;
+    
+    // Play the sound
+    if (this.sounds[note]) {
+        // Stop and rewind if already playing
+        this.sounds[note].currentTime = 0;
+        this.sounds[note].play().catch(error => {
+            console.warn(`Could not play sound for note ${note}:`, error);
+        });
     }
+    
+    console.log(`Playing note: ${note}`);
+}
 
-    releaseKey(key) {
-        key.classList.remove('key-pressed');
-    }
+releaseKey(key) {
+    key.classList.remove('key-pressed');
+}
 }
 
 // Initialize the piano when DOM is loaded
