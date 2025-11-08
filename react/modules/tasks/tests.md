@@ -18,68 +18,79 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Practice testing user interactions and component state changes
 - Prepare a solid test foundation for future refactoring (**Week 3 - Functional Routing**)
 
-
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Test Coverage (**20 points**)
+
 **As a** developer
 **I want** to ensure high test coverage
 **So that** my components are reliably tested
 
 **Scenario:** Achieve minimum coverage
-  - **Given** I have written tests for all components
-  - **Then** statement coverage is at least 80%
-  - **And** branch, function, and line coverage are at least 50%
+
+- **Given** I have written tests for all components
+- **Then** statement coverage is at least 80%
+- **And** branch, function, and line coverage are at least 50%
 
 ### Feature 2: No Implementation Changes (**10 points**)
+
 **As a** developer
 **I want** to test class components without modifying their logic
 **So that** I preserve original behavior
 
 **Scenario:** Write tests only
-  - **Given** existing class components
-  - **When** I write tests
-  - **Then** I do not change component implementation
+
+- **Given** existing class components
+- **When** I write tests
+- **Then** I do not change component implementation
 
 ### Feature 3: Behavior-Focused Testing (**15 points**)
+
 **As a** developer
 **I want** to test component behavior and public API
 **So that** tests remain valid after refactoring
 
 **Scenario:** Focus on behavior
-  - **Given** a component
-  - **When** I write tests
-  - **Then** I test what the component does, not how it does it
+
+- **Given** a component
+- **When** I write tests
+- **Then** I test what the component does, not how it does it
 
 ### Feature 4: API Mocking (**15 points**)
+
 **As a** developer
 **I want** to mock all external API calls
 **So that** tests are isolated and fast
 
 **Scenario:** Mock APIs
-  - **Given** a component that calls an API
-  - **When** I run tests
-  - **Then** all API calls are mocked
+
+- **Given** a component that calls an API
+- **When** I run tests
+- **Then** all API calls are mocked
 
 ### Feature 5: Error Handling (**20 points**)
+
 **As a** developer
 **I want** to test error scenarios
 **So that** my components handle errors gracefully
 
 **Scenario:** Test errors
-  - **Given** a component that can fail
-  - **When** an error occurs
-  - **Then** the error scenario is tested
+
+- **Given** a component that can fail
+- **When** an error occurs
+- **Then** the error scenario is tested
 
 ### Feature 6: User Interactions (**20 points**)
+
 **As a** developer
 **I want** to test all user interactions
 **So that** my components respond correctly
 
 **Scenario:** Test interactions
-  - **Given** a component with user input
-  - **When** the user interacts (clicks, submits, changes input)
-  - **Then** the interaction is tested
+
+- **Given** a component with user input
+- **When** the user interacts (clicks, submits, changes input)
+- **Then** the interaction is tested
 
 ## Technical Requirements
 
@@ -122,7 +133,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
    - Create `.test.tsx` or `.spec.tsx` files for each component
    - Set up test utilities and mocks in a separate `__tests__` or `test-utils` directory
 
-
 ### Penalties
 
 - **1. TypeScript & Code Quality**
@@ -146,7 +156,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
   - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
-
 
 ## Suggested Test Scenarios
 
@@ -238,8 +247,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 3. No console errors or warnings during test execution
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
-
-
 
 ## 📚 FAQ (Frequently Asked Questions)
 
