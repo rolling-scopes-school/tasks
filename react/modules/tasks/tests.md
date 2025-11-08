@@ -18,14 +18,68 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Practice testing user interactions and component state changes
 - Prepare a solid test foundation for future refactoring (**Week 3 - Functional Routing**)
 
-## Application Requirements
 
-1. **Test Coverage**: Achieve at least **80% statement coverage** for all components, with minimum 50% coverage for branches, functions, and lines.
-2. **No Implementation Changes**: Write tests for existing class components without modifying their code
-3. **Behavior-Focused Testing**: Test what components do, not how they do it
-4. **API Mocking**: Mock all external API calls to ensure tests are isolated and fast
-5. **Error Handling**: Test both success and error scenarios
-6. **User Interactions**: Test all user interactions (clicks, form submissions, input changes)
+## Functional Requirements (max **100 points**)
+
+### Feature 1: Test Coverage (**20 points**)
+**As a** developer
+**I want** to ensure high test coverage
+**So that** my components are reliably tested
+
+**Scenario:** Achieve minimum coverage
+  - **Given** I have written tests for all components
+  - **Then** statement coverage is at least 80%
+  - **And** branch, function, and line coverage are at least 50%
+
+### Feature 2: No Implementation Changes (**10 points**)
+**As a** developer
+**I want** to test class components without modifying their logic
+**So that** I preserve original behavior
+
+**Scenario:** Write tests only
+  - **Given** existing class components
+  - **When** I write tests
+  - **Then** I do not change component implementation
+
+### Feature 3: Behavior-Focused Testing (**15 points**)
+**As a** developer
+**I want** to test component behavior and public API
+**So that** tests remain valid after refactoring
+
+**Scenario:** Focus on behavior
+  - **Given** a component
+  - **When** I write tests
+  - **Then** I test what the component does, not how it does it
+
+### Feature 4: API Mocking (**15 points**)
+**As a** developer
+**I want** to mock all external API calls
+**So that** tests are isolated and fast
+
+**Scenario:** Mock APIs
+  - **Given** a component that calls an API
+  - **When** I run tests
+  - **Then** all API calls are mocked
+
+### Feature 5: Error Handling (**20 points**)
+**As a** developer
+**I want** to test error scenarios
+**So that** my components handle errors gracefully
+
+**Scenario:** Test errors
+  - **Given** a component that can fail
+  - **When** an error occurs
+  - **Then** the error scenario is tested
+
+### Feature 6: User Interactions (**20 points**)
+**As a** developer
+**I want** to test all user interactions
+**So that** my components respond correctly
+
+**Scenario:** Test interactions
+  - **Given** a component with user input
+  - **When** the user interacts (clicks, submits, changes input)
+  - **Then** the interaction is tested
 
 ## Technical Requirements
 
@@ -159,9 +213,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
 
-## Points
 
-A student can achieve a maximum of 100 points.
 
 ## 📚 FAQ (Frequently Asked Questions)
 
