@@ -122,6 +122,32 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
    - Create `.test.tsx` or `.spec.tsx` files for each component
    - Set up test utilities and mocks in a separate `__tests__` or `test-utils` directory
 
+
+### Penalties
+
+- **1. TypeScript & Code Quality**
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+
+- **2. Test Coverage**
+  - Statement coverage below 80% (≥70%): **-10 points**
+  - Statement coverage below 70% (≥50%): **-30 points**
+  - All coverage metrics below 50%: **-50 points**
+
+- **3. React Best Practices**
+  - Direct DOM manipulations inside the React components: **-50 points per each**
+
+- **4. External Dependencies**
+  - Usage of Redux or other state management libraries: **-100 points**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **5. Project Management**
+  - Commits after the deadline: **-40 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+
+
 ## Suggested Test Scenarios
 
 ⚠️ You can use the following scenarios as a guide for writing your tests. Feel free to add more tests based on your components' specific behaviors and requirements. Your application may differ from these examples, so these scenarios are **suggestions only**. Strive for **80% test statement coverage** as your target milestone.
@@ -257,37 +283,3 @@ You don’t need to test main.tsx directly. Focus on components like App.tsx and
 No, deployment is not mandatory for the unit testing task.  
 That said, deploying your app (e.g., to GitHub Pages, Vercel, or Netlify) is highly recommended — it makes the review process easier and demonstrates good development practice.  
 If you'd like to deploy, feel free to do so, but it won’t affect your score.
-
-### Cross-check (score can be less if some parts of the functionality don't work)
-
-- **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
-- **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
-- **Results/CardList Component Tests** (rendering, data display, loading states) - **15 points**
-- **Card Component Tests** (rendering) - **15 points**
-- **Error Boundary Tests** (error catching, fallback UI, test error button) - **15 points**
-- **API Integration Tests** (mocked API calls, success/error handling) - **15 points**
-- **Husky Pre-push Hook** (tests run automatically before push) - **5 points**
-
-### Penalties
-
-- **1. TypeScript & Code Quality**
-  - TypeScript isn't used: **-95 points**
-  - Usage of _any_: **-20 points per each**
-  - Usage of _ts-ignore_: **-20 points per each**
-  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-
-- **2. Test Coverage**
-  - Statement coverage below 80% (≥70%): **-10 points**
-  - Statement coverage below 70% (≥50%): **-30 points**
-  - All coverage metrics below 50%: **-50 points**
-
-- **3. React Best Practices**
-  - Direct DOM manipulations inside the React components: **-50 points per each**
-
-- **4. External Dependencies**
-  - Usage of Redux or other state management libraries: **-100 points**
-  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-
-- **5. Project Management**
-  - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
