@@ -52,7 +52,9 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 **Acceptance Criteria:**
 
-- No changes are made to the logic or structure of class components during testing.
+- No major changes are made to the logic or structure of class components during testing.
+- Conversion to functional components is not performed.
+- Only changes to improve testability are allowed, without altering behavior.
 - Refactoring or conversion to functional components is not performed.
 - Only minor changes to improve testability (e.g., adding data-testid) are allowed, without altering behavior.
 
