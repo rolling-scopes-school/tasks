@@ -18,14 +18,112 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Practice testing user interactions and component state changes
 - Prepare a solid test foundation for future refactoring (**Week 3 - Functional Routing**)
 
-## Application Requirements
+## Functional Requirements (max **100 points**)
 
-1. **Test Coverage**: Achieve at least **80% statement coverage** for all components, with minimum 50% coverage for branches, functions, and lines.
-2. **No Implementation Changes**: Write tests for existing class components without modifying their code
-3. **Behavior-Focused Testing**: Test what components do, not how they do it
-4. **API Mocking**: Mock all external API calls to ensure tests are isolated and fast
-5. **Error Handling**: Test both success and error scenarios
-6. **User Interactions**: Test all user interactions (clicks, form submissions, input changes)
+### Feature 1: Test Coverage (**20 points**)
+
+**As a** developer
+**I want** to ensure high test coverage
+**So that** my components are reliably tested
+
+**Scenario:** Achieve minimum coverage
+
+- **Given** I have written tests for all components
+- **Then** statement coverage is at least 80%
+- **And** branch, function, and line coverage are at least 50%
+
+**Acceptance Criteria:**
+
+- The test suite achieves at least 80% statement coverage.
+- Branch, function, and line coverage are each at least 50%.
+- Coverage is measured and reported using Jest or Vitest coverage tools.
+
+### Feature 2: No Implementation Changes (**10 points**)
+
+**As a** developer
+**I want** to test class components without modifying their logic
+**So that** I preserve original behavior
+
+**Scenario:** Write tests only
+
+- **Given** existing class components
+- **When** I write tests
+- **Then** I do not change component implementation
+
+**Acceptance Criteria:**
+
+- No major changes are made to the logic or structure of class components during testing.
+- Conversion to functional components is not performed.
+- Only changes to improve testability are allowed, without altering behavior.
+
+### Feature 3: Behavior-Focused Testing (**15 points**)
+
+**As a** developer
+**I want** to test component behavior and public API
+**So that** tests remain valid after refactoring
+
+**Scenario:** Focus on behavior
+
+- **Given** a component
+- **When** I write tests
+- **Then** I test what the component does, not how it does it
+
+**Acceptance Criteria:**
+
+- Tests focus on user-visible behavior and component outputs, not internal implementation details.
+
+### Feature 4: API Mocking (**15 points**)
+
+**As a** developer
+**I want** to mock all external API calls
+**So that** tests are isolated and fast
+
+**Scenario:** Mock APIs
+
+- **Given** a component that calls an API
+- **When** I run tests
+- **Then** all API calls are mocked
+
+**Acceptance Criteria:**
+
+- All external API calls are mocked using Jest, Vitest, or MSW.
+- No real network requests are made during test execution.
+- Tests cover both successful and error API responses using mocks.
+
+### Feature 5: Error Handling (**20 points**)
+
+**As a** developer
+**I want** to test error scenarios
+**So that** my components handle errors gracefully
+
+**Scenario:** Test errors
+
+- **Given** a component that can fail
+- **When** an error occurs
+- **Then** the error scenario is tested
+
+**Acceptance Criteria:**
+
+- Tests simulate error conditions (e.g., failed API calls, thrown errors in components).
+- Error boundaries are tested to ensure they catch and handle errors as expected.
+
+### Feature 6: User Interactions (**20 points**)
+
+**As a** developer
+**I want** to test all user interactions
+**So that** my components respond correctly
+
+**Scenario:** Test interactions
+
+- **Given** a component with user input
+- **When** the user interacts (clicks, submits, changes input)
+- **Then** the interaction is tested
+
+**Acceptance Criteria:**
+
+- All user interactions (clicks, input changes, form submissions, etc.) are covered by tests.
+- Tests verify that components respond correctly to user actions (e.g., updating state, calling callbacks, rendering changes).
+- Edge cases and invalid inputs are tested to ensure robust handling of user interactions.
 
 ## Technical Requirements
 
@@ -67,6 +165,29 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 4. **Required Test Files**:
    - Create `.test.tsx` or `.spec.tsx` files for each component
    - Set up test utilities and mocks in a separate `__tests__` or `test-utils` directory
+
+### Penalties
+
+- **1. TypeScript & Code Quality**
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+
+- **2. Test Coverage**
+  - Statement coverage below 80% (≥70%): **-10 points**
+  - Statement coverage below 70% (≥50%): **-30 points**
+  - All coverage metrics below 50%: **-50 points**
+
+- **3. React Best Practices**
+  - Direct DOM manipulations inside the React components: **-50 points per each**
+
+- **4. External Dependencies**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **5. Project Management**
+  - Commits after the deadline: **-40 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
 
 ## Suggested Test Scenarios
 
@@ -159,10 +280,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 4. Tests must be deterministic (no flaky tests)
 5. All external dependencies must be properly mocked
 
-## Points
-
-A student can achieve a maximum of 100 points.
-
 ## 📚 FAQ (Frequently Asked Questions)
 
 ### ❓ Am I allowed to modify existing components to make testing easier?
@@ -205,37 +322,3 @@ You don’t need to test main.tsx directly. Focus on components like App.tsx and
 No, deployment is not mandatory for the unit testing task.  
 That said, deploying your app (e.g., to GitHub Pages, Vercel, or Netlify) is highly recommended — it makes the review process easier and demonstrates good development practice.  
 If you'd like to deploy, feel free to do so, but it won’t affect your score.
-
-### Cross-check (score can be less if some parts of the functionality don't work)
-
-- **Test Runner Setup** (Jest/Vitest configured with RTL, coverage reporting works) - **15 points**
-- **Search Component Tests** (localStorage, user input, search functionality) - **20 points**
-- **Results/CardList Component Tests** (rendering, data display, loading states) - **15 points**
-- **Card Component Tests** (rendering) - **15 points**
-- **Error Boundary Tests** (error catching, fallback UI, test error button) - **15 points**
-- **API Integration Tests** (mocked API calls, success/error handling) - **15 points**
-- **Husky Pre-push Hook** (tests run automatically before push) - **5 points**
-
-### Penalties
-
-- **1. TypeScript & Code Quality**
-  - TypeScript isn't used: **-95 points**
-  - Usage of _any_: **-20 points per each**
-  - Usage of _ts-ignore_: **-20 points per each**
-  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-
-- **2. Test Coverage**
-  - Statement coverage below 80% (≥70%): **-10 points**
-  - Statement coverage below 70% (≥50%): **-30 points**
-  - All coverage metrics below 50%: **-50 points**
-
-- **3. React Best Practices**
-  - Direct DOM manipulations inside the React components: **-50 points per each**
-
-- **4. External Dependencies**
-  - Usage of Redux or other state management libraries: **-100 points**
-  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-
-- **5. Project Management**
-  - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
