@@ -71,7 +71,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 **Acceptance Criteria:**
 
 - Tests focus on user-visible behavior and component outputs, not internal implementation details.
-- Tests remain valid after refactoring to functional components.
 
 ### Feature 4: API Mocking (**15 points**)
 
