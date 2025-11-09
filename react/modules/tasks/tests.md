@@ -184,7 +184,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **4. External Dependencies**
-  - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **5. Project Management**
