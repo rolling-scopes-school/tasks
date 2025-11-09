@@ -32,6 +32,12 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Then** statement coverage is at least 80%
 - **And** branch, function, and line coverage are at least 50%
 
+**Acceptance Criteria:**
+
+- The test suite achieves at least 80% statement coverage.
+- Branch, function, and line coverage are each at least 50%.
+- Coverage is measured and reported using Jest or Vitest coverage tools.
+
 ### Feature 2: No Implementation Changes (**10 points**)
 
 **As a** developer
@@ -43,6 +49,12 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Given** existing class components
 - **When** I write tests
 - **Then** I do not change component implementation
+
+**Acceptance Criteria:**
+
+- No changes are made to the logic or structure of class components during testing.
+- Refactoring or conversion to functional components is not performed.
+- Only minor changes to improve testability (e.g., adding data-testid) are allowed, without altering behavior.
 
 ### Feature 3: Behavior-Focused Testing (**15 points**)
 
@@ -56,6 +68,11 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **When** I write tests
 - **Then** I test what the component does, not how it does it
 
+**Acceptance Criteria:**
+
+- Tests focus on user-visible behavior and component outputs, not internal implementation details.
+- Tests remain valid after refactoring to functional components.
+
 ### Feature 4: API Mocking (**15 points**)
 
 **As a** developer
@@ -67,6 +84,12 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Given** a component that calls an API
 - **When** I run tests
 - **Then** all API calls are mocked
+
+**Acceptance Criteria:**
+
+- All external API calls are mocked using Jest, Vitest, or MSW.
+- No real network requests are made during test execution.
+- Tests cover both successful and error API responses using mocks.
 
 ### Feature 5: Error Handling (**20 points**)
 
@@ -80,6 +103,11 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **When** an error occurs
 - **Then** the error scenario is tested
 
+**Acceptance Criteria:**
+
+- Tests simulate error conditions (e.g., failed API calls, thrown errors in components).
+- Error boundaries are tested to ensure they catch and handle errors as expected.
+
 ### Feature 6: User Interactions (**20 points**)
 
 **As a** developer
@@ -91,6 +119,12 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - **Given** a component with user input
 - **When** the user interacts (clicks, submits, changes input)
 - **Then** the interaction is tested
+
+**Acceptance Criteria:**
+
+- All user interactions (clicks, input changes, form submissions, etc.) are covered by tests.
+- Tests verify that components respond correctly to user actions (e.g., updating state, calling callbacks, rendering changes).
+- Edge cases and invalid inputs are tested to ensure robust handling of user interactions.
 
 ## Technical Requirements
 
