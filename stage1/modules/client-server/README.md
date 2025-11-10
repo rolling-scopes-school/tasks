@@ -66,6 +66,7 @@ Expand your knowledge with these additional materials:
   - [What is SSL Encryption?](https://www.arkoselabs.com/explained/ssl-encryption/)
   - [What Is HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
   - [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
+  - [How to win at CORS](https://jakearchibald.com/2021/cors/)
 
 - **Emerging Technologies:**
   - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
