@@ -26,7 +26,7 @@ Before initiating the development of the client application, you have to clone t
 
 To complete the task in the school repository, create a separate branch and regularly commit your solutions to it.
 
-You have complete freedom to implement any visual design for the application. You will find a sample of a possible app design [here](https://mikaleinik.github.io/chat-deploy).
+You have complete freedom to implement any visual design for the application. You will find a sample of a possible app design [here](https://mik-aleinik.by/fun-chat/login).
 
 ## Functional Requirements (+250)
 
