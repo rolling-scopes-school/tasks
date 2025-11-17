@@ -68,12 +68,12 @@ You have complete freedom to implement any visual design for the application. Yo
 5. (+5) When sending a message to another user, the message history scrolls to the sent message (making the just-sent message visible to the user).
 6. (+5) When receiving a message from another user in an open dialogue, the message history scrolls to the received message (making the just-received message visible to the user).
 7. (+5) When opening a dialogue with unread messages, new messages are separated from the read messages by a dividing line, and the user can see the dividing line and at least one unread message. When receiving new unread messages in an open dialogue, the line must always stay within the dialogue area and not hide in the scroll area until the conditions to remove it are met.
-8. (+5) The dividing line between read and unread messages in an open dialogue can be removed by each of the following actions: when scrolling the message history area, after clicking the message send button, or clicking inside the message history area.
+8. (+5) The dividing line between read and unread messages in an open dialogue can be removed by each of the following actions: when scrolling the message history area, after receiver sends the new message in chat, or clicking inside the message history area.
 9. (+5) After the conditions for removing the dividing line have been met, when new messages appear, the line does not appear unless the user has selected another dialog.
 10. (+5) If no recipient is selected, the message send button and message input field must be inactive (or hidden), and there must be a message in the message history field indicating the need to select a recipient.
 11. (+5) Sending a message to a user is possible both by clicking the send button with the mouse or by pressing the "Enter" key without the need to focus on the send button.
-12. (+10) The user can delete their own previously sent messages.
-13. (+10) The user can edit the text of their own previously sent messages.
+12. (+10) The user can delete their own previously sent messages. The message should be deleted from the recipient's device as well. If the deleted message was not read by the recipient, the unread message counter should be decremented.
+13. (+10) The user can edit the text of their own previously sent messages. The message should be marked as edited. The edited text and the edit mark should be visible to both the sender and recipient. The text of the modified message must match [7.3](#7-message-content-on-the-main-page-20)
 
 #### 7. Message Content (on the main page) (+20)
 
