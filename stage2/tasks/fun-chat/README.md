@@ -149,6 +149,11 @@ You have complete freedom to implement any visual design for the application. Yo
 - (-50%) If the entire content of the page is not generated using TypeScript (if index.html contains more than just the body tag).
 - (-50) With remarks on code quality, readability.
 
+## Q&A Video
+
+- Discussing the assignment with students [2024Q4](https://www.youtube.com/watch?v=P1n0ZSVf26U) RU
+- Discussing the assignment with students [2023Q4](https://www.youtube.com/watch?v=3cY3Dgt49_g) RU
+
 ## FAQ
 
 _Question_ - Is the use of CSS framework allowed?
