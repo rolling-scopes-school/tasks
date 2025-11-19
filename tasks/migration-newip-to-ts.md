@@ -17,7 +17,7 @@
 
 - News API no longer allows calling the API from other sources except localhost.
 - Proxy News API server for use in the deployed version:
-  - https://rss-news-api.onrender.com/ - has additional mocks endpoints - `/mocks/sources` and `/mocks/everything` - that return static data to help prevent exhausting API key requests limit during the developing process.
+  - <https://rss-news-api.onrender.com/> - has additional mocks endpoints - `/mocks/sources` and `/mocks/everything` - that return static data to help prevent exhausting API key requests limit during the developing process.
 
 ## Task Requirements
 
@@ -126,10 +126,10 @@ The result of completing this step is:
 - The task is performed in the **school's private repository**.
 - In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
 - For deployment, use `gh-pages`.
-- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.  
+- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.
   Name the page according to the scheme: `GitHub-account-name`-`task-name` (e.g. `octocat-news-api`).
 - Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://rs.school/docs/en/git-convention).
-- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr).  
+- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr).
   **Do not merge the Pull Request from the development branch to the `main` branch!**
 - Send the <u>link to the pull request</u> for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
 

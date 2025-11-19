@@ -1,4 +1,4 @@
-## Technical Screening 🗣️
+# Technical Screening 🗣️
 
 Technical Screening or the process of a mentor recruiting students into their group.
 
