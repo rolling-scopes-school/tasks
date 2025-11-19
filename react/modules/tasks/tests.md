@@ -20,7 +20,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ## Functional Requirements (max **100 points**)
 
-### Feature 1: Test Coverage (**20 points**)
+### Feature 1: Test Coverage (**14 points**)
 
 **As a** developer
 **I want** to ensure high test coverage
@@ -38,7 +38,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Branch, function, and line coverage are each at least 50%.
 - Coverage is measured and reported using Jest or Vitest coverage tools.
 
-### Feature 2: No Implementation Changes (**10 points**)
+### Feature 2: No Functional Changes (**14 points**)
 
 **As a** developer
 **I want** to test class components without modifying their logic
@@ -55,8 +55,9 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - No major changes are made to the logic or structure of class components during testing.
 - Conversion to functional components is not performed.
 - Only changes to improve testability are allowed, without altering behavior.
+- The logic and output of components should remain almost the same.
 
-### Feature 3: Behavior-Focused Testing (**15 points**)
+### Feature 3: Behavior-Focused Testing (**14 points**)
 
 **As a** developer
 **I want** to test component behavior and public API
@@ -72,7 +73,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 - Tests focus on user-visible behavior and component outputs, not internal implementation details.
 
-### Feature 4: API Mocking (**15 points**)
+### Feature 4: API Mocking (**14 points**)
 
 **As a** developer
 **I want** to mock all external API calls
@@ -90,7 +91,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - No real network requests are made during test execution.
 - Tests cover both successful and error API responses using mocks.
 
-### Feature 5: Error Handling (**20 points**)
+### Feature 5: Error Handling (**14 points**)
 
 **As a** developer
 **I want** to test error scenarios
@@ -107,7 +108,26 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Tests simulate error conditions (e.g., failed API calls, thrown errors in components).
 - Error boundaries are tested to ensure they catch and handle errors as expected.
 
-### Feature 6: User Interactions (**20 points**)
+### Feature 6: User Interactions (**14 points**)
+
+### Feature 7: LocalStorage Functionality Testing (**16 points**)
+
+**As a** developer
+**I want** to test localStorage integration in components
+**So that** search terms and relevant data persist as expected
+
+**Scenario:** Test localStorage behavior
+
+- **Given** a component that uses localStorage
+- **When** the component loads or user interacts
+- **Then** localStorage is read from and written to as expected
+
+**Acceptance Criteria:**
+
+- Tests verify that the component reads the correct value from localStorage on mount.
+- Tests verify that the component writes the correct value to localStorage after user actions (e.g., search).
+- Tests cover cases where localStorage is empty, contains a value, or is updated.
+- Tests ensure that localStorage integration does not break component behavior.
 
 **As a** developer
 **I want** to test all user interactions
@@ -168,6 +188,16 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ### Penalties
 
+- **Absence of required features from the previous task (`class-components`) results in a penalty equal to the original feature's points:**
+  - Application Layout Structure: **-5 points**
+  - Search Functionality with Local Storage: **-15 points**
+  - Search Results Display: **-10 points**
+  - Initial Data Load: **-10 points**
+  - Search Execution: **-20 points**
+  - Search Term Persistence: **-5 points**
+  - Loading State Indication: **-10 points**
+  - Error Handling: **-10 points**
+  - Application Error Boundary: **-15 points**
 - **1. TypeScript & Code Quality**
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
