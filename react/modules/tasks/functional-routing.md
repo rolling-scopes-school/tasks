@@ -15,27 +15,91 @@ Focus on routing and functional components. Remove any button or functionality w
 - Create custom hooks for shared logic
 - Add pagination with URL synchronization
 
-## Application Requirements
+## Functional Requirements (max **100 points**)
 
-1. **Pagination**:
-   - Add pagination for your item list (search results)
-   - Display current page in URL using query parameters (e.g., `?page=2`)
-   - Pagination should appear after receiving the list of items
+### Feature 1: Pagination (**30 points**)
 
-2. **Master-Detail View**:
-   - Main page displays search results
-   - On item click, split page into 2 sections:
-     - **Left**: Continue displaying search results
-     - **Right**: Display item details using React Router `<Outlet>`
-   - Show loading indicator while fetching details
-   - Add close control for details section
-   - The details part should be optional — by default, no item is selected when the page first loads
-   - Reflect page number and selected item in the URL (e.g., `/?page=2&details=1` or `/:page/:detailsId?`). Urls like `/1` or `/1/567` are valid.
+**As a** user
+**I want** to navigate through pages of search results
+**So that** I can view more items and keep my place in the app
 
-3. **About Page**:
-   - Create an About page with application author information
-   - Include a link to the RS School React course
-   - Add navigation to reach the About page from the main application
+**Scenario:** Paginated Results with URL Synchronization
+
+- **Given** I am viewing the item list
+- **When** I navigate to a different page using pagination controls
+- **Then** the current page is displayed in the URL as a query parameter (e.g., `?page=2`)
+- **And** the pagination controls reflect the current page
+- **And** pagination appears only after the list of items is loaded
+
+**Acceptance Criteria:**
+
+- Pagination controls are visible after items are loaded.
+- Changing the page updates the URL with the correct `page` parameter.
+- The visible page matches the page in the URL at all times.
+
+### Feature 2: Master-Detail View (**45 points**)
+
+**As a** user
+**I want** to view item details alongside the search results
+**So that** I can see more information without losing my place in the list
+
+**Scenario:** Split View with Details Panel
+
+- **Given** I am on the main page with search results
+- **When** I click an item
+- **Then** the page splits into two sections:
+  - The left section continues to show the search results
+  - The right section displays the item details using React Router `<Outlet>`
+- **And** a loading indicator is shown while details are being fetched
+- **And** there is a close control to hide the details section
+- **And** by default, no item is selected when the page first loads
+- **And** the URL reflects both the current page and the selected item (e.g., `/?page=2&details=1` or `/:page/:detailsId?`)
+
+**Acceptance Criteria:**
+
+- Clicking an item opens a details panel on the right, using `<Outlet>`.
+- The left side always shows the list of results.
+- A loading indicator is visible while details are loading.
+- The details panel can be closed via a close button or by clicking the main panel.
+- The URL always reflects the current page and selected item.
+- On initial load, no item is selected and the details panel is closed.
+
+### Feature 3: About Page (**15 points**)
+
+**As a** user
+**I want** to view information about the application and its author
+**So that** I can learn more about the app and its creators
+
+**Scenario:** About Page Navigation
+
+- **Given** I am using the application
+- **When** I navigate to the About page
+- **Then** I see author information and a link to the RS School React course
+- **And** there is a navigation link to the About page from the main app
+
+**Acceptance Criteria:**
+
+- The About page displays author information and a link to the RS School React course.
+- The About page is accessible via a navigation link from the main application.
+
+### Feature 4: 404 Page (**10 points**)
+
+**As a** user
+**I want** to see a clear 404 page when I visit a non-existing route
+**So that** I know the page does not exist and can navigate back to the app
+
+**Scenario:** Display 404 for Unknown Routes
+
+- **Given** I navigate to a non-existing route
+- **When** the route does not match any defined page
+- **Then** I see a 404 page with a message indicating the page was not found
+- **And** there is a way to return to the main application
+
+**Acceptance Criteria:**
+
+- A 404 page is displayed for all unknown or non-existing routes.
+- The 404 page contains a clear message that the page was not found.
+- The 404 page provides a navigation option (e.g., button or link) to return to the main app.
 
 ## Technical Requirements
 
@@ -47,12 +111,34 @@ Focus on routing and functional components. Remove any button or functionality w
    - Create custom hook for localStorage operations
 
 3. **Routing Setup**:
-   - Add **React Router** in SPA mode using either "Data" or "Declarative" approach ([pick one](https://reactrouter.com/start/modes#api--mode-availability-table))
-   - Add **404 page** for non-existing routes
 
-## Points
+- Add routing in SPA mode using either **React Router** (choose "Data" or "Declarative" approach, see [API & mode availability](https://reactrouter.com/start/modes#api--mode-availability-table)) **or [TanStack Router](https://tanstack.com/router/latest/docs/guide/installation)**.
+- Pick one router and follow its official documentation for setup and navigation.
 
-A student can achieve a maximum of 100 points.
+### Penalties
+
+- **1. TypeScript & Code Quality**
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+
+- **2. Test Coverage**
+  - Statement coverage below 80% (≥70%): **-10 points**
+  - Statement coverage below 70% (≥50%): **-30 points**
+  - All coverage metrics below 50%: **-50 points**
+
+- **3. React Best Practices**
+  - Direct DOM manipulations inside the React components: **-50 points per each**
+  - Usage of any class components (except Error Boundaries): **-50 points per each**
+
+- **4. External Dependencies**
+  - Usage of Redux or other state management libraries: **-100 points**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **5. Project Management**
+  - Commits after the deadline: **-40 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
 
 ## 📚 FAQ (Frequently Asked Questions)
 
@@ -104,27 +190,3 @@ However, merging into `main` is **not recommended**, as it may complicate the re
 - About page is implemented with author information and a link to the RS School React course - **5**
 - 404 is implemented - **5**
 - New tests are added for the new functionality - **15**
-
-### Penalties
-
-- **1. TypeScript & Code Quality**
-  - TypeScript isn't used: **-95 points**
-  - Usage of _any_: **-20 points per each**
-  - Usage of _ts-ignore_: **-20 points per each**
-  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-
-- **2. Test Coverage**
-  - Statement coverage below 80% (≥70%): **-10 points**
-  - Statement coverage below 70% (≥50%): **-30 points**
-  - All coverage metrics below 50%: **-50 points**
-
-- **3. React Best Practices**
-  - Direct DOM manipulations inside the React components: **-50 points per each**
-
-- **4. External Dependencies**
-  - Usage of Redux or other state management libraries: **-100 points**
-  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-
-- **5. Project Management**
-  - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
