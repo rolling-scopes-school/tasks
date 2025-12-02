@@ -21,7 +21,7 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **As a** user
 **I want** to navigate through pages of search results
-**So that** I can view more items and keep my place in the app
+**So that** I can view more items and keep track of the viewed items
 
 **Scenario:** Paginated Results with URL Synchronization
 
@@ -41,7 +41,7 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **As a** user
 **I want** to view item details alongside the search results
-**So that** I can see more information without losing my place in the list
+**So that** I can see more information without losing current position
 
 **Scenario:** Split View with Details Panel
 
