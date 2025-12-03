@@ -57,12 +57,12 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **Acceptance Criteria:**
 
-- Clicking an item opens a details panel on the right, using `<Outlet>`.
-- The left side always shows the list of results.
-- A loading indicator is visible while details are loading.
-- The details panel can be closed via a close button or by clicking the main panel.
-- The URL always reflects the current page and selected item.
-- On initial load, no item is selected and the details panel is closed.
+- Clicking an item opens a details panel on the right, using `<Outlet>`. [8 points]
+- The left side always shows the list of results. [8 points]
+- A loading indicator is visible while details are loading. [8 points]
+- The details panel can be closed via a close button or by clicking the main panel. [8 points]
+- The URL always reflects the current page and selected item. [8 points]
+- On initial load, no item is selected and the details panel is closed. [5 points]
 
 ### Feature 3: About Page (**15 points**)
 
