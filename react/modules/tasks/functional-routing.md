@@ -27,9 +27,10 @@ Focus on routing and functional components. Remove any button or functionality w
 
 - **Given** I am viewing the item list
 - **When** I navigate to a different page using pagination controls
-- **Then** the current page is displayed in the URL as a query parameter (e.g., `?page=2` or `/:page` )
+- **Then** the current page is displayed in the URL as a query parameter (e.g., `?page=2` or `/:page`)
 - **And** the pagination controls reflect the current page
 - **And** pagination appears only after the list of items is loaded
+- **And** when changing the input in the search bar, the page should reset to 1 and the URL should update accordingly
 
 **Acceptance Criteria:**
 
