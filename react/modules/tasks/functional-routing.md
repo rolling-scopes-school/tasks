@@ -33,9 +33,9 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **Acceptance Criteria:**
 
-- Pagination controls are visible after items are loaded.
-- Changing the page updates the URL with the correct `page` parameter.
-- The visible page matches the page in the URL at all times.
+- Pagination controls are visible after items are loaded. [10 points]
+- Changing the page updates the URL with the correct `page` parameter. [10 points]
+- The visible page matches the page in the URL at all times. [10 points]
 
 ### Feature 2: Master-Detail View (**45 points**)
 
