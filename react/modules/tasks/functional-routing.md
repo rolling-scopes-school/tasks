@@ -27,7 +27,7 @@ Focus on routing and functional components. Remove any button or functionality w
 
 - **Given** I am viewing the item list
 - **When** I navigate to a different page using pagination controls
-- **Then** the current page is displayed in the URL as a query parameter (e.g., `?page=2`)
+- **Then** the current page is displayed in the URL as a query parameter (e.g., `?page=2` or `/:page` )
 - **And** the pagination controls reflect the current page
 - **And** pagination appears only after the list of items is loaded
 
