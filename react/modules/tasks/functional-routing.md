@@ -79,8 +79,8 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **Acceptance Criteria:**
 
-- The About page displays author information and a link to the RS School React course.
-- The About page is accessible via a navigation link from the main application.
+- The About page displays author information and a link to the RS School React course. [8 points]
+- The About page is accessible via a navigation link from the main application. [7 points]
 
 ### Feature 4: 404 Page (**10 points**)
 
@@ -97,9 +97,9 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **Acceptance Criteria:**
 
-- A 404 page is displayed for all unknown or non-existing routes.
-- The 404 page contains a clear message that the page was not found.
-- The 404 page provides a navigation option (e.g., button or link) to return to the main app.
+- A 404 page is displayed for all unknown or non-existing routes. [3 points]
+- The 404 page contains a clear message that the page was not found. [3 points]
+- The 404 page provides a navigation option (e.g., button or link) to return to the main app. [4 points]
 
 ## Technical Requirements
 
@@ -178,15 +178,3 @@ You should pass the ID (or identifier) of the selected item from the search resu
 
 No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.  
 However, merging into `main` is **not recommended**, as it may complicate the review process for your mentor.
-
-### Cross-check (score can be less if some parts of the functionality don't work)
-
-- Custom hook to restore search query from LS - **20**
-- Pagination is present in both URL and on the page - **20**
-- Upon clicking, open details panel on the right side of the page: - **5**
-  - Use router outlet, left side of the page should continue displaying the list of results - **10**
-  - Initiate an additional API call, display a loader, and update the URL - **10**
-  - Details panel should be closed either on the "close" button click or on the main panel click - **10**
-- About page is implemented with author information and a link to the RS School React course - **5**
-- 404 is implemented - **5**
-- New tests are added for the new functionality - **15**
