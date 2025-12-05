@@ -6,7 +6,7 @@ In this task, you will refactor your class components to functional components w
 
 ## ⚠️ IMPORTANT NOTICE
 
-Focus on routing and functional components. Remove any button or functionality which throws exceptions unnecessarily.
+Focus on routing and functional components.
 
 ## 🎯 Task Goals
 
@@ -58,11 +58,11 @@ Focus on routing and functional components. Remove any button or functionality w
 
 **Acceptance Criteria:**
 
-- Clicking an item opens a details panel on the right, using `<Outlet>`. [8 points]
-- The left side always shows the list of results. [8 points]
-- A loading indicator is visible while details are loading. [8 points]
-- The details panel can be closed via a close button or by clicking the main panel. [8 points]
-- The URL always reflects the current page and selected item. [8 points]
+- Clicking an item opens a details panel on the right, using `<Outlet>`. [20 points]
+- The left side always shows the list of results. [5 points]
+- A loading indicator is visible while details are loading. [5 points]
+- The details panel can be closed via a close button or by clicking the main panel. [5 points]
+- The URL always reflects the current page and selected item. [5 points]
 - On initial load, no item is selected and the details panel is closed. [5 points]
 
 ### Feature 3: About Page (**15 points**)
@@ -131,7 +131,8 @@ Focus on routing and functional components. Remove any button or functionality w
 
 - **3. React Best Practices**
   - Direct DOM manipulations inside the React components: **-50 points per each**
-  - Usage of any class components (except Error Boundaries): **-50 points per each**
+  - Presence of class components (except Error Boundaries): **-50 points per each**
+  - Absence of a custom hook for accessing localStorage: **-20 points**
 
 - **4. External Dependencies**
   - Usage of Redux or other state management libraries: **-100 points**
