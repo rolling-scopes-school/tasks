@@ -1,26 +1,99 @@
 # State Management and Context API
 
-## Application Requirements
+## Functional Requirements (max **100 points**)
 
-1. State Management Solution:
-   - Students must choose between Redux (with Redux Toolkit) or Zustand as their state management solution.
-   - The following functionality must be implemented using the chosen state management solution:
+### Feature 1: State Management Solution (**35 points**)
 
-2. Selected Items Management:
-   - Each item on the dashboard should have a checkbox
-   - Information about selected items should be stored in the application state
-   - When user navigates to the next page, and then goes back, previously selected items should be shown (if there were any)
-   - When user unselects an item, it should be removed from the state
-3. Downloading Selected Items:
-   - When at least 1 item has been selected, the flyout element should appear at the bottom
-   - The flyout element should contain number of selected elements (e.g. "3 items are selected") and 2 buttons: "Unselect all" and "Download"
-   - When "Unselect all" button is clicked, all the selected items should be unselected and the flyout should be removed from the page
-   - When "Download" button is clicked, you should save the list of selected items (e.g. name, description, details url, any other useful information) to the .csv file, name should contain the number of selected items (e.g. if 15 items are selected, the name might be "15_items.csv")
+**As a** developer
+**I want** to use a modern state management solution
+**So that** my application state is predictable and scalable
 
-4. Custom Theme (Context API):
-   - Add button/radio buttons/dropdown on top of the application for theme selection
-   - User should have an option to select one of the 2 themes (e.g. light or dark)
-   - Selected theme should affect the appearance of the whole application
+**Scenario:** State Store Setup
+
+- **Given** I am starting the application
+- **When** I choose a state management solution (Redux Toolkit or Zustand)
+- **Then** the application is set up to use the chosen solution for managing state
+
+**Acceptance Criteria:**
+
+- Redux Toolkit or Zustand is integrated into the application. [15 points]
+- State store is properly configured and used for managing application state. [10 points]
+- Selected items and their state are stored in the state store. [10 points]
+
+### Feature 2: Selected Items Management (**25 points**)
+
+**As a** user
+**I want** to select items on the dashboard and have my selections persist across navigation
+**So that** I can manage and review selected items easily
+
+**Scenario:** Item Selection Persistence
+
+- **Given** I am viewing items on the dashboard
+- **When** I select or unselect items using checkboxes
+- **Then** my selections are stored in the application state
+- **And** when I navigate between pages, my selections persist
+
+**Acceptance Criteria:**
+
+- Each item has a checkbox for selection. [10 points]
+- Selected items are stored in the state and persist across page navigation. [10 points]
+- Unselecting an item removes it from the state. [5 points]
+
+### Feature 3: Flyout Component for Selected Items (**15 points**)
+
+**As a** user
+**I want** to see a summary of my selected items and have quick actions available
+**So that** I can manage selections and download them easily
+
+**Scenario:** Flyout Actions
+
+- **Given** I have selected at least one item
+- **When** the flyout appears at the bottom of the page
+- **Then** it displays the number of selected items
+- **And** provides "Unselect all" and "Download" buttons
+
+**Acceptance Criteria:**
+
+- Flyout appears when at least one item is selected. [5 points]
+- Flyout displays the number of selected items. [5 points]
+- "Unselect all" and "Download" buttons work as described. [5 points]
+
+### Feature 4: Downloading Selected Items as CSV (**10 points**)
+
+**As a** user
+**I want** to download my selected items as a CSV file
+**So that** I can save and use the data externally
+
+**Scenario:** CSV Download
+
+- **Given** I have selected items
+- **When** I click the "Download" button in the flyout
+- **Then** a CSV file is generated containing the selected items' details
+- **And** the file name reflects the number of selected items (e.g., "15_items.csv")
+
+**Acceptance Criteria:**
+
+- Download functionality uses native browser APIs (Blob, URL.createObjectURL, a.download). [5 points]
+- CSV file contains name, description, details URL, and other useful info. [3 points]
+- File name includes the number of selected items. [2 points]
+
+### Feature 5: Theme Selection with Context API (**15 points**)
+
+**As a** user
+**I want** to switch between light and dark themes
+**So that** I can personalize the application's appearance
+
+**Scenario:** Theme Switching
+
+- **Given** I am using the application
+- **When** I select a theme using a button, radio, or dropdown
+- **Then** the application's appearance updates to the selected theme
+
+**Acceptance Criteria:**
+
+- Theme selection is implemented using Context API. [8 points]
+- Theme affects the appearance of the whole application. [5 points]
+- Theme selection control is available at the top of the app. [2 points]
 
 ## Technical Requirements
 
@@ -43,9 +116,31 @@
    - Update your tests to accommodate the changes introduced by the chosen state management solution
    - Test the functionality related to state management
 
-## Points
+### Penalties
 
-A student can achieve a maximum of 100 points.
+- **1. TypeScript & Code Quality**
+  - All source files must use `.ts` or `.tsx` extensions. Using `.js` or `.jsx` files: **-20 points per file**
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+  - ESLint or similar static analysis violations (errors, not warnings): **-5 points per violation**
+
+- **2. Test Coverage**
+  - Statement coverage below 80% (≥70%): **-10 points**
+  - Statement coverage below 70% (≥50%): **-30 points**
+  - All coverage metrics below 50%: **-50 points**
+
+- **3. React Best Practices**
+  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
+  - Direct mutation of state in Redux or Zustand stores: **-20 points per occurrence**
+
+- **4. External Dependencies**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **5. Project Management**
+  - Commits after the deadline: **-40 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
 
 ## FAQ (Frequently Asked Questions)
 
@@ -74,26 +169,3 @@ You must implement the download functionality using **native browser APIs** (e.g
 - Flyout component is showed/hidden based on the presence of selected items, displays the number of selected items - **15**
 - "Unselect all" button and "Download" button work according to the requirements - **10**
 - User can switch the theme of the application using Context API - **15**
-
-### Penalties
-
-- **1. TypeScript & Code Quality**
-  - TypeScript isn't used: **-95 points**
-  - Usage of _any_: **-20 points per each**
-  - Usage of _ts-ignore_: **-20 points per each**
-  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-
-- **2. Test Coverage**
-  - Statement coverage below 80% (≥70%): **-10 points**
-  - Statement coverage below 70% (≥50%): **-30 points**
-  - All coverage metrics below 50%: **-50 points**
-
-- **3. React Best Practices**
-  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
-
-- **4. External Dependencies**
-  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-
-- **5. Project Management**
-  - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
