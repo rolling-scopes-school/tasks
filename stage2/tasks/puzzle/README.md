@@ -67,12 +67,12 @@
 ### Cross-Check
 
 - **Deployment**: Submit the link to the deployed application.
-- **Platform**: Submit on RS App, [Cross-Check Submit](https://app.rs.school/course/student/cross-check-submit?course=js-fe-2023Q4).
+- **Platform**: Submit on RS App, [Cross-Check Submit](https://app.rs.school/course/student/cross-check-submit?course=js-fe-2025Q3).
 
 ### Mentor Review
 
 - **Pull Request**: Submit the link to the pull request with detailed description and self-assessment.
-- **Platform**: Submit for mentor review on the student dashboard in RS App, [Student Dashboard](https://app.rs.school/course/student/dashboard?course=js-fe-2023Q4).
+- **Platform**: Submit for mentor review on the student dashboard in RS App, [Student Dashboard](https://app.rs.school/course/student/dashboard?course=js-fe-2025Q3).
 
 ## Evaluation Criteria: 📋
 
