@@ -5,8 +5,8 @@
 ### Feature 1: State Management Solution (**35 points**)
 
 **As a** developer
-**I want** to use a modern state management solution
-**So that** my application state is predictable and scalable
+**I want** to use a modern state management solution  
+**So that** my application state is predictable and scalable, users can personalize the application's appearance with light and dark themes, and the application's reliability and maintainability are ensured through at least 80% unit test coverage
 
 **Scenario:** State Store Setup
 
@@ -132,7 +132,7 @@
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
-  - Direct DOM manipulations inside the React components (except toggling theme-related classes/attributes on document.documentElement within a useEffect hook): **-50 points per each**
+  - Direct DOM manipulations inside React components (except toggling theme-related classes/attributes on `document.documentElement` within a `useEffect` hook, and creating a temporary link to download CSV file): **-50 points per each**
   - Direct mutation of state in Redux or Zustand stores: **-20 points per occurrence**
 
 - **4. External Dependencies**
