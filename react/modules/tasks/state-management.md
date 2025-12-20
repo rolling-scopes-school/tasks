@@ -23,8 +23,13 @@
 ### Feature 2: Selected Items Management (**25 points**)
 
 **As a** user
-**I want** to select items on the dashboard and have my selections persist across navigation
-**So that** I can manage and review selected items easily
+**I want** to select items on the dashboard and have my selections persist across navigation  
+**So that** I can manage and review selected items easily  
+**And** extend the clicking functionality as follows, while preserving the existing behavior:
+
+- Clicking the checkbox should only select or unselect the item, without opening the details panel.
+- Clicking anywhere else on the item (outside the checkbox) should open the details panel, without affecting the selection state.
+- Both actions should work independently and not interfere with each other.
 
 **Scenario:** Item Selection Persistence
 
@@ -35,8 +40,8 @@
 
 **Acceptance Criteria:**
 
-- Each item has a checkbox for selection. [10 points]
-- Selected items are stored in the state and persist across page navigation. [10 points]
+- Each item has a checkbox for selection. [15 points]
+- Selected items are stored in the state and persist across page navigation. [5 points]
 - Unselecting an item removes it from the state. [5 points]
 
 ### Feature 3: Flyout Component for Selected Items (**15 points**)
@@ -113,8 +118,8 @@
    - Add context to control the application theme (light or dark)
 
 4. Test Updates:
-   - Update your tests to accommodate the changes introduced by the chosen state management solution
-   - Test the functionality related to state management
+   - Update your tests to accommodate the changes introduced by the chosen state management solution and context API
+   - Test the functionality related to state management and theme switching
 
 ### Penalties
 
