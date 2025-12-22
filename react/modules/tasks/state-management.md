@@ -5,8 +5,9 @@
 ### Feature 1: State Management Solution (**35 points**)
 
 **As a** developer
-**I want** to use a modern state management solution  
-**So that** my application state is predictable and scalable, users can personalize the application's appearance with light and dark themes, and the application's reliability and maintainability are ensured through at least 80% unit test coverage
+**I want** to use a modern state management solution (such as Redux Toolkit or Zustand) for managing application state,  
+**And** use Context API specifically for theme personalization  
+**So that** application state is predictable and scalable, and the application's reliability and maintainability are ensured through at least 80% unit test coverage. Theme personalization must be implemented using Context API (see Feature 5), as it is not part of the state management solution.
 
 **Scenario:** State Store Setup
 
@@ -16,9 +17,8 @@
 
 **Acceptance Criteria:**
 
-- Redux Toolkit or Zustand is integrated into the application. [15 points]
-- State store is properly configured and used for managing application state. [10 points]
-- Selected items and their state are stored in the state store. [10 points]
+- Redux Toolkit or Zustand is integrated into the application. [20 points]
+- State store is properly configured and used for managing application state. [15 points]
 
 ### Feature 2: Selected Items Management (**25 points**)
 
@@ -53,15 +53,17 @@
 **Scenario:** Flyout Actions
 
 - **Given** I have selected at least one item
-- **When** the flyout appears at the bottom of the page
-- **Then** it displays the number of selected items
+- **When** the flyout appears
+- **Then** it is always visible, stuck to the bottom of the page with a sticky position
+- **And** it displays the number of selected items
 - **And** provides "Unselect all" and "Download" buttons
 
 **Acceptance Criteria:**
 
-- Flyout appears when at least one item is selected. [5 points]
-- Flyout displays the number of selected items. [5 points]
-- "Unselect all" and "Download" buttons work as described. [5 points]
+- Flyout appears with a sticky position at the bottom of the page when at least one item is selected. [5 points]
+- Flyout is always visible and does not scroll out of view. [5 points]
+- Flyout displays the number of selected items. [2 points]
+- "Unselect all" and "Download" buttons work as described. [3 points]
 
 ### Feature 4: Downloading Selected Items as CSV (**10 points**)
 
