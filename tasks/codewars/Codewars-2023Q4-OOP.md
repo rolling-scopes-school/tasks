@@ -3,7 +3,7 @@
 **When solving the problems, please try to use ES6 classes whenever possible.**
 
 - 7 kyu <https://www.codewars.com/kata/santaclausable-interface>
-- 7 kyu <https://www.codewars.com/kata/javascript-class-like-objects>
+- 7 kyu <https://www.codewars.com/kata/simple-class>
 - 7 kyu <https://www.codewars.com/kata/make-class>
 - 7 kyu <https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance>
 - 7 kyu <https://www.codewars.com/kata/fun-with-es6-classes-number-4-cubes-and-setters>
