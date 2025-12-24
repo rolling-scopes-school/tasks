@@ -2,25 +2,109 @@
 
 This task is a continuation of the state management task. In this task, you will implement proper data fetching and caching mechanisms using modern querying libraries.
 
-## Application Requirements
+## Functional Requirements (max **100 points**)
 
-1. API Integration:
-   - Based on your state management choice from the previous task, implement one of the following:
-     - For Redux users: Implement RTK Query for making API calls
-     - For Zustand users: Implement TanStack Query (formerly React Query) for data fetching
+### Feature 1: API Integration (**25 points**)
 
-2. Required Query Features:
-   - Cache the results of API calls
-   - Display loading states while data is being fetched
-   - Handle error states appropriately
-   - Implement proper data invalidation and refetching strategies
-   - Add a manual cache invalidation control (e.g., a refresh button) that forces a new API call instead of using cached data
-   - All previous API calls from your application should be converted to use the chosen query solution
+**As a** developer
+**I want** to use a modern query library for API calls
+**So that** my data fetching is efficient and maintainable
 
-3. Specific Requirements:
-   - Data loading states should be visible to users (loading indicators)
-   - Error states should be properly handled and displayed to users
-   - The cached data should persist between page navigations
+**Scenario:** Query Library Setup
+
+- **Given** I have chosen a state management solution (Redux or Zustand)
+- **When** I set up API querying
+- **Then** I use RTK Query (for Redux) or TanStack Query (for Zustand) for all API calls
+
+**Acceptance Criteria:**
+
+- RTK Query or TanStack Query is integrated and configured. [10 points]
+- All API calls are made using the chosen query library. [10 points]
+- Proper cache invalidation strategies are implemented. [5 points]
+
+### Feature 2: Data Caching and Loading States (**25 points**)
+
+**As a** user
+**I want** data to be cached and see loading indicators
+**So that** navigation is fast and I know when data is loading
+
+**Scenario:** Data Caching and Loading
+
+- **Given** I navigate between pages or open item details
+- **When** data is being fetched
+- **Then** a loading indicator is displayed
+- **And** previously fetched data is cached and reused when possible
+
+**Acceptance Criteria:**
+
+- Loading indicators are shown while data is being fetched. [13 points]
+- Data is cached and reused between navigations. [12 points]
+
+### Feature 3: Error Handling (**10 points**)
+
+**As a** user
+**I want** to see clear error messages when API calls fail
+**So that** I understand what went wrong
+
+**Scenario:** Error State Display
+
+- **Given** an API call fails
+- **When** I am using the app
+- **Then** a clear, human-readable error message is displayed
+
+**Acceptance Criteria:**
+
+- Error states are handled and displayed to users. [10 points]
+
+### Feature 4: Manual Cache Invalidation (**10 points**)
+
+**As a** user
+**I want** to manually refresh data
+**So that** I can ensure I have the latest information
+
+**Scenario:** Manual Refresh
+
+- **Given** I am viewing a list or details
+- **When** I click a refresh button
+- **Then** the cache is invalidated and a new API call is made
+
+**Acceptance Criteria:**
+
+- Manual cache invalidation control (refresh button) works as expected. [10 points]
+
+### Feature 5: Query Conversion and Data Management (**20 points**)
+
+**As a** developer
+**I want** all previous API calls to use the new query solution
+**So that** the codebase is consistent and maintainable
+
+**Scenario:** Query Refactoring
+
+- **Given** the application previously used other methods for API calls
+- **When** I refactor the code
+- **Then** all API calls use RTK Query or TanStack Query
+- **And** items for the current page and selected item details are properly cached
+
+**Acceptance Criteria:**
+
+- All previous API calls are converted to use the query library. [10 points]
+- Items for the current page and selected item details are cached. [10 points]
+
+### Feature 6: Test Coverage for Querying (**10 points**)
+
+**As a** developer
+**I want** to have tests for querying features
+**So that** I can ensure reliability and catch regressions
+
+**Scenario:** Query Feature Tests
+
+- **Given** I have implemented querying features
+- **When** I run tests
+- **Then** loading states, error states, and caching behavior are covered
+
+**Acceptance Criteria:**
+
+- Tests cover loading, error, and caching behavior for queries. [10 points]
 
 ## Technical Requirements
 
@@ -46,9 +130,31 @@ This task is a continuation of the state management task. In this task, you will
    - Update your tests to cover the new querying functionality
    - Test loading states, error states, and caching behavior
 
-## Points
+### Penalties
 
-A student can achieve a maximum of 100 points.
+- **1. TypeScript & Code Quality**
+  - TypeScript isn't used: **-95 points**
+  - Usage of _any_: **-20 points per each**
+  - Usage of _ts-ignore_: **-20 points per each**
+  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
+
+- **2. Test Coverage**
+  - Statement coverage below 80% (≥70%): **-10 points**
+  - Statement coverage below 70% (≥50%): **-30 points**
+  - All coverage metrics below 50%: **-50 points**
+
+- **3. React Best Practices**
+  - Direct DOM manipulations inside the React components: **-50 points per each**
+
+- **4. External Dependencies**
+  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
+
+- **5. Project Management**
+  - Commits after the deadline: **-40 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+
+- **6. API Call Migration**
+  - Each API call not migrated or not implemented using the chosen query library: **-10 points per each**
 
 ## FAQ (Frequently Asked Questions)
 
@@ -111,26 +217,3 @@ Yes. They are not considered UI libraries and will not result in penalties.
 - Error states are properly handled and displayed - **10**
 - Cache invalidation and refetching work correctly - **20**
 - Manual cache invalidation control works as expected - **10**
-
-### Penalties
-
-- **1. TypeScript & Code Quality**
-  - TypeScript isn't used: **-95 points**
-  - Usage of _any_: **-20 points per each**
-  - Usage of _ts-ignore_: **-20 points per each**
-  - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
-
-- **2. Test Coverage**
-  - Statement coverage below 80% (≥70%): **-10 points**
-  - Statement coverage below 70% (≥50%): **-30 points**
-  - All coverage metrics below 50%: **-50 points**
-
-- **3. React Best Practices**
-  - Direct DOM manipulations inside the React components: **-50 points per each**
-
-- **4. External Dependencies**
-  - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
-
-- **5. Project Management**
-  - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
