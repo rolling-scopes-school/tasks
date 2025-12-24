@@ -40,7 +40,7 @@ This task is a continuation of the state management task. In this task, you will
 - Loading indicators are shown while data is being fetched. [13 points]
 - Data is cached and reused between navigations. [12 points]
 
-### Feature 3: Error Handling (**10 points**)
+### Feature 3: Error Handling (**20 points**)
 
 **As a** user
 **I want** to see clear error messages when API calls fail
@@ -54,7 +54,7 @@ This task is a continuation of the state management task. In this task, you will
 
 **Acceptance Criteria:**
 
-- Error states are handled and displayed to users. [10 points]
+- Error states are handled and displayed to users. [20 points]
 
 ### Feature 4: Manual Cache Invalidation (**10 points**)
 
@@ -72,25 +72,7 @@ This task is a continuation of the state management task. In this task, you will
 
 - Manual cache invalidation control (refresh button) works as expected. [10 points]
 
-### Feature 5: Query Conversion and Data Management (**20 points**)
-
-**As a** developer
-**I want** all previous API calls to use the new query solution
-**So that** the codebase is consistent and maintainable
-
-**Scenario:** Query Refactoring
-
-- **Given** the application previously used other methods for API calls
-- **When** I refactor the code
-- **Then** all API calls use RTK Query or TanStack Query
-- **And** items for the current page and selected item details are properly cached
-
-**Acceptance Criteria:**
-
-- All previous API calls are converted to use the query library. [10 points]
-- Items for the current page and selected item details are cached. [10 points]
-
-### Feature 6: Test Coverage for Querying (**10 points**)
+### Feature 5: Test Coverage for Querying (**20 points**)
 
 **As a** developer
 **I want** to have tests for querying features
@@ -104,7 +86,7 @@ This task is a continuation of the state management task. In this task, you will
 
 **Acceptance Criteria:**
 
-- Tests cover loading, error, and caching behavior for queries. [10 points]
+- Tests cover loading, error, and caching behavior for queries. [20 points]
 
 ## Technical Requirements
 
