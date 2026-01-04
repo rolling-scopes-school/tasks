@@ -6,8 +6,8 @@ This task is a continuation of the state management task. In this task, you will
 
 ### Feature 1: API Integration (**25 points**)
 
-**As a** developer
-**I want** to use a modern query library for API calls
+**As a** developer  
+**I want** to use a modern query library for API calls  
 **So that** my data fetching is efficient and maintainable
 
 **Scenario:** Query Library Setup
@@ -19,8 +19,9 @@ This task is a continuation of the state management task. In this task, you will
 **Acceptance Criteria:**
 
 - RTK Query or TanStack Query is integrated and configured. [10 points]
-- All API calls are made using the chosen query library. [10 points]
+- All API calls are made using the chosen query library. [5 points]
 - Proper cache invalidation strategies are implemented. [5 points]
+- The cache TTL (time-to-live) is configurable via an environment variable. [5 points]
 
 ### Feature 2: Data Caching and Loading States (**25 points**)
 
@@ -58,8 +59,8 @@ This task is a continuation of the state management task. In this task, you will
 
 ### Feature 4: Manual Cache Invalidation (**10 points**)
 
-**As a** user
-**I want** to manually refresh data
+**As a** user  
+**I want** to manually refresh data  
 **So that** I can ensure I have the latest information
 
 **Scenario:** Manual Refresh
@@ -70,7 +71,7 @@ This task is a continuation of the state management task. In this task, you will
 
 **Acceptance Criteria:**
 
-- Manual cache invalidation control (refresh button) works as expected. [10 points]
+- A new, custom refresh button is included, clicking what, it explicitly invalidates the cache for the relevant data. [10 points]
 
 ### Feature 5: Test Coverage for Querying (**20 points**)
 
