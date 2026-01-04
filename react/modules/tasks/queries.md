@@ -71,7 +71,7 @@ This task is a continuation of the state management task. In this task, you will
 
 **Acceptance Criteria:**
 
-- A new, custom refresh button is included, clicking what, it explicitly invalidates the cache for the relevant data. [10 points]
+- A custom refresh button is implemented. When clicked, it explicitly invalidates the cache for the relevant data and triggers a refetch. [10 points]
 
 ### Feature 5: Test Coverage for Querying (**20 points**)
 
