@@ -68,7 +68,6 @@
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
-
 ### Неделя #8
 
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
