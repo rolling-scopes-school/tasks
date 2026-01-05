@@ -24,6 +24,7 @@
 
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
+- Лекция по AI Assisted Development.
 - Проект ["CV"](../tasks/cv/cv.md).
   - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
   - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
@@ -36,46 +37,44 @@
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 - Проект ["CV"](../tasks/cv/cv.md).
   - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
-- Проект ["Museum"](../tasks/museum/museum.md)
-  - ["Museum#1. Фиксированная вёрстка"](../tasks/museum/museum-fixed.md)
+- Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
+  - ["Christmas Shop#1. Фиксированная вёрстка"](../tasks/christmas-shop/christmas-shop-part1.md)
 
 ### Неделя #4
 
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#1"](../tasks/museum/museum-fixed.md)
-- Проект ["Museum"](../tasks/museum/museum.md)
-  - ["Museum#2. Адаптивная вёрстка"](../tasks/museum/museum-adaptive.md)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#1"](../tasks/christmas-shop/christmas-shop-part1.md)
+- Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
+  - ["Christmas Shop#2. Адаптивная вёрстка"](../tasks/christmas-shop/christmas-shop-part2.md)
 
 ### Неделя #5
 
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#2"](../tasks/museum/museum-adaptive.md)
-- Проект ["Museum"](../tasks/museum/museum.md)
-  - ["Museum#3. Добавление функционала"](../tasks/museum/museum-dom.md)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#2"](../tasks/christmas-shop/christmas-shop-part2.md)
+- Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
+  - ["Christmas Shop#3. Добавление функционала"](../tasks/christmas-shop/christmas-shop-part3.md)
 
 ### Неделя #6
 
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#3"](../tasks/christmas-shop/christmas-shop-part3.md)
 - [JS-101](https://github.com/rolling-scopes-school/core-js-101-stage0/)
+- [Dashboard Project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Неделя #7
 
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Museum#3"](../tasks/museum/museum-dom.md)
-- [Not a Fight Club](../tasks/notFightClub/)
+- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
+- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+
 
 ### Неделя #8
 
-- [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures-part-1/)
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
-- [Модуль "Codewars Часть#3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Dashboard Project"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Неделя #9
-
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта [Not a Fight Club](../tasks/notFightClub/)
-
-### Неделя #10
 
 - Сдача хвостов
 
