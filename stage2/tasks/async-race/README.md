@@ -72,7 +72,6 @@ What are you waiting for? Let's start coding!
 - [Demo Video](https://youtu.be/sTXtlBLh-Ts)
 - [Color Palette Tool](https://www.colorspire.com/rgb-color-wheel/)
 - [SPA Wikipedia](https://en.wikipedia.org/wiki/Single-page_application)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## 🔄 Evaluation
 
