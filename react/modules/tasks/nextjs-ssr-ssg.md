@@ -10,21 +10,21 @@
 
 ## Functional Requirements (max **100 points**)
 
-### Feature 1: Application Continuity (**10 points**)
+### Feature 1: Application Continuity after Migration to Next.js (**10 points**)
 
 **As a** developer
-**I want** the application to function according to previous modules' requirements
+**I want** the application to be migrated to Next.js App Router while still functioning according to previous modules' requirements
 **So that** existing features are preserved unless new requirements override them
 
-**Scenario:** Backward Compatibility
+**Scenario:** Migration with Backward Compatibility
 
-- **Given** the application is migrated to Next.js (except the standalone forms module, e.g., Formik/React Hook Form integration)
+- **Given** the application is migrated to Next.js App Router (except the standalone forms module, e.g., Formik/React Hook Form integration)
 - **When** previous requirements do not contradict new ones
-- **Then** all previous features and behaviors are preserved
+- **Then** all previous features and behaviors are preserved and work correctly using Next.js file-based routing and rendering
 
 **Acceptance Criteria:**
 
-- Application continues to meet all non-conflicting requirements from previous modules. [10 points]
+- Application is migrated to Next.js using the App Router and file-based routing while it still continues to meet all non-conflicting requirements from previous modules. [10 points]
 
 ### Feature 2: Internationalization (**10 points**)
 
