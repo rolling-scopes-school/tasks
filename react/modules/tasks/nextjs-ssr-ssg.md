@@ -10,15 +10,15 @@
 
 ## Functional Requirements (max **100 points**)
 
-### Feature 1: Application Continuity and SSR Foundation (**10 points**)
+### Feature 1: Application Continuity (**10 points**)
 
 **As a** developer
-**I want** the application to function according to previous modules' requirements, but leverage Next.js features
-**So that** existing features are preserved
+**I want** the application to function according to previous modules' requirements
+**So that** existing features are preserved unless new requirements override them
 
 **Scenario:** Backward Compatibility
 
-- **Given** the application is migrated to Next.js
+- **Given** the application is migrated to Next.js (except the standalone forms module, e.g., Formik/React Hook Form integration)
 - **When** previous requirements do not contradict new ones
 - **Then** all previous features and behaviors are preserved
 
