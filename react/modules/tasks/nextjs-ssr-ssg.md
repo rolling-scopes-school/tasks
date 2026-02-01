@@ -10,11 +10,11 @@
 
 ## Functional Requirements (max **100 points**)
 
-### Feature 1: Application Continuity (**10 points**)
+### Feature 1: Application Continuity and SSR Foundation (**10 points**)
 
 **As a** developer
-**I want** the application to function according to previous modules' requirements
-**So that** existing features are preserved unless new requirements override them
+**I want** the application to function according to previous modules' requirements, but leverage Next.js features
+**So that** existing features are preserved
 
 **Scenario:** Backward Compatibility
 
@@ -103,65 +103,70 @@
 
 - All links use next-intl createNavigation. [10 points]
 
-### Feature 7: Server-Side Static Requests (**20 points**)
+### Feature 7: About Page as a Statically Generated Server Component (**10 points**)
 
 **As a** user
-**I want** static data to be fetched on the server
-**So that** initial page loads are fast and SEO-friendly
+**I want** the About page to be statically generated as a server component
+**So that** I get fast, SEO-friendly static content without extra client logic or runtime data fetching
 
-**Scenario:** Server Data Fetching
+**Scenario:** About Page Server Rendering
 
-- **Given** a page requires static data
-- **Then** the data is fetched on the server using Next.js server components
+- **Given** I navigate to the About page
+- **Then** the About page content is produced entirely by a statically generated server component
 
 **Acceptance Criteria:**
 
-- All static requests are performed on the server. [20 points]
+- About page content is implemented as a server component only (no client components required for core content). [5 points]
+- The About page is implemented as a statically generated server component (SSG); no client-side data fetching is used. [5 points]
 
-### Feature 8: Server-Side CSV Generation (**15 points**)
+### Feature 8: Server-Side CSV Generation with Server Actions (**15 points**)
 
 **As a** user
 **I want** CSV files to be generated on the server
 **So that** downloads are fast and secure
 
-**Scenario:** Server CSV Compilation
+**Scenario:** Server CSV Compilation with Server Actions
 
 - **Given** I request a CSV export
-- **Then** the CSV file is compiled and served from the server using a server action or route handler
+- **Then** the CSV file is compiled and served from the server using a Next.js server action or route handler (e.g., via useActionState)
 
 **Acceptance Criteria:**
 
-- CSV file is generated and served from the server. [15 points]
+- CSV file is generated and served from the server using server actions or route handlers. [15 points]
 
-### Feature 9: Server Component Rendering (**10 points**)
-
-**As a** developer
-**I want** to move as much rendering as possible to the server (static markup, state, components etc.)
-**So that** the app is performant and leverages Next.js features
-
-**Scenario:** Server-Side Rendering
-
-- **Given** a component does not require state or hooks
-- **Then** it is rendered as a server component
-
-**Acceptance Criteria:**
-
-- Stateless/static components are rendered on the server where possible. [10 points]
-
-### Feature 10: First Page Server Load (**5 points**)
+### Feature 9: Search Results Page with Server Components and Initial SSR (**15 points**)
 
 **As a** user
-**I want** the first page to load from the server
-**So that** I get content quickly on initial visit
+**I want** the search results page (list + details panel shell) to be rendered on the server using server components
+**So that** I see initial data quickly and benefit from SEO-friendly markup
 
-**Scenario:** Initial Server Load
+**Scenario:** Search Results Page Server Rendering
 
-- **Given** I visit the application for the first time
-- **Then** the first page is rendered and served from the server
+- **Given** I navigate to the main search results page (with current page and optional query parameters)
+- **Then** the list of results and layout (including the empty details panel area) are rendered on the server using server components
 
 **Acceptance Criteria:**
 
-- First page is loaded from the server. [5 points]
+- Initial load of the search results page (with current page and query parameters) is rendered on the server. [8 points]
+- The search results list and layout (including the container for the details panel) are implemented using server components. [7 points]
+
+### Feature 10: Server Actions for Search, Filtering, and Detail Selection (**10 points**)
+
+**As a** user
+**I want** my interactions on the search results page (search, filter, select item) to be handled on the server
+**So that** I always see up-to-date data with minimal client-side logic
+
+**Scenario:** Server-Driven Interactions on Search Page
+
+- **Given** I am on the search results page
+- **When** I submit a search or filter form
+- **Then** a Next.js server action (e.g., using `useActionState` or form actions) handles the request and returns updated server-rendered results
+- **And** when I select an item, the server-driven details panel component receives the selected ID and fetches data on the server
+
+**Acceptance Criteria:**
+
+- Search and filter submissions are wired through server actions or server functions, not ad-hoc client-only fetch calls. [5 points]
+- Selecting an item for the details panel triggers server-side data fetching for that item (via server component or server function). [5 points]
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
