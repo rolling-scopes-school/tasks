@@ -22,8 +22,10 @@ In this task, you will implement form handling using two different approaches: u
 
 **Acceptance Criteria:**
 
-- A universal, reusable modal component is created using React Portal. [10 points]
-- Modal is accessible with proper focus management, ESC key support, and click-outside-to-close functionality. [5 points]
+- A universal, reusable modal component is created using React Portal. [6 points]
+- Modal is accessible with proper focus management. [3 points]
+- ESC key support implemented. [3 points]
+- Click-outside-to-close functionality has been implemented. [3 points]
 
 ### Feature 2: State Management (**15 points**)
 
@@ -42,8 +44,9 @@ In this task, you will implement form handling using two different approaches: u
 **Acceptance Criteria:**
 
 - Redux Toolkit or Zustand is set up and configured. [5 points]
-- Form data from both forms is stored in the state management library. [5 points]
-- All submissions are displayed on the main page. [5 points]
+- Form data from Uncontrolled form is stored in the state management library. [3 points]
+- Form data from React Hook Form is stored in the state management library. [3 points]
+- All submissions are displayed on the main page. [4 points]
 
 ### Feature 3: Basic Form Fields (**15 points**)
 
@@ -60,7 +63,8 @@ In this task, you will implement form handling using two different approaches: u
 
 **Acceptance Criteria:**
 
-- Name, age, email, gender picker, and Terms & Conditions checkbox are implemented for both forms. [10 points]
+- Name, age, email, gender picker, and Terms & Conditions checkbox are implemented for Uncontrolled form. [5 points]
+- Name, age, email, gender picker, and Terms & Conditions checkbox are implemented for React Hook Form. [5 points]
 - All fields collect data correctly. [3 points]
 - Labels are properly connected to inputs using `htmlFor`. [2 points]
 
@@ -80,12 +84,15 @@ In this task, you will implement form handling using two different approaches: u
 
 **Acceptance Criteria:**
 
-- Image upload input is implemented for both forms with validation (type: png/jpeg, size validation). [8 points]
+- Image upload input is implemented for Uncontrolled form with validation (type: png/jpeg, size validation). [3 points]
+- Image upload input is implemented for React Hook Form with validation (type: png/jpeg, size validation). [3 points]
 - Image is converted to base64 and saved in the store. [4 points]
 - Image is displayed on the main page after form submission. [3 points]
-- Password fields (password and confirm password) are implemented for both forms. [5 points]
-- Password strength indicator is displayed (shows: 1 number, 1 uppercase, 1 lowercase, 1 special character). [3 points]
-- Country autocomplete is implemented for both forms with countries stored in the state management library. [2 points]
+- Password fields (password and confirm password) are implemented for Uncontrolled form. [2 points]
+- Password fields (password and confirm password) are implemented for React Hook Form. [2 points]
+- Password strength indicator is displayed (shows: 1 number, 1 uppercase, 1 lowercase, 1 special character). [4 points]
+- Country autocomplete is implemented for Uncontrolled form with countries stored in the state management library. [2 points]
+- Country autocomplete is implemented for React Hook Form with countries stored in the state management library. [2 points]
 
 ### Feature 5: Form Validation (**15 points**)
 
@@ -113,10 +120,11 @@ In this task, you will implement form handling using two different approaches: u
 
 **Acceptance Criteria:**
 
-- Validation schema is implemented using Yup or Zod for both forms. [5 points]
-- Error messages are displayed consistently (above or below fields) without layout shifts. [5 points]
+- Validation schema is implemented using Yup or Zod for Uncontrolled form. [3 points]
+- Validation schema is implemented using Yup or Zod for React Hook Form. [3 points]
+- Error messages are displayed consistently (above or below fields) without layout shifts. [3 points]
 - React Hook Form submit button is disabled when there are validation errors (live validation). [3 points]
-- Uncontrolled form validates only on submit (submit button does not need to be disabled). [2 points]
+- Uncontrolled form validates only on submit (submit button does not need to be disabled). [3 points]
 
 ### Feature 6: Form Submission and Display (**10 points**)
 
@@ -301,3 +309,7 @@ Show an indicator via form/input onChange, or show a summary after submit errors
 ### ❓ Can I implement password strength as text instead of a progress bar?
 
 Yes. Any clear indicator is acceptable.
+
+### ❓ How should focus management be handled in forms (e.g., using Tab to iterate over inputs)?
+
+Ensure that all interactive form elements (inputs, selects, buttons) are reachable and navigable using the Tab key. The tab order should follow the logical sequence of the form fields. Avoid removing elements from the tab order (e.g., via tabIndex={-1}) unless necessary for accessibility. This allows users to efficiently navigate and interact with the form using only the keyboard.

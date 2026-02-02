@@ -18,15 +18,15 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ## Course program
 
-### Week #1 (27th of April, 2026)
+### Week #1 (27th of April 2026)
 
 #### Theory
 
 - [RS School Documentation](https://rs.school/docs/en)
-- [History of React](modules/react-evolution/)
-- [Vite with React and the TypeScript](modules/react-setup-env/)
-- [Class Components](modules/class-component/)
-- [Error Boundaries](modules/error-boundary/)
+- [History of React](modules/react-evolution/README.md)
+- [Vite with React and the TypeScript](modules/react-setup-env/README.md)
+- [Class Components](modules/class-component/README.md)
+- [Error Boundaries](modules/error-boundary/README.md)
 
 #### Practical tasks
 
@@ -39,11 +39,11 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 - Test 0. How to learn in RS School
 - Test 1. React components
 
-### Week #2 (4th of May, 2026)
+### Week #2 (4th of May 2026)
 
 #### Theory
 
-- [React Tests](modules/testing/)
+- [React Tests](modules/testing/README.md)
 
 #### Practical tasks
 
@@ -55,12 +55,12 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 - Test 2. Testing
 
-### Week #3 (11th of May, 2026)
+### Week #3 (11th of May 2026)
 
 #### Theory
 
-- [Hooks](modules/hooks/)
-- [React Router](modules/router/)
+- [Hooks](modules/hooks/README.md)
+- [React Router](modules/router/README.md)
 
 #### Practical tasks
 
@@ -73,12 +73,12 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 - Test 3. React hooks and routing
 
-### Week #4 (18th of May, 2026)
+### Week #4 (18th of May 2026)
 
 #### Theory
 
-- [Context API](modules/context-api/)
-- [State management in React. Redux. Zustand](modules/state-management/)
+- [Context API](modules/context-api/README.md)
+- [State management in React. Redux. Zustand](modules/state-management/README.md)
 
 #### Practical tasks
 
@@ -89,13 +89,13 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Tests
 
-- Test 4. React Redux
+- Test 4. State management
 
-### Week #5 (25th of May, 2026)
+### Week #5 (25th of May 2026)
 
 #### Theory
 
-- [RTK Query. Tanstack Query](modules/state-management/queries.md)
+- [RTK Query. TanStack Query](modules/state-management/queries.md)
 
 #### Practical tasks
 
@@ -106,14 +106,14 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Tests
 
-- Test 5. React Queries
+- Test 5. Queries APIs
 
-### Week #6 (1th of June, 2026)
+### Week #6 (1th of June 2026)
 
 #### Theory
 
-- [Forms in React](modules/forms/)
-- [Portals in React. Creating reusable modals](modules/portals/)
+- [Forms in React](modules/forms/README.md)
+- [Portals in React. Creating reusable modals](modules/portals/README.md)
 
 #### Practical tasks
 
@@ -124,9 +124,9 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Tests
 
-- Test 6. React forms
+- Test 6. React Forms
 
-### Week #7 (8th of June, 2026)
+### Week #7 (8th of June 2026)
 
 #### Theory
 
@@ -143,11 +143,11 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 - Test 7. React Performance
 
-### Week #8 (15th of June, 2026)
+### Week #8 (15th of June 2026)
 
 #### Theory
 
-- [Server-side rendering/generation in React. NextJS](modules/nextjs-ssr-ssg/)
+- [Server-side rendering/generation in React. NextJS](modules/nextjs-ssr-ssg/README.md)
 
 #### Practical tasks
 
@@ -160,7 +160,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 - Test 8. React SSR
 
-### Week #9 (22st of June, 2026)
+### Week #9 (22nd of June 2026)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
@@ -170,17 +170,17 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 - Cross-check review: [Task 8](modules/tasks/nextjs-ssr-ssg.md)
 - Mentor review: [Task 8](modules/tasks/nextjs-ssr-ssg.md)
 
-### Week #10 (29th of June, 2026)
+### Week #10 (29th of June 2026)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #11 (6th of July, 2026)
+### Week #11 (6th of July 2026)
 
 - [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
-### Week #12 (13th of July, 2026)
+### Week #12 (13th of July 2026)
 
 #### Practical tasks
 
