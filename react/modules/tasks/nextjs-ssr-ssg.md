@@ -10,17 +10,18 @@
 
 ## Functional Requirements (max **100 points**)
 
-### Feature 1: Application Continuity after Migration to Next.js (**10 points**)
+### Feature 1: Application Rebuild in Next.js with Preserved Behavior (**10 points**)
 
-**As a** developer
-**I want** the application to be migrated to Next.js App Router while still functioning according to previous modules' requirements
-**So that** existing features are preserved unless new requirements override them
+**As a** developer  
+**I want** to rebuild the application using a fresh Next.js App Router setup  
+**So that** all existing functionality and behavior are preserved while fully adopting the Next.js architecture
 
-**Scenario:** Migration with Backward Compatibility
+**Scenario:** Rebuild with Behavioral Parity
 
-- **Given** the application is migrated to Next.js App Router (except the standalone forms module, e.g., Formik/React Hook Form integration)
+- **Given** I create a new Next.js application using the official Next.js tooling (e.g., `create-next-app`) and App Router
+- **And** I port over the existing functionality and modules from the previous implementation (excluding the standalone forms module, e.g., Formik/React Hook Form integration)
 - **When** previous requirements do not contradict new ones
-- **Then** all previous features and behaviors are preserved and work correctly using Next.js file-based routing and rendering
+- **Then** all existing behaviors and features are preserved and work correctly in the rebuilt Next.js application using file-based routing and server/client components as appropriate
 
 **Acceptance Criteria:**
 
