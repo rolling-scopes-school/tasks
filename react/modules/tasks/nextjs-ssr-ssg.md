@@ -169,17 +169,6 @@
 - Search and filter submissions are wired through server actions or server functions, not ad-hoc client-only fetch calls. [5 points]
 - Selecting an item for the details panel triggers server-side data fetching for that item (via server component or server function). [5 points]
 
-### Cross-check (score can be less if some parts of the functionality don't work)
-
-- Next.js App Router is used in "nextjs-ssr" branch. Pages render on the server with RSC
-- The application supports at least two languages
-- Shared layout is used at the root of application
-- All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically.
-- All links are rendered via the next-intl createNavigation function
-- 404 error page implemented
-- All static requests are done via the server
-- CSV file compiled in the server action
-
 ### Penalties
 
 - **1. TypeScript & Code Quality**
