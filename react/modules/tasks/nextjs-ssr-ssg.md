@@ -171,14 +171,14 @@
 
 ### Cross-check (score can be less if some parts of the functionality don't work)
 
-- Next.js App Router is used in "nextjs-ssr" branch. Pages render on the server with RSC - **20**
-- The application supports at least two languages - **10**
-- Shared layout is used at the root of application - **5**
-- All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically. - **10**
-- All links are rendered via the next-intl createNavigation function - **10**
-- 404 error page implemented - **5**
-- All static requests are done via the server - **20**
-- CSV file compiled in the server action - **20**
+- Next.js App Router is used in "nextjs-ssr" branch. Pages render on the server with RSC
+- The application supports at least two languages
+- Shared layout is used at the root of application
+- All images are rendered via the next/image component. If your API doesn't support images, then you receive 10 points automatically.
+- All links are rendered via the next-intl createNavigation function
+- 404 error page implemented
+- All static requests are done via the server
+- CSV file compiled in the server action
 
 ### Penalties
 
