@@ -1,16 +1,8 @@
-# Personal Score (500 баллов)
-
-> **Score в RS APP:** Tandem: Personal  
-> **Тип оценки:** личная (у каждого студента в команде своя оценка)  
-> **Когда:** индивидуальный созвон после сдачи проекта  
-> **Кто оценивает:** рандомно назначенный ментор  
-> **Максимальная личная оценка: 500 баллов**  
-> — до 100 за дневник разработки  
-> — до 250 за личные фичи (ceiling)  
-> — до 150 за ревью ментором  
+# Personal Score (500 баллов максимум)
+- **Tandem: Personal Score** — личная оценка каждого студента.
+- **Кто оценивает:** рандомно назначенный ментор или пару менторов на индивидуальном созвоне. 
 
 ### Порог допуска
-
 Без выполнения этих требований студент **не допускается** к оценке Personal Score:
 
 - Дневник разработки существует, заполнен регулярно, записи закоммичены своевременно
@@ -21,7 +13,7 @@
 ## Структура оценки
 
 - **Development Diary** — до 100 баллов ([DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md))
-- **Personal Features** — до 250 баллов (ceiling), личный чеклист
+- **Personal Features** — до 250 баллов
 - **Mentor Review** — до 150 баллов (Technical Depth, Product & UX, Demo & Communication)
 
 ---
@@ -47,50 +39,49 @@
 
 ### Таблица фич
 
+### Таблица фич
+
 | Категория | Фича | Баллы |
 |-----------|------|-------|
-| **My Components** | Вы разработали сложный интерактивный компонент — значительная логика, не просто вёрстка (Game Board, Widget Engine, Chat UI, Code Runner...) | +25 за каждый |
-| | Вы разработали Rich UI Screen — экран с осмысленной логикой (Dashboard, Library с фильтрами, Profile, Lobby...) | +20 за каждый |
-| **Backend & Data** | Вы настроили авторизацию (Firebase/Supabase Auth, email, OAuth или аналог) | +15 |
-| | Вы работали с Firebase/Supabase — CRUD, минимум 1 endpoint | +15 |
-| | Вы писали свой бэкенд (Node.js/Python) с локальной базой данных | +30 |
-| | Вы работали с WebSockets / Real-time при разработке проекта | +20 |
-| **AI** | AI Chat: отправка промпта и отображение ответа LLM | +20 |
-| | AI Streaming: посимвольный вывод ответа | +10 |
-| | Интеграция с LLM без "magic" SDK (raw API / fetch + ReadableStream) | +10 |
-| | AI RAG: поиск по документам через embeddings | +20 |
-| | Local LLM (Ollama, WebLLM и т.п.) | +10 |
-| | Function Calling / Tool Use: LLM вызывает функции в вашем коде | +15 |
-| **Game** | Canvas 2D: игра с game loop и интерактивностью | +20 |
-| | Game Physics (matter.js, cannon.js или своя реализация) | +10 |
-| | WebGL / Three.js: 3D-сцена с интерактивностью | +25 |
-| | Sound/Music (Web Audio API) | +5 |
-| | Leaderboard: таблица лидеров, результаты между сессиями | +5 |
-| **UI & Interaction** | Drag & Drop (Kanban, сортировка, конструктор) | +10 |
-| | Code Editor (Monaco, CodeMirror) | +15 |
-| | Rich Text Editor с форматированием | +10 |
-| | Осмысленные анимации (переходы, визуальный feedback) | +10 |
-| | Theme Switcher (light/dark, CSS variables или аналог) | +10 |
-| | i18n: минимум 2 языка, переключение в UI | +10 |
-| | A11y: проверка и правки (Lighthouse, keyboard nav, aria) | +10 |
-| | Responsive: работает на мобильных (минимум 320px) | +5 |
-| **Quality** | Unit Tests: покрытие 20%+ вашего кода | +10 |
-| | Unit Tests: покрытие 50%+ вашего кода (доп. к предыдущему) | +10 |
-| | E2E Tests: минимум 3 сценария для ваших фич | +10 |
-| **DevOps & Role** | Team Lead: настройка репозитория, CI/CD, deploy | +20 |
-| | Code Reviews: 10+ содержательных ревью | +15 |
-| | Prompt Engineering: 3+ задокументированных итерации промптов | +15 |
-| | Architecture Design: задокументированные архитектурные решения | +10 |
-| | Auto-deploy (Vercel/Netlify/GH Pages) | +5 |
-| **Architecture** | State Management (Redux/MobX/Zustand) | +10 |
-| | Design Patterns (явное использование) | +10 |
-| | API Layer (абстракция работы с API) | +10 |
-| **Frameworks** | React | +5 |
-| | Angular | +10 |
-| | Vue | +5 |
-| | SSR Framework (Next.js / Nuxt / Analog) | +10 |
-
-> Фреймворки не входят в обязательную программу курса.
+| **My Components** | **Complex Component:** Разработка сложного интерактивного компонента (Game Board, Widget Engine, Chat UI, Code Runner) | +25 за каждый |
+| | **Rich UI Screen:** Реализация экрана со сложной логикой и состоянием (Dashboard, Library с фильтрами, Profile, Lobby) | +20 за каждый |
+| **Backend & Data** | **Auth Integration:** Настройка авторизации (Firebase/Supabase Auth, email, OAuth или аналог) | +15 |
+| | **BaaS CRUD:** Работа с облачной БД (Firebase/Supabase), реализация минимум 1 endpoint | +15 |
+| | **Custom Backend:** Разработка своего бэкенда (Node.js/Python) с локальной базой данных | +30 |
+| | **Real-time / WS:** Использование WebSockets или Real-time подписок в проекте | +20 |
+| **AI** | **AI Chat UI:** Интерфейс чата с отправкой промпта и отображением ответа LLM | +20 |
+| | **AI Streaming:** Реализация посимвольного вывода ответа (stream text) | +10 |
+| | **Raw LLM API:** Интеграция без "magic" SDK (использование native fetch + ReadableStream) | +10 |
+| | **AI RAG:** Поиск по базе знаний через embeddings (векторный поиск) | +20 |
+| | **Local LLM:** Запуск и интеграция локальных моделей (Ollama, WebLLM и т.п.) | +10 |
+| | **Tool Use:** Реализация Function Calling (LLM вызывает функции вашего кода) | +15 |
+| **Game** | **Canvas 2D:** Реализация игры на Canvas API с game loop | +20 |
+| | **Physics Engine:** Внедрение физики (Matter.js, Cannon.js или собственная реализация) | +10 |
+| | **WebGL / 3D:** Создание 3D-сцены с интерактивностью (Three.js, R3F) | +25 |
+| | **Audio API:** Работа со звуком и музыкой (Web Audio API / Howler) | +5 |
+| | **Leaderboard:** Таблица рекордов с сохранением результатов между сессиями | +5 |
+| **UI & Interaction** | **Drag & Drop:** Реализация перетаскивания (Kanban, сортировка, конструктор) | +10 |
+| | **Code Editor:** Внедрение редактора кода (Monaco, CodeMirror, Ace) | +15 |
+| | **Rich Text Editor:** Редактор текста с форматированием (WYSIWYG) | +10 |
+| | **Advanced Animations:** Сложные анимации переходов или микро-взаимодействия | +10 |
+| | **Theme Switcher:** Переключение тем (Light/Dark) через CSS variables или Context | +10 |
+| | **i18n:** Локализация интерфейса (минимум 2 языка) с переключением | +10 |
+| | **Accessibility (a11y):** Оптимизация доступности (aria-labels, keyboard navigation, Audit pass) | +10 |
+| | **Responsive:** Адаптация верстки под мобильные устройства (от 320px) | +5 |
+| **Quality** | **Unit Tests (Basic):** Покрытие тестами 20%+ вашего личного кода | +10 |
+| | **Unit Tests (Full):** Покрытие тестами 50%+ вашего личного кода (доп. к предыдущему) | +10 |
+| | **E2E Tests:** Написание минимум 3 сценариев для ваших фич (Cypress/Playwright) | +10 |
+| **DevOps & Role** | **Team Lead:** Инициализация репо, настройка CI/CD, управление доской | +20 |
+| | **Prompt Engineering:** Документирование 3+ итераций улучшения промптов | +15 |
+| | **Architect:** Документирование архитектурных решений (схемы, ADR) | +10 |
+| | **Auto-deploy:** Настройка автоматического деплоя (Vercel/Netlify/GH Actions) | +5 |
+| **Architecture** | **State Manager:** Использование стейт-менеджера (Redux/Zustand/MobX) | +10 |
+| | **Design Patterns:** Явное и обоснованное применение паттернов в коде | +10 |
+| | **API Layer:** Выделение слоя работы с API (изоляция от UI компонентов) | +10 |
+| **Frameworks** | **React:** Использование библиотеки React | +5 |
+| | **Angular:** Использование фреймворка Angular | +10 |
+| | **Vue:** Использование фреймворка Vue | +5 |
+| | **Meta-Framework:** Использование SSR решений (Next.js / Nuxt / Analog) | +10 |
 
 ---
 
