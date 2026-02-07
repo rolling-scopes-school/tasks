@@ -264,7 +264,7 @@ Personal Score (500 pts max)
 │    Сумма:                   _____ / 455                          │
 │    Personal Features итого: _____ / 200 (ceiling)                │
 │                                                                  │
-│ 3. EXPERT QUALITY:                                               │
+│ 3. MENTOR REVIEW:                                               │
 │                                                                  │
 │    Technical Depth:         _____ / 50  (10 / 25 / 40 / 50)     │
 │    Обоснование: _________________________________________        │

@@ -182,7 +182,7 @@ export async function* mockStreamResponse(message: string) {
 
 ---
 
-> **Оценка AI-фич:** см. секции "AI" и "Expert Quality" в [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)
+> **Оценка AI-фич:** см. секции "AI" и "Mentor Review" в [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)
 
 ---
 
