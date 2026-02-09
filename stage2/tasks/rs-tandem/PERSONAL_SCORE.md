@@ -39,12 +39,11 @@
 
 ### Таблица фич
 
-### Таблица фич
-
 | Категория | Фича | Баллы |
 |-----------|------|-------|
 | **My Components** | **Complex Component:** Разработка сложного интерактивного компонента (Game Board, Widget Engine, Chat UI, Code Runner) | +25 за каждый |
 | | **Rich UI Screen:** Реализация экрана со сложной логикой и состоянием (Dashboard, Library с фильтрами, Profile, Lobby) | +20 за каждый |
+| | **Cложный бэкенд-сервис:** Game Server Engine, Matchmaking System, AI Context Manager, Code Execution Sandbox | +30 за каждый |
 | **Backend & Data** | **Auth Integration:** Настройка авторизации (Firebase/Supabase Auth, email, OAuth или аналог) | +15 |
 | | **BaaS CRUD:** Работа с облачной БД (Firebase/Supabase), реализация минимум 1 endpoint | +15 |
 | | **Custom Backend:** Разработка своего бэкенда (Node.js/Python) с локальной базой данных | +30 |

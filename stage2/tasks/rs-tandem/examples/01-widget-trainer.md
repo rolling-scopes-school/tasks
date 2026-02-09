@@ -29,17 +29,17 @@ flowchart TD
     B -->|Нет| C[Login / Register]
     C --> D[Dashboard]
     B -->|Да| D
-
+    
     D --> E[Library - Список тем]
     E --> F[Фильтрация и Поиск]
     F --> G[Выбор темы]
-
+    
     G --> H[Практика - Виджет]
     H --> I[Интерактивное задание]
     I --> J[Валидация ответа]
     J -->|Неверно| I
     J -->|Верно| K[Результат]
-
+    
     K --> L[Report Card]
     L --> M[Сохранение прогресса]
     M --> D
@@ -152,9 +152,11 @@ flowchart TD
 
 ---
 
-## Widget Engine
+## Примеры интерактивных виджетов
 
-**Описание:** Движок для загрузки виджетов по JSON-схеме.
+### Widget Engine
+
+**Описание:** Движок для загрузки виджетов по JSON-схеме. 
 
 **Функциональность:**
 - Получение схемы от backend
@@ -162,70 +164,58 @@ flowchart TD
 - Общий интерфейс для всех виджетов
 - Валидация ответов
 
-> Детальная архитектура Widget Engine описана в [widget-engine.md](./01-widget-trainer/widget-engine.md)
-
 ---
 
-## Виджеты
-
-### Легкие виджеты
-
-| Виджет | Описание | Сложность |
-|--------|----------|-----------|
-| Quiz | Классический тест с выбором одного ответа | Easy |
-| True/False | Утверждение — правда или ложь? | Easy |
-| Code Completion | Заполни пропуски в коде | Medium |
-| Code Ordering | Расставь строки кода в правильном порядке (D&D) | Medium |
-
-> Детали реализации легких виджетов в [widget-engine.md](./01-widget-trainer/widget-engine.md)
-
-### Сложные виджеты
-
-| Виджет | Описание | Сложность |
-|--------|----------|-----------|
-| Async Sorter | "Event Loop Game" — распредели код по очередям | Hard |
-| Memory Game | "Be the Garbage Collector" — найди мусор в памяти | Hard |
-| Stack Builder | "Call Stack Game" — управляй стеком вызовов | Hard |
-
-> Детали реализации:
-> - [async-sorter.md](./01-widget-trainer/async-sorter.md) — Event Loop Game с D&D, Touch API, A11y
-> - [memory-game.md](./01-widget-trainer/memory-game.md) — GC Game с визуальным графом объектов
-
----
-
-## Примеры JSON-схем виджетов
+## Легкие виджеты
 
 ### Quiz Widget
+
+Классический тест с выбором одного ответа.
 
 ```json
 {
   "type": "quiz",
   "question": "Что вернет typeof null?",
-  "options": ["null", "undefined", "object", "NaN"]
+  "options": ["null", "undefined", "object", "NaN"],
+  "correctIndex": 2
 }
 ```
 
+---
+
 ### True/False Widget
+
+Утверждение — правда или ложь?
 
 ```json
 {
   "type": "true-false",
   "statement": "Promise.all() возвращает результаты в порядке завершения промисов",
+  "correct": false,
   "explanation": "Promise.all() сохраняет порядок входного массива"
 }
 ```
 
+---
+
 ### Code Completion Widget
+
+Заполни пропуски в коде.
 
 ```json
 {
   "type": "code-completion",
   "code": "const result = arr.___(x => x > 0);",
-  "blanks": ["___"]
+  "blanks": ["___"],
+  "correctAnswers": ["filter"]
 }
 ```
 
+---
+
 ### Code Ordering Widget
+
+Расставь строки кода в правильном порядке (Drag & Drop).
 
 ```json
 {
@@ -237,25 +227,28 @@ flowchart TD
     "clearTimeout(timeout);",
     "timeout = setTimeout(() => fn(...args), delay);",
     "};"
-  ]
+  ],
+  "correctOrder": [1, 0, 2, 3, 4]
 }
 ```
 
 ---
 
-## Memory Game: «Be the Garbage Collector»
+## Средние виджеты
 
-### Концепция
+### Memory Game: «Be the Garbage Collector»
+
+#### Концепция
 
 Вместо того чтобы писать сложный алгоритм, который сам находит мусор, мы просим студента стать Garbage Collector'ом.
 
-### Сценарий
+#### Сценарий
 
 1. **Слева:** Визуальный граф объектов (кружочки) и ссылок (стрелочки). Все запутано.
 2. **Справа:** Короткий код, который только что выполнился. Например: `user = null;` или `list.next = null;`.
 3. **Задача:** "Кликни на все объекты, которые должны быть удалены из памяти после выполнения этого кода".
 
-### UI Механика
+#### UI Механика
 
 * **Корневой объект (Root):** Всегда подсвечен (например, `window`).
 * **Состояние:** Изначально все объекты "живые".
@@ -264,37 +257,70 @@ flowchart TD
   * Если помечен объект, до которого *можно* добраться от Root → **Ошибка** ("Удалили живой объект!").
   * Если не помечен объект, до которого *нельзя* добраться → **Ошибка** ("Memory Leak! Вы пропустили мусор").
 
-### Что проверяет:
+#### Техническая реализация (JSON-driven)
+
+Студенту не нужно парсить код. Сценарий задается жестко:
+
+```json
+{
+  "codeSnippet": "let a = {val: 1};\nlet b = a;\na = null;",
+  "objects": [
+    { "id": 1, "label": "Object {val:1}" },
+    { "id": 2, "label": "Variable 'a'" },
+    { "id": 3, "label": "Variable 'b'" }
+  ],
+  "links": [
+    { "from": 3, "to": 1 }
+  ],
+  "garbageIds": [2]
+}
+```
+
+#### Что проверяет:
 
 * Понимание **Reachability** (достижимости).
 * Понимание **Reference Counting** vs **Mark-and-Sweep**.
 * Понимание циклических ссылок (когда два объекта ссылаются друг на друга, но недостижимы из корня).
 
-> Детали реализации в [memory-game.md](./01-widget-trainer/memory-game.md)
-
 ---
 
-## Stack Builder: "Call Stack Game"
+### Stack Builder: "Call Stack Game"
 
-### Концепция
+#### Концепция
 
 Студент должен вручную "исполнить" роль интерпретатора, управляя стеком вызовов.
 
-### Сценарий
+#### Сценарий
 
 1. **Слева:** Код с вложенными вызовами функций или рекурсией. Активная строка кода подсвечивается.
 2. **По центру:** Пустой "стакан" (Stack).
 3. **Снизу:** Блоки с именами функций (`main`, `funcA`, `funcB`, `console.log`).
 4. **Задача:** "Воспроизведи состояние стека на момент, когда код остановился на строке 5".
 
-### UI Механика (Drag & Drop)
+#### UI Механика (Drag & Drop)
 
 * Пользователь перетаскивает блоки в стакан.
 * Блоки ложатся друг на друга (LIFO).
 * Можно выкидывать блоки из стакана (симуляция `return`).
 * **Усложнение:** Пошаговый режим. Пользователь жмет "Next Line" и должен либо добавить функцию в стек, либо убрать её.
 
-### Что проверяет:
+#### Техническая реализация
+
+Сценарий описывает правильное состояние стека для каждого шага.
+
+```json
+{
+  "steps": [
+    {
+      "line": 10,
+      "code": "factorial(2)",
+      "correctStack": ["main", "factorial(3)", "factorial(2)"]
+    }
+  ]
+}
+```
+
+#### Что проверяет:
 
 * Понимание принципа **LIFO** (Last In, First Out).
 * Понимание **Рекурсии** (почему стек растет).
@@ -302,13 +328,13 @@ flowchart TD
 
 ---
 
-## Async Sorter: "Event Loop Game"
+### Async Sorter: "Event Loop Game"
 
-### Концепция
+#### Концепция
 
 Самый популярный вопрос на собеседованиях: "В каком порядке выведутся console.log?". Этот виджет геймифицирует этот вопрос.
 
-### Сценарий
+#### Сценарий
 
 1. **Сверху:** Код с миксом из `console.log`, `setTimeout`, `Promise.resolve().then()`.
 2. **Снизу:** Четыре зоны (Buckets):
@@ -319,33 +345,18 @@ flowchart TD
 
 3. **Задача:** Распределить строчки кода (блоки) по правильным зонам или выстроить итоговую очередь выполнения.
 
-### UI Механика (Sorting / D&D)
+#### UI Механика (Sorting / D&D)
 
 * Пользователь видит блоки с кодом (например, `setTimeout(..., 0)`).
 * Перетаскивает их в правильную очередь.
 * Нажимает "Run Loop".
 * Виджет анимирует, как Event Loop забирает задачи: Сначала Stack → Потом ВСЕ Microtasks → Потом ОДНА Macrotask.
 
-### Что проверяет:
+#### Что проверяет:
 
 * Разницу между **Microtasks** и **Macrotasks**.
 * Понимание того, что `setTimeout(0)` не срабатывает мгновенно.
 * Порядок выполнения промисов.
 
-> Детали реализации в [async-sorter.md](./01-widget-trainer/async-sorter.md)
-
 ---
 
-## Детальная документация
-
-Для планирования, реализации и оценки рисков смотрите документы в папке [01-widget-trainer/](./01-widget-trainer/):
-
-| Документ | Описание |
-|----------|----------|
-| [README.md](./01-widget-trainer/README.md) | Навигация по документам |
-| [scoring-and-plan.md](./01-widget-trainer/scoring-and-plan.md) | Расчет баллов, 6-недельный план, Cut Scope Strategy |
-| [data-contracts.md](./01-widget-trainer/data-contracts.md) | TypeScript типы, API методы, Mock vs Real Mode |
-| [widget-engine.md](./01-widget-trainer/widget-engine.md) | Архитектура движка, простые виджеты |
-| [async-sorter.md](./01-widget-trainer/async-sorter.md) | Event Loop Game: D&D, Touch API, A11y |
-| [memory-game.md](./01-widget-trainer/memory-game.md) | GC Game: граф объектов, алгоритм валидации |
-| [risks-and-mitigations.md](./01-widget-trainer/risks-and-mitigations.md) | Риски, типичные ошибки, Bus Factor |
