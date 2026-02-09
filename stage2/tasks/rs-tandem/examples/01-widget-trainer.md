@@ -58,6 +58,7 @@ flowchart TD
 | Library | `/library` | Список тем | Library |
 | Practice | `/practice/:topicId` | Практика (виджет) | Widget Engine |
 | Profile | `/profile` | Профиль пользователя | Profile |
+| 404 | `/*` | Страница не найдена | Not Found |
 
 ---
 
