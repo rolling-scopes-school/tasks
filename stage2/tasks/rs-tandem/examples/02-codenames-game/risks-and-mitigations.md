@@ -17,20 +17,20 @@
 
 ### Сценарии
 
-| Кто выбыл | Неделя | Что делать                                                                     |
-| --------- | ------ | ------------------------------------------------------------------------------ |
-| Lead      | 1-2    | WS-Dev берёт CI/CD, Lobby берёт Auth                                           |
-| Lead      | 3-5    | Убрать Theme Switcher, упростить auth (только email)                           |
-| WS-Dev    | 1-2    | **Критично!** Переключиться на Firebase Realtime вместо custom WS              |
-| WS-Dev    | 3-5    | Упростить: убрать reconnection, spectator mode, оставить базовую state machine |
-| Board     | 1-2    | AI-Dev берёт Game Board (упрощённый, без анимаций)                             |
-| Board     | 3-5    | Без анимаций, базовая сетка. Карточки просто меняют цвет                       |
-| Check     | 1-2    | AI-Dev берёт Check Phase (только Self/Peer, без AI mode)                       |
-| Check     | 3-5    | Self/Peer only, 20 вопросов, без расширения                                    |
-| AI-Dev    | 1-2    | Check берёт Solo Mode, подсказки — хардкод из файла                            |
-| AI-Dev    | 3-5    | Solo Mode с рандомными подсказками, без mock алгоритма                         |
-| Lobby     | 1-2    | Lead берёт Lobby (минимальный), Profile откладывается                          |
-| Lobby     | 3-5    | Минимальный Lobby (только create/join), без Results и Profile                  |
+| Кто выбыл | Неделя | Что делать |
+|-----------|--------|------------|
+| Lead | 1-2 | WS-Dev берёт CI/CD, Lobby берёт Auth |
+| Lead | 3-5 | Убрать Theme Switcher, упростить auth (только email) |
+| WS-Dev | 1-2 | **Критично!** Переключиться на Firebase Realtime вместо custom WS |
+| WS-Dev | 3-5 | Упростить: убрать reconnection, spectator mode, оставить базовую state machine |
+| Board | 1-2 | AI-Dev берёт Game Board (упрощённый, без анимаций) |
+| Board | 3-5 | Без анимаций, базовая сетка. Карточки просто меняют цвет |
+| Check | 1-2 | AI-Dev берёт Check Phase (только Self/Peer, без AI mode) |
+| Check | 3-5 | Self/Peer only, 20 вопросов, без расширения |
+| AI-Dev | 1-2 | Check берёт Solo Mode, подсказки — хардкод из файла |
+| AI-Dev | 3-5 | Solo Mode с рандомными подсказками, без mock алгоритма |
+| Lobby | 1-2 | Lead берёт Lobby (минимальный), Profile откладывается |
+| Lobby | 3-5 | Минимальный Lobby (только create/join), без Results и Profile |
 
 > **Самый критичный:** WS-Dev. Без него нет мультиплеера. Если WS-Dev выбывает рано, переключайтесь на BaaS (Firebase Realtime или Supabase Realtime).
 
@@ -41,7 +41,6 @@
 ### Риск
 
 WebSocket баги — одни из самых сложных для отладки:
-
 - Нет пар request/response в DevTools (в отличие от REST)
 - Состояние рассинхронизируется между сервером и несколькими клиентами
 - Race conditions при одновременных действиях
@@ -49,13 +48,13 @@ WebSocket баги — одни из самых сложных для отлад
 
 ### Проблемы
 
-| Проблема            | Описание                                   |
-| ------------------- | ------------------------------------------ |
-| Нет логов           | WS события не видны в Network по умолчанию |
-| State desync        | Сервер показывает одно, клиент — другое    |
-| Disconnect silently | Соединение закрылось, но клиент не знает   |
-| Race conditions     | Два игрока кликают одновременно            |
-| Replay              | Невозможно "повторить" сценарий бага       |
+| Проблема | Описание |
+|----------|----------|
+| Нет логов | WS события не видны в Network по умолчанию |
+| State desync | Сервер показывает одно, клиент — другое |
+| Disconnect silently | Соединение закрылось, но клиент не знает |
+| Race conditions | Два игрока кликают одновременно |
+| Replay | Невозможно "повторить" сценарий бага |
 
 ### Митигация
 
@@ -76,9 +75,9 @@ function createWSLogger(client: WSClient): WSClient {
   client.send = (event: ClientEvent) => {
     console.log(
       `%c>>> OUT [${new Date().toISOString()}]`,
-      "color: #42a5f5",
+      'color: #42a5f5',
       event.type,
-      event.payload,
+      event.payload
     );
     originalSend(event);
   };
@@ -87,9 +86,9 @@ function createWSLogger(client: WSClient): WSClient {
     originalOn(type, (payload: unknown) => {
       console.log(
         `%c<<< IN  [${new Date().toISOString()}]`,
-        "color: #4caf50",
+        'color: #4caf50',
         type,
-        payload,
+        payload
       );
       handler(payload);
     });
@@ -116,12 +115,12 @@ const wsClient = createWSLogger(createWSClient());
 
 ### Сценарии
 
-| Сценарий                 | Что происходит                                    | Как ломается                                 |
-| ------------------------ | ------------------------------------------------- | -------------------------------------------- |
-| 2 клика одновременно     | Сервер обрабатывает первый                        | Второй клиент видит "свой" клик, потом откат |
-| Клик во время Check      | Игрок кликает карточку пока попап открыт          | Фаза нарушена                                |
-| Disconnect во время хода | Игрок отключился на своём ходе                    | Ход зависает навечно                         |
-| Timer race               | Клиент думает что время есть, сервер уже закончил | Клик отклонён                                |
+| Сценарий | Что происходит | Как ломается |
+|----------|----------------|--------------|
+| 2 клика одновременно | Сервер обрабатывает первый | Второй клиент видит "свой" клик, потом откат |
+| Клик во время Check | Игрок кликает карточку пока попап открыт | Фаза нарушена |
+| Disconnect во время хода | Игрок отключился на своём ходе | Ход зависает навечно |
+| Timer race | Клиент думает что время есть, сервер уже закончил | Клик отклонён |
 
 ### Митигация
 
@@ -137,7 +136,7 @@ class GameRoom {
 
   async handleAction(playerId: string, action: ClientEvent): Promise<void> {
     if (this.actionLock) {
-      this.sendError(playerId, "ACTION_IN_PROGRESS");
+      this.sendError(playerId, 'ACTION_IN_PROGRESS');
       return;
     }
 
@@ -153,14 +152,14 @@ class GameRoom {
 // Клиентская блокировка
 function onCardClick(cardId: string): void {
   // Guard: проверяем фазу
-  if (gameState.currentPhase !== "guess") return;
+  if (gameState.currentPhase !== 'guess') return;
   if (!canGuess(currentUserId, gameState)) return;
 
   // Optimistic UI
-  highlightCard(cardId, "selecting");
+  highlightCard(cardId, 'selecting');
 
   // Отправляем на сервер
-  wsClient.send({ type: "game:guess", payload: { cardId } });
+  wsClient.send({ type: 'game:guess', payload: { cardId } });
 }
 ```
 
@@ -171,7 +170,6 @@ function onCardClick(cardId: string): void {
 ### Риск
 
 Два отдельных деплоя (Vercel для frontend + Render/Railway для backend) создают проблемы:
-
 - CORS ошибки
 - Environment variables в двух местах
 - Backend URL меняется — frontend ломается
@@ -197,22 +195,20 @@ function onCardClick(cardId: string): void {
 
 ```typescript
 // server/src/index.ts
-import cors from "cors";
+import cors from 'cors';
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
 
-app.use(
-  cors({
-    origin: FRONTEND_URL,
-    credentials: true,
-  }),
-);
+app.use(cors({
+  origin: FRONTEND_URL,
+  credentials: true,
+}));
 
 // Socket.IO CORS
 const io = new Server(server, {
   cors: {
     origin: FRONTEND_URL,
-    methods: ["GET", "POST"],
+    methods: ['GET', 'POST'],
   },
 });
 ```
@@ -224,7 +220,6 @@ const io = new Server(server, {
 ### Риск
 
 Mock WS Client ведёт себя иначе, чем реальный WebSocket:
-
 - Mock обрабатывает события синхронно (в одном процессе)
 - Real WS имеет реальную сетевую задержку
 - Mock не теряет соединение
@@ -244,9 +239,9 @@ Mock WS Client ведёт себя иначе, чем реальный WebSocket
 // Общий интерфейс — ОДИН для Mock и Real
 interface WSClient {
   send(event: ClientEvent): void;
-  on<T extends ServerEvent["type"]>(
+  on<T extends ServerEvent['type']>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
+    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
   ): void;
   off(type: string, handler: Function): void;
   disconnect(): void;
@@ -264,12 +259,12 @@ interface WSClient {
 
 ### Проблемы
 
-| Проблема                            | Следствие                                  |
-| ----------------------------------- | ------------------------------------------ |
-| Клиент опережает сервер             | Показывает "Time's up", но сервер ещё ждёт |
-| Сервер опережает клиент             | Игрок кликает, а ход уже перешёл           |
-| Check Phase не останавливает таймер | Игрок тратит время на ответ, ход кончился  |
-| Вкладка в фоне                      | `setTimeout` замедляется в inactive tabs   |
+| Проблема | Следствие |
+|----------|-----------|
+| Клиент опережает сервер | Показывает "Time's up", но сервер ещё ждёт |
+| Сервер опережает клиент | Игрок кликает, а ход уже перешёл |
+| Check Phase не останавливает таймер | Игрок тратит время на ответ, ход кончился |
+| Вкладка в фоне | `setTimeout` замедляется в inactive tabs |
 
 ### Митигация
 
@@ -286,8 +281,8 @@ function startTimerDisplay(turnEndTime: number): void {
     const remaining = Math.max(0, turnEndTime - Date.now());
 
     if (remaining <= 0) {
-      timerElement.textContent = "Ожидание...";
-      timerElement.classList.add("expired");
+      timerElement.textContent = 'Ожидание...';
+      timerElement.classList.add('expired');
       return;
     }
 
@@ -295,7 +290,7 @@ function startTimerDisplay(turnEndTime: number): void {
     timerElement.textContent = formatTime(seconds);
 
     if (seconds <= 10) {
-      timerElement.classList.add("warning");
+      timerElement.classList.add('warning');
     }
 
     requestAnimationFrame(tick);
@@ -312,7 +307,6 @@ function startTimerDisplay(turnEndTime: number): void {
 ### Риск
 
 Плохие вопросы убивают игру:
-
 - Слишком простые вопросы — все получают очки без усилий
 - Слишком сложные — никто не получает очки, фрустрация
 - Неточные эталонные ответы — AI мок неправильно оценивает
@@ -361,13 +355,13 @@ function startTimerDisplay(turnEndTime: number): void {
 
 ### Проблемы
 
-| Проблема                   | При 3 людях     | При 6 людях                             |
-| -------------------------- | --------------- | --------------------------------------- |
-| Merge конфликты            | Редко           | Часто (особенно в types.ts, index.html) |
-| Код-ревью                  | 1 ревьюер на PR | 2 ревьюера, дольше ждать                |
-| Синки                      | 30 мин/неделю   | 30-45 мин/неделю                        |
-| Принятие решений           | Быстро          | Долгие обсуждения                       |
-| Зависимости между задачами | Мало            | Много (WS блокирует Board и Lobby)      |
+| Проблема | При 3 людях | При 6 людях |
+|----------|-------------|-------------|
+| Merge конфликты | Редко | Часто (особенно в types.ts, index.html) |
+| Код-ревью | 1 ревьюер на PR | 2 ревьюера, дольше ждать |
+| Синки | 30 мин/неделю | 30-45 мин/неделю |
+| Принятие решений | Быстро | Долгие обсуждения |
+| Зависимости между задачами | Мало | Много (WS блокирует Board и Lobby) |
 
 ### Митигация
 
@@ -419,12 +413,12 @@ server/
 
 ### Сценарии
 
-| Когда дисконнект              | Что происходит    | Что делать                    |
-| ----------------------------- | ----------------- | ----------------------------- |
-| Капитан думает над подсказкой | Ход зависает      | Auto-pass через 60 сек        |
-| Оперативник угадывает         | Ход зависает      | Auto-pass через 60 сек        |
-| Во время Check Phase          | Check зависает    | Auto-fail (очко не засчитано) |
-| Хост покидает комнату         | Комната осиротела | Передать хоста другому игроку |
+| Когда дисконнект | Что происходит | Что делать |
+|------------------|----------------|------------|
+| Капитан думает над подсказкой | Ход зависает | Auto-pass через 60 сек |
+| Оперативник угадывает | Ход зависает | Auto-pass через 60 сек |
+| Во время Check Phase | Check зависает | Auto-fail (очко не засчитано) |
+| Хост покидает комнату | Комната осиротела | Передать хоста другому игроку |
 
 ### Митигация
 
@@ -435,27 +429,21 @@ class GameRoom {
     this.markPlayerDisconnected(playerId);
 
     // Если дисконнект во время Check Phase этого игрока
-    if (
-      this.game.currentPhase === "check" &&
-      this.game.checkPlayerId === playerId
-    ) {
-      this.resolveCheck({ pointGranted: false, feedback: "Игрок отключился" });
+    if (this.game.currentPhase === 'check' && this.game.checkPlayerId === playerId) {
+      this.resolveCheck({ pointGranted: false, feedback: 'Игрок отключился' });
     }
 
     // Даём 60 секунд на переподключение
-    this.reconnectTimers.set(
-      playerId,
-      setTimeout(() => {
-        if (this.isPlayerStillDisconnected(playerId)) {
-          this.removePlayer(playerId);
+    this.reconnectTimers.set(playerId, setTimeout(() => {
+      if (this.isPlayerStillDisconnected(playerId)) {
+        this.removePlayer(playerId);
 
-          // Если это был активный игрок — auto-pass
-          if (this.isActivePlayer(playerId)) {
-            this.autoEndTurn();
-          }
+        // Если это был активный игрок — auto-pass
+        if (this.isActivePlayer(playerId)) {
+          this.autoEndTurn();
         }
-      }, 60_000),
-    );
+      }
+    }, 60_000));
   }
 
   handleReconnect(playerId: string, socket: Socket): void {
@@ -464,7 +452,7 @@ class GameRoom {
     this.reconnectTimers.delete(playerId);
 
     // Отправляем полное состояние
-    socket.emit("game:state", this.getGameStateForPlayer(playerId));
+    socket.emit('game:state', this.getGameStateForPlayer(playerId));
   }
 }
 ```

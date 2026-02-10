@@ -196,17 +196,16 @@ stateDiagram-v2
 
 Простой режим, не требующий AI.
 
-| Шаг | Действие                                      | Кто                         |
-| --- | --------------------------------------------- | --------------------------- |
-| 1   | Вопрос отображается                           | Система                     |
-| 2   | Игрок формулирует ответ (устно или письменно) | Игрок                       |
-| 3   | Нажимает "Показать ответ"                     | Игрок                       |
-| 4   | Эталонный ответ отображается                  | Система                     |
-| 5   | Оценка: "Знаю" / "Не знаю"                    | Игрок или команда соперника |
-| 6   | Очко засчитывается при "Знаю"                 | Система                     |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается | Система |
+| 2 | Игрок формулирует ответ (устно или письменно) | Игрок |
+| 3 | Нажимает "Показать ответ" | Игрок |
+| 4 | Эталонный ответ отображается | Система |
+| 5 | Оценка: "Знаю" / "Не знаю" | Игрок или команда соперника |
+| 6 | Очко засчитывается при "Знаю" | Система |
 
 **Кто оценивает:**
-
 - **Self** — сам игрок (честная система)
 - **Peer** — команда соперника нажимает "Знаю" / "Не знаю" (соревновательный элемент)
 
@@ -214,13 +213,13 @@ stateDiagram-v2
 
 ### AI — Проверка через AI (мокнута)
 
-| Шаг | Действие                                 | Кто     |
-| --- | ---------------------------------------- | ------- |
-| 1   | Вопрос отображается                      | Система |
-| 2   | Игрок пишет ответ в текстовое поле       | Игрок   |
-| 3   | Нажимает "Отправить на проверку"         | Игрок   |
-| 4   | AI оценивает ответ (mock: 1-2 сек)       | AI Mock |
-| 5   | Результат: очко засчитано/нет + feedback | Система |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается | Система |
+| 2 | Игрок пишет ответ в текстовое поле | Игрок |
+| 3 | Нажимает "Отправить на проверку" | Игрок |
+| 4 | AI оценивает ответ (mock: 1-2 сек) | AI Mock |
+| 5 | Результат: очко засчитано/нет + feedback | Система |
 
 > **Мок:** Реализация через `AICheckEvaluatorService` — keyword matching с реалистичной задержкой. Подробнее в [ai-spymaster.md](./ai-spymaster.md).
 
@@ -232,14 +231,14 @@ stateDiagram-v2
 
 ```typescript
 interface QuestionBank {
-  [word: string]: CheckQuestion[]; // Несколько вопросов на слово
+  [word: string]: CheckQuestion[];  // Несколько вопросов на слово
 }
 
 interface CheckQuestion {
   id: string;
-  word: string; // JS/TS концепт
-  question: string; // Текст вопроса
-  referenceAnswer: string; // Эталонный ответ
+  word: string;                    // JS/TS концепт
+  question: string;                // Текст вопроса
+  referenceAnswer: string;         // Эталонный ответ
   difficulty: 1 | 2 | 3;
   tags: string[];
 }
@@ -268,31 +267,31 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 
 ### Примеры вопросов (10+ концептов)
 
-| Слово        | Вопрос                                                     | Сложность |
-| ------------ | ---------------------------------------------------------- | --------- |
-| closure      | Что такое замыкание? Приведите пример.                     | 1         |
-| closure      | Как замыкания могут приводить к утечкам памяти?            | 3         |
-| Promise      | В чём разница между Promise.all и Promise.allSettled?      | 2         |
-| Promise      | Что произойдет, если в then бросить ошибку?                | 2         |
-| hoisting     | Как работает hoisting для let vs var?                      | 1         |
-| hoisting     | Почему TDZ (Temporal Dead Zone) существует для let/const?  | 3         |
-| prototype    | Как работает цепочка прототипов?                           | 2         |
-| prototype    | В чём разница между `__proto__` и `prototype`?             | 3         |
-| event loop   | В каком порядке выполняются microtask и macrotask?         | 2         |
-| event loop   | Что произойдёт, если microtask добавит ещё один microtask? | 3         |
-| this         | Как определяется значение this в arrow function?           | 2         |
-| this         | Назовите 4 правила определения this.                       | 2         |
-| localStorage | В чём отличие от sessionStorage?                           | 1         |
-| localStorage | Какой лимит объёма данных? Что будет при превышении?       | 2         |
-| WeakMap      | Когда использовать WeakMap вместо Map?                     | 3         |
-| WeakMap      | Как WeakMap связан со сборкой мусора?                      | 3         |
-| generics     | Зачем нужны дженерики в TypeScript? Приведите пример.      | 2         |
-| async/await  | Чем async/await лучше цепочки .then()?                     | 1         |
-| async/await  | Как обработать ошибку в async функции?                     | 2         |
-| Proxy        | Для чего используется Proxy в JavaScript?                  | 3         |
-| Symbol       | Зачем нужны символы? Приведите use case.                   | 3         |
-| spread       | Делает ли spread глубокое копирование?                     | 2         |
-| Map          | В чём отличие Map от обычного объекта?                     | 2         |
+| Слово | Вопрос | Сложность |
+|-------|--------|-----------|
+| closure | Что такое замыкание? Приведите пример. | 1 |
+| closure | Как замыкания могут приводить к утечкам памяти? | 3 |
+| Promise | В чём разница между Promise.all и Promise.allSettled? | 2 |
+| Promise | Что произойдет, если в then бросить ошибку? | 2 |
+| hoisting | Как работает hoisting для let vs var? | 1 |
+| hoisting | Почему TDZ (Temporal Dead Zone) существует для let/const? | 3 |
+| prototype | Как работает цепочка прототипов? | 2 |
+| prototype | В чём разница между `__proto__` и `prototype`? | 3 |
+| event loop | В каком порядке выполняются microtask и macrotask? | 2 |
+| event loop | Что произойдёт, если microtask добавит ещё один microtask? | 3 |
+| this | Как определяется значение this в arrow function? | 2 |
+| this | Назовите 4 правила определения this. | 2 |
+| localStorage | В чём отличие от sessionStorage? | 1 |
+| localStorage | Какой лимит объёма данных? Что будет при превышении? | 2 |
+| WeakMap | Когда использовать WeakMap вместо Map? | 3 |
+| WeakMap | Как WeakMap связан со сборкой мусора? | 3 |
+| generics | Зачем нужны дженерики в TypeScript? Приведите пример. | 2 |
+| async/await | Чем async/await лучше цепочки .then()? | 1 |
+| async/await | Как обработать ошибку в async функции? | 2 |
+| Proxy | Для чего используется Proxy в JavaScript? | 3 |
+| Symbol | Зачем нужны символы? Приведите use case. | 3 |
+| spread | Делает ли spread глубокое копирование? | 2 |
+| Map | В чём отличие Map от обычного объекта? | 2 |
 
 ---
 
@@ -303,12 +302,12 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 ```typescript
 // В game-engine.ts на сервере
 function handleGuess(game: Game, cardId: string, playerId: string) {
-  const card = game.board.find((c) => c.id === cardId);
-  card.status = "revealed";
+  const card = game.board.find(c => c.id === cardId);
+  card.status = 'revealed';
 
   if (card.color === game.currentTurn) {
     // Своя карточка → запускаем Check Phase
-    game.currentPhase = "check";
+    game.currentPhase = 'check';
     game.checkPlayerId = playerId;
 
     // Выбираем вопрос
@@ -318,12 +317,12 @@ function handleGuess(game: Game, cardId: string, playerId: string) {
     pauseTimer(game);
 
     // Отправляем вопрос ТОЛЬКО угадавшему игроку
-    sendToPlayer(playerId, "check:question", question);
+    sendToPlayer(playerId, 'check:question', question);
 
     // Всем остальным — уведомление, что идёт проверка
-    broadcastExcept(playerId, "game:turn-changed", {
+    broadcastExcept(playerId, 'game:turn-changed', {
       team: game.currentTurn,
-      phase: "check",
+      phase: 'check',
     });
   }
 }
@@ -359,18 +358,18 @@ sequenceDiagram
 
 ### Поведение таймера
 
-| Событие           | Таймер хода   | Check таймер        |
-| ----------------- | ------------- | ------------------- |
-| Check начинается  | ПАУЗА         | Старт (опц. 30 сек) |
-| Игрок отвечает    | —             | —                   |
-| Check завершается | ВОЗОБНОВЛЕНИЕ | Стоп                |
-| Check timeout     | —             | Очко не засчитано   |
+| Событие | Таймер хода | Check таймер |
+|---------|-------------|--------------|
+| Check начинается | ПАУЗА | Старт (опц. 30 сек) |
+| Игрок отвечает | — | — |
+| Check завершается | ВОЗОБНОВЛЕНИЕ | Стоп |
+| Check timeout | — | Очко не засчитано |
 
 ```typescript
 // Клиент: показ попапа
 function showCheckPopup(question: CheckQuestion): void {
   // 1. Затемнить фон
-  overlay.classList.add("active");
+  overlay.classList.add('active');
 
   // 2. Показать попап
   popup.innerHTML = renderCheckPopup(question, roomSettings.checkMode);
@@ -388,8 +387,8 @@ function closeCheckPopup(result: CheckResult): void {
 
   setTimeout(() => {
     // 2. Убрать попап
-    overlay.classList.remove("active");
-    popup.innerHTML = "";
+    overlay.classList.remove('active');
+    popup.innerHTML = '';
 
     // 3. Обновить счёт
     updateScoreDisplay();
@@ -406,12 +405,8 @@ function closeCheckPopup(result: CheckResult): void {
 ```html
 <!-- Overlay -->
 <div class="check-overlay" id="check-overlay">
-  <div
-    class="check-popup"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Проверка знаний"
-  >
+  <div class="check-popup" role="dialog" aria-modal="true" aria-label="Проверка знаний">
+
     <header class="check-popup__header">
       <h2>Проверка знаний</h2>
       <span class="check-popup__mode-badge">Self/Peer</span>
@@ -441,6 +436,7 @@ function closeCheckPopup(result: CheckResult): void {
     <footer class="check-popup__footer" id="check-actions">
       <!-- Кнопки зависят от режима и шага -->
     </footer>
+
   </div>
 </div>
 ```
@@ -569,17 +565,17 @@ function closeCheckPopup(result: CheckResult): void {
 
 ## Эстимейт: Check Phase
 
-| Задача                                 | Min     | Max     | Avg     | Кто            | Примечание                     |
-| -------------------------------------- | ------- | ------- | ------- | -------------- | ------------------------------ |
-| Popup UI (HTML/CSS, modal, overlay)    | 3ч      | 5ч      | 4ч      | Check          | Анимация входа/выхода          |
-| Self/Peer evaluation flow              | 3ч      | 6ч      | 4.5ч    | Check          | "Показать ответ" → оценка      |
-| AI evaluation flow (mock integration)  | 3ч      | 5ч      | 4ч      | Check          | Подключение к AICheckEvaluator |
-| Question Bank: структура + 20 вопросов | 3ч      | 6ч      | 4.5ч    | Check          | Начальный контент              |
-| Timer pause/resume integration         | 2ч      | 4ч      | 3ч      | Check + WS-Dev | Координация с сервером         |
-| WebSocket integration (events)         | 2ч      | 4ч      | 3ч      | Check          | check:question, check:result   |
-| Анимации (popup enter/exit, result)    | 1ч      | 3ч      | 2ч      | Check          | CSS transitions                |
-| Расширение до 40+ вопросов             | 4ч      | 8ч      | 6ч      | Check + All    | Контент на все слова           |
-| **Итого**                              | **21ч** | **41ч** | **31ч** |                |                                |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Popup UI (HTML/CSS, modal, overlay) | 3ч | 5ч | 4ч | Check | Анимация входа/выхода |
+| Self/Peer evaluation flow | 3ч | 6ч | 4.5ч | Check | "Показать ответ" → оценка |
+| AI evaluation flow (mock integration) | 3ч | 5ч | 4ч | Check | Подключение к AICheckEvaluator |
+| Question Bank: структура + 20 вопросов | 3ч | 6ч | 4.5ч | Check | Начальный контент |
+| Timer pause/resume integration | 2ч | 4ч | 3ч | Check + WS-Dev | Координация с сервером |
+| WebSocket integration (events) | 2ч | 4ч | 3ч | Check | check:question, check:result |
+| Анимации (popup enter/exit, result) | 1ч | 3ч | 2ч | Check | CSS transitions |
+| Расширение до 40+ вопросов | 4ч | 8ч | 6ч | Check + All | Контент на все слова |
+| **Итого** | **21ч** | **41ч** | **31ч** | | |
 
 > **Примечание:** Основная сложность — координация с игровым процессом. Попап должен корректно блокировать взаимодействие с полем, останавливать таймер и возобновлять игру. Тестируйте edge cases: что если Check timeout? Что если игрок дисконнектится во время Check?
 
@@ -597,7 +593,7 @@ function onCardClick(cardId: string) {
 
 // Хорошо: проверяем фазу
 function onCardClick(cardId: string) {
-  if (gameState.currentPhase === "check") return;
+  if (gameState.currentPhase === 'check') return;
   if (!canGuess(currentUserId, gameState)) return;
   sendGuess(cardId);
 }
@@ -618,12 +614,12 @@ function onCardClick(cardId: string) {
 
 ```typescript
 // Плохо: вопрос виден всем
-broadcast("check:question", question);
+broadcast('check:question', question);
 
 // Хорошо: вопрос только угадавшему
-sendToPlayer(playerId, "check:question", question);
+sendToPlayer(playerId, 'check:question', question);
 // Остальным: просто уведомление о фазе Check
-broadcastExcept(playerId, "game:turn-changed", { phase: "check" });
+broadcastExcept(playerId, 'game:turn-changed', { phase: 'check' });
 ```
 
 ### 4. Нет fallback-вопроса
