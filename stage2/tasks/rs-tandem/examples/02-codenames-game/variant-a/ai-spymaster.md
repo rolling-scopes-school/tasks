@@ -56,20 +56,20 @@ interface AISpymasterService {
 }
 
 interface SpymasterContext {
-  myWords: string[]; // Мои слова (неоткрытые)
-  opponentWords: string[]; // Слова соперника
-  neutralWords: string[]; // Нейтральные
-  bombWord: string; // Бомба
-  revealedWords: string[]; // Уже открытые
-  moveHistory: Move[]; // История ходов
-  difficulty: "easy" | "medium" | "hard";
+  myWords: string[];             // Мои слова (неоткрытые)
+  opponentWords: string[];       // Слова соперника
+  neutralWords: string[];        // Нейтральные
+  bombWord: string;              // Бомба
+  revealedWords: string[];       // Уже открытые
+  moveHistory: Move[];           // История ходов
+  difficulty: 'easy' | 'medium' | 'hard';
 }
 
 interface AIClue {
-  word: string; // Слово-подсказка
-  count: number; // Количество связанных слов
-  reasoning?: string; // Объяснение (для debug/display)
-  confidence: number; // 0-1
+  word: string;                  // Слово-подсказка
+  count: number;                 // Количество связанных слов
+  reasoning?: string;            // Объяснение (для debug/display)
+  confidence: number;            // 0-1
 }
 ```
 
@@ -86,16 +86,16 @@ interface AICheckEvaluatorService {
 }
 
 interface CheckEvaluationContext {
-  concept: string; // "localStorage"
-  question: string; // "В чём отличие от sessionStorage?"
-  playerAnswer: string; // Ответ игрока
-  referenceAnswer: string; // Эталонный ответ
+  concept: string;               // "localStorage"
+  question: string;              // "В чём отличие от sessionStorage?"
+  playerAnswer: string;          // Ответ игрока
+  referenceAnswer: string;       // Эталонный ответ
 }
 
 interface AICheckResult {
   pointGranted: boolean;
-  feedback: string; // "Ответ верный" / "Не хватает ключевых моментов"
-  confidence: number; // 0-1
+  feedback: string;              // "Ответ верный" / "Не хватает ключевых моментов"
+  confidence: number;            // 0-1
 }
 ```
 
@@ -124,23 +124,12 @@ interface AICheckResult {
         {
           "question": "Что такое замыкание в JavaScript?",
           "referenceAnswer": "Замыкание — это функция, которая запоминает и имеет доступ к переменным из внешней (лексической) области видимости, даже после того как внешняя функция завершила выполнение.",
-          "keywords": [
-            "функция",
-            "внешняя область",
-            "лексическое окружение",
-            "доступ",
-            "переменные"
-          ]
+          "keywords": ["функция", "внешняя область", "лексическое окружение", "доступ", "переменные"]
         },
         {
           "question": "Приведите практический пример использования замыкания.",
           "referenceAnswer": "Счётчик: function makeCounter() { let count = 0; return () => ++count; }. Каждый вызов makeCounter() создаёт независимый счётчик благодаря замыканию.",
-          "keywords": [
-            "счётчик",
-            "приватная переменная",
-            "фабрика",
-            "состояние"
-          ]
+          "keywords": ["счётчик", "приватная переменная", "фабрика", "состояние"]
         }
       ]
     },
@@ -151,14 +140,7 @@ interface AICheckResult {
         {
           "question": "Чем Promise отличается от callback?",
           "referenceAnswer": "Promise — это объект, представляющий результат асинхронной операции. В отличие от callback, Promise позволяет цепочку через .then(), единообразную обработку ошибок через .catch() и избавляет от callback hell.",
-          "keywords": [
-            "объект",
-            "асинхронная операция",
-            "then",
-            "catch",
-            "цепочка",
-            "callback hell"
-          ]
+          "keywords": ["объект", "асинхронная операция", "then", "catch", "цепочка", "callback hell"]
         }
       ]
     }
@@ -207,60 +189,21 @@ interface AICheckResult {
 
 ```typescript
 const HARDCODED_CLUES: Record<string, { clue: string; words: string[] }> = {
-  "closure,hoisting,scope": {
-    clue: "область видимости",
-    words: ["closure", "hoisting", "scope"],
-  },
-  "Promise,async/await,event loop": {
-    clue: "асинхронность",
-    words: ["Promise", "async/await", "event loop"],
-  },
-  "generics,interface,type": {
-    clue: "типизация",
-    words: ["generics", "interface", "type"],
-  },
-  "prototype,class,extends": {
-    clue: "наследование",
-    words: ["prototype", "class", "extends"],
-  },
-  "localStorage,sessionStorage,cookie": {
-    clue: "хранение данных",
-    words: ["localStorage", "sessionStorage", "cookie"],
-  },
-  "map,filter,reduce": { clue: "массивы", words: ["map", "filter", "reduce"] },
-  "Map,Set,WeakMap": { clue: "коллекции", words: ["Map", "Set", "WeakMap"] },
-  "import,export,default": {
-    clue: "модули",
-    words: ["import", "export", "default"],
-  },
-  "try/catch,Error,throw": {
-    clue: "обработка ошибок",
-    words: ["try/catch", "Error", "throw"],
-  },
-  "querySelector,addEventListener,event delegation": {
-    clue: "DOM",
-    words: ["querySelector", "addEventListener", "event delegation"],
-  },
-  "Proxy,Reflect,Symbol": {
-    clue: "метапрограммирование",
-    words: ["Proxy", "Reflect", "Symbol"],
-  },
-  "fetch,WebSocket,CORS": {
-    clue: "сеть",
-    words: ["fetch", "WebSocket", "CORS"],
-  },
-  "var,let,const": {
-    clue: "объявление переменных",
-    words: ["var", "let", "const"],
-  },
-  "setTimeout,setInterval,requestAnimationFrame": {
-    clue: "таймеры",
-    words: ["setTimeout", "setInterval", "requestAnimationFrame"],
-  },
-  "spread,rest,destructuring": {
-    clue: "синтаксис ES6",
-    words: ["spread", "rest", "destructuring"],
-  },
+  'closure,hoisting,scope': { clue: 'область видимости', words: ['closure', 'hoisting', 'scope'] },
+  'Promise,async/await,event loop': { clue: 'асинхронность', words: ['Promise', 'async/await', 'event loop'] },
+  'generics,interface,type': { clue: 'типизация', words: ['generics', 'interface', 'type'] },
+  'prototype,class,extends': { clue: 'наследование', words: ['prototype', 'class', 'extends'] },
+  'localStorage,sessionStorage,cookie': { clue: 'хранение данных', words: ['localStorage', 'sessionStorage', 'cookie'] },
+  'map,filter,reduce': { clue: 'массивы', words: ['map', 'filter', 'reduce'] },
+  'Map,Set,WeakMap': { clue: 'коллекции', words: ['Map', 'Set', 'WeakMap'] },
+  'import,export,default': { clue: 'модули', words: ['import', 'export', 'default'] },
+  'try/catch,Error,throw': { clue: 'обработка ошибок', words: ['try/catch', 'Error', 'throw'] },
+  'querySelector,addEventListener,event delegation': { clue: 'DOM', words: ['querySelector', 'addEventListener', 'event delegation'] },
+  'Proxy,Reflect,Symbol': { clue: 'метапрограммирование', words: ['Proxy', 'Reflect', 'Symbol'] },
+  'fetch,WebSocket,CORS': { clue: 'сеть', words: ['fetch', 'WebSocket', 'CORS'] },
+  'var,let,const': { clue: 'объявление переменных', words: ['var', 'let', 'const'] },
+  'setTimeout,setInterval,requestAnimationFrame': { clue: 'таймеры', words: ['setTimeout', 'setInterval', 'requestAnimationFrame'] },
+  'spread,rest,destructuring': { clue: 'синтаксис ES6', words: ['spread', 'rest', 'destructuring'] },
   // ... 10-15 предопределённых комбинаций
 };
 
@@ -270,13 +213,13 @@ class HardcodedSpymasterService implements AISpymasterService {
     await this.delay(1000 + Math.random() * 2000);
 
     const unrevealed = context.myWords.filter(
-      (w) => !context.revealedWords.includes(w),
+      w => !context.revealedWords.includes(w)
     );
 
     // Ищем совпадение в таблице
     for (const [key, value] of Object.entries(HARDCODED_CLUES)) {
-      const keyWords = key.split(",");
-      const matchingWords = unrevealed.filter((w) => keyWords.includes(w));
+      const keyWords = key.split(',');
+      const matchingWords = unrevealed.filter(w => keyWords.includes(w));
 
       if (matchingWords.length >= 2) {
         return {
@@ -290,15 +233,15 @@ class HardcodedSpymasterService implements AISpymasterService {
 
     // Fallback: одно слово
     return {
-      word: "JavaScript",
+      word: 'JavaScript',
       count: 1,
-      reasoning: "Fallback: нет совпадений в таблице",
+      reasoning: 'Fallback: нет совпадений в таблице',
       confidence: 0.3,
     };
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -312,59 +255,18 @@ class HardcodedSpymasterService implements AISpymasterService {
 ```typescript
 // Предопределённая карта категорий
 const WORD_CATEGORIES: Record<string, string[]> = {
-  асинхронность: [
-    "Promise",
-    "async/await",
-    "event loop",
-    "setTimeout",
-    "callback",
-    "microtask",
-  ],
-  типизация: ["generics", "interface", "type", "enum", "any", "unknown"],
-  "область видимости": [
-    "closure",
-    "scope",
-    "hoisting",
-    "var",
-    "let",
-    "const",
-    "IIFE",
-  ],
-  наследование: ["prototype", "class", "extends", "super", "this", "new"],
-  "хранение данных": [
-    "localStorage",
-    "sessionStorage",
-    "cookie",
-    "IndexedDB",
-    "Cache API",
-  ],
-  массивы: [
-    "map",
-    "filter",
-    "reduce",
-    "forEach",
-    "spread",
-    "rest",
-    "destructuring",
-  ],
-  коллекции: ["Map", "Set", "WeakMap", "WeakSet", "iterator", "generator"],
-  модули: ["import", "export", "default", "namespace", "barrel"],
-  "обработка ошибок": [
-    "try/catch",
-    "Error",
-    "throw",
-    "finally",
-    "Promise.catch",
-  ],
-  DOM: [
-    "querySelector",
-    "addEventListener",
-    "event delegation",
-    "shadow DOM",
-    "template",
-  ],
-  метапрограммирование: ["Proxy", "Reflect", "Symbol", "decorator", "WeakRef"],
-  сеть: ["fetch", "XMLHttpRequest", "WebSocket", "CORS", "HTTP"],
+  'асинхронность': ['Promise', 'async/await', 'event loop', 'setTimeout', 'callback', 'microtask'],
+  'типизация': ['generics', 'interface', 'type', 'enum', 'any', 'unknown'],
+  'область видимости': ['closure', 'scope', 'hoisting', 'var', 'let', 'const', 'IIFE'],
+  'наследование': ['prototype', 'class', 'extends', 'super', 'this', 'new'],
+  'хранение данных': ['localStorage', 'sessionStorage', 'cookie', 'IndexedDB', 'Cache API'],
+  'массивы': ['map', 'filter', 'reduce', 'forEach', 'spread', 'rest', 'destructuring'],
+  'коллекции': ['Map', 'Set', 'WeakMap', 'WeakSet', 'iterator', 'generator'],
+  'модули': ['import', 'export', 'default', 'namespace', 'barrel'],
+  'обработка ошибок': ['try/catch', 'Error', 'throw', 'finally', 'Promise.catch'],
+  'DOM': ['querySelector', 'addEventListener', 'event delegation', 'shadow DOM', 'template'],
+  'метапрограммирование': ['Proxy', 'Reflect', 'Symbol', 'decorator', 'WeakRef'],
+  'сеть': ['fetch', 'XMLHttpRequest', 'WebSocket', 'CORS', 'HTTP'],
 };
 
 class MockSpymasterService implements AISpymasterService {
@@ -373,7 +275,7 @@ class MockSpymasterService implements AISpymasterService {
     await this.delay(1000 + Math.random() * 2000);
 
     const unrevealed = context.myWords.filter(
-      (w) => !context.revealedWords.includes(w),
+      w => !context.revealedWords.includes(w)
     );
 
     // Находим лучшую категорию
@@ -381,7 +283,7 @@ class MockSpymasterService implements AISpymasterService {
       unrevealed,
       context.opponentWords,
       context.bombWord,
-      context.difficulty,
+      context.difficulty
     );
 
     return bestMatch;
@@ -391,37 +293,32 @@ class MockSpymasterService implements AISpymasterService {
     myWords: string[],
     opponentWords: string[],
     bombWord: string,
-    difficulty: "easy" | "medium" | "hard",
+    difficulty: 'easy' | 'medium' | 'hard'
   ): AIClue {
-    let bestCategory = "";
+    let bestCategory = '';
     let bestCount = 0;
     let bestConfidence = 0;
 
     for (const [category, words] of Object.entries(WORD_CATEGORIES)) {
       // Сколько моих слов попадает в категорию
-      const myMatches = myWords.filter((w) =>
-        words.some((cw) => cw.toLowerCase() === w.toLowerCase()),
+      const myMatches = myWords.filter(w =>
+        words.some(cw => cw.toLowerCase() === w.toLowerCase())
       );
 
       // Сколько слов соперника попадает (опасность)
-      const opponentMatches = opponentWords.filter((w) =>
-        words.some((cw) => cw.toLowerCase() === w.toLowerCase()),
+      const opponentMatches = opponentWords.filter(w =>
+        words.some(cw => cw.toLowerCase() === w.toLowerCase())
       );
 
       // Бомба в категории?
-      const bombMatch = words.some(
-        (cw) => cw.toLowerCase() === bombWord.toLowerCase(),
-      );
+      const bombMatch = words.some(cw => cw.toLowerCase() === bombWord.toLowerCase());
 
-      if (bombMatch) continue; // Никогда не подсказываем категорию с бомбой
+      if (bombMatch) continue;  // Никогда не подсказываем категорию с бомбой
 
       // Оценка: свои минус чужие
       const score = myMatches.length - opponentMatches.length * 2;
 
-      if (
-        score > bestCount ||
-        (score === bestCount && myMatches.length > bestCount)
-      ) {
+      if (score > bestCount || (score === bestCount && myMatches.length > bestCount)) {
         bestCategory = category;
         bestCount = myMatches.length;
         bestConfidence = score / myWords.length;
@@ -429,8 +326,7 @@ class MockSpymasterService implements AISpymasterService {
     }
 
     // Ограничиваем count по сложности
-    const maxCount =
-      difficulty === "easy" ? 2 : difficulty === "medium" ? 3 : 4;
+    const maxCount = difficulty === 'easy' ? 2 : difficulty === 'medium' ? 3 : 4;
     const clueCount = Math.min(bestCount, maxCount);
 
     // Fallback: если нет совпадений, берём случайное слово
@@ -438,7 +334,7 @@ class MockSpymasterService implements AISpymasterService {
       return {
         word: this.getRandomFallbackClue(myWords),
         count: 1,
-        reasoning: "Fallback: прямая ассоциация со словом",
+        reasoning: 'Fallback: прямая ассоциация со словом',
         confidence: 0.3,
       };
     }
@@ -454,24 +350,24 @@ class MockSpymasterService implements AISpymasterService {
   private getRandomFallbackClue(words: string[]): string {
     // Простые ассоциации для fallback
     const associations: Record<string, string> = {
-      closure: "замок",
-      Promise: "обещание",
-      prototype: "прародитель",
-      "async/await": "ожидание",
-      this: "контекст",
-      hoisting: "подъём",
-      scope: "область",
-      class: "чертёж",
-      Map: "карта",
-      Set: "набор",
+      'closure': 'замок',
+      'Promise': 'обещание',
+      'prototype': 'прародитель',
+      'async/await': 'ожидание',
+      'this': 'контекст',
+      'hoisting': 'подъём',
+      'scope': 'область',
+      'class': 'чертёж',
+      'Map': 'карта',
+      'Set': 'набор',
     };
 
     const word = words[Math.floor(Math.random() * words.length)];
-    return associations[word] || "JavaScript";
+    return associations[word] || 'JavaScript';
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -482,30 +378,28 @@ class MockSpymasterService implements AISpymasterService {
 
 ### Рекомендуемый план по неделям
 
-| Неделя     | Уровень                           | Что делаем                                 |
-| ---------- | --------------------------------- | ------------------------------------------ |
-| Неделя 3   | Уровень 0: Hardcoded MVP          | Lookup-таблица, первое демо game loop      |
-| Недели 4-5 | Уровень 1: Category Matching      | Алгоритм категорий, реалистичные подсказки |
-| Неделя 6   | Уровень 2: Real LLM (опционально) | Только если всё остальное готово           |
+| Неделя | Уровень | Что делаем |
+|--------|---------|------------|
+| Неделя 3 | Уровень 0: Hardcoded MVP | Lookup-таблица, первое демо game loop |
+| Недели 4-5 | Уровень 1: Category Matching | Алгоритм категорий, реалистичные подсказки |
+| Неделя 6 | Уровень 2: Real LLM (опционально) | Только если всё остальное готово |
 
 ### Пример работы мока (Уровень 1)
 
 **Входные данные:**
-
 ```typescript
 context = {
-  myWords: ["closure", "hoisting", "scope", "Promise", "Map"],
-  opponentWords: ["prototype", "class", "extends"],
-  neutralWords: ["spread", "rest", "BigInt"],
-  bombWord: "eval",
+  myWords: ['closure', 'hoisting', 'scope', 'Promise', 'Map'],
+  opponentWords: ['prototype', 'class', 'extends'],
+  neutralWords: ['spread', 'rest', 'BigInt'],
+  bombWord: 'eval',
   revealedWords: [],
   moveHistory: [],
-  difficulty: "medium",
-};
+  difficulty: 'medium',
+}
 ```
 
 **Результат:**
-
 ```typescript
 {
   word: 'область видимости',    // Категория, покрывающая closure, hoisting, scope
@@ -525,9 +419,7 @@ context = {
 
 ```typescript
 class MockCheckEvaluatorService implements AICheckEvaluatorService {
-  async evaluateAnswer(
-    context: CheckEvaluationContext,
-  ): Promise<AICheckResult> {
+  async evaluateAnswer(context: CheckEvaluationContext): Promise<AICheckResult> {
     // Симулируем "думание AI" (0.8-2 секунды)
     await this.delay(800 + Math.random() * 1200);
 
@@ -535,22 +427,14 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
     const playerWords = context.playerAnswer.toLowerCase();
 
     // Считаем совпадения
-    const matches = keywords.filter((kw) =>
-      playerWords.includes(kw.toLowerCase()),
-    );
-    const matchRatio =
-      keywords.length > 0 ? matches.length / keywords.length : 0;
+    const matches = keywords.filter(kw => playerWords.includes(kw.toLowerCase()));
+    const matchRatio = keywords.length > 0 ? matches.length / keywords.length : 0;
 
     // Порог: 30% ключевых слов = засчитано (мок мягкий)
     const pointGranted = matchRatio >= 0.3;
 
     // Генерируем feedback
-    const feedback = this.generateFeedback(
-      pointGranted,
-      matches,
-      keywords,
-      context.concept,
-    );
+    const feedback = this.generateFeedback(pointGranted, matches, keywords, context.concept);
 
     return {
       pointGranted,
@@ -562,69 +446,40 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
   private extractKeywords(text: string): string[] {
     // Убираем стоп-слова, извлекаем значимые слова
     const stopWords = new Set([
-      "это",
-      "и",
-      "в",
-      "на",
-      "что",
-      "как",
-      "не",
-      "для",
-      "с",
-      "по",
-      "а",
-      "но",
-      "из",
-      "к",
-      "от",
-      "до",
-      "при",
-      "или",
-      "же",
-      "то",
-      "the",
-      "is",
-      "a",
-      "an",
-      "in",
-      "on",
-      "for",
-      "to",
-      "of",
-      "and",
+      'это', 'и', 'в', 'на', 'что', 'как', 'не', 'для', 'с', 'по',
+      'а', 'но', 'из', 'к', 'от', 'до', 'при', 'или', 'же', 'то',
+      'the', 'is', 'a', 'an', 'in', 'on', 'for', 'to', 'of', 'and',
     ]);
 
     return text
       .toLowerCase()
-      .replace(/[^\wа-яё\s]/gi, "")
+      .replace(/[^\wа-яё\s]/gi, '')
       .split(/\s+/)
-      .filter((word) => word.length > 3 && !stopWords.has(word))
-      .slice(0, 10); // Максимум 10 ключевых слов
+      .filter(word => word.length > 3 && !stopWords.has(word))
+      .slice(0, 10);  // Максимум 10 ключевых слов
   }
 
   private generateFeedback(
     granted: boolean,
     matches: string[],
     allKeywords: string[],
-    concept: string,
+    concept: string
   ): string {
     if (granted && matches.length >= allKeywords.length * 0.7) {
       return `Отличный ответ! Вы хорошо понимаете ${concept}.`;
     }
     if (granted) {
-      return `Ответ засчитан. Можно было также упомянуть: ${allKeywords
-        .filter((k) => !matches.includes(k))
-        .slice(0, 2)
-        .join(", ")}.`;
+      return `Ответ засчитан. Можно было также упомянуть: ${
+        allKeywords.filter(k => !matches.includes(k)).slice(0, 2).join(', ')
+      }.`;
     }
-    return `Ответ не засчитан. Ключевые моменты, которых не хватило: ${allKeywords
-      .filter((k) => !matches.includes(k))
-      .slice(0, 3)
-      .join(", ")}.`;
+    return `Ответ не засчитан. Ключевые моменты, которых не хватило: ${
+      allKeywords.filter(k => !matches.includes(k)).slice(0, 3).join(', ')
+    }.`;
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -632,16 +487,13 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
 ### Пример работы мока
 
 **Входные данные:**
-
 ```typescript
 context = {
-  concept: "localStorage",
-  question: "В чём отличие от sessionStorage?",
-  playerAnswer:
-    "localStorage сохраняет данные навсегда, а sessionStorage только на время сессии вкладки",
-  referenceAnswer:
-    "localStorage сохраняет данные без срока давности, данные сохраняются при закрытии браузера. sessionStorage хранит данные только в рамках текущей сессии: данные удаляются при закрытии вкладки.",
-};
+  concept: 'localStorage',
+  question: 'В чём отличие от sessionStorage?',
+  playerAnswer: 'localStorage сохраняет данные навсегда, а sessionStorage только на время сессии вкладки',
+  referenceAnswer: 'localStorage сохраняет данные без срока давности, данные сохраняются при закрытии браузера. sessionStorage хранит данные только в рамках текущей сессии: данные удаляются при закрытии вкладки.',
+}
 ```
 
 **Извлечённые ключевые слова:** `['localstorage', 'сохраняет', 'данные', 'давности', 'закрытии', 'браузера', 'sessionstorage', 'сессии', 'удаляются', 'вкладки']`
@@ -649,7 +501,6 @@ context = {
 **Совпадения в ответе:** `['localstorage', 'сохраняет', 'данные', 'sessionstorage', 'сессии', 'вкладки']` — 6 из 10 (60%)
 
 **Результат:**
-
 ```typescript
 {
   pointGranted: true,  // 60% > 30% порог
@@ -664,42 +515,42 @@ context = {
 
 ```typescript
 // ai/index.ts
-import { HardcodedSpymasterService } from "./hardcoded-spymaster";
-import { MockSpymasterService } from "./mock-spymaster";
-import { MockCheckEvaluatorService } from "./mock-check-evaluator";
+import { HardcodedSpymasterService } from './hardcoded-spymaster';
+import { MockSpymasterService } from './mock-spymaster';
+import { MockCheckEvaluatorService } from './mock-check-evaluator';
 // import { RealSpymasterService } from './real-spymaster';       // Future
 // import { RealCheckEvaluatorService } from './real-check-evaluator'; // Future
 
-const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== "false";
+const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== 'false';
 
 export const aiSpymaster: AISpymasterService = USE_MOCK_AI
   ? new MockSpymasterService()
-  : new MockSpymasterService(); // TODO: заменить на RealSpymasterService
+  : new MockSpymasterService();  // TODO: заменить на RealSpymasterService
 
 export const aiCheckEvaluator: AICheckEvaluatorService = USE_MOCK_AI
   ? new MockCheckEvaluatorService()
-  : new MockCheckEvaluatorService(); // TODO: заменить на RealCheckEvaluatorService
+  : new MockCheckEvaluatorService();  // TODO: заменить на RealCheckEvaluatorService
 ```
 
 ### Тестирование моков
 
 ```typescript
 // ai/__tests__/mock-spymaster.test.ts
-import { describe, it, expect } from "vitest";
-import { MockSpymasterService } from "../mock-spymaster";
+import { describe, it, expect } from 'vitest';
+import { MockSpymasterService } from '../mock-spymaster';
 
-describe("MockSpymasterService", () => {
+describe('MockSpymasterService', () => {
   const service = new MockSpymasterService();
 
-  it("should generate a clue with count > 0", async () => {
+  it('should generate a clue with count > 0', async () => {
     const clue = await service.generateClue({
-      myWords: ["closure", "hoisting", "scope"],
-      opponentWords: ["class", "extends"],
-      neutralWords: ["BigInt"],
-      bombWord: "eval",
+      myWords: ['closure', 'hoisting', 'scope'],
+      opponentWords: ['class', 'extends'],
+      neutralWords: ['BigInt'],
+      bombWord: 'eval',
       revealedWords: [],
       moveHistory: [],
-      difficulty: "medium",
+      difficulty: 'medium',
     });
 
     expect(clue.word).toBeTruthy();
@@ -707,19 +558,19 @@ describe("MockSpymasterService", () => {
     expect(clue.confidence).toBeGreaterThan(0);
   });
 
-  it("should never suggest a clue matching the bomb word category", async () => {
+  it('should never suggest a clue matching the bomb word category', async () => {
     // ... test that bomb word category is avoided
   });
 
-  it("should respect difficulty level for count", async () => {
+  it('should respect difficulty level for count', async () => {
     const easyClue = await service.generateClue({
-      myWords: ["closure", "hoisting", "scope", "let", "var"],
+      myWords: ['closure', 'hoisting', 'scope', 'let', 'var'],
       opponentWords: [],
       neutralWords: [],
-      bombWord: "eval",
+      bombWord: 'eval',
       revealedWords: [],
       moveHistory: [],
-      difficulty: "easy",
+      difficulty: 'easy',
     });
 
     expect(easyClue.count).toBeLessThanOrEqual(2);
@@ -826,14 +677,14 @@ stateDiagram-v2
 
 ### Solo Mode: особенности реализации
 
-| Аспект                 | Multiplayer                    | Solo                   |
-| ---------------------- | ------------------------------ | ---------------------- |
-| WebSocket              | Реальное подключение           | Не нужен (или Mock WS) |
-| Spymaster              | Живой человек                  | AI Mock                |
-| Таймер                 | Синхронизация сервер ↔ клиент | Только клиентский      |
-| Check Mode             | Настраивается хостом           | По умолчанию AI        |
-| Соперник               | Другая команда                 | Нет (играет один)      |
-| Сохранение результатов | На сервере                     | Локально или REST API  |
+| Аспект | Multiplayer | Solo |
+|--------|-------------|------|
+| WebSocket | Реальное подключение | Не нужен (или Mock WS) |
+| Spymaster | Живой человек | AI Mock |
+| Таймер | Синхронизация сервер ↔ клиент | Только клиентский |
+| Check Mode | Настраивается хостом | По умолчанию AI |
+| Соперник | Другая команда | Нет (играет один) |
+| Сохранение результатов | На сервере | Локально или REST API |
 
 ```typescript
 // Solo game loop (упрощённый)
@@ -966,30 +817,30 @@ Respond in JSON format:
 
 ## Эстимейт: AI + Solo Mode
 
-| Задача                                      | Min     | Max     | Avg       | Кто                 | Примечание                         |
-| ------------------------------------------- | ------- | ------- | --------- | ------------------- | ---------------------------------- |
-| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч      | Мудрый Мок (AI-Dev) | Оба сервиса                        |
-| Pre-generation questions.json               | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
-| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч      | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо    |
-| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч        | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм         |
-| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч      | Мудрый Мок (AI-Dev) | Keyword extraction + scoring       |
-| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | Настройки, кнопки                  |
-| Solo Game Controller (game loop)            | 5ч      | 10ч     | 7.5ч      | Мудрый Мок (AI-Dev) | Оркестрация AI + game              |
-| Landing page                                | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | Описание игры, кнопки              |
-| 404 page                                    | 1ч      | 2ч      | 1.5ч      | Мудрый Мок (AI-Dev) | Not Found                          |
-| Unit тесты моков                            | 3ч      | 5ч      | 4ч        | Мудрый Мок (AI-Dev) | Edge cases                         |
-| **Итого**                                   | **25ч** | **48ч** | **36.5ч** |                     |                                    |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Interface definitions (TypeScript) | 2ч | 3ч | 2.5ч | Мудрый Мок (AI-Dev) | Оба сервиса |
+| Pre-generation questions.json | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
+| Hardcoded Spymaster (Level 0) | 1ч | 2ч | 1.5ч | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо |
+| Mock Spymaster (category matching, Level 1) | 4ч | 8ч | 6ч | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм |
+| Mock Check Evaluator (keyword matching) | 3ч | 6ч | 4.5ч | Мудрый Мок (AI-Dev) | Keyword extraction + scoring |
+| Solo Setup page (UI) | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | Настройки, кнопки |
+| Solo Game Controller (game loop) | 5ч | 10ч | 7.5ч | Мудрый Мок (AI-Dev) | Оркестрация AI + game |
+| Landing page | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | Описание игры, кнопки |
+| 404 page | 1ч | 2ч | 1.5ч | Мудрый Мок (AI-Dev) | Not Found |
+| Unit тесты моков | 3ч | 5ч | 4ч | Мудрый Мок (AI-Dev) | Edge cases |
+| **Итого** | **25ч** | **48ч** | **36.5ч** | | |
 
 ### Распределение ролей в команде
 
-| Никнейм                    | Роль      | Зона ответственности                 |
-| -------------------------- | --------- | ------------------------------------ |
-| Великий Мёрдж (Lead)       | Lead      | Архитектура, code review, интеграция |
-| Тихий Сокет (WS-Dev)       | WS-Dev    | WebSocket сервер, Socket.IO, события |
-| Быстрый Рендер (Board-Dev) | Board-Dev | Игровое поле, карточки, анимации     |
-| Зоркий Линтер (Check-Dev)  | Check-Dev | Check Phase, вопросы, оценка ответов |
-| Мудрый Мок (AI-Dev)        | AI-Dev    | AI моки, Solo Mode, questions.json   |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev | Лобби, роутинг, создание комнат      |
+| Никнейм | Роль | Зона ответственности |
+|---------|------|---------------------|
+| Великий Мёрдж (Lead) | Lead | Архитектура, code review, интеграция |
+| Тихий Сокет (WS-Dev) | WS-Dev | WebSocket сервер, Socket.IO, события |
+| Быстрый Рендер (Board-Dev) | Board-Dev | Игровое поле, карточки, анимации |
+| Зоркий Линтер (Check-Dev) | Check-Dev | Check Phase, вопросы, оценка ответов |
+| Мудрый Мок (AI-Dev) | AI-Dev | AI моки, Solo Mode, questions.json |
+| Ловкий Роутер (Lobby-Dev) | Lobby-Dev | Лобби, роутинг, создание комнат |
 
 > **Примечание:** Mock Spymaster — самая интересная часть. Хороший мок создаёт иллюзию "умного AI" за счёт предопределённых категорий и случайности. Чем больше категорий в WORD_CATEGORIES, тем реалистичнее. Но начинайте с Уровня 0 (hardcoded) — для первого демо этого более чем достаточно.
 
@@ -1019,7 +870,7 @@ async generateClue(context: SpymasterContext): Promise<AIClue> {
 // Мок может выдать "метапрограммирование", а бомба — "Proxy"
 
 // Хорошо: явная проверка
-if (bombMatch) continue; // Пропускаем категорию с бомбой
+if (bombMatch) continue;  // Пропускаем категорию с бомбой
 ```
 
 ### 3. Слишком строгий Check Evaluator
@@ -1043,10 +894,6 @@ const ratio = matches.length / keywords.length; // NaN!
 
 // Хорошо: обработка пустого
 if (!playerAnswer.trim()) {
-  return {
-    pointGranted: false,
-    feedback: "Ответ не предоставлен.",
-    confidence: 0,
-  };
+  return { pointGranted: false, feedback: 'Ответ не предоставлен.', confidence: 0 };
 }
 ```

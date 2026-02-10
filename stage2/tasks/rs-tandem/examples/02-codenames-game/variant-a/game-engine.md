@@ -5,7 +5,6 @@
 ## Концепция
 
 Game Engine — это серверный компонент, который:
-
 1. Управляет жизненным циклом комнат (создание -> игра -> завершение)
 2. Поддерживает авторитетное состояние игры (единственный источник правды)
 3. Обрабатывает действия игроков через WebSocket
@@ -130,58 +129,54 @@ stateDiagram-v2
 ### Правила перехода ходов
 
 ```typescript
-function processGuess(
-  game: Game,
-  cardId: string,
-  playerId: string,
-): GuessResult {
-  const card = game.board.find((c) => c.id === cardId);
-  if (!card || card.status === "revealed") {
-    return { error: "INVALID_CARD" };
+function processGuess(game: Game, cardId: string, playerId: string): GuessResult {
+  const card = game.board.find(c => c.id === cardId);
+  if (!card || card.status === 'revealed') {
+    return { error: 'INVALID_CARD' };
   }
 
   // Открываем карточку
-  card.status = "revealed";
+  card.status = 'revealed';
 
   const currentTeam = game.currentTurn;
 
-  if (card.color === "bomb") {
+  if (card.color === 'bomb') {
     // Бомба -> мгновенный проигрыш
-    game.winner = currentTeam === "red" ? "blue" : "red";
-    game.currentPhase = "finished";
-    return { action: "game-over", reason: "bomb" };
+    game.winner = currentTeam === 'red' ? 'blue' : 'red';
+    game.currentPhase = 'finished';
+    return { action: 'game-over', reason: 'bomb' };
   }
 
   if (card.color === currentTeam) {
     // Своя карточка -> фаза Check (глобальный таймер НЕ останавливается)
-    game.currentPhase = "check";
+    game.currentPhase = 'check';
     game.teams[currentTeam].cardsLeft--;
 
     // Проверяем победу
     if (game.teams[currentTeam].cardsLeft === 0) {
-      return { action: "check-then-win" };
+      return { action: 'check-then-win' };
     }
 
     game.guessesRemaining--;
-    return { action: "check", cardId };
+    return { action: 'check', cardId };
   }
 
-  if (card.color === "neutral") {
+  if (card.color === 'neutral') {
     // Нейтральная -> ход переходит
-    return { action: "end-turn", reason: "neutral" };
+    return { action: 'end-turn', reason: 'neutral' };
   }
 
   // Карточка соперника -> ход переходит, соперник получает очко
-  const opponent = currentTeam === "red" ? "blue" : "red";
+  const opponent = currentTeam === 'red' ? 'blue' : 'red';
   game.teams[opponent].cardsLeft--;
 
   if (game.teams[opponent].cardsLeft === 0) {
     game.winner = opponent;
-    game.currentPhase = "finished";
-    return { action: "game-over", reason: "opponent-complete" };
+    game.currentPhase = 'finished';
+    return { action: 'game-over', reason: 'opponent-complete' };
   }
 
-  return { action: "end-turn", reason: "opponent-card" };
+  return { action: 'end-turn', reason: 'opponent-card' };
 }
 ```
 
@@ -359,29 +354,9 @@ flowchart TD
 
 ```typescript
 function generateRoomCode(): string {
-  const adjectives = [
-    "js",
-    "ts",
-    "react",
-    "node",
-    "algo",
-    "css",
-    "html",
-    "git",
-  ];
-  const nouns = [
-    "masters",
-    "ninjas",
-    "pros",
-    "devs",
-    "coders",
-    "wizards",
-    "gurus",
-    "hackers",
-  ];
-  const num = Math.floor(Math.random() * 99)
-    .toString()
-    .padStart(2, "0");
+  const adjectives = ['js', 'ts', 'react', 'node', 'algo', 'css', 'html', 'git'];
+  const nouns = ['masters', 'ninjas', 'pros', 'devs', 'coders', 'wizards', 'gurus', 'hackers'];
+  const num = Math.floor(Math.random() * 99).toString().padStart(2, '0');
   const adj = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
   return `${adj}-${noun}-${num}`;
@@ -401,10 +376,10 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
   // 2. Распределяем цвета: 9 red, 8 blue, 7 neutral, 1 bomb
   // Red идёт первой, поэтому у Red на 1 карточку больше
   const colors: CardColor[] = [
-    ...Array(9).fill("red" as CardColor),
-    ...Array(8).fill("blue" as CardColor),
-    ...Array(7).fill("neutral" as CardColor),
-    "bomb" as CardColor,
+    ...Array(9).fill('red' as CardColor),
+    ...Array(8).fill('blue' as CardColor),
+    ...Array(7).fill('neutral' as CardColor),
+    'bomb' as CardColor,
   ];
   const shuffledColors = shuffle(colors);
 
@@ -413,7 +388,7 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
     id: `card-${i}`,
     word: entry.word,
     color: shuffledColors[i],
-    status: "hidden" as CardStatus,
+    status: 'hidden' as CardStatus,
     position: i,
   }));
 }
@@ -435,21 +410,18 @@ function shuffle<T>(array: T[]): T[] {
 > **Критически важно:** Сервер НИКОГДА не отправляет цвета скрытых карточек оперативникам. Нарушение этого правила позволит увидеть ответы через DevTools.
 
 ```typescript
-function getGameStateForPlayer(
-  game: Game,
-  playerId: string,
-): GameStateForPlayer {
+function getGameStateForPlayer(game: Game, playerId: string): GameStateForPlayer {
   const isSpymaster =
     game.teams.red.spymasterId === playerId ||
     game.teams.blue.spymasterId === playerId;
 
   return {
-    board: game.board.map((card) => ({
+    board: game.board.map(card => ({
       id: card.id,
       word: card.word,
       status: card.status,
       // Капитан видит все цвета. Оперативник — только открытых карточек
-      color: card.status === "revealed" || isSpymaster ? card.color : null,
+      color: (card.status === 'revealed' || isSpymaster) ? card.color : null,
       position: card.position,
     })),
     currentTurn: game.currentTurn,
@@ -469,7 +441,6 @@ function getGameStateForPlayer(
 ### Пример: что видит капитан vs оперативник
 
 **Капитан (Spymaster):**
-
 ```
 +----------+----------+----------+----------+----------+
 | closure  |prototype | Promise  |   this   | hoisting |
@@ -482,7 +453,6 @@ function getGameStateForPlayer(
 ```
 
 **Оперативник (Operative):**
-
 ```
 +----------+----------+----------+----------+----------+
 | closure  |prototype | Promise  |   this   | hoisting |
@@ -518,23 +488,20 @@ class GameEventBus {
   }
 
   emit<T>(event: string, payload: T): void {
-    this.listeners.get(event)?.forEach((handler) => handler(payload));
+    this.listeners.get(event)?.forEach(handler => handler(payload));
   }
 }
 
 // Использование
 const bus = new GameEventBus();
 
-bus.on<Clue>("game:clue-given", (clue) => {
+bus.on<Clue>('game:clue-given', (clue) => {
   updateClueDisplay(clue);
 });
 
-bus.on<{ cardId: string; color: CardColor }>(
-  "game:card-revealed",
-  ({ cardId, color }) => {
-    animateCardReveal(cardId, color);
-  },
-);
+bus.on<{ cardId: string; color: CardColor }>('game:card-revealed', ({ cardId, color }) => {
+  animateCardReveal(cardId, color);
+});
 ```
 
 ### State Pattern для фаз игры
@@ -552,26 +519,22 @@ interface PhaseUIState {
   boardClickable: boolean;
   clueInputVisible: boolean;
   endTurnVisible: boolean;
-  turnTimerActive: boolean; // глобальный таймер хода (2 мин)
-  checkTimerActive: boolean; // отдельный Check-таймер (30с)
-  overlayActive: boolean; // для Check Phase
+  turnTimerActive: boolean;       // глобальный таймер хода (2 мин)
+  checkTimerActive: boolean;      // отдельный Check-таймер (30с)
+  overlayActive: boolean;         // для Check Phase
 }
 
 // Реализация для фазы угадывания
 class GuessPhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = "guess";
+  phase: GamePhase = 'guess';
 
-  canGiveClue(): boolean {
-    return false;
-  }
+  canGiveClue(): boolean { return false; }
 
   canGuess(playerId: string, game: Game): boolean {
     const team = getPlayerTeam(playerId, game);
-    return (
-      team === game.currentTurn &&
-      !isSpymaster(playerId, game) &&
-      game.guessesRemaining > 0
-    );
+    return team === game.currentTurn
+      && !isSpymaster(playerId, game)
+      && game.guessesRemaining > 0;
   }
 
   canEndTurn(playerId: string, game: Game): boolean {
@@ -593,25 +556,19 @@ class GuessPhaseHandler implements GamePhaseHandler {
 
 // Реализация для фазы проверки
 class CheckPhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = "check";
+  phase: GamePhase = 'check';
 
-  canGiveClue(): boolean {
-    return false;
-  }
-  canGuess(): boolean {
-    return false;
-  }
-  canEndTurn(): boolean {
-    return false;
-  }
+  canGiveClue(): boolean { return false; }
+  canGuess(): boolean { return false; }
+  canEndTurn(): boolean { return false; }
 
   getUIState(): PhaseUIState {
     return {
       boardClickable: false,
       clueInputVisible: false,
       endTurnVisible: false,
-      turnTimerActive: true, // глобальный таймер НЕ останавливается
-      checkTimerActive: true, // Check-таймер 30с активен
+      turnTimerActive: true,       // глобальный таймер НЕ останавливается
+      checkTimerActive: true,      // Check-таймер 30с активен
       overlayActive: true,
     };
   }
@@ -636,7 +593,7 @@ class CheckPhaseHandler implements GamePhaseHandler {
 // Сервер: при начале хода
 function startTurn(game: Game): void {
   game.turnEndTime = Date.now() + game.settings.turnTimeSeconds * 1000; // 2 мин
-  broadcast("game:timer-sync", {
+  broadcast('game:timer-sync', {
     turnEndTime: game.turnEndTime,
   });
 }
@@ -648,7 +605,7 @@ function startCheckTimer(game: Game, playerId: string): void {
   game.checkDeadline = Date.now() + CHECK_DURATION_MS;
 
   // Отправляем вопрос с дедлайном Check-таймера
-  sendToPlayer(playerId, "check:question", {
+  sendToPlayer(playerId, 'check:question', {
     id: game.currentCheck.id,
     word: game.currentCheck.word,
     question: game.currentCheck.question,
@@ -657,9 +614,9 @@ function startCheckTimer(game: Game, playerId: string): void {
 
   // Серверный таймаут: если игрок не ответил за 30с — очко не начисляется
   game.checkTimeout = setTimeout(() => {
-    if (game.currentPhase === "check") {
-      game.currentPhase = "guess";
-      broadcast("check:result", { pointGranted: false, reason: "timeout" });
+    if (game.currentPhase === 'check') {
+      game.currentPhase = 'guess';
+      broadcast('check:result', { pointGranted: false, reason: 'timeout' });
     }
   }, CHECK_DURATION_MS);
 }
@@ -668,24 +625,21 @@ function startCheckTimer(game: Game, playerId: string): void {
 function handleCheckAnswer(game: Game, playerId: string, answer: string): void {
   clearTimeout(game.checkTimeout);
   const pointGranted = evaluateAnswer(game.currentCheck, answer);
-  game.currentPhase = "guess";
-  broadcast("check:result", { pointGranted });
+  game.currentPhase = 'guess';
+  broadcast('check:result', { pointGranted });
 }
 
 // Клиент: отображение ДВУХ таймеров
-function updateTimerDisplay(
-  turnEndTime: number,
-  checkDeadline: number | null,
-): void {
+function updateTimerDisplay(turnEndTime: number, checkDeadline: number | null): void {
   // 1. Глобальный таймер хода — тикает всегда
   const turnRemaining = Math.max(0, turnEndTime - Date.now());
   const seconds = Math.ceil(turnRemaining / 1000);
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  turnTimerElement.textContent = `${minutes}:${secs.toString().padStart(2, "0")}`;
+  turnTimerElement.textContent = `${minutes}:${secs.toString().padStart(2, '0')}`;
 
   if (turnRemaining <= 0) {
-    turnTimerElement.textContent = "Ожидание..."; // Сервер решит
+    turnTimerElement.textContent = 'Ожидание...';  // Сервер решит
   }
 
   // 2. Check-таймер — отображается только во время Check Phase
@@ -693,10 +647,10 @@ function updateTimerDisplay(
     const checkRemaining = Math.max(0, checkDeadline - Date.now());
     const checkSeconds = Math.ceil(checkRemaining / 1000);
     checkTimerElement.textContent = `${checkSeconds}с`;
-    checkTimerElement.classList.toggle("urgent", checkSeconds <= 10);
+    checkTimerElement.classList.toggle('urgent', checkSeconds <= 10);
 
     if (checkRemaining <= 0) {
-      checkTimerElement.textContent = "Время вышло!";
+      checkTimerElement.textContent = 'Время вышло!';
     }
   }
 }
@@ -722,46 +676,45 @@ class OptimisticBoardController {
 
   async handleCardClick(cardId: string): Promise<void> {
     const card = this.getCard(cardId);
-    if (!card || card.status === "revealed") return;
+    if (!card || card.status === 'revealed') return;
 
     // 1. Сохраняем текущее состояние для возможного отката
     this.pendingGuesses.set(cardId, { ...card });
 
     // 2. МГНОВЕННО показываем анимацию переворота (до ответа сервера)
-    card.status = "pending";
-    this.renderCard(cardId, "flipping"); // CSS-анимация переворота
+    card.status = 'pending';
+    this.renderCard(cardId, 'flipping'); // CSS-анимация переворота
 
     try {
       // 3. Отправляем на сервер
-      const result = await this.socket.emitWithAck("game:guess", { cardId });
+      const result = await this.socket.emitWithAck('game:guess', { cardId });
 
       // 4. Сервер ответил — применяем реальный результат
-      card.status = "revealed";
+      card.status = 'revealed';
       card.color = result.color;
-      this.renderCard(cardId, "revealed");
+      this.renderCard(cardId, 'revealed');
+
     } catch (error) {
       // 5. Ошибка — ОТКАТ к предыдущему состоянию
       const saved = this.pendingGuesses.get(cardId)!;
       Object.assign(card, saved);
-      this.renderCard(cardId, "hidden");
-      this.showToast("Ход не принят. Попробуйте ещё раз.");
+      this.renderCard(cardId, 'hidden');
+      this.showToast('Ход не принят. Попробуйте ещё раз.');
+
     } finally {
       this.pendingGuesses.delete(cardId);
     }
   }
 
-  private renderCard(
-    cardId: string,
-    state: "hidden" | "flipping" | "revealed",
-  ): void {
+  private renderCard(cardId: string, state: 'hidden' | 'flipping' | 'revealed'): void {
     const el = document.querySelector(`[data-card-id="${cardId}"]`);
     if (!el) return;
 
     el.className = `card ${state}`;
 
-    if (state === "flipping") {
+    if (state === 'flipping') {
       // Показываем спиннер / полупрозрачный переворот
-      el.classList.add("optimistic-pending");
+      el.classList.add('optimistic-pending');
     }
   }
 }
@@ -779,7 +732,7 @@ class OptimisticBoardController {
 }
 
 .card.optimistic-pending::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -793,9 +746,7 @@ class OptimisticBoardController {
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+  to { transform: rotate(360deg); }
 }
 ```
 
@@ -863,53 +814,22 @@ class OptimisticBoardController {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.card.revealed.red {
-  background: #ef5350;
-  color: white;
-}
-.card.revealed.blue {
-  background: #42a5f5;
-  color: white;
-}
-.card.revealed.neutral {
-  background: #bdbdbd;
-  color: #333;
-}
-.card.revealed.bomb {
-  background: #212121;
-  color: white;
-}
+.card.revealed.red    { background: #ef5350; color: white; }
+.card.revealed.blue   { background: #42a5f5; color: white; }
+.card.revealed.neutral { background: #bdbdbd; color: #333; }
+.card.revealed.bomb   { background: #212121; color: white; }
 
 /* Вид капитана: подсветка цветов на скрытых карточках */
-.spymaster-view .card.hidden.red {
-  border-color: #ef5350;
-  background: #ffebee;
-}
-.spymaster-view .card.hidden.blue {
-  border-color: #42a5f5;
-  background: #e3f2fd;
-}
-.spymaster-view .card.hidden.neutral {
-  border-color: #bdbdbd;
-  background: #fafafa;
-}
-.spymaster-view .card.hidden.bomb {
-  border-color: #212121;
-  background: #424242;
-  color: white;
-}
+.spymaster-view .card.hidden.red    { border-color: #ef5350; background: #ffebee; }
+.spymaster-view .card.hidden.blue   { border-color: #42a5f5; background: #e3f2fd; }
+.spymaster-view .card.hidden.neutral { border-color: #bdbdbd; background: #fafafa; }
+.spymaster-view .card.hidden.bomb   { border-color: #212121; background: #424242; color: white; }
 
 /* Анимация открытия карточки */
 @keyframes cardFlip {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(90deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
 }
 
 .card.revealing {
@@ -928,9 +848,8 @@ class OptimisticBoardController {
 Панель отображается **только на localhost** (или при наличии флага `VITE_DEV_TOOLS=true`). В продакшн-сборке панель полностью отсутствует в бандле.
 
 ```typescript
-const isDev =
-  window.location.hostname === "localhost" ||
-  import.meta.env.VITE_DEV_TOOLS === "true";
+const isDev = window.location.hostname === 'localhost'
+  || import.meta.env.VITE_DEV_TOOLS === 'true';
 
 if (isDev) {
   renderDevToolsPanel();
@@ -939,27 +858,24 @@ if (isDev) {
 
 ### Кнопки панели
 
-| Кнопка                    | Действие                                                  | Зачем нужно                                   |
-| ------------------------- | --------------------------------------------------------- | --------------------------------------------- |
-| **Reset Game State**      | Сбрасывает игру в начальное состояние (Lobby)             | Быстрый перезапуск без пересоздания комнаты   |
-| **Become Spymaster Red**  | Назначает текущего пользователя капитаном Red без логина  | Не нужно открывать 4 вкладки для тестирования |
-| **Become Spymaster Blue** | Назначает текущего пользователя капитаном Blue без логина | Аналогично                                    |
-| **Reveal All Cards**      | Показывает цвета всех карточек (как для Spymaster)        | Проверка корректности генерации поля          |
-| **Force End Turn**        | Принудительно завершает текущий ход                       | Тестирование смены ходов без угадывания       |
-| **Add Bot Player**        | Добавляет бота-заглушку в комнату                         | Набрать минимум 4 игрока одной вкладкой       |
+| Кнопка | Действие | Зачем нужно |
+|--------|----------|-------------|
+| **Reset Game State** | Сбрасывает игру в начальное состояние (Lobby) | Быстрый перезапуск без пересоздания комнаты |
+| **Become Spymaster Red** | Назначает текущего пользователя капитаном Red без логина | Не нужно открывать 4 вкладки для тестирования |
+| **Become Spymaster Blue** | Назначает текущего пользователя капитаном Blue без логина | Аналогично |
+| **Reveal All Cards** | Показывает цвета всех карточек (как для Spymaster) | Проверка корректности генерации поля |
+| **Force End Turn** | Принудительно завершает текущий ход | Тестирование смены ходов без угадывания |
+| **Add Bot Player** | Добавляет бота-заглушку в комнату | Набрать минимум 4 игрока одной вкладкой |
 
 ### Реализация
 
 ```typescript
 class DevToolsPanel {
-  constructor(
-    private socket: Socket,
-    private game: GameStateMachine,
-  ) {}
+  constructor(private socket: Socket, private game: GameStateMachine) {}
 
   render(): HTMLElement {
-    const panel = document.createElement("div");
-    panel.className = "devtools-panel";
+    const panel = document.createElement('div');
+    panel.className = 'devtools-panel';
     panel.innerHTML = `
       <div class="devtools-header">DevTools (God Mode)</div>
       <button data-action="reset">Reset Game State</button>
@@ -970,7 +886,7 @@ class DevToolsPanel {
       <button data-action="add-bot">Add Bot Player</button>
     `;
 
-    panel.addEventListener("click", (e) => {
+    panel.addEventListener('click', (e) => {
       const action = (e.target as HTMLElement).dataset.action;
       if (action) this.handleAction(action);
     });
@@ -980,7 +896,7 @@ class DevToolsPanel {
 
   private handleAction(action: string): void {
     // Все команды отправляются на сервер через специальный dev-канал
-    this.socket.emit("dev:command", { action });
+    this.socket.emit('dev:command', { action });
   }
 }
 ```
@@ -996,7 +912,7 @@ class DevToolsPanel {
   border-radius: 8px;
   padding: 12px;
   z-index: 9999;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   font-size: 12px;
 }
 
@@ -1031,86 +947,86 @@ class DevToolsPanel {
 ### Пример юнит-тестов
 
 ```typescript
-import { describe, it, expect } from "vitest";
-import { GameStateMachine } from "../engine/GameStateMachine";
+import { describe, it, expect } from 'vitest';
+import { GameStateMachine } from '../engine/GameStateMachine';
 
-describe("GameStateMachine", () => {
-  it("должен перейти в фазу check при угадывании своей карточки", () => {
+describe('GameStateMachine', () => {
+  it('должен перейти в фазу check при угадывании своей карточки', () => {
     const game = new GameStateMachine();
-    game.addPlayer("p1", "red", "operative");
-    game.addPlayer("p2", "red", "spymaster");
-    game.addPlayer("p3", "blue", "operative");
-    game.addPlayer("p4", "blue", "spymaster");
+    game.addPlayer('p1', 'red', 'operative');
+    game.addPlayer('p2', 'red', 'spymaster');
+    game.addPlayer('p3', 'blue', 'operative');
+    game.addPlayer('p4', 'blue', 'spymaster');
     game.startGame();
-    game.giveClue("p2", "Асинхронность", 3);
+    game.giveClue('p2', 'Асинхронность', 3);
 
-    const result = game.processGuess("p1", "card-1");
+    const result = game.processGuess('p1', 'card-1');
 
-    expect(result.action).toBe("check");
+    expect(result.action).toBe('check');
   });
 
-  it("должен завершить игру при клике на бомбу", () => {
+  it('должен завершить игру при клике на бомбу', () => {
     const game = new GameStateMachine();
-    game.addPlayer("p1", "red", "operative");
-    game.addPlayer("p2", "red", "spymaster");
-    game.addPlayer("p3", "blue", "operative");
-    game.addPlayer("p4", "blue", "spymaster");
+    game.addPlayer('p1', 'red', 'operative');
+    game.addPlayer('p2', 'red', 'spymaster');
+    game.addPlayer('p3', 'blue', 'operative');
+    game.addPlayer('p4', 'blue', 'spymaster');
     game.startGame();
-    game.giveClue("p2", "Тест", 1);
+    game.giveClue('p2', 'Тест', 1);
 
     // Находим карточку-бомбу
-    const bombCard = game.getBoard().find((c) => c.color === "bomb")!;
-    const result = game.processGuess("p1", bombCard.id);
+    const bombCard = game.getBoard().find(c => c.color === 'bomb')!;
+    const result = game.processGuess('p1', bombCard.id);
 
-    expect(result.action).toBe("game-over");
-    expect(result.reason).toBe("bomb");
-    expect(game.getWinner()).toBe("blue");
+    expect(result.action).toBe('game-over');
+    expect(result.reason).toBe('bomb');
+    expect(game.getWinner()).toBe('blue');
   });
 
-  it("должен передать ход при клике на нейтральную карточку", () => {
+  it('должен передать ход при клике на нейтральную карточку', () => {
     const game = new GameStateMachine();
-    game.addPlayer("p1", "red", "operative");
-    game.addPlayer("p2", "red", "spymaster");
-    game.addPlayer("p3", "blue", "operative");
-    game.addPlayer("p4", "blue", "spymaster");
+    game.addPlayer('p1', 'red', 'operative');
+    game.addPlayer('p2', 'red', 'spymaster');
+    game.addPlayer('p3', 'blue', 'operative');
+    game.addPlayer('p4', 'blue', 'spymaster');
     game.startGame();
-    game.giveClue("p2", "Тест", 1);
+    game.giveClue('p2', 'Тест', 1);
 
-    const neutralCard = game.getBoard().find((c) => c.color === "neutral")!;
-    const result = game.processGuess("p1", neutralCard.id);
+    const neutralCard = game.getBoard().find(c => c.color === 'neutral')!;
+    const result = game.processGuess('p1', neutralCard.id);
 
-    expect(result.action).toBe("end-turn");
-    expect(game.getCurrentTurn()).toBe("blue");
+    expect(result.action).toBe('end-turn');
+    expect(game.getCurrentTurn()).toBe('blue');
   });
 
-  it("не должен начислять очко при таймауте Check Phase", () => {
+  it('не должен начислять очко при таймауте Check Phase', () => {
     const game = new GameStateMachine();
-    game.addPlayer("p1", "red", "operative");
-    game.addPlayer("p2", "red", "spymaster");
-    game.addPlayer("p3", "blue", "operative");
-    game.addPlayer("p4", "blue", "spymaster");
+    game.addPlayer('p1', 'red', 'operative');
+    game.addPlayer('p2', 'red', 'spymaster');
+    game.addPlayer('p3', 'blue', 'operative');
+    game.addPlayer('p4', 'blue', 'spymaster');
     game.startGame();
-    game.giveClue("p2", "Тест", 2);
+    game.giveClue('p2', 'Тест', 2);
 
-    const ownCard = game.getBoard().find((c) => c.color === "red")!;
-    game.processGuess("p1", ownCard.id);
+    const ownCard = game.getBoard().find(c => c.color === 'red')!;
+    game.processGuess('p1', ownCard.id);
 
     // Симулируем таймаут Check Phase
     const result = game.checkTimedOut();
 
     expect(result.pointGranted).toBe(false);
-    expect(game.getCurrentPhase()).toBe("guess");
+    expect(game.getCurrentPhase()).toBe('guess');
   });
 });
 ```
 
 ### Стратегия тестирования
 
-| Уровень                     | Что тестируем                                                     | Покрытие                        | Скорость                        |
-| --------------------------- | ----------------------------------------------------------------- | ------------------------------- | ------------------------------- |
-| **Unit (GameStateMachine)** | Все переходы состояний, edge cases, подсчёт очков                 | 90% логики                      | Мгновенно (~50мс на весь suite) |
-| **Integration (WS)**        | Клиент подключается к серверу, отправляет событие, получает ответ | Транспортный слой               | Быстро (~2с)                    |
-| **E2E (Browser)**           | Полный сценарий в браузере                                        | "Клиент подключается к серверу" | Медленно (~30с)                 |
+| Уровень | Что тестируем | Покрытие | Скорость |
+|---------|---------------|----------|----------|
+| **Unit (GameStateMachine)** | Все переходы состояний, edge cases, подсчёт очков | 90% логики | Мгновенно (~50мс на весь suite) |
+| **Integration (WS)** | Клиент подключается к серверу, отправляет событие, получает ответ | Транспортный слой | Быстро (~2с) |
+| **E2E (Browser)** | Полный сценарий в браузере | "Клиент подключается к серверу" | Медленно (~30с) |
 
 > **Правило:** E2E тесты должны проверять только одно: "клиент подключается к серверу, отправляет событие и получает корректный ответ". Вся бизнес-логика покрывается юнит-тестами `GameStateMachine`. Это даёт быстрый feedback loop при разработке и надёжную защиту от регрессий.
 
@@ -1129,10 +1045,10 @@ describe("GameStateMachine", () => {
 ```typescript
 // Клиент: получаем или создаём sessionToken
 function getSessionToken(): string {
-  let token = localStorage.getItem("codenames_session_token");
+  let token = localStorage.getItem('codenames_session_token');
   if (!token) {
     token = crypto.randomUUID();
-    localStorage.setItem("codenames_session_token", token);
+    localStorage.setItem('codenames_session_token', token);
   }
   return token;
 }
@@ -1150,7 +1066,7 @@ const socket = io(SERVER_URL, {
 io.use((socket, next) => {
   const { sessionToken } = socket.handshake.auth;
   if (!sessionToken) {
-    return next(new Error("SESSION_TOKEN_REQUIRED"));
+    return next(new Error('SESSION_TOKEN_REQUIRED'));
   }
 
   // Привязываем sessionToken к сокету
@@ -1176,26 +1092,26 @@ io.use((socket, next) => {
 
 ```typescript
 // Сервер: обработка дисконнекта по sessionToken
-socket.on("disconnect", () => {
+socket.on('disconnect', () => {
   const { sessionToken } = socket.data;
   const room = roomManager.getRoomByPlayerToken(sessionToken);
   if (!room) return;
 
   room.markPlayerDisconnected(sessionToken);
-  broadcast(room.code, "room:player-disconnected", { sessionToken });
+  broadcast(room.code, 'room:player-disconnected', { sessionToken });
 
   // Даём 60 секунд на переподключение
   setTimeout(() => {
     const player = room.getPlayerByToken(sessionToken);
     if (player && !player.connected) {
       room.removePlayer(sessionToken);
-      broadcast(room.code, "room:player-left", { sessionToken });
+      broadcast(room.code, 'room:player-left', { sessionToken });
     }
   }, 60_000);
 });
 
 // Сервер: реконнект — игрок подключается с тем же sessionToken
-socket.on("room:rejoin", ({ roomCode }) => {
+socket.on('room:rejoin', ({ roomCode }) => {
   const { sessionToken } = socket.data;
   const room = roomManager.getRoom(roomCode);
   const player = room?.getPlayerByToken(sessionToken);
@@ -1207,9 +1123,9 @@ socket.on("room:rejoin", ({ roomCode }) => {
 
     // Отправляем полное состояние для восстановления UI
     const state = getGameStateForPlayer(room.game, player.id);
-    socket.emit("game:state", state);
+    socket.emit('game:state', state);
 
-    broadcast(roomCode, "room:player-reconnected", { sessionToken });
+    broadcast(roomCode, 'room:player-reconnected', { sessionToken });
   }
 });
 ```
@@ -1220,23 +1136,23 @@ socket.on("room:rejoin", ({ roomCode }) => {
 
 ## Эстимейт: Game Engine
 
-| Задача                                     | Min     | Max     | Avg       | Кто                                               | Примечание                   |
-| ------------------------------------------ | ------- | ------- | --------- | ------------------------------------------------- | ---------------------------- |
-| WS Server scaffold (Express + Socket.IO)   | 3ч      | 6ч      | 4.5ч      | Тихий Сокет (WS-Dev)                              | Setup, middleware            |
-| Room management (create/join/leave/roles)  | 4ч      | 8ч      | 6ч        | Тихий Сокет (WS-Dev)                              | Валидация, edge cases        |
-| Game state machine (сервер)                | 8ч      | 16ч     | 12ч       | Тихий Сокет (WS-Dev)                              | Ядро всей игры               |
-| Board generation + color assignment        | 2ч      | 4ч      | 3ч        | Тихий Сокет (WS-Dev)                              | Fisher-Yates, 9/8/7/1        |
-| Turn management + dual timer sync          | 4ч      | 8ч      | 6ч        | Тихий Сокет (WS-Dev)                              | Глобальный 2мин + Check 30с  |
-| Spymaster/Operative view filtering         | 2ч      | 4ч      | 3ч        | Тихий Сокет (WS-Dev)                              | Безопасность                 |
-| Auth middleware (sessionToken + Firebase)  | 2ч      | 4ч      | 3ч        | Великий Мёрдж (Lead) + Тихий Сокет (WS-Dev)       | Token verification           |
-| Client WS integration + EventBus           | 3ч      | 6ч      | 4.5ч      | Быстрый Рендер (Board-Dev)                        | Подписки на события          |
-| Game Board UI (5x5 grid, card component)   | 5ч      | 10ч     | 7.5ч      | Быстрый Рендер (Board-Dev)                        | HTML/CSS                     |
-| Card animations (flip, reveal, optimistic) | 3ч      | 6ч      | 4.5ч      | Быстрый Рендер (Board-Dev)                        | CSS transitions + rollback   |
-| Turn indicator, clue display, score        | 2ч      | 4ч      | 3ч        | Быстрый Рендер (Board-Dev)                        | UI компоненты                |
-| DevTools Panel (God Mode)                  | 2ч      | 4ч      | 3ч        | Великий Мёрдж (Lead)                              | Debug-панель, localhost only |
-| Headless state machine unit tests          | 3ч      | 6ч      | 4.5ч      | Зоркий Линтер (Check-Dev)                         | Vitest, 90% покрытие логики  |
-| Integration testing (WS + client)          | 4ч      | 8ч      | 6ч        | Быстрый Рендер (Board-Dev) + Тихий Сокет (WS-Dev) | Mock server + real           |
-| **Итого**                                  | **47ч** | **94ч** | **70.5ч** |                                                   |                              |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| WS Server scaffold (Express + Socket.IO) | 3ч | 6ч | 4.5ч | Тихий Сокет (WS-Dev) | Setup, middleware |
+| Room management (create/join/leave/roles) | 4ч | 8ч | 6ч | Тихий Сокет (WS-Dev) | Валидация, edge cases |
+| Game state machine (сервер) | 8ч | 16ч | 12ч | Тихий Сокет (WS-Dev) | Ядро всей игры |
+| Board generation + color assignment | 2ч | 4ч | 3ч | Тихий Сокет (WS-Dev) | Fisher-Yates, 9/8/7/1 |
+| Turn management + dual timer sync | 4ч | 8ч | 6ч | Тихий Сокет (WS-Dev) | Глобальный 2мин + Check 30с |
+| Spymaster/Operative view filtering | 2ч | 4ч | 3ч | Тихий Сокет (WS-Dev) | Безопасность |
+| Auth middleware (sessionToken + Firebase) | 2ч | 4ч | 3ч | Великий Мёрдж (Lead) + Тихий Сокет (WS-Dev) | Token verification |
+| Client WS integration + EventBus | 3ч | 6ч | 4.5ч | Быстрый Рендер (Board-Dev) | Подписки на события |
+| Game Board UI (5x5 grid, card component) | 5ч | 10ч | 7.5ч | Быстрый Рендер (Board-Dev) | HTML/CSS |
+| Card animations (flip, reveal, optimistic) | 3ч | 6ч | 4.5ч | Быстрый Рендер (Board-Dev) | CSS transitions + rollback |
+| Turn indicator, clue display, score | 2ч | 4ч | 3ч | Быстрый Рендер (Board-Dev) | UI компоненты |
+| DevTools Panel (God Mode) | 2ч | 4ч | 3ч | Великий Мёрдж (Lead) | Debug-панель, localhost only |
+| Headless state machine unit tests | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | Vitest, 90% покрытие логики |
+| Integration testing (WS + client) | 4ч | 8ч | 6ч | Быстрый Рендер (Board-Dev) + Тихий Сокет (WS-Dev) | Mock server + real |
+| **Итого** | **47ч** | **94ч** | **70.5ч** | | |
 
 > **Примечание:** Game State Machine — самая сложная часть. Там много edge cases: одновременные клики, дисконнект во время хода, Check Phase посреди угадывания, таймаут Check-таймера при активном глобальном таймере. Закладывайте время на отладку. DevTools Panel и юнит-тесты окупаются уже на первой неделе активной разработки движка.
 
@@ -1248,12 +1164,12 @@ socket.on("room:rejoin", ({ roomCode }) => {
 
 ```typescript
 // Плохо: отправляем всё состояние всем
-io.to(roomCode).emit("game:state", game);
+io.to(roomCode).emit('game:state', game);
 
 // Хорошо: фильтруем для каждого
 for (const socket of room.sockets) {
   const state = getGameStateForPlayer(game, socket.data.userId);
-  socket.emit("game:state", state);
+  socket.emit('game:state', state);
 }
 ```
 
@@ -1261,18 +1177,18 @@ for (const socket of room.sockets) {
 
 ```typescript
 // Плохо: клиент решает, правильный ли ход
-socket.on("game:guess-result", (result) => {
+socket.on('game:guess-result', (result) => {
   game.applyResult(result); // Клиент может подменить!
 });
 
 // Хорошо: сервер проверяет всё
-socket.on("game:guess", ({ cardId }) => {
+socket.on('game:guess', ({ cardId }) => {
   const result = processGuess(game, cardId, socket.data.userId);
   if (result.error) {
-    socket.emit("error", { message: result.error });
+    socket.emit('error', { message: result.error });
     return;
   }
-  broadcast(roomCode, "game:card-revealed", { cardId, color: card.color });
+  broadcast(roomCode, 'game:card-revealed', { cardId, color: card.color });
 });
 ```
 
@@ -1288,7 +1204,7 @@ class GameRoom {
 
   async handleGuess(playerId: string, cardId: string) {
     if (this.processing) {
-      return { error: "ACTION_IN_PROGRESS" };
+      return { error: 'ACTION_IN_PROGRESS' };
     }
     this.processing = true;
     try {
@@ -1304,17 +1220,17 @@ class GameRoom {
 
 ```typescript
 // Плохо: используем socket.id для идентификации игрока
-socket.on("disconnect", () => {
+socket.on('disconnect', () => {
   roomManager.removeRoom(socket.roomCode); // Все теряют прогресс!
 });
 
 // Плохо: socket.id меняется при переподключении
-socket.on("game:guess", ({ cardId }) => {
+socket.on('game:guess', ({ cardId }) => {
   const player = game.getPlayer(socket.id); // После реконнекта — другой id!
 });
 
 // Хорошо: идентифицируем по sessionToken
-socket.on("disconnect", () => {
+socket.on('disconnect', () => {
   const { sessionToken } = socket.data;
   const room = roomManager.getRoomByPlayerToken(sessionToken);
   room.markPlayerDisconnected(sessionToken);
@@ -1324,7 +1240,7 @@ socket.on("disconnect", () => {
     const player = room.getPlayerByToken(sessionToken);
     if (player && !player.connected) {
       room.removePlayer(sessionToken);
-      broadcast(room.code, "room:player-left", { sessionToken });
+      broadcast(room.code, 'room:player-left', { sessionToken });
     }
   }, 60_000);
 });

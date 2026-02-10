@@ -17,20 +17,20 @@
 
 ### Сценарии
 
-| Кто выбыл                  | Неделя | Что делать                                                                                    |
-| -------------------------- | ------ | --------------------------------------------------------------------------------------------- |
-| Великий Мёрдж (Lead)       | 1-2    | Тихий Сокет (WS-Dev) берёт CI/CD, Ловкий Роутер (Lobby-Dev) берёт Auth                        |
-| Великий Мёрдж (Lead)       | 3-5    | Убрать Theme Switcher, упростить auth (только email)                                          |
-| Тихий Сокет (WS-Dev)       | 1-2    | **КРИТИЧНО!** Экстренный переход на Firebase Realtime вместо custom WS (см. раздел SPOF ниже) |
-| Тихий Сокет (WS-Dev)       | 3-5    | Упростить: убрать reconnection, spectator mode, оставить базовую state machine                |
-| Быстрый Рендер (Board-Dev) | 1-2    | Мудрый Мок (AI-Dev) берёт Game Board (упрощённый, без анимаций)                               |
-| Быстрый Рендер (Board-Dev) | 3-5    | Без анимаций, базовая сетка. Карточки просто меняют цвет                                      |
-| Зоркий Линтер (Check-Dev)  | 1-2    | Мудрый Мок (AI-Dev) берёт Check Phase (только Self/Peer, без AI mode)                         |
-| Зоркий Линтер (Check-Dev)  | 3-5    | Self/Peer only, 20 вопросов, без расширения                                                   |
-| Мудрый Мок (AI-Dev)        | 1-2    | Зоркий Линтер (Check-Dev) берёт Solo Mode, подсказки — хардкод из файла                       |
-| Мудрый Мок (AI-Dev)        | 3-5    | Solo Mode с рандомными подсказками, без mock алгоритма                                        |
-| Ловкий Роутер (Lobby-Dev)  | 1-2    | Великий Мёрдж (Lead) берёт Lobby (минимальный), Profile откладывается                         |
-| Ловкий Роутер (Lobby-Dev)  | 3-5    | Минимальный Lobby (только create/join), без Results и Profile                                 |
+| Кто выбыл | Неделя | Что делать |
+|-----------|--------|------------|
+| Великий Мёрдж (Lead) | 1-2 | Тихий Сокет (WS-Dev) берёт CI/CD, Ловкий Роутер (Lobby-Dev) берёт Auth |
+| Великий Мёрдж (Lead) | 3-5 | Убрать Theme Switcher, упростить auth (только email) |
+| Тихий Сокет (WS-Dev) | 1-2 | **КРИТИЧНО!** Экстренный переход на Firebase Realtime вместо custom WS (см. раздел SPOF ниже) |
+| Тихий Сокет (WS-Dev) | 3-5 | Упростить: убрать reconnection, spectator mode, оставить базовую state machine |
+| Быстрый Рендер (Board-Dev) | 1-2 | Мудрый Мок (AI-Dev) берёт Game Board (упрощённый, без анимаций) |
+| Быстрый Рендер (Board-Dev) | 3-5 | Без анимаций, базовая сетка. Карточки просто меняют цвет |
+| Зоркий Линтер (Check-Dev) | 1-2 | Мудрый Мок (AI-Dev) берёт Check Phase (только Self/Peer, без AI mode) |
+| Зоркий Линтер (Check-Dev) | 3-5 | Self/Peer only, 20 вопросов, без расширения |
+| Мудрый Мок (AI-Dev) | 1-2 | Зоркий Линтер (Check-Dev) берёт Solo Mode, подсказки — хардкод из файла |
+| Мудрый Мок (AI-Dev) | 3-5 | Solo Mode с рандомными подсказками, без mock алгоритма |
+| Ловкий Роутер (Lobby-Dev) | 1-2 | Великий Мёрдж (Lead) берёт Lobby (минимальный), Profile откладывается |
+| Ловкий Роутер (Lobby-Dev) | 3-5 | Минимальный Lobby (только create/join), без Results и Profile |
 
 > **Самый критичный:** Тихий Сокет (WS-Dev). Без него нет мультиплеера. Если Тихий Сокет выбывает рано, переключайтесь на BaaS (Firebase Realtime или Supabase Realtime). Подробнее — в следующем разделе.
 
@@ -44,13 +44,13 @@
 
 Тихий Сокет (WS-Dev) — единственный человек, который пишет серверную State Machine, WebSocket протокол и Room Management. Вся команда из 5 оставшихся людей **зависит** от его работы:
 
-| Кто                        | Почему заблокирован без Тихого Сокета                            |
-| -------------------------- | ---------------------------------------------------------------- |
-| Быстрый Рендер (Board-Dev) | Не может интегрировать Game Board с сервером — нет WS событий    |
-| Зоркий Линтер (Check-Dev)  | Check Phase требует `check:question` / `check:result` от сервера |
-| Ловкий Роутер (Lobby-Dev)  | Lobby и Room зависят от `room:create`, `room:join`, `room:state` |
-| Мудрый Мок (AI-Dev)        | Solo Mode требует интеграции с серверной state machine           |
-| Великий Мёрдж (Lead)       | Auth middleware на WS — совместная задача                        |
+| Кто | Почему заблокирован без Тихого Сокета |
+|-----|---------------------------------------|
+| Быстрый Рендер (Board-Dev) | Не может интегрировать Game Board с сервером — нет WS событий |
+| Зоркий Линтер (Check-Dev) | Check Phase требует `check:question` / `check:result` от сервера |
+| Ловкий Роутер (Lobby-Dev) | Lobby и Room зависят от `room:create`, `room:join`, `room:state` |
+| Мудрый Мок (AI-Dev) | Solo Mode требует интеграции с серверной state machine |
+| Великий Мёрдж (Lead) | Auth middleware на WS — совместная задача |
 
 ### Сценарии провала
 
@@ -101,19 +101,16 @@ WebSocket при cold start **не устанавливает соединени
 ### Митигация
 
 1. **UptimeRobot (бесплатный)** — пингует `GET /health` каждые 10 минут, не даёт инстансу уснуть
-
    ```
    UptimeRobot → GET https://your-backend.onrender.com/health → каждые 10 мин
    ```
-
    Альтернатива: простой cron-job через GitHub Actions:
-
    ```yaml
    # .github/workflows/keep-alive.yml
    name: Keep Backend Alive
    on:
      schedule:
-       - cron: "*/10 * * * *" # каждые 10 минут
+       - cron: '*/10 * * * *'  # каждые 10 минут
    jobs:
      ping:
        runs-on: ubuntu-latest
@@ -122,7 +119,6 @@ WebSocket при cold start **не устанавливает соединени
    ```
 
 2. **"Просыпаемся..." экран на фронтенде** — если WebSocket не подключился за 3 секунды, показываем красивый loading экран вместо ошибки:
-
    ```typescript
    // ws/connect-with-warmup.ts
    async function connectWithWarmup(url: string): Promise<WSClient> {
@@ -138,10 +134,10 @@ WebSocket при cold start **не устанавливает соединени
        }, FAST_TIMEOUT);
 
        const slowTimer = setTimeout(() => {
-         reject(new Error("Backend did not wake up in time"));
+         reject(new Error('Backend did not wake up in time'));
        }, SLOW_TIMEOUT);
 
-       client.on("connect", () => {
+       client.on('connect', () => {
          clearTimeout(fastTimer);
          clearTimeout(slowTimer);
          hideWarmupScreen();
@@ -190,7 +186,7 @@ WebSocket при cold start **не устанавливает соединени
 ```typescript
 // Клиент: ws/session.ts
 function getOrCreateSessionToken(): string {
-  const STORAGE_KEY = "codenames_session_token";
+  const STORAGE_KEY = 'codenames_session_token';
   let token = localStorage.getItem(STORAGE_KEY);
   if (!token) {
     token = crypto.randomUUID(); // UUID v4
@@ -203,14 +199,14 @@ function getOrCreateSessionToken(): string {
 function connectToRoom(roomCode: string): void {
   const socket = io(BACKEND_URL, {
     auth: {
-      token: getAuthToken(), // Firebase Auth token
+      token: getAuthToken(),           // Firebase Auth token
       sessionToken: getOrCreateSessionToken(), // Session persistence
     },
     query: { roomCode },
   });
 
-  socket.on("connect", () => {
-    console.log("Connected with session:", getOrCreateSessionToken());
+  socket.on('connect', () => {
+    console.log('Connected with session:', getOrCreateSessionToken());
   });
 }
 ```
@@ -234,19 +230,19 @@ class RoomManager {
 
       // Отправляем полное состояние
       const player = this.players.get(sessionToken)!;
-      socket.emit("game:state", this.getGameStateForPlayer(player.id));
+      socket.emit('game:state', this.getGameStateForPlayer(player.id));
     } else {
       // New player
       const player: PlayerState = {
         id: sessionToken,
-        displayName: socket.handshake.auth.displayName || "Anonymous",
+        displayName: socket.handshake.auth.displayName || 'Anonymous',
         isConnected: true,
       };
       this.players.set(sessionToken, player);
       this.sockets.set(sessionToken, socket);
     }
 
-    socket.on("disconnect", () => {
+    socket.on('disconnect', () => {
       this.handleDisconnect(sessionToken);
     });
   }
@@ -257,12 +253,9 @@ class RoomManager {
     player.isConnected = false;
 
     // 60 секунд на реконнект
-    this.disconnectTimers.set(
-      sessionToken,
-      setTimeout(() => {
-        this.removePlayer(sessionToken);
-      }, 60_000),
-    );
+    this.disconnectTimers.set(sessionToken, setTimeout(() => {
+      this.removePlayer(sessionToken);
+    }, 60_000));
   }
 }
 ```
@@ -297,7 +290,6 @@ F5 / потеря связи:
 ### Риск
 
 WebSocket баги — одни из самых сложных для отладки:
-
 - Нет пар request/response в DevTools (в отличие от REST)
 - Состояние рассинхронизируется между сервером и несколькими клиентами
 - Race conditions при одновременных действиях
@@ -305,13 +297,13 @@ WebSocket баги — одни из самых сложных для отлад
 
 ### Проблемы
 
-| Проблема            | Описание                                   |
-| ------------------- | ------------------------------------------ |
-| Нет логов           | WS события не видны в Network по умолчанию |
-| State desync        | Сервер показывает одно, клиент — другое    |
-| Disconnect silently | Соединение закрылось, но клиент не знает   |
-| Race conditions     | Два игрока кликают одновременно            |
-| Replay              | Невозможно "повторить" сценарий бага       |
+| Проблема | Описание |
+|----------|----------|
+| Нет логов | WS события не видны в Network по умолчанию |
+| State desync | Сервер показывает одно, клиент — другое |
+| Disconnect silently | Соединение закрылось, но клиент не знает |
+| Race conditions | Два игрока кликают одновременно |
+| Replay | Невозможно "повторить" сценарий бага |
 
 ### Митигация
 
@@ -332,9 +324,9 @@ function createWSLogger(client: WSClient): WSClient {
   client.send = (event: ClientEvent) => {
     console.log(
       `%c>>> OUT [${new Date().toISOString()}]`,
-      "color: #42a5f5",
+      'color: #42a5f5',
       event.type,
-      event.payload,
+      event.payload
     );
     originalSend(event);
   };
@@ -343,9 +335,9 @@ function createWSLogger(client: WSClient): WSClient {
     originalOn(type, (payload: unknown) => {
       console.log(
         `%c<<< IN  [${new Date().toISOString()}]`,
-        "color: #4caf50",
+        'color: #4caf50',
         type,
-        payload,
+        payload
       );
       handler(payload);
     });
@@ -372,12 +364,12 @@ const wsClient = createWSLogger(createWSClient());
 
 ### Сценарии
 
-| Сценарий                 | Что происходит                                    | Как ломается                                 |
-| ------------------------ | ------------------------------------------------- | -------------------------------------------- |
-| 2 клика одновременно     | Сервер обрабатывает первый                        | Второй клиент видит "свой" клик, потом откат |
-| Клик во время Check      | Игрок кликает карточку пока попап открыт          | Фаза нарушена                                |
-| Disconnect во время хода | Игрок отключился на своём ходе                    | Ход зависает навечно                         |
-| Timer race               | Клиент думает что время есть, сервер уже закончил | Клик отклонён                                |
+| Сценарий | Что происходит | Как ломается |
+|----------|----------------|--------------|
+| 2 клика одновременно | Сервер обрабатывает первый | Второй клиент видит "свой" клик, потом откат |
+| Клик во время Check | Игрок кликает карточку пока попап открыт | Фаза нарушена |
+| Disconnect во время хода | Игрок отключился на своём ходе | Ход зависает навечно |
+| Timer race | Клиент думает что время есть, сервер уже закончил | Клик отклонён |
 
 ### Митигация
 
@@ -393,7 +385,7 @@ class GameRoom {
 
   async handleAction(playerId: string, action: ClientEvent): Promise<void> {
     if (this.actionLock) {
-      this.sendError(playerId, "ACTION_IN_PROGRESS");
+      this.sendError(playerId, 'ACTION_IN_PROGRESS');
       return;
     }
 
@@ -409,14 +401,14 @@ class GameRoom {
 // Клиентская блокировка
 function onCardClick(cardId: string): void {
   // Guard: проверяем фазу
-  if (gameState.currentPhase !== "guess") return;
+  if (gameState.currentPhase !== 'guess') return;
   if (!canGuess(currentUserId, gameState)) return;
 
   // Optimistic UI
-  highlightCard(cardId, "selecting");
+  highlightCard(cardId, 'selecting');
 
   // Отправляем на сервер
-  wsClient.send({ type: "game:guess", payload: { cardId } });
+  wsClient.send({ type: 'game:guess', payload: { cardId } });
 }
 ```
 
@@ -427,7 +419,6 @@ function onCardClick(cardId: string): void {
 ### Риск
 
 Два отдельных деплоя (Vercel для frontend + Render/Railway для backend) создают проблемы:
-
 - CORS ошибки
 - Environment variables в двух местах
 - Backend URL меняется — frontend ломается
@@ -453,22 +444,20 @@ function onCardClick(cardId: string): void {
 
 ```typescript
 // server/src/index.ts
-import cors from "cors";
+import cors from 'cors';
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
 
-app.use(
-  cors({
-    origin: FRONTEND_URL,
-    credentials: true,
-  }),
-);
+app.use(cors({
+  origin: FRONTEND_URL,
+  credentials: true,
+}));
 
 // Socket.IO CORS
 const io = new Server(server, {
   cors: {
     origin: FRONTEND_URL,
-    methods: ["GET", "POST"],
+    methods: ['GET', 'POST'],
   },
 });
 ```
@@ -480,7 +469,6 @@ const io = new Server(server, {
 ### Риск
 
 Mock WS Client ведёт себя иначе, чем реальный WebSocket:
-
 - Mock обрабатывает события синхронно (в одном процессе)
 - Real WS имеет реальную сетевую задержку
 - Mock не теряет соединение
@@ -500,9 +488,9 @@ Mock WS Client ведёт себя иначе, чем реальный WebSocket
 // Общий интерфейс — ОДИН для Mock и Real
 interface WSClient {
   send(event: ClientEvent): void;
-  on<T extends ServerEvent["type"]>(
+  on<T extends ServerEvent['type']>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
+    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
   ): void;
   off(type: string, handler: Function): void;
   disconnect(): void;
@@ -520,12 +508,12 @@ interface WSClient {
 
 ### Проблемы
 
-| Проблема                        | Следствие                                                                                                                                                           |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Клиент опережает сервер         | Показывает "Time's up", но сервер ещё ждёт                                                                                                                          |
-| Сервер опережает клиент         | Игрок кликает, а ход уже перешёл                                                                                                                                    |
+| Проблема | Следствие |
+|----------|-----------|
+| Клиент опережает сервер | Показывает "Time's up", но сервер ещё ждёт |
+| Сервер опережает клиент | Игрок кликает, а ход уже перешёл |
 | Check Phase и глобальный таймер | Глобальный таймер продолжает тикать, но параллельно запускается отдельный 30-секундный Check таймер. Если Check таймер истёк — очко не засчитано, игра продолжается |
-| Вкладка в фоне                  | `setTimeout` замедляется в inactive tabs                                                                                                                            |
+| Вкладка в фоне | `setTimeout` замедляется в inactive tabs |
 
 ### Новая механика таймеров (два таймера одновременно)
 
@@ -534,13 +522,13 @@ interface WSClient {
 1. **Глобальный таймер хода** — тикает всегда, от начала хода до конца. Сервер отправляет `turnEndTime` (абсолютный timestamp)
 2. **Check таймер (30 сек)** — запускается отдельно при каждой проверке знаний. Если игрок не ответил за 30 секунд — очко не засчитано, Check закрывается, игра продолжается
 
-| Событие                 | Глобальный таймер хода | Check таймер (30 сек)   |
-| ----------------------- | ---------------------- | ----------------------- |
-| Ход начинается          | Старт                  | —                       |
-| Check начинается        | Продолжает тикать      | Старт                   |
-| Игрок отвечает на Check | Продолжает тикать      | Стоп                    |
-| Check timeout (30 сек)  | Продолжает тикать      | Очко не засчитано       |
-| Глобальный таймер истёк | Ход заканчивается      | Стоп (если был активен) |
+| Событие | Глобальный таймер хода | Check таймер (30 сек) |
+|---------|------------------------|-----------------------|
+| Ход начинается | Старт | — |
+| Check начинается | Продолжает тикать | Старт |
+| Игрок отвечает на Check | Продолжает тикать | Стоп |
+| Check timeout (30 сек) | Продолжает тикать | Очко не засчитано |
+| Глобальный таймер истёк | Ход заканчивается | Стоп (если был активен) |
 
 **Почему не пауза:** паузить глобальный таймер — сложнее реализовать, создаёт race conditions при синхронизации `pause/resume` между сервером и клиентами, и позволяет "злоупотреблять" Check Phase для получения дополнительного времени на обдумывание.
 
@@ -559,8 +547,8 @@ function startTimerDisplay(turnEndTime: number): void {
     const remaining = Math.max(0, turnEndTime - Date.now());
 
     if (remaining <= 0) {
-      timerElement.textContent = "Ожидание...";
-      timerElement.classList.add("expired");
+      timerElement.textContent = 'Ожидание...';
+      timerElement.classList.add('expired');
       return;
     }
 
@@ -568,7 +556,7 @@ function startTimerDisplay(turnEndTime: number): void {
     timerElement.textContent = formatTime(seconds);
 
     if (seconds <= 10) {
-      timerElement.classList.add("warning");
+      timerElement.classList.add('warning');
     }
 
     requestAnimationFrame(tick);
@@ -585,7 +573,7 @@ function startCheckTimer(durationSec: number = 30): void {
     const remaining = Math.max(0, checkEndTime - Date.now());
 
     if (remaining <= 0) {
-      checkTimerElement.textContent = "Время вышло!";
+      checkTimerElement.textContent = 'Время вышло!';
       // Сервер сам закроет Check — очко не засчитано
       return;
     }
@@ -594,7 +582,7 @@ function startCheckTimer(durationSec: number = 30): void {
     checkTimerElement.textContent = `${seconds} сек`;
 
     if (seconds <= 5) {
-      checkTimerElement.classList.add("urgent");
+      checkTimerElement.classList.add('urgent');
     }
 
     requestAnimationFrame(tickCheck);
@@ -611,7 +599,6 @@ function startCheckTimer(durationSec: number = 30): void {
 ### Риск
 
 Плохие вопросы убивают игру:
-
 - Слишком простые вопросы — все получают очки без усилий
 - Слишком сложные — никто не получает очки, фрустрация
 - Неточные эталонные ответы — AI мок неправильно оценивает
@@ -660,13 +647,13 @@ function startCheckTimer(durationSec: number = 30): void {
 
 ### Проблемы
 
-| Проблема                   | При 3 людях     | При 6 людях                                                      |
-| -------------------------- | --------------- | ---------------------------------------------------------------- |
-| Merge конфликты            | Редко           | Часто (особенно в types.ts, index.html)                          |
-| Код-ревью                  | 1 ревьюер на PR | 2 ревьюера, дольше ждать                                         |
-| Синки                      | 30 мин/неделю   | 30-45 мин/неделю                                                 |
-| Принятие решений           | Быстро          | Долгие обсуждения                                                |
-| Зависимости между задачами | Мало            | Много (Тихий Сокет блокирует Быстрого Рендера и Ловкого Роутера) |
+| Проблема | При 3 людях | При 6 людях |
+|----------|-------------|-------------|
+| Merge конфликты | Редко | Часто (особенно в types.ts, index.html) |
+| Код-ревью | 1 ревьюер на PR | 2 ревьюера, дольше ждать |
+| Синки | 30 мин/неделю | 30-45 мин/неделю |
+| Принятие решений | Быстро | Долгие обсуждения |
+| Зависимости между задачами | Мало | Много (Тихий Сокет блокирует Быстрого Рендера и Ловкого Роутера) |
 
 ### Митигация
 
@@ -718,12 +705,12 @@ server/
 
 ### Сценарии
 
-| Когда дисконнект              | Что происходит    | Что делать                                                                   |
-| ----------------------------- | ----------------- | ---------------------------------------------------------------------------- |
-| Капитан думает над подсказкой | Ход зависает      | Auto-pass через 60 сек                                                       |
-| Оперативник угадывает         | Ход зависает      | Auto-pass через 60 сек                                                       |
-| Во время Check Phase          | Check зависает    | Auto-fail (очко не засчитано), Check таймер (30 сек) сработает автоматически |
-| Хост покидает комнату         | Комната осиротела | Передать хоста другому игроку                                                |
+| Когда дисконнект | Что происходит | Что делать |
+|------------------|----------------|------------|
+| Капитан думает над подсказкой | Ход зависает | Auto-pass через 60 сек |
+| Оперативник угадывает | Ход зависает | Auto-pass через 60 сек |
+| Во время Check Phase | Check зависает | Auto-fail (очко не засчитано), Check таймер (30 сек) сработает автоматически |
+| Хост покидает комнату | Комната осиротела | Передать хоста другому игроку |
 
 ### Митигация
 
@@ -734,27 +721,21 @@ class GameRoom {
     this.markPlayerDisconnected(sessionToken);
 
     // Если дисконнект во время Check Phase этого игрока
-    if (
-      this.game.currentPhase === "check" &&
-      this.game.checkPlayerId === sessionToken
-    ) {
-      this.resolveCheck({ pointGranted: false, feedback: "Игрок отключился" });
+    if (this.game.currentPhase === 'check' && this.game.checkPlayerId === sessionToken) {
+      this.resolveCheck({ pointGranted: false, feedback: 'Игрок отключился' });
     }
 
     // Даём 60 секунд на переподключение
-    this.reconnectTimers.set(
-      sessionToken,
-      setTimeout(() => {
-        if (this.isPlayerStillDisconnected(sessionToken)) {
-          this.removePlayer(sessionToken);
+    this.reconnectTimers.set(sessionToken, setTimeout(() => {
+      if (this.isPlayerStillDisconnected(sessionToken)) {
+        this.removePlayer(sessionToken);
 
-          // Если это был активный игрок — auto-pass
-          if (this.isActivePlayer(sessionToken)) {
-            this.autoEndTurn();
-          }
+        // Если это был активный игрок — auto-pass
+        if (this.isActivePlayer(sessionToken)) {
+          this.autoEndTurn();
         }
-      }, 60_000),
-    );
+      }
+    }, 60_000));
   }
 
   handleReconnect(sessionToken: string, socket: Socket): void {
@@ -763,7 +744,7 @@ class GameRoom {
     this.reconnectTimers.delete(sessionToken);
 
     // Отправляем полное состояние
-    socket.emit("game:state", this.getGameStateForPlayer(sessionToken));
+    socket.emit('game:state', this.getGameStateForPlayer(sessionToken));
   }
 }
 ```

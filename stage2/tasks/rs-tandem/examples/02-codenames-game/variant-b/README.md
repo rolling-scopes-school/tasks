@@ -57,7 +57,6 @@ flowchart LR
 ```
 
 **Принцип:**
-
 1. Игроки пишут команды в `rooms/{code}/actions/{pushId}` (push)
 2. Хост подписан на `onChildAdded` — получает команды
 3. Хост прогоняет команду через `GameStateMachine`
@@ -70,14 +69,14 @@ flowchart LR
 
 ## Команда (кодовые имена)
 
-| Кодовое имя        | Роль         | Компоненты                                                                |
-| ------------------ | ------------ | ------------------------------------------------------------------------- |
-| **Великий Мёрдж**  | Lead         | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
-| **Тихий Сокет**    | Firebase-Dev | Firebase Setup, Realtime DB Schema, Security Rules, Host Logic            |
-| **Быстрый Рендер** | Board-Dev    | Game Board UI (5x5), Card Component, Animations, Client State Sync        |
-| **Зоркий Линтер**  | Check-Dev    | Check Phase Popup, Question Bank, Evaluation Modes, i18n                  |
-| **Мудрый Мок**     | AI-Dev       | AI Mock Interfaces, Solo Mode, Landing Page, 404                          |
-| **Ловкий Роутер**  | Lobby-Dev    | Lobby, Results Page, Profile, Player Stats, Responsive                    |
+| Кодовое имя | Роль | Компоненты |
+|-------------|------|------------|
+| **Великий Мёрдж** | Lead | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
+| **Тихий Сокет** | Firebase-Dev | Firebase Setup, Realtime DB Schema, Security Rules, Host Logic |
+| **Быстрый Рендер** | Board-Dev | Game Board UI (5x5), Card Component, Animations, Client State Sync |
+| **Зоркий Линтер** | Check-Dev | Check Phase Popup, Question Bank, Evaluation Modes, i18n |
+| **Мудрый Мок** | AI-Dev | AI Mock Interfaces, Solo Mode, Landing Page, 404 |
+| **Ловкий Роутер** | Lobby-Dev | Lobby, Results Page, Profile, Player Stats, Responsive |
 
 ---
 
@@ -93,14 +92,14 @@ flowchart LR
 
 ## Навигация по документам
 
-| Документ                                               | Описание                                                                                  | Когда читать                  |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ----------------------------- |
-| [scoring-and-plan.md](./scoring-and-plan.md)           | Расчёт баллов (6 человек), 6-недельный план работ, Cut Scope Strategy                     | На этапе планирования         |
-| [data-contracts.md](./data-contracts.md)               | TypeScript типы, Firebase Realtime DB schema, AI интерфейсы, Shared Types                 | Перед началом разработки      |
-| [game-engine.md](./game-engine.md)                     | Host-Based State Machine, Firebase sync, Board Generation, DevTools, Headless Testing     | При разработке Game Engine    |
-| [check-phase.md](./check-phase.md)                     | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы, отдельный Check-таймер | При разработке Check Phase    |
-| [ai-spymaster.md](./ai-spymaster.md)                   | AI интерфейсы + Mock Implementation (вкл. hardcoded MVP), Solo Mode, AI Pre-generation    | При разработке AI / Solo Mode |
-| [risks-and-mitigations.md](./risks-and-mitigations.md) | Host Disconnect, Firebase Quotas, Cheating, Bus Factor                                    | На всех этапах проекта        |
+| Документ | Описание | Когда читать |
+|----------|----------|--------------|
+| [scoring-and-plan.md](./scoring-and-plan.md) | Расчёт баллов (6 человек), 6-недельный план работ, Cut Scope Strategy | На этапе планирования |
+| [data-contracts.md](./data-contracts.md) | TypeScript типы, Firebase Realtime DB schema, AI интерфейсы, Shared Types | Перед началом разработки |
+| [game-engine.md](./game-engine.md) | Host-Based State Machine, Firebase sync, Board Generation, DevTools, Headless Testing | При разработке Game Engine |
+| [check-phase.md](./check-phase.md) | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы, отдельный Check-таймер | При разработке Check Phase |
+| [ai-spymaster.md](./ai-spymaster.md) | AI интерфейсы + Mock Implementation (вкл. hardcoded MVP), Solo Mode, AI Pre-generation | При разработке AI / Solo Mode |
+| [risks-and-mitigations.md](./risks-and-mitigations.md) | Host Disconnect, Firebase Quotas, Cheating, Bus Factor | На всех этапах проекта |
 
 ---
 

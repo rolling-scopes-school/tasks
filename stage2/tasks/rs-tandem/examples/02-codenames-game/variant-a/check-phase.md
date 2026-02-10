@@ -165,7 +165,6 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 > В режиме **Peer** (когда команда соперника оценивает ответ) есть известная проблема: противники мотивированы нажать "Не знаю" **даже если ответ правильный**, чтобы не дать сопернику очко. Это рациональная стратегия в соревновательной игре.
 >
 > **Возможные смягчения:**
->
 > - **Роль "Судья"** — независимый наблюдатель (ментор, зритель) оценивает ответы обеих команд
 > - **Голосование обеих команд** — решение принимается, если хотя бы один из оппонентов подтвердил правильность
 > - **Принять как есть** — для демо-проекта это допустимо, как в настольных играх с "честной системой"
@@ -212,18 +211,17 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 Простой режим, не требующий AI.
 
-| Шаг | Действие                                                  | Кто                         |
-| --- | --------------------------------------------------------- | --------------------------- |
-| 1   | Вопрос отображается, Check-таймер (30 сек) запущен        | Система                     |
-| 2   | Игрок формулирует ответ (устно или письменно)             | Игрок                       |
-| 3   | Нажимает "Показать ответ"                                 | Игрок                       |
-| 4   | Эталонный ответ отображается                              | Система                     |
-| 5   | Оценка: "Знаю" / "Не знаю"                                | Игрок или команда соперника |
-| 6   | Очко засчитывается при "Знаю"                             | Система                     |
-| 7   | Если Check-таймер истёк — очко не засчитано автоматически | Система                     |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается, Check-таймер (30 сек) запущен | Система |
+| 2 | Игрок формулирует ответ (устно или письменно) | Игрок |
+| 3 | Нажимает "Показать ответ" | Игрок |
+| 4 | Эталонный ответ отображается | Система |
+| 5 | Оценка: "Знаю" / "Не знаю" | Игрок или команда соперника |
+| 6 | Очко засчитывается при "Знаю" | Система |
+| 7 | Если Check-таймер истёк — очко не засчитано автоматически | Система |
 
 **Кто оценивает:**
-
 - **Self** — сам игрок (честная система)
 - **Peer** — команда соперника нажимает "Знаю" / "Не знаю" (соревновательный элемент)
 
@@ -231,14 +229,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ### AI — Проверка через AI (мокнута)
 
-| Шаг | Действие                                              | Кто     |
-| --- | ----------------------------------------------------- | ------- |
-| 1   | Вопрос отображается, Check-таймер (30 сек) запущен    | Система |
-| 2   | Игрок пишет ответ в текстовое поле                    | Игрок   |
-| 3   | Нажимает "Отправить на проверку"                      | Игрок   |
-| 4   | AI оценивает ответ (mock: 1-2 сек)                    | AI Mock |
-| 5   | Результат: очко засчитано/нет + feedback              | Система |
-| 6   | Если Check-таймер истёк до ответа — очко не засчитано | Система |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается, Check-таймер (30 сек) запущен | Система |
+| 2 | Игрок пишет ответ в текстовое поле | Игрок |
+| 3 | Нажимает "Отправить на проверку" | Игрок |
+| 4 | AI оценивает ответ (mock: 1-2 сек) | AI Mock |
+| 5 | Результат: очко засчитано/нет + feedback | Система |
+| 6 | Если Check-таймер истёк до ответа — очко не засчитано | Система |
 
 > **Мок:** Реализация через `AICheckEvaluatorService` — keyword matching с реалистичной задержкой. Подробнее в [ai-spymaster.md](./ai-spymaster.md).
 
@@ -252,14 +250,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ### Распределение
 
-| Кто                        | Кодовое имя | Кол-во вопросов | Дедлайн        |
-| -------------------------- | ----------- | --------------- | -------------- |
-| Великий Мёрдж (Lead)       | Lead        | >= 15 вопросов  | Конец недели 3 |
-| Тихий Сокет (WS-Dev)       | WS-Dev      | >= 15 вопросов  | Конец недели 3 |
-| Быстрый Рендер (Board-Dev) | Board-Dev   | >= 15 вопросов  | Конец недели 3 |
-| Зоркий Линтер (Check-Dev)  | Check-Dev   | >= 15 вопросов  | Конец недели 3 |
-| Мудрый Мок (AI-Dev)        | AI-Dev      | >= 15 вопросов  | Конец недели 3 |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev   | >= 15 вопросов  | Конец недели 3 |
+| Кто | Кодовое имя | Кол-во вопросов | Дедлайн |
+|-----|-------------|-----------------|---------|
+| Великий Мёрдж (Lead) | Lead | >= 15 вопросов | Конец недели 3 |
+| Тихий Сокет (WS-Dev) | WS-Dev | >= 15 вопросов | Конец недели 3 |
+| Быстрый Рендер (Board-Dev) | Board-Dev | >= 15 вопросов | Конец недели 3 |
+| Зоркий Линтер (Check-Dev) | Check-Dev | >= 15 вопросов | Конец недели 3 |
+| Мудрый Мок (AI-Dev) | AI-Dev | >= 15 вопросов | Конец недели 3 |
+| Ловкий Роутер (Lobby-Dev) | Lobby-Dev | >= 15 вопросов | Конец недели 3 |
 
 **Итого: >= 90 вопросов от команды**, Зоркий Линтер (Check-Dev) добирает до 100+.
 
@@ -292,7 +290,6 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 ### Peer Review контента
 
 **Зоркий Линтер (Check-Dev)** выполняет peer review ВСЕХ вопросов:
-
 - Проверяет по чеклисту качества
 - Объединяет в единый `question-bank.json`
 - Добавляет fallback-вопросы для слов без покрытия
@@ -306,14 +303,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ```typescript
 interface QuestionBank {
-  [word: string]: CheckQuestion[]; // Несколько вопросов на слово
+  [word: string]: CheckQuestion[];  // Несколько вопросов на слово
 }
 
 interface CheckQuestion {
   id: string;
-  word: string; // JS/TS концепт
-  question: string; // Текст вопроса
-  referenceAnswer: string; // Эталонный ответ
+  word: string;                    // JS/TS концепт
+  question: string;                // Текст вопроса
+  referenceAnswer: string;         // Эталонный ответ
   difficulty: 1 | 2 | 3;
   tags: string[];
 }
@@ -342,31 +339,31 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 
 ### Примеры вопросов (10+ концептов)
 
-| Слово        | Вопрос                                                     | Сложность |
-| ------------ | ---------------------------------------------------------- | --------- |
-| closure      | Что такое замыкание? Приведите пример.                     | 1         |
-| closure      | Как замыкания могут приводить к утечкам памяти?            | 3         |
-| Promise      | В чём разница между Promise.all и Promise.allSettled?      | 2         |
-| Promise      | Что произойдет, если в then бросить ошибку?                | 2         |
-| hoisting     | Как работает hoisting для let vs var?                      | 1         |
-| hoisting     | Почему TDZ (Temporal Dead Zone) существует для let/const?  | 3         |
-| prototype    | Как работает цепочка прототипов?                           | 2         |
-| prototype    | В чём разница между `__proto__` и `prototype`?             | 3         |
-| event loop   | В каком порядке выполняются microtask и macrotask?         | 2         |
-| event loop   | Что произойдёт, если microtask добавит ещё один microtask? | 3         |
-| this         | Как определяется значение this в arrow function?           | 2         |
-| this         | Назовите 4 правила определения this.                       | 2         |
-| localStorage | В чём отличие от sessionStorage?                           | 1         |
-| localStorage | Какой лимит объёма данных? Что будет при превышении?       | 2         |
-| WeakMap      | Когда использовать WeakMap вместо Map?                     | 3         |
-| WeakMap      | Как WeakMap связан со сборкой мусора?                      | 3         |
-| generics     | Зачем нужны дженерики в TypeScript? Приведите пример.      | 2         |
-| async/await  | Чем async/await лучше цепочки .then()?                     | 1         |
-| async/await  | Как обработать ошибку в async функции?                     | 2         |
-| Proxy        | Для чего используется Proxy в JavaScript?                  | 3         |
-| Symbol       | Зачем нужны символы? Приведите use case.                   | 3         |
-| spread       | Делает ли spread глубокое копирование?                     | 2         |
-| Map          | В чём отличие Map от обычного объекта?                     | 2         |
+| Слово | Вопрос | Сложность |
+|-------|--------|-----------|
+| closure | Что такое замыкание? Приведите пример. | 1 |
+| closure | Как замыкания могут приводить к утечкам памяти? | 3 |
+| Promise | В чём разница между Promise.all и Promise.allSettled? | 2 |
+| Promise | Что произойдет, если в then бросить ошибку? | 2 |
+| hoisting | Как работает hoisting для let vs var? | 1 |
+| hoisting | Почему TDZ (Temporal Dead Zone) существует для let/const? | 3 |
+| prototype | Как работает цепочка прототипов? | 2 |
+| prototype | В чём разница между `__proto__` и `prototype`? | 3 |
+| event loop | В каком порядке выполняются microtask и macrotask? | 2 |
+| event loop | Что произойдёт, если microtask добавит ещё один microtask? | 3 |
+| this | Как определяется значение this в arrow function? | 2 |
+| this | Назовите 4 правила определения this. | 2 |
+| localStorage | В чём отличие от sessionStorage? | 1 |
+| localStorage | Какой лимит объёма данных? Что будет при превышении? | 2 |
+| WeakMap | Когда использовать WeakMap вместо Map? | 3 |
+| WeakMap | Как WeakMap связан со сборкой мусора? | 3 |
+| generics | Зачем нужны дженерики в TypeScript? Приведите пример. | 2 |
+| async/await | Чем async/await лучше цепочки .then()? | 1 |
+| async/await | Как обработать ошибку в async функции? | 2 |
+| Proxy | Для чего используется Proxy в JavaScript? | 3 |
+| Symbol | Зачем нужны символы? Приведите use case. | 3 |
+| spread | Делает ли spread глубокое копирование? | 2 |
+| Map | В чём отличие Map от обычного объекта? | 2 |
 
 ---
 
@@ -377,12 +374,12 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 ```typescript
 // В game-engine.ts на сервере
 function handleGuess(game: Game, cardId: string, playerId: string) {
-  const card = game.board.find((c) => c.id === cardId);
-  card.status = "revealed";
+  const card = game.board.find(c => c.id === cardId);
+  card.status = 'revealed';
 
   if (card.color === game.currentTurn) {
     // Своя карточка → запускаем Check Phase
-    game.currentPhase = "check";
+    game.currentPhase = 'check';
     game.checkPlayerId = playerId;
 
     // Выбираем вопрос
@@ -393,19 +390,19 @@ function handleGuess(game: Game, cardId: string, playerId: string) {
     const checkDeadline = Date.now() + 30_000;
     startCheckTimer(game, 30, () => {
       // Timeout: очко не засчитано
-      resolveCheck(game, { pointGranted: false, reason: "timeout" });
+      resolveCheck(game, { pointGranted: false, reason: 'timeout' });
     });
 
     // Отправляем вопрос ТОЛЬКО угадавшему игроку
-    sendToPlayer(playerId, "check:question", {
+    sendToPlayer(playerId, 'check:question', {
       ...question,
       checkDeadline,
     });
 
     // Всем остальным — уведомление, что идёт проверка
-    broadcastExcept(playerId, "game:turn-changed", {
+    broadcastExcept(playerId, 'game:turn-changed', {
       team: game.currentTurn,
-      phase: "check",
+      phase: 'check',
       checkDeadline,
     });
   }
@@ -443,13 +440,13 @@ sequenceDiagram
 
 ### Поведение таймера
 
-| Событие                        | Таймер хода (2 мин) | Check-таймер (30 сек)                    |
-| ------------------------------ | ------------------- | ---------------------------------------- |
-| Check начинается               | **ТИКАЕТ ВСЕГДА**   | Старт: 30 сек обратный отсчёт            |
-| Игрок отвечает                 | ТИКАЕТ              | —                                        |
-| Check завершается (ответ дан)  | ТИКАЕТ              | Стоп, очищается                          |
-| Check timeout (30 сек истекли) | ТИКАЕТ              | Очко **не засчитано**, игра продолжается |
-| Таймер хода истёк              | Ход переходит       | Сбрасывается (если был активен)          |
+| Событие | Таймер хода (2 мин) | Check-таймер (30 сек) |
+|---------|---------------------|------------------------|
+| Check начинается | **ТИКАЕТ ВСЕГДА** | Старт: 30 сек обратный отсчёт |
+| Игрок отвечает | ТИКАЕТ | — |
+| Check завершается (ответ дан) | ТИКАЕТ | Стоп, очищается |
+| Check timeout (30 сек истекли) | ТИКАЕТ | Очко **не засчитано**, игра продолжается |
+| Таймер хода истёк | Ход переходит | Сбрасывается (если был активен) |
 
 > **Важно:** Таймер хода (2 мин) **никогда не ставится на паузу**. Check-таймер — это отдельный, независимый обратный отсчёт. Это создаёт давление: игрок не может бесконечно думать над вопросом, и время хода тоже утекает.
 
@@ -457,7 +454,7 @@ sequenceDiagram
 // Клиент: показ попапа
 function showCheckPopup(question: CheckQuestion): void {
   // 1. Затемнить фон
-  overlay.classList.add("active");
+  overlay.classList.add('active');
 
   // 2. Показать попап
   popup.innerHTML = renderCheckPopup(question, roomSettings.checkMode);
@@ -476,8 +473,8 @@ function closeCheckPopup(result: CheckResult): void {
 
   setTimeout(() => {
     // 3. Убрать попап
-    overlay.classList.remove("active");
-    popup.innerHTML = "";
+    overlay.classList.remove('active');
+    popup.innerHTML = '';
 
     // 4. Обновить счёт
     updateScoreDisplay();
@@ -494,12 +491,8 @@ function closeCheckPopup(result: CheckResult): void {
 ```html
 <!-- Overlay -->
 <div class="check-overlay" id="check-overlay">
-  <div
-    class="check-popup"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Проверка знаний"
-  >
+  <div class="check-popup" role="dialog" aria-modal="true" aria-label="Проверка знаний">
+
     <header class="check-popup__header">
       <h2>Проверка знаний</h2>
       <div class="check-popup__timer" id="check-timer">⏱ 00:30</div>
@@ -530,6 +523,7 @@ function closeCheckPopup(result: CheckResult): void {
     <footer class="check-popup__footer" id="check-actions">
       <!-- Кнопки зависят от режима и шага -->
     </footer>
+
   </div>
 </div>
 ```
@@ -595,13 +589,8 @@ function closeCheckPopup(result: CheckResult): void {
 }
 
 @keyframes timerPulse {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
 
 .check-popup__word {
@@ -688,18 +677,18 @@ function closeCheckPopup(result: CheckResult): void {
 
 ## Эстимейт: Check Phase
 
-| Задача                                 | Min     | Max     | Avg     | Кто                                              | Примечание                              |
-| -------------------------------------- | ------- | ------- | ------- | ------------------------------------------------ | --------------------------------------- |
-| Popup UI (HTML/CSS, modal, overlay)    | 3ч      | 5ч      | 4ч      | Зоркий Линтер (Check-Dev)                        | Анимация входа/выхода                   |
-| Self/Peer evaluation flow              | 3ч      | 6ч      | 4.5ч    | Зоркий Линтер (Check-Dev)                        | "Показать ответ" -> оценка              |
-| AI evaluation flow (mock integration)  | 3ч      | 5ч      | 4ч      | Зоркий Линтер (Check-Dev)                        | Подключение к AICheckEvaluator          |
-| Question Bank: структура + 20 вопросов | 3ч      | 6ч      | 4.5ч    | Зоркий Линтер (Check-Dev)                        | Начальный контент                       |
-| Check-таймер (30 сек) интеграция       | 2ч      | 4ч      | 3ч      | Зоркий Линтер (Check-Dev) + Тихий Сокет (WS-Dev) | Отдельный таймер, серверная валидация   |
-| WebSocket integration (events)         | 2ч      | 4ч      | 3ч      | Зоркий Линтер (Check-Dev)                        | check:question, check:result            |
-| Анимации (popup enter/exit, result)    | 1ч      | 3ч      | 2ч      | Зоркий Линтер (Check-Dev)                        | CSS transitions                         |
-| Банк вопросов: сбор от команды (90+)   | 4ч      | 8ч      | 6ч      | ВСЯ КОМАНДА                                      | Каждый >= 15 вопросов (см. раздел выше) |
-| Peer review вопросов + мёрж            | 2ч      | 4ч      | 3ч      | Зоркий Линтер (Check-Dev)                        | Проверка по чеклисту                    |
-| **Итого**                              | **23ч** | **45ч** | **34ч** |                                                  |                                         |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Popup UI (HTML/CSS, modal, overlay) | 3ч | 5ч | 4ч | Зоркий Линтер (Check-Dev) | Анимация входа/выхода |
+| Self/Peer evaluation flow | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | "Показать ответ" -> оценка |
+| AI evaluation flow (mock integration) | 3ч | 5ч | 4ч | Зоркий Линтер (Check-Dev) | Подключение к AICheckEvaluator |
+| Question Bank: структура + 20 вопросов | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | Начальный контент |
+| Check-таймер (30 сек) интеграция | 2ч | 4ч | 3ч | Зоркий Линтер (Check-Dev) + Тихий Сокет (WS-Dev) | Отдельный таймер, серверная валидация |
+| WebSocket integration (events) | 2ч | 4ч | 3ч | Зоркий Линтер (Check-Dev) | check:question, check:result |
+| Анимации (popup enter/exit, result) | 1ч | 3ч | 2ч | Зоркий Линтер (Check-Dev) | CSS transitions |
+| Банк вопросов: сбор от команды (90+) | 4ч | 8ч | 6ч | ВСЯ КОМАНДА | Каждый >= 15 вопросов (см. раздел выше) |
+| Peer review вопросов + мёрж | 2ч | 4ч | 3ч | Зоркий Линтер (Check-Dev) | Проверка по чеклисту |
+| **Итого** | **23ч** | **45ч** | **34ч** | | |
 
 > **Примечание:** Основная сложность — координация с игровым процессом. Попап должен корректно блокировать взаимодействие с полем и закрываться по истечении Check-таймера (30 сек). Таймер хода при этом **продолжает тикать**. Тестируйте edge cases: что если Check-таймер истёк? Что если таймер хода истёк во время Check? Что если игрок дисконнектится во время Check?
 
@@ -717,7 +706,7 @@ function onCardClick(cardId: string) {
 
 // Хорошо: проверяем фазу
 function onCardClick(cardId: string) {
-  if (gameState.currentPhase === "check") return;
+  if (gameState.currentPhase === 'check') return;
   if (!canGuess(currentUserId, gameState)) return;
   sendGuess(cardId);
 }
@@ -733,7 +722,7 @@ function onCardClick(cardId: string) {
 // Хорошо: сервер запускает Check-таймер (30 сек)
 startCheckTimer(game, 30, () => {
   // Timeout → очко не засчитано, Check Phase закрывается
-  resolveCheck(game, { pointGranted: false, reason: "timeout" });
+  resolveCheck(game, { pointGranted: false, reason: 'timeout' });
 });
 // Таймер хода при этом ПРОДОЛЖАЕТ тикать
 ```
@@ -742,12 +731,12 @@ startCheckTimer(game, 30, () => {
 
 ```typescript
 // Плохо: вопрос виден всем
-broadcast("check:question", question);
+broadcast('check:question', question);
 
 // Хорошо: вопрос только угадавшему
-sendToPlayer(playerId, "check:question", question);
+sendToPlayer(playerId, 'check:question', question);
 // Остальным: просто уведомление о фазе Check
-broadcastExcept(playerId, "game:turn-changed", { phase: "check" });
+broadcastExcept(playerId, 'game:turn-changed', { phase: 'check' });
 ```
 
 ### 4. Нет fallback-вопроса
