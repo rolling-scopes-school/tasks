@@ -7,17 +7,14 @@ This penalty policy is applied to any changes made to a deployed document after 
 ## 🔨 Implementation Details
 
 1. **Adherence to Deployment Deadlines:**
-
    - Confirm that all documents are finalized and appropriately prepared before the deployment deadline.
    - Avoid any edits or alterations to the document once it has been deployed and the deadline has passed.
 
 2. **Penalty for Post-Deadline Modifications:**
-
    - Any modifications to the deployed document after the deadline will incur a full penalty of 100%.
    - This strict policy is in place to uphold the integrity and discipline of the deployment process.
 
 3. **Verifying Last Modified Date:**
-
    - The last modified date of the deployed document can be verified using the `document.lastModified` command in the browser console.
    - This command helps identify the date and time of the last modification, which is crucial for enforcing the penalty policy.
 

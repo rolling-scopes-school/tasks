@@ -7,20 +7,16 @@ This task is aimed at storing the user's first name and surname in the browser's
 ## 🔨 Implementation Details
 
 1. **Capture User Input:**
-
    - On the submission of the login form, capture the values entered in the first name and surname input fields.
 
 2. **Use of Local Storage:**
-
    - Utilize the `localStorage` JavaScript API to store the captured first name and surname.
    - Store the names as separate items or as a single JSON object in local storage.
 
 3. **Data Structuring:**
-
    - Format the data appropriately before storing it. If using a JSON object, ensure proper JSON formatting.
 
 4. **Handling Page Reloads:**
-
    - Make sure that the stored names persist even after the page is reloaded or the browser is reopened.
 
 5. **Security Note:**

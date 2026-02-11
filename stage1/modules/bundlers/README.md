@@ -24,12 +24,10 @@ Students will:
 Students are encouraged to delve into the following resources:
 
 1. **Fundamentals of Module Bundling:**
-
    - [How Module Bundlers Work](https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/)
    - [JavaScript Module Bundlers Guide](https://snipcart.com/blog/javascript-module-bundler)
 
 2. **Webpack, Rollup, and Parcel:**
-
    - [Webpack Concepts](https://webpack.js.org/concepts/)
    - [Getting Started with Rollup](https://rollupjs.org/guide/en/)
    - [Parcel - A Blazing Fast Bundler](https://parceljs.org/getting-started/webapp/)
@@ -38,8 +36,7 @@ Students are encouraged to delve into the following resources:
 
 3. **Exploring Vite and esbuild:**
    - [Vite: Next Generation Frontend Tooling](https://vitejs.dev/guide/)
-   - [esbuild: An Extremely Fast JavaScript Bundler](https://esbuild.github.io/)
-   - [esbuild: Documentation](https://esbuild.github.io/api/)
+   - [esbuild: An Extremely Fast JavaScript Bundler](https://esbuild.github.io/getting-started/)
 
 ## Practice 💻
 
@@ -47,5 +44,6 @@ Students are encouraged to delve into the following resources:
 
 ## Additional Resources 📘
 
-1. [10 Best JavaScript Build Tools and Bundlers Compared](https://www.codeinwp.com/blog/best-javascript-build-tools-bundlers/#gref)
-2. [A Complete Guide to Webpack 5](https://www.valentinog.com/blog/webpack/)
+1. [Webpack alternatives: 5 top JavaScript bundlers](https://www.contentful.com/blog/webpack-alternatives-5-top-bundlers/)
+2. [5 Webpack Alternatives: Comparing Modern JS Bundlers for Front-End Projects](https://strapi.io/blog/modern-javascript-bundlers-comparison-2025)
+3. [10 Best JavaScript Build Tools and Bundlers Compared](https://www.codeinwp.com/blog/best-javascript-build-tools-bundlers/#gref)

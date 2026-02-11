@@ -7,16 +7,13 @@ Introduce a feature on the statistics page to display a miniature version of the
 ## 🔨 Implementation Details
 
 1. **Miniature Artwork Display:**
-
    - After completing a round, show a small version of the artwork that was revealed through the sentence assembly.
    - Ensure the miniature is a clear and accurate representation of the full artwork.
 
 2. **Integration with Statistics:**
-
    - Position the artwork miniature on the statistics page in a way that complements the display of the player's performance data.
 
 3. **Artwork Information:**
-
    - Include basic information about the artwork, such as its title and artist, near the miniature display.
    - This information should be concise but informative.
 

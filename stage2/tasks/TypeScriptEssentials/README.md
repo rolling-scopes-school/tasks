@@ -56,20 +56,28 @@ Here is a collection of badges I earned from completing Microsoft Learn's TypeSc
 
 ### Repository Setup
 
-1. **Private School Repository**: All work must be done in a private school repository.
+1. **Private Personal Repository**: Create a new **private personal** repository `typescript-essentials`. All work must be done in a **private personal** repository.
 
 ### Branch Management
 
-1. **Create Branch**: Begin by creating a new branch `typescript-essentials` from the `main` branch.
+1. Create a new branch `gh-pages` from the `main` branch.
+2. Create a new branch `typescript-essentials` from the `main` branch.
+3. In the `typescript-essentials` branch, create a `badges-compilation.md` file.
 
 ### Pull Requests
 
-1. **Open Pull Request**: Once you complete a module, open a pull request (PR) from `typescript-essentials` to `main`.
-2. **PR Description**: Format the PR description in accordance with the [PR Description requirements](https://docs.rs.school/#/en/pull-request-review-process?id=description-example).
+1. Once you complete a module, **open and merge** a pull request (PR) from `typescript-essentials` to `gh-pages` for deployment.
+2. Once you complete a module, **open and don't merge** a pull request (PR) from `typescript-essentials` to `main`. Format the PR description in accordance with the [PR Description requirements](https://rs.school/docs/en/pull-request-review-process?id=description-example).
 
 ## 💼 Task Submission to Cross-Check Rules
 
-1. **Cross-Check Submission**: Submit your task for cross-check by deploying your Markdown file with all your badges and reflections to `gh-pages`. Submit the link to the deployed Markdown file on `gh-pages` for cross-check evaluation in the RS App.
+Due to the fact that the repository is private, the link to the deployment will not work. If you did everything as described in the `Branch Management` section, then the deployment link will look like this `https://<YOUR-GITHUB-USERNAME>.github.io/typescript-essentials/badges-compilation`
+
+### !!! Note !!!
+
+Before cross-check begins, make the repository public and make sure that the link to the deployment works.
+
+1.  Submit the link to the deployed Markdown file on `gh-pages` for cross-check evaluation in the RS App.
 
 ### Evaluation Criteria: 📋
 

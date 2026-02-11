@@ -22,12 +22,10 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to CI/CD:**
-
    - [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
    - [CI/CD best practices](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
 2. **GitHub Actions Essentials:**
-
    - [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
    - [Configuring workflows in GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
 

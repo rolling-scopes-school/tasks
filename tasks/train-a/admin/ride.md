@@ -104,7 +104,6 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 
 - Request (application/json)
 - Parameters:
-
   - id: `17` (number, required) - Identifier of the route
 
 - Response 200 (application/json)
@@ -124,7 +123,6 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 > `(POST) /api/route/{routeId}/ride`
 
 - Request (application/json)
-
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
   - Body (object)
@@ -134,33 +132,28 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
         - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
 
 - Response 201 (application/json)
-
   - Attributes (object)
     - id: `215` (number) - New ride identifier
 
 - Response 401 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Route not found` (string) - Error message if routeId is wrong
       - reason: `recordNotFound` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Parameters are irrelevant` (string) - Error message if request parameters are wrong
       - reason: `invalidData` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Time is irrelevant` (string) - Error message if time sequence is wrong
@@ -177,7 +170,6 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 > `(PUT) /api/route/{routeId}/ride/{rideId}`
 
 - Request (application/json)
-
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
     - rideId: `215` (number, required) - Identifier of the ride
@@ -188,32 +180,27 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
         - dynamic-carriage-type-1: `210` (number) - the price of 210 units for _dynamic-carriage-type-1_ carriage type on current section
 
 - Response 200 (application/json)
-
   - Attributes (object)
 
 - Response 401 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Access is not granted` (string) - Error message
       - reason: `invalidAccessToken` (string) - Wrong token identifier
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Ride not found` (string) - Error message if routeId or rideId is wrong
       - reason: `recordNotFound` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Parameters are irrelevant` (string) - Error message if request parameters are wrong
       - reason: `invalidData` (string) - Unique error type
 
 - Response 400 (application/json)
-
   - Attributes (object)
     - error:
       - message: `Time is irrelevant` (string) - Error message if time sequence is wrong
@@ -230,13 +217,11 @@ Travel time is indicated for each station as _arrival time_ (except for the firs
 > `(DELETE) /api/route/{routeId}/ride/{rideId}`
 
 - Request (application/json)
-
   - Parameters:
     - routeId: `17` (number, required) - Identifier of the route
     - rideId: `215` (number, required) - Identifier of the ride
 
 - Response 200 (application/json)
-
   - Attributes (object)
 
 - Response 401 (application/json)

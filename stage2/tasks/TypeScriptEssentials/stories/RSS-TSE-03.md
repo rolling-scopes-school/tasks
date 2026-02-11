@@ -7,17 +7,14 @@ The task involves completing a module focused on implementing interfaces in Type
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Participate in and complete the module concerning the implementation of interfaces in TypeScript.
    - Concentrate on learning how to define and use interfaces, including extending interfaces, optional properties, and implementing them in classes.
 
 2. **Badge Acquisition:**
-
    - Upon completing the module, a badge symbolizing your achievement will be issued.
    - Check to confirm the badge appears in your profile on the learning platform.
 
 3. **Markdown File Update:**
-
    - Incorporate the badge into your Markdown documentation.
    - Ensure the badge link is properly inserted and leads to the correct badge.
 

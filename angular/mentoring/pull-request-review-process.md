@@ -2,8 +2,8 @@
 
 1. A student completes an assignment in a school's private repository (unless otherwise specified in a task description).
 2. The student creates and submits a Pull Request before the deadline.
-   - The PR rules are specified [below](https://docs.app.rs.school/#/pull-request-review-process?id=Pull-Request-description-must-contain-the-following)
-   - Penalties for deadline violations are listed [below](https://docs.app.rs.school/#/pull-request-review-process?id=Deadlines-for-Students)
+   - The PR rules are specified [below](https://rs.school/docs/ru/pull-request-review-process#описание-pull-request-должно-содержать-следующую-информацию)
+   - Penalties for deadline violations are listed [below](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 3. Until the final grade is given by the mentor, the student can continue to implement remaining features
 4. The mentor checks the PR, leaves his comments and recommendations on the quality of the code (copy-paste, magic numbers, project structure, etc.) and the implemented functionality. Leaves a comment with a preliminary score.
    - The score is set by the mentor based on the assessment criteria specified for each task
@@ -20,7 +20,7 @@
 
 Pull Request is a place to discuss contributor's code. It should not be a monologue but rather a fruitful collaboration between a contributor and a reviewer. Stay professional, respect each other's time and efforts.
 
-### Pull Request description must contain the following:
+### Pull Request description must contain the following
 
 1. Task URL.
 2. Screenshot showing the result of Task's completion. The screenshot is added to a Pull Request as an image attachment. To achieve that you can just dra-and-drop the screenshot to the Description text area.
@@ -35,10 +35,10 @@ Pull Request is a place to discuss contributor's code. It should not be a monolo
 
 ### Description Example
 
-```
+```text
 1. Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/fancy-weather.md
 2. Screenshot:
-   ![](https://docs.app.rs.school/images/fancy-weather.png)
+   ![](https://rs.school/docs/images/fancy-weather.png)
 3. Deployment: https://chakapega-fancy-weather.netlify.com/
 4. Done 28.05.2020 / deadline 31.05.2020
 5. Score: 220 / 300
@@ -52,7 +52,7 @@ Pull Request is a place to discuss contributor's code. It should not be a monolo
  ...
 ```
 
-### Pull Request must not contain the following:
+### Pull Request must not contain the following
 
 - Commented code
 - Leftover and/or irrelevant files, auto-generated code, node_modules, etc.
@@ -77,8 +77,8 @@ This approach solves several problems that are usually encountered when reviewin
 
 1. Code Review process can be started with a check of the PR format, the naming of the commits, and a sufficient number of them.
 
-- [Commit Requirements](https://docs.app.rs.school/#/git-convention)
-- [Pull Request Requirements](https://https://docs.app.rs.school/#/pull-request-review-process?id=Pull-Request-description-must-contain-the-following)
+- [Commit Requirements](https://rs.school/docs/ru/git-convention)
+- [Pull Request Requirements](https://rs.school/docs/ru/pull-request-review-process#описание-pull-request-должно-содержать-следующую-информацию)
 
 2. Next, clone the repository, install dependencies, and check if the project is buildable / runnable.
 
@@ -156,9 +156,9 @@ function findMinValue() {...}
 
 ```js
 const KEY_CODES = {
-	Space: 32,
-	Enter: 13,
-	...
+ Space: 32,
+ Enter: 13,
+ ...
 }
 
 if (key === KEY_CODES.Enter) {

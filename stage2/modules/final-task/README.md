@@ -1,6 +1,6 @@
-## Final Project
+# Final Project
 
-### School's Preparation for Final Project Execution
+## School's Preparation for Final Project Execution
 
 1. Before the start of the final project, all the students who have not completed the last three assignments in a row are to be expelled as inactive.
 
@@ -10,15 +10,15 @@
 
 4. To ensure that the score position reflects the students' level of preparation more objectively it is necessary to ask mentors to grade all the tasks except for the last one before the distribution into groups occurs. The points for the last task before the final project are not added to the score until students are distributed into teams.
 
-### Teamwork Management
+## Teamwork Management
 
-#### Distribution of Students into Groups
+### Distribution of Students into Groups
 
 1. Students proceed to the Team Distributions tab on RS App and register there thus confirming their willingness and readiness to take part in the final course project.
 
 2. Groups are formed on Team Distributions. Students can either create their own team, join an existing team, or be assigned to a team randomly.
 
-#### Mentor's Tasks
+### Mentor's Tasks
 
 1. Assists students in solving emerging problems, provides recommendations, observations, and advice.
 
@@ -26,7 +26,7 @@
 
 3. Passes on to students their development experience, accepted best practices in production.
 
-#### Team Lead
+### Team Lead
 
 1. Initially, the team lead is determined by the highest score, yet, by mutual agreement, they are free to assign their role to another team member.
 
@@ -36,20 +36,20 @@
 
 4. If necessary, holds additional meetings with the team to clarify the requirements and tasks set before them.
 
-#### Communication Channels
+### Communication Channels
 
 1. The team lead creates a server on Discord, leaves a link to it in the description of the team registration form under the Team Distributions tab on RS App and invites their team members to the created server or they join it themselves.
 
 The following Discord channels need to be created:
 
-- general (for general communication)
-- materials (materials and useful links)
-- git (questions about git)
-- work-status (for daily reports of each team member)
+    - general (for general communication)
+    - materials (materials and useful links)
+    - git (questions about git)
+    - work-status (for daily reports of each team member)
 
 2. The Discord server is the main communication channel for the group. Voice channels on Discord, Teams, Telegram, Skype, etc. can be used for video or audio conferences.
 
-### First Meeting
+## First Meeting
 
 1. Takes place the day after the distribution into teams. The time and format of the meeting are agreed upon in advance. It's highly recommended to document the meeting results in writing.
 
@@ -61,7 +61,7 @@ The following Discord channels need to be created:
 
 5. After the meeting, each team member should be allocated their own area of responsibility, for which they are accountable, and the completion of which contributes to a part of the entire project.
 
-#### Work with Repository
+### Work with Repository
 
 1. At the initial stage of collaborative Git usage, almost every team member may encounter challenges and issues. It's essential to anticipate such difficulties and the possibility of errors beforehand.
 
@@ -79,21 +79,20 @@ The following Discord channels need to be created:
 
 8. Each team member is expected to contribute a minimum of five commits and at least two Pull Requests merged into the `develop` branch. Failure to adhere to these requirements results in penalty points for deficiencies in team organization.
 
-#### Coordination of Collaborative Work
+### Coordination of Collaborative Work
 
 1. To allocate tasks, establish interim deadlines, and ensure clear insight into the development progress (including who is working on what and at what stage), a task tracker like GitHub Projects, Trello, or any other mutually agreed-upon tool is used.
 
 2. In the work-status channel (or preferably in daily stand-up meetings), each team member (including the team lead) provides daily mini-reports structured as follows:
-
-- what they accomplished the previous day and how long the development process took
-- objectives for the current day
-- what blockers or difficulties they encountered and where they need help
+   - what they accomplished the previous day and how long the development process took
+   - objectives for the current day
+   - what blockers or difficulties they encountered and where they need help
 
 3. Task trackers and daily mini reports serve to mitigate duplication and parallelism in team tasks, preventing situations where two team members are working on the same task simultaneously. Daily reporting on individual contributions stimulates team members' engagement, facilitates benchmarking of individual progress against others', and keeps everyone informed about the development process.
 
 4. The worklog, compiled based on the task tracker and daily mini reports, serves as a comprehensive record of the team's collective work, highlighting each member's contributions. It details the specific contributions of each team member, emphasizing tangible achievements like implemented features or application components — actions that would hold value and justify payment from an employer. Entries such as "learned to code", "thought a lot", "read a book" are deemed inadequate.
 
-### Final Project Presentation
+## Final Project Presentation
 
 1. The final course project presentation is conducted by whatever means convenient for the jury (Teams, Google Meet, Discord, Skype, etc.).
 
@@ -101,12 +100,12 @@ The following Discord channels need to be created:
 
 3. Scores awarded to the team during the presentation are not disclosed or discussed.
 
-### Grading of the Final Project
+## Grading of the Final Project
 
 1. Final projects are assessed based on both cross-checks and project presentations.
 
 2. Cross-checks are conducted not by individual students, but by groups. This means that each group is responsible for reviewing and assessing the projects of four other groups.
 
-### Useful Links
+## Useful Links
 
 - [Q&A Session. Organization of Teamwork](https://www.youtube.com/watch?v=35f-XI3bkWA)

@@ -4,7 +4,7 @@
 
 This module serves as an introduction to the fundamental concepts of algorithms and data structures in programming. It aims to provide students with a foundational understanding of algorithm efficiency metrics, such as Big O notation, and the use of various basic data structures. The module covers arrays, matrices, stacks, queues, pointers, linked lists, and binary search trees (BSTs). Through this module, students will not only learn the theoretical aspects but also apply these concepts in solving typical problems.
 
-## Module content:
+## Module content
 
 1. Introduction to algorithm efficiency metric (Big O notation).
 2. Introduction to basic data structures.
@@ -17,7 +17,6 @@ This module serves as an introduction to the fundamental concepts of algorithms 
 ## Theory
 
 1. You need to watch video materials about the most popular and frequently used data structures and typical problems associated with them:
-
    - [Video lecture: Array (RU)](https://youtu.be/Jvm4ShU86yw) - 15 min
    - [Video lecture: Matrix (RU)](https://youtu.be/r8uHNxrfCwc) - 30 min
    - [Video lecture: Stack (RU)](https://youtu.be/TqlSlaMak8Y) - 20 min
@@ -26,12 +25,10 @@ This module serves as an introduction to the fundamental concepts of algorithms 
    - [Youtube video: Stacks & Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4) - 15 min
 
 2. Read:
-
    - [Notes: Algorithms](./algorithms.md)
    - [Notes: Data Structures](./data-structures.md)
 
 3. You need to watch video materials about data structures with pointers:
-
    - [Video lecture: Linked List (RU)](https://youtu.be/NpcHTBOAId0) - 25 min
    - [Video lecture: Binary Search Tree (RU)](https://youtu.be/fnqUD4FTE5Q) - 40 min
    - [Youtube video: Linked Lists](https://www.youtube.com/watch?v=ChWWEncl76Y) - 15 min

@@ -23,7 +23,6 @@ The project consists of three parts:
 
 - [Requirements and Evaluation Criteria](git-markdown.md)
 - [Tips for Completing the Assignment Using VS Code](cv-hints.md)
-- [Tips for Completing the Assignment Using GitHub](cv-github-hints.md)
 - In this part of the task, you create a personal public repository named `rsschool-cv`, add your CV in Markdown format to it, and deploy it on GitHub Pages.
 - Evaluation is based on the commit history and pull request.
 - Estimated completion time: 2 hours
@@ -33,7 +32,6 @@ The project consists of three parts:
 
 - [Requirements and Evaluation Criteria](html-css-git.md)
 - [Tips for Completing the Assignment Using VS Code](cv-hints.md)
-- [Tips for Completing the Assignment Using GitHub](cv-github-hints.md)
 - In this part of the task, you continue working in the previously created repository. Create another branch called `rsschool-cv-html`, add `index.html` and `style.css` files with arbitrary content to it, and deploy them on GitHub Pages.
 - Evaluation is based on the commit history and pull request.
 - Estimated completion time: 1 hour
@@ -87,12 +85,12 @@ EPAM HR Department Recommendations
 ## Commit Requirements:
 
 - The commit history should reflect the development process of the application.
-- [Use commit names according to the guideline](https://docs.rs.school/#/en/git-convention)
+- [Use commit names according to the guideline](https://rs.school/docs/en/git-convention)
 
 ## Pull Request Requirements:
 
 - Give the Pull Request a title based on the task name.
-- [Give the Pull Request a description following the scheme](https://docs.rs.school/#/en/pull-request-review-process?id=Requirements-for-pull-request-pr)
+- [Give the Pull Request a description following the scheme](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr)
 - Do not merge the Pull Request from the development branch into the `main` branch.
 
 ## To Earn Points for the Assignment, You Must:
@@ -120,7 +118,7 @@ EPAM HR Department Recommendations
 
 ## CV. Cross-Check Assignment Review
 
-- Cross-checking instructions: https://docs.rs.school/#/en/cross-check-flow
+- Cross-checking instructions: https://rs.school/docs/en/cross-check-flow
 - Cross-check form: https://rolling-scopes-school.github.io/checklist/ (item "CV#3. CV. Cross-Check")
 - Example video of cross-check: https://youtu.be/PPGO8Mvtc20
 - Please add the links to the very best works of your cohort, demonstrating a high level of completion, to this form: https://forms.gle/kcmAkFK4j1EGW5JS8
@@ -132,4 +130,4 @@ EPAM HR Department Recommendations
 - [HTML5 Semantic Elements](https://html5css.ru/html/html5_semantic_elements.php)
 - [CV Design Examples](https://www.freepik.com/free-photos-vectors/cv-template)
 - [CV Design Examples](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)

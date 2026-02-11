@@ -30,31 +30,25 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Fundamentals of Software Testing**:
-
    - [Fundamentals of Software Testing](https://testsigma.com/blog/fundamentals-of-software-testing/) - [20min]
    - [Software Testing Basics](https://www.testim.io/blog/software-testing-basics/) - [20min]
 
 2. **Overview of Testing Types**:
-
    - [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) - [5min]
 
 3. **Test Driven Development**:
-
    - [Test Driven Development](https://circleci.com/blog/test-driven-development-tdd/) - [15min]
 
 4. **Integration and E2E Testing**:
-
    - [Integration Testing](https://www.testim.io/blog/javascript-integration-testing-painlessly/) - [10min]
    - [E2E Testing Frameworks](https://testsigma.com/blog/end-to-end-testing-frameworks/) - [15min]
 
 5. **JavaScript Testing Best Practices**:
-
    - [JS Testing Best Practices](https://blog.logrocket.com/javascript-testing-best-practices/) - [15min]
    - [Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices) - [30min]
    - [JS Testing Tutorial](https://wanago.io/2018/08/27/testing-javascript-tutorial-types-of-tests-of-unit-testing-with-jest/) - [10min]
 
 6. **Webinars:**
-
    - [Unit tests [RU]](https://www.youtube.com/watch?v=LZ7kQ7fTwfA) - [2h 8min]
 
 ## Practice 💻

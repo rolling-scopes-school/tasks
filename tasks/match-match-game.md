@@ -28,7 +28,6 @@
 - Приложение должно быть SPA - Генерация новых страниц должна быть реализована через javascript, перезагрузок страниц не должно быть (Перезагрузки инициализируемые из кода для сброса js состояния, например для сброса состояния игры считаются хаком и штрафуются ).
 - На странице Best score должен отображаться топ 10 игроков.
 - На странице Settings должны находится настройки приложения. Допускаются любые настройки, но две базовые нельзя игнорировать:
-
   - Настройка сложности игры (4х4, 6х6, 8х8)
   - Настройка типов карточек для сравнений (можно использовать любые типы. Пример: Животные, автомобили и т.п.)
 
@@ -67,7 +66,7 @@ email:
 - После регистрации игрока в header должна появится кнопка позволяющая начать игру
 - После нажатия на кнопку старт должен начинаться игровой цикл
 - У игрока должна быть возможность остановить игру.
-- Расчет очков игрока должен производиться по следующей формуле: (количество сравнений - количество ошибочных сравнений) _ 100 - (время прошедшее с начала в секундах) _ 10. При этом количество очков не должно быть меньше 0.
+- Расчет очков игрока должен производиться по следующей формуле: (количество сравнений - количество ошибочных сравнений) _100 - (время прошедшее с начала в секундах)_ 10. При этом количество очков не должно быть меньше 0.
 - На игровом поле должен присутствовать таймер.
 - В случае несовпадения карточек, неправильная пара должна быть подсвечена красным.
 - Совпавшие пары должны подсвечиваться зеленым.
@@ -81,7 +80,7 @@ email:
 `eslint` должен быть настроен.
 Запрещено использовать какие-либо аннотации, отключающие правила `eslint` вида `// eslint-disable`
 
-- `eslint` включен в` package.json`,
+- `eslint` включен в`package.json`,
 - вы должны использовать конфигурацию `eslint-config-airbnb-typescript/base`
 - весь код должен быть проверен
 - проверка eslint выполняется запуском команды `npm run lint`
@@ -150,15 +149,15 @@ email:
 
 ## Дополнительная информация
 
-- загрузка изображения на canvas - https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage
-- indexedDb API - https://developer.mozilla.org/ru/docs/Web/API/IndexedDB_API
-- typescript bootstrap tools - https://www.typescriptlang.org/docs/bootstrap
-- пример js роутера - https://medium.com/javascript-by-doing/create-a-modern-javascript-router-805fc14d084d
-- официальная документация typescript - https://www.typescriptlang.org/
-- нативная валидация форм с помощью javascript - https://developer.mozilla.org/ru/docs/Learn/Forms/Form_validation
-- html form documentation - https://www.w3schools.com/html/html_forms.asp
+- загрузка изображения на canvas - <https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage>
+- indexedDb API - <https://developer.mozilla.org/ru/docs/Web/API/IndexedDB_API>
+- typescript bootstrap tools - <https://www.typescriptlang.org/docs/bootstrap>
+- пример js роутера - <https://medium.com/javascript-by-doing/create-a-modern-javascript-router-805fc14d084d>
+- официальная документация typescript - <https://www.typescriptlang.org/>
+- нативная валидация форм с помощью javascript - <https://developer.mozilla.org/ru/docs/Learn/Forms/Form_validation>
+- html form documentation - <https://www.w3schools.com/html/html_forms.asp>
 - Паки изображений для карточек
-  - https://www.flaticon.com/packs/search?word=animals
-  - https://unsplash.com/s/photos/pack-animal
-  - https://www.shutterstock.com/search/pack+animals
-  - https://all-free-download.com/free-photos/pack-animal.html
+  - <https://www.flaticon.com/packs/search?word=animals>
+  - <https://unsplash.com/s/photos/pack-animal>
+  - <https://www.shutterstock.com/search/pack+animals>
+  - <https://all-free-download.com/free-photos/pack-animal.html>

@@ -19,7 +19,8 @@ A profound understanding of JavaScript is the starting point for learning everyt
 
 ## 📖 Theory
 
-- [Webinar](https://www.youtube.com/watch?v=A6-omh-SVug)
+- [Webinar JS/FE-2023Q4 Introduction to the profession of "JS/Front-end developer"](https://www.youtube.com/watch?v=A6-omh-SVug)
+- [RSSchool Online Meetup 11/11/2023](https://www.youtube.com/watch?v=4Am6o6lsjqE)
 - 📘 **Reading Material:** [Recommendations for learning English [RU]](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## 💡 Essential Knowledge for Front-end Developers

@@ -23,26 +23,22 @@ Students will:
 Students are encouraged to study the following resources:
 
 1. **Elements Tab:**
-
    - [DOM Tree Position](https://developer.chrome.com/docs/devtools/dom/#view)
    - [Inspecting and Modifying HTML Structure](https://developer.chrome.com/docs/devtools/dom/#content)
    - [Modifying DOM Element Styles](https://developer.chrome.com/docs/devtools/css/#view)
-   - [Locating Styles in Source Files](https://irishdotnet.dev/fridaydevtip-find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
+   - [Locating Styles in Source Files](https://irishdotnet.dev/find-the-exact-location-of-where-a-style-is-defined-using-chrome-dev-tools)
    - [Reviewing Applied Styles](https://developer.chrome.com/docs/devtools/css/issues/#css-in-computed)
 
 2. **Console Tab:**
-
    - [JavaScript Logs in the Console Panel](https://developer.chrome.com/docs/devtools/console/)
    - [Navigating from Console to Source](https://developer.chrome.com/docs/devtools/console/log/#javascript)
    - [Managing Log Storage](https://developer.chrome.com/docs/devtools/console/reference/#persist)
 
 3. **Sources Tab:**
-
    - [Exploring Web Application File Structure](https://developer.chrome.com/docs/devtools/sources/#files)
    - [Breakpoints and Code Navigation](https://developer.chrome.com/docs/devtools/javascript/#event-breakpoint)
 
 4. **Network Tab:**
-
    - [Analyzing Network Requests](https://developer.chrome.com/docs/devtools/network/#load)
    - [Filtering and Managing Requests](https://developer.chrome.com/docs/devtools/network/reference/#clear)
    - [Inspecting Request Information](https://developer.chrome.com/docs/devtools/network/#details)

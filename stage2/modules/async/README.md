@@ -31,23 +31,19 @@ In this module, students will:
 Students are encouraged to study the following resources:
 
 1. **Promises:**
-
    - [Promises, async/await](https://javascript.info/async)
    - [JavaScript Promises - Introduction](https://www.codeguage.com/courses/advanced-js/promises-introduction)
    - [JavaScript Promises - Basics](https://www.codeguage.com/courses/advanced-js/promises-basics)
    - [Promises Chaining](https://www.codeguage.com/courses/advanced-js/promises-chaining)
 
 2. **Error Handling:**
-
    - [Error Handling](https://javascript.info/error-handling)
    - [Promises Error Handling](https://www.codeguage.com/courses/advanced-js/promises-error-handling)
 
 3. **Timers:**
-
    - [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
 
 4. **RS Materials:**
-
    - [Async Programming Lecture [RU]](https://www.youtube.com/watch?v=MuCoejGknUI)
    - [Async Programming Lecture Slides](https://slides.com/dzmitrytsebruk/async-programming)
 
@@ -60,14 +56,12 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 - **To Read:**
-
   - [How Promises Work in JavaScript](https://www.freecodecamp.org/news/guide-to-javascript-promises/#how-to-handle-errors-in-async-await)
   - [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
   - [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
   - [How to Learn JavaScript Promises and Async/Await in 20 Minutes](https://www.freecodecamp.org/news/learn-promise-async-await-in-20-minutes/)
 
 - **To Watch:**
-
   - [Learn Callbacks, Promises, Async/Await By Making Ice Cream](https://www.youtube.com/watch?v=n5ZtTO1ArWg)
 
 - **Tools:**

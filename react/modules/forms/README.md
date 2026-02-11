@@ -23,60 +23,83 @@ Students will:
 
 - **7 hours**
 
+## React 19 and the _useActionState_
+
+### What is useActionState?
+
+The [`useActionState`](https://react.dev/reference/react/useActionState) hook is a new addition in React 19 that allows developers to manage state in a more declarative and efficient manner. It is designed to simplify state management by providing a way to define state transitions directly within the component.
+
+### How does it work?
+
+- **Declarative State Transitions:** `useActionState` allows you to define state transitions in a declarative manner, making your code more readable and easier to maintain.
+- **Efficiency:** By managing state transitions more efficiently, `useActionState` can help reduce unnecessary re-renders and improve the performance of your application.
+- **Integration with Actions:** The hook integrates seamlessly with actions, allowing you to define how state should change in response to specific actions.
+
+### Example Usage
+
+```jsx
+import { useActionState } from "react";
+
+async function increment(previousState, formData) {
+  return previousState + 1;
+}
+
+function StatefulForm({}) {
+  const [state, formAction] = useActionState(increment, 0);
+  return (
+    <form>
+      {state}
+      <button formAction={formAction}>Increment</button>
+    </form>
+  );
+}
+```
+
 ## Theory 📖
 
 Students are encouraged to explore the following resources:
 
 1. **Getting Started with React Forms:**
-
    - [video: webDev React JS #10 Forms](https://www.youtube.com/watch?v=LLum_dcrbFo) - [15 minutes]
    - [article: Create a Form using React JS](https://www.geeksforgeeks.org/create-a-form-using-reactjs/) - [10 minutes]
    - [article: React Forms](https://www.w3schools.com/react/react_forms.asp) - [10 minutes]
 
 2. **How to create basic forms in React:**
-
    - [react.dev: Form components](https://react.dev/reference/react-dom/components#form-components) - [5 minutes]
    - [react.dev: The built-in browser &lt;form&gt; component](https://react.dev/reference/react-dom/components/form) - [10 minutes]
 
 3. **How to control the state of a form using React state:**
-
    - [react.dev: Reacting to Input with State](https://react.dev/learn/reacting-to-input-with-state) - [30 minutes]
 
 4. **Controlled and uncontrolled form elements:**
-
    - [article: Controlled and Uncontrolled Components in React](https://reactjsguru.com/controlled-and-uncontrolled-components-in-react/) - [20 minutes]
    - [article: Uncontrolled vs Controlled components in React](https://www.geeksforgeeks.org/controlled-vs-uncontrolled-components-in-reactjs/) - [10 minutes]
    - [old documentation: Uncontrolled components](https://legacy.reactjs.org/docs/uncontrolled-components.html) - [10 minutes]
    - [react.dev: Manipulating the DOM with Refs](https://react.dev/learn/manipulating-the-dom-with-refs) - [30 minutes]
 
 5. **How to use event handlers to process submitted forms:**
-
    - [article: React onSubmit Event](https://www.geeksforgeeks.org/react-onsubmit-event/) - [5 minutes]
    - [react.dev: State as a Snapshot](https://react.dev/learn/state-as-a-snapshot) - [20 minutes]
 
 6. **Form libraries like **React Hook Form** to simplify working with forms in React:**
-
    - [React Hook Form](https://www.react-hook-form.com/get-started/) - [60 minutes]
 
 7. **Form validation in React:**
-
    - [article: How to perform form validation in React?](https://www.geeksforgeeks.org/how-to-perform-form-validation-in-react/) - [10 minutes]
    - [article: React form validation with React Hook Form and Yup](https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98) - [20 minutes]
    - [article: Creating a React Form Using React Hook Form and Yup in TypeScript](https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57) - [30 minutes]
-   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [50 minutes]
+   - [Yup](https://github.com/jquense/yup?tab=readme-ov-file#yup) - [25 minutes]
+   - [Zod](https://github.com/colinhacks/zod) - [30 minutes]
 
 8. **How to handle file uploads in React forms:**
-
    - [article: File uploading in React.js](https://www.geeksforgeeks.org/file-uploading-in-react-js/) - [10 minutes]
    - [video: How To Upload Files Using **React Hook Form**](https://www.youtube.com/watch?v=XlAs-Lid-TA) - [5 minutes]
 
 9. **How to create dynamic forms in React:**
-
    - [article: How to Build Dynamic Forms in React?](https://www.geeksforgeeks.org/how-to-build-dynamic-forms-in-react/) - [15 minutes]
    - [article: Build Dynamic Forms with **React Hook Form**](https://claritydev.net/blog/build-dynamic-forms-react-hook-form) - [20 minutes]
 
 10. **How to push submitted form data to the server or to state management libraries:**
-
     - [article: Explain the process of submitting forms and handling form submissions in Redux](https://www.geeksforgeeks.org/explain-the-process-of-submitting-forms-and-handling-form-submissions-in-redux/) - [20 minutes]
     - [article: **React Hook Form** - Integrating with services](https://react-hook-form.com/get-started#Integratingwithservices) - [5 minutes]
 

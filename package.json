@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "husky": "^9",
+    "lint-staged": "^16",
+    "prettier": "^3.6.2"
   },
   "scripts": {
     "format": "prettier --write .",
-    "ci:format": "prettier --check ."
+    "ci:format": "prettier --check .",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",

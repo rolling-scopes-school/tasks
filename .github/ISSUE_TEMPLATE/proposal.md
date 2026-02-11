@@ -26,12 +26,10 @@ List the primary objectives of this proposal, such as:
 Detail the specific tasks involved in this proposal:
 
 1. **Content/Task Creation or Update**:
-
    - [Detailed Task Description]
    - [Detailed Task Description]
 
 2. **Translation and Localization**:
-
    - [Detailed Task Description]
    - [Detailed Task Description]
 

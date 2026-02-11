@@ -7,17 +7,14 @@ This task is centered around completing a module that teaches how to work with e
 ## 🔨 Implementation Details
 
 1. **Module Completion:**
-
    - Enroll in and successfully finish the module on working with external libraries in TypeScript.
    - Focus on understanding how to incorporate external libraries, manage type definitions, and handle module importing and exporting in TypeScript.
 
 2. **Badge Acquisition:**
-
    - Upon module completion, a badge representing your achievement will be issued.
    - Make sure the badge is added to your profile on the learning platform.
 
 3. **Markdown File Update:**
-
    - Incorporate the badge into your Markdown documentation.
    - The link to the badge should be correctly formatted and lead directly to your badge.
 

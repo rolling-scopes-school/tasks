@@ -1,12 +1,12 @@
 # [Angular schedule.](../../README.md) Routing
 
-## In this module, students need to learn:
+## In this module, you will learn:
 
-- Basics of routing.
-- RouterOutlet directive.
-- Multiple routing. Routing with parameters.
-- `Router guards`.
-- Asynchronous loading.
+- The basics of routing in Angular
+- How to use the `RouterOutlet` directive
+- How to configure multiple routes and pass route parameters
+- What `Router guards` are and how to use them
+- How to implement lazy loading for modules and components
 
 ## Approximate time to complete this module:
 
@@ -15,24 +15,24 @@ Assignment - 1 hour
 
 ## Theory
 
-- [Lecture](https://youtu.be/zmER4c9Nj_A)
-- [Video](https://www.youtube.com/watch?v=r5DEBMuStPw&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=5)
+- [Lecture: Angular Routing](https://youtu.be/zmER4c9Nj_A)
+- [Video overview](https://www.youtube.com/watch?v=r5DEBMuStPw&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=5)
 - [Examples from the lecture](https://github.com/anjx/angular-lectures/tree/master/angular-routing)
-- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/9c36d584cb393ec6bf860ec34dba1e3c4b9aa6fd)
-- [Slides](https://slides.com/pavelrazuvalau/angular-routing)
+- [TODO list management app with routing](https://github.com/pavelrazuvalau/todo-list-management/tree/9c36d584cb393ec6bf860ec34dba1e3c4b9aa6fd)
+- [Slides: Angular Routing](https://slides.com/pavelrazuvalau/angular-routing)
+- [Enhancing Angular’s route redirection logic: introducing redirectFunction](https://medium.com/netanelbasal/enhancing-angulars-route-redirection-logic-introducing-redirectfunction-245a45add387)
 
 ## Practical assignment
 
-- [Angular. Routing](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/modules-services-routing.md)
+- TBD
 - Test: Angular test (Routing)
 
 ## Additional materials
 
-- [DOCS Routing](https://angular.dev/guide/routing)
-- [Learn Routing](https://angular.dev/tutorials/learn-angular/13-define-a-route)
-- [Learn RouterLink](https://angular.dev/tutorials/learn-angular/14-routerLink)
-
+- [Docs: Routing (overview)](https://angular.dev/guide/routing)
+- [Learn: Define a route](https://angular.dev/tutorials/learn-angular/13-define-a-route)
+- [Learn: RouterLink](https://angular.dev/tutorials/learn-angular/14-routerLink)
 - [Common Routing Tasks](https://angular.dev/guide/routing/common-router-tasks)
 - [Creating custom route matches](https://angular.dev/guide/routing/routing-with-urlmatcher)
 - [RouterLinkActive](https://angular.io/api/router/RouterLinkActive)
-- [Router reference](https://angular.dev/guide/routing/router-reference)
+- [Router Reference](https://angular.dev/guide/routing/router-reference)

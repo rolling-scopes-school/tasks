@@ -18,9 +18,9 @@ The presented design is for your reference and your final one could be any.
 
 ## Application structure
 
-1. [Header](#header):  
-   1.1 Navigation  
-   1.2 Navigation to products category  
+1. [Header](#header):
+   1.1 Navigation
+   1.2 Navigation to products category
    1.3 Profile block
 1. [Footer](#footer)
 1. [Shop landing page](#shop-landing-page)
@@ -36,16 +36,14 @@ The presented design is for your reference and your final one could be any.
 
 Header should contain:
 
-- #### Block with information:
-
+- #### Block with information
   - contacts block: main contacts information and the dropdown with additional contacts
 
     ![Contacts](./assets/contacts.png)
 
   - block that contains contact center working hours
 
-- #### Navigation block:
-
+- #### Navigation block
   - located under the **Block with information**
   - has a logo (could be any). By clicking it a user navigates to the **Shop landing page**.
   - contains the **Catalog** button, after clicking on it a panel with product categories appears (or navigation to a separate page occurs)
@@ -60,16 +58,13 @@ Header should contain:
     ![Search](./assets/search.png)
 
   It is not necessary to create a separate page to implement search. It is enough to display the results in the dropdown.
-
   - #### **Account block**
-
-    - anonymous user  
+    - anonymous user
       ![Account](./assets/sign-in.png)
       - sign in, sign up buttons.
 
     ![Authorization](./assets/authorization.png)
-
-    - authorized user  
+    - authorized user
       ![Account](./assets/account.png)
       - log out button.
       - link to user **Cart**
@@ -92,15 +87,17 @@ The page has the following elements:
 
 - #### Slider
   - a slider with a set of products that change automatically at a given time interval (set manually). When clicking on the slider, the user navigates to the **Product Details page**
+
 - #### Popular products
+
 - should be implemented as a slider, each slide of which consists of 6 cards of popular products.
 
 ### **Category listing page**
 
-- contains the hierarchy of the selected category (breadcrumbs)  
+- contains the hierarchy of the selected category (breadcrumbs)
   ![Breadcrumbs](./assets/breadcrumbs.png)
 - category name, for example **Laptops**
-- list of products in this category as cards  
+- list of products in this category as cards
   ![Cards](./assets/listing.png)
   - product name
   - image
@@ -110,7 +107,7 @@ The page has the following elements:
   - add to cart button
   - add to favorites button
   - state of the buttons should be changed depending on whether an item is in cart or marked as favorite
-- it should be possible to sort products by price (cheap first or expensive first) and by rating  
+- it should be possible to sort products by price (cheap first or expensive first) and by rating
   ![Sorting](./assets/sort.png)
 - products should not be displayed all at once, but in groups of 10, after which there should be a "Show more" button, by clicking on which another group of 10 products is loaded.
 

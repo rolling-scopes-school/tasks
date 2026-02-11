@@ -166,7 +166,7 @@ Maximum score - **100**
 Fines
 
 - [ ] Failure to submit on time may lead to points lose according to
-      the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+      the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] Store is not separated into video data and sequences for _List Page_ and _Favorite Page_ (**-30**)
 - [ ] _Custom Card_ on _List Page_ or _View Page_ contains _favorite button_ (**-15**)
 - [ ] _favorite button_ on _List Page_ or _View Page_ for common YouTube video element doesn't change its appearance
@@ -176,8 +176,8 @@ Fines
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
-- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 

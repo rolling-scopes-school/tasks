@@ -13,7 +13,6 @@ The main goal of this task is to implement forms handling and validation using R
 - **Login block**
 
   ![Login](./login.jpg)
-
   - implement login form
   - add validation rules for input fields:
     - login
@@ -30,7 +29,6 @@ The main goal of this task is to implement forms handling and validation using R
 - **Admin page**
 
   ![Admin](./admin.jpg)
-
   - implement card creation form
   - add validation rules for input fields:
     - title
@@ -75,15 +73,15 @@ Maximum score - **100**
 
 Fines
 
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
 - [ ] `UntypedFormGroup` or other `Untyped` form controls are used at any point of the task. Usage of `any` type is considered equivalent to using `Untyped` forms. (**-15**)
-- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 
@@ -93,4 +91,4 @@ Fines
 [Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
 [api FormGroup](https://angular.dev/api/forms/FormGroup)
 
-https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
+<https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/>

@@ -10,13 +10,11 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 1. Go to [GitHub](https://github.com/) and register for an account. Download and install [Git](https://git-scm.com/) on your computer. During installation, simply click "Next" repeatedly.
 
 2. In your GitHub account, create a public repository with the name `rsschool-cv`.
-
    - How to do it: Click on the plus icon next to your profile picture, select "New repository" from the dropdown, enter the repository name, ensure it's public, and create a README.md file by checking the box.
 
    ![Step 2](https://i.ibb.co/2ZjkXSJ/image.png)
 
 3. Clone the repository to your computer in the folder where you store your projects.
-
    - How to do it: Right-click in the folder and select "Open with Code" (or use Git Bash Here to enter commands in the terminal).
 
    ![Step 3](https://i.ibb.co/TmdL7HH/image.png)
@@ -32,7 +30,6 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 6. In the terminal, use the command `git clone <HTTPS link>` to clone the repository to your computer.
 
    ![Step 6](https://i.ibb.co/wr6Hgh5/image.png)
-
    - This should create a folder named `rsschool-cv` in your project directory, containing a hidden `.git` folder and a README.md file.
 
    ![Step 6 Result](https://i.ibb.co/vYF8NKB/image.png)
@@ -44,7 +41,6 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 8. Create a new branch called `gh-pages` from the `main` branch and switch to it using the command `git checkout -b gh-pages`.
 
    ![Step 8](https://i.ibb.co/6WVpC6z/image.png)
-
    - You can verify your current branch using the `git branch` command.
 
    ![Step 8 Branch Check](https://i.ibb.co/znnfXDF/image.png)
@@ -59,7 +55,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 ![Step 10](https://i.ibb.co/K9Dk0rg/image.png)
 
 11. Next, commit the changes using the `git commit -m 'COMMIT NAME'` command.
-    - Pay attention to the **commit name requirements** described at [https://docs.rs.school/#/en/git-convention](https://docs.rs.school/#/en/git-convention). The task specifies that there should be at least three commits in the `gh-pages` branch, and commit names should start with prefixes like `init:`, `feat:`, `fix:`, `refactor:`, or `docs:`.
+    - Pay attention to the **commit name requirements** described at [https://rs.school/docs/en/git-convention](https://rs.school/docs/en/git-convention). The task specifies that there should be at least three commits in the `gh-pages` branch, and commit names should start with prefixes like `init:`, `feat:`, `fix:`, `refactor:`, or `docs:`.
 
 ![Step 11](https://i.ibb.co/yWLXJM4/image.png)
 
@@ -69,7 +65,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 
 - You can refresh the GitHub page in your browser to see the changes. A new `gh-pages` branch should appear, containing the README.md file and an empty cv.md file. You can also visit the commit page to view all the commits in this branch.
 
-13. Fill in `cv.md` using your code editor with Markdown syntax following the guidelines at https://guides.hexlet.io/markdown/ and periodically push the changes to GitHub.
+13. Fill in `cv.md` using your code editor with Markdown syntax following the guidelines at <https://guides.hexlet.io/markdown/> and periodically push the changes to GitHub.
 
 ![Step 13](https://i.ibb.co/N2XZ1sj/image.png)
 
@@ -89,7 +85,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 
 ![Step 15.3](https://i.ibb.co/phRt9rB/image.png)
 
-- Provide a PR description according to the scheme at [https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr](https://docs.rs.school/#/pull-request-review-process?id=Requirements-for-pull-request-pr). Use the task's name as the PR title.
+- Provide a PR description according to the scheme at [https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr). Use the task's name as the PR title.
 
 ![Step 15.4](https://i.ibb.co/s5wnrSd/image.png)
 
@@ -108,7 +104,6 @@ You will continue your work in the "rsschool-cv" repository created during the p
    ![Step 1](https://i.ibb.co/mzJ0V8Z/image.png)
 
 2. Create an `index.html` file. You will use this file for creating the CV layout.
-
    - Push the changes to the `rsschool-cv-html` branch.
 
    ![Step 2](https://i.ibb.co/rZpMP9Y/image.png)

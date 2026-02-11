@@ -1,4 +1,4 @@
-# EPAM Employment and Onboarding Process for RS School Graduates in 2024 in the GUKKA Region (Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, and Armenia).
+# EPAM Employment and Onboarding Process for RS School Graduates in 2024 in the GUKKA Region (Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, and Armenia)
 
 ### Hiring Plan for 2024
 
@@ -34,7 +34,7 @@ In case of a successful application, we will inform you by email or Telegram.
 
 - **Successful Candidates:** Registered at EPAM as "Students."
 - **Benefits:** Access to corporate MS Teams and some internal resources, such as the Learn portal.
-- **You can start taking courses on AWS. All the information is here** https://github.com/rolling-scopes-school/tasks/blob/docs-epam-doc-structure-refactoring/epam/epam-js-lab.md
+- **You can start taking courses on AWS. All the information is here** <https://github.com/rolling-scopes-school/tasks/blob/docs-epam-doc-structure-refactoring/epam/epam-js-lab.md>
 
 ### 4. NodeJS Requirement
 
@@ -62,14 +62,13 @@ In case of a successful application, we will inform you by email or Telegram.
 2. **Framework Interview (React or Angular)**
    - **Live Coding:** Implementing applications like a TODO app or Tic-tac-toe within 1 hour.
 3. NodeJS TechCheck
-   - https://kb.epam.com/pages/viewpage.action?pageId=1534736251
+   - <https://kb.epam.com/pages/viewpage.action?pageId=1534736251>
 
 ## 6. Onboarding Candidates to EPAM
 
 ### A. Offer Categories
 
 1. **Full junior salary**
-
    - **Eligibility:** Proficiency in Front-end plus Core TS/JS, Node.js + Cloud Basics, Angular or React.
    - **Position:** Interns working on EPAM projects.
    - **Salary:** Full junior salary for a duration of 3 months. Then junior must then be transferred to EPAM's production unit for a production position
@@ -89,4 +88,4 @@ A LAB employee can be there for up to three months. During this time they work o
 ## Telegram chat
 
 If you have read this document to the end and still have questions, please join the Telegram chat and feel free to ask/discuss:
-https://t.me/epamjsxstacklab
+<https://t.me/epamjsxstacklab>

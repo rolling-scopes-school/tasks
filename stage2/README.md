@@ -1,488 +1,438 @@
 # RS School. JS/Frontend Development Course. Stage#2
 
-- To enroll, students must successfully complete the tasks of the first stage and pass an interview with a mentor
-- Goals of the second stage of training:
+- To enroll, students must successfully complete the Stage#1
+- To get a mentor, students must pass technical screening (it's allowed to study without a mentor)
+- Goals of the Stage#2:
   - Students acquire knowledge and experience working with TypeScript
-  - Students acquire knowledge and experience in developing UI components
-  - Preparing students for technical interviews
-  - Preparing students for presentations in English
-  - Students complete a team project
-- Training time: 19 weeks
-- Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
+  - Students acquire knowledge and experience in developing UI components and web applications
+  - Preparing students for technical interviews and presentations in English
+  - Students get experience in working in a team and completing a team project
+- Stage#2 duration: 18 weeks
+- Format: Self-study + webinars + communication on Discord + communication with mentors. Practical tasks are checked and evaluated by a mentor and during cross-checks. Practice technical interviews are held with different mentors during the course.
 
-# Training Program
+# Course Schedule
 
 ## Week #1
 
-### February 11, 2025
+### November 25, 2025 - December 1, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["Self-introduction" project](../stage1/modules/self-introduction/)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Self-introduction](../stage1/modules/self-introduction/) project
 
 - Modules:
-
-  - [Module: TypeScript: Basic](modules/typescript-basic/)
+  - [Module: TypeScript: Basic](./modules/typescript-basic/)
 
 - Tasks:
-
-  - [Interview with mentor](modules/technical-screening/)
-  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [Technical Screening with mentor](./modules/technical-screening/)
 
 - Tests:
-
-  - [[St2] TypeScript Basics](modules/typescript-basic/)
+  - [[St2] TypeScript Basics](./modules/typescript-basic/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
-- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
+- [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
 - [Conducting Technical Screening](./modules/technical-screening/)
+
 </details>
 
 ## Week #2
 
-### February 18, 2025
+### December 2, 2025 - December 8, 2025
 
 - Modules:
-
-  - [Module: Typescript: Advanced](modules/typescript-advanced/)
+  - [Module: Typescript: Advanced](./modules/typescript-advanced/)
 
 - Tasks:
-
-  - [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-  - [Interview with mentor](modules/technical-screening/)
-  - [TypeScript Essentials](tasks/TypeScriptEssentials/)
+  - [News API](../tasks/migration-newip-to-ts.md)
+  - [Technical Screening with mentor](./modules/technical-screening/)
   - [Codewars-OOP Tasks](../tasks/codewars/Codewars-2023Q4-OOP.md)
   - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
 
 - Tests:
+  - [[St2] Typescript Advanced](./modules/typescript-advanced/)
 
-  - [[St2] Typescript Advanced](modules/typescript-advanced/)
+```text
+Starting at the end of this week, all students must use TypeScript for all subsequent tasks and follow these requirements:
 
-```
-At the end of this week, all students will be required to use typescript and adhere to the following rules when completing all subsequent tasks:
-
-- Use of Everyday Types
-- Use of Generics
-- Use of Object Types
-- Use of Classes
-- Use of Function
-- No use of the Any type
-- ESLinter is configured for TypeScript (the typescript-eslint/recommended plugin is used) and there are no errors
-- The TypeScript configuration file has the flags "noImplicitAny": true and "strict": true
-- webpack is configured and works with TypeScript
+- Implement Everyday Types
+- Use Generics
+- Define Object Types
+- Create Classes
+- Define Functions
+- Avoid using the `any` type
+- Configure linter with TypeScript (i.e. using `typescript-eslint/recommended` plugin) - no linting errors allowed
+- Set TypeScript config flags: `"noImplicitAny": true` and `"strict": true`
+- Set up bundler to work with TypeScript
 ```
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://docs.rs.school/#/mentoring-Kick-off)
-- [Student allocation through random distribution](https://docs.rs.school/#/mentoring-Kick-off?id=_2-%d0%9f%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2)
+- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
+- [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2)
 - [Conducting Technical Screening](./modules/technical-screening/)
+
 </details>
 
 ## Week #3
 
-### February 25, 2025
-
-- Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [TypeScript Essentials](tasks/TypeScriptEssentials/)
+### December 9, 2025 - December 15, 2025
 
 - Modules:
-
   - [Module: Code review](./modules/code-review/)
   - [Module: SPA](./modules/single-page-application/)
 
 - Tasks:
-
-  - [Code review](./tasks//code-review/)
-  - [Interview with mentor](modules/technical-screening/)
+  - [Code review](./tasks/code-review/)
+  - [Technical Screening with mentor](./modules/technical-screening/)
   - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates)
 
 - Tests:
-
-  - [[St2] Single Page Application](modules/single-page-application/)
-  - [[St2] Code review](modules/code-review/)
+  - [[St2] Single Page Application](./modules/single-page-application/)
+  - [[St2] Code review](./modules/code-review/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
-  
-  - [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-  - [Conducting Technical Screening](./modules/technical-screening/)
-  - [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
+
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Conducting Technical Screening](./modules/technical-screening/)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](../tasks/migration-newip-to-ts.md)
+
 </details>
 
 ## Week #4
 
-### March 4, 2025
+### December 16, 2025 - December 22, 2025
 
 - Modules:
-
-  - [Module: Web Storage](modules/web-storage/)
-  - [Module: "Event Loop & Animation"](modules/eventloop-animation/)
-
-- Tasks:
-
-  - [Wheel of Fortune](./tasks)
-
-- Tests:
-
-  - [[St2] Web Storage](modules/web-storage/)
-  - [[St2] Event Loop & Animation](modules/eventloop-animation/)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- Presentation topic assignments
-  - [Task description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md)
-  - [Topic list](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-topics.md). You can suggest your own topic.
-  - "Recorded" format presentation is required for all students. The recorded [video](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation-recorded.md) will be reviewed by mentors after January 24th.
-  - "Online" format presentation is optional and is up to the student's discretion.
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [News API](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Wheel of Fortune](./tasks)
-- If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
-</details>
-
-## Week #5
-
-### March 11, 2025
-
-- Modules:
-
-  - [Module: "Functional Programming Basics"](modules/fp-basics/)
+  - [Module: Web Storage](./modules/web-storage/)
+  - [Module: Event Loop & Animation](./modules/eventloop-animation/)
+  - [Module: Functional Programming Basics](./modules/fp-basics/)
 
 - Tasks:
-
-  - [Wheel of Fortune](./tasks)
+  - [RSS Puzzle](./tasks/puzzle/README.md)
+  - [Preparing for the presentation](./tasks/presentation/)
   - [Codewars FP](../tasks/codewars/Codewars-2023Q4-FP.md)
 
 - Tests:
-
-  - [[St2] Functional Programming](modules/fp-basics/)
+  - [[St2] Web Storage](./modules/web-storage/)
+  - [[St2] Event Loop & Animation](./modules/eventloop-animation/)
+  - [[St2] Functional Programming](./modules/fp-basics/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Code Review](./tasks/code-review/)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Wheel of Fortune](./tasks)
-- If you have less than two students or want to mentor more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- Presentation topic assignments
+  - [Task description](./tasks/presentation/)
+  - [Topic list](./tasks/presentation/presentation-topics.md). You can suggest your own topic.
+  - "Recorded" format presentation is required for all students. The recorded [video](./tasks/presentation/) will be reviewed by mentors according to the schedule.
+  - "Online" format presentation is optional and is up to the student's discretion.
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code review](./tasks/code-review/) (using [Mentors Check Criteria](./tasks/code-review/MentorEvaluationCriteria.md))
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/README.md) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
+- If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
+
+</details>
+
+## Christmas and New Year Break
+
+### December 23, 2025 - January 5, 2026
+
+- No activities
+
+## Week #5
+
+### January 6, 2026 - January 12, 2026
+
+- Cross-Check Reviews:
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [RSS Puzzle](./tasks/puzzle/)
+
+- Modules:
+  - [Module: Async programming](./modules/async/)
+  - [Module: Web Security](./modules/web-security/)
+
+- Tasks:
+  - [CoreJS Interview #1](../tasks/interview-basic-coreJS.md)
+  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises)
+  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions)
+
+- Tests:
+  - [[St2] Async programming](./modules/async/)
+  - [[St2] Web Security](./modules/web-security/)
+
+<details>
+  <summary markdown="span">Mentor activities</summary>
+
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
+- [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
+- If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+
 </details>
 
 ## Week #6
 
-### March 18, 2025
-
-- Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Wheel of Fortune](./tasks)
+### January 13, 2026 - January 19, 2026
 
 - Modules:
-
-  - [Module: Async programming](modules/async/)
-  - [Module: Web Security](modules/web-security/)
+  - [Module: RESTful API Style](./modules/restful-api/)
 
 - Tasks:
-
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
   - [Project Async Race](./tasks/async-race/)
+  - [CoreJS Interview #1](../tasks/interview-basic-coreJS.md)
 
 - Tests:
-
-  - [[St2] Async programming](modules/async/)
-  - [[St2] Web Security](modules/web-security/)
-  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises)
-  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions)
+  - [[St2] RESTful API Style](./modules/restful-api/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Wheel of Fortune](./tasks)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
-- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+- [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
+
 </details>
 
 ## Week #7
 
-### March 25, 2025
+### January 20, 2026 - January 26, 2026
 
 - Modules:
-
-  - [Module: RESTful API Style](modules/restful-api/)
+  - [Module: JavaScript Error Handling](./modules/error-handling/)
 
 - Tasks:
-
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
   - [Project Async Race](./tasks/async-race/)
+  - [CoreJS Interview #1](../tasks/interview-basic-coreJS.md)
 
 - Tests:
-
-  - [[St2] RESTful API Style](modules/restful-api/)
+  - [[St2] Error handling](./modules/error-handling/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/)
-- [Checking the draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
-- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
+- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+
 </details>
 
 ## Week #8
 
-### April 1, 2025
+### January 27, 2026 - February 2, 2026
 
 - Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Async Race](./tasks/async-race/)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Async Race](./tasks/async-race/)
 
 - Modules:
-
-  - [Testing](modules/testing/)
-
-- Tests:
-
-  - [[St2] Testing](./modules/testing/)
+  - [Testing](./modules/testing/)
+  - [Module: WebSockets](./modules/web-sockets/)
 
 - Tasks:
+  - [Fun Сhat](./tasks/fun-chat/)
+  - [CoreJS Interview #1](../tasks/interview-basic-coreJS.md)
 
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- Tests:
+  - [[St2] Testing](./modules/testing/)
+  - [[St2] WebSockets](./modules/web-sockets/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Interviewing students on CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-- [Checking](https://docs.rs.school/#/pull-request-review-process) task [Project Async Race](./tasks/async-race/)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Project Async Race](./tasks/async-race/) (using [Mentors Check Criteria](./tasks/async-race/non-functional-requirements.md))
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
+- [Interviewing students for CoreJS #1](../tasks/interview-basic-coreJS.md)
+
 </details>
 
 ## Week #9
 
-### April 8, 2025
+### February 3, 2026 - February 9, 2026
 
 - Modules:
-
-  - [Module: JavaScript Error Handling](modules/error-handling/)
-  - [Module: WebSockets](modules/web-sockets/)
-
-- Tests:
-
-  - [[St2] Error handling](./modules/error-handling/)
+  - [Module: Design Patterns](./modules/design-patterns/)
 
 - Tasks:
+  - [Fun Сhat](./tasks/fun-chat/)
+  - [Codewars Design Patterns](../tasks/codewars/Codewars-2022Q1-DP.md)
 
-  - [CoreJS Interview #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
-  - [Fun Сhat](tasks/fun-chat/README.md)
+- Tests:
+  - [[St2] Design Patterns](./modules/design-patterns/)
 
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Async Race](./tasks/async-race/)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
-- [Interviewing students for CoreJS #1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-basic-coreJS.md)
+- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
+
 </details>
 
 ## Week #10
 
-### April 15, 2025
-
-- Modules:
-
-  - [Module: Design Patterns](modules/design-patterns/)
-
-- Tests:
-
-  - [[St2] Design Patterns](modules/design-patterns/)
-
-- Tasks:
-
-  - [Fun Сhat](tasks/fun-chat/README.md)
-  - [Codewars Design Patterns](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2022Q1-DP.md)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Weekly meeting with students](https://docs.rs.school/#/mentoring?id=e%d0%b6%d0%b5%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b8%d1%82%d0%b8%d0%bd%d0%b3-%d1%81%d0%be-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc%d0%b8)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Fun Сhat](tasks/fun-chat/README.md)
-</details>
-
-## Week #11
-
-### April 22, 2025
+### February 10, 2026 - February 16, 2026
 
 - Cross-Check Reviews:
-
-  - [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Fun Сhat](tasks/fun-chat/README.md)
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Fun Сhat](./tasks/fun-chat/)
 
 - Modules:
-
-  - [Module: "SCRUM, Kanban"](modules/scrum/)
-  - [Preparation for Final Project](modules/final-task/)
-
-- Tests:
-
-  - [[St2] Scrum. Kanban](modules/scrum/)
+  - [Module: How Browsers Work - Rendering Flow](./modules/how-browsers-work/)
+  - [Module: "SCRUM, Kanban"](./modules/scrum/)
+  - [Preparation for Final Project](./modules/final-task/)
 
 - Tasks:
+  - [Project: Presentation. Recorded](./tasks/presentation/)
 
-  - [Project: Presentation. Recorded](tasks/presentation/)
+- Tests:
+  - [[St2] How Browsers Work - Rendering Flow](./modules/how-browsers-work/)
+  - [[St2] Scrum. Kanban](./modules/scrum/)
 
 <details>
   <summary>Mentor Activities</summary>
 
-- [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
+- [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Fun Сhat](./tasks/fun-chat/) (using [Mentors Check Criteria](./tasks/fun-chat/README.md#technical-requirements-160))
+
 </details>
 
-## Week #12
+## Week #11
 
-### April 29, 2025
+### February 17, 2026 - February 23, 2026
+
+**Final project (Tandem):** Students may use the full 6 weeks for development (through Week #16) or complete in 4 weeks and present earlier. See the [task description](./tasks/rs-tandem/README.md) for details.
 
 - Modules:
-
+  - [Module: Reactive Programming](./modules/reactive-programming/)
   - [Module: CI/CD](./modules/ci-cd/)
 
-- Tests:
-
-  - [[St2] CI/CD](./modules/ci-cd/)
-
 - Tasks:
+  - [Final-Task. Setup](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
-  - [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+- Tests:
+  - [[St2] Reactive Programming](./modules/reactive-programming/)
+  - [[St2] CI/CD](./modules/ci-cd/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Weekly Meeting with Students](https://docs.rs.school/#/mentoring?id=weekly-meeting-with-students)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Fun Сhat](tasks/fun-chat/README.md)
-- [Checking the final version](https://docs.rs.school/#/pull-request-review-process) of the [Project: Presentation. Recorded](tasks/presentation/)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+- [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task. Setup](./tasks/rs-tandem/README.md)
+- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Presentation](./tasks/presentation/) (using [Mentors Check Criteria](./tasks/presentation/README.md#evaluation-criteria))
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
+</details>
+
+## Week #12
+
+### February 24, 2026 - March 2, 2026
+
+- Modules:
+  - [Module: JavaScript Garbage Collection](./modules/garbage-collection/)
+
+- Tasks:
+  - [Final-Task. Week 1](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
+
+<details>
+  <summary markdown="span">Mentor Activities</summary>
+
+- [Checking Final Version of Final-Task. Setup](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 1](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
 
 ## Week #13
 
-### May 6, 2025
-
-- Modules:
-
-  - [Module: How Browsers Work - Rendering Flow](modules/how-browsers-work/)
-
-- Tests:
-
-  - [[St2] How Browsers Work - Rendering Flow](modules/how-browsers-work/)
+### March 3, 2026 - March 9, 2026
 
 - Tasks:
-
-  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [Final-Task. Week 2](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 2](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
 </details>
 
 ## Week #14
 
-### May 13, 2025
-
-- Modules:
-
-  - [Module: JavaScript Garbage Collection](modules/garbage-collection/)
+### March 10, 2026 - March 16, 2026
 
 - Tasks:
-
-  - [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+  - [Final-Task. Week 3](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint1](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 3](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
 </details>
 
 ## Week #15
 
-### May 20, 2025
+### March 17, 2026 - March 23, 2026
 
 - Tasks:
-
-  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+  - [Final-Task. Week 4](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 4](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
 </details>
 
 ## Week #16
 
-### May 27, 2025
+### March 24, 2026 - March 30, 2026
 
 - Tasks:
-
-  - [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+  - [Final-Task. Week 5](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 5](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
 </details>
 
 ## Week #17
 
-### June 3, 2025
+### March 31, 2026 - April 6, 2026
+
+- Cross-Check Reviews:
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
 
 - Tasks:
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
-  - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-  - [CoreJS Interview #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- Presentations:
+  - [Final Project Presentation](./tasks/rs-tandem/PERSONAL_SCORE.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-- [Interviewing students for CoreJS #2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/interview-corejs.md)
+- [Checking Final Version of Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
 </details>
 
 ## Week #18
 
-### June 10, 2025
+### April 7, 2026 - April 13, 2026
 
-- Tasks:
-
-  - [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-
-<details>
-  <summary markdown="span">Mentor Activities</summary>
-
-- [Checking Final Version of Final-Task.Sprint3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
-- [Checking the Draft version](https://docs.rs.school/#/pull-request-review-process) of the task [Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-</details>
-
-## Week #19
-
-### June 17, 2025
-
-- [Final Project Presentation](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/eCommerce-Application/presentation.md)
 - Receiving the certificate for Stage#2
 - Break before Stage#3
 - Receiving feedback from the mentor. At the end of the course, if you have a mentor, please ask them to write a review for you. The mentor can do this by opening the RS APP, going to the 'My Students' page, and clicking the 'Give Feedback' button next to your name.
@@ -490,6 +440,6 @@ At the end of this week, all students will be required to use typescript and adh
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task.Sprint4](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-- Feedback on students. You can leave feedback on your students in the RS APP -> My Students. Your feedback will be available to the student in their RS APP CV. Essentially, feedback is similar to a recommendation letter.
+- Giving feedback to students. You can leave feedback on your students in the RS APP -> My Students. Your feedback will be available to the student in their RS APP CV. Essentially, feedback is similar to a recommendation letter.
+
 </details>
