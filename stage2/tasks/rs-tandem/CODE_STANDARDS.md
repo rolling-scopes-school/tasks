@@ -15,6 +15,7 @@
 3. (+5) В коде нет `as any` (приведение к any для обхода типизации).
 
 **Как проверить:** открыть `tsconfig.json`, затем выполнить поиск по проекту:
+
 ```bash
 grep -r "@ts-ignore\|as any" src/
 ```
@@ -26,6 +27,7 @@ grep -r "@ts-ignore\|as any" src/
 3. (-25) Более 10 использований `any` — 0 баллов за эту секцию.
 
 **Как проверить:**
+
 ```bash
 grep -rn ": any\|<any>" src/ --include="*.ts" --include="*.tsx" | wc -l
 ```
@@ -39,9 +41,11 @@ grep -rn ": any\|<any>" src/ --include="*.ts" --include="*.tsx" | wc -l
 3. (+5) Husky настроен: pre-commit hook запускает lint/format.
 
 **Как проверить:**
+
 ```bash
 npm install && npm run lint
 ```
+
 Убедиться, что нет ошибок линтинга. Проверить наличие файлов конфигурации.
 
 #### 4. Error Handling (+25)

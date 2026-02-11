@@ -17,14 +17,14 @@
 
 ### Сценарии
 
-| Кто выбыл | На какой неделе | Что делать |
-|-----------|-----------------|------------|
-| Steve (Lead) | 1-2 | Alex берет Auth, Ender — Dashboard |
-| Steve | 3-5 | Сократить scope: убрать i18n, theme switcher |
-| Alex | 1-2 | Steve берет Widget Engine (простой вариант) |
-| Alex | 3-5 | Оставить только Quiz + True/False виджеты |
-| Ender | 1-2 | Alex берет Async Sorter, Memory Game отменяется |
-| Ender | 3-5 | Async Sorter без Touch API и A11y |
+| Кто выбыл    | На какой неделе | Что делать                                      |
+| ------------ | --------------- | ----------------------------------------------- |
+| Steve (Lead) | 1-2             | Alex берет Auth, Ender — Dashboard              |
+| Steve        | 3-5             | Сократить scope: убрать i18n, theme switcher    |
+| Alex         | 1-2             | Steve берет Widget Engine (простой вариант)     |
+| Alex         | 3-5             | Оставить только Quiz + True/False виджеты       |
+| Ender        | 1-2             | Alex берет Async Sorter, Memory Game отменяется |
+| Ender        | 3-5             | Async Sorter без Touch API и A11y               |
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### Риск
 
-Написать типизацию для универсального Widget Engine, который принимает *разные* JSON схемы, используя discriminated unions и generics — **очень сложно**.
+Написать типизацию для универсального Widget Engine, который принимает _разные_ JSON схемы, используя discriminated unions и generics — **очень сложно**.
 
 Типичная ошибка: `Type 'string' is not assignable to type 'never'`.
 
@@ -98,9 +98,9 @@
 ```typescript
 // Discriminated Union
 type Widget =
-  | { type: 'quiz'; payload: QuizPayload }
-  | { type: 'true-false'; payload: TrueFalsePayload }
-  | { type: 'async-sorter'; payload: AsyncSorterPayload };
+  | { type: "quiz"; payload: QuizPayload }
+  | { type: "true-false"; payload: TrueFalsePayload }
+  | { type: "async-sorter"; payload: AsyncSorterPayload };
 
 // Exhaustive check
 function assertNever(x: never): never {
@@ -109,11 +109,11 @@ function assertNever(x: never): never {
 
 function processWidget(widget: Widget) {
   switch (widget.type) {
-    case 'quiz':
+    case "quiz":
       return handleQuiz(widget.payload);
-    case 'true-false':
+    case "true-false":
       return handleTrueFalse(widget.payload);
-    case 'async-sorter':
+    case "async-sorter":
       return handleAsyncSorter(widget.payload);
     default:
       return assertNever(widget); // TS ругается, если не все case покрыты
@@ -135,12 +135,12 @@ function processWidget(widget: Widget) {
 
 ### Проблемы
 
-| Проблема | Описание |
-|----------|----------|
-| Scroll конфликт | Страница скроллится вместо drag |
-| 300ms delay | Браузер ждет double-tap |
-| Нет hover | Невозможно показать preview |
-| Мелкие элементы | Сложно попасть пальцем |
+| Проблема          | Описание                            |
+| ----------------- | ----------------------------------- |
+| Scroll конфликт   | Страница скроллится вместо drag     |
+| 300ms delay       | Браузер ждет double-tap             |
+| Нет hover         | Невозможно показать preview         |
+| Мелкие элементы   | Сложно попасть пальцем              |
 | Разные устройства | iOS и Android ведут себя по-разному |
 
 ### Митигация
@@ -163,10 +163,14 @@ function processWidget(widget: Widget) {
 ```
 
 ```typescript
-element.addEventListener('touchmove', (e) => {
-  e.preventDefault(); // Блокируем scroll
-  updatePosition(e.touches[0]);
-}, { passive: false });
+element.addEventListener(
+  "touchmove",
+  (e) => {
+    e.preventDefault(); // Блокируем scroll
+    updatePosition(e.touches[0]);
+  },
+  { passive: false },
+);
 ```
 
 ### Время
@@ -180,6 +184,7 @@ element.addEventListener('touchmove', (e) => {
 ### Риск
 
 Если настраивать деплой только на 6-й неделе, вы столкнетесь с проблемами:
+
 - CORS ошибки
 - Различия localhost vs prod (HTTPS, Mixed Content)
 - Роутинг на SPA не работает
@@ -204,6 +209,7 @@ element.addEventListener('touchmove', (e) => {
 ### Риск
 
 Вы поддерживаете два источника данных:
+
 - Mock Mode: JSON файлы для разработки
 - Real Mode: Firebase/Firestore
 
@@ -235,6 +241,7 @@ src/
 ### Риск
 
 По умолчанию Firestore либо закрыт, либо открыт всем (Test Mode). Если не настроить Security Rules:
+
 - Любой пользователь может читать/писать любые данные
 - На демо ментор может спросить: "А я могу подменить свой XP?"
 
@@ -277,6 +284,7 @@ service cloud.firestore {
 ### Риск
 
 На README выделен 1 час, но требования из TEAMWORK.md включают:
+
 - Описание проекта
 - Скриншоты
 - Инструкция по запуску
@@ -304,8 +312,8 @@ service cloud.firestore {
 
 ## Скриншоты
 
-| Dashboard | Library | Practice |
-|-----------|---------|----------|
+| Dashboard                          | Library                        | Practice                         |
+| ---------------------------------- | ------------------------------ | -------------------------------- |
 | ![Dashboard](./docs/dashboard.png) | ![Library](./docs/library.png) | ![Practice](./docs/practice.png) |
 
 ## Технологии
@@ -323,11 +331,11 @@ npm run dev
 
 ## Команда
 
-| Участник | Роль | Дневник |
-|----------|------|---------|
-| @steve | Team Lead | [diary](./development-notes/steve/) |
-| @alex | Frontend | [diary](./development-notes/alex/) |
-| @ender | Frontend | [diary](./development-notes/ender/) |
+| Участник | Роль      | Дневник                             |
+| -------- | --------- | ----------------------------------- |
+| @steve   | Team Lead | [diary](./development-notes/steve/) |
+| @alex    | Frontend  | [diary](./development-notes/alex/)  |
+| @ender   | Frontend  | [diary](./development-notes/ender/) |
 
 ## Основные PR
 
@@ -357,18 +365,18 @@ npm run dev
 ```typescript
 // Упрощенная A11y версия
 function handleKeyboard(event: KeyboardEvent) {
-  if (event.key === 'Enter' && focusedBlock) {
+  if (event.key === "Enter" && focusedBlock) {
     if (!selectedBlock) {
       selectedBlock = focusedBlock;
-      announce('Block selected. Press 1-4 to choose zone.');
+      announce("Block selected. Press 1-4 to choose zone.");
     } else {
       moveToZone(selectedBlock, currentZone);
       selectedBlock = null;
     }
   }
 
-  if (event.key >= '1' && event.key <= '4' && selectedBlock) {
-    const zones = ['callStack', 'microtasks', 'macrotasks', 'output'];
+  if (event.key >= "1" && event.key <= "4" && selectedBlock) {
+    const zones = ["callStack", "microtasks", "macrotasks", "output"];
     currentZone = zones[parseInt(event.key) - 1];
     announce(`Zone: ${currentZone}. Press Enter to place.`);
   }

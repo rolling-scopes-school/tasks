@@ -5,6 +5,7 @@
 ## Концепция
 
 Game Engine — это серверный компонент, который:
+
 1. Управляет жизненным циклом комнат (создание → игра → завершение)
 2. Поддерживает авторитетное состояние игры (единственный источник правды)
 3. Обрабатывает действия игроков через WebSocket
@@ -126,54 +127,58 @@ stateDiagram-v2
 ### Правила перехода ходов
 
 ```typescript
-function processGuess(game: Game, cardId: string, playerId: string): GuessResult {
-  const card = game.board.find(c => c.id === cardId);
-  if (!card || card.status === 'revealed') {
-    return { error: 'INVALID_CARD' };
+function processGuess(
+  game: Game,
+  cardId: string,
+  playerId: string,
+): GuessResult {
+  const card = game.board.find((c) => c.id === cardId);
+  if (!card || card.status === "revealed") {
+    return { error: "INVALID_CARD" };
   }
 
   // Открываем карточку
-  card.status = 'revealed';
+  card.status = "revealed";
 
   const currentTeam = game.currentTurn;
 
-  if (card.color === 'bomb') {
+  if (card.color === "bomb") {
     // Бомба → мгновенный проигрыш
-    game.winner = currentTeam === 'red' ? 'blue' : 'red';
-    game.currentPhase = 'finished';
-    return { action: 'game-over', reason: 'bomb' };
+    game.winner = currentTeam === "red" ? "blue" : "red";
+    game.currentPhase = "finished";
+    return { action: "game-over", reason: "bomb" };
   }
 
   if (card.color === currentTeam) {
     // Своя карточка → фаза Check
-    game.currentPhase = 'check';
+    game.currentPhase = "check";
     game.teams[currentTeam].cardsLeft--;
 
     // Проверяем победу
     if (game.teams[currentTeam].cardsLeft === 0) {
-      return { action: 'check-then-win' };
+      return { action: "check-then-win" };
     }
 
     game.guessesRemaining--;
-    return { action: 'check', cardId };
+    return { action: "check", cardId };
   }
 
-  if (card.color === 'neutral') {
+  if (card.color === "neutral") {
     // Нейтральная → ход переходит
-    return { action: 'end-turn', reason: 'neutral' };
+    return { action: "end-turn", reason: "neutral" };
   }
 
   // Карточка соперника → ход переходит, соперник получает очко
-  const opponent = currentTeam === 'red' ? 'blue' : 'red';
+  const opponent = currentTeam === "red" ? "blue" : "red";
   game.teams[opponent].cardsLeft--;
 
   if (game.teams[opponent].cardsLeft === 0) {
     game.winner = opponent;
-    game.currentPhase = 'finished';
-    return { action: 'game-over', reason: 'opponent-complete' };
+    game.currentPhase = "finished";
+    return { action: "game-over", reason: "opponent-complete" };
   }
 
-  return { action: 'end-turn', reason: 'opponent-card' };
+  return { action: "end-turn", reason: "opponent-card" };
 }
 ```
 
@@ -348,9 +353,29 @@ flowchart TD
 
 ```typescript
 function generateRoomCode(): string {
-  const adjectives = ['js', 'ts', 'react', 'node', 'algo', 'css', 'html', 'git'];
-  const nouns = ['masters', 'ninjas', 'pros', 'devs', 'coders', 'wizards', 'gurus', 'hackers'];
-  const num = Math.floor(Math.random() * 99).toString().padStart(2, '0');
+  const adjectives = [
+    "js",
+    "ts",
+    "react",
+    "node",
+    "algo",
+    "css",
+    "html",
+    "git",
+  ];
+  const nouns = [
+    "masters",
+    "ninjas",
+    "pros",
+    "devs",
+    "coders",
+    "wizards",
+    "gurus",
+    "hackers",
+  ];
+  const num = Math.floor(Math.random() * 99)
+    .toString()
+    .padStart(2, "0");
   const adj = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
   return `${adj}-${noun}-${num}`;
@@ -370,10 +395,10 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
   // 2. Распределяем цвета: 9 red, 8 blue, 7 neutral, 1 bomb
   // Red идёт первой, поэтому у Red на 1 карточку больше
   const colors: CardColor[] = [
-    ...Array(9).fill('red' as CardColor),
-    ...Array(8).fill('blue' as CardColor),
-    ...Array(7).fill('neutral' as CardColor),
-    'bomb' as CardColor,
+    ...Array(9).fill("red" as CardColor),
+    ...Array(8).fill("blue" as CardColor),
+    ...Array(7).fill("neutral" as CardColor),
+    "bomb" as CardColor,
   ];
   const shuffledColors = shuffle(colors);
 
@@ -382,7 +407,7 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
     id: `card-${i}`,
     word: entry.word,
     color: shuffledColors[i],
-    status: 'hidden' as CardStatus,
+    status: "hidden" as CardStatus,
     position: i,
   }));
 }
@@ -404,18 +429,21 @@ function shuffle<T>(array: T[]): T[] {
 > **Критически важно:** Сервер НИКОГДА не отправляет цвета скрытых карточек оперативникам. Нарушение этого правила позволит увидеть ответы через DevTools.
 
 ```typescript
-function getGameStateForPlayer(game: Game, playerId: string): GameStateForPlayer {
+function getGameStateForPlayer(
+  game: Game,
+  playerId: string,
+): GameStateForPlayer {
   const isSpymaster =
     game.teams.red.spymasterId === playerId ||
     game.teams.blue.spymasterId === playerId;
 
   return {
-    board: game.board.map(card => ({
+    board: game.board.map((card) => ({
       id: card.id,
       word: card.word,
       status: card.status,
       // Капитан видит все цвета. Оперативник — только открытых карточек
-      color: (card.status === 'revealed' || isSpymaster) ? card.color : null,
+      color: card.status === "revealed" || isSpymaster ? card.color : null,
       position: card.position,
     })),
     currentTurn: game.currentTurn,
@@ -435,6 +463,7 @@ function getGameStateForPlayer(game: Game, playerId: string): GameStateForPlayer
 ### Пример: что видит капитан vs оперативник
 
 **Капитан (Spymaster):**
+
 ```
 ┌─────────┬─────────┬─────────┬─────────┬─────────┐
 │ closure │prototype│ Promise │  this   │hoisting │
@@ -447,6 +476,7 @@ function getGameStateForPlayer(game: Game, playerId: string): GameStateForPlayer
 ```
 
 **Оперативник (Operative):**
+
 ```
 ┌─────────┬─────────┬─────────┬─────────┬─────────┐
 │ closure │prototype│ Promise │  this   │hoisting │
@@ -482,20 +512,23 @@ class GameEventBus {
   }
 
   emit<T>(event: string, payload: T): void {
-    this.listeners.get(event)?.forEach(handler => handler(payload));
+    this.listeners.get(event)?.forEach((handler) => handler(payload));
   }
 }
 
 // Использование
 const bus = new GameEventBus();
 
-bus.on<Clue>('game:clue-given', (clue) => {
+bus.on<Clue>("game:clue-given", (clue) => {
   updateClueDisplay(clue);
 });
 
-bus.on<{ cardId: string; color: CardColor }>('game:card-revealed', ({ cardId, color }) => {
-  animateCardReveal(cardId, color);
-});
+bus.on<{ cardId: string; color: CardColor }>(
+  "game:card-revealed",
+  ({ cardId, color }) => {
+    animateCardReveal(cardId, color);
+  },
+);
 ```
 
 ### State Pattern для фаз игры
@@ -514,20 +547,24 @@ interface PhaseUIState {
   clueInputVisible: boolean;
   endTurnVisible: boolean;
   timerActive: boolean;
-  overlayActive: boolean;        // для Check Phase
+  overlayActive: boolean; // для Check Phase
 }
 
 // Реализация для фазы угадывания
 class GuessPhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = 'guess';
+  phase: GamePhase = "guess";
 
-  canGiveClue(): boolean { return false; }
+  canGiveClue(): boolean {
+    return false;
+  }
 
   canGuess(playerId: string, game: Game): boolean {
     const team = getPlayerTeam(playerId, game);
-    return team === game.currentTurn
-      && !isSpymaster(playerId, game)
-      && game.guessesRemaining > 0;
+    return (
+      team === game.currentTurn &&
+      !isSpymaster(playerId, game) &&
+      game.guessesRemaining > 0
+    );
   }
 
   canEndTurn(playerId: string, game: Game): boolean {
@@ -563,19 +600,27 @@ class GuessPhaseHandler implements GamePhaseHandler {
 // Сервер: при начале хода
 function startTurn(game: Game): void {
   game.turnEndTime = Date.now() + game.settings.turnTimeSeconds * 1000;
-  broadcast('game:timer-sync', { remainingMs: game.settings.turnTimeSeconds * 1000 });
+  broadcast("game:timer-sync", {
+    remainingMs: game.settings.turnTimeSeconds * 1000,
+  });
 }
 
 // Сервер: при Check Phase — паузим таймер
 function pauseTimer(game: Game): void {
   game.pausedRemainingMs = game.turnEndTime - Date.now();
-  broadcast('game:timer-sync', { remainingMs: game.pausedRemainingMs, paused: true });
+  broadcast("game:timer-sync", {
+    remainingMs: game.pausedRemainingMs,
+    paused: true,
+  });
 }
 
 // Сервер: после Check Phase — возобновляем
 function resumeTimer(game: Game): void {
   game.turnEndTime = Date.now() + game.pausedRemainingMs;
-  broadcast('game:timer-sync', { remainingMs: game.pausedRemainingMs, paused: false });
+  broadcast("game:timer-sync", {
+    remainingMs: game.pausedRemainingMs,
+    paused: false,
+  });
 }
 
 // Клиент: отображение таймера
@@ -586,10 +631,10 @@ function updateTimerDisplay(turnEndTime: number, paused: boolean): void {
   const seconds = Math.ceil(remaining / 1000);
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  timerElement.textContent = `${minutes}:${secs.toString().padStart(2, '0')}`;
+  timerElement.textContent = `${minutes}:${secs.toString().padStart(2, "0")}`;
 
   if (remaining <= 0) {
-    timerElement.textContent = 'Ожидание...';  // Сервер решит
+    timerElement.textContent = "Ожидание..."; // Сервер решит
   }
 }
 ```
@@ -656,22 +701,53 @@ function updateTimerDisplay(turnEndTime: number, paused: boolean): void {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.card.revealed.red    { background: #ef5350; color: white; }
-.card.revealed.blue   { background: #42a5f5; color: white; }
-.card.revealed.neutral { background: #bdbdbd; color: #333; }
-.card.revealed.bomb   { background: #212121; color: white; }
+.card.revealed.red {
+  background: #ef5350;
+  color: white;
+}
+.card.revealed.blue {
+  background: #42a5f5;
+  color: white;
+}
+.card.revealed.neutral {
+  background: #bdbdbd;
+  color: #333;
+}
+.card.revealed.bomb {
+  background: #212121;
+  color: white;
+}
 
 /* Вид капитана: подсветка цветов на скрытых карточках */
-.spymaster-view .card.hidden.red    { border-color: #ef5350; background: #ffebee; }
-.spymaster-view .card.hidden.blue   { border-color: #42a5f5; background: #e3f2fd; }
-.spymaster-view .card.hidden.neutral { border-color: #bdbdbd; background: #fafafa; }
-.spymaster-view .card.hidden.bomb   { border-color: #212121; background: #424242; color: white; }
+.spymaster-view .card.hidden.red {
+  border-color: #ef5350;
+  background: #ffebee;
+}
+.spymaster-view .card.hidden.blue {
+  border-color: #42a5f5;
+  background: #e3f2fd;
+}
+.spymaster-view .card.hidden.neutral {
+  border-color: #bdbdbd;
+  background: #fafafa;
+}
+.spymaster-view .card.hidden.bomb {
+  border-color: #212121;
+  background: #424242;
+  color: white;
+}
 
 /* Анимация открытия карточки */
 @keyframes cardFlip {
-  0%   { transform: rotateY(0deg); }
-  50%  { transform: rotateY(90deg); }
-  100% { transform: rotateY(0deg); }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
 
 .card.revealing {
@@ -683,21 +759,21 @@ function updateTimerDisplay(turnEndTime: number, paused: boolean): void {
 
 ## Эстимейт: Game Engine
 
-| Задача | Min | Max | Avg | Кто | Примечание |
-|--------|-----|-----|-----|-----|------------|
-| WS Server scaffold (Express + Socket.IO) | 3ч | 6ч | 4.5ч | WS-Dev | Setup, middleware |
-| Room management (create/join/leave/roles) | 4ч | 8ч | 6ч | WS-Dev | Валидация, edge cases |
-| Game state machine (сервер) | 8ч | 16ч | 12ч | WS-Dev | Ядро всей игры |
-| Board generation + color assignment | 2ч | 4ч | 3ч | WS-Dev | Fisher-Yates, 9/8/7/1 |
-| Turn management + timer sync | 4ч | 8ч | 6ч | WS-Dev | Пауза на Check, resume |
-| Spymaster/Operative view filtering | 2ч | 4ч | 3ч | WS-Dev | Безопасность |
-| Auth middleware (token verification) | 2ч | 4ч | 3ч | Lead + WS-Dev | Firebase Admin SDK |
-| Client WS integration + EventBus | 3ч | 6ч | 4.5ч | Board | Подписки на события |
-| Game Board UI (5x5 grid, card component) | 5ч | 10ч | 7.5ч | Board | HTML/CSS |
-| Card animations (flip, reveal) | 3ч | 6ч | 4.5ч | Board | CSS transitions |
-| Turn indicator, clue display, score | 2ч | 4ч | 3ч | Board | UI компоненты |
-| Integration testing (WS + client) | 4ч | 8ч | 6ч | Board + WS-Dev | Mock server + real |
-| **Итого** | **42ч** | **84ч** | **63ч** | | |
+| Задача                                    | Min     | Max     | Avg     | Кто            | Примечание             |
+| ----------------------------------------- | ------- | ------- | ------- | -------------- | ---------------------- |
+| WS Server scaffold (Express + Socket.IO)  | 3ч      | 6ч      | 4.5ч    | WS-Dev         | Setup, middleware      |
+| Room management (create/join/leave/roles) | 4ч      | 8ч      | 6ч      | WS-Dev         | Валидация, edge cases  |
+| Game state machine (сервер)               | 8ч      | 16ч     | 12ч     | WS-Dev         | Ядро всей игры         |
+| Board generation + color assignment       | 2ч      | 4ч      | 3ч      | WS-Dev         | Fisher-Yates, 9/8/7/1  |
+| Turn management + timer sync              | 4ч      | 8ч      | 6ч      | WS-Dev         | Пауза на Check, resume |
+| Spymaster/Operative view filtering        | 2ч      | 4ч      | 3ч      | WS-Dev         | Безопасность           |
+| Auth middleware (token verification)      | 2ч      | 4ч      | 3ч      | Lead + WS-Dev  | Firebase Admin SDK     |
+| Client WS integration + EventBus          | 3ч      | 6ч      | 4.5ч    | Board          | Подписки на события    |
+| Game Board UI (5x5 grid, card component)  | 5ч      | 10ч     | 7.5ч    | Board          | HTML/CSS               |
+| Card animations (flip, reveal)            | 3ч      | 6ч      | 4.5ч    | Board          | CSS transitions        |
+| Turn indicator, clue display, score       | 2ч      | 4ч      | 3ч      | Board          | UI компоненты          |
+| Integration testing (WS + client)         | 4ч      | 8ч      | 6ч      | Board + WS-Dev | Mock server + real     |
+| **Итого**                                 | **42ч** | **84ч** | **63ч** |                |                        |
 
 > **Примечание:** Game State Machine — самая сложная часть. Там много edge cases: одновременные клики, дисконнект во время хода, Check Phase посреди угадывания. Закладывайте время на отладку.
 
@@ -709,12 +785,12 @@ function updateTimerDisplay(turnEndTime: number, paused: boolean): void {
 
 ```typescript
 // Плохо: отправляем всё состояние всем
-io.to(roomCode).emit('game:state', game);
+io.to(roomCode).emit("game:state", game);
 
 // Хорошо: фильтруем для каждого
 for (const socket of room.sockets) {
   const state = getGameStateForPlayer(game, socket.data.userId);
-  socket.emit('game:state', state);
+  socket.emit("game:state", state);
 }
 ```
 
@@ -722,18 +798,18 @@ for (const socket of room.sockets) {
 
 ```typescript
 // Плохо: клиент решает, правильный ли ход
-socket.on('game:guess-result', (result) => {
+socket.on("game:guess-result", (result) => {
   game.applyResult(result); // Клиент может подменить!
 });
 
 // Хорошо: сервер проверяет всё
-socket.on('game:guess', ({ cardId }) => {
+socket.on("game:guess", ({ cardId }) => {
   const result = processGuess(game, cardId, socket.data.userId);
   if (result.error) {
-    socket.emit('error', { message: result.error });
+    socket.emit("error", { message: result.error });
     return;
   }
-  broadcast(roomCode, 'game:card-revealed', { cardId, color: card.color });
+  broadcast(roomCode, "game:card-revealed", { cardId, color: card.color });
 });
 ```
 
@@ -749,7 +825,7 @@ class GameRoom {
 
   async handleGuess(playerId: string, cardId: string) {
     if (this.processing) {
-      return { error: 'ACTION_IN_PROGRESS' };
+      return { error: "ACTION_IN_PROGRESS" };
     }
     this.processing = true;
     try {
@@ -765,12 +841,12 @@ class GameRoom {
 
 ```typescript
 // Плохо: комната удаляется при дисконнекте
-socket.on('disconnect', () => {
+socket.on("disconnect", () => {
   roomManager.removeRoom(socket.roomCode); // Все теряют прогресс!
 });
 
 // Хорошо: грейсфул обработка
-socket.on('disconnect', () => {
+socket.on("disconnect", () => {
   const room = roomManager.getRoom(socket.roomCode);
   room.markPlayerDisconnected(socket.data.userId);
 
@@ -778,7 +854,9 @@ socket.on('disconnect', () => {
   setTimeout(() => {
     if (room.isPlayerStillDisconnected(socket.data.userId)) {
       room.removePlayer(socket.data.userId);
-      broadcast(socket.roomCode, 'room:player-left', { playerId: socket.data.userId });
+      broadcast(socket.roomCode, "room:player-left", {
+        playerId: socket.data.userId,
+      });
     }
   }, 60_000);
 });

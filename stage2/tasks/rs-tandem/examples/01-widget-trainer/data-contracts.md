@@ -9,12 +9,12 @@
 ```typescript
 interface Topic {
   id: string;
-  title: LocalizedString;        // { ru: "Core JS", en: "Core JS" }
+  title: LocalizedString; // { ru: "Core JS", en: "Core JS" }
   description: LocalizedString;
-  tags: string[];                // ["closures", "prototypes", "event-loop"]
-  difficulty: 1 | 2 | 3;         // 1 = Easy, 2 = Medium, 3 = Hard
-  widgetIds: string[];           // Список ID виджетов в этой теме
-  order: number;                 // Порядок в списке
+  tags: string[]; // ["closures", "prototypes", "event-loop"]
+  difficulty: 1 | 2 | 3; // 1 = Easy, 2 = Medium, 3 = Hard
+  widgetIds: string[]; // Список ID виджетов в этой теме
+  order: number; // Порядок в списке
 }
 
 interface LocalizedString {
@@ -30,7 +30,7 @@ interface LocalizedString {
 interface BaseWidget {
   id: string;
   type: WidgetType;
-  version: number;               // Для миграций схемы
+  version: number; // Для миграций схемы
   difficulty: 1 | 2 | 3;
   tags: string[];
 }
@@ -46,13 +46,13 @@ type Widget =
   | StackBuilderWidget;
 
 type WidgetType =
-  | 'quiz'
-  | 'true-false'
-  | 'code-completion'
-  | 'code-ordering'
-  | 'async-sorter'
-  | 'memory-game'
-  | 'stack-builder';
+  | "quiz"
+  | "true-false"
+  | "code-completion"
+  | "code-ordering"
+  | "async-sorter"
+  | "memory-game"
+  | "stack-builder";
 ```
 
 ### Session & Progress
@@ -62,17 +62,17 @@ interface SessionResult {
   id: string;
   topicId: string;
   widgetId: string;
-  answer: unknown;               // Зависит от типа виджета
+  answer: unknown; // Зависит от типа виджета
   isCorrect: boolean;
-  timeSpent: number;             // В миллисекундах
-  createdAt: number;             // timestamp
+  timeSpent: number; // В миллисекундах
+  createdAt: number; // timestamp
 }
 
 interface UserStats {
   xp: number;
-  streak: number;                // Дни подряд
-  lastActiveDate: string;        // "2024-01-15"
-  completedWidgets: string[];    // ID завершенных виджетов
+  streak: number; // Дни подряд
+  lastActiveDate: string; // "2024-01-15"
+  completedWidgets: string[]; // ID завершенных виджетов
   topicProgress: Record<string, TopicProgress>;
 }
 
@@ -80,8 +80,8 @@ interface TopicProgress {
   topicId: string;
   completedWidgets: number;
   totalWidgets: number;
-  lastScore: number;             // 0-100
-  lastAttempt: number;           // timestamp
+  lastScore: number; // 0-100
+  lastAttempt: number; // timestamp
 }
 ```
 
@@ -93,7 +93,7 @@ interface TopicProgress {
 
 ```typescript
 interface QuizWidget extends BaseWidget {
-  type: 'quiz';
+  type: "quiz";
   payload: {
     question: LocalizedString;
     options: LocalizedString[];
@@ -111,10 +111,10 @@ interface QuizAnswer {
 
 ```typescript
 interface TrueFalseWidget extends BaseWidget {
-  type: 'true-false';
+  type: "true-false";
   payload: {
     statement: LocalizedString;
-    explanation: LocalizedString;  // Показывается после ответа
+    explanation: LocalizedString; // Показывается после ответа
     // correct НЕ отправляется клиенту в Real Mode!
   };
 }
@@ -128,17 +128,17 @@ interface TrueFalseAnswer {
 
 ```typescript
 interface CodeCompletionWidget extends BaseWidget {
-  type: 'code-completion';
+  type: "code-completion";
   payload: {
-    code: string;                  // "const result = arr.___(x => x > 0);"
-    blanks: string[];              // ["___"]
-    hints?: LocalizedString[];     // Подсказки
+    code: string; // "const result = arr.___(x => x > 0);"
+    blanks: string[]; // ["___"]
+    hints?: LocalizedString[]; // Подсказки
     // correctAnswers НЕ отправляется клиенту в Real Mode!
   };
 }
 
 interface CodeCompletionAnswer {
-  values: string[];                // ["filter"]
+  values: string[]; // ["filter"]
 }
 ```
 
@@ -146,16 +146,16 @@ interface CodeCompletionAnswer {
 
 ```typescript
 interface CodeOrderingWidget extends BaseWidget {
-  type: 'code-ordering';
+  type: "code-ordering";
   payload: {
     description: LocalizedString;
-    lines: string[];               // Строки кода (изначально перемешаны)
+    lines: string[]; // Строки кода (изначально перемешаны)
     // correctOrder НЕ отправляется клиенту в Real Mode!
   };
 }
 
 interface CodeOrderingAnswer {
-  order: number[];                 // [1, 0, 2, 3, 4]
+  order: number[]; // [1, 0, 2, 3, 4]
 }
 ```
 
@@ -163,7 +163,7 @@ interface CodeOrderingAnswer {
 
 ```typescript
 interface AsyncSorterWidget extends BaseWidget {
-  type: 'async-sorter';
+  type: "async-sorter";
   payload: {
     codeSnippet: string;
     blocks: AsyncBlock[];
@@ -173,15 +173,15 @@ interface AsyncSorterWidget extends BaseWidget {
 
 interface AsyncBlock {
   id: string;
-  code: string;                    // "console.log('1')"
-  label: string;                   // Короткая метка для D&D
+  code: string; // "console.log('1')"
+  label: string; // Короткая метка для D&D
 }
 
 interface AsyncSorterAnswer {
-  callStack: string[];             // ID блоков
+  callStack: string[]; // ID блоков
   microtasks: string[];
   macrotasks: string[];
-  outputOrder: string[];           // Итоговый порядок вывода
+  outputOrder: string[]; // Итоговый порядок вывода
 }
 ```
 
@@ -189,31 +189,31 @@ interface AsyncSorterAnswer {
 
 ```typescript
 interface MemoryGameWidget extends BaseWidget {
-  type: 'memory-game';
+  type: "memory-game";
   payload: {
     codeSnippet: string;
     objects: MemoryObject[];
     links: MemoryLink[];
-    rootIds: string[];             // ID корневых объектов (window, global)
+    rootIds: string[]; // ID корневых объектов (window, global)
     // garbageIds НЕ отправляется клиенту в Real Mode!
   };
 }
 
 interface MemoryObject {
   id: string;
-  label: string;                   // "Object {val:1}"
-  x: number;                       // Позиция для визуализации
+  label: string; // "Object {val:1}"
+  x: number; // Позиция для визуализации
   y: number;
 }
 
 interface MemoryLink {
-  from: string;                    // ID объекта-источника
-  to: string;                      // ID объекта-цели
-  label?: string;                  // Имя свойства (опционально)
+  from: string; // ID объекта-источника
+  to: string; // ID объекта-цели
+  label?: string; // Имя свойства (опционально)
 }
 
 interface MemoryGameAnswer {
-  markedAsGarbage: string[];       // ID объектов, помеченных как мусор
+  markedAsGarbage: string[]; // ID объектов, помеченных как мусор
 }
 ```
 
@@ -221,7 +221,7 @@ interface MemoryGameAnswer {
 
 ```typescript
 interface StackBuilderWidget extends BaseWidget {
-  type: 'stack-builder';
+  type: "stack-builder";
   payload: {
     codeSnippet: string;
     highlightedLine: number;
@@ -232,11 +232,11 @@ interface StackBuilderWidget extends BaseWidget {
 
 interface StackBlock {
   id: string;
-  label: string;                   // "factorial(3)"
+  label: string; // "factorial(3)"
 }
 
 interface StackBuilderAnswer {
-  stack: string[];                 // ID блоков снизу вверх
+  stack: string[]; // ID блоков снизу вверх
 }
 ```
 
@@ -270,7 +270,7 @@ interface WidgetTrainerAPI {
 
 interface Verdict {
   isCorrect: boolean;
-  explanation?: LocalizedString;   // Объяснение (для обучения)
+  explanation?: LocalizedString; // Объяснение (для обучения)
   xpEarned: number;
   streakUpdated: boolean;
 }
@@ -278,8 +278,8 @@ interface Verdict {
 interface UserProfile {
   displayName: string;
   avatarUrl?: string;
-  preferredLanguage: 'ru' | 'en';
-  theme: 'light' | 'dark';
+  preferredLanguage: "ru" | "en";
+  theme: "light" | "dark";
 }
 ```
 
@@ -316,15 +316,14 @@ interface UserProfile {
 
 ```typescript
 // .env
-VITE_USE_MOCK=true  // или false для Real Mode
+VITE_USE_MOCK = true; // или false для Real Mode
 
 // api/index.ts
-import { mockAdapter } from './mock-adapter';
-import { firebaseAdapter } from './firebase-adapter';
+import { mockAdapter } from "./mock-adapter";
+import { firebaseAdapter } from "./firebase-adapter";
 
-const adapter = import.meta.env.VITE_USE_MOCK === 'true'
-  ? mockAdapter
-  : firebaseAdapter;
+const adapter =
+  import.meta.env.VITE_USE_MOCK === "true" ? mockAdapter : firebaseAdapter;
 
 export const api: WidgetTrainerAPI = {
   getTopics: () => adapter.getTopics(),
@@ -335,13 +334,13 @@ export const api: WidgetTrainerAPI = {
 
 ### Важные различия
 
-| Аспект | Mock Mode | Real Mode |
-|--------|-----------|-----------|
-| Правильные ответы | В payload виджета | Только на сервере |
-| Валидация | На клиенте | На сервере (Firestore Functions или Rules) |
-| Данные | JSON файлы в `/mocks` | Firestore коллекции |
-| Security | Нет | Firestore Security Rules |
-| Использование | Локальная разработка, тесты | Production |
+| Аспект            | Mock Mode                   | Real Mode                                  |
+| ----------------- | --------------------------- | ------------------------------------------ |
+| Правильные ответы | В payload виджета           | Только на сервере                          |
+| Валидация         | На клиенте                  | На сервере (Firestore Functions или Rules) |
+| Данные            | JSON файлы в `/mocks`       | Firestore коллекции                        |
+| Security          | Нет                         | Firestore Security Rules                   |
+| Использование     | Локальная разработка, тесты | Production                                 |
 
 ### Пример Mock-файла
 
@@ -383,21 +382,21 @@ export const api: WidgetTrainerAPI = {
 // Правильно: локализация в данных
 const question: LocalizedString = {
   ru: "Что вернет typeof null?",
-  en: "What does typeof null return?"
+  en: "What does typeof null return?",
 };
 
 // Хелпер для получения текста
-function t(str: LocalizedString, lang: 'ru' | 'en'): string {
+function t(str: LocalizedString, lang: "ru" | "en"): string {
   return str[lang] || str.ru; // Fallback на русский
 }
 ```
 
 ### UI vs Content локализация
 
-| Тип | Где хранится | Пример |
-|-----|--------------|--------|
-| UI тексты | `/locales/ru.json`, `/locales/en.json` | "Начать", "Профиль", "Выйти" |
-| Контент виджетов | В payload виджета (`LocalizedString`) | Вопросы, объяснения, подсказки |
+| Тип              | Где хранится                           | Пример                         |
+| ---------------- | -------------------------------------- | ------------------------------ |
+| UI тексты        | `/locales/ru.json`, `/locales/en.json` | "Начать", "Профиль", "Выйти"   |
+| Контент виджетов | В payload виджета (`LocalizedString`)  | Вопросы, объяснения, подсказки |
 
 ---
 

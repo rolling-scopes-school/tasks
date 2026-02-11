@@ -135,10 +135,10 @@ stateDiagram-v2
 
 ```typescript
 interface AsyncSorterAnswer {
-  callStack: string[];      // ["b1", "b4"]
-  microtasks: string[];     // ["b3"]
-  macrotasks: string[];     // ["b2"]
-  outputOrder: string[];    // ["b1", "b4", "b3", "b2"]
+  callStack: string[]; // ["b1", "b4"]
+  microtasks: string[]; // ["b3"]
+  macrotasks: string[]; // ["b2"]
+  outputOrder: string[]; // ["b1", "b4", "b3", "b2"]
 }
 ```
 
@@ -159,7 +159,7 @@ interface DragState {
   sourceZone: ZoneType | null;
 }
 
-type ZoneType = 'pool' | 'callStack' | 'microtasks' | 'macrotasks' | 'output';
+type ZoneType = "pool" | "callStack" | "microtasks" | "macrotasks" | "output";
 
 // Event handlers
 function onMouseDown(event: MouseEvent, blockId: string) {
@@ -235,10 +235,16 @@ function onTouchEnd(event: TouchEvent) {
 ```typescript
 function getDropZoneAt(x: number, y: number): ZoneType | null {
   const zones: Array<{ element: HTMLElement; type: ZoneType }> = [
-    { element: document.querySelector('.call-stack-zone')!, type: 'callStack' },
-    { element: document.querySelector('.microtasks-zone')!, type: 'microtasks' },
-    { element: document.querySelector('.macrotasks-zone')!, type: 'macrotasks' },
-    { element: document.querySelector('.output-zone')!, type: 'output' },
+    { element: document.querySelector(".call-stack-zone")!, type: "callStack" },
+    {
+      element: document.querySelector(".microtasks-zone")!,
+      type: "microtasks",
+    },
+    {
+      element: document.querySelector(".macrotasks-zone")!,
+      type: "macrotasks",
+    },
+    { element: document.querySelector(".output-zone")!, type: "output" },
   ];
 
   for (const zone of zones) {
@@ -263,13 +269,13 @@ function getDropZoneAt(x: number, y: number): ZoneType | null {
 
 ### Проблемы и решения
 
-| Проблема | Решение |
-|----------|---------|
-| Scroll конфликтует с drag | `event.preventDefault()` на touchmove |
-| 300ms delay на tap | CSS `touch-action: manipulation` |
-| Нет hover state | Показывать подсказку при touchstart |
-| Мелкие элементы | Минимум 44x44px touch target |
-| Нет right-click | Long press для альтернативных действий |
+| Проблема                  | Решение                                |
+| ------------------------- | -------------------------------------- |
+| Scroll конфликтует с drag | `event.preventDefault()` на touchmove  |
+| 300ms delay на tap        | CSS `touch-action: manipulation`       |
+| Нет hover state           | Показывать подсказку при touchstart    |
+| Мелкие элементы           | Минимум 44x44px touch target           |
+| Нет right-click           | Long press для альтернативных действий |
 
 ### CSS для мобильных
 
@@ -362,12 +368,12 @@ interface A11yState {
 
 function onKeyDown(event: KeyboardEvent) {
   switch (event.key) {
-    case 'Tab':
+    case "Tab":
       // Стандартная навигация по блокам
       break;
 
-    case ' ':
-    case 'Enter':
+    case " ":
+    case "Enter":
       if (a11yState.selectedBlockId) {
         // Разместить блок в текущей зоне
         if (a11yState.focusedZone) {
@@ -378,13 +384,15 @@ function onKeyDown(event: KeyboardEvent) {
       } else if (a11yState.focusedBlockId) {
         // Выбрать блок для перемещения
         a11yState.selectedBlockId = a11yState.focusedBlockId;
-        announceToScreenReader('Block selected. Use arrow keys to choose zone.');
+        announceToScreenReader(
+          "Block selected. Use arrow keys to choose zone.",
+        );
       }
       event.preventDefault();
       break;
 
-    case 'ArrowLeft':
-    case 'ArrowRight':
+    case "ArrowLeft":
+    case "ArrowRight":
       if (a11yState.selectedBlockId) {
         // Переключение между зонами
         a11yState.focusedZone = getNextZone(a11yState.focusedZone, event.key);
@@ -393,16 +401,16 @@ function onKeyDown(event: KeyboardEvent) {
       }
       break;
 
-    case 'Escape':
+    case "Escape":
       // Отмена выбора
       a11yState.selectedBlockId = null;
-      announceToScreenReader('Selection cancelled');
+      announceToScreenReader("Selection cancelled");
       break;
   }
 }
 
 function announceToScreenReader(message: string) {
-  const announcer = document.getElementById('sr-announcer');
+  const announcer = document.getElementById("sr-announcer");
   if (announcer) {
     announcer.textContent = message;
   }
@@ -413,7 +421,12 @@ function announceToScreenReader(message: string) {
 
 ```html
 <!-- Live region для screen readers -->
-<div id="sr-announcer" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+<div
+  id="sr-announcer"
+  aria-live="polite"
+  aria-atomic="true"
+  class="sr-only"
+></div>
 
 <!-- Draggable block -->
 <div
@@ -503,11 +516,11 @@ sequenceDiagram
 
 ```typescript
 async function animateEventLoop(answer: AsyncSorterAnswer) {
-  const delay = (ms: number) => new Promise(r => setTimeout(r, ms));
+  const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
   // 1. Выполняем Call Stack
   for (const blockId of answer.callStack) {
-    highlightBlock(blockId, 'executing');
+    highlightBlock(blockId, "executing");
     await delay(500);
     moveToOutput(blockId);
     await delay(300);
@@ -515,9 +528,9 @@ async function animateEventLoop(answer: AsyncSorterAnswer) {
 
   // 2. Выполняем Microtasks
   for (const blockId of answer.microtasks) {
-    highlightZone('microtasks');
+    highlightZone("microtasks");
     await delay(200);
-    highlightBlock(blockId, 'executing');
+    highlightBlock(blockId, "executing");
     await delay(500);
     moveToOutput(blockId);
     await delay(300);
@@ -525,9 +538,9 @@ async function animateEventLoop(answer: AsyncSorterAnswer) {
 
   // 3. Выполняем Macrotasks
   for (const blockId of answer.macrotasks) {
-    highlightZone('macrotasks');
+    highlightZone("macrotasks");
     await delay(200);
-    highlightBlock(blockId, 'executing');
+    highlightBlock(blockId, "executing");
     await delay(500);
     moveToOutput(blockId);
     await delay(300);
@@ -541,16 +554,16 @@ async function animateEventLoop(answer: AsyncSorterAnswer) {
 
 ## Эстимейт: Async Sorter
 
-| Задача | Min | Max | Avg | Примечание |
-|--------|-----|-----|-----|------------|
-| UI Layout (HTML/CSS) | 3ч | 5ч | 4ч | Три зоны + output |
-| Mouse D&D | 4ч | 8ч | 6ч | Базовая функциональность |
-| Touch D&D | 4ч | 8ч | 6ч | Touch API, тестирование на устройствах |
-| A11y (клавиатура) | 5ч | 10ч | 7.5ч | ARIA, screen reader support |
-| Анимация Event Loop | 2ч | 4ч | 3ч | CSS transitions + JS |
-| Валидация + API | 2ч | 3ч | 2.5ч | Интеграция с backend |
-| Баг-фиксы, edge cases | 3ч | 6ч | 4.5ч | Отладка D&D — это сложно |
-| **Итого** | **23ч** | **44ч** | **33.5ч** |
+| Задача                | Min     | Max     | Avg       | Примечание                             |
+| --------------------- | ------- | ------- | --------- | -------------------------------------- |
+| UI Layout (HTML/CSS)  | 3ч      | 5ч      | 4ч        | Три зоны + output                      |
+| Mouse D&D             | 4ч      | 8ч      | 6ч        | Базовая функциональность               |
+| Touch D&D             | 4ч      | 8ч      | 6ч        | Touch API, тестирование на устройствах |
+| A11y (клавиатура)     | 5ч      | 10ч     | 7.5ч      | ARIA, screen reader support            |
+| Анимация Event Loop   | 2ч      | 4ч      | 3ч        | CSS transitions + JS                   |
+| Валидация + API       | 2ч      | 3ч      | 2.5ч      | Интеграция с backend                   |
+| Баг-фиксы, edge cases | 3ч      | 6ч      | 4.5ч      | Отладка D&D — это сложно               |
+| **Итого**             | **23ч** | **44ч** | **33.5ч** |
 
 > **Важно:** D&D — одна из самых сложных задач во фронтенде. Закладывайте время на отладку. Тестируйте на реальных устройствах, не только в эмуляторе.
 
@@ -578,11 +591,11 @@ function onTouchMove(event: TouchEvent) {
 
 ```typescript
 // Плохо: события слушаются только на элементе
-block.addEventListener('mousemove', onMouseMove);
+block.addEventListener("mousemove", onMouseMove);
 
 // Хорошо: слушаем на document
-document.addEventListener('mousemove', onMouseMove);
-document.addEventListener('mouseup', onMouseUp);
+document.addEventListener("mousemove", onMouseMove);
+document.addEventListener("mouseup", onMouseUp);
 ```
 
 ### 3. Нет визуальной обратной связи
@@ -605,7 +618,7 @@ function onDrag() {
 
 ```typescript
 // Плохо: ответы в коде
-const correctOrder = ['b1', 'b4', 'b3', 'b2'];
+const correctOrder = ["b1", "b4", "b3", "b2"];
 
 // Хорошо: валидация через API
 const verdict = await api.submitAnswer(widgetId, userAnswer);
