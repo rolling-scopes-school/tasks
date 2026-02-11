@@ -177,7 +177,6 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 > В режиме **Peer** (когда команда соперника оценивает ответ) есть известная проблема: противники мотивированы нажать "Не знаю" **даже если ответ правильный**, чтобы не дать сопернику очко. Это рациональная стратегия в соревновательной игре.
 >
 > **Возможные смягчения:**
->
 > - **Роль "Судья"** — независимый наблюдатель (ментор, зритель) оценивает ответы обеих команд
 > - **Голосование обеих команд** — решение принимается, если хотя бы один из оппонентов подтвердил правильность
 > - **Принять как есть** — для демо-проекта это допустимо, как в настольных играх с "честной системой"
@@ -224,18 +223,17 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 Простой режим, не требующий AI.
 
-| Шаг | Действие                                                  | Кто                                            |
-| --- | --------------------------------------------------------- | ---------------------------------------------- |
-| 1   | Вопрос отображается, Check-таймер (30 сек) запущен        | Система (хост)                                 |
-| 2   | Игрок формулирует ответ (устно или письменно)             | Игрок                                          |
-| 3   | Нажимает "Показать ответ"                                 | Игрок                                          |
-| 4   | Эталонный ответ отображается                              | Система                                        |
-| 5   | Оценка: "Знаю" / "Не знаю"                                | Игрок или команда соперника                    |
-| 6   | Очко засчитывается при "Знаю"                             | Система (хост записывает результат в Firebase) |
-| 7   | Если Check-таймер истёк — очко не засчитано автоматически | Система (хост обрабатывает timeout)            |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается, Check-таймер (30 сек) запущен | Система (хост) |
+| 2 | Игрок формулирует ответ (устно или письменно) | Игрок |
+| 3 | Нажимает "Показать ответ" | Игрок |
+| 4 | Эталонный ответ отображается | Система |
+| 5 | Оценка: "Знаю" / "Не знаю" | Игрок или команда соперника |
+| 6 | Очко засчитывается при "Знаю" | Система (хост записывает результат в Firebase) |
+| 7 | Если Check-таймер истёк — очко не засчитано автоматически | Система (хост обрабатывает timeout) |
 
 **Кто оценивает:**
-
 - **Self** — сам игрок (честная система)
 - **Peer** — команда соперника нажимает "Знаю" / "Не знаю" (соревновательный элемент)
 
@@ -243,14 +241,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ### AI — Проверка через AI (мокнута)
 
-| Шаг | Действие                                                       | Кто                                  |
-| --- | -------------------------------------------------------------- | ------------------------------------ |
-| 1   | Вопрос отображается, Check-таймер (30 сек) запущен             | Система (хост)                       |
-| 2   | Игрок пишет ответ в текстовое поле                             | Игрок                                |
-| 3   | Нажимает "Отправить на проверку"                               | Игрок                                |
-| 4   | Ответ отправляется через Firebase, хост получает и вызывает AI | AI Mock на хосте                     |
-| 5   | Результат: очко засчитано/нет + feedback                       | Система (хост записывает в Firebase) |
-| 6   | Если Check-таймер истёк до ответа — очко не засчитано          | Система (хост обрабатывает timeout)  |
+| Шаг | Действие | Кто |
+|-----|----------|-----|
+| 1 | Вопрос отображается, Check-таймер (30 сек) запущен | Система (хост) |
+| 2 | Игрок пишет ответ в текстовое поле | Игрок |
+| 3 | Нажимает "Отправить на проверку" | Игрок |
+| 4 | Ответ отправляется через Firebase, хост получает и вызывает AI | AI Mock на хосте |
+| 5 | Результат: очко засчитано/нет + feedback | Система (хост записывает в Firebase) |
+| 6 | Если Check-таймер истёк до ответа — очко не засчитано | Система (хост обрабатывает timeout) |
 
 > **Мок:** Реализация через `AICheckEvaluatorService` — keyword matching с реалистичной задержкой. AI работает **в браузере хоста**. Подробнее в [ai-spymaster.md](./ai-spymaster.md).
 
@@ -264,14 +262,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ### Распределение
 
-| Кто                        | Кодовое имя  | Кол-во вопросов | Дедлайн        |
-| -------------------------- | ------------ | --------------- | -------------- |
-| Великий Мёрдж (Lead)       | Lead         | >= 15 вопросов  | Конец недели 3 |
-| Тихий Сокет (Firebase-Dev) | Firebase-Dev | >= 15 вопросов  | Конец недели 3 |
-| Быстрый Рендер (Board-Dev) | Board-Dev    | >= 15 вопросов  | Конец недели 3 |
-| Зоркий Линтер (Check-Dev)  | Check-Dev    | >= 15 вопросов  | Конец недели 3 |
-| Мудрый Мок (AI-Dev)        | AI-Dev       | >= 15 вопросов  | Конец недели 3 |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev    | >= 15 вопросов  | Конец недели 3 |
+| Кто | Кодовое имя | Кол-во вопросов | Дедлайн |
+|-----|-------------|-----------------|---------|
+| Великий Мёрдж (Lead) | Lead | >= 15 вопросов | Конец недели 3 |
+| Тихий Сокет (Firebase-Dev) | Firebase-Dev | >= 15 вопросов | Конец недели 3 |
+| Быстрый Рендер (Board-Dev) | Board-Dev | >= 15 вопросов | Конец недели 3 |
+| Зоркий Линтер (Check-Dev) | Check-Dev | >= 15 вопросов | Конец недели 3 |
+| Мудрый Мок (AI-Dev) | AI-Dev | >= 15 вопросов | Конец недели 3 |
+| Ловкий Роутер (Lobby-Dev) | Lobby-Dev | >= 15 вопросов | Конец недели 3 |
 
 **Итого: >= 90 вопросов от команды**, Зоркий Линтер (Check-Dev) добирает до 100+.
 
@@ -304,7 +302,6 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 ### Peer Review контента
 
 **Зоркий Линтер (Check-Dev)** выполняет peer review ВСЕХ вопросов:
-
 - Проверяет по чеклисту качества
 - Объединяет в единый `question-bank.json`
 - Добавляет fallback-вопросы для слов без покрытия
@@ -318,14 +315,14 @@ Check-таймер: 30 сек (обратный отсчёт). Таймер хо
 
 ```typescript
 interface QuestionBank {
-  [word: string]: CheckQuestion[]; // Несколько вопросов на слово
+  [word: string]: CheckQuestion[];  // Несколько вопросов на слово
 }
 
 interface CheckQuestion {
   id: string;
-  word: string; // JS/TS концепт
-  question: string; // Текст вопроса
-  referenceAnswer: string; // Эталонный ответ
+  word: string;                    // JS/TS концепт
+  question: string;                // Текст вопроса
+  referenceAnswer: string;         // Эталонный ответ
   difficulty: 1 | 2 | 3;
   tags: string[];
 }
@@ -355,30 +352,30 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 
 ### Примеры вопросов (10+ концептов)
 
-| Слово        | Вопрос                                                     | Сложность |
-| ------------ | ---------------------------------------------------------- | --------- |
-| closure      | Что такое замыкание? Приведите пример.                     | 1         |
-| closure      | Как замыкания могут приводить к утечкам памяти?            | 3         |
-| Promise      | В чём разница между Promise.all и Promise.allSettled?      | 2         |
-| Promise      | Что произойдет, если в then бросить ошибку?                | 2         |
-| hoisting     | Как работает hoisting для let vs var?                      | 1         |
-| hoisting     | Почему TDZ (Temporal Dead Zone) существует для let/const?  | 3         |
-| prototype    | Как работает цепочка прототипов?                           | 2         |
-| prototype    | В чём разница между `__proto__` и `prototype`?             | 3         |
-| event loop   | В каком порядке выполняются microtask и macrotask?         | 2         |
-| event loop   | Что произойдёт, если microtask добавит ещё один microtask? | 3         |
-| this         | Как определяется значение this в arrow function?           | 2         |
-| this         | Назовите 4 правила определения this.                       | 2         |
-| localStorage | В чём отличие от sessionStorage?                           | 1         |
-| localStorage | Какой лимит объёма данных? Что будет при превышении?       | 2         |
-| WeakMap      | Когда использовать WeakMap вместо Map?                     | 3         |
-| generics     | Зачем нужны дженерики в TypeScript? Приведите пример.      | 2         |
-| async/await  | Чем async/await лучше цепочки .then()?                     | 1         |
-| async/await  | Как обработать ошибку в async функции?                     | 2         |
-| Proxy        | Для чего используется Proxy в JavaScript?                  | 3         |
-| Symbol       | Зачем нужны символы? Приведите use case.                   | 3         |
-| spread       | Делает ли spread глубокое копирование?                     | 2         |
-| Map          | В чём отличие Map от обычного объекта?                     | 2         |
+| Слово | Вопрос | Сложность |
+|-------|--------|-----------|
+| closure | Что такое замыкание? Приведите пример. | 1 |
+| closure | Как замыкания могут приводить к утечкам памяти? | 3 |
+| Promise | В чём разница между Promise.all и Promise.allSettled? | 2 |
+| Promise | Что произойдет, если в then бросить ошибку? | 2 |
+| hoisting | Как работает hoisting для let vs var? | 1 |
+| hoisting | Почему TDZ (Temporal Dead Zone) существует для let/const? | 3 |
+| prototype | Как работает цепочка прототипов? | 2 |
+| prototype | В чём разница между `__proto__` и `prototype`? | 3 |
+| event loop | В каком порядке выполняются microtask и macrotask? | 2 |
+| event loop | Что произойдёт, если microtask добавит ещё один microtask? | 3 |
+| this | Как определяется значение this в arrow function? | 2 |
+| this | Назовите 4 правила определения this. | 2 |
+| localStorage | В чём отличие от sessionStorage? | 1 |
+| localStorage | Какой лимит объёма данных? Что будет при превышении? | 2 |
+| WeakMap | Когда использовать WeakMap вместо Map? | 3 |
+| generics | Зачем нужны дженерики в TypeScript? Приведите пример. | 2 |
+| async/await | Чем async/await лучше цепочки .then()? | 1 |
+| async/await | Как обработать ошибку в async функции? | 2 |
+| Proxy | Для чего используется Proxy в JavaScript? | 3 |
+| Symbol | Зачем нужны символы? Приведите use case. | 3 |
+| spread | Делает ли spread глубокое копирование? | 2 |
+| Map | В чём отличие Map от обычного объекта? | 2 |
 
 ---
 
@@ -391,12 +388,12 @@ function selectQuestion(word: string, bank: QuestionBank): CheckQuestion {
 ```typescript
 // В host/state-machine.ts — на браузере хоста
 function handleGuess(game: Game, cardId: string, playerId: string) {
-  const card = game.board.find((c) => c.id === cardId);
-  card.status = "revealed";
+  const card = game.board.find(c => c.id === cardId);
+  card.status = 'revealed';
 
   if (card.color === game.currentTurn) {
     // Своя карточка — запускаем Check Phase
-    game.currentPhase = "check";
+    game.currentPhase = 'check';
     game.checkPlayerId = playerId;
 
     // Хост выбирает вопрос из банка
@@ -415,16 +412,16 @@ function handleGuess(game: Game, cardId: string, playerId: string) {
         // referenceAnswer хранится только в памяти хоста.
       },
       checkDeadline,
-      status: "pending",
+      status: 'pending',
     });
 
     // Хост обновляет фазу игры в Firebase
-    set(ref(db, `rooms/${code}/game/phase`), "check");
+    set(ref(db, `rooms/${code}/game/phase`), 'check');
 
     // Хост запускает локальный Check-таймер
     setTimeout(() => {
-      if (game.currentPhase === "check") {
-        resolveCheck(game, { pointGranted: false, reason: "timeout" });
+      if (game.currentPhase === 'check') {
+        resolveCheck(game, { pointGranted: false, reason: 'timeout' });
       }
     }, 30_000);
   }
@@ -436,16 +433,16 @@ function handleGuess(game: Game, cardId: string, playerId: string) {
 ```typescript
 // В host/state-machine.ts — обработка действий игрока
 function handleCheckAction(game: Game, action: PlayerAction) {
-  if (action.type === "check:evaluate") {
+  if (action.type === 'check:evaluate') {
     // Self/Peer режим: игрок нажал "Знаю" или "Не знаю"
-    const pointGranted = action.payload.result === "know";
+    const pointGranted = action.payload.result === 'know';
     resolveCheck(game, {
       pointGranted,
-      reason: pointGranted ? "self-confirmed" : "self-denied",
+      reason: pointGranted ? 'self-confirmed' : 'self-denied',
     });
   }
 
-  if (action.type === "check:answer") {
+  if (action.type === 'check:answer') {
     // AI режим: игрок отправил текстовый ответ
     // AI работает в браузере хоста (мок)
     const aiResult = AICheckEvaluatorService.evaluateAnswer({
@@ -456,7 +453,7 @@ function handleCheckAction(game: Game, action: PlayerAction) {
     setTimeout(() => {
       resolveCheck(game, {
         pointGranted: aiResult.isCorrect,
-        reason: aiResult.isCorrect ? "ai-approved" : "ai-denied",
+        reason: aiResult.isCorrect ? 'ai-approved' : 'ai-denied',
         feedback: aiResult.feedback,
       });
     }, aiResult.mockDelay);
@@ -465,7 +462,7 @@ function handleCheckAction(game: Game, action: PlayerAction) {
 
 // Запись результата Check Phase в Firebase
 function resolveCheck(game: Game, result: CheckResult) {
-  game.currentPhase = "guess";
+  game.currentPhase = 'guess';
 
   if (result.pointGranted) {
     game.scores[game.currentTurn]++;
@@ -523,69 +520,65 @@ sequenceDiagram
 
 ### Firebase-пути для Check Phase
 
-| Путь в Firebase                 | Кто пишет | Что содержит                                                    |
-| ------------------------------- | --------- | --------------------------------------------------------------- |
-| `rooms/{code}/check`            | Хост      | Текущая Check-сессия: playerId, question, checkDeadline, status |
-| `rooms/{code}/check/result`     | Хост      | Результат: pointGranted, reason, feedback                       |
-| `rooms/{code}/game/phase`       | Хост      | Текущая фаза: `'check'` / `'guess'` / `'clue'`                  |
-| `rooms/{code}/game/scores`      | Хост      | Обновлённые очки команд                                         |
-| `rooms/{code}/actions/{pushId}` | Игрок     | Действие: `check:evaluate` или `check:answer`                   |
+| Путь в Firebase | Кто пишет | Что содержит |
+|-----------------|-----------|--------------|
+| `rooms/{code}/check` | Хост | Текущая Check-сессия: playerId, question, checkDeadline, status |
+| `rooms/{code}/check/result` | Хост | Результат: pointGranted, reason, feedback |
+| `rooms/{code}/game/phase` | Хост | Текущая фаза: `'check'` / `'guess'` / `'clue'` |
+| `rooms/{code}/game/scores` | Хост | Обновлённые очки команд |
+| `rooms/{code}/actions/{pushId}` | Игрок | Действие: `check:evaluate` или `check:answer` |
 
 > **Безопасность:** `referenceAnswer` **никогда не записывается** в Firebase до запроса. Он хранится только в памяти хоста. Если записать referenceAnswer в `rooms/{code}/check`, любой игрок прочитает его через `onValue`.
 
 ### Сравнение с Вариантом A (WebSocket)
 
-| Аспект                     | Вариант A (WebSocket)       | Вариант B (Firebase)                      |
-| -------------------------- | --------------------------- | ----------------------------------------- |
-| Кто выбирает вопрос        | Сервер                      | Хост (браузер)                            |
-| Кто запускает Check-таймер | Сервер                      | Хост (setTimeout)                         |
+| Аспект | Вариант A (WebSocket) | Вариант B (Firebase) |
+|--------|----------------------|---------------------|
+| Кто выбирает вопрос | Сервер | Хост (браузер) |
+| Кто запускает Check-таймер | Сервер | Хост (setTimeout) |
 | Как игрок отправляет ответ | `ws.emit('check:evaluate')` | `push(actions, {type: 'check:evaluate'})` |
-| Как приходит вопрос        | `ws.on('check:question')`   | `onValue(rooms/{code}/check)`             |
-| Как приходит результат     | `ws.on('check:result')`     | `onValue(rooms/{code}/check/result)`      |
-| referenceAnswer            | На сервере (память)         | На хосте (память браузера)                |
-| Отказоустойчивость         | Сервер стабилен             | Хост закрыл вкладку = Game Over           |
+| Как приходит вопрос | `ws.on('check:question')` | `onValue(rooms/{code}/check)` |
+| Как приходит результат | `ws.on('check:result')` | `onValue(rooms/{code}/check/result)` |
+| referenceAnswer | На сервере (память) | На хосте (память браузера) |
+| Отказоустойчивость | Сервер стабилен | Хост закрыл вкладку = Game Over |
 
 ---
 
 ## Поведение таймера
 
-| Событие                        | Таймер хода (2 мин) | Check-таймер (30 сек)                    |
-| ------------------------------ | ------------------- | ---------------------------------------- |
-| Check начинается               | **ТИКАЕТ ВСЕГДА**   | Старт: 30 сек обратный отсчёт            |
-| Игрок отвечает                 | ТИКАЕТ              | —                                        |
-| Check завершается (ответ дан)  | ТИКАЕТ              | Стоп, очищается                          |
-| Check timeout (30 сек истекли) | ТИКАЕТ              | Очко **не засчитано**, игра продолжается |
-| Таймер хода истёк              | Ход переходит       | Сбрасывается (если был активен)          |
+| Событие | Таймер хода (2 мин) | Check-таймер (30 сек) |
+|---------|---------------------|------------------------|
+| Check начинается | **ТИКАЕТ ВСЕГДА** | Старт: 30 сек обратный отсчёт |
+| Игрок отвечает | ТИКАЕТ | — |
+| Check завершается (ответ дан) | ТИКАЕТ | Стоп, очищается |
+| Check timeout (30 сек истекли) | ТИКАЕТ | Очко **не засчитано**, игра продолжается |
+| Таймер хода истёк | Ход переходит | Сбрасывается (если был активен) |
 
 > **Важно:** Таймер хода (2 мин) **никогда не ставится на паузу**. Check-таймер — это отдельный, независимый обратный отсчёт. Это создаёт давление: игрок не может бесконечно думать над вопросом, и время хода тоже утекает.
 
 ```typescript
 // Клиент: подписка на Check Phase через Firebase
-import { ref, onValue } from "firebase/database";
+import { ref, onValue } from 'firebase/database';
 
 onValue(ref(db, `rooms/${code}/game/phase`), (snapshot) => {
   const phase = snapshot.val();
-  if (phase === "check") {
-    onValue(
-      ref(db, `rooms/${code}/check`),
-      (checkSnap) => {
-        const checkData = checkSnap.val();
-        if (checkData && checkData.playerId === currentUserId) {
-          // Этот игрок должен отвечать — показываем попап
-          showCheckPopup(checkData.question, checkData.checkDeadline);
-        } else {
-          // Остальные видят уведомление "Идёт проверка..."
-          showCheckNotification(checkData.checkDeadline);
-        }
-      },
-      { onlyOnce: true },
-    );
+  if (phase === 'check') {
+    onValue(ref(db, `rooms/${code}/check`), (checkSnap) => {
+      const checkData = checkSnap.val();
+      if (checkData && checkData.playerId === currentUserId) {
+        // Этот игрок должен отвечать — показываем попап
+        showCheckPopup(checkData.question, checkData.checkDeadline);
+      } else {
+        // Остальные видят уведомление "Идёт проверка..."
+        showCheckNotification(checkData.checkDeadline);
+      }
+    }, { onlyOnce: true });
   }
 });
 
 // Показ попапа с Check-таймером
 function showCheckPopup(question: CheckQuestion, checkDeadline: number): void {
-  overlay.classList.add("active");
+  overlay.classList.add('active');
   popup.innerHTML = renderCheckPopup(question, roomSettings.checkMode);
   startCheckCountdown(checkDeadline);
 }
@@ -596,8 +589,8 @@ function closeCheckPopup(result: CheckResult): void {
   showResultAnimation(result.pointGranted);
 
   setTimeout(() => {
-    overlay.classList.remove("active");
-    popup.innerHTML = "";
+    overlay.classList.remove('active');
+    popup.innerHTML = '';
     // Счёт обновится автоматически через onValue
   }, 1000);
 }
@@ -606,12 +599,12 @@ function closeCheckPopup(result: CheckResult): void {
 ### Отправка ответа через Firebase
 
 ```typescript
-import { ref, push } from "firebase/database";
+import { ref, push } from 'firebase/database';
 
 // Self/Peer режим: игрок нажимает "Знаю" или "Не знаю"
-function submitCheckEvaluation(result: "know" | "dont-know"): void {
+function submitCheckEvaluation(result: 'know' | 'dont-know'): void {
   push(ref(db, `rooms/${code}/actions`), {
-    type: "check:evaluate",
+    type: 'check:evaluate',
     playerId: currentUserId,
     payload: { result },
     timestamp: Date.now(),
@@ -621,7 +614,7 @@ function submitCheckEvaluation(result: "know" | "dont-know"): void {
 // AI режим: игрок отправляет текстовый ответ
 function submitCheckAnswer(answer: string): void {
   push(ref(db, `rooms/${code}/actions`), {
-    type: "check:answer",
+    type: 'check:answer',
     playerId: currentUserId,
     payload: { answer },
     timestamp: Date.now(),
@@ -638,12 +631,8 @@ function submitCheckAnswer(answer: string): void {
 ```html
 <!-- Overlay -->
 <div class="check-overlay" id="check-overlay">
-  <div
-    class="check-popup"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Проверка знаний"
-  >
+  <div class="check-popup" role="dialog" aria-modal="true" aria-label="Проверка знаний">
+
     <header class="check-popup__header">
       <h2>Проверка знаний</h2>
       <div class="check-popup__timer" id="check-timer">⏱ 00:30</div>
@@ -674,6 +663,7 @@ function submitCheckAnswer(answer: string): void {
     <footer class="check-popup__footer" id="check-actions">
       <!-- Кнопки зависят от режима и шага -->
     </footer>
+
   </div>
 </div>
 ```
@@ -692,9 +682,7 @@ function submitCheckAnswer(answer: string): void {
   z-index: 1000;
 }
 
-.check-overlay.active {
-  display: flex;
-}
+.check-overlay.active { display: flex; }
 
 .check-popup {
   background: var(--bg-primary);
@@ -708,14 +696,8 @@ function submitCheckAnswer(answer: string): void {
 }
 
 @keyframes popupEnter {
-  from {
-    opacity: 0;
-    transform: scale(0.9) translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
+  from { opacity: 0; transform: scale(0.9) translateY(20px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
 .check-popup__header {
@@ -739,28 +721,13 @@ function submitCheckAnswer(answer: string): void {
 }
 
 @keyframes timerPulse {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
 
-.check-popup__word {
-  font-size: 18px;
-  padding: 16px 24px;
-}
-.check-popup__word strong {
-  color: var(--accent-color);
-  font-size: 22px;
-}
-.check-popup__question {
-  padding: 16px 24px;
-  font-size: 16px;
-  line-height: 1.5;
-}
+.check-popup__word { font-size: 18px; padding: 16px 24px; }
+.check-popup__word strong { color: var(--accent-color); font-size: 22px; }
+.check-popup__question { padding: 16px 24px; font-size: 16px; line-height: 1.5; }
 
 .check-popup__answer-input textarea {
   width: 100%;
@@ -782,58 +749,32 @@ function submitCheckAnswer(answer: string): void {
   border-left: 4px solid var(--accent-color);
 }
 
-.check-popup__footer {
-  display: flex;
-  gap: 12px;
-  padding: 16px 24px;
-  justify-content: center;
-}
+.check-popup__footer { display: flex; gap: 12px; padding: 16px 24px; justify-content: center; }
 
-.btn-know {
-  background: #4caf50;
-  color: white;
-  padding: 12px 32px;
-  border-radius: 8px;
-  font-weight: 600;
-}
-.btn-dont-know {
-  background: #f44336;
-  color: white;
-  padding: 12px 32px;
-  border-radius: 8px;
-  font-weight: 600;
-}
+.btn-know { background: #4caf50; color: white; padding: 12px 32px; border-radius: 8px; font-weight: 600; }
+.btn-dont-know { background: #f44336; color: white; padding: 12px 32px; border-radius: 8px; font-weight: 600; }
 
-.check-result {
-  text-align: center;
-  padding: 24px;
-  font-size: 20px;
-  font-weight: 600;
-}
-.check-result.granted {
-  color: #4caf50;
-}
-.check-result.denied {
-  color: #f44336;
-}
+.check-result { text-align: center; padding: 24px; font-size: 20px; font-weight: 600; }
+.check-result.granted { color: #4caf50; }
+.check-result.denied { color: #f44336; }
 ```
 
 ---
 
 ## Эстимейт: Check Phase
 
-| Задача                                       | Min     | Max     | Avg     | Кто                         | Примечание                                 |
-| -------------------------------------------- | ------- | ------- | ------- | --------------------------- | ------------------------------------------ |
-| Popup UI (HTML/CSS, модальное окно, overlay) | 3ч      | 5ч      | 4ч      | Зоркий Линтер (Check-Dev)   | Анимация входа/выхода                      |
-| Self/Peer evaluation flow                    | 3ч      | 6ч      | 4.5ч    | Зоркий Линтер (Check-Dev)   | "Показать ответ" -> оценка                 |
-| AI evaluation flow (мок-интеграция)          | 3ч      | 5ч      | 4ч      | Зоркий Линтер (Check-Dev)   | Подключение к AICheckEvaluator на хосте    |
-| Question Bank: структура + 20 вопросов       | 3ч      | 6ч      | 4.5ч    | Зоркий Линтер (Check-Dev)   | Начальный контент                          |
-| Check-таймер (30 сек) интеграция             | 2ч      | 4ч      | 3ч      | Зоркий Линтер + Тихий Сокет | Отдельный таймер, checkDeadline в Firebase |
-| Firebase-интеграция (пути, onValue, push)    | 2ч      | 4ч      | 3ч      | Зоркий Линтер (Check-Dev)   | rooms/{code}/check, rooms/{code}/actions   |
-| Анимации (popup enter/exit, результат)       | 1ч      | 3ч      | 2ч      | Зоркий Линтер (Check-Dev)   | CSS transitions                            |
-| Банк вопросов: сбор от команды (90+)         | 4ч      | 8ч      | 6ч      | ВСЯ КОМАНДА                 | Каждый >= 15 вопросов                      |
-| Peer review вопросов + мёрж                  | 2ч      | 4ч      | 3ч      | Зоркий Линтер (Check-Dev)   | Проверка по чеклисту                       |
-| **Итого**                                    | **23ч** | **45ч** | **34ч** |                             |                                            |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Popup UI (HTML/CSS, модальное окно, overlay) | 3ч | 5ч | 4ч | Зоркий Линтер (Check-Dev) | Анимация входа/выхода |
+| Self/Peer evaluation flow | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | "Показать ответ" -> оценка |
+| AI evaluation flow (мок-интеграция) | 3ч | 5ч | 4ч | Зоркий Линтер (Check-Dev) | Подключение к AICheckEvaluator на хосте |
+| Question Bank: структура + 20 вопросов | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | Начальный контент |
+| Check-таймер (30 сек) интеграция | 2ч | 4ч | 3ч | Зоркий Линтер + Тихий Сокет | Отдельный таймер, checkDeadline в Firebase |
+| Firebase-интеграция (пути, onValue, push) | 2ч | 4ч | 3ч | Зоркий Линтер (Check-Dev) | rooms/{code}/check, rooms/{code}/actions |
+| Анимации (popup enter/exit, результат) | 1ч | 3ч | 2ч | Зоркий Линтер (Check-Dev) | CSS transitions |
+| Банк вопросов: сбор от команды (90+) | 4ч | 8ч | 6ч | ВСЯ КОМАНДА | Каждый >= 15 вопросов |
+| Peer review вопросов + мёрж | 2ч | 4ч | 3ч | Зоркий Линтер (Check-Dev) | Проверка по чеклисту |
+| **Итого** | **23ч** | **45ч** | **34ч** | | |
 
 > **Примечание:** Основная сложность — координация с хостом. Попап должен корректно блокировать взаимодействие с полем и закрываться по истечении Check-таймера (30 сек). Таймер хода при этом **продолжает тикать**. В Firebase нельзя записывать `referenceAnswer` — иначе любой игрок прочитает его через `onValue`. Тестируйте edge cases: что если Check-таймер истёк? Что если таймер хода истёк во время Check? Что если хост закрыл вкладку во время Check?
 
@@ -846,20 +787,14 @@ function submitCheckAnswer(answer: string): void {
 ```typescript
 // Плохо: игрок кликает по полю пока попап открыт
 function onCardClick(cardId: string) {
-  push(ref(db, `rooms/${code}/actions`), {
-    type: "guess",
-    payload: { cardId },
-  });
+  push(ref(db, `rooms/${code}/actions`), { type: 'guess', payload: { cardId } });
 }
 
 // Хорошо: проверяем фазу перед отправкой
 function onCardClick(cardId: string) {
-  if (gameState.currentPhase === "check") return;
+  if (gameState.currentPhase === 'check') return;
   if (!canGuess(currentUserId, gameState)) return;
-  push(ref(db, `rooms/${code}/actions`), {
-    type: "guess",
-    payload: { cardId },
-  });
+  push(ref(db, `rooms/${code}/actions`), { type: 'guess', payload: { cardId } });
 }
 ```
 
@@ -874,8 +809,8 @@ const checkDeadline = Date.now() + 30_000;
 set(ref(db, `rooms/${code}/check`), { ...checkData, checkDeadline });
 
 setTimeout(() => {
-  if (game.currentPhase === "check") {
-    resolveCheck(game, { pointGranted: false, reason: "timeout" });
+  if (game.currentPhase === 'check') {
+    resolveCheck(game, { pointGranted: false, reason: 'timeout' });
   }
 }, 30_000);
 // Таймер хода при этом ПРОДОЛЖАЕТ тикать
@@ -923,7 +858,7 @@ set(ref(db, `rooms/${code}/check`), {
     referenceAnswer: question.referenceAnswer, // ВСЕ прочитают через onValue!
   },
   checkDeadline,
-  status: "pending",
+  status: 'pending',
 });
 
 // Хорошо: referenceAnswer хранится ТОЛЬКО в памяти хоста
@@ -936,7 +871,7 @@ set(ref(db, `rooms/${code}/check`), {
     // referenceAnswer НЕ записываем в Firebase
   },
   checkDeadline,
-  status: "pending",
+  status: 'pending',
 });
 ```
 
@@ -948,7 +883,7 @@ set(ref(db, `rooms/${code}/check`), {
 // Игрок нажимает "Показать ответ" — отправляет действие через Firebase
 function requestReferenceAnswer(): void {
   push(ref(db, `rooms/${code}/actions`), {
-    type: "check:show-reference",
+    type: 'check:show-reference',
     playerId: currentUserId,
     timestamp: Date.now(),
   });
@@ -956,13 +891,10 @@ function requestReferenceAnswer(): void {
 
 // Хост получает действие и записывает referenceAnswer
 function handleShowReference(game: Game, action: PlayerAction) {
-  if (action.type === "check:show-reference") {
+  if (action.type === 'check:show-reference') {
     const question = game.currentCheckQuestion;
     // Записываем — игрок УЖЕ попросил показать ответ
-    set(
-      ref(db, `rooms/${code}/check/referenceAnswer`),
-      question.referenceAnswer,
-    );
+    set(ref(db, `rooms/${code}/check/referenceAnswer`), question.referenceAnswer);
   }
 }
 
@@ -989,7 +921,6 @@ Check Phase — главная образовательная механика C
 5. **Все игроки видят результат** через `onValue`
 
 Ключевые правила:
-
 - **Таймер хода НИКОГДА не ставится на паузу** во время Check Phase
 - **Check-таймер: 30 секунд** — отдельный, независимый обратный отсчёт
 - **referenceAnswer НЕ записывается в Firebase** до запроса игрока

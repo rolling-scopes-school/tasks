@@ -18,7 +18,6 @@
 ### Почему интерфейсы важны именно в Firebase-архитектуре
 
 В Variant B Multiplayer работает через Firebase Realtime DB — хост пишет состояние в Firebase, клиенты подписываются на изменения. Solo Mode, напротив, **не использует Firebase вообще** — вся логика локальная. Интерфейсы позволяют одному и тому же `AISpymasterService` работать:
-
 - В Solo Mode — напрямую в браузере
 - В будущем Multiplayer AI-режиме — через Cloud Functions (Firebase backend)
 
@@ -104,20 +103,20 @@ interface AISpymasterService {
 }
 
 interface SpymasterContext {
-  myWords: string[]; // Мои слова (неоткрытые)
-  opponentWords: string[]; // Слова соперника
-  neutralWords: string[]; // Нейтральные
-  bombWord: string; // Бомба
-  revealedWords: string[]; // Уже открытые
-  moveHistory: Move[]; // История ходов
-  difficulty: "easy" | "medium" | "hard";
+  myWords: string[];             // Мои слова (неоткрытые)
+  opponentWords: string[];       // Слова соперника
+  neutralWords: string[];        // Нейтральные
+  bombWord: string;              // Бомба
+  revealedWords: string[];       // Уже открытые
+  moveHistory: Move[];           // История ходов
+  difficulty: 'easy' | 'medium' | 'hard';
 }
 
 interface AIClue {
-  word: string; // Слово-подсказка
-  count: number; // Количество связанных слов
-  reasoning?: string; // Объяснение (для debug/display)
-  confidence: number; // 0-1
+  word: string;                  // Слово-подсказка
+  count: number;                 // Количество связанных слов
+  reasoning?: string;            // Объяснение (для debug/display)
+  confidence: number;            // 0-1
 }
 ```
 
@@ -134,16 +133,16 @@ interface AICheckEvaluatorService {
 }
 
 interface CheckEvaluationContext {
-  concept: string; // "localStorage"
-  question: string; // "В чём отличие от sessionStorage?"
-  playerAnswer: string; // Ответ игрока
-  referenceAnswer: string; // Эталонный ответ
+  concept: string;               // "localStorage"
+  question: string;              // "В чём отличие от sessionStorage?"
+  playerAnswer: string;          // Ответ игрока
+  referenceAnswer: string;       // Эталонный ответ
 }
 
 interface AICheckResult {
   pointGranted: boolean;
-  feedback: string; // "Ответ верный" / "Не хватает ключевых моментов"
-  confidence: number; // 0-1
+  feedback: string;              // "Ответ верный" / "Не хватает ключевых моментов"
+  confidence: number;            // 0-1
 }
 ```
 
@@ -198,23 +197,12 @@ src/
         {
           "question": "Что такое замыкание в JavaScript?",
           "referenceAnswer": "Замыкание — это функция, которая запоминает и имеет доступ к переменным из внешней (лексической) области видимости, даже после того как внешняя функция завершила выполнение.",
-          "keywords": [
-            "функция",
-            "внешняя область",
-            "лексическое окружение",
-            "доступ",
-            "переменные"
-          ]
+          "keywords": ["функция", "внешняя область", "лексическое окружение", "доступ", "переменные"]
         },
         {
           "question": "Приведите практический пример использования замыкания.",
           "referenceAnswer": "Счётчик: function makeCounter() { let count = 0; return () => ++count; }. Каждый вызов makeCounter() создаёт независимый счётчик благодаря замыканию.",
-          "keywords": [
-            "счётчик",
-            "приватная переменная",
-            "фабрика",
-            "состояние"
-          ]
+          "keywords": ["счётчик", "приватная переменная", "фабрика", "состояние"]
         }
       ]
     },
@@ -225,14 +213,7 @@ src/
         {
           "question": "Чем Promise отличается от callback?",
           "referenceAnswer": "Promise — это объект, представляющий результат асинхронной операции. В отличие от callback, Promise позволяет цепочку через .then(), единообразную обработку ошибок через .catch() и избавляет от callback hell.",
-          "keywords": [
-            "объект",
-            "асинхронная операция",
-            "then",
-            "catch",
-            "цепочка",
-            "callback hell"
-          ]
+          "keywords": ["объект", "асинхронная операция", "then", "catch", "цепочка", "callback hell"]
         }
       ]
     }
@@ -283,60 +264,21 @@ src/
 
 ```typescript
 const HARDCODED_CLUES: Record<string, { clue: string; words: string[] }> = {
-  "closure,hoisting,scope": {
-    clue: "область видимости",
-    words: ["closure", "hoisting", "scope"],
-  },
-  "Promise,async/await,event loop": {
-    clue: "асинхронность",
-    words: ["Promise", "async/await", "event loop"],
-  },
-  "generics,interface,type": {
-    clue: "типизация",
-    words: ["generics", "interface", "type"],
-  },
-  "prototype,class,extends": {
-    clue: "наследование",
-    words: ["prototype", "class", "extends"],
-  },
-  "localStorage,sessionStorage,cookie": {
-    clue: "хранение данных",
-    words: ["localStorage", "sessionStorage", "cookie"],
-  },
-  "map,filter,reduce": { clue: "массивы", words: ["map", "filter", "reduce"] },
-  "Map,Set,WeakMap": { clue: "коллекции", words: ["Map", "Set", "WeakMap"] },
-  "import,export,default": {
-    clue: "модули",
-    words: ["import", "export", "default"],
-  },
-  "try/catch,Error,throw": {
-    clue: "обработка ошибок",
-    words: ["try/catch", "Error", "throw"],
-  },
-  "querySelector,addEventListener,event delegation": {
-    clue: "DOM",
-    words: ["querySelector", "addEventListener", "event delegation"],
-  },
-  "Proxy,Reflect,Symbol": {
-    clue: "метапрограммирование",
-    words: ["Proxy", "Reflect", "Symbol"],
-  },
-  "fetch,WebSocket,CORS": {
-    clue: "сеть",
-    words: ["fetch", "WebSocket", "CORS"],
-  },
-  "var,let,const": {
-    clue: "объявление переменных",
-    words: ["var", "let", "const"],
-  },
-  "setTimeout,setInterval,requestAnimationFrame": {
-    clue: "таймеры",
-    words: ["setTimeout", "setInterval", "requestAnimationFrame"],
-  },
-  "spread,rest,destructuring": {
-    clue: "синтаксис ES6",
-    words: ["spread", "rest", "destructuring"],
-  },
+  'closure,hoisting,scope': { clue: 'область видимости', words: ['closure', 'hoisting', 'scope'] },
+  'Promise,async/await,event loop': { clue: 'асинхронность', words: ['Promise', 'async/await', 'event loop'] },
+  'generics,interface,type': { clue: 'типизация', words: ['generics', 'interface', 'type'] },
+  'prototype,class,extends': { clue: 'наследование', words: ['prototype', 'class', 'extends'] },
+  'localStorage,sessionStorage,cookie': { clue: 'хранение данных', words: ['localStorage', 'sessionStorage', 'cookie'] },
+  'map,filter,reduce': { clue: 'массивы', words: ['map', 'filter', 'reduce'] },
+  'Map,Set,WeakMap': { clue: 'коллекции', words: ['Map', 'Set', 'WeakMap'] },
+  'import,export,default': { clue: 'модули', words: ['import', 'export', 'default'] },
+  'try/catch,Error,throw': { clue: 'обработка ошибок', words: ['try/catch', 'Error', 'throw'] },
+  'querySelector,addEventListener,event delegation': { clue: 'DOM', words: ['querySelector', 'addEventListener', 'event delegation'] },
+  'Proxy,Reflect,Symbol': { clue: 'метапрограммирование', words: ['Proxy', 'Reflect', 'Symbol'] },
+  'fetch,WebSocket,CORS': { clue: 'сеть', words: ['fetch', 'WebSocket', 'CORS'] },
+  'var,let,const': { clue: 'объявление переменных', words: ['var', 'let', 'const'] },
+  'setTimeout,setInterval,requestAnimationFrame': { clue: 'таймеры', words: ['setTimeout', 'setInterval', 'requestAnimationFrame'] },
+  'spread,rest,destructuring': { clue: 'синтаксис ES6', words: ['spread', 'rest', 'destructuring'] },
   // ... 10-15 предопределённых комбинаций
 };
 
@@ -346,13 +288,13 @@ class HardcodedSpymasterService implements AISpymasterService {
     await this.delay(1000 + Math.random() * 2000);
 
     const unrevealed = context.myWords.filter(
-      (w) => !context.revealedWords.includes(w),
+      w => !context.revealedWords.includes(w)
     );
 
     // Ищем совпадение в таблице
     for (const [key, value] of Object.entries(HARDCODED_CLUES)) {
-      const keyWords = key.split(",");
-      const matchingWords = unrevealed.filter((w) => keyWords.includes(w));
+      const keyWords = key.split(',');
+      const matchingWords = unrevealed.filter(w => keyWords.includes(w));
 
       if (matchingWords.length >= 2) {
         return {
@@ -366,15 +308,15 @@ class HardcodedSpymasterService implements AISpymasterService {
 
     // Fallback: одно слово
     return {
-      word: "JavaScript",
+      word: 'JavaScript',
       count: 1,
-      reasoning: "Fallback: нет совпадений в таблице",
+      reasoning: 'Fallback: нет совпадений в таблице',
       confidence: 0.3,
     };
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -390,59 +332,18 @@ class HardcodedSpymasterService implements AISpymasterService {
 ```typescript
 // Предопределённая карта категорий
 const WORD_CATEGORIES: Record<string, string[]> = {
-  асинхронность: [
-    "Promise",
-    "async/await",
-    "event loop",
-    "setTimeout",
-    "callback",
-    "microtask",
-  ],
-  типизация: ["generics", "interface", "type", "enum", "any", "unknown"],
-  "область видимости": [
-    "closure",
-    "scope",
-    "hoisting",
-    "var",
-    "let",
-    "const",
-    "IIFE",
-  ],
-  наследование: ["prototype", "class", "extends", "super", "this", "new"],
-  "хранение данных": [
-    "localStorage",
-    "sessionStorage",
-    "cookie",
-    "IndexedDB",
-    "Cache API",
-  ],
-  массивы: [
-    "map",
-    "filter",
-    "reduce",
-    "forEach",
-    "spread",
-    "rest",
-    "destructuring",
-  ],
-  коллекции: ["Map", "Set", "WeakMap", "WeakSet", "iterator", "generator"],
-  модули: ["import", "export", "default", "namespace", "barrel"],
-  "обработка ошибок": [
-    "try/catch",
-    "Error",
-    "throw",
-    "finally",
-    "Promise.catch",
-  ],
-  DOM: [
-    "querySelector",
-    "addEventListener",
-    "event delegation",
-    "shadow DOM",
-    "template",
-  ],
-  метапрограммирование: ["Proxy", "Reflect", "Symbol", "decorator", "WeakRef"],
-  сеть: ["fetch", "XMLHttpRequest", "WebSocket", "CORS", "HTTP"],
+  'асинхронность': ['Promise', 'async/await', 'event loop', 'setTimeout', 'callback', 'microtask'],
+  'типизация': ['generics', 'interface', 'type', 'enum', 'any', 'unknown'],
+  'область видимости': ['closure', 'scope', 'hoisting', 'var', 'let', 'const', 'IIFE'],
+  'наследование': ['prototype', 'class', 'extends', 'super', 'this', 'new'],
+  'хранение данных': ['localStorage', 'sessionStorage', 'cookie', 'IndexedDB', 'Cache API'],
+  'массивы': ['map', 'filter', 'reduce', 'forEach', 'spread', 'rest', 'destructuring'],
+  'коллекции': ['Map', 'Set', 'WeakMap', 'WeakSet', 'iterator', 'generator'],
+  'модули': ['import', 'export', 'default', 'namespace', 'barrel'],
+  'обработка ошибок': ['try/catch', 'Error', 'throw', 'finally', 'Promise.catch'],
+  'DOM': ['querySelector', 'addEventListener', 'event delegation', 'shadow DOM', 'template'],
+  'метапрограммирование': ['Proxy', 'Reflect', 'Symbol', 'decorator', 'WeakRef'],
+  'сеть': ['fetch', 'XMLHttpRequest', 'WebSocket', 'CORS', 'HTTP'],
 };
 
 class MockSpymasterService implements AISpymasterService {
@@ -451,7 +352,7 @@ class MockSpymasterService implements AISpymasterService {
     await this.delay(1000 + Math.random() * 2000);
 
     const unrevealed = context.myWords.filter(
-      (w) => !context.revealedWords.includes(w),
+      w => !context.revealedWords.includes(w)
     );
 
     // Находим лучшую категорию
@@ -459,7 +360,7 @@ class MockSpymasterService implements AISpymasterService {
       unrevealed,
       context.opponentWords,
       context.bombWord,
-      context.difficulty,
+      context.difficulty
     );
 
     return bestMatch;
@@ -469,37 +370,32 @@ class MockSpymasterService implements AISpymasterService {
     myWords: string[],
     opponentWords: string[],
     bombWord: string,
-    difficulty: "easy" | "medium" | "hard",
+    difficulty: 'easy' | 'medium' | 'hard'
   ): AIClue {
-    let bestCategory = "";
+    let bestCategory = '';
     let bestCount = 0;
     let bestConfidence = 0;
 
     for (const [category, words] of Object.entries(WORD_CATEGORIES)) {
       // Сколько моих слов попадает в категорию
-      const myMatches = myWords.filter((w) =>
-        words.some((cw) => cw.toLowerCase() === w.toLowerCase()),
+      const myMatches = myWords.filter(w =>
+        words.some(cw => cw.toLowerCase() === w.toLowerCase())
       );
 
       // Сколько слов соперника попадает (опасность)
-      const opponentMatches = opponentWords.filter((w) =>
-        words.some((cw) => cw.toLowerCase() === w.toLowerCase()),
+      const opponentMatches = opponentWords.filter(w =>
+        words.some(cw => cw.toLowerCase() === w.toLowerCase())
       );
 
       // Бомба в категории?
-      const bombMatch = words.some(
-        (cw) => cw.toLowerCase() === bombWord.toLowerCase(),
-      );
+      const bombMatch = words.some(cw => cw.toLowerCase() === bombWord.toLowerCase());
 
-      if (bombMatch) continue; // Никогда не подсказываем категорию с бомбой
+      if (bombMatch) continue;  // Никогда не подсказываем категорию с бомбой
 
       // Оценка: свои минус чужие
       const score = myMatches.length - opponentMatches.length * 2;
 
-      if (
-        score > bestCount ||
-        (score === bestCount && myMatches.length > bestCount)
-      ) {
+      if (score > bestCount || (score === bestCount && myMatches.length > bestCount)) {
         bestCategory = category;
         bestCount = myMatches.length;
         bestConfidence = score / myWords.length;
@@ -507,8 +403,7 @@ class MockSpymasterService implements AISpymasterService {
     }
 
     // Ограничиваем count по сложности
-    const maxCount =
-      difficulty === "easy" ? 2 : difficulty === "medium" ? 3 : 4;
+    const maxCount = difficulty === 'easy' ? 2 : difficulty === 'medium' ? 3 : 4;
     const clueCount = Math.min(bestCount, maxCount);
 
     // Fallback: если нет совпадений, берём случайное слово
@@ -516,7 +411,7 @@ class MockSpymasterService implements AISpymasterService {
       return {
         word: this.getRandomFallbackClue(myWords),
         count: 1,
-        reasoning: "Fallback: прямая ассоциация со словом",
+        reasoning: 'Fallback: прямая ассоциация со словом',
         confidence: 0.3,
       };
     }
@@ -532,24 +427,24 @@ class MockSpymasterService implements AISpymasterService {
   private getRandomFallbackClue(words: string[]): string {
     // Простые ассоциации для fallback
     const associations: Record<string, string> = {
-      closure: "замок",
-      Promise: "обещание",
-      prototype: "прародитель",
-      "async/await": "ожидание",
-      this: "контекст",
-      hoisting: "подъём",
-      scope: "область",
-      class: "чертёж",
-      Map: "карта",
-      Set: "набор",
+      'closure': 'замок',
+      'Promise': 'обещание',
+      'prototype': 'прародитель',
+      'async/await': 'ожидание',
+      'this': 'контекст',
+      'hoisting': 'подъём',
+      'scope': 'область',
+      'class': 'чертёж',
+      'Map': 'карта',
+      'Set': 'набор',
     };
 
     const word = words[Math.floor(Math.random() * words.length)];
-    return associations[word] || "JavaScript";
+    return associations[word] || 'JavaScript';
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -559,7 +454,6 @@ class MockSpymasterService implements AISpymasterService {
 Реальная интеграция с LLM API (OpenAI, Anthropic и т.д.). Реализуется **только если осталось время** после полировки основного функционала. Промпты для этого уровня описаны в секции "Будущая AI интеграция" ниже.
 
 В Firebase-архитектуре реальный LLM можно вызывать:
-
 - **Из браузера** напрямую (через API ключ — плохо для безопасности, но допустимо для учебного проекта)
 - **Через Firebase Cloud Functions** (предпочтительно — ключ хранится на сервере)
 
@@ -568,7 +462,7 @@ class MockSpymasterService implements AISpymasterService {
 class RealSpymasterService implements AISpymasterService {
   async generateClue(context: SpymasterContext): Promise<AIClue> {
     // Вызываем Firebase Cloud Function
-    const generateClue = httpsCallable(functions, "generateAIClue");
+    const generateClue = httpsCallable(functions, 'generateAIClue');
     const result = await generateClue({ context });
     return result.data as AIClue;
   }
@@ -579,30 +473,28 @@ class RealSpymasterService implements AISpymasterService {
 
 ### Рекомендуемый план по неделям
 
-| Неделя     | Уровень                           | Что делаем                                 |
-| ---------- | --------------------------------- | ------------------------------------------ |
-| Неделя 3   | Уровень 0: Hardcoded MVP          | Lookup-таблица, первое демо game loop      |
-| Недели 4-5 | Уровень 1: Category Matching      | Алгоритм категорий, реалистичные подсказки |
-| Неделя 6   | Уровень 2: Real LLM (опционально) | Только если всё остальное готово           |
+| Неделя | Уровень | Что делаем |
+|--------|---------|------------|
+| Неделя 3 | Уровень 0: Hardcoded MVP | Lookup-таблица, первое демо game loop |
+| Недели 4-5 | Уровень 1: Category Matching | Алгоритм категорий, реалистичные подсказки |
+| Неделя 6 | Уровень 2: Real LLM (опционально) | Только если всё остальное готово |
 
 ### Пример работы мока (Уровень 1)
 
 **Входные данные:**
-
 ```typescript
 context = {
-  myWords: ["closure", "hoisting", "scope", "Promise", "Map"],
-  opponentWords: ["prototype", "class", "extends"],
-  neutralWords: ["spread", "rest", "BigInt"],
-  bombWord: "eval",
+  myWords: ['closure', 'hoisting', 'scope', 'Promise', 'Map'],
+  opponentWords: ['prototype', 'class', 'extends'],
+  neutralWords: ['spread', 'rest', 'BigInt'],
+  bombWord: 'eval',
   revealedWords: [],
   moveHistory: [],
-  difficulty: "medium",
-};
+  difficulty: 'medium',
+}
 ```
 
 **Результат:**
-
 ```typescript
 {
   word: 'область видимости',    // Категория, покрывающая closure, hoisting, scope
@@ -635,9 +527,7 @@ context = {
 
 ```typescript
 class MockCheckEvaluatorService implements AICheckEvaluatorService {
-  async evaluateAnswer(
-    context: CheckEvaluationContext,
-  ): Promise<AICheckResult> {
+  async evaluateAnswer(context: CheckEvaluationContext): Promise<AICheckResult> {
     // Симулируем "думание AI" (0.8-2 секунды)
     await this.delay(800 + Math.random() * 1200);
 
@@ -645,22 +535,14 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
     const playerWords = context.playerAnswer.toLowerCase();
 
     // Считаем совпадения
-    const matches = keywords.filter((kw) =>
-      playerWords.includes(kw.toLowerCase()),
-    );
-    const matchRatio =
-      keywords.length > 0 ? matches.length / keywords.length : 0;
+    const matches = keywords.filter(kw => playerWords.includes(kw.toLowerCase()));
+    const matchRatio = keywords.length > 0 ? matches.length / keywords.length : 0;
 
     // Порог: 30% ключевых слов = засчитано (мок мягкий)
     const pointGranted = matchRatio >= 0.3;
 
     // Генерируем feedback
-    const feedback = this.generateFeedback(
-      pointGranted,
-      matches,
-      keywords,
-      context.concept,
-    );
+    const feedback = this.generateFeedback(pointGranted, matches, keywords, context.concept);
 
     return {
       pointGranted,
@@ -672,69 +554,40 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
   private extractKeywords(text: string): string[] {
     // Убираем стоп-слова, извлекаем значимые слова
     const stopWords = new Set([
-      "это",
-      "и",
-      "в",
-      "на",
-      "что",
-      "как",
-      "не",
-      "для",
-      "с",
-      "по",
-      "а",
-      "но",
-      "из",
-      "к",
-      "от",
-      "до",
-      "при",
-      "или",
-      "же",
-      "то",
-      "the",
-      "is",
-      "a",
-      "an",
-      "in",
-      "on",
-      "for",
-      "to",
-      "of",
-      "and",
+      'это', 'и', 'в', 'на', 'что', 'как', 'не', 'для', 'с', 'по',
+      'а', 'но', 'из', 'к', 'от', 'до', 'при', 'или', 'же', 'то',
+      'the', 'is', 'a', 'an', 'in', 'on', 'for', 'to', 'of', 'and',
     ]);
 
     return text
       .toLowerCase()
-      .replace(/[^\wа-яё\s]/gi, "")
+      .replace(/[^\wа-яё\s]/gi, '')
       .split(/\s+/)
-      .filter((word) => word.length > 3 && !stopWords.has(word))
-      .slice(0, 10); // Максимум 10 ключевых слов
+      .filter(word => word.length > 3 && !stopWords.has(word))
+      .slice(0, 10);  // Максимум 10 ключевых слов
   }
 
   private generateFeedback(
     granted: boolean,
     matches: string[],
     allKeywords: string[],
-    concept: string,
+    concept: string
   ): string {
     if (granted && matches.length >= allKeywords.length * 0.7) {
       return `Отличный ответ! Вы хорошо понимаете ${concept}.`;
     }
     if (granted) {
-      return `Ответ засчитан. Можно было также упомянуть: ${allKeywords
-        .filter((k) => !matches.includes(k))
-        .slice(0, 2)
-        .join(", ")}.`;
+      return `Ответ засчитан. Можно было также упомянуть: ${
+        allKeywords.filter(k => !matches.includes(k)).slice(0, 2).join(', ')
+      }.`;
     }
-    return `Ответ не засчитан. Ключевые моменты, которых не хватило: ${allKeywords
-      .filter((k) => !matches.includes(k))
-      .slice(0, 3)
-      .join(", ")}.`;
+    return `Ответ не засчитан. Ключевые моменты, которых не хватило: ${
+      allKeywords.filter(k => !matches.includes(k)).slice(0, 3).join(', ')
+    }.`;
   }
 
   private delay(ms: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
 ```
@@ -743,24 +596,21 @@ class MockCheckEvaluatorService implements AICheckEvaluatorService {
 
 В Firebase-архитектуре Check Evaluator используется в двух режимах:
 
-| Режим                  | Где выполняется         | Как вызывается                                                         |
-| ---------------------- | ----------------------- | ---------------------------------------------------------------------- |
-| Solo Mode              | Локально в браузере     | `SoloGameController` вызывает `evaluator.evaluateAnswer()` напрямую    |
+| Режим | Где выполняется | Как вызывается |
+|-------|----------------|----------------|
+| Solo Mode | Локально в браузере | `SoloGameController` вызывает `evaluator.evaluateAnswer()` напрямую |
 | Multiplayer (AI Check) | На стороне Host-клиента | Host вызывает `evaluator.evaluateAnswer()`, результат пишет в Firebase |
 
 ### Пример работы мока
 
 **Входные данные:**
-
 ```typescript
 context = {
-  concept: "localStorage",
-  question: "В чём отличие от sessionStorage?",
-  playerAnswer:
-    "localStorage сохраняет данные навсегда, а sessionStorage только на время сессии вкладки",
-  referenceAnswer:
-    "localStorage сохраняет данные без срока давности, данные сохраняются при закрытии браузера. sessionStorage хранит данные только в рамках текущей сессии: данные удаляются при закрытии вкладки.",
-};
+  concept: 'localStorage',
+  question: 'В чём отличие от sessionStorage?',
+  playerAnswer: 'localStorage сохраняет данные навсегда, а sessionStorage только на время сессии вкладки',
+  referenceAnswer: 'localStorage сохраняет данные без срока давности, данные сохраняются при закрытии браузера. sessionStorage хранит данные только в рамках текущей сессии: данные удаляются при закрытии вкладки.',
+}
 ```
 
 **Извлечённые ключевые слова:** `['localstorage', 'сохраняет', 'данные', 'давности', 'закрытии', 'браузера', 'sessionstorage', 'сессии', 'удаляются', 'вкладки']`
@@ -768,7 +618,6 @@ context = {
 **Совпадения в ответе:** `['localstorage', 'сохраняет', 'данные', 'sessionstorage', 'сессии', 'вкладки']` — 6 из 10 (60%)
 
 **Результат:**
-
 ```typescript
 {
   pointGranted: true,  // 60% > 30% порог
@@ -783,21 +632,21 @@ context = {
 
 ```typescript
 // ai/index.ts
-import { HardcodedSpymasterService } from "./hardcoded-spymaster";
-import { MockSpymasterService } from "./mock-spymaster";
-import { MockCheckEvaluatorService } from "./mock-check-evaluator";
+import { HardcodedSpymasterService } from './hardcoded-spymaster';
+import { MockSpymasterService } from './mock-spymaster';
+import { MockCheckEvaluatorService } from './mock-check-evaluator';
 // import { RealSpymasterService } from './real-spymaster';       // Future
 // import { RealCheckEvaluatorService } from './real-check-evaluator'; // Future
 
-const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== "false";
+const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== 'false';
 
 export const aiSpymaster: AISpymasterService = USE_MOCK_AI
   ? new MockSpymasterService()
-  : new MockSpymasterService(); // TODO: заменить на RealSpymasterService
+  : new MockSpymasterService();  // TODO: заменить на RealSpymasterService
 
 export const aiCheckEvaluator: AICheckEvaluatorService = USE_MOCK_AI
   ? new MockCheckEvaluatorService()
-  : new MockCheckEvaluatorService(); // TODO: заменить на RealCheckEvaluatorService
+  : new MockCheckEvaluatorService();  // TODO: заменить на RealCheckEvaluatorService
 ```
 
 > **Примечание для Firebase-варианта:** В будущем `RealSpymasterService` может вызывать Firebase Cloud Functions вместо прямых HTTP-запросов к LLM API. Это безопаснее — API ключ хранится в Firebase Environment, а не на клиенте.
@@ -806,21 +655,21 @@ export const aiCheckEvaluator: AICheckEvaluatorService = USE_MOCK_AI
 
 ```typescript
 // ai/__tests__/mock-spymaster.test.ts
-import { describe, it, expect } from "vitest";
-import { MockSpymasterService } from "../mock-spymaster";
+import { describe, it, expect } from 'vitest';
+import { MockSpymasterService } from '../mock-spymaster';
 
-describe("MockSpymasterService", () => {
+describe('MockSpymasterService', () => {
   const service = new MockSpymasterService();
 
-  it("should generate a clue with count > 0", async () => {
+  it('should generate a clue with count > 0', async () => {
     const clue = await service.generateClue({
-      myWords: ["closure", "hoisting", "scope"],
-      opponentWords: ["class", "extends"],
-      neutralWords: ["BigInt"],
-      bombWord: "eval",
+      myWords: ['closure', 'hoisting', 'scope'],
+      opponentWords: ['class', 'extends'],
+      neutralWords: ['BigInt'],
+      bombWord: 'eval',
       revealedWords: [],
       moveHistory: [],
-      difficulty: "medium",
+      difficulty: 'medium',
     });
 
     expect(clue.word).toBeTruthy();
@@ -828,30 +677,30 @@ describe("MockSpymasterService", () => {
     expect(clue.confidence).toBeGreaterThan(0);
   });
 
-  it("should never suggest a clue matching the bomb word category", async () => {
+  it('should never suggest a clue matching the bomb word category', async () => {
     const clue = await service.generateClue({
-      myWords: ["Proxy", "Reflect", "Symbol"],
+      myWords: ['Proxy', 'Reflect', 'Symbol'],
       opponentWords: [],
       neutralWords: [],
-      bombWord: "decorator", // В категории "метапрограммирование"
+      bombWord: 'decorator',  // В категории "метапрограммирование"
       revealedWords: [],
       moveHistory: [],
-      difficulty: "medium",
+      difficulty: 'medium',
     });
 
     // Не должен предложить "метапрограммирование", т.к. бомба в той же категории
-    expect(clue.word).not.toBe("метапрограммирование");
+    expect(clue.word).not.toBe('метапрограммирование');
   });
 
-  it("should respect difficulty level for count", async () => {
+  it('should respect difficulty level for count', async () => {
     const easyClue = await service.generateClue({
-      myWords: ["closure", "hoisting", "scope", "let", "var"],
+      myWords: ['closure', 'hoisting', 'scope', 'let', 'var'],
       opponentWords: [],
       neutralWords: [],
-      bombWord: "eval",
+      bombWord: 'eval',
       revealedWords: [],
       moveHistory: [],
-      difficulty: "easy",
+      difficulty: 'easy',
     });
 
     expect(easyClue.count).toBeLessThanOrEqual(2);
@@ -861,44 +710,41 @@ describe("MockSpymasterService", () => {
 
 ```typescript
 // ai/__tests__/mock-check-evaluator.test.ts
-import { describe, it, expect } from "vitest";
-import { MockCheckEvaluatorService } from "../mock-check-evaluator";
+import { describe, it, expect } from 'vitest';
+import { MockCheckEvaluatorService } from '../mock-check-evaluator';
 
-describe("MockCheckEvaluatorService", () => {
+describe('MockCheckEvaluatorService', () => {
   const service = new MockCheckEvaluatorService();
 
-  it("should grant point for answer with enough keywords", async () => {
+  it('should grant point for answer with enough keywords', async () => {
     const result = await service.evaluateAnswer({
-      concept: "closure",
-      question: "Что такое замыкание?",
-      playerAnswer:
-        "Функция, которая имеет доступ к переменным из внешней области видимости",
-      referenceAnswer:
-        "Замыкание — это функция, которая запоминает и имеет доступ к переменным из внешней области видимости.",
+      concept: 'closure',
+      question: 'Что такое замыкание?',
+      playerAnswer: 'Функция, которая имеет доступ к переменным из внешней области видимости',
+      referenceAnswer: 'Замыкание — это функция, которая запоминает и имеет доступ к переменным из внешней области видимости.',
     });
 
     expect(result.pointGranted).toBe(true);
     expect(result.confidence).toBeGreaterThan(0.3);
   });
 
-  it("should not grant point for empty answer", async () => {
+  it('should not grant point for empty answer', async () => {
     const result = await service.evaluateAnswer({
-      concept: "closure",
-      question: "Что такое замыкание?",
-      playerAnswer: "",
-      referenceAnswer: "Замыкание — это функция...",
+      concept: 'closure',
+      question: 'Что такое замыкание?',
+      playerAnswer: '',
+      referenceAnswer: 'Замыкание — это функция...',
     });
 
     expect(result.pointGranted).toBe(false);
   });
 
-  it("should provide helpful feedback", async () => {
+  it('should provide helpful feedback', async () => {
     const result = await service.evaluateAnswer({
-      concept: "Promise",
-      question: "Чем Promise отличается от callback?",
-      playerAnswer: "Promise это объект",
-      referenceAnswer:
-        "Promise — это объект, представляющий результат асинхронной операции с цепочкой через then и catch.",
+      concept: 'Promise',
+      question: 'Чем Promise отличается от callback?',
+      playerAnswer: 'Promise это объект',
+      referenceAnswer: 'Promise — это объект, представляющий результат асинхронной операции с цепочкой через then и catch.',
     });
 
     expect(result.feedback).toBeTruthy();
@@ -916,7 +762,6 @@ describe("MockCheckEvaluatorService", () => {
 Solo Mode позволяет играть одному. AI играет роль капитана (Spymaster) одной из команд. Игрок — оперативник. Соперничество идёт "против себя" или "против таймера".
 
 > **Ключевое отличие Firebase-варианта:** В Solo Mode **Firebase Realtime DB не используется**. Вся логика (state machine, AI, таймер) работает локально в браузере. Это означает:
->
 > - Не нужно настраивать Security Rules для Solo
 > - Не нужно платить за Firebase reads/writes в Solo
 > - Solo Mode работает даже если Firebase полностью недоступен
@@ -1013,14 +858,14 @@ stateDiagram-v2
 
 ### Solo Mode: особенности реализации
 
-| Аспект     | Multiplayer                         | Solo                                   |
-| ---------- | ----------------------------------- | -------------------------------------- |
-| Firebase   | Realtime DB + Host Logic            | Локальная state machine (без Firebase) |
-| Spymaster  | Живой человек                       | AI Mock                                |
-| Таймер     | Host пишет `turnEndTime` в Firebase | Только клиентский (`setTimeout`)       |
-| Check Mode | Настраивается хостом                | По умолчанию AI                        |
-| Соперник   | Другая команда                      | Нет (играет один)                      |
-| Сохранение | Firebase (через Host)               | Локально (`localStorage`) или REST API |
+| Аспект | Multiplayer | Solo |
+|--------|-------------|------|
+| Firebase | Realtime DB + Host Logic | Локальная state machine (без Firebase) |
+| Spymaster | Живой человек | AI Mock |
+| Таймер | Host пишет `turnEndTime` в Firebase | Только клиентский (`setTimeout`) |
+| Check Mode | Настраивается хостом | По умолчанию AI |
+| Соперник | Другая команда | Нет (играет один) |
+| Сохранение | Firebase (через Host) | Локально (`localStorage`) или REST API |
 
 ### Подробнее о различиях
 
@@ -1034,14 +879,14 @@ stateDiagram-v2
 // Multiplayer (Host пишет в Firebase)
 async function makeMove(roomId: string, cardId: string) {
   const cardRef = ref(db, `rooms/${roomId}/board/${cardId}`);
-  await update(cardRef, { status: "revealed" });
+  await update(cardRef, { status: 'revealed' });
   // Все клиенты автоматически получат обновление
 }
 
 // Solo (локальное обновление)
 function makeMove(cardId: string) {
-  gameState.board[cardId].status = "revealed";
-  renderBoard(); // Обновляем UI напрямую
+  gameState.board[cardId].status = 'revealed';
+  renderBoard();  // Обновляем UI напрямую
 }
 ```
 
@@ -1080,7 +925,7 @@ class SoloGameController {
     // 2. Показываем подсказку
     this.ui.showClue(clue);
     this.game.setClue({ word: clue.word, count: clue.count });
-    this.game.setGuessesRemaining(clue.count + 1); // +1 по правилам
+    this.game.setGuessesRemaining(clue.count + 1);  // +1 по правилам
 
     // 3. Запускаем клиентский таймер (если настроен)
     if (this.game.settings.timerSeconds > 0) {
@@ -1095,8 +940,8 @@ class SoloGameController {
 
     this.ui.revealCard(cardId, card.color);
 
-    if (card.color === "bomb") {
-      return this.endGame("lose");
+    if (card.color === 'bomb') {
+      return this.endGame('lose');
     }
 
     if (card.color === this.game.currentTeam) {
@@ -1104,7 +949,7 @@ class SoloGameController {
       await this.runCheckPhase(card.word);
       this.game.decrementGuesses();
 
-      if (this.game.isAllFound()) return this.endGame("win");
+      if (this.game.isAllFound()) return this.endGame('win');
       if (this.game.guessesRemaining <= 0) return this.startRound();
       // Иначе: продолжаем угадывать
     } else {
@@ -1143,7 +988,7 @@ class SoloGameController {
     }, seconds * 1000);
   }
 
-  private endGame(result: "win" | "lose"): void {
+  private endGame(result: 'win' | 'lose'): void {
     if (this.timer) clearTimeout(this.timer);
 
     const stats = this.game.getStats();
@@ -1155,12 +1000,12 @@ class SoloGameController {
   }
 
   private saveToLocalStorage(stats: GameStats): void {
-    const history = JSON.parse(localStorage.getItem("solo-history") || "[]");
+    const history = JSON.parse(localStorage.getItem('solo-history') || '[]');
     history.push({
       ...stats,
       date: new Date().toISOString(),
     });
-    localStorage.setItem("solo-history", JSON.stringify(history));
+    localStorage.setItem('solo-history', JSON.stringify(history));
   }
 
   private buildSpymasterContext(): SpymasterContext {
@@ -1180,12 +1025,10 @@ class SoloGameController {
 ### Почему Solo Mode проще в Firebase-варианте
 
 В WebSocket-варианте (Variant A) Solo Mode должен либо:
-
 - Поднимать mock WebSocket-сервер на клиенте
 - Или дублировать game logic на клиенте отдельно от серверной логики
 
 В Firebase-варианте (Variant B) проблема проще:
-
 - Multiplayer: Host-клиент управляет стейтом через Firebase
 - Solo: тот же game logic работает локально, просто без записи в Firebase
 
@@ -1208,8 +1051,8 @@ Variant B (Firebase):
 ```typescript
 // Вариант 1: localStorage (простой, рекомендуется для MVP)
 function saveSoloResult(stats: GameStats): void {
-  const key = "codenames-solo-history";
-  const history = JSON.parse(localStorage.getItem(key) || "[]");
+  const key = 'codenames-solo-history';
+  const history = JSON.parse(localStorage.getItem(key) || '[]');
   history.push({
     date: new Date().toISOString(),
     score: stats.score,
@@ -1222,10 +1065,7 @@ function saveSoloResult(stats: GameStats): void {
 }
 
 // Вариант 2: Firebase (опционально, если хотим синхронизацию)
-async function saveSoloResultToFirebase(
-  userId: string,
-  stats: GameStats,
-): Promise<void> {
+async function saveSoloResultToFirebase(userId: string, stats: GameStats): Promise<void> {
   const resultRef = ref(db, `users/${userId}/soloHistory`);
   await push(resultRef, {
     ...stats,
@@ -1384,44 +1224,44 @@ Respond in JSON format:
 
 ## 11. Эстимейт: AI + Solo Mode
 
-| Задача                                      | Min     | Max     | Avg     | Кто                 | Примечание                         |
-| ------------------------------------------- | ------- | ------- | ------- | ------------------- | ---------------------------------- |
-| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч    | Мудрый Мок (AI-Dev) | Оба сервиса                        |
-| Pre-generation questions.json               | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
-| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч    | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо    |
-| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч      | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм         |
-| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч    | Мудрый Мок (AI-Dev) | Keyword extraction + scoring       |
-| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | Настройки, история, кнопки         |
-| Solo Game Controller (game loop)            | 4ч      | 8ч      | 6ч      | Мудрый Мок (AI-Dev) | Проще чем в Variant A — нет WS     |
-| Landing page                                | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | Описание игры, кнопки              |
-| 404 page                                    | 1ч      | 2ч      | 1.5ч    | Мудрый Мок (AI-Dev) | Not Found                          |
-| Unit тесты моков                            | 3ч      | 5ч      | 4ч      | Мудрый Мок (AI-Dev) | Edge cases                         |
-| **Итого**                                   | **24ч** | **46ч** | **35ч** |                     |                                    |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Interface definitions (TypeScript) | 2ч | 3ч | 2.5ч | Мудрый Мок (AI-Dev) | Оба сервиса |
+| Pre-generation questions.json | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
+| Hardcoded Spymaster (Level 0) | 1ч | 2ч | 1.5ч | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо |
+| Mock Spymaster (category matching, Level 1) | 4ч | 8ч | 6ч | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм |
+| Mock Check Evaluator (keyword matching) | 3ч | 6ч | 4.5ч | Мудрый Мок (AI-Dev) | Keyword extraction + scoring |
+| Solo Setup page (UI) | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | Настройки, история, кнопки |
+| Solo Game Controller (game loop) | 4ч | 8ч | 6ч | Мудрый Мок (AI-Dev) | Проще чем в Variant A — нет WS |
+| Landing page | 2ч | 4ч | 3ч | Мудрый Мок (AI-Dev) | Описание игры, кнопки |
+| 404 page | 1ч | 2ч | 1.5ч | Мудрый Мок (AI-Dev) | Not Found |
+| Unit тесты моков | 3ч | 5ч | 4ч | Мудрый Мок (AI-Dev) | Edge cases |
+| **Итого** | **24ч** | **46ч** | **35ч** | | |
 
 > **Сравнение с Variant A:** В WebSocket-варианте Solo Game Controller оценивается в 5-10ч (avg 7.5ч), потому что нужно мокировать WebSocket или дублировать серверную логику. В Firebase-варианте — 4-8ч (avg 6ч), потому что game loop просто работает локально без сетевых абстракций. Итого: **24-46ч** вместо 25-48ч.
 
 ### Разбивка по неделям
 
-| Неделя   | Задачи Мудрого Мока                                    | Часов |
-| -------- | ------------------------------------------------------ | ----- |
-| Неделя 3 | Interface definitions + Pre-generation + Hardcoded MVP | 5-9ч  |
-| Неделя 4 | Mock Spymaster Level 1 + Mock Check Evaluator          | 7-14ч |
+| Неделя | Задачи Мудрого Мока | Часов |
+|--------|---------------------|-------|
+| Неделя 3 | Interface definitions + Pre-generation + Hardcoded MVP | 5-9ч |
+| Неделя 4 | Mock Spymaster Level 1 + Mock Check Evaluator | 7-14ч |
 | Неделя 5 | Solo Setup Page + Solo Game Controller + Landing + 404 | 9-18ч |
-| Неделя 6 | Unit тесты + полировка + (опционально) Real LLM        | 3-5ч  |
+| Неделя 6 | Unit тесты + полировка + (опционально) Real LLM | 3-5ч |
 
 ### Зависимости от других участников
 
-| Задача Мудрого Мока    | Зависит от                                        | Блокируется?     |
-| ---------------------- | ------------------------------------------------- | ---------------- |
-| AI интерфейсы          | Ничего                                            | Нет              |
-| Pre-generation JSON    | Ничего                                            | Нет              |
-| Hardcoded Spymaster    | AI интерфейсы                                     | Нет (делает сам) |
-| Mock Spymaster Level 1 | AI интерфейсы                                     | Нет (делает сам) |
-| Mock Check Evaluator   | questions.json (формат)                           | Нет (делает сам) |
-| Solo Setup Page        | UI kit от Быстрого Рендера                        | Частично         |
-| Solo Game Controller   | GameStateMachine (архитектура от Великого Мёрджа) | Да               |
-| Landing page           | Дизайн от Быстрого Рендера                        | Частично         |
-| 404 page               | Роутинг от Ловкого Роутера                        | Частично         |
+| Задача Мудрого Мока | Зависит от | Блокируется? |
+|---------------------|------------|-------------|
+| AI интерфейсы | Ничего | Нет |
+| Pre-generation JSON | Ничего | Нет |
+| Hardcoded Spymaster | AI интерфейсы | Нет (делает сам) |
+| Mock Spymaster Level 1 | AI интерфейсы | Нет (делает сам) |
+| Mock Check Evaluator | questions.json (формат) | Нет (делает сам) |
+| Solo Setup Page | UI kit от Быстрого Рендера | Частично |
+| Solo Game Controller | GameStateMachine (архитектура от Великого Мёрджа) | Да |
+| Landing page | Дизайн от Быстрого Рендера | Частично |
+| 404 page | Роутинг от Ловкого Роутера | Частично |
 
 > **Великий Мёрдж (Lead)** должен обеспечить, чтобы `GameStateMachine` был готов к неделе 4, иначе **Мудрый Мок** не сможет начать Solo Game Controller вовремя.
 
@@ -1453,7 +1293,7 @@ async generateClue(context: SpymasterContext): Promise<AIClue> {
 // Мок может выдать "метапрограммирование", а бомба — "Proxy"
 
 // Хорошо: явная проверка
-if (bombMatch) continue; // Пропускаем категорию с бомбой
+if (bombMatch) continue;  // Пропускаем категорию с бомбой
 ```
 
 **Почему это важно:** Если AI-мок подсказывает категорию с бомбой, игрок может нажать на бомбу и проиграть. Это не баг — но плохой UX. AI Spymaster "знает" расположение всех карточек и не должен наводить на бомбу.
@@ -1481,11 +1321,7 @@ const ratio = matches.length / keywords.length; // NaN!
 
 // Хорошо: обработка пустого
 if (!playerAnswer.trim()) {
-  return {
-    pointGranted: false,
-    feedback: "Ответ не предоставлен.",
-    confidence: 0,
-  };
+  return { pointGranted: false, feedback: 'Ответ не предоставлен.', confidence: 0 };
 }
 ```
 
@@ -1511,16 +1347,16 @@ handleGuess(cardId: string) {
 
 ```typescript
 // Плохо: предполагаем, что файл всегда доступен
-const questions = await fetch("/data/questions.json").then((r) => r.json());
+const questions = await fetch('/data/questions.json').then(r => r.json());
 // Если файл не загрузился — вся игра ломается
 
 // Хорошо: fallback на встроенные вопросы
 let questions: QuestionsData;
 try {
-  questions = await fetch("/data/questions.json").then((r) => r.json());
+  questions = await fetch('/data/questions.json').then(r => r.json());
 } catch {
-  console.warn("questions.json не загрузился, используем встроенные вопросы");
-  questions = FALLBACK_QUESTIONS; // Минимальный набор в коде
+  console.warn('questions.json не загрузился, используем встроенные вопросы');
+  questions = FALLBACK_QUESTIONS;  // Минимальный набор в коде
 }
 ```
 
@@ -1528,14 +1364,14 @@ try {
 
 ## Распределение ролей в команде
 
-| Никнейм                    | Роль         | Зона ответственности                             |
-| -------------------------- | ------------ | ------------------------------------------------ |
-| Великий Мёрдж (Lead)       | Lead         | Архитектура, code review, интеграция             |
+| Никнейм | Роль | Зона ответственности |
+|---------|------|---------------------|
+| Великий Мёрдж (Lead) | Lead | Архитектура, code review, интеграция |
 | Тихий Сокет (Firebase-Dev) | Firebase-Dev | Firebase Realtime DB, Security Rules, Host Logic |
-| Быстрый Рендер (Board-Dev) | Board-Dev    | Игровое поле, карточки, анимации                 |
-| Зоркий Линтер (Check-Dev)  | Check-Dev    | Check Phase, вопросы, оценка ответов             |
-| Мудрый Мок (AI-Dev)        | AI-Dev       | AI моки, Solo Mode, questions.json               |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev    | Лобби, роутинг, создание комнат                  |
+| Быстрый Рендер (Board-Dev) | Board-Dev | Игровое поле, карточки, анимации |
+| Зоркий Линтер (Check-Dev) | Check-Dev | Check Phase, вопросы, оценка ответов |
+| Мудрый Мок (AI-Dev) | AI-Dev | AI моки, Solo Mode, questions.json |
+| Ловкий Роутер (Lobby-Dev) | Lobby-Dev | Лобби, роутинг, создание комнат |
 
 ### Взаимодействие Мудрого Мока с командой
 

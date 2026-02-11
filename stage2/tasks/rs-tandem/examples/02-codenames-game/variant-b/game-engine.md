@@ -62,34 +62,34 @@ flowchart TB
 
 ### Компоненты на стороне хоста
 
-| Компонент          | Ответственный              | Описание                                                                    |
-| ------------------ | -------------------------- | --------------------------------------------------------------------------- |
-| `GameStateMachine` | Тихий Сокет (Firebase-Dev) | Чистый класс: переходы состояний, processGuess, подсчёт очков               |
-| `HostEngine`       | Тихий Сокет (Firebase-Dev) | Обёртка: слушает `actions/`, прогоняет через State Machine, пишет в `game/` |
-| `BoardGenerator`   | Тихий Сокет (Firebase-Dev) | Генерация 25 карточек, Fisher-Yates shuffle, распределение цветов 9/8/7/1   |
-| `ActionQueue`      | Тихий Сокет (Firebase-Dev) | Очередь обработки действий (предотвращение race conditions)                 |
+| Компонент | Ответственный | Описание |
+|-----------|---------------|----------|
+| `GameStateMachine` | Тихий Сокет (Firebase-Dev) | Чистый класс: переходы состояний, processGuess, подсчёт очков |
+| `HostEngine` | Тихий Сокет (Firebase-Dev) | Обёртка: слушает `actions/`, прогоняет через State Machine, пишет в `game/` |
+| `BoardGenerator` | Тихий Сокет (Firebase-Dev) | Генерация 25 карточек, Fisher-Yates shuffle, распределение цветов 9/8/7/1 |
+| `ActionQueue` | Тихий Сокет (Firebase-Dev) | Очередь обработки действий (предотвращение race conditions) |
 
 ### Компоненты на стороне клиента
 
-| Компонент      | Ответственный              | Описание                                                       |
-| -------------- | -------------------------- | -------------------------------------------------------------- |
+| Компонент | Ответственный | Описание |
+|-----------|---------------|----------|
 | `ClientEngine` | Быстрый Рендер (Board-Dev) | Обёртка: подписка на `game/`, отправка действий через `push()` |
-| `BoardUI`      | Быстрый Рендер (Board-Dev) | Игровое поле 5x5, карточки, анимации                           |
-| `TurnUI`       | Быстрый Рендер (Board-Dev) | Индикатор хода, подсказка, таймер                              |
-| `CheckUI`      | Зоркий Линтер (Check-Dev)  | Попап проверки знаний, Check-таймер                            |
-| `ScoreUI`      | Быстрый Рендер (Board-Dev) | Счёт команд, оставшиеся карточки                               |
+| `BoardUI` | Быстрый Рендер (Board-Dev) | Игровое поле 5x5, карточки, анимации |
+| `TurnUI` | Быстрый Рендер (Board-Dev) | Индикатор хода, подсказка, таймер |
+| `CheckUI` | Зоркий Линтер (Check-Dev) | Попап проверки знаний, Check-таймер |
+| `ScoreUI` | Быстрый Рендер (Board-Dev) | Счёт команд, оставшиеся карточки |
 
 ### Сравнение с Вариантом A
 
-| Аспект                     | Вариант A (WS Server)                  | Вариант B (Firebase Host)                      |
-| -------------------------- | -------------------------------------- | ---------------------------------------------- |
-| Где работает State Machine | Node.js сервер                         | Браузер хоста                                  |
-| Транспорт команд           | `socket.emit()`                        | `push()` в Firebase                            |
-| Получение состояния        | `socket.on()`                          | `onValue()` из Firebase                        |
-| Авторитет                  | Сервер — единственный источник правды  | Хост — единственный источник правды            |
-| Устойчивость               | Сервер работает 24/7                   | Хост закрыл вкладку = Game Over                |
-| Задержка                   | ~50-100мс (WS)                         | ~100-300мс (Firebase RTDB)                     |
-| Настройка                  | Node.js + Express + Socket.IO + Render | Firebase Free Tier (нулевая настройка сервера) |
+| Аспект | Вариант A (WS Server) | Вариант B (Firebase Host) |
+|--------|-----------------------|---------------------------|
+| Где работает State Machine | Node.js сервер | Браузер хоста |
+| Транспорт команд | `socket.emit()` | `push()` в Firebase |
+| Получение состояния | `socket.on()` | `onValue()` из Firebase |
+| Авторитет | Сервер — единственный источник правды | Хост — единственный источник правды |
+| Устойчивость | Сервер работает 24/7 | Хост закрыл вкладку = Game Over |
+| Задержка | ~50-100мс (WS) | ~100-300мс (Firebase RTDB) |
+| Настройка | Node.js + Express + Socket.IO + Render | Firebase Free Tier (нулевая настройка сервера) |
 
 ---
 
@@ -170,17 +170,17 @@ stateDiagram-v2
 
 ### Правила перехода ходов
 
-| Событие                         | Текущая фаза     | Переход                                                          |
-| ------------------------------- | ---------------- | ---------------------------------------------------------------- |
-| Клик по своей карточке          | `guess`          | `check` (запуск Check-таймера 30с, глобальный таймер продолжает) |
-| Клик по нейтральной карточке    | `guess`          | Смена хода на другую команду                                     |
-| Клик по карточке соперника      | `guess`          | Смена хода + соперник получает "раскрытие"                       |
-| Клик по бомбе                   | `guess`          | `finished` (мгновенный проигрыш)                                 |
-| Пас / Попытки кончились         | `guess`          | Смена хода на другую команду                                     |
-| Все карточки команды найдены    | `guess`          | `finished` (победа)                                              |
-| Check-таймер истёк (30с)        | `check`          | Возврат в `guess` (очко не начисляется)                          |
-| Ответ на вопрос оценён          | `check`          | Возврат в `guess` или смена хода                                 |
-| Глобальный таймер истёк (2 мин) | `clue` / `guess` | Смена хода на другую команду                                     |
+| Событие | Текущая фаза | Переход |
+|---------|-------------|---------|
+| Клик по своей карточке | `guess` | `check` (запуск Check-таймера 30с, глобальный таймер продолжает) |
+| Клик по нейтральной карточке | `guess` | Смена хода на другую команду |
+| Клик по карточке соперника | `guess` | Смена хода + соперник получает "раскрытие" |
+| Клик по бомбе | `guess` | `finished` (мгновенный проигрыш) |
+| Пас / Попытки кончились | `guess` | Смена хода на другую команду |
+| Все карточки команды найдены | `guess` | `finished` (победа) |
+| Check-таймер истёк (30с) | `check` | Возврат в `guess` (очко не начисляется) |
+| Ответ на вопрос оценён | `check` | Возврат в `guess` или смена хода |
+| Глобальный таймер истёк (2 мин) | `clue` / `guess` | Смена хода на другую команду |
 
 ---
 
@@ -192,59 +192,55 @@ stateDiagram-v2
 // src/shared/game-logic.ts
 // Чистая функция — без побочных эффектов, без зависимостей от Firebase
 
-function processGuess(
-  game: Game,
-  cardId: string,
-  playerId: string,
-): GuessResult {
-  const card = game.board.find((c) => c.id === cardId);
-  if (!card || card.status === "revealed") {
-    return { error: "INVALID_CARD" };
+function processGuess(game: Game, cardId: string, playerId: string): GuessResult {
+  const card = game.board.find(c => c.id === cardId);
+  if (!card || card.status === 'revealed') {
+    return { error: 'INVALID_CARD' };
   }
 
   // Открываем карточку
-  card.status = "revealed";
+  card.status = 'revealed';
 
   const currentTeam = game.currentTurn;
 
-  if (card.color === "bomb") {
+  if (card.color === 'bomb') {
     // Бомба -> мгновенный проигрыш текущей команды
-    game.winner = currentTeam === "red" ? "blue" : "red";
-    game.currentPhase = "finished";
-    return { action: "game-over", reason: "bomb" };
+    game.winner = currentTeam === 'red' ? 'blue' : 'red';
+    game.currentPhase = 'finished';
+    return { action: 'game-over', reason: 'bomb' };
   }
 
   if (card.color === currentTeam) {
     // Своя карточка -> фаза Check (глобальный таймер НЕ останавливается!)
-    game.currentPhase = "check";
+    game.currentPhase = 'check';
     game.teams[currentTeam].cardsLeft--;
 
     // Проверяем победу (все карточки команды найдены)
     if (game.teams[currentTeam].cardsLeft === 0) {
-      return { action: "check-then-win" };
+      return { action: 'check-then-win' };
     }
 
     game.guessesRemaining--;
-    return { action: "check", cardId };
+    return { action: 'check', cardId };
   }
 
-  if (card.color === "neutral") {
+  if (card.color === 'neutral') {
     // Нейтральная -> ход переходит к другой команде
-    return { action: "end-turn", reason: "neutral" };
+    return { action: 'end-turn', reason: 'neutral' };
   }
 
   // Карточка соперника -> ход переходит, соперник получает раскрытие
-  const opponent = currentTeam === "red" ? "blue" : "red";
+  const opponent = currentTeam === 'red' ? 'blue' : 'red';
   game.teams[opponent].cardsLeft--;
 
   if (game.teams[opponent].cardsLeft === 0) {
     // Все карточки соперника найдены -> соперник побеждает
     game.winner = opponent;
-    game.currentPhase = "finished";
-    return { action: "game-over", reason: "opponent-complete" };
+    game.currentPhase = 'finished';
+    return { action: 'game-over', reason: 'opponent-complete' };
   }
 
-  return { action: "end-turn", reason: "opponent-card" };
+  return { action: 'end-turn', reason: 'opponent-card' };
 }
 ```
 
@@ -254,11 +250,11 @@ function processGuess(
 // src/shared/types.ts
 
 type GuessResult =
-  | { error: "INVALID_CARD" }
-  | { action: "game-over"; reason: "bomb" | "opponent-complete" }
-  | { action: "check"; cardId: string }
-  | { action: "check-then-win" }
-  | { action: "end-turn"; reason: "neutral" | "opponent-card" };
+  | { error: 'INVALID_CARD' }
+  | { action: 'game-over'; reason: 'bomb' | 'opponent-complete' }
+  | { action: 'check'; cardId: string }
+  | { action: 'check-then-win' }
+  | { action: 'end-turn'; reason: 'neutral' | 'opponent-card' };
 ```
 
 > **Примечание:** Функция `processGuess` мутирует объект `game` напрямую. Это допустимо, потому что хост работает с единственным экземпляром состояния. Если нужна иммутабельность (например, для Redux DevTools), можно обернуть в `structuredClone(game)` перед вызовом.
@@ -408,29 +404,9 @@ flowchart TD
 // Генерация уникального кода — одинаково для обоих вариантов
 
 function generateRoomCode(): string {
-  const adjectives = [
-    "js",
-    "ts",
-    "react",
-    "node",
-    "algo",
-    "css",
-    "html",
-    "git",
-  ];
-  const nouns = [
-    "masters",
-    "ninjas",
-    "pros",
-    "devs",
-    "coders",
-    "wizards",
-    "gurus",
-    "hackers",
-  ];
-  const num = Math.floor(Math.random() * 99)
-    .toString()
-    .padStart(2, "0");
+  const adjectives = ['js', 'ts', 'react', 'node', 'algo', 'css', 'html', 'git'];
+  const nouns = ['masters', 'ninjas', 'pros', 'devs', 'coders', 'wizards', 'gurus', 'hackers'];
+  const num = Math.floor(Math.random() * 99).toString().padStart(2, '0');
   const adj = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
   return `${adj}-${noun}-${num}`;
@@ -453,10 +429,10 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
   // 2. Распределяем цвета: 9 red, 8 blue, 7 neutral, 1 bomb
   // Red ходит первой, поэтому у Red на 1 карточку больше
   const colors: CardColor[] = [
-    ...Array(9).fill("red" as CardColor),
-    ...Array(8).fill("blue" as CardColor),
-    ...Array(7).fill("neutral" as CardColor),
-    "bomb" as CardColor,
+    ...Array(9).fill('red' as CardColor),
+    ...Array(8).fill('blue' as CardColor),
+    ...Array(7).fill('neutral' as CardColor),
+    'bomb' as CardColor,
   ];
   const shuffledColors = shuffle(colors);
 
@@ -464,8 +440,8 @@ function generateBoard(wordBank: WordEntry[]): Card[] {
   return words.map((entry, i) => ({
     id: `card-${i}`,
     word: entry.word,
-    color: shuffledColors[i], // Секретный цвет — ТОЛЬКО для хоста!
-    status: "hidden" as CardStatus,
+    color: shuffledColors[i],    // Секретный цвет — ТОЛЬКО для хоста!
+    status: 'hidden' as CardStatus,
     position: i,
   }));
 }
@@ -484,29 +460,29 @@ function shuffle<T>(array: T[]): T[] {
 
 ```typescript
 // src/host/room-creator.ts
-import { set, ref } from "firebase/database";
-import { db, auth } from "../firebase/config";
-import { generateRoomCode } from "../shared/room-utils";
-import { generateBoard } from "../shared/board-generator";
+import { set, ref } from 'firebase/database';
+import { db, auth } from '../firebase/config';
+import { generateRoomCode } from '../shared/room-utils';
+import { generateBoard } from '../shared/board-generator';
 
 async function createRoom(settings: RoomSettings): Promise<string> {
   const user = auth.currentUser;
-  if (!user) throw new Error("AUTH_REQUIRED");
+  if (!user) throw new Error('AUTH_REQUIRED');
 
   const code = generateRoomCode();
 
   // Записываем метаданные комнаты
   await set(ref(db, `rooms/${code}/meta`), {
     code,
-    hostId: user.uid, // Хост = создатель комнаты = владелец State Machine
-    status: "waiting",
+    hostId: user.uid,          // Хост = создатель комнаты = владелец State Machine
+    status: 'waiting',
     settings,
     createdAt: Date.now(),
   });
 
   // Добавляем хоста как игрока
   await set(ref(db, `rooms/${code}/players/${user.uid}`), {
-    displayName: user.displayName || "Хост",
+    displayName: user.displayName || 'Хост',
     team: null,
     role: null,
     connected: true,
@@ -565,7 +541,7 @@ function toPublicCard(card: Card): FirebasePublicCard {
     word: card.word,
     status: card.status,
     // КЛЮЧЕВОЙ МОМЕНТ: скрытая карточка НЕ получает цвет в публичном поле!
-    color: card.status === "revealed" ? card.color : null,
+    color: card.status === 'revealed' ? card.color : null,
     position: card.position,
   };
 }
@@ -583,7 +559,6 @@ async function syncBoardPublic(roomCode: string, board: Card[]): Promise<void> {
 ### Пример: что видит оперативник vs капитан
 
 **Оперативник (Operative) — через `onValue(game/board-public/)`:**
-
 ```
 +----------+----------+----------+----------+----------+
 | closure  |prototype | Promise  |   this   | hoisting |
@@ -598,7 +573,6 @@ async function syncBoardPublic(roomCode: string, board: Card[]): Promise<void> {
 > Оперативник видит `color: null` для скрытых карточек и реальный цвет для раскрытых (Promise = RED).
 
 **Капитан (Spymaster) — через `onValue(spymaster-view/{team}/)`:**
-
 ```
 +----------+----------+----------+----------+----------+
 | closure  |prototype | Promise  |   this   | hoisting |
@@ -618,10 +592,7 @@ async function syncBoardPublic(roomCode: string, board: Card[]): Promise<void> {
 
 ```typescript
 // Хост записывает цвета для капитанов при старте игры
-async function writeSpymasterViews(
-  roomCode: string,
-  board: Card[],
-): Promise<void> {
+async function writeSpymasterViews(roomCode: string, board: Card[]): Promise<void> {
   const spymasterData: Record<string, { color: CardColor }> = {};
   for (const card of board) {
     spymasterData[card.id] = { color: card.color };
@@ -646,15 +617,10 @@ async function writeSpymasterViews(
 
 ```typescript
 // src/host/host-engine.ts
-import { Database, ref, set, onChildAdded, push } from "firebase/database";
-import { GameStateMachine } from "../shared/state-machine";
-import { PlayerAction, FirebaseGameState } from "../shared/firebase-schema";
-import {
-  gameRef,
-  actionsRef,
-  checkRef,
-  boardSecretRef,
-} from "../firebase/paths";
+import { Database, ref, set, onChildAdded, push } from 'firebase/database';
+import { GameStateMachine } from '../shared/state-machine';
+import { PlayerAction, FirebaseGameState } from '../shared/firebase-schema';
+import { gameRef, actionsRef, checkRef, boardSecretRef } from '../firebase/paths';
 
 class HostEngine {
   private game: GameStateMachine;
@@ -678,7 +644,7 @@ class HostEngine {
       (snapshot) => {
         const action = snapshot.val() as PlayerAction;
         this.enqueueAction(action);
-      },
+      }
     );
   }
 
@@ -717,7 +683,7 @@ class HostEngine {
 
   /** Обработать очередь последовательно (предотвращение race conditions) */
   private async processQueue(): Promise<void> {
-    if (this.processing) return; // Уже обрабатываем — новое действие подождёт
+    if (this.processing) return;    // Уже обрабатываем — новое действие подождёт
     this.processing = true;
 
     while (this.actionQueue.length > 0) {
@@ -733,52 +699,42 @@ class HostEngine {
     const { type, playerId, payload } = action;
 
     switch (type) {
-      case "set-role":
+      case 'set-role':
         this.game.setPlayerRole(
           playerId,
           payload.team as TeamColor,
-          payload.role as "spymaster" | "operative",
+          payload.role as 'spymaster' | 'operative'
         );
         break;
 
-      case "give-clue":
-        this.game.giveClue(
-          playerId,
-          payload.word as string,
-          payload.count as number,
-        );
+      case 'give-clue':
+        this.game.giveClue(playerId, payload.word as string, payload.count as number);
         break;
 
-      case "guess": {
-        const result = this.game.processGuess(
-          playerId,
-          payload.cardId as string,
-        );
+      case 'guess': {
+        const result = this.game.processGuess(playerId, payload.cardId as string);
 
-        if (result.action === "check" || result.action === "check-then-win") {
+        if (result.action === 'check' || result.action === 'check-then-win') {
           // Запустить Check Phase: отдельный 30с таймер
           await this.startCheckPhase(playerId, payload.cardId as string);
         }
 
-        if (result.action === "end-turn") {
+        if (result.action === 'end-turn') {
           this.game.switchTurn();
         }
         break;
       }
 
-      case "end-turn":
+      case 'end-turn':
         this.game.switchTurn();
         break;
 
-      case "check-answer":
+      case 'check-answer':
         await this.handleCheckAnswer(playerId, payload.answer as string);
         break;
 
-      case "check-evaluate":
-        await this.handleCheckEvaluate(
-          playerId,
-          payload.result as "know" | "dont-know",
-        );
+      case 'check-evaluate':
+        await this.handleCheckEvaluate(playerId, payload.result as 'know' | 'dont-know');
         break;
 
       default:
@@ -791,10 +747,7 @@ class HostEngine {
   }
 
   /** Запустить Check Phase с таймером 30 секунд */
-  private async startCheckPhase(
-    playerId: string,
-    cardId: string,
-  ): Promise<void> {
+  private async startCheckPhase(playerId: string, cardId: string): Promise<void> {
     const CHECK_DURATION_MS = 30_000;
     const checkDeadline = Date.now() + CHECK_DURATION_MS;
 
@@ -813,14 +766,10 @@ class HostEngine {
 
     // Серверный (хостовый) таймаут: если игрок не ответил за 30с
     this.checkTimeout = setTimeout(async () => {
-      if (this.game.getCurrentPhase() === "check") {
+      if (this.game.getCurrentPhase() === 'check') {
         this.game.checkTimedOut();
         await set(checkRef(this.roomCode), {
-          active: false,
-          playerId: "",
-          questionId: "",
-          question: "",
-          checkDeadline: 0,
+          active: false, playerId: '', questionId: '', question: '', checkDeadline: 0,
         });
         await this.syncState();
       }
@@ -828,10 +777,7 @@ class HostEngine {
   }
 
   /** Обработать ответ игрока на вопрос Check Phase */
-  private async handleCheckAnswer(
-    playerId: string,
-    answer: string,
-  ): Promise<void> {
+  private async handleCheckAnswer(playerId: string, answer: string): Promise<void> {
     if (this.checkTimeout) {
       clearTimeout(this.checkTimeout);
       this.checkTimeout = null;
@@ -839,7 +785,7 @@ class HostEngine {
     // В режиме self-peer — ждём оценки от другого игрока
     // В режиме AI — оцениваем сразу через mock/real evaluator
     const settings = this.game.getSettings();
-    if (settings.checkMode === "ai") {
+    if (settings.checkMode === 'ai') {
       const result = await aiCheckEvaluator.evaluateAnswer({
         concept: this.game.getCurrentCheckWord(),
         question: this.game.getCurrentCheckQuestion(),
@@ -848,11 +794,7 @@ class HostEngine {
       });
       this.game.resolveCheck(result.pointGranted);
       await set(checkRef(this.roomCode), {
-        active: false,
-        playerId: "",
-        questionId: "",
-        question: "",
-        checkDeadline: 0,
+        active: false, playerId: '', questionId: '', question: '', checkDeadline: 0,
       });
     }
     // В self-peer режиме: ждём action check-evaluate от оценщика
@@ -861,19 +803,15 @@ class HostEngine {
   /** Обработать оценку от другого игрока (self-peer режим) */
   private async handleCheckEvaluate(
     evaluatorId: string,
-    result: "know" | "dont-know",
+    result: 'know' | 'dont-know'
   ): Promise<void> {
     if (this.checkTimeout) {
       clearTimeout(this.checkTimeout);
       this.checkTimeout = null;
     }
-    this.game.resolveCheck(result === "know");
+    this.game.resolveCheck(result === 'know');
     await set(checkRef(this.roomCode), {
-      active: false,
-      playerId: "",
-      questionId: "",
-      question: "",
-      checkDeadline: 0,
+      active: false, playerId: '', questionId: '', question: '', checkDeadline: 0,
     });
   }
 
@@ -888,7 +826,7 @@ class HostEngine {
     // Загрузить вопросы из JSON-файла или Firebase
     const questions = await getQuestionsForWord(word);
     // Выбрать случайный вопрос, который ещё не использовался в этой игре
-    const unused = questions.filter((q) => !this.game.isQuestionUsed(q.id));
+    const unused = questions.filter(q => !this.game.isQuestionUsed(q.id));
     return unused.length > 0
       ? unused[Math.floor(Math.random() * unused.length)]
       : questions[0]; // Если все использованы — повторить
@@ -921,10 +859,10 @@ flowchart TD
 
 ```typescript
 // src/client/client-engine.ts
-import { Database, ref, onValue, push } from "firebase/database";
-import { GameStateForPlayer, PlayerAction } from "../shared/firebase-schema";
-import { gameRef, actionsRef, checkRef } from "../firebase/paths";
-import { auth } from "../firebase/config";
+import { Database, ref, onValue, push } from 'firebase/database';
+import { GameStateForPlayer, PlayerAction } from '../shared/firebase-schema';
+import { gameRef, actionsRef, checkRef } from '../firebase/paths';
+import { auth } from '../firebase/config';
 
 class ClientEngine {
   private db: Database;
@@ -958,12 +896,9 @@ class ClientEngine {
   /** Подписаться на цвета для капитана (spymaster-view) */
   subscribeToSpymasterView(
     team: TeamColor,
-    callback: (colors: Record<string, { color: CardColor }>) => void,
+    callback: (colors: Record<string, { color: CardColor }>) => void
   ): void {
-    const spymasterRef = ref(
-      this.db,
-      `rooms/${this.roomCode}/spymaster-view/${team}`,
-    );
+    const spymasterRef = ref(this.db, `rooms/${this.roomCode}/spymaster-view/${team}`);
     const unsub = onValue(spymasterRef, (snapshot) => {
       const data = snapshot.val();
       if (data) callback(data);
@@ -972,12 +907,9 @@ class ClientEngine {
   }
 
   /** Отправить действие хосту (push в очередь actions/) */
-  sendAction(
-    type: PlayerAction["type"],
-    payload: Record<string, unknown> = {},
-  ): void {
+  sendAction(type: PlayerAction['type'], payload: Record<string, unknown> = {}): void {
     const user = auth.currentUser;
-    if (!user) throw new Error("AUTH_REQUIRED");
+    if (!user) throw new Error('AUTH_REQUIRED');
 
     push(actionsRef(this.roomCode), {
       type,
@@ -989,23 +921,23 @@ class ClientEngine {
 
   /** Удобные методы для частых действий */
   giveClue(word: string, count: number): void {
-    this.sendAction("give-clue", { word, count });
+    this.sendAction('give-clue', { word, count });
   }
 
   guessCard(cardId: string): void {
-    this.sendAction("guess", { cardId });
+    this.sendAction('guess', { cardId });
   }
 
   endTurn(): void {
-    this.sendAction("end-turn");
+    this.sendAction('end-turn');
   }
 
   submitCheckAnswer(answer: string): void {
-    this.sendAction("check-answer", { answer });
+    this.sendAction('check-answer', { answer });
   }
 
-  evaluateCheck(result: "know" | "dont-know"): void {
-    this.sendAction("check-evaluate", { result });
+  evaluateCheck(result: 'know' | 'dont-know'): void {
+    this.sendAction('check-evaluate', { result });
   }
 
   /** Отписаться от всех подписок (при уходе со страницы игры) */
@@ -1029,7 +961,7 @@ const clientEngine = new ClientEngine(roomCode, db);
 // Подписка на обновления игрового состояния
 clientEngine.subscribeToGame((state) => {
   // Обновить доску
-  boardUI.update(state["board-public"]);
+  boardUI.update(state['board-public']);
 
   // Обновить индикатор хода
   turnUI.update(state.currentTurn, state.currentPhase);
@@ -1065,7 +997,7 @@ turnUI.onEndTurn(() => {
 });
 
 // При уходе со страницы — отписаться
-window.addEventListener("beforeunload", () => {
+window.addEventListener('beforeunload', () => {
   clientEngine.destroy();
 });
 ```
@@ -1117,7 +1049,7 @@ class GameEventBus {
   }
 
   emit<T>(event: string, payload: T): void {
-    this.listeners.get(event)?.forEach((handler) => handler(payload));
+    this.listeners.get(event)?.forEach(handler => handler(payload));
   }
 }
 
@@ -1125,10 +1057,10 @@ class GameEventBus {
 const uiBus = new GameEventBus();
 
 // Один компонент эмитирует
-uiBus.emit<{ cardId: string }>("ui:card-clicked", { cardId: "card-7" });
+uiBus.emit<{ cardId: string }>('ui:card-clicked', { cardId: 'card-7' });
 
 // Другой компонент подписан
-uiBus.on<{ cardId: string }>("ui:card-clicked", ({ cardId }) => {
+uiBus.on<{ cardId: string }>('ui:card-clicked', ({ cardId }) => {
   // Показать анимацию выбора
   highlightCard(cardId);
   // Отправить действие хосту
@@ -1153,26 +1085,22 @@ interface PhaseUIState {
   boardClickable: boolean;
   clueInputVisible: boolean;
   endTurnVisible: boolean;
-  turnTimerActive: boolean; // глобальный таймер хода (2 мин)
-  checkTimerActive: boolean; // отдельный Check-таймер (30с)
-  overlayActive: boolean; // для Check Phase
+  turnTimerActive: boolean;       // глобальный таймер хода (2 мин)
+  checkTimerActive: boolean;      // отдельный Check-таймер (30с)
+  overlayActive: boolean;         // для Check Phase
 }
 
 // Реализация для фазы угадывания
 class GuessPhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = "guess";
+  phase: GamePhase = 'guess';
 
-  canGiveClue(): boolean {
-    return false;
-  }
+  canGiveClue(): boolean { return false; }
 
   canGuess(playerId: string, game: Game): boolean {
     const team = getPlayerTeam(playerId, game);
-    return (
-      team === game.currentTurn &&
-      !isSpymaster(playerId, game) &&
-      game.guessesRemaining > 0
-    );
+    return team === game.currentTurn
+      && !isSpymaster(playerId, game)
+      && game.guessesRemaining > 0;
   }
 
   canEndTurn(playerId: string, game: Game): boolean {
@@ -1185,7 +1113,7 @@ class GuessPhaseHandler implements GamePhaseHandler {
       boardClickable: true,
       clueInputVisible: false,
       endTurnVisible: true,
-      turnTimerActive: true, // глобальный таймер тикает
+      turnTimerActive: true,        // глобальный таймер тикает
       checkTimerActive: false,
       overlayActive: false,
     };
@@ -1194,45 +1122,35 @@ class GuessPhaseHandler implements GamePhaseHandler {
 
 // Реализация для фазы проверки знаний
 class CheckPhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = "check";
+  phase: GamePhase = 'check';
 
-  canGiveClue(): boolean {
-    return false;
-  }
-  canGuess(): boolean {
-    return false;
-  }
-  canEndTurn(): boolean {
-    return false;
-  }
+  canGiveClue(): boolean { return false; }
+  canGuess(): boolean { return false; }
+  canEndTurn(): boolean { return false; }
 
   getUIState(): PhaseUIState {
     return {
       boardClickable: false,
       clueInputVisible: false,
       endTurnVisible: false,
-      turnTimerActive: true, // Глобальный таймер НЕ останавливается!
-      checkTimerActive: true, // Отдельный Check-таймер 30с
-      overlayActive: true, // Попап с вопросом
+      turnTimerActive: true,        // Глобальный таймер НЕ останавливается!
+      checkTimerActive: true,       // Отдельный Check-таймер 30с
+      overlayActive: true,          // Попап с вопросом
     };
   }
 }
 
 // Реализация для фазы подсказки
 class CluePhaseHandler implements GamePhaseHandler {
-  phase: GamePhase = "clue";
+  phase: GamePhase = 'clue';
 
   canGiveClue(playerId: string, game: Game): boolean {
     const team = getPlayerTeam(playerId, game);
     return team === game.currentTurn && isSpymaster(playerId, game);
   }
 
-  canGuess(): boolean {
-    return false;
-  }
-  canEndTurn(): boolean {
-    return false;
-  }
+  canGuess(): boolean { return false; }
+  canEndTurn(): boolean { return false; }
 
   getUIState(): PhaseUIState {
     return {
@@ -1288,7 +1206,7 @@ function startTurn(game: Game, roomCode: string): void {
 
   // Хост запускает setTimeout для авторитетного переключения хода
   setTimeout(() => {
-    if (game.currentPhase !== "finished") {
+    if (game.currentPhase !== 'finished') {
       game.switchTurn();
       syncState(roomCode, game);
     }
@@ -1312,16 +1230,12 @@ function startCheckTimer(game: Game, roomCode: string, playerId: string): void {
 
   // Хостовый таймаут: если игрок не ответил за 30с — очко не начисляется
   game.checkTimeout = setTimeout(() => {
-    if (game.currentPhase === "check") {
-      game.currentPhase = "guess";
-      game.checkResult = { pointGranted: false, reason: "timeout" };
+    if (game.currentPhase === 'check') {
+      game.currentPhase = 'guess';
+      game.checkResult = { pointGranted: false, reason: 'timeout' };
 
       set(ref(db, `rooms/${roomCode}/check`), {
-        active: false,
-        playerId: "",
-        questionId: "",
-        question: "",
-        checkDeadline: 0,
+        active: false, playerId: '', questionId: '', question: '', checkDeadline: 0,
       });
       syncState(roomCode, game);
     }
@@ -1333,14 +1247,10 @@ function handleCheckAnswer(game: Game, roomCode: string, answer: string): void {
   clearTimeout(game.checkTimeout);
 
   const pointGranted = evaluateAnswer(game.currentCheck, answer);
-  game.currentPhase = "guess";
+  game.currentPhase = 'guess';
 
   set(ref(db, `rooms/${roomCode}/check`), {
-    active: false,
-    playerId: "",
-    questionId: "",
-    question: "",
-    checkDeadline: 0,
+    active: false, playerId: '', questionId: '', question: '', checkDeadline: 0,
   });
   syncState(roomCode, game);
 }
@@ -1352,22 +1262,19 @@ function handleCheckAnswer(game: Game, roomCode: string, answer: string): void {
 // src/pages/game/timer-display.ts
 
 // Клиент отображает два независимых таймера на основе timestamp'ов из Firebase
-function updateTimerDisplay(
-  turnEndTime: number,
-  checkDeadline: number | null,
-): void {
+function updateTimerDisplay(turnEndTime: number, checkDeadline: number | null): void {
   // 1. Глобальный таймер хода — тикает ВСЕГДА
   const turnRemaining = Math.max(0, turnEndTime - Date.now());
   const seconds = Math.ceil(turnRemaining / 1000);
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  turnTimerElement.textContent = `${minutes}:${secs.toString().padStart(2, "0")}`;
+  turnTimerElement.textContent = `${minutes}:${secs.toString().padStart(2, '0')}`;
 
   // Подсветка при малом остатке времени
-  turnTimerElement.classList.toggle("urgent", seconds <= 15);
+  turnTimerElement.classList.toggle('urgent', seconds <= 15);
 
   if (turnRemaining <= 0) {
-    turnTimerElement.textContent = "Ожидание..."; // Хост решит (переключение хода)
+    turnTimerElement.textContent = 'Ожидание...'; // Хост решит (переключение хода)
   }
 
   // 2. Check-таймер — отображается только во время Check Phase
@@ -1375,25 +1282,19 @@ function updateTimerDisplay(
     const checkRemaining = Math.max(0, checkDeadline - Date.now());
     const checkSeconds = Math.ceil(checkRemaining / 1000);
     checkTimerElement.textContent = `${checkSeconds}с`;
-    checkTimerElement.classList.toggle("urgent", checkSeconds <= 10);
+    checkTimerElement.classList.toggle('urgent', checkSeconds <= 10);
 
     if (checkRemaining <= 0) {
-      checkTimerElement.textContent = "Время вышло!";
+      checkTimerElement.textContent = 'Время вышло!';
     }
   }
 }
 
 // Запуск requestAnimationFrame для плавного обновления
-function startTimerLoop(
-  turnEndTime: number,
-  checkDeadline: number | null,
-): void {
+function startTimerLoop(turnEndTime: number, checkDeadline: number | null): void {
   function tick() {
     updateTimerDisplay(turnEndTime, checkDeadline);
-    if (
-      turnEndTime - Date.now() > 0 ||
-      (checkDeadline && checkDeadline - Date.now() > 0)
-    ) {
+    if (turnEndTime - Date.now() > 0 || (checkDeadline && checkDeadline - Date.now() > 0)) {
       requestAnimationFrame(tick);
     }
   }
@@ -1423,14 +1324,14 @@ class OptimisticBoardController {
 
   async handleCardClick(cardId: string): Promise<void> {
     const card = this.getCard(cardId);
-    if (!card || card.status === "revealed") return;
+    if (!card || card.status === 'revealed') return;
 
     // 1. Сохраняем текущее состояние для возможного отката
     this.pendingGuesses.set(cardId, { ...card });
 
     // 2. МГНОВЕННО показываем анимацию переворота (до подтверждения хоста)
-    card.status = "pending";
-    this.renderCard(cardId, "flipping"); // CSS-анимация переворота
+    card.status = 'pending';
+    this.renderCard(cardId, 'flipping'); // CSS-анимация переворота
 
     // 3. Отправляем действие хосту через Firebase
     clientEngine.guessCard(cardId);
@@ -1445,9 +1346,9 @@ class OptimisticBoardController {
   handleStateUpdate(boardPublic: Record<string, FirebasePublicCard>): void {
     for (const [cardId, savedState] of this.pendingGuesses) {
       const serverCard = boardPublic[cardId];
-      if (serverCard && serverCard.status === "revealed") {
+      if (serverCard && serverCard.status === 'revealed') {
         // Хост подтвердил — убираем pending, показываем реальный цвет
-        this.renderCard(cardId, "revealed", serverCard.color);
+        this.renderCard(cardId, 'revealed', serverCard.color);
         this.pendingGuesses.delete(cardId);
       }
     }
@@ -1455,17 +1356,17 @@ class OptimisticBoardController {
     // Таймаут отката: если через 3с хост не подтвердил — откатываем
     setTimeout(() => {
       for (const [cardId, savedState] of this.pendingGuesses) {
-        this.renderCard(cardId, "hidden");
+        this.renderCard(cardId, 'hidden');
         this.pendingGuesses.delete(cardId);
-        this.showToast("Ход не принят. Попробуйте ещё раз.");
+        this.showToast('Ход не принят. Попробуйте ещё раз.');
       }
     }, 3000);
   }
 
   private renderCard(
     cardId: string,
-    state: "hidden" | "flipping" | "revealed",
-    color?: CardColor,
+    state: 'hidden' | 'flipping' | 'revealed',
+    color?: CardColor
   ): void {
     const el = document.querySelector(`[data-card-id="${cardId}"]`);
     if (!el) return;
@@ -1473,8 +1374,8 @@ class OptimisticBoardController {
     el.className = `card ${state}`;
     if (color) el.classList.add(color);
 
-    if (state === "flipping") {
-      el.classList.add("optimistic-pending");
+    if (state === 'flipping') {
+      el.classList.add('optimistic-pending');
     }
   }
 }
@@ -1494,7 +1395,7 @@ class OptimisticBoardController {
 }
 
 .card.optimistic-pending::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1508,21 +1409,13 @@ class OptimisticBoardController {
 }
 
 @keyframes cardFlip {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(90deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+  to { transform: rotate(360deg); }
 }
 ```
 
@@ -1539,9 +1432,8 @@ class OptimisticBoardController {
 Панель отображается **только на localhost** (или при наличии флага `VITE_DEV_TOOLS=true`). В продакшн-сборке панель полностью отсутствует.
 
 ```typescript
-const isDev =
-  window.location.hostname === "localhost" ||
-  import.meta.env.VITE_DEV_TOOLS === "true";
+const isDev = window.location.hostname === 'localhost'
+  || import.meta.env.VITE_DEV_TOOLS === 'true';
 
 if (isDev) {
   renderDevToolsPanel();
@@ -1550,15 +1442,15 @@ if (isDev) {
 
 ### Кнопки панели
 
-| Кнопка                    | Действие                                       | Зачем нужно                                 |
-| ------------------------- | ---------------------------------------------- | ------------------------------------------- |
-| **Reset Game State**      | Сбрасывает игру в начальное состояние (Lobby)  | Быстрый перезапуск без пересоздания комнаты |
-| **Become Spymaster Red**  | Назначает текущего пользователя капитаном Red  | Не нужно открывать 4 вкладки                |
-| **Become Spymaster Blue** | Назначает текущего пользователя капитаном Blue | Аналогично                                  |
-| **Reveal All Cards**      | Показывает цвета всех карточек                 | Проверка корректности генерации поля        |
-| **Force End Turn**        | Принудительно завершает текущий ход            | Тестирование смены ходов                    |
-| **Add Bot Player**        | Добавляет бота-заглушку в комнату              | Набрать мин. 4 игрока одной вкладкой        |
-| **Skip Check Phase**      | Завершает текущую Check Phase без оценки       | Быстрое прохождение игры                    |
+| Кнопка | Действие | Зачем нужно |
+|--------|----------|-------------|
+| **Reset Game State** | Сбрасывает игру в начальное состояние (Lobby) | Быстрый перезапуск без пересоздания комнаты |
+| **Become Spymaster Red** | Назначает текущего пользователя капитаном Red | Не нужно открывать 4 вкладки |
+| **Become Spymaster Blue** | Назначает текущего пользователя капитаном Blue | Аналогично |
+| **Reveal All Cards** | Показывает цвета всех карточек | Проверка корректности генерации поля |
+| **Force End Turn** | Принудительно завершает текущий ход | Тестирование смены ходов |
+| **Add Bot Player** | Добавляет бота-заглушку в комнату | Набрать мин. 4 игрока одной вкладкой |
+| **Skip Check Phase** | Завершает текущую Check Phase без оценки | Быстрое прохождение игры |
 
 ### Реализация
 
@@ -1567,14 +1459,14 @@ if (isDev) {
 
 class DevToolsPanel {
   constructor(
-    private hostEngine: HostEngine | null, // null если текущий пользователь — не хост
+    private hostEngine: HostEngine | null,  // null если текущий пользователь — не хост
     private clientEngine: ClientEngine,
     private roomCode: string,
   ) {}
 
   render(): HTMLElement {
-    const panel = document.createElement("div");
-    panel.className = "devtools-panel";
+    const panel = document.createElement('div');
+    panel.className = 'devtools-panel';
     panel.innerHTML = `
       <div class="devtools-header">DevTools (God Mode) — Firebase Host</div>
       <button data-action="reset">Reset Game State</button>
@@ -1586,7 +1478,7 @@ class DevToolsPanel {
       <button data-action="skip-check">Skip Check Phase</button>
     `;
 
-    panel.addEventListener("click", (e) => {
+    panel.addEventListener('click', (e) => {
       const action = (e.target as HTMLElement).dataset.action;
       if (action) this.handleAction(action);
     });
@@ -1599,32 +1491,32 @@ class DevToolsPanel {
       // Текущий пользователь — хост: вызываем методы HostEngine напрямую
       // Это быстрее, чем отправка через Firebase push()
       switch (action) {
-        case "reset":
+        case 'reset':
           this.hostEngine.resetGame();
           break;
-        case "reveal-all":
+        case 'reveal-all':
           this.hostEngine.revealAllCards();
           break;
-        case "force-end-turn":
+        case 'force-end-turn':
           this.hostEngine.forceEndTurn();
           break;
-        case "add-bot":
+        case 'add-bot':
           this.hostEngine.addBotPlayer();
           break;
-        case "skip-check":
+        case 'skip-check':
           this.hostEngine.skipCheckPhase();
           break;
         default:
           // Для ролей — отправляем как обычное действие
-          this.clientEngine.sendAction("set-role", {
-            team: action === "spymaster-red" ? "red" : "blue",
-            role: "spymaster",
+          this.clientEngine.sendAction('set-role', {
+            team: action === 'spymaster-red' ? 'red' : 'blue',
+            role: 'spymaster',
           });
       }
     } else {
       // Не хост — отправляем dev-action через push()
       // Хост обработает, если у него включён dev-mode
-      this.clientEngine.sendAction("dev-command" as any, { action });
+      this.clientEngine.sendAction('dev-command' as any, { action });
     }
   }
 }
@@ -1643,7 +1535,7 @@ class DevToolsPanel {
   border-radius: 8px;
   padding: 12px;
   z-index: 9999;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   font-size: 12px;
   max-width: 250px;
 }
@@ -1690,96 +1582,96 @@ class DevToolsPanel {
 
 ```typescript
 // src/shared/__tests__/state-machine.test.ts
-import { describe, it, expect } from "vitest";
-import { GameStateMachine } from "../state-machine";
+import { describe, it, expect } from 'vitest';
+import { GameStateMachine } from '../state-machine';
 
-describe("GameStateMachine", () => {
+describe('GameStateMachine', () => {
   // Хелпер: создать игру с 4 игроками
   function createTestGame(): GameStateMachine {
     const game = new GameStateMachine();
-    game.addPlayer("p1", "red", "operative");
-    game.addPlayer("p2", "red", "spymaster");
-    game.addPlayer("p3", "blue", "operative");
-    game.addPlayer("p4", "blue", "spymaster");
+    game.addPlayer('p1', 'red', 'operative');
+    game.addPlayer('p2', 'red', 'spymaster');
+    game.addPlayer('p3', 'blue', 'operative');
+    game.addPlayer('p4', 'blue', 'spymaster');
     game.startGame();
-    game.giveClue("p2", "Асинхронность", 3);
+    game.giveClue('p2', 'Асинхронность', 3);
     return game;
   }
 
-  it("должен перейти в фазу check при угадывании своей карточки", () => {
+  it('должен перейти в фазу check при угадывании своей карточки', () => {
     const game = createTestGame();
 
     // Находим карточку Red
-    const ownCard = game.getBoard().find((c) => c.color === "red")!;
-    const result = game.processGuess("p1", ownCard.id);
+    const ownCard = game.getBoard().find(c => c.color === 'red')!;
+    const result = game.processGuess('p1', ownCard.id);
 
-    expect(result.action).toBe("check");
-    expect(game.getCurrentPhase()).toBe("check");
+    expect(result.action).toBe('check');
+    expect(game.getCurrentPhase()).toBe('check');
   });
 
-  it("должен завершить игру при клике на бомбу", () => {
+  it('должен завершить игру при клике на бомбу', () => {
     const game = createTestGame();
 
     // Находим бомбу
-    const bombCard = game.getBoard().find((c) => c.color === "bomb")!;
-    const result = game.processGuess("p1", bombCard.id);
+    const bombCard = game.getBoard().find(c => c.color === 'bomb')!;
+    const result = game.processGuess('p1', bombCard.id);
 
-    expect(result.action).toBe("game-over");
-    expect(result.reason).toBe("bomb");
-    expect(game.getWinner()).toBe("blue"); // Red кликнула бомбу -> Blue победила
+    expect(result.action).toBe('game-over');
+    expect(result.reason).toBe('bomb');
+    expect(game.getWinner()).toBe('blue');  // Red кликнула бомбу -> Blue победила
   });
 
-  it("должен передать ход при клике на нейтральную карточку", () => {
+  it('должен передать ход при клике на нейтральную карточку', () => {
     const game = createTestGame();
 
-    const neutralCard = game.getBoard().find((c) => c.color === "neutral")!;
-    const result = game.processGuess("p1", neutralCard.id);
+    const neutralCard = game.getBoard().find(c => c.color === 'neutral')!;
+    const result = game.processGuess('p1', neutralCard.id);
 
-    expect(result.action).toBe("end-turn");
-    expect(result.reason).toBe("neutral");
+    expect(result.action).toBe('end-turn');
+    expect(result.reason).toBe('neutral');
   });
 
-  it("должен уменьшить cardsLeft соперника при клике на его карточку", () => {
+  it('должен уменьшить cardsLeft соперника при клике на его карточку', () => {
     const game = createTestGame();
-    const initialBlueCards = game.getTeam("blue").cardsLeft;
+    const initialBlueCards = game.getTeam('blue').cardsLeft;
 
-    const blueCard = game.getBoard().find((c) => c.color === "blue")!;
-    game.processGuess("p1", blueCard.id);
+    const blueCard = game.getBoard().find(c => c.color === 'blue')!;
+    game.processGuess('p1', blueCard.id);
 
-    expect(game.getTeam("blue").cardsLeft).toBe(initialBlueCards - 1);
+    expect(game.getTeam('blue').cardsLeft).toBe(initialBlueCards - 1);
   });
 
-  it("не должен начислять очко при таймауте Check Phase", () => {
+  it('не должен начислять очко при таймауте Check Phase', () => {
     const game = createTestGame();
-    const ownCard = game.getBoard().find((c) => c.color === "red")!;
-    game.processGuess("p1", ownCard.id);
+    const ownCard = game.getBoard().find(c => c.color === 'red')!;
+    game.processGuess('p1', ownCard.id);
 
     // Симулируем таймаут Check Phase
     const result = game.checkTimedOut();
 
     expect(result.pointGranted).toBe(false);
-    expect(game.getCurrentPhase()).toBe("guess");
+    expect(game.getCurrentPhase()).toBe('guess');
   });
 
-  it("должен отклонить клик по уже открытой карточке", () => {
+  it('должен отклонить клик по уже открытой карточке', () => {
     const game = createTestGame();
-    const ownCard = game.getBoard().find((c) => c.color === "red")!;
+    const ownCard = game.getBoard().find(c => c.color === 'red')!;
 
     // Первый клик — успешный
-    game.processGuess("p1", ownCard.id);
+    game.processGuess('p1', ownCard.id);
     game.resolveCheck(true);
 
     // Второй клик по той же карточке — ошибка
-    const result = game.processGuess("p1", ownCard.id);
-    expect(result.error).toBe("INVALID_CARD");
+    const result = game.processGuess('p1', ownCard.id);
+    expect(result.error).toBe('INVALID_CARD');
   });
 
-  it("должен корректно считать guessesRemaining", () => {
+  it('должен корректно считать guessesRemaining', () => {
     const game = createTestGame(); // подсказка: "Асинхронность, 3"
     expect(game.getGuessesRemaining()).toBe(4); // count + 1
 
-    const ownCard = game.getBoard().find((c) => c.color === "red")!;
-    game.processGuess("p1", ownCard.id);
+    const ownCard = game.getBoard().find(c => c.color === 'red')!;
+    game.processGuess('p1', ownCard.id);
     game.resolveCheck(true);
 
     expect(game.getGuessesRemaining()).toBe(3);
@@ -1789,12 +1681,12 @@ describe("GameStateMachine", () => {
 
 ### Стратегия тестирования
 
-| Уровень                             | Что тестируем                                      | Покрытие              | Скорость          |
-| ----------------------------------- | -------------------------------------------------- | --------------------- | ----------------- |
-| **Unit (GameStateMachine)**         | Все переходы состояний, edge cases, подсчёт очков  | 90% логики            | Мгновенно (~50мс) |
-| **Unit (HostEngine mock)**          | Очередь действий, обработка Check Phase, таймеры   | Хостовая обёртка      | Быстро (~200мс)   |
-| **Integration (Firebase Emulator)** | `push()` -> `onChildAdded` -> `set()` -> `onValue` | Транспорт             | Средне (~2с)      |
-| **E2E (Browser)**                   | Полный сценарий: два браузера, один хост           | "Всё работает вместе" | Медленно (~30с)   |
+| Уровень | Что тестируем | Покрытие | Скорость |
+|---------|---------------|----------|----------|
+| **Unit (GameStateMachine)** | Все переходы состояний, edge cases, подсчёт очков | 90% логики | Мгновенно (~50мс) |
+| **Unit (HostEngine mock)** | Очередь действий, обработка Check Phase, таймеры | Хостовая обёртка | Быстро (~200мс) |
+| **Integration (Firebase Emulator)** | `push()` -> `onChildAdded` -> `set()` -> `onValue` | Транспорт | Средне (~2с) |
+| **E2E (Browser)** | Полный сценарий: два браузера, один хост | "Всё работает вместе" | Медленно (~30с) |
 
 > **Правило:** E2E тесты проверяют только одно: "два браузера могут играть вместе через Firebase". Вся бизнес-логика покрывается юнит-тестами `GameStateMachine`. Это обеспечивает быстрый feedback loop.
 
@@ -1861,18 +1753,18 @@ Security Rules — **единственная** линия защиты от ч�
 
 ### Разбор правил безопасности
 
-| Узел                   | `.read`                        | `.write`         | Почему                                                 |
-| ---------------------- | ------------------------------ | ---------------- | ------------------------------------------------------ |
-| `meta/`                | Все                            | Авторизованные   | Метаданные видны всем, создание — любой авторизованный |
-| `teams/`               | Все                            | Авторизованные   | Выбор команд — общая операция                          |
-| `players/{id}`         | Все                            | Только сам игрок | Игрок пишет только свои данные                         |
-| `game/`                | Все                            | Только хост      | Все видят состояние, менять может только хост          |
-| `board-secret/`        | Только хост                    | Только хост      | **Главная защита** от читерства                        |
-| `spymaster-view/red/`  | Только Spymaster Red или хост  | Только хост      | Цвета для капитана Red                                 |
-| `spymaster-view/blue/` | Только Spymaster Blue или хост | Только хост      | Цвета для капитана Blue                                |
-| `actions/`             | Только хост                    | Авторизованные   | Игроки пишут команды, хост их обрабатывает             |
-| `check/`               | Все                            | Только хост      | Check Phase видна всем, управляет хост                 |
-| `history/`             | Все                            | Только хост      | История для отображения результатов                    |
+| Узел | `.read` | `.write` | Почему |
+|------|---------|----------|--------|
+| `meta/` | Все | Авторизованные | Метаданные видны всем, создание — любой авторизованный |
+| `teams/` | Все | Авторизованные | Выбор команд — общая операция |
+| `players/{id}` | Все | Только сам игрок | Игрок пишет только свои данные |
+| `game/` | Все | Только хост | Все видят состояние, менять может только хост |
+| `board-secret/` | Только хост | Только хост | **Главная защита** от читерства |
+| `spymaster-view/red/` | Только Spymaster Red или хост | Только хост | Цвета для капитана Red |
+| `spymaster-view/blue/` | Только Spymaster Blue или хост | Только хост | Цвета для капитана Blue |
+| `actions/` | Только хост | Авторизованные | Игроки пишут команды, хост их обрабатывает |
+| `check/` | Все | Только хост | Check Phase видна всем, управляет хост |
+| `history/` | Все | Только хост | История для отображения результатов |
 
 ### Тестирование Security Rules
 
@@ -1886,29 +1778,25 @@ firebase emulators:exec "npx vitest run src/firebase/__tests__/rules.test.ts"
 
 ```typescript
 // src/firebase/__tests__/rules.test.ts
-import { describe, it, expect } from "vitest";
-import {
-  initializeTestEnvironment,
-  assertSucceeds,
-  assertFails,
-} from "@firebase/rules-unit-testing";
+import { describe, it, expect } from 'vitest';
+import { initializeTestEnvironment, assertSucceeds, assertFails } from '@firebase/rules-unit-testing';
 
-describe("Firebase Security Rules", () => {
-  it("хост может читать board-secret", async () => {
-    const hostAuth = { uid: "host-uid" };
+describe('Firebase Security Rules', () => {
+  it('хост может читать board-secret', async () => {
+    const hostAuth = { uid: 'host-uid' };
     const hostDb = testEnv.authenticatedContext(hostAuth.uid).database();
     // ... настройка rooms/{code}/meta/hostId = 'host-uid'
-    await assertSucceeds(hostDb.ref("rooms/test/board-secret").once("value"));
+    await assertSucceeds(hostDb.ref('rooms/test/board-secret').once('value'));
   });
 
-  it("обычный игрок НЕ может читать board-secret", async () => {
-    const playerDb = testEnv.authenticatedContext("player-uid").database();
-    await assertFails(playerDb.ref("rooms/test/board-secret").once("value"));
+  it('обычный игрок НЕ может читать board-secret', async () => {
+    const playerDb = testEnv.authenticatedContext('player-uid').database();
+    await assertFails(playerDb.ref('rooms/test/board-secret').once('value'));
   });
 
-  it("только хост может писать в game/", async () => {
-    const playerDb = testEnv.authenticatedContext("player-uid").database();
-    await assertFails(playerDb.ref("rooms/test/game/currentTurn").set("blue"));
+  it('только хост может писать в game/', async () => {
+    const playerDb = testEnv.authenticatedContext('player-uid').database();
+    await assertFails(playerDb.ref('rooms/test/game/currentTurn').set('blue'));
   });
 });
 ```
@@ -1923,23 +1811,17 @@ Firebase Realtime Database имеет встроенный механизм `onD
 
 ```typescript
 // src/firebase/presence.ts
-import { ref, set, onDisconnect, onValue } from "firebase/database";
-import { db, auth } from "./config";
+import { ref, set, onDisconnect, onValue } from 'firebase/database';
+import { db, auth } from './config';
 
 /** Настроить отслеживание подключения для игрока */
 export function setupPresence(roomCode: string): void {
   const user = auth.currentUser;
   if (!user) return;
 
-  const connectedRef = ref(db, ".info/connected");
-  const playerConnectedRef = ref(
-    db,
-    `rooms/${roomCode}/players/${user.uid}/connected`,
-  );
-  const playerLastSeenRef = ref(
-    db,
-    `rooms/${roomCode}/players/${user.uid}/lastSeen`,
-  );
+  const connectedRef = ref(db, '.info/connected');
+  const playerConnectedRef = ref(db, `rooms/${roomCode}/players/${user.uid}/connected`);
+  const playerLastSeenRef = ref(db, `rooms/${roomCode}/players/${user.uid}/lastSeen`);
 
   onValue(connectedRef, (snap) => {
     if (snap.val() === true) {
@@ -1959,8 +1841,8 @@ export function setupPresence(roomCode: string): void {
 
 ```typescript
 // src/client/host-watcher.ts
-import { ref, onValue } from "firebase/database";
-import { db } from "../firebase/config";
+import { ref, onValue } from 'firebase/database';
+import { db } from '../firebase/config';
 
 /** Следить за подключением хоста — если хост ушёл, показать предупреждение */
 export function watchHostConnection(
@@ -1969,10 +1851,7 @@ export function watchHostConnection(
   onHostDisconnect: () => void,
   onHostReconnect: () => void,
 ): () => void {
-  const hostConnectedRef = ref(
-    db,
-    `rooms/${roomCode}/players/${hostId}/connected`,
-  );
+  const hostConnectedRef = ref(db, `rooms/${roomCode}/players/${hostId}/connected`);
 
   return onValue(hostConnectedRef, (snap) => {
     const isConnected = snap.val();
@@ -1985,14 +1864,10 @@ export function watchHostConnection(
 }
 
 // Использование в UI:
-watchHostConnection(
-  roomCode,
-  hostId,
+watchHostConnection(roomCode, hostId,
   () => {
     // Хост отключился — показать предупреждение
-    showWarningBanner(
-      "Хост отключился. Игра приостановлена. Ждём переподключения...",
-    );
+    showWarningBanner('Хост отключился. Игра приостановлена. Ждём переподключения...');
     disableGameInteractions();
   },
   () => {
@@ -2094,57 +1969,22 @@ flowchart TD
 }
 
 /* Раскрытые карточки */
-.card.revealed.red {
-  background: #ef5350;
-  color: white;
-  cursor: default;
-}
-.card.revealed.blue {
-  background: #42a5f5;
-  color: white;
-  cursor: default;
-}
-.card.revealed.neutral {
-  background: #bdbdbd;
-  color: #333;
-  cursor: default;
-}
-.card.revealed.bomb {
-  background: #212121;
-  color: white;
-  cursor: default;
-}
+.card.revealed.red    { background: #ef5350; color: white; cursor: default; }
+.card.revealed.blue   { background: #42a5f5; color: white; cursor: default; }
+.card.revealed.neutral { background: #bdbdbd; color: #333; cursor: default; }
+.card.revealed.bomb   { background: #212121; color: white; cursor: default; }
 
 /* Вид капитана: подсветка цветов на скрытых карточках */
-.spymaster-view .card.hidden.red {
-  border-color: #ef5350;
-  background: #ffebee;
-}
-.spymaster-view .card.hidden.blue {
-  border-color: #42a5f5;
-  background: #e3f2fd;
-}
-.spymaster-view .card.hidden.neutral {
-  border-color: #bdbdbd;
-  background: #fafafa;
-}
-.spymaster-view .card.hidden.bomb {
-  border-color: #212121;
-  background: #424242;
-  color: white;
-}
+.spymaster-view .card.hidden.red    { border-color: #ef5350; background: #ffebee; }
+.spymaster-view .card.hidden.blue   { border-color: #42a5f5; background: #e3f2fd; }
+.spymaster-view .card.hidden.neutral { border-color: #bdbdbd; background: #fafafa; }
+.spymaster-view .card.hidden.bomb   { border-color: #212121; background: #424242; color: white; }
 
 /* Анимация открытия карточки */
 @keyframes cardReveal {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(90deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
 }
 
 .card.revealing {
@@ -2163,26 +2003,26 @@ flowchart TD
 
 ## 18. Эстимейт: Game Engine
 
-| Задача                                     | Min     | Max      | Avg       | Кто                                                     | Примечание                             |
-| ------------------------------------------ | ------- | -------- | --------- | ------------------------------------------------------- | -------------------------------------- |
-| Firebase проект + Realtime DB setup        | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | Создание проекта, конфигурация SDK     |
-| Firebase Security Rules v1                 | 2ч      | 3ч       | 2.5ч      | Тихий Сокет (Firebase-Dev)                              | Базовая защита board-secret            |
-| Firebase Security Rules v2 (детальная)     | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev) + Великий Мёрдж (Lead)       | Spymaster view, валидация              |
-| GameStateMachine (чистый класс)            | 8ч      | 16ч      | 12ч       | Тихий Сокет (Firebase-Dev)                              | Ядро игры — все переходы, processGuess |
-| HostEngine (Firebase обёртка)              | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | onChildAdded, ActionQueue, syncState   |
-| ClientEngine (Firebase подписка)           | 3ч      | 5ч       | 4ч        | Быстрый Рендер (Board-Dev)                              | onValue, push, подписки                |
-| Board generation + цвета 9/8/7/1           | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | Fisher-Yates, генерация                |
-| Room management (create/join/leave)        | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | Валидация, edge cases                  |
-| Turn management + два таймера              | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | Глобальный 2мин + Check 30с            |
-| Spymaster/Operative фильтрация             | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | board-secret, spymaster-view           |
-| Presence System (onDisconnect)             | 2ч      | 3ч       | 2.5ч      | Тихий Сокет (Firebase-Dev)                              | Обнаружение отключения хоста           |
-| Game Board UI (5x5, карточки, CSS)         | 5ч      | 10ч      | 7.5ч      | Быстрый Рендер (Board-Dev)                              | HTML/CSS, адаптивность                 |
-| Card animations (flip, reveal, optimistic) | 3ч      | 6ч       | 4.5ч      | Быстрый Рендер (Board-Dev)                              | CSS transitions + откат                |
-| Turn indicator, clue display, score        | 2ч      | 4ч       | 3ч        | Быстрый Рендер (Board-Dev)                              | UI-компоненты                          |
-| DevTools Panel (God Mode)                  | 2ч      | 4ч       | 3ч        | Великий Мёрдж (Lead)                                    | Debug-панель, localhost only           |
-| Headless state machine unit tests          | 3ч      | 6ч       | 4.5ч      | Зоркий Линтер (Check-Dev)                               | Vitest, 90% покрытие логики            |
-| Integration testing (Firebase Emulator)    | 4ч      | 8ч       | 6ч        | Быстрый Рендер (Board-Dev) + Тихий Сокет (Firebase-Dev) | Emulator + real flow                   |
-| **Итого**                                  | **54ч** | **105ч** | **79.5ч** |                                                         |                                        |
+| Задача | Min | Max | Avg | Кто | Примечание |
+|--------|-----|-----|-----|-----|------------|
+| Firebase проект + Realtime DB setup | 2ч | 4ч | 3ч | Тихий Сокет (Firebase-Dev) | Создание проекта, конфигурация SDK |
+| Firebase Security Rules v1 | 2ч | 3ч | 2.5ч | Тихий Сокет (Firebase-Dev) | Базовая защита board-secret |
+| Firebase Security Rules v2 (детальная) | 2ч | 4ч | 3ч | Тихий Сокет (Firebase-Dev) + Великий Мёрдж (Lead) | Spymaster view, валидация |
+| GameStateMachine (чистый класс) | 8ч | 16ч | 12ч | Тихий Сокет (Firebase-Dev) | Ядро игры — все переходы, processGuess |
+| HostEngine (Firebase обёртка) | 4ч | 8ч | 6ч | Тихий Сокет (Firebase-Dev) | onChildAdded, ActionQueue, syncState |
+| ClientEngine (Firebase подписка) | 3ч | 5ч | 4ч | Быстрый Рендер (Board-Dev) | onValue, push, подписки |
+| Board generation + цвета 9/8/7/1 | 2ч | 4ч | 3ч | Тихий Сокет (Firebase-Dev) | Fisher-Yates, генерация |
+| Room management (create/join/leave) | 4ч | 8ч | 6ч | Тихий Сокет (Firebase-Dev) | Валидация, edge cases |
+| Turn management + два таймера | 4ч | 8ч | 6ч | Тихий Сокет (Firebase-Dev) | Глобальный 2мин + Check 30с |
+| Spymaster/Operative фильтрация | 2ч | 4ч | 3ч | Тихий Сокет (Firebase-Dev) | board-secret, spymaster-view |
+| Presence System (onDisconnect) | 2ч | 3ч | 2.5ч | Тихий Сокет (Firebase-Dev) | Обнаружение отключения хоста |
+| Game Board UI (5x5, карточки, CSS) | 5ч | 10ч | 7.5ч | Быстрый Рендер (Board-Dev) | HTML/CSS, адаптивность |
+| Card animations (flip, reveal, optimistic) | 3ч | 6ч | 4.5ч | Быстрый Рендер (Board-Dev) | CSS transitions + откат |
+| Turn indicator, clue display, score | 2ч | 4ч | 3ч | Быстрый Рендер (Board-Dev) | UI-компоненты |
+| DevTools Panel (God Mode) | 2ч | 4ч | 3ч | Великий Мёрдж (Lead) | Debug-панель, localhost only |
+| Headless state machine unit tests | 3ч | 6ч | 4.5ч | Зоркий Линтер (Check-Dev) | Vitest, 90% покрытие логики |
+| Integration testing (Firebase Emulator) | 4ч | 8ч | 6ч | Быстрый Рендер (Board-Dev) + Тихий Сокет (Firebase-Dev) | Emulator + real flow |
+| **Итого** | **54ч** | **105ч** | **79.5ч** | | |
 
 > **Примечание:** `GameStateMachine` — самая сложная задача (12ч avg). Много edge cases: одновременные клики, отключение хоста во время хода, Check Phase посреди угадывания, таймаут Check-таймера при активном глобальном таймере. **Тихий Сокет (Firebase-Dev)** должен начинать эту задачу с первых дней недели 2. DevTools Panel и юнит-тесты окупаются уже на первой неделе активной разработки движка — не откладывайте их.
 
@@ -2197,22 +2037,22 @@ flowchart TD
 ```typescript
 // ПЛОХО: хост записывает секретные цвета в публичное состояние
 await set(ref(db, `rooms/${code}/game/board-public/card-0`), {
-  word: "closure",
-  status: "hidden",
-  color: "red", // Цвет доступен ВСЕМ через onValue!
+  word: 'closure',
+  status: 'hidden',
+  color: 'red',       // Цвет доступен ВСЕМ через onValue!
 });
 
 // ХОРОШО: секретные цвета — только в board-secret (защищено Security Rules)
 // Публичное поле: color = null для скрытых карточек
 await set(ref(db, `rooms/${code}/game/board-public/card-0`), {
-  word: "closure",
-  status: "hidden",
-  color: null, // Цвет скрыт! Только хост знает реальный цвет
+  word: 'closure',
+  status: 'hidden',
+  color: null,         // Цвет скрыт! Только хост знает реальный цвет
 });
 
 // Секретные цвета — отдельный узел, защищённый Security Rules
 await set(ref(db, `rooms/${code}/board-secret/card-0`), {
-  color: "red", // Только хост может прочитать
+  color: 'red',        // Только хост может прочитать
 });
 ```
 
@@ -2224,7 +2064,7 @@ onChildAdded(actionsRef(code), (snapshot) => {
   const action = snapshot.val();
   // Что если action.type = 'guess', но сейчас фаза 'clue'?
   // Что если action.playerId подделан?
-  game.applyAction(action); // Нет валидации!
+  game.applyAction(action);  // Нет валидации!
 });
 
 // ХОРОШО: хост валидирует каждое действие
@@ -2233,8 +2073,8 @@ onChildAdded(actionsRef(code), (snapshot) => {
 
   // Проверяем: это действительно ход текущей команды?
   if (!isValidAction(game, action)) {
-    console.warn("Отклонено невалидное действие:", action);
-    return; // Игнорируем — не обновляем состояние
+    console.warn('Отклонено невалидное действие:', action);
+    return;  // Игнорируем — не обновляем состояние
   }
 
   game.applyAction(action);
@@ -2243,18 +2083,16 @@ onChildAdded(actionsRef(code), (snapshot) => {
 
 function isValidAction(game: Game, action: PlayerAction): boolean {
   // 1. Действие соответствует текущей фазе?
-  if (action.type === "guess" && game.currentPhase !== "guess") return false;
-  if (action.type === "give-clue" && game.currentPhase !== "clue") return false;
+  if (action.type === 'guess' && game.currentPhase !== 'guess') return false;
+  if (action.type === 'give-clue' && game.currentPhase !== 'clue') return false;
 
   // 2. Это ход правильной команды?
   const playerTeam = getPlayerTeam(action.playerId, game);
   if (playerTeam !== game.currentTurn) return false;
 
   // 3. У игрока правильная роль для этого действия?
-  if (action.type === "give-clue" && !isSpymaster(action.playerId, game))
-    return false;
-  if (action.type === "guess" && isSpymaster(action.playerId, game))
-    return false;
+  if (action.type === 'give-clue' && !isSpymaster(action.playerId, game)) return false;
+  if (action.type === 'guess' && isSpymaster(action.playerId, game)) return false;
 
   return true;
 }
@@ -2267,7 +2105,7 @@ function isValidAction(game: Game, action: PlayerAction): boolean {
 // приходят почти одновременно, и оба обрабатываются параллельно
 onChildAdded(actionsRef(code), async (snapshot) => {
   const action = snapshot.val();
-  await handleAction(action); // Два вызова параллельно — состояние ломается!
+  await handleAction(action);  // Два вызова параллельно — состояние ломается!
 });
 
 // ХОРОШО: очередь действий с последовательной обработкой
@@ -2286,7 +2124,7 @@ class ActionQueue {
 
     while (this.queue.length > 0) {
       const action = this.queue.shift()!;
-      await handleAction(action); // Строго последовательно!
+      await handleAction(action);      // Строго последовательно!
     }
 
     this.processing = false;
@@ -2297,7 +2135,7 @@ const actionQueue = new ActionQueue();
 
 onChildAdded(actionsRef(code), (snapshot) => {
   const action = snapshot.val() as PlayerAction;
-  actionQueue.enqueue(action); // Встаёт в очередь — обрабатывается по одному
+  actionQueue.enqueue(action);  // Встаёт в очередь — обрабатывается по одному
 });
 ```
 
@@ -2308,11 +2146,11 @@ onChildAdded(actionsRef(code), (snapshot) => {
 // Если хост вызывает update() на board-public,
 // а клиент читает между двумя update-вызовами — получит неконсистентные данные
 await update(ref(db, `rooms/${code}/game`), {
-  currentPhase: "guess",
+  currentPhase: 'guess',
 });
 await update(ref(db, `rooms/${code}/game/board-public/card-7`), {
-  status: "revealed",
-  color: "red",
+  status: 'revealed',
+  color: 'red',
 });
 // Между двумя update: фаза = guess, но карточка ещё не раскрыта!
 
@@ -2335,11 +2173,9 @@ clientEngine.subscribeToGame((state) => {
 // Игроки видят "замороженное" состояние и не понимают, что происходит
 
 // ХОРОШО: отслеживаем подключение хоста
-watchHostConnection(
-  roomCode,
-  hostId,
+watchHostConnection(roomCode, hostId,
   () => {
-    showWarningBanner("Хост отключился. Игра приостановлена.");
+    showWarningBanner('Хост отключился. Игра приостановлена.');
     disableGameInteractions();
   },
   () => {
@@ -2365,7 +2201,7 @@ const clientEngine = new ClientEngine(roomCode, db);
 clientEngine.subscribeToGame(updateUI);
 
 // При уходе со страницы:
-window.addEventListener("beforeunload", () => clientEngine.destroy());
+window.addEventListener('beforeunload', () => clientEngine.destroy());
 // Или в роутере:
 router.onNavigateAway(() => clientEngine.destroy());
 ```
@@ -2403,10 +2239,10 @@ onChildAdded(actionsRef(code), (snapshot) => {
 
 ## Связанные документы
 
-| Документ                                               | Что там                                                           | Когда читать               |
-| ------------------------------------------------------ | ----------------------------------------------------------------- | -------------------------- |
-| [data-contracts.md](./data-contracts.md)               | TypeScript типы, Firebase RTDB schema, AI интерфейсы              | Перед началом разработки   |
-| [check-phase.md](./check-phase.md)                     | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы | При разработке Check Phase |
-| [ai-spymaster.md](./ai-spymaster.md)                   | AI интерфейсы + Mock (вкл. hardcoded MVP), Solo Mode              | При разработке AI / Solo   |
-| [scoring-and-plan.md](./scoring-and-plan.md)           | Расчёт баллов, 6-недельный план, Cut Scope Strategy               | На этапе планирования      |
-| [risks-and-mitigations.md](./risks-and-mitigations.md) | Host Disconnect, Firebase Quotas, Cheating, Bus Factor            | На всех этапах проекта     |
+| Документ | Что там | Когда читать |
+|----------|---------|--------------|
+| [data-contracts.md](./data-contracts.md) | TypeScript типы, Firebase RTDB schema, AI интерфейсы | Перед началом разработки |
+| [check-phase.md](./check-phase.md) | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы | При разработке Check Phase |
+| [ai-spymaster.md](./ai-spymaster.md) | AI интерфейсы + Mock (вкл. hardcoded MVP), Solo Mode | При разработке AI / Solo |
+| [scoring-and-plan.md](./scoring-and-plan.md) | Расчёт баллов, 6-недельный план, Cut Scope Strategy | На этапе планирования |
+| [risks-and-mitigations.md](./risks-and-mitigations.md) | Host Disconnect, Firebase Quotas, Cheating, Bus Factor | На всех этапах проекта |
