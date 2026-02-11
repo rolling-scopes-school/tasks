@@ -5,6 +5,7 @@
 ## Концепция
 
 Widget Engine — это компонент, который:
+
 1. Получает JSON-схему виджета от API
 2. Определяет тип виджета по полю `type`
 3. Рендерит соответствующий UI
@@ -74,9 +75,9 @@ flowchart TB
 // Плохо: огромный switch, сложно поддерживать
 function renderWidget(widget: Widget) {
   switch (widget.type) {
-    case 'quiz':
+    case "quiz":
       return renderQuiz(widget);
-    case 'true-false':
+    case "true-false":
       return renderTrueFalse(widget);
     // ... 10+ типов виджетов
     default:
@@ -90,30 +91,30 @@ function renderWidget(widget: Widget) {
 ```typescript
 // Интерфейс для всех виджетов
 interface WidgetStrategy<T extends Widget, A> {
-  type: T['type'];
+  type: T["type"];
   render(widget: T, onAnswer: (answer: A) => void): HTMLElement;
   validate(answer: A): boolean; // Для Mock Mode
 }
 
 // Реализация для Quiz
 const quizStrategy: WidgetStrategy<QuizWidget, QuizAnswer> = {
-  type: 'quiz',
+  type: "quiz",
   render(widget, onAnswer) {
     // Создаем UI для quiz
-    const container = document.createElement('div');
+    const container = document.createElement("div");
     // ...
     return container;
   },
   validate(answer) {
     // Для Mock Mode
     return answer.selectedIndex === this.correctIndex;
-  }
+  },
 };
 
 // Регистрация стратегий
 const strategies = new Map<WidgetType, WidgetStrategy<any, any>>();
-strategies.set('quiz', quizStrategy);
-strategies.set('true-false', trueFalseStrategy);
+strategies.set("quiz", quizStrategy);
+strategies.set("true-false", trueFalseStrategy);
 // ...
 
 // Использование
@@ -149,21 +150,21 @@ interface BaseWidget {
 
 // Discriminated Union
 type Widget =
-  | (BaseWidget & { type: 'quiz'; payload: QuizPayload })
-  | (BaseWidget & { type: 'true-false'; payload: TrueFalsePayload })
-  | (BaseWidget & { type: 'code-completion'; payload: CodeCompletionPayload })
-  | (BaseWidget & { type: 'code-ordering'; payload: CodeOrderingPayload })
-  | (BaseWidget & { type: 'async-sorter'; payload: AsyncSorterPayload })
-  | (BaseWidget & { type: 'memory-game'; payload: MemoryGamePayload });
+  | (BaseWidget & { type: "quiz"; payload: QuizPayload })
+  | (BaseWidget & { type: "true-false"; payload: TrueFalsePayload })
+  | (BaseWidget & { type: "code-completion"; payload: CodeCompletionPayload })
+  | (BaseWidget & { type: "code-ordering"; payload: CodeOrderingPayload })
+  | (BaseWidget & { type: "async-sorter"; payload: AsyncSorterPayload })
+  | (BaseWidget & { type: "memory-game"; payload: MemoryGamePayload });
 
 // TypeScript сам сужает тип внутри switch
 function processWidget(widget: Widget) {
   switch (widget.type) {
-    case 'quiz':
+    case "quiz":
       // TypeScript знает, что widget.payload это QuizPayload
       console.log(widget.payload.options);
       break;
-    case 'async-sorter':
+    case "async-sorter":
       // TypeScript знает, что widget.payload это AsyncSorterPayload
       console.log(widget.payload.blocks);
       break;
@@ -184,10 +185,10 @@ function assertNever(x: never): never {
 
 function getWidgetTitle(widget: Widget): string {
   switch (widget.type) {
-    case 'quiz':
-      return 'Quiz';
-    case 'true-false':
-      return 'True/False';
+    case "quiz":
+      return "Quiz";
+    case "true-false":
+      return "True/False";
     // Если забыли case, TS покажет ошибку здесь:
     default:
       return assertNever(widget);
@@ -382,7 +383,7 @@ stateDiagram-v2
 
 ```typescript
 interface CodeCompletionAnswer {
-  values: string[];  // ["filter"]
+  values: string[]; // ["filter"]
 }
 ```
 
@@ -460,7 +461,7 @@ stateDiagram-v2
 
 ```typescript
 interface CodeOrderingAnswer {
-  order: number[];  // [1, 0, 2, 3, 4] — индексы в правильном порядке
+  order: number[]; // [1, 0, 2, 3, 4] — индексы в правильном порядке
 }
 ```
 
@@ -468,16 +469,16 @@ interface CodeOrderingAnswer {
 
 ## Эстимейт: Widget Engine
 
-| Задача | Min | Max | Avg |
-|--------|-----|-----|-----|
-| Архитектура (Strategy pattern, типы) | 3ч | 5ч | 4ч |
-| Widget Loader + Dispatcher | 2ч | 4ч | 3ч |
-| Quiz Widget | 2ч | 4ч | 3ч |
-| True/False Widget | 1ч | 2ч | 1.5ч |
-| Code Completion Widget | 2ч | 4ч | 3ч |
-| Code Ordering Widget (D&D) | 3ч | 6ч | 4.5ч |
-| Answer Collector + API интеграция | 2ч | 4ч | 3ч |
-| **Итого Widget Engine** | **15ч** | **29ч** | **22ч** |
+| Задача                               | Min     | Max     | Avg     |
+| ------------------------------------ | ------- | ------- | ------- |
+| Архитектура (Strategy pattern, типы) | 3ч      | 5ч      | 4ч      |
+| Widget Loader + Dispatcher           | 2ч      | 4ч      | 3ч      |
+| Quiz Widget                          | 2ч      | 4ч      | 3ч      |
+| True/False Widget                    | 1ч      | 2ч      | 1.5ч    |
+| Code Completion Widget               | 2ч      | 4ч      | 3ч      |
+| Code Ordering Widget (D&D)           | 3ч      | 6ч      | 4.5ч    |
+| Answer Collector + API интеграция    | 2ч      | 4ч      | 3ч      |
+| **Итого Widget Engine**              | **15ч** | **29ч** | **22ч** |
 
 > **Примечание:** Эстимейт включает время на борьбу с TypeScript generics и discriminated unions. Для студентов без опыта работы со сложной типизацией закладывайте ближе к Max.
 
@@ -502,7 +503,9 @@ function renderWidget<T extends Widget>(widget: T) { ... }
 widget.payload.options.sort();
 
 // Хорошо: создаем копию
-const shuffledOptions = [...widget.payload.options].sort(() => Math.random() - 0.5);
+const shuffledOptions = [...widget.payload.options].sort(
+  () => Math.random() - 0.5,
+);
 ```
 
 ### 3. Отсутствие exhaustive check
@@ -510,14 +513,17 @@ const shuffledOptions = [...widget.payload.options].sort(() => Math.random() - 0
 ```typescript
 // Плохо: новый тип виджета не обрабатывается
 switch (widget.type) {
-  case 'quiz': return renderQuiz(widget);
+  case "quiz":
+    return renderQuiz(widget);
   // Забыли добавить новый тип — нет ошибки компиляции
 }
 
 // Хорошо: TypeScript ругается, если не все типы обработаны
 switch (widget.type) {
-  case 'quiz': return renderQuiz(widget);
-  default: return assertNever(widget);
+  case "quiz":
+    return renderQuiz(widget);
+  default:
+    return assertNever(widget);
 }
 ```
 

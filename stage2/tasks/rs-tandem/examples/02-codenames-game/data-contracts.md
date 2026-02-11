@@ -12,31 +12,31 @@ interface User {
   displayName: string;
   email: string;
   avatarUrl?: string;
-  preferredLanguage: 'ru' | 'en';
-  theme: 'light' | 'dark';
-  createdAt: number;             // timestamp
+  preferredLanguage: "ru" | "en";
+  theme: "light" | "dark";
+  createdAt: number; // timestamp
 }
 
 interface PlayerStats {
   gamesPlayed: number;
   gamesWon: number;
-  totalPoints: number;           // Суммарные очки за Check Phase
-  checkCorrectRate: number;      // 0-1 (процент правильных ответов)
-  wordsGuessed: number;          // Общее кол-во угаданных слов
-  lastPlayedAt: number;          // timestamp
+  totalPoints: number; // Суммарные очки за Check Phase
+  checkCorrectRate: number; // 0-1 (процент правильных ответов)
+  wordsGuessed: number; // Общее кол-во угаданных слов
+  lastPlayedAt: number; // timestamp
 }
 ```
 
 ### Room (Комната)
 
 ```typescript
-type RoomStatus = 'waiting' | 'playing' | 'finished';
-type CheckMode = 'self-peer' | 'ai';
-type TeamColor = 'red' | 'blue';
+type RoomStatus = "waiting" | "playing" | "finished";
+type CheckMode = "self-peer" | "ai";
+type TeamColor = "red" | "blue";
 
 interface Room {
-  code: string;                  // "js-masters-42"
-  hostId: string;                // ID создателя комнаты
+  code: string; // "js-masters-42"
+  hostId: string; // ID создателя комнаты
   status: RoomStatus;
   teams: {
     red: TeamState;
@@ -48,54 +48,54 @@ interface Room {
 }
 
 interface RoomSettings {
-  turnTimeSeconds: number;       // default 120
-  checkMode: CheckMode;          // 'self-peer' | 'ai'
-  isPublic: boolean;             // Показывать в списке комнат
-  maxPlayers: number;            // 4-10
+  turnTimeSeconds: number; // default 120
+  checkMode: CheckMode; // 'self-peer' | 'ai'
+  isPublic: boolean; // Показывать в списке комнат
+  maxPlayers: number; // 4-10
 }
 
 interface TeamState {
   spymasterId: string | null;
   operativeIds: string[];
-  score: number;                 // Очки (карточки + Check)
-  cardsLeft: number;             // Сколько карточек осталось найти
+  score: number; // Очки (карточки + Check)
+  cardsLeft: number; // Сколько карточек осталось найти
 }
 ```
 
 ### Game (Игра)
 
 ```typescript
-type CardColor = 'red' | 'blue' | 'neutral' | 'bomb';
-type CardStatus = 'hidden' | 'revealed';
-type GamePhase = 'clue' | 'guess' | 'check' | 'finished';
+type CardColor = "red" | "blue" | "neutral" | "bomb";
+type CardStatus = "hidden" | "revealed";
+type GamePhase = "clue" | "guess" | "check" | "finished";
 
 interface Game {
   id: string;
   roomCode: string;
-  board: Card[];                 // 25 карточек (5x5)
-  currentTurn: TeamColor;        // Чья очередь
-  currentPhase: GamePhase;       // Текущая фаза хода
-  clue: Clue | null;             // Текущая подсказка
-  guessesRemaining: number;      // Оставшиеся попытки угадать
-  moveHistory: Move[];           // История ходов
+  board: Card[]; // 25 карточек (5x5)
+  currentTurn: TeamColor; // Чья очередь
+  currentPhase: GamePhase; // Текущая фаза хода
+  clue: Clue | null; // Текущая подсказка
+  guessesRemaining: number; // Оставшиеся попытки угадать
+  moveHistory: Move[]; // История ходов
   winner: TeamColor | null;
   startedAt: number;
 }
 
 interface Card {
-  id: string;                    // "card-0" ... "card-24"
-  word: string;                  // "closure", "prototype", "async/await"
-  color: CardColor;              // Только для Spymaster и сервера!
-  status: CardStatus;            // 'hidden' | 'revealed'
-  position: number;              // 0-24 (позиция на поле)
-  checkResult?: CheckResult;     // Результат проверки знаний
+  id: string; // "card-0" ... "card-24"
+  word: string; // "closure", "prototype", "async/await"
+  color: CardColor; // Только для Spymaster и сервера!
+  status: CardStatus; // 'hidden' | 'revealed'
+  position: number; // 0-24 (позиция на поле)
+  checkResult?: CheckResult; // Результат проверки знаний
 }
 
 interface Clue {
-  word: string;                  // Слово-подсказка
-  count: number;                 // Количество связанных карточек
-  givenBy: string;               // ID капитана
-  team: TeamColor;               // Команда капитана
+  word: string; // Слово-подсказка
+  count: number; // Количество связанных карточек
+  givenBy: string; // ID капитана
+  team: TeamColor; // Команда капитана
   timestamp: number;
 }
 
@@ -115,29 +115,29 @@ interface Move {
 ## Check Phase (Проверка знаний)
 
 ```typescript
-type CheckStatus = 'pending' | 'answered' | 'evaluated';
+type CheckStatus = "pending" | "answered" | "evaluated";
 
 interface CheckQuestion {
   id: string;
-  word: string;                  // JS/TS концепт ("closure", "Promise")
-  question: string;              // "В чём отличие от sessionStorage?"
-  referenceAnswer: string;       // Правильный ответ (для "Показать ответ")
+  word: string; // JS/TS концепт ("closure", "Promise")
+  question: string; // "В чём отличие от sessionStorage?"
+  referenceAnswer: string; // Правильный ответ (для "Показать ответ")
   difficulty: 1 | 2 | 3;
-  tags: string[];                // ["core-js", "scope"]
+  tags: string[]; // ["core-js", "scope"]
 }
 
 interface CheckSession {
   questionId: string;
-  playerAnswer: string;          // Что написал игрок
-  mode: CheckMode;               // 'self-peer' | 'ai'
+  playerAnswer: string; // Что написал игрок
+  mode: CheckMode; // 'self-peer' | 'ai'
   result: CheckResult;
-  evaluatedBy: 'self' | 'peer' | 'ai';
+  evaluatedBy: "self" | "peer" | "ai";
   timestamp: number;
 }
 
 interface CheckResult {
-  pointGranted: boolean;         // Засчитано ли очко
-  feedback?: string;             // Обратная связь (опционально, AI-режим)
+  pointGranted: boolean; // Засчитано ли очко
+  feedback?: string; // Обратная связь (опционально, AI-режим)
 }
 ```
 
@@ -147,22 +147,22 @@ interface CheckResult {
 
 ```typescript
 interface WordEntry {
-  word: string;                  // "closure", "Promise", "prototype"
+  word: string; // "closure", "Promise", "prototype"
   category: WordCategory;
   difficulty: 1 | 2 | 3;
 }
 
 type WordCategory =
-  | 'core-js'       // closure, hoisting, scope, this, prototype
-  | 'async'         // Promise, async/await, event loop, callback
-  | 'typescript'    // generics, interface, enum, type, any
-  | 'browser-api'   // localStorage, fetch, DOM, WebSocket
-  | 'patterns'      // observer, strategy, singleton, factory
-  | 'data-structures' // Map, Set, WeakMap, Array, iterator
-  | 'es6-plus';     // spread, rest, destructuring, Symbol, Proxy
+  | "core-js" // closure, hoisting, scope, this, prototype
+  | "async" // Promise, async/await, event loop, callback
+  | "typescript" // generics, interface, enum, type, any
+  | "browser-api" // localStorage, fetch, DOM, WebSocket
+  | "patterns" // observer, strategy, singleton, factory
+  | "data-structures" // Map, Set, WeakMap, Array, iterator
+  | "es6-plus"; // spread, rest, destructuring, Symbol, Proxy
 
 interface QuestionBank {
-  [word: string]: CheckQuestion[];  // Несколько вопросов на каждое слово
+  [word: string]: CheckQuestion[]; // Несколько вопросов на каждое слово
 }
 ```
 
@@ -180,20 +180,20 @@ interface AISpymasterService {
 }
 
 interface SpymasterContext {
-  myWords: string[];             // Слова моей команды (неоткрытые)
-  opponentWords: string[];       // Слова соперника
-  neutralWords: string[];        // Нейтральные слова
-  bombWord: string;              // Слово-бомба
-  revealedWords: string[];       // Уже открытые слова
-  moveHistory: Move[];           // История ходов
-  difficulty: 'easy' | 'medium' | 'hard';
+  myWords: string[]; // Слова моей команды (неоткрытые)
+  opponentWords: string[]; // Слова соперника
+  neutralWords: string[]; // Нейтральные слова
+  bombWord: string; // Слово-бомба
+  revealedWords: string[]; // Уже открытые слова
+  moveHistory: Move[]; // История ходов
+  difficulty: "easy" | "medium" | "hard";
 }
 
 interface AIClue {
-  word: string;                  // Слово-подсказка
-  count: number;                 // Количество связанных слов
-  reasoning?: string;            // Объяснение логики (для debug/display)
-  confidence: number;            // 0-1
+  word: string; // Слово-подсказка
+  count: number; // Количество связанных слов
+  reasoning?: string; // Объяснение логики (для debug/display)
+  confidence: number; // 0-1
 }
 ```
 
@@ -205,16 +205,16 @@ interface AICheckEvaluatorService {
 }
 
 interface CheckEvaluationContext {
-  concept: string;               // "localStorage"
-  question: string;              // "В чём отличие от sessionStorage?"
-  playerAnswer: string;          // Ответ игрока
-  referenceAnswer: string;       // Эталонный ответ
+  concept: string; // "localStorage"
+  question: string; // "В чём отличие от sessionStorage?"
+  playerAnswer: string; // Ответ игрока
+  referenceAnswer: string; // Эталонный ответ
 }
 
 interface AICheckResult {
   pointGranted: boolean;
-  feedback: string;              // Обратная связь: "Ответ верный" / "Не хватает..."
-  confidence: number;            // 0-1
+  feedback: string; // Обратная связь: "Ответ верный" / "Не хватает..."
+  confidence: number; // 0-1
 }
 ```
 
@@ -230,42 +230,51 @@ interface AICheckResult {
 
 ```typescript
 type ClientEvent =
-  | { type: 'room:create'; payload: { settings: RoomSettings } }
-  | { type: 'room:join'; payload: { code: string } }
-  | { type: 'room:leave' }
-  | { type: 'room:set-role'; payload: { team: TeamColor; role: 'spymaster' | 'operative' } }
-  | { type: 'game:start' }
-  | { type: 'game:give-clue'; payload: { word: string; count: number } }
-  | { type: 'game:guess'; payload: { cardId: string } }
-  | { type: 'game:end-turn' }
-  | { type: 'check:submit-answer'; payload: { answer: string } }
-  | { type: 'check:evaluate'; payload: { result: 'know' | 'dont-know' } };
+  | { type: "room:create"; payload: { settings: RoomSettings } }
+  | { type: "room:join"; payload: { code: string } }
+  | { type: "room:leave" }
+  | {
+      type: "room:set-role";
+      payload: { team: TeamColor; role: "spymaster" | "operative" };
+    }
+  | { type: "game:start" }
+  | { type: "game:give-clue"; payload: { word: string; count: number } }
+  | { type: "game:guess"; payload: { cardId: string } }
+  | { type: "game:end-turn" }
+  | { type: "check:submit-answer"; payload: { answer: string } }
+  | { type: "check:evaluate"; payload: { result: "know" | "dont-know" } };
 ```
 
 ### Server → Client Events
 
 ```typescript
 type ServerEvent =
-  | { type: 'room:state'; payload: Room }
-  | { type: 'room:player-joined'; payload: { player: PlayerInfo } }
-  | { type: 'room:player-left'; payload: { playerId: string } }
-  | { type: 'game:state'; payload: GameStateForPlayer }
-  | { type: 'game:card-revealed'; payload: { cardId: string; color: CardColor } }
-  | { type: 'game:clue-given'; payload: Clue }
-  | { type: 'game:turn-changed'; payload: { team: TeamColor; phase: GamePhase } }
-  | { type: 'game:timer-sync'; payload: { remainingMs: number } }
-  | { type: 'check:question'; payload: CheckQuestion }
-  | { type: 'check:result'; payload: CheckResult }
-  | { type: 'game:finished'; payload: { winner: TeamColor; board: Card[] } }
-  | { type: 'error'; payload: { message: string; code: ErrorCode } };
+  | { type: "room:state"; payload: Room }
+  | { type: "room:player-joined"; payload: { player: PlayerInfo } }
+  | { type: "room:player-left"; payload: { playerId: string } }
+  | { type: "game:state"; payload: GameStateForPlayer }
+  | {
+      type: "game:card-revealed";
+      payload: { cardId: string; color: CardColor };
+    }
+  | { type: "game:clue-given"; payload: Clue }
+  | {
+      type: "game:turn-changed";
+      payload: { team: TeamColor; phase: GamePhase };
+    }
+  | { type: "game:timer-sync"; payload: { remainingMs: number } }
+  | { type: "check:question"; payload: CheckQuestion }
+  | { type: "check:result"; payload: CheckResult }
+  | { type: "game:finished"; payload: { winner: TeamColor; board: Card[] } }
+  | { type: "error"; payload: { message: string; code: ErrorCode } };
 
 type ErrorCode =
-  | 'ROOM_NOT_FOUND'
-  | 'ROOM_FULL'
-  | 'NOT_YOUR_TURN'
-  | 'INVALID_ACTION'
-  | 'AUTH_REQUIRED'
-  | 'ACTION_IN_PROGRESS';
+  | "ROOM_NOT_FOUND"
+  | "ROOM_FULL"
+  | "NOT_YOUR_TURN"
+  | "INVALID_ACTION"
+  | "AUTH_REQUIRED"
+  | "ACTION_IN_PROGRESS";
 
 interface PlayerInfo {
   id: string;
@@ -280,7 +289,7 @@ interface PlayerInfo {
 
 ```typescript
 interface GameStateForPlayer {
-  board: PlayerVisibleCard[];    // Цвета скрыты для не-капитанов
+  board: PlayerVisibleCard[]; // Цвета скрыты для не-капитанов
   currentTurn: TeamColor;
   currentPhase: GamePhase;
   clue: Clue | null;
@@ -289,15 +298,15 @@ interface GameStateForPlayer {
     red: TeamState;
     blue: TeamState;
   };
-  isSpymaster: boolean;          // Является ли ЭТОТ игрок капитаном
-  turnEndTime: number;           // timestamp, когда истечет таймер
+  isSpymaster: boolean; // Является ли ЭТОТ игрок капитаном
+  turnEndTime: number; // timestamp, когда истечет таймер
 }
 
 interface PlayerVisibleCard {
   id: string;
   word: string;
   status: CardStatus;
-  color: CardColor | null;       // null, если hidden И игрок НЕ капитан
+  color: CardColor | null; // null, если hidden И игрок НЕ капитан
   position: number;
 }
 ```
@@ -305,12 +314,15 @@ interface PlayerVisibleCard {
 **Логика фильтрации:**
 
 ```typescript
-function toPlayerVisibleCard(card: Card, isSpymaster: boolean): PlayerVisibleCard {
+function toPlayerVisibleCard(
+  card: Card,
+  isSpymaster: boolean,
+): PlayerVisibleCard {
   return {
     id: card.id,
     word: card.word,
     status: card.status,
-    color: (card.status === 'revealed' || isSpymaster) ? card.color : null,
+    color: card.status === "revealed" || isSpymaster ? card.color : null,
     position: card.position,
   };
 }
@@ -353,7 +365,7 @@ interface GameSummary {
   roomCode: string;
   winner: TeamColor;
   myTeam: TeamColor;
-  myRole: 'spymaster' | 'operative';
+  myRole: "spymaster" | "operative";
   checkCorrect: number;
   checkTotal: number;
   playedAt: number;
@@ -361,14 +373,17 @@ interface GameSummary {
 
 interface GameResult {
   gameId: string;
-  board: Card[];                 // Полное поле со всеми цветами
+  board: Card[]; // Полное поле со всеми цветами
   moveHistory: Move[];
-  teams: Record<TeamColor, {
-    players: PlayerInfo[];
-    score: number;
-  }>;
+  teams: Record<
+    TeamColor,
+    {
+      players: PlayerInfo[];
+      score: number;
+    }
+  >;
   winner: TeamColor;
-  duration: number;              // секунды
+  duration: number; // секунды
 }
 
 interface RoomPreview {
@@ -416,34 +431,32 @@ interface RoomPreview {
 
 ```typescript
 // .env
-VITE_USE_MOCK=true      // REST API: mock или real
-VITE_USE_MOCK_AI=true   // AI сервисы: mock или real (отдельный переключатель)
+VITE_USE_MOCK = true; // REST API: mock или real
+VITE_USE_MOCK_AI = true; // AI сервисы: mock или real (отдельный переключатель)
 
 // api/index.ts
-import { mockRestAdapter } from './mock-rest-adapter';
-import { realRestAdapter } from './real-rest-adapter';
+import { mockRestAdapter } from "./mock-rest-adapter";
+import { realRestAdapter } from "./real-rest-adapter";
 
-const USE_MOCK = import.meta.env.VITE_USE_MOCK === 'true';
+const USE_MOCK = import.meta.env.VITE_USE_MOCK === "true";
 
-export const api: CodenamesAPI = USE_MOCK
-  ? mockRestAdapter
-  : realRestAdapter;
+export const api: CodenamesAPI = USE_MOCK ? mockRestAdapter : realRestAdapter;
 
 // ws/index.ts
-import { createMockWSClient } from './mock-ws-client';
-import { createRealWSClient } from './real-ws-client';
+import { createMockWSClient } from "./mock-ws-client";
+import { createRealWSClient } from "./real-ws-client";
 
 export const createWSClient = USE_MOCK
   ? createMockWSClient
   : createRealWSClient;
 
 // ai/index.ts
-import { MockSpymasterService } from './mock-spymaster';
-import { RealSpymasterService } from './real-spymaster';
-import { MockCheckEvaluatorService } from './mock-check-evaluator';
-import { RealCheckEvaluatorService } from './real-check-evaluator';
+import { MockSpymasterService } from "./mock-spymaster";
+import { RealSpymasterService } from "./real-spymaster";
+import { MockCheckEvaluatorService } from "./mock-check-evaluator";
+import { RealCheckEvaluatorService } from "./real-check-evaluator";
 
-const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== 'false';
+const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== "false";
 
 export const aiSpymaster: AISpymasterService = USE_MOCK_AI
   ? new MockSpymasterService()
@@ -459,9 +472,9 @@ export const aiCheckEvaluator: AICheckEvaluatorService = USE_MOCK_AI
 ```typescript
 interface WSClient {
   send(event: ClientEvent): void;
-  on<T extends ServerEvent['type']>(
+  on<T extends ServerEvent["type"]>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
+    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
   ): void;
   off(type: string, handler: Function): void;
   disconnect(): void;
@@ -479,17 +492,17 @@ class MockWSClient implements WSClient {
       const responses = this.processEvent(event);
       for (const response of responses) {
         this.emitter.dispatchEvent(
-          new CustomEvent('ws-event', { detail: response })
+          new CustomEvent("ws-event", { detail: response }),
         );
       }
     }, delay);
   }
 
-  on<T extends ServerEvent['type']>(
+  on<T extends ServerEvent["type"]>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
+    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
   ): void {
-    this.emitter.addEventListener('ws-event', ((e: CustomEvent) => {
+    this.emitter.addEventListener("ws-event", ((e: CustomEvent) => {
       const event = e.detail as ServerEvent;
       if (event.type === type) {
         handler(event.payload as any);
@@ -503,16 +516,16 @@ class MockWSClient implements WSClient {
 
 ### Важные различия Mock/Real
 
-| Аспект | Mock Mode | Real Mode |
-|--------|-----------|-----------|
-| Цвета карточек | Все данные на клиенте | Фильтруются сервером |
-| Подсказки AI | Алгоритм подбора категорий | LLM API (Groq/OpenAI) |
-| Проверка знаний AI | Keyword matching | LLM оценка |
-| WebSocket | EventTarget + setTimeout | Socket.IO |
-| Auth | Локальный мок | Firebase Auth |
-| Данные | В памяти (сбрасываются) | Firestore / PostgreSQL |
-| Multiplayer | Один "клиент" имитирует всех | Реальные подключения |
-| Задержка | 100-300ms (симулированная) | Реальная сетевая |
+| Аспект             | Mock Mode                    | Real Mode              |
+| ------------------ | ---------------------------- | ---------------------- |
+| Цвета карточек     | Все данные на клиенте        | Фильтруются сервером   |
+| Подсказки AI       | Алгоритм подбора категорий   | LLM API (Groq/OpenAI)  |
+| Проверка знаний AI | Keyword matching             | LLM оценка             |
+| WebSocket          | EventTarget + setTimeout     | Socket.IO              |
+| Auth               | Локальный мок                | Firebase Auth          |
+| Данные             | В памяти (сбрасываются)      | Firestore / PostgreSQL |
+| Multiplayer        | Один "клиент" имитирует всех | Реальные подключения   |
+| Задержка           | 100-300ms (симулированная)   | Реальная сетевая       |
 
 ### Пример Mock-данных
 
@@ -617,23 +630,23 @@ server/
 
 ```typescript
 // server/src/ws/auth-middleware.ts
-import { Server, Socket } from 'socket.io';
-import admin from 'firebase-admin';
+import { Server, Socket } from "socket.io";
+import admin from "firebase-admin";
 
 export function setupAuthMiddleware(io: Server) {
   io.use(async (socket: Socket, next) => {
     const token = socket.handshake.auth.token;
     if (!token) {
-      return next(new Error('AUTH_REQUIRED'));
+      return next(new Error("AUTH_REQUIRED"));
     }
 
     try {
       const decoded = await admin.auth().verifyIdToken(token);
       socket.data.userId = decoded.uid;
-      socket.data.displayName = decoded.name || 'Anonymous';
+      socket.data.displayName = decoded.name || "Anonymous";
       next();
     } catch (err) {
-      next(new Error('INVALID_TOKEN'));
+      next(new Error("INVALID_TOKEN"));
     }
   });
 }

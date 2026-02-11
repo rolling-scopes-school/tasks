@@ -4,14 +4,14 @@
 
 ## Навигация по документам
 
-| Документ | Описание | Когда читать |
-|----------|----------|--------------|
-| [scoring-and-plan.md](./scoring-and-plan.md) | Расчет баллов, 6-недельный план работ, Cut Scope Strategy | На этапе планирования |
-| [data-contracts.md](./data-contracts.md) | TypeScript типы, API методы, Mock vs Real Mode | Перед началом разработки |
-| [widget-engine.md](./widget-engine.md) | Архитектура движка виджетов, простые виджеты (Quiz, T/F) | При разработке Widget Engine |
-| [async-sorter.md](./async-sorter.md) | Детали Event Loop виджета, Touch API, A11y | При разработке Async Sorter |
-| [memory-game.md](./memory-game.md) | Детали GC виджета, граф объектов, rootIds | При разработке Memory Game |
-| [risks-and-mitigations.md](./risks-and-mitigations.md) | Типичные ошибки, Bus Factor, Security Rules | На всех этапах проекта |
+| Документ                                               | Описание                                                  | Когда читать                 |
+| ------------------------------------------------------ | --------------------------------------------------------- | ---------------------------- |
+| [scoring-and-plan.md](./scoring-and-plan.md)           | Расчет баллов, 6-недельный план работ, Cut Scope Strategy | На этапе планирования        |
+| [data-contracts.md](./data-contracts.md)               | TypeScript типы, API методы, Mock vs Real Mode            | Перед началом разработки     |
+| [widget-engine.md](./widget-engine.md)                 | Архитектура движка виджетов, простые виджеты (Quiz, T/F)  | При разработке Widget Engine |
+| [async-sorter.md](./async-sorter.md)                   | Детали Event Loop виджета, Touch API, A11y                | При разработке Async Sorter  |
+| [memory-game.md](./memory-game.md)                     | Детали GC виджета, граф объектов, rootIds                 | При разработке Memory Game   |
+| [risks-and-mitigations.md](./risks-and-mitigations.md) | Типичные ошибки, Bus Factor, Security Rules               | На всех этапах проекта       |
 
 ## Структура проекта
 

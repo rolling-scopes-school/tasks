@@ -21,20 +21,20 @@
 
 ### Сценарии
 
-| Кто выбыл | Неделя | Что делать |
-|-----------|--------|------------|
-| Великий Мёрдж (Lead) | 1-2 | Тихий Сокет берёт CI/CD, Ловкий Роутер берёт Auth |
-| Великий Мёрдж (Lead) | 3-5 | Убрать Theme Switcher, упростить auth |
-| Тихий Сокет (Firebase-Dev) | 1-2 | Менее критично, чем Вариант A! Firebase проще WS-сервера. Великий Мёрдж подхватывает Firebase |
-| Тихий Сокет (Firebase-Dev) | 3-5 | Упростить Security Rules, убрать Host-специфичные оптимизации |
-| Быстрый Рендер (Board-Dev) | 1-2 | Мудрый Мок берёт Board (упрощённый) |
-| Быстрый Рендер (Board-Dev) | 3-5 | Без анимаций, базовая сетка |
-| Зоркий Линтер (Check-Dev) | 1-2 | Мудрый Мок берёт Check Phase (Self/Peer only) |
-| Зоркий Линтер (Check-Dev) | 3-5 | Self/Peer only, 20 вопросов |
-| Мудрый Мок (AI-Dev) | 1-2 | Зоркий Линтер берёт Solo Mode, подсказки hardcoded |
-| Мудрый Мок (AI-Dev) | 3-5 | Solo с рандомными подсказками |
-| Ловкий Роутер (Lobby-Dev) | 1-2 | Великий Мёрдж берёт Lobby (минимальный) |
-| Ловкий Роутер (Lobby-Dev) | 3-5 | Минимальный Lobby, без Results/Profile |
+| Кто выбыл                  | Неделя | Что делать                                                                                    |
+| -------------------------- | ------ | --------------------------------------------------------------------------------------------- |
+| Великий Мёрдж (Lead)       | 1-2    | Тихий Сокет берёт CI/CD, Ловкий Роутер берёт Auth                                             |
+| Великий Мёрдж (Lead)       | 3-5    | Убрать Theme Switcher, упростить auth                                                         |
+| Тихий Сокет (Firebase-Dev) | 1-2    | Менее критично, чем Вариант A! Firebase проще WS-сервера. Великий Мёрдж подхватывает Firebase |
+| Тихий Сокет (Firebase-Dev) | 3-5    | Упростить Security Rules, убрать Host-специфичные оптимизации                                 |
+| Быстрый Рендер (Board-Dev) | 1-2    | Мудрый Мок берёт Board (упрощённый)                                                           |
+| Быстрый Рендер (Board-Dev) | 3-5    | Без анимаций, базовая сетка                                                                   |
+| Зоркий Линтер (Check-Dev)  | 1-2    | Мудрый Мок берёт Check Phase (Self/Peer only)                                                 |
+| Зоркий Линтер (Check-Dev)  | 3-5    | Self/Peer only, 20 вопросов                                                                   |
+| Мудрый Мок (AI-Dev)        | 1-2    | Зоркий Линтер берёт Solo Mode, подсказки hardcoded                                            |
+| Мудрый Мок (AI-Dev)        | 3-5    | Solo с рандомными подсказками                                                                 |
+| Ловкий Роутер (Lobby-Dev)  | 1-2    | Великий Мёрдж берёт Lobby (минимальный)                                                       |
+| Ловкий Роутер (Lobby-Dev)  | 3-5    | Минимальный Lobby, без Results/Profile                                                        |
 
 > **Самый критичный:** Тихий Сокет (Firebase-Dev). Но в Варианте B SPOF менее острый: Firebase SDK знакомее фронтендерам, чем Socket.IO на бэкенде. Lead может подхватить Firebase за 1-2 дня.
 
@@ -74,25 +74,25 @@ graph TB
 
 ### Почему Firebase-Dev SPOF мягче, чем WS-Dev SPOF
 
-| Фактор | Вариант A (WS-Dev) | Вариант B (Firebase-Dev) |
-|--------|---------------------|--------------------------|
-| Технология | Socket.IO + Node.js (серверный код) | Firebase SDK (клиентский код) |
-| Знакомство команде | Только 1-2 человека знают бэкенд | Все фронтендеры могут работать с Firebase |
-| Сервер | Custom сервер, нужно деплоить и поддерживать | Нет своего сервера, Firebase = облачный сервис |
-| Security Rules | Нет аналога — логика в коде сервера | JSON-конфигурация, читаемая всей командой |
-| Документация | Socket.IO docs + собственная архитектура | Firebase docs — отличная, с примерами |
-| Время на замену | 3-5 дней (если есть опыт бэкенда) | 1-2 дня (Lead уже знает Firebase после pair-сессий) |
+| Фактор             | Вариант A (WS-Dev)                           | Вариант B (Firebase-Dev)                            |
+| ------------------ | -------------------------------------------- | --------------------------------------------------- |
+| Технология         | Socket.IO + Node.js (серверный код)          | Firebase SDK (клиентский код)                       |
+| Знакомство команде | Только 1-2 человека знают бэкенд             | Все фронтендеры могут работать с Firebase           |
+| Сервер             | Custom сервер, нужно деплоить и поддерживать | Нет своего сервера, Firebase = облачный сервис      |
+| Security Rules     | Нет аналога — логика в коде сервера          | JSON-конфигурация, читаемая всей командой           |
+| Документация       | Socket.IO docs + собственная архитектура     | Firebase docs — отличная, с примерами               |
+| Время на замену    | 3-5 дней (если есть опыт бэкенда)            | 1-2 дня (Lead уже знает Firebase после pair-сессий) |
 
 ### Что именно делает Тихий Сокет (Firebase-Dev)
 
-| Компонент | Сложность | Может ли Lead подхватить? |
-|-----------|-----------|---------------------------|
-| Firebase Setup (config, Auth) | Низкая | Да, если была pair-сессия |
-| Realtime DB Schema (paths, refs) | Средняя | Да, схема задокументирована в data-contracts.md |
-| Security Rules | Средняя | Да, это JSON с простой логикой |
-| Host State Machine | Высокая | Частично — Lead должен знать основы после парного программирования |
-| Action Listener (onChildAdded) | Средняя | Да, стандартный паттерн Firebase |
-| Presence / onDisconnect | Средняя | Да, хорошо документировано в Firebase docs |
+| Компонент                        | Сложность | Может ли Lead подхватить?                                          |
+| -------------------------------- | --------- | ------------------------------------------------------------------ |
+| Firebase Setup (config, Auth)    | Низкая    | Да, если была pair-сессия                                          |
+| Realtime DB Schema (paths, refs) | Средняя   | Да, схема задокументирована в data-contracts.md                    |
+| Security Rules                   | Средняя   | Да, это JSON с простой логикой                                     |
+| Host State Machine               | Высокая   | Частично — Lead должен знать основы после парного программирования |
+| Action Listener (onChildAdded)   | Средняя   | Да, стандартный паттерн Firebase                                   |
+| Presence / onDisconnect          | Средняя   | Да, хорошо документировано в Firebase docs                         |
 
 ### Обязательная митигация
 
@@ -163,8 +163,8 @@ sequenceDiagram
 
 ```typescript
 // src/firebase/host-presence.ts
-import { ref, set, onDisconnect, onValue } from 'firebase/database';
-import { db, auth } from './config';
+import { ref, set, onDisconnect, onValue } from "firebase/database";
+import { db, auth } from "./config";
 
 /** Хост настраивает onDisconnect при входе в комнату */
 export function setupHostPresence(roomCode: string): void {
@@ -184,7 +184,7 @@ export function setupHostPresence(roomCode: string): void {
 export function watchHostPresence(
   roomCode: string,
   onHostDisconnected: () => void,
-  onHostReconnected: () => void
+  onHostReconnected: () => void,
 ): () => void {
   const hostOnlineRef = ref(db, `rooms/${roomCode}/meta/hostOnline`);
 
@@ -208,8 +208,8 @@ export function watchHostPresence(
 // src/components/host-disconnected-overlay.ts
 
 function showHostDisconnectedUI(): void {
-  const overlay = document.createElement('div');
-  overlay.className = 'host-disconnected-overlay';
+  const overlay = document.createElement("div");
+  overlay.className = "host-disconnected-overlay";
   overlay.innerHTML = `
     <div class="host-disconnected-modal">
       <h2>Хост отключился</h2>
@@ -230,14 +230,14 @@ function showHostDisconnectedUI(): void {
 
 ```typescript
 // src/host/state-checkpoint.ts
-import { ref, set } from 'firebase/database';
-import { db } from '../firebase/config';
+import { ref, set } from "firebase/database";
+import { db } from "../firebase/config";
 
 const CHECKPOINT_INTERVAL = 10_000; // 10 секунд
 
 export function startCheckpointing(
   roomCode: string,
-  getState: () => GameInternalState
+  getState: () => GameInternalState,
 ): () => void {
   const intervalId = setInterval(() => {
     const state = getState();
@@ -317,17 +317,18 @@ sequenceDiagram
 
 ### Лимиты бесплатного плана
 
-| Ресурс | Лимит | Комментарий |
-|--------|-------|-------------|
-| Одновременные подключения | 100 | Каждый `onValue`/`onChildAdded` = подключение |
-| Передача данных | 10 ГБ/месяц | Каждое обновление `game/` рассылается всем подписчикам |
-| Хранилище | 1 ГБ | Комнаты, история, вопросы |
-| Записей в секунду | 10,000 | Не проблема для учебного проекта |
-| Чтений в секунду | 100,000 | Не проблема |
+| Ресурс                    | Лимит       | Комментарий                                            |
+| ------------------------- | ----------- | ------------------------------------------------------ |
+| Одновременные подключения | 100         | Каждый `onValue`/`onChildAdded` = подключение          |
+| Передача данных           | 10 ГБ/месяц | Каждое обновление `game/` рассылается всем подписчикам |
+| Хранилище                 | 1 ГБ        | Комнаты, история, вопросы                              |
+| Записей в секунду         | 10,000      | Не проблема для учебного проекта                       |
+| Чтений в секунду          | 100,000     | Не проблема                                            |
 
 ### Риск
 
 Одна игровая комната с 6 игроками генерирует:
+
 - 6 подписок на `game/` (onValue)
 - 1 подписка хоста на `actions/` (onChildAdded)
 - 6 подписок на `meta/hostOnline` (presence)
@@ -349,17 +350,17 @@ sequenceDiagram
 
 ```typescript
 // Плохо: 5 отдельных записей
-set(ref(db, `rooms/${code}/game/currentTurn`), 'blue');
-set(ref(db, `rooms/${code}/game/currentPhase`), 'clue');
+set(ref(db, `rooms/${code}/game/currentTurn`), "blue");
+set(ref(db, `rooms/${code}/game/currentPhase`), "clue");
 set(ref(db, `rooms/${code}/game/guessesRemaining`), 0);
 set(ref(db, `rooms/${code}/game/clue`), null);
 set(ref(db, `rooms/${code}/game/turnEndTime`), Date.now() + 120000);
 
 // Хорошо: 1 запись через update
-import { update } from 'firebase/database';
+import { update } from "firebase/database";
 update(ref(db, `rooms/${code}/game`), {
-  currentTurn: 'blue',
-  currentPhase: 'clue',
+  currentTurn: "blue",
+  currentPhase: "clue",
   guessesRemaining: 0,
   clue: null,
   turnEndTime: Date.now() + 120000,
@@ -412,11 +413,11 @@ const ROOM_TTL_MS = 24 * 60 * 60 * 1000; // 24 часа
 
 /** Удалить комнаты старше 24 часов */
 export async function cleanupStaleRooms(): Promise<void> {
-  const roomsSnapshot = await get(ref(db, 'rooms'));
+  const roomsSnapshot = await get(ref(db, "rooms"));
   const now = Date.now();
 
   roomsSnapshot.forEach((roomSnap) => {
-    const meta = roomSnap.child('meta').val();
+    const meta = roomSnap.child("meta").val();
     if (meta && now - meta.createdAt > ROOM_TTL_MS) {
       remove(ref(db, `rooms/${roomSnap.key}`));
     }
@@ -511,11 +512,11 @@ graph LR
 
 **Разбор правил:**
 
-| Узел | Кто читает | Кто пишет | Защита от |
-|------|-----------|-----------|-----------|
-| `board-secret/` | Только хост | Только хост | Подсматривание цветов |
-| `game/` | Все | Только хост | Подмена состояния игры |
-| `actions/` | Только хост | Любой авторизованный | Чтение чужих действий |
+| Узел            | Кто читает  | Кто пишет            | Защита от              |
+| --------------- | ----------- | -------------------- | ---------------------- |
+| `board-secret/` | Только хост | Только хост          | Подсматривание цветов  |
+| `game/`         | Все         | Только хост          | Подмена состояния игры |
+| `actions/`      | Только хост | Любой авторизованный | Чтение чужих действий  |
 
 #### 2. Host валидирует все действия
 
@@ -524,23 +525,23 @@ graph LR
 
 function validateAction(action: PlayerAction, gameState: Game): boolean {
   switch (action.type) {
-    case 'give-clue':
+    case "give-clue":
       // Только Spymaster текущей команды может давать подсказку
-      if (gameState.currentPhase !== 'clue') return false;
+      if (gameState.currentPhase !== "clue") return false;
       if (!isCurrentTeamSpymaster(action.playerId, gameState)) return false;
       if (!action.payload.word || !action.payload.count) return false;
       return true;
 
-    case 'guess':
+    case "guess":
       // Только Operative текущей команды может угадывать
-      if (gameState.currentPhase !== 'guess') return false;
+      if (gameState.currentPhase !== "guess") return false;
       if (!isCurrentTeamOperative(action.playerId, gameState)) return false;
       if (isCardRevealed(action.payload.cardId, gameState)) return false;
       return true;
 
-    case 'end-turn':
+    case "end-turn":
       // Только Operative текущей команды
-      if (gameState.currentPhase !== 'guess') return false;
+      if (gameState.currentPhase !== "guess") return false;
       if (!isCurrentTeamOperative(action.playerId, gameState)) return false;
       return true;
 
@@ -564,12 +565,12 @@ function validateAction(action: PlayerAction, gameState: Game): boolean {
 
 Firebase SDK имеет встроенную поддержку offline-режима. Это звучит хорошо, но создаёт неожиданные проблемы:
 
-| Проблема | Описание |
-|----------|----------|
-| Stale state | Игрок видит устаревшее состояние, принимает решения на основе старых данных |
-| Action burst | Действия копятся офлайн, отправляются разом при восстановлении связи |
-| Phantom actions | Игрок думает, что нажатие не сработало, нажимает повторно |
-| Desync | Один игрок офлайн, остальные продолжают — при возврате он видит совершенно другое поле |
+| Проблема        | Описание                                                                               |
+| --------------- | -------------------------------------------------------------------------------------- |
+| Stale state     | Игрок видит устаревшее состояние, принимает решения на основе старых данных            |
+| Action burst    | Действия копятся офлайн, отправляются разом при восстановлении связи                   |
+| Phantom actions | Игрок думает, что нажатие не сработало, нажимает повторно                              |
+| Desync          | Один игрок офлайн, остальные продолжают — при возврате он видит совершенно другое поле |
 
 ### Сценарий провала
 
@@ -586,14 +587,14 @@ Firebase SDK имеет встроенную поддержку offline-режи
 
 ```typescript
 // src/firebase/connection-status.ts
-import { ref, onValue } from 'firebase/database';
-import { db } from './config';
+import { ref, onValue } from "firebase/database";
+import { db } from "./config";
 
 export function watchConnectionStatus(
   onOnline: () => void,
-  onOffline: () => void
+  onOffline: () => void,
 ): () => void {
-  const connectedRef = ref(db, '.info/connected');
+  const connectedRef = ref(db, ".info/connected");
 
   const unsubscribe = onValue(connectedRef, (snap) => {
     if (snap.val() === true) {
@@ -613,17 +614,17 @@ export function watchConnectionStatus(
 // src/components/connection-banner.ts
 
 function showOfflineBanner(): void {
-  const banner = document.getElementById('offline-banner');
+  const banner = document.getElementById("offline-banner");
   if (banner) {
-    banner.style.display = 'flex';
-    banner.textContent = 'Нет подключения к серверу. Ожидаем восстановления...';
+    banner.style.display = "flex";
+    banner.textContent = "Нет подключения к серверу. Ожидаем восстановления...";
   }
 }
 
 function hideOfflineBanner(): void {
-  const banner = document.getElementById('offline-banner');
+  const banner = document.getElementById("offline-banner");
   if (banner) {
-    banner.style.display = 'none';
+    banner.style.display = "none";
   }
 }
 ```
@@ -636,22 +637,26 @@ function hideOfflineBanner(): void {
 let isOnline = true;
 
 watchConnectionStatus(
-  () => { isOnline = true; },
-  () => { isOnline = false; }
+  () => {
+    isOnline = true;
+  },
+  () => {
+    isOnline = false;
+  },
 );
 
 export function sendAction(
   roomCode: string,
-  type: PlayerAction['type'],
-  payload: Record<string, unknown>
+  type: PlayerAction["type"],
+  payload: Record<string, unknown>,
 ): void {
   if (!isOnline) {
-    showToast('Нет подключения. Дождитесь восстановления связи.');
+    showToast("Нет подключения. Дождитесь восстановления связи.");
     return;
   }
 
   const user = auth.currentUser;
-  if (!user) throw new Error('AUTH_REQUIRED');
+  if (!user) throw new Error("AUTH_REQUIRED");
 
   push(actionsRef(roomCode), {
     type,
@@ -672,12 +677,12 @@ export function sendAction(
 
 ### Сценарии
 
-| Сценарий | Что происходит | Как ломается |
-|----------|----------------|--------------|
-| 2 клика одновременно | Хост обрабатывает первый push-ключ | Второй клик может быть невалидным (фаза сменилась) |
-| Клик во время Check | Игрок кликает карточку пока попап открыт | Фаза нарушена |
-| Disconnect хоста во время обработки | Хост отключился между чтением action и записью state | Состояние частично обновлено |
-| Timer race | Клиент думает, что время есть, хост уже закончил ход | Клик отклонён |
+| Сценарий                            | Что происходит                                       | Как ломается                                       |
+| ----------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| 2 клика одновременно                | Хост обрабатывает первый push-ключ                   | Второй клик может быть невалидным (фаза сменилась) |
+| Клик во время Check                 | Игрок кликает карточку пока попап открыт             | Фаза нарушена                                      |
+| Disconnect хоста во время обработки | Хост отключился между чтением action и записью state | Состояние частично обновлено                       |
+| Timer race                          | Клиент думает, что время есть, хост уже закончил ход | Клик отклонён                                      |
 
 ### Почему Firebase помогает
 
@@ -702,14 +707,14 @@ class GameStateMachine {
 
   async processAction(action: PlayerAction): Promise<void> {
     if (this.actionLock) {
-      console.warn('Action dropped: lock is active', action);
+      console.warn("Action dropped: lock is active", action);
       return;
     }
 
     this.actionLock = true;
     try {
       if (!validateAction(action, this.state)) {
-        console.warn('Invalid action:', action);
+        console.warn("Invalid action:", action);
         return;
       }
 
@@ -729,15 +734,15 @@ class GameStateMachine {
 
 function onCardClick(cardId: string): void {
   // Guard: проверяем фазу на клиенте
-  if (gameState.currentPhase !== 'guess') return;
+  if (gameState.currentPhase !== "guess") return;
   if (!isMyTurn(currentUserId, gameState)) return;
   if (isCardRevealed(cardId, gameState)) return;
 
   // Optimistic UI
-  highlightCard(cardId, 'selecting');
+  highlightCard(cardId, "selecting");
 
   // Отправляем в Firebase
-  sendAction(roomCode, 'guess', { cardId });
+  sendAction(roomCode, "guess", { cardId });
 }
 ```
 
@@ -749,7 +754,7 @@ function onCardClick(cardId: string): void {
 function processAndCleanup(
   roomCode: string,
   actionKey: string,
-  action: PlayerAction
+  action: PlayerAction,
 ): void {
   stateMachine.processAction(action);
 
@@ -770,13 +775,13 @@ function processAndCleanup(
 
 Глобальный таймер хода **никогда не ставится на паузу**. Check Phase имеет свой отдельный 30-секундный таймер:
 
-| Событие | Глобальный таймер хода | Check таймер (30 сек) |
-|---------|------------------------|-----------------------|
-| Ход начинается | Старт | -- |
-| Check начинается | Продолжает тикать | Старт |
-| Игрок отвечает на Check | Продолжает тикать | Стоп |
-| Check timeout (30 сек) | Продолжает тикать | Очко не засчитано |
-| Глобальный таймер истёк | Ход заканчивается | Стоп (если был активен) |
+| Событие                 | Глобальный таймер хода | Check таймер (30 сек)   |
+| ----------------------- | ---------------------- | ----------------------- |
+| Ход начинается          | Старт                  | --                      |
+| Check начинается        | Продолжает тикать      | Старт                   |
+| Игрок отвечает на Check | Продолжает тикать      | Стоп                    |
+| Check timeout (30 сек)  | Продолжает тикать      | Очко не засчитано       |
+| Глобальный таймер истёк | Ход заканчивается      | Стоп (если был активен) |
 
 ### Митигация
 
@@ -794,8 +799,8 @@ function startTimerDisplay(turnEndTime: number): void {
     const remaining = Math.max(0, turnEndTime - Date.now());
 
     if (remaining <= 0) {
-      timerElement.textContent = 'Ожидание...';
-      timerElement.classList.add('expired');
+      timerElement.textContent = "Ожидание...";
+      timerElement.classList.add("expired");
       return;
     }
 
@@ -803,7 +808,7 @@ function startTimerDisplay(turnEndTime: number): void {
     timerElement.textContent = formatTime(seconds);
 
     if (seconds <= 10) {
-      timerElement.classList.add('warning');
+      timerElement.classList.add("warning");
     }
 
     requestAnimationFrame(tick);
@@ -821,7 +826,7 @@ function startCheckTimer(durationSec: number = 30): void {
     const remaining = Math.max(0, checkEndTime - Date.now());
 
     if (remaining <= 0) {
-      checkTimerElement.textContent = 'Время вышло!';
+      checkTimerElement.textContent = "Время вышло!";
       return;
     }
 
@@ -829,7 +834,7 @@ function startCheckTimer(durationSec: number = 30): void {
     checkTimerElement.textContent = `${seconds} сек`;
 
     if (seconds <= 5) {
-      checkTimerElement.classList.add('urgent');
+      checkTimerElement.classList.add("urgent");
     }
 
     requestAnimationFrame(tickCheck);
@@ -846,6 +851,7 @@ function startCheckTimer(durationSec: number = 30): void {
 ### Риск
 
 Плохие вопросы убивают игру:
+
 - Слишком простые вопросы — все получают очки без усилий
 - Слишком сложные — никто не получает очки, фрустрация
 - Неточные эталонные ответы — AI мок неправильно оценивает
@@ -895,13 +901,13 @@ function startCheckTimer(durationSec: number = 30): void {
 
 ### Проблемы
 
-| Проблема | При 3 людях | При 6 людях |
-|----------|-------------|-------------|
-| Merge конфликты | Редко | Часто (особенно в `types.ts`, `firebase-schema.ts`) |
-| Код-ревью | 1 ревьюер на PR | 2 ревьюера, дольше ждать |
-| Синки | 30 мин/неделю | 30-45 мин/неделю |
-| Принятие решений | Быстро | Долгие обсуждения |
-| Зависимости между задачами | Мало | Много (Тихий Сокет блокирует Быстрого Рендера и Ловкого Роутера) |
+| Проблема                   | При 3 людях     | При 6 людях                                                      |
+| -------------------------- | --------------- | ---------------------------------------------------------------- |
+| Merge конфликты            | Редко           | Часто (особенно в `types.ts`, `firebase-schema.ts`)              |
+| Код-ревью                  | 1 ревьюер на PR | 2 ревьюера, дольше ждать                                         |
+| Синки                      | 30 мин/неделю   | 30-45 мин/неделю                                                 |
+| Принятие решений           | Быстро          | Долгие обсуждения                                                |
+| Зависимости между задачами | Мало            | Много (Тихий Сокет блокирует Быстрого Рендера и Ловкого Роутера) |
 
 ### Митигация
 
@@ -947,21 +953,21 @@ src/
 
 Деплоймент в Варианте B проще, чем в Варианте A (нет отдельного backend на Render), но есть свои нюансы:
 
-| Компонент | Куда деплоится | Как |
-|-----------|---------------|-----|
-| Frontend | Vercel (или Firebase Hosting) | Auto-deploy при push в main |
-| Firebase Realtime Database | Firebase Cloud (уже в облаке) | Не нужен деплой |
-| Security Rules | Firebase Project | `firebase deploy --only database` |
-| Environment Variables | Vercel Dashboard | `VITE_FIREBASE_*` ключи |
+| Компонент                  | Куда деплоится                | Как                               |
+| -------------------------- | ----------------------------- | --------------------------------- |
+| Frontend                   | Vercel (или Firebase Hosting) | Auto-deploy при push в main       |
+| Firebase Realtime Database | Firebase Cloud (уже в облаке) | Не нужен деплой                   |
+| Security Rules             | Firebase Project              | `firebase deploy --only database` |
+| Environment Variables      | Vercel Dashboard              | `VITE_FIREBASE_*` ключи           |
 
 ### Проблемы
 
-| Проблема | Описание | Митигация |
-|----------|----------|-----------|
-| Security Rules не задеплоены | Правила по умолчанию = открыто для всех | `firebase deploy --only database` в CI/CD |
-| Environment variables утекли | Firebase API ключи в коде | `.env` + `.gitignore`, ключи в Vercel Dashboard |
-| CORS (Firebase Hosting) | Firebase Hosting не всегда нужен, но если используется — CORS настроить | `firebase.json` с rewrites |
-| Stale Rules | Обновили Rules локально, но не задеплоили | Добавить `firebase deploy --only database` в CI pipeline |
+| Проблема                     | Описание                                                                | Митигация                                                |
+| ---------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------- |
+| Security Rules не задеплоены | Правила по умолчанию = открыто для всех                                 | `firebase deploy --only database` в CI/CD                |
+| Environment variables утекли | Firebase API ключи в коде                                               | `.env` + `.gitignore`, ключи в Vercel Dashboard          |
+| CORS (Firebase Hosting)      | Firebase Hosting не всегда нужен, но если используется — CORS настроить | `firebase.json` с rewrites                               |
+| Stale Rules                  | Обновили Rules локально, но не задеплоили                               | Добавить `firebase deploy --only database` в CI pipeline |
 
 ### Чеклист CI/CD (неделя 1)
 
@@ -981,7 +987,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'database.rules.json'
+      - "database.rules.json"
 
 jobs:
   deploy:
@@ -990,8 +996,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           channelId: live
       - run: npx firebase-tools deploy --only database --token "${{ secrets.FIREBASE_TOKEN }}"
 ```
@@ -1149,20 +1155,20 @@ flowchart TD
 
 ## 14. Сравнение рисков: Вариант A vs Вариант B
 
-| Риск | Вариант A (WebSocket) | Вариант B (Firebase Host) |
-|------|----------------------|---------------------------|
-| **SPOF** | WS-Dev: критичный (custom server) | Firebase-Dev: менее критичный (SDK знакомее) |
-| **Cold Start** | Render засыпает через 15 мин | Нет проблемы (Firebase всегда online) |
-| **Host Disconnect** | Сервер стабилен | **ГЛАВНЫЙ РИСК:** вкладка хоста = Game Over |
-| **Debugging** | WS-отладка сложная | Firebase Console + обычный DevTools |
-| **socket.id** | Ловушка для новичков | Нет аналога (Firebase Auth = стабильный uid) |
-| **Cheating** | Сервер закрыт по умолчанию | Клиентский SDK = нужны Security Rules |
-| **Quotas** | Нет лимитов (свой сервер) | 100 подключений, 10 ГБ/мес |
-| **CORS** | Настройка между FE и BE | Нет проблемы (всё через Firebase SDK) |
-| **Offline** | WS disconnects + reconnect | Firebase offline cache = неожиданное поведение |
-| **Race Conditions** | Очередь на сервере | Push keys + onChildAdded = FIFO |
-| **Деплоймент** | 2 сервиса (Vercel + Render) | 1 сервис (Vercel) + Firebase Cloud |
-| **Timer desync** | WS-latency ~50-100ms | Firebase latency ~100-300ms |
+| Риск                | Вариант A (WebSocket)             | Вариант B (Firebase Host)                      |
+| ------------------- | --------------------------------- | ---------------------------------------------- |
+| **SPOF**            | WS-Dev: критичный (custom server) | Firebase-Dev: менее критичный (SDK знакомее)   |
+| **Cold Start**      | Render засыпает через 15 мин      | Нет проблемы (Firebase всегда online)          |
+| **Host Disconnect** | Сервер стабилен                   | **ГЛАВНЫЙ РИСК:** вкладка хоста = Game Over    |
+| **Debugging**       | WS-отладка сложная                | Firebase Console + обычный DevTools            |
+| **socket.id**       | Ловушка для новичков              | Нет аналога (Firebase Auth = стабильный uid)   |
+| **Cheating**        | Сервер закрыт по умолчанию        | Клиентский SDK = нужны Security Rules          |
+| **Quotas**          | Нет лимитов (свой сервер)         | 100 подключений, 10 ГБ/мес                     |
+| **CORS**            | Настройка между FE и BE           | Нет проблемы (всё через Firebase SDK)          |
+| **Offline**         | WS disconnects + reconnect        | Firebase offline cache = неожиданное поведение |
+| **Race Conditions** | Очередь на сервере                | Push keys + onChildAdded = FIFO                |
+| **Деплоймент**      | 2 сервиса (Vercel + Render)       | 1 сервис (Vercel) + Firebase Cloud             |
+| **Timer desync**    | WS-latency ~50-100ms              | Firebase latency ~100-300ms                    |
 
 ---
 

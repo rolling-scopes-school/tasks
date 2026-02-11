@@ -26,31 +26,31 @@ flowchart TD
 
 ## Сравнение вариантов
 
-| Аспект | Вариант A: Custom WS | Вариант B: Firebase Host-Based |
-|--------|----------------------|-------------------------------|
-| **Серверная часть** | Node.js + Express + Socket.IO | Нет сервера — браузер хоста = «сервер» |
-| **State Machine** | Работает на сервере | Работает в браузере создателя комнаты |
-| **Синхронизация** | WebSocket (Socket.IO) | Firebase Realtime Database (`onValue`) |
-| **Деплой** | Vercel (FE) + Render (BE) | Vercel (FE) + Firebase проект |
-| **Сложность** | Высокая (WS, State Machine на сервере, reconnect) | Средняя (Firebase SDK, Host Authority) |
-| **Bus Factor** | Высокий — WS-Dev = SPOF | Низкий — все фронтендеры могут работать с Firebase |
-| **Баллы: Custom Backend** | **+30** | — |
-| **Баллы: Real-time / WS** | **+20** | **+20** (Firebase subscriptions) |
-| **Баллы: BaaS CRUD** | +15 (Firestore) | **+15** (Firebase RTDB) |
-| **Макс. Personal Features (Backend-Dev)** | ~125 | ~95 |
-| **Холодный старт** | Да (Render free tier спит) | Нет |
-| **Хост закрыл вкладку** | Сервер продолжает | **Game Over** (допустимо для учебного проекта) |
+| Аспект                                    | Вариант A: Custom WS                              | Вариант B: Firebase Host-Based                     |
+| ----------------------------------------- | ------------------------------------------------- | -------------------------------------------------- |
+| **Серверная часть**                       | Node.js + Express + Socket.IO                     | Нет сервера — браузер хоста = «сервер»             |
+| **State Machine**                         | Работает на сервере                               | Работает в браузере создателя комнаты              |
+| **Синхронизация**                         | WebSocket (Socket.IO)                             | Firebase Realtime Database (`onValue`)             |
+| **Деплой**                                | Vercel (FE) + Render (BE)                         | Vercel (FE) + Firebase проект                      |
+| **Сложность**                             | Высокая (WS, State Machine на сервере, reconnect) | Средняя (Firebase SDK, Host Authority)             |
+| **Bus Factor**                            | Высокий — WS-Dev = SPOF                           | Низкий — все фронтендеры могут работать с Firebase |
+| **Баллы: Custom Backend**                 | **+30**                                           | —                                                  |
+| **Баллы: Real-time / WS**                 | **+20**                                           | **+20** (Firebase subscriptions)                   |
+| **Баллы: BaaS CRUD**                      | +15 (Firestore)                                   | **+15** (Firebase RTDB)                            |
+| **Макс. Personal Features (Backend-Dev)** | ~125                                              | ~95                                                |
+| **Холодный старт**                        | Да (Render free tier спит)                        | Нет                                                |
+| **Хост закрыл вкладку**                   | Сервер продолжает                                 | **Game Over** (допустимо для учебного проекта)     |
 
 ### Баллы: итого по команде
 
-| Роль | Вариант A | Вариант B | Разница |
-|------|-----------|-----------|---------|
-| Великий Мёрдж (Lead) | ~685 | ~685 | ≈0 |
-| Тихий Сокет (Backend / Firebase) | ~705 | ~675 | **-30** |
-| Быстрый Рендер (Board) | ~655 | ~655 | ≈0 |
-| Зоркий Линтер (Check) | ~650 | ~650 | ≈0 |
-| Мудрый Мок (AI) | ~665 | ~665 | ≈0 |
-| Ловкий Роутер (Lobby) | ~665 | ~665 | ≈0 |
+| Роль                             | Вариант A | Вариант B | Разница |
+| -------------------------------- | --------- | --------- | ------- |
+| Великий Мёрдж (Lead)             | ~685      | ~685      | ≈0      |
+| Тихий Сокет (Backend / Firebase) | ~705      | ~675      | **-30** |
+| Быстрый Рендер (Board)           | ~655      | ~655      | ≈0      |
+| Зоркий Линтер (Check)            | ~650      | ~650      | ≈0      |
+| Мудрый Мок (AI)                  | ~665      | ~665      | ≈0      |
+| Ловкий Роутер (Lobby)            | ~665      | ~665      | ≈0      |
 
 > **Вывод:** Вариант B проигрывает ~30 баллов только для Backend-Dev (нет Custom Backend +30). Для остальных 5 человек разница минимальна. Выбирайте вариант исходя из навыков команды, а не баллов.
 
@@ -60,14 +60,14 @@ flowchart TD
 
 Во всех документах используются JS/Frontend-тематические позывные:
 
-| Роль | Кодовое имя | Перевод | Зона ответственности |
-|------|-------------|---------|----------------------|
-| Lead | **Великий Мёрдж** | Great Merge | Auth, CI/CD, Deployment, API Layer |
-| Backend-Dev (A) / Firebase-Dev (B) | **Тихий Сокет** | Silent Socket | WS Server (A) / Firebase интеграция (B) |
-| Board-Dev | **Быстрый Рендер** | Fast Render | Game Board UI, Card Component, Animations |
-| Check-Dev | **Зоркий Линтер** | Sharp-Eyed Linter | Check Phase Popup, Question Bank, i18n |
-| AI-Dev | **Мудрый Мок** | Wise Mock | AI Mock, Solo Mode, Landing Page |
-| Lobby-Dev | **Ловкий Роутер** | Nimble Router | Lobby, Results, Profile, Responsive |
+| Роль                               | Кодовое имя        | Перевод           | Зона ответственности                      |
+| ---------------------------------- | ------------------ | ----------------- | ----------------------------------------- |
+| Lead                               | **Великий Мёрдж**  | Great Merge       | Auth, CI/CD, Deployment, API Layer        |
+| Backend-Dev (A) / Firebase-Dev (B) | **Тихий Сокет**    | Silent Socket     | WS Server (A) / Firebase интеграция (B)   |
+| Board-Dev                          | **Быстрый Рендер** | Fast Render       | Game Board UI, Card Component, Animations |
+| Check-Dev                          | **Зоркий Линтер**  | Sharp-Eyed Linter | Check Phase Popup, Question Bank, i18n    |
+| AI-Dev                             | **Мудрый Мок**     | Wise Mock         | AI Mock, Solo Mode, Landing Page          |
+| Lobby-Dev                          | **Ловкий Роутер**  | Nimble Router     | Lobby, Results, Profile, Responsive       |
 
 ---
 

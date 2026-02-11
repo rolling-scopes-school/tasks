@@ -107,6 +107,7 @@ graph TD
 ```
 
 В этом примере:
+
 - **A, B, C** — достижимы от Global через цепочку ссылок (живые)
 - **D, E** — образуют цикл, но недостижимы от Root (мусор)
 
@@ -165,9 +166,7 @@ graph TD
       { "id": "var-b", "label": "Variable 'b'", "x": 250, "y": 150 },
       { "id": "obj-1", "label": "Object {val:1}", "x": 350, "y": 250 }
     ],
-    "links": [
-      { "from": "var-b", "to": "obj-1", "label": "ref" }
-    ],
+    "links": [{ "from": "var-b", "to": "obj-1", "label": "ref" }],
     "rootIds": ["global"],
     "rootLinks": [
       { "from": "global", "to": "var-a" },
@@ -211,6 +210,7 @@ graph TD
 ```
 
 В этом примере:
+
 - `var-1` и `var-2` теперь указывают на `null`
 - `heap-1` и `heap-2` образуют цикл, но недостижимы от root
 - **Правильный ответ:** пометить `heap-1` и `heap-2` как мусор
@@ -223,7 +223,7 @@ interface ValidationInput {
   links: MemoryLink[];
   rootIds: string[];
   rootLinks: { from: string; to: string }[];
-  markedAsGarbage: string[];  // Ответ пользователя
+  markedAsGarbage: string[]; // Ответ пользователя
 }
 
 function validateGarbageCollection(input: ValidationInput): ValidationResult {
@@ -254,23 +254,25 @@ function validateGarbageCollection(input: ValidationInput): ValidationResult {
   }
 
   // 3. Определить мусор (объекты, недостижимые от корней)
-  const objectIds = input.objects.map(o => o.id);
-  const actualGarbage = objectIds.filter(id => !reachable.has(id));
+  const objectIds = input.objects.map((o) => o.id);
+  const actualGarbage = objectIds.filter((id) => !reachable.has(id));
 
   // 4. Сравнить с ответом пользователя
   const userMarked = new Set(input.markedAsGarbage);
   const actualSet = new Set(actualGarbage);
 
-  const missedGarbage = actualGarbage.filter(id => !userMarked.has(id));
-  const wronglyMarked = input.markedAsGarbage.filter(id => !actualSet.has(id));
+  const missedGarbage = actualGarbage.filter((id) => !userMarked.has(id));
+  const wronglyMarked = input.markedAsGarbage.filter(
+    (id) => !actualSet.has(id),
+  );
 
   return {
     isCorrect: missedGarbage.length === 0 && wronglyMarked.length === 0,
     errors: {
-      memoryLeak: missedGarbage,      // "Пропустили мусор"
-      killedAlive: wronglyMarked,     // "Удалили живой объект"
+      memoryLeak: missedGarbage, // "Пропустили мусор"
+      killedAlive: wronglyMarked, // "Удалили живой объект"
     },
-    explanation: generateExplanation(missedGarbage, wronglyMarked)
+    explanation: generateExplanation(missedGarbage, wronglyMarked),
   };
 }
 ```
@@ -288,59 +290,63 @@ interface GraphRenderer {
   render(data: MemoryGamePayload): void;
   markAsGarbage(objectId: string): void;
   unmarkGarbage(objectId: string): void;
-  highlightError(objectId: string, type: 'missed' | 'wrong'): void;
+  highlightError(objectId: string, type: "missed" | "wrong"): void;
   animateCollection(garbageIds: string[]): Promise<void>;
 }
 
 function createObjectNode(obj: MemoryObject): SVGGElement {
-  const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-  group.setAttribute('transform', `translate(${obj.x}, ${obj.y})`);
+  const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  group.setAttribute("transform", `translate(${obj.x}, ${obj.y})`);
 
   // Фон
-  const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-  rect.setAttribute('width', '120');
-  rect.setAttribute('height', '50');
-  rect.setAttribute('rx', '8');
-  rect.setAttribute('class', 'object-node');
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("width", "120");
+  rect.setAttribute("height", "50");
+  rect.setAttribute("rx", "8");
+  rect.setAttribute("class", "object-node");
 
   // Текст
-  const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+  const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
   text.textContent = obj.label;
-  text.setAttribute('x', '60');
-  text.setAttribute('y', '30');
-  text.setAttribute('text-anchor', 'middle');
+  text.setAttribute("x", "60");
+  text.setAttribute("y", "30");
+  text.setAttribute("text-anchor", "middle");
 
   group.appendChild(rect);
   group.appendChild(text);
 
   // Обработчик клика
-  group.addEventListener('click', () => toggleGarbageMark(obj.id));
+  group.addEventListener("click", () => toggleGarbageMark(obj.id));
 
   return group;
 }
 
-function createLink(from: MemoryObject, to: MemoryObject, label?: string): SVGGElement {
-  const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+function createLink(
+  from: MemoryObject,
+  to: MemoryObject,
+  label?: string,
+): SVGGElement {
+  const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
 
   // Линия
-  const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-  line.setAttribute('x1', String(from.x + 120)); // Правый край from
-  line.setAttribute('y1', String(from.y + 25));  // Центр по высоте
-  line.setAttribute('x2', String(to.x));         // Левый край to
-  line.setAttribute('y2', String(to.y + 25));
-  line.setAttribute('class', 'object-link');
-  line.setAttribute('marker-end', 'url(#arrowhead)');
+  const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  line.setAttribute("x1", String(from.x + 120)); // Правый край from
+  line.setAttribute("y1", String(from.y + 25)); // Центр по высоте
+  line.setAttribute("x2", String(to.x)); // Левый край to
+  line.setAttribute("y2", String(to.y + 25));
+  line.setAttribute("class", "object-link");
+  line.setAttribute("marker-end", "url(#arrowhead)");
 
   group.appendChild(line);
 
   // Подпись (опционально)
   if (label) {
-    const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
     const midX = (from.x + 120 + to.x) / 2;
     const midY = (from.y + to.y + 50) / 2;
-    text.setAttribute('x', String(midX));
-    text.setAttribute('y', String(midY - 5));
-    text.setAttribute('class', 'link-label');
+    text.setAttribute("x", String(midX));
+    text.setAttribute("y", String(midY - 5));
+    text.setAttribute("class", "link-label");
     text.textContent = label;
     group.appendChild(text);
   }
@@ -412,14 +418,26 @@ function createLink(from: MemoryObject, to: MemoryObject, label?: string): SVGGE
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  75% { transform: translateX(5px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
 }
 ```
 
@@ -429,12 +447,12 @@ function createLink(from: MemoryObject, to: MemoryObject, label?: string): SVGGE
 
 ```typescript
 async function animateGarbageCollection(garbageIds: string[]): Promise<void> {
-  const delay = (ms: number) => new Promise(r => setTimeout(r, ms));
+  const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
   // 1. Подсветить все объекты-мусор
   for (const id of garbageIds) {
     const node = getObjectNode(id);
-    node.classList.add('collecting');
+    node.classList.add("collecting");
     await delay(200);
   }
 
@@ -443,9 +461,9 @@ async function animateGarbageCollection(garbageIds: string[]): Promise<void> {
   // 2. Fade out с эффектом "растворения"
   for (const id of garbageIds) {
     const node = getObjectNode(id);
-    node.style.transition = 'opacity 0.5s, transform 0.5s';
-    node.style.opacity = '0';
-    node.style.transform = 'scale(0.5)';
+    node.style.transition = "opacity 0.5s, transform 0.5s";
+    node.style.opacity = "0";
+    node.style.transform = "scale(0.5)";
   }
 
   await delay(600);
@@ -457,7 +475,7 @@ async function animateGarbageCollection(garbageIds: string[]): Promise<void> {
   }
 
   // 4. Показать сообщение об успехе
-  showMessage('Memory freed successfully!');
+  showMessage("Memory freed successfully!");
 }
 ```
 
@@ -465,11 +483,11 @@ async function animateGarbageCollection(garbageIds: string[]): Promise<void> {
 
 ```typescript
 const sounds = {
-  markGarbage: new Audio('/sounds/mark.mp3'),
-  unmarkGarbage: new Audio('/sounds/unmark.mp3'),
-  collect: new Audio('/sounds/collect.mp3'),
-  error: new Audio('/sounds/error.mp3'),
-  success: new Audio('/sounds/success.mp3'),
+  markGarbage: new Audio("/sounds/mark.mp3"),
+  unmarkGarbage: new Audio("/sounds/unmark.mp3"),
+  collect: new Audio("/sounds/collect.mp3"),
+  error: new Audio("/sounds/error.mp3"),
+  success: new Audio("/sounds/success.mp3"),
 };
 
 function toggleGarbageMark(objectId: string) {
@@ -488,7 +506,7 @@ function toggleGarbageMark(objectId: string) {
 
 async function onCollect() {
   const result = await api.submitAnswer(widgetId, {
-    markedAsGarbage: [...state.markedGarbage]
+    markedAsGarbage: [...state.markedGarbage],
   });
 
   if (result.isCorrect) {
@@ -506,16 +524,16 @@ async function onCollect() {
 
 ## Эстимейт: Memory Game
 
-| Задача | Min | Max | Avg | Примечание |
-|--------|-----|-----|-----|------------|
-| SVG граф (рендеринг объектов и связей) | 4ч | 8ч | 6ч | Позиционирование, стрелки |
-| Интерактивность (клик для пометки) | 2ч | 4ч | 3ч | Toggle состояния |
-| Визуализация состояний (CSS) | 2ч | 4ч | 3ч | Цвета, анимации |
-| Анимация GC | 2ч | 4ч | 3ч | Fade out, сообщения |
-| Audio API интеграция | 1ч | 2ч | 1.5ч | Звуки на события |
-| Валидация + API | 2ч | 4ч | 3ч | Интеграция с backend |
-| Генерация сценариев (контент) | 3ч | 6ч | 4.5ч | 5-10 задач разной сложности |
-| **Итого** | **16ч** | **32ч** | **24ч** |
+| Задача                                 | Min     | Max     | Avg     | Примечание                  |
+| -------------------------------------- | ------- | ------- | ------- | --------------------------- |
+| SVG граф (рендеринг объектов и связей) | 4ч      | 8ч      | 6ч      | Позиционирование, стрелки   |
+| Интерактивность (клик для пометки)     | 2ч      | 4ч      | 3ч      | Toggle состояния            |
+| Визуализация состояний (CSS)           | 2ч      | 4ч      | 3ч      | Цвета, анимации             |
+| Анимация GC                            | 2ч      | 4ч      | 3ч      | Fade out, сообщения         |
+| Audio API интеграция                   | 1ч      | 2ч      | 1.5ч    | Звуки на события            |
+| Валидация + API                        | 2ч      | 4ч      | 3ч      | Интеграция с backend        |
+| Генерация сценариев (контент)          | 3ч      | 6ч      | 4.5ч    | 5-10 задач разной сложности |
+| **Итого**                              | **16ч** | **32ч** | **24ч** |
 
 ---
 
@@ -526,9 +544,7 @@ async function onCollect() {
 ```json
 {
   "rootIds": ["global"],
-  "rootLinks": [
-    { "from": "global", "to": "var-x" }
-  ]
+  "rootLinks": [{ "from": "global", "to": "var-x" }]
 }
 ```
 
@@ -539,19 +555,19 @@ async function onCollect() {
 ```json
 {
   "codeSnippet": "let a = {};\nlet b = a;\na = null;",
-  "highlightedLine": 3  // "a = null" только что выполнилось
+  "highlightedLine": 3 // "a = null" только что выполнилось
 }
 ```
 
 ### 3. Включать разные типы сценариев
 
-| Тип | Пример | Сложность |
-|-----|--------|-----------|
-| Простая очистка | `a = null` | Easy |
-| Цепочка ссылок | `a.b.c`, обнуляем `a` | Medium |
-| Циклические ссылки | Два объекта ссылаются друг на друга | Hard |
-| Сохранение через другую переменную | `b = a; a = null` — объект жив | Medium |
-| Closure сохраняет ссылку | Объект в замыкании остается живым | Hard |
+| Тип                                | Пример                              | Сложность |
+| ---------------------------------- | ----------------------------------- | --------- |
+| Простая очистка                    | `a = null`                          | Easy      |
+| Цепочка ссылок                     | `a.b.c`, обнуляем `a`               | Medium    |
+| Циклические ссылки                 | Два объекта ссылаются друг на друга | Hard      |
+| Сохранение через другую переменную | `b = a; a = null` — объект жив      | Medium    |
+| Closure сохраняет ссылку           | Объект в замыкании остается живым   | Hard      |
 
 ### 4. Давать понятные объяснения
 
@@ -604,7 +620,7 @@ b = null;
 ### 3. Путать переменную и объект
 
 ```javascript
-let a = {val: 1};
+let a = { val: 1 };
 let b = a;
 a = null;
 // Переменная 'a' теперь null
@@ -615,7 +631,7 @@ a = null;
 
 ```javascript
 function createCounter() {
-  let count = {value: 0};  // Этот объект живет пока живет counter
+  let count = { value: 0 }; // Этот объект живет пока живет counter
   return () => count.value++;
 }
 const counter = createCounter();

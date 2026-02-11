@@ -45,12 +45,12 @@
 
 ## Пример декомпозиции команды (3 студента + ментор)
 
-| Участник | Feature Components | Что изучит |
-|----------|-------------------|------------|
-| **Student 1** | Task Viewer, Code Editor, Submissions, Hints | Monaco/CodeMirror, form state, debouncing |
-| **Student 2** | Dashboard, Progress Matrix, Rubrics, History | Data visualization, tables, charts |
-| **Student 3** | Judge Client, Feedback UI, Scores, Comparison | LLM structured outputs, JSON parsing, UX для AI |
-| **Mentor** | Generator Script, Code Runner, Judge API, DB | Python/OpenAI API, Docker/Judge0, prompt engineering |
+| Участник      | Feature Components                            | Что изучит                                           |
+| ------------- | --------------------------------------------- | ---------------------------------------------------- |
+| **Student 1** | Task Viewer, Code Editor, Submissions, Hints  | Monaco/CodeMirror, form state, debouncing            |
+| **Student 2** | Dashboard, Progress Matrix, Rubrics, History  | Data visualization, tables, charts                   |
+| **Student 3** | Judge Client, Feedback UI, Scores, Comparison | LLM structured outputs, JSON parsing, UX для AI      |
+| **Mentor**    | Generator Script, Code Runner, Judge API, DB  | Python/OpenAI API, Docker/Judge0, prompt engineering |
 
 ---
 
@@ -58,15 +58,15 @@
 
 ### Daily Loop: Theory Task
 
-1. **System:** Показывает вопрос: *"В чем разница между `interface` и `type` в TS?"*
+1. **System:** Показывает вопрос: _"В чем разница между `interface` и `type` в TS?"_
 2. **User:** Пишет свой ответ (текстом)
 3. **System (AI Judge):**
    - Берет ответ пользователя
    - Берет из БД скрытый `golden_answer` и `grading_rubric`
-   - Запускает Small LLM с промптом: *"Сравни ответ с эталоном по критериям A, B, C"*
+   - Запускает Small LLM с промптом: _"Сравни ответ с эталоном по критериям A, B, C"_
 4. **Feedback:**
    - Показывает оценку: "80/100"
-   - Показывает комментарий: *"Ты верно сказал про расширение, но забыл упомянуть union-типы"*
+   - Показывает комментарий: _"Ты верно сказал про расширение, но забыл упомянуть union-типы"_
 
 ### Daily Loop: Coding Task
 
@@ -74,23 +74,23 @@
 2. **User:** Сабмитит решение
 3. **Code Runner:** Запускает Unit-тесты
 4. **Result:**
-   - *Pass:* +XP, обновляем матрицу навыков
-   - *Fail:* AI получает stderr и выбирает релевантную подсказку
+   - _Pass:_ +XP, обновляем матрицу навыков
+   - _Fail:_ AI получает stderr и выбирает релевантную подсказку
 
 ---
 
 ## Страницы приложения
 
-| Страница | URL | Описание |
-|----------|-----|----------|
-| Landing | `/` | Главная с описанием |
-| Login | `/login` | Вход |
-| Register | `/register` | Регистрация |
+| Страница  | URL          | Описание                  |
+| --------- | ------------ | ------------------------- |
+| Landing   | `/`          | Главная с описанием       |
+| Login     | `/login`     | Вход                      |
+| Register  | `/register`  | Регистрация               |
 | Dashboard | `/dashboard` | Прогресс, матрица навыков |
-| Topics | `/topics` | Выбор темы |
-| Task | `/task/:id` | Решение задачи |
-| History | `/history` | История сабмитов |
-| Profile | `/profile` | Профиль пользователя |
+| Topics    | `/topics`    | Выбор темы                |
+| Task      | `/task/:id`  | Решение задачи            |
+| History   | `/history`   | История сабмитов          |
+| Profile   | `/profile`   | Профиль пользователя      |
 
 ---
 
@@ -247,13 +247,13 @@ Do NOT give the full solution, only guide the user.
 
 ## Why This Architecture?
 
-| Риск | Решение |
-|------|---------|
-| **Галлюцинации LLM** | LLM не генерирует теорию, только сравнивает. Эталон статичен и проверен. |
-| **Маленькая модель глупа** | Сравнить два текста проще, чем написать эссе. Для судьи 8B LLM хватает. |
-| **Latency** | Не нужен RAG поиск по 1000 чанков. Контекст загружается одним запросом из SQL. |
-| **Проблемы промптов** | Промпт для оценки один и тот же. Его легко отладить. |
-| **JSON Errors** | Сложные JSON-структуры управляются оффлайн. В рантайме только простой ввод. |
+| Риск                       | Решение                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------ |
+| **Галлюцинации LLM**       | LLM не генерирует теорию, только сравнивает. Эталон статичен и проверен.       |
+| **Маленькая модель глупа** | Сравнить два текста проще, чем написать эссе. Для судьи 8B LLM хватает.        |
+| **Latency**                | Не нужен RAG поиск по 1000 чанков. Контекст загружается одним запросом из SQL. |
+| **Проблемы промптов**      | Промпт для оценки один и тот же. Его легко отладить.                           |
+| **JSON Errors**            | Сложные JSON-структуры управляются оффлайн. В рантайме только простой ввод.    |
 
 ---
 
