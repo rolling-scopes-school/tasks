@@ -36,7 +36,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 - dark/light themes of the game. Changing the theme implies a change in the entire color scheme of the application, including the background color, cell colors, counter, buttons etc.
 - implement three levels of difficulty in the game: easy (5x5), medium (10x10), and hard (15x15). Each level should vary in the size of the game board and the complexity of the main template (pictures).
 - the latest 5 win results are saved in the high score table. The table is sorted by time of the game using XX:XX format (for example, using LocalStorage). Every line should include: solved puzzle (either naming, or picture, or both); difficulty; stop-watch result.
-- implement а "Random game" button. When the player clicks the button, a random template that is not equal to the current one appears (both template and level must be chosen randomly by algorithm).
+- implement а "Random game" button. When the player clicks the button, a random template that is different from the current one appears (both template and level must be chosen randomly by algorithm).
 - implement "Solution" button near the field. When the player clicks the button, the field is filled with the correct positions of the dark cells. Flagging the remaining cells with an X is not a mistake. Using this button ends the current game but does not count as a win and should not be recorded in the winning table.
 
 Recommended usage of [eslint (eslint-config-airbnb-base)](https://eslint.org/), [webpack](https://webpack.js.org/) or any other bundler (this requirement is not checked)
