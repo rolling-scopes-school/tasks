@@ -20,7 +20,7 @@ Here you can learn [how to solve the nonogram](https://nonograms-katana.fandom.c
 - the default size of the frame is 5x5. The clues are given at the top and left sides of the grid. The sequence of numbers must be logically arranged to help the player solve the nonogram. Nonograms that have empty rows or columns with zero values as clues should not be used.
 - for the game field: every 5 cells in rows and columns should be divided by a divider (bold line). For clues: every 5 cells in **rows** should be divided by a divider (for left clues); every 5 cells in **columns** should be divided by a divider (for top clues). Clues should be divided from game field by bold line.
 - a player is able to fill in a cell in the grid, using left mouse-click. On a click event, trigger the functionality of changing the color of the grid to dark (black). When player clicks on dark cell - it will change to empty (white).
-- game ends when player fills all the **black** (dark) cells correctly according to the clues and board can no longer be interacted with. Upon a successful solution solution, display "Great! You have solved the nonogram!" (in case the stop-watch implementation was skipped).
+- game ends when player fills all the **black** (dark) cells correctly according to the clues and board can no longer be interacted with. Upon a successful solution, display "Great! You have solved the nonogram!" (in case the stop-watch implementation was skipped).
 
 `Advanced:`
 
