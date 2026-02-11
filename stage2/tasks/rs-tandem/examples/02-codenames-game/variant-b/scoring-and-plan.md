@@ -286,7 +286,7 @@
 | Board: card click handling, Spymaster view | Быстрый Рендер | 6ч | 12ч | 9ч |
 | Board: turn indicator, clue display, score tracker | Быстрый Рендер | 4ч | 8ч | 6ч |
 | Check Phase: Self/Peer evaluation mode | Зоркий Линтер | 5ч | 10ч | 7.5ч |
-| Check Phase: "Показать ответ" flow + timer pause | Зоркий Линтер | 3ч | 6ч | 4.5ч |
+| Check Phase: "Показать ответ" flow + check-таймер (30 сек) | Зоркий Линтер | 3ч | 6ч | 4.5ч |
 | Question Bank: дособрать вопросы до >= 90 (все участники) | Все (координирует Зоркий Линтер) | 3ч | 6ч | 4.5ч |
 | AI Spymaster: mock clue generator | Мудрый Мок | 5ч | 10ч | 7.5ч |
 | Solo Mode: setup page + solo game flow | Мудрый Мок | 5ч | 10ч | 7.5ч |
