@@ -4,22 +4,22 @@
 
 ## Ответственные за контракты
 
-| Кодовое имя | Роль | Зона ответственности в контрактах |
-|-------------|------|-----------------------------------|
-| **Великий Мёрдж** (Lead) | Lead | Общая структура типов, REST API, Auth, Session Token |
-| **Тихий Сокет** (WS-Dev) | WS-Dev (Backend) | WebSocket Protocol, Server Events, Room/Game state |
-| **Быстрый Рендер** (Board-Dev) | Board-Dev | GameStateForPlayer, PlayerVisibleCard, Board-related types |
-| **Зоркий Линтер** (Check-Dev) | Check-Dev | Check Phase types, CheckQuestion, CheckSession, CheckResult |
-| **Мудрый Мок** (AI-Dev) | AI-Dev | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode |
-| **Ловкий Роутер** (Lobby-Dev) | Lobby-Dev | RoomPreview, Lobby REST endpoints, PlayerStats |
+| Имя                    | Роль             | Зона ответственности в контрактах                           |
+| ---------------------- | ---------------- | ----------------------------------------------------------- |
+| **Alice** (Lead)       | Lead             | Общая структура типов, REST API, Auth, Session Token        |
+| **Boris** (WS-Dev)     | WS-Dev (Backend) | WebSocket Protocol, Server Events, Room/Game state          |
+| **Victor** (Board-Dev) | Board-Dev        | GameStateForPlayer, PlayerVisibleCard, Board-related types  |
+| **Diana** (Check-Dev)  | Check-Dev        | Check Phase types, CheckQuestion, CheckSession, CheckResult |
+| **Eric** (AI-Dev)      | AI-Dev           | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode  |
+| **Felix** (Lobby-Dev)  | Lobby-Dev        | RoomPreview, Lobby REST endpoints, PlayerStats              |
 
-> **Правило:** Если **Тихий Сокет** (WS-Dev) меняет серверное событие, он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Зоркий Линтер** (Check-Dev) добавляет поле в `CheckResult`, он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
+> **Правило:** Если **Boris** (WS-Dev) меняет серверное событие, он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Diana** (Check-Dev) добавляет поле в `CheckResult`, он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
 
 ---
 
 ## NPM Workspaces / Shared Types (monorepo)
 
-> **Ключевая идея:** Все типы из этого документа живут в одном пакете `@project/shared`. И клиент, и сервер импортируют их оттуда. Если **Тихий Сокет** (WS-Dev) переименует поле в серверном событии — клиент **Быстрого Рендера** (Board-Dev) не скомпилируется. Это не баг, это защита. Это экономит сотни часов дебага "а почему у меня undefined".
+> **Ключевая идея:** Все типы из этого документа живут в одном пакете `@project/shared`. И клиент, и сервер импортируют их оттуда. Если **Boris** (WS-Dev) переименует поле в серверном событии — клиент **Быстрого Рендера** (Board-Dev) не скомпилируется. Это не баг, это защита. Это экономит сотни часов дебага "а почему у меня undefined".
 
 ### Структура monorepo
 
@@ -56,9 +56,7 @@ codenames/
 {
   "name": "codenames-interview",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
     "dev:client": "npm -w @project/client run dev",
     "dev:server": "npm -w @project/server run dev",
@@ -72,7 +70,7 @@ codenames/
 
 ```typescript
 // packages/client/src/ws/real-ws-client.ts
-import { ClientEvent, ServerEvent, ErrorCode } from '@project/shared';
+import { ClientEvent, ServerEvent, ErrorCode } from "@project/shared";
 
 function send(event: ClientEvent): void {
   socket.emit(event.type, event.payload);
@@ -83,18 +81,23 @@ function send(event: ClientEvent): void {
 
 ```typescript
 // packages/server/src/ws/ws-handler.ts
-import { ClientEvent, ServerEvent, Room, GameStateForPlayer } from '@project/shared';
+import {
+  ClientEvent,
+  ServerEvent,
+  Room,
+  GameStateForPlayer,
+} from "@project/shared";
 
-socket.on('game:guess', (payload: { cardId: string }) => {
+socket.on("game:guess", (payload: { cardId: string }) => {
   // типы гарантированы — и клиент, и сервер используют один и тот же ClientEvent
 });
 ```
 
 ### Почему это важно
 
-- **Тихий Сокет** (WS-Dev) переименовал `game:card-revealed` в `game:reveal` — клиент **Быстрого Рендера** (Board-Dev) сразу падает на `tsc`. Не через 3 дня на демо, а прямо сейчас.
-- **Зоркий Линтер** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Мудрый Мок** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
-- **Ловкий Роутер** (Lobby-Dev) изменил `RoomPreview` — `getPublicRooms()` на сервере не скомпилируется, пока **Тихий Сокет** (WS-Dev) не обновит контроллер.
+- **Boris** (WS-Dev) переименовал `game:card-revealed` в `game:reveal` — клиент **Быстрого Рендера** (Board-Dev) сразу падает на `tsc`. Не через 3 дня на демо, а прямо сейчас.
+- **Diana** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Eric** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
+- **Felix** (Lobby-Dev) изменил `RoomPreview` — `getPublicRooms()` на сервере не скомпилируется, пока **Boris** (WS-Dev) не обновит контроллер.
 - `npm run typecheck` в CI проверяет все три пакета. Сломанный контракт = красный билд = нельзя мёрджить.
 
 ---
@@ -109,31 +112,31 @@ interface User {
   displayName: string;
   email: string;
   avatarUrl?: string;
-  preferredLanguage: 'ru' | 'en';
-  theme: 'light' | 'dark';
-  createdAt: number;             // timestamp
+  preferredLanguage: "ru" | "en";
+  theme: "light" | "dark";
+  createdAt: number; // timestamp
 }
 
 interface PlayerStats {
   gamesPlayed: number;
   gamesWon: number;
-  totalPoints: number;           // Суммарные очки за Check Phase
-  checkCorrectRate: number;      // 0-1 (процент правильных ответов)
-  wordsGuessed: number;          // Общее кол-во угаданных слов
-  lastPlayedAt: number;          // timestamp
+  totalPoints: number; // Суммарные очки за Check Phase
+  checkCorrectRate: number; // 0-1 (процент правильных ответов)
+  wordsGuessed: number; // Общее кол-во угаданных слов
+  lastPlayedAt: number; // timestamp
 }
 ```
 
 ### Room (Комната)
 
 ```typescript
-type RoomStatus = 'waiting' | 'playing' | 'finished';
-type CheckMode = 'self-peer' | 'ai';
-type TeamColor = 'red' | 'blue';
+type RoomStatus = "waiting" | "playing" | "finished";
+type CheckMode = "self-peer" | "ai";
+type TeamColor = "red" | "blue";
 
 interface Room {
-  code: string;                  // "js-masters-42"
-  hostId: string;                // ID создателя комнаты
+  code: string; // "js-masters-42"
+  hostId: string; // ID создателя комнаты
   status: RoomStatus;
   teams: {
     red: TeamState;
@@ -145,54 +148,54 @@ interface Room {
 }
 
 interface RoomSettings {
-  turnTimeSeconds: number;       // default 120
-  checkMode: CheckMode;          // 'self-peer' | 'ai'
-  isPublic: boolean;             // Показывать в списке комнат
-  maxPlayers: number;            // 4-10
+  turnTimeSeconds: number; // default 120
+  checkMode: CheckMode; // 'self-peer' | 'ai'
+  isPublic: boolean; // Показывать в списке комнат
+  maxPlayers: number; // 4-10
 }
 
 interface TeamState {
   spymasterId: string | null;
   operativeIds: string[];
-  score: number;                 // Очки (карточки + Check)
-  cardsLeft: number;             // Сколько карточек осталось найти
+  score: number; // Очки (карточки + Check)
+  cardsLeft: number; // Сколько карточек осталось найти
 }
 ```
 
 ### Game (Игра)
 
 ```typescript
-type CardColor = 'red' | 'blue' | 'neutral' | 'bomb';
-type CardStatus = 'hidden' | 'revealed';
-type GamePhase = 'clue' | 'guess' | 'check' | 'finished';
+type CardColor = "red" | "blue" | "neutral" | "bomb";
+type CardStatus = "hidden" | "revealed";
+type GamePhase = "clue" | "guess" | "check" | "finished";
 
 interface Game {
   id: string;
   roomCode: string;
-  board: Card[];                 // 25 карточек (5x5)
-  currentTurn: TeamColor;        // Чья очередь
-  currentPhase: GamePhase;       // Текущая фаза хода
-  clue: Clue | null;             // Текущая подсказка
-  guessesRemaining: number;      // Оставшиеся попытки угадать
-  moveHistory: Move[];           // История ходов
+  board: Card[]; // 25 карточек (5x5)
+  currentTurn: TeamColor; // Чья очередь
+  currentPhase: GamePhase; // Текущая фаза хода
+  clue: Clue | null; // Текущая подсказка
+  guessesRemaining: number; // Оставшиеся попытки угадать
+  moveHistory: Move[]; // История ходов
   winner: TeamColor | null;
   startedAt: number;
 }
 
 interface Card {
-  id: string;                    // "card-0" ... "card-24"
-  word: string;                  // "closure", "prototype", "async/await"
-  color: CardColor;              // Только для Spymaster и сервера!
-  status: CardStatus;            // 'hidden' | 'revealed'
-  position: number;              // 0-24 (позиция на поле)
-  checkResult?: CheckResult;     // Результат проверки знаний
+  id: string; // "card-0" ... "card-24"
+  word: string; // "closure", "prototype", "async/await"
+  color: CardColor; // Только для Spymaster и сервера!
+  status: CardStatus; // 'hidden' | 'revealed'
+  position: number; // 0-24 (позиция на поле)
+  checkResult?: CheckResult; // Результат проверки знаний
 }
 
 interface Clue {
-  word: string;                  // Слово-подсказка
-  count: number;                 // Количество связанных карточек
-  givenBy: string;               // ID капитана
-  team: TeamColor;               // Команда капитана
+  word: string; // Слово-подсказка
+  count: number; // Количество связанных карточек
+  givenBy: string; // ID капитана
+  team: TeamColor; // Команда капитана
   timestamp: number;
 }
 
@@ -220,8 +223,8 @@ interface Move {
 ```typescript
 /** Клиент передаёт при подключении через socket.io handshake.auth */
 interface WSHandshakeAuth {
-  token: string;                 // Firebase ID Token (авторизация)
-  sessionToken?: string;         // UUID из localStorage (восстановление сессии)
+  token: string; // Firebase ID Token (авторизация)
+  sessionToken?: string; // UUID из localStorage (восстановление сессии)
 }
 ```
 
@@ -230,17 +233,17 @@ interface WSHandshakeAuth {
 ```typescript
 /** Сервер хранит маппинг sessionToken → игрок */
 interface SessionRecord {
-  sessionToken: string;          // UUID v4
-  userId: string;                // Firebase UID
+  sessionToken: string; // UUID v4
+  userId: string; // Firebase UID
   displayName: string;
   currentRoomCode: string | null;
-  currentSocketId: string;       // Текущий socket.id (обновляется при reconnect)
-  connectedAt: number;           // timestamp
-  lastSeenAt: number;            // timestamp (обновляется при каждом событии)
+  currentSocketId: string; // Текущий socket.id (обновляется при reconnect)
+  connectedAt: number; // timestamp
+  lastSeenAt: number; // timestamp (обновляется при каждом событии)
 }
 
 // На сервере:
-const sessions = new Map<string, SessionRecord>();  // sessionToken → SessionRecord
+const sessions = new Map<string, SessionRecord>(); // sessionToken → SessionRecord
 ```
 
 ### Поток: Первое подключение
@@ -291,9 +294,9 @@ const sessions = new Map<string, SessionRecord>();  // sessionToken → SessionR
 
 ```typescript
 // packages/server/src/ws/session-middleware.ts
-import { v4 as uuid } from 'uuid';
-import { Server, Socket } from 'socket.io';
-import { WSHandshakeAuth, SessionRecord } from '@project/shared';
+import { v4 as uuid } from "uuid";
+import { Server, Socket } from "socket.io";
+import { WSHandshakeAuth, SessionRecord } from "@project/shared";
 
 const sessions = new Map<string, SessionRecord>();
 
@@ -304,7 +307,7 @@ export function setupSessionMiddleware(io: Server) {
     // 1. Проверить Firebase token (обязательно)
     const firebaseUser = await verifyFirebaseToken(auth.token);
     if (!firebaseUser) {
-      return next(new Error('AUTH_REQUIRED'));
+      return next(new Error("AUTH_REQUIRED"));
     }
 
     // 2. Проверить sessionToken (reconnect?)
@@ -313,7 +316,7 @@ export function setupSessionMiddleware(io: Server) {
 
       // Убедиться, что это тот же пользователь
       if (record.userId !== firebaseUser.uid) {
-        return next(new Error('SESSION_USER_MISMATCH'));
+        return next(new Error("SESSION_USER_MISMATCH"));
       }
 
       // Обновить socket.id
@@ -331,7 +334,7 @@ export function setupSessionMiddleware(io: Server) {
     sessions.set(sessionToken, {
       sessionToken,
       userId: firebaseUser.uid,
-      displayName: firebaseUser.name || 'Anonymous',
+      displayName: firebaseUser.name || "Anonymous",
       currentRoomCode: null,
       currentSocketId: socket.id,
       connectedAt: Date.now(),
@@ -346,16 +349,16 @@ export function setupSessionMiddleware(io: Server) {
   });
 
   // После подключения — отправить sessionToken клиенту
-  io.on('connection', (socket: Socket) => {
+  io.on("connection", (socket: Socket) => {
     if (!socket.data.isReconnect) {
-      socket.emit('session:token', { sessionToken: socket.data.sessionToken });
+      socket.emit("session:token", { sessionToken: socket.data.sessionToken });
     } else {
       // Восстановить состояние: комнату, игру
       const record = sessions.get(socket.data.sessionToken)!;
       if (record.currentRoomCode) {
         socket.join(record.currentRoomCode);
         // Отправить текущее состояние игры
-        socket.emit('session:restored', {
+        socket.emit("session:restored", {
           roomCode: record.currentRoomCode,
           // ... текущее состояние игры
         });
@@ -369,10 +372,10 @@ export function setupSessionMiddleware(io: Server) {
 
 ```typescript
 // packages/client/src/ws/session.ts
-import { io, Socket } from 'socket.io-client';
-import { WSHandshakeAuth } from '@project/shared';
+import { io, Socket } from "socket.io-client";
+import { WSHandshakeAuth } from "@project/shared";
 
-const SESSION_KEY = 'codenames:sessionToken';
+const SESSION_KEY = "codenames:sessionToken";
 
 export function connectWithSession(firebaseToken: string): Socket {
   const savedSessionToken = localStorage.getItem(SESSION_KEY) || undefined;
@@ -385,12 +388,12 @@ export function connectWithSession(firebaseToken: string): Socket {
   const socket = io(SERVER_URL, { auth });
 
   // Первое подключение — сохранить sessionToken
-  socket.on('session:token', ({ sessionToken }: { sessionToken: string }) => {
+  socket.on("session:token", ({ sessionToken }: { sessionToken: string }) => {
     localStorage.setItem(SESSION_KEY, sessionToken);
   });
 
   // Reconnect — восстановить состояние
-  socket.on('session:restored', ({ roomCode, gameState }) => {
+  socket.on("session:restored", ({ roomCode, gameState }) => {
     console.log(`Session restored: room=${roomCode}`);
     // Обновить UI состоянием из gameState
   });
@@ -404,41 +407,44 @@ export function connectWithSession(firebaseToken: string): Socket {
 ```typescript
 // Добавить в ServerEvent (в @project/shared):
 type ServerEvent =
-  | { type: 'session:token'; payload: { sessionToken: string } }
-  | { type: 'session:restored'; payload: { roomCode: string; gameState: GameStateForPlayer | null } }
-  // ... остальные события (см. ниже)
+  | { type: "session:token"; payload: { sessionToken: string } }
+  | {
+      type: "session:restored";
+      payload: { roomCode: string; gameState: GameStateForPlayer | null };
+    };
+// ... остальные события (см. ниже)
 ```
 
-> **Ответственный:** **Великий Мёрдж** (Lead) создаёт `WSHandshakeAuth` и `SessionRecord` в `@project/shared`. **Тихий Сокет** (WS-Dev) реализует middleware. **Быстрый Рендер** (Board-Dev) подключает `connectWithSession()` на клиенте.
+> **Ответственный:** **Alice** (Lead) создаёт `WSHandshakeAuth` и `SessionRecord` в `@project/shared`. **Boris** (WS-Dev) реализует middleware. **Victor** (Board-Dev) подключает `connectWithSession()` на клиенте.
 
 ---
 
 ## Check Phase (Проверка знаний)
 
 ```typescript
-type CheckStatus = 'pending' | 'answered' | 'evaluated';
+type CheckStatus = "pending" | "answered" | "evaluated";
 
 interface CheckQuestion {
   id: string;
-  word: string;                  // JS/TS концепт ("closure", "Promise")
-  question: string;              // "В чём отличие от sessionStorage?"
-  referenceAnswer: string;       // Правильный ответ (для "Показать ответ")
+  word: string; // JS/TS концепт ("closure", "Promise")
+  question: string; // "В чём отличие от sessionStorage?"
+  referenceAnswer: string; // Правильный ответ (для "Показать ответ")
   difficulty: 1 | 2 | 3;
-  tags: string[];                // ["core-js", "scope"]
+  tags: string[]; // ["core-js", "scope"]
 }
 
 interface CheckSession {
   questionId: string;
-  playerAnswer: string;          // Что написал игрок
-  mode: CheckMode;               // 'self-peer' | 'ai'
+  playerAnswer: string; // Что написал игрок
+  mode: CheckMode; // 'self-peer' | 'ai'
   result: CheckResult;
-  evaluatedBy: 'self' | 'peer' | 'ai';
+  evaluatedBy: "self" | "peer" | "ai";
   timestamp: number;
 }
 
 interface CheckResult {
-  pointGranted: boolean;         // Засчитано ли очко
-  feedback?: string;             // Обратная связь (опционально, AI-режим)
+  pointGranted: boolean; // Засчитано ли очко
+  feedback?: string; // Обратная связь (опционально, AI-режим)
 }
 ```
 
@@ -448,22 +454,22 @@ interface CheckResult {
 
 ```typescript
 interface WordEntry {
-  word: string;                  // "closure", "Promise", "prototype"
+  word: string; // "closure", "Promise", "prototype"
   category: WordCategory;
   difficulty: 1 | 2 | 3;
 }
 
 type WordCategory =
-  | 'core-js'       // closure, hoisting, scope, this, prototype
-  | 'async'         // Promise, async/await, event loop, callback
-  | 'typescript'    // generics, interface, enum, type, any
-  | 'browser-api'   // localStorage, fetch, DOM, WebSocket
-  | 'patterns'      // observer, strategy, singleton, factory
-  | 'data-structures' // Map, Set, WeakMap, Array, iterator
-  | 'es6-plus';     // spread, rest, destructuring, Symbol, Proxy
+  | "core-js" // closure, hoisting, scope, this, prototype
+  | "async" // Promise, async/await, event loop, callback
+  | "typescript" // generics, interface, enum, type, any
+  | "browser-api" // localStorage, fetch, DOM, WebSocket
+  | "patterns" // observer, strategy, singleton, factory
+  | "data-structures" // Map, Set, WeakMap, Array, iterator
+  | "es6-plus"; // spread, rest, destructuring, Symbol, Proxy
 
 interface QuestionBank {
-  [word: string]: CheckQuestion[];  // Несколько вопросов на каждое слово
+  [word: string]: CheckQuestion[]; // Несколько вопросов на каждое слово
 }
 ```
 
@@ -471,7 +477,7 @@ interface QuestionBank {
 
 ## AI Interfaces (ВСЕ МОКНУТЫ)
 
-> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Мудрый Мок** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev) и **Тихим Сокетом** (WS-Dev).
+> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Eric** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev) и **Тихим Сокетом** (WS-Dev).
 
 ### AI Spymaster (генерация подсказок)
 
@@ -481,20 +487,20 @@ interface AISpymasterService {
 }
 
 interface SpymasterContext {
-  myWords: string[];             // Слова моей команды (неоткрытые)
-  opponentWords: string[];       // Слова соперника
-  neutralWords: string[];        // Нейтральные слова
-  bombWord: string;              // Слово-бомба
-  revealedWords: string[];       // Уже открытые слова
-  moveHistory: Move[];           // История ходов
-  difficulty: 'easy' | 'medium' | 'hard';
+  myWords: string[]; // Слова моей команды (неоткрытые)
+  opponentWords: string[]; // Слова соперника
+  neutralWords: string[]; // Нейтральные слова
+  bombWord: string; // Слово-бомба
+  revealedWords: string[]; // Уже открытые слова
+  moveHistory: Move[]; // История ходов
+  difficulty: "easy" | "medium" | "hard";
 }
 
 interface AIClue {
-  word: string;                  // Слово-подсказка
-  count: number;                 // Количество связанных слов
-  reasoning?: string;            // Объяснение логики (для debug/display)
-  confidence: number;            // 0-1
+  word: string; // Слово-подсказка
+  count: number; // Количество связанных слов
+  reasoning?: string; // Объяснение логики (для debug/display)
+  confidence: number; // 0-1
 }
 ```
 
@@ -506,16 +512,16 @@ interface AICheckEvaluatorService {
 }
 
 interface CheckEvaluationContext {
-  concept: string;               // "localStorage"
-  question: string;              // "В чём отличие от sessionStorage?"
-  playerAnswer: string;          // Ответ игрока
-  referenceAnswer: string;       // Эталонный ответ
+  concept: string; // "localStorage"
+  question: string; // "В чём отличие от sessionStorage?"
+  playerAnswer: string; // Ответ игрока
+  referenceAnswer: string; // Эталонный ответ
 }
 
 interface AICheckResult {
   pointGranted: boolean;
-  feedback: string;              // Обратная связь: "Ответ верный" / "Не хватает..."
-  confidence: number;            // 0-1
+  feedback: string; // Обратная связь: "Ответ верный" / "Не хватает..."
+  confidence: number; // 0-1
 }
 ```
 
@@ -531,45 +537,57 @@ interface AICheckResult {
 
 ```typescript
 type ClientEvent =
-  | { type: 'room:create'; payload: { settings: RoomSettings } }
-  | { type: 'room:join'; payload: { code: string } }
-  | { type: 'room:leave' }
-  | { type: 'room:set-role'; payload: { team: TeamColor; role: 'spymaster' | 'operative' } }
-  | { type: 'game:start' }
-  | { type: 'game:give-clue'; payload: { word: string; count: number } }
-  | { type: 'game:guess'; payload: { cardId: string } }
-  | { type: 'game:end-turn' }
-  | { type: 'check:submit-answer'; payload: { answer: string } }
-  | { type: 'check:evaluate'; payload: { result: 'know' | 'dont-know' } };
+  | { type: "room:create"; payload: { settings: RoomSettings } }
+  | { type: "room:join"; payload: { code: string } }
+  | { type: "room:leave" }
+  | {
+      type: "room:set-role";
+      payload: { team: TeamColor; role: "spymaster" | "operative" };
+    }
+  | { type: "game:start" }
+  | { type: "game:give-clue"; payload: { word: string; count: number } }
+  | { type: "game:guess"; payload: { cardId: string } }
+  | { type: "game:end-turn" }
+  | { type: "check:submit-answer"; payload: { answer: string } }
+  | { type: "check:evaluate"; payload: { result: "know" | "dont-know" } };
 ```
 
 ### Server -> Client Events
 
 ```typescript
 type ServerEvent =
-  | { type: 'session:token'; payload: { sessionToken: string } }
-  | { type: 'session:restored'; payload: { roomCode: string; gameState: GameStateForPlayer | null } }
-  | { type: 'room:state'; payload: Room }
-  | { type: 'room:player-joined'; payload: { player: PlayerInfo } }
-  | { type: 'room:player-left'; payload: { playerId: string } }
-  | { type: 'game:state'; payload: GameStateForPlayer }
-  | { type: 'game:card-revealed'; payload: { cardId: string; color: CardColor } }
-  | { type: 'game:clue-given'; payload: Clue }
-  | { type: 'game:turn-changed'; payload: { team: TeamColor; phase: GamePhase } }
-  | { type: 'game:timer-sync'; payload: { remainingMs: number } }
-  | { type: 'check:question'; payload: CheckQuestion }
-  | { type: 'check:result'; payload: CheckResult }
-  | { type: 'game:finished'; payload: { winner: TeamColor; board: Card[] } }
-  | { type: 'error'; payload: { message: string; code: ErrorCode } };
+  | { type: "session:token"; payload: { sessionToken: string } }
+  | {
+      type: "session:restored";
+      payload: { roomCode: string; gameState: GameStateForPlayer | null };
+    }
+  | { type: "room:state"; payload: Room }
+  | { type: "room:player-joined"; payload: { player: PlayerInfo } }
+  | { type: "room:player-left"; payload: { playerId: string } }
+  | { type: "game:state"; payload: GameStateForPlayer }
+  | {
+      type: "game:card-revealed";
+      payload: { cardId: string; color: CardColor };
+    }
+  | { type: "game:clue-given"; payload: Clue }
+  | {
+      type: "game:turn-changed";
+      payload: { team: TeamColor; phase: GamePhase };
+    }
+  | { type: "game:timer-sync"; payload: { remainingMs: number } }
+  | { type: "check:question"; payload: CheckQuestion }
+  | { type: "check:result"; payload: CheckResult }
+  | { type: "game:finished"; payload: { winner: TeamColor; board: Card[] } }
+  | { type: "error"; payload: { message: string; code: ErrorCode } };
 
 type ErrorCode =
-  | 'ROOM_NOT_FOUND'
-  | 'ROOM_FULL'
-  | 'NOT_YOUR_TURN'
-  | 'INVALID_ACTION'
-  | 'AUTH_REQUIRED'
-  | 'SESSION_USER_MISMATCH'
-  | 'ACTION_IN_PROGRESS';
+  | "ROOM_NOT_FOUND"
+  | "ROOM_FULL"
+  | "NOT_YOUR_TURN"
+  | "INVALID_ACTION"
+  | "AUTH_REQUIRED"
+  | "SESSION_USER_MISMATCH"
+  | "ACTION_IN_PROGRESS";
 
 interface PlayerInfo {
   id: string;
@@ -584,7 +602,7 @@ interface PlayerInfo {
 
 ```typescript
 interface GameStateForPlayer {
-  board: PlayerVisibleCard[];    // Цвета скрыты для не-капитанов
+  board: PlayerVisibleCard[]; // Цвета скрыты для не-капитанов
   currentTurn: TeamColor;
   currentPhase: GamePhase;
   clue: Clue | null;
@@ -593,15 +611,15 @@ interface GameStateForPlayer {
     red: TeamState;
     blue: TeamState;
   };
-  isSpymaster: boolean;          // Является ли ЭТОТ игрок капитаном
-  turnEndTime: number;           // timestamp, когда истечет таймер
+  isSpymaster: boolean; // Является ли ЭТОТ игрок капитаном
+  turnEndTime: number; // timestamp, когда истечет таймер
 }
 
 interface PlayerVisibleCard {
   id: string;
   word: string;
   status: CardStatus;
-  color: CardColor | null;       // null, если hidden И игрок НЕ капитан
+  color: CardColor | null; // null, если hidden И игрок НЕ капитан
   position: number;
 }
 ```
@@ -609,12 +627,15 @@ interface PlayerVisibleCard {
 **Логика фильтрации:**
 
 ```typescript
-function toPlayerVisibleCard(card: Card, isSpymaster: boolean): PlayerVisibleCard {
+function toPlayerVisibleCard(
+  card: Card,
+  isSpymaster: boolean,
+): PlayerVisibleCard {
   return {
     id: card.id,
     word: card.word,
     status: card.status,
-    color: (card.status === 'revealed' || isSpymaster) ? card.color : null,
+    color: card.status === "revealed" || isSpymaster ? card.color : null,
     position: card.position,
   };
 }
@@ -657,7 +678,7 @@ interface GameSummary {
   roomCode: string;
   winner: TeamColor;
   myTeam: TeamColor;
-  myRole: 'spymaster' | 'operative';
+  myRole: "spymaster" | "operative";
   checkCorrect: number;
   checkTotal: number;
   playedAt: number;
@@ -665,14 +686,17 @@ interface GameSummary {
 
 interface GameResult {
   gameId: string;
-  board: Card[];                 // Полное поле со всеми цветами
+  board: Card[]; // Полное поле со всеми цветами
   moveHistory: Move[];
-  teams: Record<TeamColor, {
-    players: PlayerInfo[];
-    score: number;
-  }>;
+  teams: Record<
+    TeamColor,
+    {
+      players: PlayerInfo[];
+      score: number;
+    }
+  >;
   winner: TeamColor;
-  duration: number;              // секунды
+  duration: number; // секунды
 }
 
 interface RoomPreview {
@@ -720,34 +744,32 @@ interface RoomPreview {
 
 ```typescript
 // .env
-VITE_USE_MOCK=true      // REST API: mock или real
-VITE_USE_MOCK_AI=true   // AI сервисы: mock или real (отдельный переключатель)
+VITE_USE_MOCK = true; // REST API: mock или real
+VITE_USE_MOCK_AI = true; // AI сервисы: mock или real (отдельный переключатель)
 
 // api/index.ts
-import { mockRestAdapter } from './mock-rest-adapter';
-import { realRestAdapter } from './real-rest-adapter';
+import { mockRestAdapter } from "./mock-rest-adapter";
+import { realRestAdapter } from "./real-rest-adapter";
 
-const USE_MOCK = import.meta.env.VITE_USE_MOCK === 'true';
+const USE_MOCK = import.meta.env.VITE_USE_MOCK === "true";
 
-export const api: CodenamesAPI = USE_MOCK
-  ? mockRestAdapter
-  : realRestAdapter;
+export const api: CodenamesAPI = USE_MOCK ? mockRestAdapter : realRestAdapter;
 
 // ws/index.ts
-import { createMockWSClient } from './mock-ws-client';
-import { createRealWSClient } from './real-ws-client';
+import { createMockWSClient } from "./mock-ws-client";
+import { createRealWSClient } from "./real-ws-client";
 
 export const createWSClient = USE_MOCK
   ? createMockWSClient
   : createRealWSClient;
 
 // ai/index.ts
-import { MockSpymasterService } from './mock-spymaster';
-import { RealSpymasterService } from './real-spymaster';
-import { MockCheckEvaluatorService } from './mock-check-evaluator';
-import { RealCheckEvaluatorService } from './real-check-evaluator';
+import { MockSpymasterService } from "./mock-spymaster";
+import { RealSpymasterService } from "./real-spymaster";
+import { MockCheckEvaluatorService } from "./mock-check-evaluator";
+import { RealCheckEvaluatorService } from "./real-check-evaluator";
 
-const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== 'false';
+const USE_MOCK_AI = import.meta.env.VITE_USE_MOCK_AI !== "false";
 
 export const aiSpymaster: AISpymasterService = USE_MOCK_AI
   ? new MockSpymasterService()
@@ -763,9 +785,9 @@ export const aiCheckEvaluator: AICheckEvaluatorService = USE_MOCK_AI
 ```typescript
 interface WSClient {
   send(event: ClientEvent): void;
-  on<T extends ServerEvent['type']>(
+  on<T extends ServerEvent["type"]>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
+    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
   ): void;
   off(type: string, handler: Function): void;
   disconnect(): void;
@@ -783,17 +805,17 @@ class MockWSClient implements WSClient {
       const responses = this.processEvent(event);
       for (const response of responses) {
         this.emitter.dispatchEvent(
-          new CustomEvent('ws-event', { detail: response })
+          new CustomEvent("ws-event", { detail: response }),
         );
       }
     }, delay);
   }
 
-  on<T extends ServerEvent['type']>(
+  on<T extends ServerEvent["type"]>(
     type: T,
-    handler: (payload: Extract<ServerEvent, { type: T }>['payload']) => void
+    handler: (payload: Extract<ServerEvent, { type: T }>["payload"]) => void,
   ): void {
-    this.emitter.addEventListener('ws-event', ((e: CustomEvent) => {
+    this.emitter.addEventListener("ws-event", ((e: CustomEvent) => {
       const event = e.detail as ServerEvent;
       if (event.type === type) {
         handler(event.payload as any);
@@ -807,17 +829,17 @@ class MockWSClient implements WSClient {
 
 ### Важные различия Mock/Real
 
-| Аспект | Mock Mode | Real Mode |
-|--------|-----------|-----------|
-| Цвета карточек | Все данные на клиенте | Фильтруются сервером |
-| Подсказки AI | Алгоритм подбора категорий | LLM API (Groq/OpenAI) |
-| Проверка знаний AI | Keyword matching | LLM оценка |
-| WebSocket | EventTarget + setTimeout | Socket.IO |
-| Auth | Локальный мок | Firebase Auth |
-| Session Token | Мок: всегда один игрок | UUID + localStorage + серверная Map |
-| Данные | В памяти (сбрасываются) | Firestore / PostgreSQL |
-| Multiplayer | Один "клиент" имитирует всех | Реальные подключения |
-| Задержка | 100-300ms (симулированная) | Реальная сетевая |
+| Аспект             | Mock Mode                    | Real Mode                           |
+| ------------------ | ---------------------------- | ----------------------------------- |
+| Цвета карточек     | Все данные на клиенте        | Фильтруются сервером                |
+| Подсказки AI       | Алгоритм подбора категорий   | LLM API (Groq/OpenAI)               |
+| Проверка знаний AI | Keyword matching             | LLM оценка                          |
+| WebSocket          | EventTarget + setTimeout     | Socket.IO                           |
+| Auth               | Локальный мок                | Firebase Auth                       |
+| Session Token      | Мок: всегда один игрок       | UUID + localStorage + серверная Map |
+| Данные             | В памяти (сбрасываются)      | Firestore / PostgreSQL              |
+| Multiplayer        | Один "клиент" имитирует всех | Реальные подключения                |
+| Задержка           | 100-300ms (симулированная)   | Реальная сетевая                    |
 
 ### Пример Mock-данных
 
@@ -938,23 +960,23 @@ codenames/
 
 ```typescript
 // packages/server/src/ws/auth-middleware.ts
-import { Server, Socket } from 'socket.io';
-import admin from 'firebase-admin';
+import { Server, Socket } from "socket.io";
+import admin from "firebase-admin";
 
 export function setupAuthMiddleware(io: Server) {
   io.use(async (socket: Socket, next) => {
     const token = socket.handshake.auth.token;
     if (!token) {
-      return next(new Error('AUTH_REQUIRED'));
+      return next(new Error("AUTH_REQUIRED"));
     }
 
     try {
       const decoded = await admin.auth().verifyIdToken(token);
       socket.data.userId = decoded.uid;
-      socket.data.displayName = decoded.name || 'Anonymous';
+      socket.data.displayName = decoded.name || "Anonymous";
       next();
     } catch (err) {
-      next(new Error('INVALID_TOKEN'));
+      next(new Error("INVALID_TOKEN"));
     }
   });
 }

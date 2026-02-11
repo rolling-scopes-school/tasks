@@ -12,7 +12,7 @@
 - **Нет своего сервера** — Supabase даёт Auth, DB, Edge Functions из коробки
 - **BaaS CRUD +15** — балл за работу с облачной базой данных
 - **Code Runner в браузере** — WebContainer не требует бэкенда для запуска кода
-- **Ментор фокусируется на AI** — вместо DevOps, **Командный Блок** пишет промпты и контент
+- **Ментор фокусируется на AI** — вместо DevOps, **Mentor** пишет промпты и контент
 - **Быстрый старт** — Supabase проект за 5 минут, авторизация через Google/GitHub
 
 ### Когда НЕ выбирать
@@ -23,14 +23,14 @@
 
 ---
 
-## Команда (кодовые имена)
+## Команда
 
-| Кодовое имя        | Роль             | Компоненты                                                  |
-| ------------------ | ---------------- | ----------------------------------------------------------- |
-| **Эндермен**       | Editor-Dev       | Task Viewer, Code Editor (CodeMirror), Submissions, Hint UI |
-| **Картограф**      | Dashboard-Dev    | Dashboard, Progress Matrix, Rubrics Display, History Page   |
-| **Страж**          | Judge-Dev        | Judge Client, Feedback UI, Score Display, Answer Comparison |
-| **Командный Блок** | Backend (Mentor) | Supabase setup, Edge Functions, AI Judge, Generator Script  |
+| Имя        | Роль             | Компоненты                                                  |
+| ---------- | ---------------- | ----------------------------------------------------------- |
+| **Nika**   | Editor-Dev       | Task Viewer, Code Editor (CodeMirror), Submissions, Hint UI |
+| **Oscar**  | Dashboard-Dev    | Dashboard, Progress Matrix, Rubrics Display, History Page   |
+| **Paula**  | Judge-Dev        | Judge Client, Feedback UI, Score Display, Answer Comparison |
+| **Mentor** | Backend (Mentor) | Supabase setup, Edge Functions, AI Judge, Generator Script  |
 
 ---
 
@@ -138,7 +138,7 @@ sequenceDiagram
 
 ## 2. Декомпозиция компонентов
 
-### Эндермен (Editor-Dev): Task & Editor
+### Nika (Editor-Dev): Task & Editor
 
 | Компонент            | Описание                                             | Сложность |
 | -------------------- | ---------------------------------------------------- | --------- |
@@ -150,7 +150,7 @@ sequenceDiagram
 | `HintPanel`          | Уровневые подсказки: Level 1 → Level 2 → Show Answer | Средняя   |
 | `TopicSelector`      | Список тем с прогресс-индикатором                    | Средняя   |
 
-**API-сервисы Эндермена:**
+**API-сервисы Nikaа:**
 
 ```
 src/api/
@@ -158,7 +158,7 @@ src/api/
 └── submissions.api.ts # submitAnswer, getMySubmissions
 ```
 
-### Картограф (Dashboard-Dev): Dashboard & Progress
+### Oscar (Dashboard-Dev): Dashboard & Progress
 
 | Компонент        | Описание                                             | Сложность |
 | ---------------- | ---------------------------------------------------- | --------- |
@@ -169,7 +169,7 @@ src/api/
 | `StatsCharts`    | Графики прогресса (by topic, by time)                | Средняя   |
 | `ProfilePage`    | Настройки, аватар, статистика пользователя           | Низкая    |
 
-**API-сервисы Картографа:**
+**API-сервисы Oscarа:**
 
 ```
 src/api/
@@ -178,7 +178,7 @@ src/api/
 └── history.api.ts    # getSubmissionHistory, getSubmissionById
 ```
 
-### Страж (Judge-Dev): Judge & Feedback
+### Paula (Judge-Dev): Judge & Feedback
 
 | Компонент          | Описание                                                  | Сложность |
 | ------------------ | --------------------------------------------------------- | --------- |
@@ -189,7 +189,7 @@ src/api/
 | `TestResults`      | Результаты автотестов для coding tasks: ✅/❌ каждый тест | Средняя   |
 | `AIErrorHint`      | AI-подсказка на основе stderr (для coding tasks)          | Средняя   |
 
-**API-сервисы Стража:**
+**API-сервисы Paulaа:**
 
 ```
 src/api/
@@ -197,7 +197,7 @@ src/api/
 └── feedback.api.ts   # getFeedbackHistory, compareFeedback
 ```
 
-### Командный Блок (Mentor): Supabase & AI
+### Mentor (Mentor): Supabase & AI
 
 | Компонент              | Описание                                           | Сложность |
 | ---------------------- | -------------------------------------------------- | --------- |
@@ -1018,41 +1018,41 @@ Choose the most relevant hint or rephrase the error.`;
 
 **Цель:** рабочий core loop без AI и без Code Runner.
 
-| Что делаем                                         | Кто                |
-| -------------------------------------------------- | ------------------ |
-| Роутинг + Layout (Landing, Login, Dashboard, Task) | **Эндермен**       |
-| Mock API Layer (все сервисы с `USE_MOCK=true`)     | **Все**            |
-| Task Viewer + TheoryInput (textarea)               | **Эндермен**       |
-| Dashboard + Stats (моковые данные)                 | **Картограф**      |
-| Judge Level 0 (keyword matching на клиенте)        | **Страж**          |
-| Feedback UI (score + covered/missed)               | **Страж**          |
-| Supabase проект + Auth (Google/GitHub)             | **Командный Блок** |
-| DB schema + seed data (10 задач, 2 темы)           | **Командный Блок** |
+| Что делаем                                         | Кто        |
+| -------------------------------------------------- | ---------- |
+| Роутинг + Layout (Landing, Login, Dashboard, Task) | **Nika**   |
+| Mock API Layer (все сервисы с `USE_MOCK=true`)     | **Все**    |
+| Task Viewer + TheoryInput (textarea)               | **Nika**   |
+| Dashboard + Stats (моковые данные)                 | **Oscar**  |
+| Judge Level 0 (keyword matching на клиенте)        | **Paula**  |
+| Feedback UI (score + covered/missed)               | **Paula**  |
+| Supabase проект + Auth (Google/GitHub)             | **Mentor** |
+| DB schema + seed data (10 задач, 2 темы)           | **Mentor** |
 
 **Что пропускаем:** Code Editor, WebContainer, real LLM, History, Progress Matrix, Profile.
 
 ### Sprint 2 (Недели 3-4): Real AI + Progress
 
-| Что делаем                                   | Кто                |
-| -------------------------------------------- | ------------------ |
-| Edge Function: judge (Groq API)              | **Командный Блок** |
-| Structured Feedback UI (рубрики, comparison) | **Страж**          |
-| Progress Matrix                              | **Картограф**      |
-| History Page                                 | **Картограф**      |
-| Hint System (уровневые подсказки)            | **Эндермен**       |
-| Topic Selector с прогрессом                  | **Эндермен**       |
-| RPC-функции (dashboard stats)                | **Командный Блок** |
+| Что делаем                                   | Кто        |
+| -------------------------------------------- | ---------- |
+| Edge Function: judge (Groq API)              | **Mentor** |
+| Structured Feedback UI (рубрики, comparison) | **Paula**  |
+| Progress Matrix                              | **Oscar**  |
+| History Page                                 | **Oscar**  |
+| Hint System (уровневые подсказки)            | **Nika**   |
+| Topic Selector с прогрессом                  | **Nika**   |
+| RPC-функции (dashboard stats)                | **Mentor** |
 
 ### Sprint 3 (Недели 5-6): Code Runner + Polish
 
-| Что делаем                       | Кто                |
-| -------------------------------- | ------------------ |
-| CodeMirror интеграция            | **Эндермен**       |
-| WebContainer Runner              | **Эндермен**       |
-| Test Results UI                  | **Страж**          |
-| AI Error Hint (Edge Function)    | **Командный Блок** |
-| Stats Charts (графики)           | **Картограф**      |
-| Deploy (Vercel + Supabase Cloud) | **Все**            |
+| Что делаем                       | Кто        |
+| -------------------------------- | ---------- |
+| CodeMirror интеграция            | **Nika**   |
+| WebContainer Runner              | **Nika**   |
+| Test Results UI                  | **Paula**  |
+| AI Error Hint (Edge Function)    | **Mentor** |
+| Stats Charts (графики)           | **Oscar**  |
+| Deploy (Vercel + Supabase Cloud) | **Все**    |
 
 ---
 

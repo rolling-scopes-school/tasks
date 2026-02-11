@@ -17,14 +17,14 @@
 
 ### Сценарии
 
-| Кто выбыл    | На какой неделе | Что делать                                      |
-| ------------ | --------------- | ----------------------------------------------- |
-| Steve (Lead) | 1-2             | Alex берет Auth, Ender — Dashboard              |
-| Steve        | 3-5             | Сократить scope: убрать i18n, theme switcher    |
-| Alex         | 1-2             | Steve берет Widget Engine (простой вариант)     |
-| Alex         | 3-5             | Оставить только Quiz + True/False виджеты       |
-| Ender        | 1-2             | Alex берет Async Sorter, Memory Game отменяется |
-| Ender        | 3-5             | Async Sorter без Touch API и A11y               |
+| Кто выбыл  | На какой неделе | Что делать                                      |
+| ---------- | --------------- | ----------------------------------------------- |
+| Max (Lead) | 1-2             | Alex берет Auth, Dana — Dashboard               |
+| Max        | 3-5             | Сократить scope: убрать i18n, theme switcher    |
+| Alex       | 1-2             | Max берет Widget Engine (простой вариант)       |
+| Alex       | 3-5             | Оставить только Quiz + True/False виджеты       |
+| Dana       | 1-2             | Alex берет Async Sorter, Memory Game отменяется |
+| Dana       | 3-5             | Async Sorter без Touch API и A11y               |
 
 ---
 

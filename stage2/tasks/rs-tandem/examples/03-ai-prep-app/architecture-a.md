@@ -17,20 +17,20 @@
 
 ### Когда НЕ выбирать
 
-- Ментор (**Командный Блок**) не готов писать бэкенд на Node.js
+- Ментор (**Mentor**) не готов писать бэкенд на Node.js
 - В команде нет опыта с Docker / PostgreSQL
 - Хотите сфокусироваться на фронтенде → [Вариант B](./architecture-b.md)
 
 ---
 
-## Команда (кодовые имена)
+## Команда
 
-| Кодовое имя        | Роль             | Компоненты                                                              |
-| ------------------ | ---------------- | ----------------------------------------------------------------------- |
-| **Эндермен**       | Editor-Dev       | Task Viewer, Code Editor (Monaco), Submissions, Hint UI                 |
-| **Картограф**      | Dashboard-Dev    | Dashboard, Progress Matrix, Rubrics Display, History Page               |
-| **Страж**          | Judge-Dev        | Judge Client, Feedback UI, Score Display, Answer Comparison             |
-| **Командный Блок** | Backend (Mentor) | Express API, Judge0 интеграция, AI Judge endpoint, DB, Generator Script |
+| Имя        | Роль             | Компоненты                                                              |
+| ---------- | ---------------- | ----------------------------------------------------------------------- |
+| **Nika**   | Editor-Dev       | Task Viewer, Code Editor (Monaco), Submissions, Hint UI                 |
+| **Oscar**  | Dashboard-Dev    | Dashboard, Progress Matrix, Rubrics Display, History Page               |
+| **Paula**  | Judge-Dev        | Judge Client, Feedback UI, Score Display, Answer Comparison             |
+| **Mentor** | Backend (Mentor) | Express API, Judge0 интеграция, AI Judge endpoint, DB, Generator Script |
 
 ---
 
@@ -108,7 +108,7 @@ sequenceDiagram
 
 ## 2. Декомпозиция компонентов
 
-### Эндермен (Editor-Dev): Task & Editor
+### Nika (Editor-Dev): Task & Editor
 
 | Компонент       | Описание                                                     | Сложность |
 | --------------- | ------------------------------------------------------------ | --------- |
@@ -119,7 +119,7 @@ sequenceDiagram
 | `HintPanel`     | Уровневые подсказки: Level 1 → Level 2 → Show Answer         | Средняя   |
 | `TopicSelector` | Список тем с прогресс-индикатором                            | Средняя   |
 
-**API-сервисы Эндермена:**
+**API-сервисы Nikaа:**
 
 ```
 src/api/
@@ -127,7 +127,7 @@ src/api/
 └── submissions.api.ts # submitAnswer, getMySubmissions
 ```
 
-### Картограф (Dashboard-Dev): Dashboard & Progress
+### Oscar (Dashboard-Dev): Dashboard & Progress
 
 | Компонент        | Описание                                             | Сложность |
 | ---------------- | ---------------------------------------------------- | --------- |
@@ -138,7 +138,7 @@ src/api/
 | `StatsCharts`    | Графики прогресса (by topic, by time)                | Средняя   |
 | `ProfilePage`    | Настройки, аватар, статистика пользователя           | Низкая    |
 
-**API-сервисы Картографа:**
+**API-сервисы Oscarа:**
 
 ```
 src/api/
@@ -147,7 +147,7 @@ src/api/
 └── history.api.ts    # getSubmissionHistory, getSubmissionById
 ```
 
-### Страж (Judge-Dev): Judge & Feedback
+### Paula (Judge-Dev): Judge & Feedback
 
 | Компонент          | Описание                                                  | Сложность |
 | ------------------ | --------------------------------------------------------- | --------- |
@@ -158,7 +158,7 @@ src/api/
 | `TestResults`      | Результаты автотестов для coding tasks: ✅/❌ каждый тест | Средняя   |
 | `AIErrorHint`      | AI-подсказка на основе stderr (для coding tasks)          | Средняя   |
 
-**API-сервисы Стража:**
+**API-сервисы Paulaа:**
 
 ```
 src/api/
@@ -166,7 +166,7 @@ src/api/
 └── feedback.api.ts   # getFeedbackHistory, compareFeedback
 ```
 
-### Командный Блок (Mentor): Backend
+### Mentor (Mentor): Backend
 
 | Компонент          | Описание                                            | Сложность |
 | ------------------ | --------------------------------------------------- | --------- |
@@ -355,12 +355,12 @@ CREATE INDEX idx_tasks_topic ON tasks(topic_id);
 
 ### Аутентификация
 
-| Метод | Endpoint             | Описание             | Кто делает         |
-| ----- | -------------------- | -------------------- | ------------------ |
-| POST  | `/api/auth/register` | Регистрация          | **Командный Блок** |
-| POST  | `/api/auth/login`    | Логин → JWT token    | **Командный Блок** |
-| POST  | `/api/auth/refresh`  | Обновление токена    | **Командный Блок** |
-| GET   | `/api/auth/me`       | Текущий пользователь | **Командный Блок** |
+| Метод | Endpoint             | Описание             | Кто делает |
+| ----- | -------------------- | -------------------- | ---------- |
+| POST  | `/api/auth/register` | Регистрация          | **Mentor** |
+| POST  | `/api/auth/login`    | Логин → JWT token    | **Mentor** |
+| POST  | `/api/auth/refresh`  | Обновление токена    | **Mentor** |
+| GET   | `/api/auth/me`       | Текущий пользователь | **Mentor** |
 
 ### Задачи
 
@@ -530,7 +530,7 @@ function evaluateLevel0(answer: string, task: TaskWithSecret): JudgeResult {
 
 ### Level 1: Real LLM (Groq)
 
-Подключается когда UI готов. **Командный Блок** реализует endpoint.
+Подключается когда UI готов. **Mentor** реализует endpoint.
 
 ```typescript
 // backend/services/judge-level1.ts
@@ -720,40 +720,40 @@ Choose the most relevant hint or rephrase the error simply. Respond in Russian.`
 
 **Цель:** рабочий core loop без AI и без Code Runner.
 
-| Что делаем                                         | Кто                |
-| -------------------------------------------------- | ------------------ |
-| Роутинг + Layout (Landing, Login, Dashboard, Task) | **Эндермен**       |
-| Mock API Layer (все сервисы с `USE_MOCK=true`)     | **Все**            |
-| Task Viewer + TheoryInput (textarea)               | **Эндермен**       |
-| Dashboard + Stats (моковые данные)                 | **Картограф**      |
-| Judge Level 0 (keyword matching)                   | **Страж**          |
-| Feedback UI (score + covered/missed)               | **Страж**          |
-| Express Server скелет + DB schema                  | **Командный Блок** |
-| Seed: 10 задач по 2 темам (JSON)                   | **Командный Блок** |
+| Что делаем                                         | Кто        |
+| -------------------------------------------------- | ---------- |
+| Роутинг + Layout (Landing, Login, Dashboard, Task) | **Nika**   |
+| Mock API Layer (все сервисы с `USE_MOCK=true`)     | **Все**    |
+| Task Viewer + TheoryInput (textarea)               | **Nika**   |
+| Dashboard + Stats (моковые данные)                 | **Oscar**  |
+| Judge Level 0 (keyword matching)                   | **Paula**  |
+| Feedback UI (score + covered/missed)               | **Paula**  |
+| Express Server скелет + DB schema                  | **Mentor** |
+| Seed: 10 задач по 2 темам (JSON)                   | **Mentor** |
 
 **Что пропускаем:** Code Editor, Code Runner, real LLM, History, Progress Matrix, Profile.
 
 ### Sprint 2 (Недели 3-4): Real AI + Progress
 
-| Что делаем                                   | Кто                |
-| -------------------------------------------- | ------------------ |
-| AI Judge Level 1 (Groq API)                  | **Командный Блок** |
-| Structured Feedback UI (рубрики, comparison) | **Страж**          |
-| Progress Matrix                              | **Картограф**      |
-| History Page                                 | **Картограф**      |
-| Hint System (уровневые подсказки)            | **Эндермен**       |
-| Topic Selector с прогрессом                  | **Эндермен**       |
+| Что делаем                                   | Кто        |
+| -------------------------------------------- | ---------- |
+| AI Judge Level 1 (Groq API)                  | **Mentor** |
+| Structured Feedback UI (рубрики, comparison) | **Paula**  |
+| Progress Matrix                              | **Oscar**  |
+| History Page                                 | **Oscar**  |
+| Hint System (уровневые подсказки)            | **Nika**   |
+| Topic Selector с прогрессом                  | **Nika**   |
 
 ### Sprint 3 (Недели 5-6): Code Runner + Polish
 
-| Что делаем                         | Кто                |
-| ---------------------------------- | ------------------ |
-| Monaco Editor интеграция           | **Эндермен**       |
-| Judge0 Code Runner                 | **Командный Блок** |
-| Test Results UI                    | **Страж**          |
-| AI Error Hint (stderr → подсказка) | **Страж**          |
-| Stats Charts (графики)             | **Картограф**      |
-| Deploy (Vercel + Render)           | **Все**            |
+| Что делаем                         | Кто        |
+| ---------------------------------- | ---------- |
+| Monaco Editor интеграция           | **Nika**   |
+| Judge0 Code Runner                 | **Mentor** |
+| Test Results UI                    | **Paula**  |
+| AI Error Hint (stderr → подсказка) | **Paula**  |
+| Stats Charts (графики)             | **Oscar**  |
+| Deploy (Vercel + Render)           | **Все**    |
 
 ---
 

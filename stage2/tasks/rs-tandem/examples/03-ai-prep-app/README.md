@@ -42,27 +42,25 @@ flowchart TD
 
 ### Баллы: итого по ролям
 
-| Роль                      | Вариант A | Вариант B | Разница |
-| ------------------------- | --------- | --------- | ------- |
-| Эндермен (Editor-Dev)     | ~185      | ~185      | ≈0      |
-| Картограф (Dashboard-Dev) | ~175      | ~175      | ≈0      |
-| Страж (Judge-Dev)         | ~180      | ~180      | ≈0      |
-| Командный Блок (Mentor)   | ~195      | ~165      | **-30** |
+| Роль                  | Вариант A | Вариант B | Разница |
+| --------------------- | --------- | --------- | ------- |
+| Nika (Editor-Dev)     | ~185      | ~185      | ≈0      |
+| Oscar (Dashboard-Dev) | ~175      | ~175      | ≈0      |
+| Paula (Judge-Dev)     | ~180      | ~180      | ≈0      |
+| Mentor (Mentor)       | ~195      | ~165      | **-30** |
 
 > **Вывод:** Вариант B проигрывает ~30 баллов только для ментора (нет Custom Backend +30). Для студентов разница минимальна. Выбирайте вариант исходя из навыков команды, а не баллов.
 
 ---
 
-## Кодовые имена команды (Minecraft Edition)
+## Команда
 
-Во всех документах используются Minecraft-тематические позывные:
-
-| Роль                     | Кодовое имя        | Minecraft Reference                            | Зона ответственности                          |
-| ------------------------ | ------------------ | ---------------------------------------------- | --------------------------------------------- |
-| Student 1: Editor-Dev    | **Эндермен**       | Телепортируется между вью, перемещает блоки    | Task Viewer, Code Editor, Submissions, Hints  |
-| Student 2: Dashboard-Dev | **Картограф**      | Картирует территорию, визуализирует мир        | Dashboard, Progress Matrix, Rubrics, History  |
-| Student 3: Judge-Dev     | **Страж**          | Стреляет лазером, оценивает угрозы             | Judge Client, Feedback UI, Scores, Comparison |
-| Mentor: Backend          | **Командный Блок** | Запускает редстоун-скрипты, управляет системой | Generator Script, Code Runner, Judge API, DB  |
+| Имя        | Роль             | Зона ответственности                          |
+| ---------- | ---------------- | --------------------------------------------- |
+| **Nika**   | Editor-Dev       | Task Viewer, Code Editor, Submissions, Hints  |
+| **Oscar**  | Dashboard-Dev    | Dashboard, Progress Matrix, Rubrics, History  |
+| **Paula**  | Judge-Dev        | Judge Client, Feedback UI, Scores, Comparison |
+| **Mentor** | Backend (Mentor) | Generator Script, Code Runner, Judge API, DB  |
 
 ---
 

@@ -18,21 +18,21 @@
 ### Когда НЕ выбирать этот вариант
 
 - В команде нет человека с опытом Node.js (или готовностью вложить 6+ часов в обучение)
-- Тихий Сокет (WS-Dev) — единственный, кто понимает бэкенд. Если он выбудет — проект встанет
+- Boris (WS-Dev) — единственный, кто понимает бэкенд. Если он выбудет — проект встанет
 - Команда предпочитает lower-risk подход → [Вариант B](../variant-b/)
 
 ---
 
-## Команда (кодовые имена)
+## Команда
 
-| Кодовое имя | Роль | Компоненты |
-|-------------|------|------------|
-| **Великий Мёрдж** | Lead | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
-| **Тихий Сокет** | WS-Dev (Backend) | WebSocket Server, Room Management, Game State Machine, Turn Timer |
-| **Быстрый Рендер** | Board-Dev | Game Board UI (5x5), Card Component, Animations, Client State Sync |
-| **Зоркий Линтер** | Check-Dev | Check Phase Popup, Question Bank, Evaluation Modes, i18n |
-| **Мудрый Мок** | AI-Dev | AI Mock Interfaces, Solo Mode, Landing Page, 404 |
-| **Ловкий Роутер** | Lobby-Dev | Lobby, Results Page, Profile, Player Stats, Responsive |
+| Имя        | Роль             | Компоненты                                                                |
+| ---------- | ---------------- | ------------------------------------------------------------------------- |
+| **Alice**  | Lead             | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
+| **Boris**  | WS-Dev (Backend) | WebSocket Server, Room Management, Game State Machine, Turn Timer         |
+| **Victor** | Board-Dev        | Game Board UI (5x5), Card Component, Animations, Client State Sync        |
+| **Diana**  | Check-Dev        | Check Phase Popup, Question Bank, Evaluation Modes, i18n                  |
+| **Eric**   | AI-Dev           | AI Mock Interfaces, Solo Mode, Landing Page, 404                          |
+| **Felix**  | Lobby-Dev        | Lobby, Results Page, Profile, Player Stats, Responsive                    |
 
 ---
 
@@ -49,14 +49,14 @@
 
 ## Навигация по документам
 
-| Документ | Описание | Когда читать |
-|----------|----------|--------------|
-| [scoring-and-plan.md](./scoring-and-plan.md) | Расчёт баллов (6 человек), 6-недельный план работ, Cut Scope Strategy | На этапе планирования |
-| [data-contracts.md](./data-contracts.md) | TypeScript типы, WebSocket протокол, AI интерфейсы, Shared Types (monorepo) | Перед началом разработки |
-| [game-engine.md](./game-engine.md) | Server State Machine, Room Management, Board Generation, DevTools, Headless Testing | При разработке Game Engine |
-| [check-phase.md](./check-phase.md) | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы, отдельный Check-таймер | При разработке Check Phase |
-| [ai-spymaster.md](./ai-spymaster.md) | AI интерфейсы + Mock Implementation (вкл. hardcoded MVP), Solo Mode, AI Pre-generation | При разработке AI / Solo Mode |
-| [risks-and-mitigations.md](./risks-and-mitigations.md) | Bus Factor, WS-Dev SPOF, Cold Start, Session Token, debugging, race conditions | На всех этапах проекта |
+| Документ                                               | Описание                                                                                  | Когда читать                  |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ----------------------------- |
+| [scoring-and-plan.md](./scoring-and-plan.md)           | Расчёт баллов (6 человек), 6-недельный план работ, Cut Scope Strategy                     | На этапе планирования         |
+| [data-contracts.md](./data-contracts.md)               | TypeScript типы, WebSocket протокол, AI интерфейсы, Shared Types (monorepo)               | Перед началом разработки      |
+| [game-engine.md](./game-engine.md)                     | Server State Machine, Room Management, Board Generation, DevTools, Headless Testing       | При разработке Game Engine    |
+| [check-phase.md](./check-phase.md)                     | Фаза проверки знаний: попап, банк вопросов, Self/Peer и AI режимы, отдельный Check-таймер | При разработке Check Phase    |
+| [ai-spymaster.md](./ai-spymaster.md)                   | AI интерфейсы + Mock Implementation (вкл. hardcoded MVP), Solo Mode, AI Pre-generation    | При разработке AI / Solo Mode |
+| [risks-and-mitigations.md](./risks-and-mitigations.md) | Bus Factor, WS-Dev SPOF, Cold Start, Session Token, debugging, race conditions            | На всех этапах проекта        |
 
 ---
 
