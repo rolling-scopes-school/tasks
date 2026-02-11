@@ -62,22 +62,22 @@ flowchart TB
 
 ### Компоненты на стороне хоста
 
-| Компонент          | Ответственный              | Описание                                                                    |
-| ------------------ | -------------------------- | --------------------------------------------------------------------------- |
-| `GameStateMachine` | Тихий Сокет (Firebase-Dev) | Чистый класс: переходы состояний, processGuess, подсчёт очков               |
-| `HostEngine`       | Тихий Сокет (Firebase-Dev) | Обёртка: слушает `actions/`, прогоняет через State Machine, пишет в `game/` |
-| `BoardGenerator`   | Тихий Сокет (Firebase-Dev) | Генерация 25 карточек, Fisher-Yates shuffle, распределение цветов 9/8/7/1   |
-| `ActionQueue`      | Тихий Сокет (Firebase-Dev) | Очередь обработки действий (предотвращение race conditions)                 |
+| Компонент          | Ответственный        | Описание                                                                    |
+| ------------------ | -------------------- | --------------------------------------------------------------------------- |
+| `GameStateMachine` | Boris (Firebase-Dev) | Чистый класс: переходы состояний, processGuess, подсчёт очков               |
+| `HostEngine`       | Boris (Firebase-Dev) | Обёртка: слушает `actions/`, прогоняет через State Machine, пишет в `game/` |
+| `BoardGenerator`   | Boris (Firebase-Dev) | Генерация 25 карточек, Fisher-Yates shuffle, распределение цветов 9/8/7/1   |
+| `ActionQueue`      | Boris (Firebase-Dev) | Очередь обработки действий (предотвращение race conditions)                 |
 
 ### Компоненты на стороне клиента
 
-| Компонент      | Ответственный              | Описание                                                       |
-| -------------- | -------------------------- | -------------------------------------------------------------- |
-| `ClientEngine` | Быстрый Рендер (Board-Dev) | Обёртка: подписка на `game/`, отправка действий через `push()` |
-| `BoardUI`      | Быстрый Рендер (Board-Dev) | Игровое поле 5x5, карточки, анимации                           |
-| `TurnUI`       | Быстрый Рендер (Board-Dev) | Индикатор хода, подсказка, таймер                              |
-| `CheckUI`      | Зоркий Линтер (Check-Dev)  | Попап проверки знаний, Check-таймер                            |
-| `ScoreUI`      | Быстрый Рендер (Board-Dev) | Счёт команд, оставшиеся карточки                               |
+| Компонент      | Ответственный      | Описание                                                       |
+| -------------- | ------------------ | -------------------------------------------------------------- |
+| `ClientEngine` | Victor (Board-Dev) | Обёртка: подписка на `game/`, отправка действий через `push()` |
+| `BoardUI`      | Victor (Board-Dev) | Игровое поле 5x5, карточки, анимации                           |
+| `TurnUI`       | Victor (Board-Dev) | Индикатор хода, подсказка, таймер                              |
+| `CheckUI`      | Diana (Check-Dev)  | Попап проверки знаний, Check-таймер                            |
+| `ScoreUI`      | Victor (Board-Dev) | Счёт команд, оставшиеся карточки                               |
 
 ### Сравнение с Вариантом A
 
@@ -2029,7 +2029,7 @@ flowchart TD
 ```
 +--------------------------------------------------------------+
 |  CODENAMES: Interview Edition          Room: js-masters-42    |
-|                                         Host: Тихий Сокет     |
+|                                         Host: Boris     |
 |                                                               |
 |  Red: 5 left    Blue: 4 left    Timer: 1:45    Check: --     |
 +---------------------------------------------------------------+
@@ -2163,28 +2163,28 @@ flowchart TD
 
 ## 18. Эстимейт: Game Engine
 
-| Задача                                     | Min     | Max      | Avg       | Кто                                                     | Примечание                             |
-| ------------------------------------------ | ------- | -------- | --------- | ------------------------------------------------------- | -------------------------------------- |
-| Firebase проект + Realtime DB setup        | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | Создание проекта, конфигурация SDK     |
-| Firebase Security Rules v1                 | 2ч      | 3ч       | 2.5ч      | Тихий Сокет (Firebase-Dev)                              | Базовая защита board-secret            |
-| Firebase Security Rules v2 (детальная)     | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev) + Великий Мёрдж (Lead)       | Spymaster view, валидация              |
-| GameStateMachine (чистый класс)            | 8ч      | 16ч      | 12ч       | Тихий Сокет (Firebase-Dev)                              | Ядро игры — все переходы, processGuess |
-| HostEngine (Firebase обёртка)              | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | onChildAdded, ActionQueue, syncState   |
-| ClientEngine (Firebase подписка)           | 3ч      | 5ч       | 4ч        | Быстрый Рендер (Board-Dev)                              | onValue, push, подписки                |
-| Board generation + цвета 9/8/7/1           | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | Fisher-Yates, генерация                |
-| Room management (create/join/leave)        | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | Валидация, edge cases                  |
-| Turn management + два таймера              | 4ч      | 8ч       | 6ч        | Тихий Сокет (Firebase-Dev)                              | Глобальный 2мин + Check 30с            |
-| Spymaster/Operative фильтрация             | 2ч      | 4ч       | 3ч        | Тихий Сокет (Firebase-Dev)                              | board-secret, spymaster-view           |
-| Presence System (onDisconnect)             | 2ч      | 3ч       | 2.5ч      | Тихий Сокет (Firebase-Dev)                              | Обнаружение отключения хоста           |
-| Game Board UI (5x5, карточки, CSS)         | 5ч      | 10ч      | 7.5ч      | Быстрый Рендер (Board-Dev)                              | HTML/CSS, адаптивность                 |
-| Card animations (flip, reveal, optimistic) | 3ч      | 6ч       | 4.5ч      | Быстрый Рендер (Board-Dev)                              | CSS transitions + откат                |
-| Turn indicator, clue display, score        | 2ч      | 4ч       | 3ч        | Быстрый Рендер (Board-Dev)                              | UI-компоненты                          |
-| DevTools Panel (God Mode)                  | 2ч      | 4ч       | 3ч        | Великий Мёрдж (Lead)                                    | Debug-панель, localhost only           |
-| Headless state machine unit tests          | 3ч      | 6ч       | 4.5ч      | Зоркий Линтер (Check-Dev)                               | Vitest, 90% покрытие логики            |
-| Integration testing (Firebase Emulator)    | 4ч      | 8ч       | 6ч        | Быстрый Рендер (Board-Dev) + Тихий Сокет (Firebase-Dev) | Emulator + real flow                   |
-| **Итого**                                  | **54ч** | **105ч** | **79.5ч** |                                                         |                                        |
+| Задача                                     | Min     | Max      | Avg       | Кто                                       | Примечание                             |
+| ------------------------------------------ | ------- | -------- | --------- | ----------------------------------------- | -------------------------------------- |
+| Firebase проект + Realtime DB setup        | 2ч      | 4ч       | 3ч        | Boris (Firebase-Dev)                      | Создание проекта, конфигурация SDK     |
+| Firebase Security Rules v1                 | 2ч      | 3ч       | 2.5ч      | Boris (Firebase-Dev)                      | Базовая защита board-secret            |
+| Firebase Security Rules v2 (детальная)     | 2ч      | 4ч       | 3ч        | Boris (Firebase-Dev) + Alice (Lead)       | Spymaster view, валидация              |
+| GameStateMachine (чистый класс)            | 8ч      | 16ч      | 12ч       | Boris (Firebase-Dev)                      | Ядро игры — все переходы, processGuess |
+| HostEngine (Firebase обёртка)              | 4ч      | 8ч       | 6ч        | Boris (Firebase-Dev)                      | onChildAdded, ActionQueue, syncState   |
+| ClientEngine (Firebase подписка)           | 3ч      | 5ч       | 4ч        | Victor (Board-Dev)                        | onValue, push, подписки                |
+| Board generation + цвета 9/8/7/1           | 2ч      | 4ч       | 3ч        | Boris (Firebase-Dev)                      | Fisher-Yates, генерация                |
+| Room management (create/join/leave)        | 4ч      | 8ч       | 6ч        | Boris (Firebase-Dev)                      | Валидация, edge cases                  |
+| Turn management + два таймера              | 4ч      | 8ч       | 6ч        | Boris (Firebase-Dev)                      | Глобальный 2мин + Check 30с            |
+| Spymaster/Operative фильтрация             | 2ч      | 4ч       | 3ч        | Boris (Firebase-Dev)                      | board-secret, spymaster-view           |
+| Presence System (onDisconnect)             | 2ч      | 3ч       | 2.5ч      | Boris (Firebase-Dev)                      | Обнаружение отключения хоста           |
+| Game Board UI (5x5, карточки, CSS)         | 5ч      | 10ч      | 7.5ч      | Victor (Board-Dev)                        | HTML/CSS, адаптивность                 |
+| Card animations (flip, reveal, optimistic) | 3ч      | 6ч       | 4.5ч      | Victor (Board-Dev)                        | CSS transitions + откат                |
+| Turn indicator, clue display, score        | 2ч      | 4ч       | 3ч        | Victor (Board-Dev)                        | UI-компоненты                          |
+| DevTools Panel (God Mode)                  | 2ч      | 4ч       | 3ч        | Alice (Lead)                              | Debug-панель, localhost only           |
+| Headless state machine unit tests          | 3ч      | 6ч       | 4.5ч      | Diana (Check-Dev)                         | Vitest, 90% покрытие логики            |
+| Integration testing (Firebase Emulator)    | 4ч      | 8ч       | 6ч        | Victor (Board-Dev) + Boris (Firebase-Dev) | Emulator + real flow                   |
+| **Итого**                                  | **54ч** | **105ч** | **79.5ч** |                                           |                                        |
 
-> **Примечание:** `GameStateMachine` — самая сложная задача (12ч avg). Много edge cases: одновременные клики, отключение хоста во время хода, Check Phase посреди угадывания, таймаут Check-таймера при активном глобальном таймере. **Тихий Сокет (Firebase-Dev)** должен начинать эту задачу с первых дней недели 2. DevTools Panel и юнит-тесты окупаются уже на первой неделе активной разработки движка — не откладывайте их.
+> **Примечание:** `GameStateMachine` — самая сложная задача (12ч avg). Много edge cases: одновременные клики, отключение хоста во время хода, Check Phase посреди угадывания, таймаут Check-таймера при активном глобальном таймере. **Boris (Firebase-Dev)** должен начинать эту задачу с первых дней недели 2. DevTools Panel и юнит-тесты окупаются уже на первой неделе активной разработки движка — не откладывайте их.
 
 > **Сравнение с Вариантом A (70.5ч avg):** Firebase-вариант чуть дороже (+9ч) из-за дополнительных задач: Security Rules, HostEngine обёртка, Presence System. Но эти задачи проще серверного WS-кода (Express + Socket.IO).
 

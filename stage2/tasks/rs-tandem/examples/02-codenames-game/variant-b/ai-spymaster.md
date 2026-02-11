@@ -22,7 +22,7 @@
 - В Solo Mode — напрямую в браузере
 - В будущем Multiplayer AI-режиме — через Cloud Functions (Firebase backend)
 
-Ответственный за AI-компоненты: **Мудрый Мок (AI-Dev)**.
+Ответственный за AI-компоненты: **Eric (AI-Dev)**.
 
 ---
 
@@ -171,7 +171,7 @@ src/
     └── questions.json             ← Pre-generated контент
 ```
 
-> **Мудрый Мок** работает в папках `src/ai/` и `src/solo/`. Файлы в `src/firebase/` — зона ответственности **Тихого Сокета (Firebase-Dev)**.
+> **Eric** работает в папках `src/ai/` и `src/solo/`. Файлы в `src/firebase/` — зона ответственности **Тихого Сокета (Firebase-Dev)**.
 
 ---
 
@@ -381,7 +381,7 @@ class HardcodedSpymasterService implements AISpymasterService {
 
 **Почему этого хватает для демо:** на неделе 3 важно показать работающий game loop, UI, базовое взаимодействие с Firebase Realtime DB (для Multiplayer). AI подсказка — это одна строка текста на экране. Hardcoded lookup прекрасно справляется. Не тратьте время на "умный" алгоритм, пока базовый флоу не работает.
 
-> **Разделение ответственности:** Пока **Тихий Сокет (Firebase-Dev)** настраивает Firebase Realtime DB и Security Rules для Multiplayer, **Мудрый Мок (AI-Dev)** спокойно пишет Hardcoded MVP для Solo Mode — эти задачи не пересекаются.
+> **Разделение ответственности:** Пока **Boris (Firebase-Dev)** настраивает Firebase Realtime DB и Security Rules для Multiplayer, **Eric (AI-Dev)** спокойно пишет Hardcoded MVP для Solo Mode — эти задачи не пересекаются.
 
 ### Уровень 1: Category Matching (для финальной версии, недели 4-5)
 
@@ -575,7 +575,7 @@ class RealSpymasterService implements AISpymasterService {
 }
 ```
 
-> **Мудрый Мок** реализует Уровень 2 только на неделе 6 и только если Уровень 1 полностью протестирован.
+> **Eric** реализует Уровень 2 только на неделе 6 и только если Уровень 1 полностью протестирован.
 
 ### Рекомендуемый план по неделям
 
@@ -1234,7 +1234,7 @@ async function saveSoloResultToFirebase(
 }
 ```
 
-> **Рекомендация от Мудрого Мока:** Начните с `localStorage` — это проще и не требует аутентификации. Firebase-сохранение можно добавить позже, когда **Тихий Сокет (Firebase-Dev)** настроит Firebase Auth.
+> **Рекомендация от Мудрого Мока:** Начните с `localStorage` — это проще и не требует аутентификации. Firebase-сохранение можно добавить позже, когда **Boris (Firebase-Dev)** настроит Firebase Auth.
 
 ---
 
@@ -1378,25 +1378,25 @@ Respond in JSON format:
 └─────────────────┘      └──────────────────────┘      └────────────┘
 ```
 
-> **Совет от Великого Мёрджа:** Настройка Cloud Functions — отдельная задача. Не включайте её в скоуп Мудрого Мока. Если команда решит подключить реальный LLM, пусть **Тихий Сокет (Firebase-Dev)** настроит Cloud Function, а **Мудрый Мок (AI-Dev)** подготовит промпты и парсинг ответа.
+> **Совет от Великого Мёрджа:** Настройка Cloud Functions — отдельная задача. Не включайте её в скоуп Мудрого Мока. Если команда решит подключить реальный LLM, пусть **Boris (Firebase-Dev)** настроит Cloud Function, а **Eric (AI-Dev)** подготовит промпты и парсинг ответа.
 
 ---
 
 ## 11. Эстимейт: AI + Solo Mode
 
-| Задача                                      | Min     | Max     | Avg     | Кто                 | Примечание                         |
-| ------------------------------------------- | ------- | ------- | ------- | ------------------- | ---------------------------------- |
-| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч    | Мудрый Мок (AI-Dev) | Оба сервиса                        |
-| Pre-generation questions.json               | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
-| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч    | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо    |
-| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч      | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм         |
-| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч    | Мудрый Мок (AI-Dev) | Keyword extraction + scoring       |
-| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | Настройки, история, кнопки         |
-| Solo Game Controller (game loop)            | 4ч      | 8ч      | 6ч      | Мудрый Мок (AI-Dev) | Проще чем в Variant A — нет WS     |
-| Landing page                                | 2ч      | 4ч      | 3ч      | Мудрый Мок (AI-Dev) | Описание игры, кнопки              |
-| 404 page                                    | 1ч      | 2ч      | 1.5ч    | Мудрый Мок (AI-Dev) | Not Found                          |
-| Unit тесты моков                            | 3ч      | 5ч      | 4ч      | Мудрый Мок (AI-Dev) | Edge cases                         |
-| **Итого**                                   | **24ч** | **46ч** | **35ч** |                     |                                    |
+| Задача                                      | Min     | Max     | Avg     | Кто           | Примечание                         |
+| ------------------------------------------- | ------- | ------- | ------- | ------------- | ---------------------------------- |
+| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч    | Eric (AI-Dev) | Оба сервиса                        |
+| Pre-generation questions.json               | 2ч      | 4ч      | 3ч      | Eric (AI-Dev) | 100 концептов через ChatGPT/Claude |
+| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч    | Eric (AI-Dev) | Lookup-таблица для первого демо    |
+| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч      | Eric (AI-Dev) | WORD_CATEGORIES + алгоритм         |
+| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч    | Eric (AI-Dev) | Keyword extraction + scoring       |
+| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч      | Eric (AI-Dev) | Настройки, история, кнопки         |
+| Solo Game Controller (game loop)            | 4ч      | 8ч      | 6ч      | Eric (AI-Dev) | Проще чем в Variant A — нет WS     |
+| Landing page                                | 2ч      | 4ч      | 3ч      | Eric (AI-Dev) | Описание игры, кнопки              |
+| 404 page                                    | 1ч      | 2ч      | 1.5ч    | Eric (AI-Dev) | Not Found                          |
+| Unit тесты моков                            | 3ч      | 5ч      | 4ч      | Eric (AI-Dev) | Edge cases                         |
+| **Итого**                                   | **24ч** | **46ч** | **35ч** |               |                                    |
 
 > **Сравнение с Variant A:** В WebSocket-варианте Solo Game Controller оценивается в 5-10ч (avg 7.5ч), потому что нужно мокировать WebSocket или дублировать серверную логику. В Firebase-варианте — 4-8ч (avg 6ч), потому что game loop просто работает локально без сетевых абстракций. Итого: **24-46ч** вместо 25-48ч.
 
@@ -1423,7 +1423,7 @@ Respond in JSON format:
 | Landing page           | Дизайн от Быстрого Рендера                        | Частично         |
 | 404 page               | Роутинг от Ловкого Роутера                        | Частично         |
 
-> **Великий Мёрдж (Lead)** должен обеспечить, чтобы `GameStateMachine` был готов к неделе 4, иначе **Мудрый Мок** не сможет начать Solo Game Controller вовремя.
+> **Alice (Lead)** должен обеспечить, чтобы `GameStateMachine` был готов к неделе 4, иначе **Eric** не сможет начать Solo Game Controller вовремя.
 
 ---
 
@@ -1444,7 +1444,7 @@ async generateClue(context: SpymasterContext): Promise<AIClue> {
 }
 ```
 
-**Почему это важно:** Без задержки UI "мигает" — подсказка появляется мгновенно, и игрок не чувствует, что AI "думает". Прогресс-бар / спиннер теряют смысл. **Быстрый Рендер (Board-Dev)** добавит анимацию "думания", но она работает только если есть задержка.
+**Почему это важно:** Без задержки UI "мигает" — подсказка появляется мгновенно, и игрок не чувствует, что AI "думает". Прогресс-бар / спиннер теряют смысл. **Victor (Board-Dev)** добавит анимацию "думания", но она работает только если есть задержка.
 
 ### 2. Мок подсказывает бомбу
 
@@ -1470,7 +1470,7 @@ const matchRatio = matches.length / keywords.length;
 const pointGranted = matchRatio >= 0.3;
 ```
 
-**Почему это важно:** Игра должна быть fun. Если мок слишком строгий, никто не набирает очки и мотивация играть пропадает. Порог 30% — это баланс между "слишком легко" и "невозможно". **Зоркий Линтер (Check-Dev)** может настроить порог через UI позже.
+**Почему это важно:** Игра должна быть fun. Если мок слишком строгий, никто не набирает очки и мотивация играть пропадает. Порог 30% — это баланс между "слишком легко" и "невозможно". **Diana (Check-Dev)** может настроить порог через UI позже.
 
 ### 4. Нет fallback при пустом ответе
 
@@ -1528,38 +1528,38 @@ try {
 
 ## Распределение ролей в команде
 
-| Никнейм                    | Роль         | Зона ответственности                             |
-| -------------------------- | ------------ | ------------------------------------------------ |
-| Великий Мёрдж (Lead)       | Lead         | Архитектура, code review, интеграция             |
-| Тихий Сокет (Firebase-Dev) | Firebase-Dev | Firebase Realtime DB, Security Rules, Host Logic |
-| Быстрый Рендер (Board-Dev) | Board-Dev    | Игровое поле, карточки, анимации                 |
-| Зоркий Линтер (Check-Dev)  | Check-Dev    | Check Phase, вопросы, оценка ответов             |
-| Мудрый Мок (AI-Dev)        | AI-Dev       | AI моки, Solo Mode, questions.json               |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev    | Лобби, роутинг, создание комнат                  |
+| Имя                  | Роль         | Зона ответственности                             |
+| -------------------- | ------------ | ------------------------------------------------ |
+| Alice (Lead)         | Lead         | Архитектура, code review, интеграция             |
+| Boris (Firebase-Dev) | Firebase-Dev | Firebase Realtime DB, Security Rules, Host Logic |
+| Victor (Board-Dev)   | Board-Dev    | Игровое поле, карточки, анимации                 |
+| Diana (Check-Dev)    | Check-Dev    | Check Phase, вопросы, оценка ответов             |
+| Eric (AI-Dev)        | AI-Dev       | AI моки, Solo Mode, questions.json               |
+| Felix (Lobby-Dev)    | Lobby-Dev    | Лобби, роутинг, создание комнат                  |
 
 ### Взаимодействие Мудрого Мока с командой
 
 ```
-                    Великий Мёрдж (Lead)
+                    Alice (Lead)
                      │ Архитектура,
                      │ GameStateMachine
                      ▼
-    ┌────────── Мудрый Мок (AI-Dev) ──────────┐
+    ┌────────── Eric (AI-Dev) ──────────┐
     │                                          │
     │  Solo Mode, AI моки, questions.json       │
     │                                          │
     └──┬──────────────┬────────────────────┬───┘
        │              │                    │
        ▼              ▼                    ▼
-  Быстрый Рендер  Зоркий Линтер     Ловкий Роутер
+  Victor  Diana     Felix
   (UI компоненты) (Check Phase        (Роутинг на
   (Board для       интеграция)        /solo, /solo/game)
    Solo Mode)
 ```
 
-- **Мудрый Мок** даёт **Зоркому Линтеру** интерфейс `AICheckEvaluatorService` — Линтер интегрирует его в Check Phase UI
-- **Мудрый Мок** использует Board-компоненты от **Быстрого Рендера** в Solo Mode
-- **Мудрый Мок** согласовывает с **Ловким Роутером** маршруты `/solo`, `/solo/game`, `/solo/results`
-- **Тихий Сокет (Firebase-Dev)** и **Мудрый Мок** работают независимо — Solo Mode не трогает Firebase
+- **Eric** даёт **Зоркому Линтеру** интерфейс `AICheckEvaluatorService` — Линтер интегрирует его в Check Phase UI
+- **Eric** использует Board-компоненты от **Быстрого Рендера** в Solo Mode
+- **Eric** согласовывает с **Ловким Роутером** маршруты `/solo`, `/solo/game`, `/solo/results`
+- **Boris (Firebase-Dev)** и **Eric** работают независимо — Solo Mode не трогает Firebase
 
 > **Примечание:** Mock Spymaster — самая интересная часть. Хороший мок создаёт иллюзию "умного AI" за счёт предопределённых категорий и случайности. Чем больше категорий в `WORD_CATEGORIES`, тем реалистичнее. Но начинайте с Уровня 0 (hardcoded) — для первого демо этого более чем достаточно.

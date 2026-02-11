@@ -68,16 +68,16 @@ flowchart LR
 
 ---
 
-## Команда (кодовые имена)
+## Команда
 
-| Кодовое имя        | Роль         | Компоненты                                                                |
-| ------------------ | ------------ | ------------------------------------------------------------------------- |
-| **Великий Мёрдж**  | Lead         | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
-| **Тихий Сокет**    | Firebase-Dev | Firebase Setup, Realtime DB Schema, Security Rules, Host Logic            |
-| **Быстрый Рендер** | Board-Dev    | Game Board UI (5x5), Card Component, Animations, Client State Sync        |
-| **Зоркий Линтер**  | Check-Dev    | Check Phase Popup, Question Bank, Evaluation Modes, i18n                  |
-| **Мудрый Мок**     | AI-Dev       | AI Mock Interfaces, Solo Mode, Landing Page, 404                          |
-| **Ловкий Роутер**  | Lobby-Dev    | Lobby, Results Page, Profile, Player Stats, Responsive                    |
+| Имя        | Роль         | Компоненты                                                                |
+| ---------- | ------------ | ------------------------------------------------------------------------- |
+| **Alice**  | Lead         | Auth, CI/CD, Deployment, API Layer, Theme Switcher, Global Error Handling |
+| **Boris**  | Firebase-Dev | Firebase Setup, Realtime DB Schema, Security Rules, Host Logic            |
+| **Victor** | Board-Dev    | Game Board UI (5x5), Card Component, Animations, Client State Sync        |
+| **Diana**  | Check-Dev    | Check Phase Popup, Question Bank, Evaluation Modes, i18n                  |
+| **Eric**   | AI-Dev       | AI Mock Interfaces, Solo Mode, Landing Page, 404                          |
+| **Felix**  | Lobby-Dev    | Lobby, Results Page, Profile, Player Stats, Responsive                    |
 
 ---
 

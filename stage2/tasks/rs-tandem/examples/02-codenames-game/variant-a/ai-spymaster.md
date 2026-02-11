@@ -966,30 +966,30 @@ Respond in JSON format:
 
 ## Эстимейт: AI + Solo Mode
 
-| Задача                                      | Min     | Max     | Avg       | Кто                 | Примечание                         |
-| ------------------------------------------- | ------- | ------- | --------- | ------------------- | ---------------------------------- |
-| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч      | Мудрый Мок (AI-Dev) | Оба сервиса                        |
-| Pre-generation questions.json               | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | 100 концептов через ChatGPT/Claude |
-| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч      | Мудрый Мок (AI-Dev) | Lookup-таблица для первого демо    |
-| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч        | Мудрый Мок (AI-Dev) | WORD_CATEGORIES + алгоритм         |
-| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч      | Мудрый Мок (AI-Dev) | Keyword extraction + scoring       |
-| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | Настройки, кнопки                  |
-| Solo Game Controller (game loop)            | 5ч      | 10ч     | 7.5ч      | Мудрый Мок (AI-Dev) | Оркестрация AI + game              |
-| Landing page                                | 2ч      | 4ч      | 3ч        | Мудрый Мок (AI-Dev) | Описание игры, кнопки              |
-| 404 page                                    | 1ч      | 2ч      | 1.5ч      | Мудрый Мок (AI-Dev) | Not Found                          |
-| Unit тесты моков                            | 3ч      | 5ч      | 4ч        | Мудрый Мок (AI-Dev) | Edge cases                         |
-| **Итого**                                   | **25ч** | **48ч** | **36.5ч** |                     |                                    |
+| Задача                                      | Min     | Max     | Avg       | Кто           | Примечание                         |
+| ------------------------------------------- | ------- | ------- | --------- | ------------- | ---------------------------------- |
+| Interface definitions (TypeScript)          | 2ч      | 3ч      | 2.5ч      | Eric (AI-Dev) | Оба сервиса                        |
+| Pre-generation questions.json               | 2ч      | 4ч      | 3ч        | Eric (AI-Dev) | 100 концептов через ChatGPT/Claude |
+| Hardcoded Spymaster (Level 0)               | 1ч      | 2ч      | 1.5ч      | Eric (AI-Dev) | Lookup-таблица для первого демо    |
+| Mock Spymaster (category matching, Level 1) | 4ч      | 8ч      | 6ч        | Eric (AI-Dev) | WORD_CATEGORIES + алгоритм         |
+| Mock Check Evaluator (keyword matching)     | 3ч      | 6ч      | 4.5ч      | Eric (AI-Dev) | Keyword extraction + scoring       |
+| Solo Setup page (UI)                        | 2ч      | 4ч      | 3ч        | Eric (AI-Dev) | Настройки, кнопки                  |
+| Solo Game Controller (game loop)            | 5ч      | 10ч     | 7.5ч      | Eric (AI-Dev) | Оркестрация AI + game              |
+| Landing page                                | 2ч      | 4ч      | 3ч        | Eric (AI-Dev) | Описание игры, кнопки              |
+| 404 page                                    | 1ч      | 2ч      | 1.5ч      | Eric (AI-Dev) | Not Found                          |
+| Unit тесты моков                            | 3ч      | 5ч      | 4ч        | Eric (AI-Dev) | Edge cases                         |
+| **Итого**                                   | **25ч** | **48ч** | **36.5ч** |               |                                    |
 
 ### Распределение ролей в команде
 
-| Никнейм                    | Роль      | Зона ответственности                 |
-| -------------------------- | --------- | ------------------------------------ |
-| Великий Мёрдж (Lead)       | Lead      | Архитектура, code review, интеграция |
-| Тихий Сокет (WS-Dev)       | WS-Dev    | WebSocket сервер, Socket.IO, события |
-| Быстрый Рендер (Board-Dev) | Board-Dev | Игровое поле, карточки, анимации     |
-| Зоркий Линтер (Check-Dev)  | Check-Dev | Check Phase, вопросы, оценка ответов |
-| Мудрый Мок (AI-Dev)        | AI-Dev    | AI моки, Solo Mode, questions.json   |
-| Ловкий Роутер (Lobby-Dev)  | Lobby-Dev | Лобби, роутинг, создание комнат      |
+| Имя                | Роль      | Зона ответственности                 |
+| ------------------ | --------- | ------------------------------------ |
+| Alice (Lead)       | Lead      | Архитектура, code review, интеграция |
+| Boris (WS-Dev)     | WS-Dev    | WebSocket сервер, Socket.IO, события |
+| Victor (Board-Dev) | Board-Dev | Игровое поле, карточки, анимации     |
+| Diana (Check-Dev)  | Check-Dev | Check Phase, вопросы, оценка ответов |
+| Eric (AI-Dev)      | AI-Dev    | AI моки, Solo Mode, questions.json   |
+| Felix (Lobby-Dev)  | Lobby-Dev | Лобби, роутинг, создание комнат      |
 
 > **Примечание:** Mock Spymaster — самая интересная часть. Хороший мок создаёт иллюзию "умного AI" за счёт предопределённых категорий и случайности. Чем больше категорий в WORD_CATEGORIES, тем реалистичнее. Но начинайте с Уровня 0 (hardcoded) — для первого демо этого более чем достаточно.
 

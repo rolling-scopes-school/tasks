@@ -6,22 +6,22 @@
 
 ## Ответственные за контракты
 
-| Кодовое имя                    | Роль         | Зона ответственности в контрактах                                             |
-| ------------------------------ | ------------ | ----------------------------------------------------------------------------- |
-| **Великий Мёрдж** (Lead)       | Lead         | Общая структура типов, Auth, Firebase config, Shared Types                    |
-| **Тихий Сокет** (Firebase-Dev) | Firebase-Dev | Firebase Realtime DB Schema, Security Rules, Host Logic, PlayerAction         |
-| **Быстрый Рендер** (Board-Dev) | Board-Dev    | GameStateForPlayer, PlayerVisibleCard, Board-related types, Client State Sync |
-| **Зоркий Линтер** (Check-Dev)  | Check-Dev    | Check Phase types, CheckQuestion, CheckSession, CheckResult                   |
-| **Мудрый Мок** (AI-Dev)        | AI-Dev       | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode                    |
-| **Ловкий Роутер** (Lobby-Dev)  | Lobby-Dev    | RoomPreview, Lobby, PlayerStats, Profile                                      |
+| Имя                      | Роль         | Зона ответственности в контрактах                                             |
+| ------------------------ | ------------ | ----------------------------------------------------------------------------- |
+| **Alice** (Lead)         | Lead         | Общая структура типов, Auth, Firebase config, Shared Types                    |
+| **Boris** (Firebase-Dev) | Firebase-Dev | Firebase Realtime DB Schema, Security Rules, Host Logic, PlayerAction         |
+| **Victor** (Board-Dev)   | Board-Dev    | GameStateForPlayer, PlayerVisibleCard, Board-related types, Client State Sync |
+| **Diana** (Check-Dev)    | Check-Dev    | Check Phase types, CheckQuestion, CheckSession, CheckResult                   |
+| **Eric** (AI-Dev)        | AI-Dev       | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode                    |
+| **Felix** (Lobby-Dev)    | Lobby-Dev    | RoomPreview, Lobby, PlayerStats, Profile                                      |
 
-> **Правило:** Если **Тихий Сокет** (Firebase-Dev) меняет схему Firebase — он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Зоркий Линтер** (Check-Dev) добавляет поле в `CheckResult` — он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
+> **Правило:** Если **Boris** (Firebase-Dev) меняет схему Firebase — он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Diana** (Check-Dev) добавляет поле в `CheckResult` — он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
 
 ---
 
 ## Shared Types (общая папка вместо NPM Workspaces)
 
-> **Ключевая идея:** NPM Workspaces / monorepo — это overkill для Firebase-only проекта без сервера. Вместо этого все типы из данного документа живут в общей папке `src/shared/`. И хост-логика, и UI-страницы импортируют типы оттуда. Если **Тихий Сокет** (Firebase-Dev) переименует поле в `PlayerAction` — все компоненты, использующие этот тип, не скомпилируются. Это не баг, это защита.
+> **Ключевая идея:** NPM Workspaces / monorepo — это overkill для Firebase-only проекта без сервера. Вместо этого все типы из данного документа живут в общей папке `src/shared/`. И хост-логика, и UI-страницы импортируют типы оттуда. Если **Boris** (Firebase-Dev) переименует поле в `PlayerAction` — все компоненты, использующие этот тип, не скомпилируются. Это не баг, это защита.
 
 ### Структура проекта
 
@@ -75,9 +75,9 @@ import { PlayerAction } from "../../shared/firebase-schema";
 
 ### Почему это важно
 
-- **Тихий Сокет** (Firebase-Dev) переименовал поле `type` в `PlayerAction` — все обработчики в `state-machine.ts` и клиентском коде сразу падают на `tsc`. Не через 3 дня на демо, а прямо сейчас.
-- **Зоркий Линтер** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Мудрый Мок** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
-- **Ловкий Роутер** (Lobby-Dev) изменил `RoomPreview` — страница лобби не скомпилируется, пока не обновит шаблон.
+- **Boris** (Firebase-Dev) переименовал поле `type` в `PlayerAction` — все обработчики в `state-machine.ts` и клиентском коде сразу падают на `tsc`. Не через 3 дня на демо, а прямо сейчас.
+- **Diana** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Eric** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
+- **Felix** (Lobby-Dev) изменил `RoomPreview` — страница лобби не скомпилируется, пока не обновит шаблон.
 - `npm run typecheck` в CI проверяет весь проект. Сломанный контракт = красный билд = нельзя мёрджить.
 
 ---
@@ -761,7 +761,7 @@ interface QuestionBank {
 
 ## AI Interfaces (ВСЕ МОКНУТЫ)
 
-> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Мудрый Мок** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev).
+> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Eric** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev).
 
 ### AI Spymaster (генерация подсказок)
 

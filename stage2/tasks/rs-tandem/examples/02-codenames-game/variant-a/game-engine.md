@@ -1220,23 +1220,23 @@ socket.on("room:rejoin", ({ roomCode }) => {
 
 ## Эстимейт: Game Engine
 
-| Задача                                     | Min     | Max     | Avg       | Кто                                               | Примечание                   |
-| ------------------------------------------ | ------- | ------- | --------- | ------------------------------------------------- | ---------------------------- |
-| WS Server scaffold (Express + Socket.IO)   | 3ч      | 6ч      | 4.5ч      | Тихий Сокет (WS-Dev)                              | Setup, middleware            |
-| Room management (create/join/leave/roles)  | 4ч      | 8ч      | 6ч        | Тихий Сокет (WS-Dev)                              | Валидация, edge cases        |
-| Game state machine (сервер)                | 8ч      | 16ч     | 12ч       | Тихий Сокет (WS-Dev)                              | Ядро всей игры               |
-| Board generation + color assignment        | 2ч      | 4ч      | 3ч        | Тихий Сокет (WS-Dev)                              | Fisher-Yates, 9/8/7/1        |
-| Turn management + dual timer sync          | 4ч      | 8ч      | 6ч        | Тихий Сокет (WS-Dev)                              | Глобальный 2мин + Check 30с  |
-| Spymaster/Operative view filtering         | 2ч      | 4ч      | 3ч        | Тихий Сокет (WS-Dev)                              | Безопасность                 |
-| Auth middleware (sessionToken + Firebase)  | 2ч      | 4ч      | 3ч        | Великий Мёрдж (Lead) + Тихий Сокет (WS-Dev)       | Token verification           |
-| Client WS integration + EventBus           | 3ч      | 6ч      | 4.5ч      | Быстрый Рендер (Board-Dev)                        | Подписки на события          |
-| Game Board UI (5x5 grid, card component)   | 5ч      | 10ч     | 7.5ч      | Быстрый Рендер (Board-Dev)                        | HTML/CSS                     |
-| Card animations (flip, reveal, optimistic) | 3ч      | 6ч      | 4.5ч      | Быстрый Рендер (Board-Dev)                        | CSS transitions + rollback   |
-| Turn indicator, clue display, score        | 2ч      | 4ч      | 3ч        | Быстрый Рендер (Board-Dev)                        | UI компоненты                |
-| DevTools Panel (God Mode)                  | 2ч      | 4ч      | 3ч        | Великий Мёрдж (Lead)                              | Debug-панель, localhost only |
-| Headless state machine unit tests          | 3ч      | 6ч      | 4.5ч      | Зоркий Линтер (Check-Dev)                         | Vitest, 90% покрытие логики  |
-| Integration testing (WS + client)          | 4ч      | 8ч      | 6ч        | Быстрый Рендер (Board-Dev) + Тихий Сокет (WS-Dev) | Mock server + real           |
-| **Итого**                                  | **47ч** | **94ч** | **70.5ч** |                                                   |                              |
+| Задача                                     | Min     | Max     | Avg       | Кто                                 | Примечание                   |
+| ------------------------------------------ | ------- | ------- | --------- | ----------------------------------- | ---------------------------- |
+| WS Server scaffold (Express + Socket.IO)   | 3ч      | 6ч      | 4.5ч      | Boris (WS-Dev)                      | Setup, middleware            |
+| Room management (create/join/leave/roles)  | 4ч      | 8ч      | 6ч        | Boris (WS-Dev)                      | Валидация, edge cases        |
+| Game state machine (сервер)                | 8ч      | 16ч     | 12ч       | Boris (WS-Dev)                      | Ядро всей игры               |
+| Board generation + color assignment        | 2ч      | 4ч      | 3ч        | Boris (WS-Dev)                      | Fisher-Yates, 9/8/7/1        |
+| Turn management + dual timer sync          | 4ч      | 8ч      | 6ч        | Boris (WS-Dev)                      | Глобальный 2мин + Check 30с  |
+| Spymaster/Operative view filtering         | 2ч      | 4ч      | 3ч        | Boris (WS-Dev)                      | Безопасность                 |
+| Auth middleware (sessionToken + Firebase)  | 2ч      | 4ч      | 3ч        | Alice (Lead) + Boris (WS-Dev)       | Token verification           |
+| Client WS integration + EventBus           | 3ч      | 6ч      | 4.5ч      | Victor (Board-Dev)                  | Подписки на события          |
+| Game Board UI (5x5 grid, card component)   | 5ч      | 10ч     | 7.5ч      | Victor (Board-Dev)                  | HTML/CSS                     |
+| Card animations (flip, reveal, optimistic) | 3ч      | 6ч      | 4.5ч      | Victor (Board-Dev)                  | CSS transitions + rollback   |
+| Turn indicator, clue display, score        | 2ч      | 4ч      | 3ч        | Victor (Board-Dev)                  | UI компоненты                |
+| DevTools Panel (God Mode)                  | 2ч      | 4ч      | 3ч        | Alice (Lead)                        | Debug-панель, localhost only |
+| Headless state machine unit tests          | 3ч      | 6ч      | 4.5ч      | Diana (Check-Dev)                   | Vitest, 90% покрытие логики  |
+| Integration testing (WS + client)          | 4ч      | 8ч      | 6ч        | Victor (Board-Dev) + Boris (WS-Dev) | Mock server + real           |
+| **Итого**                                  | **47ч** | **94ч** | **70.5ч** |                                     |                              |
 
 > **Примечание:** Game State Machine — самая сложная часть. Там много edge cases: одновременные клики, дисконнект во время хода, Check Phase посреди угадывания, таймаут Check-таймера при активном глобальном таймере. Закладывайте время на отладку. DevTools Panel и юнит-тесты окупаются уже на первой неделе активной разработки движка.
 

@@ -4,22 +4,22 @@
 
 ## Ответственные за контракты
 
-| Кодовое имя                    | Роль             | Зона ответственности в контрактах                           |
-| ------------------------------ | ---------------- | ----------------------------------------------------------- |
-| **Великий Мёрдж** (Lead)       | Lead             | Общая структура типов, REST API, Auth, Session Token        |
-| **Тихий Сокет** (WS-Dev)       | WS-Dev (Backend) | WebSocket Protocol, Server Events, Room/Game state          |
-| **Быстрый Рендер** (Board-Dev) | Board-Dev        | GameStateForPlayer, PlayerVisibleCard, Board-related types  |
-| **Зоркий Линтер** (Check-Dev)  | Check-Dev        | Check Phase types, CheckQuestion, CheckSession, CheckResult |
-| **Мудрый Мок** (AI-Dev)        | AI-Dev           | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode  |
-| **Ловкий Роутер** (Lobby-Dev)  | Lobby-Dev        | RoomPreview, Lobby REST endpoints, PlayerStats              |
+| Имя                    | Роль             | Зона ответственности в контрактах                           |
+| ---------------------- | ---------------- | ----------------------------------------------------------- |
+| **Alice** (Lead)       | Lead             | Общая структура типов, REST API, Auth, Session Token        |
+| **Boris** (WS-Dev)     | WS-Dev (Backend) | WebSocket Protocol, Server Events, Room/Game state          |
+| **Victor** (Board-Dev) | Board-Dev        | GameStateForPlayer, PlayerVisibleCard, Board-related types  |
+| **Diana** (Check-Dev)  | Check-Dev        | Check Phase types, CheckQuestion, CheckSession, CheckResult |
+| **Eric** (AI-Dev)      | AI-Dev           | AI Interfaces (Spymaster, Check Evaluator), Mock/Real mode  |
+| **Felix** (Lobby-Dev)  | Lobby-Dev        | RoomPreview, Lobby REST endpoints, PlayerStats              |
 
-> **Правило:** Если **Тихий Сокет** (WS-Dev) меняет серверное событие, он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Зоркий Линтер** (Check-Dev) добавляет поле в `CheckResult`, он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
+> **Правило:** Если **Boris** (WS-Dev) меняет серверное событие, он обновляет этот документ И пингует **Быстрого Рендера** (Board-Dev). Если **Diana** (Check-Dev) добавляет поле в `CheckResult`, он обновляет документ И пингует **Мудрого Мока** (AI-Dev). Контракт — это договор. Ломать его в одностороннем порядке запрещено.
 
 ---
 
 ## NPM Workspaces / Shared Types (monorepo)
 
-> **Ключевая идея:** Все типы из этого документа живут в одном пакете `@project/shared`. И клиент, и сервер импортируют их оттуда. Если **Тихий Сокет** (WS-Dev) переименует поле в серверном событии — клиент **Быстрого Рендера** (Board-Dev) не скомпилируется. Это не баг, это защита. Это экономит сотни часов дебага "а почему у меня undefined".
+> **Ключевая идея:** Все типы из этого документа живут в одном пакете `@project/shared`. И клиент, и сервер импортируют их оттуда. Если **Boris** (WS-Dev) переименует поле в серверном событии — клиент **Быстрого Рендера** (Board-Dev) не скомпилируется. Это не баг, это защита. Это экономит сотни часов дебага "а почему у меня undefined".
 
 ### Структура monorepo
 
@@ -95,9 +95,9 @@ socket.on("game:guess", (payload: { cardId: string }) => {
 
 ### Почему это важно
 
-- **Тихий Сокет** (WS-Dev) переименовал `game:card-revealed` в `game:reveal` — клиент **Быстрого Рендера** (Board-Dev) сразу падает на `tsc`. Не через 3 дня на демо, а прямо сейчас.
-- **Зоркий Линтер** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Мудрый Мок** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
-- **Ловкий Роутер** (Lobby-Dev) изменил `RoomPreview` — `getPublicRooms()` на сервере не скомпилируется, пока **Тихий Сокет** (WS-Dev) не обновит контроллер.
+- **Boris** (WS-Dev) переименовал `game:card-revealed` в `game:reveal` — клиент **Быстрого Рендера** (Board-Dev) сразу падает на `tsc`. Не через 3 дня на демо, а прямо сейчас.
+- **Diana** (Check-Dev) добавил `timeSpent` в `CheckResult` — **Eric** (AI-Dev) видит ошибку компиляции и добавляет поле в мок.
+- **Felix** (Lobby-Dev) изменил `RoomPreview` — `getPublicRooms()` на сервере не скомпилируется, пока **Boris** (WS-Dev) не обновит контроллер.
 - `npm run typecheck` в CI проверяет все три пакета. Сломанный контракт = красный билд = нельзя мёрджить.
 
 ---
@@ -415,7 +415,7 @@ type ServerEvent =
 // ... остальные события (см. ниже)
 ```
 
-> **Ответственный:** **Великий Мёрдж** (Lead) создаёт `WSHandshakeAuth` и `SessionRecord` в `@project/shared`. **Тихий Сокет** (WS-Dev) реализует middleware. **Быстрый Рендер** (Board-Dev) подключает `connectWithSession()` на клиенте.
+> **Ответственный:** **Alice** (Lead) создаёт `WSHandshakeAuth` и `SessionRecord` в `@project/shared`. **Boris** (WS-Dev) реализует middleware. **Victor** (Board-Dev) подключает `connectWithSession()` на клиенте.
 
 ---
 
@@ -477,7 +477,7 @@ interface QuestionBank {
 
 ## AI Interfaces (ВСЕ МОКНУТЫ)
 
-> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Мудрый Мок** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev) и **Тихим Сокетом** (WS-Dev).
+> **Важно:** Все AI интерфейсы реализованы через моки. Реальная интеграция с LLM — отдельная задача, которая подключается через тот же интерфейс без изменения остального кода. **Eric** (AI-Dev) отвечает за моки, но интерфейсы согласует с **Зорким Линтером** (Check-Dev) и **Тихим Сокетом** (WS-Dev).
 
 ### AI Spymaster (генерация подсказок)
 
