@@ -20,9 +20,9 @@ Once you have passed the EPAM General Interview and become an EPAM Student, you 
 
 ##### A. Option #1
 
-- **Introduction:** Watch the introductory webinar.
-- **Registration:** Sign up on the RS APP.
-- **Community:** Join the Discord community.
+- **Introduction:** [Watch the introductory webinar](https://www.youtube.com/watch?v=_2iuvokB7Jk).
+- **Materials:** <https://github.com/rolling-scopes-school/aws/tree/main/aws-developer>
+- **Community:** [Join the Discord community](https://discord.com/invite/WEZxwRa4J6).
 - **Assignment:** "Cloud Introduction" after completing AWS Fundamentals.
 - **Duration:** 10 weeks, 10-16 hours per week.
 
@@ -40,6 +40,12 @@ Once you have passed the EPAM General Interview and become an EPAM Student, you 
 
 - Create a 3-5 minute video.
 - Guidelines: [Self-Introduction Guidelines](https://github.com/rolling-scopes-school/tasks/blob/master/epam/self-Introduction.md)
+
+### Interview Preparation
+
+- [NodeJs](https://github.com/rolling-scopes-school/tasks/blob/master/node/modules/interview/README.MD)
+- [Angular](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions.md)
+- [React](https://github.com/rolling-scopes-school/tasks/blob/master/react/questions.md)
 
 ## Information for Mentors
 
@@ -64,13 +70,11 @@ Once you have passed the EPAM General Interview and become an EPAM Student, you 
 ##### Other RS School Educational Programs
 
 - Angular:
-
   - [Materials](https://github.com/rolling-scopes-school/tasks/tree/master/angular)
   - [Discord](https://discord.com/invite/xwReXYqvs7)
   - [Intro Webinar](https://www.youtube.com/watch?v=ubZ7FBDglZE&t=1624s)
 
 - React:
-
   - [Materials](https://github.com/rolling-scopes-school/tasks/tree/master/react)
   - [Discord](https://discord.gg/zyRcphs3px)
   - [Intro Webinar](https://www.youtube.com/watch?v=32-xcNNLZ1w)

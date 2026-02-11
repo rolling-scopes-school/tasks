@@ -112,5 +112,5 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для проверки задания: https://calculator-cross-check.netlify.app/

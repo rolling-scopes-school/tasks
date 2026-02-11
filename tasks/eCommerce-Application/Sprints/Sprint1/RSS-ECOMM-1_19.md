@@ -2,7 +2,7 @@
 
 #### Description 🗂️
 
-Document all available scripts (e.g., for running ESLint, Prettier, and Jest tests) and their usage in the README file. This will help team members and other contributors to better understand and utilize the available scripts. 🛠️👥
+Document all available scripts (e.g., for running ESLint, Prettier, and Jest or Vitest tests) and their usage in the README file. This will help team members and other contributors to better understand and utilize the available scripts. 🛠️👥
 
 #### Acceptance Criteria 🎯
 

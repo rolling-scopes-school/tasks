@@ -1,12 +1,13 @@
 # [Angular schedule.](../../README.md) Components.
 
-## In this module you will learn:
+## In this module, you will learn:
 
-- Base application structure.
-- What are the `Components`, Templates?
+- How Angular applications are structured.
+- What are `Components` and Templates?
 - Data binding: one-way and two-way.
-- `Component` lifecycle.
-- Creation and usage of `Components` in practice.
+- `Component` lifecycle hooks.
+- How to create and use `Components` in practice.
+- `Standalone Components`: default behavior in Angular. How to group features using NgModules.
 
 ## Approximate time to complete this module:
 
@@ -15,25 +16,23 @@
 
 ## Theory
 
-- [Lecture (starting from 48:25)](https://youtu.be/8lt8Mvxyo5E?t=2905)
-- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
-- [Slides](https://slides.com/pavelrazuvalau/angular-intro-components#/3)
+- [Standalone Components 1](https://www.youtube.com/watch?v=x5PZwb4XurU)
+- [Lazy loading pitfalls with barrel files in Angular](https://medium.com/@iamjustin/you-might-not-be-lazy-loading-properly-in-angular-pitfall-of-barrel-files-eb2995d19b10)
+- [Standalone Components 2](https://www.youtube.com/watch?v=NYqjdqBySmY)
+- [Angular Standalone Components](https://www.youtube.com/watch?v=v1omt9uVpXk)
+- [Components lecture](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
+- [TODO list management app (sample project)](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
+- [Official Angular Docs](https://angular.dev/guide/components)
+- [Directive Angular 17+ 1](https://www.youtube.com/watch?v=W5l5r0tCsAk)
+- [Directive Angular 17+ 2](https://www.youtube.com/watch?v=loB7f_2YlfY)
+- [Angular Change Detection Visualization Tool](https://maximilian-r.github.io/angular-change-detection-visualization/)
 
 ## Practical assignment
 
-- [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Trainer: Kirill Britsyn
+- TBD
+- Test: Angular test (Components)
 
 ## Additional materials
 
-- [The hero editor](https://angular.io/tutorial/tour-of-heroes/toh-pt1)
-- [Display a selection list](https://angular.io/tutorial/tour-of-heroes/toh-pt2)
-- [Create a feature component](https://angular.io/tutorial/tour-of-heroes/toh-pt3)
-- [Introduction to components and templates](https://angular.io/guide/architecture-components)
-- [Getting started with Angular](https://angular.io/guide/displaying-data)
-- [Template syntax](https://angular.io/guide/template-syntax)
-- [Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
-- [Component interaction](https://angular.io/guide/component-interaction)
-- [Content projection](https://angular.io/guide/content-projection)
-- [🆕 Standalone components](https://angular.io/guide/standalone-components)
-- [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)
+- [Learn Angular: Components in Angular](https://angular.dev/tutorials/learn-angular/1-components-in-angular)
+- [Official guide: Components](https://angular.dev/guide/components)

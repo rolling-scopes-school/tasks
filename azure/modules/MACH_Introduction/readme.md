@@ -1,4 +1,4 @@
-# [Stage#1](../../../) MACH: Microservices-based, API-first, Cloud-native, and Headless 🚀
+# [Azure](../../) MACH: Microservices-based, API-first, Cloud-native, and Headless 🚀
 
 ## Module Overview 📚
 
@@ -22,28 +22,23 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **MACH**
-
    - [MACH Technology](https://machalliance.org/mach-technology)
    - [What is MACH architecture?](https://www.sitecore.com/blog/headless/what-is-mach-architecture)
 
 2. **Microservices-based Architecture:**
-
    - [Microservices on Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
    - [Microservices: An Overview](https://microservices.io/)
    - [Introduction to microservices](https://developer.ibm.com/learningpaths/get-started-application-modernization/intro-microservices/introduction/)
 
 3. **API-first Development:**
-
    - [API-First Development](https://swagger.io/resources/articles/api-first-development/)
    - [How API-first works?](https://www.postman.com/api-first/)
 
 4. **Cloud-native Technologies:**
-
    - [cloud-native applications](https://www.redhat.com/en/topics/cloud-native-apps)
    - [What is Cloud Native?](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition)
 
 5. **Headless Architecture:**
-
    - [What is Headless CMS?](https://www.contentful.com/r/knowledgebase/what-is-headless-cms/)
 
 ## Practice 💻

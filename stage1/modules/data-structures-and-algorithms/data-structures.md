@@ -2,14 +2,14 @@
 
 ## Basic Data Structures
 
-- Array
-- Linked List
-- Stack
-- Queue
-- Hash Table
-- Binary Tree
-- Heap
-- Graph
+- [Array](#array)
+- [Linked List](#linked-list)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Hash Table](#hash-table)
+- [Binary Tree](#binary-tree)
+- [Heap](#heap)
+- [Graph](#graph)
 
 ### Array
 
@@ -149,7 +149,6 @@ Hash collisions are usually handled using two common strategies.
 In addition to the binary tree, various types of trees exist:
 
 - Based on the number of children:
-
   - Ternary Tree
   - N-ary Tree (Generic Tree)
 
@@ -161,8 +160,8 @@ In addition to the binary tree, various types of trees exist:
 
 To know more about types of trees, read [this article](https://www.geeksforgeeks.org/types-of-trees-in-data-structures/)
 
-There's also tree-like data structure, called **Trie**.  
-It's a tree-like data structure used for efficient storage and retrieval of strings. Each node in the Trie represents a character, and the paths from the root to the nodes form words.  
+There's also tree-like data structure, called **Trie**.
+It's a tree-like data structure used for efficient storage and retrieval of strings. Each node in the Trie represents a character, and the paths from the root to the nodes form words.
 It's particularly useful for tasks like autocomplete and spell checking.
 
 To learn more about Trie, visit [this link](https://www.geeksforgeeks.org/introduction-to-trie-data-structure-and-algorithm-tutorials/)

@@ -1,136 +1,141 @@
 # News API
 
-**[News API](https://newsapi.org/)** - это простой HTTP REST API для поиска и извлечения новостей со всего Интернета.
+**[News API](https://newsapi.org/)** is a simple HTTP REST API for searching and retrieving news from across the Internet.
 
-## Ключевые навыки:
+## Key skills
 
 - JavaScript Classes
 - Modules in JavaScript
 - Webpack
 - TypeScript
 
-## Источник
+## Source
 
-[Исходное приложение](https://github.com/rolling-scopes-school/news-JS/)
+[Original app](https://github.com/rolling-scopes-school/news-JS/)
 
 ### Proxy
 
-- News API больше не позволяет вызывать API с других ресурсов кроме localhost
-- Прокси News API сервера для использования в задеплоенной версии:
-  - https://rss-news-api.onrender.com/
-  - https://news-proxy.spanb4.shop/
+- News API no longer allows calling the API from other sources except localhost.
+- Proxy News API server for use in the deployed version:
+  - <https://rss-news-api.onrender.com/> - has additional mocks endpoints - `/mocks/sources` and `/mocks/everything` - that return static data to help prevent exhausting API key requests limit during the developing process.
 
-## Требования к заданию
+## Task Requirements
 
-- Скопировать себе приложение и создать свою копию приложения
-- Добавить [TypeScript](https://www.typescriptlang.org/) в проект
-- Настроить ESLint для работы с TypeScript
-- Настроить Webpack для работы с Typescript
-- Смигрировать приложение с JavaScript на TypeScript, обязательно использовать:
-  - Enum
-  - interface
-  - type
+- Create your own copy of the application.
+- Add [TypeScript](https://www.typescriptlang.org/) to the project.
+- Set up [ESLint](https://eslint.org/) to work with TypeScript.
+- Configure [Webpack](https://webpack.js.org/) to work with TypeScript.
+- Migrate the application from JavaScript to TypeScript, using:
+  - Enums
+  - Interfaces
+  - Types
   - Generics
-  - Union
-  - Private, public
-  - Partial, pick, readonly
-  - Тип `any` использовать **ЗАПРЕЩАЕТСЯ!**
-- Сделать верстку адаптивной с дизайном на свое усмотрение
+  - Union Types
+  - Access modifiers (`private`, `public`)
+  - Utility Types (`Partial`, `Pick`, `Readonly`)
+- Make the layout adaptive with a design at your discretion.
 
-## Требования к вёрстке и оформлению приложения
+**The usage of `any` type is STRICTLY PROHIBITED!**
 
-- внешний вид приложения соответствует предложенному образцу или является его улучшенной версией
-- вёрстка адаптивная. Минимальная ширина страницы, при которой проверяется корректность отображения приложения - 320рх, максимальная ширина страницы, при которой проверяется корректность отображения приложения - 1920рх
-- в футере приложения есть ссылка на гитхаб автора, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/)
+## Requirements for Layout and Application Design
 
-## Технические требования
+- The appearance of the application matches the proposed sample or is an improved version of it.
+- The layout is adaptive. The minimum page width at which the correctness of the application display is checked is `320px`, and the maximum page width is `1920px`.
+- The application's footer includes a link to the author's GitHub, the year of the application's creation, and the [course logo](https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg) with a [link to the course](https://rs.school/courses/javascript).
 
-- работа приложения проверяется в браузере Google Chrome последней версии
+## Technical Requirements
 
-## Последовательность выполнения задания:
+- Application functionality is tested in the latest version of the Google Chrome browser.
 
-### Этап 1. Bootstrap приложения
+## Task Execution Sequence
 
-Результатом выполнения этого этапа является:
+### Step 1: Bootstrap the Application
 
-- `TypeScript` добавлен в проект
-  - добавлен npm пакет `TypeScript`
-  - создан `tsconfig.json` файл
-- `ESLint` и `Webpack` настроены для работы с `TypeScript`
-- В `ESLint` используется плагин [typescript-eslint/recommended](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
-- Ваша копия приложения запускается
+During this step, we've achieved the following:
 
-### Этап 2. Подготовка к миграция кода на TypeScript
+- Integrated TypeScript into the project by adding the TypeScript npm package.
+- Created the `tsconfig.json` file.
+- Configured ESLint and Webpack to seamlessly collaborate with TypeScript.
+- Implemented the [typescript-eslint/recommended](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) plugin in ESLint.
+- Successfully got your version of the application up and running.
 
-Результатом выполнения этого этапа является:
+### Step 2: Prepare for Code Migration to TypeScript
 
-- Файлы с расширением `*.js` переименованы в файлы с расширением `*.ts`
-- Созданы необходимые интерфейсы для обмена данными c [News API](https://newsapi.org/)
+The outcome of completing this step includes:
 
-### Этап 3. Миграция кода на TypeScript
+- Renaming files with the extension `*.js` to files with the extension `*.ts`.
+- Creating necessary interfaces for data exchange with [News API](https://newsapi.org/).
 
-Результатом выполнения этого этапа является:
+### Step 3: Migration of Code to TypeScript
 
-- Код строго типизирован. А именно:
-  - объявленны типы для всех переменных
-  - типизированны параметры функций и методов, а так же для возвращаемые значения (и если значения не возвращаются)
-  - типизированны используемые классы
-  - созданные ранее интерфейсы используются в коде
-  - созданы и используются enums, generics, partial и т.д.
-- В конфигурационном файле TypeScript стоят флаги:
+The result of completing this step is as follows:
+
+- Code is strictly typed, including:
+  - Declaration of types for all variables.
+  - Typing parameters for functions and methods, and appropriately handling cases where functions do not return a value.
+  - Typing used classes.
+  - Previously created interfaces are used in the code.
+  - Enums, generics, utility types, etc., are created and utilized.
+- The TypeScript configuration file includes the following flags:
   - `"noImplicitAny": true`
   - `"strict": true`
-- ESLint включено правило `no-explicit-any`
+- ESLint has the `no-explicit-any` rule enabled.
 
-### Этап 4. Адаптивная верстка
+### Step 4: Adaptive Layout
 
-Результатом выполнения этого этапа является:
+The result of completing this step is:
 
-- При масштабировании верстка не плывет, элементы не выпадают, часть контента не скрывается
+- The layout maintains stability during scaling, ensuring that elements adapt responsively without overlapping or hiding outside the viewport.
 
-## Проверка задания ментором
+## Mentor Evaluation Criteria (170 points) 🎯
 
-**Максимальный балл за задание +170**
+### 1. Repository Setup (20 points)
 
-1. Репозиторий +20
-   - pull request выполнен в соответствии с [требованиями](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr) +10
-   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://docs.rs.school/#/git-convention) +10
-2. Качество кода +100
-   - приложение полностью смигрированно на TypeScript +50:
-     - используется Everyday Types and Enums + 10
-     - используются Generics +10
-     - использование Object Types +10
-     - использование Classes and private, public +10
-     - использование Function +10
-   - ESLinter настроен на TypeScript, включено правило `no-explicit-any` и отсутствуют ошибки +10
-   - нигде не используется тип Any +10
-   - В конфигурационном файле TypeScript стоят флаги `"noImplicitAny": true` и `"strict": true` + 20
-   - webpack настроен и работает с TypeScript +10
-3. Оформление и функционал приложения +50
-   - выполнена адаптивная верстка +10
-   - добавлен свой собственный дизайн или улучшения (в ПР должно быть описано что именно) +20
-   - у ментора нет замечаний к оформлению +20
+- **(10 points)** Pull request is made in accordance with the [Pull Request Requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr)
+- **(10 points)** Commit history is maintained, and commit names are given according to the [Commit Requirements](https://rs.school/docs/en/git-convention)
 
-## Штрафы
+### 2. Code Quality (100 points)
 
-1. Используется тип Any -20
-2. Код не полностью покрыт типами -20
-3. В конфигурационном файле TypeScript не стоят обязательные флаги `"noImplicitAny": true` и `"strict": true` -20
-4. В конфигурационном файле ESLint не включено правило `no-explicit-any` -10
-5. Ошибки ESLinter -10
+- **(50 points)** The application is fully migrated to TypeScript:
+  - **(10 points)** Everyday Types and Enums are used
+  - **(10 points)** Generics are used
+  - **(10 points)** Object Types are used
+  - **(10 points)** Classes and access modifiers (`private`, `public`) are used
+  - **(10 points)** [Function Types](https://www.typescriptlang.org/docs/handbook/2/functions.html) are used
+- **(10 points)** ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors
+- **(10 points)** The `any` type isn't used anywhere
+- **(20 points)** The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true`
+- **(10 points)** Webpack is configured to work with TypeScript
 
-## Требования к репозиторию
+### 3. Design and Application Functionality (50 points)
 
-- задание выполняется в **приватном репозитории школы** [Как работать с приватным репозиторием](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием)
-- в приватном репозитории школы от ветки `main` создайте ветку с названием задания, в ней создайте папку с названием задания, в папке разместите файлы проекта
-- для деплоя используйте gh-pages [Как сделать деплой задания из приватного репозитория школы](https://docs.rs.school/#/private-repository?id=Как-сделать-деплой-задания-из-приватного-репозитория-школы)
-- при невозможности использовать gh-pages, используйте для деплоя https://app.netlify.com/drop. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
-- история коммитов должна отображать процесс разработки приложения. [Требования к коммитам](https://docs.rs.school/#/git-convention?id=Требования-к-именам-коммитов)
-- после окончания разработки необходимо сделать Pull Request из ветки приложения в ветку `main` [Требования к Pull Request](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr). **Мержить Pull Request из ветки разработки в ветку `main` не нужно**
-- **ссылку на пулл реквест** необходимо отправить на проверку ментору в Dashboard -> Mentor's Check по кнопке "Submit Task"
+- **(10 points)** Adaptive layout is implemented
+- **(20 points)** Your own design or improvements to the existing design are added (details should be described in the Pull Request)
+- **(20 points)** No remarks from the mentor regarding the design
 
-## Материалы которые могут помочь:
+## Penalties 🚓
 
-- [tsconfig](https://habr.com/ru/post/557738/)
-- [no-explicit-any](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)
-- [responsive and adaptive](https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/)
+- **(-20 points)** Use of the `any` type
+- **(-20 points)** Code is not fully covered with types
+- **(-20 points)** Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file
+- **(-10 points)** The ESLint configuration file does not include the `no-explicit-any` rule **-10**
+- **(-10 points)** ESLint errors
+
+## Repository Requirements
+
+- The task is performed in the **school's private repository**.
+- In the school's private repository, create a branch with the name of the task (e.g. `news-api`) from the `main` branch. In it, create a folder with the name of the task, and place the project files in the folder.
+- For deployment, use `gh-pages`.
+- If it isn't possible to use gh-pages, use [Netlify Drop](https://app.netlify.com/drop) for deployment.
+  Name the page according to the scheme: `GitHub-account-name`-`task-name` (e.g. `octocat-news-api`).
+- Commit history should reflect the development process of the application. Commit messages should be composed in accordance with the [Commit Requirements](https://rs.school/docs/en/git-convention).
+- After development is complete, create a Pull Request from the application branch to the `main` branch. Follow [Pull Request Requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr).
+  **Do not merge the Pull Request from the development branch to the `main` branch!**
+- Send the <u>link to the pull request</u> for mentor review in the `Dashboard -> Mentor's Check` via the `Submit Task` button.
+
+## Useful Resources
+
+- [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+- [no-explicit-any](https://typescript-eslint.io/rules/no-explicit-any/)
+- [TypeScript Guide for Webpack](https://webpack.js.org/guides/typescript/)
+- [The Difference Between Responsive and Adaptive Design](https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/)

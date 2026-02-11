@@ -45,15 +45,15 @@ Maximum score - **100**
 Fines
 
 - [ ] Failure to submit on time may lead to points lose according to
-      the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+      the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app still contains mocked data (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
-- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 
@@ -67,16 +67,16 @@ https://www.npmjs.com/package/rxjs
 
 https://angular.io/tutorial/toh-pt6
 
-https://angular.io/guide/http
+https://angular.dev/guide/http
 
-https://angular.io/api/common/http
+https://angular.dev/api#common-http
 
-https://angular.io/api/common/http/HttpClient
+https://angular.dev/api/common/http/HttpClient
 
-https://angular.io/api/common/http/HttpResponse
+https://angular.dev/api/common/http/HttpResponse
 
-https://angular.io/api/common/http/HttpHeaders
+https://angular.dev/api/common/http/HttpHeaders
 
-https://angular.io/api/common/http/HttpParams
+https://angular.dev/api/common/http/HttpParams
 
 https://pazel.dev/how-to-keep-your-secrets-from-your-source-code-in-an-angular-project

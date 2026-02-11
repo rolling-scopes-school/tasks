@@ -2,7 +2,6 @@
 
 - Open to all who wish to join
 - Topics:
-
   - Introduction of students to The Rolling Scopes and RS School.
   - Git, GitHub, commit and pull request formatting.
   - Adaptive layout markup.
@@ -24,7 +23,7 @@
 - Knowledge of JavaScript fundamentals (data types, operators, loops, conditional constructs, functions)
 - Knowledge of data structures and their organization (array, list, stack, queue, tree, etc.)
 - Ability to implement a simple algorithm in the JavaScript programming language, such as sorting or searching for array elements
-- Ability to solve 8-7 kyu level problems on the website https://www.codewars.com/
+- Ability to solve 8-7 kyu level problems on the website <https://www.codewars.com/>
 - (Desirable) English language skills at Pre-Intermediate level. [Our Recommendations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md)
 
 ## Training Program
@@ -44,7 +43,7 @@
 
 #### March 14, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the ["codejam #1"](../tasks/) project
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the ["codejam #1"](../tasks/) project
 - [Module: "JavaScript. Data types"](modules/js-basics/)
 - [Module: "JavaScript. Scope and functions](modules/functions/)
 - [Module: "JavaScript. Evolution"](modules/js-evolution/)
@@ -65,7 +64,7 @@
 
 #### March 28th, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-1"](stream1/shelter#порядок-оценки-cross-check-неделя-1)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project ["shelter. week-1"](stream1/shelter#порядок-оценки-cross-check-неделя-1)
 - [Module: "Adaptive layout markup"](modules/responsive-web-design/)
 - [Module: "Media Queries"](modules/media-queries/)
 - [online-zoo. week-2](stream1/shelter#неделя-2) @sergeyshalyapin
@@ -74,7 +73,7 @@
 
 #### April 4, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["shelter. week-2"](stream1/shelter#порядок-оценки-cross-check-неделя-2)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project ["shelter. week-2"](stream1/shelter#порядок-оценки-cross-check-неделя-2)
 - [Module: "HTML Forms & Validation"](modules/html-form/)
 - [Module: "DOM API"](modules/dom-api/)
 - [online-zoo. week-3](stream1/shelter#неделя-3) @sergeyshalyapin
@@ -83,7 +82,7 @@
 
 #### April 11, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["online-zoo. week-3"](stream1/shelter#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project ["online-zoo. week-3"](stream1/shelter#порядок-оценки-cross-check-неделя-3) @sergeyshalyapin
 - [Module: Git Recap](modules/git-recap/)
 - [Module "Algorithms and Data Structures"](modules/data-structures/)
 - [codejam #2](../tasks/) - (April 14 - April 16)
@@ -92,7 +91,7 @@
 
 #### April 18, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #2"](../tasks/)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project ["codejam #2"](../tasks/)
 - [Module: "Modules in JS"](modules/modules-in-js/)
 - [Module: "Chrome DevTools"](modules/chrome-devtools/)
 - [codejam #3](../tasks/)
@@ -101,7 +100,7 @@
 
 #### April 25, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["codejam #3"](../tasks/)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project ["codejam #3"](../tasks/)
 - [Module: Clean Code](modules/clean-code/)
 - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
@@ -111,13 +110,13 @@
 
 - [Module: "Node.js"](modules/node-materials/)
 - [Project "HTML-Builder"](modules/html-builder/)
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
 
 ### Week #10
 
 #### May 9, 2023
 
-- [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
+- [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project ["HTML-Builder"](modules/html-builder/)
 - [Module: "Client-Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 - [Module: "Webpack"](modules/webpack/)
 - [songbird](../tasks/songbird/songbird-2022q3.md)
@@ -136,21 +135,21 @@
 
 1. Complete the tasks and tests of the [preparatory course](../stage0/)
 2. Attend English language courses until reaching a Pre-Intermediate level (Minimum A2).
-3. Read https://learn.javascript.ru/
+3. Read <https://learn.javascript.ru/>
 
 ### What JavaScript textbook can you recommend?
 
-- https://learn.javascript.ru/
-- https://exploringjs.com/impatient-js/toc.html
-- https://github.com/azat-io/you-dont-know-js-ru
+- <https://learn.javascript.ru/>
+- <https://exploringjs.com/impatient-js/toc.html>
+- <https://github.com/azat-io/you-dont-know-js-ru>
 
 ### Where is the communication taking place?
 
-In the Discord chat - https://discord.gg/2Ww3TCBvz4
+In the Discord chat - <https://discord.gg/2Ww3TCBvz4>
 
 ### Where can I ask a question?
 
-Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
+Questions can be asked in the Discord chat - <https://discord.gg/2Ww3TCBvz4>
 
 ### Does the place of residence matter? Can the course be completed fully online?
 

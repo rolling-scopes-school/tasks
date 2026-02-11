@@ -35,10 +35,10 @@
 
 Решить алгоритмические задачи:
 
-1.  https://github.com/Shastel/human-readable-number
-2.  https://github.com/Shastel/reverse-int
+1.  https://github.com/rolling-scopes-school/human-readable-number
+2.  https://github.com/rolling-scopes-school/reverse-int
 
 ## Дополнительные материалы
 
 1.  [Вебинар "Functions"](https://www.youtube.com/watch?v=fShrn50Fkhw&list=PLe--kalBDwji8WXKVjhON39X4v_Uj6T_R&index=6) - 2,5 часа
-2.  [Инструкция по алгоритмическим задачам](https://github.com/TUstiugov/algorithmic-tasks-hints/blob/main/algorithmic-tasks-hints.md)
+2.  [Инструкция по алгоритмическим задачам](https://github.com/DaniilGK/algorithmic-tasks-hints/blob/main/algorithmic-tasks-hints.md)

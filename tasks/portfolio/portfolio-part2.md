@@ -104,5 +104,5 @@
 
 ## Проверка задания Portfolio#2
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://portfolio-part2-check-list.netlify.app/

@@ -44,9 +44,9 @@ Layout example:
 
 ### Examples
 
-- https://deadline2020-fancy-weather.netlify.com/
-- https://fancy-weather-lhk.surge.sh/
-- https://my-fancy-weather.netlify.com/
+- <https://deadline2020-fancy-weather.netlify.com/>
+- <https://fancy-weather-lhk.surge.sh/>
+- <https://my-fancy-weather.netlify.com/>
 
 ## User story
 
@@ -116,7 +116,7 @@ Layout example:
 The maximum amount of points that can be suggested by a student - **210**.
 The score will be aligned using coefficient 0.3.
 
-##### The evaluating algorithm for the cross-check:
+##### The evaluating algorithm for the cross-check
 
 1. in case if the requirement was met 100% - **100% points**;
 2. in case of functionality was implemented with major issues(which can not be a feature) - **50%** of the total amount of points for this particular functionality;
@@ -147,60 +147,60 @@ In the case of non-critical defects, the number of points will be calculated to 
 - working with API,
 - fetching asynchronous data.
 
-<details> 
+<details>
   <summary>Examples of asynchronous request</summary>
-  
+
   <p></p>
-  
-  JS-code to get a link to the image (the link displays in the console)
-  
-  - using fetch
-  
- ``` javascript 
-  function getLinkToImage() {
-  const url = 'https://api.unsplash.com/photos/random?query=morning&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17';
+
+JS-code to get a link to the image (the link displays in the console)
+
+- using fetch
+
+```javascript
+function getLinkToImage() {
+  const url =
+    "https://api.unsplash.com/photos/random?query=morning&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17";
   fetch(url)
-    .then(res => res.json())
-    .then(data => {
-      console.log(data.urls.regular)
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data.urls.regular);
     });
-  }
-``` 
-  - using async/await
-  
- ``` javascript 
-  async function getLinkToImage() {
-    const url = 'https://api.unsplash.com/photos/random?query=morning&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17';
-    const res = await fetch(url);
-    const data = await res.json();
-    console.log(data.urls.regular)
-  }
+}
+```
+
+- using async/await
+
+```javascript
+async function getLinkToImage() {
+  const url =
+    "https://api.unsplash.com/photos/random?query=morning&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17";
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log(data.urls.regular);
+}
 ```
 
 </details>
 
-<details> 
+<details>
   <summary>Useful links</summary>
-  
+
 - **Fetch/async/await**
   - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
   - [Async programing](https://www.youtube.com/watch?v=GuQuWsX3S8w&list=PLzLiprpVuH8e1YNSEXMtjOuB1uxqQLYED&index=22)
   - [JavaScript Fetch API and using Async/Await](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
 
 - **Date and time**
-
   - [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
   - [Date.prototype.toLocaleString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
 
 - **Voice recognition in browser**
-
   - [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
   - [JavaScript Speech Recognition](https://www.youtube.com/watch?v=0mJC0A72Fnw)
   - [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
   - [JavaScript Text-To-Speech](https://www.youtube.com/watch?v=saCpKH_xdgs)
 
 - **Weather API**
-
   - [How to Make a Weather App Using React](https://medium.com/@leizl.samano/how-to-make-a-weather-app-using-react-403c88252deb)
 
 - **Иконки погоды**
@@ -213,32 +213,36 @@ In the case of non-critical defects, the number of points will be calculated to 
   - [ClimaCell-API weather icons](https://github.com/ClimaCell-API/weather-code-icons)
   </details>
 
-<details> 
+<details>
   <summary>Using API(with examples)</summary>
 
 <p></p>
 
 **1. Geolocation API**
 
-- https://ipinfo.io/
+- [IP2Location.io](https://www.ip2location.io/)
+  - get current user location
+    `https://api.ip2location.io/`
+  - [API Docs](http://www.ip2location.io/ip2location-documentation)
+- <https://ipinfo.io/>
   - sign up
   - get token
-  - get current user location  
+  - get current user location
     `https://ipinfo.io/json?token=eb5b90bb77d46a`
   - [API Docs](https://ipinfo.io/developers)
 - [Geolocation API](https://developer.mozilla.org/ru/docs/Web/API/Geolocation/getCurrentPosition)
 
-**2. Weather API**  
+**2. Weather API**
 OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
 
-- https://openweathermap.org/
+- <https://openweathermap.org/>
   - sign up
-  - get API Key  
+  - get API Key
     `https://home.openweathermap.org/api_keys`
   - get weather forecast data for the next five days
     `https://api.openweathermap.org/data/2.5/forecast?q=Kiev&lang=ua&units=metric&APPID=a9a3a62789de80865407c0452e9d1c27`
   - [API Docs](https://openweathermap.org/api)
-- https://www.weatherbit.io (500 запросов/сутки)
+- <https://www.weatherbit.io> (500 запросов/сутки)
   - sign up
     `https://www.weatherbit.io/account/create`
   - join your personal account
@@ -248,7 +252,7 @@ OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
   - get weather forecast data for the next 3 days
     `https://api.weatherbit.io/v2.0/forecast/daily?city=Moscow&country=RU&days=3&units=S&lang=be&key=619b6dd131094859b162bb2577321b2a`
   - [API Docs](https://www.weatherbit.io/api)
-- https://www.weatherapi.com (20000 запросов/месяц)
+- <https://www.weatherapi.com> (20000 запросов/месяц)
   - sign up
     `https://www.weatherapi.com/signup.aspx`
   - confirm email (follow the link sent to your email)
@@ -258,11 +262,11 @@ OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
   - get weather forecast data for the next 3 days
     `https://api.weatherapi.com/v1/forecast.json?key=363474e96d194f10ab9212718201105&q=Moscow&days=3`
   - [API Docs](https://www.weatherapi.com/docs/)
-- https://www.climacell.co/ (1000 запросов/сутки)
+- <https://www.climacell.co/> (1000 запросов/сутки)
   - sign up
     `https://developer.climacell.co/sign-up`
   - confirm email (follow the link sent to your email)
-  - join your personal account  
+  - join your personal account
     `https://developer.climacell.co/sign-in`
   - copy API key
   - get weather forecast data for the next several days
@@ -271,7 +275,7 @@ OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
 
 **3. Images API**
 
-- https://unsplash.com/developers
+- <https://unsplash.com/developers>
   - sign up
   - confirm email (follow the link sent to your email)
   - create an application
@@ -281,27 +285,27 @@ OpenWeatherMap, Weatherbit, AccuWeather, Weather2020 и др.
     `https://api.unsplash.com/photos/random?orientation=landscape&per_page=1&query=nature&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17`
   - the service has a limitation - 50 images per hour
   - [API Docs](https://unsplash.com/documentation)
-- https://www.flickr.com/services/ - sign up - confirm email (follow the link sent to your email) - create an application `https://www.flickr.com/services/apps/create/apply/` - get API Key - get images `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=0f15ff623f1198a1f7f52550f8c36057&tags=nature,spring,morning&tag_mode=all&extras=url_h&format=json&nojsoncallback=1` - [API Docs](https://www.flickr.com/services/api/) - [The Flickr
+- <https://www.flickr.com/services/> - sign up - confirm email (follow the link sent to your email) - create an application `https://www.flickr.com/services/apps/create/apply/` - get API Key - get images `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=0f15ff623f1198a1f7f52550f8c36057&tags=nature,spring,morning&tag_mode=all&extras=url_h&format=json&nojsoncallback=1` - [API Docs](https://www.flickr.com/services/api/) - [The Flickr
   Developer Guide](https://www.flickr.com/services/developer/api/) - Still have questions? Check out [code.flickr.com](https://code.flickr.net/) or the [FAQs](https://help.flickr.com/)! - example with API API Flickr [demo](https://flickr-api-test.netlify.com/)
   _Attention_ Flickr API is a huge and not always easy to work with
 
-**4. Maps API**  
+**4. Maps API**
 Google Maps API, API Yandex maps, MapBox, OpenStreetMap и др.
 
-- https://www.mapbox.com
-  - sign up  
+- <https://www.mapbox.com>
+  - sign up
     `https://account.mapbox.com/auth/signup/`
   - confirm email (follow the link sent to your email)
-  - get Access token  
+  - get Access token
     `https://account.mapbox.com/`
   - choose design
     `https://docs.mapbox.com/mapbox-gl-js/examples/`
   - [API Docs](https://docs.mapbox.com/api/maps/)
 
-**5. Geocoding API**  
+**5. Geocoding API**
 Google Geocoding, Яндекс.Карты Geocoder, Nominatim OpenStreetMap, Data Science Toolkit, Gisgraphy, OpenCage Geocoder и др.
 
-- https://opencagedata.com/
+- <https://opencagedata.com/>
   - sign up
   - get API key
   - get coordinated by the name of the location

@@ -14,7 +14,7 @@ The goal of this task is to implement new pages using modules, services, and rou
 ### Task requirements
 
 To continue with the YouTube app, some structural refactoring is required.
-First, your project should be reorganized into the following modules:
+First, your project can be reorganized into the following modules (final decision is on your mentor on how many modules to create if you're following standalone approach):
 
 - **CoreModule:** This module is designated for global layout components such as Header and Footer, along with global services. It needs to be integrated within the **AppModule**
 - **YoutubeModule:** This is a feature module for YouTube functionalities. It should contain the main page (previously implemented), the **Detailed Information Page**, and related models, services, etc.
@@ -106,41 +106,32 @@ Maximum score - **100**
 
 Fines
 
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app has wrong project structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-20**)
 - [ ] ESLint warnings or errors are present (**-15**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
-- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt4
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular)
 
-https://angular.io/tutorial/tour-of-heroes/toh-pt5
+[Tour of Heroes Tutorial](https://angular.io/tutorial/tour-of-heroes/toh-pt4)
 
-https://angular.io/guide/architecture-modules
-
-https://angular.io/guide/ngmodules
-
-https://angular.io/guide/ngmodule-faq
-
+[Importing and using components](https://angular.dev/guide/components/importing)
+[NgModules](https://angular.dev/guide/ngmodules)
+[NgModule FAQ](https://angular.dev/guide/ngmodules/faq)
 https://angular.io/guide/architecture-services
-
-https://angular.io/guide/dependency-injection
-
-https://angular.io/guide/dependency-injection-providers
-
-https://angular.io/guide/dependency-injection-in-action
+[Dependency injection in Angular](https://angular.dev/guide/di)
+[Configuring dependency providers](https://angular.dev/guide/di/dependency-injection-providers)
+[DI in action](https://angular.dev/guide/di/di-in-action)
+[Common Routing Tasks](https://angular.dev/guide/routing/common-router-tasks)
+[api Router](https://angular.dev/api#router)
+[api RouterLinkActive](https://angular.dev/api/router/RouterLinkActive)
+[Lazy loading](https://angular.dev/guide/ngmodules/lazy-loading)
 
 https://www.freelancermap.com/blog/using-forroot-and-forchild-to-configure-modules-in-angular/
-https://angular.io/guide/router
-
-https://angular.io/api/router
-
-https://angular.io/api/router/RouterLinkActive
-
-https://angular.io/guide/lazy-loading-ngmodules

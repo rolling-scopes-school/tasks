@@ -7,7 +7,8 @@ During the Angular course, you are to implement the YouTube client app. You can 
 ### Getting started
 
 - Install _@angular/cli_ package. It's highly recommended to use _SCSS_ as the default stylesheet
-- Use ng-cli to create a new project
+- Use the Angular CLI to create a new project with Angular v18 or later
+- Don't recommend to use ESLint v9 or later (we suggest using ESLint v8)
 - Explore the generated project structure
 
 ### Task requirements
@@ -62,20 +63,23 @@ Maximum score - **70**
 
 Fines
 
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://docs.app.rs.school/#/platform/pull-request-review-process?id=deadlines-for-students)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements].(https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app doesn't work or has console errors. (**-20**)
 - [ ] ESLint warnings or errors are present. (**-15**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flag `strict: true` is not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
-- [ ] Failure to meet the [requirements](https://docs.rs.school/#/en/pull-request-review-process?id=pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://docs.rs.school/#/en/git-convention?id=commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 
 https://www.typescriptlang.org/docs/home.html </br>
 https://www.typescriptlang.org/docs/handbook/basic-types.html </br>
 https://www.typescriptlang.org/play/index.html </br>
-https://cli.angular.io </br>
-https://angular.io/cli </br>
-https://angular.io/tutorial </br>
+https://angular.dev/tools/cli </br>
+https://angular.dev/cli </br>
+[Angular 18 Tutorial](https://angular.dev/tutorials/learn-angular) </br>
+[Tour of Heroes Tutorial](https://v17.angular.io/tutorial/tour-of-heroes/toh-pt1)
+
+NB Before the start of the first task - you have to create your private school repository in the Dashboard of rs-app https://app.rs.school/course/student/dashboard by clicking on the link in 'Your repository' block, then you perform all the tasks there, unless specified otherwise.

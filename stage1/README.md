@@ -2,23 +2,56 @@
 
 ## 🚀 Overview
 
-- 📣 **Open to all who wish to join**
-- 📅 **Study time:** 12 weeks
+- 📣 **Open to anyone who wants to join**
+- 📅 **Study time:** 11 weeks
 - 📚 **Format:** self-study + webinars + Discord communication + assignments (cross-checks/auto-checks)
 
-### 📝 Topics Covered:
+### 📝 Topics Covered
 
-1. Introduction of students to The Rolling Scopes and RS School.
-2. Git, GitHub, commit and pull request formatting.
-3. Adaptive layout markup.
-4. Core JS.
-5. Algorithmic tasks.
-6. DOM, DOM Events, Browser API.
-7. Virtual keyboard project.
-8. Basics of NodeJS.
-9. Webpack
-10. Clean Code project.
-11. Preparation for HTML/CSS/JS/Algorithms interviews.
+#### 📌 Foundations
+
+- Introduction to RS School and the Frontend Developer profession
+- Development tools: Chrome DevTools, VS Code, Terminal
+- Version control with Git & GitHub (commits, pull requests, branching)
+- HTML basics, forms, validation, and semantic markup
+- CSS fundamentals: positioning, Flexbox, Grid, responsive design, media queries
+
+#### 🎨 Advanced Styling
+
+- Advanced CSS: CSS Modules, new CSS features
+- CSS preprocessors (Sass)
+
+#### ⚡ Core JavaScript
+
+- JavaScript basics: types, operators, conditions, loops, arrays, strings
+- Functions, scope, and evolution of JS (ES6+)
+- DOM API, DOM events, and browser APIs
+
+#### 🧩 Advanced JavaScript
+
+- Algorithms and Data Structures
+- Canvas API basics
+- JavaScript modules and bundlers (Vite, Webpack, etc.)
+- Client-server interaction fundamentals
+- Object-Oriented Programming basics, classes, and prototypes
+
+#### 🧼 Clean Code
+
+- Clean Code principles for HTML/CSS/JS
+- Linters, formatters, and Husky
+- Clean Code project
+
+#### 🚀 Projects & Practice
+
+- CV Project (Markdown, HTML, CSS, Git)
+- Portfolio (responsive layout & functionality)
+- TBD
+- Self-introduction project
+
+#### 🎯 Preparation
+
+- Algorithmic tasks & problem solving
+- Technical interview preparation (HTML/CSS/JS/Algorithms)
 
 ---
 
@@ -29,7 +62,7 @@
 - 📊 **Data Structures:** Basic knowledge (array, list, stack, etc.)
 - 🎓 **Algorithmic Skills:** Ability to implement simple algorithms in JavaScript
 - 🏁 **Codewars Level:** Ability to solve 8-7 kyu problems [Codewars](https://www.codewars.com/)
-- 🇬🇧 **English:** Desirable skills at Pre-Intermediate level ([Our Recommendations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md))
+- 🗣️ **English:** Desirable skills at Pre-Intermediate level ([Our Recommendations](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/english.md))
 
 ---
 
@@ -37,43 +70,37 @@
 
 ### Week #1
 
-#### November 7, 2023
+#### September 9, 2025
 
 - Modules:
-
-  - [Module "Introduction to RS School"](modules/rs-school-intro/)
-  - [Module "JS/Front-end Developer Profession"](modules/js-fe-developer/)
-  - [Module "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
-  - [Module "Getting to know version control system Git"](modules/git/)
+  - [Module: Introduction to RS School](modules/rs-school-intro/)
+  - [Module: JS/Front-end Developer Profession](modules/js-fe-developer/)
+  - [Module: Chrome Dev Tools, VS Code, Terminal](modules/basic-tools/)
+  - [Module: Getting to know version control system Git](modules/git/)
 
 - Tasks:
-
-  - ["CV Project". Part 1 "Markdown & Git"](../tasks/cv/en/git-markdown.md)
-  - ["CV Project". Part 2 "HTML, CSS & Git Basics"](../tasks/cv/en/html-css-git.md)
+  - [CV Project. Part 1 Markdown & Git](../tasks/cv/en/git-markdown.md)
+  - [CV Project. Part 2 HTML, CSS & Git Basics](../tasks/cv/en/html-css-git.md)
 
 - Tests:
-
-  - [St1] RSS Test
-  - [St1] Git test
-  - [St1] Fundamentals of the Internet
+  - [[St1] RSS Test](modules/rs-school-intro)
+  - [[St1] Git test](modules/git)
+  - [[St1] Fundamentals of the Internet](modules/basic-tools)
 
 ### Week #2
 
-#### November 14, 2023
+#### September 16, 2025
 
 - Modules:
-
-  - [Module: "JavaScript. JS-Basics"](modules/js-basics/)
-  - [Module: "JavaScript. Scope and functions"](modules/functions/)
-  - [Module: "JavaScript. Evolution"](modules/js-evolution/)
+  - [Module: JavaScript. JS-Basics](modules/js-basics/)
+  - [Module: JavaScript. Scope and functions](modules/functions/)
+  - [Module: JavaScript. Evolution](modules/js-evolution/)
 
 - Tasks:
-
   - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers)
   - [core-js-strings](https://github.com/rolling-scopes-school/core-js-strings)
 
 - Tests:
-
   - [[St1] JS Basics](modules/js-basics/)
   - [[St1] JS Types](modules/js-basics/)
   - [[St1] JS Scope & Functions](modules/functions/)
@@ -83,215 +110,164 @@
 
 ### Week #3
 
-#### November 21, 2023
+#### September 23, 2025
 
 - Modules:
-
-  - [Module "CSS positioning. Flex."](modules/css-positioning/)
-  - [Module "CSS grid layout"](modules/css-grid/)
-  - [Module: CSS Preprocessors. Sass](modules/sass/)
-  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
+  - [Module: CSS positioning. Flex.](modules/css-positioning/)
+  - [Module: CSS grid layout](modules/css-grid/)
+  - [Module: Responsive Web Design](modules/responsive-web-design/)
+  - [Module: Media Queries](modules/media-queries/)
 
 - Tasks:
-
-  - [Coffee House. Week-1](../tasks/coffee-house/coffee-house-week1.md)
+  - [Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio.md)
 
 - Tests:
-
   - [[St1] CSS Positioning & Flexbox](modules/css-positioning/)
   - [[St1] CSS grid](modules/css-grid/)
-  - [[St1] Preprocessors. SASS.](modules/sass/)
-  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
+  - [[St1] Media Queries & Responsive](modules/media-queries/)
 
 ### Week #4
 
-#### November 28, 2023
+#### September 30, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-1"](../tasks/coffee-house/coffee-house-week1.md)
-
-- Modules:
-
-  - [Module: "Responsive Web Design"](modules/responsive-web-design/)
-  - [Module: "Media Queries"](modules/media-queries/)
-
-- Tasks:
-
-  - [Coffee House. Week-2](../tasks/coffee-house/coffee-house-week2.md)
-
-- Tests:
-
-  - [[St1] Media Queries & Responsive](modules/media-queries/)
-
-### Week #5
-
-#### December 5, 2023
-
-- Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["Coffee House. Week-2"](../tasks/coffee-house/coffee-house-week2.md)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio-part-1.md)"
 
 - Modules:
-
-  - [Module: "HTML Forms & Validation"](modules/html-form/)
-  - [Module: "DOM API"](modules/dom-api/)
-  - [Module: "Events"](modules/events/)
+  - [Module: HTML Forms & Validation](modules/html-form/)
+  - [Module: DOM API](modules/dom-api/)
+  - [Module: Events](modules/events/)
 
 - Tasks:
-
-  - [Coffee House. Week-3](../tasks/coffee-house/coffee-house-week3.md)
+  - [Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio.md)
 
 - Tests:
-
   - [[St1] HTML Form](modules/html-form/)
   - [[St1] DOM Api](modules/dom-api/)
   - [[St1] DOM Events](modules/events/)
 
-### Week #6
+### Week #5
 
-#### December 12, 2023
+#### October 7, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Coffee House. Week-3"](../tasks/coffee-house/coffee-house-week3.md)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio-part-2.md)"
 
 - Modules:
-
   - [Module: Git Recap](modules/git-recap/)
-  - [Module "Algorithms and Data Structures"](modules/data-structures-and-algorithms/)
 
 - Tasks:
-
-  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
-  - [basic-js](https://github.com/AlreadyBored/basic-js)
-
-- Tests:
-
-  - [[St1] Git & GitHub #2](modules/git-recap/)
-  - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
-
-### Break Week
-
-#### December 19, 2023
-
-- Break week with deadlines for previously issued tasks and tests only.
-
-### Break Week
-
-#### December 26, 2023
-
-- Break week without new content or assignments.
-
-### Week #7
-
-#### January 2, 2024
-
-- Modules:
-
-  - [Module: Clean Code](modules/clean-code/)
-  - [Linters, Formatters, and Husky](modules/linters-formatters-husky/)
-
-- Tasks:
-
-  - ['Clean Code S1E1'](modules/clean-code/clean-code-s1e1.md)
   - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks)
   - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays)
 
 - Tests:
+  - [[St1] Git & GitHub #2](modules/git-recap/)
 
+### Week #6
+
+#### October 14, 2025
+
+- Modules:
+  - [Module: Clean Code](modules/clean-code/)
+  - [Linters, Formatters, and Husky](modules/linters-formatters-husky/)
+  - [Module: CSS Preprocessors. Sass](modules/sass/)
+
+- Tasks:
+  - [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+
+- Tests:
   - [[St1] Clean-Code](modules/clean-code/)
   - [[St1] Linters, Formatters, and Husky](modules/linters-formatters-husky/)
+  - [[St1] Preprocessors. SASS.](modules/sass/)
+
+### Week #7
+
+#### October 21, 2025
+
+- Cross-Check Reviews:
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+
+- Modules:
+  - [Module: Canvas API](modules/canvas-api/)
+  - [Module: Algorithms and Data Structures](modules/data-structures-and-algorithms/)
+
+- Tasks:
+  - [basic-js-ds](https://github.com/AlreadyBored/basic-js-ds)
+  - [basic-js](https://github.com/AlreadyBored/basic-js)
+
+- Tests:
+  - [[St1] Canvas API](modules/canvas-api/)
+  - [[St1] Test Algorithms & Data structures](modules/data-structures-and-algorithms/)
 
 ### Week #8
 
-#### January 9, 2024
-
-- Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+#### October 28, 2025
 
 - Modules:
-
-  - [Module: "Modules in JS"](modules/modules-in-js/)
-  - [Module: "Bundlers"](modules/bundlers/)
+  - [Module: Modules in JS](modules/modules-in-js/)
+  - [Module: Bundlers](modules/bundlers/)
+  - [Module: CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 - Tasks:
-
-  - [Hangman](tasks/hangman/)
+  - [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Tests:
-
   - [[St1] Modules in JS](modules/modules-in-js/)
   - [[St1] Introduction to Bundlers](modules/bundlers/)
+  - [[St1] CSS Modules And Some CSS New Features](modules/css-modules-and-new-features/)
 
 ### Week #9
 
-#### January 16, 2024
+#### November 4, 2025
 
 - Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of the project ["Hangman"](tasks/hangman/)
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Modules:
-
-  - [Module: "Node.js"](modules/node-materials/)
+  - [Module: Chrome DevTools](modules/chrome-devtools/)
 
 - Tasks:
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
-  - [Project "HTML-Builder"](tasks/html-builder/)
+- Tests:
+  - [[St1] Chrome DevTools](modules/chrome-devtools/)
 
 ### Week #10
 
-#### January 23, 2024
-
-- Cross-Check Reviews:
-
-  - [Cross-check review](https://docs.app.rs.school/#/platform/cross-check-flow) of project ["HTML-Builder"](tasks/html-builder/)
+#### November 11, 2025
 
 - Modules:
-
-  - [Module: "Chrome DevTools"](modules/chrome-devtools/)
+  - [Client-Server Interaction Overview](modules/client-server/)
 
 - Tasks:
-
-  - [Final task stage1](tasks/)
+  - [Pair 'em Up](./tasks/pair-em-up/)
 
 - Tests:
-
-  - [[St1] Chrome DevTools](modules/chrome-devtools/)
+  - [[St1] Client-Server Interaction Overview](modules/client-server/)
 
 ### Week #11
 
-#### January 30, 2024
+#### November 18, 2025
+
+- Cross-Check Reviews:
+  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [Pair 'em Up](./tasks/pair-em-up/)
 
 - Modules:
-
-  [[St1] Client-Server Interaction Overview](modules/client-server/)
+  - [Module: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
+  - [Module: Object-Oriented Programming Basics](modules/oop-basics/)
+  - Preparation for [Technical Screening](../stage2/modules/technical-screening/)
 
 - Tasks:
-
-  - [Final task stage1](tasks/)
+  - [Project "Self-introduction"](modules/self-introduction/)
 
 - Tests:
+  - [[St1] Classes & Prototypes](modules/classes-prototypes/)
+  - [[St1] OOP Test](modules/classes-prototypes/)
+  - [[St1] Final test stage#1](https://github.com/rolling-scopes-school/tasks/tree/master/stage1)
 
-  - [[St1] Client-Server Interaction Overview](modules/client-server/)
+## 👨‍🏫 Mentor activities
 
-### Week #12
-
-#### February 6, 2024
-
-- [Cross-check](https://docs.app.rs.school/#/platform/cross-check-flow) of the [Final task stage1](/tasks)
-- [Project "Self-introduction"](modules/self-introduction/)
-- [Module: "JavaScript. Classes & Prototypes"](modules/classes-prototypes/)
-- [Module: Object-Oriented Programming Basics](modules/oop-basics/)
-- Preparation for [Technical Screening](../stage2/modules/technical-screening/)
-
-<details>
-  <summary markdown="span">Mentor activities</summary>
-
-- [Confirming course registration](https://docs.rs.school/#/mentoring-kick-off)
-</details>
+- [Course registration confirmation](https://rs.school/docs/ru/mentoring-kick-off)
 
 ## ❓ FAQ
 
@@ -305,15 +281,15 @@
 
 - [JavaScript.Info](https://learn.javascript.ru/)
 - [Exploring JS](https://exploringjs.com/impatient-js/toc.html)
-- [You Don't Know JS](https://github.com/azat-io/you-dont-know-js-ru)
+- [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS)
 
 ### 💬 Where do we communicate?
 
-- 🗨️ **Discord Chat:** [Join Discord](https://discord.gg/2Ww3TCBvz4)
+- 🗨️ **Discord Chat:** [Join Discord](https://discord.gg/vD2zYUnZ5h)
 
 ### ❓ Where to ask questions?
 
-- 🗨️ **Discord Chat:** [Join Discord](https://discord.gg/2Ww3TCBvz4)
+- 🗨️ **Discord Chat:** [Join Discord](https://discord.gg/vD2zYUnZ5h)
 
 ### 🌐 Does location matter?
 
@@ -326,5 +302,3 @@
 ### 🤔 Is it mandatory to watch the webinars?
 
 - 🚫 No, self-study options are available.
-
-Feel free to adjust the document as per your requirements!

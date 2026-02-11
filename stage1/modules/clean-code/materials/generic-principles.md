@@ -2,20 +2,20 @@
 
 # Code Quality Manual
 
-- [Why?](#Why)
-- [Common approaches](#Common-approaches)
-  - [1. DRY — _Don't Repeat Yourself_](#1-dry--_dont-repeat-yourself_)
-  - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--_keep-it-short-simple--keep-it-simple-stupid_)
-  - [3. YAGNI — _You ain't gonna need it_](#3-yagni--_you-aint-gonna-need-it_)
+- [Why?](#why)
+- [Common approaches](#common-approaches)
+  - [1. DRY — _Don't Repeat Yourself_](#1-dry--dont-repeat-yourself)
+  - [2. KISS — _keep it short simple / keep it simple, stupid_](#2-kiss--keep-it-short-simple--keep-it-simple-stupid)
+  - [3. YAGNI — _You ain't gonna need it_](#3-yagni--you-aint-gonna-need-it)
   - [4. Comments](#4-comments)
     - [4.1 TODOs](#41-todos)
   - [5. Trailing whitespaces\_](#5-trailing-whitespaces)
   - [6. Files naming](#6-files-naming)
-  - [Continue](#Continue)
+  - [Continue](#continue)
 
 ## Why?
 
-Easily maintainable readable code is what any experienced developer wants. This is code that is easy to read in two months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
+Easily maintainable and readable code is what any experienced developer wants. This is code that is easy to read in two months, six months, a year or more after writing it, not only for the author, but also for any other programmer. And since in most cases code is developed in teams - your teammates should be able to easily understand your piece of application without making efforts to decipher the written logic.
 
 In the same way, you will be much more comfortable to understand someone else's code if it is written as clearly as possible and conforms to a common stylistic standard accepted in the team.
 
@@ -25,7 +25,7 @@ Very briefly: directly.
 
 A bit longer:
 
-As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritation when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
+As you write code in one style, you get used to that writing. The neurons of your brain instantly recognize that there is a class behind a capitalized variable, and a locally modifiable variable behind a small-letter word. You also don't feel irritated when you see some code written by another programmer who uses the same style, and this is very important. Reading someone else's code is not always a pleasant task itself, but if this code also causes irritation... In general, there are enough difficulties in a programmer's life already, so you should not create additional ones for yourself.
 
 One more reason - a single standard saves time on writing code. You don't spend a minute thinking about which case to use to name a variable and which writing style to choose, but write according to the accepted style.
 
@@ -58,9 +58,9 @@ where "piece of knowledge" can be understood as a functional, logically complete
 **Examples:**
 
 <details>
-	<summary>
-		1. CSS: Selectors grouping
-	</summary>
+ <summary>
+  1. CSS: Selectors grouping
+ </summary>
 
 ```css
 h1 {
@@ -96,9 +96,9 @@ h4 {
 </details>
 
 <details>
-	<summary>
-		2. CSS: Move repeating style pieces inside classes
-	</summary>
+ <summary>
+  2. CSS: Move repeating style pieces inside classes
+ </summary>
 
 If a single set of CSS properties defines the style of several elements on a page, these elements are usually combined into a single CSS class:
 
@@ -139,9 +139,9 @@ p {
 </details>
 
 <details>
-	<summary>
-		3. JS: Cycles
-	</summary>
+ <summary>
+  3. JS: Cycles
+ </summary>
 
 ```js
 // non DRY code
@@ -163,9 +163,9 @@ for (let i = 0; i < chips.length; i++) {
 </details>
 
 <details>
-	<summary>
-		4. JS: Functions
-	</summary>
+ <summary>
+  4. JS: Functions
+ </summary>
 
 It is convenient to put duplicated logic into functions.
 
@@ -212,7 +212,7 @@ An example of violating this principle is writing a separate function just to pe
 
 It may be more efficient for some program compilers than the usual `/ 2` division, but the code's clarity is very much reduced.
 
-> Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://thefullsnack.com/en/bitwise-javascript-fast.html).
+> Important note: For JS engines, the efficiency of the shift operation is offset by the expensive conversion to integer - [more here](https://pimylifeup.com/javascript-bitwise-operators/).
 
 By accepting this approach, you are doing clever coding and over-optimization. Both of them will make your code less and less clear in the long run, both to other developers and to yourself. Remember that you may have to deal with this code again in a month, two, or a year.
 
@@ -330,17 +330,17 @@ It is also convenient to separate files into `/js`, `/assets`, `/styles` (unless
 
 ```
 /assets
-	right-arrow-image.svg
-	left-arrow-image.svg
+ right-arrow-image.svg
+ left-arrow-image.svg
 /js
-	app.js
-	image-slider.js
+ app.js
+ image-slider.js
 /styles
-	basic.css
-	image-slider.css
+ basic.css
+ image-slider.css
 /html
-	index.html
-	image-slider.html
+ index.html
+ image-slider.html
 ```
 
 ### Continue

@@ -71,7 +71,7 @@
 Вырезка из правил игры о сборе колод (данная вырезка не включает в себя разделение по уровням сложности поэтому алгоритм немного отличается
 ![image](https://user-images.githubusercontent.com/43149261/172725219-0d0c9f22-0594-4b4b-9a2b-ce4427c682ab.png)
 
-Демо готового проекта: [Демо](https://codejam-demo.herokuapp.com/)
+Демо готового проекта: [Демо](https://eldritch-codejam-source.vercel.app/)
 
 ## Файлы для работы
 
@@ -118,12 +118,12 @@
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://docs.rs.school/#/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr)  
+- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
 ## Чтобы получить баллы за задание необходимо:
@@ -151,4 +151,4 @@
 ## Проверка задания
 
 - форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow

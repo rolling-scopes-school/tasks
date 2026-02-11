@@ -10,7 +10,7 @@ To achieve this, we'll use the GitHub API. The request `https://api.github.com/u
 
 Create a folder named `github-app`, open it in VS Code, and run the following command in the terminal:
 
-```
+```bash
 npm init -y
 ```
 
@@ -33,7 +33,7 @@ Create a variable `username` to store the command-line argument passed when the 
 const username = process.argv[2];
 ```
 
-Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.  
+Use the imported `github` object, which has a `getRepos()` property - a function that returns a list of user repositories.
 The parameters of the `getRepos()` function are `username` - the username and a callback function taking two parameters: `error` - an error, and `repos` - the received data, in our case, a list of repositories.
 
 In the callback function, let's handle the error and print the names of the repositories to the console:
@@ -50,11 +50,11 @@ github.getRepos(username, (error, repos) => {
 
 Our application will communicate with the server over the `https` protocol. For this, Node.js has a built-in `https module`, similar to the [HTTP Module](../module/http.md).
 
-To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.  
+To send a request to the API, we'll use the `get()` method, which allows us to retrieve data from the server.
 Import the `https` module and write the code for the `getRepos()` function. The function parameter is `username` - the GitHub username.
 The `https.get()` method has two parameters: the URL to which the request is sent and a callback function taking one parameter - the server response, abbreviated as `res`.
 
-The `res.statusCode` property returns the server response. A response of `200` indicates a successful connection, while any other response indicates a connection problem.  
+The `res.statusCode` property returns the server response. A response of `200` indicates a successful connection, while any other response indicates a connection problem.
 Export the `github` module as an object with a `getRepos` property and the value of `getRepos`:
 
 ```js
@@ -69,13 +69,13 @@ module.exports = { getRepos };
 
 Run the `app` file. Specify a well-known repository as a command-line argument when running the file:
 
-```
+```bash
 node app goldbergyoni
 ```
 
-The application returns a `403` error.  
-The response code for the error status `HTTP 403 Forbidden` indicates that the server understood the request but refuses to authorize it.  
-However, if we try to request the same data from the browser by visiting the link https://api.github.com/users/goldbergyoni/repos, we get the page with the data we need.
+The application returns a `403` error.
+The response code for the error status `HTTP 403 Forbidden` indicates that the server understood the request but refuses to authorize it.
+However, if we try to request the same data from the browser by visiting the link <https://api.github.com/users/goldbergyoni/repos>, we get the page with the data we need.
 
 To make a request to the API, we need to specify the `User-Agent` header. While the browser adds this header automatically when navigating to a link, in a Node.js application, we need to specify it.
 

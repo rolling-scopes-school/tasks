@@ -127,7 +127,7 @@ Example:
 
 - the link to [Pull Request](#requirements-for-commits-pull-request-repository) should be submitted to the Cross-Check: Submit;
 - the repository with your work must be made **public** after the deadline of submit task. Make sure the pull request and deploy are available for review;
-- this task will be checked with peers [cross-check](https://docs.rs.school/#/cross-check-flow).
+- this task will be checked with peers [cross-check](https://rs.school/docs/ru/cross-check-flow).
 
 ## Useful links:
 

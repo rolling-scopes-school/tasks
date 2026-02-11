@@ -6,7 +6,7 @@
 
 ## Background
 
-You need to create a page with Lease and Loan calculator. Possible designs: https://drive.google.com/open?id=1AU1dGkvhGgLiwhC6dLxR5hozOr_DotRf
+You need to create a page with Lease and Loan calculator. Possible designs: <https://drive.google.com/open?id=1AU1dGkvhGgLiwhC6dLxR5hozOr_DotRf>
 
 The calculator calculates base payment values to lease or loan a car. Taxes calculate based on zip code; monthly payment calculates based on term, mileage, credit score, apr, down payment and trade-in. Dealer is a person who sells a car. MSRP - Manufacturers Suggested Retail Price.
 
@@ -30,7 +30,6 @@ Calculator
   - **Select** input for Mileages (available values: [10000, 12000, 15000], **default**: 12000)
   - **Select** input for Credit Score (values from 600 to 900 with step 50, **default**: 750)
 - Info card
-
   - MSRP
   - Vehicle name
   - Monthly payment
@@ -52,13 +51,11 @@ Calculator
 - How to calculate
 
   When msrp and all the data from calculator inputs are available do the calculation using(**a call of calculation function should be always wrapped in Promise!!!**):
-
   - monthly payment lease: `(msrp - tradeIn - downPayment) * mileage / 10000 / term * creditScoreValue`
   - monthly payment loan: `(msrp - tradeIn - downPayment) * / term * creditScoreValue * apr`
   - taxes: `postCode.split(‘’).map(num => num * 11)`
 
   **creditScoreValue defines by the following rules:**
-
   - If credit score >= 750, then creditScoreValue = 0.95
   - If credit score >= 700 and < 750, then creditScoreValue = 1
   - If credit score >= 640 and < 700, then creditScoreValue = 1.05
@@ -80,15 +77,15 @@ Calculator
 
 ## Requirements to the quality of code, repository, project structure
 
-- https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md
-- Use one of the recommended ways to organize your code: https://reactjs.org/docs/faq-structure.html
-- https://medium.com/better-programming/clean-code-applied-to-javascript-part-1-9f3badd5715
+- <https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md>
+- Use one of the recommended ways to organize your code: <https://reactjs.org/docs/faq-structure.html>
+- <https://medium.com/better-programming/clean-code-applied-to-javascript-part-1-9f3badd5715>
 
 ## Score criteria
 
 Basic (70) + Normal (120) + Extra (40) - +230
 
-#### Basic scope
+### Basic scope
 
 Max - **+70**
 
@@ -97,7 +94,7 @@ Max - **+70**
 - Info card (+10)
 - Calculation logic (monthly payment and taxes are updated properly) (+20)
 
-#### Normal scope
+### Normal scope
 
 Max - **+120**
 
@@ -108,7 +105,7 @@ Max - **+120**
 - Validation for Down Payment and Trade-In (validation message is shown, new calculation haven't run: monthly payment remains the same) (+40)
 - Inputs display their values with currency sign (if applicable. Ex.: trade-In, Down Payment) (+20)
 
-#### Extra (additional) scope
+### Extra (additional) scope
 
 Max - **+40**
 
@@ -117,10 +114,9 @@ Max - **+40**
 
 ## Cross-check requirements
 
-- Flow: https://github.com/rolling-scopes-school/docs/blob/master/docs/cross-check-flow.md
+- Flow: <https://github.com/rolling-scopes-school/docs/blob/master/docs/cross-check-flow.md>
 
   Example 1: Validation for Down Payment and Trade-In
-
   - validation message is shown, new calculation haven't run - 40
   - validation message is shown && new calculation is run or validation message is not shown && new calculation haven't run - 20
   - validation hasn't implemented - 0
@@ -134,17 +130,21 @@ Max - **+40**
 
 ## Useful links
 
-1. location API (https://ipinfo.io/)
+1. IP2Location.io API (<https://www.ip2location.io/>)
+
+- Get location data <https://api.ip2location.io/>
+
+2. location API (<https://ipinfo.io/>)
 
 - Sign up
 - Get token
-- Get location data (you need only postal) https://ipinfo.io/json?token=eb5b90bb77d46a
+- Get location data (you need only postal) <https://ipinfo.io/json?token=eb5b90bb77d46a>
 
-2. React Best Practices
+3. React Best Practices
 
-- https://www.codeinwp.com/blog/react-best-practices/
-- http://www.jancarloviray.com/blog/react-best-practices-2020/
+- <https://www.codeinwp.com/blog/react-best-practices/>
+- <http://www.jancarloviray.com/blog/react-best-practices-2020/>
 
 ## Help
 
-In case of any questions leave them in the doc: https://docs.google.com/document/d/1QWoHxUGsVvgAAQeow4FkyZEUCeGgwrkF7omvFsdbZfY/edit#
+In case of any questions leave them in the doc: <https://docs.google.com/document/d/1QWoHxUGsVvgAAQeow4FkyZEUCeGgwrkF7omvFsdbZfY/edit#>

@@ -15,20 +15,20 @@
 - при написании кода рекомендуется следовать гайдлайну https://codeguide.academy/html-css.html
 - контент размещается в блоке, который горизонтально центрируется на странице
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/)
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru)
 
 ## Порядок работы
 
 1. Работу ведёте в ветке `rsschool-cv-html` репозитория `rsschool-cv`.
 2. При вёрстке CV ориентируйтесь на [Требования к вёрстке](#требования-к-вёрстке) и [Критерии оценки](#критерии-оценки).
 3. Самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки)
-4. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
-   Название Pull Request `CV. Cross-Check`  
-   [Описание Pull Request дайте по схеме](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).  
-   Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
-5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
+4. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`  
    Название Pull Request на ваше усмотрение. Описывать этот Pull Request не нужно.  
    Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
+5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
+   Название Pull Request `CV. Cross-Check`  
+   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).  
+   Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
 6. В файл `README.md` ветки `main` добавьте две ссылки, в которых вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этим ссылкам должны открываться страницы CV в формате markdown и в виде свёрстанной страницы
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/`
@@ -37,7 +37,7 @@
 
 **Максимальный балл за задание +120**
 
-- студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit?course=js-fe-preschool-2022q2) ссылку на своё CV, задеплоенное на `gh-pages` +10
+- студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit) ссылку на своё CV, задеплоенное на `gh-pages` +10
 - вёрстка валидная +10
   - для проверки валидности вёрстки используйте сервис https://validator.w3.org/
   - валидной вёрстке соответствует надпись "Document checking completed. No errors or warnings to show." В таком случае баллы за пункт требований выставляем полностью.
@@ -49,8 +49,8 @@
   - элемент `nav` +5
   - только один заголовок `h1` +5
   - заголовки `h2` +5
-- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](https://rs.school/images/rs_school_js.svg) со [ссылкой на курс](https://rs.school/js/) +10  
-  Если ссылка в футере ведёт на [курс stage0](https://rs.school/js-stage0/), это не ошибка.
+- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru) +10  
+  Если ссылка в футере ведёт на [курс stage0](https://rs.school/courses/javascript-preschool-ru) или на [English курс](https://rs.school/courses/javascript), это не ошибка.
 - для оформления СV используются css-стили +10
 - при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону +10
 - на странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут `alt` +10
@@ -77,17 +77,16 @@
 
 ## Проверка задания CV#3. CV Cross-Check
 
-- инструкция по проведению cross-check: https://docs.rs.school/#/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
 - форма для кросс-чека https://rolling-scopes-school.github.io/checklist/ (пункт "CV#3. CV. Cross-Check")
 - видео с примером кросс-чека https://youtu.be/PPGO8Mvtc20
-- ссылки на самые лучшие работы вашего набора с очень высоким качеством выполнения добавьте, пожалуйста, в эту форму https://forms.gle/kcmAkFK4j1EGW5JS8
 
 ## Материалы
 
 - [HTML5 Семантические элементы](https://html5css.ru/html/html5_semantic_elements.php)
 - [Примеры оформления CV](https://www.freepik.com/free-photos-vectors/cv-template)
 - [Примеры оформления CV](https://www.canva.com/resumes/templates/)
-- [Figma Community. CV](https://www.figma.com/community/search?model_type=hub_files&q=cv)
+- [Figma Community. CV](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=cv&editor_type=all&price=all&creators=all)
 
 ## Примеры CV
 

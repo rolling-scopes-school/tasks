@@ -2,39 +2,34 @@
 
 ## [RS School. Курс по Angular.](../../README-RU.md)
 
-## В данном модуле студенты изучат
+## В данном модуле вы узнаете:
 
-- Основы `TypeScript`.
-- Общие сведения об `Angular`.
-- Что такое `Angular-cli`?
+- Основы `TypeScript`
+- Общие сведения об `Angular`
+- Что такое `Angular CLI` и как его использовать
 
-## Приблизительное время прохождения модуля
+## Приблизительное время на прохождение модуля:
 
-#### Теория - 3 часа, Практика - 2 часа.
+теория - 3 часа
+практика - 2 часа
 
 ## Теория от менторов RS
 
-- [Angular 2020Q1. Intro](https://youtu.be/HoUq9xyfCAk)
-- [Angular 2021Q1. Intro](https://youtu.be/VeDh-lBCgh0)
-- [Примеры из видео](https://github.com/Pulya10c/angular-lectures-2021/tree/master/ts-intro/src)
-- [Слайды](https://slides.com/alehserhyienia/angular-intro-typescript)
+- [Лекция по TypeScript](https://www.youtube.com/watch?v=pA5l7-SFWWY)
+- [Вводная лекция по Angular (до 48:25)](https://youtu.be/8lt8Mvxyo5E)
+- [Видеообзор](https://www.youtube.com/watch?v=xAT0lHYhHMY&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=1)
+- [Примеры из видео (код)](https://github.com/Pulya10c/angular-lectures-2021/tree/master/ts-intro/src)
+- [Слайды: Введение в TypeScript и Angular](https://slides.com/alehserhyienia/angular-intro-typescript)
 
 ## Практическое задание
 
-- [Angular intro task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md)
-- Тест: Intro to Angular (TypeScript, Angular-cli)
-- Тренер: Рустам Сатлыков
-
-## Документация
-
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
-- [Angular Documentation](https://angular.io/docs)
-- [CLI Overview and Command Reference](https://cli.angular.io/)
+- TBD
+- Test: Intro to Angular (TypeScript, Angular CLI)
 
 ## Дополнительные материалы
 
-- [RU: TypeScript by Yauhen Kavalchuk](https://www.youtube.com/watch?v=MtO76yEYbxA&list=PLNkWIWHIRwMEm1FgiLjHqSky27x5rXvQa)
-- [EN: TypeScript Tutorial by Net Ninja](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
-- [EN: Angular for Beginners Course by freeCodeCamp.org](https://www.youtube.com/watch?v=3qBXWUpoPHo)
-- [RU: Начало работы с Angular: Ваше первое приложение](https://angular24.ru/)
-- [RU: Разрушаем мифы про Angular](https://www.youtube.com/watch?v=ZHvQv34WKlk)
+- [Документация Angular (EN)](https://angular.dev/)
+- [Обзор Angular](https://angular.dev/overview)
+- [Angular CLI](https://angular.dev/tools/cli)
+- [EN: TypeScript Tutorial by Net Ninja (YouTube)](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
+- [EN: Angular for Beginners — FreeCodeCamp (YouTube)](https://www.youtube.com/watch?v=3qBXWUpoPHo)

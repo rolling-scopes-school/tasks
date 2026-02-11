@@ -61,12 +61,12 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
 ## Repository requirements
 
 - The task must be done in [**\*private school's repository**](https://docs.rs.school/#/private-repository).
-- The code must be committed to a separate branch **named as the task**.
+- The code must be committed to a separate branch **named as the task (`hangman`)**.
 - The `main` (or old style master) branch **must be empty** (contain only files like README.md or .gitignore).
-- Commit messages must follow the [guideline](https://docs.rs.school/#/git-convention)
+- Commit messages must follow the [guideline](https://rs.school/docs/ru/git-convention)
 - Once the work is finished, create a pull request from a **hangman** branch to **main** (or master).
 - The pull request name must contain **the task name**.
-- The pull request description must be provided according to the [template](https://docs.rs.school/#/pull-request-review-process?id=Требования-к-pull-request-pr).
+- The pull request description must be provided according to the [template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
 
 ## Technical requirements
 
@@ -77,7 +77,7 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
   - Outdated libraries (e.g. `JQuery`, etc.),
   - Any JS libraries which are not devDependencies (e.g. `lodash`),
   - `TypeScript`.
-- You can use CSS preprocessors (`SASS`, `SCSS`) and `normalize.css`.
+- You can use CSS preprocessors (`SASS`, `SCSS`) and `normalize.css` or `modern-normalize`.
 - It is strongly recommended to use `eslint` and `prettier`.
 
 ## CrossCheck Criteria (150 points)

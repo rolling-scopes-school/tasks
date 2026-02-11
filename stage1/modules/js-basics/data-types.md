@@ -19,5 +19,4 @@
 
 ## Practice
 
-1. Pass test "[St1] JS Types" at the RS APP > Auto Test
-2. Resolve [list of tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/data-types.md) on Codewars
+Pass test "[St1] JS Types" at the RS APP > Auto Test

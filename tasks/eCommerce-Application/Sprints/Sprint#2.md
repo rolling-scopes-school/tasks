@@ -81,7 +81,7 @@ In the second sprint, the team will focus on implementing the login, registratio
 ### 🎯 Evaluation Criteria for Header (25 points - Total)
 
 - 🚀 **(15 points)** Navigation to login and registration pages for unauthorized users [RSS-ECOMM-2_21](./Sprint2/RSS-ECOMM-2_21.md)
-- ☑️ **(5 points)** Ability to access the main page for all users [RSS-ECOMM-22](./Sprint2/RSS-ECOMM-2_22.md)
+- ☑️ **(5 points)** Ability to access the main page for all users [RSS-ECOMM-2_22](./Sprint2/RSS-ECOMM-2_22.md)
 - 🚫 **(5 points)** Logout functionality for authorized users [RSS-ECOMM-2_23](./Sprint2/RSS-ECOMM-2_23.md)
 
 ### Penalties for Cross-Check Criteria (40 points - Total): ❌

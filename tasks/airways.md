@@ -69,11 +69,9 @@ Footer:
 - The app should provide a user registration flow that guides the user through the process of creating an account. The flow should include two tabs - "Login" and "Sign Up."
 
 - Login tab:
-
   - The "Login" tab should allow users to sign in to their existing account by providing their email and password. In case of incorrect credentials, the app should alert the user about entering the wrong username or password.
 
 - Sign Up tab:
-
   - The "Sign Up" tab should allow users to create a new account by providing their email, password, first name, last name, date of birth, gender, phone number, and citizenship.
   - Users should also have the option to sign up using social networks which are not supposed to be a fully functioning OAuth solution: it could be used to pre-fill the registration form
   - Form validation: The registration form should have validation rules in place to ensure that all required fields are filled in, the name field doesn't contain numbers, the email address is valid, and the phone number is in the correct format.
@@ -86,7 +84,6 @@ Footer:
 - The entry point of the app. Available for anonymous users.
 
 - The flight search form should include the following fields:
-
   - type of flight (one-way or round trip),
   - destination from (with autocomplete dropdown),
   - destination to (with autocomplete dropdown),
@@ -115,7 +112,6 @@ Footer:
 - Dates in the past should be disabled by default.
 
 - Each selected date should contain the following information:
-
   - Departure location, date, and time
   - Arrival location, date, and time
   - Flight duration
@@ -144,7 +140,6 @@ Footer:
 - It should show the progress of booking and the current step
 
 - The page should list all previously selected passengers and provide the following input fields:
-
   - First name
   - Last name
   - Gender
@@ -154,7 +149,6 @@ Footer:
 - These fields should include appropriate validation to ensure that the entered data is accurate.
 
 - Contact Information: The page should include input fields for:
-
   - country code
   - phone number
   - email of the user.
@@ -166,7 +160,6 @@ Footer:
 ### Summary Page (+50)
 
 - The Summary page is the final step before confirming the flight booking. It will display all the details entered by the user during the booking process, including:
-
   - Flight details: This section should display the flight number, departure and arrival times, and dates.
   - Passenger details: This section should show the passenger data as well as baggage options.
   - Payment details: This section should display the total cost of the booking, broken down by each component, such as the base fare, taxes, and any additional fees.
@@ -206,6 +199,5 @@ User Account page:
 - The presence in the console of the results of the console.log execution - 50 points
 
 - Making commits after the deadline:
-
   - \-30% for making commits within up to 3 days of the passed deadline
   - \-70% for making commits within up to 7 days of the passed deadline

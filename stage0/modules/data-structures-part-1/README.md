@@ -14,7 +14,7 @@
    - [Массив](https://youtu.be/Jvm4ShU86yw)
    - [Матрица](https://youtu.be/r8uHNxrfCwc)
    - [Стек](https://youtu.be/TqlSlaMak8Y)
-2. Прочитать [конспект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/materials/algorithms.md)
+2. Прочитать [конспект](./algorithms.md)
 3. [Запись лекции](https://youtu.be/eRYupES3PG0?list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Практика
@@ -29,8 +29,8 @@
 Задачи:
 
 1. https://github.com/rolling-scopes-school/brackets
-2. https://github.com/Shastel/towel-sort
-3. https://github.com/romacher/morse-decoder
+2. https://github.com/rolling-scopes-school/towel-sort
+3. https://github.com/rolling-scopes-school/morse-decoder
 4. [Codewars](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
 
 ## Дополнительные материалы
