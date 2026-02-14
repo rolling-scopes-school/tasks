@@ -46,10 +46,13 @@
 | **My Components**    | **Complex Component:** Разработка сложного интерактивного компонента (Game Board, Widget Engine, Chat UI, Code Runner) | +25 за каждый |
 |                      | **Rich UI Screen:** Реализация экрана со сложной логикой и состоянием (Dashboard, Library с фильтрами, Profile, Lobby) | +20 за каждый |
 |                      | **Cложный бэкенд-сервис:** Game Server Engine, Matchmaking System, AI Context Manager, Code Execution Sandbox          | +30 за каждый |
-| **Backend & Data**   | **Auth Integration:** Настройка авторизации (Firebase/Supabase Auth, email, OAuth или аналог)                          | +15           |
+| **Backend & Data**   | **BaaS Auth:** Настройка авторизации через BaaS (Firebase/Supabase Auth, email, OAuth)                                 | +15           |
+|                      | **Custom Auth:** Собственная авторизация (JWT + bcrypt + middleware) без BaaS                                          | +20           |
 |                      | **BaaS CRUD:** Работа с облачной БД (Firebase/Supabase), реализация минимум 1 endpoint                                 | +15           |
 |                      | **Custom Backend:** Разработка своего бэкенда (Node.js/Python) с локальной базой данных                                | +30           |
-|                      | **Real-time / WS:** Использование WebSockets или Real-time подписок в проекте                                          | +20           |
+|                      | **Backend Framework:** Использование серверного фреймворка (NestJS, Express, Fastify, Koa)                             | +10           |
+|                      | **API Documentation:** Swagger/OpenAPI или аналогичная документация API                                                | +5            |
+|                      | **Real-time:** WebSocket, SSE или Real-time подписки в проекте                                                         | +20           |
 | **AI**               | **AI Chat UI:** Интерфейс чата с отправкой промпта и отображением ответа LLM                                           | +20           |
 |                      | **AI Streaming:** Реализация посимвольного вывода ответа (stream text)                                                 | +10           |
 |                      | **Raw LLM API:** Интеграция без "magic" SDK (использование native fetch + ReadableStream)                              | +10           |
@@ -75,6 +78,7 @@
 | **DevOps & Role**    | **Team Lead:** Инициализация репо, настройка CI/CD, управление доской                                                  | +20           |
 |                      | **Prompt Engineering:** Документирование 3+ итераций улучшения промптов                                                | +15           |
 |                      | **Architect:** Документирование архитектурных решений (схемы, ADR)                                                     | +10           |
+|                      | **Docker:** Контейнеризация проекта (фронт + бэк + БД)                                                                 | +10           |
 |                      | **Auto-deploy:** Настройка автоматического деплоя (Vercel/Netlify/GH Actions)                                          | +5            |
 | **Architecture**     | **State Manager:** Использование стейт-менеджера (Redux/Zustand/MobX)                                                  | +10           |
 |                      | **Design Patterns:** Явное и обоснованное применение паттернов в коде                                                  | +10           |
@@ -82,7 +86,7 @@
 | **Frameworks**       | **React:** Использование библиотеки React                                                                              | +5            |
 |                      | **Angular:** Использование фреймворка Angular                                                                          | +10           |
 |                      | **Vue:** Использование фреймворка Vue                                                                                  | +5            |
-|                      | **Meta-Framework:** Использование SSR решений (Next.js / Nuxt / Analog)                                                | +10           |
+|                      | **Meta-Framework:** SSR/SSG/ISR через мета-фреймворк (Next.js, Nuxt, Analog)                                           | +10           |
 
 ---
 
