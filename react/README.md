@@ -152,7 +152,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-[Task 8](modules/tasks/performance.md)
+[Task 8](modules/tasks/performance/performance.md)
 
 - Cross-check review: [Task 7](modules/tasks/forms.md)
 - Mentor review: [Task 7](modules/tasks/forms.md)
