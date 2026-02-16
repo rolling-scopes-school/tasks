@@ -303,6 +303,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 **Final project (Tandem):** Students may use the full 6 weeks for development (through Week #16) or complete in 4 weeks and present earlier. See the [task description](./tasks/rs-tandem/README.md) for details.
 
 - Modules:
+  - [Module: Reactive Programming](./modules/reactive-programming/)
   - [Module: CI/CD](./modules/ci-cd/)
 
 - Tasks:
@@ -310,6 +311,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 - Tests:
+  - [[St2] Reactive Programming](./modules/reactive-programming/)
   - [[St2] CI/CD](./modules/ci-cd/)
 
 <details>
