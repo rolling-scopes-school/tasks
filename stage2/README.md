@@ -7,7 +7,7 @@
   - Students acquire knowledge and experience in developing UI components and web applications
   - Preparing students for technical interviews and presentations in English
   - Students get experience in working in a team and completing a team project
-- Stage#2 duration: 16 weeks
+- Stage#2 duration: 18 weeks
 - Format: Self-study + webinars + communication on Discord + communication with mentors. Practical tasks are checked and evaluated by a mentor and during cross-checks. Practice technical interviews are held with different mentors during the course.
 
 # Course Schedule
@@ -300,23 +300,23 @@ Starting at the end of this week, all students must use TypeScript for all subse
 
 ### February 17, 2026 - February 23, 2026
 
+**Final project (Tandem):** Students may use the full 6 weeks for development (through Week #16) or complete in 4 weeks and present earlier. See the [task description](./tasks/rs-tandem/README.md) for details.
+
 - Modules:
-  - [Module: Reactive Programming](./modules/reactive-programming/)
   - [Module: CI/CD](./modules/ci-cd/)
 
 - Tasks:
-  - [Final-Task. Setup](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+  - [Final-Task. Setup](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 - Tests:
-  - [[St2] Reactive Programming](./modules/reactive-programming/)
   - [[St2] CI/CD](./modules/ci-cd/)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
 - [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task. Setup](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
+- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task. Setup](./tasks/rs-tandem/README.md)
 - [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Presentation](./tasks/presentation/) (using [Mentors Check Criteria](./tasks/presentation/README.md#evaluation-criteria))
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
@@ -330,14 +330,14 @@ Starting at the end of this week, all students must use TypeScript for all subse
   - [Module: JavaScript Garbage Collection](./modules/garbage-collection/)
 
 - Tasks:
-  - [Final-Task. Week 1](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [Final-Task. Week 1](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task. Setup](../tasks/eCommerce-Application/Sprints/Sprint%231.md)
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 1](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking Final Version of Final-Task. Setup](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 1](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -347,13 +347,13 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 3, 2026 - March 9, 2026
 
 - Tasks:
-  - [Final-Task. Week 2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+  - [Final-Task. Week 2](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 2](../tasks/eCommerce-Application/Sprints/Sprint%232.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 2](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -363,13 +363,13 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 10, 2026 - March 16, 2026
 
 - Tasks:
-  - [Final-Task. Week 3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+  - [Final-Task. Week 3](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 3](../tasks/eCommerce-Application/Sprints/Sprint%233.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 3](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -378,19 +378,14 @@ Starting at the end of this week, all students must use TypeScript for all subse
 
 ### March 17, 2026 - March 23, 2026
 
-- Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
-
 - Tasks:
+  - [Final-Task. Week 4](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
-
-- Presentations:
-  - [Final Project Presentation](../tasks/eCommerce-Application/presentation.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task](../tasks/eCommerce-Application/Sprints/Sprint%234.md)
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 4](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -398,6 +393,43 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ## Week #16
 
 ### March 24, 2026 - March 30, 2026
+
+- Tasks:
+  - [Final-Task. Week 5](./tasks/rs-tandem/README.md)
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
+
+<details>
+  <summary markdown="span">Mentor Activities</summary>
+
+- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 5](./tasks/rs-tandem/README.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
+</details>
+
+## Week #17
+
+### March 31, 2026 - April 6, 2026
+
+- Cross-Check Reviews:
+  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
+
+- Tasks:
+  - [CoreJS Interview #2](../tasks/interview-corejs.md)
+
+- Presentations:
+  - [Final Project Presentation](./tasks/rs-tandem/PERSONAL_SCORE.md)
+
+<details>
+  <summary markdown="span">Mentor Activities</summary>
+
+- [Checking Final Version of Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
+- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
+
+</details>
+
+## Week #18
+
+### April 7, 2026 - April 13, 2026
 
 - Receiving the certificate for Stage#2
 - Break before Stage#3

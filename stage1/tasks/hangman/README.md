@@ -60,7 +60,7 @@ At the [following link](https://www.figma.com/file/ug2NAUiXPpaFDvch5TWUxd/Hangma
 
 ## Repository requirements
 
-- The task must be done in **\*private school's repository**.
+- The task must be done in [**\*private school's repository**](https://docs.rs.school/#/private-repository).
 - The code must be committed to a separate branch **named as the task (`hangman`)**.
 - The `main` (or old style master) branch **must be empty** (contain only files like README.md or .gitignore).
 - Commit messages must follow the [guideline](https://rs.school/docs/ru/git-convention)
@@ -87,12 +87,13 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [ ] Responsive/adaptive UI from 1440px to 360px viewport: `+10`
 - [ ] The generation of DOM elements is implemented. `body` in the `index.html` is empty (can contain only `script` tag). _This requirement can be checked by pressing `Ctrl+U` (Windows) or `Option(⌥)+Command(⌘)+U` (Mac)_: `+20`
 - [ ] The game starts with the correct default view (empty gallows, underscores for secret word, etc.) and a random question: `+5`
-- [ ] The user can play the game by using the virtual keyboard: `+20`
+- [ ] The user can play the game by using the virtual keyboard, showing alphabetic characters only: `+20`
 - [ ] The user can play the game by using the physical keyboard: `+20`
 - [ ] When the letter is correct, it appears instead of the corresponding underscore. If the letter repeats in the word, all corresponding underscores must be replaced by it: `+15`
 - [ ] When the letter is incorrect:
   - [ ] the incorrect guesses counter is updated: `+5`
-  - [ ] a body part is added to the gallows: `+10`
+  - [ ] a body part is added to the gallows: `+5`
+  - [ ] pressing non-alphabetic characters (numbers, punctuations etc.) does not change the counter and does not add a body part to the gallows: `+5`
 - [ ] The clicked/pressed letter is disabled: `+5`
 - [ ] The body parts appear on the gallows in the logical order (head, body, left arm, right arm, left leg, right leg): `+5`
 - [ ] When the user runs out of 6 attempts or wins the game, the modal window appears: `+10`
@@ -105,6 +106,7 @@ _It is recommended to print the secret word in the browser's console to facilita
 - When clicking on 'play again' button, the newly selected question-answer pair is identical to the previous one: `-20`
 - When clicking on 'play again' button, the elements on the page are reset by reloading the page instead of updating them dynamically: `-50`
 - `body` in the `index.html` is not empty (contains something else besides the allowed `script` tag): `-150`
+- a large chunk/all of code is pasted via innerHTML, insertAdjacentHTML: `-20`
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
 
 **!!!** The administration reserves the right to invalidate a student's score for the task if any of the mandatory requirements are not fulfilled in a proper manner _(e.g. if the student has used html templates to generate the `body` content)_.
@@ -115,3 +117,5 @@ _It is recommended to print the secret word in the browser's console to facilita
 - [Event](http://learn.javascript.info/event-details)
 - [An Introduction To DOM Events](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
 - [Keyboard events](https://learn.javascript.info/keyboard-events)
+- [:disabled CSS pseudo-class ](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
+- [HTMLSelectElement.disabled](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled)
