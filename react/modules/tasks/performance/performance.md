@@ -33,14 +33,14 @@ For detailed step-by-step instructions on how to profile the application, see th
 
 - **Given** I have the unoptimized starter application running
 - **When** I use React DevTools Profiler to record the following interactions:
-    - Sorting countries
-    - Searching for a country
-    - Selecting a different year
-    - Toggling columns
+  - Sorting countries
+  - Searching for a country
+  - Selecting a different year
+  - Toggling columns
 - **Then** I capture the following metrics for each interaction:
-    - Commit duration
-    - Render duration
-    - Flame chart
+  - Commit duration
+  - Render duration
+  - Flame chart
 - **And** I document these findings with screenshots in `PERFORMANCE.md`
 
 **Acceptance Criteria:**
