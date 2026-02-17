@@ -61,7 +61,7 @@ graph TB
     CM --> WC
     API_Layer -->|supabase-js SDK| Auth
     API_Layer -->|supabase-js SDK| DB
-    API_Layer -->|invoke()| EdgeFn
+    API_Layer -->|"invoke()"| EdgeFn
     EdgeFn -->|LLM запрос| Groq
     DB --> RLS
 
