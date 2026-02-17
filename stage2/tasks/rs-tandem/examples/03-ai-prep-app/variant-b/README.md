@@ -49,7 +49,7 @@ graph TB
     subgraph Supabase["Supabase Cloud"]
         Auth[Supabase Auth<br/>Google, GitHub]
         DB[(PostgreSQL)]
-        Edge[Edge Functions<br/>Deno Runtime]
+        EdgeFn[Edge Functions<br/>Deno Runtime]
         RLS[Row Level Security]
     end
 
@@ -61,8 +61,8 @@ graph TB
     CM --> WC
     API_Layer -->|supabase-js SDK| Auth
     API_Layer -->|supabase-js SDK| DB
-    API_Layer -->|invoke()| Edge
-    Edge -->|LLM запрос| Groq
+    API_Layer -->|"invoke()"| EdgeFn
+    EdgeFn -->|LLM запрос| Groq
     DB --> RLS
 
     style Browser fill:#e8f5e9,stroke:#4caf50
