@@ -102,17 +102,19 @@
 - [Дневник](./DEVELOPMENT_DIARY.md) разработки существует, заполнен регулярно, записи закоммичены своевременно
 - Описан в дневнике или снят на видео процесс разработки минимум 2 личных Feature Component
 
-### Три оценки в RS APP (макс. 900 баллов)
+### Оценки в RS APP (макс. 920 баллов)
 
-За проект выставляется **три отдельных Score** в RS APP:
+За проект выставляется **четыре отдельных Score** в RS APP:
 
-| Score                | Баллы   | Формат                                     | Документ                                 |
-| -------------------- | ------- | ------------------------------------------ | ---------------------------------------- |
-| **Tandem: Code**     | 100     | Cross-Check (до презентаций)               | [CODE_STANDARDS.md](./CODE_STANDARDS.md) |
-| **Tandem: Teamwork** | 300     | Командная презентация (до 10 мин)          | [TEAMWORK.md](./TEAMWORK.md)             |
-| **Tandem: Personal** | 500     | Индивидуальный созвон с рандомным ментором | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md) |
-| **Итого**            | **900** |                                            |                                          |
+| Score                | Баллы   | Формат                                     | Документ                                     |
+| -------------------- | ------- | ------------------------------------------ | -------------------------------------------- |
+| **Tandem: Week 1**   | 20      | Автоматическая проверка (конец Week 1)     | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
+| **Tandem: Code**     | 100     | Cross-Check (до презентаций)               | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
+| **Tandem: Teamwork** | 300     | Командная презентация (до 10 мин)          | [TEAMWORK.md](./TEAMWORK.md)                 |
+| **Tandem: Personal** | 500     | Индивидуальный созвон с рандомным ментором | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
+| **Итого**            | **920** |                                            |                                              |
 
+- **Tandem: Week 1** — личная оценка. Дискретная (20 или 0): репозиторий создан, доступ расшарен, README заполнен, первая запись в дневнике.
 - **Tandem: Code** — одинаковая для всей команды. Проверяется по чеклисту: TypeScript strict, no any, ESLint + Prettier, error handling.
 - **Teamwork** — одинаковая для всей команды. Оценивается жюри на презентации: board, git culture, product integrity.
 - **Tandem: Personal** — личная оценка каждого студента. Включает Development Diary (100), Personal Features (250 ceiling) и Mentor Review (150).
@@ -187,6 +189,7 @@ AI компонент — это один из Feature Component (и даже н
 
 | Файл                                                 | О чём                                                                            |
 | ---------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md)         | **Week 1:** Старт проекта, доступ к репо, первая запись в дневнике (20 pts).     |
 | [vision_varabei.md](./vision_varabei.md)             | **Философия:** Зачем мы это делаем и в чем смысл проекта?                        |
 | [vision_opus.md](./vision_opus.md)                   | **AI Perspective:** Взгляд AI на проект — честно о возможностях и ограничениях.  |
 | [CODE_STANDARDS.md](./CODE_STANDARDS.md)             | **Качество кода:** TypeScript strict, no any, linting, error handling (100 pts). |
