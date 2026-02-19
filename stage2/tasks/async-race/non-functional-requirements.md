@@ -70,6 +70,6 @@ Mentors will evaluate the "Async Race" Single Page Application (SPA) based on th
   - Bootstrap CSS is permitted for **styling purposes** only.
   - CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx/classnames` package are allowed.
 
-- **Typescript Usage (-100%):** The application must be developed using TypeScript. All method input and output parameters must be typed accurately, and the use of explicit or implicit "any" type, type assertions (`foo as BarType`) and non-nullability assertions (`y!`) is not allowed.
+- **No Typescript Usage (-100%):** The application must be developed using TypeScript. All method input and output parameters must be typed accurately, and the use of explicit or implicit "any" type, type assertions (`foo as BarType`) and non-nullability assertions (`y!`) is not allowed.
 
   These criteria emphasize the importance of clean code, proper architecture, and adherence to modern development practices. Mentors will use these guidelines to assess the technical execution and overall quality of the project.
