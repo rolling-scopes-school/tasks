@@ -135,3 +135,7 @@ You can use the "Highlight updates when components render" feature in React DevT
 ### ❓ Can I use the React Compiler (automatic memoization)?
 
 No, the goal of this task is to learn manual optimization techniques. Using the React Compiler would defeat the learning purpose.
+
+### ❓ Should I use useCallback and useMemo everywhere?
+
+No. These hooks should be used primarily for heavy calculations or preventing unnecessary re-renders in large component trees. Using them everywhere adds unnecessary memory overhead and makes the code harder to read. "Premature optimization" can sometimes make an app slower because the work React does to compare dependencies isn't always cheaper than just re-running the function.
