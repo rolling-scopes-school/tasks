@@ -1,4 +1,4 @@
-# RS Tandem: Week 1 Checkpoint (20 баллов)
+# Tandem: Week 1 Checkpoint
 
 > **Score в RS APP:** Tandem: Week 1 Checkpoint
 > **Тип оценки:** личная (каждый студент получает индивидуально)
