@@ -45,5 +45,5 @@
 ## Practice
 
 1. Assignment: **Simple CRUD API**
-   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)
-   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/score.md)
+   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/03-crud-api/assignment.md)
+   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/03-crud-api/score.md)

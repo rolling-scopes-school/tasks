@@ -49,5 +49,5 @@
 
 1. Assignment: **Node.js basics**
 
-- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
-- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/score.md)
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/01-nodejs-fundamentals/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/01-nodejs-fundamentals/score.md)
