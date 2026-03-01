@@ -23,7 +23,7 @@
 
 ## Practice
 
-1. Assignment: **REST Service: Database & ORM**
+1. Assignment: **Database & Prisma ORM**
 
-- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/database-orm/assignment.md)
-- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/database-orm/score.md)
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/05b-database-prisma/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/05b-database-prisma/score.md)

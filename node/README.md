@@ -21,17 +21,18 @@ Before the start of the course, the student must:
 
 ## Course topics
 
-- Node.js basics
-- WebSocket
-- GraphQL basics
-- REST API
-- Databases
-- SQL basics
-- Testing of Node.js-application
-- Containerization, Docker
-- Authorization/authentication, JWT
+- Node.js fundamentals and core APIs
+- Data Processing CLI
+- HTTP and Fastify CRUD API
+- Nest.js backend API architecture
+- Containerization with Docker and Docker Compose
+- Databases: PostgreSQL, SQL basics, Prisma ORM
+- Authentication and authorization (JWT)
+- Testing basics and REST service testing
 - Logging and error handling
-- Backend frameworks
+- WebSocket
+- AI/LLM integration
+- RAG and vector databases
 - TypeScript
 
 ## Course program
@@ -43,34 +44,42 @@ Before the start of the course, the student must:
 
 ### Week 2
 
-- [Module "Node.js application"](modules/nodejs-application/README.md)
+- [Module "Data Processing CLI"](modules/data-processing-cli/README.md)
 
 ### Week 3
 
 - [Module "Network communication: HTTP"](modules/crud-api/README.md)
-- [Module "Testing basics"](modules/testing/README.md)
 
 ### Week 4
 
-- [Module "Network communication: WebSocket"](modules/websocket/README.md)
-
-### Week 5
-
-- [Module "GraphQL basics"](modules/graphql/README.md)
-
-### Week 6
-
 - [Module "REST service"](modules/rest/rest/README.md)
 
-### Week 7, Week 8
+### Week 5
 
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
 - [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 
+### Week 6
+
+- [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
+- [Module "Testing basics"](modules/testing/README.md)
+
+### Week 7
+
+- [Module "REST service: Testing"](modules/rest/testing/README.md)
+- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
+
+### Week 8
+
+- [Module "Network communication: WebSocket"](modules/websocket/README.md)
+
 ### Week 9
 
-- [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
-- [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
+- [Module "Knowledge Hub.AI: LLM Integration"](modules/ai-llm-integration/README.md)
+
+### Week 10
+
+- [Module "Knowledge Hub.AI: RAG & Vector DB"](modules/ai-rag-vectordb/README.md)
 
 ## Optional
 
