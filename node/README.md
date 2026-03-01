@@ -24,13 +24,13 @@ Before the start of the course, the student must:
 - Node.js fundamentals and core APIs
 - Data Processing CLI
 - HTTP and Fastify CRUD API
+- WebSocket
 - Nest.js backend API architecture
 - Containerization with Docker and Docker Compose
 - Databases: PostgreSQL, SQL basics, Prisma ORM
 - Authentication and authorization (JWT)
 - Testing basics and REST service testing
 - Logging and error handling
-- WebSocket
 - AI/LLM integration
 - RAG and vector databases
 - TypeScript
@@ -52,26 +52,26 @@ Before the start of the course, the student must:
 
 ### Week 4
 
-- [Module "REST service"](modules/rest/rest/README.md)
+- [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
 ### Week 5
+
+- [Module "REST service"](modules/rest/rest/README.md)
+
+### Week 6
 
 - [Module "REST service: Containerization"](modules/rest/containerization/README.md)
 - [Module "REST service: Database & ORM"](modules/rest/database-orm/README.md)
 
-### Week 6
+### Week 7
 
 - [Module "REST service: Authentication & Authorization"](modules/rest/authentication-jwt/README.md)
 - [Module "Testing basics"](modules/testing/README.md)
 
-### Week 7
+### Week 8
 
 - [Module "REST service: Testing"](modules/rest/testing/README.md)
 - [Module "REST service: Logging & Error handling"](modules/rest/logging-error-handling/README.md)
-
-### Week 8
-
-- [Module "Network communication: WebSocket"](modules/websocket/README.md)
 
 ### Week 9
 
