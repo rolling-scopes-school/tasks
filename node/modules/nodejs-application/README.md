@@ -1,9 +1,19 @@
-# Module "Node.js application"
+# Module "Node.js application" (Legacy)
 
-## In this module, students study:
+## Legacy notice
 
-- How to build Node.js application
-- How to use Node.js APIs in complex
+This module file is kept only for backward compatibility with old links.
+
+For the current course program and assignments v2, use:
+
+- [Module "Data Processing CLI"](../data-processing-cli/README.md)
+
+## Historical content
+
+- How to build an interactive CLI application
+- REPL architecture and command parsing
+- Streams API for file processing
+- Working with paths, processes, and hashing/compression tools
 
 ## Estimated time to complete the module
 
@@ -34,6 +44,6 @@
 
 ## Practice
 
-1. Assignment: **File Manager**
-   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md)
-   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/score.md)
+1. Assignment: **Data Processing CLI**
+   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/02-data-processing-cli/assignment.md)
+   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/02-data-processing-cli/score.md)

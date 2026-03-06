@@ -31,5 +31,5 @@
 
 1. Assignment: **Basic testing**
 
-- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/basic-testing/assignment.md)
-- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/basic-testing/score.md)
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/06b-basic-testing/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/06b-basic-testing/score.md)

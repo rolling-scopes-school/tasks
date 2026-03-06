@@ -24,7 +24,7 @@
 
 ## Practice
 
-1. Assignment: **REST Service: Containerization**
+1. Assignment: **Containerization & Docker (Foundation)**
 
-- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/containerization/assignment.md)
-- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/containerization/score.md)
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/05a-docker/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/05a-docker/score.md)

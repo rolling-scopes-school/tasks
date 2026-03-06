@@ -18,6 +18,6 @@
 
 ## Practice
 
-1. Assignment: **NodeJS WebSocket Battleship server**
-   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/battleship/assignment.md)
-   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/battleship/score.md)
+1. Assignment: **WebSocket: Live Quiz Game**
+   - [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/08-websockets/assignment.md)
+   - [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/08-websockets/score.md)

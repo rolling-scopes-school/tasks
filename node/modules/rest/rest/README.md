@@ -20,7 +20,7 @@
 
 ## Practice
 
-1. Assignment: **REST Service: Basic**
+1. Assignment: **Nest.js Knowledge Hub API**
 
-- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/assignment.md)
-- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/score.md)
+- [Assignment](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/04-kh-rest-api/assignment.md)
+- [Score calculation](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments-v2/04-kh-rest-api/score.md)

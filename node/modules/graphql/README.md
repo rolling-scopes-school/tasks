@@ -1,6 +1,12 @@
-# Module "GraphQL basics"
+# Module "GraphQL basics" (Legacy)
 
-## In this module, students study:
+## Legacy notice
+
+This module is no longer part of the current 10-week program based on `assignments-v2`.
+
+The content below is preserved for historical reference only.
+
+## Historical content
 
 - GraphQL basics
 - GraphQL vs REST

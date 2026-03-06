@@ -26,30 +26,26 @@ flowchart TD
 
 ## Сравнение вариантов
 
-| Аспект                    | Вариант A: Custom Backend            | Вариант B: Supabase + WebContainer          |
-| ------------------------- | ------------------------------------ | ------------------------------------------- |
-| **Бэкенд**                | Node.js + Express + PostgreSQL       | Supabase (Auth + DB + Edge Functions)       |
-| **Code Runner**           | Judge0 API (SaaS или self-hosted)    | WebContainer (StackBlitz) в браузере        |
-| **AI Judge**              | Backend endpoint → Groq/OpenAI       | Supabase Edge Function → Groq               |
-| **Авторизация**           | Custom JWT / Passport.js             | Supabase Auth (Google, GitHub)              |
-| **Хранение контента**     | PostgreSQL таблицы                   | Supabase PostgreSQL (та же схема)           |
-| **Сложность**             | Высокая (Docker, Judge0, API design) | Средняя (SDK, Edge Functions, WebContainer) |
-| **Лучше для**             | Команда с ментором-бэкендером        | Фронтенд-команда, ментор фокусируется на AI |
-| **Баллы: Custom Backend** | **+30**                              | —                                           |
-| **Баллы: BaaS CRUD**      | —                                    | **+15**                                     |
-| **Баллы: Code Editor**    | **+15**                              | **+15**                                     |
-| **Баллы: AI фичи**        | +20/+10/+10                          | +20/+10/+10                                 |
+| Аспект                | Вариант A: Custom Backend            | Вариант B: Supabase + WebContainer          |
+| --------------------- | ------------------------------------ | ------------------------------------------- |
+| **Бэкенд**            | Node.js + Express + PostgreSQL       | Supabase (Auth + DB + Edge Functions)       |
+| **Code Runner**       | Judge0 API (SaaS или self-hosted)    | WebContainer (StackBlitz) в браузере        |
+| **AI Judge**          | Backend endpoint → Groq/OpenAI       | Supabase Edge Function → Groq               |
+| **Авторизация**       | Custom JWT (bcrypt + middleware)     | Supabase Auth (Google, GitHub)              |
+| **Хранение контента** | PostgreSQL таблицы                   | Supabase PostgreSQL (та же схема + RLS)     |
+| **Сложность**         | Высокая (Docker, Judge0, API design) | Средняя (SDK, Edge Functions, WebContainer) |
+| **Лучше для**         | Команда с ментором-бэкендером        | Фронтенд-команда, ментор фокусируется на AI |
 
-### Баллы: итого по ролям
+### Баллы: Personal Features по ролям
 
 | Роль                  | Вариант A | Вариант B | Разница |
 | --------------------- | --------- | --------- | ------- |
-| Nika (Editor-Dev)     | ~185      | ~185      | ≈0      |
-| Oscar (Dashboard-Dev) | ~175      | ~175      | ≈0      |
-| Paula (Judge-Dev)     | ~180      | ~180      | ≈0      |
-| Mentor (Mentor)       | ~195      | ~165      | **-30** |
+| Nika (Editor-Dev)     | ~115      | ~120      | +5      |
+| Oscar (Dashboard-Dev) | ~110      | ~110      | 0       |
+| Paula (Judge-Dev)     | ~115      | ~115      | 0       |
+| Mentor (Mentor)       | ~190      | ~160      | **-30** |
 
-> **Вывод:** Вариант B проигрывает ~30 баллов только для ментора (нет Custom Backend +30). Для студентов разница минимальна. Выбирайте вариант исходя из навыков команды, а не баллов.
+> **Вывод:** Вариант A выгоднее для ментора (+30 за Custom Backend, Custom Auth, Backend Framework, Docker). Для студентов разница минимальна. Выбирайте вариант исходя из навыков команды, а не баллов. Подробные таблицы — в scoring-and-plan.md каждого варианта.
 
 ---
 
@@ -164,21 +160,33 @@ graph LR
 03-ai-prep-app.md                 # Product Spec (концепция + UI mockups) — общий
 03-ai-prep-app/
 ├── README.md                     # Сравнение вариантов (вы здесь)
-├── architecture-a.md             # Вариант A: Custom Backend + Judge0
-└── architecture-b.md             # Вариант B: Supabase + WebContainer
+├── variant-a/                    # Custom Backend + Judge0
+│   ├── README.md                 # Архитектура, стек, команда, навигация
+│   ├── scoring-and-plan.md       # Баллы + 6-недельный план
+│   ├── data-contracts.md         # TS типы + REST API + PostgreSQL
+│   ├── ai-judge.md               # AI Judge Level 0/1/2
+│   ├── code-runner.md            # Judge0 + AI Error Hint
+│   └── risks-and-mitigations.md  # Риски Custom Backend
+└── variant-b/                    # Supabase + WebContainer
+    ├── README.md                 # Архитектура, стек, команда, навигация
+    ├── scoring-and-plan.md       # Баллы + 6-недельный план
+    ├── data-contracts.md         # TS типы + Supabase SDK + RLS
+    ├── ai-judge.md               # AI Judge Level 0/1/2 (Edge Function)
+    ├── code-runner.md            # WebContainer + AI Error Hint
+    └── risks-and-mitigations.md  # Риски Supabase
 ```
 
 ---
 
 ## Навигация
 
-| Документ                                                 | Описание                                                            | Когда читать              |
-| -------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------- |
-| [03-ai-prep-app.md](../03-ai-prep-app.md)                | Product Spec: концепция, UI mockups, user journey                   | В первую очередь          |
-| [architecture-a.md](./architecture-a.md)                 | Вариант A: Custom Backend + Judge0 — архитектура, компоненты, API   | После выбора варианта     |
-| [architecture-b.md](./architecture-b.md)                 | Вариант B: Supabase + WebContainer — архитектура, компоненты, схема | После выбора варианта     |
-| [ARCHITECTURE_AND_API.md](../../ARCHITECTURE_AND_API.md) | API Service Layer — паттерн mock/real переключения                  | Перед началом разработки  |
-| [AI_AGENT.md](../../AI_AGENT.md)                         | Справочник по интеграции LLM                                        | Когда дойдёте до AI Judge |
+| Документ                                                 | Описание                                                           | Когда читать              |
+| -------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------- |
+| [03-ai-prep-app.md](../03-ai-prep-app.md)                | Product Spec: концепция, UI mockups, user journey                  | В первую очередь          |
+| [variant-a/README.md](./variant-a/README.md)             | Вариант A: Custom Backend + Judge0 — архитектура, компоненты, стек | После выбора варианта     |
+| [variant-b/README.md](./variant-b/README.md)             | Вариант B: Supabase + WebContainer — архитектура, компоненты, стек | После выбора варианта     |
+| [ARCHITECTURE_AND_API.md](../../ARCHITECTURE_AND_API.md) | API Service Layer — паттерн mock/real переключения                 | Перед началом разработки  |
+| [AI_AGENT.md](../../AI_AGENT.md)                         | Справочник по интеграции LLM                                       | Когда дойдёте до AI Judge |
 
 ---
 
@@ -186,7 +194,8 @@ graph LR
 
 1. **Прочитайте Product Spec** — [03-ai-prep-app.md](../03-ai-prep-app.md) (общий для обоих вариантов)
 2. **Выберите вариант** — используйте flowchart и таблицу сравнения выше
-3. **Откройте architecture файл** — [architecture-a.md](./architecture-a.md) или [architecture-b.md](./architecture-b.md)
-4. **Согласуйте контракты** — TypeScript интерфейсы одинаковы в обоих вариантах
-5. **Начните с Level 0** — keyword matching вместо настоящего LLM
-6. **Подключайте AI когда UI готов** — см. [AI_AGENT.md](../../AI_AGENT.md)
+3. **Перейдите в папку варианта** — [variant-a/](./variant-a/) или [variant-b/](./variant-b/)
+4. **Начните с scoring-and-plan.md** — поймите баллы, роли и сроки
+5. **Согласуйте контракты** — data-contracts.md определяет типы и API
+6. **Изучите риски** — risks-and-mitigations.md до начала кодинга
+7. **Подключайте AI когда UI готов** — см. ai-judge.md и [AI_AGENT.md](../../AI_AGENT.md)
