@@ -1,5 +1,7 @@
 # Next.js. Server Side Rendering
 
+Note: You may also use the experimental `vinext` framework for this task. It is still experimental, but allowed here as an option. More details are available at https://github.com/cloudflare/vinext.
+
 ## Technical requirements
 
 1. Create a separate branch for this task from the previous branch task. Branch name: "nextjs-ssr".
