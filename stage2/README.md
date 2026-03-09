@@ -308,6 +308,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 
 - Tasks:
   - [Final-Task. Setup](./tasks/rs-tandem/README.md)
+  - [Tandem: Week 1 Checkpoint](./tasks/rs-tandem/WEEK1_CHECKPOINT.md) - deadline: February 23
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 - Tests:
@@ -332,14 +333,12 @@ Starting at the end of this week, all students must use TypeScript for all subse
   - [Module: JavaScript Garbage Collection](./modules/garbage-collection/)
 
 - Tasks:
-  - [Final-Task. Week 1](./tasks/rs-tandem/README.md)
+  - [Tandem: Week 2 Checkpoint](./tasks/rs-tandem/WEEK2_CHECKPOINT.md) - deadline: March 2
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking Final Version of Final-Task. Setup](./tasks/rs-tandem/README.md)
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 1](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -349,13 +348,12 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 3, 2026 - March 9, 2026
 
 - Tasks:
-  - [Final-Task. Week 2](./tasks/rs-tandem/README.md)
+  - [Tandem: Week 3 Checkpoint](./tasks/rs-tandem/WEEK3_CHECKPOINT.md) - deadline: March 9
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 2](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -365,13 +363,12 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 10, 2026 - March 16, 2026
 
 - Tasks:
-  - [Final-Task. Week 3](./tasks/rs-tandem/README.md)
+  - [Tandem: Week 4 Checkpoint](./tasks/rs-tandem/WEEK4_CHECKPOINT.md) - deadline: March 16
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 3](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -381,13 +378,11 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 17, 2026 - March 23, 2026
 
 - Tasks:
-  - [Final-Task. Week 4](./tasks/rs-tandem/README.md)
   - [CoreJS Interview #2](../tasks/interview-corejs.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 4](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -397,14 +392,10 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 24, 2026 - March 30, 2026
 
 - Tasks:
-  - [Final-Task. Week 5](./tasks/rs-tandem/README.md)
-  - [CoreJS Interview #2](../tasks/interview-corejs.md)
+  - [Final-Task](./tasks/rs-tandem/README.md)
 
 <details>
   <summary markdown="span">Mentor Activities</summary>
-
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 5](./tasks/rs-tandem/README.md)
-- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
 
@@ -415,9 +406,6 @@ Starting at the end of this week, all students must use TypeScript for all subse
 - Cross-Check Reviews:
   - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
 
-- Tasks:
-  - [CoreJS Interview #2](../tasks/interview-corejs.md)
-
 - Presentations:
   - [Final Project Presentation](./tasks/rs-tandem/PERSONAL_SCORE.md)
 
@@ -425,7 +413,6 @@ Starting at the end of this week, all students must use TypeScript for all subse
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
-- [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
 
