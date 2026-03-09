@@ -68,7 +68,8 @@ Absolutely!
 
 #### Can I skip webinars?
 
-Yes, you can. Webinar recordings can be found on our [YouTube channel](https://youtube.com/c/rollingscopesschool).
+Yes, you can. Webinar recordings can be found on our [YouTube channel](https://www.youtube.com/c/RSschool).
+([YouTube channel (RU)](https://youtube.com/c/rollingscopesschool))
 
 Videos are more convenient to watch at a speed of 1.25 or higher.
 
