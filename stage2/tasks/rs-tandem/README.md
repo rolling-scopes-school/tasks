@@ -106,17 +106,17 @@
 
 За проект выставляется **восемь отдельных Score** в RS APP:
 
-| Score                | Баллы    | Формат                                       | Документ                                     |
-| -------------------- | -------- | -------------------------------------------- | -------------------------------------------- |
-| **Tandem: Week 1**   | 20       | Автоматическая проверка (конец Week 1)       | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
-| **Tandem: Week 2**   | 20       | Автоматическая проверка (конец Week 2)       | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
-| **Tandem: Week 3**   | 20       | Автоматическая проверка (конец Week 3)       | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
-| **Tandem: Week 4**   | 20       | Автоматическая проверка (конец Week 4)       | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
-| **Tandem: Week 5**   | 20       | Автоматическая проверка (конец Week 5)       | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md) |
-| **Tandem: Code**     | 100      | Cross-Check (до презентаций)                 | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
-| **Tandem: Teamwork** | 300      | Командная презентация (до 20 мин)            | [TEAMWORK.md](./TEAMWORK.md)                 |
-| **Tandem: Personal** | 500      | Индивидуальная защита с ментором (до 30 мин) | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
-| **Итого**            | **1000** |                                              |                                              |
+| Score                | Баллы    | Формат                                     | Документ                                     |
+| -------------------- | -------- | ------------------------------------------ | -------------------------------------------- |
+| **Tandem: Week 1**   | 20       | Автоматическая проверка (конец Week 1)     | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
+| **Tandem: Week 2**   | 20       | Автоматическая проверка (конец Week 2)     | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
+| **Tandem: Week 3**   | 20       | Автоматическая проверка (конец Week 3)     | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
+| **Tandem: Week 4**   | 20       | Автоматическая проверка (конец Week 4)     | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
+| **Tandem: Week 5**   | 20       | Автоматическая проверка (конец Week 5)     | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md) |
+| **Tandem: Code**     | 100      | Cross-Check (до презентаций)               | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
+| **Tandem: Teamwork** | 300      | Командная презентация (~20 мин)            | [TEAMWORK.md](./TEAMWORK.md)                 |
+| **Tandem: Personal** | 500      | Индивидуальная защита с ментором (~30 мин) | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
+| **Итого**            | **1000** |                                            |                                              |
 
 - **Weekly Checkpoints (W1–W5)** — по 20 баллов каждый. Помогают держать ритм и не откладывать всё на последнюю неделю. Проверяются автоматически парсером.
 - **Tandem: Code** — одинаковая для всей команды. Проверяется по чеклисту: TypeScript strict, no any, ESLint + Prettier, error handling.
