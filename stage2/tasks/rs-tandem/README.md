@@ -102,27 +102,25 @@
 - [Дневник](./DEVELOPMENT_DIARY.md) разработки существует, заполнен регулярно, записи закоммичены своевременно
 - Описан в дневнике или снят на видео процесс разработки минимум 2 личных Feature Component
 
-### Оценки в RS APP (макс. 980 баллов)
+### Оценки в RS APP (макс. 1000 баллов)
 
-За проект выставляется **семь отдельных Score** в RS APP:
+За проект выставляется **восемь отдельных Score** в RS APP:
 
-| Score                | Баллы   | Формат                                     | Документ                                     |
-| -------------------- | ------- | ------------------------------------------ | -------------------------------------------- |
-| **Tandem: Week 1**   | 20      | Автоматическая проверка (конец Week 1)     | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
-| **Tandem: Week 2**   | 20      | Автоматическая проверка (конец Week 2)     | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
-| **Tandem: Week 3**   | 20      | Автоматическая проверка (конец Week 3)     | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
-| **Tandem: Week 4**   | 20      | Автоматическая проверка (конец Week 4)     | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
-| **Tandem: Code**     | 100     | Cross-Check (до презентаций)               | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
-| **Tandem: Teamwork** | 300     | Командная презентация (до 10 мин)          | [TEAMWORK.md](./TEAMWORK.md)                 |
-| **Tandem: Personal** | 500     | Индивидуальный созвон с рандомным ментором | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
-| **Итого**            | **980** |                                            |                                              |
+| Score                | Баллы    | Формат                                     | Документ                                     |
+| -------------------- | -------- | ------------------------------------------ | -------------------------------------------- |
+| **Tandem: Week 1**   | 20       | Автоматическая проверка (конец Week 1)     | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
+| **Tandem: Week 2**   | 20       | Автоматическая проверка (конец Week 2)     | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
+| **Tandem: Week 3**   | 20       | Автоматическая проверка (конец Week 3)     | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
+| **Tandem: Week 4**   | 20       | Автоматическая проверка (конец Week 4)     | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
+| **Tandem: Week 5**   | 20       | Автоматическая проверка (конец Week 5)     | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md) |
+| **Tandem: Code**     | 100      | Cross-Check (до презентаций)               | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
+| **Tandem: Teamwork** | 300      | Командная презентация (~20 мин)            | [TEAMWORK.md](./TEAMWORK.md)                 |
+| **Tandem: Personal** | 500      | Индивидуальная защита с ментором (~30 мин) | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
+| **Итого**            | **1000** |                                            |                                              |
 
-- **Tandem: Week 1** — личная оценка. Дискретная (20 или 0): репозиторий создан, доступ расшарен, README заполнен, дневник начат.
-- **Tandem: Week 2** — личная + командная (10 + 10): дневник, назначен на issue, деплой, CI, issues, линтер.
-- **Tandem: Week 3** — личная оценка. Дискретная (20 или 0): видео-презентация Feature Component + дневник.
-- **Tandem: Week 4** — личная оценка. До 20 баллов (10 за тесты + 10 за code review): unit-тесты написаны лично, разбор кода тиммейта, дневник.
+- **Weekly Checkpoints (W1–W5)** — по 20 баллов каждый. Помогают держать ритм и не откладывать всё на последнюю неделю. Проверяются автоматически парсером.
 - **Tandem: Code** — одинаковая для всей команды. Проверяется по чеклисту: TypeScript strict, no any, ESLint + Prettier, error handling.
-- **Teamwork** — одинаковая для всей команды. Оценивается жюри на презентации: board, git culture, product integrity.
+- **Tandem: Teamwork** — одинаковая для всей команды. Оценивается жюри на презентации: board, git culture, product integrity.
 - **Tandem: Personal** — личная оценка каждого студента. Включает Development Diary (100), Personal Features (250 ceiling) и Mentor Review (150).
 
 ## RS Tandem Awards
@@ -170,8 +168,7 @@ AI компонент — это один из Feature Component (и даже н
 
 ### Вопрос: Как будет осуществляться проверка? Будут ли промежуточные проверки?
 
-Промежуточной проверки не будет. В рамках проекта потребуется вести дневник разработки, фиксируя личный прогресс.
-Проект проверяется в три этапа: Cross-Check (Tandem: Code), командная презентация (Tandem: Teamwork) и индивидуальный созвон с рандомно назначенным ментором (Tandem: Personal).
+Да, есть еженедельные чекпоинты (Weekly Checkpoints W1–W5) — небольшие задания на 20 баллов каждое, которые помогают держать ритм и не откладывать всё на последнюю неделю. Чекпоинты проверяются автоматически парсером. Кроме того, проект проверяется в три финальных этапа: Cross-Check (Tandem: Code), командная презентация (Tandem: Teamwork) и индивидуальная защита с рандомно назначенным ментором (Tandem: Personal).
 
 ### Вопрос: Можно ли получить сертификат о прохождении курса без выполнения финального задания?
 
@@ -199,6 +196,7 @@ AI компонент — это один из Feature Component (и даже н
 | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md)         | **Week 2:** Деплой, CI, issues, линтер, дневник (20 pts).                        |
 | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md)         | **Week 3:** Видео-презентация Feature Component + дневник (20 pts).              |
 | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md)         | **Week 4:** Unit-тесты + Code Review + дневник (20 pts).                         |
+| [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md)         | **Week 5:** Error Handling — 404, Loading, Error State + дневник (20 pts).       |
 | [vision_varabei.md](./vision_varabei.md)             | **Философия:** Зачем мы это делаем и в чем смысл проекта?                        |
 | [vision_opus.md](./vision_opus.md)                   | **AI Perspective:** Взгляд AI на проект — честно о возможностях и ограничениях.  |
 | [CODE_STANDARDS.md](./CODE_STANDARDS.md)             | **Качество кода:** TypeScript strict, no any, linting, error handling (100 pts). |
