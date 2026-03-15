@@ -7,7 +7,7 @@ You can choose from several modern React frameworks for your project. All of the
 - **React Router 7 (Framework mode)**: The latest version of React Router, now with features merged from Remix. [Docs](https://reactrouter.com/start/modes#framework)
 - **Next.js (App Router)**: The recommended way to use Next.js for full-stack React apps. [Docs](https://nextjs.org/docs/app)
 - **Vinext**: The Next.js API surface, reimplemented on Vite
-[Docs/Code](https://github.com/cloudflare/vinext)
+  [Docs/Code](https://github.com/cloudflare/vinext)
 - **Tanstack Start**: A modern, full-stack React framework from the creators of TanStack Query. [Docs](https://tanstack.com/start/latest)
 - **Waku**: A minimal React framework for building full-stack apps. [Docs](https://waku.gg/)
 
@@ -19,7 +19,7 @@ PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TA
 
 ## Theoretical Notes
 
-This application is built around **OpenAPI/Swagger specifications**. You can use the [OpenAPI Initiative](https://www.openapis.org/) as a reference, along with tools like [Swagger UI](https://swagger.io/tools/swagger-ui/) as inspiration.
+This application is built around **OpenAPI/Swagger specifications**. You can use the [OpenAPI Initiative](https://www.openapis.org/) as a reference, along with tools like [Swagger UI](https://swagger.io/tools/swagger-ui/) as inspiration (if you aren't able to access the main link, you can try using [this link](https://forge.etsi.org/swagger/editor/)).
 
 The application consists of:
 
@@ -36,7 +36,7 @@ The key difference from traditional REST clients is that users define their API 
 
 ## Application Prototype
 
-You can use existing solutions like [Swagger Editor](https://editor.swagger.io/) as a source of inspiration.
+You can use existing solutions like [Swagger Editor](https://editor.swagger.io/) as a source of inspiration (use alternative [links](https://forge.etsi.org/swagger/editor/) if you can't access the main one).
 However, pay attention that we leave the final decision about the set of tools and design to you to not limit your possibilities and imagination.
 Design, prototype, as well as implementation of the application, are up to you.
 
@@ -46,7 +46,7 @@ Design, prototype, as well as implementation of the application, are up to you.
 - Application should support any open, user-specified API (RESTful).
 - You will use either **Next.js (App Router)** or **React Router 7 (Framework mode)** to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
   - **React Router 7 Framework mode** is the evolution of Remix, as Remix features have been merged into React Router. See [React Router 7 Framework mode docs](https://reactrouter.com/start/modes#framework).
-  - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app). 
+  - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app).
   - As an option, you can try using the Cloudflare's reimplementation of Next.js in Vite, check [Docs/Code](https://github.com/cloudflare/vinext).
   - You may also use **Tanstack Start** ([docs](https://tanstack.com/start/latest)) or **Waku** ([docs](https://waku.gg/)) as alternative modern React frameworks for full-stack development.
 
@@ -156,12 +156,14 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
   - Syntax highlighting with line numbers
   - Error messages for invalid schemas
   - Copy/paste friendly interface
-  - Responsive design for various screen sizes
+  - Responsive split view: if the horizontal length is bigger than vertical, use horizontal split view; if the vertical length is bigger than horizontal, use vertical split view
+- **Editor Libraries:** You may use external code editor libraries such as [Monaco Editor](https://github.com/microsoft/monaco-editor), [Code Mirror](https://codemirror.net/), or similar solutions for implementing syntax highlighting and code editing features.
 
 #### Swagger Viewer
 
 - Displays all endpoints from the loaded OpenAPI/Swagger schema
 - **For Each Endpoint Display:**
+
   1. **Request Details**
      - HTTP Method (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE)
      - Endpoint URL/Path
@@ -171,14 +173,12 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
      - Request body schema (if applicable)
      - Example request payloads
      - Supported content types (application/json, application/xml, etc.)
-  
   2. **Response Details**
      - All documented HTTP status codes (200, 201, 204, 400, 401, 403, 404, 409, 500, etc.)
      - Response schema for each status code
      - Example response payloads for each status code
      - Response content types
      - Response headers (if documented)
-  
   3. **Interactive Features**
      - **Try-It-Out / Execute Request Button**
        - Fill in parameter values
@@ -198,7 +198,6 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
   - Authenticated users: Full viewer access + request history tracking and analytics
     - All executed requests are recorded on the server side
     - Analytics data available in History & Analytics route
-
 
 ### Header
 
@@ -265,7 +264,7 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ## Evaluation criteria
 
-**Maximum available points for the task are 530**
+**Maximum available points for the task are 550**
 
 ### Cross-check criteria
 
@@ -275,7 +274,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### Main route - max 60 points
 
 - [ ] The Main page should contain general information about the developers, project, and course. - **10 points**
-- [ ] In the upper right corner there are buttons: [Sign In] and [Sign Up] (for non-authenticated users). - **10 points**
+- [ ] If the user is not authorized, there should be [Sign In] and [Sign Up] buttons in the upper right corner. - **10 points**
 - [ ] If the user is authorized, there should be [History] and [Sign Out] buttons in the upper right corner. - **10 points**
 - [ ] Navigation link to About page is available in header and footer. - **10 points**
 - [ ] If the token is expired/invalid - the user should be redirected from the private routes to the Main page (it might happen either automatically, on page refresh or on route change). - **10 points**
@@ -288,7 +287,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Upon successful login, the user is redirected to the Main page. - **10 points**
 - [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. - **10 points**
 
-### Swagger Editor - max 100 points
+### Swagger Editor - max 120 points
 
 - [ ] Loading/pasting OpenAPI/Swagger schema (JSON and YAML formats supported). - **25 points**
 - [ ] Auto-detection of input format (JSON vs YAML). - **20 points**
@@ -296,6 +295,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Schema validation with error indication. - **15 points**
 - [ ] For authenticated users: ability to save schemas. - **10 points**
 - [ ] Viewer automatically populates with endpoints when schema is valid. - **10 points**
+- [ ] Responsive split view based on screen orientation (horizontal/vertical). - **20 points**
 
 ### Swagger Viewer - max 120 points
 
@@ -324,39 +324,46 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Multiple (at least 2) languages support / i18n. - **30 points**
 - [ ] Sticky header with animation. - **10 points**
 - [ ] Errors are displayed in the user friendly format. - **10 points**
-- [ ] Private routes properly protected (404 if not authenticated). - **5 points**
+- [ ] Private routes properly protected (401 if not authenticated). Please, check the [RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html#name-401-unauthorized) - **5 points**
 
 ### Youtube video - max 50 points
 
 ### Penalties
 
 - **0. Framework Choice**
+
   - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
 
 - **1. TypeScript & Code Quality**
+
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
   - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 
 - **2. Test Coverage**
+
   - [ ] Statement coverage below 80% (≥70%): **-50 points**
   - [ ] Statement coverage below 70% (≥50%): **-100 points**
   - [ ] All coverage metrics below 50%: **-150 points**
   - [ ] Absence of tests **-250 points**
 
 - **3. React Best Practices**
+
   - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
 
 - **4. Console & Error Handling**
+
   - [ ] The presence of errors and warnings in the console **-20 points** for each
   - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
   - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 
 - **5. Development Tools**
+
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
 
 - **6. UI/UX**
+
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**
@@ -379,7 +386,7 @@ sequenceDiagram
     UI->>UI: Auto-detect format
     UI->>UI: Parse and validate schema
     UI->>UI: Display endpoints in Viewer
-    
+
     User->>UI: Navigate to Swagger Viewer
     User->>UI: Select endpoint from schema
     User->>UI: Fill parameters and request body
