@@ -1,4 +1,4 @@
-# REST Client
+# Swagger/OpenAPI Editor and REST Client
 
 ## Framework Options
 
@@ -6,23 +6,28 @@ You can choose from several modern React frameworks for your project. All of the
 
 - **React Router 7 (Framework mode)**: The latest version of React Router, now with features merged from Remix. [Docs](https://reactrouter.com/start/modes#framework)
 - **Next.js (App Router)**: The recommended way to use Next.js for full-stack React apps. [Docs](https://nextjs.org/docs/app)
+- **Vinext**: The Next.js API surface, reimplemented on Vite
+  [Docs/Code](https://github.com/cloudflare/vinext)
 - **Tanstack Start**: A modern, full-stack React framework from the creators of TanStack Query. [Docs](https://tanstack.com/start/latest)
 - **Waku**: A minimal React framework for building full-stack apps. [Docs](https://waku.gg/)
 
 You are free to choose any of these options based on your team's preferences and project requirements.
 
-You will be working on creating a light-weight version of Postman in one app.
+You will be working on creating a **Swagger/OpenAPI Editor and Viewer** with REST client capabilities in one app. This allows users to edit and test APIs using OpenAPI specifications in an accessible, user-friendly interface.
+
 PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TASK
 
 ## Theoretical Notes
 
-[**Postman**](https://www.postman.com/) is a rich platform for using (and building) APIs. However, you can use any REST client as a reference.
-It should support method selection, URL, headers.
+This application is built around **OpenAPI/Swagger specifications**. You can use the [OpenAPI Initiative](https://www.openapis.org/) as a reference, along with tools like [Swagger UI](https://swagger.io/tools/swagger-ui/) as inspiration (if you aren't able to access the main link, you can try using [this link](https://forge.etsi.org/swagger/editor/)).
 
-Additional parts which your app will also include:
+The application consists of:
 
-- Authorization and authentication capabilities, ensuring access to the tool is restricted to authorized users.
-- History section, which will redirect the user to a specific section for previously executed requests.
+1. **Swagger Editor** - Allows users to paste and edit OpenAPI schemas in JSON or YAML format
+2. **Swagger Viewer** - Displays API endpoints from the schema and allows users to test them
+3. **Authorized Features** - History and analytics for authenticated users, allowing them to track API usage and request details
+
+The key difference from traditional REST clients is that users define their API through a schema, making it more structured and standardized.
 
 ## Building a team
 
@@ -31,7 +36,7 @@ Additional parts which your app will also include:
 
 ## Application Prototype
 
-You can use existing solutions like [Thunder Client for VSCode](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) as a source of inspiration.
+You can use existing solutions like [Swagger Editor](https://editor.swagger.io/) as a source of inspiration (use alternative [links](https://forge.etsi.org/swagger/editor/) if you can't access the main one).
 However, pay attention that we leave the final decision about the set of tools and design to you to not limit your possibilities and imagination.
 Design, prototype, as well as implementation of the application, are up to you.
 
@@ -42,28 +47,35 @@ Design, prototype, as well as implementation of the application, are up to you.
 - You will use either **Next.js (App Router)** or **React Router 7 (Framework mode)** to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
   - **React Router 7 Framework mode** is the evolution of Remix, as Remix features have been merged into React Router. See [React Router 7 Framework mode docs](https://reactrouter.com/start/modes#framework).
   - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app).
+  - As an option, you can try using the Cloudflare's reimplementation of Next.js in Vite, check [Docs/Code](https://github.com/cloudflare/vinext).
   - You may also use **Tanstack Start** ([docs](https://tanstack.com/start/latest)) or **Waku** ([docs](https://waku.gg/)) as alternative modern React frameworks for full-stack development.
 
 ## Application structure
 
 Your app must contain:
 
-1. Main page
-2. User registration/authentication.
-3. RESTful client, which includes:
-   - method selector
-   - text input for the endpoint URL
-   - request editor
-   - headers editor
-   - response section
-   - generated code section
-4. Variables
-5. History
+1. Main page, which has
+   1. User registration/authentication
+   2. **Swagger Editor** - allows users to paste and edit OpenAPI/Swagger schemas
+      - Support for JSON and YAML formats
+      - Auto-detection of format
+      - Format switching with auto-conversion
+      - Accessible to both authenticated and non-authenticated users
+   3. **Swagger Viewer** - displays API endpoints from the schema and allows testing
+      - Endpoint listing and organization
+      - Parameter display (path, query, header, cookie)
+      - Request and response schema visualization
+      - Try-it-out functionality to execute requests
+      - Generate cURL button
+      - Accessible to both authenticated and non-authenticated users
+2. History & Analytics (for authenticated users only)
+3. About page (information about the course and team)
+4. 404 Not Found page
 
 ## Repository requirements
 
 - team lead should create a private repo in GitHub and invite other members
-- repo name **rest-client-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
+- repo name **swagger-editor-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
 - the commit history should display the application development process. [Commit requirements](https://rs.school/docs/ru/git-convention)
 - the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
 - after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
@@ -89,7 +101,7 @@ You are free to choose your own way of developing the project and the repository
 - you MUST use React 18 and above
 - you MUST use one of the following modern React frameworks for your project:
   - **React Router 7 (Framework mode)** (recommended; includes Remix features)
-  - **Next.js (App Router)**
+  - **Next.js (App Router)** (or Vinext)
   - **Tanstack Start**
   - **Waku**
 
@@ -112,7 +124,7 @@ See the section "Framework Options" above for more details and links.
 
 ### General requirements
 
-- Errors (Not found route, unhandled rejection, etc) should be displayed in a user-friendly format (toast, pop-up, or something like that - up to your decision).
+- Errors (unhandled exception, etc) should be displayed in a user-friendly format (toast, pop-up, or something like that - up to your decision).
 - Internationalization (i18n) - at least 2 languages. User should be able to change the language by clicking on the toggler/select in the header.
 
 #### Error handling
@@ -123,68 +135,82 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 ### Main page
 
-- If the user is not authorized, the page should contain a link to Sign In / Sign Up page.
-- If the user is authorized, the page should contain links to the RESTful client, History routes.
+- This route is **public** - accessible to both authenticated and non-authenticated users.
 
-#### Main page template. User is not signed in
+#### Swagger Editor
 
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +---------------------------------------------+   |
-|  | [Logo] | Lang Toggle | [Sign In] | [Sign up]|   |
-|  +---------------------------------------------+   |
-+----------------------------------------------------+
-|                                                    |
-|   +--------------------------------------------+   |
-|   |                                            |   |
-|   |                Welcome!                    |   |
-|   |                                            |   |
-|   |           [Sign In] [Sign Up]              |   |
-|   |                                            |   |
-|   +--------------------------------------------+   |
-|                                                    |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-```
+- Allows users to paste and edit OpenAPI/Swagger specifications
+- **Format Support:**
+  - JSON format with syntax highlighting
+  - YAML format with syntax highlighting
+  - Auto-detection of input format (JSON or YAML)
+  - Format switching toggle button with automatic conversion
+- **Features:**
+  - Live schema validation and error indication
+  - Support for OpenAPI 3.0.x and Swagger 2.0 specifications
+  - Example schemas dropdown (optional nice-to-have)
+  - Clear/reset schema button
+  - For authenticated users: Option to save schemas to the server/database (with analytics on server side)
+  - For non-authenticated users: Session-based editing (data cleared on session end)
+- **UX:**
+  - Syntax highlighting with line numbers
+  - Error messages for invalid schemas
+  - Copy/paste friendly interface
+  - Responsive split view: if the horizontal length is bigger than vertical, use horizontal split view; if the vertical length is bigger than horizontal, use vertical split view
+- **Editor Libraries:** You may use external code editor libraries such as [Monaco Editor](https://github.com/microsoft/monaco-editor), [Code Mirror](https://codemirror.net/), or similar solutions for implementing syntax highlighting and code editing features.
 
-#### Main page template. User is signed in
+#### Swagger Viewer
 
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +---------------------------------------------+   |
-|  | [Logo] | Language Toggle | [Sign Out]       |   |
-|  +---------------------------------------------+   |
-+----------------------------------------------------+
-|                                                    |
-|   +--------------------------------------------+   |
-|   |                                            |   |
-|   |         Welcome Back, [Username]!          |   |
-|   |                                            |   |
-|   +--------------------------------------------+   |
-|                                                    |
-|  +--------------------------------------------+    |
-|  |    REST Client | History | Variables       |    |
-|  +--------------------------------------------+    |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-```
+- Displays all endpoints from the loaded OpenAPI/Swagger schema
+- **For Each Endpoint Display:**
+
+  1. **Request Details**
+     - HTTP Method (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE)
+     - Endpoint URL/Path
+     - Path parameters (required and optional)
+     - Query parameters (required and optional)
+     - Header parameters
+     - Request body schema (if applicable)
+     - Example request payloads
+     - Supported content types (application/json, application/xml, etc.)
+  2. **Response Details**
+     - All documented HTTP status codes (200, 201, 204, 400, 401, 403, 404, 409, 500, etc.)
+     - Response schema for each status code
+     - Example response payloads for each status code
+     - Response content types
+     - Response headers (if documented)
+  3. **Interactive Features**
+     - **Try-It-Out / Execute Request Button**
+       - Fill in parameter values
+       - Set custom headers
+       - Provide request body
+       - Execute request through server (to avoid CORS issues)
+       - Display response status, headers, and body
+     - **Generate cURL Button**
+       - Generate cURL command from current request state
+       - Copy-to-clipboard functionality
+     - **Request Preview**
+       - Show full request before execution
+       - Display method, URL, headers, body
+
+- **Authentication Impact:**
+  - Non-authenticated users: Full viewer access, can execute requests
+  - Authenticated users: Full viewer access + request history tracking and analytics
+    - All executed requests are recorded on the server side
+    - Analytics data available in History & Analytics route
 
 ### Header
 
 - The header should be sticky. The moment it becomes sticky (if there is a scroll on a page) should be animated: color can be changed or its height can become smaller. [Animated sticky header](https://www.youtube.com/watch?v=hR8UW5CvYgw)
-- Link to the Main page
+- Link to the Main page (logo)
+- Link to About page
 - Control that allows user to switch the language
-- Sign Out button - signs user out
+- Sign In / Sign Up buttons (for non-authenticated users) OR Sign Out button (for authenticated users)
+- History link (only for authenticated users)
 
 ### Footer
 
-- Footer should contain a link to the authors' GitHub, the year the application was created, [course logo](../../assets/rss-logo.svg) with [link to the course](https://rs.school/courses/reactjs).
+- Footer should contain a link to the authors' GitHub, the year the application was created, link to About page, [course logo](../../assets/rss-logo.svg) with [link to the course](https://rs.school/courses/reactjs).
 - Footer is displayed on all pages of the application.
 
 ### Sign In / Sign Up
@@ -198,146 +224,24 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 - Upon successful login, the user should be redirected to the Main page
 - If the user has been logged in already and tries to reach these routes, they should be redirected to the Main page
 
-#### Sign In / Sign Up template
+### About Page
 
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +---------------------------------------------+   |
-|  | [Logo] | Language Toggle | [Sign Out] |     |   |
-|  +---------------------------------------------+   |
-+----------------------------------------------------+
-|                                                    |
-|   +--------------------------------------------+   |
-|   |                                            |   |
-|   |                Sign In / Sign Up           |   |
-|   |                                            |   |
-|   | [Email Input]                              |   |
-|   | [Password Input]                           |   |
-|   | [Submit Button]                            |   |
-|   +--------------------------------------------+   |
-|                                                    |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-
-```
-
-### RESTful client
-
-- This route should be private.
-- Rest client code should be lazy-loaded (so unauthenticated user won't download the code).
-- Header should be visible.
-- Method selector. Selected method should be reflected in the application URL (e.g. <http://restclient.com/GET>), for more details, please, check the next section.
-- Endpoint (URL) input.
-- Request body editor / JSON viewer. It will be used in the response section in read-only mode. Should support prettifying. Please, mind that request body editor should support at least JSON and plain text. Support of the XML syntax is not mandatory.
-- Headers editor section.
-- Generated code section.
-- Response section. Should be read-only. Should contain information about HTTP response code and the response status.
-
-#### RESTful client template
-
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +----------------------------------------------+  |
-|  | [Logo] | Language Toggle | [Sign Out] |      |  |
-|  +----------------------------------------------+  |
-+----------------------------------------------------+
-|                                                    |
-|   +------------------- REST Client -------------+  |
-|   | +-------------+ +--------------------------+ | |
-|   | | Method      | | Endpoint URL             | | |
-|   | +-------------+ +--------------------------+ | |
-|   | Headers: [Add Header Button]                 | |
-|   | +------------------------------------------+ | |
-|   | | Header Key | Header Value                | | |
-|   | +------------------------------------------+ | |
-|   | Code: [Generated request code]               | |
-|   | Body: [JSON/Text Editor]                     | |
-|   +---------------------------------------------+  |
-|                                                    |
-|   +----------------- Response -------------------+ |
-|   | Status: [HTTP Status Code]                   | |
-|   | Body: [Read-Only JSON Viewer]                | |
-|   +---------------------------------------------+  |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-
-```
-
-#### Routing on RESTful client
-
-Route URL will be comprised of selected method as a route params, request URL encoded in base64 as a route param, request body (if applicable) as stringified JSON also encoded in base64 as another optional route param, and each presented header as a query param.
-Let's say we want to make a GET request to the `https://jsonplaceholder.typicode.com/posts/1`:
-
-```curl
-curl https://jsonplaceholder.typicode.com/posts/1
-```
-
-So the URL might look so:
-`http://localhost:5137/GET/aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3Bvc3RzLzE=`
-And we want to make a POST request to the same endpoint, e.g.:
-
-```curl
-curl -d '{"title":"fakeTitle","userId":1,"body":"fakeMessage"}' https://jsonplaceholder.typicode.com/posts
-```
-
-Headers, specified in the editor, should be provided as URL query parameters (mind that you need to URL encode headers values):
-`http://localhost:5137/POST/aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3Bvc3Rz/eyJ0aXRsZSI6ImZha2VUaXRsZSIsInVzZXJJZCI6MSwiYm9keSI6ImZha2VNZXNzYWdlIn0=?Content-Type=application%2Fjson`
-
-If the variables have been used in the request, replace them with values on submit and update the url.
-
-#### Generated code
-
-Add section which will show the generated code for the request.
-Generated code shouldn't contain variables (replace them with respective values).
-If there are not enough details for the code to be generated, show a message.
-Code generation should support at least the following:
-
-- curl
-- JavaScript (Fetch api)
-- JavaScript (XHR)
-- NodeJS
-- Python
-- Java
-- C#
-- Go
-
-Please, check the [Postman code generators](https://www.npmjs.com/package/postman-code-generators). Although you can implement the solution on your own, or use any other 3rd party library.
-
-### Variables
-
-- This route should be private.
-- Variables code should be lazy-loaded (so unauthenticated user won't download the code).
-- Variables should be stored in the browser's local storage.
-- Application should load previously saved variables on user's successful authentication.
-- Variable value can be inserted either in the url, or request body, or header value.
-- To indicate that the variable should be used, user can specify it as {{variableName}}.
-
-  Variable in the url:
-  `https://wwww.npmjs.com/{{packageName}}`
-
-  Variable in the header:
-  `{{APPLICATION_JSON}}`
-
-  Variable in the JSON:
-
-  ```json
-  {
-    "foo": "{{BAR}}"
-  }
-  ```
+- This route is **public** - accessible to all users (authenticated and non-authenticated)
+- Should display information about:
+  - The RS School course
+  - The team members (names, roles, GitHub links)
+  - Project description and goals
+  - Technologies used
+  - Links to relevant resources
+- Clean, informative design consistent with the application aesthetics
+- Responsive layout for various screen sizes
 
 ### History and analytics
 
-- This route should be private.
+- This route should be **private** (authenticated users only).
 - History and analytics code should be lazy-loaded (so unauthenticated user won't download the code).
 - The section should be server-side generated: all request history and analytics are aggregated and rendered on the server, then sent to the client for display.
-- The section should display requests using links, on clicking on the link, user should be navigated to the respective section (RESTful client).
+- The section should display requests using links, on clicking on a request, user can view detailed analytics about that request.
 - All request history and analytics information must be loaded from **Firebase**, **Supabase**, or **Convex** for the logged in user. The information is written to the database from the server side after each request.
 - The following parameters must be stored for each request:
   - **Request Duration (Latency):** Time taken from sending the request to receiving the response.
@@ -348,60 +252,9 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
   - **Response Size:** Size of the response payload (in bytes).
   - **Error Details:** If the request failed, log the error message or type (timeout, network error, etc.).
   - **Endpoint/URL:** The endpoint that was called (for grouping and analysis).
-- The section should show requests sorted by the time of their execution.
-- The section should not contain variables, because information should be recorded from the server side.
-- After navigating to the respective section, all the functional fields (URL, method selector, headers, body, values) should be restored. Please, mind this when saving the request in the database to ensure that all the required data will be saved.
-- If there are no requests in the history, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the RESTful client.
-
-#### History and analytics template. No requests
-
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +---------------------------------------------+   |
-|  | [Logo] | Language Toggle | [Sign Out]       |   |
-|  +---------------------------------------------+   |
-+----------------------------------------------------+
-|                                                    |
-|   +--------------------------------------------+   |
-|   |                                            |   |
-|   |      You haven't executed any requests     |   |
-|   |            It's empty here. Try:           |   |
-|   |                                            |   |
-|   |   [REST Client]                            |   |
-|   |                                            |   |
-|   +--------------------------------------------+   |
-|                                                    |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-```
-
-#### History and analytics template with requests
-
-```text
-+----------------------------------------------------+
-|                      Header                        |
-|  +---------------------------------------------+   |
-|  | [Logo] | Language Toggle | [Sign Out]       |   |
-|  +---------------------------------------------+   |
-+----------------------------------------------------+
-|                                                    |
-|   +--------------------------------------------+   |
-|   |               History Requests             |   |
-|   +--------------------------------------------+   |
-|                                                    |
-|  +----------------------------------------------+  |
-|  | [GET https://api.example.com/resource/1]     |  |
-|  | [POST https://api.example.com/resource]      |  |
-|  +----------------------------------------------+  |
-|                                                    |
-+----------------------------------------------------+
-|                      Footer                        |
-|    [GitHub Link] | Year | [Course Logo]            |
-+----------------------------------------------------+
-```
+- The section should show requests sorted by the time of their execution (most recent first).
+- **Simplified display:** History is read-only and for analytics review purposes only. There is **no request replay/re-execution** from history.
+- If there are no requests in the history, show message to the user, e.g. "You haven't executed any requests yet", "It's empty here. Try those options:" and give links to the Editor and Viewer.
 
 ## How to submit tasks
 
@@ -411,18 +264,19 @@ Please, check the [Postman code generators](https://www.npmjs.com/package/postma
 
 ## Evaluation criteria
 
-**Maximum available points for the task are 500**
+**Maximum available points for the task are 550**
 
 ### Cross-check criteria
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 [How to evaluate tasks in Cross check](https://rs.school/docs/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
-### Main route - max 50 points
+### Main route - max 60 points
 
 - [ ] The Main page should contain general information about the developers, project, and course. - **10 points**
-- [ ] In the upper right corner there are 2 buttons: Sign In and Sign Up. - **10 points**
-- [ ] If the user is authorized, there should be a Main Page button instead of Sign In and Sign Up buttons in the upper right corner. - **10 points**
+- [ ] If the user is not authorized, there should be [Sign In] and [Sign Up] buttons in the upper right corner. - **10 points**
+- [ ] If the user is authorized, there should be [History] and [Sign Out] buttons in the upper right corner. - **10 points**
+- [ ] Navigation link to About page is available in header and footer. - **10 points**
 - [ ] If the token is expired/invalid - the user should be redirected from the private routes to the Main page (it might happen either automatically, on page refresh or on route change). - **10 points**
 - [ ] Pressing the Sign In / Sign up button redirects a user to the route with the Sign In / Sign up form. - **10 points**
 
@@ -433,64 +287,83 @@ For the convenience of verification, it is **necessary** to record and post on Y
 - [ ] Upon successful login, the user is redirected to the Main page. - **10 points**
 - [ ] If the user is already logged in and tries to reach these routes, they should be redirected to the Main page. - **10 points**
 
-### RESTful client - max 150 points
+### Swagger Editor - max 120 points
 
-- [ ] Functional editor enabling query editing and prettifying, request body provided in the URL as base64-encoded on request submit. - **35 points**
-- [ ] Functional read-only response section, with information about HTTP status and the code. - **30 points**
-- [ ] Method selector, shows all the valid HTTP verbs, value is provided in the URL on request submit. - **15 points**
-- [ ] Input for the URL, entered value is provided in base64-encoded way on request submit. - **20 points**
-- [ ] Headers section, value is provided in the URL on request submit. - **20 points**
-- [ ] Code generation section. - **30 points**
+- [ ] Loading/pasting OpenAPI/Swagger schema (JSON and YAML formats supported). - **25 points**
+- [ ] Auto-detection of input format (JSON vs YAML). - **20 points**
+- [ ] Format switching with automatic conversion (JSON ↔ YAML). - **20 points**
+- [ ] Schema validation with error indication. - **15 points**
+- [ ] For authenticated users: ability to save schemas. - **10 points**
+- [ ] Viewer automatically populates with endpoints when schema is valid. - **10 points**
+- [ ] Responsive split view based on screen orientation (horizontal/vertical). - **20 points**
 
-### History and analytics route - max 100 points
+### Swagger Viewer - max 120 points
 
-- [ ] History and analytics is server-side generated and shows informational message with links to the clients when there are no requests in the database. - **20 points**
-- [ ] User can navigate to the previously executed HTTP request to the RESTful client, HTTP method, URL, body, headers are restored. - **30 points**
-- [ ] The following analytics are recorded to the database from the application server side and displayed to the user: request duration, response status code, request timestamp, request method, request size, response size, error details, endpoint/URL. - **50 points**
+- [ ] Endpoint list display with organization by path/method. - **20 points**
+- [ ] Endpoint details: method, path, parameters display (path, query, header, cookie). - **25 points**
+- [ ] Request schema and example display. - **20 points**
+- [ ] Response schema, examples, and all supported status codes display. - **25 points**
+- [ ] Try-it-out functionality: fill parameters, headers, body; execute request; display response. - **20 points**
+- [ ] Generate cURL button with copy-to-clipboard functionality. - **10 points**
 
-### Variables route - max 50 points
+### History and analytics route - max 70 points
 
-- [ ] Variables show all the added variables, restores them from the local storage on load. - **15 points**
-- [ ] User can add new, or delete an existing variable, variables in the local storage are updated on change. - **15 points**
-- [ ] Variables are used in the request before the request execution. - **20 points**
+- [ ] History and analytics is server-side generated and shows informational message with links to the editor/viewer when there are no requests in the database. - **15 points**
+- [ ] Requests are displayed sorted by timestamp (most recent first). - **10 points**
+- [ ] The following analytics are recorded to the database from the application server side and displayed to the user: request duration, response status code, request timestamp, request method, request size, response size, error details, endpoint/URL. - **45 points**
 
-### General requirements - max 50 points
+### About Page - max 25 points
+
+- [ ] About page is accessible to all users (public route). - **5 points**
+- [ ] About page contains information about RS School course. - **5 points**
+- [ ] About page contains team member information (names, roles, GitHub links). - **10 points**
+- [ ] About page design is consistent with application design. - **5 points**
+
+### General requirements - max 55 points
 
 - [ ] Multiple (at least 2) languages support / i18n. - **30 points**
-- [ ] Sticky header. - **10 points**
+- [ ] Sticky header with animation. - **10 points**
 - [ ] Errors are displayed in the user friendly format. - **10 points**
+- [ ] Private routes properly protected (401 if not authenticated). Please, check the [RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html#name-401-unauthorized) - **5 points**
 
 ### Youtube video - max 50 points
 
 ### Penalties
 
 - **0. Framework Choice**
+
   - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
 
 - **1. TypeScript & Code Quality**
+
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
   - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 
 - **2. Test Coverage**
+
   - [ ] Statement coverage below 80% (≥70%): **-50 points**
   - [ ] Statement coverage below 70% (≥50%): **-100 points**
   - [ ] All coverage metrics below 50%: **-150 points**
   - [ ] Absence of tests **-250 points**
 
 - **3. React Best Practices**
+
   - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
 
 - **4. Console & Error Handling**
+
   - [ ] The presence of errors and warnings in the console **-20 points** for each
   - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
   - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 
 - **5. Development Tools**
+
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
 
 - **6. UI/UX**
+
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**
@@ -508,27 +381,30 @@ sequenceDiagram
     participant API as External API
     participant DB as Firebase/Supabase
 
-    User->>UI: Open REST Client
-    User->>UI: Fill request details (method, URL, headers, body)
-    User->>UI: Click 'Send Request'
+    User->>UI: Open Swagger Editor
+    User->>UI: Paste OpenAPI/Swagger schema (JSON or YAML)
+    UI->>UI: Auto-detect format
+    UI->>UI: Parse and validate schema
+    UI->>UI: Display endpoints in Viewer
+
+    User->>UI: Navigate to Swagger Viewer
+    User->>UI: Select endpoint from schema
+    User->>UI: Fill parameters and request body
+    User->>UI: Click 'Try It Out'
     UI->>Server: Send request details
     Server->>API: Make HTTP request to external API
     API-->>Server: Return response
-    Server->>DB: Store analytics (duration, status, timestamp, etc.)
+    opt Authenticated User
+        Server->>DB: Store analytics (duration, status, timestamp, etc.)
+    end
     Server-->>UI: Return response data
-    UI-->>User: Display response
+    UI-->>User: Display response and status codes
 
-    User->>UI: Navigate to History and Analytics
-    UI->>Server: Request server-side generated history and analytics
-    Server->>DB: Fetch and aggregate analytics for user
-    Server-->>UI: Return server-rendered analytics and history
-    UI-->>User: Display history and analytics
-
-    User->>UI: Click 'Send Request' again in the history
-    UI->>Server: Send request details (re-execution)
-    Server->>API: Make HTTP request to external API
-    API-->>Server: Return new response
-    Server->>DB: Store new analytics (duration, status, timestamp, etc.)
-    Server-->>UI: Return new response data
-    UI-->>User: Display new response and analytics
+    opt Authenticated User
+        User->>UI: Navigate to History and Analytics
+        UI->>Server: Request server-side generated history and analytics
+        Server->>DB: Fetch and aggregate analytics for user
+        Server-->>UI: Return server-rendered analytics and history
+        UI-->>User: Display history and analytics (read-only)
+    end
 ```
