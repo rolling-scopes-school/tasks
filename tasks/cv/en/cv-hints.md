@@ -55,7 +55,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 ![Step 10](https://i.ibb.co/K9Dk0rg/image.png)
 
 11. Next, commit the changes using the `git commit -m 'COMMIT NAME'` command.
-    - Pay attention to the **commit name requirements** described at [https://rs.school/docs/en/git-convention](https://rs.school/docs/en/git-convention). The task specifies that there should be at least three commits in the `gh-pages` branch, and commit names should start with prefixes like `init:`, `feat:`, `fix:`, `refactor:`, or `docs:`.
+    - Pay attention to the **commit name requirements** described at [https://rs.school/docs/en/git-convention](https://rs.school/docs/git-convention). The task specifies that there should be at least three commits in the `gh-pages` branch, and commit names should start with prefixes like `init:`, `feat:`, `fix:`, `refactor:`, or `docs:`.
 
 ![Step 11](https://i.ibb.co/yWLXJM4/image.png)
 
@@ -85,7 +85,7 @@ The following tips are intended to help you complete the "Markdown & Git" and "H
 
 ![Step 15.3](https://i.ibb.co/phRt9rB/image.png)
 
-- Provide a PR description according to the scheme at [https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr). Use the task's name as the PR title.
+- Provide a PR description according to the scheme at <https://rs.school/docs/short-track/pull-request-requirements>. Use the task's name as the PR title.
 
 ![Step 15.4](https://i.ibb.co/s5wnrSd/image.png)
 
