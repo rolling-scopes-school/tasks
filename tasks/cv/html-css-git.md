@@ -18,7 +18,7 @@
 
 1. Работу ведёте в репозитории `rsschool-cv`, созданном при выполнении предыдущего задания [Markdown & Git](git-markdown.md)
 2. От ветки `gh-pages` создайте ветку `rsschool-cv-html`
-3. В процессе работы над проектом ведите историю коммитов. Следуйте [гайдлайну](https://rs.school/docs/ru/git-convention), согласно которому название каждого коммита должно начинаться с одного из перечисленных префиксов `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
+3. В процессе работы над проектом ведите историю коммитов. Следуйте [гайдлайну](https://rs.school/ru/docs/git-convention), согласно которому название каждого коммита должно начинаться с одного из перечисленных префиксов `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
 4. В ветке `rsschool-cv-html` разместите файлы `index.html` и `style.css`, предварительно добавив в них базовые пустые шаблоны или шаблоны с минимальным содержанием.
    Вёрстка и стилизация CV будет выполняться в следующем задании.
 5. В файл `README.md` ветки `rsschool-cv-html` добавьте ссылку `https://GITHUB-USERNAME.github.io/rsschool-cv/` в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub.
@@ -26,7 +26,7 @@
    Саму вёрстку добавим в ходе выполнения следующего задания
 6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
    Название Pull Request `HTML, CSS & Git Basics`
-   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
+   [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/mentoring/pull-request-review-process#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr).
    Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
 
 ## Как сабмитить задание
