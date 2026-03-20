@@ -10,14 +10,14 @@
 1. В своём GitHub аккаунте создайте публичный репозиторий с названием `rsschool-cv`.
    В главной ветке данного репозитория (`main`) должен находиться только один файл `README.md`.
 2. От ветки `main` создайте ветку `gh-pages`.
-3. В процессе работы над проектом в ветку `gh-pages` необходимо сделать не меньше 3-х коммитов. Согласно [гайдлайну](https://rs.school/docs/ru/git-convention) название каждого коммита должно начинаться с одного из перечисленных префиксов: `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
+3. В процессе работы над проектом в ветку `gh-pages` необходимо сделать не меньше 3-х коммитов. Согласно [гайдлайну](https://rs.school/ru/docs/git-convention) название каждого коммита должно начинаться с одного из перечисленных префиксов: `init:`, `feat: `, `fix: `, `refactor: `, `docs:`.
 4. В ветке `gh-pages` разместите файл `cv.md`.
 5. Используя markdown-разметку в файле `cv.md` создайте своё CV.  
    Требования к содержанию CV и рекомендации к его составлению перечислены в [описании задания](cv.md#содержание-cv).
 6. В файл `README.md` ветки `gh-pages` добавьте ссылку вида `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`, в которой вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этой ссылке должна открываться страница CV, задеплоенная на GitHub Pages.
 7. Создайте Pull Request из ветки `gh-pages` в ветку `main`.  
    Название Pull Request `Markdown & Git`  
-   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).  
+   [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/mentoring/pull-request-review-process#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr).  
    Мержить Pull Request из ветки `gh-pages` в ветку `main` не нужно.
 
 ## Публикация резюме на `github-pages` (Deploy)
