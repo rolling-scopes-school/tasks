@@ -9,7 +9,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
 - Follow the [HTML and CSS guidelines](https://codeguide.academy/html-css.html) when writing code.
 - Content should be placed within a block that is horizontally centered on the page.
 - The CV page should display correctly in the latest version of Google Chrome.
-- Include a footer with a link to your GitHub, the year of creation, and the [course logo](../rs-school-logo.svg) with a [link to the course](https://rs.school/courses/javascript-ru).
+- Include a footer with a link to your GitHub, the year of creation, and the [course logo](../rs-school-logo.svg) with a [link to the course](https://rs.school/courses/javascript).
 
 ## Workflow
 
@@ -22,7 +22,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
    - Merge the Pull Request from the `rsschool-cv-html` branch into the `gh-pages` branch.
 5. Create a Pull Request from the `rsschool-cv-html` branch to the `main` branch.
    - Title the Pull Request as "CV. Cross-Check."
-   - Provide a description for the Pull Request following this [schema](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr).
+   - Provide a description for the Pull Request following this [schema](https://rs.school/docs/short-track/pull-request-requirements#pull-request-requirements-pr).
    - Do not merge the Pull Request from the `rsschool-cv-html` branch into the `main` branch.
 6. In the `README.md` file of the `main` branch, add two links where you should replace `GITHUB-USERNAME` with your GitHub username. These links should open your CV in Markdown format and as a formatted webpage.
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
@@ -43,7 +43,7 @@ In this task, you are required to create a CV webpage. The content of this webpa
     - `nav` element (+5 points).
     - Only one `h1` heading (+5 points).
     - `h2` headings (+5 points).
-- Footer includes a link to the author's GitHub, the year of creation, the [course logo](../rs-school-logo.svg), and a [link to the course](https://rs.school/courses/javascript-ru) (+10 points).
+- Footer includes a link to the author's GitHub, the year of creation, the [course logo](../rs-school-logo.svg), and a [link to the course](https://rs.school/courses/javascript) (+10 points).
   - If the link in the footer leads to the [stage0 course](https://rs.school/courses/javascript-preschool-ru), it is not considered an error.
 - CSS styles are used for formatting the CV (+10 points).
 - When the browser window is resized, the formatting remains centered horizontally rather than shifting to the side (+10 points).
@@ -71,7 +71,7 @@ The difference between the maximum score for the task (130 points) and the maxim
 
 ## Checking Task CV#3. CV Cross-Check
 
-- Cross-check instructions: [https://rs.school/docs/en/cross-check-flow](https://rs.school/docs/en/cross-check-flow).
+- Cross-check instructions: [https://rs.school/docs/en/cross-check-flow](https://rs.school/docs/cross-check-flow).
 - Cross-check form: [https://rolling-scopes-school.github.io/checklist/](https://rolling-scopes-school.github.io/checklist/), under "CV#3. CV. Cross-Check."
 - Example video of a cross-check: [https://youtu.be/PPGO8Mvtc20](https://youtu.be/PPGO8Mvtc20).
 - Please add links to the very best works from your cohort with very high-quality execution to this form: [https://forms.gle/kcmAkFK4j1EGW5JS8](https://forms.gle/kcmAkFK4j1EGW5JS8).
