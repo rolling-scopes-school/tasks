@@ -102,39 +102,47 @@
 - [Дневник](./DEVELOPMENT_DIARY.md) разработки существует, заполнен регулярно, записи закоммичены своевременно
 - Описан в дневнике или снят на видео процесс разработки минимум 2 личных Feature Component
 
+### Три обязательных защиты
+
+Все три защиты **обязательны** — без них 0 баллов за соответствующий Score.
+
+1. **[Командная защита](./DEFENCE_TEAM.md)** — команда презентует проект жюри (блоки по 3 команды, ~25 мин). Оценка по критериям [SCORE_TEAM.md](./SCORE_TEAM.md).
+2. **[Peer Review](./DEFENCE_PEER.md)** — студент демонстрирует свои фичи 3 студентам-экспертам (~15 мин). Peers валидируют self-assessment. Оценка по критериям [SCORE_PERSONAL.md](./SCORE_PERSONAL.md#3-peer-review-100-баллов).
+3. **[Менторская сессия](./DEFENCE_MENTOR.md)** — индивидуальный созвон с рандомным ментором (~30 мин). Чисто технический фокус: код, архитектура. Оценка по критериям [SCORE_PERSONAL.md](./SCORE_PERSONAL.md#4-mentor-review-150-баллов).
+
 ### Оценки в RS APP (макс. 1000 баллов)
 
 За проект выставляется **восемь отдельных Score** в RS APP:
 
-| Score                | Баллы    | Формат                                     | Документ                                     |
-| -------------------- | -------- | ------------------------------------------ | -------------------------------------------- |
-| **Tandem: Week 1**   | 20       | Автоматическая проверка (конец Week 1)     | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
-| **Tandem: Week 2**   | 20       | Автоматическая проверка (конец Week 2)     | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
-| **Tandem: Week 3**   | 20       | Автоматическая проверка (конец Week 3)     | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
-| **Tandem: Week 4**   | 20       | Автоматическая проверка (конец Week 4)     | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
-| **Tandem: Week 5**   | 20       | Автоматическая проверка (конец Week 5)     | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md) |
-| **Tandem: Code**     | 100      | Cross-Check: код + продукт                 | [CODE_STANDARDS.md](./CODE_STANDARDS.md)     |
-| **Tandem: Teamwork** | 300      | Командная презентация (~25 мин)            | [TEAMWORK.md](./TEAMWORK.md)                 |
-| **Tandem: Personal** | 500      | Индивидуальная защита с ментором (~30 мин) | [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)     |
-| **Итого**            | **1000** |                                            |                                              |
+| Score                   | Баллы    | Формат                                            | Документ                                     |
+| ----------------------- | -------- | ------------------------------------------------- | -------------------------------------------- |
+| **Tandem: Week 1**      | 20       | Автоматическая проверка (конец Week 1)            | [WEEK1_CHECKPOINT.md](./WEEK1_CHECKPOINT.md) |
+| **Tandem: Week 2**      | 20       | Автоматическая проверка (конец Week 2)            | [WEEK2_CHECKPOINT.md](./WEEK2_CHECKPOINT.md) |
+| **Tandem: Week 3**      | 20       | Автоматическая проверка (конец Week 3)            | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md) |
+| **Tandem: Week 4**      | 20       | Автоматическая проверка (конец Week 4)            | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md) |
+| **Tandem: Week 5**      | 20       | Автоматическая проверка (конец Week 5)            | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md) |
+| **Tandem: Peer Review** | 100      | Презентация перед студентами-экспертами (~15 мин) | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)     |
+| **Tandem: Teamwork**    | 300      | Командная презентация (~25 мин)                   | [SCORE_TEAM.md](./SCORE_TEAM.md)             |
+| **Tandem: Personal**    | 500      | Индивидуальная защита с ментором (~30 мин)        | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)     |
+| **Итого**               | **1000** |                                                   |                                              |
 
 - **Weekly Checkpoints (W1–W5)** — по 20 баллов каждый. Помогают держать ритм и не откладывать всё на последнюю неделю. Проверяются автоматически парсером.
-- **Tandem: Code** — одинаковая для всей команды. Cross-Check: код (50 pts) + продукт (50 pts). Код: TypeScript strict, no any, ESLint + Prettier, error handling. Продукт: деплой/запуск, user flow, edge cases, README.
+- **Tandem: Peer Review** — личная оценка. Студент презентует свою работу 3 студентам-экспертам из других команд (~15 мин). Peers подтверждают или корректируют заявленные баллы из self-assessment.
 - **Tandem: Teamwork** — одинаковая для всей команды. Оценивается жюри на презентации: board, git culture, product integrity.
-- **Tandem: Personal** — личная оценка каждого студента. Включает Development Diary (100), Personal Features (250 ceiling) и Mentor Review (150).
+- **Tandem: Personal** — личная оценка каждого студента. Менторская сессия (~30 мин), фокус на коде. Включает Development Diary (100), Personal Features (250 ceiling) и Mentor Review (150). Продукт уже проверен на Peer Review.
 
-### Таймлайн (недели 6-8)
+### Таймлайн (недели 6-10)
 
-| Период         | Активность                                                                                                         |
-| -------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Неделя 6       | Финальная разработка. Команды собирают README-артефакты.                                                           |
-| Конец недели 6 | **Дедлайн.** Сабмит на кросс-чек.                                                                                  |
-| Недели 6-7     | **Cross-Check** (7 дней). Параллельно: подготовка к презентации, мерж дневников, self-assessment.                  |
-| Недели 7-9     | **Teamwork** (жюри, блоки по 5, ~25 мин/команда) + **Personal** (ментор, ~30 мин/студент). Параллельно. ~2 недели. |
-| Неделя 9       | **Showcase Day** — ~10 номинантов презентуют повторно (live/стрим). Финальное голосование People's Choice.         |
-| Конец недели 9 | **Awards.**                                                                                                        |
+| Период          | Активность                                                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Неделя 6        | Финальная разработка. Команды собирают README-артефакты.                                                                  |
+| Конец недели 6  | **Дедлайн** (~31 марта).                                                                                                  |
+| Неделя 7        | **Подготовка.** Self-assessment, мерж дневников, регистрация на peer review. [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md) |
+| Недели 8-9 (10) | **Три защиты** (Team + Peer Review + Mentor) параллельно. ~2-3 недели.                                                    |
+| После защит     | **Showcase Day** — ~10 номинантов презентуют повторно (live/стрим). Финальное голосование People's Choice.                |
+| Конец           | **Awards.**                                                                                                               |
 
-> Используйте неделю кросс-чека для подготовки к защите.
+> У каждого студента три возможности выступить: перед жюри (команда), перед студентами-экспертами (peer review) и перед ментором (код).
 
 ## RS Tandem Awards
 
@@ -151,7 +159,7 @@
 
 ### Как это работает
 
-**Раунд 1 — Teamwork-блоки.** 36 команд презентуют в блоках по 5. После каждого блока:
+**Раунд 1 — Teamwork-блоки.** Команды презентуют в блоках по 3. После каждого блока:
 
 - Жюри номинирует лучших по категориям (не обязательно во всех — сколько заслужили).
 - People's Choice: все присутствующие на сессии голосуют за 1 команду (не свою).
@@ -196,7 +204,7 @@ AI компонент — это один из Feature Component (и даже н
 
 ### Вопрос: Как будет осуществляться проверка? Будут ли промежуточные проверки?
 
-Да, есть еженедельные чекпоинты (Weekly Checkpoints W1–W5) — небольшие задания на 20 баллов каждое, которые помогают держать ритм и не откладывать всё на последнюю неделю. Чекпоинты проверяются автоматически парсером. Кроме того, проект проверяется в три финальных этапа: Cross-Check (Tandem: Code), командная презентация (Tandem: Teamwork) и индивидуальная защита с рандомно назначенным ментором (Tandem: Personal).
+Да, есть еженедельные чекпоинты (Weekly Checkpoints W1–W5) — небольшие задания на 20 баллов каждое, которые помогают держать ритм и не откладывать всё на последнюю неделю. Чекпоинты проверяются автоматически парсером. Кроме того, у каждого студента три обязательных защиты: [командная презентация](./DEFENCE_TEAM.md) (блоки по 3 команды), [Peer Review](./DEFENCE_PEER.md) перед студентами-экспертами (~15 мин) и [менторская сессия](./DEFENCE_MENTOR.md) по коду (~30 мин). Все три защиты обязательны — без них 0 баллов за соответствующий Score.
 
 ### Вопрос: Можно ли получить сертификат о прохождении курса без выполнения финального задания?
 
@@ -225,13 +233,17 @@ AI компонент — это один из Feature Component (и даже н
 | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md)         | **Week 3:** Видео-презентация Feature Component + дневник (20 pts).              |
 | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md)         | **Week 4:** Unit-тесты + Code Review + дневник (20 pts).                         |
 | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md)         | **Week 5:** Error Handling — 404, Loading, Error State + дневник (20 pts).       |
-| [vision_varabei.md](./vision_varabei.md)             | **Философия:** Зачем мы это делаем и в чем смысл проекта?                        |
-| [vision_opus.md](./vision_opus.md)                   | **AI Perspective:** Взгляд AI на проект — честно о возможностях и ограничениях.  |
-| [CODE_STANDARDS.md](./CODE_STANDARDS.md)             | **Качество кода:** TypeScript strict, no any, linting, error handling (100 pts). |
-| [TEAMWORK.md](./TEAMWORK.md)                         | **Командная работа:** Board, Git Culture, Product Integrity (300 pts).           |
-| [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)             | **Личная оценка:** Diary + Personal Features + Mentor Review (500 pts).          |
+| [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)         | **Week 7:** Подготовка к защитам: self-assessment, мерж дневника, регистрация.   |
+| [DEFENCE_TEAM.md](./DEFENCE_TEAM.md)                 | **Командная защита:** формат презентации, блоки по 3, жюри, Awards.              |
+| [DEFENCE_PEER.md](./DEFENCE_PEER.md)                 | **Peer Review:** формат сессии, роль студента-эксперта.                          |
+| [DEFENCE_MENTOR.md](./DEFENCE_MENTOR.md)             | **Менторская сессия:** формат созвона, технический фокус.                        |
+| [SCORE_TEAM.md](./SCORE_TEAM.md)                     | **Командная оценка:** PM, Git Culture, Product Integrity (300 pts).              |
+| [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)             | **Личная оценка:** Diary + Features + Peer Review + Mentor Review (500+100 pts). |
+| [CODE_STANDARDS.md](./CODE_STANDARDS.md)             | **Чеклист качества:** справочный документ для менторов и студентов-экспертов.    |
 | [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)       | **Дневник:** Правила ведения + требование 2 личных компонента.                   |
 | [ARCHITECTURE_AND_API.md](./ARCHITECTURE_AND_API.md) | **Код:** Работа с данными, Mock Mode и выбор бэкенда.                            |
+| [vision_varabei.md](./vision_varabei.md)             | **Философия:** Зачем мы это делаем и в чем смысл проекта?                        |
+| [vision_opus.md](./vision_opus.md)                   | **AI Perspective:** Взгляд AI на проект — честно о возможностях и ограничениях.  |
 | [examples/](./examples/)                             | **Примеры проектов:** Widget Trainer, Codenames Game, AI Prep App.               |
 | [AI_AGENT.md](./AI_AGENT.md)                         | **AI гайд:** Как добавить AI в проект (Streaming, LLM, Mock Mode).               |
 
