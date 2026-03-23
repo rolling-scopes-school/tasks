@@ -20,10 +20,10 @@
 ## Useful Links
 
 - [YouTube stream recording "Career Guidance"](https://www.youtube.com/watch?v=pQ0hr5U8RL0) - 1.5 hours
-- [Excellent book on JS in Russian (learn.javascript.ru)](https://learn.javascript.ru/)
+- [Excellent book on JS in English (javascript.info)](https://javascript.info/)
   Chapters that are recommended to read first:
-  - [JavaScript Fundamentals](https://learn.javascript.ru/first-steps)
-  - [Objects: the basics](https://learn.javascript.ru/object-basics)
-  - [Data types](https://learn.javascript.ru/data-types)
-  - [Document](https://learn.javascript.ru/document)
-  - [Introduction to Events](https://learn.javascript.ru/events)
+  - [JavaScript Fundamentals](https://javascript.info/first-steps)
+  - [Objects: the basics](https://javascript.info/object-basics)
+  - [Data types](https://javascript.info/data-types)
+  - [Document](https://javascript.info/document)
+  - [Introduction to Events](https://javascript.info/events)
