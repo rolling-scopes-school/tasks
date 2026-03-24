@@ -177,7 +177,7 @@
 
 ### Бенефиты
 
-- Уникальный бейдж в RS APP (Awards и Tandi's Pick).
+- Специальный бейдж в RS APP (Awards и Tandi's Pick).
 - Подтверждение достижения для вашего CV/LinkedIn.
 
 ## FAQ
