@@ -1,12 +1,13 @@
-# Personal Score (500 баллов)
+# Personal Score (500 + 100 баллов)
 
-Личная оценка каждого студента.
+Личная оценка каждого студента. Этот документ определяет два Score в RS APP: **Tandem: Personal** (500 pts) и **Tandem: Peer Review** (100 pts).
 
 **Поток оценки:**
 
 1. Студент заявляет фичи с баллами в [self-assessment](#self-assessment)
 2. [Студенты-эксперты](./DEFENCE_PEER.md) валидируют: смотрят демо и отмечают **расхождения** с заявленным (фича не работает, завышена, не продемонстрирована). Всё, что не оспорено — считается подтверждённым.
 3. [Ментор](./DEFENCE_MENTOR.md) получает self-assessment + результат peer review. Оценивает качество кода и понимание — не перепроверяет "работает ли".
+4. **Координатор** выставляет итоговый балл Personal Features на основе self-assessment, скорректированного по замечаниям peers. Ментор не влияет на Personal Features — только на Mentor Review (150 pts).
 
 ### Порог допуска
 
@@ -65,7 +66,7 @@ Self-assessment используется дважды:
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **My Components**    | **Complex Component:** Разработка сложного интерактивного компонента (Game Board, Widget Engine, Chat UI, Code Runner) | +25 за каждый |
 |                      | **Rich UI Screen:** Реализация экрана со сложной логикой и состоянием (Dashboard, Library с фильтрами, Profile, Lobby) | +20 за каждый |
-|                      | **Cложный бэкенд-сервис:** Game Server Engine, Matchmaking System, AI Context Manager, Code Execution Sandbox          | +30 за каждый |
+|                      | **Сложный бэкенд-сервис:** Game Server Engine, Matchmaking System, AI Context Manager, Code Execution Sandbox          | +30 за каждый |
 | **Backend & Data**   | **BaaS Auth:** Настройка авторизации через BaaS (Firebase/Supabase Auth, email, OAuth)                                 | +15           |
 |                      | **Custom Auth:** Собственная авторизация (JWT + bcrypt + middleware) без BaaS                                          | +20           |
 |                      | **BaaS CRUD:** Работа с облачной БД (Firebase/Supabase), реализация минимум 1 endpoint                                 | +15           |
