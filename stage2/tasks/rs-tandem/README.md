@@ -243,6 +243,7 @@ AI компонент — это один из Feature Component (и даже н
 | [DEFENCE_MENTOR.md](./DEFENCE_MENTOR.md)             | **Менторская сессия:** формат созвона, технический фокус.                        |
 | [SCORE_TEAM.md](./SCORE_TEAM.md)                     | **Командная оценка:** PM, Git Culture, Product Integrity (300 pts).              |
 | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)             | **Личная оценка:** Diary + Features + Peer Review + Mentor Review (500+100 pts). |
+| [CODE_STANDARDS.md](./CODE_STANDARDS.md)             | **Технические требования:** TypeScript strict, linting, error handling, deploy.  |
 | [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)       | **Дневник:** Правила ведения + требование 2 личных компонента.                   |
 | [ARCHITECTURE_AND_API.md](./ARCHITECTURE_AND_API.md) | **Код:** Работа с данными, Mock Mode и выбор бэкенда.                            |
 | [vision_varabei.md](./vision_varabei.md)             | **Философия:** Зачем мы это делаем и в чем смысл проекта?                        |
