@@ -20,11 +20,15 @@
 
 ## Self-Assessment
 
-Перед защитами студент создаёт **PR** в репозитории команды с файлом `self-assessment.md` в папке `/development-notes/github-username/`.
+Студент создаёт **PR** в репозитории команды с файлом `self-assessment.md` в папке `/development-notes/github-username/`. PR мержится в `main`, но в самом файле должна быть **ссылка на PR** — это место для вопросов от peers и ментора.
 
 Каждая заявленная фича — со ссылкой на файл или PR:
 
 ```markdown
+# Self-Assessment
+
+PR: https://github.com/team/repo/pull/99
+
 ### Complex Component: Game Board (+25) ★
 
 - Файл: src/components/GameBoard/
@@ -38,6 +42,8 @@ Self-assessment используется дважды:
 
 - **Peer Review** — студенты-эксперты верифицируют: фичи работают? Заявленное реально?
 - **Менторская сессия** — ментор смотрит код фич со ★ и оценивает архитектуру.
+
+> **Оценка** выставляется через Google Form (приватная), не через комментарии в PR.
 
 ---
 

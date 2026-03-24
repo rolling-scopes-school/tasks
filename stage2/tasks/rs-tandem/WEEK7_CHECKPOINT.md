@@ -23,7 +23,7 @@
 
 ## Личная часть
 
-3. **Self-assessment PR** — PR в репозитории команды с файлом `self-assessment.md` в `/development-notes/github-username/`. Каждая фича — со ссылкой на файл или PR, ★ у 2-3 ключевых фич для демо. Подробности: [SCORE_PERSONAL.md](./SCORE_PERSONAL.md#self-assessment).
+3. **Self-assessment** — PR в репозитории команды с файлом `self-assessment.md` в `/development-notes/github-username/`. Замержить в `main`, в файле оставить ссылку на PR (место для вопросов). Каждая фича — со ссылкой на файл или PR, ★ у 2-3 ключевых фич для демо. Подробности: [SCORE_PERSONAL.md](./SCORE_PERSONAL.md#self-assessment).
 
 4. **Мерж дневника** — все записи замержены в `main`. Создан файл `username-merged.md` в `/development-notes/github-username/`.
 
