@@ -237,6 +237,7 @@ AI компонент — это один из Feature Component (и даже н
 | [WEEK3_CHECKPOINT.md](./WEEK3_CHECKPOINT.md)         | **Week 3:** Видео-презентация Feature Component + дневник (20 pts).              |
 | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md)         | **Week 4:** Unit-тесты + Code Review + дневник (20 pts).                         |
 | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md)         | **Week 5:** Error Handling — 404, Loading, Error State + дневник (20 pts).       |
+| [WEEK6_CHECKPOINT.md](./WEEK6_CHECKPOINT.md)         | **Week 6:** Оценка дневника и допуск к защитам (100 pts).                        |
 | [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)         | **Week 7:** Подготовка к защитам: self-assessment, мерж дневника, регистрация.   |
 | [DEFENCE_TEAM.md](./DEFENCE_TEAM.md)                 | **Командная защита:** формат презентации, блоки по 3, жюри, Awards.              |
 | [DEFENCE_PEER.md](./DEFENCE_PEER.md)                 | **Peer Review:** формат сессии, роль студента-эксперта.                          |
