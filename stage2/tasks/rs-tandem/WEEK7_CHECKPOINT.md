@@ -29,7 +29,6 @@
    - Лучшие PR (3-4 PR с содержательным code review)
    - Meeting Notes (ссылки на 3+ записей)
 3. **Self-assessment PR** — см. [ниже](#self-assessment).
-4. **Дневник** — все записи замержены в `main`.
 ---
 
 ## Self-Assessment
