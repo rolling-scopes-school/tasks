@@ -137,7 +137,7 @@
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Неделя 6        | Финальная разработка. Команды собирают README-артефакты.                                                                                                                            |
 | Конец недели 6  | **Дедлайн** (~31 марта). Продление до 14 апреля при объективных причинах (война, болезнь, отсутствие электричества) — в этом случае все последующие дедлайны смещаются на 2 недели. |
-| Неделя 7        | **Подготовка.** Self-assessment, мерж дневников, регистрация на peer review. [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)                                                           |
+| Неделя 7        | **Подготовка.** Self-assessment, регистрация на peer review. [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)                                                                           |
 | Недели 8-9 (10) | **Три защиты** (Team + Peer Review + Mentor) параллельно. ~2-3 недели.                                                                                                              |
 | После защит     | **Showcase Day** — ~10 номинантов презентуют повторно (live/стрим). Финальное голосование People's Choice.                                                                          |
 | Конец           | **Awards.**                                                                                                                                                                         |
@@ -238,7 +238,7 @@ AI компонент — это один из Feature Component (и даже н
 | [WEEK4_CHECKPOINT.md](./WEEK4_CHECKPOINT.md)         | **Week 4:** Unit-тесты + Code Review + дневник (20 pts).                         |
 | [WEEK5_CHECKPOINT.md](./WEEK5_CHECKPOINT.md)         | **Week 5:** Error Handling — 404, Loading, Error State + дневник (20 pts).       |
 | [WEEK6_CHECKPOINT.md](./WEEK6_CHECKPOINT.md)         | **Week 6:** Оценка дневника и допуск к защитам (100 pts).                        |
-| [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)         | **Week 7:** Подготовка к защитам: self-assessment, мерж дневника, регистрация.   |
+| [WEEK7_CHECKPOINT.md](./WEEK7_CHECKPOINT.md)         | **Week 7:** Подготовка к защитам: self-assessment, регистрация.                  |
 | [DEFENCE_TEAM.md](./DEFENCE_TEAM.md)                 | **Командная защита:** формат презентации, блоки по 3, жюри, Awards.              |
 | [DEFENCE_PEER.md](./DEFENCE_PEER.md)                 | **Peer Review:** формат сессии, роль студента-эксперта.                          |
 | [DEFENCE_MENTOR.md](./DEFENCE_MENTOR.md)             | **Менторская сессия:** формат созвона, технический фокус.                        |
