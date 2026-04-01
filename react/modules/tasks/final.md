@@ -1,4 +1,4 @@
-# Swagger/OpenAPI Editor and REST Client
+# Swagger/OpenAPI UI
 
 ## Framework Options
 
@@ -13,30 +13,14 @@ You can choose from several modern React frameworks for your project. All of the
 
 You are free to choose any of these options based on your team's preferences and project requirements.
 
-You will be working on creating a **Swagger/OpenAPI Editor and Viewer** with REST client capabilities in one app. This allows users to edit and test APIs using OpenAPI specifications in an accessible, user-friendly interface.
+You will be working on creating a **Swagger/OpenAPI UI** with REST client capabilities in one app. This allows users to edit and test APIs using OpenAPI specifications in an accessible, user-friendly interface.
 
 PLEASE, READ THE TASK DESCRIPTION CAREFULLY UP TO THE END BEFORE STARTING THE TASK
 
-## Theoretical Notes
-
-This application is built around **OpenAPI/Swagger specifications**. You can use the [OpenAPI Initiative](https://www.openapis.org/) as a reference, along with tools like [Swagger UI](https://swagger.io/tools/swagger-ui/) as inspiration (if you aren't able to access the main link, you can try using [this link](https://forge.etsi.org/swagger/editor/)).
-
-The application consists of:
-
-1. **Swagger Editor** - Allows users to paste and edit OpenAPI schemas in JSON or YAML format
-2. **Swagger Viewer** - Displays API endpoints from the schema and allows users to test them
-3. **Authorized Features** - History and analytics for authenticated users, allowing them to track API usage and request details
-
-The key difference from traditional REST clients is that users define their API through a schema, making it more structured and standardized.
-
-## Building a team
-
-- you should work in a team of 3 members
-- you should select a team lead, who will be coordinating the development
-
 ## Application Prototype
 
-You can use existing solutions like [Swagger Editor](https://editor.swagger.io/) as a source of inspiration (use alternative [links](https://forge.etsi.org/swagger/editor/) if you can't access the main one).
+This application is built around **OpenAPI specifications**. You can use the [OpenAPI Initiative](https://www.openapis.org/) as a reference, along with tools like [Swagger UI](https://editor.swagger.io/) as inspiration (if you aren't able to access the main link, you can try using [this link](https://forge.etsi.org/swagger/editor/)).
+
 However, pay attention that we leave the final decision about the set of tools and design to you to not limit your possibilities and imagination.
 Design, prototype, as well as implementation of the application, are up to you.
 
@@ -44,11 +28,32 @@ Design, prototype, as well as implementation of the application, are up to you.
 
 - Application doesn't require a backend.
 - Application should support any open, user-specified API (RESTful).
-- You will use either **Next.js (App Router)** or **React Router 7 (Framework mode)** to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
-  - **React Router 7 Framework mode** is the evolution of Remix, as Remix features have been merged into React Router. See [React Router 7 Framework mode docs](https://reactrouter.com/start/modes#framework).
-  - **Next.js App Router** is the recommended way to use Next.js for full-stack React apps. See [Next.js App Router docs](https://nextjs.org/docs/app).
-  - As an option, you can try using the Cloudflare's reimplementation of Next.js in Vite, check [Docs/Code](https://github.com/cloudflare/vinext).
-  - You may also use **Tanstack Start** ([docs](https://tanstack.com/start/latest)) or **Waku** ([docs](https://waku.gg/)) as alternative modern React frameworks for full-stack development.
+- You will use any SSR framework to make calls to the endpoint through the server. This is how you will avoid issues related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+
+## Building a team
+
+- you should work in a team of 3 members
+- you should select a team lead, who will be coordinating the development
+
+## Repository requirements
+
+- team lead should create a private repo in GitHub and invite other members
+- repo name **swagger-editor-app**. Branch name for develop - **develop** and make it as default, the **main** branch is empty and contains only README.md, .gitignore, .github/pull_request_template.md
+- the commit history should display the application development process. [Commit requirements](https://rs.school/docs/git-convention)
+- the demo version of the application should be deployed on any preferable platform which supports SSR (for example, Vercel, Netlify, Render, etc.) and the link to the deployed app should be added to the README.md file in the repository
+- after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
+- in case you will use proxy-service you need to include instructions on how to run it locally
+- you should make your repo public after the deadline
+
+## Workflow/Branching strategy
+
+You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
+
+[Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
+[Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+[ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
+[GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
 
 ## Application structure
 
@@ -71,26 +76,6 @@ Your app must contain:
 2. History & Analytics (for authenticated users only)
 3. About page (information about the course and team)
 4. 404 Not Found page
-
-## Repository requirements
-
-- team lead should create a private repo in GitHub and invite other members
-- repo name **swagger-editor-app**. Branch name for develop - **develop**, **main** branch is empty and contains only README.md
-- the commit history should display the application development process. [Commit requirements](https://rs.school/docs/ru/git-convention)
-- the demo version of the application should be deployed on `gh-pages`, `netlify`, `heroku`, or another similar service
-- after completing the task, create a pull request from **develop** to **main** branch. **Merging a Pull Request is not required**
-- in case you will use proxy-service you need to include instructions on how to run it locally
-- you should make your repo public after the deadline
-
-## Workflow/Branching strategy
-
-You are free to choose your own way of developing the project and the repository. Here are links to a description and analysis of popular practices.
-
-[Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
-[Gitflow Workflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
-[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-[ThreeFlow](https://habr.com/ru/company/infopulse/blog/345826/)
-[GitLab Flow VS Git flow VS GitHub flow](https://yapro.ru/article/6172)
 
 ## Technical requirements
 
@@ -163,7 +148,6 @@ CORS issues or network timeouts should be shown as errors, whereas 4xx and 5xx H
 
 - Displays all endpoints from the loaded OpenAPI/Swagger schema
 - **For Each Endpoint Display:**
-
   1. **Request Details**
      - HTTP Method (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE)
      - Endpoint URL/Path
@@ -555,39 +539,32 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### Penalties
 
 - **0. Framework Choice**
-
   - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Vinext**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
 
 - **1. TypeScript & Code Quality**
-
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
   - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 
 - **2. Test Coverage**
-
   - [ ] Statement coverage below 80% (≥70%): **-50 points**
   - [ ] Statement coverage below 70% (≥50%): **-100 points**
   - [ ] All coverage metrics below 50%: **-150 points**
   - [ ] Absence of tests **-250 points**
 
 - **3. React Best Practices**
-
   - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
 
 - **4. Console & Error Handling**
-
   - [ ] The presence of errors and warnings in the console **-20 points** for each
   - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
   - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 
 - **5. Development Tools**
-
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
 
 - **6. UI/UX**
-
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**
