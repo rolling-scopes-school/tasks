@@ -69,10 +69,10 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 ## Repository Requirements
 
-- Task should be done in private school's repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository)
+- Task should be done in private school's repository. [How to work with a school's private repository](https://rs.school/docs/private-repository)
 - Create new branch `christmas-shop` from `main`. Create a folder `christmas-shop` in the created branch. Place your code in this folder.
 - The `main` branch should be empty (contain only files like README.md, .gitignore or .github folder)
-- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/private-repository#how-to-deploy-an-assignment-from-the-schools-private-repository)
 - Since the task is divided into three parts, christmas-shop will have three versions:
   1.  The `christmas-shop` branch will contain the first part of the assignment. When starting the second part, create a branch `christmas-shop-part2` from the `christmas-shop` branch to continue from where you left off in the first part
   2.  Upon completing the second part of the assignment, create a Pull Request from the `christmas-shop-part2` branch to the `christmas-shop` branch, check for conflicts, and perform the Merge
@@ -83,12 +83,12 @@ Recommendations are provided for reference; strict adherence to them is not expe
 ## Commit Requirements
 
 - Commit history should reflect the application development process.
-- [Give commit names according to the guideline](https://rs.school/docs/ru/git-convention)
+- [Give commit names according to the guideline](https://rs.school/docs/git-convention)
 
 ## Requirements for Pull Requests
 
 - Name the Pull Request according to the task title
-- [Provide the Pull Request description following the template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
+- [Provide the Pull Request description following the template](https://rs.school/docs/short-track/pull-request-requirements)  
   **No need to merge the Pull Request from the development branch into the `main` branch**.
 
 ## How to submit

@@ -15,7 +15,7 @@
 - при написании кода рекомендуется следовать гайдлайну https://codeguide.academy/html-css.html
 - контент размещается в блоке, который горизонтально центрируется на странице
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru)
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/ru/courses/javascript)
 
 ## Порядок работы
 
@@ -27,7 +27,7 @@
    Замержите Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`
 5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`  
    Название Pull Request `CV. Cross-Check`  
-   [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).  
+   [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/mentoring/pull-request-review-process#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr).  
    Мержить Pull Request из ветки `rsschool-cv-html` в ветку `main` не нужно.
 6. В файл `README.md` ветки `main` добавьте две ссылки, в которых вместо `GITHUB-USERNAME` укажите свой никнейм на сайте GitHub. По этим ссылкам должны открываться страницы CV в формате markdown и в виде свёрстанной страницы
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
@@ -49,7 +49,7 @@
   - элемент `nav` +5
   - только один заголовок `h1` +5
   - заголовки `h2` +5
-- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru) +10  
+- в footer есть ссылка на гитхаб автора работы, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/ru/courses/javascript) +10  
   Если ссылка в футере ведёт на [курс stage0](https://rs.school/courses/javascript-preschool-ru) или на [English курс](https://rs.school/courses/javascript), это не ошибка.
 - для оформления СV используются css-стили +10
 - при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону +10
@@ -77,7 +77,7 @@
 
 ## Проверка задания CV#3. CV Cross-Check
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow
 - форма для кросс-чека https://rolling-scopes-school.github.io/checklist/ (пункт "CV#3. CV. Cross-Check")
 - видео с примером кросс-чека https://youtu.be/PPGO8Mvtc20
 
