@@ -8,7 +8,7 @@
 2. От ветки `rsschool-cv-html` создайте ветку `cv-html-css`. В эту ветку автоматически переместятся файлы c вёрсткой.
 3. Проверьте соответствие вашего CV требованиям задания, самостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), внесите необходимые изменения.
 4. Создайте и замержите Pull Request из ветки `cv-html-css` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
+5. После завершения работы откройте Pull Request из ветки `cv-html-css` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/mentoring/pull-request-review-process#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) Мержить данный Pull Request не нужно.
 
 ## Требования к вёрстке
 
@@ -19,12 +19,12 @@
 - контент размещается в блоке, который горизонтально центрируется на странице
 - содержание СV соответствует рекомендациям EPAM HR department, указанным в задании [Markdown & Git](git-markdown.md)
 - страница СV должна корректно отображаться в браузере Google Chrome последней версии
-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/courses/javascript-ru).  
+- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, [логотип курса](./rs-school-logo.svg) со [ссылкой на курс](https://rs.school/ru/courses/javascript).  
   Данный пункт не оценивается, но без ссылки на ваш гитхаб, проверяющие не смогут проверить описание PR и выставить за него баллы.
 
 ## Требования к коммитам
 
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/ru/docs/git-convention)
 
 ## Технические требования
 
@@ -76,7 +76,7 @@ CV - таск, который проверяется в ходе кросс-че
 
 ## Cross-check
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow
 - форма для проверки задания https://rolling-scopes-school.github.io/checklist/ (пункт "CV")
 - ссылки на лучшие работы добавьте, пожалуйста, в форму https://forms.gle/tgC3Y3dn9y2Yu5NF6
 

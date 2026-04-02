@@ -66,7 +66,7 @@ The preparatory stage will help those who are not very familiar or not familiar 
 ### Week #7
 
 - [Module "Algorithms and Data Structures"](modules/data-structures-part-1/)
-- [Module "Codewars Part #3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/preschool-2022-codewars3.md)
+- [Module "Codewars Part #3"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/en/preschool-2022-codewars3.md)
 
 ### Week #8
 

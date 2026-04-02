@@ -25,7 +25,7 @@
 
 Реализация работы с API "руками" без тяжелых библиотек.
 
-- **Плюсы:** Полный контроль, маленький размер бандла, +баллы в _Technical Depth_ (см. [PERSONAL_SCORE.md](./PERSONAL_SCORE.md)).
+- **Плюсы:** Полный контроль, маленький размер бандла, +баллы в _Technical Depth_ (см. [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)).
 - **Что изучить:** `fetch`, `ReadableStream`, `TextDecoder`.
 
 ### B. AI SDKs (Vercel AI SDK, LangChain)
