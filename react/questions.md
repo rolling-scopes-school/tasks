@@ -368,6 +368,7 @@ Small coding task suggestion for interview: "Small react app: form, button, resu
 Key questions:
 
 - `useReducer` vs `useState` — when to choose `useReducer`.
+
 <details>
 <summary>Portal example (expand)</summary>
 
@@ -378,6 +379,7 @@ function Modal({ children }) {
     <div className="modal">{children}</div>,
     document.getElementById("modal-root"),
   );
+```
 
 </details>
 
@@ -391,7 +393,7 @@ Portals & Error boundaries:
 <details>
 <summary>Context tip (expand)</summary>
 
-Memoize provider value: `<Provider value={useMemo(()=>({state, setState}),[state])}>` to avoid re-renders.
+Memoize provider value: `tsx<Provider value={useMemo(()=>({state, setState}),[state])}>` to avoid re-renders.
 
 </details>
 
@@ -455,4 +457,7 @@ Key questions:
 ---
 
 Small coding task suggestion for interview: "Small react app: form, button, results list" (keeps original exercise).
+
+```
+
 ```
