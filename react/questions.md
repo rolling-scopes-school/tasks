@@ -269,15 +269,12 @@ import React from "react";
 
 class ErrorBoundary extends React.Component {
   state = { hasError: false };
-
   static getDerivedStateFromError() {
     return { hasError: true };
   }
-
   componentDidCatch(err, info) {
     /* log */
   }
-
   render() {
     return this.state.hasError ? (
       <h1>Something went wrong</h1>
@@ -337,6 +334,12 @@ Key questions:
 - React Router: declarative routes vs data-router approach; nested routes and loaders.
 - Programmatic navigation and route params (`useNavigate`, `useParams`).
 - SSR/SSG ideas: Next.js basics (`getStaticProps`, `getServerSideProps`) and React Server Components.
+
+Next.js specific:
+
+- Questions about the `Link` component: how client-side navigation works, `prefetch` behavior, `replace` vs `push`, and when to use `<a>` vs `<Link>`.
+- Next.js API routes / Route Handlers: where to define server endpoints (`/pages/api/*` or App Router `route.js`/`route.ts`) and differences between API routes and server actions.
+- Next.js Middlewares: what `middleware` runs on the Edge, common use-cases (auth, redirects), and limitations (Edge runtime constraints).
 
 ### 🔴 State Management Libraries
 
@@ -441,16 +444,8 @@ Key questions:
 - Linting/formatting and pre-commit tooling (ESLint, Prettier, Husky, lint-staged).
 - How to dockerize and add CI pipelines for React apps.
 
-## Short practical coding tasks
+## Short practical prompts (coding tasks)
 
 - Build a small form with validation using React Hook Form and show submission flow.
 - Implement a modal with Portal and focus trap.
 - Create a small list and optimize rendering for 10k items (virtualization).
-
----
-
-Small coding task suggestion for interview: "Small react app: form, button, results list" (keeps original exercise).
-
-```
-
-```
