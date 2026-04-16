@@ -269,12 +269,15 @@ import React from "react";
 
 class ErrorBoundary extends React.Component {
   state = { hasError: false };
+
   static getDerivedStateFromError() {
     return { hasError: true };
   }
+
   componentDidCatch(err, info) {
     /* log */
   }
+
   render() {
     return this.state.hasError ? (
       <h1>Something went wrong</h1>
@@ -444,7 +447,7 @@ Key questions:
 - Linting/formatting and pre-commit tooling (ESLint, Prettier, Husky, lint-staged).
 - How to dockerize and add CI pipelines for React apps.
 
-## Short practical prompts (coding tasks)
+## Short practical coding tasks
 
 - Build a small form with validation using React Hook Form and show submission flow.
 - Implement a modal with Portal and focus trap.
