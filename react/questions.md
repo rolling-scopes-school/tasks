@@ -2,10 +2,6 @@
 
 ## 🟢 Foundation
 
-# React interview questions (revalidated)
-
-## 🟢 Foundation
-
 ### 🟢 Core Concepts & JSX
 
 Key questions:
