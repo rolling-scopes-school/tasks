@@ -351,16 +351,6 @@ Key questions:
 - Linting/formatting and pre-commit tooling (ESLint, Prettier, Husky, lint-staged).
 - How to dockerize and add CI pipelines for React apps.
 
-## Short practical prompts (coding tasks)
-
-- Build a small form with validation using React Hook Form and show submission flow.
-- Implement a modal with Portal and focus trap.
-- Create a small list and optimize rendering for 10k items (virtualization).
-
----
-
-Small coding task suggestion for interview: "Small react app: form, button, results list" (keeps original exercise).
-
 ## 🔴 Advanced concepts
 
 ### 🔴 Advanced Hooks & Patterns
