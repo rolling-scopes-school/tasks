@@ -15,7 +15,7 @@ The **Employee & Project Dashboard** is a comprehensive management application f
 
 The application features a dual-view interface (Projects/Employees), collapsible sidebar navigation, real-time data calculations, and extensive filtering and sorting capabilities.
 
-## Demo App [DashboardDemoApp](https://dashboard-demo-ku2qzkpzp-luffi2539s-projects.vercel.app/)
+## Demo App [DashboardDemoApp](https://dashboard-demo-seven-fawn.vercel.app/)
 
 ## Main Functional Requirements ✅
 
