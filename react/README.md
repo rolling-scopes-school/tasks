@@ -67,7 +67,6 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 [Task 3](modules/tasks/functional-routing.md)
 
 - Cross-check review: [Task 2](modules/tasks/tests.md)
-- Mentor review: [Task 2](modules/tasks/tests.md)
 
 #### Tests
 
@@ -101,14 +100,14 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 5](modules/tasks/queries.md)
 
-- Cross-check review: [Task 5](modules/tasks/state-management.md)
-- Mentor review: [Task 5](modules/tasks/state-management.md)
+- Cross-check review: [Task 4](modules/tasks/state-management.md)
+- Mentor review: [Task 4](modules/tasks/state-management.md)
 
 #### Tests
 
 - Test 5. Queries APIs
 
-### Week #6 (1th of June 2026)
+### Week #6 (1st of June 2026)
 
 #### Theory
 
@@ -119,8 +118,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 6](modules/tasks/forms.md)
 
-- Cross-check review: [Task 6](modules/tasks/queries.md)
-- Mentor review: [Task 6](modules/tasks/queries.md)
+- Cross-check review: [Task 5](modules/tasks/queries.md)
+- Mentor review: [Task 5](modules/tasks/queries.md)
 
 #### Tests
 
@@ -134,10 +133,10 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-[Task 8](modules/tasks/performance/performance.md)
+[Task 7](modules/tasks/performance/performance.md)
 
-- Cross-check review: [Task 7](modules/tasks/forms.md)
-- Mentor review: [Task 7](modules/tasks/forms.md)
+- Cross-check review: [Task 6](modules/tasks/forms.md)
+- Mentor review: [Task 6](modules/tasks/forms.md)
 
 #### Tests
 
@@ -153,8 +152,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 8](modules/tasks/nextjs-ssr-ssg.md)
 
-- Cross-check review: [Task 8](modules/tasks/performance.md)
-- Mentor review: [Task 8](modules/tasks/performance.md)
+- Cross-check review: [Task 7](modules/tasks/performance/performance.md)
+- Mentor review: [Task 7](modules/tasks/performance/performance.md)
 
 #### Tests
 
@@ -162,7 +161,6 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #9 (22nd of June 2026)
 
-- [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
 #### Practical tasks
@@ -172,7 +170,6 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #10 (29th of June 2026)
 
-- [Technical React Interview](interview.md)
 - [REST client](modules/tasks/final.md)
 
 ### Week #11 (6th of July 2026)
@@ -181,6 +178,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 - [REST client](modules/tasks/final.md)
 
 ### Week #12 (13th of July 2026)
+
+- [Technical React Interview](interview.md)
 
 #### Practical tasks
 
