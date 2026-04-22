@@ -140,7 +140,7 @@ Focus on routing and functional components.
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## 📚 FAQ (Frequently Asked Questions)
 
@@ -178,5 +178,5 @@ You should pass the ID (or identifier) of the selected item from the search resu
 
 ### ❓ My PR is merged into `main`. Is it a penalty?
 
-No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.  
+No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.
 However, merging into `main` is **not recommended**, as it may complicate the review process for your mentor.

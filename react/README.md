@@ -22,7 +22,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Theory
 
-- [RS School Documentation](https://rs.school/docs/en)
+- [RS School Documentation](https://rs.school/docs/rs-app)
 - [History of React](modules/react-evolution/README.md)
 - [Vite with React and the TypeScript](modules/react-setup-env/README.md)
 - [Class Components](modules/class-component/README.md)

@@ -8,8 +8,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 1: Modal with React Portals (**15 points**)
 
-**As a** user  
-**I want** to open forms in accessible modals  
+**As a** user
+**I want** to open forms in accessible modals
 **So that** I can fill out forms without leaving the main page
 
 **Scenario:** Modal Display and Accessibility
@@ -29,8 +29,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 2: State Management (**15 points**)
 
-**As a** developer  
-**I want** to store form submissions in a state management library  
+**As a** developer
+**I want** to store form submissions in a state management library
 **So that** I can display submitted data on the main page
 
 **Scenario:** Form Data Storage
@@ -50,8 +50,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 3: Basic Form Fields (**15 points**)
 
-**As a** user  
-**I want** to fill out basic form fields  
+**As a** user
+**I want** to fill out basic form fields
 **So that** I can provide my personal information
 
 **Scenario:** Basic Form Input
@@ -70,8 +70,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 4: Advanced Form Fields (**25 points**)
 
-**As a** user  
-**I want** to upload an image, set passwords, and select a country  
+**As a** user
+**I want** to upload an image, set passwords, and select a country
 **So that** I can complete my profile
 
 **Scenario:** Advanced Form Input
@@ -96,8 +96,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 5: Form Validation (**15 points**)
 
-**As a** user  
-**I want** to see validation errors clearly  
+**As a** user
+**I want** to see validation errors clearly
 **So that** I know what needs to be corrected
 
 **Scenario:** Form Validation
@@ -128,8 +128,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 6: Form Submission and Display (**10 points**)
 
-**As a** user  
-**I want** to submit forms and see my data displayed  
+**As a** user
+**I want** to submit forms and see my data displayed
 **So that** I can confirm my submission was successful
 
 **Scenario:** Successful Form Submission
@@ -148,8 +148,8 @@ In this task, you will implement form handling using two different approaches: u
 
 ### Feature 7: Test Coverage (**5 points**)
 
-**As a** developer  
-**I want** to have comprehensive tests for forms and modals  
+**As a** developer
+**I want** to have comprehensive tests for forms and modals
 **So that** I can ensure reliability and catch regressions
 
 **Scenario:** Form and Modal Testing
@@ -201,7 +201,7 @@ In this task, you will implement form handling using two different approaches: u
 
 - **6. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## 📚 FAQ (Frequently Asked Questions)
 

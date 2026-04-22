@@ -5,8 +5,8 @@
 ### Feature 1: State Management Solution (**35 points**)
 
 **As a** developer
-**I want** to use a modern state management solution (such as Redux Toolkit or Zustand) for managing application state,  
-**And** use Context API specifically for theme personalization  
+**I want** to use a modern state management solution (such as Redux Toolkit or Zustand) for managing application state,
+**And** use Context API specifically for theme personalization
 **So that** application state is predictable and scalable, and the application's reliability and maintainability are ensured through at least 80% unit test coverage. Theme personalization must be implemented using Context API (see Feature 5), as it is not part of the state management solution.
 
 **Scenario:** State Store Setup
@@ -23,8 +23,8 @@
 ### Feature 2: Selected Items Management (**25 points**)
 
 **As a** user
-**I want** to select items on the dashboard and have my selections persist across navigation  
-**So that** I can manage and review selected items easily  
+**I want** to select items on the dashboard and have my selections persist across navigation
+**So that** I can manage and review selected items easily
 **And** extend the clicking functionality as follows, while preserving the existing behavior:
 
 - Clicking the checkbox should only select or unselect the item, without opening the details panel.
@@ -147,7 +147,7 @@
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## FAQ (Frequently Asked Questions)
 

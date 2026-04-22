@@ -217,7 +217,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## Suggested Test Scenarios
 
@@ -349,6 +349,6 @@ You don’t need to test main.tsx directly. Focus on components like App.tsx and
 
 ### ❓ Is deployment required for this task?
 
-No, deployment is not mandatory for the unit testing task.  
-That said, deploying your app (e.g., to GitHub Pages, Vercel, or Netlify) is highly recommended — it makes the review process easier and demonstrates good development practice.  
+No, deployment is not mandatory for the unit testing task.
+That said, deploying your app (e.g., to GitHub Pages, Vercel, or Netlify) is highly recommended — it makes the review process easier and demonstrates good development practice.
 If you'd like to deploy, feel free to do so, but it won’t affect your score.
