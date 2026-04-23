@@ -6,8 +6,8 @@ This task is a continuation of the state management task. In this task, you will
 
 ### Feature 1: API Integration (**25 points**)
 
-**As a** developer  
-**I want** to use a modern query library for API calls  
+**As a** developer
+**I want** to use a modern query library for API calls
 **So that** my data fetching is efficient and maintainable
 
 **Scenario:** Query Library Setup
@@ -59,8 +59,8 @@ This task is a continuation of the state management task. In this task, you will
 
 ### Feature 4: Manual Cache Invalidation (**10 points**)
 
-**As a** user  
-**I want** to manually refresh data  
+**As a** user
+**I want** to manually refresh data
 **So that** I can ensure I have the latest information
 
 **Scenario:** Manual Refresh
@@ -134,7 +134,7 @@ This task is a continuation of the state management task. In this task, you will
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 - **6. API Call Migration**
   - Each API call not migrated or not implemented using the chosen query library: **-10 points per each**

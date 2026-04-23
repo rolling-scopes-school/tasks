@@ -259,7 +259,7 @@ Non-successful response.
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **5. Project Management**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 - **6. Technical Requirements**
   - React setup files are located in the `main` branch: **-100 points**

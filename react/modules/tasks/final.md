@@ -54,7 +54,7 @@ Design, prototype, as well as implementation of the application, are up to you.
 ## Functional Requirements (max **550 points**)
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
-[How to evaluate tasks in Cross check](https://rs.school/docs/en/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
+[How to evaluate tasks in Cross check](https://rs.school/docs/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
 
 ### Feature 1: App Header(**60 points**)
 
@@ -374,7 +374,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - **7. Project Management**
   - [ ] Making commits after the deadline **-100 points**
-  - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following) **-10 points**
+  - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr) **-10 points**
   - [ ] ⚠️ The administration reserves the right to apply penalties for the use of incorrect repository or branch names
 
 ## Sequence Diagram: User Journey and Analytics Flow
