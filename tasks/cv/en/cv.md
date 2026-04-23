@@ -85,7 +85,7 @@ EPAM HR Department Recommendations
 ## Commit Requirements:
 
 - The commit history should reflect the development process of the application.
-- [Use commit names according to the guideline](https://rs.school/docs/en/git-convention)
+- [Use commit names according to the guideline [EN]](https://rs.school/docs/git-convention) / [RU](https://rs.school/ru/docs/git-convention)
 
 ## Pull Request Requirements:
 
