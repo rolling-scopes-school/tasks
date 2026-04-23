@@ -118,7 +118,7 @@ EPAM HR Department Recommendations
 
 ## CV. Cross-Check Assignment Review
 
-- Cross-checking instructions: https://rs.school/docs/en/cross-check-flow
+- Cross-checking instructions: https://rs.school/docs/cross-check-flow
 - Cross-check form: https://rolling-scopes-school.github.io/checklist/ (item "CV#3. CV. Cross-Check")
 - Example video of cross-check: https://youtu.be/PPGO8Mvtc20
 - Please add the links to the very best works of your cohort, demonstrating a high level of completion, to this form: https://forms.gle/kcmAkFK4j1EGW5JS8
