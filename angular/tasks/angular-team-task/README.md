@@ -29,14 +29,14 @@
 
 ## 3. Временные рамки
 
-| Период       | Длительность | Описание                          |
-| ------------ | ------------ | --------------------------------- |
-| **Sprint 1** | 1 неделя     | Components                        |
-| **Sprint 2** | 2 недели     | Routing & Signals                 |
-| **Sprint 3** | 2 недели     | Directives, Pipes & Forms         |
-| **Sprint 4** | 2 недели     | HTTP, RxJS & Testing              |
-| **Prep**     | 1 неделя     | Подготовка к презентации          |
-| **Итого**    | **8 недель** |                                   |
+| Период       | Длительность | Описание                  |
+| ------------ | ------------ | ------------------------- |
+| **Sprint 1** | 1 неделя     | Components                |
+| **Sprint 2** | 2 недели     | Routing & Signals         |
+| **Sprint 3** | 2 недели     | Directives, Pipes & Forms |
+| **Sprint 4** | 2 недели     | HTTP, RxJS & Testing      |
+| **Prep**     | 1 неделя     | Подготовка к презентации  |
+| **Итого**    | **8 недель** |                           |
 
 ## 4. Использование AI для написания кода
 
@@ -62,25 +62,25 @@
 
 ### Примеры Feature Components
 
-| Категория    | Пример                   | Описание                                                             |
-| ------------ | ------------------------ | -------------------------------------------------------------------- |
-| UI           | Auth (Login/Register)    | Reactive Forms, валидация, JWT, protected routes                     |
-| UI           | Dashboard                | Экран с графиками, прогрессом, OnPush Change Detection               |
-| UI           | Product Catalog          | Список с фильтрами, пагинацией, поиском                              |
-| UI           | Task Board               | Drag & Drop, CRUD операции, реактивное обновление                    |
-| Forms        | Multi-step Form          | Сложная форма с FormArray, кастомными валидаторами, dynamic controls |
-| Service      | Auth Service             | JWT, refresh tokens, guards, interceptors                            |
-| State        | State Management         | NgRx / Signals-based store для управления состоянием                 |
-| Testing      | Test Suite               | Unit-тесты для компонентов, сервисов и pipes                         |
+| Категория | Пример                | Описание                                                             |
+| --------- | --------------------- | -------------------------------------------------------------------- |
+| UI        | Auth (Login/Register) | Reactive Forms, валидация, JWT, protected routes                     |
+| UI        | Dashboard             | Экран с графиками, прогрессом, OnPush Change Detection               |
+| UI        | Product Catalog       | Список с фильтрами, пагинацией, поиском                              |
+| UI        | Task Board            | Drag & Drop, CRUD операции, реактивное обновление                    |
+| Forms     | Multi-step Form       | Сложная форма с FormArray, кастомными валидаторами, dynamic controls |
+| Service   | Auth Service          | JWT, refresh tokens, guards, interceptors                            |
+| State     | State Management      | NgRx / Signals-based store для управления состоянием                 |
+| Testing   | Test Suite            | Unit-тесты для компонентов, сервисов и pipes                         |
 
 ## 7. 4 спринта — обзор
 
-| Спринт | Длительность | Тема                             | Ключевые модули                                   | Чекпоинт                                                      |
-| ------ | ------------ | -------------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
-| **1**  | 1 неделя     | Components                       | `@angular/core`                                   | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md)              |
-| **2**  | 2 недели     | Routing & Signals                | `@angular/router`, `@angular/core`                | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md)              |
-| **3**  | 2 недели     | Directives, Pipes & Forms        | `@angular/core`, `@angular/forms`                 | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md)              |
-| **4**  | 2 недели     | HTTP, RxJS & Testing             | `@angular/common/http`, `rxjs`, `testing`         | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md)              |
+| Спринт | Длительность | Тема                      | Ключевые модули                           | Чекпоинт                                         |
+| ------ | ------------ | ------------------------- | ----------------------------------------- | ------------------------------------------------ |
+| **1**  | 1 неделя     | Components                | `@angular/core`                           | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md) |
+| **2**  | 2 недели     | Routing & Signals         | `@angular/router`, `@angular/core`        | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md) |
+| **3**  | 2 недели     | Directives, Pipes & Forms | `@angular/core`, `@angular/forms`         | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md) |
+| **4**  | 2 недели     | HTTP, RxJS & Testing      | `@angular/common/http`, `rxjs`, `testing` | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md) |
 
 **Dependency Injection** и **Change Detection** — сквозные темы, которые проверяются в Sprint 2–4 как дополнительные требования в каждом чекпоинте.
 
@@ -111,16 +111,16 @@
 
 За проект выставляется **семь отдельных Score** в RS APP:
 
-| Score                            | Баллы    | Формат                                            | Документ                                                   |
-| -------------------------------- | -------- | ------------------------------------------------- | ---------------------------------------------------------- |
-| **Angular Sprint: Sprint 1**     | 20       | Автоматическая проверка                           | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md)           |
-| **Angular Sprint: Sprint 2**     | 40       | Автоматическая проверка                           | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md)           |
-| **Angular Sprint: Sprint 3**     | 40       | Автоматическая проверка                           | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md)           |
-| **Angular Sprint: Sprint 4**     | 40       | Автоматическая проверка                           | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md)           |
-| **Angular Sprint: Diary**        | 100      | Оценка дневника                                   | [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)             |
-| **Angular Sprint: Teamwork**     | 260      | Командная презентация (~30 мин)                   | [SCORE_TEAM.md](./SCORE_TEAM.md)                           |
-| **Angular Sprint: Personal**     | 400      | Индивидуальная защита (~20 мин)                   | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)                   |
-| **Итого**                        | **900**  |                                                   |                                                            |
+| Score                        | Баллы   | Формат                          | Документ                                         |
+| ---------------------------- | ------- | ------------------------------- | ------------------------------------------------ |
+| **Angular Sprint: Sprint 1** | 20      | Автоматическая проверка         | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md) |
+| **Angular Sprint: Sprint 2** | 40      | Автоматическая проверка         | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md) |
+| **Angular Sprint: Sprint 3** | 40      | Автоматическая проверка         | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md) |
+| **Angular Sprint: Sprint 4** | 40      | Автоматическая проверка         | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md) |
+| **Angular Sprint: Diary**    | 100     | Оценка дневника                 | [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)   |
+| **Angular Sprint: Teamwork** | 260     | Командная презентация (~30 мин) | [SCORE_TEAM.md](./SCORE_TEAM.md)                 |
+| **Angular Sprint: Personal** | 400     | Индивидуальная защита (~20 мин) | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)         |
+| **Итого**                    | **900** |                                 |                                                  |
 
 - **Sprint Checkpoints (S1–S4)** — помогают держать ритм. Проверяются автоматически парсером.
 - **Angular Sprint: Diary** — оценка дневника разработки.
@@ -151,20 +151,20 @@ Angular 20+ (рекомендуется последняя стабильная 
 
 ## Документация
 
-| Файл                                                     | О чём                                                                                   |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [PROJECTS.md](./PROJECTS.md)                             | **Проекты на выбор:** обзор, сравнение, общие требования.                               |
-| [PROJECT_CRYPTO.md](./PROJECT_CRYPTO.md)                 | **CryptoTrade:** Binance Testnet — анализ и торговля криптовалютами.                    |
-| [PROJECT_SHOP.md](./PROJECT_SHOP.md)                     | **ShopFront:** commercetools — интернет-магазин с каталогом и корзиной.                 |
-| [PROJECT_MUSIC.md](./PROJECT_MUSIC.md)                   | **MusicFlow:** Jamendo API — музыкальный стриминговый сервис.                           |
-| [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md)         | **Sprint 1:** Старт проекта, Angular CLI, первые компоненты (20 pts).                   |
-| [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md)         | **Sprint 2:** Routing & Signals (40 pts).                                               |
-| [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md)         | **Sprint 3:** Directives, Pipes & Forms (40 pts).                                       |
-| [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md)         | **Sprint 4:** HTTP, RxJS & Testing (40 pts).                                            |
-| [PRESENTATION.md](./PRESENTATION.md)                     | **Презентация:** командная часть (~30 мин) + соло-часть (~20 мин на студента, 50 pts).  |
-| [SCORE_TEAM.md](./SCORE_TEAM.md)                         | **Командная оценка:** PM, Git Culture, Product Integrity (260 pts).                     |
-| [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)                 | **Личная оценка:** Diary + Features + Solo Presentation (400 pts).                      |
-| [CODE_STANDARDS.md](./CODE_STANDARDS.md)                 | **Технические требования:** TypeScript strict, Angular CLI, linting, deploy.            |
-| [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)           | **Дневник:** Правила ведения + требование 2 личных компонента.                          |
+| Файл                                             | О чём                                                                                  |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| [PROJECTS.md](./PROJECTS.md)                     | **Проекты на выбор:** обзор, сравнение, общие требования.                              |
+| [PROJECT_CRYPTO.md](./PROJECT_CRYPTO.md)         | **CryptoTrade:** Binance Testnet — анализ и торговля криптовалютами.                   |
+| [PROJECT_SHOP.md](./PROJECT_SHOP.md)             | **ShopFront:** commercetools — интернет-магазин с каталогом и корзиной.                |
+| [PROJECT_MUSIC.md](./PROJECT_MUSIC.md)           | **MusicFlow:** Jamendo API — музыкальный стриминговый сервис.                          |
+| [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md) | **Sprint 1:** Старт проекта, Angular CLI, первые компоненты (20 pts).                  |
+| [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md) | **Sprint 2:** Routing & Signals (40 pts).                                              |
+| [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md) | **Sprint 3:** Directives, Pipes & Forms (40 pts).                                      |
+| [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md) | **Sprint 4:** HTTP, RxJS & Testing (40 pts).                                           |
+| [PRESENTATION.md](./PRESENTATION.md)             | **Презентация:** командная часть (~30 мин) + соло-часть (~20 мин на студента, 50 pts). |
+| [SCORE_TEAM.md](./SCORE_TEAM.md)                 | **Командная оценка:** PM, Git Culture, Product Integrity (260 pts).                    |
+| [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)         | **Личная оценка:** Diary + Features + Solo Presentation (400 pts).                     |
+| [CODE_STANDARDS.md](./CODE_STANDARDS.md)         | **Технические требования:** TypeScript strict, Angular CLI, linting, deploy.           |
+| [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)   | **Дневник:** Правила ведения + требование 2 личных компонента.                         |
 
 ---
