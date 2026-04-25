@@ -34,9 +34,9 @@
 - **5+ страниц** с lazy loading и guards
 - **Signals** для ключевого состояния приложения
 - **Reactive Forms** с валидацией (встроенной и кастомной)
-- **Custom directive** и **custom pipe**
+- **Custom directives** и **custom pipes**
 - **DI:** `InjectionToken` для конфигурации, сервисы с `@Injectable()`
-- **Change Detection:** минимум 3 компонента с `OnPush`
+- **Change Detection:** `provideZoneChangeDetection()` в конфигурации приложения
 - **HTTP:** подключение к реальному API через `HttpClient`
 - **Interceptors:** авторизация + обработка ошибок
 - **RxJS:** `debounceTime`, `switchMap`, `takeUntilDestroyed` и др.
