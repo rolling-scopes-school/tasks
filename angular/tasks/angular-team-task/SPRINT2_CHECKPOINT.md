@@ -41,7 +41,7 @@ Routing невозможен без сервисов. В этом спринте
 3. **Хотя бы 1 Route Guard реализован** — `canActivate` или `canDeactivate`. Функциональный или class-based.
 4. **Signals используются минимум в 2 компонентах** — `signal()` и `computed()` или `effect()`. Замержены в `main`.
 5. **Минимум 2 сервиса с `@Injectable()`** — инжектируются через `inject()`. Замержены в `main`.
-6. **Минимум 2 записи в дневнике за Sprint 2** — замержены в `main`.
+6. **Минимум 1 запись в дневнике за Sprint 2** — замержены в `main`.
 
 ---
 
@@ -87,6 +87,22 @@ Routing невозможен без сервисов. В этом спринте
 - Когда использовать `model()`
 - Чем signal-based API отличается от `@Input()` / `@Output()`
 - Как signals связаны с Change Detection
+
+### Attribute-директивы
+
+- Что такое attribute directive и чем она отличается от structural
+- Как создать `@Directive()` standalone
+- Что такое `@HostListener`
+- Что такое `@HostBinding`
+- Что такое `ElementRef`
+- Signal-based inputs в директивах через `input()`
+
+### Pipes
+
+- Что такое `@Pipe()` и как реализовать `PipeTransform`
+- Разница между pure и impure pipe
+- Встроенные pipes: `DatePipe`, `CurrencyPipe`, `AsyncPipe`, `JsonPipe`
+- Когда создавать кастомный pipe вместо метода компонента
 
 ### Dependency Injection — основы
 
