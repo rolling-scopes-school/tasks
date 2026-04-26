@@ -161,7 +161,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #9 (22nd of June 2026)
 
-- [REST client](modules/tasks/final.md)
+- [Swagger UI](modules/tasks/final.md)
 
 #### Practical tasks
 
@@ -170,12 +170,12 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #10 (29th of June 2026)
 
-- [REST client](modules/tasks/final.md)
+- [Swagger UI](modules/tasks/final.md)
 
 ### Week #11 (6th of July 2026)
 
 - [Technical React Interview](interview.md)
-- [REST client](modules/tasks/final.md)
+- [Swagger UI](modules/tasks/final.md)
 
 ### Week #12 (13th of July 2026)
 
@@ -183,8 +183,8 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-- Cross-check review: [REST client](modules/tasks/final.md)
-- Mentor review: [REST client](modules/tasks/final.md)
+- Cross-check review: [Swagger UI](modules/tasks/final.md)
+- Mentor review: [Swagger UI](modules/tasks/final.md)
 
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
