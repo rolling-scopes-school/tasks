@@ -19,7 +19,7 @@ In this task, you will optimize a intentionally unoptimized React application th
 - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 
-## Performance Optimization Workflow
+## Performance Optimization Workflow (max 100 points)
 
 For detailed step-by-step instructions on how to profile the application, see the [Profiling Workflow Guide](./profiling-workflow-guide.md).
 
