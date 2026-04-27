@@ -133,7 +133,7 @@
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
   - ESLint or similar static analysis violations (errors, not warnings): **-5 points per violation**
 
-- **2. Test Coverage**
+- **2. Test Coverage (one which applies)**
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**

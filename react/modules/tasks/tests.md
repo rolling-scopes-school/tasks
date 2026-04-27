@@ -110,6 +110,22 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ### Feature 6: User Interactions (**14 points**)
 
+**As a** developer
+**I want** to test all user interactions
+**So that** my components respond correctly
+
+**Scenario:** Test interactions
+
+- **Given** a component with user input
+- **When** the user interacts (clicks, submits, changes input)
+- **Then** the interaction is tested
+
+**Acceptance Criteria:**
+
+- All user interactions (clicks, input changes, form submissions, etc.) are covered by tests.
+- Tests verify that components respond correctly to user actions (e.g., updating state, calling callbacks, rendering changes).
+- Edge cases and invalid inputs are tested to ensure robust handling of user interactions.
+
 ### Feature 7: LocalStorage Functionality Testing (**16 points**)
 
 **As a** developer
@@ -128,22 +144,6 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 - Tests verify that the component writes the correct value to localStorage after user actions (e.g., search).
 - Tests cover cases where localStorage is empty, contains a value, or is updated.
 - Tests ensure that localStorage integration does not break component behavior.
-
-**As a** developer
-**I want** to test all user interactions
-**So that** my components respond correctly
-
-**Scenario:** Test interactions
-
-- **Given** a component with user input
-- **When** the user interacts (clicks, submits, changes input)
-- **Then** the interaction is tested
-
-**Acceptance Criteria:**
-
-- All user interactions (clicks, input changes, form submissions, etc.) are covered by tests.
-- Tests verify that components respond correctly to user actions (e.g., updating state, calling callbacks, rendering changes).
-- Edge cases and invalid inputs are tested to ensure robust handling of user interactions.
 
 ## Technical Requirements
 
@@ -188,7 +188,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 
 ### Penalties
 
-- **Absence of required features from the previous task (`class-components`) results in a penalty equal to the original feature's points:**
+- **1. Absence of required features from the previous task (`class-components`) results in a penalty equal to the original feature's points:**
   - Application Layout Structure: **-5 points**
   - Search Functionality with Local Storage: **-15 points**
   - Search Results Display: **-10 points**
@@ -198,24 +198,25 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
   - Loading State Indication: **-10 points**
   - Error Handling: **-10 points**
   - Application Error Boundary: **-15 points**
-- **1. TypeScript & Code Quality**
+
+- **2. TypeScript & Code Quality**
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
-- **2. Test Coverage**
+- **3. Test Coverage (one which applies)**
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
-- **3. React Best Practices**
+- **4. React Best Practices**
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
-- **4. External Dependencies**
+- **5. External Dependencies**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
-- **5. Project Management**
+- **6. Project Management**
   - Commits after the deadline: **-40 points**
   - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 

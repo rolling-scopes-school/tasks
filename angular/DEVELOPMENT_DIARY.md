@@ -5,9 +5,9 @@ The diary is a **mandatory** artefact of this course.
 > "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
 > — Aristotle
 
-This course gives you a lot of freedom in *what* to do and *how*. To make sense of your individual progress, we ask you to keep a development diary. In real-world projects you might encounter this as a formal Architecture Design Log; in our case it'll be something simpler and less formal.
+This course gives you a lot of freedom in _what_ to do and _how_. To make sense of your individual progress, we ask you to keep a development diary. In real-world projects you might encounter this as a formal Architecture Design Log; in our case it'll be something simpler and less formal.
 
-A diary is a powerful way to think *again* about what you're doing — to put the essence of your work into words, even if only for an MD file :) It's another chance to revisit, "digest", and reflect.
+A diary is a powerful way to think _again_ about what you're doing — to put the essence of your work into words, even if only for an MD file :) It's another chance to revisit, "digest", and reflect.
 
 In your development diary I ask you to record your progress, problems you ran into, decisions you made, and anything else you find worth noting. You can emulate a "stand-up" ceremony from Scrum (What did you do yesterday/today? Problems? Blockers?).
 
@@ -72,7 +72,6 @@ After that, clone it locally and work with it like a regular GitHub repo.
 6. **Honesty (No Backdating):** an entry must be committed on the same day or the next.
 7. **The `main` branch:** diary entries must be merged into **`main`** by the time of the check. The parser only looks at `main` — entries on feature branches are ignored. If you have branch protection set up, open a PR with the entry and merge it — that takes 30 seconds.
 8. **Don't use Squash Merge for diaries.** Squash erases the original commit dates, and we need real Git history to verify regularity. Recommended flow: branch → commit entries on the right days → PR → merge with a regular **Merge commit** or **Rebase**. If your team uses squash for code — fine, just make an exception when merging diary files.
-
    - _Forbidden:_ writing 10 entries on Sunday evening and committing them in a batch. We check Git history.
    - If you don't have time to write a full entry on the day, commit the bullet points and flesh out the rest later in the week.
 
@@ -176,19 +175,19 @@ If, for any reason, you didn't keep the diary for one or two weeks, you have to 
 
 ### Threshold for being allowed to defend the final project (pass / fail)
 
-| Requirement                                                                                                                                  | Status    |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| The development diary exists, is filled in regularly, entries are committed on time                                                          | must pass |
-| **The diary describes how you learned Angular's core topics — in your own words** (or these topics are captured on video — see Plan B)       | must pass |
+| Requirement                                                                                                                            | Status    |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| The development diary exists, is filled in regularly, entries are committed on time                                                    | must pass |
+| **The diary describes how you learned Angular's core topics — in your own words** (or these topics are captured on video — see Plan B) | must pass |
 
 ### Quality criteria (0–100 points)
 
-| Points  | Level         | Description                                                                                                |
-| ------- | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| **20**  | Formal        | Brief entries without detail ("did X")                                                                     |
-| **60**  | Regular       | At least 2 entries/week, visible progress, learning of several core topics is described                    |
-| **80**  | Detailed      | Problems and solutions are described; the line of thinking is clear                                        |
-| **100** | Reflective    | Deep reflection, comparison of implementation options — clear that it wasn't written for the checkbox      |
+| Points  | Level      | Description                                                                                           |
+| ------- | ---------- | ----------------------------------------------------------------------------------------------------- |
+| **20**  | Formal     | Brief entries without detail ("did X")                                                                |
+| **60**  | Regular    | At least 2 entries/week, visible progress, learning of several core topics is described               |
+| **80**  | Detailed   | Problems and solutions are described; the line of thinking is clear                                   |
+| **100** | Reflective | Deep reflection, comparison of implementation options — clear that it wasn't written for the checkbox |
 
 ---
 
