@@ -31,8 +31,8 @@
         You can execute the following command to add missing plugins:
 
       ```sh
-      npm remove eslint-plugin-react-hooks
-      npm install -D eslint-plugin-react-x prettier eslint-config-prettier
+      npm i -D @eslint/js@9 eslint@9 eslint-plugin-react
+      npm install -D prettier eslint-config-prettier
       ```
 
       Now, add a new file `.prettierrc` to the root of the project:
@@ -51,10 +51,11 @@
       ```js
       import js from "@eslint/js";
       import globals from "globals";
+      import reactHooks from "eslint-plugin-react-hooks";
       import reactRefresh from "eslint-plugin-react-refresh";
-      import reactX from "eslint-plugin-react-x";
-      import tseslint from "typescript-eslint";
+      import reactPlugin from "eslint-plugin-react";
       import eslintConfigPrettier from "eslint-config-prettier/flat";
+      import tseslint from "typescript-eslint";
       import { defineConfig, globalIgnores } from "eslint/config";
 
       export default defineConfig([
@@ -64,8 +65,10 @@
           extends: [
             js.configs.recommended,
             tseslint.configs.recommended,
+            reactHooks.configs.flat.recommended,
             reactRefresh.configs.vite,
-            reactX.configs.recommended,
+            reactPlugin.configs.flat.recommended,
+            reactPlugin.configs.flat["jsx-runtime"],
             eslintConfigPrettier,
           ],
           languageOptions: {
