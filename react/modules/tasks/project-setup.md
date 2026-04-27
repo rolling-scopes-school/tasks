@@ -25,14 +25,14 @@
 
 3. Code Quality Tools
    1. ESLint
-      - ESlint v.9 is already a part of the _react-ts_ setup.
+      - ESlint is already a part of the _react-ts_ setup.
    2. Prettier
       - Integrate Prettier for code formatting.
         You can execute the following command to add missing plugins:
 
       ```sh
-      npm install -D eslint-plugin-react eslint-plugin-prettier eslint-config-prettier eslint-plugin-react-compiler@beta
-      npm install -D --save-exact prettier
+      npm remove eslint-plugin-react-hooks
+      npm install -D eslint-plugin-react-x prettier eslint-config-prettier
       ```
 
       Now, add a new file `.prettierrc` to the root of the project:
@@ -51,49 +51,28 @@
       ```js
       import js from "@eslint/js";
       import globals from "globals";
-      import reactHooks from "eslint-plugin-react-hooks";
       import reactRefresh from "eslint-plugin-react-refresh";
-      import react from "eslint-plugin-react";
+      import reactX from "eslint-plugin-react-x";
       import tseslint from "typescript-eslint";
-      import eslintPluginPrettier from "eslint-plugin-prettier/recommended";
-      import reactCompiler from "eslint-plugin-react-compiler";
+      import eslintConfigPrettier from "eslint-config-prettier/flat";
+      import { defineConfig, globalIgnores } from "eslint/config";
 
-      export default tseslint.config(
-        { ignores: ["dist"] },
+      export default defineConfig([
+        globalIgnores(["dist"]),
         {
+          files: ["**/*.{ts,tsx}"],
           extends: [
             js.configs.recommended,
-            ...tseslint.configs.strict,
-            eslintPluginPrettier,
+            tseslint.configs.recommended,
+            reactRefresh.configs.vite,
+            reactX.configs.recommended,
+            eslintConfigPrettier,
           ],
-          files: ["**/*.{ts,tsx}"],
           languageOptions: {
-            ecmaVersion: 2020,
             globals: globals.browser,
           },
-          plugins: {
-            react,
-            "react-hooks": reactHooks,
-            "react-refresh": reactRefresh,
-            "react-compiler": reactCompiler,
-          },
-          rules: {
-            ...reactHooks.configs.recommended.rules,
-            "react-refresh/only-export-components": [
-              "warn",
-              { allowConstantExport: true },
-            ],
-            "react-compiler/react-compiler": "error",
-            ...react.configs.recommended.rules,
-            ...react.configs["jsx-runtime"].rules,
-          },
-          settings: {
-            react: {
-              version: "detect",
-            },
-          },
         },
-      );
+      ]);
       ```
 
    3. Husky
