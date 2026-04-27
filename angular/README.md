@@ -41,7 +41,7 @@ If any of these feel unfamiliar, we recommend reviewing them before the course s
 
 ## Learning Materials
 
-All topic-specific resources are collected here: [Angular Learning Resources](modules/ANGULAR-RESOURCES.md)
+All topic-specific resources are collected here: [Angular Learning Resources](./ANGULAR-RESOURCES.md)
 
 ---
 
