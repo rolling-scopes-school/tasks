@@ -25,8 +25,8 @@ For detailed step-by-step instructions on how to profile the application, see th
 
 ### Phase 1: Initial Profiling (Baseline) (**15 points**)
 
-**As a** developer  
-**I want** to profile the unoptimized application  
+**As a** developer
+**I want** to profile the unoptimized application
 **So that** I can identify performance bottlenecks
 
 **Scenario:** Measure Initial Performance
@@ -51,8 +51,8 @@ For detailed step-by-step instructions on how to profile the application, see th
 
 ### Phase 2: Apply Optimizations (**70 points**)
 
-**As a** developer  
-**I want** to apply React performance optimizations  
+**As a** developer
+**I want** to apply React performance optimizations
 **So that** the application renders more efficiently
 
 **Scenario:** Implement Performance Optimizations
@@ -74,8 +74,8 @@ For detailed step-by-step instructions on how to profile the application, see th
 
 ### Phase 3: Final Profiling (Comparison) (**15 points**)
 
-**As a** developer  
-**I want** to compare performance before and after optimization  
+**As a** developer
+**I want** to compare performance before and after optimization
 **So that** I can verify the improvements
 
 **Scenario:** Measure Optimized Performance
@@ -110,7 +110,7 @@ Create a new branch for this task. Branch name: **"performance"**
 ### 2. Project Management
 
 - Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ---
 

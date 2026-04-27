@@ -14,8 +14,8 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 ### Feature 1: Application Rebuild in Next.js with Preserved Behavior (**10 points**)
 
-**As a** developer  
-**I want** to rebuild the application using a fresh Next.js App Router setup  
+**As a** developer
+**I want** to rebuild the application using a fresh Next.js App Router setup
 **So that** all existing functionality and behavior are preserved while fully adopting the Next.js architecture
 
 **Scenario:** Rebuild with Behavioral Parity
@@ -187,7 +187,7 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 - **4. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## FAQ (Frequently Asked Questions)
 

@@ -1,107 +1,99 @@
-# RS School. Angular course
+# RS School. Angular Course
 
-This course is designed for individuals with a solid foundation in JavaScript, TypeScript, and front-end development. Familiarity with RS School processes and RS Stage #2 certification is a plus.
+This course is designed for developers who already have solid experience with JavaScript, TypeScript, and web development in general. You should feel confident building things in the browser, understand how the DOM works, be familiar with async patterns, and know your way around TypeScript.
 
-The course lasts 11 weeks, requiring approximately 20-40 hours of study per week.
+The course lasts **12 weeks** and requires approximately **20–40 hours of study per week**.
 
-All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool). Theoretical materials are provided as recorded lectures from previous courses.
+All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool).
 
-### Topics Covered:
+---
 
-- TypeScript
-- Components, Standalone Components
-- Signals
-- Directives & Pipes
-- Modules, Services, Dependency Injection
-- Routing
+## Prerequisites
+
+Before starting the course, you must have a good understanding of:
+
+- **JavaScript** — closures, prototypes, async/await, Promises, event loop
+- **TypeScript** — types, interfaces, generics, decorators
+- **HTML & CSS** — semantic markup, flexbox/grid, responsive design
+- **Web fundamentals** — HTTP, REST API, browser storage, DOM API
+- **Git & GitHub** — branching, pull requests, merge/rebase
+- **NPM** — installing packages, scripts, basic project setup
+
+If any of these feel unfamiliar, we recommend reviewing them before the course starts.
+
+---
+
+## Topics Covered
+
+- Angular CLI & project structure
+- Components & Standalone Components
+- Angular Signals (`signal`, `computed`, `effect`, `input`, `output`)
+- Directives & Pipes (built-in and custom)
+- Services & Dependency Injection
+- Routing & Navigation
 - RxJS & Observables
-- HTTP
-- Forms
+- HTTP Client
+- Reactive Forms & Template-driven Forms
 - Redux & NgRx
-- Unit Testing
+- Unit Testing (Jest)
 
-### Prerequisites:
+---
 
-Before starting the course, you should have knowledge of:
+## Learning Materials
 
-- JavaScript, TypeScript Basics, CSS3, HTML5, NPM
-- Git & GitHub (clone, add, commit, push, pull, merge, rebase, work with Pull Requests)
-- Chrome DevTools
-- Figma
-- REST API concepts
+All topic-specific resources are collected here: [Angular Learning Resources](modules/ANGULAR-RESOURCES.md)
 
-### Certification:
+---
 
-To earn a course certificate, you must complete all assignments, finish the final project, pass all tests and achieve at least 70% of the top student's score in the course. The certificate is a recognition of your hard work and dedication.
+## What You Will Be Able to Do After the Course
 
-### For Mentors:
+After successfully completing the course, you will be able to confidently apply for and work as an **Angular Junior Frontend Developer**. You will have hands-on experience building a real Angular application as part of a team, a solid understanding of the Angular ecosystem, and the practical skills to continue growing in the role.
 
-- [Mentoring Documentation for Angular Course](./mentoring/README.md)
+---
 
-### Communication:
+## Certification
+
+After successfully completing the team task and passing the Angular interview, you will receive a **certificate of course completion**.
+
+---
+
+## Course Roadmap
+
+### Day 1 (27.04.2026) — Angular Intro
+
+- Course kickoff — overview of the program, prerequisites, and tools
+
+### Week 1 (28.04.2026 – 04.05.2026) — Angular Intro Task
+
+- [Angular Intro Task](tasks/angular-intro-task/README.md)
+
+> Complete the intro task to be eligible to apply for a mentor.
+
+### Week 2 (05.05.2026 – 11.05.2026) — Find a Mentor & Team
+
+- [Find a Mentor](tasks/find-mentor/README.md)
+
+> Use this week to find a mentor and form a team for the team task.
+
+### Weeks 3–9 — Team Task
+
+- [Angular Team Task](tasks/angular-team-task/README.md)
+
+### Week 10 — Presentation
+
+- Present your team project to mentors and peers.
+
+### Weeks 11–12 — Angular Interview Preparation & Interview
+
+- [Angular Interview Questions](modules/interview/questions-ENG.md)
+
+> After successfully completing the team task and passing the Angular interview, you will receive a **certificate of course completion**.
+
+## Communication
 
 **Where can I ask questions and communicate with others?**
 You can ask questions and interact with others in our course Discord channel: [Discord](https://discord.gg/PBYW4ZvKSE)
 
-# Course roadmap
+## For Mentors
 
-### Week #1 (July 1, 2024)
-
-- [Module "Angular intro. TypeScript"](modules/intro/README-ENG.md)
-- [Module "Angular. Components. Standalone Components"](modules/components/README-ENG.md)
-- [Module "Angular. Directives & Pipes"](modules/directives-and-pipes/README-ENG.md)
-- Test: Angular CLI, TypeScript.
-- Test: Components. Standalone Components.
-- Test: Pipes, Directives.
-
-### Week #2 (July 6, 2024)
-
-- [Task review "Angular intro"](../tasks/angular/intro.md)
-- [Module: "Angular. Modules & Services, Dependency injection"](modules/modules-and-services/README-ENG.md)
-- [Module: "Angular. Routing"](modules/routing/README-ENG.md)
-- Test: Modules, Services.
-- Test: Routing.
-
-### Week #3 (July 15, 2024)
-
-- [Task review "Angular. Components, Directives, Pipes"](../tasks/angular/components-directives-pipes.md)
-- [Module "RxJS & Observables"](modules/rxjs/README-ENG.md)
-- [Module "Angular. HTTP"](modules/http/README-ENG.md)
-- [Module "Angular. Forms"](modules/forms/README-ENG.md)
-- Test: RxJS & Observables.
-- Test: HTTP.
-- Test: Forms.
-
-### Week #4 (July 22, 2024)
-
-- [Task review "Angular. Modules, Services, Routing"](../tasks/angular/modules-services-routing.md)
-- [Module: "Angular. Redux & NgRx"](modules/redux/README-ENG.md)
-- Test: Redux & NgRx.
-
-### Week #5 (July 29, 2024)
-
-- [Task review "Angular. RxJS & HTTPClient"](../tasks/angular/rxjs-observables-http.md)
-- [Task review "Angular. Forms"](../tasks/angular/forms.md)
-- [Module: "Signals"](modules/signals/README-ENG.md)
-
-### Week #6 (August 5, 2024)
-
-- [Task review "Angular. NgRx"](../tasks/angular/NgRX.md)
-- [Module: "Angular. Unit test. Jasmin. Jest."](modules/unit-test/README-ENG.md)
-- Test: Unit tests.
-
-### Week #7-9 (August 12, 2024 - August 19, 2024)
-
-- [Task review "Angular. Unit testing with Jest"](../tasks/angular/unit-testing-jest.md)
-- Final task
-
-### Week #10 (August 26, 2024)
-
-- Review the Final task
-- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
-
-### Week #11
-
-- [Presentation](modules/peresentation/README-ENG.md)
-
-- [Interview](modules/interview/README.md)
+- [Mentoring Documentation for Angular Course](./mentoring/README.md)
