@@ -117,10 +117,9 @@
 | **Angular Sprint: Sprint 2** | 40      | Автоматическая проверка         | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md) |
 | **Angular Sprint: Sprint 3** | 40      | Автоматическая проверка         | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md) |
 | **Angular Sprint: Sprint 4** | 40      | Автоматическая проверка         | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md) |
-| **Angular Sprint: Diary**    | 100     | Оценка дневника                 | [DEVELOPMENT_DIARY.md](./DEVELOPMENT_DIARY.md)   |
 | **Angular Sprint: Teamwork** | 260     | Командная презентация (~30 мин) | [SCORE_TEAM.md](./SCORE_TEAM.md)                 |
 | **Angular Sprint: Personal** | 400     | Индивидуальная защита (~20 мин) | [SCORE_PERSONAL.md](./SCORE_PERSONAL.md)         |
-| **Итого**                    | **900** |                                 |                                                  |
+| **Итого**                    | **800** |                                 |                                                  |
 
 - **Sprint Checkpoints (S1–S4)** — помогают держать ритм. Проверяются автоматически парсером.
 - **Angular Sprint: Teamwork** — одинаковая для всей команды. Оценивается жюри на презентации.
