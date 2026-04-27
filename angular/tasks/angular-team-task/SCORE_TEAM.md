@@ -1,77 +1,77 @@
-# Angular Sprint: Teamwork (260 баллов)
+# Angular Sprint: Teamwork (260 points)
 
-Командная оценка — одинаковая для всех участников команды. Оценивается жюри на [командной защите](./PRESENTATION.md).
+Team score — the same for all team members. Evaluated by the jury at the [team presentation](./PRESENTATION.md).
 
-## 1. Project Management & Communication (80 баллов)
+## 1. Project Management & Communication (80 points)
 
-> **Важно:** Ведение доски, создание Issues и документирование встреч — **ответственность всей команды**, а не одного человека.
+> **Important:** Maintaining the board, creating Issues, and documenting meetings is the **responsibility of the entire team**, not just one person.
 
-### Active Board — 30 баллов
+### Active Board — 30 points
 
-**Использование Kanban/Scrum доски** (GitHub Projects, Trello, Jira).
+**Using a Kanban/Scrum board** (GitHub Projects, Trello, Jira).
 
-- ✅ Доска живая: задачи двигаются, не созданы в один день перед сдачей.
-- ✅ История изменений охватывает все 4 спринта.
+- ✅ The board is alive: tasks move, not created in one day before the deadline.
+- ✅ Change history covers all 4 sprints.
 
-### Task Decomposition — 25 баллов
+### Task Decomposition — 25 points
 
-**Работа с Issues.**
+**Working with Issues.**
 
-- ✅ Скоуп проекта декомпозирован на тикеты.
-- ✅ У каждого Issue есть описание, Assignee и Label.
-- ✅ Есть минимум 3 тикета на каждого участника.
+- ✅ The project scope is decomposed into tickets.
+- ✅ Each Issue has a description, Assignee, and Label.
+- ✅ There are at least 3 tickets per team member.
 
-### Sync Culture — 25 баллов
+### Sync Culture — 25 points
 
-**Регулярные синки.**
+**Regular syncs.**
 
-- ✅ Минимум 3 задокументированных Meeting Notes с итогами и решениями.
-- ✅ Ссылки на записи указаны в `README.md`.
+- ✅ At least 3 documented Meeting Notes with outcomes and decisions.
+- ✅ Links to the notes are listed in `README.md`.
 
-## 2. Git Culture & Code Review (80 баллов)
+## 2. Git Culture & Code Review (80 points)
 
-### PR Quality & Flow — 25 баллов
+### PR Quality & Flow — 25 points
 
-**Качество Pull Requests.**
+**Pull Request quality.**
 
-- ✅ Включен Branch protection (нет пушей в `main`).
-- ✅ PR имеет описание (суть изменений, скриншоты UI, ссылка на Issue).
-- ✅ Семантический нейминг веток (`feat/auth`, `fix/api`).
+- ✅ Branch protection is enabled (no direct pushes to `main`).
+- ✅ PRs have a description (summary of changes, UI screenshots, link to Issue).
+- ✅ Semantic branch naming (`feat/auth`, `fix/api`).
 
-### Code Review — 30 баллов
+### Code Review — 30 points
 
-**Глубина ревью.**
+**Review depth.**
 
-- ✅ Каждый участник провел ревью минимум 3-х чужих PR.
-- ✅ Комментарии содержательны (архитектура, оптимизация, баги), а не формальные отписки.
+- ✅ Each team member reviewed at least 3 other PRs.
+- ✅ Comments are substantive (architecture, optimization, bugs), not rubber-stamp approvals.
 
-### History Hygiene — 25 баллов
+### History Hygiene — 25 points
 
-**Чистота истории.**
+**Clean history.**
 
 - ✅ Conventional Commits (`feat:`, `fix:`, `chore:`).
-- ✅ Нет мусора (`.DS_Store`, `node_modules`) и закомментированного кода.
+- ✅ No junk files (`.DS_Store`, `node_modules`) and no commented-out code.
 
-## 3. Product Integrity & Delivery (100 баллов)
+## 3. Product Integrity & Delivery (100 points)
 
-### Launchpad — 30 баллов
+### Launchpad — 30 points
 
-**Легкость запуска.**
+**Ease of launch.**
 
-- ✅ `README.md` содержит инструкцию для локального старта.
-- ✅ Проект запускается стандартными командами (`npm i && ng serve` / `npm start`).
+- ✅ `README.md` contains instructions for local setup.
+- ✅ The project runs with standard commands (`npm i && ng serve` / `npm start`).
 
-### Consistency — 40 баллов
+### Consistency — 40 points
 
-**Целостность UX/UI.**
+**UX/UI integrity.**
 
-- ✅ Единый стиль (шрифты, отступы, UI-кит) во всем приложении.
-- ✅ Единая логика UX (обработка ошибок, лоадеры, навигация).
+- ✅ Consistent style (fonts, spacing, UI kit) throughout the application.
+- ✅ Consistent UX logic (error handling, loaders, navigation).
 
-### Deployment — 30 баллов
+### Deployment — 30 points
 
 **Deployment.**
 
-- ✅ Frontend задеплоен (Vercel, Netlify, Firebase Hosting, GitHub Pages).
-- ✅ Ссылка на деплой есть в `README`.
-- ✅ Настроен CI/CD (авто-деплой).
+- ✅ Frontend is deployed (Vercel, Netlify, Firebase Hosting, GitHub Pages).
+- ✅ Deploy link is in the `README`.
+- ✅ CI/CD is configured (auto-deploy).

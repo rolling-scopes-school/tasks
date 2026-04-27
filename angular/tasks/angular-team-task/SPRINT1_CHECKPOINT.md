@@ -1,87 +1,87 @@
 # Angular Sprint: Sprint 1 Checkpoint
 
-**Тема: Project Setup & Component Basics (`@angular/core`)**
+**Topic: Project Setup & Component Basics (`@angular/core`)**
 
-## Зачем этот спринт
+## Why This Sprint
 
-Первый спринт — фундамент всего проекта. Команда должна собраться, создать репозиторий, инициализировать Angular-проект через CLI и написать первые компоненты. Без этого шага двигаться дальше невозможно.
+The first sprint is the foundation of the entire project. The team must come together, create a repository, initialize an Angular project via CLI, and write the first components. Without this step, moving forward is impossible.
 
-**Ключевые концепции спринта:**
+**Key concepts of this sprint:**
 
 - Angular CLI (`ng new`, `ng generate`)
 - Standalone components
-- Декоратор `@Component` — `selector`, `template`, `styles`
-- Интерполяция `{{ }}`, property binding `[prop]`, event binding `(event)`
-- `input()` и `output()` — взаимодействие между компонентами
-- Lifecycle hooks: `ngOnInit`, `ngOnDestroy` и другие
+- `@Component` decorator — `selector`, `template`, `styles`
+- Interpolation `{{ }}`, property binding `[prop]`, event binding `(event)`
+- `input()` and `output()` — component communication
+- Lifecycle hooks: `ngOnInit`, `ngOnDestroy`, and others
 
 ---
 
-## Условия получения (20 баллов)
+## Requirements (20 points)
 
-Все условия выполнены → 20 баллов, любое не выполнено → 0.
+All requirements met → 20 points, any requirement not met → 0.
 
-### Командные (выполняются один раз на команду)
+### Team (done once per team)
 
-1. **Репозиторий создан на GitHub** — публичный, с осмысленным названием проекта.
-2. **Доступ расшарен на аккаунт курса** — добавить [rollingscopes](https://github.com/rollingscopes) как collaborator с правами Read.
-3. **README.md заполнен** — название проекта, краткое описание (2-3 предложения), состав команды (имя + ссылка на GitHub каждого участника).
-4. **Проект инициализирован через Angular CLI** — `ng new` с TypeScript strict mode. В репозитории есть `angular.json`, `tsconfig.json` с `"strict": true`.
+1. **Repository created on GitHub** — public, with a meaningful project name.
+2. **Access shared with the course account** — add [rollingscopes](https://github.com/rollingscopes) as a collaborator with Read access.
+3. **README.md filled in** — project name, short description (2–3 sentences), team members (name + GitHub link for each).
+4. **Project initialized via Angular CLI** — `ng new` with TypeScript strict mode. The repository contains `angular.json`, `tsconfig.json` with `"strict": true`.
 
-### Личные (каждый участник выполняет сам)
+### Individual (each member completes on their own)
 
-1. **Минимум 1 кастомный компонент создан** — не `AppComponent`. Компонент использует `@Input()` или `@Output()`. Замержен в `main`.
-2. **Минимум 1 запись в дневнике** — замержена в `main` до дедлайна. Расположение: `/development-notes/{github-username}/`.
-3. **Запись содержит итоги и план** — (а) чем занимался на этом спринте; (б) что планируешь делать на Sprint 2.
+1. **At least 1 custom component created** — not `AppComponent`. The component uses `@Input()` or `@Output()`. Merged into `main`.
+2. **At least 1 diary entry** — merged into `main` before the deadline. Location: `/development-notes/{github-username}/`.
+3. **Entry contains summary and plan** — (a) what you worked on this sprint; (b) what you plan to do in Sprint 2.
 
 ---
 
-## Что изучить
+## What to Study
 
 ### Angular CLI
 
-- Создание проекта через `ng new`
-- Генерация компонентов через `ng generate component`
-- Базовая структура Angular-проекта: `src`, `main.ts`, `app.config.ts`, `angular.json`
+- Creating a project with `ng new`
+- Generating components with `ng generate component`
+- Basic Angular project structure: `src`, `main.ts`, `app.config.ts`, `angular.json`
 
 ### Standalone Component
 
-- Что такое standalone component
-- Настройка `selector`, `template`, `styles`
-- Базовые способы связывания данных: interpolation, property binding, event binding
+- What a standalone component is
+- Configuring `selector`, `template`, `styles`
+- Basic data binding: interpolation, property binding, event binding
 
-### Способы коммуникации между компонентами
+### Component Communication
 
-- Передача данных через `input()`
-- Отправка событий через `output()`
-- Когда использовать `model()`
-- Взаимодействие через общие сервисы
-- Когда использовать `input()`/`output()`, а когда сервис
+- Passing data via `input()`
+- Emitting events via `output()`
+- When to use `model()`
+- Communication through shared services
+- When to use `input()`/`output()` vs a service
 
 ### Lifecycle Hooks
 
-- Когда вызывается каждый из них и в каком порядке
-- Для каких задач используются lifecycle hooks
-- Почему важно очищать ресурсы при уничтожении компонента
+- When each hook is called and in what order
+- What tasks lifecycle hooks are used for
+- Why it is important to clean up resources when a component is destroyed
 
 ---
 
 ## FAQ
 
-_Вопрос:_ Можно ли использовать NgModules вместо standalone components?
-_Ответ:_ Можно, но рекомендуется standalone — это современный подход Angular 15+.
+_Q:_ Can I use NgModules instead of standalone components?
+_A:_ You can, but standalone is recommended — it is the modern approach since Angular 15+.
 
-_Вопрос:_ Можно ли использовать декораторы `@Input()` и `@Output()` вместо сигналов `input()` и `output()`?
-_Ответ:_ Можно, но `@Input()` и `@Output()` считаются более старым, legacy-подходом. Рекомендуется использовать современный signal-based API: `input()`, `output()` и при необходимости `model()`.
+_Q:_ Can I use `@Input()` and `@Output()` decorators instead of signal-based `input()` and `output()`?
+_A:_ You can, but `@Input()` and `@Output()` are considered a legacy approach. The modern signal-based API is recommended: `input()`, `output()`, and `model()` when needed.
 
-_Вопрос:_ Что если не сделаю чекпоинт?
-_Ответ:_ 0 баллов за этот чекпоинт. Других последствий нет, на допуск к защите не влияет.
+_Q:_ What if I don't complete the checkpoint?
+_A:_ 0 points for this checkpoint. No other consequences — it does not affect admission to the presentation.
 
-_Вопрос:_ Нужно ли деплоить проект на этом спринте?
-_Ответ:_ Нет, на этом спринте деплой не требуется.
+_Q:_ Do I need to deploy the project in this sprint?
+_A:_ No, deployment is not required in this sprint.
 
 ---
 
-## Сабмит
+## Submission
 
-Один участник команды должен **заполнить форму** до дедлайна. После этого оценка каждого участника выставляется **автоматически** на основании парсинга репозитория.
+One team member must **fill in the form** before the deadline. After that, each participant's score is assigned **automatically** based on repository parsing.

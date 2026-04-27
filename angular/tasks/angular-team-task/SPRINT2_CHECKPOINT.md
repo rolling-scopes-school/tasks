@@ -1,141 +1,141 @@
 # Angular Sprint: Sprint 2 Checkpoint
 
-**Тема: Routing & Signals (`@angular/router`, `@angular/core`)**
+**Topic: Routing & Signals (`@angular/router`, `@angular/core`)**
 
-## Зачем этот спринт
+## Why This Sprint
 
-Routing — основа навигации в SPA: без него невозможно создать полноценное приложение. Signals — фундамент реактивного состояния в современном Angular. В этом спринте вы настроите маршрутизацию, познакомитесь с lazy loading и guards, а также научитесь строить компоненты вокруг signal-based подхода.
+Routing is the foundation of navigation in an SPA: without it, building a full application is impossible. Signals are the foundation of reactive state in modern Angular. In this sprint you will configure routing, explore lazy loading and guards, and learn to build components around the signal-based approach.
 
-**Ключевые концепции спринта:**
+**Key concepts of this sprint:**
 
-- Конфигурация маршрутов: `Routes`, `provideRouter()`
+- Route configuration: `Routes`, `provideRouter()`
 - `RouterLink`, `RouterOutlet`, `RouterLinkActive`
-- Lazy loading через `loadComponent` / `loadChildren`
+- Lazy loading via `loadComponent` / `loadChildren`
 - Route Guards: `canActivate`, `canDeactivate`
-- Параметры маршрута: `ActivatedRoute`, `paramMap`
+- Route parameters: `ActivatedRoute`, `paramMap`
 - `signal()`, `computed()`, `effect()`, `linkedSignal()`
 - `input()`, `output()`, `model()` — signal-based component API
-- Signals и Change Detection
+- Signals and Change Detection
 
-**Сквозная тема — Dependency Injection:**
+**Cross-cutting topic — Dependency Injection:**
 
-Routing невозможен без сервисов. В этом спринте вы впервые создадите полноценные сервисы и познакомитесь с DI-системой Angular.
-
----
-
-## Условия получения (40 баллов)
-
-Все условия выполнены → 40 баллов, любое не выполнено → 0.
-
-### Командные (+20)
-
-1. **Приложение задеплоено** — в README есть ссылка на работающий deploy (HTTP 200). Даже если это скелет — это уже деплой.
-2. **GitHub Actions workflow существует** — CI настроен (хотя бы линтер).
-3. **Минимум 6 issues в GitHub** — для планирования работы.
-4. **Линтер настроен** — ESLint конфигурация в репозитории.
-
-### Личные (+20)
-
-1. **Минимум 3 маршрута настроены** — приложение имеет навигацию между страницами. Замержено в `main`.
-2. **Lazy loading реализован** — хотя бы 1 маршрут загружается лениво через `loadComponent` или `loadChildren`.
-3. **Хотя бы 1 Route Guard реализован** — `canActivate` или `canDeactivate`. Функциональный или class-based.
-4. **Signals используются минимум в 2 компонентах** — `signal()` и `computed()` или `effect()`. Замержены в `main`.
-5. **Минимум 2 сервиса с `@Injectable()`** — инжектируются через `inject()`. Замержены в `main`.
-6. **Минимум 1 запись в дневнике за Sprint 2** — замержены в `main`.
+Routing is impossible without services. In this sprint you will create full-fledged services for the first time and get familiar with Angular's DI system.
 
 ---
 
-## Что изучить
+## Requirements (40 points)
 
-### Конфигурация маршрутов (standalone)
+All requirements met → 40 points, any requirement not met → 0.
 
-- Как объявить массив `Routes` и зарегистрировать его через `provideRouter()`
-- Redirect-маршрут и `pathMatch: 'full'`
-- Lazy loading через `loadComponent` и `loadChildren`
-- Вложенные маршруты (children)
-- Wildcard-маршрут `**` для страницы 404
+### Team (+20)
 
-### Функциональный Guard (Angular 15+)
+1. **Application is deployed** — the README contains a link to a working deployment (HTTP 200). Even a skeleton counts as a deployment.
+2. **GitHub Actions workflow exists** — CI is set up (at least a linter).
+3. **At least 6 issues in GitHub** — for work planning.
+4. **Linter configured** — ESLint configuration in the repository.
 
-- Как создать `CanActivateFn` без класса
-- Как использовать `inject()` внутри guard-функции
-- Как вернуть `UrlTree` для редиректа вместо `boolean`
-- Чем функциональный guard лучше class-based в современном Angular
+### Individual (+20)
+
+1. **At least 3 routes configured** — the application has page-to-page navigation. Merged into `main`.
+2. **Lazy loading implemented** — at least 1 route is lazy-loaded via `loadComponent` or `loadChildren`.
+3. **At least 1 Route Guard implemented** — `canActivate` or `canDeactivate`. Functional or class-based.
+4. **Signals used in at least 2 components** — `signal()` and `computed()` or `effect()`. Merged into `main`.
+5. **At least 2 services with `@Injectable()`** — injected via `inject()`. Merged into `main`.
+6. **At least 1 diary entry for Sprint 2** — merged into `main`.
+
+---
+
+## What to Study
+
+### Route Configuration (standalone)
+
+- How to declare a `Routes` array and register it via `provideRouter()`
+- Redirect route and `pathMatch: 'full'`
+- Lazy loading via `loadComponent` and `loadChildren`
+- Nested routes (children)
+- Wildcard route `**` for a 404 page
+
+### Functional Guard (Angular 15+)
+
+- How to create a `CanActivateFn` without a class
+- How to use `inject()` inside a guard function
+- How to return a `UrlTree` for redirect instead of `boolean`
+- Why functional guards are preferred over class-based in modern Angular
 
 ### Signals
 
-- Что такое `signal()` и зачем он нужен
-- Как читать и обновлять signal state
-- Когда signal удобнее обычного поля класса
+- What `signal()` is and why it is needed
+- How to read and update signal state
+- When a signal is more convenient than a plain class field
 
-### Computed и Effect
+### Computed and Effect
 
-- Когда использовать `computed()`
-- Когда использовать `effect()`, а когда не стоит
-- Как избегать лишних side effects
+- When to use `computed()`
+- When to use `effect()` and when not to
+- How to avoid unnecessary side effects
 
 ### Linked Signal
 
-- Что такое `linkedSignal()`
-- Когда использовать связанное состояние вместо обычного `computed()`
-- Как `linkedSignal()` помогает синхронизировать зависимые значения
+- What `linkedSignal()` is
+- When to use linked state instead of a regular `computed()`
+- How `linkedSignal()` helps synchronize dependent values
 
-### Signal-based component API
+### Signal-based Component API
 
-- Передача данных через `input()`
-- Отправка событий через `output()`
-- Когда использовать `model()`
-- Чем signal-based API отличается от `@Input()` / `@Output()`
-- Как signals связаны с Change Detection
+- Passing data via `input()`
+- Emitting events via `output()`
+- When to use `model()`
+- How signal-based API differs from `@Input()` / `@Output()`
+- How signals relate to Change Detection
 
-### Attribute-директивы
+### Attribute Directives
 
-- Что такое attribute directive и чем она отличается от structural
-- Как создать `@Directive()` standalone
-- Что такое `@HostListener`
-- Что такое `@HostBinding`
-- Что такое `ElementRef`
-- Signal-based inputs в директивах через `input()`
+- What an attribute directive is and how it differs from a structural one
+- How to create a standalone `@Directive()`
+- What `@HostListener` is
+- What `@HostBinding` is
+- What `ElementRef` is
+- Signal-based inputs in directives via `input()`
 
 ### Pipes
 
-- Что такое `@Pipe()` и как реализовать `PipeTransform`
-- Разница между pure и impure pipe
-- Встроенные pipes: `DatePipe`, `CurrencyPipe`, `AsyncPipe`, `JsonPipe`
-- Когда создавать кастомный pipe вместо метода компонента
+- What `@Pipe()` is and how to implement `PipeTransform`
+- Difference between pure and impure pipes
+- Built-in pipes: `DatePipe`, `CurrencyPipe`, `AsyncPipe`, `JsonPipe`
+- When to create a custom pipe instead of a component method
 
-### Dependency Injection — основы
+### Dependency Injection — Basics
 
-- `@Injectable()` и `providedIn: 'root'`
-- `inject()` — современный способ получения зависимостей
-- Когда сервис — singleton, а когда нет
+- `@Injectable()` and `providedIn: 'root'`
+- `inject()` — the modern way to obtain dependencies
+- When a service is a singleton and when it is not
 
 ---
 
-## Вопросы для самопроверки
+## Self-Check Questions
 
-1. В чём разница между `loadComponent` и `loadChildren`?
-2. Зачем нужен `pathMatch: 'full'` для redirect-маршрутов?
-3. Чем функциональный guard отличается от class-based guard?
-4. Что такое `signal()` и чем он отличается от обычного поля класса?
-5. Когда использовать `computed()`, а когда `effect()`?
-6. Чем `providedIn: 'root'` отличается от указания сервиса в `providers` компонента?
+1. What is the difference between `loadComponent` and `loadChildren`?
+2. Why is `pathMatch: 'full'` needed for redirect routes?
+3. How does a functional guard differ from a class-based guard?
+4. What is `signal()` and how does it differ from a regular class field?
+5. When should you use `computed()` and when `effect()`?
+6. How does `providedIn: 'root'` differ from specifying a service in a component's `providers`?
 
 ---
 
 ## FAQ
 
-_Вопрос:_ Обязательно ли использовать signals уже на этом спринте?
-_Ответ:_ Да. Signals — одна из двух основных тем Sprint 2. Нужны реальные примеры `signal()` и signal-based API в проекте.
+_Q:_ Is it mandatory to use signals already in this sprint?
+_A:_ Yes. Signals are one of the two main topics of Sprint 2. Real examples of `signal()` and signal-based API in the project are required.
 
-_Вопрос:_ Деплой — обязательно Vercel/Netlify?
-_Ответ:_ Любая платформа. Главное — ссылка в README отвечает HTTP 200.
+_Q:_ Must the deployment be on Vercel/Netlify?
+_A:_ Any platform. The key requirement is that the link in the README returns HTTP 200.
 
-_Вопрос:_ Можно ли использовать class-based guards?
-_Ответ:_ Можно, но функциональные guards рекомендуются в Angular 15+.
+_Q:_ Can I use class-based guards?
+_A:_ You can, but functional guards are recommended in Angular 15+.
 
 ---
 
-## Сабмит
+## Submission
 
-Отдельный сабмит не требуется — репозиторий уже зарегистрирован через форму на Sprint 1. Оценка выставляется **автоматически** после дедлайна.
+No separate submission is required — the repository is already registered via the Sprint 1 form. The score is assigned **automatically** after the deadline.

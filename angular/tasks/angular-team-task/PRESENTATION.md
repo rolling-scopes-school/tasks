@@ -1,30 +1,30 @@
-# Презентация проекта
+# Project Presentation
 
-Финальная презентация — командное событие, на котором команда показывает проект и рассказывает свою историю.
+The final presentation is a team event where the team showcases the project and tells its story.
 
-## Участники
+## Participants
 
-- **Команда** — участие всех обязательно
-- **Жюри** — менторы и активисты, знакомятся с README и артефактами **заранее**
-- Все сессии **открыты** — любой студент или ментор может присоединиться как наблюдатель
+- **Team** — participation of all members is mandatory
+- **Jury** — mentors and activists who review the README and artifacts **in advance**
+- All sessions are **open** — any student or mentor can join as an observer
 
 ---
 
-## Часть 1: Командная (~30 мин)
+## Part 1: Team (~30 min)
 
-**Цель:** показать продукт и рассказать историю команды — как работали вместе, как изучали Angular, какие решения принимали.
+**Goal:** demonstrate the product and tell the team's story — how you worked together, how you learned Angular, what decisions you made.
 
-| Часть            | ~Время    | Что происходит                                                                                                      |
-| ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Product Demo** | 10-15 мин | Команда показывает приложение (live или видео) и подсвечивает технические решения: DI, CD, Forms, Routing, Signals. |
-| **Team Story**   | 10 мин    | Как работали: роли, процесс изучения Angular, конфликты, решения. Что далось тяжелее всего?                         |
-| **Q&A**          | 5-10 мин  | Вопросы жюри по архитектуре, коду и Angular-специфичным решениям.                                                   |
+| Part             | ~Time     | What Happens                                                                                                               |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Product Demo** | 10–15 min | The team demonstrates the application (live or video) and highlights technical decisions: DI, CD, Forms, Routing, Signals. |
+| **Team Story**   | 10 min    | How you worked: roles, the Angular learning process, conflicts, decisions. What was the hardest part?                      |
+| **Q&A**          | 5–10 min  | Jury questions about architecture, code, and Angular-specific decisions.                                                   |
 
-### Рекомендации
+### Recommendations
 
-- По возможности включите веб камеры
-- Слайды рекомендуются, но не обязательны. Вся информация может быть в README
-- Приоритет у live-демо. Показывать видео — только если live-показ сорвался
-- Покажите Angular DevTools: дерево компонентов, Change Detection profiler
+- Turn on webcams if possible
+- Slides are recommended but not required. All information can be in the README
+- Live demo is preferred. Use video only if the live demo fails
+- Show Angular DevTools: component tree, Change Detection profiler
 
-**Оценка:** [SCORE_TEAM.md](./SCORE_TEAM.md) (260 баллов, одинаково для всей команды).
+**Scoring:** [SCORE_TEAM.md](./SCORE_TEAM.md) (260 points, same for the whole team).

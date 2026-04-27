@@ -1,88 +1,88 @@
-# Personal Score (400 баллов)
+# Personal Score (400 points)
 
-Личная оценка каждого студента. Баллы начисляются **поэтапно после каждого спринта** через менторское собеседование.
+Individual score for each student. Points are awarded **incrementally after each sprint** through a mentor interview.
 
-## Как это работает
+## How It Works
 
-1. После дедлайна каждого спринта формируется **пара: команда ↔ случайный ментор**.
-2. Команда связывается с ментором и назначает звонок.
-3. На звонке ментор **общается с каждым студентом отдельно** (~15–20 мин на человека).
-4. Ментор оценивает два аспекта:
-   - **Знание Angular** — вопросы по темам текущего спринта.
-   - **Личный вклад** — что студент реализовал, может ли объяснить свой код.
-5. После звонка ментор выставляет балл каждому студенту в RS APP.
+1. After each sprint deadline, a **pair is formed: team ↔ random mentor**.
+2. The team contacts the mentor and schedules a call.
+3. During the call the mentor **talks to each student individually** (~15–20 min per person).
+4. The mentor evaluates two aspects:
+   - **Angular knowledge** — questions on the current sprint's topics.
+   - **Personal contribution** — what the student implemented, whether they can explain their code.
+5. After the call the mentor assigns a score to each student in RS APP.
 
-> **Важно:** звонок должен состояться **в течение 5 дней** после дедлайна спринта. Если команда не связалась с ментором — 0 за этот спринт.
-
----
-
-## Баллы по спринтам
-
-| Спринт       | Макс. баллы | Тема спринта              | О чём спрашивает ментор                                                         |
-| ------------ | ----------- | ------------------------- | ------------------------------------------------------------------------------- |
-| **Sprint 1** | 50          | Components                | Standalone components, `input()`/`output()`, lifecycle hooks, структура проекта |
-| **Sprint 2** | 75          | Routing & Signals         | Routes, lazy loading, guards, `signal()`, `computed()`, `effect()`, DI основы   |
-| **Sprint 3** | 125         | Directives, Pipes & Forms | Директивы, pipes, Reactive Forms, валидация, `InjectionToken`, OnPush           |
-| **Sprint 4** | 150         | HTTP, RxJS & Testing      | `HttpClient`, interceptors, RxJS-операторы, `TestBed`, моки, покрытие тестами   |
-| **Итого**    | **400**     |                           |                                                                                 |
+> **Important:** the call must take place **within 5 days** after the sprint deadline. If the team does not contact the mentor — 0 for that sprint.
 
 ---
 
-## Критерии оценки (каждый спринт)
+## Points by Sprint
 
-Ментор выставляет **любое количество баллов** от 0 до максимума спринта. Уровни ниже — ориентиры, не жёсткие категории.
-
-| Ориентир      | ~% от макс. | Индикаторы                                                                                                       |
-| ------------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Weak**      | ~20%        | Не может объяснить свой код. Не понимает базовые концепции спринта. Вклад в проект неясен.                       |
-| **Basic**     | ~50%        | Понимает основные концепции на базовом уровне. Отвечает на прямые вопросы, но путается в деталях.                |
-| **Good**      | ~80%        | Уверенно объясняет свой код и Angular-концепции. Понимает «почему», а не только «как».                           |
-| **Excellent** | ~100%       | Глубокое понимание: объясняет trade-offs, сравнивает подходы, знает нюансы (CD tree, DI hierarchy, RxJS marble). |
-
-**Пример:** Sprint 3 (макс. 125) → ментор считает студента чуть выше Basic → ставит **70 баллов**.
+| Sprint       | Max Points | Sprint Topic              | What the Mentor Asks About                                                      |
+| ------------ | ---------- | ------------------------- | ------------------------------------------------------------------------------- |
+| **Sprint 1** | 50         | Components                | Standalone components, `input()`/`output()`, lifecycle hooks, project structure |
+| **Sprint 2** | 75         | Routing & Signals         | Routes, lazy loading, guards, `signal()`, `computed()`, `effect()`, DI basics   |
+| **Sprint 3** | 125        | Directives, Pipes & Forms | Directives, pipes, Reactive Forms, validation, `InjectionToken`, OnPush         |
+| **Sprint 4** | 150        | HTTP, RxJS & Testing      | `HttpClient`, interceptors, RxJS operators, `TestBed`, mocking, test coverage   |
+| **Total**    | **400**    |                           |                                                                                 |
 
 ---
 
-## Что ментор проверяет
+## Scoring Criteria (each sprint)
 
-Ментор может спросить как **по проекту** (личный вклад, объяснение своего кода), так и задать **любой вопрос из Angular**, связанный с темой текущего спринта.
+The mentor assigns **any number of points** from 0 to the sprint maximum. The levels below are guidelines, not strict categories.
 
-Подробные списки тем и примеры вопросов — в файлах спринтов:
+| Level         | ~% of Max | Indicators                                                                                                        |
+| ------------- | --------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Weak**      | ~20%      | Cannot explain their code. Does not understand basic sprint concepts. Contribution to the project is unclear.     |
+| **Basic**     | ~50%      | Understands core concepts at a basic level. Answers direct questions but struggles with details.                  |
+| **Good**      | ~80%      | Confidently explains their code and Angular concepts. Understands "why", not just "how".                          |
+| **Excellent** | ~100%     | Deep understanding: explains trade-offs, compares approaches, knows nuances (CD tree, DI hierarchy, RxJS marble). |
 
-| Спринт       | Баллы | Подробнее                                                                            |
-| ------------ | ----- | ------------------------------------------------------------------------------------ |
-| **Sprint 1** | 50    | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md#менторское-собеседование-50-баллов)  |
-| **Sprint 2** | 75    | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md#менторское-собеседование-75-баллов)  |
-| **Sprint 3** | 125   | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md#менторское-собеседование-125-баллов) |
-| **Sprint 4** | 150   | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md#менторское-собеседование-150-баллов) |
+**Example:** Sprint 3 (max 125) → the mentor considers the student slightly above Basic → assigns **70 points**.
 
 ---
 
-## Порог допуска
+## What the Mentor Checks
 
-Для участия в менторском собеседовании студент должен:
+The mentor may ask about **the project** (personal contribution, explaining your code) as well as **any Angular question** related to the current sprint's topic.
 
-- Иметь записи в [дневнике разработки](./DEVELOPMENT_DIARY.md) за текущий спринт
-- Иметь замерженный в `main` код, написанный лично
+Detailed topic lists and example questions can be found in the sprint files:
 
-> Дневник не оценивается баллами, но является **обязательным условием** допуска к собеседованию.
+| Sprint       | Points | Details                                                        |
+| ------------ | ------ | -------------------------------------------------------------- |
+| **Sprint 1** | 50     | [SPRINT1_CHECKPOINT.md](./SPRINT1_CHECKPOINT.md#what-to-study) |
+| **Sprint 2** | 75     | [SPRINT2_CHECKPOINT.md](./SPRINT2_CHECKPOINT.md#what-to-study) |
+| **Sprint 3** | 125    | [SPRINT3_CHECKPOINT.md](./SPRINT3_CHECKPOINT.md#what-to-study) |
+| **Sprint 4** | 150    | [SPRINT4_CHECKPOINT.md](./SPRINT4_CHECKPOINT.md#what-to-study) |
+
+---
+
+## Admission Requirements
+
+To participate in the mentor interview, a student must:
+
+- Have entries in the [development diary](./DEVELOPMENT_DIARY.md) for the current sprint
+- Have personally written code merged into `main`
+
+> The diary is not scored separately here, but it is a **mandatory condition** for interview admission.
 
 ---
 
 ## FAQ
 
-_Вопрос:_ Что если ментор не отвечает?
-_Ответ:_ Сообщите координатору курса — вам назначат другого ментора.
+_Q:_ What if the mentor does not respond?
+_A:_ Contact the course coordinator — another mentor will be assigned.
 
-_Вопрос:_ Можно ли пересдать собеседование?
-_Ответ:_ Нет. Одна попытка на спринт.
+_Q:_ Can I retake the interview?
+_A:_ No. One attempt per sprint.
 
-_Вопрос:_ Ментор оценивает команду или каждого отдельно?
-_Ответ:_ Каждого студента отдельно. У каждого свой балл.
+_Q:_ Does the mentor evaluate the team or each student individually?
+_A:_ Each student individually. Everyone gets their own score.
 
 ---
 
 ## Penalties
 
-- **(-1000000000000000000%)** Не используется Angular.
-- **(-50%)** `strict: false` в `tsconfig.json`.
+- **(-1000000000000000000%)** Angular is not used.
+- **(-50%)** `strict: false` in `tsconfig.json`.

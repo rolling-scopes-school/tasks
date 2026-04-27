@@ -1,43 +1,43 @@
-# CryptoTrade — приложение для анализа и торговли криптовалютами
+# CryptoTrade — Cryptocurrency Analysis and Trading Application
 
-Приложение-клон торговой платформы, в котором пользователь может просматривать рыночные данные, анализировать графики, вести watchlist избранных пар и совершать тестовые сделки с виртуальными средствами.
+A trading platform clone where the user can browse market data, analyze charts, maintain a watchlist of favorite pairs, and execute test trades with virtual funds.
 
-Платформа работает поверх **Binance Spot Testnet** — полнофункционального тестового окружения Binance, которое выдаёт виртуальные средства при регистрации. Все данные виртуальные — реальные деньги не участвуют.
+The platform runs on top of **Binance Spot Testnet** — a fully functional Binance test environment that provides virtual funds upon registration. All data is virtual — no real money is involved.
 
 > **API:** [Binance Spot Testnet](https://testnet.binance.vision/).
 > REST: `https://testnet.binance.vision/api`.
 > WebSocket: `wss://stream.testnet.binance.vision/ws`.
-> Документация совпадает с [основной Binance Spot API](https://binance-docs.github.io/apidocs/spot/en/) — замените только base URL.
+> Documentation matches the [main Binance Spot API](https://binance-docs.github.io/apidocs/spot/en/) — just replace the base URL.
 
 ---
 
-## Настройка API
+## API Setup
 
-1. Перейти на [testnet.binance.vision](https://testnet.binance.vision/) и авторизоваться через GitHub.
-2. Создать API Key — получите пару `apiKey` + `secretKey`.
-3. При регистрации автоматически начисляются виртуальные средства в различных валютах.
-4. Публичные эндпоинты (market data, WebSocket streams) не требуют авторизации.
-5. Для торговых эндпоинтов (ордера, баланс) требуется HMAC-SHA256 подпись запроса.
+1. Go to [testnet.binance.vision](https://testnet.binance.vision/) and sign in via GitHub.
+2. Create an API Key — you will receive an `apiKey` + `secretKey` pair.
+3. Virtual funds in various currencies are automatically credited upon registration.
+4. Public endpoints (market data, WebSocket streams) do not require authorization.
+5. Trading endpoints (orders, balance) require an HMAC-SHA256 request signature.
 
-> **Важно:** Testnet периодически сбрасывается (примерно раз в месяц). API Key при этом сохраняется, но балансы и ордера обнуляются.
+> **Important:** The Testnet is periodically reset (approximately once a month). The API Key is preserved, but balances and orders are zeroed out.
 
 ---
 
 ## Backend
 
-Проект использует собственный бекенд для аутентификации пользователей и безопасного хранения Binance API Key и Secret Key.
+The project uses its own backend for user authentication and secure storage of the Binance API Key and Secret Key.
 
-> **Обязательно:** Бекенд должен быть написан на **NestJS** (TypeScript). Использование других фреймворков (Express, Fastify без NestJS и т.д.) не допускается.
+> **Required:** The backend must be written in **NestJS** (TypeScript). Using other frameworks (Express, Fastify without NestJS, etc.) is not allowed.
 
-| Эндпоинт         | Метод | Описание                                    |
-| ---------------- | ----- | ------------------------------------------- |
-| `/auth/register` | POST  | Регистрация: email + пароль                 |
-| `/auth/login`    | POST  | Вход: email + пароль → JWT                  |
-| `/auth/me`       | GET   | Данные текущего пользователя                |
-| `/keys`          | GET   | Получить сохранённые API Key / Secret Key   |
-| `/keys`          | PUT   | Сохранить или обновить API Key / Secret Key |
+| Endpoint         | Method | Description                         |
+| ---------------- | ------ | ----------------------------------- |
+| `/auth/register` | POST   | Registration: email + password      |
+| `/auth/login`    | POST   | Login: email + password → JWT       |
+| `/auth/me`       | GET    | Current user data                   |
+| `/keys`          | GET    | Retrieve saved API Key / Secret Key |
+| `/keys`          | PUT    | Save or update API Key / Secret Key |
 
-Secret Key никогда не возвращается фронтенду в открытом виде после сохранения — только подтверждение «ключи настроены».
+The Secret Key is never returned to the frontend in plain text after saving — only a confirmation "keys configured".
 
 ---
 
@@ -45,24 +45,24 @@ Secret Key никогда не возвращается фронтенду в о
 
 ### 1. Input Validation
 
-- Форма входа содержит поля Email и Password.
-- Валидация на клиенте: email должен быть корректного формата, пароль — обязательное поле.
-- При ошибках валидации — понятные сообщения под каждым полем.
+- The login form contains Email and Password fields.
+- Client-side validation: email must be in a valid format, password is a required field.
+- Clear error messages are displayed below each field on validation errors.
 
 ### 2. Integration with Backend
 
-- Форма отправляет запрос `POST /auth/login` на кастомный бекенд.
-- При успешном входе — сохранение JWT токена, перенаправление на Dashboard.
-- При неверных учётных данных — понятное сообщение об ошибке.
+- The form sends a `POST /auth/login` request to the custom backend.
+- On successful login — JWT token is saved, redirect to Dashboard.
+- On invalid credentials — a clear error message is shown.
 
 ### 3. Redirection
 
-- При успешном входе — перенаправление на Dashboard.
-- Авторизованный пользователь при попытке открыть Login — автоматически перенаправляется на Dashboard.
+- On successful login — redirect to Dashboard.
+- An authenticated user attempting to open Login is automatically redirected to Dashboard.
 
 ### 4. Navigation
 
-- Ссылка на страницу регистрации.
+- Link to the registration page.
 
 ---
 
@@ -70,145 +70,145 @@ Secret Key никогда не возвращается фронтенду в о
 
 ### 1. Input Validation
 
-- Форма регистрации содержит поля: email, пароль, подтверждение пароля.
-- Валидация: корректный email, минимальная длина пароля (≥8 символов), совпадение пароля и подтверждения.
-- При ошибках — понятные сообщения под каждым полем.
+- The registration form contains fields: email, password, password confirmation.
+- Validation: valid email, minimum password length (≥8 characters), password and confirmation must match.
+- Clear error messages below each field on errors.
 
 ### 2. Integration with Backend
 
-- Форма отправляет запрос `POST /auth/register` на кастомный бекенд.
-- При успешной регистрации — автоматический вход (JWT) и перенаправление на Settings для ввода Binance API ключей.
-- При ошибках (например, email уже используется) — понятное сообщение.
+- The form sends a `POST /auth/register` request to the custom backend.
+- On successful registration — automatic login (JWT) and redirect to Settings for entering Binance API keys.
+- On errors (e.g., email already in use) — a clear message is shown.
 
 ### 3. Navigation
 
-- Ссылка на страницу входа.
+- Link to the login page.
 
 ---
 
 ## Dashboard Page Implementation
 
-### 1. Market Overview (отображение рыночных данных)
+### 1. Market Overview
 
-- Отобразить карточки топ-пар по объёму торгов (минимум 5). Каждая карточка показывает: символ пары, текущую цену, изменение за 24 ч (в процентах), объём.
-- Цена должна быть отформатирована с правильным количеством знаков (BTC-пары: 8 знаков, USDT-пары: 2 знака).
-- Изменение за 24 ч отображается зелёным если положительное, красным если отрицательное.
-- Данные загружаются из Binance Testnet API. Цены на карточках обновляются в реальном времени через WebSocket `!ticker@arr`.
+- Display cards for the top pairs by trading volume (at least 5). Each card shows: pair symbol, current price, 24h change (percentage), volume.
+- Price must be formatted with the correct number of decimal places (BTC pairs: 8 decimals, USDT pairs: 2 decimals).
+- 24h change is displayed in green if positive, red if negative.
+- Data is loaded from Binance Testnet API. Card prices update in real time via WebSocket `!ticker@arr`.
 
-### 2. Watchlist (избранные пары)
+### 2. Watchlist
 
-- Пользователь может добавить любую торговую пару в watchlist с помощью кнопки «Добавить в избранное».
-- На Dashboard отображается панель watchlist со списком избранных пар, их текущими ценами и изменением за 24 ч.
-- Цены пар из watchlist обновляются в реальном времени через WebSocket.
-- Пользователь может удалить пару из watchlist.
-- Клик по паре в watchlist ведёт на страницу Trade для этой пары.
-- Watchlist сохраняется между сессиями (localStorage).
+- The user can add any trading pair to the watchlist using an "Add to favorites" button.
+- The Dashboard displays a watchlist panel with the list of favorite pairs, their current prices, and 24h change.
+- Watchlist pair prices update in real time via WebSocket.
+- The user can remove a pair from the watchlist.
+- Clicking a pair in the watchlist navigates to the Trade page for that pair.
+- The watchlist persists across sessions (localStorage).
 
-### 3. Portfolio Summary (обзор портфеля)
+### 3. Portfolio Summary
 
-- Показать общую стоимость портфеля в USD.
-- Стоимость пересчитывается автоматически при изменении цен.
-- Показать краткую таблицу: 3–5 основных активов с их количеством и текущей стоимостью.
+- Display the total portfolio value in USD.
+- The value recalculates automatically when prices change.
+- Show a brief table: 3–5 main assets with their quantity and current value.
 
 ---
 
 ## Markets Page Implementation
 
-### 1. Markets Table (таблица торговых пар)
+### 1. Markets Table
 
-- Отобразить таблицу всех доступных торговых пар, полученных из Binance Testnet API.
-- Колонки: Pair, Price, 24h Change (%), 24h Volume.
-- Данные в таблице обновляются в реальном времени через WebSocket (`!ticker@arr`) без перезагрузки страницы.
-- Строки кликабельны — при клике на пару пользователь переходит на страницу Trade для этой пары.
+- Display a table of all available trading pairs fetched from Binance Testnet API.
+- Columns: Pair, Price, 24h Change (%), 24h Volume.
+- Table data updates in real time via WebSocket (`!ticker@arr`) without page reload.
+- Rows are clickable — clicking a pair navigates to the Trade page for that pair.
 
-### 2. Filtering and Sorting (фильтрация и сортировка)
+### 2. Filtering and Sorting
 
-- Пользователь может фильтровать пары по quote-валюте (вкладки: USDT, BTC, ETH, или все).
-- Возможность сортировки таблицы по любой колонке (цена, изменение, объём) в порядке возрастания и убывания.
-- Сортировка и фильтрация работают мгновенно, без задержек, на клиенте.
+- The user can filter pairs by quote currency (tabs: USDT, BTC, ETH, or all).
+- Sorting by any column (price, change, volume) in ascending and descending order.
+- Sorting and filtering work instantly on the client, with no delay.
 
-### 3. Search (поиск)
+### 3. Search
 
-- Строка поиска в верхней части страницы (или в хедере).
-- Результаты фильтруются по мере ввода текста без задержки и без нажатия Enter.
-- Поиск работает по символу пары (например, ввод «BTC» показывает BTCUSDT, BTCETH и т.д.).
+- A search bar at the top of the page (or in the header).
+- Results are filtered as the user types, without delay and without pressing Enter.
+- Search works by pair symbol (e.g., typing "BTC" shows BTCUSDT, BTCETH, etc.).
 
 ### 4. Watchlist Integration
 
-- У каждой пары в таблице — иконка/кнопка «Добавить в избранное» / «Убрать из избранного».
-- Состояние кнопки синхронизировано с watchlist на Dashboard.
+- Each pair in the table has an "Add to favorites" / "Remove from favorites" icon/button.
+- The button state is synchronized with the watchlist on the Dashboard.
 
 ---
 
 ## Trade Page Implementation
 
-### 1. Price Chart (интерактивный график цены)
+### 1. Price Chart (interactive)
 
-- Свечной график (candlestick chart) для выбранной торговой пары.
-- Начальная загрузка истории свечей через REST API (`GET /api/v3/klines`).
-- Обновление графика в реальном времени через WebSocket (`<symbol>@kline_<interval>`): текущая свеча обновляется живьём, при закрытии свечи добавляется новая.
-- Пользователь может переключать интервал свечей: 1m, 5m, 15m, 1h, 1d. При переключении график перезагружается с новыми данными.
-- Рекомендуемая библиотека: [lightweight-charts](https://github.com/nicehash/lightweight-charts) (TradingView).
+- A candlestick chart for the selected trading pair.
+- Initial candle history loaded via REST API (`GET /api/v3/klines`).
+- Chart updates in real time via WebSocket (`<symbol>@kline_<interval>`): the current candle updates live, a new candle is added when one closes.
+- The user can switch candle intervals: 1m, 5m, 15m, 1h, 1d. On switch, the chart reloads with new data.
+- Recommended library: [lightweight-charts](https://github.com/nicehash/lightweight-charts) (TradingView).
 
-### 2. Order Book (стакан ордеров)
+### 2. Order Book
 
-- Отобразить стакан ордеров: раздельные колонки bid (покупка) и ask (продажа).
-- Каждая строка: цена и объём.
-- Начальный снимок загружается через REST API (`GET /api/v3/depth`).
-- Обновление стакана в реальном времени через WebSocket (`<symbol>@depth`).
-- Цены bid окрашены в зелёный, ask — в красный.
+- Display the order book: separate columns for bids (buy) and asks (sell).
+- Each row: price and volume.
+- Initial snapshot loaded via REST API (`GET /api/v3/depth`).
+- Order book updates in real time via WebSocket (`<symbol>@depth`).
+- Bid prices are colored green, ask prices are colored red.
 
-### 3. Order Form (форма размещения ордера)
+### 3. Order Form
 
-- Форма для размещения торгового ордера с полями:
-  - Сторона: Buy / Sell (переключатель).
-  - Тип ордера: Market / Limit.
-  - Количество (amount).
-  - Цена (price) — отображается только для Limit-ордера.
-- Валидация: все обязательные поля заполнены, количество больше минимального, сумма ордера не превышает доступный баланс. При ошибках — понятные сообщения под каждым полем.
-- Рядом с полем количества — подсказка с доступным балансом.
-- Ордер отправляется в Binance Testnet API (`POST /api/v3/order`). Запрос подписывается HMAC-SHA256.
-- После успешного размещения — уведомление пользователю и обновление баланса.
+- A form for placing a trade order with fields:
+  - Side: Buy / Sell (toggle).
+  - Order type: Market / Limit.
+  - Amount.
+  - Price — displayed only for Limit orders.
+- Validation: all required fields are filled, amount exceeds the minimum, order total does not exceed available balance. Clear error messages below each field on errors.
+- A hint showing the available balance next to the amount field.
+- The order is sent to Binance Testnet API (`POST /api/v3/order`). The request is signed with HMAC-SHA256.
+- On successful placement — a notification to the user and balance update.
 
 ### 4. Current Price Display
 
-- Текущая цена выбранной пары отображается крупно над графиком.
-- Цена обновляется в реальном времени через WebSocket (`<symbol>@ticker`).
-- Изменение за 24 ч рядом с ценой (зелёный/красный).
+- The current price of the selected pair is displayed prominently above the chart.
+- Price updates in real time via WebSocket (`<symbol>@ticker`).
+- 24h change shown next to the price (green/red).
 
 ### 5. Navigation
 
-- Пользователь может перейти на страницу Trade любой пары: из таблицы Markets, из watchlist, или введя символ вручную.
-- При переходе к другой паре график, стакан и текущая цена переключаются на новые данные, старые WebSocket-соединения закрываются.
-- Страница доступна только авторизованным пользователям (API Key сохранён).
+- The user can navigate to the Trade page of any pair: from the Markets table, from the watchlist, or by entering a symbol manually.
+- When switching to another pair, the chart, order book, and current price switch to the new data; old WebSocket connections are closed.
+- The page is accessible only to authenticated users (API Key is saved).
 
 ---
 
 ## Portfolio Page Implementation
 
-### 1. Asset Table (таблица активов)
+### 1. Asset Table
 
-- Отобразить все активы пользователя с ненулевым балансом, полученные из Binance Testnet API (`GET /api/v3/account`, HMAC).
-- Колонки: Asset (BTC, ETH, USDT…), Available Balance, In Order, Current Price (USD), Total Value (USD).
-- Текущая цена каждого актива берётся из тикерных данных.
+- Display all user assets with a non-zero balance, fetched from Binance Testnet API (`GET /api/v3/account`, HMAC).
+- Columns: Asset (BTC, ETH, USDT…), Available Balance, In Order, Current Price (USD), Total Value (USD).
+- The current price of each asset is taken from ticker data.
 
-### 2. Portfolio Value (общая стоимость)
+### 2. Portfolio Value
 
-- Показать общую стоимость портфеля в USD, рассчитанную на основе текущих цен.
-- Стоимость пересчитывается при обновлении цен.
+- Display the total portfolio value in USD, calculated based on current prices.
+- The value recalculates when prices update.
 
-### 3. Distribution (распределение)
+### 3. Distribution
 
-- Визуальное представление распределения портфеля: круговая диаграмма или горизонтальные полоски (% от общей стоимости по каждому активу).
+- A visual representation of portfolio distribution: pie chart or horizontal bars (% of total value per asset).
 
-### 4. Order History (история ордеров)
+### 4. Order History
 
-- Таблица ордеров пользователя, загруженная из API (`GET /api/v3/allOrders`, HMAC).
-- Колонки: Date, Pair, Side (Buy/Sell), Type (Market/Limit), Quantity, Price, Status.
+- A table of user orders loaded from the API (`GET /api/v3/allOrders`, HMAC).
+- Columns: Date, Pair, Side (Buy/Sell), Type (Market/Limit), Quantity, Price, Status.
 
 ### 5. Access Control
 
-- Страница доступна только авторизованным пользователям (API Key сохранён). Неавторизованные перенаправляются на Dashboard.
+- The page is accessible only to authenticated users (API Key is saved). Unauthenticated users are redirected to Dashboard.
 
 ---
 
@@ -216,16 +216,16 @@ Secret Key никогда не возвращается фронтенду в о
 
 ### 1. API Key Form
 
-- Форма для ввода и сохранения Binance Testnet API Key и Secret Key.
-- Поле Secret Key — тип password, с кнопкой показать/скрыть.
-- Валидация: оба поля обязательны, минимальная длина.
-- При ошибках валидации — понятные сообщения.
-- При успешном сохранении — уведомление пользователю.
-- Кнопка «Сброс» — удалить сохранённые ключи.
+- A form for entering and saving the Binance Testnet API Key and Secret Key.
+- The Secret Key field is of type password, with a show/hide toggle.
+- Validation: both fields are required, minimum length.
+- Clear messages on validation errors.
+- On successful save — a notification to the user.
+- A "Reset" button — deletes the saved keys.
 
 ### 2. Connection Test
 
-- После сохранения ключей — автоматическая проверка подключения: запрос `GET /api/v3/account` (HMAC). Если ответ 200 — отобразить «Подключено», иначе — ошибку с расшифровкой.
+- After saving the keys — an automatic connection test: `GET /api/v3/account` request (HMAC). If the response is 200 — display "Connected", otherwise — an error with details.
 
 ---
 
@@ -233,12 +233,12 @@ Secret Key никогда не возвращается фронтенду в о
 
 ### 1. Team Introduction
 
-- Информация о каждом члене команды: имя, роль в проекте, краткое описание, фото, ссылка на GitHub.
-- Дизайн карточек выполнен единообразно.
+- Information about each team member: name, role in the project, short bio, photo, GitHub link.
+- Card design is consistent.
 
 ### 2. RS School Logo
 
-- Логотип RS School с кликабельной ссылкой на [rs.school](https://rs.school/).
+- RS School logo with a clickable link to [rs.school](https://rs.school/).
 
 ---
 
@@ -246,46 +246,46 @@ Secret Key никогда не возвращается фронтенду в о
 
 ### 1. Header Layout
 
-- Логотип/название приложения, ведущий на Dashboard.
-- Навигация: Dashboard, Markets, Trade, Portfolio, About Us.
-- Строка поиска торговых пар (с live-фильтрацией).
-- Иконка/статус подключения (API Key настроен / не настроен).
-- Ссылка на Settings.
+- App logo/name linking to Dashboard.
+- Navigation: Dashboard, Markets, Trade, Portfolio, About Us.
+- Trading pair search bar (with live filtering).
+- Connection status icon (API Key configured / not configured).
+- Link to Settings.
 
 ### 2. Routing
 
-- Все страницы доступны по прямым URL и через навигацию в хедере.
-- Поддержка кнопок браузера (назад/вперёд).
-- При переходе по несуществующему URL — страница 404 (Not Found) с предложением вернуться на Dashboard.
-- Страницы Trade и Portfolio доступны только авторизованным пользователям — при попытке перехода без API Key, перенаправление на Settings.
-- Страницы загружаются лениво (lazy loading).
+- All pages are accessible via direct URLs and through header navigation.
+- Browser back/forward buttons are supported.
+- Navigating to a non-existent URL shows a 404 (Not Found) page with an option to return to Dashboard.
+- Trade and Portfolio pages are accessible only to authenticated users — attempting to navigate without an API Key redirects to Settings.
+- Pages are loaded lazily (lazy loading).
 
 ---
 
-## Beyond API — фичи, которых нет в Binance Testnet
+## Beyond API — Features Not Available in Binance Testnet
 
-Binance Testnet не предоставляет эндпоинтов для пополнения/вывода, пользовательской аналитики и алертов. Эти фичи реализуются самостоятельно.
+Binance Testnet does not provide endpoints for deposits/withdrawals, user analytics, or alerts. These features are implemented independently.
 
-### 1. Deposit / Withdrawal (пополнение и вывод)
+### 1. Deposit / Withdrawal
 
-- Форма пополнения: выбор валюты, ввод суммы. Баланс увеличивается и сохраняется локально.
-- Форма вывода: выбор валюты, ввод суммы, проверка что сумма не превышает баланс.
-- Валидация обоих форм.
+- Deposit form: currency selection, amount input. Balance increases and is saved locally.
+- Withdrawal form: currency selection, amount input, check that the amount does not exceed the balance.
+- Validation for both forms.
 
-### 2. Price Alerts (уведомления о цене)
+### 2. Price Alerts
 
-- Форма создания алерта: выбор пары, целевая цена, направление (выше/ниже).
-- Список активных алертов с возможностью удаления.
-- При достижении условия — визуальное уведомление.
-- Алерты сохраняются между сессиями.
+- Alert creation form: pair selection, target price, direction (above/below).
+- List of active alerts with the option to delete.
+- When the condition is met — a visual notification.
+- Alerts persist across sessions.
 
 ---
 
-## Полезные ссылки
+## Useful Links
 
-- [Binance Spot Testnet](https://testnet.binance.vision/) — регистрация и получение API Key
-- [Binance Spot API Documentation](https://binance-docs.github.io/apidocs/spot/en/) — полная документация REST API
-- [Binance WebSocket Streams](https://binance-docs.github.io/apidocs/spot/en/#websocket-market-streams) — документация WebSocket
-- [lightweight-charts](https://github.com/nicehash/lightweight-charts) — библиотека для финансовых графиков
-- [HMAC-SHA256 in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/sign) — Web Crypto API для подписи
-- [NestJS Documentation](https://docs.nestjs.com/) — официальная документация бекенд-фреймворка
+- [Binance Spot Testnet](https://testnet.binance.vision/) — registration and API Key generation
+- [Binance Spot API Documentation](https://binance-docs.github.io/apidocs/spot/en/) — full REST API documentation
+- [Binance WebSocket Streams](https://binance-docs.github.io/apidocs/spot/en/#websocket-market-streams) — WebSocket documentation
+- [lightweight-charts](https://github.com/nicehash/lightweight-charts) — financial charting library
+- [HMAC-SHA256 in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/sign) — Web Crypto API for signing
+- [NestJS Documentation](https://docs.nestjs.com/) — official backend framework documentation
