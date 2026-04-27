@@ -1,47 +1,47 @@
-# Технические требования к проекту
+# Project Technical Requirements
 
-Baseline-требования, которые ожидаются от каждого проекта. Ознакомьтесь с этим документом **до начала разработки**.
+Baseline requirements expected from every project. Review this document **before starting development**.
 
 ---
 
 ## Angular
 
-- Проект создан через Angular CLI (`ng new`)
-- Используется Angular 20+ (рекомендуется последняя стабильная версия)
+- Project created via Angular CLI (`ng new`)
+- Angular 20+ (latest stable version recommended)
 - Standalone API
-- Использование нового control flow (`@if`, `@for`, `@switch`)
-- Используется `OnPush` Change Detection
-- Используются Angular Signals (`signal`, `computed`, `effect`) для управления реактивным состоянием
-- `input()`, `output()`, `model()` — signal-based API для компонентов
-- Routing настроен с хотя бы 1 lazy-loaded маршрутом
-- Минимум 1 Reactive Form с валидацией
+- New control flow (`@if`, `@for`, `@switch`)
+- `OnPush` Change Detection
+- Angular Signals (`signal`, `computed`, `effect`) for reactive state management
+- `input()`, `output()`, `model()` — signal-based component API
+- Routing configured with at least 1 lazy-loaded route
+- At least 1 Reactive Form with validation
 
 ## TypeScript
 
-- В `tsconfig.json` включён `"strict": true`
-- В коде нет `@ts-ignore` и `as any`
-- Нет явного использования типа `any` (`: any`, `<any>`)
+- `"strict": true` enabled in `tsconfig.json`
+- No `@ts-ignore` or `as any` in the code
+- No explicit use of the `any` type (`: any`, `<any>`)
 
-> **Исключения:**
+> **Exceptions:**
 >
-> - `any` в типах внешних библиотек — допускается при наличии комментария `// TODO: replace any`.
-> - `any` в сложных дженерик сущностях — допускается при наличии комментария.
+> - `any` in external library types — allowed with a `// TODO: replace any` comment.
+> - `any` in complex generic constructs — allowed with a comment.
 
 ## Linting & Formatting
 
-- ESLint настроен: `eslint.config.*` или `.eslintrc.*`
-- Prettier настроен: `.prettierrc` или `prettier.config.*`
-- `ng lint` / `npm run lint` проходит без ошибок
+- ESLint configured: `eslint.config.*` or `.eslintrc.*`
+- Prettier configured: `.prettierrc` or `prettier.config.*`
+- `ng lint` / `npm run lint` passes without errors
 
 ## Error Handling
 
-- API-запросы обёрнуты в обработку ошибок (`catchError` / try-catch)
-- При переходе на несуществующий URL — осмысленная страница 404
-- При загрузке данных — индикатор загрузки
-- При ошибке сети — понятное сообщение пользователю
+- API requests are wrapped in error handling (`catchError` / try-catch)
+- Navigating to a non-existent URL shows a meaningful 404 page
+- A loading indicator is displayed while data is being fetched
+- A clear message is shown to the user on a network error
 
 ## Deploy
 
-- Frontend задеплоен (Vercel, Netlify, Firebase Hosting, GitHub Pages)
-- Ссылка на деплой в README
-- Проект запускается стандартными командами (`npm i && ng serve` / `npm start`)
+- Frontend is deployed (Vercel, Netlify, Firebase Hosting, GitHub Pages)
+- Deploy link in the README
+- The project runs with standard commands (`npm i && ng serve` / `npm start`)

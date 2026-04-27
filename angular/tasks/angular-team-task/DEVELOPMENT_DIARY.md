@@ -1,18 +1,18 @@
 # RS Angular Sprint: Development Diary
 
-Дневник является **обязательным** артефактом этого проекта.
+The diary is a **mandatory** artifact of this project.
 
-В этом проекте вы изучаете Angular с нуля (или углубляете знания). Дневник — это способ зафиксировать ваш путь: с какими концепциями столкнулись, что было сложно, как разобрались. Каждый спринт приносит новые темы (Components, Routing, Signals, Forms, HTTP, Testing), и дневник помогает структурировать обучение.
+In this project you are learning Angular from scratch (or deepening your knowledge). The diary is a way to capture your journey: which concepts you encountered, what was difficult, how you figured things out. Each sprint brings new topics (Components, Routing, Signals, Forms, HTTP, Testing), and the diary helps structure your learning.
 
-Дневник — это мощный способ ещё раз подумать над тем, что вы делаете, и кратко изложить суть работы. Это возможность для дополнительного повторения, «переваривания информации» и рефлексии.
+The diary is a powerful way to reflect on what you are doing and briefly summarize your work. It is an opportunity for additional review, "digesting information", and reflection.
 
 ---
 
-## Правила ведения
+## Guidelines
 
-1. **Личный формат:** Каждый студент ведёт свой отдельный дневник.
-2. **Локация:** Все дневники хранятся в папке `development-notes` в корне репозитория.
-3. **Структура папок:**
+1. **Individual format:** Each student maintains their own separate diary.
+2. **Location:** All diaries are stored in the `development-notes` folder at the root of the repository.
+3. **Folder structure:**
 
 ```
 /development-notes
@@ -25,72 +25,72 @@
      ...
 ```
 
-4. **Формат файла:** Markdown. Имя файла: `github-username-YYYY-MM-DD.md`
-5. **Частота:** Минимум **1 запись в неделю**. Sprint 1 (1 неделя) — 1 запись, Sprints 2–4 (2 недели каждый) — 1 запись.
-6. **Честность (No Backdating):** Запись должна быть закоммичена в **тот же или на следующий день**.
-7. **Ветка `main`:** Записи дневника должны быть замержены в ветку **`main`** до момента проверки. Парсер проверяет только `main`.
-8. **Не используйте Squash Merge для дневников.** При сквоше оригинальные даты коммитов затираются. Используйте обычный Merge commit или Rebase.
+4. **File format:** Markdown. File name: `github-username-YYYY-MM-DD.md`
+5. **Frequency:** At least **1 entry per week**. Sprint 1 (1 week) — 1 entry, Sprints 2–4 (2 weeks each) — 1 entry.
+6. **Honesty (No Backdating):** An entry must be committed on **the same or the next day**.
+7. **`main` branch:** Diary entries must be merged into the **`main`** branch before the review. The parser only checks `main`.
+8. **Do not use Squash Merge for diaries.** Squashing overwrites the original commit dates. Use a regular Merge commit or Rebase.
 
-- _Запрещено:_ Писать 10 записей в воскресенье вечером и коммитить их пачкой. Мы проверяем историю Git.
+- _Forbidden:_ Writing 10 entries on Sunday evening and committing them all at once. We check the Git history.
 
-9. **"Hand made":** При разработке вы можете использовать AI. Но дневник пишите лично (допускаются только фиксы грамматики через AI).
-10. **Скриншоты, гифки, ссылки на PR и Issues** категорически приветствуются!
-11. **Язык:** Русский или Английский.
-12. **Подробности разработки 2 личных Feature Component** — в дневнике должно прослеживаться описание разработки **минимум 2 компонентов**: какие проблемы возникли, как решали, что изучили.
+9. **"Hand made":** You may use AI during development. But write the diary yourself (only grammar fixes via AI are allowed).
+10. **Screenshots, GIFs, links to PRs and Issues** are highly encouraged!
+11. **Language:** Russian or English.
+12. **Details of developing 2 personal Feature Components** — the diary must contain a description of developing **at least 2 components**: what problems arose, how you solved them, what you learned.
 
-## Требование: 2 личных Feature Component
+## Requirement: 2 Personal Feature Components
 
-При разработке вы можете использовать AI. Однако **минимум 2 Feature Component** должны быть разработаны **лично вами**.
+You may use AI during development. However, **at least 2 Feature Components** must be developed **personally by you**.
 
-**Что это значит на практике:**
+**What this means in practice:**
 
-- В дневнике должно прослеживаться описание разработки минимум 2 компонентов
-- Для каждого компонента: какие Angular-концепции использовали (DI, CD, Forms и т.д.), какие проблемы возникли, как решали
+- The diary must contain a description of developing at least 2 components
+- For each component: which Angular concepts you used (DI, CD, Forms, etc.), what problems arose, how you solved them
 
-## Пример структуры записи
+## Example Entry Structure
 
 ```markdown
 # Sprint 2: Routing & Signals — 2025-03-10
 
-- **Что было сделано:** Настроил маршрутизацию с lazy loading. Создал AuthService и AuthGuard. Перевёл состояние компонентов на signal().
-- **Проблемы:** Не понимал, как связать signal() с OnPush. Потратил 2 часа на понимание разницы между computed() и effect().
-- **Решения:** Прочитал документацию по signals. Нарисовал схему реактивного состояния компонента.
-- **Что понял:** signal() автоматически триггерит Change Detection в OnPush. computed() — для производных значений, effect() — для side effects.
-- **Планы:** На Sprint 3 сделать форму с валидацией и кастомную директиву.
-- **Затраченное время:** 4 часа
+- **What was done:** Set up routing with lazy loading. Created AuthService and AuthGuard. Migrated component state to signal().
+- **Problems:** Did not understand how to connect signal() with OnPush. Spent 2 hours understanding the difference between computed() and effect().
+- **Solutions:** Read the signals documentation. Drew a diagram of the component's reactive state.
+- **What I learned:** signal() automatically triggers Change Detection in OnPush. computed() is for derived values, effect() is for side effects.
+- **Plans:** In Sprint 3, build a form with validation and a custom directive.
+- **Time spent:** 4 hours
 ```
 
 ---
 
-## План Б
+## Plan B
 
-Если по какой-либо причине вы не вели дневник в течение одного спринта, вам необходимо записать видео ролик. Если не вели 2+ спринта — два видео ролика.
+If for any reason you did not keep the diary during one sprint, you must record a video. If you missed 2+ sprints — two videos.
 
-**Требования к видео:**
+**Video requirements:**
 
-1. **Объём:** Выберите один Feature Component из тех, что вы реализовали.
-2. **Сценарий:** Удалите его код. Напишите его заново в реальном времени.
-3. **Комментарии:** Объясняйте вслух: почему такая архитектура, какой DI/CD подход выбрали, как работают Forms, как тестировали.
-4. **Длительность:** от 10 минут.
+1. **Scope:** Choose one Feature Component that you implemented.
+2. **Scenario:** Delete its code. Rewrite it from scratch in real time.
+3. **Commentary:** Explain out loud: why this architecture, which DI/CD approach you chose, how Forms work, how you tested.
+4. **Duration:** at least 10 minutes.
 
 ---
 
-## Критерии оценки Development Diary (Max 50 баллов)
+## Scoring Criteria for Development Diary (Max 50 points)
 
-### Порог допуска
+### Admission Threshold
 
-Дневник является **обязательным условием** допуска к [менторскому собеседованию](./SCORE_PERSONAL.md) после каждого спринта. Нет дневника за спринт → нет допуска к собеседованию → 0 баллов за этот спринт.
+The diary is a **mandatory condition** for admission to the [mentor interview](./SCORE_PERSONAL.md) after each sprint. No diary for a sprint → no admission to the interview → 0 points for that sprint.
 
-| Требование                                                                                    | Статус    |
-| --------------------------------------------------------------------------------------------- | --------- |
-| Дневник разработки существует, заполнен регулярно, записи закоммичены своевременно            | must pass |
-| **Описан в дневнике или снят на видео процесс разработки минимум 2 личных Feature Component** | must pass |
+| Requirement                                                                                      | Status    |
+| ------------------------------------------------------------------------------------------------ | --------- |
+| Development diary exists, is filled in regularly, entries are committed on time                  | must pass |
+| **Development of at least 2 personal Feature Components is documented in the diary or on video** | must pass |
 
-### Критерии качества (0–100 баллов)
+### Quality Criteria (0–50 points)
 
-| Баллы  | Уровень      | Описание                                                                                                         |
-| ------ | ------------ | ---------------------------------------------------------------------------------------------------------------- |
-| **10** | Формальный   | Краткие записи без деталей ("сделал X")                                                                          |
-| **30** | Регулярный   | Минимум 1 запись/неделю, виден прогресс, описаны 2 компонента                                                    |
-| **40** | Детальный    | Есть описание проблем и решений, понятен ход мысли по Angular-концепциям (DI, CD, Forms)                         |
-| **50** | Рефлексивный | Глубокая рефлексия, сравнение подходов (OnPush vs Default, Reactive vs Template-driven), видно реальное обучение |
+| Points | Level      | Description                                                                                                          |
+| ------ | ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| **10** | Formal     | Brief entries without details ("did X")                                                                              |
+| **30** | Regular    | At least 1 entry/week, progress is visible, 2 components are described                                               |
+| **40** | Detailed   | Problems and solutions are described, thought process on Angular concepts (DI, CD, Forms) is clear                   |
+| **50** | Reflective | Deep reflection, comparison of approaches (OnPush vs Default, Reactive vs Template-driven), real learning is visible |

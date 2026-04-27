@@ -226,6 +226,7 @@ The entire array - that's the whole idea, to use query string parameters to requ
 
 We have created a Telegram channel to give you an opportunity to discuss the task, ask questions, etc.
 Join - DELETED
+
 ## 📚 Resources
 
 - [Server Mock Repo](https://github.com/mikhama/async-race-api)

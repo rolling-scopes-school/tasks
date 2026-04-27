@@ -1,123 +1,123 @@
 # Angular Sprint: Sprint 3 Checkpoint
 
-**Тема: Directives, Pipes & Forms (`@angular/core`, `@angular/forms`)**
+**Topic: Directives, Pipes & Forms (`@angular/core`, `@angular/forms`)**
 
-## Зачем этот спринт
+## Why This Sprint
 
-Directives и Pipes расширяют шаблон Angular: директивы добавляют поведение элементам, pipes трансформируют данные для отображения. Forms — ключевая часть большинства приложений: Angular Reactive Forms дают полный контроль над состоянием и валидацией формы. В этом спринте вы углубитесь в шаблонный слой Angular и научитесь работать с формами.
+Directives and Pipes extend Angular templates: directives add behavior to elements, pipes transform data for display. Forms are a key part of most applications: Angular Reactive Forms give you full control over form state and validation. In this sprint you will dive deeper into Angular's template layer and learn to work with forms.
 
-**Ключевые концепции спринта:**
+**Key concepts of this sprint:**
 
 - Attribute directives: `@Directive()`, `HostBinding`, `HostListener`
-- Structural directives: `*ngIf`, `*ngFor` (и новый `@if`, `@for`)
+- Structural directives: `*ngIf`, `*ngFor` (and the new `@if`, `@for`)
 - Custom pipes: `PipeTransform`, pure vs impure
 - Content projection: `ng-content`, `ng-template`, `@ContentChild`
 - **Reactive Forms:** `FormGroup`, `FormControl`, `FormArray`, `FormBuilder`
-- Валидация: built-in, кастомные, async валидаторы
-- Отображение ошибок валидации в шаблоне
+- Validation: built-in, custom, async validators
+- Displaying validation errors in the template
 
-**Сквозная тема — DI и Change Detection:**
+**Cross-cutting topic — DI and Change Detection:**
 
-В этом спринте вы впервые используете `InjectionToken` / кастомный провайдер, а также переводите компоненты на `OnPush` стратегию.
-
----
-
-## Условия получения (40 баллов)
-
-Все условия выполнены → 40 баллов, любое не выполнено → 0.
-
-### Личные (40 баллов)
-
-1. **Минимум 1 кастомная директива или pipe** — `@Directive()` или `@Pipe()` с осмысленным использованием в проекте. Замержено в `main`.
-2. **Минимум 1 Reactive Form реализована** — с `FormGroup` и `FormControl`. Минимум 3 поля. Замержена в `main`.
-3. **Валидация работает** — минимум 2 типа валидаторов (например, `required` + `minLength` или кастомный валидатор). Ошибки отображаются в шаблоне.
-4. **Форма функциональна** — при submit данные обрабатываются (вывод в консоль, отправка в сервис, навигация — любое осмысленное действие).
-5. **`InjectionToken` или кастомный провайдер** — `useValue`, `useFactory`, `useClass` или `useExisting` в `providers`. Замержен в `main`.
-6. **Минимум 3 компонента используют `OnPush`** — с `changeDetection: ChangeDetectionStrategy.OnPush`. Замержены в `main`.
-7. **Минимум 1 запись в дневнике за Sprint 3** — замержены в `main`.
+In this sprint you will use `InjectionToken` / custom providers for the first time and switch components to the `OnPush` strategy.
 
 ---
 
-## Что изучить
+## Requirements (40 points)
 
-### Кастомная attribute-директива
+All requirements met → 40 points, any requirement not met → 0.
 
-- Что такое `@Directive()` и как создать кастомную директиву
-- Как использовать `HostListener` для обработки событий DOM
-- Как использовать `ElementRef` для доступа к DOM-элементу
-- Signal-based inputs в директивах через `input()`
+### Individual (40 points)
 
-### Structural-директивы
+1. **At least 1 custom directive or pipe** — `@Directive()` or `@Pipe()` with meaningful usage in the project. Merged into `main`.
+2. **At least 1 Reactive Form implemented** — with `FormGroup` and `FormControl`. At least 3 fields. Merged into `main`.
+3. **Validation works** — at least 2 types of validators (e.g., `required` + `minLength` or a custom validator). Errors are displayed in the template.
+4. **Form is functional** — on submit the data is processed (console output, sent to a service, navigation — any meaningful action).
+5. **`InjectionToken` or custom provider** — `useValue`, `useFactory`, `useClass`, or `useExisting` in `providers`. Merged into `main`.
+6. **At least 3 components use `OnPush`** — with `changeDetection: ChangeDetectionStrategy.OnPush`. Merged into `main`.
+7. **At least 1 diary entry for Sprint 3** — merged into `main`.
 
-- Чем structural directive отличается от attribute directive
-- Новый Angular control flow: `@if`, `@for`, `@switch` — отличия от `*ngIf`/`*ngFor`/`*ngSwitch`
-- Как создать кастомную structural directive с `TemplateRef` и `ViewContainerRef`
-- `ng-template` и `ng-container` — когда и зачем
+---
 
-### Кастомный pipe
+## What to Study
 
-- Что такое `@Pipe()` и как реализовать `PipeTransform`
-- Разница между pure и impure pipe
-- Когда использовать pipe вместо метода компонента
+### Custom Attribute Directive
+
+- What `@Directive()` is and how to create a custom directive
+- How to use `HostListener` to handle DOM events
+- How to use `ElementRef` to access the DOM element
+- Signal-based inputs in directives via `input()`
+
+### Structural Directives
+
+- How a structural directive differs from an attribute directive
+- New Angular control flow: `@if`, `@for`, `@switch` — differences from `*ngIf`/`*ngFor`/`*ngSwitch`
+- How to create a custom structural directive with `TemplateRef` and `ViewContainerRef`
+- `ng-template` and `ng-container` — when and why
+
+### Custom Pipe
+
+- What `@Pipe()` is and how to implement `PipeTransform`
+- Difference between pure and impure pipes
+- When to use a pipe instead of a component method
 
 ### Reactive Forms
 
-- Как создать `FormGroup` с `FormBuilder`
-- `FormControl` — чтение значения, статус (`valid`, `dirty`, `touched`)
-- Встроенные валидаторы: `required`, `minLength`, `email`, `pattern`
-- Как отобразить ошибки валидации в шаблоне
+- How to create a `FormGroup` with `FormBuilder`
+- `FormControl` — reading value, status (`valid`, `dirty`, `touched`)
+- Built-in validators: `required`, `minLength`, `email`, `pattern`
+- How to display validation errors in the template
 
-### Кастомный валидатор
+### Custom Validator
 
-- Как создать синхронный валидатор (`ValidatorFn`)
-- Когда использовать async валидатор
-- Как применить валидатор на уровне группы (`FormGroup`)
+- How to create a synchronous validator (`ValidatorFn`)
+- When to use an async validator
+- How to apply a validator at the group level (`FormGroup`)
 
 ### Content Projection
 
-- Что такое `ng-content` и зачем он нужен
-- Как использовать `ng-template` для переиспользуемых компонентов
-- Когда применять `@ContentChild` / `@ContentChildren`
+- What `ng-content` is and why it is needed
+- How to use `ng-template` for reusable components
+- When to use `@ContentChild` / `@ContentChildren`
 
 ### Change Detection — OnPush
 
-- Стратегии: `Default` vs `OnPush`
-- Когда Angular перепроверяет `OnPush` компонент
-- Как signals и `AsyncPipe` связаны с OnPush
+- Strategies: `Default` vs `OnPush`
+- When Angular re-checks an `OnPush` component
+- How signals and `AsyncPipe` relate to OnPush
 - `markForCheck()` vs `detectChanges()`
 
-### Dependency Injection — углубление
+### Dependency Injection — Advanced
 
-- `InjectionToken` для не-классовых зависимостей
-- Провайдеры: `useClass`, `useValue`, `useFactory`, `useExisting`
-- Иерархия инжекторов: root → component
+- `InjectionToken` for non-class dependencies
+- Providers: `useClass`, `useValue`, `useFactory`, `useExisting`
+- Injector hierarchy: root → component
 
 ---
 
-## Вопросы для самопроверки
+## Self-Check Questions
 
-1. Чем attribute directive отличается от structural directive?
-2. Что такое `pure` pipe и чем он отличается от `impure`?
-3. В чём разница между Template-driven и Reactive Forms?
-4. Как работает валидация в Reactive Forms? Чем sync валидатор отличается от async?
-5. Зачем нужен `InjectionToken`?
-6. В чём разница между `Default` и `OnPush` стратегиями Change Detection?
+1. How does an attribute directive differ from a structural directive?
+2. What is a `pure` pipe and how does it differ from an `impure` one?
+3. What is the difference between Template-driven and Reactive Forms?
+4. How does validation work in Reactive Forms? How does a sync validator differ from an async one?
+5. Why is `InjectionToken` needed?
+6. What is the difference between `Default` and `OnPush` Change Detection strategies?
 
 ---
 
 ## FAQ
 
-_Вопрос:_ Обязательно ли делать кастомную директиву И pipe?
-_Ответ:_ Нет, достаточно одного из двух.
+_Q:_ Is it mandatory to create both a custom directive AND a pipe?
+_A:_ No, one of the two is sufficient.
 
-_Вопрос:_ Обязательно ли использовать Reactive Forms?
-_Ответ:_ Да, минимум одна форма должна быть реактивной. Template-driven можно использовать дополнительно.
+_Q:_ Is it mandatory to use Reactive Forms?
+_A:_ Yes, at least one form must be reactive. Template-driven can be used additionally.
 
-_Вопрос:_ Нужен ли кастомный валидатор?
-_Ответ:_ Не обязательно для чекпоинта, но рекомендуется — покажет глубину понимания.
+_Q:_ Is a custom validator required?
+_A:_ Not required for the checkpoint, but recommended — it demonstrates deeper understanding.
 
 ---
 
-## Сабмит
+## Submission
 
-Отдельный сабмит не требуется. Оценка выставляется **автоматически** после дедлайна.
+No separate submission is required. The score is assigned **automatically** after the deadline.

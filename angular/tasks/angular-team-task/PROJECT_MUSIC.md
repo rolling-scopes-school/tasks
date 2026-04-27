@@ -1,66 +1,66 @@
-# MusicFlow — музыкальный стриминговый сервис
+# MusicFlow — Music Streaming Service
 
-Приложение-клон музыкального стримингового сервиса, в котором пользователь может искать треки и исполнителей, слушать музыку, собирать плейлисты и вести библиотеку избранного.
+A music streaming service clone where the user can search for tracks and artists, listen to music, build playlists, and maintain a favorites library.
 
-Платформа работает поверх **Jamendo API v3.0** — каталог из 500 000+ треков под свободными лицензиями. API предоставляет поиск, фильтрацию, информацию об исполнителях и альбомах, а также прямые ссылки на аудио-стримы.
+The platform runs on top of **Jamendo API v3.0** — a catalog of 500,000+ tracks under free licenses. The API provides search, filtering, artist and album information, and direct links to audio streams.
 
 > **API:** [Jamendo API v3.0](https://developer.jamendo.com/v3.0/docs).
 > REST: `https://api.jamendo.com/v3.0/…`
-> Авторизация: `client_id` (GET-параметр) для чтения, OAuth2 для write-методов.
-> Бесплатный тариф: до 35 000 запросов в месяц.
+> Authorization: `client_id` (GET parameter) for reading, OAuth2 for write methods.
+> Free tier: up to 35,000 requests per month.
 
 ---
 
-## Настройка API
+## API Setup
 
-1. Зарегистрироваться на [devportal.jamendo.com](https://devportal.jamendo.com/) и создать приложение.
-2. Получить `client_id` — добавляется как query-параметр ко всем запросам.
-3. Формат ответа: `format=json` (или `format=jsonpretty` для отладки).
-4. Для write-методов (favorites) — настроить OAuth2 redirect URL в панели приложения.
+1. Register at [devportal.jamendo.com](https://devportal.jamendo.com/) and create an application.
+2. Obtain a `client_id` — added as a query parameter to all requests.
+3. Response format: `format=json` (or `format=jsonpretty` for debugging).
+4. For write methods (favorites) — configure the OAuth2 redirect URL in the application panel.
 
-> **Важно:** Бесплатный тариф ограничен 35 000 запросами в месяц. Используйте кеширование и избегайте лишних запросов при разработке.
+> **Important:** The free tier is limited to 35,000 requests per month. Use caching and avoid unnecessary requests during development.
 
 ---
 
 ## Backend
 
-Проект использует собственный бекенд для хранения пользовательского контента: плейлистов и загруженных треков.
+The project uses its own backend for storing user content: playlists and uploaded tracks.
 
-> **Обязательно:** Бекенд должен быть написан на **NestJS** (TypeScript). Использование других фреймворков (Express, Fastify без NestJS и т.д.) не допускается.
+> **Required:** The backend must be written in **NestJS** (TypeScript). Using other frameworks (Express, Fastify without NestJS, etc.) is not allowed.
 
-| Эндпоинт         | Метод  | Описание                                               |
-| ---------------- | ------ | ------------------------------------------------------ |
-| `/auth/register` | POST   | Регистрация: email + пароль                            |
-| `/auth/login`    | POST   | Вход: email + пароль → JWT                             |
-| `/playlists`     | GET    | Получить плейлисты пользователя                        |
-| `/playlists`     | POST   | Создать плейлист                                       |
-| `/playlists/:id` | PUT    | Обновить плейлист (название, описание, порядок треков) |
-| `/playlists/:id` | DELETE | Удалить плейлист                                       |
-| `/tracks/upload` | POST   | Загрузить аудиофайл (multipart/form-data)              |
-| `/tracks`        | GET    | Получить загруженные пользователем треки               |
-| `/tracks/:id`    | DELETE | Удалить загруженный трек                               |
+| Endpoint         | Method | Description                                        |
+| ---------------- | ------ | -------------------------------------------------- |
+| `/auth/register` | POST   | Registration: email + password                     |
+| `/auth/login`    | POST   | Login: email + password → JWT                      |
+| `/playlists`     | GET    | Get user playlists                                 |
+| `/playlists`     | POST   | Create a playlist                                  |
+| `/playlists/:id` | PUT    | Update a playlist (name, description, track order) |
+| `/playlists/:id` | DELETE | Delete a playlist                                  |
+| `/tracks/upload` | POST   | Upload an audio file (multipart/form-data)         |
+| `/tracks`        | GET    | Get tracks uploaded by the user                    |
+| `/tracks/:id`    | DELETE | Delete an uploaded track                           |
 
 ---
 
-## Discover Page Implementation (главная)
+## Discover Page Implementation (main page)
 
 ### 1. Popular Tracks
 
-- Отобразить секцию «Популярные треки» — список из 10–15 треков, отсортированных по популярности. Данные загружаются из Jamendo API (`GET /v3.0/tracks?order=popularity_total`).
-- Каждый трек отображается в виде карточки: обложка альбома, название, имя исполнителя, длительность (в формате `mm:ss`).
-- Число прослушиваний отображается в сокращённом виде (например, `1 234 567` → `1.2M`).
-- Кнопка Play на каждой карточке — при нажатии трек начинает воспроизводиться в плеере.
-- Если трек уже воспроизводится — визуальная индикация (например, анимация equalizer bars или подсветка карточки).
+- Display a "Popular Tracks" section — a list of 10–15 tracks sorted by popularity. Data loaded from Jamendo API (`GET /v3.0/tracks?order=popularity_total`).
+- Each track is displayed as a card: album cover, title, artist name, duration (in `mm:ss` format).
+- Play count is displayed in abbreviated form (e.g., `1,234,567` → `1.2M`).
+- A Play button on each card — clicking it starts playback in the player.
+- If a track is already playing — visual indication (e.g., equalizer bars animation or card highlight).
 
 ### 2. New Releases
 
-- Секция «Новые релизы» — список из 10 треков, отсортированных по дате (`GET /v3.0/tracks?order=releasedate_desc`).
-- Формат карточек аналогичен Popular Tracks.
+- A "New Releases" section — a list of 10 tracks sorted by date (`GET /v3.0/tracks?order=releasedate_desc`).
+- Card format is the same as Popular Tracks.
 
 ### 3. Genre Tags
 
-- Блок с тегами/жанрами (rock, electronic, jazz, pop и т.д.).
-- Клик по тегу ведёт на страницу Search с фильтром по этому тегу.
+- A block with genre tags (rock, electronic, jazz, pop, etc.).
+- Clicking a tag navigates to the Search page with a filter for that tag.
 
 ---
 
@@ -68,26 +68,26 @@
 
 ### 1. Search Input
 
-- Строка поиска в верхней части страницы (или в хедере).
-- Результаты обновляются по мере ввода текста без нажатия Enter (live search).
-- Поиск выполняется через Jamendo API (`GET /v3.0/tracks?search={query}`).
+- A search bar at the top of the page (or in the header).
+- Results update as the user types without pressing Enter (live search).
+- Search is performed via Jamendo API (`GET /v3.0/tracks?search={query}`).
 
 ### 2. Search Results
 
-- Результаты отображаются в виде списка карточек треков: обложка, название, исполнитель, длительность, число прослушиваний.
-- Кнопка Play на каждом результате.
-- Клик по имени исполнителя — переход на страницу Artist.
-- Клик по названию альбома — переход на страницу Album.
+- Results are displayed as a list of track cards: cover, title, artist, duration, play count.
+- A Play button on each result.
+- Clicking the artist name navigates to the Artist page.
+- Clicking the album name navigates to the Album page.
 
 ### 3. Filtering and Sorting
 
-- Фильтры: по тегу/жанру (multi-select), диапазон длительности (min–max секунд).
-- Сортировка: по популярности, по дате, по названию.
-- Фильтры и сортировка объединены в панель, изменения применяются мгновенно.
+- Filters: by tag/genre (multi-select), duration range (min–max seconds).
+- Sorting: by popularity, by date, by name.
+- Filters and sorting are combined in a panel; changes are applied instantly.
 
 ### 4. Pagination / Load More
 
-- При большом количестве результатов — пагинация или кнопка «Загрузить ещё».
+- For a large number of results — pagination or a "Load more" button.
 
 ---
 
@@ -95,20 +95,20 @@
 
 ### 1. Artist Information
 
-- Отобразить данные об исполнителе из Jamendo API (`GET /v3.0/artists?id={id}`): имя, фото, краткая биография (если доступна), количество альбомов.
+- Display artist data from Jamendo API (`GET /v3.0/artists?id={id}`): name, photo, short biography (if available), number of albums.
 
 ### 2. Artist Tracks
 
-- Список популярных треков исполнителя (`GET /v3.0/artists/tracks?id={id}`).
-- Формат: обложка, название, длительность, число прослушиваний.
-- Кнопка Play на каждом треке.
-- Кнопка «Воспроизвести все» — добавить все треки в очередь воспроизведения.
+- List of the artist's popular tracks (`GET /v3.0/artists/tracks?id={id}`).
+- Format: cover, title, duration, play count.
+- A Play button on each track.
+- A "Play all" button — adds all tracks to the playback queue.
 
 ### 3. Artist Albums
 
-- Список альбомов исполнителя (`GET /v3.0/artists/albums?id={id}`).
-- Каждый альбом: обложка, название, дата выпуска, количество треков.
-- Клик по альбому — переход на страницу Album.
+- List of the artist's albums (`GET /v3.0/artists/albums?id={id}`).
+- Each album: cover, title, release date, track count.
+- Clicking an album navigates to the Album page.
 
 ---
 
@@ -116,14 +116,14 @@
 
 ### 1. Album Information
 
-- Обложка альбома, название, имя исполнителя (клик ведёт на Artist), дата выпуска, общая длительность.
-- Данные загружаются из Jamendo API (`GET /v3.0/albums/tracks?id={id}`).
+- Album cover, title, artist name (click navigates to Artist), release date, total duration.
+- Data loaded from Jamendo API (`GET /v3.0/albums/tracks?id={id}`).
 
 ### 2. Track List
 
-- Нумерованный список треков альбома: номер, название, длительность (mm:ss).
-- Кнопка Play на каждом треке.
-- Кнопка «Воспроизвести альбом» — добавить все треки в очередь.
+- Numbered list of album tracks: number, title, duration (mm:ss).
+- A Play button on each track.
+- A "Play album" button — adds all tracks to the queue.
 
 ---
 
@@ -131,51 +131,51 @@
 
 ### 1. Playlists
 
-- Список пользовательских плейлистов: название, количество треков, общая длительность.
-- Кнопка «Создать плейлист» — открывает форму создания.
-- Клик по плейлисту — открывает список треков плейлиста с возможностью воспроизведения, удаления треков, изменения порядка.
+- List of user playlists: name, track count, total duration.
+- A "Create playlist" button — opens the creation form.
+- Clicking a playlist opens the track list with options to play, remove tracks, and reorder.
 
 ### 2. Playlist Management
 
-- Форма создания/редактирования плейлиста: название (обязательно), описание (опционально).
-- Добавление треков через inline-поиск: поле ввода → результаты → кнопка «добавить».
-- Плейлист должен содержать хотя бы 1 трек (валидация).
-- Удаление плейлиста с подтверждением.
-- Данные сохраняются локально (localStorage).
+- Playlist creation/editing form: name (required), description (optional).
+- Adding tracks via inline search: input field → results → "add" button.
+- A playlist must contain at least 1 track (validation).
+- Playlist deletion with confirmation.
+- Data is saved locally (localStorage).
 
-### 3. Recently Played (история прослушиваний)
+### 3. Recently Played (listening history)
 
-- Автоматическое сохранение каждого прослушанного трека с датой и временем.
-- Список «Недавно прослушанные» с возможностью фильтрации по дате.
-- Клик по треку — воспроизведение.
+- Automatic saving of every played track with date and time.
+- A "Recently Played" list with date filtering.
+- Clicking a track starts playback.
 
 ### 4. Access Control
 
-- Library доступна только авторизованным пользователям. Неавторизованные перенаправляются на Discover.
+- Library is accessible only to authenticated users. Unauthenticated users are redirected to Discover.
 
 ---
 
-## Player Implementation (глобальный плеер)
+## Player Implementation (global player)
 
 ### 1. Player UI
 
-- Плеер закреплён в нижней части страницы, виден на всех страницах.
-- Отображает: обложку текущего трека, название, имя исполнителя.
-- Элементы управления: Play/Pause, Previous, Next.
-- Progress bar — визуальная полоса прогресса воспроизведения. Пользователь может кликнуть/перетащить для перемотки.
-- Отображение текущего времени и общей длительности в формате `mm:ss`.
-- Регулятор громкости.
+- The player is fixed at the bottom of the page, visible on all pages.
+- Displays: current track cover, title, artist name.
+- Controls: Play/Pause, Previous, Next.
+- Progress bar — a visual playback progress bar. The user can click/drag to seek.
+- Display of current time and total duration in `mm:ss` format.
+- Volume control.
 
-### 2. Queue (очередь воспроизведения)
+### 2. Queue (playback queue)
 
-- Пользователь может открыть список очереди воспроизведения.
-- Треки добавляются в очередь при нажатии Play или «Воспроизвести все».
-- Previous/Next переключают между треками в очереди.
+- The user can open the playback queue list.
+- Tracks are added to the queue when pressing Play or "Play all".
+- Previous/Next switch between tracks in the queue.
 
 ### 3. Audio Playback
 
-- Воспроизведение треков через прямые ссылки на аудио-стримы из Jamendo API (поле `audio` в ответе).
-- Плеер продолжает воспроизведение при навигации между страницами.
+- Track playback via direct audio stream links from Jamendo API (`audio` field in the response).
+- The player continues playback when navigating between pages.
 
 ---
 
@@ -183,12 +183,12 @@
 
 ### 1. Team Introduction
 
-- Информация о каждом члене команды: имя, роль в проекте, краткое описание, фото, ссылка на GitHub.
-- Дизайн карточек выполнен единообразно.
+- Information about each team member: name, role in the project, short bio, photo, GitHub link.
+- Card design is consistent.
 
 ### 2. RS School Logo
 
-- Логотип RS School с кликабельной ссылкой на [rs.school](https://rs.school/).
+- RS School logo with a clickable link to [rs.school](https://rs.school/).
 
 ---
 
@@ -196,48 +196,48 @@
 
 ### 1. Header Layout
 
-- Логотип/название приложения, ведущий на Discover.
-- Навигация: Discover, Search, Library, About Us.
-- Строка поиска (при вводе — переход на Search с результатами).
-- Иконка/статус авторизации.
+- App logo/name linking to Discover.
+- Navigation: Discover, Search, Library, About Us.
+- Search bar (typing navigates to Search with results).
+- Authorization status icon.
 
 ### 2. Routing
 
-- Все страницы доступны по прямым URL и через навигацию в хедере.
-- Поддержка кнопок браузера (назад/вперёд).
-- При переходе по несуществующему URL — страница 404 (Not Found) с предложением вернуться на Discover.
-- Library доступна только авторизованным пользователям — при попытке доступа без авторизации, перенаправление на Discover.
-- Страницы загружаются лениво (lazy loading).
+- All pages are accessible via direct URLs and through header navigation.
+- Browser back/forward buttons are supported.
+- Navigating to a non-existent URL shows a 404 (Not Found) page with an option to return to Discover.
+- Library is accessible only to authenticated users — attempting to access without authorization redirects to Discover.
+- Pages are loaded lazily (lazy loading).
 
 ---
 
-## Beyond API — фичи, которых нет в Jamendo
+## Beyond API — Features Not Available in Jamendo
 
-Jamendo API предоставляет только чтение каталога. Пользовательский контент и персональные коллекции хранятся на собственном NestJS бекенде.
+Jamendo API provides read-only catalog access. User content and personal collections are stored on the custom NestJS backend.
 
-### 1. Загрузка собственных треков
+### 1. Uploading Custom Tracks
 
-- Форма загрузки: название, исполнитель, жанр, аудиофайл.
-- Файл отправляется на бекенд (`POST /tracks/upload`, multipart/form-data) и сохраняется на сервере.
-- Загруженные треки отображаются в Library наравне с треками из Jamendo.
-- Воспроизведение через URL, возвращённый бекендом.
-- Пользователь может удалить свой трек (`DELETE /tracks/:id`).
+- Upload form: title, artist, genre, audio file.
+- The file is sent to the backend (`POST /tracks/upload`, multipart/form-data) and stored on the server.
+- Uploaded tracks appear in the Library alongside Jamendo tracks.
+- Playback via the URL returned by the backend.
+- The user can delete their track (`DELETE /tracks/:id`).
 
-### 2. Пользовательские плейлисты
+### 2. User Playlists
 
-- Полный CRUD через бекенд: создание, редактирование названия/описания, добавление/удаление треков, изменение порядка (drag & drop).
-- Данные доступны с любого устройства после входа в аккаунт.
+- Full CRUD via the backend: creation, editing name/description, adding/removing tracks, reordering (drag & drop).
+- Data is accessible from any device after logging in.
 
 ---
 
-## Полезные ссылки
+## Useful Links
 
-- [Jamendo API v3.0 Documentation](https://developer.jamendo.com/v3.0/docs) — основная документация
-- [Tracks endpoint](https://developer.jamendo.com/v3.0/tracks) — поиск и фильтрация треков
-- [Artists endpoint](https://developer.jamendo.com/v3.0/artists) — информация об исполнителях
-- [Albums endpoint](https://developer.jamendo.com/v3.0/albums) — информация об альбомах
+- [Jamendo API v3.0 Documentation](https://developer.jamendo.com/v3.0/docs) — main documentation
+- [Tracks endpoint](https://developer.jamendo.com/v3.0/tracks) — track search and filtering
+- [Artists endpoint](https://developer.jamendo.com/v3.0/artists) — artist information
+- [Albums endpoint](https://developer.jamendo.com/v3.0/albums) — album information
 - [Write methods](https://developer.jamendo.com/v3.0/write-methods) — favorites, likes (OAuth2)
-- [Jamendo Developer Portal](https://devportal.jamendo.com/) — регистрация приложения
-- [HTML5 Audio API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement) — управление воспроизведением
-- [NestJS Documentation](https://docs.nestjs.com/) — официальная документация бекенд-фреймворка
-- [NestJS File Upload](https://docs.nestjs.com/techniques/file-upload) — загрузка файлов через Multer
+- [Jamendo Developer Portal](https://devportal.jamendo.com/) — application registration
+- [HTML5 Audio API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement) — playback management
+- [NestJS Documentation](https://docs.nestjs.com/) — official backend framework documentation
+- [NestJS File Upload](https://docs.nestjs.com/techniques/file-upload) — file upload via Multer

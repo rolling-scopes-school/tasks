@@ -1,114 +1,114 @@
 # Angular Sprint: Sprint 4 Checkpoint
 
-**Тема: HTTP, RxJS & Testing (`@angular/common/http`, `rxjs`, `@angular/core/testing`)**
+**Topic: HTTP, RxJS & Testing (`@angular/common/http`, `rxjs`, `@angular/core/testing`)**
 
-## Зачем этот спринт
+## Why This Sprint
 
-Большинство Angular-приложений взаимодействуют с бэкендом через HTTP. Angular `HttpClient` возвращает Observable, поэтому знание базовых RxJS-операторов обязательно. Параллельно вы напишете первые unit-тесты — без тестов невозможно поддерживать приложение в долгосрочной перспективе. Этот спринт — финальный шаг к production-ready приложению.
+Most Angular applications communicate with a backend via HTTP. Angular's `HttpClient` returns Observables, so knowledge of basic RxJS operators is essential. At the same time you will write your first unit tests — without tests, maintaining an application long-term is impossible. This sprint is the final step toward a production-ready application.
 
-**Ключевые концепции спринта:**
+**Key concepts of this sprint:**
 
 - `HttpClient`: GET, POST, PUT, DELETE
-- HTTP Interceptors (functional и class-based)
-- Обработка ошибок: `catchError`, retry strategies
-- RxJS операторы: `map`, `switchMap`, `debounceTime`, `distinctUntilChanged`
-- `takeUntilDestroyed` — автоматическая отписка
+- HTTP Interceptors (functional and class-based)
+- Error handling: `catchError`, retry strategies
+- RxJS operators: `map`, `switchMap`, `debounceTime`, `distinctUntilChanged`
+- `takeUntilDestroyed` — automatic unsubscription
 - Error Handling: 404 page, loading state, error state
-- `TestBed` — конфигурация тестового окружения
-- Mocking сервисов через `providers` и `jasmine.createSpyObj`
+- `TestBed` — test environment configuration
+- Mocking services via `providers` and `jasmine.createSpyObj`
 - `HttpClientTestingModule` / `provideHttpClientTesting()`
-- Code Review — разбор кода тиммейта
+- Code Review — reviewing a teammate's code
 
 ---
 
-## Условия получения (40 баллов)
+## Requirements (40 points)
 
-Все условия выполнены → 40 баллов, любое не выполнено → 0.
+All requirements met → 40 points, any requirement not met → 0.
 
-### Командные (+20)
+### Team (+20)
 
-1. **Страница 404** — при переходе на несуществующий URL отображается осмысленная страница с навигацией назад.
-2. **Loading state** — при загрузке данных отображается индикатор загрузки (спиннер, skeleton, текст).
-3. **Обработка ошибок API** — API-запросы обёрнуты в обработку ошибок. При ошибке сети пользователь видит понятное сообщение.
-4. **Видео-доказательство** — короткое видео (~1 мин), демонстрирующее 404, loading и error state. Ссылка на видео в README.
+1. **404 page** — navigating to a non-existent URL displays a meaningful page with a way to navigate back.
+2. **Loading state** — a loading indicator (spinner, skeleton, text) is shown while data is being fetched.
+3. **API error handling** — API requests are wrapped in error handling. On a network error the user sees a clear message.
+4. **Video proof** — a short video (~1 min) demonstrating the 404, loading, and error states. Video link in the README.
 
-### Личные (+20)
+### Individual (+20)
 
-1. **HttpClient используется** — минимум 2 HTTP-запроса (GET + POST/PUT/DELETE) к реальному или mock API. Замержено в `main`.
-2. **Минимум 1 HTTP Interceptor реализован** — для auth token, logging, error handling или любой другой цели.
-3. **Минимум 5 тестов написаны лично вами** — файлы `*.spec.ts`. Суммарно ≥5 тестовых кейсов (`it`). Авторство определяется по коммитам (`git blame`).
-4. **Code Review** — **Вариант А:** ≥3 содержательных комментария в PR команды. **Вариант Б:** запись в дневнике о том, как вы изучали код другого участника.
-5. **Минимум 1 запись в дневнике за Sprint 4** — замержены в `main`.
+1. **HttpClient is used** — at least 2 HTTP requests (GET + POST/PUT/DELETE) to a real or mock API. Merged into `main`.
+2. **At least 1 HTTP Interceptor implemented** — for auth token, logging, error handling, or any other purpose.
+3. **At least 5 tests written personally by you** — `*.spec.ts` files. Total ≥5 test cases (`it`). Authorship is determined by commits (`git blame`).
+4. **Code Review** — **Option A:** ≥3 meaningful comments in team PRs. **Option B:** a diary entry about how you studied another team member's code.
+5. **At least 1 diary entry for Sprint 4** — merged into `main`.
 
-> **Дневник:** без дневника — 0 за весь чекпоинт.
+> **Diary:** no diary — 0 for the entire checkpoint.
 
 ---
 
-## Что изучить
+## What to Study
 
-### HttpClient — базовые запросы
+### HttpClient — Basic Requests
 
-- Как подключить `HttpClient` через `provideHttpClient()`
-- GET, POST, PUT, DELETE: как типизировать ответ `get<T>()`, `post<T>()`
-- Почему `HttpClient` возвращает `Observable`, а не `Promise`
-- Как обработать ошибки через `catchError`
+- How to set up `HttpClient` via `provideHttpClient()`
+- GET, POST, PUT, DELETE: how to type the response `get<T>()`, `post<T>()`
+- Why `HttpClient` returns an `Observable` instead of a `Promise`
+- How to handle errors with `catchError`
 
 ### Functional HTTP Interceptor (Angular 15+)
 
-- Что такое `HttpInterceptorFn` и чем она отличается от class-based
-- Как клонировать `HttpRequest` и добавить заголовок `Authorization`
-- Как регистрировать interceptor через `withInterceptors()` в `provideHttpClient()`
-- Порядок вызова interceptors в цепочке
+- What `HttpInterceptorFn` is and how it differs from class-based
+- How to clone an `HttpRequest` and add an `Authorization` header
+- How to register an interceptor via `withInterceptors()` in `provideHttpClient()`
+- The order in which interceptors are called in the chain
 
-### RxJS — ключевые операторы
+### RxJS — Key Operators
 
-- `map` — преобразование значений в потоке
-- `switchMap` — отмена предыдущего запроса при новом (поиск)
-- `debounceTime` + `distinctUntilChanged` — таймер и фильтр дубликатов для live-поиска
-- `catchError` — обработка ошибок внутри потока
-- `takeUntilDestroyed` — автоматическая отписка при уничтожении компонента
-- Чем `switchMap` отличается от `mergeMap` и `concatMap`
+- `map` — transforming values in a stream
+- `switchMap` — cancelling the previous request on a new one (search)
+- `debounceTime` + `distinctUntilChanged` — timer and duplicate filter for live search
+- `catchError` — handling errors within a stream
+- `takeUntilDestroyed` — automatic unsubscription on component destruction
+- How `switchMap` differs from `mergeMap` and `concatMap`
 
-### Тестирование сервиса
+### Testing a Service
 
-- Как настроить `TestBed` для тестирования сервиса
-- `HttpClientTestingModule` / `provideHttpClientTesting()` — интерсепция HTTP-запросов в тестах
-- `HttpTestingController.expectOne()` и `.flush()` — имитация ответа сервера
-- Почему важно вызывать `httpMock.verify()` в `afterEach`
+- How to configure `TestBed` for testing a service
+- `HttpClientTestingModule` / `provideHttpClientTesting()` — intercepting HTTP requests in tests
+- `HttpTestingController.expectOne()` and `.flush()` — simulating server responses
+- Why calling `httpMock.verify()` in `afterEach` is important
 
-### Тестирование компонента с mock-сервисом
+### Testing a Component with a Mock Service
 
-- Как создать заменитель сервиса через `jasmine.createSpyObj`
-- Как подменить сервис в `providers` через `useValue`
-- `fixture.detectChanges()` — когда вызывать и зачем
-- Как проверять DOM-вывод компонента через `fixture.nativeElement`
+- How to create a service substitute via `jasmine.createSpyObj`
+- How to replace a service in `providers` via `useValue`
+- `fixture.detectChanges()` — when to call and why
+- How to check a component's DOM output via `fixture.nativeElement`
 
 ---
 
-## Вопросы для самопроверки
+## Self-Check Questions
 
-1. Чем `switchMap` отличается от `mergeMap` и `concatMap`?
-2. Как работают HTTP Interceptors? В каком порядке они вызываются?
-3. Как правильно отписываться от Observable в Angular?
-4. Что такое `TestBed` и зачем он нужен?
-5. Как замокать сервис в тесте компонента?
-6. Чем `fakeAsync` + `tick` отличается от `waitForAsync`?
+1. How does `switchMap` differ from `mergeMap` and `concatMap`?
+2. How do HTTP Interceptors work? In what order are they called?
+3. How do you properly unsubscribe from an Observable in Angular?
+4. What is `TestBed` and why is it needed?
+5. How do you mock a service in a component test?
+6. How does `fakeAsync` + `tick` differ from `waitForAsync`?
 
 ---
 
 ## FAQ
 
-_Вопрос:_ Можно ли использовать mock-данные вместо реального API?
-_Ответ:_ Да. JSON Server, in-memory-web-api или хардкод с задержкой через `delay()` — всё допустимо.
+_Q:_ Can I use mock data instead of a real API?
+_A:_ Yes. JSON Server, in-memory-web-api, or hardcoded data with a `delay()` — all are acceptable.
 
-_Вопрос:_ 5 тестов = 5 файлов?
-_Ответ:_ Нет. 5 тестовых кейсов (`it`). Все могут быть в одном файле.
+_Q:_ 5 tests = 5 files?
+_A:_ No. 5 test cases (`it`). They can all be in one file.
 
-_Вопрос:_ Можно ли использовать Jest вместо Jasmine?
-_Ответ:_ Да. Jasmine, Jest, Vitest — любой фреймворк.
+_Q:_ Can I use Jest instead of Jasmine?
+_A:_ Yes. Jasmine, Jest, Vitest — any framework.
 
 ---
 
-## Сабмит
+## Submission
 
-Отдельный сабмит не требуется. Оценка выставляется **автоматически** после дедлайна.
+No separate submission is required. The score is assigned **automatically** after the deadline.

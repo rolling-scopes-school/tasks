@@ -1,25 +1,25 @@
-# ShopFront — интернет-магазин
+# ShopFront — Online Store
 
-Полноценный интернет-магазин, в котором пользователь может просматривать каталог товаров, фильтровать и сортировать продукцию, добавлять товары в корзину, оформлять заказ и управлять своим профилем.
+A full-featured online store where the user can browse the product catalog, filter and sort products, add items to the cart, place orders, and manage their profile.
 
-Платформа работает поверх **commercetools HTTP API** — enterprise-grade e-commerce движка с поддержкой продуктов, категорий, корзин, заказов и покупателей. commercetools предоставляет бесплатный trial-аккаунт, достаточный для учебного проекта.
+The platform runs on top of the **commercetools HTTP API** — an enterprise-grade e-commerce engine supporting products, categories, carts, orders, and customers. commercetools provides a free trial account sufficient for an educational project.
 
 > **API:** [commercetools HTTP API](https://docs.commercetools.com/api).
 > Auth: `{auth_url}/oauth/token` (OAuth2 client credentials).
 > REST: `{api_url}/{project_key}/…`
-> [Merchant Center](https://mc.commercetools.com/) — UI для управления каталогом.
+> [Merchant Center](https://mc.commercetools.com/) — UI for catalog management.
 
 ---
 
-## Настройка API
+## API Setup
 
-1. Зарегистрироваться на [commercetools.com](https://commercetools.com/) и создать бесплатный trial-проект.
-2. В Merchant Center → Settings → Developer Settings создать API Client с нужными scope (`manage_products`, `manage_orders`, `manage_customers` и др.).
-3. Получить: `project_key`, `client_id`, `client_secret`, `auth_url`, `api_url`.
-4. Для получения `access_token` выполнить `POST {auth_url}/oauth/token` с `grant_type=client_credentials`.
-5. Наполнить каталог товарами через Merchant Center или Import API (минимум 15–20 товаров в 3–4 категориях).
+1. Register at [commercetools.com](https://commercetools.com/) and create a free trial project.
+2. In Merchant Center → Settings → Developer Settings, create an API Client with the required scopes (`manage_products`, `manage_orders`, `manage_customers`, etc.).
+3. Obtain: `project_key`, `client_id`, `client_secret`, `auth_url`, `api_url`.
+4. To get an `access_token`, execute `POST {auth_url}/oauth/token` with `grant_type=client_credentials`.
+5. Populate the catalog with products via Merchant Center or Import API (at least 15–20 products in 3–4 categories).
 
-> **Важно:** Не использовать данные из `commercetools-sunrise-data`. Каталог должен быть уникальным — придуманная тематика магазина (электроника, одежда, книги и т.д.).
+> **Important:** Do not use data from `commercetools-sunrise-data`. The catalog must be unique — a custom store theme (electronics, clothing, books, etc.).
 
 ---
 
@@ -27,24 +27,24 @@
 
 ### 1. Input Validation
 
-- Форма входа содержит поля Email и Password.
-- Валидация на клиенте: email должен быть корректного формата, пароль — обязательное поле.
-- При ошибках валидации — понятные сообщения под каждым полем (например, «Некорректный email», «Пароль обязателен»).
+- The login form contains Email and Password fields.
+- Client-side validation: email must be in a valid format, password is a required field.
+- Clear error messages below each field on validation errors (e.g., "Invalid email", "Password is required").
 
 ### 2. Integration with Authentication Service
 
-- Форма интегрирована с commercetools для аутентификации пользователей (`POST /{project_key}/login`).
-- При неверных учётных данных — понятное сообщение об ошибке (например, «Неверный email или пароль»).
-- При успешной аутентификации — сохранение токена авторизации.
+- The form is integrated with commercetools for user authentication (`POST /{project_key}/login`).
+- On invalid credentials — a clear error message (e.g., "Invalid email or password").
+- On successful authentication — the authorization token is saved.
 
 ### 3. Redirection
 
-- При успешном входе — перенаправление на главную страницу.
-- Если авторизованный пользователь попытается перейти на страницу логина — автоматическое перенаправление на главную.
+- On successful login — redirect to the main page.
+- If an authenticated user tries to navigate to the login page — automatic redirect to the main page.
 
 ### 4. Navigation
 
-- Ссылка/кнопка для перехода на страницу регистрации.
+- Link/button to navigate to the registration page.
 
 ---
 
@@ -52,28 +52,28 @@
 
 ### 1. Input Validation
 
-- Форма регистрации содержит поля: email, пароль, имя, фамилия, дата рождения, адрес (улица, город, почтовый индекс, страна).
-- Валидация всех полей на клиенте: корректный email, минимальная длина пароля (≥8 символов, буквы и цифры), обязательные поля.
-- Формат почтового индекса зависит от выбранной страны (кастомная валидация).
-- При ошибках — понятные сообщения под каждым полем.
+- The registration form contains fields: email, password, first name, last name, date of birth, address (street, city, postal code, country).
+- Client-side validation of all fields: valid email, minimum password length (≥8 characters, letters and digits), required fields.
+- Postal code format depends on the selected country (custom validation).
+- Clear error messages below each field on errors.
 
 ### 2. Integration with Authentication Service
 
-- Форма интегрирована с commercetools для регистрации покупателей (`POST /{project_key}/customers`).
-- При ошибках (например, email уже используется) — понятное сообщение.
+- The form is integrated with commercetools for customer registration (`POST /{project_key}/customers`).
+- On errors (e.g., email already in use) — a clear message is shown.
 
 ### 3. Redirection
 
-- При успешной регистрации — автоматический вход и перенаправление на главную страницу.
+- On successful registration — automatic login and redirect to the main page.
 
 ### 4. Address Management
 
-- Пользователь может указать адрес по умолчанию при регистрации.
-- Возможность выбрать отдельные адреса для доставки и для оплаты, или использовать один адрес для обоих целей.
+- The user can set a default address during registration.
+- Option to specify separate addresses for shipping and billing, or use a single address for both.
 
 ### 5. Navigation
 
-- Ссылка/кнопка для перехода на страницу логина.
+- Link/button to navigate to the login page.
 
 ---
 
@@ -81,17 +81,17 @@
 
 ### 1. Store Showcase
 
-- Промо-баннер или карусель с акционными предложениями.
-- Секция избранных товаров (например, «Новинки» или «Популярное») — от 4 товаров в виде карточек.
-- Отображение активных промокодов (если есть).
+- A promo banner or carousel with promotional offers.
+- A featured products section (e.g., "New Arrivals" or "Popular") — at least 4 products as cards.
+- Display of active promo codes (if any).
 
 ### 2. Category Navigation
 
-- Ссылки на все категории товаров. Клик по категории ведёт на Catalog с фильтром по этой категории.
+- Links to all product categories. Clicking a category navigates to the Catalog with a filter for that category.
 
 ### 3. Centralized Navigation
 
-- Ссылки на все функциональные страницы приложения (каталог, корзина, профиль, About Us).
+- Links to all functional pages of the application (catalog, cart, profile, About Us).
 
 ---
 
@@ -99,32 +99,32 @@
 
 ### 1. Display Product List
 
-- Получить и отобразить список товаров из commercetools API (`GET /{project_key}/product-projections/search`).
-- Каждый товар отображается в виде карточки: изображение, название, краткое описание.
-- Отображение цен: если у товара есть скидка — показать и оригинальную (зачёркнутую), и текущую (со скидкой) цену. Цена со скидкой визуально выделена.
-- Цена форматируется из centAmount в человекочитаемый формат с валютой (например, `12345` → `$123.45`).
+- Fetch and display the product list from commercetools API (`GET /{project_key}/product-projections/search`).
+- Each product is displayed as a card: image, name, short description.
+- Price display: if the product has a discount — show both the original (strikethrough) and the current (discounted) price. The discounted price is visually highlighted.
+- Price is formatted from centAmount to a human-readable format with currency (e.g., `12345` → `$123.45`).
 
 ### 2. Product Filtering, Sorting, and Searching
 
-- Фильтрация товаров по атрибутам: ценовой диапазон, категория, бренд, цвет, размер или другие релевантные характеристики. Фильтры выполняются через commercetools API.
-- Сортировка списка товаров по цене и по названию.
-- Поиск товаров: строка поиска, результаты обновляются по мере ввода текста (без нажатия Enter).
+- Product filtering by attributes: price range, category, brand, color, size, or other relevant characteristics. Filters are executed via the commercetools API.
+- Sorting the product list by price and by name.
+- Product search: a search bar with results updating as the user types (without pressing Enter).
 
 ### 3. Interactive Product Cards
 
-- При наведении на карточку — визуальное изменение (hover-эффект).
-- Кнопка «В корзину» на каждой карточке. При нажатии — товар добавляется в корзину через commercetools Carts API.
-- Если товар уже в корзине — кнопка меняется (например, на «В корзине» или «Убрать из корзины»).
-- Клик по карточке (вне кнопки) — переход на детальную страницу товара.
+- Hover effect on cards — visual change on hover.
+- An "Add to cart" button on each card. On click — the product is added to the cart via commercetools Carts API.
+- If the product is already in the cart — the button changes (e.g., to "In cart" or "Remove from cart").
+- Clicking the card (outside the button) — navigates to the detailed product page.
 
 ### 4. Category Navigation
 
-- Навигация по категориям и подкатегориям, полученным из commercetools Categories API.
-- Выбор категории фильтрует товары без перезагрузки страницы.
+- Navigation by categories and subcategories fetched from the commercetools Categories API.
+- Selecting a category filters products without page reload.
 
 ### 5. Performance Optimization
 
-- Реализовать пагинацию, бесконечный скроллинг или ленивую загрузку для эффективной работы с большим количеством товаров.
+- Implement pagination, infinite scrolling, or lazy loading for efficient handling of a large number of products.
 
 ---
 
@@ -132,24 +132,24 @@
 
 ### 1. Display Product Information
 
-- Получить и отобразить полную информацию о товаре из commercetools API: название, описание, изображения, цена.
-- Слайдер изображений товара: пользователь может листать все изображения.
-- Если товар со скидкой — показать обе цены (оригинальная зачёркнута, цена со скидкой выделена).
+- Fetch and display full product information from the commercetools API: name, description, images, price.
+- Product image slider: the user can browse all images.
+- If the product is discounted — show both prices (original strikethrough, discounted price highlighted).
 
 ### 2. Enlarged Image Modal
 
-- Клик по изображению — открытие увеличенной версии в модальном окне.
-- Внутри модального окна — слайдер для навигации по всем изображениям товара.
+- Clicking an image opens an enlarged version in a modal window.
+- Inside the modal — a slider for navigating all product images.
 
 ### 3. Product Options
 
-- Если у товара есть варианты (размер, цвет и т.д.) — виджеты для выбора варианта.
-- При выборе варианта — обновление цены и изображения (если отличаются).
+- If the product has variants (size, color, etc.) — widgets for selecting a variant.
+- On variant selection — price and image update (if different).
 
 ### 4. Add / Remove from Cart
 
-- Если товар не в корзине — кнопка «Добавить в корзину». Товар добавляется с выбранными опциями через commercetools Carts API.
-- Если товар уже в корзине — кнопка «Убрать из корзины». Товар удаляется через commercetools Carts API.
+- If the product is not in the cart — an "Add to cart" button. The product is added with the selected options via commercetools Carts API.
+- If the product is already in the cart — a "Remove from cart" button. The product is removed via commercetools Carts API.
 
 ---
 
@@ -157,32 +157,32 @@
 
 ### 1. Display Basket Items
 
-- Получить и отобразить список товаров в корзине из commercetools Carts API: название, изображение, цена, количество.
+- Fetch and display the list of cart items from commercetools Carts API: name, image, price, quantity.
 
 ### 2. Modify Product Quantity
 
-- Пользователь может изменить количество каждого товара в корзине. Данные обновляются через commercetools API. Итоговая стоимость пересчитывается.
+- The user can change the quantity of each product in the cart. Data is updated via the commercetools API. The total cost is recalculated.
 
 ### 3. Remove Product from Cart
 
-- Кнопка «Удалить» у каждого товара. Товар удаляется через commercetools API.
+- A "Remove" button on each product. The product is removed via the commercetools API.
 
 ### 4. Recalculate Total Cost
 
-- Итоговая стоимость корзины автоматически пересчитывается при изменении количества или удалении товара.
+- The cart total is automatically recalculated when quantity changes or a product is removed.
 
 ### 5. Empty Cart Message
 
-- Если корзина пуста — сообщение «Корзина пуста» и ссылка на каталог.
+- If the cart is empty — a "Cart is empty" message and a link to the catalog.
 
 ### 6. Promo Code
 
-- Поле для ввода промокода и кнопка «Применить». Промокод отправляется в commercetools Carts API.
-- При применении — отображение и оригинальной, и скидочной цены (визуально различимо).
+- A promo code input field and an "Apply" button. The promo code is sent to the commercetools Carts API.
+- On application — both the original and the discounted price are displayed (visually distinct).
 
 ### 7. Clear Shopping Cart
 
-- Кнопка «Очистить корзину» — удаление всех товаров из корзины через commercetools API.
+- A "Clear cart" button — removes all items from the cart via the commercetools API.
 
 ---
 
@@ -190,20 +190,20 @@
 
 ### 1. Display User Profile Information
 
-- Отобразить личную информацию пользователя: имя, фамилия, дата рождения, email, список адресов.
-- Данные загружаются из commercetools Customers API.
+- Display the user's personal information: first name, last name, date of birth, email, list of addresses.
+- Data is loaded from the commercetools Customers API.
 
 ### 2. Edit User Profile Information
 
-- Режим редактирования: пользователь может обновить имя, фамилию, дату рождения, email.
-- Возможность сменить пароль (текущий пароль + новый + подтверждение).
-- Управление адресами: добавление новых, удаление существующих, редактирование, установка адреса по умолчанию.
-- Все изменения сохраняются через commercetools API.
-- Валидация всех полей (аналогично форме регистрации).
+- Edit mode: the user can update first name, last name, date of birth, email.
+- Option to change the password (current password + new + confirmation).
+- Address management: adding new, deleting existing, editing, setting a default address.
+- All changes are saved via the commercetools API.
+- Validation of all fields (same as the registration form).
 
 ### 3. Access Control
 
-- Страница доступна только авторизованным пользователям. Неавторизованные перенаправляются на Login.
+- The page is accessible only to authenticated users. Unauthenticated users are redirected to Login.
 
 ---
 
@@ -211,13 +211,13 @@
 
 ### 1. Team Introduction
 
-- Информация о каждом члене команды: имя, роль в проекте, краткое описание, фото, ссылка на GitHub.
-- Описание эффективных методов сотрудничества команды.
-- Дизайн карточек выполнен единообразно.
+- Information about each team member: name, role in the project, short bio, photo, GitHub link.
+- Description of effective team collaboration methods.
+- Card design is consistent.
 
 ### 2. RS School Logo
 
-- Логотип RS School с кликабельной ссылкой на [rs.school](https://rs.school/).
+- RS School logo with a clickable link to [rs.school](https://rs.school/).
 
 ---
 
@@ -225,48 +225,48 @@
 
 ### 1. Header Layout
 
-- Логотип/название магазина, ведущий на главную.
-- Навигация: Каталог, Корзина, About Us.
-- Для неавторизованных: ссылки на Login и Registration.
-- Для авторизованных: ссылка на Profile, кнопка Logout.
-- Иконка корзины с badge (количество товаров в корзине).
-- Строка поиска.
+- Store logo/name linking to the main page.
+- Navigation: Catalog, Cart, About Us.
+- For unauthenticated users: links to Login and Registration.
+- For authenticated users: link to Profile, Logout button.
+- Cart icon with a badge (number of items in the cart).
+- Search bar.
 
 ### 2. Routing
 
-- Все страницы доступны по прямым URL и через навигацию в хедере.
-- Поддержка кнопок браузера (назад/вперёд).
-- При переходе по несуществующему URL — страница 404 (Not Found) с предложением вернуться на главную.
-- Profile доступен только авторизованным — при попытке доступа без авторизации, перенаправление на Login.
-- Страницы загружаются лениво (lazy loading).
+- All pages are accessible via direct URLs and through header navigation.
+- Browser back/forward buttons are supported.
+- Navigating to a non-existent URL shows a 404 (Not Found) page with an option to return to the main page.
+- Profile is accessible only to authenticated users — attempting to access without authorization redirects to Login.
+- Pages are loaded lazily (lazy loading).
 
 ---
 
-## Beyond API — фичи, которых нет в commercetools
+## Beyond API — Features Not Available in commercetools
 
-commercetools предоставляет полный CRUD для товаров, корзин и заказов, но не покрывает пользовательский контент. Эти фичи реализуются самостоятельно.
+commercetools provides full CRUD for products, carts, and orders, but does not cover user-generated content. These features are implemented independently.
 
-### 1. Отзывы и рейтинги
+### 1. Reviews and Ratings
 
-- Форма написания отзыва на странице товара: текст + звёздный рейтинг (1–5).
-- Список отзывов на странице товара.
-- Средний рейтинг отображается на карточке товара в каталоге и на детальной странице.
-- Данные сохраняются локально (localStorage).
+- A review form on the product page: text + star rating (1–5).
+- A list of reviews on the product page.
+- The average rating is displayed on the product card in the catalog and on the detailed page.
+- Data is saved locally (localStorage).
 
-### 2. Wishlist (список желаний)
+### 2. Wishlist
 
-- Кнопка «В избранное» на каждой карточке товара.
-- Отдельная страница Wishlist со списком избранных товаров.
-- Возможность удалить товар из wishlist и перенести в корзину.
-- Данные сохраняются между сессиями (localStorage).
+- An "Add to favorites" button on each product card.
+- A separate Wishlist page with the list of favorite products.
+- Option to remove a product from the wishlist and move it to the cart.
+- Data persists across sessions (localStorage).
 
 ---
 
-## Полезные ссылки
+## Useful Links
 
-- [commercetools HTTP API](https://docs.commercetools.com/api) — основная документация
-- [Product Projections Search](https://docs.commercetools.com/api/projects/productProjections#search-productprojections) — поиск и фильтрация
-- [Carts API](https://docs.commercetools.com/api/projects/carts) — управление корзинами
-- [Customers API](https://docs.commercetools.com/api/projects/customers) — регистрация и профиль
+- [commercetools HTTP API](https://docs.commercetools.com/api) — main documentation
+- [Product Projections Search](https://docs.commercetools.com/api/projects/productProjections#search-productprojections) — search and filtering
+- [Carts API](https://docs.commercetools.com/api/projects/carts) — cart management
+- [Customers API](https://docs.commercetools.com/api/projects/customers) — registration and profile
 - [Authorization](https://docs.commercetools.com/api/authorization) — OAuth2 client credentials flow
-- [Merchant Center](https://mc.commercetools.com/) — управление каталогом
+- [Merchant Center](https://mc.commercetools.com/) — catalog management

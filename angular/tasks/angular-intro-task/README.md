@@ -1,183 +1,183 @@
 # Angular Intro: Film Collection
 
-## Описание проекта
+## Project Description
 
-Вы создадите **«Film Collection»** — небольшое приложение-каталог фильмов с моковыми данными. Цель — познакомиться с основными концепциями Angular на практике: компоненты, роутинг, директивы, пайпы и сигналы.
+You will build **"Film Collection"** — a small movie catalog application using mock data. The goal is to get hands-on experience with core Angular concepts: components, routing, directives, pipes, and signals.
 
-> **Важно:** В этом проекте **не используется RxJS**. Вся реактивность строится исключительно на **Angular Signals**.
+> **Important:** This project does **not use RxJS**. All reactivity is built exclusively with **Angular Signals**.
 
 ---
 
-## Технические требования
+## Technical Requirements
 
-- **Angular 20+** (рекомендуется последняя стабильная версия)
-- **Standalone components** (без NgModules)
-- Новый control flow: `@if`, `@for`, `@switch`
+- **Angular 20+** (latest stable version recommended)
+- **Standalone components** (no NgModules)
+- New control flow: `@if`, `@for`, `@switch`
 - TypeScript strict mode
-- Никакого RxJS — для реактивности используются только **Signals**
+- No RxJS — only **Signals** for reactivity
 
 ---
 
-## Моковые данные
+## Mock Data
 
-Приложение работает с массивом из **минимум 10 фильмов**, описанных в отдельном файле. Каждый фильм должен содержать: идентификатор, название, год выпуска, жанр, рейтинг (от 0 до 10), длительность в минутах, описание, URL постера и признак «избранное».
+The application works with an array of **at least 10 films** defined in a separate file. Each film must contain: id, title, release year, genre, rating (0–10), duration in minutes, description, poster URL, and a favorite flag.
 
-Готовый файл с моковыми данными можно скачать здесь: [films.json](https://cdn.jsdelivr.net/gh/rolling-scopes-school/tasks@master/angular/tasks/angular-intro-task/films.json)
-
----
-
-## Описание пользовательского сценария
-
-### Общий лейаут
-
-Каждая страница приложения имеет одинаковую структуру:
-
-- **Header** — шапка с названием приложения и навигацией. Содержит ссылки на главную страницу и страницу «О проекте». Навигация работает без перезагрузки страницы.
-- **Breadcrumbs** — хлебные крошки, показывающие текущее местоположение пользователя в приложении. Например: «Главная», «Главная > Название фильма», «О проекте». Кликабельные элементы breadcrumbs являются ссылками для навигации.
-- **Контент** — основное содержимое страницы (меняется в зависимости от маршрута).
-- **Footer** — подвал с годом, именем автора и ссылкой на GitHub.
-
-Header, Breadcrumbs и Footer отображаются на **каждой** странице.
-
-### Главная страница (Catalog)
-
-Пользователь открывает приложение и попадает на главную страницу.
-
-- На экране отображаются **карточки всех фильмов** из моковых данных.
-- Каждая карточка показывает: постер, название, год, жанр, рейтинг.
-- Над списком карточек находится **поле поиска**. При открытии страницы фокус автоматически устанавливается на него (через кастомную директиву автофокуса).
-- По мере ввода текста в поле поиска список фильмов **автоматически фильтруется** по названию — остаются только фильмы, название которых содержит введённый текст.
-- Если ни один фильм не соответствует запросу — отображается сообщение «Ничего не найдено».
-- На каждой карточке есть кнопка **«В избранное»**. Нажатие на неё переключает статус избранного у фильма.
-- **Клик по карточке** (не по кнопке избранного) перенаправляет пользователя на страницу деталей этого фильма.
-
-Breadcrumbs: **Главная**
-
-### Страница деталей фильма (Film Details)
-
-Пользователь кликнул по карточке фильма и попал на страницу деталей.
-
-- Отображается полная информация о фильме: постер, название, год, жанр, рейтинг, длительность (через кастомный пайп), описание.
-- Идентификатор фильма берётся из URL.
-- Есть кнопка **«Назад»** для возврата к списку фильмов.
-
-Breadcrumbs: **Главная** > **Название фильма**
-
-(«Главная» — кликабельная ссылка, «Название фильма» — текущая страница, не кликабельна.)
-
-### Несуществующий маршрут
-
-При переходе на несуществующий URL пользователь перенаправляется на главную страницу (или отображается страница 404).
+A ready-made mock data file can be downloaded here: [films.json](https://cdn.jsdelivr.net/gh/rolling-scopes-school/tasks@master/angular/tasks/angular-intro-task/films.json)
 
 ---
 
-## Сервис
+## User Scenario
 
-Создайте сервис для работы с данными о фильмах:
+### Common Layout
 
-- Хранит коллекцию фильмов в **сигнале**
-- Предоставляет доступ ко всем фильмам
-- Позволяет получить фильм по идентификатору
-- Позволяет переключать статус «избранное» у фильма
-- Предоставляет вычисляемый список избранных фильмов
-- Зарегистрирован глобально (singleton)
+Every page of the application has the same structure:
+
+- **Header** — contains the application title and navigation. Includes links to the home page and the "About" page. Navigation works without page reload.
+- **Breadcrumbs** — show the user's current location in the application. For example: "Home", "Home > Film Title", "About". Clickable breadcrumb items serve as navigation links.
+- **Content** — the main page content (changes depending on the route).
+- **Footer** — contains the year, author name, and a link to GitHub.
+
+Header, Breadcrumbs, and Footer are displayed on **every** page.
+
+### Home Page (Catalog)
+
+The user opens the application and lands on the home page.
+
+- **All film cards** from the mock data are displayed on screen.
+- Each card shows: poster, title, year, genre, rating.
+- Above the card list there is a **search field**. When the page opens, focus is automatically set on it (via a custom autofocus directive).
+- As the user types in the search field, the film list is **automatically filtered** by title — only films whose title contains the entered text remain.
+- If no films match the query — a "Nothing found" message is displayed.
+- Each card has an **"Add to favorites"** button. Clicking it toggles the film's favorite status.
+- **Clicking on a card** (not the favorite button) navigates the user to that film's details page.
+
+Breadcrumbs: **Home**
+
+### Film Details Page
+
+The user clicked on a film card and is now on the details page.
+
+- Full film information is displayed: poster, title, year, genre, rating, duration (via a custom pipe), description.
+- The film id is taken from the URL.
+- There is a **"Back"** button to return to the film list.
+
+Breadcrumbs: **Home** > **Film Title**
+
+("Home" is a clickable link, "Film Title" is the current page and is not clickable.)
+
+### Unknown Route
+
+When navigating to a non-existent URL, the user is redirected to the home page (or a 404 page is shown).
 
 ---
 
-## Кастомная директива
+## Service
 
-Создайте **attribute directive** для автофокуса:
+Create a service for working with film data:
 
-- При появлении элемента в DOM — автоматически устанавливает на него фокус
-- Директива должна быть **standalone**
-- Должна применяться на поле поиска на главной странице
-
----
-
-## Кастомный пайп
-
-Создайте **pipe**, который преобразует количество минут в человекочитаемый формат длительности:
-
-- Только часы: `60` → `"1 ч"`
-- Только минуты: `45` → `"45 мин"`
-- Часы и минуты: `90` → `"1 ч 30 мин"`
-
-Пайп должен быть **standalone** и использоваться в шаблоне хотя бы одного компонента.
+- Stores the film collection in a **signal**
+- Provides access to all films
+- Allows getting a film by id
+- Allows toggling a film's favorite status
+- Provides a computed list of favorite films
+- Registered globally (singleton)
 
 ---
 
-## Роутинг
+## Custom Directive
 
-- Минимум **2 маршрута**: список фильмов, детали фильма
-- Навигация через `routerLink`
-- Обработка несуществующих маршрутов (wildcard)
-- Параметр идентификатора фильма передаётся через URL
+Create an **attribute directive** for autofocus:
+
+- When the element appears in the DOM — automatically sets focus on it
+- The directive must be **standalone**
+- Must be applied to the search field on the home page
+
+---
+
+## Custom Pipe
+
+Create a **pipe** that converts a number of minutes into a human-readable duration format:
+
+- Hours only: `60` → `"1h"`
+- Minutes only: `45` → `"45min"`
+- Hours and minutes: `90` → `"1h 30min"`
+
+The pipe must be **standalone** and used in the template of at least one component.
+
+---
+
+## Routing
+
+- At least **2 routes**: film list, film details
+- Navigation via `routerLink`
+- Unknown route handling (wildcard)
+- Film id is passed as a URL parameter
 
 ---
 
 ## Signals
 
-Все реактивные данные в приложении хранятся и обрабатываются через **Angular Signals**:
+All reactive data in the application is stored and processed via **Angular Signals**:
 
-- Коллекция фильмов в сервисе — `signal()`
-- Список избранных — `computed()`
-- Строка поиска — `signal()`
-- Отфильтрованный список — `computed()`
-- Взаимодействие компонентов — `input()` / `output()`
-
----
-
-## Оценка
-
-Баллы за это задание **не выставляются**. Однако выполнение этого таска является **обязательным условием** для подачи заявки на ментора. Ментор может использовать ваше решение, чтобы оценить уровень подготовки и принять решение, брать ли вас на менторинг.
-
-Ниже приведён чек-лист, который поможет вам проверить себя перед сдачей.
-
-### Компоненты
-
-- [ ] Карточка фильма принимает данные через `input()`
-- [ ] Карточка фильма уведомляет родителя через `output()`
-- [ ] Список фильмов отображается через `@for`
-- [ ] Условный рендеринг через `@if` («Ничего не найдено»)
-- [ ] Страница деталей показывает полную информацию о фильме
-- [ ] Header, Breadcrumbs и Footer присутствуют на каждой странице
-
-### Роутинг
-
-- [ ] Настроено минимум 2 маршрута
-- [ ] Навигация через `routerLink`
-- [ ] Параметр из URL корректно читается на странице деталей
-- [ ] Wildcard маршрут обрабатывается
-
-### Директива
-
-- [ ] Кастомная attribute directive создана как standalone
-- [ ] Устанавливает фокус на элемент при его появлении
-- [ ] Применяется на поле поиска
-
-### Пайп
-
-- [ ] Кастомный pipe создан как standalone
-- [ ] Форматирует количество минут в человекочитаемый формат длительности
-- [ ] Используется в шаблоне хотя бы одного компонента
-
-### Сервис и Signals
-
-- [ ] Сервис зарегистрирован глобально
-- [ ] Данные хранятся в `signal()`
-- [ ] Фильтрация реализована через `computed()`
-- [ ] Поиск по названию работает
-
-### Качество кода
-
-- [ ] TypeScript strict mode включён
-- [ ] Нет ошибок линтера
-- [ ] Код структурирован по логическим папкам
-- [ ] README проекта заполнен (описание, как запустить)
+- Film collection in the service — `signal()`
+- Favorites list — `computed()`
+- Search string — `signal()`
+- Filtered list — `computed()`
+- Component interaction — `input()` / `output()`
 
 ---
 
-## Что изучить
+## Evaluation
+
+This task is **not graded**. However, completing it is a **mandatory prerequisite** for applying for a mentor. The mentor may use your solution to assess your skill level and decide whether to take you on for mentoring.
+
+Below is a checklist to help you verify your work before submission.
+
+### Components
+
+- [ ] Film card accepts data via `input()`
+- [ ] Film card notifies parent via `output()`
+- [ ] Film list is rendered using `@for`
+- [ ] Conditional rendering via `@if` ("Nothing found")
+- [ ] Details page shows full film information
+- [ ] Header, Breadcrumbs, and Footer are present on every page
+
+### Routing
+
+- [ ] At least 2 routes configured
+- [ ] Navigation via `routerLink`
+- [ ] URL parameter is correctly read on the details page
+- [ ] Wildcard route is handled
+
+### Directive
+
+- [ ] Custom attribute directive created as standalone
+- [ ] Sets focus on the element when it appears
+- [ ] Applied to the search field
+
+### Pipe
+
+- [ ] Custom pipe created as standalone
+- [ ] Converts minutes into a human-readable duration format
+- [ ] Used in the template of at least one component
+
+### Service and Signals
+
+- [ ] Service is registered globally
+- [ ] Data is stored in `signal()`
+- [ ] Filtering is implemented via `computed()`
+- [ ] Search by title works
+
+### Code Quality
+
+- [ ] TypeScript strict mode enabled
+- [ ] No linter errors
+- [ ] Code is organized into logical folders
+- [ ] Project README is filled in (description, how to run)
+
+---
+
+## What to Study
 
 - [Angular Components Overview](https://angular.dev/guide/components)
 - [Angular Router](https://angular.dev/guide/routing)
@@ -189,22 +189,22 @@ Breadcrumbs: **Главная** > **Название фильма**
 
 ## FAQ
 
-**Вопрос:** Можно ли использовать UI-библиотеку (Angular Material, PrimeNG)?
-**Ответ:** Нет. Используйте только обычный CSS / SCSS для стилизации.
+**Q:** Can I use a UI library (Angular Material, PrimeNG)?
+**A:** No. Use only plain CSS / SCSS for styling.
 
-**Вопрос:** Можно ли использовать RxJS?
-**Ответ:** Нет. Цель задания — освоить signal-based подход Angular без отвлечения на RxJS.
+**Q:** Can I use RxJS?
+**A:** No. The goal of this task is to learn the signal-based approach in Angular without the distraction of RxJS.
 
-**Вопрос:** Откуда брать картинки для постеров?
-**Ответ:** Можно использовать любые placeholder-сервисы или бесплатные картинки из открытых источников.
+**Q:** Where do I get poster images?
+**A:** You can use any placeholder services or free images from open sources.
 
-**Вопрос:** Можно ли добавить больше функциональности?
-**Ответ:** Да. Дополнительные фичи (сортировка, анимации, тёмная тема) приветствуются, но не влияют на оценку.
+**Q:** Can I add more functionality?
+**A:** Yes. Extra features (sorting, animations, dark theme) are welcome but do not affect the evaluation.
 
 ---
 
-## Сабмит
+## Submission
 
-Для сдачи предоставьте ссылку на **публичный GitHub-репозиторий** с выполненным заданием. Убедитесь, что проект запускается через `ng serve` без ошибок.
+To submit, provide a link to a **public GitHub repository** with your completed assignment. Make sure the project runs via `ng serve` without errors.
 
-После сдачи вы сможете подать заявку на ментора.
+After submission, you will be able to apply for a mentor.

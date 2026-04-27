@@ -1,47 +1,47 @@
-# Проекты на выбор
+# Project Options
 
-Каждая команда выбирает **один** из трёх проектов. Все три покрывают одни и те же Angular-концепции, имеют одинаковую сложность и отличаются только предметной областью и API.
+Each team chooses **one** of three projects. All three cover the same Angular concepts, have the same complexity, and differ only in the domain and API.
 
-Команда фиксирует выбор в README репозитория на Sprint 1. **Изменить проект после Sprint 1 нельзя.**
-
----
-
-## Три проекта
-
-| Проект          | Описание                                                    | API                                                    | Подробности                              |
-| --------------- | ----------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------- |
-| **CryptoTrade** | Приложение для анализа и торговли криптовалютами            | [Binance Testnet](https://testnet.binance.vision/)     | [PROJECT_CRYPTO.md](./PROJECT_CRYPTO.md) |
-| **ShopFront**   | Интернет-магазин с каталогом, корзиной и оформлением заказа | [commercetools](https://docs.commercetools.com/api)    | [PROJECT_SHOP.md](./PROJECT_SHOP.md)     |
-| **MusicFlow**   | Музыкальный стриминговый сервис с поиском и плеером         | [Jamendo API](https://developer.jamendo.com/v3.0/docs) | [PROJECT_MUSIC.md](./PROJECT_MUSIC.md)   |
+The team locks in their choice in the repository README during Sprint 1. **Changing the project after Sprint 1 is not allowed.**
 
 ---
 
-## Как спринты ложатся на проект
+## Three Projects
 
-| Sprint         | Тема                      | Что делаете в проекте                                                                      |
-| -------------- | ------------------------- | ------------------------------------------------------------------------------------------ |
-| **1** (1 нед.) | Components                | Базовые UI-компоненты: карточки, списки, хедер, футер.                                     |
-| **2** (2 нед.) | Routing & Signals         | Страницы, навигация, lazy loading, guards. signal() для ключевого состояния. Два сервиса.  |
-| **3** (2 нед.) | Directives, Pipes & Forms | Формы с валидацией, кастомные директива и pipe. InjectionToken. OnPush. «Beyond API» фичи. |
-| **4** (2 нед.) | HTTP, RxJS & Testing      | HTTP-клиент, interceptor, RxJS-операторы, 5+ тестов, code review.                          |
+| Project         | Description                                     | API                                                    | Details                                  |
+| --------------- | ----------------------------------------------- | ------------------------------------------------------ | ---------------------------------------- |
+| **CryptoTrade** | Cryptocurrency analysis and trading application | [Binance Testnet](https://testnet.binance.vision/)     | [PROJECT_CRYPTO.md](./PROJECT_CRYPTO.md) |
+| **ShopFront**   | Online store with catalog, cart, and checkout   | [commercetools](https://docs.commercetools.com/api)    | [PROJECT_SHOP.md](./PROJECT_SHOP.md)     |
+| **MusicFlow**   | Music streaming service with search and player  | [Jamendo API](https://developer.jamendo.com/v3.0/docs) | [PROJECT_MUSIC.md](./PROJECT_MUSIC.md)   |
 
 ---
 
-## Что общего у всех проектов
+## How Sprints Map to the Project
 
-Независимо от выбранного проекта, каждая команда к концу курса демонстрирует:
+| Sprint          | Topic                     | What You Do in the Project                                                                       |
+| --------------- | ------------------------- | ------------------------------------------------------------------------------------------------ |
+| **1** (1 week)  | Components                | Basic UI components: cards, lists, header, footer.                                               |
+| **2** (2 weeks) | Routing & Signals         | Pages, navigation, lazy loading, guards. signal() for key state. Two services.                   |
+| **3** (2 weeks) | Directives, Pipes & Forms | Forms with validation, custom directive and pipe. InjectionToken. OnPush. "Beyond API" features. |
+| **4** (2 weeks) | HTTP, RxJS & Testing      | HTTP client, interceptor, RxJS operators, 5+ tests, code review.                                 |
 
-- **5+ страниц** с lazy loading и guards
-- **Signals** для ключевого состояния приложения
-- **Reactive Forms** с валидацией (встроенной и кастомной)
-- **Custom directives** и **custom pipes**
-- **DI:** `InjectionToken` для конфигурации, сервисы с `@Injectable()`
-- **Change Detection:** `provideZoneChangeDetection()` в конфигурации приложения
-- **HTTP:** подключение к реальному API через `HttpClient`
-- **Interceptors:** авторизация + обработка ошибок
-- **RxJS:** `debounceTime`, `switchMap`, `takeUntilDestroyed` и др.
-- **Testing:** минимум 5 тестов на участника
-- **NgRx SignalStore** (`@ngrx/signals`): управление глобальным состоянием приложения через `signalStore()`
-- **Beyond API:** минимум 1 фича, которой нет в API (форма + локальное хранение)
+---
 
-> Все три проекта одинаково валидны для оценки.
+## What All Projects Have in Common
+
+Regardless of the chosen project, by the end of the course each team demonstrates:
+
+- **5+ pages** with lazy loading and guards
+- **Signals** for key application state
+- **Reactive Forms** with validation (built-in and custom)
+- **Custom directives** and **custom pipes**
+- **DI:** `InjectionToken` for configuration, services with `@Injectable()`
+- **Change Detection:** `provideZoneChangeDetection()` in the application config
+- **HTTP:** connection to a real API via `HttpClient`
+- **Interceptors:** authorization + error handling
+- **RxJS:** `debounceTime`, `switchMap`, `takeUntilDestroyed`, etc.
+- **Testing:** at least 5 tests per team member
+- **NgRx SignalStore** (`@ngrx/signals`): global state management via `signalStore()`
+- **Beyond API:** at least 1 feature not provided by the API (form + local storage)
+
+> All three projects are equally valid for scoring.
