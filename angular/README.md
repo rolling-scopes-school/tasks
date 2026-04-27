@@ -1,8 +1,59 @@
 # RS School. Angular Course
 
-This course is designed for developers with solid foundation in JavaScript, TypeScript, and web development. The course lasts **12 weeks**.
+This course is designed for developers who already have solid experience with JavaScript, TypeScript, and web development in general. You should feel confident building things in the browser, understand how the DOM works, be familiar with async patterns, and know your way around TypeScript.
 
-For full course details, prerequisites, and topics covered — see the [Course Overview](modules/intro/COURSE-OVERVIEW.md).
+The course lasts **12 weeks** and requires approximately **20–40 hours of study per week**.
+
+All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool).
+
+---
+
+## Prerequisites
+
+Before starting the course, you must have a good understanding of:
+
+- **JavaScript** — closures, prototypes, async/await, Promises, event loop
+- **TypeScript** — types, interfaces, generics, decorators
+- **HTML & CSS** — semantic markup, flexbox/grid, responsive design
+- **Web fundamentals** — HTTP, REST API, browser storage, DOM API
+- **Git & GitHub** — branching, pull requests, merge/rebase
+- **NPM** — installing packages, scripts, basic project setup
+
+If any of these feel unfamiliar, we recommend reviewing them before the course starts.
+
+---
+
+## Topics Covered
+
+- Angular CLI & project structure
+- Components & Standalone Components
+- Angular Signals (`signal`, `computed`, `effect`, `input`, `output`)
+- Directives & Pipes (built-in and custom)
+- Services & Dependency Injection
+- Routing & Navigation
+- RxJS & Observables
+- HTTP Client
+- Reactive Forms & Template-driven Forms
+- Redux & NgRx
+- Unit Testing (Jest)
+
+---
+
+## Learning Materials
+
+All topic-specific resources are collected here: [Angular Learning Resources](modules/ANGULAR-RESOURCES.md)
+
+---
+
+## What You Will Be Able to Do After the Course
+
+After successfully completing the course, you will be able to confidently apply for and work as an **Angular Junior Frontend Developer**. You will have hands-on experience building a real Angular application as part of a team, a solid understanding of the Angular ecosystem, and the practical skills to continue growing in the role.
+
+---
+
+## Certification
+
+After successfully completing the team task and passing the Angular interview, you will receive a **certificate of course completion**.
 
 ---
 
@@ -10,7 +61,7 @@ For full course details, prerequisites, and topics covered — see the [Course O
 
 ### Day 1 (27.04.2026) — Angular Intro
 
-- [Course Overview](modules/intro/COURSE-OVERVIEW.md) — course structure, prerequisites, topics, and learning materials
+- Course kickoff — overview of the program, prerequisites, and tools
 
 ### Week 1 (28.04.2026 – 04.05.2026) — Angular Intro Task
 
@@ -20,7 +71,7 @@ For full course details, prerequisites, and topics covered — see the [Course O
 
 ### Week 2 (05.05.2026 – 11.05.2026) — Find a Mentor & Team
 
-- [Find a Mentor & Team](tasks/find-mentor/README.md)
+- [Find a Mentor](tasks/find-mentor/README.md)
 
 > Use this week to find a mentor and form a team for the team task.
 

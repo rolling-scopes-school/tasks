@@ -25,3 +25,5 @@ About me:
 ```
 
 The mentor will reach out to you directly via Discord or Telegram.
+
+---
