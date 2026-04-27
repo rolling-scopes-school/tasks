@@ -30,7 +30,7 @@ If you have ever studied at RS School, or simply share our "Teach it forward" id
 
 #### General information
 
-- The duration of mentoring is 8 - 10 weeks. In case of vacation, business trip, etc., it will be possible to postpone the checking of assignments or transfer students to another mentor.
+- The duration of mentoring is 11 weeks. In case of vacation, business trip, etc., it will be possible to postpone the checking of assignments or transfer students to another mentor.
 - Mentoring topics: Angular
 - Format: online
 - Bonuses:
@@ -55,9 +55,33 @@ If you have ever studied at RS School, or simply share our "Teach it forward" id
 
 #### Mentor responsibilities
 
-- Code review of assignments
-- Answering students' questions
-- Conducting interviews
+- **Code review** of your students' pull requests after each sprint
+- **Answering students' questions** throughout the course
+- **Conducting a sprint interview** with each student after every sprint of the team task
+- **Conducting the final Angular interview** at the end of the course
+
+### Sprint Interviews (Team Task)
+
+During the team task, mentors conduct a **personal interview with each student after every sprint**. This is how the personal score (400 points total) is formed.
+
+#### How it works
+
+1. After each sprint deadline, the team is paired with a mentor (may be a random mentor, not necessarily their own).
+2. The team contacts the mentor and schedules a call.
+3. On the call, the mentor **speaks with each student individually** (~15–20 min per person).
+4. The mentor evaluates two aspects:
+   - **Angular knowledge** — questions on the topics of the current sprint.
+   - **Personal contribution** — what the student implemented, whether they can explain their own code.
+5. After the call, the mentor submits a score for each student in RS APP.
+
+> **Important:** the call must take place **within 5 days** of the sprint deadline. If the team does not contact the mentor — the student receives 0 for that sprint.
+
+#### Student eligibility requirements
+
+Before a sprint interview, the student must:
+
+- Have entries in the [development diary](../tasks/angular-team-task/DEVELOPMENT_DIARY.md) for the current sprint
+- Have personally written code merged into `main`
 
 #### Gentleman's Agreement
 

@@ -34,7 +34,7 @@ Directives и Pipes расширяют шаблон Angular: директивы 
 4. **Форма функциональна** — при submit данные обрабатываются (вывод в консоль, отправка в сервис, навигация — любое осмысленное действие).
 5. **`InjectionToken` или кастомный провайдер** — `useValue`, `useFactory`, `useClass` или `useExisting` в `providers`. Замержен в `main`.
 6. **Минимум 3 компонента используют `OnPush`** — с `changeDetection: ChangeDetectionStrategy.OnPush`. Замержены в `main`.
-7. **Минимум 2 записи в дневнике за Sprint 3** — замержены в `main`.
+7. **Минимум 1 запись в дневнике за Sprint 3** — замержены в `main`.
 
 ---
 
@@ -46,6 +46,13 @@ Directives и Pipes расширяют шаблон Angular: директивы 
 - Как использовать `HostListener` для обработки событий DOM
 - Как использовать `ElementRef` для доступа к DOM-элементу
 - Signal-based inputs в директивах через `input()`
+
+### Structural-директивы
+
+- Чем structural directive отличается от attribute directive
+- Новый Angular control flow: `@if`, `@for`, `@switch` — отличия от `*ngIf`/`*ngFor`/`*ngSwitch`
+- Как создать кастомную structural directive с `TemplateRef` и `ViewContainerRef`
+- `ng-template` и `ng-container` — когда и зачем
 
 ### Кастомный pipe
 
