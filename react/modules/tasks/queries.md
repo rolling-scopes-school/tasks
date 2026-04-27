@@ -121,7 +121,7 @@ This task is a continuation of the state management task. In this task, you will
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
-- **2. Test Coverage**
+- **2. Test Coverage (one which applies)**
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
