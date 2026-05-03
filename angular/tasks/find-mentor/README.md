@@ -26,4 +26,6 @@ About me:
 
 The mentor will reach out to you directly via Discord or Telegram.
 
+> **Be prepared:** During the introductory conversation the mentor may ask questions to assess your knowledge of JavaScript, TypeScript, and Angular fundamentals. Based on your answers, the mentor will decide whether to take you on as a mentee. Treat this conversation as a short screening interview.
+
 ---
