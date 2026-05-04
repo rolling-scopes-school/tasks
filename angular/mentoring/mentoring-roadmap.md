@@ -2,7 +2,7 @@
 
 This document describes the mentor's journey week by week — from selecting mentees to the final interview.
 
-**Total duration:** ~11 weeks (1 week onboarding and team setup + 8 weeks team task + 1 week final interview).
+**Total duration:** ~11 weeks (1 week onboarding and team setup + 8 weeks team task + 2 week final interview).
 
 ---
 
@@ -40,6 +40,22 @@ About me:
 - Having a completed intro task is a baseline; look for evidence of effort and curiosity.
 - You can mentor **2 to 6 students** — choose a number you can realistically support with **3–5 hours per week**.
 
+### How to Add a Student to Your Mentee List
+
+Go to the confirmation form:
+👉 <https://app.rs.school/course/mentor/confirm?course=angular-2026q2>
+
+Select **all** students you want to mentor (including those you already have) and submit the form.
+
+> ⚠️ **Known bug:** Students who are already assigned to any mentor (including you) will **not** appear in the selection list. To add a new student alongside your existing ones, you must:
+>
+> 1. Submit the form **without selecting any students** (this will unassign all your current mentees).
+> 2. Open the form again — now all students (old and new) will be visible in the list.
+> 3. Select all your existing students **plus** the new student and submit the form again.
+
+**Alternative (easier) way:** If you don't want to deal with the form, simply post a message with the student's name in the Discord channel:
+👉 <https://discord.com/channels/788026364372320256/1500812637053784257>
+
 ### 1.2 Getting to Know Your Students
 
 Once mentees are confirmed:
@@ -48,7 +64,6 @@ Once mentees are confirmed:
 - **Schedule an introductory group call** — let students introduce themselves, share their backgrounds, and get comfortable with each other.
 - **Set expectations:** explain the course structure, sprint cadence, and your availability.
 - **Familiarize yourself** with the [rules of interaction between students and mentors](README.md#basic-rules-of-interaction-between-students-and-mentors).
-- **Read** the [PR review process](pull-request-review-process.md) so you're ready for code reviews.
 
 ### 1.3 Helping Students Form a Team
 
@@ -60,7 +75,7 @@ The [team task](../tasks/angular-team-task/README.md) requires teams of **2–3 
 
 1. Help students find teammates within your group.
 2. Guide them through creating the team in [RS App → Team Distribution](https://app.rs.school/).
-3. Explain how to choose a project (CryptoTrade / ShopFront / MusicFlow) — see [PROJECTS.md](../tasks/angular-team-task/PROJECTS.md).
+3. Explain how to choose a project (CryptoTrade / ShopFront / MusicFlow) or help students design their own project that satisfies the requirements of all 4 sprints — see [PROJECTS.md](../tasks/angular-team-task/PROJECTS.md).
 4. Walk students through the task structure: sprints, checkpoints, diary, scoring.
 5. Make sure every student understands:
    - The importance of the [development diary](../tasks/angular-team-task/DEVELOPMENT_DIARY.md) (mandatory for sprint interview admission).
