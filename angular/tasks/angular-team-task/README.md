@@ -9,13 +9,16 @@
 - Gain experience in teamwork and code review.
 - Demonstrate what you have learned over 4 sprints.
 
-**Each team chooses one of three projects:**
+**Each team chooses one of three projects or proposes their own:**
 
 | Project         | Description                                     | API                                                    |
 | --------------- | ----------------------------------------------- | ------------------------------------------------------ |
 | **CryptoTrade** | Cryptocurrency analysis and trading application | [Binance Testnet](https://testnet.binance.vision/)     |
 | **ShopFront**   | Online store with catalog, cart, and checkout   | [commercetools](https://docs.commercetools.com/api)    |
 | **MusicFlow**   | Music streaming service with search and player  | [Jamendo API](https://developer.jamendo.com/v3.0/docs) |
+| **Custom**      | Your own project idea                           | Any public API of your choice                          |
+
+> **Custom project:** Teams are free to propose their own project as long as it satisfies the requirements of all four sprints (Components, Routing & Signals, Directives/Pipes/Forms, HTTP/RxJS/Testing). The project must be approved by your mentor before Sprint 1 starts.
 
 Detailed descriptions of each project, sprint requirements, and "Beyond API" features: **[PROJECTS.md](./PROJECTS.md)**.
 

@@ -141,7 +141,6 @@ The project uses its own backend for storing user content: playlists and uploade
 - Adding tracks via inline search: input field → results → "add" button.
 - A playlist must contain at least 1 track (validation).
 - Playlist deletion with confirmation.
-- Data is saved locally (localStorage).
 
 ### 3. Recently Played (listening history)
 

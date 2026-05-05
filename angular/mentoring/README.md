@@ -55,7 +55,7 @@ If you have ever studied at RS School, or simply share our "Teach it forward" id
 
 #### Mentor responsibilities
 
-- **Code review** of your students' pull requests after each sprint
+- **Code review** of your student's pull requests after each sprint and task
 - **Answering students' questions** throughout the course
 - **Conducting a sprint interview** with each student after every sprint of the team task
 - **Conducting the final Angular interview** at the end of the course
