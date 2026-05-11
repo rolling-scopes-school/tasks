@@ -59,7 +59,7 @@ Students are encouraged to explore the following resources:
 ## Additional Resources 📘
 
 1. [How to use React Router v7](https://www.robinwieruch.de/react-router/)
-2. [How to use React Router v7 in React apps](https://blog.logrocket.com/react-router-v6-guide/)
+2. [How to use React Router v7 in React apps](https://blog.logrocket.com/react-router-v7-guide/)
 3. [Upgrading from v6](https://reactrouter.com/upgrading/v6)
 4. [Future of the React Router - React Router 7](https://remix.run/blog/merging-remix-and-react-router) (this topic would be also partially covered in [SSR/SSG module](../nextjs-ssr-ssg/))
 
