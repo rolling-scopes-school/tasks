@@ -113,7 +113,7 @@ Focus on routing and functional components.
 
 3. **Routing Setup**:
 
-- Add routing in SPA mode using either **React Router** (choose "Data" or "Declarative" approach, see [API & mode availability](https://reactrouter.com/start/modes#api--mode-availability-table)) **or [TanStack Router](https://tanstack.com/router/latest/docs/guide/installation)**.
+- Add routing in SPA mode using either **React Router** (choose "Data" or "Declarative" approach, see [API & mode availability](https://reactrouter.com/start/modes#api--mode-availability-table)) **or [TanStack Router](https://tanstack.com/router/latest/docs/installation/manual)**.
 - Pick one router and follow its official documentation for setup and navigation.
 
 ### Penalties
