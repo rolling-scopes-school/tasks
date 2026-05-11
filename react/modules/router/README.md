@@ -34,33 +34,33 @@ Students are encouraged to explore the following resources:
    - [URL values](https://reactrouter.com/start/library/url-values)
 
 3. **API Reference:**
-   - [Router Provider](https://reactrouter.com/en/main/routers/router-provider)
-   - [Browser Router](https://reactrouter.com/en/main/router-components/browser-router)
-   - [Route](https://reactrouter.com/en/main/route/route)
+   - [Router Provider](https://reactrouter.com/api/data-routers/RouterProvider)
+   - [Browser Router](https://reactrouter.com/api/declarative-routers/BrowserRouter)
+   - [Route](https://reactrouter.com/api/components/Route)
 
-4. **Navigation and Parameters:**
-   - [Navigating with React Router](https://reactrouter.com/en/main/components/navigate)
-   - [Link](https://reactrouter.com/en/main/components/link)
-   - [NavLink](https://reactrouter.com/en/main/components/nav-link)
-   - [Using Parameters in Routes](https://reactrouter.com/web/example/url-params)
+4. **Navigation and Outlet:**
+   - [Navigating with React Router](https://reactrouter.com/api/components/Navigate)
+   - [Link](https://reactrouter.com/api/components/Link)
+   - [NavLink](https://reactrouter.com/api/components/NavLink)
+   - [Outlet](https://reactrouter.com/api/components/Outlet)
 
 5. **Protected Routes and Authentication:**
    - [Private Routes](https://www.robinwieruch.de/react-router-private-routes/)
    - [Auth Example](https://github.com/remix-run/react-router/tree/dev/examples/auth)
    - [Authentication](https://www.robinwieruch.de/react-router-authentication/)
 
-6. **Hooks in React Router v6:**
-   - [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
-   - [useParams](https://reactrouter.com/en/main/hooks/use-params)
-   - [useRoutes](https://reactrouter.com/en/main/hooks/use-routes)
-   - [useLocation](https://reactrouter.com/en/main/hooks/use-location)
-   - [useSearchParams](https://reactrouter.com/en/main/hooks/use-search-params)
+6. **Hooks in React Router v7:**
+   - [useNavigate](https://reactrouter.com/api/hooks/useNavigate)
+   - [useParams](https://reactrouter.com/api/hooks/useParams)
+   - [useRoutes](https://reactrouter.com/api/hooks/useRoutes)
+   - [useLocation](https://reactrouter.com/api/hooks/useLocation)
+   - [useSearchParams](https://reactrouter.com/api/hooks/useSearchParams)
 
 ## Additional Resources 📘
 
-1. [How to use React Router v6](https://www.robinwieruch.de/react-router/)
-2. [How to use React Router v6 in React apps](https://blog.logrocket.com/react-router-v6-guide/)
-3. [Upgrading from v5](https://reactrouter.com/ru/main/upgrading/v5)
+1. [How to use React Router v7](https://www.robinwieruch.de/react-router/)
+2. [How to use React Router v7 in React apps](https://blog.logrocket.com/react-router-v6-guide/)
+3. [Upgrading from v6](https://reactrouter.com/upgrading/v6)
 4. [Future of the React Router - React Router 7](https://remix.run/blog/merging-remix-and-react-router) (this topic would be also partially covered in [SSR/SSG module](../nextjs-ssr-ssg/))
 
 By the end of this module, students will have a comprehensive understanding of routing in React applications using React Router. They will be equipped with the skills to create sophisticated and user-friendly SPAs that simulate multi-page navigation seamlessly.
