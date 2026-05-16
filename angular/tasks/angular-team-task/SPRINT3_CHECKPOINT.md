@@ -26,8 +26,6 @@ In this sprint you will use `InjectionToken` / custom providers for the first ti
 
 All requirements met → 40 points, any requirement not met → 0.
 
-### Individual (40 points)
-
 1. **At least 1 custom directive or pipe** — `@Directive()` or `@Pipe()` with meaningful usage in the project. Merged into `main`.
 2. **At least 1 Reactive Form implemented** — with `FormGroup` and `FormControl`. At least 3 fields. Merged into `main`.
 3. **Validation works** — at least 2 types of validators (e.g., `required` + `minLength` or a custom validator). Errors are displayed in the template.

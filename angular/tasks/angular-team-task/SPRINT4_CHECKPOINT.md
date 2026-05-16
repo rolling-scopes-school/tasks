@@ -25,20 +25,15 @@ Most Angular applications communicate with a backend via HTTP. Angular's `HttpCl
 
 All requirements met → 40 points, any requirement not met → 0.
 
-### Team (+20)
-
 1. **404 page** — navigating to a non-existent URL displays a meaningful page with a way to navigate back.
 2. **Loading state** — a loading indicator (spinner, skeleton, text) is shown while data is being fetched.
 3. **API error handling** — API requests are wrapped in error handling. On a network error the user sees a clear message.
 4. **Video proof** — a short video (~1 min) demonstrating the 404, loading, and error states. Video link in the README.
-
-### Individual (+20)
-
-1. **HttpClient is used** — at least 2 HTTP requests (GET + POST/PUT/DELETE) to a real or mock API. Merged into `main`.
-2. **At least 1 HTTP Interceptor implemented** — for auth token, logging, error handling, or any other purpose.
-3. **At least 5 tests written personally by you** — `*.spec.ts` files. Total ≥5 test cases (`it`). Authorship is determined by commits (`git blame`).
-4. **Code Review** — **Option A:** ≥3 meaningful comments in team PRs. **Option B:** a diary entry about how you studied another team member's code.
-5. **At least 1 diary entry for Sprint 4** — merged into `main`.
+5. **HttpClient is used** — at least 2 HTTP requests (GET + POST/PUT/DELETE) to a real or mock API. Merged into `main`.
+6. **At least 1 HTTP Interceptor implemented** — for auth token, logging, error handling, or any other purpose.
+7. **At least 5 tests written personally by you** — `*.spec.ts` files. Total ≥5 test cases (`it`). Authorship is determined by commits (`git blame`).
+8. **Code Review** — **Option A:** ≥3 meaningful comments in team PRs. **Option B:** a diary entry about how you studied another team member's code.
+9. **At least 1 diary entry for Sprint 4** — merged into `main`.
 
 > **Diary:** no diary — 0 for the entire checkpoint.
 

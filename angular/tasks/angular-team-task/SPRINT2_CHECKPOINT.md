@@ -27,21 +27,16 @@ Routing is impossible without services. In this sprint you will create full-fled
 
 All requirements met → 40 points, any requirement not met → 0.
 
-### Team (+20)
-
 1. **Application is deployed** — the README contains a link to a working deployment (HTTP 200). Even a skeleton counts as a deployment.
 2. **GitHub Actions workflow exists** — CI is set up (at least a linter).
 3. **At least 6 issues in GitHub** — for work planning.
 4. **Linter configured** — ESLint configuration in the repository.
-
-### Individual (+20)
-
-1. **At least 3 routes configured** — the application has page-to-page navigation. Merged into `main`.
-2. **Lazy loading implemented** — at least 1 route is lazy-loaded via `loadComponent` or `loadChildren`.
-3. **At least 1 Route Guard implemented** — `canActivate` or `canDeactivate`. Functional or class-based.
-4. **Signals used in at least 2 components** — `signal()` and `computed()` or `effect()`. Merged into `main`.
-5. **At least 2 services with `@Injectable()`** — injected via `inject()`. Merged into `main`.
-6. **At least 1 diary entry for Sprint 2** — merged into `main`.
+5. **At least 3 routes configured** — the application has page-to-page navigation. Merged into `main`.
+6. **Lazy loading implemented** — at least 1 route is lazy-loaded via `loadComponent` or `loadChildren`.
+7. **At least 1 Route Guard implemented** — `canActivate` or `canDeactivate`. Functional or class-based.
+8. **Signals used in at least 2 components** — `signal()` and `computed()` or `effect()`. Merged into `main`.
+9. **At least 2 services with `@Injectable()`** — injected via `inject()`. Merged into `main`.
+10. **At least 1 diary entry for Sprint 2** — merged into `main`.
 
 ---
 
