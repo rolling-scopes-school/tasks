@@ -78,7 +78,7 @@ Designed for those who want to stay in shape and hit the ground running when the
 
 ## Certificate
 
-Certificates are not issued for the bootcamp.
+- Students who will have 42%+ of top 1 score will get certificate (if top 1 have 100 points in the end those who have 42+ points will get certificate)
 
 ## FAQ
 
