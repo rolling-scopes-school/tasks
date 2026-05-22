@@ -1,134 +1,143 @@
-# Not Fight Club Codejam
+# Not Fight Club
 
-## Описание проекта
+## Skills
 
-В рамках данного проекта мы будем создавать игру с базовыми механиками боя, настройками вашего персонажа и записью логов боя.
+`vanilla JavaScript` `DOM manipulation` `state management` `event handling` `localStorage` `game logic` `randomization` `UI components`
 
-## Ключевые навыки
+## Task Description
 
-Создание игры с различными функциональными элементами.
+Build a turn-based browser fighting game with customizable player, opponent pool, attack/defense mechanics, critical hits, and a battle log.
 
-## Синопсис и условия алгоритма
+[Live demo](https://turn-them-all-down.vercel.app)
 
-[Демо](https://turn-them-all-down.vercel.app)
+The game is inspired by the combat mechanics of the old browser game "Fight Club" (Бойцовский клуб). A complete project lets the player create a character, pick an avatar, and fight battles against a pool of opponents.
 
-Данная игра берёт за основу механику боя из довольно старой браузерной игры «Бойцовский клуб» (игра до сих пор вроде даже жива :)
-Полностью завершённый проект позволит вам создать своего игрока, выбрать ему аватар и запускать бои.
-Естественно, потолок — это ваше воображение, но ниже будет приведён список основного функционала и за что будут начисляться баллы.
+The ceiling is your imagination — the list below is the **required** functionality and how points are awarded for it.
 
-**Максимальный балл: 170**
+> The demo uses client-side routing. **Routing is not required** for this task.
 
-В демо-версии проекта используется роутинг — данный функционал не обязателен!
+## Requirements
 
-### 1. Экран регистрации (10 баллов)
+The project consists of several screens and a battle system. The full list of required features is described in the [Scoring Criteria](#scoring-criteria) section below — each feature there is also a requirement.
 
-![image](https://github.com/user-attachments/assets/04a96b9d-addb-4b56-93cc-7e8fe9f0426b)
+### Screens overview
 
-Инпут должен позволить игроку ввести своё имя. После ввода имени данное имя будет использоваться во всех остальных экранах, поэтому важно его где-то хранить. +10 баллов
+1. **Registration screen** — single input for the player's name.
 
-### 2. Домашняя страница (5 баллов)
+   ![Registration](https://github.com/user-attachments/assets/04a96b9d-addb-4b56-93cc-7e8fe9f0426b)
 
-![image](https://github.com/user-attachments/assets/008d3f4b-8b0b-4c31-8149-8ceae774e7c7)
+2. **Home screen** — start button that creates a new battle.
 
-Имеет стартовую кнопку, по нажатию которой создаётся новый бой и открывается страница с боем. +5 баллов
+   ![Home](https://github.com/user-attachments/assets/008d3f4b-8b0b-4c31-8149-8ceae774e7c7)
 
-### 3. Страница персонажа (25 баллов)
+3. **Character page** — avatar, name, win/loss record, ability to change the avatar.
 
-![image](https://github.com/user-attachments/assets/96a6f81e-a599-49eb-bfd0-521bebc4bbfa)
-![image](https://github.com/user-attachments/assets/0e4bf010-7a9d-4088-8e7d-2805185843f5)
+   ![Character](https://github.com/user-attachments/assets/96a6f81e-a599-49eb-bfd0-521bebc4bbfa)
+   ![Avatar picker](https://github.com/user-attachments/assets/0e4bf010-7a9d-4088-8e7d-2805185843f5)
 
-Содержит аватар персонажа, его имя и список побед и поражений.
+4. **Settings page** — change the player's name.
 
-- На странице есть аватар +5 баллов
-- На странице есть список побед, поражений и имя игрока +5 баллов
-- На странице есть возможность выбрать новый аватар (в демо реализовано через наведение на аватар и дополнительное окно. Однако для задания не обязательно делать это именно таким способом — главное, чтобы аватар можно было сменить). Изображения можно взять в интернете и помним, что надо соблюдать рамки приличия :) +15 баллов
+   ![Settings](https://github.com/user-attachments/assets/7fff3b64-1b5e-4b0d-9ceb-3be53284a0f2)
 
-### 4. Страница настроек (10 баллов)
+5. **Battle page** — the core gameplay: player vs. opponent, health bars, attack/defense selection, battle log.
 
-![image](https://github.com/user-attachments/assets/7fff3b64-1b5e-4b0d-9ceb-3be53284a0f2)
+   ![Battle](https://github.com/user-attachments/assets/b5ef4a0b-db51-4382-98e9-3939c7351ac0)
 
-Позволяет сменить имя игрока. Так же как и в случае с аватаром, можно придумать свой способ, но главное, чтобы была такая возможность и новое имя показывалось в других частях игры. +10 баллов
+### Battle mechanics
 
-### 5. Страница с боем (100 баллов)
+- The game has a set of **attack zones** and **defense zones** (e.g. head, body, legs).
+- Each turn the **player** picks **one** zone to attack and **two** zones to defend. Until the player picks the correct number of zones, the game must prevent them from attacking (e.g. the attack button stays disabled).
+- After the player confirms, both sides exchange blows simultaneously.
+- Each **opponent** has its own attack/defense profile. The demo, for example, has 3 opponents — a spider that attacks two zones and blocks one, a troll that attacks one zone and blocks three, and so on. Your opponent pool must include **at least 2 opponents with different profiles**.
+- The opponent's choices each turn are **random** within its profile. Random zones must not repeat within the same turn (e.g. the spider can't attack the legs twice in one turn).
+- Damage is dealt only where attack zones do **not** overlap defense zones. If the player attacked the head and the opponent blocked the head — no damage. The same applies the other way around.
+- After the exchange, each side's health is reduced by the unblocked damage they received.
+- **Critical hits**: both player and opponent have a chance to land a critical hit. A critical hit deals extra damage (the demo uses ×1.5). A critical hit also breaks through a block — if the target was defending the zone, the hit still lands and deals critical damage.
+- **Balance rule**: every fighter's HP must be **at least 3× their base damage**, so that no fight can end in one turn.
 
-![image](https://github.com/user-attachments/assets/b5ef4a0b-db51-4382-98e9-3939c7351ac0)
+### Battle log
 
-- На странице есть игрок и противник и интерактивный счётчик здоровья, который меняется согласно логике боя. +20 баллов
+Every action in a turn produces one log entry. If the player attacks one zone and the opponent attacks two, that turn produces **three** log entries.
 
-- При создании боя противник выбирается из заранее созданного пула (имеется в виду, что у вас есть несколько противников (минимум 2) с разными настройками). +5 баллов
+Each entry must contain:
 
-- Есть полная рабочая механика боя согласно требованиям. +15 баллов
-  Описание механики:
-  - Есть зоны атаки и зоны защиты. Игрок каждый ход выбирает одну точку для атаки и две точки для защиты (лучше оставить уточняющее описание по этому поводу). Пока игрок не выберет правильное количество точек, игра не позволяет ему атаковать (в демо, например, кнопка активна только если выбрать как надо).
-  - После нажатия кнопки происходит обмен ударами.
-  - Каждый монстр также имеет свои настройки зон атаки и защиты (в демо есть 3 противника, и каждый из них имеет разные возможности: например, паук бьёт в две точки, а блокирует одну; тролль бьёт в одну точку, но блокирует три). При создании противников нужно это учесть.
-  - Куда именно бьёт и что блокирует противник, выбираем случайно. Например, если паук бьёт в две зоны, то каждый ход это две случайные точки, но они не должны совпадать (нельзя, чтобы он бил два раза в ноги, или чтобы тролль трижды блокировал голову — в этом нет смысла).
-  - После этого сравниваем, кто куда ударил и кто что блокировал. В случае несовпадений наносим или получаем урон. Например, если игрок бил в голову, а противник блокировал голову — урон не наносится, и наоборот.
-  - После обмена ударами подводятся итоги и у обоих участников боя отнимается здоровье.
+- **WHO** attacked
+- **WHOM** they attacked
+- **WHERE** they hit (which zone)
+- **HOW MUCH** damage was dealt (including whether it was blocked / critical)
 
-- Реализована механика критических ударов. Согласно данной механике, игрок и противник имеют шанс нанести критический урон. В этом случае, если удар не был заблокирован, противник получает дополнительный урон (в демо коэффициент урона 1.5 от обычного). А если удар был заблокирован, блок пробивается и также наносится критический урон. +5 баллов
+The exact wording is up to you, but those four facts must be present.
 
-- Какой именно запас здоровья, урон, шанс критического удара и коэффициент критического удара имеют игрок и противники, каждый решает сам. Требований и ограничений нет, кроме одного: здоровье должно быть хотя бы в 3 раза выше урона, чтобы бои не заканчивались за один ход (в демо, например, баланса нет и выиграть почти невозможно :)
-  Если бои будут заканчиваться за один ход — **штраф 20 баллов**.
+### Technical requirements
 
-- Есть лог боя на каждое действие. +55 баллов
-  - Логика боя довольно сложная, и, по сути, можно её не реализовывать, а делать псевдобои. Именно поэтому за механику даётся только 15 баллов, а за логи боя — 55 баллов. Логи боя не являются сложным функционалом, но именно они позволят игроку и проверяющим понять, что произошло и почему.
-  - Как генерировать лог: каждая атака имеет результат. Например, если игрок атаковал в одну точку, а противник в две, по результатам хода в логе должно появиться 3 записи с результатами. Тексты каждый волен выбирать сам, но обязательно в каждом логе должна содержаться следующая информация: КТО атаковал, КОГО атаковал, КУДА атаковал, СКОЛЬКО нанёс урона. (Капсом выделено то, что обязательно указать.)
-  - За логи даётся 50 баллов
-  - +5 баллов, если реализовано выделение текстовых элементов как в демо (разные стили для ключевой информации).
+1. The player's name, avatar, and win/loss record must persist across page reloads.
+2. The list of opponents and their profiles are hardcoded in the project (no backend).
+3. No console errors during normal use.
+4. The game must work in the latest version of Chrome.
 
-### 6. Бонусное задание
+## Submission
 
-Реализовано полное хранение всех данных, что позволяет при перезагрузке страницы не только продолжать играть своим персонажем, но также сохраняются результаты боёв и полное состояние боя, который был в процессе. +20 баллов
+1. Work in your personal private repository named `not-fight-club`.
+2. On the day cross-check starts, switch the repository to public so reviewers can access it and `gh-pages` can deploy.
+3. Deploy your work to `gh-pages`. If `gh-pages` is not available, use <https://app.netlify.com/drop> with the naming scheme `<github-username>-not-fight-club`.
+4. Open a Pull Request from your working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR into `main`.
+5. Use the [Git commit convention](https://rs.school/docs/git-convention) for your commit messages. The commit history must reflect the actual development process.
+6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
-## Требования к репозиторию
+## Cross-check
 
-- Задание выполняется в личном репозитории.
-- Создайте свой личный приватный репозитоий с названием `not-fight-club`
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-![image](https://user-images.githubusercontent.com/43149261/172828241-bb305422-e43c-4f90-876b-571874c3a7af.png)
+The reviewer plays through the deployed app and awards points only for features that actually work. Features that cannot be verified (broken deploy, runtime errors blocking the flow) score 0 for that block.
 
-- В день запуска кросс-чека необходимо сделать репозиторий публичным чтобы была возможность деплоя на gh-pages, и чтобы дать доступ проверяющим.
-  Для этого необходимо перейти в настройки репозитория и в основных настройках пролистать вниз до настроек видимости.
+## Scoring Criteria
 
-![image](https://user-images.githubusercontent.com/43149261/172828407-e40746e9-b32b-424d-ad7a-f14a6a72dd3b.png)
+**Maximum score: 170 points**
 
-- Для деплоя используйте `gh-pages`
-- Если не можете для деплоя использовать `gh-pages`, используйте <https://app.netlify.com/drop>. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
+### 1. Registration screen (10 points)
 
-## Требования к коммитам
+- An input lets the player enter their name; the entered name is reused on every other screen and persists across reloads **+10**
 
-- История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+### 2. Home screen (5 points)
 
-## Требования к Pull Request
+- A start button creates a new battle and opens the battle page **+5**
 
-- Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
-  **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
+### 3. Character page (25 points)
 
-## Чтобы получить баллы за задание необходимо
+- The page shows the character's avatar **+5**
+- The page shows the player's name and the win/loss record **+5**
+- The player can choose a new avatar from a set of images, and the chosen avatar is reflected everywhere it's shown **+15**
 
-- Выполнить задание \*
-- Засабмитить задание т.е. отправить его на проверку \*\*
-- Если задание проверяется в ходе кросс-чека, проверить все присланные на проверку работы и засабмитить результаты проверки до дедлайна кросс-чека \*\*\*
+### 4. Settings page (10 points)
 
-\* _Весь код проекта вам необходимо написать самостоятельно, только так можно чему-то научиться.
-Копирование чужого кода (`Ctrl + C`, `Ctrl + V`) на курсе запрещено._
-\*\* _Засабмитить задание можно только до дедлайна таска, после дедлайна сабмит недоступен_
-\*\*\* _Сабмит результатов кросс-чек проверки доступен и после дедлайна кросс-чека, но на оценки проверяющего и проверяемых не влияет_
+- The player can change their name; the new name is reflected on every other screen and persists across reloads **+10**
 
-## Как сабмитить задание
+### 5. Battle page (100 points)
 
-После выдачи таска, но до наступления дедлайна зайдите в rs app <https://app.rs.school/>, выберите **Cross-Check: Submit**, в выпадающем списке выберите таск, в названии которого есть слово `codejam`, в поле **Solution URL** добавьте ссылку на задеплоенную версию созданного вами сайта, нажмите кнопку **Submit**.
+- The page shows the player and the opponent with interactive HP bars that update according to the battle logic **+20**
+- When a battle is created, the opponent is picked from a predefined pool of at least 2 opponents with different attack/defense profiles **+5**
+- Full working battle mechanics per the [Battle mechanics](#battle-mechanics) section — zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn **+15**
+- Critical hits are implemented: a random chance to deal extra damage; a critical hit also breaks through a block **+5**
+- A battle log shows every action of every turn with the required fields (**WHO**, **WHOM**, **WHERE**, **HOW MUCH**) **+50**
+- Log entries visually highlight key pieces of information (different styles for names, zones, damage values), as shown in the demo **+5**
 
-## Рекомендации по сабмиту
+### 6. Bonus — full persistence (20 points)
 
-- Засабмитить задание рекомендуется как можно раньше, как только в rs app появится такая возможность. После сабмита задание можно продолжать выполнять до самого дедлайна
-- Убедитесь, что задеплоенная вами ссылка открывается в режиме инкогнито браузера
-- Сделайте скриншот засабмиченной ссылки и сохраняйте его у себя до старта кросс-чека. Если вам не придут работы на проверку, скриншот послужит доказательством, что вы вовремя засабмитили ссылку на работу. В таком случае вашу работу проверят в ходе апелляции
+- All game data is persisted, so that after a page reload the player can continue with the same character, keep their win/loss record, **and** resume an in-progress battle in the exact same state (HP, current turn, log) **+20**
 
-## Проверка задания
+### Penalties
 
-- форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- A fight can end in a single turn because HP is not at least 3× the base damage **-20**
+- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-170**
+- Console errors during normal use **-10**
+
+## Learning Resources
+
+- [JavaScript DOM — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [Introduction to Events — MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [Window.localStorage — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [`Math.random()` — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Game Programming Patterns — Robert Nystrom (free online book)](https://gameprogrammingpatterns.com/)
+- [Designing Turn-Based Combat — Game Developer](https://www.gamedeveloper.com/design/designing-turn-based-combat)
+- [State Management in Vanilla JS — DEV](https://dev.to/jacobwicks/simple-state-management-in-vanilla-javascript-3e29)
