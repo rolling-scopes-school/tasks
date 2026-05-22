@@ -78,9 +78,13 @@ Controls effects example:
 
    > `git commit -m "init: start cssMemeSlider-task \`LANG=en_EN date +'(%a, %b %d, %Y %r)'\`"`
 
-6. When done, open a Pull Request from `gh-pages` into `main`. Name the PR after the task. Write the PR description following the [PR description schema](https://rs.school/docs/pull-request-review-process). Do **not** merge the PR. Submit the PR link in the cross-check form. In the description, list all screen resolutions you tested (e.g. mobile: 320×568, desktop: 1920×1080).
+6. When done, open a Pull Request from `gh-pages` into `main`. Name the PR after the task. Write the PR description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). Do **not** merge the PR. Submit the PR link in the cross-check form. In the description, list all screen resolutions you tested (e.g. mobile: 320×568, desktop: 1920×1080).
 
 > If a reviewer has any questions about your implementation, they should find all answers in your PR description.
+
+## Cross-check
+
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
 ## Scoring Criteria
 

@@ -26,8 +26,20 @@ Every task `README.md` must contain the following sections **in this order**:
 2. Skills (tags block)
 3. Task Description
 4. Requirements
-5. Scoring Criteria
-6. Learning Resources
+5. Submission
+6. Cross-check
+7. Scoring Criteria
+8. Learning Resources
+```
+
+### 2.6 Cross-check
+
+A dedicated section between Submission and Scoring Criteria. Always link to https://rs.school/docs/cross-check-flow.
+
+```markdown
+## Cross-check
+
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 ```
 
 ### 2.1 Title
