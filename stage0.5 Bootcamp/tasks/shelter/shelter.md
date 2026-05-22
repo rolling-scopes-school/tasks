@@ -1,148 +1,70 @@
-# Shelter
+﻿# Shelter
 
-## Описание проекта
+## Skills
 
-Shelter - это проект, в котором вам предстоит сверстать сайт, состоящий из двух страниц, сделать его адаптивным и интерактивным.
+`semantic HTML` `CSS Flexbox` `CSS Grid` `responsive design` `media queries` `Figma` `JavaScript DOM` `event handling` `CSS animations`
 
-## Ключевые навыки:
+## Project Description
 
-- валидная семантическая адаптивная вёрстка
-- легкоподдерживаемый читаемый код
-- экспорт стилей и графики из Figma
-- использование JavaScript для реализации указанного в задании функционала
+Shelter is a two-page website project. You will build the layout, make it responsive, and add interactive JavaScript functionality across three weekly stages.
 
-## Этапы работы над проектом:
+## Project Stages
 
-Задание состоит из трёх частей:
+The task is split into three parts, each lasting one week and reviewed via cross-check:
 
-- [shelter. week-1: Фиксированная вёрстка](shelter-part1.md)
-  - в этой части задания необходимо сверстать страницы `main` и `pets` по макету, которые корректно отображаются при ширине окна не менее 1280px.
-  - проверяется валидность вёрстки, её совпадение с макетом
-- [shelter. week-2: Адаптивная вёрстка](shelter-part2.md)
-  - в этой части задания необходимо добавить адаптивность свёрстанным на первом этапе страницам, до ширины 320px включительно, с удовлетворением условий:
-    - на любой ширине вся страница с контентом вмещается по ширине в окно браузера, горизонтальная полоса прокрутки не появляется
-    - при ширине 768px и 320px страницы соответствуют макету
-  - проверяется валидность верстки, ее совпадение с макетом на соответствующей ширине страницы, адаптивность верстки и отсутствие горизонтальной полосы прокрутки
-- [shelter. week-3: Добавление функционала](shelter-part3.md)
-  - в этой части задания используем JavaScript для добавления странице интерактивности:
-    - бургер-меню на обеих страницах
-    - попап для карточек животных на обеих страницах
-    - бесконечный слайдер-карусель на странице `main`
-    - пагинация на странице `pets`
-  - проверяется реализованный функционал
+- [Shelter: Part 1 — Fixed Layout](shelter-part1.md)
+  Build the `main` and `pets` pages from the Figma design at a fixed width of 1280px. Validated, semantic markup.
 
-Продолжительность выполнения каждой части задания - 1 неделя  
-Форма проверки каждой части задания - кросс-чек
+- [Shelter: Part 2 — Responsive Layout](shelter-part2.md)
+  Make both pages responsive from 1280px down to 320px. No horizontal scroll at any width. Pages match the design at 1280px, 768px, and 320px breakpoints.
 
-[Макет в figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
+- [Shelter: Part 3 — JavaScript Functionality](shelter-part3.md)
+  Add interactivity using pure JavaScript: burger menu, infinite carousel slider on `Main`, pagination on `Pets`, and a popup for pet cards on both pages.
 
-## Создание собственной копии макета
+## Figma Design
 
-Выполнение задания начните с создания собственной копии макета. Для этого
+[Open design in Figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
 
-- авторизуемся в [figma](https://www.figma.com/)
-- открываем макет
-- на панели вверху нажимаем на стрелку рядом с названием макета, выбираем пункт "Duplicate to your drafts"
-- слева вверху открываем настройки, выбираем "Back to files"
-- открываем копию макета рядом с которой есть надпись "In Drafts"
+### Creating your own copy of the design
 
-## Рекомендации по качеству кода
+1. Sign in to [Figma](https://www.figma.com/).
+2. Open the design file.
+3. In the top panel, click the arrow next to the file name and select "Duplicate to your drafts".
+4. Open your drafts — you will see a copy labeled "In Drafts".
 
-Рекомендации предлагаются для ознакомления, их строгое соблюдение на этапе stage#1 не предполагается и не проверяется
+## Technical Requirements
 
-- гайдлайн https://codeguide.academy/html-css.html#html
-- руководство по качеству кода
-  - [общие принципы](../../stage1/modules/clean-code/materials/generic-principles.md)
-  - [HTML и CSS рекомендации - начальный уровень](../../stage1/modules/clean-code/materials/html-and-css.md)
-  - [HTML и CSS рекомендации - продвинутый уровень](../../stage1/modules/clean-code/materials/html-and-css-extended.md)
+1. Markup must be valid, semantic, and match the design.
+2. The application must work correctly in the latest version of Google Chrome.
+3. CSS frameworks (Bootstrap, etc.) are **not allowed**.
+4. JS frameworks (Angular, React, Vue, etc.) are **not allowed**.
+5. Outdated libraries (jQuery, etc.) are **not allowed**.
+6. TypeScript is **not allowed** — use plain JavaScript.
+7. CSS preprocessors (`Sass`) and `normalize.css` are allowed.
+8. `reset.css` is not recommended.
+9. Do **not** implement layout using screenshots of the design. Use proper HTML tags and symbols. Images and icons may be image files; layout elements (buttons, blocks, sections) must be coded.
 
-## Технические требования
+## Repository Setup
 
-1. вёрстка валидная, семантическая, соответствующая макету
-2. приложение корректно отображается и работает в браузере Google Chrome последней версии
-3. запрещается использование CSS-фреймворков (`bootstrap`)
-4. запрещается использование JS-фреймворков (Angular, React, Vue и т.д.)
-5. запрещается использование устаревших библиотек (JQuery и т.д.)
-6. запрещается использование TypeScript. На stage#1 вы практикуетесь в использовании чистого JavaScript, изучение TS и его использование предстоит на stage#2 текущего курса.
-7. допускается использование CSS-препроцессоров (`Sass`), `normalize.css`
-8. не рекомендуется использовать сброс стилей при помощи `reset.css`
-9. запрещено добавление вёрстки картинкой, когда делается скрин части макета и вставляется в вёрстку. Для вёрстки используйте теги и символы, картинками можно добавлять изображения и иконки, а не элементы вёрстки (кнопки, блоки, секции)
+- Work in the school's private repository.
+- Create a `shelter` branch from `main`. Inside it, create a `shelter` folder for your project files.
+- For deployment, use `gh-pages`.
+- Since the task has three parts, the branch workflow is:
+  1. Part 1 goes in the `shelter` branch.
+  2. For Part 2, create `shelter-part2` from `shelter` — this lets you continue from where you left off. When done, merge `shelter-part2` into `shelter`.
+  3. For Part 3, repeat with `shelter-part3`.
+  4. Never merge into `main`.
 
-## Требования к репозиторию
+## Cross-check
 
-- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
-- если у вас не создаётся приватный репозиторий школы, задание можно выполнять в личном приватном репозитории
-- от ветки `main` создайте ветку `shelter` в ней создайте папку `shelter`, в ней разместите файлы проекта
-- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
-- если не можете для деплоя использовать `gh-pages`, используйте https://app.netlify.com/drop. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
-- так как задача делится на три части, shelter будет иметь три версии:
-  1.  ветка `shelter` будет содержать первую часть задания, приступая ко второй части создайте ветку `shelter-part2` от ветки `shelter` что позволит продолжить с того же места, на котором вы остановились в первой части
-  2.  по завершении выполнения второй части задания создайте Pull Request из ветки `shelter-part2` в ветку `shelter`, проверьте на конфликты и сделайте Merge
-  3.  для третьей части выполнить первые 2 пункта еще раз но с другим названием ветки (`shelter-part3`)
-  4.  обратите внимание: Pull Request с последующем мержем выполняется только из ветки текущий разработки в начальную ветку этого таска. Мерж в ветку `main` не производится!
-- внутренняя структура проекта - на ваше усмотрение. Самый простой вариант - отдельная верстка страниц, каждая со своими стилями и js, например, как [тут](shelter-folder-structure.jpg). При сабмите работы обратите внимание, чтобы по указанной в сабмите ссылке открывалась именно главная страница задеплоенной работы
+Each part is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-## Требования к коммитам
+## Learning Resources
 
-- История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
-
-## Требования к Pull Request
-
-- Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
-  **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
-
-## Чтобы получить баллы за задание необходимо:
-
-- Выполнить задание \*
-- Засабмитить задание т.е. отправить его на проверку \*\*
-- Проверить все присланные на проверку работы и засабмитить результаты проверки до дедлайна кросс-чека \*\*\*
-
-\* _Весь код проекта вам необходимо написать самостоятельно, только так можно чему-то научиться.  
-Копирование чужого кода (`Ctrl + C`, `Ctrl + V`) на курсе запрещено._  
-\*\* _Засабмитить задание можно только до дедлайна таска, после дедлайна сабмит недоступен_  
-\*\*\* _Если хотя бы одна работа не будет проверена - оценку за работу вы не получите_
-
-## Как сабмитить задание
-
-После выдачи таска, но до наступления дедлайна зайдите в rs app https://app.rs.school/, выберите **Cross-Check: Submit**, в выпадающем списке выберите необходимый таск, в поле **Solution URL** добавьте ссылку на задеплоенную версию созданного вами сайта, нажмите кнопку **Submit**.
-
-## Рекомендации по сабмиту
-
-- Засабмитить задание рекомендуется как можно раньше, как только в rs app появится такая возможность. После сабмита задание можно продолжать выполнять до самого дедлайна
-- Так как проект выполняется в приватном репозитории, сабмитить ссылку на репозиторий или pull request нет смысла - проверяющий его не увидит. Приватный репозиторий школы видите только вы сами, админы курса, и увидят ваши менторы, когда они появятся
-- Убедитесь, что задеплоенная вами ссылка открывается в режиме инкогнито браузера
-- Сделайте скриншот засабмиченной ссылки и сохраняйте его у себя до старта кросс-чека. Если вам не придут работы на проверку, скриншот послужит доказательством, что вы вовремя засабмитили ссылку на работу. В таком случае вашу работу проверят в ходе апелляции
-
-## Проверка задания
-
-- форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
-
-## Материалы
-
-- [Старт в Figma для верстальщика](https://htmlacademy.ru/blog/soft/figma)
-- [Инструкция по работе в Figma для верстальщика](https://breezzly.ru/guides/start-v-figma-dlya-verstalshhika)
-- [Верстка сайта с нуля из Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
-- Используемые шрифты: [Arial, google fonts](https://www.fonts.com/font/monotype/arial?QueryFontType=Web&src=GoogleWebFonts) и [Georgia, google fonts](https://www.fonts.com/font/microsoft-corporation/georgia?QueryFontType=Web&src=GoogleWebFonts)
-
-## Вебинары RS School
-
-- вебинары Сергея Шаляпина
-  - [Stream 11.02.2020](https://youtu.be/UQavTWiTpnA)
-  - [Stream 03.03.2020](https://youtu.be/PhRVJC0kBGE)
-  - [Stream 10.03.2020](https://youtu.be/_5f0kznOM_A)
-  - [Stream 17.03.2020](https://youtu.be/0M9Rz-wXYas)
-  - [Stream 26.03.2020](https://youtu.be/fFDw7AH2OXo)
-  - [Stream 07.04.2022. SCSS (Sass) Basics. Flex vs Grid Layout](https://youtu.be/MOrQRgP8kbo)
-  - [Stream 12.04.2022. Media queries. Responsive vs Adaptive.](https://youtu.be/CbtdP2vGOI8)
-  - [Stream 20.04.2022. JS DOM & Events. Simple carousel example](https://youtu.be/2xP-HahCtio)
-- вебинары Виктории Ворожун
-  - [Friday Live Coding. Part 1](https://youtu.be/ZAde-IJAHzo)
-  - [Friday Live Coding. Part 2](https://youtu.be/BJENQIX2e2o)
-  - [Friday Live Coding. Part 3](https://youtu.be/fooyYgIuZe8)
-  - [Friday Live Coding. Part 4](https://youtu.be/Qk2UGlFNKPE)
-  - [Friday Live Coding. Part 5](https://youtu.be/ouZnGUefneQ)
-  - [Репозиторий с кодом](https://github.com/ViktoriyaVorozhun/friday-live-coding/tree/develop)
-  - [Макет в figma](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1)
+- [Getting started with Figma (for developers)](https://htmlacademy.ru/blog/soft/figma)
+- [Building a website from Figma (video playlist)](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)
+- [CSS Flexbox — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
+- [CSS Grid — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [Using Media Queries — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+- [Responsive Design — web.dev](https://web.dev/learn/design/)
+- [JavaScript DOM — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)

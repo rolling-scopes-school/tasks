@@ -127,6 +127,14 @@ Each link must be a working URL — verify before saving.
 - Prefer MDN, official docs, or well-known resources (css-tricks, javascript.info, web.dev).
 - Internal links must use relative paths where possible.
 
+### Canonical rs.school links (use these exact URLs)
+
+| Purpose                     | URL                                                          |
+| --------------------------- | ------------------------------------------------------------ |
+| Cross-check process         | https://rs.school/docs/cross-check-flow                      |
+| PR description requirements | https://rs.school/docs/short-track/pull-request-requirements |
+| Git commit convention       | https://rs.school/docs/git-convention                        |
+
 ---
 
 ## 5. Things to Remove / Replace When Adapting

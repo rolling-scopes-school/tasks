@@ -1,131 +1,79 @@
-## shelter. week-2 - Адаптивная вёрстка
+# Shelter: Part 2 — Responsive Layout
 
-- [Описание и требования задания](shelter.md)
+## Skills
 
-В этой части задания адаптируем ранее сверстанные страницы для планшетов и мобильных устройств.  
-На разрешениях 1280px, 768рх и 320px ставится задача совпадения вёрстки с соответствующим [макетом](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter) (брейкпоинты (@media queries) при этом могут быть другими (отличаться от проверяемых разрешений) и в другом количестве).  
-На остальных разрешениях до 320рх включительно обеспечивается отсутствие горизонтальной полосы прокрутки при выполнении адаптивности и резиновости верстки, сохранении всего контента страницы, отсутствие изменения пропорций изображений, отсутствие белых полей справа от блоков.  
-Для обеспечения резиновости верстки пользуйтесь относительными единицами измерения.
+`responsive design` `media queries` `mobile-first` `fluid layout` `relative units` `breakpoints` `CSS Flexbox` `CSS Grid`
 
-## Порядок работы
+## Task Description
 
-1. Задание выполняется в приватном репозитории школы.
-2. От ветки `shelter` создайте ветку `shelter-part2` в ней уже будет находиться папка `shelter` с файлами проекта, выполненными на предыдущем этапе.
-3. Продолжите выполнение задания в созданной ветке.
-4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке).
-5. Cамостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), с учётом [Особенностей проверки адаптивности в DevTools](#особенности-проверки-адаптивности-в-devtools) и [Особенностей проверки вёрстки на соответствие макету](#особенности-проверки-вёрстки-на-соответствие-макету).
-6. Самооценку своей работы выведите в консоль браузера. Для этого подключите к файлу `index.html` файл `index.js`, в нём напишите функцию console.log(), в скобках в кавычках напишите самооценку по пунктам. Для переноса строк используйте символ `\n`.
-7. Создайте и замержите Pull Request из ветки `shelter-part2` в ветку `shelter`.  
-   Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-8. После окончания кросс-чека предыдущей части задания обновите деплой вашей работы. Например, создайте и замержите Pull Request из ветки `shelter` в ветку `gh-pages`.  
-   Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-9. После завершения работы отредактируйте Pull Request из ветки `shelter` в ветку `main`, дополнив его функционалом второй части задания.  
-   Мержить данный Pull Request не нужно.
-10. Ссылку на деплой засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit".
-11. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) результат проверки.
+This is the second of three parts. See the [main task description](shelter.md) for the full project overview.
 
-## Требования к вёрстке
+Make the `Main` and `Pets` pages from [Part 1](shelter-part1.md) responsive, covering the range from 1280px down to 320px. Use the [Figma design](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter) — artboards `main-1280` / `our-pets-1280` (desktop), `main-768` / `our-pets-768` (tablet), `main-320` / `our-pets-320` (mobile).
 
-1. Вёрстка страницы `Main` соответствует макету при ширине экрана 1280px: **+14**
-   - блок `<header>`: **+2**
-   - блок `Not only`: **+2**
-   - блок `About`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `Help`: **+2**
-   - блок `In addition`: **+2**
-   - блок `<footer>`: **+2**
-2. Вёрстка страницы `Main` соответствует макету при ширине экрана 768px: **+14**
-   - блок `<header>`: **+2**
-   - блок `Not only`: **+2**
-   - блок `About`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `Help`: **+2**
-   - блок `In addition`: **+2**
-   - блок `<footer>`: **+2**
-3. Вёрстка страницы `Main` соответствует макету при ширине экрана 320px: **+14**
-   - блок `<header>`: **+2**
-   - блок `Not only`: **+2**
-   - блок `About`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `Help`: **+2**
-   - блок `In addition`: **+2**
-   - блок `<footer>`: **+2**
-4. Вёрстка страницы `Pets` соответствует макету при ширине экрана 1280px: **+6**
-   - блок `<header>`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `<footer>`: **+2**
-5. Вёрстка страницы `Pets` соответствует макету при ширине экрана 768px: **+6**
-   - блок `<header>`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `<footer>`: **+2**
-6. Вёрстка страницы `Pets` соответствует макету при ширине экрана 320px: **+6**
-   - блок `<header>`: **+2**
-   - блок `Our Friends`: **+2**
-   - блок `<footer>`: **+2**
-7. Ни на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки, справа от отдельных блоков не появляются белые поля. Весь контент страницы при этом сохраняется: не обрезается и не удаляется: **+20**
-   - нет полосы прокрутки при ширине страницы `Main` от 1280рх до 768рх: **+5**
-   - нет полосы прокрутки при ширине страницы `Main` от 768рх до 320рх: **+5**
-   - нет полосы прокрутки при ширине страницы `Pets` от 1280рх до 768рх: **+5**
-   - нет полосы прокрутки при ширине страницы `Pets` от 768рх до 320рх: **+5**
-8. Верстка резиновая: при плавном изменении размера экрана от 1280px до 320px верстка подстраивается под этот размер, элементы верстки меняют свои размеры и расположение, не наезжают друг на друга, изображения могут менять размер, но сохраняют правильные пропорции ([Примеры неправильной и правильной реализации](https://youtu.be/dRNc0l4s8sE)): **+8**
-   - на странице `Main`: **+4**
-   - на странице `Pets`: **+4**
-9. При ширине экрана меньше 768px на обеих страницах меню в хедере скрывается, появляется иконка бургер-меню: **+4**  
-   Открытие меню при клике на иконку бургер-меню на текущем этапе не проверяется
-10. Верстка обеих страниц валидная: для проверки валидности вёрстки используйте сервис https://validator.w3.org/ : **+8**
+At this stage the burger menu is **not** required to open — only the burger icon must appear instead of the navigation menu when the viewport is narrower than 768px.
 
-## Критерии оценки
+## Requirements
 
-**Максимальная оценка за задание 100 баллов**.
+1. The layout matches the design at the three reference widths: 1280px, 768px, 320px.
+2. Between breakpoints, the layout adapts smoothly — content does not overlap, get cut off, or break visually.
+3. There is no horizontal scroll at any viewport width in the supported range.
+4. The burger icon appears in place of the navigation menu when the viewport width is below 768px (the menu itself does not need to open yet — that's [Part 3](shelter-part3.md)).
+5. The markup remains valid.
 
-Баллы за пункты требований указаны в разделе [Требования к вёрстке](#требования-к-вёрстке).
+## Submission
 
-Все спорные моменты трактуются в пользу проверяемого студента.
+1. Continue working in your private school repository.
+2. From the `shelter` branch, create a `shelter-part2` branch — this lets you continue from where Part 1 left off. After completing Part 2, merge `shelter-part2` back into `shelter`.
+3. Complete the task.
+4. Deploy your work to `gh-pages`.
+5. Open a Pull Request from `shelter-part2` into `shelter`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). Merge it.
+6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
-Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
+## Cross-check
 
-## Штрафы
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-1. Верстка всего макета или отдельных блоков добавлена картинкой: **-100**
-2. Использованы запрещенные техническими требованиями фреймворки, библиотеки, пакеты, надстройки: **-100**
+### How layout-vs-design checks work
 
-## Особенности проверки адаптивности в DevTools
+- Up to 10px of horizontal and vertical deviation is allowed at the three reference widths if visual similarity is preserved.
+- For visual checks at 1280px / 768px / 320px, use Chrome DevTools' device toolbar in **Responsive** mode and the [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) extension.
+- For the "no horizontal scroll" check, the reviewer slowly resizes the window between 320px and 1280px and watches for horizontal scrollbars or content overflow.
+- For the "smooth adaptation" check, the reviewer slowly resizes the window and watches for content that overlaps, gets cut off, or visibly jumps.
 
-1. Открываем инструменты разработчика:
-   - для этого нажимаем клавишу `F12` или кликаем правой кнопки мыши и выбираем в появившемся меню пункт `Посмотреть код`;
-   - в правом верхнем углу панели инструментов разработчика кликаем на иконку `Toggle device toolbar`;
-   - на верхней панели выбираем `Responsive`.
-2. Убедитесь, что в режиме `Responsive` нет вертикальной полосы прокрутки (она отсутствует по умолчанию). Если полоса прокрутки есть, её нужно убрать. Для этого:
-   - в верхней панели device toolbar переключите тип устройства с `Desktop` на `Mobile`;
-   - если тип устройства не отображается, в верхней панели device toolbar нажмите на три точки справа и выберите `Add device type`;
-3. Выставляем ширину экрана на требуемую по ТЗ, при которой будем проверять соответствие макету. Если видим, что страница проверяемого сайта не перестроилась, или справа осталась белая полоса, может понадобиться обновить страницу несколько раз.
-4. Проверяем вёрстку на соответствие макету.
-5. При необходимости проверить адаптивность на разных разрешениях, плавно изменяем ширину экрана в DevTools от максимума (1280рх) до минимума (320рх), убеждаемся в отсутствии горизонтальной полосы прокрутки на всех разрешениях. Если появилась полоса прокрутки или белое поле справа, попробуйте обновить страницу, возможно, вёрстка не перестроилась.
-6. При масштабировании экрана (например, zoom+ 125%) реальная ширина может отличаться на 1-2 пикселя. Например, реальное значение может быть 767 или 769, хотя инструменты разработчика будут показывать 768. Поэтому надо сдвинуть до точки перехода, несмотря на отличие.
+## Scoring Criteria
 
-![image](https://user-images.githubusercontent.com/73646765/223966120-845e2526-c54c-4611-8173-db5f9a2c3faa.png)
+**Maximum score: 100 points**
 
-## Особенности проверки вёрстки на соответствие макету
+### `Main` page (42 points)
 
-- допускается отклонение вёрстки от макета до 10px по горизонтали и вертикали, если соблюдается визуальное сходство вёрстки и макета
-- разрешены и даже приветствуются правки размеров и расположения криво нарисованных блоков
-- в качестве инструмента для проверки соответствия вёрстки макету используйте расширение [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru)
-- при проверке вёрстки при помощи расширения PerfectPixel в первую очередь убедитесь, что в расширении выставлен масштаб 1, в браузере и операционной системе - масштаб 100%
-- каждый блок и секция рассматриваются по отдельности, т.е. недочеты предыдущего блока не переносятся на следующий, а при переходе проверки на следующий блок, мы его выравниваем с наложенным изображением
-- относительно текста проверяем его выравнивание, отступы до границы блока. Размеры текста проверяются только по высоте. Отличие в ширине слов и отступах между буквами при сопоставлении макета и вёрстки не считается ошибкой, если используется правильный шрифт с правильно указанными свойствами
-- исчезновение карточки питомца в слайдере (между проверяемыми разрешениями) может происходить в любой момент и удалением контента не считается (баллы не снимаем)
+- Layout matches the design at 1280px **+14**
+- Layout matches the design at 768px **+14**
+- Layout matches the design at 320px **+14**
 
-## Как сабмитить задание
+### `Pets` page (18 points)
 
-- Задание `shelter. week-2` проверяется в ходе кросс-чека.
-- После выдачи задания, но до наступления дедлайна зайдите в rs app https://app.rs.school/, выберите **Cross-Check: Submit**, в выпадающем списке выберите название задания, в поле **Solution URL** добавьте ссылку на задеплоенную страницу `main` или `pets` с вёрсткой, нажмите кнопку **Submit**.
+- Layout matches the design at 1280px **+6**
+- Layout matches the design at 768px **+6**
+- Layout matches the design at 320px **+6**
 
-## Рекомендации по сабмиту
+### Responsive behavior (40 points)
 
-- Засабмитить задание рекомендуется как можно раньше, как только в rs app появится такая возможность. После сабмита задание можно продолжать выполнять до самого дедлайна
-- Так как проект выполняется в приватном репозитории, сабмитить ссылку на репозиторий или pull request нет смысла - проверяющий его не увидит. Приватный репозиторий школы видите только вы сами, админы курса, и увидят ваши менторы, когда они появятся
-- Убедитесь, что задеплоенная вами ссылка открывается в режиме инкогнито браузера
+- No horizontal scroll on either page at any width from 320px to 1280px **+20**
+- Layout adapts smoothly between breakpoints — no overlapping, cut-off, or visually broken content on either page **+8**
+- The burger icon appears instead of the navigation menu when the viewport is narrower than 768px on both pages **+4** (the menu itself does not need to open at this stage)
+- Markup is valid on both pages per <https://validator.w3.org/> **+8**
 
-## Проверка задания shelter. week-2
+### Penalties
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- Layout (full design or individual blocks) implemented as a screenshot **-100**
+- Frameworks, libraries, or tools forbidden in the technical requirements are used **-100**
+
+## Learning Resources
+
+- [Responsive Web Design Basics — web.dev](https://web.dev/responsive-web-design-basics/)
+- [Using Media Queries — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+- [Mobile First — A List Apart](https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/)
+- [CSS Units (`rem`, `em`, `vw`, `vh`) — MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [Viewport Meta Tag — MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
+- [Fluid Typography — CSS-Tricks](https://css-tricks.com/snippets/css/fluid-typography/)

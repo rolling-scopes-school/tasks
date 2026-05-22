@@ -1,152 +1,156 @@
-## shelter. week-1 - Фиксированная вёрстка
+# Shelter: Part 1 — Fixed Layout
 
-- [Описание и требования задания](shelter.md)
+## Skills
 
-Вам необходимо сверстать страницы `main` и `pets` согласно [макету](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter) - **только main-1280** и **our-pets-1280**
-Ширина контента 1280рх не должна изменяться при изменении размера окна браузера.
+`semantic HTML` `CSS Flexbox` `CSS Grid` `pixel-perfect markup` `HTML validation` `Figma` `BEM`
 
-## Порядок работы
+## Task Description
 
-1. Задание выполняется в приватном репозитории школы.
-   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
-2. От ветки `main` создайте ветку `shelter` в ней создайте папку `shelter`, в ней разместите файлы проекта
-3. Выполните задание.
-4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
-5. Cамостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки), с учётом [Особенностей проверки вёрстки на соответствие макету](#особенности-проверки-вёрстки-на-соответствие-макету)
-6. Для удобства проверки самооценку своей работы выведите в консоль браузера. Для этого подключите к файлу `*.html` файл `index.js`, в нём напишите функцию console.log(), в скобках в кавычках напишите самооценку по пунктам. Для переноса строк используйте символ `\n`
-7. Сделайте деплой вашей работы на gh-pages. Например, создайте и замержите Pull Request из ветки `shelter` в ветку `gh-pages`. Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-8. После завершения работы откройте Pull Request из ветки `shelter` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
-9. Ссылку на деплой вашей работы засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
-10. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) в разделе "Cross-Check Review" результат проверки.
+This is the first of three parts. See the [main task description](shelter.md) for the full project overview.
 
-## Требования к верстке
+Build the `Main` and `Pets` pages following the [Figma design](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter) — use only the `main-1280` and `our-pets-1280` artboards. The content width is fixed at 1280px and must not change when the browser window is resized.
 
-#### Страница Main (60)
+## Requirements
 
-1. Проверка верстки **+7**
-   - верстка страницы валидная: для проверки валидности вёрстки используйте сервис <https://validator.w3.org/> . **+4**
-     Валидной вёрстке соответствует надпись "Document checking completed. No errors or warnings to show." В таком случае баллы за пункт требований выставляем полностью. Если есть предупреждения - `warnings`, но нет ошибок - `errors`, выставляем половину баллов за пункт требований
-   - логотип в хедере состоит из текстовых элементов **+1**
-   - страница содержит ровно один элемент `<h1>` **+1**
-   - добавлен favicon **+1**
-2. Вёрстка соответствует макету **+35**
-   - блок `<header>` **+5**
-   - блок `Not only` **+5**
-   - блок `About` **+5**
-   - блок `Our Friends` **+5**
-   - блок `Help` **+5**
-   - блок `In addition` **+5**
-   - блок `<footer>` **+5**
-3. Требования к css **+6**
-   - для позиционирования элементов блока Help использована сеточная верстка (flexbox или grid) **+2**
-   - при уменьшении масштаба страницы браузера или увеличении ширины страницы (>1280px) вёрстка размещается по центру, а не сдвигается в сторону и не растягивается по всей ширине **+2**
-   - фоновый цвет тянется на всю ширину страницы **+2**
-4. Интерактивность элементов **+12**
-   - элемент `About the Shelter` в навигации подсвечен и неинтерактивен, остальные элементы навигации интерактивны **+2**
-   - каждая карточка с питомцем в блоке **Our Friends** интерактивна при наведении на любую область этой карточки **+2**
-   - плавная прокрутка по якорям **+2**
-   - выполняются все ссылочные связи согласно [Перечню ссылочных связей](#перечень-ссылочных-связей) для страницы `Main` **+2**
-   - выполнена интерактивность ссылок и кнопок. Интерактивность заключается не только в изменении внешнего вида курсора, например, при помощи свойства `cursor: pointer`, но и в использовании и других визуальных эффектов, например, изменение цвета фона или цвета шрифта, согласно стайлгайду в макете. Если в макете стили не указаны, реализуете их по своему усмотрению, руководствуясь общим стилем макета **+2**
-   - обязательное требование к интерактивности: плавное изменение внешнего вида элемента при наведении и клике, не влияющее на соседние элементы **+2** (Время анимации не влияет на оценку, однако обычно значение длительности анимации находится в пределах от 0.2s до 0.5s)
+### Page links and navigation
 
-   #### Страница Pets (40)
+#### On the `Main` page
 
-5. Проверка верстки **+7**
-   - верстка страницы валидная: для проверки валидности вёрстки используйте сервис <https://validator.w3.org/> . **+4**
-     Валидной вёрстке соответствует надпись "Document checking completed. No errors or warnings to show." В таком случае баллы за пункт требований выставляем полностью. Если есть предупреждения - `warnings`, но нет ошибок - `errors`, выставляем половину баллов за пункт требований
-   - логотип в хедере состоит из текстовых элементов **+1**
-   - страница содержит ровно один элемент `<h1>` **+1**
-   - добавлен favicon **+1**
-6. Вёрстка соответствует макету **+15**
-   - блок `<header>` **+5**
-   - блок `Our Friends` **+5**
-   - блок `<footer>` **+5**
-7. Требования к css **+4**
-   - при уменьшении масштаба страницы браузера или увеличении ширины страницы (>1280px) вёрстка размещается по центру, а не сдвигается в сторону и не растягивается по всей ширине **+2**
-   - фоновый цвет тянется на всю ширину страницы **+2**
-8. Интерактивность элементов **+14**
-   - элемент `Our pets` в навигации подсвечен и неинтерактивен, остальные элементы навигации интерактивны **+2**
-   - доступные кнопки пагинации (вправо) активны, недоступные (влево) - неактивны (disabled) **+2**
-   - каждая карточка с питомцем в блоке **Our Friends** интерактивна при наведении на любую область этой карточки **+2**
-   - плавная прокрутка по якорям **+2**
-   - выполняются все ссылочные связи согласно [Перечню ссылочных связей](#перечень-ссылочных-связей) для страницы `Pets` **+2**
-   - выполнена интерактивность ссылок и кнопок. Интерактивность заключается не только в изменении внешнего вида курсора, например, при помощи свойства `cursor: pointer`, но и в использовании и других визуальных эффектов, например, изменение цвета фона или цвета шрифта, согласно стайлгайду в макете. Если в макете стили не указаны, реализуете их по своему усмотрению, руководствуясь общим стилем макета **+2**
-   - обязательное требование к интерактивности: плавное изменение внешнего вида элемента при наведении и клике, не влияющее на соседние элементы **+2** (Время анимации не влияет на оценку, однако обычно значение длительности анимации находится в пределах от 0.2s до 0.5s)
+1. The `Pets` page is opened by:
+   - the `Our Pets` navigation item
+   - the `Get to know the rest` button in the **Our Friends** block
+2. The **Help** block on the current page (anchor) is opened by:
+   - the `Help the shelter` navigation item
+3. The **Our Friends** block on the current page (anchor) is opened by:
+   - the `Make a Friend` button in the **Not only** block
+4. The footer of the current page (anchor) is opened by:
+   - the `Contacts` navigation item
+5. Empty links:
+   - the logo
+   - the bank card number in the **In addition** block
+6. Other behavior:
+   - in the footer, clicking the email or its icon opens a mail client
+   - in the footer, clicking the phone or its icon opens a phone dialer
+   - in the footer, clicking the location opens Google Maps in a new tab with any location of your choice
 
-## Перечень ссылочных связей
+#### On the `Pets` page
 
-#### На странице Main
+1. The `Main` page is opened by:
+   - the `About the shelter` navigation item
+   - the logo in the header
+2. The **Help** block on the `Main` page (anchor) is opened by:
+   - the `Help the shelter` navigation item
+3. The footer of the current page (anchor) is opened by:
+   - the `Contacts` navigation item
+4. Other behavior:
+   - in the footer, clicking the email or its icon opens a mail client
+   - in the footer, clicking the phone or its icon opens a phone dialer
+   - in the footer, clicking the location opens Google Maps in a new tab with any location of your choice
 
-1. На страницу `Pets` ведут:
-   - элемент навигации `Our Pets`
-   - кнопка `Get to know the rest` в блоке **Our Friends**
-2. На блок **Help** текущей страницы (якорная ссылка) ведут:
-   - элемент навигации `Help the shelter`
-3. На блок **Our Friends** текущей страницы (якорная ссылка) ведут:
-   - кнопка `Make a Friend` в блоке **Not only**
-4. На футер текущей страницы (якорная ссылка) ведут:
-   - элемент навигации `Contacts`
-5. Пустая ссылка:
-   - логотип
-   - номер банковской карты в блоке **In addition**
-6. Другие варианты поведения:
-   - в футере при нажатии на email или его иконку должен открываться почтовый сервис
-   - в футере при нажатии на телефон или его иконку должен открываться набор номера
-   - в футере при нажатии на локацию должна открываться страница с google maps в отдельном окне или вкладке браузера с любой локацией на ваш выбор
+## Submission
 
-#### На странице Pets
+1. Work in the school's private repository.
+2. From the `main` branch, create a `shelter` branch. Inside it create a `shelter` folder and place your project files there.
+3. Complete the task.
+4. For convenience, output your self-assessment to the browser console: attach an `index.js` file to your `*.html`, write a `console.log()` call with a string listing the criteria you scored yourself on (use `\n` for line breaks).
+5. Deploy your work to `gh-pages` — for example, create and merge a Pull Request from `shelter` into `gh-pages` (the PR title is free-form, no description needed).
+6. When done, open a Pull Request from `shelter` into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** this PR.
+7. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+8. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
 
-1. На страницу `Main` ведут:
-   - элемент навигации `About the shelter`
-   - логотип в хедере
-2. На блок **Help** страницы `Main` (якорная ссылка) ведут:
-   - элемент навигации `Help the shelter`
-3. На футер текущей страницы (якорная ссылка) ведут:
-   - элемент навигации `Contacts`
-4. Другие варианты поведения:
-   - в футере при нажатии на email или его иконку должен открываться почтовый сервис
-   - в футере при нажатии на телефон или его иконку должен открываться набор номера
-   - в футере при нажатии на локацию должна открываться страница с google maps в отдельном окне или вкладке браузера с любой локацией на ваш выбор
+## Cross-check
 
-## Критерии оценки
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-**Максимальная оценка за задание 100 баллов**
+### How layout-vs-design checks work
 
-Баллы за пункты требований указаны в разделе [Требования к вёрстке](#требования-к-верстке)
+- Up to 10px of horizontal and vertical deviation is allowed if visual similarity is preserved.
+- Use the [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) extension. Make sure its scale is 1, and that the browser + OS are at 100% zoom.
+- If the screen is wider than 1280px, center the design or align it manually to the top-left guides.
+- At ≤1280px, use Chrome DevTools' device toolbar in **Responsive** mode.
+- At a window width of exactly 1280px, the layout may shrink by ~17px due to the vertical scrollbar (standard for Chrome).
+- Each block/section is checked independently — issues from a previous block don't carry over.
+- For text: check alignment and offsets to block edges. Text size is checked only by height; differences in word width and letter spacing don't count as errors as long as the correct font with correct properties is used.
 
-Все спорные моменты трактуются в пользу проверяемого студента.
+## Scoring Criteria
 
-Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
+**Maximum score: 100 points**
 
-## Штрафы
+### `Main` page (60 points)
 
-1. Верстка всего макета или отдельных блоков добавлена картинкой -100
-2. Использованы запрещенные техническими требованиями фреймворки, библиотеки, надстройки -100
+#### Markup validation — **+7**
 
-## Особенности проверки вёрстки на соответствие макету
+- Markup is valid per <https://validator.w3.org/>. "Document checking completed. No errors or warnings to show." — full points. Warnings (no errors) — half points. **+4**
+- The header logo is built from text elements **+1**
+- The page contains exactly one `<h1>` **+1**
+- A favicon is added **+1**
 
-- допускается отклонение вёрстки от макета до 10px по горизонтали и вертикали, если соблюдается визуальное сходство вёрстки и макета
-- разрешены и даже приветствуются правки размеров и расположения криво нарисованных блоков
-- в качестве инструмента для проверки соответствия вёрстки макету используйте расширение [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru)
-- при проверке вёрстки при помощи расширения PerfectPixel в первую очередь убедитесь, что в расширении выставлен масштаб 1, в браузере и операционной системе - масштаб 100%
-- если разрешение экрана больше 1280рх, для проверки вёрстки на соответствие макету достаточно центрировать макет или вручную выставить макет по верхнему левому углу направляющих
-- если разрешение экрана 1280рх и меньше, для проверки используем device toolbar браузера Google Chrome в режиме responsive
-- обрати внимание, что при проверке работы в окне равном 1280px верстка может сжиматься на ~17px. Это происходит из-за того, что часть пространства верстки съедает вертикальный скролл (17px - стандартная величина скролла для Google Chrome)
-- каждый блок и секция рассматриваются по отдельности, т.е. недочеты предыдущего блока не переносятся на следующий, а при переходе проверки на следующий блок, мы его выравниваем с наложенным изображением
-- относительно текста проверяем его выравнивание, отступы до границы блока. Размеры текста проверяются только по высоте. Отличие в ширине слов и отступах между буквами при сопоставлении макета и вёрстки не считается ошибкой, если используется правильный шрифт с правильно указанными свойствами
+#### Layout matches the design — **+35**
 
-## Как сабмитить задание
+- `<header>` block **+5**
+- `Not only` block **+5**
+- `About` block **+5**
+- `Our Friends` block **+5**
+- `Help` block **+5**
+- `In addition` block **+5**
+- `<footer>` block **+5**
 
-- Задание `shelter. week-1` проверяется в ходе кросс-чека.
-- После выдачи задания, но до наступления дедлайна зайдите в rs app <https://app.rs.school/>, выберите **Cross-Check: Submit**, в выпадающем списке выберите название задания, в поле **Solution URL** добавьте ссылку на задеплоенную страницу с вёрсткой, нажмите кнопку **Submit**.
+#### CSS requirements — **+6**
 
-## Рекомендации по сабмиту
+- The `Help` block is positioned using a grid layout (flexbox or grid) **+2**
+- When zooming out or widening the browser window (>1280px), the layout stays centered — it doesn't shift to the side or stretch to full width **+2**
+- The background color stretches across the full page width **+2**
 
-- Засабмитить задание рекомендуется как можно раньше, как только в rs app появится такая возможность. После сабмита задание можно продолжать выполнять до самого дедлайна
-- Так как проект выполняется в приватном репозитории, сабмитить ссылку на репозиторий или pull request нет смысла - проверяющий его не увидит. Приватный репозиторий школы видите только вы сами, админы курса, и увидят ваши менторы, когда они появятся
-- Убедитесь, что задеплоенная вами ссылка открывается в режиме инкогнито браузера
+#### Interactivity — **+12**
 
-## Проверка задания shelter. week-1
+- The `About the Shelter` navigation item is highlighted and non-interactive; the other navigation items are interactive **+2**
+- Each pet card in **Our Friends** is interactive when hovering over any area of the card **+2**
+- Smooth anchor scrolling **+2**
+- All page links work according to the [Page links and navigation](#on-the-main-page) section for the `Main` page **+2**
+- Links and buttons have interactivity beyond just `cursor: pointer` — e.g. background or font color changes, following the design style guide. If the design doesn't specify styles, choose something consistent with the overall design **+2**
+- Required: smooth visual changes on hover and click that don't affect neighboring elements **+2** (animation duration is usually between 0.2s and 0.5s — duration doesn't affect scoring)
 
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
-- список доступных чеклистов: [Cheklists](https://rolling-scopes-school.github.io/checklist/)
+### `Pets` page (40 points)
+
+#### Markup validation — **+7**
+
+- Markup is valid per <https://validator.w3.org/> (same rules as for `Main`) **+4**
+- The header logo is built from text elements **+1**
+- The page contains exactly one `<h1>` **+1**
+- A favicon is added **+1**
+
+#### Layout matches the design — **+15**
+
+- `<header>` block **+5**
+- `Our Friends` block **+5**
+- `<footer>` block **+5**
+
+#### CSS requirements — **+4**
+
+- When zooming out or widening the browser window (>1280px), the layout stays centered **+2**
+- The background color stretches across the full page width **+2**
+
+#### Interactivity — **+14**
+
+- The `Our pets` navigation item is highlighted and non-interactive; the other navigation items are interactive **+2**
+- Available pagination buttons (right) are active; unavailable ones (left) are disabled **+2**
+- Each pet card in **Our Friends** is interactive when hovering over any area of the card **+2**
+- Smooth anchor scrolling **+2**
+- All page links work according to the [Page links and navigation](#on-the-pets-page) section for the `Pets` page **+2**
+- Links and buttons have interactivity beyond just `cursor: pointer` **+2**
+- Required: smooth visual changes on hover and click that don't affect neighboring elements **+2**
+
+### Penalties
+
+- Layout (full design or individual blocks) implemented as a screenshot **-100**
+- Frameworks, libraries, or tools forbidden in the technical requirements are used **-100**
+
+## Learning Resources
+
+- [HTML Validation Service — W3C](https://validator.w3.org/)
+- [Semantic HTML — MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+- [A Complete Guide to Flexbox — CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [A Complete Guide to Grid — CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [BEM Naming Convention](https://en.bem.info/methodology/naming-convention/)
+- [PerfectPixel Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+- [Smooth Scrolling (`scroll-behavior`) — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)

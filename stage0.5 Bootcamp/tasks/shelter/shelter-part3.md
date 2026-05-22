@@ -1,119 +1,131 @@
-## shelter. week-3
+# Shelter: Part 3 — JavaScript Functionality
 
-Добавление функционала при помощи JavaScript
+## Skills
 
-- [Описание и требования задания](shelter.md)
+`vanilla JavaScript` `DOM manipulation` `event handling` `JSON` `infinite carousel` `pagination` `modal/popup` `CSS animations`
 
-В этой части задания необходимо добавить в свёрстанные на предыдущих этапах веб-страницы следующий функционал, используя чистый JavaScript:
+## Task Description
 
-- открытие и закрытие бургер-меню на страницах при ширине <768px
-- бесконечный слайдер-карусель на странице `Main`
-- пагинацию на странице `Pets`
-- попап на обеих страницах
+This is the third and final part. See the [main task description](shelter.md) for the full project overview.
 
-❗ Каждый DOM-объект (блок) с описанием питомца, будь то слайдер, пагинация или попап, будет генерироваться из данных объекта с соответствующих полей. Сами объекты собираются в единый файл. Всего должно быть описание 8 питомцев. Пример данных приведен в разделе [материалы](#материалы)
+Add interactivity using **pure JavaScript** (no frameworks or libraries) to the pages built in [Part 1](shelter-part1.md) and [Part 2](shelter-part2.md):
 
-## Материалы:
+- A working burger menu (mobile/tablet)
+- An infinite carousel slider in the **Our Friends** block on `Main`
+- Pagination in the **Our Friends** block on `Pets`
+- A popup with pet details when a pet card is clicked (both pages)
 
-- [Пример данных 8 питомцев в формате `JSON`](pets.json)
-- [Макет в figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
+Pet data must be stored in `pets.json` (already provided in the task folder — 8 pets total). Both the slider and the pagination use this data.
 
-## Порядок работы
+## Requirements
 
-1. Задание выполняется в приватном репозитории школы.
-2. От ветки `shelter` создайте ветку `shelter-part3` в ней уже будет находиться папка `shelter` с файлами проекта
-3. Продолжите выполнение задания в созданной ветке.
-4. Проверьте соответствие вашей работы [Требованиям к функционалу](#требования-к-функционалу)
-5. Cамостоятельно оцените свою работу согласно предложенным [Критериям оценки](#критерии-оценки)
-6. Самооценку своей работы выведите в консоль браузера.
-7. Создайте и замержите Pull Request из ветки `shelter-part3` в ветку `shelter`.  
-   Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-8. После окончания кросс-чека предыдущей части задания обновите деплой вашей работы. Например, создайте и замержите Pull Request из ветки `shelter` в ветку `gh-pages`.  
-   Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
-9. После завершения работы отредактируйте Pull Request из ветки `shelter` в ветку `main`, дополнив его функционалом третьей части задания.  
-   Мержить данный Pull Request не нужно.
-10. Ссылку на деплой засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
-11. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) результат проверки.
+### Burger menu
 
-## Требования к функционалу
+1. On viewport widths below 768px, clicking the burger icon opens the navigation menu.
+2. The menu opens with a smooth animation and overlays the page content.
+3. The burger icon transforms into a close icon while the menu is open.
+4. The menu closes when the user clicks: the close icon, the area outside the menu (the overlay), or any navigation link.
+5. While the menu is open, the page behind it does not scroll.
 
-1. Реализация burger menu на обеих страницах: **+26**
-   - при ширине страницы меньше 768рх панель навигации скрывается, появляется бургер-иконка: **+2**
-   - при нажатии на бургер-иконку, справа плавно появляется адаптивное меню шириной 320px, бургер-иконка плавно поворачивается на 90 градусов: **+4**
-   - высота адаптивного меню занимает всю высоту экрана: **+2**
-   - при повторном нажатии на бургер-иконку или на свободное от бургер-меню пространство (оба варианта должны быть реализованы) адаптивное меню плавно скрывается уезжая за правую часть экрана, бургер-иконка плавно поворачивается на 90 градусов обратно: **+4**
-   - бургер-иконка создана при помощи html+css, без использования изображений: **+2**
-   - ссылки в адаптивном меню работают, обеспечивая плавную прокрутку по якорям, сохраняются заданные на первом этапе выполнения задания требования интерактивности элементов меню: **+2**
-   - при клике по любой ссылке (интерактивной или неинтерактивной) в меню адаптивное меню плавно скрывается вправо, бургер-иконка поворачивается на 90 градусов обратно: **+2**
-   - расположение и размеры элементов в бургер-меню соответствует макету (центрирование по вертикали и горизонтали элементов меню, расположение иконки). При этом на странице `Pets` цветовая схема может быть как темная, так и светлая: **+2**
-   - область, свободная от бургер-меню, затемняется: **+2**
-   - страница под бургер-меню не прокручивается: **+4**
-2. Реализация слайдера-карусели на странице `Main`: **+36**
-   - при нажатии на стрелки происходит переход к новому блоку элементов: **+4**
-   - смена блоков происходит с соответствующей анимацией карусели (способ выполнения анимации не проверяется): **+4**
-   - слайдер бесконечен, т.е. можно бесконечно много нажимать влево или вправо, и каждый раз будет прокрутка в эту сторону с новым набором карточек: **+4**
-   - при переключении влево или вправо прокручивается ровно столько карточек, сколько показывается при текущей ширине экрана (3 для 1280px, 2 для 768px, 1 для 320px): **+4**
-   - каждый новый слайд содержит **псевдослучайный** набор карточек животных, т.е. формируется из исходных объектов в случайном порядке со следующими условиями:
-     - в текущем блоке слайда карточки с питомцами не повторяются: **+4**
-     - в следующем блоке нет дублирования карточек с текущим блоком. Например в слайдере из 3 элементов, следующий выезжающий слайд будет содержать 3 (из 8 доступных) новых карточки питомца, таких, каких не было среди 3х карточек на предыдущем уехавшем слайде: **+4**
-     - сохраняется только одно предыдущее состояние. Т.е. при последовательном переходе два раза влево, а потом два раза вправо, мы получим набор карточек, отличный от исходного: **+4**
-     - при каждой перезагрузке страницы формируется новая последовательность карточек: **+2**
-     - генерация наборов карточек происходит на основе 8 объектов с данными о животных: **+2**
-   - при изменении ширины экрана (от 1280px до 320px и обратно), слайдер перестраивается и работает без перезагрузки страницы (набор карточек при этом может как изменяться, так и оставаться тем же, скрывая лишнюю или добавляя недостающую, и сохраняя при этом описанные для слайдера требования): **+4**
-3. Реализация пагинации на странице `Pets`: **+36**
-   - при перезагрузке страницы всегда открывается первая страница пагинации: **+2**
-   - при нажатии кнопок `>` или `<` открывается следующая или предыдущая страница пагинации соответственно: **+2**
-   - при нажатии кнопок `>>` или `<<` открывается последняя или первая страница пагинации соответственно: **+2**
-   - при открытии первой страницы кнопки `<<` и `<` неактивны: **+2**
-   - при открытии последней страницы кнопки `>` и `>>` неактивны: **+2**
-   - в кружке по центру указан номер текущей страницы. При переключении страниц номер меняется на актуальный: **+2**
-   - каждая страница пагинации содержит **псевдослучайный** набор питомцев, т.е. формируется из исходных объектов в случайном порядке со следующими условиями:
-     - при загрузке страницы формируется массив из 48 объектов питомцев. Каждый из 8 питомцев должен встречаться ровно 6 раз: **+4**
-     - при каждой перезагрузке страницы формируется новый массив со случайной последовательностью: **+4**
-     - карточки питомцев не должны повторяться на одной странице: **+4**
-     - при переключении страницы данные меняются (для >1280px меняется порядок карточек, для остальных - меняется набор и порядок карточек): **+4**
-     - при неизменных размерах области пагинации, в том числе размерах окна браузера, и без перезагрузки страницы, возвращаясь на страницу под определенным номером, контент на ней всегда будет одинаков. Т.е. карточки питомцев будут в том же расположении, что и были до перехода на другие страницы: **+2**
-     - общее количество страниц при ширине экрана 1280px - 6, при 768px - 8, при 320px - 16 страниц: **+2**
-   - при изменении ширины экрана (от 1280px до 320px и обратно), пагинация перестраивается и работает без перезагрузки страницы (страница может оставаться той же или переключаться, при этом сформированный массив - общая последовательность карточек - не обновляется, сохраняются все остальные требования к пагинации): **+4**
-4. Реализация попап на обеих страницах: **+12**
-   - попап появляется при нажатии на любое место карточки с описанием конкретного животного: **+2**
-   - часть страницы вне попапа затемняется: **+2**
-   - при открытии попапа вертикальный скролл страницы становится неактивным, при закрытии - снова активным: **+2**
-   - при нажатии на область вокруг попапа или на кнопку с крестиком попап закрывается (оба варианта должны быть реализованы), при этом при нажатии на сам попап ничего не происходит: **+2**
-   - кнопка с крестиком интерактивная: **+2**
-   - окно попапа (не считая кнопку с крестиком) центрировано по всем осям, размеры элементов попапа и их расположение совпадают с макетом: **+2**
+### Infinite carousel slider on the `Main` page (in **Our Friends**)
 
-## Критерии оценки
+1. The slider displays the number of cards that fits the current viewport: 3 cards on desktop (1280px), 2 on tablet (768px), 1 on mobile (320px).
+2. The slider has left/right arrow controls.
+3. On each switch, the next group of cards is built from the 8 pets in `pets.json` with these constraints:
+   - No pet from the currently visible group appears in the next group.
+   - Within the next group, all displayed pets are unique.
+4. The card order in the next group is random within the rules above.
+5. Switching cards is animated (slide).
+6. While the animation is running, repeated arrow clicks are ignored — animation triggers do not stack.
 
-**Максимальная оценка за задание 110 баллов**
+### Pagination on the `Pets` page (in **Our Friends**)
 
-Баллы за пункты требований указаны в разделе [Требования к функционалу](#требования-к-функционалу)
+1. The block displays a fixed list of 48 pet cards (6 pages × 8 cards on desktop, 8 pages × 6 cards on tablet, 16 pages × 3 cards on mobile).
+2. The 48 cards are generated by repeating the 8 pets from `pets.json` such that:
+   - All pets appear an equal number of times.
+   - No two adjacent cards (in linear order) show the same pet.
+3. The card order is the same on every page load (it's not regenerated between visits within the same session is **not required** — a stable order per load is enough).
+4. Pagination controls: first page, previous page, current page indicator, next page, last page.
+5. Disabled controls (e.g. "previous" on page 1) are visually inactive and don't react to clicks.
+6. Switching pages is animated.
 
-❗**Важно:** на этом этапе не обязательно использовать картинки животных и их описание из макета. Можно сгенерировать собственные описания и подобрать другие фотографии, не нарушающие code-of-conduct! **При этом сохраняется требование существования ровно 8 питомцев**, на основе которых будут генерироваться карточки в слайдере, пагинации и данные в попап.
+### Popup (pet card details)
 
-Все спорные моменты трактуются в пользу проверяемого студента.
+1. Clicking a pet card on either page opens a popup with that pet's details (name, type, breed, description, age, inoculations, diseases, parasites).
+2. Pet data is taken from `pets.json`.
+3. The popup overlays the page with a darkened backdrop.
+4. The popup closes when the user clicks: the close button, or the backdrop outside the popup.
+5. While the popup is open, the page behind it does not scroll.
+6. The popup is responsive and matches the design at 1280px, 768px, and 320px.
 
-Для удобства проверки выведите в консоль браузера самооценку своего проекта по пунктам с указанием баллов за каждый выполненный вами пункт.
+## Submission
 
-❗**Обратите внимание:** Эффекты анимаций проверяются только в тех местах, где явно указано **о плавности появления либо о конкретной анимации**!
+1. Continue working in your private school repository.
+2. From the `shelter` branch, create a `shelter-part3` branch. After completing Part 3, merge `shelter-part3` back into `shelter`.
+3. Complete the task.
+4. Deploy your work to `gh-pages`.
+5. Open a Pull Request from `shelter-part3` into `shelter`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). Merge it.
+6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
-## Штрафы
+## Cross-check
 
-1. Верстка всего макета или отдельных блоков добавлена картинкой: **-110**
-2. Использованы запрещенные техническими требованиями фреймворки, библиотеки, пакеты, надстройки: **-110**
-3. Для реализации слайдера и (или) пагинации используются сторонние библиотеки или пакеты: **-110**
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-## Как сабмитить задание
+## Scoring Criteria
 
-- Задание `shelter. week-3` проверяется в ходе кросс-чека.
-- После выдачи задания, но до наступления дедлайна зайдите в rs app https://app.rs.school/, выберите **Cross-Check: Submit**, в выпадающем списке выберите название задания, в поле **Solution URL** добавьте ссылку на задеплоенную страницу с вёрсткой, нажмите кнопку **Submit**.
+**Maximum score: 110 points**
 
-## Рекомендации по сабмиту
+### Burger menu (26 points)
 
-- Засабмитить задание рекомендуется как можно раньше, как только в rs app появится такая возможность. После сабмита задание можно продолжать выполнять до самого дедлайна
-- Так как проект выполняется в приватном репозитории, сабмитить ссылку на репозиторий или pull request нет смысла - проверяющий его не увидит. Приватный репозиторий школы видите только вы сами, админы курса, и увидят ваши менторы, когда они появятся
-- Убедитесь, что задеплоенная вами ссылка открывается в режиме инкогнито браузера
+- The menu opens by clicking the burger icon **+4**
+- The menu opens with a smooth animation **+4**
+- The burger icon transforms into a close icon when the menu is open **+4**
+- The menu closes when clicking the close icon **+3**
+- The menu closes when clicking the overlay area outside the menu **+3**
+- The menu closes when clicking any navigation link inside it **+4**
+- The page behind the menu does not scroll while the menu is open **+4**
 
-## Проверка задания shelter. week-3
+### Infinite carousel slider on `Main` (36 points)
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- The slider displays the correct number of cards per breakpoint: 3 / 2 / 1 **+6**
+- The slider has working left and right arrow controls **+4**
+- After a switch, the next group contains no pet from the previously visible group **+8**
+- All pets within the next group are unique **+6**
+- The order of cards in the next group is random within the above rules **+4**
+- Card switching is animated (slide) **+4**
+- During the slide animation, additional arrow clicks are ignored — animations do not stack **+4**
+
+### Pagination on `Pets` (36 points)
+
+- The block contains 48 cards: 6 pages × 8 on desktop, 8 × 6 on tablet, 16 × 3 on mobile **+8**
+- The 48 cards are built from `pets.json` so that all pets appear an equal number of times **+6**
+- No two adjacent cards (in linear order) show the same pet **+6**
+- Pagination controls present: first, previous, current page indicator, next, last **+6**
+- Disabled controls (e.g. "previous" on page 1) are visually inactive and don't respond to clicks **+4**
+- Page switching is animated **+6**
+
+### Popup (12 points)
+
+- Clicking a pet card opens a popup with that pet's details from `pets.json` **+4**
+- The popup has a darkened backdrop covering the page **+2**
+- The popup closes when clicking the close button **+2**
+- The popup closes when clicking the backdrop outside the popup **+2**
+- The page behind the popup does not scroll while the popup is open **+2**
+
+### Penalties
+
+- Frameworks or libraries are used (jQuery, React, Vue, Bootstrap, Swiper, etc.) **-110**
+- TypeScript is used **-110**
+- Pet data is hardcoded in HTML or JS instead of being loaded from `pets.json` **-30**
+
+## Learning Resources
+
+- [JavaScript DOM — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [Introduction to Events — MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [Working with JSON — MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+- [`fetch()` — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [CSS Transitions — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions)
+- [CSS Animations — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations)
+- [Building a Modal Dialog — web.dev](https://web.dev/articles/building/a-dialog-component)
+- [Disabling Body Scroll — CSS-Tricks](https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/)
