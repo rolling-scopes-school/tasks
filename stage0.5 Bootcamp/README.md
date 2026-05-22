@@ -78,7 +78,7 @@ Designed for those who want to stay in shape and hit the ground running when the
 
 ## Certificate
 
-- Students who will have 42%+ of top 1 score will get certificate (if top 1 have 100 points in the end those who have 42+ points will get certificate)
+- Students who will have 50%+ of top 1 score will get certificate (if top 1 have 100 points in the end those who have at least 50 points will get certificate)
 
 ## FAQ
 
@@ -100,7 +100,7 @@ Of course! After completing all modules of the preparatory stage, you can start 
 
 ### Do I need to register for the main course if I am registered for the preparatory stage?
 
-Yes, you do. The registration link is here - https://rs.school/courses/javascript-ru
+Yes, you do. The registration link is here - https://app.rs.school/registry/student?course=js-fe-bootcamp-2026q2
 
 ### Can I skip webinars?
 
