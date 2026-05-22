@@ -1,0 +1,38 @@
+## photofilter
+
+Photofilter - фоторедактор, позволяющий редактировать изображение, применяя к ним различные свойства и фильтры
+
+## Ключевые навыки
+
+- работа с DOM
+- css-переменные
+
+![](images/js30-5.jpg)
+
+- [Требования задания](js30.md)
+- [Демо](https://irinainina.github.io/JavaScript30-1/03%20-%20CSS%20Variables/index-FINISHED.html)
+- [Video](https://youtu.be/AHLNzv13c2I) (13:13)
+
+## Обязательный дополнительный фукционал
+
+Добавьте в приложение минимум два дополнительных фильтра и пресеты - фото, к которым применён наборы фильтров. При выборе миниатюры пресета такие же фильтры применяются к основному фото [Демо](https://rolling-scopes-school.github.io/globus007-JSFE2021Q1/photo-filter/)
+
+## Дополнительный функционал на выбор
+
+На основе данного проекта было создано одно из заданий предыдущего набора - [photo-filter](https://rolling-scopes-school.github.io/stage0/#/stage1/tasks/js-projects/photo-filter)  
+В качестве дополнительного функционала вы можете выполнить некоторые или все требования данного задания:
+
+- перелистывание фото
+- загрузка в приложение фото с компьютера
+- сохранение фото на компьютер вместе с наложенными фильтрами
+- сброс фильтров кликом на кнопку
+- отображение и сохранение css кода добавленного фильтра [Демо](https://rolling-scopes-school.github.io/azizbeksavkimov-JSFE2021Q1/photo-filter/)
+
+## Материалы
+
+- [input](https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input)
+- [input type="range"](https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/range)
+- [CSS Filters](https://css-tricks.com/almanac/properties/f/filter/)
+- [CSS Filters for Online Photo Editing](https://orangeable.com/css/filters)
+- [Использование переменных в CSS](https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties)
+- [Изучите CSS-переменные за 5 минут](https://medium.com/devschacht/изучите-css-переменные-за-5-минут-3a5dc6193857)
