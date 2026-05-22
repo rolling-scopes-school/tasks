@@ -1,135 +1,223 @@
-# Project: Podcast Player Application
+# Podcast Player
 
-## Intro
+## Skills
 
-A podcast player is an app that is used to play podcasts. Podcasts are audio recordings that are typically part of a series and are often focused on a specific topic or theme. Podcast players allow users to search for, subscribe to podcasts, and download and listen to individual episodes. Some podcast players also offer features such as the ability to speed up or slow down playback and bookmark specific points in an episode for later reference. Some popular podcast players include:
+`vanilla JavaScript` `TypeScript` `Fetch API` `Web Crypto API` `async/await` `debouncing` `routing` `HTML5 Audio API` `LocalStorage` `XML parsing` `responsive design`
+
+## Task Description
+
+A podcast player is an app for playing podcasts — audio recordings that are typically part of a series focused on a specific topic. Popular podcast players include:
 
 - [Apple Podcasts](https://www.apple.com/apple-podcasts/)
 - [Spotify](https://open.spotify.com/genre/podcasts-web)
-- [Google Podcasts](https://podcasts.google.com/)
 - [Pocket Casts](https://pocketcasts.com)
 
-## Goal
+Build a simplified web version of a podcast player that covers these user stories:
 
-Create a simplified web version of the podcast player. Base user stories:
+1. The user can see a list of recently updated podcasts.
+2. The user can search podcasts via text search.
+3. The user can open a podcast from the list and see a details page with its recent episodes.
+4. The user can select an episode and start listening to it.
+5. The user can seek forward and back through the episode timeline.
+6. The user can keep navigating the app (search podcasts, browse episodes) while an episode is playing in the player.
+7. The user can add and remove episodes to/from a personal playlist.
+8. The app remembers the current play position and the playlist content after the page is reloaded.
 
-1. The user should be able to see a list of recently updated podcasts.
-2. Users should be able to search podcasts via text search.
-3. Users should be able to select podcasts from the list and navigate to the details page. This page should display a list of recent episodes for a given podcast.
-4. The user should be able to select an episode and start listening to it.
-5. The user should be able to skip some time and return. Therefore navigation through the episode timeline should be supported.
-6. Users should be able to keep navigating through the app, search podcasts, and check a list of episodes when the current episode is playing in the player.
-7. The user should be able to add and remove episodes to/from the playlist.
-8. The application should remember the play position and playlist content after the page reloads.
+The task is split into four sections. Each section builds on the previous ones.
 
-## Section 1. Landing page and search functionality.
+## Requirements
 
-### User stories [1,2].
+### Section 1 — Landing page and search
 
-### Steps
+_Covers user stories 1, 2._
 
-1. Register at [Podcast Index API](https://api.podcastindex.org/) and obtain **API Key** and **API Secret**. Check [code examples](https://podcastindex-org.github.io/docs-api/#overview--libraries) to work with API. Besides API Key and API Secret you will need **API HeaderTime** and calculate **Authorization**.
-   This is an example of API calls from a browser.
+1. Register at [Podcast Index API](https://api.podcastindex.org/) and obtain an **API Key** and **API Secret**. See [code examples](https://podcastindex-org.github.io/docs-api/#overview--libraries) for working with the API. Besides the key and secret, you also need an **API HeaderTime** and a calculated **Authorization** header.
 
-```ts
-class App {
-  fetchRecent(apiKey: string, apiSecret: string): void {
-    const url = "https://api.podcastindex.org/api/1.0/recent/feeds?max=10";
-    const apiHeaderTime: string = "" + Math.round(Date.now() / 1_000);
+   Example of authenticated calls from the browser using the Web Crypto API:
 
-    this.getAuthorizationHeaderValue(apiKey, apiSecret, apiHeaderTime)
-      .then((authorization: string) =>
-        this.getHeaders(apiHeaderTime, apiKey, authorization),
-      )
-      .then((headers: HeadersInit) => ({ method: "GET", headers }))
-      .then((requestInit) => fetch(url, requestInit))
-      .then((res) => res.json())
-      .then((json) => console.log(json));
-  }
+   ```ts
+   class App {
+     fetchRecent(apiKey: string, apiSecret: string): void {
+       const url = "https://api.podcastindex.org/api/1.0/recent/feeds?max=10";
+       const apiHeaderTime: string = "" + Math.round(Date.now() / 1_000);
 
-  private async getAuthorizationHeaderValue(
-    apiKey: string,
-    apiSecret: string,
-    apiHeaderTime: string,
-  ): Promise<string> {
-    const arrayBuffer: ArrayBuffer = new TextEncoder().encode(
-      apiKey + apiSecret + apiHeaderTime,
-    );
-    const digest = await crypto.subtle.digest("SHA-1", arrayBuffer);
-    return [...new Uint8Array(digest)]
-      .map((x) => x.toString(16).padStart(2, "0"))
-      .join("");
-  }
+       this.getAuthorizationHeaderValue(apiKey, apiSecret, apiHeaderTime)
+         .then((authorization) =>
+           this.getHeaders(apiHeaderTime, apiKey, authorization),
+         )
+         .then((headers) => ({ method: "GET", headers }))
+         .then((requestInit) => fetch(url, requestInit))
+         .then((res) => res.json())
+         .then((json) => console.log(json));
+     }
 
-  private getHeaders(
-    apiHeaderTime: string,
-    apiKey: string,
-    authorization: string,
-  ): HeadersInit {
-    const requestHeaders: HeadersInit = new Headers();
+     private async getAuthorizationHeaderValue(
+       apiKey: string,
+       apiSecret: string,
+       apiHeaderTime: string,
+     ): Promise<string> {
+       const arrayBuffer = new TextEncoder().encode(
+         apiKey + apiSecret + apiHeaderTime,
+       );
+       const digest = await crypto.subtle.digest("SHA-1", arrayBuffer);
+       return [...new Uint8Array(digest)]
+         .map((x) => x.toString(16).padStart(2, "0"))
+         .join("");
+     }
 
-    requestHeaders.set("Accept", "application/json");
-    requestHeaders.set("Content-Type", "application/json; utf-8");
-    requestHeaders.set("X-Auth-Date", apiHeaderTime);
-    requestHeaders.set("X-Auth-Key", apiKey);
-    requestHeaders.set("Authorization", authorization);
-    requestHeaders.set("User-Agent", "my-amazing-podcast-player");
+     private getHeaders(
+       apiHeaderTime: string,
+       apiKey: string,
+       authorization: string,
+     ): HeadersInit {
+       const headers = new Headers();
+       headers.set("Accept", "application/json");
+       headers.set("Content-Type", "application/json; utf-8");
+       headers.set("X-Auth-Date", apiHeaderTime);
+       headers.set("X-Auth-Key", apiKey);
+       headers.set("Authorization", authorization);
+       headers.set("User-Agent", "my-amazing-podcast-player");
+       return headers;
+     }
+   }
+   ```
 
-    return requestHeaders;
-  }
-}
-```
+2. Build a landing page. Use your own layout or take inspiration from existing players:
 
-2. Create a landing page. Use either your own layout or follow some examples:
-   Apple Landing
+   Apple landing
    ![Apple Landing](assets/landing/apple_landing.png)
-   Spotify Landing
+
+   Spotify landing
    ![Spotify Landing](assets/landing/spotify_landing.png)
-3. Fetch information and pass it to the page based on [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds). Apply pagination or infinite scrolling technique, if required.
-4. Add search input.
 
-- When the search input is empty, recent feeds shown
-- When search input is filled with some value, use search API: [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm)
-- Search calls should **NOT** be issued on every user stroke. Use [throttling and debouncing](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript) to reduce the number of API calls.
+3. Fetch recent feeds with the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) and render them on the landing page. Apply pagination or infinite scroll if needed.
+4. Add a search input.
+   - When the input is empty, show recent feeds.
+   - When the input has a value, use the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm).
+   - Search requests must **not** fire on every keystroke. Use [debouncing or throttling](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript) to limit the number of API calls.
 
-## Section 2. Podcast details page.
+### Section 2 — Podcast details page
 
-### User stories [3].
+_Covers user story 3._
 
-### Steps
+1. Clicking a tile on the landing/search page navigates to a page that lists episodes for that podcast. Layout is up to you — examples for reference:
 
-1. Create the ability to check available episodes. From the landing/search page, a user should be able to click on the tile and navigate to the page where all episodes are listed. Use either your own layout or follow some examples:
-   Apple Landing
-   ![Apple Landing](assets/details/apple_details.png)
-   Spotify Landing
-   ![Spotify Landing](assets/details/spotify_details.png)
-2. To get data, use the `URL` field from [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) response. Fetch URL and download the full XML feed. Parse it and get information about episodes. Display information accordingly.
-3. Create the ability to return to the landing page without explicitly clicking the browser's "back" button.
+   Apple details
+   ![Apple Details](assets/details/apple_details.png)
 
-## Section 3. Podcast player.
+   Spotify details
+   ![Spotify Details](assets/details/spotify_details.png)
 
-### User stories [4,5,6].
+2. To load episodes: use the `url` field from the [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) response, fetch that XML feed, parse it, and render episodes from the parsed result.
+3. The user must be able to return to the landing page without using the browser's "Back" button (provide an in-app navigation control).
 
-### Steps
+### Section 3 — Podcast player
 
-1. Create an audio player component to play the selected episode.
+_Covers user stories 4, 5, 6._
 
-- The player should have alternating "play/pause" buttons.
-- The player should show the progress bar of playback, current time, and total time (or remaining time).
-- The user should be able to navigate the audio stream by clicking on the progress bar.
-- The player component should always be visible on the screen.
-- The player should not block the user's navigation between pages.
-- User should be able to search podcasts (section#1) and check list of episodes(section#2) while listening.
-- When the user selects another episode, the currently playing stream should be replaced with a new one.
+1. Build an audio player component with the following behavior:
+   - Alternating **Play / Pause** button.
+   - Progress bar with current time and total time (or remaining time).
+   - The user can seek the audio by clicking the progress bar.
+   - The player stays visible on screen at all times.
+   - The player does not block navigation between pages.
+   - The user can search podcasts (Section 1) and browse episodes (Section 2) while the current episode is playing.
+   - Selecting another episode replaces the current stream with the new one.
 
-## Section 4. Memory & playlist.
+### Section 4 — Memory and playlist
 
-### User stories [7,8].
+_Covers user stories 7, 8._
 
-### Steps
+1. Add a playlist page that lists user-added episodes. Layout is up to you — match the style of the rest of the app.
+2. Store the playlist state in `localStorage`.
+3. The user can add and remove episodes to/from the playlist.
+4. The behavior of the playlist when the user starts a new episode is up to you (e.g. auto-advance, manual selection).
+5. Store the playback progress of each played episode in `localStorage`. When the user returns to a previously listened episode, the player resumes from roughly 10 seconds before the last position.
 
-1. Create a page that has a playlist of episodes. No particular layout is provided. Please match your current style.
-2. Use `LocalStorage API` to store the state of the list.
-3. Create the ability to add and remove episodes to/from the list.
-4. It's up to you how the playlist should behave when the user starts playing a new episode.
-5. Store information about episode's playback progress in `LocalStorage API`. When the user returns to the episode they had previously listened to, the player should pick up from the last listened 10 seconds window.
+### Technical requirements
+
+1. **Vanilla JavaScript or TypeScript only** — no UI frameworks (React, Vue, Angular, etc.).
+2. The app must be a Single Page Application — page transitions happen without full reloads.
+3. No console errors during normal use.
+4. The app must work in the latest version of Chrome.
+
+## Submission
+
+1. Work in the school's private repository.
+2. From the `main` branch, create a `podcast-player` branch and place your project files there.
+3. Complete the task.
+4. Deploy your work to `gh-pages`.
+5. Open a Pull Request from `podcast-player` into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** this PR.
+6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+7. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
+
+> **Note on API keys.** You will be deploying a public site that uses your Podcast Index API Key and Secret. These credentials grant access only to the Podcast Index API and have no billing impact, but treat them as personal — do not reuse them outside this project, and rotate them after the task if you wish.
+
+## Cross-check
+
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
+
+The reviewer goes through every scoring criterion and awards the listed points only if the feature works in the deployed app. Criteria that cannot be verified (e.g. the app fails to load, the API key is broken) score 0 for that block.
+
+## Scoring Criteria
+
+**Maximum score: 150 points**
+
+### Section 1 — Landing page and search (40 points)
+
+- The landing page loads and renders a list of recent podcasts fetched from the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) **+10**
+- Each podcast tile shows at least: cover image, title, author/feed name **+5**
+- Pagination or infinite scroll loads additional podcasts beyond the initial batch **+5**
+- A search input is present on the landing page **+3**
+- When the search input is empty, recent feeds are shown **+3**
+- When the search input has a value, results come from the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm) **+7**
+- Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
+- A loading indicator is shown while a request is in flight **+2**
+
+### Section 2 — Podcast details page (25 points)
+
+- Clicking a podcast tile navigates to a details page for that podcast **+5**
+- The details page lists episodes parsed from the feed XML obtained via [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) **+10**
+- Each episode item shows at least: title, publication date, duration **+5**
+- An in-app control returns the user to the landing page without using the browser's "Back" button **+5**
+
+### Section 3 — Podcast player (50 points)
+
+- Selecting an episode starts playback in the player **+8**
+- The player has a working Play / Pause toggle button **+6**
+- The player shows current time and total time (or remaining time) **+6**
+- The player has a progress bar that updates as the audio plays **+6**
+- Clicking the progress bar seeks the audio to the clicked position **+8**
+- The player stays visible on screen during navigation between pages **+8**
+- The user can use search (Section 1) and browse episode lists (Section 2) while audio continues playing without interruption **+4**
+- Selecting a different episode replaces the current stream with the new one (no double-playback) **+4**
+
+### Section 4 — Memory and playlist (35 points)
+
+- A playlist page exists and is reachable from the app's navigation **+5**
+- The user can add an episode to the playlist from the details page or the player **+6**
+- The user can remove an episode from the playlist **+5**
+- The playlist contents persist across page reloads (stored in `localStorage`) **+8**
+- The playback position of the currently playing episode is stored in `localStorage` **+5**
+- When the user returns to a previously listened episode, playback resumes from roughly 10 seconds before the last saved position **+6**
+
+### Penalties
+
+- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-150**
+- Page transitions cause full reloads (not an SPA) **-20**
+- API Key or API Secret is hardcoded into a committed file in plain text **-15**
+- Console errors during normal use **-10**
+- Layout is visibly broken on the latest Chrome at a 1280px viewport **-10**
+
+## Learning Resources
+
+- [Podcast Index API documentation](https://podcastindex-org.github.io/docs-api/)
+- [Fetch API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Web Crypto: `SubtleCrypto.digest()` — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest)
+- [Debouncing and Throttling in JavaScript — Telerik](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+- [HTMLAudioElement — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
+- [Using the HTML5 Audio API — MDN](https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery)
+- [DOMParser (parsing XML) — MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
+- [Window.localStorage — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [Building a Single Page Application without a framework — DEV](https://dev.to/maxime1992/single-page-application-without-a-framework-31o)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
