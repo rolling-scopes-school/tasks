@@ -23,7 +23,7 @@ The course documentation answers most queries. However, it's worth noting that t
 
 ## Theory
 
-1. Watch [the introductory session for the 2024Q4 intake](https://www.youtube.com/watch?v=cD3cFXkNmoU)
+1. Watch [the introductory session for the 2026Q1 intake](https://www.youtube.com/watch?v=yPF7YYSX7Fg)
 2. Read the course documentation <https://rs.school/docs>
    - Learning process
    - Possible reasons for expulsion
@@ -39,7 +39,7 @@ The course documentation answers most queries. However, it's worth noting that t
 ## Practice
 
 1. You need to create and fill out a [student profile in RS APP](https://app.rs.school/registry/student). Access to the RS APP is through your GitHub account. You can create a GitHub account here - https://github.com/.
-2. Check if you're enrolled in the course. To do this, go to https://app.rs.school/ and navigate to the "Dashboard" page. The top of the page should display a heading like `Student dashboard {Your Course Name}`, for example, `Student dashboard JS/FE Pre-School 2022Q4`.
+2. Check if you're enrolled in the course. To do this, go to https://app.rs.school/ and navigate to the "Dashboard" page. The top of the page should display a heading like `Student dashboard {Your Course Name}`, for example, `Student dashboard JS/FE Pre-School 2026Q1`.
 3. Include your GitHub account in your Discord nickname <https://rs.school/docs/rs-school-chats>
    We have here links to our global Discord server, but if you want to stay in English only discord - here is the invite [Link](https://discord.gg/GupRZjBKkd)
 4. Bookmark the course schedule. To do this, go to https://app.rs.school/ and navigate to the "Schedule" page.

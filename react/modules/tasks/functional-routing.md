@@ -113,7 +113,7 @@ Focus on routing and functional components.
 
 3. **Routing Setup**:
 
-- Add routing in SPA mode using either **React Router** (choose "Data" or "Declarative" approach, see [API & mode availability](https://reactrouter.com/start/modes#api--mode-availability-table)) **or [TanStack Router](https://tanstack.com/router/latest/docs/guide/installation)**.
+- Add routing in SPA mode using either **React Router** (choose "Data" or "Declarative" approach, see [API & mode availability](https://reactrouter.com/start/modes#api--mode-availability-table)) **or [TanStack Router](https://tanstack.com/router/latest/docs/installation/manual)**.
 - Pick one router and follow its official documentation for setup and navigation.
 
 ### Penalties
@@ -124,7 +124,7 @@ Focus on routing and functional components.
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
-- **2. Test Coverage**
+- **2. Test Coverage (one which applies)**
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
@@ -140,7 +140,7 @@ Focus on routing and functional components.
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
 
 ## 📚 FAQ (Frequently Asked Questions)
 
@@ -178,5 +178,5 @@ You should pass the ID (or identifier) of the selected item from the search resu
 
 ### ❓ My PR is merged into `main`. Is it a penalty?
 
-No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.  
+No. As long as the original PR exists and your code is reviewable, there is no automatic penalty for merging.
 However, merging into `main` is **not recommended**, as it may complicate the review process for your mentor.

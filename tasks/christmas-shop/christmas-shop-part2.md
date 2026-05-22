@@ -19,7 +19,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ## Workflow
 
-1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository).
+1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://rs.school/docs/private-repository).
 2. Create a new branch named `christmas-shop-part2` from the `christmas-shop` branch. You will find the `christmas-shop` folder containing the project files completed in the previous stage within this branch.
 3. Continue working on the task within the branch you have created.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
