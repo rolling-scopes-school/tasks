@@ -1,109 +1,166 @@
-# Task "Async Race"
+# Async Race
 
-Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment :radio: in real cars :car:, to be precise, all of his collection of cars. He is eager to create a kind of drag-racing competition in order to discover which car is the fastest.
+## Skills
 
-Each radio controller has an HTTP-compatible interface. It lets you start or stop the engine of the car and, of course, enable "driving" mode.
+`TypeScript` `Single Page Application` `vanilla DOM rendering` `Fetch API` `async/await` `REST` `CSS animations` `requestAnimationFrame` `pagination` `sorting` `state management` `Vite/Webpack`
 
-Your task is to create a [SPA](https://en.wikipedia.org/wiki/Single-page_application) to manage the collection of cars, operate their engines, and show race statistics.
+## Task Description
 
-Previously, development of this application had been started by a Belarusian developer named Dzmitry (and was almost finished). However, his laptop :computer: was stolen by bad guys. Unfortunately, we don't have any sources of UI :disappointed:. Fortunately, he had recorded some [demo](https://youtu.be/sTXtlBLh-Ts) beforehand. Additionally, he had stored the server mock in his [repo](https://github.com/mikhama/async-race-api).
+Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment in real cars — to be precise, in his entire collection. He is eager to create a kind of drag-racing competition to discover which car is the fastest.
 
-We found in the latest news that a new company called "The Fast and the Furious" announced the release of a new product that will really blow people's minds. There isn't a lot of information about this product. All we know is that it's about "easier car management than you can imagine." It's exactly what our thieves :supervillain: are up to. They're going to release their product in two weeks. But we can't allow them to do that. We must be first.
+Each radio controller has an HTTP-compatible interface that lets you start or stop the engine of the car and enable "driving" mode.
 
-What are you waiting for? Let's start coding!
+Your task is to create a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) that manages the collection of cars, operates their engines, and shows race statistics.
 
-## 🎯 Objectives
+Development of this application had previously been started by another engineer and was almost finished, but the source code is lost. What survived is a [demo video](https://youtu.be/sTXtlBLh-Ts) and a [server mock](https://github.com/mikhama/async-race-api). A competitor announces release in two weeks — let's ship first.
 
-- **Create a Single Page Application (SPA)**: Manage a collection of cars, operate their engines, and showcase race statistics in an engaging, interactive SPA.
-- **Revive the Project**: Drawing inspiration from a demo video and a server mock, reconstruct the UI and breathe life back into this ambitious project.
-- **Outpace the Competition**: Implement the project with speed and efficiency, ensuring we launch before our rivals, showcasing our innovative solution to car management and racing competitions.
+## Requirements
 
-## 🚗 Functional Requirements
+### Functional requirements
 
-### Basic Structure
+#### Basic structure
 
-- Two main views: "Garage" and "Winners", each with their name, page number, and a count of items in the database.
-- Persistent view state between switches, maintaining user input and pagination.
+- Two main views: **Garage** and **Winners**. Each view shows its name, the current page number, and the total count of items in the database.
+- The view state persists when switching between views — page numbers, input values, and selected color are not reset on navigation.
 
-### Garage View
+#### Garage view
 
-- CRUD operations for cars with "name" and "color" attributes.
-- Color selection from an RGB palette with a preview of the car in the chosen color.
-- Pagination to display cars (7 per page) and a feature to generate 100 random cars at once.
+- **CRUD for cars.** A car has two attributes: `name` and `color`. The user can create, update, delete, and list cars. Deleting a car removes it from both the `garage` table **and** the `winners` table.
+- **Color selection** from an RGB palette ([example tool](https://colorspire.com/rgb-color-wheel/)). The selected color is reflected on the car's image alongside its name.
+- **Management buttons** for update and delete are placed next to each car.
+- **Pagination** — 7 cars per page.
+- **Random car generation** — a button creates 100 cars per click. Each name is assembled from two random parts (e.g. `Tesla` + `Model S`, `Ford` + `Mustang`), with **at least 10** options for each part. Color is also random.
 
-### Car Animation
+#### Car animation
 
-- Start/stop engine buttons with corresponding animations and handling of engine states.
-- Adaptive animations that work on screens as small as 500px.
+- **Engine control buttons** are placed next to each car.
+- **Start engine** flow: user clicks the start button → UI awaits the velocity response from the API → car is animated → a follow-up request to `drive` is sent. If the API returns a 500 status for `drive`, the car's animation must **stop in place**.
+- **Stop engine** flow: user clicks the stop button → UI awaits the stop response → car returns to its initial position.
+- **Button states**: start is disabled while the car is in driving mode; stop is disabled when the car is at its initial position.
+- **Responsive animation**: car animations remain fluid and visible on screens as narrow as **500px**.
 
-### Race Animation
+#### Race animation
 
-- A button to start a race for all cars on the current page.
-- A reset button to return all cars to their starting positions.
-- Display the winner's name upon race completion.
+- **Start race** button starts the race for all cars on the current page.
+- **Reset race** button returns all cars on the current page to their starting positions.
+- **Winner announcement**: when the first car crosses the finish line, the user sees a message containing the winning car's name.
 
-### Winners View
+#### Winners view
 
-- Display winning cars with their image, name, number of wins, and best time.
-- Pagination and sorting capabilities by wins and best times.
+- After a race ends, the winning car appears in the **Winners** table.
+- **Pagination** — 10 winners per page.
+- **Winners table** columns: №, car image, name, number of wins, best time (in seconds). If the same car wins again, its win count increments; its best time is updated only if the new time is better than the stored one.
+- **Sorting** by number of wins and by best time, ascending and descending.
 
-## 📜 Non-functional Requirements
+### Non-functional requirements
 
-- **No Libraries/Frameworks**: The use of libraries or frameworks such as JQuery, React, Angular, Lodash, Material Design, etc., is strictly prohibited.
-  - Bootstrap CSS is permitted for **styling purposes** only.
-  - CSS modules, CSS Preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`, etc.), CSS in JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), `clsx/classnames` package are allowed.
+- **No UI libraries or frameworks**: jQuery, React, Angular, Lodash, Material Design, etc. are **forbidden**.
+  - Bootstrap CSS is allowed for styling only.
+  - CSS Modules, CSS preprocessors (`Sass`, `Less`, `Stylus`, `PostCSS`), CSS-in-JS libraries (`tailwindcss`, `jss`, `emotion/css`, etc.), and `clsx`/`classnames` are allowed.
+- **TypeScript is mandatory**. All method input/output parameters must be typed accurately. The use of explicit or implicit `any`, type assertions (`foo as BarType`), and non-null assertions (`y!`) is **not allowed**.
+- **Modular architecture** — clear separation between API layer, UI rendering, and state.
+- **SPA** — the entire UI is generated by TypeScript, bundled with Vite, Webpack, or similar.
+- **Code quality** — follow the [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) configuration. Functions are limited to **40 lines**. Avoid magic numbers/strings.
 
-- **TypeScript Mandatory**: The application must be developed using TypeScript. All method input and output parameters must be typed accurately, and the use of explicit or implicit "any" type, type assertions (`foo as BarType`) and non-nullability assertions (`y!`) is not allowed.
-- **Modular Architecture**: Clear separation of concerns between API interaction, UI rendering, and state management.
-- **SPA Implementation**: Entire content generated via TypeScript, utilizing Vite/Webpack or similar for bundling.
-- **Code Quality**: Adhere to the [Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) ESLint configuration, with functions limited to 40 lines and avoidance of magic numbers/strings.
+### Technical implementation
 
-## 🛠️ Technical Implementation
+- Use the provided [server mock](https://github.com/mikhama/async-race-api) for all CRUD operations on cars, engine control, and the winners table.
+- Communicate with the server via `fetch`; handle promises with `async`/`await`.
+- Animate car movement with JavaScript + CSS (e.g. `requestAnimationFrame` + `transform`).
+- The UI must work in the latest Chrome and remain functional down to a 500px viewport width.
 
-- Implement CRUD operations for cars using the provided server mock.
-- Design UI elements for car management and race controls.
-- Utilize fetch for server communication, and handle promises for asynchronous tasks.
-- Create animations for car movements using JavaScript and CSS.
-- Ensure responsiveness and compatibility across different devices and browsers.
+> **Note on flaky requests.** When the user spams the "start engine"/"stop engine" or "start race"/"reset race" buttons in rapid succession, the server mock occasionally responds with `404` or `429`. Per the task author, this is **not considered a bug**.
 
-## 📚 Resources
+## Submission
 
-- [Server Mock Repo](https://github.com/mikhama/async-race-api)
-- [Demo Video](https://youtu.be/sTXtlBLh-Ts)
-- [Color Palette Tool](https://www.colorspire.com/rgb-color-wheel/)
-- [SPA Wikipedia](https://en.wikipedia.org/wiki/Single-page_application)
-
-## 🔄 Evaluation
-
-- Your work will be evaluated based on functional and non-functional requirements.
-- The UI must be deployed for review, with a server instance running for functionality tests.
-- Pay close attention to details in the implementation, as bugs and deviations from the requirements can impact your score.
-
-## Requirements to commits, PR and repo
-
-[Stage 2 requirements](https://rs.school/docs/en/pull-request-review-process)
-NB: for mentor's check - submit link to PR, for cross-check - submit link to deploy.
+1. Work in your private school repository.
+2. Create a working branch (e.g. `async-race`) and develop the project there.
+3. Use the [Git commit convention](https://rs.school/docs/git-convention) for commits — the history must reflect the actual development process.
+4. Deploy the UI to `gh-pages`, Netlify, or a similar service.
+5. Open a Pull Request from the working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR.
+6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
 ## Cross-check
 
-- Max score: **215**.
-- UI should be deployed to gh-pages, netlify or some similar service and the link shared via RS App.
-- Reviewer should clone [repo with a server](https://github.com/mikhama/async-race-api.git) and keep the server running during functionality review.
-- Task should be scored in accordance with [Functional requirements](./functional-requirements.md). You can find score points near each requirement.
-- If some bugs were found then the next fees should be withdrawn:
-  - (**-30**) Major bug (implemented functionality works, but after some manipulations it breaks down, and there are some unexpected errors in the browsers' console).
-  - (**-10**) Minor bug (implemented functionality works, but after some manipulations it behavior changes, like button does not become enabled after changing some state, but there are not any errors in the browser's console).
-- **Note:** When you push the "start engine button" and then the "stop engine button" or the "start race button" and "reset race button" and repeating this operation again and again as a mad man sometimes you can see an error with the status codes "404" or "429". Officially it is not a bug.
+This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-## Mentor's review
+The reviewer must:
 
-- Max score: **190**.
-- Task should be scored in accordance with [Non-functional requirements](./non-functional-requirements.md). You can find score points near each requirement.
+1. Clone the [server mock repo](https://github.com/mikhama/async-race-api.git) and run the server locally.
+2. Open the deployed UI link and verify every criterion below against the running server.
+3. Apply bug penalties (see below) when implemented features misbehave.
 
-## FAQ
+### Bug penalties
 
-You can find answers and questions in this document:
-<https://docs.google.com/spreadsheets/d/1KrObgPHt6guthtswtB8AKhrLpRZ_Kf8H-3V63VDCBGw/edit?usp=sharing>
+- **Major bug** (implemented functionality works, but after some manipulations it breaks down, and there are unexpected errors in the browser console) — **-30** per bug.
+- **Minor bug** (implemented functionality works, but after some manipulations behavior changes — e.g. a button does not become enabled after a state change — and there are no errors in the browser console) — **-10** per bug.
 
-Link to Q&A live-stream recording:
-<https://www.youtube.com/watch?v=HHEMeRt42QY>
+## Scoring Criteria
+
+**Maximum score: 300 points**
+
+### Basic structure (120 points)
+
+#### View configuration (40 points)
+
+- Two primary views are implemented: **Garage** and **Winners** **+14**
+- The **Garage** view displays its name, current page number, and total number of cars in the database **+7**
+- The **Winners** view displays its name, current page number, and total number of records in the winners table **+7**
+- View state is preserved when navigating between views: page number, input values, and selected color are not reset **+12**
+
+#### Garage view functionality (80 points)
+
+##### Car management (65 points)
+
+- **CRUD** for cars works: create, update, delete, list. Deleting a car removes it from both `garage` and `winners` tables **+30**
+- Color is selected from an RGB palette and the selected color is reflected on the car's image **+14**
+- Update and delete buttons are placed next to each car **+7**
+- Pagination is implemented with **7 cars per page** **+14**
+
+##### Car generation (15 points)
+
+- A button creates **100 random cars** per click. Names are assembled from two random parts with at least **10 options per part**; color is also random **+15**
+
+### Car animation (70 points)
+
+- Start/stop engine buttons are placed next to each car **+14**
+- **Start engine animation** — UI awaits the velocity response, animates the car, then issues the `drive` request. On 500 from `drive`, the animation **stops in place** **+28**
+- **Stop engine animation** — UI awaits the stop response and the car returns to its initial position **+14**
+- **Button states** — start is disabled while driving; stop is disabled at the initial position **+7**
+- Animations remain fluid and visible at a **500px** viewport width **+7**
+
+### Race animation (50 points)
+
+- **Start race** button starts the race for all cars on the current page **+21**
+- **Reset race** button returns all cars on the current page to their starting positions **+14**
+- After the first car finishes, a winner message containing the car's name is shown **+15**
+
+### Winners view (60 points)
+
+- After a race, the winning car appears in the **Winners** table **+20**
+- Pagination is implemented with **10 winners per page** **+14**
+- The table has columns: №, image, name, number of wins, best time (in seconds). Win count increments on repeat wins; best time is updated only if the new time is better **+14**
+- Sorting by number of wins and by best time works in both ascending and descending order **+12**
+
+### Penalties
+
+- A forbidden UI library or framework is used (React, Vue, Angular, jQuery, Lodash, Material Design, etc.) **-300**
+- TypeScript is not used, or `any` / type assertions (`as`) / non-null assertions (`!`) are used **-50**
+- Functions exceed 40 lines or the project does not pass the [unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) ESLint configuration **-20**
+- The deployed UI link or the server mock is not running at the time of cross-check (the corresponding view's criteria score 0) **-0** _(no extra penalty — affected criteria simply cannot be awarded)_
+
+## Learning Resources
+
+- [Async Race server mock — GitHub](https://github.com/mikhama/async-race-api)
+- [Demo video](https://youtu.be/sTXtlBLh-Ts)
+- [Single Page Application — Wikipedia](https://en.wikipedia.org/wiki/Single-page_application)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Fetch API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Using Promises — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [`requestAnimationFrame` — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame)
+- [CSS Transforms — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [CSS Transitions — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions)
+- [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
+- [Vite — Getting Started](https://vitejs.dev/guide/)
+- [RGB Color Wheel — Colorspire](https://colorspire.com/rgb-color-wheel/)
