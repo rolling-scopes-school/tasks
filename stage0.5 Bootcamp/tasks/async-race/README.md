@@ -73,7 +73,7 @@ Development of this application had previously been started by another engineer 
 
 ## Submission
 
-1. Work in your private school repository.
+1. Work in a **public repository on your personal GitHub account** (named `async-race` or similar).
 2. Create a working branch (e.g. `async-race`) and develop the project there.
 3. Use the [Git commit convention](https://rs.school/docs/git-convention) for commits — the history must reflect the actual development process.
 4. Deploy the UI to `gh-pages`, Netlify, or a similar service.
@@ -98,56 +98,56 @@ The reviewer must:
 
 ## Scoring Criteria
 
-**Maximum score: 300 points**
+**Maximum score: 600 points**
 
-### Basic structure (120 points)
+### Basic structure (240 points)
 
-#### View configuration (40 points)
+#### View configuration (80 points)
 
-- Two primary views are implemented: **Garage** and **Winners** **+14**
-- The **Garage** view displays its name, current page number, and total number of cars in the database **+7**
-- The **Winners** view displays its name, current page number, and total number of records in the winners table **+7**
-- View state is preserved when navigating between views: page number, input values, and selected color are not reset **+12**
+- Two primary views are implemented: **Garage** and **Winners** **+25**
+- The **Garage** view displays its name, current page number, and total number of cars in the database **+15**
+- The **Winners** view displays its name, current page number, and total number of records in the winners table **+15**
+- View state is preserved when navigating between views: page number, input values, and selected color are not reset **+25**
 
-#### Garage view functionality (80 points)
+#### Garage view functionality (160 points)
 
-##### Car management (65 points)
+##### Car management (130 points)
 
-- **CRUD** for cars works: create, update, delete, list. Deleting a car removes it from both `garage` and `winners` tables **+30**
-- Color is selected from an RGB palette and the selected color is reflected on the car's image **+14**
-- Update and delete buttons are placed next to each car **+7**
-- Pagination is implemented with **7 cars per page** **+14**
+- **CRUD** for cars works: create, update, delete, list. Deleting a car removes it from both `garage` and `winners` tables **+60**
+- Color is selected from an RGB palette and the selected color is reflected on the car's image **+25**
+- Update and delete buttons are placed next to each car **+15**
+- Pagination is implemented with **7 cars per page** **+30**
 
-##### Car generation (15 points)
+##### Car generation (30 points)
 
-- A button creates **100 random cars** per click. Names are assembled from two random parts with at least **10 options per part**; color is also random **+15**
+- A button creates **100 random cars** per click. Names are assembled from two random parts with at least **10 options per part**; color is also random **+30**
 
-### Car animation (70 points)
+### Car animation (140 points)
 
-- Start/stop engine buttons are placed next to each car **+14**
-- **Start engine animation** — UI awaits the velocity response, animates the car, then issues the `drive` request. On 500 from `drive`, the animation **stops in place** **+28**
-- **Stop engine animation** — UI awaits the stop response and the car returns to its initial position **+14**
-- **Button states** — start is disabled while driving; stop is disabled at the initial position **+7**
-- Animations remain fluid and visible at a **500px** viewport width **+7**
+- Start/stop engine buttons are placed next to each car **+25**
+- **Start engine animation** — UI awaits the velocity response, animates the car, then issues the `drive` request. On 500 from `drive`, the animation **stops in place** **+60**
+- **Stop engine animation** — UI awaits the stop response and the car returns to its initial position **+25**
+- **Button states** — start is disabled while driving; stop is disabled at the initial position **+15**
+- Animations remain fluid and visible at a **500px** viewport width **+15**
 
-### Race animation (50 points)
+### Race animation (100 points)
 
-- **Start race** button starts the race for all cars on the current page **+21**
-- **Reset race** button returns all cars on the current page to their starting positions **+14**
-- After the first car finishes, a winner message containing the car's name is shown **+15**
+- **Start race** button starts the race for all cars on the current page **+40**
+- **Reset race** button returns all cars on the current page to their starting positions **+30**
+- After the first car finishes, a winner message containing the car's name is shown **+30**
 
-### Winners view (60 points)
+### Winners view (120 points)
 
-- After a race, the winning car appears in the **Winners** table **+20**
-- Pagination is implemented with **10 winners per page** **+14**
-- The table has columns: №, image, name, number of wins, best time (in seconds). Win count increments on repeat wins; best time is updated only if the new time is better **+14**
-- Sorting by number of wins and by best time works in both ascending and descending order **+12**
+- After a race, the winning car appears in the **Winners** table **+40**
+- Pagination is implemented with **10 winners per page** **+30**
+- The table has columns: №, image, name, number of wins, best time (in seconds). Win count increments on repeat wins; best time is updated only if the new time is better **+25**
+- Sorting by number of wins and by best time works in both ascending and descending order **+25**
 
 ### Penalties
 
-- A forbidden UI library or framework is used (React, Vue, Angular, jQuery, Lodash, Material Design, etc.) **-300**
-- TypeScript is not used, or `any` / type assertions (`as`) / non-null assertions (`!`) are used **-50**
-- Functions exceed 40 lines or the project does not pass the [unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) ESLint configuration **-20**
+- A forbidden UI library or framework is used (React, Vue, Angular, jQuery, Lodash, Material Design, etc.) **-600**
+- TypeScript is not used, or `any` / type assertions (`as`) / non-null assertions (`!`) are used **-100**
+- Functions exceed 40 lines or the project does not pass the [unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) ESLint configuration **-40**
 - The deployed UI link or the server mock is not running at the time of cross-check (the corresponding view's criteria score 0) **-0** _(no extra penalty — affected criteria simply cannot be awarded)_
 
 ## Learning Resources

@@ -60,7 +60,7 @@ Pet data must be stored in `pets.json` (already provided in the task folder — 
 
 ## Submission
 
-1. Continue working in your private school repository.
+1. Continue working in the same public repository you used for Parts 1 and 2.
 2. From the `shelter` branch, create a `shelter-part3` branch. After completing Part 3, merge `shelter-part3` back into `shelter`.
 3. Complete the task.
 4. Deploy your work to `gh-pages`.
@@ -74,49 +74,45 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 
 ## Scoring Criteria
 
-**Maximum score: 110 points**
+**Maximum score: 120 points**
 
-### Burger menu (26 points)
+### Burger menu (25 points)
 
-- The menu opens by clicking the burger icon **+4**
-- The menu opens with a smooth animation **+4**
-- The burger icon transforms into a close icon when the menu is open **+4**
-- The menu closes when clicking the close icon **+3**
-- The menu closes when clicking the overlay area outside the menu **+3**
-- The menu closes when clicking any navigation link inside it **+4**
-- The page behind the menu does not scroll while the menu is open **+4**
+- The menu opens by clicking the burger icon **+5**
+- The menu opens with a smooth animation **+5**
+- The burger icon transforms into a close icon when the menu is open **+5**
+- The menu closes when clicking the close icon, the overlay area outside the menu, or any navigation link inside it **+5**
+- The page behind the menu does not scroll while the menu is open **+5**
 
-### Infinite carousel slider on `Main` (36 points)
+### Infinite carousel slider on `Main` (40 points)
 
-- The slider displays the correct number of cards per breakpoint: 3 / 2 / 1 **+6**
-- The slider has working left and right arrow controls **+4**
-- After a switch, the next group contains no pet from the previously visible group **+8**
-- All pets within the next group are unique **+6**
-- The order of cards in the next group is random within the above rules **+4**
-- Card switching is animated (slide) **+4**
-- During the slide animation, additional arrow clicks are ignored — animations do not stack **+4**
+- The slider displays the correct number of cards per breakpoint: 3 / 2 / 1 **+5**
+- The slider has working left and right arrow controls **+5**
+- After a switch, the next group contains no pet from the previously visible group **+10**
+- All pets within the next group are unique **+5**
+- The order of cards in the next group is random within the above rules **+5**
+- Card switching is animated (slide) **+5**
+- During the slide animation, additional arrow clicks are ignored — animations do not stack **+5**
 
-### Pagination on `Pets` (36 points)
+### Pagination on `Pets` (40 points)
 
-- The block contains 48 cards: 6 pages × 8 on desktop, 8 × 6 on tablet, 16 × 3 on mobile **+8**
-- The 48 cards are built from `pets.json` so that all pets appear an equal number of times **+6**
-- No two adjacent cards (in linear order) show the same pet **+6**
-- Pagination controls present: first, previous, current page indicator, next, last **+6**
-- Disabled controls (e.g. "previous" on page 1) are visually inactive and don't respond to clicks **+4**
-- Page switching is animated **+6**
+- The block contains 48 cards: 6 pages × 8 on desktop, 8 × 6 on tablet, 16 × 3 on mobile **+10**
+- The 48 cards are built from `pets.json` so that all pets appear an equal number of times **+5**
+- No two adjacent cards (in linear order) show the same pet **+5**
+- Pagination controls present: first, previous, current page indicator, next, last **+5**
+- Disabled controls (e.g. "previous" on page 1) are visually inactive and don't respond to clicks **+5**
+- Page switching is animated **+10**
 
-### Popup (12 points)
+### Popup (15 points)
 
-- Clicking a pet card opens a popup with that pet's details from `pets.json` **+4**
-- The popup has a darkened backdrop covering the page **+2**
-- The popup closes when clicking the close button **+2**
-- The popup closes when clicking the backdrop outside the popup **+2**
-- The page behind the popup does not scroll while the popup is open **+2**
+- Clicking a pet card opens a popup with that pet's details from `pets.json` **+5**
+- The popup has a darkened backdrop covering the page, and closes when clicking the close button or the backdrop area outside the popup **+5**
+- The page behind the popup does not scroll while the popup is open **+5**
 
 ### Penalties
 
-- Frameworks or libraries are used (jQuery, React, Vue, Bootstrap, Swiper, etc.) **-110**
-- TypeScript is used **-110**
+- Frameworks or libraries are used (jQuery, React, Vue, Bootstrap, Swiper, etc.) **-120**
+- TypeScript is used **-120**
 - Pet data is hardcoded in HTML or JS instead of being loaded from `pets.json` **-30**
 
 ## Learning Resources

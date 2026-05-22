@@ -77,13 +77,12 @@ The exact wording is up to you, but those four facts must be present.
 
 ## Submission
 
-1. Work in your personal private repository named `not-fight-club`.
-2. On the day cross-check starts, switch the repository to public so reviewers can access it and `gh-pages` can deploy.
-3. Deploy your work to `gh-pages`. If `gh-pages` is not available, use <https://app.netlify.com/drop> with the naming scheme `<github-username>-not-fight-club`.
-4. Open a Pull Request from your working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR into `main`.
-5. Use the [Git commit convention](https://rs.school/docs/git-convention) for your commit messages. The commit history must reflect the actual development process.
-6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
-7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
+1. Work in a **public repository on your personal GitHub account** named `not-fight-club`.
+2. Deploy your work to `gh-pages`. If `gh-pages` is not available, use <https://app.netlify.com/drop> with the naming scheme `<github-username>-not-fight-club`.
+3. Open a Pull Request from your working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR into `main`.
+4. Use the [Git commit convention](https://rs.school/docs/git-convention) for your commit messages. The commit history must reflect the actual development process.
+5. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+6. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
 ## Cross-check
 
@@ -93,44 +92,44 @@ The reviewer plays through the deployed app and awards points only for features 
 
 ## Scoring Criteria
 
-**Maximum score: 170 points**
+**Maximum score: 300 points**
 
-### 1. Registration screen (10 points)
+### 1. Registration screen (20 points)
 
-- An input lets the player enter their name; the entered name is reused on every other screen and persists across reloads **+10**
+- An input lets the player enter their name; the entered name is reused on every other screen and persists across reloads **+20**
 
-### 2. Home screen (5 points)
+### 2. Home screen (10 points)
 
-- A start button creates a new battle and opens the battle page **+5**
+- A start button creates a new battle and opens the battle page **+10**
 
-### 3. Character page (25 points)
+### 3. Character page (45 points)
 
-- The page shows the character's avatar **+5**
-- The page shows the player's name and the win/loss record **+5**
-- The player can choose a new avatar from a set of images, and the chosen avatar is reflected everywhere it's shown **+15**
+- The page shows the character's avatar **+10**
+- The page shows the player's name and the win/loss record **+10**
+- The player can choose a new avatar from a set of images, and the chosen avatar is reflected everywhere it's shown **+25**
 
-### 4. Settings page (10 points)
+### 4. Settings page (20 points)
 
-- The player can change their name; the new name is reflected on every other screen and persists across reloads **+10**
+- The player can change their name; the new name is reflected on every other screen and persists across reloads **+20**
 
-### 5. Battle page (100 points)
+### 5. Battle page (175 points)
 
-- The page shows the player and the opponent with interactive HP bars that update according to the battle logic **+20**
-- When a battle is created, the opponent is picked from a predefined pool of at least 2 opponents with different attack/defense profiles **+5**
-- Full working battle mechanics per the [Battle mechanics](#battle-mechanics) section — zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn **+15**
-- Critical hits are implemented: a random chance to deal extra damage; a critical hit also breaks through a block **+5**
-- A battle log shows every action of every turn with the required fields (**WHO**, **WHOM**, **WHERE**, **HOW MUCH**) **+50**
-- Log entries visually highlight key pieces of information (different styles for names, zones, damage values), as shown in the demo **+5**
+- The page shows the player and the opponent with interactive HP bars that update according to the battle logic **+35**
+- When a battle is created, the opponent is picked from a predefined pool of at least 2 opponents with different attack/defense profiles **+10**
+- Full working battle mechanics per the [Battle mechanics](#battle-mechanics) section — zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn **+25**
+- Critical hits are implemented: a random chance to deal extra damage; a critical hit also breaks through a block **+10**
+- A battle log shows every action of every turn with the required fields (**WHO**, **WHOM**, **WHERE**, **HOW MUCH**) **+85**
+- Log entries visually highlight key pieces of information (different styles for names, zones, damage values), as shown in the demo **+10**
 
-### 6. Bonus — full persistence (20 points)
+### 6. Bonus — full persistence (30 points)
 
-- All game data is persisted, so that after a page reload the player can continue with the same character, keep their win/loss record, **and** resume an in-progress battle in the exact same state (HP, current turn, log) **+20**
+- All game data is persisted, so that after a page reload the player can continue with the same character, keep their win/loss record, **and** resume an in-progress battle in the exact same state (HP, current turn, log) **+30**
 
 ### Penalties
 
-- A fight can end in a single turn because HP is not at least 3× the base damage **-20**
-- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-170**
-- Console errors during normal use **-10**
+- A fight can end in a single turn because HP is not at least 3× the base damage **-35**
+- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-300**
+- Console errors during normal use **-15**
 
 ## Learning Resources
 

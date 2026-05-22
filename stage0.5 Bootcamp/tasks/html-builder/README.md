@@ -102,56 +102,56 @@ For each subtask, the reviewer clones the repository, runs `node <task-folder>` 
 
 ## Scoring Criteria
 
-**Maximum score: 200 points**
+**Maximum score: 390 points**
 
-### 01 — Read a file (20 points)
+### 01 — Read a file (40 points)
 
-- Running `node 01-read-file` from the repository root prints the contents of `01-read-file/text.txt` to the console **+10**
-- File reading is implemented with **ReadStream**; no synchronous `fs` calls are used **+10**
+- Running `node 01-read-file` from the repository root prints the contents of `01-read-file/text.txt` to the console **+20**
+- File reading is implemented with **ReadStream**; no synchronous `fs` calls are used **+20**
 
-### 02 — Write console input to file (25 points)
+### 02 — Write console input to file (50 points)
 
-- Running `node 02-write-file` creates a file inside `02-write-file/` and prints a prompt **+6**
-- Each line entered by the user is **appended** to that file (previous content is preserved) **+8**
-- The process keeps waiting for further input after each write **+3**
-- Typing `exit` prints a farewell message and terminates the process **+4**
-- Pressing `Ctrl + C` prints a farewell message and terminates the process **+4**
+- Running `node 02-write-file` creates a file inside `02-write-file/` and prints a prompt **+10**
+- Each line entered by the user is **appended** to that file (previous content is preserved) **+15**
+- The process keeps waiting for further input after each write **+5**
+- Typing `exit` prints a farewell message and terminates the process **+10**
+- Pressing `Ctrl + C` prints a farewell message and terminates the process **+10**
 
-### 03 — Files in folder (25 points)
+### 03 — Files in folder (50 points)
 
-- Running `node 03-files-in-folder` lists files from `03-files-in-folder/secret-folder` to the console **+8**
-- Each line is formatted as `<file name> - <extension> - <size>` **+10**
-- Subdirectories are **not** listed; only files directly inside `secret-folder` appear **+7**
+- Running `node 03-files-in-folder` lists files from `03-files-in-folder/secret-folder` to the console **+15**
+- Each line is formatted as `<file name> - <extension> - <size>` **+20**
+- Subdirectories are **not** listed; only files directly inside `secret-folder` appear **+15**
 
-### 04 — Copy a directory (35 points)
+### 04 — Copy a directory (70 points)
 
-- After running `node 04-copy-directory`, the `files-copy` folder exists and exactly mirrors the contents of `files` **+16**
-- Rerunning the script after files are added/modified inside `files` updates `files-copy` accordingly **+10**
-- Rerunning the script after files are **removed** from `files` also removes them from `files-copy` **+9**
+- After running `node 04-copy-directory`, the `files-copy` folder exists and exactly mirrors the contents of `files` **+30**
+- Rerunning the script after files are added/modified inside `files` updates `files-copy` accordingly **+20**
+- Rerunning the script after files are **removed** from `files` also removes them from `files-copy` **+20**
 
-### 05 — Merge styles (25 points)
+### 05 — Merge styles (45 points)
 
-- After running `node 05-merge-styles`, `project-dist/bundle.css` exists and contains the concatenated contents of every `.css` file inside `styles` **+13**
-- Files with extensions other than `.css` and any subdirectories inside `styles` are ignored **+6**
-- Rerunning the script overwrites `bundle.css` with the up-to-date content of `styles` **+6**
+- After running `node 05-merge-styles`, `project-dist/bundle.css` exists and contains the concatenated contents of every `.css` file inside `styles` **+20**
+- Files with extensions other than `.css` and any subdirectories inside `styles` are ignored **+10**
+- Rerunning the script overwrites `bundle.css` with the up-to-date content of `styles` **+15**
 
-### 06 — Build page _(final, 70 points)_
+### 06 — Build page _(final, 135 points)_
 
-- After running `node 06-build-page`, the `project-dist` folder is created and contains `index.html`, `style.css`, and an `assets/` folder **+10**
-- `index.html` is built by substituting every `{{component-name}}` tag in `template.html` with the contents of `components/<component-name>.html` **+17**
-- `style.css` is a bundle of all `.css` files from the `styles` folder **+11**
-- `assets/` is an exact copy of `06-build-page/assets/` **+11**
-- The original `template.html` is not modified by the script **+4**
-- Two template tags written on the same line separated only by spaces (e.g. `{{about}} {{articles}}`) are processed as separate components without errors **+6**
-- Rerunning the script after a new component is added to `components/` and its tag is added to `template.html` correctly updates `project-dist/index.html`. Changes inside `styles/` and `assets/` are also picked up **+11**
+- After running `node 06-build-page`, the `project-dist` folder is created and contains `index.html`, `style.css`, and an `assets/` folder **+20**
+- `index.html` is built by substituting every `{{component-name}}` tag in `template.html` with the contents of `components/<component-name>.html` **+35**
+- `style.css` is a bundle of all `.css` files from the `styles` folder **+20**
+- `assets/` is an exact copy of `06-build-page/assets/` **+20**
+- The original `template.html` is not modified by the script **+10**
+- Two template tags written on the same line separated only by spaces (e.g. `{{about}} {{articles}}`) are processed as separate components without errors **+10**
+- Rerunning the script after a new component is added to `components/` and its tag is added to `template.html` correctly updates `project-dist/index.html`. Changes inside `styles/` and `assets/` are also picked up **+20**
 
 ### Penalties
 
-- A third-party module is used in any subtask **-200**
-- A synchronous `fs` function is used in any subtask **-20** (per subtask, up to **-120**)
-- `setTimeout()` is used **-15**
-- `fsPromises.cp()` is used in task 04 or task 06 **-20** (per subtask)
-- The repository is private at the time of cross-check **-200**
+- A third-party module is used in any subtask **-390**
+- A synchronous `fs` function is used in any subtask **-40** (per subtask, up to **-240**)
+- `setTimeout()` is used **-30**
+- `fsPromises.cp()` is used in task 04 or task 06 **-40** (per subtask)
+- The repository is not publicly accessible at the time of cross-check **-390**
 
 ## Learning Resources
 

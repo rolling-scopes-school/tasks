@@ -49,7 +49,7 @@ Build the `Main` and `Pets` pages following the [Figma design](https://www.figma
 
 ## Submission
 
-1. Work in the school's private repository.
+1. Work in a **public repository on your personal GitHub account** (named `shelter` or similar).
 2. From the `main` branch, create a `shelter` branch. Inside it create a `shelter` folder and place your project files there.
 3. Complete the task.
 4. For convenience, output your self-assessment to the browser console: attach an `index.js` file to your `*.html`, write a `console.log()` call with a string listing the criteria you scored yourself on (use `\n` for line breaks).
@@ -74,16 +74,16 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 
 ## Scoring Criteria
 
-**Maximum score: 100 points**
+**Maximum score: 110 points**
 
-### `Main` page (60 points)
+> Note: several small sub-criteria are grouped into single bullets so every line is worth at least 5 points. A merged bullet awards full points only when **all** items inside it are satisfied.
 
-#### Markup validation — **+7**
+### `Main` page (70 points)
 
-- Markup is valid per <https://validator.w3.org/>. "Document checking completed. No errors or warnings to show." — full points. Warnings (no errors) — half points. **+4**
-- The header logo is built from text elements **+1**
-- The page contains exactly one `<h1>` **+1**
-- A favicon is added **+1**
+#### Markup validation — **+10**
+
+- Markup is valid per <https://validator.w3.org/>. "Document checking completed. No errors or warnings to show." — full points. Warnings (no errors) — half points **+5**
+- The header logo is built from text elements, the page contains exactly one `<h1>`, and a favicon is added **+5**
 
 #### Layout matches the design — **+35**
 
@@ -95,29 +95,23 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 - `In addition` block **+5**
 - `<footer>` block **+5**
 
-#### CSS requirements — **+6**
+#### CSS requirements — **+15**
 
-- The `Help` block is positioned using a grid layout (flexbox or grid) **+2**
-- When zooming out or widening the browser window (>1280px), the layout stays centered — it doesn't shift to the side or stretch to full width **+2**
-- The background color stretches across the full page width **+2**
+- The `Help` block is positioned using a grid layout (flexbox or grid) **+5**
+- When zooming out or widening the browser window (>1280px), the layout stays centered — it doesn't shift to the side or stretch to full width **+5**
+- The background color stretches across the full page width **+5**
 
-#### Interactivity — **+12**
+#### Interactivity — **+10**
 
-- The `About the Shelter` navigation item is highlighted and non-interactive; the other navigation items are interactive **+2**
-- Each pet card in **Our Friends** is interactive when hovering over any area of the card **+2**
-- Smooth anchor scrolling **+2**
-- All page links work according to the [Page links and navigation](#on-the-main-page) section for the `Main` page **+2**
-- Links and buttons have interactivity beyond just `cursor: pointer` — e.g. background or font color changes, following the design style guide. If the design doesn't specify styles, choose something consistent with the overall design **+2**
-- Required: smooth visual changes on hover and click that don't affect neighboring elements **+2** (animation duration is usually between 0.2s and 0.5s — duration doesn't affect scoring)
+- The `About the Shelter` navigation item is highlighted and non-interactive; the other navigation items are interactive; smooth anchor scrolling works; and all page links behave per the [Page links and navigation](#on-the-main-page) section **+5**
+- Each pet card in **Our Friends** is interactive when hovering over any area of the card; links and buttons have hover/active styling beyond `cursor: pointer` (color/background change); visual changes are smooth and do not affect neighboring elements **+5**
 
 ### `Pets` page (40 points)
 
-#### Markup validation — **+7**
+#### Markup validation — **+10**
 
-- Markup is valid per <https://validator.w3.org/> (same rules as for `Main`) **+4**
-- The header logo is built from text elements **+1**
-- The page contains exactly one `<h1>` **+1**
-- A favicon is added **+1**
+- Markup is valid per <https://validator.w3.org/> (same rules as for `Main`) **+5**
+- The header logo is built from text elements, the page contains exactly one `<h1>`, and a favicon is added **+5**
 
 #### Layout matches the design — **+15**
 
@@ -125,20 +119,14 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 - `Our Friends` block **+5**
 - `<footer>` block **+5**
 
-#### CSS requirements — **+4**
+#### CSS requirements — **+5**
 
-- When zooming out or widening the browser window (>1280px), the layout stays centered **+2**
-- The background color stretches across the full page width **+2**
+- When zooming out or widening the browser window (>1280px), the layout stays centered, and the background color stretches across the full page width **+5**
 
-#### Interactivity — **+14**
+#### Interactivity — **+10**
 
-- The `Our pets` navigation item is highlighted and non-interactive; the other navigation items are interactive **+2**
-- Available pagination buttons (right) are active; unavailable ones (left) are disabled **+2**
-- Each pet card in **Our Friends** is interactive when hovering over any area of the card **+2**
-- Smooth anchor scrolling **+2**
-- All page links work according to the [Page links and navigation](#on-the-pets-page) section for the `Pets` page **+2**
-- Links and buttons have interactivity beyond just `cursor: pointer` **+2**
-- Required: smooth visual changes on hover and click that don't affect neighboring elements **+2**
+- The `Our pets` navigation item is highlighted and non-interactive; the other navigation items are interactive; pagination buttons show correct enabled/disabled state; smooth anchor scrolling works; and all page links behave per the [Page links and navigation](#on-the-pets-page) section **+5**
+- Each pet card in **Our Friends** is interactive when hovering over any area of the card; links and buttons have hover/active styling beyond `cursor: pointer`; visual changes are smooth and do not affect neighboring elements **+5**
 
 ### Penalties
 

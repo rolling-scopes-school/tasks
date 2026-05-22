@@ -88,40 +88,40 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 
 ## Scoring Criteria
 
-**Maximum score: 150 points**
+**Maximum score: 100 points**
 
-### Repository & Submission
+### Repository & Submission (30 points)
 
-- PR is open from `gh-pages` into `main` and not merged **+2**
-- `cssMemeSlider` folder exists in `gh-pages` and deployment is accessible **+2**
-- At least 5 commits in history **+6**
-- Commits follow the naming convention and each includes a timestamp **+10**
+- PR is open from `gh-pages` into `main` and not merged **+5**
+- `cssMemeSlider` folder exists in `gh-pages` and deployment is accessible **+5**
+- At least 5 commits in history **+5**
+- Commits follow the naming convention and each includes a timestamp **+5**
 - PR link was submitted **+5**
 - PR description follows the schema and lists all tested resolutions **+5**
 
-### Layout
+### Layout (10 points)
 
-- Slider is centered with equal margins on both sides **+10**
-- Correct layout of images, captions, and controls (matches design) **+10**
+- Slider is centered with equal margins on both sides **+5**
+- Correct layout of images, captions, and controls (matches design) **+5**
 
-### Animations
+### Animations (20 points)
 
-- Smooth animated transition between images **+20**
-- Smooth animated transition between captions **+10**
+- Smooth animated transition between images **+15**
+- Smooth animated transition between captions **+5**
 
-### Content & Interaction
+### Content & Interaction (15 points)
 
-- Captions are plain text strings (not part of the image) **+15**
+- Captions are plain text strings (not part of the image) **+5**
 - Each control has a clickable area larger than the control itself **+5**
-- Controls have interactive states: hover, active, active slide indicator, cursor change **+10**
+- Controls have interactive states: hover, active, active slide indicator, cursor change **+5**
 
-### Responsive Design
+### Responsive Design (10 points)
 
-- Mobile version is present and layout of images, captions, and controls is correct **+20**
+- Mobile version is present and layout of images, captions, and controls is correct **+10**
 
-### Code Quality
+### Code Quality (15 points)
 
-- Only relative units used; slider is fluid across screen sizes **+10**
+- Only relative units used; slider is fluid across screen sizes **+5**
 - All slider components in normal document flow; `position` is `static` only; no `float` **+5**
 - No CSS pseudo-elements (pseudo-classes are fine) **+5**
 

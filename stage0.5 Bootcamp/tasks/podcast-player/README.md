@@ -143,7 +143,7 @@ _Covers user stories 7, 8._
 
 ## Submission
 
-1. Work in the school's private repository.
+1. Work in a **public repository on your personal GitHub account** (named `podcast-player` or similar).
 2. From the `main` branch, create a `podcast-player` branch and place your project files there.
 3. Complete the task.
 4. Deploy your work to `gh-pages`.
@@ -161,18 +161,18 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 ## Scoring Criteria
 
-**Maximum score: 150 points**
+**Maximum score: 140 points**
 
 ### Section 1 — Landing page and search (40 points)
 
-- The landing page loads and renders a list of recent podcasts fetched from the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) **+10**
+- The landing page loads and renders a list of recent podcasts fetched from the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) **+5**
 - Each podcast tile shows at least: cover image, title, author/feed name **+5**
 - Pagination or infinite scroll loads additional podcasts beyond the initial batch **+5**
-- A search input is present on the landing page **+3**
-- When the search input is empty, recent feeds are shown **+3**
-- When the search input has a value, results come from the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm) **+7**
+- A search input is present on the landing page **+5**
+- When the search input is empty, recent feeds are shown **+5**
+- When the search input has a value, results come from the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm) **+5**
 - Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
-- A loading indicator is shown while a request is in flight **+2**
+- A loading indicator is shown while a request is in flight **+5**
 
 ### Section 2 — Podcast details page (25 points)
 
@@ -181,29 +181,29 @@ The reviewer goes through every scoring criterion and awards the listed points o
 - Each episode item shows at least: title, publication date, duration **+5**
 - An in-app control returns the user to the landing page without using the browser's "Back" button **+5**
 
-### Section 3 — Podcast player (50 points)
+### Section 3 — Podcast player (45 points)
 
-- Selecting an episode starts playback in the player **+8**
-- The player has a working Play / Pause toggle button **+6**
-- The player shows current time and total time (or remaining time) **+6**
-- The player has a progress bar that updates as the audio plays **+6**
-- Clicking the progress bar seeks the audio to the clicked position **+8**
-- The player stays visible on screen during navigation between pages **+8**
-- The user can use search (Section 1) and browse episode lists (Section 2) while audio continues playing without interruption **+4**
-- Selecting a different episode replaces the current stream with the new one (no double-playback) **+4**
+- Selecting an episode starts playback in the player **+5**
+- The player has a working Play / Pause toggle button **+5**
+- The player shows current time and total time (or remaining time) **+5**
+- The player has a progress bar that updates as the audio plays **+5**
+- Clicking the progress bar seeks the audio to the clicked position **+10**
+- The player stays visible on screen during navigation between pages **+5**
+- The user can use search (Section 1) and browse episode lists (Section 2) while audio continues playing without interruption **+5**
+- Selecting a different episode replaces the current stream with the new one (no double-playback) **+5**
 
-### Section 4 — Memory and playlist (35 points)
+### Section 4 — Memory and playlist (30 points)
 
 - A playlist page exists and is reachable from the app's navigation **+5**
-- The user can add an episode to the playlist from the details page or the player **+6**
+- The user can add an episode to the playlist from the details page or the player **+5**
 - The user can remove an episode from the playlist **+5**
-- The playlist contents persist across page reloads (stored in `localStorage`) **+8**
+- The playlist contents persist across page reloads (stored in `localStorage`) **+5**
 - The playback position of the currently playing episode is stored in `localStorage` **+5**
-- When the user returns to a previously listened episode, playback resumes from roughly 10 seconds before the last saved position **+6**
+- When the user returns to a previously listened episode, playback resumes from roughly 10 seconds before the last saved position **+5**
 
 ### Penalties
 
-- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-150**
+- A UI framework (React, Vue, Angular, Svelte, etc.) is used **-140**
 - Page transitions cause full reloads (not an SPA) **-20**
 - API Key or API Secret is hardcoded into a committed file in plain text **-15**
 - Console errors during normal use **-10**

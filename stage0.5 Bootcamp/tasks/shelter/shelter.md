@@ -46,9 +46,9 @@ The task is split into three parts, each lasting one week and reviewed via cross
 
 ## Repository Setup
 
-- Work in the school's private repository.
+- Work in a **public repository on your personal GitHub account**, named `shelter` (or any name you prefer).
 - Create a `shelter` branch from `main`. Inside it, create a `shelter` folder for your project files.
-- For deployment, use `gh-pages`.
+- For deployment, use `gh-pages` — public repos get free GitHub Pages hosting out of the box.
 - Since the task has three parts, the branch workflow is:
   1. Part 1 goes in the `shelter` branch.
   2. For Part 2, create `shelter-part2` from `shelter` — this lets you continue from where you left off. When done, merge `shelter-part2` into `shelter`.
