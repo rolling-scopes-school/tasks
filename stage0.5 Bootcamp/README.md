@@ -88,7 +88,9 @@ Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
 
 ### Where does communication happen?
 
-In the Discord chat - https://discord.gg/2Ww3TCBvz4
+In the Discord chat
+[EN Discord](https://discord.gg/v64VsHqBeD)
+[RU Discord](https://discord.gg/HrDGMtQ3eH)
 
 ### Does the city of residence matter? Can I complete the course entirely online?
 
