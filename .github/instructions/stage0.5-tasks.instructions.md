@@ -1,9 +1,9 @@
----
+﻿---
 description: "Use when editing, reviewing, or adapting any task in stage0.5 Bootcamp. Contains requirements for task structure, formatting, tone, scoring, and cross-check criteria."
 applyTo: "stage0.5 Bootcamp/**"
 ---
 
-# Stage 0.5 Bootcamp — Task Authoring Guidelines
+# Stage 0.5 Bootcamp - Task Authoring Guidelines
 
 These rules apply to every task file inside `stage0.5 Bootcamp/tasks/`. When adapting a task from another stage, always bring it in line with all sections below before considering it done.
 
@@ -12,7 +12,7 @@ These rules apply to every task file inside `stage0.5 Bootcamp/tasks/`. When ada
 ## 1. Language
 
 - **All task files must be written in English.**
-- If the original task is in Russian or mixed language, translate everything — headings, descriptions, criteria, notes, and comments.
+- If the original task is in Russian or mixed language, translate everything - headings, descriptions, criteria, notes, and comments.
 - Keep technical terms as-is (e.g. `flexbox`, `async/await`, `cross-check`).
 
 ---
@@ -78,13 +78,13 @@ See Section 3 below.
 
 A `## Learning Resources` section at the **very end** of the file.
 List links to documentation, articles, or videos that cover the skills needed.
-Each link must be a working URL — verify before saving.
+Each link must be a working URL - verify before saving.
 
 ```markdown
 ## Learning Resources
 
-- [CSS Animations — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations)
-- [CSS Transforms — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [CSS Animations - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations)
+- [CSS Transforms - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 ```
 
 ---
@@ -103,9 +103,9 @@ Examples:
 - `https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/js30/js30.md`
 - `https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md#project-stages` (all three Shelter parts share one overview file; link to the `#project-stages` anchor)
 
-**Exception — tasks whose actual assignment lives in a different repository** (e.g. HTML Builder, whose starter code and detailed spec are hosted at `https://github.com/mikhama/html-builder`). In that case the README inside `stage0.5 Bootcamp/tasks/` is a thin wrapper: it states the scoring criteria and links out to the external repo for the full spec. The curriculum link still points to the wrapper README at the pattern above.
+**Exception - tasks whose actual assignment lives in a different repository** (e.g. HTML Builder, whose starter code and detailed spec are hosted at `https://github.com/mikhama/html-builder`). In that case the README inside `stage0.5 Bootcamp/tasks/` is a thin wrapper: it states the scoring criteria and links out to the external repo for the full spec. The curriculum link still points to the wrapper README at the pattern above.
 
-Do **not** use `tree/master` URLs — they render the folder browser, not the file content.
+Do **not** use `tree/master` URLs - they render the folder browser, not the file content.
 
 ---
 
@@ -172,7 +172,7 @@ When copying a task from another stage, always strip or rewrite the following:
 
 ## 6. Examples
 
-### Skills block — correct
+### Skills block - correct
 
 ```markdown
 ## Skills
@@ -180,23 +180,23 @@ When copying a task from another stage, always strip or rewrite the following:
 `CSS Grid` `media queries` `BEM` `responsive design`
 ```
 
-### Scoring criterion — correct
+### Scoring criterion - correct
 
 ```markdown
 - Mobile layout matches the design at 768px breakpoint **+15**
 ```
 
-### Scoring criterion — incorrect (no point value, vague)
+### Scoring criterion - incorrect (no point value, vague)
 
 ```markdown
 - The layout looks good on mobile
 ```
 
-### Learning Resources — correct
+### Learning Resources - correct
 
 ```markdown
 ## Learning Resources
 
-- [CSS Grid — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
-- [A Complete Guide to Grid — CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Grid - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [A Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 ```

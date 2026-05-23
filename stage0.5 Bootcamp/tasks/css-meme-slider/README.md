@@ -1,4 +1,4 @@
-# CSS Meme Slider
+﻿# CSS Meme Slider
 
 ## Skills
 
@@ -6,7 +6,7 @@
 
 ## Task Description
 
-Build a slider using pure HTML and CSS — **no JavaScript allowed**. The slider must display a set of meme images with captions and navigation controls, work on both desktop and mobile, and use smooth CSS animations for slide transitions.
+Build a slider using pure HTML and CSS - **no JavaScript allowed**. The slider must display a set of meme images with captions and navigation controls, work on both desktop and mobile, and use smooth CSS animations for slide transitions.
 
 Desktop preview:
 
@@ -31,9 +31,9 @@ Mobile preview:
 
 ### Functionality
 
-- Clicking a control triggers a smooth animated transition between images (e.g. slide, fade, scroll — any smooth CSS animation)
+- Clicking a control triggers a smooth animated transition between images (e.g. slide, fade, scroll - any smooth CSS animation)
 - Clicking a control triggers a smooth animated transition between captions
-- Captions must be plain text strings — not embedded in the image
+- Captions must be plain text strings - not embedded in the image
 - Each control has a clickable area larger than the visual size of the control itself
 - Controls have interactive states: hover, active (pressed), active slide indicator, cursor change
 
@@ -41,13 +41,13 @@ Controls effects example:
 
 <kbd>![screenshot](assets/controlsEffects.gif)</kbd>
 
-> The yellow circle in the preview is a screen recorder's mouse indicator — you do not need to implement or score it.
+> The yellow circle in the preview is a screen recorder's mouse indicator - you do not need to implement or score it.
 
 ### Technical Restrictions
 
 - No CSS frameworks (Bootstrap, Foundation, etc.)
 - No JavaScript or npm packages
-- No CSS preprocessors — plain CSS only
+- No CSS preprocessors - plain CSS only
 - Target browser: Google Chrome
 - `px` units are only allowed inside media query breakpoints; use relative units everywhere else (`rem`, `em`, `%`, `vh`, `vw`, `fr`, etc.)
 - `reset.css` and `normalize.css` are allowed
@@ -133,20 +133,20 @@ This task is reviewed via the [cross-check process](https://rs.school/docs/cross
 
 ---
 
-> **Design freedom:** Block sizes, fonts, slider content, and visual design are up to the developer. Significant deviations are acceptable — scoring focuses on layout structure and technical requirements, not pixel-perfect design.
+> **Design freedom:** Block sizes, fonts, slider content, and visual design are up to the developer. Significant deviations are acceptable - scoring focuses on layout structure and technical requirements, not pixel-perfect design.
 >
 > **Review resolutions:** Mobile version is checked at a minimum width of **500px**. Desktop version is checked at **1024px**.
 >
-> **Meme selection** is up to you — at least 4 memes recommended.
+> **Meme selection** is up to you - at least 4 memes recommended.
 
 ## Learning Resources
 
-- [CSS Animations — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations)
-- [CSS Transitions — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions)
-- [CSS Transform — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
-- [CSS @keyframes — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
-- [A Complete Guide to Flexbox — CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [A Complete Guide to Grid — CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [Using Media Queries — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
-- [Responsive Design — web.dev](https://web.dev/learn/design/)
-- [CSS Pseudo-classes — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+- [CSS Animations - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations)
+- [CSS Transitions - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions)
+- [CSS Transform - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [CSS @keyframes - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+- [A Complete Guide to Flexbox - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [A Complete Guide to Grid - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Using Media Queries - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+- [Responsive Design - web.dev](https://web.dev/learn/design/)
+- [CSS Pseudo-classes - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)

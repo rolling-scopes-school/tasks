@@ -1,4 +1,4 @@
-# Podcast Player
+﻿# Podcast Player
 
 ## Skills
 
@@ -6,7 +6,7 @@
 
 ## Task Description
 
-A podcast player is an app for playing podcasts — audio recordings that are typically part of a series focused on a specific topic. Popular podcast players include:
+A podcast player is an app for playing podcasts - audio recordings that are typically part of a series focused on a specific topic. Popular podcast players include:
 
 - [Apple Podcasts](https://www.apple.com/apple-podcasts/)
 - [Spotify](https://open.spotify.com/genre/podcasts-web)
@@ -27,7 +27,7 @@ The task is split into four sections. Each section builds on the previous ones.
 
 ## Requirements
 
-### Section 1 — Landing page and search
+### Section 1 - Landing page and search
 
 _Covers user stories 1, 2._
 
@@ -96,11 +96,11 @@ _Covers user stories 1, 2._
    - When the input has a value, use the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm).
    - Search requests must **not** fire on every keystroke. Use [debouncing or throttling](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript) to limit the number of API calls.
 
-### Section 2 — Podcast details page
+### Section 2 - Podcast details page
 
 _Covers user story 3._
 
-1. Clicking a tile on the landing/search page navigates to a page that lists episodes for that podcast. Layout is up to you — examples for reference:
+1. Clicking a tile on the landing/search page navigates to a page that lists episodes for that podcast. Layout is up to you - examples for reference:
 
    Apple details
    ![Apple Details](assets/details/apple_details.png)
@@ -111,7 +111,7 @@ _Covers user story 3._
 2. To load episodes: use the `url` field from the [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) response, fetch that XML feed, parse it, and render episodes from the parsed result.
 3. The user must be able to return to the landing page without using the browser's "Back" button (provide an in-app navigation control).
 
-### Section 3 — Podcast player
+### Section 3 - Podcast player
 
 _Covers user stories 4, 5, 6._
 
@@ -124,11 +124,11 @@ _Covers user stories 4, 5, 6._
    - The user can search podcasts (Section 1) and browse episodes (Section 2) while the current episode is playing.
    - Selecting another episode replaces the current stream with the new one.
 
-### Section 4 — Memory and playlist
+### Section 4 - Memory and playlist
 
 _Covers user stories 7, 8._
 
-1. Add a playlist page that lists user-added episodes. Layout is up to you — match the style of the rest of the app.
+1. Add a playlist page that lists user-added episodes. Layout is up to you - match the style of the rest of the app.
 2. Store the playlist state in `localStorage`.
 3. The user can add and remove episodes to/from the playlist.
 4. The behavior of the playlist when the user starts a new episode is up to you (e.g. auto-advance, manual selection).
@@ -136,8 +136,8 @@ _Covers user stories 7, 8._
 
 ### Technical requirements
 
-1. **Vanilla JavaScript or TypeScript only** — no UI frameworks (React, Vue, Angular, etc.).
-2. The app must be a Single Page Application — page transitions happen without full reloads.
+1. **Vanilla JavaScript or TypeScript only** - no UI frameworks (React, Vue, Angular, etc.).
+2. The app must be a Single Page Application - page transitions happen without full reloads.
 3. No console errors during normal use.
 4. The app must work in the latest version of Chrome.
 
@@ -151,7 +151,7 @@ _Covers user stories 7, 8._
 6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 7. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
 
-> **Note on API keys.** You will be deploying a public site that uses your Podcast Index API Key and Secret. These credentials grant access only to the Podcast Index API and have no billing impact, but treat them as personal — do not reuse them outside this project, and rotate them after the task if you wish.
+> **Note on API keys.** You will be deploying a public site that uses your Podcast Index API Key and Secret. These credentials grant access only to the Podcast Index API and have no billing impact, but treat them as personal - do not reuse them outside this project, and rotate them after the task if you wish.
 
 ## Cross-check
 
@@ -163,7 +163,7 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 **Maximum score: 140 points**
 
-### Section 1 — Landing page and search (40 points)
+### Section 1 - Landing page and search (40 points)
 
 - The landing page loads and renders a list of recent podcasts fetched from the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) **+5**
 - Each podcast tile shows at least: cover image, title, author/feed name **+5**
@@ -174,14 +174,14 @@ The reviewer goes through every scoring criterion and awards the listed points o
 - Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
 - A loading indicator is shown while a request is in flight **+5**
 
-### Section 2 — Podcast details page (25 points)
+### Section 2 - Podcast details page (25 points)
 
 - Clicking a podcast tile navigates to a details page for that podcast **+5**
 - The details page lists episodes parsed from the feed XML obtained via [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) **+10**
 - Each episode item shows at least: title, publication date, duration **+5**
 - An in-app control returns the user to the landing page without using the browser's "Back" button **+5**
 
-### Section 3 — Podcast player (45 points)
+### Section 3 - Podcast player (45 points)
 
 - Selecting an episode starts playback in the player **+5**
 - The player has a working Play / Pause toggle button **+5**
@@ -192,7 +192,7 @@ The reviewer goes through every scoring criterion and awards the listed points o
 - The user can use search (Section 1) and browse episode lists (Section 2) while audio continues playing without interruption **+5**
 - Selecting a different episode replaces the current stream with the new one (no double-playback) **+5**
 
-### Section 4 — Memory and playlist (30 points)
+### Section 4 - Memory and playlist (30 points)
 
 - A playlist page exists and is reachable from the app's navigation **+5**
 - The user can add an episode to the playlist from the details page or the player **+5**
@@ -212,12 +212,12 @@ The reviewer goes through every scoring criterion and awards the listed points o
 ## Learning Resources
 
 - [Podcast Index API documentation](https://podcastindex-org.github.io/docs-api/)
-- [Fetch API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [Web Crypto: `SubtleCrypto.digest()` — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest)
-- [Debouncing and Throttling in JavaScript — Telerik](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
-- [HTMLAudioElement — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
-- [Using the HTML5 Audio API — MDN](https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery)
-- [DOMParser (parsing XML) — MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
-- [Window.localStorage — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-- [Building a Single Page Application without a framework — DEV](https://dev.to/maxime1992/single-page-application-without-a-framework-31o)
+- [Fetch API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Web Crypto: `SubtleCrypto.digest()` - MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest)
+- [Debouncing and Throttling in JavaScript - Telerik](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+- [HTMLAudioElement - MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
+- [Using the HTML5 Audio API - MDN](https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery)
+- [DOMParser (parsing XML) - MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
+- [Window.localStorage - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [Building a Single Page Application without a framework - DEV](https://dev.to/maxime1992/single-page-application-without-a-framework-31o)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
