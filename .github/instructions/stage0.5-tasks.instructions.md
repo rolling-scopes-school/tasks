@@ -89,6 +89,26 @@ Each link must be a working URL — verify before saving.
 
 ---
 
+## 4. Task Link Pattern
+
+When linking to a task from the curriculum schedule or any other file, use the canonical GitHub blob URL pattern:
+
+```
+https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/<task-folder>/<file>.md
+```
+
+Examples:
+
+- `https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/css-meme-slider/README.md`
+- `https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/js30/js30.md`
+- `https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md#project-stages` (all three Shelter parts share one overview file; link to the `#project-stages` anchor)
+
+**Exception — tasks whose actual assignment lives in a different repository** (e.g. HTML Builder, whose starter code and detailed spec are hosted at `https://github.com/mikhama/html-builder`). In that case the README inside `stage0.5 Bootcamp/tasks/` is a thin wrapper: it states the scoring criteria and links out to the external repo for the full spec. The curriculum link still points to the wrapper README at the pattern above.
+
+Do **not** use `tree/master` URLs — they render the folder browser, not the file content.
+
+---
+
 ## 3. Scoring Criteria
 
 - Every task must have a `## Scoring Criteria` section.
