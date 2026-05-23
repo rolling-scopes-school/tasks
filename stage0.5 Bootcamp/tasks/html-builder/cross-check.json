@@ -1,0 +1,154 @@
+{
+  "taskName": "HTML Builder",
+  "criteria": [
+    { "type": "title", "title": "01 - Read a file" },
+    {
+      "type": "subtask",
+      "text": "Running 'node 01-read-file' from the repository root prints the contents of 01-read-file/text.txt to the console",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "File reading is implemented with ReadStream; no synchronous fs calls are used",
+      "max": 20
+    },
+
+    { "type": "title", "title": "02 - Write console input to file" },
+    {
+      "type": "subtask",
+      "text": "Running 'node 02-write-file' creates a file inside 02-write-file/ and prints a prompt",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Each line entered by the user is appended to that file (previous content is preserved)",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "The process keeps waiting for further input after each write",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Typing 'exit' prints a farewell message and terminates the process",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Pressing Ctrl + C prints a farewell message and terminates the process",
+      "max": 10
+    },
+
+    { "type": "title", "title": "03 - Files in folder" },
+    {
+      "type": "subtask",
+      "text": "Running 'node 03-files-in-folder' lists files from 03-files-in-folder/secret-folder to the console",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Each line is formatted as '<file name> - <extension> - <size>'",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Subdirectories are not listed; only files directly inside secret-folder appear",
+      "max": 15
+    },
+
+    { "type": "title", "title": "04 - Copy a directory" },
+    {
+      "type": "subtask",
+      "text": "After running 'node 04-copy-directory', the files-copy folder exists and exactly mirrors the contents of files",
+      "max": 30
+    },
+    {
+      "type": "subtask",
+      "text": "Rerunning the script after files are added/modified inside 'files' updates 'files-copy' accordingly",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Rerunning the script after files are removed from 'files' also removes them from 'files-copy'",
+      "max": 20
+    },
+
+    { "type": "title", "title": "05 - Merge styles" },
+    {
+      "type": "subtask",
+      "text": "After running 'node 05-merge-styles', project-dist/bundle.css exists and contains the concatenated contents of every .css file inside 'styles'",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Files with extensions other than .css and any subdirectories inside 'styles' are ignored",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Rerunning the script overwrites bundle.css with the up-to-date content of 'styles'",
+      "max": 15
+    },
+
+    { "type": "title", "title": "06 - Build page (final)" },
+    {
+      "type": "subtask",
+      "text": "After running 'node 06-build-page', the project-dist folder is created and contains index.html, style.css, and an assets/ folder",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "index.html is built by substituting every {{component-name}} tag in template.html with the contents of components/<component-name>.html",
+      "max": 35
+    },
+    {
+      "type": "subtask",
+      "text": "style.css is a bundle of all .css files from the 'styles' folder",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "assets/ is an exact copy of 06-build-page/assets/",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "The original template.html is not modified by the script",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Two template tags written on the same line separated only by spaces (e.g. '{{about}} {{articles}}') are processed as separate components without errors",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Rerunning the script after a new component is added to components/ and its tag is added to template.html correctly updates project-dist/index.html. Changes inside styles/ and assets/ are also picked up",
+      "max": 20
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "A third-party module is used in any subtask",
+      "max": -390
+    },
+    {
+      "type": "penalty",
+      "text": "A synchronous fs function is used in any subtask (per subtask, up to -240)",
+      "max": -40
+    },
+    { "type": "penalty", "text": "setTimeout() is used", "max": -30 },
+    {
+      "type": "penalty",
+      "text": "fsPromises.cp() is used in task 04 or task 06 (per subtask)",
+      "max": -40
+    },
+    {
+      "type": "penalty",
+      "text": "The repository is not publicly accessible at the time of cross-check",
+      "max": -390
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "taskName": "Podcast Player",
+  "criteria": [
+    { "type": "title", "title": "Section 1 - Landing page and search" },
+    {
+      "type": "subtask",
+      "text": "Landing page loads and renders a list of recent podcasts fetched from the Recent Feeds API",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Each podcast tile shows at least: cover image, title, author/feed name",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Pagination or infinite scroll loads additional podcasts beyond the initial batch",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "A search input is present on the landing page",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "When the search input is empty, recent feeds are shown",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "When the search input has a value, results come from the Search Podcasts API",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Search requests are debounced or throttled (verified in DevTools while typing)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "A loading indicator is shown while a request is in flight",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Section 2 - Podcast details page" },
+    {
+      "type": "subtask",
+      "text": "Clicking a podcast tile navigates to a details page for that podcast",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Details page lists episodes parsed from the feed XML obtained via By Feed ID API",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Each episode item shows at least: title, publication date, duration",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "An in-app control returns the user to the landing page without using the browser's Back button",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Section 3 - Podcast player" },
+    {
+      "type": "subtask",
+      "text": "Selecting an episode starts playback in the player",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Player has a working Play / Pause toggle button",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Player shows current time and total time (or remaining time)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Player has a progress bar that updates as the audio plays",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Clicking the progress bar seeks the audio to the clicked position",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Player stays visible on screen during navigation between pages",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "User can use search and browse episode lists while audio continues playing without interruption",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Selecting a different episode replaces the current stream with the new one (no double-playback)",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Section 4 - Memory and playlist" },
+    {
+      "type": "subtask",
+      "text": "A playlist page exists and is reachable from the app's navigation",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "User can add an episode to the playlist from the details page or the player",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "User can remove an episode from the playlist",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Playlist contents persist across page reloads (stored in localStorage)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Playback position of the currently playing episode is stored in localStorage",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "When the user returns to a previously listened episode, playback resumes from roughly 10 seconds before the last saved position",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "A UI framework (React, Vue, Angular, Svelte, etc.) is used",
+      "max": -140
+    },
+    {
+      "type": "penalty",
+      "text": "Page transitions cause full reloads (not an SPA)",
+      "max": -20
+    },
+    {
+      "type": "penalty",
+      "text": "API Key or API Secret is hardcoded in a committed file in plain text",
+      "max": -15
+    },
+    {
+      "type": "penalty",
+      "text": "Console errors during normal use",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "Layout is visibly broken on the latest Chrome at a 1280px viewport",
+      "max": -10
+    }
+  ]
+}

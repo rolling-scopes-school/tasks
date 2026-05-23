@@ -1,4 +1,4 @@
-# Not Fight Club
+﻿# Not Fight Club
 
 ## Skills
 
@@ -12,34 +12,34 @@ Build a turn-based browser fighting game with customizable player, opponent pool
 
 The game is inspired by the combat mechanics of the old browser game "Fight Club" (Бойцовский клуб). A complete project lets the player create a character, pick an avatar, and fight battles against a pool of opponents.
 
-The ceiling is your imagination — the list below is the **required** functionality and how points are awarded for it.
+The ceiling is your imagination - the list below is the **required** functionality and how points are awarded for it.
 
 > The demo uses client-side routing. **Routing is not required** for this task.
 
 ## Requirements
 
-The project consists of several screens and a battle system. The full list of required features is described in the [Scoring Criteria](#scoring-criteria) section below — each feature there is also a requirement.
+The project consists of several screens and a battle system. The full list of required features is described in the [Scoring Criteria](#scoring-criteria) section below - each feature there is also a requirement.
 
 ### Screens overview
 
-1. **Registration screen** — single input for the player's name.
+1. **Registration screen** - single input for the player's name.
 
    ![Registration](https://github.com/user-attachments/assets/04a96b9d-addb-4b56-93cc-7e8fe9f0426b)
 
-2. **Home screen** — start button that creates a new battle.
+2. **Home screen** - start button that creates a new battle.
 
    ![Home](https://github.com/user-attachments/assets/008d3f4b-8b0b-4c31-8149-8ceae774e7c7)
 
-3. **Character page** — avatar, name, win/loss record, ability to change the avatar.
+3. **Character page** - avatar, name, win/loss record, ability to change the avatar.
 
    ![Character](https://github.com/user-attachments/assets/96a6f81e-a599-49eb-bfd0-521bebc4bbfa)
    ![Avatar picker](https://github.com/user-attachments/assets/0e4bf010-7a9d-4088-8e7d-2805185843f5)
 
-4. **Settings page** — change the player's name.
+4. **Settings page** - change the player's name.
 
    ![Settings](https://github.com/user-attachments/assets/7fff3b64-1b5e-4b0d-9ceb-3be53284a0f2)
 
-5. **Battle page** — the core gameplay: player vs. opponent, health bars, attack/defense selection, battle log.
+5. **Battle page** - the core gameplay: player vs. opponent, health bars, attack/defense selection, battle log.
 
    ![Battle](https://github.com/user-attachments/assets/b5ef4a0b-db51-4382-98e9-3939c7351ac0)
 
@@ -48,11 +48,11 @@ The project consists of several screens and a battle system. The full list of re
 - The game has a set of **attack zones** and **defense zones** (e.g. head, body, legs).
 - Each turn the **player** picks **one** zone to attack and **two** zones to defend. Until the player picks the correct number of zones, the game must prevent them from attacking (e.g. the attack button stays disabled).
 - After the player confirms, both sides exchange blows simultaneously.
-- Each **opponent** has its own attack/defense profile. The demo, for example, has 3 opponents — a spider that attacks two zones and blocks one, a troll that attacks one zone and blocks three, and so on. Your opponent pool must include **at least 2 opponents with different profiles**.
+- Each **opponent** has its own attack/defense profile. The demo, for example, has 3 opponents - a spider that attacks two zones and blocks one, a troll that attacks one zone and blocks three, and so on. Your opponent pool must include **at least 2 opponents with different profiles**.
 - The opponent's choices each turn are **random** within its profile. Random zones must not repeat within the same turn (e.g. the spider can't attack the legs twice in one turn).
-- Damage is dealt only where attack zones do **not** overlap defense zones. If the player attacked the head and the opponent blocked the head — no damage. The same applies the other way around.
+- Damage is dealt only where attack zones do **not** overlap defense zones. If the player attacked the head and the opponent blocked the head - no damage. The same applies the other way around.
 - After the exchange, each side's health is reduced by the unblocked damage they received.
-- **Critical hits**: both player and opponent have a chance to land a critical hit. A critical hit deals extra damage (the demo uses ×1.5). A critical hit also breaks through a block — if the target was defending the zone, the hit still lands and deals critical damage.
+- **Critical hits**: both player and opponent have a chance to land a critical hit. A critical hit deals extra damage (the demo uses ×1.5). A critical hit also breaks through a block - if the target was defending the zone, the hit still lands and deals critical damage.
 - **Balance rule**: every fighter's HP must be **at least 3× their base damage**, so that no fight can end in one turn.
 
 ### Battle log
@@ -116,12 +116,12 @@ The reviewer plays through the deployed app and awards points only for features 
 
 - The page shows the player and the opponent with interactive HP bars that update according to the battle logic **+35**
 - When a battle is created, the opponent is picked from a predefined pool of at least 2 opponents with different attack/defense profiles **+10**
-- Full working battle mechanics per the [Battle mechanics](#battle-mechanics) section — zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn **+25**
+- Full working battle mechanics per the [Battle mechanics](#battle-mechanics) section - zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn **+25**
 - Critical hits are implemented: a random chance to deal extra damage; a critical hit also breaks through a block **+10**
 - A battle log shows every action of every turn with the required fields (**WHO**, **WHOM**, **WHERE**, **HOW MUCH**) **+85**
 - Log entries visually highlight key pieces of information (different styles for names, zones, damage values), as shown in the demo **+10**
 
-### 6. Bonus — full persistence (30 points)
+### 6. Bonus - full persistence (30 points)
 
 - All game data is persisted, so that after a page reload the player can continue with the same character, keep their win/loss record, **and** resume an in-progress battle in the exact same state (HP, current turn, log) **+30**
 
@@ -133,10 +133,10 @@ The reviewer plays through the deployed app and awards points only for features 
 
 ## Learning Resources
 
-- [JavaScript DOM — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-- [Introduction to Events — MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-- [Window.localStorage — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-- [`Math.random()` — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
-- [Game Programming Patterns — Robert Nystrom (free online book)](https://gameprogrammingpatterns.com/)
-- [Designing Turn-Based Combat — Game Developer](https://www.gamedeveloper.com/design/designing-turn-based-combat)
-- [State Management in Vanilla JS — DEV](https://dev.to/jacobwicks/simple-state-management-in-vanilla-javascript-3e29)
+- [JavaScript DOM - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [Introduction to Events - MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [Window.localStorage - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [`Math.random()` - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Game Programming Patterns - Robert Nystrom (free online book)](https://gameprogrammingpatterns.com/)
+- [Designing Turn-Based Combat - Game Developer](https://www.gamedeveloper.com/design/designing-turn-based-combat)
+- [State Management in Vanilla JS - DEV](https://dev.to/jacobwicks/simple-state-management-in-vanilla-javascript-3e29)

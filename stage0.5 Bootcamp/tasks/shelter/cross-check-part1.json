@@ -1,0 +1,102 @@
+{
+  "taskName": "Shelter: Part 1 - Fixed Layout",
+  "criteria": [
+    { "type": "title", "title": "Main page - Markup validation" },
+    {
+      "type": "subtask",
+      "text": "Markup is valid per validator.w3.org (no errors = full points; warnings only = half)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Header logo is built from text elements, the page contains exactly one <h1>, and a favicon is added",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Main page - Layout matches the design" },
+    { "type": "subtask", "text": "<header> block", "max": 5 },
+    { "type": "subtask", "text": "Not only block", "max": 5 },
+    { "type": "subtask", "text": "About block", "max": 5 },
+    { "type": "subtask", "text": "Our Friends block", "max": 5 },
+    { "type": "subtask", "text": "Help block", "max": 5 },
+    { "type": "subtask", "text": "In addition block", "max": 5 },
+    { "type": "subtask", "text": "<footer> block", "max": 5 },
+
+    { "type": "title", "title": "Main page - CSS requirements" },
+    {
+      "type": "subtask",
+      "text": "Help block is positioned using a grid layout (flexbox or grid)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Layout stays centered when zooming out or widening the window (>1280px); no shift, no full-width stretch",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Background color stretches across the full page width",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Main page - Interactivity" },
+    {
+      "type": "subtask",
+      "text": "About the Shelter nav item is highlighted and non-interactive; other items are interactive; smooth anchor scrolling works; all page links behave per spec",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Pet cards in Our Friends are interactive across the whole card; links/buttons have hover/active styling beyond cursor: pointer; visual changes are smooth and do not affect neighbors",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Pets page - Markup validation" },
+    {
+      "type": "subtask",
+      "text": "Markup is valid per validator.w3.org (same rules as Main)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Header logo is built from text elements, the page contains exactly one <h1>, and a favicon is added",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Pets page - Layout matches the design" },
+    { "type": "subtask", "text": "<header> block", "max": 5 },
+    { "type": "subtask", "text": "Our Friends block", "max": 5 },
+    { "type": "subtask", "text": "<footer> block", "max": 5 },
+
+    { "type": "title", "title": "Pets page - CSS requirements" },
+    {
+      "type": "subtask",
+      "text": "Layout stays centered when zooming out or widening (>1280px) and the background color stretches across the full page width",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Pets page - Interactivity" },
+    {
+      "type": "subtask",
+      "text": "Our pets nav item is highlighted and non-interactive; other items are interactive; pagination buttons show correct enabled/disabled state; smooth anchor scrolling works; links behave per spec",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Pet cards in Our Friends are interactive across the whole card; links/buttons have hover/active styling beyond cursor: pointer; smooth visual changes that do not affect neighbors",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "Layout (full design or individual blocks) implemented as a screenshot",
+      "max": -100
+    },
+    {
+      "type": "penalty",
+      "text": "Forbidden frameworks, libraries, or tools are used",
+      "max": -100
+    }
+  ]
+}

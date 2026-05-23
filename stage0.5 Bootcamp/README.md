@@ -1,6 +1,6 @@
-# RS School. JS/Frontend Summer Bootcamp
+﻿# RS School. JS/Frontend Summer Bootcamp
 
-Keep your skills alive over the summer with a hands-on JavaScript course built entirely around doing — not reading. Every session is a real coding challenge. No tests, no theory modules, only practice and cross-checks
+Keep your skills alive over the summer with a hands-on JavaScript course built entirely around doing - not reading. Every session is a real coding challenge. No tests, no theory modules, only practice and cross-checks
 
 Designed for those who want to stay in shape and hit the ground running when the main course kicks off in the fall.
 
@@ -14,67 +14,67 @@ Designed for those who want to stay in shape and hit the ground running when the
 
 ### Week #1
 
-- [CSS Meme Slider](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-meme-slider)
+- [CSS Meme Slider](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/css-meme-slider/README.md)
 
 ### Week #2
 
-- [Shelter: Part 1](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part1.md)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [CSS Meme Slider](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-meme-slider)
+- [Shelter: Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [CSS Meme Slider](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/css-meme-slider/README.md)
 
 ### Week #3
 
-- [Shelter: Part 2](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part2.md)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 1](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part1.md)
+- [Shelter: Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
 
 ### Week #4
 
-- [Shelter: Part 3](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part3.md)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 2](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part2.md)
+- [Shelter: Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
 
 ### Week #5
 
-- [JS 30](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/js30/js30.md)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 3](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/shelter/shelter-part3.md)
+- [JS 30](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/js30/js30.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Shelter: Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/shelter/shelter.md)
 
 ### Week #6
 
-- [Podcast Player](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/podcast-player)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [JS 30](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/js30/js30.md)
+- [Podcast Player](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/podcast-player/README.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [JS 30](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/js30/js30.md)
 
 ### Week #7
 
-- [Not Fight Club](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/notFightClub)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Podcast Player](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/podcast-player)
+- [Not Fight Club](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/notFightClub/README.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Podcast Player](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/podcast-player/README.md)
 
 ### Week #8
 
-- Continue work on [Not Fight Club](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/notFightClub)
+- Continue work on [Not Fight Club](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/notFightClub/README.md)
 
 ### Week #9
 
-- [HTML Builder](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/html-builder)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Not Fight Club](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/notFightClub)
+- [HTML Builder](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/html-builder/README.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Not Fight Club](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/notFightClub/README.md)
 
 ### Week #10
 
-- Continue work on [HTML Builder](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/html-builder)
+- Continue work on [HTML Builder](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/html-builder/README.md)
 
 ### Week #11
 
-- [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/tasks/async-race/README.md)
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [HTML Builder](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/html-builder)
+- [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/async-race/README.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [HTML Builder](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/html-builder/README.md)
 
 ### Week #12
 
-- Continue work on [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/tasks/async-race/README.md)
+- Continue work on [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/async-race/README.md)
 
 ### Week #13
 
-- Continue work on [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/tasks/async-race/README.md)
+- Continue work on [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/async-race/README.md)
 
 ### Week #14
 
-- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/tasks/async-race/README.md)
+- [Cross-check review](https://rs.school/docs/cross-check-flow) of project [Async Race](https://github.com/rolling-scopes-school/tasks/blob/master/stage0.5%20Bootcamp/tasks/async-race/README.md)
 
 ## Certificate
 
@@ -120,6 +120,6 @@ No. Links to recommended theory for study are in the modules. After self-studyin
 
 ### Where do I keep my work?
 
-- For every task in this bootcamp you work in a **public repository on your personal GitHub account** — one repository per task (e.g. `shelter`, `podcast-player`, `async-race`, etc.).
+- For every task in this bootcamp you work in a **public repository on your personal GitHub account** - one repository per task (e.g. `shelter`, `podcast-player`, `async-race`, etc.).
 - The exception is **JS 30**: it is delivered into a shared public repository owned by the course curator, with each student getting a personal subfolder and branch. See the [JS 30 task](tasks/js30/js30.md) for details.
 - If you need to copy a finished task into another repo (for portfolio purposes), see [GitHub's guide on duplicating a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository).

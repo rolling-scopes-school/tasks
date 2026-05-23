@@ -1,0 +1,148 @@
+{
+  "taskName": "Async Race",
+  "criteria": [
+    { "type": "title", "title": "View configuration" },
+    {
+      "type": "subtask",
+      "text": "Two primary views are implemented: Garage and Winners",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "The Garage view displays its name, current page number, and total number of cars in the database",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "The Winners view displays its name, current page number, and total number of records in the winners table",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "View state is preserved when navigating between views: page number, input values, and selected color are not reset",
+      "max": 25
+    },
+
+    { "type": "title", "title": "Garage - Car management" },
+    {
+      "type": "subtask",
+      "text": "CRUD for cars works: create, update, delete, list. Deleting a car removes it from both garage and winners tables",
+      "max": 60
+    },
+    {
+      "type": "subtask",
+      "text": "Color is selected from an RGB palette and the selected color is reflected on the car's image",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "Update and delete buttons are placed next to each car",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Pagination is implemented with 7 cars per page",
+      "max": 30
+    },
+
+    { "type": "title", "title": "Garage - Car generation" },
+    {
+      "type": "subtask",
+      "text": "A button creates 100 random cars per click. Names are assembled from two random parts with at least 10 options per part; color is also random",
+      "max": 30
+    },
+
+    { "type": "title", "title": "Car animation" },
+    {
+      "type": "subtask",
+      "text": "Start/stop engine buttons are placed next to each car",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "Start engine animation - UI awaits the velocity response, animates the car, then issues the 'drive' request. On 500 from 'drive', the animation stops in place",
+      "max": 60
+    },
+    {
+      "type": "subtask",
+      "text": "Stop engine animation - UI awaits the stop response and the car returns to its initial position",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "Button states - start is disabled while driving; stop is disabled at the initial position",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Animations remain fluid and visible at a 500px viewport width",
+      "max": 15
+    },
+
+    { "type": "title", "title": "Race animation" },
+    {
+      "type": "subtask",
+      "text": "Start race button starts the race for all cars on the current page",
+      "max": 40
+    },
+    {
+      "type": "subtask",
+      "text": "Reset race button returns all cars on the current page to their starting positions",
+      "max": 30
+    },
+    {
+      "type": "subtask",
+      "text": "After the first car finishes, a winner message containing the car's name is shown",
+      "max": 30
+    },
+
+    { "type": "title", "title": "Winners view" },
+    {
+      "type": "subtask",
+      "text": "After a race, the winning car appears in the Winners table",
+      "max": 40
+    },
+    {
+      "type": "subtask",
+      "text": "Pagination is implemented with 10 winners per page",
+      "max": 30
+    },
+    {
+      "type": "subtask",
+      "text": "The table has columns: №, image, name, number of wins, best time (in seconds). Win count increments on repeat wins; best time is updated only if the new time is better",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "Sorting by number of wins and by best time works in both ascending and descending order",
+      "max": 25
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "A forbidden UI library or framework is used (React, Vue, Angular, jQuery, Lodash, Material Design, etc.)",
+      "max": -600
+    },
+    {
+      "type": "penalty",
+      "text": "TypeScript is not used, or 'any' / type assertions ('as') / non-null assertions ('!') are used",
+      "max": -100
+    },
+    {
+      "type": "penalty",
+      "text": "Functions exceed 40 lines or the project does not pass the unicorn ESLint configuration",
+      "max": -40
+    },
+    {
+      "type": "penalty",
+      "text": "Major bug - implemented functionality works but after some manipulations it breaks down, with unexpected errors in the browser console (per bug)",
+      "max": -30
+    },
+    {
+      "type": "penalty",
+      "text": "Minor bug - implemented functionality works but after some manipulations behavior changes (e.g. a button does not become enabled after a state change) and there are no errors in the browser console (per bug)",
+      "max": -10
+    }
+  ]
+}
