@@ -118,6 +118,8 @@ No. Links to recommended theory for study are in the modules. After self-studyin
 
 - All projects are checked through [Cross-check](https://rs.school/docs/cross-check-flow)
 
-### How to transfer completed assignments from the school's private repository to your personal repository
+### Where do I keep my work?
 
-- Detailed instructions on copying repositories https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository
+- For every task in this bootcamp you work in a **public repository on your personal GitHub account** — one repository per task (e.g. `shelter`, `podcast-player`, `async-race`, etc.).
+- The exception is **JS 30**: it is delivered into a shared public repository owned by the course curator, with each student getting a personal subfolder and branch. See the [JS 30 task](tasks/js30/js30.md) for details.
+- If you need to copy a finished task into another repo (for portfolio purposes), see [GitHub's guide on duplicating a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository).
