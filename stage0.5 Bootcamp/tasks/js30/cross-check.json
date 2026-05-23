@@ -1,0 +1,178 @@
+{
+  "taskName": "JS 30",
+  "criteria": [
+    { "type": "title", "title": "Widget 1 - Stage 1: Reproduction" },
+    {
+      "type": "subtask",
+      "text": "Widget visually matches the original demo (layout, key colors, key interactions)",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Core behaviour of the original widget works end-to-end (no broken features, no console errors)",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 1 - Stage 2: Mandatory additional feature"
+    },
+    {
+      "type": "subtask",
+      "text": "Mandatory additional feature described in the widget's task file is implemented and works correctly",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Feature is integrated with the rest of the UI (does not break Stage 1 functionality, handles edge cases reasonably)",
+      "max": 5
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 1 - Stage 3: Optional improvements (capped at 30)"
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #1 - well executed",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #2 - well executed",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #3 - well executed",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 1 - Engineering & delivery (penalties)"
+    },
+    {
+      "type": "penalty",
+      "text": "JavaScript code is minified or obfuscated",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "A forbidden JS library/framework is used (jQuery, React, Vue, Angular, etc.) - the whole widget is voided",
+      "max": -65
+    },
+    {
+      "type": "penalty",
+      "text": "Browser-console self-evaluation is missing or does not list the claimed items",
+      "max": -5
+    },
+    {
+      "type": "penalty",
+      "text": "Commit history does not reflect real development (single dump commit)",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "PR is not open against main with a working Netlify preview link",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "Major bug - functionality works but breaks after some manipulations or throws console errors (per bug)",
+      "max": -15
+    },
+    {
+      "type": "penalty",
+      "text": "Minor bug - functionality works but visual/state behaviour is off (per bug)",
+      "max": -5
+    },
+
+    { "type": "title", "title": "Widget 2 - Stage 1: Reproduction" },
+    {
+      "type": "subtask",
+      "text": "Widget visually matches the original demo (layout, key colors, key interactions)",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Core behaviour of the original widget works end-to-end (no broken features, no console errors)",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 2 - Stage 2: Mandatory additional feature"
+    },
+    {
+      "type": "subtask",
+      "text": "Mandatory additional feature described in the widget's task file is implemented and works correctly",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Feature is integrated with the rest of the UI (does not break Stage 1 functionality, handles edge cases reasonably)",
+      "max": 5
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 2 - Stage 3: Optional improvements (capped at 30)"
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #1 - well executed",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #2 - well executed",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Optional improvement #3 - well executed",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Widget 2 - Engineering & delivery (penalties)"
+    },
+    {
+      "type": "penalty",
+      "text": "JavaScript code is minified or obfuscated",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "A forbidden JS library/framework is used (jQuery, React, Vue, Angular, etc.) - the whole widget is voided",
+      "max": -65
+    },
+    {
+      "type": "penalty",
+      "text": "Browser-console self-evaluation is missing or does not list the claimed items",
+      "max": -5
+    },
+    {
+      "type": "penalty",
+      "text": "Commit history does not reflect real development (single dump commit)",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "PR is not open against main with a working Netlify preview link",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "Major bug - functionality works but breaks after some manipulations or throws console errors (per bug)",
+      "max": -15
+    },
+    {
+      "type": "penalty",
+      "text": "Minor bug - functionality works but visual/state behaviour is off (per bug)",
+      "max": -5
+    }
+  ]
+}

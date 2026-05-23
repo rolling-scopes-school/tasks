@@ -1,0 +1,72 @@
+{
+  "taskName": "Shelter: Part 2 - Responsive Layout",
+  "criteria": [
+    { "type": "title", "title": "Main page" },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 1280px",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 768px",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 320px",
+      "max": 15
+    },
+
+    { "type": "title", "title": "Pets page" },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 1280px",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 768px",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Layout matches the design at 320px",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Responsive behavior" },
+    {
+      "type": "subtask",
+      "text": "No horizontal scroll on either page at any width from 320px to 1280px",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Layout adapts smoothly between breakpoints; no overlapping, cut-off, or visually broken content on either page",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Burger icon appears instead of the navigation menu when the viewport is narrower than 768px on both pages (menu itself need not open yet)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Markup is valid on both pages per validator.w3.org",
+      "max": 10
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "Layout (full design or individual blocks) implemented as a screenshot",
+      "max": -100
+    },
+    {
+      "type": "penalty",
+      "text": "Forbidden frameworks, libraries, or tools are used",
+      "max": -100
+    }
+  ]
+}

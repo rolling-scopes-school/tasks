@@ -1,0 +1,98 @@
+{
+  "taskName": "Not Fight Club",
+  "criteria": [
+    { "type": "title", "title": "1. Registration screen" },
+    {
+      "type": "subtask",
+      "text": "An input lets the player enter their name; the entered name is reused on every other screen and persists across reloads",
+      "max": 20
+    },
+
+    { "type": "title", "title": "2. Home screen" },
+    {
+      "type": "subtask",
+      "text": "A start button creates a new battle and opens the battle page",
+      "max": 10
+    },
+
+    { "type": "title", "title": "3. Character page" },
+    {
+      "type": "subtask",
+      "text": "The page shows the character's avatar",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "The page shows the player's name and the win/loss record",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "The player can choose a new avatar from a set of images, and the chosen avatar is reflected everywhere it's shown",
+      "max": 25
+    },
+
+    { "type": "title", "title": "4. Settings page" },
+    {
+      "type": "subtask",
+      "text": "The player can change their name; the new name is reflected on every other screen and persists across reloads",
+      "max": 20
+    },
+
+    { "type": "title", "title": "5. Battle page" },
+    {
+      "type": "subtask",
+      "text": "The page shows the player and the opponent with interactive HP bars that update according to the battle logic",
+      "max": 35
+    },
+    {
+      "type": "subtask",
+      "text": "When a battle is created, the opponent is picked from a predefined pool of at least 2 opponents with different attack/defense profiles",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Full working battle mechanics: zone selection, attack/defense matching, simultaneous resolution, opponent randomization within profile, no repeated zones in a single turn",
+      "max": 25
+    },
+    {
+      "type": "subtask",
+      "text": "Critical hits are implemented: a random chance to deal extra damage; a critical hit also breaks through a block",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "A battle log shows every action of every turn with the required fields (WHO, WHOM, WHERE, HOW MUCH)",
+      "max": 85
+    },
+    {
+      "type": "subtask",
+      "text": "Log entries visually highlight key pieces of information (different styles for names, zones, damage values), as shown in the demo",
+      "max": 10
+    },
+
+    { "type": "title", "title": "6. Bonus - Full persistence" },
+    {
+      "type": "subtask",
+      "text": "All game data is persisted, so that after a page reload the player can continue with the same character, keep their win/loss record, and resume an in-progress battle in the exact same state (HP, current turn, log)",
+      "max": 30
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "A fight can end in a single turn because HP is not at least 3x the base damage",
+      "max": -35
+    },
+    {
+      "type": "penalty",
+      "text": "A UI framework (React, Vue, Angular, Svelte, etc.) is used",
+      "max": -300
+    },
+    {
+      "type": "penalty",
+      "text": "Console errors during normal use",
+      "max": -15
+    }
+  ]
+}

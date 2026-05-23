@@ -1,0 +1,106 @@
+{
+  "taskName": "CSS Meme Slider",
+  "criteria": [
+    { "type": "title", "title": "Repository & Submission" },
+    {
+      "type": "subtask",
+      "text": "PR is open from gh-pages into main and is not merged",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "cssMemeSlider folder exists in gh-pages and the deployment is accessible",
+      "max": 5
+    },
+    { "type": "subtask", "text": "At least 5 commits in history", "max": 5 },
+    {
+      "type": "subtask",
+      "text": "Commits follow the naming convention and each includes a timestamp",
+      "max": 5
+    },
+    { "type": "subtask", "text": "PR link was submitted", "max": 5 },
+    {
+      "type": "subtask",
+      "text": "PR description follows the schema and lists all tested resolutions",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Layout" },
+    {
+      "type": "subtask",
+      "text": "Slider is centered with equal margins on both sides",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Correct layout of images, captions, and controls (matches design)",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Animations" },
+    {
+      "type": "subtask",
+      "text": "Smooth animated transition between images",
+      "max": 15
+    },
+    {
+      "type": "subtask",
+      "text": "Smooth animated transition between captions",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Content & Interaction" },
+    {
+      "type": "subtask",
+      "text": "Captions are plain text strings (not part of the image)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Each control has a clickable area larger than the control itself",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Controls have interactive states: hover, active, active slide indicator, cursor change",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Responsive Design" },
+    {
+      "type": "subtask",
+      "text": "Mobile version is present and layout of images, captions, and controls is correct",
+      "max": 10
+    },
+
+    { "type": "title", "title": "Code Quality" },
+    {
+      "type": "subtask",
+      "text": "Only relative units are used; slider is fluid across screen sizes",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "All slider components are in the normal document flow; position is static only; no float",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "No CSS pseudo-elements are used (pseudo-classes are allowed)",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "JavaScript or external libraries are used",
+      "max": -100500
+    },
+    {
+      "type": "penalty",
+      "text": "Obfuscated (non-human-readable) CSS or HTML",
+      "max": -100500
+    },
+    { "type": "penalty", "text": "Plagiarism", "max": -100500 }
+  ]
+}

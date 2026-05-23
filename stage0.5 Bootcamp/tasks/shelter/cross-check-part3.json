@@ -1,0 +1,126 @@
+{
+  "taskName": "Shelter: Part 3 - JavaScript Functionality",
+  "criteria": [
+    { "type": "title", "title": "Burger menu" },
+    {
+      "type": "subtask",
+      "text": "Menu opens by clicking the burger icon",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Menu opens with a smooth animation",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Burger icon transforms into a close icon when the menu is open",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Menu closes when clicking the close icon, the overlay area outside the menu, or any navigation link inside it",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Page behind the menu does not scroll while the menu is open",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Infinite carousel slider on Main" },
+    {
+      "type": "subtask",
+      "text": "Slider displays the correct number of cards per breakpoint: 3 / 2 / 1",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Slider has working left and right arrow controls",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "After a switch, the next group contains no pet from the previously visible group",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "All pets within the next group are unique",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Order of cards in the next group is random within the above rules",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Card switching is animated (slide)",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "During the slide animation, additional arrow clicks are ignored; animations do not stack",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Pagination on Pets" },
+    {
+      "type": "subtask",
+      "text": "Block contains 48 cards: 6 pages x 8 on desktop, 8 x 6 on tablet, 16 x 3 on mobile",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "The 48 cards are built from pets.json so that all pets appear an equal number of times",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "No two adjacent cards (in linear order) show the same pet",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Pagination controls present: first, previous, current page indicator, next, last",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Disabled controls (e.g. previous on page 1) are visually inactive and do not respond to clicks",
+      "max": 5
+    },
+    { "type": "subtask", "text": "Page switching is animated", "max": 10 },
+
+    { "type": "title", "title": "Popup" },
+    {
+      "type": "subtask",
+      "text": "Clicking a pet card opens a popup with that pet's details from pets.json",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Popup has a darkened backdrop covering the page and closes on the close button or backdrop click",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Page behind the popup does not scroll while the popup is open",
+      "max": 5
+    },
+
+    { "type": "title", "title": "Penalties" },
+    {
+      "type": "penalty",
+      "text": "Frameworks or libraries are used (jQuery, React, Vue, Bootstrap, Swiper, etc.)",
+      "max": -120
+    },
+    { "type": "penalty", "text": "TypeScript is used", "max": -120 },
+    {
+      "type": "penalty",
+      "text": "Pet data is hardcoded in HTML or JS instead of being loaded from pets.json",
+      "max": -30
+    }
+  ]
+}

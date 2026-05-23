@@ -1,0 +1,28 @@
+{
+  "taskName": "RSS Virtual Keyboard",
+  "criteria": [
+    {
+      "type": "title",
+      "title": "Minimum set"
+    },
+    {
+      "type": "subtask",
+      "text": "DOM elements are generated and index.html is initially empty",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Pressing a key on the physical keyboard highlights the corresponding virtual key",
+      "max": 10
+    },
+    {
+      "type": "title",
+      "title": "Standard set"
+    },
+    {
+      "type": "penalty",
+      "text": "Test - Errors or warnings from eslint-config-airbnb-base",
+      "max": -15
+    }
+  ]
+}

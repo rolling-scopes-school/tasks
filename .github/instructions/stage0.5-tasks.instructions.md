@@ -5,6 +5,8 @@ applyTo: "stage0.5 Bootcamp/**"
 
 # Stage 0.5 Bootcamp - Task Authoring Guidelines
 
+**IMPORTANT: All cross-check JSON files (criteria for cross-checking) must always be kept in sync with the corresponding task description. Any change in the task's scoring, requirements, or penalties must be immediately reflected in the JSON. The JSON structure must match the actual task structure and scoring blocks.**
+
 These rules apply to every task file inside `stage0.5 Bootcamp/tasks/`. When adapting a task from another stage, always bring it in line with all sections below before considering it done.
 
 ---
