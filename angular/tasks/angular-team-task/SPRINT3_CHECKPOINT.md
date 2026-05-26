@@ -32,7 +32,7 @@ All requirements met → 40 points, any requirement not met → 0.
 4. **Form is functional** — on submit the data is processed (console output, sent to a service, navigation — any meaningful action).
 5. **`InjectionToken` or custom provider** — `useValue`, `useFactory`, `useClass`, or `useExisting` in `providers`. Merged into `main`.
 6. **At least 3 components use `OnPush`** — with `changeDetection: ChangeDetectionStrategy.OnPush`. Merged into `main`.
-7. **At least 1 diary entry for Sprint 3** — merged into `main`.
+7. **At least 1 diary entry for Sprint 3 by each team member** — merged into `main`.
 
 ---
 

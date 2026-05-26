@@ -26,7 +26,7 @@ All requirements met → 20 points, any requirement not met → 0.
 3. **README.md filled in** — project name, short description (2–3 sentences), team members (name + GitHub link for each).
 4. **Project initialized via Angular CLI** — `ng new` with TypeScript strict mode. The repository contains `angular.json`, `tsconfig.json` with `"strict": true`.
 5. **At least 1 custom component created** — not `AppComponent`. The component uses `@Input()` or `@Output()`. Merged into `main`.
-6. **At least 1 diary entry** — merged into `main` before the deadline. Location: `/development-notes/{github-username}/`.
+6. **At least 1 diary entry by each team member** — merged into `main` before the deadline. Location: `/development-notes/{github-username}/`.
 7. **Entry contains summary and plan** — (a) what you worked on this sprint; (b) what you plan to do in Sprint 2.
 
 ---

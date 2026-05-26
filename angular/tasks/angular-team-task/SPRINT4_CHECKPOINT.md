@@ -31,9 +31,9 @@ All requirements met → 40 points, any requirement not met → 0.
 4. **Video proof** — a short video (~1 min) demonstrating the 404, loading, and error states. Video link in the README.
 5. **HttpClient is used** — at least 2 HTTP requests (GET + POST/PUT/DELETE) to a real or mock API. Merged into `main`.
 6. **At least 1 HTTP Interceptor implemented** — for auth token, logging, error handling, or any other purpose.
-7. **At least 5 tests written personally by you** — `*.spec.ts` files. Total ≥5 test cases (`it`). Authorship is determined by commits (`git blame`).
+7. **At least 15 test cases written** — `*.spec.ts` files. Total ≥15 test cases (`it`). Authorship is determined by commits (`git blame`).
 8. **Code Review** — **Option A:** ≥3 meaningful comments in team PRs. **Option B:** a diary entry about how you studied another team member's code.
-9. **At least 1 diary entry for Sprint 4** — merged into `main`.
+9. **At least 1 diary entry for Sprint 4 by each team member** — merged into `main`.
 
 > **Diary:** no diary — 0 for the entire checkpoint.
 

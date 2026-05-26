@@ -36,7 +36,7 @@ All requirements met → 40 points, any requirement not met → 0.
 7. **At least 1 Route Guard implemented** — `canActivate` or `canDeactivate`. Functional or class-based.
 8. **Signals used in at least 2 components** — `signal()` and `computed()` or `effect()`. Merged into `main`.
 9. **At least 2 services with `@Injectable()`** — injected via `inject()`. Merged into `main`.
-10. **At least 1 diary entry for Sprint 2** — merged into `main`.
+10. **At least 1 diary entry for Sprint 2 by each team member** — merged into `main`.
 
 ---
 
