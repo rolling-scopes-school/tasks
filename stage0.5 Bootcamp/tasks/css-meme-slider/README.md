@@ -76,7 +76,7 @@ Controls effects example:
 
    Shell template you can use:
 
-   > `git commit -m "init: start cssMemeSlider-task \`LANG=en_EN date +'(%a, %b %d, %Y %r)'\`"`
+   > `git commit -m "init: start cssMemeSlider-task $(LC_ALL=C date '+(%a, %b %d, %Y %r)')"`
 
 6. When done, open a Pull Request from `gh-pages` into `main`. Name the PR after the task. Write the PR description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). Do **not** merge the PR. Submit the PR link in the cross-check form. In the description, list all screen resolutions you tested (e.g. mobile: 320×568, desktop: 1920×1080).
 
