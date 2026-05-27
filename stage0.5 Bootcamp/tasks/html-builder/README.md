@@ -4,6 +4,13 @@
 
 `Node.js` `fs / fs/promises` `streams` `events` `readline` `path module` `process` `CommonJS modules` `command-line scripts`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/06+%E2%80%94+HTML+Builder) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 A series of six Node.js scripts of increasing complexity. The first five are small standalone exercises focused on the file system, streams, events, and paths. The sixth is a final assignment that ties the previous tasks together into a small console utility that builds a static HTML page from components and a single bundled CSS file.

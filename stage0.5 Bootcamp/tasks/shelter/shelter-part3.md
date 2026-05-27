@@ -4,6 +4,13 @@
 
 `vanilla JavaScript` `DOM manipulation` `event handling` `JSON` `infinite carousel` `pagination` `modal/popup` `CSS animations`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/02c+%E2%80%94+Shelter+Part+3+%E2%80%94+JavaScript) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 This is the third and final part. See the [main task description](shelter.md) for the full project overview.

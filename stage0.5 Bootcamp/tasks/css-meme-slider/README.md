@@ -4,6 +4,13 @@
 
 `CSS animations` `@keyframes` `CSS transitions` `Flexbox` `CSS Grid` `responsive design` `media queries` `pseudo-classes` `relative units`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/01+%E2%80%94+CSS+Meme+Slider) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 Build a slider using pure HTML and CSS - **no JavaScript allowed**. The slider must display a set of meme images with captions and navigation controls, work on both desktop and mobile, and use smooth CSS animations for slide transitions.
