@@ -4,6 +4,13 @@
 
 `vanilla JavaScript` `TypeScript` `Fetch API` `Web Crypto API` `async/await` `debouncing` `routing` `HTML5 Audio API` `LocalStorage` `XML parsing` `responsive design`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/04+%E2%80%94+Podcast+Player) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 A podcast player is an app for playing podcasts - audio recordings that are typically part of a series focused on a specific topic. Popular podcast players include:

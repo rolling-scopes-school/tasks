@@ -4,6 +4,13 @@
 
 `TypeScript` `Single Page Application` `vanilla DOM rendering` `Fetch API` `async/await` `REST` `CSS animations` `requestAnimationFrame` `pagination` `sorting` `state management` `Vite/Webpack`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/07+%E2%80%94+Async+Race) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 Your customer has an idea to spend his money. He has hired some engineers who installed radio-controlled equipment in real cars - to be precise, in his entire collection. He is eager to create a kind of drag-racing competition to discover which car is the fastest.

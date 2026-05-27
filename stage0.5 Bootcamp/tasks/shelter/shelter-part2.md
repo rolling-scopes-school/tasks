@@ -4,6 +4,13 @@
 
 `responsive design` `media queries` `mobile-first` `fluid layout` `relative units` `breakpoints` `CSS Flexbox` `CSS Grid`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/02b+%E2%80%94+Shelter+Part+2+%E2%80%94+Responsive) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 This is the second of three parts. See the [main task description](shelter.md) for the full project overview.

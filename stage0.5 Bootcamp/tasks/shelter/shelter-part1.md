@@ -4,6 +4,13 @@
 
 `semantic HTML` `CSS Flexbox` `CSS Grid` `pixel-perfect markup` `HTML validation` `Figma` `BEM`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/02a+%E2%80%94+Shelter+Part+1+%E2%80%94+Fixed+Layout) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 This is the first of three parts. See the [main task description](shelter.md) for the full project overview.

@@ -4,6 +4,13 @@
 
 `vanilla JavaScript` `DOM manipulation` `state management` `event handling` `localStorage` `game logic` `randomization` `UI components`
 
+## Our Handbook
+
+👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/05+%E2%80%94+Not+Fight+Club) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Task Description
 
 Build a turn-based browser fighting game with customizable player, opponent pool, attack/defense mechanics, critical hits, and a battle log.

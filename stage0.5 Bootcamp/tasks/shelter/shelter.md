@@ -4,6 +4,13 @@
 
 `semantic HTML` `CSS Flexbox` `CSS Grid` `responsive design` `media queries` `Figma` `JavaScript DOM` `event handling` `CSS animations`
 
+## Our Handbook
+
+👉 [Open Handbook](<https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/02+%E2%80%94+Shelter+(%D0%BE%D0%B1%D0%B7%D0%BE%D1%80)>) 👈
+
+This handbook is currently in a test phase.
+If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
+
 ## Project Description
 
 Shelter is a two-page website project. You will build the layout, make it responsive, and add interactive JavaScript functionality across three weekly stages.
