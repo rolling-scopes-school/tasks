@@ -392,7 +392,10 @@ Portals & Error boundaries:
 <details>
 <summary>Context tip (expand)</summary>
 
-Memoize provider value: `tsx<Provider value={useMemo(()=>({state, setState}),[state])}>` to avoid re-renders.
+Memoize provider value to avoid re-renders: 
+```tsx
+<Provider value={useMemo(()=>({state, setState}),[state])}>` 
+```
 
 </details>
 
@@ -403,7 +406,7 @@ Memoize provider value: `tsx<Provider value={useMemo(()=>({state, setState}),[st
 Key questions:
 
 <details>
-<summary>Perf example (expand)</summary>
+<summary>Performance example (expand)</summary>
 
 Wrap pure components: `export default React.memo(Component)`; use `useMemo` for expensive calcs.
 
