@@ -10,7 +10,7 @@ The application includes the **react-scan** package, which highlights component 
 
 **To enable react-scan:**
 
-1. Open [`performance-starter/src/main.tsx`](../performance-starter/src/main.tsx)
+1. Open [`react-performance/src/main.tsx`](https://github.com/rolling-scopes-school/react-performance/blob/main/src/main.tsx)
 2. Change `enabled: false` to `enabled: true` in the `scan()` configuration:
 
 ```tsx
