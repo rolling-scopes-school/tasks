@@ -12,7 +12,7 @@
 ## Порядок работы
 
 1. Задание выполняется в приватном репозитории школы.  
-   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
+   [Как работать с приватным репозиторием школы](https://rs.school/ru/docs/private-repository)
 2. От ветки `main` создайте ветку `library` в ней создайте папку `library`, в ней разместите файлы проекта
 3. Выполните задание.
 4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
@@ -22,7 +22,7 @@
    Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке  
    `https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2023Q2/library/`  
    в которой вместо GITHUB-USERNAME укажите свой никнейм на сайте GitHub
-8. После завершения работы откройте Pull Request из ветки `library` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
+8. После завершения работы откройте Pull Request из ветки `library` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
 9. Ссылку на деплой вашей работы засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
 10. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) результат проверки.
 
@@ -132,4 +132,4 @@
 ## Проверка задания Library#1
 
 - форма для кросс-чека (Library#1): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow

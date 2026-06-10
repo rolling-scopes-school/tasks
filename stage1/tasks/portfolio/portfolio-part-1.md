@@ -19,15 +19,15 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ## Workflow
 
-1. The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository).
+1. The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/ru/docs/private-repository).
 2. Create a new branch named `portfolio` from the `main` branch. Create a folder `portfolio` in the created branch. Place your code in this folder.
-3. Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
+3. Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
 4. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).  
    [How to submit](#how-to-submit).
 5. Complete the task. Don't forget to submit your work before the deadline (see step 8).
 6. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria-160-points).
 7. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
-8. Open a Pull Request from the `portfolio` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr).
+8. Open a Pull Request from the `portfolio` branch to the `main` branch. Give the Pull Request a title based on the task name. Provide a description for the Pull Request following [template](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr).
    There is no need to merge this Pull Request.
 9. After the task deadline has passed, the cross-check phase will start, lasting three days. Failure to complete and submit cross-check reviews in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/) will result in zero points for this task.
 
@@ -136,7 +136,7 @@ Penalties for the task are assigned by the course curators, not by students. An 
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://rs.school/docs/ru/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://rs.school/ru/docs/cross-check-flow
 
 ## Materials
 

@@ -130,4 +130,4 @@
 ## Проверка задания
 
 - задание будет проверяться посредством кросс-чека.
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow

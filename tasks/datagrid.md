@@ -123,7 +123,7 @@
 
 ### Cross-check
 
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>
 
 ### Полезные документы
 

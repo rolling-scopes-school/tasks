@@ -36,7 +36,7 @@
 - [Модуль "Знакомство с JavaScript"](modules/js-basics/)
 - [Модуль "Знакомство с Codewars. Задачи Часть #1"](../tasks/codewars/preschool-2022-codewars1.md)
 - Проект ["CV"](../tasks/cv/cv.md).
-  - [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
+  - [Кросс-чек проверка](https://rs.school/ru/docs/cross-check-flow) проекта ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 - Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
   - ["Christmas Shop#1. Фиксированная вёрстка"](../tasks/christmas-shop/christmas-shop-part1.md)
 
@@ -45,7 +45,7 @@
 - [Модуль "Обьекты и массивы в JavaScript"](modules/objects-and-arrays/)
 - [Модуль "Codewars Часть#2"](../tasks/codewars/preschool-2022-codewars2.md)
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#1"](../tasks/christmas-shop/christmas-shop-part1.md)
+- [Кросс-чек проверка](https://rs.school/ru/docs/cross-check-flow) проекта ["Christmas Shop#1"](../tasks/christmas-shop/christmas-shop-part1.md)
 - Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
   - ["Christmas Shop#2. Адаптивная вёрстка"](../tasks/christmas-shop/christmas-shop-part2.md)
 
@@ -53,13 +53,13 @@
 
 - [Модуль "DOM API"](modules/dom-api/)
 - [Модуль "DOM Events"](modules/dom-events/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#2"](../tasks/christmas-shop/christmas-shop-part2.md)
+- [Кросс-чек проверка](https://rs.school/ru/docs/cross-check-flow) проекта ["Christmas Shop#2"](../tasks/christmas-shop/christmas-shop-part2.md)
 - Проект ["Christmas Shop"](../tasks/christmas-shop/christmas-shop.md)
   - ["Christmas Shop#3. Добавление функционала"](../tasks/christmas-shop/christmas-shop-part3.md)
 
 ### Неделя #6
 
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Christmas Shop#3"](../tasks/christmas-shop/christmas-shop-part3.md)
+- [Кросс-чек проверка](https://rs.school/ru/docs/cross-check-flow) проекта ["Christmas Shop#3"](../tasks/christmas-shop/christmas-shop-part3.md)
 - [JS-101](https://github.com/rolling-scopes-school/core-js-101-stage0/)
 - [Dashboard Project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
@@ -71,7 +71,7 @@
 ### Неделя #8
 
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
-- [Кросс-чек проверка](https://rs.school/docs/ru/cross-check-flow) проекта ["Dashboard Project"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Кросс-чек проверка](https://rs.school/ru/docs/cross-check-flow) проекта ["Dashboard Project"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Неделя #9
 
@@ -115,8 +115,8 @@
 
 ### Кто проверяет задания?
 
-- Проекты "CV#3", "Museum", "Secret Task" проверяются в ходе [Cross-check](https://rs.school/docs/ru/cross-check-flow)
-- Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://rs.school/docs/ru/rs-app-tasks) до дедлайна.
+- Проекты "CV#3", "Museum", "Secret Task" проверяются в ходе [Cross-check](https://rs.school/ru/docs/cross-check-flow)
+- Алгоритмические таски и задачи из codewars проверяются автоматически. Ваши решения необходимо [сабмитнуть в RS APP](https://rs.school/ru/docs/rs-app-tasks) до дедлайна.
 - Таски "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" проверяются автоматически.
 
 ### Как перенести выполненные задания из приватного репозитория школы в свой личный репозиторий

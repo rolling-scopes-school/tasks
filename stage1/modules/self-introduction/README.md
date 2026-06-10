@@ -11,7 +11,7 @@ The task is to record a short (**3-5 min**) self-presentation video. Share some 
 
 However, there are no restrictions to what you need to say about yourself. It is up to you to decide what information to share.
 
-The presentation must be **in English**. Together with the recorded video create a transcript, which is a text of your presentation (it must also be **in English**). Put the link to the video and the transcript into your [private school repository](https://rs.school/docs/ru/private-repository#как-работать-с-приватным-репозиторием) and [deploy it using gh-pages](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
+The presentation must be **in English**. Together with the recorded video create a transcript, which is a text of your presentation (it must also be **in English**). Put the link to the video and the transcript into your [private school repository](https://rs.school/ru/docs/private-repository#как-работать-с-приватным-репозиторием) and [deploy it using gh-pages](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
 
 ## Workflow
 
@@ -21,8 +21,8 @@ The presentation must be **in English**. Together with the recorded video create
 4. In the created `self-introduction` branch, create a folder `self-introduction`, and create a file with the name `index.md` inside it.
 5. Add a link to your YouTube video to the `index.md` file.
 6. Add a transcript of your presentation below the link. The text must be a written copy of what you said in the presentation, although it can be edited to remove unnecessary interjections, filler words, etc., so the transcription does not have to be word-for-word.
-7. Use `gh-pages` for deployment. Follow the instructions on [how to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
-8. Create a Pull Request from the `self-introduction` branch to the `main` branch. The Pull Request must have the same name as the assignment – **Self-Introduction**, and it has to meet the [requirements for Pull Requests](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr). As a screenshot of the result attach a screenshot of the video and provide a deployment link in the following format `https://rolling-scopes-school.github.io/your-github-account-JSFE2023Q4/self-introduction/`. **Do not merge this Pull Request.**
+7. Use `gh-pages` for deployment. Follow the instructions on [how to deploy an assignment from a private school repository](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы).
+8. Create a Pull Request from the `self-introduction` branch to the `main` branch. The Pull Request must have the same name as the assignment – **Self-Introduction**, and it has to meet the [requirements for Pull Requests](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr). As a screenshot of the result attach a screenshot of the video and provide a deployment link in the following format `https://rolling-scopes-school.github.io/your-github-account-JSFE2023Q4/self-introduction/`. **Do not merge this Pull Request.**
 
 > ### Important
 >
@@ -31,7 +31,7 @@ The presentation must be **in English**. Together with the recorded video create
 
 ## Task Check
 
-During [Cross-Check](https://rs.school/docs/ru/cross-check-flow) you will have to check the fact that there is a recording, but **not** its content. The content will later be assessed by mentors.
+During [Cross-Check](https://rs.school/ru/docs/cross-check-flow) you will have to check the fact that there is a recording, but **not** its content. The content will later be assessed by mentors.
 
 To submit the completed task for review, go to [RS App](https://app.rs.school/), choose the Cross-Check: Submit tab, select the **Self-Introduction** task in the dropdown menu, and add your **deployment link** to the form.
 

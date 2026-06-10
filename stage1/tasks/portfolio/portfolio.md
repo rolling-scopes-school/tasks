@@ -64,10 +64,10 @@ Recommendations are provided for reference; strict adherence to them is not expe
 
 ## Repository Requirements
 
-- The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository)
+- The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/ru/docs/private-repository)
 - Create new branch `portfolio` from `main` branch. Create a folder `portfolio` in the created branch. Place your code in this folder.
 - The `main` branch should be empty (contain only files like README.md, .gitignore or .github folder)
-- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- Use `gh-pages` for deployment [How to deploy an assignment from a private school repository](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - Since the task is divided into two parts, portfolio will have two versions:
   1. The `portfolio` branch will contain the first part of the assignment. When starting the second part, create a branch `portfolio-part2` from the `portfolio` branch to continue from where you left off in the first part
   2. Upon completing the second part of the assignment, create a Pull Request from the `portfolio-part2` branch to the `portfolio` branch, check for conflicts, and perform the Merge
@@ -77,12 +77,12 @@ Recommendations are provided for reference; strict adherence to them is not expe
 ## Commit Requirements
 
 - Commit history should reflect the application development process.
-- [Give commit names according to the guideline](https://rs.school/docs/ru/git-convention)
+- [Give commit names according to the guideline](https://rs.school/ru/docs/git-convention)
 
 ## Requirements for Pull Requests
 
 - Name the Pull Request according to the task title
-- [Provide the Pull Request description following the template](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
+- [Provide the Pull Request description following the template](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr)
   **No need to merge the Pull Request from the development branch into the `main` branch**.
 
 ## How to submit
@@ -98,7 +98,7 @@ After receiving the task but before the deadline, please go to the RS App at <ht
 ## Task Evaluation
 
 - Each part of the assignment is assessed through a cross-check
-- Instructions for conducting a cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- Instructions for conducting a cross-check: <https://rs.school/ru/docs/cross-check-flow>
 
 ⚠️ The administration reserves the right to deduct points or apply penalties for violations not explicitly listed in the task description if they affect the validity, fairness, or integrity of the assignment.
 

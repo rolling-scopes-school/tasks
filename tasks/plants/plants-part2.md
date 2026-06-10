@@ -110,4 +110,4 @@
 ## Проверка задания Plants#2
 
 - форма для кросс-чека (Plants#2): https://rolling-scopes-school.github.io/checklist/
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow
