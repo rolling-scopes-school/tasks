@@ -2,8 +2,7 @@
 
 Полная архитектурная документация для реализации AI Prep App с **Supabase** (Auth + DB + Edge Functions) и **WebContainer** (StackBlitz) для запуска кода в браузере.
 
-> **Product Spec** (концепция, UI mockups): [03-ai-prep-app.md](../../03-ai-prep-app.md)
-> **Сравнение вариантов**: [../README.md](../README.md)
+> **Product Spec** (концепция, UI mockups): [03-ai-prep-app.md](../../03-ai-prep-app.md) > **Сравнение вариантов**: [../README.md](../README.md)
 
 ---
 

@@ -2,8 +2,7 @@
 
 Стратегия реализации AI Judge для Варианта A. Judge работает на Express сервере — ключи API не попадают в браузер.
 
-> **Архитектура и навигация**: [README.md](./README.md)
-> **API контракты**: [data-contracts.md](./data-contracts.md)
+> **Архитектура и навигация**: [README.md](./README.md) > **API контракты**: [data-contracts.md](./data-contracts.md)
 
 ---
 

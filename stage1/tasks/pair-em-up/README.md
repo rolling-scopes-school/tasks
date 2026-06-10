@@ -292,7 +292,7 @@ Add your personal touch! Implement a creative feature, polish the user experienc
 - Submit **a link to the deployed app** in the Cross-Check: Submit tab
 - Once the work is finished, create a pull request from the `pair-em-up` branch to `main`. Do not merge this PR
 - The pull request name to `main` should contain the task name
-- The pull request description should follow the format described in the [RS School documentation](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following)
+- The pull request description should follow the format described in the [RS School documentation](https://rs.school/docs/pull-request-review-process#pull-request-description-must-contain-the-following)
 
 ## Evaluation criteria 📊
 

@@ -1361,7 +1361,9 @@ function updateTimerDisplay(
   const seconds = Math.ceil(turnRemaining / 1000);
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  turnTimerElement.textContent = `${minutes}:${secs.toString().padStart(2, "0")}`;
+  turnTimerElement.textContent = `${minutes}:${secs
+    .toString()
+    .padStart(2, "0")}`;
 
   // Подсветка при малом остатке времени
   turnTimerElement.classList.toggle("urgent", seconds <= 15);

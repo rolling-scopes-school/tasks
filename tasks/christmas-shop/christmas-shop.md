@@ -104,7 +104,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
 ## Task Evaluation
 
 - Each part of the assignment is assessed through a cross-check
-- Instructions for conducting a cross-check: https://rs.school/docs/ru/cross-check-flow
+- Instructions for conducting a cross-check: https://rs.school/ru/docs/cross-check-flow
 
 ## Materials
 

@@ -2,8 +2,7 @@
 
 Стратегия реализации Code Runner для Варианта B через [WebContainer](https://webcontainers.io/) — Node.js runtime в браузере от StackBlitz.
 
-> **Архитектура и навигация**: [README.md](./README.md)
-> **API контракты**: [data-contracts.md](./data-contracts.md)
+> **Архитектура и навигация**: [README.md](./README.md) > **API контракты**: [data-contracts.md](./data-contracts.md)
 
 ---
 

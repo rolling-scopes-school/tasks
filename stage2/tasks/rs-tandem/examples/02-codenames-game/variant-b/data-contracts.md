@@ -985,7 +985,9 @@ class MockFirebaseClientImpl implements MockFirebaseClient {
   }
 
   push(path: string, data: unknown): string {
-    const pushId = `mock-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const pushId = `mock-${Date.now()}-${Math.random()
+      .toString(36)
+      .slice(2, 8)}`;
     this.set(`${path}/${pushId}`, data);
     this.emitter.dispatchEvent(
       new CustomEvent(`child-added:${path}`, { detail: data }),

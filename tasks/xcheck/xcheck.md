@@ -18,7 +18,7 @@
 ## Особенности задания
 
 - Работа ведётся в группах. [Описание процесса командной работы](https://docs.rs.school/#/final-task) <!-- TODO: страница с описанием процесса командной работы в документации отсутствует -->
-- Для проверки и оценки решений проводится [кросс-чек](https://rs.school/docs/ru/cross-check-flow).
+- Для проверки и оценки решений проводится [кросс-чек](https://rs.school/ru/docs/cross-check-flow).
 - Информацию, которую команда хочет донести до проверяющих необходимо поместить в README репозитория.
 
 ## Технические требования
@@ -250,5 +250,5 @@ const dispute = {
 
 ### Cross-check
 
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow
 - форма для проверки задания: https://rolling-scopes-school.github.io/checklist/ (task X CHECK APP)

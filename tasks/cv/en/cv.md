@@ -90,7 +90,7 @@ EPAM HR Department Recommendations
 ## Pull Request Requirements:
 
 - Give the Pull Request a title based on the task name.
-- [Give the Pull Request a description following the scheme](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr)
+- [Give the Pull Request a description following the scheme](https://rs.school/docs/pull-request-review-process#pull-request-requirements-pr)
 - Do not merge the Pull Request from the development branch into the `main` branch.
 
 ## To Earn Points for the Assignment, You Must:

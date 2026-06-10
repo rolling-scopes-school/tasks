@@ -25,7 +25,7 @@ Practice: 4 hours
 3. You need to watch practical video materials [Git Workshop](https://youtu.be/Dlr_E7WfA08) (0.5 hours)
 4. For the practical assignment, familiarize yourself with [Markdown documentation](https://guides.github.com/features/mastering-markdown/) - you can briefly look at the capabilities and syntax, and dive deeper in practice (0.5 hours)
 5. Short and clear material on how to set up github-pages in your repository: [link to MDN](https://developer.mozilla.org/ru/docs/Learn/Common_questions/Using_Github_pages#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2_%D0%BD%D0%B0_github), [official documentation](https://pages.github.com/)
-6. You need to read and remember [RS School commit requirements](https://rs.school/docs/ru/git-convention)
+6. You need to read and remember [RS School commit requirements](https://rs.school/ru/docs/git-convention)
 7. [Video](https://www.youtube.com/watch?v=0lvKcqP3aP0) about how to work with gh-pages
 
 ## Practice

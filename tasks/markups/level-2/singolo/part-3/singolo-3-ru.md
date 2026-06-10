@@ -47,7 +47,7 @@ JPG:
 
 **[Singolo. JPG](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo.jpg)**
 
-❗ Когда проверено, нужно сделать [Cross-Check: Submit](https://rs.school/docs/ru/cross-check-flow)
+❗ Когда проверено, нужно сделать [Cross-Check: Submit](https://rs.school/ru/docs/cross-check-flow)
 
 ## Критерии оценки
 

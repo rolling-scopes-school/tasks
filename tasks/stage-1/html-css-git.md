@@ -27,12 +27,12 @@
 
 ## Требования к коммитам
 
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/ru/docs/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request даёте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
+- [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr)
 
 ## Как сабмитить задание
 
