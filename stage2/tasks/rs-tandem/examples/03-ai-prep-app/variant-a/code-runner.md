@@ -2,8 +2,7 @@
 
 Стратегия реализации Code Runner для Варианта A через [Judge0](https://judge0.com/) — open-source систему выполнения кода.
 
-> **Архитектура и навигация**: [README.md](./README.md)
-> **API контракты**: [data-contracts.md](./data-contracts.md)
+> **Архитектура и навигация**: [README.md](./README.md) > **API контракты**: [data-contracts.md](./data-contracts.md)
 
 ---
 

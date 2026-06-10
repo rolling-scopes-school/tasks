@@ -2,8 +2,7 @@
 
 Полная архитектурная документация для реализации AI Prep App с **собственным Node.js бэкендом** и **Judge0 Code Runner**.
 
-> **Product Spec** (концепция, UI mockups): [03-ai-prep-app.md](../../03-ai-prep-app.md)
-> **Сравнение вариантов**: [../README.md](../README.md)
+> **Product Spec** (концепция, UI mockups): [03-ai-prep-app.md](../../03-ai-prep-app.md) > **Сравнение вариантов**: [../README.md](../README.md)
 
 ---
 

@@ -2,8 +2,7 @@
 
 Полная документация для реализации Codenames с **собственным WebSocket сервером**. Максимум баллов, максимум сложности, максимум обучения.
 
-> **Product Spec** (правила, UI mockups): [02-codenames-game.md](../../02-codenames-game.md)
-> **Сравнение вариантов**: [../README.md](../README.md)
+> **Product Spec** (правила, UI mockups): [02-codenames-game.md](../../02-codenames-game.md) > **Сравнение вариантов**: [../README.md](../README.md)
 
 ---
 

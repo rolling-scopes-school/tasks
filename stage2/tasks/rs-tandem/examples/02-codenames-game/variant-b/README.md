@@ -2,8 +2,7 @@
 
 Полная документация для реализации Codenames **без собственного сервера**. Создатель комнаты (Host) запускает State Machine в своём браузере, Firebase Realtime Database синхронизирует состояние между игроками.
 
-> **Product Spec** (правила, UI mockups): [02-codenames-game.md](../../02-codenames-game.md)
-> **Сравнение вариантов**: [../README.md](../README.md)
+> **Product Spec** (правила, UI mockups): [02-codenames-game.md](../../02-codenames-game.md) > **Сравнение вариантов**: [../README.md](../README.md)
 
 ---
 
