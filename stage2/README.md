@@ -17,7 +17,7 @@
 ### November 25, 2025 - December 1, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Self-introduction](../stage1/modules/self-introduction/) project
+  - [Cross-check](https://rs.school/ru/docs/cross-check-flow) of the [Self-introduction](../stage1/modules/self-introduction/) project
 
 - Modules:
   - [Module: TypeScript: Basic](./modules/typescript-basic/)
@@ -31,8 +31,8 @@
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
-- [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
+- [Confirming course registration](https://rs.school/ru/docs/mentoring-kick-off)
+- [Student allocation through random distribution](https://rs.school/ru/docs/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
 - [Conducting Technical Screening](./modules/technical-screening/)
 
 </details>
@@ -70,8 +70,8 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Confirming course registration](https://rs.school/docs/ru/mentoring-kick-off)
-- [Student allocation through random distribution](https://rs.school/docs/ru/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2)
+- [Confirming course registration](https://rs.school/ru/docs/mentoring-kick-off)
+- [Student allocation through random distribution](https://rs.school/ru/docs/mentoring-kick-off#2-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2)
 - [Conducting Technical Screening](./modules/technical-screening/)
 
 </details>
@@ -96,9 +96,9 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
 - [Conducting Technical Screening](./modules/technical-screening/)
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [News API](../tasks/migration-newip-to-ts.md)
+- [Checking](https://rs.school/ru/docs/pull-request-review-process) task [News API](../tasks/migration-newip-to-ts.md)
 
 </details>
 
@@ -124,14 +124,14 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
 - Presentation topic assignments
   - [Task description](./tasks/presentation/)
   - [Topic list](./tasks/presentation/presentation-topics.md). You can suggest your own topic.
   - "Recorded" format presentation is required for all students. The recorded [video](./tasks/presentation/) will be reviewed by mentors according to the schedule.
   - "Online" format presentation is optional and is up to the student's discretion.
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Code review](./tasks/code-review/) (using [Mentors Check Criteria](./tasks/code-review/MentorEvaluationCriteria.md))
-- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/README.md) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
+- [Checking](https://rs.school/ru/docs/pull-request-review-process) task [Code review](./tasks/code-review/) (using [Mentors Check Criteria](./tasks/code-review/MentorEvaluationCriteria.md))
+- [Checking the draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [RSS Puzzle](./tasks/puzzle/README.md) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
 - If you have less than two students or you want to mentor more. Open RS APP > "Interviews" > "Available students". Press "Want To Interview" and contact the student yourself (notifications are not always received).
 
 </details>
@@ -147,7 +147,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### January 6, 2026 - January 12, 2026
 
 - Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [RSS Puzzle](./tasks/puzzle/)
+  - [Cross-check](https://rs.school/ru/docs/cross-check-flow) of the [RSS Puzzle](./tasks/puzzle/)
 
 - Modules:
   - [Module: Async programming](./modules/async/)
@@ -165,8 +165,8 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking](https://rs.school/ru/docs/pull-request-review-process) task [RSS Puzzle](./tasks/puzzle/) (using [Mentors Check Criteria](./tasks/puzzle/MentorsCheckCriteria.md))
 - [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
 - If you have less than two students or want more, open RS APP > "Interviews" > "students' waitlist". Press "Want To Interview" and contact the student yourself (notifications may not always be received).
 
@@ -189,8 +189,8 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 - [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
 
 </details>
@@ -212,9 +212,9 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
 - [Interviewing students on CoreJS #1](../tasks/interview-basic-coreJS.md)
-- [Checking the draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
+- [Checking the draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [Project Async Race](./tasks/async-race/)
 
 </details>
 
@@ -223,7 +223,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### January 27, 2026 - February 2, 2026
 
 - Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Async Race](./tasks/async-race/)
+  - [Cross-check](https://rs.school/ru/docs/cross-check-flow) of the [Async Race](./tasks/async-race/)
 
 - Modules:
   - [Testing](./modules/testing/)
@@ -240,9 +240,9 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Project Async Race](./tasks/async-race/) (using [Mentors Check Criteria](./tasks/async-race/non-functional-requirements.md))
-- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking](https://rs.school/ru/docs/pull-request-review-process) task [Project Async Race](./tasks/async-race/) (using [Mentors Check Criteria](./tasks/async-race/non-functional-requirements.md))
+- [Checking the Draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
 - [Interviewing students for CoreJS #1](../tasks/interview-basic-coreJS.md)
 
 </details>
@@ -264,8 +264,8 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor activities</summary>
 
-- [Weekly meeting with students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
+- [Weekly meeting with students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the Draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [Fun Сhat](./tasks/fun-chat/)
 
 </details>
 
@@ -274,7 +274,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### February 10, 2026 - February 16, 2026
 
 - Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Fun Сhat](./tasks/fun-chat/)
+  - [Cross-check](https://rs.school/ru/docs/cross-check-flow) of the [Fun Сhat](./tasks/fun-chat/)
 
 - Modules:
   - [Module: How Browsers Work - Rendering Flow](./modules/how-browsers-work/)
@@ -291,8 +291,8 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary>Mentor Activities</summary>
 
-- [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the final version](https://rs.school/docs/ru/pull-request-review-process) of the [Fun Сhat](./tasks/fun-chat/) (using [Mentors Check Criteria](./tasks/fun-chat/README.md#technical-requirements-160))
+- [Weekly Meeting with Students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the final version](https://rs.school/ru/docs/pull-request-review-process) of the [Fun Сhat](./tasks/fun-chat/) (using [Mentors Check Criteria](./tasks/fun-chat/README.md#technical-requirements-160))
 
 </details>
 
@@ -317,9 +317,9 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Weekly Meeting with Students](https://rs.school/docs/ru/mentoring#eженедельный-митинг-со-студентами)
-- [Checking the Draft version](https://rs.school/docs/ru/pull-request-review-process) of the task [Final-Task. Setup](./tasks/rs-tandem/README.md)
-- [Checking](https://rs.school/docs/ru/pull-request-review-process) task [Presentation](./tasks/presentation/) (using [Mentors Check Criteria](./tasks/presentation/README.md#evaluation-criteria))
+- [Weekly Meeting with Students](https://rs.school/ru/docs/mentoring#eженедельный-митинг-со-студентами)
+- [Checking the Draft version](https://rs.school/ru/docs/pull-request-review-process) of the task [Final-Task. Setup](./tasks/rs-tandem/README.md)
+- [Checking](https://rs.school/ru/docs/pull-request-review-process) task [Presentation](./tasks/presentation/) (using [Mentors Check Criteria](./tasks/presentation/README.md#evaluation-criteria))
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -339,7 +339,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
   <summary markdown="span">Mentor Activities</summary>
 
 - [Checking Final Version of Final-Task. Setup](./tasks/rs-tandem/README.md)
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 1](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/ru/docs/pull-request-review-process) of the [Final-Task. Week 1](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -355,7 +355,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 2](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/ru/docs/pull-request-review-process) of the [Final-Task. Week 2](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -371,7 +371,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 3](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/ru/docs/pull-request-review-process) of the [Final-Task. Week 3](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -387,7 +387,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 4](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/ru/docs/pull-request-review-process) of the [Final-Task. Week 4](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -403,7 +403,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 <details>
   <summary markdown="span">Mentor Activities</summary>
 
-- [Checking progress](https://rs.school/docs/ru/pull-request-review-process) of the [Final-Task. Week 5](./tasks/rs-tandem/README.md)
+- [Checking progress](https://rs.school/ru/docs/pull-request-review-process) of the [Final-Task. Week 5](./tasks/rs-tandem/README.md)
 - [Interviewing students for CoreJS #2](../tasks/interview-corejs.md)
 
 </details>
@@ -413,7 +413,7 @@ Starting at the end of this week, all students must use TypeScript for all subse
 ### March 31, 2026 - April 6, 2026
 
 - Cross-Check Reviews:
-  - [Cross-check](https://rs.school/docs/ru/cross-check-flow) of the [Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
+  - [Cross-check](https://rs.school/ru/docs/cross-check-flow) of the [Final-Task](./tasks/rs-tandem/PERSONAL_SCORE.md)
 
 - Tasks:
   - [CoreJS Interview #2](../tasks/interview-corejs.md)

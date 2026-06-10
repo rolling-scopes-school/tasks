@@ -216,6 +216,6 @@ If the backend returns an empty dashboards list, display a message like "You don
 - Using the `any` type in TypeScript - **-10**
 - Mandatory flag `strict: true` is not set in the TypeScript configuration file - **-10**
 - The ESLint configuration file does not include the `no-explicit-any` rule - **-5**
-- Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` - **-5**
-- Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements) - **-5**
-- Failure to submit on time may lead to points loss according to the [Deadlines for Students requirements](https://rs.school/docs/en/pull-request-review-process#deadlines-for-students)
+- Failure to meet the [requirements](https://rs.school/docs/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request` - **-5**
+- Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/git-convention#commit-requirements) - **-5**
+- Failure to submit on time may lead to points loss according to the [Deadlines for Students requirements](https://rs.school/docs/pull-request-review-process#deadlines-for-students)

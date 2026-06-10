@@ -157,7 +157,7 @@ Presentations will be online in 2 sessions of 2 hours each with Dzianis Sheka an
 
 ## Requirements for commits, PR, repository
 
-[General requirements from stage 2](https://rs.school/docs/ru/rs-app-tasks).
+[General requirements from stage 2](https://rs.school/ru/docs/rs-app-tasks).
 
 ## Evaluation
 

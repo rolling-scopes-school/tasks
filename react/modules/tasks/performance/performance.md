@@ -110,7 +110,7 @@ Create a new branch for this task. Branch name: **"performance"**
 ### 2. Project Management
 
 - Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
 
 ---
 

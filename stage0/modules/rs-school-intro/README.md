@@ -28,7 +28,7 @@
 ## Теория
 
 1. Посмотреть [запись вводного занятия набора 2025Q2](https://youtube.com/live/C3bO8dX5r6o) - 2 часа
-2. Прочитать документацию о курсе https://rs.school/docs/ru
+2. Прочитать документацию о курсе https://rs.school/ru/docs
    - Процесс обучения
    - Возможные причины отчисления
    - Сдача заданий в RS APP
@@ -44,9 +44,9 @@
 
 1. Вам необходимо создать и заполнить [студенческий профайл в RS APP](https://app.rs.school/profile). Вход в приложение RS APP осуществляется через GitHub аккаунт. GitHub аккаунт можно создать здесь - https://github.com/.
 2. Проверить записаны ли вы на курс. Перейти в https://app.rs.school/ раздел `Score`, в столбце `Github` нажать на иконку лупы, ввести свой гитхаб-юзернейм и нажать кнопку `Search`. Если поиск не дал результатов, записаться https://app.rs.school/registry/student
-3. Указать в нике Discord свой GitHub аккаунт https://rs.school/docs/ru/rs-school-chats
+3. Указать в нике Discord свой GitHub аккаунт https://rs.school/ru/docs/rs-school-chats
 4. Сохранить в закладки расписание курса. Перейти в https://app.rs.school/ раздел `Schedule`.
-5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://rs.school/docs/ru/rs-app-tasks#тесты)).
+5. Выполнить тест "RSS Test" в RS APP ([Сдача заданий в RS APP](https://rs.school/ru/docs/rs-app-tasks#тесты)).
 
 ## Терминология, которую вам необходимо знать
 

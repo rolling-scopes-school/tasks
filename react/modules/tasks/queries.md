@@ -134,7 +134,7 @@ This task is a continuation of the state management task. In this task, you will
 
 - **5. Project Management**
   - Commits after the deadline: **-40 points**
-  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/en/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
+  - Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/pull-request-review-process#pull-request-description-must-contain-the-following): **-10 points**
 
 - **6. API Call Migration**
   - Each API call not migrated or not implemented using the chosen query library: **-10 points per each**

@@ -67,15 +67,15 @@ Maximum score - **100**
 
 Fines
 
-- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://rs.school/docs/ru/pull-request-review-process#дедлайны-для-студентов)
+- [ ] Failure to submit on time may lead to points lose according to the [Deadlines for Students requirements](https://rs.school/ru/docs/pull-request-review-process#дедлайны-для-студентов)
 - [ ] The app has wrong components structure (**-20**)
 - [ ] The app doesn't work or has console errors (**-30**)
 - [ ] ESLint warnings or errors are present (**-15**)
 - [ ] Using the `Any` type. (**-20**)
 - [ ] Mandatory flags `noImplicitAny: true` and `strict: true` are not set in the TypeScript configuration file. (**-10**)
 - [ ] The ESLint configuration file does not include the `no-explicit-any` rule. (**-10**)
-- [ ] Failure to meet the [requirements](https://rs.school/docs/en/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
-- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/en/git-convention#commit-requirements). (**-10**)
+- [ ] Failure to meet the [requirements](https://rs.school/docs/pull-request-review-process#pull-request-requirements-pr) when creating a `Pull Request`. (**-10**)
+- [ ] Non-compliance with commit history and commit message [guidelines](https://rs.school/docs/git-convention#commit-requirements). (**-10**)
 
 ### Useful links
 

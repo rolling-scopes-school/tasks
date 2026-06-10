@@ -19,7 +19,7 @@ In this part of the task, you need to add the following functionality to the web
 
 ## Workflow
 
-1. The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/docs/ru/private-repository).
+1. The task must be completed in the school’s private repository. [How to work with a school's private repository](https://rs.school/ru/docs/private-repository).
 2. Create a new branch named `portfolio-part2` from `portfolio` branch. You will find the `portfolio` folder containing the project files completed in the previous stage within this branch.
 3. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).  
    [How to submit](#how-to-submit).
@@ -103,4 +103,4 @@ Penalties for the task are assigned by the course curators, not by students. An 
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://rs.school/docs/ru/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://rs.school/ru/docs/cross-check-flow

@@ -83,10 +83,10 @@ Library – задание stage#0 в ходе выполнения которо
 
 ## Требования к репозиторию
 
-- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
+- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/ru/docs/private-repository)
 - если у вас не создаётся приватный репозиторий школы, задание можно выполнять в личном приватном репозитории
 - от ветки `main` создайте ветку `library` в ней создайте папку `library`, в ней разместите файлы проекта
-- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - если не можете для деплоя использовать `gh-pages`, используйте <https://app.netlify.com/drop>. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 - так как задача делится на три части library будет иметь три версии:
   1. ветка `library` будет содержать первую часть задания, приступая ко второй части создайте ветку `library-part2` от ветки `library` что позволит продолжить с того же места, на котором вы остановились в первой части
@@ -96,12 +96,12 @@ Library – задание stage#0 в ходе выполнения которо
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/ru/docs/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)
+- [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr)
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
 ## Чтобы получить баллы за задание необходимо
@@ -129,7 +129,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания
 
 - форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>
 
 ## Материалы
 
@@ -177,7 +177,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Порядок работы
 
 1. Задание выполняется в приватном репозитории школы.
-   [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
+   [Как работать с приватным репозиторием школы](https://rs.school/ru/docs/private-repository)
 2. От ветки `main` создайте ветку `library` в ней создайте папку `library`, в ней разместите файлы проекта
 3. Выполните задание.
 4. Проверьте соответствие вашей работы [Требованиям к вёрстке](#требования-к-вёрстке)
@@ -187,7 +187,7 @@ Library – задание stage#0 в ходе выполнения которо
    Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке
    `https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2023Q2/library/`
    в которой вместо GITHUB-USERNAME укажите свой никнейм на сайте GitHub
-8. После завершения работы откройте Pull Request из ветки `library` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
+8. После завершения работы откройте Pull Request из ветки `library` в ветку `main`. Название Pull Request дайте по названию задания. [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr) Мержить данный Pull Request не нужно.
 9. Ссылку на деплой вашей работы засабмитьте в [rs app](https://app.rs.school/) раздел "Cross-Check Submit"
 10. После дедлайна таска стартует кросс-чек. Продолжительность кросс-чека три дня. Для получения балла за таск необходимо проверить все присланные на проверку работы и засабмитить в [rs app](https://app.rs.school/) результат проверки.
 
@@ -286,7 +286,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#1
 
 - форма для кросс-чека (Library#1): <https://rolling-scopes-school.github.io/checklist/>
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>
 
 ---
 
@@ -402,7 +402,7 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#2
 
 - форма для кросс-чека (Library#2): <https://rolling-scopes-school.github.io/checklist/>
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>
 
 ---
 
@@ -583,4 +583,4 @@ Library – задание stage#0 в ходе выполнения которо
 ## Проверка задания Library#3
 
 - форма для кросс-чека (Library#3): <https://rolling-scopes-school.github.io/checklist/>
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>

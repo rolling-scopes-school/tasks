@@ -87,21 +87,21 @@
 
 ## Требования к репозиторию
 
-- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/docs/ru/private-repository)
+- задание выполняется в приватном репозитории школы. [Как работать с приватным репозиторием школы](https://rs.school/ru/docs/private-repository)
 - если у вас не создаётся приватный репозиторий школы, задание можно выполнять в личном приватном репозитории
 - от ветки `main` создайте ветку с названием таска в ней создайте папку с названием таска, в ней разместите файлы проекта
-- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/docs/ru/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
+- для деплоя используйте `gh-pages` [Как сделать деплой задания из приватного репозитория школы](https://rs.school/ru/docs/private-repository#как-сделать-деплой-задания-из-приватного-репозитория-школы)
 - если не можете для деплоя использовать `gh-pages`, используйте <https://app.netlify.com/drop>. Название страницы дайте по схеме: имя гитхаб аккаунта - название таска
 
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/ru/docs/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
+- [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr)  
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
 ## Как сабмитить задание
@@ -111,7 +111,7 @@
 
 ## Cross-check
 
-- инструкция по проведению cross-check: <https://rs.school/docs/ru/cross-check-flow>
+- инструкция по проведению cross-check: <https://rs.school/ru/docs/cross-check-flow>
 - ссылки на лучшие работы добавьте, пожалуйста, в эту форму <https://docs.google.com/forms/d/e/1FAIpQLSdALk64QGdQjeHWrgYWn2IcteB8lwY_rufDUi13-ucneo7hLw/viewform?usp=pp_url>
 
 ## Материалы
@@ -146,8 +146,8 @@
 **Максимальный балл за задание +200**
 
 1. Репозиторий +20
-   - pull request выполнен в соответствии с [требованиями](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr) +10
-   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://rs.school/docs/ru/git-convention) +10
+   - pull request выполнен в соответствии с [требованиями](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr) +10
+   - ведётся история коммитов, названия коммитов даются согласно [гайдлайну](https://rs.school/ru/docs/git-convention) +10
 2. Качество кода +160
    - приложение написано на TypeScript.
      - используется Everyday Types +10
