@@ -4,7 +4,7 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 ## Technical requirements
 
-1. Create a separate branch for this task from the previous branch task. Branch name: "nextjs-ssr".
+1. Create a separate branch for this task from the `api-queries` branch (the branch with your search/API application). Branch name: "nextjs-ssr".
 2. Next.js App Router Integration:
    - [Migrate your application from vite to the Next.js by using App Router](https://nextjs.org/docs/app/guides/migrating/from-vite).
    - React-router should be removed. You must use file-based routing provided by next.js (App Router).
@@ -193,8 +193,8 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 ### ❓ Do I need to rewrite the project from scratch or migrate?
 
-You should continue working in the same project and **migrate it** to Next.js App Router.
-Create a new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements.
+You should continue working on your search/API application and **migrate it** to Next.js App Router.
+Branch off `api-queries`, name the new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements (the standalone forms module is excluded).
 
 ### ❓ Where should I deploy? Is GitHub Pages allowed?
 
