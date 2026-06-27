@@ -108,4 +108,4 @@ Any disputed issues should be resolved in favor of the student being assessed.
 
 ## Task Evaluation
 
-- Follow the instructions for conducting a cross-check available at: https://rs.school/docs/ru/cross-check-flow
+- Follow the instructions for conducting a cross-check available at: https://rs.school/ru/docs/cross-check-flow

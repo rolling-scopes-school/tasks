@@ -4,7 +4,7 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 ## Technical requirements
 
-1. Create a separate branch for this task from the previous branch task. Branch name: "nextjs-ssr".
+1. Create a separate branch for this task from the `api-queries` branch (the branch with your search/API application). Branch name: "nextjs-ssr".
 2. Next.js App Router Integration:
    - [Migrate your application from vite to the Next.js by using App Router](https://nextjs.org/docs/app/guides/migrating/from-vite).
    - React-router should be removed. You must use file-based routing provided by next.js (App Router).
@@ -153,22 +153,22 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 - Initial load of the search results page (with current page and query parameters) is rendered on the server. [8 points]
 - The search results list and layout (including the container for the details panel) are implemented using server components. [7 points]
 
-### Feature 10: Server Actions for Search, Filtering, and Detail Selection (**10 points**)
+### Feature 10: Server Actions for Search and Detail Selection (**10 points**)
 
 **As a** user
-**I want** my interactions on the search results page (search, filter, select item) to be handled on the server
+**I want** my interactions on the search results page (search, select item) to be handled on the server
 **So that** I always see up-to-date data with minimal client-side logic
 
 **Scenario:** Server-Driven Interactions on Search Page
 
 - **Given** I am on the search results page
-- **When** I submit a search or filter form
+- **When** I submit a search form
 - **Then** a Next.js server action (e.g., using `useActionState` or form actions) handles the request and returns updated server-rendered results
 - **And** when I select an item, the server-driven details panel component receives the selected ID and fetches data on the server
 
 **Acceptance Criteria:**
 
-- Search and filter submissions are wired through server actions or server functions, not ad-hoc client-only fetch calls. [5 points]
+- Search submissions are wired through server actions or server functions, not ad-hoc client-only fetch calls. [5 points]
 - Selecting an item for the details panel triggers server-side data fetching for that item (via server component or server function). [5 points]
 
 ### Penalties
@@ -193,8 +193,8 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 
 ### ❓ Do I need to rewrite the project from scratch or migrate?
 
-You should continue working in the same project and **migrate it** to Next.js App Router.
-Create a new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements.
+You should continue working on your search/API application and **migrate it** to Next.js App Router.
+Branch off `api-queries`, name the new branch `nextjs-ssr`, replace `react-router` with file-based routing, and adjust the existing functionality so it works in the new environment — keeping everything from previous modules that doesn’t conflict with the new requirements (the standalone forms module is excluded).
 
 ### ❓ Where should I deploy? Is GitHub Pages allowed?
 

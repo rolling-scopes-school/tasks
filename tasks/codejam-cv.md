@@ -26,7 +26,7 @@ https://your-github-account.github.io/rsschool-cv/
 
 ### Requirements for commits
 
-https://rs.school/docs/en/git-convention
+https://rs.school/docs/git-convention
 
 ### Requirements for PR (Pull Request)
 

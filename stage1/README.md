@@ -131,7 +131,7 @@
 #### September 30, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio-part-1.md)"
+  - [Cross-check review](https://rs.school/ru/docs/cross-check-flow) of project "[Portfolio. Part 1: Responsive Layout](./tasks/portfolio/portfolio-part-1.md)"
 
 - Modules:
   - [Module: HTML Forms & Validation](modules/html-form/)
@@ -151,7 +151,7 @@
 #### October 7, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio-part-2.md)"
+  - [Cross-check review](https://rs.school/ru/docs/cross-check-flow) of the project "[Portfolio. Part 2: Adding Functionality](./tasks/portfolio/portfolio-part-2.md)"
 
 - Modules:
   - [Module: Git Recap](modules/git-recap/)
@@ -185,7 +185,7 @@
 #### October 21, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
+  - [Cross-check review](https://rs.school/ru/docs/cross-check-flow) of the project [Clean Code S1E1](modules/clean-code/clean-code-s1e1.md)
 
 - Modules:
   - [Module: Canvas API](modules/canvas-api/)
@@ -221,7 +221,7 @@
 #### November 4, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of the project [Virtual Music Kit](./tasks/virtual-music-kit/)
+  - [Cross-check review](https://rs.school/ru/docs/cross-check-flow) of the project [Virtual Music Kit](./tasks/virtual-music-kit/)
 
 - Modules:
   - [Module: Chrome DevTools](modules/chrome-devtools/)
@@ -250,7 +250,7 @@
 #### November 18, 2025
 
 - Cross-Check Reviews:
-  - [Cross-check review](https://rs.school/docs/ru/cross-check-flow) of project [Pair 'em Up](./tasks/pair-em-up/)
+  - [Cross-check review](https://rs.school/ru/docs/cross-check-flow) of project [Pair 'em Up](./tasks/pair-em-up/)
 
 - Modules:
   - [Module: JavaScript. Classes & Prototypes](modules/classes-prototypes/)
@@ -267,7 +267,7 @@
 
 ## 👨‍🏫 Mentor activities
 
-- [Course registration confirmation](https://rs.school/docs/ru/mentoring-kick-off)
+- [Course registration confirmation](https://rs.school/ru/docs/mentoring-kick-off)
 
 ## ❓ FAQ
 

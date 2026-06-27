@@ -32,12 +32,12 @@ The second part of the application (`Decision Picker`) allows you to visualize t
 
 ## Repository and Submission Requirements
 
-- Use a [private school repository](https://rs.school/docs/ru/private-repository) to develop this application.
+- Use a [private school repository](https://rs.school/ru/docs/private-repository) to develop this application.
 - Use the `decision-making-tool` branch as your development branch.
-- Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://rs.school/docs/ru/git-convention).
+- Your commits in the development branch should reflect the development history. Commits must follow the [guideline](https://rs.school/ru/docs/git-convention).
 - Use the `gh-pages` branch as the deploy branch _(e.g. via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package)_. _(It is allowed to use netlify if you can't deploy to gh-pages because of permissions.)_
 - Use the app **deploy link** to [submit](https://app.rs.school/course/student/cross-check-submit) the app to crosscheck in [app.rs](https://app.rs.school/course/student/cross-check-submit). **Make sure** your link is accessible to everyone by opening it in incognito mode.
-- Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://rs.school/docs/ru/pull-request-review-process?id=Требования-к-pull-request-pr#требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
+- Create a Pull Request from the development branch into the `main` branch and format it according to [PR requirements](https://rs.school/ru/docs/pull-request-review-process?id=Требования-к-pull-request-pr#требования-к-pull-request-pr). **Do not merge** the development branch into the `main` branch.
 - Use the **PR link** to [submit](https://app.rs.school/course/student/dashboard) the app to mentor in [app.rs](https://app.rs.school/course/student/dashboard).
 
 ## General Requirements

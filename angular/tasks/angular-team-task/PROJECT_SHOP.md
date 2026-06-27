@@ -6,8 +6,7 @@ The platform runs on top of the **commercetools HTTP API** — an enterprise-gra
 
 > **API:** [commercetools HTTP API](https://docs.commercetools.com/api).
 > Auth: `{auth_url}/oauth/token` (OAuth2 client credentials).
-> REST: `{api_url}/{project_key}/…`
-> [Merchant Center](https://mc.commercetools.com/) — UI for catalog management.
+> REST: `{api_url}/{project_key}/…` > [Merchant Center](https://mc.commercetools.com/) — UI for catalog management.
 
 ---
 

@@ -116,7 +116,7 @@ No. Links to recommended theory for study are in the modules. After self-studyin
 ### Who checks the assignments?
 
 - Projects "CV#3", "Christmas shop", "Dashboard" are checked through [Cross-check](https://rs.school/docs/cross-check-flow)
-- Algorithmic tasks and Codewars problems are checked automatically. You need to [submit your solutions in RS APP](https://rs.school/docs/ru/rs-app-tasks) before the deadline.
+- Algorithmic tasks and Codewars problems are checked automatically. You need to [submit your solutions in RS APP](https://rs.school/ru/docs/rs-app-tasks) before the deadline.
 - Tasks "CV#1. Markdown & Git", "CV#2. HTML, CSS & Git Basics" are checked automatically.
 
 ### How to transfer completed assignments from the school's private repository to your personal repository

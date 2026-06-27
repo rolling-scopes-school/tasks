@@ -78,8 +78,7 @@ Controls effects example:
 
    Example commit messages:
 
-   > `init: start cssMemeSlider-task (Mon, Sep 13, 2021 10:12:24 PM)`
-   > `feat: add basic page layout (Mon, Sep 13, 2021 10:25:24 PM)`
+   > `init: start cssMemeSlider-task (Mon, Sep 13, 2021 10:12:24 PM)` > `feat: add basic page layout (Mon, Sep 13, 2021 10:25:24 PM)`
 
    Shell template you can use:
 

@@ -118,12 +118,12 @@
 ## Требования к коммитам
 
 - История коммитов должна отображать процесс разработки приложения.
-- [Названия коммитов дайте согласно гайдлайну](https://rs.school/docs/ru/git-convention)
+- [Названия коммитов дайте согласно гайдлайну](https://rs.school/ru/docs/git-convention)
 
 ## Требования к Pull Request
 
 - Название Pull Request дайте по названию задания
-- [Описание Pull Request дайте по схеме](https://rs.school/docs/ru/pull-request-review-process#требования-к-pull-request-pr)  
+- [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/pull-request-review-process#требования-к-pull-request-pr)  
   **Мержить Pull Request из ветки разработки в ветку `main` не нужно**.
 
 ## Чтобы получить баллы за задание необходимо:
@@ -151,4 +151,4 @@
 ## Проверка задания
 
 - форма проверки каждой части задания - кросс-чек
-- инструкция по проведению cross-check: https://rs.school/docs/ru/cross-check-flow
+- инструкция по проведению cross-check: https://rs.school/ru/docs/cross-check-flow
