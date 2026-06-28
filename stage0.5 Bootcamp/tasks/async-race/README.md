@@ -6,7 +6,7 @@
 
 ## Our Handbook
 
-👉 [Open Handbook](https://publish.obsidian.md/juniornotess/RS-Bootcamp-2026/Tasks/07+%E2%80%94+Async+Race) 👈
+👉 [Open Handbook](https://autocubes.site/junior-notes/rs-bootcamp-2026/readme) 👈
 
 This handbook is currently in a test phase.
 If you notice any issues or have suggestions, feel free to contact me on Discord: `@OreskaG`
