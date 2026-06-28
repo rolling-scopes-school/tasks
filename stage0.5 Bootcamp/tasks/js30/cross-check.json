@@ -64,17 +64,12 @@
     },
     {
       "type": "penalty",
-      "text": "Browser-console self-evaluation is missing or does not list the claimed items",
-      "max": -5
-    },
-    {
-      "type": "penalty",
       "text": "Commit history does not reflect real development (single dump commit)",
       "max": -10
     },
     {
       "type": "penalty",
-      "text": "PR is not open against main with a working Netlify preview link",
+      "text": "PR is not open against main of the shared repository with working Netlify preview links for both widgets",
       "max": -10
     },
     {
@@ -151,17 +146,12 @@
     },
     {
       "type": "penalty",
-      "text": "Browser-console self-evaluation is missing or does not list the claimed items",
-      "max": -5
-    },
-    {
-      "type": "penalty",
       "text": "Commit history does not reflect real development (single dump commit)",
       "max": -10
     },
     {
       "type": "penalty",
-      "text": "PR is not open against main with a working Netlify preview link",
+      "text": "PR is not open against main of the shared repository with working Netlify preview links for both widgets",
       "max": -10
     },
     {
