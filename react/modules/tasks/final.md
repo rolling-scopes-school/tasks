@@ -373,7 +373,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**
-  - [ ] Making commits after the deadline **-100 points**
+  - [ ] Making commits after the deadline during the cross-check period **-100 points**
   - [ ] Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr) **-10 points**
   - [ ] ⚠️ The administration reserves the right to apply penalties for the use of incorrect repository or branch names
 
