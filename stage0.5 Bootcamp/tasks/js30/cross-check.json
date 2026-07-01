@@ -69,11 +69,6 @@
     },
     {
       "type": "penalty",
-      "text": "PR is not open against main of the shared repository with working Netlify preview links for both widgets",
-      "max": -10
-    },
-    {
-      "type": "penalty",
       "text": "Major bug - functionality works but breaks after some manipulations or throws console errors (per bug)",
       "max": -15
     },
@@ -147,11 +142,6 @@
     {
       "type": "penalty",
       "text": "Commit history does not reflect real development (single dump commit)",
-      "max": -10
-    },
-    {
-      "type": "penalty",
-      "text": "PR is not open against main of the shared repository with working Netlify preview links for both widgets",
       "max": -10
     },
     {
