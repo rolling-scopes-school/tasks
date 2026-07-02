@@ -4,7 +4,7 @@
     { "type": "title", "title": "Section 1 - Landing page and search" },
     {
       "type": "subtask",
-      "text": "Landing page loads and renders a list of recent podcasts fetched from the Recent Feeds API",
+      "text": "Landing page loads and renders a list of podcasts fetched from the Best Podcasts API (GET /best_podcasts, sort=recent_published_first)",
       "max": 5
     },
     {
@@ -24,12 +24,12 @@
     },
     {
       "type": "subtask",
-      "text": "When the search input is empty, recent feeds are shown",
+      "text": "When the search input is empty, podcasts from GET /best_podcasts are shown",
       "max": 5
     },
     {
       "type": "subtask",
-      "text": "When the search input has a value, results come from the Search Podcasts API",
+      "text": "When the search input has a value, results come from the Search API (GET /search?q=<query>&type=podcast)",
       "max": 5
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "subtask",
-      "text": "Details page lists episodes parsed from the feed XML obtained via By Feed ID API",
+      "text": "Details page lists episodes from the Podcast Details API (GET /podcasts/{id})",
       "max": 10
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "type": "penalty",
-      "text": "API Key or API Secret is hardcoded in a committed file in plain text",
+      "text": "API Key is hardcoded in a committed file in plain text",
       "max": -15
     },
     {
