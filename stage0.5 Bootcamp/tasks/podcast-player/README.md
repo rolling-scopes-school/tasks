@@ -2,7 +2,7 @@
 
 ## Skills
 
-`vanilla JavaScript` `TypeScript` `Fetch API` `Web Crypto API` `async/await` `debouncing` `routing` `HTML5 Audio API` `LocalStorage` `XML parsing` `responsive design`
+`vanilla JavaScript` `TypeScript` `Fetch API` `async/await` `debouncing` `routing` `HTML5 Audio API` `LocalStorage` `responsive design`
 
 ## Our Handbook
 
@@ -21,7 +21,7 @@ A podcast player is an app for playing podcasts - audio recordings that are typi
 
 Build a simplified web version of a podcast player that covers these user stories:
 
-1. The user can see a list of recently updated podcasts.
+1. The user can see a list of recently published or recommended podcasts.
 2. The user can search podcasts via text search.
 3. The user can open a podcast from the list and see a details page with its recent episodes.
 4. The user can select an episode and start listening to it.
@@ -38,53 +38,31 @@ The task is split into four sections. Each section builds on the previous ones.
 
 _Covers user stories 1, 2._
 
-1. Register at [Podcast Index API](https://api.podcastindex.org/) and obtain an **API Key** and **API Secret**. See [code examples](https://podcastindex-org.github.io/docs-api/#overview--libraries) for working with the API. Besides the key and secret, you also need an **API HeaderTime** and a calculated **Authorization** header.
+1. Register at [Listen Notes Podcast API](https://www.listennotes.com/api/) and obtain an **API Key**. Use the [Listen API v2 documentation](https://www.listennotes.com/api/docs/) while working with the endpoints.
 
-   Example of authenticated calls from the browser using the Web Crypto API:
+   Base URL:
+
+   ```txt
+   https://listen-api.listennotes.com/api/v2
+   ```
+
+   Authenticated requests use the `X-ListenAPI-Key` header.
 
    ```ts
    class App {
-     fetchRecent(apiKey: string, apiSecret: string): void {
-       const url = "https://api.podcastindex.org/api/1.0/recent/feeds?max=10";
-       const apiHeaderTime: string = "" + Math.round(Date.now() / 1_000);
+     fetchPodcasts(apiKey: string): void {
+       const url =
+         "https://listen-api.listennotes.com/api/v2/best_podcasts?sort=recent_published_first&page=1";
 
-       this.getAuthorizationHeaderValue(apiKey, apiSecret, apiHeaderTime)
-         .then((authorization) =>
-           this.getHeaders(apiHeaderTime, apiKey, authorization),
-         )
-         .then((headers) => ({ method: "GET", headers }))
-         .then((requestInit) => fetch(url, requestInit))
+       fetch(url, {
+         method: "GET",
+         headers: {
+           Accept: "application/json",
+           "X-ListenAPI-Key": apiKey,
+         },
+       })
          .then((res) => res.json())
          .then((json) => console.log(json));
-     }
-
-     private async getAuthorizationHeaderValue(
-       apiKey: string,
-       apiSecret: string,
-       apiHeaderTime: string,
-     ): Promise<string> {
-       const arrayBuffer = new TextEncoder().encode(
-         apiKey + apiSecret + apiHeaderTime,
-       );
-       const digest = await crypto.subtle.digest("SHA-1", arrayBuffer);
-       return [...new Uint8Array(digest)]
-         .map((x) => x.toString(16).padStart(2, "0"))
-         .join("");
-     }
-
-     private getHeaders(
-       apiHeaderTime: string,
-       apiKey: string,
-       authorization: string,
-     ): HeadersInit {
-       const headers = new Headers();
-       headers.set("Accept", "application/json");
-       headers.set("Content-Type", "application/json; utf-8");
-       headers.set("X-Auth-Date", apiHeaderTime);
-       headers.set("X-Auth-Key", apiKey);
-       headers.set("Authorization", authorization);
-       headers.set("User-Agent", "my-amazing-podcast-player");
-       return headers;
      }
    }
    ```
@@ -97,10 +75,11 @@ _Covers user stories 1, 2._
    Spotify landing
    ![Spotify Landing](assets/landing/spotify_landing.png)
 
-3. Fetch recent feeds with the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) and render them on the landing page. Apply pagination or infinite scroll if needed.
+3. Fetch podcasts with the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, use `sort=recent_published_first`) and render them on the landing page. Apply pagination or infinite scroll if needed. For pagination, pass the next `page` value from `next_page_number` in the response.
 4. Add a search input.
-   - When the input is empty, show recent feeds.
-   - When the input has a value, use the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm).
+   - When the input is empty, show the podcasts loaded from `GET /best_podcasts`.
+   - When the input has a value, use the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`).
+   - For search pagination, pass the next `offset` value from `next_offset` in the response.
    - Search requests must **not** fire on every keystroke. Use [debouncing or throttling](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript) to limit the number of API calls.
 
 ### Section 2 - Podcast details page
@@ -115,7 +94,7 @@ _Covers user story 3._
    Spotify details
    ![Spotify Details](assets/details/spotify_details.png)
 
-2. To load episodes: use the `url` field from the [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) response, fetch that XML feed, parse it, and render episodes from the parsed result.
+2. To load episodes, use the podcast `id` from the landing/search result and request detailed data with the [Podcast Details API](https://www.listennotes.com/api/docs/) (`GET /podcasts/{id}`). Render episodes from the `episodes` array in the response. Use `next_episode_pub_date` if you implement episode pagination.
 3. The user must be able to return to the landing page without using the browser's "Back" button (provide an in-app navigation control).
 
 ### Section 3 - Podcast player
@@ -158,7 +137,7 @@ _Covers user stories 7, 8._
 6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 7. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
 
-> **Note on API keys.** You will be deploying a public site that uses your Podcast Index API Key and Secret. These credentials grant access only to the Podcast Index API and have no billing impact, but treat them as personal - do not reuse them outside this project, and rotate them after the task if you wish.
+> **Note on API keys.** You will be deploying a public site that uses your Listen Notes API Key. Treat it as personal: do not hardcode it into committed files in plain text. Use an environment variable, a build-time secret, or an untracked local config file. Rotate the key after the task if you wish.
 
 ## Cross-check
 
@@ -172,19 +151,19 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 ### Section 1 - Landing page and search (40 points)
 
-- The landing page loads and renders a list of recent podcasts fetched from the [Recent Feeds API](https://podcastindex-org.github.io/docs-api/#get-/recent/feeds) **+5**
+- The landing page loads and renders a list of podcasts fetched from the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, `sort=recent_published_first`) **+5**
 - Each podcast tile shows at least: cover image, title, author/feed name **+5**
 - Pagination or infinite scroll loads additional podcasts beyond the initial batch **+5**
 - A search input is present on the landing page **+5**
-- When the search input is empty, recent feeds are shown **+5**
-- When the search input has a value, results come from the [Search Podcasts API](https://podcastindex-org.github.io/docs-api/#get-/search/byterm) **+5**
+- When the search input is empty, podcasts from `GET /best_podcasts` are shown **+5**
+- When the search input has a value, results come from the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`) **+5**
 - Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
 - A loading indicator is shown while a request is in flight **+5**
 
 ### Section 2 - Podcast details page (25 points)
 
 - Clicking a podcast tile navigates to a details page for that podcast **+5**
-- The details page lists episodes parsed from the feed XML obtained via [By Feed ID API](https://podcastindex-org.github.io/docs-api/#get-/podcasts/byfeedid) **+10**
+- The details page lists episodes from the [Podcast Details API](https://www.listennotes.com/api/docs/) (`GET /podcasts/{id}`) **+10**
 - Each episode item shows at least: title, publication date, duration **+5**
 - An in-app control returns the user to the landing page without using the browser's "Back" button **+5**
 
@@ -212,19 +191,17 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 - A UI framework (React, Vue, Angular, Svelte, etc.) is used **-140**
 - Page transitions cause full reloads (not an SPA) **-20**
-- API Key or API Secret is hardcoded into a committed file in plain text **-15**
+- API Key is hardcoded into a committed file in plain text **-15**
 - Console errors during normal use **-10**
 - Layout is visibly broken on the latest Chrome at a 1280px viewport **-10**
 
 ## Learning Resources
 
-- [Podcast Index API documentation](https://podcastindex-org.github.io/docs-api/)
+- [Listen Notes Podcast API documentation](https://www.listennotes.com/api/docs/)
 - [Fetch API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [Web Crypto: `SubtleCrypto.digest()` - MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest)
 - [Debouncing and Throttling in JavaScript - Telerik](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
 - [HTMLAudioElement - MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
 - [Using the HTML5 Audio API - MDN](https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery)
-- [DOMParser (parsing XML) - MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
 - [Window.localStorage - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [Building a Single Page Application without a framework - DEV](https://dev.to/maxime1992/single-page-application-without-a-framework-31o)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
