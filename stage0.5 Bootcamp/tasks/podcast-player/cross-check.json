@@ -5,16 +5,11 @@
     {
       "type": "subtask",
       "text": "Landing page loads and renders a list of podcasts fetched from the Best Podcasts API (GET /best_podcasts, sort=recent_published_first)",
-      "max": 5
+      "max": 10
     },
     {
       "type": "subtask",
       "text": "Each podcast tile shows at least: cover image, title, author/feed name",
-      "max": 5
-    },
-    {
-      "type": "subtask",
-      "text": "Pagination or infinite scroll loads additional podcasts beyond the initial batch",
       "max": 5
     },
     {
@@ -29,7 +24,7 @@
     },
     {
       "type": "subtask",
-      "text": "When the search input has a value, results come from the Search API (GET /search?q=<query>&type=podcast)",
+      "text": "When the search input has a value, a request is sent to the Search API (GET /search?q=<query>&type=podcast) and the response is rendered",
       "max": 5
     },
     {
@@ -149,11 +144,6 @@
       "type": "penalty",
       "text": "Page transitions cause full reloads (not an SPA)",
       "max": -20
-    },
-    {
-      "type": "penalty",
-      "text": "API Key is hardcoded in a committed file in plain text",
-      "max": -15
     },
     {
       "type": "penalty",
