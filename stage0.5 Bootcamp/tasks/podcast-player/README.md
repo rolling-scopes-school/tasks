@@ -21,8 +21,8 @@ A podcast player is an app for playing podcasts - audio recordings that are typi
 
 Build a simplified web version of a podcast player that covers these user stories:
 
-1. The user can see a list of recommended podcasts provided by the Listen Notes test API.
-2. The user can search podcasts via text search. Since the test API returns predefined test data, search results may not correspond to the entered query.
+1. The user can see a list of recommended podcasts.
+2. The user can search podcasts via text search. If you use the Listen Notes test API, search results may not correspond to the entered query because the API returns predefined test data.
 3. The user can open a podcast from the list and see a details page with its available episodes.
 4. The user can select an episode and start listening to it.
 5. The user can seek forward and back through the episode timeline.
@@ -34,11 +34,19 @@ The task is split into four sections. Each section builds on the previous ones.
 
 ## Requirements
 
+> **API choice**
+>
+> You may use **any podcast API** that provides the data required to complete this task (podcast list, podcast details, search, and episode information).
+>
+> The **Listen Notes test API** is the recommended option because it does not require registration or an API key and is sufficient to complete all required functionality.
+>
+> Regardless of the API you choose, your application must satisfy all functional requirements and scoring criteria.
+
 ### Section 1 - Landing page and search
 
 _Covers user stories 1, 2._
 
-1. Use the Listen Notes test API for this task. Refer to the official [Listen Notes guide on testing the Podcast API without an API key](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key) for information about the test API, and use the [Listen API v2 documentation](https://www.listennotes.com/api/docs/) while working with the endpoints.
+1. You may use **any podcast API**. The examples in this task use the **Listen Notes test API**. Refer to the official [Listen Notes guide on testing the Podcast API without an API key](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key) for information about the test API, and use the [Listen API v2 documentation](https://www.listennotes.com/api/docs/) while working with the endpoints.
 
    Base URL:
 
