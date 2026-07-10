@@ -4,7 +4,7 @@
     { "type": "title", "title": "Section 1 - Landing page and search" },
     {
       "type": "subtask",
-      "text": "Landing page loads and renders a list of podcasts fetched from the Best Podcasts API (GET /best_podcasts, sort=recent_published_first)",
+      "text": "Landing page loads and renders a list of podcasts fetched from the selected podcast API",
       "max": 10
     },
     {
@@ -19,12 +19,12 @@
     },
     {
       "type": "subtask",
-      "text": "When the search input is empty, podcasts from GET /best_podcasts are shown",
+      "text": "When the search input is empty, the default podcast list is shown",
       "max": 5
     },
     {
       "type": "subtask",
-      "text": "When the search input has a value, a request is sent to the Search API (GET /search?q=<query>&type=podcast) and the response is rendered",
+      "text": "When the search input has a value, search results are displayed",
       "max": 5
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "type": "subtask",
-      "text": "Details page lists episodes from the Podcast Details API (GET /podcasts/{id})",
+      "text": "The details page lists episodes for the selected podcast",
       "max": 10
     },
     {

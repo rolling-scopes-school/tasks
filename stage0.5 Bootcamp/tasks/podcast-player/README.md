@@ -160,18 +160,18 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 ### Section 1 - Landing page and search (40 points)
 
-- The landing page loads and renders a list of podcasts fetched from the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, `sort=recent_published_first`) **+10**
+- The landing page loads and renders a list of podcasts fetched from the selected podcast API **+10**
 - Each podcast tile shows at least: cover image, title, author/feed name **+5**
 - A search input is present on the landing page **+5**
-- When the search input is empty, podcasts from `GET /best_podcasts` are shown **+5**
-- When the search input has a value, a request is sent to the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`) and the response is rendered **+5**
+- When the search input is empty, the default podcast list is shown **+5**
+- When the search input has a value, search results are displayed **+5**
 - Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
 - A loading indicator is shown while a request is in flight **+5**
 
 ### Section 2 - Podcast details page (25 points)
 
 - Clicking a podcast tile navigates to a details page for that podcast **+5**
-- The details page lists episodes from the [Podcast Details API](https://www.listennotes.com/api/docs/) (`GET /podcasts/{id}`) **+10**
+- The details page lists episodes for the selected podcast **+10**
 - Each episode item shows at least: title, publication date, duration **+5**
 - An in-app control returns the user to the landing page without using the browser's "Back" button **+5**
 
