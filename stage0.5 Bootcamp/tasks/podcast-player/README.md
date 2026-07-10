@@ -21,9 +21,9 @@ A podcast player is an app for playing podcasts - audio recordings that are typi
 
 Build a simplified web version of a podcast player that covers these user stories:
 
-1. The user can see a list of recently published or recommended podcasts.
-2. The user can search podcasts via text search.
-3. The user can open a podcast from the list and see a details page with its recent episodes.
+1. The user can see a list of recommended podcasts.
+2. The user can search podcasts via text search. If you use the Listen Notes test API, search results may not correspond to the entered query because the API returns predefined test data.
+3. The user can open a podcast from the list and see a details page with its available episodes.
 4. The user can select an episode and start listening to it.
 5. The user can seek forward and back through the episode timeline.
 6. The user can keep navigating the app (search podcasts, browse episodes) while an episode is playing in the player.
@@ -34,31 +34,38 @@ The task is split into four sections. Each section builds on the previous ones.
 
 ## Requirements
 
+> **API choice**
+>
+> You may use **any podcast API** that provides the data required to complete this task (podcast list, podcast details, search, and episode information).
+>
+> The **Listen Notes test API** is the recommended option because it does not require registration or an API key and is sufficient to complete all required functionality.
+>
+> Regardless of the API you choose, your application must satisfy all functional requirements and scoring criteria.
+
 ### Section 1 - Landing page and search
 
 _Covers user stories 1, 2._
 
-1. Register at [Listen Notes Podcast API](https://www.listennotes.com/api/) and obtain an **API Key**. Use the [Listen API v2 documentation](https://www.listennotes.com/api/docs/) while working with the endpoints.
+1. You may use **any podcast API**. The examples in this task use the **Listen Notes test API**. Refer to the official [Listen Notes guide on testing the Podcast API without an API key](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key) for information about the test API, and use the [Listen API v2 documentation](https://www.listennotes.com/api/docs/) while working with the endpoints.
 
    Base URL:
 
    ```txt
-   https://listen-api.listennotes.com/api/v2
+   https://listen-api-test.listennotes.com/api/v2
    ```
 
-   Authenticated requests use the `X-ListenAPI-Key` header.
+   The test API does not require authentication. Requests can be sent without the `X-ListenAPI-Key` header.
 
    ```ts
    class App {
-     fetchPodcasts(apiKey: string): void {
+     fetchPodcasts(): void {
        const url =
-         "https://listen-api.listennotes.com/api/v2/best_podcasts?sort=recent_published_first&page=1";
+         "https://listen-api-test.listennotes.com/api/v2/best_podcasts?sort=recent_published_first&page=1";
 
        fetch(url, {
          method: "GET",
          headers: {
            Accept: "application/json",
-           "X-ListenAPI-Key": apiKey,
          },
        })
          .then((res) => res.json())
@@ -75,11 +82,13 @@ _Covers user stories 1, 2._
    Spotify landing
    ![Spotify Landing](assets/landing/spotify_landing.png)
 
-3. Fetch podcasts with the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, use `sort=recent_published_first`) and render them on the landing page. Apply pagination or infinite scroll if needed. For pagination, pass the next `page` value from `next_page_number` in the response.
+3. Fetch podcasts using the [Best Podcasts API](https://www.listennotes.com/api/docs/) endpoint (`GET /best_podcasts`, use `sort=recent_published_first`) and render them on the landing page. The test API returns predefined mock data, therefore pagination or infinite scroll is not required for this task.
+
 4. Add a search input.
    - When the input is empty, show the podcasts loaded from `GET /best_podcasts`.
-   - When the input has a value, use the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`).
-   - For search pagination, pass the next `offset` value from `next_offset` in the response.
+   - When the input has a value, send a request to the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`).
+   - The test API returns predefined mock data, so the search results may not correspond to the entered query.
+   - Search pagination is not required because the test API returns predefined mock data.
    - Search requests must **not** fire on every keystroke. Use [debouncing or throttling](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript) to limit the number of API calls.
 
 ### Section 2 - Podcast details page
@@ -94,7 +103,7 @@ _Covers user story 3._
    Spotify details
    ![Spotify Details](assets/details/spotify_details.png)
 
-2. To load episodes, use the podcast `id` from the landing/search result and request detailed data with the [Podcast Details API](https://www.listennotes.com/api/docs/) (`GET /podcasts/{id}`). Render episodes from the `episodes` array in the response. Use `next_episode_pub_date` if you implement episode pagination.
+2. To load episodes, use the podcast `id` from the landing/search result and request detailed data with the [Podcast Details API](https://www.listennotes.com/api/docs/) (`GET /podcasts/{id}`). Render episodes from the `episodes` array in the response.
 3. The user must be able to return to the landing page without using the browser's "Back" button (provide an in-app navigation control).
 
 ### Section 3 - Podcast player
@@ -137,13 +146,13 @@ _Covers user stories 7, 8._
 6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 7. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
 
-> **Note on API keys.** You will be deploying a public site that uses your Listen Notes API Key. Treat it as personal: do not hardcode it into committed files in plain text. Use an environment variable, a build-time secret, or an untracked local config file. Rotate the key after the task if you wish.
+> **Note.** This task uses the Listen Notes test API, which does not require an API key or authentication. The API returns predefined mock data intended for development and testing.
 
 ## Cross-check
 
 This task is reviewed via the [cross-check process](https://rs.school/docs/cross-check-flow).
 
-The reviewer goes through every scoring criterion and awards the listed points only if the feature works in the deployed app. Criteria that cannot be verified (e.g. the app fails to load, the API key is broken) score 0 for that block.
+The reviewer goes through every scoring criterion and awards the listed points only if the feature works in the deployed app. Criteria that cannot be verified (e.g. the app fails to load or API requests fail) score 0 for that block.
 
 ## Scoring Criteria
 
@@ -151,12 +160,11 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 ### Section 1 - Landing page and search (40 points)
 
-- The landing page loads and renders a list of podcasts fetched from the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, `sort=recent_published_first`) **+5**
+- The landing page loads and renders a list of podcasts fetched from the [Best Podcasts API](https://www.listennotes.com/api/docs/) (`GET /best_podcasts`, `sort=recent_published_first`) **+10**
 - Each podcast tile shows at least: cover image, title, author/feed name **+5**
-- Pagination or infinite scroll loads additional podcasts beyond the initial batch **+5**
 - A search input is present on the landing page **+5**
 - When the search input is empty, podcasts from `GET /best_podcasts` are shown **+5**
-- When the search input has a value, results come from the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`) **+5**
+- When the search input has a value, a request is sent to the [Search API](https://www.listennotes.com/api/docs/) (`GET /search?q=<query>&type=podcast`) and the response is rendered **+5**
 - Search requests are debounced or throttled (verified by observing network requests in DevTools while typing) **+5**
 - A loading indicator is shown while a request is in flight **+5**
 
@@ -191,12 +199,12 @@ The reviewer goes through every scoring criterion and awards the listed points o
 
 - A UI framework (React, Vue, Angular, Svelte, etc.) is used **-140**
 - Page transitions cause full reloads (not an SPA) **-20**
-- API Key is hardcoded into a committed file in plain text **-15**
 - Console errors during normal use **-10**
 - Layout is visibly broken on the latest Chrome at a 1280px viewport **-10**
 
 ## Learning Resources
 
+- [Listen Notes guide: Testing the Podcast API without an API key](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key)
 - [Listen Notes Podcast API documentation](https://www.listennotes.com/api/docs/)
 - [Fetch API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Debouncing and Throttling in JavaScript - Telerik](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
