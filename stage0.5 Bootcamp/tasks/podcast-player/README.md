@@ -143,7 +143,7 @@ _Covers user stories 7, 8._
 3. Complete the task.
 4. Deploy your work to `gh-pages`.
 5. Open a Pull Request from `podcast-player` into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** this PR.
-6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+6. Submit the Pull Request link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 7. After the deadline, the cross-check begins (3 days). To get the score, you must review all assigned works and submit results in **Cross-Check Review**.
 
 > **Note.** This task uses the Listen Notes test API, which does not require an API key or authentication. The API returns predefined mock data intended for development and testing.
