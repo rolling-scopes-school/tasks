@@ -88,7 +88,7 @@ The exact wording is up to you, but those four facts must be present.
 2. Deploy your work to `gh-pages`. If `gh-pages` is not available, use <https://app.netlify.com/drop> with the naming scheme `<github-username>-not-fight-club`.
 3. Open a Pull Request from your working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR into `main`.
 4. Use the [Git commit convention](https://rs.school/docs/git-convention) for your commit messages. The commit history must reflect the actual development process.
-5. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+5. Submit the link on your Pull Request in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 6. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
 ## Cross-check
