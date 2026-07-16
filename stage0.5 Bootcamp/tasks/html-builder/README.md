@@ -98,7 +98,7 @@ Additional rules:
 5. Push every subtask solution to your repository.
 6. Use the [Git commit convention](https://rs.school/docs/git-convention) for your commits.
 7. Open a Pull Request following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements) - **do not merge** it into `main`.
-8. Submit the repository link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+8. Submit the link on this Pull Request in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 9. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
 ## Cross-check
@@ -109,7 +109,7 @@ For each subtask, the reviewer clones the repository, runs `node <task-folder>` 
 
 ## Scoring Criteria
 
-**Maximum score: 390 points**
+### Maximum score: 390 points
 
 ### 01 - Read a file (40 points)
 
