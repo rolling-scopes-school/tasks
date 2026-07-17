@@ -85,7 +85,7 @@ Development of this application had previously been started by another engineer 
 3. Use the [Git commit convention](https://rs.school/docs/git-convention) for commits - the history must reflect the actual development process.
 4. Deploy the UI to `gh-pages`, Netlify, or a similar service.
 5. Open a Pull Request from the working branch into `main`. Name the PR after the task. Write the description following the [PR description schema](https://rs.school/docs/short-track/pull-request-requirements). **Do not merge** the PR.
-6. Submit the deployment link in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
+6. Submit the link on your Pull Request in [rs app](https://app.rs.school/) → **Cross-Check: Submit**.
 7. After the deadline, complete the cross-check (3 days) in **Cross-Check Review**.
 
 ## Cross-check
