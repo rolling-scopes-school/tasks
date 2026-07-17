@@ -149,7 +149,7 @@ If the selected fragment turns out to have been written by another team member, 
 
 ### Part 4: Questions, approximately 10 minutes
 
-The experts ask questions. Each expert must ask at least one question.
+The experts ask questions. Each expert must ask at least three questions.
 
 Examples:
 
