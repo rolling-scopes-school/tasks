@@ -146,4 +146,4 @@ The reviewer plays through the deployed app and awards points only for features 
 - [`Math.random()` - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - [Game Programming Patterns - Robert Nystrom (free online book)](https://gameprogrammingpatterns.com/)
 - [Designing Turn-Based Combat - Game Developer](https://www.gamedeveloper.com/design/designing-turn-based-combat)
-- [State Management in Vanilla JS - DEV](https://dev.to/jacobwicks/simple-state-management-in-vanilla-javascript-3e29)
+- [State Management in Vanilla JS - DEV](https://dev.to/godofgeeks/state-management-in-vanilla-js-51dg)
