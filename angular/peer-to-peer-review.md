@@ -20,8 +20,8 @@ They do not have to be the most technically complex features. You can choose any
 
 Each Peer Review participant attends four sessions:
 
-* one session as a presenter;
-* three sessions as an expert.
+- one session as a presenter;
+- three sessions as an expert.
 
 In practice, this means **two Google Meet calls, or calls on any other suitable platform**:
 
@@ -57,9 +57,9 @@ In the event of an unexpected no-show, the coordinator will assign a replacement
 
 ### Feature requirements
 
-* The two features must come from **two different sprints**.
-* Each feature must represent **complete functionality**. A simple test is whether it can be demonstrated as a user scenario with a clear beginning and end: “the user does A and gets B.” Filtering a list is a valid scenario; a button with no resulting action or a purely cosmetic improvement is not.
-* The code must have been written by the student personally.
+- The two features must come from **two different sprints**.
+- Each feature must represent **complete functionality**. A simple test is whether it can be demonstrated as a user scenario with a clear beginning and end: “the user does A and gets B.” Filtering a list is a valid scenario; a button with no resulting action or a purely cosmetic improvement is not.
+- The code must have been written by the student personally.
 
 ## Session
 
@@ -73,9 +73,9 @@ One session lasts approximately 30–40 minutes and consists of four parts.
 
 The **presenter** creates a GitHub Gist containing the presentation plan:
 
-* the two selected features;
-* a short description of each feature;
-* links to the corresponding pull requests or code.
+- the two selected features;
+- a short description of each feature;
+- links to the corresponding pull requests or code.
 
 The Gist must be shared in the experts’ chat no later than 24 hours before the presentation.
 
@@ -83,9 +83,9 @@ If the Gist is not shared at least 24 hours before the presentation, the present
 
 **One of the experts** acts as the selecting expert. The order is specified in the panel table:
 
-* Expert A selects the fragment for the first session;
-* Expert B selects the fragment for the second session;
-* Expert C selects the fragment for the third session.
+- Expert A selects the fragment for the first session;
+- Expert B selects the fragment for the second session;
+- Expert C selects the fragment for the third session.
 
 Before the session, the selecting expert finds a code fragment in the presenter’s repository.
 
@@ -93,12 +93,12 @@ This preparation should take approximately 5–10 minutes:
 
 1. Open the presenter’s repository and review the presenter’s commits or pull requests.
 2. Find a fragment containing meaningful logic **outside the two announced features**. For example:
+   - an event handler;
+   - a service;
+   - state-management logic;
+   - data transformation;
+   - another coherent piece of application logic.
 
-   * an event handler;
-   * a service;
-   * state-management logic;
-   * data transformation;
-   * another coherent piece of application logic.
 3. Do not select configuration, markup, generated code, or a purely cosmetic change.
 4. The fragment should be approximately **20–50 lines**, either in one file or as one coherent section of code.
 5. Save a link to the fragment and think about what you might ask the presenter.
@@ -127,19 +127,19 @@ For each feature, the presenter must demonstrate at least one relevant negative 
 
 Examples of negative scenarios include:
 
-* invalid input;
-* an empty state;
-* a repeated action;
-* missing data;
-* another edge case relevant to the feature.
+- invalid input;
+- an empty state;
+- a repeated action;
+- missing data;
+- another edge case relevant to the feature.
 
 ### Part 3: Expert-selected code fragment, approximately 5 minutes
 
 The selecting expert identifies the fragment they found. The presenter opens it and explains:
 
-* what is happening in the code;
-* what this part of the application is responsible for;
-* why it was implemented in this way.
+- what is happening in the code;
+- what this part of the application is responsible for;
+- why it was implemented in this way.
 
 There is no advance preparation for this part. The presenter explains the code directly from the screen.
 
@@ -153,12 +153,12 @@ The experts ask questions. Each expert must ask at least three questions.
 
 Examples:
 
-* “What was the most difficult part?”
-* “What would you change if you were starting again?”
-* “How did you identify and fix your most difficult bug?”
-* “What approaches or tools did you use?”
-* “What alternative solutions did you consider?”
-* “What trade-offs did you make?”
+- “What was the most difficult part?”
+- “What would you change if you were starting again?”
+- “How did you identify and fix your most difficult bug?”
+- “What approaches or tools did you use?”
+- “What alternative solutions did you consider?”
+- “What trade-offs did you make?”
 
 At the end, each expert says aloud one particularly strong aspect of the presentation and completes the evaluation form, which should take approximately two minutes.
 
@@ -172,24 +172,24 @@ The session may only be recorded with the consent of both the presenter and the 
 
 ## Technical Issues
 
-* If the live demo cannot be completed because of an **external issue**, such as a deployment outage, an unavailable external API, or connectivity problems, the student should demonstrate the application locally and show the relevant code. A pre-recorded video may be used as supporting material, but not as a replacement for a live demo, code walkthrough, and explanation.
-* If the project cannot be launched because the student was **not properly prepared**, the experts evaluate only what was successfully demonstrated.
+- If the live demo cannot be completed because of an **external issue**, such as a deployment outage, an unavailable external API, or connectivity problems, the student should demonstrate the application locally and show the relevant code. A pre-recorded video may be used as supporting material, but not as a replacement for a live demo, code walkthrough, and explanation.
+- If the project cannot be launched because the student was **not properly prepared**, the experts evaluate only what was successfully demonstrated.
 
 ## Evaluation: 100 Points
 
 All criteria are evaluated as **binary observations**: observed or not observed.
 
-* Each of the three experts evaluates the presenter independently.
-* The final score is the **median** of the three scores.
-* If only two experts are present, the final score is the average of their scores.
+- Each of the three experts evaluates the presenter independently.
+- The final score is the **median** of the three scores.
+- If only two experts are present, the final score is the average of their scores.
 
 ### 1. Feature Demo: 30 Points
 
 The features meet the requirements:
 
-* they come from two different sprints;
-* each feature represents complete functionality;
-* each feature is demonstrated as a scenario in which “the user does A and gets B.”
+- they come from two different sprints;
+- each feature represents complete functionality;
+- each feature is demonstrated as a scenario in which “the user does A and gets B.”
 
 ### Feature 1: 15 Points
 
@@ -237,8 +237,8 @@ A panel block consists of three presenter sessions attended by the same group of
 
 If an expert misses their panel block or does not submit the required evaluation forms for the block:
 
-* **30 points are deducted from their final Peer Review score.**
-* Final Peer Review score = **max(0, score − 30)**.
+- **30 points are deducted from their final Peer Review score.**
+- Final Peer Review score = **max(0, score − 30)**.
 
 If an expert knows in advance that they cannot attend, they must:
 
@@ -250,29 +250,29 @@ In the event of an unexpected no-show, participants should report it in `#peer-r
 
 ### A presenter does not attend
 
-* The experts wait for **10 minutes**.
-* After 10 minutes, they report the no-show in the Discord channel `#peer-review` and tag the coordinator.
-* The experts’ responsibility for that session is considered **completed**, and they receive no penalty.
-* The presenter must organise one replacement session within the Peer Review period.
-* The presenter should first coordinate the new session with the assigned panel.
-* If this is not possible, the presenter must post in `#peer-review` and tag the coordinator so that another panel can be assigned.
-* If the replacement session does not take place because of the presenter, the presenter receives **0 points for the Peer Review**.
+- The experts wait for **10 minutes**.
+- After 10 minutes, they report the no-show in the Discord channel `#peer-review` and tag the coordinator.
+- The experts’ responsibility for that session is considered **completed**, and they receive no penalty.
+- The presenter must organise one replacement session within the Peer Review period.
+- The presenter should first coordinate the new session with the assigned panel.
+- If this is not possible, the presenter must post in `#peer-review` and tag the coordinator so that another panel can be assigned.
+- If the replacement session does not take place because of the presenter, the presenter receives **0 points for the Peer Review**.
 
 ### The presenter does not have enough experts
 
-* With two experts, the session remains valid, and the final score is the average of the two evaluations.
-* With only one expert, participants should post in `#peer-review` and tag the coordinator so that another expert can be assigned.
-* The presenter does not receive a failing result because of someone else’s no-show. The absent expert receives the penalty, not the presenter.
+- With two experts, the session remains valid, and the final score is the average of the two evaluations.
+- With only one expert, participants should post in `#peer-review` and tag the coordinator so that another expert can be assigned.
+- The presenter does not receive a failing result because of someone else’s no-show. The absent expert receives the penalty, not the presenter.
 
 ## Preparation
 
 ### Presenter
 
 1. Select two features that meet the requirements:
+   - complete functionality;
+   - features from two different sprints;
+   - code written by you.
 
-   * complete functionality;
-   * features from two different sprints;
-   * code written by you.
 2. Create and share the Gist at least 24 hours before the session.
 3. Rehearse the demo with a timer. Fifteen minutes for two features is not much time.
 4. Prepare at least one relevant negative scenario for each feature.
