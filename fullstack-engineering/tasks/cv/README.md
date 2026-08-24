@@ -72,7 +72,7 @@ CV (Curriculum Vitae) — документ, в котором соискател
 
 ## Требования к Pull Request
 
-- Название Pull Request должно соответствовать выполняемой части задания.
+- Название Pull Request указано отдельно для каждой части задания.
 - [Оформите описание Pull Request по схеме](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr).
 - Не мержите Pull Request из рабочей ветки в `main`.
 
@@ -139,6 +139,7 @@ CV (Curriculum Vitae) — документ, в котором соискател
 3. В ветке `rsschool-cv-html` разместить файлы `index.html` и `style.css` — базовые пустые шаблоны или шаблоны с минимальным содержимым.
 4. В `README.md` ветки `rsschool-cv-html` добавить ссылку вида `https://GITHUB-USERNAME.github.io/rsschool-cv/`, заменив `GITHUB-USERNAME` на свой ник на GitHub. По этой ссылке будет открываться CV в виде полноценной веб-страницы (после Части 3).
 5. Создать Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`. Название — `HTML, CSS & Git Basics`. Замержить его.
+6. После merge не удаляйте ветку `rsschool-cv-html` — работа в ней продолжится в Части 3.
 
 > **Подсказка (не часть требований):**
 >
@@ -155,7 +156,7 @@ CV (Curriculum Vitae) — документ, в котором соискател
 - Требования к репозиторию выполнены **+50**
   - работа продолжается в репозитории `rsschool-cv`;
   - ветка `rsschool-cv-html` создана от ветки `gh-pages`;
-  - в ветке `rsschool-cv-html` находятся файлы `index.html` и `style.css`;
+  - в ветку `rsschool-cv-html` добавлены файлы `index.html` и `style.css`;
   - файлы `index.html` и `style.css` содержат базовые шаблоны;
   - в `README.md` ветки `rsschool-cv-html` добавлена ссылка на CV, задеплоенное на GitHub Pages.
 
