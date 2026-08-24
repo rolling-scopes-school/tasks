@@ -42,25 +42,25 @@
 ### Неделя 2
 
 - Cross-check:
-  - Cross-check проекта [CV Project](tasks/cv/README.md)
+  - Cross-check проекта [CV Project](tasks/cv/README.md#критерии-оценки-часть-3)
 - Задачи:
-  - [Landing Page. Часть 1](tasks/landing-page/README.md) — адаптивная вёрстка лендинга по макету Figma
+  - [Landing Page. Часть 1](tasks/landing-page/README-part-1.md) — адаптивная вёрстка лендинга по макету Figma
 - Стек: HTML, CSS (Flex/Grid), Figma
 - Чему научатся: semantic HTML, responsive design
 
 ### Неделя 3
 
 - Cross-check:
-  - Cross-check проекта Landing Page. Часть 1
+  - Cross-check проекта [Landing Page. Часть 1](tasks/landing-page/README-part-1.md#критерии-оценки)
 - Задачи:
-  - [Landing Page. Часть 2](tasks/landing-page/README.md) — интерактив (попапы, слайдеры, бургер-меню) + localStorage/IndexedDB
+  - [Landing Page. Часть 2](tasks/landing-page/README-part-2.md) — интерактив (попапы, слайдеры, бургер-меню) + localStorage/IndexedDB
 - Стек: JS, DOM API, localStorage, IndexedDB
 - Чему научатся: DOM-события, два разных браузерных хранилища данных
 
 ### Неделя 4
 
 - Cross-check:
-  - Cross-check проекта Landing Page. Часть 2
+  - Cross-check проекта [Landing Page. Часть 2](tasks/landing-page/README-part-2.md#критерии-оценки)
 - Задачи:
   - [Пак JS-задач по базовым методам строк/чисел/массивов](tasks/js-basic-methods/README.md) _(конкретный набор — TBD)_
 - Стек: JS
@@ -76,7 +76,7 @@
 ### Неделя 6
 
 - Cross-check:
-  - Cross-check проекта Bug Hunting
+  - Cross-check проекта [Bug Hunting](tasks/bug-hunting/README.md#критерии-оценки)
 - Задачи:
   - [Testing intro](tasks/testing-intro/README.md) — часть 1: unit-тесты к готовым функциям; часть 2: функции по готовым тестам (TDD)
 - Стек: JS, Jest
@@ -92,7 +92,7 @@
 ### Неделя 8
 
 - Cross-check:
-  - Cross-check проекта Data Structures & Algorithms
+  - Cross-check проекта [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md#критерии-оценки)
 - Задачи:
   - [Работа с готовым веб API](tasks/external-api/README.md) — запросы, рендер данных, обработка ошибок и загрузки
 - Стек: JS, fetch/async-await, DOM
@@ -115,7 +115,7 @@
 ### Неделя 11–12
 
 - Cross-check:
-  - Cross-check проекта "Свой backend"
+  - Cross-check проекта [Свой backend](tasks/own-backend/README.md#критерии-оценки)
 - Задачи:
   - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры; можно опираться на сервер с недели 10
 - Стек: JS, DOM/UI по выбору пары
