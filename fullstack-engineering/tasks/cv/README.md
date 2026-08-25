@@ -189,11 +189,11 @@ CV (Curriculum Vitae) — документ, в котором соискател
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/cv`
    - `https://GITHUB-USERNAME.github.io/rsschool-cv/`
 5. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `gh-pages`. Название — `CV Layout`. Замержите Pull Request. После merge убедитесь, что обе версии CV доступны по ссылкам из `README.md`.
-6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`. Название — `CV Layout. Cross-Check`. Оформите описание Pull Request в соответствии с требованиями. **Этот Pull Request не мержить** — именно его ссылку нужно отправить на cross-check.
+6. Создайте Pull Request из ветки `rsschool-cv-html` в ветку `main`. Название — `CV Layout. Cross-Check`. Оформите описание Pull Request в соответствии с требованиями. **Этот Pull Request не мержить** — именно ссылку на него нужно отправить на cross-check.
 
 ### Как сдавать Часть 3
 
-Задание проверяется через [cross-check](https://rs.school/docs/cross-check-flow). Отправьте ссылку на Pull Request из ветки `rsschool-cv-html` в `main` (шаг 6 выше).
+Задание проверяется через [cross-check](https://rs.school/docs/cross-check-flow). После выдачи задания, но до наступления дедлайна зайдите в [rs app](https://app.rs.school/), выберите **Cross-Check: Submit**, в выпадающем списке выберите название задания, в поле **Solution URL** добавьте ссылку **на Pull Request `CV Layout. Cross-Check`**, нажмите кнопку **Submit**.
 
 ### Критерии оценки Часть 3
 
