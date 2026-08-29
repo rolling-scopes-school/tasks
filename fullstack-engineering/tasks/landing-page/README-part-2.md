@@ -46,8 +46,8 @@
 ## Как сдавать
 
 - Работа ведётся в ветке `landing-page-part-2`, созданной от `landing-page`.
-- Откройте Pull Request из `landing-page-part-2` в `landing-page`, не мержите его.
-- Отправьте ссылку на этот Pull Request на cross-check.
+- Откройте Pull Request из `landing-page-part-2` в `landing-page`. [Описание Pull Request дайте по схеме](https://rs.school/ru/docs/mentoring/pull-request-review-process#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr), не мержите этот **Pull Request**.
+- Отправьте ссылку на этот **Pull Request** на cross-check (после выдачи задания, но до наступления дедлайна зайдите в [rs app](https://app.rs.school/), выберите **Cross-Check: Submit**, в выпадающем списке выберите название задания, в поле **Solution URL** добавьте ссылку **на Pull Request**, нажмите кнопку **Submit**.)
 
 ## Cross-check
 
