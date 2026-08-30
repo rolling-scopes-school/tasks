@@ -62,7 +62,7 @@
 - Cross-check:
   - Cross-check проекта [Landing Page. Часть 2](tasks/landing-page/README-part-2.md#критерии-оценки)
 - Задачи:
-  - [Пак JS-задач по базовым методам строк/чисел/массивов](tasks/js-basic-methods/README.md) _(конкретный набор — TBD)_
+  - [JS Basic Methods](tasks/js-basic-methods/README.md) — Core JS Numbers/Strings/Arrays/Conditions & Loops + Codewars (авто-тест RS App)
 - Стек: JS
 - Чему научатся: методы строк, чисел и массивов
 
