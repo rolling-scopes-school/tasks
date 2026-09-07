@@ -33,11 +33,24 @@
 
 ### Неделя 1
 
+#### 8 сентября 2026 года
+
+- Теоретические модули:
+  - [Chrome DevTools, VS Code и терминал](modules/week-01/01-development-tools/)
+  - [Знакомство с RS School](modules/week-01/02-rs-school-intro/)
+  - [Знакомство с Git и GitHub](modules/week-01/03-git-github/)
+  - [Знакомство с профессией JS/Front-end-разработчика](modules/week-01/04-js-fe-developer/)
+
 - Задачи:
-  - [CV Project](tasks/cv/README.md) — собрать и задеплоить резюме через Git/GitHub Pages
-  - RS-тест «Как учиться в комьюнити» — формат обучения, cross-check
+  - [CV Project](tasks/cv/) — собрать и задеплоить резюме через Git и GitHub Pages
+
+- Тесты:
+  - [[St1] RSS Test](modules/week-01/02-rs-school-intro/)
+  - [[St1] Git test](modules/week-01/03-git-github/)
+  - [[St1] Fundamentals of the Internet](modules/week-01/01-development-tools/)
+
 - Стек: Markdown, HTML, CSS, Git, GitHub Pages
-- Чему научатся: базовый git-flow, деплой; с первого дня — культура и правила школы
+- Чему научатся: базовому процессу работы с Git, публикации проектов через GitHub Pages, а также культуре и правилам RS School
 
 ### Неделя 2
 
