@@ -45,9 +45,9 @@
   - [CV Project](tasks/cv/) — собрать и задеплоить резюме через Git и GitHub Pages
 
 - Тесты:
-  - [[St1] RSS Test](modules/week-01/rs-school-intro.md)
-  - [[St1] Git test](modules/week-01/git-github.md)
-  - [[St1] Fundamentals of the Internet](modules/week-01/development-tools.md)
+  - [St1] RSS Test
+  - [St1] Git test
+  - [St1] Fundamentals of the Internet
 
 - Стек: Markdown, HTML, CSS, Git, GitHub Pages
 - Чему научатся: базовому процессу работы с Git, публикации проектов через GitHub Pages, а также культуре и правилам RS School
