@@ -152,7 +152,6 @@
 ### 📚 Рекомендуемые учебники по JavaScript
 
 - [JavaScript.Info](https://learn.javascript.ru/)
-- [Exploring JS](https://exploringjs.com/impatient-js/toc.html)
 - [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS)
 
 ### 💬 Где общаться и задавать вопросы?
