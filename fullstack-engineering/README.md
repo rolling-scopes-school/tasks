@@ -36,18 +36,18 @@
 #### 8 сентября 2026 года
 
 - Теоретические модули:
-  - [Chrome DevTools, VS Code и терминал](modules/week-01/01-development-tools/)
-  - [Знакомство с RS School](modules/week-01/02-rs-school-intro/)
-  - [Знакомство с Git и GitHub](modules/week-01/03-git-github/)
-  - [Знакомство с профессией JS/Front-end-разработчика](modules/week-01/04-js-fe-developer/)
+  - [Chrome DevTools, VS Code и терминал](modules/week-01/development-tools.md)
+  - [Знакомство с RS School](modules/week-01/rs-school-intro.md)
+  - [Знакомство с Git и GitHub](modules/week-01/git-github.md)
+  - [Знакомство с профессией JS/Front-end-разработчика](modules/week-01/js-fe-developer.md)
 
 - Задачи:
   - [CV Project](tasks/cv/) — собрать и задеплоить резюме через Git и GitHub Pages
 
 - Тесты:
-  - [[St1] RSS Test](modules/week-01/02-rs-school-intro/)
-  - [[St1] Git test](modules/week-01/03-git-github/)
-  - [[St1] Fundamentals of the Internet](modules/week-01/01-development-tools/)
+  - [[St1] RSS Test](modules/week-01/rs-school-intro.md)
+  - [[St1] Git test](modules/week-01/git-github.md)
+  - [[St1] Fundamentals of the Internet](modules/week-01/development-tools.md)
 
 - Стек: Markdown, HTML, CSS, Git, GitHub Pages
 - Чему научатся: базовому процессу работы с Git, публикации проектов через GitHub Pages, а также культуре и правилам RS School
