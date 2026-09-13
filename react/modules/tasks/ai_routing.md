@@ -28,7 +28,7 @@ endpoints). Any key-free paginated API works. **No backend** — the focus is Re
 
 ## 🤖 Working with AI (required)
 
-The AI **coaches, you decide**. Keep a mandatory **`LOG.md`** (per-session steps + justified decisions).
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md); the automated
 harness ships next iteration.
 
@@ -43,7 +43,7 @@ harness ships next iteration.
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
-- Vite `react-ts` + Oxlint + Prettier + Husky. TypeScript throughout; no `any`/`ts-ignore`.
+- Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Router & nested layout (**15 points**)
 - Router configured for **SPA mode**.
@@ -74,9 +74,9 @@ harness ships next iteration.
 ## Technical Requirements
 
 1. Fresh repository; dedicated branch; first commit only `README.md`.
-2. Stack: **Vite + React + TS + Oxlint + Prettier + Husky + Vitest + RTL**.
+2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL**.
 3. Function components only (no class components needed here).
-4. Keep a `LOG.md`.
+4. Keep a `CHANGELOG.md`.
 
 ## Penalties
 
@@ -84,10 +84,10 @@ harness ships next iteration.
 - Class components: **-50 each**. · Direct DOM manipulation: **-50 each**.
 - Component libraries (MUI/AntD): **-100**.
 - Coverage below thresholds: statements <80% (≥70%): **-10**; <70% (≥50%): **-30**; all <50%: **-50**.
-- Missing `LOG.md`: **-90**.
+- Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ
 
-**React Router or TanStack Router?** Your choice — justify it in `LOG.md`. The AI must stay neutral.
+**React Router or TanStack Router?** Your choice — justify it in `CHANGELOG.md`. The AI must stay neutral.
 **Does the page param always need to be in the URL?** Yes, e.g. `?page=1` even by default.
 **Must the 404 work locally?** Yes — cross-check runs on localhost.

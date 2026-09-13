@@ -29,7 +29,7 @@ hooks** and **composition patterns** — designing clean, accessible, reusable c
 
 ## 🤖 Working with AI (required)
 
-The AI **coaches, you decide**. Keep a mandatory **`LOG.md`** (per-session steps + justified decisions).
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
@@ -40,7 +40,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
-- Vite `react-ts` + Oxlint + Prettier + Husky. TypeScript throughout; no `any`/`ts-ignore`.
+- Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Compound-component API (**15 points**)
 - A component with a **compound API** (e.g., `<Tabs><Tab/></Tabs>` or an Accordion) sharing state via context.
@@ -68,9 +68,9 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Technical Requirements
 
 1. Fresh repository; dedicated branch; first commit only `README.md`.
-2. Stack: **Vite + React + TS + Oxlint + Prettier + Husky + Vitest + RTL**.
+2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL**.
 3. Accessibility matters: keyboard operability and correct ARIA wiring are part of the score.
-4. Keep a `LOG.md`.
+4. Keep a `CHANGELOG.md`.
 
 ## Penalties
 
@@ -78,7 +78,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 - Centering the task on `useMemo`/`useCallback`/`React.memo` instead of the listed hooks: **-20**.
 - Direct DOM manipulation outside justified refs/portals: **-50 each**. · Component libraries (MUI/AntD): **-100**.
 - Coverage below thresholds: statements <80% (≥70%): **-10**; <70% (≥50%): **-30**; all <50%: **-50**.
-- Missing `LOG.md`: **-90**.
+- Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ
 

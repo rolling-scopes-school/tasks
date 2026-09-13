@@ -4,6 +4,11 @@
 > [`react/.instructions/AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 > This task is **independent** — build it from scratch; it does not depend on any other task.
 
+> ℹ️ **Note:** this is a copy of the task spec placed inside the starter repo so the AI instruction
+> files can reference it. The `../` links below (theory modules, program doc) resolve in the **course
+> repository**, not from inside this starter. A future iteration will replace them with direct GitHub
+> links to the canonical, finalized task.
+
 ## 🧠 What you'll build
 
 A **Weather dashboard**: search for a city, show its current weather, and keep a list of saved
@@ -44,6 +49,7 @@ assistant's job is to **coach you, not to write the app for you**. The full per-
   made and your justification, and concepts the AI explained to you. Reviewers read it.
 
 **Decision points for this task:**
+
 - **`useState` vs `useReducer`** for the saved-locations collection + per-item fetch lifecycle. The
   stored object shape is fixed (see Feature 4), but the state tool is your choice — a reducer is
   recommended once the fetch lifecycle is involved; justify whatever you pick.
@@ -53,21 +59,25 @@ assistant's job is to **coach you, not to write the app for you**. The full per-
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
+
 - Vite `react-ts` project with **Oxlint**, **Oxfmt**, and **Husky** (pre-commit: lint+format).
 - TypeScript throughout; no `any`, no `ts-ignore`.
 
 ### Feature 2: Layout, search input & units selector (**10 points**)
+
 - A clear layout with a search area and a results area.
 - The city search input is **controlled** via `useState`.
 - A **units selector** (`metric` / `imperial`) sits next to the Search button; the chosen units apply to
   this search and are stored with the resulting saved location.
 
 ### Feature 3: Fetch, loading & error (**15 points**)
+
 - On submit, fetch current weather for the entered city **in the selected units**.
 - A **loading indicator** is shown while fetching and hidden when done.
 - On failure, a **clear, human-readable error message** is shown; the console stays clean.
 
 ### Feature 4: Saved-locations list (**15 points**)
+
 - Users can **add** the current result to a saved list, **remove** items, and **refetch** each item
   individually.
 - Saved locations are displayed as a **list**; each stored item has this shape:
@@ -81,9 +91,9 @@ interface SavedLocation {
   name: string;
   latitude: number;
   longitude: number;
-  units: Units;                                                 // per-location, chosen at search time
+  units: Units; // per-location, chosen at search time
   weather?: { tempC: number; code: number; fetchedAt: number }; // cached result
-  status: Status;                                               // per-item fetch lifecycle
+  status: Status; // per-item fetch lifecycle
   error?: string;
 }
 ```
@@ -93,20 +103,24 @@ interface SavedLocation {
   it. Whichever you choose, keep the update logic **pure and testable** (Feature 8 tests it).
 
 ### Feature 5: Persistence via a custom `useLocalStorage` hook (**10 points**)
+
 - Saved locations persist across reloads.
 - Persistence is implemented in a reusable **custom hook** (`useLocalStorage`), not inline in a component.
 
 ### Feature 6: Data fetching via `useEffect` (**10 points**)
+
 - Weather requests — the initial/search fetch and each per-item **refetch** — run through **`useEffect`**,
   driving the `loading → success/error` transitions.
 - Effects **clean up** correctly (abort or ignore stale responses; no state updates after unmount; no
   duplicate requests).
 
 ### Feature 7: Error Boundary (**15 points**)
+
 - An **Error Boundary** (class component) renders a **fallback UI** when a child throws.
 - A **test button** triggers an error to demonstrate the boundary; the error is logged.
 
 ### Feature 8: Unit tests (**20 points**)
+
 - Vitest + RTL tests for components, the custom hook, and the reducer.
 - All external calls are **mocked** (Vitest mocks or MSW); no real network in tests.
 - **≥80% statement** coverage; branch/function/line ≥50%.

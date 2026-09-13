@@ -29,7 +29,7 @@ Suggested API: any key-free public API with search + detail (e.g. Rick & Morty, 
 
 ## 🤖 Working with AI (required)
 
-The AI **coaches, you decide**. Keep a mandatory **`LOG.md`** (per-session steps + justified decisions).
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
@@ -74,14 +74,14 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 1. Fresh repository; dedicated branch; first commit only `README.md`.
 2. **Next.js App Router + TypeScript.** ESLint per Next defaults (this task is the Oxlint carve-out).
 3. Theme switching (if included) implemented by hand (React Context + optional `localStorage`); no `next-themes`.
-4. Keep a `LOG.md`.
+4. Keep a `CHANGELOG.md`.
 
 ## Penalties
 
 - TypeScript not used: **-100** · each `any`: **-20** · each `ts-ignore`: **-20**.
 - Direct DOM manipulation inside components: **-50 each**.
 - Component libraries (MUI/AntD): **-100**.
-- Missing `LOG.md`: **-90**.
+- Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ
 

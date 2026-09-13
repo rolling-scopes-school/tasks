@@ -27,7 +27,7 @@ fine for learning). PokeAPI or any key-free API works. **No backend** — the fo
 
 ## 🤖 Working with AI (required)
 
-The AI **coaches, you decide**. Keep a mandatory **`LOG.md`** (per-session steps + justified decisions).
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
@@ -40,7 +40,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
-- Vite `react-ts` + Oxlint + Prettier + Husky. TypeScript throughout; no `any`/`ts-ignore`.
+- Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Query library set up (**15 points**)
 - RTK Query or TanStack Query integrated and configured; **all** API calls go through it.
@@ -67,8 +67,8 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Technical Requirements
 
 1. Fresh repository; dedicated branch; first commit only `README.md`.
-2. Stack: **Vite + React + TS + Oxlint + Prettier + Husky + Vitest + RTL** + state library + query library.
-3. Keep a `LOG.md`.
+2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL** + state library + query library.
+3. Keep a `CHANGELOG.md`.
 
 ## Penalties
 
@@ -76,10 +76,10 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 - Each API call not made through the chosen query library: **-10 each**.
 - Direct DOM manipulation: **-50 each**. · Component libraries (MUI/AntD): **-100**.
 - Coverage below thresholds: statements <80% (≥70%): **-10**; <70% (≥50%): **-30**; all <50%: **-50**.
-- Missing `LOG.md`: **-90**.
+- Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ
 
-**RTK Query or TanStack Query?** Match your state library (Redux→RTK Query, Zustand→TanStack Query). Justify in `LOG.md`.
+**RTK Query or TanStack Query?** Match your state library (Redux→RTK Query, Zustand→TanStack Query). Justify in `CHANGELOG.md`.
 **Invalidate vs refetch?** Refetch re-requests the current query; invalidate clears the cache so the next access refetches.
 **Can I use React Query / Redux DevTools?** Yes — they aren't UI libraries.

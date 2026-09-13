@@ -6,11 +6,13 @@
 > recommended setup/harness, and a feature/points breakdown to seed the cross-check process.
 >
 > **Status of the rollout:**
-> - **Done (this doc's iteration):** this document + one self-contained student-facing task file per core
->   task, named with an **`ai_` prefix** in `react/modules/tasks/` (old task files retained untouched).
-> - **Deferred to the next iteration:** scaffolding the actual harness files (`AGENTS.md`, `LOG.md`,
->   pointer files, pre-configured project) and the harness dry-run. This document and the `ai_*` task
->   files carry **all context** the next iteration needs to build those harnesses without rediscovery.
+> - **Done:** this document + one self-contained student-facing task file per core task, named with an
+>   **`ai_` prefix** in `react/modules/tasks/` (old task files retained untouched).
+> - **Done (latest iteration):** the **Task 1 harness repo** is scaffolded and verified at
+>   `react/repos/functional-components/` — the reference implementation for every other task (see
+>   "AI Harness Blueprint" and "Rollout status" below).
+> - **Next:** scaffold the remaining tasks' harness repos by copying the Task 1 template, then run a
+>   harness dry-run. This document and the `ai_*` task files carry **all context** needed to do so.
 
 ---
 
@@ -40,8 +42,8 @@ research, design, write and check code**, but **own and can justify the result**
 | 2 | Testing | **Introduced in Task 1, required in every task** (no standalone testing task). |
 | 3 | Task 5 topic | **Advanced hooks + composition patterns** (memoization stays in the Performance task). |
 | 4 | Next.js task | **Rebuilt from scratch** in Next.js (no migration from a prior branch). |
-| 5 | Harness files | **Canonical `AGENTS.md`** per task; thin `CLAUDE.md` + `.github/copilot-instructions.md` pointers; mandatory **`LOG.md`**. |
-| 6 | Log / understanding | AI proposes options → **student decides & justifies** → AI writes a concise per-step report + the decision & justification to `LOG.md`. |
+| 5 | Harness files | **Canonical `AGENTS.md`** per task; thin `CLAUDE.md` + `.github/copilot-instructions.md` pointers; mandatory **`CHANGELOG.md`**. |
+| 6 | Log / understanding | AI proposes options → **student decides & justifies** → AI writes a concise per-step report + the decision & justification to `CHANGELOG.md`. |
 | 7 | Library choices | **Stay open.** AI presents tradeoffs & downstream effects, stays **neutral**; student chooses and justifies. |
 | 8 | Domains & points | **Fixed, well-bounded domain per task with a defined points breakdown** (seeds cross-check). |
 
@@ -52,9 +54,11 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
 
 ## Standard project setup (all core tasks except Next.js)
 
-- **Vite** + **React** + **TypeScript** (`react-ts` template).
+- **Vite** + **React** + **TypeScript** (`react-ts` template). **pnpm** is the recommended package
+  manager/runner (pinned via `packageManager`; `corepack enable`).
 - **Oxlint** as the linter (replaces the ESLint flat-config in the current `project-setup.md`),
-  + **Prettier**, + **Husky** pre-commit (lint + format) and pre-push (tests).
+  + **Oxfmt** as the formatter (one unified oxc toolchain — Oxlint does not format, so no lint/format
+  conflict; replaces Prettier), + **Husky** pre-commit (lint + format) and pre-push (tests).
 - **Vitest** + **React Testing Library** (+ **MSW** for network mocking).
 - **No component libraries** (MUI/AntD) — consistent with existing penalties.
 - **No mandatory backend.** Each task uses a **key-free public API**, or a **tiny local API/mock the
@@ -71,7 +75,7 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
 
 These rules hold across all tasks; individual task files inherit them and should not re-decide them.
 
-- **Missing `LOG.md`: -90.** The log is the mandatory record of the student's decisions and ownership;
+- **Missing `CHANGELOG.md`: -90.** The log is the mandatory record of the student's decisions and ownership;
   without it the work cannot be verified as the student's own. Every task penalizes its absence at -90.
 - **TypeScript not used: -95** (Next.js: -100). **Each `any`: -20. Each `ts-ignore`: -20.**
 - **Component libraries (MUI/AntD): -100.**
@@ -128,7 +132,7 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   (shape is fixed; tool is the student's choice, reducer recommended); when a custom hook is warranted;
   test strategy (behavior vs implementation detail).
 - **Feature / points:**
-  - Project setup (Vite+TS+Oxlint+Prettier+Husky) — **5**
+  - Project setup (Vite+TS+Oxlint+Oxfmt+Husky) — **5**
   - Layout + controlled search input + units selector (metric/imperial) — **10**
   - Fetch on submit in selected units; loading indicator; human-readable error — **15**
   - Saved-locations list of `SavedLocation` objects (add/remove/per-item refetch); `useReducer` optional — **15**
@@ -170,7 +174,7 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Product list + add/remove/quantity in global store (partial updates) — **20**
   - Cart summary/flyout with totals; persists across navigation — **15**
   - Theme (light/dark) via Context API — **15**
-  - Context-vs-store rationale documented (README/`LOG.md`) — **5**
+  - Context-vs-store rationale documented (README/`CHANGELOG.md`) — **5**
   - Optional cart persistence (localStorage) — **5**
   - Tests (store/slice, components, context) — **20**
 
@@ -222,39 +226,47 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
 
 ---
 
-## AI Harness Blueprint (reusable across every task) — to be scaffolded next iteration
+## AI Harness Blueprint (reusable across every task)
 
-Each task repo/folder ships:
+> **Reference implementation shipped:** `react/repos/functional-components/` (Task 1) is the first
+> fully-scaffolded harness and the template the remaining tasks should copy. The realized layout below
+> supersedes the earlier draft (which made `AGENTS.md` canonical). **`CLAUDE.md` is now the canonical
+> instruction file**; the other tool files are thin pointers to it. Harness repos live under
+> `react/repos/<slug>/`.
+
+Each task repo ships:
 
 ```
-task-<slug>/
-  AGENTS.md                        # canonical instruction file (source of truth)
-  CLAUDE.md                        # one line: "Follow AGENTS.md"
-  .github/copilot-instructions.md  # one line: "Follow AGENTS.md"
-  LOG.md                           # AI-written; concise per-step report + decisions
-  README.md                        # student-facing task (features, points, theory)
-  cross-check.json                 # mirrors the points breakdown
-  <pre-scaffolded Vite+TS+Oxlint+Vitest project>
+react/repos/<slug>/
+  CLAUDE.md                        # canonical instruction file (source of truth)
+  AGENTS.md                        # Codex:   pointer → "Follow ./CLAUDE.md" + 4-line gist
+  GEMINI.md                        # Gemini:  pointer → "Follow ./CLAUDE.md" + 4-line gist
+  .github/copilot-instructions.md  # Copilot: pointer → "Follow ../CLAUDE.md" + 4-line gist
+  TASK.md                          # copy of the student-facing ai_<slug>.md spec (referenced by CLAUDE.md)
+  CHANGELOG.md                     # decision log; seeded with format, otherwise empty (was "LOG.md")
+  README.md                        # what the starter is; pnpm quickstart; tool→file map
+  cross-check.json                 # mirrors the points breakdown (next iteration)
+  <pre-scaffolded Vite+TS+Oxlint+Oxfmt+Husky+Vitest project (pnpm)>
 ```
 
-**`AGENTS.md` contract (per task):**
+**`CLAUDE.md` contract (per task):**
 1. **Role — coach, not author.** Help the student learn React/TypeScript by doing; do **not** write the
    whole app unprompted. Prefer explaining, scaffolding small pieces, and reviewing the student's code.
 2. **Decision protocol.** At each defined **decision point**, present the realistic options with honest
    pros/cons and downstream effects, then **stop and ask the student to choose and justify**. The AI
    **must not steer** the choice (especially library choices). Record the decision + the student's
-   justification in `LOG.md`.
+   justification in `CHANGELOG.md`.
 3. **Incremental & explained.** Implement in small steps; after each, explain what/why in plain terms and
-   append a concise entry to `LOG.md`.
+   append a concise entry to `CHANGELOG.md`.
 4. **Guardrails (encode existing penalties as rules).** No `any`, no `ts-ignore`; Oxlint clean; no
    component libraries; tests required and green; keep components decomposed.
 5. **Task decision points** — list the specific ones for this task (from each spec above).
-6. **Understanding checks.** Periodically ask the student to explain a concept back; note gaps in `LOG.md`.
+6. **Understanding checks.** Periodically ask the student to explain a concept back; note gaps in `CHANGELOG.md`.
 
-**`LOG.md` format (the transparency + proof-of-understanding artifact):**
+**`CHANGELOG.md` format (the transparency + proof-of-understanding artifact):**
 - Append-only, per session. Each entry: date, step done (concise), decision made (if any) + **student's
   justification**, concepts explained, open TODOs.
-- Cross-check reviewers read `LOG.md` to confirm the student drove decisions and understands the code.
+- Cross-check reviewers read `CHANGELOG.md` to confirm the student drove decisions and understands the code.
 - **Optional defense gate (recommend, decide later):** at cross-check, the student answers 2–3 questions
   or makes a small solo edit to demonstrate understanding.
 
@@ -262,17 +274,28 @@ task-<slug>/
 
 ## Rollout status & remaining work
 
-**Done (this iteration):** this document + `ai_functional-components.md`, `ai_routing.md`,
+**Done (earlier iteration):** this document + `ai_functional-components.md`, `ai_routing.md`,
 `ai_state-management.md`, `ai_queries.md`, `ai_advanced-hooks.md`, `ai_nextjs-ssr-ssg.md`.
 Old task files retained untouched.
 
+**Done (this iteration):**
+- **Task 1 harness repo scaffolded** at `react/repos/functional-components/` — the reference
+  implementation (Vite + React 19 + TS + Oxlint + Oxfmt + Husky + Vitest + RTL, pnpm). Verified:
+  `pnpm install`, `lint`, `format`, `build`, `test`/`coverage` all pass on the scaffold.
+- **Instruction files** for four assistants: canonical `CLAUDE.md` + pointer `AGENTS.md` / `GEMINI.md`
+  / `.github/copilot-instructions.md`; `TASK.md` copy; seeded `CHANGELOG.md`.
+- **Decision-log renamed `LOG.md` → `CHANGELOG.md`** across this doc + all six `ai_*` task files.
+- **Formatter decision: Oxfmt replaces Prettier** program-wide; **pnpm** recommended. Wording updated
+  in this doc + the five Vite-based `ai_*` task files (Next.js keeps ESLint).
+
 **Next iteration:**
 1. `react/.instructions/OPEN_QUESTIONS.md` — track unresolved items (defense gate, Oxlint rule set, deadlines).
-2. Harness scaffolding per task: `AGENTS.md` + `LOG.md` seed + pointer files + pre-configured project.
-3. Update `react/modules/tasks/project-setup.md` to the Oxlint-based setup (or per-task template repos).
+2. Scaffold the remaining tasks' harness repos by copying the Task 1 template (`react/repos/<slug>/`).
+3. Update `react/modules/tasks/project-setup.md` to the Oxlint/Oxfmt/pnpm setup (or point to the template repos).
 4. Update `react/README.md` weekly schedule to the new task list.
 5. Add the harness to the Forms & Performance tasks.
 6. Generate `cross-check.json` from each task's feature/points table.
+7. Replace each repo's `TASK.md` copy with a direct GitHub link once the tasks are finalized.
 
 ---
 

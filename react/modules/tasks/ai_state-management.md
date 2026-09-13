@@ -29,7 +29,7 @@ Suggested API: **[FakeStore API](https://fakestoreapi.com/)** (no key) or a loca
 
 ## 🤖 Working with AI (required)
 
-The AI **coaches, you decide**. Keep a mandatory **`LOG.md`** (per-session steps + justified decisions).
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
@@ -42,7 +42,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
-- Vite `react-ts` + Oxlint + Prettier + Husky. TypeScript throughout; no `any`/`ts-ignore`.
+- Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: State library set up (**15 points**)
 - Redux Toolkit **or** Zustand integrated and configured; store used for app state.
@@ -58,7 +58,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 - A light/dark theme switch implemented with **Context API**, affecting the whole app; control at the top.
 
 ### Feature 6: Context-vs-store rationale (**5 points**)
-- A short written rationale (in `README.md` or `LOG.md`) explaining why theme is in Context and cart is in the store.
+- A short written rationale (in `README.md` or `CHANGELOG.md`) explaining why theme is in Context and cart is in the store.
 
 ### Feature 7: Optional cart persistence (**5 points**)
 - Cart optionally persists to `localStorage` across reloads.
@@ -69,9 +69,9 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Technical Requirements
 
 1. Fresh repository; dedicated branch; first commit only `README.md`.
-2. Stack: **Vite + React + TS + Oxlint + Prettier + Husky + Vitest + RTL** + chosen state library.
+2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL** + chosen state library.
 3. No direct state mutation (Redux/Zustand). Direct DOM only for theme attribute toggling in a `useEffect`.
-4. Keep a `LOG.md`.
+4. Keep a `CHANGELOG.md`.
 
 ## Penalties
 
@@ -80,10 +80,10 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 - Direct DOM manipulation (except theme attribute toggling in `useEffect`): **-50 each**.
 - Component libraries (MUI/AntD): **-100**.
 - Coverage below thresholds: statements <80% (≥70%): **-10**; <70% (≥50%): **-30**; all <50%: **-50**.
-- Missing `LOG.md`: **-90**.
+- Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ
 
-**Redux Toolkit or Zustand?** Your choice — justify in `LOG.md`. AI stays neutral, but reminds you it pairs with Task 4.
+**Redux Toolkit or Zustand?** Your choice — justify in `CHANGELOG.md`. AI stays neutral, but reminds you it pairs with Task 4.
 **Why not put the cart in Context?** Context re-renders all consumers; a store gives selective updates. Explain this in your rationale.
 **Persist selected items?** Only if you want the optional points — in-memory across navigation is enough otherwise.
