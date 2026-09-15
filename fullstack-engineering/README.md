@@ -132,10 +132,8 @@
 
 - Теоретические модули:
   - [Chrome DevTools](modules/week-05/chrome-devtools.md)
-  - [Clean Code](modules/week-05/clean-code.md)
 - Тесты:
   - [St1] DevTools Test
-  - [St1] Clean-code
 - Задача **Bug Hunting**:
   - [Описание задачи](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
 - **Стек**: HTML, CSS, JavaScript, Chrome DevTools
@@ -157,7 +155,27 @@
 #### 20 октября 2026 года
 
 - Теоретические модули:
-  - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md)
+  - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
+  - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
+  - [Clean Code](modules/week-05/clean-code.md)
+- Тесты:
+  - [St1] Git & GitHub #2
+  - [St1] Linters, Formatters, and Husky
+  - [St1] Clean-code
+- Задача **Каталог веб-игр**:
+  - [Каталог веб-игр](tasks/games-catalog/README.md) — общий репозиторий, каждый студент добавляет свою игру 
+- **Стек**: JavaScript, Git, ESLint, Prettier, Husky
+- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
+
+
+### Неделя 8
+
+#### 27 октября 2026 года
+
+TypeScript + Linter, husky, prettier
+
+- Теоретические модули:
+  - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) - O-notation
   - [Основы объектно-ориентированного программирования](modules/week-07/oop-basics.md)
 - Тесты:
   - [St1] Test Algorithms & Data structures
@@ -167,10 +185,18 @@
 - **Стек**: JavaScript
 - **Чему научатся**: основам алгоритмов и структур данных, оценке сложности алгоритмов и применению принципов ООП при реализации структур данных
 
-### Неделя 8
 
-#### 27 октября 2026 года
+### Неделя 9
 
+#### 3 ноября 2026 года
+functional programming -scope / lexical environment / context / this (call, apply, bind)
+
+
+### Неделя 10
+
+#### 10 ноября 2026 года
+
+//Event Loop, Async - TS
 - Теоретический модуль:
   - [Обзор клиент-серверного взаимодействия](modules/week-08/client-server-interaction.md)
 - Тест:
@@ -182,46 +208,16 @@
 - **Стек**: JavaScript, Fetch API, async/await, DOM API
 - **Чему научатся**: основам клиент-серверного взаимодействия, асинхронной работе с сетью и обработке ошибок API
 
-### Неделя 9
-
-#### 3 ноября 2026 года
-
-- Теоретические модули:
-  - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
-  - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
-  - [Canvas API](modules/week-09/canvas-api.md)
-- Тесты:
-  - [St1] Git & GitHub #2
-  - [St1] Linters, Formatters, and Husky
-  - [St1] Canvas API
-- Задача **Каталог веб-игр**:
-  - [Каталог веб-игр](tasks/games-catalog/README.md) — общий репозиторий, каждый студент добавляет свою игру
-- **Стек**: JavaScript, Canvas API, Git, ESLint, Prettier, Husky
-- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
-
-### Неделя 10
-
-#### 10 ноября 2026 года
-
-- Теоретический модуль:
-  - [Node.js](modules/week-10/nodejs.md)
-- Задача **Свой backend**:
-  - [Свой backend](tasks/own-backend/README.md) — сервер с несколькими роутами и middleware для проверки токена из cookies
-- **Стек**: Node.js (HTTP/Express), cookies, middleware
-- **Чему научатся**: основам Node.js, серверным маршрутам, паттерну middleware и базовой аутентификации по токену
-
 ### Неделя 11–12
 
 #### 17 ноября 2026 года
 
 - Теоретические модули:
-  - [Сборщики модулей](modules/week-11-12/bundlers.md)
-  - [Webpack](modules/week-11-12/webpack.md)
+
 - Тесты:
-  - [St1] Introduction to Bundlers
-  - Test Webpack Basics [RU]
+
 - Cross-check:
-  - Cross-check проекта [Свой backend](tasks/own-backend/README.md#критерии-оценки)
+  
 - Задача **Онлайн-магазин**:
   - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры; можно опираться на сервер с недели 10
 - **Стек**: JavaScript, DOM API, сборщик модулей и UI-подход по выбору пары
