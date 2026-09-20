@@ -3,10 +3,26 @@
 ## 🚀 Обзор
 
 - 📣 **Открыт для всех, кто хочет присоединиться**
-- 📅 **Структура и длительность:** курс состоит из двух частей. Первая часть рассчитана на 12 недель и представлена ниже. Во второй части обучение продолжится с использованием TypeScript. Продолжительность и программа второй части будут опубликованы позднее.
+- 📅 **Структура и длительность:** обучение состоит из последовательных этапов. Сейчас идёт этап «Основы» — 12 недель; его программа представлена ниже.
 - 📚 **Формат:** самостоятельное изучение + вебинары + парная/групповая работа + Discord + cross-check
 - 🤖 **AI:** AI-ассистенты разрешены, но их использование должно быть прозрачным
-- 🗣️ **Язык курса:** русский
+
+## 🧭 Этапы обучения
+
+1. **Основы: JavaScript/TypeScript** — 12 недель, идёт сейчас. Каждая неделя посвящена одной теме: вёрстка, DOM, debugging, clean code, promises и async/await, TypeScript.
+2. **React** — 12 недель, с менторами. Это стандартный отдельный курс RS School по React: [регистрация](https://wearecommunity.io/events/rs-react-2026q4).
+3. **Node.js** — 10 недель. Адаптированная версия курса RS School по Node.js.
+4. **RS Tandem & AI SDLC** — финальный командный проект продолжительностью ориентировочно 6–8 недель, с менторами.
+
+Параллельно всему курсу работает [AI Club](https://t.me/rs_ai_club) — факультатив для тех, кто хочет глубже изучать AI-инструменты. Для участия не обязательна подписка на платные AI-сервисы.
+
+### Сертификаты
+
+Сертификат Full Stack получают участники, которые прошли все этапы: «Основы», React, Node.js и RS Tandem, а также технические интервью. За этапы React и Node.js выдаются отдельные сертификаты, как и на обычных курсах RS School.
+
+У базового этапа «Основы» отдельного сертификата нет. Участники, набравшие не менее 70% от результата лучшего студента, получают приоритет при распределении ментора на следующем этапе.
+
+Таким образом, выпускник получает три сертификата: React, Node.js и итоговый Full Stack.
 
 ### 📝 Темы курса
 
@@ -17,7 +33,6 @@
 - Unit-тесты и основы TDD
 - Алгоритмы и структуры данных: стек, очередь, связный список, дерево
 - Работа с внешним API и асинхронные запросы
-- Свой сервер: routes, middleware, аутентификация по токену
 - Совместная разработка в общем репозитории и парная работа над проектом
 
 ---
@@ -85,24 +100,25 @@
 #### 22 сентября 2026 года
 
 - Теоретические модули:
-  - [DOM API](modules/week-03/dom-api.md)
-  - [События](modules/week-03/events.md)
-  - [HTML-формы и валидация](modules/week-03/html-forms-validation.md)
+  - [CSS Grid Layout](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/css-grid)
+  - [Адаптивный веб-дизайн](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/responsive-web-design)
+  - [Позиционирование в CSS. Flexbox](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/css-positioning)
+  - [Медиазапросы](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/media-queries)
 - Видеоматериалы RS School:
-  - [События в JavaScript](https://www.youtube.com/watch?v=VJEpE6DaOYo)
+  - [Основы SCSS (Sass). Flexbox и Grid Layout](https://www.youtube.com/watch?v=MOrQRgP8kbo)
 - Тесты:
+  - [St1] Media Queries & Responsive
   - [St1] JS Basics
   - [St1] JS Types
-  - [St1] DOM Api
-  - [St1] DOM Events
-  - [St1] HTML Form
+  - [St1] JS Evolution
+  - [St1] CSS Grid
+  - [St1] CSS Positioning & Flexbox
 - Cross-check:
   - Cross-check проекта [Landing Page. Часть 1](tasks/landing-page/README-part-1.md#критерии-оценки)
-- Задача **Landing Page**:
-  - [Общее описание задачи](tasks/landing-page/README.md)
-  - [Часть 2. Функциональность](tasks/landing-page/README-part-2.md) — бургер-меню, слайдер, переключение категорий, дополнительные карточки и модальное окно с выбором параметров
-- **Стек**: HTML, CSS, JavaScript, DOM API
-- **Чему научатся**: работе с DOM, HTML-формами и браузерными событиями, динамическому отображению данных и реализации интерактивных компонентов
+- Видеоматериалы:
+  - [Основы Codewars](https://www.youtube.com/live/RChY6XMi6ws)
+- **Стек**: HTML, CSS, JavaScript, Flexbox, Grid, медиазапросы
+- **Чему научатся**: адаптивной вёрстке с помощью Flexbox, Grid и медиазапросов, а также основам JavaScript и современным возможностям языка
 
 ### Неделя 4
 
@@ -111,11 +127,8 @@
 - Теоретические модули:
   - [Область видимости и функции](modules/week-04/scope-and-functions.md)
   - [Эволюция JavaScript](modules/week-04/javascript-evolution.md)
-- Видеоматериалы RS School:
-  - [Основы Codewars](https://www.youtube.com/live/RChY6XMi6ws)
 - Тесты:
   - [St1] JS Scope & Functions
-  - [St1] JS Evolution
 - Практика по JavaScript:
   - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks) — задачи на условные конструкции и циклы
   - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays) — задачи на работу с массивами
@@ -132,10 +145,8 @@
 
 - Теоретические модули:
   - [Chrome DevTools](modules/week-05/chrome-devtools.md)
-  - [Clean Code](modules/week-05/clean-code.md)
 - Тесты:
   - [St1] DevTools Test
-  - [St1] Clean-code
 - Задача **Bug Hunting**:
   - [Описание задачи](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
 - **Стек**: HTML, CSS, JavaScript, Chrome DevTools
@@ -156,8 +167,29 @@
 
 #### 20 октября 2026 года
 
+- //ToDo: обновить эту неделю
+
 - Теоретические модули:
-  - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md)
+  - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
+  - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
+  - [Clean Code](modules/week-05/clean-code.md)
+- Тесты:
+  - [St1] Git & GitHub #2
+  - [St1] Linters, Formatters, and Husky
+  - [St1] Clean-code
+- Задача **Clean Code**:
+  - [Clean Code]
+- **Стек**: JavaScript, Git, ESLint, Prettier, Husky
+- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
+
+### Неделя 8
+
+#### 27 октября 2026 года
+
+- //ToDo: TypeScript + Linter, Husky, Prettier
+
+- Теоретические модули:
+  - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) — O-notation
   - [Основы объектно-ориентированного программирования](modules/week-07/oop-basics.md)
 - Тесты:
   - [St1] Test Algorithms & Data structures
@@ -167,9 +199,17 @@
 - **Стек**: JavaScript
 - **Чему научатся**: основам алгоритмов и структур данных, оценке сложности алгоритмов и применению принципов ООП при реализации структур данных
 
-### Неделя 8
+### Неделя 9
 
-#### 27 октября 2026 года
+#### 3 ноября 2026 года
+
+- //ToDo: functional programming — scope, lexical environment, context, this (call, apply, bind)
+
+### Неделя 10
+
+#### 10 ноября 2026 года
+
+- //ToDo: Event Loop, Async — TypeScript
 
 - Теоретический модуль:
   - [Обзор клиент-серверного взаимодействия](modules/week-08/client-server-interaction.md)
@@ -182,26 +222,9 @@
 - **Стек**: JavaScript, Fetch API, async/await, DOM API
 - **Чему научатся**: основам клиент-серверного взаимодействия, асинхронной работе с сетью и обработке ошибок API
 
-### Неделя 9
+### Неделя 11–12
 
-#### 3 ноября 2026 года
-
-- Теоретические модули:
-  - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
-  - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
-  - [Canvas API](modules/week-09/canvas-api.md)
-- Тесты:
-  - [St1] Git & GitHub #2
-  - [St1] Linters, Formatters, and Husky
-  - [St1] Canvas API
-- Задача **Каталог веб-игр**:
-  - [Каталог веб-игр](tasks/games-catalog/README.md) — общий репозиторий, каждый студент добавляет свою игру
-- **Стек**: JavaScript, Canvas API, Git, ESLint, Prettier, Husky
-- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
-
-### Неделя 10
-
-#### 10 ноября 2026 года
+#### 17 ноября 2026 года
 
 - Теоретический модуль:
   - [Node.js](modules/week-10/nodejs.md)
@@ -210,21 +233,9 @@
 - **Стек**: Node.js (HTTP/Express), cookies, middleware
 - **Чему научатся**: основам Node.js, серверным маршрутам, паттерну middleware и базовой аутентификации по токену
 
-### Неделя 11–12
-
-#### 17 ноября 2026 года
-
-- Теоретические модули:
-  - [Сборщики модулей](modules/week-11-12/bundlers.md)
-  - [Webpack](modules/week-11-12/webpack.md)
-- Тесты:
-  - [St1] Introduction to Bundlers
-  - Test Webpack Basics [RU]
-- Cross-check:
-  - Cross-check проекта [Свой backend](tasks/own-backend/README.md#критерии-оценки)
 - Задача **Онлайн-магазин**:
-  - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры; можно опираться на сервер с недели 10
-- **Стек**: JavaScript, DOM API, сборщик модулей и UI-подход по выбору пары
+  - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры; можно опираться на сервер с недели 11
+- **Стек**: JavaScript, DOM API, Node.js, сборщик модулей и UI-подход по выбору пары
 - **Чему научатся**: настройке сборки проекта, парной разработке крупного приложения, распределению зон ответственности и проведению code review внутри пары
 
 ## 👨‍🏫 Активности менторов
