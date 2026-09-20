@@ -88,7 +88,7 @@
   - [core-js-numbers](https://github.com/rolling-scopes-school/core-js-numbers) — задачи на работу с числами
   - [core-js-strings](https://github.com/rolling-scopes-school/core-js-strings) — задачи на работу со строками
 - Cross-check:
-  - Cross-check проекта [CV Project](tasks/cv/README.md#критерии-оценки-часть-3)
+  - [CV Project](tasks/cv/README.md#критерии-оценки-часть-3)
 - Задача **Landing Page**:
   - [Общее описание задачи](tasks/landing-page/README.md)
   - [Часть 1. Вёрстка](tasks/landing-page/README-part-1.md) — две страницы, адаптивная вёрстка, светлая и тёмная темы с сохранением выбора пользователя
@@ -100,25 +100,25 @@
 #### 22 сентября 2026 года
 
 - Теоретические модули:
-  - [CSS Grid Layout](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/css-grid)
-  - [Адаптивный веб-дизайн](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/responsive-web-design)
-  - [Позиционирование в CSS. Flexbox](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/css-positioning)
-  - [Медиазапросы](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/media-queries)
+  - [DOM API](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/dom-api)
+  - [События](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/events)
+  - [HTML-формы и валидация](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/html-form)
 - Видеоматериалы RS School:
-  - [Основы SCSS (Sass). Flexbox и Grid Layout](https://www.youtube.com/watch?v=MOrQRgP8kbo)
+  - [События в JavaScript](https://www.youtube.com/watch?v=VJEpE6DaOYo)
 - Тесты:
-  - [St1] Media Queries & Responsive
-  - [St1] JS Basics
-  - [St1] JS Types
-  - [St1] JS Evolution
-  - [St1] CSS Grid
-  - [St1] CSS Positioning & Flexbox
+  - [St1] [HTML Form](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/html-form)
+  - [St1] [DOM Api](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/dom-api)
+  - [St1] [DOM Events](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/events)
+  - [St1] [JS Basics](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/js-basics)
+  - [St1] [JS Types](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/js-basics)
+  - [St1] [JS Evolution](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/js-evolution)
 - Cross-check:
-  - Cross-check проекта [Landing Page. Часть 1](tasks/landing-page/README-part-1.md#критерии-оценки)
-- Видеоматериалы:
-  - [Основы Codewars](https://www.youtube.com/live/RChY6XMi6ws)
-- **Стек**: HTML, CSS, JavaScript, Flexbox, Grid, медиазапросы
-- **Чему научатся**: адаптивной вёрстке с помощью Flexbox, Grid и медиазапросов, а также основам JavaScript и современным возможностям языка
+  - [Landing Page. Часть 1](tasks/landing-page/README-part-1.md#критерии-оценки)
+- Задача **Landing Page**:
+  - [Общее описание задачи](tasks/landing-page/README.md)
+  - [Часть 2. Функциональность](tasks/landing-page/README-part-2.md) — бургер-меню, слайдер или карусель, переключение категорий, дополнительные карточки, модальное окно и параметры карточки
+- **Стек**: HTML, CSS, JavaScript, DOM API
+- **Чему научатся**: работе с DOM, HTML-формами и браузерными событиями, динамическому отображению данных и реализации интерактивных компонентов
 
 ### Неделя 4
 
@@ -133,7 +133,7 @@
   - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks) — задачи на условные конструкции и циклы
   - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays) — задачи на работу с массивами
 - Cross-check:
-  - Cross-check проекта [Landing Page. Часть 2](tasks/landing-page/README-part-2.md#критерии-оценки)
+  - [Landing Page. Часть 2](tasks/landing-page/README-part-2.md#критерии-оценки)
 - Задача **JS Basic Methods**:
   - [Описание задачи](tasks/js-basic-methods/README.md) — работа с числами, строками и массивами, условными конструкциями и циклами, а также решение задач Codewars с автопроверкой в RS App
 - **Стек**: JavaScript
@@ -157,7 +157,7 @@
 #### 13 октября 2026 года
 
 - Cross-check:
-  - Cross-check проекта [Bug Hunting](tasks/bug-hunting/README.md#критерии-оценки)
+  - [Bug Hunting](tasks/bug-hunting/README.md#критерии-оценки)
 - Задача **Testing Intro**:
   - [Testing intro](tasks/testing-intro/README.md) — часть 1: unit-тесты к готовым функциям; часть 2: функции по готовым тестам (TDD)
 - **Стек**: JavaScript, Jest
@@ -216,7 +216,7 @@
 - Тест:
   - [St1] Client - Server interaction
 - Cross-check:
-  - Cross-check проекта [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md#критерии-оценки)
+  - [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md#критерии-оценки)
 - Задача **Работа с готовым Web API**:
   - [Работа с готовым веб API](tasks/external-api/README.md) — запросы, рендер данных, обработка ошибок и загрузки
 - **Стек**: JavaScript, Fetch API, async/await, DOM API
