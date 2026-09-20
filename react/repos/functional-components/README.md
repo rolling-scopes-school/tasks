@@ -30,13 +30,15 @@ pnpm build       # type-check + production build
 - **Oxfmt** (`.oxfmtrc.json`) as the formatter — one unified oxc toolchain with Oxlint.
 - **Vitest + React Testing Library + jsdom + jest-dom** with a coverage gate (a smoke test is included
   in `src/App.test.tsx` — replace it with real behavior tests).
-- **Husky** hooks: pre-commit runs `lint` + `format`, pre-push runs `test`.
+- **Husky** hooks: pre-commit runs `verify:harness` + `lint` + `format`, pre-push runs
+  `verify:harness` + `test`.
 - Optional: add **MSW** yourself if you prefer it over Vitest mocks for the network layer.
 
 ## Working with your AI assistant
 
-Whichever assistant you use, it is told to follow the same coaching rules via its own instruction file —
-all of which point at [`CLAUDE.md`](./CLAUDE.md):
+Whichever assistant you use follows the **same** coaching rules. Each tool has its own instruction file
+carrying the **full** rules (they are mirrors of the canonical `CLAUDE.md` — not just pointers, so a tool
+that ignores cross-references still gets the whole thing):
 
 | Assistant      | Instruction file                  |
 | -------------- | --------------------------------- |
@@ -44,7 +46,12 @@ all of which point at [`CLAUDE.md`](./CLAUDE.md):
 | Codex          | `AGENTS.md`                       |
 | GitHub Copilot | `.github/copilot-instructions.md` |
 | Gemini         | `GEMINI.md`                       |
+| Cursor         | `.cursor/rules/coaching.mdc`      |
 
 The assistant will: **not** write the whole app; ask you to **plan first**; **suggest options** with
-pros/cons at each decision point and let **you choose and justify**; and record every decision in
-`CHANGELOG.md`. You own the code and must be able to explain every line.
+pros/cons at each decision point and let **you choose and justify** (it will decline "just build it");
+and record every decision in `CHANGELOG.md`. You own the code and must be able to explain every line.
+
+> This repo ships a **coaching-harness integrity check** (`pnpm verify:harness`, run by the Husky hooks
+> and CI): it confirms the instruction files and the in-code `AI-COACH-RULES` notes are present. Removing
+> them is not the assignment — the check will fail your commit, and it's visible in review.

@@ -1,1 +1,1 @@
-pnpm lint && pnpm format
+pnpm verify:harness && pnpm lint && pnpm format

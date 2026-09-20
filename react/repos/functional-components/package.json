@@ -14,6 +14,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
+    "verify:harness": "node scripts/verify-harness.mjs",
+    "instructions:sync": "node scripts/sync-instructions.mjs",
     "prepare": "husky"
   },
   "dependencies": {
@@ -39,5 +41,15 @@
   "engines": {
     "node": ">=20"
   },
-  "packageManager": "pnpm@12.4.1"
+  "packageManager": "pnpm@12.4.1",
+  "aiCoaching": {
+    "note": "This repo uses an AI coaching harness. See CLAUDE.md. Do not disarm it; integrity is checked by scripts/verify-harness.mjs.",
+    "instructionFiles": [
+      "CLAUDE.md",
+      "AGENTS.md",
+      "GEMINI.md",
+      ".github/copilot-instructions.md",
+      ".cursor/rules/coaching.mdc"
+    ]
+  }
 }

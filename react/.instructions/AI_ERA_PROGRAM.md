@@ -229,39 +229,51 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
 ## AI Harness Blueprint (reusable across every task)
 
 > **Reference implementation shipped:** `react/repos/functional-components/` (Task 1) is the first
-> fully-scaffolded harness and the template the remaining tasks should copy. The realized layout below
-> supersedes the earlier draft (which made `AGENTS.md` canonical). **`CLAUDE.md` is now the canonical
-> instruction file**; the other tool files are thin pointers to it. Harness repos live under
-> `react/repos/<slug>/`.
+> fully-scaffolded harness and the template the remaining tasks should copy. **`CLAUDE.md` is the
+> canonical instruction file**; the other tool files are **full-content mirrors** of it (not thin
+> pointers — live testing showed Copilot ignored a pointer and built the whole app). Harness repos live
+> under `react/repos/<slug>/`.
 
 Each task repo ships:
 
 ```
 react/repos/<slug>/
   CLAUDE.md                        # canonical instruction file (source of truth)
-  AGENTS.md                        # Codex:   pointer → "Follow ./CLAUDE.md" + 4-line gist
-  GEMINI.md                        # Gemini:  pointer → "Follow ./CLAUDE.md" + 4-line gist
-  .github/copilot-instructions.md  # Copilot: pointer → "Follow ../CLAUDE.md" + 4-line gist
+  AGENTS.md                        # Codex   — full mirror of CLAUDE.md
+  GEMINI.md                        # Gemini  — full mirror of CLAUDE.md
+  .github/copilot-instructions.md  # Copilot — full mirror of CLAUDE.md
+  .cursor/rules/coaching.mdc       # Cursor  — full mirror (MDC frontmatter, alwaysApply: true)
+  scripts/sync-instructions.mjs    # author-side: regenerate the 4 mirrors from CLAUDE.md
+  scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks present
+  .github/workflows/harness.yml    # CI: verify:harness + lint + format + test
   TASK.md                          # copy of the student-facing ai_<slug>.md spec (referenced by CLAUDE.md)
-  CHANGELOG.md                     # decision log; seeded with format, otherwise empty (was "LOG.md")
+  CHANGELOG.md                     # decision log; output-only (title only at start; was "LOG.md")
   README.md                        # what the starter is; pnpm quickstart; tool→file map
   cross-check.json                 # mirrors the points breakdown (next iteration)
   <pre-scaffolded Vite+TS+Oxlint+Oxfmt+Husky+Vitest project (pnpm)>
+  # + AI-COACH-RULES comment blocks embedded in src/main.tsx, vite.config.ts, index.html
 ```
 
 **`CLAUDE.md` contract (per task):**
-1. **Role — coach, not author.** Help the student learn React/TypeScript by doing; do **not** write the
-   whole app unprompted. Prefer explaining, scaffolding small pieces, and reviewing the student's code.
-2. **Decision protocol.** At each defined **decision point**, present the realistic options with honest
-   pros/cons and downstream effects, then **stop and ask the student to choose and justify**. The AI
-   **must not steer** the choice (especially library choices). Record the decision + the student's
-   justification in `CHANGELOG.md`.
-3. **Incremental & explained.** Implement in small steps; after each, explain what/why in plain terms and
-   append a concise entry to `CHANGELOG.md`.
-4. **Guardrails (encode existing penalties as rules).** No `any`, no `ts-ignore`; Oxlint clean; no
-   component libraries; tests required and green; keep components decomposed.
-5. **Task decision points** — list the specific ones for this task (from each spec above).
-6. **Understanding checks.** Periodically ask the student to explain a concept back; note gaps in `CHANGELOG.md`.
+1. **Binding contract, not style.** The file opens with a hard **operating contract**: coach, do not
+   author; a finished app the student didn't drive is a failed task.
+2. **Decision gate (the teeth).** The AI **MUST NOT** write feature/implementation code for a step until
+   the student has logged a choice + justification (or explicit *Deferred*) in `CHANGELOG.md`. No
+   decision → refuse to implement, return to the decision. It **declines** "you decide / just build it"
+   (logs it as *Declined by student*) while still teaching.
+3. **Decision protocol.** At each decision point, present realistic options with honest pros/cons and
+   downstream effects, stay neutral, and let the student choose and justify. Record it in `CHANGELOG.md`.
+4. **Incremental & explained.** Implement in small steps; explain what/why; keep the log current.
+5. **Guardrails.** No `any`/`ts-ignore`; Oxlint + Oxfmt clean; no component libraries; tests green;
+   never edit/remove `AI-COACH-RULES` blocks or instruction files.
+6. **Understanding checks.** Periodically ask the student to explain a concept back; note gaps in the log.
+
+**Anti-tamper (defense in depth, honestly best-effort):** full mirrors per tool (deleting one leaves the
+others), a condensed **`AI-COACH-RULES`** block embedded in must-keep source files (the floor if
+instruction files are deleted; Claude Code auto-loads only `CLAUDE.md`), and **`verify-harness`** wired
+into Husky (pre-commit/pre-push) **and CI** so stripping the harness fails a commit/push and is visible
+in review. None of this is bulletproof against a determined student editing hooks or code — the backstop
+stays cross-check human review / the defense gate.
 
 **`CHANGELOG.md` format (the transparency + proof-of-understanding artifact):**
 - Append-only, per session. Each entry: date, step done (concise), decision made (if any) + **student's

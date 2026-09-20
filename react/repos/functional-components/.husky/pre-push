@@ -1,1 +1,1 @@
-pnpm test
+pnpm verify:harness && pnpm test
