@@ -125,19 +125,20 @@
 #### 29 сентября 2026 года
 
 - Теоретические модули:
-  - [Область видимости и функции](modules/week-04/scope-and-functions.md)
-  - [Эволюция JavaScript](modules/week-04/javascript-evolution.md)
+  - [Область видимости и функции](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/functions)
+- Видеоматериалы RS School:
+  - [Основы Codewars](https://youtube.com/live/RChY6XMi6ws?feature=share)
 - Тесты:
-  - [St1] JS Scope & Functions
+  - [St1] [JS Scope & Functions](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/functions)
 - Практика по JavaScript:
   - [core-js-conditions-n-loops](https://github.com/rolling-scopes-school/core-js-conditions-n-loops-tasks) — задачи на условные конструкции и циклы
   - [core-js-arrays](https://github.com/rolling-scopes-school/core-js-arrays) — задачи на работу с массивами
 - Cross-check:
-  - [Landing Page. Часть 2](tasks/landing-page/README-part-2.md#критерии-оценки)
-- Задача **JS Basic Methods**:
-  - [Описание задачи](tasks/js-basic-methods/README.md) — работа с числами, строками и массивами, условными конструкциями и циклами, а также решение задач Codewars с автопроверкой в RS App
+  - [Landing Page. Часть 2](tasks/landing-page/README.md#часть-2-функциональность)
+- Задачи:
+  - [Codejam (Eldritch Horror)](https://github.com/Luffi2539/eldritch-codejam)
 - **Стек**: JavaScript
-- **Чему научатся**: работе с функциями и областями видимости, современными возможностями JavaScript, методами строк, чисел и массивов, условными конструкциями и циклами
+- **Чему научатся**: работе с функциями и областями видимости, условными конструкциями и циклами, массивами
 
 ### Неделя 5
 
