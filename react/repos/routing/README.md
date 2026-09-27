@@ -1,7 +1,8 @@
-# RS React — Task 1 starter (Functional Components, State & Testing)
+# RS React — Task 2 starter (Routing, SPA)
 
-A pre-configured starter for **Task 1** of the RS School React course (AI era). You build a small
-**Weather Dashboard** using React function components, hooks, an Error Boundary, and unit tests —
+A pre-configured starter for **Task 2** of the RS School React course (AI era). You build a small
+**Character Catalog** single-page app with client-side **routing** (paginated list, master-detail, search,
+About, 404), unit tests, and **end-to-end tests** (Playwright, introduced in this task) —
 **with an AI assistant coaching you**, not writing it for you.
 
 - 📋 **What to build:** [`TASK.md`](./TASK.md) — full requirements, feature/points breakdown, penalties.
@@ -16,22 +17,27 @@ This project uses **pnpm** (recommended). Install it once with `corepack enable`
 ```sh
 pnpm install     # install dependencies + set up Husky hooks
 pnpm dev         # start Vite dev server
-pnpm test        # run Vitest once
-pnpm coverage    # run tests with coverage (statements >= 80% required)
+pnpm test        # run Vitest (unit/component) once
+pnpm coverage    # run unit tests with coverage (statements >= 80% required)
+pnpm e2e         # run Playwright end-to-end tests (builds + serves the app)
 pnpm lint        # Oxlint
 pnpm format      # Oxfmt (check); pnpm format:fix to write
 pnpm build       # type-check + production build
 ```
+
+> First E2E run: `pnpm exec playwright install chromium` downloads the browser once.
 
 ## What's already set up
 
 - **Vite + React 19 + TypeScript** (`strict`, no `any`, no `ts-ignore`).
 - **Oxlint** (`.oxlintrc.json` — recommended + React/TypeScript/jsx-a11y) as the linter.
 - **Oxfmt** (`.oxfmtrc.json`) as the formatter — one unified oxc toolchain with Oxlint.
-- **Vitest + React Testing Library + jsdom + jest-dom** with a coverage gate (a smoke test is included
-  in `src/App.test.tsx` — replace it with real behavior tests).
+- **Vitest + React Testing Library + jsdom + jest-dom** for unit/component tests (a smoke test is in
+  `src/App.test.tsx` — replace it with real tests).
+- **Playwright** for end-to-end tests (config in `playwright.config.ts`, specs in `e2e/`; a smoke spec is
+  included). Vitest owns `src/**`, Playwright owns `e2e/**` — separate globs.
 - **Husky** hooks: pre-commit runs `verify:harness` + `lint` + `format`, pre-push runs
-  `verify:harness` + `test`.
+  `verify:harness` + `test`. (E2E runs in CI, not in local hooks — browser downloads are heavy.)
 - **Per-assistant enforcement hooks** (on top of the instruction files below):
   - **Claude Code** (`.claude/settings.json`): starts in **plan mode** and a `UserPromptSubmit` hook
     re-states the coaching contract each turn. Personal overrides go in `.claude/settings.local.json` (git-ignored).

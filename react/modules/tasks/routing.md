@@ -25,6 +25,7 @@ endpoints). Any key-free paginated API works. **No backend** — the focus is Re
 - [Hooks](../hooks/README.md)
 - [React Router](../router/README.md)
 - For TanStack Router: the [official docs](https://tanstack.com/router/latest).
+- [Playwright](https://playwright.dev/docs/intro) — end-to-end testing (introduced in this task).
 
 ## 🤖 Working with AI (required)
 
@@ -39,6 +40,8 @@ harness ships next iteration.
   **not** steer your pick.
 - If using React Router: **data** vs **declarative** mode.
 - **URL schema** for pagination and details (e.g. `?page=2&details=1` vs `/:page/:id`).
+- **E2E scope & structure:** which user flows to cover with Playwright (e.g. pagination, master-detail,
+  404) and how to organize specs (page-object helpers vs inline). Keep E2E on user-visible behavior.
 
 ## Functional Requirements (max **100 points**)
 
@@ -54,7 +57,7 @@ harness ships next iteration.
 - The current page is reflected in the **URL** and always matches the visible page.
 - Changing the search resets the page to 1 and updates the URL.
 
-### Feature 4: Master-detail via `Outlet` (**20 points**)
+### Feature 4: Master-detail via `Outlet` (**15 points**)
 - Clicking an item opens a **detail view** (route with a param) beside the list, rendered via `Outlet`.
 - A loading indicator shows while details load; a close control hides them.
 - On first load no item is selected. The URL reflects page + selected item.
@@ -62,19 +65,24 @@ harness ships next iteration.
 ### Feature 5: Search reflected in the URL (**10 points**)
 - A search control filters results and is reflected in the URL (e.g. `?search=rick`).
 
-### Feature 6: About page (**10 points**)
+### Feature 6: About page (**5 points**)
 - An About page with author info and a link to the RS School React course, reachable via a nav link.
 
-### Feature 7: 404 page (**10 points**)
+### Feature 7: 404 page (**5 points**)
 - Any unknown route shows a 404 page with a clear message and a link back to the app. Works on localhost.
 
-### Feature 8: Tests (**10 points**)
+### Feature 8: Unit tests (**10 points**)
 - Vitest + RTL tests covering routing, pagination, and the detail view. Network mocked. Coverage ≥ the thresholds.
+
+### Feature 9: End-to-end tests (Playwright) (**15 points**)
+- Playwright E2E specs in `e2e/` cover the key user journeys: paginating the list, opening and closing a
+  detail view, searching, and hitting a 404. Tests run against the built app (`pnpm build && pnpm preview`)
+  and pass headlessly.
 
 ## Technical Requirements
 
 1. Fresh repository; dedicated branch; first commit only `README.md`.
-2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL**.
+2. Stack: **Vite + React + TS + Oxlint + Oxfmt + Husky + Vitest + RTL + Playwright**.
 3. Function components only (no class components needed here).
 4. Keep a `CHANGELOG.md`.
 
@@ -84,6 +92,7 @@ harness ships next iteration.
 - Class components: **-50 each**. · Direct DOM manipulation: **-50 each**.
 - Component libraries (MUI/AntD): **-100**.
 - Coverage below thresholds: statements <80% (≥70%): **-10**; <70% (≥50%): **-30**; all <50%: **-50**.
+- No E2E (Playwright) tests: **-30**.
 - Missing `CHANGELOG.md`: **-90**.
 
 ## FAQ

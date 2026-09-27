@@ -1,0 +1,18 @@
+# Codex coaching harness — see CLAUDE.md / AGENTS.md. Do not disarm; checked by scripts/verify-harness.mjs.
+#
+# UserPromptSubmit hook: re-inject the coaching contract every turn (Codex adds a hook's plain
+# stdout as developer context). This mirrors the Claude .claude/settings.json reminder hook and
+# reuses the shared scripts/coach-reminder.mjs, so the rules stay active even if AGENTS.md is deleted.
+#
+# Notes / honest limits:
+#  - Project-local hooks run only when you TRUST this project in Codex (Codex will prompt).
+#  - approval_policy / plan-mode CANNOT be set from a project file — that is user-level only
+#    (~/.codex/config.toml). This repo can only ship the reminder hook.
+
+[[hooks.UserPromptSubmit]]
+
+[[hooks.UserPromptSubmit.hooks]]
+type = "command"
+command = 'node "$(git rev-parse --show-toplevel)/scripts/coach-reminder.mjs"'
+timeout = 10
+statusMessage = "Loading coaching contract"

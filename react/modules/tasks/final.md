@@ -51,7 +51,7 @@ Design, prototype, as well as implementation of the application, are up to you.
 - Make sure the pull request is available for review ❗. To do this, open the link that you submit in rs app in incognito browser mode.
 - If the task is not submitted before the deadline, it will not be distributed during the cross-check and points will not be added to your score.
 
-## Functional Requirements (max **550 points**)
+## Functional Requirements (max **600 points**)
 
 For the convenience of verification, it is **necessary** to record and post on YouTube a short (5-7 min) video for reviewers with an explanation of how each of the items listed in the evaluation criteria is implemented. Add a link to the video to the pull-request.
 [How to evaluate tasks in Cross check](https://rs.school/docs/cross-check-flow). In the comments to the assessment, it is necessary to indicate which items are not fulfilled or partially fulfilled.
@@ -341,6 +341,26 @@ For the convenience of verification, it is **necessary** to record and post on Y
 
 - A 5–7 minute YouTube video is linked in the pull request demonstrating all implemented features. [50 points]
 
+### Feature 9: End-to-end tests (Playwright) (**50 points**)
+
+**As a** developer
+**I want** end-to-end tests that drive the real app in a browser
+**So that** the critical user journeys are protected against regressions
+
+**Scenario:** Automated coverage of the main flows
+
+- **Given** the application is built and served
+- **When** the Playwright E2E suite runs headlessly (in CI and locally)
+- **Then** it exercises the key journeys through the real UI and passes
+
+**Acceptance Criteria:**
+
+- Playwright is set up and runs against the built app (E2E specs live in `e2e/`; suite runs in CI). [10 points]
+- Authentication flows are covered: sign in / sign up, validation errors, and redirect-when-authenticated. [10 points]
+- Editor flow is covered: paste/validate a schema (JSON or YAML) and see the viewer populate. [10 points]
+- Try-It-Out flow is covered: execute a request through the server and see the response. [10 points]
+- Cross-cutting flows are covered: language switch and a private-route redirect for unauthenticated users. [10 points]
+
 ### Penalties
 
 - **0. Framework Choice**
@@ -368,6 +388,7 @@ For the convenience of verification, it is **necessary** to record and post on Y
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
+  - [ ] Absence of E2E (Playwright) tests **-100 points**
 
 - **6. UI/UX**
   - [ ] Vite/NextJS default favicon **-50 points**

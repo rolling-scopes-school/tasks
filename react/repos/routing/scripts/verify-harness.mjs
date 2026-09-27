@@ -27,6 +27,7 @@ const sentinelFiles = [
   'src/main.tsx',
   'vite.config.ts',
   'index.html',
+  'playwright.config.ts',
   'scripts/coach-reminder.mjs',
   '.cursor/hooks/check-harness.mjs',
 ];

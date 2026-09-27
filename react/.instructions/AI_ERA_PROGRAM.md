@@ -6,13 +6,12 @@
 > recommended setup/harness, and a feature/points breakdown to seed the cross-check process.
 >
 > **Status of the rollout:**
-> - **Done:** this document + one self-contained student-facing task file per core task, named with an
->   **`ai_` prefix** in `react/modules/tasks/` (old task files retained untouched).
-> - **Done (latest iteration):** the **Task 1 harness repo** is scaffolded and verified at
->   `react/repos/functional-components/` — the reference implementation for every other task (see
->   "AI Harness Blueprint" and "Rollout status" below).
-> - **Next:** scaffold the remaining tasks' harness repos by copying the Task 1 template, then run a
->   harness dry-run. This document and the `ai_*` task files carry **all context** needed to do so.
+> - **Done:** an 8-task program under `react/modules/tasks/` (plain filenames; pre-AI originals archived in
+>   `old/`). Playwright (E2E) added from task 2 (except task 7); the final task is +50 → 600.
+> - **Done:** harness repos scaffolded and verified for **Task 1** (`react/repos/functional-components/`) and
+>   **Task 2** (`react/repos/routing/`, first with Playwright) — the reference implementations to copy.
+> - **Next:** scaffold the remaining tasks' harness repos by copying the templates, then run a harness
+>   dry-run. This document + the task files carry **all context** needed to do so.
 
 ---
 
@@ -60,6 +59,25 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
   + **Oxfmt** as the formatter (one unified oxc toolchain — Oxlint does not format, so no lint/format
   conflict; replaces Prettier), + **Husky** pre-commit (lint + format) and pre-push (tests).
 - **Vitest** + **React Testing Library** (+ **MSW** for network mocking).
+- **Playwright (in-project)** for end-to-end tests — from **task 2 onward, except task 7** (Performance).
+  E2E specs live in `e2e/`, `playwright.config.ts` at the repo root serves the built app; Vitest owns
+  `src/**` and Playwright owns `e2e/**` (separate globs). Browsers install and E2E run **in CI**, not in the
+  local Husky hooks.
+- **Per-assistant enforcement hooks** (committed; on top of the instruction mirrors, which stay the
+  cross-tool baseline):
+  - **Claude Code** (`.claude/settings.json`): **plan-mode default** (`permissions.defaultMode: "plan"`)
+    + a `UserPromptSubmit` hook (`scripts/coach-reminder.mjs`) that re-injects the condensed contract every
+    turn (survives deletion of `CLAUDE.md`). Local overrides in the git-ignored `.claude/settings.local.json`.
+  - **Codex** (`.codex/config.toml`): a `UserPromptSubmit` hook reusing the same `coach-reminder.mjs`
+    (Codex adds a hook's plain stdout as developer context). Runs only when the student **trusts** the
+    project; `approval_policy`/plan-mode can't be set per-repo (user-level `~/.codex/config.toml` only).
+  - **Cursor** (`.cursor/hooks.json`): the contract is injected via `.cursor/rules/coaching.mdc`
+    (`alwaysApply`); Cursor hooks can't inject, so a `beforeSubmitPrompt` `failClosed` hook
+    (`.cursor/hooks/check-harness.mjs`) acts as a **tamper tripwire** — it blocks the prompt if instruction
+    files are stripped.
+  - **Copilot**: no hook/lifecycle system exists; `.github/copilot-instructions.md` is the maximum.
+  - Honest limit: these set defaults / re-inject / trip on tampering, but none is a hard lock — the
+    backstop stays `verify-harness` + cross-check review.
 - **No component libraries** (MUI/AntD) — consistent with existing penalties.
 - **No mandatory backend.** Each task uses a **key-free public API**, or a **tiny local API/mock the
   AI scaffolds**. Focus stays on React, not backend.
@@ -81,6 +99,8 @@ These rules hold across all tasks; individual task files inherit them and should
 - **Component libraries (MUI/AntD): -100.**
 - **Direct DOM manipulation inside components: -50 each** (documented per-task exceptions only).
 - **Coverage** (tasks with tests): statements <80% (≥70%): -10; <70% (≥50%): -30; all metrics <50%: -50.
+- **E2E (Playwright)** — required for tasks 2–6 and 8 (not task 1, not task 7). **No E2E tests: -30** per
+  core task (the final task treats E2E as a +50 feature and penalizes its absence at -100).
 
 New task files must reuse these numbers verbatim.
 
@@ -88,19 +108,24 @@ New task files must reuse these numbers verbatim.
 
 ## Program overview
 
-**Core module (5 tasks, ~1 per week).** Concepts accumulate conceptually; each app is standalone.
+**Eight numbered tasks**, each a standalone app. Concepts accumulate conceptually. Task files live in
+`react/modules/tasks/` with **plain names** (the `ai_` prefix was dropped); the pre-AI originals are
+archived under `react/modules/tasks/old/`.
 
-| Task | Title | New task file | Domain (suggested, key-free API) | New concepts |
-|------|-------|---------------|----------------------------------|--------------|
-| 1 | Functional Components, State & Testing | `ai_functional-components.md` | **Weather dashboard** (Open-Meteo) | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL** |
-| 2 | Routing (SPA) | `ai_routing.md` | **Character catalog** (Rick & Morty API) | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404 |
-| 3 | State Management + Context | `ai_state-management.md` | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff |
-| 4 | Data Queries | `ai_queries.md` | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error |
-| 5 | Advanced Hooks & Patterns | `ai_advanced-hooks.md` | **Reusable component kit** (no API needed) | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern |
-| — | Next.js SSR/SSG (isolated) | `ai_nextjs-ssr-ssg.md` | rebuilt from scratch | App Router, RSC, server actions, next-intl, `next/image` |
+| Task | Title | Task file | Domain (suggested, key-free API) | New concepts | Playwright? |
+|------|-------|-----------|----------------------------------|--------------|-------------|
+| 1 | Functional Components, State & Testing | `functional-components.md` | **Weather dashboard** (Open-Meteo) | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL** | no (unit only) |
+| 2 | Routing (SPA) | `routing.md` | **Character catalog** (Rick & Morty API) | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404 | **yes (intro)** |
+| 3 | State Management + Context | `state-management.md` | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff | yes |
+| 4 | Data Queries | `queries.md` | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error | yes |
+| 5 | Advanced Hooks & Patterns | `advanced-hooks.md` | **Reusable component kit** (no API needed) | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern | yes |
+| 6 | Forms | `forms.md` | **Form playground** (uncontrolled + RHF) | React Hook Form, Zod/Yup, Portal modal, store, image→base64 | yes |
+| 7 | Performance | `performance/performance.md` | **CO₂ dashboard** (provided starter) | Profiling, `useMemo`/`useCallback`/`React.memo`, keys, virtualization | **no** (profiling focus) |
+| 8 | Next.js SSR/SSG | `nextjs-ssr-ssg.md` | rebuilt from scratch | App Router, RSC, server actions, next-intl, `next/image` | yes |
+| — | Final (team) | `final.md` | **Swagger/OpenAPI UI** (SSR) | full-stack SSR app, auth, i18n | **yes (+50 → 600)** |
 
-**Isolated tasks (kept):** Forms (as-is + harness later), Performance (as-is + harness later),
-**Next.js (rebuilt from scratch)**.
+**Playwright (E2E)** is introduced in task 2 and required in tasks 2–6 and 8 (not task 1, not task 7);
+the final task adds it as **+50 points on top (max 600)**.
 
 **Library "paths"** the AI should surface (neutrally) so the student sees coherent stacks:
 - Path A (canonical): **React Router → Redux Toolkit → RTK Query**
@@ -243,15 +268,21 @@ react/repos/<slug>/
   GEMINI.md                        # Gemini  — full mirror of CLAUDE.md
   .github/copilot-instructions.md  # Copilot — full mirror of CLAUDE.md
   .cursor/rules/coaching.mdc       # Cursor  — full mirror (MDC frontmatter, alwaysApply: true)
+  .claude/settings.json            # Claude Code: plan-mode default + UserPromptSubmit reminder hook
+  .codex/config.toml               # Codex: UserPromptSubmit reminder hook (reuses coach-reminder.mjs)
+  .cursor/hooks.json               # Cursor: beforeSubmitPrompt tamper-tripwire hook (failClosed)
+  .cursor/hooks/check-harness.mjs  # Cursor tripwire: blocks the prompt if instruction files are stripped
   scripts/sync-instructions.mjs    # author-side: regenerate the 4 mirrors from CLAUDE.md
-  scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks present
-  .github/workflows/harness.yml    # CI: verify:harness + lint + format + test
-  TASK.md                          # copy of the student-facing ai_<slug>.md spec (referenced by CLAUDE.md)
+  scripts/coach-reminder.mjs       # Claude + Codex hook: re-injects the coaching contract every turn
+  scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks + per-tool hook configs
+  .github/workflows/harness.yml    # CI: verify:harness + lint + format + test (+ Playwright for E2E tasks)
+  TASK.md                          # copy of the student-facing <task>.md spec (referenced by CLAUDE.md)
   CHANGELOG.md                     # decision log; output-only (title only at start; was "LOG.md")
   README.md                        # what the starter is; pnpm quickstart; tool→file map
   cross-check.json                 # mirrors the points breakdown (next iteration)
   <pre-scaffolded Vite+TS+Oxlint+Oxfmt+Husky+Vitest project (pnpm)>
-  # + AI-COACH-RULES comment blocks embedded in src/main.tsx, vite.config.ts, index.html
+  # E2E tasks (2–6, 8) also ship: playwright.config.ts, e2e/ (smoke spec)
+  # + AI-COACH-RULES comment blocks in src/main.tsx, vite.config.ts, index.html (+ playwright.config.ts on E2E tasks)
 ```
 
 **`CLAUDE.md` contract (per task):**
@@ -270,10 +301,17 @@ react/repos/<slug>/
 
 **Anti-tamper (defense in depth, honestly best-effort):** full mirrors per tool (deleting one leaves the
 others), a condensed **`AI-COACH-RULES`** block embedded in must-keep source files (the floor if
-instruction files are deleted; Claude Code auto-loads only `CLAUDE.md`), and **`verify-harness`** wired
-into Husky (pre-commit/pre-push) **and CI** so stripping the harness fails a commit/push and is visible
-in review. None of this is bulletproof against a determined student editing hooks or code — the backstop
-stays cross-check human review / the defense gate.
+instruction files are deleted; Claude Code auto-loads only `CLAUDE.md`), **per-assistant enforcement hooks**
+(each tool at its own ceiling: **Claude** `.claude/settings.json` = plan-mode default + a `UserPromptSubmit`
+hook that re-injects the contract every turn and emits a tampering notice if an instruction file is missing;
+**Codex** `.codex/config.toml` = the same re-inject via a `UserPromptSubmit` hook, when the project is trusted;
+**Cursor** `.cursor/hooks.json` = a `beforeSubmitPrompt` `failClosed` tripwire that blocks on tampering, since
+Cursor hooks can't inject; **Copilot** = instruction file only, no hook system), and **`verify-harness`** wired
+into Husky (pre-commit/pre-push) **and CI** so stripping the harness (instruction files, `AI-COACH-RULES`
+blocks, the reminder/tripwire scripts, or the per-tool hook configs) fails a commit/push and is visible in
+review. These hooks set defaults, re-inject, or trip on tampering — none is a hard lock (a student can switch
+modes at runtime, or not trust the project). Nothing here is bulletproof against a determined student editing
+hooks or code — the backstop stays cross-check human review / the defense gate.
 
 **`CHANGELOG.md` format (the transparency + proof-of-understanding artifact):**
 - Append-only, per session. Each entry: date, step done (concise), decision made (if any) + **student's
@@ -286,28 +324,34 @@ stays cross-check human review / the defense gate.
 
 ## Rollout status & remaining work
 
-**Done (earlier iteration):** this document + `ai_functional-components.md`, `ai_routing.md`,
-`ai_state-management.md`, `ai_queries.md`, `ai_advanced-hooks.md`, `ai_nextjs-ssr-ssg.md`.
-Old task files retained untouched.
+**Done (earlier iterations):** the task specs (now plain-named) + the **Task 1** harness repo
+(`react/repos/functional-components/`); decision-log renamed `LOG.md` → `CHANGELOG.md`; Oxfmt replaced
+Prettier; pnpm recommended; the hardened harness (binding decision-gate `CLAUDE.md`, full-content mirrors
+incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
 
 **Done (this iteration):**
-- **Task 1 harness repo scaffolded** at `react/repos/functional-components/` — the reference
-  implementation (Vite + React 19 + TS + Oxlint + Oxfmt + Husky + Vitest + RTL, pnpm). Verified:
-  `pnpm install`, `lint`, `format`, `build`, `test`/`coverage` all pass on the scaffold.
-- **Instruction files** for four assistants: canonical `CLAUDE.md` + pointer `AGENTS.md` / `GEMINI.md`
-  / `.github/copilot-instructions.md`; `TASK.md` copy; seeded `CHANGELOG.md`.
-- **Decision-log renamed `LOG.md` → `CHANGELOG.md`** across this doc + all six `ai_*` task files.
-- **Formatter decision: Oxfmt replaces Prettier** program-wide; **pnpm** recommended. Wording updated
-  in this doc + the five Vite-based `ai_*` task files (Next.js keeps ESLint).
+- **Program restructured to 8 numbered tasks.** Pre-AI originals archived in `react/modules/tasks/old/`;
+  the six `ai_*` files renamed to plain names; **Forms → task 6** and **Performance → task 7** fully
+  migrated to the new pattern.
+- **Playwright (E2E) added** to tasks 2–6 and 8 (not 1, not 7), each **rebalanced to keep 100 points**;
+  **final task +50 → 600**.
+- **Task 2 harness repo scaffolded** at `react/repos/routing/` — the first with Playwright (in-project:
+  `playwright.config.ts` + `e2e/`, CI browser install). Verified: `install`, `verify:harness`, `lint`,
+  `format`, `build`, `test`, and `e2e` all pass.
+- **Per-assistant enforcement hooks added** to both existing repos (`functional-components`, `routing`):
+  Claude `.claude/settings.json` (plan-mode default + `UserPromptSubmit` reminder hook,
+  `scripts/coach-reminder.mjs`); Codex `.codex/config.toml` (`UserPromptSubmit` hook reusing the same
+  reminder); Cursor `.cursor/hooks.json` + `.cursor/hooks/check-harness.mjs` (`beforeSubmitPrompt`
+  tamper tripwire). `verify-harness` extended to guard all of them; `.claude/settings.local.json` git-ignored.
+  Verified green incl. negative checks. **Copy this whole layer into every new harness repo** (3, 4, 5, 6, 8).
 
 **Next iteration:**
 1. `react/.instructions/OPEN_QUESTIONS.md` — track unresolved items (defense gate, Oxlint rule set, deadlines).
-2. Scaffold the remaining tasks' harness repos by copying the Task 1 template (`react/repos/<slug>/`).
-3. Update `react/modules/tasks/project-setup.md` to the Oxlint/Oxfmt/pnpm setup (or point to the template repos).
-4. Update `react/README.md` weekly schedule to the new task list.
-5. Add the harness to the Forms & Performance tasks.
-6. Generate `cross-check.json` from each task's feature/points table.
-7. Replace each repo's `TASK.md` copy with a direct GitHub link once the tasks are finalized.
+2. Scaffold the remaining tasks' harness repos (3, 4, 5, 6, 8) by copying the templates.
+3. Update `react/README.md` weekly schedule to the 8-task list.
+4. Generate `cross-check.json` from each task's feature/points table.
+5. Replace each repo's `TASK.md` copy with a direct GitHub link once the tasks are finalized.
+6. A dedicated E2E theory module under `react/modules/`.
 
 ---
 
