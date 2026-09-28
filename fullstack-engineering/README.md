@@ -136,7 +136,7 @@
 - Cross-check:
   - [Landing Page. Часть 2](tasks/landing-page/README.md#часть-2-функциональность)
 - Задачи:
-  - [Codejam (Eldritch Horror)](https://github.com/Luffi2539/eldritch-codejam)
+  - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
 - **Стек**: JavaScript
 - **Чему научатся**: работе с функциями и областями видимости, условными конструкциями и циклами, массивами
 
@@ -148,6 +148,8 @@
   - [Chrome DevTools](modules/week-05/chrome-devtools.md)
 - Тесты:
   - [St1] DevTools Test
+- Cross-check:
+  - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
 - Задача **Bug Hunting**:
   - [Описание задачи](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
 - **Стек**: HTML, CSS, JavaScript, Chrome DevTools
