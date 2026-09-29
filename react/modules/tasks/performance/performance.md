@@ -1,141 +1,77 @@
-# React: Performance
+# Task 7 — Performance (AI era)
 
-## 🧠 Task Description
+> Part of the revised React program. See the rationale in
+> [`react/.instructions/AI_ERA_PROGRAM.md`](../../../.instructions/AI_ERA_PROGRAM.md).
+> This task is **profiling-focused** and starts from a **provided unoptimized app** (not a fresh scaffold).
+> It is the one core task **without Playwright** — the focus is measurement and memoization.
 
-In this task, you will optimize a intentionally unoptimized React application that displays CO2 emissions data. The starter application **already includes all functional features**. Your task is to profile the application using React DevTools, identify performance bottlenecks, apply React optimization techniques, and measure the improvements.
+## 🧠 What you'll build
 
-## 🎯 Task Goals
+You **optimize an intentionally unoptimized** React app that displays CO₂-emissions data. All features are
+already implemented; your job is to **profile** it with the React DevTools Profiler, find the bottlenecks,
+apply React optimization techniques, and **measure the improvement** — documenting before/after in a
+`PERFORMANCE.md` report.
 
-- Learn to use React DevTools Profiler to identify performance bottlenecks
-- Understand and apply React memoization techniques (useMemo, useCallback, React.memo)
-- Learn to optimize list rendering with proper keys and virtualization
-- Measure and document performance improvements before and after optimization
+Starter code: <https://github.com/rolling-scopes-school/react-performance> (clone it; run with **pnpm**).
 
-## 📋 Prerequisites
+## 🎯 Skills / Learning objectives
 
-1. **Starter Code**: Clone the unoptimized starter application from https://github.com/rolling-scopes-school/react-performance
-2. **React DevTools browser extension**:
+- Use the **React DevTools Profiler** to find re-render and commit-duration bottlenecks.
+- Apply **memoization** correctly: `useMemo`, `useCallback`, `React.memo` — and know when *not* to.
+- Optimize list rendering: proper **keys** and **virtualization**.
+- Measure and **document** improvement (before/after, % change).
 
-- [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+## 📖 Required theory
 
-## Performance Optimization Workflow (max 100 points)
+- [Profiling Workflow Guide](./profiling-workflow-guide.md)
+- [React DevTools Profiler](https://react.dev/learn/react-developer-tools)
 
-For detailed step-by-step instructions on how to profile the application, see the [Profiling Workflow Guide](./profiling-workflow-guide.md).
+## 🤖 Working with AI (required)
 
-### Phase 1: Initial Profiling (Baseline) (**15 points**)
+The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
+See the full protocol in [`AI_ERA_PROGRAM.md`](../../../.instructions/AI_ERA_PROGRAM.md).
 
-**As a** developer
-**I want** to profile the unoptimized application
-**So that** I can identify performance bottlenecks
+**Decision points for this task:**
+- **Where each optimization belongs:** which computations deserve `useMemo`, which handlers `useCallback`,
+  which components `React.memo` — justified by *profiler evidence*, not applied blindly.
+- **Virtualization approach:** a library (`react-window`/`react-virtualized`) vs a hand-rolled window; the
+  tradeoffs.
+- **Measurement methodology:** which interactions to profile and which metrics prove the improvement.
 
-**Scenario:** Measure Initial Performance
+> The AI must not "optimize everything." Coach the student to change one thing at a time and **re-profile**,
+> so each optimization is justified by a measured effect (recorded in `CHANGELOG.md` and `PERFORMANCE.md`).
 
-- **Given** I have the unoptimized starter application running
-- **When** I use React DevTools Profiler to record the following interactions:
-  - Sorting countries
-  - Searching for a country
-  - Selecting a different year
-  - Toggling columns
-- **Then** I capture the following metrics for each interaction:
-  - Commit duration
-  - Render duration
-  - Flame chart
-- **And** I document these findings with screenshots in `PERFORMANCE.md`
+## Functional Requirements (max **100 points**)
 
-**Acceptance Criteria:**
+### Phase 1: Initial profiling / baseline (**15 points**)
+- Profile the unoptimized app for the required interactions (sort, search, change year, toggle columns) and
+  capture commit/render durations + flame charts, documented with screenshots in `PERFORMANCE.md`.
 
-- Initial profiling documented with screenshots for all required interactions. [15 points]
+### Phase 2: Apply optimizations (**70 points**)
+- `useMemo` for computed values — **12** · `useCallback` for handlers — **12** · `React.memo` to cut
+  unnecessary re-renders — **12** · correct **keys** for all lists/tables — **12** · **virtualization** for
+  the large list — **22**.
 
----
-
-### Phase 2: Apply Optimizations (**70 points**)
-
-**As a** developer
-**I want** to apply React performance optimizations
-**So that** the application renders more efficiently
-
-**Scenario:** Implement Performance Optimizations
-
-- **Given** I have identified performance bottlenecks from profiling
-- **When** I apply React performance optimizations
-- **Then** the application should have fewer unnecessary re-renders
-- **And** the UI should feel more responsive
-
-**Acceptance Criteria:**
-
-- `useMemo` used for computed values. [12 points]
-- `useCallback` used for event handlers. [12 points]
-- `React.memo` used to prevent unnecessary component re-renders. [12 points]
-- Proper key props used for all lists and tables. [12 points]
-- Virtualization implemented for large country list. [22 points]
-
----
-
-### Phase 3: Final Profiling (Comparison) (**15 points**)
-
-**As a** developer
-**I want** to compare performance before and after optimization
-**So that** I can verify the improvements
-
-**Scenario:** Measure Optimized Performance
-
-- **Given** I have applied performance optimizations
-- **When** I profile the same interactions again
-- **Then** I capture the same metrics as baseline
-- **And** I compare before/after results in `PERFORMANCE.md`
-- **And** I document the improvements with screenshots
-- **And** I calculate the percentage improvement for each metric
-
-**Acceptance Criteria:**
-
-- Final profiling documented with comparison to baseline. [15 points]
-
----
+### Phase 3: Final profiling / comparison (**15 points**)
+- Re-profile the same interactions, compare to baseline in `PERFORMANCE.md` with screenshots, and compute
+  the **% improvement** per metric.
 
 ## Technical Requirements
 
-### 1. Branch Management
-
-Create a new branch for this task. Branch name: **"performance"**
-
----
+1. Start from the provided starter repo; work on a dedicated branch (`performance`).
+2. Run and profile in **development mode**; keep the app functional after optimizing.
+3. **No React Compiler / automatic memoization** — the goal is learning manual optimization.
+4. Keep both a `PERFORMANCE.md` (the report) and a `CHANGELOG.md` (decisions).
 
 ## Penalties
 
-### 1. Project Requirements
+- Absence of the performance report (`PERFORMANCE.md`): **-100**.
+- Using the React Compiler / automatic memoization: **-50**.
+- Missing `CHANGELOG.md`: **-90**.
 
-- Absence of the performance report in `PERFORMANCE.md`: **-100 points**
+## FAQ
 
-### 2. Project Management
-
-- Commits after the deadline: **-40 points**
-- Pull Request doesn't follow guideline (including checkboxes in Score) [PR example](https://rs.school/docs/mentoring/pull-request-review-process#pull-request-requirements-pr): **-10 points**
-
----
-
-## 📚 FAQ (Frequently Asked Questions)
-
-### ❓ Can I use 3rd party virtualization libraries?
-
-Yes, you can use react-window, react-virtualized, or implement your own virtualization.
-
-### ❓ What if my app is already fast enough?
-
-The starter application is intentionally unoptimized, so you should see clear performance issues. If you're not seeing problems, double-check that you're using the correct starter code and profiling in development mode.
-
-### ❓ Should I profile in development or production mode?
-
-Profile in **development mode** for the most accurate component-level timing information. Production mode has different performance characteristics due to minification.
-
-### ❓ How do I know if React.memo is working?
-
-You can use the "Highlight updates when components render" feature in React DevTools (Profiler tab settings). Components that don't highlight when their parent updates are properly memoized.
-
-### ❓ Can I use the React Compiler (automatic memoization)?
-
-No, the goal of this task is to learn manual optimization techniques. Using the React Compiler would defeat the learning purpose.
-
-### ❓ Should I use useCallback and useMemo everywhere?
-
-No. These hooks should be used primarily for heavy calculations or preventing unnecessary re-renders in large component trees. Using them everywhere adds unnecessary memory overhead and makes the code harder to read. "Premature optimization" can sometimes make an app slower because the work React does to compare dependencies isn't always cheaper than just re-running the function.
+**Why no Playwright here?** This task is about profiling and memoization, not end-to-end behavior.
+**Can I use a virtualization library?** Yes — `react-window`, `react-virtualized`, or your own.
+**Dev or production profiling?** Dev mode, for accurate component-level timing.
+**Should I memoize everything?** No — only where the profiler shows a real cost; over-memoizing can hurt.
