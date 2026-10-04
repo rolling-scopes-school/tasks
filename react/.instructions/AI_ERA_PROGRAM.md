@@ -274,9 +274,11 @@ react/repos/<slug>/
   .cursor/hooks/check-harness.mjs  # Cursor tripwire: blocks the prompt if instruction files are stripped
   scripts/sync-instructions.mjs    # author-side: regenerate the 4 mirrors from CLAUDE.md
   scripts/coach-reminder.mjs       # Claude + Codex hook: re-injects the coaching contract every turn
-  scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks + per-tool hook configs
+  scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks + per-tool hook configs + docs/
   .github/workflows/harness.yml    # CI: verify:harness + lint + format + test (+ Playwright for E2E tasks)
-  TASK.md                          # copy of the student-facing <task>.md spec (referenced by CLAUDE.md)
+  docs/TASK.md                     # copy of the student-facing <task>.md spec (referenced by CLAUDE.md)
+  docs/<topic>.md                  # curated theory reading (copied from the course module; links to official docs)
+  docs/README.md                   # index: maps each decision to what to read
   CHANGELOG.md                     # decision log; output-only (title only at start; was "LOG.md")
   README.md                        # what the starter is; pnpm quickstart; tool→file map
   cross-check.json                 # mirrors the points breakdown (next iteration)
@@ -291,9 +293,16 @@ react/repos/<slug>/
 2. **Decision gate (the teeth).** The AI **MUST NOT** write feature/implementation code for a step until
    the student has logged a choice + justification (or explicit *Deferred*) in `CHANGELOG.md`. No
    decision → refuse to implement, return to the decision. It **declines** "you decide / just build it"
-   (logs it as *Declined by student*) while still teaching.
-3. **Decision protocol.** At each decision point, present realistic options with honest pros/cons and
-   downstream effects, stay neutral, and let the student choose and justify. Record it in `CHANGELOG.md`.
+   **and** "which is better? / what do you think?" (same move — logs it as *Declined by student*) while
+   still teaching. Closing the "which is better?" gap came from a real transcript where the agent, asked
+   for its opinion, handed over the full pick + justification and the student rubber-stamped it.
+3. **Decision protocol — point to docs, withhold the decision.** At each decision point the AI gives
+   **options + the criteria to weigh them + the specific reading in `docs/`** (the task spec, a curated
+   theory file, and an index), then has the student read, choose, and justify (one line is enough). It
+   **withholds the pick-for-this-task and its justification** — the self-reinforcing part: with no stated
+   pick, there is nothing to rubber-stamp. It still teaches concepts and answers factual questions. A
+   refused justification is recorded (*Declined — justification owed*) and work proceeds. Record it in
+   `CHANGELOG.md`.
 4. **Incremental & explained.** Implement in small steps; explain what/why; keep the log current.
 5. **Guardrails.** No `any`/`ts-ignore`; Oxlint + Oxfmt clean; no component libraries; tests green;
    never edit/remove `AI-COACH-RULES` blocks or instruction files.
@@ -312,6 +321,20 @@ blocks, the reminder/tripwire scripts, or the per-tool hook configs) fails a com
 review. These hooks set defaults, re-inject, or trip on tampering — none is a hard lock (a student can switch
 modes at runtime, or not trust the project). Nothing here is bulletproof against a determined student editing
 hooks or code — the backstop stays cross-check human review / the defense gate.
+
+**Tool-support policy (rely on the standard, don't chase every tool).** Students may use any agentic workflow
+and we can't track them all. So:
+- **`AGENTS.md` is the committed cross-tool baseline** — the open [agents.md](https://agents.md) convention,
+  read natively by Codex, Cursor, Copilot, Gemini CLI, Windsurf, Amazon Q, Aider, Devin, Jules, Zed, VS Code,
+  and **OpenCode** (V2 reads AGENTS.md only) and **Kiro** (auto-discovers it at the repo root). Each repo's
+  `AGENTS.md` is a **complete copy** of the contract (generated from the canonical `CLAUDE.md`), so any
+  AGENTS.md-aware tool — including ones that don't exist yet — is covered with no extra work.
+- **The named files (`CLAUDE.md`, `GEMINI.md`, `.github/copilot-instructions.md`, `.cursor/rules/coaching.mdc`)
+  and the 3 per-tool hooks are redundancy / hardening for the majors**, not separate standards.
+- **New or unknown tools (pi, Windsurf, Kiro's native steering, …) rely on `AGENTS.md` + the tool-agnostic
+  backstop** (cross-check review of `CHANGELOG.md` + the student defending the code + the defense gate). We do
+  **not** add per-tool formats — that's a maintenance treadmill across 8 repos for diminishing returns. The
+  student-facing README tells learners on any other tool to point it at `AGENTS.md`.
 
 **`CHANGELOG.md` format (the transparency + proof-of-understanding artifact):**
 - Append-only, per session. Each entry: date, step done (concise), decision made (if any) + **student's
@@ -344,13 +367,26 @@ incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
   reminder); Cursor `.cursor/hooks.json` + `.cursor/hooks/check-harness.mjs` (`beforeSubmitPrompt`
   tamper tripwire). `verify-harness` extended to guard all of them; `.claude/settings.local.json` git-ignored.
   Verified green incl. negative checks. **Copy this whole layer into every new harness repo** (3, 4, 5, 6, 8).
+- **Point-to-docs / withhold-the-decision added** to both existing repos (prompted by a real transcript where
+  the agent, asked "what do you think?", handed over the pick + justification and the student rubber-stamped).
+  Each repo gains a **`docs/`** folder (`TASK.md` moved in, a curated theory file — `hooks.md` / `router.md` —
+  and a `README.md` index). `CLAUDE.md` rewritten: refusal now also covers "which is better? / what do you
+  think?"; decision points are **options + criteria + reading** with the pick and its justification withheld;
+  one-line justifications accepted, refusals logged as *Declined* and work proceeds. `verify-harness` guards
+  `docs/`. Verified green incl. negative checks. **Copy this into every new harness repo** (3, 4, 5, 6, 8).
+- **Tool-support policy set: AGENTS.md is the committed cross-tool baseline** (works with OpenCode, Kiro,
+  Windsurf, Amazon Q, Aider, … out of the box since `AGENTS.md` is a full copy, not a pointer); named files +
+  hooks are redundancy for the majors; unknown tools rely on AGENTS.md + the backstop. Documented in the
+  README ("Using another assistant?") and the contract header; `AGENTS.md` relabeled as the standard baseline.
+  No new machinery. (Also fixed routing's mirror headers that were mislabeled "Task 1".)
 
 **Next iteration:**
 1. `react/.instructions/OPEN_QUESTIONS.md` — track unresolved items (defense gate, Oxlint rule set, deadlines).
 2. Scaffold the remaining tasks' harness repos (3, 4, 5, 6, 8) by copying the templates.
 3. Update `react/README.md` weekly schedule to the 8-task list.
 4. Generate `cross-check.json` from each task's feature/points table.
-5. Replace each repo's `TASK.md` copy with a direct GitHub link once the tasks are finalized.
+5. Replace each repo's `docs/TASK.md` copy (and the copied `docs/` theory) with direct GitHub links once the
+   tasks are finalized.
 6. A dedicated E2E theory module under `react/modules/`.
 
 ---

@@ -22,6 +22,9 @@ const instructionFiles = [
   '.cursor/rules/coaching.mdc',
 ];
 
+// Reference material the coaching flow points students to (now load-bearing — the AI directs reading here).
+const docsFiles = ['docs/TASK.md', 'docs/hooks.md', 'docs/README.md'];
+
 // Must-keep source files that carry the condensed AI-COACH-RULES block.
 const sentinelFiles = [
   'src/main.tsx',
@@ -60,6 +63,12 @@ const problems = [];
 for (const file of instructionFiles) {
   if (!existsSync(join(repoRoot, file))) {
     problems.push(`Missing instruction file: ${file}`);
+  }
+}
+
+for (const file of docsFiles) {
+  if (!existsSync(join(repoRoot, file))) {
+    problems.push(`Missing reference file: ${file}`);
   }
 }
 

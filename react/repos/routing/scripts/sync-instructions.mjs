@@ -26,11 +26,12 @@ const body = canonical.slice(separator + 2);
 const mirrors = [
   {
     path: 'AGENTS.md',
-    header: '# AGENTS.md — RS React Task 1 coaching harness (mirror of CLAUDE.md)\n\n',
+    header:
+      '# AGENTS.md — RS React Task 2 coaching harness (cross-tool standard baseline; generated from CLAUDE.md)\n\n',
   },
   {
     path: 'GEMINI.md',
-    header: '# GEMINI.md — RS React Task 1 coaching harness (mirror of CLAUDE.md)\n\n',
+    header: '# GEMINI.md — RS React Task 2 coaching harness (mirror of CLAUDE.md)\n\n',
   },
   {
     path: '.github/copilot-instructions.md',
@@ -39,7 +40,7 @@ const mirrors = [
   {
     path: '.cursor/rules/coaching.mdc',
     header:
-      '---\ndescription: RS React Task 1 coaching harness — coach, do not build for the student\nalwaysApply: true\n---\n\n# Cursor rules — coaching harness (mirror of CLAUDE.md)\n\n',
+      '---\ndescription: RS React Task 2 coaching harness — coach, do not build for the student\nalwaysApply: true\n---\n\n# Cursor rules — coaching harness (mirror of CLAUDE.md)\n\n',
   },
 ];
 

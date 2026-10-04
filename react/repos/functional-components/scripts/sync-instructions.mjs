@@ -26,7 +26,8 @@ const body = canonical.slice(separator + 2);
 const mirrors = [
   {
     path: 'AGENTS.md',
-    header: '# AGENTS.md — RS React Task 1 coaching harness (mirror of CLAUDE.md)\n\n',
+    header:
+      '# AGENTS.md — RS React Task 1 coaching harness (cross-tool standard baseline; generated from CLAUDE.md)\n\n',
   },
   {
     path: 'GEMINI.md',
