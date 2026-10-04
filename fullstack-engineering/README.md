@@ -145,13 +145,15 @@
 #### 6 октября 2026 года
 
 - Теоретические модули:
-  - [Chrome DevTools](modules/week-05/chrome-devtools.md)
+  - [Chrome DevTools](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/chrome-devtools)
+  - [Git Recap](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/git-recap)
 - Тесты:
   - [St1] DevTools Test
+  - [St1] Test Git & GitHub #2
 - Cross-check:
   - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
-- Задача **Bug Hunting**:
-  - [Описание задачи](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
+- Задачи:
+  - [Bug Hunting](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
 - **Стек**: HTML, CSS, JavaScript, Chrome DevTools
 - **Чему научатся**: чтению и улучшению чужого кода, поиску и исправлению ошибок, а также отладке с помощью Chrome DevTools
 
@@ -170,8 +172,6 @@
 
 #### 20 октября 2026 года
 
-- //ToDo: обновить эту неделю
-
 - Теоретические модули:
   - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
   - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
@@ -181,16 +181,17 @@
   - [St1] Linters, Formatters, and Husky
   - [St1] Clean-code
 - Задача **Clean Code**:
-  - [Clean Code]
+  - [Clean Code](tasks/clean-code/README.md) — рефакторинг TODO-приложения, настройка ESLint, Prettier и Husky
 - **Стек**: JavaScript, Git, ESLint, Prettier, Husky
-- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
+- **Чему научатся**: улучшать читаемость чужого кода без изменения поведения, настраивать линтер, форматтер и pre-commit хук, объяснять и обосновывать свои изменения
 
 ### Неделя 8
 
 #### 27 октября 2026 года
 
-- //ToDo: TypeScript + Linter, Husky, Prettier
-
+- //ToDo: TypeScript
+- Cross-check:
+  - [Clean Code](tasks/clean-code/README.md#критерии-оценки)
 - Теоретические модули:
   - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) — O-notation
   - [Основы объектно-ориентированного программирования](modules/week-07/oop-basics.md)
