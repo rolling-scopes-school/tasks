@@ -146,21 +146,29 @@
 
 - Теоретические модули:
   - [Chrome DevTools](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/chrome-devtools)
-  - [Git Recap](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/git-recap)
+  - [Как работает браузер: рендеринг страницы](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/how-browsers-work)
+  - [Основы объектно-ориентированного программирования](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/oop-basics)
+  - [Классы и прототипы в JavaScript](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/classes-prototypes)
 - Тесты:
   - [St1] DevTools Test
-  - [St1] Test Git & GitHub #2
+  - [St2] How Browsers Work - Rendering Flow
+  - [St1] OOP Test
+  - [St1] Classes & Prototypes
 - Cross-check:
   - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
 - Задачи:
   - [Bug Hunting](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
-- **Стек**: HTML, CSS, JavaScript, Chrome DevTools
-- **Чему научатся**: чтению и улучшению чужого кода, поиску и исправлению ошибок, а также отладке с помощью Chrome DevTools
+- **Стек**: HTML, CSS, JavaScript, Chrome DevTools, браузерный рендеринг, ООП
+- **Чему научатся**: чтению и улучшению чужого кода, поиску и исправлению ошибок, отладке с помощью Chrome DevTools, пониманию влияния HTML, CSS и JavaScript на отрисовку страницы, а также работе с объектами, классами, прототипами и наследованием
 
 ### Неделя 6
 
 #### 13 октября 2026 года
 
+- Теоретический модуль:
+  - [Testing](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/testing) — виды тестирования, тестовая пирамида, FIRST, TDD и BDD
+- Тест:
+  - [St2] Testing
 - Cross-check:
   - [Bug Hunting](tasks/bug-hunting/README.md#критерии-оценки)
 - Задача **Testing Intro**:
@@ -176,59 +184,76 @@
   - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
   - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
   - [Clean Code](modules/week-05/clean-code.md)
+  - [Модули в JavaScript](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/modules-in-js)
 - Тесты:
   - [St1] Git & GitHub #2
   - [St1] Linters, Formatters, and Husky
   - [St1] Clean-code
+  - [St1] Modules in JavaScript
 - Задача **Clean Code**:
   - [Clean Code](tasks/clean-code/README.md) — рефакторинг TODO-приложения, настройка ESLint, Prettier и Husky
-- **Стек**: JavaScript, Git, ESLint, Prettier, Husky
-- **Чему научатся**: улучшать читаемость чужого кода без изменения поведения, настраивать линтер, форматтер и pre-commit хук, объяснять и обосновывать свои изменения
+- **Стек**: JavaScript, ES-модули, Git, ESLint, Prettier, Husky
+- **Чему научатся**: улучшать читаемость чужого кода без изменения поведения, настраивать линтер, форматтер и pre-commit хук, объяснять и обосновывать свои изменения, а также разделять приложение на ES-модули
 
 ### Неделя 8
 
 #### 27 октября 2026 года
 
-- //ToDo: TypeScript
 - Cross-check:
   - [Clean Code](tasks/clean-code/README.md#критерии-оценки)
 - Теоретические модули:
+  - [TypeScript Basic](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-basic)
+  - [TypeScript Advanced](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-advanced)
   - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) — O-notation
-  - [Основы объектно-ориентированного программирования](modules/week-07/oop-basics.md)
 - Тесты:
+  - [St2] TypeScript Basics
+  - [St2] TS Advanced [EN]
   - [St1] Test Algorithms & Data structures
-  - [St1] OOP Test
 - Задача **Data Structures & Algorithms**:
   - [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md) (базовый уровень) — реализовать стек, очередь, связный список, дерево и решить задачи с ними
-- **Стек**: JavaScript
-- **Чему научатся**: основам алгоритмов и структур данных, оценке сложности алгоритмов и применению принципов ООП при реализации структур данных
+- **Стек**: JavaScript, TypeScript
+- **Чему научатся**: основам TypeScript, типизации данных, настройке `tsconfig`, type guards, generics, основам алгоритмов и структур данных, оценке сложности алгоритмов и реализации структур данных на JavaScript
 
 ### Неделя 9
 
 #### 3 ноября 2026 года
 
-- //ToDo: functional programming — scope, lexical environment, context, this (call, apply, bind)
+//ToDo: functional programming — scope, lexical environment, context, this (call, apply, bind)
+
+- Теоретический модуль:
+  - [Основы функционального программирования](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/fp-basics) — чистые функции, иммутабельность, функции высшего порядка, рекурсия, каррирование и мемоизация
+- Тест:
+  - [St2] Functional Programming
+- **Стек**: JavaScript
+- **Чему научатся**: писать чистые функции, работать с иммутабельными данными, функциями высшего порядка, рекурсией, каррированием и мемоизацией
 
 ### Неделя 10
 
 #### 10 ноября 2026 года
 
-- //ToDo: Event Loop, Async — TypeScript
-
-- Теоретический модуль:
-  - [Обзор клиент-серверного взаимодействия](modules/week-08/client-server-interaction.md)
-- Тест:
-  - [St1] Client - Server interaction
+- Теоретические модули:
+  - [Event Loop & Animation](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/eventloop-animation) — event loop, Web APIs, macrotasks, microtasks и `requestAnimationFrame`
+  - [Async Programming](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/async) — Promise, async/await, `fetch` и обработка отклонённых Promise
+  - [JavaScript Error Handling](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/error-handling) — Error, `try..catch`, `throw` и асинхронные ошибки
+- Тесты:
+  - [St2] Event Loop & Animation
+  - [St2] Async JS Test
+  - [St2] Error handling
 - Cross-check:
   - [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md#критерии-оценки)
-- Задача **Работа с готовым Web API**:
-  - [Работа с готовым веб API](tasks/external-api/README.md) — запросы, рендер данных, обработка ошибок и загрузки
-- **Стек**: JavaScript, Fetch API, async/await, DOM API
-- **Чему научатся**: основам клиент-серверного взаимодействия, асинхронной работе с сетью и обработке ошибок API
+- **Стек**: JavaScript, Promise, async/await
+- **Чему научатся**: понимать устройство event loop, писать асинхронный код на Promise и async/await, а также обрабатывать синхронные и асинхронные ошибки
 
 ### Неделя 11–12
 
 #### 17 ноября 2026 года
+
+- Теоретические модули:
+  - [Web Storage](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/web-storage) — localStorage, sessionStorage и сохранение состояния приложения
+  - [Single Page Application](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/single-page-application) — клиентский роутинг, состояние и архитектура SPA без фреймворка
+- Тесты:
+  - [St2] Web Storage
+  - [St2] Single Page Application
 
 - Теоретический модуль:
   - [Node.js](modules/week-10/nodejs.md)
@@ -238,9 +263,9 @@
 - **Чему научатся**: основам Node.js, серверным маршрутам, паттерну middleware и базовой аутентификации по токену
 
 - Задача **Онлайн-магазин**:
-  - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры; можно опираться на сервер с недели 11
-- **Стек**: JavaScript, DOM API, Node.js, сборщик модулей и UI-подход по выбору пары
-- **Чему научатся**: настройке сборки проекта, парной разработке крупного приложения, распределению зон ответственности и проведению code review внутри пары
+  - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры, сохранение состояния и клиентский роутинг
+- **Стек**: JavaScript, DOM API, Web Storage, SPA, Node.js, UI-подход по выбору пары
+- **Чему научатся**: хранить состояние в браузере, строить SPA без фреймворка, работать в паре над крупным приложением, распределять зоны ответственности и проводить code review внутри пары
 
 ## 👨‍🏫 Активности менторов
 
