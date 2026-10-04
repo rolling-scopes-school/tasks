@@ -145,13 +145,15 @@
 #### 6 октября 2026 года
 
 - Теоретические модули:
-  - [Chrome DevTools](modules/week-05/chrome-devtools.md)
+  - [Chrome DevTools](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/chrome-devtools)
+  - [Git Recap](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/git-recap)
 - Тесты:
   - [St1] DevTools Test
+  - [St1] Test Git & GitHub #2
 - Cross-check:
   - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
-- Задача **Bug Hunting**:
-  - [Описание задачи](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
+- Задачи:
+  - [Bug Hunting](tasks/bug-hunting/README.md) — найти и исправить ошибки в HTML, CSS и JavaScript на нескольких готовых веб-страницах
 - **Стек**: HTML, CSS, JavaScript, Chrome DevTools
 - **Чему научатся**: чтению и улучшению чужого кода, поиску и исправлению ошибок, а также отладке с помощью Chrome DevTools
 
