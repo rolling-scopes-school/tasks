@@ -170,8 +170,6 @@
 
 #### 20 октября 2026 года
 
-- //ToDo: обновить эту неделю
-
 - Теоретические модули:
   - [Закрепление основ Git](modules/week-09/git-basics-reinforcement.md)
   - [Линтеры, форматтеры и Husky](modules/week-09/linters-formatters-husky.md)
@@ -181,16 +179,17 @@
   - [St1] Linters, Formatters, and Husky
   - [St1] Clean-code
 - Задача **Clean Code**:
-  - [Clean Code]
+  - [Clean Code](tasks/clean-code/README.md) — рефакторинг TODO-приложения, настройка ESLint, Prettier и Husky
 - **Стек**: JavaScript, Git, ESLint, Prettier, Husky
-- **Чему научатся**: созданию браузерных игр, работе в общем репозитории, соблюдению единого стиля кода и разрешению конфликтов слияния
+- **Чему научатся**: улучшать читаемость чужого кода без изменения поведения, настраивать линтер, форматтер и pre-commit хук, объяснять и обосновывать свои изменения
 
 ### Неделя 8
 
 #### 27 октября 2026 года
 
-- //ToDo: TypeScript + Linter, Husky, Prettier
-
+- //ToDo: TypeScript
+- Cross-check:
+  - [Clean Code](tasks/clean-code/README.md#критерии-оценки)
 - Теоретические модули:
   - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) — O-notation
   - [Основы объектно-ориентированного программирования](modules/week-07/oop-basics.md)
