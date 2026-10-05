@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Test / coverage
+coverage
+
+# Playwright
+/test-results
+/playwright-report
+/playwright/.cache
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Local env & editor
+*.local
+.claude/settings.local.json
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
