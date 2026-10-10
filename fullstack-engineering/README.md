@@ -154,6 +154,9 @@
   - [St2] How Browsers Work - Rendering Flow
   - [St1] OOP Test
   - [St1] Classes & Prototypes
+- Практика по JavaScript:
+  - [Basic JS](https://github.com/AlreadyBored/basic-js)
+  - [core-js-objects](https://github.com/rolling-scopes-school/core-js-objects)
 - Cross-check:
   - [Memory Game](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/memory-game)
 - Задачи:
