@@ -168,16 +168,21 @@
 
 #### 13 октября 2026 года
 
-- Теоретический модуль:
+- Теоретические модули:
   - [Testing](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/testing) — виды тестирования, тестовая пирамида, FIRST, TDD и BDD
-- Тест:
+  - [Code Review](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/code-review) — цели ревью, поиск проблем в коде и конструктивные комментарии в pull request
+  - [Алгоритмы и структуры данных](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/data-structures-and-algorithms) — Big O, массивы, матрицы, стек, очередь, связный список и бинарное дерево поиска
+- Тесты:
   - [St2] Testing
+  - [St2] Code-Review
+  - [St1] Test Algorithms & Data structures
 - Cross-check:
   - [Bug Hunting](tasks/bug-hunting/README.md#критерии-оценки)
-- Задача **Testing Intro**:
-  - [Testing intro](tasks/testing-intro/README.md) — часть 1: unit-тесты к готовым функциям; часть 2: функции по готовым тестам (TDD)
-- **Стек**: JavaScript, Jest
-- **Чему научатся**: написанию unit-тестов, чтению тестов как спецификации и разработке через тестирование (TDD)
+- Задачи:
+  - [Testing intro](https://github.com/OreskaG/testing-intro) — часть 1: unit-тесты к готовым функциям; часть 2: функции по готовым тестам (TDD)
+  - [BasicJS. Data Structures](https://github.com/AlreadyBored/basic-js-ds) — реализовать бинарное дерево поиска, удаление элементов из связного списка, стек и очередь; проверка через готовые Jest-тесты
+- **Стек**: JavaScript, Jest, структуры данных, GitHub Pull Requests
+- **Чему научатся**: написанию unit-тестов, чтению тестов как спецификации и разработке через тестирование (TDD), проведению code review и формулированию конструктивных замечаний в pull request, оценке сложности алгоритмов и реализации базовых структур данных
 
 ### Неделя 7
 
@@ -193,6 +198,8 @@
   - [St1] Linters, Formatters, and Husky
   - [St1] Clean-code
   - [St1] Modules in JavaScript
+- Cross-check:
+  - [Testing Intro](https://github.com/OreskaG/testing-intro)
 - Задача **Clean Code**:
   - [Clean Code](tasks/clean-code/README.md) — рефакторинг TODO-приложения, настройка ESLint, Prettier и Husky
 - **Стек**: JavaScript, ES-модули, Git, ESLint, Prettier, Husky
@@ -207,15 +214,11 @@
 - Теоретические модули:
   - [TypeScript Basic](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-basic)
   - [TypeScript Advanced](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-advanced)
-  - [Алгоритмы и структуры данных. Часть 1](modules/week-07/algorithms-data-structures-part-1.md) — O-notation
 - Тесты:
   - [St2] TypeScript Basics
   - [St2] TS Advanced [EN]
-  - [St1] Test Algorithms & Data structures
-- Задача **Data Structures & Algorithms**:
-  - [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md) (базовый уровень) — реализовать стек, очередь, связный список, дерево и решить задачи с ними
 - **Стек**: JavaScript, TypeScript
-- **Чему научатся**: основам TypeScript, типизации данных, настройке `tsconfig`, type guards, generics, основам алгоритмов и структур данных, оценке сложности алгоритмов и реализации структур данных на JavaScript
+- **Чему научатся**: основам TypeScript, типизации данных, настройке `tsconfig`, type guards и generics
 
 ### Неделя 9
 
@@ -242,8 +245,6 @@
   - [St2] Event Loop & Animation
   - [St2] Async JS Test
   - [St2] Error handling
-- Cross-check:
-  - [Data Structures & Algorithms](tasks/data-structures-algorithms/README.md#критерии-оценки)
 - **Стек**: JavaScript, Promise, async/await
 - **Чему научатся**: понимать устройство event loop, писать асинхронный код на Promise и async/await, а также обрабатывать синхронные и асинхронные ошибки
 
