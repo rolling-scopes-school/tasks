@@ -78,6 +78,27 @@ const configChecks = [
     mustInclude: ['mcp__playwright__browser_run_code_unsafe', 'skillOverrides'],
     label: 'Claude deny rule for the unsafe Playwright MCP tool + per-task skill switches',
   },
+  // Precedence clause (contract) + Claude Code system-prompt-level coaching style.
+  {
+    file: 'CLAUDE.md',
+    mustInclude: ['### Precedence'],
+    label: 'precedence clause in the canonical contract',
+  },
+  {
+    file: 'AGENTS.md',
+    mustInclude: ['### Precedence'],
+    label: 'precedence clause in the cross-tool baseline',
+  },
+  {
+    file: '.claude/output-styles/coach.md',
+    mustInclude: ['name: Coach', 'keep-coding-instructions: true', '## Precedence'],
+    label: 'Claude Code Coach output style (system-prompt level)',
+  },
+  {
+    file: '.claude/settings.json',
+    mustInclude: ['"outputStyle": "Coach"'],
+    label: 'Coach output style selected for the project',
+  },
 ];
 
 // Coaching skills: every skill (canonical + mirror) keeps the coaching preamble and stays user-invoked.

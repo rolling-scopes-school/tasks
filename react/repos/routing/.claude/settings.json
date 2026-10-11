@@ -4,6 +4,7 @@
     "defaultMode": "plan",
     "deny": ["mcp__playwright__browser_run_code_unsafe"]
   },
+  "outputStyle": "Coach",
   "hooks": {
     "UserPromptSubmit": [
       {

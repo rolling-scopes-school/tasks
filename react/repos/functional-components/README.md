@@ -35,7 +35,8 @@ pnpm build       # type-check + production build
 - **Husky** hooks: pre-commit runs `verify:harness` + `lint` + `format`, pre-push runs
   `verify:harness` + `test`.
 - **Per-assistant enforcement hooks** (on top of the instruction files below):
-  - **Claude Code** (`.claude/settings.json`): starts in **plan mode** and a `UserPromptSubmit` hook
+  - **Claude Code** (`.claude/settings.json`): starts in **plan mode**, uses the course's **Coach** output
+    style (`.claude/output-styles/coach.md`, part of the system prompt), and a `UserPromptSubmit` hook
     re-states the coaching contract each turn. Personal overrides go in `.claude/settings.local.json` (git-ignored).
   - **Codex** (`.codex/config.toml`): a `UserPromptSubmit` hook re-injects the same contract every turn
     (runs once you _trust_ the project in Codex).
