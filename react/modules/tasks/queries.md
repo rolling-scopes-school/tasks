@@ -32,6 +32,7 @@ The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
+
 - **Query library:** RTK Query **or** TanStack Query. It must be **consistent with your state-library
   choice** (Redux→RTK Query; Zustand→TanStack Query). The AI reminds you of this coupling and presents
   tradeoffs **neutrally**; you choose and justify.
@@ -43,31 +44,40 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
+
 - Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Query library set up (**15 points**)
+
 - RTK Query or TanStack Query integrated and configured; **all** API calls go through it.
 - Cache TTL configurable via an environment variable.
 
 ### Feature 3: Search + paginated results (**15 points**)
+
 - Search plus paginated results, driven by query hooks.
 
 ### Feature 4: Detail view with cached fetch (**15 points**)
+
 - Opening an item fetches and **caches** its detail; reopening it makes no new request.
 
 ### Feature 5: Loading & error states (**15 points**)
+
 - Loading indicators while fetching; clear, human-readable error messages on failure.
 
 ### Feature 6: Manual cache invalidation / refetch (**5 points**)
+
 - A refresh control **invalidates** the relevant cache and triggers a refetch.
 
 ### Feature 7: Cache reuse across navigation (**5 points**)
+
 - Returning to a previously loaded page/query serves from cache (no unnecessary request).
 
 ### Feature 8: Unit tests (**10 points**)
+
 - Vitest + RTL tests covering loading, error, and caching behavior. Network mocked. Coverage ≥ thresholds.
 
 ### Feature 9: End-to-end tests (Playwright) (**15 points**)
+
 - Playwright E2E specs in `e2e/` cover the key journeys (search + paginate, open a cached detail, manual
   refresh, loading/error). Run against the built app (`pnpm build && pnpm preview`) and pass headlessly.
 

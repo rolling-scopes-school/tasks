@@ -43,6 +43,7 @@
   },
   "packageManager": "pnpm@12.4.1",
   "aiCoaching": {
+    "task": "Task 1",
     "note": "This repo uses an AI coaching harness. See CLAUDE.md. Do not disarm it; integrity is checked by scripts/verify-harness.mjs.",
     "instructionFiles": [
       "CLAUDE.md",

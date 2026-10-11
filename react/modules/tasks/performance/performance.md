@@ -17,7 +17,7 @@ Starter code: <https://github.com/rolling-scopes-school/react-performance> (clon
 ## 🎯 Skills / Learning objectives
 
 - Use the **React DevTools Profiler** to find re-render and commit-duration bottlenecks.
-- Apply **memoization** correctly: `useMemo`, `useCallback`, `React.memo` — and know when *not* to.
+- Apply **memoization** correctly: `useMemo`, `useCallback`, `React.memo` — and know when _not_ to.
 - Optimize list rendering: proper **keys** and **virtualization**.
 - Measure and **document** improvement (before/after, % change).
 
@@ -32,8 +32,9 @@ The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
+
 - **Where each optimization belongs:** which computations deserve `useMemo`, which handlers `useCallback`,
-  which components `React.memo` — justified by *profiler evidence*, not applied blindly.
+  which components `React.memo` — justified by _profiler evidence_, not applied blindly.
 - **Virtualization approach:** a library (`react-window`/`react-virtualized`) vs a hand-rolled window; the
   tradeoffs.
 - **Measurement methodology:** which interactions to profile and which metrics prove the improvement.
@@ -44,15 +45,18 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../../.instructions/AI_ERA_PRO
 ## Functional Requirements (max **100 points**)
 
 ### Phase 1: Initial profiling / baseline (**15 points**)
+
 - Profile the unoptimized app for the required interactions (sort, search, change year, toggle columns) and
   capture commit/render durations + flame charts, documented with screenshots in `PERFORMANCE.md`.
 
 ### Phase 2: Apply optimizations (**70 points**)
+
 - `useMemo` for computed values — **12** · `useCallback` for handlers — **12** · `React.memo` to cut
   unnecessary re-renders — **12** · correct **keys** for all lists/tables — **12** · **virtualization** for
   the large list — **22**.
 
 ### Phase 3: Final profiling / comparison (**15 points**)
+
 - Re-profile the same interactions, compare to baseline in `PERFORMANCE.md` with screenshots, and compute
   the **% improvement** per metric.
 

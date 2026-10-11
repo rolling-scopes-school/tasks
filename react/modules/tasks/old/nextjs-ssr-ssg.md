@@ -174,15 +174,18 @@ Note: You may also use the experimental `vinext` framework for this task. It is 
 ### Penalties
 
 - **1. TypeScript & Code Quality**
+
   - TypeScript isn't used: **-100 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. React Best Practices**
+
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **3. External Dependencies**
+
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **4. Project Management**

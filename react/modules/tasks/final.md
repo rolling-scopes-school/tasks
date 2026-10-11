@@ -364,33 +364,40 @@ For the convenience of verification, it is **necessary** to record and post on Y
 ### Penalties
 
 - **0. Framework Choice**
+
   - [ ] Using any framework option other than the mandatory list (**React Router 7 (Framework mode)**, **Next.js (App Router)**, **Vinext**, **Tanstack Start**, **Waku**) is strictly forbidden and will result in **-200 points**
 
 - **1. TypeScript & Code Quality**
+
   - [ ] @ts-ignore or any usage (search through GitHub repo) **-20 points** for each
   - [ ] The presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections **-10 points per each**
 
 - **2. Test Coverage (one which applies)**
+
   - [ ] Statement coverage below 80% (≥70%): **-50 points**
   - [ ] Statement coverage below 70% (≥50%): **-100 points**
   - [ ] All coverage metrics below 50%: **-150 points**
   - [ ] Absence of tests **-250 points**
 
 - **3. React Best Practices**
+
   - [ ] One of the required lazy-loaded routes isn't lazy-loaded **-50 per each**
 
 - **4. Console & Error Handling**
+
   - [ ] The presence of errors and warnings in the console **-20 points** for each
   - [ ] The presence in the console of the results of the console.log execution **-20 points** for each
   - [ ] HTTP 4xx and 5xx status codes displayed as errors not in the response section **-50 points**
 
 - **5. Development Tools**
+
   - [ ] Absence of a linting tool **-150 points**
   - [ ] Absence of a formatting tool **-100 points**
   - [ ] Absence of husky git hooks **-100 points**
   - [ ] Absence of E2E (Playwright) tests **-100 points**
 
 - **6. UI/UX**
+
   - [ ] Vite/NextJS default favicon **-50 points**
 
 - **7. Project Management**

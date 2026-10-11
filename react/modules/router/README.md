@@ -23,28 +23,33 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Getting Started with React Router:**
+
    - [React Router: Overview](https://reactrouter.com/en/main/start/overview)
    - [React Router 6: Tutorial](https://reactrouter.com/en/main/start/tutorial)
    - [React Router 7: Tutorial](https://www.robinwieruch.de/react-router/)
 
 2. **Basic Routing:**
+
    - [Installation](https://reactrouter.com/start/library/installation)
    - [Routing](https://reactrouter.com/start/library/routing)
    - [Navigating](https://reactrouter.com/start/library/navigating)
    - [URL values](https://reactrouter.com/start/library/url-values)
 
 3. **API Reference:**
+
    - [Router Provider](https://reactrouter.com/api/data-routers/RouterProvider)
    - [Browser Router](https://reactrouter.com/api/declarative-routers/BrowserRouter)
    - [Route](https://reactrouter.com/api/components/Route)
 
 4. **Navigation and Outlet:**
+
    - [Navigating with React Router](https://reactrouter.com/api/components/Navigate)
    - [Link](https://reactrouter.com/api/components/Link)
    - [NavLink](https://reactrouter.com/api/components/NavLink)
    - [Outlet](https://reactrouter.com/api/components/Outlet)
 
 5. **Protected Routes and Authentication:**
+
    - [Private Routes](https://www.robinwieruch.de/react-router-private-routes/)
    - [Auth Example](https://github.com/remix-run/react-router/tree/dev/examples/auth)
    - [Authentication](https://www.robinwieruch.de/react-router-authentication/)

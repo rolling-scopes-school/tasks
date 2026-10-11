@@ -39,6 +39,7 @@ The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
+
 - **Component API design:** compound-component API vs a props-driven API.
 - **Controlled vs uncontrolled** for each component.
 - **Where an imperative handle** (`useImperativeHandle` + ref) is genuinely justified vs an anti-pattern.
@@ -48,32 +49,41 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
+
 - Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Compound-component API (**15 points**)
+
 - A component with a **compound API** (e.g., `<Tabs><Tab/></Tabs>` or an Accordion) sharing state via context.
 
 ### Feature 3: Accessible Modal/Popover (**15 points**)
+
 - Rendered through a **Portal**; positioned/measured with **`useLayoutEffect`**; **focus management**
   with **`useRef`** (focus trap, return focus, ESC to close, click-outside to close).
 
 ### Feature 4: Combobox / Autocomplete (**15 points**)
+
 - Uses **`useId`** for label/description wiring and **`useImperativeHandle`** to expose imperative
   actions (e.g., focus/reset); full **keyboard navigation**.
 
 ### Feature 5: Responsive filtered list (**10 points**)
+
 - A filterable list that stays responsive under load using **`useDeferredValue`** and/or **`useTransition`**.
 
 ### Feature 6: Custom-hooks library (**10 points**)
+
 - A few reusable **custom hooks** (e.g., `useOnClickOutside`, `useMediaQuery`).
 
 ### Feature 7: Showcase page (**5 points**)
+
 - A page that composes the kit to demonstrate each component and hook.
 
 ### Feature 8: Unit tests (**10 points**)
+
 - Vitest + RTL tests for the components and hooks (including keyboard/focus behavior). Coverage ≥ thresholds.
 
 ### Feature 9: End-to-end tests (Playwright) (**15 points**)
+
 - Playwright E2E specs in `e2e/` exercise real browser behavior of the kit (open/close modal with focus
   trap + ESC, keyboard-navigate the combobox, switch tabs/accordion). Run against the built app
   (`pnpm build && pnpm preview`) and pass headlessly.

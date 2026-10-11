@@ -34,6 +34,7 @@ The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
+
 - Which components are **server** vs **client** (move as much as possible to the server).
 - **Static (SSG)** vs **dynamic (SSR)** rendering per route.
 - Where **server actions** vs client-side data libraries are appropriate.
@@ -43,36 +44,47 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Fresh Next.js App Router app (**5 points**)
+
 - Created with `create-next-app` (App Router), TypeScript, file-based routing. Builds and runs.
 
 ### Feature 2: Internationalization (**10 points**)
+
 - **next-intl** for i18n (≥2 languages) with a client-side language switcher. UI/navigation only; API data need not be translated.
 
 ### Feature 3: Shared layout (**5 points**)
+
 - A shared root layout used across all pages.
 
 ### Feature 4: 404 page (**5 points**)
+
 - A 404 page shown for unknown routes.
 
 ### Feature 5: Image rendering (**10 points**)
+
 - All images rendered via **`next/image`** (with `remotePatterns` configured for external URLs).
 
 ### Feature 6: Localized links (**10 points**)
+
 - All navigation links use **next-intl** `createNavigation` so they work across locales.
 
 ### Feature 7: About page as SSG server component (**10 points**)
+
 - The About page is a **statically generated server component** (no client-side data fetching).
 
 ### Feature 8: Server-side CSV via server action (**10 points**)
+
 - CSV export is generated and served **from the server** via a server action or route handler.
 
 ### Feature 9: Search results page with server components + SSR (**10 points**)
+
 - The initial search results page (list + detail-panel shell) is **server-rendered** using server components.
 
 ### Feature 10: Server actions for search & detail selection (**10 points**)
+
 - Search submissions run through **server actions**; selecting an item triggers **server-side** detail fetching.
 
 ### Feature 11: End-to-end tests (Playwright) (**15 points**)
+
 - Playwright E2E specs in `e2e/` cover the key journeys (locale switch, navigation across routes, search via
   server action, CSV export). Run against a production server (`next build && next start`) and pass headlessly.
 

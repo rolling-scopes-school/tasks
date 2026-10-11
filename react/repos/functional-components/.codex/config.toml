@@ -16,3 +16,22 @@ type = "command"
 command = 'node "$(git rev-parse --show-toplevel)/scripts/coach-reminder.mjs"'
 timeout = 10
 statusMessage = "Loading coaching contract"
+
+# Browser MCP (Playwright) — OPT-IN: shipped disabled. Enable locally with `enabled = true` (or in your
+# user config). Inspect/debug the running app only — never generate tests (see AGENTS.md §7).
+# --codegen none: action results carry no ready-made Playwright code. The RCE-equivalent
+# browser_run_code_unsafe tool is removed.
+[mcp_servers.playwright]
+command = "npx"
+args = [
+  "-y",
+  "@playwright/mcp@0.0.83",
+  "--headless",
+  "--isolated",
+  "--codegen",
+  "none",
+  "--output-dir",
+  ".playwright-mcp",
+]
+enabled = false
+disabled_tools = ["browser_run_code_unsafe"]

@@ -34,6 +34,7 @@ The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 
 **Decision points for this task:**
+
 - **State library:** Redux Toolkit **or** Zustand. AI presents tradeoffs **neutrally**; you choose and
   justify. The AI should remind you this choice **pairs with the query library** in Task 4 (Redux→RTK
   Query; Zustand→TanStack Query) — but must **not** influence your decision.
@@ -45,31 +46,40 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
+
 - Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: State library set up (**15 points**)
+
 - Redux Toolkit **or** Zustand integrated and configured; store used for app state.
 
 ### Feature 3: Products + cart in the store (**15 points**)
+
 - Product list rendered; users can **add / remove / change quantity** of cart items.
 - Cart lives in the **store** with partial updates (adding an item doesn't needlessly re-render unrelated UI).
 
 ### Feature 4: Cart summary/flyout (**15 points**)
+
 - A cart summary (e.g., sticky flyout) shows item count and totals and **persists across navigation**.
 
 ### Feature 5: Theme via Context API (**15 points**)
+
 - A light/dark theme switch implemented with **Context API**, affecting the whole app; control at the top.
 
 ### Feature 6: Context-vs-store rationale (**5 points**)
+
 - A short written rationale (in `README.md` or `CHANGELOG.md`) explaining why theme is in Context and cart is in the store.
 
 ### Feature 7: Cart persistence (**5 points**)
+
 - Cart persists to `localStorage` across reloads.
 
 ### Feature 8: Unit tests (**10 points**)
+
 - Vitest + RTL tests for the store (slice/actions/selectors), components, and the theme context. Coverage ≥ thresholds.
 
 ### Feature 9: End-to-end tests (Playwright) (**15 points**)
+
 - Playwright E2E specs in `e2e/` cover the key journeys (add to cart, change quantity, cart persists across
   navigation, theme toggle). Run against the built app (`pnpm build && pnpm preview`) and pass headlessly.
 

@@ -6,6 +6,7 @@
 > recommended setup/harness, and a feature/points breakdown to seed the cross-check process.
 >
 > **Status of the rollout:**
+>
 > - **Done:** an 8-task program under `react/modules/tasks/` (plain filenames; pre-AI originals archived in
 >   `old/`). Playwright (E2E) added from task 2 (except task 7); the final task is +50 → 600.
 > - **Done:** harness repos scaffolded and verified for **Task 1** (`react/repos/functional-components/`) and
@@ -29,22 +30,22 @@ app-state-management → api-queries`). Two problems for the AI era:
 The goal for the new era (per `fullstack-engineering/.instructions/VISION.md`): students **use AI to
 research, design, write and check code**, but **own and can justify the result**. AI use must be
 **transparent**. This document operationalizes that for React — the exact gap
-`fullstack-engineering/.instructions/OPEN_QUESTIONS.md` flags as *"planned but not yet implemented."*
+`fullstack-engineering/.instructions/OPEN_QUESTIONS.md` flags as _"planned but not yet implemented."_
 
 ---
 
 ## Decisions taken
 
-| # | Decision | Choice |
-|---|----------|--------|
-| 1 | Task independence | **Each task = separate app, built from scratch, own domain.** No shared/cumulative baseline. |
-| 2 | Testing | **Introduced in Task 1, required in every task** (no standalone testing task). |
-| 3 | Task 5 topic | **Advanced hooks + composition patterns** (memoization stays in the Performance task). |
-| 4 | Next.js task | **Rebuilt from scratch** in Next.js (no migration from a prior branch). |
-| 5 | Harness files | **Canonical `AGENTS.md`** per task; thin `CLAUDE.md` + `.github/copilot-instructions.md` pointers; mandatory **`CHANGELOG.md`**. |
-| 6 | Log / understanding | AI proposes options → **student decides & justifies** → AI writes a concise per-step report + the decision & justification to `CHANGELOG.md`. |
-| 7 | Library choices | **Stay open.** AI presents tradeoffs & downstream effects, stays **neutral**; student chooses and justifies. |
-| 8 | Domains & points | **Fixed, well-bounded domain per task with a defined points breakdown** (seeds cross-check). |
+| #   | Decision            | Choice                                                                                                                                        |
+| --- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Task independence   | **Each task = separate app, built from scratch, own domain.** No shared/cumulative baseline.                                                  |
+| 2   | Testing             | **Introduced in Task 1, required in every task** (no standalone testing task).                                                                |
+| 3   | Task 5 topic        | **Advanced hooks + composition patterns** (memoization stays in the Performance task).                                                        |
+| 4   | Next.js task        | **Rebuilt from scratch** in Next.js (no migration from a prior branch).                                                                       |
+| 5   | Harness files       | **Canonical `AGENTS.md`** per task; thin `CLAUDE.md` + `.github/copilot-instructions.md` pointers; mandatory **`CHANGELOG.md`**.              |
+| 6   | Log / understanding | AI proposes options → **student decides & justifies** → AI writes a concise per-step report + the decision & justification to `CHANGELOG.md`. |
+| 7   | Library choices     | **Stay open.** AI presents tradeoffs & downstream effects, stays **neutral**; student chooses and justifies.                                  |
+| 8   | Domains & points    | **Fixed, well-bounded domain per task with a defined points breakdown** (seeds cross-check).                                                  |
 
 **Left as-is (isolated tasks):** Forms, Performance. They are already self-contained; they only need
 the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision #4.
@@ -56,8 +57,8 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
 - **Vite** + **React** + **TypeScript** (`react-ts` template). **pnpm** is the recommended package
   manager/runner (pinned via `packageManager`; `corepack enable`).
 - **Oxlint** as the linter (replaces the ESLint flat-config in the current `project-setup.md`),
-  + **Oxfmt** as the formatter (one unified oxc toolchain — Oxlint does not format, so no lint/format
-  conflict; replaces Prettier), + **Husky** pre-commit (lint + format) and pre-push (tests).
+  - **Oxfmt** as the formatter (one unified oxc toolchain — Oxlint does not format, so no lint/format
+    conflict; replaces Prettier), + **Husky** pre-commit (lint + format) and pre-push (tests).
 - **Vitest** + **React Testing Library** (+ **MSW** for network mocking).
 - **Playwright (in-project)** for end-to-end tests — from **task 2 onward, except task 7** (Performance).
   E2E specs live in `e2e/`, `playwright.config.ts` at the repo root serves the built app; Vitest owns
@@ -66,8 +67,8 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
 - **Per-assistant enforcement hooks** (committed; on top of the instruction mirrors, which stay the
   cross-tool baseline):
   - **Claude Code** (`.claude/settings.json`): **plan-mode default** (`permissions.defaultMode: "plan"`)
-    + a `UserPromptSubmit` hook (`scripts/coach-reminder.mjs`) that re-injects the condensed contract every
-    turn (survives deletion of `CLAUDE.md`). Local overrides in the git-ignored `.claude/settings.local.json`.
+    - a `UserPromptSubmit` hook (`scripts/coach-reminder.mjs`) that re-injects the condensed contract every
+      turn (survives deletion of `CLAUDE.md`). Local overrides in the git-ignored `.claude/settings.local.json`.
   - **Codex** (`.codex/config.toml`): a `UserPromptSubmit` hook reusing the same `coach-reminder.mjs`
     (Codex adds a hook's plain stdout as developer context). Runs only when the student **trusts** the
     project; `approval_policy`/plan-mode can't be set per-repo (user-level `~/.codex/config.toml` only).
@@ -112,22 +113,23 @@ New task files must reuse these numbers verbatim.
 `react/modules/tasks/` with **plain names** (the `ai_` prefix was dropped); the pre-AI originals are
 archived under `react/modules/tasks/old/`.
 
-| Task | Title | Task file | Domain (suggested, key-free API) | New concepts | Playwright? |
-|------|-------|-----------|----------------------------------|--------------|-------------|
-| 1 | Functional Components, State & Testing | `functional-components.md` | **Weather dashboard** (Open-Meteo) | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL** | no (unit only) |
-| 2 | Routing (SPA) | `routing.md` | **Character catalog** (Rick & Morty API) | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404 | **yes (intro)** |
-| 3 | State Management + Context | `state-management.md` | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff | yes |
-| 4 | Data Queries | `queries.md` | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error | yes |
-| 5 | Advanced Hooks & Patterns | `advanced-hooks.md` | **Reusable component kit** (no API needed) | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern | yes |
-| 6 | Forms | `forms.md` | **Form playground** (uncontrolled + RHF) | React Hook Form, Zod/Yup, Portal modal, store, image→base64 | yes |
-| 7 | Performance | `performance/performance.md` | **CO₂ dashboard** (provided starter) | Profiling, `useMemo`/`useCallback`/`React.memo`, keys, virtualization | **no** (profiling focus) |
-| 8 | Next.js SSR/SSG | `nextjs-ssr-ssg.md` | rebuilt from scratch | App Router, RSC, server actions, next-intl, `next/image` | yes |
-| — | Final (team) | `final.md` | **Swagger/OpenAPI UI** (SSR) | full-stack SSR app, auth, i18n | **yes (+50 → 600)** |
+| Task | Title                                  | Task file                    | Domain (suggested, key-free API)                   | New concepts                                                                                                                                                                 | Playwright?              |
+| ---- | -------------------------------------- | ---------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 1    | Functional Components, State & Testing | `functional-components.md`   | **Weather dashboard** (Open-Meteo)                 | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL**                                                         | no (unit only)           |
+| 2    | Routing (SPA)                          | `routing.md`                 | **Character catalog** (Rick & Morty API)           | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404                                                                          | **yes (intro)**          |
+| 3    | State Management + Context             | `state-management.md`        | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff                                                                                               | yes                      |
+| 4    | Data Queries                           | `queries.md`                 | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error                                                                                                        | yes                      |
+| 5    | Advanced Hooks & Patterns              | `advanced-hooks.md`          | **Reusable component kit** (no API needed)         | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern | yes                      |
+| 6    | Forms                                  | `forms.md`                   | **Form playground** (uncontrolled + RHF)           | React Hook Form, Zod/Yup, Portal modal, store, image→base64                                                                                                                  | yes                      |
+| 7    | Performance                            | `performance/performance.md` | **CO₂ dashboard** (provided starter)               | Profiling, `useMemo`/`useCallback`/`React.memo`, keys, virtualization                                                                                                        | **no** (profiling focus) |
+| 8    | Next.js SSR/SSG                        | `nextjs-ssr-ssg.md`          | rebuilt from scratch                               | App Router, RSC, server actions, next-intl, `next/image`                                                                                                                     | yes                      |
+| —    | Final (team)                           | `final.md`                   | **Swagger/OpenAPI UI** (SSR)                       | full-stack SSR app, auth, i18n                                                                                                                                               | **yes (+50 → 600)**      |
 
 **Playwright (E2E)** is introduced in task 2 and required in tasks 2–6 and 8 (not task 1, not task 7);
 the final task adds it as **+50 points on top (max 600)**.
 
 **Library "paths"** the AI should surface (neutrally) so the student sees coherent stacks:
+
 - Path A (canonical): **React Router → Redux Toolkit → RTK Query**
 - Path B (canonical): **TanStack Router → Zustand → TanStack Query**
 - Path C (valid mix): **React Router → Zustand → TanStack Query**
@@ -141,6 +143,7 @@ Each spec lists **Domain**, **Concepts**, **Required theory** (reuse existing `r
 breakdown (max 100) that becomes the task's `cross-check.json`.
 
 ### Task 1 — Functional Components, State & Testing
+
 - **Domain:** Weather dashboard — search a city, show current weather, keep a saved-locations list.
   Suggested API: **Open-Meteo** (no key). Any key-free API acceptable.
 - **Concepts:** functional components & props; `useState` (input, units selection); **optionally**
@@ -148,7 +151,7 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   per-item refetch), a custom `useLocalStorage` hook, loading/error UI, **Error Boundary** (the one
   remaining class component) with a test button, unit testing.
 - **Saved location shape (fixed):** `{ id, name, latitude, longitude, units: 'metric'|'imperial',
-  weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error', error? }`.
+weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error', error? }`.
   Rendered as a list; each item can be refetched individually. Units are chosen at search time (next to
   the Search button) and stored per location.
 - **Required theory:** `modules/react-setup-env`, `modules/hooks` (useState/useReducer/useEffect/custom),
@@ -167,9 +170,10 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Unit tests (components, hook, reducer); ≥80% statements — **20**
 
 ### Task 2 — Routing (SPA only)
+
 - **Domain:** Character catalog — paginated list, detail view, search, About, 404.
   Suggested API: **Rick & Morty API** (no key, paginated, detail endpoints).
-- **Concepts:** router setup (React Router *or* TanStack Router), route config, nested layout with
+- **Concepts:** router setup (React Router _or_ TanStack Router), route config, nested layout with
   `Outlet`, dynamic params, **URL-synced pagination**, programmatic navigation, 404.
 - **Required theory:** `modules/hooks`, `modules/router`.
 - **Decision points:** **which router** (present Path A/B tradeoffs, stay neutral); data vs declarative
@@ -185,9 +189,10 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Tests (routing, pagination, detail) — **10**
 
 ### Task 3 — State Management + Context
+
 - **Domain:** Mini-shop — product list, cart with quantities/totals, theme switch.
   Suggested API: **FakeStore API** (no key) or a local `products.json`.
-- **Concepts:** global store (Redux Toolkit *or* Zustand) with **partial updates**; React **Context**
+- **Concepts:** global store (Redux Toolkit _or_ Zustand) with **partial updates**; React **Context**
   for theme; the **context-vs-store distinction** (Context has no selective subscription → all
   consumers re-render → good for theme/i18n, poor for hot state).
 - **Required theory:** `modules/state-management`, `modules/context-api`.
@@ -204,9 +209,10 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Tests (store/slice, components, context) — **20**
 
 ### Task 4 — Data Queries
+
 - **Domain:** GitHub explorer — search repos/users, paginated results, detail view, manual refresh.
   Suggested API: **GitHub REST** (unauthenticated; rate-limited but fine for learning). PokeAPI/others OK.
-- **Concepts:** RTK Query (if Redux) *or* TanStack Query (if Zustand); caching, cache reuse across
+- **Concepts:** RTK Query (if Redux) _or_ TanStack Query (if Zustand); caching, cache reuse across
   navigation, loading/error states, manual invalidation/refetch, configurable cache TTL via env.
 - **Required theory:** `modules/state-management/queries.md`.
 - **Decision points:** **query lib** (must be consistent with Task 3's store choice — AI reminds of this
@@ -222,6 +228,7 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Tests (loading, error, caching) — **15**
 
 ### Task 5 — Advanced Hooks & Patterns
+
 - **Domain:** Reusable component kit + a showcase page composing it. No external API required.
 - **Concepts:** `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`,
   `useTransition`/`useDeferredValue`; **compound components**, **custom hooks**, **provider pattern**,
@@ -243,6 +250,7 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
   - Tests (components + hooks) — **15**
 
 ### Isolated tasks
+
 - **Forms** — keep current spec; add the harness (next iteration). Already a fresh standalone app.
 - **Performance** — keep current spec (already ships a starter repo + `PERFORMANCE.md`); add the harness.
 - **Next.js (SSR/SSG)** — **rebuild from scratch** with `create-next-app` (App Router). Drops
@@ -253,8 +261,9 @@ breakdown (max 100) that becomes the task's `cross-check.json`.
 
 ## AI Harness Blueprint (reusable across every task)
 
-> **Reference implementation shipped:** `react/repos/functional-components/` (Task 1) is the first
-> fully-scaffolded harness and the template the remaining tasks should copy. **`CLAUDE.md` is the
+> **Template shipped:** `react/repos/main/` is the **task-less template** every task repo is generated from
+> (full harness, Playwright included, empty `docs/TASK.md`, generic `docs/README.md`; generation checklist in
+> its README). `functional-components` (Task 1) and `routing` (Task 2) are the first generated repos. **`CLAUDE.md` is the
 > canonical instruction file**; the other tool files are **full-content mirrors** of it (not thin
 > pointers — live testing showed Copilot ignored a pointer and built the whole app). Harness repos live
 > under `react/repos/<slug>/`.
@@ -272,6 +281,8 @@ react/repos/<slug>/
   .codex/config.toml               # Codex: UserPromptSubmit reminder hook (reuses coach-reminder.mjs)
   .cursor/hooks.json               # Cursor: beforeSubmitPrompt tamper-tripwire hook (failClosed)
   .cursor/hooks/check-harness.mjs  # Cursor tripwire: blocks the prompt if instruction files are stripped
+  .mcp.json, .cursor/mcp.json      # opt-in Playwright MCP (pinned, headless, --codegen none); Codex: in .codex/config.toml
+  .claude/skills/<name>/SKILL.md   # coaching skills (canonical); mirrored to .agents/skills/ by the sync script
   scripts/sync-instructions.mjs    # author-side: regenerate the 4 mirrors from CLAUDE.md
   scripts/coach-reminder.mjs       # Claude + Codex hook: re-injects the coaching contract every turn
   scripts/verify-harness.mjs       # integrity check: instruction files + AI-COACH-RULES blocks + per-tool hook configs + docs/
@@ -288,12 +299,13 @@ react/repos/<slug>/
 ```
 
 **`CLAUDE.md` contract (per task):**
+
 1. **Binding contract, not style.** The file opens with a hard **operating contract**: coach, do not
    author; a finished app the student didn't drive is a failed task.
 2. **Decision gate (the teeth).** The AI **MUST NOT** write feature/implementation code for a step until
-   the student has logged a choice + justification (or explicit *Deferred*) in `CHANGELOG.md`. No
+   the student has logged a choice + justification (or explicit _Deferred_) in `CHANGELOG.md`. No
    decision → refuse to implement, return to the decision. It **declines** "you decide / just build it"
-   **and** "which is better? / what do you think?" (same move — logs it as *Declined by student*) while
+   **and** "which is better? / what do you think?" (same move — logs it as _Declined by student_) while
    still teaching. Closing the "which is better?" gap came from a real transcript where the agent, asked
    for its opinion, handed over the full pick + justification and the student rubber-stamped it.
 3. **Decision protocol — point to docs, withhold the decision.** At each decision point the AI gives
@@ -301,7 +313,7 @@ react/repos/<slug>/
    theory file, and an index), then has the student read, choose, and justify (one line is enough). It
    **withholds the pick-for-this-task and its justification** — the self-reinforcing part: with no stated
    pick, there is nothing to rubber-stamp. It still teaches concepts and answers factual questions. A
-   refused justification is recorded (*Declined — justification owed*) and work proceeds. Record it in
+   refused justification is recorded (_Declined — justification owed_) and work proceeds. Record it in
    `CHANGELOG.md`.
 4. **Incremental & explained.** Implement in small steps; explain what/why; keep the log current.
 5. **Guardrails.** No `any`/`ts-ignore`; Oxlint + Oxfmt clean; no component libraries; tests green;
@@ -322,8 +334,26 @@ review. These hooks set defaults, re-inject, or trip on tampering — none is a 
 modes at runtime, or not trust the project). Nothing here is bulletproof against a determined student editing
 hooks or code — the backstop stays cross-check human review / the defense gate.
 
+**Coaching skills & browser MCP (help without implementing).**
+
+- **Skills** are slash commands that coach: 8 universal (`/explain`, `/options`, `/review`, `/test-ideas`,
+  `/debug-coach`, `/quiz-me`, `/defend`, `/log-decision`) + 10 topic skills switched on per task via
+  `.claude/settings.json` → `skillOverrides` (students opt into more in `settings.local.json`). Guards:
+  `disable-model-invocation: true` (student-invoked only), `disallowed-tools: Edit Write NotebookEdit` on
+  every skill except `/log-decision`, and a `COACH-SKILL` preamble in each body — the portable guarantee for
+  tools that ignore Claude frontmatter. Upstream Vercel React skills were **not** imported as-is (they
+  auto-trigger on all React writing and teach by generating the graded content); three are adapted
+  review-only (`a11y-review`, `composition-review` gated on a logged API decision, `perf-review` gated on
+  profiler evidence), MIT-attributed in `.claude/skills/THIRD_PARTY.md`. Skills used are logged per entry.
+- **Playwright MCP** is opt-in in every repo: Claude asks approval, Cursor ships it off, Codex
+  `enabled = false`; VS Code auto-discovers `.mcp.json` in trusted workspaces (per-user disable). Pinned,
+  headless, isolated, `--codegen none`; `browser_run_code_unsafe` denied/disabled. Contract §7: inspect/debug
+  only, never generate specs, never `playwright init-agents` — `verify-harness` fails if test-agent files
+  (planner/generator/healer, `run-test-mcp-server`) appear.
+
 **Tool-support policy (rely on the standard, don't chase every tool).** Students may use any agentic workflow
 and we can't track them all. So:
+
 - **`AGENTS.md` is the committed cross-tool baseline** — the open [agents.md](https://agents.md) convention,
   read natively by Codex, Cursor, Copilot, Gemini CLI, Windsurf, Amazon Q, Aider, Devin, Jules, Zed, VS Code,
   and **OpenCode** (V2 reads AGENTS.md only) and **Kiro** (auto-discovers it at the repo root). Each repo's
@@ -337,6 +367,7 @@ and we can't track them all. So:
   student-facing README tells learners on any other tool to point it at `AGENTS.md`.
 
 **`CHANGELOG.md` format (the transparency + proof-of-understanding artifact):**
+
 - Append-only, per session. Each entry: date, step done (concise), decision made (if any) + **student's
   justification**, concepts explained, open TODOs.
 - Cross-check reviewers read `CHANGELOG.md` to confirm the student drove decisions and understands the code.
@@ -353,6 +384,7 @@ Prettier; pnpm recommended; the hardened harness (binding decision-gate `CLAUDE.
 incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
 
 **Done (this iteration):**
+
 - **Program restructured to 8 numbered tasks.** Pre-AI originals archived in `react/modules/tasks/old/`;
   the six `ai_*` files renamed to plain names; **Forms → task 6** and **Performance → task 7** fully
   migrated to the new pattern.
@@ -372,17 +404,24 @@ incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
   Each repo gains a **`docs/`** folder (`TASK.md` moved in, a curated theory file — `hooks.md` / `router.md` —
   and a `README.md` index). `CLAUDE.md` rewritten: refusal now also covers "which is better? / what do you
   think?"; decision points are **options + criteria + reading** with the pick and its justification withheld;
-  one-line justifications accepted, refusals logged as *Declined* and work proceeds. `verify-harness` guards
+  one-line justifications accepted, refusals logged as _Declined_ and work proceeds. `verify-harness` guards
   `docs/`. Verified green incl. negative checks. **Copy this into every new harness repo** (3, 4, 5, 6, 8).
 - **Tool-support policy set: AGENTS.md is the committed cross-tool baseline** (works with OpenCode, Kiro,
   Windsurf, Amazon Q, Aider, … out of the box since `AGENTS.md` is a full copy, not a pointer); named files +
   hooks are redundancy for the majors; unknown tools rely on AGENTS.md + the backstop. Documented in the
   README ("Using another assistant?") and the contract header; `AGENTS.md` relabeled as the standard baseline.
   No new machinery. (Also fixed routing's mirror headers that were mislabeled "Task 1".)
+- **`react/repos/main/` template created** (task-less; Playwright included, stripped for tasks 1/7). The sync
+  script now reads the mirror-header label from `package.json` → `aiCoaching.task`. **Coaching skills** (18)
+  and the **opt-in Playwright MCP** added to `main`, `functional-components` and `routing`, with
+  `verify-harness` guards (skill preamble, MCP config, test-agent artifacts). Root `.prettierignore` now
+  excludes `react/repos/` (root Prettier had reformatted the oxfmt-managed repos). All three verified green.
 
 **Next iteration:**
+
 1. `react/.instructions/OPEN_QUESTIONS.md` — track unresolved items (defense gate, Oxlint rule set, deadlines).
-2. Scaffold the remaining tasks' harness repos (3, 4, 5, 6, 8) by copying the templates.
+2. Generate the remaining task repos (3, 4, 5, 6, 8) from `react/repos/main/` (README checklist); consider a
+   `new-task` generator script.
 3. Update `react/README.md` weekly schedule to the 8-task list.
 4. Generate `cross-check.json` from each task's feature/points table.
 5. Replace each repo's `docs/TASK.md` copy (and the copied `docs/` theory) with direct GitHub links once the

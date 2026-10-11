@@ -8,7 +8,7 @@
  * This is tamper-EVIDENCE, not tamper-proofing: a determined student can still edit the hooks or delete
  * the workflow — that stays visible in git history and is caught by cross-check review.
  */
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -57,7 +57,67 @@ const configChecks = [
     mustInclude: ['beforeSubmitPrompt', 'check-harness'],
     label: 'Cursor tamper-tripwire hook',
   },
+  // Opt-in browser MCP (Playwright): pinned, no codegen, unsafe code tool removed/denied.
+  {
+    file: '.mcp.json',
+    mustInclude: ['@playwright/mcp@', '--codegen'],
+    label: 'Claude/VS Code Playwright MCP (no codegen)',
+  },
+  {
+    file: '.cursor/mcp.json',
+    mustInclude: ['@playwright/mcp@', '--codegen'],
+    label: 'Cursor Playwright MCP (no codegen)',
+  },
+  {
+    file: '.codex/config.toml',
+    mustInclude: ['mcp_servers.playwright', '--codegen', 'browser_run_code_unsafe'],
+    label: 'Codex Playwright MCP (no codegen, unsafe tool disabled)',
+  },
+  {
+    file: '.claude/settings.json',
+    mustInclude: ['mcp__playwright__browser_run_code_unsafe', 'skillOverrides'],
+    label: 'Claude deny rule for the unsafe Playwright MCP tool + per-task skill switches',
+  },
 ];
+
+// Coaching skills: every skill (canonical + mirror) keeps the coaching preamble and stays user-invoked.
+const SKILL_DIRS = ['.claude/skills', '.agents/skills'];
+const SKILL_MARKERS = ['COACH-SKILL', 'disable-model-invocation: true'];
+
+// Playwright's test agents (`npx playwright init-agents` → planner / generator / healer) write the E2E
+// suite for you — that is the student's graded work, so their definitions must not exist in this repo.
+const TEST_AGENT_PATTERN = /playwright-test-(planner|generator|healer)|run-test-mcp-server/u;
+const SKIP_DIRS = new Set([
+  'node_modules',
+  '.git',
+  'dist',
+  'coverage',
+  'test-results',
+  'playwright-report',
+]);
+
+function findTestAgentArtifacts(dir, rel = '') {
+  const hits = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (SKIP_DIRS.has(entry.name)) continue;
+    const relPath = rel ? `${rel}/${entry.name}` : entry.name;
+    if (TEST_AGENT_PATTERN.test(entry.name)) hits.push(relPath);
+    if (entry.isDirectory()) {
+      hits.push(...findTestAgentArtifacts(join(dir, entry.name), relPath));
+    } else if (
+      /\.(json|toml|md|mdc|ya?ml)$/u.test(entry.name) &&
+      relPath !== 'scripts/verify-harness.mjs'
+    ) {
+      if (
+        TEST_AGENT_PATTERN.test(readFileSync(join(dir, entry.name), 'utf8')) &&
+        !relPath.endsWith('.md')
+      ) {
+        hits.push(relPath);
+      }
+    }
+  }
+  return hits;
+}
 
 const problems = [];
 
@@ -96,6 +156,38 @@ for (const { file, mustInclude, label } of configChecks) {
   if (gutted.length > 0) {
     problems.push(`${file} no longer wires the coaching layer (missing: ${gutted.join(', ')}).`);
   }
+}
+
+const canonicalSkills = existsSync(join(repoRoot, SKILL_DIRS[0]))
+  ? readdirSync(join(repoRoot, SKILL_DIRS[0]), { withFileTypes: true })
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name)
+  : [];
+if (canonicalSkills.length === 0) {
+  problems.push(`No coaching skills found in ${SKILL_DIRS[0]}/`);
+}
+for (const dir of SKILL_DIRS) {
+  for (const name of canonicalSkills) {
+    const file = `${dir}/${name}/SKILL.md`;
+    const full = join(repoRoot, file);
+    if (!existsSync(full)) {
+      problems.push(
+        `Missing skill file: ${file}${dir === SKILL_DIRS[1] ? ' (run pnpm instructions:sync)' : ''}`,
+      );
+      continue;
+    }
+    const text = readFileSync(full, 'utf8');
+    const lost = SKILL_MARKERS.filter((marker) => !text.includes(marker));
+    if (lost.length > 0) {
+      problems.push(`Skill lost its coaching guard (${lost.join(', ')}): ${file}`);
+    }
+  }
+}
+
+for (const hit of findTestAgentArtifacts(repoRoot)) {
+  problems.push(
+    `Playwright test-agent artifact found (E2E tests must be written by the student): ${hit}`,
+  );
 }
 
 if (problems.length > 0) {

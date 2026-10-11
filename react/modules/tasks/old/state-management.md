@@ -107,6 +107,7 @@
 1. Create a separate branch for this task from the previous branch task. Branch name: "app-state-management"
 
 2. State Management Setup:
+
    - If using Redux:
      - Integrate Redux into your application using Redux Toolkit
      - Set up the Redux store and reducers using Redux Toolkit
@@ -117,6 +118,7 @@
      - Implement selectors if needed
 
 3. Context API:
+
    - Add context to control the application theme (light or dark)
 
 4. Test Updates:
@@ -126,6 +128,7 @@
 ### Penalties
 
 - **1. TypeScript & Code Quality**
+
   - All source files must use `.ts` or `.tsx` extensions. Using `.js` or `.jsx` files: **-20 points per file**
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
@@ -134,15 +137,18 @@
   - ESLint or similar static analysis violations (errors, not warnings): **-5 points per violation**
 
 - **2. Test Coverage (one which applies)**
+
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
+
   - Direct DOM manipulations inside React components (except toggling theme-related classes/attributes on `document.documentElement` within a `useEffect` hook, and creating a temporary link to download CSV file): **-50 points per each**
   - Direct mutation of state in Redux or Zustand stores: **-20 points per occurrence**
 
 - **4. External Dependencies**
+
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **5. Project Management**

@@ -44,6 +44,7 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 (`CLAUDE.md` + mirrors) ships with the repo in a later iteration.
 
 **Decision points for this task:**
+
 - **Validation library:** Zod **or** Yup (present tradeoffs neutrally; you choose and justify). One schema
   drives both forms.
 - **State library:** Redux Toolkit **or** Zustand for storing submissions and the countries list.
@@ -58,15 +59,18 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
 ## Functional Requirements (max **100 points**)
 
 ### Feature 1: Project setup (**5 points**)
+
 - Vite `react-ts` + Oxlint + Oxfmt + Husky. TypeScript throughout; no `any`/`ts-ignore`.
 
 ### Feature 2: Accessible modal host (**10 points**)
+
 - An accessible modal — **reuse the one from [Task 5](./advanced-hooks.md), or build it from scratch following
   the same principles**: rendered through a **Portal**, with **focus trap**, **ESC to close**, **click-outside
   to close**, and **focus returned** to the trigger. The same modal hosts either form. Points are for correct,
   accessible **behavior** — the modal isn't the focus of this task, so keep it lean whichever route you take.
 
 ### Feature 3: Two forms with all fields (**25 points**)
+
 - An **uncontrolled** form and a **React Hook Form** form collecting the same data: name, age, email,
   gender, terms, passwords (+ strength indicator), country **autocomplete** (reuse the Task 5 combobox or
   build one the same way, fed from the stored list), and an **image upload** validated by type/size and
@@ -75,23 +79,28 @@ See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRA
   points are.
 
 ### Feature 4: Shared validation schema (**15 points**)
+
 - One **Zod or Yup** schema validates **both** forms: name capitalized, age non-negative number, basic
   email structure (no regex), passwords match, image type/size, country exists in the list. RHF validates
   live (submit disabled while invalid); the uncontrolled form validates on submit.
 
 ### Feature 5: Submissions in the store (**10 points**)
+
 - Successful submissions (from both forms) are stored in **Redux Toolkit or Zustand** as a history; the
   countries list also lives in the store.
 
 ### Feature 6: Submission display (**10 points**)
+
 - On success the modal closes and the form resets; submissions render as **cards/tiles** on the main page,
   and the newest is briefly **highlighted** (border/background for a few seconds).
 
 ### Feature 7: Unit tests (**10 points**)
+
 - Vitest + RTL tests for the forms (rendering, validation, submission), the modal, the store, and utilities
   (password strength, image→base64). Coverage ≥ thresholds.
 
 ### Feature 8: End-to-end tests (Playwright) (**15 points**)
+
 - Playwright E2E specs in `e2e/` cover the key journeys (fill + submit each form, see validation errors,
   upload an image, verify the new card + highlight). Run against the built app (`pnpm build && pnpm preview`)
   and pass headlessly.

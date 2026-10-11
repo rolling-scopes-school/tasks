@@ -41,6 +41,9 @@ pnpm build       # type-check + production build
     (runs once you _trust_ the project in Codex).
   - **Cursor** (`.cursor/hooks.json`): the contract is always applied via `.cursor/rules/coaching.mdc`;
     a `beforeSubmitPrompt` hook additionally **blocks** if the instruction files have been stripped.
+- **Coaching skills** (`.claude/skills/`, mirrored to `.agents/skills/`) — see [below](#coaching-skills).
+- **Playwright MCP, opt-in** (`.mcp.json`, `.cursor/mcp.json`, `.codex/config.toml`) — see
+  [below](#browser-mcp-playwright-opt-in).
 - Optional: add **MSW** yourself if you prefer it over Vitest mocks for the network layer.
 
 ## Working with your AI assistant
@@ -70,3 +73,47 @@ record every decision in `CHANGELOG.md`. You own the code and must be able to ex
 > This repo ships a **coaching-harness integrity check** (`pnpm verify:harness`, run by the Husky hooks
 > and CI): it confirms the instruction files and the in-code `AI-COACH-RULES` notes are present. Removing
 > them is not the assignment — the check will fail your commit, and it's visible in review.
+
+## Coaching skills
+
+Slash-command helpers that **coach, never implement** — they report findings, point to the reading and ask
+you questions; you make the changes. You run them on purpose (`/review`, `/quiz-me`, …); the AI can suggest
+them but never triggers them by itself.
+
+| Always available      | What it does                                                                   |
+| --------------------- | ------------------------------------------------------------------------------ |
+| `/explain [concept]`  | Explains a concept with a small example unrelated to your task + where to read |
+| `/options [decision]` | Options + criteria + reading for a decision — you pick                         |
+| `/review [path]`      | Findings on your changes (severity, rule, reading) — no rewrites               |
+| `/test-ideas`         | Behaviors worth testing (Given/When/Then) — no test code                       |
+| `/debug-coach`        | Hypotheses + what to inspect — not the fix                                     |
+| `/quiz-me`, `/defend` | Self-check and a mock cross-check on your own code                             |
+| `/log-decision`       | Drafts the `CHANGELOG.md` entry from **your** words                            |
+
+**Topic skills** (`/hooks-review`, `/routing-review`, `/state-review`, `/query-review`, `/a11y-review`,
+`/composition-review`, `/forms-review`, `/perf-review`, `/rsc-review`, `/e2e-review`) are switched on per task
+in `.claude/settings.json` → `skillOverrides`. Turn on others for yourself in the git-ignored
+`.claude/settings.local.json`:
+
+```json
+{ "skillOverrides": { "a11y-review": "on" } }
+```
+
+Skills used for a step are noted in `CHANGELOG.md`. Assistants other than Claude Code read the same skills
+from `.agents/skills/`; the coaching rules are written into each skill, so they apply there too.
+
+## Browser MCP (Playwright, opt-in)
+
+Lets your assistant **open the running app** to inspect it — accessibility tree, console, network — so it can
+help you debug and explore role-based locators. It is **off until you enable it**, pinned to one version,
+headless, and configured with `--codegen none`.
+
+- **Claude Code:** asks for approval the first time (`.mcp.json`).
+- **Cursor:** enable `playwright` under _Settings → MCP_ (`.cursor/mcp.json`).
+- **Codex:** shipped with `enabled = false`; run `codex -c mcp_servers.playwright.enabled=true` to opt in.
+- **VS Code / Copilot:** discovers `.mcp.json` in trusted workspaces; disable it for yourself via
+  _MCP: List Servers_.
+
+> It will **not write your E2E tests** — those are graded work. Playwright's test agents
+> (`npx playwright init-agents`: planner / generator / healer) are not allowed here, and the harness check
+> fails if their files appear.
