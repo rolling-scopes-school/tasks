@@ -39,4 +39,4 @@ Participants are to study the following submodules:
 
 ## Additional Sources
 
-- Access a comprehensive overview of JavaScript fundamentals in [one concise handbook](https://exploringjs.com/impatient-js/toc.html).
+- Access a comprehensive overview of JavaScript fundamentals in [one concise handbook](https://htmlcheatsheet.com/js).
