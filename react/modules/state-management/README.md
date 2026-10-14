@@ -23,12 +23,14 @@ Students will:
 Students are encouraged to study the following resources based on their chosen state management solution:
 
 1. **Redux Toolkit Path:**
+
    - [Redux Essentials](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) - 3 hours
    - [Why Redux Toolkit is How To Use Redux Today](https://redux-toolkit.js.org/introduction/why-rtk-is-redux-today) - 1 hour
    - [Redux Toolkit Getting Started](https://redux-toolkit.js.org/introduction/getting-started) - 1 hour
    - [Redux DevTools Extension](https://redux.js.org/tutorials/fundamentals/part-6-async-logic#redux-devtools-extension) - 30 minutes
 
 2. **Zustand Path:**
+
    - [Zustand Introduction](https://zustand.docs.pmnd.rs/getting-started/introduction) - 1 hour
    - [Zustand Tutorial](https://zustand.docs.pmnd.rs/guides/updating-state) - 2 hours
    - [Zustand Best Practices](https://zustand.docs.pmnd.rs/guides/practice-with-no-store-actions) - 1 hour

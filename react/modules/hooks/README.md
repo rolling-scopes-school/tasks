@@ -23,15 +23,18 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to Hooks:**
+
    - [Introducing Hooks](https://react.dev/reference/react/hooks)
 
 2. **Basic Hooks:**
+
    - [Using the State Hook](https://react.dev/reference/react/useState)
    - [Using the Effect Hook](https://react.dev/reference/react/useEffect)
    - [Context in Hooks](https://react.dev/reference/react/useContext)
    - [Ref in Hooks](https://react.dev/reference/react/useRef)
 
 3. **Advanced Hooks:**
+
    - [Using the Reducer Hook](https://react.dev/reference/react/useReducer)
    - [Memoization in Hooks](https://react.dev/reference/react/useMemo)
    - [Cache a function in Hooks](https://react.dev/reference/react/useCallback)
