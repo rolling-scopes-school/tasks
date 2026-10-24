@@ -214,11 +214,15 @@
 - Теоретические модули:
   - [TypeScript Basic](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-basic)
   - [TypeScript Advanced](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/typescript-advanced)
+  - [Design Patterns](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/design-patterns) — порождающие, структурные и поведенческие паттерны
 - Тесты:
   - [St2] TypeScript Basics
-  - [St2] TS Advanced [EN]
-- **Стек**: JavaScript, TypeScript
-- **Чему научатся**: основам TypeScript, типизации данных, настройке `tsconfig`, type guards и generics
+  - [St2] TS Advanced
+  - [St2] Design Patterns
+- Задача:
+  - [Migration: News API to TS](https://github.com/rolling-scopes-school/tasks/blob/master/fullstack-engineering/tasks/TS-news-api/migration-newip-to-ts.md) — перенести готовое приложение News API с JavaScript на TypeScript, настроить ESLint и Webpack
+- **Стек**: JavaScript, TypeScript, ESLint, Webpack, паттерны проектирования
+- **Чему научатся**: основам и продвинутым возможностям TypeScript, типизации данных, настройке `tsconfig`, type guards и generics, а также применению паттернов проектирования и миграции готового приложения на TypeScript
 
 ### Неделя 9
 

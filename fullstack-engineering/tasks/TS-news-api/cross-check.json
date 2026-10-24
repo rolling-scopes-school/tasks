@@ -1,0 +1,111 @@
+{
+  "taskName": "News API: TypeScript Migration",
+  "criteria": [
+    {
+      "type": "title",
+      "title": "Настройка репозитория (проверяется по Pull Request)"
+    },
+    {
+      "type": "subtask",
+      "text": "Pull Request оформлен по требованиям RS School, открыт из рабочей ветки в main своего форка и не замержен",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "История коммитов отражает процесс разработки, сообщения соответствуют конвенции коммитов RS School",
+      "max": 20
+    },
+
+    {
+      "type": "title",
+      "title": "Качество TypeScript-кода (проверяется по коду и конфигурации)"
+    },
+    {
+      "type": "subtask",
+      "text": "Используются базовые типы TypeScript и enum",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Используются generics",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Используются object types: type и/или interface",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Используются классы и модификаторы доступа private/public",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Параметры и возвращаемые значения функций типизированы",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "ESLint настроен для TypeScript, правило no-explicit-any включено, ошибок линтера нет",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Тип any не используется",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "В tsconfig.json включены noImplicitAny: true и strict: true",
+      "max": 20
+    },
+    {
+      "type": "subtask",
+      "text": "Webpack настроен для сборки TypeScript",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Дизайн и адаптивность (проверяется на деплое)"
+    },
+    {
+      "type": "subtask",
+      "text": "Адаптивная вёрстка работает без наложения или выхода элементов за пределы viewport при ширине от 320px до 1920px",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "Приложение повторяет предложенный дизайн или содержит самостоятельные улучшения, описанные в Pull Request",
+      "max": 20
+    },
+
+    { "type": "title", "title": "Штрафы" },
+    {
+      "type": "penalty",
+      "text": "Используется тип any",
+      "max": -20
+    },
+    {
+      "type": "penalty",
+      "text": "Код мигрирован в TypeScript не полностью",
+      "max": -20
+    },
+    {
+      "type": "penalty",
+      "text": "В tsconfig.json не включены noImplicitAny: true и strict: true",
+      "max": -20
+    },
+    {
+      "type": "penalty",
+      "text": "В конфигурации ESLint отсутствует правило no-explicit-any",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "ESLint сообщает об ошибках",
+      "max": -10
+    }
+  ]
+}
