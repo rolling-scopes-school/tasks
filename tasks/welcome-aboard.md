@@ -8,8 +8,8 @@
    - http://git-scm.com/downloads
    - https://atom.io/ or https://code.visualstudio.com/ or https://www.jetbrains.com/webstorm/ (trial)
 4. Learn Git basics
-   - https://www.codeschool.com/courses/try-git
-   - https://www.codeschool.com/courses/git-real (at least first level)
+   - https://coddy.tech/playground/git
+   - https://learngitbranching.js.org/ (at least the first level)
    - (optional) http://git-scm.com/book
    - (optional) https://www.udacity.com/course/ud775
    - .gitignore best practices
