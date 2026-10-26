@@ -1,0 +1,161 @@
+{
+  "taskName": "Bulls and Cows",
+  "criteria": [
+    {
+      "type": "title",
+      "title": "Настройка проекта (проверяется по конфигам и package.json)"
+    },
+    {
+      "type": "subtask",
+      "text": "TypeScript настроен и используется во всём проекте",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "ESLint и Prettier настроены, скрипты lint/format в package.json работают",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Husky + lint-staged настроены на pre-commit",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Тестовый раннер (Jest/Vitest) настроен, скрипт test работает",
+      "max": 5
+    },
+
+    {
+      "type": "title",
+      "title": "TDD и тесты (проверяется по вкладке Commits в PR и запуском npm test)"
+    },
+    {
+      "type": "subtask",
+      "text": "generateSecret: отдельный коммит с падающими тестами до коммита с реализацией",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "evaluateGuess: отдельный коммит с падающими тестами до коммита с реализацией",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "isValidGuess: отдельный коммит с падающими тестами до коммита с реализацией",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "createDigitValidator: отдельный коммит с падающими тестами до коммита с реализацией",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "countPossibleSecrets: отдельный коммит с падающими тестами до коммита с реализацией",
+      "max": 5
+    },
+    {
+      "type": "subtask",
+      "text": "Тесты соответствуют FIRST: быстрые, независимые, детерминированные, самопроверяющиеся",
+      "max": 5
+    },
+
+    {
+      "type": "title",
+      "title": "Функциональное программирование (проверяется по коду игрового ядра)"
+    },
+    {
+      "type": "subtask",
+      "text": "Игровая логика — чистые функции без классов, не зависящие от DOM",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "generateSecret принимает источник случайности параметром и протестирован с детерминированным random",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "evaluateGuess реализован через методы массивов (map/filter/reduce), а не ручные циклы со счётчиками",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "createDigitValidator — каррированная фабрика, используется минимум в двух местах",
+      "max": 10
+    },
+    {
+      "type": "subtask",
+      "text": "countPossibleSecrets реализован рекурсивно и мемоизирован",
+      "max": 10
+    },
+
+    {
+      "type": "title",
+      "title": "Документация DESIGN.md"
+    },
+    {
+      "type": "subtask",
+      "text": "Структуры данных и алгоритмы описаны конкретно, по функциям",
+      "max": 8
+    },
+    {
+      "type": "subtask",
+      "text": "Big O для generateSecret, evaluateGuess, isValidGuess, countPossibleSecrets с обоснованием",
+      "max": 8
+    },
+    {
+      "type": "subtask",
+      "text": "Принципы чистого кода с указанием, где конкретно применены",
+      "max": 4
+    },
+
+    {
+      "type": "title",
+      "title": "Игровая механика и интерфейс (проверяется на деплое)"
+    },
+    {
+      "type": "subtask",
+      "text": "Настройки длины (3-6) и системы счисления (bin/oct/dec/hex), блокировка после старта раунда",
+      "max": 8
+    },
+    {
+      "type": "subtask",
+      "text": "История попыток с корректными bulls/cows, пополняется иммутабельно",
+      "max": 8
+    },
+    {
+      "type": "subtask",
+      "text": "Корректное завершение игры, подсчёт попыток и времени",
+      "max": 6
+    },
+    {
+      "type": "subtask",
+      "text": "Таблица рекордов в localStorage, переживает перезагрузку страницы",
+      "max": 6
+    },
+    {
+      "type": "subtask",
+      "text": "Новая игра возвращает к экрану настроек без перезагрузки страницы",
+      "max": 2
+    },
+
+    { "type": "title", "title": "Штрафы" },
+    {
+      "type": "penalty",
+      "text": "Pull Request оформлен не по схеме или в описании нет ссылки на рабочий деплой",
+      "max": -50
+    },
+    {
+      "type": "penalty",
+      "text": "Коммиты не соответствуют конвенции RS School, либо порядок тесты→реализация нарушен",
+      "max": -50
+    },
+    {
+      "type": "penalty",
+      "text": "Приложение не работает после изменений",
+      "max": -50
+    }
+  ]
+}
