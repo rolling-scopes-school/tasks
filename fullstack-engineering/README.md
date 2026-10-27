@@ -228,8 +228,8 @@
 
 #### 3 ноября 2026 года
 
-- 03.11.2026 20:00 YouTube Стрим Разбор задания **Bulls and Cows** (TDD, чистые функции, каррирование, мемоизация и рекурсия)
-- 06.11.2026 20:00 Discord Практикум Что мы знаем о функциональном программировании? Разберем на примере простых задач из собеседований, как работают чистые функции, рекурсия, каррирование и мемоизация.
+- 03.11.2026 20:00 [YouTube Стрим](https://www.youtube.com/watch?v=v1AobCVIaJI) Разбор задания **Bulls and Cows** (TDD, чистые функции, каррирование, мемоизация и рекурсия)
+- 06.11.2026 20:00 [Discord Практикум](https://discord.com/events/516715744646660106/1564676938440638555) Что мы знаем о функциональном программировании? Разберем на примере простых задач из собеседований, как работают чистые функции, рекурсия, каррирование и мемоизация.
 
 - Теоретический модуль:
   - [Основы функционального программирования](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/fp-basics) — чистые функции, иммутабельность, функции высшего порядка, рекурсия, каррирование и мемоизация
@@ -246,8 +246,8 @@
 
 #### 10 ноября 2026 года
 
-- 10.11.2026 20:00 YouTube Стрим Разбор задания **Country Search** (AbortController, debounce, REST API, TDD и обработка ошибок)
-- 13.11.2026 20:00 Discord Практикум Event Loop - разбираем, как работает асинхронный JavaScript, macrotasks и microtasks, requestAnimationFrame и fetch.
+- 10.11.2026 20:00 [YouTube Стрим](https://www.youtube.com/watch?v=9aY3EnfIHm8) Разбор задания **Country Search** (AbortController, debounce, REST API, TDD и обработка ошибок)
+- 13.11.2026 20:00 [Discord Практикум](https://discord.com/events/516715744646660106/1564677086956748943) Event Loop - разбираем, как работает асинхронный JavaScript, macrotasks и microtasks, requestAnimationFrame и fetch.
 
 - Теоретические модули:
   - [Event Loop & Animation](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/eventloop-animation) — event loop, Web APIs, macrotasks, microtasks и `requestAnimationFrame`
