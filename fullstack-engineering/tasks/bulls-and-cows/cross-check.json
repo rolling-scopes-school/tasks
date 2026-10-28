@@ -17,8 +17,13 @@
     },
     {
       "type": "subtask",
-      "text": "Husky + lint-staged настроены на pre-commit",
-      "max": 5
+      "text": "Husky pre-commit запускает только lint-staged, без тестов",
+      "max": 3
+    },
+    {
+      "type": "subtask",
+      "text": "Husky pre-push запускает npm test и блокирует отправку красных тестов",
+      "max": 2
     },
     {
       "type": "subtask",
