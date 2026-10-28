@@ -228,18 +228,26 @@
 
 #### 3 ноября 2026 года
 
-//ToDo: functional programming — scope, lexical environment, context, this (call, apply, bind)
+- 03.11.2026 20:00 [YouTube Стрим](https://www.youtube.com/watch?v=v1AobCVIaJI) Разбор задания **Bulls and Cows** (TDD, чистые функции, каррирование, мемоизация и рекурсия)
+- 06.11.2026 20:00 [Discord Практикум](https://discord.com/events/516715744646660106/1564676938440638555) Что мы знаем о функциональном программировании? Разберем на примере простых задач из собеседований, как работают чистые функции, рекурсия, каррирование и мемоизация.
 
 - Теоретический модуль:
   - [Основы функционального программирования](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/fp-basics) — чистые функции, иммутабельность, функции высшего порядка, рекурсия, каррирование и мемоизация
 - Тест:
   - [St2] Functional Programming
-- **Стек**: JavaScript
-- **Чему научатся**: писать чистые функции, работать с иммутабельными данными, функциями высшего порядка, рекурсией, каррированием и мемоизацией
+- Cross-check:
+  - [Migration: News API to TS](https://github.com/rolling-scopes-school/tasks/blob/master/fullstack-engineering/tasks/TS-news-api/migration-newip-to-ts.md)
+- Задача **Bulls and Cows**:
+  - [Bulls and Cows](tasks/bulls-and-cows/README.md) — игра в угадывание числа, игровая логика на чистых функциях, TDD, каррирование, мемоизация и рекурсия
+- **Стек**: TypeScript, Jest/Vitest, ESLint, Prettier, Husky
+- **Чему научатся**: писать чистые функции, работать с иммутабельными данными, функциями высшего порядка, рекурсией, каррированием и мемоизацией, а также разработке через тестирование (TDD) на новом проекте
 
 ### Неделя 10
 
 #### 10 ноября 2026 года
+
+- 10.11.2026 20:00 [YouTube Стрим](https://www.youtube.com/watch?v=9aY3EnfIHm8) Разбор задания **Country Search** (AbortController, debounce, REST API, TDD и обработка ошибок)
+- 13.11.2026 20:00 [Discord Практикум](https://discord.com/events/516715744646660106/1564677086956748943) Event Loop - разбираем, как работает асинхронный JavaScript, macrotasks и microtasks, requestAnimationFrame и fetch.
 
 - Теоретические модули:
   - [Event Loop & Animation](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/eventloop-animation) — event loop, Web APIs, macrotasks, microtasks и `requestAnimationFrame`
@@ -249,8 +257,12 @@
   - [St2] Event Loop & Animation
   - [St2] Async JS Test
   - [St2] Error handling
-- **Стек**: JavaScript, Promise, async/await
-- **Чему научатся**: понимать устройство event loop, писать асинхронный код на Promise и async/await, а также обрабатывать синхронные и асинхронные ошибки
+- Cross-check:
+  - [Bulls and Cows](tasks/bulls-and-cows/README.md#критерии-оценки)
+- Задача **Country Search**:
+  - [Country Search](tasks/country-search/README.md) — живой поиск по REST Countries API, отмена устаревших запросов через AbortController, debounce, различение AbortError/HttpError/404, TDD
+- **Стек**: TypeScript, fetch, AbortController, Jest/Vitest, ESLint, Prettier, Husky
+- **Чему научатся**: понимать устройство event loop, писать асинхронный код на Promise и async/await, корректно отменять устаревшие запросы и отличать отмену от настоящей ошибки, а также обрабатывать синхронные и асинхронные ошибки
 
 ### Неделя 11–12
 
