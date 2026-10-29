@@ -24,7 +24,8 @@ Please, check answers carefully before posting the question, may be your questio
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
-5. Review the code. Pay attention at the following "code smells":
+5. Where the task includes end-to-end tests (Playwright, tasks 2 onward except Performance), run them too (`pnpm e2e`) — they should pass
+6. Review the code. Pay attention at the following "code smells":
 
 - props drilling;
 - large, complex components aka "god" components;

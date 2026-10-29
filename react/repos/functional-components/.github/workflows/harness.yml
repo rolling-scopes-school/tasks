@@ -1,0 +1,35 @@
+name: harness
+
+# Verifies the AI coaching harness is intact and the project stays green.
+# This runs in the repo regardless of local hooks, so stripping the harness is visible in CI.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Verify coaching harness is intact
+        run: pnpm verify:harness
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format check
+        run: pnpm format
+
+      - name: Test
+        run: pnpm test
