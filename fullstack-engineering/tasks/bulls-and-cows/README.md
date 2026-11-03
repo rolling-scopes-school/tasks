@@ -40,7 +40,7 @@
 - [Testing](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/testing) — TDD, FIRST, тестовая пирамида (неделя 6)
 - [Алгоритмы и структуры данных](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/data-structures-and-algorithms) — Big O (неделя 6)
 - [Clean Code](../../modules/week-05/clean-code.md) (неделя 7)
-- [MDN: Currying](https://developer.mozilla.org/en-US/docs/Glossary/Currying), [MDN: Memoization](https://developer.mozilla.org/en-US/docs/Glossary/Memoization)
+- [Currying](https://barker.codes/blog/currying-and-partial-application-in-javascript/#currying), [MDN: Memoization](https://developer.mozilla.org/en-US/docs/Glossary/Memoization)
 
 ## Требования
 
