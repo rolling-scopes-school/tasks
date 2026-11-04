@@ -253,10 +253,14 @@
   - [Event Loop & Animation](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/eventloop-animation) — event loop, Web APIs, macrotasks, microtasks и `requestAnimationFrame`
   - [Async Programming](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/async) — Promise, async/await, `fetch` и обработка отклонённых Promise
   - [JavaScript Error Handling](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/error-handling) — Error, `try..catch`, `throw` и асинхронные ошибки
+  - [Client–Server Interaction](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server) — основы клиент-серверного взаимодействия, HTTP и HTTPS
+  - [RESTful API Style](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/restful-api) — принципы REST API
 - Тесты:
   - [St2] Event Loop & Animation
   - [St2] Async JS Test
   - [St2] Error handling
+  - [St1] Client - Server interaction
+  - [St2] RESTful API Style
 - Cross-check:
   - [Bulls and Cows](tasks/bulls-and-cows/README.md#критерии-оценки)
 - Задача **Country Search**:
@@ -264,30 +268,28 @@
 - **Стек**: TypeScript, fetch, AbortController, Jest/Vitest, ESLint, Prettier, Husky
 - **Чему научатся**: понимать устройство event loop, писать асинхронный код на Promise и async/await, корректно отменять устаревшие запросы и отличать отмену от настоящей ошибки, а также обрабатывать синхронные и асинхронные ошибки
 
-### Неделя 11–12
+### Недели 11–12
 
-#### 17 ноября 2026 года
+#### 17 и 24 ноября 2026 года
 
 - Теоретические модули:
   - [Web Storage](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/web-storage) — localStorage, sessionStorage и сохранение состояния приложения
   - [Single Page Application](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/single-page-application) — клиентский роутинг, состояние и архитектура SPA без фреймворка
+  - [Scrum и Kanban](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/scrum) — планирование и организация командной работы
+  - [CI/CD](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/ci-cd) — автоматизация проверок, сборки и развёртывания
+  - [Web Security](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/modules/web-security) — основы безопасности веб-приложений и API
 - Тесты:
   - [St2] Web Storage
   - [St2] Single Page Application
-
-- Теоретический модуль:
-  - [Node.js](modules/week-10/nodejs.md)
+  - [St2] Scrum. Kanban
+  - [St2] CI/CD
+  - [St2] Web Security
 - Cross-check:
   - [Country Search](tasks/country-search/README.md#критерии-оценки)
-- Задача **Свой backend**:
-  - [Свой backend](tasks/own-backend/README.md) — сервер с несколькими роутами и middleware для проверки токена из cookies
-- **Стек**: Node.js (HTTP/Express), cookies, middleware
-- **Чему научатся**: основам Node.js, серверным маршрутам, паттерну middleware и базовой аутентификации по токену
-
-- Задача **Онлайн-магазин**:
-  - [Онлайн-магазин](tasks/online-store/README.md) (парное задание) — каталог, корзина, фильтры, сохранение состояния и клиентский роутинг
-- **Стек**: JavaScript, DOM API, Web Storage, SPA, Node.js, UI-подход по выбору пары
-- **Чему научатся**: хранить состояние в браузере, строить SPA без фреймворка, работать в паре над крупным приложением, распределять зоны ответственности и проводить code review внутри пары
+- Задача:
+  - [Командный проект и интервью](https://github.com/rolling-scopes-school/tasks/blob/master/fullstack-engineering/tasks/team-project-interview/README.md) — в паре создать небольшое приложение, организовать работу на доске задач и провести друг с другом видеоинтервью с live coding
+- **Инструменты и технологии**: Git, GitHub, Jira или GitHub Projects; JavaScript/TypeScript и инструменты тестирования по выбору команды
+- **Чему научатся**: планировать и распределять задачи, работать в общем репозитории, проводить code review, рассказывать о проекте и своём вкладе, отвечать на вопросы и писать unit-тесты во время интервью
 
 ## 👨‍🏫 Активности менторов
 
