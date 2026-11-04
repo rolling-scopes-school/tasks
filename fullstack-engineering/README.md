@@ -261,6 +261,10 @@
   - [St2] Error handling
   - [St1] Client - Server interaction
   - [St2] RESTful API Style
+- Практика по JavaScript:
+  - [core-js-dates](https://github.com/rolling-scopes-school/core-js-dates) — задачи на работу с датами
+  - [core-js-functions](https://github.com/rolling-scopes-school/core-js-functions) — задачи на работу с функциями
+  - [core-js-promises](https://github.com/rolling-scopes-school/core-js-promises) — задачи на работу с Promise
 - Cross-check:
   - [Bulls and Cows](tasks/bulls-and-cows/README.md#критерии-оценки)
 - Задача **Country Search**:
