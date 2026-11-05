@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "type": "command",
+        "command": "node .cursor/hooks/check-harness.mjs",
+        "timeout": 10,
+        "failClosed": true
+      }
+    ]
+  }
+}

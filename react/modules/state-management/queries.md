@@ -23,6 +23,7 @@ Students will:
 Students are encouraged to study the following resources based on their chosen query solution:
 
 1. **RTK Query Path (for Redux Toolkit users):**
+
    - [RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview) - 1 hour
    - [RTK Query Quick Start](https://redux-toolkit.js.org/tutorials/rtk-query) - 1 hour
    - [RTK Query Usage Guide](https://redux-toolkit.js.org/rtk-query/usage/queries) - 2 hours
@@ -89,6 +90,7 @@ Cons:
 ## Choosing the Right Solution
 
 - Use **RTK Query** if:
+
   - You're already using Redux Toolkit
   - You want automatic code generation
   - You prefer a more opinionated approach
