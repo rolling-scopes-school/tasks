@@ -9,10 +9,12 @@
 >
 > - **Done:** an 8-task program under `react/modules/tasks/` (plain filenames; pre-AI originals archived in
 >   `old/`). Playwright (E2E) added from task 2 (except task 7); the final task is +50 → 600.
-> - **Done:** harness repos scaffolded and verified for **Task 1** (`react/repos/functional-components/`) and
->   **Task 2** (`react/repos/routing/`, first with Playwright) — the reference implementations to copy.
-> - **Next:** scaffold the remaining tasks' harness repos by copying the templates, then run a harness
->   dry-run. This document + the task files carry **all context** needed to do so.
+> - **Done:** harness repos scaffolded and verified for **Task 1** (`react/repos/functional-components/`),
+>   **Task 2** (`react/repos/routing/`, first with Playwright), **Task 3** (`state-management/`), **Task 4**
+>   (`queries/`), **Task 5** (`advanced-hooks/`) and **Task 6** (`forms/`), all generated from the task-less
+>   template `react/repos/main/`.
+> - **Next:** Task 7 (Performance) and Task 8 (Next.js) harness repos, then a harness dry-run. This document
+>   + the task files carry **all context** needed to do so.
 
 ---
 
@@ -61,9 +63,7 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
     conflict; replaces Prettier), + **Husky** pre-commit (lint + format) and pre-push (tests).
 - **Vitest** + **React Testing Library** (+ **MSW** for network mocking).
 - **Playwright (in-project)** for end-to-end tests — from **task 2 onward, except task 7** (Performance).
-  E2E specs live in `e2e/`, `playwright.config.ts` at the repo root serves the built app; Vitest owns
-  `src/**` and Playwright owns `e2e/**` (separate globs). Browsers install and E2E run **in CI**, not in the
-  local Husky hooks.
+  Conventions in [E2E (Playwright) conventions](#e2e-playwright-conventions) below.
 - **Per-assistant enforcement hooks** (committed; on top of the instruction mirrors, which stay the
   cross-tool baseline):
   - **Claude Code** (`.claude/settings.json`): **plan-mode default** (`permissions.defaultMode: "plan"`)
@@ -84,6 +84,36 @@ the harness treatment (see "AI Harness Blueprint"). Next.js changes per decision
   AI scaffolds**. Focus stays on React, not backend.
 - TypeScript strictness enforced: **no `any`, no `ts-ignore`** (existing penalty rules, now also encoded
   as harness guardrails).
+
+### E2E (Playwright) conventions
+
+Playwright is introduced in **task 2** and used in every later task except **task 7** (Performance). Every E2E
+task repo follows the same setup:
+
+- **In-project `@playwright/test`.** Specs live in `e2e/` (a smoke spec ships, named after the app); Vitest owns
+  `src/**` and Playwright owns `e2e/**` (separate globs). `playwright.config.ts` carries an `AI-COACH-RULES`
+  block (a `verify-harness` sentinel), runs **Chromium only**, and serves the **production build**
+  (`pnpm build && pnpm preview --port 4173`), so E2E tests the same thing cross-check grades. Scripts:
+  `pnpm e2e`, `pnpm e2e:ui`.
+- **CI only.** Browsers install (`playwright install --with-deps chromium`) and E2E run in
+  `.github/workflows/harness.yml`, not in the Husky hooks (the browser download is heavy). Locally, the
+  student runs `pnpm exec playwright install chromium` once.
+- **Deterministic network.** E2E specs stub external APIs with Playwright's `page.route` rather than hitting
+  them live. This matters most in task 4 (unauthenticated GitHub REST allows 60 requests/hour). Unit tests
+  mock with MSW or Vitest. Whether and how to stub is part of the student's E2E decision, coached in each repo.
+- **What good specs look like** (checked by the `e2e-review` skill): role-based locators, web-first
+  assertions, isolated specs (no shared state, clean `localStorage`), user-visible behavior over
+  implementation details.
+- **Per-task harness parts.** Each E2E task's `CLAUDE.md` §4 has the standard decision point **"E2E scope &
+  structure"** (which journeys, how specs are organized, network handling), with the task's journeys listed.
+  `e2e-review` is on in `skillOverrides`, and `docs/README.md` maps the decision to the Playwright docs.
+- **Grading.** Each E2E task has an **"End-to-end tests (Playwright)" feature worth 15 points**, plus the
+  **-30 "no E2E"** penalty (see Grading invariants). The final task treats E2E as +50.
+- **The AI never writes the specs.** The Playwright MCP is opt-in and for inspection/debugging only
+  (`--codegen none`). Playwright's test agents (`init-agents`: planner/generator/healer) are forbidden, and
+  `verify-harness` fails if their files appear.
+- **Tasks without E2E (1, 7)** drop `@playwright/test`, `playwright.config.ts`, `e2e/`, the `e2e*` scripts and
+  the CI browser/E2E steps when generated from the template (checklist in `react/repos/main/README.md`).
 
 > Follow-up (next iteration): update/replace `react/modules/tasks/project-setup.md` to the Oxlint-based
 > setup, or ship a per-task pre-scaffolded template repo.
@@ -177,16 +207,17 @@ weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error'
   `Outlet`, dynamic params, **URL-synced pagination**, programmatic navigation, 404.
 - **Required theory:** `modules/hooks`, `modules/router`.
 - **Decision points:** **which router** (present Path A/B tradeoffs, stay neutral); data vs declarative
-  mode; URL schema (`?page=` vs `/:page`).
+  mode; URL schema (`?page=` vs `/:page`); **E2E scope & structure** (Playwright introduced here).
 - **Feature / points:**
   - Project setup — **5**
   - Router + nested layout (`Outlet`) — **15**
   - List page, pagination synced to URL — **20**
-  - Detail route with param, master-detail via `Outlet` — **20**
+  - Detail route with param, master-detail via `Outlet` — **15**
   - Search/filter reflected in URL — **10**
-  - About page + nav link — **10**
-  - 404 page with return-to-app link — **10**
-  - Tests (routing, pagination, detail) — **10**
+  - About page + nav link — **5**
+  - 404 page with return-to-app link — **5**
+  - Unit tests (routing, pagination, detail) — **10**
+  - E2E tests (paginate, open/close detail, search, 404) — **15**
 
 ### Task 3 — State Management + Context
 
@@ -197,16 +228,18 @@ weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error'
   consumers re-render → good for theme/i18n, poor for hot state).
 - **Required theory:** `modules/state-management`, `modules/context-api`.
 - **Decision points:** **Redux Toolkit vs Zustand** (neutral tradeoffs; remind it pairs with the query
-  lib later); store shape/slices; what belongs in Context vs the store.
+  lib later); store shape/slices; what belongs in Context vs the store; cart persistence approach; router
+  (light, not graded); **E2E scope & structure**.
 - **Feature / points:**
   - Project setup — **5**
   - State lib set up & configured — **15**
-  - Product list + add/remove/quantity in global store (partial updates) — **20**
+  - Product list + add/remove/quantity in global store (partial updates) — **15**
   - Cart summary/flyout with totals; persists across navigation — **15**
   - Theme (light/dark) via Context API — **15**
   - Context-vs-store rationale documented (README/`CHANGELOG.md`) — **5**
-  - Optional cart persistence (localStorage) — **5**
-  - Tests (store/slice, components, context) — **20**
+  - Cart persistence (localStorage) — **5**
+  - Unit tests (store/slice, components, context) — **10**
+  - E2E tests (add to cart, quantity, persists across navigation, theme) — **15**
 
 ### Task 4 — Data Queries
 
@@ -215,17 +248,19 @@ weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error'
 - **Concepts:** RTK Query (if Redux) _or_ TanStack Query (if Zustand); caching, cache reuse across
   navigation, loading/error states, manual invalidation/refetch, configurable cache TTL via env.
 - **Required theory:** `modules/state-management/queries.md`.
-- **Decision points:** **query lib** (must be consistent with Task 3's store choice — AI reminds of this
-  coupling, stays neutral); cache/staleTime strategy; invalidation approach.
+- **Decision points:** **query lib** (must be consistent with the store choice — AI reminds of this
+  coupling, stays neutral); cache/staleTime strategy; invalidation approach; router (light, not graded);
+  **E2E scope & structure** (incl. stubbing the GitHub API with `page.route`).
 - **Feature / points:**
   - Project setup — **5**
-  - Query lib set up & configured — **15**
-  - Search + paginated results via query hooks — **20**
+  - Query lib set up & configured (TTL via env) — **15**
+  - Search + paginated results via query hooks — **15**
   - Detail view with cached fetch — **15**
   - Loading & error states — **15**
-  - Manual cache invalidation / refetch control — **10**
+  - Manual cache invalidation / refetch control — **5**
   - No refetch when revisiting cached pages — **5**
-  - Tests (loading, error, caching) — **15**
+  - Unit tests (loading, error, caching) — **10**
+  - E2E tests (search + paginate, cached detail, refresh, loading/error) — **15**
 
 ### Task 5 — Advanced Hooks & Patterns
 
@@ -235,23 +270,26 @@ weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error'
   controlled/uncontrolled. `useSyncExternalStore` and **render props** covered as
   advanced/legacy-comprehension bonuses (not core). **Explicitly excludes** `useMemo`/`useCallback`/
   `React.memo` — those belong to the Performance task.
-- **Required theory:** `modules/hooks` (advanced section), `modules/portals`; new inline material on
-  compound components / render props.
+- **Required theory:** `modules/advanced-hooks` (advanced hooks, memoization as background, composition
+  patterns: compound components, providers, controlled/uncontrolled, render props), `modules/portals`.
+  `modules/hooks` stays the Task 1 module (basics, `useReducer`, custom hooks).
 - **Decision points:** component API design (compound vs props); controlled vs uncontrolled; where an
-  imperative handle is justified.
+  imperative handle is justified; `useDeferredValue` vs `useTransition`; **E2E scope & structure** (real
+  keyboard/focus behavior).
 - **Feature / points:**
   - Project setup — **5**
   - Compound-component API (e.g., Tabs/Accordion) — **15**
-  - Accessible Modal/Popover: Portal + `useLayoutEffect` positioning + focus mgmt (`useRef`) — **20**
-  - Combobox/Autocomplete: `useId` + `useImperativeHandle` + keyboard nav — **20**
+  - Accessible Modal/Popover: Portal + `useLayoutEffect` positioning + focus mgmt (`useRef`) — **15**
+  - Combobox/Autocomplete: `useId` + `useImperativeHandle` + keyboard nav — **15**
   - Responsive filtered list via `useDeferredValue`/`useTransition` — **10**
   - Custom-hooks library (e.g., `useOnClickOutside`, `useMediaQuery`) — **10**
   - Showcase page composing the kit — **5**
-  - Tests (components + hooks) — **15**
+  - Unit tests (components + hooks) — **10**
+  - E2E tests (modal focus trap + ESC, combobox keyboard nav, tabs) — **15**
 
 ### Isolated tasks
 
-- **Forms** — keep current spec; add the harness (next iteration). Already a fresh standalone app.
+- **Forms** (task 6) — migrated to the new pattern (incl. E2E); harness repo at `react/repos/forms/`.
 - **Performance** — keep current spec (already ships a starter repo + `PERFORMANCE.md`); add the harness.
 - **Next.js (SSR/SSG)** — **rebuild from scratch** with `create-next-app` (App Router). Drops
   "migrate from `api-queries` branch"; keeps i18n (next-intl), RSC, server actions, `next/image`,
@@ -263,7 +301,8 @@ weather?: { tempC, code, fetchedAt }, status: 'idle'|'loading'|'success'|'error'
 
 > **Template shipped:** `react/repos/main/` is the **task-less template** every task repo is generated from
 > (full harness, Playwright included, empty `docs/TASK.md`, generic `docs/README.md`; generation checklist in
-> its README). `functional-components` (Task 1) and `routing` (Task 2) are the first generated repos. **`CLAUDE.md` is the
+> its README). Generated so far: `functional-components` (1), `routing` (2), `state-management` (3),
+> `queries` (4), `advanced-hooks` (5), `forms` (6). **`CLAUDE.md` is the
 > canonical instruction file**; the other tool files are **full-content mirrors** of it (not thin
 > pointers — live testing showed Copilot ignored a pointer and built the whole app). Harness repos live
 > under `react/repos/<slug>/`.
@@ -435,10 +474,22 @@ incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
   `verify-harness`. The exact jailbreak prompt was live-tested in a throwaway copy: the model declined and
   logged it.
 
+- **Task 3–6 harness repos generated** from `react/repos/main/` (README checklist): `state-management`,
+  `queries`, `advanced-hooks`, `forms`. Each has task-specific `CLAUDE.md` §1/§4/§6 (+ synced mirrors),
+  `docs/` (TASK copy + curated theory + decision → reading index), topic skills switched on, and named smoke
+  tests. In the `docs/` copies of `state-management.md` / `queries.md`, the source module's pros/cons and
+  "use X if…" verdicts are replaced by neutral **Questions to weigh**. Tasks 3–4 add a light, ungraded
+  **router** decision point. Verified: `verify:harness`, `lint`, `format`, `build`, `test`, `e2e` pass, plus
+  negative checks (missing `AGENTS.md`, missing theory file, stripped sentinel).
+- **Hooks theory split:** new `react/modules/advanced-hooks/` (advanced hooks, `useMemo`/`useCallback` as
+  background, composition patterns, ARIA widget patterns). `react/modules/hooks/` keeps only the Task 1 basics.
+- **Playwright conventions documented** ([E2E (Playwright) conventions](#e2e-playwright-conventions)); the
+  per-task points above now match the rebalanced task files.
+
 **Next iteration:**
 
 1. `react/.instructions/OPEN_QUESTIONS.md` — track unresolved items (defense gate, Oxlint rule set, deadlines).
-2. Generate the remaining task repos (3, 4, 5, 6, 8) from `react/repos/main/` (README checklist); consider a
+2. Generate the remaining task repos (7, 8) from `react/repos/main/` (README checklist); consider a
    `new-task` generator script.
 3. Update `react/README.md` weekly schedule to the 8-task list.
 4. Generate `cross-check.json` from each task's feature/points table.

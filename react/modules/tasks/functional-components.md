@@ -33,9 +33,9 @@ API, or a tiny local mock. **Do not build a backend** — the focus is React.
 ## 🤖 Working with AI (required)
 
 You are expected to complete this task **with an AI assistant** (Claude, Codex, GitHub Copilot, …). The
-assistant's job is to **coach you, not to write the app for you**. The full per-task harness
-(`AGENTS.md` + `CHANGELOG.md`) ships in a later iteration; until then, follow these rules manually and keep a
-`CHANGELOG.md` yourself.
+assistant's job is to **coach you, not to write the app for you**. Start from the starter repo
+[`react/repos/functional-components/`](../../repos/functional-components/) — it ships the coaching harness
+(`AGENTS.md` + mirrors, `CHANGELOG.md`) and the reading for each decision in `docs/`.
 
 - **You own the code.** You must be able to explain and defend every line.
 - **Decisions are yours.** At each **decision point** below, have the AI lay out the options with

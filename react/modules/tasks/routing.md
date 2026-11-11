@@ -30,8 +30,9 @@ endpoints). Any key-free paginated API works. **No backend** — the focus is Re
 ## 🤖 Working with AI (required)
 
 The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
-See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md); the automated
-harness ships next iteration.
+See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
+Start from the starter repo [`react/repos/routing/`](../../repos/routing/) — it ships the coaching
+harness (`AGENTS.md` + mirrors, `CHANGELOG.md`) and the reading for each decision in `docs/`.
 
 **Decision points for this task:**
 

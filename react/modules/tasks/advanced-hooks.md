@@ -28,15 +28,16 @@ hooks** and **composition patterns** — designing clean, accessible, reusable c
 
 ## 📖 Required theory
 
-- [Hooks](../hooks/README.md) — advanced hooks & custom hooks
+- [Advanced Hooks & Patterns](../advanced-hooks/README.md) — advanced hooks, custom hooks, compound components, render props
 - [Portals](../portals/README.md) — for the modal/popover
-- Compound components / render props: study inline resources the AI curates with you.
 - [Playwright](https://playwright.dev/docs/intro) — end-to-end testing.
 
 ## 🤖 Working with AI (required)
 
 The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
+Start from the starter repo [`react/repos/advanced-hooks/`](../../repos/advanced-hooks/) — it ships the coaching
+harness (`AGENTS.md` + mirrors, `CHANGELOG.md`) and the reading for each decision in `docs/`.
 
 **Decision points for this task:**
 

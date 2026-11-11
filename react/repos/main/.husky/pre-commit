@@ -1,1 +1,0 @@
-pnpm verify:harness && pnpm lint && pnpm format

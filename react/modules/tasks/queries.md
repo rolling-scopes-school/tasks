@@ -30,6 +30,8 @@ fine for learning). PokeAPI or any key-free API works. **No backend** — the fo
 
 The AI **coaches, you decide**. Keep a mandatory **`CHANGELOG.md`** (per-session steps + justified decisions).
 See the full protocol in [`AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
+Start from the starter repo [`react/repos/queries/`](../../repos/queries/) — it ships the coaching
+harness (`AGENTS.md` + mirrors, `CHANGELOG.md`) and the reading for each decision in `docs/`.
 
 **Decision points for this task:**
 
