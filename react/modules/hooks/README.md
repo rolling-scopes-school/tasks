@@ -10,7 +10,7 @@ Students will:
 
 - Understand the concept and advantages of React Hooks over class components.
 - Learn to use basic React Hooks such as `useState`, `useEffect`, `useContext`, and others.
-- Explore advanced hooks like `useReducer`, `useCallback` and `useMemo` for optimized performance.
+- Model more complex state transitions with `useReducer`.
 - Develop the ability to create custom hooks for reusing stateful logic across multiple components.
 - Apply hooks in practical scenarios to manage state, handle side effects, and integrate context.
 
@@ -23,18 +23,20 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to Hooks:**
+
    - [Introducing Hooks](https://react.dev/reference/react/hooks)
 
 2. **Basic Hooks:**
+
    - [Using the State Hook](https://react.dev/reference/react/useState)
    - [Using the Effect Hook](https://react.dev/reference/react/useEffect)
    - [Context in Hooks](https://react.dev/reference/react/useContext)
    - [Ref in Hooks](https://react.dev/reference/react/useRef)
 
-3. **Advanced Hooks:**
+3. **State with a reducer:**
+
    - [Using the Reducer Hook](https://react.dev/reference/react/useReducer)
-   - [Memoization in Hooks](https://react.dev/reference/react/useMemo)
-   - [Cache a function in Hooks](https://react.dev/reference/react/useCallback)
+   - [Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
 
 4. **Custom Hooks:**
    - [Building Your Own Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components)
@@ -44,9 +46,11 @@ Students are encouraged to explore the following resources:
 
 1. [React Hooks FAQ](https://reactjs.org/docs/hooks-faq.html)
 2. [Common Mistakes with React Hooks](https://overreacted.io/a-complete-guide-to-useeffect/)
-3. [Advanced React Patterns with Hooks](https://kentcdodds.com/blog/advanced-react-component-patterns)
-4. [How to useEffect in React](https://www.robinwieruch.de/react-useeffect-hook/)
-5. [How to Build Your Own React Hooks](https://www.freecodecamp.org/news/how-to-create-react-hooks/)
-6. [How to create a Custom Hook](https://www.robinwieruch.de/react-custom-hook/)
+3. [How to useEffect in React](https://www.robinwieruch.de/react-useeffect-hook/)
+4. [How to Build Your Own React Hooks](https://www.freecodecamp.org/news/how-to-create-react-hooks/)
+5. [How to create a Custom Hook](https://www.robinwieruch.de/react-custom-hook/)
+
+> **Next:** refs and the DOM, `useLayoutEffect`, `useId`, `useImperativeHandle`, concurrent hooks, memoization
+> and composition patterns continue in [Advanced Hooks & Patterns](../advanced-hooks/README.md).
 
 By the end of this module, students will have a solid understanding of how to effectively use React Hooks in their projects, making their code more concise, readable, and maintainable. Additionally, students will have the skills to craft their custom hooks, facilitating code reuse and further simplifying complex component logic.

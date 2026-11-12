@@ -1,3 +1,5 @@
 # Bad code examples, should not be formatted.
 stage1/modules/clean-code/materials/html-and-css.md
 angular/modules/interview/questions.md
+# Nested starter repos are formatted by their own Oxfmt config (.oxfmtrc.json), not root Prettier.
+react/repos/

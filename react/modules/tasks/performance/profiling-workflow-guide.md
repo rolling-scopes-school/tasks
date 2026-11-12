@@ -67,6 +67,7 @@ Before starting the profiling process, create a `PERFORMANCE.md` file in your pr
 #### Recording a Profiling Session
 
 1. **Open React DevTools Profiler**
+
    - Press F12 to open DevTools
    - Click the "Profiler" tab
    - Click the "Start profiling" button (circle icon)
@@ -74,21 +75,25 @@ Before starting the profiling process, create a `PERFORMANCE.md` file in your pr
 2. **Perform the Following Interactions** (one at a time, separate recordings):
 
    **Interaction A: Sort countries**
+
    - Click the sort button to sort by population
    - Wait for the render to complete
    - Click "Stop profiling"
 
    **Interaction B: Search countries**
+
    - Type "United" in the search bar
    - Wait for results to update
    - Click "Stop profiling"
 
    **Interaction C: Change Year**
+
    - Select a different year from the year selector
    - Wait for data to update
    - Click "Stop profiling"
 
    **Interaction D: Toggle column**
+
    - Open the column modal
    - Toggle a column on/off
    - Close the modal
@@ -97,6 +102,7 @@ Before starting the profiling process, create a `PERFORMANCE.md` file in your pr
 3. **Analyze Each Recording**
 
    For each interaction, capture:
+
    - Commit duration
    - Render duration
    - Flame chart

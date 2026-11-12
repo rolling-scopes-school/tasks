@@ -107,6 +107,7 @@ Focus on routing and functional components.
 1. **Branch Management**: Create branch from **"unit-testing"**. Branch name: **"hooks-and-routing"**
 
 2. **Component Conversion**:
+
    - Convert ALL class components to **functional components** with hooks
    - **Exception**: Keep **Error Boundary** as class component
    - Create custom hook for localStorage operations
@@ -119,22 +120,26 @@ Focus on routing and functional components.
 ### Penalties
 
 - **1. TypeScript & Code Quality**
+
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **2. Test Coverage (one which applies)**
+
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **3. React Best Practices**
+
   - Direct DOM manipulations inside the React components: **-50 points per each**
   - Presence of class components (except Error Boundaries): **-50 points per each**
   - Absence of a custom hook for accessing localStorage: **-20 points**
 
 - **4. External Dependencies**
+
   - Usage of Redux or other state management libraries: **-100 points**
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 

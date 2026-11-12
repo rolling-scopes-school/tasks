@@ -150,6 +150,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 1. **Branch Management**: Create a separate branch from "class-components". Branch name: **"unit-testing"**
 
 2. **Test Runner Configuration**:
+
    - Configure **Jest** or **Vitest** with React Testing Library
    - Set up test coverage reporting with the following minimum thresholds:
 
@@ -167,6 +168,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
    ```
 
 3. **Coverage Configuration**:
+
    - This is an example of coverage configuration:
 
    ```js
@@ -189,6 +191,7 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
 ### Penalties
 
 - **1. Absence of required features from the previous task (`class-components`) results in a penalty equal to the original feature's points:**
+
   - Application Layout Structure: **-5 points**
   - Search Functionality with Local Storage: **-15 points**
   - Search Results Display: **-10 points**
@@ -200,20 +203,24 @@ You must use **Jest** or **Vitest** as the test runner and **React Testing Libra
   - Application Error Boundary: **-15 points**
 
 - **2. TypeScript & Code Quality**
+
   - TypeScript isn't used: **-95 points**
   - Usage of _any_: **-20 points per each**
   - Usage of _ts-ignore_: **-20 points per each**
   - Presence of _code-smells_ (God-object, chunks of duplicate code), commented code sections: **-10 points per each**
 
 - **3. Test Coverage (one which applies)**
+
   - Statement coverage below 80% (≥70%): **-10 points**
   - Statement coverage below 70% (≥50%): **-30 points**
   - All coverage metrics below 50%: **-50 points**
 
 - **4. React Best Practices**
+
   - Direct DOM manipulations inside the React components: **-50 points per each**
 
 - **5. External Dependencies**
+
   - Usage of component libraries, e.g. Material UI, Ant Design: **-100 points**
 
 - **6. Project Management**
