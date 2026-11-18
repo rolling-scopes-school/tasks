@@ -3,7 +3,6 @@
 ## ⚠️ Initial Setup Instructions
 
 1. ✅ First Commit — README.md Only
-
    - Your very first commit must contain only a README.md file.
    - Do not install Vite, React, or any dependencies in the initial commit.
    - Commit message should follow convention, like: `chore: initial commit with README`
@@ -17,7 +16,6 @@
 1. Language Requirement
    - Use **TypeScript** for the project.
 2. Project Setup
-
    - Initialize the project using [Vite](https://vitejs.dev/guide/) with the [_react-ts_ template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts).
 
      ```sh
@@ -26,11 +24,9 @@
      ```
 
 3. Code Quality Tools
-
    1. ESLint
       - ESlint is already a part of the _react-ts_ setup.
    2. Prettier
-
       - Integrate Prettier for code formatting.
         You can execute the following command to add missing plugins:
 
@@ -83,7 +79,6 @@
       ```
 
    3. Husky
-
       - Add Husky and configure it to run `lint` command on pre-commit.
 
       ```sh
@@ -93,9 +88,7 @@
       You can follow the official [Husky documentation](https://typicode.github.io/husky/get-started.html)
 
    4. package.json commands
-
       - Add the following npm scripts:
-
         - `format:fix`: For running Prettier's --write command.
 
         ```json

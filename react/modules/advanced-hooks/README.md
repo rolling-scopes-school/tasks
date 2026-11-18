@@ -27,7 +27,6 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Refs and the DOM:**
-
    - [Referencing Values with Refs](https://react.dev/learn/referencing-values-with-refs)
    - [Manipulating the DOM with Refs](https://react.dev/learn/manipulating-the-dom-with-refs)
    - [`useRef`](https://react.dev/reference/react/useRef)
@@ -35,21 +34,17 @@ Students are encouraged to explore the following resources:
    - [`ref` as a prop (React 19)](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop)
 
 2. **Layout and identity:**
-
    - [`useLayoutEffect`](https://react.dev/reference/react/useLayoutEffect)
    - [`useId`](https://react.dev/reference/react/useId)
 
 3. **Concurrent features:**
-
    - [`useTransition`](https://react.dev/reference/react/useTransition)
    - [`useDeferredValue`](https://react.dev/reference/react/useDeferredValue)
 
 4. **External stores:**
-
    - [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore)
 
 5. **Memoization:**
-
    - [`useMemo`](https://react.dev/reference/react/useMemo)
    - [`useCallback`](https://react.dev/reference/react/useCallback)
 
@@ -57,7 +52,6 @@ Students are encouraged to explore the following resources:
    > it is background knowledge only — don't build that task around it.
 
 6. **Composition patterns:**
-
    - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context) — the basis of compound components and providers
    - [Scaling Up with Reducer and Context](https://react.dev/learn/scaling-up-with-reducer-and-context)
    - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components) — controlled vs uncontrolled

@@ -23,18 +23,15 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Introduction to Hooks:**
-
    - [Introducing Hooks](https://react.dev/reference/react/hooks)
 
 2. **Basic Hooks:**
-
    - [Using the State Hook](https://react.dev/reference/react/useState)
    - [Using the Effect Hook](https://react.dev/reference/react/useEffect)
    - [Context in Hooks](https://react.dev/reference/react/useContext)
    - [Ref in Hooks](https://react.dev/reference/react/useRef)
 
 3. **State with a reducer:**
-
    - [Using the Reducer Hook](https://react.dev/reference/react/useReducer)
    - [Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
 
@@ -49,8 +46,5 @@ Students are encouraged to explore the following resources:
 3. [How to useEffect in React](https://www.robinwieruch.de/react-useeffect-hook/)
 4. [How to Build Your Own React Hooks](https://www.freecodecamp.org/news/how-to-create-react-hooks/)
 5. [How to create a Custom Hook](https://www.robinwieruch.de/react-custom-hook/)
-
-> **Next:** refs and the DOM, `useLayoutEffect`, `useId`, `useImperativeHandle`, concurrent hooks, memoization
-> and composition patterns continue in [Advanced Hooks & Patterns](../advanced-hooks/README.md).
 
 By the end of this module, students will have a solid understanding of how to effectively use React Hooks in their projects, making their code more concise, readable, and maintainable. Additionally, students will have the skills to craft their custom hooks, facilitating code reuse and further simplifying complex component logic.
