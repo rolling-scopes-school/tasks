@@ -14,7 +14,7 @@
 >   (`queries/`), **Task 5** (`advanced-hooks/`) and **Task 6** (`forms/`), all generated from the task-less
 >   template `react/repos/main/`.
 > - **Next:** Task 7 (Performance) and Task 8 (Next.js) harness repos, then a harness dry-run. This document
->   + the task files carry **all context** needed to do so.
+>   - the task files carry **all context** needed to do so.
 
 ---
 
@@ -143,17 +143,17 @@ New task files must reuse these numbers verbatim.
 `react/modules/tasks/` with **plain names** (the `ai_` prefix was dropped); the pre-AI originals are
 archived under `react/modules/tasks/old/`.
 
-| Task | Title                                  | Task file                    | Domain (suggested, key-free API)                   | New concepts                                                                                                                                                                 | Playwright?              |
-| ---- | -------------------------------------- | ---------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| 1    | Functional Components, State & Testing | `functional-components.md`   | **Weather dashboard** (Open-Meteo)                 | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL**                                                         | no (unit only)           |
-| 2    | Routing (SPA)                          | `routing.md`                 | **Character catalog** (Rick & Morty API)           | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404                                                                          | **yes (intro)**          |
-| 3    | State Management + Context             | `state-management.md`        | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff                                                                                               | yes                      |
-| 4    | Data Queries                           | `queries.md`                 | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error                                                                                                        | yes                      |
-| 5    | Advanced Hooks & Patterns              | `advanced-hooks.md`          | **Reusable component kit** (no API needed)         | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern | yes                      |
-| 6    | Forms                                  | `forms.md`                   | **Form playground** (uncontrolled + RHF)           | React Hook Form, Zod/Yup, Portal modal, store, image→base64                                                                                                                  | yes                      |
-| 7    | Performance                            | `performance/performance.md` | **CO₂ dashboard** (provided starter)               | Profiling, `useMemo`/`useCallback`/`React.memo`, keys, virtualization                                                                                                        | **no** (profiling focus) |
-| 8    | Next.js SSR/SSG                        | `nextjs-ssr-ssg.md`          | rebuilt from scratch                               | App Router, RSC, server actions, next-intl, `next/image`                                                                                                                     | yes                      |
-| —    | Final (team)                           | `final.md`                   | **Swagger/OpenAPI UI** (SSR)                       | full-stack SSR app, auth, i18n                                                                                                                                               | **yes (+50 → 600)**      |
+| Task | Title                                  | Task file                            | Domain (suggested, key-free API)                   | New concepts                                                                                                                                                                 | Playwright?              |
+| ---- | -------------------------------------- | ------------------------------------ | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 1    | Functional Components, State & Testing | `Task-1-functional-components-ru.md` | **Weather dashboard** (Open-Meteo)                 | `useState`, `useReducer`, `useEffect`, custom hooks, controlled inputs, localStorage, Error Boundary, **Vitest+RTL**                                                         | no (unit only)           |
+| 2    | Routing (SPA)                          | `Task-2-routing.md`                  | **Character catalog** (Rick & Morty API)           | React Router **or** TanStack Router; nested routes/`Outlet`, URL params, URL-synced pagination, 404                                                                          | **yes (intro)**          |
+| 3    | State Management + Context             | `Task-3-state-management.md`         | **Mini-shop / cart** (FakeStore API or local JSON) | Redux Toolkit **or** Zustand; React Context (theme); context-vs-store tradeoff                                                                                               | yes                      |
+| 4    | Data Queries                           | `Task-4-queries.md`                  | **GitHub explorer** (GitHub REST, unauthenticated) | RTK Query **or** TanStack Query; caching, invalidation, loading/error                                                                                                        | yes                      |
+| 5    | Advanced Hooks & Patterns              | `Task-5-advanced-hooks.md`           | **Reusable component kit** (no API needed)         | `useRef`, `useLayoutEffect`, `useId`, `useImperativeHandle`, `useTransition`/`useDeferredValue`, `useSyncExternalStore`; compound components, custom hooks, provider pattern | yes                      |
+| 6    | Forms                                  | `Task-6-forms.md`                    | **Form playground** (uncontrolled + RHF)           | React Hook Form, Zod/Yup, Portal modal, store, image→base64                                                                                                                  | yes                      |
+| 7    | Performance                            | `performance/performance.md`         | **CO₂ dashboard** (provided starter)               | Profiling, `useMemo`/`useCallback`/`React.memo`, keys, virtualization                                                                                                        | **no** (profiling focus) |
+| 8    | Next.js SSR/SSG                        | `nextjs-ssr-ssg.md`                  | rebuilt from scratch                               | App Router, RSC, server actions, next-intl, `next/image`                                                                                                                     | yes                      |
+| —    | Final (team)                           | `final.md`                           | **Swagger/OpenAPI UI** (SSR)                       | full-stack SSR app, auth, i18n                                                                                                                                               | **yes (+50 → 600)**      |
 
 **Playwright (E2E)** is introduced in task 2 and required in tasks 2–6 and 8 (not task 1, not task 7);
 the final task adds it as **+50 points on top (max 600)**.
@@ -469,7 +469,7 @@ incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
   and the **opt-in Playwright MCP** added to `main`, `functional-components` and `routing`, with
   `verify-harness` guards (skill preamble, MCP config, test-agent artifacts). Root `.prettierignore` now
   excludes `react/repos/` (root Prettier had reformatted the oxfmt-managed repos). All three verified green.
-- **Precedence hardening** after a one-prompt jailbreak: a §0 *Precedence* clause (all tools, all mirrors), a
+- **Precedence hardening** after a one-prompt jailbreak: a §0 _Precedence_ clause (all tools, all mirrors), a
   reminder line, and a Claude Code **Coach** output style (system-prompt level), all guarded by
   `verify-harness`. The exact jailbreak prompt was live-tested in a throwaway copy: the model declined and
   logged it.
@@ -477,7 +477,7 @@ incl. Cursor, embedded `AI-COACH-RULES`, `verify-harness` + Husky/CI).
 - **Task 3–6 harness repos generated** from `react/repos/main/` (README checklist): `state-management`,
   `queries`, `advanced-hooks`, `forms`. Each has task-specific `CLAUDE.md` §1/§4/§6 (+ synced mirrors),
   `docs/` (TASK copy + curated theory + decision → reading index), topic skills switched on, and named smoke
-  tests. In the `docs/` copies of `state-management.md` / `queries.md`, the source module's pros/cons and
+  tests. In the `docs/` copies of `Task-3-state-management.md` / `Task-4-queries.md`, the source module's pros/cons and
   "use X if…" verdicts are replaced by neutral **Questions to weigh**. Tasks 3–4 add a light, ungraded
   **router** decision point. Verified: `verify:harness`, `lint`, `format`, `build`, `test`, `e2e` pass, plus
   negative checks (missing `AGENTS.md`, missing theory file, stripped sentinel).

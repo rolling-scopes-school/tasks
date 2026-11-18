@@ -221,7 +221,6 @@ React 19 release brings a host of groundbreaking features that significantly enh
    This new compiler transforms React code into optimized JavaScript, offering substantial performance gains. It autonomously manages component rendering for UI state changes, eliminating the need for manual state and UI updates. The compiler also optimizes components as needed, reducing dependency on hooks like `useMemo`, `memo` APIs, and `useCallback`.
 
    Key benefits:
-
    - Improved error reporting in `react-dom`
    - Seamless rendering of async scripts anywhere in a component tree
    - Native rendering of document metadata tags in components
@@ -231,7 +230,6 @@ React 19 release brings a host of groundbreaking features that significantly enh
    Server actions streamline data mutations and state updates in React applications by bridging the gap between client and server seamlessly. This enhancement enables developers to automatically handle pending states, error management, optimistic updates, and sequential requests.
 
    Key benefits:
-
    - Client components can call asynchronous functions
    - Built-in error handling
    - Immediate user feedback during data submission
@@ -241,14 +239,12 @@ React 19 release brings a host of groundbreaking features that significantly enh
    RSCs allow server-side rendering of UI components, separate from client-side applications or traditional SSR. This approach significantly improves initial page load times, especially for complex UIs. RSCs can be executed at build time or for each request, offering flexibility.
 
    Key benefits:
-
    - Faster page load time and smoother interactions
    - Runtime flexibility at build time and for each request
    - Improved app performance
 
 4. **New Hooks: `useFormStatus`, `useActionState`, `useOptimistic`**:
    React 19 introduces three prominent hooks that transform how React developers handle forms:
-
    - `useActionState`: Simplifies state management within Actions, automatically tracks pending states, and supports action composition.
 
    - `useFormStatus`: Provides direct access to parent form information within child components without excessive prop drilling.
@@ -289,10 +285,6 @@ React's growth has been remarkable:
 ## Links
 
 - React [changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
-- React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
-- [React v17.0](https://legacy.reactjs.org/blog/2020/10/20/react-v17.html)
-- A Comprehensive Guide to the Latest Features and Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
-- [React Conference Presentations](https://reactjs.org/community/conferences.html)
 
 ## Influential People in React Development
 

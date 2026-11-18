@@ -3,7 +3,7 @@
 > Part of the revised React program. See the rationale in
 > [`react/.instructions/AI_ERA_PROGRAM.md`](../../.instructions/AI_ERA_PROGRAM.md).
 > This task is **independent** — build it from scratch with function components, a store, and a form library.
-> The accessible **modal** and **autocomplete** can be **either reused from [Task 5 — Advanced Hooks](./advanced-hooks.md)
+> The accessible **modal** and **autocomplete** can be **either reused from [Task 5 — Advanced Hooks](./Task-5-advanced-hooks.md)
 > or built from scratch following the same principles** — your call. Either way, this task is about **forms**,
 > so don't let those patterns become the focus.
 
@@ -30,7 +30,7 @@ validation, and accessibility**.
 
 ## 📖 Required theory
 
-- [Task 5 — Advanced Hooks & Patterns](./advanced-hooks.md) — the canonical **accessible modal (Portal)**,
+- [Task 5 — Advanced Hooks & Patterns](./Task-5-advanced-hooks.md) — the canonical **accessible modal (Portal)**,
   **controlled/uncontrolled**, and **combobox/autocomplete** patterns; reuse them here or rebuild the same way.
 - [Portals](../portals/README.md) — modal internals, for a refresher
 - [State management (Redux Toolkit / Zustand)](../state-management/README.md)
@@ -65,7 +65,7 @@ harness (`AGENTS.md` + mirrors, `CHANGELOG.md`) and the reading for each decisio
 
 ### Feature 2: Accessible modal host (**10 points**)
 
-- An accessible modal — **reuse the one from [Task 5](./advanced-hooks.md), or build it from scratch following
+- An accessible modal — **reuse the one from [Task 5](./Task-5-advanced-hooks.md), or build it from scratch following
   the same principles**: rendered through a **Portal**, with **focus trap**, **ESC to close**, **click-outside
   to close**, and **focus returned** to the trigger. The same modal hosts either form. Points are for correct,
   accessible **behavior** — the modal isn't the focus of this task, so keep it lean whichever route you take.

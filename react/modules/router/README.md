@@ -23,35 +23,31 @@ Students will:
 Students are encouraged to explore the following resources:
 
 1. **Getting Started with React Router:**
-
-   - [React Router: Overview](https://reactrouter.com/en/main/start/overview)
-   - [React Router 6: Tutorial](https://reactrouter.com/en/main/start/tutorial)
-   - [React Router 7: Tutorial](https://www.robinwieruch.de/react-router/)
+   - [Getting Started with React Router](https://reactrouter.com/home)
+   - [React Router: A Complete Guide 2026](https://scrimba.com/articles/react-router-complete-guide-2026/)
+   - [React Router v8](https://remix.run/blog/react-router-v8)
 
 2. **Basic Routing:**
-
-   - [Installation](https://reactrouter.com/start/library/installation)
-   - [Routing](https://reactrouter.com/start/library/routing)
-   - [Navigating](https://reactrouter.com/start/library/navigating)
-   - [URL values](https://reactrouter.com/start/library/url-values)
+   - [Installation Declarative Mode](https://reactrouter.com/start/declarative/installation)
+   - [Routing](https://reactrouter.com/start/declarative/routing)
+   - [Navigating](https://reactrouter.com/start/declarative/navigating)
+   - [URL values](https://reactrouter.com/start/declarative/url-values)
 
 3. **API Reference:**
-
    - [Router Provider](https://reactrouter.com/api/data-routers/RouterProvider)
    - [Browser Router](https://reactrouter.com/api/declarative-routers/BrowserRouter)
    - [Route](https://reactrouter.com/api/components/Route)
+   - [Upgrading from v7](https://reactrouter.com/upgrading/v7)
 
 4. **Navigation and Outlet:**
-
    - [Navigating with React Router](https://reactrouter.com/api/components/Navigate)
    - [Link](https://reactrouter.com/api/components/Link)
    - [NavLink](https://reactrouter.com/api/components/NavLink)
    - [Outlet](https://reactrouter.com/api/components/Outlet)
 
 5. **Protected Routes and Authentication:**
-
    - [Private Routes](https://www.robinwieruch.de/react-router-private-routes/)
-   - [Auth Example](https://github.com/remix-run/react-router/tree/dev/examples/auth)
+   - [Auth Example](https://github.com/remix-run/react-router-examples/tree/main/auth)
    - [Authentication](https://www.robinwieruch.de/react-router-authentication/)
 
 6. **Hooks in React Router v7:**
@@ -65,7 +61,5 @@ Students are encouraged to explore the following resources:
 
 1. [How to use React Router v7](https://www.robinwieruch.de/react-router/)
 2. [How to use React Router v7 in React apps](https://blog.logrocket.com/react-router-v7-guide/)
-3. [Upgrading from v6](https://reactrouter.com/upgrading/v6)
-4. [Future of the React Router - React Router 7](https://remix.run/blog/merging-remix-and-react-router) (this topic would be also partially covered in [SSR/SSG module](../nextjs-ssr-ssg/))
 
 By the end of this module, students will have a comprehensive understanding of routing in React applications using React Router. They will be equipped with the skills to create sophisticated and user-friendly SPAs that simulate multi-page navigation seamlessly.

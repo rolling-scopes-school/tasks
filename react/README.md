@@ -18,61 +18,38 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ## Course program
 
-### Week #1 (27th of April 2026)
+### Week #1 (07th of December 2026)
 
 #### Theory
 
 - [RS School Application Documentation](https://rs.school/docs/rs-app)
 - [History of React](modules/react-evolution/README.md)
-- [Vite with React and the TypeScript](modules/react-setup-env/README.md)
-- [Class Components](modules/class-component/README.md)
+- [Hooks](modules/hooks/README.md)
 - [Error Boundaries](modules/error-boundary/README.md)
+- [React Tests](modules/testing/README.md)
+- [General requirements for all tasks](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/README.md#general-requirements-for-all-the-tasks)
 
 #### Practical tasks
 
-[Task 1](modules/tasks/class-components.md)
-
-- [General requirements for all tasks](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/README.md#general-requirements-for-all-the-tasks)
+[Task 1](modules/tasks/Task-1-functional-components.md)
 
 #### Tests
 
 - Test 0. How to learn in RS School
-- Test 1. React components
 
-### Week #2 (4th of May 2026)
-
-#### Theory
-
-- [React Tests](modules/testing/README.md)
-
-#### Practical tasks
-
-[Task 2](modules/tasks/tests.md)
-
-- Cross-check review: [Task 1](modules/tasks/class-components.md)
-
-#### Tests
-
-- Test 2. Testing
-
-### Week #3 (11th of May 2026)
+### Week #2 (14th of December 2026)
 
 #### Theory
 
-- [Hooks](modules/hooks/README.md)
 - [React Router](modules/router/README.md)
 
 #### Practical tasks
 
-[Task 3](modules/tasks/functional-routing.md)
+[Task 2](modules/tasks/Task-2-routing.md)
 
-- Cross-check review: [Task 2](modules/tasks/tests.md)
+- Cross-check review: [Task 1](modules/tasks/Task-1-functional-components.md)
 
-#### Tests
-
-- Test 3. React hooks and routing
-
-### Week #4 (18th of May 2026)
+### Week #3 (21st of December 2026)
 
 #### Theory
 
@@ -81,16 +58,12 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-[Task 4](modules/tasks/state-management.md)
+[Task 3](modules/tasks/Task-3-state-management.md)
 
-- Cross-check review: [Task 3](modules/tasks/functional-routing.md)
-- Mentor review: [Task 3](modules/tasks/functional-routing.md)
+- Cross-check review: [Task 2](modules/tasks/Task-2-routing.md)
+- Code Review Session with a Mentor: [Task 2](modules/tasks/Task-2-routing.md)
 
-#### Tests
-
-- Test 4. State management
-
-### Week #5 (25th of May 2026)
+### Week #4 (04th of January 2027)
 
 #### Theory
 
@@ -98,16 +71,25 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-[Task 5](modules/tasks/queries.md)
+[Task 4](modules/tasks/Task-4-queries.md)
 
-- Cross-check review: [Task 4](modules/tasks/state-management.md)
-- Mentor review: [Task 4](modules/tasks/state-management.md)
+- Cross-check review: [Task 3](modules/tasks/Task-3-state-management.md)
+- Code Review Session with a Mentor: [Task 3](modules/tasks/Task-3-state-management.md)
 
-#### Tests
+### Week #5 (11th of January 2027)
 
-- Test 5. Queries APIs
+#### Theory
 
-### Week #6 (1st of June 2026)
+- [Advanced Hooks](modules/advanced-hooks/README.md)
+
+#### Practical tasks
+
+[Task 5](modules/tasks/Task-5-advanced-hooks.md)
+
+- Cross-check review: [Task 4](modules/tasks/Task-4-queries.md)
+- Code Review Session with a Mentor: [Task 4](modules/tasks/Task-4-queries.md)
+
+### Week #6 (18th of January 2027)
 
 #### Theory
 
@@ -116,16 +98,12 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 #### Practical tasks
 
-[Task 6](modules/tasks/forms.md)
+[Task 6](modules/tasks/Task-6-forms.md)
 
-- Cross-check review: [Task 5](modules/tasks/queries.md)
-- Mentor review: [Task 5](modules/tasks/queries.md)
+- Cross-check review: [Task 5](modules/tasks/Task-5-advanced-hooks.md)
+- Code Review Session with a Mentor: [Task 5](modules/tasks/Task-5-advanced-hooks.md)
 
-#### Tests
-
-- Test 6. React Forms
-
-### Week #7 (8th of June 2026)
+### Week #7 (25th of January 2027)
 
 #### Theory
 
@@ -135,14 +113,10 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 [Task 7](modules/tasks/performance/performance.md)
 
-- Cross-check review: [Task 6](modules/tasks/forms.md)
-- Mentor review: [Task 6](modules/tasks/forms.md)
+- Cross-check review: [Task 6](modules/tasks/Task-6-forms.md)
+- Code Review Session with a Mentor: [Task 6](modules/tasks/Task-6-forms.md)
 
-#### Tests
-
-- Test 7. React Performance
-
-### Week #8 (15th of June 2026)
+### Week #8 (01st of February 2027)
 
 #### Theory
 
@@ -153,38 +127,34 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 [Task 8](modules/tasks/nextjs-ssr-ssg.md)
 
 - Cross-check review: [Task 7](modules/tasks/performance/performance.md)
-- Mentor review: [Task 7](modules/tasks/performance/performance.md)
+- Code Review Session with a Mentor: [Task 7](modules/tasks/performance/performance.md)
 
-#### Tests
-
-- Test 8. React SSR
-
-### Week #9 (22nd of June 2026)
+### Week #9 (08th of February 2027)
 
 - [Swagger UI](modules/tasks/final.md)
 
 #### Practical tasks
 
 - Cross-check review: [Task 8](modules/tasks/nextjs-ssr-ssg.md)
-- Mentor review: [Task 8](modules/tasks/nextjs-ssr-ssg.md)
+- Code Review Session with a Mentor: [Task 8](modules/tasks/nextjs-ssr-ssg.md)
 
-### Week #10 (29th of June 2026)
+### Week #10 (15th of February 2027)
 
 - [Swagger UI](modules/tasks/final.md)
 
-### Week #11 (6th of July 2026)
+### Week #11 (22nd of February 2027)
 
 - [Technical React Interview](interview.md)
 - [Swagger UI](modules/tasks/final.md)
 
-### Week #12 (13th of July 2026)
+### Week #12 (01st of March 2027)
 
 - [Technical React Interview](interview.md)
 
 #### Practical tasks
 
 - Cross-check review: [Swagger UI](modules/tasks/final.md)
-- Mentor review: [Swagger UI](modules/tasks/final.md)
+- Code Review Session with a Mentor: [Swagger UI](modules/tasks/final.md)
 
 - At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
