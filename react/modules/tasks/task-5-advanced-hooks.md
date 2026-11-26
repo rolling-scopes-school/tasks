@@ -14,7 +14,7 @@ hooks** and **composition patterns** — designing clean, accessible, reusable c
 
 > **Reused downstream:** the **accessible modal (Portal)**, **controlled vs uncontrolled**, and
 > **combobox / autocomplete** patterns you build here are the canonical versions — in
-> [Task 6 — Forms](./forms.md) you can **reuse them or rebuild them the same way** (that task focuses on form
+> [Task 6 — Forms](task-6-forms.md) you can **reuse them or rebuild them the same way** (that task focuses on form
 > handling, not re-deriving these). Build them as clean, portable components you can carry across.
 
 ## 🎯 Skills / Learning objectives
