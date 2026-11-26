@@ -52,7 +52,7 @@ Students are encouraged to study the following resources based on their chosen s
 
 ### General State Management
 
-- [React Stack Patterns](https://www.patterns.dev/react/react-2026/)
+- [React Stack Patterns](https://www.patterns.dev/react/react-2026/#state-management-and-data-fetching-libraries)
 - [Choosing the Right State Management Solution](https://react.dev/learn/choosing-the-state-structure)
 
 ## Comparison of Solutions
