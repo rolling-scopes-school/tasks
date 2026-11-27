@@ -25,7 +25,7 @@
 - [Matchers](https://jestjs.io/docs/using-matchers)
 - [Mocks](https://jestjs.io/docs/mock-functions)
 - [Testing async code](https://jestjs.io/docs/asynchronous)
-- [Table tests](https://miyauchi.dev/posts/jest-table-driven-tests/)
+- [Table tests](https://miyauchi.dev/en/posts/jest-table-driven-tests)
 
 ## Practice
 
